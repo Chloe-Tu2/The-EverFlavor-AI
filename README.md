@@ -85,3 +85,59 @@ The system returns:
 - Full restriction handling (religious, medical, ethical)
 
 ---
+
+## Project Structure
+
+```
+The-EverFlavor-AI/
+├── notebooks/
+│   └── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
+├── data/
+│   ├── raw/          # Original downloads and samples (generated, not committed)
+│   ├── interim/      # Partially cleaned data (generated, not committed)
+│   └── processed/    # Train/val/test splits and plots (generated, not committed)
+├── src/              # Agent code (to come)
+├── Capstone-Project_Proposal-Idea/   # Proposal slides and Phase 1 document
+├── requirements.txt  # Python libraries for the notebook
+├── .env.example      # Template for API keys (copy to .env, which git ignores)
+└── README.md
+```
+
+---
+
+## Current Status
+
+**Done (Weeks 4-6):** data collected from USDA FoodData Central, Open Food Facts, Food.com (Kaggle), and Hugging Face; cleaning and feature engineering (cuisine family, dietary flags, calories per serving, ingredient lists, complexity); stratified train/validation/test split; exploratory analysis; and a rule-based baseline recommender.
+
+**Known data gaps:**
+- The Hugging Face dataset has no African cuisine label, so the African family has no recipes yet. CulinaryDB or RecipeDB are planned to fill this.
+- Food.com has no cuisine column; cuisine still needs to be inferred from its tags.
+- Food.com reports fat, protein, and carbs only as percent of daily value, not grams.
+- Food.com dietary flags come from ingredient keywords, so they are approximate.
+
+**Next:** Week 7 model development, then the CrewAI agents, Google Places integration, and the Gradio interface.
+
+---
+
+## Running the Notebook
+
+`notebooks/01_data_acquisition_EverFlavor_V3.ipynb` runs in Google Colab, VS Code, and Antigravity. Its setup cell (section 2.3) detects the environment, moves to the project folder, and loads API keys from the right place.
+
+### Google Colab
+
+1. Open the notebook in Colab.
+2. Click the key icon in the left sidebar and add a secret named `USDA_API_KEY` ([get a free key](https://fdc.nal.usda.gov/api-guide.html)). Switch on **Notebook access**.
+3. Run all cells.
+
+### VS Code or Antigravity
+
+1. Install the **Python** and **Jupyter** extensions.
+2. In a terminal in the project folder, run `pip install -r requirements.txt`.
+3. Copy `.env.example` to `.env` and fill in `USDA_API_KEY`. Git ignores `.env`, so your keys are never pushed.
+4. Open the notebook, pick the Python interpreter you installed into as the kernel, and run all cells.
+
+After a kernel restart, run the cells in sections 2.2 and 2.3 again before any later section.
+
+Generated data files in `data/` are not committed; the notebook recreates them.
+
+---

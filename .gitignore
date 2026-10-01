@@ -1,0 +1,18 @@
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Generated data - recreated by the notebook; the large CSVs
+# are over GitHub's 100 MB file limit. Keep the empty folders.
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
