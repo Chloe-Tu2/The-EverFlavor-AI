@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="docs/art/ramen.svg" alt="A bowl of ramen drawn with code, above the words EverFlavor AI" width="480">
+
+<sub>Drawn with code: <a href="docs/art/ramen.py">docs/art/ramen.py</a> (run it to see it in color in your terminal)</sub>
+
 # EverFlavor AI
 
 ### Multi-Agent Diet & Discovery System
@@ -248,6 +252,7 @@ The-EverFlavor-AI/
 ├── models/           # Fitted baseline pipeline (generated, not committed)
 ├── src/              # Agent code (to come)
 ├── docs/
+│   ├── art/          # ramen.py draws the README's ramen bowl (ANSI art) and saves ramen.svg
 │   ├── proposal/     # Capstone proposal slides and Phase 1 document (PDF)
 │   ├── flag_review/  # Blind 200-recipe sheet for hand-checking the restriction flags
 │   ├── datasheet.md  # What is in the dataset, how it was built, known limits
