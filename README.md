@@ -11,6 +11,19 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![ITAI2277](https://img.shields.io/badge/ITAI%202277-Capstone%20Project-blueviolet)
 
+![Status](https://img.shields.io/badge/Status-Active%20Development-success)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent-FF6B35)
+![Gradio](https://img.shields.io/badge/Gradio-Chat%20Interface-F97316)
+![LLM](https://img.shields.io/badge/LLM-Groq%20%7C%20LLaMA%203.1-00A67E?logo=meta&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Baseline%20Model-F7931E?logo=scikit-learn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Datasets-FFD21E?logo=huggingface&logoColor=black)
+![Kaggle](https://img.shields.io/badge/Kaggle-Data%20Source-20BEFF?logo=Kaggle&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-Supported-F9AB00?logo=googlecolab&logoColor=white)
+![Parquet](https://img.shields.io/badge/Data-Parquet-orange)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![ITAI2277](https://img.shields.io/badge/ITAI%202277-Capstone%20Project-blueviolet)
+
 <div align="center">
 
 <img src="docs/art/ramen.svg" alt="A bowl of ramen drawn with code, above the words EverFlavor AI" width="480">
