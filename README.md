@@ -1,9 +1,3 @@
-<div align="center">
-
-<img src="docs/art/ramen.svg" alt="A bowl of ramen drawn with code, above the words EverFlavor AI" width="480">
-
-<sub>Drawn with code: <a href="docs/art/ramen.py">docs/art/ramen.py</a> (run it to see it in color in your terminal)</sub>
-
 # EverFlavor AI
 
 ### Multi-Agent Diet & Discovery System
