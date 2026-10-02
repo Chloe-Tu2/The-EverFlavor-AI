@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌍 EverFlavor AI
+# EverFlavor AI
 
 ### Multi-Agent Diet & Discovery System
 
@@ -15,13 +15,13 @@
 
 **Team EverGlow** · ITAI 2277 Capstone
 
-[Overview](#-overview) · [Architecture](#-architecture) · [Data Sources](#-data-sources) · [Current Status](#-current-status) · [Running the Notebook](#-running-the-notebook) · [Project Structure](#-project-structure)
+[Overview](#overview) · [Architecture](#architecture) · [Data Sources](#data-sources) · [Current Status](#current-status) · [Running the Notebook](#running-the-notebook) · [Project Structure](#project-structure)
 
 </div>
 
 ---
 
-## 💡 Overview
+## Overview
 
 **EverFlavor AI** removes the everyday decision fatigue around food. Users talk to the system in plain language:
 
@@ -31,17 +31,17 @@ The system returns:
 
 | | |
 |---|---|
-| 🍲 **Recipe** | A complete step-by-step recipe from one of five major cuisine families |
-| 🔄 **Substitutions** | Smart ingredient swaps when something is unavailable or restricted |
-| 📊 **Nutrition** | Accurate calories and macronutrients per serving |
-| 🛒 **Store** | The nearest specialty supermarket for that cuisine |
-| 🛡️ **Safety** | Full respect for religious, medical and ethical restrictions |
+| **Recipe** | A complete step-by-step recipe from one of five major cuisine families |
+| **Substitutions** | Smart ingredient swaps when something is unavailable or restricted |
+| **Nutrition** | Accurate calories and macronutrients per serving |
+| **Store** | The nearest specialty supermarket for that cuisine |
+| **Safety** | Full respect for religious, medical and ethical restrictions |
 
 **Cuisine families:** Asian · European · Latin American · African · Middle Eastern
 
 ---
 
-## 🧩 Architecture
+## Architecture
 
 ```mermaid
 flowchart LR
@@ -88,7 +88,7 @@ flowchart LR
 
 ---
 
-## 📚 Data Sources
+## Data Sources
 
 ### Recipe datasets
 
@@ -130,7 +130,7 @@ This is a non-commercial student project. Check the terms again before any comme
 
 ---
 
-## 📈 Current Status
+## Current Status
 
 ### Pipeline at a glance
 
@@ -152,7 +152,7 @@ flowchart LR
 | **Validation** | 12 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
 
-### ✅ Done (Weeks 4–6)
+### Done (Weeks 4–6)
 - Data collected from USDA FoodData Central, Open Food Facts, Food.com (Kaggle), Hugging Face, CulinaryDB and TheMealDB.
 - Cleaning and feature engineering:
   - cuisine family for every source, using Food.com's cuisine tags
@@ -170,10 +170,10 @@ flowchart LR
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
 
-### ✍️ To do by hand
+### To do by hand
 Fill in `docs/flag_review/flag_review_labeled.csv` (instructions in section 5.10), then re-run that cell to measure how well the restriction flags catch real cases.
 
-### ⚠️ Known data gaps
+### Known data gaps
 - Many recipes still have no cuisine label ("Other"), mostly American recipes and Food.com recipes without a cuisine tag.
 - Food.com macros are converted from percent of daily value, so they are approximate. CulinaryDB and TheMealDB have no nutrition data.
 - Restriction flags come from ingredient keywords (plus Hugging Face health labels), so they are approximate.
@@ -181,12 +181,12 @@ Fill in `docs/flag_review/flag_review_labeled.csv` (instructions in section 5.10
 
 See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
-### 🔜 Next
+### Next
 Week 7 model development, then the CrewAI agents, Google Places integration and the Gradio interface.
 
 ---
 
-## 🚀 Running the Notebook
+## Running the Notebook
 
 `notebooks/01_data_acquisition_EverFlavor_V3.ipynb` runs unchanged in **Google Colab**, **VS Code** and **Antigravity**. Its setup cell (section 2.3) detects the environment, moves to the project folder and loads API keys from the right place.
 
@@ -211,13 +211,13 @@ Running all cells in order does everything: Week 4 downloads all six sources, We
 
 </details>
 
-> **💡 Tips**
+> **Tips**
 > - After a kernel restart, run sections 2.2 and 2.3 again before any later section.
 > - Downloads already on disk are reused, so after an interruption just run all cells again; only what is missing is downloaded.
 > - Section 2.3.2 lists what is already downloaded or built, without downloading anything.
 > - To download everything again, set `REFRESH_DOWNLOADS = True` in the setup cell (2.3.1).
 
-### 📦 Output files
+### Output files
 
 Generated files are not committed; the notebook recreates them.
 
@@ -235,7 +235,7 @@ Parquet is a compressed format that a text editor cannot open. To look at a Parq
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 The-EverFlavor-AI/
