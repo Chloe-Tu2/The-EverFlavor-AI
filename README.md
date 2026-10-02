@@ -90,14 +90,14 @@ The system returns:
 
 ### Recipe datasets
 
-These datasets are combined into one recipe table in Week 5 of notebook 01:
+All four are collected in Week 4 of the notebook and combined into one recipe table in Week 5:
 
-| Dataset | Size | What we use it for | How it is collected | Notebook |
-|---|---|---|---|---|
-| [Food.com Recipes (Kaggle)](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions) | ~231,000 recipes | Main recipe source: ingredients, steps, calories, cook time, and cuisine tags (including ~2,800 African and ~2,000 Middle Eastern recipes) | `kagglehub` download | 01 |
-| [Hugging Face: recipes-with-nutrition](https://huggingface.co/datasets/datahiveai/recipes-with-nutrition) | ~39,000 recipes | Exact nutrition (calories, protein, fat, carbs, sodium), health labels (vegetarian, gluten-free, allergens), cuisine labels | `datasets` library | 01 |
-| [CulinaryDB](https://cosylab.iiitd.edu.in/culinarydb/) | ~45,700 recipes, 22 regions | Extra African (~650) and Middle Eastern (~990) recipes; titles and ingredients only | Free zip download | 02 |
-| [TheMealDB](https://www.themealdb.com) | ~790 recipes | Recipes with full instructions from many countries | Free public API | 02 |
+| Dataset | Size | What we use it for | How it is collected |
+|---|---|---|---|
+| [Food.com Recipes (Kaggle)](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions) | ~231,000 recipes | Main recipe source: ingredients, steps, calories, cook time, and cuisine tags (including ~2,800 African and ~2,000 Middle Eastern recipes) | `kagglehub` download |
+| [Hugging Face: recipes-with-nutrition](https://huggingface.co/datasets/datahiveai/recipes-with-nutrition) | ~39,000 recipes | Exact nutrition (calories, protein, fat, carbs, sodium), health labels (vegetarian, gluten-free, allergens), cuisine labels | `datasets` library |
+| [CulinaryDB](https://cosylab.iiitd.edu.in/culinarydb/) | ~45,700 recipes, 22 regions | Extra African (~650) and Middle Eastern (~990) recipes; titles and ingredients only | Free zip download |
+| [TheMealDB](https://www.themealdb.com) | ~790 recipes | Recipes with full instructions from many countries | Free public API (no key needed) |
 
 ### Nutrition and product lookups
 
@@ -109,7 +109,7 @@ Small samples are collected in Week 4. Later, the agents will look up ingredient
 | [Open Food Facts](https://world.openfoodfacts.org) | Packaged and specialty products (miso, tahini, ghee): nutrition, allergens, Nutri-Score | No |
 
 ### Planned or optional
-- **[RecipeDB](https://cosylab.iiitd.edu.in/recipedb/):** ~118,000 recipes with nutrition. Needs an API key from the CoSyLab team (see notebook 02).
+- **[RecipeDB](https://cosylab.iiitd.edu.in/recipedb/):** ~118,000 recipes with nutrition. Needs an API key from the CoSyLab team (see section 2.4.7 in the notebook).
 - **Google Places API:** store search for the Sourcing Agent (not built yet).
 
 ### Licenses
@@ -127,8 +127,7 @@ This is a non-commercial student project. Check the terms again before any comme
 ```
 The-EverFlavor-AI/
 ├── notebooks/
-│   ├── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
-│   └── 02_extra_data_collection.ipynb            # Extra recipe sources: CulinaryDB, TheMealDB
+│   └── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
 ├── data/
 │   ├── raw/          # Original downloads and samples (generated, not committed)
 │   ├── interim/      # Combined, cleaned recipe table (generated, not committed)
@@ -155,8 +154,10 @@ The-EverFlavor-AI/
   - restriction flags for pork, alcohol, gluten, dairy, seven common allergens, vegetarian and vegan
   - calories and macronutrients in grams per serving
   - normalized ingredient lists and a complexity score
-- All sources combined into one recipe table with duplicates removed, saved as Parquet.
-- Stratified train/validation/test split, exploratory analysis, and a rule-based baseline recommender.
+- All sources combined into one recipe table with duplicates removed, saved as Parquet:
+  - **Total:** 292,014 recipes, including 3,180 African, 3,406 Middle Eastern, 20,881 Asian, 48,200 European and 15,722 Latin American.
+  - **Restriction flags:** agree with Food.com's own dietary tags 90–98% of the time.
+- Stratified train/validation/test split (70/15/15), exploratory analysis, and a rule-based baseline recommender that handles restrictions such as "no pork, no alcohol".
 
 **Known data gaps:**
 - Many recipes still have no cuisine label ("Other"), mostly American recipes and Food.com recipes without a cuisine tag.
@@ -171,11 +172,13 @@ The-EverFlavor-AI/
 
 `notebooks/01_data_acquisition_EverFlavor_V3.ipynb` runs in Google Colab, VS Code, and Antigravity. Its setup cell (section 2.3) detects the environment, moves to the project folder, and loads API keys from the right place.
 
+Running all cells in order does everything: Week 4 downloads all six sources, Week 5 cleans and combines them, and Week 6 analyzes them. The only key needed is `USDA_API_KEY`.
+
 ### Google Colab
 
 1. Open the notebook in Colab.
 2. Click the key icon in the left sidebar and add a secret named `USDA_API_KEY` ([get a free key](https://fdc.nal.usda.gov/api-guide.html)). Switch on **Notebook access**.
-3. Run all cells.
+3. Run all cells. Colab clears `data/` when its session ends, so a new session downloads the data again.
 
 ### VS Code or Antigravity
 
@@ -186,10 +189,14 @@ The-EverFlavor-AI/
 
 After a kernel restart, run the cells in sections 2.2 and 2.3 again before any later section.
 
-### Extra data sources (optional)
+### Output files
 
-Run `notebooks/02_extra_data_collection.ipynb` before Week 5 of notebook 01 to add CulinaryDB and TheMealDB recipes, most of the dataset's African and Middle Eastern recipes. It needs no API keys, and notebook 01 skips these sources if the notebook has not been run.
+Generated data files in `data/` are not committed; the notebook recreates them. The main outputs are Parquet files, a compressed format that a text editor cannot open:
+- `data/interim/recipes_all.parquet`
+- `data/processed/recipes_train.parquet`, `recipes_val.parquet` and `recipes_test.parquet`
 
-Generated data files in `data/` are not committed; the notebook recreates them.
+To look at one, either:
+- load it in a notebook with `pd.read_parquet("data/interim/recipes_all.parquet").head()`, or
+- install the **Data Wrangler** extension in VS Code.
 
 ---
