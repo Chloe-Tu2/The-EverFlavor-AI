@@ -17,12 +17,16 @@ import random
 import sys
 from pathlib import Path
 
-SIZE = 72                      # the picture is SIZE x SIZE pixels
+SIZE = 88                      # the picture is SIZE x SIZE pixels
+SCALE = 72                     # the bowl scene fills SCALE x SCALE in the middle
+MARGIN = (SIZE - SCALE) / 2    # room around it for the aroma lines
 TITLE = "EverFlavor AI"
 SUBTITLE = "authentic recipes · calories · restrictions · stores"
 
 # Colors as (red, green, blue)
 TABLE = (226, 224, 220)
+AROMA = (212, 168, 48)
+AROMA_LIGHT = (246, 214, 112)
 TABLE_DARK = (214, 211, 206)
 RIM = (66, 52, 40)
 RIM_LIGHT = (104, 84, 64)
@@ -58,8 +62,8 @@ pixels = [[TABLE] * SIZE for _ in range(SIZE)]
 
 # ------------------------------------------------------------- drawing helpers
 def at(fx, fy):
-    """Turn fractions of the picture size (0 to 1) into pixel coordinates."""
-    return fx * SIZE, fy * SIZE
+    """Turn fractions of the scene (0 to 1) into pixel coordinates."""
+    return MARGIN + fx * SCALE, MARGIN + fy * SCALE
 
 
 def paint(x, y, color):
@@ -70,7 +74,7 @@ def paint(x, y, color):
 def fill_ellipse(cx, cy, rx, ry, color, angle=0.0, inside=None):
     """Fill an ellipse (centre and radii in fractions), optionally rotated and clipped."""
     cx, cy = at(cx, cy)
-    rx, ry = rx * SIZE, ry * SIZE
+    rx, ry = rx * SCALE, ry * SCALE
     cos_a, sin_a = math.cos(angle), math.sin(angle)
     for y in range(SIZE):
         for x in range(SIZE):
@@ -107,7 +111,7 @@ BOWL_X, BOWL_Y, BOWL_R, INNER_R = 0.50, 0.50, 0.45, 0.405
 def in_bowl(x, y):
     """True for pixels inside the bowl's rim."""
     cx, cy = at(BOWL_X, BOWL_Y)
-    return math.hypot(x + 0.5 - cx, y + 0.5 - cy) <= INNER_R * SIZE
+    return math.hypot(x + 0.5 - cx, y + 0.5 - cy) <= INNER_R * SCALE
 
 
 def stone(x, y):
@@ -116,6 +120,19 @@ def stone(x, y):
 
 # Table, with a little texture
 fill_ellipse(0.5, 0.5, 2, 2, stone)
+
+# Aroma: soft gold wisps curling around the bowl, with gaps between them
+for start, radius in [(200, 0.53), (265, 0.555), (330, 0.53), (20, 0.555), (85, 0.53), (135, 0.555)]:
+    points = []
+    for step in range(16):
+        angle = math.radians(start + step * 2.6)
+        r = radius + 0.018 * math.sin(step / 15 * 2 * math.pi)   # one gentle wave
+        points.append((BOWL_X + r * math.cos(angle), BOWL_Y + r * math.sin(angle)))
+    draw_curve(points, 1.9, AROMA)
+    # a small curl at the end of each wisp
+    end_x, end_y = points[-1]
+    fill_ellipse(end_x, end_y, 0.012, 0.012, AROMA)
+    fill_ellipse(end_x, end_y, 0.005, 0.005, AROMA_LIGHT)
 
 # Bowl rim (lighter on the inner edge), then the broth
 fill_ellipse(BOWL_X, BOWL_Y, BOWL_R, BOWL_R, RIM)
@@ -171,8 +188,8 @@ for ex, ey, tilt in [(0.29, 0.38, -0.25), (0.50, 0.36, 0.15)]:
     fill_ellipse(ex, ey + 0.01, 0.065, 0.08, YOLK, angle=tilt)
     fill_ellipse(ex, ey + 0.01, 0.035, 0.045, YOLK_CENTER, angle=tilt)
     for _ in range(9):
-        paint(int((ex + rng.uniform(-0.06, 0.06)) * SIZE),
-              int((ey + rng.uniform(-0.08, 0.08)) * SIZE), SESAME)
+        sx, sy = at(ex + rng.uniform(-0.06, 0.06), ey + rng.uniform(-0.08, 0.08))
+        paint(int(sx), int(sy), SESAME)
 
 # Green onion rings (middle right)
 for _ in range(12):
@@ -181,7 +198,7 @@ for _ in range(12):
     fill_ellipse(ox, oy, 0.010, 0.010, ONION_LIGHT, inside=in_bowl)
 
 # Chopsticks, lifting noodles from the lower left
-for (x0, y0), (x1, y1) in [((0.02, 0.98), (0.30, 0.58)), ((0.10, 1.00), (0.35, 0.62))]:
+for (x0, y0), (x1, y1) in [((-0.04, 1.08), (0.30, 0.58)), ((0.05, 1.10), (0.35, 0.62))]:
     draw_line(x0, y0, x1, y1, 2.4, WOOD)
     draw_line(x0, y0, x1, y1, 0.8, WOOD_LIGHT)
 
@@ -189,9 +206,11 @@ for (x0, y0), (x1, y1) in [((0.02, 0.98), (0.30, 0.58)), ((0.10, 1.00), (0.35, 0
 for _ in range(7):
     ox, oy = rng.uniform(0.80, 0.97), rng.uniform(0.02, 0.18)
     fill_ellipse(ox, oy, 0.017, 0.017, ONION)
-    paint(int(ox * SIZE), int(oy * SIZE), ONION_LIGHT)
+    lx, ly = at(ox, oy)
+    paint(int(lx), int(ly), ONION_LIGHT)
 for _ in range(16):
-    x, y = int(rng.uniform(0.25, 0.65) * SIZE), int(rng.uniform(0.95, 1.0) * SIZE)
+    sx, sy = at(rng.uniform(0.25, 0.65), rng.uniform(0.96, 1.04))
+    x, y = int(sx), int(sy)
     if not in_bowl(x, y):
         paint(x, y, SESAME)
 
