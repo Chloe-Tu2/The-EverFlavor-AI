@@ -25,8 +25,10 @@ SUBTITLE = "authentic recipes · calories · restrictions · stores"
 
 # Colors as (red, green, blue)
 TABLE = (226, 224, 220)
-AROMA = (212, 168, 48)
-AROMA_LIGHT = (246, 214, 112)
+GOLD_DARK = (168, 116, 18)      # shaded edge
+GOLD = (236, 184, 38)           # main gold
+GOLD_SHINE = (255, 238, 150)    # highlight where light catches it
+SPARKLE = (255, 252, 230)
 TABLE_DARK = (214, 211, 206)
 RIM = (66, 52, 40)
 RIM_LIGHT = (104, 84, 64)
@@ -121,18 +123,40 @@ def stone(x, y):
 # Table, with a little texture
 fill_ellipse(0.5, 0.5, 2, 2, stone)
 
-# Aroma: soft gold wisps curling around the bowl, with gaps between them
-for start, radius in [(200, 0.53), (265, 0.555), (330, 0.53), (20, 0.555), (85, 0.53), (135, 0.555)]:
+# Aroma: shiny gold wisps curling around the bowl. Each wisp has a dark
+# edge, a bright body, and a pale highlight along its middle stretch.
+WISPS = [(200, 0.53), (265, 0.555), (330, 0.53), (20, 0.555), (85, 0.53), (135, 0.555)]
+for start, radius in WISPS:
     points = []
     for step in range(16):
         angle = math.radians(start + step * 2.6)
         r = radius + 0.018 * math.sin(step / 15 * 2 * math.pi)   # one gentle wave
         points.append((BOWL_X + r * math.cos(angle), BOWL_Y + r * math.sin(angle)))
-    draw_curve(points, 1.9, AROMA)
+    draw_curve(points, 2.6, GOLD_DARK)
+    draw_curve(points, 1.8, GOLD)
+    draw_curve(points[4:12], 0.8, GOLD_SHINE)
     # a small curl at the end of each wisp
     end_x, end_y = points[-1]
-    fill_ellipse(end_x, end_y, 0.012, 0.012, AROMA)
-    fill_ellipse(end_x, end_y, 0.005, 0.005, AROMA_LIGHT)
+    fill_ellipse(end_x, end_y, 0.014, 0.014, GOLD_DARK)
+    fill_ellipse(end_x, end_y, 0.010, 0.010, GOLD)
+    fill_ellipse(end_x, end_y, 0.004, 0.004, GOLD_SHINE)
+
+
+def sparkle(fx, fy, big=False):
+    """A small four-pointed twinkle."""
+    x, y = (int(v) for v in at(fx, fy))
+    arm = 2 if big else 1
+    for d in range(1, arm + 1):
+        for dx, dy in [(d, 0), (-d, 0), (0, d), (0, -d)]:
+            paint(x + dx, y + dy, GOLD_SHINE if d == arm else GOLD)
+    paint(x, y, SPARKLE)
+
+
+# Twinkles just outside some of the wisps
+for start, radius in WISPS:
+    angle = math.radians(start + 22)
+    sparkle(BOWL_X + (radius + 0.06) * math.cos(angle),
+            BOWL_Y + (radius + 0.06) * math.sin(angle), big=start % 130 == 70)
 
 # Bowl rim (lighter on the inner edge), then the broth
 fill_ellipse(BOWL_X, BOWL_Y, BOWL_R, BOWL_R, RIM)
