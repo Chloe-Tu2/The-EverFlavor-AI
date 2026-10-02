@@ -16,3 +16,6 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
+
+# Fitted models - recreated by the notebook (section 6.6)
+models/
