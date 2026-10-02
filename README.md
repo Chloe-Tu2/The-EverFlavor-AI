@@ -86,15 +86,52 @@ The system returns:
 
 ---
 
+## Data Sources
+
+### Recipe datasets
+
+These datasets are combined into one recipe table in Week 5 of notebook 01:
+
+| Dataset | Size | What we use it for | How it is collected | Notebook |
+|---|---|---|---|---|
+| [Food.com Recipes (Kaggle)](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions) | ~231,000 recipes | Main recipe source: ingredients, steps, calories, cook time, and cuisine tags (including ~2,800 African and ~2,000 Middle Eastern recipes) | `kagglehub` download | 01 |
+| [Hugging Face: recipes-with-nutrition](https://huggingface.co/datasets/datahiveai/recipes-with-nutrition) | ~39,000 recipes | Exact nutrition (calories, protein, fat, carbs, sodium), health labels (vegetarian, gluten-free, allergens), cuisine labels | `datasets` library | 01 |
+| [CulinaryDB](https://cosylab.iiitd.edu.in/culinarydb/) | ~45,700 recipes, 22 regions | Extra African (~650) and Middle Eastern (~990) recipes; titles and ingredients only | Free zip download | 02 |
+| [TheMealDB](https://www.themealdb.com) | ~790 recipes | Recipes with full instructions from many countries | Free public API | 02 |
+
+### Nutrition and product lookups
+
+Small samples are collected in Week 4. Later, the agents will look up ingredients through these APIs.
+
+| Source | What we use it for | Key needed |
+|---|---|---|
+| [USDA FoodData Central](https://fdc.nal.usda.gov/) | Official calorie and nutrient values for single ingredients | Yes: `USDA_API_KEY` (free) |
+| [Open Food Facts](https://world.openfoodfacts.org) | Packaged and specialty products (miso, tahini, ghee): nutrition, allergens, Nutri-Score | No |
+
+### Planned or optional
+- **[RecipeDB](https://cosylab.iiitd.edu.in/recipedb/):** ~118,000 recipes with nutrition. Needs an API key from the CoSyLab team (see notebook 02).
+- **Google Places API:** store search for the Sourcing Agent (not built yet).
+
+### Licenses
+- **CulinaryDB and RecipeDB:** CC BY-NC-SA 3.0, which allows non-commercial use with credit.
+- **Open Food Facts:** Open Database License (ODbL).
+- **USDA data:** public domain.
+- **Food.com, Hugging Face and TheMealDB:** see each source's page for its terms.
+
+This is a non-commercial student project. Check the terms again before any commercial use.
+
+---
+
 ## Project Structure
 
 ```
 The-EverFlavor-AI/
 ├── notebooks/
-│   └── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
+│   ├── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
+│   └── 02_extra_data_collection.ipynb            # Extra recipe sources: CulinaryDB, TheMealDB
 ├── data/
 │   ├── raw/          # Original downloads and samples (generated, not committed)
-│   ├── interim/      # Partially cleaned data (generated, not committed)
+│   ├── interim/      # Combined, cleaned recipe table (generated, not committed)
 │   └── processed/    # Train/val/test splits and plots (generated, not committed)
 ├── src/              # Agent code (to come)
 ├── docs/
@@ -111,13 +148,20 @@ The-EverFlavor-AI/
 
 ## Current Status
 
-**Done (Weeks 4-6):** data collected from USDA FoodData Central, Open Food Facts, Food.com (Kaggle), and Hugging Face; cleaning and feature engineering (cuisine family, dietary flags, calories per serving, ingredient lists, complexity); stratified train/validation/test split; exploratory analysis; and a rule-based baseline recommender.
+**Done (Weeks 4-6):**
+- Data collected from USDA FoodData Central, Open Food Facts, Food.com (Kaggle), Hugging Face, CulinaryDB and TheMealDB.
+- Cleaning and feature engineering:
+  - cuisine family for every source, using Food.com's cuisine tags
+  - restriction flags for pork, alcohol, gluten, dairy, seven common allergens, vegetarian and vegan
+  - calories and macronutrients in grams per serving
+  - normalized ingredient lists and a complexity score
+- All sources combined into one recipe table with duplicates removed, saved as Parquet.
+- Stratified train/validation/test split, exploratory analysis, and a rule-based baseline recommender.
 
 **Known data gaps:**
-- The Hugging Face dataset has no African cuisine label, so the African family has no recipes yet. CulinaryDB or RecipeDB are planned to fill this.
-- Food.com has no cuisine column; cuisine still needs to be inferred from its tags.
-- Food.com reports fat, protein, and carbs only as percent of daily value, not grams.
-- Food.com dietary flags come from ingredient keywords, so they are approximate.
+- Many recipes still have no cuisine label ("Other"), mostly American recipes and Food.com recipes without a cuisine tag.
+- Food.com macros are converted from percent of daily value, so they are approximate. CulinaryDB and TheMealDB have no nutrition data.
+- Restriction flags come from ingredient keywords (plus Hugging Face health labels), so they are approximate.
 
 **Next:** Week 7 model development, then the CrewAI agents, Google Places integration, and the Gradio interface.
 
@@ -141,6 +185,10 @@ The-EverFlavor-AI/
 4. Open the notebook, pick the Python interpreter you installed into as the kernel, and run all cells.
 
 After a kernel restart, run the cells in sections 2.2 and 2.3 again before any later section.
+
+### Extra data sources (optional)
+
+Run `notebooks/02_extra_data_collection.ipynb` before Week 5 of notebook 01 to add CulinaryDB and TheMealDB recipes, most of the dataset's African and Middle Eastern recipes. It needs no API keys, and notebook 01 skips these sources if the notebook has not been run.
 
 Generated data files in `data/` are not committed; the notebook recreates them.
 
