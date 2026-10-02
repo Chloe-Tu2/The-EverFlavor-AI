@@ -17,6 +17,12 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![ITAI2277](https://img.shields.io/badge/ITAI%202277-Capstone%20Project-blueviolet)
 
+<div align="center">
+
+<img src="docs/art/ramen.svg" alt="A bowl of ramen drawn with code, above the words EverFlavor AI" width="480">
+
+<sub>Drawn with code: <a href="docs/art/ramen.py">docs/art/ramen.py</a> (run it to see it in color in your terminal)</sub>
+
 **Team EverGlow** · ITAI 2277 Capstone
 
 [Overview](#overview) · [Architecture](#architecture) · [Data Sources](#data-sources) · [Current Status](#current-status) · [Running the Notebook](#running-the-notebook) · [Project Structure](#project-structure)
