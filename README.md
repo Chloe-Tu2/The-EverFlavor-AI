@@ -4,13 +4,6 @@
 
 *A conversational multi-agent AI that helps users cook authentic global recipes within their calorie limits, dietary restrictions and ingredient availability, and then finds the nearest specialty supermarket.*
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent-FF6B35)
-![Gradio](https://img.shields.io/badge/Gradio-Chat%20Interface-F97316)
-![LLM](https://img.shields.io/badge/LLM-Groq%20%7C%20LLaMA%203.1-00A67E?logo=meta&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![ITAI2277](https://img.shields.io/badge/ITAI%202277-Capstone%20Project-blueviolet)
-
 ![Status](https://img.shields.io/badge/Status-Active%20Development-success)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent-FF6B35)
