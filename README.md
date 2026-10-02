@@ -97,9 +97,13 @@ The-EverFlavor-AI/
 │   ├── interim/      # Partially cleaned data (generated, not committed)
 │   └── processed/    # Train/val/test splits and plots (generated, not committed)
 ├── src/              # Agent code (to come)
-├── Capstone-Project_Proposal-Idea/   # Proposal slides and Phase 1 document
-├── requirements.txt  # Python libraries for the notebook
-├── .env.example      # Template for API keys (copy to .env, which git ignores)
+├── docs/
+│   └── proposal/     # Capstone proposal slides and Phase 1 document (PDF)
+├── config/
+│   ├── requirements.txt  # Python libraries for the notebook
+│   └── .env.example      # Template for API keys (copy to config/.env, which git ignores)
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
@@ -132,8 +136,8 @@ The-EverFlavor-AI/
 ### VS Code or Antigravity
 
 1. Install the **Python** and **Jupyter** extensions.
-2. In a terminal in the project folder, run `pip install -r requirements.txt`.
-3. Copy `.env.example` to `.env` and fill in `USDA_API_KEY`. Git ignores `.env`, so your keys are never pushed.
+2. In a terminal in the project folder, run `pip install -r config/requirements.txt`.
+3. Copy `config/.env.example` to `config/.env` and fill in `USDA_API_KEY`. Git ignores `.env`, so your keys are never pushed.
 4. Open the notebook, pick the Python interpreter you installed into as the kernel, and run all cells.
 
 After a kernel restart, run the cells in sections 2.2 and 2.3 again before any later section.

@@ -1,5 +1,5 @@
 # Libraries for notebooks/01_data_acquisition_EverFlavor_V3.ipynb (Weeks 4-6)
-# Local setup (VS Code / Antigravity):  pip install -r requirements.txt
+# Local setup (VS Code / Antigravity):  pip install -r config/requirements.txt
 # Colab installs these itself with the %pip cell in the notebook.
 kaggle
 kagglehub
