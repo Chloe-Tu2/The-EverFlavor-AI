@@ -25,7 +25,7 @@
 
 **Team EverGlow** · ITAI 2277 Capstone
 
-[Overview](#overview) · [Architecture](#architecture) · [Data Sources](#data-sources) · [Current Status](#current-status) · [Running the Notebook](#running-the-notebook) · [Project Structure](#project-structure)
+[Overview](#overview) · [Architecture](#architecture) · [Data Sources](#data-sources) · [Current Status](#current-status) · [Running the Notebook](#running-the-notebook) · [Using the Shared Code](#using-the-shared-code) · [Project Structure](#project-structure)
 
 </div>
 
@@ -148,7 +148,8 @@ This is a non-commercial student project. Check the terms again before any comme
 flowchart LR
     A[Week 4<br/>Collect 6 sources] --> B[Week 5<br/>Clean, label, flag,<br/>normalize, combine]
     B --> C[Split 70/15/15<br/>no leakage]
-    C --> D[Week 6<br/>EDA, baseline,<br/>cuisine classifier]
+    C --> G[Fill nutrition,<br/>country of origin,<br/>diet profiles]
+    G --> D[Week 6<br/>EDA, baseline,<br/>cuisine classifier]
     D --> E[Week 7<br/>Model development]
 ```
 
@@ -164,12 +165,13 @@ flowchart LR
 | **Diet profiles** | Halal-friendly 76%, kosher-friendly 70%, pescatarian 63%, no beef 89%, Jain-friendly 16%, lower sodium 58%, low carb 28% of recipes |
 | **Validation** | 21 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
+| **Code checks** | 20 automated tests pass (16 for the shared functions, 4 security checks); type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 - Data collected from USDA FoodData Central, Open Food Facts, Food.com (Kaggle), Hugging Face, CulinaryDB and TheMealDB.
 - Cleaning and feature engineering:
   - cuisine family for every source, using Food.com's cuisine tags
-  - restriction flags for pork, alcohol, gluten, dairy, seven common allergens, vegetarian and vegan
+  - restriction flags for pork, alcohol, gluten, dairy, egg, peanut, tree nuts, fish, shellfish, soy and sesame, vegetarian and vegan, plus meat, beef, gelatin, honey, root vegetables, onion and garlic for the diet profiles
   - calories and macronutrients in grams per serving
   - normalized ingredient lists and a complexity score
 - All sources combined into one recipe table and saved as Parquet.
@@ -185,6 +187,7 @@ flowchart LR
 - Exploratory analysis with charts showing what each step changed (`data/processed/figures/`).
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
+- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions and 20 automated tests, including 4 security checks run before each push.
 
 ### Restriction flag check
 Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended twice and the flags now read recipe names too; the latest fresh sample (round 3, which also checks the diet flags) measures 96–100% recall for every flag except shellfish (83%). Details and labeling rules: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md). **Still to do by hand:** a team member should spot-check the labels where they disagree with the flags; the steps are in [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_review/HOW_TO_SPOT_CHECK.md).
@@ -257,55 +260,6 @@ Parquet is a compressed format that a text editor cannot open. To look at a Parq
 
 ---
 
-## Project Structure
-
-```
-The-EverFlavor-AI/
-├── notebooks/
-│   └── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
-├── data/
-│   ├── raw/          # Original downloads and samples (generated, not committed)
-│   ├── interim/      # Combined, cleaned recipe table (generated, not committed)
-│   └── processed/    # Train/val/test splits, charts (figures/), dataset_info.json (generated, not committed)
-├── models/           # Fitted baseline pipeline (generated, not committed)
-├── src/
-│   └── everflavor/   # Shared code: imported by the notebook now and by the agents later
-│       ├── sources.py, environment.py   # downloads, secrets, download checker
-│       ├── ingredients.py, cuisine.py   # ingredient normalizing, cuisine and origin
-│       ├── flags.py, diets.py           # restriction flags and diet profiles
-│       ├── nutrition.py, features.py    # nutrition, USDA matching, text features
-│       ├── pipeline.py                  # cleaning, run_pipeline, combining, splitting, validation
-│       └── review.py, recommend.py, charts.py, reporting.py, parsing.py, checks.py
-├── tests/            # Tests for src/everflavor
-├── docs/
-│   ├── art/          # ramen.py draws the README's ramen bowl (ANSI art) and saves ramen.svg
-│   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
-│   ├── flag_review/  # Blind 200-recipe samples per round, their labels and labeling notes
-│   ├── datasheet.md        # What is in the dataset, how it was built, known limits
-│   ├── data_dictionary.md  # Every column of the recipe table
-│   ├── sources.md          # Every data source: URL, license, access method, version
-│   ├── ethics_privacy.md   # Privacy, licenses and responsible use
-│   ├── model_card.md            # Baseline cuisine classifier: results and limits
-│   ├── model_card_nutrition.md  # Missing-nutrition estimator (USDA + similar recipes)
-│   └── model_card_origin.md     # Country-of-origin model
-├── config/
-│   ├── requirements.txt  # Python libraries for the notebook
-│   └── .env.example      # Template for API keys (copy to config/.env, which git ignores)
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
----
-
-<div align="center">
-
-**EverFlavor AI** · Team EverGlow · ITAI 2277 Capstone · [MIT License](LICENSE)
-
-</div>
-
----
-
 ## Using the Shared Code
 
 Anything outside the notebook (the agents, a script, another notebook) can use exactly the same rules the data was built with:
@@ -327,7 +281,7 @@ keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
 - functions never change the dataframe they are given; they return a new one;
 - settings such as API keys, folders and `REFRESH_DOWNLOADS` are passed in as arguments;
 - wrong input fails early with a `ValueError` that names the missing column;
-- rule tables (keywords, maps, limits) are UPPER_CASE constants in their module.
+- rule tables (keywords, maps, limits) are UPPER_CASE constants in their module;
 - each module lists its supported functions in `__all__`; names starting with `_` are internal helpers that may change, so call the public function instead (for example `run_pipeline`, not `_prepare_foodcom`).
 
 **Tests:** `tests/test_everflavor.py` checks what each function promises (whole-word flag matching, diet rules, origin labels, cleaning, splitting, the safety filter, and that inputs are never changed). Run it from the project folder with `python tests/test_everflavor.py` (no install needed) or `python -m pytest tests`.
@@ -339,6 +293,59 @@ keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
 ```bash
 # in the VS Code / Antigravity terminal, from the project folder
 python -m pytest tests                                   # the tests, including the security checks
-python -m mypy src/everflavor --ignore-missing-imports   # the type hints
+python -m mypy --config-file config/mypy.ini            # the type hints (src and tests)
 python -m ruff check src tests notebooks                 # mistakes and style
 ```
+
+---
+
+## Project Structure
+
+```
+The-EverFlavor-AI/
+├── notebooks/
+│   └── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
+├── data/
+│   ├── raw/          # Original downloads and samples (generated, not committed)
+│   ├── interim/      # Combined, cleaned recipe table (generated, not committed)
+│   └── processed/    # Train/val/test splits, charts (figures/), dataset_info.json (generated, not committed)
+├── models/           # Fitted baseline pipeline (generated, not committed)
+├── src/
+│   └── everflavor/   # Shared code: imported by the notebook now and by the agents later
+│       ├── sources.py, environment.py   # downloads, secrets, download checker
+│       ├── ingredients.py, cuisine.py   # ingredient normalizing, cuisine and origin
+│       ├── flags.py, diets.py           # restriction flags and diet profiles
+│       ├── nutrition.py, features.py    # nutrition, USDA matching, text features
+│       ├── pipeline.py                  # cleaning, run_pipeline, combining, splitting, validation
+│       └── review.py, recommend.py, charts.py, reporting.py, parsing.py, checks.py
+├── tests/
+│   ├── test_everflavor.py   # What each shared function promises
+│   └── test_security.py     # Pre-push checks: no keys or local paths in committed files
+├── docs/
+│   ├── art/          # ramen.py draws the README's ramen bowl (ANSI art) and saves ramen.svg
+│   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
+│   ├── flag_review/  # Blind 200-recipe samples per round, their labels and labeling notes
+│   ├── datasheet.md        # What is in the dataset, how it was built, known limits
+│   ├── data_dictionary.md  # Every column of the recipe table
+│   ├── sources.md          # Every data source: URL, license, access method, version
+│   ├── ethics_privacy.md   # Privacy, licenses and responsible use
+│   ├── model_card.md            # Baseline cuisine classifier: results and limits
+│   ├── model_card_nutrition.md  # Missing-nutrition estimator (USDA + similar recipes)
+│   └── model_card_origin.md     # Country-of-origin model
+├── config/
+│   ├── requirements.txt      # Python libraries for the notebook
+│   ├── requirements-dev.txt  # Optional checking tools (VS Code / Antigravity)
+│   ├── mypy.ini              # Settings for the type checker
+│   └── .env.example          # Template for API keys (copy to config/.env, which git ignores)
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+---
+
+<div align="center">
+
+**EverFlavor AI** · Team EverGlow · ITAI 2277 Capstone · [MIT License](LICENSE)
+
+</div>
