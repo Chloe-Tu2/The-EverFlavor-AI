@@ -35,12 +35,17 @@ from everflavor.cuisine import map_cuisine, origin_from_labels
 from everflavor.diets import ALLERGEN_SETS, DIET_PROFILES, add_diet_profiles, meets_diet
 from everflavor.flags import (
     FLAG_COLUMNS,
+    WINE_NAME_EXCEPTIONS,
+    WINE_NAME_GROUPS,
     add_keyword_flags,
     explain_flag,
     foodcom_tag_agreement,
     keyword_flag,
     make_flag,
     print_flag_counts,
+    spelling_variants,
+    wine_name_groups,
+    wine_names,
 )
 from everflavor.ingredients import (
     normalize_ingredient,
@@ -345,6 +350,36 @@ def test_wines_named_without_the_word_wine():
     for text in ["apple cider | cinnamon", "cider vinegar", "port salut | crackers", "rose water | sugar",
                  "red wine vinegar | oil"]:
         assert not keyword_flag(text, "contains_alcohol"), text
+
+
+def test_spelling_variants_cover_accents_and_hyphens():
+    assert spelling_variants("café beaujolais") == ["café beaujolais", "cafe beaujolais", "café-beaujolais",
+                                                    "cafe-beaujolais"]
+    assert spelling_variants("Port-Salut") == ["port-salut", "port salut"]
+    assert spelling_variants("rosé", keep_accents=True) == ["rosé"]
+
+
+def test_wine_names_and_groups_agree():
+    names = wine_names()
+    assert len(names) == len(set(names))
+    assert {"gewürztraminer", "gewurztraminer", "rosé", "rose wine", "syrah", "pinot gris"} <= set(names)
+    assert "rose" not in names
+    groups = wine_name_groups()
+    assert set(groups) == set(WINE_NAME_GROUPS)
+    assert sorted(s for g in groups.values() for s in g["same_wine"]) == sorted(names)
+    assert {"rosé water", "rose water", "rosé-water"} <= set(groups["rosé"]["not_wine"])
+    assert not set(names) & set(WINE_NAME_EXCEPTIONS)
+
+
+def test_wine_look_alikes_are_not_alcohol_but_real_wine_still_is():
+    for text in ["rosé water | pistachios", "almond baklava with rosé-water", "virgin white sangria",
+                 "non-alcoholic sangria punch | grape juice", "cafe beaujolais sour cream waffles",
+                 "port huron-style coney sauce", "persian tomato and cucumber salad shiraz salad"]:
+        assert not keyword_flag(text, "contains_alcohol"), text
+    for text in ["rosé | strawberries", "rose wine | peaches", "gewürztraminer | onion", "syrah | lamb",
+                 "virgin sangria | red wine", "cabernet-braised short ribs"]:
+        assert keyword_flag(text, "contains_alcohol"), text
+        assert keyword_flag(text, "contains_sulfites"), text
 
 
 def test_pet_meat_and_pet_food_are_never_served():

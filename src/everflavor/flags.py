@@ -3,6 +3,7 @@ validation checks and the safety filter, so they always agree."""
 from __future__ import annotations
 
 import re
+import unicodedata
 from collections.abc import Sequence
 from functools import cache
 
@@ -14,6 +15,7 @@ from .parsing import parse_label_list
 from .progress import MIN_ROWS, progress_bar
 
 __all__ = [
+    "ACCENT_REQUIRED",
     "ALCOHOL_EXCEPTIONS",
     "ALCOHOL_EXTRACT_EXCEPTIONS",
     "ALCOHOL_EXTRACT_KEYWORDS",
@@ -101,6 +103,7 @@ __all__ = [
     "UNCLEAN_MEAT_KEYWORDS",
     "WINE_NAMES",
     "WINE_NAME_EXCEPTIONS",
+    "WINE_NAME_GROUPS",
     "add_foodcom_diet_flags",
     "add_hf_diet_flags",
     "add_keyword_flags",
@@ -111,6 +114,9 @@ __all__ = [
     "name_text",
     "print_flag_counts",
     "recipe_text",
+    "spelling_variants",
+    "wine_name_groups",
+    "wine_names",
 ]
 
 
@@ -148,7 +154,7 @@ COMPOUND_INGREDIENTS: dict[str, list[str]] = {
     "devil's food cake mix": ["contains_soy"],
     "angel food cake": ["contains_egg", "contains_gluten"],
     "biscuit": ["contains_dairy", "contains_soy"],
-    "pizza crust": ["contains_dairy", "contains_gluten"],
+    "pizza crust": ["contains_gluten"],  # dairy rejected in review: it varies by product
     "thousand island dressing": ["contains_soy"],
     "cheddar cheese soup": ["contains_gluten"],
     "asafoetida powder": ["contains_gluten"],
@@ -217,16 +223,91 @@ PORK_KEYWORDS     = ["pork", "bacon", "ham", "prosciutto", "pancetta", "guancial
                      "kielbasa", "andouille", "bratwurst", "mortadella", "capicola",
                      "boston butt", "spare rib", "baby back rib", "hot dog",
                      "frankfurter", "wiener", "bologna", "jamon", "jamón"]
-# Wines and ciders named without the word "wine" ("1 cup chardonnay", "1/2 cup tawny port").
-# Plain "cider" stays out: in US recipes it means apple juice (policy P23)
-WINE_NAMES = ["port", "ruby port", "tawny port", "white port", "porto", "merlot", "zinfandel", "chardonnay",
-              "cabernet", "cabernet sauvignon", "sauvignon blanc", "pinot noir", "pinot grigio", "pinot gris",
-              "riesling", "chianti", "shiraz", "syrah", "malbec", "beaujolais", "sauternes", "moscato", "lambrusco",
-              "sangiovese", "tempranillo", "grenache", "gewurztraminer", "retsina", "rosé", "sangria", "cava",
-              "amontillado", "oloroso", "umeshu", "makgeolli", "huangjiu", "mijiu", "shochu",
-              "dry cider", "alcoholic cider", "scrumpy", "perry"]
-# "Port Salut" is a cheese; Port-a-Pitt is a barbecue restaurant
-WINE_NAME_EXCEPTIONS = ["port salut", "port-salut", "port-a-pitt"]
+# Wines and ciders named without the word "wine" ("1 cup chardonnay", "1/2 cup tawny port"), policy P23.
+# Each wine lists its other names ("aliases") and the look-alikes that are not wine ("not_wine").
+# Write each name once, with its accents: spelling_variants adds the plain and hyphenated forms.
+# Plain "cider" stays out: in US recipes it means apple juice
+WINE_NAME_GROUPS: dict[str, dict[str, list[str]]] = {
+    "port": {"aliases": ["ruby port", "tawny port", "white port", "porto"],
+             # Port Salut is a cheese, Port-a-Pitt a barbecue restaurant, Port Huron a city
+             "not_wine": ["port salut", "port-a-pitt", "port huron"]},
+    "merlot": {}, "zinfandel": {}, "chardonnay": {},
+    "cabernet": {"aliases": ["cabernet sauvignon", "cabernet franc"]},
+    "sauvignon blanc": {}, "pinot noir": {},
+    "pinot grigio": {"aliases": ["pinot gris"]},
+    "riesling": {}, "chianti": {},
+    # Shiraz is also a city in Iran: salad-e shirazi is a cucumber and tomato salad
+    "shiraz": {"aliases": ["syrah"], "not_wine": ["shiraz salad", "salad shiraz", "salad-e shirazi"]},
+    "malbec": {},
+    "beaujolais": {"not_wine": ["café beaujolais"]},
+    "sauternes": {}, "moscato": {}, "lambrusco": {}, "sangiovese": {}, "tempranillo": {}, "grenache": {},
+    "gewürztraminer": {}, "retsina": {},
+    # Without its accent "rose" is the flower, so only "rosé" and "rose wine" count (ACCENT_REQUIRED)
+    "rosé": {"aliases": ["rosé wine"], "not_wine": ["rosé water", "rosé syrup"]},
+    # Sangria made without wine; a wine in the ingredient list still sets the flag
+    "sangria": {"not_wine": ["virgin sangria", "virgin white sangria", "mock sangria", "non-alcoholic sangria",
+                             "nonalcoholic sangria", "alcohol-free sangria", "sangria non-alcoholic",
+                             "sangria nonalcoholic"]},
+    "cava": {}, "amontillado": {}, "oloroso": {}, "umeshu": {}, "makgeolli": {}, "huangjiu": {}, "mijiu": {},
+    "shochu": {},
+    "hard cider": {"aliases": ["dry cider", "alcoholic cider", "scrumpy", "perry"]},
+}
+# Names whose plain spelling means something else
+ACCENT_REQUIRED = ["rosé"]
+
+
+def spelling_variants(phrase: str, keep_accents: bool = False) -> list[str]:
+    """Return every way a recipe may spell a phrase: with and without accents, hyphens or spaces.
+
+    Args:
+        phrase: The phrase, written with its accents ("café beaujolais").
+        keep_accents: True when the plain spelling means something else ("rosé" and "rose").
+
+    Returns:
+        The phrase first, then its other spellings, each once
+        ("café beaujolais", "café-beaujolais", "cafe beaujolais", "cafe-beaujolais").
+    """
+    forms = [phrase.lower()]
+    if not keep_accents:
+        plain = unicodedata.normalize("NFKD", forms[0])
+        forms.append("".join(c for c in plain if not unicodedata.combining(c)))
+    forms += [f.replace(" ", "-") for f in forms] + [f.replace("-", " ") for f in forms]
+    return list(dict.fromkeys(forms))
+
+
+def _same_wine(name: str) -> list[str]:
+    """Return the spellings of a wine and its aliases (WINE_NAME_GROUPS)."""
+    names = [name, *WINE_NAME_GROUPS[name].get("aliases", [])]
+    return [s for n in names for s in spelling_variants(n, keep_accents=n in ACCENT_REQUIRED)]
+
+
+def wine_names() -> list[str]:
+    """Return every wine name the alcohol and sulfite flags look for, in every spelling.
+
+    Returns:
+        Each wine in WINE_NAME_GROUPS and its aliases, with and without accents,
+        hyphens or spaces (except the names in ACCENT_REQUIRED), each once.
+    """
+    return list(dict.fromkeys(s for name in WINE_NAME_GROUPS for s in _same_wine(name)))
+
+
+def wine_name_groups() -> dict[str, dict[str, list[str]]]:
+    """Return, for each wine, the names that mean the same wine and the look-alikes that are not wine.
+
+    Built on wine_names(), so each group lists only names the flags look for.
+
+    Returns:
+        {"rosé": {"same_wine": ["rosé", "rosé wine", ...], "not_wine": ["rosé water", ...]}, ...}
+    """
+    known = wine_names()
+    return {name: {"same_wine": [s for s in known if s in _same_wine(name)],
+                   "not_wine": list(dict.fromkeys(s for p in group.get("not_wine", [])
+                                                  for s in spelling_variants(p)))}
+            for name, group in WINE_NAME_GROUPS.items()}
+
+
+WINE_NAMES = wine_names()
+WINE_NAME_EXCEPTIONS = list(dict.fromkeys(p for g in wine_name_groups().values() for p in g["not_wine"]))
 ALCOHOL_KEYWORDS  = ["wine", "beer", "ale", "lager", "rum", "vodka", "whiskey", "whisky",
                      "bourbon", "brandy", "cognac", "sherry", "liqueur", "liquor", "tequila", "gin",
                      "sake", "mirin", "champagne", "prosecco", "vermouth", "kahlua", "amaretto",

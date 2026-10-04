@@ -182,7 +182,7 @@ flowchart LR
 | **Validation** | 26 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
 | **Cooking methods and fats** | Notebook 02: cooking methods for every recipe (rules agree with Food.com's own tags on 66–95% of tagged recipes per method), the cooking fats each recipe names, and a reference table of 31 fats; 49% of fried recipes do not say which frying fat they use |
-| **Code checks** | 101 automated checks pass (97 tests for the shared functions, 4 security checks) and cover 97% of `src/`; type hints in `src/` and `tests/` checked with mypy |
+| **Code checks** | 104 automated checks pass (100 tests for the shared functions, 4 security checks) and cover 97% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -208,7 +208,7 @@ flowchart LR
 - Exploratory analysis with charts showing what each step changed (`data/processed/figures/`).
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
-- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 97 automated tests and 4 security checks run before each push. Long steps (downloads, Open Food Facts searches, model training) show progress bars.
+- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 100 automated tests and 4 security checks run before each push. Long steps (downloads, Open Food Facts searches, model training) show progress bars.
 - Cooking methods and cooking fats (notebook 02): methods from the instructions, checked against Food.com's own method tags; the fats each recipe names; a cited reference table of 31 fats (smoke point ranges, USDA fat breakdown, allergens, flavor, where each is traditional); and a caution for fried recipes whose frying fat is not stated.
 - Human verification of the flags (section 5.13): the evidence is gathered automatically, and people make and record the decisions (see below).
 
@@ -220,9 +220,9 @@ All 30 round 3 disagreements were then traced to what set each flag: 17 were key
 
 **Human verification (section 5.13).** An AI checking an AI is not independent, so people make the final decisions, and the notebook records them in `docs/flag_review/`:
 
-- **Policies** (`flag_policies.csv`): definitions such as "oats count as gluten" or "pork is red meat", each with its reason and source, approved by a named person. 23 of 25 are approved. P23 (wines named without the word "wine", and cider) is waiting for review, and P18 (whether vanilla extract, insect coloring, rennet and, for the Hanafi school, shrimp count for halal) needs someone who keeps halal to decide.
-- **Hidden allergens** (`compound_ingredients_review.csv`): for ready-made ingredients such as "ranch dressing", Open Food Facts products are checked for the allergens their labels declare. 291 ingredients used in at least 100 recipes were checked; 52 had allergens our rules missed. 50 were approved, for example asafoetida (hing) usually contains wheat flour, chocolate chips contain soy, Worcestershire sauce and pancake mix contain gluten, and ranch dressing contains dairy, egg and soy. 4 were rejected because the matched products were a different food (instant noodles for "noodle", canned spaghetti for "spaghetti sauce"). This first review was done by Claude on the team's behalf and is marked that way in the file, so a person can still re-check it. These ingredients count only in the ingredient list, never in the dish name, so "Vegan Cookies" stays vegan.
-- **Sign-off** (`human_signoff.csv`): a reviewer checks a round's disagreements and signs it off. The completion checklist ticks this only when a person has done it.
+- **Policies** (`flag_policies.csv`): definitions such as "oats count as gluten" or "pork is red meat", each with its reason and source, approved by a named person. 24 of 25 are approved, including P23 (wines named without the word "wine", and cider). P18 (whether vanilla extract, insect coloring, rennet and, for the Hanafi school, shrimp count for halal) needs someone who keeps halal to decide.
+- **Hidden allergens** (`compound_ingredients_review.csv`): for ready-made ingredients such as "ranch dressing", Open Food Facts products are checked for the allergens their labels declare. 291 ingredients used in at least 100 recipes were checked; 52 had allergens our rules missed. 50 were approved, for example asafoetida (hing) usually contains wheat flour, chocolate chips contain soy, Worcestershire sauce and pancake mix contain gluten, and ranch dressing contains dairy, egg and soy. 4 were rejected because the matched products were a different food (instant noodles for "noodle", canned spaghetti for "spaghetti sauce"). Claude prepared this review and a team member (Evaabou20) checked every entry on 2026-10-04, keeping pizza crust's gluten but not its dairy, which varies by product. These ingredients count only in the ingredient list, never in the dish name, so "Vegan Cookies" stays vegan.
+- **Sign-off** (`human_signoff.csv`): a reviewer checks a round's disagreements and signs it off. The completion checklist ticks this only when a person has done it. Round 3 was signed off by Evaabou20 on 2026-10-04.
 
 The steps take no coding: [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_review/HOW_TO_SPOT_CHECK.md).
 
