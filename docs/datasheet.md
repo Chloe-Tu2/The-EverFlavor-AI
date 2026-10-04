@@ -18,6 +18,7 @@ This document follows the "Datasheets for Datasets" format. It describes the rec
 | Nutrition | 255,860 recipes list calories (Food.com and Hugging Face) and 245,463 of them pass all plausibility checks (`nutrition_source` = `listed`). The other 46,308 are estimated (`estimated`), see Preprocessing. |
 
 **Each recipe has:**
+
 - `recipe_id`, `source`, `recipe_name`
 - `cuisine_family` and `cuisine_raw`
 - `ingredient_list` (normalized names) and `complexity` (number of unique ingredients)
@@ -30,6 +31,7 @@ This document follows the "Datasheets for Datasets" format. It describes the rec
 - nutrition provenance: `nutrition_source` (`listed` or `estimated`), `calories_est_min` and `calories_est_max` (likely range of an estimate), `usda_dish` and `usda_dish_kcal` (closest USDA FNDDS dish and its calories per typical serving)
 
 **What's missing:**
+
 - **Listed nutrition:** CulinaryDB and TheMealDB publish none, and CulinaryDB lists no ingredient amounts or servings. Their values, and those of recipes whose listed values failed the plausibility checks, are estimates.
 - **Grams for Food.com:** Food.com gives macros only as percent of daily value; they are converted to grams using the FDA reference values (65 g fat, 300 g carbs, 50 g protein, 2,400 mg sodium). The converted grams match the listed calories within about 2% for a typical recipe.
 - **Instructions:** Hugging Face and CulinaryDB recipes have no instructions.

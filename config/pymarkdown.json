@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "md001": { "enabled": false },
+    "md013": { "enabled": false },
+    "md029": { "enabled": false },
+    "md033": { "allowed_elements": "div,img,sub,a,details,summary,b,br" },
+    "md036": { "enabled": false }
+  }
+}

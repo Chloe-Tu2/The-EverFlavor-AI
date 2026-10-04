@@ -10,7 +10,7 @@ The answers in `flag_review_labeled_round*.csv` were made by an AI assistant (Cl
 
 ## Get and open the files
 
-- **On GitHub (nothing to install):** open https://github.com/Chloe-Tu2/The-EverFlavor-AI/tree/main/docs/flag_review, click a file, then **Download raw file** (the download icon).
+- **On GitHub (nothing to install):** open <https://github.com/Chloe-Tu2/The-EverFlavor-AI/tree/main/docs/flag_review,> click a file, then **Download raw file** (the download icon).
 - **In VS Code / Antigravity:** pull the repo (`git pull`) and open the files from `docs/flag_review/`. Right-click a CSV > **Open in Data Wrangler** to see it as a table.
 - **Excel or Google Sheets:** open the CSV directly (Google Sheets: File > Import > Upload). Save it back as CSV.
 

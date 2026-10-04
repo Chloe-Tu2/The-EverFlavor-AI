@@ -71,6 +71,7 @@ flowchart LR
 **Orchestration:** a sequential CrewAI workflow with shared context. An independent safety filter runs after recipe generation and cannot be overridden by the LLM.
 
 **Key features:**
+
 - Human-in-the-loop safety gates
 - Nutrition grounded in Open Food Facts and USDA FoodData Central
 - Real specialty-store search through the Google Places API
@@ -80,6 +81,7 @@ flowchart LR
 <summary><b>Tech stack and prototype scope</b></summary>
 
 **Tech stack**
+
 - **Language:** Python 3.10+
 - **Multi-agent framework:** CrewAI
 - **Interface:** Gradio
@@ -88,6 +90,7 @@ flowchart LR
 - **Safety:** hard-coded post-generation restriction filter
 
 **Prototype scope**
+
 - Five major cuisine families only
 - One metro area for store search (e.g., Houston)
 - Session-based user profiles
@@ -121,6 +124,7 @@ Small samples are collected in Week 4. In Week 5, two free USDA bulk downloads (
 | [Open Food Facts](https://world.openfoodfacts.org) | Packaged and specialty products (miso, tahini, ghee): nutrition, allergens, Nutri-Score | No |
 
 ### Planned or optional
+
 - **[RecipeDB](https://cosylab.iiitd.edu.in/recipedb/):** ~118,000 recipes with nutrition. Needs an API key from the CoSyLab team (see section 2.4.7 in the notebook).
 
 ### Planned pipelines (notebooks 03-05)
@@ -181,6 +185,7 @@ flowchart LR
 | **Code checks** | 33 automated checks pass (29 tests for the shared functions, 4 security checks); type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
+
 - Data collected from USDA FoodData Central, Open Food Facts, Food.com (Kaggle), Hugging Face, CulinaryDB and TheMealDB.
 - Cleaning and feature engineering:
   - cuisine family for every source, using Food.com's cuisine tags
@@ -206,11 +211,13 @@ flowchart LR
 - Human verification of the flags (section 5.13): the evidence is gathered automatically, and people make and record the decisions (see below).
 
 ### Restriction flag check
+
 Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended twice and the flags now read recipe names too; the latest fresh sample (round 3, which also checks the diet flags) measures 96–100% recall for every flag except shellfish (83%). Details and labeling rules: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md).
 
 All 30 round 3 disagreements were then traced to what set each flag: 17 were keyword bugs (now fixed), 2 were allergens hidden inside ready-made ingredients, 4 were wrong AI answers and 7 were matters of definition. Round 3 is therefore optimistic now, and round 4 is the fresh sample for the next measurement.
 
 **Human verification (section 5.13).** An AI checking an AI is not independent, so people make the final decisions, and the notebook records them in `docs/flag_review/`:
+
 - **Policies** (`flag_policies.csv`): definitions such as "oats count as gluten" or "pork is red meat", each with its reason and source, approved by a named person.
 - **Hidden allergens** (`compound_ingredients_review.csv`): for ready-made ingredients such as "ranch dressing", Open Food Facts products are checked for the allergens their labels declare; a person approves or rejects each suggestion.
 - **Sign-off** (`human_signoff.csv`): a reviewer checks a round's disagreements and signs it off. The completion checklist ticks this only when a person has done it.
@@ -218,6 +225,7 @@ All 30 round 3 disagreements were then traced to what set each flag: 17 were key
 The steps take no coding: [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_review/HOW_TO_SPOT_CHECK.md).
 
 ### Known data gaps
+
 - Many recipes still have no cuisine label ("Other"), mostly American recipes and Food.com recipes without a cuisine tag.
 - Predicted countries are a good guess, not a fact (about 90% right overall, 77-97% depending on the country), and 21% of recipes still have no country. Regions exist only where a source names them.
 - The flag labels used to measure accuracy were made by an AI assistant; until a person signs off a round (section 5.13), treat the accuracy numbers as estimates.
@@ -230,6 +238,7 @@ The steps take no coding: [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_revi
 See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
+
 Week 7 model development, then the CrewAI agents and the Gradio interface. Building the planned pipelines: stores and products (notebook 03, including Google Places), ingredient knowledge (notebook 04) and food freshness from photos (notebook 05).
 
 ---
@@ -272,6 +281,7 @@ The notebook's reusable code (download helpers, cleaning, restriction flags, die
 </details>
 
 > **Tips**
+>
 > - After a kernel restart, run sections 2.2 and 2.3 again before any later section.
 > - Downloads already on disk are reused, so after an interruption just run all cells again; only what is missing is downloaded.
 > - Section 2.3.2 lists what is already downloaded or built, without downloading anything.
@@ -293,6 +303,7 @@ Generated files are not committed; the notebook recreates them.
 | `data/processed/cooking_fats_reference.csv` | Notebook 02: the cooking-fat reference table with its USDA fat breakdown |
 
 Parquet is a compressed format that a text editor cannot open. To look at a Parquet file, either:
+
 - load it in a notebook with `pd.read_parquet("data/interim/recipes_all.parquet").head()`, or
 - install the **Data Wrangler** extension in VS Code.
 
@@ -315,6 +326,7 @@ keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
 ```
 
 **Conventions** (based on the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) and [PEP 257](https://peps.python.org/pep-0257/)), so new code fits in:
+
 - every public function has type hints and a docstring with `Args`, `Returns` and `Raises`;
 - functions never change the dataframe they are given; they return a new one;
 - settings such as API keys, folders and `REFRESH_DOWNLOADS` are passed in as arguments;
@@ -333,13 +345,14 @@ keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
 python -m pytest tests                                   # the tests, including the security checks
 python -m mypy --config-file config/mypy.ini            # the type hints (src and tests)
 python -m ruff check src tests notebooks                 # mistakes and style
+python -m pymarkdown --config config/pymarkdown.json scan README.md docs   # Markdown formatting
 ```
 
 ---
 
 ## Project Structure
 
-```
+```text
 The-EverFlavor-AI/
 ├── notebooks/
 │   ├── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline

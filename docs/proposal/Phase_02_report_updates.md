@@ -41,6 +41,7 @@ Recipes with more ingredients have more calories per serving (median about 200 k
 ## 4.3 Baseline Model Creation: add evaluation results
 
 Two baselines were evaluated:
+
 - the **rule-based recommender** (filters, calorie ranking and a final safety filter that re-checks ingredients and names, now also for diet profiles such as halal-friendly);
 - a **cuisine classifier** (logistic regression on ingredients, leak-free pipeline): macro-F1 0.62 and accuracy 0.77 on the validation split. African and Middle Eastern are the hardest families (F1 about 0.35 each).
 
