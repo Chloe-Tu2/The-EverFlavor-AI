@@ -103,6 +103,7 @@ __all__ = [
     "foodcom_tag_agreement",
     "keyword_flag",
     "make_flag",
+    "name_text",
     "print_flag_counts",
 ]
 
@@ -113,8 +114,75 @@ __all__ = [
 # decision in docs/flag_review/compound_ingredients_review.csv; 5.13 checks that
 # the two agree. Entries only ever add flags (the safe direction).
 COMPOUND_INGREDIENTS: dict[str, list[str]] = {
-    "christmas pudding": ["contains_gluten", "contains_egg"],
+    "worcestershire sauce": ["contains_gluten"],
+    "semi-sweet chocolate chip": ["contains_dairy", "contains_soy"],
+    "semisweet chocolate": ["contains_soy"],
+    "hoisin sauce": ["contains_sesame"],
+    "yellow cake mix": ["contains_soy"],
+    "white chocolate chip": ["contains_dairy", "contains_soy"],
+    "white chocolate": ["contains_dairy", "contains_soy"],
+    "ranch dressing": ["contains_dairy", "contains_egg", "contains_soy"],
+    "italian dressing": ["contains_soy"],
+    "tomato soup": ["contains_dairy"],
+    "graham cracker": ["contains_soy"],
+    "condensed cream of mushroom soup": ["contains_soy"],
+    "cream of celery soup": ["contains_soy"],
+    "butterscotch chip": ["contains_dairy", "contains_soy"],
+    "ritz cracker": ["contains_soy"],
+    "condensed cream of chicken soup": ["contains_soy"],
+    "seasoned bread crumb": ["contains_dairy"],
+    "alfredo sauce": ["contains_soy"],
+    "white cake mix": ["contains_soy"],
+    "oreo cookie": ["contains_soy"],
+    "ranch dressing mix": ["contains_dairy"],
+    "vanilla wafer": ["contains_gluten"],
+    "basil pesto": ["contains_dairy"],
+    "dark chocolate chip": ["contains_soy"],
+    "ramen noodle": ["contains_soy"],
+    "devil's food cake mix": ["contains_soy"],
+    "angel food cake": ["contains_egg", "contains_gluten"],
+    "biscuit": ["contains_dairy", "contains_soy"],
+    "pizza crust": ["contains_dairy", "contains_gluten"],
+    "thousand island dressing": ["contains_soy"],
+    "cheddar cheese soup": ["contains_gluten"],
+    "asafoetida powder": ["contains_gluten"],
+    "asafoetida": ["contains_gluten"],   # same product as "asafoetida powder"
+    "hing": ["contains_gluten"],
+    "chili seasoning mix": ["contains_gluten"],
+    "soba noodle": ["contains_soy"],
+    "mushroom soup": ["contains_dairy", "contains_gluten"],
+    "brown gravy mix": ["contains_dairy", "contains_gluten"],
+    "pancake mix": ["contains_gluten"],
+    "condensed cheddar cheese soup": ["contains_gluten", "contains_soy"],
+    "semi-sweet chocolate": ["contains_soy"],
+    "condensed cream of celery soup": ["contains_soy"],
+    "stove top stuffing mix": ["contains_soy"],
+    "green enchilada sauce": ["contains_soy"],
+    "cornbread mix": ["contains_gluten"],
+    "pesto": ["contains_dairy"],
+    "red enchilada sauce": ["contains_soy"],
+    "cookie": ["contains_dairy"],
+    "chocolate frosting": ["contains_soy"],
+    "christmas pudding": ["contains_egg", "contains_gluten"],
 }
+
+
+def name_text(name: object) -> str:
+    """Return a recipe name ready for flag matching: lowercase, without COMPOUND_INGREDIENTS.
+
+    A ready-made ingredient only counts when it is in the ingredient list: "Vegan
+    Cookies" names the dish, it is not a store-bought cookie with milk in it.
+
+    Args:
+        name: The recipe name (anything that is not text gives "").
+
+    Returns:
+        The lowercase name with every COMPOUND_INGREDIENTS phrase removed.
+    """
+    text = name.lower() if isinstance(name, str) else ""
+    for phrase in sorted(COMPOUND_INGREDIENTS, key=len, reverse=True):
+        text = re.sub(rf"\b{re.escape(phrase)}(?:s|es)?\b", " ", text)
+    return text
 
 
 def _compounds(*flags: str) -> list[str]:
@@ -568,7 +636,8 @@ def add_keyword_flags(df: pd.DataFrame, ingredient_col: str, name_col: str | Non
     gluten_text = text
     if name_col is not None:
         names = df[name_col].fillna("").astype(str).str.lower()
-        text = text + " | " + names
+        # Ready-made ingredients count only in the ingredient list, not in the dish name
+        text = text + " | " + names.apply(name_text)
         # "Gluten-free bread" or "flourless cookies": the name describes the kind of dish,
         # not a wheat ingredient, so only the ingredients count for gluten
         gluten_text = text.where(~names.str.contains(GLUTEN_FREE_NAME), gluten_text)

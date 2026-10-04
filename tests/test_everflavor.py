@@ -317,6 +317,18 @@ def test_religious_diet_flags_and_profiles():
     assert meets_diet(flags, "orthodox_fasting").tolist() == [True, False, True, True]   # shellfish allowed
 
 
+def test_ready_made_ingredients_count_only_in_the_ingredient_list():
+    recipes = pd.DataFrame({"ingredients": [["flour", "coconut oil", "sugar"], ["cookie", "cream cheese"],
+                                            ["asafoetida", "lentil"]],
+                            "name": ["Vegan Cookies", "Cookie Pie", "Dal"]})
+    out = add_keyword_flags(recipes, "ingredients", name_col="name")
+    assert out["vegan"].tolist() == [True, False, True]            # the dish name is not a store cookie
+    assert out["contains_dairy"].tolist() == [False, True, False]
+    assert out["contains_gluten"].tolist() == [True, True, True]    # compounded hing is cut with wheat
+    assert passes_safety_filter(pd.Series({"ingredient_list": ["flour", "sugar"], "recipe_name": "Vegan Cookies"}),
+                                vegan=True)
+
+
 def test_alcohol_extracts_are_their_own_flag():
     assert keyword_flag("vanilla | flour | sugar", "contains_alcohol_extract")
     assert keyword_flag("angostura bitters | orange", "contains_alcohol_extract")

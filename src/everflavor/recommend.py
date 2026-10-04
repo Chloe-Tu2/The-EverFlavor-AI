@@ -19,6 +19,7 @@ from .flags import (
     MEAT_KEYWORDS,
     keyword_flag,
     make_flag,
+    name_text,
 )
 from .ingredients import ingredient_text
 
@@ -44,7 +45,7 @@ def passes_safety_filter(row: pd.Series, avoid: Sequence[str] = (), vegetarian: 
     Returns:
         True if the recipe is safe for every restriction.
     """
-    text = ingredient_text(row["ingredient_list"]) + " | " + str(row["recipe_name"]).lower()
+    text = ingredient_text(row["ingredient_list"]) + " | " + name_text(row["recipe_name"])
     for diet in diets:
         flags = pd.DataFrame([{column: keyword_flag(text, column) for column in diet_flags_needed(diet)}])
         if not meets_diet(flags, diet).iloc[0]:
