@@ -40,16 +40,17 @@ The **test split has not been used**; it is reserved for the final Week 7 compar
 ## How to use it
 
 ```python
-import joblib
+import sys
+sys.path.insert(0, "src")   # the model uses everflavor.ingredients.ingredient_tokens
 
-def ingredient_tokens(ingredients):   # must be defined before loading
-    return list(ingredients)
+import joblib
+from everflavor.ingredients import normalize_ingredient_list
 
 model = joblib.load("models/cuisine_baseline.joblib")
-model.predict([["basmati rice", "lamb shoulder", "onion"]])
+model.predict([normalize_ingredient_list(["basmati rice", "lamb shoulder", "Chopped Onions"])])
 ```
 
-Normalize user input with `normalize_ingredient_list()` (section 5.4.4) first, so it matches the training data.
+Normalize user input with `normalize_ingredient_list()` first, so it matches the training data.
 
 ## Ideas for Week 7
 

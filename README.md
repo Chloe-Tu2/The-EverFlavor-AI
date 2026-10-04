@@ -211,6 +211,8 @@ Week 7 model development, then the CrewAI agents, Google Places integration and 
 
 Running all cells in order does everything: Week 4 downloads all six sources, Week 5 cleans and combines them, and Week 6 analyzes them. The only key needed is `USDA_API_KEY`.
 
+The notebook's reusable code (download helpers, cleaning, restriction flags, diet rules, USDA matching, the pipeline, validation and the safety filter) lives in **`src/everflavor/`**, and the notebook imports it. The setup cell adds `src/` to Python's path; if the notebook was opened on its own (for example in Colab straight from GitHub), it downloads that folder from the repository first.
+
 <details>
 <summary><b>Google Colab</b></summary>
 
@@ -234,6 +236,7 @@ Running all cells in order does everything: Week 4 downloads all six sources, We
 > - After a kernel restart, run sections 2.2 and 2.3 again before any later section.
 > - Downloads already on disk are reused, so after an interruption just run all cells again; only what is missing is downloaded.
 > - Section 2.3.2 lists what is already downloaded or built, without downloading anything.
+> - After editing a file in `src/everflavor/`, restart the kernel (or run `importlib.reload(...)` on that module) so the notebook picks up the change.
 > - To download everything again, set `REFRESH_DOWNLOADS = True` in the setup cell (2.3.1).
 
 ### Output files
@@ -265,7 +268,14 @@ The-EverFlavor-AI/
 │   ├── interim/      # Combined, cleaned recipe table (generated, not committed)
 │   └── processed/    # Train/val/test splits, charts (figures/), dataset_info.json (generated, not committed)
 ├── models/           # Fitted baseline pipeline (generated, not committed)
-├── src/              # Agent code (to come)
+├── src/
+│   └── everflavor/   # Shared code: imported by the notebook now and by the agents later
+│       ├── sources.py, environment.py   # downloads, secrets, download checker
+│       ├── ingredients.py, cuisine.py   # ingredient normalizing, cuisine and origin
+│       ├── flags.py, diets.py           # restriction flags and diet profiles
+│       ├── nutrition.py, features.py    # nutrition, USDA matching, text features
+│       ├── pipeline.py                  # cleaning, run_pipeline, combining, splitting, validation
+│       └── review.py, recommend.py, charts.py, reporting.py, parsing.py
 ├── docs/
 │   ├── art/          # ramen.py draws the README's ramen bowl (ANSI art) and saves ramen.svg
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
@@ -292,3 +302,21 @@ The-EverFlavor-AI/
 **EverFlavor AI** · Team EverGlow · ITAI 2277 Capstone · [MIT License](LICENSE)
 
 </div>
+
+---
+
+## Using the Shared Code
+
+Anything outside the notebook (the agents, a script, another notebook) can use exactly the same rules the data was built with:
+
+```python
+import sys
+sys.path.insert(0, "src")   # from the project folder
+
+from everflavor.ingredients import normalize_ingredient_list
+from everflavor.flags import keyword_flag
+from everflavor.recommend import passes_safety_filter
+
+normalize_ingredient_list(["2 cups basmati rice", "Chopped Onions"])   # ['basmati rice', 'onion']
+keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
+```
