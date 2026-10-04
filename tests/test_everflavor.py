@@ -26,7 +26,7 @@ from everflavor.cooking import (
     methods_from_tags,
 )
 from everflavor.cuisine import map_cuisine, origin_from_labels
-from everflavor.diets import DIET_PROFILES, add_diet_profiles, meets_diet
+from everflavor.diets import ALLERGEN_SETS, DIET_PROFILES, add_diet_profiles, meets_diet
 from everflavor.flags import (
     FLAG_COLUMNS,
     add_keyword_flags,
@@ -262,6 +262,99 @@ def test_red_meat_poultry_and_processed_meat():
     assert keyword_flag("bulgogi | rice", "contains_meat")              # every beef word is also meat
     assert not keyword_flag("bulgogi | rice", "vegetarian")
     assert explain_flag("pork shoulder | chicken", "contains_red_meat") == ["pork"]
+
+
+def test_shellfish_splits_into_crustaceans_and_molluscs():
+    assert keyword_flag("shrimp | garlic", "contains_crustacean")
+    assert not keyword_flag("shrimp | garlic", "contains_mollusc")
+    assert keyword_flag("oyster sauce | broccoli", "contains_mollusc")
+    assert not keyword_flag("oyster mushrooms | rice", "contains_mollusc")
+    for text in ["seafood mix", "frutti di mare"]:                    # policy P5: may be either
+        assert keyword_flag(text, "contains_crustacean") and keyword_flag(text, "contains_mollusc")
+    for text in ["shrimp", "squid", "cuttlefish | ink"]:              # every split word is still shellfish
+        assert keyword_flag(text, "contains_shellfish")
+
+
+def test_allergens_labeled_outside_the_us():
+    assert keyword_flag("dijon | honey", "contains_mustard")
+    assert keyword_flag("old bay seasoning | shrimp", "contains_celery")
+    assert keyword_flag("lupini beans", "contains_lupin")
+    assert keyword_flag("soba noodles | soy sauce", "contains_buckwheat")
+    assert not keyword_flag("chuka soba noodles", "contains_buckwheat")    # wheat noodles
+    assert not keyword_flag("yakisoba sauce", "contains_buckwheat")
+    assert keyword_flag("dry white wine | butter", "contains_sulfites")
+    assert not keyword_flag("unsulfured molasses", "contains_sulfites")
+
+
+def test_religious_diet_flags_and_profiles():
+    # Kosher: no fish without scales, no rabbit, no carmine
+    assert keyword_flag("catfish fillets", "contains_scaleless_fish")
+    assert not keyword_flag("eel sauce | rice", "contains_scaleless_fish")   # soy sauce, mirin, sugar
+    assert keyword_flag("rabbit | thyme", "contains_unclean_meat")
+    assert not keyword_flag("cheddar | welsh rabbit", "contains_unclean_meat")
+    assert keyword_flag("cheddar | welsh rabbit", "vegetarian")               # cheese on toast
+    assert not keyword_flag("frog legs | butter", "vegetarian")
+    assert not keyword_flag("cochineal | sugar", "vegan")
+    # Asafoetida is separate from onion and garlic: Jain cooks use it instead of them
+    assert keyword_flag("hing | cumin", "contains_asafoetida")
+    assert not keyword_flag("hing | cumin", "contains_allium")
+    # Coffee and tea, not dishes named after them or herbal teas
+    assert keyword_flag("brewed coffee | sugar", "contains_coffee_or_tea")
+    for text in ["sour cream coffee cake", "chamomile tea | honey", "sugar | teaspoon"]:
+        assert not keyword_flag(text, "contains_coffee_or_tea")
+    assert not keyword_flag("chocolate truffles | cocoa", "contains_mushroom")
+    assert keyword_flag("truffle oil | pasta", "contains_mushroom")
+
+    flags = pd.DataFrame([
+        {**dict.fromkeys(FLAG_COLUMNS, False), "vegetarian": True},                           # plain veg dish
+        {**dict.fromkeys(FLAG_COLUMNS, False), "contains_fish": True, "contains_scaleless_fish": True},
+        {**dict.fromkeys(FLAG_COLUMNS, False), "vegetarian": True, "contains_asafoetida": True},
+        {**dict.fromkeys(FLAG_COLUMNS, False), "contains_shellfish": True, "contains_mollusc": True},
+    ])
+    assert meets_diet(flags, "kosher_friendly").tolist() == [True, False, True, False]
+    assert meets_diet(flags, "buddhist_vegetarian").tolist() == [True, False, False, False]
+    assert meets_diet(flags, "jain_friendly").tolist() == [True, False, True, False]
+    assert meets_diet(flags, "orthodox_fasting").tolist() == [True, False, True, True]   # shellfish allowed
+
+
+def test_alcohol_extracts_are_their_own_flag():
+    assert keyword_flag("vanilla | flour | sugar", "contains_alcohol_extract")
+    assert keyword_flag("angostura bitters | orange", "contains_alcohol_extract")
+    assert not keyword_flag("vanilla ice cream | vanilla wafers", "contains_alcohol_extract")
+    assert not keyword_flag("vanilla | flour | sugar", "contains_alcohol")      # policy P18 still open
+    assert not any("contains_alcohol_extract" in rule.get("without", []) for rule in DIET_PROFILES.values())
+
+
+def test_medical_screens():
+    assert keyword_flag("fava beans | lemon", "contains_fava")
+    assert keyword_flag("falafel mix", "contains_fava")
+    assert keyword_flag("tomatoes | basil", "contains_nightshade")
+    assert not keyword_flag("sweet potato | black pepper", "contains_nightshade")
+    assert not keyword_flag("serrano ham | melon", "contains_nightshade")
+    assert keyword_flag("swordfish steaks", "contains_high_mercury_fish")
+    assert keyword_flag("beef carpaccio", "contains_raw_animal")
+    assert not keyword_flag("sushi rice | nori | cucumber", "contains_raw_animal")
+    assert keyword_flag("brie | crackers", "contains_soft_cheese")
+    assert keyword_flag("anchovies | beer", "contains_high_purine")
+    assert not keyword_flag("kidney beans | root beer", "contains_high_purine")
+    assert keyword_flag("parmesan cheese", "contains_high_tyramine")
+    flags = pd.DataFrame([{**dict.fromkeys(FLAG_COLUMNS, False), "contains_red_meat": True}])
+    assert not meets_diet(flags, "alpha_gal_friendly").iloc[0]
+
+
+def test_allergen_sets_use_known_flags():
+    for region, flags in ALLERGEN_SETS.items():
+        assert set(flags) <= set(FLAG_COLUMNS), region
+        assert len(flags) == len(set(flags)), region
+    assert len(ALLERGEN_SETS["EU_UK"]) == 14
+    assert len(ALLERGEN_SETS["US"]) == 9
+    assert "contains_mollusc" not in ALLERGEN_SETS["US"]        # US "shellfish" means crustaceans
+    assert "contains_buckwheat" in ALLERGEN_SETS["Japan"]
+    # Buckwheat groats: labeled in Japan, not in the US (soba noodles would also be gluten:
+    # most soba is made with some wheat flour)
+    row = pd.Series({"ingredient_list": ["buckwheat groats", "onion"], "recipe_name": "Kasha"})
+    assert not passes_safety_filter(row, avoid=ALLERGEN_SETS["Japan"])
+    assert passes_safety_filter(row, avoid=ALLERGEN_SETS["US"])
 
 
 def test_compound_evidence_suggests_only_well_supported_allergens():

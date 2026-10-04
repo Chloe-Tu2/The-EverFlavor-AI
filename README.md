@@ -179,10 +179,10 @@ flowchart LR
 | **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 186 kcal, with a likely range) |
 | **Country of origin** | 121,456 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 108,559 predicted at 70%+ confidence (right about 90% of the time on validation); 61,756 `Unknown` |
 | **Diet profiles** | Halal-friendly 76%, kosher-friendly 70%, pescatarian 63%, no beef 89%, Jain-friendly 16%, lower sodium 58%, low carb 28% of recipes |
-| **Validation** | 22 automatic checks pass; no near-duplicate leakage between splits |
+| **Validation** | 25 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
 | **Cooking methods and fats** | Notebook 02: cooking methods for every recipe (rules agree with Food.com's own tags on 66–95% of tagged recipes per method), the cooking fats each recipe names, and a reference table of 31 fats; 49% of fried recipes do not say which frying fat they use |
-| **Code checks** | 33 automated checks pass (29 tests for the shared functions, 4 security checks); type hints in `src/` and `tests/` checked with mypy |
+| **Code checks** | 39 automated checks pass (35 tests for the shared functions, 4 security checks); type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -190,23 +190,24 @@ flowchart LR
 - Cleaning and feature engineering:
   - cuisine family for every source, using Food.com's cuisine tags
   - restriction flags for pork, alcohol, gluten, dairy, egg, peanut, tree nuts, fish, shellfish, soy and sesame, vegetarian and vegan, plus meat, beef, gelatin, honey, root vegetables, onion and garlic for the diet profiles
+  - flags from a review of dietary restrictions worldwide: the allergens other countries label (shellfish split into crustaceans and molluscs, mustard, celery, lupin, buckwheat, sulfites), religious and cultural rules (fish without scales, other non-kosher meat, insect coloring, asafoetida, mushrooms, coffee and tea, added salt, alcohol-based flavor extracts) and medical screens (fava beans, nightshades, high-mercury fish, raw animal foods, soft cheese, high-purine and high-tyramine foods)
   - the kind of meat: red meat (meat from mammals, pork included), poultry (white meat) and processed meat, following USDA and WHO / IARC definitions (fish and shellfish are their own groups)
   - calories and macronutrients in grams per serving
   - normalized ingredient lists and a complexity score
 - All sources combined into one recipe table and saved as Parquet.
 - Missing nutrition filled in: every recipe without believable listed values gets an estimate, labeled `estimated`, with a likely calorie range and the closest official USDA dish as a reference. A USDA nutrition table for about 40,000 ingredient names is saved for the Nutritionist Agent.
 - Country of origin for every recipe: from the source's own labels where they name one country (with a region only when the source names it), otherwise predicted by a model when it is at least 70% confident, otherwise `Unknown`. `origin_source` says which.
-- Diet profiles defined once as rules over the ingredient flags (halal-, kosher- and Jain-friendly, pescatarian, no beef, lower sodium, low carb), used by the table, the validation checks and the safety filter alike. "-friendly" means no forbidden ingredients, never certified.
+- Diet profiles defined once as rules over the ingredient flags (halal-, kosher- and Jain-friendly, pescatarian, no beef, lower sodium, low carb; lacto-vegetarian, Vaishnava, Mahayana Buddhist, Orthodox fasting, Adventist, Latter-day Saint and Rastafari Ital; and medical screens for alpha-gal syndrome, pregnancy, G6PD deficiency, gout, MAOI medicines and nightshades), plus the allergen lists of the US, EU / UK, Canada, Australia / NZ, Japan and South Korea, used by the table, the validation checks and the safety filter alike. "-friendly" means no forbidden ingredients, never certified.
 - Data quality:
   - quantities removed from ingredient names
   - nutrition plausibility checks
   - a train/validation/test split (70/15/15) that keeps near-duplicate recipes together, so there is no leakage
-  - 22 automatic validation checks
+  - 25 automatic validation checks
   - a dataset record of versions and settings (`dataset_info.json`)
 - Exploratory analysis with charts showing what each step changed (`data/processed/figures/`).
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
-- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 29 automated tests and 4 security checks run before each push.
+- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 35 automated tests and 4 security checks run before each push.
 - Cooking methods and cooking fats (notebook 02): methods from the instructions, checked against Food.com's own method tags; the fats each recipe names; a cited reference table of 31 fats (smoke point ranges, USDA fat breakdown, allergens, flavor, where each is traditional); and a caution for fried recipes whose frying fat is not stated.
 - Human verification of the flags (section 5.13): the evidence is gathered automatically, and people make and record the decisions (see below).
 

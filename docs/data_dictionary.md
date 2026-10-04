@@ -70,9 +70,16 @@ Derived from keywords in the ingredients and the recipe name, plus Hugging Face 
 | `contains_peanut` | contains peanut |
 | `contains_tree_nut` | contains tree nuts (almond, walnut, pecan, cashew...) |
 | `contains_fish` | contains fish (including fish sauce) |
-| `contains_shellfish` | contains shellfish |
+| `contains_shellfish` | contains shellfish (crustaceans or molluscs) |
+| `contains_crustacean` | contains crustaceans (shrimp, prawn, crab, lobster, crawfish, shrimp paste) |
+| `contains_mollusc` | contains molluscs (clam, mussel, oyster and oyster sauce, scallop, squid, octopus, snail) |
 | `contains_soy` | contains soy |
 | `contains_sesame` | contains sesame |
+| `contains_mustard` | contains mustard (seeds, Dijon, mustard oil, mustard greens) |
+| `contains_celery` | contains celery or celeriac (also celery salt, mirepoix, Old Bay) |
+| `contains_lupin` | contains lupin |
+| `contains_buckwheat` | contains buckwheat (soba, kasha). Buckwheat has no gluten, but Japan and Korea label it |
+| `contains_sulfites` | may contain sulfites (wine, sherry, dried apricots, golden raisins, maraschino cherries) |
 | `vegetarian` | contains no meat, poultry, fish or shellfish |
 | `vegan` | is vegetarian and contains no dairy, egg or honey |
 | `contains_meat` | contains meat or poultry (fish does not count) |
@@ -84,6 +91,21 @@ Derived from keywords in the ingredients and the recipe name, plus Hugging Face 
 | `contains_honey` | contains honey |
 | `contains_root_vegetable` | contains vegetables that grow underground (potato, carrot, beet, radish, fresh ginger...) |
 | `contains_allium` | contains onion, garlic, leek, shallot, scallion or chive |
+| `contains_asafoetida` | contains asafoetida (hing). Separate from allium: Jain cooks use it instead of onion and garlic |
+| `contains_mushroom` | contains mushrooms or savory truffles |
+| `contains_carmine` | contains carmine / cochineal (red coloring made from insects) |
+| `contains_scaleless_fish` | contains fish without fins and scales (catfish, eel, shark, monkfish, swordfish, sturgeon) |
+| `contains_unclean_meat` | contains rabbit, horse, camel, alligator, frog legs or other animals that are not kosher besides pork |
+| `contains_coffee_or_tea` | contains coffee or tea (decaf included; herbal teas are not tea) |
+| `contains_added_salt` | contains added salt |
+| `contains_alcohol_extract` | contains a flavor extract or bitters made with alcohol (vanilla extract is about 35% alcohol). Not part of `contains_alcohol` (policy P18) |
+| `contains_fava` | contains fava (broad) beans, falafel included (G6PD deficiency) |
+| `contains_nightshade` | contains tomato, potato, peppers and chilies, eggplant or products made from them |
+| `contains_high_mercury_fish` | contains shark, swordfish, king mackerel, marlin, orange roughy, tilefish or bigeye tuna (FDA / EPA) |
+| `contains_raw_animal` | contains raw or lightly cooked animal foods (sushi, sashimi, tartare, carpaccio, ceviche, smoked salmon) |
+| `contains_soft_cheese` | contains soft or mold-ripened cheese (brie, camembert, blue cheese, queso fresco) |
+| `contains_high_purine` | contains high-purine foods (organ meat, anchovies, sardines, mussels, scallops, beer) |
+| `contains_high_tyramine` | contains high-tyramine foods (aged cheese, cured meat, soy sauce, fermented foods) |
 
 ## Diet profiles (true/false)
 
@@ -92,12 +114,29 @@ Rules over the flags above, defined once in `DIET_PROFILES` (section 5.4.7). "-f
 | Column | True when the recipe has no... |
 |---|---|
 | `halal_friendly` | pork, alcohol or gelatin |
-| `kosher_friendly` | pork, shellfish or gelatin, and does not combine meat with dairy |
+| `kosher_friendly` | pork, shellfish, gelatin, scaleless fish, other unclean meat or carmine, and does not combine meat with dairy |
 | `pescatarian` | meat or poultry (fish allowed) |
 | `no_beef` | beef or gelatin |
 | `jain_friendly` | meat, fish, egg, honey, alcohol, root vegetables, onion or garlic |
 | `lower_sodium` | more than 600 mg sodium per serving; listed nutrition only |
 | `low_carb` | more than 15 g carbohydrate per serving; listed nutrition only |
+| `lacto_vegetarian` | meat, fish or egg |
+| `vaishnava_friendly` | meat, fish, egg, onion, garlic, mushrooms or alcohol (Vaishnava, ISKCON, Swaminarayan) |
+| `buddhist_vegetarian` | meat, fish, egg, alcohol, or the five pungent plants (onion, garlic, leek, chives, asafoetida) |
+| `orthodox_fasting` | meat, fish, dairy or egg (shellfish allowed): Orthodox Christian and Ethiopian / Eritrean Orthodox fasting days |
+| `adventist_friendly` | pork, shellfish, scaleless fish, other unclean meat, alcohol, coffee or tea |
+| `lds_friendly` | alcohol, coffee or tea (Latter-day Saints) |
+| `ital_friendly` | animal products, alcohol or added salt (Rastafari Ital) |
+| `alpha_gal_friendly` | red meat or gelatin (alpha-gal syndrome; some people must also avoid dairy) |
+| `pregnancy_friendly` | alcohol, high-mercury fish, raw animal foods or soft cheese |
+| `g6pd_friendly` | fava beans |
+| `gout_friendly` | high-purine foods |
+| `low_tyramine` | high-tyramine foods (people taking MAOI medicines) |
+| `nightshade_free` | nightshades |
+
+The medical profiles (alpha-gal to nightshade) are ingredient screens to discuss with a doctor or dietitian, never medical advice (policy P17).
+
+**Allergens by country** (`ALLERGEN_SETS` in `src/everflavor/diets.py`, not a column): the flags each country or region requires on labels: `US` (9), `EU_UK` (14), `Canada`, `Australia_NZ`, `Japan` (mandatory), `Japan_recommended` and `South_Korea`. A flag can be broader than the law (gluten for wheat), the safe direction; allergens with no flag yet (for example peach and tomato in Korea) are listed in `ALLERGENS_NOT_FLAGGED`.
 
 ## Split
 

@@ -358,6 +358,10 @@ def validate_recipes(df: pd.DataFrame, origin_min_confidence: float) -> dict[str
         "recipes with meat are not vegetarian"        : (~df["contains_meat"] | ~df["vegetarian"]).all(),
         "red meat and poultry also count as meat"     : (~(df["contains_red_meat"] | df["contains_poultry"])
                                                          | df["contains_meat"]).all(),
+        "crustaceans and molluscs also count as shellfish": (~(df["contains_crustacean"] | df["contains_mollusc"])
+                                                             | df["contains_shellfish"]).all(),
+        "scaleless fish also count as fish"           : (~df["contains_scaleless_fish"] | df["contains_fish"]).all(),
+        "unclean meat also counts as meat"            : (~df["contains_unclean_meat"] | df["contains_meat"]).all(),
         "every diet column follows its rule (5.4.7)"  : all((df[d] == meets_diet(df, d)).all() for d in DIET_PROFILES),
         "nutrition diets only with listed nutrition"  : (~df[list(NUTRITION_DIETS)].any(axis=1) | df["nutrition_plausible"]).all(),
         "origin_source has only allowed values"       : df["origin_source"].isin(["labeled", "predicted", "unknown"]).all(),

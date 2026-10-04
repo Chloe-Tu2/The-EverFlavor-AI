@@ -14,18 +14,29 @@ from .parsing import parse_label_list
 
 __all__ = [
     "ALCOHOL_EXCEPTIONS",
+    "ALCOHOL_EXTRACT_EXCEPTIONS",
+    "ALCOHOL_EXTRACT_KEYWORDS",
     "ALCOHOL_KEYWORDS",
     "ALLIUM_EXCEPTIONS",
     "ALLIUM_KEYWORDS",
     "ANIMAL_EXCEPTIONS",
     "ANIMAL_KEYWORDS",
+    "ASAFOETIDA_KEYWORDS",
     "BEEF_EXCEPTIONS",
     "BEEF_KEYWORDS",
+    "BUCKWHEAT_EXCEPTIONS",
+    "BUCKWHEAT_KEYWORDS",
+    "CARMINE_KEYWORDS",
+    "CELERY_KEYWORDS",
+    "COFFEE_TEA_EXCEPTIONS",
+    "COFFEE_TEA_KEYWORDS",
     "COMPOUND_INGREDIENTS",
+    "CRUSTACEAN_KEYWORDS",
     "DAIRY_EXCEPTIONS",
     "DAIRY_KEYWORDS",
     "EGG_EXCEPTIONS",
     "EGG_KEYWORDS",
+    "FAVA_KEYWORDS",
     "FISH_EXCEPTIONS",
     "FISH_KEYWORDS",
     "FLAG_COLUMNS",
@@ -38,12 +49,24 @@ __all__ = [
     "GLUTEN_FREE_NAME",
     "GLUTEN_KEYWORDS",
     "HF_FREE_LABELS",
+    "HIGH_MERCURY_FISH_KEYWORDS",
+    "HIGH_PURINE_EXCEPTIONS",
+    "HIGH_PURINE_KEYWORDS",
+    "HIGH_TYRAMINE_EXCEPTIONS",
+    "HIGH_TYRAMINE_KEYWORDS",
     "HONEY_EXCEPTIONS",
     "HONEY_KEYWORDS",
     "LAND_MEAT_EXCEPTIONS",
     "LAND_MEAT_KEYWORDS",
+    "LUPIN_KEYWORDS",
     "MEAT_EXCEPTIONS",
     "MEAT_KEYWORDS",
+    "MOLLUSC_KEYWORDS",
+    "MUSHROOM_EXCEPTIONS",
+    "MUSHROOM_KEYWORDS",
+    "MUSTARD_KEYWORDS",
+    "NIGHTSHADE_EXCEPTIONS",
+    "NIGHTSHADE_KEYWORDS",
     "PEANUT_EXCEPTIONS",
     "PEANUT_KEYWORDS",
     "PORK_EXCEPTIONS",
@@ -52,16 +75,27 @@ __all__ = [
     "POULTRY_KEYWORDS",
     "PROCESSED_MEAT_EXCEPTIONS",
     "PROCESSED_MEAT_KEYWORDS",
+    "RAW_ANIMAL_EXCEPTIONS",
+    "RAW_ANIMAL_KEYWORDS",
     "RED_MEAT_EXCEPTIONS",
     "RED_MEAT_KEYWORDS",
     "ROOT_VEGETABLE_EXCEPTIONS",
     "ROOT_VEGETABLE_KEYWORDS",
+    "SALT_EXCEPTIONS",
+    "SALT_KEYWORDS",
+    "SCALELESS_FISH_EXCEPTIONS",
+    "SCALELESS_FISH_KEYWORDS",
     "SESAME_KEYWORDS",
     "SHELLFISH_EXCEPTIONS",
     "SHELLFISH_KEYWORDS",
+    "SOFT_CHEESE_KEYWORDS",
     "SOY_KEYWORDS",
+    "SULFITE_EXCEPTIONS",
+    "SULFITE_KEYWORDS",
     "TREE_NUT_EXCEPTIONS",
     "TREE_NUT_KEYWORDS",
+    "UNCLEAN_MEAT_EXCEPTIONS",
+    "UNCLEAN_MEAT_KEYWORDS",
     "add_foodcom_diet_flags",
     "add_hf_diet_flags",
     "add_keyword_flags",
@@ -153,20 +187,28 @@ FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "s
                      "kipper", "eel", "carp", "bream", "branzino", "surimi", "roe",
                      "fish sauce", "worcestershire sauce", "bonito", "caviar",
                      "dashi", "katsuobushi", "nam pla", "nuoc mam", "caesar dressing",
+                     "shark", "unagi", "sturgeon", "skate", "stingray", "fugu", "pufferfish", "lamprey",
+                     "marlin", "tilefish", "bullhead",
                      # Policy: unspecified "seafood" may be fish or shellfish, so it sets both
                      "seafood"] + _compounds("contains_fish")
-SHELLFISH_KEYWORDS = ["shrimp", "prawn", "crab", "crabmeat", "lobster", "langoustine",
-                      "langostino", "scampi", "krill", "crawfish", "crayfish", "clam", "cockle",
-                      "mussel", "scallop", "oyster", "squid", "calamari", "octopus", "conch",
-                      "abalone", "whelk", "belacan", "bagoong", "snail", "escargot", "seafood",
-                      "frutti di mare"] + _compounds("contains_shellfish")
+# Shellfish is two allergen groups that the EU, Canada, Australia / NZ, Japan and Korea label
+# separately: many people allergic to shrimp can eat clams, and the reverse. Policy P5 / P10:
+# unspecified "seafood" may be either, so it sets both
+CRUSTACEAN_KEYWORDS = ["shrimp", "prawn", "crab", "crabmeat", "lobster", "langoustine", "langostino",
+                       "scampi", "krill", "crawfish", "crayfish", "belacan", "bagoong", "shrimp paste",
+                       "seafood", "frutti di mare"] + _compounds("contains_crustacean", "contains_shellfish")
+# Land snails count as molluscs too (EU Regulation 1169/2011)
+MOLLUSC_KEYWORDS  = ["clam", "cockle", "mussel", "scallop", "oyster", "squid", "calamari", "octopus",
+                     "cuttlefish", "conch", "abalone", "whelk", "periwinkle", "geoduck", "snail", "escargot",
+                     "seafood", "frutti di mare"] + _compounds("contains_mollusc", "contains_shellfish")
+SHELLFISH_KEYWORDS = list(dict.fromkeys(CRUSTACEAN_KEYWORDS + MOLLUSC_KEYWORDS))
 SOY_KEYWORDS      = ["soy", "soya", "soy sauce", "soybean", "tofu", "tempeh", "edamame",
                      "miso", "tamari", "teriyaki", "hoisin", "gochujang", "doenjang", "natto",
                      "shoyu", "ponzu", "yuba"] + _compounds("contains_soy")
 SESAME_KEYWORDS   = ["sesame", "tahini", "tahina", "halva", "halvah", "za'atar", "zaatar",
                      "za atar", "furikake", "gomasio", "gomashio", "benne", "hummus", "houmous",
                      "hummous", "baba ganoush", "baba ghanoush", "gingelly"] + _compounds("contains_sesame")
-LAND_MEAT_KEYWORDS = ["chicken", "beef", "lamb", "mutton", "goat", "turkey", "veal", "duck",
+LAND_MEAT_KEYWORDS = (["chicken", "beef", "lamb", "mutton", "goat", "turkey", "veal", "duck",
                       "venison", "goose", "rabbit", "bison", "elk", "quail", "pheasant",
                       "cornish hen", "game hen", "fryer", "meat", "steak", "sirloin",
                       "brisket", "chuck", "ground round", "rib eye", "ribeye",
@@ -176,7 +218,10 @@ LAND_MEAT_KEYWORDS = ["chicken", "beef", "lamb", "mutton", "goat", "turkey", "ve
                       "gelatin", "gelatine", "marshmallow", "jello", "jell-o", "schmaltz", "poultry",
                       "kidney", "tripe", "oxtail", "sweetbread", "horse", "boar", "moose", "kangaroo",
                       "squab", "partridge", "guinea fowl", "poussin", "capon", "foie gras", "mince",
-                      "ground meat", "minced meat"] + PORK_KEYWORDS + _compounds("contains_meat")
+                      "ground meat", "minced meat", "hare", "camel", "alligator", "crocodile", "frog leg",
+                      "frogs leg", "frogs' leg", "turtle meat", "turtle soup", "snapping turtle", "squirrel",
+                      "guinea pig", "opossum", "possum", "raccoon", "armadillo"]
+                     + PORK_KEYWORDS + _compounds("contains_meat"))
 
 # Base flags for the diet profiles in 5.4.7
 BEEF_KEYWORDS     = ["beef", "veal", "steak", "brisket", "sirloin", "chuck", "ground round", "rib eye",
@@ -213,7 +258,95 @@ ROOT_VEGETABLE_KEYWORDS = ["potato", "sweet potato", "yam", "carrot", "beet", "b
                            "lotus root", "jerusalem artichoke", "sunchoke"]
 ALLIUM_KEYWORDS   = ["onion", "garlic", "leek", "shallot", "scallion", "chive", "spring onion",
                      "green onion"]
-ANIMAL_KEYWORDS   = MEAT_KEYWORDS + DAIRY_KEYWORDS + EGG_KEYWORDS + ["honey"]
+# Asafoetida (hing) is one of the five pungent plants Mahayana Buddhists avoid. It is NOT in the
+# allium list: Jain and many Hindu cooks use it instead of onion and garlic (policy P16)
+ASAFOETIDA_KEYWORDS = ["asafoetida", "asafetida", "hing"]
+MUSHROOM_KEYWORDS = ["mushroom", "shiitake", "portobello", "portabella", "portabello", "portobella",
+                     "cremini", "crimini", "chanterelle", "porcini", "morel", "enoki", "maitake", "shimeji",
+                     "wood ear", "cloud ear", "king trumpet", "cep",
+                     # policy P19: savory truffles only, not chocolate truffles
+                     "black truffle", "white truffle", "truffle oil", "truffle salt", "truffle butter",
+                     "truffle paste"]
+# Red coloring made from insects: not vegan, not kosher (policy P11)
+CARMINE_KEYWORDS  = ["carmine", "cochineal", "carminic acid", "crimson lake", "natural red 4"]
+ANIMAL_KEYWORDS   = MEAT_KEYWORDS + DAIRY_KEYWORDS + EGG_KEYWORDS + ["honey"] + CARMINE_KEYWORDS
+
+# --- Allergens labeled outside the US (EU / UK, Canada, Australia / NZ, Japan, Korea) ---
+# Policy P12: mustard greens count (EU and UK guidance treats mustard leaves as a possible
+# source), and so do mixes that are mostly celery (mirepoix, Old Bay seasoning)
+MUSTARD_KEYWORDS  = ["mustard", "dijon", "mustard seed", "mustard oil", "mustard green", "dry mustard",
+                     "honey mustard", "kasundi", "piccalilli"] + _compounds("contains_mustard")
+CELERY_KEYWORDS   = ["celery", "celeriac", "celery root", "celery seed", "celery salt", "mirepoix",
+                     "old bay"] + _compounds("contains_celery")
+LUPIN_KEYWORDS    = ["lupin", "lupine", "lupini"] + _compounds("contains_lupin")
+# Buckwheat is not wheat and has no gluten, but Japan and Korea label it: soba noodles
+BUCKWHEAT_KEYWORDS = ["buckwheat", "soba", "kasha", "kuttu", "pizzoccheri", "naengmyeon",
+                      "memil"] + _compounds("contains_buckwheat")
+# Policy P13: ingredients that usually contain added sulfites, so "may contain sulfites"
+SULFITE_KEYWORDS  = ["sulfite", "sulphite", "metabisulfite", "metabisulphite", "sulfur dioxide",
+                     "sulphur dioxide", "wine", "sherry", "champagne", "prosecco", "vermouth", "marsala",
+                     "madeira", "port wine", "hard cider", "dried apricot", "golden raisin", "sultana",
+                     "maraschino", "dried fruit", "sulphured molasses", "sulfured molasses"] + _compounds("contains_sulfites")
+
+# --- Religious and cultural diets ---
+# Fish without fins and scales are not kosher, and not "clean" for Seventh-day Adventists or
+# Rastafari (policy P11; swordfish and sturgeon lose their scales, so they count)
+SCALELESS_FISH_KEYWORDS = ["catfish", "eel", "unagi", "shark", "monkfish", "swordfish", "sturgeon",
+                           "caviar", "skate", "stingray", "fugu", "pufferfish", "lamprey", "bullhead"]
+# Land animals that are not kosher or Adventist "clean" besides pork (policy P11)
+UNCLEAN_MEAT_KEYWORDS = ["rabbit", "hare", "horse", "camel", "kangaroo", "alligator", "crocodile",
+                         "frog leg", "frogs leg", "frogs' leg", "turtle meat", "turtle soup", "snapping turtle",
+                         "squirrel", "guinea pig", "opossum", "possum", "raccoon", "armadillo"]
+# Policy P15: Latter-day Saints avoid coffee and tea, decaf included; herbal teas are not "tea"
+COFFEE_TEA_KEYWORDS = ["coffee", "espresso", "instant coffee", "cappuccino", "latte", "mocha", "tea",
+                       "green tea", "black tea", "matcha", "chai", "earl grey", "oolong", "kahlua",
+                       "coffee liqueur", "tia maria", "yerba mate"]
+# Many Rastafari (Ital diet) cook without added salt
+SALT_KEYWORDS     = ["salt"]
+# Flavor extracts and bitters are made with alcohol (vanilla extract is about 35%). Kept apart from
+# contains_alcohol: whether they count for halal is a team policy (P18), not decided yet.
+# A plain "vanilla" in an ingredient list almost always means the liquid extract
+ALCOHOL_EXTRACT_KEYWORDS = ["vanilla", "vanilla extract", "vanilla essence", "pure vanilla", "almond extract",
+                            "lemon extract", "orange extract", "peppermint extract", "mint extract",
+                            "coconut extract", "rum extract", "brandy extract", "maple extract", "anise extract",
+                            "banana extract", "raspberry extract", "strawberry extract", "cherry extract",
+                            "hazelnut extract", "flavoring extract", "bitters", "angostura"]
+
+# --- Medical diets: a screen for the ingredients to talk about with a doctor, never advice (P17) ---
+# G6PD deficiency (favism). Policy P14: falafel counts (Egyptian falafel is made from fava beans)
+FAVA_KEYWORDS     = ["fava", "faba", "broad bean", "ful", "ful medames", "foul medames", "ful mudammas",
+                     "habas", "falafel", "ta'ameya", "taameya", "bissara"]
+# Tomato, potato, peppers and chilies, eggplant (plain "pepper" is black pepper, not a nightshade)
+NIGHTSHADE_KEYWORDS = ["tomato", "tomatillo", "potato", "eggplant", "aubergine", "brinjal", "bell pepper",
+                       "red pepper", "green pepper", "yellow pepper", "orange pepper", "sweet pepper",
+                       "hot pepper", "chili", "chile", "chilli", "jalapeno", "jalapeño", "serrano", "habanero",
+                       "poblano", "chipotle", "ancho", "anaheim", "scotch bonnet", "cayenne", "paprika",
+                       "pimento", "pimiento", "pepperoncini", "banana pepper", "piquillo", "sriracha",
+                       "harissa", "gochujang", "gochugaru", "hot sauce", "tabasco", "salsa", "ketchup",
+                       "catsup", "marinara", "pepper jack", "goji", "tamarillo"]
+# FDA / EPA "choices to avoid" in pregnancy and for young children
+HIGH_MERCURY_FISH_KEYWORDS = ["king mackerel", "marlin", "orange roughy", "shark", "swordfish", "tilefish",
+                              "bigeye tuna"]
+# Raw or undercooked animal foods (pregnancy). Notebook 02's cooking methods can refine this later
+RAW_ANIMAL_KEYWORDS = ["sushi", "sashimi", "tartare", "carpaccio", "ceviche", "poke", "crudo", "gravlax",
+                       "gravad lax", "lox", "smoked salmon", "raw egg", "raw oyster", "raw milk",
+                       "unpasteurized", "unpasteurised", "medium rare", "medium-rare", "kitfo", "yukhoe",
+                       "kibbeh nayeh", "mett", "tiramisu", "eggnog"]
+# Soft and mold-ripened cheeses (pregnancy: Listeria) unless pasteurized or cooked until hot
+SOFT_CHEESE_KEYWORDS = ["brie", "camembert", "blue cheese", "roquefort", "gorgonzola", "danish blue",
+                        "queso fresco", "queso blanco", "queso panela", "chevre", "chèvre", "raw milk cheese"]
+# Gout: high-purine foods
+HIGH_PURINE_KEYWORDS = ["liver", "liverwurst", "kidney", "sweetbread", "brain", "anchovy", "anchovies",
+                        "sardine", "herring", "mackerel", "mussel", "scallop", "trout", "roe", "caviar",
+                        "beer", "yeast extract", "marmite", "vegemite", "meat extract"]
+# MAOI medicines: high-tyramine foods (aged cheese, cured meat, fermented foods)
+HIGH_TYRAMINE_KEYWORDS = ["cheddar", "parmesan", "parmigiano", "pecorino", "romano", "gouda", "gruyere",
+                          "emmental", "swiss cheese", "blue cheese", "gorgonzola", "roquefort", "stilton",
+                          "brie", "camembert", "aged cheese", "salami", "pepperoni", "chorizo",
+                          "summer sausage", "mortadella", "prosciutto", "soppressata", "pastrami",
+                          "sauerkraut", "kimchi", "miso", "natto", "soy sauce", "fish sauce", "shrimp paste",
+                          "belacan", "bagoong", "yeast extract", "marmite", "vegemite", "fava", "broad bean",
+                          "tap beer", "draft beer", "chianti"]
 
 # Phrases that contain a keyword but are not that food
 # (removed from the text before keywords are matched, longest first)
@@ -276,7 +409,7 @@ MEAT_EXCEPTIONS     = OYSTER_MUSHROOM_PHRASES + FISH_EXCEPTIONS + [
                        "vegetarian marshmallow", "portobello steak", "portabella steak",
                        "portobella steak", "mushroom steak", "kidney bean", "horseradish", "chicken-fried",
                        "chicken fried", "poultry seasoning", "air fryer", "air-fryer", "deep fryer",
-                       "horse gram"]
+                       "horse gram", "welsh rabbit", "welsh rarebit"]
 # Used for contains_meat (land meat only): a fish steak is not meat
 LAND_MEAT_EXCEPTIONS = MEAT_EXCEPTIONS + ["tuna steak", "salmon steak", "fish steak", "swordfish steak",
                                           "halibut steak", "cod steak"]
@@ -296,6 +429,35 @@ GELATIN_EXCEPTIONS  = ["agar", "vegan gelatin", "vegan marshmallow", "vegetarian
 HONEY_EXCEPTIONS    = ["honey crisp", "honeycrisp"]
 ROOT_VEGETABLE_EXCEPTIONS = ["ground ginger", "dried ginger", "ginger powder", "ginger ale", "ginger beer"]
 ALLIUM_EXCEPTIONS   = ["onion seed", "onion seeds"]
+MUSHROOM_EXCEPTIONS = ["chocolate truffle"]
+# "Chuka soba" and "Okinawa soba" are wheat noodles; yakisoba is one word, so it never matches
+BUCKWHEAT_EXCEPTIONS = ["chuka soba", "okinawa soba"]
+SULFITE_EXCEPTIONS  = ["unsulfured", "unsulphured", "sulfite-free", "sulfite free", "sulphite-free",
+                       "sulphite free", "no added sulfites"]
+# "Eel sauce" (unagi sauce) is soy sauce, mirin and sugar
+SCALELESS_FISH_EXCEPTIONS = FISH_EXCEPTIONS + ["eel sauce", "unagi sauce"]
+# "Welsh rabbit" is cheese on toast; horse gram is a lentil
+UNCLEAN_MEAT_EXCEPTIONS = ["welsh rabbit", "welsh rarebit", "horse gram", "horseradish"]
+# Dishes named after the drink they are served with, creamers and herbal teas
+COFFEE_TEA_EXCEPTIONS = ["coffee cake", "coffeecake", "coffee creamer", "coffee-mate", "coffee mate",
+                         "tea cake", "teacake", "tea sandwich", "tea biscuit", "tea bread", "tea party",
+                         "tea time", "teatime", "high tea", "afternoon tea", "tea towel", "herbal tea",
+                         "herb tea", "chamomile tea", "camomile tea", "peppermint tea", "rooibos tea",
+                         "hibiscus tea", "fruit tea", "ginger tea", "long island iced tea", "long island tea"]
+SALT_EXCEPTIONS     = ["salt-free", "salt free", "no-salt", "no salt", "salt substitute", "epsom salt"]
+# Vanilla products that are not the liquid extract
+ALCOHOL_EXTRACT_EXCEPTIONS = ["vanilla bean", "vanilla pod", "vanilla powder", "vanilla sugar", "vanilla ice cream",
+                              "vanilla pudding", "vanilla instant pudding", "vanilla yogurt", "vanilla greek yogurt",
+                              "vanilla wafer", "vanilla frosting", "vanilla cake mix", "vanilla protein",
+                              "vanilla almond milk", "vanilla soy milk", "vanilla soymilk", "vanilla coconut milk",
+                              "vanilla creamer", "vanilla chip", "vanilla cookie", "vanilla bean ice cream",
+                              "alcohol-free", "alcohol free", "non-alcoholic"]
+NIGHTSHADE_EXCEPTIONS = ["sweet potato", "serrano ham", "jamon serrano", "jamón serrano"]
+RAW_ANIMAL_EXCEPTIONS = ["sushi rice", "sushi vinegar", "sushi nori", "vegetable sushi", "vegetarian sushi",
+                         "veggie sushi", "vegan sushi", "cucumber sushi", "avocado sushi", "poke cake",
+                         "cooked eggnog", "eggnog flavored", "eggnog-flavored", "store-bought eggnog"]
+HIGH_PURINE_EXCEPTIONS = ["kidney bean", "root beer", "ginger beer", "non-alcoholic beer", "alcohol-free beer"]
+HIGH_TYRAMINE_EXCEPTIONS = ["romano bean"]
 
 # Flag column -> (keywords, exceptions)
 FLAG_RULES = {
@@ -308,8 +470,16 @@ FLAG_RULES = {
     "contains_tree_nut" : (TREE_NUT_KEYWORDS, TREE_NUT_EXCEPTIONS),
     "contains_fish"     : (FISH_KEYWORDS, FISH_EXCEPTIONS),
     "contains_shellfish": (SHELLFISH_KEYWORDS, SHELLFISH_EXCEPTIONS),
+    "contains_crustacean": (CRUSTACEAN_KEYWORDS, SHELLFISH_EXCEPTIONS),
+    "contains_mollusc"  : (MOLLUSC_KEYWORDS, SHELLFISH_EXCEPTIONS),
     "contains_soy"      : (SOY_KEYWORDS, ()),
     "contains_sesame"   : (SESAME_KEYWORDS, ()),
+    # Allergens labeled outside the US (diets.ALLERGEN_SETS)
+    "contains_mustard"  : (MUSTARD_KEYWORDS, ()),
+    "contains_celery"   : (CELERY_KEYWORDS, ()),
+    "contains_lupin"    : (LUPIN_KEYWORDS, ()),
+    "contains_buckwheat": (BUCKWHEAT_KEYWORDS, BUCKWHEAT_EXCEPTIONS),
+    "contains_sulfites" : (SULFITE_KEYWORDS, SULFITE_EXCEPTIONS),
     # Base flags used by the diet profiles (5.4.7)
     "contains_meat"     : (LAND_MEAT_KEYWORDS, LAND_MEAT_EXCEPTIONS),   # meat or poultry, not fish
     "contains_beef"     : (BEEF_KEYWORDS, BEEF_EXCEPTIONS),
@@ -320,6 +490,22 @@ FLAG_RULES = {
     "contains_honey"    : (HONEY_KEYWORDS, HONEY_EXCEPTIONS),
     "contains_root_vegetable": (ROOT_VEGETABLE_KEYWORDS, ROOT_VEGETABLE_EXCEPTIONS),
     "contains_allium"   : (ALLIUM_KEYWORDS, ALLIUM_EXCEPTIONS),
+    "contains_asafoetida": (ASAFOETIDA_KEYWORDS, ()),
+    "contains_mushroom" : (MUSHROOM_KEYWORDS, MUSHROOM_EXCEPTIONS),
+    "contains_carmine"  : (CARMINE_KEYWORDS, ()),
+    "contains_scaleless_fish": (SCALELESS_FISH_KEYWORDS, SCALELESS_FISH_EXCEPTIONS),
+    "contains_unclean_meat": (UNCLEAN_MEAT_KEYWORDS, UNCLEAN_MEAT_EXCEPTIONS),
+    "contains_coffee_or_tea": (COFFEE_TEA_KEYWORDS, COFFEE_TEA_EXCEPTIONS),
+    "contains_added_salt": (SALT_KEYWORDS, SALT_EXCEPTIONS),
+    "contains_alcohol_extract": (ALCOHOL_EXTRACT_KEYWORDS, ALCOHOL_EXTRACT_EXCEPTIONS),
+    # Medical screens (policy P17): ingredients to discuss with a doctor, never medical advice
+    "contains_fava"     : (FAVA_KEYWORDS, ()),
+    "contains_nightshade": (NIGHTSHADE_KEYWORDS, NIGHTSHADE_EXCEPTIONS),
+    "contains_high_mercury_fish": (HIGH_MERCURY_FISH_KEYWORDS, ()),
+    "contains_raw_animal": (RAW_ANIMAL_KEYWORDS, RAW_ANIMAL_EXCEPTIONS),
+    "contains_soft_cheese": (SOFT_CHEESE_KEYWORDS, ()),
+    "contains_high_purine": (HIGH_PURINE_KEYWORDS, HIGH_PURINE_EXCEPTIONS),
+    "contains_high_tyramine": (HIGH_TYRAMINE_KEYWORDS, HIGH_TYRAMINE_EXCEPTIONS),
 }
 FLAG_COLUMNS = list(FLAG_RULES) + ["vegetarian", "vegan"]
 
@@ -455,6 +641,9 @@ HF_FREE_LABELS = {
     "contains_tree_nut" : "tree-nut-free",
     "contains_fish"     : "fish-free",
     "contains_shellfish": "shellfish-free",
+    # The dataset has no separate crustacean / mollusc labels, so "shellfish-free" rules out both
+    "contains_crustacean": "shellfish-free",
+    "contains_mollusc"  : "shellfish-free",
     "contains_soy"      : "soy-free",
 }
 
