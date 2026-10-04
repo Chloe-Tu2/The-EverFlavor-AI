@@ -122,7 +122,16 @@ Small samples are collected in Week 4. In Week 5, two free USDA bulk downloads (
 
 ### Planned or optional
 - **[RecipeDB](https://cosylab.iiitd.edu.in/recipedb/):** ~118,000 recipes with nutrition. Needs an API key from the CoSyLab team (see section 2.4.7 in the notebook).
-- **Google Places API:** store search for the Sourcing Agent (not built yet).
+
+### Planned pipelines (notebooks 03-05)
+
+Planning sketches are in `notebooks/`: each lists its sources (licenses read on 2026-10-04), the tables it will produce and its functions as stubs. Nothing in them is built or run yet.
+
+| Notebook | Sources | License |
+|---|---|---|
+| 03 Stores, restaurants and products | Google Places API (store search for the Sourcing Agent); OpenStreetMap through the Overpass API; the [Open Food Facts product export](https://huggingface.co/datasets/openfoodfacts/product-database) (~4.8 million products) | Google terms (only place IDs are stored); ODbL; ODbL |
+| 04 Ingredient knowledge | Wikidata (ingredient names in other languages); Food.com reviews (substitutions, already downloaded); our own recipes (ingredient pairings); [USDA FoodKeeper](https://catalog.data.gov/dataset/fsis-foodkeeper-data) (shelf life) | CC0; as above; -; CC0 |
+| 05 Computer vision: food freshness | 11 image sources across fruits and vegetables, red meat, fish and bread (for example AgriFreshNET, TriModal Ripeness 6, MeatScan, DaFiF, two fish-eye sets), plus the team's own photos | Mostly CC BY 4.0; four still to confirm on the data record |
 
 <details>
 <summary><b>Licenses</b></summary>
@@ -151,6 +160,9 @@ flowchart LR
     C --> G[Fill nutrition,<br/>country of origin,<br/>diet profiles]
     G --> D[Week 6<br/>EDA, baseline,<br/>cuisine classifier]
     D --> E[Week 7<br/>Model development]
+    G --> H[Human check<br/>of the flags]
+    G --> F[Notebook 02<br/>Cooking methods<br/>and fats]
+    G -.-> P[Notebooks 03-05<br/>planned: stores, ingredient<br/>knowledge, freshness]
 ```
 
 ### Results so far
@@ -163,15 +175,17 @@ flowchart LR
 | **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 186 kcal, with a likely range) |
 | **Country of origin** | 121,456 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 108,559 predicted at 70%+ confidence (right about 90% of the time on validation); 61,756 `Unknown` |
 | **Diet profiles** | Halal-friendly 76%, kosher-friendly 70%, pescatarian 63%, no beef 89%, Jain-friendly 16%, lower sodium 58%, low carb 28% of recipes |
-| **Validation** | 21 automatic checks pass; no near-duplicate leakage between splits |
+| **Validation** | 22 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
-| **Code checks** | 20 automated tests pass (16 for the shared functions, 4 security checks); type hints in `src/` and `tests/` checked with mypy |
+| **Cooking methods and fats** | Notebook 02: cooking methods for every recipe (rules agree with Food.com's own tags on 66–95% of tagged recipes per method), the cooking fats each recipe names, and a reference table of 31 fats; 49% of fried recipes do not say which frying fat they use |
+| **Code checks** | 33 automated checks pass (29 tests for the shared functions, 4 security checks); type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 - Data collected from USDA FoodData Central, Open Food Facts, Food.com (Kaggle), Hugging Face, CulinaryDB and TheMealDB.
 - Cleaning and feature engineering:
   - cuisine family for every source, using Food.com's cuisine tags
   - restriction flags for pork, alcohol, gluten, dairy, egg, peanut, tree nuts, fish, shellfish, soy and sesame, vegetarian and vegan, plus meat, beef, gelatin, honey, root vegetables, onion and garlic for the diet profiles
+  - the kind of meat: red meat (meat from mammals, pork included), poultry (white meat) and processed meat, following USDA and WHO / IARC definitions (fish and shellfish are their own groups)
   - calories and macronutrients in grams per serving
   - normalized ingredient lists and a complexity score
 - All sources combined into one recipe table and saved as Parquet.
@@ -182,20 +196,32 @@ flowchart LR
   - quantities removed from ingredient names
   - nutrition plausibility checks
   - a train/validation/test split (70/15/15) that keeps near-duplicate recipes together, so there is no leakage
-  - 21 automatic validation checks
+  - 22 automatic validation checks
   - a dataset record of versions and settings (`dataset_info.json`)
 - Exploratory analysis with charts showing what each step changed (`data/processed/figures/`).
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
-- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions and 20 automated tests, including 4 security checks run before each push.
+- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 29 automated tests and 4 security checks run before each push.
+- Cooking methods and cooking fats (notebook 02): methods from the instructions, checked against Food.com's own method tags; the fats each recipe names; a cited reference table of 31 fats (smoke point ranges, USDA fat breakdown, allergens, flavor, where each is traditional); and a caution for fried recipes whose frying fat is not stated.
+- Human verification of the flags (section 5.13): the evidence is gathered automatically, and people make and record the decisions (see below).
 
 ### Restriction flag check
-Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended twice and the flags now read recipe names too; the latest fresh sample (round 3, which also checks the diet flags) measures 96–100% recall for every flag except shellfish (83%). Details and labeling rules: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md). **Still to do by hand:** a team member should spot-check the labels where they disagree with the flags; the steps are in [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_review/HOW_TO_SPOT_CHECK.md).
+Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended twice and the flags now read recipe names too; the latest fresh sample (round 3, which also checks the diet flags) measures 96–100% recall for every flag except shellfish (83%). Details and labeling rules: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md).
+
+All 30 round 3 disagreements were then traced to what set each flag: 17 were keyword bugs (now fixed), 2 were allergens hidden inside ready-made ingredients, 4 were wrong AI answers and 7 were matters of definition. Round 3 is therefore optimistic now, and round 4 is the fresh sample for the next measurement.
+
+**Human verification (section 5.13).** An AI checking an AI is not independent, so people make the final decisions, and the notebook records them in `docs/flag_review/`:
+- **Policies** (`flag_policies.csv`): definitions such as "oats count as gluten" or "pork is red meat", each with its reason and source, approved by a named person.
+- **Hidden allergens** (`compound_ingredients_review.csv`): for ready-made ingredients such as "ranch dressing", Open Food Facts products are checked for the allergens their labels declare; a person approves or rejects each suggestion.
+- **Sign-off** (`human_signoff.csv`): a reviewer checks a round's disagreements and signs it off. The completion checklist ticks this only when a person has done it.
+
+The steps take no coding: [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_review/HOW_TO_SPOT_CHECK.md).
 
 ### Known data gaps
 - Many recipes still have no cuisine label ("Other"), mostly American recipes and Food.com recipes without a cuisine tag.
 - Predicted countries are a good guess, not a fact (about 90% right overall, 77-97% depending on the country), and 21% of recipes still have no country. Regions exist only where a source names them.
-- The flag labels used to measure accuracy were made by an AI assistant; until a team member spot-checks them, treat the accuracy numbers as estimates.
+- The flag labels used to measure accuracy were made by an AI assistant; until a person signs off a round (section 5.13), treat the accuracy numbers as estimates.
+- Recipes rarely name their frying fat, and no open data says which oil a restaurant uses, so fat information for fried dishes stays a caution, never a guarantee.
 - Food.com macros are converted from percent of daily value, so they are approximate.
 - CulinaryDB and TheMealDB publish no nutrition, and CulinaryDB lists no amounts or servings, so their calories are estimates (labeled as such). A typical estimate is off by about 100 kcal per serving.
 - Restriction flags come from keywords in the ingredients and recipe names (plus Hugging Face health labels), so they are approximate; the rarer allergens (peanut, shellfish, soy, sesame) are the least reliable.
@@ -204,15 +230,25 @@ Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingr
 See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
-Week 7 model development, then the CrewAI agents, Google Places integration and the Gradio interface.
+Week 7 model development, then the CrewAI agents and the Gradio interface. Building the planned pipelines: stores and products (notebook 03, including Google Places), ingredient knowledge (notebook 04) and food freshness from photos (notebook 05).
 
 ---
 
 ## Running the Notebook
 
-`notebooks/01_data_acquisition_EverFlavor_V3.ipynb` runs unchanged in **Google Colab**, **VS Code** and **Antigravity**. Its setup cell (section 2.3) detects the environment, moves to the project folder and loads API keys from the right place.
+Each data pipeline has its own notebook. They share the code in `src/everflavor/` and pass data to each other through saved files, so run them in this order:
 
-Running all cells in order does everything: Week 4 downloads all six sources, Week 5 cleans and combines them, and Week 6 analyzes them. The only key needed is `USDA_API_KEY`.
+| Order | Notebook | What it does | Needs |
+|---|---|---|---|
+| 1 | `notebooks/01_data_acquisition_EverFlavor_V3.ipynb` | Weeks 4-6: collects, cleans, flags and combines the recipes, fills nutrition and origin, verifies the flags, analyzes the data | `USDA_API_KEY` |
+| 2 | `notebooks/02_cooking_methods_and_fats.ipynb` | Cooking methods and cooking fats for every recipe, and the cooking-fat reference table | Notebook 01's saved files (same Colab session or same computer) |
+| 3 | `notebooks/03_stores_and_products.ipynb` | **Planning sketch:** stores, restaurants and products by country | Notebook 01's saved files; later `GOOGLE_PLACES_API_KEY` |
+| 4 | `notebooks/04_ingredient_knowledge.ipynb` | **Planning sketch:** ingredient names in other languages, substitutions, pairings, shelf life | Notebook 01's saved files |
+| 5 | `notebooks/05_computer_vision_freshness.ipynb` | **Planning sketch:** how fresh food looks in a photo, and the training plan | Notebook 04's shelf-life table; a GPU for training |
+
+All of them run unchanged in **Google Colab**, **VS Code** and **Antigravity** (the sketches only run their setup and print their plan status). The setup cell detects the environment, moves to the project folder and loads API keys from the right place.
+
+Running all cells of notebook 01 in order does everything for it: Week 4 downloads all six sources, Week 5 cleans and combines them, and Week 6 analyzes them. The only key needed is `USDA_API_KEY`.
 
 The notebook's reusable code (download helpers, cleaning, restriction flags, diet rules, USDA matching, the pipeline, validation and the safety filter) lives in **`src/everflavor/`**, and the notebook imports it. The setup cell adds `src/` to Python's path; if the notebook was opened on its own (for example in Colab straight from GitHub), it downloads that folder from the repository first.
 
@@ -253,6 +289,8 @@ Generated files are not committed; the notebook recreates them.
 | `data/processed/figures/` | Every chart, as a PNG image |
 | `data/processed/dataset_info.json` | Source versions, settings and row counts for the run |
 | `models/cuisine_baseline.joblib` | The fitted baseline pipeline |
+| `data/interim/recipe_cooking_labels.parquet` | Notebook 02: cooking methods and fats per recipe (join on `recipe_id`) |
+| `data/processed/cooking_fats_reference.csv` | Notebook 02: the cooking-fat reference table with its USDA fat breakdown |
 
 Parquet is a compressed format that a text editor cannot open. To look at a Parquet file, either:
 - load it in a notebook with `pd.read_parquet("data/interim/recipes_all.parquet").head()`, or
@@ -304,8 +342,13 @@ python -m ruff check src tests notebooks                 # mistakes and style
 ```
 The-EverFlavor-AI/
 ├── notebooks/
-│   └── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
+│   ├── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
+│   ├── 02_cooking_methods_and_fats.ipynb          # Cooking methods and fats (run after notebook 01)
+│   ├── 03_stores_and_products.ipynb               # Planning sketch: stores, restaurants, products by country
+│   ├── 04_ingredient_knowledge.ipynb              # Planning sketch: names, substitutions, pairings, shelf life
+│   └── 05_computer_vision_freshness.ipynb         # Planning sketch: food freshness from photos
 ├── data/
+│   ├── reference/    # Hand-made reference tables with sources (committed): cooking_fats.csv
 │   ├── raw/          # Original downloads and samples (generated, not committed)
 │   ├── interim/      # Combined, cleaned recipe table (generated, not committed)
 │   └── processed/    # Train/val/test splits, charts (figures/), dataset_info.json (generated, not committed)
@@ -317,14 +360,17 @@ The-EverFlavor-AI/
 │       ├── flags.py, diets.py           # restriction flags and diet profiles
 │       ├── nutrition.py, features.py    # nutrition, USDA matching, text features
 │       ├── pipeline.py                  # cleaning, run_pipeline, combining, splitting, validation
-│       └── review.py, recommend.py, charts.py, reporting.py, parsing.py, checks.py
+│       ├── review.py                    # flag review rounds and the human-verification evidence
+│       ├── cooking.py                   # cooking methods and cooking fats (notebook 02)
+│       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py
 ├── tests/
 │   ├── test_everflavor.py   # What each shared function promises
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files
 ├── docs/
 │   ├── art/          # ramen.py draws the README's ramen bowl (ANSI art) and saves ramen.svg
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
-│   ├── flag_review/  # Blind 200-recipe samples per round, their labels and labeling notes
+│   ├── flag_review/  # Blind 200-recipe samples per round, their labels, and the human decisions
+│   │                 # (flag_policies.csv, compound_ingredients_review.csv, human_signoff.csv)
 │   ├── datasheet.md        # What is in the dataset, how it was built, known limits
 │   ├── data_dictionary.md  # Every column of the recipe table
 │   ├── sources.md          # Every data source: URL, license, access method, version
