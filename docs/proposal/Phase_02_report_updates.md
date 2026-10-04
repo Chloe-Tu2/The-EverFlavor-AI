@@ -46,7 +46,7 @@ Two baselines were evaluated:
 
 ## New: Restriction Flag Accuracy
 
-Blind samples of 200 recipes (50 per source) were labeled independently of the flags. Round 1 showed that gluten was caught in only 81% of the recipes containing it, because wheat is often hidden in product names (crackers, pastry, spaghetti, buns). After extending the keyword lists, a fresh round 2 sample measured gluten at 96% recall and 97% precision; dairy, egg, pork, alcohol, fish and tree nuts were 98–100%, while the rarer peanut, shellfish, soy and sesame (5–11 cases each) were 67–91%. The labels were produced by an AI assistant and are marked for spot-checking by the team.
+Blind samples of 200 recipes (50 per source) were labeled independently of the flags. Round 1 showed that gluten was caught in only 81% of the recipes containing it, because wheat is often hidden in product names (crackers, pastry, spaghetti, buns). After extending the keyword lists (twice, each time checked on a fresh sample), the latest round measured 96–100% recall for every flag, including gluten (96%, precision 99%) and the flags behind the diet profiles, except shellfish (83%, 10 of 12 cases). The labels were produced by an AI assistant and are marked for spot-checking by the team.
 
 ## 5. Preprocessed Dataset Deliverable: replace the first bullet
 

@@ -158,7 +158,7 @@ flowchart LR
 |---|---|
 | **Recipes after cleaning** | **291,771** from 4 sources, duplicates removed |
 | **By cuisine family** | European 48,151 · Asian 20,788 · Latin American 15,706 · Middle Eastern 3,406 · African 3,179 |
-| **Restriction flags** | On a fresh blind 200-recipe check they catch 96–100% of real cases for gluten, dairy, egg, pork, alcohol, fish, tree nuts and meat; the rarer allergens (peanut, shellfish, soy, sesame, 5–11 cases each) 67–91% |
+| **Restriction flags** | On the latest blind 200-recipe check (round 3) they catch 96–100% of real cases for every flag except shellfish (83%, 10 of 12) |
 | **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 186 kcal, with a likely range) |
 | **Country of origin** | 121,456 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 108,559 predicted at 70%+ confidence (right about 90% of the time on validation); 61,756 `Unknown` |
 | **Diet profiles** | Halal-friendly 76%, kosher-friendly 70%, pescatarian 63%, no beef 89%, Jain-friendly 16%, lower sodium 58%, low carb 28% of recipes |
@@ -187,12 +187,12 @@ flowchart LR
 - A leak-free feature pipeline and a baseline cuisine classifier.
 
 ### Restriction flag check
-Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended and the flags now read recipe names too; a fresh round 2 sample measures gluten at **96%**. Details, labeling rules and the remaining misses: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md). **Still to do by hand:** a team member should spot-check the labels, starting with the rows where they disagree with the flags.
+Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended twice and the flags now read recipe names too; the latest fresh sample (round 3, which also checks the diet flags) measures 96–100% recall for every flag except shellfish (83%). Details and labeling rules: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md). **Still to do by hand:** a team member should spot-check the labels where they disagree with the flags; the steps are in [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_review/HOW_TO_SPOT_CHECK.md).
 
 ### Known data gaps
 - Many recipes still have no cuisine label ("Other"), mostly American recipes and Food.com recipes without a cuisine tag.
 - Predicted countries are a good guess, not a fact (about 90% right overall, 77-97% depending on the country), and 21% of recipes still have no country. Regions exist only where a source names them.
-- The diet flags added for the diet profiles (meat, beef, gelatin, honey, root vegetables, onion and garlic) have not had a blind check yet; a round 3 review sample will measure them.
+- The flag labels used to measure accuracy were made by an AI assistant; until a team member spot-checks them, treat the accuracy numbers as estimates.
 - Food.com macros are converted from percent of daily value, so they are approximate.
 - CulinaryDB and TheMealDB publish no nutrition, and CulinaryDB lists no amounts or servings, so their calories are estimates (labeled as such). A typical estimate is off by about 100 kcal per serving.
 - Restriction flags come from keywords in the ingredients and recipe names (plus Hugging Face health labels), so they are approximate; the rarer allergens (peanut, shellfish, soy, sesame) are the least reliable.

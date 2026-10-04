@@ -1,0 +1,10 @@
+recipe_id,recipe_name,ingredients,flag,answer,pipeline_flag,team_check
+hf_4808,Coffee Jello,gelatin | coffee | sugar | salt,contains_alcohol,0,1,
+foodcom_325661,orange chicken and rice bowl,boneless skinless chicken breast | sesame dressing | orange juice | stir fry vegetable | red pepper flake | cooked rice | peanut,contains_gluten,1,0,
+hf_4,The Macaron Frappé,macaron | milk | vanilla ice cream | ice,contains_gluten,0,1,
+themealdb_53497,Nom Banh Chok – Cambodian Noodle Soup,water | chicken thigh | garlic | vegetable oil | fish sauce | salt | sugar | rice noodle | bean sprout | mint | lime | red chilli,contains_gluten,0,1,
+themealdb_53229,Steak & Vietnamese noodle salad,brown rice noodle | rapeseed oil | fillet of steak | carrot | chinese cabbage | green onion | coriander | red chilli | lime | brown sugar | rice vinegar | garlic | fish sauce,contains_gluten,0,1,
+hf_16139,Bountilicious Chocolate & Coconut Dairy Free Ice Cream Recipe,coconut milk | cocoa | sugar | rum,contains_dairy,0,1,
+foodcom_248978,frozen apple oatmeal sandwiches,cream cheese | sugar | apple juice | apple jelly | ground cinnamon | oatmeal cookie | milk chocolate chip | vegetable oil,contains_egg,1,0,
+foodcom_325661,orange chicken and rice bowl,boneless skinless chicken breast | sesame dressing | orange juice | stir fry vegetable | red pepper flake | cooked rice | peanut,contains_soy,1,0,
+hf_16139,Bountilicious Chocolate & Coconut Dairy Free Ice Cream Recipe,coconut milk | cocoa | sugar | rum,vegan,1,0,
