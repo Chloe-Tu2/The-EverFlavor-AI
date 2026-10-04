@@ -81,7 +81,7 @@ Peanut, shellfish, soy and sesame have only 5 to 11 recipes each in the sample, 
 | not vegetarian | 102 | 0.98 | 0.98 |
 | not vegan | 173 | 0.99 | 0.99 |
 
-Shellfish is the one flag below 0.95 (10 of 12 found); peanut, shellfish, soy, sesame, gelatin and honey have fewer than 15 cases each, so one miss moves their score a lot. Fish precision is lower on purpose: Hugging Face recipes without a "fish-free" label are flagged. The exact rows behind every miss are in `flag_review_disagreements_round3.csv`.
+Shellfish is the one flag below 0.95 (11 of 12 found); peanut, shellfish, soy, sesame, gelatin and honey have fewer than 15 cases each, so one miss moves their score a lot. Fish precision is lower on purpose: Hugging Face recipes without a "fish-free" label are flagged. The exact rows behind every miss are in `flag_review_disagreements_round3.csv`.
 
 ## Round 3 review (section 5.13)
 

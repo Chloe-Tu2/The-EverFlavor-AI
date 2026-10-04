@@ -1,6 +1,6 @@
 # Data Dictionary
 
-Columns of the processed recipe table: `data/interim/recipes_all.parquet` (all recipes) and `data/processed/recipes_{train,val,test}.parquet` (the splits). One row per recipe; 291,771 rows in the last run. See `datasheet.md` for how the table was built and its limitations.
+Columns of the processed recipe table: `data/interim/recipes_all.parquet` (all recipes) and `data/processed/recipes_{train,val,test}.parquet` (the splits). One row per recipe; 291,755 rows in the last run. See `datasheet.md` for how the table was built and its limitations.
 
 ## Identity and source
 

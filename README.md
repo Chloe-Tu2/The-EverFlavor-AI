@@ -173,16 +173,16 @@ flowchart LR
 
 | | |
 |---|---|
-| **Recipes after cleaning** | **291,771** from 4 sources, duplicates removed |
+| **Recipes after cleaning** | **291,755** from 4 sources, duplicates removed |
 | **By cuisine family** | European 48,151 · Asian 20,788 · Latin American 15,706 · Middle Eastern 3,406 · African 3,179 |
-| **Restriction flags** | On the latest blind 200-recipe check (round 3) they catch 96–100% of real cases for every flag except shellfish (83%, 10 of 12) |
+| **Restriction flags** | On the latest blind 200-recipe check (round 3) they catch 100% of real cases for every flag except shellfish (92%, 11 of 12) |
 | **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 186 kcal, with a likely range) |
-| **Country of origin** | 121,456 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 108,559 predicted at 70%+ confidence (right about 90% of the time on validation); 61,756 `Unknown` |
-| **Diet profiles** | Halal-friendly 76%, kosher-friendly 70%, pescatarian 63%, no beef 89%, Jain-friendly 16%, lower sodium 58%, low carb 28% of recipes |
-| **Validation** | 25 automatic checks pass; no near-duplicate leakage between splits |
+| **Country of origin** | 121,450 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 109,259 predicted at 70%+ confidence (right about 90% of the time on validation); 61,046 `Unknown` |
+| **Diet profiles** | Halal-friendly 76%, kosher-friendly 69%, pescatarian 63%, no beef 89%, Jain-friendly 15%, lower sodium 58%, low carb 28% of recipes |
+| **Validation** | 26 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
 | **Cooking methods and fats** | Notebook 02: cooking methods for every recipe (rules agree with Food.com's own tags on 66–95% of tagged recipes per method), the cooking fats each recipe names, and a reference table of 31 fats; 49% of fried recipes do not say which frying fat they use |
-| **Code checks** | 40 automated checks pass (36 tests for the shared functions, 4 security checks); type hints in `src/` and `tests/` checked with mypy |
+| **Code checks** | 101 automated checks pass (97 tests for the shared functions, 4 security checks) and cover 97% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -197,30 +197,30 @@ flowchart LR
 - All sources combined into one recipe table and saved as Parquet.
 - Missing nutrition filled in: every recipe without believable listed values gets an estimate, labeled `estimated`, with a likely calorie range and the closest official USDA dish as a reference. A USDA nutrition table for about 40,000 ingredient names is saved for the Nutritionist Agent.
 - Country of origin for every recipe: from the source's own labels where they name one country (with a region only when the source names it), otherwise predicted by a model when it is at least 70% confident, otherwise `Unknown`. `origin_source` says which.
-- Recipes the project never serves are removed (policies P24, P25): meat from household pets (dogs, cats, guinea pigs; none were found) and recipes made for animals (dog biscuits, food for dogs). The safety filter also rejects pet meat for every user.
+- Recipes the project never serves are removed (policies P24, P25): meat from household pets (dogs, cats, guinea pigs; none were found) and recipes made for animals (dog biscuits, food for dogs; 16 removed). The safety filter also rejects pet meat for every user.
 - Diet profiles defined once as rules over the ingredient flags (halal-, kosher- and Jain-friendly, pescatarian, no beef, lower sodium, low carb; lacto-vegetarian, Vaishnava, Mahayana Buddhist, Orthodox fasting, Adventist, Latter-day Saint and Rastafari Ital; and medical screens for alpha-gal syndrome, pregnancy, G6PD deficiency, gout, MAOI medicines and nightshades), plus the allergen lists of the US, EU / UK, Canada, Australia / NZ, Japan and South Korea, used by the table, the validation checks and the safety filter alike. "-friendly" means no forbidden ingredients, never certified.
 - Data quality:
   - quantities removed from ingredient names
   - nutrition plausibility checks
   - a train/validation/test split (70/15/15) that keeps near-duplicate recipes together, so there is no leakage
-  - 25 automatic validation checks
+  - 26 automatic validation checks
   - a dataset record of versions and settings (`dataset_info.json`)
 - Exploratory analysis with charts showing what each step changed (`data/processed/figures/`).
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
-- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 36 automated tests and 4 security checks run before each push.
+- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 97 automated tests and 4 security checks run before each push. Long steps (downloads, Open Food Facts searches, model training) show progress bars.
 - Cooking methods and cooking fats (notebook 02): methods from the instructions, checked against Food.com's own method tags; the fats each recipe names; a cited reference table of 31 fats (smoke point ranges, USDA fat breakdown, allergens, flavor, where each is traditional); and a caution for fried recipes whose frying fat is not stated.
 - Human verification of the flags (section 5.13): the evidence is gathered automatically, and people make and record the decisions (see below).
 
 ### Restriction flag check
 
-Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended twice and the flags now read recipe names too; the latest fresh sample (round 3, which also checks the diet flags) measures 96–100% recall for every flag except shellfish (83%). Details and labeling rules: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md).
+Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended twice and the flags now read recipe names too; the latest fresh sample (round 3, which also checks the diet flags) measures 100% recall for every flag except shellfish (92%). Details and labeling rules: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md).
 
 All 30 round 3 disagreements were then traced to what set each flag: 17 were keyword bugs (now fixed), 2 were allergens hidden inside ready-made ingredients, 4 were wrong AI answers and 7 were matters of definition. Round 3 is therefore optimistic now, and round 4 is the fresh sample for the next measurement.
 
 **Human verification (section 5.13).** An AI checking an AI is not independent, so people make the final decisions, and the notebook records them in `docs/flag_review/`:
 
-- **Policies** (`flag_policies.csv`): definitions such as "oats count as gluten" or "pork is red meat", each with its reason and source, approved by a named person. 21 of 23 are approved. P23 (wines named without the word "wine", and cider) is waiting for review, and P18 (whether vanilla extract, insect coloring, rennet and, for the Hanafi school, shrimp count for halal) needs someone who keeps halal to decide.
+- **Policies** (`flag_policies.csv`): definitions such as "oats count as gluten" or "pork is red meat", each with its reason and source, approved by a named person. 23 of 25 are approved. P23 (wines named without the word "wine", and cider) is waiting for review, and P18 (whether vanilla extract, insect coloring, rennet and, for the Hanafi school, shrimp count for halal) needs someone who keeps halal to decide.
 - **Hidden allergens** (`compound_ingredients_review.csv`): for ready-made ingredients such as "ranch dressing", Open Food Facts products are checked for the allergens their labels declare. 291 ingredients used in at least 100 recipes were checked; 52 had allergens our rules missed. 50 were approved, for example asafoetida (hing) usually contains wheat flour, chocolate chips contain soy, Worcestershire sauce and pancake mix contain gluten, and ranch dressing contains dairy, egg and soy. 4 were rejected because the matched products were a different food (instant noodles for "noodle", canned spaghetti for "spaghetti sauce"). This first review was done by Claude on the team's behalf and is marked that way in the file, so a person can still re-check it. These ingredients count only in the ingredient list, never in the dish name, so "Vegan Cookies" stays vegan.
 - **Sign-off** (`human_signoff.csv`): a reviewer checks a round's disagreements and signs it off. The completion checklist ticks this only when a person has done it.
 
@@ -383,9 +383,13 @@ The-EverFlavor-AI/
 │       ├── pipeline.py                  # cleaning, run_pipeline, combining, splitting, validation
 │       ├── review.py                    # flag review rounds and the human-verification evidence
 │       ├── cooking.py                   # cooking methods, cooking fats, alcohol left after cooking (notebook 02)
-│       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py
+│       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py, progress.py
 ├── tests/
 │   ├── test_everflavor.py   # What each shared function promises
+│   ├── test_helpers.py      # Helper modules: environment, reporting, charts, features, recommender
+│   ├── test_matching_and_review.py  # USDA matching and the flag review tools
+│   ├── test_pipeline.py     # run_pipeline end to end on tiny tables shaped like each source
+│   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files
 ├── docs/
 │   ├── art/          # ramen.py draws the README's ramen bowl (ANSI art) and saves ramen.svg

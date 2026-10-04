@@ -11,7 +11,7 @@ This document follows the "Datasheets for Datasets" format. It describes the rec
 
 | | |
 |---|---|
-| Recipes | 291,771 (after cleaning and removing duplicates) |
+| Recipes | 291,755 (after cleaning and removing duplicates) |
 | Sources | Food.com 218,034 · Hugging Face 37,826 · CulinaryDB 35,328 · TheMealDB 583 |
 | Cuisine families | European 48,151 · Asian 20,788 · Latin American 15,706 · Middle Eastern 3,406 · African 3,179 · Other (no cuisine label) 200,541 |
 | Splits | Train 204,112 · Validation 43,885 · Test 43,774 (70/15/15) |
@@ -69,7 +69,7 @@ No website was scraped directly.
 ## Known limitations and biases
 
 - **Uneven cuisine coverage.** 69% of recipes have no cuisine label, and African (1.1%) and Middle Eastern (1.2%) recipes are scarce. Most are American-site recipes, written for a US audience.
-- **Approximate restriction flags.** On the latest fresh blind 200-recipe check (round 3, `docs/flag_review/`, section 5.12) they catch 96–100% of real cases for every flag, including the diet flags (meat, beef, gelatin, honey, root vegetables, onion and garlic), except shellfish (83%, 10 of 12). The rarer flags have fewer than 15 cases each in the sample. They agree with Food.com's own dietary tags 79–98% of the time, depending on the tag.
+- **Approximate restriction flags.** On the latest fresh blind 200-recipe check (round 3, `docs/flag_review/`, section 5.12) they catch 100% of real cases for every flag, including the diet flags (meat, beef, gelatin, honey, root vegetables, onion and garlic), except shellfish (92%, 11 of 12). The rarer flags have fewer than 15 cases each in the sample. They agree with Food.com's own dietary tags 79–98% of the time, depending on the tag.
 - **Ingredient names still vary.** About 46,000 unique names remain after normalizing.
 - **Cuisine labels come from recipe authors and sites.** They are not checked for authenticity.
 

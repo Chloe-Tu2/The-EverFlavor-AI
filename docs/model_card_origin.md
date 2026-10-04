@@ -14,22 +14,22 @@ Predicts the country a recipe comes from (`origin_country`) for recipes whose so
 - **Confidence threshold:** a prediction is kept only when the model is at least **70%** confident; otherwise the country stays `Unknown`.
 - **Training data:** 83,911 training-split recipes with a labeled country. Fitted on the training split only.
 
-## Results (validation split, 18,167 recipes with a labeled country)
+## Results (validation split, 18,136 recipes with a labeled country)
 
-- **Top guess, no threshold:** right 80.8% of the time.
-- **At the 70% threshold:** 74.9% of recipes get a country, and it is right **89.6%** of the time.
+- **Top guess, no threshold:** right 81.0% of the time.
+- **At the 70% threshold:** 75.7% of recipes get a country, and it is right **89.4%** of the time.
 
 | Confidence at least | Recipes kept | Correct |
 |---|---|---|
-| 0.5 | 89% | 85.5% |
-| 0.6 | 82% | 87.8% |
-| **0.7 (used)** | **75%** | **89.6%** |
-| 0.8 | 65% | 91.2% |
-| 0.9 | 51% | 93.2% |
+| 0.5 | 90% | 85.4% |
+| 0.6 | 83% | 87.6% |
+| **0.7 (used)** | **76%** | **89.4%** |
+| 0.8 | 66% | 91.3% |
+| 0.9 | 51% | 93.3% |
 
-By predicted country at 70%: United States 95% right, Spain 97%, Morocco 95%, Greece 92%, Thailand 92%, India 91%, Japan 91%, Italy 87%, China 87%, United Kingdom 84%, Canada 84%, France 81%, Mexico 77%.
+By predicted country at 70%: United States 95% right, Morocco 92%, India 91%, Greece 90%, Spain 90%, Thailand 89%, Italy 87%, Japan 87%, China 84%, Canada 83%, United Kingdom 82%, France 81%, Mexico 79%.
 
-**In the full table:** 121,456 recipes labeled by their source, 108,559 predicted, 61,756 `Unknown`.
+**In the full table:** 121,450 recipes labeled by their source, 109,259 predicted, 61,046 `Unknown`.
 
 ## Limitations
 
