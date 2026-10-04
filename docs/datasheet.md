@@ -63,7 +63,7 @@ No website was scraped directly.
 ## Known limitations and biases
 
 - **Uneven cuisine coverage.** 69% of recipes have no cuisine label, and African (1.1%) and Middle Eastern (1.2%) recipes are scarce. Most are American-site recipes, written for a US audience.
-- **Approximate restriction flags.** They agree with Food.com's own dietary tags 90–98% of the time. A blind hand-check sample is in `docs/flag_review/` (see section 5.11).
+- **Approximate restriction flags.** On a fresh blind 200-recipe check (`docs/flag_review/`, section 5.11) they catch 96–100% of real cases for gluten, dairy, egg, pork, alcohol, fish, tree nuts and meat, but 67–91% for the rarer peanut, shellfish, soy and sesame (only 5–11 cases each in the sample). They agree with Food.com's own dietary tags 79–98% of the time, depending on the tag.
 - **Ingredient names still vary.** About 46,000 unique names remain after normalizing.
 - **Cuisine labels come from recipe authors and sites.** They are not checked for authenticity.
 

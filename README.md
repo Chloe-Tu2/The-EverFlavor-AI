@@ -158,7 +158,7 @@ flowchart LR
 |---|---|
 | **Recipes after cleaning** | **291,771** from 4 sources, duplicates removed |
 | **By cuisine family** | European 48,151 · Asian 20,788 · Latin American 15,706 · Middle Eastern 3,406 · African 3,179 |
-| **Restriction flags** | Agree with Food.com's own dietary tags 90–98% of the time |
+| **Restriction flags** | On a fresh blind 200-recipe check they catch 96–100% of real cases for gluten, dairy, egg, pork, alcohol, fish, tree nuts and meat; the rarer allergens (peanut, shellfish, soy, sesame, 5–11 cases each) 67–91% |
 | **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 186 kcal, with a likely range) |
 | **Validation** | 15 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
@@ -182,14 +182,14 @@ flowchart LR
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
 
-### To do by hand
-Fill in `docs/flag_review/flag_review_labeled.csv` (instructions in section 5.11), then re-run that cell to measure how well the restriction flags catch real cases.
+### Restriction flag check
+Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.11. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended and the flags now read recipe names too; a fresh round 2 sample measures gluten at **96%**. Details, labeling rules and the remaining misses: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md). **Still to do by hand:** a team member should spot-check the labels, starting with the rows where they disagree with the flags.
 
 ### Known data gaps
 - Many recipes still have no cuisine label ("Other"), mostly American recipes and Food.com recipes without a cuisine tag.
 - Food.com macros are converted from percent of daily value, so they are approximate.
 - CulinaryDB and TheMealDB publish no nutrition, and CulinaryDB lists no amounts or servings, so their calories are estimates (labeled as such). A typical estimate is off by about 100 kcal per serving.
-- Restriction flags come from ingredient keywords (plus Hugging Face health labels), so they are approximate.
+- Restriction flags come from keywords in the ingredients and recipe names (plus Hugging Face health labels), so they are approximate; the rarer allergens (peanut, shellfish, soy, sesame) are the least reliable.
 - The baseline classifier confuses African and Middle Eastern recipes (F1 about 0.35 each).
 
 See the [datasheet](docs/datasheet.md) for the full description of the dataset.
@@ -262,10 +262,13 @@ The-EverFlavor-AI/
 ├── src/              # Agent code (to come)
 ├── docs/
 │   ├── art/          # ramen.py draws the README's ramen bowl (ANSI art) and saves ramen.svg
-│   ├── proposal/     # Capstone proposal slides and Phase 1 document (PDF)
-│   ├── flag_review/  # Blind 200-recipe sheet for hand-checking the restriction flags
-│   ├── datasheet.md  # What is in the dataset, how it was built, known limits
-│   └── model_card.md # Baseline cuisine classifier: results and limits
+│   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
+│   ├── flag_review/  # Blind 200-recipe samples per round, their labels and labeling notes
+│   ├── datasheet.md        # What is in the dataset, how it was built, known limits
+│   ├── data_dictionary.md  # Every column of the recipe table
+│   ├── sources.md          # Every data source: URL, license, access method, version
+│   ├── ethics_privacy.md   # Privacy, licenses and responsible use
+│   └── model_card.md       # Baseline cuisine classifier: results and limits
 ├── config/
 │   ├── requirements.txt  # Python libraries for the notebook
 │   └── .env.example      # Template for API keys (copy to config/.env, which git ignores)
