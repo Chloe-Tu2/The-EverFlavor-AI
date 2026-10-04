@@ -96,6 +96,8 @@ __all__ = [
     "TREE_NUT_KEYWORDS",
     "UNCLEAN_MEAT_EXCEPTIONS",
     "UNCLEAN_MEAT_KEYWORDS",
+    "WINE_NAMES",
+    "WINE_NAME_EXCEPTIONS",
     "add_foodcom_diet_flags",
     "add_hf_diet_flags",
     "add_keyword_flags",
@@ -198,13 +200,23 @@ PORK_KEYWORDS     = ["pork", "bacon", "ham", "prosciutto", "pancetta", "guancial
                      "kielbasa", "andouille", "bratwurst", "mortadella", "capicola",
                      "boston butt", "spare rib", "baby back rib", "hot dog",
                      "frankfurter", "wiener", "bologna", "jamon", "jamón"]
+# Wines and ciders named without the word "wine" ("1 cup chardonnay", "1/2 cup tawny port").
+# Plain "cider" stays out: in US recipes it means apple juice (policy P23)
+WINE_NAMES = ["port", "ruby port", "tawny port", "white port", "porto", "merlot", "zinfandel", "chardonnay",
+              "cabernet", "cabernet sauvignon", "sauvignon blanc", "pinot noir", "pinot grigio", "pinot gris",
+              "riesling", "chianti", "shiraz", "syrah", "malbec", "beaujolais", "sauternes", "moscato", "lambrusco",
+              "sangiovese", "tempranillo", "grenache", "gewurztraminer", "retsina", "rosé", "sangria", "cava",
+              "amontillado", "oloroso", "umeshu", "makgeolli", "huangjiu", "mijiu", "shochu",
+              "dry cider", "alcoholic cider", "scrumpy", "perry"]
+# "Port Salut" is a cheese; Port-a-Pitt is a barbecue restaurant
+WINE_NAME_EXCEPTIONS = ["port salut", "port-salut", "port-a-pitt"]
 ALCOHOL_KEYWORDS  = ["wine", "beer", "ale", "lager", "rum", "vodka", "whiskey", "whisky",
                      "bourbon", "brandy", "cognac", "sherry", "liqueur", "liquor", "tequila", "gin",
                      "sake", "mirin", "champagne", "prosecco", "vermouth", "kahlua", "amaretto",
                      "marsala", "madeira", "schnapps", "triple sec", "grand marnier", "cointreau",
                      "curacao", "chambord", "frangelico", "baileys", "limoncello", "sambuca", "ouzo",
                      "kirsch", "calvados", "armagnac", "grappa", "mezcal", "pisco", "cachaca", "soju",
-                     "shaoxing", "shaohsing", "hard cider"]
+                     "shaoxing", "shaohsing", "hard cider"] + WINE_NAMES
 # Policy (docs/flag_review/flag_policies.csv): oats count as gluten unless labeled gluten-free,
 # because most oats are grown and milled next to wheat
 # Wheat, barley and rye, including products that are made from them
@@ -353,7 +365,7 @@ BUCKWHEAT_KEYWORDS = ["buckwheat", "soba", "kasha", "kuttu", "pizzoccheri", "nae
 # Policy P13: ingredients that usually contain added sulfites, so "may contain sulfites"
 SULFITE_KEYWORDS  = ["sulfite", "sulphite", "metabisulfite", "metabisulphite", "sulfur dioxide",
                      "sulphur dioxide", "wine", "sherry", "champagne", "prosecco", "vermouth", "marsala",
-                     "madeira", "port wine", "hard cider", "dried apricot", "golden raisin", "sultana",
+                     "madeira", "port wine", "hard cider", *WINE_NAMES, "dried apricot", "golden raisin", "sultana",
                      "maraschino", "dried fruit", "sulphured molasses", "sulfured molasses"] + _compounds("contains_sulfites")
 
 # --- Religious and cultural diets ---
@@ -423,7 +435,7 @@ PORK_EXCEPTIONS     = ["hot dog bun", "hot dog roll", "vegetarian sausage", "veg
                        "turkey kielbasa", "turkey sausage", "chicken sausage", "merguez sausage",
                        "merguez", "lamb sausage", "beef sausage", "vegan bacon"]
 ALCOHOL_EXCEPTIONS  = ["sherry wine vinegar", "wine vinegar", "sherry vinegar", "ginger ale", "ginger beer", "root beer",
-                       "non-alcoholic", "alcohol-free", "alcohol free"]
+                       "non-alcoholic", "alcohol-free", "alcohol free"] + WINE_NAME_EXCEPTIONS
 # "gluten-free bread", "gluten free pasta", ...: the food after "gluten-free" is safe
 GLUTEN_FREE_FOODS   = ["bread", "flour", "pasta", "noodle", "noodles", "spaghetti", "penne",
                        "macaroni", "cracker", "crackers", "breadcrumb", "breadcrumbs", "soy sauce",
@@ -501,7 +513,7 @@ MUSHROOM_EXCEPTIONS = ["chocolate truffle"]
 # "Chuka soba" and "Okinawa soba" are wheat noodles; yakisoba is one word, so it never matches
 BUCKWHEAT_EXCEPTIONS = ["chuka soba", "okinawa soba"]
 SULFITE_EXCEPTIONS  = ["unsulfured", "unsulphured", "sulfite-free", "sulfite free", "sulphite-free",
-                       "sulphite free", "no added sulfites"]
+                       "sulphite free", "no added sulfites"] + WINE_NAME_EXCEPTIONS
 # "Eel sauce" (unagi sauce) is soy sauce, mirin and sugar
 SCALELESS_FISH_EXCEPTIONS = FISH_EXCEPTIONS + ["eel sauce", "unagi sauce"]
 # "Welsh rabbit" is cheese on toast; horse gram is a lentil

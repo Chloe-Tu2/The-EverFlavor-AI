@@ -331,6 +331,15 @@ def test_ready_made_ingredients_count_only_in_the_ingredient_list():
                                 vegan=True)
 
 
+def test_wines_named_without_the_word_wine():
+    for text in ["chardonnay | butter", "tawny port | figs", "pinot noir | beef", "sangria", "dry cider | pork"]:
+        assert keyword_flag(text, "contains_alcohol"), text
+        assert keyword_flag(text, "contains_sulfites"), text
+    for text in ["apple cider | cinnamon", "cider vinegar", "port salut | crackers", "rose water | sugar",
+                 "red wine vinegar | oil"]:
+        assert not keyword_flag(text, "contains_alcohol"), text
+
+
 def test_alcohol_extracts_are_their_own_flag():
     assert keyword_flag("vanilla | flour | sugar", "contains_alcohol_extract")
     assert keyword_flag("angostura bitters | orange", "contains_alcohol_extract")

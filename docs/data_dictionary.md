@@ -63,7 +63,7 @@ Derived from keywords in the ingredients and the recipe name, plus Hugging Face 
 | Column | True when the recipe... |
 |---|---|
 | `contains_pork` | contains pork (bacon, ham, jamón, prosciutto, sausage...) |
-| `contains_alcohol` | contains alcohol (wine, beer, spirits, liqueur, mirin, sake...) |
+| `contains_alcohol` | contains alcohol (wine, beer, spirits, liqueur, mirin, sake, wines named by grape or region such as chardonnay or port, hard cider...). Plain "cider" (apple juice) does not count (policy P23) |
 | `contains_gluten` | contains wheat, barley or rye, or oats not labeled gluten-free (team policy P1) |
 | `contains_dairy` | contains milk or milk products |
 | `contains_egg` | contains egg |
