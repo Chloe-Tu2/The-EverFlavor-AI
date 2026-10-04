@@ -9,6 +9,18 @@ from matplotlib.axes import Axes
 from matplotlib.container import BarContainer
 from matplotlib.figure import Figure
 
+__all__ = [
+    "FAMILY_COLORS",
+    "FAMILY_ORDER",
+    "FIGURE_DIR",
+    "SOURCE_LABELS",
+    "label_bars",
+    "set_chart_style",
+    "show_figure",
+    "thousands",
+]
+
+
 FIGURE_DIR = Path("data/processed/figures")
 
 SOURCE_LABELS = {"foodcom": "Food.com", "huggingface": "Hugging Face",

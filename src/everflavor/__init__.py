@@ -26,6 +26,9 @@ Conventions (Google Python Style Guide, PEP 257):
     - Wrong input fails early with a ValueError that names what is missing.
     - Rule tables (keywords, maps, limits) are UPPER_CASE module constants.
     - tests/test_everflavor.py pins down what each function promises.
+    - Each module lists its public names in __all__: those are supported for the
+      notebook and the agents. Names starting with _ are internal steps of a
+      public function and may change without notice.
 """
 
 __version__ = "0.1.0"

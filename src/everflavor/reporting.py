@@ -10,6 +10,15 @@ import pandas as pd
 
 from .charts import SOURCE_LABELS
 
+__all__ = [
+    "by_source",
+    "hf_revision",
+    "package_version",
+    "print_checklist",
+    "saved_rows",
+    "to_json",
+]
+
 
 def by_source(df: pd.DataFrame, column: str) -> pd.DataFrame:
     """Count recipes per source (rows) and value of `column` (columns), with totals."""

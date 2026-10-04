@@ -328,14 +328,17 @@ keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
 - settings such as API keys, folders and `REFRESH_DOWNLOADS` are passed in as arguments;
 - wrong input fails early with a `ValueError` that names the missing column;
 - rule tables (keywords, maps, limits) are UPPER_CASE constants in their module.
+- each module lists its supported functions in `__all__`; names starting with `_` are internal helpers that may change, so call the public function instead (for example `run_pipeline`, not `_prepare_foodcom`).
 
 **Tests:** `tests/test_everflavor.py` checks what each function promises (whole-word flag matching, diet rules, origin labels, cleaning, splitting, the safety filter, and that inputs are never changed). Run it from the project folder with `python tests/test_everflavor.py` (no install needed) or `python -m pytest tests`.
+
+**Security checks** (`tests/test_security.py`): run them before every push. They confirm that `config/.env` is ignored by git, that no API key appears in any committed file (notebook outputs included), that saved outputs show no local paths with your username, and that user input cannot change an API request's URL. A failure names the file and the key's name, never the key. They need no extra install: `python tests/test_security.py`.
 
 **All checks**, for editing the code locally in **VS Code or Antigravity** (optional; the notebook does not need these tools, and Colab can skip them). Install once in a terminal in the project folder with `pip install -r config/requirements-dev.txt`, then run:
 
 ```bash
 # in the VS Code / Antigravity terminal, from the project folder
-python -m pytest tests                                   # the tests
+python -m pytest tests                                   # the tests, including the security checks
 python -m mypy src/everflavor --ignore-missing-imports   # the type hints
 python -m ruff check src tests notebooks                 # mistakes and style
 ```

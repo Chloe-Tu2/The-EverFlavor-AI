@@ -8,6 +8,26 @@ import numpy as np
 
 from .parsing import parse_list_string
 
+__all__ = [
+    "INGREDIENT_SYNONYMS",
+    "IRREGULAR_PLURALS",
+    "KEEP_AS_IS",
+    "PREP_PATTERN",
+    "QUANTITY_PATTERN",
+    "SPLIT_INGREDIENTS",
+    "UNIT_PATTERN",
+    "UNIT_WORDS",
+    "clean_ingredients",
+    "hf_ingredient_foods",
+    "ingredient_text",
+    "ingredient_tokens",
+    "normalize_ingredient",
+    "normalize_ingredient_list",
+    "singular",
+    "unique_ingredients",
+]
+
+
 # Exact names that mean the same ingredient
 INGREDIENT_SYNONYMS = {
     "garlic clove": "garlic", "clove garlic": "garlic", "large egg": "egg",

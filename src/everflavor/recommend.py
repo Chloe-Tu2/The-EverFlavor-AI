@@ -22,6 +22,11 @@ from .flags import (
 )
 from .ingredients import ingredient_text
 
+__all__ = [
+    "baseline_recommend",
+    "passes_safety_filter",
+]
+
 
 def passes_safety_filter(row: pd.Series, avoid: Sequence[str] = (), vegetarian: bool = False,
                          vegan: bool = False, diets: Sequence[str] = ()) -> bool:

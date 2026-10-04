@@ -12,6 +12,57 @@ from .checks import require_columns
 from .ingredients import ingredient_text
 from .parsing import parse_label_list
 
+__all__ = [
+    "ALCOHOL_EXCEPTIONS",
+    "ALCOHOL_KEYWORDS",
+    "ALLIUM_EXCEPTIONS",
+    "ALLIUM_KEYWORDS",
+    "ANIMAL_EXCEPTIONS",
+    "ANIMAL_KEYWORDS",
+    "BEEF_EXCEPTIONS",
+    "BEEF_KEYWORDS",
+    "DAIRY_EXCEPTIONS",
+    "DAIRY_KEYWORDS",
+    "EGG_EXCEPTIONS",
+    "EGG_KEYWORDS",
+    "FISH_KEYWORDS",
+    "FLAG_COLUMNS",
+    "FLAG_RULES",
+    "FOODCOM_TAG_CHECKS",
+    "GELATIN_EXCEPTIONS",
+    "GELATIN_KEYWORDS",
+    "GLUTEN_EXCEPTIONS",
+    "GLUTEN_FREE_FOODS",
+    "GLUTEN_FREE_NAME",
+    "GLUTEN_KEYWORDS",
+    "HF_FREE_LABELS",
+    "HONEY_EXCEPTIONS",
+    "HONEY_KEYWORDS",
+    "LAND_MEAT_KEYWORDS",
+    "MEAT_EXCEPTIONS",
+    "MEAT_KEYWORDS",
+    "PEANUT_EXCEPTIONS",
+    "PEANUT_KEYWORDS",
+    "PORK_EXCEPTIONS",
+    "PORK_KEYWORDS",
+    "ROOT_VEGETABLE_EXCEPTIONS",
+    "ROOT_VEGETABLE_KEYWORDS",
+    "SESAME_KEYWORDS",
+    "SHELLFISH_EXCEPTIONS",
+    "SHELLFISH_KEYWORDS",
+    "SOY_KEYWORDS",
+    "TREE_NUT_EXCEPTIONS",
+    "TREE_NUT_KEYWORDS",
+    "add_foodcom_diet_flags",
+    "add_hf_diet_flags",
+    "add_keyword_flags",
+    "foodcom_tag_agreement",
+    "keyword_flag",
+    "make_flag",
+    "print_flag_counts",
+]
+
+
 # --- Keyword lists ---
 # Matched as whole words in the ingredients and the recipe name.
 # Sausages and cold cuts count as pork unless stated otherwise (the safe side)

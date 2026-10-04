@@ -25,6 +25,28 @@ from .ingredients import (
 from .nutrition import add_foodcom_macros, add_hf_macros, nutrition_checks
 from .parsing import parse_label_list, parse_list_string
 
+__all__ = [
+    "ALLOWED_FAMILIES",
+    "ALLOWED_SOURCES",
+    "BOOL_COLUMNS",
+    "COMMON_COLUMNS",
+    "EXTRA_COLUMNS",
+    "MAX_KCAL_PER_SERVING",
+    "MAX_MINUTES",
+    "MAX_SERVINGS",
+    "ORIGIN_LABEL_COLUMN",
+    "RAW_COLUMNS",
+    "SOURCE_PRIORITY",
+    "clean_foodcom",
+    "clean_huggingface",
+    "combine_sources",
+    "run_pipeline",
+    "split_by_ingredient_group",
+    "split_tables",
+    "validate_recipes",
+]
+
+
 # Recipes above this many kcal per serving are treated as data errors
 MAX_KCAL_PER_SERVING = 3000
 # Hugging Face recipes with more servings than this are bulk or catering
@@ -231,7 +253,7 @@ def combine_sources(frames: Sequence[pd.DataFrame]) -> tuple[pd.DataFrame, pd.Se
     return df_all, counts_before, dropped_small
 
 
-def safe_strata(labels: pd.Series) -> pd.Series | None:
+def _safe_strata(labels: pd.Series) -> pd.Series | None:
     """Return the labels for stratifying, or None if any label has fewer than 2 rows."""
     return labels if labels.value_counts().min() >= 2 else None
 
@@ -271,14 +293,14 @@ def split_by_ingredient_group(df_all: pd.DataFrame, seed: int = 42, min_per_fami
 
     # First split: 70% train, 30% temp (split again into val + test)
     _train_pos, temp_pos = train_test_split(
-        positions, test_size=0.30, stratify=safe_strata(strata_by_pos), random_state=seed)
+        positions, test_size=0.30, stratify=_safe_strata(strata_by_pos), random_state=seed)
 
     # Second split: 50% of temp = 15% val, 50% of temp = 15% test
     temp_strata = strata_by_pos.iloc[temp_pos].reset_index(drop=True)
-    if safe_strata(temp_strata) is None and verbose:
+    if _safe_strata(temp_strata) is None and verbose:
         print("Note: too few groups to stratify the val/test split; using a random split instead.")
     val_rel, test_rel = train_test_split(
-        np.arange(len(temp_pos)), test_size=0.50, stratify=safe_strata(temp_strata), random_state=seed)
+        np.arange(len(temp_pos)), test_size=0.50, stratify=_safe_strata(temp_strata), random_state=seed)
 
     split_of_group = pd.Series("train", index=groups.index, dtype=object)
     split_of_group.iloc[temp_pos[val_rel]] = "val"

@@ -16,6 +16,31 @@ import requests
 
 # ------------------------------------------------------------------ files
 
+__all__ = [
+    "ENERGY_NAMES",
+    "OFF_BASE_URL",
+    "OFF_HEADERS",
+    "OFF_MIN_INTERVAL",
+    "OFF_RETRY_STATUS",
+    "RETRY_STATUS",
+    "USDA_BASE_URL",
+    "USDA_DOWNLOADS",
+    "USDA_NUTRIENTS",
+    "cached_off_search",
+    "download_and_unzip",
+    "download_file",
+    "download_themealdb",
+    "download_usda",
+    "extract_off_record",
+    "find_file",
+    "get_energy_kcal",
+    "off_get_by_barcode",
+    "off_search",
+    "usda_search",
+    "usda_table",
+]
+
+
 def download_file(url: str, target: str | Path, timeout: int = 300) -> Path:
     """Download a file, writing it under a temporary name first.
 
@@ -181,7 +206,7 @@ def _off_wait_turn(kind):
     _off_last_request[kind] = time.monotonic()
 
 
-def off_get(url: str, params: dict | None = None, kind: str = "product", retries: int = 3,
+def _off_get(url: str, params: dict | None = None, kind: str = "product", retries: int = 3,
             backoff: float = 10.0) -> dict:
     """GET a URL from Open Food Facts and return the JSON body.
 
@@ -246,14 +271,23 @@ def off_search(query: str, page_size: int = 5) -> list[dict]:
         "tag_contains_0" : "contains",
         "tag_0"          : "en:nutrition-facts-completed",
     }
-    return off_get(url, params=params, kind="search").get("products", [])
+    return _off_get(url, params=params, kind="search").get("products", [])
 
 
 def off_get_by_barcode(barcode: str) -> dict | None:
-    """Fetch one Open Food Facts product by barcode (EAN-13 or UPC), or None if unknown."""
+    """Fetch one Open Food Facts product by barcode (EAN-13 or UPC), or None if unknown.
+
+    Raises:
+        ValueError: If `barcode` is not 8 to 14 digits. The barcode becomes part of
+            the request URL, so text such as "../search" must never get through
+            (agents may pass a user's input here).
+    """
+    barcode = str(barcode).strip()
+    if not re.fullmatch(r"\d{8,14}", barcode):
+        raise ValueError(f"A barcode must be 8 to 14 digits, got {barcode!r}.")
     url = f"{OFF_BASE_URL}/api/v2/product/{barcode}.json"
     try:
-        data = off_get(url)
+        data = _off_get(url)
     except requests.HTTPError as e:
         # The API answers 404 for barcodes it does not know
         if e.response is not None and e.response.status_code == 404:
@@ -322,7 +356,7 @@ def cached_off_search(query: str, cache_dir: str | Path, refresh: bool = False,
 RETRY_STATUS = {429, 500, 502, 503, 504}
 
 
-def get_json(url: str, params: dict | None = None, retries: int = 3, backoff: float = 2.0) -> dict:
+def _get_json(url: str, params: dict | None = None, retries: int = 3, backoff: float = 2.0) -> dict:
     """GET a URL and return its JSON, retrying temporary errors with a growing wait.
 
     Raises:
@@ -346,7 +380,7 @@ def get_json(url: str, params: dict | None = None, retries: int = 3, backoff: fl
     raise ValueError(f"retries must be at least 1, got {retries}")
 
 
-def meal_to_row(meal: dict) -> dict:
+def _meal_to_row(meal: dict) -> dict:
     """Flatten one TheMealDB record (its ingredients are in 20 numbered fields)."""
     ingredients, measures = [], []
     for i in range(1, 21):
@@ -380,7 +414,7 @@ def download_themealdb(search_url: str) -> pd.DataFrame:
     meals = {}
     for first_char in string.ascii_lowercase + string.digits:
         try:
-            data = get_json(search_url, params={"f": first_char})
+            data = _get_json(search_url, params={"f": first_char})
         except (requests.RequestException, RuntimeError, ValueError) as e:
             # Only the error type: the full message can contain the URL with the key
             print(f"  Warning: search for '{first_char}' failed ({type(e).__name__})")
@@ -388,4 +422,4 @@ def download_themealdb(search_url: str) -> pd.DataFrame:
         for meal in data.get("meals") or []:
             meals[meal["idMeal"]] = meal
         time.sleep(0.3)   # be polite to the free API
-    return pd.DataFrame([meal_to_row(m) for m in meals.values()])
+    return pd.DataFrame([_meal_to_row(m) for m in meals.values()])

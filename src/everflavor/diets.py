@@ -5,6 +5,17 @@ import pandas as pd
 
 from .checks import require_columns
 
+__all__ = [
+    "DIET_COLUMNS",
+    "DIET_PROFILES",
+    "NUTRITION_DIETS",
+    "add_diet_profiles",
+    "describe_diet_rules",
+    "diet_flags_needed",
+    "meets_diet",
+]
+
+
 DIET_PROFILES: dict[str, dict[str, list]] = {
     "halal_friendly" : {"without": ["contains_pork", "contains_alcohol", "contains_gelatin"]},
     "kosher_friendly": {"without": ["contains_pork", "contains_shellfish", "contains_gelatin"],

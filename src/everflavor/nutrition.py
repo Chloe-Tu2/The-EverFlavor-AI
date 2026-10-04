@@ -15,6 +15,28 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 from .ingredients import singular
 
+__all__ = [
+    "CANDIDATES",
+    "DISH_MIN_SCORE",
+    "DISH_TOP_K",
+    "FOODCOM_DAILY_VALUES",
+    "HF_NUTRIENT_CODES",
+    "INGREDIENT_USDA",
+    "MACRO_TOLERANCE",
+    "NUTRITION_LIMITS",
+    "TITLE_FILLER",
+    "add_foodcom_macros",
+    "add_hf_macros",
+    "dish_features",
+    "ingredient_energy_features",
+    "ingredient_nutrition_table",
+    "match_dishes",
+    "match_ingredients",
+    "missing_hand_checked",
+    "nutrition_checks",
+]
+
+
 FOODCOM_DAILY_VALUES = {  # new column: (percent column, daily value)
     "fat_g"    : ("fat_pdv", 65),
     "carbs_g"  : ("carbs_pdv", 300),
@@ -24,7 +46,7 @@ FOODCOM_DAILY_VALUES = {  # new column: (percent column, daily value)
 HF_NUTRIENT_CODES = {"protein_g": "PROCNT", "fat_g": "FAT", "carbs_g": "CHOCDF", "sodium_mg": "NA"}
 
 
-def parse_nutrition(nut_str: str) -> dict[str, float | None]:
+def _parse_nutrition(nut_str: str) -> dict[str, float | None]:
     """Parse Food.com's 'nutrition' text into named values.
 
     Args:
@@ -52,7 +74,7 @@ def add_foodcom_macros(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         A new dataframe; `df` itself is not changed.
     """
-    nut = pd.DataFrame(df["nutrition"].apply(parse_nutrition).tolist(), index=df.index)
+    nut = pd.DataFrame(df["nutrition"].apply(_parse_nutrition).tolist(), index=df.index)
     nut = nut.rename(columns={"calories": "calories_per_serving"}).astype(float)
     df = df.drop(columns=[c for c in nut.columns if c in df.columns]).join(nut)
     for col, (pdv_col, daily_value) in FOODCOM_DAILY_VALUES.items():
@@ -60,7 +82,7 @@ def add_foodcom_macros(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def hf_nutrients_per_serving(total_nutrients: str, servings: float) -> dict[str, float]:
+def _hf_nutrients_per_serving(total_nutrients: str, servings: float) -> dict[str, float]:
     """Return protein, fat, carbs (g) and sodium (mg) per serving from one Hugging Face recipe."""
     try:
         data = json.loads(total_nutrients)
@@ -73,7 +95,7 @@ def hf_nutrients_per_serving(total_nutrients: str, servings: float) -> dict[str,
 def add_hf_macros(df: pd.DataFrame) -> pd.DataFrame:
     """Add macros per serving to Hugging Face recipes (a new dataframe; `df` is not changed)."""
     per_serving = pd.DataFrame(
-        [hf_nutrients_per_serving(t, s) for t, s in zip(df["total_nutrients"], df["servings"])],
+        [_hf_nutrients_per_serving(t, s) for t, s in zip(df["total_nutrients"], df["servings"])],
         index=df.index)
     return df.drop(columns=[c for c in per_serving.columns if c in df.columns]).join(per_serving)
 
@@ -100,24 +122,24 @@ def nutrition_checks(df: pd.DataFrame) -> pd.DataFrame:
 
 
 # ------------------------------------------------------------------ USDA matching (5.8.2)
-def words(text: object) -> list[str]:
-    """Return the lowercase words of a text, each in singular form."""
+def _words(text: object) -> list[str]:
+    """Return the lowercase _words of a text, each in singular form."""
     return [singular(w) for w in re.findall(r"[a-z]+", str(text).lower())]
 
 
-def norm_text(text: object) -> str:
-    """Return a text as lowercase singular words joined by spaces, for matching."""
-    return " ".join(words(text))
+def _norm_text(text: object) -> str:
+    """Return a text as lowercase singular _words joined by spaces, for matching."""
+    return " ".join(_words(text))
 
 
-# Title words that say nothing about the dish itself
+# Title _words that say nothing about the dish itself
 TITLE_FILLER = {"and", "with", "the", "for", "easy", "best", "homemade", "style", "recipe", "quick",
                 "simple", "mom", "grandma", "old", "fashioned", "classic", "ii", "iii", "oamc"}
 
 
-def head_word(title: str) -> str:
+def _head_word(title: str) -> str:
     """Return the last meaningful word of a title, usually the dish: 'coconut cabbage curry' -> 'curry'."""
-    meaningful = [w for w in words(title) if len(w) > 2 and w not in TITLE_FILLER]
+    meaningful = [w for w in _words(title) if len(w) > 2 and w not in TITLE_FILLER]
     return meaningful[-1] if meaningful else ""
 
 DISH_TOP_K = 5         # matches kept per recipe
@@ -125,7 +147,7 @@ DISH_MIN_SCORE = 0.25  # weaker matches are ignored
 CANDIDATES = 50        # only the most similar USDA entries are scored in detail (much faster)
 
 
-def top_candidates(similarity: sparse.csr_matrix, row: int) -> tuple[np.ndarray, np.ndarray]:
+def _top_candidates(similarity: sparse.csr_matrix, row: int) -> tuple[np.ndarray, np.ndarray]:
     """Return positions and similarities of the CANDIDATES most similar USDA entries for one row."""
     start, end = similarity.indptr[row], similarity.indptr[row + 1]
     positions, values = similarity.indices[start:end], similarity.data[start:end]
@@ -152,18 +174,18 @@ def match_dishes(titles: Sequence[str], dishes: pd.DataFrame) -> tuple[np.ndarra
         a score of 0 means no match.
     """
     vectorizer = TfidfVectorizer(token_pattern=r"[a-z]{3,}", sublinear_tf=True, ngram_range=(1, 2))
-    dish_matrix = vectorizer.fit_transform(dishes["description"].map(norm_text))
-    similarity = (vectorizer.transform([norm_text(t) for t in titles]) @ dish_matrix.T).tocsr()
-    first_part = [set(words(d.split(",")[0])) for d in dishes["description"]]
-    anywhere = [set(words(d)) for d in dishes["description"]]
+    dish_matrix = vectorizer.fit_transform(dishes["description"].map(_norm_text))
+    similarity = (vectorizer.transform([_norm_text(t) for t in titles]) @ dish_matrix.T).tocsr()
+    first_part = [set(_words(d.split(",")[0])) for d in dishes["description"]]
+    anywhere = [set(_words(d)) for d in dishes["description"]]
 
     scores = np.zeros((len(titles), DISH_TOP_K))
     positions = np.zeros((len(titles), DISH_TOP_K), dtype=int)
     for row, title in enumerate(titles):
-        candidates, text_score = top_candidates(similarity, row)
+        candidates, text_score = _top_candidates(similarity, row)
         if len(candidates) == 0:
             continue
-        head = head_word(title)
+        head = _head_word(title)
         score = text_score + np.array(
             [0.35 if head in first_part[j] else 0.1 if head in anywhere[j] else -0.2 for j in candidates])
         best = np.argsort(-score)[:DISH_TOP_K]
@@ -259,9 +281,9 @@ def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tu
         {ingredient: (row in `foods`, "hand-checked" or "automatic")} for the names that match.
     """
     vectorizer = TfidfVectorizer(token_pattern=r"[a-z]{3,}")
-    food_matrix = vectorizer.fit_transform(foods["description"].map(norm_text))
-    similarity = (vectorizer.transform([norm_text(n) for n in names]) @ food_matrix.T).tocsr()
-    first_part = [norm_text(d.split(",")[0]) for d in foods["description"]]
+    food_matrix = vectorizer.fit_transform(foods["description"].map(_norm_text))
+    similarity = (vectorizer.transform([_norm_text(n) for n in names]) @ food_matrix.T).tocsr()
+    first_part = [_norm_text(d.split(",")[0]) for d in foods["description"]]
     is_raw = foods["description"].str.contains("raw", case=False).to_numpy()
     n_details = foods["description"].str.count(",").to_numpy()   # fewer details = more generic food
     row_of = {d: i for i, d in enumerate(foods["description"])}
@@ -271,10 +293,10 @@ def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tu
         if name in INGREDIENT_USDA:
             matches[name] = (row_of[INGREDIENT_USDA[name]], "hand-checked")
             continue
-        candidates, text_score = top_candidates(similarity, row)
+        candidates, text_score = _top_candidates(similarity, row)
         if len(candidates) == 0:
             continue
-        target = norm_text(name)
+        target = _norm_text(name)
         last = target.split()[-1:]
         bonus = np.array([0.5 if first_part[j] == target else 0.25 if first_part[j].split()[-1:] == last else 0.0
                           for j in candidates])

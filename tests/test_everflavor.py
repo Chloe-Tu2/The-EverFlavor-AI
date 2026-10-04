@@ -200,8 +200,10 @@ def test_score_flags_accepts_a_tuple_of_flags(tmp_path=None):
 
 
 def test_retry_helpers_refuse_zero_retries():
-    from everflavor.sources import get_json
-    assert "retries" in expect_error(ValueError, get_json, "https://example.invalid", retries=0)
+    from everflavor.sources import (
+        _get_json,  # private, but its promise is worth testing
+    )
+    assert "retries" in expect_error(ValueError, _get_json, "https://example.invalid", retries=0)
 
 if __name__ == "__main__":
     tests = [(name, test) for name, test in sorted(globals().items()) if name.startswith("test_")]

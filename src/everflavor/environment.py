@@ -5,8 +5,16 @@ import os
 from collections.abc import Sequence
 from pathlib import Path
 
+__all__ = [
+    "folder_has",
+    "get_secret",
+    "load_env_file",
+    "print_download_checks",
+    "short_path",
+]
 
-def in_colab() -> bool:
+
+def _in_colab() -> bool:
     """Return True when running in Google Colab."""
     try:
         import google.colab  # noqa: F401
@@ -63,7 +71,7 @@ def get_secret(name: str) -> str | None:
     Returns:
         The value, or None if it is not set anywhere.
     """
-    if in_colab():
+    if _in_colab():
         try:
             from google.colab import userdata
             value = userdata.get(name)
@@ -80,7 +88,7 @@ def folder_has(folder: str | Path, pattern: str) -> Path | None:
     return next(folder.rglob(pattern), None) if folder.is_dir() else None
 
 
-def describe(path: str | Path) -> str:
+def _describe(path: str | Path) -> str:
     """Describe a file or folder: its size, plus the row count for Parquet files."""
     path = Path(path)
     files = [path] if path.is_file() else [f for f in path.rglob("*") if f.is_file()]
@@ -113,7 +121,7 @@ def print_download_checks(checks: Sequence[tuple[str, str, Path | None]], refres
     for step, label, path in checks:
         present = path is not None and Path(path).exists() and (
             Path(path).is_file() or any(Path(path).iterdir()))
-        status = f"yes  ({describe(path)})" if present and path is not None else "MISSING"
+        status = f"yes  ({_describe(path)})" if present and path is not None else "MISSING"
         print(f"{step:6s} {label:34s} {status}")
         if not present and step not in missing_steps:
             missing_steps.append(step)

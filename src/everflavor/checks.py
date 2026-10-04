@@ -5,6 +5,10 @@ from collections.abc import Iterable
 
 import pandas as pd
 
+__all__ = [
+    "require_columns",
+]
+
 
 def require_columns(df: pd.DataFrame, columns: Iterable[str], where: str) -> None:
     """Check that a dataframe has the columns a function needs.

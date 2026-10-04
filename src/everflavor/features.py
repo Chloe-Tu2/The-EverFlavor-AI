@@ -8,6 +8,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 from .ingredients import unique_ingredients
 
+__all__ = [
+    "TextFeatures",
+]
+
 
 class TextFeatures:
     """Ingredient names and title words as one sparse matrix.

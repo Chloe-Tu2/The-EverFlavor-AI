@@ -3,6 +3,17 @@ from __future__ import annotations
 
 from .parsing import parse_label_list
 
+__all__ = [
+    "CUISINE_FAMILIES",
+    "CUISINE_MAP",
+    "FAMILY_PRIORITY",
+    "ORIGIN_LABELS",
+    "cuisine_names",
+    "map_cuisine",
+    "origin_from_labels",
+]
+
+
 CUISINE_FAMILIES = {
     "Asian": [
         "asian", "south east asian", "southeast asian", "south east asia", "chinese", "china",
