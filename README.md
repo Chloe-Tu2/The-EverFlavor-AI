@@ -160,7 +160,9 @@ flowchart LR
 | **By cuisine family** | European 48,151 · Asian 20,788 · Latin American 15,706 · Middle Eastern 3,406 · African 3,179 |
 | **Restriction flags** | On a fresh blind 200-recipe check they catch 96–100% of real cases for gluten, dairy, egg, pork, alcohol, fish, tree nuts and meat; the rarer allergens (peanut, shellfish, soy, sesame, 5–11 cases each) 67–91% |
 | **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 186 kcal, with a likely range) |
-| **Validation** | 15 automatic checks pass; no near-duplicate leakage between splits |
+| **Country of origin** | 121,456 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 108,559 predicted at 70%+ confidence (right about 90% of the time on validation); 61,756 `Unknown` |
+| **Diet profiles** | Halal-friendly 76%, kosher-friendly 70%, pescatarian 63%, no beef 89%, Jain-friendly 16%, lower sodium 58%, low carb 28% of recipes |
+| **Validation** | 21 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
 
 ### Done (Weeks 4–6)
@@ -172,21 +174,25 @@ flowchart LR
   - normalized ingredient lists and a complexity score
 - All sources combined into one recipe table and saved as Parquet.
 - Missing nutrition filled in: every recipe without believable listed values gets an estimate, labeled `estimated`, with a likely calorie range and the closest official USDA dish as a reference. A USDA nutrition table for about 40,000 ingredient names is saved for the Nutritionist Agent.
+- Country of origin for every recipe: from the source's own labels where they name one country (with a region only when the source names it), otherwise predicted by a model when it is at least 70% confident, otherwise `Unknown`. `origin_source` says which.
+- Diet profiles defined once as rules over the ingredient flags (halal-, kosher- and Jain-friendly, pescatarian, no beef, lower sodium, low carb), used by the table, the validation checks and the safety filter alike. "-friendly" means no forbidden ingredients, never certified.
 - Data quality:
   - quantities removed from ingredient names
   - nutrition plausibility checks
   - a train/validation/test split (70/15/15) that keeps near-duplicate recipes together, so there is no leakage
-  - 15 automatic validation checks
+  - 21 automatic validation checks
   - a dataset record of versions and settings (`dataset_info.json`)
 - Exploratory analysis with charts showing what each step changed (`data/processed/figures/`).
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
 
 ### Restriction flag check
-Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.11. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended and the flags now read recipe names too; a fresh round 2 sample measures gluten at **96%**. Details, labeling rules and the remaining misses: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md). **Still to do by hand:** a team member should spot-check the labels, starting with the rows where they disagree with the flags.
+Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended and the flags now read recipe names too; a fresh round 2 sample measures gluten at **96%**. Details, labeling rules and the remaining misses: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md). **Still to do by hand:** a team member should spot-check the labels, starting with the rows where they disagree with the flags.
 
 ### Known data gaps
 - Many recipes still have no cuisine label ("Other"), mostly American recipes and Food.com recipes without a cuisine tag.
+- Predicted countries are a good guess, not a fact (about 90% right overall, 77-97% depending on the country), and 21% of recipes still have no country. Regions exist only where a source names them.
+- The diet flags added for the diet profiles (meat, beef, gelatin, honey, root vegetables, onion and garlic) have not had a blind check yet; a round 3 review sample will measure them.
 - Food.com macros are converted from percent of daily value, so they are approximate.
 - CulinaryDB and TheMealDB publish no nutrition, and CulinaryDB lists no amounts or servings, so their calories are estimates (labeled as such). A typical estimate is off by about 100 kcal per serving.
 - Restriction flags come from keywords in the ingredients and recipe names (plus Hugging Face health labels), so they are approximate; the rarer allergens (peanut, shellfish, soy, sesame) are the least reliable.
@@ -268,7 +274,9 @@ The-EverFlavor-AI/
 │   ├── data_dictionary.md  # Every column of the recipe table
 │   ├── sources.md          # Every data source: URL, license, access method, version
 │   ├── ethics_privacy.md   # Privacy, licenses and responsible use
-│   └── model_card.md       # Baseline cuisine classifier: results and limits
+│   ├── model_card.md            # Baseline cuisine classifier: results and limits
+│   ├── model_card_nutrition.md  # Missing-nutrition estimator (USDA + similar recipes)
+│   └── model_card_origin.md     # Country-of-origin model
 ├── config/
 │   ├── requirements.txt  # Python libraries for the notebook
 │   └── .env.example      # Template for API keys (copy to config/.env, which git ignores)

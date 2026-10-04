@@ -20,6 +20,15 @@ Columns of the processed recipe table: `data/interim/recipes_all.parquet` (all r
 | `cuisine_raw` | text | The source's own cuisine or region label before mapping (for example `french`), where there is one. |
 | `cuisine_labeled` | true/false | True when `cuisine_family` is not `Other`. Lets models treat `Other` as unlabeled. |
 
+## Origin
+
+| Column | Type | Description |
+|---|---|---|
+| `origin_country` | text | Country the dish comes from (for example `Iran`, `Morocco`, `United States`). `Unknown` when neither the source nor the model can say. Never empty. |
+| `origin_region` | text | Region within the country, only when the source names it (for example `Sichuan`, `Louisiana`, `Quebec`, `Oaxaca`, `Scotland`). Empty otherwise; never predicted. |
+| `origin_source` | text | `labeled` (the source names the country, section 5.4.6), `predicted` (a model guessed it, section 5.9) or `unknown`. |
+| `origin_confidence` | number | For `predicted` countries, the model's confidence (0.7 to 1). Empty otherwise. Treat predicted countries as a good guess, not a fact. |
+
 ## Ingredients
 
 | Column | Type | Description |
@@ -66,6 +75,26 @@ Derived from keywords in the ingredients and the recipe name, plus Hugging Face 
 | `contains_sesame` | contains sesame |
 | `vegetarian` | contains no meat, poultry, fish or shellfish |
 | `vegan` | is vegetarian and contains no dairy, egg or honey |
+| `contains_meat` | contains meat or poultry (fish does not count) |
+| `contains_beef` | contains beef or veal |
+| `contains_gelatin` | contains gelatin (also marshmallows, gummies, aspic) |
+| `contains_honey` | contains honey |
+| `contains_root_vegetable` | contains vegetables that grow underground (potato, carrot, beet, radish, fresh ginger...) |
+| `contains_allium` | contains onion, garlic, leek, shallot, scallion or chive |
+
+## Diet profiles (true/false)
+
+Rules over the flags above, defined once in `DIET_PROFILES` (section 5.4.7). "-friendly" means the ingredients contain nothing the diet forbids; it never means certified (slaughter method and certification cannot be seen in an ingredient list).
+
+| Column | True when the recipe has no... |
+|---|---|
+| `halal_friendly` | pork, alcohol or gelatin |
+| `kosher_friendly` | pork, shellfish or gelatin, and does not combine meat with dairy |
+| `pescatarian` | meat or poultry (fish allowed) |
+| `no_beef` | beef or gelatin |
+| `jain_friendly` | meat, fish, egg, honey, alcohol, root vegetables, onion or garlic |
+| `lower_sodium` | more than 600 mg sodium per serving; listed nutrition only |
+| `low_carb` | more than 15 g carbohydrate per serving; listed nutrition only |
 
 ## Split
 
@@ -78,4 +107,4 @@ Derived from keywords in the ingredients and the recipe name, plus Hugging Face 
 | File | Contents |
 |---|---|
 | `data/processed/usda_ingredient_nutrition.csv` | One row per matched ingredient name: `ingredient`, `recipes` (how many use it), `match` (`hand-checked` or `automatic`), `fdc_id`, `usda_description`, and per 100 g: `kcal_100g`, `protein_100g`, `fat_100g`, `carbs_100g`, `sodium_mg_100g`. |
-| `data/processed/dataset_info.json` | Run record: date, library and source versions, settings, row counts, estimate accuracy. |
+| `data/processed/dataset_info.json` | Run record: date, library and source versions, settings, row counts, nutrition estimate and country model accuracy, diet counts. |

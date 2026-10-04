@@ -1,6 +1,6 @@
 # Flag Review: How the Labels Were Made
 
-Section 5.11 of the notebook compares the pipeline's 13 restriction flags with hand-made answers for blind samples of 200 recipes (50 per source). Each round is a fresh sample; no recipe appears in two rounds.
+Section 5.12 of the notebook compares the pipeline's restriction flags with hand-made answers for blind samples of 200 recipes (50 per source). Each round is a fresh sample; no recipe appears in two rounds.
 
 | Round | Sample | Answers | Purpose |
 |---|---|---|---|
@@ -49,6 +49,8 @@ Recall is the share of recipes that really contain something and were flagged. I
 
 Peanut, shellfish, soy and sesame have only 5 to 11 recipes each in the sample, so one miss moves their score a lot.
 
-**Remaining misses (candidates for the next keyword update):** "soya sauce" (gluten, soy), "ground nut oil" (peanut), snails / escargots (shellfish, not vegetarian), hummus (sesame), waffles, pasty and pastini (gluten). **False alarms:** turkey kielbasa (pork), "chicken scampi" and "scalloped potatoes" (shellfish), and Hugging Face recipes without a "fish-free" or "dairy-free" label, which are flagged on purpose (the safe side). If the lists are updated with these, draw a round 3 to measure them fairly: add `3: <seed>` to `REVIEW_ROUNDS` in 5.11 and re-run the cell.
+**Remaining misses (candidates for the next keyword update):** "soya sauce" (gluten, soy), "ground nut oil" (peanut), snails / escargots (shellfish, not vegetarian), hummus (sesame), waffles, pasty and pastini (gluten). **False alarms:** turkey kielbasa (pork), "chicken scampi" and "scalloped potatoes" (shellfish), and Hugging Face recipes without a "fish-free" or "dairy-free" label, which are flagged on purpose (the safe side). If the lists are updated with these, draw a round 3 to measure them fairly: add `3: <seed>` to `REVIEW_ROUNDS` in 5.12 and re-run the cell.
+
+**Flags added after round 2** (`contains_meat`, `contains_beef`, `contains_gelatin`, `contains_honey`, `contains_root_vegetable`, `contains_allium`, used by the diet profiles in 5.4.7) are not in the round 1 and 2 files, so they have not been measured yet. A round 3 sample will include their columns.
 
 **Food.com's own tags (whole dataset):** our gluten flag agrees with the "gluten-free" tag on 88.5% of tagged recipes (90.5% before the change). The extra disagreements are mostly recipes whose ingredients list plain "flour", "bread" or "pasta" without saying they are gluten-free versions; flagging them is the safe side.

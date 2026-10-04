@@ -22,4 +22,6 @@ API keys (USDA now; Google Places and an LLM key later) are never written in the
 
 - **Restriction flags are not medical advice.** They come from ingredient keywords and miss some cases (see `flag_review/labeling_notes.md`), so the system always runs a hard-coded safety filter after the agents.
 - **Estimated nutrition is labeled.** Calories for recipes without listed nutrition are estimates (`nutrition_source` = `estimated`) and come with a likely range; they are never presented as exact.
+- **Diet profiles are not certifications.** `halal_friendly`, `kosher_friendly` and `jain_friendly` mean the ingredients contain nothing the diet forbids. They cannot show how meat was slaughtered or whether a product is certified, and religious practice varies, so the system must say "halal-friendly ingredients", never "halal".
+- **Predicted origins are labeled.** Countries guessed by the model (`origin_source` = `predicted`) are right about 90% of the time, not always, and should be shown as "probably Moroccan". Labeling a dish with the wrong culture can be hurtful, so agents should prefer source-labeled recipes when authenticity matters.
 - **Cuisine coverage is uneven.** European recipes far outnumber African and Middle Eastern ones, and many recipes have no cuisine label. Models are weighted to reduce this bias, and the gap is reported rather than hidden.

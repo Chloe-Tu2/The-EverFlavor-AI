@@ -1,6 +1,6 @@
 # Datasheet: EverFlavor AI Combined Recipe Dataset
 
-This document follows the "Datasheets for Datasets" format. It describes the recipe table built by `notebooks/01_data_acquisition_EverFlavor_V3.ipynb` (sections 2.4 and 5.1–5.11). The notebook also writes the exact versions and counts of each run to `data/processed/dataset_info.json`.
+This document follows the "Datasheets for Datasets" format. It describes the recipe table built by `notebooks/01_data_acquisition_EverFlavor_V3.ipynb` (sections 2.4 and 5.1–5.12). The notebook also writes the exact versions and counts of each run to `data/processed/dataset_info.json`.
 
 ## Motivation
 
@@ -25,6 +25,8 @@ This document follows the "Datasheets for Datasets" format. It describes the rec
 - `servings`, `minutes`, `instructions`, `url`
 - 13 restriction flags: `contains_pork`, `contains_alcohol`, `contains_gluten`, `contains_dairy`, `contains_egg`, `contains_peanut`, `contains_tree_nut`, `contains_fish`, `contains_shellfish`, `contains_soy`, `contains_sesame`, `vegetarian` and `vegan`
 - quality columns: `has_nutrition`, `nutrition_plausible`, `cuisine_labeled`, `ingredient_group` and `split`
+- origin: `origin_country` (`Unknown` if not known), `origin_region` (only when the source names it), `origin_source` (`labeled`, `predicted` or `unknown`) and `origin_confidence`
+- diet profiles: `halal_friendly`, `kosher_friendly`, `pescatarian`, `no_beef`, `jain_friendly`, `lower_sodium`, `low_carb`, and their base flags `contains_meat`, `contains_beef`, `contains_gelatin`, `contains_honey`, `contains_root_vegetable`, `contains_allium`
 - nutrition provenance: `nutrition_source` (`listed` or `estimated`), `calories_est_min` and `calories_est_max` (likely range of an estimate), `usda_dish` and `usda_dish_kcal` (closest USDA FNDDS dish and its calories per typical serving)
 
 **What's missing:**
@@ -57,13 +59,15 @@ No website was scraped directly.
 | Combining | Recipes with the same title across sources are kept once, in this order of preference: Hugging Face, Food.com, TheMealDB, CulinaryDB. Recipes with fewer than 2 ingredients are dropped. |
 | Nutrition quality | `nutrition_plausible` requires at least 10 kcal, at most 5,000 mg sodium, at most 150 g protein, and macros within 30% of the listed calories. Recipes that fail are marked, not removed. |
 | Missing nutrition (5.8) | Recipes without listed, plausible nutrition get estimates. A ridge model on title and ingredient words, plus a gradient-boosted model that adds USDA evidence (closest FNDDS dishes' calories per typical serving, SR Legacy energy density of the ingredients), trained on the training split only. On validation recipes with real values: average error 186 kcal per serving vs 230 kcal for guessing the median; the 80% likely range (estimate × 0.47 to × 2.11) contains the real value 79% of the time. Protein, fat and carbs are scaled to add up to the estimated calories. |
+| Country of origin (5.4.6, 5.9) | Source labels that name one country are mapped to it ("italian", "Italy" -> Italy); a region is kept only when the source names it. Broad labels ("asian", "caribbean") give no country. For the rest, a logistic regression on title and ingredient words (training split only, 37 countries with 100+ labeled recipes, restricted to the recipe's cuisine family) predicts a country when at least 70% confident: on validation recipes it is right 89.6% of the time and covers 75% of them. |
+| Diet profiles (5.4.7) | Rules over the ingredient flags, defined once in `DIET_PROFILES`. "-friendly" means no forbidden ingredients, not certified. Nutrition-based diets (lower sodium: at most 600 mg; low carb: at most 15 g per serving) only count listed, plausible nutrition. |
 | Split | Stratified by cuisine family. Recipes with exactly the same ingredients are kept in the same split, so there is no near-duplicate leakage. |
 | Validation | 12 automatic checks, and the notebook stops if any fails. |
 
 ## Known limitations and biases
 
 - **Uneven cuisine coverage.** 69% of recipes have no cuisine label, and African (1.1%) and Middle Eastern (1.2%) recipes are scarce. Most are American-site recipes, written for a US audience.
-- **Approximate restriction flags.** On a fresh blind 200-recipe check (`docs/flag_review/`, section 5.11) they catch 96–100% of real cases for gluten, dairy, egg, pork, alcohol, fish, tree nuts and meat, but 67–91% for the rarer peanut, shellfish, soy and sesame (only 5–11 cases each in the sample). They agree with Food.com's own dietary tags 79–98% of the time, depending on the tag.
+- **Approximate restriction flags.** On a fresh blind 200-recipe check (`docs/flag_review/`, section 5.12) they catch 96–100% of real cases for gluten, dairy, egg, pork, alcohol, fish, tree nuts and meat, but 67–91% for the rarer peanut, shellfish, soy and sesame (only 5–11 cases each in the sample). They agree with Food.com's own dietary tags 79–98% of the time, depending on the tag.
 - **Ingredient names still vary.** About 46,000 unique names remain after normalizing.
 - **Cuisine labels come from recipe authors and sites.** They are not checked for authenticity.
 
