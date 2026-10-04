@@ -16,6 +16,7 @@ Modules:
     review       blind hand-check samples for the flags
     recommend    the baseline recommender and its safety filter
     reporting    small table and checklist helpers
+    cooking      cooking methods and cooking fats (notebook 02)
 
 Conventions (Google Python Style Guide, PEP 257):
     - Every public function has type hints and a docstring with Args, Returns

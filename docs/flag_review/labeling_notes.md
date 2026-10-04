@@ -82,3 +82,20 @@ Peanut, shellfish, soy and sesame have only 5 to 11 recipes each in the sample, 
 | not vegan | 173 | 0.99 | 0.99 |
 
 Shellfish is the one flag below 0.95 (10 of 12 found); peanut, shellfish, soy, sesame, gelatin and honey have fewer than 15 cases each, so one miss moves their score a lot. Fish precision is lower on purpose: Hugging Face recipes without a "fish-free" label are flagged. The exact rows behind every miss are in `flag_review_disagreements_round3.csv`.
+
+## Round 3 review (section 5.13)
+
+Every one of the 30 round 3 disagreements was traced to what set the flag (`why_flagged` in the disagreements file):
+
+| Kind | Rows | Outcome |
+|---|---|---|
+| Keyword bugs | 17 | Fixed in `src/everflavor/flags.py`: jamón (pork), merguez (not pork), "sherry wine vinegar" (not alcohol), "roll" and rawa (gluten), "frozen seafood mix" (shellfish), mock caviar (not fish), portobello and swordfish "steak" (not meat), oyster mushrooms (not shellfish) |
+| Hidden ingredients | 2 | Christmas pudding (gluten, egg) added to `COMPOUND_INGREDIENTS`, the list of ready-made ingredients checked against Open Food Facts |
+| AI answer wrong | 4 | Fish sauce does contain fish; "maple syrup or honey" can contain honey |
+| Matter of definition | 7 | Recorded as team policies in `flag_policies.csv` |
+
+Because round 3 was used for these fixes, its scores are now optimistic; round 4 (`flag_review_sample_round4.csv`) is the fresh sample for the next measurement.
+
+**Rules now set by team policy** (`flag_policies.csv`): two rules above were the AI labeler's own choices and are overridden by decisions a person made. Oats now count as gluten unless labeled gluten-free (P1), and gelatin counts as meat (P2). Answers in rounds 1-3 that follow the old rules show up as disagreements until they are corrected.
+
+**New flags:** `contains_red_meat` (meat from mammals, pork included), `contains_poultry` (white meat) and `contains_processed_meat` (cured, salted, smoked or fermented meat), following USDA and WHO / IARC definitions (policies P8 and P9). Rounds 1-3 were labeled before these flags existed, so they are first measured in round 4.

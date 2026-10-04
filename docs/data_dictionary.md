@@ -58,13 +58,13 @@ Columns of the processed recipe table: `data/interim/recipes_all.parquet` (all r
 
 ## Restriction flags (true/false)
 
-Derived from keywords in the ingredients and the recipe name, plus Hugging Face health labels where they exist (section 5.4.2). They are a first filter, not a guarantee: the system's safety filter re-checks every recipe. Measured accuracy is in `flag_review/labeling_notes.md`.
+Derived from keywords in the ingredients and the recipe name, plus Hugging Face health labels where they exist (section 5.4.2), plus the hidden allergens of ready-made ingredients such as "ranch dressing" (`COMPOUND_INGREDIENTS`, checked against Open Food Facts in section 5.13). They are a first filter, not a guarantee: the system's safety filter re-checks every recipe. Measured accuracy is in `flag_review/labeling_notes.md`; the definitions that are a matter of policy (oats, gelatin, plain "nut", red meat ...) are in `flag_review/flag_policies.csv`.
 
 | Column | True when the recipe... |
 |---|---|
-| `contains_pork` | contains pork (bacon, ham, prosciutto, sausage...) |
+| `contains_pork` | contains pork (bacon, ham, jamón, prosciutto, sausage...) |
 | `contains_alcohol` | contains alcohol (wine, beer, spirits, liqueur, mirin, sake...) |
-| `contains_gluten` | contains wheat, barley or rye |
+| `contains_gluten` | contains wheat, barley or rye, or oats not labeled gluten-free (team policy P1) |
 | `contains_dairy` | contains milk or milk products |
 | `contains_egg` | contains egg |
 | `contains_peanut` | contains peanut |
@@ -77,6 +77,9 @@ Derived from keywords in the ingredients and the recipe name, plus Hugging Face 
 | `vegan` | is vegetarian and contains no dairy, egg or honey |
 | `contains_meat` | contains meat or poultry (fish does not count) |
 | `contains_beef` | contains beef or veal |
+| `contains_red_meat` | contains red meat: meat from mammals, pork, lamb, goat, venison and organ meat included (USDA, WHO / IARC) |
+| `contains_poultry` | contains poultry ("white meat": chicken, turkey, duck, goose...). Fish and shellfish are their own flags, not white meat |
+| `contains_processed_meat` | contains processed meat: cured, salted, smoked or fermented (bacon, ham, sausage, salami, jerky, hot dogs), poultry products included (WHO / IARC) |
 | `contains_gelatin` | contains gelatin (also marshmallows, gummies, aspic) |
 | `contains_honey` | contains honey |
 | `contains_root_vegetable` | contains vegetables that grow underground (potato, carrot, beet, radish, fresh ginger...) |

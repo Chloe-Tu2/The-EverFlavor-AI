@@ -17,11 +17,20 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from everflavor.checks import require_columns
+from everflavor.cooking import (
+    FAT_KEYWORDS,
+    add_cooking_labels,
+    fat_reference,
+    fats_from_ingredients,
+    methods_from_instructions,
+    methods_from_tags,
+)
 from everflavor.cuisine import map_cuisine, origin_from_labels
 from everflavor.diets import DIET_PROFILES, add_diet_profiles, meets_diet
 from everflavor.flags import (
     FLAG_COLUMNS,
     add_keyword_flags,
+    explain_flag,
     keyword_flag,
     make_flag,
 )
@@ -38,6 +47,7 @@ from everflavor.pipeline import (
     split_tables,
 )
 from everflavor.recommend import passes_safety_filter
+from everflavor.review import compound_evidence, declared_allergens
 
 
 def expect_error(error, function, *args, **kwargs):
@@ -204,6 +214,131 @@ def test_retry_helpers_refuse_zero_retries():
         _get_json,  # private, but its promise is worth testing
     )
     assert "retries" in expect_error(ValueError, _get_json, "https://example.invalid", retries=0)
+
+
+# ------------------------------------------------------------------ flag review round 3 and human verification (5.13)
+def test_round3_keyword_fixes():
+    assert keyword_flag("jamón ibérico | croquetas", "contains_pork")
+    assert not keyword_flag("merguez sausage | couscous", "contains_pork")
+    assert not keyword_flag("sherry wine vinegar | olive oil", "contains_alcohol")
+    assert keyword_flag("hard italian roll | provolone", "contains_gluten")
+    assert not keyword_flag("california roll | nori", "contains_gluten")
+    assert keyword_flag("rawa idli", "contains_gluten")
+    assert keyword_flag("frozen seafood mix | rice", "contains_shellfish")
+    assert not keyword_flag("old bay seafood seasoning | corn", "contains_shellfish")
+    assert not keyword_flag("black bean | southwestern caviar mock caviar", "contains_fish")
+    assert keyword_flag("black bean | southwestern caviar mock caviar", "vegetarian")
+    assert not keyword_flag("wild mushrooms (such as oyster, crimini) | turkey", "contains_shellfish")
+    assert not keyword_flag("marinated portobello steak | barley", "contains_meat")
+    assert keyword_flag("marinated portobello steak | barley", "vegetarian")
+    assert not keyword_flag("swordfish steak | red onion", "contains_meat")
+    assert not keyword_flag("swordfish steak | red onion", "vegetarian")   # still fish
+    assert keyword_flag("schmaltz | onion", "contains_meat")
+    assert keyword_flag("smen | couscous", "contains_dairy")
+    assert keyword_flag("gingelly oil | rice", "contains_sesame")
+    assert not keyword_flag("poultry seasoning | bread", "contains_meat")
+    assert not keyword_flag("air fryer fries | potato", "contains_meat")
+
+
+def test_team_policies_oats_nuts_gelatin():
+    assert keyword_flag("rolled oats | honey", "contains_gluten")
+    assert not keyword_flag("gluten-free oats | honey", "contains_gluten")
+    assert keyword_flag("mixed nuts | raisins", "contains_peanut")
+    assert not keyword_flag("pine nuts | basil", "contains_peanut")
+    assert not keyword_flag("coconut | nutmeg | walnut", "contains_peanut")
+    assert keyword_flag("jell-o | whipped cream", "contains_meat")
+
+
+def test_red_meat_poultry_and_processed_meat():
+    assert keyword_flag("pork shoulder", "contains_red_meat")          # pork is red meat (USDA)
+    assert keyword_flag("lamb | beef liver", "contains_red_meat")
+    assert not keyword_flag("chicken breast | chicken liver", "contains_red_meat")
+    assert keyword_flag("chicken breast", "contains_poultry")
+    assert not keyword_flag("salmon | shrimp", "contains_poultry")     # fish is not white meat
+    assert not keyword_flag("salmon | shrimp", "contains_red_meat")
+    assert not keyword_flag("kidney beans | rice", "contains_red_meat")
+    assert keyword_flag("turkey bacon", "contains_processed_meat")
+    assert not keyword_flag("turkey bacon", "contains_red_meat")
+    assert keyword_flag("bulgogi | rice", "contains_meat")              # every beef word is also meat
+    assert not keyword_flag("bulgogi | rice", "vegetarian")
+    assert explain_flag("pork shoulder | chicken", "contains_red_meat") == ["pork"]
+
+
+def test_compound_evidence_suggests_only_well_supported_allergens():
+    products = [{"product_name": "Ranch Dressing", "allergens_tags": ["en:milk", "en:eggs"]}] * 4 + [
+        {"product_name": "Light Ranch Dressing", "allergens_tags": ["en:milk"]},
+        {"product_name": "Salad kit with dressing", "allergens_tags": ["en:gluten"]},   # name does not match
+    ]
+    assert declared_allergens("ranch dressing", products) == (5, {"contains_dairy": 1.0, "contains_egg": 0.8})
+    candidates = pd.DataFrame({"ingredient": ["ranch dressing", "mystery sauce"], "recipes": [300, 120]})
+
+    def search(query):
+        if query == "mystery sauce":
+            raise ConnectionError("offline")
+        return products
+
+    evidence = compound_evidence(candidates, search)
+    assert evidence.loc[0, "suggested_flags"] == "contains_dairy contains_egg"
+    assert evidence.loc[1, "products"] == -1 and evidence.loc[1, "suggested_flags"] == ""
+    # A saved table is reused: no new search, and the team's decision is kept
+    evidence.loc[0, "team_decision"] = "approve"
+    again = compound_evidence(candidates.head(1), lambda q: [], previous=evidence)
+    assert again.loc[0, "suggested_flags"] == "contains_dairy contains_egg"
+    assert again.loc[0, "team_decision"] == "approve"
+
+
+def test_policy_file_has_one_row_per_policy_and_known_statuses():
+    policies = pd.read_csv(Path(__file__).resolve().parents[1] / "docs" / "flag_review" / "flag_policies.csv")
+    assert policies["policy_id"].is_unique
+    assert set(policies["status"]) <= {"approved", "proposed", "rejected"}
+    approved = policies[policies["status"] == "approved"]
+    assert approved["decided_by"].notna().all() and approved["decided_on"].notna().all()
+
+
+# ------------------------------------------------------------------ cooking methods and fats (notebook 02)
+def test_methods_from_instructions_finds_frying_and_ignores_side_phrases():
+    deep = "Heat 2 inches of oil in a heavy pot to 350F. Drop by tablespoonfuls into hot oil and drain."
+    assert methods_from_instructions(deep) == ["deep_fry"]   # plain "fry" words do not add pan_fry
+    assert methods_from_instructions("Mix the yogurt, cucumber and mint in a bowl and chill for an hour.") == ["no_cook"]
+    assert methods_from_instructions("Whisk the baking powder into the flour, cover and chill well.") == ["no_cook"]
+    assert methods_from_instructions("Cut slits in the top crust to let steam escape and bake 40 minutes.") == ["bake_roast"]
+    assert methods_from_instructions("Steam the asparagus until tender, about 5 minutes.") == ["steam"]
+    assert methods_from_instructions(None) == []
+    assert methods_from_tags("['oven', 'deep-fry', 'easy']") == ["deep_fry", "bake_roast"]
+    assert methods_from_tags(float("nan")) == []
+
+
+def test_fats_from_ingredients_skips_look_alikes_and_marks_plain_oil():
+    fats = fats_from_ingredients(["peanut butter", "butter beans", "tuna in olive oil", "oil for frying",
+                                  "clarified butter", "canola oil", "butter"])
+    assert fats == ["oil_unspecified", "ghee", "canola_oil", "butter"]
+    assert fats_from_ingredients(None) == []
+
+
+def test_add_cooking_labels_flags_fried_dishes_with_unknown_fat_and_returns_a_copy():
+    df = pd.DataFrame({
+        "recipe_id": ["foodcom_1", "hf_2", "hf_3", "hf_4"],
+        "recipe_name": ["Vegetable Pakoras", "Oven-Fried Chicken", "Fried Rice", "Garden Salad"],
+        "ingredient_list": [["chickpea flour", "oil"], ["chicken"], ["rice", "peanut oil"], ["lettuce"]],
+        "instructions": [None, None, None, None],
+    })
+    out = add_cooking_labels(df, {"foodcom_1": ["deep-fry"]})
+    assert "frying_fat_unknown" not in df.columns
+    assert out["fried_by_name"].tolist() == [True, False, True, False]
+    assert out["frying_fat_unknown"].tolist() == [True, False, False, False]   # peanut oil is a known fat
+    assert out["methods_tags"].tolist() == [["deep_fry"], [], [], []]
+    assert out["has_tags"].tolist() == [True, False, False, False]
+    expect_error(ValueError, add_cooking_labels, df.drop(columns="instructions"))
+
+
+def test_cooking_fat_reference_file_matches_the_keyword_table():
+    reference = pd.read_csv(Path(__file__).resolve().parents[1] / "data" / "reference" / "cooking_fats.csv")
+    assert not reference["fat_id"].duplicated().any()
+    # every fat the rules can return has a row, so the agents can always look it up
+    assert set(FAT_KEYWORDS) | {"oil_unspecified"} <= set(reference["fat_id"])
+    low, high = reference["smoke_point_c_low"], reference["smoke_point_c_high"]
+    assert (low.isna() == high.isna()).all() and (low.dropna() <= high.dropna()).all()
+    assert len(fat_reference(reference)) == len(reference)
 
 if __name__ == "__main__":
     tests = [(name, test) for name, test in sorted(globals().items()) if name.startswith("test_")]

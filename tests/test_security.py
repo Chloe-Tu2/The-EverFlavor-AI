@@ -21,7 +21,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from everflavor.sources import off_get_by_barcode
 
-NOTEBOOK = ROOT / "notebooks" / "01_data_acquisition_EverFlavor_V3.ipynb"
+NOTEBOOK_DIR = ROOT / "notebooks"
 ENV_FILE = ROOT / "config" / ".env"
 # Paths that would reveal a username: C:\Users\<name>, /Users/<name>, /home/<name>, AppData
 LOCAL_PATH = re.compile(r"[A-Za-z]:\\\\?Users\\\\?|/Users/|/home/|AppData")
@@ -71,14 +71,15 @@ def test_no_key_in_tracked_files():
 
 
 def test_notebook_outputs_have_no_local_paths():
-    notebook = json.loads(NOTEBOOK.read_text(encoding="utf-8"))
     found = []
-    for number, cell in enumerate(notebook["cells"]):
-        for output in cell.get("outputs", []):
-            text = "".join(output.get("text") or output.get("data", {}).get("text/plain") or "")
-            if LOCAL_PATH.search(text):
-                found.append(number)
-    assert not found, f"Notebook cells {found} show a local path with a username; clear or re-run them"
+    for notebook_path in sorted(NOTEBOOK_DIR.glob("*.ipynb")):
+        notebook = json.loads(notebook_path.read_text(encoding="utf-8"))
+        for number, cell in enumerate(notebook["cells"]):
+            for output in cell.get("outputs", []):
+                text = "".join(output.get("text") or output.get("data", {}).get("text/plain") or "")
+                if LOCAL_PATH.search(text):
+                    found.append(f"{notebook_path.name} cell {number}")
+    assert not found, f"{found} show a local path with a username; clear or re-run them"
 
 
 def test_barcode_cannot_change_the_request_url():

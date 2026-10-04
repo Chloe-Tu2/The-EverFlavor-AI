@@ -21,10 +21,12 @@ __all__ = [
     "ANIMAL_KEYWORDS",
     "BEEF_EXCEPTIONS",
     "BEEF_KEYWORDS",
+    "COMPOUND_INGREDIENTS",
     "DAIRY_EXCEPTIONS",
     "DAIRY_KEYWORDS",
     "EGG_EXCEPTIONS",
     "EGG_KEYWORDS",
+    "FISH_EXCEPTIONS",
     "FISH_KEYWORDS",
     "FLAG_COLUMNS",
     "FLAG_RULES",
@@ -38,6 +40,7 @@ __all__ = [
     "HF_FREE_LABELS",
     "HONEY_EXCEPTIONS",
     "HONEY_KEYWORDS",
+    "LAND_MEAT_EXCEPTIONS",
     "LAND_MEAT_KEYWORDS",
     "MEAT_EXCEPTIONS",
     "MEAT_KEYWORDS",
@@ -45,6 +48,12 @@ __all__ = [
     "PEANUT_KEYWORDS",
     "PORK_EXCEPTIONS",
     "PORK_KEYWORDS",
+    "POULTRY_EXCEPTIONS",
+    "POULTRY_KEYWORDS",
+    "PROCESSED_MEAT_EXCEPTIONS",
+    "PROCESSED_MEAT_KEYWORDS",
+    "RED_MEAT_EXCEPTIONS",
+    "RED_MEAT_KEYWORDS",
     "ROOT_VEGETABLE_EXCEPTIONS",
     "ROOT_VEGETABLE_KEYWORDS",
     "SESAME_KEYWORDS",
@@ -56,11 +65,27 @@ __all__ = [
     "add_foodcom_diet_flags",
     "add_hf_diet_flags",
     "add_keyword_flags",
+    "explain_flag",
     "foodcom_tag_agreement",
     "keyword_flag",
     "make_flag",
     "print_flag_counts",
 ]
+
+
+# --- Ready-made ingredients whose allergens are hidden from the recipe (5.13) ---
+# Ingredient -> the flags it adds. Each entry comes from Open Food Facts evidence
+# (most matching products declare the allergen) and is listed with the team's
+# decision in docs/flag_review/compound_ingredients_review.csv; 5.13 checks that
+# the two agree. Entries only ever add flags (the safe direction).
+COMPOUND_INGREDIENTS: dict[str, list[str]] = {
+    "christmas pudding": ["contains_gluten", "contains_egg"],
+}
+
+
+def _compounds(*flags: str) -> list[str]:
+    """Return the COMPOUND_INGREDIENTS that add any of `flags`."""
+    return [name for name, adds in COMPOUND_INGREDIENTS.items() if set(adds) & set(flags)]
 
 
 # --- Keyword lists ---
@@ -70,7 +95,7 @@ PORK_KEYWORDS     = ["pork", "bacon", "ham", "prosciutto", "pancetta", "guancial
                      "sausage", "salami", "chorizo", "lard", "lardon", "pepperoni",
                      "kielbasa", "andouille", "bratwurst", "mortadella", "capicola",
                      "boston butt", "spare rib", "baby back rib", "hot dog",
-                     "frankfurter", "wiener", "bologna"]
+                     "frankfurter", "wiener", "bologna", "jamon", "jamón"]
 ALCOHOL_KEYWORDS  = ["wine", "beer", "ale", "lager", "rum", "vodka", "whiskey", "whisky",
                      "bourbon", "brandy", "cognac", "sherry", "liqueur", "liquor", "tequila", "gin",
                      "sake", "mirin", "champagne", "prosecco", "vermouth", "kahlua", "amaretto",
@@ -78,8 +103,11 @@ ALCOHOL_KEYWORDS  = ["wine", "beer", "ale", "lager", "rum", "vodka", "whiskey", 
                      "curacao", "chambord", "frangelico", "baileys", "limoncello", "sambuca", "ouzo",
                      "kirsch", "calvados", "armagnac", "grappa", "mezcal", "pisco", "cachaca", "soju",
                      "shaoxing", "shaohsing", "hard cider"]
+# Policy (docs/flag_review/flag_policies.csv): oats count as gluten unless labeled gluten-free,
+# because most oats are grown and milled next to wheat
 # Wheat, barley and rye, including products that are made from them
-GLUTEN_KEYWORDS   = ["flour", "bread", "wheat", "pasta", "noodle", "barley", "rye",
+GLUTEN_KEYWORDS   = ["flour", "bread", "wheat", "pasta", "noodle", "barley", "rye", "oat", "oatmeal",
+                     "roll", "rawa", "rava", "sooji", "suji",
                      "soy sauce", "breadcrumb", "cracker", "couscous", "semolina", "bulgur",
                      "spelt", "malt", "seitan", "farro", "orzo", "panko", "beer", "ale", "lager",
                      # pasta shapes and noodles
@@ -98,22 +126,25 @@ GLUTEN_KEYWORDS   = ["flour", "bread", "wheat", "pasta", "noodle", "barley", "ry
                      # sauces and soups usually made with wheat
                      "teriyaki", "hoisin", "oyster sauce", "gochujang", "shoyu", "ponzu", "soya sauce",
                      "cream of mushroom soup", "cream of chicken soup", "cream of celery soup",
-                     "minestrone"]
+                     "minestrone"] + _compounds("contains_gluten")
 DAIRY_KEYWORDS    = ["milk", "buttermilk", "cheese", "butter", "cream", "yogurt", "yoghurt",
                      "ghee", "mozzarella", "parmesan", "ricotta", "mascarpone", "feta", "whey",
                      "cheddar", "brie", "camembert", "gouda", "gruyere", "gorgonzola", "burrata",
                      "halloumi", "paneer", "queso", "provolone", "pecorino", "emmental", "manchego",
                      "labneh", "kefir", "quark", "creme fraiche", "half-and-half", "half and half",
                      "custard", "cheesecake", "casein", "caseinate", "whipped topping", "cool whip",
-                     "alfredo", "bechamel", "tzatziki", "raita", "lassi"]
+                     "alfredo", "bechamel", "tzatziki", "raita", "lassi", "smen", "niter kibbeh",
+                     "niter kebbeh"] + _compounds("contains_dairy")
 EGG_KEYWORDS      = ["egg", "egg white", "egg yolk", "mayonnaise", "mayo", "meringue", "eggnog",
                      "aioli", "hollandaise", "carbonara", "quiche", "frittata", "challah",
-                     "brioche", "cheesecake", "macaron", "wonton"]
-PEANUT_KEYWORDS   = ["peanut", "peanut butter", "peanut oil", "groundnut", "ground nut"]
+                     "brioche", "cheesecake", "macaron", "wonton"] + _compounds("contains_egg")
+# Policy: a plain "nut" may be peanuts, so it sets the peanut flag too
+PEANUT_KEYWORDS   = ["peanut", "peanut butter", "peanut oil", "groundnut", "ground nut",
+                     "nut"] + _compounds("contains_peanut")
 TREE_NUT_KEYWORDS = ["almond", "walnut", "pecan", "cashew", "pistachio", "hazelnut",
                      "filbert", "macadamia", "brazil nut", "pine nut", "nut", "nutella",
                      "praline", "marzipan", "macaron", "frangipane", "amaretti", "pesto",
-                     "baklava", "nougat", "gianduja", "marcona"]
+                     "baklava", "nougat", "gianduja", "marcona"] + _compounds("contains_tree_nut")
 FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "sardine",
                      "tilapia", "halibut", "trout", "mackerel", "haddock", "catfish",
                      "snapper", "swordfish", "mahi mahi", "flounder", "sole", "hake",
@@ -121,17 +152,20 @@ FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "s
                      "perch", "pike", "walleye", "monkfish", "whitefish", "herring",
                      "kipper", "eel", "carp", "bream", "branzino", "surimi", "roe",
                      "fish sauce", "worcestershire sauce", "bonito", "caviar",
-                     "dashi", "katsuobushi", "nam pla", "nuoc mam", "caesar dressing"]
+                     "dashi", "katsuobushi", "nam pla", "nuoc mam", "caesar dressing",
+                     # Policy: unspecified "seafood" may be fish or shellfish, so it sets both
+                     "seafood"] + _compounds("contains_fish")
 SHELLFISH_KEYWORDS = ["shrimp", "prawn", "crab", "crabmeat", "lobster", "langoustine",
                       "langostino", "scampi", "krill", "crawfish", "crayfish", "clam", "cockle",
                       "mussel", "scallop", "oyster", "squid", "calamari", "octopus", "conch",
-                      "abalone", "whelk", "belacan", "bagoong", "snail", "escargot"]
+                      "abalone", "whelk", "belacan", "bagoong", "snail", "escargot", "seafood",
+                      "frutti di mare"] + _compounds("contains_shellfish")
 SOY_KEYWORDS      = ["soy", "soya", "soy sauce", "soybean", "tofu", "tempeh", "edamame",
                      "miso", "tamari", "teriyaki", "hoisin", "gochujang", "doenjang", "natto",
-                     "shoyu", "ponzu", "yuba"]
+                     "shoyu", "ponzu", "yuba"] + _compounds("contains_soy")
 SESAME_KEYWORDS   = ["sesame", "tahini", "tahina", "halva", "halvah", "za'atar", "zaatar",
                      "za atar", "furikake", "gomasio", "gomashio", "benne", "hummus", "houmous",
-                     "hummous", "baba ganoush", "baba ghanoush"]
+                     "hummous", "baba ganoush", "baba ghanoush", "gingelly"] + _compounds("contains_sesame")
 LAND_MEAT_KEYWORDS = ["chicken", "beef", "lamb", "mutton", "goat", "turkey", "veal", "duck",
                       "venison", "goose", "rabbit", "bison", "elk", "quail", "pheasant",
                       "cornish hen", "game hen", "fryer", "meat", "steak", "sirloin",
@@ -139,8 +173,10 @@ LAND_MEAT_KEYWORDS = ["chicken", "beef", "lamb", "mutton", "goat", "turkey", "ve
                       "filet mignon", "tri-tip", "porterhouse", "short rib", "oxtail",
                       "pot roast", "rump roast", "round roast", "eye of round", "pastrami",
                       "jerky", "liver", "giblet", "suet", "tallow", "bone marrow",
-                      "gelatin", "gelatine", "marshmallow", "jello", "jell-o"] + PORK_KEYWORDS
-MEAT_KEYWORDS     = LAND_MEAT_KEYWORDS + FISH_KEYWORDS + SHELLFISH_KEYWORDS
+                      "gelatin", "gelatine", "marshmallow", "jello", "jell-o", "schmaltz", "poultry",
+                      "kidney", "tripe", "oxtail", "sweetbread", "horse", "boar", "moose", "kangaroo",
+                      "squab", "partridge", "guinea fowl", "poussin", "capon", "foie gras", "mince",
+                      "ground meat", "minced meat"] + PORK_KEYWORDS + _compounds("contains_meat")
 
 # Base flags for the diet profiles in 5.4.7
 BEEF_KEYWORDS     = ["beef", "veal", "steak", "brisket", "sirloin", "chuck", "ground round", "rib eye",
@@ -148,6 +184,26 @@ BEEF_KEYWORDS     = ["beef", "veal", "steak", "brisket", "sirloin", "chuck", "gr
                      "skirt steak", "short rib", "oxtail", "pot roast", "rump roast", "round roast",
                      "eye of round", "pastrami", "corned beef", "bresaola", "jerky", "suet", "tallow",
                      "bone marrow", "hamburger", "cheeseburger", "bulgogi"]
+# Red meat: meat from mammals, pork included (USDA; WHO / IARC also counts offal). Poultry is
+# "white meat"; fish and shellfish are their own groups (contains_fish, contains_shellfish).
+RED_MEAT_KEYWORDS = (BEEF_KEYWORDS + PORK_KEYWORDS
+                     + ["lamb", "mutton", "goat", "venison", "bison", "elk", "rabbit", "horse", "boar",
+                        "moose", "kangaroo", "liver", "kidney", "tripe", "sweetbread", "mince",
+                        "ground meat", "minced meat"])
+POULTRY_KEYWORDS  = ["chicken", "turkey", "duck", "goose", "quail", "pheasant", "cornish hen", "game hen",
+                     "poussin", "guinea fowl", "squab", "partridge", "capon", "poultry", "fryer",
+                     "foie gras", "schmaltz"]
+# Processed meat (WHO / IARC): cured, salted, smoked or fermented meat, poultry included
+PROCESSED_MEAT_KEYWORDS = ["bacon", "ham", "prosciutto", "pancetta", "guanciale", "lardon", "salami",
+                           "pepperoni", "sausage", "chorizo", "kielbasa", "andouille", "bratwurst",
+                           "mortadella", "capicola", "hot dog", "frankfurter", "wiener", "bologna",
+                           "corned beef", "pastrami", "jerky", "bresaola", "biltong", "spam",
+                           "luncheon meat", "lunch meat", "deli meat", "cold cut", "jamon", "jamón",
+                           "speck", "merguez", "boerewors"]
+# Every kind of land meat counts for contains_meat and rules out "vegetarian"
+LAND_MEAT_KEYWORDS = list(dict.fromkeys(LAND_MEAT_KEYWORDS + BEEF_KEYWORDS + RED_MEAT_KEYWORDS
+                                        + POULTRY_KEYWORDS + PROCESSED_MEAT_KEYWORDS))
+MEAT_KEYWORDS     = LAND_MEAT_KEYWORDS + FISH_KEYWORDS + SHELLFISH_KEYWORDS
 GELATIN_KEYWORDS  = ["gelatin", "gelatine", "jello", "jell-o", "marshmallow", "gummy", "gummies", "aspic"]
 HONEY_KEYWORDS    = ["honey"]
 # Jain diets avoid vegetables that grow underground (onion and garlic are in the allium list)
@@ -163,25 +219,30 @@ ANIMAL_KEYWORDS   = MEAT_KEYWORDS + DAIRY_KEYWORDS + EGG_KEYWORDS + ["honey"]
 # (removed from the text before keywords are matched, longest first)
 PORK_EXCEPTIONS     = ["hot dog bun", "hot dog roll", "vegetarian sausage", "veggie sausage",
                        "vegan sausage", "vegetarian bacon", "turkey bacon", "turkey ham",
-                       "turkey kielbasa", "turkey sausage", "chicken sausage"]
-ALCOHOL_EXCEPTIONS  = ["wine vinegar", "sherry vinegar", "ginger ale", "ginger beer", "root beer",
+                       "turkey kielbasa", "turkey sausage", "chicken sausage", "merguez sausage",
+                       "merguez", "lamb sausage", "beef sausage", "vegan bacon"]
+ALCOHOL_EXCEPTIONS  = ["sherry wine vinegar", "wine vinegar", "sherry vinegar", "ginger ale", "ginger beer", "root beer",
                        "non-alcoholic", "alcohol-free", "alcohol free"]
 # "gluten-free bread", "gluten free pasta", ...: the food after "gluten-free" is safe
 GLUTEN_FREE_FOODS   = ["bread", "flour", "pasta", "noodle", "noodles", "spaghetti", "penne",
                        "macaroni", "cracker", "crackers", "breadcrumb", "breadcrumbs", "soy sauce",
                        "beer", "cookie", "cookies", "dough", "pizza crust", "pie crust", "baking mix",
                        "bisquick", "muffin", "muffins", "bun", "buns", "tortilla", "tortillas",
-                       "oats", "teriyaki", "hoisin", "stuffing", "pretzel", "pretzels"]
+                       "oats", "rolled oats", "oat", "oatmeal", "oat flour", "teriyaki", "hoisin",
+                       "stuffing", "pretzel", "pretzels"]
 GLUTEN_EXCEPTIONS   = (["rice flour", "almond flour", "coconut flour", "corn flour", "chickpea flour",
                         "tapioca flour", "potato flour", "cassava flour", "sorghum flour",
-                        "arrowroot flour", "teff flour", "millet flour", "quinoa flour", "oat flour",
+                        "arrowroot flour", "teff flour", "millet flour", "quinoa flour",
                         "banana flour", "rice noodle", "rice vermicelli", "rice stick", "rice paper",
                         "glass noodle", "cellophane noodle", "bean thread", "shirataki",
                         "kelp noodle", "zucchini noodle", "sweet potato noodle", "konjac",
                         "spaghetti squash", "cauliflower crust", "corn tortilla", "ginger ale",
                         "rice pasta", "corn pasta", "chickpea pasta", "lentil pasta", "rice cracker",
                         "pasta sauce", "spaghetti sauce", "rice stuffing",
-                        "ginger beer", "root beer", "gluten-free", "gluten free"]
+                        "ginger beer", "root beer", "gluten-free", "gluten free",
+                        # "roll" that is not bread
+                        "sushi roll", "california roll", "rice paper roll", "summer roll", "cabbage roll",
+                        "lettuce roll", "fruit roll", "rice roll"]
                        + [f"gluten{sep}free {food}" for sep in ("-", " ") for food in GLUTEN_FREE_FOODS])
 DAIRY_EXCEPTIONS    = ["coconut milk", "almond milk", "soy milk", "oat milk", "rice milk",
                        "cashew milk", "coconut cream", "cream of tartar", "peanut butter",
@@ -193,20 +254,44 @@ DAIRY_EXCEPTIONS    = ["coconut milk", "almond milk", "soy milk", "oat milk", "r
                        "non-dairy", "nondairy", "dairy-free", "dairy free"]
 EGG_EXCEPTIONS      = ["eggless", "egg-free", "egg free", "egg replacer", "vegan mayo",
                        "vegan mayonnaise", "flax egg", "chia egg"]
-PEANUT_EXCEPTIONS   = ["peanut-free", "peanut free"]
+PEANUT_EXCEPTIONS   = ["peanut-free", "peanut free", "nut-free", "nut free", "pine nut", "brazil nut",
+                       "tiger nut", "macadamia nut", "cashew nut", "pistachio nut", "pecan nut", "hazel nut",
+                       "kola nut", "betel nut", "candle nut", "candlenut"]
 TREE_NUT_EXCEPTIONS = ["nut-free", "nut free", "tiger nut", "ground nut"]
-SHELLFISH_EXCEPTIONS = ["oyster mushroom"]
-MEAT_EXCEPTIONS     = ["oyster mushroom", "duck sauce", "lamb's lettuce", "vegetarian sausage",
+# Oyster mushrooms, often listed as "wild mushrooms (such as oyster, shiitake ...)"
+OYSTER_MUSHROOM_PHRASES = ["oyster mushroom", "king oyster", "such as oyster", "oyster, shiitake",
+                           "oyster, crimini", "oyster and shiitake", "shiitake and oyster",
+                           "oyster or shiitake", "shiitake or oyster"]
+NOT_SEAFOOD_PHRASES = ["seafood seasoning", "seafood boil seasoning", "seafood sauce"]
+FISH_EXCEPTIONS     = ["mock caviar", "texas caviar", "cowboy caviar", "southwestern caviar",
+                       "eggplant caviar", "poor man's caviar", "vegetarian caviar"] + NOT_SEAFOOD_PHRASES
+SHELLFISH_EXCEPTIONS = OYSTER_MUSHROOM_PHRASES + NOT_SEAFOOD_PHRASES
+# Used for "vegetarian" (all meat, fish and shellfish keywords)
+MEAT_EXCEPTIONS     = OYSTER_MUSHROOM_PHRASES + FISH_EXCEPTIONS + [
+                       "duck sauce", "lamb's lettuce", "vegetarian sausage",
                        "veggie sausage", "vegan sausage", "meatless", "meat substitute",
                        "steak sauce", "steak seasoning", "cauliflower steak",
                        "hot dog bun", "hot dog roll", "goat cheese", "goats cheese",
                        "goat's cheese", "goat milk", "goat's milk", "vegan marshmallow",
-                       "vegetarian marshmallow"]
+                       "vegetarian marshmallow", "portobello steak", "portabella steak",
+                       "portobella steak", "mushroom steak", "kidney bean", "horseradish", "chicken-fried",
+                       "chicken fried", "poultry seasoning", "air fryer", "air-fryer", "deep fryer",
+                       "horse gram"]
+# Used for contains_meat (land meat only): a fish steak is not meat
+LAND_MEAT_EXCEPTIONS = MEAT_EXCEPTIONS + ["tuna steak", "salmon steak", "fish steak", "swordfish steak",
+                                          "halibut steak", "cod steak"]
 ANIMAL_EXCEPTIONS   = MEAT_EXCEPTIONS + DAIRY_EXCEPTIONS + EGG_EXCEPTIONS
 BEEF_EXCEPTIONS     = ["tuna steak", "salmon steak", "fish steak", "swordfish steak", "cauliflower steak",
                        "steak sauce", "steak seasoning", "beefsteak tomato", "beef tomato",
                        "hamburger bun", "hamburger roll", "hamburger helper", "turkey jerky",
-                       "mushroom jerky", "veggie burger"]
+                       "mushroom jerky", "veggie burger", "portobello steak", "portabella steak",
+                       "portobella steak", "mushroom steak", "halibut steak", "cod steak"]
+RED_MEAT_EXCEPTIONS = LAND_MEAT_EXCEPTIONS + BEEF_EXCEPTIONS + PORK_EXCEPTIONS + [
+                       "chicken liver", "duck liver", "goose liver", "turkey bacon", "turkey ham",
+                       "turkey sausage", "chicken sausage", "turkey jerky"]
+POULTRY_EXCEPTIONS  = LAND_MEAT_EXCEPTIONS
+PROCESSED_MEAT_EXCEPTIONS = ["vegetarian sausage", "veggie sausage", "vegan sausage", "vegetarian bacon",
+                             "vegan bacon", "hot dog bun", "hot dog roll", "meatless"]
 GELATIN_EXCEPTIONS  = ["agar", "vegan gelatin", "vegan marshmallow", "vegetarian marshmallow", "vegan gummy"]
 HONEY_EXCEPTIONS    = ["honey crisp", "honeycrisp"]
 ROOT_VEGETABLE_EXCEPTIONS = ["ground ginger", "dried ginger", "ginger powder", "ginger ale", "ginger beer"]
@@ -221,13 +306,16 @@ FLAG_RULES = {
     "contains_egg"      : (EGG_KEYWORDS, EGG_EXCEPTIONS),
     "contains_peanut"   : (PEANUT_KEYWORDS, PEANUT_EXCEPTIONS),
     "contains_tree_nut" : (TREE_NUT_KEYWORDS, TREE_NUT_EXCEPTIONS),
-    "contains_fish"     : (FISH_KEYWORDS, ()),
+    "contains_fish"     : (FISH_KEYWORDS, FISH_EXCEPTIONS),
     "contains_shellfish": (SHELLFISH_KEYWORDS, SHELLFISH_EXCEPTIONS),
     "contains_soy"      : (SOY_KEYWORDS, ()),
     "contains_sesame"   : (SESAME_KEYWORDS, ()),
     # Base flags used by the diet profiles (5.4.7)
-    "contains_meat"     : (LAND_MEAT_KEYWORDS, MEAT_EXCEPTIONS),   # meat or poultry, not fish
+    "contains_meat"     : (LAND_MEAT_KEYWORDS, LAND_MEAT_EXCEPTIONS),   # meat or poultry, not fish
     "contains_beef"     : (BEEF_KEYWORDS, BEEF_EXCEPTIONS),
+    "contains_red_meat" : (RED_MEAT_KEYWORDS, RED_MEAT_EXCEPTIONS),     # mammals, pork included
+    "contains_poultry"  : (POULTRY_KEYWORDS, POULTRY_EXCEPTIONS),       # "white meat"
+    "contains_processed_meat": (PROCESSED_MEAT_KEYWORDS, PROCESSED_MEAT_EXCEPTIONS),
     "contains_gelatin"  : (GELATIN_KEYWORDS, GELATIN_EXCEPTIONS),
     "contains_honey"    : (HONEY_KEYWORDS, HONEY_EXCEPTIONS),
     "contains_root_vegetable": (ROOT_VEGETABLE_KEYWORDS, ROOT_VEGETABLE_EXCEPTIONS),
@@ -327,6 +415,35 @@ def keyword_flag(text: str, column: str) -> bool:
         return not make_flag(text, ANIMAL_KEYWORDS, ANIMAL_EXCEPTIONS)
     keywords, exceptions = FLAG_RULES[column]
     return make_flag(text, keywords, exceptions)
+
+
+def explain_flag(text: object, column: str) -> list[str]:
+    """Return the keywords that set a flag, so a reviewer can see why it fired.
+
+    Args:
+        text: Lowercase ingredients and name, as for keyword_flag.
+        column: Any of FLAG_COLUMNS. For "vegetarian" and "vegan" the keywords
+            returned are the ones that rule the diet out.
+
+    Returns:
+        The matched keywords (as written in the text), each once; [] if none.
+        Hugging Face recipes can also get a flag from the dataset's own labels
+        (HF_FREE_LABELS), which this function does not see.
+    """
+    if not isinstance(text, str):
+        return []
+    keywords: Sequence[str]
+    exceptions: Sequence[str]
+    if column == "vegetarian":
+        keywords, exceptions = MEAT_KEYWORDS, MEAT_EXCEPTIONS
+    elif column == "vegan":
+        keywords, exceptions = ANIMAL_KEYWORDS, ANIMAL_EXCEPTIONS
+    else:
+        keywords, exceptions = FLAG_RULES[column]
+    text = text.lower()
+    for phrase in sorted(exceptions, key=len, reverse=True):
+        text = text.replace(phrase, " ")
+    return list(dict.fromkeys(m.group(0) for m in _keyword_pattern(tuple(keywords)).finditer(text)))
 
 
 # Flag column -> the "free of" label that rules it out

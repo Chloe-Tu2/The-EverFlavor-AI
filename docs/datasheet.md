@@ -26,7 +26,7 @@ This document follows the "Datasheets for Datasets" format. It describes the rec
 - 13 restriction flags: `contains_pork`, `contains_alcohol`, `contains_gluten`, `contains_dairy`, `contains_egg`, `contains_peanut`, `contains_tree_nut`, `contains_fish`, `contains_shellfish`, `contains_soy`, `contains_sesame`, `vegetarian` and `vegan`
 - quality columns: `has_nutrition`, `nutrition_plausible`, `cuisine_labeled`, `ingredient_group` and `split`
 - origin: `origin_country` (`Unknown` if not known), `origin_region` (only when the source names it), `origin_source` (`labeled`, `predicted` or `unknown`) and `origin_confidence`
-- diet profiles: `halal_friendly`, `kosher_friendly`, `pescatarian`, `no_beef`, `jain_friendly`, `lower_sodium`, `low_carb`, and their base flags `contains_meat`, `contains_beef`, `contains_gelatin`, `contains_honey`, `contains_root_vegetable`, `contains_allium`
+- diet profiles: `halal_friendly`, `kosher_friendly`, `pescatarian`, `no_beef`, `jain_friendly`, `lower_sodium`, `low_carb`, and their base flags `contains_meat`, `contains_beef`, `contains_red_meat`, `contains_poultry`, `contains_processed_meat`, `contains_gelatin`, `contains_honey`, `contains_root_vegetable`, `contains_allium`
 - nutrition provenance: `nutrition_source` (`listed` or `estimated`), `calories_est_min` and `calories_est_max` (likely range of an estimate), `usda_dish` and `usda_dish_kcal` (closest USDA FNDDS dish and its calories per typical serving)
 
 **What's missing:**

@@ -356,6 +356,8 @@ def validate_recipes(df: pd.DataFrame, origin_min_confidence: float) -> dict[str
             df.loc[estimated, "calories_est_min"], df.loc[estimated, "calories_est_max"]).all(),
         "vegan recipes are also vegetarian"           : (~df["vegan"] | df["vegetarian"]).all(),
         "recipes with meat are not vegetarian"        : (~df["contains_meat"] | ~df["vegetarian"]).all(),
+        "red meat and poultry also count as meat"     : (~(df["contains_red_meat"] | df["contains_poultry"])
+                                                         | df["contains_meat"]).all(),
         "every diet column follows its rule (5.4.7)"  : all((df[d] == meets_diet(df, d)).all() for d in DIET_PROFILES),
         "nutrition diets only with listed nutrition"  : (~df[list(NUTRITION_DIETS)].any(axis=1) | df["nutrition_plausible"]).all(),
         "origin_source has only allowed values"       : df["origin_source"].isin(["labeled", "predicted", "unknown"]).all(),

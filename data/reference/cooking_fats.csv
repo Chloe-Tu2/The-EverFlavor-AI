@@ -1,0 +1,32 @@
+fat_id,name,kind,animal_source,allergen,flavor,best_for,smoke_point_c_low,smoke_point_c_high,smoke_point_note,traditional_in,usda_fdc_id,notes
+olive_oil,Olive oil,plant oil,,,"fruity, peppery (extra virgin); mild (refined)","sauteing, roasting, dressings; refined olive oil for frying",190,243,extra virgin 190-207; refined 199-243,"Mediterranean: Spain, Italy, Greece, Turkey, the Levant, North Africa",171413,
+canola_oil,Canola / rapeseed oil,plant oil,,,neutral,"deep frying, baking, all-purpose",190,232,unrefined 190-232; refined 204,"Canada and the US (canola); Northern Europe, China and India (rapeseed)",172336,
+vegetable_oil,Vegetable oil (blend),plant oil blend,,may be soy,neutral,"deep frying, baking, all-purpose",220,220,refined blend,"US and worldwide",171411,"In the US usually soybean oil or a soybean / canola / corn blend; check the label"
+soybean_oil,Soybean oil,plant oil,,soy,neutral,"deep frying, all-purpose",234,234,,"US, China, Brazil, Argentina",171411,Highly refined soybean oil is exempt from US allergen labeling (FALCPA)
+corn_oil,Corn oil,plant oil,,,neutral,"deep frying, baking",178,238,unrefined 178; refined 230-238,"US, Mexico",171029,
+sunflower_oil,Sunflower oil,plant oil,,,neutral,"frying, baking, dressings",107,254,cold-pressed 107; refined 227-254,"Ukraine, Russia, Eastern Europe, Argentina",171025,High-oleic sunflower oil is more stable for frying
+peanut_oil,Peanut (groundnut) oil,plant oil,,peanut,"mild, nutty (unrefined); neutral (refined)","deep frying, stir-frying",160,232,unrefined 160; refined 232,"China, West Africa, Southeast Asia, US Southern frying",171410,"Highly refined peanut oil is exempt from US allergen labeling; cold-pressed, expeller-pressed or extruded peanut oil is not. Always warn."
+sesame_oil,Sesame oil,plant oil,,sesame,"nutty, toasty (toasted); mild (light)","flavoring and finishing (toasted); light sesame oil for frying",177,232,unrefined 177; semirefined 232,"China, Korea, Japan, South India (gingelly oil), the Middle East",171016,Toasted sesame oil is mostly used as a seasoning rather than a frying fat
+coconut_oil,Coconut oil,plant oil,,coconut,"coconut (virgin); neutral (refined)","frying, curries, baking",177,204,virgin 177; refined 204,"South India (Kerala), Sri Lanka, Southeast Asia, the Caribbean, the Pacific",171412,FDA no longer lists coconut as a tree nut (2025 guidance); some people are still allergic to it
+palm_oil,Palm oil (red palm / dende),plant oil,,,"earthy, savory (red palm); neutral (refined)","stews, frying",235,235,fractionated 235,"West and Central Africa (Nigeria, Ghana, Cameroon), Brazil (Bahia), Southeast Asia",171015,
+mustard_oil,Mustard oil,plant oil,,mustard,"pungent, sharp","frying, pickles, curries",250,250,,"Bengal and Eastern India, Bangladesh, Nepal, Punjab",172337,Mustard is a labeled allergen in the EU and Canada (not one of the US major allergens)
+avocado_oil,Avocado oil,plant oil,,,"mild, buttery","high-heat searing, dressings",200,271,virgin 200; extra virgin 250; refined 271,"Mexico, Chile, New Zealand",173573,
+grapeseed_oil,Grapeseed oil,plant oil,,,neutral,"sauteing, dressings",216,216,,"France, Italy",171028,
+rice_bran_oil,Rice bran oil,plant oil,,,mild,"deep frying, tempura",232,232,refined 232,"Japan, India, Thailand, Vietnam",171013,
+cottonseed_oil,Cottonseed oil,plant oil,,,neutral,"deep frying",220,230,refined 220-230,"US South, Egypt, the Middle East",171024,
+safflower_oil,Safflower oil,plant oil,,,neutral,"frying, dressings",107,266,unrefined 107; refined 266,"US, India",171027,
+almond_oil,Almond oil,plant oil,,tree nut,"mild, nutty","baking, dressings",221,221,,"Mediterranean, Middle East",171031,
+walnut_oil,Walnut oil,plant oil,,tree nut,"nutty, rich","dressings, finishing (not frying)",,,,"France",171030,No value in the smoke point source; usually not heated
+hazelnut_oil,Hazelnut oil,plant oil,,tree nut,"nutty, rich","dressings, baking (not frying)",,,,"France, Italy, Turkey",171427,No value in the smoke point source; usually not heated
+butter,Butter,animal fat,dairy,milk,"creamy, rich","baking, sauces, low-heat sauteing",150,150,whole butter 150,"France and Northern Europe, US baking",173430,Burns at high heat; clarify it (ghee) for frying
+ghee,Ghee / clarified butter,animal fat,dairy,milk,"nutty, caramelized","frying, curries, sweets",250,250,clarified 250,"India, Pakistan, Bangladesh; smen (North Africa); niter kibbeh (Ethiopia, spiced)",173412,"Spiced versions (niter kibbeh) are mapped to ghee. USDA value is for anhydrous butter oil (the same fat as ghee): the SR Legacy ghee entry has no monounsaturated value"
+margarine,Margarine,plant fat,,may contain milk or soy,"buttery, neutral","baking, spreading",,,,"US and Europe",173585,Some margarines contain whey or other milk ingredients; check the label
+shortening,Vegetable shortening,plant fat,possible (some blends contain lard or tallow),may be soy,neutral,"baking (pie crust, biscuits), frying",,,,"US",173584,Usually soybean or palm; some shortenings are lard or tallow blends
+lard,Lard,animal fat,pork,,"rich, savory","frying, tamales, pastry",190,190,,"Mexico, Central Europe, China, US South",171401,
+beef_tallow,Beef tallow / dripping,animal fat,beef,,"beefy, savory","deep frying (chips, fries)",250,250,,"UK (fish and chips), Belgium (frites), Argentina",171400,
+suet,Suet,animal fat,beef,,neutral,"steamed puddings, pastry",,,,"UK and Ireland",170193,
+bacon_fat,Bacon fat / drippings,animal fat,pork,,"smoky, salty","frying, greens, cornbread",,,,"US South and Appalachia",172345,
+chicken_fat,Chicken fat (schmaltz),animal fat,poultry,,"savory, rich","frying, matzo balls, chopped liver",,,,"Ashkenazi Jewish cooking, Central and Eastern Europe",173564,
+duck_goose_fat,Duck or goose fat,animal fat,poultry,,"rich, savory","roast potatoes, confit",,,,"Southwest France (Gascony), Central Europe",173572,USDA value is for goose fat
+cooking_spray,Cooking spray,plant oil,,may be soy,neutral,greasing pans,,,,"US",171430,Usually canola or soybean oil; some contain milk or soy lecithin
+oil_unspecified,Oil (type not stated),unknown,unknown,unknown,unknown,,,,,,,"The recipe says only 'oil' or 'oil for frying': the fat could be peanut, sesame or animal fat, so allergy and diet checks must warn"

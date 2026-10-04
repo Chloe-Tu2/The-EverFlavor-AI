@@ -8,7 +8,7 @@ import re
 import string
 import time
 import zipfile
-from collections.abc import Iterable
+from collections.abc import Iterable, Mapping
 from pathlib import Path
 
 import pandas as pd
@@ -147,18 +147,23 @@ def download_usda(name: str, folder: str | Path, refresh: bool = False) -> Path:
     return download_file(url, target)
 
 
-def usda_table(name: str, folder: str | Path, refresh: bool = False) -> pd.DataFrame:
+def usda_table(name: str, folder: str | Path, refresh: bool = False,
+               nutrients: Mapping[str, str] | None = None) -> pd.DataFrame:
     """Read one USDA bulk download into a table.
 
     Args:
         name: "fndds" (prepared dishes) or "sr_legacy" (single ingredients).
         folder: Where the zip files are kept.
         refresh: Download again even if the zip exists.
+        nutrients: Extra {USDA nutrient name: column} to read besides
+            USDA_NUTRIENTS, for example the fatty acids in cooking.FAT_NUTRIENTS.
 
     Returns:
-        One row per food: 'fdc_id', 'description', the USDA_NUTRIENTS per 100 g
-        and 'serving_g' (FNDDS's typical portion, else missing).
+        One row per food: 'fdc_id', 'description', the USDA_NUTRIENTS (and any
+        extra `nutrients`) per 100 g and 'serving_g' (FNDDS's typical portion,
+        else missing).
     """
+    wanted = {**USDA_NUTRIENTS, **(nutrients or {})}
     _, key = USDA_DOWNLOADS[name]
     with zipfile.ZipFile(download_usda(name, folder, refresh)) as archive:
         json_name = next(n for n in archive.namelist() if n.endswith(".json"))
@@ -168,7 +173,7 @@ def usda_table(name: str, folder: str | Path, refresh: bool = False) -> pd.DataF
         row = {"fdc_id": food["fdcId"], "description": food["description"]}
         for item in food.get("foodNutrients", []):
             nutrient = item.get("nutrient", {})
-            column = USDA_NUTRIENTS.get(nutrient.get("name"))
+            column = wanted.get(nutrient.get("name"))
             # Energy is listed in both kcal and kJ: keep kcal only
             if column and (column != "kcal_100g" or str(nutrient.get("unitName", "")).lower() == "kcal"):
                 row[column] = item.get("amount")
