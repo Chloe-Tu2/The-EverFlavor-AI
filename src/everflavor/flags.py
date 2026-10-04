@@ -11,6 +11,7 @@ import pandas as pd
 from .checks import require_columns
 from .ingredients import ingredient_text
 from .parsing import parse_label_list
+from .progress import MIN_ROWS, progress_bar
 
 __all__ = [
     "ALCOHOL_EXCEPTIONS",
@@ -689,7 +690,8 @@ def add_keyword_flags(df: pd.DataFrame, ingredient_col: str, name_col: str | Non
         # "Gluten-free bread" or "flourless cookies": the name describes the kind of dish,
         # not a wheat ingredient, so only the ingredients count for gluten
         gluten_text = text.where(~names.str.contains(GLUTEN_FREE_NAME), gluten_text)
-    for col, (keywords, exceptions) in FLAG_RULES.items():
+    rules = progress_bar(FLAG_RULES.items(), "Restriction flags", show=len(df) >= MIN_ROWS)
+    for col, (keywords, exceptions) in rules:
         source_text = gluten_text if col == "contains_gluten" else text
         df[col] = source_text.apply(lambda x, kw=keywords, ex=exceptions: make_flag(x, kw, ex))
     df["vegetarian"] = ~text.apply(lambda x: make_flag(x, MEAT_KEYWORDS, MEAT_EXCEPTIONS))
@@ -820,5 +822,6 @@ def foodcom_tag_agreement(df: pd.DataFrame) -> pd.DataFrame:
 def print_flag_counts(df: pd.DataFrame, title: str) -> None:
     """Print how many recipes have each flag, and what share of all recipes that is."""
     print(f"Restriction flag counts ({title}):")
+    width = max(len(flag) for flag in FLAG_COLUMNS)
     for flag in FLAG_COLUMNS:
-        print(f"  {flag:20s}: {df[flag].sum():>8,} ({df[flag].mean() * 100:.1f}%)")
+        print(f"  {flag:{width}s}: {df[flag].sum():>8,} ({df[flag].mean() * 100:.1f}%)")

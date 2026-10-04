@@ -14,6 +14,8 @@ from pathlib import Path
 import pandas as pd
 import requests
 
+from .progress import progress_bar
+
 # ------------------------------------------------------------------ files
 
 __all__ = [
@@ -91,7 +93,7 @@ def usda_search(query: str, api_key: str, page_size: int = 5, data_type: str = "
 
     Raises:
         RuntimeError: If the API answers with an error status (for example 403
-            for an invalid key).
+            for an invalid key) or cannot be reached.
     """
     params: dict[str, str | int] = {
         "api_key": api_key,  # passed in, never written in the code
@@ -99,7 +101,12 @@ def usda_search(query: str, api_key: str, page_size: int = 5, data_type: str = "
         "pageSize": page_size,
         "dataType": data_type,
     }
-    response = requests.get(USDA_BASE_URL, params=params, timeout=15)
+    try:
+        response = requests.get(USDA_BASE_URL, params=params, timeout=15)
+    except requests.RequestException as e:
+        # A connection error's message contains the full request URL, key included:
+        # report only its type, and `from None` keeps the original out of the traceback
+        raise RuntimeError(f"USDA API could not be reached ({type(e).__name__})") from None
     if not response.ok:
         # Do not use raise_for_status() here: its message contains the
         # full request URL, which would print the API key in the output.
@@ -365,14 +372,16 @@ def _get_json(url: str, params: dict | None = None, retries: int = 3, backoff: f
     """GET a URL and return its JSON, retrying temporary errors with a growing wait.
 
     Raises:
-        RuntimeError: For an error status, without showing the URL (it may contain a key).
+        RuntimeError: For an error status or a failed connection, without showing
+            the URL (it may contain a key).
     """
     for attempt in range(1, retries + 1):
         try:
             response = requests.get(url, params=params, timeout=20)
-        except (requests.ConnectionError, requests.Timeout):
+        except (requests.ConnectionError, requests.Timeout) as e:
             if attempt == retries:
-                raise
+                # The original message contains the URL: report only the error type
+                raise RuntimeError(f"TheMealDB could not be reached ({type(e).__name__})") from None
             time.sleep(backoff * attempt)
             continue
         if response.status_code in RETRY_STATUS and attempt < retries:
@@ -417,7 +426,7 @@ def download_themealdb(search_url: str) -> pd.DataFrame:
         One row per recipe (repeats removed); failed searches are reported and skipped.
     """
     meals = {}
-    for first_char in string.ascii_lowercase + string.digits:
+    for first_char in progress_bar(string.ascii_lowercase + string.digits, "Searching TheMealDB"):
         try:
             data = _get_json(search_url, params={"f": first_char})
         except (requests.RequestException, RuntimeError, ValueError) as e:

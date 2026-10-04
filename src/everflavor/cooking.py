@@ -19,6 +19,7 @@ import pandas as pd
 from .checks import require_columns
 from .flags import make_flag
 from .parsing import parse_list_string
+from .progress import MIN_ROWS, progress_bar
 
 __all__ = [
     "ALCOHOL_ADDED_AT_END",
@@ -252,7 +253,10 @@ def add_cooking_labels(df: pd.DataFrame, foodcom_tags: Mapping[str, object] | No
     """
     require_columns(df, ["recipe_id", "recipe_name", "ingredient_list", "instructions"], "add_cooking_labels")
     df = df.copy()
-    df["methods_instructions"] = df["instructions"].apply(methods_from_instructions)
+    # Reading every recipe's steps is the slow part (about a minute for 290,000 recipes)
+    steps = progress_bar(df["instructions"], "Cooking methods from the steps", show=len(df) >= MIN_ROWS)
+    df["methods_instructions"] = pd.Series([methods_from_instructions(t) for t in steps], index=df.index,
+                                           dtype=object)
     df["has_instructions"] = df["methods_instructions"].str.len() > 0
     tags = df["recipe_id"].map(foodcom_tags or {})
     df["has_tags"] = tags.notna()
@@ -413,7 +417,9 @@ def top_fats_by_group(df: pd.DataFrame, group_col: str, top: int = 3, min_recipe
         shares = named.explode().value_counts() / len(named)
         rows.append({group_col: group, "recipes_with_fat": len(named),
                      "top_fats": " | ".join(f"{f} {s:.0%}" for f, s in shares.head(top).items())})
-    return pd.DataFrame(rows).sort_values("recipes_with_fat", ascending=False).reset_index(drop=True)
+    # Name the columns, so a result with no group (all too small) is an empty table, not an error
+    table = pd.DataFrame(rows, columns=[group_col, "recipes_with_fat", "top_fats"])
+    return table.sort_values("recipes_with_fat", ascending=False).reset_index(drop=True)
 
 
 # ------------------------------------------------------------------ reference table
@@ -450,4 +456,6 @@ def fat_reference(reference: pd.DataFrame, usda: pd.DataFrame | None = None) -> 
                  .rename(columns={"fdc_id": "usda_fdc_id", "description": "usda_description"}))
     out["usda_fdc_id"] = pd.to_numeric(out["usda_fdc_id"], errors="coerce").astype("Int64")
     usda_part["usda_fdc_id"] = usda_part["usda_fdc_id"].astype("Int64")
+    # One USDA row per food, so a food listed twice cannot repeat a fat in the table
+    usda_part = usda_part.drop_duplicates("usda_fdc_id")
     return out.merge(usda_part, on="usda_fdc_id", how="left")

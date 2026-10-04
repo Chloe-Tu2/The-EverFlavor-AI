@@ -14,6 +14,7 @@ from scipy import sparse
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from .ingredients import singular
+from .progress import MIN_ROWS, progress_bar
 
 __all__ = [
     "CANDIDATES",
@@ -123,16 +124,16 @@ def nutrition_checks(df: pd.DataFrame) -> pd.DataFrame:
 
 # ------------------------------------------------------------------ USDA matching (5.8.2)
 def _words(text: object) -> list[str]:
-    """Return the lowercase _words of a text, each in singular form."""
+    """Return the lowercase words of a text, each in singular form."""
     return [singular(w) for w in re.findall(r"[a-z]+", str(text).lower())]
 
 
 def _norm_text(text: object) -> str:
-    """Return a text as lowercase singular _words joined by spaces, for matching."""
+    """Return a text as lowercase singular words joined by spaces, for matching."""
     return " ".join(_words(text))
 
 
-# Title _words that say nothing about the dish itself
+# Title words that say nothing about the dish itself
 TITLE_FILLER = {"and", "with", "the", "for", "easy", "best", "homemade", "style", "recipe", "quick",
                 "simple", "mom", "grandma", "old", "fashioned", "classic", "ii", "iii", "oamc"}
 
@@ -181,7 +182,7 @@ def match_dishes(titles: Sequence[str], dishes: pd.DataFrame) -> tuple[np.ndarra
 
     scores = np.zeros((len(titles), DISH_TOP_K))
     positions = np.zeros((len(titles), DISH_TOP_K), dtype=int)
-    for row, title in enumerate(titles):
+    for row, title in enumerate(progress_bar(titles, "Matching USDA dishes", show=len(titles) >= MIN_ROWS)):
         candidates, text_score = _top_candidates(similarity, row)
         if len(candidates) == 0:
             continue
@@ -289,7 +290,7 @@ def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tu
     row_of = {d: i for i, d in enumerate(foods["description"])}
 
     matches = {}
-    for row, name in enumerate(names):
+    for row, name in enumerate(progress_bar(names, "Matching USDA ingredients", show=len(names) >= MIN_ROWS)):
         if name in INGREDIENT_USDA:
             matches[name] = (row_of[INGREDIENT_USDA[name]], "hand-checked")
             continue

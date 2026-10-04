@@ -25,6 +25,7 @@ A push goes ahead only when the commands themselves report success, not when the
 
 - API keys live only in Colab Secrets or `config/.env`, which git ignores. Never in a notebook, a commit, a chat message or a log.
 - Code never prints a key. The security tests fail if a key from `config/.env` appears in any tracked file, notebook outputs included.
+- A request that carries a key reports only the error type and status code. `raise_for_status()` and connection errors put the full URL (key included) in their message, so catch them and raise a short error `from None` (see `sources.usda_search`). Where an API allows it, send the key in a header instead of the URL.
 - Notebook outputs must not show local paths (`C:\Users\<name>`); remove them before committing.
 
 ## 4. Safety rules for flags and diets

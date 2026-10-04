@@ -20,6 +20,7 @@ from .flags import (
 from .ingredients import (
     clean_ingredients,
     hf_ingredient_foods,
+    ingredient_text,
     normalize_ingredient_list,
 )
 from .nutrition import add_foodcom_macros, add_hf_macros, nutrition_checks
@@ -31,16 +32,19 @@ __all__ = [
     "BOOL_COLUMNS",
     "COMMON_COLUMNS",
     "EXTRA_COLUMNS",
+    "FOR_PEOPLE_NAME",
     "MAX_KCAL_PER_SERVING",
     "MAX_MINUTES",
     "MAX_SERVINGS",
     "ORIGIN_LABEL_COLUMN",
     "PET_FOOD_NAME",
+    "POISONOUS_TO_PETS",
     "RAW_COLUMNS",
     "SOURCE_PRIORITY",
     "clean_foodcom",
     "clean_huggingface",
     "combine_sources",
+    "made_for_pets",
     "remove_excluded_recipes",
     "run_pipeline",
     "split_by_ingredient_group",
@@ -259,13 +263,36 @@ def combine_sources(frames: Sequence[pd.DataFrame]) -> tuple[pd.DataFrame, pd.Se
 PET_FOOD_NAME = (r"\b(?:for (?:dogs|cats|your dog|your cat|pets|puppies)|dog (?:treats?|biscuits?|food|cookies?)"
                  r"|dogg(?:y|ie) (?:treats?|biscuits?|nibblets)|puppy treats?|cat (?:treats?|food)|kitty treats?"
                  r"|pet treats?)\b")
+# Chocolate and alcohol are poisonous to dogs and cats, so a "Dog Food" recipe with them is a
+# joke name for people food (a chocolate cereal snack, a beer cocktail); so is "Human Cat Food"
+POISONOUS_TO_PETS = r"\b(?:chocolate|cocoa|cacao)\b"
+FOR_PEOPLE_NAME = r"\b(?:human|humans|people)\b"
+
+
+def made_for_pets(df: pd.DataFrame) -> pd.Series:
+    """True for recipes made for animals, not people (policy P25).
+
+    The name must say so (PET_FOOD_NAME), and the recipe must not be a joke name for
+    people food: no chocolate or alcohol (POISONOUS_TO_PETS, contains_alcohol) and no
+    "human" in the name (FOR_PEOPLE_NAME).
+
+    Raises:
+        ValueError: If 'recipe_name', 'ingredient_list' or 'contains_alcohol' is missing.
+    """
+    require_columns(df, ["recipe_name", "ingredient_list", "contains_alcohol"], "made_for_pets")
+    names = df["recipe_name"].fillna("").astype(str).str.lower()
+    ingredients = df["ingredient_list"].apply(ingredient_text)
+    for_people = (names.str.contains(FOR_PEOPLE_NAME, regex=True)
+                  | ingredients.str.contains(POISONOUS_TO_PETS, regex=True)
+                  | df["contains_alcohol"].astype(bool))
+    return names.str.contains(PET_FOOD_NAME, regex=True) & ~for_people
 
 
 def remove_excluded_recipes(df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, int]]:
     """Remove recipes the project never serves (policy P24, P25).
 
     - Recipes with meat from household pets (dogs, cats, guinea pigs): contains_pet_meat.
-    - Recipes made for animals, not people (PET_FOOD_NAME in the name).
+    - Recipes made for animals, not people (`made_for_pets`).
 
     Args:
         df: The combined recipe table with the flag columns.
@@ -274,11 +301,11 @@ def remove_excluded_recipes(df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, i
         (the remaining recipes with a fresh index, {reason: recipes removed}).
 
     Raises:
-        ValueError: If 'recipe_name' or 'contains_pet_meat' is missing.
+        ValueError: If a needed column is missing.
     """
-    require_columns(df, ["recipe_name", "contains_pet_meat"], "remove_excluded_recipes")
+    require_columns(df, ["contains_pet_meat"], "remove_excluded_recipes")
     pet_meat = df["contains_pet_meat"].astype(bool)
-    pet_food = df["recipe_name"].fillna("").astype(str).str.lower().str.contains(PET_FOOD_NAME, regex=True)
+    pet_food = made_for_pets(df)
     removed = {"meat from household pets": int(pet_meat.sum()), "made for pets, not people": int((pet_food & ~pet_meat).sum())}
     return df[~(pet_meat | pet_food)].reset_index(drop=True), removed
 
@@ -392,9 +419,7 @@ def validate_recipes(df: pd.DataFrame, origin_min_confidence: float) -> dict[str
                                                              | df["contains_shellfish"]).all(),
         "scaleless fish also count as fish"           : (~df["contains_scaleless_fish"] | df["contains_fish"]).all(),
         "unclean meat also counts as meat"            : (~df["contains_unclean_meat"] | df["contains_meat"]).all(),
-        "no pet meat and no recipes made for pets"    : (~df["contains_pet_meat"].astype(bool)).all()
-                                                         and not df["recipe_name"].fillna("").astype(str).str.lower()
-                                                         .str.contains(PET_FOOD_NAME, regex=True).any(),
+        "no pet meat and no recipes made for pets"    : not (df["contains_pet_meat"].astype(bool) | made_for_pets(df)).any(),
         "every diet column follows its rule (5.4.7)"  : all((df[d] == meets_diet(df, d)).all() for d in DIET_PROFILES),
         "nutrition diets only with listed nutrition"  : (~df[list(NUTRITION_DIETS)].any(axis=1) | df["nutrition_plausible"]).all(),
         "origin_source has only allowed values"       : df["origin_source"].isin(["labeled", "predicted", "unknown"]).all(),

@@ -1,6 +1,7 @@
 recipe_id,recipe_name,ingredients,flag,answer,pipeline_flag,why_flagged,team_check
 hf_38120,Crawford Polish Bake,potato | butter | cream | ground nutmeg | salt | black pepper | sauerkraut | turkey kielbasa sausage,contains_pork,0,1,keyword: sausage,
 hf_511,Fish and Chips,cod | flour | salt | pepper | baking powder | milk | olive oil | water | club soda,contains_alcohol,0,1,"no keyword in the cleaned ingredients (raw ingredient text, or a Hugging Face label)",
+hf_24933,"2012 Collines du Bourdic-Chardonnay, Languedoc-Roussillon, France, Pays D",tuna | orange | balsamic vinegar | olive oil | fleur de sel | peppercorn,contains_alcohol,0,1,keyword: chardonnay,
 culinarydb_23089,Italian Caesar Salad with Polenta Croutons,anchovy fillet | butter | garlic | lemon juice | romaine lettuce | dijon mustard | olive oil | shaved parmesan | salt | black pepper | pine nut | drained oil-packed sun-dried tomato | vegetable oil | water,contains_gluten,0,1,keyword: croutons,
 hf_12635,Irish Bombay Potatoes (The Best Curried Potatoes in the World),potato | salt | tomato paste | curry paste | curry powder | oil | basil | garlic | white vinegar,contains_gluten,0,1,"no keyword in the cleaned ingredients (raw ingredient text, or a Hugging Face label)",
 hf_25336,Cook the Book: Patatas Bravas,potato | olive oil | white wine vinegar | paprika | garlic | chili powder | salt,contains_gluten,0,1,"no keyword in the cleaned ingredients (raw ingredient text, or a Hugging Face label)",

@@ -10,6 +10,7 @@ import pandas as pd
 
 from .checks import require_columns
 from .flags import COMPOUND_INGREDIENTS, FLAG_RULES, explain_flag, make_flag
+from .progress import progress_bar
 
 __all__ = [
     "ANSWERS",
@@ -74,11 +75,13 @@ def make_review_samples(df_all: pd.DataFrame, rounds: Mapping[int, int], flag_co
         per_source: Recipes per source in each sample.
     """
     Path(folder).mkdir(parents=True, exist_ok=True)
-    already_sampled = set()
+    # Every saved sample counts, also rounds left out of `rounds`, so a new round is always fresh
+    already_sampled: set[str] = set()
+    for saved in sorted(Path(folder).glob("flag_review_sample_round*.csv")):
+        already_sampled |= set(pd.read_csv(saved, usecols=["recipe_id"], dtype=str)["recipe_id"])
     for round_no, seed in rounds.items():
         path = sample_file(round_no, folder)
         if path.exists():
-            already_sampled |= set(pd.read_csv(path, usecols=["recipe_id"], dtype=str)["recipe_id"])
             print(f"Round {round_no} sample already exists: {path}")
             continue
         pool = df_all[~df_all["recipe_id"].isin(already_sampled)]
@@ -276,7 +279,8 @@ def compound_evidence(candidates: pd.DataFrame, search: Callable[[str], list[dic
     if previous is not None and not previous.empty:
         kept = {str(k): v for k, v in previous.fillna("").set_index("ingredient").to_dict("index").items()}
     rows = []
-    for ingredient, recipes in zip(candidates["ingredient"], candidates["recipes"]):
+    pairs = zip(candidates["ingredient"], candidates["recipes"])
+    for ingredient, recipes in progress_bar(pairs, "Checking ready-made ingredients", total=len(candidates)):
         rule_flags = _base_rule_flags(ingredient)
         old = kept.get(ingredient, {})
         shares: Mapping[str, float | str]   # flag -> share, or "lookup_failed" -> the error

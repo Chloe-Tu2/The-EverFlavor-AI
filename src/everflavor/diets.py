@@ -178,7 +178,8 @@ def describe_diet_rules() -> list[str]:
     lines = []
     width = max(len(d) for d in DIET_COLUMNS)
     for diet, rule in DIET_PROFILES.items():
-        parts = [f"no {', '.join(c.replace('contains_', '') for c in rule.get('without', []))}"]
+        without = [c.replace("contains_", "") for c in rule.get("without", [])]
+        parts = [f"no {', '.join(without)}"] if without else []
         parts += [f"must be {c}" for c in rule.get("require", [])]
         parts += [f"not {a.replace('contains_', '')} with {b.replace('contains_', '')}"
                   for a, b in rule.get("not_together", [])]

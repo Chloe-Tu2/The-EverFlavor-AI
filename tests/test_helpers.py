@@ -6,10 +6,13 @@ project folder with `python -m pytest tests`, or without pytest:
 
     python tests/test_helpers.py
 """
+import contextlib
+import io
 import json
 import os
 import sys
 import tempfile
+import types
 import warnings
 from pathlib import Path
 
@@ -20,11 +23,12 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from everflavor import sources
+from everflavor import progress, sources
 from everflavor.charts import SAVE_DPI, label_bars, show_figure
 from everflavor.diets import DIET_COLUMNS, describe_diet_rules
 from everflavor.environment import (
     folder_has,
+    get_secret,
     load_env_file,
     print_download_checks,
     short_path,
@@ -37,8 +41,16 @@ from everflavor.nutrition import (
     ingredient_energy_features,
     nutrition_checks,
 )
+from everflavor.progress import PROGRESS_ENV, progress_bar
 from everflavor.recommend import baseline_recommend
-from everflavor.reporting import print_checklist, saved_rows, to_json
+from everflavor.reporting import (
+    by_source,
+    hf_revision,
+    package_version,
+    print_checklist,
+    saved_rows,
+    to_json,
+)
 from everflavor.sources import (
     cached_off_search,
     extract_off_record,
@@ -90,7 +102,90 @@ def test_download_checks_report_missing_steps_once():
         checks = [("2.4", "file", Path(folder) / "a.parquet"), ("2.5", "empty folder", Path(folder) / "empty"),
                   ("2.5", "missing", Path(folder) / "missing.csv"), ("2.6", "not built", None)]
         assert print_download_checks(checks) == ["2.5", "2.6"]
+        pd.DataFrame({"a": [1, 2, 3]}).to_parquet(Path(folder) / "rows.parquet")
+        (Path(folder) / "empty" / "x.txt").write_text("x")
+        printed = io.StringIO()
+        with contextlib.redirect_stdout(printed):
+            assert print_download_checks([("2.4", "table", Path(folder) / "rows.parquet"),
+                                          ("2.5", "folder", Path(folder) / "empty")], refresh=True) == []
+        text = printed.getvalue()
+        assert "3 rows" in text and "1 files" in text and "Everything is downloaded" in text
+        assert "REFRESH_DOWNLOADS is True" in text
 
+
+class _FakeColab:
+    """Put a fake google.colab (with Colab Secrets) in sys.modules for one test, then remove it."""
+
+    def __init__(self, secrets: dict[str, str]):
+        def get(name: str) -> str:
+            if name not in secrets:
+                raise RuntimeError("SecretNotFoundError")   # Colab raises its own error types
+            return secrets[name]
+        self.modules = {"google": types.ModuleType("google"), "google.colab": types.ModuleType("google.colab"),
+                        "google.colab.userdata": types.ModuleType("google.colab.userdata")}
+        self.modules["google.colab.userdata"].get = get          # type: ignore[attr-defined]
+        self.modules["google.colab"].userdata = self.modules["google.colab.userdata"]   # type: ignore[attr-defined]
+        self.modules["google"].colab = self.modules["google.colab"]   # type: ignore[attr-defined]
+        self.saved: dict[str, types.ModuleType | None] = {}
+
+    def __enter__(self):
+        self.saved = {name: sys.modules.get(name) for name in self.modules}
+        sys.modules.update(self.modules)
+
+    def __exit__(self, *exc):
+        for name, module in self.saved.items():
+            if module is None:
+                sys.modules.pop(name, None)
+            else:
+                sys.modules[name] = module
+
+
+def test_get_secret_reads_colab_secrets_first_then_the_environment():
+    names = ["EVERFLAVOR_TEST_A", "EVERFLAVOR_TEST_B", "EVERFLAVOR_TEST_C"]
+    old = {name: os.environ.pop(name, None) for name in names}
+    try:
+        os.environ["EVERFLAVOR_TEST_A"] = "from-env"
+        os.environ["EVERFLAVOR_TEST_B"] = "from-env"
+        assert get_secret("EVERFLAVOR_TEST_A") == "from-env"          # VS Code / Antigravity
+        assert get_secret("EVERFLAVOR_TEST_C") is None
+        with _FakeColab({"EVERFLAVOR_TEST_A": "from-colab", "EVERFLAVOR_TEST_C": ""}):
+            assert get_secret("EVERFLAVOR_TEST_A") == "from-colab"    # Colab Secrets win
+            assert get_secret("EVERFLAVOR_TEST_B") == "from-env"      # not in Secrets: the environment
+            assert get_secret("EVERFLAVOR_TEST_C") is None            # empty secret counts as missing
+        assert get_secret("EVERFLAVOR_TEST_A") == "from-env"          # the fake Colab is gone again
+    finally:
+        for name, value in old.items():
+            os.environ.pop(name, None)
+            if value is not None:
+                os.environ[name] = value
+
+
+
+def test_progress_bar_shows_progress_without_changing_the_loop():
+    old = os.environ.pop(PROGRESS_ENV, None)
+    try:
+        printed = io.StringIO()
+        with contextlib.redirect_stdout(printed):
+            assert [x * 2 for x in progress_bar(range(5), "Demo")] == [0, 2, 4, 6, 8]
+        assert "Demo" in printed.getvalue() and "5/5" in printed.getvalue()   # stdout, not red stderr
+        os.environ[PROGRESS_ENV] = "0"
+        items = ["a", "b"]
+        assert progress_bar(items, "off") is items                          # turned off: nothing printed
+        # In a notebook (Colab, VS Code, Antigravity), "text" forces the text bar instead of a widget
+        os.environ[PROGRESS_ENV] = "text"
+        real_in_notebook = progress._in_notebook
+        progress._in_notebook = lambda: True
+        try:
+            printed = io.StringIO()
+            with contextlib.redirect_stdout(printed):
+                assert list(progress_bar(items, "Forced text")) == items
+            assert "Forced text" in printed.getvalue() and "2/2" in printed.getvalue()
+        finally:
+            progress._in_notebook = real_in_notebook
+    finally:
+        os.environ.pop(PROGRESS_ENV, None)
+        if old is not None:
+            os.environ[PROGRESS_ENV] = old
 
 # ------------------------------------------------------------------ reporting
 def test_reporting_helpers():
@@ -102,6 +197,19 @@ def test_reporting_helpers():
         done, total = print_checklist([("WEEK 4", "by hand", None), ("WEEK 4", "made", str(proof)),
                                        ("WEEK 5", "not made", str(Path(folder) / "missing.txt"))])
     assert (done, total) == (2, 3)
+    table = by_source(pd.DataFrame({"source": ["foodcom", "foodcom", "huggingface"], "vegan": [True, False, True]}),
+                      "vegan")
+    assert table.loc["total", "total"] == 3 and table.loc["total", True] == 2
+    assert package_version("pandas") == pd.__version__ and package_version("no-such-package-xyz") is None
+    saved = sys.modules.get("huggingface_hub")
+    sys.modules["huggingface_hub"] = None   # type: ignore[assignment]   # import fails, as when it is not installed
+    try:
+        assert hf_revision("datahiveai/recipes-with-nutrition") is None
+    finally:
+        if saved is None:
+            sys.modules.pop("huggingface_hub", None)
+        else:
+            sys.modules["huggingface_hub"] = saved
 
 
 # ------------------------------------------------------------------ charts

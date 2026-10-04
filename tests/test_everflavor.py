@@ -9,6 +9,8 @@ or without installing anything:
 
     python tests/test_everflavor.py
 """
+import contextlib
+import io
 import sys
 from pathlib import Path
 
@@ -24,8 +26,10 @@ from everflavor.cooking import (
     alcohol_left_range,
     fat_reference,
     fats_from_ingredients,
+    method_label_agreement,
     methods_from_instructions,
     methods_from_tags,
+    top_fats_by_group,
 )
 from everflavor.cuisine import map_cuisine, origin_from_labels
 from everflavor.diets import ALLERGEN_SETS, DIET_PROFILES, add_diet_profiles, meets_diet
@@ -33,8 +37,10 @@ from everflavor.flags import (
     FLAG_COLUMNS,
     add_keyword_flags,
     explain_flag,
+    foodcom_tag_agreement,
     keyword_flag,
     make_flag,
+    print_flag_counts,
 )
 from everflavor.ingredients import (
     normalize_ingredient,
@@ -348,11 +354,17 @@ def test_pet_meat_and_pet_food_are_never_served():
     for text in ["hot dog | bun", "firehouse hot dog meat sauce", "chili dog stew", "yuk gaejang | beef",
                  "catfish | cornmeal", "monkey bread | cinnamon"]:
         assert not keyword_flag(text, "contains_pet_meat"), text
-    recipes = pd.DataFrame({"recipe_name": ["Beef Stew", "Peanut Butter Dog Biscuits", "Chicken Casserole for Dogs",
-                                            "Bosintang", "Hot Dog Stew"],
-                            "contains_pet_meat": [False, False, False, True, False]})
+    recipes = pd.DataFrame({
+        "recipe_name": ["Beef Stew", "Peanut Butter Dog Biscuits", "Chicken Casserole for Dogs", "Bosintang",
+                        "Hot Dog Stew", "Dog Food", "Dog Biscuit Cocktail", "Human Cat Food"],
+        "ingredient_list": [["beef"], ["flour", "peanut butter"], ["chicken", "rice"], ["dog meat"],
+                            ["hot dog"], ["chocolate chips", "rice chex"], ["beer", "lemonade"], ["tuna fish"]],
+        "contains_pet_meat": [False, False, False, True, False, False, False, False],
+        "contains_alcohol": [False, False, False, False, False, False, True, False]})
     kept, removed = remove_excluded_recipes(recipes)
-    assert kept["recipe_name"].tolist() == ["Beef Stew", "Hot Dog Stew"]
+    # Joke names for people food stay: chocolate and alcohol are poisonous to pets, "human" says who eats it
+    assert kept["recipe_name"].tolist() == ["Beef Stew", "Hot Dog Stew", "Dog Food", "Dog Biscuit Cocktail",
+                                            "Human Cat Food"]
     assert removed == {"meat from household pets": 1, "made for pets, not people": 2}
     # The safety filter rejects pet meat even when nobody asked to avoid it
     assert not passes_safety_filter(pd.Series({"ingredient_list": ["dog meat"], "recipe_name": "Stew"}))
@@ -417,7 +429,7 @@ def test_compound_evidence_suggests_only_well_supported_allergens():
     assert evidence.loc[1, "products"] == -1 and evidence.loc[1, "suggested_flags"] == ""
     # A saved table is reused: no new search, and the team's decision is kept
     evidence.loc[0, "team_decision"] = "approve"
-    again = compound_evidence(candidates.head(1), lambda q: [], previous=evidence)
+    again = compound_evidence(candidates.head(1), lambda *_: [], previous=evidence)
     assert again.loc[0, "suggested_flags"] == "contains_dairy contains_egg"
     assert again.loc[0, "team_decision"] == "approve"
 
@@ -476,6 +488,33 @@ def test_cooking_fat_reference_file_matches_the_keyword_table():
     assert len(fat_reference(reference)) == len(reference)
 
 
+def test_fat_reference_joins_one_usda_row_per_fat():
+    reference = pd.DataFrame({"fat_id": ["butter", "lard"], "usda_fdc_id": ["173410", None]})
+    usda = pd.DataFrame({"fdc_id": [173410, 173410], "description": ["Butter, salted"] * 2,
+                         "saturated_g_100g": [51.4] * 2, "mono_g_100g": [21.0] * 2, "poly_g_100g": [3.0] * 2})
+    out = fat_reference(reference, usda)
+    assert out["fat_id"].tolist() == ["butter", "lard"]                       # a food listed twice adds no row
+    assert out["saturated_g_100g"].tolist()[0] == 51.4 and pd.isna(out["usda_description"].tolist()[1])
+    expect_error(ValueError, fat_reference, pd.concat([reference, reference]))   # repeated fat_id
+
+
+def test_top_fats_by_group_and_method_agreement():
+    df = pd.DataFrame({"cuisine_family": ["Asian"] * 3 + ["European"],
+                       "cooking_fats": [["sesame_oil"], ["sesame_oil", "peanut_oil"], ["oil_unspecified"], ["butter"]]})
+    out = top_fats_by_group(df, "cuisine_family", min_recipes=2)
+    assert out.to_dict("records") == [{"cuisine_family": "Asian", "recipes_with_fat": 2,
+                                       "top_fats": "sesame_oil 100% | peanut_oil 50%"}]
+    empty = top_fats_by_group(df, "cuisine_family", min_recipes=50)            # no group is big enough
+    assert empty.empty and list(empty.columns) == ["cuisine_family", "recipes_with_fat", "top_fats"]
+    labels = pd.DataFrame({"methods_instructions": [["bake_roast"], ["bake_roast"], [], ["deep_fry"]],
+                           "methods_tags": [["bake_roast"], [], ["bake_roast"], ["deep_fry"]],
+                           "has_instructions": [True, True, True, False], "has_tags": [True, True, True, True]})
+    agreement = method_label_agreement(labels)
+    assert agreement[["tagged", "rule", "both"]].loc[["bake_roast"]].to_numpy().tolist() == [[2, 2, 1]]
+    assert agreement.loc["bake_roast", "rule_finds_tag"] == 0.5
+    assert agreement.loc["deep_fry", "tagged"] == 0 and pd.isna(agreement.loc["deep_fry", "rule_finds_tag"])
+
+
 def test_alcohol_left_after_cooking_is_a_range_that_never_clears_the_flag():
     assert alcohol_left_range([], None, None) == (0.70, 1.0)                    # not heated
     assert alcohol_left_range(["boil_simmer"], "Simmer 2 hours.", 150) == (0.05, 0.85)
@@ -491,6 +530,19 @@ def test_alcohol_left_after_cooking_is_a_range_that_never_clears_the_flag():
     assert left.iloc[1].isna().tolist() == [True, True]                         # no alcohol: no estimate
     assert out["contains_alcohol"].tolist() == [True, False]                       # never cleared
     assert "alcohol_left_min" not in recipes                                        # input unchanged
+
+def test_flag_reports_line_up_and_compare_with_foodcom_tags():
+    df = pd.DataFrame({**{flag: [False, True] for flag in FLAG_COLUMNS},
+                       "tags": ["['vegetarian']", "['vegetarian', 'gluten-free']"]})
+    df["vegetarian"] = [True, False]
+    printed = io.StringIO()
+    with contextlib.redirect_stdout(printed):
+        print_flag_counts(df, "test")
+    lines = printed.getvalue().splitlines()[1:]
+    assert len(lines) == len(FLAG_COLUMNS) and len({line.index(":") for line in lines}) == 1   # one column
+    agreement = foodcom_tag_agreement(df)
+    assert agreement.loc["vegetarian", "recipes"] == 2 and agreement.loc["vegetarian", "agree (%)"] == 50
+    assert agreement.loc["gluten-free", "agree (%)"] == 0 and "vegan" not in agreement.index
 
 if __name__ == "__main__":
     tests = [(name, test) for name, test in sorted(globals().items()) if name.startswith("test_")]

@@ -23,3 +23,9 @@ models/
 # Personal editor and assistant settings - each person keeps their own
 .vscode/
 .claude/settings.local.json
+
+# Test coverage reports (pytest --cov)
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
