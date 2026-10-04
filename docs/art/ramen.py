@@ -15,6 +15,7 @@ import math
 import os
 import random
 import sys
+from itertools import pairwise
 from pathlib import Path
 
 SIZE = 88                      # the picture is SIZE x SIZE pixels
@@ -102,7 +103,7 @@ def draw_line(x0, y0, x1, y1, width, color, inside=None):
 
 
 def draw_curve(points, width, color, inside=None):
-    for (ax, ay), (bx, by) in zip(points, points[1:]):
+    for (ax, ay), (bx, by) in pairwise(points):
         draw_line(ax, ay, bx, by, width, color, inside)
 
 
@@ -271,8 +272,8 @@ def save_svg(path, cell=7):
         return "#{:02x}{:02x}{:02x}".format(*c)
 
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
-        f'viewBox="0 0 {width} {height}" role="img" aria-label="A bowl of ramen drawn with code: {TITLE}">',
+        (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+         f'viewBox="0 0 {width} {height}" role="img" aria-label="A bowl of ramen drawn with code: {TITLE}">'),
         f'<rect width="{width}" height="{height}" rx="12" fill="#1e1e2e"/>',
         f'<path d="M0 12 a12 12 0 0 1 12 -12 h{width - 24} a12 12 0 0 1 12 12 v{bar - 12} h-{width} z" fill="#2a2a3c"/>',
     ]

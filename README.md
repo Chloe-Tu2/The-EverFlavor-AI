@@ -113,11 +113,11 @@ All four are collected in Week 4 of the notebook and combined into one recipe ta
 
 ### Nutrition and product lookups
 
-Small samples are collected in Week 4. Later, the agents will look up ingredients through these APIs.
+Small samples are collected in Week 4. In Week 5, two free USDA bulk downloads (no key needed) fill in missing nutrition: FNDDS, about 5,400 prepared dishes with typical portion sizes, and SR Legacy, about 7,800 single ingredients. Later, the agents will look up ingredients through these APIs.
 
 | Source | What we use it for | Key needed |
 |---|---|---|
-| [USDA FoodData Central](https://fdc.nal.usda.gov/) | Official calorie and nutrient values for single ingredients | Yes: `USDA_API_KEY` (free) |
+| [USDA FoodData Central](https://fdc.nal.usda.gov/) | Official calorie and nutrient values for single ingredients and prepared dishes | API: `USDA_API_KEY` (free); bulk downloads: no |
 | [Open Food Facts](https://world.openfoodfacts.org) | Packaged and specialty products (miso, tahini, ghee): nutrition, allergens, Nutri-Score | No |
 
 ### Planned or optional
@@ -159,7 +159,8 @@ flowchart LR
 | **Recipes after cleaning** | **291,771** from 4 sources, duplicates removed |
 | **By cuisine family** | European 48,151 · Asian 20,788 · Latin American 15,706 · Middle Eastern 3,406 · African 3,179 |
 | **Restriction flags** | Agree with Food.com's own dietary tags 90–98% of the time |
-| **Validation** | 12 automatic checks pass; no near-duplicate leakage between splits |
+| **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 186 kcal, with a likely range) |
+| **Validation** | 15 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
 
 ### Done (Weeks 4–6)
@@ -170,22 +171,24 @@ flowchart LR
   - calories and macronutrients in grams per serving
   - normalized ingredient lists and a complexity score
 - All sources combined into one recipe table and saved as Parquet.
+- Missing nutrition filled in: every recipe without believable listed values gets an estimate, labeled `estimated`, with a likely calorie range and the closest official USDA dish as a reference. A USDA nutrition table for about 40,000 ingredient names is saved for the Nutritionist Agent.
 - Data quality:
   - quantities removed from ingredient names
   - nutrition plausibility checks
   - a train/validation/test split (70/15/15) that keeps near-duplicate recipes together, so there is no leakage
-  - 12 automatic validation checks
+  - 15 automatic validation checks
   - a dataset record of versions and settings (`dataset_info.json`)
 - Exploratory analysis with charts showing what each step changed (`data/processed/figures/`).
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
 
 ### To do by hand
-Fill in `docs/flag_review/flag_review_labeled.csv` (instructions in section 5.10), then re-run that cell to measure how well the restriction flags catch real cases.
+Fill in `docs/flag_review/flag_review_labeled.csv` (instructions in section 5.11), then re-run that cell to measure how well the restriction flags catch real cases.
 
 ### Known data gaps
 - Many recipes still have no cuisine label ("Other"), mostly American recipes and Food.com recipes without a cuisine tag.
-- Food.com macros are converted from percent of daily value, so they are approximate. CulinaryDB and TheMealDB have no nutrition data.
+- Food.com macros are converted from percent of daily value, so they are approximate.
+- CulinaryDB and TheMealDB publish no nutrition, and CulinaryDB lists no amounts or servings, so their calories are estimates (labeled as such). A typical estimate is off by about 100 kcal per serving.
 - Restriction flags come from ingredient keywords (plus Hugging Face health labels), so they are approximate.
 - The baseline classifier confuses African and Middle Eastern recipes (F1 about 0.35 each).
 

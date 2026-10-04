@@ -1,6 +1,6 @@
 # Datasheet: EverFlavor AI Combined Recipe Dataset
 
-This document follows the "Datasheets for Datasets" format. It describes the recipe table built by `notebooks/01_data_acquisition_EverFlavor_V3.ipynb` (sections 2.4 and 5.1–5.10). The notebook also writes the exact versions and counts of each run to `data/processed/dataset_info.json`.
+This document follows the "Datasheets for Datasets" format. It describes the recipe table built by `notebooks/01_data_acquisition_EverFlavor_V3.ipynb` (sections 2.4 and 5.1–5.11). The notebook also writes the exact versions and counts of each run to `data/processed/dataset_info.json`.
 
 ## Motivation
 
@@ -15,7 +15,7 @@ This document follows the "Datasheets for Datasets" format. It describes the rec
 | Sources | Food.com 218,034 · Hugging Face 37,826 · CulinaryDB 35,328 · TheMealDB 583 |
 | Cuisine families | European 48,151 · Asian 20,788 · Latin American 15,706 · Middle Eastern 3,406 · African 3,179 · Other (no cuisine label) 200,541 |
 | Splits | Train 204,112 · Validation 43,885 · Test 43,774 (70/15/15) |
-| Nutrition | 255,860 recipes have calories (Food.com and Hugging Face); 245,463 pass all plausibility checks |
+| Nutrition | 255,860 recipes list calories (Food.com and Hugging Face) and 245,463 of them pass all plausibility checks (`nutrition_source` = `listed`). The other 46,308 are estimated (`estimated`), see Preprocessing. |
 
 **Each recipe has:**
 - `recipe_id`, `source`, `recipe_name`
@@ -25,9 +25,10 @@ This document follows the "Datasheets for Datasets" format. It describes the rec
 - `servings`, `minutes`, `instructions`, `url`
 - 13 restriction flags: `contains_pork`, `contains_alcohol`, `contains_gluten`, `contains_dairy`, `contains_egg`, `contains_peanut`, `contains_tree_nut`, `contains_fish`, `contains_shellfish`, `contains_soy`, `contains_sesame`, `vegetarian` and `vegan`
 - quality columns: `has_nutrition`, `nutrition_plausible`, `cuisine_labeled`, `ingredient_group` and `split`
+- nutrition provenance: `nutrition_source` (`listed` or `estimated`), `calories_est_min` and `calories_est_max` (likely range of an estimate), `usda_dish` and `usda_dish_kcal` (closest USDA FNDDS dish and its calories per typical serving)
 
 **What's missing:**
-- **Nutrition:** CulinaryDB and TheMealDB have no nutrition data.
+- **Listed nutrition:** CulinaryDB and TheMealDB publish none, and CulinaryDB lists no ingredient amounts or servings. Their values, and those of recipes whose listed values failed the plausibility checks, are estimates.
 - **Grams for Food.com:** Food.com gives macros only as percent of daily value; they are converted to grams using the FDA reference values (65 g fat, 300 g carbs, 50 g protein, 2,400 mg sodium). The converted grams match the listed calories within about 2% for a typical recipe.
 - **Instructions:** Hugging Face and CulinaryDB recipes have no instructions.
 
@@ -55,13 +56,14 @@ No website was scraped directly.
 | Ingredients | Quantities, units, preparation words and notes are removed, then synonyms are merged and plurals made singular. |
 | Combining | Recipes with the same title across sources are kept once, in this order of preference: Hugging Face, Food.com, TheMealDB, CulinaryDB. Recipes with fewer than 2 ingredients are dropped. |
 | Nutrition quality | `nutrition_plausible` requires at least 10 kcal, at most 5,000 mg sodium, at most 150 g protein, and macros within 30% of the listed calories. Recipes that fail are marked, not removed. |
+| Missing nutrition (5.8) | Recipes without listed, plausible nutrition get estimates. A ridge model on title and ingredient words, plus a gradient-boosted model that adds USDA evidence (closest FNDDS dishes' calories per typical serving, SR Legacy energy density of the ingredients), trained on the training split only. On validation recipes with real values: average error 186 kcal per serving vs 230 kcal for guessing the median; the 80% likely range (estimate × 0.47 to × 2.11) contains the real value 79% of the time. Protein, fat and carbs are scaled to add up to the estimated calories. |
 | Split | Stratified by cuisine family. Recipes with exactly the same ingredients are kept in the same split, so there is no near-duplicate leakage. |
 | Validation | 12 automatic checks, and the notebook stops if any fails. |
 
 ## Known limitations and biases
 
 - **Uneven cuisine coverage.** 69% of recipes have no cuisine label, and African (1.1%) and Middle Eastern (1.2%) recipes are scarce. Most are American-site recipes, written for a US audience.
-- **Approximate restriction flags.** They agree with Food.com's own dietary tags 90–98% of the time. A blind hand-check sample is in `docs/flag_review/` (see section 5.10).
+- **Approximate restriction flags.** They agree with Food.com's own dietary tags 90–98% of the time. A blind hand-check sample is in `docs/flag_review/` (see section 5.11).
 - **Ingredient names still vary.** About 46,000 unique names remain after normalizing.
 - **Cuisine labels come from recipe authors and sites.** They are not checked for authenticity.
 

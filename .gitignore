@@ -19,3 +19,7 @@ venv/
 
 # Fitted models - recreated by the notebook (section 6.6)
 models/
+
+# Personal editor and assistant settings - each person keeps their own
+.vscode/
+.claude/settings.local.json
