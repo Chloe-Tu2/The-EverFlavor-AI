@@ -1,9 +1,14 @@
 """The preprocessing pipeline (5.3-5.7, 5.10): cleaning, one call per source,
 combining, splitting and the validation rules."""
+from __future__ import annotations
+
+from collections.abc import Sequence
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
+from .checks import require_columns
 from .cuisine import cuisine_names, map_cuisine, origin_from_labels
 from .diets import DIET_COLUMNS, DIET_PROFILES, NUTRITION_DIETS, meets_diet
 from .flags import (
@@ -28,7 +33,8 @@ MAX_SERVINGS = 50
 MAX_MINUTES = 1440   # cook times over 24 hours are data errors
 
 
-def _drop(df, keep, message, verbose):
+def _drop(df: pd.DataFrame, keep: pd.Series, message: str, verbose: bool) -> pd.DataFrame:
+    """Keep the rows where `keep` is True; print how many were dropped if `verbose`."""
     before = len(df)
     df = df[keep]
     if verbose:
@@ -36,16 +42,39 @@ def _drop(df, keep, message, verbose):
     return df
 
 
-def clean_foodcom(df, verbose=False):
-    """Food.com cleaning (5.3.1): missing fields, duplicate names, cook times over 24 hours."""
+def clean_foodcom(df: pd.DataFrame, verbose: bool = False) -> pd.DataFrame:
+    """Clean raw Food.com recipes (5.3.1).
+
+    Drops rows missing a name, ingredients or nutrition, repeated names (the
+    first is kept) and cook times over 24 hours.
+
+    Args:
+        df: Raw Food.com recipes (RAW_recipes.csv).
+        verbose: Print how many rows each step drops.
+
+    Returns:
+        A new dataframe; `df` itself is not changed.
+    """
     df = _drop(df, df[["name", "ingredients", "nutrition"]].notna().all(axis=1),
                "rows with missing name/ingredients/nutrition", verbose)
     df = _drop(df, ~df.duplicated(subset=["name"], keep="first"), "duplicate recipe names", verbose)
-    return _drop(df, df["minutes"] <= MAX_MINUTES, "recipes with cook time > 24 hours", verbose)
+    return _drop(df, df["minutes"] <= MAX_MINUTES, "recipes with cook time > 24 hours", verbose).copy()
 
 
-def clean_huggingface(df, verbose=False):
-    """Hugging Face cleaning (5.3.2): missing fields, duplicates, servings, calories per serving."""
+def clean_huggingface(df: pd.DataFrame, verbose: bool = False) -> pd.DataFrame:
+    """Clean raw Hugging Face recipes (5.3.2) and add calories per serving.
+
+    Drops rows missing a name, calories, cuisine or servings, repeated names,
+    recipes with 0 or more than MAX_SERVINGS servings, and recipes over
+    MAX_KCAL_PER_SERVING kcal per serving ('calories' is for the whole recipe).
+
+    Args:
+        df: Raw Hugging Face recipes.
+        verbose: Print how many rows each step drops.
+
+    Returns:
+        A new dataframe with 'calories_per_serving'; `df` itself is not changed.
+    """
     df = df.copy()
     df["servings"] = pd.to_numeric(df["servings"], errors="coerce")
     df = _drop(df, df[["recipe_name", "calories", "cuisine_type", "servings"]].notna().all(axis=1),
@@ -67,63 +96,89 @@ COMMON_COLUMNS = (["recipe_id", "source", "recipe_name", "cuisine_family", "cuis
                   + FLAG_COLUMNS)
 
 
-def run_pipeline(df_in, source="foodcom"):
-    """Apply the full EverFlavor preprocessing pipeline to a raw dataframe.
+# Raw columns each source needs, and the column holding its own origin labels (5.4.6)
+RAW_COLUMNS = {
+    "foodcom"    : ["id", "name", "ingredients", "nutrition", "minutes", "tags", "steps"],
+    "huggingface": ["recipe_name", "calories", "cuisine_type", "servings", "total_nutrients",
+                    "ingredients", "ingredient_lines", "health_labels"],
+    "culinarydb" : ["recipe_id", "recipe_name", "ingredients", "cuisine"],
+    "themealdb"  : ["recipe_id", "recipe_name", "ingredients", "area", "source_url"],
+}
+ORIGIN_LABEL_COLUMN = {"foodcom": "tags", "huggingface": "cuisine_type", "culinarydb": "cuisine", "themealdb": "area"}
 
-    Uses the same helper functions as the step-by-step cells above,
-    so both paths produce the same features.
+
+def _prepare_foodcom(df: pd.DataFrame) -> pd.DataFrame:
+    """Food.com: clean, nutrition, ingredients, flags, cuisine from tags, IDs and steps."""
+    df = clean_foodcom(df)
+    df = add_foodcom_macros(df)
+    df = df[df["calories_per_serving"] <= MAX_KCAL_PER_SERVING].copy()
+    df["ingredient_list"] = df["ingredients"].apply(clean_ingredients).apply(normalize_ingredient_list)
+    df = add_foodcom_diet_flags(df)
+    df["cuisine_family"] = df["tags"].apply(lambda t: map_cuisine(t, substring_match=False))
+    df["cuisine_raw"]    = df["tags"].apply(cuisine_names)
+    df["recipe_id"]      = "foodcom_" + df["id"].astype(str)
+    df["recipe_name"]    = df["name"].str.replace(r"\s+", " ", regex=True).str.strip()
+    df["instructions"]   = df["steps"].apply(lambda s: "\n".join(map(str, parse_list_string(s))))
+    return df
+
+
+def _prepare_huggingface(df: pd.DataFrame) -> pd.DataFrame:
+    """Hugging Face: IDs, clean, nutrition per serving, ingredients, flags (with labels), cuisine."""
+    df["recipe_id"] = "hf_" + df.index.astype(str)
+    df = clean_huggingface(df)
+    df = add_hf_macros(df)
+    df["ingredient_list"] = df["ingredients"].apply(hf_ingredient_foods).apply(normalize_ingredient_list)
+    df = add_hf_diet_flags(df)
+    df["cuisine_family"] = df["cuisine_type"].apply(map_cuisine)
+    df["cuisine_raw"]    = df["cuisine_type"].apply(lambda x: ", ".join(parse_label_list(x)))
+    return df
+
+
+def _prepare_recipe_list(df: pd.DataFrame, source: str) -> pd.DataFrame:
+    """CulinaryDB and TheMealDB: ingredient lists only, with a region or country label."""
+    cuisine_col = ORIGIN_LABEL_COLUMN[source]
+    df = df.dropna(subset=["recipe_name", "ingredients"])
+    df = df.drop_duplicates(subset=["recipe_name"], keep="first").copy()
+    df["ingredient_list"] = df["ingredients"].apply(lambda x: normalize_ingredient_list(parse_list_string(x)))
+    df = add_keyword_flags(df, "ingredients", name_col="recipe_name")
+    df["cuisine_family"] = df[cuisine_col].apply(map_cuisine)
+    df["cuisine_raw"]    = df[cuisine_col].fillna("").astype(str).str.lower()
+    df["recipe_id"]      = source + "_" + df["recipe_id"].astype(str)
+    if source == "themealdb":
+        df["url"] = df["source_url"]
+    return df
+
+
+def run_pipeline(df_in: pd.DataFrame, source: str = "foodcom") -> pd.DataFrame:
+    """Turn one raw source into clean recipes with every feature (5.5).
+
+    Uses the same functions as the step-by-step cells in 5.3 and 5.4, so both
+    paths give the same result.
 
     Args:
-        df_in (pd.DataFrame): The raw input dataframe.
-        source (str): 'foodcom', 'huggingface', 'culinarydb' or 'themealdb'.
+        df_in: The raw recipes of one source (not changed).
+        source: "foodcom", "huggingface", "culinarydb" or "themealdb".
 
     Returns:
-        pd.DataFrame: Cleaned recipes with the COMMON_COLUMNS.
+        One row per recipe with exactly the COMMON_COLUMNS (missing values as NaN).
+
+    Raises:
+        ValueError: If `source` is unknown or a needed raw column is missing.
     """
+    if source not in RAW_COLUMNS:
+        raise ValueError(f"Unknown source '{source}'. Use one of: {', '.join(RAW_COLUMNS)}.")
+    require_columns(df_in, RAW_COLUMNS[source], f"run_pipeline[{source}]")
     df = df_in.copy()
-
     if source == "foodcom":
-        df = clean_foodcom(df)
-        df = add_foodcom_macros(df)
-        df = df[df["calories_per_serving"] <= MAX_KCAL_PER_SERVING].copy()
-        df["ingredient_list"] = df["ingredients"].apply(clean_ingredients).apply(normalize_ingredient_list)
-        df = add_foodcom_diet_flags(df)
-        df["cuisine_family"] = df["tags"].apply(lambda t: map_cuisine(t, substring_match=False))
-        df["cuisine_raw"]    = df["tags"].apply(cuisine_names)
-        df["recipe_id"]      = "foodcom_" + df["id"].astype(str)
-        df["recipe_name"]    = df["name"].str.replace(r"\s+", " ", regex=True).str.strip()
-        df["instructions"]   = df["steps"].apply(lambda s: "\n".join(map(str, parse_list_string(s))))
-
+        df = _prepare_foodcom(df)
     elif source == "huggingface":
-        df["recipe_id"] = "hf_" + df.index.astype(str)
-        df = clean_huggingface(df)
-        df = add_hf_macros(df)
-        df["ingredient_list"] = df["ingredients"].apply(hf_ingredient_foods).apply(normalize_ingredient_list)
-        df = add_hf_diet_flags(df)
-        df["cuisine_family"] = df["cuisine_type"].apply(map_cuisine)
-        df["cuisine_raw"]    = df["cuisine_type"].apply(lambda x: ", ".join(parse_label_list(x)))
-
-    elif source in ("culinarydb", "themealdb"):
-        cuisine_col = "cuisine" if source == "culinarydb" else "area"
-        df = df.dropna(subset=["recipe_name", "ingredients"])
-        df = df.drop_duplicates(subset=["recipe_name"], keep="first").copy()
-        df["ingredient_list"] = df["ingredients"].apply(lambda x: normalize_ingredient_list(parse_list_string(x)))
-        df = add_keyword_flags(df, "ingredients", name_col="recipe_name")
-        df["cuisine_family"] = df[cuisine_col].apply(map_cuisine)
-        df["cuisine_raw"]    = df[cuisine_col].fillna("").astype(str).str.lower()
-        df["recipe_id"]      = source + "_" + df["recipe_id"].astype(str)
-        if source == "themealdb":
-            df["url"] = df["source_url"]
-
+        df = _prepare_huggingface(df)
     else:
-        raise ValueError(f"Unknown source '{source}'. Use 'foodcom', 'huggingface', 'culinarydb' or 'themealdb'.")
+        df = _prepare_recipe_list(df, source)
 
     df["source"]     = source
     df["complexity"] = df["ingredient_list"].apply(lambda x: len(set(x)))
-    # Country and region from the source's own labels (5.4.6)
-    origin_labels = {"foodcom": "tags", "huggingface": "cuisine_type",
-                     "culinarydb": "cuisine", "themealdb": "area"}[source]
-    origins = df[origin_labels].apply(origin_from_labels)
+    origins = df[ORIGIN_LABEL_COLUMN[source]].apply(origin_from_labels)
     df["origin_country"], df["origin_region"] = origins.str[0], origins.str[1]
     for col in COMMON_COLUMNS:
         if col not in df.columns:
@@ -135,12 +190,20 @@ def run_pipeline(df_in, source="foodcom"):
 SOURCE_PRIORITY = ["huggingface", "foodcom", "themealdb", "culinarydb"]
 
 
-def combine_sources(frames):
-    """Stack the cleaned sources into one table (5.6.1).
+def combine_sources(frames: Sequence[pd.DataFrame]) -> tuple[pd.DataFrame, pd.Series, int]:
+    """Stack the cleaned sources into one recipe table (5.6.1).
 
-    Duplicate titles keep the copy from the highest-priority source; recipes with
-    fewer than 2 ingredients are dropped; quality columns are added.
-    Returns (df_all, counts per source before removing duplicates, recipes dropped for < 2 ingredients).
+    Duplicate titles keep the copy from the source that comes first in
+    SOURCE_PRIORITY; recipes with fewer than 2 ingredients are dropped; the
+    quality columns are added (has_nutrition, nutrition_plausible,
+    cuisine_labeled, ingredient_group).
+
+    Args:
+        frames: Outputs of `run_pipeline`, one per source.
+
+    Returns:
+        (combined table, recipes per source before removing duplicates,
+        recipes dropped for having fewer than 2 ingredients).
     """
     df_all = pd.concat(frames, ignore_index=True)
     counts_before = df_all["source"].value_counts()
@@ -168,19 +231,31 @@ def combine_sources(frames):
     return df_all, counts_before, dropped_small
 
 
-def safe_strata(labels):
-    """Return the labels for stratifying, or None if any group has fewer than 2 rows."""
+def safe_strata(labels: pd.Series) -> pd.Series | None:
+    """Return the labels for stratifying, or None if any label has fewer than 2 rows."""
     return labels if labels.value_counts().min() >= 2 else None
 
 
-def split_by_ingredient_group(df_all, seed=42, min_per_family=10, verbose=True):
-    """Add a 'split' column (train 70% / val 15% / test 15%) to the combined table (5.7.1).
+def split_by_ingredient_group(df_all: pd.DataFrame, seed: int = 42, min_per_family: int = 10,
+                              verbose: bool = True) -> pd.DataFrame:
+    """Assign every recipe to train (70%), val (15%) or test (15%) (5.7.1).
 
-    Ingredient groups are split, not single recipes, so near-duplicates never end
-    up in different splits. Each group is stratified by the cuisine family of its
-    first recipe; families with fewer than `min_per_family` groups are grouped with
-    'Other' for the split only.
+    Ingredient groups are split, not single recipes, so near-duplicates never
+    end up in different splits. Each group is stratified by the cuisine family
+    of its first recipe; families with fewer than `min_per_family` groups are
+    grouped with "Other" for the split only.
+
+    Args:
+        df_all: The combined table from `combine_sources`.
+        seed: Random seed, recorded in the dataset record.
+        min_per_family: Smallest family that is stratified on its own.
+        verbose: Print notes when families are merged or stratifying is impossible.
+
+    Returns:
+        A copy of `df_all` with a 'split' column; `df_all` itself is not changed.
     """
+    require_columns(df_all, ["ingredient_group", "cuisine_family"], "split_by_ingredient_group")
+    df_all = df_all.copy()
     groups = df_all.groupby("ingredient_group")["cuisine_family"].first()
     family_counts = groups.value_counts()
     small_families = [f for f in family_counts[family_counts < min_per_family].index if f != "Other"]
@@ -212,9 +287,10 @@ def split_by_ingredient_group(df_all, seed=42, min_per_family=10, verbose=True):
     return df_all
 
 
-def split_tables(df_all):
-    """The train, validation and test tables (call again after adding columns to df_all)."""
-    return tuple(df_all[df_all["split"] == name].reset_index(drop=True) for name in ("train", "val", "test"))
+def split_tables(df_all: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Return the train, validation and test tables (call again after adding columns to df_all)."""
+    train, val, test = (df_all[df_all["split"] == name].reset_index(drop=True) for name in ("train", "val", "test"))
+    return train, val, test
 
 
 # ------------------------------------------------------------------ validation (5.10)
@@ -226,15 +302,23 @@ EXTRA_COLUMNS = ["has_nutrition", "nutrition_plausible", "cuisine_labeled", "ing
 BOOL_COLUMNS = FLAG_COLUMNS + DIET_COLUMNS + ["has_nutrition", "nutrition_plausible", "cuisine_labeled"]
 
 
-def validate_recipes(df, origin_min_confidence):
-    """Run every rule on a recipe table. Returns a dict {rule: passed}."""
+def validate_recipes(df: pd.DataFrame, origin_min_confidence: float) -> dict[str, bool]:
+    """Run every data rule on the final recipe table (5.10).
+
+    Args:
+        df: The final combined table.
+        origin_min_confidence: The confidence threshold used for predicted countries.
+
+    Returns:
+        {rule: passed}; a single failing "columns present" rule if columns are missing.
+    """
     missing = [c for c in COMMON_COLUMNS + EXTRA_COLUMNS if c not in df.columns]
     if missing:
         return {f"columns present (missing: {missing})": False}
     kcal = df["calories_per_serving"].dropna()
     estimated = df["nutrition_source"] == "estimated"
     servings = df["servings"].dropna()
-    return {
+    rules = {
         "recipe_id is unique"                         : df["recipe_id"].is_unique,
         "every recipe has a name"                     : df["recipe_name"].notna().all(),
         "cuisine_family has only allowed values"      : df["cuisine_family"].isin(ALLOWED_FAMILIES).all(),
@@ -258,3 +342,4 @@ def validate_recipes(df, origin_min_confidence):
         "every recipe is in exactly one split"        : df["split"].isin(["train", "val", "test"]).all(),
         "no ingredient group spans two splits"        : (df.groupby("ingredient_group")["split"].nunique() == 1).all(),
     }
+    return {rule: bool(passed) for rule, passed in rules.items()}

@@ -52,6 +52,8 @@ model.predict([normalize_ingredient_list(["basmati rice", "lamb shoulder", "Chop
 
 Normalize user input with `normalize_ingredient_list()` first, so it matches the training data.
 
+Load the model with the same scikit-learn version that saved it. A model saved in one environment (for example scikit-learn 1.9 locally) still loads in another (1.6 in Colab), but scikit-learn warns that results may differ. Running section 6.6 refits and saves the model in the current environment.
+
 ## Ideas for Week 7
 
 - **Use more information:** add the recipe title and tags as features.

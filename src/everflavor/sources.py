@@ -1,11 +1,14 @@
 """Download helpers for every data source (Week 4 and 5.8): skip-if-present,
 paced and retried requests, and never a key in an error message."""
+from __future__ import annotations
+
 import io
 import json
 import re
 import string
 import time
 import zipfile
+from collections.abc import Iterable
 from pathlib import Path
 
 import pandas as pd
@@ -13,9 +16,15 @@ import requests
 
 # ------------------------------------------------------------------ files
 
-def download_file(url, target, timeout=300):
-    """Download `url` to `target`. Writes under a temporary name first, so an
-    interrupted download is never mistaken for a finished one."""
+def download_file(url: str, target: str | Path, timeout: int = 300) -> Path:
+    """Download a file, writing it under a temporary name first.
+
+    An interrupted download is therefore never mistaken for a finished one.
+    Only for URLs without a key in them: an error message shows the URL.
+
+    Returns:
+        The downloaded file.
+    """
     target = Path(target)
     target.parent.mkdir(parents=True, exist_ok=True)
     response = requests.get(url, timeout=timeout)
@@ -26,12 +35,12 @@ def download_file(url, target, timeout=300):
     return target
 
 
-def find_file(folder, name):
+def find_file(folder: str | Path, name: str) -> Path | None:
     """Return the first file called `name` anywhere under `folder`, or None."""
     return next(Path(folder).rglob(name), None)
 
 
-def download_and_unzip(url, folder, timeout=120):
+def download_and_unzip(url: str, folder: str | Path, timeout: int = 120) -> None:
     """Download a zip file and extract it into `folder`."""
     response = requests.get(url, timeout=timeout)
     response.raise_for_status()
@@ -42,25 +51,24 @@ def download_and_unzip(url, folder, timeout=120):
 USDA_BASE_URL = "https://api.nal.usda.gov/fdc/v1/foods/search"
 
 
-def usda_search(query, api_key, page_size=5, data_type="Foundation,SR Legacy"):
-    """Search the USDA FoodData Central API for a given ingredient.
+def usda_search(query: str, api_key: str, page_size: int = 5, data_type: str = "Foundation,SR Legacy") -> dict:
+    """Search the USDA FoodData Central API for an ingredient.
 
     Args:
-        query (str): The ingredient name to search for.
-        api_key (str): The USDA API key (never printed).
-        page_size (int): Number of results to return.
-        data_type (str): Comma-separated USDA data types to search.
-            "Foundation,SR Legacy" returns generic raw ingredients
-            instead of branded products (plantain, not plantain chips).
+        query: The ingredient name to search for.
+        api_key: The USDA API key (never printed, not even in errors).
+        page_size: Number of results to return.
+        data_type: Comma-separated USDA data types. "Foundation,SR Legacy"
+            returns generic raw ingredients instead of branded products.
 
     Returns:
-        dict: The raw JSON response from the API.
+        The API's JSON answer.
 
     Raises:
-        RuntimeError: If the API returns an error status
-            (for example 403 for an invalid key).
+        RuntimeError: If the API answers with an error status (for example 403
+            for an invalid key).
     """
-    params = {
+    params: dict[str, str | int] = {
         "api_key": api_key,  # passed in, never written in the code
         "query": query,
         "pageSize": page_size,
@@ -78,8 +86,8 @@ def usda_search(query, api_key, page_size=5, data_type="Foundation,SR Legacy"):
 # We only accept kcal values, in this order of preference.
 ENERGY_NAMES = ["Energy", "Energy (Atwater General Factors)", "Energy (Atwater Specific Factors)"]
 
-def get_energy_kcal(food_nutrients):
-    """Return the energy value in kcal, or None if no kcal value is listed."""
+def get_energy_kcal(food_nutrients: Iterable[dict]) -> float | None:
+    """Return a USDA food's energy in kcal (ENERGY_NAMES order), or None if only kJ is listed."""
     kcal_values = {
         n.get("nutrientName"): n.get("value")
         for n in food_nutrients
@@ -102,8 +110,10 @@ USDA_NUTRIENTS = {"Energy": "kcal_100g", "Protein": "protein_100g", "Total lipid
                   "Carbohydrate, by difference": "carbs_100g", "Sodium, Na": "sodium_mg_100g"}
 
 
-def download_usda(name, folder, refresh=False):
-    """Return the local zip for one USDA download, downloading it if needed."""
+def download_usda(name: str, folder: str | Path, refresh: bool = False) -> Path:
+    """Return the local zip of one USDA bulk download ("fndds" or "sr_legacy"), downloading it if needed."""
+    if name not in USDA_DOWNLOADS:
+        raise ValueError(f"Unknown USDA download '{name}'. Use one of: {', '.join(USDA_DOWNLOADS)}.")
     url, _ = USDA_DOWNLOADS[name]
     target = Path(folder) / url.rsplit("/", 1)[-1]
     if target.exists() and not refresh:
@@ -112,8 +122,18 @@ def download_usda(name, folder, refresh=False):
     return download_file(url, target)
 
 
-def usda_table(name, folder, refresh=False):
-    """Read one USDA download into a table: one row per food, nutrients per 100 g."""
+def usda_table(name: str, folder: str | Path, refresh: bool = False) -> pd.DataFrame:
+    """Read one USDA bulk download into a table.
+
+    Args:
+        name: "fndds" (prepared dishes) or "sr_legacy" (single ingredients).
+        folder: Where the zip files are kept.
+        refresh: Download again even if the zip exists.
+
+    Returns:
+        One row per food: 'fdc_id', 'description', the USDA_NUTRIENTS per 100 g
+        and 'serving_g' (FNDDS's typical portion, else missing).
+    """
     _, key = USDA_DOWNLOADS[name]
     with zipfile.ZipFile(download_usda(name, folder, refresh)) as archive:
         json_name = next(n for n in archive.namelist() if n.endswith(".json"))
@@ -161,24 +181,26 @@ def _off_wait_turn(kind):
     _off_last_request[kind] = time.monotonic()
 
 
-def off_get(url, params=None, kind="product", retries=3, backoff=10.0):
+def off_get(url: str, params: dict | None = None, kind: str = "product", retries: int = 3,
+            backoff: float = 10.0) -> dict:
     """GET a URL from Open Food Facts and return the JSON body.
 
-    Requests are paced to respect the API's rate limits. Temporary
-    failures (rate limits, busy servers, timeouts) are retried after
-    the wait the server asks for (Retry-After), or 10 s, then 20 s.
-    Any other error is raised.
+    Requests are paced to respect the API's rate limits. Temporary failures
+    (rate limits, busy servers, timeouts) are retried after the wait the
+    server asks for (Retry-After), or 10 s, then 20 s.
 
     Args:
-        url (str): Full endpoint URL.
-        params (dict | None): Query parameters.
-        kind (str): "search" or "product" (they have different limits).
-        retries (int): Maximum number of attempts.
-        backoff (float): Seconds to wait after the first failure;
-            the wait doubles with each attempt.
+        url: Full endpoint URL.
+        params: Query parameters.
+        kind: "search" or "product" (they have different limits).
+        retries: Maximum number of attempts.
+        backoff: Seconds to wait after the first failure; doubles each time.
 
     Returns:
-        dict: The parsed JSON response.
+        The parsed JSON answer.
+
+    Raises:
+        requests.HTTPError: For an error that is not temporary, or after the last attempt.
     """
     for attempt in range(1, retries + 1):
         _off_wait_turn(kind)
@@ -199,23 +221,21 @@ def off_get(url, params=None, kind="product", retries=3, backoff=10.0):
             raise requests.HTTPError(f"Open Food Facts answered HTTP {response.status_code}",
                                      response=response)
         return response.json()
+    raise ValueError(f"retries must be at least 1, got {retries}")
 
 
-def off_search(query, page_size=5):
-    """Search Open Food Facts for products matching a query string.
-
-    Only returns products that already have completed nutrition facts,
-    so every result will have at least a calorie value.
+def off_search(query: str, page_size: int = 5) -> list[dict]:
+    """Search Open Food Facts for products with completed nutrition facts.
 
     Args:
-        query (str): Ingredient or product name to search for.
-        page_size (int): Maximum number of results to return.
+        query: Ingredient or product name.
+        page_size: Maximum number of results.
 
     Returns:
-        list[dict]: List of raw product dictionaries from the API.
+        Raw product records (every one has at least a calorie value).
     """
     url = f"{OFF_BASE_URL}/cgi/search.pl"
-    params = {
+    params: dict[str, str | int] = {
         "search_terms"   : query,
         "search_simple"  : 1,
         "action"         : "process",
@@ -229,15 +249,8 @@ def off_search(query, page_size=5):
     return off_get(url, params=params, kind="search").get("products", [])
 
 
-def off_get_by_barcode(barcode):
-    """Fetch a single product record from Open Food Facts by barcode.
-
-    Args:
-        barcode (str): The product barcode (EAN-13 or UPC).
-
-    Returns:
-        dict | None: The product dictionary, or None if not found.
-    """
+def off_get_by_barcode(barcode: str) -> dict | None:
+    """Fetch one Open Food Facts product by barcode (EAN-13 or UPC), or None if unknown."""
     url = f"{OFF_BASE_URL}/api/v2/product/{barcode}.json"
     try:
         data = off_get(url)
@@ -251,21 +264,16 @@ def off_get_by_barcode(barcode):
     return None
 
 
-def extract_off_record(product):
-    """Pull the fields we need from a raw Open Food Facts product dict.
+def extract_off_record(product: dict) -> dict:
+    """Pull the fields we use from a raw Open Food Facts product.
 
-    Fields: product_name, brands, countries, ingredients_text,
-    energy_kcal_100g, proteins_100g, fat_100g, carbs_100g,
-    fiber_100g, sodium_100g, nutriscore_grade, nova_group,
-    allergens, image_url.
-
-    Text fields that are missing come back as an empty string.
-
-    Args:
-        product (dict): A raw product dictionary from the OFF API.
+    Nutrition values are per 100 g. Missing text fields become "" so they count
+    as missing; Nutri-Score is kept only when it is A to E.
 
     Returns:
-        dict: A flat dictionary of cleaned fields.
+        A flat record: product_name, brands, countries, ingredients_text,
+        energy_kcal_100g, proteins_100g, fat_100g, carbs_100g, fiber_100g,
+        sodium_100g, nutriscore_grade, nova_group, allergens, image_url.
     """
     nut = product.get("nutriments") or {}
     # OFF uses "unknown" or "not-applicable" when there is no score.
@@ -292,8 +300,13 @@ def extract_off_record(product):
     }
 
 
-def cached_off_search(query, cache_dir, refresh=False, page_size=3):
-    """Return (products, came_from_cache) for a search, using the saved copy if there is one."""
+def cached_off_search(query: str, cache_dir: str | Path, refresh: bool = False,
+                      page_size: int = 3) -> tuple[list[dict], bool]:
+    """Search Open Food Facts, reusing a saved copy of the same search if there is one.
+
+    Returns:
+        (products, came_from_cache).
+    """
     cache_dir = Path(cache_dir)
     cache_dir.mkdir(parents=True, exist_ok=True)
     cache_file = cache_dir / (re.sub(r"[^a-z0-9]+", "_", query.lower()) + ".json")
@@ -309,8 +322,12 @@ def cached_off_search(query, cache_dir, refresh=False, page_size=3):
 RETRY_STATUS = {429, 500, 502, 503, 504}
 
 
-def get_json(url, params=None, retries=3, backoff=2.0):
-    """GET a URL and return its JSON, retrying temporary errors with a growing wait."""
+def get_json(url: str, params: dict | None = None, retries: int = 3, backoff: float = 2.0) -> dict:
+    """GET a URL and return its JSON, retrying temporary errors with a growing wait.
+
+    Raises:
+        RuntimeError: For an error status, without showing the URL (it may contain a key).
+    """
     for attempt in range(1, retries + 1):
         try:
             response = requests.get(url, params=params, timeout=20)
@@ -326,10 +343,11 @@ def get_json(url, params=None, retries=3, backoff=2.0):
             # Do not print the URL: it contains the API key
             raise RuntimeError(f"TheMealDB request failed with HTTP {response.status_code}")
         return response.json()
+    raise ValueError(f"retries must be at least 1, got {retries}")
 
 
-def meal_to_row(meal):
-    """Flatten one TheMealDB record (ingredients are in 20 numbered fields)."""
+def meal_to_row(meal: dict) -> dict:
+    """Flatten one TheMealDB record (its ingredients are in 20 numbered fields)."""
     ingredients, measures = [], []
     for i in range(1, 21):
         name = (meal.get(f"strIngredient{i}") or "").strip()
@@ -350,8 +368,15 @@ def meal_to_row(meal):
     }
 
 
-def download_themealdb(search_url):
-    """Search TheMealDB by every first letter and digit; return one row per recipe."""
+def download_themealdb(search_url: str) -> pd.DataFrame:
+    """Collect TheMealDB by searching every first letter and digit, with a short pause between requests.
+
+    Args:
+        search_url: The search endpoint, including the API key.
+
+    Returns:
+        One row per recipe (repeats removed); failed searches are reported and skipped.
+    """
     meals = {}
     for first_char in string.ascii_lowercase + string.digits:
         try:

@@ -1,4 +1,6 @@
 """Cuisine families (5.4.1) and country / region of origin from source labels (5.4.6)."""
+from __future__ import annotations
+
 from .parsing import parse_label_list
 
 CUISINE_FAMILIES = {
@@ -49,22 +51,20 @@ CUISINE_MAP = {name: family for family, names in CUISINE_FAMILIES.items() for na
 FAMILY_PRIORITY = ["African", "Middle Eastern", "Latin American", "Asian", "European"]
 
 
-def map_cuisine(raw_cuisine, substring_match=True):
-    """Map raw cuisine labels to one of the five EverFlavor families.
+def map_cuisine(raw_cuisine: object, substring_match: bool = True) -> str:
+    """Map a recipe's raw cuisine labels to one of the five EverFlavor families.
 
-    Each label is matched exactly against CUISINE_MAP (hyphens count as
-    spaces, so the Food.com tag 'south-african' matches 'south african').
-    If nothing matches and substring_match is True, we look for a known
-    name inside each label. Ties are broken with FAMILY_PRIORITY.
+    Each label is matched exactly against CUISINE_MAP (hyphens count as spaces,
+    so the Food.com tag 'south-african' matches 'south african'). If nothing
+    matches and `substring_match` is True, a known name inside a label also
+    counts. When labels point to several families, FAMILY_PRIORITY decides.
 
     Args:
-        raw_cuisine: Raw label(s) from the dataset.
-        substring_match (bool): Allow the substring fallback. Food.com
-            tags use exact matching only.
+        raw_cuisine: The raw label(s): a single label, a list, or a list stored as text.
+        substring_match: Allow the substring fallback (Food.com tags use exact matches only).
 
     Returns:
-        str: One of Asian / European / Latin American / African /
-             Middle Eastern / Other.
+        "Asian", "European", "Latin American", "African", "Middle Eastern" or "Other".
     """
     labels = [label.replace("-", " ") for label in parse_label_list(raw_cuisine)]
     families = {CUISINE_MAP[label] for label in labels if label in CUISINE_MAP}
@@ -77,7 +77,7 @@ def map_cuisine(raw_cuisine, substring_match=True):
     return "Other"
 
 
-def cuisine_names(raw):
+def cuisine_names(raw: object) -> str:
     """Return the labels in `raw` that are known cuisine names, joined by ', '."""
     return ", ".join(l for l in parse_label_list(raw) if l.replace("-", " ") in CUISINE_MAP)
 
@@ -148,12 +148,19 @@ ORIGIN_LABELS = {
 }
 
 
-def origin_from_labels(raw):
-    """Return (country, region) from a recipe's source labels, or ("Unknown", None).
+def origin_from_labels(raw: object) -> tuple[str, str | None]:
+    """Find the country (and region) a recipe comes from in its source labels.
 
     A label that names a region wins over a plain country label for the same
     recipe ("mexican" + "tex-mex" -> United States, Texas). Labels that point
-    to different countries ("american" + "italian") are ambiguous: Unknown.
+    to different countries ("american" + "italian") are ambiguous.
+
+    Args:
+        raw: The source's labels: a single label, a list, or a list stored as text.
+
+    Returns:
+        (country, region), with region None when the source names none, or
+        ("Unknown", None) when the labels name no single country.
     """
     matches = [ORIGIN_LABELS[label] for label in (l.replace("-", " ") for l in parse_label_list(raw))
                if label in ORIGIN_LABELS]

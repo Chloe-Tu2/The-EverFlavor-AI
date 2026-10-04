@@ -275,7 +275,8 @@ The-EverFlavor-AI/
 │       ├── flags.py, diets.py           # restriction flags and diet profiles
 │       ├── nutrition.py, features.py    # nutrition, USDA matching, text features
 │       ├── pipeline.py                  # cleaning, run_pipeline, combining, splitting, validation
-│       └── review.py, recommend.py, charts.py, reporting.py, parsing.py
+│       └── review.py, recommend.py, charts.py, reporting.py, parsing.py, checks.py
+├── tests/            # Tests for src/everflavor
 ├── docs/
 │   ├── art/          # ramen.py draws the README's ramen bowl (ANSI art) and saves ramen.svg
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
@@ -319,4 +320,22 @@ from everflavor.recommend import passes_safety_filter
 
 normalize_ingredient_list(["2 cups basmati rice", "Chopped Onions"])   # ['basmati rice', 'onion']
 keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
+```
+
+**Conventions** (based on the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) and [PEP 257](https://peps.python.org/pep-0257/)), so new code fits in:
+- every public function has type hints and a docstring with `Args`, `Returns` and `Raises`;
+- functions never change the dataframe they are given; they return a new one;
+- settings such as API keys, folders and `REFRESH_DOWNLOADS` are passed in as arguments;
+- wrong input fails early with a `ValueError` that names the missing column;
+- rule tables (keywords, maps, limits) are UPPER_CASE constants in their module.
+
+**Tests:** `tests/test_everflavor.py` checks what each function promises (whole-word flag matching, diet rules, origin labels, cleaning, splitting, the safety filter, and that inputs are never changed). Run it from the project folder with `python tests/test_everflavor.py` (no install needed) or `python -m pytest tests`.
+
+**All checks**, for editing the code locally in **VS Code or Antigravity** (optional; the notebook does not need these tools, and Colab can skip them). Install once in a terminal in the project folder with `pip install -r config/requirements-dev.txt`, then run:
+
+```bash
+# in the VS Code / Antigravity terminal, from the project folder
+python -m pytest tests                                   # the tests
+python -m mypy src/everflavor --ignore-missing-imports   # the type hints
+python -m ruff check src tests notebooks                 # mistakes and style
 ```

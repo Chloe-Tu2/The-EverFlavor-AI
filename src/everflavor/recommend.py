@@ -3,8 +3,13 @@
 The safety filter re-checks each recipe's ingredients and name with the same
 keyword rules (flags.py) and diet rules (diets.py) used to build the data.
 """
+from __future__ import annotations
+
+from collections.abc import Sequence
+
 import pandas as pd
 
+from .checks import require_columns
 from .diets import diet_flags_needed, meets_diet
 from .flags import (
     ANIMAL_EXCEPTIONS,
@@ -18,10 +23,21 @@ from .flags import (
 from .ingredients import ingredient_text
 
 
-def passes_safety_filter(row, avoid=(), vegetarian=False, vegan=False, diets=()):
-    """Re-check one recipe's ingredients and name against the restrictions.
+def passes_safety_filter(row: pd.Series, avoid: Sequence[str] = (), vegetarian: bool = False,
+                         vegan: bool = False, diets: Sequence[str] = ()) -> bool:
+    """Re-check one recipe's ingredients and name against the user's restrictions.
 
     Independent of the stored flags, so a wrong flag cannot let a recipe through.
+
+    Args:
+        row: One recipe with 'ingredient_list' and 'recipe_name'.
+        avoid: Flag columns that must be False, for example ("contains_pork",).
+        vegetarian: Require a vegetarian recipe.
+        vegan: Require a vegan recipe.
+        diets: Diet profiles from DIET_PROFILES to require, for example ("halal_friendly",).
+
+    Returns:
+        True if the recipe is safe for every restriction.
     """
     text = ingredient_text(row["ingredient_list"]) + " | " + str(row["recipe_name"]).lower()
     for diet in diets:
@@ -38,35 +54,40 @@ def passes_safety_filter(row, avoid=(), vegetarian=False, vegan=False, diets=())
 
 
 def baseline_recommend(
-    df,
-    cuisine_family=None,
-    calorie_target=500,
-    vegetarian_only=False,
-    vegan_only=False,
-    gluten_free=False,
-    avoid=(),
-    diets=(),
-    top_n=5
-):
-    """Simple rule-based recipe recommender (baseline model).
+    df: pd.DataFrame,
+    cuisine_family: str | None = None,
+    calorie_target: float = 500,
+    vegetarian_only: bool = False,
+    vegan_only: bool = False,
+    gluten_free: bool = False,
+    avoid: Sequence[str] = (),
+    diets: Sequence[str] = (),
+    top_n: int = 5,
+) -> pd.DataFrame:
+    """Recommend recipes with simple rules (the Week 6 baseline model).
 
-    Filters by cuisine and dietary flags, then ranks by
-    proximity to the calorie target.
+    Filters by cuisine, dietary flags and diet profiles, keeps recipes with
+    plausible listed nutrition, ranks them by distance to the calorie target,
+    and re-checks the best candidates with the safety filter.
 
     Args:
-        df (pd.DataFrame): The preprocessed recipe dataframe.
-        cuisine_family (str | None): One of the five EverFlavor families, or None for all.
-        calorie_target (float): Desired calories per serving.
-        vegetarian_only (bool): Restrict to vegetarian recipes.
-        vegan_only (bool): Restrict to vegan recipes.
-        gluten_free (bool): Restrict to gluten-free recipes.
-        avoid (tuple): Flag columns to exclude, e.g. ("contains_pork", "contains_alcohol").
-        diets (tuple): Diet profiles from 5.4.7 to require, e.g. ("halal_friendly",).
-        top_n (int): Number of recommendations to return.
+        df: The preprocessed recipe table.
+        cuisine_family: One of the five families, or None for all.
+        calorie_target: Desired calories per serving.
+        vegetarian_only: Restrict to vegetarian recipes.
+        vegan_only: Restrict to vegan recipes.
+        gluten_free: Restrict to gluten-free recipes.
+        avoid: Flag columns to exclude, for example ("contains_pork", "contains_alcohol").
+        diets: Diet profiles to require, for example ("halal_friendly",).
+        top_n: Number of recommendations.
 
     Returns:
-        pd.DataFrame: Top N matching recipes sorted by calorie distance.
+        The top recipes with a 'calorie_distance' column, or an empty dataframe
+        when nothing matches.
     """
+    require_columns(df, ["recipe_name", "ingredient_list", "cuisine_family", "calories_per_serving",
+                         "nutrition_plausible", "vegetarian", "vegan", "contains_gluten", *avoid, *diets],
+                    "baseline_recommend")
     results = df.copy()
 
     # Step 1: Filter by cuisine family

@@ -1,10 +1,13 @@
 """Secrets (Colab Secrets or config/.env) and the download checker (2.3)."""
+from __future__ import annotations
+
 import os
+from collections.abc import Sequence
 from pathlib import Path
 
 
-def in_colab():
-    """True when running in Google Colab."""
+def in_colab() -> bool:
+    """Return True when running in Google Colab."""
     try:
         import google.colab  # noqa: F401
     except ImportError:
@@ -12,14 +15,24 @@ def in_colab():
     return True
 
 
-def short_path(p):
-    """Show a path with the home folder as ~, so usernames stay out of saved outputs."""
+def short_path(p: str | Path) -> str:
+    """Return a path with the home folder shown as ~, so usernames stay out of saved outputs."""
     p, home = str(p), str(Path.home())
     return "~" + p[len(home):] if p.startswith(home) else p
 
 
-def load_env_file(env_path):
-    """Load KEY=value lines from an .env file into os.environ. Returns True if found."""
+def load_env_file(env_path: Path) -> bool:
+    """Load KEY=value lines from an .env file into the environment variables.
+
+    Blank lines and # comments are skipped, "export KEY=..." and quoted values
+    are accepted, and values already set are never replaced.
+
+    Args:
+        env_path: The .env file, for example config/.env.
+
+    Returns:
+        True if the file exists (and was read), False otherwise.
+    """
     if not env_path.is_file():
         return False
     # utf-8-sig also handles files saved by Windows Notepad (which adds a BOM)
@@ -38,11 +51,17 @@ def load_env_file(env_path):
     return True
 
 
-def get_secret(name):
-    """Return a secret by name, or None if it is not set anywhere.
+def get_secret(name: str) -> str | None:
+    """Return a secret such as an API key, without ever printing it.
 
-    Order: Colab Secrets (in Colab), then environment variables,
-    which include everything loaded from .env.
+    Colab Secrets come first (in Colab), then environment variables, which
+    include everything loaded from config/.env.
+
+    Args:
+        name: The secret's name, for example "USDA_API_KEY".
+
+    Returns:
+        The value, or None if it is not set anywhere.
     """
     if in_colab():
         try:
@@ -55,14 +74,14 @@ def get_secret(name):
     return os.environ.get(name) or None
 
 
-def folder_has(folder, pattern):
-    """Return the first file matching `pattern` under `folder`, or None."""
+def folder_has(folder: str | Path, pattern: str) -> Path | None:
+    """Return the first file matching `pattern` anywhere under `folder`, or None."""
     folder = Path(folder).expanduser()
     return next(folder.rglob(pattern), None) if folder.is_dir() else None
 
 
-def describe(path):
-    """Size of a file or folder, plus the row count for Parquet files."""
+def describe(path: str | Path) -> str:
+    """Describe a file or folder: its size, plus the row count for Parquet files."""
     path = Path(path)
     files = [path] if path.is_file() else [f for f in path.rglob("*") if f.is_file()]
     total = sum(f.stat().st_size for f in files)
@@ -78,15 +97,23 @@ def describe(path):
     return size
 
 
-def print_download_checks(checks, refresh=False):
-    """Print each (step, item, path) with its size or MISSING; return the steps still to do."""
+def print_download_checks(checks: Sequence[tuple[str, str, Path | None]], refresh: bool = False) -> list[str]:
+    """Print which downloads and outputs exist, without downloading anything.
+
+    Args:
+        checks: (notebook step, item, file or folder that proves it is there) per item.
+        refresh: Whether REFRESH_DOWNLOADS is on (adds a reminder line).
+
+    Returns:
+        The steps that still have something missing, in order.
+    """
     print(f"{'Step':6s} {'Item':34s} Status")
     print("-" * 70)
     missing_steps = []
     for step, label, path in checks:
         present = path is not None and Path(path).exists() and (
             Path(path).is_file() or any(Path(path).iterdir()))
-        status = f"yes  ({describe(path)})" if present else "MISSING"
+        status = f"yes  ({describe(path)})" if present and path is not None else "MISSING"
         print(f"{step:6s} {label:34s} {status}")
         if not present and step not in missing_steps:
             missing_steps.append(step)

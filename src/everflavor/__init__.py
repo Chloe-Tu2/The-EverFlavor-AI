@@ -1,6 +1,7 @@
 """EverFlavor AI: shared code for the data pipeline notebook and, later, the agents.
 
 Modules:
+    checks       input checks with clear error messages
     environment  secrets (Colab Secrets or config/.env) and the download checker
     charts       chart style and helpers
     sources      download helpers for USDA, Open Food Facts, CulinaryDB and TheMealDB
@@ -15,6 +16,16 @@ Modules:
     review       blind hand-check samples for the flags
     recommend    the baseline recommender and its safety filter
     reporting    small table and checklist helpers
+
+Conventions (Google Python Style Guide, PEP 257):
+    - Every public function has type hints and a docstring with Args, Returns
+      and Raises where they apply.
+    - Functions never change the dataframe they are given: they return a new one.
+    - Settings (API keys, folders, REFRESH_DOWNLOADS) are passed in as arguments,
+      never read from the notebook's variables.
+    - Wrong input fails early with a ValueError that names what is missing.
+    - Rule tables (keywords, maps, limits) are UPPER_CASE module constants.
+    - tests/test_everflavor.py pins down what each function promises.
 """
 
 __version__ = "0.1.0"

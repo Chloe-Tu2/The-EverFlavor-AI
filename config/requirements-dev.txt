@@ -1,0 +1,9 @@
+# Optional tools for checking the shared code in src/everflavor while editing it
+# locally in VS Code or Antigravity (Antigravity is built on VS Code, so the same
+# commands work). They are NOT needed to run the notebook, and Colab does not need them.
+# Install in a terminal in the project folder: pip install -r config/requirements-dev.txt
+-r requirements.txt
+pytest        # runs tests/test_everflavor.py
+mypy          # checks the type hints
+pandas-stubs  # type information for pandas, used by mypy
+ruff          # finds code mistakes and style problems

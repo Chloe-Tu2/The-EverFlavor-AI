@@ -1,10 +1,14 @@
 """Restriction flags (5.4.2): keyword rules, used by the recipe table, the
 validation checks and the safety filter, so they always agree."""
+from __future__ import annotations
+
 import re
+from collections.abc import Sequence
 from functools import cache
 
 import pandas as pd
 
+from .checks import require_columns
 from .ingredients import ingredient_text
 from .parsing import parse_label_list
 
@@ -188,20 +192,21 @@ def _keyword_pattern(keywords):
     return re.compile(rf"\b(?:{alternatives})(?:s|es)?\b")
 
 
-def make_flag(ingredient_str, keywords, exceptions=()):
-    """Return True if any keyword appears as a whole word in the ingredients.
+def make_flag(ingredient_str: object, keywords: Sequence[str], exceptions: Sequence[str] = ()) -> bool:
+    """Check whether any keyword appears as a whole word in a text.
 
-    Whole-word matching avoids false hits such as 'ham' in 'graham'
-    or 'egg' in 'eggplant'. Exception phrases (e.g. 'coconut milk')
-    are removed first, longest first, so they do not trigger a keyword.
+    Whole-word matching avoids false hits such as 'ham' in 'graham' or 'egg'
+    in 'eggplant'; plural endings (-s, -es) still match. Exception phrases
+    (for example 'coconut milk') are removed first, longest first, so they
+    never trigger a keyword.
 
     Args:
-        ingredient_str (str): Ingredient text (may be a list string).
-        keywords (list): List of keyword strings to check.
-        exceptions (list): Phrases to ignore before matching.
+        ingredient_str: The text to search (ingredients and name); anything else gives False.
+        keywords: Words or phrases that mean the recipe has the flag.
+        exceptions: Phrases to ignore before matching.
 
     Returns:
-        bool: True if any keyword is found.
+        True if a keyword is found.
     """
     if not isinstance(ingredient_str, str):
         return False
@@ -214,12 +219,26 @@ def make_flag(ingredient_str, keywords, exceptions=()):
 GLUTEN_FREE_NAME = r"\b(?:gluten[- ]?free|gf|flourless|celiac|coeliac)\b"
 
 
-def add_keyword_flags(df, ingredient_col, name_col=None):
-    """Add every restriction flag to a dataframe from its ingredients and, if given, its name.
+def add_keyword_flags(df: pd.DataFrame, ingredient_col: str, name_col: str | None = None) -> pd.DataFrame:
+    """Add every restriction flag (FLAG_COLUMNS) from the ingredients and, if given, the name.
 
-    The name catches what the ingredient list leaves out, such as
-    "Grilled Lamb Chops with Tzatziki" (only the sauce is listed).
+    The name catches what the ingredient list leaves out, such as "Grilled
+    Lamb Chops with Tzatziki". A name that says "gluten-free" or "flourless"
+    is not used for the gluten flag, because it describes the kind of dish.
+
+    Args:
+        df: Recipes.
+        ingredient_col: Column with the ingredients (a list, or text).
+        name_col: Column with the recipe name, or None to use the ingredients only.
+
+    Returns:
+        A copy of `df` with the flag columns added; `df` itself is not changed.
+
+    Raises:
+        ValueError: If a named column is missing.
     """
+    require_columns(df, [ingredient_col] + ([name_col] if name_col else []), "add_keyword_flags")
+    df = df.copy()
     text = df[ingredient_col].apply(ingredient_text)
     gluten_text = text
     if name_col is not None:
@@ -236,13 +255,21 @@ def add_keyword_flags(df, ingredient_col, name_col=None):
     return df
 
 
-def add_foodcom_diet_flags(df):
-    """Add keyword-based restriction flags to a Food.com dataframe."""
+def add_foodcom_diet_flags(df: pd.DataFrame) -> pd.DataFrame:
+    """Add the restriction flags to Food.com recipes (columns 'ingredients' and 'name')."""
     return add_keyword_flags(df, "ingredients", name_col="name")
 
 
-def keyword_flag(text, column):
-    """Work out one flag column directly from text with the keyword rules."""
+def keyword_flag(text: str, column: str) -> bool:
+    """Work out one flag (any of FLAG_COLUMNS) directly from a text with the keyword rules.
+
+    Args:
+        text: Lowercase ingredients and name, for example "flour | butter | shortbread".
+        column: The flag, for example "contains_pork" or "vegetarian".
+
+    Returns:
+        The flag's value: for "vegetarian" and "vegan", True means the text fits the diet.
+    """
     if column == "vegetarian":
         return not make_flag(text, MEAT_KEYWORDS, MEAT_EXCEPTIONS)
     if column == "vegan":
@@ -264,15 +291,20 @@ HF_FREE_LABELS = {
 }
 
 
-def add_hf_diet_flags(df):
-    """Add restriction flags to a Hugging Face dataframe.
+def add_hf_diet_flags(df: pd.DataFrame) -> pd.DataFrame:
+    """Add the restriction flags to Hugging Face recipes.
 
-    Keyword flags come from the ingredient lines and the recipe name. Where the dataset has a
-    "free of" label, a recipe without that label is also flagged: either
-    source is enough, which is the safe direction for a restriction
-    filter. Vegetarian and vegan need the label AND no meat / animal
-    keyword (some labels are wrong, e.g. short ribs tagged Vegetarian).
-    Pork, alcohol and sesame have no label here, so they use keywords only.
+    Keyword flags come from 'ingredient_lines' and 'recipe_name'. Where the
+    dataset has a "free of" label (HF_FREE_LABELS), a recipe without that label
+    is also flagged: either source is enough, the safe direction for a
+    restriction filter. Vegetarian and vegan need the label AND no meat or
+    animal keyword, because some labels are wrong.
+
+    Args:
+        df: Hugging Face recipes with 'ingredient_lines', 'recipe_name' and 'health_labels'.
+
+    Returns:
+        A copy of `df` with the flag columns added.
     """
     labels = df["health_labels"].apply(lambda x: set(parse_label_list(x)))
     df = add_keyword_flags(df, "ingredient_lines", name_col="recipe_name")
@@ -295,8 +327,15 @@ FOODCOM_TAG_CHECKS = [
 ]
 
 
-def foodcom_tag_agreement(df):
-    """For each Food.com dietary tag: (recipes with the tag, % where our flag agrees)."""
+def foodcom_tag_agreement(df: pd.DataFrame) -> pd.DataFrame:
+    """Compare our flags with the dietary tags Food.com authors added (FOODCOM_TAG_CHECKS).
+
+    Args:
+        df: Flagged Food.com recipes with their 'tags' column.
+
+    Returns:
+        One row per tag that appears: "recipes" with the tag and "agree (%)".
+    """
     tag_sets = df["tags"].apply(lambda t: set(parse_label_list(t)))
     rows = {}
     for tag, column, expected in FOODCOM_TAG_CHECKS:
@@ -306,8 +345,8 @@ def foodcom_tag_agreement(df):
     return pd.DataFrame(rows, index=["recipes", "agree (%)"]).T
 
 
-def print_flag_counts(df, title):
-    """Print how many recipes have each flag."""
+def print_flag_counts(df: pd.DataFrame, title: str) -> None:
+    """Print how many recipes have each flag, and what share of all recipes that is."""
     print(f"Restriction flag counts ({title}):")
     for flag in FLAG_COLUMNS:
         print(f"  {flag:20s}: {df[flag].sum():>8,} ({df[flag].mean() * 100:.1f}%)")

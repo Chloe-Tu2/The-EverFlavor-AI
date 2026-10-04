@@ -1,5 +1,8 @@
 """Ingredient names: cleaning and normalizing (5.4.4), used by the pipeline and the agents."""
+from __future__ import annotations
+
 import re
+from collections.abc import Iterable
 
 import numpy as np
 
@@ -49,8 +52,8 @@ IRREGULAR_PLURALS = {"leaves": "leaf", "loaves": "loaf", "halves": "half",
                      "cookies": "cookie", "brownies": "brownie", "pies": "pie"}
 
 
-def singular(word):
-    """Return a simple singular form of one word ('tomatoes' -> 'tomato')."""
+def singular(word: str) -> str:
+    """Return a simple singular form of one word ('tomatoes' -> 'tomato', 'leaves' -> 'leaf')."""
     if word in IRREGULAR_PLURALS:
         return IRREGULAR_PLURALS[word]
     if word in KEEP_AS_IS or len(word) <= 3:
@@ -66,13 +69,20 @@ def singular(word):
     return word
 
 
-def normalize_ingredient(name):
-    """Normalize one ingredient name. Returns a list (a few entries split in two).
+def normalize_ingredient(name: object) -> list[str]:
+    """Normalize one ingredient name so that variants count as one ingredient.
 
-    Steps: drop notes in brackets, strip a leading quantity and unit
-    ("1/2 cup ..."), keep only the part before a comma or " or "
-    ("onion, chopped" / "canola oil or vegetable oil"), drop leading
-    preparation words, then apply synonyms and a simple singular form.
+    Steps: drop notes in brackets, strip a leading quantity and unit ("1/2 cup
+    ..."), keep only the part before a comma or " or " ("onion, chopped",
+    "canola oil or vegetable oil"), drop leading preparation words, then apply
+    synonyms and a simple singular form.
+
+    Args:
+        name: One raw ingredient, for example "2 Large Eggs".
+
+    Returns:
+        Usually one name (["egg"]); two for entries such as "salt and pepper";
+        none if nothing is left.
     """
     text = re.sub(r"\(.*?\)", " ", str(name).lower())   # drop notes in brackets
     text = re.sub(r"\s+", " ", text).strip(" ,.;:-")
@@ -92,34 +102,30 @@ def normalize_ingredient(name):
     return [text] if text else []
 
 
-def normalize_ingredient_list(items):
-    """Normalize every ingredient in a list and drop repeats (order kept)."""
+def normalize_ingredient_list(items: Iterable[object]) -> list[str]:
+    """Normalize every ingredient in a list and drop repeats, keeping the order."""
     out = []
     for item in items:
         out.extend(normalize_ingredient(item))
     return list(dict.fromkeys(out))
 
 
-def clean_ingredients(raw):
-    """Parse a raw ingredient list string into a list of lowercase names.
-
-    Food.com stores lists in Python format ("['salt', 'sugar']") and
-    Hugging Face in JSON format ('["salt", "sugar"]'); both are handled.
-    """
+def clean_ingredients(raw: object) -> list[str]:
+    """Parse a raw ingredient list (Python or JSON text) into lowercase names with single spaces."""
     return [re.sub(r"\s+", " ", str(i).lower().strip()) for i in parse_list_string(raw)]
 
 
-def hf_ingredient_foods(raw):
-    """Return the plain food names from the Hugging Face 'ingredients' JSON.
+def hf_ingredient_foods(raw: object) -> list[str]:
+    """Return the plain food names from Hugging Face's 'ingredients' JSON.
 
-    Each entry looks like {"food": "kosher salt", "text": "1 tablespoon kosher salt", ...};
+    Each entry looks like {"food": "kosher salt", "text": "1 tablespoon kosher salt"};
     the 'food' field has no quantities, so it is the better ingredient name.
     """
     return [d["food"] for d in parse_list_string(raw) if isinstance(d, dict) and d.get("food")]
 
 
-def ingredient_text(value):
-    """Turn an ingredient list (or its text form) into one lowercase string."""
+def ingredient_text(value: object) -> str:
+    """Turn an ingredient list (or its text form) into one lowercase string joined by ' | '."""
     if isinstance(value, str):
         return value.lower()
     if isinstance(value, (list, tuple, np.ndarray)):
@@ -127,13 +133,13 @@ def ingredient_text(value):
     return ""
 
 
-def unique_ingredients(ingredients):
-    """Each ingredient once, in order (analyzer for the text features)."""
+def unique_ingredients(ingredients: Iterable[str]) -> list[str]:
+    """Return each ingredient once, in order (the analyzer for the text features)."""
     return list(dict.fromkeys(ingredients))
 
 
-def ingredient_tokens(ingredients):
-    """Analyzer for the cuisine classifier (6.6): each normalized ingredient is one token.
+def ingredient_tokens(ingredients: Iterable[str]) -> list[str]:
+    """Return the ingredients as tokens for the cuisine classifier (6.6).
 
     Lives in this module so a saved model can be loaded anywhere the
     everflavor package can be imported.
