@@ -197,6 +197,7 @@ flowchart LR
 - All sources combined into one recipe table and saved as Parquet.
 - Missing nutrition filled in: every recipe without believable listed values gets an estimate, labeled `estimated`, with a likely calorie range and the closest official USDA dish as a reference. A USDA nutrition table for about 40,000 ingredient names is saved for the Nutritionist Agent.
 - Country of origin for every recipe: from the source's own labels where they name one country (with a region only when the source names it), otherwise predicted by a model when it is at least 70% confident, otherwise `Unknown`. `origin_source` says which.
+- Recipes the project never serves are removed (policies P24, P25): meat from household pets (dogs, cats, guinea pigs; none were found) and recipes made for animals (dog biscuits, food for dogs). The safety filter also rejects pet meat for every user.
 - Diet profiles defined once as rules over the ingredient flags (halal-, kosher- and Jain-friendly, pescatarian, no beef, lower sodium, low carb; lacto-vegetarian, Vaishnava, Mahayana Buddhist, Orthodox fasting, Adventist, Latter-day Saint and Rastafari Ital; and medical screens for alpha-gal syndrome, pregnancy, G6PD deficiency, gout, MAOI medicines and nightshades), plus the allergen lists of the US, EU / UK, Canada, Australia / NZ, Japan and South Korea, used by the table, the validation checks and the safety filter alike. "-friendly" means no forbidden ingredients, never certified.
 - Data quality:
   - quantities removed from ingredient names

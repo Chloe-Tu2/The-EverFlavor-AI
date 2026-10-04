@@ -35,11 +35,13 @@ __all__ = [
     "MAX_MINUTES",
     "MAX_SERVINGS",
     "ORIGIN_LABEL_COLUMN",
+    "PET_FOOD_NAME",
     "RAW_COLUMNS",
     "SOURCE_PRIORITY",
     "clean_foodcom",
     "clean_huggingface",
     "combine_sources",
+    "remove_excluded_recipes",
     "run_pipeline",
     "split_by_ingredient_group",
     "split_tables",
@@ -253,6 +255,34 @@ def combine_sources(frames: Sequence[pd.DataFrame]) -> tuple[pd.DataFrame, pd.Se
     return df_all, counts_before, dropped_small
 
 
+# Recipe names that say the dish is made for an animal ("Dog Biscuits", "Chicken Casserole for Dogs")
+PET_FOOD_NAME = (r"\b(?:for (?:dogs|cats|your dog|your cat|pets|puppies)|dog (?:treats?|biscuits?|food|cookies?)"
+                 r"|dogg(?:y|ie) (?:treats?|biscuits?|nibblets)|puppy treats?|cat (?:treats?|food)|kitty treats?"
+                 r"|pet treats?)\b")
+
+
+def remove_excluded_recipes(df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, int]]:
+    """Remove recipes the project never serves (policy P24, P25).
+
+    - Recipes with meat from household pets (dogs, cats, guinea pigs): contains_pet_meat.
+    - Recipes made for animals, not people (PET_FOOD_NAME in the name).
+
+    Args:
+        df: The combined recipe table with the flag columns.
+
+    Returns:
+        (the remaining recipes with a fresh index, {reason: recipes removed}).
+
+    Raises:
+        ValueError: If 'recipe_name' or 'contains_pet_meat' is missing.
+    """
+    require_columns(df, ["recipe_name", "contains_pet_meat"], "remove_excluded_recipes")
+    pet_meat = df["contains_pet_meat"].astype(bool)
+    pet_food = df["recipe_name"].fillna("").astype(str).str.lower().str.contains(PET_FOOD_NAME, regex=True)
+    removed = {"meat from household pets": int(pet_meat.sum()), "made for pets, not people": int((pet_food & ~pet_meat).sum())}
+    return df[~(pet_meat | pet_food)].reset_index(drop=True), removed
+
+
 def _safe_strata(labels: pd.Series) -> pd.Series | None:
     """Return the labels for stratifying, or None if any label has fewer than 2 rows."""
     return labels if labels.value_counts().min() >= 2 else None
@@ -362,6 +392,9 @@ def validate_recipes(df: pd.DataFrame, origin_min_confidence: float) -> dict[str
                                                              | df["contains_shellfish"]).all(),
         "scaleless fish also count as fish"           : (~df["contains_scaleless_fish"] | df["contains_fish"]).all(),
         "unclean meat also counts as meat"            : (~df["contains_unclean_meat"] | df["contains_meat"]).all(),
+        "no pet meat and no recipes made for pets"    : (~df["contains_pet_meat"].astype(bool)).all()
+                                                         and not df["recipe_name"].fillna("").astype(str).str.lower()
+                                                         .str.contains(PET_FOOD_NAME, regex=True).any(),
         "every diet column follows its rule (5.4.7)"  : all((df[d] == meets_diet(df, d)).all() for d in DIET_PROFILES),
         "nutrition diets only with listed nutrition"  : (~df[list(NUTRITION_DIETS)].any(axis=1) | df["nutrition_plausible"]).all(),
         "origin_source has only allowed values"       : df["origin_source"].isin(["labeled", "predicted", "unknown"]).all(),

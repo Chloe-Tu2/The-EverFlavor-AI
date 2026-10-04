@@ -44,6 +44,7 @@ from everflavor.parsing import parse_label_list, parse_list_string
 from everflavor.pipeline import (
     MAX_KCAL_PER_SERVING,
     clean_huggingface,
+    remove_excluded_recipes,
     run_pipeline,
     split_by_ingredient_group,
     split_tables,
@@ -340,6 +341,24 @@ def test_wines_named_without_the_word_wine():
         assert not keyword_flag(text, "contains_alcohol"), text
 
 
+def test_pet_meat_and_pet_food_are_never_served():
+    assert keyword_flag("dog meat | chili paste", "contains_pet_meat")
+    assert keyword_flag("bosintang", "contains_pet_meat")
+    assert not keyword_flag("dog meat | chili paste", "vegetarian")
+    for text in ["hot dog | bun", "firehouse hot dog meat sauce", "chili dog stew", "yuk gaejang | beef",
+                 "catfish | cornmeal", "monkey bread | cinnamon"]:
+        assert not keyword_flag(text, "contains_pet_meat"), text
+    recipes = pd.DataFrame({"recipe_name": ["Beef Stew", "Peanut Butter Dog Biscuits", "Chicken Casserole for Dogs",
+                                            "Bosintang", "Hot Dog Stew"],
+                            "contains_pet_meat": [False, False, False, True, False]})
+    kept, removed = remove_excluded_recipes(recipes)
+    assert kept["recipe_name"].tolist() == ["Beef Stew", "Hot Dog Stew"]
+    assert removed == {"meat from household pets": 1, "made for pets, not people": 2}
+    # The safety filter rejects pet meat even when nobody asked to avoid it
+    assert not passes_safety_filter(pd.Series({"ingredient_list": ["dog meat"], "recipe_name": "Stew"}))
+    assert passes_safety_filter(pd.Series({"ingredient_list": ["beef"], "recipe_name": "Hot Dog Stew"}))
+
+
 def test_alcohol_extracts_are_their_own_flag():
     assert keyword_flag("vanilla | flour | sugar", "contains_alcohol_extract")
     assert keyword_flag("angostura bitters | orange", "contains_alcohol_extract")
@@ -467,8 +486,9 @@ def test_alcohol_left_after_cooking_is_a_range_that_never_clears_the_flag():
                             "methods_instructions": [["boil_simmer"], []], "methods_tags": [[], []],
                             "instructions": ["Simmer for 1 hour.", ""], "minutes": [60, 10]})
     out = add_alcohol_estimate(recipes)
-    assert out.loc[0, ["alcohol_left_min", "alcohol_left_max"]].tolist() == [0.25, 0.85]
-    assert out.loc[1, ["alcohol_left_min", "alcohol_left_max"]].isna().all()
+    left = out[["alcohol_left_min", "alcohol_left_max"]]
+    assert left.iloc[0].tolist() == [0.25, 0.85]
+    assert left.iloc[1].isna().tolist() == [True, True]                         # no alcohol: no estimate
     assert out["contains_alcohol"].tolist() == [True, False]                       # never cleared
     assert "alcohol_left_min" not in recipes                                        # input unchanged
 

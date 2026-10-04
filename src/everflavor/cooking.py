@@ -199,7 +199,7 @@ GENERIC_OILS = {"oil", "cooking oil", "frying oil", "oil for frying", "oil for d
 SPECIFIC_FATS = [f for f in FAT_KEYWORDS if f not in ("vegetable_oil", "cooking_spray")]
 
 
-def fats_from_ingredients(ingredients: Iterable[object]) -> list[str]:
+def fats_from_ingredients(ingredients: Iterable[object] | None) -> list[str]:
     """Return the cooking fats in an ingredient list, as fat_id values.
 
     Each ingredient gives at most one fat (the first FAT_KEYWORDS match, after
@@ -207,7 +207,8 @@ def fats_from_ingredients(ingredients: Iterable[object]) -> list[str]:
     only "oil" (GENERIC_OILS) gives "oil_unspecified".
 
     Args:
-        ingredients: Normalized ingredient names, for example ["olive oil", "garlic"].
+        ingredients: Normalized ingredient names, for example ["olive oil", "garlic"];
+            None (a recipe without a list) gives [].
 
     Returns:
         fat_id values in the order found, each once; [] if there are none.

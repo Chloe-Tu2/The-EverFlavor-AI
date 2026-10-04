@@ -24,9 +24,17 @@ def _in_colab() -> bool:
 
 
 def short_path(p: str | Path) -> str:
-    """Return a path with the home folder shown as ~, so usernames stay out of saved outputs."""
+    """Return a path with the home folder shown as ~, so usernames stay out of saved outputs.
+
+    Windows paths ignore case (VS Code may open the project with a lowercase
+    drive letter), so the comparison does too, and only a whole folder name
+    counts as the home folder.
+    """
     p, home = str(p), str(Path.home())
-    return "~" + p[len(home):] if p.startswith(home) else p
+    norm_p, norm_home = os.path.normcase(p), os.path.normcase(home).rstrip("\\/")
+    if norm_p == norm_home or norm_p.startswith(norm_home + os.sep):
+        return "~" + p[len(norm_home):]
+    return p
 
 
 def load_env_file(env_path: Path) -> bool:

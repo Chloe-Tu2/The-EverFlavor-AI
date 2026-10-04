@@ -95,6 +95,7 @@ Derived from keywords in the ingredients and the recipe name, plus Hugging Face 
 | `contains_mushroom` | contains mushrooms or savory truffles |
 | `contains_carmine` | contains carmine / cochineal (red coloring made from insects) |
 | `contains_scaleless_fish` | contains fish without fins and scales (catfish, eel, shark, monkfish, swordfish, sturgeon) |
+| `contains_pet_meat` | contains meat from household pets (dog, cat, guinea pig). Such recipes are removed and never served (policy P24) |
 | `contains_unclean_meat` | contains rabbit, horse, camel, alligator, frog legs or other animals that are not kosher besides pork |
 | `contains_coffee_or_tea` | contains coffee or tea (decaf included; herbal teas are not tea) |
 | `contains_added_salt` | contains added salt |

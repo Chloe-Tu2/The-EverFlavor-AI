@@ -69,6 +69,8 @@ __all__ = [
     "NIGHTSHADE_KEYWORDS",
     "PEANUT_EXCEPTIONS",
     "PEANUT_KEYWORDS",
+    "PET_MEAT_EXCEPTIONS",
+    "PET_MEAT_KEYWORDS",
     "PORK_EXCEPTIONS",
     "PORK_KEYWORDS",
     "POULTRY_EXCEPTIONS",
@@ -107,6 +109,7 @@ __all__ = [
     "make_flag",
     "name_text",
     "print_flag_counts",
+    "recipe_text",
 ]
 
 
@@ -185,6 +188,19 @@ def name_text(name: object) -> str:
     for phrase in sorted(COMPOUND_INGREDIENTS, key=len, reverse=True):
         text = re.sub(rf"\b{re.escape(phrase)}(?:s|es)?\b", " ", text)
     return text
+
+
+def recipe_text(ingredients: object, name: object) -> str:
+    """Return the text the flag rules read: the ingredients, then the name (see name_text).
+
+    Args:
+        ingredients: The ingredient list (or text).
+        name: The recipe name.
+
+    Returns:
+        Lowercase "ingredient | ingredient | name".
+    """
+    return ingredient_text(ingredients) + " | " + name_text(name)
 
 
 def _compounds(*flags: str) -> list[str]:
@@ -325,9 +341,14 @@ PROCESSED_MEAT_KEYWORDS = ["bacon", "ham", "prosciutto", "pancetta", "guanciale"
                            "corned beef", "pastrami", "jerky", "bresaola", "biltong", "spam",
                            "luncheon meat", "lunch meat", "deli meat", "cold cut", "jamon", "jamón",
                            "speck", "merguez", "boerewors"]
+# Meat from animals kept as household pets (dogs, cats, guinea pigs). The project never
+# recommends it (policy P24): such recipes are removed in 5.6 and the safety filter rejects them
+PET_MEAT_KEYWORDS = ["dog meat", "dogmeat", "cat meat", "puppy meat", "kitten meat", "bosintang",
+                     "boshintang", "gaejang", "thit cho", "thịt chó", "thit meo", "thịt mèo",
+                     "xiangrou", "guinea pig", "cuy"]
 # Every kind of land meat counts for contains_meat and rules out "vegetarian"
 LAND_MEAT_KEYWORDS = list(dict.fromkeys(LAND_MEAT_KEYWORDS + BEEF_KEYWORDS + RED_MEAT_KEYWORDS
-                                        + POULTRY_KEYWORDS + PROCESSED_MEAT_KEYWORDS))
+                                        + POULTRY_KEYWORDS + PROCESSED_MEAT_KEYWORDS + PET_MEAT_KEYWORDS))
 MEAT_KEYWORDS     = LAND_MEAT_KEYWORDS + FISH_KEYWORDS + SHELLFISH_KEYWORDS
 GELATIN_KEYWORDS  = ["gelatin", "gelatine", "jello", "jell-o", "marshmallow", "gummy", "gummies", "aspic"]
 HONEY_KEYWORDS    = ["honey"]
@@ -538,6 +559,9 @@ RAW_ANIMAL_EXCEPTIONS = ["sushi rice", "sushi vinegar", "sushi nori", "vegetable
                          "cooked eggnog", "eggnog flavored", "eggnog-flavored", "store-bought eggnog"]
 HIGH_PURINE_EXCEPTIONS = ["kidney bean", "root beer", "ginger beer", "non-alcoholic beer", "alcohol-free beer"]
 HIGH_TYRAMINE_EXCEPTIONS = ["romano bean"]
+# Hot dogs, chili dogs and corn dogs are sausages; yukgaejang is a spicy beef soup
+PET_MEAT_EXCEPTIONS = ["hot dog", "chili dog", "chilli dog", "corn dog", "coney dog", "yuk gaejang",
+                       "yook gaejang"]
 
 # Flag column -> (keywords, exceptions)
 FLAG_RULES = {
@@ -575,6 +599,7 @@ FLAG_RULES = {
     "contains_carmine"  : (CARMINE_KEYWORDS, ()),
     "contains_scaleless_fish": (SCALELESS_FISH_KEYWORDS, SCALELESS_FISH_EXCEPTIONS),
     "contains_unclean_meat": (UNCLEAN_MEAT_KEYWORDS, UNCLEAN_MEAT_EXCEPTIONS),
+    "contains_pet_meat" : (PET_MEAT_KEYWORDS, PET_MEAT_EXCEPTIONS),
     "contains_coffee_or_tea": (COFFEE_TEA_KEYWORDS, COFFEE_TEA_EXCEPTIONS),
     "contains_added_salt": (SALT_KEYWORDS, SALT_EXCEPTIONS),
     "contains_alcohol_extract": (ALCOHOL_EXTRACT_KEYWORDS, ALCOHOL_EXTRACT_EXCEPTIONS),
@@ -588,6 +613,19 @@ FLAG_RULES = {
     "contains_high_tyramine": (HIGH_TYRAMINE_KEYWORDS, HIGH_TYRAMINE_EXCEPTIONS),
 }
 FLAG_COLUMNS = list(FLAG_RULES) + ["vegetarian", "vegan"]
+
+
+@cache
+def _longest_first(phrases: tuple[str, ...]) -> tuple[str, ...]:
+    """Return exception phrases longest first, so 'sweet potato' is removed before 'potato' (cached)."""
+    return tuple(sorted(phrases, key=len, reverse=True))
+
+
+def _without_phrases(text: str, phrases: Sequence[str]) -> str:
+    """Replace every exception phrase in `text` with a space, longest first."""
+    for phrase in _longest_first(tuple(phrases)):
+        text = text.replace(phrase, " ")
+    return text
 
 
 @cache
@@ -615,9 +653,7 @@ def make_flag(ingredient_str: object, keywords: Sequence[str], exceptions: Seque
     """
     if not isinstance(ingredient_str, str):
         return False
-    text = ingredient_str.lower()
-    for phrase in sorted(exceptions, key=len, reverse=True):
-        text = text.replace(phrase, " ")
+    text = _without_phrases(ingredient_str.lower(), exceptions)
     return bool(_keyword_pattern(tuple(keywords)).search(text))
 
 # A recipe name that declares the dish gluten-free
@@ -707,9 +743,7 @@ def explain_flag(text: object, column: str) -> list[str]:
         keywords, exceptions = ANIMAL_KEYWORDS, ANIMAL_EXCEPTIONS
     else:
         keywords, exceptions = FLAG_RULES[column]
-    text = text.lower()
-    for phrase in sorted(exceptions, key=len, reverse=True):
-        text = text.replace(phrase, " ")
+    text = _without_phrases(text.lower(), exceptions)
     return list(dict.fromkeys(m.group(0) for m in _keyword_pattern(tuple(keywords)).finditer(text)))
 
 

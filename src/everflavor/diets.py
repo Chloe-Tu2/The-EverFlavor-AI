@@ -20,10 +20,11 @@ __all__ = [
 
 DIET_PROFILES: dict[str, dict[str, list]] = {
     # Policy P18 (open): whether flavor extracts (contains_alcohol_extract) count is not decided yet
-    "halal_friendly" : {"without": ["contains_pork", "contains_alcohol", "contains_gelatin"]},
+    "halal_friendly" : {"without": ["contains_pork", "contains_alcohol", "contains_gelatin", "contains_pet_meat"]},
     # Fish without fins and scales, rabbit, horse ... and insect-based carmine are not kosher (P11)
     "kosher_friendly": {"without": ["contains_pork", "contains_shellfish", "contains_gelatin",
-                                    "contains_scaleless_fish", "contains_unclean_meat", "contains_carmine"],
+                                    "contains_scaleless_fish", "contains_unclean_meat", "contains_carmine",
+                                    "contains_pet_meat"],
                         "not_together": [("contains_meat", "contains_dairy")]},
     "pescatarian"    : {"without": ["contains_meat"]},
     "no_beef"        : {"without": ["contains_beef", "contains_gelatin"]},
@@ -47,7 +48,8 @@ DIET_PROFILES: dict[str, dict[str, list]] = {
     # Seventh-day Adventist "clean" foods: no pork, shellfish, scaleless fish or other unclean meat,
     # no alcohol, coffee or tea
     "adventist_friendly": {"without": ["contains_pork", "contains_shellfish", "contains_scaleless_fish",
-                                       "contains_unclean_meat", "contains_alcohol", "contains_coffee_or_tea"]},
+                                       "contains_unclean_meat", "contains_pet_meat", "contains_alcohol",
+                                       "contains_coffee_or_tea"]},
     # Latter-day Saints: no alcohol, coffee or tea
     "lds_friendly"   : {"without": ["contains_alcohol", "contains_coffee_or_tea"]},
     # Rastafari Ital: plant-based, no alcohol, no added salt

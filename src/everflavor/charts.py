@@ -13,6 +13,7 @@ __all__ = [
     "FAMILY_COLORS",
     "FAMILY_ORDER",
     "FIGURE_DIR",
+    "SAVE_DPI",
     "SOURCE_LABELS",
     "label_bars",
     "set_chart_style",
@@ -28,6 +29,9 @@ SOURCE_LABELS = {"foodcom": "Food.com", "huggingface": "Hugging Face",
 FAMILY_ORDER = ["African", "Middle Eastern", "Latin American", "Asian", "European", "Other"]
 # Same color for each cuisine family in every chart
 FAMILY_COLORS = dict(zip(FAMILY_ORDER, sns.color_palette("muted", 5) + [(0.7, 0.7, 0.7)]))
+
+
+SAVE_DPI = 200
 
 
 def set_chart_style() -> None:
@@ -57,7 +61,8 @@ def show_figure(fig: Figure, name: str, folder: str | Path = FIGURE_DIR) -> None
     folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
     fig.tight_layout()
-    fig.savefig(folder / f"{name}.png", bbox_inches="tight", dpi=110)
+    # 200 dpi, so a saved chart stays sharp when opened full screen and zoomed in
+    fig.savefig(folder / f"{name}.png", bbox_inches="tight", dpi=SAVE_DPI)
     plt.show()
 
 
