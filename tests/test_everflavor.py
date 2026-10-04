@@ -19,7 +19,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from everflavor.checks import require_columns
 from everflavor.cooking import (
     FAT_KEYWORDS,
+    add_alcohol_estimate,
     add_cooking_labels,
+    alcohol_left_range,
     fat_reference,
     fats_from_ingredients,
     methods_from_instructions,
@@ -444,6 +446,22 @@ def test_cooking_fat_reference_file_matches_the_keyword_table():
     low, high = reference["smoke_point_c_low"], reference["smoke_point_c_high"]
     assert (low.isna() == high.isna()).all() and (low.dropna() <= high.dropna()).all()
     assert len(fat_reference(reference)) == len(reference)
+
+
+def test_alcohol_left_after_cooking_is_a_range_that_never_clears_the_flag():
+    assert alcohol_left_range([], None, None) == (0.70, 1.0)                    # not heated
+    assert alcohol_left_range(["boil_simmer"], "Simmer 2 hours.", 150) == (0.05, 0.85)
+    assert alcohol_left_range(["boil_simmer"], "Simmer.", 10) == (0.40, 0.85)
+    assert alcohol_left_range(["pan_fry"], "Add brandy and flambe.", 20) == (0.35, 0.75)
+    assert alcohol_left_range(["bake_roast"], "Bake.", float("nan")) == (0.05, 0.85)   # time unknown
+    recipes = pd.DataFrame({"contains_alcohol": [True, False], "contains_alcohol_extract": [False, False],
+                            "methods_instructions": [["boil_simmer"], []], "methods_tags": [[], []],
+                            "instructions": ["Simmer for 1 hour.", ""], "minutes": [60, 10]})
+    out = add_alcohol_estimate(recipes)
+    assert out.loc[0, ["alcohol_left_min", "alcohol_left_max"]].tolist() == [0.25, 0.85]
+    assert out.loc[1, ["alcohol_left_min", "alcohol_left_max"]].isna().all()
+    assert out["contains_alcohol"].tolist() == [True, False]                       # never cleared
+    assert "alcohol_left_min" not in recipes                                        # input unchanged
 
 if __name__ == "__main__":
     tests = [(name, test) for name, test in sorted(globals().items()) if name.startswith("test_")]

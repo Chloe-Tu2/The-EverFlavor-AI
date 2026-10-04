@@ -351,6 +351,10 @@ python -m ruff check src tests notebooks                 # mistakes and style
 python -m pymarkdown --config config/pymarkdown.json scan README.md docs   # Markdown formatting
 ```
 
+GitHub runs the same checks automatically on every push and pull request (`.github/workflows/checks.yml`; results under the repository's **Actions** tab), so a broken change is caught even if someone forgets to run them.
+
+**Working rules.** Every change follows [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md): runs unchanged in Colab, VS Code and Antigravity; all checks pass before a push; keys never leave Colab Secrets or `config/.env`; flags only ever add cautions; every judgment call is a recorded policy with the name of who decided it; and README numbers come from the latest full run.
+
 ---
 
 ## Project Structure
@@ -377,7 +381,7 @@ The-EverFlavor-AI/
 │       ├── nutrition.py, features.py    # nutrition, USDA matching, text features
 │       ├── pipeline.py                  # cleaning, run_pipeline, combining, splitting, validation
 │       ├── review.py                    # flag review rounds and the human-verification evidence
-│       ├── cooking.py                   # cooking methods and cooking fats (notebook 02)
+│       ├── cooking.py                   # cooking methods, cooking fats, alcohol left after cooking (notebook 02)
 │       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py
 ├── tests/
 │   ├── test_everflavor.py   # What each shared function promises
@@ -387,6 +391,7 @@ The-EverFlavor-AI/
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
 │   ├── flag_review/  # Blind 200-recipe samples per round, their labels, and the human decisions
 │   │                 # (flag_policies.csv, compound_ingredients_review.csv, human_signoff.csv)
+│   ├── CONTRIBUTING.md     # Working rules for every change (team and AI assistants)
 │   ├── datasheet.md        # What is in the dataset, how it was built, known limits
 │   ├── data_dictionary.md  # Every column of the recipe table
 │   ├── sources.md          # Every data source: URL, license, access method, version
@@ -398,7 +403,9 @@ The-EverFlavor-AI/
 │   ├── requirements.txt      # Python libraries for the notebook
 │   ├── requirements-dev.txt  # Optional checking tools (VS Code / Antigravity)
 │   ├── mypy.ini              # Settings for the type checker
+│   ├── pymarkdown.json       # Settings for the Markdown checker
 │   └── .env.example          # Template for API keys (copy to config/.env, which git ignores)
+├── .github/workflows/checks.yml  # The checks GitHub runs on every push
 ├── .gitignore
 ├── LICENSE
 └── README.md

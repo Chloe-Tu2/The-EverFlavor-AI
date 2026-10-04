@@ -1,0 +1,40 @@
+# Runs the project's checks on every push and pull request (docs/CONTRIBUTING.md, rule 2).
+# No API keys are needed: the tests use small made-up tables, not downloaded data.
+name: checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"   # the version Google Colab runs
+          cache: pip
+          cache-dependency-path: |
+            config/requirements.txt
+            config/requirements-dev.txt
+
+      - name: Install the libraries and checking tools
+        run: pip install -r config/requirements-dev.txt
+
+      - name: Tests and security checks
+        run: python -m pytest tests
+
+      - name: Ruff (mistakes and style)
+        run: python -m ruff check src tests notebooks
+
+      - name: mypy (type hints)
+        run: python -m mypy --config-file config/mypy.ini
+
+      - name: PyMarkdown (Markdown formatting)
+        run: python -m pymarkdown --config config/pymarkdown.json scan README.md docs

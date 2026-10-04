@@ -1,5 +1,6 @@
-"""Cooking methods and cooking fats (notebook 02): reference table, rule labels
-and the checks that compare them with Food.com's own tags.
+"""Cooking methods and cooking fats (notebook 02): reference table, rule labels,
+the checks that compare them with Food.com's own tags, and how much alcohol is
+left after cooking.
 
 Safety rule: these labels can add a caution (for example "frying oil not
 stated") but never clear a restriction flag. Fat guesses are recommendations
@@ -20,20 +21,29 @@ from .flags import make_flag
 from .parsing import parse_list_string
 
 __all__ = [
+    "ALCOHOL_ADDED_AT_END",
+    "ALCOHOL_FLAMBE",
+    "ALCOHOL_NO_HEAT",
+    "ALCOHOL_RETENTION_BY_MINUTES",
     "COOKING_METHODS",
     "FAT_EXCEPTIONS",
     "FAT_KEYWORDS",
     "FAT_NUTRIENTS",
+    "FLAMBE_PATTERN",
     "FOODCOM_METHOD_TAGS",
     "FRIED_DISHES",
     "GENERIC_FRY",
     "GENERIC_OILS",
+    "HEATED_METHODS",
     "HEAT_WORDS",
     "METHOD_PATTERNS",
     "NOT_FRIED_NAME",
     "REFERENCE_FILE",
     "SPECIFIC_FATS",
+    "add_alcohol_estimate",
     "add_cooking_labels",
+    "alcohol_left_range",
+    "alcohol_retention",
     "fat_reference",
     "fats_from_ingredients",
     "method_label_agreement",
@@ -254,6 +264,93 @@ def add_cooking_labels(df: pd.DataFrame, foodcom_tags: Mapping[str, object] | No
              | df["methods_tags"].apply(lambda m: "deep_fry" in m)
              | df["methods_instructions"].apply(lambda m: "deep_fry" in m))
     df["frying_fat_unknown"] = fried & ~df["fat_specific"]
+    return df
+
+
+# ------------------------------------------------------------------ alcohol left after cooking
+# USDA Table of Nutrient Retention Factors, Release 6 (2007): share of the alcohol
+# still in the dish after baking or simmering with the alcohol stirred in, by minutes
+ALCOHOL_RETENTION_BY_MINUTES = [(15, 0.40), (30, 0.35), (60, 0.25), (90, 0.20), (120, 0.10), (150, 0.05)]
+ALCOHOL_ADDED_AT_END = 0.85    # added to boiling liquid and taken off the heat
+ALCOHOL_FLAMBE = 0.75          # flamed
+ALCOHOL_NO_HEAT = (0.70, 1.0)  # no heat: 70% after a night in the fridge, all of it when served at once
+FLAMBE_PATTERN = r"\bflamb[eé]\w*|\bignite\w*|\bset (?:it )?alight\b|\bcarefully light\b"
+HEATED_METHODS = [m for m in COOKING_METHODS if m != "no_cook"]
+
+
+def alcohol_retention(minutes: float) -> float:
+    """Return the USDA share of alcohol left after `minutes` of baking or simmering.
+
+    Args:
+        minutes: Cooking time; 15 minutes or less gives the 15-minute value,
+            more than 2.5 hours the 2.5-hour value (5%).
+
+    Returns:
+        The share left, from 0.05 to 0.40.
+    """
+    for limit, share in ALCOHOL_RETENTION_BY_MINUTES:
+        if minutes <= limit:
+            return share
+    return ALCOHOL_RETENTION_BY_MINUTES[-1][1]
+
+
+def alcohol_left_range(methods: Iterable[str], instructions: object, minutes: float | None) -> tuple[float, float]:
+    """Estimate how much of a recipe's alcohol is left after cooking, as a range.
+
+    A recipe rarely says when the alcohol goes in, so the range runs from "added at
+    the start and cooked the whole time" to "added at the end" (USDA retention
+    factors). The recipe's time includes preparation, so the low end can be too low.
+
+    Args:
+        methods: Cooking methods (from the instructions or the tags).
+        instructions: The steps, used to spot flambé; anything else is ignored.
+        minutes: Total recipe time; missing (None or NaN) or 0 means unknown.
+
+    Returns:
+        (lowest share, highest share) of the alcohol left, between 0 and 1.
+    """
+    methods = set(methods)
+    heated = bool(methods & set(HEATED_METHODS))
+    if not heated:
+        return ALCOHOL_NO_HEAT
+    flambe = isinstance(instructions, str) and re.search(FLAMBE_PATTERN, instructions.lower()) is not None
+    high = ALCOHOL_FLAMBE if flambe and methods <= {"pan_fry"} else ALCOHOL_ADDED_AT_END
+    if minutes is not None and not pd.isna(minutes) and minutes > 0:
+        low = alcohol_retention(minutes)
+    else:
+        low = ALCOHOL_RETENTION_BY_MINUTES[-1][1]
+    return min(low, high), high
+
+
+def add_alcohol_estimate(df: pd.DataFrame) -> pd.DataFrame:
+    """Add alcohol_left_min and alcohol_left_max (shares) for recipes that contain alcohol.
+
+    Information only: the estimate never clears contains_alcohol or
+    contains_alcohol_extract, because for halal, pregnancy, children and people
+    avoiding alcohol any amount can matter (policy P18).
+
+    Args:
+        df: Recipes after add_cooking_labels, with the alcohol flags, 'instructions' and 'minutes'.
+
+    Returns:
+        A copy of `df` with the two columns added (empty for recipes without alcohol).
+
+    Raises:
+        ValueError: If a needed column is missing.
+    """
+    needed = ["contains_alcohol", "contains_alcohol_extract", "methods_instructions", "methods_tags",
+              "instructions", "minutes"]
+    require_columns(df, needed, "add_alcohol_estimate")
+    df = df.copy()
+    has_alcohol = df["contains_alcohol"] | df["contains_alcohol_extract"]
+    rows = df.loc[has_alcohol]
+    minutes = pd.to_numeric(rows["minutes"], errors="coerce")
+    ranges = pd.Series([alcohol_left_range([*from_text, *from_tags], text, time)
+                        for from_text, from_tags, text, time in zip(rows["methods_instructions"], rows["methods_tags"],
+                                                                    rows["instructions"], minutes)],
+                       index=rows.index, dtype=object)
+    df["alcohol_left_min"] = ranges.str[0].reindex(df.index).astype(float)
+    df["alcohol_left_max"] = ranges.str[1].reindex(df.index).astype(float)
     return df
 
 
