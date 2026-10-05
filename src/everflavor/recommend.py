@@ -90,17 +90,26 @@ def baseline_recommend(
         top_n: Number of recommendations.
 
     Returns:
-        The top recipes with a 'calorie_distance' column, or an empty dataframe
-        when nothing matches.
+        The top recipes with a 'calorie_distance' column; no rows (same columns) when
+        nothing matches.
+
+    Raises:
+        ValueError: If `calorie_target` is not positive or `cuisine_family` is not one of
+            the families in `df` (case is ignored: "asian" means "Asian").
     """
     require_columns(df, ["recipe_name", "ingredient_list", "cuisine_family", "calories_per_serving",
                          "nutrition_plausible", "vegetarian", "vegan", "contains_gluten", *avoid, *diets],
                     "baseline_recommend")
+    if not calorie_target > 0:
+        raise ValueError(f"calorie_target must be a positive number of kcal, got {calorie_target!r}")
     results = df.copy()
 
-    # Step 1: Filter by cuisine family
+    # Step 1: Filter by cuisine family (an unknown name is an error, not "no recipes")
     if cuisine_family:
-        results = results[results["cuisine_family"] == cuisine_family]
+        families = {str(f).lower(): f for f in df["cuisine_family"].dropna().unique()}
+        if str(cuisine_family).strip().lower() not in families:
+            raise ValueError(f"unknown cuisine_family {cuisine_family!r}; one of {sorted(families.values())}")
+        results = results[results["cuisine_family"] == families[str(cuisine_family).strip().lower()]]
 
     # Step 2: Apply dietary flags
     if vegetarian_only:
@@ -119,7 +128,7 @@ def baseline_recommend(
 
     if results.empty:
         print("No recipes matched the given filters.")
-        return pd.DataFrame()
+        return results.assign(calorie_distance=pd.Series(dtype=float))
 
     # Step 4: Rank by distance to calorie target
     results["calorie_distance"] = (results["calories_per_serving"] - calorie_target).abs()

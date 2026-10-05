@@ -107,13 +107,15 @@ def macro_quality(recipes: pd.DataFrame) -> pd.DataFrame:
     """
     require_columns(recipes, ["calories_per_serving", "protein_g", "fat_g", "carbs_g", "sodium_mg"], "macro_quality")
     out = recipes.copy()
-    kcal_from = pd.DataFrame({"protein": out["protein_g"] * 4, "fat": out["fat_g"] * 9, "carb": out["carbs_g"] * 4})
-    total = kcal_from.sum(axis=1).replace(0, np.nan)
+    grams = out[["protein_g", "fat_g", "carbs_g"]].where(lambda g: g >= 0)   # a negative amount is an error
+    kcal_from = pd.DataFrame({"protein": grams["protein_g"] * 4, "fat": grams["fat_g"] * 9, "carb": grams["carbs_g"] * 4})
+    # All three are needed: with one missing, the other shares would look larger than they are
+    total = kcal_from.sum(axis=1, skipna=False).replace(0, np.nan)
     for part in ("protein", "fat", "carb"):
         out[f"{part}_pct_kcal"] = (100 * kcal_from[part] / total).round(1)
     calories = out["calories_per_serving"].where(out["calories_per_serving"] > 0)
-    out["protein_g_per_100kcal"] = (100 * out["protein_g"] / calories).round(2)
-    out["sodium_mg_per_kcal"] = (out["sodium_mg"] / calories).round(2)
+    out["protein_g_per_100kcal"] = (100 * grams["protein_g"] / calories).round(2)
+    out["sodium_mg_per_kcal"] = (out["sodium_mg"].where(out["sodium_mg"] >= 0) / calories).round(2)
     out["high_protein"] = out["protein_pct_kcal"].ge(20)
     out["lower_fat"] = out["fat_pct_kcal"].lt(30)
     out["lower_carb"] = out["carb_pct_kcal"].lt(26)
@@ -133,4 +135,5 @@ def recipe_rich_in(recipes: pd.DataFrame, ingredients: pd.DataFrame) -> pd.Serie
     """
     rich = {i: set(r) for i, r in zip(ingredients["ingredient"], ingredients["rich_in"]) if len(r)}
     return recipes["ingredient_list"].map(
-        lambda items: sorted(set().union(*(rich.get(str(i), set()) for i in items))) if len(items) else [])
+        lambda items: sorted(set().union(*(rich.get(str(i), set()) for i in items)))
+        if items is not None and len(items) else [])

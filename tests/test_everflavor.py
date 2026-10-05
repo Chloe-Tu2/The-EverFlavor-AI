@@ -24,6 +24,7 @@ from everflavor.cooking import (
     add_alcohol_estimate,
     add_cooking_labels,
     alcohol_left_range,
+    alcohol_retention,
     fat_reference,
     fats_from_ingredients,
     method_label_agreement,
@@ -474,6 +475,27 @@ def test_alcohol_extracts_are_their_own_flag():
         assert not keyword_flag(f"{name} | flour", "contains_alcohol_extract"), name
 
 
+def test_regional_and_brand_names_set_allergen_flags():
+    # Found by probing each allergen with names an AI or a cookbook would write (2026-10-05)
+    named = {"contains_dairy": ["parmigiano-reggiano", "grana padano", "comte", "fontina", "monterey jack", "velveeta",
+                                "cotija", "chevre", "skyr", "dahi", "curd", "khoya", "kulfi", "gelato", "dulce de leche"],
+             "contains_egg": ["custard", "albumen", "bearnaise sauce", "lemon curd"],
+             "contains_peanut": ["satay sauce", "arachis oil"], "contains_tree_nut": ["pignoli", "orgeat syrup"],
+             "contains_fish": ["worcestershire", "imitation crab", "bacalao"], "contains_crustacean": ["xo sauce"],
+             "contains_soy": ["okara"], "contains_sesame": ["dukkah"], "contains_gluten": ["soba", "einkorn"],
+             "contains_pork": ["speck", "nduja", "chicharron", "char siu", "coppa"]}
+    for column, names in named.items():
+        for name in names:
+            assert keyword_flag(name, column), (name, column)
+    look_alikes = {"contains_dairy": ["bean curd", "custard apple", "vegan gelato"],
+                   "contains_egg": ["custard apple", "custard powder", "8 custard cup", "custard style yogurt"],
+                   "contains_fish": ["vegan worcestershire sauce"], "contains_gluten": ["juwari soba"],
+                   "contains_pork": ["char siu sauce"]}
+    for column, names in look_alikes.items():
+        for name in names:
+            assert not keyword_flag(name, column), (name, column)
+
+
 def test_policy_p18_halal_rule():
     halal = DIET_PROFILES["halal_friendly"]["without"]
     assert {"contains_alcohol_extract", "contains_carmine", "contains_rennet"} <= set(halal)
@@ -624,6 +646,7 @@ def test_alcohol_left_after_cooking_is_a_range_that_never_clears_the_flag():
     assert alcohol_left_range(["boil_simmer"], "Simmer 2 hours.", 150) == (0.05, 0.85)
     assert alcohol_left_range(["boil_simmer"], "Simmer.", 10) == (0.40, 0.85)
     assert alcohol_left_range(["pan_fry"], "Add brandy and flambe.", 20) == (0.35, 0.75)
+    assert alcohol_retention(float("nan")) == 0.40                         # unknown time: the cautious value
     assert alcohol_left_range(["bake_roast"], "Bake.", float("nan")) == (0.05, 0.85)   # time unknown
     recipes = pd.DataFrame({"contains_alcohol": [True, False], "contains_alcohol_extract": [False, False],
                             "methods_instructions": [["boil_simmer"], []], "methods_tags": [[], []],

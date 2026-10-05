@@ -20,6 +20,7 @@ os.environ.setdefault("MPLBACKEND", "Agg")   # draw charts without a screen (Git
 
 import numpy as np
 import pandas as pd
+import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
@@ -328,7 +329,12 @@ def test_baseline_recommend_filters_ranks_and_rechecks():
     df = pd.DataFrame(rows)
     out = baseline_recommend(df, calorie_target=500, avoid=("contains_pork",), top_n=3)
     assert out["recipe_name"].tolist() == ["Lentil Soup", "Rice Bowl"]
-    assert baseline_recommend(df, cuisine_family="Asian").empty
+    none = baseline_recommend(df, cuisine_family="european", avoid=("vegan",))   # case ignored; nothing left
+    assert none.empty and {"recipe_name", "calorie_distance"} <= set(none.columns)  # same columns, no crash
+    with pytest.raises(ValueError):
+        baseline_recommend(df, cuisine_family="Klingon")                       # a typo is an error, not "none"
+    with pytest.raises(ValueError):
+        baseline_recommend(df, calorie_target=-50)
 
 
 def test_every_diet_rule_is_described():

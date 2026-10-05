@@ -8,6 +8,7 @@ only.
 """
 from __future__ import annotations
 
+import math
 import re
 from collections.abc import Iterable, Mapping
 from functools import cache
@@ -288,11 +289,14 @@ def alcohol_retention(minutes: float) -> float:
 
     Args:
         minutes: Cooking time; 15 minutes or less gives the 15-minute value,
-            more than 2.5 hours the 2.5-hour value (5%).
+            more than 2.5 hours the 2.5-hour value (5%). Missing (NaN) gives the
+            15-minute value: an unknown time must not look like a long one.
 
     Returns:
         The share left, from 0.05 to 0.40.
     """
+    if math.isnan(minutes):
+        return ALCOHOL_RETENTION_BY_MINUTES[0][1]
     for limit, share in ALCOHOL_RETENTION_BY_MINUTES:
         if minutes <= limit:
             return share

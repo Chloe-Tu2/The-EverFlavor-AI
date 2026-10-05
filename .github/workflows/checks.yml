@@ -11,7 +11,9 @@ permissions:
 
 jobs:
   checks:
-    runs-on: ubuntu-latest
+    # A fixed version: ubuntu-latest moves to Ubuntu 26 on 2026-10-19, which could change the
+    # checks without any change of ours. Upgrade on purpose, after a test run.
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4

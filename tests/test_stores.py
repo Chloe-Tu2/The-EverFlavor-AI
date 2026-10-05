@@ -151,6 +151,7 @@ def test_off_products_link_and_suggest_where_to_buy(tmp_path):
     tip = suggest_where_to_buy("soy sauce", "China", links, places)
     assert tip["home_brands"] == ["Lee Kum Kee"] and tip["stores_to_try"] == ["Hong Kong Food Market"]
     assert tip["store_match"] == "cuisine" and tip["note"] == UNVERIFIED_NOTE
+    assert suggest_where_to_buy(" Soy Sauce ", "china", links, places) == tip   # as people type it
     asian = places.assign(name_hint=["asian", ""])
     assert suggest_where_to_buy("soy sauce", "Japan", links, asian)["store_match"] == "region"
     latin = places.assign(name_hint=["latin american", ""])

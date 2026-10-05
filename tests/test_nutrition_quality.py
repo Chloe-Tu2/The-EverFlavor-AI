@@ -69,5 +69,15 @@ def test_macro_quality_shares_and_labels():
         macro_quality(recipes.drop(columns="sodium_mg"))
 
 
+def test_macro_quality_needs_every_macro_and_ignores_negative_amounts():
+    recipes = pd.DataFrame({"calories_per_serving": [300.0, 300.0], "protein_g": [30.0, -5.0],
+                            "fat_g": [None, 10.0], "carbs_g": [10.0, 30.0], "sodium_mg": [100.0, -1.0]})
+    out = macro_quality(recipes)
+    assert out["protein_pct_kcal"].isna().all()          # fat missing / protein negative: no shares
+    assert not out["high_protein"].any() and not out["lower_sodium_density"].iloc[1]
+    rich = pd.DataFrame({"ingredient": ["lentil"], "rich_in": [["iron"]]})
+    assert recipe_rich_in(pd.DataFrame({"ingredient_list": [None, ["lentil"]]}), rich).tolist() == [[], ["iron"]]
+
+
 if __name__ == "__main__":
     sys.exit(pytest.main([__file__, "-q"]))

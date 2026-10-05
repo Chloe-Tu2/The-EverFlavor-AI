@@ -230,7 +230,9 @@ PORK_KEYWORDS     = ["pork", "bacon", "ham", "prosciutto", "pancetta", "guancial
                      "sausage", "salami", "chorizo", "lard", "lardon", "pepperoni",
                      "kielbasa", "andouille", "bratwurst", "mortadella", "capicola",
                      "boston butt", "spare rib", "baby back rib", "hot dog",
-                     "frankfurter", "wiener", "bologna", "jamon", "jamón"]
+                     "frankfurter", "wiener", "bologna", "jamon", "jamón",
+                     # cured pork and pork dishes named without "pork" (found by an ingredient-name probe)
+                     "speck", "nduja", "chicharron", "char siu", "coppa", "lardo"]
 # Wines and ciders named without the word "wine" ("1 cup chardonnay", "1/2 cup tawny port"), policy P23.
 # Each wine lists its other names ("aliases") and the look-alikes that are not wine ("not_wine").
 # Write each name once, with its accents: spelling_variants adds the plain and hyphenated forms.
@@ -404,31 +406,42 @@ GLUTEN_KEYWORDS   = ["flour", "bread", "wheat", "pasta", "noodle", "barley", "ry
                      "dinner roll", "kaiser roll", "sub roll", "bread roll", "matzo", "matzah",
                      "graham", "stuffing", "breading", "bisquick", "cake mix", "brownie mix",
                      "waffle", "pasty", "pasties",
-                     "farina", "wheat germ", "durum", "kamut", "freekeh", "triticale",
+                     "farina", "wheat germ", "durum", "kamut", "freekeh", "triticale", "einkorn", "emmer",
+                     # most soba is part wheat (100% buckwheat soba is in the exceptions)
+                     "soba",
                      # sauces and soups usually made with wheat
                      "teriyaki", "hoisin", "oyster sauce", "gochujang", "shoyu", "ponzu", "soya sauce",
                      "cream of mushroom soup", "cream of chicken soup", "cream of celery soup",
                      "minestrone"] + _compounds("contains_gluten")
-DAIRY_KEYWORDS    = ["milk", "buttermilk", "cheese", "butter", "cream", "yogurt", "yoghurt",
+DAIRY_KEYWORDS    = (["milk", "buttermilk", "cheese", "butter", "cream", "yogurt", "yoghurt",
                      "ghee", "mozzarella", "parmesan", "ricotta", "mascarpone", "feta", "whey",
                      "cheddar", "brie", "camembert", "gouda", "gruyere", "gorgonzola", "burrata",
                      "halloumi", "paneer", "queso", "provolone", "pecorino", "emmental", "manchego",
                      "labneh", "kefir", "quark", "creme fraiche", "half-and-half", "half and half",
                      "custard", "cheesecake", "casein", "caseinate", "whipped topping", "cool whip",
                      "alfredo", "bechamel", "tzatziki", "raita", "lassi", "smen", "niter kibbeh",
-                     "niter kebbeh"] + _compounds("contains_dairy")
+                     "niter kebbeh",
+                     # cheeses and dairy foods named without "cheese" or "milk"
+                     "parmigiano", "grana padano", "comte", "raclette", "fontina", "asiago", "roquefort",
+                     "taleggio", "havarti", "jarlsberg", "edam", "muenster", "colby", "monterey jack",
+                     "pepper jack", "velveeta", "cotija", "chevre", "stracciatella", "scamorza",
+                     "caciocavallo", "kashkaval", "labne", "skyr", "dahi", "curd", "khoa", "khoya", "malai",
+                     "rabri", "kulfi", "gelato", "dulce de leche", "cajeta", "lactose", "bearnaise"]
+                    + _compounds("contains_dairy"))
 EGG_KEYWORDS      = ["egg", "egg white", "egg yolk", "mayonnaise", "mayo", "meringue", "eggnog",
                      "aioli", "hollandaise", "carbonara", "quiche", "frittata", "challah",
                      "brioche", "cheesecake", "macaron", "wonton",
                      # Egg Beaters and similar "egg substitutes" are made from egg whites
-                     "eggbeater", "egg beater", "egg substitute"] + _compounds("contains_egg")
+                     "eggbeater", "egg beater", "egg substitute",
+                     "custard", "albumen", "bearnaise", "lemon curd", "lime curd", "orange curd", "passion fruit curd",
+                     "fruit curd"] + _compounds("contains_egg")
 # Policy: a plain "nut" may be peanuts, so it sets the peanut flag too
 PEANUT_KEYWORDS   = ["peanut", "peanut butter", "peanut oil", "groundnut", "ground nut",
-                     "nut"] + _compounds("contains_peanut")
+                     "nut", "arachis", "goober", "satay"] + _compounds("contains_peanut")
 TREE_NUT_KEYWORDS = ["almond", "walnut", "pecan", "cashew", "pistachio", "hazelnut",
                      "filbert", "macadamia", "brazil nut", "pine nut", "nut", "nutella",
                      "praline", "marzipan", "macaron", "frangipane", "amaretti", "pesto",
-                     "baklava", "nougat", "gianduja", "marcona"] + _compounds("contains_tree_nut") + named_foods("contains_tree_nut")
+                     "baklava", "nougat", "gianduja", "marcona", "pignoli", "pinoli", "orgeat", "dukkah"] + _compounds("contains_tree_nut") + named_foods("contains_tree_nut")
 FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "sardine",
                      "tilapia", "halibut", "trout", "mackerel", "haddock", "catfish",
                      "snapper", "swordfish", "mahi mahi", "flounder", "sole", "hake",
@@ -438,7 +451,8 @@ FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "s
                      "fish sauce", "worcestershire sauce", "bonito", "caviar",
                      "dashi", "katsuobushi", "nam pla", "nuoc mam", "caesar dressing",
                      "shark", "unagi", "sturgeon", "skate", "stingray", "fugu", "pufferfish", "lamprey",
-                     "marlin", "tilefish", "bullhead",
+                     "marlin", "tilefish", "bullhead", "worcestershire", "imitation crab", "bacalao",
+                     "bacalhau", "baccala", "tarama", "taramasalata",
                      # Policy: unspecified "seafood" may be fish or shellfish, so it sets both
                      "seafood"] + _compounds("contains_fish") + named_foods("contains_fish")
 # Shellfish is two allergen groups that the EU, Canada, Australia / NZ, Japan and Korea label
@@ -446,18 +460,20 @@ FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "s
 # unspecified "seafood" may be either, so it sets both
 CRUSTACEAN_KEYWORDS = ["shrimp", "prawn", "crab", "crabmeat", "lobster", "langoustine", "langostino",
                        "scampi", "krill", "crawfish", "crayfish", "belacan", "bagoong", "shrimp paste",
+                       "xo sauce",
                        "seafood", "frutti di mare"] + _compounds("contains_crustacean", "contains_shellfish")
 # Land snails count as molluscs too (EU Regulation 1169/2011)
 MOLLUSC_KEYWORDS  = ["clam", "cockle", "mussel", "scallop", "oyster", "squid", "calamari", "octopus",
                      "cuttlefish", "conch", "abalone", "whelk", "periwinkle", "geoduck", "snail", "escargot",
+                     "xo sauce",
                      "seafood", "frutti di mare"] + _compounds("contains_mollusc", "contains_shellfish")
 SHELLFISH_KEYWORDS = list(dict.fromkeys(CRUSTACEAN_KEYWORDS + MOLLUSC_KEYWORDS))
 SOY_KEYWORDS      = ["soy", "soya", "soy sauce", "soybean", "tofu", "tempeh", "edamame",
                      "miso", "tamari", "teriyaki", "hoisin", "gochujang", "doenjang", "natto",
-                     "shoyu", "ponzu", "yuba"] + _compounds("contains_soy")
+                     "shoyu", "ponzu", "yuba", "okara"] + _compounds("contains_soy")
 SESAME_KEYWORDS   = ["sesame", "tahini", "tahina", "halva", "halvah", "za'atar", "zaatar",
                      "za atar", "furikake", "gomasio", "gomashio", "benne", "hummus", "houmous",
-                     "hummous", "baba ganoush", "baba ghanoush", "gingelly"] + _compounds("contains_sesame")
+                     "hummous", "baba ganoush", "baba ghanoush", "gingelly", "dukkah"] + _compounds("contains_sesame")
 LAND_MEAT_KEYWORDS = (["chicken", "beef", "lamb", "mutton", "goat", "turkey", "veal", "duck",
                       "venison", "goose", "rabbit", "bison", "elk", "quail", "pheasant",
                       "cornish hen", "game hen", "fryer", "meat", "steak", "sirloin",
@@ -614,7 +630,7 @@ HIGH_TYRAMINE_KEYWORDS = ["cheddar", "parmesan", "parmigiano", "pecorino", "roma
 PORK_EXCEPTIONS     = ["hot dog bun", "hot dog roll", "vegetarian sausage", "veggie sausage",
                        "vegan sausage", "vegetarian bacon", "turkey bacon", "turkey ham",
                        "turkey kielbasa", "turkey sausage", "chicken sausage", "merguez sausage",
-                       "merguez", "lamb sausage", "beef sausage", "vegan bacon"]
+                       "merguez", "lamb sausage", "beef sausage", "vegan bacon", "char siu sauce"]
 ALCOHOL_EXCEPTIONS  = ["sherry wine vinegar", "wine vinegar", "sherry vinegar", "ginger ale", "ginger beer", "root beer",
                        "non-alcoholic", "alcohol-free", "alcohol free"] + WINE_NAME_EXCEPTIONS
 # "gluten-free bread", "gluten free pasta", ...: the food after "gluten-free" is safe
@@ -636,7 +652,8 @@ GLUTEN_EXCEPTIONS   = (["rice flour", "almond flour", "coconut flour", "corn flo
                         "ginger beer", "root beer", "gluten-free", "gluten free",
                         # "roll" that is not bread
                         "sushi roll", "california roll", "rice paper roll", "summer roll", "cabbage roll",
-                        "lettuce roll", "fruit roll", "rice roll"]
+                        "lettuce roll", "fruit roll", "rice roll",
+                        "100% buckwheat soba", "juwari soba", "buckwheat soba"]
                        + [f"gluten{sep}free {food}" for sep in ("-", " ") for food in GLUTEN_FREE_FOODS])
 DAIRY_EXCEPTIONS    = ["coconut milk", "almond milk", "soy milk", "oat milk", "rice milk",
                        "cashew milk", "coconut cream", "cream of tartar", "peanut butter",
@@ -645,9 +662,13 @@ DAIRY_EXCEPTIONS    = ["coconut milk", "almond milk", "soy milk", "oat milk", "r
                        "vegan butter", "plant butter", "vegan cheese", "vegan cream cheese",
                        "dairy-free cheese", "dairy free cheese", "cashew cream", "oat cream",
                        "soy cream", "coconut yogurt", "soy yogurt", "almond yogurt", "vegan yogurt",
-                       "non-dairy", "nondairy", "dairy-free", "dairy free"]
+                       "non-dairy", "nondairy", "dairy-free", "dairy free",
+                       "bean curd", "soy curd", "tofu curd", "custard apple", "vegan gelato",
+                       "dairy-free gelato", "dairy free gelato"]
 EGG_EXCEPTIONS      = ["eggless", "egg-free", "egg free", "egg replacer", "vegan mayo",
-                       "vegan mayonnaise", "flax egg", "chia egg"]
+                       "vegan mayonnaise", "flax egg", "chia egg",
+                       "custard apple", "custard powder", "vegan custard", "eggless custard",
+                       "custard cup", "custard style", "custard-style", "bird's custard", "bird's eye custard"]
 PEANUT_EXCEPTIONS   = ["peanut-free", "peanut free", "nut-free", "nut free", "pine nut", "brazil nut",
                        "tiger nut", "macadamia nut", "cashew nut", "pistachio nut", "pecan nut", "hazel nut",
                        "kola nut", "betel nut", "candle nut", "candlenut"]
@@ -658,7 +679,8 @@ OYSTER_MUSHROOM_PHRASES = ["oyster mushroom", "king oyster", "such as oyster", "
                            "oyster or shiitake", "shiitake or oyster"]
 NOT_SEAFOOD_PHRASES = ["seafood seasoning", "seafood boil seasoning", "seafood sauce"]
 FISH_EXCEPTIONS     = ["mock caviar", "texas caviar", "cowboy caviar", "southwestern caviar",
-                       "eggplant caviar", "poor man's caviar", "vegetarian caviar"] + NOT_SEAFOOD_PHRASES
+                       "eggplant caviar", "poor man's caviar", "vegetarian caviar",
+                       "vegan worcestershire", "vegetarian worcestershire"] + NOT_SEAFOOD_PHRASES
 SHELLFISH_EXCEPTIONS = OYSTER_MUSHROOM_PHRASES + NOT_SEAFOOD_PHRASES
 # Used for "vegetarian" (all meat, fish and shellfish keywords)
 MEAT_EXCEPTIONS     = OYSTER_MUSHROOM_PHRASES + FISH_EXCEPTIONS + [

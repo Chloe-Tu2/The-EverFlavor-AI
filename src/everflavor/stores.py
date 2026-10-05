@@ -425,6 +425,10 @@ def suggest_where_to_buy(ingredient: str, origin_country: str, links: pd.DataFra
         "other_brands_sold_in_us", "stores_to_try" (up to n names), "store_match"
         ("cuisine", "region" or "none"), "note"}.
     """
+    # Text as people type it ("GARLIC ", "italy") finds the same rows as "garlic", "Italy"
+    ingredient = (normalize_ingredient(ingredient) or [str(ingredient).strip().lower()])[0]
+    country_key = {c.lower(): c for c in [*COUNTRY_CUISINES, *COUNTRY_REGIONS]}
+    origin_country = country_key.get(str(origin_country).strip().lower(), str(origin_country).strip())
     rows = links[(links["ingredient"] == ingredient) & (links["brands"] != "")]
     from_home = rows["home_country"].str.lower() == origin_country.lower()
     groceries = places[places["category"] == "grocery"] if len(places) else places
