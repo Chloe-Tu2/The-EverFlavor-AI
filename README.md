@@ -136,13 +136,13 @@ Small samples are collected in Week 4. In Week 5, two free USDA bulk downloads (
 
 ### More pipelines (notebooks 03-05)
 
-Notebook 04 is built and runs; notebooks 03 and 05 are still planning sketches in `notebooks/` that list their sources (licenses read on 2026-10-04), the tables they will produce and their functions as stubs.
+Notebooks 03, 04 and 05 are built and run without any API key (licenses read on 2026-10-04). Google Places (notebook 03) switches on once `GOOGLE_PLACES_API_KEY` is set; the freshness models (notebook 05) train once more image sources are downloaded and a GPU is available.
 
 | Notebook | Sources | License |
 |---|---|---|
-| 03 Stores, restaurants and products | Google Places API (store search for the Sourcing Agent); OpenStreetMap through the Overpass API; the [Open Food Facts product export](https://huggingface.co/datasets/openfoodfacts/product-database) (~4.8 million products) | Google terms (only place IDs are stored); ODbL; ODbL |
+| 03 Stores, restaurants and products (**built**) | Google Places API (store search for the Sourcing Agent); OpenStreetMap through the Overpass API; the [Open Food Facts product export](https://huggingface.co/datasets/openfoodfacts/product-database) (~4.8 million products) | Google terms (only place IDs are stored); ODbL; ODbL |
 | 04 Ingredient knowledge (**built**) | Wikidata (ingredient names in other languages); Food.com reviews (substitutions, already downloaded); our own recipes (ingredient pairings); [USDA FoodKeeper](https://catalog.data.gov/dataset/fsis-foodkeeper-data) (shelf life) | CC0; as above; -; CC0 |
-| 05 Computer vision: food freshness | 11 image sources across fruits and vegetables, red meat, fish and bread (for example AgriFreshNET, TriModal Ripeness 6, MeatScan, DaFiF, two fish-eye sets), plus the team's own photos | Mostly CC BY 4.0; four still to confirm on the data record |
+| 05 Computer vision: food freshness (**pipeline built**) | 11 image sources across fruits and vegetables, red meat, fish and bread (for example AgriFreshNET, TriModal Ripeness 6, MeatScan, DaFiF, two fish-eye sets), plus the team's own photos | Mostly CC BY 4.0; four still to confirm on the data record |
 
 <details>
 <summary><b>Licenses</b></summary>
@@ -174,14 +174,15 @@ flowchart LR
     G --> H[Human check<br/>of the flags]
     G --> F[Notebook 02<br/>Cooking methods<br/>and fats]
     G --> K[Notebook 04<br/>Ingredient knowledge:<br/>names, swaps, pairings,<br/>shelf life]
-    G -.-> P[Notebooks 03, 05<br/>planned: stores,<br/>freshness]
+    G --> S[Notebook 03<br/>Stores, restaurants,<br/>products by country]
+    G --> V[Notebook 05<br/>Food freshness<br/>from photos]
 
     classDef done fill:#E8F5E9,stroke:#2E7D32,color:#1B3A1D
     classDef people fill:#FFF8E1,stroke:#F9A825,color:#4A3A00
     classDef next fill:#F5F5F5,stroke:#9E9E9E,color:#424242,stroke-dasharray:4 3
-    class A,B,C,G,D,F,K done
+    class A,B,C,G,D,F,K,S,V done
     class H people
-    class E,P next
+    class E next
 ```
 
 <sub>Green: built and run · Yellow: decided by people · Gray: next</sub>
@@ -200,7 +201,9 @@ flowchart LR
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
 | **Cooking methods and fats** | Notebook 02: cooking methods for every recipe (rules agree with Food.com's own tags on 66–95% of tagged recipes per method), the cooking fats each recipe names, and a reference table of 31 fats; 49% of fried recipes do not say which frying fat they use |
 | **Ingredient knowledge** | Notebook 04: names in 12 languages for 984 common ingredients (Wikidata), 2,161 substitutions mined from 1.1 million Food.com reviews with the flags each swap removes or adds, 105,730 ingredient pairings scored by PMI per cuisine and country, and USDA storage times for 972 ingredients |
-| **Code checks** | 116 automated checks pass (112 tests for the shared functions, 4 security checks) and cover 96% of `src/`; type hints in `src/` and `tests/` checked with mypy |
+| **Stores and products** | Notebook 03 (no key): 1,543 restaurants, groceries and butchers around the pilot area from OpenStreetMap; 203,566 Open Food Facts products (a spread sample of the 4.8 million) with brand, home country and whether they are sold in the US; 935 of 1,185 common ingredients linked to products; a coverage report for 91 origin countries. Every store suggestion is marked unverified |
+| **Food freshness** | Notebook 05: one label scheme (fresh / aging / spoiled) for 11 image sources, license-checked downloads from Mendeley Data, near-duplicate groups and a split that keeps one item's photos together; the first source (BananaImageBD, 820 photos) is indexed and split. Training waits for more sources and a GPU |
+| **Code checks** | 124 automated checks pass (120 tests for the shared functions, 4 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -226,10 +229,12 @@ flowchart LR
 - Exploratory analysis with charts showing what each step changed (`data/processed/figures/`).
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
-- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 112 automated tests and 4 security checks run before each push. Long steps (downloads, Open Food Facts searches, model training) show progress bars.
+- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 120 automated tests and 4 security checks run before each push. Long steps (downloads, Open Food Facts searches, model training) show progress bars.
 - Cooking methods and cooking fats (notebook 02): methods from the instructions, checked against Food.com's own method tags; the fats each recipe names; a cited reference table of 31 fats (smoke point ranges, USDA fat breakdown, allergens, flavor, where each is traditional); and a caution for fried recipes whose frying fat is not stated.
 - Human verification of the flags (section 5.13): the evidence is gathered automatically, and people make and record the decisions (see below).
 - Ingredient knowledge (notebook 04), for the Chef and Nutritionist agents: ingredient names across languages (Wikidata), substitutions reviewers made (each checked against the recipe's own ingredients, with the restriction flags it removes or adds, plus alcohol-free swaps), ingredient pairings per cuisine and country, and USDA FoodKeeper shelf life worded as guidance, never a guarantee. Ambiguous matches go to a hand check.
+- Stores, restaurants and products (notebook 03), for the Sourcing Agent: OpenStreetMap places with cuisine and halal / kosher / vegan tags, Open Food Facts products by home country, ingredient -> product links, suggestions of where to buy that never claim a store has something, and a coverage report by country. Google Places is ready and keeps only place IDs, as Google's terms require.
+- Food freshness from photos (notebook 05): one label scheme for every image source, license-checked downloads, near-duplicate grouping, a split without leakage, source-balanced weights, a safety-first model score (how often spoiled food is called fresh) and the training loop. Every answer says it only judges how food looks.
 
 ### Restriction flag check
 
@@ -293,7 +298,7 @@ See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
 
-Week 7 model development, then the CrewAI agents and the Gradio interface. Building the remaining pipelines: stores and products (notebook 03, including Google Places) and food freshness from photos (notebook 05).
+Week 7 model development, then the CrewAI agents and the Gradio interface (they can use Groq or Claude once a key is added). More image sources and a GPU for the freshness models (notebook 05), and the Google Places key for live store details (notebook 03).
 
 ---
 
@@ -305,11 +310,11 @@ Each data pipeline has its own notebook. They share the code in `src/everflavor/
 |---|---|---|---|
 | 1 | `notebooks/01_data_acquisition_EverFlavor_V3.ipynb` | Weeks 4-6: collects, cleans, flags and combines the recipes, fills nutrition and origin, verifies the flags, analyzes the data | `USDA_API_KEY` |
 | 2 | `notebooks/02_cooking_methods_and_fats.ipynb` | Cooking methods and cooking fats for every recipe, and the cooking-fat reference table | Notebook 01's saved files (same Colab session or same computer) |
-| 3 | `notebooks/03_stores_and_products.ipynb` | **Planning sketch:** stores, restaurants and products by country | Notebook 01's saved files; later `GOOGLE_PLACES_API_KEY` |
+| 3 | `notebooks/03_stores_and_products.ipynb` | Stores, restaurants and products by country, and where to buy each ingredient | Notebook 01's saved files; optional `GOOGLE_PLACES_API_KEY` |
 | 4 | `notebooks/04_ingredient_knowledge.ipynb` | Ingredient names in other languages, substitutions, pairings and shelf life | Notebook 01's saved files and the Food.com download (no key) |
-| 5 | `notebooks/05_computer_vision_freshness.ipynb` | **Planning sketch:** how fresh food looks in a photo, and the training plan | Notebook 04's shelf-life table; a GPU for training |
+| 5 | `notebooks/05_computer_vision_freshness.ipynb` | How fresh food looks in a photo: image index, labels, split and training | Image sources (one downloads by itself); a GPU for training |
 
-All of them run unchanged in **Google Colab**, **VS Code** and **Antigravity** (the sketches only run their setup and print their plan status). The setup cell detects the environment, moves to the project folder and loads API keys from the right place.
+All of them run unchanged in **Google Colab**, **VS Code** and **Antigravity** (notebook 05 trains only when `TRAIN = True`). The setup cell detects the environment, moves to the project folder and loads API keys from the right place.
 
 Running all cells of notebook 01 in order does everything for it: Week 4 downloads all six sources, Week 5 cleans and combines them, and Week 6 analyzes them. The only key needed is `USDA_API_KEY`.
 
@@ -361,6 +366,12 @@ Generated files are not committed; the notebook recreates them.
 | `data/processed/ingredient_substitutions.parquet` | Notebook 04: swaps reviewers made, with the flags each removes or adds, and alcohol-free swaps |
 | `data/processed/ingredient_pairings.parquet` | Notebook 04: ingredient pairs scored by PMI, overall, per cuisine family and per country |
 | `data/processed/ingredient_shelf_life.parquet` | Notebook 04: USDA FoodKeeper storage times in days for each matched ingredient |
+| `data/processed/places.parquet` | Notebook 03: restaurants, groceries and butchers (OpenStreetMap; Google place IDs when a key is set) |
+| `data/processed/products_by_country.parquet` | Notebook 03: Open Food Facts products with brand, home country and whether they are sold in the US |
+| `data/processed/ingredient_products.parquet` | Notebook 03: recipe ingredient -> products, with how they matched |
+| `data/processed/region_coverage_stores.csv` | Notebook 03: how ready each origin country is for the Sourcing Agent |
+| `data/processed/freshness_images.parquet` | Notebook 05: one row per image with its label, photo set, duplicate group, split and weight |
+| `data/processed/freshness_coverage.csv` | Notebook 05: images per food group, item, state and source |
 
 Parquet is a compressed format that a text editor cannot open. To look at a Parquet file, either:
 
@@ -421,9 +432,9 @@ The-EverFlavor-AI/
 ├── notebooks/
 │   ├── 01_data_acquisition_EverFlavor_V3.ipynb   # Weeks 4-6: data acquisition, preprocessing, EDA, baseline
 │   ├── 02_cooking_methods_and_fats.ipynb          # Cooking methods and fats (run after notebook 01)
-│   ├── 03_stores_and_products.ipynb               # Planning sketch: stores, restaurants, products by country
+│   ├── 03_stores_and_products.ipynb               # Stores, restaurants, products by country, where to buy
 │   ├── 04_ingredient_knowledge.ipynb              # Names across languages, substitutions, pairings, shelf life
-│   └── 05_computer_vision_freshness.ipynb         # Planning sketch: food freshness from photos
+│   └── 05_computer_vision_freshness.ipynb         # Food freshness from photos: labels, split, training
 ├── data/
 │   ├── reference/    # Hand-made reference tables with sources (committed): cooking_fats.csv
 │   ├── raw/          # Original downloads and samples (generated, not committed)
@@ -440,12 +451,16 @@ The-EverFlavor-AI/
 │       ├── review.py                    # flag review rounds and the human-verification evidence
 │       ├── cooking.py                   # cooking methods, cooking fats, alcohol left after cooking (notebook 02)
 │       ├── knowledge.py                 # names, substitutions, pairings, shelf life (notebook 04)
+│       ├── stores.py                    # OpenStreetMap, Google Places, Open Food Facts products (notebook 03)
+│       ├── freshness.py                 # image labels, duplicates, split, training (notebook 05)
 │       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py, progress.py
 ├── tests/
 │   ├── test_everflavor.py   # What each shared function promises
 │   ├── test_helpers.py      # Helper modules: environment, reporting, charts, features, recommender
 │   ├── test_matching_and_review.py  # USDA matching and the flag review tools
 │   ├── test_knowledge.py    # Notebook 04's knowledge tables, with fake Wikidata and FoodKeeper answers
+│   ├── test_stores.py       # Notebook 03: places, products and the Google key never shown
+│   ├── test_freshness.py    # Notebook 05: labels, duplicates, split, weights, license check
 │   ├── test_pipeline.py     # run_pipeline end to end on tiny tables shaped like each source
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files

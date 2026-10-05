@@ -19,6 +19,8 @@ Modules:
     progress     progress bars that work in Colab, VS Code, Antigravity and a terminal
     cooking      cooking methods and cooking fats (notebook 02)
     knowledge    ingredient pairings, substitutions, shelf life and names (notebook 04)
+    stores       OpenStreetMap, Google Places and Open Food Facts products (notebook 03)
+    freshness    image labels, near-duplicates, split and training (notebook 05)
 
 Conventions (Google Python Style Guide, PEP 257):
     - Every public function has type hints and a docstring with Args, Returns

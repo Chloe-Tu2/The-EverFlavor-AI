@@ -30,11 +30,25 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | Food.com reviews (`RAW_interactions.csv`) | <https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions> | See the dataset page (research use) | Same `kagglehub` download as the recipes | Dataset version 2 | 04, section 3 |
 | USDA FoodKeeper (FSIS) | <https://catalog.data.gov/dataset/fsis-foodkeeper-data> | CC0 (public domain) | JSON download, no key; USDA's server refuses some networks (HTTP 403), so the Internet Archive's copy of the same file is used then | Archive snapshot of 2025-07-02 | 04, section 5 |
 
+## Stores and products (notebook 03)
+
+| Source | URL | License | Access method | Version / notes | Notebook |
+|---|---|---|---|---|---|
+| OpenStreetMap (Overpass API) | <https://www.openstreetmap.org/copyright> | ODbL (credit "(c) OpenStreetMap contributors") | Overpass API, no key; public servers tried in turn, every answer cached | Live, queried 2026-10-04 | 03, section 3 |
+| Open Food Facts product export | <https://huggingface.co/datasets/openfoodfacts/product-database> | ODbL | `food.parquet` (7.9 GB): only the needed columns, a spread sample of 200 row groups read over the network, or the whole file once downloaded | Read 2026-10-04 | 03, section 4 |
+| Google Places API (New) | <https://developers.google.com/maps/documentation/places/web-service> | Google Maps Platform terms (only place IDs are stored) | API key in a request header (`GOOGLE_PLACES_API_KEY`); skipped without it | Not used yet (no key) | 03, section 2 |
+
+## Food freshness images (notebook 05)
+
+| Source | URL | License | Access method | Version / notes | Notebook |
+|---|---|---|---|---|---|
+| BananaImageBD | <https://doi.org/10.17632/ptfscwtnyz.2> | CC BY 4.0 (read from the dataset record) | Mendeley Data public API, no key; original photos only | Version 2, ripeness set (820 photos) | 05, section 2 |
+| Other image sources | See notebook 05, section 2 | Mostly CC BY 4.0; four to confirm | Mendeley Data (license checked before download) or by hand | Not downloaded yet | 05, section 2 |
+
 ## Planned or optional
 
 | Source | URL | License | Access method | Status |
 |---|---|---|---|---|
 | RecipeDB (CoSyLab) | <https://cosylab.iiitd.edu.in/recipedb/> | CC BY-NC-SA 3.0 | API key from the CoSyLab team | Optional, not used yet (2.4.7) |
-| Google Places API | <https://developers.google.com/maps/documentation/places/web-service> | Google Maps Platform terms | API key | Planned for the Sourcing Agent (2.4.8) |
 
 No website is scraped directly, and nothing behind a login is collected.
