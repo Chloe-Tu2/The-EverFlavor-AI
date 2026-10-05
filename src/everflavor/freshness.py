@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -25,7 +26,9 @@ __all__ = [
     "AGE_PATTERNS",
     "ALLOWED_LICENCES",
     "FOOD_GROUPS",
+    "IMAGE_SIGNATURES",
     "IMAGE_SUFFIXES",
+    "ITEM_ALIASES",
     "SAFETY_NOTE",
     "STATES",
     "STATE_MAP",
@@ -66,6 +69,14 @@ FOOD_GROUPS = {
     "fish": ["mackerel", "tilapia", "tuna", "fish", "carp", "catfish", "rohu", "salmon", "sardine"],
     "bread": ["bread", "bun", "toast", "loaf"],
 }
+# Other names sources use for an item: path words -> (food group, item)
+ITEM_ALIASES = {
+    "cowmeat": ("meat", "beef"), "cow meat": ("meat", "beef"),
+    # Fish Eyes datasets name the fish by species
+    "chanos": ("fish", "milkfish"), "oreochromis": ("fish", "tilapia"), "rastrelliger": ("fish", "mackerel"),
+    "upeneus": ("fish", "goatfish"), "nibea": ("fish", "croaker"), "johnius": ("fish", "croaker"),
+    "eleutheronema": ("fish", "threadfin"),
+}
 # Storage age written in a path: "day3", "day_3", "d3", "3days", "1-2 days"
 AGE_PATTERNS = [re.compile(r"\bday[ _-]?(\d+)\b"), re.compile(r"\bd(\d+)\b"),
                 re.compile(r"\b(\d+)[ _-]?days?\b"), re.compile(r"\b(\d+)[ _-](\d+)[ _-]?days?\b")]
@@ -87,9 +98,10 @@ def _state(words: str, state_map: Mapping[str, str] = STATE_MAP) -> str | None:
 
 def _item(words: str) -> tuple[str | None, str | None]:
     """(food group, item) named in the path words, longest item name first."""
-    candidates = [(g, i) for g, items in FOOD_GROUPS.items() for i in items]
-    for group, item in sorted(candidates, key=lambda c: len(c[1]), reverse=True):
-        if re.search(rf"\b{re.escape(item)}e?s?\b", words):
+    candidates = [(i, g, i) for g, items in FOOD_GROUPS.items() for i in items]
+    candidates += [(name, g, i) for name, (g, i) in ITEM_ALIASES.items()]
+    for name, group, item in sorted(candidates, key=lambda c: len(c[0]), reverse=True):
+        if re.search(rf"\b{re.escape(name)}e?s?\b", words):
             return group, item
     return None, None
 
@@ -227,8 +239,12 @@ def _rar_tool() -> list[str]:
     Raises:
         RuntimeError: If none is installed (Colab: `!apt-get install -y unrar`).
     """
-    if sys.platform == "win32" and shutil.which("tar"):
-        return ["tar"]                      # Windows 10/11 tar is bsdtar, which reads .rar
+    if sys.platform == "win32":
+        # Windows 10/11 tar is bsdtar, which reads .rar; called by its full path, since Git Bash
+        # puts its own GNU tar (which can not) first on PATH
+        windows_tar = Path(os.environ.get("SystemRoot", r"C:\Windows")) / "System32" / "tar.exe"
+        if windows_tar.exists():
+            return [str(windows_tar)]
     for tool in ("bsdtar", "unrar"):
         if shutil.which(tool):
             return [tool]
@@ -282,7 +298,9 @@ def zenodo_download(record_id: str, folder: str | Path, refresh: bool = False, t
     folder.mkdir(parents=True, exist_ok=True)
     for entry in data.get("files", []):
         name = Path(entry["key"]).name
-        saved = _download_to(entry["links"]["self"], folder / name, timeout)
+        saved = folder / name
+        if not (saved.exists() and saved.stat().st_size == entry.get("size")):   # finished earlier: reuse it
+            _download_to(entry["links"]["self"], saved, timeout)
         if name.lower().endswith(".zip"):
             with zipfile.ZipFile(saved) as archive:
                 for member in archive.namelist():
@@ -297,6 +315,16 @@ def zenodo_download(record_id: str, folder: str | Path, refresh: bool = False, t
               f"https://doi.org/{data.get('doi', '')}"]
     (folder / "LICENSE.txt").write_text("\n".join(credit) + "\n", encoding="utf-8")
     return sorted(folder.iterdir())
+
+
+# How each image format begins; a file that begins otherwise (MeatScan has 439 files of zero bytes) is skipped
+IMAGE_SIGNATURES = (b"\xff\xd8\xff", b"\x89PNG", b"BM", b"RIFF")
+
+
+def _looks_like_image(path: Path) -> bool:
+    """True when the file begins like a JPEG, PNG, BMP or WebP image."""
+    with open(path, "rb") as f:
+        return f.read(4).startswith(IMAGE_SIGNATURES)
 
 
 def index_images(source: str, folder: str | Path, license_name: str = "", group: str | None = None,
@@ -328,7 +356,11 @@ def index_images(source: str, folder: str | Path, license_name: str = "", group:
     root = Path(folder)
     state_map = {**STATE_MAP, **(state_rules or {})}
     rows = []
+    not_images = 0
     for path in sorted(p for p in root.rglob("*") if p.suffix.lower() in IMAGE_SUFFIXES):
+        if not _looks_like_image(path):
+            not_images += 1
+            continue
         words = _words(path, root)
         if re.search(r"\b(?:aug|augmented|flip|flipped|rotate|rotated)\b", words):
             continue
@@ -337,6 +369,8 @@ def index_images(source: str, folder: str | Path, license_name: str = "", group:
         rows.append({"path": str(path), "source": source, "license": license_name, "group": group or found_group,
                      "item": item, "state": _state(words, state_map), "age_days_min": age_min, "age_days_max": age_max,
                      "photo_set": f"{source}:{(path.parent if series else path).relative_to(root).as_posix()}"})
+    if not_images:
+        print(f"{source}: skipped {not_images} files that are not images (empty or broken)")
     return pd.DataFrame(rows, columns=["path", "source", "license", "group", "item", "state", "age_days_min",
                                        "age_days_max", "photo_set"])
 
@@ -364,12 +398,23 @@ def group_near_duplicates(index: pd.DataFrame, max_distance: int = 4, hashes: Se
     """
     if hashes is None:
         import imagehash
-        from PIL import Image
+        from PIL import Image, ImageFile
+        ImageFile.LOAD_TRUNCATED_IMAGES = True   # a photo missing its last bytes still hashes (MeatScan has one)
         hashes = []
         for path in progress_bar(index["path"], "Perceptual hashes", show=len(index) >= 2000):
-            with Image.open(path) as image:
-                hashes.append(imagehash.phash(image))
-    bits = np.array([np.asarray(h.hash if hasattr(h, "hash") else h, dtype=bool).ravel() for h in hashes])
+            try:
+                with Image.open(path) as image:
+                    hashes.append(imagehash.phash(image))
+            except OSError:
+                hashes.append(None)
+    unreadable = [i for i, h in enumerate(hashes) if h is None]
+    if unreadable:
+        print(f"{len(unreadable)} unreadable images, each kept in a group of its own:",
+              [str(index["path"].iloc[i]) for i in unreadable[:5]])
+    # Unreadable images get a placeholder hash and are never joined to another image
+    bits = np.array([np.asarray(h.hash if hasattr(h, "hash") else h, dtype=bool).ravel() if h is not None
+                     else np.zeros(64, dtype=bool) for h in hashes])
+    loners = set(unreadable)
     # Each 64-bit hash as one integer: two hashes differ in popcount(a XOR b) bits, which is fast
     # enough to compare tens of thousands of photos with each other
     packed = np.packbits(bits, axis=1).view(">u8").ravel() if len(bits) else np.array([], dtype=">u8")
@@ -382,9 +427,12 @@ def group_near_duplicates(index: pd.DataFrame, max_distance: int = 4, hashes: Se
         return i
 
     for i in range(len(bits)):
+        if i in loners:
+            continue
         close = np.nonzero(_popcount(packed[i + 1:] ^ packed[i]) <= max_distance)[0] + i + 1
         for j in close:
-            parent[find(int(j))] = find(i)
+            if int(j) not in loners:
+                parent[find(int(j))] = find(i)
     return pd.Series([find(i) for i in range(len(bits))], index=index.index, name="duplicate_group")
 
 
@@ -519,7 +567,8 @@ def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
         {"group", "seed", "best_epoch", "val_scores", "model_path", "history"}.
     """
     import torch
-    from PIL import Image
+    from PIL import Image, ImageFile
+    ImageFile.LOAD_TRUNCATED_IMAGES = True
     from torch import nn
     from torch.utils.data import DataLoader, Dataset, WeightedRandomSampler
     from torchvision import models, transforms

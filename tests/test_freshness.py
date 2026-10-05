@@ -42,10 +42,12 @@ def test_index_images_reads_state_item_and_age_from_names(tmp_path):
             (tmp_path / rel).write_text("not an image")
         else:
             _image(tmp_path / rel, i)
+    (tmp_path / "Rotten/Apple/empty.jpg").write_bytes(bytes(64))            # zero bytes, named .jpg
     index = index_images("test_source", tmp_path, "CC BY 4.0").set_index(
         index_images("test_source", tmp_path)["path"].map(lambda p: Path(p).relative_to(tmp_path).as_posix()))
     assert "Fresh/Apple/aug_flip_5.jpg" not in index.index                  # a source's own augmented copy
     assert "notes.txt" not in index.index
+    assert "Rotten/Apple/empty.jpg" not in index.index                      # not an image inside
     assert tuple(index.loc["Rotten/Apple/1.jpg", ["group", "item", "state"]]) == ("produce", "apple", "spoiled")
     assert index.loc["Semi-Fresh/Banana/2.jpg", "state"] == "aging"          # not "fresh"
     assert index.loc["Fresh/Banana/3.png", "photo_set"] == "test_source:Fresh/Banana/3.png"   # one photo, one set
@@ -59,12 +61,15 @@ def test_index_images_reads_state_item_and_age_from_names(tmp_path):
 
 def test_source_rules_and_spellings_of_states(tmp_path):
     for i, rel in enumerate(["Semi_Fresh eggplant(4-8)/1.jpg", "Fresh pineapple(1-15)/2.jpg",
-                             "Fish/Highly Fresh/3.jpg", "Fish/Fresh/4.jpg", "Fish/Not Fresh/5.jpg"]):
+                             "Fish/Highly Fresh/3.jpg", "Fish/Fresh/4.jpg", "Fish/Not Fresh/5.jpg",
+                             "Spoiled_CowMeat/6.jpg", "Oreochromis Niloticus - Not Fresh/7.jpg"]):
         _image(tmp_path / rel, i)
     plain = index_images("s", tmp_path).set_index(index_images("s", tmp_path)["path"].map(lambda p: Path(p).name))
     assert tuple(plain.loc["1.jpg", ["item", "state"]]) == ("eggplant", "aging")     # "semi fresh", not "fresh"
     assert tuple(plain.loc["2.jpg", ["item", "state"]]) == ("pineapple", "fresh")
     assert plain.loc["4.jpg", "state"] == "fresh" and plain.loc["5.jpg", "state"] == "spoiled"
+    assert tuple(plain.loc["6.jpg", ["group", "item", "state"]]) == ("meat", "beef", "spoiled")   # MeatScan
+    assert tuple(plain.loc["7.jpg", ["group", "item"]]) == ("fish", "tilapia")                    # a species name
     fish = index_images("s", tmp_path, state_rules={"fresh": "aging", "highly fresh": "fresh"})
     fish = fish.set_index(fish["path"].map(lambda p: Path(p).name))
     assert [fish.loc[f"{n}.jpg", "state"] for n in (3, 4, 5)] == ["fresh", "aging", "spoiled"]
@@ -76,6 +81,8 @@ def test_near_duplicates_and_the_split_keep_groups_together():
               np.r_[np.ones(62, bool), np.zeros(2, bool)], np.r_[np.zeros(32, bool), np.ones(32, bool)]]
     groups = group_near_duplicates(index, max_distance=4, hashes=hashes)
     assert groups.tolist() == [0, 0, 2, 2, 4]                               # fish3 is a near-copy of fish2
+    broken = pd.DataFrame({"path": ["a.jpg", "b.jpg", "c.jpg"]})                # b.jpg could not be opened
+    assert group_near_duplicates(broken, hashes=[np.zeros(64, bool), None, np.zeros(64, bool)]).tolist() == [0, 1, 0]
     index["duplicate_group"] = groups
     for seed in range(20):
         split = split_without_leakage(index, seed=seed)
