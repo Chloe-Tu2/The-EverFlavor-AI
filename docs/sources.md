@@ -22,6 +22,14 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | USDA SR Legacy, bulk download | <https://fdc.nal.usda.gov/download-datasets> | Public domain | Zip download, no key | Release 2018-04 (final) | 5.8.1 |
 | Open Food Facts | <https://world.openfoodfacts.org> | Open Database License (ODbL) | Public API, no key, rate-limited, with a descriptive User-Agent | Live API | 2.4.4 |
 
+## Ingredient knowledge (notebook 04)
+
+| Source | URL | License | Access method | Version / notes | Notebook |
+|---|---|---|---|---|---|
+| Wikidata | <https://query.wikidata.org> | CC0 | SPARQL query service, no key; batches of 40 names, a descriptive User-Agent, every answer cached | Live, queried 2026-10-04 | 04, section 2 |
+| Food.com reviews (`RAW_interactions.csv`) | <https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions> | See the dataset page (research use) | Same `kagglehub` download as the recipes | Dataset version 2 | 04, section 3 |
+| USDA FoodKeeper (FSIS) | <https://catalog.data.gov/dataset/fsis-foodkeeper-data> | CC0 (public domain) | JSON download, no key; USDA's server refuses some networks (HTTP 403), so the Internet Archive's copy of the same file is used then | Archive snapshot of 2025-07-02 | 04, section 5 |
+
 ## Planned or optional
 
 | Source | URL | License | Access method | Status |

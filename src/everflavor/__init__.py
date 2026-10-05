@@ -18,6 +18,7 @@ Modules:
     reporting    small table and checklist helpers
     progress     progress bars that work in Colab, VS Code, Antigravity and a terminal
     cooking      cooking methods and cooking fats (notebook 02)
+    knowledge    ingredient pairings, substitutions, shelf life and names (notebook 04)
 
 Conventions (Google Python Style Guide, PEP 257):
     - Every public function has type hints and a docstring with Args, Returns
