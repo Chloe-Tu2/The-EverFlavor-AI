@@ -301,12 +301,15 @@ The steps take no coding: [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_revi
 - CulinaryDB and TheMealDB publish no nutrition, and CulinaryDB lists no amounts or servings, so their calories are estimates (labeled as such). A typical estimate is off by about 100 kcal per serving.
 - Restriction flags come from keywords in the ingredients and recipe names (plus Hugging Face health labels), so they are approximate; the rarer allergens (peanut, shellfish, soy, sesame) are the least reliable.
 - The baseline classifier confuses African and Middle Eastern recipes (F1 about 0.35 each).
+- Most USDA ingredient matches are automatic (63 of 39,969 hand-checked), and a few generic words match a cured food ("beef" to corned beef, "pork" to salt pork); this affects the estimated nutrition and is the next notebook 01 fix.
+- Recipes list ingredients without amounts, so vitamins and minerals are shown per ingredient ("rich in iron"), never as a total per dish.
+- Dish variants, substitutions and ingredient names are machine-made and wait for a team hand check before any agent uses them.
 
 See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
 
-Week 7 model development, then the CrewAI agents and the Gradio interface (they can use Groq or Claude once a key is added). More image sources and a GPU for the freshness models (notebook 05), and the Google Places key for live store details (notebook 03).
+Week 7 model development, then the CrewAI agents and the Gradio interface (they can use Groq or Claude once a key is added). In the data: fix notebook 01's automatic USDA matches and apply policy P18 in the halal rule (one rerun of notebook 01); add MeatScan (red meat photos, downloading) to notebook 05 and train the freshness models on a GPU; build notebook 08 (carbon footprint and seasons); add the Google Places key for live store details (notebook 03).
 
 ---
 
