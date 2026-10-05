@@ -14,7 +14,7 @@ Estimates calories, protein, fat, carbs and sodium per serving for the 46,308 re
    - the energy density (kcal per 100 g) of the recipe's ingredients from **USDA SR Legacy**;
    - the number of ingredients.
 3. **Macros:** one ridge model each for protein, fat, carbs and sodium; protein, fat and carbs are then scaled so they add up to the estimated calories (4, 9 and 4 kcal per gram).
-4. **Likely range:** the 10th to 90th percentile of the errors on half of the validation recipes: estimate × 0.47 to estimate × 2.14.
+4. **Likely range:** the 10th to 90th percentile of the errors on half of the validation recipes: estimate × 0.47 to estimate × 2.16.
 
 - **Training data:** 171,719 training-split recipes with listed, plausible nutrition.
 - **Leakage:** fitted on the training split only; the ridge predictions fed to the second model come from 5-fold cross-validation.
@@ -30,7 +30,7 @@ Estimates calories, protein, fat, carbs and sodium per serving for the 46,308 re
 | **Similar recipes + USDA (used)** | **184** | **103** | **29%** |
 
 - The real value is inside the likely range 80% of the time (target 80%); notebook 01 (section 5.8) charts it per cuisine family.
-- USDA ingredient matches avoid cured, smoked, frozen and fried foods unless the name asks for them, and 122 common
+- USDA ingredient matches avoid cured, smoked, frozen and fried foods unless the name asks for them, and 121 common
   ingredients are matched by hand (since 2026-10-05: "beef" was matched to corned beef before).
 - Typical macro errors: protein 3.7 g, fat 5.6 g, carbs 10.2 g, sodium 159 mg.
 

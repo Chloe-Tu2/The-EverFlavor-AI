@@ -24,7 +24,7 @@ from .progress import progress_bar
 
 __all__ = [
     "AGE_PATTERNS",
-    "ALLOWED_LICENCES",
+    "ALLOWED_LICENSES",
     "FOOD_GROUPS",
     "IMAGE_SIGNATURES",
     "IMAGE_SUFFIXES",
@@ -151,7 +151,7 @@ def _download_to(url: str, target: Path, timeout: int, chunk: int = 2**20) -> Pa
 
 
 # Only licenses that allow use with credit; anything else is refused before downloading
-ALLOWED_LICENCES = {"CC BY 4.0", "CC BY 3.0", "CC0 1.0", "CC0"}
+ALLOWED_LICENSES = {"CC BY 4.0", "CC BY 3.0", "CC0 1.0", "CC0"}
 
 
 def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = "",
@@ -177,7 +177,7 @@ def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = 
         The downloaded (or already present) files and folders.
 
     Raises:
-        PermissionError: When the dataset's license is not in ALLOWED_LICENCES.
+        PermissionError: When the dataset's license is not in ALLOWED_LICENSES.
     """
     folder = Path(folder)
     if (folder / "LICENSE.txt").exists() and not refresh:   # written last: the download finished
@@ -185,9 +185,9 @@ def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = 
     if not re.fullmatch(r"[a-z0-9]+", dataset_id):
         raise ValueError(f"not a Mendeley dataset ID: {dataset_id!r}")
     data = json.loads(_get_bytes(MENDELEY_API + dataset_id, 60))
-    licence = (data.get("data_licence") or {}).get("short_name", "")
-    if licence not in ALLOWED_LICENCES:
-        raise PermissionError(f"Mendeley dataset {dataset_id} has license {licence!r}; not downloaded")
+    license_id = (data.get("data_licence") or {}).get("short_name", "")
+    if license_id not in ALLOWED_LICENSES:
+        raise PermissionError(f"Mendeley dataset {dataset_id} has license {license_id!r}; not downloaded")
     folder.mkdir(parents=True, exist_ok=True)
     # Datasets stored as loose files keep their labels in Mendeley folder names ("Chanos Chanos - Fresh"):
     # each file goes into a subfolder of that name, so index_images can read the label
@@ -222,7 +222,7 @@ def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = 
         jobs = [pool.submit(_download_to, url, target, timeout) for url, target in todo]
         for job in progress_bar(as_completed(jobs), f"Mendeley {dataset_id}", total=len(jobs), show=len(jobs) > 20):
             job.result()
-    credit = [data.get("name", dataset_id), f"{licence}: {(data.get('data_licence') or {}).get('url', '')}",
+    credit = [data.get("name", dataset_id), f"{license_id}: {(data.get('data_licence') or {}).get('url', '')}",
               f"https://doi.org/{(data.get('doi') or {}).get('id', '')}"]
     (folder / "LICENSE.txt").write_text("\n".join(credit) + "\n", encoding="utf-8")
     return sorted(folder.iterdir())
@@ -230,7 +230,7 @@ def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = 
 
 ZENODO_API = "https://zenodo.org/api/records/"
 # Zenodo license ids that allow use with credit
-ZENODO_LICENCES = {"cc-by-4.0", "cc-by-3.0", "cc0-1.0"}
+ZENODO_LICENSES = {"cc-by-4.0", "cc-by-3.0", "cc0-1.0"}
 
 
 def _rar_tool() -> list[str]:
@@ -283,7 +283,7 @@ def zenodo_download(record_id: str, folder: str | Path, refresh: bool = False, t
         The downloaded (or already present) files and folders.
 
     Raises:
-        PermissionError: When the record's license is not in ZENODO_LICENCES.
+        PermissionError: When the record's license is not in ZENODO_LICENSES.
     """
     folder = Path(folder)
     if (folder / "LICENSE.txt").exists() and not refresh:   # written last: the download finished
@@ -292,9 +292,9 @@ def zenodo_download(record_id: str, folder: str | Path, refresh: bool = False, t
         raise ValueError(f"not a Zenodo record number: {record_id!r}")
     data = json.loads(_get_bytes(ZENODO_API + record_id, 60))
     meta = data.get("metadata", {})
-    licence = str((meta.get("license") or {}).get("id", "")).lower()
-    if licence not in ZENODO_LICENCES:
-        raise PermissionError(f"Zenodo record {record_id} has license {licence!r}; not downloaded")
+    license_id = str((meta.get("license") or {}).get("id", "")).lower()
+    if license_id not in ZENODO_LICENSES:
+        raise PermissionError(f"Zenodo record {record_id} has license {license_id!r}; not downloaded")
     folder.mkdir(parents=True, exist_ok=True)
     for entry in data.get("files", []):
         name = Path(entry["key"]).name
@@ -311,7 +311,7 @@ def zenodo_download(record_id: str, folder: str | Path, refresh: bool = False, t
         elif name.lower().endswith(".rar"):
             _unpack_rar(saved, folder)
             saved.unlink()
-    credit = [meta.get("title", record_id), f"{licence}: https://zenodo.org/records/{record_id}",
+    credit = [meta.get("title", record_id), f"{license_id}: https://zenodo.org/records/{record_id}",
               f"https://doi.org/{data.get('doi', '')}"]
     (folder / "LICENSE.txt").write_text("\n".join(credit) + "\n", encoding="utf-8")
     return sorted(folder.iterdir())

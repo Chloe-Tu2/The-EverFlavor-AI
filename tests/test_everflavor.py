@@ -92,6 +92,8 @@ def test_normalize_ingredient_removes_quantities_and_plurals():
     assert normalize_ingredient("1/2 cup grated parmesan cheese") == ["parmesan cheese"]
     assert normalize_ingredient("canola oil or vegetable oil") == ["canola oil"]
     assert normalize_ingredient("salt and pepper") == ["salt", "pepper"]
+    assert normalize_ingredient("4 green chilies") == ["green chili"]          # not "green chily"
+    assert normalize_ingredient("berries") == ["berry"] and normalize_ingredient("veggies") == ["veggie"]
     assert normalize_ingredient_list(["egg", "2 eggs", "Chopped Onions"]) == ["egg", "onion"]
 
 

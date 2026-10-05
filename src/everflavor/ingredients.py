@@ -69,7 +69,10 @@ PREP_PATTERN = re.compile(r"^(?:(?:chopped|minced|diced|sliced|grated|shredded|c
 KEEP_AS_IS = {"molasses", "hummus", "couscous", "asparagus", "citrus", "swiss", "grits",
               "greens", "brussels", "bitters", "schnapps", "oats"}
 IRREGULAR_PLURALS = {"leaves": "leaf", "loaves": "loaf", "halves": "half",
-                     "cookies": "cookie", "brownies": "brownie", "pies": "pie"}
+                     "cookies": "cookie", "brownies": "brownie", "pies": "pie",
+                     # "-ies" words whose singular ends in "ie" or "i", not "y" ("chilies" is not "chily")
+                     "chilies": "chili", "chillies": "chili", "chilis": "chili", "veggies": "veggie",
+                     "smoothies": "smoothie", "zucchinis": "zucchini", "beanies": "beanie"}
 
 
 def singular(word: str) -> str:
