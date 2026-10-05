@@ -45,6 +45,7 @@ __all__ = [
     "FLAG_COLUMNS",
     "FLAG_RULES",
     "FOODCOM_TAG_CHECKS",
+    "FOOD_NAME_GROUPS",
     "GELATIN_EXCEPTIONS",
     "GELATIN_KEYWORDS",
     "GLUTEN_EXCEPTIONS",
@@ -108,15 +109,22 @@ __all__ = [
     "add_hf_diet_flags",
     "add_keyword_flags",
     "explain_flag",
+    "flags_for_term",
     "foodcom_tag_agreement",
     "keyword_flag",
     "make_flag",
     "name_text",
+    "named_foods",
+    "not_named_foods",
     "print_flag_counts",
     "recipe_text",
     "spelling_variants",
+    "term_group_of",
+    "term_groups",
+    "term_names",
     "wine_name_groups",
     "wine_names",
+    "with_spellings",
 ]
 
 
@@ -275,35 +283,97 @@ def spelling_variants(phrase: str, keep_accents: bool = False) -> list[str]:
     return list(dict.fromkeys(forms))
 
 
-def _same_wine(name: str) -> list[str]:
-    """Return the spellings of a wine and its aliases (WINE_NAME_GROUPS)."""
-    names = [name, *WINE_NAME_GROUPS[name].get("aliases", [])]
-    return [s for n in names for s in spelling_variants(n, keep_accents=n in ACCENT_REQUIRED)]
+def with_spellings(phrases: Sequence[str]) -> list[str]:
+    """Return phrases with all their spellings (spelling_variants), each once, in order.
+
+    Args:
+        phrases: Keywords or exception phrases.
+
+    Returns:
+        Every phrase followed by its other spellings; the names in ACCENT_REQUIRED keep their accents.
+    """
+    return list(dict.fromkeys(s for p in phrases for s in spelling_variants(p, keep_accents=p in ACCENT_REQUIRED)))
+
+
+def _same_name(groups: dict[str, dict[str, list[str]]], name: str) -> list[str]:
+    """Return the spellings of a group's name and its aliases."""
+    return with_spellings([name, *groups[name].get("aliases", [])])
+
+
+def term_names(groups: dict[str, dict[str, list[str]]]) -> list[str]:
+    """Return every name in a set of name groups, in every spelling (the primary list).
+
+    Args:
+        groups: Name -> {"aliases": [...], ...}, such as WINE_NAME_GROUPS or FOOD_NAME_GROUPS.
+
+    Returns:
+        Each name and its aliases, with and without accents, hyphens or spaces
+        (except the names in ACCENT_REQUIRED), each once.
+    """
+    return list(dict.fromkeys(s for name in groups for s in _same_name(groups, name)))
+
+
+def term_groups(groups: dict[str, dict[str, list[str]]], not_key: str = "not_this") -> dict[str, dict[str, list[str]]]:
+    """Return, for each name, the names that mean the same thing and the look-alikes that do not.
+
+    Built on term_names(), so each group lists only names the flags look for.
+
+    Args:
+        groups: Name -> {"aliases": [...], not_key: [...]}.
+        not_key: The key that holds the look-alikes ("not_this", or "not_wine" in WINE_NAME_GROUPS).
+
+    Returns:
+        {"chestnut": {"same": ["chestnut", ...], "not_this": ["water chestnut", ...]}, ...}
+    """
+    known = term_names(groups)
+    return {name: {"same": [s for s in known if s in _same_name(groups, name)],
+                   "not_this": with_spellings(group.get(not_key, []))}
+            for name, group in groups.items()}
 
 
 def wine_names() -> list[str]:
-    """Return every wine name the alcohol and sulfite flags look for, in every spelling.
-
-    Returns:
-        Each wine in WINE_NAME_GROUPS and its aliases, with and without accents,
-        hyphens or spaces (except the names in ACCENT_REQUIRED), each once.
-    """
-    return list(dict.fromkeys(s for name in WINE_NAME_GROUPS for s in _same_wine(name)))
+    """Return every wine name the alcohol and sulfite flags look for, in every spelling (term_names)."""
+    return term_names(WINE_NAME_GROUPS)
 
 
 def wine_name_groups() -> dict[str, dict[str, list[str]]]:
     """Return, for each wine, the names that mean the same wine and the look-alikes that are not wine.
 
-    Built on wine_names(), so each group lists only names the flags look for.
-
     Returns:
         {"rosé": {"same_wine": ["rosé", "rosé wine", ...], "not_wine": ["rosé water", ...]}, ...}
     """
-    known = wine_names()
-    return {name: {"same_wine": [s for s in known if s in _same_wine(name)],
-                   "not_wine": list(dict.fromkeys(s for p in group.get("not_wine", [])
-                                                  for s in spelling_variants(p)))}
-            for name, group in WINE_NAME_GROUPS.items()}
+    return {name: {"same_wine": g["same"], "not_wine": g["not_this"]}
+            for name, g in term_groups(WINE_NAME_GROUPS, not_key="not_wine").items()}
+
+
+# Foods named in ways the keyword lists miss, found in review round 4. Each lists the flags it
+# sets, its other names ("aliases") and the look-alikes that are not it ("not_this").
+FOOD_NAME_GROUPS: dict[str, dict[str, list[str]]] = {
+    "pilchard": {"flags": ["contains_fish"]},
+    "sprat": {"flags": ["contains_fish"], "aliases": ["brisling"]},
+    "whitebait": {"flags": ["contains_fish"]},
+    "turbot": {"flags": ["contains_fish"]},
+    "plaice": {"flags": ["contains_fish"]},
+    "barramundi": {"flags": ["contains_fish"]},
+    "lingcod": {"flags": ["contains_fish"]},
+    "john dory": {"flags": ["contains_fish"]},
+    # Chestnuts are tree nuts (FDA); water chestnuts are a vegetable, chestnut mushrooms a mushroom
+    "chestnut": {"flags": ["contains_tree_nut"], "aliases": ["marron glacé", "châtaigne"],
+                 "not_this": ["water chestnut", "chestnut mushroom"]},
+    # Plain "buffalo" stays out: buffalo wings, buffalo sauce and buffalo mozzarella are not buffalo meat
+    "buffalo meat": {"flags": ["contains_red_meat"],
+                     "aliases": ["ground buffalo", "buffalo steak", "buffalo mince", "minced buffalo"]},
+}
+
+
+def named_foods(flag: str) -> list[str]:
+    """Return the FOOD_NAME_GROUPS names (and aliases, every spelling) that set a flag."""
+    return term_names({n: g for n, g in FOOD_NAME_GROUPS.items() if flag in g["flags"]})
+
+
+def not_named_foods(flag: str) -> list[str]:
+    """Return the look-alikes of the FOOD_NAME_GROUPS foods that set a flag, every spelling."""
+    return with_spellings([p for g in FOOD_NAME_GROUPS.values() if flag in g["flags"] for p in g.get("not_this", [])])
 
 
 WINE_NAMES = wine_names()
@@ -356,7 +426,7 @@ PEANUT_KEYWORDS   = ["peanut", "peanut butter", "peanut oil", "groundnut", "grou
 TREE_NUT_KEYWORDS = ["almond", "walnut", "pecan", "cashew", "pistachio", "hazelnut",
                      "filbert", "macadamia", "brazil nut", "pine nut", "nut", "nutella",
                      "praline", "marzipan", "macaron", "frangipane", "amaretti", "pesto",
-                     "baklava", "nougat", "gianduja", "marcona"] + _compounds("contains_tree_nut")
+                     "baklava", "nougat", "gianduja", "marcona"] + _compounds("contains_tree_nut") + named_foods("contains_tree_nut")
 FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "sardine",
                      "tilapia", "halibut", "trout", "mackerel", "haddock", "catfish",
                      "snapper", "swordfish", "mahi mahi", "flounder", "sole", "hake",
@@ -368,7 +438,7 @@ FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "s
                      "shark", "unagi", "sturgeon", "skate", "stingray", "fugu", "pufferfish", "lamprey",
                      "marlin", "tilefish", "bullhead",
                      # Policy: unspecified "seafood" may be fish or shellfish, so it sets both
-                     "seafood"] + _compounds("contains_fish")
+                     "seafood"] + _compounds("contains_fish") + named_foods("contains_fish")
 # Shellfish is two allergen groups that the EU, Canada, Australia / NZ, Japan and Korea label
 # separately: many people allergic to shrimp can eat clams, and the reverse. Policy P5 / P10:
 # unspecified "seafood" may be either, so it sets both
@@ -412,7 +482,7 @@ BEEF_KEYWORDS     = ["beef", "veal", "steak", "brisket", "sirloin", "chuck", "gr
 RED_MEAT_KEYWORDS = (BEEF_KEYWORDS + PORK_KEYWORDS
                      + ["lamb", "mutton", "goat", "venison", "bison", "elk", "rabbit", "horse", "boar",
                         "moose", "kangaroo", "liver", "kidney", "tripe", "sweetbread", "mince",
-                        "ground meat", "minced meat"])
+                        "ground meat", "minced meat"] + named_foods("contains_red_meat"))
 POULTRY_KEYWORDS  = ["chicken", "turkey", "duck", "goose", "quail", "pheasant", "cornish hen", "game hen",
                      "poussin", "guinea fowl", "squab", "partridge", "capon", "poultry", "fryer",
                      "foie gras", "schmaltz"]
@@ -573,7 +643,7 @@ EGG_EXCEPTIONS      = ["eggless", "egg-free", "egg free", "egg replacer", "vegan
 PEANUT_EXCEPTIONS   = ["peanut-free", "peanut free", "nut-free", "nut free", "pine nut", "brazil nut",
                        "tiger nut", "macadamia nut", "cashew nut", "pistachio nut", "pecan nut", "hazel nut",
                        "kola nut", "betel nut", "candle nut", "candlenut"]
-TREE_NUT_EXCEPTIONS = ["nut-free", "nut free", "tiger nut", "ground nut"]
+TREE_NUT_EXCEPTIONS = ["nut-free", "nut free", "tiger nut", "ground nut"] + not_named_foods("contains_tree_nut")
 # Oyster mushrooms, often listed as "wild mushrooms (such as oyster, shiitake ...)"
 OYSTER_MUSHROOM_PHRASES = ["oyster mushroom", "king oyster", "such as oyster", "oyster, shiitake",
                            "oyster, crimini", "oyster and shiitake", "shiitake and oyster",
@@ -596,7 +666,8 @@ MEAT_EXCEPTIONS     = OYSTER_MUSHROOM_PHRASES + FISH_EXCEPTIONS + [
 # Used for contains_meat (land meat only): a fish steak is not meat
 LAND_MEAT_EXCEPTIONS = MEAT_EXCEPTIONS + ["tuna steak", "salmon steak", "fish steak", "swordfish steak",
                                           "halibut steak", "cod steak"]
-ANIMAL_EXCEPTIONS   = MEAT_EXCEPTIONS + DAIRY_EXCEPTIONS + EGG_EXCEPTIONS
+# Goat cheese and goat milk are not meat, but they are animal products, so they stay for "vegan"
+ANIMAL_EXCEPTIONS   = [p for p in MEAT_EXCEPTIONS if not p.startswith("goat")] + DAIRY_EXCEPTIONS + EGG_EXCEPTIONS
 BEEF_EXCEPTIONS     = ["tuna steak", "salmon steak", "fish steak", "swordfish steak", "cauliflower steak",
                        "steak sauce", "steak seasoning", "beefsteak tomato", "beef tomato",
                        "hamburger bun", "hamburger roll", "hamburger helper", "turkey jerky",
@@ -698,22 +769,36 @@ FLAG_COLUMNS = list(FLAG_RULES) + ["vegetarian", "vegan"]
 
 
 @cache
-def _longest_first(phrases: tuple[str, ...]) -> tuple[str, ...]:
-    """Return exception phrases longest first, so 'sweet potato' is removed before 'potato' (cached)."""
-    return tuple(sorted(phrases, key=len, reverse=True))
+def _exception_pattern(phrases: tuple[str, ...]) -> re.Pattern[str] | None:
+    """Compile one regex for exception phrases in every spelling, longest first (cached).
+
+    Longest first removes 'sweet potato' before 'potato'. A phrase must start a word,
+    so 'oat milk' is not removed from 'goat milk'; its end may run on ('kidney beans').
+    """
+    if not phrases:
+        return None
+    alternatives = "|".join(re.escape(p) for p in sorted(with_spellings(phrases), key=len, reverse=True))
+    return re.compile(rf"\b(?:{alternatives})")
+
+
+def _spellings_of_text(text: str) -> list[str]:
+    """Return the text, plus its form without accents when it has any ("jalapeño" -> "jalapeno")."""
+    if text.isascii():
+        return [text]
+    plain = "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c))
+    return [text, plain]
 
 
 def _without_phrases(text: str, phrases: Sequence[str]) -> str:
     """Replace every exception phrase in `text` with a space, longest first."""
-    for phrase in _longest_first(tuple(phrases)):
-        text = text.replace(phrase, " ")
-    return text
+    pattern = _exception_pattern(tuple(phrases))
+    return pattern.sub(" ", text) if pattern else text
 
 
 @cache
 def _keyword_pattern(keywords):
-    """Compile one whole-word regex for a tuple of keywords (plurals allowed)."""
-    alternatives = "|".join(re.escape(k) for k in sorted(keywords, key=len, reverse=True))
+    """Compile one whole-word regex for a tuple of keywords in every spelling (plurals allowed)."""
+    alternatives = "|".join(re.escape(k) for k in sorted(with_spellings(keywords), key=len, reverse=True))
     return re.compile(rf"\b(?:{alternatives})(?:s|es)?\b")
 
 
@@ -723,7 +808,8 @@ def make_flag(ingredient_str: object, keywords: Sequence[str], exceptions: Seque
     Whole-word matching avoids false hits such as 'ham' in 'graham' or 'egg'
     in 'eggplant'; plural endings (-s, -es) still match. Exception phrases
     (for example 'coconut milk') are removed first, longest first, so they
-    never trigger a keyword.
+    never trigger a keyword. Keywords and exceptions match in every spelling
+    (spelling_variants), and accented text is also read without its accents.
 
     Args:
         ingredient_str: The text to search (ingredients and name); anything else gives False.
@@ -735,8 +821,8 @@ def make_flag(ingredient_str: object, keywords: Sequence[str], exceptions: Seque
     """
     if not isinstance(ingredient_str, str):
         return False
-    text = _without_phrases(ingredient_str.lower(), exceptions)
-    return bool(_keyword_pattern(tuple(keywords)).search(text))
+    pattern = _keyword_pattern(tuple(keywords))
+    return any(pattern.search(_without_phrases(text, exceptions)) for text in _spellings_of_text(ingredient_str.lower()))
 
 # A recipe name that declares the dish gluten-free
 GLUTEN_FREE_NAME = r"\b(?:gluten[- ]?free|gf|flourless|celiac|coeliac)\b"
@@ -826,8 +912,41 @@ def explain_flag(text: object, column: str) -> list[str]:
         keywords, exceptions = ANIMAL_KEYWORDS, ANIMAL_EXCEPTIONS
     else:
         keywords, exceptions = FLAG_RULES[column]
-    text = _without_phrases(text.lower(), exceptions)
-    return list(dict.fromkeys(m.group(0) for m in _keyword_pattern(tuple(keywords)).finditer(text)))
+    pattern = _keyword_pattern(tuple(keywords))
+    found: dict[str, str] = {}   # spelling without accents -> the keyword as written in the text
+    for t in _spellings_of_text(text.lower()):
+        for m in pattern.finditer(_without_phrases(t, exceptions)):
+            found.setdefault(_spellings_of_text(m.group(0))[-1], m.group(0))   # "jalapeño" once, not twice
+    return list(found.values())
+
+
+def flags_for_term(term: str) -> list[str]:
+    """Return the flags a word or phrase sets on its own, such as "chestnut" -> ["contains_tree_nut"].
+
+    Args:
+        term: An ingredient, in any spelling ("jalapeño" or "jalapeno").
+
+    Returns:
+        The FLAG_RULES columns the term sets, in FLAG_COLUMNS order; [] if none.
+    """
+    return [flag for flag, (keywords, exceptions) in FLAG_RULES.items() if make_flag(term, keywords, exceptions)]
+
+
+def term_group_of(term: str) -> str | None:
+    """Return the name group (WINE_NAME_GROUPS or FOOD_NAME_GROUPS) a spelling belongs to.
+
+    Args:
+        term: A name in any spelling, such as "syrah" or "brisling".
+
+    Returns:
+        The group's name ("shiraz", "sprat"), or None when the term is in no group.
+    """
+    term = term.lower()
+    for groups, not_key in ((WINE_NAME_GROUPS, "not_wine"), (FOOD_NAME_GROUPS, "not_this")):
+        for name, group in term_groups(groups, not_key).items():
+            if term in group["same"]:
+                return name
+    return None
 
 
 # Flag column -> the "free of" label that rules it out

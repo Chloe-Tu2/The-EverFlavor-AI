@@ -182,7 +182,7 @@ flowchart LR
 | **Validation** | 26 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
 | **Cooking methods and fats** | Notebook 02: cooking methods for every recipe (rules agree with Food.com's own tags on 66–95% of tagged recipes per method), the cooking fats each recipe names, and a reference table of 31 fats; 49% of fried recipes do not say which frying fat they use |
-| **Code checks** | 104 automated checks pass (100 tests for the shared functions, 4 security checks) and cover 97% of `src/`; type hints in `src/` and `tests/` checked with mypy |
+| **Code checks** | 108 automated checks pass (104 tests for the shared functions, 4 security checks) and cover 97% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -208,7 +208,7 @@ flowchart LR
 - Exploratory analysis with charts showing what each step changed (`data/processed/figures/`).
 - A rule-based baseline recommender with a final safety filter, for restrictions such as "no pork, no alcohol".
 - A leak-free feature pipeline and a baseline cuisine classifier.
-- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 100 automated tests and 4 security checks run before each push. Long steps (downloads, Open Food Facts searches, model training) show progress bars.
+- Reusable code moved into `src/everflavor/` (one copy for the notebook and, later, the agents), with type hints, documented functions, 104 automated tests and 4 security checks run before each push. Long steps (downloads, Open Food Facts searches, model training) show progress bars.
 - Cooking methods and cooking fats (notebook 02): methods from the instructions, checked against Food.com's own method tags; the fats each recipe names; a cited reference table of 31 fats (smoke point ranges, USDA fat breakdown, allergens, flavor, where each is traditional); and a caution for fried recipes whose frying fat is not stated.
 - Human verification of the flags (section 5.13): the evidence is gathered automatically, and people make and record the decisions (see below).
 
@@ -217,6 +217,8 @@ flowchart LR
 Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended twice and the flags now read recipe names too; the latest fresh sample (round 3, which also checks the diet flags) measures 100% recall for every flag except shellfish (92%). Details and labeling rules: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md).
 
 All 30 round 3 disagreements were then traced to what set each flag: 17 were keyword bugs (now fixed), 2 were allergens hidden inside ready-made ingredients, 4 were wrong AI answers and 7 were matters of definition. Round 3 is therefore optimistic now, and round 4 is the fresh sample for the next measurement.
+
+Round 4 was labeled by hand by a team member (Chloe-Tu2) and scored before any fix, so it is the first independent measure: gluten was caught 94% of the time, dairy 95%, fish 93%, tree nuts 95%. Of its 149 disagreements, most are matters of definition (the labels count fish as meat and cream cheese as soft cheese) or likely label mistakes (coconut milk as dairy, black pepper as a nightshade). The real misses are fixed: pilchard and other fish names, chestnut (but not water chestnut) and ground buffalo, now kept in named groups with their look-alikes (`FOOD_NAME_GROUPS`). Every keyword now also matches with or without accents and hyphens ("crème fraîche", "rib-eye"). The check also found that 383 recipes with goat cheese were wrongly counted as vegan, now fixed. Round 4 is therefore optimistic now as well; the team still checks its disagreements and signs it off.
 
 **Human verification (section 5.13).** An AI checking an AI is not independent, so people make the final decisions, and the notebook records them in `docs/flag_review/`:
 

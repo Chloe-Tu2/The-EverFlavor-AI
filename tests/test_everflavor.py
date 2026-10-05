@@ -35,17 +35,23 @@ from everflavor.cuisine import map_cuisine, origin_from_labels
 from everflavor.diets import ALLERGEN_SETS, DIET_PROFILES, add_diet_profiles, meets_diet
 from everflavor.flags import (
     FLAG_COLUMNS,
+    FOOD_NAME_GROUPS,
     WINE_NAME_EXCEPTIONS,
     WINE_NAME_GROUPS,
     add_keyword_flags,
     explain_flag,
+    flags_for_term,
     foodcom_tag_agreement,
     keyword_flag,
     make_flag,
     print_flag_counts,
     spelling_variants,
+    term_group_of,
+    term_groups,
+    term_names,
     wine_name_groups,
     wine_names,
+    with_spellings,
 )
 from everflavor.ingredients import (
     normalize_ingredient,
@@ -380,6 +386,57 @@ def test_wine_look_alikes_are_not_alcohol_but_real_wine_still_is():
                  "virgin sangria | red wine", "cabernet-braised short ribs"]:
         assert keyword_flag(text, "contains_alcohol"), text
         assert keyword_flag(text, "contains_sulfites"), text
+
+
+def test_every_keyword_matches_in_every_spelling():
+    assert with_spellings(["jamón", "tri-tip", "rosé"]) == ["jamón", "jamon", "tri-tip", "tri tip", "rosé"]
+    assert keyword_flag("crème fraîche | chives", "contains_dairy")          # keyword written "creme fraiche"
+    assert keyword_flag("jalapeno | lime", "contains_nightshade")
+    assert keyword_flag("jalapeño | lime", "contains_nightshade")
+    assert keyword_flag("tri tip | rub", "contains_beef")                     # keyword written "tri-tip"
+    assert not keyword_flag("rose | sugar", "contains_alcohol")              # the flower, not rosé
+    assert explain_flag("crème fraîche", "contains_dairy") == ["creme fraiche"]
+    assert explain_flag("jalapeño | lime", "contains_nightshade") == ["jalapeño"]   # once, as written
+
+
+def test_exceptions_start_a_word_and_goat_dairy_is_not_vegan():
+    assert keyword_flag("goat milk | sugar", "contains_dairy")               # "oat milk" is not inside it
+    assert keyword_flag("pineapple butter | toast", "contains_dairy")        # nor "apple butter"
+    assert not keyword_flag("oat milk | oats", "contains_dairy")
+    assert not keyword_flag("red kidney beans | rice", "contains_high_purine")   # a phrase's end may run on
+    for text in ["goat cheese | baguette", "goat-cheese medallion", "goats cheese | beet"]:
+        assert keyword_flag(text, "vegetarian"), text
+        assert not keyword_flag(text, "vegan"), text
+
+
+def test_named_foods_from_round4_and_their_look_alikes():
+    assert keyword_flag("pilchard | spaghetti", "contains_fish")
+    assert not keyword_flag("pilchard | spaghetti", "vegetarian")
+    assert keyword_flag("brisling sardines | toast", "contains_fish")
+    assert keyword_flag("roasted chestnuts | sage", "contains_tree_nut")
+    assert keyword_flag("marron glace | cream", "contains_tree_nut")
+    assert not keyword_flag("water chestnut | soy sauce", "contains_tree_nut")
+    assert not keyword_flag("chestnut mushroom | thyme", "contains_tree_nut")
+    for flag in ["contains_red_meat", "contains_meat"]:
+        assert keyword_flag("ground buffalo | chili bean", flag)
+        for text in ["buffalo mozzarella | basil", "buffalo cauliflower bites | hot sauce"]:
+            assert not keyword_flag(text, flag), text
+    assert not keyword_flag("buffalo wing sauce | chicken wing", "contains_red_meat")   # chicken is poultry
+    assert keyword_flag("buffalo mozzarella | basil | tomato", "vegetarian")
+
+
+def test_term_groups_and_lookups():
+    groups = term_groups(FOOD_NAME_GROUPS)
+    assert set(groups) == set(FOOD_NAME_GROUPS)
+    assert {"chestnut", "marron glace", "chataigne"} <= set(groups["chestnut"]["same"])
+    assert "water chestnut" in groups["chestnut"]["not_this"]
+    assert sorted(s for g in groups.values() for s in g["same"]) == sorted(term_names(FOOD_NAME_GROUPS))
+    assert term_group_of("Brisling") == "sprat"
+    assert term_group_of("syrah") == "shiraz"
+    assert term_group_of("tofu") is None
+    assert flags_for_term("chestnut") == ["contains_tree_nut"]
+    assert "contains_fish" in flags_for_term("pilchard")
+    assert flags_for_term("water chestnut") == []
 
 
 def test_pet_meat_and_pet_food_are_never_served():

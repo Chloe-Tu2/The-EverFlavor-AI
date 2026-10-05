@@ -96,6 +96,21 @@ Every one of the 30 round 3 disagreements was traced to what set the flag (`why_
 
 Because round 3 was used for these fixes, its scores are now optimistic; round 4 (`flag_review_sample_round4.csv`) is the fresh sample for the next measurement.
 
+## Round 4
+
+Labeled by hand by Chloe-Tu2 (`flag_review_labeled_round4.csv`) and scored on 2026-10-04 before any fix: 149 disagreements (`flag_review_disagreements_round4.csv`), which the team still checks and signs off.
+
+| Kind | Examples | Outcome |
+|---|---|---|
+| Keyword misses | pilchard (fish), chestnut (tree nut), ground buffalo (red meat) | Fixed: named groups with their look-alikes (`FOOD_NAME_GROUPS`: water chestnut, buffalo mozzarella are not matched) |
+| Spellings | "crème fraîche", "rib-eye", "tri tip" | Fixed: every keyword and exception matches with or without accents and hyphens |
+| Older bugs found | "goat cheese" counted as vegan (383 recipes); "oat milk" removed from inside "goat milk" | Fixed: exception phrases must start a word; goat dairy stays animal for vegan |
+| Matter of definition | fish counted as meat (16), cream cheese and feta as soft cheese (13) | For the team to decide as policies |
+| Likely label mistakes | coconut milk as dairy, black pepper as a nightshade, buffalo chicken wings as red meat | For the team to confirm when checking the disagreements |
+| Open question | puffed rice cereal and seasoning mixes as gluten | Needs a policy (malt in cereal) |
+
+Because round 4 was used for these fixes, its scores are now optimistic too; a round 5 sample is the next fresh measurement.
+
 **Rules now set by team policy** (`flag_policies.csv`): two rules above were the AI labeler's own choices and are overridden by decisions a person made. Oats now count as gluten unless labeled gluten-free (P1), and gelatin counts as meat (P2). Answers in rounds 1-3 that follow the old rules show up as disagreements until they are corrected.
 
 **New flags:** `contains_red_meat` (meat from mammals, pork included), `contains_poultry` (white meat) and `contains_processed_meat` (cured, salted, smoked or fermented meat), following USDA and WHO / IARC definitions (policies P8 and P9). Rounds 1-3 were labeled before these flags existed, so they are first measured in round 4.
