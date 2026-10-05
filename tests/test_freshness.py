@@ -53,8 +53,21 @@ def test_index_images_reads_state_item_and_age_from_names(tmp_path):
     assert series.loc[series["path"].str.contains("tilapia"), "photo_set"].iloc[0] == "test_source:fish_eyes/tilapia_day3"
     assert tuple(index.loc["fish_eyes/tilapia_day3/4.jpg", ["item", "age_days_min", "age_days_max"]]) == ("tilapia", 3, 3)
     assert tuple(index.loc["fish_eyes/carp_1-2days/7.jpg", ["age_days_min", "age_days_max"]]) == (1, 2)
-    assert pd.isna(index.loc["Misc/6.jpg", "state"])                         # kept for a hand check
+    assert index["state"].isna()["Misc/6.jpg"]                               # kept for a hand check
     assert index["license"].iloc[0] == "CC BY 4.0"
+
+
+def test_source_rules_and_spellings_of_states(tmp_path):
+    for i, rel in enumerate(["Semi_Fresh eggplant(4-8)/1.jpg", "Fresh pineapple(1-15)/2.jpg",
+                             "Fish/Highly Fresh/3.jpg", "Fish/Fresh/4.jpg", "Fish/Not Fresh/5.jpg"]):
+        _image(tmp_path / rel, i)
+    plain = index_images("s", tmp_path).set_index(index_images("s", tmp_path)["path"].map(lambda p: Path(p).name))
+    assert tuple(plain.loc["1.jpg", ["item", "state"]]) == ("eggplant", "aging")     # "semi fresh", not "fresh"
+    assert tuple(plain.loc["2.jpg", ["item", "state"]]) == ("pineapple", "fresh")
+    assert plain.loc["4.jpg", "state"] == "fresh" and plain.loc["5.jpg", "state"] == "spoiled"
+    fish = index_images("s", tmp_path, state_rules={"fresh": "aging", "highly fresh": "fresh"})
+    fish = fish.set_index(fish["path"].map(lambda p: Path(p).name))
+    assert [fish.loc[f"{n}.jpg", "state"] for n in (3, 4, 5)] == ["fresh", "aging", "spoiled"]
 
 
 def test_near_duplicates_and_the_split_keep_groups_together():
@@ -105,15 +118,23 @@ def _zip(files: dict) -> bytes:
 
 def test_mendeley_download_checks_the_license_and_zip_paths(monkeypatch, tmp_path):
     import json
-    record = {"name": "Bananas", "doi": {"id": "10.17632/abc.1"},
+    record: dict = {"name": "Bananas", "doi": {"id": "10.17632/abc.1"},
               "data_licence": {"short_name": "CC BY 4.0", "url": "http://creativecommons.org/licenses/by/4.0"},
               "files": [{"filename": "Ripeness.zip", "content_details": {"download_url": "https://x/1"}},
-                        {"filename": "Augmented Ripeness.zip", "content_details": {"download_url": "https://x/2"}}]}
+                        {"filename": "Augmented Ripeness.zip", "content_details": {"download_url": "https://x/2"}},
+                        {"filename": "Ripeness.rar", "content_details": {"download_url": "https://x/3"}}]}
     answers = {freshness.MENDELEY_API + "abc": json.dumps(record).encode(), "https://x/1": _zip({"Green/1.jpg": b"jpg"})}
     asked: list[str] = []
-    monkeypatch.setattr(freshness, "_get_bytes", lambda url, timeout: asked.append(url) or answers[url])
+
+    def fake_download(url, target, timeout):
+        asked.append(url)
+        target.write_bytes(answers[url])
+        return target
+
+    monkeypatch.setattr(freshness, "_get_bytes", lambda url, timeout: answers[url])
+    monkeypatch.setattr(freshness, "_download_to", fake_download)
     files = mendeley_download("abc", tmp_path / "bananas")
-    assert [f.name for f in files] == ["Green", "LICENSE.txt"] and "https://x/2" not in asked   # augmented copies skipped
+    assert [f.name for f in files] == ["Green", "LICENSE.txt"] and asked == ["https://x/1"]   # no augmented copies, no .rar
     assert "CC BY 4.0" in (tmp_path / "bananas" / "LICENSE.txt").read_text(encoding="utf-8")
     record["data_licence"]["short_name"] = "CC BY-NC 3.0"
     answers[freshness.MENDELEY_API + "abc"] = json.dumps(record).encode()

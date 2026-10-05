@@ -123,7 +123,7 @@ def test_foodkeeper_table_and_matching(tmp_path):
     table = foodkeeper_table(path)
     milk = table[table.foodkeeper_id == 1].set_index("storage")
     assert milk.loc["fridge", "max_days"] == 7 and milk.loc["freezer", "min_days"] == 90
-    assert math.isnan(milk.loc["pantry", "min_days"]) and milk.loc["pantry", "unit"] == "Not Recommended"
+    assert milk["min_days"].isna()["pantry"] and milk.loc["pantry", "unit"] == "Not Recommended"
     assert milk.loc["fridge", "name"] == "Milk (plain or flavored)"
     assert table[table.foodkeeper_id == 3].iloc[0]["tip"] == "Keep cold."
     matches = match_shelf_life(["milk", "kefir", "cheddar cheese", "saffron"], table).set_index("ingredient")

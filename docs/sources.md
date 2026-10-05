@@ -35,7 +35,7 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | Source | URL | License | Access method | Version / notes | Notebook |
 |---|---|---|---|---|---|
 | OpenStreetMap (Overpass API) | <https://www.openstreetmap.org/copyright> | ODbL (credit "(c) OpenStreetMap contributors") | Overpass API, no key; public servers tried in turn, every answer cached | Live, queried 2026-10-04 | 03, section 3 |
-| Open Food Facts product export | <https://huggingface.co/datasets/openfoodfacts/product-database> | ODbL | `food.parquet` (7.9 GB): only the needed columns, a spread sample of 200 row groups read over the network, or the whole file once downloaded | Read 2026-10-04 | 03, section 4 |
+| Open Food Facts product export | <https://huggingface.co/datasets/openfoodfacts/product-database> | ODbL | `food.parquet` (7.9 GB): only the needed columns, a spread sample of 1,000 row groups (1,020,381 products) read over the network, or the whole file once downloaded | Read 2026-10-05 | 03, section 4 |
 | Google Places API (New) | <https://developers.google.com/maps/documentation/places/web-service> | Google Maps Platform terms (only place IDs are stored) | API key in a request header (`GOOGLE_PLACES_API_KEY`); skipped without it | Not used yet (no key) | 03, section 2 |
 
 ## Food freshness images (notebook 05)
@@ -43,7 +43,11 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | Source | URL | License | Access method | Version / notes | Notebook |
 |---|---|---|---|---|---|
 | BananaImageBD | <https://doi.org/10.17632/ptfscwtnyz.2> | CC BY 4.0 (read from the dataset record) | Mendeley Data public API, no key; original photos only | Version 2, ripeness set (820 photos) | 05, section 2 |
-| Other image sources | See notebook 05, section 2 | Mostly CC BY 4.0; four to confirm | Mendeley Data (license checked before download) or by hand | Not downloaded yet | 05, section 2 |
+| AgriFreshNET | <https://doi.org/10.17632/42m5tb7yv9> | CC BY 4.0 (read from the dataset record) | Mendeley Data public API; the dataset's own augmented copies skipped | 5,217 original photos, 8 items, fresh / semi-fresh / rotten | 05, section 2 |
+| FruitNet | <https://doi.org/10.17632/b6fftwbr2v> | CC BY 4.0 (read from the dataset record) | Mendeley Data public API (the .zip; the same photos as .rar skipped) | 19,526 photos, 7 fruits, good / bad / mixed (mixed left unlabeled) | 05, section 2 |
+| Multistage Fish Eyes | <https://doi.org/10.17632/67nmx3mhwh> | CC BY 4.0 (read from the dataset record) | Mendeley Data public API | 4,800 eye photos; "Highly Fresh" / "Fresh" / "Not Fresh" read as fresh / aging / spoiled (team rule) | 05, section 2 |
+| DaFiF, Freshness of the Fish Eyes | <https://doi.org/10.17632/vx4ptwk3pb>, <https://doi.org/10.17632/xzyx7pbr3w> | CC BY 4.0 (read from the dataset records) | Mendeley Data; loose photos with labels in a separate file | Not downloaded yet (need a label reader) | 05, section 2 |
+| MeatScan, Roboflow meat and bread mold | See notebook 05, section 2 | To confirm on the data records | By hand | Not downloaded yet | 05, section 2 |
 
 ## Planned or optional
 

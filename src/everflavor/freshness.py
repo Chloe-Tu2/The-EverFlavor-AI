@@ -5,7 +5,6 @@ The model only ever says how food LOOKS; it never says food is safe to eat."""
 from __future__ import annotations
 
 import hashlib
-import io
 import json
 import re
 import urllib.request
@@ -41,10 +40,12 @@ SAFETY_NOTE = ("This only says how the food looks. Check the smell, texture and 
                "when in doubt, throw it out (USDA).")
 STATES = ["fresh", "aging", "spoiled"]
 # Each source's own words -> one state. Team decision: is an overripe banana "aging" or "spoiled"?
+# A source whose words mean something else gets its own rule (SOURCE_STATE_RULES in notebook 05).
 STATE_MAP = {
     "fresh": "fresh", "good": "fresh", "highly fresh": "fresh", "green": "fresh", "semi-ripe": "fresh",
-    "semiripe": "fresh", "unripe": "fresh",
-    "semi-fresh": "aging", "semifresh": "aging", "half-fresh": "aging", "halffresh": "aging", "ripe": "aging",
+    "semiripe": "fresh", "semi ripe": "fresh", "unripe": "fresh",
+    "semi-fresh": "aging", "semifresh": "aging", "semi fresh": "aging", "half-fresh": "aging", "halffresh": "aging",
+    "half fresh": "aging", "ripe": "aging",
     "overripe": "aging", "medium": "aging",
     "rotten": "spoiled", "bad": "spoiled", "spoiled": "spoiled", "not fresh": "spoiled", "stale": "spoiled",
     "moldy": "spoiled", "mouldy": "spoiled",
@@ -54,7 +55,8 @@ IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 FOOD_GROUPS = {
     "produce": ["apple", "banana", "guava", "mango", "orange", "pomegranate", "lime", "lemon", "tomato", "carrot",
                 "potato", "cucumber", "okra", "bell pepper", "capsicum", "bitter gourd", "strawberry", "grape",
-                "indian gooseberry", "amla", "papaya", "peach", "pear", "onion", "cabbage", "spinach"],
+                "indian gooseberry", "amla", "papaya", "peach", "pear", "onion", "cabbage", "spinach", "eggplant",
+                "pineapple", "bitter melon", "bittermelon", "bitter gourd"],
     "meat": ["beef", "pork", "lamb", "chicken", "meat"],
     "fish": ["mackerel", "tilapia", "tuna", "fish", "carp", "catfish", "rohu", "salmon", "sardine"],
     "bread": ["bread", "bun", "toast", "loaf"],
@@ -70,11 +72,11 @@ def _words(path: Path, root: Path) -> str:
     return re.sub(r"[\\/_.]+", " ", str(rel).lower())
 
 
-def _state(words: str) -> str | None:
+def _state(words: str, state_map: Mapping[str, str] = STATE_MAP) -> str | None:
     """The state named in the path words (longest name first, so "semi-fresh" beats "fresh")."""
-    for name in sorted(STATE_MAP, key=len, reverse=True):
+    for name in sorted(state_map, key=len, reverse=True):
         if re.search(rf"(?<![a-z-]){re.escape(name)}(?![a-z-])", words):
-            return STATE_MAP[name]
+            return state_map[name]
     return None
 
 
@@ -112,18 +114,39 @@ def _get_bytes(url: str, timeout: int) -> bytes:
     request = urllib.request.Request(url, headers=DOWNLOAD_HEADERS)
     with urllib.request.urlopen(request, timeout=timeout) as response:   # https only, checked above
         return response.read()
+
+
+def _download_to(url: str, target: Path, timeout: int, chunk: int = 2**20) -> Path:
+    """Stream a URL to a file in 1 MB pieces (archives of several GB never sit in memory).
+
+    The file is written under a temporary name first, so an interrupted download is
+    never mistaken for a finished one.
+    """
+    if not url.startswith("https://"):
+        raise ValueError(f"only https downloads are allowed: {url}")
+    partial = target.with_name(target.name + ".part")
+    request = urllib.request.Request(url, headers=DOWNLOAD_HEADERS)
+    with urllib.request.urlopen(request, timeout=timeout) as response, open(partial, "wb") as out:
+        while block := response.read(chunk):
+            out.write(block)
+    partial.replace(target)
+    return target
+
+
 # Only licenses that allow use with credit; anything else is refused before downloading
 ALLOWED_LICENCES = {"CC BY 4.0", "CC BY 3.0", "CC0 1.0", "CC0"}
 
 
 def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = "",
-                      skip_names: Sequence[str] = ("augmented",), refresh: bool = False, timeout: int = 600) -> list[Path]:
+                      skip_names: Sequence[str] = ("augmented", ".rar"), refresh: bool = False,
+                      timeout: int = 600) -> list[Path]:
     """Download and unzip the files of a public Mendeley Data dataset, after checking its license.
 
     The license is read from the dataset's record (not from an article), so the
     "to confirm" licenses of section 2 are checked here. Zip files are unpacked;
-    files whose names contain a `skip_names` word (a source's own augmented copies)
-    are not downloaded.
+    files whose names contain a `skip_names` word (a source's own augmented copies, or
+    .rar archives Python can not open) are not downloaded. Files stream to disk, so
+    archives of several GB never sit in memory.
 
     Args:
         dataset_id: The dataset's Mendeley ID ("ptfscwtnyz").
@@ -156,16 +179,15 @@ def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = 
         url = (entry.get("content_details") or {}).get("download_url")
         if not url:
             continue
-        content = _get_bytes(url, timeout)
+        saved = _download_to(url, folder / Path(name).name, timeout)
         if name.lower().endswith(".zip"):
-            with zipfile.ZipFile(io.BytesIO(content)) as archive:
+            with zipfile.ZipFile(saved) as archive:
                 for member in archive.namelist():   # never write outside `folder`
                     target = (folder / member).resolve()
                     if not target.is_relative_to(folder.resolve()):
                         raise ValueError(f"unsafe path in {name}: {member}")
                 archive.extractall(folder)
-        else:
-            (folder / Path(name).name).write_bytes(content)
+            saved.unlink()   # the unpacked photos are kept, not the archive
     credit = [data.get("name", dataset_id), f"{licence}: {(data.get('data_licence') or {}).get('url', '')}",
               f"https://doi.org/{(data.get('doi') or {}).get('id', '')}"]
     (folder / "LICENSE.txt").write_text("\n".join(credit) + "\n", encoding="utf-8")
@@ -173,7 +195,7 @@ def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = 
 
 
 def index_images(source: str, folder: str | Path, license_name: str = "", group: str | None = None,
-                 series: bool = False) -> pd.DataFrame:
+                 series: bool = False, state_rules: Mapping[str, str] | None = None) -> pd.DataFrame:
     """One row per image of a source, with the label scheme read from its folder and file names.
 
     Most sources put the state and item in folder names ("Rotten/Apple/1.jpg",
@@ -190,6 +212,8 @@ def index_images(source: str, folder: str | Path, license_name: str = "", group:
             TriModal's fruit, the team's photos): the folder is then the photo set. False
             (most sources: one photo per item, folders named after the class) makes every
             image its own photo set; near-duplicates are still grouped later.
+        state_rules: Words this source uses differently, over STATE_MAP (Multistage Fish
+            Eyes calls fish kept 2-4 days "Fresh", which is "aging" in our scheme).
 
     Returns:
         path, source, license, group, item, state, age_days_min, age_days_max, photo_set
@@ -197,6 +221,7 @@ def index_images(source: str, folder: str | Path, license_name: str = "", group:
         Images whose state can not be read are kept with an empty state, for a hand check.
     """
     root = Path(folder)
+    state_map = {**STATE_MAP, **(state_rules or {})}
     rows = []
     for path in sorted(p for p in root.rglob("*") if p.suffix.lower() in IMAGE_SUFFIXES):
         words = _words(path, root)
@@ -205,10 +230,17 @@ def index_images(source: str, folder: str | Path, license_name: str = "", group:
         found_group, item = _item(words)
         age_min, age_max = _age(words)
         rows.append({"path": str(path), "source": source, "license": license_name, "group": group or found_group,
-                     "item": item, "state": _state(words), "age_days_min": age_min, "age_days_max": age_max,
+                     "item": item, "state": _state(words, state_map), "age_days_min": age_min, "age_days_max": age_max,
                      "photo_set": f"{source}:{(path.parent if series else path).relative_to(root).as_posix()}"})
     return pd.DataFrame(rows, columns=["path", "source", "license", "group", "item", "state", "age_days_min",
                                        "age_days_max", "photo_set"])
+
+
+def _popcount(values: np.ndarray) -> np.ndarray:
+    """Bits set in each 64-bit value (NumPy 2's bitwise_count, or the same count on older NumPy)."""
+    if hasattr(np, "bitwise_count"):
+        return np.bitwise_count(values)
+    return np.unpackbits(values.astype(">u8").view(np.uint8).reshape(-1, 8), axis=1).sum(axis=1)
 
 
 def group_near_duplicates(index: pd.DataFrame, max_distance: int = 4, hashes: Sequence[object] | None = None) -> pd.Series:
@@ -233,6 +265,9 @@ def group_near_duplicates(index: pd.DataFrame, max_distance: int = 4, hashes: Se
             with Image.open(path) as image:
                 hashes.append(imagehash.phash(image))
     bits = np.array([np.asarray(h.hash if hasattr(h, "hash") else h, dtype=bool).ravel() for h in hashes])
+    # Each 64-bit hash as one integer: two hashes differ in popcount(a XOR b) bits, which is fast
+    # enough to compare tens of thousands of photos with each other
+    packed = np.packbits(bits, axis=1).view(">u8").ravel() if len(bits) else np.array([], dtype=">u8")
     parent = list(range(len(bits)))
 
     def find(i: int) -> int:
@@ -242,7 +277,7 @@ def group_near_duplicates(index: pd.DataFrame, max_distance: int = 4, hashes: Se
         return i
 
     for i in range(len(bits)):
-        close = np.nonzero((bits[i + 1:] != bits[i]).sum(axis=1) <= max_distance)[0] + i + 1
+        close = np.nonzero(_popcount(packed[i + 1:] ^ packed[i]) <= max_distance)[0] + i + 1
         for j in close:
             parent[find(int(j))] = find(i)
     return pd.Series([find(i) for i in range(len(bits))], index=index.index, name="duplicate_group")

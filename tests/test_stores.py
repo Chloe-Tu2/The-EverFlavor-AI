@@ -81,9 +81,9 @@ def test_osm_places_try_the_next_server_and_read_tags(fake_net, tmp_path):
     out = osm_places(AREA, "grocery", tmp_path).set_index("osm_id")
     assert [c["url"] for c in calls] == stores.OVERPASS_URLS[:2]                # the busy server is skipped
     assert "EverFlavorAI" in calls[0]["headers"]["User-Agent"]
-    assert out.loc["node/1", "name_hint"] == "vietnamese" and out.loc["node/1", "diet_halal"] is False
+    assert [out.loc["node/1", "name_hint"], out.loc["node/1", "diet_halal"]] == ["vietnamese", False]
     assert out.loc["way/2", "cuisine"] == ["ethiopian", "vegan"] and out.loc["way/2", "lat"] == 29.8
-    assert out.loc["way/2", "diet_vegan"] is True and out.loc["way/2", "diet_kosher"] is None
+    assert [out.loc["way/2", "diet_vegan"], out.loc["way/2", "diet_kosher"]] == [True, None]
     osm_places(AREA, "grocery", tmp_path)                                       # from the cache
     assert len(calls) == 2
 
