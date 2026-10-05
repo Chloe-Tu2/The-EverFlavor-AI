@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+import sys
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -123,16 +124,31 @@ def print_download_checks(checks: Sequence[tuple[str, str, Path | None]], refres
     Returns:
         The steps that still have something missing, in order.
     """
-    print(f"{'Step':6s} {'Item':34s} Status")
-    print("-" * 70)
-    missing_steps = []
+    rows, missing_steps = [], []
     for step, label, path in checks:
         present = path is not None and Path(path).exists() and (
             Path(path).is_file() or any(Path(path).iterdir()))
-        status = f"yes  ({_describe(path)})" if present and path is not None else "MISSING"
-        print(f"{step:6s} {label:34s} {status}")
+        rows.append((step, label, f"yes  ({_describe(path)})" if present and path is not None else "MISSING"))
         if not present and step not in missing_steps:
             missing_steps.append(step)
+    # A grid: lines between the columns, and between steps (rows of one step stay together)
+    widths = [max(len(r[i]) for r in [("Step", "Item", "Status"), *rows]) for i in range(3)]
+    def line(left: str, mid: str, right: str) -> str:
+        return left + mid.join("─" * (w + 2) for w in widths) + right
+    def cells(row: tuple[str, str, str]) -> str:
+        return "│" + "│".join(f" {text:{w}s} " for text, w in zip(row, widths)) + "│"
+    grid = [line("┌", "┬", "┐"), cells(("Step", "Item", "Status")), line("╞", "╪", "╡").replace("─", "═")]
+    for i, row in enumerate(rows):
+        if i and row[0] != rows[i - 1][0]:
+            grid.append(line("├", "┼", "┤"))
+        grid.append(cells(row))
+    grid.append(line("└", "┴", "┘"))
+    text = "\n".join(grid)
+    try:
+        text.encode(sys.stdout.encoding or "utf-8")
+    except (UnicodeEncodeError, LookupError):   # an old console that cannot show line characters
+        text = text.translate(str.maketrans("┌┬┐╞╪╡├┼┤└┴┘─═│", "+++++++++++++-=|"))
+    print(text)
     print()
     if not missing_steps:
         print("Everything is downloaded and built. Running all cells reuses it.")
