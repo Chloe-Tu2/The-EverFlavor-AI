@@ -148,6 +148,54 @@ def test_mendeley_download_checks_the_license_and_zip_paths(monkeypatch, tmp_pat
     assert not (tmp_path / "escape.jpg").exists()
     with pytest.raises(ValueError):
         mendeley_download("../etc", tmp_path / "fourth")
+    loose = {"name": "Fish eyes", "version": 1, "data_licence": {"short_name": "CC BY 4.0"},
+             "files": [{"filename": "IMG_1.jpg", "folder_id": "f1", "content_details": {"download_url": "https://x/4"}}]}
+    answers[freshness.MENDELEY_API + "fish"] = json.dumps(loose).encode()
+    answers[freshness.MENDELEY_API + "fish/folders/1"] = json.dumps([{"id": "f1", "name": "Chanos - Not Fresh"}]).encode()
+    answers["https://x/4"] = b"jpg"
+    mendeley_download("fish", tmp_path / "fish")
+    assert (tmp_path / "fish" / "Chanos - Not Fresh" / "IMG_1.jpg").exists()   # the label stays in the folder name
+
+
+def test_zenodo_download_checks_the_license_and_unpacks(monkeypatch, tmp_path):
+    import json
+    record: dict = {"metadata": {"title": "MeatScan", "license": {"id": "cc-by-4.0"}}, "doi": "10.5281/zenodo.1",
+                    "files": [{"key": "photos.zip", "links": {"self": "https://z/1"}}]}
+    answers = {freshness.ZENODO_API + "1": json.dumps(record).encode(),
+               "https://z/1": _zip({"Fresh/1.jpg": b"jpg", "Spoiled/2.jpg": b"jpg"})}
+
+    def fake_download(url, target, timeout):
+        target.write_bytes(answers[url])
+        return target
+
+    monkeypatch.setattr(freshness, "_get_bytes", lambda url, timeout: answers[url])
+    monkeypatch.setattr(freshness, "_download_to", fake_download)
+    files = freshness.zenodo_download("1", tmp_path / "meat")
+    assert [f.name for f in files] == ["Fresh", "LICENSE.txt", "Spoiled"]                  # the archive is removed
+    record["metadata"]["license"]["id"] = "cc-by-nc-4.0"
+    answers[freshness.ZENODO_API + "1"] = json.dumps(record).encode()
+    with pytest.raises(PermissionError):
+        freshness.zenodo_download("1", tmp_path / "other")
+    with pytest.raises(ValueError):
+        freshness.zenodo_download("1/../2", tmp_path / "third")
+
+
+def test_unpack_rar_refuses_paths_outside_the_folder(monkeypatch, tmp_path):
+    import subprocess
+
+    class Done:
+        stdout = "photos/1.jpg\n../../evil.jpg\n"
+
+    ran: list[list[str]] = []
+    monkeypatch.setattr(freshness, "_rar_tool", lambda: ["bsdtar"])
+    def fake_run(cmd, **kw):
+        ran.append(cmd)
+        return Done()
+
+    monkeypatch.setattr(subprocess, "run", fake_run)
+    with pytest.raises(ValueError):
+        freshness._unpack_rar(tmp_path / "x.rar", tmp_path / "out")
+    assert len(ran) == 1                                                                   # listed, never unpacked
 
 
 if __name__ == "__main__":

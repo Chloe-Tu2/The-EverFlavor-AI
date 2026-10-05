@@ -46,8 +46,18 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | AgriFreshNET | <https://doi.org/10.17632/42m5tb7yv9> | CC BY 4.0 (read from the dataset record) | Mendeley Data public API; the dataset's own augmented copies skipped | 5,217 original photos, 8 items, fresh / semi-fresh / rotten | 05, section 2 |
 | FruitNet | <https://doi.org/10.17632/b6fftwbr2v> | CC BY 4.0 (read from the dataset record) | Mendeley Data public API (the .zip; the same photos as .rar skipped) | 19,526 photos, 7 fruits, good / bad / mixed (mixed left unlabeled) | 05, section 2 |
 | Multistage Fish Eyes | <https://doi.org/10.17632/67nmx3mhwh> | CC BY 4.0 (read from the dataset record) | Mendeley Data public API | 4,800 eye photos; "Highly Fresh" / "Fresh" / "Not Fresh" read as fresh / aging / spoiled (team rule) | 05, section 2 |
-| DaFiF, Freshness of the Fish Eyes | <https://doi.org/10.17632/vx4ptwk3pb>, <https://doi.org/10.17632/xzyx7pbr3w> | CC BY 4.0 (read from the dataset records) | Mendeley Data; loose photos with labels in a separate file | Not downloaded yet (need a label reader) | 05, section 2 |
-| MeatScan, Roboflow meat and bread mold | See notebook 05, section 2 | To confirm on the data records | By hand | Not downloaded yet | 05, section 2 |
+| Freshness of the Fish Eyes | <https://doi.org/10.17632/xzyx7pbr3w> | CC BY 4.0 (read from the dataset record) | Mendeley Data; loose photos, each saved in its Mendeley folder ("Chanos Chanos - Fresh") so the label stays readable | 4,381 eye photos, 8 species, 3 freshness levels | 05, section 2 |
+| DaFiF | <https://doi.org/10.17632/vx4ptwk3pb> | CC BY 4.0 (read from the dataset record) | Mendeley Data; labels in a separate file | Not downloaded yet (needs a label reader) | 05, section 2 |
+| MeatScan | <https://zenodo.org/records/16764338> | CC BY 4.0 (read from the Zenodo record) | Zenodo API, one 25 GB .rar unpacked with the system's extractor | Downloading | 05, section 2 |
+| Roboflow meat and bread mold | See notebook 05, section 2 | To confirm on the data records | Needs a Roboflow account | Not downloaded | 05, section 2 |
+
+## Climate and season (notebook 08, planned)
+
+| Source | URL | License | Access method | Status |
+|---|---|---|---|---|
+| Our World in Data: GHG emissions per kg of food (Poore & Nemecek 2018) | <https://ourworldindata.org/grapher/ghg-per-kg-poore> | CC BY | CSV download, no key | Planned |
+| AGRIBALYSE 3.2 (ADEME) | <https://doc.agribalyse.fr/documentation-en/agribalyse-data/data-access> | Etalab Open License (credit the source and date) | CSV download, no key | Planned |
+| USDA SNAP-Ed Seasonal Produce Guide | <https://wicworks.fns.usda.gov/resources/snap-ed-seasonal-produce-guide> | Not stated: to confirm | Web pages | Candidate |
 
 ## Planned or optional
 

@@ -7,9 +7,13 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import shutil
+import subprocess
+import sys
 import urllib.request
 import zipfile
 from collections.abc import Iterable, Mapping, Sequence
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import numpy as np
@@ -34,6 +38,7 @@ __all__ = [
     "selection_score",
     "split_without_leakage",
     "train_freshness_model",
+    "zenodo_download",
 ]
 
 SAFETY_NOTE = ("This only says how the food looks. Check the smell, texture and date; "
@@ -163,7 +168,7 @@ def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = 
         PermissionError: When the dataset's license is not in ALLOWED_LICENCES.
     """
     folder = Path(folder)
-    if folder.is_dir() and any(folder.iterdir()) and not refresh:
+    if (folder / "LICENSE.txt").exists() and not refresh:   # written last: the download finished
         return sorted(folder.iterdir())
     if not re.fullmatch(r"[a-z0-9]+", dataset_id):
         raise ValueError(f"not a Mendeley dataset ID: {dataset_id!r}")
@@ -172,24 +177,124 @@ def mendeley_download(dataset_id: str, folder: str | Path, name_contains: str = 
     if licence not in ALLOWED_LICENCES:
         raise PermissionError(f"Mendeley dataset {dataset_id} has license {licence!r}; not downloaded")
     folder.mkdir(parents=True, exist_ok=True)
-    for entry in data.get("files", []):
+    # Datasets stored as loose files keep their labels in Mendeley folder names ("Chanos Chanos - Fresh"):
+    # each file goes into a subfolder of that name, so index_images can read the label
+    folder_names: dict[str, str] = {}
+    files = [e for e in data.get("files", []) if name_contains.lower() in e.get("filename", "").lower()
+             and not any(w in e.get("filename", "").lower() for w in skip_names)]
+    if any(e.get("folder_id") for e in files):
+        listing = json.loads(_get_bytes(f"{MENDELEY_API}{dataset_id}/folders/{data.get('version', 1)}", 60))
+        folder_names = {f["id"]: re.sub(r"[^\w .()-]+", "_", f.get("name", "")).strip() for f in listing}
+    loose: list[tuple[str, Path]] = []
+    for entry in files:
         name = entry.get("filename", "")
-        if name_contains.lower() not in name.lower() or any(w in name.lower() for w in skip_names):
-            continue
         url = (entry.get("content_details") or {}).get("download_url")
         if not url:
             continue
-        saved = _download_to(url, folder / Path(name).name, timeout)
-        if name.lower().endswith(".zip"):
-            with zipfile.ZipFile(saved) as archive:
-                for member in archive.namelist():   # never write outside `folder`
-                    target = (folder / member).resolve()
-                    if not target.is_relative_to(folder.resolve()):
-                        raise ValueError(f"unsafe path in {name}: {member}")
-                archive.extractall(folder)
-            saved.unlink()   # the unpacked photos are kept, not the archive
+        subfolder = folder / folder_names[entry["folder_id"]] if entry.get("folder_id") in folder_names else folder
+        subfolder.mkdir(parents=True, exist_ok=True)
+        if not name.lower().endswith(".zip"):
+            loose.append((url, subfolder / Path(name).name))
+            continue
+        saved = _download_to(url, subfolder / Path(name).name, timeout)
+        with zipfile.ZipFile(saved) as archive:
+            for member in archive.namelist():   # never write outside `folder`
+                target = (folder / member).resolve()
+                if not target.is_relative_to(folder.resolve()):
+                    raise ValueError(f"unsafe path in {name}: {member}")
+            archive.extractall(folder)
+        saved.unlink()   # the unpacked photos are kept, not the archive
+    # Loose files: 8 at a time, skipping those a stopped run already saved
+    todo = [(url, target) for url, target in loose if refresh or not target.exists()]
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        jobs = [pool.submit(_download_to, url, target, timeout) for url, target in todo]
+        for job in progress_bar(as_completed(jobs), f"Mendeley {dataset_id}", total=len(jobs), show=len(jobs) > 20):
+            job.result()
     credit = [data.get("name", dataset_id), f"{licence}: {(data.get('data_licence') or {}).get('url', '')}",
               f"https://doi.org/{(data.get('doi') or {}).get('id', '')}"]
+    (folder / "LICENSE.txt").write_text("\n".join(credit) + "\n", encoding="utf-8")
+    return sorted(folder.iterdir())
+
+
+ZENODO_API = "https://zenodo.org/api/records/"
+# Zenodo license ids that allow use with credit
+ZENODO_LICENCES = {"cc-by-4.0", "cc-by-3.0", "cc0-1.0"}
+
+
+def _rar_tool() -> list[str]:
+    """The command that unpacks a .rar archive here: Windows' own tar (libarchive), bsdtar or unrar.
+
+    Raises:
+        RuntimeError: If none is installed (Colab: `!apt-get install -y unrar`).
+    """
+    if sys.platform == "win32" and shutil.which("tar"):
+        return ["tar"]                      # Windows 10/11 tar is bsdtar, which reads .rar
+    for tool in ("bsdtar", "unrar"):
+        if shutil.which(tool):
+            return [tool]
+    raise RuntimeError("No program to unpack .rar files: install unrar (Colab: !apt-get install -y unrar)")
+
+
+def _unpack_rar(archive: Path, folder: Path) -> None:
+    """List a .rar archive, refuse paths that leave `folder`, then unpack it there."""
+    tool = _rar_tool()
+    if tool[0] == "unrar":
+        listing = subprocess.run(["unrar", "lb", str(archive)], capture_output=True, text=True, check=True).stdout
+        unpack = ["unrar", "x", "-o+", str(archive), str(folder) + "/"]
+    else:
+        listing = subprocess.run([*tool, "-tf", str(archive)], capture_output=True, text=True, check=True).stdout
+        unpack = [*tool, "-xf", str(archive), "-C", str(folder)]
+    for member in listing.splitlines():
+        if member.strip() and not (folder / member.strip()).resolve().is_relative_to(folder.resolve()):
+            raise ValueError(f"unsafe path in {archive.name}: {member}")
+    subprocess.run(unpack, check=True, capture_output=True)
+
+
+def zenodo_download(record_id: str, folder: str | Path, refresh: bool = False, timeout: int = 7200) -> list[Path]:
+    """Download and unpack a public Zenodo record's files, after checking its license.
+
+    The license is read from the record itself (MeatScan: CC BY 4.0). Files stream to
+    disk; .zip and .rar archives are unpacked (paths that would leave `folder` are
+    refused) and then deleted, so only the photos are kept.
+
+    Args:
+        record_id: The Zenodo record number ("16764338").
+        folder: Where its files go (data/raw/freshness_images/<source>/).
+        refresh: True downloads again even when the folder has files.
+        timeout: Seconds per file.
+
+    Returns:
+        The downloaded (or already present) files and folders.
+
+    Raises:
+        PermissionError: When the record's license is not in ZENODO_LICENCES.
+    """
+    folder = Path(folder)
+    if (folder / "LICENSE.txt").exists() and not refresh:   # written last: the download finished
+        return sorted(folder.iterdir())
+    if not re.fullmatch(r"\d+", record_id):
+        raise ValueError(f"not a Zenodo record number: {record_id!r}")
+    data = json.loads(_get_bytes(ZENODO_API + record_id, 60))
+    meta = data.get("metadata", {})
+    licence = str((meta.get("license") or {}).get("id", "")).lower()
+    if licence not in ZENODO_LICENCES:
+        raise PermissionError(f"Zenodo record {record_id} has license {licence!r}; not downloaded")
+    folder.mkdir(parents=True, exist_ok=True)
+    for entry in data.get("files", []):
+        name = Path(entry["key"]).name
+        saved = _download_to(entry["links"]["self"], folder / name, timeout)
+        if name.lower().endswith(".zip"):
+            with zipfile.ZipFile(saved) as archive:
+                for member in archive.namelist():
+                    if not (folder / member).resolve().is_relative_to(folder.resolve()):
+                        raise ValueError(f"unsafe path in {name}: {member}")
+                archive.extractall(folder)
+            saved.unlink()
+        elif name.lower().endswith(".rar"):
+            _unpack_rar(saved, folder)
+            saved.unlink()
+    credit = [meta.get("title", record_id), f"{licence}: https://zenodo.org/records/{record_id}",
+              f"https://doi.org/{data.get('doi', '')}"]
     (folder / "LICENSE.txt").write_text("\n".join(credit) + "\n", encoding="utf-8")
     return sorted(folder.iterdir())
 

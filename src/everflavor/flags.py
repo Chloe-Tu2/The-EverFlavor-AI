@@ -419,7 +419,9 @@ DAIRY_KEYWORDS    = ["milk", "buttermilk", "cheese", "butter", "cream", "yogurt"
                      "niter kebbeh"] + _compounds("contains_dairy")
 EGG_KEYWORDS      = ["egg", "egg white", "egg yolk", "mayonnaise", "mayo", "meringue", "eggnog",
                      "aioli", "hollandaise", "carbonara", "quiche", "frittata", "challah",
-                     "brioche", "cheesecake", "macaron", "wonton"] + _compounds("contains_egg")
+                     "brioche", "cheesecake", "macaron", "wonton",
+                     # Egg Beaters and similar "egg substitutes" are made from egg whites
+                     "eggbeater", "egg beater", "egg substitute"] + _compounds("contains_egg")
 # Policy: a plain "nut" may be peanuts, so it sets the peanut flag too
 PEANUT_KEYWORDS   = ["peanut", "peanut butter", "peanut oil", "groundnut", "ground nut",
                      "nut"] + _compounds("contains_peanut")

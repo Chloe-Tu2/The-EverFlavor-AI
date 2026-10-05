@@ -21,6 +21,8 @@ Modules:
     knowledge    ingredient pairings, substitutions, shelf life and names (notebook 04)
     stores       OpenStreetMap, Google Places and Open Food Facts products (notebook 03)
     freshness    image labels, near-duplicates, split and training (notebook 05)
+    variants     halal, vegan, gluten-free ... versions of each dish (notebook 06)
+    nutrition_quality  macro labels and nutrient-rich ingredients (notebook 07)
 
 Conventions (Google Python Style Guide, PEP 257):
     - Every public function has type hints and a docstring with Args, Returns
