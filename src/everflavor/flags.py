@@ -713,7 +713,10 @@ ALCOHOL_EXTRACT_EXCEPTIONS = ["vanilla bean", "vanilla pod", "vanilla powder", "
                               "vanilla wafer", "vanilla frosting", "vanilla cake mix", "vanilla protein",
                               "vanilla almond milk", "vanilla soy milk", "vanilla soymilk", "vanilla coconut milk",
                               "vanilla creamer", "vanilla chip", "vanilla cookie", "vanilla bean ice cream",
-                              "alcohol-free", "alcohol free", "non-alcoholic"]
+                              "alcohol-free", "alcohol free", "non-alcoholic",
+                              # the phrase must cover the keyword it clears ("alcohol-free vanilla")
+                              "alcohol-free vanilla", "alcohol free vanilla", "non-alcoholic vanilla",
+                              "nonalcoholic vanilla", "vanilla glycerite", "glycerin vanilla"]
 NIGHTSHADE_EXCEPTIONS = ["sweet potato", "serrano ham", "jamon serrano", "jamón serrano"]
 RAW_ANIMAL_EXCEPTIONS = ["sushi rice", "sushi vinegar", "sushi nori", "vegetable sushi", "vegetarian sushi",
                          "veggie sushi", "vegan sushi", "cucumber sushi", "avocado sushi", "poke cake",

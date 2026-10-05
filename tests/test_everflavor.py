@@ -468,6 +468,8 @@ def test_alcohol_extracts_are_their_own_flag():
     assert keyword_flag("angostura bitters | orange", "contains_alcohol_extract")
     assert not keyword_flag("vanilla ice cream | vanilla wafers", "contains_alcohol_extract")
     assert not keyword_flag("vanilla | flour | sugar", "contains_alcohol")      # a flag of its own
+    for name in ["alcohol-free vanilla", "alcohol-free vanilla extract", "non-alcoholic vanilla", "vanilla glycerite"]:
+        assert not keyword_flag(f"{name} | flour", "contains_alcohol_extract"), name
 
 
 def test_policy_p18_halal_rule():
