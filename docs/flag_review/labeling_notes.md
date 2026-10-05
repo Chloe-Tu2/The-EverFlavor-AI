@@ -21,7 +21,7 @@ Each labeled round also has `flag_review_disagreements_round<N>.csv`: the rows w
   - shellfish includes mollusks (clams, mussels, scallops, squid, conch, snails) as well as crustaceans;
   - coconut is not a tree nut (current FDA guidance); almond extract counts as almond; peanut oil counts as peanut;
   - oats are not counted as gluten unless the recipe also has wheat, barley or rye;
-  - vinegars made from wine or sherry are not alcohol; vanilla extract is not counted as alcohol;
+  - vinegars made from wine or sherry are not alcohol; vanilla extract is not counted as alcohol (it has its own flag, `contains_alcohol_extract`, which `halal_friendly` rules out under policy P18; "alcohol-free vanilla" does not count);
   - gelatin and marshmallows are not vegetarian; honey is vegetarian but not vegan.
 - **The six diet flags (round 3):** meat = meat or poultry, including broth and stock made from them (gelatin alone does not count); beef includes veal, beef stock and suet; root vegetables include potato, carrot, yam, radish, horseradish and fresh ginger (dried ground ginger does not count); onion and garlic include leek, shallot, chive, scallion and onion or garlic powder.
 
