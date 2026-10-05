@@ -229,6 +229,20 @@ BLACK_PEPPER = "Spices, pepper, black"
 CAYENNE = "Spices, pepper, red or cayenne"
 CHICKEN_BREAST = "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw"
 CHICKEN_STOCK = "Soup, stock, chicken, home-prepared"
+RIPE_OLIVE = "Olives, ripe, canned (small-extra large)"
+MUSTARD_SEED = "Spices, mustard seed, ground"
+GREEN_CHILI = "Peppers, hot chili, green, raw"
+VEGETABLE_BROTH = "Soup, vegetable broth, ready to serve"
+HAM = "Ham, sliced, regular (approximately 11% fat)"
+PINEAPPLE = "Pineapple, raw, all varieties"
+CORN = "Corn, sweet, yellow, raw"
+SMOKED_SAUSAGE = "Sausage, smoked link sausage, pork"
+RED_CHILI = "Peppers, hot chili, red, raw"
+BREAD_CRUMB = "Bread, crumbs, dry, grated, plain"
+SPIRIT = "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof"
+PINEAPPLE_JUICE = "Pineapple juice, canned or bottled, unsweetened, with added ascorbic acid"
+PINEAPPLE_IN_JUICE = "Pineapple, canned, juice pack, solids and liquids"
+SWEET_COCONUT = "Nuts, coconut meat, dried (desiccated), sweetened, flaked, canned"
 INGREDIENT_USDA = {
     "sugar": "Sugars, granulated", "powdered sugar": "Sugars, powdered", "confectioners' sugar": "Sugars, powdered",
     "flour": FLOUR, "olive oil": "Oil, olive, salad or cooking", "vegetable oil": VEGETABLE_OIL,
@@ -264,7 +278,45 @@ INGREDIENT_USDA = {
     "zucchini": "Squash, summer, zucchini, includes skin, raw", "banana": "Bananas, raw", "spinach": "Spinach, raw",
     "coconut milk": "Nuts, coconut milk, canned (liquid expressed from grated meat and water)",
     "rice": "Rice, white, long-grain, regular, raw, enriched",
+    # Generic words the automatic matching sent to a processed food (corned beef, a pork olive loaf ...)
+    "beef": "Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8\" fat, all grades, raw",
+    "black olive": RIPE_OLIVE, "olive": RIPE_OLIVE, "kalamata olive": RIPE_OLIVE,
+    "green olive": "Olives, pickled, canned or bottled, green",
+    "dry mustard": MUSTARD_SEED, "ground mustard": MUSTARD_SEED, "mustard powder": MUSTARD_SEED,
+    "green chily": GREEN_CHILI, "green chile": GREEN_CHILI, "green chili": GREEN_CHILI,
+    "vegetable stock": VEGETABLE_BROTH, "vegetable broth": VEGETABLE_BROTH,
+    "low sodium chicken broth": "Soup, chicken broth, low sodium, canned",
+    "cream of chicken soup": "Soup, cream of chicken, canned, condensed",
+    "ham": HAM, "cooked ham": HAM, "pineapple chunk": PINEAPPLE, "pineapple": PINEAPPLE,
+    "corn kernel": CORN, "whole kernel corn": CORN, "corn": CORN,
+    "mashed potato": "Potatoes, mashed, home-prepared, whole milk and butter added",
+    "pinto bean": "Beans, pinto, canned, drained solids", "firm tofu": "Tofu, raw, firm, prepared with calcium sulfate",
+    "dried onion flake": "Onions, dehydrated flakes", "pizza sauce": "Sauce, pizza, canned, ready-to-serve",
+    "flaked coconut": SWEET_COCONUT, "sweetened flaked coconut": SWEET_COCONUT,
+    "sherry wine": "Alcoholic beverage, wine, dessert, dry", "sherry": "Alcoholic beverage, wine, dessert, dry",
+    "creme fraiche": "Cream, sour, cultured",
+    "low-sodium chicken broth": "Soup, chicken broth, low sodium, canned",
+    "sausage": SMOKED_SAUSAGE, "andouille sausage": SMOKED_SAUSAGE,
+    "hot dog": "Frankfurter, beef, unheated", "chicken piece": "Chicken, broilers or fryers, meat and skin, raw",
+    "creamed corn": "Corn, sweet, yellow, canned, cream style, regular pack", "agave nectar": "Sweetener, syrup, agave",
+    "red chily": RED_CHILI, "chily": RED_CHILI, "chili flake": CAYENNE, "red pepper flake": CAYENNE,
+    "pitted black olive": RIPE_OLIVE, "pimento stuffed olive": "Olives, pickled, canned or bottled, green",
+    "dried breadcrumb": BREAD_CRUMB, "bread crumb": BREAD_CRUMB, "dry bread crumb": BREAD_CRUMB,
+    "tomatoes and green chily": "Tomatoes, red, ripe, canned, with green chilies",
+    "whiskey": SPIRIT, "tequila": SPIRIT, "bourbon": SPIRIT, "brandy": SPIRIT,
+    "espresso": "Beverages, coffee, brewed, espresso, restaurant-prepared",
+    "corned beef": "Beef, cured, corned beef, brisket, raw",
+    "pineapple juice": PINEAPPLE_JUICE, "unsweetened pineapple juice": PINEAPPLE_JUICE,
+    "pineapple in juice": PINEAPPLE_IN_JUICE, "pineapple chunks in juice": PINEAPPLE_IN_JUICE,
+    "crushed pineapple": PINEAPPLE_IN_JUICE,
 }
+
+
+# Words for a processed or ready-made food (singular, as _norm_text writes them)
+# that change the food itself. Not "canned", "prepared" or "sweetened": for prepared mustard, cream
+# soups or cranberry sauce the ready-made food is what the recipe means
+PROCESSING_WORDS = {"cured", "corned", "smoked", "frozen", "pickled", "candied", "babyfood", "entree",
+                    "concentrate", "fried", "breaded", "restaurant", "fast", "microwaved"}
 
 
 def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tuple[int, str]]:
@@ -288,6 +340,7 @@ def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tu
     is_raw = foods["description"].str.contains("raw", case=False).to_numpy()
     n_details = foods["description"].str.count(",").to_numpy()   # fewer details = more generic food
     row_of = {d: i for i, d in enumerate(foods["description"])}
+    processing = [set(_norm_text(d).split()) & PROCESSING_WORDS for d in foods["description"]]
 
     matches = {}
     for row, name in enumerate(progress_bar(names, "Matching USDA ingredients", show=len(names) >= MIN_ROWS)):
@@ -301,7 +354,11 @@ def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tu
         last = target.split()[-1:]
         bonus = np.array([0.5 if first_part[j] == target else 0.25 if first_part[j].split()[-1:] == last else 0.0
                           for j in candidates])
-        score = text_score + bonus + 0.1 * is_raw[candidates] - 0.02 * n_details[candidates]
+        # "beef" should not become corned beef, nor "vegetable stock" a canned soup: processing the
+        # name does not ask for counts against a food
+        asked = set(target.split())
+        processed = np.array([len(processing[j] - asked) for j in candidates])
+        score = text_score + bonus + 0.1 * is_raw[candidates] - 0.02 * n_details[candidates] - 0.15 * processed
         best = int(np.argmax(score))
         if score[best] > 0.45:
             matches[name] = (candidates[best], "automatic")

@@ -19,8 +19,10 @@ __all__ = [
 
 
 DIET_PROFILES: dict[str, dict[str, list]] = {
-    # Policy P18 (open): whether flavor extracts (contains_alcohol_extract) count is not decided yet
-    "halal_friendly" : {"without": ["contains_pork", "contains_alcohol", "contains_gelatin", "contains_pet_meat"]},
+    # Policy P18 (approved): alcohol-based flavor extracts, insect carmine and rennet named without halal
+    # sourcing are not halal-friendly; shrimp and molluscs are
+    "halal_friendly" : {"without": ["contains_pork", "contains_alcohol", "contains_gelatin", "contains_pet_meat",
+                                    "contains_alcohol_extract", "contains_carmine", "contains_rennet"]},
     # Fish without fins and scales, rabbit, horse ... and insect-based carmine are not kosher (P11)
     "kosher_friendly": {"without": ["contains_pork", "contains_shellfish", "contains_gelatin",
                                     "contains_scaleless_fish", "contains_unclean_meat", "contains_carmine",

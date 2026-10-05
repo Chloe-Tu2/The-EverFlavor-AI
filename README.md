@@ -202,14 +202,14 @@ flowchart LR
 | **Restriction flags** | On the first hand-labeled check (round 4, 200 recipes) they catch 100% of real cases for 9 of the 11 main allergens; gluten 94%, dairy 95% (see the [chart](#restriction-flag-check)) |
 | **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 186 kcal, with a likely range) |
 | **Country of origin** | 121,450 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 109,259 predicted at 70%+ confidence (right about 90% of the time on validation); 61,046 `Unknown` |
-| **Diet profiles** | Halal-friendly 76%, kosher-friendly 69%, pescatarian 63%, no beef 89%, Jain-friendly 15%, lower sodium 58%, low carb 28% of recipes |
+| **Diet profiles** | Halal-friendly 66% (policy P18: no alcohol-based extracts, carmine or rennet), kosher-friendly 69%, pescatarian 63%, no beef 89%, Jain-friendly 15%, lower sodium 58%, low carb 28% of recipes |
 | **Validation** | 26 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
 | **Cooking methods and fats** | Notebook 02: cooking methods for every recipe (rules agree with Food.com's own tags on 66–95% of tagged recipes per method), the cooking fats each recipe names, and a reference table of 31 fats; 49% of fried recipes do not say which frying fat they use |
 | **Ingredient knowledge** | Notebook 04: names in 12 languages for 1,504 common ingredients (30,716 names, Wikidata), 2,161 substitutions mined from 1.1 million Food.com reviews with the flags each swap removes or adds, 105,730 ingredient pairings scored by PMI per cuisine and country, and USDA storage times for 1,512 ingredients |
 | **Stores and products** | Notebook 03 (no key): 1,543 restaurants, groceries and butchers around the pilot area from OpenStreetMap; 1,020,381 Open Food Facts products (a spread sample of about a fifth of the 4.8 million) with brand, home country and whether they are sold in the US; 1,043 of 1,185 common ingredients linked to products (28,864 links); a coverage report for 91 origin countries. Every store suggestion is marked unverified |
 | **Food freshness** | Notebook 05: one label scheme (fresh / aging / spoiled) for 11 image sources, license-checked downloads from Mendeley Data, near-duplicate groups and a split that keeps one item's photos together; 6 of 11 sources downloaded (AgriFreshNET, FruitNet, BananaImageBD, MeatScan, two Fish Eyes sets): 45,314 original photos of 13 fruits and vegetables, beef and 7 kinds of fish, 98% with a readable state, in 30,491 near-duplicate groups split 70/15/15 (439 empty MeatScan files are skipped). Training waits for a GPU |
-| **Dish variants** | Notebook 06: 635,450 variants of dishes for 13 diets, each swap re-checked with the flag rules. Variants raise the dishes a vegan can eat from 17% to 44%, gluten-free from 48% to 67%, halal-friendly from 77% to 86%. Halal and kosher variants say that meat must come from a certified source |
+| **Dish variants** | Notebook 06: 658,099 variants of dishes for 13 diets, each swap re-checked with the flag rules. Variants raise the dishes a vegan can eat from 17% to 44%, gluten-free from 48% to 67%, halal-friendly from 67% to 84%. Halal and kosher variants say that meat must come from a certified source |
 | **Nutrition quality** | Notebook 07: share of calories from protein, fat and carbohydrate per serving (31% of recipes are high-protein), and "has an ingredient rich in" fiber, iron, calcium or vitamins (USDA, per 100 g; spices and oils left out). Recipes list no amounts, so no per-dish vitamin totals |
 | **Code checks** | 133 automated checks pass (129 tests for the shared functions, 4 security checks) and cover 92% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
@@ -285,7 +285,7 @@ Round 4 was labeled by hand by a team member (Chloe-Tu2) and scored before any f
 
 **Human verification (section 5.13).** An AI checking an AI is not independent, so people make the final decisions, and the notebook records them in `docs/flag_review/`:
 
-- **Policies** (`flag_policies.csv`): definitions such as "oats count as gluten" or "pork is red meat", each with its reason and source, approved by a named person. All 25 are approved, including P23 (wines named without the word "wine", and cider) and P18 (halal: alcohol-based flavor extracts, insect coloring and animal rennet without confirmed halal sourcing are not halal-friendly; shrimp and molluscs are). The halal rule in the code does not apply P18 yet.
+- **Policies** (`flag_policies.csv`): definitions such as "oats count as gluten" or "pork is red meat", each with its reason and source, approved by a named person. All 25 are approved, including P23 (wines named without the word "wine", and cider) and P18 (halal: alcohol-based flavor extracts, insect coloring and animal rennet without confirmed halal sourcing are not halal-friendly; shrimp and molluscs are). The halal rule applies P18 (new flag `contains_rennet` for rennet named in the ingredients).
 - **Hidden allergens** (`compound_ingredients_review.csv`): for ready-made ingredients such as "ranch dressing", Open Food Facts products are checked for the allergens their labels declare. 291 ingredients used in at least 100 recipes were checked; 52 had allergens our rules missed. 50 were approved, for example asafoetida (hing) usually contains wheat flour, chocolate chips contain soy, Worcestershire sauce and pancake mix contain gluten, and ranch dressing contains dairy, egg and soy. 4 were rejected because the matched products were a different food (instant noodles for "noodle", canned spaghetti for "spaghetti sauce"). Claude prepared this review and a team member (Evaabou20) checked every entry on 2026-10-04, keeping pizza crust's gluten but not its dairy, which varies by product. These ingredients count only in the ingredient list, never in the dish name, so "Vegan Cookies" stays vegan.
 - **Sign-off** (`human_signoff.csv`): a reviewer checks a round's disagreements and signs it off. The completion checklist ticks this only when a person has done it. Round 3 was signed off by Evaabou20 on 2026-10-04.
 
@@ -301,7 +301,7 @@ The steps take no coding: [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_revi
 - CulinaryDB and TheMealDB publish no nutrition, and CulinaryDB lists no amounts or servings, so their calories are estimates (labeled as such). A typical estimate is off by about 100 kcal per serving.
 - Restriction flags come from keywords in the ingredients and recipe names (plus Hugging Face health labels), so they are approximate; the rarer allergens (peanut, shellfish, soy, sesame) are the least reliable.
 - The baseline classifier confuses African and Middle Eastern recipes (F1 about 0.35 each).
-- Most USDA ingredient matches are automatic (63 of 39,969 hand-checked), and a few generic words match a cured food ("beef" to corned beef, "pork" to salt pork); this affects the estimated nutrition and is the next notebook 01 fix.
+- Most USDA ingredient matches are automatic (122 of 39,778 hand-checked). Automatic matches now avoid cured, smoked, frozen and fried foods unless the name asks for them ("beef" no longer matches corned beef, "boiling water" no longer gets oat calories), but they are not checked by a person; "fruit" and "dried fruit" still match fruit syrup.
 - Recipes list ingredients without amounts, so vitamins and minerals are shown per ingredient ("rich in iron"), never as a total per dish.
 - Dish variants, substitutions and ingredient names are machine-made and wait for a team hand check before any agent uses them.
 
@@ -309,7 +309,7 @@ See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
 
-Week 7 model development, then the CrewAI agents and the Gradio interface (they can use Groq or Claude once a key is added). In the data: fix notebook 01's automatic USDA matches and apply policy P18 in the halal rule (one rerun of notebook 01); add MeatScan (red meat photos, downloading) to notebook 05 and train the freshness models on a GPU; build notebook 08 (carbon footprint and seasons); add the Google Places key for live store details (notebook 03).
+Week 7 model development, then the CrewAI agents and the Gradio interface (they can use Groq or Claude once a key is added). In the data: hand-check a sample of the automatic USDA matches; train the freshness models on a GPU (notebook 05); build notebook 08 (carbon footprint and seasons); add the Google Places key for live store details (notebook 03).
 
 ---
 

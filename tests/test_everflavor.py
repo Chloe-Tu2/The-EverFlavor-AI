@@ -467,8 +467,16 @@ def test_alcohol_extracts_are_their_own_flag():
     assert keyword_flag("vanilla | flour | sugar", "contains_alcohol_extract")
     assert keyword_flag("angostura bitters | orange", "contains_alcohol_extract")
     assert not keyword_flag("vanilla ice cream | vanilla wafers", "contains_alcohol_extract")
-    assert not keyword_flag("vanilla | flour | sugar", "contains_alcohol")      # policy P18 still open
-    assert not any("contains_alcohol_extract" in rule.get("without", []) for rule in DIET_PROFILES.values())
+    assert not keyword_flag("vanilla | flour | sugar", "contains_alcohol")      # a flag of its own
+
+
+def test_policy_p18_halal_rule():
+    halal = DIET_PROFILES["halal_friendly"]["without"]
+    assert {"contains_alcohol_extract", "contains_carmine", "contains_rennet"} <= set(halal)
+    assert "contains_shellfish" not in halal                                     # shrimp and molluscs are fine
+    assert keyword_flag("milk | rennet tablet | sugar", "contains_rennet")
+    assert not keyword_flag("milk | vegetable rennet", "contains_rennet")
+    assert not keyword_flag("cheddar cheese | macaroni", "contains_rennet")    # cheese is not flagged
 
 
 def test_medical_screens():

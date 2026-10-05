@@ -74,6 +74,12 @@ def test_ingredients_match_hand_checked_then_raw_generic_foods():
     assert "unobtainium" not in matches
 
 
+def test_processed_foods_lose_unless_the_name_asks_for_them():
+    foods = pd.DataFrame({"description": ["Lamb, cured, smoked", "Lamb, shoulder, whole, separable lean and fat, raw"]})
+    assert match_ingredients(["lamb"], foods)["lamb"][0] == 1               # not the cured, smoked one
+    assert match_ingredients(["smoked cured lamb"], foods)["smoked cured lamb"][0] == 0
+
+
 def test_ingredient_table_lists_the_most_used_first():
     lists = pd.Series([["rice", "lentil"], ["rice", "rice"], ["unobtainium"]])
     table, counts = ingredient_nutrition_table(lists, FOODS, ["kcal_100g"])

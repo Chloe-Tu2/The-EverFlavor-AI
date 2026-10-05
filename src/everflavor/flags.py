@@ -524,6 +524,12 @@ MUSHROOM_KEYWORDS = ["mushroom", "shiitake", "portobello", "portabella", "portab
                      "truffle paste"]
 # Red coloring made from insects: not vegan, not kosher (policy P11)
 CARMINE_KEYWORDS  = ["carmine", "cochineal", "carminic acid", "crimson lake", "natural red 4"]
+# Rennet named in the ingredients (policy P18: animal rennet without confirmed halal sourcing is
+# not halal-friendly). Cheese made with rennet is not flagged: labels rarely say which rennet is used
+RENNET_KEYWORDS   = ["rennet", "rennin", "rennet tablet", "junket tablet", "junket rennet", "calf rennet",
+                     "animal rennet"]
+RENNET_EXCEPTIONS = ["vegetable rennet", "vegetarian rennet", "microbial rennet", "plant rennet",
+                     "non-animal rennet", "nonanimal rennet"]
 ANIMAL_KEYWORDS   = MEAT_KEYWORDS + DAIRY_KEYWORDS + EGG_KEYWORDS + ["honey"] + CARMINE_KEYWORDS
 
 # --- Allergens labeled outside the US (EU / UK, Canada, Australia / NZ, Japan, Korea) ---
@@ -559,7 +565,7 @@ COFFEE_TEA_KEYWORDS = ["coffee", "espresso", "instant coffee", "cappuccino", "la
 # Many Rastafari (Ital diet) cook without added salt
 SALT_KEYWORDS     = ["salt"]
 # Flavor extracts and bitters are made with alcohol (vanilla extract is about 35%). Kept apart from
-# contains_alcohol: whether they count for halal is a team policy (P18), not decided yet.
+# contains_alcohol (alcohol-free diets and pregnancy differ); halal_friendly rules them out (policy P18).
 # A plain "vanilla" in an ingredient list almost always means the liquid extract
 ALCOHOL_EXTRACT_KEYWORDS = ["vanilla", "vanilla extract", "vanilla essence", "pure vanilla", "almond extract",
                             "lemon extract", "orange extract", "peppermint extract", "mint extract",
@@ -752,6 +758,7 @@ FLAG_RULES = {
     "contains_asafoetida": (ASAFOETIDA_KEYWORDS, ()),
     "contains_mushroom" : (MUSHROOM_KEYWORDS, MUSHROOM_EXCEPTIONS),
     "contains_carmine"  : (CARMINE_KEYWORDS, ()),
+    "contains_rennet"   : (RENNET_KEYWORDS, RENNET_EXCEPTIONS),
     "contains_scaleless_fish": (SCALELESS_FISH_KEYWORDS, SCALELESS_FISH_EXCEPTIONS),
     "contains_unclean_meat": (UNCLEAN_MEAT_KEYWORDS, UNCLEAN_MEAT_EXCEPTIONS),
     "contains_pet_meat" : (PET_MEAT_KEYWORDS, PET_MEAT_EXCEPTIONS),

@@ -94,6 +94,7 @@ Derived from keywords in the ingredients and the recipe name, plus Hugging Face 
 | `contains_asafoetida` | contains asafoetida (hing). Separate from allium: Jain cooks use it instead of onion and garlic |
 | `contains_mushroom` | contains mushrooms or savory truffles |
 | `contains_carmine` | contains carmine / cochineal (red coloring made from insects) |
+| `contains_rennet` | rennet named in the ingredients (not vegetable or microbial rennet); cheese made with rennet is not flagged (policy P18) |
 | `contains_scaleless_fish` | contains fish without fins and scales (catfish, eel, shark, monkfish, swordfish, sturgeon) |
 | `contains_pet_meat` | contains meat from household pets (dog, cat, guinea pig). Such recipes are removed and never served (policy P24) |
 | `contains_unclean_meat` | contains rabbit, horse, camel, alligator, frog legs or other animals that are not kosher besides pork |
