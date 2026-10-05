@@ -60,6 +60,13 @@ flowchart LR
     C -->|recipe +<br/>substitutions| F{{Hard-coded<br/>safety filter}}
     F -->|safe recipe| S[Sourcing Agent]
     S -->|nearest store| R([Answer in Gradio chat])
+
+    classDef agent fill:#E3F2FD,stroke:#1565C0,color:#0D2B4E
+    classDef safety fill:#FFEBEE,stroke:#C62828,color:#4A0E0E,stroke-width:2px
+    classDef io fill:#F1F8E9,stroke:#558B2F,color:#1B3A0F
+    class N,C,S agent
+    class F safety
+    class U,R io
 ```
 
 | Agent | Responsibility |
@@ -167,7 +174,16 @@ flowchart LR
     G --> H[Human check<br/>of the flags]
     G --> F[Notebook 02<br/>Cooking methods<br/>and fats]
     G -.-> P[Notebooks 03-05<br/>planned: stores, ingredient<br/>knowledge, freshness]
+
+    classDef done fill:#E8F5E9,stroke:#2E7D32,color:#1B3A1D
+    classDef people fill:#FFF8E1,stroke:#F9A825,color:#4A3A00
+    classDef next fill:#F5F5F5,stroke:#9E9E9E,color:#424242,stroke-dasharray:4 3
+    class A,B,C,G,D,F done
+    class H people
+    class E,P next
 ```
+
+<sub>Green: built and run · Yellow: decided by people · Gray: next</sub>
 
 ### Results so far
 
@@ -175,7 +191,7 @@ flowchart LR
 |---|---|
 | **Recipes after cleaning** | **291,755** from 4 sources, duplicates removed |
 | **By cuisine family** | European 48,151 · Asian 20,788 · Latin American 15,706 · Middle Eastern 3,406 · African 3,179 |
-| **Restriction flags** | On the latest blind 200-recipe check (round 3) they catch 100% of real cases for every flag except shellfish (92%, 11 of 12) |
+| **Restriction flags** | On the first hand-labeled check (round 4, 200 recipes) they catch 100% of real cases for 9 of the 11 main allergens; gluten 94%, dairy 95% (see the [chart](#restriction-flag-check)) |
 | **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 186 kcal, with a likely range) |
 | **Country of origin** | 121,450 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 109,259 predicted at 70%+ confidence (right about 90% of the time on validation); 61,046 `Unknown` |
 | **Diet profiles** | Halal-friendly 76%, kosher-friendly 69%, pescatarian 63%, no beef 89%, Jain-friendly 15%, lower sodium 58%, low carb 28% of recipes |
@@ -213,6 +229,37 @@ flowchart LR
 - Human verification of the flags (section 5.13): the evidence is gathered automatically, and people make and record the decisions (see below).
 
 ### Restriction flag check
+
+<div align="center">
+
+<img src="docs/art/flag_recall.svg" alt="Dot chart of review round 4: pork, alcohol, egg, peanut, shellfish, soy and sesame flags catch 100% of real cases; tree nuts rose from 95% to 100% and fish from 93% to 100% after the fixes; gluten stays at 94% and dairy at 95%." width="640">
+
+</div>
+
+<sub>Drawn by <a href="docs/art/flag_recall.py">docs/art/flag_recall.py</a>. Gluten and dairy misses are mostly label questions the team is checking (for example coconut milk labeled as dairy).</sub>
+
+Each review round follows the same loop, and people make every final decision:
+
+```mermaid
+flowchart LR
+    S[Blind sample<br/>200 recipes] --> L[Labeled from the<br/>ingredients only]
+    L --> M[Scored against<br/>the flags]
+    M --> D[Disagreements<br/>with what set each flag]
+    D -->|keyword miss| K[Fix in flags.py,<br/>tests, rerun]
+    D -->|definition| P[Team policy<br/>flag_policies.csv]
+    D -->|label mistake| X[Label corrected]
+    K --> O[Sign-off<br/>human_signoff.csv]
+    P --> O
+    X --> O
+    O -.->|next fresh round| S
+
+    classDef auto fill:#E3F2FD,stroke:#1565C0,color:#0D2B4E
+    classDef people fill:#FFF8E1,stroke:#F9A825,color:#4A3A00
+    class S,M,D,K auto
+    class L,P,X,O people
+```
+
+<sub>Blue: done by the notebook · Yellow: done by people</sub>
 
 Blind 200-recipe samples were labeled (by Claude, an AI assistant, from the ingredients and dish names) and scored in section 5.12. Round 1 showed that gluten was caught only 81% of the time, because wheat is often implied by a product name (crackers, pastry, spaghetti, croutons, burger buns). The keyword lists were extended twice and the flags now read recipe names too; the latest fresh sample (round 3, which also checks the diet flags) measures 100% recall for every flag except shellfish (92%). Details and labeling rules: [docs/flag_review/labeling_notes.md](docs/flag_review/labeling_notes.md).
 
@@ -394,7 +441,7 @@ The-EverFlavor-AI/
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files
 ├── docs/
-│   ├── art/          # ramen.py draws the README's ramen bowl (ANSI art) and saves ramen.svg
+│   ├── art/          # ramen.py (the ramen bowl) and flag_recall.py (the flag chart) draw the README art
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
 │   ├── flag_review/  # Blind 200-recipe samples per round, their labels, and the human decisions
 │   │                 # (flag_policies.csv, compound_ingredients_review.csv, human_signoff.csv)
