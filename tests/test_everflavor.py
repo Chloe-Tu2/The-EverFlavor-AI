@@ -496,6 +496,19 @@ def test_regional_and_brand_names_set_allergen_flags():
             assert not keyword_flag(name, column), (name, column)
 
 
+def test_pork_look_alikes_and_plant_based_meat():
+    # Turkey pepperoni is not pork, but it is still meat and processed meat
+    assert not keyword_flag("turkey pepperoni", "contains_pork")
+    assert keyword_flag("turkey pepperoni", "contains_meat") and keyword_flag("turkey pepperoni", "contains_processed_meat")
+    # A pork look-alike made of beef or lamb is not pork but is still red meat
+    for name in ["beef hot dog", "beef sausage", "lamb sausage", "merguez"]:
+        assert not keyword_flag(name, "contains_pork") and keyword_flag(name, "contains_red_meat"), name
+    assert keyword_flag("pepperoni", "contains_pork") and keyword_flag("pork sausage", "contains_pork")
+    # Plant-based look-alikes are not meat
+    for name in ["beyond sausage", "impossible beef", "vegan chorizo", "vegetarian chicken broth"]:
+        assert not keyword_flag(name, "contains_meat"), name
+
+
 def test_policy_p18_halal_rule():
     halal = DIET_PROFILES["halal_friendly"]["without"]
     assert {"contains_alcohol_extract", "contains_carmine", "contains_rennet"} <= set(halal)

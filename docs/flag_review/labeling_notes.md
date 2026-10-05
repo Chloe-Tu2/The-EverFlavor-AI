@@ -114,3 +114,19 @@ Because round 4 was used for these fixes, its scores are now optimistic too; a r
 **Rules now set by team policy** (`flag_policies.csv`): two rules above were the AI labeler's own choices and are overridden by decisions a person made. Oats now count as gluten unless labeled gluten-free (P1), and gelatin counts as meat (P2). Answers in rounds 1-3 that follow the old rules show up as disagreements until they are corrected.
 
 **New flags:** `contains_red_meat` (meat from mammals, pork included), `contains_poultry` (white meat) and `contains_processed_meat` (cured, salted, smoked or fermented meat), following USDA and WHO / IARC definitions (policies P8 and P9). Rounds 1-3 were labeled before these flags existed, so they are first measured in round 4.
+
+## Name probe (2026-10-05)
+
+Each allergen and diet flag was tested with names an AI or a cookbook writes rather than the common
+English word, then every change was checked against all 46,304 ingredient names in the data (no
+fewer flags anywhere except the look-alikes below). Tests: `test_regional_and_brand_names_set_allergen_flags`
+and `test_pork_look_alikes_and_plant_based_meat`.
+
+| Kind | Examples | Outcome |
+|---|---|---|
+| Names missed | Parmigiano-Reggiano, fontina, Monterey Jack, skyr, dahi, gelato (dairy); custard, bearnaise (egg); satay sauce, arachis oil (peanut); pignoli, orgeat (tree nut); imitation crab, bacalao, bare "worcestershire" (fish); XO sauce (shellfish); okara (soy); dukkah (sesame); soba, einkorn (gluten); speck, nduja, char siu, coppa (pork) | Added. Parmigiano-Reggiano had passed as vegan |
+| Look-alikes kept apart | bean curd (tofu), custard apple, custard powder, "custard cup", vegan worcestershire, 100% buckwheat soba, char siu sauce | Exceptions |
+| Too cautious before | turkey and beef pepperoni, beef hot dogs, turkey chorizo counted as pork; plant-based sausages, "vegan chicken" broth counted as meat | Not pork / not meat now; still meat and processed meat where they are |
+| Older bug found | "beef sausage", "lamb sausage", merguez had lost the red-meat flag (a pork exception also cleared red meat) | Fixed: a look-alike made of beef or lamb stays red meat |
+
+These names were not in a labeled sample, so the round 1-4 scores do not change; round 5 measures them.

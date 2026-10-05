@@ -209,9 +209,11 @@ flowchart LR
 | **Ingredient knowledge** | Notebook 04: names in 12 languages for 1,512 common ingredients (30,987 names, Wikidata), 2,163 substitutions mined from 1.1 million Food.com reviews with the flags each swap removes or adds, 105,772 ingredient pairings scored by PMI per cuisine and country, and USDA storage times for 1,520 ingredients |
 | **Stores and products** | Notebook 03 (no key): 1,543 restaurants, groceries and butchers around the pilot area from OpenStreetMap; 1,020,381 Open Food Facts products (a spread sample of about a fifth of the 4.8 million) with brand, home country and whether they are sold in the US; 1,044 of 1,184 common ingredients linked to products (28,866 links); a coverage report for 91 origin countries. Every store suggestion is marked unverified |
 | **Food freshness** | Notebook 05: one label scheme (fresh / aging / spoiled) for 11 image sources, license-checked downloads from Mendeley Data, near-duplicate groups and a split that keeps one item's photos together; 6 of 11 sources downloaded (AgriFreshNET, FruitNet, BananaImageBD, MeatScan, two Fish Eyes sets): 45,314 original photos of 13 fruits and vegetables, beef and 7 kinds of fish, 98% with a readable state, in 30,491 near-duplicate groups split 70/15/15 (439 empty MeatScan files are skipped). Training waits for a GPU |
-| **Dish variants** | Notebook 06: 658,099 variants of dishes for 13 diets, each swap re-checked with the flag rules. Variants raise the dishes a vegan can eat from 17% to 44%, gluten-free from 48% to 67%, halal-friendly from 67% to 84%. Halal and kosher variants say that meat must come from a certified source |
+| **Dish variants** | Notebook 06: 657,549 variants of dishes for 13 diets, each swap re-checked with the flag rules. Variants raise the dishes a vegan can eat from 17% to 44%, gluten-free from 48% to 67%, halal-friendly from 67% to 84%. Halal and kosher variants say that meat must come from a certified source |
 | **Nutrition quality** | Notebook 07: share of calories from protein, fat and carbohydrate per serving (31% of recipes are high-protein), and "has an ingredient rich in" fiber, iron, calcium or vitamins (USDA, per 100 g; spices and oils left out). Recipes list no amounts, so no per-dish vitamin totals |
-| **Code checks** | 135 automated checks pass (131 tests for the shared functions, 4 security checks) and cover 92% of `src/`; type hints in `src/` and `tests/` checked with mypy |
+| **Calorie calculator (Week 7)** | `calories.py`: ingredient lines ("1 1/2 cups chopped onion") to grams with USDA's own household weights, then USDA calories per serving; every line it cannot count is listed, never counted as 0. On 1,000 Hugging Face recipes with known grams: 5.3% median error, 48% within the proposal's 5% target (notebook 07, section 6) |
+| **Safety gate for agents** | `safety.py`: one `UserProfile` (restrictions, diets, calorie budget, area) and `check_recipe`, which checks ingredient lines an AI writes and names the line, rule and word behind every problem. Same answer as the dataset safety filter on 21,000 checks |
+| **Code checks** | 168 automated checks pass (164 tests for the shared functions, 4 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -310,7 +312,7 @@ See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
 
-Week 7 model development, then the CrewAI agents and the Gradio interface (they can use Groq or Claude once a key is added). In the data: hand-check a sample of the automatic USDA matches; train the freshness models on a GPU (notebook 05); build notebook 08 (carbon footprint and seasons); add the Google Places key for live store details (notebook 03).
+Week 7 (see the team roadmap): the calorie calculator and the safety gate for agent-written recipes are built; next are the data contract the Gradio screens use, the five agent tools, then the CrewAI agents (they can use Groq or Claude once a key is added; the Chef Agent should give each ingredient's weight in grams, the calculator's most accurate input). In the data: hand-check a sample of the automatic USDA matches; train the freshness models on a GPU (notebook 05); build notebook 08 (carbon footprint and seasons); add the Google Places key for live store details (notebook 03).
 
 ---
 
@@ -476,6 +478,8 @@ The-EverFlavor-AI/
 │       ├── freshness.py                 # image labels, duplicates, split, training (notebook 05)
 │       ├── variants.py                  # dish variants for a target diet (notebook 06)
 │       ├── nutrition_quality.py         # macro labels and nutrient-rich ingredients (notebook 07)
+│       ├── calories.py                  # calorie calculator: ingredient lines -> grams -> USDA calories
+│       ├── safety.py                    # user profile and the safety gate for agent-written recipes
 │       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py, progress.py
 ├── tests/
 │   ├── test_everflavor.py   # What each shared function promises
@@ -486,6 +490,8 @@ The-EverFlavor-AI/
 │   ├── test_freshness.py    # Notebook 05: labels, duplicates, split, weights, license check
 │   ├── test_variants.py     # Notebook 06: a variant never keeps or adds a forbidden ingredient
 │   ├── test_nutrition_quality.py  # Notebook 07: Daily Value shares and macro labels
+│   ├── test_calories.py     # Line parsing, USDA portion weights, calories and what is not counted
+│   ├── test_safety.py       # User profile, reasons per line, same answer as the safety filter
 │   ├── test_pipeline.py     # run_pipeline end to end on tiny tables shaped like each source
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files

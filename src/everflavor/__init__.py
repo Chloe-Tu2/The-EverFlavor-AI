@@ -23,6 +23,8 @@ Modules:
     freshness    image labels, near-duplicates, split and training (notebook 05)
     variants     halal, vegan, gluten-free ... versions of each dish (notebook 06)
     nutrition_quality  macro labels and nutrient-rich ingredients (notebook 07)
+    calories     calorie calculator: ingredient lines -> grams -> USDA calories (Week 7)
+    safety       user profile and the safety gate for recipes the agents write
 
 Conventions (Google Python Style Guide, PEP 257):
     - Every public function has type hints and a docstring with Args, Returns

@@ -499,7 +499,7 @@ BEEF_KEYWORDS     = ["beef", "veal", "steak", "brisket", "sirloin", "chuck", "gr
 # "white meat"; fish and shellfish are their own groups (contains_fish, contains_shellfish).
 RED_MEAT_KEYWORDS = (BEEF_KEYWORDS + PORK_KEYWORDS
                      + ["lamb", "mutton", "goat", "venison", "bison", "elk", "rabbit", "horse", "boar",
-                        "moose", "kangaroo", "liver", "kidney", "tripe", "sweetbread", "mince",
+                        "moose", "kangaroo", "liver", "kidney", "tripe", "sweetbread", "mince", "merguez",
                         "ground meat", "minced meat"] + named_foods("contains_red_meat"))
 POULTRY_KEYWORDS  = ["chicken", "turkey", "duck", "goose", "quail", "pheasant", "cornish hen", "game hen",
                      "poussin", "guinea fowl", "squab", "partridge", "capon", "poultry", "fryer",
@@ -630,7 +630,17 @@ HIGH_TYRAMINE_KEYWORDS = ["cheddar", "parmesan", "parmigiano", "pecorino", "roma
 PORK_EXCEPTIONS     = ["hot dog bun", "hot dog roll", "vegetarian sausage", "veggie sausage",
                        "vegan sausage", "vegetarian bacon", "turkey bacon", "turkey ham",
                        "turkey kielbasa", "turkey sausage", "chicken sausage", "merguez sausage",
-                       "merguez", "lamb sausage", "beef sausage", "vegan bacon", "char siu sauce"]
+                       "merguez", "lamb sausage", "beef sausage", "vegan bacon", "char siu sauce",
+                       # meat named after a pork product, and plant-based look-alikes
+                       "turkey pepperoni", "beef pepperoni", "chicken pepperoni", "turkey chorizo",
+                       "beef chorizo", "chicken chorizo", "turkey salami", "beef salami", "beef hot dog",
+                       "turkey hot dog", "chicken hot dog", "beef frankfurter", "turkey frankfurter",
+                       "beef bologna", "turkey bologna", "beyond sausage", "beyond beef", "beyond burger",
+                       "beyond meat", "impossible beef", "impossible pork", "impossible sausage",
+                       "plant-based sausage", "plant based sausage", "plant-based beef", "plant based beef",
+                       "plant-based chicken", "plant based chicken", "vegan chicken", "vegetarian chicken",
+                       "vegan pepperoni", "vegetarian pepperoni", "vegan chorizo", "vegetarian chorizo",
+                       "soy chorizo", "vegan ham", "vegan beef"]
 ALCOHOL_EXCEPTIONS  = ["sherry wine vinegar", "wine vinegar", "sherry vinegar", "ginger ale", "ginger beer", "root beer",
                        "non-alcoholic", "alcohol-free", "alcohol free"] + WINE_NAME_EXCEPTIONS
 # "gluten-free bread", "gluten free pasta", ...: the food after "gluten-free" is safe
@@ -692,7 +702,13 @@ MEAT_EXCEPTIONS     = OYSTER_MUSHROOM_PHRASES + FISH_EXCEPTIONS + [
                        "vegetarian marshmallow", "portobello steak", "portabella steak",
                        "portobella steak", "mushroom steak", "kidney bean", "horseradish", "chicken-fried",
                        "chicken fried", "poultry seasoning", "air fryer", "air-fryer", "deep fryer",
-                       "horse gram", "welsh rabbit", "welsh rarebit"]
+                       "horse gram", "welsh rabbit", "welsh rarebit",
+                       # meat named after a pork product, and plant-based look-alikes
+                       "beyond sausage", "beyond beef", "beyond burger", "beyond meat", "impossible beef",
+                       "impossible pork", "impossible sausage", "plant-based sausage", "plant based sausage",
+                       "plant-based beef", "plant based beef", "plant-based chicken", "plant based chicken",
+                       "vegan chicken", "vegetarian chicken", "vegan pepperoni", "vegetarian pepperoni",
+                       "vegan chorizo", "vegetarian chorizo", "soy chorizo", "vegan ham", "vegan beef"]
 # Used for contains_meat (land meat only): a fish steak is not meat
 LAND_MEAT_EXCEPTIONS = MEAT_EXCEPTIONS + ["tuna steak", "salmon steak", "fish steak", "swordfish steak",
                                           "halibut steak", "cod steak"]
@@ -702,13 +718,28 @@ BEEF_EXCEPTIONS     = ["tuna steak", "salmon steak", "fish steak", "swordfish st
                        "steak sauce", "steak seasoning", "beefsteak tomato", "beef tomato",
                        "hamburger bun", "hamburger roll", "hamburger helper", "turkey jerky",
                        "mushroom jerky", "veggie burger", "portobello steak", "portabella steak",
-                       "portobella steak", "mushroom steak", "halibut steak", "cod steak"]
-RED_MEAT_EXCEPTIONS = LAND_MEAT_EXCEPTIONS + BEEF_EXCEPTIONS + PORK_EXCEPTIONS + [
+                       "portobella steak", "mushroom steak", "halibut steak", "cod steak",
+                       # meat named after a pork product, and plant-based look-alikes
+                       "beyond beef", "impossible beef", "plant-based beef", "plant based beef",
+                       "vegan beef"]
+# A pork look-alike made of another red meat ("beef hot dog", "lamb sausage") is still red meat
+RED_MEATS = ("beef", "all-beef", "all beef", "kosher", "reduced-fat beef", "lamb", "merguez", "mutton", "goat",
+             "veal", "bison", "venison")
+RED_MEAT_EXCEPTIONS = LAND_MEAT_EXCEPTIONS + BEEF_EXCEPTIONS + [
+                       p for p in PORK_EXCEPTIONS if not p.startswith(RED_MEATS)] + [
                        "chicken liver", "duck liver", "goose liver", "turkey bacon", "turkey ham",
                        "turkey sausage", "chicken sausage", "turkey jerky"]
 POULTRY_EXCEPTIONS  = LAND_MEAT_EXCEPTIONS
 PROCESSED_MEAT_EXCEPTIONS = ["vegetarian sausage", "veggie sausage", "vegan sausage", "vegetarian bacon",
-                             "vegan bacon", "hot dog bun", "hot dog roll", "meatless"]
+                             "vegan bacon", "hot dog bun", "hot dog roll", "meatless",
+                             # meat named after a pork product, and plant-based look-alikes
+                             "beyond sausage", "beyond beef", "beyond burger", "beyond meat",
+                             "impossible beef", "impossible pork", "impossible sausage",
+                             "plant-based sausage", "plant based sausage", "plant-based beef",
+                             "plant based beef", "plant-based chicken", "plant based chicken",
+                             "vegan chicken", "vegetarian chicken", "vegan pepperoni",
+                             "vegetarian pepperoni", "vegan chorizo", "vegetarian chorizo", "soy chorizo",
+                             "vegan ham", "vegan beef"]
 GELATIN_EXCEPTIONS  = ["agar", "vegan gelatin", "vegan marshmallow", "vegetarian marshmallow", "vegan gummy"]
 HONEY_EXCEPTIONS    = ["honey crisp", "honeycrisp"]
 ROOT_VEGETABLE_EXCEPTIONS = ["ground ginger", "dried ginger", "ginger powder", "ginger ale", "ginger beer"]
