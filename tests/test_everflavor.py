@@ -487,7 +487,8 @@ def test_regional_and_brand_names_set_allergen_flags():
     for column, names in named.items():
         for name in names:
             assert keyword_flag(name, column), (name, column)
-    look_alikes = {"contains_dairy": ["bean curd", "custard apple", "vegan gelato"],
+    look_alikes = {"contains_peanut": ["chicken satay", "sate padang"],     # the dish, not the sauce
+                   "contains_dairy": ["bean curd", "custard apple", "vegan gelato"],
                    "contains_egg": ["custard apple", "custard powder", "8 custard cup", "custard style yogurt"],
                    "contains_fish": ["vegan worcestershire sauce"], "contains_gluten": ["juwari soba"],
                    "contains_pork": ["char siu sauce"]}

@@ -437,7 +437,10 @@ EGG_KEYWORDS      = ["egg", "egg white", "egg yolk", "mayonnaise", "mayo", "meri
                      "fruit curd"] + _compounds("contains_egg")
 # Policy: a plain "nut" may be peanuts, so it sets the peanut flag too
 PEANUT_KEYWORDS   = ["peanut", "peanut butter", "peanut oil", "groundnut", "ground nut",
-                     "nut", "arachis", "goober", "satay"] + _compounds("contains_peanut")
+                     "nut", "arachis", "goober",
+                     # the bottled sauce; a dish named "satay" is the grilled skewers, whose sauce varies
+                     # by region (peanut, turmeric, sweet soy, or none): team decision 2026-10-05
+                     "satay sauce"] + _compounds("contains_peanut")
 TREE_NUT_KEYWORDS = ["almond", "walnut", "pecan", "cashew", "pistachio", "hazelnut",
                      "filbert", "macadamia", "brazil nut", "pine nut", "nut", "nutella",
                      "praline", "marzipan", "macaron", "frangipane", "amaretti", "pesto",

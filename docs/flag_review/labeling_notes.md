@@ -129,4 +129,9 @@ and `test_pork_look_alikes_and_plant_based_meat`.
 | Too cautious before | turkey and beef pepperoni, beef hot dogs, turkey chorizo counted as pork; plant-based sausages, "vegan chicken" broth counted as meat | Not pork / not meat now; still meat and processed meat where they are |
 | Older bug found | "beef sausage", "lamb sausage", merguez had lost the red-meat flag (a pork exception also cleared red meat) | Fixed: a look-alike made of beef or lamb stays red meat |
 
+**Satay (team decision, 2026-10-05):** "satay" names the grilled skewers, not the sauce. The sauce varies by region:
+peanut in much of Indonesia and Malaysia, turmeric in sate Padang, sweet soy in sate Madura, a spicy soup in Filipino
+satti, or none. So only an ingredient called "satay sauce" (the bottled, peanut-based sauce) sets the peanut flag; a dish
+named satay does not, unless its ingredients name peanuts. The peanut caution then depends on the ingredients listed.
+
 These names were not in a labeled sample, so the round 1-4 scores do not change; round 5 measures them.
