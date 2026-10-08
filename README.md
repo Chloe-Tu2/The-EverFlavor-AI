@@ -435,13 +435,26 @@ keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
 # in the VS Code / Antigravity terminal, from the project folder
 python -m pytest tests                                   # the tests, including the security checks
 python -m mypy --config-file config/mypy.ini            # the type hints (src and tests)
-python -m ruff check src tests notebooks                 # mistakes and style
+python -m ruff check src tests notebooks app              # mistakes and style
 python -m pymarkdown --config config/pymarkdown.json scan README.md docs   # Markdown formatting
 ```
 
 GitHub runs the same checks automatically on every push and pull request (`.github/workflows/checks.yml`; results under the repository's **Actions** tab), so a broken change is caught even if someone forgets to run them.
 
 **Working rules.** Every change follows [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md): runs unchanged in Colab, VS Code and Antigravity; all checks pass before a push; keys never leave Colab Secrets or `config/.env`; flags only ever add cautions; every judgment call is a recorded policy with the name of who decided it; and README numbers come from the latest full run.
+
+---
+
+## Starter App (Front End)
+
+A first web page for the team to build on, in [app/app.py](app/app.py) ([Streamlit](https://streamlit.io), plain Python, no HTML needed). It runs after notebook 01 has built the recipe data:
+
+```bash
+pip install streamlit
+streamlit run app/app.py
+```
+
+The browser opens at `http://localhost:8501`. The sidebar holds the user's profile (foods to avoid, diets, calories per meal). **Find recipes** uses the baseline recommender; **Check my recipe** runs the safety gate on pasted ingredient lines and names the line and rule each problem breaks.
 
 ---
 
@@ -463,6 +476,8 @@ The-EverFlavor-AI/
 │   ├── raw/          # Original downloads and samples (generated, not committed)
 │   ├── interim/      # Combined, cleaned recipe table (generated, not committed)
 │   └── processed/    # Train/val/test splits, charts (figures/), dataset_info.json (generated, not committed)
+├── app/
+│   └── app.py        # Starter front end (Streamlit): profile, find recipes, check a recipe
 ├── models/           # Fitted baseline pipeline (generated, not committed)
 ├── src/
 │   └── everflavor/   # Shared code: imported by the notebook now and by the agents later

@@ -14,6 +14,8 @@
     "models/**"
   ],
   "words": [
+    "streamlit",
+    "selectbox",
     "ADEME",
     "Agri",
     "AGRIBALYSE",

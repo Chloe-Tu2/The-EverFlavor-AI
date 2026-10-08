@@ -14,7 +14,7 @@ Run these from the project folder; all must pass (GitHub runs the same checks on
 
 ```bash
 python -m pytest tests                                    # tests and security checks
-python -m ruff check src tests notebooks                  # mistakes and style
+python -m ruff check src tests notebooks app               # mistakes and style
 python -m mypy --config-file config/mypy.ini              # type hints
 python -m pymarkdown --config config/pymarkdown.json scan README.md docs   # Markdown
 ```

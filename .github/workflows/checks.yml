@@ -33,7 +33,7 @@ jobs:
         run: python -m pytest tests
 
       - name: Ruff (mistakes and style)
-        run: python -m ruff check src tests notebooks
+        run: python -m ruff check src tests notebooks app
 
       - name: mypy (type hints)
         run: python -m mypy --config-file config/mypy.ini
