@@ -39,4 +39,4 @@ jobs:
         run: python -m mypy --config-file config/mypy.ini
 
       - name: PyMarkdown (Markdown formatting)
-        run: python -m pymarkdown --config config/pymarkdown.json scan README.md docs
+        run: python -m pymarkdown --config config/pymarkdown.json scan README.md docs app/README.md config/README.md data/README.md notebooks/README.md src/everflavor/README.md tests/README.md

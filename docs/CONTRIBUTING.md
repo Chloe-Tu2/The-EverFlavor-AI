@@ -16,7 +16,7 @@ Run these from the project folder; all must pass (GitHub runs the same checks on
 python -m pytest tests                                    # tests and security checks
 python -m ruff check src tests notebooks app               # mistakes and style
 python -m mypy --config-file config/mypy.ini              # type hints
-python -m pymarkdown --config config/pymarkdown.json scan README.md docs   # Markdown
+python -m pymarkdown --config config/pymarkdown.json scan README.md docs */README.md src/everflavor/README.md   # Markdown
 ```
 
 A push goes ahead only when the commands themselves report success, not when the last line of their output looks fine.

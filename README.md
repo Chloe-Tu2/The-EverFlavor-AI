@@ -437,7 +437,7 @@ keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
 python -m pytest tests                                   # the tests, including the security checks
 python -m mypy --config-file config/mypy.ini            # the type hints (src and tests)
 python -m ruff check src tests notebooks app              # mistakes and style
-python -m pymarkdown --config config/pymarkdown.json scan README.md docs   # Markdown formatting
+python -m pymarkdown --config config/pymarkdown.json scan README.md docs */README.md src/everflavor/README.md   # Markdown formatting
 ```
 
 GitHub runs the same checks automatically on every push and pull request (`.github/workflows/checks.yml`; results under the repository's **Actions** tab), so a broken change is caught even if someone forgets to run them.
@@ -478,6 +478,8 @@ The model only proposes: the safety gate is a tool whose user profile comes from
 ---
 
 ## Project Structure
+
+Each main folder has its own README saying what is in it and how to use it: [notebooks](notebooks/README.md), [src/everflavor](src/everflavor/README.md), [tests](tests/README.md), [app](app/README.md), [data](data/README.md), [config](config/README.md), [docs](docs/README.md).
 
 ```text
 The-EverFlavor-AI/
