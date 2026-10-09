@@ -51,12 +51,16 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | MeatScan | <https://zenodo.org/records/16764338> | CC BY 4.0 (read from the Zenodo record) | Zenodo API, one 25 GB .rar unpacked with the system's extractor (Windows: its own tar.exe) | 10,561 beef photos, fresh / spoiled ("CowMeat" read as beef); 439 files of zero bytes in Spoiled_CowMeat are skipped. Opt-in in notebook 05 (`DOWNLOAD_MEATSCAN`): about 50 GB free while it unpacks | 05, section 2 |
 | Roboflow meat and bread mold | See notebook 05, section 2 | To confirm on the data records | Needs a Roboflow account | Not downloaded | 05, section 2 |
 
-## Climate and season (notebook 08, planned)
+## Climate and season (notebook 08)
 
 | Source | URL | License | Access method | Status |
 |---|---|---|---|---|
 | Our World in Data: GHG emissions per kg of food (Poore & Nemecek 2018) | <https://ourworldindata.org/grapher/ghg-per-kg-poore> | CC BY | CSV download, no key | Planned |
 | AGRIBALYSE 3.2 (ADEME) | <https://doc.agribalyse.fr/documentation-en/agribalyse-data/data-access> | Etalab Open License (credit the source and date) | CSV download, no key | Planned |
+| USDA ERS Livestock and Meat Domestic Data (monthly slaughter by species, 1944 on) | <https://www.ers.usda.gov/data-products/livestock-and-meat-domestic-data> | US government work (public domain) | Machine-readable zip (about 1 MB), no key | **Used:** meat supply season (section 3b) |
+| Open-Meteo historical weather (ERA5 reanalysis), daily 2015-2024 | <https://open-meteo.com/en/docs/historical-weather-api> | CC BY 4.0; free for non-commercial use (credit Open-Meteo) | API, no key; about one region of 10 years per minute | **Used:** pasture season (section 3b) |
+| Foodland Ontario Availability Guide | <https://data.ontario.ca/dataset/foodland-ontario-fruits-and-vegetables-availability-guide> | Open Government Licence - Ontario | XLSX, no key | Candidate: produce months (section 3) |
+| NOAA Fisheries species pages (FishWatch's former profiles) | <https://www.fisheries.noaa.gov/species-directory> | US government work | Web pages (crawling allowed) | Candidate: seafood availability (section 3) |
 | USDA SNAP-Ed Seasonal Produce Guide | <https://wicworks.fns.usda.gov/resources/snap-ed-seasonal-produce-guide> | Not stated: to confirm | Web pages | Candidate |
 
 ## Planned or optional

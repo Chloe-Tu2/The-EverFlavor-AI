@@ -18,7 +18,7 @@ After that, 02-08 can run in any order, except where the table says "needs".
 | 05 | [Computer vision: freshness](05_computer_vision_freshness.ipynb) | Indexes 45k fruit, meat and fish photos; near-duplicates, licenses, leak-free split; training (needs a GPU: use Colab) | `processed/freshness_images.parquet`, `freshness_coverage.csv` |
 | 06 | [Dish variants](06_dish_variants.ipynb) | Halal, vegan, gluten-free ... version of each dish. Needs 04 (substitutions) | `processed/recipe_variants.parquet`, `recipe_variants_summary.csv` |
 | 07 | [Nutrition quality](07_nutrition_quality.ipynb) | Macro labels, nutrient-rich ingredients, calorie calculator check | `processed/recipe_nutrition_quality.parquet`, `ingredient_micronutrients.csv` |
-| 08 | [Climate and season](08_climate_and_season.ipynb) | Planning sketch: carbon footprint and produce seasons (waiting on footprint data) | (not yet) |
+| 08 | [Climate and season](08_climate_and_season.ipynb) | Meat: when each meat is most plentiful and when animals graze fresh grass, by region (built; first run downloads about 10 minutes of weather). Carbon footprint and produce seasons: planned | `processed/meat_supply_seasons.csv`, `pasture_seasons.csv` |
 
 ## Good to know
 

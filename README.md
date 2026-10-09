@@ -145,7 +145,7 @@ Notebooks 03, 04 and 05 are built and run without any API key (licenses read on 
 | 05 Computer vision: food freshness (**pipeline built**) | 11 image sources across fruits and vegetables, red meat, fish and bread (for example AgriFreshNET, TriModal Ripeness 6, MeatScan, DaFiF, two fish-eye sets), plus the team's own photos | Mostly CC BY 4.0; the Mendeley sets confirmed on their data records, three (MeatScan, two Roboflow sets) still to confirm |
 | 06 Dish variants (**built**) | Notebook 04's substitutions and cooking guidance, checked with the flag rules | (no new source) |
 | 07 Nutrition quality (**built**) | USDA SR Legacy (already downloaded): fiber, minerals and vitamins per ingredient | Public domain |
-| 08 Climate and season (**planning sketch**) | [Our World in Data](https://ourworldindata.org/grapher/ghg-per-kg-poore) (Poore & Nemecek 2018); [AGRIBALYSE 3.2](https://doc.agribalyse.fr/documentation-en/agribalyse-data/data-access); a seasonal produce calendar | CC BY; Etalab Open License; to confirm |
+| 08 Climate and season (**section 3b built**; rest planned) | [Our World in Data](https://ourworldindata.org/grapher/ghg-per-kg-poore) (Poore & Nemecek 2018); [AGRIBALYSE 3.2](https://doc.agribalyse.fr/documentation-en/agribalyse-data/data-access); a seasonal produce calendar | CC BY; Etalab Open License; to confirm |
 
 <details>
 <summary><b>Licenses</b></summary>
@@ -212,8 +212,9 @@ flowchart LR
 | **Dish variants** | Notebook 06: 657,549 variants of dishes for 13 diets, each swap re-checked with the flag rules. Variants raise the dishes a vegan can eat from 17% to 44%, gluten-free from 48% to 67%, halal-friendly from 67% to 84%. Halal and kosher variants say that meat must come from a certified source |
 | **Nutrition quality** | Notebook 07: share of calories from protein, fat and carbohydrate per serving (31% of recipes are high-protein), and "has an ingredient rich in" fiber, iron, calcium or vitamins (USDA, per 100 g; spices and oils left out). Recipes list no amounts, so no per-dish vitamin totals |
 | **Calorie calculator (Week 7)** | `calories.py`: ingredient lines ("1 1/2 cups chopped onion") to grams with USDA's own household weights, then USDA calories per serving; every line it cannot count is listed, never counted as 0. On 1,000 Hugging Face recipes with known grams: 5.3% median error, 48% within the proposal's 5% target (notebook 07, section 6) |
+| **Meat seasons** | Notebook 08, section 3b (`seasons.py`, no keys): when each meat is most plentiful in the US (USDA ERS monthly slaughter, last 10 years: lamb peaks in March-April and December, turkey in October, beef and chicken are steady all year) and when animals in 11 grazing regions usually graze fresh grass (10 years of Open-Meteo weather; none between the tropics, where quality depends on the farm). The grass rule matches known grazing months in all but 4 of 120 region-months |
 | **Safety gate for agents** | `safety.py`: one `UserProfile` (restrictions, diets, calorie budget, area) and `check_recipe`, which checks ingredient lines an AI writes and names the line, rule and word behind every problem. Same answer as the dataset safety filter on 21,000 checks |
-| **Code checks** | 168 automated checks pass (164 tests for the shared functions, 4 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
+| **Code checks** | 188 automated checks pass (184 tests for the shared functions, 4 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -312,7 +313,7 @@ See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
 
-Week 7 (see the team roadmap): the calorie calculator, the safety gate for agent-written recipes and local models through Ollama (`llm.py`, VS Code and Antigravity only; see [docs/ollama_plan.md](docs/ollama_plan.md)) are built; next are the data contract the Gradio screens use, the five agent tools, then the CrewAI agents (they can use Groq or Claude once a key is added; the Chef Agent should give each ingredient's weight in grams, the calculator's most accurate input). In the data: hand-check a sample of the automatic USDA matches; train the freshness models on a GPU (notebook 05); build notebook 08 (carbon footprint and seasons); add the Google Places key for live store details (notebook 03).
+Week 7 (see the team roadmap): the calorie calculator, the safety gate for agent-written recipes and local models through Ollama (`llm.py`, VS Code and Antigravity only; see [docs/ollama_plan.md](docs/ollama_plan.md)) are built; next are the data contract the Gradio screens use, the five agent tools, then the CrewAI agents (they can use Groq or Claude once a key is added; the Chef Agent should give each ingredient's weight in grams, the calculator's most accurate input). In the data: hand-check a sample of the automatic USDA matches; train the freshness models on a GPU (notebook 05); finish notebook 08 (carbon footprint and produce seasons); add the Google Places key for live store details (notebook 03).
 
 ---
 
@@ -329,7 +330,7 @@ Each data pipeline has its own notebook. They share the code in `src/everflavor/
 | 5 | `notebooks/05_computer_vision_freshness.ipynb` | How fresh food looks in a photo: image index, labels, split and training | Image sources (one downloads by itself); a GPU for training |
 | 6 | `notebooks/06_dish_variants.ipynb` | Halal, vegan, gluten-free ... versions of each dish | Notebook 01 and 04's saved files |
 | 7 | `notebooks/07_nutrition_quality.ipynb` | Macros per serving and nutrient-rich ingredients | Notebook 01's saved files |
-| 8 | `notebooks/08_climate_and_season.ipynb` | **Planning sketch:** carbon footprint and what is in season | Notebook 01's saved files |
+| 8 | `notebooks/08_climate_and_season.ipynb` | Meat supply and pasture seasons (built); carbon footprint and produce seasons (planned) | Notebook 01's saved files |
 
 All of them run unchanged in **Google Colab**, **VS Code** and **Antigravity** (notebook 05 trains only when `TRAIN = True`). The setup cell detects the environment, moves to the project folder and loads API keys from the right place.
 
@@ -491,7 +492,7 @@ The-EverFlavor-AI/
 │   ├── 05_computer_vision_freshness.ipynb         # Food freshness from photos: labels, split, training
 │   ├── 06_dish_variants.ipynb                     # Halal, vegan, gluten-free ... versions of each dish
 │   ├── 07_nutrition_quality.ipynb                 # Macros per serving, nutrient-rich ingredients
-│   └── 08_climate_and_season.ipynb                # Planning sketch: carbon footprint, seasons
+│   └── 08_climate_and_season.ipynb                # Meat seasons (built); carbon footprint, produce seasons (plan)
 ├── data/
 │   ├── reference/    # Hand-made reference tables with sources (committed): cooking_fats.csv
 │   ├── raw/          # Original downloads and samples (generated, not committed)
@@ -517,6 +518,7 @@ The-EverFlavor-AI/
 │       ├── calories.py                  # calorie calculator: ingredient lines -> grams -> USDA calories
 │       ├── safety.py                    # user profile and the safety gate for agent-written recipes
 │       ├── llm.py                       # local models through Ollama (VS Code / Antigravity, never Colab)
+│       ├── seasons.py                   # meat supply season and pasture season (notebook 08)
 │       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py, progress.py
 ├── tests/
 │   ├── test_everflavor.py   # What each shared function promises
@@ -530,6 +532,7 @@ The-EverFlavor-AI/
 │   ├── test_calories.py     # Line parsing, USDA portion weights, calories and what is not counted
 │   ├── test_safety.py       # User profile, reasons per line, same answer as the safety filter
 │   ├── test_llm.py          # Ollama helpers with fake answers: status, tool loop, profile fixed by code
+│   ├── test_seasons.py      # Meat supply peaks and grass months on made-up numbers (no downloads)
 │   ├── test_pipeline.py     # run_pipeline end to end on tiny tables shaped like each source
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files

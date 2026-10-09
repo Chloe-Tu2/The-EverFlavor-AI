@@ -25,6 +25,7 @@ add `src/` to the path for you.
 | | `knowledge.py` | Pairings, substitutions, shelf life, names (notebook 04) |
 | | `variants.py` | Diet versions of each dish (notebook 06) |
 | | `stores.py` | Stores and products, where to buy (notebook 03) |
+| | `seasons.py` | Meat supply season and pasture season (notebook 08) |
 | | `freshness.py` | Freshness photos: labels, duplicates, split, training (notebook 05) |
 | **Agents and app** | `recommend.py` | Baseline recommender and its safety filter |
 | | `llm.py` | Local models through Ollama (VS Code / Antigravity only) |
