@@ -7,5 +7,5 @@ pytest        # runs tests/test_everflavor.py
 mypy          # checks the type hints
 pandas-stubs  # type information for pandas, used by mypy
 types-requests  # type information for requests, used by mypy
-ruff          # finds code mistakes and style problems
+ruff>=0.17,<0.18  # finds code mistakes and style problems (a new minor version can add rules: update on purpose)
 pymarkdownlnt # checks the Markdown files (README, docs); rules in config/pymarkdown.json

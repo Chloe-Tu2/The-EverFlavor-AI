@@ -1,0 +1,4 @@
+# Ruff settings: read by the CI step "Ruff" and by the VS Code / Antigravity Ruff extension.
+# The oldest Python the project supports (notebook 01: MIN_PYTHON = (3, 10)), so ruff never
+# suggests code that Python 3.10 cannot run (for example datetime.UTC, new in 3.11).
+target-version = "py310"
