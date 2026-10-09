@@ -1,4 +1,4 @@
-# Libraries for the notebooks in notebooks/ (01-05)
+# Libraries for the notebooks in notebooks/ (01-08) and the shared code in src/everflavor
 # Local setup (VS Code / Antigravity):  pip install -r config/requirements.txt
 # Colab installs these itself with the %pip cell in the notebook.
 kaggle

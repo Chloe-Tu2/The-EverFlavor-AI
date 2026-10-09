@@ -24,7 +24,7 @@ notebook or Colab run can fail because of Ollama. The notebooks do not import `l
 ## Setup (once per computer)
 
 1. Install Ollama: <https://ollama.com/download> (Windows, macOS, Linux; Windows on ARM included).
-2. Download a model that can call tools: `ollama pull granite4.1:3b` (about 2 GB).
+2. Download a model that can call tools: `ollama pull granite4.1:3b` (about 2 GB). Python side: `pip install -r config/requirements-app.txt`.
 3. Check: `ollama list`, then in Python:
 
    ```python

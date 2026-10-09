@@ -1,0 +1,10 @@
+# The starter app and the local AI models, for VS Code and Antigravity (Colab does not need them).
+# Install in a terminal in the project folder: pip install -r config/requirements-app.txt
+-r requirements.txt
+streamlit     # the starter app: streamlit run app/app.py
+
+# Local AI models (src/everflavor/llm.py) talk to Ollama with `requests` (in requirements.txt).
+# Ollama itself is a separate program, not a pip package:
+#   1. Install it: https://ollama.com/download
+#   2. Download a model that can call tools: ollama pull granite4.1:3b
+# See docs/ollama_plan.md.

@@ -204,7 +204,7 @@ flowchart LR
 | **Country of origin** | 121,450 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 109,259 predicted at 70%+ confidence (right about 90% of the time on validation); 61,046 `Unknown` |
 | **Diet profiles** | Halal-friendly 66% (policy P18: no alcohol-based extracts, carmine or rennet), kosher-friendly 69%, pescatarian 63%, no beef 89%, Jain-friendly 15%, lower sodium 58%, low carb 28% of recipes |
 | **Validation** | 26 automatic checks pass; no near-duplicate leakage between splits |
-| **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_card.md)) |
+| **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_cards/cuisine_classifier.md)) |
 | **Cooking methods and fats** | Notebook 02: cooking methods for every recipe (rules agree with Food.com's own tags on 66–95% of tagged recipes per method), the cooking fats each recipe names, and a reference table of 31 fats; 49% of fried recipes do not say which frying fat they use |
 | **Ingredient knowledge** | Notebook 04: names in 12 languages for 1,512 common ingredients (30,987 names, Wikidata), 2,163 substitutions mined from 1.1 million Food.com reviews with the flags each swap removes or adds, 105,772 ingredient pairings scored by PMI per cuisine and country, and USDA storage times for 1,520 ingredients |
 | **Stores and products** | Notebook 03 (no key): 1,543 restaurants, groceries and butchers around the pilot area from OpenStreetMap; 1,020,381 Open Food Facts products (a spread sample of about a fifth of the 4.8 million) with brand, home country and whether they are sold in the US; 1,044 of 1,184 common ingredients linked to products (28,866 links); a coverage report for 91 origin countries. Every store suggestion is marked unverified |
@@ -353,6 +353,7 @@ The notebook's reusable code (download helpers, cleaning, restriction flags, die
 2. In a terminal in the project folder, run `pip install -r config/requirements.txt`.
 3. Copy `config/.env.example` to `config/.env` and fill in `USDA_API_KEY`. Git ignores `.env`, so your keys are never pushed.
 4. Open the notebook, pick the Python interpreter you installed into as the kernel, and run all cells.
+5. Optional: for the starter app run `pip install -r config/requirements-app.txt`; for local AI models install [Ollama](#local-ai-models-ollama).
 
 </details>
 
@@ -450,11 +451,29 @@ GitHub runs the same checks automatically on every push and pull request (`.gith
 A first web page for the team to build on, in [app/app.py](app/app.py) ([Streamlit](https://streamlit.io), plain Python, no HTML needed). It runs after notebook 01 has built the recipe data:
 
 ```bash
-pip install streamlit
+pip install -r config/requirements-app.txt
 streamlit run app/app.py
 ```
 
 The browser opens at `http://localhost:8501`. The sidebar holds the user's profile (foods to avoid, diets, calories per meal). **Find recipes** uses the baseline recommender; **Check my recipe** runs the safety gate on pasted ingredient lines and names the line and rule each problem breaks.
+
+---
+
+## Local AI Models (Ollama)
+
+The agents can run on a free model on your own computer through [Ollama](https://ollama.com): no API key, and the user's allergies and diets never leave the machine. This works in **VS Code and Antigravity only**; in Colab, `ollama_status()` answers "not available" without making a request, so the notebooks are never affected.
+
+1. Install Ollama from <https://ollama.com/download> (Ollama is a program, not a pip package).
+2. Download a model that can call tools: `ollama pull granite4.1:3b` (about 2 GB).
+3. Check it from Python:
+
+```python
+from everflavor.llm import ollama_status, pick_model
+status = ollama_status()
+print(status["available"], status["tool_models"], pick_model(status))
+```
+
+The model only proposes: the safety gate is a tool whose user profile comes from the code, never from the model, and its answer cannot be overridden. Tested models (October 2026, 16 GB laptop, CPU only): `granite4.1:3b` and `llama3.2` called the gate on 6 of 6 test recipes with the right answer, in 10-22 s each; `gemma3:4b` cannot call tools. Ollama does not train models: it only runs language models for the agents. Details and next steps: [docs/ollama_plan.md](docs/ollama_plan.md).
 
 ---
 
@@ -523,12 +542,14 @@ The-EverFlavor-AI/
 │   ├── sources.md          # Every data source: URL, license, access method, version
 │   ├── ethics_privacy.md   # Privacy, licenses and responsible use
 │   ├── ollama_plan.md      # Local models through Ollama: setup, tested models, next steps
-│   ├── model_card.md            # Baseline cuisine classifier: results and limits
-│   ├── model_card_nutrition.md  # Missing-nutrition estimator (USDA + similar recipes)
-│   └── model_card_origin.md     # Country-of-origin model
+│   └── model_cards/        # One card per model: results and limits
+│       ├── cuisine_classifier.md   # Baseline cuisine classifier
+│       ├── nutrition_estimator.md  # Missing-nutrition estimator (USDA + similar recipes)
+│       └── origin_model.md         # Country-of-origin model
 ├── config/
 │   ├── requirements.txt      # Python libraries for the notebook
 │   ├── requirements-dev.txt  # Optional checking tools (VS Code / Antigravity)
+│   ├── requirements-app.txt  # Starter app (Streamlit); Ollama setup notes
 │   ├── mypy.ini              # Settings for the type checker
 │   ├── pymarkdown.json       # Settings for the Markdown checker
 │   └── .env.example          # Template for API keys (copy to config/.env, which git ignores)

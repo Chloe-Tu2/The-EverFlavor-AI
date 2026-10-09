@@ -2,7 +2,7 @@
 
 How to run it (from the project folder):
 
-    pip install streamlit
+    pip install -r config/requirements-app.txt
     streamlit run app/app.py
 
 A browser tab opens at http://localhost:8501. Save this file and the page reloads.

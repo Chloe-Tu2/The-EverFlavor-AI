@@ -14,7 +14,7 @@ The Phase 02 report (`Phase_02_EverGlow_ITAI_2277.pdf`) was written before sever
 
 ## 2.5 Initial Data Documentation: files now present
 
-`docs/sources.md`, `docs/data_dictionary.md` and `docs/ethics_privacy.md` exist as described, together with `docs/datasheet.md` and model cards for the three models (`model_card.md`, `model_card_nutrition.md`, `model_card_origin.md`).
+`docs/sources.md`, `docs/data_dictionary.md` and `docs/ethics_privacy.md` exist as described, together with `docs/datasheet.md` and model cards for the three models (`model_cards/cuisine_classifier.md`, `model_cards/nutrition_estimator.md`, `model_cards/origin_model.md`).
 
 ## 3.1 Data Cleaning: replace the last two sentences
 
