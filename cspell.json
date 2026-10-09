@@ -14,6 +14,8 @@
     "models/**"
   ],
   "words": [
+    "ollama",
+    "delenv",
     "streamlit",
     "selectbox",
     "ADEME",

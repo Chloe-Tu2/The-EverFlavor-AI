@@ -92,7 +92,7 @@ flowchart LR
 - **Language:** Python 3.10+
 - **Multi-agent framework:** CrewAI
 - **Interface:** Gradio
-- **LLM:** Groq (LLaMA 3.1) or another tool-calling model
+- **LLM:** Groq (LLaMA 3.1) or another tool-calling model; free local models through Ollama in VS Code and Antigravity ([docs/ollama_plan.md](docs/ollama_plan.md))
 - **APIs:** Open Food Facts, USDA FoodData Central, Google Places
 - **Safety:** hard-coded post-generation restriction filter
 
@@ -312,7 +312,7 @@ See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
 
-Week 7 (see the team roadmap): the calorie calculator and the safety gate for agent-written recipes are built; next are the data contract the Gradio screens use, the five agent tools, then the CrewAI agents (they can use Groq or Claude once a key is added; the Chef Agent should give each ingredient's weight in grams, the calculator's most accurate input). In the data: hand-check a sample of the automatic USDA matches; train the freshness models on a GPU (notebook 05); build notebook 08 (carbon footprint and seasons); add the Google Places key for live store details (notebook 03).
+Week 7 (see the team roadmap): the calorie calculator, the safety gate for agent-written recipes and local models through Ollama (`llm.py`, VS Code and Antigravity only; see [docs/ollama_plan.md](docs/ollama_plan.md)) are built; next are the data contract the Gradio screens use, the five agent tools, then the CrewAI agents (they can use Groq or Claude once a key is added; the Chef Agent should give each ingredient's weight in grams, the calculator's most accurate input). In the data: hand-check a sample of the automatic USDA matches; train the freshness models on a GPU (notebook 05); build notebook 08 (carbon footprint and seasons); add the Google Places key for live store details (notebook 03).
 
 ---
 
@@ -495,6 +495,7 @@ The-EverFlavor-AI/
 │       ├── nutrition_quality.py         # macro labels and nutrient-rich ingredients (notebook 07)
 │       ├── calories.py                  # calorie calculator: ingredient lines -> grams -> USDA calories
 │       ├── safety.py                    # user profile and the safety gate for agent-written recipes
+│       ├── llm.py                       # local models through Ollama (VS Code / Antigravity, never Colab)
 │       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py, progress.py
 ├── tests/
 │   ├── test_everflavor.py   # What each shared function promises
@@ -507,6 +508,7 @@ The-EverFlavor-AI/
 │   ├── test_nutrition_quality.py  # Notebook 07: Daily Value shares and macro labels
 │   ├── test_calories.py     # Line parsing, USDA portion weights, calories and what is not counted
 │   ├── test_safety.py       # User profile, reasons per line, same answer as the safety filter
+│   ├── test_llm.py          # Ollama helpers with fake answers: status, tool loop, profile fixed by code
 │   ├── test_pipeline.py     # run_pipeline end to end on tiny tables shaped like each source
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files
@@ -520,6 +522,7 @@ The-EverFlavor-AI/
 │   ├── data_dictionary.md  # Every column of the recipe table
 │   ├── sources.md          # Every data source: URL, license, access method, version
 │   ├── ethics_privacy.md   # Privacy, licenses and responsible use
+│   ├── ollama_plan.md      # Local models through Ollama: setup, tested models, next steps
 │   ├── model_card.md            # Baseline cuisine classifier: results and limits
 │   ├── model_card_nutrition.md  # Missing-nutrition estimator (USDA + similar recipes)
 │   └── model_card_origin.md     # Country-of-origin model

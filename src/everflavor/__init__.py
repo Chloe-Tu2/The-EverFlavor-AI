@@ -25,6 +25,7 @@ Modules:
     nutrition_quality  macro labels and nutrient-rich ingredients (notebook 07)
     calories     calorie calculator: ingredient lines -> grams -> USDA calories (Week 7)
     safety       user profile and the safety gate for recipes the agents write
+    llm          local models through Ollama (VS Code / Antigravity only, never Colab)
 
 Conventions (Google Python Style Guide, PEP 257):
     - Every public function has type hints and a docstring with Args, Returns
