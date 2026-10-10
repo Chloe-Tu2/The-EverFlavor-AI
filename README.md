@@ -214,7 +214,7 @@ flowchart LR
 | **Calorie calculator (Week 7)** | `calories.py`: ingredient lines ("1 1/2 cups chopped onion") to grams with USDA's own household weights, then USDA calories per serving; every line it cannot count is listed, never counted as 0. On 1,000 Hugging Face recipes with known grams: 5.3% median error, 48% within the proposal's 5% target (notebook 07, section 6) |
 | **Meat seasons** | Notebook 08, section 3b (`seasons.py`, no keys): when each meat is most plentiful in the US (USDA ERS monthly slaughter, last 10 years: lamb peaks in March-April and December, turkey in October, beef and chicken are steady all year) and when animals in 11 grazing regions usually graze fresh grass (10 years of Open-Meteo weather; none between the tropics, where quality depends on the farm). The grass rule matches known grazing months in all but 4 of 120 region-months |
 | **Safety gate for agents** | `safety.py`: one `UserProfile` (restrictions, diets, calorie budget, area) and `check_recipe`, which checks ingredient lines an AI writes and names the line, rule and word behind every problem. Same answer as the dataset safety filter on 21,000 checks |
-| **Code checks** | 202 automated checks pass (198 tests for the shared functions, 4 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
+| **Code checks** | 207 automated checks pass (203 tests for the shared functions, 4 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -313,7 +313,7 @@ See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
 
-Week 7 (see the team roadmap): the calorie calculator, the safety gate for agent-written recipes and local models through Ollama (`llm.py`, VS Code and Antigravity only; see [docs/ollama_plan.md](docs/ollama_plan.md)) are built; the five agent tools are built (`agent_tools.py`) and every model answer is screened by the gate (`guard_answer`); a CrewAI trial on a local model works (docs/ollama_plan.md); next are the data contract the Gradio screens use, then the CrewAI agents (they can use Groq or Claude once a key is added; the Chef Agent should give each ingredient's weight in grams, the calculator's most accurate input). In the data: hand-check a sample of the automatic USDA matches; train the freshness models on a GPU (notebook 05); finish notebook 08 (carbon footprint and produce seasons); add the Google Places key for live store details (notebook 03).
+Week 7 (see the team roadmap): the calorie calculator, the safety gate for agent-written recipes and local models through Ollama (`llm.py`, VS Code and Antigravity only; see [docs/ollama_plan.md](docs/ollama_plan.md)) are built; the five agent tools are built (`agent_tools.py`) and every model answer is screened by the gate (`guard_answer`); a CrewAI trial on a local model works (docs/ollama_plan.md); next are the data contract the Gradio screens use, then the CrewAI meal planner (`crew.py`: built and tested with a fake Chef; live results in docs/ollama_plan.md) (they can use Groq or Claude once a key is added; the Chef Agent should give each ingredient's weight in grams, the calculator's most accurate input). In the data: hand-check a sample of the automatic USDA matches; train the freshness models on a GPU (notebook 05); finish notebook 08 (carbon footprint and produce seasons); add the Google Places key for live store details (notebook 03).
 
 ---
 
@@ -476,6 +476,31 @@ print(status["available"], status["tool_models"], pick_model(status))
 
 The model only proposes. For a recipe the code holds, the safety gate decides on the code's own copy and the model only explains a failure; its words are shown only when they match the gate (`check_and_explain`). In a live test a small model, told "no need to check", copied only 2 of 5 lines into the safety tool, which is why the model never decides. Tools (`safety_tool`, `recommend_tool`) take the user's restrictions from the code, never from the model. The starter app uses the local model when Ollama is running and plain sentences otherwise. Tested models (October 2026, 16 GB laptop, CPU only): `granite4.1:3b` and `llama3.2` called the gate on 6 of 6 test recipes with the right answer, in 10-22 s each; `gemma3:4b` cannot call tools. Ollama does not train models: it only runs language models for the agents. Details and next steps: [docs/ollama_plan.md](docs/ollama_plan.md).
 
+### Agent tools and the meal planner
+
+| Piece | What it does |
+|---|---|
+| `agent_tools.py` | Five tools for the agents: `check_recipe` (the safety gate), `recommend_recipes` (by cuisine family or country: "Thai", "Cajun", "Tex-Mex"), `count_calories`, `where_to_buy`, `find_substitutions`. Each takes the user's restrictions from the code and re-checks what it suggests with the gate |
+| `llm.ask_agent` | One question to a local model with the tools. The user's rules go into the model's instructions, and `guard_answer` checks every sentence of the reply: a sentence naming food the user must not eat is removed unless it is a warning |
+| `crew.plan_meal` | The meal planner: a CrewAI **Chef** agent writes a recipe as structured data; the code checks it with the gate and sends it back with the problems (at most twice), sends a recipe more than 25% over the calorie budget back to be lightened, and falls back to a safe recommended dish if the Chef never passes. Calories and where to buy come from the tools, not from the model |
+
+**Live tests** (October 2026, laptop CPU, `granite4.1:3b` and `llama3.2`): both models pick the right tool for 12 of 12 questions; the planner wrote a Thai green curry and a Mexican chicken dish that passed the gate on the first try (30-70 s each). Bugs the tests found and fixed: a model copying only 2 of 5 lines into the safety check, a "yes" to pancetta for a halal user, "pork strips" added to bacon swaps, "Thai-style" giving an Indian curry, "0 kcal" for lines without amounts, a 1,424 kcal serving for a 600 kcal budget, and the planner crashing while Ollama updated itself (it now falls back to a safe dish). Full results: [docs/ollama_plan.md](docs/ollama_plan.md).
+
+To try the planner (VS Code / Antigravity, Ollama running, `pip install -r config/requirements-app.txt`):
+
+```python
+from everflavor.agent_tools import load_agent_data
+from everflavor.crew import plan_meal
+from everflavor.llm import choose_model
+from everflavor.safety import UserProfile
+
+profile = UserProfile(avoid=("contains_peanut",), diets=("halal_friendly",), calories_per_meal=600)
+plan = plan_meal("A Thai-style dinner", profile, load_agent_data("."), model=choose_model()["model"])
+print(plan["recipe"]["name"], plan["gate"]["text"], plan["calories"])
+```
+
+CrewAI sends anonymous usage data by default; `crew.py` turns it off.
+
 ---
 
 ## Project Structure
@@ -519,6 +544,7 @@ The-EverFlavor-AI/
 │       ├── safety.py                    # user profile and the safety gate for agent-written recipes
 │       ├── llm.py                       # local models through Ollama (VS Code / Antigravity, never Colab)
 │       ├── agent_tools.py               # the agents' tools: recipes, calories, where to buy, substitutions
+│       ├── crew.py                      # meal planner: CrewAI Chef writes, the code checks (VS Code only)
 │       ├── seasons.py                   # meat supply season and pasture season (notebook 08)
 │       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py, progress.py
 ├── tests/
@@ -534,6 +560,7 @@ The-EverFlavor-AI/
 │   ├── test_safety.py       # User profile, reasons per line, same answer as the safety filter
 │   ├── test_llm.py          # Ollama helpers with fake answers: status, tool loop, profile fixed by code
 │   ├── test_agent_tools.py  # The agents' tools on tiny tables: the profile always wins
+│   ├── test_crew.py         # Meal planner flow with a fake Chef: retries, safe fallback (no CrewAI needed)
 │   ├── test_seasons.py      # Meat supply peaks and grass months on made-up numbers (no downloads)
 │   ├── test_pipeline.py     # run_pipeline end to end on tiny tables shaped like each source
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)

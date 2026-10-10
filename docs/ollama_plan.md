@@ -115,7 +115,7 @@ Test scripts: run against a live Ollama, so they are not part of `tests/` (those
 | 2 | The other agent tools as `Tool`s: recommend, calories, where to buy, substitutions (`agent_tools.py`) | Done |
 | 2b | Screen every final answer: `guard_answer`, one entry point `ask_agent` | Done (round 4) |
 | 3 | Choose the model in one place: `choose_model` (Ollama, else rules; hosted key later) | Done |
-| 4 | CrewAI agents on the same choice (`LLM(model="ollama/granite4.1:3b", base_url=ollama_url())`) | Trial done (round 5); build next |
+| 4 | CrewAI meal planner `crew.plan_meal`: Chef writes, code checks, retries, lightens, falls back | Done (round 6) |
 | 5 | Starter app: show which model answered, and always show the gate's result, not the model's words | Done |
 | 6 | Evaluation: the same recipe set on each model; tool-call rate, gate agreement, time | Rounds 1-3 done; repeat for each new model |
 
@@ -151,4 +151,10 @@ anonymous usage data by default: set `CREWAI_DISABLE_TELEMETRY=true` and `OTEL_S
   also when a model puts it in the cuisine field); it prefers origins written by the source over the origin
   model's guesses and recipes tagged with the word asked for. Live: both models now get Thai dishes for
   "Thai-style". `count_calories` no longer answers "0 kcal" for names without amounts (a model sent those).
-- **Still to do while building:** limit each agent's steps (`max_iter`) so a model cannot loop.
+- **Built (round 6, `crew.py`):** the Chef has at most 6 steps per attempt (`CHEF_MAX_STEPS`). Live on granite:
+  "A Thai-style dinner" gave a green curry with shrimp (32 s) and "Something Mexican for lunch" a chicken dish
+  (72 s), both passing the gate on the first try. Found and fixed: CrewAI's tool loop sometimes gets an empty
+  reply from the model (the attempt is retried by a Chef without tools; the code checks the recipe anyway);
+  Ollama restarting during its own update made the planner crash (now a failed attempt, then a safe dish);
+  the curry was 1,424 kcal per serving for a 600 kcal budget (a recipe more than 25% over goes back to be
+  lightened, and the safe version is kept if the lighter one fails).

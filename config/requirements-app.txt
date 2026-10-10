@@ -2,6 +2,7 @@
 # Install in a terminal in the project folder: pip install -r config/requirements-app.txt
 -r requirements.txt
 streamlit     # the starter app: streamlit run app/app.py
+crewai        # the meal planner's Chef agent (src/everflavor/crew.py); about 140 packages
 
 # Local AI models (src/everflavor/llm.py) talk to Ollama with `requests` (in requirements.txt).
 # Ollama itself is a separate program, not a pip package:
