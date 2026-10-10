@@ -38,10 +38,7 @@ that saves anything.
 (`tests/test_security.py`). Git keeps every past version, so anything pushed by mistake stays readable even
 after it is deleted.
 
-**What is not encrypted, on purpose:** the repository holds code, documentation and results from public
-datasets, which teammates and graders need to read. If the team wants only its members to see the
-repository, make it private on GitHub (Settings) and add collaborators: access control, with no key to share.
-API keys are never committed, not even encrypted; share them with a password manager or a private message,
+**API keys** are never committed, not even encrypted; share them with a password manager or a private message,
 and use Colab Secrets (or GitHub Actions secrets for CI).
 
 ## Honest limits
