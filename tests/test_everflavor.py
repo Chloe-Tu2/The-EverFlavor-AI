@@ -697,3 +697,20 @@ if __name__ == "__main__":
             print(f"  FAIL  {name}: {type(e).__name__}: {e}")
     print(f"\n{len(tests) - failed} of {len(tests)} tests passed")
     sys.exit(1 if failed else 0)
+
+
+def test_red_team_food_names():
+    """Names a red-team probe found missing (2026-10-10), and the look-alikes that must stay clear."""
+    from everflavor.safety import UserProfile, check_recipe
+
+    def flagged(flag, item):
+        return not check_recipe([item], "", UserProfile(avoid=(flag,)))["passed"]
+
+    for item in ["carnitas", "porchetta", "lechon", "tonkatsu", "cotechino", "black pudding", "chashu", "pork pâté"]:
+        assert flagged("contains_pork", item), item
+    for item in ["gado gado", "kare-kare sauce", "mole poblano", "massaman curry", "PB2"]:
+        assert flagged("contains_peanut", item), item
+    assert flagged("contains_shellfish", "surimi") and flagged("contains_gelatin", "panna cotta")
+    assert flagged("contains_gelatin", "collagen powder") and flagged("contains_gluten", "brewer's yeast")
+    for item in ["tonkatsu sauce", "pâte brisée", "pate a choux", "mushroom pâté", "halal chorizo"]:
+        assert not flagged("contains_pork", item), item

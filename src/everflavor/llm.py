@@ -258,7 +258,7 @@ _WARNING = re.compile(r"\bnot (?:safe|suitable|fine|halal|kosher|vegan|vegetaria
                       r"|\bavoid\b|\bcannot\b|\bcan.t\b|\bshould ?n.t\b|\bbr(?:eaks?|oke|oken)\b"
                       r"|\bfail(?:s|ed)?\b|\bviolat\w*|\bdo(?:es)?(?: not|n.t) (?:fit|meet|comply|align)\b"
                       r"|\bisn.t (?:safe|suitable)\b|\bnon-(?:halal|kosher|vegan|vegetarian)\b|\bconflicts?\b"
-                      r"|\bincompatible\b|\bunsuitable\b", re.IGNORECASE)
+                      r"|\bincompatible\b|\bunsuitable\b|(?<!no )(?<!any )\bproblems?\b", re.IGNORECASE)
 # cspell:enable
 EXPLAIN_SYSTEM = ("Rewrite the facts below as a short, friendly warning to the user, in at most two sentences. "
                   "Keep every fact exactly, add nothing, and never say the recipe is safe.")
@@ -378,6 +378,20 @@ def _pieces(text: str) -> list[str]:
     return out
 
 
+def _drop_empty_tables(text: str) -> str:
+    """Remove a Markdown table left with only its header after its rows were removed."""
+    lines, out, block = text.split("\n"), [], []
+    for line in [*lines, ""]:
+        if line.lstrip().startswith("|"):
+            block.append(line)
+            continue
+        if len(block) > 2:
+            out += block
+        block = []
+        out.append(line)
+    return "\n".join(out[:-1])
+
+
 def _forbidden(piece: str, profile: UserProfile) -> list[dict]:
     """Problems the safety gate finds in a piece of text, ignoring foods named as left out ("instead of bacon")."""
     return check_recipe([_NOT_EATING.sub(" ", piece.translate(_PLAIN))], "", profile)["problems"]
@@ -422,7 +436,7 @@ def guard_answer(answer: str, profile: UserProfile, question: str = "") -> dict:
                 good.append(piece)
         if good or not pieces:
             kept.append(joiner.join(good))
-    text = "\n".join(kept).strip()
+    text = _drop_empty_tables("\n".join(kept)).strip()
     result = {"answer": text, "changed": bool(removed), "removed": removed,
               "reason": "removed sentences naming food the user must not eat" if removed else ""}
     asked = [p for p in _pieces(question) if _forbidden(p, profile)]
@@ -430,7 +444,9 @@ def guard_answer(answer: str, profile: UserProfile, question: str = "") -> dict:
         report = check_recipe(asked, "", profile)
         found = "; ".join(f"{', '.join(map(str, p['matched'])) or _rule_name(p['flag'])} ({_rule_name(p['rule'])})"
                           for p in report["problems"])
-        result.update(answer=f"No: the safety check found food that breaks your rules: {found}.", changed=True,
+        result.update(answer=f"I can't suggest that: {found} breaks the food rules saved in your profile. "
+                             "If your rules have changed, update them in your profile; a message cannot change them.",
+                      changed=True,
                       reason="the question names food the user must not eat and the answer did not warn")
     elif removed:
         result["answer"] = (text + "\n\n" if text else "") + \

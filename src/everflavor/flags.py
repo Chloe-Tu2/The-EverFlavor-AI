@@ -232,7 +232,11 @@ PORK_KEYWORDS     = ["pork", "bacon", "ham", "prosciutto", "pancetta", "guancial
                      "boston butt", "spare rib", "baby back rib", "hot dog",
                      "frankfurter", "wiener", "bologna", "jamon", "jamón",
                      # cured pork and pork dishes named without "pork" (found by an ingredient-name probe)
-                     "speck", "nduja", "chicharron", "char siu", "coppa", "lardo"]
+                     "speck", "nduja", "chicharron", "char siu", "coppa", "lardo",
+                     # pork dishes and cold cuts a red-team probe found missing (2026-10-10)
+                     "carnitas", "porchetta", "lechon", "lechón", "tonkatsu", "cotechino", "soppressata",
+                     "black pudding", "blood sausage", "scrapple", "chashu", "boudin", "rillettes", "spam",
+                     "pâté"]
 # Wines and ciders named without the word "wine" ("1 cup chardonnay", "1/2 cup tawny port"), policy P23.
 # Each wine lists its other names ("aliases") and the look-alikes that are not wine ("not_wine").
 # Write each name once, with its accents: spelling_variants adds the plain and hyphenated forms.
@@ -394,6 +398,7 @@ GLUTEN_KEYWORDS   = ["flour", "bread", "wheat", "pasta", "noodle", "barley", "ry
                      "roll", "rawa", "rava", "sooji", "suji",
                      "soy sauce", "breadcrumb", "cracker", "couscous", "semolina", "bulgur",
                      "spelt", "malt", "seitan", "farro", "orzo", "panko", "beer", "ale", "lager",
+                     "brewer's yeast", "brewers yeast", "communion wafer",
                      # pasta shapes and noodles
                      "spaghetti", "macaroni", "lasagna", "lasagne", "penne", "linguine",
                      "fettuccine", "fettuccini", "ditalini", "rigatoni", "ziti", "tortellini",
@@ -440,7 +445,10 @@ PEANUT_KEYWORDS   = ["peanut", "peanut butter", "peanut oil", "groundnut", "grou
                      "nut", "arachis", "goober",
                      # the bottled sauce; a dish named "satay" is the grilled skewers, whose sauce varies
                      # by region (peanut, turmeric, sweet soy, or none): team decision 2026-10-05
-                     "satay sauce"] + _compounds("contains_peanut")
+                     "satay sauce",
+                     # dishes and products made with peanuts (red-team probe, 2026-10-10); mole poblano and
+                     # massaman curry usually have peanuts: flagged on the safe side
+                     "gado gado", "gado-gado", "kare-kare", "kare kare", "mole poblano", "massaman", "pb2"] + _compounds("contains_peanut")
 TREE_NUT_KEYWORDS = ["almond", "walnut", "pecan", "cashew", "pistachio", "hazelnut",
                      "filbert", "macadamia", "brazil nut", "pine nut", "nut", "nutella",
                      "praline", "marzipan", "macaron", "frangipane", "amaretti", "pesto",
@@ -461,7 +469,8 @@ FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "s
 # Shellfish is two allergen groups that the EU, Canada, Australia / NZ, Japan and Korea label
 # separately: many people allergic to shrimp can eat clams, and the reverse. Policy P5 / P10:
 # unspecified "seafood" may be either, so it sets both
-CRUSTACEAN_KEYWORDS = ["shrimp", "prawn", "crab", "crabmeat", "lobster", "langoustine", "langostino",
+# surimi (imitation crab) is fish, but often has crab extract: crustacean too, on the safe side
+CRUSTACEAN_KEYWORDS = ["shrimp", "prawn", "crab", "crabmeat", "lobster", "langoustine", "langostino", "surimi",
                        "scampi", "krill", "crawfish", "crayfish", "belacan", "bagoong", "shrimp paste",
                        "xo sauce",
                        "seafood", "frutti di mare"] + _compounds("contains_crustacean", "contains_shellfish")
@@ -485,6 +494,7 @@ LAND_MEAT_KEYWORDS = (["chicken", "beef", "lamb", "mutton", "goat", "turkey", "v
                       "pot roast", "rump roast", "round roast", "eye of round", "pastrami",
                       "jerky", "liver", "giblet", "suet", "tallow", "bone marrow",
                       "gelatin", "gelatine", "marshmallow", "jello", "jell-o", "schmaltz", "poultry",
+                      "panna cotta", "collagen",
                       "kidney", "tripe", "oxtail", "sweetbread", "horse", "boar", "moose", "kangaroo",
                       "squab", "partridge", "guinea fowl", "poussin", "capon", "foie gras", "mince",
                       "ground meat", "minced meat", "hare", "camel", "alligator", "crocodile", "frog leg",
@@ -523,7 +533,8 @@ PET_MEAT_KEYWORDS = ["dog meat", "dogmeat", "cat meat", "puppy meat", "kitten me
 LAND_MEAT_KEYWORDS = list(dict.fromkeys(LAND_MEAT_KEYWORDS + BEEF_KEYWORDS + RED_MEAT_KEYWORDS
                                         + POULTRY_KEYWORDS + PROCESSED_MEAT_KEYWORDS + PET_MEAT_KEYWORDS))
 MEAT_KEYWORDS     = LAND_MEAT_KEYWORDS + FISH_KEYWORDS + SHELLFISH_KEYWORDS
-GELATIN_KEYWORDS  = ["gelatin", "gelatine", "jello", "jell-o", "marshmallow", "gummy", "gummies", "aspic"]
+GELATIN_KEYWORDS  = ["gelatin", "gelatine", "jello", "jell-o", "marshmallow", "gummy", "gummies", "aspic",
+                     "panna cotta", "collagen", "jelly bean"]   # set with gelatin; collagen is animal-made
 HONEY_KEYWORDS    = ["honey"]
 # Jain diets avoid vegetables that grow underground (onion and garlic are in the allium list)
 ROOT_VEGETABLE_KEYWORDS = ["potato", "sweet potato", "yam", "carrot", "beet", "beetroot", "radish",
@@ -634,6 +645,14 @@ PORK_EXCEPTIONS     = ["hot dog bun", "hot dog roll", "vegetarian sausage", "veg
                        "vegan sausage", "vegetarian bacon", "turkey bacon", "turkey ham",
                        "turkey kielbasa", "turkey sausage", "chicken sausage", "merguez sausage",
                        "merguez", "lamb sausage", "beef sausage", "vegan bacon", "char siu sauce",
+                       # halal-certified versions are made without pork (red-team round, 2026-10-10)
+                       "halal chorizo", "halal sausage", "halal pepperoni", "halal salami", "halal hot dog",
+                       "halal bacon", "halal ham", "halal frankfurter", "halal bologna",
+                       "tonkatsu sauce", "chicken liver pâté", "duck pâté", "salmon pâté", "mushroom pâté",
+                       "vegan pâté", "vegetarian pâté",
+                       # French pastry doughs ("pâte"), which look like "pâté" without accents
+                       "pâte brisée", "pâte sucrée", "pâte sablée", "pâte à choux", "pâte feuilletée",
+                       "pate brisee", "pate sucree", "pate sablee", "pate a choux",
                        # meat named after a pork product, and plant-based look-alikes
                        "turkey pepperoni", "beef pepperoni", "chicken pepperoni", "turkey chorizo",
                        "beef chorizo", "chicken chorizo", "turkey salami", "beef salami", "beef hot dog",
