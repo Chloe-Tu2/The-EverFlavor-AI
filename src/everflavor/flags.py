@@ -648,6 +648,9 @@ PORK_EXCEPTIONS     = ["hot dog bun", "hot dog roll", "vegetarian sausage", "veg
                        # halal-certified versions are made without pork (red-team round, 2026-10-10)
                        "halal chorizo", "halal sausage", "halal pepperoni", "halal salami", "halal hot dog",
                        "halal bacon", "halal ham", "halal frankfurter", "halal bologna",
+                       "halal-certified chorizo", "halal certified chorizo", "halal-certified sausage",
+                       "halal certified sausage", "halal-certified pepperoni", "halal-certified salami",
+                       "plant-based chorizo", "vegan chorizo", "soy chorizo", "soyrizo",
                        "tonkatsu sauce", "chicken liver pâté", "duck pâté", "salmon pâté", "mushroom pâté",
                        "vegan pâté", "vegetarian pâté",
                        # French pastry doughs ("pâte"), which look like "pâté" without accents

@@ -136,6 +136,11 @@ halal user. The gate missed 31 names (now added, with look-alikes kept clear). O
 halal-certified products, "Problem:" warnings, emptied tables. Known limit: the guard's warning words are
 English, so a correct warning in Spanish is replaced by the plain refusal (still safe).
 
+**Round 8: red team with the injection defenses** (same 10 questions): still no unsafe food; the model now
+refuses "ignore all previous rules" by itself, and the "Problem:" warnings survive. Over-trimming fixed:
+"halal-certified chorizo" and soy chorizo count as pork-free, "replaces guanciale with ..." is kept, and the
+sentence splitter no longer breaks "U.S." or list numbers ("1. **...**"), which had left fragments.
+
 ## CrewAI
 
 **Trial (October 2026):** CrewAI 1.15 installs on Windows ARM with Python 3.12 (141 packages, no litellm

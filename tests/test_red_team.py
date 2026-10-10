@@ -45,6 +45,7 @@ MUST_FLAG = {
 # Look-alikes that must stay clear (over-blocking makes the assistant useless)
 MUST_CLEAR = {
     "contains_pork": ["tonkatsu sauce", "pâte brisée", "pate a choux", "mushroom pâté", "halal chorizo",
+                      "halal-certified chorizo", "soyrizo",
                       "turkey bacon", "beef pepperoni", "hot dog bun"],
     "contains_peanut": ["pine nuts", "peanut-free granola"],
 }
@@ -147,6 +148,16 @@ def test_the_audit_log_records_blocks_but_never_the_users_words(monkeypatch, tmp
     entry = json.loads(log.read_text(encoding="utf-8").strip())
     assert entry["rules"] == ["contains_peanut"] and entry["model"] == "fake"
     assert "noodles" not in log.read_text(encoding="utf-8")
+
+
+def test_helpful_sentences_survive_the_guard():
+    # live round 2 (2026-10-10): halal-certified products, "replaces ...", "U.S." and list numbers
+    answer = ("1. **Halal-certified chorizo** is sold in some U.S. stores. Consider a version that replaces guanciale "
+              "with turkey bacon. Soy chorizo works too. Or use ground pork.")
+    guard = llm.guard_answer(answer, HALAL_NO_PEANUT_SHELLFISH)
+    assert guard["removed"] == ["Or use ground pork."]
+    assert guard["answer"].startswith("1. **Halal-certified chorizo** is sold in some U.S. stores.")
+    assert "replaces guanciale with turkey bacon" in guard["answer"]
 
 
 if __name__ == "__main__":

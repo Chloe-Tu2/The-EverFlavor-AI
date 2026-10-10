@@ -403,12 +403,13 @@ def choose_model(url: str | None = None, preferred: Sequence[str] = TOOL_MODELS)
 # ... pancetta"; asked for bacon swaps it added "(or pork) strips", which the tool had left out. Tools are
 # safe, but the model's own sentences are not, so every final answer goes through `guard_answer`.
 # cspell:disable
-_NOT_EATING = re.compile(r"\b(?:instead of|in place of|replac(?:e|ing)|substitut(?:e|ing) for|swap(?:ping)? out|"
+_NOT_EATING = re.compile(r"\b(?:instead of|in place of|replac(?:e|es|ed|ing)|substitut(?:e|ing) for|swap(?:ping)? out|"
                          r"without|allergic to|avoid(?:ing)?|can.t eat|cannot eat|don.t eat|do not eat|free of|"
                          r"(?:does not|doesn.t|do not|don.t) contain|no)\s+(?:the |your |any |a )?"
                          r"[a-z][a-z'-]*(?: [a-z][a-z'-]*)?|\b[a-z]+-free\b", re.IGNORECASE)
 # cspell:enable
-_SENTENCE_END = re.compile(r"(?<=[.!?])\s+")
+# a sentence ends at . ! ? before a capital, quote or bold mark; not after "U.S." or a list number ("1.")
+_SENTENCE_END = re.compile(r"(?<=[.!?])(?<![A-Z]\.[A-Z]\.)(?<![0-9]\.)\s+(?=[A-Z\"'*(\[¿¡])")
 # Models write typographic dashes and spaces ("pork‑based", "500 kcal"): plain ones before checking
 _PLAIN = str.maketrans({c: "-" for c in "‐‑‒–—−"} | {c: " " for c in "   "})
 
