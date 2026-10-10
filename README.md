@@ -146,6 +146,7 @@ Notebooks 03, 04 and 05 are built and run without any API key (licenses read on 
 | 06 Dish variants (**built**) | Notebook 04's substitutions and cooking guidance, checked with the flag rules | (no new source) |
 | 07 Nutrition quality (**built**) | USDA SR Legacy (already downloaded): fiber, minerals and vitamins per ingredient | Public domain |
 | 08 Climate and season (**section 3b built**; rest planned) | [Our World in Data](https://ourworldindata.org/grapher/ghg-per-kg-poore) (Poore & Nemecek 2018); [AGRIBALYSE 3.2](https://doc.agribalyse.fr/documentation-en/agribalyse-data/data-access); a seasonal produce calendar | CC BY; Etalab Open License; to confirm |
+| 09 Agent evaluation (**built**) | Local Ollama models (no new data) | (no new source) |
 
 <details>
 <summary><b>Licenses</b></summary>
@@ -182,11 +183,12 @@ flowchart LR
     K --> W[Notebook 06<br/>Dish variants:<br/>halal, vegan, ...]
     G --> Q[Notebook 07<br/>Nutrition quality]
     G -.-> X[Notebook 08<br/>planned: climate<br/>and season]
+    G --> AE[Notebook 09<br/>Agent evaluation:<br/>same questions,<br/>every model]
 
     classDef done fill:#E8F5E9,stroke:#2E7D32,color:#1B3A1D
     classDef people fill:#FFF8E1,stroke:#F9A825,color:#4A3A00
     classDef next fill:#F5F5F5,stroke:#9E9E9E,color:#424242,stroke-dasharray:4 3
-    class A,B,C,G,D,F,K,S,V,W,Q done
+    class A,B,C,G,D,F,K,S,V,W,Q,AE done
     class H people
     class E,X next
 ```
@@ -200,8 +202,8 @@ flowchart LR
 | **Recipes after cleaning** | **291,755** from 4 sources, duplicates removed |
 | **By cuisine family** | European 48,151 · Asian 20,788 · Latin American 15,706 · Middle Eastern 3,406 · African 3,179 |
 | **Restriction flags** | On the first hand-labeled check (round 4, 200 recipes) they catch 100% of real cases for 9 of the 11 main allergens; gluten 94%, dairy 95% (see the [chart](#restriction-flag-check)) |
-| **Nutrition** | 245,463 recipes with listed nutrition; the other 46,308 estimated from similar recipes and USDA data (average error 184 kcal, with a likely range that holds the real value 80% of the time) |
-| **Country of origin** | 121,450 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 109,051 predicted at 70%+ confidence (right about 90% of the time on validation); 61,254 `Unknown` |
+| **Nutrition** | 245,451 recipes with listed nutrition; the other 46,304 estimated from similar recipes and USDA data (average error 179 kcal, with a likely range that holds the real value 80% of the time) |
+| **Country of origin** | 121,449 labeled by their source (14,770 also with a region, e.g. Sichuan, Louisiana, Quebec); 108,586 predicted at 70%+ confidence (right about 89% of the time on validation); 61,720 `Unknown` |
 | **Diet profiles** | Halal-friendly 66% (policy P18: no alcohol-based extracts, carmine or rennet), kosher-friendly 69%, pescatarian 63%, no beef 89%, Jain-friendly 15%, lower sodium 58%, low carb 28% of recipes |
 | **Validation** | 26 automatic checks pass; no near-duplicate leakage between splits |
 | **Baseline cuisine classifier** | Macro-F1 **0.62** on validation (see [model card](docs/model_cards/cuisine_classifier.md)) |
@@ -214,7 +216,7 @@ flowchart LR
 | **Calorie calculator (Week 7)** | `calories.py`: ingredient lines ("1 1/2 cups chopped onion") to grams with USDA's own household weights, then USDA calories per serving; every line it cannot count is listed, never counted as 0. On 1,000 Hugging Face recipes with known grams: 2.2% median error, 63% within the proposal's 5% target (notebook 07, section 6; 5.3% and 48% before the USDA matches were hand-checked) |
 | **Meat seasons** | Notebook 08, section 3b (`seasons.py`, no keys): when each meat is most plentiful in the US (USDA ERS monthly slaughter, last 10 years: lamb peaks in March-April and December, turkey in October, beef and chicken are steady all year) and when animals in 11 grazing regions usually graze fresh grass (10 years of Open-Meteo weather; none between the tropics, where quality depends on the farm). The grass rule matches known grazing months in all but 4 of 120 region-months |
 | **Safety gate for agents** | `safety.py`: one `UserProfile` (restrictions, diets, calorie budget, area) and `check_recipe`, which checks ingredient lines an AI writes and names the line, rule and word behind every problem. Same answer as the dataset safety filter on 21,000 checks |
-| **Code checks** | 348 automated checks pass (343 tests for the shared functions, 5 security checks) and cover 92% of `src/`; type hints in `src/` and `tests/` checked with mypy |
+| **Code checks** | 384 automated checks pass (379 tests for the shared functions, 5 security checks; 25 of them check the real data and run only where it is, so GitHub runs 359) and cover 92% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -304,8 +306,8 @@ The steps take no coding: [docs/flag_review/HOW_TO_SPOT_CHECK.md](docs/flag_revi
 - CulinaryDB and TheMealDB publish no nutrition, and CulinaryDB lists no amounts or servings, so their calories are estimates (labeled as such). A typical estimate is off by about 100 kcal per serving.
 - Restriction flags come from keywords in the ingredients and recipe names (plus Hugging Face health labels), so they are approximate; the rarer allergens (peanut, shellfish, soy, sesame) are the least reliable.
 - The baseline classifier confuses African and Middle Eastern recipes (F1 about 0.35 each).
-- Most USDA ingredient matches are automatic (290 of 34,037 hand-checked, covering the most-used names). Automatic matches must cover every word of the name and avoid cured, smoked, dried and branded foods unless the name asks for them ("tomato paste" was almond paste, "pork" salt pork); names with no fair USDA entry (curry leaf, garam masala, lemongrass) get no match rather than a wrong one. Rare names are still unchecked.
-- Training weights that favor small countries and cuisines were tested and made both models worse (the country model pushed most US recipes to other countries), so the models are not weighted; notebook 01 now shows their accuracy by source, cuisine family and country instead. Canada (8% found) and Australia (17%) are rarely recognized: their recipes look American or British.
+- Most USDA ingredient matches are automatic (290 of 34,471 hand-checked, covering the most-used names). Automatic matches must cover every word of the name and avoid cured, smoked, dried and branded foods unless the name asks for them ("tomato paste" was almond paste, "pork" salt pork); names with no fair USDA entry (curry leaf, garam masala, lemongrass) get no match rather than a wrong one. Rare names are still unchecked.
+- Training weights that favor small countries and cuisines were tested and made both models worse (the country model pushed most US recipes to other countries), so the models are not weighted; notebook 01 now shows their accuracy by source, cuisine family and country instead. Canada (8% found) and Australia (19%) are rarely recognized: their recipes look American or British.
 - Recipes list ingredients without amounts, so vitamins and minerals are shown per ingredient ("rich in iron"), never as a total per dish.
 - Dish variants, substitutions and ingredient names are machine-made and wait for a team hand check before any agent uses them.
 - Freshness photos (notebook 05) come from 6 public datasets with their own labels; 439 MeatScan files are empty and are skipped, and no model is trained yet (it needs a GPU).
@@ -314,7 +316,7 @@ See the [datasheet](docs/datasheet.md) for the full description of the dataset.
 
 ### Next
 
-Week 7 (see the team roadmap), back end built: the calorie calculator, the safety gate, local models through Ollama (`llm.py`, VS Code and Antigravity only), the five agent tools (`agent_tools.py`), the answer guard and prompt-injection defenses, and the CrewAI meal planner (`crew.py`: the Chef writes, the code checks, retries, lightens and falls back), all tested live and by 131 red-team checks on every push (see [docs/ollama_plan.md](docs/ollama_plan.md)). Next: the data contract the Gradio screens use, a chat tab in the starter app, a hosted model (Groq or Claude) once a key is added, and the human-review pause. In the data: train the freshness models on a GPU (notebook 05; a separate PC is planned, see [docs/vision_setup.md](docs/vision_setup.md)), finish notebook 08 (carbon footprint and produce seasons), and add the Google Places key for live store details (notebook 03).
+Week 7 (see the team roadmap), back end built: the calorie calculator, the safety gate, local models through Ollama (`llm.py`, VS Code and Antigravity only), the five agent tools (`agent_tools.py`), the answer guard and prompt-injection defenses, and the CrewAI meal planner (`crew.py`: the Chef writes, the code checks, retries, lightens and falls back), all tested live and by 135 red-team checks on every push (see [docs/ollama_plan.md](docs/ollama_plan.md)). Notebook 09 scores every local model on the same 25 questions: first run, no unsafe food in any answer and every attack pushed back; llama3.2 got all calorie questions right, granite4.1:3b 3 of 4. Next: the data contract the Gradio screens use, a chat tab in the starter app, a hosted model (Groq or Claude) once a key is added, and the human-review pause. In the data: train the freshness models on a GPU (notebook 05; a separate PC is planned, see [docs/vision_setup.md](docs/vision_setup.md)), finish notebook 08 (carbon footprint and produce seasons), and add the Google Places key for live store details (notebook 03).
 
 ---
 
@@ -332,6 +334,7 @@ Each data pipeline has its own notebook. They share the code in `src/everflavor/
 | 6 | `notebooks/06_dish_variants.ipynb` | Halal, vegan, gluten-free ... versions of each dish | Notebook 01 and 04's saved files |
 | 7 | `notebooks/07_nutrition_quality.ipynb` | Macros per serving and nutrient-rich ingredients | Notebook 01's saved files |
 | 8 | `notebooks/08_climate_and_season.ipynb` | Meat supply and pasture seasons (built); carbon footprint and produce seasons (planned) | Notebook 01's saved files |
+| 9 | `notebooks/09_agent_evaluation.ipynb` | The same 25 questions for every local model, scored by code (leaks, right tool, calories, attacks) | Ollama (VS Code / Antigravity only) and the saved files of notebooks 01, 03 and 04 |
 
 All of them run unchanged in **Google Colab**, **VS Code** and **Antigravity** (notebook 05 trains only when `TRAIN = True`). The setup cell detects the environment, moves to the project folder and loads API keys from the right place.
 
@@ -519,7 +522,7 @@ The new keywords change the dataset's flags slightly: rerun notebook 01 to refre
 3. **Outside text is data, not orders:** questions are cleaned (`clean_text`: hidden characters, chat-format tokens and fake "System:" lines removed, length capped), and tool results reach the model labelled as facts, not instructions (`tool_message`); the model's instructions say so too.
 4. **Tools only read:** none can buy, send, delete or change anything, and no API key ever reaches a model.
 5. **An audit log** (`ask_agent(..., audit_log=...)`) records each blocked answer (time, model, reason, rules), never the user's words.
-6. **Red-team tests run on every push** (`tests/test_red_team.py`, 131 checks): a fake model that gives in to every attack, so a change that weakens a defense fails the build.
+6. **Red-team tests run on every push** (`tests/test_red_team.py`, 135 checks): a fake model that gives in to every attack, so a change that weakens a defense fails the build.
 
 ---
 
@@ -537,7 +540,8 @@ The-EverFlavor-AI/
 │   ├── 05_computer_vision_freshness.ipynb         # Food freshness from photos: labels, split, training
 │   ├── 06_dish_variants.ipynb                     # Halal, vegan, gluten-free ... versions of each dish
 │   ├── 07_nutrition_quality.ipynb                 # Macros per serving, nutrient-rich ingredients
-│   └── 08_climate_and_season.ipynb                # Meat seasons (built); carbon footprint, produce seasons (plan)
+│   ├── 08_climate_and_season.ipynb                # Meat seasons (built); carbon footprint, produce seasons (plan)
+│   └── 09_agent_evaluation.ipynb                  # Same questions for every local model, scored by code (Ollama)
 ├── data/
 │   ├── reference/    # Hand-made reference tables with sources (committed): cooking_fats.csv
 │   ├── raw/          # Original downloads and samples (generated, not committed)
@@ -565,6 +569,7 @@ The-EverFlavor-AI/
 │       ├── llm.py                       # local models through Ollama (VS Code / Antigravity, never Colab)
 │       ├── agent_tools.py               # the agents' tools: recipes, calories, where to buy, substitutions
 │       ├── crew.py                      # meal planner: CrewAI Chef writes, the code checks (VS Code only)
+│       ├── evaluation.py                # agent evaluation: questions and scoring (notebook 09)
 │       ├── seasons.py                   # meat supply season and pasture season (notebook 08)
 │       └── recommend.py, charts.py, reporting.py, parsing.py, checks.py, progress.py
 ├── tests/
@@ -583,6 +588,8 @@ The-EverFlavor-AI/
 │   ├── test_crew.py         # Meal planner flow with a fake Chef: retries, safe fallback (no CrewAI needed)
 │   ├── test_red_team.py     # Attacks that must never get unsafe food to the user (fake model that gives in)
 │   ├── test_seasons.py      # Meat supply peaks and grass months on made-up numbers (no downloads)
+│   ├── test_evaluation.py   # Agent evaluation scoring with a fake model
+│   ├── test_real_data.py    # The real tables (skipped without data): USDA matches, gate vs dataset filter
 │   ├── test_pipeline.py     # run_pipeline end to end on tiny tables shaped like each source
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files

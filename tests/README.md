@@ -10,6 +10,9 @@ python -m pytest tests/test_safety.py      # one file
 python tests/test_safety.py                # also works
 ```
 
+`test_real_data.py` is the exception: it reads the tables the notebooks save, so it runs only where they
+are (about 30 seconds) and is skipped on GitHub. Run it after rerunning a notebook.
+
 | File | Checks |
 |---|---|
 | `test_everflavor.py` | Flags, diets, ingredient names: what each shared function promises |
@@ -29,6 +32,8 @@ python tests/test_safety.py                # also works
 | `test_seasons.py` | Meat supply peaks and grass months, on made-up numbers |
 | `test_llm.py` | Ollama helpers with fake answers: the gate decides, the model's words are kept only when they match, tools keep the profile |
 | `test_red_team.py` | Attacks that must never reach the user: tricky food names, prompt injection, hidden instructions in tool results |
+| `test_evaluation.py` | Agent evaluation scoring with a fake model: leaks, calories per serving, attacks, saved runs |
+| `test_real_data.py` | **The real data** (skipped when it is not on the computer, so on GitHub): USDA calories and matches for common ingredients, the gate and the dataset filter agreeing on 1,000 real recipes for 6 profiles, splits, Hugging Face names keeping words like "groundnut" |
 | `test_security.py` | No keys or personal paths in committed files; `.env` and user data (profiles, chat history, audit logs) stay ignored |
 
 **Adding a test:** put it in the file for that module, name it `test_<what it promises>`, and keep it

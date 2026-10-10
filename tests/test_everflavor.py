@@ -11,6 +11,7 @@ or without installing anything:
 """
 import contextlib
 import io
+import json
 import sys
 from pathlib import Path
 
@@ -55,6 +56,7 @@ from everflavor.flags import (
     with_spellings,
 )
 from everflavor.ingredients import (
+    hf_ingredient_foods,
     normalize_ingredient,
     normalize_ingredient_list,
 )
@@ -106,6 +108,16 @@ def test_make_flag_matches_whole_words_only():
     assert make_flag("ham hocks", pork)                       # plural still matches
     assert not make_flag("turkey bacon", pork, ["turkey bacon"])   # exception phrase
     assert not make_flag(None, pork)                          # not text
+
+
+def test_hugging_face_names_keep_the_word_that_matters_for_a_restriction():
+    # found on the real data (2026-10-10): "groundnut oil" had become "oil", "turkey bacon" plain "bacon"
+    raw = json.dumps([{"food": "oil", "text": "3 tbsp groundnut oil"},
+                      {"food": "bacon", "text": "3-4 pieces cooked turkey bacon"},
+                      {"food": "noodles", "text": "200 g egg noodles"},
+                      {"food": "onion", "text": "1 large red onion, chopped"},   # "red" changes no flag
+                      {"food": "salt", "text": "salt"}])
+    assert hf_ingredient_foods(raw) == ["groundnut oil", "turkey bacon", "egg noodles", "onion", "salt"]
 
 
 def test_keyword_flags_read_hidden_ingredients():

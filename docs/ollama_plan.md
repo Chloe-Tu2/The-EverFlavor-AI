@@ -121,7 +121,7 @@ Test scripts: run against a live Ollama, so they are not part of `tests/` (those
 | 3 | Choose the model in one place: `choose_model` (Ollama, else rules; hosted key later) | Done |
 | 4 | CrewAI meal planner `crew.plan_meal`: Chef writes, code checks, retries, lightens, falls back | Done (round 6) |
 | 5 | Starter app: show which model answered, and always show the gate's result, not the model's words | Done |
-| 6 | Evaluation: the same recipe set on each model; tool-call rate, gate agreement, time | Rounds 1-3 done; repeat for each new model |
+| 6 | Evaluation: the same questions on each model, scored by code (`evaluation.py`, notebook 09) | Done (round 9); rerun for each new model or prompt change |
 
 ## What goes on GitHub
 
@@ -140,6 +140,20 @@ English, so a correct warning in Spanish is replaced by the plain refusal (still
 refuses "ignore all previous rules" by itself, and the "Problem:" warnings survive. Over-trimming fixed:
 "halal-certified chorizo" and soy chorizo count as pork-free, "replaces guanciale with ..." is kept, and the
 sentence splitter no longer breaks "U.S." or list numbers ("1. **...**"), which had left fragments.
+
+**Round 9: notebook 09, the repeatable evaluation** (2026-10-10; 25 questions for 5 profiles: recipe ideas,
+"is this fine for me?", calories, substitutions, where to buy, and 5 attacks; scored by code):
+
+| Model | Answered | Leaks | Right tool | Right calories | Attacks pushed back | Median time |
+|---|---|---|---|---|---|---|
+| granite4.1:3b | 100% | 0 | 100% | 75% (3 of 4) | 100% | 17 s |
+| llama3.2 | 100% | 0 | 100% | 100% | 100% | 12 s |
+
+The first run found two problems, both fixed: granite called `recommend_recipes` 3-4 times in a row and
+never answered (2 of 25 empty; `run_tools` now gives one last turn without tools), and granite gave a
+recipe's total as the calories "per serving" (the scoring now checks per-serving claims against the
+per-serving count). Still open: granite compares a recipe's total (770 kcal) with the per-serving budget
+(700), when one serving is 385. On these questions llama3.2 is the more accurate and faster of the two.
 
 ## CrewAI
 

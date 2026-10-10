@@ -56,6 +56,9 @@ OLLAMA_URL = "http://localhost:11434"
 # docs/ollama_plan.md). Any other installed tool model also works. Not tev1: listed under tools on
 # ollama.com, but it is a "decision" model that answers every prompt with one option letter.
 TOOL_MODELS = ("granite4.1:3b", "llama3.2:latest", "granite4.1:8b")
+# Sent when a model keeps calling tools without answering (run_tools)
+FINAL_ANSWER_PROMPT = ("Stop calling tools. Answer the question now in plain words, using only the tool results "
+                       "above.")
 
 
 def ollama_url() -> str:
@@ -260,9 +263,11 @@ def run_tools(messages: Sequence[Mapping], model: str, tools: Sequence[Tool], ur
         timeout: Seconds to wait for each model turn.
 
     Returns:
-        {"answer" (the last text, "" if the rounds ran out), "calls" ([{"name", "arguments",
-        "result"}] in order), "messages" (the whole conversation)}. A tool that fails or does
-        not exist sends the model an error message instead of stopping the loop.
+        {"answer" (the last text), "calls" ([{"name", "arguments", "result"}] in order),
+        "messages" (the whole conversation)}. A tool that fails or does not exist sends the
+        model an error message instead of stopping the loop. When the rounds run out, the
+        model gets one more turn without tools to answer from what it found ("" only if it
+        still says nothing).
     """
     if max_rounds < 1:
         raise ValueError(f"max_rounds must be at least 1, got {max_rounds}")
@@ -285,7 +290,12 @@ def run_tools(messages: Sequence[Mapping], model: str, tools: Sequence[Tool], ur
                     result = {"error": f"{type(error).__name__}: {error}"}
             calls.append({"name": name, "arguments": args, "result": result})
             history.append({"role": "tool", "tool_name": name, "content": tool_message(result)})
-    return {"answer": "", "calls": calls, "messages": history}
+    # Agent evaluation (notebook 09, 2026-10-10): granite4.1:3b called recommend_recipes 4 times in a row and
+    # never answered. One last turn without tools makes it answer from the results it already has.
+    history.append({"role": "user", "content": FINAL_ANSWER_PROMPT})
+    reply = chat(history, model, None, url=url, timeout=timeout)
+    history.append(reply)
+    return {"answer": reply.get("content", ""), "calls": calls, "messages": history}
 
 
 # ---------------------------------------------------------------- code decides, the model explains

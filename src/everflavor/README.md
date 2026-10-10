@@ -31,6 +31,7 @@ add `src/` to the path for you.
 | | `llm.py` | Local models through Ollama (VS Code / Antigravity only): model choice, the answer guard, prompt-injection defenses (`clean_text`, `tool_message`), `ask_agent` |
 | | `crew.py` | Meal planner: a CrewAI Chef writes, the code checks, retries and falls back (VS Code / Antigravity) |
 | | `agent_tools.py` | The agents' tools: recipes, calories, where to buy, substitutions (profile from code) |
+| | `evaluation.py` | Agent evaluation (notebook 09): 25 questions, scored by code (leaks, right tool, right calories, attacks) |
 | **Helpers** | `checks.py`, `environment.py`, `progress.py`, `charts.py`, `reporting.py` | Input checks, keys, progress bars, charts, tables |
 
 ## Rules for this code

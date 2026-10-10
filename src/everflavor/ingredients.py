@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import re
 from collections.abc import Iterable
+from functools import cache
 
 import numpy as np
 
@@ -138,13 +139,31 @@ def clean_ingredients(raw: object) -> list[str]:
     return [re.sub(r"\s+", " ", str(i).lower().strip()) for i in parse_list_string(raw)]
 
 
+@cache
+def _changes_a_flag(longer: str, food: str) -> bool:
+    """True when `longer` ("groundnut oil") sets a restriction flag differently from `food` ("oil")."""
+    # flags.py imports this module, so it is imported here, when first needed
+    from .flags import FLAG_COLUMNS, keyword_flag
+    return any(keyword_flag(longer, c) != keyword_flag(food, c) for c in (*FLAG_COLUMNS, "vegetarian", "vegan"))
+
+
 def hf_ingredient_foods(raw: object) -> list[str]:
     """Return the plain food names from Hugging Face's 'ingredients' JSON.
 
     Each entry looks like {"food": "kosher salt", "text": "1 tablespoon kosher salt"};
-    the 'food' field has no quantities, so it is the better ingredient name.
+    the 'food' field has no quantities, so it is the better ingredient name. But it can drop
+    the word that matters for a restriction ("3 tbsp groundnut oil" -> "oil", "cooked turkey
+    bacon" -> "bacon"), so the word before the food is kept whenever it changes a flag.
     """
-    return [d["food"] for d in parse_list_string(raw) if isinstance(d, dict) and d.get("food")]
+    names = []
+    for d in parse_list_string(raw):
+        if not (isinstance(d, dict) and d.get("food")):
+            continue
+        food = str(d["food"])
+        before = re.search(r"([a-z][a-z\-]*)\s+" + re.escape(food.lower()) + r"\b", str(d.get("text", "")).lower())
+        longer = f"{before.group(1)} {food}" if before else ""
+        names.append(longer if longer and _changes_a_flag(longer.lower(), food.lower()) else food)
+    return names
 
 
 def ingredient_text(value: object) -> str:

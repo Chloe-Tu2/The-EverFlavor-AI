@@ -12,26 +12,26 @@ Predicts the country a recipe comes from (`origin_country`) for recipes whose so
 - **Classifier:** multinomial `LogisticRegression` (C = 4), over the **37 countries** with at least 100 labeled training recipes.
 - **Cuisine-family rule:** countries from a different cuisine family than the recipe's are ruled out (an "Asian" recipe is never predicted as Italian); recipes in "Other" can get any country.
 - **Confidence threshold:** a prediction is kept only when the model is at least **70%** confident; otherwise the country stays `Unknown`.
-- **Training data:** 83,911 training-split recipes with a labeled country. Fitted on the training split only.
+- **Training data:** 83,953 training-split recipes with a labeled country. Fitted on the training split only.
 
-## Results (validation split, 18,136 recipes with a labeled country)
+## Results (validation split, 17,998 recipes with a labeled country)
 
-- **Top guess, no threshold:** right 81.0% of the time.
-- **At the 70% threshold:** 75.7% of recipes get a country, and it is right **89.4%** of the time.
+- **Top guess, no threshold:** right 80.6% of the time.
+- **At the 70% threshold:** 74.7% of recipes get a country, and it is right **89.3%** of the time.
 
 | Confidence at least | Recipes kept | Correct |
 |---|---|---|
-| 0.5 | 90% | 85.4% |
-| 0.6 | 83% | 87.6% |
-| **0.7 (used)** | **76%** | **89.4%** |
-| 0.8 | 66% | 91.3% |
-| 0.9 | 51% | 93.3% |
+| 0.5 | 89% | 85.3% |
+| 0.6 | 82% | 87.5% |
+| **0.7 (used)** | **75%** | **89.3%** |
+| 0.8 | 65% | 91.2% |
+| 0.9 | 51% | 92.9% |
 
-By predicted country at 70%: United States 95% right, Morocco 92%, India 91%, Greece 90%, Spain 90%, Thailand 89%, Italy 87%, Japan 87%, China 84%, Canada 83%, United Kingdom 82%, France 81%, Mexico 79%.
+By predicted country at 70%: United States 96% right, Thailand 95%, Greece 93%, Morocco 92%, India 90%, Japan 89%, Spain 89%, Australia 88%, Germany 88%, Italy 86%, China 85%, United Kingdom 84%, France 79%, Canada 79%, Mexico 78%.
 
 By real country at 70% (share of its validation recipes given the right country): Mexico 99%, Morocco 95%, India
-88%, Italy 84%, Thailand 84%, China 82%, Greece 74%, Japan 72%, United States 68%, Spain 60%, France 57%, Germany 51%,
-United Kingdom 47%, Australia 17%, Canada 8%. Canadian and Australian recipes look American or British, so they are
+88%, Italy 85%, Thailand 82%, China 78%, Japan 70%, Greece 69%, United States 66%, France 54%, Germany 51%,
+United Kingdom 49%, Spain 48%, Australia 19%, Canada 8%. Canadian and Australian recipes look American or British, so they are
 rarely recognized.
 
 **Weighting tested, not used (2026-10-10):** giving smaller countries more weight (`balanced_weights`, capped at 2, 3
@@ -39,7 +39,7 @@ or 10 times an average recipe) dropped the top-guess accuracy from 81% to about 
 76% to 55%, and the United States recipes found from 68% to about 20% (most were labeled Mexican, Italian or French
 instead): more wrong countries, which the limitations below warn are hurtful.
 
-**In the full table:** 121,450 recipes labeled by their source, 109,051 predicted, 61,254 `Unknown`.
+**In the full table:** 121,449 recipes labeled by their source, 108,586 predicted, 61,720 `Unknown`.
 
 ## Limitations
 

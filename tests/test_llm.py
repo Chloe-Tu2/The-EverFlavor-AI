@@ -110,9 +110,13 @@ def test_run_tools_calls_the_gate_and_returns_the_answer(monkeypatch):
 
 def test_run_tools_survives_unknown_tools_and_stops(monkeypatch):
     loop = {"role": "assistant", "content": "", "tool_calls": [{"function": {"name": "nope", "arguments": {}}}]}
-    fake_ollama(monkeypatch, replies=[loop, loop])
+    final = {"role": "assistant", "content": "I could not find that."}
+    sent = fake_ollama(monkeypatch, replies=[loop, loop, final])
     result = llm.run_tools([{"role": "user", "content": "hi"}], "m", [], max_rounds=2)
-    assert result["answer"] == "" and "unknown tool" in result["calls"][0]["result"]["error"]
+    assert "unknown tool" in result["calls"][0]["result"]["error"]
+    # rounds ran out (notebook 09: granite looped on one tool): one last turn without tools gives an answer
+    assert result["answer"] == "I could not find that." and len(sent) == 3
+    assert "tools" not in sent[2] and sent[2]["messages"][-1]["content"] == llm.FINAL_ANSWER_PROMPT
     with pytest.raises(ValueError):
         llm.run_tools([], "m", [], max_rounds=0)
 
