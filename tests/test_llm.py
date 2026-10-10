@@ -123,5 +123,60 @@ def test_chat_reports_ollama_errors(monkeypatch):
         llm.chat([{"role": "user", "content": "hi"}], "missing")
 
 
+def test_the_verdict_comes_from_the_code_and_passed_recipes_skip_the_model(monkeypatch):
+    sent = fake_ollama(monkeypatch, replies=[])
+    peanut = UserProfile(avoid=("contains_peanut",))
+    report = llm.check_and_explain(["2 cups rice", "1 lemon"], "Lemon Rice", peanut, model="llama3.2:latest")
+    assert report["passed"] and report["explained_by"] == "rules" and sent == []   # no model call for a pass
+    assert "fits your profile" in report["text"]
+
+
+def test_a_faithful_explanation_is_kept_and_an_unfaithful_one_replaced(monkeypatch):
+    peanut = UserProfile(avoid=("contains_peanut",))
+    lines = ["2 cups rice", "3 tbsp satay sauce"]
+    fake_ollama(monkeypatch, replies=[{"role": "assistant", "content": "Avoid it: the satay sauce breaks your peanut rule."}])
+    good = llm.check_and_explain(lines, "Satay Bowl", peanut, model="llama3.2:latest")
+    assert not good["passed"] and good["explained_by"] == "llama3.2:latest" and "satay" in good["text"]
+    for words in ["This recipe looks great, enjoy!",                              # no warning
+                  "It is not safe because of the rice.",                          # names the wrong cause
+                  "It breaks the pet meat rule because of the satay sauce."]:     # names a rule it did not break
+        fake_ollama(monkeypatch, replies=[{"role": "assistant", "content": words}])
+        bad = llm.check_and_explain(lines, "Satay Bowl", peanut, model="llama3.2:latest")
+        assert bad["explained_by"] == "rules" and bad["model_text"] == words
+        assert bad["text"] == "Satay Bowl does not fit your profile: 3 tbsp satay sauce (peanut: satay sauce)."
+
+
+def test_ollama_failing_falls_back_to_the_plain_text(monkeypatch):
+    def broken(url, json, timeout):
+        raise requests.ConnectionError("down")
+
+    monkeypatch.setattr(llm.requests, "post", broken)
+    report = llm.check_and_explain(["3 tbsp satay sauce"], "Bowl", UserProfile(avoid=("contains_peanut",)), model="m")
+    assert not report["passed"] and report["explained_by"] == "rules"
+
+
+def test_choose_model_falls_back_to_rules(monkeypatch):
+    fake_ollama(monkeypatch)
+    assert llm.choose_model() == {"kind": "ollama", "model": "llama3.2:latest", "reason": ""}
+    monkeypatch.setattr(llm, "_in_colab", lambda: True)
+    choice = llm.choose_model()
+    assert choice["kind"] == "rules" and choice["model"] is None and "Colab" in choice["reason"]
+
+
+def test_recommend_tool_keeps_the_profile_whatever_the_model_asks():
+    import pandas as pd
+    recipes = pd.DataFrame({
+        "recipe_name": ["peanut noodles", "lemon rice", "pork belly"],
+        "cuisine_family": ["Asian", "Asian", "Asian"],
+        "ingredient_list": [["noodles", "peanuts"], ["rice", "lemon"], ["pork belly", "soy sauce"]],
+        "calories_per_serving": [500.0, 450.0, 520.0], "nutrition_plausible": [True] * 3,
+        "contains_peanut": [True, False, False], "contains_pork": [False, False, True],
+        "vegetarian": [True, True, False], "vegan": [True, True, False], "contains_gluten": [True, False, True]})
+    tool = llm.recommend_tool(recipes, UserProfile(avoid=("contains_peanut", "contains_pork")))
+    found = tool.run(cuisine="Asian", calories="500", how_many="9", avoid=[])   # the model tries to drop the rules
+    assert [d["name"] for d in found] == ["lemon rice"]
+    assert tool.schema()["function"]["parameters"]["properties"]["cuisine"]["enum"] == ["any", "Asian"]
+
+
 if __name__ == "__main__":
     sys.exit(pytest.main([__file__, "-q"]))

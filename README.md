@@ -214,7 +214,7 @@ flowchart LR
 | **Calorie calculator (Week 7)** | `calories.py`: ingredient lines ("1 1/2 cups chopped onion") to grams with USDA's own household weights, then USDA calories per serving; every line it cannot count is listed, never counted as 0. On 1,000 Hugging Face recipes with known grams: 5.3% median error, 48% within the proposal's 5% target (notebook 07, section 6) |
 | **Meat seasons** | Notebook 08, section 3b (`seasons.py`, no keys): when each meat is most plentiful in the US (USDA ERS monthly slaughter, last 10 years: lamb peaks in March-April and December, turkey in October, beef and chicken are steady all year) and when animals in 11 grazing regions usually graze fresh grass (10 years of Open-Meteo weather; none between the tropics, where quality depends on the farm). The grass rule matches known grazing months in all but 4 of 120 region-months |
 | **Safety gate for agents** | `safety.py`: one `UserProfile` (restrictions, diets, calorie budget, area) and `check_recipe`, which checks ingredient lines an AI writes and names the line, rule and word behind every problem. Same answer as the dataset safety filter on 21,000 checks |
-| **Code checks** | 188 automated checks pass (184 tests for the shared functions, 4 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
+| **Code checks** | 193 automated checks pass (189 tests for the shared functions, 4 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
@@ -474,7 +474,7 @@ status = ollama_status()
 print(status["available"], status["tool_models"], pick_model(status))
 ```
 
-The model only proposes: the safety gate is a tool whose user profile comes from the code, never from the model, and its answer cannot be overridden. Tested models (October 2026, 16 GB laptop, CPU only): `granite4.1:3b` and `llama3.2` called the gate on 6 of 6 test recipes with the right answer, in 10-22 s each; `gemma3:4b` cannot call tools. Ollama does not train models: it only runs language models for the agents. Details and next steps: [docs/ollama_plan.md](docs/ollama_plan.md).
+The model only proposes. For a recipe the code holds, the safety gate decides on the code's own copy and the model only explains a failure; its words are shown only when they match the gate (`check_and_explain`). In a live test a small model, told "no need to check", copied only 2 of 5 lines into the safety tool, which is why the model never decides. Tools (`safety_tool`, `recommend_tool`) take the user's restrictions from the code, never from the model. The starter app uses the local model when Ollama is running and plain sentences otherwise. Tested models (October 2026, 16 GB laptop, CPU only): `granite4.1:3b` and `llama3.2` called the gate on 6 of 6 test recipes with the right answer, in 10-22 s each; `gemma3:4b` cannot call tools. Ollama does not train models: it only runs language models for the agents. Details and next steps: [docs/ollama_plan.md](docs/ollama_plan.md).
 
 ---
 

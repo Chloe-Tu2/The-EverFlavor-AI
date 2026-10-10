@@ -20,7 +20,8 @@ The browser opens at `http://localhost:8501`. Save the file and the page reloads
 |---|---|
 | Sidebar: foods to avoid, diets, vegetarian / vegan, calories | `safety.UserProfile` |
 | Tab **Find recipes** | `recommend.baseline_recommend` |
-| Tab **Check my recipe** | `safety.check_recipe`: names the line and the rule each problem breaks |
+| Tab **Check my recipe** | `llm.check_and_explain`: the safety gate names the line and rule each problem breaks; when Ollama is running, a local model explains a failure in friendly words (shown only if they match the gate) |
+| Sidebar: local AI on / off | `llm.choose_model`: a local Ollama model, or plain sentences when Ollama is not running (always in Colab) |
 
 **Golden rule:** safety decisions come from the back end ([src/everflavor](../src/everflavor/README.md)).
 The page only shows them; never filter or "fix" safety in the page code.

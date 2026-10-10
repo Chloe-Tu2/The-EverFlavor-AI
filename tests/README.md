@@ -25,7 +25,7 @@ python tests/test_safety.py                # also works
 | `test_calories.py` | Line parsing, portion weights, calories |
 | `test_safety.py` | User profile, the gate, same answer as the dataset filter |
 | `test_seasons.py` | Meat supply peaks and grass months, on made-up numbers |
-| `test_llm.py` | Ollama helpers with fake answers; the model cannot change the profile |
+| `test_llm.py` | Ollama helpers with fake answers: the gate decides, the model's words are kept only when they match, tools keep the profile |
 | `test_security.py` | No keys or personal paths in committed files; `.env` stays ignored |
 
 **Adding a test:** put it in the file for that module, name it `test_<what it promises>`, and keep it

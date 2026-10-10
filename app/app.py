@@ -22,8 +22,9 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from everflavor.diets import DIET_PROFILES
 from everflavor.flags import FLAG_RULES
+from everflavor.llm import check_and_explain, choose_model
 from everflavor.recommend import baseline_recommend
-from everflavor.safety import UserProfile, check_recipe
+from everflavor.safety import UserProfile
 
 DATA = ROOT / "data" / "processed"
 
@@ -50,6 +51,14 @@ if not (DATA / "recipes_test.parquet").exists():
 
 recipes = load_recipes()
 
+
+@st.cache_data(ttl=60)   # ask Ollama at most once a minute
+def local_ai() -> dict:
+    return choose_model()   # {"kind": "ollama" or "rules", "model", "reason"}
+
+
+ai = local_ai()
+
 # ---------- Sidebar: the user's profile ----------
 with st.sidebar:
     st.header("Your profile")
@@ -58,6 +67,12 @@ with st.sidebar:
     vegetarian = st.checkbox("Vegetarian")
     vegan = st.checkbox("Vegan")
     calories = st.slider("Calories per meal", min_value=200, max_value=1500, value=600, step=50)
+    st.divider()
+    if ai["kind"] == "ollama":
+        use_ai = st.checkbox(f"Explain problems with local AI ({ai['model']})", value=True)
+    else:
+        use_ai = False
+        st.caption(f"Local AI is off: {ai['reason']}")
 
 profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetarian,
                       vegan=vegan, calories_per_meal=calories)
@@ -98,7 +113,10 @@ with check_tab:
     lines = st.text_area("Ingredients", "2 cups jasmine rice\n3 tbsp satay sauce\n1 lb chicken breast")
 
     if st.button("Check it"):
-        report = check_recipe(lines.splitlines(), name, profile)
+        # The safety gate decides; the local AI (if on) only explains a failure, and its words are
+        # replaced by a plain sentence when they do not match the gate's answer.
+        with st.spinner("Checking..."):
+            report = check_and_explain(lines.splitlines(), name, profile, model=ai["model"] if use_ai else None)
         if report["passed"]:
             st.success("Safe for your profile.")
         else:
@@ -106,4 +124,6 @@ with check_tab:
             for problem in report["problems"]:
                 st.write(f"- **{problem['line']}**: breaks *{nice(problem['rule'])}* "
                          f"(matched: {problem['matched']})")
-        st.caption("Rules checked: " + ", ".join(nice(r) for r in report["checked"]))
+        st.info(report["text"])
+        st.caption(f"Explained by: {report['explained_by']}. Rules checked: "
+                   + ", ".join(nice(r) for r in report["checked"]))

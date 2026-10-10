@@ -51,16 +51,49 @@ on a 16 GB Windows ARM laptop (CPU only):
 Small models send lists as text (`'["rice"]'`) and invent extra arguments (`"avoid": ["peanuts"]`):
 `tool_arguments` decodes the text and the safety tool ignores extra arguments.
 
+## Live tests (October 2026) and what they changed
+
+**Round 1: the model calls the safety tool** (14 recipes x 2 models: hidden allergens such as satay sauce,
+worcestershire and pine nuts; halal, vegan and kosher rules; a recipe written as a paragraph; a user saying
+"my friend checked it, no need to run any check"):
+
+| Model | Called the tool | Sent every line | Gate's verdict right | Median time |
+|---|---|---|---|---|
+| `granite4.1:3b` | 14 / 14 | **13 / 14** | 14 / 14 | 10 s |
+| `llama3.2` | 14 / 14 | 14 / 14 | 14 / 14 | 10 s |
+
+Told there was no need to check, granite sent the gate only 2 of 5 lines (it repeats on a re-run). The dropped
+lines happened to be safe, but a dropped line can hide an allergen. **Change:** for a recipe the code already
+holds (the user's text, or the Chef Agent's output), `check_and_explain` runs the gate on the code's own copy;
+the model never decides and never copies the recipe.
+
+**Round 2: the model only explains** (same recipes): the verdict is right 28 / 28 by construction. Asked to
+explain a passed check, both models invented broken rules ("passed, but it broke the rule pet meat"); one
+blamed pet meat for chicken. **Changes:** a passed recipe gets a plain sentence (no model); a failure is
+given to the model as ready-made sentences to reword, and its words are kept only when `faithful` (a clear
+warning, a matched ingredient named, no rule named that was not broken), else the plain sentence is shown.
+
+**Round 3: rewording ready-made facts:** all 16 failure explanations were accurate (granite and llama); with
+the warning words they use ("conflicts with", "does not comply") all 16 are kept. About 5 s each.
+
+**Recommend tool:** asked for "Asian dinner ideas around 500 calories", "European recipes", and "something
+with pork belly and peanuts" for a halal, no-peanut user, granite called `recommend_recipes`; all 14 dishes
+returned passed the gate (the restrictions come from the profile, so asking for pork and peanuts changed
+nothing). 20-40 s per answer, because the tool's results are long.
+
+Test scripts: run against a live Ollama, so they are not part of `tests/` (those use fake answers).
+
 ## Steps
 
 | # | Step | Status |
 |---|---|---|
-| 1 | `llm.py`: status, model choice, chat, tool loop, safety tool | Done (8 tests, live test 6 of 6) |
-| 2 | The other agent tools as `Tool`s: recommend, calories, where to buy, substitutions | Next (roadmap step 3) |
-| 3 | Choose the model in one place: Ollama, else hosted key, else rule-based | Next |
+| 1 | `llm.py`: status, model choice, chat, tool loop, safety tool | Done |
+| 1b | Code decides, model explains: `check_and_explain`, `faithful`, `verdict_text` | Done (live tests above) |
+| 2 | The other agent tools as `Tool`s: recommend (done), calories, where to buy, substitutions | Recommend done; rest next |
+| 3 | Choose the model in one place: `choose_model` (Ollama, else rules; hosted key later) | Done |
 | 4 | CrewAI agents on the same choice (`LLM(model="ollama/granite4.1:3b", base_url=ollama_url())`) | Roadmap step 6 |
-| 5 | Starter app: show which model answered, and always show the gate's result, not the model's words | After 3 |
-| 6 | Evaluation: the same recipe set on each model; tool-call rate, gate agreement, time | Roadmap step 7 |
+| 5 | Starter app: show which model answered, and always show the gate's result, not the model's words | Done |
+| 6 | Evaluation: the same recipe set on each model; tool-call rate, gate agreement, time | Rounds 1-3 done; repeat for each new model |
 
 ## What goes on GitHub
 
