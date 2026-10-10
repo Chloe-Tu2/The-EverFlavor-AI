@@ -6,8 +6,9 @@ The data pipeline, one step per notebook. Each runs unchanged in **Colab, VS Cod
 
 ## Run order
 
-Run **01 first**: every other notebook reads its recipe table (`data/interim/recipes_all.parquet`).
-After that, 02-08 can run in any order, except where the table says "needs".
+Run **01 first**: notebooks 02, 03, 04, 06 and 07 read its recipe table (`data/interim/recipes_all.parquet`).
+Notebook **05** and notebook 08's meat section need no other notebook: they download their own data.
+After 01, the rest can run in any order, except where the table says "needs".
 
 | # | Notebook | What it does | Saves (in `data/`) |
 |---|---|---|---|
@@ -28,4 +29,8 @@ After that, 02-08 can run in any order, except where the table says "needs".
 - **Big download:** notebook 05's photos are about 32 GB. MeatScan is opt-in (`DOWNLOAD_MEATSCAN`).
 - **Shared code in Colab:** each notebook downloads the files listed in `EVERFLAVOR_MODULES`. When you add a
   module to `src/everflavor`, add it to that list in every notebook (a test checks this).
+- **GPU for notebook 05's training:** in Colab, Runtime > Change runtime type > T4 GPU, then `TRAIN = True`
+  (Kaggle Notebooks are a free alternative with more GPU hours).
+- **Not in the notebooks:** the AI agents (`llm.py`, `agent_tools.py`, `crew.py`) run in VS Code / Antigravity;
+  the notebooks never import them, so Colab is never affected.
 - **Before you push:** clear large outputs and run the checks in the [main README](../README.md#using-the-shared-code).

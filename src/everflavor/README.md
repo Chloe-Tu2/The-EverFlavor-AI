@@ -28,7 +28,7 @@ add `src/` to the path for you.
 | | `seasons.py` | Meat supply season and pasture season (notebook 08) |
 | | `freshness.py` | Freshness photos: labels, duplicates, split, training (notebook 05) |
 | **Agents and app** | `recommend.py` | Baseline recommender and its safety filter |
-| | `llm.py` | Local models through Ollama (VS Code / Antigravity only); the answer guard |
+| | `llm.py` | Local models through Ollama (VS Code / Antigravity only): model choice, the answer guard, prompt-injection defenses (`clean_text`, `tool_message`), `ask_agent` |
 | | `crew.py` | Meal planner: a CrewAI Chef writes, the code checks, retries and falls back (VS Code / Antigravity) |
 | | `agent_tools.py` | The agents' tools: recipes, calories, where to buy, substitutions (profile from code) |
 | **Helpers** | `checks.py`, `environment.py`, `progress.py`, `charts.py`, `reporting.py` | Input checks, keys, progress bars, charts, tables |
@@ -39,5 +39,7 @@ add `src/` to the path for you.
 - Functions never change the table they are given; they return a new one.
 - Rule tables (keywords, maps, limits) are `UPPER_CASE` constants at the top of each module.
 - Flags only ever add cautions: when unsure, flag.
+- A language model never decides safety: the gate (plain code) decides, the model only proposes or explains,
+  and every answer it writes is screened (`llm.guard_answer`). Tools take the user's rules from the code.
 - Every change gets a test in [tests](../../tests/README.md). Full rules: [docs/CONTRIBUTING.md](../../docs/CONTRIBUTING.md).
 - New module? Add it to `EVERFLAVOR_MODULES` in every notebook (Colab downloads that list).

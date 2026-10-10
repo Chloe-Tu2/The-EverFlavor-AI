@@ -6,7 +6,7 @@ Settings and install lists. Nothing here needs editing for a normal run except y
 |---|---|---|
 | `requirements.txt` | Libraries for the notebooks and the shared code | `pip install -r config/requirements.txt` (Colab installs its own) |
 | `requirements-dev.txt` | Checking tools: pytest, ruff, mypy, pymarkdown | `pip install -r config/requirements-dev.txt` |
-| `requirements-app.txt` | The starter app (Streamlit) and Ollama setup notes | `pip install -r config/requirements-app.txt` |
+| `requirements-app.txt` | The starter app (Streamlit), CrewAI for the meal planner, and Ollama setup notes | `pip install -r config/requirements-app.txt` |
 | `.env.example` | Template for API keys | Copy to `config/.env` and fill in |
 | `.env` | **Your** keys (not on GitHub: git ignores it) | Created by you; never commit or share it |
 | `mypy.ini` | Type-checker settings | `python -m mypy --config-file config/mypy.ini` |
