@@ -214,7 +214,7 @@ flowchart LR
 | **Calorie calculator (Week 7)** | `calories.py`: ingredient lines ("1 1/2 cups chopped onion") to grams with USDA's own household weights, then USDA calories per serving; every line it cannot count is listed, never counted as 0. On 1,000 Hugging Face recipes with known grams: 5.3% median error, 48% within the proposal's 5% target (notebook 07, section 6) |
 | **Meat seasons** | Notebook 08, section 3b (`seasons.py`, no keys): when each meat is most plentiful in the US (USDA ERS monthly slaughter, last 10 years: lamb peaks in March-April and December, turkey in October, beef and chicken are steady all year) and when animals in 11 grazing regions usually graze fresh grass (10 years of Open-Meteo weather; none between the tropics, where quality depends on the farm). The grass rule matches known grazing months in all but 4 of 120 region-months |
 | **Safety gate for agents** | `safety.py`: one `UserProfile` (restrictions, diets, calorie budget, area) and `check_recipe`, which checks ingredient lines an AI writes and names the line, rule and word behind every problem. Same answer as the dataset safety filter on 21,000 checks |
-| **Code checks** | 340 automated checks pass (336 tests for the shared functions, 4 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
+| **Code checks** | 345 automated checks pass (340 tests for the shared functions, 5 security checks) and cover 93% of `src/`; type hints in `src/` and `tests/` checked with mypy |
 
 ### Done (Weeks 4–6)
 
