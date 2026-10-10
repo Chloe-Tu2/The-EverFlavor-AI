@@ -18,6 +18,32 @@ API keys (USDA now; Google Places and an LLM key later) are never written in the
 - Dietary restrictions, remaining calories and location stay within the session and are not stored without explicit consent.
 - Location (Google Places, planned) is used only in real time to find stores, and is not stored or shared.
 
+## User data (rules for the app)
+
+What the app learns about a person (allergies, religious or ethical diets, and later health conditions such as
+diabetes) is personal and health-related. Nothing like it exists yet; these rules apply from the first version
+that saves anything.
+
+| Data | Rule |
+|---|---|
+| **Profiles** (foods to avoid, diets, calorie budget, area) | Store only what the features need. If saved, encrypt on disk, with the key in `config/.env` or the operating system's key store, never in the repo. Let the user see and delete their profile. |
+| **Chat history** | Not saved by default. If a feature needs it: ask first, encrypt it, delete it after a set time. |
+| **Audit log** (`llm.ask_agent(..., audit_log=...)`) | Records only the time, model, reason and rules of each blocked answer, never the user's words. |
+| **Food photos** (separate photo PC) | Stay on that PC; not sent to outside services. |
+| **Location** | Used in real time to find stores; not stored. |
+| **Laptop to photo PC** | Ollama talks over plain, unencrypted HTTP: only inside a home network, or through an encrypted tunnel (SSH or a VPN such as Tailscale); never open to the internet. |
+
+**Never in git:** user data goes under `data/user/` or `logs/`, which git ignores together with files named
+`user_profiles*`, `chat_history*` and `*audit*.jsonl`; a security test fails if any is tracked
+(`tests/test_security.py`). Git keeps every past version, so anything pushed by mistake stays readable even
+after it is deleted.
+
+**What is not encrypted, on purpose:** the repository holds code, documentation and results from public
+datasets, which teammates and graders need to read. If the team wants only its members to see the
+repository, make it private on GitHub (Settings) and add collaborators: access control, with no key to share.
+API keys are never committed, not even encrypted; share them with a password manager or a private message,
+and use Colab Secrets (or GitHub Actions secrets for CI).
+
 ## Honest limits
 
 - **Restriction flags are not medical advice.** They come from ingredient keywords and miss some cases (see `flag_review/labeling_notes.md`), so the system always runs a hard-coded safety filter after the agents.

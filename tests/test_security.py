@@ -6,7 +6,8 @@ They replace checks that used to be done by hand:
 - config/.env (API keys) is ignored by git;
 - no key from config/.env appears in any file git tracks (notebook outputs included);
 - saved notebook outputs show no local paths with a username;
-- user input cannot change the URL of an Open Food Facts request.
+- user input cannot change the URL of an Open Food Facts request;
+- user data and logs (profiles, chat history, audit logs) are ignored by git and none is tracked.
 A failing check names the file and the key's NAME, never the key itself.
 """
 import json
@@ -80,6 +81,22 @@ def test_notebook_outputs_have_no_local_paths():
                 if LOCAL_PATH.search(text):
                     found.append(f"{notebook_path.name} cell {number}")
     assert not found, f"{found} show a local path with a username; clear or re-run them"
+
+
+# Where the app keeps people's data (see docs/ethics_privacy.md, "User data"): never in git
+USER_DATA_EXAMPLES = ["data/user/profiles.json", "logs/agent.audit.jsonl", "audit.jsonl", "user_profiles.db",
+                      "chat_history.json", "app/user_profiles.json"]
+USER_DATA = re.compile(r"(^|/)(data/user/|logs/)|\.audit\.jsonl$|(^|/)audit[^/]*\.jsonl$|(^|/)(user_profiles|chat_history)")
+
+
+def test_user_data_is_ignored_and_never_tracked():
+    for example in USER_DATA_EXAMPLES:
+        result = git("check-ignore", "-q", "--no-index", example)
+        if result is None:
+            return   # no git here
+        assert result.returncode == 0, f"{example} would be committed: add its folder or name to .gitignore"
+    tracked = [name for name in git("ls-files").stdout.splitlines() if USER_DATA.search(name)]
+    assert not tracked, f"user data is tracked by git (remove with git rm --cached): {tracked}"
 
 
 def test_barcode_cannot_change_the_request_url():

@@ -29,3 +29,12 @@ models/
 .coverage.*
 coverage.xml
 htmlcov/
+
+# User data and logs - never commit (allergies, religious diets and health conditions are personal data;
+# see docs/ethics_privacy.md "User data"). Keep them under data/user/ or logs/ on the machine that runs the app.
+data/user/
+logs/
+*.audit.jsonl
+audit*.jsonl
+user_profiles*
+chat_history*
