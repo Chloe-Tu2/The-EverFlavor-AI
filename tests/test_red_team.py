@@ -61,6 +61,12 @@ def test_the_gate_leaves_look_alikes_alone(flag, item):
     assert check_recipe([item], "", UserProfile(avoid=(flag,)))["passed"]
 
 
+@pytest.mark.parametrize("item", ["Vegan Mushroom Pâté with Walnuts", "pâte brisée", "soy chorizo", "tonkatsu sauce"])
+def test_pork_named_look_alikes_stay_vegan(item):
+    # notebook 01 rerun (2026-10-10): only the pork flag knew these, so "Vegan Mushroom Pâté" lost its vegan flag
+    assert check_recipe([item], "", VEGAN)["passed"]
+
+
 class FakeResponse:
     def __init__(self, data):
         self.data = data

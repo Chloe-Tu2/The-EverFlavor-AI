@@ -21,6 +21,25 @@ After 01, the rest can run in any order, except where the table says "needs".
 | 07 | [Nutrition quality](07_nutrition_quality.ipynb) | Macro labels, nutrient-rich ingredients, calorie calculator check | `processed/recipe_nutrition_quality.parquet`, `ingredient_micronutrients.csv` |
 | 08 | [Climate and season](08_climate_and_season.ipynb) | Meat: when each meat is most plentiful and when animals graze fresh grass, by region (built; first run downloads about 10 minutes of weather). Carbon footprint and produce seasons: planned | `processed/meat_supply_seasons.csv`, `pasture_seasons.csv` |
 
+## Run times
+
+Measured on a laptop CPU with the downloads already saved (October 2026); each notebook also shows its own
+at the top. Colab's free runtime takes about as long, or a little longer. First-run download times are estimates.
+
+| # | Re-run | First run adds | Slowest part |
+|---|---|---|---|
+| 01 | about 20 min | 10-30 min of downloads | 5.5.2, the pipeline on every source (about 15 min) |
+| 02 | about 2 min | little (reuses 01's Food.com download) | Section 3, cooking methods |
+| 03 | about 2 min | 30-60 min (Open Food Facts export, OpenStreetMap) | Section 5, linking ingredients to products |
+| 04 | under 1 min | 10-30 min (Wikidata, FoodKeeper) | Section 3 |
+| 05 | about 32 min | hours (photos: several GB, about 32 GB with MeatScan); training 1-3 h on a GPU | Section 4, near-duplicates in 45,000 photos (about 30 min) |
+| 06 | about 6 min | nothing (needs 01 and 04) | Section 3, variants for every dish |
+| 07 | under 1 min | nothing (uses 01's USDA files) | Section 6, calorie calculator check |
+| 08 | about 2 min | 10-12 min (10 years of weather for 11 regions) | Section 3b |
+
+All eight on a fresh computer: plan for an afternoon (most of it notebook 05's photos); re-running all of
+them takes about an hour.
+
 ## Good to know
 
 - **Keys:** only notebook 01 needs one (`USDA_API_KEY`); Google Places (03) is optional. Keys come from Colab

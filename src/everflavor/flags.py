@@ -71,6 +71,7 @@ __all__ = [
     "MUSTARD_KEYWORDS",
     "NIGHTSHADE_EXCEPTIONS",
     "NIGHTSHADE_KEYWORDS",
+    "NOT_MEAT_LOOKALIKES",
     "PEANUT_EXCEPTIONS",
     "PEANUT_KEYWORDS",
     "PET_MEAT_EXCEPTIONS",
@@ -641,6 +642,12 @@ HIGH_TYRAMINE_KEYWORDS = ["cheddar", "parmesan", "parmigiano", "pecorino", "roma
 
 # Phrases that contain a keyword but are not that food
 # (removed from the text before keywords are matched, longest first)
+# Not meat at all, though named like pork products: excepted by the pork, meat and processed-meat flags
+# alike (notebook 01 rerun, 2026-10-10: "Vegan Mushroom Pâté" lost its vegan flag when only pork knew)
+NOT_MEAT_LOOKALIKES = ["tonkatsu sauce", "mushroom pâté", "vegan pâté", "vegetarian pâté", "pâte brisée",
+                       "pâte sucrée", "pâte sablée", "pâte à choux", "pâte feuilletée", "pate brisee",
+                       "pate sucree", "pate sablee", "pate a choux", "plant-based chorizo", "vegan chorizo",
+                       "soy chorizo", "soyrizo"]
 PORK_EXCEPTIONS     = ["hot dog bun", "hot dog roll", "vegetarian sausage", "veggie sausage",
                        "vegan sausage", "vegetarian bacon", "turkey bacon", "turkey ham",
                        "turkey kielbasa", "turkey sausage", "chicken sausage", "merguez sausage",
@@ -718,7 +725,7 @@ FISH_EXCEPTIONS     = ["mock caviar", "texas caviar", "cowboy caviar", "southwes
                        "vegan worcestershire", "vegetarian worcestershire"] + NOT_SEAFOOD_PHRASES
 SHELLFISH_EXCEPTIONS = OYSTER_MUSHROOM_PHRASES + NOT_SEAFOOD_PHRASES
 # Used for "vegetarian" (all meat, fish and shellfish keywords)
-MEAT_EXCEPTIONS     = OYSTER_MUSHROOM_PHRASES + FISH_EXCEPTIONS + [
+MEAT_EXCEPTIONS     = OYSTER_MUSHROOM_PHRASES + FISH_EXCEPTIONS + NOT_MEAT_LOOKALIKES + [
                        "duck sauce", "lamb's lettuce", "vegetarian sausage",
                        "veggie sausage", "vegan sausage", "meatless", "meat substitute",
                        "steak sauce", "steak seasoning", "cauliflower steak",
@@ -755,7 +762,7 @@ RED_MEAT_EXCEPTIONS = LAND_MEAT_EXCEPTIONS + BEEF_EXCEPTIONS + [
                        "chicken liver", "duck liver", "goose liver", "turkey bacon", "turkey ham",
                        "turkey sausage", "chicken sausage", "turkey jerky"]
 POULTRY_EXCEPTIONS  = LAND_MEAT_EXCEPTIONS
-PROCESSED_MEAT_EXCEPTIONS = ["vegetarian sausage", "veggie sausage", "vegan sausage", "vegetarian bacon",
+PROCESSED_MEAT_EXCEPTIONS = NOT_MEAT_LOOKALIKES + ["vegetarian sausage", "veggie sausage", "vegan sausage", "vegetarian bacon",
                              "vegan bacon", "hot dog bun", "hot dog roll", "meatless",
                              # meat named after a pork product, and plant-based look-alikes
                              "beyond sausage", "beyond beef", "beyond burger", "beyond meat",
