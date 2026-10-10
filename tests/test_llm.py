@@ -105,7 +105,7 @@ def test_run_tools_calls_the_gate_and_returns_the_answer(monkeypatch):
     assert result["answer"] == "Not safe: satay sauce."
     assert result["calls"][0]["result"]["passed"] is False
     tool_message = sent[1]["messages"][-1]
-    assert tool_message["role"] == "tool" and json.loads(tool_message["content"])["passed"] is False
+    assert tool_message["role"] == "tool" and json.loads(tool_message["content"])["data"]["passed"] is False
 
 
 def test_run_tools_survives_unknown_tools_and_stops(monkeypatch):

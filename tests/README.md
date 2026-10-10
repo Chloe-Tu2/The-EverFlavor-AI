@@ -28,6 +28,7 @@ python tests/test_safety.py                # also works
 | `test_crew.py` | Meal planner flow with a fake Chef: retries with the problems, safe fallback |
 | `test_seasons.py` | Meat supply peaks and grass months, on made-up numbers |
 | `test_llm.py` | Ollama helpers with fake answers: the gate decides, the model's words are kept only when they match, tools keep the profile |
+| `test_red_team.py` | Attacks that must never reach the user: tricky food names, prompt injection, hidden instructions in tool results |
 | `test_security.py` | No keys or personal paths in committed files; `.env` stays ignored |
 
 **Adding a test:** put it in the file for that module, name it `test_<what it promises>`, and keep it
