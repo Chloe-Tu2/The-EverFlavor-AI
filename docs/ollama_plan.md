@@ -44,9 +44,13 @@ on a 16 GB Windows ARM laptop (CPU only):
 |---|---|---|---|---|
 | `granite4.1:3b` (default) | 2.1 GB | Yes | 3 of 3 right, tool called every time | 10-21 s |
 | `llama3.2` (3B) | 2.0 GB | Yes | 3 of 3 right, tool called every time | 10-22 s |
-| `tev1:4b` | about 3 GB | Yes | not tested yet | |
-| `granite4.1:8b` | about 5 GB | Yes | not tested; slower, needs a GPU or patience | |
+| `granite4.1:8b` | 5 GB | Yes | Tools 6 / 6; meal planner: safe halal Thai curry first try, 695 kcal, better recipe | 22-48 s per question; planner 4 min |
+| `tev1:4b` | 4.5 GB | Listed, but **no** | A "decision" model: answers every prompt with one option letter ("Say OK" gave "K"); removed | |
 | `gemma3:4b` | 3.3 GB | **No** (vision only) | cannot call tools: not usable as an agent | |
+
+**Choice for this laptop:** `granite4.1:3b` stays the default (fast enough for a person waiting);
+`granite4.1:8b` writes better recipes but is 3-4 times slower: use it on a stronger PC. Image models: see
+[vision_setup.md](vision_setup.md).
 
 Small models send lists as text (`'["rice"]'`) and invent extra arguments (`"avoid": ["peanuts"]`):
 `tool_arguments` decodes the text and the safety tool ignores extra arguments.

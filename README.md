@@ -576,6 +576,7 @@ The-EverFlavor-AI/
 │   ├── sources.md          # Every data source: URL, license, access method, version
 │   ├── ethics_privacy.md   # Privacy, licenses and responsible use
 │   ├── ollama_plan.md      # Local models through Ollama: setup, tested models, next steps
+│   ├── vision_setup.md     # Plan for food photos on a stronger PC (Ollama vision model, how to test it)
 │   └── model_cards/        # One card per model: results and limits
 │       ├── cuisine_classifier.md   # Baseline cuisine classifier
 │       ├── nutrition_estimator.md  # Missing-nutrition estimator (USDA + similar recipes)

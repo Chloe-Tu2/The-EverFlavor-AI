@@ -48,9 +48,10 @@ __all__ = [
 
 OLLAMA_URL = "http://localhost:11434"
 
-# Small models with tool calling that run on a 16 GB laptop, best first (checked on
-# ollama.com/search?c=tools, October 2026). Any other installed tool model also works.
-TOOL_MODELS = ("granite4.1:3b", "llama3.2:latest", "tev1:4b", "granite4.1:8b")
+# Small models with tool calling that run on a 16 GB laptop, best first (live tests, October 2026; see
+# docs/ollama_plan.md). Any other installed tool model also works. Not tev1: listed under tools on
+# ollama.com, but it is a "decision" model that answers every prompt with one option letter.
+TOOL_MODELS = ("granite4.1:3b", "llama3.2:latest", "granite4.1:8b")
 
 
 def ollama_url() -> str:

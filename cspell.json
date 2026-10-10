@@ -14,6 +14,8 @@
     "models/**"
   ],
   "words": [
+    "minicpm",
+    "qwen",
     "CREWAI",
     "litellm",
     "Tiparos",
