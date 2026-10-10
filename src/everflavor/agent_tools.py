@@ -11,7 +11,8 @@ CrewAI agents and the app.
 """
 from __future__ import annotations
 
-from collections.abc import Mapping
+import re
+from collections.abc import Mapping, Sequence
 from pathlib import Path
 from typing import Any
 
@@ -26,11 +27,13 @@ __all__ = [
     "calories_tool",
     "load_agent_data",
     "recommend_tool",
+    "resolve_origin",
     "substitutions_tool",
     "where_to_buy_tool",
 ]
 
 MAX_RESULTS = 5
+MIN_COUNTED_SHARE = 0.5   # fewer lines with amounts than this: no calorie number (it would be far too low)
 
 
 def load_agent_data(root: str | Path = ".") -> dict[str, Any]:
@@ -69,32 +72,111 @@ def _fits(items: list[str], profile: UserProfile) -> dict:
             "problems": [{"item": p["line"], "rule": p["rule"], "matched": p["matched"]} for p in report["problems"]]}
 
 
+_STYLE_WORDS = re.compile(r"\b(?:style|food|cuisine|dish(?:es)?|recipes?|cooking)\b")
+
+
+def resolve_origin(text: object, countries: Sequence[str]) -> tuple[str, str | None]:
+    """A place as people say it ("Thai-style", "thailand", "cajun") -> (country, region or None).
+
+    Uses cuisine.ORIGIN_LABELS (the labels notebook 01 maps to countries), then the country names in
+    the data, ignoring case. Raises ValueError, naming the countries with the most recipes, when unknown.
+    """
+    from .cuisine import ORIGIN_LABELS
+
+    key = _STYLE_WORDS.sub(" ", str(text or "").lower().replace("-", " ")).strip()
+    key = " ".join(key.split())
+    if key in ORIGIN_LABELS:
+        return ORIGIN_LABELS[key]
+    by_name = {c.lower(): c for c in countries}
+    if key in by_name:
+        return by_name[key], None
+    raise ValueError(f"unknown country or cuisine {text!r}; try one of: {', '.join(list(countries)[:20])}")
+
+
+MIN_POOL = 50   # recipes needed before a narrower, surer set is used on its own
+
+
+def _place_word(text: object) -> str:
+    """'Cajun-style food' -> 'cajun' (the word to look for in tags and names)."""
+    return " ".join(_STYLE_WORDS.sub(" ", str(text or "").lower().replace("-", " ")).split())
+
+
+def _origin_pool(recipes: pd.DataFrame, country: str, region: str | None, word: str, count: int) -> pd.DataFrame:
+    """Recipes from `country`, the surest first.
+
+    Origins written by the source ("labeled") are used alone when there are MIN_POOL of them; otherwise
+    the origin model's guesses ("predicted") with confidence 0.9 or more join them. Within that, recipes
+    from the region (Louisiana for "cajun"), else those whose cuisine tag or name holds the word asked for
+    ("thai", "cajun"), are used when there are enough to choose from.
+    """
+    pool = recipes[recipes["origin_country"] == country]
+    if "origin_source" in pool.columns:
+        labeled = pool[pool["origin_source"] == "labeled"]
+        sure = (pool["origin_source"] == "labeled") | (pool.get("origin_confidence", 0) >= 0.9)
+        pool = labeled if len(labeled) >= MIN_POOL else pool[sure]
+    narrower = []
+    if region and "origin_region" in pool.columns:
+        narrower.append(pool[pool["origin_region"] == region])
+    if word and word != country.lower():
+        text = pool["cuisine_raw"].fillna("").astype(str) + " " + pool["recipe_name"].fillna("").astype(str) \
+            if "cuisine_raw" in pool.columns else pool["recipe_name"].fillna("").astype(str)
+        narrower.append(pool[text.str.lower().str.contains(rf"\b{re.escape(word)}\b", regex=True)])
+    for subset in narrower:
+        if len(subset) >= max(count * 5, 10):
+            return subset
+    return pool
+
+
 def recommend_tool(recipes: pd.DataFrame, profile: UserProfile, max_results: int = MAX_RESULTS) -> Tool:
-    """Recipe ideas that already fit the profile (recommend.baseline_recommend, then the gate again)."""
+    """Recipe ideas that already fit the profile (recommend.baseline_recommend, then the gate again).
+
+    The model may ask for a cuisine family ("Asian") or a country or region ("Thai", "cajun"): a live CrewAI
+    trial asked for "Thai-style" and, with families only, got an Indian curry. A country filters on the
+    recipes' origin_country (and origin_region for a region such as Louisiana), then the family is ignored.
+    """
     from .recommend import baseline_recommend
 
     families = sorted(str(f) for f in recipes["cuisine_family"].dropna().unique())
+    has_origin = "origin_country" in recipes.columns
+    countries = (recipes["origin_country"][recipes["origin_country"] != "Unknown"].value_counts().index.tolist()
+                 if has_origin else [])
 
-    def run(cuisine: object = None, calories: object = None, how_many: object = 3, **_ignored: object) -> list[dict]:
+    def run(cuisine: object = None, country: object = None, calories: object = None, how_many: object = 3,
+            **_ignored: object) -> list[dict]:
         target = float(str(calories)) if calories not in (None, "") else (profile.calories_per_meal or 500.0)
         family = None if str(cuisine or "").strip().lower() in ("", "any", "none") else str(cuisine)
         count = max(1, min(int(float(str(how_many or 3))), max_results))
-        found = baseline_recommend(recipes, cuisine_family=family, calorie_target=target,
+        pool = recipes
+        if family and family.lower() not in {f.lower() for f in families} and has_origin and not country:
+            country, family = family, None   # small models put places in "cuisine" ("Cajun"): read it as a place
+        if str(country or "").strip().lower() not in ("", "any", "none"):
+            if not has_origin:
+                raise ValueError("these recipes have no country of origin; use cuisine instead")
+            place, region = resolve_origin(country, countries)
+            pool = _origin_pool(recipes, place, region, _place_word(country), count)
+            family = None
+        found = baseline_recommend(pool, cuisine_family=family, calorie_target=target,
                                    vegetarian_only=profile.vegetarian, vegan_only=profile.vegan,
                                    avoid=profile.avoid, diets=profile.diets, top_n=count)
-        ideas: list[dict[str, Any]] = [{"name": str(r["recipe_name"]), "cuisine": str(r["cuisine_family"]),
-                  "calories": round(float(r["calories_per_serving"])),
-                  "ingredients": [str(i) for i in list(r["ingredient_list"])[:15]]} for _, r in found.iterrows()]
+        ideas: list[dict[str, Any]] = [
+            {"name": str(r["recipe_name"]), "cuisine": str(r["cuisine_family"]),
+             **({"country": str(r["origin_country"])} if has_origin else {}),
+             "calories": round(float(r["calories_per_serving"])),
+             "ingredients": [str(i) for i in list(r["ingredient_list"])[:15]]} for _, r in found.iterrows()]
         return [i for i in ideas if check_recipe(i["ingredients"], i["name"], profile)["passed"]]
 
+    properties: dict[str, Any] = {
+        "cuisine": {"type": "string", "enum": ["any", *families], "description": "Cuisine family, or any"},
+        "calories": {"type": "number", "description": "Target calories per serving"},
+        "how_many": {"type": "integer", "description": f"How many recipes, 1 to {max_results}"}}
+    if has_origin:
+        properties["country"] = {"type": "string", "description": "A country or regional style when the user "
+                                 "names one, for example 'Thailand', 'Thai', 'Mexican' or 'Cajun'"}
     return Tool(
         name="recommend_recipes",
-        description="Find recipes that already fit the user's food restrictions. Returns name, cuisine, "
-                    "calories per serving and ingredients.",
-        parameters={"type": "object", "properties": {
-            "cuisine": {"type": "string", "enum": ["any", *families], "description": "Cuisine family, or any"},
-            "calories": {"type": "number", "description": "Target calories per serving"},
-            "how_many": {"type": "integer", "description": f"How many recipes, 1 to {max_results}"}}},
+        description="Find recipes that already fit the user's food restrictions, by cuisine family or by "
+                    "country. Returns name, cuisine, country, calories per serving and ingredients.",
+        parameters={"type": "object", "properties": properties},
         run=run,
     )
 
@@ -118,6 +200,11 @@ def calories_tool(usda: pd.DataFrame, portions: Mapping[int, Mapping[str, float]
             raise ValueError("ingredient_lines is empty")
         count = float(str(servings)) if servings not in (None, "", 0) else None
         result = recipe_calories(lines, count, fdc_of, kcal_of, portions)
+        if result["counted_share"] < MIN_COUNTED_SHARE:   # a live model sent names without amounts: "0 kcal"
+            return {"kcal_per_serving": None, "kcal_total": None,
+                    "share_of_lines_counted": round(result["counted_share"], 2),
+                    "note": "Too few lines have amounts to count calories; send lines like '2 cups rice' "
+                            "(a recipe from recommend_recipes already has its calories)."}
         per_serving = result["kcal_per_serving"]
         budget = profile.calories_per_meal
         return {"kcal_per_serving": None if per_serving is None else round(per_serving),

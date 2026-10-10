@@ -36,6 +36,34 @@ def test_recommend_keeps_the_profile_whatever_the_model_asks():
     assert tool.schema()["function"]["parameters"]["properties"]["cuisine"]["enum"] == ["any", "Asian"]
 
 
+def test_resolve_origin_understands_how_people_say_places():
+    countries = ["United States", "Thailand", "Mexico"]
+    assert agent_tools.resolve_origin("Thai-style", countries) == ("Thailand", None)
+    assert agent_tools.resolve_origin("mexican food", countries) == ("Mexico", None)
+    assert agent_tools.resolve_origin("Cajun", countries) == ("United States", "Louisiana")
+    assert agent_tools.resolve_origin("THAILAND", countries) == ("Thailand", None)
+    with pytest.raises(ValueError, match="Thailand"):
+        agent_tools.resolve_origin("Atlantis", countries)
+
+
+def test_country_requests_prefer_sure_origins_and_the_word_asked_for():
+    rows: list[dict[str, object]] = []
+    for k in range(60):   # 60 source-labeled Thai recipes, 10 of them tagged "thai"
+        rows.append({"recipe_name": f"dish {k}", "cuisine_raw": "thai" if k < 10 else "asian", "origin_source": "labeled",
+                     "origin_confidence": 1.0, "origin_country": "Thailand", "calories_per_serving": 500.0 + k})
+    rows.append({"recipe_name": "steamer clams", "cuisine_raw": "caribbean", "origin_source": "predicted",
+                 "origin_confidence": 0.79, "origin_country": "Thailand", "calories_per_serving": 600.0})
+    for row in rows:
+        row.update(cuisine_family="Asian", ingredient_list=["rice"], nutrition_plausible=True, contains_peanut=False,
+                   halal_friendly=True, vegetarian=True, vegan=True, contains_gluten=False)
+    table = pd.DataFrame(rows)
+    tool = agent_tools.recommend_tool(table, HALAL_NO_PEANUT)
+    found = [d["name"] for d in tool.run(country="Thai-style", calories=600, how_many=2)]
+    assert found == ["dish 9", "dish 8"]   # tagged "thai", closest to 600 kcal; never the unsure clams
+    assert "country" in tool.schema()["function"]["parameters"]["properties"]
+    assert [d["name"] for d in tool.run(cuisine="Thai", calories=600, how_many=1)] == ["dish 9"]   # a place in "cuisine"
+
+
 def test_calories_compares_with_the_budget():
     usda = pd.DataFrame({"ingredient": ["rice", "chicken breast"], "fdc_id": [1, 2], "kcal_100g": [360.0, 120.0]})
     portions = {1: {"cup": 185.0}, 2: {}}
@@ -47,6 +75,8 @@ def test_calories_compares_with_the_budget():
     assert tool.run(ingredient_lines="2 cups rice", servings=None)["kcal_per_serving"] is None
     with pytest.raises(ValueError):
         tool.run(ingredient_lines=[])
+    names_only = tool.run(ingredient_lines=["butter", "garlic", "thyme", "2 cups rice"], servings=1)
+    assert names_only["kcal_per_serving"] is None and "amounts" in names_only["note"]   # never "0 kcal"
 
 
 def test_where_to_buy_warns_about_the_ingredient_itself():

@@ -147,6 +147,8 @@ anonymous usage data by default: set `CREWAI_DISABLE_TELEMETRY=true` and `OTEL_S
   `crewai` goes in `config/requirements-app.txt`, not in the notebooks' requirements.
 - **Speed:** about 90 s per crew run on a laptop CPU. The app should show progress ("Chef is writing ...")
   and cache answers.
-- **Known gaps to fix while building:** the recipe tool knows cuisine families, not countries ("Thai-style" gave
-  an Indian curry): add an `origin_country` filter (notebook 01 has the column); limit each agent's steps
-  (`max_iter`) so a model cannot loop.
+- **Fixed after the trial:** `recommend_recipes` takes a country or regional style ("Thai", "Cajun", "Tex-Mex",
+  also when a model puts it in the cuisine field); it prefers origins written by the source over the origin
+  model's guesses and recipes tagged with the word asked for. Live: both models now get Thai dishes for
+  "Thai-style". `count_calories` no longer answers "0 kcal" for names without amounts (a model sent those).
+- **Still to do while building:** limit each agent's steps (`max_iter`) so a model cannot loop.
