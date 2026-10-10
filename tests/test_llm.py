@@ -163,19 +163,35 @@ def test_choose_model_falls_back_to_rules(monkeypatch):
     assert choice["kind"] == "rules" and choice["model"] is None and "Colab" in choice["reason"]
 
 
-def test_recommend_tool_keeps_the_profile_whatever_the_model_asks():
-    import pandas as pd
-    recipes = pd.DataFrame({
-        "recipe_name": ["peanut noodles", "lemon rice", "pork belly"],
-        "cuisine_family": ["Asian", "Asian", "Asian"],
-        "ingredient_list": [["noodles", "peanuts"], ["rice", "lemon"], ["pork belly", "soy sauce"]],
-        "calories_per_serving": [500.0, 450.0, 520.0], "nutrition_plausible": [True] * 3,
-        "contains_peanut": [True, False, False], "contains_pork": [False, False, True],
-        "vegetarian": [True, True, False], "vegan": [True, True, False], "contains_gluten": [True, False, True]})
-    tool = llm.recommend_tool(recipes, UserProfile(avoid=("contains_peanut", "contains_pork")))
-    found = tool.run(cuisine="Asian", calories="500", how_many="9", avoid=[])   # the model tries to drop the rules
-    assert [d["name"] for d in found] == ["lemon rice"]
-    assert tool.schema()["function"]["parameters"]["properties"]["cuisine"]["enum"] == ["any", "Asian"]
+HALAL_NO_PEANUT = UserProfile(avoid=("contains_peanut",), diets=("halal_friendly",), calories_per_meal=600)
+
+
+def test_guard_removes_unsafe_suggestions_but_keeps_warnings_and_swaps():
+    answer = ("| Substitute | Why |\n|---|---|\n| **Chicken (or pork) strips** | Smoky |\n| **Turkey bacon** | Close |\n"
+              "Instead of bacon, use turkey bacon. Try pork‑belly bao! Pancetta is not halal.")
+    guard = llm.guard_answer(answer, HALAL_NO_PEANUT, "What can I use instead of bacon?")
+    assert guard["changed"] and guard["removed"] == ["| **Chicken (or pork) strips** | Smoky |", "Try pork‑belly bao!"]
+    assert "Turkey bacon" in guard["answer"] and "Pancetta is not halal." in guard["answer"]
+    assert not llm.guard_answer("Lemon rice works; it does not contain peanuts.", HALAL_NO_PEANUT)["changed"]
+
+
+def test_guard_replaces_a_yes_to_forbidden_food_in_the_question():
+    question = "Can I eat this: 200 g spaghetti, 4 oz pancetta, 2 eggs?"
+    guard = llm.guard_answer("Sure, about 386 kcal, enjoy!", HALAL_NO_PEANUT, question)
+    assert guard["answer"].startswith("No:") and "pancetta (halal)" in guard["answer"]
+    kept = llm.guard_answer("You cannot eat this: pancetta is pork.", HALAL_NO_PEANUT, question)
+    assert kept["answer"] == "You cannot eat this: pancetta is pork."
+    allergic = llm.guard_answer("Try lemon rice.", HALAL_NO_PEANUT, "I'm allergic to peanuts, any ideas?")
+    assert not allergic["changed"]
+
+
+def test_ask_agent_tells_the_model_the_rules_and_screens_the_answer(monkeypatch):
+    sent = fake_ollama(monkeypatch, replies=[{"role": "assistant", "content": "Try Thai peanut noodles! Or lemon rice."}])
+    result = llm.ask_agent("Any ideas?", HALAL_NO_PEANUT, [], "llama3.2:latest")
+    assert "never eats: peanut" in sent[0]["messages"][0]["content"] and "follows: halal" in sent[0]["messages"][0]["content"]
+    assert result["raw_answer"].startswith("Try Thai peanut") and "peanut noodles" not in result["answer"]
+    assert result["guard"]["removed"] == ["Try Thai peanut noodles!"]
+    assert llm.profile_text(UserProfile()) == "The user has no food rules."
 
 
 if __name__ == "__main__":

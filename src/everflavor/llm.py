@@ -6,8 +6,8 @@ Antigravity on a computer where Ollama is installed and running; in Colab, or wh
 not running, `ollama_status` says so and the agents fall back to the rule-based tools
 (recommend.py). Nothing here is imported by the notebooks, so Colab is never affected.
 
-The model only proposes. Every tool gets the user's profile from the code (`safety_tool`,
-`recommend_tool`), never from the model's arguments. For a recipe the code already holds,
+The model only proposes. Every tool gets the user's profile from the code (`safety_tool` here, the
+others in agent_tools.py), never from the model's arguments. For a recipe the code already holds,
 `check_and_explain` runs the gate itself and lets the model only explain a failure: a model
 can drop lines when it copies a recipe into a tool (seen in a live test), and its words are
 replaced unless they match the verdict (`faithful`). `choose_model` is the one place that picks a model.
@@ -30,14 +30,16 @@ __all__ = [
     "OLLAMA_URL",
     "TOOL_MODELS",
     "Tool",
+    "ask_agent",
     "chat",
     "check_and_explain",
     "choose_model",
     "faithful",
+    "guard_answer",
     "ollama_status",
     "ollama_url",
     "pick_model",
-    "recommend_tool",
+    "profile_text",
     "run_tools",
     "safety_tool",
     "tool_arguments",
@@ -351,31 +353,108 @@ def choose_model(url: str | None = None, preferred: Sequence[str] = TOOL_MODELS)
     return {"kind": "rules", "model": None, "reason": status["reason"]}
 
 
-def recommend_tool(recipes: Any, profile: UserProfile, max_results: int = 5) -> Tool:
-    """Recipe ideas as a tool. Like the safety tool, the restrictions come from the profile, not the model."""
-    from .recommend import baseline_recommend
+# ---------------------------------------------------------------- the model's final words are screened too
+# Live test with all five tools (October 2026): asked "Can I eat this: spaghetti, pancetta, eggs?" for a
+# halal user, granite4.1:3b counted calories instead of checking and answered "you can comfortably include
+# ... pancetta"; asked for bacon swaps it added "(or pork) strips", which the tool had left out. Tools are
+# safe, but the model's own sentences are not, so every final answer goes through `guard_answer`.
+# cspell:disable
+_NOT_EATING = re.compile(r"\b(?:instead of|in place of|replac(?:e|ing)|substitut(?:e|ing) for|swap(?:ping)? out|"
+                         r"without|allergic to|avoid(?:ing)?|can.t eat|cannot eat|don.t eat|do not eat|free of|"
+                         r"(?:does not|doesn.t|do not|don.t) contain|no)\s+(?:the |your |any |a )?"
+                         r"[a-z][a-z'-]*(?: [a-z][a-z'-]*)?|\b[a-z]+-free\b", re.IGNORECASE)
+# cspell:enable
+_SENTENCE_END = re.compile(r"(?<=[.!?])\s+")
+# Models write typographic dashes and spaces ("pork‑based", "500 kcal"): plain ones before checking
+_PLAIN = str.maketrans({c: "-" for c in "‐‑‒–—−"} | {c: " " for c in "   "})
 
-    families = sorted(str(f) for f in recipes["cuisine_family"].dropna().unique())
 
-    def run(cuisine: object = None, calories: object = None, how_many: object = 3, **_ignored: object) -> list[dict]:
-        # _ignored: restrictions the model adds on its own never count; the profile decides
-        target = float(str(calories)) if calories not in (None, "") else (profile.calories_per_meal or 500.0)
-        family = None if str(cuisine or "").strip().lower() in ("", "any", "none") else str(cuisine)
-        count = max(1, min(int(float(str(how_many or 3))), max_results))
-        found = baseline_recommend(recipes, cuisine_family=family, calorie_target=target,
-                                   vegetarian_only=profile.vegetarian, vegan_only=profile.vegan,
-                                   avoid=profile.avoid, diets=profile.diets, top_n=count)
-        return [{"name": str(r["recipe_name"]), "cuisine": str(r["cuisine_family"]),
-                 "calories": round(float(r["calories_per_serving"])),
-                 "ingredients": [str(i) for i in list(r["ingredient_list"])[:15]]} for _, r in found.iterrows()]
+def _pieces(text: str) -> list[str]:
+    """Lines, and sentences within a line (a table row stays one piece)."""
+    out: list[str] = []
+    for line in str(text).splitlines():
+        out += [line] if line.lstrip().startswith("|") else [s for s in _SENTENCE_END.split(line) if s.strip()]
+    return out
 
-    return Tool(
-        name="recommend_recipes",
-        description="Find recipes that already fit the user's food restrictions. Returns name, cuisine, "
-                    "calories per serving and ingredients.",
-        parameters={"type": "object", "properties": {
-            "cuisine": {"type": "string", "enum": ["any", *families], "description": "Cuisine family, or any"},
-            "calories": {"type": "number", "description": "Target calories per serving"},
-            "how_many": {"type": "integer", "description": f"How many recipes, 1 to {max_results}"}}},
-        run=run,
-    )
+
+def _forbidden(piece: str, profile: UserProfile) -> list[dict]:
+    """Problems the safety gate finds in a piece of text, ignoring foods named as left out ("instead of bacon")."""
+    return check_recipe([_NOT_EATING.sub(" ", piece.translate(_PLAIN))], "", profile)["problems"]
+
+
+def profile_text(profile: UserProfile) -> str:
+    """The user's rules in words, for the model's instructions."""
+    parts = []
+    if profile.avoid:
+        parts.append("never eats: " + ", ".join(_rule_name(f) for f in profile.avoid))
+    if profile.diets:
+        parts.append("follows: " + ", ".join(_rule_name(d) for d in profile.diets))
+    if profile.vegan or profile.vegetarian:
+        parts.append("is " + ("vegan" if profile.vegan else "vegetarian"))
+    if profile.calories_per_meal:
+        parts.append(f"wants about {profile.calories_per_meal:.0f} calories per meal")
+    return "The user " + "; ".join(parts) + "." if parts else "The user has no food rules."
+
+
+def guard_answer(answer: str, profile: UserProfile, question: str = "") -> dict:
+    """Screen a model's final answer with the safety gate, sentence by sentence.
+
+    - A sentence (or table row) that names a food the user must not eat is removed, unless it is a
+      warning ("not halal because of the pancetta") or names the food as left out ("instead of bacon").
+    - When the question itself names such a food (outside "instead of ...") and the answer does not
+      warn, the answer is replaced by the gate's verdict on the question.
+
+    Returns:
+        {"answer", "changed" (bool), "removed" (the sentences taken out), "reason"}.
+    """
+    kept, removed = [], []
+    for line in str(answer).splitlines():
+        if line.lstrip().startswith("|"):
+            pieces, joiner = [line], ""
+        else:
+            pieces, joiner = [s for s in _SENTENCE_END.split(line) if s.strip()] or [line], " "
+        good = []
+        for piece in pieces:
+            if _forbidden(piece, profile) and not _WARNING.search(piece):
+                removed.append(piece.strip())
+            else:
+                good.append(piece)
+        if good or not pieces:
+            kept.append(joiner.join(good))
+    text = "\n".join(kept).strip()
+    result = {"answer": text, "changed": bool(removed), "removed": removed,
+              "reason": "removed sentences naming food the user must not eat" if removed else ""}
+    asked = [p for p in _pieces(question) if _forbidden(p, profile)]
+    if asked and not _WARNING.search(text):
+        report = check_recipe(asked, "", profile)
+        found = "; ".join(f"{', '.join(map(str, p['matched'])) or _rule_name(p['flag'])} ({_rule_name(p['rule'])})"
+                          for p in report["problems"])
+        result.update(answer=f"No: the safety check found food that breaks your rules: {found}.", changed=True,
+                      reason="the question names food the user must not eat and the answer did not warn")
+    elif removed:
+        result["answer"] = (text + "\n\n" if text else "") + \
+            "(Some sentences were left out: they named food outside your rules.)"
+    return result
+
+
+AGENT_RULES = ("You are EverFlavor's cooking assistant. {profile} Use the tools for every fact: recipes, "
+               "calories, where to buy, substitutions and safety. Whenever the user asks whether they can eat "
+               "something, call check_recipe with every ingredient line. Answer briefly from the tool results only: "
+               "never add dishes, ingredients, brands or stores the tools did not return.")
+
+
+def ask_agent(question: str, profile: UserProfile, tools: Sequence[Tool], model: str, url: str | None = None,
+              history: Sequence[Mapping] = (), max_rounds: int = 4, timeout: float = 180) -> dict:
+    """One question to a local model with the tools, its answer screened by `guard_answer`.
+
+    The user's rules go into the model's instructions (so it picks the right tools) and into every tool
+    (so results fit them); the answer is screened again because the model's own sentences can add food.
+
+    Returns:
+        run_tools' result with "answer" screened, plus "raw_answer" and "guard" (guard_answer's report).
+    """
+    messages = [{"role": "system", "content": AGENT_RULES.format(profile=profile_text(profile))},
+                *[dict(m) for m in history], {"role": "user", "content": question}]
+    result = run_tools(messages, model, tools, url=url, max_rounds=max_rounds, timeout=timeout)
+    guard = guard_answer(result["answer"], profile, question)
+    return {**result, "raw_answer": result["answer"], "answer": guard["answer"], "guard": guard}

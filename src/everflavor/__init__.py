@@ -26,6 +26,7 @@ Modules:
     calories     calorie calculator: ingredient lines -> grams -> USDA calories (Week 7)
     safety       user profile and the safety gate for recipes the agents write
     llm          local models through Ollama (VS Code / Antigravity only, never Colab)
+    agent_tools  the agents' tools: recipes, calories, where to buy, substitutions
     seasons      meat supply season and pasture season (notebook 08)
 
 Conventions (Google Python Style Guide, PEP 257):

@@ -81,6 +81,29 @@ with pork belly and peanuts" for a halal, no-peanut user, granite called `recomm
 returned passed the gate (the restrictions come from the profile, so asking for pork and peanuts changed
 nothing). 20-40 s per answer, because the tool's results are long.
 
+**Round 4: all five tools** (`agent_tools.py`: check_recipe, recommend_recipes, count_calories,
+where_to_buy, find_substitutions; six questions per model, halal and no-peanut user):
+
+| Model | Right tool, first try | Right tool with the user's rules in its instructions |
+|---|---|---|
+| `granite4.1:3b` | 5 / 6 | 6 / 6 |
+| `llama3.2` | 6 / 6 | 6 / 6 |
+
+Without the rules in its instructions, granite answered "Can I eat spaghetti, pancetta, eggs?" with calories
+and "you can comfortably include ... pancetta", and added "(or pork) strips" to the bacon swaps the tool had
+filtered. **Changes:** `ask_agent` puts the user's rules in the model's instructions, and `guard_answer` checks
+every sentence of the final answer with the safety gate: a sentence naming a food the user must not eat is
+removed unless it warns or names the food as left out ("instead of bacon"); if the question names such a food
+and the answer does not warn, the gate's verdict replaces the answer. Both failures above are now caught.
+Still open: models add stores the tools did not return ("Whole Foods") - not a safety risk, but the app
+should list tool results, not the model's words, for stores.
+
+**Round 5: a CrewAI crew** (Chef, then Sourcing; local `granite4.1:3b`; our tools wrapped as CrewAI
+tools; telemetry off): finished in 89 s with a structured recipe (name, servings, ingredient lines with
+amounts, steps) that passes the gate. It asked for "Thai-style" and got an Indian curry gravy (the recipe
+tool knows cuisine families, not countries), and Sourcing named stores the tool did not return. See
+"CrewAI" below.
+
 Test scripts: run against a live Ollama, so they are not part of `tests/` (those use fake answers).
 
 ## Steps
@@ -89,9 +112,10 @@ Test scripts: run against a live Ollama, so they are not part of `tests/` (those
 |---|---|---|
 | 1 | `llm.py`: status, model choice, chat, tool loop, safety tool | Done |
 | 1b | Code decides, model explains: `check_and_explain`, `faithful`, `verdict_text` | Done (live tests above) |
-| 2 | The other agent tools as `Tool`s: recommend (done), calories, where to buy, substitutions | Recommend done; rest next |
+| 2 | The other agent tools as `Tool`s: recommend, calories, where to buy, substitutions (`agent_tools.py`) | Done |
+| 2b | Screen every final answer: `guard_answer`, one entry point `ask_agent` | Done (round 4) |
 | 3 | Choose the model in one place: `choose_model` (Ollama, else rules; hosted key later) | Done |
-| 4 | CrewAI agents on the same choice (`LLM(model="ollama/granite4.1:3b", base_url=ollama_url())`) | Roadmap step 6 |
+| 4 | CrewAI agents on the same choice (`LLM(model="ollama/granite4.1:3b", base_url=ollama_url())`) | Trial done (round 5); build next |
 | 5 | Starter app: show which model answered, and always show the gate's result, not the model's words | Done |
 | 6 | Evaluation: the same recipe set on each model; tool-call rate, gate agreement, time | Rounds 1-3 done; repeat for each new model |
 
@@ -100,3 +124,29 @@ Test scripts: run against a live Ollama, so they are not part of `tests/` (those
 - **Yes:** `llm.py`, its tests, this plan.
 - **No:** the models (2-5 GB each, downloaded with `ollama pull`), Ollama itself, and `config/.env`.
   Ollama needs no key, so there is nothing secret to store or encrypt.
+
+## CrewAI
+
+**Trial (October 2026):** CrewAI 1.15 installs on Windows ARM with Python 3.12 (141 packages, no litellm
+needed for Ollama). A two-agent crew (Chef, then Sourcing) on `granite4.1:3b` finished in 89 s with a valid
+structured recipe; the same crew on `llama3.2` had not finished after 10 minutes (stopped). CrewAI sends
+anonymous usage data by default: set `CREWAI_DISABLE_TELEMETRY=true` and `OTEL_SDK_DISABLED=true`.
+
+**Design for the build (roadmap step 6):**
+
+| Agent | Job | Tools | What the code does around it |
+|---|---|---|---|
+| Nutritionist & Preference | Turn the chat into a request (cuisine, calories, dish idea) | none | The profile comes from the app's form (`UserProfile`), never from the model |
+| Chef | Write one recipe as structured data (name, servings, ingredient lines with grams, steps) | recommend_recipes, find_substitutions, count_calories, check_recipe | `check_and_explain` on the Chef's own lines; a failed recipe goes back to the Chef with the problems (at most 2 retries), then the user sees a safe fallback from `recommend_recipes` |
+| Sourcing | Where to buy the special ingredients | where_to_buy | The app lists the tool's brands and stores itself; the model only writes the intro (models invent stores) |
+
+- **One model choice:** `choose_model()` gives `LLM(model=f"ollama/{model}", base_url=ollama_url())`; a hosted
+  model (Groq, Claude) is the fallback once a key is in `config/.env`; without either, the app uses the rules.
+- **Every final answer** goes through `guard_answer` before the user sees it.
+- **Not in Colab:** CrewAI and Ollama run in VS Code and Antigravity; the notebooks never import them, and
+  `crewai` goes in `config/requirements-app.txt`, not in the notebooks' requirements.
+- **Speed:** about 90 s per crew run on a laptop CPU. The app should show progress ("Chef is writing ...")
+  and cache answers.
+- **Known gaps to fix while building:** the recipe tool knows cuisine families, not countries ("Thai-style" gave
+  an Indian curry): add an `origin_country` filter (notebook 01 has the column); limit each agent's steps
+  (`max_iter`) so a model cannot loop.

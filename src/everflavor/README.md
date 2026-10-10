@@ -28,7 +28,8 @@ add `src/` to the path for you.
 | | `seasons.py` | Meat supply season and pasture season (notebook 08) |
 | | `freshness.py` | Freshness photos: labels, duplicates, split, training (notebook 05) |
 | **Agents and app** | `recommend.py` | Baseline recommender and its safety filter |
-| | `llm.py` | Local models through Ollama (VS Code / Antigravity only) |
+| | `llm.py` | Local models through Ollama (VS Code / Antigravity only); the answer guard |
+| | `agent_tools.py` | The agents' tools: recipes, calories, where to buy, substitutions (profile from code) |
 | **Helpers** | `checks.py`, `environment.py`, `progress.py`, `charts.py`, `reporting.py` | Input checks, keys, progress bars, charts, tables |
 
 ## Rules for this code
