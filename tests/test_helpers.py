@@ -34,7 +34,7 @@ from everflavor.environment import (
     print_download_checks,
     short_path,
 )
-from everflavor.features import TextFeatures
+from everflavor.features import TextFeatures, balanced_weights, results_by_group
 from everflavor.flags import FLAG_COLUMNS
 from everflavor.nutrition import (
     add_foodcom_macros,
@@ -243,6 +243,24 @@ def test_text_features_learn_the_vocabulary_from_training_rows_only():
     assert fitted.shape[0] == 3 and transformed.shape == (1, fitted.shape[1])
     assert "saffron" not in features.ingredients.vocabulary_      # never learned from other rows
     assert transformed.nnz > 0                                    # "rice" is known
+
+
+def test_balanced_weights_favor_small_groups_within_a_cap():
+    groups = pd.Series(["US"] * 96 + ["Peru"] * 3 + ["Laos"])
+    weights = balanced_weights(groups, cap=10.0)
+    assert weights.mean() == pytest.approx(1.0)
+    assert weights[0] < weights[96] == weights[99]                # Peru and Laos both reach the cap
+    assert weights[96] / weights[0] == pytest.approx(10 / (100 / (3 * 96)))   # cap / the US's own weight
+    small = balanced_weights(pd.Series(["US"] * 90 + ["Peru"] * 10))
+    assert small[90] / small[0] == pytest.approx(9.0)                         # under the cap: fully balanced
+    assert np.allclose(balanced_weights(pd.Series(["a", "b"] * 5)), 1.0)
+
+
+def test_results_by_group_skip_small_groups():
+    groups = pd.Series(["US"] * 40 + ["Peru"] * 35 + ["Laos"] * 5)
+    errors = np.r_[np.full(40, 0.1), np.full(35, 0.3), np.full(5, 0.9)]
+    table = results_by_group(groups, lambda p: float(np.median(errors[p])), min_rows=30, name="median error")
+    assert table.index.tolist() == ["US", "Peru"] and table.loc["Peru", "median error"] == pytest.approx(0.3)
 
 
 # ------------------------------------------------------------------ nutrition

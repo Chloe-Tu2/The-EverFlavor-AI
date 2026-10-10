@@ -75,9 +75,22 @@ def test_ingredients_match_hand_checked_then_raw_generic_foods():
 
 
 def test_processed_foods_lose_unless_the_name_asks_for_them():
-    foods = pd.DataFrame({"description": ["Lamb, cured, smoked", "Lamb, shoulder, whole, separable lean and fat, raw"]})
-    assert match_ingredients(["lamb"], foods)["lamb"][0] == 1               # not the cured, smoked one
-    assert match_ingredients(["smoked cured lamb"], foods)["smoked cured lamb"][0] == 0
+    foods = pd.DataFrame({"description": ["Goat, cured, smoked", "Goat, shoulder, whole, separable lean and fat, raw"]})
+    assert match_ingredients(["goat"], foods)["goat"][0] == 1               # not the cured, smoked one
+    assert match_ingredients(["smoked cured goat"], foods)["smoked cured goat"][0] == 0
+
+
+def test_every_word_forms_and_brands_count():
+    # hand-check of the top matches (2026-10-10): tomato paste had become almond paste, mint an After Eight candy
+    foods = pd.DataFrame({"description": [
+        "Nuts, almond paste", "Tomato products, canned, paste", "Milk, dry, whole", "Milk, fluid, whole",
+        "Candies, NESTLE, AFTER EIGHT Mints", "Spearmint leaves, raw", "Pasta, dry, enriched",
+        "Pasta, cooked, enriched"]})
+    matches = match_ingredients(["tube tomato paste", "fresh whole milk", "spearmint leaf", "orzo pasta"], foods)
+    assert {name: foods["description"][row] for name, (row, _) in matches.items()} == {
+        "tube tomato paste": "Tomato products, canned, paste", "fresh whole milk": "Milk, fluid, whole",
+        "spearmint leaf": "Spearmint leaves, raw", "orzo pasta": "Pasta, dry, enriched"}
+    assert "curry leaf" not in match_ingredients(["curry leaf"], pd.DataFrame({"description": ["Drumstick leaves, raw"]}))
 
 
 def test_ingredient_table_lists_the_most_used_first():

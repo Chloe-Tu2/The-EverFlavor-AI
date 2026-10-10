@@ -13,10 +13,10 @@ python tests/test_safety.py                # also works
 | File | Checks |
 |---|---|
 | `test_everflavor.py` | Flags, diets, ingredient names: what each shared function promises |
-| `test_helpers.py` | Keys, reporting, charts, features, the recommender |
+| `test_helpers.py` | Keys, reporting, charts, features, training weights, the recommender |
 | `test_pipeline.py` | `run_pipeline` end to end on tiny tables shaped like each source |
 | `test_sources.py` | Download helpers, with fake network answers |
-| `test_matching_and_review.py` | USDA matching and the flag review tools |
+| `test_matching_and_review.py` | USDA matching (every word counts, no dried or branded food unless asked) and the flag review tools |
 | `test_knowledge.py` | Notebook 04's tables, and that every notebook lists all shared modules |
 | `test_stores.py` | Notebook 03: places, products, the Google key never shown |
 | `test_freshness.py` | Notebook 05: labels, duplicates, split, license check |

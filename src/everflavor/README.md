@@ -17,8 +17,8 @@ add `src/` to the path for you.
 | | `ingredients.py` | Cleaning and normalizing ingredient names |
 | | `cuisine.py` | Cuisine families, country and region of origin |
 | | `parsing.py` | Lists and labels stored as text |
-| | `features.py` | Text features shared by the models |
-| **Food knowledge** | `nutrition.py` | Nutrition per serving, plausibility, USDA matching |
+| | `features.py` | Text features shared by the models; training weights by group (`balanced_weights`) and results by group (`results_by_group`) |
+| **Food knowledge** | `nutrition.py` | Nutrition per serving, plausibility, USDA matching (hand-checked list, then automatic matches that must cover every word of the name) |
 | | `nutrition_quality.py` | Macro labels, nutrient-rich ingredients (notebook 07) |
 | | `calories.py` | Calorie calculator: ingredient lines to grams to calories |
 | | `cooking.py` | Cooking methods and fats (notebook 02) |

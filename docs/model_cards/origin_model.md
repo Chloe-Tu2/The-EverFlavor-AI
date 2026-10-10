@@ -29,7 +29,17 @@ Predicts the country a recipe comes from (`origin_country`) for recipes whose so
 
 By predicted country at 70%: United States 95% right, Morocco 92%, India 91%, Greece 90%, Spain 90%, Thailand 89%, Italy 87%, Japan 87%, China 84%, Canada 83%, United Kingdom 82%, France 81%, Mexico 79%.
 
-**In the full table:** 121,450 recipes labeled by their source, 109,259 predicted, 61,046 `Unknown`.
+By real country at 70% (share of its validation recipes given the right country): Mexico 99%, Morocco 95%, India
+88%, Italy 84%, Thailand 84%, China 82%, Greece 74%, Japan 72%, United States 68%, Spain 60%, France 57%, Germany 51%,
+United Kingdom 47%, Australia 17%, Canada 8%. Canadian and Australian recipes look American or British, so they are
+rarely recognized.
+
+**Weighting tested, not used (2026-10-10):** giving smaller countries more weight (`balanced_weights`, capped at 2, 3
+or 10 times an average recipe) dropped the top-guess accuracy from 81% to about 70%, the recipes given a country from
+76% to 55%, and the United States recipes found from 68% to about 20% (most were labeled Mexican, Italian or French
+instead): more wrong countries, which the limitations below warn are hurtful.
+
+**In the full table:** 121,450 recipes labeled by their source, 109,051 predicted, 61,254 `Unknown`.
 
 ## Limitations
 
@@ -47,4 +57,6 @@ By predicted country at 70%: United States 95% right, Morocco 92%, India 91%, Gr
 
 - Add more labeled recipes for under-represented countries (RecipeDB covers 74 countries).
 - Calibrate the confidence per country instead of one global threshold.
+- Add Canadian and Australian recipes (or merge them with United States / United Kingdom), since the model cannot
+  tell them apart today.
 - Try text embeddings, and predict regions where enough labeled examples exist.

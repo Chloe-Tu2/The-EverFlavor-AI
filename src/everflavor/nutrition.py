@@ -24,6 +24,7 @@ __all__ = [
     "HF_NUTRIENT_CODES",
     "INGREDIENT_USDA",
     "MACRO_TOLERANCE",
+    "NO_USDA_MATCH",
     "NUTRITION_LIMITS",
     "TITLE_FILLER",
     "add_foodcom_macros",
@@ -243,13 +244,40 @@ SPIRIT = "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof
 PINEAPPLE_JUICE = "Pineapple juice, canned or bottled, unsweetened, with added ascorbic acid"
 PINEAPPLE_IN_JUICE = "Pineapple, canned, juice pack, solids and liquids"
 SWEET_COCONUT = "Nuts, coconut meat, dried (desiccated), sweetened, flaked, canned"
+WATER = "Water, bottled, generic"
+TOMATO = "Tomatoes, red, ripe, raw, year round average"
+WHOLE_MILK = "Milk, whole, 3.25% milkfat, with added vitamin D"
+DRY_PASTA = "Pasta, dry, enriched"
+OATS = "Cereals, oats, regular and quick, not fortified, dry"
+RICE = "Rice, white, long-grain, regular, raw, enriched"
+MINT = "Spearmint, fresh"
+DILL = "Dill weed, fresh"
+LEMON_PEEL = "Lemon peel, raw"
+ORANGE_PEEL = "Orange peel, raw"
+CHEDDAR = "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+PEANUT_BUTTER = "Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)"
+HALF_AND_HALF = "Cream, fluid, half and half"
+WHITE_BREAD = "Bread, white, commercially prepared (includes soft bread crumbs)"
+BEEF_BROTH = "Soup, beef broth or bouillon canned, ready-to-serve"
+SEMISWEET = "Candies, semisweet chocolate"
+RED_WINE = "Alcoholic beverage, wine, table, red"
+FROZEN_SPINACH = "Spinach, frozen, chopped or leaf, unprepared (Includes foods for USDA's Food Distribution Program)"
+COCOA = "Cocoa, dry powder, unsweetened"
+COOKING_SPRAY = "Oil, PAM cooking spray, original"
+RUSSET = "Potatoes, russet, flesh and skin, raw (Includes foods for USDA's Food Distribution Program)"
+SALMON = "Fish, salmon, Atlantic, farmed, raw"
+TACO_SEASONING = "Seasoning mix, dry, taco, original"
+MARSHMALLOW = "Candies, marshmallows"
+LAMB = "Lamb, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8\" fat, choice, raw"
+WHITE_FISH = "Fish, cod, Atlantic, raw"
+SCALLOP = "Mollusks, scallop, mixed species, raw"
 INGREDIENT_USDA = {
     "sugar": "Sugars, granulated", "powdered sugar": "Sugars, powdered", "confectioners' sugar": "Sugars, powdered",
     "flour": FLOUR, "olive oil": "Oil, olive, salad or cooking", "vegetable oil": VEGETABLE_OIL,
     "oil": VEGETABLE_OIL, "canola oil": VEGETABLE_OIL,
     "pepper": BLACK_PEPPER, "black pepper": BLACK_PEPPER, "ground pepper": BLACK_PEPPER,
-    "milk": "Milk, whole, 3.25% milkfat, with added vitamin D",
-    "tomato": "Tomatoes, red, ripe, raw, year round average",
+    "milk": WHOLE_MILK,
+    "tomato": TOMATO,
     "green onion": "Onions, spring or scallions (includes tops and bulb), raw",
     "baking powder": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
     "cinnamon": "Spices, cinnamon, ground", "ground cinnamon": "Spices, cinnamon, ground",
@@ -277,7 +305,7 @@ INGREDIENT_USDA = {
     "bacon": "Pork, cured, bacon, unprepared", "cornstarch": "Cornstarch",
     "zucchini": "Squash, summer, zucchini, includes skin, raw", "banana": "Bananas, raw", "spinach": "Spinach, raw",
     "coconut milk": "Nuts, coconut milk, canned (liquid expressed from grated meat and water)",
-    "rice": "Rice, white, long-grain, regular, raw, enriched",
+    "rice": RICE,
     # Generic words the automatic matching sent to a processed food (corned beef, a pork olive loaf ...)
     "beef": "Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8\" fat, all grades, raw",
     "black olive": RIPE_OLIVE, "olive": RIPE_OLIVE, "kalamata olive": RIPE_OLIVE,
@@ -309,7 +337,101 @@ INGREDIENT_USDA = {
     "pineapple juice": PINEAPPLE_JUICE, "unsweetened pineapple juice": PINEAPPLE_JUICE,
     "pineapple in juice": PINEAPPLE_IN_JUICE, "pineapple chunks in juice": PINEAPPLE_IN_JUICE,
     "crushed pineapple": PINEAPPLE_IN_JUICE,
+    # Hand-check of the 450 most-used automatic matches (2026-10-10): tomato paste had become almond paste,
+    # whole milk dried milk, beef broth fish broth, mint an After Eight candy, cold water a cheese food ...
+    **{name: WATER for name in ("cold water", "warm water", "hot water", "boiling water", "ice water", "ice",
+                                "ice cube", "lukewarm water")},
+    **{name: TOMATO for name in ("cherry tomato", "grape tomato", "roma tomato", "plum tomato")},
+    **{name: BLACK_PEPPER for name in ("cracked black pepper", "coarse ground black pepper",
+                                       "salt & freshly ground black pepper", "salt and pepper to taste",
+                                       "freshly ground black pepper")},
+    **{name: "Salt, table" for name in ("salt to taste", "garlic salt", "celery salt", "seasoning salt",
+                                        "kosher salt", "sea salt")},
+    **{name: DRY_PASTA for name in ("pasta", "penne pasta", "penne", "elbow macaroni", "spaghetti",
+                                    "lasagna noodle", "fettuccine", "linguine", "rotini pasta")},
+    **{name: OATS for name in ("oats", "oatmeal", "quick-cooking oats", "rolled oats", "old-fashioned oats")},
+    **{name: RICE for name in ("white rice", "basmati rice", "long grain rice", "jasmine rice")},
+    "tomato paste": "Tomato products, canned, paste, without salt added (Includes foods for USDA's Food "
+                    "Distribution Program)",
+    "tomato puree": "Tomato products, canned, puree, without salt added",
+    "buttermilk": "Milk, buttermilk, fluid, cultured, lowfat", "whole milk": WHOLE_MILK,
+    "dried thyme": "Spices, thyme, dried", "dried basil": "Spices, basil, dried",
+    "dried rosemary": "Spices, rosemary, dried", "dried parsley": "Spices, parsley, dried",
+    "thyme leaf": "Thyme, fresh", "basil leaf": "Basil, fresh", "parsley leaf": "Parsley, fresh",
+    "mint": MINT, "mint leaf": MINT, "fresh mint": MINT, "dill": DILL, "fresh dill": DILL,
+    "white pepper": "Spices, pepper, white", "cinnamon stick": "Spices, cinnamon, ground",
+    "lemon zest": LEMON_PEEL, "lemon rind": LEMON_PEEL, "lemon peel": LEMON_PEEL, "orange zest": ORANGE_PEEL,
+    "orange rind": ORANGE_PEEL, "lemon wedge": "Lemons, raw, without peel",
+    "cheese": CHEDDAR, "parmigiano-reggiano cheese": "Cheese, parmesan, hard",
+    "american cheese": "Cheese, pasteurized process, American, fortified with vitamin D",
+    "cottage cheese": "Cheese, cottage, creamed, large or small curd",
+    "salsa": "Sauce, salsa, ready-to-serve", "shortening": "Shortening, vegetable, household, composite",
+    "peanut butter": PEANUT_BUTTER, "creamy peanut butter": PEANUT_BUTTER,
+    "sweet potato": "Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution Program)",
+    "coconut": SWEET_COCONUT, "bell pepper": "Peppers, sweet, green, raw",
+    "half-and-half": HALF_AND_HALF, "half-and-half cream": HALF_AND_HALF,
+    "light cream": "Cream, fluid, light (coffee cream or table cream)",
+    "bread": WHITE_BREAD, "white bread": WHITE_BREAD, "french bread": "Bread, french or vienna (includes sourdough)",
+    "hamburger bun": "Rolls, hamburger or hotdog, plain",
+    "beef broth": BEEF_BROTH, "beef bouillon": BEEF_BROTH,
+    "chocolate chip": SEMISWEET, "semi-sweet chocolate chip": SEMISWEET, "semisweet chocolate chip": SEMISWEET,
+    "nut": "Nuts, walnuts, english", "slivered almond": "Nuts, almonds", "hazelnut": "Nuts, hazelnuts or filberts",
+    "red wine": RED_WINE, "dry red wine": RED_WINE,
+    "chicken": "Chicken, broilers or fryers, meat only, raw",
+    "cooked chicken": "Chicken, broilers or fryers, meat only, cooked, roasted",
+    "chicken thigh": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+    "boneless chicken breast": CHICKEN_BREAST,
+    "yeast": "Leavening agents, yeast, baker's, active dry", "sesame seed": "Seeds, sesame seeds, whole, dried",
+    "frozen pea": "Peas, green, frozen, unprepared (Includes foods for USDA's Food Distribution Program)",
+    "frozen corn": "Corn, sweet, yellow, frozen, kernels cut off cob, unprepared (Includes foods for USDA's Food "
+                   "Distribution Program)",
+    "frozen spinach": FROZEN_SPINACH, "frozen chopped spinach": FROZEN_SPINACH,
+    "cooked rice": "Rice, white, long-grain, regular, enriched, cooked",
+    "brown rice": "Rice, brown, long-grain, raw (Includes foods for USDA's Food Distribution Program)",
+    "dried cranberry": "Cranberries, dried, sweetened (Includes foods for USDA's Food Distribution Program)",
+    "dried apricot": "Apricots, dried, sulfured, uncooked", "egg noodle": "Noodles, egg, dry, enriched",
+    "cocoa powder": COCOA, "cocoa": COCOA, "caster sugar": "Sugars, granulated", "icing sugar": "Sugars, powdered",
+    "cooking oil": VEGETABLE_OIL, "cooking spray": COOKING_SPRAY, "nonstick cooking spray": COOKING_SPRAY,
+    "russet potato": RUSSET, "baking potato": RUSSET, "yukon gold potato": "Potatoes, white, flesh and skin, raw",
+    "kidney bean": "Beans, kidney, red, mature seeds, canned, drained solids",
+    "cannellini bean": "Beans, white, mature seeds, canned", "white bean": "Beans, white, mature seeds, canned",
+    "salmon": SALMON, "salmon fillet": SALMON,
+    "tuna": "Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution "
+            "Program)",
+    "pumpkin puree": "Pumpkin, canned, without salt", "light soy sauce": "Soy sauce made from soy and wheat (shoyu)",
+    "bean sprout": "Mung beans, mature seeds, sprouted, raw",
+    "sunflower seed": "Seeds, sunflower seed kernels, dried",
+    "splenda sugar substitute": "Sweeteners, tabletop, sucralose, SPLENDA packets",
+    "taco seasoning": TACO_SEASONING, "taco seasoning mix": TACO_SEASONING,
+    "greek yogurt": "Yogurt, Greek, plain, lowfat",
+    "graham cracker crumb": "Cookies, graham crackers, plain or honey (includes cinnamon)",
+    "yellow squash": "Squash, summer, crookneck and straightneck, raw",
+    "water chestnut": "Waterchestnuts, chinese, canned, solids and liquids",
+    "artichoke heart": "Artichokes, (globe or french), frozen, unprepared",
+    "unflavored gelatin": "Gelatins, dry powder, unsweetened", "marshmallow": MARSHMALLOW,
+    "miniature marshmallow": MARSHMALLOW, "mini marshmallow": MARSHMALLOW,
+    "chicken bouillon cube": "Soup, chicken broth cubes, dry", "beef bouillon cube": "Soup, beef broth, cubed, dry",
+    "chicken bouillon granule": "Soup, chicken broth or bouillon, dry",
+    "kosher salt and freshly ground black pepper": "Salt, table", "fine sea salt": "Salt, table",
+    "quick oats": OATS, "vegetable oil cooking spray": COOKING_SPRAY, "chicken breast half": CHICKEN_BREAST,
+    "plain breadcrumb": BREAD_CRUMB, "italian seasoned breadcrumb": BREAD_CRUMB, "mint sprig": MINT,
+    "mini chocolate chip": SEMISWEET, "instant yeast": "Leavening agents, yeast, baker's, active dry",
+    "baking cocoa": COCOA, "low-fat buttermilk": "Milk, buttermilk, fluid, cultured, lowfat",
+    "chunky salsa": "Sauce, salsa, ready-to-serve", "coconut flake": SWEET_COCONUT,
+    # Generic meat, fish and tofu (2026-10-10): "pork" was salt pork (748 kcal), "scallop" a squash
+    "pork": "Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder, and spareribs), separable lean and "
+            "fat, raw",
+    "lamb": LAMB, "mutton": LAMB, "veal": "Veal, composite of trimmed retail cuts, separable lean and fat, raw",
+    "turkey": "Turkey, whole, meat only, raw", "fish": WHITE_FISH, "white fish": WHITE_FISH,
+    "white fish fillet": WHITE_FISH, "fish fillet": WHITE_FISH, "tuna steak": "Fish, tuna, fresh, yellowfin, raw",
+    "crab": "Crustaceans, crab, blue, raw", "crabmeat": "Crustaceans, crab, blue, raw",
+    "scallop": SCALLOP, "sea scallop": SCALLOP, "bay scallop": SCALLOP,
+    "tofu": "Tofu, raw, regular, prepared with calcium sulfate",
+    "cooked brown rice": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
 }
+# Names with no fair USDA SR Legacy entry: better no match than a wrong one (curry leaf is not drumstick leaves)
+NO_USDA_MATCH = {"curry leaf", "lemongrass", "vanilla bean", "herb", "garam masala", "italian seasoning",
+                 "cajun seasoning", "seasoning", "skinless", "lime zest", "dried italian seasoning"}
 
 
 # Words for a processed or ready-made food (singular, as _norm_text writes them)
@@ -317,6 +439,17 @@ INGREDIENT_USDA = {
 # soups or cranberry sauce the ready-made food is what the recipe means
 PROCESSING_WORDS = {"cured", "corned", "smoked", "frozen", "pickled", "candied", "babyfood", "entree",
                     "concentrate", "fried", "breaded", "restaurant", "fast", "microwaved"}
+# Forms that change the amount of water (and so the calories per 100 g) when the name does not ask for them:
+# "whole milk" is not dried milk, "chickpea" is not chickpea flour
+FORM_WORDS = {"dried", "dry", "powder", "dehydrated", "flour", "mix"}
+# ... except foods that recipes weigh dry (pasta, rice, oats, lentils): "orzo pasta" is dry pasta
+BOUGHT_DRY = {"pasta", "spaghetti", "macaroni", "noodle", "rice", "cereal", "oat", "bean", "lentil", "pea",
+              "chickpea", "couscous", "quinoa"}
+
+
+def _brand_words(description: str) -> set[str]:
+    """Brand names in a USDA description (written in capitals, e.g. HERSHEY'S, PAM)."""
+    return {w.lower().strip("'S").strip("'") for w in re.findall(r"\b[A-Z][A-Z']{2,}\b", description)} - {"usda"}
 
 
 def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tuple[int, str]]:
@@ -335,12 +468,17 @@ def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tu
     """
     vectorizer = TfidfVectorizer(token_pattern=r"[a-z]{3,}")
     food_matrix = vectorizer.fit_transform(foods["description"].map(_norm_text))
+    vocabulary = set(vectorizer.vocabulary_)
     similarity = (vectorizer.transform([_norm_text(n) for n in names]) @ food_matrix.T).tocsr()
     first_part = [_norm_text(d.split(",")[0]) for d in foods["description"]]
     is_raw = foods["description"].str.contains("raw", case=False).to_numpy()
     n_details = foods["description"].str.count(",").to_numpy()   # fewer details = more generic food
     row_of = {d: i for i, d in enumerate(foods["description"])}
-    processing = [set(_norm_text(d).split()) & PROCESSING_WORDS for d in foods["description"]]
+    words = [set(_norm_text(d).split()) for d in foods["description"]]
+    processing = [w & PROCESSING_WORDS for w in words]
+    forms = [set() if first_part[j].split()[-1:] and first_part[j].split()[-1] in BOUGHT_DRY else w & FORM_WORDS
+             for j, w in enumerate(words)]
+    brands = [_brand_words(d) for d in foods["description"]]
 
     matches = {}
     for row, name in enumerate(progress_bar(names, "Matching USDA ingredients", show=len(names) >= MIN_ROWS)):
@@ -348,7 +486,7 @@ def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tu
             matches[name] = (row_of[INGREDIENT_USDA[name]], "hand-checked")
             continue
         candidates, text_score = _top_candidates(similarity, row)
-        if len(candidates) == 0:
+        if len(candidates) == 0 or name in NO_USDA_MATCH:
             continue
         target = _norm_text(name)
         last = target.split()[-1:]
@@ -357,8 +495,14 @@ def match_ingredients(names: Sequence[str], foods: pd.DataFrame) -> dict[str, tu
         # "beef" should not become corned beef, nor "vegetable stock" a canned soup: processing the
         # name does not ask for counts against a food
         asked = set(target.split())
-        processed = np.array([len(processing[j] - asked) for j in candidates])
-        score = text_score + bonus + 0.1 * is_raw[candidates] - 0.02 * n_details[candidates] - 0.15 * processed
+        processed = np.array([len(processing[j] - asked) + bool(forms[j] - asked) for j in candidates])
+        # every word of the name should be there: "tomato paste" is not almond paste, "beef broth" not fish broth
+        # (words USDA never uses, like "garnish" or "halve", are left out)
+        meaningful = {w for w in asked if w in vocabulary} or asked
+        covered = np.array([len(meaningful & words[j]) / len(meaningful) for j in candidates])
+        branded = np.array([bool(brands[j]) and not brands[j] & asked for j in candidates])
+        score = (text_score + bonus + 0.1 * is_raw[candidates] - 0.02 * n_details[candidates] - 0.15 * processed
+                 + 0.15 * (covered - 1) - 0.2 * branded)
         best = int(np.argmax(score))
         if score[best] > 0.45:
             matches[name] = (candidates[best], "automatic")

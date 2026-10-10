@@ -12,7 +12,7 @@ After 01, the rest can run in any order, except where the table says "needs".
 
 | # | Notebook | What it does | Saves (in `data/`) |
 |---|---|---|---|
-| 01 | [Data acquisition](01_data_acquisition_EverFlavor_V3.ipynb) | Downloads Food.com, Hugging Face, CulinaryDB, TheMealDB, USDA and Open Food Facts; cleans, labels (cuisine, origin, nutrition, restriction flags), splits; trains the baseline cuisine classifier | `interim/recipes_all.parquet`, `processed/recipes_train/val/test.parquet`, `processed/usda_ingredient_nutrition.csv`, `processed/dataset_info.json`, `models/cuisine_baseline.joblib` |
+| 01 | [Data acquisition](01_data_acquisition_EverFlavor_V3.ipynb) | Downloads Food.com, Hugging Face, CulinaryDB, TheMealDB, USDA and Open Food Facts; cleans, labels (cuisine, origin, nutrition, restriction flags), splits; trains the baseline cuisine classifier; shows the calorie and country models' accuracy by source, cuisine family and country | `interim/recipes_all.parquet`, `processed/recipes_train/val/test.parquet`, `processed/usda_ingredient_nutrition.csv`, `processed/dataset_info.json`, `models/cuisine_baseline.joblib` |
 | 02 | [Cooking methods and fats](02_cooking_methods_and_fats.ipynb) | Cooking method per recipe, cooking-fat reference, alcohol left after cooking | `interim/recipe_cooking_labels.parquet`, `processed/cooking_fats_reference.csv` |
 | 03 | [Stores and products](03_stores_and_products.ipynb) | Houston stores (OpenStreetMap; Google Places with a key), products by country (Open Food Facts) | `processed/places.parquet`, `products_by_country.parquet`, `ingredient_products.parquet`, `region_coverage_stores.csv` |
 | 04 | [Ingredient knowledge](04_ingredient_knowledge.ipynb) | Names in other languages (Wikidata), substitutions, pairings, shelf life (FoodKeeper) | `processed/ingredient_names/substitutions/pairings/shelf_life.parquet` |
@@ -28,7 +28,7 @@ at the top. Colab's free runtime takes about as long, or a little longer. First-
 
 | # | Re-run | First run adds | Slowest part |
 |---|---|---|---|
-| 01 | about 20 min | 10-30 min of downloads | 5.5.2, the pipeline on every source (about 15 min) |
+| 01 | about 20-35 min | 10-30 min of downloads | 5.5.2, the pipeline on every source (about 15 min) |
 | 02 | about 2 min | little (reuses 01's Food.com download) | Section 3, cooking methods |
 | 03 | about 2 min | 30-60 min (Open Food Facts export, OpenStreetMap) | Section 5, linking ingredients to products |
 | 04 | under 1 min | 10-30 min (Wikidata, FoodKeeper) | Section 3 |

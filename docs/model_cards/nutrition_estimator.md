@@ -30,9 +30,14 @@ Estimates calories, protein, fat, carbs and sodium per serving for the 46,308 re
 | **Similar recipes + USDA (used)** | **184** | **103** | **29%** |
 
 - The real value is inside the likely range 80% of the time (target 80%); notebook 01 (section 5.8) charts it per cuisine family.
-- USDA ingredient matches avoid cured, smoked, frozen and fried foods unless the name asks for them, and 121 common
-  ingredients are matched by hand (since 2026-10-05: "beef" was matched to corned beef before).
-- Typical macro errors: protein 3.7 g, fat 5.6 g, carbs 10.2 g, sodium 159 mg.
+- USDA ingredient matches avoid cured, smoked, dried and branded foods unless the name asks for them and must cover
+  every word of the name; 290 of the most-used ingredients are matched by hand (2026-10-10: "tomato paste" had been
+  almond paste, "pork" salt pork, "beef broth" fish broth).
+- **By group** (typical error in % of the real calories): Food.com 35.6%, Hugging Face 36.0%; every cuisine family
+  between about 35% and 39%, every country with 30+ validation recipes between about 33% (Italy) and 41%.
+- **Weighting tested, not used (2026-10-10):** giving smaller cuisine families more weight (`balanced_weights`, capped
+  at 2 or 5 times an average recipe) made the typical error 106-108 kcal instead of 104, without helping any family.
+- Typical macro errors: protein 3.8 g, fat 5.5 g, carbs 10.2 g, sodium 161 mg.
 
 ## Limitations
 
