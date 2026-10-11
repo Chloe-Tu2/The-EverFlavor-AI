@@ -602,8 +602,11 @@ def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
     train, val = data[data["split"] == "train"], data[data["split"] == "val"]
     batch = int(str(plan["batch_size"]))
     sampler = WeightedRandomSampler(torch.tensor(train["weight"].to_numpy(), dtype=torch.double), len(train))
-    train_loader = DataLoader(Images(train, train_tf), batch_size=batch, sampler=sampler, num_workers=2)
-    val_loader = DataLoader(Images(val, eval_tf), batch_size=batch, num_workers=2)
+    # Two loader processes on Linux (Colab); none on Windows, which starts them by pickling the dataset,
+    # and this one is defined inside the function (smoke test on Windows, 2026-10-11)
+    workers = 0 if sys.platform == "win32" else 2
+    train_loader = DataLoader(Images(train, train_tf), batch_size=batch, sampler=sampler, num_workers=workers)
+    val_loader = DataLoader(Images(val, eval_tf), batch_size=batch, num_workers=workers)
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model = models.mobilenet_v3_small(weights=models.MobileNet_V3_Small_Weights.DEFAULT)
     model.classifier[-1] = nn.Linear(model.classifier[-1].in_features, len(STATES))
