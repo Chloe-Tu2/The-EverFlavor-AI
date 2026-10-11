@@ -601,7 +601,7 @@ def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
 
     train, val = data[data["split"] == "train"], data[data["split"] == "val"]
     batch = int(str(plan["batch_size"]))
-    sampler = WeightedRandomSampler(torch.tensor(train["weight"].to_numpy(), dtype=torch.double), len(train))
+    sampler = WeightedRandomSampler(train["weight"].astype(float).tolist(), len(train))
     # Two loader processes on Linux (Colab); none on Windows, which starts them by pickling the dataset,
     # and this one is defined inside the function (smoke test on Windows, 2026-10-11)
     workers = 0 if sys.platform == "win32" else 2
