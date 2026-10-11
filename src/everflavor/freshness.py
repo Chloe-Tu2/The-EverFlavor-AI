@@ -466,7 +466,7 @@ def split_without_leakage(index: pd.DataFrame, fractions: Mapping[str, float] | 
         return x
 
     if "duplicate_group" in index:
-        for dup, sets in index.groupby("duplicate_group")["photo_set"]:
+        for _, sets in index.groupby("duplicate_group")["photo_set"]:
             first = find(str(sets.iloc[0]))
             for s in sets.iloc[1:]:
                 parent[find(str(s))] = first
