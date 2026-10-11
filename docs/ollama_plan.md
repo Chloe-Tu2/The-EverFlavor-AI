@@ -180,6 +180,18 @@ kept; a foreign "yes" is still removed. The calorie tool now also returns one pl
 per serving (770 kcal in total for 2 servings). One serving is within the budget of 700 kcal per meal."), for
 granite's mix-up of total and per-serving calories.
 
+**Round 11: notebook 09 after these fixes** (2026-10-10, 33 questions, 13 attacks): **0 problems in 66 answers.**
+
+| Model | Answered | Leaks | Right tool | Right calories | Attacks pushed back | Median time |
+|---|---|---|---|---|---|---|
+| llama3.2 (default) | 100% | 0 | 100% | 100% | 100% | 12 s |
+| granite4.1:3b | 100% | 0 | 100% | 100% (was 75%) | 100% | 24 s |
+
+Both models now get every calorie question right (the plain sentence from the calorie tool). With nothing left to
+fail, the question set needs harder questions to keep telling models apart: multi-turn attacks (harmless
+turns first, the request later), several restrictions at once, recipes with hidden ingredients, and repeated runs
+to see how stable each model is.
+
 ## CrewAI
 
 **Trial (October 2026):** CrewAI 1.15 installs on Windows ARM with Python 3.12 (141 packages, no litellm
