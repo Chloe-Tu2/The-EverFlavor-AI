@@ -13,7 +13,7 @@ import subprocess
 import sys
 import urllib.request
 import zipfile
-from collections.abc import Iterable, Mapping, Sequence
+from collections.abc import Callable, Iterable, Mapping, Sequence
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -35,11 +35,14 @@ __all__ = [
     "TRAINING_PLAN",
     "freshness_coverage",
     "group_near_duplicates",
+    "image_hashes",
     "index_images",
     "mendeley_download",
+    "pack_results",
     "sample_weights",
     "selection_score",
     "split_without_leakage",
+    "train_all_groups",
     "train_freshness_model",
     "zenodo_download",
 ]
@@ -647,3 +650,107 @@ def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
                     break
     return {"group": group, "seed": seed, "best_epoch": best.get("epoch"),
             "val_scores": {k: v for k, v in best.items() if k != "epoch"}, "model_path": str(out), "history": history}
+
+
+# ---------------------------------------------------------------- long runs (Google Colab, 2026-10-10)
+def image_hashes(paths: Sequence[str | Path], cache_file: str | Path | None = None) -> list[object]:
+    """Perceptual hashes (imagehash.phash) for group_near_duplicates, reusing a saved cache.
+
+    Hashing about 45,000 photos takes about half an hour, and Colab forgets everything when a
+    session ends, so the hashes are kept in `cache_file` (path, file size, hash): a later run
+    hashes only new files and files whose size changed. The file's date is not used, because
+    every new Colab session downloads the photos again with new dates.
+
+    Args:
+        paths: Image paths, in the order of the image index.
+        cache_file: A .parquet file to read and update; None hashes everything without a cache.
+
+    Returns:
+        One hash per path (an imagehash.ImageHash), or None for an image that can not be read.
+    """
+    import imagehash
+    from PIL import Image, ImageFile
+    ImageFile.LOAD_TRUNCATED_IMAGES = True   # a photo missing its last bytes still hashes (MeatScan has one)
+    cache: dict[tuple[str, int], str] = {}
+    if cache_file is not None and Path(cache_file).exists():
+        saved = pd.read_parquet(cache_file)
+        cache = {(p, int(s)): h for p, s, h in zip(saved["path"], saved["size"], saved["hash"])}
+    hashes: list[object] = []
+    rows = []
+    for path in progress_bar([str(p) for p in paths], "Perceptual hashes", show=len(paths) >= 2000):
+        size = Path(path).stat().st_size if Path(path).exists() else -1
+        known = cache.get((path, size))
+        if known is None:
+            try:
+                with Image.open(path) as image:
+                    known = str(imagehash.phash(image))
+            except OSError:
+                known = ""
+        hashes.append(imagehash.hex_to_hash(known) if known else None)
+        rows.append((path, size, known))
+    if cache_file is not None:
+        Path(cache_file).parent.mkdir(parents=True, exist_ok=True)
+        pd.DataFrame(rows, columns=["path", "size", "hash"]).to_parquet(cache_file, index=False)
+    return hashes
+
+
+def train_all_groups(index: pd.DataFrame, groups: Sequence[str], seeds: Sequence[int], model_dir: str | Path,
+                     results_dir: str | Path, plan: Mapping[str, object] = TRAINING_PLAN,
+                     train: Callable[..., dict] | None = None) -> list[dict]:
+    """Train one model per food group and seed, saving each result as soon as it is done.
+
+    Free Colab sessions can disconnect after a few hours; a model that finished is not trained
+    again: its saved result (results_dir/freshness_<group>_seed<seed>.json) is read back, so running
+    the cell again continues where the session stopped.
+
+    Args:
+        index: Images with path, group, state, split and weight.
+        groups: Food groups to train ("produce", "fish" ...).
+        seeds: Random seeds (TRAINING_PLAN["seeds"]).
+        model_dir: Where the models are saved.
+        results_dir: Where each result is saved as JSON.
+        plan: TRAINING_PLAN.
+        train: The training function (train_freshness_model; the tests pass a fake one).
+
+    Returns:
+        One result per group and seed, as train_freshness_model returns it.
+    """
+    train = train or train_freshness_model
+    results_dir = Path(results_dir)
+    results_dir.mkdir(parents=True, exist_ok=True)
+    results = []
+    for group in groups:
+        for seed in seeds:
+            saved = results_dir / f"freshness_{group}_seed{seed}.json"
+            if saved.exists():
+                results.append(json.loads(saved.read_text(encoding="utf-8")))
+                continue
+            result = train(index, group, model_dir, plan, seed)
+            saved.write_text(json.dumps(result, indent=2, default=str), encoding="utf-8")
+            results.append(result)
+    return results
+
+
+def pack_results(paths: Sequence[str | Path], zip_file: str | Path) -> list[str]:
+    """Put files and folders into one zip to share (from Colab: download it, or keep it on Drive).
+
+    Args:
+        paths: Files or folders; missing ones are skipped.
+        zip_file: The zip to write (replaced if it exists).
+
+    Returns:
+        The names stored in the zip.
+    """
+    zip_file = Path(zip_file)
+    zip_file.parent.mkdir(parents=True, exist_ok=True)
+    names: list[str] = []
+    with zipfile.ZipFile(zip_file, "w", zipfile.ZIP_DEFLATED) as archive:
+        for path in map(Path, paths):
+            files = sorted(p for p in path.rglob("*") if p.is_file()) if path.is_dir() else [path] if path.exists() else []
+            for file in files:
+                if file.resolve() == zip_file.resolve():
+                    continue
+                name = str(file.relative_to(path.parent)).replace("\\", "/")
+                archive.write(file, name)
+                names.append(name)
+    return names

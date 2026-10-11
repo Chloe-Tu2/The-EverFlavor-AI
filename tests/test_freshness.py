@@ -19,11 +19,14 @@ from everflavor.freshness import (
     SAFETY_NOTE,
     freshness_coverage,
     group_near_duplicates,
+    image_hashes,
     index_images,
     mendeley_download,
+    pack_results,
     sample_weights,
     selection_score,
     split_without_leakage,
+    train_all_groups,
 )
 
 
@@ -203,6 +206,55 @@ def test_unpack_rar_refuses_paths_outside_the_folder(monkeypatch, tmp_path):
     with pytest.raises(ValueError):
         freshness._unpack_rar(tmp_path / "x.rar", tmp_path / "out")
     assert len(ran) == 1                                                                   # listed, never unpacked
+
+
+
+# ------------------------------------------------------------------ long runs on Colab
+def test_image_hashes_reuse_the_cache_and_rehash_changed_files(tmp_path, monkeypatch):
+    paths = [tmp_path / f"{i}.png" for i in range(3)]
+    for i, p in enumerate(paths):
+        _image(p, i)
+    (tmp_path / "broken.png").write_bytes(b"not an image")
+    cache = tmp_path / "cache" / "hashes.parquet"
+    first = image_hashes([*paths, tmp_path / "broken.png"], cache)
+    assert first[3] is None and all(h is not None for h in first[:3]) and cache.exists()
+    import imagehash
+    calls = []
+    real = imagehash.phash
+    def counting_phash(image):
+        calls.append(1)
+        return real(image)
+
+    monkeypatch.setattr(imagehash, "phash", counting_phash)
+    from PIL import Image
+    Image.new("RGB", (40, 40), (200, 30, 30)).save(paths[2])   # changed file (new size): hashed again
+    second = image_hashes(paths, cache)
+    assert len(calls) == 1 and [str(h) for h in second[:2]] == [str(h) for h in first[:2]]
+
+
+def test_training_resumes_after_a_disconnect(tmp_path):
+    runs = []
+
+    def fake_train(index, group, model_dir, plan, seed):
+        runs.append((group, seed))
+        return {"group": group, "seed": seed, "best_epoch": 3, "val_scores": {"macro_f1": 0.8}}
+
+    first = train_all_groups(pd.DataFrame(), ["fish", "produce"], [0, 1], tmp_path / "m", tmp_path / "r",
+                             train=fake_train)
+    assert len(first) == 4 and len(runs) == 4
+    (tmp_path / "r" / "freshness_produce_seed1.json").unlink()   # this one was cut off by the disconnect
+    again = train_all_groups(pd.DataFrame(), ["fish", "produce"], [0, 1], tmp_path / "m", tmp_path / "r",
+                             train=fake_train)
+    assert runs[4:] == [("produce", 1)] and [r["seed"] for r in again] == [0, 1, 0, 1]
+
+
+def test_pack_results_zips_files_and_folders(tmp_path):
+    (tmp_path / "training").mkdir()
+    (tmp_path / "training" / "freshness_fish_seed0.json").write_text("{}", encoding="utf-8")
+    (tmp_path / "coverage.csv").write_text("a,b", encoding="utf-8")
+    names = pack_results([tmp_path / "coverage.csv", tmp_path / "training", tmp_path / "missing.csv"],
+                         tmp_path / "results.zip")
+    assert sorted(names) == ["coverage.csv", "training/freshness_fish_seed0.json"]
 
 
 if __name__ == "__main__":

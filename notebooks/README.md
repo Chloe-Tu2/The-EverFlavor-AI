@@ -16,7 +16,7 @@ After 01, the rest can run in any order, except where the table says "needs".
 | 02 | [Cooking methods and fats](02_cooking_methods_and_fats.ipynb) | Cooking method per recipe, cooking-fat reference, alcohol left after cooking | `interim/recipe_cooking_labels.parquet`, `processed/cooking_fats_reference.csv` |
 | 03 | [Stores and products](03_stores_and_products.ipynb) | Houston stores (OpenStreetMap; Google Places with a key), products by country (Open Food Facts) | `processed/places.parquet`, `products_by_country.parquet`, `ingredient_products.parquet`, `region_coverage_stores.csv` |
 | 04 | [Ingredient knowledge](04_ingredient_knowledge.ipynb) | Names in other languages (Wikidata), substitutions, pairings, shelf life (FoodKeeper) | `processed/ingredient_names/substitutions/pairings/shelf_life.parquet` |
-| 05 | [Computer vision: freshness](05_computer_vision_freshness.ipynb) | Indexes 45k fruit, meat and fish photos; near-duplicates, licenses, leak-free split; training (needs a GPU: use Colab) | `processed/freshness_images.parquet`, `freshness_coverage.csv` |
+| 05 | [Computer vision: freshness](05_computer_vision_freshness.ipynb) | Indexes 45k fruit, meat and fish photos; near-duplicates, licenses, leak-free split; training (needs a GPU: use Colab, which saves results to Google Drive and resumes after a disconnect; section 7 zips the results to share) | `processed/freshness_images.parquet`, `freshness_coverage.csv` |
 | 06 | [Dish variants](06_dish_variants.ipynb) | Halal, vegan, gluten-free ... version of each dish. Needs 04 (substitutions) | `processed/recipe_variants.parquet`, `recipe_variants_summary.csv` |
 | 07 | [Nutrition quality](07_nutrition_quality.ipynb) | Macro labels, nutrient-rich ingredients, calorie calculator check | `processed/recipe_nutrition_quality.parquet`, `ingredient_micronutrients.csv` |
 | 08 | [Climate and season](08_climate_and_season.ipynb) | Meat: when each meat is most plentiful and when animals graze fresh grass, by region (built; first run downloads about 10 minutes of weather). Carbon footprint and produce seasons: planned | `processed/meat_supply_seasons.csv`, `pasture_seasons.csv` |
@@ -66,8 +66,10 @@ When the logic itself changes (not only the word lists), raise `FLAG_LOGIC_VERSI
 - **Big download:** notebook 05's photos are about 32 GB. MeatScan is opt-in (`DOWNLOAD_MEATSCAN`).
 - **Shared code in Colab:** each notebook downloads the files listed in `EVERFLAVOR_MODULES`. When you add a
   module to `src/everflavor`, add it to that list in every notebook (a test checks this).
-- **GPU for notebook 05's training:** in Colab, Runtime > Change runtime type > T4 GPU, then `TRAIN = True`
-  (Kaggle Notebooks are a free alternative with more GPU hours).
+- **GPU for notebook 05's training:** open it in Colab with the badge at its top, Runtime > Change runtime type >
+  T4 GPU, allow Google Drive, then `TRAIN = True`. Results (the duplicate check, each finished model, scores) go
+  to `MyDrive/EverFlavor/freshness_results/`, so running all again after a disconnect continues where it stopped;
+  section 7 zips them to share. Kaggle Notebooks are a free alternative with more GPU hours.
 - **AI agents:** `llm.py`, `agent_tools.py` and `crew.py` run in VS Code / Antigravity. Only notebook 09 uses
   them, and in Colab it says so and stops, so Colab is never affected.
 - **Before you push:** clear large outputs and run the checks in the [main README](../README.md#using-the-shared-code).

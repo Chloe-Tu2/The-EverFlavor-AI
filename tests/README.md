@@ -22,7 +22,7 @@ are (about 30 seconds) and is skipped on GitHub. Run it after rerunning a notebo
 | `test_matching_and_review.py` | USDA matching (every word counts, no dried or branded food unless asked) and the flag review tools |
 | `test_knowledge.py` | Notebook 04's tables, and that every notebook lists all shared modules |
 | `test_stores.py` | Notebook 03: places, products, the Google key never shown |
-| `test_freshness.py` | Notebook 05: labels, duplicates, split, license check |
+| `test_freshness.py` | Notebook 05: labels, duplicates, split, license check; the duplicate-check cache, training that resumes after a disconnect, the results zip |
 | `test_variants.py` | Notebook 06: a variant never keeps or adds a forbidden ingredient |
 | `test_nutrition_quality.py` | Notebook 07: Daily Value shares and macro labels |
 | `test_calories.py` | Line parsing, portion weights, calories |
