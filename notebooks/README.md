@@ -33,7 +33,7 @@ at the top. Colab's free runtime takes about as long, or a little longer. First-
 | 02 | about 2 min | little (reuses 01's Food.com download) | Section 3, cooking methods |
 | 03 | about 2 min | 30-60 min (Open Food Facts export, OpenStreetMap) | Section 5, linking ingredients to products |
 | 04 | under 1 min | 10-30 min (Wikidata, FoodKeeper) | Section 3 |
-| 05 | about 32 min | hours (photos: several GB, about 32 GB with MeatScan); training 1-3 h on a GPU | Section 4, near-duplicates in 45,000 photos (about 30 min) |
+| 05 | about 25 min the first time, then about 2 min (saved hashes) | hours (photos: several GB, about 32 GB with MeatScan); training 1-3 h on a GPU | Section 4, perceptual hashes of 45,000 photos (about 23 min, once) |
 | 06 | about 6 min | nothing (needs 01 and 04) | Section 3, variants for every dish |
 | 07 | under 1 min | nothing (uses 01's USDA files) | Section 6, calorie calculator check |
 | 08 | about 2 min | 10-12 min (10 years of weather for 11 regions) | Section 3b |
