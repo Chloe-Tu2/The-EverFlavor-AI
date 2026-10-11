@@ -8,12 +8,12 @@ add `src/` to the path for you.
 
 | Group | Module | What it is for |
 |---|---|---|
-| **Safety** | `flags.py` | Restriction flags: keyword rules per allergen, meat, alcohol ... (the largest file) |
+| **Safety** | `flags.py` | Restriction flags: keyword rules per allergen, meat, alcohol ... (the largest file); `reveal_hidden_words` reads disguised and foreign food words ("p0rk", 🐖, "cerdo") for every check |
 | | `diets.py` | Diet profiles (halal, kosher, vegan, Jain ...) built from the flags |
 | | `safety.py` | `UserProfile` and `check_recipe`: the gate every agent-written recipe passes |
 | | `review.py` | Blind hand-check samples for the flags |
 | **Recipes and data** | `sources.py` | Download helpers: USDA, Open Food Facts, CulinaryDB, TheMealDB |
-| | `pipeline.py` | Cleaning, combining, splitting, validation (`run_pipeline`) |
+| | `pipeline.py` | Cleaning, combining, splitting, validation (`run_pipeline`); `refresh_flags` works the flags out again after a rule change |
 | | `ingredients.py` | Cleaning and normalizing ingredient names |
 | | `cuisine.py` | Cuisine families, country and region of origin |
 | | `parsing.py` | Lists and labels stored as text |
@@ -28,10 +28,11 @@ add `src/` to the path for you.
 | | `seasons.py` | Meat supply season and pasture season (notebook 08) |
 | | `freshness.py` | Freshness photos: labels, duplicates, split, training (notebook 05) |
 | **Agents and app** | `recommend.py` | Baseline recommender and its safety filter |
-| | `llm.py` | Local models through Ollama (VS Code / Antigravity only): model choice, the answer guard, prompt-injection defenses (`clean_text`, `tool_message`), `ask_agent` |
-| | `crew.py` | Meal planner: a CrewAI Chef writes, the code checks, retries and falls back (VS Code / Antigravity) |
+| | `llm.py` | Local models through Ollama (VS Code / Antigravity only): model choice (`llama3.2` first), the answer guard, prompt-injection defenses (`clean_text`, `tool_message`), `ask_agent` |
+| | `crew.py` | Meal planner: a CrewAI Chef writes, the code checks, retries and falls back (VS Code / Antigravity); picks `granite4.1:3b` by itself (`CREW_MODELS`, faster in CrewAI) |
 | | `agent_tools.py` | The agents' tools: recipes, calories, where to buy, substitutions (profile from code) |
-| | `evaluation.py` | Agent evaluation (notebook 09): 25 questions, scored by code (leaks, right tool, right calories, attacks) |
+| | `refresh.py` | Rules fingerprint, whether the saved data is current, refreshing the flags in about 20-25 minutes instead of an hour (`python -m everflavor.refresh`) |
+| | `evaluation.py` | Agent evaluation (notebook 09): 33 questions (13 attacks), scored by code (leaks, right tool, right calories, attacks) |
 | **Helpers** | `checks.py`, `environment.py`, `progress.py`, `charts.py`, `reporting.py` | Input checks, keys, progress bars, charts, tables |
 
 ## Rules for this code

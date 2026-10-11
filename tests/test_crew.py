@@ -64,13 +64,21 @@ def test_after_the_retries_the_user_gets_a_safe_recommended_dish():
     assert plan["recipe"]["name"] == "thai green curry" and plan["gate"]["passed"]   # never the peanut pad thai
 
 
-def test_a_chef_that_fails_to_answer_counts_as_a_failed_attempt():
+def test_a_chef_that_fails_to_answer_counts_as_a_failed_attempt(monkeypatch):
     def broken(request, problems):
         raise RuntimeError("the Chef did not return a recipe")
     plan = crew.plan_meal("Dinner", HALAL_NO_PEANUT, data(), write_recipe=broken, max_retries=1)
     assert plan["fallback"] and plan["attempts"][0]["problems"] == ["the Chef did not return a recipe"]
-    with pytest.raises(ValueError):
-        crew.plan_meal("Dinner", HALAL_NO_PEANUT, data())   # no model and no writer
+    asked = []
+
+    def nothing_running(url, preferred):
+        asked.append(preferred)
+        return {"model": None}
+
+    monkeypatch.setattr(crew, "choose_model", nothing_running)
+    with pytest.raises(ValueError, match="no Ollama model"):
+        crew.plan_meal("Dinner", HALAL_NO_PEANUT, data())   # no model given and none running
+    assert asked == [crew.CREW_MODELS]                       # the planner asks for its own (faster) models
 
 
 def test_a_safe_recipe_far_over_budget_goes_back_once_to_be_lightened():
@@ -81,7 +89,7 @@ def test_a_safe_recipe_far_over_budget_goes_back_once_to_be_lightened():
     light = {"name": "Light Curry", "servings": 2, "ingredient_lines": ["1 cup rice", "1 cup coconut milk"], "steps": []}
     write, calls = writer(heavy, light)
     plan = crew.plan_meal("A Thai-style dinner", HALAL_NO_PEANUT, tables, write_recipe=write)
-    assert plan["recipe"]["name"] == "Light Curry" and plan["attempts"][0]["kcal_per_serving"] > 750
+    assert plan["recipe"]["name"] == "Light Curry" and plan["attempts"][0]["kcal_over_budget"] > 750
     assert "about 600 kcal" in calls[1][0]
     write, _ = writer(heavy)   # never lighter: keep the safe recipe, not the fallback
     plan = crew.plan_meal("A Thai-style dinner", HALAL_NO_PEANUT, tables, write_recipe=write, max_retries=1)

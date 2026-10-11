@@ -44,6 +44,7 @@ def passes_safety_filter(row: pd.Series, avoid: Sequence[str] = (), vegetarian: 
     Returns:
         True if the recipe is safe for every restriction.
     """
+    # recipe_text decodes disguised and foreign words, as the safety gate (check_recipe) and the flags do
     text = recipe_text(row["ingredient_list"], row["recipe_name"])
     # Never served, whatever the user asked for (policy P24)
     if make_flag(text, *FLAG_RULES["contains_pet_meat"]):

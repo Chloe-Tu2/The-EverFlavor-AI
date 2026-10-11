@@ -7,5 +7,6 @@ crewai        # the meal planner's Chef agent (src/everflavor/crew.py); about 14
 # Local AI models (src/everflavor/llm.py) talk to Ollama with `requests` (in requirements.txt).
 # Ollama itself is a separate program, not a pip package:
 #   1. Install it: https://ollama.com/download
-#   2. Download a model that can call tools: ollama pull granite4.1:3b
+#   2. Download the models that can call tools: ollama pull llama3.2 (chat, agents)
+#      and ollama pull granite4.1:3b (meal planner)
 # See docs/ollama_plan.md.

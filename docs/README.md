@@ -9,7 +9,7 @@ What the project is, how the data was made, and the rules we work by.
 | [data_dictionary.md](data_dictionary.md) | What every column of the recipe table means |
 | [sources.md](sources.md) | Every data source: link, license, access, version |
 | [ethics_privacy.md](ethics_privacy.md) | Privacy, licenses and responsible use |
-| [ollama_plan.md](ollama_plan.md) | Local AI models: setup, tested models, next steps |
+| [ollama_plan.md](ollama_plan.md) | Local AI models: setup, tested models, the test rounds (red team, notebook 09 evaluation), next steps |
 | [vision_setup.md](vision_setup.md) | Plan for food photos on a separate, stronger PC: which Ollama vision model and how to test it |
 | [model_cards/](model_cards/) | One card per model: how well it works and its limits |
 | [flag_review/](flag_review/labeling_notes.md) | The human checks of the restriction flags and the decisions taken (how to help: [HOW_TO_SPOT_CHECK.md](flag_review/HOW_TO_SPOT_CHECK.md)) |

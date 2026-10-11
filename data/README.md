@@ -16,4 +16,8 @@ Column meanings: [docs/data_dictionary.md](../docs/data_dictionary.md). Sources 
 
 The AI agents (`agent_tools.load_agent_data`) read these same tables; a tool whose table is missing is simply not offered.
 
+**Out of date?** When the flag or diet rules change, `python -m everflavor.refresh` updates the saved tables in about
+20-25 minutes instead of rerunning notebook 01 (about an hour) (see [notebooks/README.md](../notebooks/README.md#when-the-rules-change)); `dataset_info.json` holds the
+fingerprint of the rules the data was built with.
+
 **Lost or broken data?** Delete the folder's contents and run the notebook again; downloads already on disk are reused.

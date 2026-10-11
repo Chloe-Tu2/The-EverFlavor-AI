@@ -2,6 +2,7 @@
 validation checks and the safety filter, so they always agree."""
 from __future__ import annotations
 
+import base64
 import re
 import unicodedata
 from collections.abc import Sequence
@@ -45,7 +46,9 @@ __all__ = [
     "FLAG_COLUMNS",
     "FLAG_RULES",
     "FOODCOM_TAG_CHECKS",
+    "FOOD_EMOJI",
     "FOOD_NAME_GROUPS",
+    "FOREIGN_FOOD_WORDS",
     "GELATIN_EXCEPTIONS",
     "GELATIN_KEYWORDS",
     "GLUTEN_EXCEPTIONS",
@@ -62,6 +65,7 @@ __all__ = [
     "HONEY_KEYWORDS",
     "LAND_MEAT_EXCEPTIONS",
     "LAND_MEAT_KEYWORDS",
+    "LOOK_ALIKE_LETTERS",
     "LUPIN_KEYWORDS",
     "MEAT_EXCEPTIONS",
     "MEAT_KEYWORDS",
@@ -109,6 +113,7 @@ __all__ = [
     "add_foodcom_diet_flags",
     "add_hf_diet_flags",
     "add_keyword_flags",
+    "apply_hf_labels",
     "explain_flag",
     "flags_for_term",
     "foodcom_tag_agreement",
@@ -119,6 +124,7 @@ __all__ = [
     "not_named_foods",
     "print_flag_counts",
     "recipe_text",
+    "reveal_hidden_words",
     "spelling_variants",
     "term_group_of",
     "term_groups",
@@ -214,9 +220,15 @@ def recipe_text(ingredients: object, name: object) -> str:
         name: The recipe name.
 
     Returns:
-        Lowercase "ingredient | ingredient | name".
+        Lowercase "ingredient | ingredient | name", each part with its decoded copy
+        (reveal_hidden_words: "p0rk", "cerdo", 🐖), exactly as add_keyword_flags reads a recipe.
     """
-    return ingredient_text(ingredients) + " | " + name_text(name)
+    return _decoded(ingredient_text(ingredients)) + " | " + name_text(reveal_hidden_words(name) if isinstance(name, str) else name)
+
+
+def _decoded(text: str) -> str:
+    """Lowercase text with its decoded copy (see reveal_hidden_words)."""
+    return reveal_hidden_words(text).lower()
 
 
 def _compounds(*flags: str) -> list[str]:
@@ -237,7 +249,10 @@ PORK_KEYWORDS     = ["pork", "bacon", "ham", "prosciutto", "pancetta", "guancial
                      # pork dishes and cold cuts a red-team probe found missing (2026-10-10)
                      "carnitas", "porchetta", "lechon", "lechón", "tonkatsu", "cotechino", "soppressata",
                      "black pudding", "blood sausage", "scrapple", "chashu", "boudin", "rillettes", "spam",
-                     "pâté"]
+                     "pâté",
+                     # the animal's own names, which a red-team probe found missing (2026-10-10): "pig trotters",
+                     # "hog jowl", "swine shoulder", "suckling piglet", "wild boar", "the other white meat"
+                     "pig", "piglet", "swine", "hog", "boar", "the other white meat"]
 # Wines and ciders named without the word "wine" ("1 cup chardonnay", "1/2 cup tawny port"), policy P23.
 # Each wine lists its other names ("aliases") and the look-alikes that are not wine ("not_wine").
 # Write each name once, with its accents: spelling_variants adds the plain and hyphenated forms.
@@ -647,8 +662,12 @@ HIGH_TYRAMINE_KEYWORDS = ["cheddar", "parmesan", "parmigiano", "pecorino", "roma
 NOT_MEAT_LOOKALIKES = ["tonkatsu sauce", "mushroom pâté", "vegan pâté", "vegetarian pâté", "pâte brisée",
                        "pâte sucrée", "pâte sablée", "pâte à choux", "pâte feuilletée", "pate brisee",
                        "pate sucree", "pate sablee", "pate a choux", "plant-based chorizo", "vegan chorizo",
-                       "soy chorizo", "soyrizo"]
-PORK_EXCEPTIONS     = ["hot dog bun", "hot dog roll", "vegetarian sausage", "veggie sausage",
+                       "soy chorizo", "soyrizo",
+                       # sweets shaped like pigs and vegan versions (the new word "pig", 2026-10-10)
+                       "vegan pigs in a blanket", "vegan pigs in blankets", "vegan pig", "vegetarian pigs in a blanket",
+                       "pig cake", "pig cupcake", "pig cookie", "chocolate pig", "gingerbread pig", "marzipan pig",
+                       "sugar pig", "candy pig", "piggy bank", "marranito"]
+PORK_EXCEPTIONS     = ["guinea pig", "hot dog bun", "hot dog roll", "vegetarian sausage", "veggie sausage",
                        "vegan sausage", "vegetarian bacon", "turkey bacon", "turkey ham",
                        "turkey kielbasa", "turkey sausage", "chicken sausage", "merguez sausage",
                        "merguez", "lamb sausage", "beef sausage", "vegan bacon", "char siu sauce",
@@ -673,6 +692,7 @@ PORK_EXCEPTIONS     = ["hot dog bun", "hot dog roll", "vegetarian sausage", "veg
                        "plant-based chicken", "plant based chicken", "vegan chicken", "vegetarian chicken",
                        "vegan pepperoni", "vegetarian pepperoni", "vegan chorizo", "vegetarian chorizo",
                        "soy chorizo", "vegan ham", "vegan beef"]
+PORK_EXCEPTIONS += [p for p in NOT_MEAT_LOOKALIKES if p not in PORK_EXCEPTIONS]   # one list of look-alikes
 ALCOHOL_EXCEPTIONS  = ["sherry wine vinegar", "wine vinegar", "sherry vinegar", "ginger ale", "ginger beer", "root beer",
                        "non-alcoholic", "alcohol-free", "alcohol free"] + WINE_NAME_EXCEPTIONS
 # "gluten-free bread", "gluten free pasta", ...: the food after "gluten-free" is safe
@@ -892,6 +912,155 @@ def _without_phrases(text: str, phrases: Sequence[str]) -> str:
     return pattern.sub(" ", text) if pattern else text
 
 
+# ---------------------------------------------------------------- hidden and foreign words (red team, 2026-10-10)
+# An attacker can ask a model to write "p0rk", "p o r k", "pоrk" (Cyrillic о) or 🐖, or to answer in another
+# language, so the safety gate and the answer guard also read a decoded copy of every text.
+# Common words for the foods people most often must avoid, in other languages (lowercase). Latin-script
+# words match as whole words; the others anywhere (Chinese and Japanese have no spaces between words).
+# cspell:disable  (food words in other languages and look-alike letters, on purpose)
+FOREIGN_FOOD_WORDS = {
+    # Phrases first where a word inside them means something else ("vinagre de vino" is vinegar, not wine)
+    "wine vinegar": ["vinagre de vino", "vinaigre de vin", "aceto di vino", "weinessig", "vinagre de vinho"],
+    "vinegar": ["vinagre", "vinaigre", "aceto", "essig", "уксус", "醋", "酢", "식초", "خل"],
+    "pork": ["cerdo", "puerco", "chancho", "porc", "cochon", "maiale", "porco", "schwein", "schweinefleisch",
+             "varkensvlees", "babi", "thịt heo", "thịt lợn", "свинин*", "свиня", "свиной", "خنزير", "猪肉", "豬肉",
+             "猪", "豬", "豚肉", "豚", "돼지고기", "돼지", "सूअर"],
+    "peanut": ["cacahuete", "cacahuate", "cacahuète", "maní", "arachide", "erdnuss", "amendoim", "kacang tanah",
+               "花生", "ピーナッツ", "落花生", "땅콩", "فول سوداني", "मूंगफली", "арахис*"],
+    "shrimp": ["camarón", "camarones", "gamba", "langostino", "crevette", "garnele", "gamberi", "gambero",
+               "camarão", "udang", "虾", "蝦", "エビ", "海老", "새우", "روبيان", "جمبري", "креветк*"],
+    "beef": ["carne de res", "ternera", "bœuf", "boeuf", "rindfleisch", "manzo", "carne bovina", "牛肉", "소고기",
+             "لحم بقر", "गोमांस", "говядин*"],
+    "wine": ["vino", "vin", "wein", "vinho", "ワイン", "葡萄酒", "와인", "نبيذ", "вино", "вина", "вином", "вине"],
+    "beer": ["cerveza", "bière", "bier", "birra", "cerveja", "啤酒", "ビール", "맥주", "بيرة", "пиво", "пива"],
+}
+
+
+def _spaced_script(word: str) -> bool:
+    """Latin and Cyrillic words are separated by spaces and matched as whole words; other scripts anywhere."""
+    return all("LATIN" in unicodedata.name(c, "") or "CYRILLIC" in unicodedata.name(c, "") or not c.isalpha()
+               for c in word)
+
+
+# Lookup tables for _translate_foreign: dictionary lookups, about 20 times faster than one large regex
+# over every recipe. A trailing "*" marks a stem ("свинин*" for свинина, свинину).
+_WHOLE_WORDS = {w: e for e, words in FOREIGN_FOOD_WORDS.items() for w in words
+                if not w.endswith("*") and _spaced_script(w)}
+_STEMS = [(w[:-1], e) for e, words in FOREIGN_FOOD_WORDS.items() for w in words if w.endswith("*")]
+_ANYWHERE = sorted(((w, e) for e, words in FOREIGN_FOOD_WORDS.items() for w in words
+                    if not w.endswith("*") and not _spaced_script(w)), key=lambda pair: -len(pair[0]))
+_LONGEST_PHRASE = max(len(w.split()) for w in _WHOLE_WORDS)
+_PLURAL_ENDINGS = ("es", "en", "s", "n")   # crevettes, garnelen, cerdos
+_WORD_OR_GAP = re.compile(r"(\w+)")
+
+
+def _english_for(word: str) -> str | None:
+    """The English word for one foreign word (or its plural or stem), else None."""
+    if word in _WHOLE_WORDS:
+        return _WHOLE_WORDS[word]
+    for ending in _PLURAL_ENDINGS:
+        if word.endswith(ending) and word[:-len(ending)] in _WHOLE_WORDS:
+            return _WHOLE_WORDS[word[:-len(ending)]]
+    if not word.isascii():
+        return next((english for stem, english in _STEMS if word.startswith(stem)), None)
+    return None
+
+
+def _translate_foreign(text: str) -> str:
+    """Put the English word in place of each foreign food word in a lowercase text, phrases first
+    ("vinagre de vino" -> "wine vinegar", so the "wine vinegar" exception still applies)."""
+    if not text.isascii():
+        for word, english in _ANYWHERE:               # scripts without spaces between words: anywhere
+            if word in text:
+                text = text.replace(word, f" {english} ")
+    parts = _WORD_OR_GAP.split(text)                  # [gap, word, gap, word, ..., gap]
+    words = parts[1::2]
+    found, i = [], 0
+    while i < len(words):
+        for n in range(min(_LONGEST_PHRASE, len(words) - i), 0, -1):
+            if n > 1 and any(parts[2 * (i + k) + 2] != " " for k in range(n - 1)):
+                continue                              # a phrase only with single spaces between its words
+            phrase = " ".join(words[i:i + n])
+            match = _WHOLE_WORDS.get(phrase) if n > 1 else _english_for(phrase)
+            if match is not None:
+                found.append((i, n, match))
+                i += n
+                break
+        else:
+            i += 1
+    if not found:
+        return text
+    out, last = [], 0
+    for i, n, english in found:
+        out += ["".join(parts[last:2 * i + 1]), f" {english} "]
+        last = 2 * (i + n)
+    return "".join(out + parts[last:])
+# Pictures of foods
+FOOD_EMOJI = {"🐖": "pork", "🐷": "pork", "🐗": "pork", "🐽": "pork", "🥓": "bacon", "🥜": "peanut", "🦐": "shrimp",
+              "🍤": "shrimp", "🦞": "lobster", "🦀": "crab", "🦪": "oyster", "🦑": "squid", "🐙": "octopus",
+              "🐟": "fish", "🐠": "fish", "🍣": "fish", "🍺": "beer", "🍻": "beer", "🍷": "wine", "🍾": "wine",
+              "🍸": "cocktail", "🍹": "cocktail", "🥃": "whiskey", "🍶": "sake", "🥩": "beef", "🍖": "meat",
+              "🍗": "chicken", "🥚": "egg", "🧀": "cheese", "🥛": "milk", "🧈": "butter", "🍯": "honey"}
+# Cyrillic and Greek letters that look like Latin ones ("pоrk" with a Cyrillic о); read after lowercasing
+LOOK_ALIKE_LETTERS = ("аеорсхуіјкмнтвѕԁɡοαρεικνυτ", "aeopcxyijkmhtbsdgoapeikvut")
+_LOOK_ALIKES = str.maketrans(*LOOK_ALIKE_LETTERS)
+_CYRILLIC_OR_GREEK = re.compile(r"[Ͱ-ϿЀ-ӿ]")
+_LEET = str.maketrans("0134578@$", "oieastbas")
+# cspell:enable
+_SPACED_LETTERS = re.compile(r"(?<![^\W\d_])(?:[^\W\d_][ \-.*_/]){2,}[^\W\d_](?![^\W\d_])")
+_BASE64 = re.compile(r"(?<![A-Za-z0-9+/])[A-Za-z0-9+/]{4,}={0,2}(?![A-Za-z0-9+/=])")
+
+
+def _decoded_base64(text: str) -> list[str]:
+    """Plain-text words hidden as base64 ("cG9yaw==" is "pork")."""
+    found = []
+    for token in _BASE64.findall(text):
+        if len(token) % 4 or token.isalpha() and token.islower():   # ordinary words are not base64
+            continue
+        try:
+            plain = base64.b64decode(token, validate=True).decode("ascii")
+        except (ValueError, UnicodeDecodeError):
+            continue
+        if plain.isprintable() and re.search(r"[a-zA-Z]{3,}", plain):
+            found.append(plain)
+    return found
+
+
+def reveal_hidden_words(text: object) -> str:
+    """Return a text plus a decoded copy, so disguised or foreign food words are seen by the flag rules.
+
+    The copy (lowercase) removes hidden characters, reads look-alike letters, "leetspeak" ("p0rk") and
+    spaced-out letters ("p o r k", "p-o-r-k") as plain letters, names food emoji, decodes base64, and
+    puts the English word in place of a foreign food word ("panceta de cerdo" -> "panceta de pork",
+    "vinagre de vino" -> "wine vinegar"), so the usual exceptions still apply. The original text comes
+    first, so nothing that matched before is lost; the copy is only appended when it differs.
+
+    Args:
+        text: Any text (an ingredient line, a dish name, a sentence of a model's answer).
+
+    Returns:
+        The text, or "text | decoded copy".
+    """
+    original = str(text or "")
+    out = "".join(c for c in unicodedata.normalize("NFKC", original) if unicodedata.category(c) != "Cf").lower()
+    words = []
+    for word in out.split(" "):
+        mapped = word.translate(_LOOK_ALIKES)
+        # a Russian word keeps letters with no Latin twin and stays Russian; a disguised one is read
+        if mapped != word and not _CYRILLIC_OR_GREEK.search(mapped):
+            word = mapped
+        if re.search(r"[a-z]", word) and re.search(r"[0134578@$]", word) and not re.fullmatch(r"[\d.,/%-]+\w{0,3}", word):
+            word = word.translate(_LEET)              # "p0rk", "b4con"; not "200g" or "1/2"
+        words.append(word)
+    out = " ".join(words)
+    out = _SPACED_LETTERS.sub(lambda m: re.sub(r"[ \-.*_/]", "", m.group()), out)
+    out = _translate_foreign(out)
+    extra = [english for emoji, english in FOOD_EMOJI.items() if emoji in out]
+    extra += [plain.lower() for plain in _decoded_base64(original)]
+    decoded = re.sub(r"\s+", " ", " ".join([out, *extra])).strip()
+    return original if decoded == re.sub(r"\s+", " ", original.lower()).strip() else f"{original} | {decoded}"
+
+
 @cache
 def _keyword_pattern(keywords):
     """Compile one whole-word regex for a tuple of keywords in every spelling (plurals allowed)."""
@@ -918,8 +1087,13 @@ def make_flag(ingredient_str: object, keywords: Sequence[str], exceptions: Seque
     """
     if not isinstance(ingredient_str, str):
         return False
+    return _flag_in_spellings(_spellings_of_text(ingredient_str.lower()), keywords, exceptions)
+
+
+def _flag_in_spellings(spellings: Sequence[str], keywords: Sequence[str], exceptions: Sequence[str]) -> bool:
+    """make_flag on a text's spellings worked out beforehand (add_keyword_flags does it once per recipe)."""
     pattern = _keyword_pattern(tuple(keywords))
-    return any(pattern.search(_without_phrases(text, exceptions)) for text in _spellings_of_text(ingredient_str.lower()))
+    return any(pattern.search(_without_phrases(text, exceptions)) for text in spellings)
 
 # A recipe name that declares the dish gluten-free
 GLUTEN_FREE_NAME = r"\b(?:gluten[- ]?free|gf|flourless|celiac|coeliac)\b"
@@ -938,28 +1112,36 @@ def add_keyword_flags(df: pd.DataFrame, ingredient_col: str, name_col: str | Non
         name_col: Column with the recipe name, or None to use the ingredients only.
 
     Returns:
-        A copy of `df` with the flag columns added; `df` itself is not changed.
+        A copy of `df` with the flag columns added, and 'flag_ingredients': the ingredient text the
+        rules read, kept so the flags can be worked out again after a rule change without rerunning
+        the whole pipeline (pipeline.refresh_flags). `df` itself is not changed.
 
     Raises:
         ValueError: If a named column is missing.
     """
     require_columns(df, [ingredient_col] + ([name_col] if name_col else []), "add_keyword_flags")
     df = df.copy()
-    text = df[ingredient_col].apply(ingredient_text)
+    plain = df[ingredient_col].apply(ingredient_text)
+    df["flag_ingredients"] = plain   # saved without the decoded copy: a refresh decodes with the rules of the day
+    text = plain.apply(_decoded)
     gluten_text = text
     if name_col is not None:
-        names = df[name_col].fillna("").astype(str).str.lower()
+        # spaces tidied as in the saved recipe_name, so a refresh reads exactly the same name (refresh_flags)
+        names = df[name_col].fillna("").astype(str).str.lower().str.replace(r"\s+", " ", regex=True).str.strip()
         # Ready-made ingredients count only in the ingredient list, not in the dish name
-        text = text + " | " + names.apply(name_text)
+        text = text + " | " + names.apply(lambda name: name_text(reveal_hidden_words(name)))
         # "Gluten-free bread" or "flourless cookies": the name describes the kind of dish,
         # not a wheat ingredient, so only the ingredients count for gluten
         gluten_text = text.where(~names.str.contains(GLUTEN_FREE_NAME), gluten_text)
     rules = progress_bar(FLAG_RULES.items(), "Restriction flags", show=len(df) >= MIN_ROWS)
+    # Each text's spellings (with and without accents) once, not once per flag: about a quarter of the time
+    spellings = text.apply(lambda x: _spellings_of_text(x.lower()))
+    gluten_spellings = gluten_text.apply(lambda x: _spellings_of_text(x.lower()))
     for col, (keywords, exceptions) in rules:
-        source_text = gluten_text if col == "contains_gluten" else text
-        df[col] = source_text.apply(lambda x, kw=keywords, ex=exceptions: make_flag(x, kw, ex))
-    df["vegetarian"] = ~text.apply(lambda x: make_flag(x, MEAT_KEYWORDS, MEAT_EXCEPTIONS))
-    df["vegan"]      = ~text.apply(lambda x: make_flag(x, ANIMAL_KEYWORDS, ANIMAL_EXCEPTIONS))
+        source = gluten_spellings if col == "contains_gluten" else spellings
+        df[col] = source.apply(lambda s, kw=keywords, ex=exceptions: _flag_in_spellings(s, kw, ex))
+    df["vegetarian"] = ~spellings.apply(lambda s: _flag_in_spellings(s, MEAT_KEYWORDS, MEAT_EXCEPTIONS))
+    df["vegan"]      = ~spellings.apply(lambda s: _flag_in_spellings(s, ANIMAL_KEYWORDS, ANIMAL_EXCEPTIONS))
     return df
 
 
@@ -1079,6 +1261,20 @@ def add_hf_diet_flags(df: pd.DataFrame) -> pd.DataFrame:
     """
     labels = df["health_labels"].apply(lambda x: set(parse_label_list(x)))
     df = add_keyword_flags(df, "ingredient_lines", name_col="recipe_name")
+    df["hf_health_labels"] = labels.apply(sorted)   # kept for pipeline.refresh_flags
+    return apply_hf_labels(df, labels)
+
+
+def apply_hf_labels(df: pd.DataFrame, labels: pd.Series) -> pd.DataFrame:
+    """Combine keyword flags with Hugging Face's own labels (see add_hf_diet_flags).
+
+    Args:
+        df: Hugging Face recipes with the keyword flags.
+        labels: One set of the dataset's labels per recipe (same index as `df`).
+
+    Returns:
+        `df` with the label rules applied (changed in place and returned).
+    """
     for col, free_label in HF_FREE_LABELS.items():
         df[col] = df[col] | ~labels.apply(lambda s, label=free_label: label in s)
     df["vegetarian"] = labels.apply(lambda s: "vegetarian" in s) & df["vegetarian"]

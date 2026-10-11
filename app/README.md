@@ -21,9 +21,12 @@ The browser opens at `http://localhost:8501`. Save the file and the page reloads
 | Sidebar: foods to avoid, diets, vegetarian / vegan, calories | `safety.UserProfile` |
 | Tab **Find recipes** | `recommend.baseline_recommend` |
 | Tab **Check my recipe** | `llm.check_and_explain`: the safety gate names the line and rule each problem breaks; when Ollama is running, a local model explains a failure in friendly words (shown only if they match the gate) |
-| Sidebar: local AI on / off | `llm.choose_model`: a local Ollama model, or plain sentences when Ollama is not running (always in Colab) |
+| Sidebar: local AI on / off | `llm.choose_model`: a local Ollama model (`llama3.2` when installed: `ollama pull llama3.2`), or plain sentences when Ollama is not running (always in Colab) |
 
 **Not on the page yet** (the back end is ready): a chat tab using `llm.ask_agent` (a local model with the five tools, every answer screened) and the meal planner `crew.plan_meal` (a CrewAI Chef writes a recipe, the code checks it). Both need Ollama running; see the main README's "Agent tools and the meal planner".
+
+**Try the safety gate** in the Check my recipe tab: `3 tbsp satay sauce` (hidden peanut), `200 g p0rk belly` or
+`panceta de cerdo` (disguised and foreign words, both read as pork), `1 cup chocolate pigs` (a sweet: passes).
 
 **Golden rule:** safety decisions come from the back end ([src/everflavor](../src/everflavor/README.md)).
 The page only shows them; never filter or "fix" safety in the page code.

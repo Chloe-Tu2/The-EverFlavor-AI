@@ -23,6 +23,7 @@ from everflavor.nutrition import (
     _norm_text,
 )
 from everflavor.recommend import passes_safety_filter
+from everflavor.refresh import data_freshness
 from everflavor.safety import UserProfile, check_recipe
 from everflavor.sources import usda_table
 
@@ -83,6 +84,13 @@ def test_hand_checked_matches_exist_in_the_usda_download():
     need(USDA_DIR)
     foods = usda_table("sr_legacy", USDA_DIR)
     assert set(INGREDIENT_USDA.values()) - set(foods["description"]) == set()
+
+
+# ------------------------------------------------------------------ freshness
+def test_the_data_was_built_with_the_current_rules():
+    need(ROOT / "data/processed/dataset_info.json")
+    status = data_freshness(ROOT)
+    assert status["message"] == "", status["message"]
 
 
 # ------------------------------------------------------------------ splits

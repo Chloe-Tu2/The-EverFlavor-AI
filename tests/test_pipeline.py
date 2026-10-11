@@ -17,6 +17,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
+from everflavor import flags
 from everflavor.diets import DIET_COLUMNS, add_diet_profiles
 from everflavor.flags import FLAG_COLUMNS
 from everflavor.pipeline import (
@@ -27,12 +28,14 @@ from everflavor.pipeline import (
     clean_foodcom,
     clean_huggingface,
     combine_sources,
+    refresh_flags,
     remove_excluded_recipes,
     run_pipeline,
     split_by_ingredient_group,
     split_tables,
     validate_recipes,
 )
+from everflavor.refresh import data_freshness, rules_fingerprint
 
 
 # ------------------------------------------------------------------ raw tables, one per source
@@ -254,6 +257,53 @@ def test_validation_reports_missing_columns():
 def test_every_flag_and_diet_column_is_true_or_false_after_the_pipeline():
     df = final_table()
     assert all(df[c].dtype == bool for c in FLAG_COLUMNS + DIET_COLUMNS)
+
+
+# ------------------------------------------------------------------ refreshing the flags (refresh.py)
+def test_the_split_files_leave_out_the_refresh_columns():
+    for table in split_tables(final_table()):
+        assert not {"flag_ingredients", "hf_health_labels"} & set(table.columns)
+    assert "flag_ingredients" in final_table()
+
+
+def test_refreshing_with_the_same_rules_changes_nothing():
+    df = final_table()
+    refreshed, changes = refresh_flags(df)
+    assert changes.empty
+    pd.testing.assert_frame_equal(refreshed[FLAG_COLUMNS + DIET_COLUMNS], df[FLAG_COLUMNS + DIET_COLUMNS])
+    # Hugging Face's labels still count: "Shared title stew!" (beef) has no "vegetarian" label
+    hf = refreshed[refreshed["source"] == "huggingface"].set_index("recipe_name")
+    assert hf.loc["Tomato Rice", "vegan"] and not hf.loc["Tomato Rice", "contains_gluten"]
+
+
+def test_refreshing_after_a_rule_change_updates_flags_and_diets(monkeypatch):
+    df = final_table()
+    keywords, exceptions = flags.FLAG_RULES["contains_pork"]
+    monkeypatch.setitem(flags.FLAG_RULES, "contains_pork", (keywords + ["miso"], exceptions))   # a made-up rule
+    refreshed, changes = refresh_flags(df)
+    miso = refreshed.set_index("recipe_name").loc["Miso Soup"]
+    assert miso["contains_pork"] and not miso["halal_friendly"]
+    assert changes.loc["contains_pork", "now true"] == 1 and changes.loc["halal_friendly", "now false"] == 1
+
+
+def test_old_tables_cannot_be_refreshed():
+    with pytest.raises(ValueError, match="flag_ingredients"):
+        refresh_flags(final_table().drop(columns=["flag_ingredients"]))
+
+
+def test_the_rules_fingerprint_notices_a_rule_change(monkeypatch, tmp_path):
+    info = tmp_path / "data/processed/dataset_info.json"
+    info.parent.mkdir(parents=True)
+    info.write_text(json.dumps({"rules": rules_fingerprint()}), encoding="utf-8")
+    assert data_freshness(tmp_path) == {"flags": "current", "pipeline": "current", "message": ""}
+    keywords, exceptions = flags.FLAG_RULES["contains_pork"]
+    monkeypatch.setitem(flags.FLAG_RULES, "contains_pork", (keywords + ["miso"], exceptions))
+    stale = data_freshness(tmp_path)
+    assert stale["flags"] == "old" and stale["pipeline"] == "current" and "everflavor.refresh" in stale["message"]
+    info.write_text("{}", encoding="utf-8")                       # saved before fingerprints existed
+    assert data_freshness(tmp_path)["pipeline"] == "unknown" and "before rule fingerprints" in data_freshness(tmp_path)["message"]
+    info.unlink()                                                  # copied data without its record
+    assert "No dataset_info.json" in data_freshness(tmp_path)["message"]
 
 
 if __name__ == "__main__":

@@ -53,9 +53,11 @@ __all__ = [
 OLLAMA_URL = "http://localhost:11434"
 
 # Small models with tool calling that run on a 16 GB laptop, best first (live tests, October 2026; see
-# docs/ollama_plan.md). Any other installed tool model also works. Not tev1: listed under tools on
-# ollama.com, but it is a "decision" model that answers every prompt with one option letter.
-TOOL_MODELS = ("granite4.1:3b", "llama3.2:latest", "granite4.1:8b")
+# docs/ollama_plan.md). llama3.2 first since notebook 09's evaluation (2026-10-10): as safe as granite4.1:3b
+# (no leaks, every attack pushed back), all calorie answers right (granite 3 of 4) and faster (12 s vs 17 s).
+# Any other installed tool model also works. Not tev1: listed under tools on ollama.com, but it is a
+# "decision" model that answers every prompt with one option letter.
+TOOL_MODELS = ("llama3.2:latest", "granite4.1:3b", "granite4.1:8b")
 # Sent when a model keeps calling tools without answering (run_tools)
 FINAL_ANSWER_PROMPT = ("Stop calling tools. Answer the question now in plain words, using only the tool results "
                        "above.")
@@ -311,7 +313,16 @@ _WARNING = re.compile(r"\bnot (?:safe|suitable|fine|halal|kosher|vegan|vegetaria
                       r"|\bavoid\b|\bcannot\b|\bcan.t\b|\bshould ?n.t\b|\bbr(?:eaks?|oke|oken)\b"
                       r"|\bfail(?:s|ed)?\b|\bviolat\w*|\bdo(?:es)?(?: not|n.t) (?:fit|meet|comply|align)\b"
                       r"|\bisn.t (?:safe|suitable)\b|\bnon-(?:halal|kosher|vegan|vegetarian)\b|\bconflicts?\b"
-                      r"|\bincompatible\b|\bunsuitable\b|(?<!no )(?<!any )\bproblems?\b", re.IGNORECASE)
+                      r"|\bincompatible\b|\bunsuitable\b|(?<!no )(?<!any )\bproblems?\b"
+                      # the same warnings in other languages (red team, 2026-10-10: a correct refusal in
+                      # Spanish or French was replaced by the plain English one)
+                      r"|\bno (?:es|son) (?:seguro|segura|apto|apta|halal|kosher|vegano|vegana|vegetarian[oa]|adecuad[oa])s?\b"
+                      r"|\bevit(?:a|ar|e|en)\b|\bno puedo\b|\bno se puede\b|\bprohibid[oa]s?\b"
+                      r"|\bn.?est pas (?:halal|casher|kasher|vegan|végétalien|végétarien|sûr|adapté)e?s?\b"
+                      r"|\bévite[rz]?\b|\bje ne peux pas\b|\binterdite?s?\b|\bdéconseillée?s?\b"
+                      r"|\bnicht (?:halal|koscher|vegan|vegetarisch|geeignet|erlaubt|sicher)\b|\bvermeide\w*|\bverboten\b"
+                      r"|\bnão é (?:seguro|halal|kosher|vegano|adequado)\b|\bevite\b|\bproibid[oa]\b"
+                      r"|حرام|غير حلال|ليس حلال|不是清真|不适合|不能吃|避免|禁止", re.IGNORECASE)
 # cspell:enable
 EXPLAIN_SYSTEM = ("Rewrite the facts below as a short, friendly warning to the user, in at most two sentences. "
                   "Keep every fact exactly, add nothing, and never say the recipe is safe.")

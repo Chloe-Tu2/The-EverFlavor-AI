@@ -24,10 +24,11 @@ from collections.abc import Callable, Mapping, Sequence
 from typing import Any
 
 from .agent_tools import agent_tools, resolve_origin
-from .llm import Tool, check_and_explain, ollama_url, profile_text
+from .llm import Tool, check_and_explain, choose_model, ollama_url, profile_text
 from .safety import UserProfile
 
 __all__ = [
+    "CREW_MODELS",
     "MAX_RETRIES",
     "chef_writer",
     "plan_meal",
@@ -38,6 +39,10 @@ MAX_RETRIES = 2          # times a failed recipe goes back to the Chef before th
 CHEF_MAX_STEPS = 6       # tool calls the Chef may make per attempt (a small model can loop)
 SOURCING_ITEMS = 3       # ingredients to look up in where_to_buy
 OVER_BUDGET = 0.25       # a safe recipe this far over the calorie budget goes back to the Chef once more
+# Models for the meal planner, best first: pass `choose_model(preferred=CREW_MODELS)`. Not the chat order
+# (llm.TOOL_MODELS): on the same halal Thai dinner (2026-10-10) granite4.1:3b took 105 s, llama3.2 360 s,
+# both with a safe recipe
+CREW_MODELS = ("granite4.1:3b", "granite4.1:8b", "llama3.2:latest")
 
 RecipeWriter = Callable[[str, Sequence[str]], Mapping[str, Any]]
 
@@ -159,7 +164,8 @@ def plan_meal(request: str, profile: UserProfile, data: Mapping[str, Any], model
         request: What the user asked for ("a Thai-style dinner").
         profile: The user's restrictions (from the app's form).
         data: Tables from agent_tools.load_agent_data.
-        model: The Ollama model for the Chef (llm.choose_model); not needed with `write_recipe`.
+        model: The Ollama model for the Chef; by default the first installed of CREW_MODELS
+            (granite4.1:3b, much faster in CrewAI than the chat default). Not needed with `write_recipe`.
         write_recipe: (request, problems) -> {"name", "servings", "ingredient_lines", "steps"}; default
             the CrewAI Chef. Tests pass a plain function.
         max_retries: Times a failed recipe goes back to the Chef.
@@ -167,14 +173,15 @@ def plan_meal(request: str, profile: UserProfile, data: Mapping[str, Any], model
 
     Returns:
         {"recipe", "gate" (check_and_explain on the final recipe), "attempts" (each try's name, passed,
-        problems), "fallback" (True when the Chef never passed and a recommended dish was used),
+        problems, kcal_over_budget: kcal per serving when it was too far over budget, else None), "fallback" (True when the Chef never passed and a recommended dish was used),
         "calories" (count_calories), "where_to_buy" (where_to_buy per ingredient), "seconds"}.
     """
     start = time.time()
     tools = {t.name: t for t in agent_tools(data, profile)}
     if write_recipe is None:
+        model = model or choose_model(url, preferred=CREW_MODELS)["model"]
         if not model:
-            raise ValueError("a model (llm.choose_model) or write_recipe is needed")
+            raise ValueError("no Ollama model for the Chef (start Ollama, or pass write_recipe)")
         write_recipe = chef_writer(list(tools.values()), profile, model, url)
     attempts: list[dict] = []
     problems: list[str] = []
@@ -190,7 +197,7 @@ def plan_meal(request: str, profile: UserProfile, data: Mapping[str, Any], model
         problems = [f"{p['line']} ({p['rule']})" for p in draft_gate["problems"]]
         kcal = _over_budget(draft, profile, tools) if draft_gate["passed"] else None
         attempts.append({"name": draft.get("name"), "passed": draft_gate["passed"], "problems": problems,
-                         "kcal_per_serving": kcal})
+                         "kcal_over_budget": kcal})   # None: within budget (or not counted)
         if not draft_gate["passed"]:
             continue
         recipe, gate = draft, draft_gate          # safe: keep it even if a lighter retry fails

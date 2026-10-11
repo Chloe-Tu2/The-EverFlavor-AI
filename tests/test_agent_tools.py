@@ -72,6 +72,10 @@ def test_calories_compares_with_the_budget():
     assert out["kcal_total"] == round(2 * 185 * 3.6 + 453.6 * 1.2)
     assert out["share_of_lines_counted"] < 1 and any("love" in t for t in out["not_counted"])
     assert out["over_budget_by"] == out["kcal_per_serving"] - 600
+    # one sentence that compares a serving (not the whole recipe) with the budget
+    assert out["summary"].startswith(f"About {out['kcal_per_serving']} kcal per serving") and "over the budget" in out["summary"]
+    small = tool.run(ingredient_lines=["1 cup rice"], servings=2)["summary"]
+    assert "within the budget of 600 kcal per meal" in small and "for 2 servings" in small
     assert tool.run(ingredient_lines="2 cups rice", servings=None)["kcal_per_serving"] is None
     with pytest.raises(ValueError):
         tool.run(ingredient_lines=[])
@@ -104,6 +108,17 @@ def test_agent_tools_offers_only_what_has_data(tmp_path):
     names = [t.name for t in agent_tools.agent_tools({"recipes": recipes()}, HALAL_NO_PEANUT)]
     assert names == ["check_recipe", "recommend_recipes"]
     assert agent_tools.load_agent_data(tmp_path) == {}   # an empty project folder: nothing, no error
+
+
+def test_loading_recipes_saved_with_older_rules_warns(tmp_path):
+    processed = tmp_path / "data" / "processed"
+    processed.mkdir(parents=True)
+    for split in ("train", "val", "test"):
+        recipes().to_parquet(processed / f"recipes_{split}.parquet")
+    (processed / "dataset_info.json").write_text('{"rules": {"flags": "old", "pipeline": "old"}}', encoding="utf-8")
+    with pytest.warns(UserWarning, match="out of date"):
+        data = agent_tools.load_agent_data(tmp_path)
+    assert len(data["recipes"]) == 3 * len(recipes())         # still loaded: the tools check every recipe anyway
 
 
 if __name__ == "__main__":

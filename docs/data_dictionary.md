@@ -36,6 +36,8 @@ Columns of the processed recipe table: `data/interim/recipes_all.parquet` (all r
 | `ingredient_list` | list of text | Normalized ingredient names: lowercase, singular, quantities, units and preparation words removed, synonyms merged (section 5.4.4). |
 | `complexity` | integer | Number of unique ingredients (at least 2). |
 | `ingredient_group` | text | Recipes with exactly the same ingredients share a group, so near-duplicates stay in one split. |
+| `flag_ingredients` | text | The ingredient text the restriction flags were read from (fuller than `ingredient_list`: Hugging Face's ingredient lines). Kept so the flags can be refreshed after a rule change without rerunning notebook 01 (`python -m everflavor.refresh`). Only in `data/interim/recipes_all.parquet`, not in the split files. |
+| `hf_health_labels` | list of text | Hugging Face only: the dataset's own labels (`gluten-free`, `vegan` ...), which also set flags. Empty for the other sources. Only in `recipes_all.parquet`. |
 
 ## Nutrition (per serving)
 

@@ -13,7 +13,13 @@ from collections.abc import Mapping, Sequence
 from dataclasses import asdict, dataclass, field
 
 from .diets import DIET_PROFILES
-from .flags import FLAG_RULES, explain_flag, keyword_flag, name_text
+from .flags import (
+    FLAG_RULES,
+    explain_flag,
+    keyword_flag,
+    name_text,
+    reveal_hidden_words,
+)
 
 __all__ = [
     "UserProfile",
@@ -92,8 +98,10 @@ def check_recipe(ingredient_lines: Sequence[object], recipe_name: object, profil
         "flag" (the flag that fired), "matched" (the words that set it)}, "checked": the rules
         checked}. Pet meat is always checked (policy P24), whatever the profile says.
     """
-    texts = [(str(line), str(line).lower()) for line in ingredient_lines if line is not None and str(line).strip()]
-    name = name_text(recipe_name)
+    # reveal_hidden_words: "p0rk", "p o r k", 🐖 and "cerdo" are read as pork (red team, 2026-10-10)
+    texts = [(str(line), reveal_hidden_words(line).lower()) for line in ingredient_lines
+             if line is not None and str(line).strip()]
+    name = name_text(reveal_hidden_words(recipe_name) if isinstance(recipe_name, str) else recipe_name)
     if name.strip():
         texts.append((f"(dish name) {recipe_name}", name))
     problems = _problems(texts, "contains_pet_meat", "never served (P24)")

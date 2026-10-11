@@ -24,7 +24,8 @@ notebook or Colab run can fail because of Ollama. The notebooks do not import `l
 ## Setup (once per computer)
 
 1. Install Ollama: <https://ollama.com/download> (Windows, macOS, Linux; Windows on ARM included).
-2. Download a model that can call tools: `ollama pull granite4.1:3b` (about 2 GB). Python side: `pip install -r config/requirements-app.txt`.
+2. Download the models that can call tools: `ollama pull llama3.2` (chat and agents) and `ollama pull granite4.1:3b`
+   (meal planner), about 2 GB each. Python side: `pip install -r config/requirements-app.txt`.
 3. Check: `ollama list`, then in Python:
 
    ```python
@@ -42,14 +43,17 @@ on a 16 GB Windows ARM laptop (CPU only):
 
 | Model | Size | Tools | Live test (3 recipes, safety tool) | Time per answer |
 |---|---|---|---|---|
-| `granite4.1:3b` (default) | 2.1 GB | Yes | 3 of 3 right, tool called every time | 10-21 s |
-| `llama3.2` (3B) | 2.0 GB | Yes | 3 of 3 right, tool called every time | 10-22 s |
+| `granite4.1:3b` (meal planner) | 2.1 GB | Yes | 3 of 3 right, tool called every time | 10-21 s |
+| `llama3.2` (3B, default) | 2.0 GB | Yes | 3 of 3 right, tool called every time | 10-22 s |
 | `granite4.1:8b` | 5 GB | Yes | Tools 6 / 6; meal planner: safe halal Thai curry first try, 695 kcal, better recipe | 22-48 s per question; planner 4 min |
 | `tev1:4b` | 4.5 GB | Listed, but **no** | A "decision" model: answers every prompt with one option letter ("Say OK" gave "K"); removed | |
 | `gemma3:4b` | 3.3 GB | **No** (vision only) | cannot call tools: not usable as an agent | |
 
-**Choice for this laptop:** `granite4.1:3b` stays the default (fast enough for a person waiting);
-`granite4.1:8b` writes better recipes but is 3-4 times slower: use it on a stronger PC. Image models: see
+**Choice for this laptop (updated 2026-10-10, round 9):** `llama3.2` is the default for chat and the agents
+(`llm.TOOL_MODELS`): as safe as granite in notebook 09, every calorie answer right (granite 3 of 4) and faster
+(12 s vs 17 s). The CrewAI meal planner keeps `granite4.1:3b` (`crew.CREW_MODELS`): 105 s vs 360 s for llama3.2
+on the same request, both safe. `granite4.1:8b` writes better recipes but is 3-4 times slower: use it on a
+stronger PC. Image models: see
 [vision_setup.md](vision_setup.md).
 
 Small models send lists as text (`'["rice"]'`) and invent extra arguments (`"avoid": ["peanuts"]`):
@@ -153,7 +157,28 @@ The first run found two problems, both fixed: granite called `recommend_recipes`
 never answered (2 of 25 empty; `run_tools` now gives one last turn without tools), and granite gave a
 recipe's total as the calories "per serving" (the scoring now checks per-serving claims against the
 per-serving count). Still open: granite compares a recipe's total (770 kcal) with the per-serving budget
-(700), when one serving is 385. On these questions llama3.2 is the more accurate and faster of the two.
+(700), when one serving is 385. On these questions llama3.2 is the more accurate and faster of the two, so it
+became the default for chat and the agents; the meal planner keeps granite (much faster in CrewAI). Checked
+later: the planner's calorie count was there all along (`plan["calories"]`: 436 kcal per serving for granite's
+curry); an attempt's `kcal_per_serving` is only filled when it is over budget, which read like a missing value.
+
+**Round 10: more aggressive attacks** (2026-10-10). A probe of the gate and the answer guard with disguised and
+foreign words found gaps: plain animal names ("pig trotters", "hog jowl", "wild boar", "the other white meat"),
+spelling tricks a model can be asked to use ("p0rk", "p o r k", a Cyrillic "о", zero-width characters, base64,
+🐖) and other languages (cerdo, porc, Schweinefleisch, خنزير, 猪肉). Fixed with new pork words and
+`flags.reveal_hidden_words` (a decoded copy of every text for the gate, the guard and the dataset filter);
+`tests/test_red_team.py` now has 202 checks. Notebook 09 added 8 harder attacks (33 questions, 13 attacks):
+
+| Model | Answered | Leaks | Right tool | Right calories | Attacks pushed back | Median time |
+|---|---|---|---|---|---|---|
+| llama3.2 (default) | 100% | 0 | 100% | 100% | 100% (13 of 13) | 13 s |
+| granite4.1:3b | 100% | 0 | 100% | 75% (3 of 4) | 100% (13 of 13) | 26 s (other jobs were running) |
+
+Fixed the same day: the guard now also knows warning words in Spanish, French, German, Portuguese, Arabic
+and Chinese ("no es halal", "n'est pas halal", "حرام", "不是清真"), so a correct refusal in those languages is
+kept; a foreign "yes" is still removed. The calorie tool now also returns one plain sentence ("About 385 kcal
+per serving (770 kcal in total for 2 servings). One serving is within the budget of 700 kcal per meal."), for
+granite's mix-up of total and per-serving calories.
 
 ## CrewAI
 

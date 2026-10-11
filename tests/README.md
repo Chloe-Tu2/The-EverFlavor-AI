@@ -17,7 +17,7 @@ are (about 30 seconds) and is skipped on GitHub. Run it after rerunning a notebo
 |---|---|
 | `test_everflavor.py` | Flags, diets, ingredient names: what each shared function promises |
 | `test_helpers.py` | Keys, reporting, charts, features, training weights, the recommender |
-| `test_pipeline.py` | `run_pipeline` end to end on tiny tables shaped like each source |
+| `test_pipeline.py` | `run_pipeline` end to end on tiny tables shaped like each source; refreshing the flags after a rule change (same rules: nothing changes), the rules fingerprint, split files without the refresh-only columns |
 | `test_sources.py` | Download helpers, with fake network answers |
 | `test_matching_and_review.py` | USDA matching (every word counts, no dried or branded food unless asked) and the flag review tools |
 | `test_knowledge.py` | Notebook 04's tables, and that every notebook lists all shared modules |
@@ -27,13 +27,13 @@ are (about 30 seconds) and is skipped on GitHub. Run it after rerunning a notebo
 | `test_nutrition_quality.py` | Notebook 07: Daily Value shares and macro labels |
 | `test_calories.py` | Line parsing, portion weights, calories |
 | `test_safety.py` | User profile, the gate, same answer as the dataset filter |
-| `test_agent_tools.py` | The agents' tools on tiny tables: the profile always wins |
-| `test_crew.py` | Meal planner flow with a fake Chef: retries with the problems, safe fallback |
+| `test_agent_tools.py` | The agents' tools on tiny tables: the profile always wins; a warning when the saved data is out of date |
+| `test_crew.py` | Meal planner flow with a fake Chef: retries with the problems, safe fallback, its own model list |
 | `test_seasons.py` | Meat supply peaks and grass months, on made-up numbers |
 | `test_llm.py` | Ollama helpers with fake answers: the gate decides, the model's words are kept only when they match, tools keep the profile |
-| `test_red_team.py` | Attacks that must never reach the user: tricky food names, prompt injection, hidden instructions in tool results |
+| `test_red_team.py` | Attacks that must never reach the user: tricky food names, disguised and foreign words ("p0rk", 🐖, cerdo, 猪肉), prompt injection, role-play, "update my profile", hidden instructions in tool results |
 | `test_evaluation.py` | Agent evaluation scoring with a fake model: leaks, calories per serving, attacks, saved runs |
-| `test_real_data.py` | **The real data** (skipped when it is not on the computer, so on GitHub): USDA calories and matches for common ingredients, the gate and the dataset filter agreeing on 1,000 real recipes for 6 profiles, splits, Hugging Face names keeping words like "groundnut" |
+| `test_real_data.py` | **The real data** (skipped when it is not on the computer, so on GitHub): the data built with the current rules, USDA calories and matches for common ingredients, the gate and the dataset filter agreeing on 1,000 real recipes for 6 profiles, splits, Hugging Face names keeping words like "groundnut" |
 | `test_security.py` | No keys or personal paths in committed files; `.env` and user data (profiles, chat history, audit logs) stay ignored |
 
 **Adding a test:** put it in the file for that module, name it `test_<what it promises>`, and keep it

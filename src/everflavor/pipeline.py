@@ -10,12 +10,19 @@ from sklearn.model_selection import train_test_split
 
 from .checks import require_columns
 from .cuisine import cuisine_names, map_cuisine, origin_from_labels
-from .diets import DIET_COLUMNS, DIET_PROFILES, NUTRITION_DIETS, meets_diet
+from .diets import (
+    DIET_COLUMNS,
+    DIET_PROFILES,
+    NUTRITION_DIETS,
+    add_diet_profiles,
+    meets_diet,
+)
 from .flags import (
     FLAG_COLUMNS,
     add_foodcom_diet_flags,
     add_hf_diet_flags,
     add_keyword_flags,
+    apply_hf_labels,
 )
 from .ingredients import (
     clean_ingredients,
@@ -40,11 +47,13 @@ __all__ = [
     "PET_FOOD_NAME",
     "POISONOUS_TO_PETS",
     "RAW_COLUMNS",
+    "REFRESH_ONLY_COLUMNS",
     "SOURCE_PRIORITY",
     "clean_foodcom",
     "clean_huggingface",
     "combine_sources",
     "made_for_pets",
+    "refresh_flags",
     "remove_excluded_recipes",
     "run_pipeline",
     "split_by_ingredient_group",
@@ -121,7 +130,9 @@ COMMON_COLUMNS = (["recipe_id", "source", "recipe_name", "cuisine_family", "cuis
                    "ingredient_list", "complexity", "calories_per_serving", "protein_g",
                    "fat_g", "carbs_g", "sodium_mg", "servings", "minutes", "instructions", "url",
                    "origin_country", "origin_region"]
-                  + FLAG_COLUMNS)
+                  + FLAG_COLUMNS
+                  # what the flags were read from, so they can be refreshed after a rule change (refresh_flags)
+                  + ["flag_ingredients", "hf_health_labels"])
 
 
 # Raw columns each source needs, and the column holding its own origin labels (5.4.6)
@@ -310,6 +321,48 @@ def remove_excluded_recipes(df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, i
     return df[~(pet_meat | pet_food)].reset_index(drop=True), removed
 
 
+def refresh_flags(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Work out the restriction flags and diet profiles again with the current rules (no full rerun).
+
+    Uses the text the flags were first read from ('flag_ingredients' and the name) and Hugging Face's
+    labels ('hf_health_labels'), with the same steps as `run_pipeline` and `combine_sources`: keyword
+    flags, the labels, vegan only if vegetarian, then `remove_excluded_recipes` and `add_diet_profiles`.
+    Nothing else changes (nutrition, origin, splits).
+
+    Args:
+        df: The saved recipe table (notebook 01, section 5.11).
+
+    Returns:
+        (the refreshed table, one row per flag or diet column whose values changed: "now true",
+        "now false"). Recipes that the new rules exclude (pet meat, P24) are removed.
+
+    Raises:
+        ValueError: If the table was saved before these columns existed (rerun notebook 01 once).
+    """
+    require_columns(df, ["flag_ingredients", "hf_health_labels", "recipe_name", "source"], "refresh_flags")
+    before = df.set_index("recipe_id")
+    flagged = add_keyword_flags(df[["flag_ingredients", "recipe_name"]], "flag_ingredients", name_col="recipe_name")
+    out = df.copy()
+    for column in FLAG_COLUMNS:
+        out[column] = flagged[column]
+    hf = out["source"] == "huggingface"
+    labels = out.loc[hf, "hf_health_labels"].apply(lambda x: set(x) if x is not None and len(x) else set())
+    out.loc[hf] = apply_hf_labels(out.loc[hf].copy(), labels)
+    out["vegan"] = out["vegan"] & out["vegetarian"]
+    out, _removed = remove_excluded_recipes(out)
+    out = add_diet_profiles(out)
+    after = out.set_index("recipe_id")
+    changes = {}
+    for column in [*FLAG_COLUMNS, *DIET_COLUMNS]:
+        old, new = before[column].reindex(after.index).astype(bool), after[column].astype(bool)
+        if (old != new).any():
+            changes[column] = {"now true": int((new & ~old).sum()), "now false": int((old & ~new).sum())}
+    removed = len(before) - len(after)
+    if removed:
+        changes["recipes removed (P24, P25)"] = {"now true": 0, "now false": removed}
+    return out, pd.DataFrame.from_dict(changes, orient="index", columns=["now true", "now false"])
+
+
 def _safe_strata(labels: pd.Series) -> pd.Series | None:
     """Return the labels for stratifying, or None if any label has fewer than 2 rows."""
     return labels if labels.value_counts().min() >= 2 else None
@@ -366,9 +419,18 @@ def split_by_ingredient_group(df_all: pd.DataFrame, seed: int = 42, min_per_fami
     return df_all
 
 
+# Kept only in the full table (data/interim/recipes_all.parquet) for refresh_flags: the split files the
+# models and the agents load stay about 20% smaller without them
+REFRESH_ONLY_COLUMNS = ["flag_ingredients", "hf_health_labels"]
+
+
 def split_tables(df_all: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-    """Return the train, validation and test tables (call again after adding columns to df_all)."""
-    train, val, test = (df_all[df_all["split"] == name].reset_index(drop=True) for name in ("train", "val", "test"))
+    """Return the train, validation and test tables (call again after adding columns to df_all).
+
+    The REFRESH_ONLY_COLUMNS are left out of them (the full table keeps them).
+    """
+    tables = df_all.drop(columns=[c for c in REFRESH_ONLY_COLUMNS if c in df_all.columns])
+    train, val, test = (tables[tables["split"] == name].reset_index(drop=True) for name in ("train", "val", "test"))
     return train, val, test
 
 

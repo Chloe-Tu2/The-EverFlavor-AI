@@ -20,7 +20,7 @@ After 01, the rest can run in any order, except where the table says "needs".
 | 06 | [Dish variants](06_dish_variants.ipynb) | Halal, vegan, gluten-free ... version of each dish. Needs 04 (substitutions) | `processed/recipe_variants.parquet`, `recipe_variants_summary.csv` |
 | 07 | [Nutrition quality](07_nutrition_quality.ipynb) | Macro labels, nutrient-rich ingredients, calorie calculator check | `processed/recipe_nutrition_quality.parquet`, `ingredient_micronutrients.csv` |
 | 08 | [Climate and season](08_climate_and_season.ipynb) | Meat: when each meat is most plentiful and when animals graze fresh grass, by region (built; first run downloads about 10 minutes of weather). Carbon footprint and produce seasons: planned | `processed/meat_supply_seasons.csv`, `pasture_seasons.csv` |
-| 09 | [Agent evaluation](09_agent_evaluation.ipynb) | The same 25 questions (5 profiles, 5 attacks) for every local model, scored by code: leaks, right tool, right calories, attacks pushed back; each run compared with the last. VS Code / Antigravity only (needs Ollama) | `processed/agent_eval/agent_eval_<date>.csv` |
+| 09 | [Agent evaluation](09_agent_evaluation.ipynb) | The same 33 questions (5 profiles, 13 attacks) for every local model, scored by code: leaks, right tool, right calories, attacks pushed back; each run compared with the last. VS Code / Antigravity only (needs Ollama) | `processed/agent_eval/agent_eval_<date>.csv` |
 
 ## Run times
 
@@ -29,7 +29,7 @@ at the top. Colab's free runtime takes about as long, or a little longer. First-
 
 | # | Re-run | First run adds | Slowest part |
 |---|---|---|---|
-| 01 | about 20-35 min | 10-30 min of downloads | 5.5.2, the pipeline on every source (about 15 min) |
+| 01 | about 30-45 min | 10-30 min of downloads | 5.5.2, the pipeline on every source (about 15 min) |
 | 02 | about 2 min | little (reuses 01's Food.com download) | Section 3, cooking methods |
 | 03 | about 2 min | 30-60 min (Open Food Facts export, OpenStreetMap) | Section 5, linking ingredients to products |
 | 04 | under 1 min | 10-30 min (Wikidata, FoodKeeper) | Section 3 |
@@ -37,10 +37,26 @@ at the top. Colab's free runtime takes about as long, or a little longer. First-
 | 06 | about 6 min | nothing (needs 01 and 04) | Section 3, variants for every dish |
 | 07 | under 1 min | nothing (uses 01's USDA files) | Section 6, calorie calculator check |
 | 08 | about 2 min | 10-12 min (10 years of weather for 11 regions) | Section 3b |
-| 09 | about 16 min (two small models) | pulling the models (`ollama pull`, a few GB) | Section 4, the questions (10-50 s each) |
+| 09 | about 30 min (two small models) | pulling the models (`ollama pull`, a few GB) | Section 4, the questions (10-50 s each) |
 
 All nine on a fresh computer: plan for an afternoon (most of it notebook 05's photos); re-running all of
 them takes about an hour.
+
+## When the rules change
+
+The saved tables hold the flags and nutrition of the day notebook 01 ran. Notebook 01 saves a fingerprint of
+the rules in `dataset_info.json`; when the code's rules differ, the agents warn ("Saved recipes are out of
+date") and `tests/test_real_data.py` fails with what to do. Safety never depends on it: the tools check
+every recipe with the current rules before showing it.
+
+| What changed | What to run | Time |
+|---|---|---|
+| Flag words, diet rules (`flags.py`, `diets.py`) | `python -m everflavor.refresh` from the project folder, with `src` on the path (PowerShell: `$env:PYTHONPATH="src"`), then notebooks 02, 04 and 06 | about 20-25 minutes, then about 10 |
+| Ingredient names, USDA matches (`ingredients.py`, `nutrition.py`) | Notebook 01, then 02, 03, 04, 06 and 07 | about 1 hour |
+| Not sure | `python -m everflavor.refresh`: it says which | seconds |
+
+When the logic itself changes (not only the word lists), raise `FLAG_LOGIC_VERSION` or
+`PIPELINE_LOGIC_VERSION` in `refresh.py` so the fingerprint notices.
 
 ## Good to know
 

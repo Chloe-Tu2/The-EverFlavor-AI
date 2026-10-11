@@ -12,6 +12,7 @@ CrewAI agents and the app.
 from __future__ import annotations
 
 import re
+import warnings
 from collections.abc import Mapping, Sequence
 from pathlib import Path
 from typing import Any
@@ -42,7 +43,8 @@ def load_agent_data(root: str | Path = ".") -> dict[str, Any]:
     Returns:
         A dict with any of: "recipes" (notebook 01's splits), "usda" (USDA matches, notebook 01),
         "portions" (USDA household weights), "substitutions" (notebook 04), "products" and
-        "places" (notebook 03).
+        "places" (notebook 03). Warns (UserWarning) when the recipes were saved with older rules than
+        the code's (refresh.data_freshness); the tools still check every recipe with the current rules.
     """
     root = Path(root)
     processed = root / "data" / "processed"
@@ -62,6 +64,12 @@ def load_agent_data(root: str | Path = ".") -> dict[str, Any]:
                       ("places", "places")]:
         if (processed / f"{name}.parquet").exists():
             data[key] = pd.read_parquet(processed / f"{name}.parquet")
+    if "recipes" in data:
+        # imported here: it loads the rule tables, needed only when there is data to check
+        from .refresh import data_freshness
+        status = data_freshness(root)
+        if status["message"]:
+            warnings.warn(f"Saved recipes are out of date: {status['message']}", UserWarning, stacklevel=2)
     return data
 
 
@@ -207,7 +215,8 @@ def calories_tool(usda: pd.DataFrame, portions: Mapping[int, Mapping[str, float]
                             "(a recipe from recommend_recipes already has its calories)."}
         per_serving = result["kcal_per_serving"]
         budget = profile.calories_per_meal
-        return {"kcal_per_serving": None if per_serving is None else round(per_serving),
+        return {"summary": _calorie_summary(per_serving, result["kcal_total"], count, budget),
+                "kcal_per_serving": None if per_serving is None else round(per_serving),
                 "kcal_total": round(result["kcal_total"]),
                 "share_of_lines_counted": round(result["counted_share"], 2),
                 "not_counted": [str(t) for t in result["not_counted"]["text"]][:10]
@@ -227,6 +236,19 @@ def calories_tool(usda: pd.DataFrame, portions: Mapping[int, Mapping[str, float]
             "servings": {"type": "number", "description": "How many servings the recipe makes"}}},
         run=run,
     )
+
+
+def _calorie_summary(per_serving: float | None, total: float, servings: float | None, budget: float | None) -> str:
+    """One plain sentence for the model to repeat (notebook 09, 2026-10-10: granite4.1:3b compared a recipe's
+    770 kcal total with a 700 kcal budget per serving, when one serving was 385 kcal)."""
+    if per_serving is None:
+        return f"About {round(total)} kcal for the whole recipe; the number of servings is not known."
+    text = f"About {round(per_serving)} kcal per serving ({round(total)} kcal in total for {servings:g} servings)."
+    if budget:
+        verdict = (f"within the budget of {budget:g} kcal per meal" if per_serving <= budget
+                   else f"{round(per_serving - budget)} kcal over the budget of {budget:g} kcal per meal")
+        text += f" One serving is {verdict}."
+    return text
 
 
 def where_to_buy_tool(products: pd.DataFrame, places: pd.DataFrame, profile: UserProfile) -> Tool:

@@ -39,7 +39,7 @@ or 10 times an average recipe) dropped the top-guess accuracy from 81% to about 
 76% to 55%, and the United States recipes found from 68% to about 20% (most were labeled Mexican, Italian or French
 instead): more wrong countries, which the limitations below warn are hurtful.
 
-**In the full table:** 121,449 recipes labeled by their source, 108,586 predicted, 61,720 `Unknown`.
+**In the full table:** 121,449 recipes labeled by their source, 108,663 predicted, 61,643 `Unknown`.
 
 ## Limitations
 
