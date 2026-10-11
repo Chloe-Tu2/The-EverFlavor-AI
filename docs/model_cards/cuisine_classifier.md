@@ -9,7 +9,7 @@ The classifier predicts a recipe's cuisine family (African, Asian, European, Lat
 ## Model
 
 - **Pipeline:** a scikit-learn `Pipeline` with two steps:
-  1. `CountVectorizer`: each normalized ingredient is one feature; ingredients in fewer than 5 training recipes are dropped, leaving a vocabulary of 4,624.
+  1. `CountVectorizer`: each normalized ingredient is one feature; ingredients in fewer than 5 training recipes are dropped, leaving a vocabulary of 4,626.
   2. `LogisticRegression` with `class_weight="balanced"`.
 - **Training data:** 63,903 training-split recipes with a real cuisine label. "Other" is treated as unlabeled.
 - **Leakage:** the vocabulary and weights are fitted on the training split only. Recipes with the same ingredients never appear in two splits.

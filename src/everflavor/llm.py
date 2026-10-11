@@ -314,8 +314,8 @@ _WARNING = re.compile(r"\bnot (?:safe|suitable|fine|halal|kosher|vegan|vegetaria
                       r"|\bfail(?:s|ed)?\b|\bviolat\w*|\bdo(?:es)?(?: not|n.t) (?:fit|meet|comply|align)\b"
                       r"|\bisn.t (?:safe|suitable)\b|\bnon-(?:halal|kosher|vegan|vegetarian)\b|\bconflicts?\b"
                       r"|\bincompatible\b|\bunsuitable\b|(?<!no )(?<!any )\bproblems?\b"
-                      # the same warnings in other languages (red team, 2026-10-10: a correct refusal in
-                      # Spanish or French was replaced by the plain English one)
+                      # the same warnings in Spanish, French, German, Portuguese, Arabic and Chinese (red team,
+                      # 2026-10-10: a correct refusal in another language was replaced by the plain English one)
                       r"|\bno (?:es|son) (?:seguro|segura|apto|apta|halal|kosher|vegano|vegana|vegetarian[oa]|adecuad[oa])s?\b"
                       r"|\bevit(?:a|ar|e|en)\b|\bno puedo\b|\bno se puede\b|\bprohibid[oa]s?\b"
                       r"|\bn.?est pas (?:halal|casher|kasher|vegan|végétalien|végétarien|sûr|adapté)e?s?\b"
