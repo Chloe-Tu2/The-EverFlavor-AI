@@ -26,6 +26,8 @@ from everflavor.freshness import (
     sample_weights,
     selection_score,
     split_without_leakage,
+    system_check,
+    system_verdict,
     train_all_groups,
     training_device,
 )
@@ -266,6 +268,23 @@ def test_training_device_prefers_nvidia_then_apple_then_the_processor(monkeypatc
     assert training_device() == ("cpu", None)
     monkeypatch.setitem(sys.modules, "torch", None)   # not installed
     assert training_device() == ("cpu", None)
+
+
+def test_system_check_and_verdict(monkeypatch, tmp_path):
+    info = system_check(tmp_path)   # the real computer: every field filled, nothing raised
+    assert info["cpu_cores"] >= 1 and info["free_disk_gb"] >= 0 and isinstance(info["gpus"], list)
+
+    def verdict(**changes):
+        base = {"ram_gb": 16.0, "free_disk_gb": 100.0, "gpus": [], "device": "cpu", "device_name": None}
+        return " ".join(system_verdict({**base, **changes.pop("info", {})}, **changes))
+
+    assert "Training: OK, on Tesla T4" in verdict(info={"device": "cuda", "device_name": "Tesla T4"})
+    assert "Change runtime type" in verdict(in_colab=True)
+    assert "CUDA build" in verdict(info={"gpus": ["NVIDIA GeForce RTX 3060"]})
+    snapdragon = verdict(info={"gpus": ["Qualcomm(R) Adreno(TM) X1-85 GPU"], "ram_gb": 6.0, "free_disk_gb": 5.0})
+    assert "Adreno" in snapdragon and "train in Colab" in snapdragon
+    assert "LOW MEMORY" in snapdragon and "NOT ENOUGH DISK" in snapdragon
+    assert "Disk: OK" in verdict() and "LOW MEMORY" not in verdict()
 
 
 def test_pack_results_zips_files_and_folders(tmp_path):

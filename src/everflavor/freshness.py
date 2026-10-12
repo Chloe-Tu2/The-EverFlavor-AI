@@ -565,6 +565,91 @@ def training_device() -> tuple[str, str | None]:
     return "cpu", None
 
 
+def _ram_gb() -> float | None:
+    """Total memory in GB, with the standard library only (None if it can not be read)."""
+    # getattr: windll exists only on Windows and sysconf only elsewhere, so the type check reads the same everywhere
+    try:
+        if os.name == "nt":
+            import ctypes
+
+            class MemoryStatus(ctypes.Structure):
+                _fields_ = [("length", ctypes.c_ulong), ("load", ctypes.c_ulong), ("total", ctypes.c_ulonglong),
+                            ("available", ctypes.c_ulonglong), ("page_total", ctypes.c_ulonglong),
+                            ("page_free", ctypes.c_ulonglong), ("virtual_total", ctypes.c_ulonglong),
+                            ("virtual_free", ctypes.c_ulonglong), ("extended", ctypes.c_ulonglong)]
+
+            status = MemoryStatus()
+            status.length = ctypes.sizeof(MemoryStatus)
+            getattr(ctypes, "windll").kernel32.GlobalMemoryStatusEx(ctypes.byref(status))   # noqa: B009
+            return float(status.total) / 1e9
+        sysconf = getattr(os, "sysconf")   # noqa: B009
+        return float(sysconf("SC_PAGE_SIZE") * sysconf("SC_PHYS_PAGES")) / 1e9
+    except (AttributeError, OSError, ValueError):
+        return None
+
+
+def _gpu_names() -> list[str]:
+    """Every graphics card the system reports (NVIDIA, AMD, Intel, Apple, Qualcomm...), any vendor."""
+    if sys.platform == "win32":
+        command = ["powershell", "-NoProfile", "-Command", "(Get-CimInstance Win32_VideoController).Name"]
+    elif sys.platform == "darwin":
+        command = ["system_profiler", "SPDisplaysDataType"]
+    elif shutil.which("nvidia-smi"):
+        command = ["nvidia-smi", "--query-gpu=name", "--format=csv,noheader"]
+    else:
+        command = ["lspci"]
+    try:
+        lines = subprocess.run(command, check=False, capture_output=True, text=True, timeout=30).stdout.splitlines()
+    except (OSError, subprocess.SubprocessError):
+        return []
+    if command[0] == "system_profiler":
+        lines = [line.split(":", 1)[1] for line in lines if "Chipset Model" in line]
+    elif command[0] == "lspci":
+        lines = [line.split(": ", 1)[-1] for line in lines if "VGA" in line or "3D controller" in line]
+    return [line.strip() for line in lines if line.strip()]
+
+
+def system_check(folder: str | Path = ".") -> dict:
+    """What this computer has: processor cores, memory, free disk where the photos go, graphics cards
+    and the device PyTorch would train on (training_device)."""
+    device, device_name = training_device()
+    ram = _ram_gb()
+    return {"cpu_cores": os.cpu_count() or 1, "ram_gb": None if ram is None else round(ram, 1),
+            "free_disk_gb": round(shutil.disk_usage(folder).free / 1e9, 1), "gpus": _gpu_names(),
+            "device": device, "device_name": device_name}
+
+
+def system_verdict(info: Mapping[str, object], in_colab: bool = False, disk_needed_gb: float = 10.0) -> list[str]:
+    """Plain sentences on what this computer can handle, from system_check.
+
+    The photos need about 7 GB (MeatScan adds about 50 GB while it unpacks); training needs a GPU
+    PyTorch can use (NVIDIA, or Apple M-series) and about 8 GB of memory.
+    """
+    gpus = [str(g) for g in info.get("gpus") or []]   # type: ignore[attr-defined]
+    ram, disk, device = info.get("ram_gb"), float(str(info.get("free_disk_gb") or 0)), info.get("device")
+    lines = []
+    if disk < disk_needed_gb:
+        lines.append(f"NOT ENOUGH DISK: {disk:.0f} GB free, the photos need about {disk_needed_gb:.0f} GB. "
+                     "Free some space or run in Colab.")
+    else:
+        lines.append(f"Disk: OK ({disk:.0f} GB free; the photos need about {disk_needed_gb:.0f} GB).")
+    if isinstance(ram, (int, float)) and ram < 8:
+        lines.append(f"LOW MEMORY: {ram:.0f} GB; sections 2-4 work, but training may run out of memory. Use Colab to train.")
+    if device in ("cuda", "mps"):
+        lines.append(f"Training: OK, on {info.get('device_name')}.")
+    elif in_colab:
+        lines.append("Training: no GPU in this session. Runtime > Change runtime type > T4 GPU, then run all again.")
+    elif any("nvidia" in g.lower() for g in gpus):
+        lines.append("Training: an NVIDIA GPU is here, but PyTorch can not use it yet. Install the CUDA build "
+                     "from https://pytorch.org/get-started/locally/ and restart the kernel.")
+    else:
+        found = ", ".join(gpus) if gpus else "none found"
+        lines.append(f"Training: no GPU PyTorch can use (graphics: {found}; PyTorch trains on NVIDIA or Apple "
+                     "M-series GPUs). It would run on the processor: hours even for one group and one seed. "
+                     "Sections 2-4 and 7 run fine here; train in Colab (free T4 GPU).")
+    return lines
+
+
 def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
                           plan: Mapping[str, object] = TRAINING_PLAN, seed: int = 0) -> dict:
     """Fine-tune MobileNetV3 on one food group's `state`, with early stopping on the validation split.
