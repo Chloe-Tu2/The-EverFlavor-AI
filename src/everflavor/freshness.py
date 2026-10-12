@@ -547,6 +547,24 @@ TRAINING_PLAN = {
 }
 
 
+def training_device() -> tuple[str, str | None]:
+    """Where training runs: ("cuda", GPU name), ("mps", "Apple GPU") or ("cpu", None).
+
+    NVIDIA GPUs (Colab's T4, a gaming PC) come first, then the GPU built into Apple
+    M-series Macs; everything else trains on the processor. ("cpu", None) also when
+    torch is not installed (it is only needed to train).
+    """
+    try:
+        import torch
+    except ImportError:
+        return "cpu", None
+    if torch.cuda.is_available():
+        return "cuda", torch.cuda.get_device_name(0)
+    if torch.backends.mps.is_available():
+        return "mps", "Apple GPU (MPS)"
+    return "cpu", None
+
+
 def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
                           plan: Mapping[str, object] = TRAINING_PLAN, seed: int = 0) -> dict:
     """Fine-tune MobileNetV3 on one food group's `state`, with early stopping on the validation split.
@@ -602,12 +620,12 @@ def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
     train, val = data[data["split"] == "train"], data[data["split"] == "val"]
     batch = int(str(plan["batch_size"]))
     sampler = WeightedRandomSampler(train["weight"].astype(float).tolist(), len(train))
-    # Two loader processes on Linux (Colab); none on Windows, which starts them by pickling the dataset,
-    # and this one is defined inside the function (smoke test on Windows, 2026-10-11)
-    workers = 0 if sys.platform == "win32" else 2
+    # Two loader processes on Linux (Colab); none on Windows or macOS, which start them by pickling the
+    # dataset, and this one is defined inside the function (smoke test on Windows, 2026-10-11)
+    workers = 2 if sys.platform.startswith("linux") else 0
     train_loader = DataLoader(Images(train, train_tf), batch_size=batch, sampler=sampler, num_workers=workers)
     val_loader = DataLoader(Images(val, eval_tf), batch_size=batch, num_workers=workers)
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = training_device()[0]
     model = models.mobilenet_v3_small(weights=models.MobileNet_V3_Small_Weights.DEFAULT)
     model.classifier[-1] = nn.Linear(model.classifier[-1].in_features, len(STATES))
     model.to(device)

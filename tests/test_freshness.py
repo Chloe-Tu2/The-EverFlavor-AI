@@ -27,6 +27,7 @@ from everflavor.freshness import (
     selection_score,
     split_without_leakage,
     train_all_groups,
+    training_device,
 )
 
 
@@ -246,6 +247,25 @@ def test_training_resumes_after_a_disconnect(tmp_path):
     again = train_all_groups(pd.DataFrame(), ["fish", "produce"], [0, 1], tmp_path / "m", tmp_path / "r",
                              train=fake_train)
     assert runs[4:] == [("produce", 1)] and [r["seed"] for r in again] == [0, 1, 0, 1]
+
+
+def test_training_device_prefers_nvidia_then_apple_then_the_processor(monkeypatch):
+    import types
+
+    def fake_torch(cuda, mps):
+        torch = types.SimpleNamespace(
+            cuda=types.SimpleNamespace(is_available=lambda: cuda, get_device_name=lambda i: "Tesla T4"),
+            backends=types.SimpleNamespace(mps=types.SimpleNamespace(is_available=lambda: mps)))
+        monkeypatch.setitem(sys.modules, "torch", torch)
+
+    fake_torch(cuda=True, mps=False)
+    assert training_device() == ("cuda", "Tesla T4")
+    fake_torch(cuda=False, mps=True)
+    assert training_device() == ("mps", "Apple GPU (MPS)")
+    fake_torch(cuda=False, mps=False)
+    assert training_device() == ("cpu", None)
+    monkeypatch.setitem(sys.modules, "torch", None)   # not installed
+    assert training_device() == ("cpu", None)
 
 
 def test_pack_results_zips_files_and_folders(tmp_path):
