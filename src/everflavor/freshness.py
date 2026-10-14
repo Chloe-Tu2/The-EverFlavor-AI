@@ -236,6 +236,11 @@ ZENODO_API = "https://zenodo.org/api/records/"
 ZENODO_LICENSES = {"cc-by-4.0", "cc-by-3.0", "cc0-1.0"}
 
 
+# What mendeley_download and zenodo_download can raise: network errors and refused licenses (OSError),
+# unsafe archive paths and bad answers (ValueError), a missing .rar tool (RuntimeError), a failed unpack
+DOWNLOAD_ERRORS = (OSError, ValueError, RuntimeError, subprocess.SubprocessError, zipfile.BadZipFile)
+
+
 def _rar_tool() -> list[str]:
     """The command that unpacks a .rar archive here: Windows' own tar (libarchive), bsdtar or unrar.
 
