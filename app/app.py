@@ -10,6 +10,7 @@ A browser tab opens at http://localhost:8501. Save this file and the page reload
 How Streamlit works, in one sentence: the whole file runs top to bottom every time
 someone clicks something, and each `st.something(...)` call draws one thing on the page.
 """
+import ast
 import sys
 from pathlib import Path
 
@@ -42,8 +43,53 @@ def load_recipes() -> pd.DataFrame:
 
 # ---------- Page setup ----------
 st.set_page_config(page_title="EverFlavor AI", page_icon="🍲", layout="wide")
-st.title("🍲 EverFlavor AI")
-st.caption("Recipes you can safely eat. Starter version for the team.")
+st.markdown("""
+<style>
+/* Cozy cooking-game background */
+.stApp {
+    background-color: #FFF1E6;
+    color: #4A2C2A;
+}
+
+/* Retro-style headings */
+h1, h2, h3 {
+    color: #8B4513;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+/* Pixel-inspired buttons */
+.stButton > button {
+    background-color: #FFB6C1;
+    color: #4A2C2A;
+    border: 3px solid #8B4513;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background-color: #FF8FAB;
+    border-color: #8B4513;
+}
+/* Cooking-game recipe cards */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: #FFF8E7;
+    border: 3px solid #8B4513;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px #D9A679;
+    padding: 12px;
+}
+
+/* Recipe card headings */
+div[data-testid="stVerticalBlockBorderWrapper"] h3 {
+    color: #A0522D;
+    font-family: 'Courier New', monospace;
+}
+</style>
+""", unsafe_allow_html=True)
+st.title("🍳 EverFlavor Kitchen")
+st.caption("🎮 Welcome to your cooking adventure! Discover recipes, explore ingredients, and cook safely.")
 
 if not (DATA / "recipes_test.parquet").exists():
     st.error("No recipe data yet. Run notebooks/01_data_acquisition_EverFlavor_V3.ipynb first.")
@@ -104,8 +150,17 @@ with find_tab:
                 left, middle, right = st.columns(3)
                 left.metric("Calories", f"{row['calories_per_serving']:.0f}")
                 middle.metric("Protein", f"{row['protein_g']:.0f} g")
-                right.metric("Minutes", f"{row['minutes']:.0f}" if pd.notna(row["minutes"]) else "?")
-                st.write("**Ingredients:** " + ", ".join(row["ingredient_list"]))
+                minutes = row.get("minutes")
+                right.metric("Minutes", f"{minutes:.0f}" if pd.notna(minutes) else "N/A")
+                ingredients = row["ingredient_list"]
+
+                if isinstance(ingredients, str):
+                    try:
+                        ingredients = ast.literal_eval(ingredients)
+                    except (ValueError, SyntaxError):
+                        ingredients = [ingredients]
+
+                st.write("**Ingredients:** " + ", ".join(map(str, ingredients)))
 
 with check_tab:
     st.write("Paste a recipe (one ingredient per line) to see if it fits your profile.")
