@@ -54,6 +54,11 @@ def passes_safety_filter(row: pd.Series, avoid: Sequence[str] = (), vegetarian: 
         if not meets_diet(flags, diet).iloc[0]:
             return False
     for flag in avoid:
+        if flag == "vegan":
+            if not make_flag(text, ANIMAL_KEYWORDS, ANIMAL_EXCEPTIONS):
+                return False
+            continue
+
         keywords, exceptions = FLAG_RULES[flag]
         if make_flag(text, keywords, exceptions):
             return False
@@ -120,6 +125,9 @@ def baseline_recommend(
         results = results[results["vegan"] == True]
     if gluten_free:
         results = results[results["contains_gluten"] == False]
+    for flag in avoid:
+        if flag in results.columns:
+            results = results[results[flag] == False]
 
     # Step 3: Keep only recipes with plausible nutrition data
     results = results.loc[
