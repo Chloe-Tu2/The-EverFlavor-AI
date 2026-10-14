@@ -99,7 +99,7 @@ def baseline_recommend(
             the families in `df` (case is ignored: "asian" means "Asian").
     """
     require_columns(df, ["recipe_name", "ingredient_list", "cuisine_family", "calories_per_serving",
-                         "nutrition_plausible", "vegetarian", "vegan", "contains_gluten", *avoid, *diets],
+                         "nutrition_plausible", "vegetarian", "vegan", "contains_gluten"],
                     "baseline_recommend")
     if not calorie_target > 0:
         raise ValueError(f"calorie_target must be a positive number of kcal, got {calorie_target!r}")
@@ -112,6 +112,7 @@ def baseline_recommend(
             raise ValueError(f"unknown cuisine_family {cuisine_family!r}; one of {sorted(families.values())}")
         results = results[results["cuisine_family"] == families[str(cuisine_family).strip().lower()]]
 
+
     # Step 2: Apply dietary flags
     if vegetarian_only:
         results = results[results["vegetarian"] == True]
@@ -119,13 +120,11 @@ def baseline_recommend(
         results = results[results["vegan"] == True]
     if gluten_free:
         results = results[results["contains_gluten"] == False]
-    for flag in avoid:
-        results = results[results[flag] == False]
-    for diet in diets:
-        results = results[results[diet]]
 
     # Step 3: Keep only recipes with plausible nutrition data
-    results = results[results["nutrition_plausible"]]
+    results = results.loc[
+    results["nutrition_plausible"].astype("boolean").fillna(False)
+]
 
     if results.empty:
         print("No recipes matched the given filters.")

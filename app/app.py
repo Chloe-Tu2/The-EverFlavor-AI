@@ -10,6 +10,7 @@ A browser tab opens at http://localhost:8501. Save this file and the page reload
 How Streamlit works, in one sentence: the whole file runs top to bottom every time
 someone clicks something, and each `st.something(...)` call draws one thing on the page.
 """
+import ast
 import sys
 from pathlib import Path
 
@@ -149,8 +150,17 @@ with find_tab:
                 left, middle, right = st.columns(3)
                 left.metric("Calories", f"{row['calories_per_serving']:.0f}")
                 middle.metric("Protein", f"{row['protein_g']:.0f} g")
-                right.metric("Minutes", f"{row['minutes']:.0f}" if pd.notna(row["minutes"]) else "?")
-                st.write("**Ingredients:** " + ", ".join(row["ingredient_list"]))
+                minutes = row.get("minutes")
+                right.metric("Minutes", f"{minutes:.0f}" if pd.notna(minutes) else "N/A")
+                ingredients = row["ingredient_list"]
+
+                if isinstance(ingredients, str):
+                    try:
+                        ingredients = ast.literal_eval(ingredients)
+                    except (ValueError, SyntaxError):
+                        ingredients = [ingredients]
+
+                st.write("**Ingredients:** " + ", ".join(map(str, ingredients)))
 
 with check_tab:
     st.write("Paste a recipe (one ingredient per line) to see if it fits your profile.")
