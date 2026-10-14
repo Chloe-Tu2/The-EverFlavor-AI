@@ -7,7 +7,7 @@ the current code. Checked October 2026 on <https://ollama.com/search?c=vision>.
 
 | Job | Tool | Status |
 |---|---|---|
-| **Fresh / aging / spoiled from a photo** (the measured answer) | Notebook 05's trained image models (one per food group), on a GPU | Data ready; training waits for a GPU |
+| **Fresh / aging / spoiled from a photo** (the measured answer) | Notebook 05's trained image models (one per food group), on a GPU | First models trained on Colab (produce and fish, 2026-10-13); test photos not scored yet |
 | **Describe or explain a photo in words** ("the banana skin has brown patches") | A vision language model in Ollama | This page |
 
 The trained models stay the source of the freshness verdict: a general vision model has not been measured

@@ -5,6 +5,7 @@ torch and a GPU and is not run here. Run with `python -m pytest tests`, or alone
 
     python tests/test_freshness.py
 """
+import json
 import sys
 from pathlib import Path
 
@@ -23,6 +24,7 @@ from everflavor.freshness import (
     index_images,
     mendeley_download,
     pack_results,
+    pick_best_epoch,
     sample_weights,
     selection_score,
     split_without_leakage,
@@ -285,6 +287,30 @@ def test_system_check_and_verdict(monkeypatch, tmp_path):
     assert "Adreno" in snapdragon and "train in Colab" in snapdragon
     assert "LOW MEMORY" in snapdragon and "NOT ENOUGH DISK" in snapdragon
     assert "Disk: OK" in verdict() and "LOW MEMORY" not in verdict()
+
+
+def test_best_epoch_puts_safety_first_but_only_among_good_epochs(tmp_path):
+    # Fish, seed 1 (Colab, 2026-10-13): epoch 2 called the fewest spoiled photos fresh but was a weak model
+    history = [{"epoch": e, "phase": "head" if e <= 5 else "finetune", "spoiled_called_fresh": scf, "macro_f1": f1}
+               for e, scf, f1 in [(1, 0.222, 0.597), (2, 0.017, 0.597), (3, 0.087, 0.673), (4, 0.072, 0.712),
+                                  (5, 0.039, 0.708), (6, 0.031, 0.732), (7, 0.046, 0.775)]]
+    assert pick_best_epoch(history)["epoch"] == 6
+    assert pick_best_epoch(history, tolerance=1.0)["epoch"] == 2   # the old rule: safety only
+
+    # A result saved under the old rule is trained again; one the rule still agrees with is kept
+    runs = []
+
+    def fake_train(index, group, model_dir, plan, seed):
+        runs.append((group, seed))
+        return {"group": group, "seed": seed, "best_epoch": 6, "history": history}
+
+    results_dir = tmp_path / "r"
+    results_dir.mkdir()
+    for seed, kept in [(0, 2), (1, 6)]:
+        (results_dir / f"freshness_fish_seed{seed}.json").write_text(
+            json.dumps({"group": "fish", "seed": seed, "best_epoch": kept, "history": history}), encoding="utf-8")
+    train_all_groups(pd.DataFrame(), ["fish"], [0, 1], tmp_path / "m", results_dir, train=fake_train)
+    assert runs == [("fish", 0)]
 
 
 def test_pack_results_zips_files_and_folders(tmp_path):

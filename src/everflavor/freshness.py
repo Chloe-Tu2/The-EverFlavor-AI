@@ -538,10 +538,11 @@ TRAINING_PLAN = {
     "batch_size": 32,
     "head_only_epochs": 5,
     "max_finetune_epochs": 30,
-    "patience": 5,               # epochs without improvement before stopping
+    "patience": 5,               # fine-tuning epochs without a new best before stopping
     "head_learning_rate": 1e-3,
     "finetune_learning_rate": 1e-4,
-    "selection_metric": "spoiled_called_fresh (lower is better), then macro F1",
+    "selection_metric": "fewest spoiled_called_fresh among epochs within f1_tolerance of the best macro F1, then macro F1",
+    "f1_tolerance": 0.05,
     "weights": "equal per source, then equal per state within a source",
     "seeds": [0, 1, 2],
 }
@@ -650,14 +651,28 @@ def system_verdict(info: Mapping[str, object], in_colab: bool = False, disk_need
     return lines
 
 
+def pick_best_epoch(history: Sequence[Mapping[str, object]], tolerance: float = 0.05) -> Mapping[str, object]:
+    """The epoch to keep: the fewest spoiled photos called fresh, then the best macro F1, among the
+    epochs whose macro F1 is within `tolerance` of the best one.
+
+    Safety comes first, but only among good models: without the tolerance, an early epoch that
+    happened to call few spoiled photos fresh while getting most others wrong could win (fish,
+    seed 1, Colab run of 2026-10-13: macro F1 0.60 kept over 0.73-0.78).
+    """
+    top = max(float(str(h["macro_f1"])) for h in history)
+    eligible = [h for h in history if float(str(h["macro_f1"])) >= top - tolerance]
+    return min(eligible, key=lambda h: (float(str(h["spoiled_called_fresh"])), -float(str(h["macro_f1"]))))
+
+
 def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
                           plan: Mapping[str, object] = TRAINING_PLAN, seed: int = 0) -> dict:
     """Fine-tune MobileNetV3 on one food group's `state`, with early stopping on the validation split.
 
     Phase 1 trains only the new last layer (the pretrained model frozen); phase 2
     fine-tunes the whole model with a lower learning rate. After every epoch the
-    validation split is scored with selection_score and the best epoch is kept, not
-    the last one. The test split is never read here: it is used once, at the very end.
+    validation split is scored with selection_score and the best epoch (pick_best_epoch)
+    is kept, not the last one; training stops after `patience` fine-tuning epochs without
+    a new best (the head-only epochs do not count). The test split is never read here: it is used once, at the very end.
     Augmentation (random crops, flips, small color changes) happens on the fly.
 
     Needs torch and torchvision (and, in practice, a GPU: Colab > Runtime > Change runtime type > GPU).
@@ -733,7 +748,10 @@ def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
 
     out = Path(out_dir) / f"freshness_{group}_seed{seed}.pt"
     out.parent.mkdir(parents=True, exist_ok=True)
-    history, best, best_key, since_best = [], {}, (float("inf"), 0.0), 0
+    tolerance, patience = float(str(plan["f1_tolerance"])), int(str(plan["patience"]))
+    history: list[dict] = []
+    weights: dict[int, dict] = {}   # copies of the epochs that can still be picked (about 6 MB each)
+    best_epoch, epoch = None, 0
     phases = [("head", int(str(plan["head_only_epochs"])), float(str(plan["head_learning_rate"])), False),
               ("finetune", int(str(plan["max_finetune_epochs"])), float(str(plan["finetune_learning_rate"])), True)]
     epoch = 0
@@ -741,21 +759,27 @@ def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
         for name, param in model.named_parameters():
             param.requires_grad = all_layers or name.startswith("classifier")
         optimizer = torch.optim.AdamW((p for p in model.parameters() if p.requires_grad), lr=rate)
+        since_best = 0
         for _ in range(epochs):
             epoch += 1
             run_epoch(optimizer)
-            scores = evaluate()
-            history.append({"epoch": epoch, "phase": phase, **scores})
-            key = (scores["spoiled_called_fresh"], -scores["macro_f1"])
-            if key < best_key:
-                best_key, best, since_best = key, {"epoch": epoch, **scores}, 0
-                torch.save(model.state_dict(), out)
-            else:
+            history.append({"epoch": epoch, "phase": phase, **evaluate()})
+            weights[epoch] = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
+            # The best macro F1 only rises, so an epoch that falls out of the tolerance never comes back
+            top = max(h["macro_f1"] for h in history)
+            weights = {e: w for e, w in weights.items() if history[e - 1]["macro_f1"] >= top - tolerance}
+            picked = int(str(pick_best_epoch(history, tolerance)["epoch"]))
+            if picked != best_epoch:
+                best_epoch, since_best = picked, 0
+                torch.save(weights[picked], out)
+            elif phase == "finetune":
                 since_best += 1
-                if phase == "finetune" and since_best >= int(str(plan["patience"])):
+                if since_best >= patience:
                     break
-    return {"group": group, "seed": seed, "best_epoch": best.get("epoch"),
-            "val_scores": {k: v for k, v in best.items() if k != "epoch"}, "model_path": str(out), "history": history}
+    best = pick_best_epoch(history, tolerance)
+    return {"group": group, "seed": seed, "best_epoch": best["epoch"],
+            "val_scores": {k: v for k, v in best.items() if k not in ("epoch", "phase")},
+            "model_path": str(out), "history": history}
 
 
 # ---------------------------------------------------------------- long runs (Google Colab, 2026-10-10)
@@ -807,7 +831,8 @@ def train_all_groups(index: pd.DataFrame, groups: Sequence[str], seeds: Sequence
 
     Free Colab sessions can disconnect after a few hours; a model that finished is not trained
     again: its saved result (results_dir/freshness_<group>_seed<seed>.json) is read back, so running
-    the cell again continues where the session stopped.
+    the cell again continues where the session stopped. A saved result whose kept epoch is not the
+    one pick_best_epoch chooses from its history (trained under an older rule) is trained again.
 
     Args:
         index: Images with path, group, state, split and weight.
@@ -822,6 +847,7 @@ def train_all_groups(index: pd.DataFrame, groups: Sequence[str], seeds: Sequence
         One result per group and seed, as train_freshness_model returns it.
     """
     train = train or train_freshness_model
+    tolerance = float(str(plan["f1_tolerance"]))
     results_dir = Path(results_dir)
     results_dir.mkdir(parents=True, exist_ok=True)
     results = []
@@ -829,8 +855,11 @@ def train_all_groups(index: pd.DataFrame, groups: Sequence[str], seeds: Sequence
         for seed in seeds:
             saved = results_dir / f"freshness_{group}_seed{seed}.json"
             if saved.exists():
-                results.append(json.loads(saved.read_text(encoding="utf-8")))
-                continue
+                old = json.loads(saved.read_text(encoding="utf-8"))
+                history = old.get("history")
+                if not history or pick_best_epoch(history, tolerance)["epoch"] == old["best_epoch"]:
+                    results.append(old)
+                    continue
             result = train(index, group, model_dir, plan, seed)
             saved.write_text(json.dumps(result, indent=2, default=str), encoding="utf-8")
             results.append(result)
