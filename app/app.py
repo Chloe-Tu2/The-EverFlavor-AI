@@ -42,6 +42,37 @@ def load_recipes() -> pd.DataFrame:
 
 # ---------- Page setup ----------
 st.set_page_config(page_title="EverFlavor AI", page_icon="🍲", layout="wide")
+st.markdown("""
+<style>
+/* Cozy cooking-game background */
+.stApp {
+    background-color: #FFF1E6;
+    color: #4A2C2A;
+}
+
+/* Retro-style headings */
+h1, h2, h3 {
+    color: #8B4513;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+/* Pixel-inspired buttons */
+.stButton > button {
+    background-color: #FFB6C1;
+    color: #4A2C2A;
+    border: 3px solid #8B4513;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background-color: #FF8FAB;
+    border-color: #8B4513;
+}
+</style>
+""", unsafe_allow_html=True)
 st.title("🍳 EverFlavor Kitchen")
 st.caption("🎮 Welcome to your cooking adventure! Discover recipes, explore ingredients, and cook safely.")
 
