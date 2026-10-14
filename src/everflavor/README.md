@@ -26,7 +26,7 @@ add `src/` to the path for you.
 | | `variants.py` | Diet versions of each dish (notebook 06) |
 | | `stores.py` | Stores and products, where to buy (notebook 03) |
 | | `seasons.py` | Meat supply season and pasture season (notebook 08) |
-| | `freshness.py` | Freshness photos: labels, duplicates, split, training (notebook 05); for long Colab runs: cached duplicate check (`image_hashes`), resumable training (`train_all_groups`), a results zip (`pack_results`); the epoch to keep (`pick_best_epoch`) and what the computer can handle (`system_check`, `system_verdict`) |
+| | `freshness.py` | Freshness photos: labels, duplicates, split, training (notebook 05); for long Colab runs: cached duplicate check (`image_hashes`), resumable training (`train_all_groups`), a results zip (`pack_results`); the epoch to keep (`pick_best_epoch`) and what the computer can handle (`system_check`, `system_verdict`); the final test on the test split with the spoiled threshold (`final_test`, `choose_spoiled_threshold`) |
 | **Agents and app** | `recommend.py` | Baseline recommender and its safety filter |
 | | `llm.py` | Local models through Ollama (VS Code / Antigravity only): model choice (`llama3.2` first), the answer guard, prompt-injection defenses (`clean_text`, `tool_message`), `ask_agent` |
 | | `crew.py` | Meal planner: a CrewAI Chef writes, the code checks, retries and falls back (VS Code / Antigravity); picks `granite4.1:3b` by itself (`CREW_MODELS`, faster in CrewAI) |

@@ -669,6 +669,16 @@ def pick_best_epoch(history: Sequence[Mapping[str, object]], tolerance: float = 
     return min(eligible, key=lambda h: (float(str(h["spoiled_called_fresh"])), -float(str(h["macro_f1"]))))
 
 
+_IMAGENET = ([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])   # the pretrained model's color scaling
+
+
+def _eval_transform(size: int):
+    """How a photo is prepared for scoring (validation during training, and the final test)."""
+    from torchvision import transforms
+    return transforms.Compose([transforms.Resize(int(size * 1.14)), transforms.CenterCrop(size),
+                               transforms.ToTensor(), transforms.Normalize(*_IMAGENET)])
+
+
 def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
                           plan: Mapping[str, object] = TRAINING_PLAN, seed: int = 0) -> dict:
     """Fine-tune MobileNetV3 on one food group's `state`, with early stopping on the validation split.
@@ -704,11 +714,9 @@ def train_freshness_model(index: pd.DataFrame, group: str, out_dir: str | Path,
     if data.empty:
         raise ValueError(f"no labeled images for group {group!r}")
     size = int(str(plan["image_size"]))
-    normalize = transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     train_tf = transforms.Compose([transforms.RandomResizedCrop(size, scale=(0.7, 1.0)), transforms.RandomHorizontalFlip(),
-                                   transforms.ColorJitter(0.2, 0.2, 0.2), transforms.ToTensor(), normalize])
-    eval_tf = transforms.Compose([transforms.Resize(int(size * 1.14)), transforms.CenterCrop(size),
-                                  transforms.ToTensor(), normalize])
+                                   transforms.ColorJitter(0.2, 0.2, 0.2), transforms.ToTensor(), transforms.Normalize(*_IMAGENET)])
+    eval_tf = _eval_transform(size)
 
     class Images(Dataset):
         def __init__(self, rows: pd.DataFrame, tf: object):
@@ -894,3 +902,156 @@ def pack_results(paths: Sequence[str | Path], zip_file: str | Path) -> list[str]
                 archive.write(file, name)
                 names.append(name)
     return names
+
+
+def predict_states(paths: Sequence[str | Path], model_paths: Sequence[str | Path],
+                   plan: Mapping[str, object] = TRAINING_PLAN, batch_size: int = 64) -> np.ndarray:
+    """The probability of each state (STATES order) for each photo, from each saved model.
+
+    Each photo is read once and scored by every model (the seeds of one food group). Runs on
+    the GPU when there is one, otherwise on the processor (a few minutes for a few thousand photos).
+
+    Returns:
+        An array of shape (models, photos, 3).
+    """
+    import torch
+    from PIL import Image, ImageFile
+    ImageFile.LOAD_TRUNCATED_IMAGES = True
+    from torch import nn
+    from torchvision import models as tv_models
+
+    device = training_device()[0]
+    nets = []
+    for model_path in model_paths:
+        net = tv_models.mobilenet_v3_small(weights=None)
+        net.classifier[-1] = nn.Linear(net.classifier[-1].in_features, len(STATES))
+        net.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
+        nets.append(net.to(device).eval())
+    transform = _eval_transform(int(str(plan["image_size"])))
+    out = np.zeros((len(nets), len(paths), len(STATES)), dtype=np.float32)
+    with torch.no_grad():
+        for start in progress_bar(range(0, len(paths), batch_size), "Scoring photos"):
+            batch = []
+            for path in paths[start:start + batch_size]:
+                with Image.open(path) as image:
+                    batch.append(transform(image.convert("RGB")))
+            x = torch.stack(batch).to(device)
+            for m, net in enumerate(nets):
+                out[m, start:start + len(batch)] = torch.softmax(net(x), dim=1).cpu().numpy()
+    return out
+
+
+def apply_spoiled_threshold(probabilities: np.ndarray, threshold: float | None = None) -> list[str]:
+    """The predicted state: the most likely one, but "spoiled" whenever its probability reaches
+    `threshold` (None: the most likely state only)."""
+    predicted = np.asarray(STATES)[probabilities.argmax(axis=1)]
+    if threshold is not None:
+        predicted = np.where(probabilities[:, STATES.index("spoiled")] >= threshold, "spoiled", predicted)
+    return predicted.tolist()
+
+
+def choose_spoiled_threshold(true_states: Sequence[str], probabilities: np.ndarray,
+                             target: float = 0.005) -> float | None:
+    """The highest spoiled threshold that keeps spoiled_called_fresh at or under `target` on these photos
+    (the validation split; never the test split).
+
+    The highest such threshold adds the fewest "check it" warnings on fresh food. None when the most
+    likely state already meets the target (no threshold needed).
+    """
+    def called_fresh(threshold: float | None) -> float:
+        return selection_score(true_states, apply_spoiled_threshold(probabilities, threshold))["spoiled_called_fresh"]
+
+    if called_fresh(None) <= target:
+        return None
+    # Lowering the threshold only turns more photos into "spoiled", so the first one that meets the target
+    # (from the top) is the highest
+    for threshold in sorted({round(float(v), 4) for v in probabilities[:, STATES.index("spoiled")]}, reverse=True):
+        if called_fresh(threshold) <= target:
+            return threshold
+    return 0.0
+
+
+def detailed_scores(true_states: Sequence[str], predicted: Sequence[str]) -> dict:
+    """selection_score plus what the safety rule costs (fresh photos called spoiled), the share of each
+    state found (recall), and the confusion matrix (rows: true state; columns: predicted)."""
+    from sklearn.metrics import confusion_matrix, recall_score
+
+    y, p = np.asarray(list(true_states)), np.asarray(list(predicted))
+    fresh = y == "fresh"
+    recall = recall_score(y, p, labels=STATES, average=None, zero_division=0)
+    return {**selection_score(y, p),
+            "fresh_called_spoiled": float((p[fresh] == "spoiled").mean()) if fresh.any() else 0.0,
+            "recall": {state: float(r) for state, r in zip(STATES, recall)},
+            "confusion": confusion_matrix(y, p, labels=STATES).tolist(),
+            "photos": len(y)}
+
+
+def final_test(index: pd.DataFrame, model_dir: str | Path, results_dir: str | Path,
+               plan: Mapping[str, object] = TRAINING_PLAN, target: float = 0.005,
+               predict: Callable[..., np.ndarray] | None = None) -> dict:
+    """Score the saved models on the test split, once, for every food group that has models.
+
+    Per group: each seed on its own (the spread), then the seeds averaged (the model the app would use).
+    The spoiled threshold is chosen on the validation split (choose_spoiled_threshold) and only then
+    applied to the test split. Predictions are saved (results_dir/predictions_<group>.parquet), so running
+    it again reads them back instead of scoring the photos again; the summary goes to results_dir/final_test.json.
+
+    Args:
+        index: Images with path, group, state and split (the split the models were trained on).
+        model_dir: Where the models are (freshness_<group>_seed<seed>.pt).
+        results_dir: Where the predictions and the summary are saved.
+        plan: TRAINING_PLAN (image size).
+        target: The most spoiled_called_fresh the threshold allows on the validation split.
+        predict: The scoring function (predict_states; the tests pass a fake one).
+
+    Returns:
+        {group: {"seeds", "threshold", "test_without_threshold", "test", "by_source"}}.
+    """
+    predict = predict or predict_states
+    model_dir, results_dir = Path(model_dir), Path(results_dir)
+    results_dir.mkdir(parents=True, exist_ok=True)
+    summary: dict = {}
+    for group in sorted(index["group"].dropna().unique()):
+        model_paths = sorted(model_dir.glob(f"freshness_{group}_seed*.pt"))
+        if not model_paths:
+            continue
+        seeds = [int(path.stem.rsplit("seed", 1)[1]) for path in model_paths]
+        rows = index[(index["group"] == group) & index["state"].notna() & index["split"].isin(["val", "test"])]
+        rows = rows.reset_index(drop=True)
+        saved = results_dir / f"predictions_{group}.parquet"
+        columns = [f"seed{seed}_{state}" for seed in seeds for state in STATES]
+        cached = pd.read_parquet(saved) if saved.exists() else None
+        if cached is not None and set(columns) <= set(cached.columns) and cached["path"].tolist() == rows["path"].tolist():
+            scores = cached
+        else:
+            probabilities = predict(rows["path"].tolist(), model_paths, plan)
+            scores = rows[["path", "source", "split", "state"]].copy()
+            for m, seed in enumerate(seeds):
+                for k, state in enumerate(STATES):
+                    scores[f"seed{seed}_{state}"] = probabilities[m, :, k]
+            scores.to_parquet(saved, index=False)
+
+        def probs(split: str, seed: int | None = None, scores: pd.DataFrame = scores,
+                  seeds: list[int] = seeds) -> np.ndarray:
+            """The probabilities of one seed, or of all seeds averaged, on one split."""
+            part = scores[scores["split"] == split]
+            chosen = [seed] if seed is not None else seeds
+            return np.mean([part[[f"seed{s}_{state}" for state in STATES]].to_numpy() for s in chosen], axis=0)
+
+        val_true = scores.loc[scores["split"] == "val", "state"].tolist()
+        test = scores[scores["split"] == "test"]
+        threshold = choose_spoiled_threshold(val_true, probs("val"), target)
+        predicted = apply_spoiled_threshold(probs("test"), threshold)
+        by_source = {source: detailed_scores(test.loc[part, "state"].tolist(),
+                                             [predicted[i] for i in np.flatnonzero(part.to_numpy())])
+                     for source, part in ((s, test["source"] == s) for s in sorted(test["source"].unique()))}
+        summary[group] = {
+            "seeds": {seed: selection_score(test["state"], apply_spoiled_threshold(probs("test", seed)))
+                      for seed in seeds},
+            "threshold": threshold,
+            "test_without_threshold": detailed_scores(test["state"].tolist(), apply_spoiled_threshold(probs("test"))),
+            "test": detailed_scores(test["state"].tolist(), predicted),
+            "by_source": by_source,
+        }
+    (results_dir / "final_test.json").write_text(json.dumps(summary, indent=2, default=str), encoding="utf-8")
+    return summary

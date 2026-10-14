@@ -18,6 +18,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from everflavor import freshness
 from everflavor.freshness import (
     SAFETY_NOTE,
+    apply_spoiled_threshold,
+    choose_spoiled_threshold,
+    final_test,
     freshness_coverage,
     group_near_duplicates,
     image_hashes,
@@ -311,6 +314,45 @@ def test_best_epoch_puts_safety_first_but_only_among_good_epochs(tmp_path):
             json.dumps({"group": "fish", "seed": seed, "best_epoch": kept, "history": history}), encoding="utf-8")
     train_all_groups(pd.DataFrame(), ["fish"], [0, 1], tmp_path / "m", results_dir, train=fake_train)
     assert runs == [("fish", 0)]
+
+
+def test_spoiled_threshold_is_the_highest_that_meets_the_target():
+    #                       fresh aging spoiled
+    probabilities = np.array([[0.6, 0.1, 0.3],    # spoiled, but looks fresh
+                              [0.2, 0.2, 0.6],    # spoiled
+                              [0.7, 0.2, 0.1],    # fresh
+                              [0.5, 0.1, 0.4]])   # fresh, a little unsure
+    truth = ["spoiled", "spoiled", "fresh", "fresh"]
+    assert apply_spoiled_threshold(probabilities) == ["fresh", "spoiled", "fresh", "fresh"]
+    assert choose_spoiled_threshold(truth, probabilities, target=0.0) == 0.3   # not 0.1: fewest warnings
+    assert apply_spoiled_threshold(probabilities, 0.3) == ["spoiled", "spoiled", "fresh", "spoiled"]
+    assert choose_spoiled_threshold(truth, probabilities, target=0.5) is None   # already met
+
+
+def test_final_test_picks_the_threshold_on_validation_and_saves_predictions(tmp_path):
+    index = pd.DataFrame({
+        "path": [f"p{i}.jpg" for i in range(8)], "source": ["a", "b"] * 4, "group": "fish",
+        "state": ["spoiled", "fresh"] * 4, "split": ["val"] * 4 + ["test"] * 4})
+    index.loc[len(index)] = ["x.jpg", "a", "fish", "fresh", "train"]   # never scored
+    (tmp_path / "models").mkdir()
+    for seed in (0, 1):
+        (tmp_path / "models" / f"freshness_fish_seed{seed}.pt").write_bytes(b"")
+    calls = []
+
+    def fake_predict(paths, model_paths, plan):
+        calls.append(paths)
+        one = np.array([[0.6, 0.1, 0.3], [0.7, 0.2, 0.1]] * (len(paths) // 2))   # spoiled photos look fresh
+        return np.stack([one, one])
+
+    result = final_test(index, tmp_path / "models", tmp_path / "out", predict=fake_predict, target=0.0)["fish"]
+    assert calls[0] == [f"p{i}.jpg" for i in range(8)]
+    assert result["threshold"] == 0.3
+    assert result["test_without_threshold"]["spoiled_called_fresh"] == 1.0
+    assert result["test"]["spoiled_called_fresh"] == 0.0 and result["test"]["fresh_called_spoiled"] == 0.0
+    assert result["test"]["confusion"] == [[2, 0, 0], [0, 0, 0], [0, 0, 2]] and set(result["by_source"]) == {"a", "b"}
+    assert set(result["seeds"]) == {0, 1} and (tmp_path / "out" / "final_test.json").exists()
+    final_test(index, tmp_path / "models", tmp_path / "out", predict=fake_predict, target=0.0)
+    assert len(calls) == 1   # predictions read back, not scored again
 
 
 def test_pack_results_zips_files_and_folders(tmp_path):
