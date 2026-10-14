@@ -71,6 +71,20 @@ h1, h2, h3 {
     background-color: #FF8FAB;
     border-color: #8B4513;
 }
+/* Cooking-game recipe cards */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: #FFF8E7;
+    border: 3px solid #8B4513;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px #D9A679;
+    padding: 12px;
+}
+
+/* Recipe card headings */
+div[data-testid="stVerticalBlockBorderWrapper"] h3 {
+    color: #A0522D;
+    font-family: 'Courier New', monospace;
+}
 </style>
 """, unsafe_allow_html=True)
 st.title("🍳 EverFlavor Kitchen")
