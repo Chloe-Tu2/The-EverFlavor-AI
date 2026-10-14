@@ -29,6 +29,10 @@ from everflavor.safety import UserProfile
 
 DATA = ROOT / "data" / "processed"
 
+# Use the lightweight demo dataset when full data is unavailable.
+if not (DATA / "recipes_test.parquet").exists():
+    DATA = ROOT / "data" / "demo"
+
 
 def nice(column: str) -> str:
     """'contains_tree_nut' -> 'Tree nut', 'halal_friendly' -> 'Halal'."""
