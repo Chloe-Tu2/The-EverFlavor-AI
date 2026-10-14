@@ -42,8 +42,8 @@ def load_recipes() -> pd.DataFrame:
 
 # ---------- Page setup ----------
 st.set_page_config(page_title="EverFlavor AI", page_icon="🍲", layout="wide")
-st.title("🍲 EverFlavor AI")
-st.caption("Recipes you can safely eat. Starter version for the team.")
+st.title("🍳 EverFlavor Kitchen")
+st.caption("🎮 Welcome to your cooking adventure! Discover recipes, explore ingredients, and cook safely.")
 
 if not (DATA / "recipes_test.parquet").exists():
     st.error("No recipe data yet. Run notebooks/01_data_acquisition_EverFlavor_V3.ipynb first.")
