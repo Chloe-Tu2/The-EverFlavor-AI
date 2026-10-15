@@ -12,7 +12,7 @@ someone clicks something, and each `st.something(...)` call draws one thing on t
 
 The look: a pixel-art kitchen behind the page and a pixel chef who reads out the results.
 The art is drawn by design/pixel-art/make_pixel_art.py (one kitchen per color theme); the
-color themes are in THEMES below. Settings (bottom of the sidebar) switch the theme.
+color themes are in THEMES below. Settings (top right of the page) switch the theme.
 """
 import ast
 import base64
@@ -96,20 +96,27 @@ def style(theme: dict) -> str:
   color: var(--text);
 }}
 [data-testid="stHeader"] {{ background: transparent; }}
-/* The page sits on a panel over the kitchen, like a recipe card pinned to the wall */
-.block-container {{
-  background: color-mix(in srgb, var(--panel) 94%, transparent);
-  border: 4px solid var(--border);
-  box-shadow: 8px 8px 0 var(--shadow);
-  margin-top: 3rem; margin-bottom: 3rem;
-  padding: 2rem 2.5rem;
-  image-rendering: auto;
+/* The title, the chef and the tools stand in the kitchen; only the tools sit on a panel, so the kitchen shows */
+.block-container {{ max-width: 1100px; padding: 2.5rem 1.5rem 4rem; image-rendering: auto; }}
+/* The title hangs on a wooden sign */
+.stApp h1 {{
+  display: inline-block; background: var(--panel); border: 4px solid var(--border);
+  box-shadow: 6px 6px 0 var(--shadow); padding: 0.4rem 1.1rem !important;
+}}
+.tagline {{
+  display: inline-block; background: var(--panel); color: var(--text); border: 2px solid var(--border);
+  padding: 0.25rem 0.75rem; margin: 0.4rem 0 0; font-size: 1rem;
+}}
+/* The tools: a recipe card pinned over the counter */
+[data-testid="stTabs"] {{
+  background: color-mix(in srgb, var(--panel) 96%, transparent); border: 4px solid var(--border);
+  box-shadow: 8px 8px 0 var(--shadow); padding: 0.75rem 1.75rem 1.75rem;
 }}
 [data-testid="stSidebar"] {{ background: var(--sidebar); border-right: 4px solid var(--border); }}
 /* Every text color comes from the theme, so a computer in dark mode does not paint white text on cream */
 .stApp, .stApp p, .stApp li, .stApp label, [data-testid="stWidgetLabel"] p, [data-testid="stCaptionContainer"],
 [data-testid="stMetricLabel"] p, [data-testid="stMetricValue"], [data-testid="stSidebar"] * {{ color: var(--text); }}
-h1, h2, h3, button[role="tab"] p {{ color: var(--heading) !important; font-family: var(--pixel-font); }}
+h1, h2, h3, [data-testid="stTab"] p {{ color: var(--heading) !important; font-family: var(--pixel-font) !important; }}
 h1 {{ letter-spacing: 0.02em; }}
 /* Inputs stay light with dark text in every theme, so they are always readable */
 div[data-baseweb="input"] > div, div[data-baseweb="select"] > div, textarea, div[data-baseweb="base-input"] {{
@@ -147,15 +154,21 @@ div[data-testid="stVerticalBlockBorderWrapper"] {{
   border-right-color: var(--border);
 }}
 /* Pixel icons instead of emoji: on the tabs, the Settings knob, and the recipe stats */
-button[role="tab"] p::before, [data-testid="stExpander"] summary p::before, .ico {{
+[data-testid="stTab"] p::before, [data-testid="stPopover"] button p::before, .ico {{
   content: ''; display: inline-block; vertical-align: middle; background: center / contain no-repeat;
   image-rendering: pixelated;
 }}
-button[role="tab"] p::before {{ width: 40px; height: 40px; margin-right: 0.5rem; }}
-button[role="tab"]:nth-of-type(1) p::before {{ background-image: url('{art("icon_find")}'); }}
-button[role="tab"]:nth-of-type(2) p::before {{ background-image: url('{art("icon_check")}'); }}
-button[role="tab"] p {{ font-size: 1.1rem; }}
-[data-testid="stExpander"] summary p::before {{
+[data-testid="stTab"] p::before {{ width: 40px; height: 40px; margin-right: 0.5rem; }}
+[data-testid="stTab"][data-key="0"] p::before {{ background-image: url('{art("icon_find")}'); }}
+[data-testid="stTab"][data-key="1"] p::before {{ background-image: url('{art("icon_check")}'); }}
+[data-testid="stTab"] p {{ font-size: 1.15rem; }}
+/* Settings, top right: a pixel button with the oven knob */
+[data-testid="stPopover"] {{ display: flex; justify-content: flex-end; }}
+[data-testid="stPopover"] button {{
+  background: var(--panel); border: 3px solid var(--border); border-radius: 0; box-shadow: 4px 4px 0 var(--shadow);
+}}
+[data-testid="stPopover"] button p {{ font-family: var(--pixel-font); color: var(--text); }}
+[data-testid="stPopover"] button p::before {{
   width: 24px; height: 24px; margin-right: 0.4rem; background-image: url('{art("icon_settings")}');
 }}
 .stats {{ display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin: 0.25rem 0 0.75rem; }}
@@ -163,7 +176,12 @@ button[role="tab"] p {{ font-size: 1.1rem; }}
 .stat .ico, .bubble .ico {{ width: 32px; height: 32px; }}
 .bubble .ico {{ margin-right: 0.5rem; }}
 .stat small {{ font-family: inherit; opacity: 0.75; font-size: 0.85rem; }}
-@media (max-width: 640px) {{ .block-container {{ padding: 1.25rem 1rem; }} .chef {{ width: 80px; height: 80px; }} }}
+@media (max-width: 640px) {{
+  .block-container {{ padding: 1.25rem 1rem 3rem; }} .chef {{ width: 80px; height: 80px; }}
+  [data-testid="stTabs"] {{ padding: 0.5rem 0.9rem 1.25rem; }}
+  [data-testid="stTab"] p::before {{ width: 28px; height: 28px; margin-right: 0.3rem; }}
+  [data-testid="stTab"] p {{ font-size: 1rem; }}
+}}
 @media (prefers-reduced-motion: reduce) {{ .stButton > button:active {{ transform: none; }} }}
 </style>
 """
@@ -196,8 +214,13 @@ st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if 
                    layout="wide")
 theme_name = st.session_state.get("theme", "Classic")
 st.markdown(style(THEMES[theme_name]), unsafe_allow_html=True)
-st.title("EverFlavor Kitchen")
-st.caption("Discover recipes, explore ingredients, and cook safely.")
+heading, settings = st.columns([4, 1], vertical_alignment="center")
+heading.title("EverFlavor Kitchen")
+heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked ingredient by ingredient.</p>',
+                 unsafe_allow_html=True)
+with settings.popover("Settings"):
+    st.selectbox("Kitchen theme", list(THEMES), key="theme",
+                 help="Classic is the team's original look. Night is easier on the eyes in the dark.")
 chef = st.empty()   # the chef's line, filled in below once we know what happened
 
 if not (DATA / "recipes_test.parquet").exists():
@@ -227,10 +250,7 @@ with st.sidebar:
         use_ai = st.checkbox(f"Explain problems with local AI ({ai['model']})", value=True)
     else:
         use_ai = False
-        st.caption(f"Local AI is off: {ai['reason']}")
-    with st.expander("Settings"):
-        st.selectbox("Kitchen theme", list(THEMES), key="theme",
-                     help="Classic is the team's original look. Night is easier on the eyes in the dark.")
+        st.caption("Local AI: off. The rules still check everything.", help=ai["reason"])
 
 profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetarian,
                       vegan=vegan, calories_per_meal=calories)

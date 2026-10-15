@@ -5,6 +5,9 @@ It keeps Eva's cooking-game colors and everything the page already does, and add
 
 ![The kitchen in the Classic theme](pixel-art/concept/preview/kitchen_classic_x4.png)
 
+**Where it goes next:** [PLAN.md](PLAN.md), the front-end plan (who it is for, what brings people in, a better
+kitchen, roadmap, questions for the team).
+
 ## The idea
 
 - **A pixel-art kitchen behind the page.** Shelves of jars, hanging pans, a window, a steaming pot, a cutting
@@ -14,7 +17,7 @@ It keeps Eva's cooking-game colors and everything the page already does, and add
   never decides anything (the app's golden rule: safety decisions come from `src/everflavor`).
 - **Real food in the recipe cards.** When a recipe has a photo (the demo data has one for 99% of recipes),
   the card shows it in a pixel frame. The pixel art is the setting; the food is real.
-- **Color themes in Settings** (bottom of the sidebar). The kitchen changes with the theme:
+- **Color themes in Settings** (top right). The kitchen changes with the theme:
 
 | Theme | Feel | Kitchen |
 |---|---|---|
@@ -50,7 +53,7 @@ git checkout concept/pixel-kitchen-ui
 python -m streamlit run app/app.py
 ```
 
-Then open **Settings** at the bottom of the sidebar to switch themes. With a peanut allergy selected,
+Then open **Settings** at the top right to switch themes. With a peanut allergy selected,
 check the sample "Thai Peanut Bowl" to see the chef's warning.
 
 ## Changing the art
