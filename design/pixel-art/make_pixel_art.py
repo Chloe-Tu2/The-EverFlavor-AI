@@ -11,6 +11,9 @@ Needs only Pillow (already in config/requirements.txt).
 """
 from __future__ import annotations
 
+import base64
+import io
+import json
 from pathlib import Path
 
 from PIL import Image, ImageColor, ImageDraw
@@ -51,12 +54,25 @@ def rect(d: ImageDraw.ImageDraw, x: int, y: int, w: int, h: int, fill: str, outl
     d.rectangle([x, y, x + w - 1, y + h - 1], fill=fill, outline=outline)
 
 
-def kitchen(theme: str) -> Image.Image:
-    """The kitchen: window, shelves with jars, hanging pans, stove with a steaming pot, cutting board, plant."""
+def kitchen_parts(theme: str) -> tuple[Image.Image, dict[str, tuple[Image.Image, int, int]]]:
+    """The kitchen as a backdrop plus the pieces that can move (for the interactive scene in the app).
+
+    Returns the backdrop (wall, window, shelves, counter, stove, board) and {name: (sprite, x, y)} for each
+    piece: the curtains, every jar, the pans, the lamp, the pot and its lid, the tomato, the herbs, the plant.
+    """
     p = THEMES[theme]
-    img = Image.new("RGB", (W, H), p["wall"])
+    img = Image.new("RGBA", (W, H), p["wall"])
     d = ImageDraw.Draw(img)
     o = p["outline"]
+    pieces: dict[str, tuple[Image.Image, int, int]] = {}
+
+    def piece(name: str, draw) -> None:
+        """Draw one movable piece on its own transparent layer and keep the part that has pixels."""
+        layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        draw(ImageDraw.Draw(layer))
+        box = layer.getbbox()
+        if box:
+            pieces[name] = (layer.crop(box), box[0], box[1])
 
     # Tiled backsplash behind the counter
     for y in range(70, 96, 6):
@@ -89,12 +105,17 @@ def kitchen(theme: str) -> Image.Image:
     rect(d, wx + ww // 2 - 1, wy, 2, wh, p["wood_dark"])                       # cross bars
     rect(d, wx, wy + wh // 2 - 1, ww, 2, p["wood_dark"])
     rect(d, wx - 6, wy + wh + 4, ww + 12, 3, p["wood_light"])                  # sill
-    for px in (wx - 2, wx + ww - 10):                                          # curtains
-        rect(d, px, wy - 2, 12, wh + 6, p["accent"])
-        for k in range(0, wh + 6, 4):
-            d.point((px + 6, wy - 2 + k), fill=p["accent_dark"])
 
-    # Two shelves with jars and pots
+    def curtain(px: int):
+        def draw(c: ImageDraw.ImageDraw) -> None:
+            rect(c, px, wy - 2, 12, wh + 6, p["accent"])
+            for k in range(0, wh + 6, 4):
+                c.point((px + 6, wy - 2 + k), fill=p["accent_dark"])
+        return draw
+    piece("curtain_left", curtain(wx - 2))
+    piece("curtain_right", curtain(wx + ww - 10))
+
+    # Two shelves with jars
     jar_colors = ["#D9483B", "#F2C14E", "#5E9B4A", "#C8743C", "#E8E1D5", "#8E5A9B"]
     for row, sy in enumerate((26, 50)):
         rect(d, 14, sy, 104, 3, p["wood"], o)
@@ -103,9 +124,12 @@ def kitchen(theme: str) -> Image.Image:
             jh = 9 + (j * 3 + row * 2) % 6
             jw = 8 + (j + row) % 3 * 2
             color = jar_colors[(j + row * 3) % len(jar_colors)]
-            rect(d, x, sy - jh, jw, jh, color, o)
-            rect(d, x + 1, sy - jh - 2, jw - 2, 2, p["wood_light"], o)          # lid
-            d.line([x + 2, sy - jh + 3, x + 2, sy - 3], fill="#FFFFFF")          # glint
+
+            def jar(c: ImageDraw.ImageDraw, x=x, jh=jh, jw=jw, color=color, sy=sy) -> None:
+                rect(c, x, sy - jh, jw, jh, color, o)
+                rect(c, x + 1, sy - jh - 2, jw - 2, 2, p["wood_light"], o)      # lid
+                c.line([x + 2, sy - jh + 3, x + 2, sy - 3], fill="#FFFFFF")      # glint
+            piece(f"jar_{row}_{j}", jar)
             x += jw + 5
             if x > 108:
                 break
@@ -113,19 +137,23 @@ def kitchen(theme: str) -> Image.Image:
     # Pans hanging from a rail between the shelves and the window
     rect(d, 124, 14, 22, 2, p["steel_dark"])
     for k, (px, r) in enumerate([(127, 5), (136, 4), (144, 3)]):
-        d.line([px, 16, px, 22 + k * 2], fill=p["steel_dark"])
-        d.ellipse([px - r, 22 + k * 2, px + r, 22 + k * 2 + 2 * r], fill=p["steel"], outline=o)
+        def pan(c: ImageDraw.ImageDraw, k=k, px=px, r=r) -> None:
+            c.line([px, 16, px, 22 + k * 2], fill=p["steel_dark"])
+            c.ellipse([px - r, 22 + k * 2, px + r, 22 + k * 2 + 2 * r], fill=p["steel"], outline=o)
+        piece(f"pan_{k}", pan)
 
     # Hanging lamp; at night it lights a cone on the wall
     if p["light"]:
         glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-        g = ImageDraw.Draw(glow)
-        g.polygon([(122, 30), (86, 96), (160, 96)], fill=p["light"] + "38")
-        img.paste(glow, (0, 0), glow)
+        ImageDraw.Draw(glow).polygon([(122, 30), (86, 96), (160, 96)], fill=p["light"] + "38")
+        img.alpha_composite(glow)
         d = ImageDraw.Draw(img)
-    d.line([123, 0, 123, 22], fill=o)
-    rect(d, 117, 22, 13, 5, p["accent_dark"], o)
-    d.point((123, 28), fill=p["light"] or "#FFF3B0")
+
+    def lamp(c: ImageDraw.ImageDraw) -> None:
+        c.line([123, 0, 123, 22], fill=o)
+        rect(c, 117, 22, 13, 5, p["accent_dark"], o)
+        c.point((123, 28), fill=p["light"] or "#FFF3B0")
+    piece("lamp", lamp)
 
     # Counter and cabinets
     rect(d, 0, 96, W, 5, p["counter"], o)
@@ -134,31 +162,50 @@ def kitchen(theme: str) -> Image.Image:
         rect(d, cx, 105, 34, 26, p["wood_light"], p["wood_dark"])
         rect(d, cx + 15, 116, 4, 2, p["steel"], o)                             # handle
 
-    # Stove with a pot and steam
+    # Stove with a pot, its lid and steam
     rect(d, 24, 88, 48, 8, p["steel_dark"], o)
     for bx in (30, 54):
         rect(d, bx, 86, 12, 2, "#2B2B2B")
-    rect(d, 27, 74, 20, 12, p["accent"], o)                                    # pot
-    rect(d, 25, 74, 24, 3, p["accent_dark"], o)                                # lid
-    rect(d, 35, 71, 4, 3, p["accent_dark"], o)
-    for k, (sx, sy) in enumerate([(31, 66), (36, 61), (41, 64), (34, 56), (40, 53)]):
-        d.point((sx, sy), fill="#FFFFFF" if theme != "classic" else "#D8CFC8")
-        d.point((sx + 1, sy - 1), fill="#FFFFFF" if theme != "classic" else "#D8CFC8")
+    steam = "#FFFFFF" if theme != "classic" else "#D8CFC8"
+    for sx, sy in [(31, 66), (36, 61), (41, 64), (34, 56), (40, 53)]:
+        d.point([(sx, sy), (sx + 1, sy - 1)], fill=steam)
+    piece("pot", lambda c: rect(c, 27, 74, 20, 12, p["accent"], o))
+
+    def lid(c: ImageDraw.ImageDraw) -> None:
+        rect(c, 25, 74, 24, 3, p["accent_dark"], o)
+        rect(c, 35, 71, 4, 3, p["accent_dark"], o)
+    piece("lid", lid)
 
     # Cutting board with a tomato, a carrot and basil
     rect(d, 92, 91, 40, 5, p["wood_light"], o)
-    d.ellipse([97, 84, 105, 92], fill="#D9483B", outline=o)                    # tomato
-    rect(d, 100, 83, 3, 2, "#5E9B4A")
-    d.polygon([(110, 90), (124, 87), (124, 89)], fill="#E8862E", outline=o)    # carrot
-    rect(d, 124, 86, 3, 2, "#5E9B4A")
-    for lx, ly in [(116, 84), (119, 82), (113, 82)]:                           # basil leaves
-        d.ellipse([lx, ly, lx + 4, ly + 3], fill="#5E9B4A", outline=o)
+
+    def tomato(c: ImageDraw.ImageDraw) -> None:
+        c.ellipse([97, 84, 105, 92], fill="#D9483B", outline=o)
+        rect(c, 100, 83, 3, 2, "#5E9B4A")
+    piece("tomato", tomato)
+
+    def herbs(c: ImageDraw.ImageDraw) -> None:
+        c.polygon([(110, 90), (124, 87), (124, 89)], fill="#E8862E", outline=o)    # carrot
+        rect(c, 124, 86, 3, 2, "#5E9B4A")
+        for lx, ly in [(116, 84), (119, 82), (113, 82)]:                           # basil leaves
+            c.ellipse([lx, ly, lx + 4, ly + 3], fill="#5E9B4A", outline=o)
+    piece("herbs", herbs)
 
     # Plant in a pot on the counter's right
-    rect(d, 214, 84, 14, 12, "#C8743C", o)
-    for lx, ly in [(212, 76), (218, 70), (224, 75), (215, 66), (226, 66), (220, 62)]:
-        d.ellipse([lx, ly, lx + 6, ly + 9], fill="#5E9B4A", outline=o)
-    return img
+    def plant(c: ImageDraw.ImageDraw) -> None:
+        rect(c, 214, 84, 14, 12, "#C8743C", o)
+        for lx, ly in [(212, 76), (218, 70), (224, 75), (215, 66), (226, 66), (220, 62)]:
+            c.ellipse([lx, ly, lx + 6, ly + 9], fill="#5E9B4A", outline=o)
+    piece("plant", plant)
+    return img, pieces
+
+
+def kitchen(theme: str) -> Image.Image:
+    """The whole kitchen in one picture: the backdrop with every piece in its place."""
+    img, pieces = kitchen_parts(theme)
+    for sprite, x, y in pieces.values():
+        img.alpha_composite(sprite, (x, y))
+    return img.convert("RGB")
 
 
 # The chef, 24 x 24. K outline, W white, w shade, S skin, s cheek, M mustache, R neckerchief,
@@ -179,6 +226,15 @@ CHEF_FACES = {
         "....KSSSSSSSSSSSSSSK....",
         "....KSSKKSSSSSSKKSSK....",
         "....KSSKESSSSSSKESSK....",
+        "....KssSSSSSSSSSSssK....",
+        "....KSSSMMMMMMMMSSSK....",
+        ".....KSKMMSSSSMMKSK.....",
+        ".....KSSSSKKKKSSSSK.....",
+    ],
+    "wink": [   # pressed: a wink and a smile (an easter egg)
+        "....KSSSSSSSSSSSSSSK....",
+        "....KSSKKSSSSSSSSSSK....",
+        "....KSSKESSSSSSKKKSK....",
         "....KssSSSSSSSSSSssK....",
         "....KSSSMMMMMMMMSSSK....",
         ".....KSKMMSSSSMMKSK.....",
@@ -359,11 +415,24 @@ ICONS = {"find": icon_find, "check": icon_check, "settings": icon_settings, "tim
          "flame": icon_flame, "protein": icon_protein, "safe": icon_safe, "alert": icon_alert, "empty": icon_empty}
 
 
+def _png(img: Image.Image) -> str:
+    """A picture as a PNG data URI (for the scene files the app reads)."""
+    buffer = io.BytesIO()
+    img.save(buffer, "PNG")
+    return "data:image/png;base64," + base64.b64encode(buffer.getvalue()).decode()
+
+
 def main() -> None:
     (OUT / "preview").mkdir(parents=True, exist_ok=True)
     for theme in THEMES:
         scene = kitchen(theme)
         scene.save(OUT / f"kitchen_{theme}.png")
+        # The interactive kitchen in the app: the backdrop and every movable piece with its place
+        backdrop, pieces = kitchen_parts(theme)
+        layers = {"size": [W, H], "backdrop": _png(backdrop),
+                  "pieces": {name: {"png": _png(sprite), "x": x, "y": y, "w": sprite.width, "h": sprite.height}
+                             for name, (sprite, x, y) in pieces.items()}}
+        (OUT / f"scene_{theme}.json").write_text(json.dumps(layers), encoding="utf-8")
         scene.resize((W * 4, H * 4), Image.NEAREST).save(OUT / "preview" / f"kitchen_{theme}_x4.png")
     for mood in CHEF_FACES:
         sprite = chef(mood)

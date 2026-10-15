@@ -23,6 +23,7 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 # Let Python find our package in src/ (same trick the notebooks use).
 ROOT = Path(__file__).resolve().parents[1]
@@ -64,7 +65,7 @@ def nice(column: str) -> str:
     return column.removeprefix("contains_").removesuffix("_friendly").replace("_", " ").capitalize()
 
 
-@st.cache_data   # load the data once, not on every click
+@st.cache_resource   # load the data once and share it (read only), not a fresh copy on every click
 def load_recipes() -> pd.DataFrame:
     parts = [DATA / f"recipes_{split}.parquet" for split in ("train", "val", "test")]
     return pd.concat([pd.read_parquet(p) for p in parts], ignore_index=True)
@@ -82,12 +83,13 @@ def style(theme: dict) -> str:
     scene = art(f"kitchen_{theme['scene']}")
     return f"""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=VT323&display=swap');
 :root {{
   --panel: {theme['panel']}; --sidebar: {theme['sidebar']}; --border: {theme['border']};
   --text: {theme['text']}; --heading: {theme['heading']}; --button: {theme['button']};
   --button-hover: {theme['button_hover']}; --shadow: {theme['shadow']}; --bubble: {theme['bubble']};
-  --pixel-font: 'Pixelify Sans', 'Courier New', monospace;
+  --pixel-font: 'Jersey 10', 'Courier New', monospace;   /* titles, tabs, buttons, numbers */
+  --pixel-text: 'VT323', 'Courier New', monospace;       /* the chef's lines, small labels */
 }}
 /* The kitchen fills the window; image-rendering keeps the pixels sharp when it is scaled up */
 .stApp {{
@@ -116,7 +118,12 @@ def style(theme: dict) -> str:
 /* Every text color comes from the theme, so a computer in dark mode does not paint white text on cream */
 .stApp, .stApp p, .stApp li, .stApp label, [data-testid="stWidgetLabel"] p, [data-testid="stCaptionContainer"],
 [data-testid="stMetricLabel"] p, [data-testid="stMetricValue"], [data-testid="stSidebar"] * {{ color: var(--text); }}
-h1, h2, h3, [data-testid="stTab"] p {{ color: var(--heading) !important; font-family: var(--pixel-font) !important; }}
+h1, h2, h3, [data-testid="stTab"] p {{
+  color: var(--heading) !important; font-family: var(--pixel-font) !important; font-weight: 400 !important;
+  letter-spacing: 0.02em;
+}}
+.stApp h1 {{ font-size: 3.4rem !important; line-height: 1.1 !important; }}
+.stApp h3 {{ font-size: 2rem !important; }}
 h1 {{ letter-spacing: 0.02em; }}
 /* Inputs stay light with dark text in every theme, so they are always readable */
 div[data-baseweb="input"] > div, div[data-baseweb="select"] > div, textarea, div[data-baseweb="base-input"] {{
@@ -124,21 +131,22 @@ div[data-baseweb="input"] > div, div[data-baseweb="select"] > div, textarea, div
 }}
 div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color: #2B1E1A !important; }}
 /* Chosen items in "I can't eat" / "I follow": the theme's button color, so the dark text stays readable */
-span[data-baseweb="tag"] {{
-  background: var(--button) !important; border: 2px solid var(--border); border-radius: 0 !important;
+[data-testid="stMultiSelectTagsContainer"] [data-tag] {{
+  background: var(--button) !important; color: #2B1E1A !important; border: 2px solid var(--border) !important;
+  border-radius: 0 !important;
 }}
-span[data-baseweb="tag"] svg {{ fill: #2B1E1A !important; }}
+[data-testid="stMultiSelectTagsContainer"] [data-tag] * {{ color: #2B1E1A !important; }}
 /* Pixel buttons: square corners, a hard shadow that "presses" on click */
 .stButton > button {{
   background: var(--button); color: #2B1E1A; border: 3px solid var(--border); border-radius: 0;
-  font-family: var(--pixel-font); font-weight: 700; box-shadow: 4px 4px 0 var(--shadow);
+  font-family: var(--pixel-font); font-size: 1.35rem; font-weight: 400; box-shadow: 4px 4px 0 var(--shadow);
 }}
 .stButton > button:hover {{ background: var(--button-hover); border-color: var(--border); color: #2B1E1A; }}
 .stButton > button:active {{ transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--shadow); }}
-/* Recipe cards */
-div[data-testid="stVerticalBlockBorderWrapper"] {{
-  background: var(--panel); border: 3px solid var(--border) !important; border-radius: 0;
-  box-shadow: 5px 5px 0 var(--shadow);
+/* Recipe cards (each container has a key, recipe-card-<n>, which Streamlit turns into a class) */
+.stApp [class*="st-key-recipe-card"] {{
+  background: var(--panel); border: 3px solid var(--border) !important; border-radius: 0 !important;
+  box-shadow: 5px 5px 0 var(--shadow); padding: 1rem 1.25rem;
 }}
 [data-testid="stImage"] img {{ border: 3px solid var(--border); }}
 /* The chef and the speech bubble */
@@ -146,7 +154,7 @@ div[data-testid="stVerticalBlockBorderWrapper"] {{
 .chef {{ width: 128px; height: 128px; flex: none; background: center / contain no-repeat; image-rendering: pixelated; }}
 .bubble {{
   position: relative; flex: 1 1 auto; overflow-wrap: anywhere; background: var(--bubble); color: var(--text); border: 3px solid var(--border);
-  padding: 0.75rem 1rem; font-family: var(--pixel-font); font-size: 1.05rem; line-height: 1.4;
+  padding: 0.6rem 1rem; font-family: var(--pixel-text); font-size: 1.45rem; line-height: 1.15;
   box-shadow: 4px 4px 0 var(--shadow); min-width: 0;
 }}
 .bubble::before {{
@@ -161,30 +169,86 @@ div[data-testid="stVerticalBlockBorderWrapper"] {{
 [data-testid="stTab"] p::before {{ width: 40px; height: 40px; margin-right: 0.5rem; }}
 [data-testid="stTab"][data-key="0"] p::before {{ background-image: url('{art("icon_find")}'); }}
 [data-testid="stTab"][data-key="1"] p::before {{ background-image: url('{art("icon_check")}'); }}
-[data-testid="stTab"] p {{ font-size: 1.15rem; }}
+[data-testid="stTab"] p {{ font-size: 1.5rem; }}
 /* Settings, top right: a pixel button with the oven knob */
 [data-testid="stPopover"] {{ display: flex; justify-content: flex-end; }}
 [data-testid="stPopover"] button {{
   background: var(--panel); border: 3px solid var(--border); border-radius: 0; box-shadow: 4px 4px 0 var(--shadow);
 }}
-[data-testid="stPopover"] button p {{ font-family: var(--pixel-font); color: var(--text); }}
+[data-testid="stPopover"] button p {{ font-family: var(--pixel-font); font-size: 1.3rem; color: var(--text); }}
 [data-testid="stPopover"] button p::before {{
   width: 24px; height: 24px; margin-right: 0.4rem; background-image: url('{art("icon_settings")}');
 }}
 .stats {{ display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin: 0.25rem 0 0.75rem; }}
-.stat {{ display: flex; align-items: center; gap: 0.5rem; font-family: var(--pixel-font); font-size: 1.15rem; }}
+.stat {{ display: flex; align-items: center; gap: 0.5rem; font-family: var(--pixel-font); font-size: 1.6rem; }}
 .stat .ico, .bubble .ico {{ width: 32px; height: 32px; }}
 .bubble .ico {{ margin-right: 0.5rem; }}
-.stat small {{ font-family: inherit; opacity: 0.75; font-size: 0.85rem; }}
+.stat small {{ font-family: var(--pixel-text); opacity: 0.8; font-size: 1.2rem; }}
 @media (max-width: 640px) {{
   .block-container {{ padding: 1.25rem 1rem 3rem; }} .chef {{ width: 80px; height: 80px; }}
   [data-testid="stTabs"] {{ padding: 0.5rem 0.9rem 1.25rem; }}
   [data-testid="stTab"] p::before {{ width: 28px; height: 28px; margin-right: 0.3rem; }}
-  [data-testid="stTab"] p {{ font-size: 1rem; }}
+  [data-testid="stTab"] p {{ font-size: 1.2rem; }}
+  .stApp h1 {{ font-size: 2.4rem !important; }}
 }}
-@media (prefers-reduced-motion: reduce) {{ .stButton > button:active {{ transform: none; }} }}
+/* Footer: the disclaimer and the people behind the project, on a wooden board */
+.site-footer {{
+  margin-top: 2.5rem; background: var(--panel); color: var(--text); border: 4px solid var(--border);
+  box-shadow: 6px 6px 0 var(--shadow); padding: 1rem 1.5rem; font-size: 0.95rem; line-height: 1.5;
+}}
+.site-footer .footer-title {{ font-family: var(--pixel-font); font-weight: 400; font-size: 1.5rem; color: var(--heading); margin: 0 0 0.25rem; padding: 0; }}
+.site-footer ul {{ margin: 0.25rem 0 0.75rem 1.1rem; padding: 0; }}
+.site-footer a {{ color: var(--heading); font-weight: 600; }}
+.site-footer .credits {{ display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin: 0.25rem 0 0.75rem; }}
+.site-footer small {{ opacity: 0.85; }}
+.chef {{ cursor: pointer; transition: transform 0.1s steps(2); }}
+.chef:active {{ background-image: url('{art("chef_wink")}') !important; animation: hop 0.35s steps(3); }}
+@keyframes hop {{ 50% {{ transform: translateY(-10px); }} }}
+@keyframes wiggle {{ 25% {{ transform: rotate(-12deg); }} 75% {{ transform: rotate(12deg); }} }}
+[data-testid="stTab"]:active p::before, .stat:hover .ico, .bubble:hover .ico {{ animation: wiggle 0.3s steps(2); }}
+[data-testid="stPopover"] button p::before {{ transition: transform 0.3s steps(3); }}
+[data-testid="stPopover"] button:hover p::before {{ transform: rotate(90deg); }}
+/* The interactive kitchen: a layer behind the page (app/kitchen_scene.html). Taps on empty parts of the
+   page fall through to it; buttons, fields, tabs, cards and the chef still get their own taps. */
+.stApp {{ isolation: isolate; }}
+[data-testid="stElementContainer"]:has(iframe[title="st.iframe"]) {{
+  position: fixed !important; inset: 0; z-index: -1; width: 100vw !important; height: 100vh !important; margin: 0;
+}}
+[data-testid="stElementContainer"]:has(iframe[title="st.iframe"]) iframe {{
+  width: 100vw !important; height: 100vh !important; border: 0;
+}}
+.stApp, [data-testid="stAppViewContainer"], [data-testid="stAppViewContainer"] > div:has([data-testid="stMain"]),
+[data-testid="stMain"], .block-container, .block-container * {{ pointer-events: none; }}
+[data-testid="stSidebar"], [data-testid="stHeader"], [data-testid="stSidebarCollapsedControl"],
+[data-testid="stExpandSidebarButton"] {{ pointer-events: auto; }}
+.block-container :is(button, input, textarea, a, label, [role="tab"], [role="slider"], [data-baseweb="select"],
+  [data-testid="stTabs"], [class*="st-key-recipe-card"], [data-testid="stPopover"], .chef, .bubble,
+  .stat, h1, .tagline, .site-footer, iframe) {{ pointer-events: auto; }}
+@media (prefers-reduced-motion: reduce) {{
+  .stButton > button:active, .chef:active {{ transform: none; animation: none; }}
+  [data-testid="stTab"]:active p::before, .stat:hover .ico, .bubble:hover .ico {{ animation: none; }}
+  [data-testid="stPopover"] button:hover p::before {{ transform: none; }}
+}}
 </style>
 """
+
+
+@cache
+def scene_page(scene: str) -> str:
+    """The interactive kitchen for one theme: app/kitchen_scene.html with that theme's pieces filled in."""
+    layers = ART / f"scene_{scene}.json"
+    template = Path(__file__).with_name("kitchen_scene.html")
+    if not (layers.exists() and template.exists()):
+        return ""
+    return template.read_text(encoding="utf-8").replace("__SCENE__", layers.read_text(encoding="utf-8"))
+
+
+def kitchen_scene(scene: str) -> None:
+    """Put the interactive kitchen behind the page (the CSS makes it fill the window). Without the
+    scene files the page keeps the still picture."""
+    page = scene_page(scene)
+    if page:
+        components.html(page, height=10)
 
 
 def chef_says(place, mood: str, message: str, icon: str | None = None) -> None:
@@ -214,6 +278,7 @@ st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if 
                    layout="wide")
 theme_name = st.session_state.get("theme", "Classic")
 st.markdown(style(THEMES[theme_name]), unsafe_allow_html=True)
+kitchen_scene(THEMES[theme_name]["scene"])
 heading, settings = st.columns([4, 1], vertical_alignment="center")
 heading.title("EverFlavor Kitchen")
 heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked ingredient by ingredient.</p>',
@@ -230,7 +295,7 @@ if not (DATA / "recipes_test.parquet").exists():
 recipes = load_recipes()
 
 
-@st.cache_data(ttl=60)   # ask Ollama at most once a minute
+@st.cache_data(ttl=300)   # ask Ollama at most every 5 minutes (when it is off, asking takes about 4 s)
 def local_ai() -> dict:
     return choose_model()   # {"kind": "ollama" or "rules", "model", "reason"}
 
@@ -282,8 +347,8 @@ with find_tab:
             chef_says(chef, "happy", f"Here {'is' if len(results) == 1 else 'are'} {len(results)} "
                                      f"{'idea' if len(results) == 1 else 'ideas'} close to {calories} calories. "
                                      "Every one passed the safety check for your profile.", "safe")
-        for _, row in results.iterrows():
-            with st.container(border=True):
+        for number, (_, row) in enumerate(results.iterrows()):
+            with st.container(border=True, key=f"recipe-card-{number}"):
                 photo = row.get("image_url")
                 if isinstance(photo, str) and photo.startswith("https://"):
                     picture, info = st.columns([1, 2])
@@ -327,3 +392,25 @@ with check_tab:
         st.info(report["text"])
         st.caption(f"Explained by: {report['explained_by']}. Rules checked: "
                    + ", ".join(nice(r) for r in report["checked"]))
+
+# ---------- Footer: disclaimer and contributors ----------
+REPO = "https://github.com/Chloe-Tu2/The-EverFlavor-AI"
+CONTRIBUTORS = ["Chloe-Tu2", "Evaabou20", "med27-coder"]   # GitHub accounts of the team (Team EverGlow)
+st.markdown(f"""
+<footer class="site-footer">
+  <div class="footer-title">Please read</div>
+  <ul>
+    <li><b>Not medical advice.</b> The checks read ingredient names and can miss things: a brand's recipe,
+        cross-contact in a factory, or an ingredient written in an unusual way. With a serious allergy or a
+        health condition, always read the product label and ask your doctor or dietitian.</li>
+    <li><b>Diet labels are not certifications.</b> "Halal", "kosher" and the other diets mean the ingredients
+        contain nothing the diet forbids; they cannot show how food was produced or certified.</li>
+    <li><b>Some numbers are estimates.</b> Calories and protein marked as estimated are approximate.</li>
+    <li><b>Nothing you enter is saved.</b> Your choices last only while this page is open.</li>
+  </ul>
+  <div class="footer-title">Made by Team EverGlow</div>
+  <div class="credits">{"".join(f'<a href="https://github.com/{name}" target="_blank" rel="noopener">@{name}</a>' for name in CONTRIBUTORS)}</div>
+  <small>ITAI 2277 Capstone · <a href="{REPO}" target="_blank" rel="noopener">Project on GitHub</a> ·
+  <a href="{REPO}/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a> · Recipe photos belong to their sources.</small>
+</footer>
+""", unsafe_allow_html=True)

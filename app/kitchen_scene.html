@@ -1,0 +1,127 @@
+<!-- The interactive kitchen behind the page (app.py fills in SCENE with design/pixel-art/concept/scene_<theme>.json).
+     Tap the curtains to close or open them; tap a jar, the pans, the pot, the tomato, the herbs, the plant or
+     the lamp to make it move. Pure canvas drawing, no outside files. -->
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: transparent; }
+  canvas { display: block; width: 100vw; height: 100vh; image-rendering: pixelated; }
+</style>
+<canvas id="kitchen" aria-hidden="true"></canvas>
+<script>
+const SCENE = __SCENE__;
+const [W, H] = SCENE.size;
+const canvas = document.getElementById("kitchen");
+const ctx = canvas.getContext("2d");
+const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function load(src) { const img = new Image(); img.src = src; return img; }
+const backdrop = load(SCENE.backdrop);
+const pieces = Object.entries(SCENE.pieces).map(([name, p]) => ({ name, ...p, img: load(p.png), anim: null }));
+const byName = Object.fromEntries(pieces.map(p => [p.name, p]));
+
+// What each piece does when tapped: shake, swing, hop or (curtains) close and open
+function kindOf(name) {
+  if (name.startsWith("curtain")) return "curtain";
+  if (name.startsWith("pan") || name === "lamp") return "swing";
+  if (name === "lid") return "hop";
+  return "shake";
+}
+let curtainsClosed = false, curtainAmount = 0, curtainFrom = 0, curtainStart = 0;
+const puffs = [];   // steam puffs from the pot
+
+// The scene covers the window and sits on the bottom edge, like the page's background did
+let scale = 1, offsetX = 0, offsetY = 0;
+function layout() {
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = Math.round(innerWidth * dpr);
+  canvas.height = Math.round(innerHeight * dpr);
+  scale = Math.max(canvas.width / W, canvas.height / H);
+  offsetX = (canvas.width - W * scale) / 2;
+  offsetY = canvas.height - H * scale;
+  draw(performance.now());
+}
+
+function offset(p, now) {
+  if (!p.anim) return [0, 0];
+  const t = (now - p.anim) / 1000;
+  if (t > 0.6 || still) { p.anim = null; return [0, 0]; }
+  const fade = 1 - t / 0.6;
+  switch (kindOf(p.name)) {
+    case "shake": return [Math.round(Math.sin(t * 60) * 1.5 * fade), 0];
+    case "swing": return [Math.round(Math.sin(t * 25) * 2 * fade), 0];
+    case "hop": return [0, -Math.round(Math.abs(Math.sin(t * 15)) * 4 * fade)];
+  }
+  return [0, 0];
+}
+
+function draw(now) {
+  ctx.imageSmoothingEnabled = false;
+  ctx.setTransform(scale, 0, 0, scale, offsetX, offsetY);
+  ctx.clearRect(-offsetX / scale, -offsetY / scale, canvas.width / scale, canvas.height / scale);
+  ctx.drawImage(backdrop, 0, 0);
+  // Curtains: slide from their place to the middle of the window
+  const target = curtainsClosed ? 1 : 0;
+  if (curtainAmount !== target) {
+    const k = still ? 1 : Math.min(1, (now - curtainStart) / 450);
+    curtainAmount = curtainFrom + (target - curtainFrom) * k;
+  }
+  for (const p of pieces) {
+    const [dx, dy] = offset(p, now);
+    if (p.name === "curtain_left" || p.name === "curtain_right") {
+      const grow = Math.round(curtainAmount * 17);   // half the window's width, less the curtain's own width
+      const x = p.name === "curtain_left" ? p.x : p.x - grow;
+      ctx.drawImage(p.img, x, p.y, p.w + grow, p.h);
+    } else {
+      ctx.drawImage(p.img, p.x + dx, p.y + dy);
+    }
+  }
+  // Steam puffs
+  for (let i = puffs.length - 1; i >= 0; i--) {
+    const f = puffs[i], age = (now - f.born) / 1000;
+    if (age > 1.4) { puffs.splice(i, 1); continue; }
+    ctx.fillStyle = `rgba(255,255,255,${1 - age / 1.4})`;
+    ctx.fillRect(Math.round(f.x + Math.sin(age * 6 + f.x) * 1.5), Math.round(f.y - age * 14), 2, 2);
+  }
+  const busy = pieces.some(p => p.anim) || puffs.length || curtainAmount !== (curtainsClosed ? 1 : 0);
+  if (busy) requestAnimationFrame(draw);
+}
+
+function pieceAt(clientX, clientY) {
+  const dpr = window.devicePixelRatio || 1;
+  const x = (clientX * dpr - offsetX) / scale, y = (clientY * dpr - offsetY) / scale;
+  // Topmost first; a little margin so small pieces are easy to tap
+  for (let i = pieces.length - 1; i >= 0; i--) {
+    const p = pieces[i];
+    if (x >= p.x - 1 && x <= p.x + p.w + 1 && y >= p.y - 1 && y <= p.y + p.h + 1) return p;
+  }
+  return null;
+}
+
+canvas.addEventListener("pointerdown", e => {
+  const p = pieceAt(e.clientX, e.clientY);
+  if (!p) return;
+  const now = performance.now();
+  if (kindOf(p.name) === "curtain") {
+    curtainsClosed = !curtainsClosed; curtainFrom = curtainAmount; curtainStart = now;
+  } else {
+    p.anim = now;
+    if (p.name === "pot" || p.name === "lid") {
+      byName.lid.anim = now;
+      for (let k = 0; k < 8; k++) puffs.push({ x: 29 + Math.random() * 16, y: 70 - Math.random() * 4, born: now + k * 60 });
+    }
+  }
+  requestAnimationFrame(draw);
+});
+canvas.addEventListener("pointermove", e => { canvas.style.cursor = pieceAt(e.clientX, e.clientY) ? "pointer" : "default"; });
+
+// The page's empty spots let taps through to the kitchen, so pass scrolling back to the page
+const page = (() => { try { return parent.document.querySelector('[data-testid="stMain"]'); } catch (e) { return null; } })();
+canvas.addEventListener("wheel", e => { if (page) { page.scrollBy(e.deltaX, e.deltaY); e.preventDefault(); } }, { passive: false });
+let touchY = null;
+canvas.addEventListener("touchstart", e => { touchY = e.touches[0].clientY; }, { passive: true });
+canvas.addEventListener("touchmove", e => {
+  if (page && touchY !== null) { page.scrollBy(0, touchY - e.touches[0].clientY); touchY = e.touches[0].clientY; e.preventDefault(); }
+}, { passive: false });
+
+addEventListener("resize", layout);
+Promise.all([backdrop, ...pieces.map(p => p.img)].map(img => img.decode().catch(() => null))).then(layout);
+</script>

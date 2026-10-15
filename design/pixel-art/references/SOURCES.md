@@ -21,8 +21,12 @@ from these games or sites, so no one else's art ends up in the repository.
 
 ## Font
 
-- **Pixelify Sans** (headings, buttons, the chef's speech bubble), Google Fonts, SIL Open Font License:
-  <https://fonts.google.com/specimen/Pixelify+Sans>. Body text stays in a normal font for readability.
+- **Jersey 10** (titles, tabs, buttons, numbers), Google Fonts, SIL Open Font License:
+  <https://fonts.google.com/specimen/Jersey+10>.
+- **VT323** (the chef's lines, small labels), Google Fonts, SIL Open Font License:
+  <https://fonts.google.com/specimen/VT323>.
+- Body text stays in a normal font for readability. Pixelify Sans was tried first and dropped: its B, C, 2 and 5
+  were hard to read.
 
 ## Free art the team may use
 

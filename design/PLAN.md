@@ -16,6 +16,9 @@ Done on the branch:
 - Settings moved to the top right (a pixel button with the oven knob); four themes, Classic is Eva's palette.
 - Pixel icons instead of emoji ([ICONS.md](ICONS.md)); the chef reads out every result.
 - The color bug is fixed: checked with a browser set to dark mode, the page keeps its colors.
+- The kitchen is live: curtains close, jars shake, the pot puffs steam, the chef winks (easter eggs, README).
+- Readable pixel fonts (Jersey 10, VT323); a footer with the disclaimer and the contributors.
+- Each click now updates the page in about 0.05 s instead of 1.5 s (the recipes are no longer copied per click).
 
 ## Who it is for
 

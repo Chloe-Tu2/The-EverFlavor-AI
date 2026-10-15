@@ -80,6 +80,34 @@ Ranked, for when the team agrees on the direction:
 4. **Allergen icons:** small pixel icons (peanut, milk, egg, wheat, fish, shrimp) on recipe cards.
 5. **Kitchen achievements:** first safe recipe, ten cuisines tried, a week of meals planned.
 
+## Easter eggs: a kitchen you can touch
+
+The kitchen behind the page is live (`app/kitchen_scene.html`, drawn from the pieces in
+`pixel-art/concept/scene_<theme>.json`). Taps on empty parts of the page reach it:
+
+| Tap | What happens |
+|---|---|
+| The curtains | They close across the window; tap again to open them |
+| A jar, the tomato, the herbs, the plant | It shakes |
+| The pans or the lamp | They swing |
+| The pot or its lid | The lid hops and a puff of steam rises |
+| The chef | The chef hops and winks |
+| A tab icon, a recipe stat, the bubble's icon | It wiggles; the Settings knob turns on hover |
+
+Scrolling over the kitchen still scrolls the page, and all motion stops when the computer asks for reduced
+motion. More ideas: the lamp switching the Night light on and off, a cat walking along the counter after ten taps.
+
+## Fonts
+
+Two pixel fonts that read like normal text: **Jersey 10** for titles, tabs, buttons and numbers, and **VT323**
+for the chef's lines and small labels (both Google Fonts, SIL Open Font License). The first font tried,
+Pixelify Sans, drew B like G, C like O and 5 like S.
+
+## Footer
+
+The bottom of the page has the disclaimer (not medical advice, diet labels are not certifications, some
+numbers are estimates, nothing is saved) and links to the contributors' GitHub accounts, the project and its license.
+
 ## Icons
 
 The app uses its own pixel icons instead of emoji: on the tabs, the Settings knob, the recipe stats and the
