@@ -14,6 +14,13 @@ streamlit run app/app.py
 
 The browser opens at `http://localhost:8501`. Save the file and the page reloads. Stop with **Ctrl+C**.
 
+## The look
+
+A pixel-art kitchen behind the page, a pixel chef who reads out the results, real food photos in the recipe
+cards, and four color themes (**⚙ Settings**, bottom of the sidebar; Classic is Eva's palette). The art and
+the concept are in [design/](../design/README.md). `.streamlit/config.toml` fixes Streamlit's own theme to
+light, so the colors look the same on every computer.
+
 ## What is on the page
 
 | Part | Uses |

@@ -1,0 +1,12 @@
+# Streamlit settings, read when the app runs from the project folder (streamlit run app/app.py).
+# The page draws its own colors (app/app.py, THEMES), so Streamlit's own theme is fixed to light here:
+# without this, a computer in dark mode draws white text on the cream page.
+[theme]
+base = "light"
+primaryColor = "#8B4513"
+backgroundColor = "#FFF1E6"
+secondaryBackgroundColor = "#FFF8E7"
+textColor = "#4A2C2A"
+
+[client]
+toolbarMode = "minimal"
