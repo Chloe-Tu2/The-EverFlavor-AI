@@ -50,7 +50,7 @@ git checkout concept/pixel-kitchen-ui
 python -m streamlit run app/app.py
 ```
 
-Then open **⚙ Settings** at the bottom of the sidebar to switch themes. With a peanut allergy selected,
+Then open **Settings** at the bottom of the sidebar to switch themes. With a peanut allergy selected,
 check the sample "Thai Peanut Bowl" to see the chef's warning.
 
 ## Changing the art
@@ -76,6 +76,11 @@ Ranked, for when the team agrees on the direction:
 3. **Animated details:** steam rising from the pot, the chef blinking, the window changing with the real time of day.
 4. **Allergen icons:** small pixel icons (peanut, milk, egg, wheat, fish, shrimp) on recipe cards.
 5. **Kitchen achievements:** first safe recipe, ten cuisines tried, a week of meals planned.
+
+## Icons
+
+The app uses its own pixel icons instead of emoji: on the tabs, the Settings knob, the recipe stats and the
+chef's speech bubble. Ideas, drafts and open questions: [ICONS.md](ICONS.md).
 
 ## References
 

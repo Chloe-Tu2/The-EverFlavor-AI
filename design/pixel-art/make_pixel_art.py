@@ -228,6 +228,137 @@ def chef(mood: str) -> Image.Image:
     return img
 
 
+# ---------- Icons (20 x 20), drawn shape by shape; the app shows them at 2x ----------
+INK, PLATE, PLATE_SHADE = "#3B2A25", "#FFFFFF", "#E3D9CC"
+RED, RED_DARK, GREEN, GREEN_DARK = "#D9483B", "#A8322A", "#5E9B4A", "#3F7A33"
+ORANGE, YELLOW, CREAM, SKIN, STEEL, STEEL_DARK = "#E8862E", "#F2C14E", "#F6D7B8", "#F2C29B", "#B8B2AC", "#7E7770"
+
+
+def _canvas() -> tuple[Image.Image, ImageDraw.ImageDraw]:
+    img = Image.new("RGBA", (20, 20), (0, 0, 0, 0))
+    return img, ImageDraw.Draw(img)
+
+
+def icon_find() -> Image.Image:
+    """Find recipes: a spread seen from above, a soup bowl, a salad plate, a tomato and a carrot."""
+    img, d = _canvas()
+    d.ellipse([6, 5, 19, 18], fill=PLATE, outline=INK)                  # big plate
+    d.ellipse([8, 7, 17, 16], fill=PLATE_SHADE)                         # its well
+    d.ellipse([9, 8, 14, 12], fill=GREEN)                               # salad
+    d.ellipse([12, 10, 16, 14], fill=GREEN_DARK)
+    d.point([(10, 9), (13, 12), (11, 11)], fill=RED)                    # cherry tomatoes
+    d.point([(15, 11), (12, 9)], fill=YELLOW)                           # corn
+    d.ellipse([0, 1, 8, 8], fill=PLATE, outline=INK)                    # soup bowl
+    d.ellipse([2, 3, 6, 6], fill=ORANGE)
+    d.point([(3, 4), (5, 5)], fill=CREAM)
+    d.ellipse([0, 13, 5, 18], fill=RED, outline=INK)                    # tomato
+    d.point([(2, 13), (3, 12)], fill=GREEN)
+    d.point((1, 15), fill="#F28B7E")                                    # its shine
+    d.line([(15, 1), (19, 4)], fill=ORANGE, width=2)                    # carrot
+    d.point([(14, 0), (14, 1)], fill=GREEN)
+    return img
+
+
+def icon_check() -> Image.Image:
+    """Check my recipe: the chef handing a plate over, a green check rising from it."""
+    img, d = _canvas()
+    d.ellipse([1, 1, 8, 6], fill=PLATE, outline=INK)                    # toque
+    d.rectangle([2, 5, 7, 7], fill=PLATE, outline=INK)
+    d.rectangle([2, 8, 7, 12], fill=SKIN, outline=INK)                  # face
+    d.point([(4, 10), (6, 10)], fill=INK)
+    d.line([(3, 12), (6, 12)], fill="#5A3A2A")                          # mustache
+    d.rectangle([1, 13, 8, 19], fill=PLATE, outline=INK)                # jacket
+    d.point([(4, 13), (5, 13)], fill=RED)                               # neckerchief
+    d.rectangle([8, 13, 13, 14], fill=PLATE, outline=INK)               # arm held out
+    d.rectangle([13, 13, 14, 14], fill=SKIN)                            # hand
+    d.ellipse([10, 10, 19, 13], fill=PLATE, outline=INK)                # plate on the hand
+    d.ellipse([12, 7, 17, 12], fill=STEEL, outline=INK)                 # cloche over the dish
+    d.point((14, 6), fill=INK)                                          # its knob
+    d.line([(15, 2), (16, 3), (19, 0)], fill=GREEN_DARK)                # check mark above
+    d.line([(15, 3), (16, 4), (19, 1)], fill=GREEN)
+    return img
+
+
+def icon_settings() -> Image.Image:
+    """Settings: an oven knob instead of a gear."""
+    img, d = _canvas()
+    d.ellipse([2, 2, 17, 17], fill=STEEL, outline=INK)
+    d.ellipse([5, 5, 14, 14], fill=PLATE_SHADE, outline=INK)
+    d.rectangle([9, 3, 10, 9], fill=RED)                                # the pointer
+    for x, y in [(1, 9), (18, 9), (9, 0), (9, 18), (3, 3), (15, 3)]:   # the dial's marks
+        d.point((x, y), fill=INK)
+    return img
+
+
+def icon_timer() -> Image.Image:
+    """Minutes: a tomato kitchen timer."""
+    img, d = _canvas()
+    d.ellipse([2, 4, 17, 18], fill=RED, outline=INK)
+    d.rectangle([7, 1, 12, 4], fill=GREEN, outline=INK)                 # stem
+    d.line([(3, 11), (16, 11)], fill=RED_DARK)                          # the twist line
+    d.line([(9, 6), (9, 10)], fill=PLATE)                               # the arrow
+    d.point([(5, 8), (14, 8)], fill="#F28B7E")
+    return img
+
+
+def icon_flame() -> Image.Image:
+    """Calories: a stove flame under a pan."""
+    img, d = _canvas()
+    d.rectangle([1, 3, 15, 6], fill=STEEL_DARK, outline=INK)            # pan
+    d.rectangle([15, 4, 19, 5], fill=INK)                               # handle
+    d.polygon([(4, 18), (6, 9), (8, 13), (10, 8), (12, 13), (14, 9), (16, 18)], fill=ORANGE, outline=INK)
+    d.polygon([(7, 18), (9, 13), (10, 15), (11, 12), (13, 18)], fill=YELLOW)
+    return img
+
+
+def icon_protein() -> Image.Image:
+    """Protein: a fried egg in a pan."""
+    img, d = _canvas()
+    d.ellipse([1, 3, 16, 18], fill=STEEL_DARK, outline=INK)
+    d.rectangle([15, 9, 19, 11], fill=INK)
+    d.ellipse([3, 6, 13, 15], fill=PLATE)
+    d.ellipse([6, 8, 10, 12], fill=YELLOW, outline=ORANGE)
+    return img
+
+
+def icon_safe() -> Image.Image:
+    """Safe recipe: a steaming bowl with a basil leaf."""
+    img, d = _canvas()
+    d.pieslice([2, 2, 17, 19], 0, 180, fill=PLATE, outline=INK)
+    d.line([(2, 10), (17, 10)], fill=INK)
+    d.ellipse([4, 8, 15, 12], fill=CREAM)
+    d.ellipse([10, 7, 15, 10], fill=GREEN, outline=GREEN_DARK)
+    for x in (6, 9, 12):
+        d.point([(x, 5), (x + 1, 3), (x, 1)], fill=STEEL)
+    return img
+
+
+def icon_alert() -> Image.Image:
+    """A problem found: a pot boiling over."""
+    img, d = _canvas()
+    d.rectangle([3, 8, 16, 18], fill=STEEL, outline=INK)
+    d.rectangle([1, 9, 3, 11], fill=INK)
+    d.rectangle([16, 9, 18, 11], fill=INK)
+    d.rectangle([2, 6, 17, 8], fill=RED, outline=INK)                   # lid knocked up
+    for x, y in [(4, 4), (8, 2), (12, 3), (15, 5), (6, 9), (14, 10)]:   # foam spilling
+        d.ellipse([x - 1, y - 1, x + 1, y + 1], fill=PLATE, outline=STEEL_DARK)
+    return img
+
+
+def icon_empty() -> Image.Image:
+    """Nothing found: an empty plate with crumbs."""
+    img, d = _canvas()
+    d.ellipse([1, 4, 18, 17], fill=PLATE, outline=INK)
+    d.ellipse([4, 7, 15, 14], fill=PLATE_SHADE)
+    d.point([(7, 9), (11, 12), (13, 9)], fill=CREAM)
+    d.point([(8, 12)], fill="#C8743C")
+    return img
+
+
+ICONS = {"find": icon_find, "check": icon_check, "settings": icon_settings, "timer": icon_timer,
+         "flame": icon_flame, "protein": icon_protein, "safe": icon_safe, "alert": icon_alert, "empty": icon_empty}
+
+
 def main() -> None:
     (OUT / "preview").mkdir(parents=True, exist_ok=True)
     for theme in THEMES:
@@ -238,7 +369,14 @@ def main() -> None:
         sprite = chef(mood)
         sprite.save(OUT / f"chef_{mood}.png")
         sprite.resize((24 * 8, 24 * 8), Image.NEAREST).save(OUT / "preview" / f"chef_{mood}_x8.png")
-    print(f"Saved {len(THEMES)} kitchens and {len(CHEF_FACES)} chefs in {OUT}")
+    sheet = Image.new("RGBA", (len(ICONS) * 24, 24), (0, 0, 0, 0))
+    for k, (name, draw) in enumerate(ICONS.items()):
+        icon = draw()
+        icon.save(OUT / f"icon_{name}.png")
+        icon.resize((20 * 8, 20 * 8), Image.NEAREST).save(OUT / "preview" / f"icon_{name}_x8.png")
+        sheet.paste(icon, (k * 24 + 2, 2))
+    sheet.resize((sheet.width * 6, sheet.height * 6), Image.NEAREST).save(OUT / "preview" / "icons_sheet_x6.png")
+    print(f"Saved {len(THEMES)} kitchens, {len(CHEF_FACES)} chefs and {len(ICONS)} icons in {OUT}")
 
 
 if __name__ == "__main__":

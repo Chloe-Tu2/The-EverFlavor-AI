@@ -135,10 +135,10 @@ div[data-testid="stVerticalBlockBorderWrapper"] {{
 }}
 [data-testid="stImage"] img {{ border: 3px solid var(--border); }}
 /* The chef and the speech bubble */
-.chef-row {{ display: flex; gap: 1rem; align-items: flex-end; margin: 0.5rem 0 1.25rem; }}
-.chef-row img {{ width: 96px; height: 96px; image-rendering: pixelated; flex: none; }}
+.chef-row {{ display: flex; gap: 1.25rem; align-items: flex-end; margin: 0.5rem 0 1.25rem; }}
+.chef {{ width: 128px; height: 128px; flex: none; background: center / contain no-repeat; image-rendering: pixelated; }}
 .bubble {{
-  position: relative; background: var(--bubble); color: var(--text); border: 3px solid var(--border);
+  position: relative; flex: 1 1 auto; overflow-wrap: anywhere; background: var(--bubble); color: var(--text); border: 3px solid var(--border);
   padding: 0.75rem 1rem; font-family: var(--pixel-font); font-size: 1.05rem; line-height: 1.4;
   box-shadow: 4px 4px 0 var(--shadow); min-width: 0;
 }}
@@ -146,25 +146,54 @@ div[data-testid="stVerticalBlockBorderWrapper"] {{
   content: ''; position: absolute; left: -12px; bottom: 14px; border: 6px solid transparent;
   border-right-color: var(--border);
 }}
-@media (max-width: 640px) {{ .block-container {{ padding: 1.25rem 1rem; }} .chef-row img {{ width: 64px; height: 64px; }} }}
+/* Pixel icons instead of emoji: on the tabs, the Settings knob, and the recipe stats */
+button[role="tab"] p::before, [data-testid="stExpander"] summary p::before, .ico {{
+  content: ''; display: inline-block; vertical-align: middle; background: center / contain no-repeat;
+  image-rendering: pixelated;
+}}
+button[role="tab"] p::before {{ width: 40px; height: 40px; margin-right: 0.5rem; }}
+button[role="tab"]:nth-of-type(1) p::before {{ background-image: url('{art("icon_find")}'); }}
+button[role="tab"]:nth-of-type(2) p::before {{ background-image: url('{art("icon_check")}'); }}
+button[role="tab"] p {{ font-size: 1.1rem; }}
+[data-testid="stExpander"] summary p::before {{
+  width: 24px; height: 24px; margin-right: 0.4rem; background-image: url('{art("icon_settings")}');
+}}
+.stats {{ display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin: 0.25rem 0 0.75rem; }}
+.stat {{ display: flex; align-items: center; gap: 0.5rem; font-family: var(--pixel-font); font-size: 1.15rem; }}
+.stat .ico, .bubble .ico {{ width: 32px; height: 32px; }}
+.bubble .ico {{ margin-right: 0.5rem; }}
+.stat small {{ font-family: inherit; opacity: 0.75; font-size: 0.85rem; }}
+@media (max-width: 640px) {{ .block-container {{ padding: 1.25rem 1rem; }} .chef {{ width: 80px; height: 80px; }} }}
 @media (prefers-reduced-motion: reduce) {{ .stButton > button:active {{ transform: none; }} }}
 </style>
 """
 
 
-def chef_says(place, mood: str, message: str) -> None:
-    """Draw the chef with a speech bubble. mood: 'happy', 'alert' or 'thinking'.
+def chef_says(place, mood: str, message: str, icon: str | None = None) -> None:
+    """Draw the chef with a speech bubble. mood: 'happy', 'alert' or 'thinking'; icon: one of the
+    result icons ('safe', 'alert', 'empty') shown at the start of the bubble.
 
     The chef only reads out what the back end decided; it never decides anything itself.
     """
-    sprite = art(f"chef_{mood}")
-    image = f'<img src="{sprite}" alt="Pixel chef, {mood}">' if sprite else ""
-    place.markdown(f'<div class="chef-row">{image}<div class="bubble">{html.escape(message)}</div></div>',
+    figure = f'<div class="chef" role="img" aria-label="The chef, {mood}" style="background-image: url({art("chef_" + mood)})"></div>'
+    badge = f'<span class="ico" style="background-image: url({art("icon_" + icon)})"></span>' if icon else ""
+    place.markdown(f'<div class="chef-row">{figure}<div class="bubble">{badge}{html.escape(message)}</div></div>',
                    unsafe_allow_html=True)
 
 
+def stats(place, calories: float, protein: float, minutes: float | None) -> None:
+    """A recipe's calories, protein and time, each with its pixel icon."""
+    chips = [("icon_flame", f"{calories:.0f}", "kcal"), ("icon_protein", f"{protein:.0f} g", "protein"),
+             ("icon_timer", f"{minutes:.0f}" if minutes is not None and pd.notna(minutes) else "N/A", "minutes")]
+    place.markdown('<div class="stats">' + "".join(
+        f'<div class="stat"><span class="ico" style="background-image: url({art(icon)})"></span>'
+        f'{value} <small>{label}</small></div>' for icon, value, label in chips) + "</div>", unsafe_allow_html=True)
+
+
 # ---------- Page setup ----------
-st.set_page_config(page_title="EverFlavor Kitchen", page_icon="🍲", layout="wide")
+CHEF_ICON = ART / "chef_happy.png"
+st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
+                   layout="wide")
 theme_name = st.session_state.get("theme", "Classic")
 st.markdown(style(THEMES[theme_name]), unsafe_allow_html=True)
 st.title("EverFlavor Kitchen")
@@ -199,7 +228,7 @@ with st.sidebar:
     else:
         use_ai = False
         st.caption(f"Local AI is off: {ai['reason']}")
-    with st.expander("⚙ Settings"):
+    with st.expander("Settings"):
         st.selectbox("Kitchen theme", list(THEMES), key="theme",
                      help="Classic is the team's original look. Night is easier on the eyes in the dark.")
 
@@ -209,7 +238,7 @@ chef_says(chef, "happy", "Welcome to the kitchen! Tell me what you can't eat in 
                          "then find a recipe or check one of yours.")
 
 # ---------- Two tabs ----------
-find_tab, check_tab = st.tabs(["🔎 Find recipes", "✅ Check my recipe"])
+find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pixel icons come from the CSS
 
 with find_tab:
     families = ["Any"] + sorted(recipes["cuisine_family"].dropna().unique())
@@ -228,11 +257,11 @@ with find_tab:
             top_n=int(how_many),
         )
         if results.empty:
-            chef_says(chef, "thinking", "Hmm, nothing matches all your choices. Try removing one.")
+            chef_says(chef, "thinking", "Hmm, nothing matches all your choices. Try removing one.", "empty")
         else:
             chef_says(chef, "happy", f"Here {'is' if len(results) == 1 else 'are'} {len(results)} "
                                      f"{'idea' if len(results) == 1 else 'ideas'} close to {calories} calories. "
-                                     "Every one passed the safety check for your profile.")
+                                     "Every one passed the safety check for your profile.", "safe")
         for _, row in results.iterrows():
             with st.container(border=True):
                 photo = row.get("image_url")
@@ -242,11 +271,7 @@ with find_tab:
                 else:
                     info = st.container()
                 info.subheader(row["recipe_name"].title())
-                left, middle, right = info.columns(3)
-                left.metric("Calories", f"{row['calories_per_serving']:.0f}")
-                middle.metric("Protein", f"{row['protein_g']:.0f} g")
-                minutes = row.get("minutes")
-                right.metric("Minutes", f"{minutes:.0f}" if pd.notna(minutes) else "N/A")
+                stats(info, row["calories_per_serving"], row["protein_g"], row.get("minutes"))
                 ingredients = row["ingredient_list"]
 
                 if isinstance(ingredients, str):
@@ -268,13 +293,13 @@ with check_tab:
         with st.spinner("Checking..."):
             report = check_and_explain(lines.splitlines(), name, profile, model=ai["model"] if use_ai else None)
         if report["passed"]:
-            chef_says(chef, "happy", f"{name} is safe for your profile. Happy cooking!")
+            chef_says(chef, "happy", f"{name} is safe for your profile. Happy cooking!", "safe")
             st.success("Safe for your profile.")
         else:
             first = report["problems"][0]
             chef_says(chef, "alert", f"Watch out! \"{first['line']}\" breaks {nice(first['rule'])}"
                                      + (f", and I found {len(report['problems']) - 1} more."
-                                        if len(report["problems"]) > 1 else "."))
+                                        if len(report["problems"]) > 1 else "."), "alert")
             st.error(f"{len(report['problems'])} problem(s) found:")
             for problem in report["problems"]:
                 st.write(f"- **{problem['line']}**: breaks *{nice(problem['rule'])}* "
