@@ -116,6 +116,11 @@ div[data-baseweb="input"] > div, div[data-baseweb="select"] > div, textarea, div
   background: #FFFDF8 !important; border: 2px solid var(--border) !important; border-radius: 0 !important;
 }}
 div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color: #2B1E1A !important; }}
+/* Chosen items in "I can't eat" / "I follow": the theme's button color, so the dark text stays readable */
+span[data-baseweb="tag"] {{
+  background: var(--button) !important; border: 2px solid var(--border); border-radius: 0 !important;
+}}
+span[data-baseweb="tag"] svg {{ fill: #2B1E1A !important; }}
 /* Pixel buttons: square corners, a hard shadow that "presses" on click */
 .stButton > button {{
   background: var(--button); color: #2B1E1A; border: 3px solid var(--border); border-radius: 0;
