@@ -224,7 +224,19 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
 .stat .ico, .bubble .ico {{ width: 32px; height: 32px; }}
 .bubble .ico {{ margin-right: 0.5rem; }}
 .stat small {{ font-family: var(--pixel-text); opacity: 0.8; font-size: 1.2rem; }}
+/* The concept layout: the kitchen open under the title, the chef at the bottom of the sidebar */
+.kitchen-view {{ height: 30vh; }}
+.st-key-chef-side {{ margin-top: 0.5rem; }}
+.st-key-chef-side .chef-row {{ flex-direction: column-reverse; align-items: center; gap: 0.9rem; }}
+.st-key-chef-side .chef {{ width: 132px; height: 132px; }}
+.st-key-chef-side .bubble {{ font-size: 1.15rem; line-height: 1.1; width: 100%; padding: 0.45rem 0.7rem; }}
+.st-key-chef-side .bubble::before {{
+  left: calc(50% - 6px); bottom: -12px; border-right-color: transparent; border-top-color: var(--border);
+}}
+@media (min-width: 641px) {{ .st-key-chef-main {{ display: none; }} }}
 @media (max-width: 640px) {{
+  .st-key-chef-side {{ display: none; }}
+  .kitchen-view {{ height: 16vh; }}
   .block-container {{ padding: 1.25rem 1rem 3rem; }} .chef {{ width: 80px; height: 80px; }}
   [data-testid="stTabs"] {{ padding: 0.5rem 0.9rem 1.25rem; }}
   [data-testid="stTab"] p::before {{ width: 28px; height: 28px; margin-right: 0.3rem; }}
@@ -301,8 +313,9 @@ def chef_says(place, mood: str, message: str, icon: str | None = None) -> None:
     """
     figure = f'<div class="chef" role="img" aria-label="The chef, {mood}" style="background-image: url({art("chef_" + CHEF + mood)})"></div>'
     badge = f'<span class="ico" style="background-image: url({art("icon_" + icon)})"></span>' if icon else ""
-    place.markdown(f'<div class="chef-row">{figure}<div class="bubble">{badge}{html.escape(message)}</div></div>',
-                   unsafe_allow_html=True)
+    for spot in place if isinstance(place, (list, tuple)) else [place]:   # the sidebar, and the page on phones
+        spot.markdown(f'<div class="chef-row">{figure}<div class="bubble">{badge}{html.escape(message)}</div></div>',
+                      unsafe_allow_html=True)
 
 
 def stats(place, calories: float, protein: float, minutes: float | None) -> None:
@@ -341,7 +354,10 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
                  help="Classic is the team's original look. Night is easier on the eyes in the dark.")
     st.toggle("Match the kitchen to the cuisine", value=True, key="follow_cuisine",
               help="Searching Asian, European, Latin American or Middle Eastern recipes opens that kitchen.")
-chef = st.empty()   # the chef's line, filled in below once we know what happened
+st.markdown('<div class="kitchen-view"></div>', unsafe_allow_html=True)   # leave the kitchen in view
+# The chef's line, filled in below once we know what happened: in the page on phones (the sidebar is hidden there),
+# and at the bottom of the sidebar on wider screens (added after the profile, below)
+chef = [st.container(key="chef-main").empty()]
 
 if not (DATA / "recipes_test.parquet").exists():
     chef_says(chef, "thinking", "My pantry is empty! Run notebook 01 first to build the recipe data.")
@@ -371,6 +387,7 @@ with st.sidebar:
     else:
         use_ai = False
         st.caption("Local AI: off. The rules still check everything.", help=ai["reason"])
+    chef.append(st.container(key="chef-side").empty())
 
 profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetarian,
                       vegan=vegan, calories_per_meal=calories)

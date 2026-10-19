@@ -15,7 +15,8 @@ kitchen, roadmap, questions for the team).
 | [pixel-art/assets/](pixel-art/assets/) | The art the app uses: kitchens, chefs, icons and the interactive scene files |
 | [pixel-art/previews/](pixel-art/previews/) | The same art enlarged, for looking at (and for these docs) |
 | [pixel-art/drafts/](pixel-art/drafts/) | Concept work not final yet: [cuisine kitchens](pixel-art/drafts/cuisine-kitchens/README.md) |
-| [pixel-art/archive/](pixel-art/archive/README.md) | Old versions, kept before any art is redrawn |
+| [pixel-art/originals/](pixel-art/originals/README.md) | The team's own art (the detailed concept style): drop a kitchen or chef here and it replaces the code-drawn one |
+| [pixel-art/archive/](pixel-art/archive/README.md) | Old versions, kept before any art is redrawn (the code-drawn kitchens and chefs are there) |
 | [pixel-art/references/](pixel-art/references/SOURCES.md) | Inspirations, palettes, fonts, free art and photo sources, with licenses |
 | [screenshots/](screenshots/) | The app on desktop and phone |
 

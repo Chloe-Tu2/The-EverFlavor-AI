@@ -38,6 +38,9 @@ The first numbered release (beta). It sums up the work since the project started
 
 - Readable pixel fonts (Jersey 10 and VT323) replace the first pixel font, whose letters and numbers were hard to read.
 - Clicks in the app update the page in about 0.05 s instead of 1.5 s.
+- The concept sheet's layout: the kitchen stays in view under the title, and the chef stands at the bottom of the
+  sidebar (in the page on phones). The team's own detailed art replaces the code-drawn kitchens and chefs once it is
+  added to `design/pixel-art/originals/`; the code-drawn ones are archived.
 
 ### Fixed
 

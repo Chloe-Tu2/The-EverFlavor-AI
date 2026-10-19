@@ -20,6 +20,30 @@ from PIL import Image, ImageColor, ImageDraw
 
 OUT = Path(__file__).resolve().parent / "assets"
 PREVIEW = Path(__file__).resolve().parent / "previews"
+# The team's own art (the detailed concept style): originals/<scene>.png replaces that scene's drawing, and
+# originals/<scene>.hotspots.json lists the objects that move when tapped: [{"name", "x", "y", "w", "h"}, ...]
+# in the picture's pixels. originals/chef_<variant>.png (variant: classic, japanese, mexican, middle_eastern)
+# replaces that chef in every mood. See originals/README.md.
+ORIGINALS = Path(__file__).resolve().parent / "originals"
+
+
+def original_parts(name: str) -> tuple[Image.Image, dict[str, tuple[Image.Image, int, int]]] | None:
+    """The team's picture for one scene and its tappable objects, or None when there is no picture yet."""
+    picture = ORIGINALS / f"{name}.png"
+    if not picture.exists():
+        return None
+    img = Image.open(picture).convert("RGBA")
+    spots = ORIGINALS / f"{name}.hotspots.json"
+    pieces = {}
+    for spot in json.loads(spots.read_text(encoding="utf-8")) if spots.exists() else []:
+        x, y, w, h = (int(spot[k]) for k in ("x", "y", "w", "h"))
+        pieces[spot["name"]] = (img.crop((x, y, x + w, y + h)), x, y)   # drawn again over itself, so it can move
+    return img, pieces
+
+
+def original_chef(variant: str) -> Image.Image | None:
+    picture = ORIGINALS / f"chef_{variant}.png"
+    return Image.open(picture).convert("RGBA") if picture.exists() else None
 W, H = 240, 135   # 16:9; the app scales it to the window
 
 # One palette per theme. "classic" is Eva's cream, brown and pink (the default).
@@ -454,26 +478,30 @@ def main() -> None:
     PREVIEW.mkdir(parents=True, exist_ok=True)
     scenes = {theme: (lambda theme=theme: kitchen_parts(theme)) for theme in THEMES} | cuisine_kitchens.SCENES
     for name, parts in scenes.items():
-        backdrop, pieces = parts()
+        backdrop, pieces = original_parts(name) or parts()
+        size = list(backdrop.size)
         scene = backdrop.copy()
         for sprite, x, y in pieces.values():
             scene.alpha_composite(sprite, (x, y))
         scene.convert("RGB").save(OUT / f"kitchen_{name}.png")
         # The interactive kitchen in the app: the backdrop and every movable piece with its place
-        layers = {"size": [W, H], "backdrop": _png(backdrop),
+        layers = {"size": size, "backdrop": _png(backdrop),
                   "pieces": {piece: {"png": _png(sprite), "x": x, "y": y, "w": sprite.width, "h": sprite.height}
                              for piece, (sprite, x, y) in pieces.items()}}
         (OUT / f"scene_{name}.json").write_text(json.dumps(layers), encoding="utf-8")
-        scene.resize((W * 4, H * 4), Image.NEAREST).save(PREVIEW / f"kitchen_{name}_x4.png")
+        big = scene if scene.width > W else scene.resize((W * 4, H * 4), Image.NEAREST)   # originals are big already
+        big.convert("RGB").save(PREVIEW / f"kitchen_{name}_x4.png")
     CHEF_COLORS.update(cuisine_kitchens.CHEF_EXTRA_COLORS)
     for mood, face in CHEF_FACES.items():
-        sprite = chef(mood)
+        sprite = original_chef("classic") or chef(mood)
         sprite.save(OUT / f"chef_{mood}.png")
-        sprite.resize((24 * 8, 24 * 8), Image.NEAREST).save(PREVIEW / f"chef_{mood}_x8.png")
+        (sprite if sprite.width > 24 else sprite.resize((24 * 8, 24 * 8), Image.NEAREST)).save(
+            PREVIEW / f"chef_{mood}_x8.png")
         for variant in cuisine_kitchens.CHEF_VARIANTS:
-            sprite = chef(mood, cuisine_kitchens.chef_rows(variant, face))
+            sprite = original_chef(variant) or chef(mood, cuisine_kitchens.chef_rows(variant, face))
             sprite.save(OUT / f"chef_{variant}_{mood}.png")
-            sprite.resize((24 * 8, 24 * 8), Image.NEAREST).save(PREVIEW / f"chef_{variant}_{mood}_x8.png")
+            (sprite if sprite.width > 24 else sprite.resize((24 * 8, 24 * 8), Image.NEAREST)).save(
+                PREVIEW / f"chef_{variant}_{mood}_x8.png")
     sheet = Image.new("RGBA", (len(ICONS) * 24, 24), (0, 0, 0, 0))
     for k, (name, draw) in enumerate(ICONS.items()):
         icon = draw()
