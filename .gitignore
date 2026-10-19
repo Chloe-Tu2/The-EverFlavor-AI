@@ -21,7 +21,8 @@ venv/
 models/
 
 # Personal editor and assistant settings - each person keeps their own
-.vscode/
+.vscode/*
+!.vscode/extensions.json
 .claude/settings.local.json
 
 # Test coverage reports (pytest --cov)

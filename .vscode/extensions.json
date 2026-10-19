@@ -1,0 +1,19 @@
+{
+  // Extensions VS Code suggests to anyone who opens the project (Extensions panel, "Recommended")
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.mypy-type-checker",
+    "ms-toolsai.jupyter",
+    "ms-toolsai.datawrangler",
+    "charliermarsh.ruff",
+    "davidanson.vscode-markdownlint",
+    "bierner.markdown-mermaid",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "mechatroner.rainbow-csv",
+    "tamasfe.even-better-toml",
+    "mikestead.dotenv",
+    "github.vscode-github-actions"
+  ]
+}
