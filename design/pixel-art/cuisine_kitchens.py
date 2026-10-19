@@ -334,14 +334,206 @@ def middle_eastern() -> tuple[Image.Image, dict]:
     return s.parts()
 
 
-SCENES = {"japanese": japanese, "mediterranean": mediterranean, "mexican": mexican, "middle_eastern": middle_eastern}
+def chinese() -> tuple[Image.Image, dict]:
+    """Chinese home kitchen (2026-10-18): moon window, red lantern, steamers, wok over a flame, cleaver and block."""
+    red, wood, tile = "#B22D2D", "#5A3420", "#D9D4C8"
+    s = Scene("#F1E9DA")
+    d = s.d
+    speckle(d, "#E6DCC8")
+    box(d, 0, 0, W, 5, red, None)
+    for y in range(70, 96, 6):                                        # grey tiles behind the stove
+        for x in range(0, W, 8):
+            box(d, x + (4 if (y // 6) % 2 else 0), y, 8, 6, tile, "#BDB6A8")
+    cx, cy, r = 190, 40, 26                                           # moon window with a lattice
+    d.ellipse([cx - r - 4, cy - r - 4, cx + r + 4, cy + r + 4], fill=wood)
+    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill="#BFE3F2")
+    d.pieslice([cx - 30, cy + 4, cx + 30, cy + 50], 180, 360, fill="#7FA65A")
+    for k in range(-r + 8, r, 8):
+        d.line([cx + k, cy - r + 2, cx + k, cy + r - 2], fill=wood)
+        d.line([cx - r + 2, cy + k, cx + r - 2, cy + k], fill=wood)
+    d.ellipse([cx - r - 4, cy - r - 4, cx + r + 4, cy + r + 4], outline=INK)
+
+    def lantern(c: ImageDraw.ImageDraw) -> None:
+        c.line([140, 0, 140, 12], fill=INK)
+        c.ellipse([132, 12, 148, 30], fill=red, outline=INK)
+        box(c, 136, 10, 8, 3, "#D9A830")
+        box(c, 136, 29, 8, 3, "#D9A830")
+        c.line([140, 32, 140, 38], fill="#D9A830")
+        c.line([134, 21, 146, 21], fill="#8E1F1F")
+    s.piece("lantern", lantern)
+    for shelf_y in (34, 60):
+        box(d, 8, shelf_y, 110, 3, wood)
+    s.piece("soy", lambda c: bottle(c, 12, 34, 15, "#3A1F1A", "#B22D2D", "#F2C14E"))
+    s.piece("vinegar", lambda c: bottle(c, 22, 34, 13, "#2B2B33", "#B22D2D", "#F4F1E8"))
+    s.piece("chili_oil", lambda c: jar(c, 32, 34, 11, 12, "#C0392B", "#B22D2D"))
+
+    def teapot(c: ImageDraw.ImageDraw) -> None:
+        c.ellipse([50, 22, 66, 34], fill="#F4F1E8", outline=INK)
+        c.line([66, 27, 71, 23], fill=INK)
+        c.arc([45, 24, 53, 32], 90, 270, fill=INK)
+        box(c, 56, 20, 4, 2, "#2E5E8C")
+        c.line([52, 28, 64, 28], fill="#2E5E8C")
+        for gx in (76, 84):
+            box(c, gx, 28, 6, 6, "#F4F1E8")
+    s.piece("tea_set", teapot)
+
+    def steamers(c: ImageDraw.ImageDraw) -> None:                     # bamboo steamer baskets
+        for k, y in enumerate((52, 45, 38)):
+            box(c, 12, y, 28, 8, "#D8B57A")
+            c.line([13, y + 3, 38, y + 3], fill="#B08A5F")
+        box(c, 14, 35, 24, 3, "#C9A46B")
+    s.piece("steamers", steamers)
+    s.piece("clay_pot", lambda c: (c.ellipse([48, 44, 70, 60], fill="#6E3B26", outline=INK),
+                                   box(c, 54, 41, 10, 4, "#5A3420")))
+    s.piece("garlic_ginger", lambda c: (c.ellipse([80, 50, 88, 59], fill="#F4EFE6", outline=INK),
+                                        c.ellipse([90, 52, 102, 59], fill="#D9B36B", outline=INK)))
+
+    box(d, 0, 96, W, 5, "#CDBFA6")                                    # counter, red cabinets with brass pulls
+    box(d, 0, 101, W, H - 101, wood, None)
+    for k, x in enumerate(range(4, W, 40)):
+        box(d, x, 105, 34, 26, red, "#5A1E1E")
+        d.ellipse([x + 14, 115, x + 19, 120], outline="#D9A830")
+    box(d, 16, 88, 50, 8, "#4A4A4A")
+    d.polygon([(26, 88), (30, 80), (34, 86), (40, 78), (46, 86), (50, 80), (56, 88)], fill="#E8862E")   # the flame
+
+    def wok(c: ImageDraw.ImageDraw) -> None:
+        c.pieslice([22, 64, 60, 88], 0, 180, fill="#2B2B2B", outline=INK)
+        c.line([22, 76, 8, 72], fill="#6B4A2F", width=2)
+        for gx, col in [(32, "#3FA34D"), (38, "#E8862E"), (45, "#C0392B"), (50, "#3FA34D")]:
+            c.point([(gx, 77), (gx + 1, 78)], fill=col)
+    s.piece("wok", wok)
+
+    def block(c: ImageDraw.ImageDraw) -> None:                       # round chopping block and cleaver
+        c.ellipse([98, 86, 132, 96], fill="#B08A5F", outline=INK)
+        box(c, 100, 90, 31, 6, "#9A7550", None)
+        c.ellipse([98, 84, 132, 92], fill="#D8B57A", outline=INK)
+        box(c, 108, 76, 14, 8, "#B8B2AC")
+        box(c, 122, 78, 8, 3, "#3A1F1A")
+    s.piece("cleaver_block", block)
+
+    def bok_choy(c: ImageDraw.ImageDraw) -> None:
+        for bx in (142, 152):
+            c.ellipse([bx, 82, bx + 8, 96], fill="#F4F1E8", outline=INK)
+            c.ellipse([bx - 1, 76, bx + 9, 88], fill="#3F7A33", outline=INK)
+        for sx in range(164, 182, 3):
+            c.line([sx, 95, sx + 6, 86], fill="#3FA34D")
+    s.piece("greens", bok_choy)
+    return s.parts()
+
+
+def moroccan() -> tuple[Image.Image, dict]:
+    """Moroccan kitchen (2026-10-18; the African family's biggest country in the data): zellige, horseshoe arch,
+    tagines, spice cones, brass lantern, mint tea, khobz bread."""
+    zellige = ["#1F6F5C", "#F4EFE4", "#2E5E8C", "#F4EFE4", "#D9A830"]
+    s = Scene("#E2A07A")
+    d = s.d
+    speckle(d, "#D69068")
+
+    def tiles(x0: int, y0: int, w: int, h: int) -> None:
+        for y in range(y0, y0 + h, 6):
+            for x in range(x0, x0 + w, 6):
+                box(d, x, y, 6, 6, zellige[(x // 6 + 2 * (y // 6)) % len(zellige)], None)
+                d.point((x + 3, y + 3), fill="#F4EFE4")
+    tiles(0, 70, W, 26)                                              # zellige backsplash
+    wx, wy, ww = 168, 16, 48                                          # horseshoe arch window
+    d.ellipse([wx - 6, wy - 4, wx + ww + 6, wy + 44], fill="#F4EFE4")
+    box(d, wx - 2, wy + 20, ww + 4, 38, "#F4EFE4", None)
+    d.ellipse([wx, wy, wx + ww, wy + 40], fill="#F6C27A")
+    box(d, wx + 4, wy + 20, ww - 8, 34, "#F6C27A", None)
+    for bx, bh in [(wx + 6, 10), (wx + 16, 16), (wx + 28, 8), (wx + 36, 14)]:
+        box(d, bx, wy + 54 - bh, 8, bh, "#C07A4A", None)
+    box(d, wx + 20, wy + 30, 3, 8, "#C07A4A", None)                  # a minaret in the distance
+    box(d, wx - 6, wy + 54, ww + 12, 4, "#1F6F5C", None)
+    for shelf_y in (36, 62):
+        box(d, 8, shelf_y, 110, 3, "#7A4B22")
+
+    def lantern(c: ImageDraw.ImageDraw) -> None:                      # pierced brass lantern
+        c.line([140, 0, 140, 10], fill=INK)
+        c.polygon([(134, 10), (146, 10), (148, 24), (140, 32), (132, 24)], fill="#D9A830", outline=INK)
+        for px, py in [(137, 15), (143, 15), (140, 20), (137, 25), (143, 25)]:
+            c.point((px, py), fill="#FFF3B0")
+    s.piece("lantern", lantern)
+
+    def spice_cone(c: ImageDraw.ImageDraw, x: int, color: str) -> None:
+        c.ellipse([x - 1, 32, x + 13, 37], fill="#F4EFE4", outline=INK)
+        c.polygon([(x, 33), (x + 6, 20), (x + 12, 33)], fill=color, outline=INK)
+    for k, (x, color) in enumerate([(12, "#C0392B"), (28, "#E2B33C"), (44, "#D9822B"), (60, "#7A4A2E")]):
+        s.piece(f"spice_cone_{k}", lambda c, x=x, color=color: spice_cone(c, x, color))
+
+    def tea(c: ImageDraw.ImageDraw) -> None:                          # silver teapot and colored tea glasses
+        c.ellipse([78, 24, 92, 34], fill="#C9CDD4", outline=INK)
+        c.polygon([(82, 24), (85, 17), (88, 24)], fill="#C9CDD4", outline=INK)
+        c.line([92, 28, 98, 22], fill=INK)
+        for gx, col in [(99, "#2E8B87"), (106, "#C0392B")]:
+            box(c, gx, 28, 5, 6, col)
+            c.point((gx + 1, 29), fill="#F2C14E")
+    s.piece("mint_tea", tea)
+
+    def tagine(c: ImageDraw.ImageDraw, x: int, body: str, band: str) -> None:
+        c.ellipse([x - 2, 56, x + 22, 62], fill=body, outline=INK)
+        c.polygon([(x, 58), (x + 10, 42), (x + 20, 58)], fill=body, outline=INK)
+        c.line([x + 4, 54, x + 16, 54], fill=band)
+        box(c, x + 9, 40, 3, 3, body)
+    for k, (x, body, band) in enumerate([(12, "#B5562B", "#F4EFE4"), (40, "#2E5E8C", "#F2C14E"),
+                                         (68, "#1F6F5C", "#F4EFE4")]):
+        s.piece(f"tagine_{k}", lambda c, x=x, body=body, band=band: tagine(c, x, body, band))
+    s.piece("lemons", lambda c: (jar(c, 94, 62, 14, 16, "#F2C14E"),
+                                 [c.ellipse([96 + k * 4, 52 + k % 2 * 3, 99 + k * 4, 55 + k % 2 * 3], fill="#E2B33C")
+                                  for k in range(3)]))
+
+    box(d, 0, 96, W, 5, "#E8D5B5")                                    # counter, carved wooden doors
+    box(d, 0, 101, W, H - 101, "#7A4B22", None)
+    for x in range(4, W, 40):
+        box(d, x, 105, 34, 26, "#9A6230", "#5A3518")
+        d.arc([x + 8, 108, x + 26, 128], 180, 360, fill="#D9A830")
+        d.line([x + 8, 118, x + 8, 128], fill="#D9A830")
+        d.line([x + 26, 118, x + 26, 128], fill="#D9A830")
+    s.piece("couscoussier", lambda c: (box(c, 18, 74, 24, 14, "#B8B2AC"), box(c, 16, 70, 28, 4, "#8F8780"),
+                                       box(c, 22, 64, 16, 6, "#C9CDD4")))
+    s.piece("khobz", lambda c: [c.ellipse([x, y, x + 20, y + 8], fill="#D9A86B", outline=INK)
+                                for x, y in [(96, 88), (110, 86), (103, 82)]])
+    s.piece("olives", lambda c: (c.ellipse([138, 88, 156, 96], fill="#F4EFE4", outline=INK),
+                                 [c.point((ox, 90), fill="#3F5A2E") for ox in range(142, 154, 3)]))
+
+    def plant(c: ImageDraw.ImageDraw) -> None:                        # a pot of mint
+        c.polygon([(204, 84), (222, 84), (219, 96), (207, 96)], fill="#B5562B", outline=INK)
+        for lx, ly in [(202, 72), (208, 66), (214, 72), (218, 64), (210, 60)]:
+            c.ellipse([lx, ly, lx + 7, ly + 10], fill="#3FA34D", outline=INK)
+    s.piece("mint", plant)
+    return s.parts()
+
+
+SCENES = {"japanese": japanese, "chinese": chinese, "mediterranean": mediterranean, "mexican": mexican,
+          "middle_eastern": middle_eastern, "moroccan": moroccan}
 
 # ---------- The chefs: the same faces and moods as the classic chef, with each kitchen's headwear and clothes ----------
 # Rows 0-8 are the head (replacing the toque), rows 16-23 the clothes; H hair, N/n navy, P red bandana, C/W keffiyeh,
 # A agal (the black cord), U blue, G green, Y yellow thread.
 CHEF_EXTRA_COLORS = {"H": "#2B2B33", "N": "#2C3E6B", "n": "#22305A", "P": "#C9302C", "C": "#B3262E", "A": "#1F1F1F",
-                     "U": "#2E86C1", "G": "#3FA34D", "Y": "#F2C14E"}
+                     "U": "#2E86C1", "G": "#3FA34D", "Y": "#F2C14E", "D": "#E8DCC0", "d": "#CFC0A0"}
 HEADS = {
+    "chinese": [   # a short white cook's cap over black hair
+        "........................",
+        "........................",
+        "......KKKKKKKKKKKK......",
+        ".....KWWWWWWWWWWWWK.....",
+        "....KWWWWWWWWWWWWwWK....",
+        "....KwwwwwwwwwwwwwwK....",
+        "....KKKKKKKKKKKKKKKK....",
+        "....KHHHHHHHHHHHHHHK....",
+        ".....KSSSSSSSSSSSSK.....",
+    ],
+    "moroccan": [   # bare head, black hair (everyday kitchen wear, no costume hat)
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "......KKKKKKKKKKKK......",
+        ".....KHHHHHHHHHHHHK.....",
+        "....KHHHHHHHHHHHHHHK....",
+        "....KHHHHHHHHHHHHHHK....",
+        ".....KSSSSSSSSSSSSK.....",
+    ],
     "japanese": [   # hachimaki headband with a red mark and its knot
         "........................",
         "........................",
@@ -377,6 +569,26 @@ HEADS = {
     ],
 }
 TORSOS = {
+    "chinese": [   # white jacket with a mandarin collar and red knotted buttons
+        "......KKSSSSSSSSKK......",
+        "....KKKKWWWWWWWWKKKK....",
+        "...KWWWWWKWWWWKWWWWWK...",
+        "..KWWWWWWWWRRWWWWWWWWK..",
+        "..KWWWWWWWWKKWWWWWWWWK..",
+        "..KWWwWWWWWRRWWWWWwWWK..",
+        "..KWWwWWWWWKKWWWWWwWWK..",
+        "..KKKKKKKKKKKKKKKKKKKK..",
+    ],
+    "moroccan": [   # cream djellaba with gold and blue embroidery down the front
+        "......KKSSSSSSSSKK......",
+        "....KKKKDDDYYDDDKKKK....",
+        "...KDDDDKDDYYDDKDDDDK...",
+        "..KDDDDDDKDYYDKDDDDDDK..",
+        "..KDDDDDDDKUUKDDDDDDDK..",
+        "..KDDdDDDDDYYDDDDDdDDK..",
+        "..KDDdDDDDDUUDDDDDdDDK..",
+        "..KKKKKKKKKKKKKKKKKKKK..",
+    ],
     "japanese": [   # navy samue jacket with a white collar
         "......KKSSSSSSSSKK......",
         "....KKKKWNNNNNNWKKKK....",
@@ -408,7 +620,7 @@ TORSOS = {
         "..KKKKKKKKKKKKKKKKKKKK..",
     ],
 }
-NO_MUSTACHE = {"japanese", "mexican"}   # their concepts are clean-shaven
+NO_MUSTACHE = {"japanese", "mexican", "chinese"}   # clean-shaven, as in the concepts
 
 
 def chef_rows(variant: str, face: list[str]) -> list[str]:

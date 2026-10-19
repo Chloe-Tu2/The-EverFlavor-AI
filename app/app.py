@@ -64,6 +64,12 @@ THEMES = {
     "Japanese": {"scene": "japanese", "chef": "japanese_", "panel": "#FBF3E2", "sidebar": "#F3E6CC",
                  "border": "#5B3A29", "text": "#3A2A20", "heading": "#8E2C2C", "button": "#E9C46A",
                  "button_hover": "#D9AE4A", "shadow": "#C9A57A", "bubble": "#FFFDF7"},
+    "Chinese": {"scene": "chinese", "chef": "chinese_", "panel": "#FBF5EA", "sidebar": "#F4E9D8",
+                "border": "#7A2A22", "text": "#3A2420", "heading": "#B22D2D", "button": "#E9B44C",
+                "button_hover": "#D99E30", "shadow": "#CDBFA6", "bubble": "#FFFDF7"},
+    "Moroccan": {"scene": "moroccan", "chef": "moroccan_", "panel": "#FCF3E8", "sidebar": "#F6E2D2",
+                 "border": "#7A4B22", "text": "#3B2418", "heading": "#1F6F5C", "button": "#E2B33C",
+                 "button_hover": "#CF9E25", "shadow": "#D69068", "bubble": "#FFFDF6"},
     "Mediterranean": {"scene": "mediterranean", "panel": "#FBF6EC", "sidebar": "#EFE6D6", "border": "#6B4A2F",
                       "text": "#3B2E22", "heading": "#4F6B2A", "button": "#D9A441", "button_hover": "#C48F2C",
                       "shadow": "#CDBDA3", "bubble": "#FFFFFF"},
@@ -75,8 +81,10 @@ THEMES = {
                        "button": "#D9A830", "button_hover": "#C49420", "shadow": "#C9A46B", "bubble": "#FFFDF6"},
 }
 # With "Match the kitchen to the cuisine" on (Settings), searching a cuisine family opens its kitchen
-CUISINE_KITCHENS = {"Asian": "Japanese", "European": "Mediterranean", "Latin American": "Mexican",
-                    "Middle Eastern": "Middle Eastern"}
+# (each family opens the kitchen of its biggest country in the data: China leads Asian recipes after India, which
+# has no kitchen yet; Morocco leads African; Italy, Mexico and Lebanon the others. Japanese is in Settings.)
+CUISINE_KITCHENS = {"Asian": "Chinese", "African": "Moroccan", "European": "Mediterranean",
+                    "Latin American": "Mexican", "Middle Eastern": "Middle Eastern"}
 
 
 def nice(column: str) -> str:
@@ -353,7 +361,8 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
     st.selectbox("Kitchen theme", list(THEMES), key="theme",
                  help="Classic is the team's original look. Night is easier on the eyes in the dark.")
     st.toggle("Match the kitchen to the cuisine", value=True, key="follow_cuisine",
-              help="Searching Asian, European, Latin American or Middle Eastern recipes opens that kitchen.")
+              help="Searching a cuisine family opens its kitchen: Asian (Chinese), African (Moroccan), "
+                   "European (Mediterranean), Latin American (Mexican), Middle Eastern.")
 st.markdown('<div class="kitchen-view"></div>', unsafe_allow_html=True)   # leave the kitchen in view
 # The chef's line, filled in below once we know what happened: in the page on phones (the sidebar is hidden there),
 # and at the bottom of the sidebar on wider screens (added after the profile, below)

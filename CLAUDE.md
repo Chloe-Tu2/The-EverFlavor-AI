@@ -3,6 +3,9 @@
 Guidance for Claude Code (and anyone new) working in this repository. The README has the full picture; these
 are the rules that must not be broken.
 
+**Start here:** [docs/plans/README.md](docs/plans/README.md), the planner (what is done, in review and next, by
+version), with the handoff notes for whoever picks up the work.
+
 ## What this is
 
 EverFlavor AI (Team EverGlow, ITAI 2277 Capstone): recipe recommendations that respect allergies, religious and
@@ -39,3 +42,5 @@ the Streamlit front end in `app/` (the pixel-art kitchen; design notes in `desig
 - Plain, short sentences in docs and notebook text; numbers in docs must match the code or the latest run.
 - Commit messages: a one-line summary of what changed and why, then details; end with the co-author line.
 - Push verified work only (all checks green); front-end concepts go on a branch first.
+- Versions: semantic, beta below 1.0; `__version__`, `CHANGELOG.md` and `app/updates.py` change together
+  (`tests/test_version.py`); `/release` runs the steps. Work for the next version is listed in the planner.

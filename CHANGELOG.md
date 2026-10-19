@@ -22,9 +22,11 @@ The first numbered release (beta). It sums up the work since the project started
   the pot puffs steam), a pixel chef who reads out every result, pixel icons instead of emoji, four color themes
   (Classic is the team's original palette), real food photos in the recipe cards, a disclaimer and contributor
   footer, and a "What's new" bell for updates. Design notes, art generator and references in `design/`.
-- **Cuisine kitchens (draft)**: Japanese, Mediterranean, Mexican and Middle Eastern kitchens, each with its own chef,
-  recreated from the team's concept art; with "Match the kitchen to the cuisine" on, searching a cuisine family
-  opens its kitchen. All keep the title "EverFlavor Kitchen".
+- **Cuisine kitchens (draft)**: Japanese, Mediterranean, Mexican and Middle Eastern kitchens recreated from the team's
+  concept art, plus Chinese (Asian) and Moroccan (African), each with its own chef; with "Match the kitchen to the
+  cuisine" on, searching a cuisine family opens its kitchen. All keep the title "EverFlavor Kitchen".
+- **The planner** (`docs/plans/`): versions 0.5.1, 0.6.0 and later in one place, regional kitchens (data, order,
+  art briefs) and reliability (hallucinations, photos, the AI models, regional specialization), with pros and cons.
 - Recipe photos are credited and link to the recipe's website, so anyone can check them.
 - **Data pipelines** (notebooks 01-09): recipes from several sources with allergen and diet flags, USDA nutrition,
   Open Food Facts hidden allergens, ingredient features, food freshness from photos (models for produce and fish),

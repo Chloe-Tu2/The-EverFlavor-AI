@@ -143,6 +143,21 @@ every decision in the back end, as now, makes that move easy.
 | **Then** | Redrawn kitchen (480 x 270, real objects, one light, layers); animated steam and chef; Auto theme; "How we check" page |
 | **Later** | Hosting, landing page and preview image; My cookbook and sharing; chef chat with the local AI; meal planner |
 
+## Next round (0.6.0)
+
+The UI items for version 0.6.0 ([planner](../docs/plans/README.md)), with what each one costs.
+
+| Change | Pros | Cons |
+|---|---|---|
+| **The team's detailed art** (concept style) in place of the code-drawn kitchens | The look the team chose; richer and warmer | Fixed pictures: changing a jar means a new picture; tap animations need each object mapped |
+| **Profile chips at the top + the chef's three-question onboarding** | Works on phones (no hidden sidebar); feels like a game; fewer empty searches | More screens to build and test; returning users need a "skip" |
+| **"Why it's safe for you"** on every card, from the back end | The product's promise, visible on every recipe | Needs a short, checked sentence per restriction |
+| **Today's safe picks** on the first screen | Something to see in five seconds | Must respect the profile (empty profile: show a mix) |
+| **Kitchen by country** (an Indian dish opens the Indian kitchen) | Accurate and surprising | Needs country-level kitchens and handling of unknown countries ([plan](../docs/plans/REGIONAL_KITCHENS.md#choosing-the-kitchen)) |
+| **Faster first load** (a small index first, the rest behind it) | No blank wait | A second data file to keep in sync |
+| **"How we check" page** | Trust: says what the checks can and cannot do | One more page to keep accurate |
+| **Bigger touch targets and a phone layout pass** | Most shared links open on phones | Some desktop density lost |
+
 ## Questions for the team
 
 1. Do we keep the sidebar on desktop, or move the profile to chips at the top everywhere?

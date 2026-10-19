@@ -21,7 +21,7 @@ kitchen, roadmap, questions for the team).
 | [screenshots/](screenshots/) | The app on desktop and phone |
 
 All the art is drawn by [pixel-art/make_pixel_art.py](pixel-art/make_pixel_art.py) (and
-[cuisine_kitchens.py](pixel-art/cuisine_kitchens.py) for the four cuisine kitchens). Plans: [PLAN.md](PLAN.md);
+[cuisine_kitchens.py](pixel-art/cuisine_kitchens.py) for the cuisine kitchens). Plans: [PLAN.md](PLAN.md);
 icons: [ICONS.md](ICONS.md).
 
 ## The idea
@@ -48,7 +48,8 @@ icons: [ICONS.md](ICONS.md).
 | **Night** | **Basil** |
 | ![Night](pixel-art/previews/kitchen_night_x4.png) | ![Basil](pixel-art/previews/kitchen_basil_x4.png) |
 
-**Cuisine kitchens (draft):** Japanese, Mediterranean, Mexican and Middle Eastern, each with its own chef. With
+**Cuisine kitchens (draft):** Japanese, Chinese, Mediterranean, Mexican, Middle Eastern and Moroccan, each with its own
+chef (which comes next: [docs/plans/REGIONAL_KITCHENS.md](../docs/plans/REGIONAL_KITCHENS.md)). With
 **Match the kitchen to the cuisine** on (Settings), searching a cuisine family opens its kitchen. Details and
 what still needs redrawing: [pixel-art/drafts/cuisine-kitchens/](pixel-art/drafts/cuisine-kitchens/README.md).
 

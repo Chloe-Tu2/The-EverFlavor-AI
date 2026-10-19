@@ -4,6 +4,7 @@ What the project is, how the data was made, and the rules we work by.
 
 | Read this | When you want to know |
 |---|---|
+| [plans/](plans/README.md) | **Start here for what comes next:** the planner (versions 0.5.1, 0.6.0, later), regional kitchens, reliability (hallucinations, photos, the AI models) |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | The working rules for every change (team and AI assistants) |
 | [datasheet.md](datasheet.md) | What is in the dataset, how it was built, its known limits |
 | [data_dictionary.md](data_dictionary.md) | What every column of the recipe table means |

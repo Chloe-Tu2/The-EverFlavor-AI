@@ -455,9 +455,13 @@ GitHub runs the same checks automatically on every push and pull request (`.gith
 
 ---
 
-## Starter App (Front End)
+## The App: EverFlavor Kitchen (Front End)
 
-A first web page for the team to build on, in [app/app.py](app/app.py) ([Streamlit](https://streamlit.io), plain Python, no HTML needed). It runs after notebook 01 has built the recipe data:
+The web page, in [app/app.py](app/app.py) ([Streamlit](https://streamlit.io), plain Python, no HTML needed): a
+pixel-art kitchen you can tap, a chef who reads out every result, and a kitchen for each cuisine family (Chinese for
+Asian, Moroccan for African, Mediterranean, Mexican, Middle Eastern, plus Japanese and four color themes in
+Settings). Design, art and plans: [design/](design/README.md). It runs after notebook 01 has built the recipe data
+(or on the small demo data in `data/demo/`):
 
 ```bash
 pip install -r config/requirements-app.txt
@@ -465,6 +469,14 @@ streamlit run app/app.py
 ```
 
 The browser opens at `http://localhost:8501`. The sidebar holds the user's profile (foods to avoid, diets, calories per meal). **Find recipes** uses the baseline recommender; **Check my recipe** runs the safety gate on pasted ingredient lines and names the line and rule each problem breaks.
+
+### Versions and plans
+
+EverFlavor is in **beta** (version 0.5.1). Every change is listed in [CHANGELOG.md](CHANGELOG.md) (semantic
+versions: fixes 0.5.1 → 0.5.2, features → 0.6.0, the finished release 1.0.0), and the app's **What's new** bell shows
+the latest notes. What comes next, grouped by version, with the reasons and trade-offs: the
+[planner](docs/plans/README.md) (start here), [regional kitchens](docs/plans/REGIONAL_KITCHENS.md) and
+[reliability: hallucinations, photos and the AI models](docs/plans/RELIABILITY.md).
 
 ---
 
