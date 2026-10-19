@@ -1,12 +1,12 @@
-"""Draw EverFlavor's concept pixel art: the kitchen scene (one per color theme) and the chef guide.
+"""Draw EverFlavor's pixel art: the kitchen scenes (one per theme), the chef guides and the icons.
 
 Everything is drawn from code, pixel by pixel, so the art can be changed and redrawn by anyone:
 edit a palette or a sprite below and run, from the project folder,
 
     python design/pixel-art/make_pixel_art.py
 
-It writes small native-size PNGs to design/pixel-art/concept/ (the app scales them up with sharp
-pixels) and 4x previews to design/pixel-art/concept/preview/ for looking at them.
+It writes small native-size PNGs and the interactive scene files to design/pixel-art/assets/ (the app scales
+them up with sharp pixels) and enlarged previews to design/pixel-art/previews/ for looking at them.
 Needs only Pillow (already in config/requirements.txt).
 """
 from __future__ import annotations
@@ -18,7 +18,8 @@ from pathlib import Path
 
 from PIL import Image, ImageColor, ImageDraw
 
-OUT = Path(__file__).resolve().parent / "concept"
+OUT = Path(__file__).resolve().parent / "assets"
+PREVIEW = Path(__file__).resolve().parent / "previews"
 W, H = 240, 135   # 16:9; the app scales it to the window
 
 # One palette per theme. "classic" is Eva's cream, brown and pink (the default).
@@ -273,8 +274,9 @@ CHEF_COLORS = {"K": "#3B2A25", "W": "#FFFFFF", "w": "#E6E1DA", "S": "#F2C29B", "
                "M": "#5A3A2A", "R": "#D9483B", "B": "#3B2A25", "E": "#FFFFFF"}
 
 
-def chef(mood: str) -> Image.Image:
-    rows = CHEF_BODY + CHEF_FACES[mood] + CHEF_TORSO
+def chef(mood: str, rows: list[str] | None = None) -> Image.Image:
+    """The chef in one mood; `rows` draws another kitchen's chef (cuisine_kitchens.chef_rows)."""
+    rows = rows or CHEF_BODY + CHEF_FACES[mood] + CHEF_TORSO
     assert len(rows) == 24 and all(len(r) == 24 for r in rows), mood
     img = Image.new("RGBA", (24, 24), (0, 0, 0, 0))
     for y, row in enumerate(rows):
@@ -423,7 +425,19 @@ def icon_bell() -> Image.Image:
     return img
 
 
-ICONS = {"bell": icon_bell, "find": icon_find, "check": icon_check, "settings": icon_settings, "timer": icon_timer,
+def icon_cloche() -> Image.Image:
+    """No photo yet: a covered dish, with a little steam, in the recipe card instead of a photo."""
+    img, d = _canvas()
+    d.rectangle([1, 15, 18, 17], fill=PLATE, outline=INK)               # the plate
+    d.pieslice([3, 5, 16, 28], 180, 360, fill=STEEL, outline=INK)       # the cover
+    d.line([(6, 12), (8, 9)], fill=PLATE)
+    d.rectangle([9, 3, 10, 5], fill=STEEL_DARK, outline=INK)
+    for x in (5, 10, 14):
+        d.point([(x, 1), (x + 1, 0)], fill=STEEL)
+    return img
+
+
+ICONS = {"bell": icon_bell, "cloche": icon_cloche, "find": icon_find, "check": icon_check, "settings": icon_settings, "timer": icon_timer,
          "flame": icon_flame, "protein": icon_protein, "safe": icon_safe, "alert": icon_alert, "empty": icon_empty}
 
 
@@ -435,29 +449,40 @@ def _png(img: Image.Image) -> str:
 
 
 def main() -> None:
-    (OUT / "preview").mkdir(parents=True, exist_ok=True)
-    for theme in THEMES:
-        scene = kitchen(theme)
-        scene.save(OUT / f"kitchen_{theme}.png")
+    import cuisine_kitchens  # the four cuisine kitchens and their chefs (draft, 2026-10-18)
+
+    PREVIEW.mkdir(parents=True, exist_ok=True)
+    scenes = {theme: (lambda theme=theme: kitchen_parts(theme)) for theme in THEMES} | cuisine_kitchens.SCENES
+    for name, parts in scenes.items():
+        backdrop, pieces = parts()
+        scene = backdrop.copy()
+        for sprite, x, y in pieces.values():
+            scene.alpha_composite(sprite, (x, y))
+        scene.convert("RGB").save(OUT / f"kitchen_{name}.png")
         # The interactive kitchen in the app: the backdrop and every movable piece with its place
-        backdrop, pieces = kitchen_parts(theme)
         layers = {"size": [W, H], "backdrop": _png(backdrop),
-                  "pieces": {name: {"png": _png(sprite), "x": x, "y": y, "w": sprite.width, "h": sprite.height}
-                             for name, (sprite, x, y) in pieces.items()}}
-        (OUT / f"scene_{theme}.json").write_text(json.dumps(layers), encoding="utf-8")
-        scene.resize((W * 4, H * 4), Image.NEAREST).save(OUT / "preview" / f"kitchen_{theme}_x4.png")
-    for mood in CHEF_FACES:
+                  "pieces": {piece: {"png": _png(sprite), "x": x, "y": y, "w": sprite.width, "h": sprite.height}
+                             for piece, (sprite, x, y) in pieces.items()}}
+        (OUT / f"scene_{name}.json").write_text(json.dumps(layers), encoding="utf-8")
+        scene.resize((W * 4, H * 4), Image.NEAREST).save(PREVIEW / f"kitchen_{name}_x4.png")
+    CHEF_COLORS.update(cuisine_kitchens.CHEF_EXTRA_COLORS)
+    for mood, face in CHEF_FACES.items():
         sprite = chef(mood)
         sprite.save(OUT / f"chef_{mood}.png")
-        sprite.resize((24 * 8, 24 * 8), Image.NEAREST).save(OUT / "preview" / f"chef_{mood}_x8.png")
+        sprite.resize((24 * 8, 24 * 8), Image.NEAREST).save(PREVIEW / f"chef_{mood}_x8.png")
+        for variant in cuisine_kitchens.CHEF_VARIANTS:
+            sprite = chef(mood, cuisine_kitchens.chef_rows(variant, face))
+            sprite.save(OUT / f"chef_{variant}_{mood}.png")
+            sprite.resize((24 * 8, 24 * 8), Image.NEAREST).save(PREVIEW / f"chef_{variant}_{mood}_x8.png")
     sheet = Image.new("RGBA", (len(ICONS) * 24, 24), (0, 0, 0, 0))
     for k, (name, draw) in enumerate(ICONS.items()):
         icon = draw()
         icon.save(OUT / f"icon_{name}.png")
-        icon.resize((20 * 8, 20 * 8), Image.NEAREST).save(OUT / "preview" / f"icon_{name}_x8.png")
+        icon.resize((20 * 8, 20 * 8), Image.NEAREST).save(PREVIEW / f"icon_{name}_x8.png")
         sheet.paste(icon, (k * 24 + 2, 2))
-    sheet.resize((sheet.width * 6, sheet.height * 6), Image.NEAREST).save(OUT / "preview" / "icons_sheet_x6.png")
-    print(f"Saved {len(THEMES)} kitchens, {len(CHEF_FACES)} chefs and {len(ICONS)} icons in {OUT}")
+    sheet.resize((sheet.width * 6, sheet.height * 6), Image.NEAREST).save(PREVIEW / "icons_sheet_x6.png")
+    print(f"Saved {len(scenes)} kitchens, {len(CHEF_FACES) * (1 + len(cuisine_kitchens.CHEF_VARIANTS))} chefs and "
+          f"{len(ICONS)} icons in {OUT}")
 
 
 if __name__ == "__main__":

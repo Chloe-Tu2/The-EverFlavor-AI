@@ -8,7 +8,7 @@ All icons are 20 x 20 pixels, shown at 2x in the app (40 x 40) so every pixel st
 code in [pixel-art/make_pixel_art.py](pixel-art/make_pixel_art.py) (`ICONS`), so changing one means editing a
 few lines and running the script again.
 
-![All nine draft icons in a row](pixel-art/concept/preview/icons_sheet_x6.png)
+![All nine draft icons in a row](pixel-art/previews/icons_sheet_x6.png)
 
 **Status:** drafts, already in the concept app. Every one is open to change; comments welcome.
 
@@ -26,7 +26,7 @@ few lines and running the script again.
 
 ### Find recipes: the spread
 
-![Find recipes icon](pixel-art/concept/preview/icon_find_x8.png)
+![Find recipes icon](pixel-art/previews/icon_find_x8.png)
 
 A table seen from above: a bowl of soup, a salad plate with cherry tomatoes and corn, a whole tomato and a
 carrot. "Here is a table full of ideas."
@@ -36,7 +36,7 @@ carrot. "Here is a table full of ideas."
 
 ### Check my recipe: the chef hands it over
 
-![Check my recipe icon](pixel-art/concept/preview/icon_check_x8.png)
+![Check my recipe icon](pixel-art/previews/icon_check_x8.png)
 
 The chef holds out a covered plate (a cloche), with a green check rising from it. "Hand me your recipe,
 I'll check it." It repeats the chef guide from the page, so the user learns who is checking.
@@ -46,7 +46,7 @@ I'll check it." It repeats the chef guide from the page, so the user learns who 
 
 ### Settings: the oven knob
 
-![Settings icon](pixel-art/concept/preview/icon_settings_x8.png)
+![Settings icon](pixel-art/previews/icon_settings_x8.png)
 
 Turning a knob is how a kitchen changes its settings. The red pointer could turn when the theme changes.
 
@@ -54,7 +54,7 @@ Turning a knob is how a kitchen changes its settings. The red pointer could turn
 
 | Calories | Protein | Minutes |
 |---|---|---|
-| ![Calories icon](pixel-art/concept/preview/icon_flame_x8.png) | ![Protein icon](pixel-art/concept/preview/icon_protein_x8.png) | ![Minutes icon](pixel-art/concept/preview/icon_timer_x8.png) |
+| ![Calories icon](pixel-art/previews/icon_flame_x8.png) | ![Protein icon](pixel-art/previews/icon_protein_x8.png) | ![Minutes icon](pixel-art/previews/icon_timer_x8.png) |
 | A stove flame under a pan: energy, the heat that cooks | A fried egg in a pan: the protein everyone knows | A tomato kitchen timer, the classic one |
 
 These replace the three number boxes on each recipe card with one row of icon, number and unit.
@@ -66,7 +66,7 @@ These replace the three number boxes on each recipe card with one row of icon, n
 
 | Safe | Problem found | Nothing matched |
 |---|---|---|
-| ![Safe icon](pixel-art/concept/preview/icon_safe_x8.png) | ![Problem icon](pixel-art/concept/preview/icon_alert_x8.png) | ![Nothing found icon](pixel-art/concept/preview/icon_empty_x8.png) |
+| ![Safe icon](pixel-art/previews/icon_safe_x8.png) | ![Problem icon](pixel-art/previews/icon_alert_x8.png) | ![Nothing found icon](pixel-art/previews/icon_empty_x8.png) |
 | A steaming bowl with a basil leaf: ready to eat | A pot boiling over: something needs attention | An empty plate with crumbs: try a looser search |
 
 Each state has its own shape as well as its own color, so it still reads without color.

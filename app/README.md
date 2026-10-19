@@ -18,7 +18,9 @@ The browser opens at `http://localhost:8501`. Save the file and the page reloads
 
 A pixel-art kitchen behind the page, a pixel chef who reads out the results, real food photos in the recipe
 cards, and four color themes (**Settings**, top right; Classic is Eva's palette). The art and
-the concept are in [design/](../design/README.md). `.streamlit/config.toml` fixes Streamlit's own theme to
+the concept are in [design/](../design/README.md). Searching a cuisine family can open its
+own kitchen (Japanese, Mediterranean, Mexican, Middle Eastern; Settings > Match the kitchen to the cuisine).
+`.streamlit/config.toml` fixes Streamlit's own theme to
 light, so the colors look the same on every computer.
 
 ## What is on the page

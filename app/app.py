@@ -39,7 +39,7 @@ from everflavor.recommend import baseline_recommend
 from everflavor.safety import UserProfile
 
 DATA = ROOT / "data" / "processed"
-ART = ROOT / "design" / "pixel-art" / "concept"
+ART = ROOT / "design" / "pixel-art" / "assets"   # drawn by design/pixel-art/make_pixel_art.py
 
 # Use the lightweight demo dataset when full data is unavailable.
 if not (DATA / "recipes_test.parquet").exists():
@@ -60,7 +60,23 @@ THEMES = {
     "Basil": {"scene": "basil", "panel": "#F7FBF2", "sidebar": "#EEF5E6", "border": "#457536",
               "text": "#2F3A26", "heading": "#457536", "button": "#9BD07F", "button_hover": "#7FBF5F",
               "shadow": "#C8DDB6", "bubble": "#FFFFFF"},
+    # The cuisine kitchens (draft, design/pixel-art/cuisine_kitchens.py), each with its own chef
+    "Japanese": {"scene": "japanese", "chef": "japanese_", "panel": "#FBF3E2", "sidebar": "#F3E6CC",
+                 "border": "#5B3A29", "text": "#3A2A20", "heading": "#8E2C2C", "button": "#E9C46A",
+                 "button_hover": "#D9AE4A", "shadow": "#C9A57A", "bubble": "#FFFDF7"},
+    "Mediterranean": {"scene": "mediterranean", "panel": "#FBF6EC", "sidebar": "#EFE6D6", "border": "#6B4A2F",
+                      "text": "#3B2E22", "heading": "#4F6B2A", "button": "#D9A441", "button_hover": "#C48F2C",
+                      "shadow": "#CDBDA3", "bubble": "#FFFFFF"},
+    "Mexican": {"scene": "mexican", "chef": "mexican_", "panel": "#FFF6E5", "sidebar": "#FCE8C8",
+                "border": "#8C3B1F", "text": "#3B2218", "heading": "#1F5FA8", "button": "#F2A541",
+                "button_hover": "#E08E22", "shadow": "#D88A3A", "bubble": "#FFFDF5"},
+    "Middle Eastern": {"scene": "middle_eastern", "chef": "middle_eastern_", "panel": "#FBF3E4",
+                       "sidebar": "#F3E2C2", "border": "#7A4B22", "text": "#3B2A1A", "heading": "#1E6F80",
+                       "button": "#D9A830", "button_hover": "#C49420", "shadow": "#C9A46B", "bubble": "#FFFDF6"},
 }
+# With "Match the kitchen to the cuisine" on (Settings), searching a cuisine family opens its kitchen
+CUISINE_KITCHENS = {"Asian": "Japanese", "European": "Mediterranean", "Latin American": "Mexican",
+                    "Middle Eastern": "Middle Eastern"}
 
 
 def nice(column: str) -> str:
@@ -195,6 +211,12 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   box-shadow: 6px 6px 0 var(--shadow) !important; color: var(--text);
 }}
 [data-testid="stPopoverBody"] p, [data-testid="stPopoverBody"] li {{ color: var(--text); }}
+.no-photo {{
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem;
+  aspect-ratio: 4 / 3; background: var(--sidebar); border: 3px dashed var(--border); color: var(--text);
+  font-family: var(--pixel-text); font-size: 1.2rem; text-align: center; padding: 0.5rem;
+}}
+.no-photo .ico {{ width: 80px; height: 80px; }}
 .updates h5 {{ font-family: var(--pixel-font); font-weight: 400; font-size: 1.4rem; margin: 0.5rem 0 0; color: var(--heading); }}
 .updates ul {{ margin: 0.2rem 0 0.6rem 1.1rem; padding: 0; }}
 .stats {{ display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin: 0.25rem 0 0.75rem; }}
@@ -220,7 +242,7 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
 .site-footer .credits {{ display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin: 0.25rem 0 0.75rem; }}
 .site-footer small {{ opacity: 0.85; }}
 .chef {{ cursor: pointer; transition: transform 0.1s steps(2); }}
-.chef:active {{ background-image: url('{art("chef_wink")}') !important; animation: hop 0.35s steps(3); }}
+.chef:active {{ background-image: url('{art("chef_" + theme.get("chef", "") + "wink")}') !important; animation: hop 0.35s steps(3); }}
 @keyframes hop {{ 50% {{ transform: translateY(-10px); }} }}
 @keyframes wiggle {{ 25% {{ transform: rotate(-12deg); }} 75% {{ transform: rotate(12deg); }} }}
 [data-testid="stTab"]:active p::before, .stat:hover .ico, .bubble:hover .ico {{ animation: wiggle 0.3s steps(2); }}
@@ -277,7 +299,7 @@ def chef_says(place, mood: str, message: str, icon: str | None = None) -> None:
 
     The chef only reads out what the back end decided; it never decides anything itself.
     """
-    figure = f'<div class="chef" role="img" aria-label="The chef, {mood}" style="background-image: url({art("chef_" + mood)})"></div>'
+    figure = f'<div class="chef" role="img" aria-label="The chef, {mood}" style="background-image: url({art("chef_" + CHEF + mood)})"></div>'
     badge = f'<span class="ico" style="background-image: url({art("icon_" + icon)})"></span>' if icon else ""
     place.markdown(f'<div class="chef-row">{figure}<div class="bubble">{badge}{html.escape(message)}</div></div>',
                    unsafe_allow_html=True)
@@ -297,6 +319,9 @@ CHEF_ICON = ART / "chef_happy.png"
 st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
                    layout="wide")
 theme_name = st.session_state.get("theme", "Classic")
+if st.session_state.get("follow_cuisine", True) and st.session_state.get("cuisine") in CUISINE_KITCHENS:
+    theme_name = CUISINE_KITCHENS[st.session_state["cuisine"]]
+CHEF = THEMES[theme_name].get("chef", "")   # which chef stands in this kitchen (chef_says)
 st.markdown(style(THEMES[theme_name]), unsafe_allow_html=True)
 kitchen_scene(THEMES[theme_name]["scene"])
 heading, corner = st.columns([3, 2], vertical_alignment="center")
@@ -314,6 +339,8 @@ with news_spot.container(key="whats-new"), st.popover("What's new"):
 with settings_spot.container(key="settings"), st.popover("Settings"):
     st.selectbox("Kitchen theme", list(THEMES), key="theme",
                  help="Classic is the team's original look. Night is easier on the eyes in the dark.")
+    st.toggle("Match the kitchen to the cuisine", value=True, key="follow_cuisine",
+              help="Searching Asian, European, Latin American or Middle Eastern recipes opens that kitchen.")
 chef = st.empty()   # the chef's line, filled in below once we know what happened
 
 if not (DATA / "recipes_test.parquet").exists():
@@ -355,7 +382,7 @@ find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pix
 
 with find_tab:
     families = ["Any"] + sorted(recipes["cuisine_family"].dropna().unique())
-    cuisine = st.selectbox("Cuisine", families)
+    cuisine = st.selectbox("Cuisine", families, key="cuisine")
     how_many = st.number_input("How many ideas?", min_value=1, max_value=20, value=5)
 
     if st.button("Find recipes", type="primary"):
@@ -377,12 +404,17 @@ with find_tab:
                                      "Every one passed the safety check for your profile.", "safe")
         for number, (_, row) in enumerate(results.iterrows()):
             with st.container(border=True, key=f"recipe-card-{number}"):
-                photo = row.get("image_url")
+                photo, link, site = row.get("image_url"), row.get("url"), row.get("source")
+                picture, info = st.columns([1, 2])
                 if isinstance(photo, str) and photo.startswith("https://"):
-                    picture, info = st.columns([1, 2])
+                    # The photo comes with the recipe from its website; the credit links there, so anyone can check
                     picture.image(photo, width="stretch")
+                    if isinstance(link, str) and link.startswith("http"):
+                        picture.caption(f"Photo: [{html.escape(str(site or 'the recipe page'))}]({link})")
                 else:
-                    info = st.container()
+                    picture.markdown(f'<div class="no-photo"><span class="ico" style="background-image: '
+                                     f'url({art("icon_cloche")})"></span>No photo of this dish yet</div>',
+                                     unsafe_allow_html=True)
                 info.subheader(row["recipe_name"].title())
                 stats(info, row["calories_per_serving"], row["protein_g"], row.get("minutes"))
                 ingredients = row["ingredient_list"]

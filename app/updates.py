@@ -9,7 +9,8 @@ UPDATES = [
     {"version": "0.5.1", "date": "2026-10-18", "notes": [
         ("New: the EverFlavor Kitchen. A pixel chef checks every recipe against what you can't eat, and the kitchen "
          "behind the page reacts when you tap it."),
-        "New: four kitchen themes in Settings, from a sunny morning to a lamp-lit night.",
+        ("New: kitchens from around the world. Search Asian, European, Latin American or Middle Eastern recipes "
+         "and the kitchen and its chef change with them (or pick a theme in Settings)."),
         "New: this bell. It rings when there is something new.",
     ]},
 ]

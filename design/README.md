@@ -3,10 +3,25 @@
 A concept for the app's look, for the team to try and discuss (branch `concept/pixel-kitchen-ui`).
 It keeps Eva's cooking-game colors and everything the page already does, and adds a world around it.
 
-![The kitchen in the Classic theme](pixel-art/concept/preview/kitchen_classic_x4.png)
+![The kitchen in the Classic theme](pixel-art/previews/kitchen_classic_x4.png)
 
 **Where it goes next:** [PLAN.md](PLAN.md), the front-end plan (who it is for, what brings people in, a better
 kitchen, roadmap, questions for the team).
+
+## Folders
+
+| Folder | What is in it |
+|---|---|
+| [pixel-art/assets/](pixel-art/assets/) | The art the app uses: kitchens, chefs, icons and the interactive scene files |
+| [pixel-art/previews/](pixel-art/previews/) | The same art enlarged, for looking at (and for these docs) |
+| [pixel-art/drafts/](pixel-art/drafts/) | Concept work not final yet: [cuisine kitchens](pixel-art/drafts/cuisine-kitchens/README.md) |
+| [pixel-art/archive/](pixel-art/archive/README.md) | Old versions, kept before any art is redrawn |
+| [pixel-art/references/](pixel-art/references/SOURCES.md) | Inspirations, palettes, fonts, free art and photo sources, with licenses |
+| [screenshots/](screenshots/) | The app on desktop and phone |
+
+All the art is drawn by [pixel-art/make_pixel_art.py](pixel-art/make_pixel_art.py) (and
+[cuisine_kitchens.py](pixel-art/cuisine_kitchens.py) for the four cuisine kitchens). Plans: [PLAN.md](PLAN.md);
+icons: [ICONS.md](ICONS.md).
 
 ## The idea
 
@@ -28,15 +43,19 @@ kitchen, roadmap, questions for the team).
 
 | Classic | Morning |
 |---|---|
-| ![Classic](pixel-art/concept/preview/kitchen_classic_x4.png) | ![Morning](pixel-art/concept/preview/kitchen_morning_x4.png) |
+| ![Classic](pixel-art/previews/kitchen_classic_x4.png) | ![Morning](pixel-art/previews/kitchen_morning_x4.png) |
 | **Night** | **Basil** |
-| ![Night](pixel-art/concept/preview/kitchen_night_x4.png) | ![Basil](pixel-art/concept/preview/kitchen_basil_x4.png) |
+| ![Night](pixel-art/previews/kitchen_night_x4.png) | ![Basil](pixel-art/previews/kitchen_basil_x4.png) |
+
+**Cuisine kitchens (draft):** Japanese, Mediterranean, Mexican and Middle Eastern, each with its own chef. With
+**Match the kitchen to the cuisine** on (Settings), searching a cuisine family opens its kitchen. Details and
+what still needs redrawing: [pixel-art/drafts/cuisine-kitchens/](pixel-art/drafts/cuisine-kitchens/README.md).
 
 The chef has three moods: happy (greeting, safe recipe), alert (a problem found) and thinking (nothing matched).
 
 | Happy | Alert | Thinking |
 |---|---|---|
-| ![Happy chef](pixel-art/concept/preview/chef_happy_x8.png) | ![Alert chef](pixel-art/concept/preview/chef_alert_x8.png) | ![Thinking chef](pixel-art/concept/preview/chef_thinking_x8.png) |
+| ![Happy chef](pixel-art/previews/chef_happy_x8.png) | ![Alert chef](pixel-art/previews/chef_alert_x8.png) | ![Thinking chef](pixel-art/previews/chef_thinking_x8.png) |
 
 ## The color bug, fixed
 
@@ -66,8 +85,8 @@ from shapes, the chef from a 24 x 24 grid of letters (one letter per pixel color
 python design/pixel-art/make_pixel_art.py
 ```
 
-It writes the small PNGs the app uses to `pixel-art/concept/` and 4x/8x previews to
-`pixel-art/concept/preview/`. A new theme needs a palette there and a matching entry in `THEMES` in
+It writes the small PNGs the app uses to `pixel-art/assets/` and 4x/8x previews to
+`pixel-art/previews/`. A new theme needs a palette there and a matching entry in `THEMES` in
 `app/app.py`. Hand-drawn art (Aseprite, Piskel, LibreSprite) can replace any file with the same name and size.
 
 ## Ideas for later
@@ -83,7 +102,7 @@ Ranked, for when the team agrees on the direction:
 ## Easter eggs: a kitchen you can touch
 
 The kitchen behind the page is live (`app/kitchen_scene.html`, drawn from the pieces in
-`pixel-art/concept/scene_<theme>.json`). Taps on empty parts of the page reach it:
+`pixel-art/assets/scene_<theme>.json`). Taps on empty parts of the page reach it:
 
 | Tap | What happens |
 |---|---|
