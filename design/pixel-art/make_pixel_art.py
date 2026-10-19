@@ -411,7 +411,19 @@ def icon_empty() -> Image.Image:
     return img
 
 
-ICONS = {"find": icon_find, "check": icon_check, "settings": icon_settings, "timer": icon_timer,
+def icon_bell() -> Image.Image:
+    """What's new: the kitchen's service bell ("order up!"), rung when there is an update."""
+    img, d = _canvas()
+    d.rectangle([2, 15, 17, 17], fill=STEEL_DARK, outline=INK)          # the base
+    d.pieslice([3, 6, 16, 24], 180, 360, fill=YELLOW, outline=INK)      # the brass dome
+    d.line([(6, 11), (8, 9)], fill=PLATE)                               # its shine
+    d.rectangle([9, 3, 10, 6], fill=STEEL_DARK, outline=INK)            # the plunger
+    d.rectangle([7, 2, 12, 3], fill=STEEL, outline=INK)
+    d.point([(2, 4), (17, 4), (1, 8), (18, 8)], fill=ORANGE)            # ring lines
+    return img
+
+
+ICONS = {"bell": icon_bell, "find": icon_find, "check": icon_check, "settings": icon_settings, "timer": icon_timer,
          "flame": icon_flame, "protein": icon_protein, "safe": icon_safe, "alert": icon_alert, "empty": icon_empty}
 
 

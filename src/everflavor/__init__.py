@@ -44,4 +44,4 @@ Conventions (Google Python Style Guide, PEP 257):
       public function and may change without notice.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.5.1"   # beta; the same number tops CHANGELOG.md and app/updates.py (tests/test_version.py)

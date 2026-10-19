@@ -29,6 +29,9 @@ import streamlit.components.v1 as components
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+from updates import UPDATES  # app/updates.py: the What's new notes
+
+from everflavor import __version__
 from everflavor.diets import DIET_PROFILES
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
@@ -170,15 +173,30 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 [data-testid="stTab"][data-key="0"] p::before {{ background-image: url('{art("icon_find")}'); }}
 [data-testid="stTab"][data-key="1"] p::before {{ background-image: url('{art("icon_check")}'); }}
 [data-testid="stTab"] p {{ font-size: 1.5rem; }}
-/* Settings, top right: a pixel button with the oven knob */
+/* Top right: the What's new bell and Settings (the oven knob), pixel buttons */
 [data-testid="stPopover"] {{ display: flex; justify-content: flex-end; }}
 [data-testid="stPopover"] button {{
   background: var(--panel); border: 3px solid var(--border); border-radius: 0; box-shadow: 4px 4px 0 var(--shadow);
 }}
 [data-testid="stPopover"] button p {{ font-family: var(--pixel-font); font-size: 1.3rem; color: var(--text); }}
-[data-testid="stPopover"] button p::before {{
-  width: 24px; height: 24px; margin-right: 0.4rem; background-image: url('{art("icon_settings")}');
+[data-testid="stPopover"] button p::before {{ width: 24px; height: 24px; margin-right: 0.4rem; }}
+.st-key-settings [data-testid="stPopover"] button p::before {{ background-image: url('{art("icon_settings")}'); }}
+.st-key-whats-new [data-testid="stPopover"] button p::before {{ background-image: url('{art("icon_bell")}'); }}
+/* A red dot and a little ring until this browser has opened the newest notes (set by kitchen_scene.html) */
+.st-key-whats-new button {{ position: relative; }}
+html[data-ef-news="1"] .st-key-whats-new button::after {{
+  content: ''; position: absolute; top: -7px; right: -7px; width: 12px; height: 12px;
+  background: #D9483B; border: 2px solid var(--border);
 }}
+html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4s steps(2) infinite; }}
+@keyframes ring {{ 0%, 80%, 100% {{ transform: none; }} 85% {{ transform: rotate(-14deg); }} 90% {{ transform: rotate(14deg); }} }}
+[data-testid="stPopoverBody"] {{
+  background: var(--panel) !important; border: 3px solid var(--border) !important; border-radius: 0 !important;
+  box-shadow: 6px 6px 0 var(--shadow) !important; color: var(--text);
+}}
+[data-testid="stPopoverBody"] p, [data-testid="stPopoverBody"] li {{ color: var(--text); }}
+.updates h5 {{ font-family: var(--pixel-font); font-weight: 400; font-size: 1.4rem; margin: 0.5rem 0 0; color: var(--heading); }}
+.updates ul {{ margin: 0.2rem 0 0.6rem 1.1rem; padding: 0; }}
 .stats {{ display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin: 0.25rem 0 0.75rem; }}
 .stat {{ display: flex; align-items: center; gap: 0.5rem; font-family: var(--pixel-font); font-size: 1.6rem; }}
 .stat .ico, .bubble .ico {{ width: 32px; height: 32px; }}
@@ -206,8 +224,8 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 @keyframes hop {{ 50% {{ transform: translateY(-10px); }} }}
 @keyframes wiggle {{ 25% {{ transform: rotate(-12deg); }} 75% {{ transform: rotate(12deg); }} }}
 [data-testid="stTab"]:active p::before, .stat:hover .ico, .bubble:hover .ico {{ animation: wiggle 0.3s steps(2); }}
-[data-testid="stPopover"] button p::before {{ transition: transform 0.3s steps(3); }}
-[data-testid="stPopover"] button:hover p::before {{ transform: rotate(90deg); }}
+.st-key-settings [data-testid="stPopover"] button p::before {{ transition: transform 0.3s steps(3); }}
+.st-key-settings [data-testid="stPopover"] button:hover p::before {{ transform: rotate(90deg); }}
 /* The interactive kitchen: a layer behind the page (app/kitchen_scene.html). Taps on empty parts of the
    page fall through to it; buttons, fields, tabs, cards and the chef still get their own taps. */
 .stApp {{ isolation: isolate; }}
@@ -228,6 +246,7 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
   .stButton > button:active, .chef:active {{ transform: none; animation: none; }}
   [data-testid="stTab"]:active p::before, .stat:hover .ico, .bubble:hover .ico {{ animation: none; }}
   [data-testid="stPopover"] button:hover p::before {{ transform: none; }}
+  html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: none; }}
 }}
 </style>
 """
@@ -240,7 +259,8 @@ def scene_page(scene: str) -> str:
     template = Path(__file__).with_name("kitchen_scene.html")
     if not (layers.exists() and template.exists()):
         return ""
-    return template.read_text(encoding="utf-8").replace("__SCENE__", layers.read_text(encoding="utf-8"))
+    return (template.read_text(encoding="utf-8").replace("__SCENE__", layers.read_text(encoding="utf-8"))
+            .replace("__VERSION__", __version__))
 
 
 def kitchen_scene(scene: str) -> None:
@@ -279,11 +299,19 @@ st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if 
 theme_name = st.session_state.get("theme", "Classic")
 st.markdown(style(THEMES[theme_name]), unsafe_allow_html=True)
 kitchen_scene(THEMES[theme_name]["scene"])
-heading, settings = st.columns([4, 1], vertical_alignment="center")
+heading, corner = st.columns([3, 2], vertical_alignment="center")
 heading.title("EverFlavor Kitchen")
 heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked ingredient by ingredient.</p>',
                  unsafe_allow_html=True)
-with settings.popover("Settings"):
+news_spot, settings_spot = corner.columns(2)
+with news_spot.container(key="whats-new"), st.popover("What's new"):
+    st.markdown('<div class="updates">' + "".join(
+        f'<h5>{update["version"]} · {update["date"]}</h5><ul>'
+        + "".join(f"<li>{html.escape(note)}</li>" for note in update["notes"]) + "</ul>"
+        for update in UPDATES) + "</div>", unsafe_allow_html=True)
+    st.caption(f"EverFlavor {__version__} (beta). Every change: "
+               "[the changelog](https://github.com/Chloe-Tu2/The-EverFlavor-AI/blob/main/CHANGELOG.md).")
+with settings_spot.container(key="settings"), st.popover("Settings"):
     st.selectbox("Kitchen theme", list(THEMES), key="theme",
                  help="Classic is the team's original look. Night is easier on the eyes in the dark.")
 chef = st.empty()   # the chef's line, filled in below once we know what happened
@@ -410,7 +438,7 @@ st.markdown(f"""
   </ul>
   <div class="footer-title">Made by Team EverGlow</div>
   <div class="credits">{"".join(f'<a href="https://github.com/{name}" target="_blank" rel="noopener">@{name}</a>' for name in CONTRIBUTORS)}</div>
-  <small>ITAI 2277 Capstone · <a href="{REPO}" target="_blank" rel="noopener">Project on GitHub</a> ·
+  <small>Version {__version__} (beta) · ITAI 2277 Capstone · <a href="{REPO}" target="_blank" rel="noopener">Project on GitHub</a> ·
   <a href="{REPO}/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a> · Recipe photos belong to their sources.</small>
 </footer>
 """, unsafe_allow_html=True)

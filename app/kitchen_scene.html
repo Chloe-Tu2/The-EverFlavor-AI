@@ -122,6 +122,19 @@ canvas.addEventListener("touchmove", e => {
   if (page && touchY !== null) { page.scrollBy(0, touchY - e.touches[0].clientY); touchY = e.touches[0].clientY; e.preventDefault(); }
 }, { passive: false });
 
+// What's new: a dot on the page's bell until this browser has opened this version's notes
+const VERSION = "__VERSION__";
+try {
+  const doc = parent.document, key = "everflavor.seenVersion";
+  if (localStorage.getItem(key) !== VERSION) doc.documentElement.dataset.efNews = "1";
+  doc.addEventListener("click", e => {
+    if (e.target.closest && e.target.closest(".st-key-whats-new button")) {
+      localStorage.setItem(key, VERSION);
+      delete doc.documentElement.dataset.efNews;
+    }
+  }, true);
+} catch (e) { /* storage blocked (private window): no dot, nothing breaks */ }
+
 addEventListener("resize", layout);
 Promise.all([backdrop, ...pieces.map(p => p.img)].map(img => img.decode().catch(() => null))).then(layout);
 </script>
