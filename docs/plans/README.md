@@ -29,11 +29,11 @@ How a version moves, as most teams do it:
 
 | Version | State | Branch |
 |---|---|---|
-| 0.5.1 | **In review** by the team | `release/0.5.1` |
-| 0.6.0 | **Planned** (below) | `release/0.6.0`, opened after 0.5.1 is merged |
+| 0.5.1 | **Released** 2026-10-22 (merged into `main`, tag `v0.5.1`) | `release/0.5.1` |
+| 0.6.0 | **Planned** (below) | `release/0.6.0` |
 | 1.0.0 | Final presentation | |
 
-### 0.5.1 (in review)
+### 0.5.1 (released 2026-10-22)
 
 The first numbered release: everything up to now. Details in [CHANGELOG.md](../../CHANGELOG.md).
 
@@ -42,6 +42,7 @@ The first numbered release: everything up to now. Details in [CHANGELOG.md](../.
   (the African family). Searching a cuisine family opens its kitchen.
 - Recipe photo credits and the no-photo placeholder.
 - Guards for keys and user data; `CLAUDE.md`.
+- Kitchen art v5 (traced, lit, day and night; not in the app yet), the art archive and references, the data plan.
 
 ### 0.6.0 (planned)
 

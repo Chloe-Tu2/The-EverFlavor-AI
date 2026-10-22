@@ -6,7 +6,7 @@ starting "New:", "Changed:" or "Fixed:", plain words, no technical or security d
 """
 
 UPDATES = [
-    {"version": "0.5.1", "date": "2026-10-18", "notes": [
+    {"version": "0.5.1", "date": "2026-10-22", "notes": [
         ("New: the EverFlavor Kitchen. A pixel chef checks every recipe against what you can't eat, and the kitchen "
          "behind the page reacts when you tap it."),
         ("New: kitchens from around the world. Search Asian, African, European, Latin American or Middle Eastern "

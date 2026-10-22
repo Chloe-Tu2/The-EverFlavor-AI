@@ -12,7 +12,7 @@ Versions below 1.0 are the **beta**. The version lives in `src/everflavor/__init
 notes people see in the app's "What's new" bell are in `app/updates.py`; `tests/test_version.py` checks that all
 three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published as a GitHub Release.
 
-## [0.5.1] - 2026-10-18
+## [0.5.1] - 2026-10-22
 
 The first numbered release (beta). It sums up the work since the project started in September 2026.
 
@@ -33,6 +33,17 @@ The first numbered release (beta). It sums up the work since the project started
   recipe variants, seasons and footprint, and the evaluation of the local AI agents.
 - **The back end** (`src/everflavor/`): the calorie calculator, the safety gate, local models through Ollama, five
   agent tools, the answer guard, the CrewAI meal planner, and 200+ red-team checks.
+- **Kitchen art v5** (`design/pixel-art/`, not in the app yet): the team's four full kitchens traced object by
+  object at their real angles (`trace_kitchens.py`), with a lighting pass (lanterns, windows, fire, shaded edges),
+  and morning, afternoon, evening and night versions of each (`day_night.py`): the sky in the windows changes, the
+  window sun moves with the hour and becomes a moon, and the lanterns are off by day and lit at evening and night.
+- **Art references:** real-kitchen and lantern photos (lit and unlit) with their licenses, and the team's
+  Saffron Market concept cut into chefs, title sign and props, kept for a later version (`future-works/v6/`).
+- **The art archive** (`design/pixel-art/archive/`): every earlier version (v1 to v4), the v5 build steps and the
+  title card test (four title layouts on desktop and phone), labelled, with progress sheets per kitchen.
+- **Data plan** (`docs/plans/DATA_AND_MODELS.md`): what each model is short of, candidate datasets with licenses,
+  and the download order (DaFiF fish photos first).
+- A sample Foundry multi-agent workflow (`my-agent-n6agvd/`; to be moved out of the repository).
 - **Guards for keys and user data**: a Claude Code hook and a git pre-commit hook refuse to commit `config/.env`,
   key files or user data (`.claude/hooks/`); project rules in `CLAUDE.md`.
 
