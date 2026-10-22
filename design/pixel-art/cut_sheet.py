@@ -45,8 +45,8 @@ def foreground(part: np.ndarray) -> np.ndarray:
     edge = set(np.unique(np.concatenate([labels[0], labels[-1], labels[:, 0], labels[:, -1]]))) - {0}
     big = {k for k in range(1, n) if stats[k, cv2.CC_STAT_AREA] > 150}
     solid = ~np.isin(labels, list(edge | big))
-    fringe = (rgb.min(axis=2) > 170) & (rgb.max(axis=2) - rgb.min(axis=2) < 35)
-    for _ in range(2):                                                # peel the light fringe, a pixel at a time
+    fringe = (rgb.min(axis=2) > 140) & (rgb.max(axis=2) - rgb.min(axis=2) < 45)
+    for _ in range(3):                                                # peel the light fringe, a pixel at a time
         near = cv2.dilate((~solid).astype(np.uint8), np.ones((3, 3), np.uint8)).astype(bool)
         solid &= ~(near & fringe)
     return cv2.morphologyEx(solid.astype(np.uint8), cv2.MORPH_OPEN, np.ones((2, 2), np.uint8)).astype(bool)
