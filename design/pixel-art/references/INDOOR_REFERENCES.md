@@ -8,6 +8,24 @@ All photos are on Wikimedia Commons, under the license shown. They are reference
 from them is copied into the art or the repository. If a photo is ever used directly, its license needs credit (and
 CC BY-SA asks for the same license on what is made from it).
 
+## The look we want: the team's references
+
+Many of the museum and home photos below are plainer than the art we have in mind. They are for **how things are
+built** (where the stove, sink and hearth go, real heights, real tools). For **color and mood**, the team's own
+references come first (2026-10-22, from `EverGlow_Saffron_Market_References.zip`; the photos are not stored here
+because their sources and licenses are unknown, and one is a watermarked stock image):
+
+| Reference | What to take from it |
+|---|---|
+| Colorful tile kitchen (Mexican) | Talavera tiles on the counter fronts and tops, a tiled picture panel behind the stove, a plastered hood with a carved crest, shell-topped shelf niches, a blue arched opening under the counter, hexagonal terracotta floor, carved wooden chairs with woven seats |
+| Arches and lanterns | Arched windows deep in the wall, a blue and white tiled band at counter height, several pierced metal lanterns at different heights, a long open shelf with plants and bowls, hexagonal terracotta floor |
+| Traditional wood kitchen | A window seat with patterned cushions, carved wooden cabinets and island with tile inserts, a patterned rug, pierced lanterns |
+| Patterned arch kitchen | Pattern on every wall (tile bands, stars, a large floral panel), a pointed arched window, utensils hung on a rail under a shelf |
+| **The Saffron Market, second version** (pixel art, in [concepts/](concepts/README.md)) | All of the above in our pixel style: the target for the Middle Eastern kitchen. It also draws the sign as its own hanging piece, separate from the room |
+
+So: keep the color, add what a real kitchen needs. Where a photo below and the team's references disagree on
+color, the team's references win.
+
 ## In every kitchen
 
 - **One eye level.** Counters, shelves and the floor lines should meet at the same vanishing point, so the room
