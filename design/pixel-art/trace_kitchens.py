@@ -28,7 +28,8 @@ from PIL import Image
 HERE = Path(__file__).resolve().parent
 REF = HERE / "references" / "concepts"
 OUT = HERE / "drafts" / "traced-kitchens"
-SCALE = 4                    # the original is 4x the pixel grid
+SCALE = 4                    # the original is 4x the pixel grid (SCALES: a different size for one kitchen)
+SCALES: dict[str, int] = {}
 COLORS = 56                  # one palette per kitchen
 
 # Objects per kitchen: name -> box (x0, y0, x1, y1) on the original, listed from the back to the front
@@ -86,7 +87,46 @@ OBJECTS = {
         "plant_left": (0, 560, 135, 705), "tea_set": (55, 565, 300, 712), "stool_mid": (300, 725, 470, 900),
         "basket": (1555, 685, 1650, 760), "stool_right": (1450, 720, 1600, 900), "pot_right": (1600, 720, 1672, 900),
     },
+    "middle_eastern_v2": {                   # the team's second, colorful Saffron Market (the kitchen above its sheet)
+        "lantern_niche": (380, 85, 440, 215), "lantern_1": (495, 0, 560, 135), "lantern_2": (620, 60, 670, 165),
+        "lantern_3": (690, 0, 750, 130), "lantern_4": (765, 95, 820, 235),
+        "pots_shelf_top": (480, 140, 750, 200), "pots_shelf_mid": (480, 225, 750, 275),
+        "jars_niche_left": (860, 130, 1000, 280), "jars_niche_mid": (1350, 95, 1450, 280),
+        "jars_niche_right": (1510, 60, 1615, 290), "plant_hanging_mid": (555, 140, 620, 305),
+        "plant_hanging_right": (760, 60, 850, 190), "plant_hanging_far": (1430, 60, 1500, 225),
+        "plant_niche": (410, 300, 460, 360), "pan_rail": (1095, 230, 1305, 335), "pots_counter": (530, 340, 700, 385),
+        "copper_teapot": (960, 310, 1110, 390), "red_pot": (1120, 345, 1200, 390), "vases_counter": (1310, 330, 1610, 400),
+        "fruit_bowls": (670, 345, 1000, 425), "ewer": (780, 325, 840, 415), "tree_left": (0, 215, 140, 470),
+        "pot_left": (0, 440, 95, 560), "sofa": (60, 360, 440, 530), "cushions": (130, 365, 350, 435),
+        "teapot_table": (120, 440, 170, 480), "side_table": (95, 470, 200, 560), "stove": (1100, 375, 1310, 560),
+        "island": (535, 400, 1000, 615), "stool_1": (470, 470, 600, 580), "stool_2": (605, 480, 755, 600),
+        "plant_corner_left": (0, 500, 230, 624), "plant_right": (1480, 480, 1672, 624),
+    },
 }
+SOURCES = {"middle_eastern_v2": ("middle_eastern_v2_colorful.png", (0, 0, 1672, 624))}   # file and crop, if not <name>.jpg
+
+# The color pass (2026-10-22): the team's colorful Saffron Market is the look to aim for. It is not more saturated
+# than the other kitchens; it has more contrast, and its blues and greens stand out against the warm wood and copper.
+# So each kitchen gets a little more contrast and vibrance (dull colors gain more than strong ones), blues and
+# greens a little extra. 0 keeps the concept's colors, 1 is the full pass.
+COLORFUL: dict[str, float] = {}             # off for now: the four traced kitchens were approved as they are
+COLORFUL_DEFAULT = 0.0
+TARGET_CONTRAST = 21.5                      # spread of lightness in the colorful Saffron Market (Lab L, std)
+
+
+def colorful(img: np.ndarray, strength: float) -> np.ndarray:
+    if strength <= 0:
+        return img
+    lab = cv2.cvtColor(img.astype(np.float32) / 255, cv2.COLOR_RGB2LAB)
+    lum, a, b = lab[..., 0], lab[..., 1], lab[..., 2]
+    gain = 1 + strength * (np.clip(TARGET_CONTRAST / max(lum.std(), 1), 1, 1.3) - 1)
+    lum = np.clip(lum.mean() + (lum - lum.mean()) * gain, 0, 100)
+    chroma = np.hypot(a, b)
+    vibrance = 1 + strength * 0.25 * (1 - np.clip(chroma / 80, 0, 1))
+    hue = np.degrees(np.arctan2(b, a)) % 360
+    accent = 1 + strength * 0.2 * (((hue > 95) & (hue < 170)) | ((hue > 225) & (hue < 300)))   # greens, blues
+    lab = np.dstack([lum, a * vibrance * accent, b * vibrance * accent]).astype(np.float32)
+    return (np.clip(cv2.cvtColor(lab, cv2.COLOR_LAB2RGB), 0, 1) * 255).round().astype(np.uint8)
 
 
 # Lights that are not traced objects (windows, doorways, fire): (x, y, reach, strength, core) on the original; inside
@@ -96,8 +136,14 @@ LIGHTS = {
     "mediterranean": [(265, 530, 420, 1.0, 120), (1160, 450, 260, 0.6, 0), (583, 595, 100, 0.6, 15)],
     "mexican": [(200, 350, 320, 0.6, 0), (1150, 390, 300, 0.6, 0)],
     "middle_eastern": [(1160, 370, 300, 0.7, 0), (60, 450, 300, 0.5, 0)],
+    "middle_eastern_v2": [(200, 180, 330, 0.7, 0), (1200, 220, 160, 0.4, 0)],   # the window, the light under the hood
 }
 LAMP_REACH, LAMP_STRENGTH = 220, 0.9                    # on the original
+# Per kitchen: how dark the outline drawn around each object is (0.55 = 55% of its colour; None = no outline, for art
+# that already has its own outlines) and how strong the lighting is (1 = as set above).
+OUTLINE: dict[str, float | None] = {"middle_eastern_v2": None}
+LIGHTING = {"middle_eastern_v2": 0.5}       # its lanterns and window glow are already painted in
+MODE_SHRINK = {"middle_eastern_v2"}         # kitchens shrunk by the most common colour per block (see shrink)
 BAYER = np.array([[0, 8, 2, 10], [12, 4, 14, 6], [3, 11, 1, 9], [15, 7, 13, 5]]) / 16   # ordered dither
 
 
@@ -196,10 +242,30 @@ def palette_of(img: np.ndarray, k: int) -> np.ndarray:
     return centers.astype(np.uint8)
 
 
+def palette_index(img: np.ndarray, pal: np.ndarray) -> np.ndarray:
+    """The nearest palette colour for every pixel (in chunks, so a full-size picture fits in memory)."""
+    flat = img.reshape(-1, 3).astype(np.int32)
+    p = pal.astype(np.int32)
+    idx = np.empty(len(flat), np.int64)
+    for start in range(0, len(flat), 100_000):
+        part = flat[start:start + 100_000, None, :]
+        idx[start:start + 100_000] = ((part - p[None]) ** 2).sum(axis=2).argmin(axis=1)
+    return idx.reshape(img.shape[:2])
+
+
 def to_palette(img: np.ndarray, pal: np.ndarray) -> np.ndarray:
-    flat = img.reshape(-1, 1, 3).astype(np.int32)
-    idx = ((flat - pal.reshape(1, -1, 3).astype(np.int32)) ** 2).sum(axis=2).argmin(axis=1)
-    return pal[idx].reshape(img.shape)
+    return pal[palette_index(img, pal)]
+
+
+def shrink(img: np.ndarray, pal: np.ndarray, w: int, h: int) -> np.ndarray:
+    """Onto the pixel grid: every block (4 x 4 at SCALE 4) becomes its most common palette colour. Averaging the
+    block instead would mix neighbours (a blue tile and its orange grout) into a muddy in-between colour and dull the picture."""
+    scale = img.shape[1] // w
+    idx = palette_index(img[:h * scale, :w * scale], pal)
+    blocks = idx.reshape(h, scale, w, scale).transpose(0, 2, 1, 3).reshape(-1, scale * scale)
+    counts = np.zeros((len(blocks), len(pal)), np.int32)
+    np.add.at(counts, (np.repeat(np.arange(len(blocks)), scale * scale), blocks.ravel()), 1)
+    return pal[counts.argmax(axis=1)].reshape(h, w, 3)
 
 
 def png_uri(rgba: np.ndarray) -> str:
@@ -209,8 +275,13 @@ def png_uri(rgba: np.ndarray) -> str:
 
 
 def trace(name: str) -> None:
-    img = cv2.cvtColor(cv2.imread(str(REF / f"{name}.jpg")), cv2.COLOR_BGR2RGB)
-    h, w = img.shape[0] // SCALE, img.shape[1] // SCALE
+    file, crop = SOURCES.get(name, (f"{name}.jpg", None))
+    original = cv2.cvtColor(cv2.imread(str(REF / file)), cv2.COLOR_BGR2RGB)
+    if crop:
+        original = original[crop[1]:crop[3], crop[0]:crop[2]]
+    img = colorful(original, COLORFUL.get(name, COLORFUL_DEFAULT))
+    scale = SCALES.get(name, SCALE)
+    h, w = img.shape[0] // scale, img.shape[1] // scale
     out = OUT / name
     (out / "sprites").mkdir(parents=True, exist_ok=True)
 
@@ -221,9 +292,13 @@ def trace(name: str) -> None:
     grown = cv2.dilate(everything, np.ones((9, 9), np.uint8))
     backdrop_full = cv2.inpaint(img, grown, 9, cv2.INPAINT_TELEA)     # the empty room
 
-    small = cv2.resize(img, (w, h), interpolation=cv2.INTER_AREA)
-    pal = palette_of(small, COLORS)
-    backdrop = to_palette(cv2.resize(backdrop_full, (w, h), interpolation=cv2.INTER_AREA), pal)
+    if name in MODE_SHRINK:                                           # most common colour per block
+        pal = palette_of(img[::2, ::2], COLORS)
+        small, backdrop = shrink(img, pal, w, h), shrink(backdrop_full, pal, w, h)
+    else:                                                             # averaged blocks (the approved kitchens)
+        small = cv2.resize(img, (w, h), interpolation=cv2.INTER_AREA)
+        pal = palette_of(small, COLORS)
+        backdrop = to_palette(cv2.resize(backdrop_full, (w, h), interpolation=cv2.INTER_AREA), pal)
     unlit = backdrop.copy()
     shapes = {}                                                       # object -> (x, y, mask) on the pixel grid
     for obj, m in masks.items():
@@ -235,13 +310,16 @@ def trace(name: str) -> None:
         colours = to_palette(small[y0:y1, x0:x1], pal)
         sub = msmall[y0:y1, x0:x1]
         edge = sub & ~cv2.erode(sub.astype(np.uint8), np.ones((3, 3), np.uint8)).astype(bool)
-        dark = (colours.astype(np.int32) * 55 // 100).astype(np.uint8)    # a dark outline in the object's own hue
-        colours = np.where(edge[..., None], to_palette(dark, pal), colours)
+        outline = OUTLINE.get(name, 0.55)
+        if outline is not None:                                       # a dark outline in the object's own hue
+            dark = (colours.astype(np.float32) * outline).astype(np.uint8)
+            colours = np.where(edge[..., None], to_palette(dark, pal), colours)
         unlit[y0:y1, x0:x1] = np.where(sub[..., None], colours, unlit[y0:y1, x0:x1])
         shapes[obj] = (int(x0), int(y0), sub)
 
-    lamps = [(x / SCALE, y / SCALE, r / SCALE, s, c / SCALE) for x, y, r, s, c in LIGHTS.get(name, [])]
-    lamps += [(x + sub.shape[1] / 2, y + sub.shape[0] / 2, LAMP_REACH / SCALE, LAMP_STRENGTH, 0)
+    lighting = LIGHTING.get(name, 1.0)
+    lamps = [(x / scale, y / scale, r / scale, s * lighting, c / scale) for x, y, r, s, c in LIGHTS.get(name, [])]
+    lamps += [(x + sub.shape[1] / 2, y + sub.shape[0] / 2, LAMP_REACH / scale, LAMP_STRENGTH * lighting, 0)
               for obj, (x, y, sub) in shapes.items() if "lantern" in obj or "lamp" in obj]
     final = light(unlit, pal, shapes, lamps)
     backdrop = light(backdrop, pal, {}, lamps)
@@ -264,7 +342,7 @@ def trace(name: str) -> None:
         sheet.paste(left.resize((w * 2, h * 2), Image.LANCZOS if left.width > w else Image.NEAREST), (0, 0))
         sheet.paste(right.resize((w * 2, h * 2), Image.NEAREST), (w * 2 + 8, 0))
         sheet.save(out / file)
-    side_by_side(Image.fromarray(img), Image.fromarray(final), "compare.png")              # the original | traced and lit
+    side_by_side(Image.fromarray(original), Image.fromarray(final), "compare.png")         # the original | traced and lit
     side_by_side(Image.fromarray(unlit), Image.fromarray(final), "compare_lighting.png")   # before | after the lighting
     print(f"{name}: {len(pieces)} objects traced, {len(lamps)} lights, palette of {COLORS}, written to {out}")
 
