@@ -37,7 +37,7 @@ Fish eye sets already in use: [Multistage Fish Eyes](https://data.mendeley.com/d
 
 1. **No download: fix what we have.** The demo data's cuisines through notebook 01's country logic (bug report),
    hand-checked USDA matches for the top automatic ones (corned beef), and Open Food Facts' EU allergens.
-2. **DaFiF** (about 1 GB): a label reader in notebook 05, then retrain the fish model and report per source.
+2. **DaFiF** (about 8 GB, downloading 2026-10-22): a label reader in notebook 05, then retrain the fish model and report per source.
 3. **Photo check without new data:** a zero-shot image check (is it food, does it match the dish name) with a CLIP
    model, judged on a few hundred demo photos the team labels by hand. Download Food-101 or ISIA Food-500 only if
    that is not good enough.
