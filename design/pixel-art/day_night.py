@@ -51,6 +51,7 @@ SUNS = {
 FLAMES = {"mediterranean": [(265, 530, 420), (583, 595, 110)]}
 LANTERN_REACH = 230
 CANDLES = {"mediterranean": [(583, 595)]}    # flames put out by day (x, y on the original); the hearth fire stays
+UNLIT = {"chinese": "paper"}                 # what an unlit lantern is made of (default glass), see lamps_off
 HEARTH_CORE = 60                             # a v5 light with a core this big (on the original) is a fire: it stays
 
 # The hours. room: color multipliers; cool: how much the shadows turn blue; gold: how much the highlights turn
@@ -129,8 +130,9 @@ def beams(boxes: list[tuple[int, int, int, int]], shape: tuple[int, int], sun_le
 
 def lamps_off(name: str) -> np.ndarray:
     """The v5 kitchen by day with its lamps off: the v5 lighting pass (trace_kitchens.light) run again on the unlit
-    kitchen with only the windows and the hearth fire, then each lantern's lit glass (bright, warm pixels) made dark
-    and dull and each candle flame put out. Every color stays in the kitchen's palette."""
+    kitchen with only the windows and the hearth fire, then each lantern's lit glass (bright, warm pixels) shaded
+    dark grey with no warm hue (red paper lanterns turn matte red), as in photos of unlit lanterns by day
+    (references/lanterns/), and each candle flame put out. hour() puts the result back on a palette."""
     folder = TRACED / name
     unlit = np.array(Image.open(folder / f"{name}_unlit.png").convert("RGB"))
     pal = np.unique(unlit.reshape(-1, 3), axis=0)
@@ -144,9 +146,15 @@ def lamps_off(name: str) -> np.ndarray:
     for key, (x, y, mask) in shapes.items():
         if "lantern" in key or "lamp" in key:
             part = img[y:y + mask.shape[0], x:x + mask.shape[1]].astype(np.float32)
-            lit = mask & (part.max(axis=2) > 165) & ((part[..., 0] - part[..., 2] > 45) | (part.min(axis=2) > 215))
-            part[lit] = part[lit] * 0.5 + part[lit].mean(axis=1, keepdims=True) * 0.12
-            img[y:y + mask.shape[0], x:x + mask.shape[1]] = tk.to_palette(part.astype(np.uint8), pal)
+            lit = mask & (part.mean(axis=2) > 95) & ((part[..., 0] - part[..., 2] > 35) | (part.min(axis=2) > 200))
+            glow = part[lit]
+            if UNLIT.get(name) == "paper":                             # red paper: matte red, no orange or yellow
+                glow = glow * np.array((0.66, 0.26, 0.30), np.float32)
+            else:                                                      # glass: dark and grey, no warm hue
+                grey = glow.mean(axis=1, keepdims=True)
+                glow = (grey * 0.8 + glow * 0.2) * 0.42 + np.array((4, 8, 14), np.float32)
+            part[lit] = glow
+            img[y:y + mask.shape[0], x:x + mask.shape[1]] = part.astype(np.uint8)
     for cx, cy in CANDLES.get(name, []):
         cx, cy = cx // SCALE, cy // SCALE
         part = img[cy - 8:cy + 3, cx - 4:cx + 5].astype(np.int32)
@@ -244,8 +252,7 @@ def main(names: list[str]) -> None:
         Image.fromarray(off).save(folder / f"{name}_lamps_off.png")
         versions = {}
         for time in TIMES:
-            # the afternoon is the v5 kitchen with the lamps off, unless its sun has to move
-            img = off if time == "afternoon" and name not in SUNS else hour(name, day, off, time)
+            img = hour(name, day, off, time)
             versions[time] = img
             Image.fromarray(img).save(folder / f"{name}_{time}.png")
             Image.fromarray(img).resize((img.shape[1] * 4, img.shape[0] * 4), Image.NEAREST).save(folder / f"{name}_{time}_x4.png")
