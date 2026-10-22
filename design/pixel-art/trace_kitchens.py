@@ -89,6 +89,85 @@ OBJECTS = {
 }
 
 
+# Lights that are not traced objects (windows, doorways, fire): (x, y, reach, strength, core) on the original; inside
+# the core nothing changes (the fire itself). Every object named lantern or lamp is a light too, at its centre.
+LIGHTS = {
+    "chinese": [(230, 330, 300, 0.6, 0)],
+    "mediterranean": [(265, 530, 420, 1.0, 120), (1160, 450, 260, 0.6, 0), (583, 595, 100, 0.6, 15)],
+    "mexican": [(200, 350, 320, 0.6, 0), (1150, 390, 300, 0.6, 0)],
+    "middle_eastern": [(1160, 370, 300, 0.7, 0), (60, 450, 300, 0.5, 0)],
+}
+LAMP_REACH, LAMP_STRENGTH = 220, 0.9                    # on the original
+BAYER = np.array([[0, 8, 2, 10], [12, 4, 14, 6], [3, 11, 1, 9], [15, 7, 13, 5]]) / 16   # ordered dither
+
+
+WARM, COOL = np.array([1.16, 1.09, 0.97]), np.array([0.80, 0.78, 0.86])   # one step of lamplight, one of shadow
+
+
+def shade_table(pal: np.ndarray) -> dict[int, np.ndarray]:
+    """For each step (-2 to 3) and palette colour, the palette colour it becomes: the colour tinted warmer and lighter
+    (or cooler and darker), then the nearest palette colour. A step that would change the colour's hue too much
+    (the palette has no lighter cream, say) keeps the colour as it is, so nothing turns grey or blue."""
+    lab = cv2.cvtColor(pal.reshape(1, -1, 3), cv2.COLOR_RGB2LAB).reshape(-1, 3).astype(float)
+    table = {}
+    for k in range(-2, 4):
+        tinted = np.clip(pal.astype(float) * (WARM if k > 0 else COOL) ** abs(k), 0, 255)
+        near = ((tinted[:, None, :] - pal[None, :, :].astype(float)) ** 2).sum(axis=2).argmin(axis=1)
+        drift = np.hypot(lab[near, 1] - lab[:, 1], lab[near, 2] - lab[:, 2])
+        table[k] = np.where(drift <= 14, near, np.arange(len(pal)))
+    return table
+
+
+def light(img: np.ndarray, pal: np.ndarray, shapes: dict[str, tuple[int, int, np.ndarray]],
+          lamps: list[tuple[float, float, float, float, float]]) -> np.ndarray:
+    """The lighting pass: brighter near each light (fading out with an ordered dither, the pixel-art way), the room's
+    corners a step darker, and on every object a highlight just inside its outline on the side facing the light and a
+    shadow on the far side. Every colour stays in the palette (shade_table)."""
+    h, w = img.shape[:2]
+    pal_i = pal.astype(np.int32)
+    idx = ((img.reshape(-1, 1, 3).astype(np.int32) - pal_i.reshape(1, -1, 3)) ** 2).sum(axis=2).argmin(axis=1).reshape(h, w)
+    yy, xx = np.mgrid[0:h, 0:w].astype(float)
+    glow = np.zeros((h, w))
+    core = np.zeros((h, w), bool)
+    for x, y, reach, strength, inner in lamps:
+        dist = np.hypot(xx - x, yy - y)
+        glow += strength * np.clip(1 - (dist - inner) / (reach - inner), 0, 1) ** 1.5
+        core |= dist < inner
+    dither = (np.tile(BAYER, (h // 4 + 1, w // 4 + 1))[:h, :w] - 0.5) * 0.4   # solid bands, dithered only at their edges
+    steps = np.clip(np.floor(np.clip(glow, 0, 1.2) * 2.2 + dither - 0.3), 0, 2)
+    corner = np.hypot((xx - w / 2) / (w / 2), (yy - h / 2) / (h / 2)) / np.sqrt(2)
+    dark = np.clip((corner - 0.55) / 0.45, 0, 1) * (1 - np.clip(glow * 3, 0, 1))
+    steps -= np.clip(np.floor(dark * 1.6 + dither), 0, 1)
+    steps[core] = 0
+    for obj, (x0, y0, mask) in shapes.items():                        # a light does not light itself up
+        if "lantern" in obj or "lamp" in obj:
+            region = steps[y0:y0 + mask.shape[0], x0:x0 + mask.shape[1]]
+            region[mask] = 0
+    gy, gx = np.gradient(cv2.GaussianBlur(glow, (0, 0), 3))
+    norm = np.hypot(gx, gy) + 1e-6
+    weight = np.clip(glow * 4, 0, 1)
+    lx, ly = gx / norm * weight, gy / norm * weight - 0.5          # towards the light, plus a little from above
+    ln = np.hypot(lx, ly) + 1e-6
+    lx, ly = lx / ln, ly / ln
+    for x0, y0, mask in shapes.values():
+        mh, mw = mask.shape
+        if min(mh, mw) < 4:                                           # too small to have sides
+            continue
+        inside = cv2.distanceTransform(mask.astype(np.uint8), cv2.DIST_L2, 3)
+        rim = (inside > 1.5) & (inside <= 3.2)                         # just inside the dark outline
+        my, mx = np.gradient(cv2.GaussianBlur(mask.astype(float), (0, 0), 1.2))
+        mn = np.hypot(mx, my) + 1e-6
+        facing = (-mx / mn) * lx[y0:y0 + mh, x0:x0 + mw] + (-my / mn) * ly[y0:y0 + mh, x0:x0 + mw]
+        region = steps[y0:y0 + mh, x0:x0 + mw]
+        region[rim & (facing > 0.35)] += 1
+        region[rim & (facing < -0.35)] -= 1
+    out = idx.copy()
+    steps = np.clip(steps, -2, 3).astype(int)
+    for k, table in shade_table(pal).items():
+        out = np.where(steps == k, table[idx], out)
+    return pal[out]
+
+
 def isolate(img: np.ndarray, box: tuple[int, int, int, int]) -> np.ndarray:
     """The object's mask inside its box: GrabCut, then the biggest connected piece, smoothed a little."""
     x0, y0, x1, y1 = box
@@ -145,8 +224,8 @@ def trace(name: str) -> None:
     small = cv2.resize(img, (w, h), interpolation=cv2.INTER_AREA)
     pal = palette_of(small, COLORS)
     backdrop = to_palette(cv2.resize(backdrop_full, (w, h), interpolation=cv2.INTER_AREA), pal)
-    final = backdrop.copy()
-    pieces = {}
+    unlit = backdrop.copy()
+    shapes = {}                                                       # object -> (x, y, mask) on the pixel grid
     for obj, m in masks.items():
         msmall = cv2.resize(m, (w, h), interpolation=cv2.INTER_AREA) > 110
         if not msmall.any():
@@ -158,24 +237,36 @@ def trace(name: str) -> None:
         edge = sub & ~cv2.erode(sub.astype(np.uint8), np.ones((3, 3), np.uint8)).astype(bool)
         dark = (colours.astype(np.int32) * 55 // 100).astype(np.uint8)    # a dark outline in the object's own hue
         colours = np.where(edge[..., None], to_palette(dark, pal), colours)
+        unlit[y0:y1, x0:x1] = np.where(sub[..., None], colours, unlit[y0:y1, x0:x1])
+        shapes[obj] = (int(x0), int(y0), sub)
+
+    lamps = [(x / SCALE, y / SCALE, r / SCALE, s, c / SCALE) for x, y, r, s, c in LIGHTS.get(name, [])]
+    lamps += [(x + sub.shape[1] / 2, y + sub.shape[0] / 2, LAMP_REACH / SCALE, LAMP_STRENGTH, 0)
+              for obj, (x, y, sub) in shapes.items() if "lantern" in obj or "lamp" in obj]
+    final = light(unlit, pal, shapes, lamps)
+    backdrop = light(backdrop, pal, {}, lamps)
+    pieces = {}
+    for obj, (x0, y0, sub) in shapes.items():                         # each object cut from the lit kitchen
+        colours = final[y0:y0 + sub.shape[0], x0:x0 + sub.shape[1]]
         rgba = np.dstack([colours, sub.astype(np.uint8) * 255])
         Image.fromarray(rgba, "RGBA").save(out / "sprites" / f"{obj}.png")
-        final[y0:y1, x0:x1] = np.where(sub[..., None], colours, final[y0:y1, x0:x1])
-        pieces[obj] = {"png": png_uri(rgba), "x": int(x0), "y": int(y0), "w": int(x1 - x0), "h": int(y1 - y0)}
+        pieces[obj] = {"png": png_uri(rgba), "x": x0, "y": y0, "w": int(sub.shape[1]), "h": int(sub.shape[0])}
 
     Image.fromarray(backdrop).save(out / "backdrop.png")
+    Image.fromarray(unlit).save(out / f"{name}_unlit.png")
     Image.fromarray(final).save(out / f"{name}.png")
     Image.fromarray(final).resize((w * 4, h * 4), Image.NEAREST).save(out / f"{name}_x4.png")
     bd = np.dstack([backdrop, np.full(backdrop.shape[:2], 255, np.uint8)])
     (out / "scene.json").write_text(json.dumps({"size": [w, h], "backdrop": png_uri(bd), "pieces": pieces}), encoding="utf-8")
 
-    orig = Image.fromarray(img).resize((w * 2, h * 2), Image.LANCZOS)
-    mine = Image.fromarray(final).resize((w * 2, h * 2), Image.NEAREST)
-    sheet = Image.new("RGB", (w * 4 + 8, h * 2), "white")
-    sheet.paste(orig, (0, 0))
-    sheet.paste(mine, (w * 2 + 8, 0))
-    sheet.save(out / "compare.png")
-    print(f"{name}: {len(pieces)} objects traced, palette of {COLORS}, written to {out}")
+    def side_by_side(left: Image.Image, right: Image.Image, file: str) -> None:
+        sheet = Image.new("RGB", (w * 4 + 8, h * 2), "white")
+        sheet.paste(left.resize((w * 2, h * 2), Image.LANCZOS if left.width > w else Image.NEAREST), (0, 0))
+        sheet.paste(right.resize((w * 2, h * 2), Image.NEAREST), (w * 2 + 8, 0))
+        sheet.save(out / file)
+    side_by_side(Image.fromarray(img), Image.fromarray(final), "compare.png")              # the original | traced and lit
+    side_by_side(Image.fromarray(unlit), Image.fromarray(final), "compare_lighting.png")   # before | after the lighting
+    print(f"{name}: {len(pieces)} objects traced, {len(lamps)} lights, palette of {COLORS}, written to {out}")
 
 
 if __name__ == "__main__":

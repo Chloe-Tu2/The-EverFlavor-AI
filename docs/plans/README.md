@@ -74,7 +74,9 @@ Everything we are working on or have agreed to do next, in one place. Owners are
    pass done:** `design/pixel-art/trace_kitchens.py` isolates each object in the original (GrabCut), puts it on the
    418 x 235 grid with one 56-colour palette per kitchen and a dark outline, and assembles it over the emptied room
    (`drafts/traced-kitchens/<name>/`: the kitchen, `compare.png`, `sprites/`, `scene.json` with each object's
-   place). Windows, stools and rugs now keep the originals' angles. Still to do: 14 small objects lost their mask
+   place). Windows, stools and rugs now keep the originals' angles. A lighting pass follows: warm light around
+   the lanterns, windows and fire (solid bands with dithered edges), darker corners, and light and shadow on each
+   object's edge, all inside the palette (`<name>_unlit.png` and `compare_lighting.png` show before and after). Still to do: 14 small objects lost their mask
    and stay in the backdrop (the script lists them: Mexican spoons, flowers, tap; Mediterranean jug, plates,
    barrel), a sharper palette for the Middle Eastern kitchen, then the team picks code-drawn or traced.
 
