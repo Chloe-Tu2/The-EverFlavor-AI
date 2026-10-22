@@ -13,6 +13,9 @@ from these games or sites, so no one else's art ends up in the repository.
 | Unpacking (Witch Beam) | Detailed pixel kitchens and shelves; how much a few pixels can say |
 | A Short Hike (adamgryu) | Soft color palettes and light that changes with the time of day |
 
+Real kitchens, for making the rooms and objects more accurate: [INDOOR_REFERENCES.md](INDOOR_REFERENCES.md)
+(photos on Wikimedia Commons, with their licenses, and the few changes each kitchen needs).
+
 ## Palettes
 
 - **Classic** is Eva's palette from the first themed app (`#FFF1E6` cream, `#8B4513` brown, `#FFB6C1` pink).
