@@ -32,23 +32,44 @@ SHEETS = {
 }
 
 
-def cut(sheet: np.ndarray, box: tuple[int, int, int, int]) -> np.ndarray:
-    x0, y0, x1, y1 = box
-    crop = sheet[y0:y1, x0:x1, :3].astype(np.int32)
-    light = (crop.min(axis=2) > 205) & (crop.max(axis=2) - crop.min(axis=2) < 20)     # the checkerboard
-    n, labels = cv2.connectedComponents(light.astype(np.uint8), connectivity=4)
+TOP = 640                                   # the pieces start under the kitchen
+
+
+def foreground(part: np.ndarray) -> np.ndarray:
+    """Everything that is not the checkerboard. The checkerboard is light and grey: the light grey areas that touch
+    the edge, or are too big to be a highlight, are background. Then the light fringe the background left on the
+    pieces' edges is peeled off."""
+    rgb = part.astype(np.int32)
+    light = (rgb.min(axis=2) > 205) & (rgb.max(axis=2) - rgb.min(axis=2) < 20)
+    n, labels, stats, _ = cv2.connectedComponentsWithStats(light.astype(np.uint8), connectivity=4)
     edge = set(np.unique(np.concatenate([labels[0], labels[-1], labels[:, 0], labels[:, -1]]))) - {0}
-    background = np.isin(labels, list(edge)) & light
-    alpha = np.where(background, 0, 255).astype(np.uint8)
-    alpha = cv2.morphologyEx(alpha, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))       # drop stray specks
-    n, parts, stats, _ = cv2.connectedComponentsWithStats((alpha > 0).astype(np.uint8))
-    if n > 2:                                     # keep the piece's parts, drop bits of the neighbouring pieces
-        areas = stats[1:, cv2.CC_STAT_AREA]
-        keep = [k + 1 for k, area in enumerate(areas) if area >= 0.15 * areas.max()]
-        alpha = np.where(np.isin(parts, keep), alpha, 0).astype(np.uint8)
-    rgba = np.dstack([crop.astype(np.uint8), alpha])
-    ys, xs = np.nonzero(alpha)
-    return rgba[ys.min():ys.max() + 1, xs.min():xs.max() + 1] if len(ys) else rgba
+    big = {k for k in range(1, n) if stats[k, cv2.CC_STAT_AREA] > 150}
+    solid = ~np.isin(labels, list(edge | big))
+    fringe = (rgb.min(axis=2) > 170) & (rgb.max(axis=2) - rgb.min(axis=2) < 35)
+    for _ in range(2):                                                # peel the light fringe, a pixel at a time
+        near = cv2.dilate((~solid).astype(np.uint8), np.ones((3, 3), np.uint8)).astype(bool)
+        solid &= ~(near & fringe)
+    return cv2.morphologyEx(solid.astype(np.uint8), cv2.MORPH_OPEN, np.ones((2, 2), np.uint8)).astype(bool)
+
+
+def cut_all(sheet: np.ndarray, boxes: dict[str, tuple[int, int, int, int]]) -> dict[str, np.ndarray]:
+    """Each piece is every blob of the foreground whose centre is in the piece's box, so a piece that reaches past
+    its box is not cut off, and bits of a neighbour that reach into the box are left out."""
+    part = sheet[TOP:, :, :3]
+    solid = foreground(part)
+    near = cv2.dilate(solid.astype(np.uint8), np.ones((5, 5), np.uint8))   # parts a few pixels apart stay together
+    n, blobs, stats, centres = cv2.connectedComponentsWithStats(near)
+    pieces = {}
+    for piece, (x0, y0, x1, y1) in boxes.items():
+        mine = [k for k in range(1, n) if x0 <= centres[k][0] < x1 and y0 - TOP <= centres[k][1] < y1 - TOP
+                and stats[k, cv2.CC_STAT_AREA] > 60]
+        mask = np.isin(blobs, mine) & solid
+        ys, xs = np.nonzero(mask)
+        if not len(ys):
+            continue
+        sl = (slice(ys.min(), ys.max() + 1), slice(xs.min(), xs.max() + 1))
+        pieces[piece] = np.dstack([part[sl], mask[sl].astype(np.uint8) * 255])
+    return pieces
 
 
 def main() -> None:
@@ -56,7 +77,7 @@ def main() -> None:
         sheet = np.array(Image.open(REF / file).convert("RGB"))
         out = OUT / name
         out.mkdir(parents=True, exist_ok=True)
-        pieces = {piece: cut(sheet, box) for piece, box in boxes.items()}
+        pieces = cut_all(sheet, boxes)
         for piece, rgba in pieces.items():
             Image.fromarray(rgba, "RGBA").save(out / f"{piece}.png")
         # an overview on a dark background, so the cut edges show
