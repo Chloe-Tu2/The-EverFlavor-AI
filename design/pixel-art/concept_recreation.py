@@ -39,19 +39,20 @@ def tone(color: str | RGB, f: float) -> RGB:
 class Art:
     """A pixel canvas with the shading tools every kitchen uses."""
 
-    def __init__(self, background: str, seed: int = 1):
-        self.img = Image.new("RGB", (W, H), rgb(background))
+    def __init__(self, background: str, seed: int = 1, size: tuple[int, int] = (W, H)):
+        self.w, self.h = size
+        self.img = Image.new("RGB", size, rgb(background))
         self.px = self.img.load()
         self.rand = random.Random(seed)
 
     # ---- single pixels and boxes
     def put(self, x: int, y: int, color: str | RGB) -> None:
-        if 0 <= x < W and 0 <= y < H:
+        if 0 <= x < self.w and 0 <= y < self.h:
             self.px[x, y] = rgb(color)
 
     def box(self, x: int, y: int, w: int, h: int, color: str | RGB) -> None:
-        for yy in range(max(0, y), min(H, y + h)):
-            for xx in range(max(0, x), min(W, x + w)):
+        for yy in range(max(0, y), min(self.h, y + h)):
+            for xx in range(max(0, x), min(self.w, x + w)):
                 self.px[xx, yy] = rgb(color)
 
     def line(self, points: list[tuple[int, int]], color: str | RGB, width: int = 1) -> None:
@@ -62,7 +63,7 @@ class Art:
               outline: float = 0.42, highlight: bool = True) -> tuple[int, int, int, int] | None:
         """Fill a shape (drawn in white on a mask by `draw`) with shading. mode: 'cyl' (lit from the left, like a
         bottle), 'sphere' (lit from the top left, like a pot), 'flat' (a lit top edge), 'plain'."""
-        mask = Image.new("L", (W, H), 0)
+        mask = Image.new("L", (self.w, self.h), 0)
         draw(ImageDraw.Draw(mask))
         box = mask.getbbox()
         if not box:
@@ -75,7 +76,7 @@ class Art:
             for x in range(x0, x1):
                 if not m[x, y]:
                     continue
-                edge = any(not (0 <= x + dx < W and 0 <= y + dy < H and m[x + dx, y + dy])
+                edge = any(not (0 <= x + dx < self.w and 0 <= y + dy < self.h and m[x + dx, y + dy])
                            for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))
                 if edge and outline:
                     self.px[x, y] = tone(base, outline)
@@ -142,8 +143,8 @@ class Art:
 
     def shadow(self, x: int, y: int, w: int, h: int = 2, f: float = 0.84) -> None:
         """Darken what is already there (the shadow under a shelf or an object)."""
-        for yy in range(max(0, y), min(H, y + h)):
-            for xx in range(max(0, x), min(W, x + w)):
+        for yy in range(max(0, y), min(self.h, y + h)):
+            for xx in range(max(0, x), min(self.w, x + w)):
                 self.px[xx, yy] = tone(self.px[xx, yy], f)
 
     def jar(self, x: int, top: int, w: int, bottom: int, contents: str, lid: str = "#B77F54", fill_from: float = 0.3,
@@ -195,7 +196,7 @@ class Art:
     def save(self, name: str) -> Image.Image:
         OUT.mkdir(parents=True, exist_ok=True)
         self.img.save(OUT / f"{name}.png")
-        self.img.resize((W * 4, H * 4), Image.NEAREST).save(OUT / f"{name}_x4.png")
+        self.img.resize((self.w * 4, self.h * 4), Image.NEAREST).save(OUT / f"{name}_x4.png")
         return self.img
 
 
