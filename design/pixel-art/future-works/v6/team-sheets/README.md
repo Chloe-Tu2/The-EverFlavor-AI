@@ -36,4 +36,4 @@ The names come from the team's first concept kitchens.
 2. Claude adds their boxes to `cut_sheet.py`, traces each kitchen as `trace_v6.py` does, and maps the chefs to the
    moods above.
 3. The app shows each kitchen's sign as the title and its chefs as the guide (after the title layout is chosen on
-   the test page, `title_test_page.py`).
+   the test page, now in `archive/title-test_2026-10-22/`).
