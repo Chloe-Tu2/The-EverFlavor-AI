@@ -77,32 +77,37 @@ def planks(a: Art, x0: int, y0: int, x1: int, y1: int, base: str, horizontal: bo
 
 def rug(a: Art, top: tuple[int, int], bottom: tuple[int, int], y0: int, y1: int, base: str, border: str, motif: str,
         fringe: bool = False) -> None:
-    """A floor rug in perspective (narrower at the back), with a border band and a diamond medallion."""
+    """A floor rug in perspective (narrower at the back). Every pixel is worked out from where it sits inside the rug
+    (u across, v down, both 0 to 1), so the pattern always stays on the rug and scales with it: a border band with a
+    zigzag, a thin inner line, a nested diamond medallion and a smaller diamond on each side."""
     def edge(y: int) -> tuple[int, int]:
-        t = (y - y0) / max(1, y1 - y0)
+        t = (y - y0) / max(1, y1 - y0 - 1)
         return round(top[0] + (bottom[0] - top[0]) * t), round(top[1] + (bottom[1] - top[1]) * t)
+    height = y1 - y0
     for y in range(y0, y1):
         lx, rx = edge(y)
-        a.box(lx, y, rx - lx, 1, base)
-        a.box(lx, y, 3, 1, border)
-        a.box(rx - 3, y, 3, 1, border)
-    for y in (y0, y0 + 1, y0 + 2, y1 - 3, y1 - 2, y1 - 1):
-        lx, rx = edge(y)
-        a.box(lx, y, rx - lx, 1, border)
-    for y in (y0 + 4, y1 - 5):                                       # a thin inner line with a dotted pattern
-        lx, rx = edge(y)
-        for x in range(lx + 5, rx - 5, 3):
-            a.put(x, y, motif)
-    cx, cy = (top[0] + top[1] + bottom[0] + bottom[1]) // 4, (y0 + y1) // 2
-    hw, hh = (bottom[1] - bottom[0]) // 6, (y1 - y0) // 2 - 4
-    for k, scale in enumerate((1.0, 0.7, 0.4)):
-        pts = [(cx, cy - int(hh * scale)), (cx + int(hw * scale), cy), (cx, cy + int(hh * scale)), (cx - int(hw * scale), cy)]
-        a.shape(lambda d, pts=pts: d.polygon(pts, outline=255), motif if k != 1 else border, "plain", 0)
-    for sx in (-1, 1):                                                # side diamonds
-        for k in range(1, 3):
-            dx = cx + sx * k * hw * 1.4
-            pts = [(dx, cy - hh // 2), (dx + hw // 3, cy), (dx, cy + hh // 2), (dx - hw // 3, cy)]
-            a.shape(lambda d, pts=pts: d.polygon(pts, fill=255), motif, "plain", 0)
+        width = rx - lx
+        v = (y - y0) / max(1, height - 1)
+        for x in range(lx, rx):
+            u = (x - lx) / max(1, width - 1)
+            bu, bv = 4 / max(1, width), 3 / max(1, height)            # the border is 4 px wide at the sides, 3 at the ends
+            col = base
+            if u < bu or u > 1 - bu or v < bv or v > 1 - bv:
+                col = border
+                along = x if (v < bv or v > 1 - bv) else y        # a zigzag running along the border
+                if (along + (y if v < bv or v > 1 - bv else x)) % 4 == 0:
+                    col = motif
+            elif u < bu + 2 / width or u > 1 - bu - 2 / width or v < bv + 2 / height or v > 1 - bv - 2 / height:
+                col = motif if (x + y) % 3 else base                # the dotted inner line
+            else:
+                du, dv = abs(u - 0.5) / 0.17, abs(v - 0.5) / 0.36    # the medallion: three nested diamond rings
+                ring = du + dv
+                if ring < 1:
+                    col = motif if ring > 0.82 or 0.45 < ring < 0.6 else border if ring < 0.2 else base
+                for side in (0.22, 0.78):                            # side diamonds
+                    if abs(u - side) / 0.06 + abs(v - 0.5) / 0.24 < 1:
+                        col = motif
+            a.put(x, y, col)
     if fringe:
         for y in (y0 - 1, y1):
             lx, rx = edge(min(max(y, y0), y1 - 1))
@@ -112,16 +117,35 @@ def rug(a: Art, top: tuple[int, int], bottom: tuple[int, int], y0: int, y1: int,
 
 def leaves(a: Art, cx: int, cy: int, w: int, h: int, greens: tuple[str, ...] = ("#3F7A2E", "#5E9B3A", "#7DB84A"),
            count: int = 40, leaf: tuple[int, int] = (7, 4)) -> None:
-    """A leafy bush: many small pointed leaves at random angles, darker below and lighter on top."""
-    for _ in range(int(count * 1.8)):
+    """A leafy plant: a dark mass for depth, then real leaf shapes pointing outward from the stem, each with a
+    midrib, drawn from the back (darker, lower) to the front (lighter, on top), so it reads as foliage."""
+    dark = tone(greens[0], 0.72)
+    for _ in range(5):                                                # the shaded mass behind the leaves
+        mw, mh = int(w * a.rand.uniform(0.45, 0.7)), int(h * a.rand.uniform(0.45, 0.7))
+        mx = cx + a.rand.randint(-w // 5, w // 5) - mw // 2
+        my = cy + a.rand.randint(-h // 6, h // 4) - mh // 2
+        a.ellipse(mx, my, mw, mh, dark, "plain", 0)
+    stem = (cx, cy + h * 0.45)
+    items = []
+    for _ in range(int(count * 1.4)):
         ang = a.rand.uniform(0, math.pi * 2)
-        rr = a.rand.random() ** 0.6
-        x, y = cx + math.cos(ang) * w / 2 * rr, cy + math.sin(ang) * h / 2 * rr
-        shade = greens[0] if y > cy + h / 6 else greens[-1] if y < cy - h / 6 else greens[len(greens) // 2]
-        lw, lh = leaf
-        tilt = a.rand.uniform(-1, 1)
-        pts = [(x - lw / 2, y + tilt * 2), (x, y - lh / 2), (x + lw / 2, y - tilt * 2), (x, y + lh / 2)]
-        a.shape(lambda d, pts=pts: d.polygon(pts, fill=255), shade, "plain", 0.62)
+        rr = a.rand.random() ** 0.5
+        x, y = cx + math.cos(ang) * w / 2 * rr * 0.8, cy + math.sin(ang) * h / 2 * rr * 0.8
+        dx, dy = x - stem[0], y - stem[1]
+        norm = math.hypot(dx, dy) or 1
+        dx, dy = dx / norm, dy / norm
+        length = leaf[0] * a.rand.uniform(0.8, 1.3)
+        width = leaf[1] * a.rand.uniform(0.8, 1.2)
+        items.append((y, (x, y), (x + dx * length, y + dy * length), (-dy, dx), width))
+    for y, base, tip, (px, py), width in sorted(items, key=lambda item: -item[0]):   # back (low) first, top last
+        t = (y - (cy - h / 2)) / max(1, h)
+        shade = greens[0] if t > 0.62 else greens[1] if t > 0.32 else greens[-1]
+        if a.rand.random() < 0.25:
+            shade = greens[min(len(greens) - 1, greens.index(shade) + 1)]
+        mid = ((base[0] + tip[0]) / 2, (base[1] + tip[1]) / 2)
+        pts = [base, (mid[0] + px * width / 2, mid[1] + py * width / 2), tip, (mid[0] - px * width / 2, mid[1] - py * width / 2)]
+        a.shape(lambda d, pts=pts: d.polygon(pts, fill=255), shade, "plain", 0.55)
+        a.line([(round(base[0]), round(base[1])), (round(tip[0]), round(tip[1]))], tone(shade, 0.78))
 
 
 def vine(a: Art, x: int, y: int, length: int, sway: float = 3, greens: tuple[str, str] = ("#3F7A2E", "#6FA846")) -> None:

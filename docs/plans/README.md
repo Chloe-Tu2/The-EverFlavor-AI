@@ -61,6 +61,19 @@ Everything we are working on or have agreed to do next, in one place. Owners are
 | 10 | **Freshness per-source check:** Fish Eyes FFE photos score 0.76 against 0.97 for the other fish source | [RELIABILITY.md](RELIABILITY.md#3-the-ai-models) | | planned |
 | 11 | **Housekeeping:** move the Foundry agent folder (`my-agent-n6agvd/`) out of the repository folder | | med27-coder | to do |
 
+### Follow-up for the next session (2026-10-22)
+
+1. **Bug report** (`EverFlavor_AI_Kitchen_Bug_Report.pdf`, the live demo site): four bugs analysed, fixes proposed,
+   waiting for the team's choice. Same recipes every time (sorting by calorie distance only: add variety, memory of
+   shown recipes, rename "Other"); wrong cuisines (the demo data's own site tags: run it through notebook 01's
+   country logic, drop conflicts, show the country); Food Network logo photos (find shared pictures by fingerprint);
+   "N/A minutes" (the demo data has no time column: hide unknown times, bring times from the full data).
+2. **Concept kitchens** (`design/pixel-art/concept_kitchens.py`): the four full kitchens drawn in code; rugs now
+   stay on the rug. Still wrong: plants (a fan-of-leaves version is in `drafts/concept-kitchens/wip/`), rug
+   patterns, perspective (the window sits flat instead of on the side wall), chairs. **Next approach (agreed):**
+   isolate each object in the original, trace its outline and pixels at its real angle, then assemble the objects
+   into the final kitchen (`design/pixel-art/trace_kitchens.py`).
+
 ### Later (1.0 and after)
 
 Hosting and a landing page; My cookbook and sharing; the chef chat tab (`llm.ask_agent`); the meal planner in the
