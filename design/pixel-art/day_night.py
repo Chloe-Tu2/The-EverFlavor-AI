@@ -47,11 +47,14 @@ SUNS = {
     "middle_eastern": {"at": (277, 100), "radius": 6,
                        "morning": (275, 108), "afternoon": (289, 72), "evening": (301, 90), "night": (300, 70)},
 }
-# Lights that are no traced object: fire and candles (x, y, reach) on the original; lanterns come from scene.json
-FLAMES = {"mediterranean": [(265, 530, 420), (583, 595, 110)]}
+# Lights that are no traced object (x, y, reach on the original); lanterns come from scene.json. A fire burns all
+# the time; a candle is a light like a lantern (out by day, switched with the traced piece it stands on).
+FIRES = {"mediterranean": [(265, 530, 420)]}
+CANDLES = {"mediterranean": [("candle_board", 583, 595, 110)]}
 LANTERN_REACH = 230
-CANDLES = {"mediterranean": [(583, 595)]}    # flames put out by day (x, y on the original); the hearth fire stays
+DAY_LIGHTS = 0.35                            # how strong a light switched on by day is (the room is bright already)
 UNLIT = {"chinese": "paper"}                 # what an unlit lantern is made of (default glass), see lamps_off
+HALO_REACH = 25                              # how far around a lantern its painted glow reaches (pixels)
 HEARTH_CORE = 60                             # a v5 light with a core this big (on the original) is a fire: it stays
 
 # The hours. room: color multipliers; cool: how much the shadows turn blue; gold: how much the highlights turn
@@ -143,6 +146,7 @@ def lamps_off(name: str) -> np.ndarray:
     daylight = [(x / SCALE, y / SCALE, r / SCALE, s * strength, c / SCALE) for x, y, r, s, c in tk.LIGHTS.get(name, [])
                 if c == 0 or c > HEARTH_CORE]
     img = tk.light(unlit, pal, shapes, daylight)
+    img = paint_out_halos(img, shapes)
     for key, (x, y, mask) in shapes.items():
         if "lantern" in key or "lamp" in key:
             part = img[y:y + mask.shape[0], x:x + mask.shape[1]].astype(np.float32)
@@ -155,7 +159,7 @@ def lamps_off(name: str) -> np.ndarray:
                 glow = (grey * 0.8 + glow * 0.2) * 0.42 + np.array((4, 8, 14), np.float32)
             part[lit] = glow
             img[y:y + mask.shape[0], x:x + mask.shape[1]] = part.astype(np.uint8)
-    for cx, cy in CANDLES.get(name, []):
+    for _, cx, cy, _ in CANDLES.get(name, []):
         cx, cy = cx // SCALE, cy // SCALE
         part = img[cy - 8:cy + 3, cx - 4:cx + 5].astype(np.int32)
         part[part.min(axis=2) > 200] = (150, 140, 120)                    # the flame becomes a dark wick
@@ -163,12 +167,45 @@ def lamps_off(name: str) -> np.ndarray:
     return img
 
 
-def lights_of(name: str) -> list[tuple[float, float, float]]:
-    """(x, y, reach) on the pixel grid: every lantern or lamp of the kitchen's scene, and its flames."""
+def paint_out_halos(img: np.ndarray, shapes: dict[str, tuple[int, int, np.ndarray]]) -> np.ndarray:
+    """The team's art paints a glow on the wall around each lantern (bright, saturated orange). With the lantern
+    off, those wall pixels take the color of the wall just outside the glow (same hue, not darker parts): each pixel is scaled by the difference
+    of the two averages, so the wall's texture and dither stay."""
+    h, w = img.shape[:2]
+    hsv = cv2.cvtColor(img, cv2.COLOR_RGB2HSV).astype(int)
+    glowing = (hsv[..., 0] >= 5) & (hsv[..., 0] <= 22) & (hsv[..., 1] > 150) & (hsv[..., 2] > 170)
+    pieces = np.zeros((h, w), bool)
+    for x, y, mask in shapes.values():
+        pieces[y:y + mask.shape[0], x:x + mask.shape[1]] |= mask
+    out = img.astype(np.float32)
+    for key, (x, y, mask) in shapes.items():
+        if not ("lantern" in key or "lamp" in key):
+            continue
+        lamp = np.zeros((h, w), np.uint8)
+        lamp[y:y + mask.shape[0], x:x + mask.shape[1]] = mask
+        near = cv2.dilate(lamp, np.ones((HALO_REACH, HALO_REACH), np.uint8)) > 0
+        far = (cv2.dilate(lamp, np.ones((HALO_REACH * 2, HALO_REACH * 2), np.uint8)) > 0) & ~near
+        halo = near & ~pieces & glowing
+        if halo.sum() < 4:
+            continue
+        hue = np.median(hsv[..., 0][halo])                                # the same wall, without the glow
+        wall = far & ~pieces & ~glowing & (np.abs(hsv[..., 0] - hue) <= 6) & (hsv[..., 2] > 90)
+        if wall.sum() < 20:
+            continue
+        ratio = np.minimum(np.median(out[wall], axis=0) / np.maximum(out[halo].mean(axis=0), 1), 1.0)  # only darker
+        dist = cv2.distanceTransform((1 - lamp).astype(np.uint8), cv2.DIST_L2, 3)
+        fade = np.clip(1.4 - dist / (HALO_REACH / 2), 0, 1)[halo][:, None]    # full near the lantern, none at the edge
+        out[halo] = out[halo] * (1 - fade * (1 - ratio))
+    return np.clip(out, 0, 255).astype(np.uint8)
+
+
+def lights_of(name: str) -> dict[str, tuple[float, float, float]]:
+    """Every light that can be switched, by the traced piece that switches it: (x, y, reach) on the pixel grid.
+    The lanterns and lamps of the kitchen's scene, and its candles."""
     pieces = json.loads((TRACED / name / "scene.json").read_text(encoding="utf-8"))["pieces"]
-    found = [(p["x"] + p["w"] / 2, p["y"] + p["h"] / 2, LANTERN_REACH / SCALE)
-             for key, p in pieces.items() if "lantern" in key or "lamp" in key]
-    found += [(x / SCALE, y / SCALE, r / SCALE) for x, y, r in FLAMES.get(name, [])]
+    found = {key: (p["x"] + p["w"] / 2, p["y"] + p["h"] / 2, LANTERN_REACH / SCALE)
+             for key, p in pieces.items() if "lantern" in key or "lamp" in key}
+    found.update({key: (x / SCALE, y / SCALE, r / SCALE) for key, x, y, r in CANDLES.get(name, [])})
     return found
 
 
@@ -202,12 +239,13 @@ def palette_of(img: np.ndarray, k: int) -> np.ndarray:
     return centers.astype(np.uint8)[labels.ravel()].reshape(img.shape)
 
 
-def hour(name: str, day: np.ndarray, off: np.ndarray, time: str) -> np.ndarray:
-    """One hour of the kitchen: day is the v5 kitchen (lamps lit), off the same with the lamps off."""
+def render(name: str, day: np.ndarray, off: np.ndarray, time: str, on: bool) -> np.ndarray:
+    """One hour of the kitchen with its lights on or off, before the palette. day is the v5 kitchen (lamps lit),
+    off the same with the lamps off. The fires burn either way."""
     t = TIMES[time]
     h, w = day.shape[:2]
     out_mask = outdoors(day, WINDOWS.get(name, []))
-    base = move_sun(name, day if t["lights"] > 0 else off, time)
+    base = move_sun(name, day if on else off, time)
     img = base.astype(np.float32)
     room = np.clip(img * np.array(t["room"], np.float32), 0, 255)
     lum = (img.mean(axis=2, keepdims=True) / 255)
@@ -235,12 +273,36 @@ def hour(name: str, day: np.ndarray, off: np.ndarray, time: str) -> np.ndarray:
         yy, xx = np.mgrid[0:h, 0:w]
         disc = (np.hypot(xx - nx, yy - ny) <= r)[..., None]
         result = np.where(disc, img, result)
-    if t["lights"] > 0:                                                 # warm lamplight brings the day colors back
-        glow = glow_of(lights_of(name), (h, w))[..., None] * t["lights"] * ~out_mask[..., None]
+    fires = [(x / SCALE, y / SCALE, r / SCALE) for x, y, r in FIRES.get(name, [])]
+    glow = glow_of(fires, (h, w)) * t["lights"]                         # warm light brings the day colors back
+    if on:
+        glow = np.maximum(glow, glow_of(list(lights_of(name).values()), (h, w)) * (t["lights"] or DAY_LIGHTS))
+    if glow.any():
+        glow = glow[..., None] * ~out_mask[..., None]
         warm = np.clip(day.astype(np.float32) * np.array((1.12, 1.0, 0.82), np.float32), 0, 255)
         result = result * (1 - glow) + warm * glow
+    if on:
         result = np.where(lamp_mask(name, (h, w))[..., None], day, result)   # the lanterns stay bright
-    return palette_of(np.clip(result, 0, 255).astype(np.uint8), COLORS)
+    return np.clip(result, 0, 255).astype(np.uint8)
+
+
+def hour_pair(name: str, day: np.ndarray, off: np.ndarray, time: str) -> tuple[np.ndarray, np.ndarray]:
+    """The hour with the lights on and with them off. The lights-off picture has its own palette; the lit one is the
+    same picture except where the lights change it (those pixels on a palette of their own), so switching a light
+    changes only the pixels it lights and the lights-off colors are not pulled toward the lit ones."""
+    lit, raw = render(name, day, off, time, True), render(name, day, off, time, False)
+    dark = palette_of(raw, COLORS)                        # the lights-off picture on a palette of its own
+    changed = (lit != raw).any(axis=2)
+    out = dark.copy()                                     # the lights change only what they light
+    if changed.sum() > COLORS:
+        out[changed] = palette_of(lit[changed].reshape(-1, 1, 3), COLORS).reshape(-1, 3)
+    return out, dark
+
+
+def hour(name: str, day: np.ndarray, off: np.ndarray, time: str) -> np.ndarray:
+    """The hour as it starts: lights off in the morning and afternoon, on in the evening and at night."""
+    lit, dark = hour_pair(name, day, off, time)
+    return lit if TIMES[time]["lights"] > 0 else dark
 
 
 def main(names: list[str]) -> None:

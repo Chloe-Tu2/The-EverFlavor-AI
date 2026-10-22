@@ -60,23 +60,25 @@ THEMES = {
     "Basil": {"scene": "basil", "panel": "#F7FBF2", "sidebar": "#EEF5E6", "border": "#457536",
               "text": "#2F3A26", "heading": "#457536", "button": "#9BD07F", "button_hover": "#7FBF5F",
               "shadow": "#C8DDB6", "bubble": "#FFFFFF"},
-    # The cuisine kitchens (draft, design/pixel-art/cuisine_kitchens.py), each with its own chef
+    # The cuisine kitchens, each with its own chef. Chinese, Mediterranean, Mexican and Middle Eastern are the v5
+    # kitchens (traced from the team's art, four hours, design/pixel-art/build_scenes.py); Japanese and Moroccan the
+    # code-drawn drafts (design/pixel-art/cuisine_kitchens.py)
     "Japanese": {"scene": "japanese", "chef": "japanese_", "panel": "#FBF3E2", "sidebar": "#F3E6CC",
                  "border": "#5B3A29", "text": "#3A2A20", "heading": "#8E2C2C", "button": "#E9C46A",
                  "button_hover": "#D9AE4A", "shadow": "#C9A57A", "bubble": "#FFFDF7"},
-    "Chinese": {"scene": "chinese", "chef": "chinese_", "panel": "#FBF5EA", "sidebar": "#F4E9D8",
+    "Chinese": {"scene": "v5_chinese", "chef": "chinese_", "panel": "#FBF5EA", "sidebar": "#F4E9D8",
                 "border": "#7A2A22", "text": "#3A2420", "heading": "#B22D2D", "button": "#E9B44C",
                 "button_hover": "#D99E30", "shadow": "#CDBFA6", "bubble": "#FFFDF7"},
     "Moroccan": {"scene": "moroccan", "chef": "moroccan_", "panel": "#FCF3E8", "sidebar": "#F6E2D2",
                  "border": "#7A4B22", "text": "#3B2418", "heading": "#1F6F5C", "button": "#E2B33C",
                  "button_hover": "#CF9E25", "shadow": "#D69068", "bubble": "#FFFDF6"},
-    "Mediterranean": {"scene": "mediterranean", "panel": "#FBF6EC", "sidebar": "#EFE6D6", "border": "#6B4A2F",
+    "Mediterranean": {"scene": "v5_mediterranean", "panel": "#FBF6EC", "sidebar": "#EFE6D6", "border": "#6B4A2F",
                       "text": "#3B2E22", "heading": "#4F6B2A", "button": "#D9A441", "button_hover": "#C48F2C",
                       "shadow": "#CDBDA3", "bubble": "#FFFFFF"},
-    "Mexican": {"scene": "mexican", "chef": "mexican_", "panel": "#FFF6E5", "sidebar": "#FCE8C8",
+    "Mexican": {"scene": "v5_mexican", "chef": "mexican_", "panel": "#FFF6E5", "sidebar": "#FCE8C8",
                 "border": "#8C3B1F", "text": "#3B2218", "heading": "#1F5FA8", "button": "#F2A541",
                 "button_hover": "#E08E22", "shadow": "#D88A3A", "bubble": "#FFFDF5"},
-    "Middle Eastern": {"scene": "middle_eastern", "chef": "middle_eastern_", "panel": "#FBF3E4",
+    "Middle Eastern": {"scene": "v5_middle_eastern", "chef": "middle_eastern_", "panel": "#FBF3E4",
                        "sidebar": "#F3E2C2", "border": "#7A4B22", "text": "#3B2A1A", "heading": "#1E6F80",
                        "button": "#D9A830", "button_hover": "#C49420", "shadow": "#C9A46B", "bubble": "#FFFDF6"},
 }

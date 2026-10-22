@@ -44,6 +44,25 @@ The first numbered release: everything up to now. Details in [CHANGELOG.md](../.
 - Guards for keys and user data; `CLAUDE.md`.
 - Kitchen art v5 (traced, lit, day and night; not in the app yet), the art archive and references, the data plan.
 
+### 0.5.2 (in progress): the living kitchen
+
+Branch `release/0.5.2`. The kitchens come alive first; the base kitchen follows in 0.5.3.
+
+| # | Item | State |
+|---|---|---|
+| 1 | **v5 kitchens in the app**, in the visitor's time of day (morning, afternoon, evening, night) | in progress |
+| 2 | **Interactive spots** (key ones, not everything): trees and plants shake and drop their own leaves (cherry blossom petals from the cherry tree, green leaves from others), lights switch on and off with their glow, stools and chairs wobble, some pots hop and steam; placed per kitchen so pieces that overlap still answer the right tap, by day and by night | in progress |
+| 3 | **Regional chefs** in the foreground, from the team's four chef references (`design/pixel-art/references/chefs/`), a man and a woman cook per region, dressed after traditional cooks of that region; tap the chef to make them react | planned |
+| 4 | **Icons reworked** from the original set, to match the v5 art | planned |
+| 5 | **A dish picture for recipes without a photo** (pixel art) and a **"cooking in progress" loading screen** | planned |
+
+### 0.5.3 (planned): the base kitchen
+
+| # | Item | State |
+|---|---|---|
+| 1 | **A fifth kitchen, American**, close to the original concept (the original kitchen), with the improved art and the same interactive spots | planned |
+| 2 | It becomes the **base kitchen** people see when they first open the app | planned |
+
 ### 0.6.0 (planned)
 
 Everything we are working on or have agreed to do next, in one place. Owners are filled in when someone takes an item.
@@ -72,17 +91,37 @@ Everything we are working on or have agreed to do next, in one place. Owners are
    shown recipes, rename "Other"); wrong cuisines (the demo data's own site tags: run it through notebook 01's
    country logic, drop conflicts, show the country); Food Network logo photos (find shared pictures by fingerprint);
    "N/A minutes" (the demo data has no time column: hide unknown times, bring times from the full data).
-2. **Concept kitchens:** every earlier version (v1 to v4) is in `design/pixel-art/archive/`, labelled, with
-   progress sheets from the concept to the current version. v4, the kitchens drawn in code, had wrong plants, rug
-   patterns, perspective (the window flat instead of on the side wall) and chairs. **v5, the current approach, first
-   pass done:** `design/pixel-art/trace_kitchens.py` isolates each object in the original (GrabCut), puts it on the
-   418 x 235 grid with one 56-colour palette per kitchen and a dark outline, and assembles it over the emptied room
-   (`drafts/traced-kitchens/<name>/`: the kitchen, `sprites/`, `scene.json` with each object's
-   place). Windows, stools and rugs now keep the originals' angles. A lighting pass follows: warm light around
-   the lanterns, windows and fire (solid bands with dithered edges), darker corners, and light and shadow on each
-   object's edge, all inside the palette (`<name>_unlit.png`; the before and after sheets are in `archive/v5_2026-10-22_build-steps/`). Still to do: 14 small objects lost their mask
-   and stay in the backdrop (the script lists them: Mexican spoons, flowers, tap; Mediterranean jug, plates,
-   barrel), a sharper palette for the Middle Eastern kitchen, then the team picks code-drawn or traced.
+2. **Kitchen art v5 (released in 0.5.1):** the team's four kitchens traced object by object
+   (`design/pixel-art/trace_kitchens.py`, `drafts/traced-kitchens/<name>/`), lit, and in four hours
+   (`day_night.py`). Earlier versions and the build steps are in `design/pixel-art/archive/`. Still open: 14 small
+   objects lost their mask and stay in the backdrop (Mexican spoons, flowers, tap; Mediterranean jug, plates, barrel).
+
+### Handoff for 0.5.2 (2026-10-22, branch `release/0.5.2`)
+
+Where the living kitchen stands, for whoever picks it up next:
+
+- **Done:** the v5 kitchens are the app's Chinese, Mediterranean, Mexican and Middle Eastern themes
+  (`app/app.py` THEMES, `scene: v5_<name>`). `design/pixel-art/build_scenes.py` writes `assets/scene_v5_<name>.json`
+  (four hours; per light, the pixels it changes on the room and on each piece) and `assets/kitchen_v5_<name>.png`
+  (the still picture under it). `app/kitchen_scene.html` picks the hour from the visitor's clock (5-11 morning,
+  11-17 afternoon, 17-20 evening, otherwise night) and makes the key pieces answer a tap by their own pixels:
+  lanterns and candles switch on and off, plants and the trees seen through windows shake and drop their own
+  leaves or petals (petals stay inside the window), stools rock, woks, pots and the tea set steam, pans swing.
+  Which piece does what comes from its name (`KINDS` in `build_scenes.py`).
+- **Lights off by day:** `day_night.lamps_off` darkens the lanterns' glass (Chinese paper lanterns turn matte red)
+  and takes out the glow the team's art paints on the wall around each lantern (`paint_out_halos`). The lights-off
+  picture has its own palette, so its colors are not pulled toward the lit ones.
+- **After changing the art or `day_night.py`:** run `python design/pixel-art/day_night.py`, then
+  `python design/pixel-art/build_scenes.py` (a few minutes; scene files are 0.8 to 1.4 MB each).
+- **Testing:** check it in a real browser. The scene can be tried on its own by filling `__SCENE__` in
+  `kitchen_scene.html` with a scene file and fixing the hour (`new Date().getHours()`).
+- **Next, in order:** regional chefs in the foreground, a man and a woman cook per region, from the team's
+  references in `design/pixel-art/references/chefs/` and photos of traditional cooks of each region (licenses
+  recorded like `references/lanterns/README.md`), tappable; icons reworked to match the v5 art; a pixel-art dish for
+  recipes without a photo and a "cooking in progress" loading screen. Then 0.5.3: the American base kitchen.
+- **Open:** the title layout on the kitchens' sign (the test is archived, `archive/title-test_2026-10-22/`; Claude's
+  pick is layout 4); the app still shows the title as before. The planner's version rule says new features are a
+  MINOR step; the team chose to number this work 0.5.2 and 0.5.3.
 
 ### Later (1.0 and after)
 
@@ -97,6 +136,7 @@ app (`crew.plan_meal`); achievements; animated kitchens (steam, the chef blinkin
 - Run every check before a push (CLAUDE.md lists them; CI runs the same).
 - Front-end work: check it in a real browser, not only with Streamlit's test runner; Streamlit 1.65 changed several
   element names (tabs, cards, tags), and CSS that targets the old names silently does nothing.
-- Pixel art: drawn in code (`design/pixel-art/make_pixel_art.py`, `cuisine_kitchens.py`); the team's own pictures in
-  `originals/` take priority. Archive a picture before replacing it (`design/pixel-art/archive/`).
+- Pixel art: the v5 kitchens are traced from the team's art (`trace_kitchens.py`, `day_night.py`,
+  `build_scenes.py`); the other themes are drawn in code (`make_pixel_art.py`, `cuisine_kitchens.py`). The team's
+  own pictures in `originals/` take priority. Archive a picture before replacing it (`design/pixel-art/archive/`).
 - Data and AI: [RELIABILITY.md](RELIABILITY.md) lists what can go wrong and what each fix costs.

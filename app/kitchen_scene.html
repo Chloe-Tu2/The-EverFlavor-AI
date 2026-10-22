@@ -1,6 +1,8 @@
 <!-- The interactive kitchen behind the page (app.py fills in SCENE with design/pixel-art/assets/scene_<theme>.json).
-     Tap the curtains to close or open them; tap a jar, the pans, the pot, the tomato, the herbs, the plant or
-     the lamp to make it move. Pure canvas drawing, no outside files. -->
+     The v5 kitchens (scene_v5_<name>.json, from design/pixel-art/build_scenes.py) come in four hours and show the
+     one of the visitor's clock. Tap a lantern to switch it on or off, a plant or a tree outside to shake its leaves
+     down, a stool to rock it, a pot to make it steam. The older kitchens: curtains close and open, the rest moves.
+     Pure canvas drawing, no outside files. -->
 <style>
   html, body { margin: 0; height: 100%; overflow: hidden; background: transparent; }
   canvas { display: block; width: 100vw; height: 100vh; image-rendering: pixelated; }
@@ -14,19 +16,39 @@ const ctx = canvas.getContext("2d");
 const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function load(src) { const img = new Image(); img.src = src; return img; }
-const backdrop = load(SCENE.backdrop);
-const pieces = Object.entries(SCENE.pieces).map(([name, p]) => ({ name, ...p, img: load(p.png), anim: null }));
-const byName = Object.fromEntries(pieces.map(p => [p.name, p]));
 
-// What each piece does when tapped: shake, swing, hop or (curtains) close and open
-function kindOf(name) {
+// The hour of the visitor's clock (the older kitchens have one picture for all hours)
+function hourNow() {
+  const h = new Date().getHours();
+  return h >= 5 && h < 11 ? "morning" : h >= 11 && h < 17 ? "afternoon" : h >= 17 && h < 20 ? "evening" : "night";
+}
+// The older scene files: one picture, pieces with their own png, kinds taken from their names
+function oldKind(name) {
   if (name.startsWith("curtain")) return "curtain";
   if (name.startsWith("pan") || name === "lamp") return "swing";
   if (name === "lid") return "hop";
+  if (name === "pot") return "steam";
   return "shake";
 }
+const HOURS = SCENE.hours || { only: { on: false, backdrop: SCENE.backdrop, glows: {},
+  pieces: Object.fromEntries(Object.entries(SCENE.pieces).map(([k, p]) => [k, { png: p.png, lit: {} }])) } };
+const HOUR = HOURS[hourNow()] || Object.values(HOURS)[0];
+const ORDER = SCENE.order || Object.keys(SCENE.pieces);
+
+const backdrop = load(HOUR.backdrop);
+const glows = Object.entries(HOUR.glows).map(([light, g]) => ({ light, x: g.x, y: g.y, img: load(g.png) }));
+const pieces = ORDER.map(name => {
+  const p = SCENE.pieces[name], art = HOUR.pieces[name];
+  return { name, x: p.x, y: p.y, w: p.w, h: p.h, kind: SCENE.hours ? p.kind : oldKind(name),
+           leaves: p.leaves || [], window: p.window, img: load(art.png), alpha: null, anim: null,
+           lit: Object.entries(art.lit).map(([light, png]) => ({ light, img: load(png) })) };
+});
+const byName = Object.fromEntries(pieces.map(p => [p.name, p]));
+const lightOn = Object.fromEntries((SCENE.lights || []).map(l => [l, HOUR.on]));
+
 let curtainsClosed = false, curtainAmount = 0, curtainFrom = 0, curtainStart = 0;
-const puffs = [];   // steam puffs from the pot
+const puffs = [];    // steam
+const leaves = [];   // falling leaves and petals
 
 // The scene covers the window and sits on the bottom edge, like the page's background did
 let scale = 1, offsetX = 0, offsetY = 0;
@@ -40,15 +62,18 @@ function layout() {
   draw(performance.now());
 }
 
+// How far a piece is moved, now, by its last tap
 function offset(p, now) {
   if (!p.anim) return [0, 0];
-  const t = (now - p.anim) / 1000;
-  if (t > 0.6 || still) { p.anim = null; return [0, 0]; }
-  const fade = 1 - t / 0.6;
-  switch (kindOf(p.name)) {
-    case "shake": return [Math.round(Math.sin(t * 60) * 1.5 * fade), 0];
-    case "swing": return [Math.round(Math.sin(t * 25) * 2 * fade), 0];
-    case "hop": return [0, -Math.round(Math.abs(Math.sin(t * 15)) * 4 * fade)];
+  const t = (now - p.anim) / 1000, length = p.kind === "tree" ? 1.2 : 0.6;
+  if (t > length || still) { p.anim = null; return [0, 0]; }
+  const fade = 1 - t / length;
+  switch (p.kind) {
+    case "shake": case "plant": return [Math.round(Math.sin(t * 60) * 1.5 * fade), 0];
+    case "tree": return [Math.round(Math.sin(t * 14) * 1.4 * fade), 0];
+    case "swing": case "light": return [Math.round(Math.sin(t * 25) * 2 * fade), 0];
+    case "wobble": { const s = Math.sin(t * 40) * fade; return [Math.round(s), -Math.round(Math.abs(s))]; }
+    case "hop": case "steam": return [0, -Math.round(Math.abs(Math.sin(t * 15)) * 3 * fade)];
   }
   return [0, 0];
 }
@@ -58,7 +83,8 @@ function draw(now) {
   ctx.setTransform(scale, 0, 0, scale, offsetX, offsetY);
   ctx.clearRect(-offsetX / scale, -offsetY / scale, canvas.width / scale, canvas.height / scale);
   ctx.drawImage(backdrop, 0, 0);
-  // Curtains: slide from their place to the middle of the window
+  for (const g of glows) if (lightOn[g.light]) ctx.drawImage(g.img, g.x, g.y);
+  // Curtains (older kitchens): slide from their place to the middle of the window
   const target = curtainsClosed ? 1 : 0;
   if (curtainAmount !== target) {
     const k = still ? 1 : Math.min(1, (now - curtainStart) / 450);
@@ -66,47 +92,86 @@ function draw(now) {
   }
   for (const p of pieces) {
     const [dx, dy] = offset(p, now);
-    if (p.name === "curtain_left" || p.name === "curtain_right") {
+    if (p.kind === "curtain") {
       const grow = Math.round(curtainAmount * 17);   // half the window's width, less the curtain's own width
-      const x = p.name === "curtain_left" ? p.x : p.x - grow;
-      ctx.drawImage(p.img, x, p.y, p.w + grow, p.h);
-    } else {
-      ctx.drawImage(p.img, p.x + dx, p.y + dy);
+      ctx.drawImage(p.img, p.name === "curtain_left" ? p.x : p.x - grow, p.y, p.w + grow, p.h);
+      continue;
     }
+    ctx.drawImage(p.img, p.x + dx, p.y + dy);
+    for (const l of p.lit) if (lightOn[l.light]) ctx.drawImage(l.img, p.x + dx, p.y + dy);
   }
-  // Steam puffs
-  for (let i = puffs.length - 1; i >= 0; i--) {
+  for (let i = leaves.length - 1; i >= 0; i--) {     // leaves: drift down, swaying, and fade at the end
+    const f = leaves[i], age = (now - f.born) / 1000;
+    if (age < 0) continue;
+    if (age > f.life) { leaves.splice(i, 1); continue; }
+    const x = Math.round(f.x + Math.sin(age * f.sway + f.phase) * 2 + f.vx * age), y = Math.round(f.y + f.fall * age);
+    ctx.save();
+    if (f.clip) { ctx.beginPath(); ctx.rect(f.clip[0], f.clip[1], f.clip[2] - f.clip[0], f.clip[3] - f.clip[1]); ctx.clip(); }
+    ctx.globalAlpha = Math.min(1, (f.life - age) / 0.4);
+    ctx.fillStyle = f.color;
+    ctx.fillRect(x, y, f.size, 1);
+    ctx.restore();
+  }
+  for (let i = puffs.length - 1; i >= 0; i--) {      // steam
     const f = puffs[i], age = (now - f.born) / 1000;
+    if (age < 0) continue;
     if (age > 1.4) { puffs.splice(i, 1); continue; }
     ctx.fillStyle = `rgba(255,255,255,${1 - age / 1.4})`;
     ctx.fillRect(Math.round(f.x + Math.sin(age * 6 + f.x) * 1.5), Math.round(f.y - age * 14), 2, 2);
   }
-  const busy = pieces.some(p => p.anim) || puffs.length || curtainAmount !== (curtainsClosed ? 1 : 0);
+  const busy = pieces.some(p => p.anim) || puffs.length || leaves.length || curtainAmount !== (curtainsClosed ? 1 : 0);
   if (busy) requestAnimationFrame(draw);
 }
 
+// Pieces answer taps on their own pixels, topmost first; still pieces let the tap through to what is behind
+function opaqueAt(p, x, y) {
+  const px = Math.floor(x - p.x), py = Math.floor(y - p.y);
+  if (px < 0 || py < 0 || px >= p.w || py >= p.h) return false;
+  if (!p.alpha) return true;
+  const near = [[0, 0], [1, 0], [-1, 0], [0, 1], [0, -1]];      // a pixel of slack: small pieces are easy to tap
+  return near.some(([a, b]) => { const qx = px + a, qy = py + b;
+    return qx >= 0 && qy >= 0 && qx < p.w && qy < p.h && p.alpha[(qy * p.w + qx) * 4 + 3] > 0; });
+}
 function pieceAt(clientX, clientY) {
   const dpr = window.devicePixelRatio || 1;
   const x = (clientX * dpr - offsetX) / scale, y = (clientY * dpr - offsetY) / scale;
-  // Topmost first; a little margin so small pieces are easy to tap
   for (let i = pieces.length - 1; i >= 0; i--) {
     const p = pieces[i];
-    if (x >= p.x - 1 && x <= p.x + p.w + 1 && y >= p.y - 1 && y <= p.y + p.h + 1) return p;
+    if (p.kind && opaqueAt(p, x, y)) return p;
   }
   return null;
+}
+
+// A few leaves or petals from random pixels of the piece, in its own colors
+function dropLeaves(p, now) {
+  if (!p.leaves.length || !p.alpha || still) return;
+  const tree = p.kind === "tree", count = tree ? 7 : 4;
+  for (let k = 0, tries = 0; k < count && tries < 200; tries++) {
+    const px = Math.floor(Math.random() * p.w), py = Math.floor(Math.random() * p.h);
+    if (p.alpha[(py * p.w + px) * 4 + 3] === 0) continue;
+    leaves.push({ x: p.x + px, y: p.y + py, born: now + k * 90, life: tree ? 1.8 : 1.3, fall: tree ? 14 : 22,
+                  vx: (Math.random() - 0.5) * 6, sway: 4 + Math.random() * 3, phase: Math.random() * 6,
+                  size: Math.random() < 0.5 ? 1 : 2, color: p.leaves[k % p.leaves.length],
+                  clip: tree && p.window && p.window[2] ? p.window : null });
+    k++;
+  }
 }
 
 canvas.addEventListener("pointerdown", e => {
   const p = pieceAt(e.clientX, e.clientY);
   if (!p) return;
   const now = performance.now();
-  if (kindOf(p.name) === "curtain") {
+  if (p.kind === "curtain") {
     curtainsClosed = !curtainsClosed; curtainFrom = curtainAmount; curtainStart = now;
   } else {
     p.anim = now;
-    if (p.name === "pot" || p.name === "lid") {
-      byName.lid.anim = now;
-      for (let k = 0; k < 8; k++) puffs.push({ x: 29 + Math.random() * 16, y: 70 - Math.random() * 4, born: now + k * 60 });
+    if (p.kind === "light" && p.name in lightOn) lightOn[p.name] = !lightOn[p.name];
+    if (p.kind === "plant" || p.kind === "tree") dropLeaves(p, now);
+    if (p.kind === "steam" && !still) {
+      if (byName.lid) byName.lid.anim = now;
+      const top = byName.lid || p;
+      for (let k = 0; k < 8; k++)
+        puffs.push({ x: top.x + top.w * (0.25 + Math.random() * 0.5), y: top.y - Math.random() * 3, born: now + k * 60 });
     }
   }
   requestAnimationFrame(draw);
@@ -135,6 +200,15 @@ try {
   }, true);
 } catch (e) { /* storage blocked (private window): no dot, nothing breaks */ }
 
+// Each piece's pixels, read once, for tapping by pixel and for where its leaves fall from
+function readAlpha(p) {
+  try {
+    const c = document.createElement("canvas"); c.width = p.w; c.height = p.h;
+    const g = c.getContext("2d"); g.drawImage(p.img, 0, 0);
+    p.alpha = g.getImageData(0, 0, p.w, p.h).data;
+  } catch (e) { p.alpha = null; }
+}
 addEventListener("resize", layout);
-Promise.all([backdrop, ...pieces.map(p => p.img)].map(img => img.decode().catch(() => null))).then(layout);
+const images = [backdrop, ...glows.map(g => g.img), ...pieces.flatMap(p => [p.img, ...p.lit.map(l => l.img)])];
+Promise.all(images.map(img => img.decode().catch(() => null))).then(() => { pieces.forEach(readAlpha); layout(); });
 </script>
