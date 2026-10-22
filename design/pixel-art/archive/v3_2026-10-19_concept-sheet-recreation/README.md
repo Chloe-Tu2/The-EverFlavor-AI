@@ -1,7 +1,7 @@
 # Draft: The Concept Sheet, Recreated in Code
 
 The team's concept kitchens and chefs (2026-10-18), redrawn in code as close to 1:1 as code allows, each on its
-own and without interactive pieces yet. Drawn by [../../concept_recreation.py](../../concept_recreation.py):
+own and without interactive pieces yet. Drawn by [concept_recreation.py](concept_recreation.py):
 
 ```bash
 python design/pixel-art/concept_recreation.py

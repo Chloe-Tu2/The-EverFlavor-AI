@@ -68,10 +68,10 @@ Everything we are working on or have agreed to do next, in one place. Owners are
    shown recipes, rename "Other"); wrong cuisines (the demo data's own site tags: run it through notebook 01's
    country logic, drop conflicts, show the country); Food Network logo photos (find shared pictures by fingerprint);
    "N/A minutes" (the demo data has no time column: hide unknown times, bring times from the full data).
-2. **Concept kitchens** (`design/pixel-art/concept_kitchens.py`): the four full kitchens drawn in code; rugs now
-   stay on the rug. Still wrong: plants (a fan-of-leaves version is in `drafts/concept-kitchens/wip/`), rug
-   patterns, perspective (the window sits flat instead of on the side wall), chairs. **New approach, first pass
-   done:** `design/pixel-art/trace_kitchens.py` isolates each object in the original (GrabCut), puts it on the
+2. **Concept kitchens:** every earlier version (v1 to v4) is in `design/pixel-art/archive/`, labelled, with
+   progress sheets from the concept to the current version. v4, the kitchens drawn in code, had wrong plants, rug
+   patterns, perspective (the window flat instead of on the side wall) and chairs. **v5, the current approach, first
+   pass done:** `design/pixel-art/trace_kitchens.py` isolates each object in the original (GrabCut), puts it on the
    418 x 235 grid with one 56-colour palette per kitchen and a dark outline, and assembles it over the emptied room
    (`drafts/traced-kitchens/<name>/`: the kitchen, `compare.png`, `sprites/`, `scene.json` with each object's
    place). Windows, stools and rugs now keep the originals' angles. Still to do: 14 small objects lost their mask

@@ -14,9 +14,9 @@ kitchen, roadmap, questions for the team).
 |---|---|
 | [pixel-art/assets/](pixel-art/assets/) | The art the app uses: kitchens, chefs, icons and the interactive scene files |
 | [pixel-art/previews/](pixel-art/previews/) | The same art enlarged, for looking at (and for these docs) |
-| [pixel-art/drafts/](pixel-art/drafts/) | Concept work not final yet: [cuisine kitchens](pixel-art/drafts/cuisine-kitchens/README.md) |
+| [pixel-art/drafts/](pixel-art/drafts/) | The current draft: the team's four kitchens traced object by object ([traced-kitchens/](pixel-art/drafts/traced-kitchens/), drawn by [trace_kitchens.py](pixel-art/trace_kitchens.py)) |
 | [pixel-art/originals/](pixel-art/originals/README.md) | The team's own art (the detailed concept style): drop a kitchen or chef here and it replaces the code-drawn one |
-| [pixel-art/archive/](pixel-art/archive/README.md) | Old versions, kept before any art is redrawn (the code-drawn kitchens and chefs are there) |
+| [pixel-art/archive/](pixel-art/archive/README.md) | Every earlier version (v1 to v4), labelled, with progress sheets from the concept to the current version |
 | [pixel-art/references/](pixel-art/references/SOURCES.md) | Inspirations, palettes, fonts, free art and photo sources, with licenses |
 | [screenshots/](screenshots/) | The app on desktop and phone |
 
@@ -51,7 +51,7 @@ icons: [ICONS.md](ICONS.md).
 **Cuisine kitchens (draft):** Japanese, Chinese, Mediterranean, Mexican, Middle Eastern and Moroccan, each with its own
 chef (which comes next: [docs/plans/REGIONAL_KITCHENS.md](../docs/plans/REGIONAL_KITCHENS.md)). With
 **Match the kitchen to the cuisine** on (Settings), searching a cuisine family opens its kitchen. Details and
-what still needs redrawing: [pixel-art/drafts/cuisine-kitchens/](pixel-art/drafts/cuisine-kitchens/README.md).
+what still needs redrawing: [pixel-art/archive/v2_2026-10-18_cuisine-mockups/](pixel-art/archive/v2_2026-10-18_cuisine-mockups/README.md).
 
 The chef has three moods: happy (greeting, safe recipe), alert (a problem found) and thinking (nothing matched).
 

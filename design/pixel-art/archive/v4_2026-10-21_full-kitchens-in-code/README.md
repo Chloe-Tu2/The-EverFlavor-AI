@@ -2,7 +2,7 @@
 
 The team's full kitchens ([references/concepts/](../../references/concepts/README.md)) redrawn in code, as close to
 1:1 as code allows, each on its own and without interactive pieces yet. Drawn by
-[../../concept_kitchens.py](../../concept_kitchens.py):
+[concept_kitchens.py](concept_kitchens.py):
 
 ```bash
 python design/pixel-art/concept_kitchens.py
