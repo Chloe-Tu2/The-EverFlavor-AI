@@ -87,25 +87,10 @@ OBJECTS = {
         "plant_left": (0, 560, 135, 705), "tea_set": (55, 565, 300, 712), "stool_mid": (300, 725, 470, 900),
         "basket": (1555, 685, 1650, 760), "stool_right": (1450, 720, 1600, 900), "pot_right": (1600, 720, 1672, 900),
     },
-    "middle_eastern_v2": {                   # the team's second, colorful Saffron Market (the kitchen above its sheet)
-        "lantern_niche": (380, 85, 440, 215), "lantern_1": (495, 0, 560, 135), "lantern_2": (620, 60, 670, 165),
-        "lantern_3": (690, 0, 750, 130), "lantern_4": (765, 95, 820, 235),
-        "pots_shelf_top": (480, 140, 750, 200), "pots_shelf_mid": (480, 225, 750, 275),
-        "jars_niche_left": (860, 130, 1000, 280), "jars_niche_mid": (1350, 95, 1450, 280),
-        "jars_niche_right": (1510, 60, 1615, 290), "plant_hanging_mid": (555, 140, 620, 305),
-        "plant_hanging_right": (760, 60, 850, 190), "plant_hanging_far": (1430, 60, 1500, 225),
-        "plant_niche": (410, 300, 460, 360), "pan_rail": (1095, 230, 1305, 335), "pots_counter": (530, 340, 700, 385),
-        "copper_teapot": (960, 310, 1110, 390), "red_pot": (1120, 345, 1200, 390), "vases_counter": (1310, 330, 1610, 400),
-        "fruit_bowls": (670, 345, 1000, 425), "ewer": (780, 325, 840, 415), "tree_left": (0, 215, 140, 470),
-        "pot_left": (0, 440, 95, 560), "sofa": (60, 360, 440, 530), "cushions": (130, 365, 350, 435),
-        "teapot_table": (120, 440, 170, 480), "side_table": (95, 470, 200, 560), "stove": (1100, 375, 1310, 560),
-        "island": (535, 400, 1000, 615), "stool_1": (470, 470, 600, 580), "stool_2": (605, 480, 755, 600),
-        "plant_corner_left": (0, 500, 230, 624), "plant_right": (1480, 480, 1672, 624),
-    },
 }
-SOURCES = {"middle_eastern_v2": ("middle_eastern_v2_colorful.png", (0, 0, 1672, 624))}   # file and crop, if not <name>.jpg
+SOURCES: dict[str, tuple[str, tuple[int, int, int, int] | None]] = {}   # file and crop, if not <name>.jpg
 
-# The color pass (2026-10-22): the team's colorful Saffron Market is the look to aim for. It is not more saturated
+# The color pass (2026-10-22, off): the team's colorful Saffron Market is the look to aim for. It is not more saturated
 # than the other kitchens; it has more contrast, and its blues and greens stand out against the warm wood and copper.
 # So each kitchen gets a little more contrast and vibrance (dull colors gain more than strong ones), blues and
 # greens a little extra. 0 keeps the concept's colors, 1 is the full pass.
@@ -136,14 +121,13 @@ LIGHTS = {
     "mediterranean": [(265, 530, 420, 1.0, 120), (1160, 450, 260, 0.6, 0), (583, 595, 100, 0.6, 15)],
     "mexican": [(200, 350, 320, 0.6, 0), (1150, 390, 300, 0.6, 0)],
     "middle_eastern": [(1160, 370, 300, 0.7, 0), (60, 450, 300, 0.5, 0)],
-    "middle_eastern_v2": [(200, 180, 330, 0.7, 0), (1200, 220, 160, 0.4, 0)],   # the window, the light under the hood
 }
 LAMP_REACH, LAMP_STRENGTH = 220, 0.9                    # on the original
 # Per kitchen: how dark the outline drawn around each object is (0.55 = 55% of its colour; None = no outline, for art
 # that already has its own outlines) and how strong the lighting is (1 = as set above).
-OUTLINE: dict[str, float | None] = {"middle_eastern_v2": None}
-LIGHTING = {"middle_eastern_v2": 0.5}       # its lanterns and window glow are already painted in
-MODE_SHRINK = {"middle_eastern_v2"}         # kitchens shrunk by the most common colour per block (see shrink)
+OUTLINE: dict[str, float | None] = {}
+LIGHTING: dict[str, float] = {}
+MODE_SHRINK: set[str] = set()               # kitchens shrunk by the most common colour per block (see shrink)
 BAYER = np.array([[0, 8, 2, 10], [12, 4, 14, 6], [3, 11, 1, 9], [15, 7, 13, 5]]) / 16   # ordered dither
 
 

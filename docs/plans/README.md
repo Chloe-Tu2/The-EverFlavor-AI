@@ -3,7 +3,7 @@
 **Start here** (team members and AI assistants picking up the work). What is done, what is in progress, what comes
 next, grouped by version, with links to the plans behind each item. Update it whenever an item moves.
 
-Last updated: 2026-10-18 (Claude, with med27-coder).
+Last updated: 2026-10-22 (Claude, with med27-coder).
 
 ## How versions work
 
@@ -60,6 +60,9 @@ Everything we are working on or have agreed to do next, in one place. Owners are
 | 9 | **README numbers:** the freshness models' final test results (fish 87.4%, produce 98.8%) in the main README | `notebooks/05` | | to do |
 | 10 | **Freshness per-source check:** Fish Eyes FFE photos score 0.76 against 0.97 for the other fish source | [RELIABILITY.md](RELIABILITY.md#3-the-ai-models) | | planned |
 | 11 | **Housekeeping:** move the Foundry agent folder (`my-agent-n6agvd/`) out of the repository folder | | med27-coder | to do |
+| 12 | **Kitchen art v5, day and night:** each traced kitchen in morning, day, evening and night light (sky in the windows recolored, lanterns lit at night, the room's light shifted), picked by the visitor's clock or the theme | [archive/README.md](../../design/pixel-art/archive/README.md) | Claude | next |
+| 13 | **More data for the models:** what each model is short of, candidate datasets with licenses, download order | [DATA_AND_MODELS.md](DATA_AND_MODELS.md) | | planned |
+| 14 | **Kitchen art v6 (later):** a team concept sheet per kitchen (room, chefs, title sign, props), started with the colorful Saffron Market | [future-works/v6/](../../design/pixel-art/future-works/v6/README.md) | team (sheets), Claude | set aside |
 
 ### Follow-up for the next session (2026-10-22)
 

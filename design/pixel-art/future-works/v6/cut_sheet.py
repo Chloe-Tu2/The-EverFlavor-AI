@@ -4,7 +4,7 @@ The sheets have a painted light-grey checkerboard instead of real transparency. 
 the light, grey pixels that touch the box's edge are the background and become transparent; everything else is the
 piece. Design work only (needs OpenCV).
 
-    python design/pixel-art/cut_sheet.py   ->   design/pixel-art/drafts/team-sheets/<sheet>/<piece>.png and sheet.png
+    python design/pixel-art/future-works/v6/cut_sheet.py   ->   future-works/v6/team-sheets/<sheet>/<piece>.png
 """
 from __future__ import annotations
 
@@ -15,8 +15,8 @@ import numpy as np
 from PIL import Image
 
 HERE = Path(__file__).resolve().parent
-REF = HERE / "references" / "concepts"
-OUT = HERE / "drafts" / "team-sheets"
+REF = HERE / "concepts"
+OUT = HERE / "team-sheets"
 
 # Boxes (x0, y0, x1, y1) on the 1672 x 941 sheet
 SHEETS = {

@@ -21,7 +21,7 @@ because their sources and licenses are unknown, and one is a watermarked stock i
 | Arches and lanterns | Arched windows deep in the wall, a blue and white tiled band at counter height, several pierced metal lanterns at different heights, a long open shelf with plants and bowls, hexagonal terracotta floor |
 | Traditional wood kitchen | A window seat with patterned cushions, carved wooden cabinets and island with tile inserts, a patterned rug, pierced lanterns |
 | Patterned arch kitchen | Pattern on every wall (tile bands, stars, a large floral panel), a pointed arched window, utensils hung on a rail under a shelf |
-| **The Saffron Market, second version** (pixel art, in [concepts/](concepts/README.md)) | All of the above in our pixel style: the target for the Middle Eastern kitchen. It also draws the sign as its own hanging piece, separate from the room |
+| **The Saffron Market, second version** (pixel art, in [concepts/](concepts/)) | All of the above in our pixel style: the target for the Middle Eastern kitchen. It also draws the sign as its own hanging piece, separate from the room |
 
 So: keep the color, add what a real kitchen needs. Where a photo below and the team's references disagree on
 color, the team's references win.

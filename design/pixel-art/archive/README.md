@@ -16,7 +16,8 @@ What stays outside the archive: the team's concept art (`../references/concepts/
 | v2 (2026-10-18, in the app in 0.5.1) | [v2_2026-10-18_cuisine-mockups/](v2_2026-10-18_cuisine-mockups/README.md) | The cuisine kitchens redrawn after the concept art, six cuisines (Chinese and Moroccan added), shown as page mockups. The app still uses this art (`../previews/kitchen_<name>_x4.png`) | Still simple shapes; not the detailed style |
 | v3 (2026-10-19) | [v3_2026-10-19_concept-sheet-recreation/](v3_2026-10-19_concept-sheet-recreation/README.md) | The concept sheet's four small kitchens and four chefs recreated in code, with shading (`concept_recreation.py`) | The sheet's panels are small; the team's four full kitchens came next |
 | v4 (2026-10-21 to 22) | [v4_2026-10-21_full-kitchens-in-code/](v4_2026-10-21_full-kitchens-in-code/README.md) | The team's four full kitchens redrawn in code at 418 x 235 (`concept_kitchens.py`), plus the unapplied plant and rug fix in `wip/` | Wrong angles (the window flat in front, not on the side wall), different chairs, plants and rugs off |
-| **v5 (2026-10-22, current)** | `../drafts/traced-kitchens/` | Each object traced from the team's original and assembled on the pixel grid (`../trace_kitchens.py`) | |
+| **v5 (2026-10-22, current)** | `../drafts/traced-kitchens/` | Each object traced from the team's original and assembled on the pixel grid, then lit (`../trace_kitchens.py`) | Being expanded (day and night) |
+| v6 (future work) | [../future-works/v6/](../future-works/v6/README.md) | A team concept sheet per kitchen: the room, its own chefs, its own title sign and props; the colorful Saffron Market is the first | Set aside on 2026-10-22: its trace looked too pixelated |
 
 The scripts in v3 and v4 are kept as they were. To run one again, copy it back to `design/pixel-art/` (v4 needs
 `concept_recreation.py` from v3 next to it).
