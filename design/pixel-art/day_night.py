@@ -8,11 +8,13 @@ not the drawing:
   - a sun drawn in a window is moved to where the hour puts it (low on the left in the morning, high in the
     afternoon, low on the right in the evening) and becomes a moon at night, always behind the window's buildings;
   - the lanterns (every traced object named lantern or lamp, from scene.json), the fire and candles light the room
-    around them: warm glows that fade out in dithered bands, the pixel-art way. Off in the morning and afternoon,
-    half on in the evening, full at night;
+    around them: warm glows that fade out in dithered bands, the pixel-art way. Half on in the evening, full at
+    night. In the morning and afternoon they are off: the v5 lighting is redone with only the windows and the hearth
+    fire, the lanterns' glass goes dark and the candles are put out (lamps_off);
   - each picture is put back on a palette of its own (64 colors), so it stays pixel art.
 
-    python design/pixel-art/day_night.py   ->   drafts/traced-kitchens/<name>/<name>_<hour>.png, compare_day_night.png
+    python design/pixel-art/day_night.py   ->   drafts/traced-kitchens/<name>/<name>_<hour>.png, <name>_lamps_off.png,
+                                                compare_day_night.png
 """
 from __future__ import annotations
 
@@ -23,6 +25,9 @@ from pathlib import Path
 import cv2
 import numpy as np
 from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import trace_kitchens as tk  # the v5 lighting pass, to redo it with the lamps off
 
 HERE = Path(__file__).resolve().parent
 TRACED = HERE / "drafts" / "traced-kitchens"
@@ -45,6 +50,8 @@ SUNS = {
 # Lights that are no traced object: fire and candles (x, y, reach) on the original; lanterns come from scene.json
 FLAMES = {"mediterranean": [(265, 530, 420), (583, 595, 110)]}
 LANTERN_REACH = 230
+CANDLES = {"mediterranean": [(583, 595)]}    # flames put out by day (x, y on the original); the hearth fire stays
+HEARTH_CORE = 60                             # a v5 light with a core this big (on the original) is a fire: it stays
 
 # The hours. room: color multipliers; cool: how much the shadows turn blue; gold: how much the highlights turn
 # golden; beams: color and strength of the sunlight slanting in (none at night); sky: its color and how much of it;
@@ -120,6 +127,34 @@ def beams(boxes: list[tuple[int, int, int, int]], shape: tuple[int, int], sun_le
     return np.floor(light * 3 + dither * 0.9) / 3
 
 
+def lamps_off(name: str) -> np.ndarray:
+    """The v5 kitchen by day with its lamps off: the v5 lighting pass (trace_kitchens.light) run again on the unlit
+    kitchen with only the windows and the hearth fire, then each lantern's lit glass (bright, warm pixels) made dark
+    and dull and each candle flame put out. Every color stays in the kitchen's palette."""
+    folder = TRACED / name
+    unlit = np.array(Image.open(folder / f"{name}_unlit.png").convert("RGB"))
+    pal = np.unique(unlit.reshape(-1, 3), axis=0)
+    pieces = json.loads((folder / "scene.json").read_text(encoding="utf-8"))["pieces"]
+    shapes = {key: (p["x"], p["y"], np.array(Image.open(folder / "sprites" / f"{key}.png").convert("RGBA"))[..., 3] > 0)
+              for key, p in pieces.items()}
+    strength = tk.LIGHTING.get(name, 1.0)
+    daylight = [(x / SCALE, y / SCALE, r / SCALE, s * strength, c / SCALE) for x, y, r, s, c in tk.LIGHTS.get(name, [])
+                if c == 0 or c > HEARTH_CORE]
+    img = tk.light(unlit, pal, shapes, daylight)
+    for key, (x, y, mask) in shapes.items():
+        if "lantern" in key or "lamp" in key:
+            part = img[y:y + mask.shape[0], x:x + mask.shape[1]].astype(np.float32)
+            lit = mask & (part.max(axis=2) > 165) & ((part[..., 0] - part[..., 2] > 45) | (part.min(axis=2) > 215))
+            part[lit] = part[lit] * 0.5 + part[lit].mean(axis=1, keepdims=True) * 0.12
+            img[y:y + mask.shape[0], x:x + mask.shape[1]] = tk.to_palette(part.astype(np.uint8), pal)
+    for cx, cy in CANDLES.get(name, []):
+        cx, cy = cx // SCALE, cy // SCALE
+        part = img[cy - 8:cy + 3, cx - 4:cx + 5].astype(np.int32)
+        part[part.min(axis=2) > 200] = (150, 140, 120)                    # the flame becomes a dark wick
+        img[cy - 8:cy + 3, cx - 4:cx + 5] = tk.to_palette(part.astype(np.uint8), pal)
+    return img
+
+
 def lights_of(name: str) -> list[tuple[float, float, float]]:
     """(x, y, reach) on the pixel grid: every lantern or lamp of the kitchen's scene, and its flames."""
     pieces = json.loads((TRACED / name / "scene.json").read_text(encoding="utf-8"))["pieces"]
@@ -159,11 +194,12 @@ def palette_of(img: np.ndarray, k: int) -> np.ndarray:
     return centers.astype(np.uint8)[labels.ravel()].reshape(img.shape)
 
 
-def hour(name: str, day: np.ndarray, time: str) -> np.ndarray:
+def hour(name: str, day: np.ndarray, off: np.ndarray, time: str) -> np.ndarray:
+    """One hour of the kitchen: day is the v5 kitchen (lamps lit), off the same with the lamps off."""
     t = TIMES[time]
     h, w = day.shape[:2]
     out_mask = outdoors(day, WINDOWS.get(name, []))
-    base = move_sun(name, day, time)
+    base = move_sun(name, day if t["lights"] > 0 else off, time)
     img = base.astype(np.float32)
     room = np.clip(img * np.array(t["room"], np.float32), 0, 255)
     lum = (img.mean(axis=2, keepdims=True) / 255)
@@ -204,10 +240,12 @@ def main(names: list[str]) -> None:
     for name in names:
         folder = TRACED / name
         day = np.array(Image.open(folder / f"{name}.png").convert("RGB"))
+        off = lamps_off(name)
+        Image.fromarray(off).save(folder / f"{name}_lamps_off.png")
         versions = {}
         for time in TIMES:
-            # the afternoon is the v5 kitchen itself, unless its sun has to move
-            img = day if time == "afternoon" and name not in SUNS else hour(name, day, time)
+            # the afternoon is the v5 kitchen with the lamps off, unless its sun has to move
+            img = off if time == "afternoon" and name not in SUNS else hour(name, day, off, time)
             versions[time] = img
             Image.fromarray(img).save(folder / f"{name}_{time}.png")
             Image.fromarray(img).resize((img.shape[1] * 4, img.shape[0] * 4), Image.NEAREST).save(folder / f"{name}_{time}_x4.png")
