@@ -45,21 +45,13 @@ ART = ROOT / "design" / "pixel-art" / "assets"   # drawn by design/pixel-art/mak
 if not (DATA / "recipes_test.parquet").exists():
     DATA = ROOT / "data" / "demo"
 
-# Color themes. "Classic" is Eva's cooking-game palette and the default. Each theme has its own
-# kitchen picture (scene) and the colors of the page drawn over it.
+# The kitchens. "Classic" is Eva's cooking-game palette and the default. Each has its own kitchen picture (scene)
+# and the colors of the page drawn over it. The time of day (Settings) is the kitchen's light, not a kitchen of its
+# own: Classic's morning and night are the former Morning and Night themes (design/pixel-art/build_classic_scene.py).
 THEMES = {
-    "Classic": {"scene": "classic", "panel": "#FFF8E7", "sidebar": "#FFF1E6", "border": "#8B4513",
+    "Classic": {"scene": "classic_hours", "panel": "#FFF8E7", "sidebar": "#FFF1E6", "border": "#8B4513",
                 "text": "#4A2C2A", "heading": "#8B4513", "button": "#FFB6C1", "button_hover": "#FF8FAB",
                 "shadow": "#D9A679", "bubble": "#FFFFFF"},
-    "Morning": {"scene": "morning", "panel": "#FFF9EC", "sidebar": "#FFF4D6", "border": "#8A5427",
-                "text": "#4A3122", "heading": "#B05A1E", "button": "#F2C14E", "button_hover": "#E6A91F",
-                "shadow": "#E6B77C", "bubble": "#FFFDF5"},
-    "Night": {"scene": "night", "panel": "#2A2138", "sidebar": "#241C31", "border": "#FF8FAB",
-              "text": "#F3E9F5", "heading": "#FFD98A", "button": "#FF8FAB", "button_hover": "#FF6F95",
-              "shadow": "#120D1A", "bubble": "#3A2E4A"},
-    "Basil": {"scene": "basil", "panel": "#F7FBF2", "sidebar": "#EEF5E6", "border": "#457536",
-              "text": "#2F3A26", "heading": "#457536", "button": "#9BD07F", "button_hover": "#7FBF5F",
-              "shadow": "#C8DDB6", "bubble": "#FFFFFF"},
     # The cuisine kitchens, each with its own chef. Chinese, Mediterranean, Mexican and Middle Eastern are the v5
     # kitchens (traced from the team's art, four hours, design/pixel-art/build_scenes.py); Japanese and Moroccan the
     # code-drawn drafts (design/pixel-art/cuisine_kitchens.py)
@@ -82,6 +74,9 @@ THEMES = {
                        "sidebar": "#F3E2C2", "border": "#7A4B22", "text": "#3B2A1A", "heading": "#1E6F80",
                        "button": "#D9A830", "button_hover": "#C49420", "shadow": "#C9A46B", "bubble": "#FFFDF6"},
 }
+# The page's colors for the Classic kitchen at night (the former Night theme): easier on the eyes in the dark
+NIGHT_COLORS = {"panel": "#2A2138", "sidebar": "#241C31", "border": "#FF8FAB", "text": "#F3E9F5", "heading": "#FFD98A",
+                "button": "#FF8FAB", "button_hover": "#FF6F95", "shadow": "#120D1A", "bubble": "#3A2E4A"}
 # The chef in kitchens without their own: the classic white-hat chef from the team's references
 # (design/pixel-art/make_chefs.py)
 DEFAULT_CHEF = "ref_classic_"
@@ -365,11 +360,14 @@ if st.session_state.get("follow_cuisine", True) and st.session_state.get("cuisin
 CHEF = THEMES[theme_name].get("chef", DEFAULT_CHEF)   # which chef stands in this kitchen (chef_says)
 if st.session_state.get("cook") == "Woman" and CHEF.startswith("ref_"):   # the regions with a woman cook
     CHEF += "woman_"
-st.markdown(style(dict(THEMES[theme_name], chef=CHEF)), unsafe_allow_html=True)
 # The kitchen's time of day: the visitor's clock only once they allow it (Settings), otherwise the hour they pick
 HOURS = ["Morning", "Afternoon", "Evening", "Night"]
-kitchen_scene(THEMES[theme_name]["scene"],
-              "auto" if st.session_state.get("use_clock") else st.session_state.get("hour", "Afternoon").lower())
+hour = "auto" if st.session_state.get("use_clock") else st.session_state.get("hour", "Afternoon").lower()
+page_colors = dict(THEMES[theme_name], chef=CHEF)
+if theme_name == "Classic" and hour == "night":       # (with the clock, the page keeps its day colors)
+    page_colors.update(NIGHT_COLORS)
+st.markdown(style(page_colors), unsafe_allow_html=True)
+kitchen_scene(THEMES[theme_name]["scene"], hour)
 heading, corner = st.columns([3, 2], vertical_alignment="center")
 heading.title("EverFlavor Kitchen")
 heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked ingredient by ingredient.</p>',
@@ -384,7 +382,7 @@ with news_spot.container(key="whats-new"), st.popover("What's new"):
                "[the changelog](https://github.com/Chloe-Tu2/The-EverFlavor-AI/blob/main/CHANGELOG.md).")
 with settings_spot.container(key="settings"), st.popover("Settings"):
     st.selectbox("Kitchen theme", list(THEMES), key="theme",
-                 help="Classic is the team's original look. Night is easier on the eyes in the dark.")
+                 help="Classic is the team's original kitchen. The time of day below sets its light.")
     st.radio("Your chef", ["Man", "Woman"], key="cook", horizontal=True,
              help="The cook who reads out your results, dressed for the kitchen's region.")
     st.toggle("Use my clock for the kitchen's light", value=False, key="use_clock",
