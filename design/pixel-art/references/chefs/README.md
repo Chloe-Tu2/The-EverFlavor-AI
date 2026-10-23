@@ -24,3 +24,15 @@ app (the man cooks); `../../make_women_chefs.py` draws the woman cook of each re
   chefs who wear a hijab wear it with the white chef jacket ([Amanda Saab on MasterChef](https://mostresource.org/?p=10617)).
   Village women in southern Palestine wore plain white head veils every day until the mid-1900s
   ([Google Arts & Culture](https://artsandculture.google.com/asset/veil/jwHRZa9nqGbkYg)), the reason white is the default.
+
+## Photos for the Middle Eastern woman cook (`women/`)
+
+Used to draw her in more detail (`../../make_chef_hd.py`): how the hijab frames the face and tucks into the jacket's
+collar, the chef jacket and the apron. All from Unsplash (Unsplash License), references only.
+
+| File | Shows | Source |
+|---|---|---|
+| hijab_chef_white_uniform_black_hijab.jpg | A chef in a white uniform and black hijab in a kitchen | [Unsplash](https://images.unsplash.com/photo-1792259536070-e23bf19c9692) |
+| hijab_black_apron_market.jpg | A woman in a pink hijab and black apron | [Unsplash](https://images.unsplash.com/photo-1787228748923-4ce078bd939e) |
+| white_hijab_smiling.jpg | A woman in a white hijab | [Unsplash](https://images.unsplash.com/photo-1652946619040-1388aa7e819f) |
+| black_head_covering.jpg | A woman in a black hijab and apron, pouring | [Unsplash](https://images.unsplash.com/photo-1665119497492-e0fe99231337) |
