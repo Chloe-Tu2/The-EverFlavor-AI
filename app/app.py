@@ -297,20 +297,21 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
 
 
 @cache
-def scene_page(scene: str) -> str:
-    """The interactive kitchen for one theme: app/kitchen_scene.html with that theme's pieces filled in."""
+def scene_page(scene: str, hour: str = "afternoon") -> str:
+    """The interactive kitchen for one theme: app/kitchen_scene.html with that theme's pieces filled in. hour:
+    morning, afternoon, evening or night, or "auto" for the visitor's clock (read in their browser)."""
     layers = ART / f"scene_{scene}.json"
     template = Path(__file__).with_name("kitchen_scene.html")
     if not (layers.exists() and template.exists()):
         return ""
     return (template.read_text(encoding="utf-8").replace("__SCENE__", layers.read_text(encoding="utf-8"))
-            .replace("__VERSION__", __version__))
+            .replace("__VERSION__", __version__).replace("__HOUR__", hour))
 
 
-def kitchen_scene(scene: str) -> None:
+def kitchen_scene(scene: str, hour: str) -> None:
     """Put the interactive kitchen behind the page (the CSS makes it fill the window). Without the
     scene files the page keeps the still picture."""
-    page = scene_page(scene)
+    page = scene_page(scene, hour)
     if page:
         components.html(page, height=10)
 
@@ -346,7 +347,10 @@ if st.session_state.get("follow_cuisine", True) and st.session_state.get("cuisin
     theme_name = CUISINE_KITCHENS[st.session_state["cuisine"]]
 CHEF = THEMES[theme_name].get("chef", "")   # which chef stands in this kitchen (chef_says)
 st.markdown(style(THEMES[theme_name]), unsafe_allow_html=True)
-kitchen_scene(THEMES[theme_name]["scene"])
+# The kitchen's time of day: the visitor's clock only once they allow it (Settings), otherwise the hour they pick
+HOURS = ["Morning", "Afternoon", "Evening", "Night"]
+kitchen_scene(THEMES[theme_name]["scene"],
+              "auto" if st.session_state.get("use_clock") else st.session_state.get("hour", "Afternoon").lower())
 heading, corner = st.columns([3, 2], vertical_alignment="center")
 heading.title("EverFlavor Kitchen")
 heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked ingredient by ingredient.</p>',
@@ -362,6 +366,11 @@ with news_spot.container(key="whats-new"), st.popover("What's new"):
 with settings_spot.container(key="settings"), st.popover("Settings"):
     st.selectbox("Kitchen theme", list(THEMES), key="theme",
                  help="Classic is the team's original look. Night is easier on the eyes in the dark.")
+    st.toggle("Use my clock for the kitchen's light", value=False, key="use_clock",
+              help="With your permission, the kitchen follows your device's time: morning, afternoon, evening or "
+                   "night light. Your time stays in your browser; nothing is sent or saved.")
+    st.radio("Time of day", HOURS, index=1, key="hour", horizontal=True, disabled=st.session_state.get("use_clock", False),
+             help="Pick the kitchen's light yourself (used while the clock is off).")
     st.toggle("Match the kitchen to the cuisine", value=True, key="follow_cuisine",
               help="Searching a cuisine family opens its kitchen: Asian (Chinese), African (Moroccan), "
                    "European (Mediterranean), Latin American (Mexican), Middle Eastern.")

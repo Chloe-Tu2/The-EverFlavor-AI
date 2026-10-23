@@ -32,7 +32,9 @@ function oldKind(name) {
 }
 const HOURS = SCENE.hours || { only: { on: false, backdrop: SCENE.backdrop, glows: {},
   pieces: Object.fromEntries(Object.entries(SCENE.pieces).map(([k, p]) => [k, { png: p.png, lit: {} }])) } };
-const HOUR = HOURS[hourNow()] || Object.values(HOURS)[0];
+// The hour: picked in Settings, or "auto" (the visitor allowed the kitchen to follow their clock)
+const PICKED = "__HOUR__";
+const HOUR = HOURS[PICKED === "auto" ? hourNow() : PICKED] || Object.values(HOURS)[0];
 const ORDER = SCENE.order || Object.keys(SCENE.pieces);
 
 const backdrop = load(HOUR.backdrop);
