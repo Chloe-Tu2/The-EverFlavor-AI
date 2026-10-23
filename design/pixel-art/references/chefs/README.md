@@ -8,7 +8,7 @@ app (the man cooks); `../../make_women_chefs.py` draws the woman cook of each re
 | Japanese | `chef1_asian_headband.png` | White kappogi over an indigo kimono collar, hair in a bun, tenugui headband |
 | Chinese | `chef3_asian_scarf.png` | White mandarin-collar jacket with red frog buttons, hair in a bun |
 | Classic (Mediterranean and the default) | `chef2_classic_white_hat.png` | White toque, double-breasted jacket, red neckerchief |
-| Middle Eastern | `chef4_middle_eastern.png` | Plain hijab (white by default; black, navy and rose drawn too) with the white chef jacket and an apron |
+| Middle Eastern | `chef4_middle_eastern.png` | Made from the man cook's own picture (`make_chef_from_ref.py`), so she matches the team's style: his headdress becomes a plain hijab (white by default; rose, black and navy in `previews/middle_eastern_woman_from_ref.png`), no beard, a white chef jacket with the hijab tucked into the collar, an apron |
 
 ## Sources for the clothes
 
@@ -27,7 +27,7 @@ app (the man cooks); `../../make_women_chefs.py` draws the woman cook of each re
 
 ## Photos for the Middle Eastern woman cook (`women/`)
 
-Used to draw her in more detail (`../../make_chef_hd.py`): how the hijab frames the face and tucks into the jacket's
+Used for how the hijab frames the face and tucks into the jacket's
 collar, the chef jacket and the apron. All from Unsplash (Unsplash License), references only.
 
 | File | Shows | Source |

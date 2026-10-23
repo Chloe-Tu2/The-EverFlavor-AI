@@ -7,8 +7,7 @@ What each one wears (sources in references/chefs/README.md):
     kimono collar, hair in a bun under a white tenugui headband
   - chinese: a white jacket with a mandarin collar and red frog buttons, as on samfoo work clothes, hair in a bun
   - classic: a white toque, a double-breasted white jacket and a red neckerchief, like the classic chef reference
-  - middle_eastern: a plain hijab with the white chef jacket and an apron, as women chefs who wear a hijab do in
-    professional kitchens (HIJABS: the color variations)
+  - middle_eastern: drawn by make_chef_from_ref.py from the team's own Middle Eastern chef, to match his style
 
     python design/pixel-art/make_women_chefs.py
 """
@@ -198,7 +197,7 @@ def variations() -> None:
 
 def main() -> None:
     rows = []
-    for region in LOOKS:
+    for region in (r for r in LOOKS if r != "middle_eastern"):   # she comes from make_chef_from_ref.py
         row = []
         for mood in MOODS:
             img = Image.fromarray(figure(region, mood), "RGBA").resize((W * SCALE, (H + TOP) * SCALE), Image.NEAREST)
@@ -208,7 +207,6 @@ def main() -> None:
     sheet = Image.fromarray(np.concatenate(rows, axis=0))
     back = Image.new("RGBA", sheet.size, (236, 226, 208, 255))
     Image.alpha_composite(back, sheet).save(HERE / "previews" / "women_chefs.png")
-    variations()
 
 
 if __name__ == "__main__":
