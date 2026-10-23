@@ -363,7 +363,9 @@ theme_name = st.session_state.get("theme", "Classic")
 if st.session_state.get("follow_cuisine", True) and st.session_state.get("cuisine") in CUISINE_KITCHENS:
     theme_name = CUISINE_KITCHENS[st.session_state["cuisine"]]
 CHEF = THEMES[theme_name].get("chef", DEFAULT_CHEF)   # which chef stands in this kitchen (chef_says)
-st.markdown(style(THEMES[theme_name]), unsafe_allow_html=True)
+if st.session_state.get("cook") == "Woman" and CHEF.startswith("ref_"):   # the regions with a woman cook
+    CHEF += "woman_"
+st.markdown(style(dict(THEMES[theme_name], chef=CHEF)), unsafe_allow_html=True)
 # The kitchen's time of day: the visitor's clock only once they allow it (Settings), otherwise the hour they pick
 HOURS = ["Morning", "Afternoon", "Evening", "Night"]
 kitchen_scene(THEMES[theme_name]["scene"],
@@ -383,6 +385,8 @@ with news_spot.container(key="whats-new"), st.popover("What's new"):
 with settings_spot.container(key="settings"), st.popover("Settings"):
     st.selectbox("Kitchen theme", list(THEMES), key="theme",
                  help="Classic is the team's original look. Night is easier on the eyes in the dark.")
+    st.radio("Your chef", ["Man", "Woman"], key="cook", horizontal=True,
+             help="The cook who reads out your results, dressed for the kitchen's region.")
     st.toggle("Use my clock for the kitchen's light", value=False, key="use_clock",
               help="With your permission, the kitchen follows your device's time: morning, afternoon, evening or "
                    "night light. Your time stays in your browser; nothing is sent or saved.")
