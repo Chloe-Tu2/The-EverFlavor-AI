@@ -8,7 +8,7 @@ the way a hijab does; on her:
 Every change is made in blocks of 4 pixels, the size of the reference's own pixels.
 
     python design/pixel-art/make_chef_from_ref.py   ->   assets/chef_ref_middle_eastern_woman_<mood>.png,
-                                                         previews/middle_eastern_woman_from_ref.png
+                                                         previews/middle_eastern_woman.png
 """
 from __future__ import annotations
 
@@ -94,27 +94,75 @@ def woman(man: np.ndarray, scarf: tuple[int, int, int]) -> np.ndarray:
     lip = blocks(lambda d: d.rectangle((19, 30, 25, 30), fill=1), (h, w))
     out[lip & alpha] = LIP
 
-    # the jacket: the shoulders repainted white, lit from the left, inside the picture's own outline
-    rim = np.zeros_like(alpha)
-    for dy, dx in ((B, 0), (-B, 0), (0, B), (0, -B)):
-        rim |= ~np.roll(np.roll(alpha, dy, 0), dx, 1)
-    body = alpha & (ys >= 150)
-    xs = np.broadcast_to(np.arange(w)[None, :], (h, w))
-    out[body] = JACKET[1]
-    out[body & (xs < w * 0.3)] = JACKET[2]
-    out[body & (xs > w * 0.75)] = JACKET[0]
-    out[body & rim] = INK
-    # the scarf tucked into the collar, the apron and its strap, buttons
-    tuck = blocks(lambda d: d.polygon([(15, 35), (29, 35), (22, 43)], fill=1), (h, w)) & alpha
-    out[tuck] = scarf_c * 0.95
-    out[outline(tuck) & (np.arange(h)[:, None] > 145)] = INK
-    apron = blocks(lambda d: (d.rectangle((16, 43, 28, 52), fill=1),
-                              d.line([(17, 43), (19, 37)], fill=1), d.line([(27, 43), (25, 37)], fill=1)), (h, w)) & alpha
-    out[apron] = APRON
-    out[outline(apron) & (np.arange(h)[:, None] > 170)] = INK
-    buttons = blocks(lambda d: [d.point((x, y), fill=1) for x in (10, 34) for y in (43, 47)], (h, w)) & alpha
-    out[buttons] = BUTTON
-    return np.dstack([np.clip(out, 0, 255), img[..., 3]]).astype(np.uint8)
+    return redraw(out, face, scarf_c)
+
+
+def redraw(out: np.ndarray, face: np.ndarray, scarf: np.ndarray) -> np.ndarray:
+    """Her hijab and jacket drawn again on the reference's 4-pixel grid, after the photos of women chefs in a hijab
+    (references/chefs/women/): the hijab rounded close around the head (not his peaked headdress and cape), wrapped
+    under the chin and falling into the jacket's stand collar; a double-breasted chef jacket and an apron. Flat
+    tones lit from the top left and a dark line between every part, as in the team's chefs. The face is his."""
+    h, w = face.shape
+    gh, gw = -(-h // B), -(-w // B)
+
+    def grid(draw_fn) -> np.ndarray:
+        img = Image.new("1", (gw, gh), 0)
+        draw_fn(ImageDraw.Draw(img))
+        return np.array(img, bool)
+
+    def shift(m: np.ndarray, dy: int, dx: int) -> np.ndarray:
+        r = np.zeros_like(m)
+        r[max(dy, 0):gh + min(dy, 0), max(dx, 0):gw + min(dx, 0)] = m[max(-dy, 0):gh - max(dy, 0), max(-dx, 0):gw - max(dx, 0)]
+        return r
+
+    face_g = face[B // 2::B, B // 2::B][:gh, :gw]
+    face_g = np.pad(face_g, ((0, gh - face_g.shape[0]), (0, gw - face_g.shape[1])))
+    hijab = grid(lambda d: (d.ellipse((7, 1, 37, 42), fill=1),
+                            d.polygon([(10, 33), (35, 33), (30, 42), (22, 46), (15, 42)], fill=1))) & ~face_g
+    body = grid(lambda d: d.rounded_rectangle((1, 38, gw - 2, gh + 4), radius=6, fill=1)) & ~hijab & ~face_g
+    collar = grid(lambda d: (d.polygon([(13, 37), (17, 37), (21, 45)], fill=1),
+                             d.polygon([(32, 37), (28, 37), (24, 45)], fill=1))) & body
+    apron = grid(lambda d: (d.rectangle((16, 45, 29, gh), fill=1),
+                            d.line([(17, 45), (19, 39)], fill=1), d.line([(28, 45), (26, 39)], fill=1))) & body
+    buttons = grid(lambda d: [d.point((x, y), fill=1) for x in (9, 12, 33, 36) for y in (44, 48)]) & body & ~apron
+
+    canvas = np.zeros((gh, gw, 3), np.float32)
+    label = np.zeros((gh, gw), int)
+    xs = np.broadcast_to(np.arange(gw)[None, :], (gh, gw))
+    canvas[body] = JACKET[1]
+    canvas[body & (xs < gw * 0.3)] = JACKET[2]
+    canvas[body & (xs > gw * 0.72)] = JACKET[0]
+    label[body] = 1
+    canvas[collar] = JACKET[2]
+    label[collar] = 2
+    canvas[hijab] = scarf
+    canvas[hijab & ~shift(hijab, 2, 2)] = np.minimum(scarf * 1.1 + 12, 255)          # light along the top left
+    canvas[hijab & ~shift(hijab, -2, -2)] = scarf * 0.8                               # shade along the bottom right
+    folds = grid(lambda d: (d.arc((4, 12, 20, 52), 120, 200, fill=1), d.arc((25, 12, 41, 52), 340, 60, fill=1),
+                            d.line([(22, 40), (22, 45)], fill=1))) & hijab
+    canvas[folds] = scarf * 0.84
+    label[hijab] = 3
+    canvas[apron] = APRON
+    label[apron] = 4
+    canvas[buttons] = BUTTON
+    solid = label > 0
+    ink = np.zeros_like(solid)
+    for dy, dx in ((1, 0), (0, 1), (-1, 0), (0, -1)):
+        ink |= shift(solid | face_g, dy, dx)
+    ink &= ~solid & ~face_g                                                           # the outline around her
+    ink |= solid & ((label != shift(label, 1, 0)) | (label != shift(label, 0, 1))) & shift(solid, 1, 0) & shift(solid, 0, 1)
+    face_edge = face_g & ~(shift(face_g, 1, 0) & shift(face_g, -1, 0) & shift(face_g, 0, 1) & shift(face_g, 0, -1))
+    canvas[ink] = INK
+
+    def up(m: np.ndarray) -> np.ndarray:
+        return m.repeat(B, axis=0).repeat(B, axis=1)[:h, :w]
+
+    rgb = up(canvas)
+    face_px = up(face_g)                                                              # the face, on the same grid
+    rgb[face_px] = out[face_px]
+    rgb[up(face_edge)] = INK
+    alpha = up(solid | ink) | face_px
+    return np.dstack([np.clip(rgb, 0, 255), alpha * 255]).astype(np.uint8)
 
 
 def main() -> None:
@@ -128,7 +176,7 @@ def main() -> None:
         sheet.append(her)
     row = np.concatenate([man] + sheet, axis=1)
     back = Image.new("RGBA", (row.shape[1], row.shape[0]), (236, 226, 208, 255))
-    Image.alpha_composite(back, Image.fromarray(row, "RGBA")).save(HERE / "previews" / "middle_eastern_woman_from_ref.png")
+    Image.alpha_composite(back, Image.fromarray(row, "RGBA")).save(HERE / "previews" / "middle_eastern_woman.png")
 
 
 if __name__ == "__main__":
