@@ -7,8 +7,8 @@ What each one wears (sources in references/chefs/README.md):
     kimono collar, hair in a bun under a white tenugui headband
   - chinese: a white jacket with a mandarin collar and red frog buttons, as on samfoo work clothes, hair in a bun
   - classic: a white toque, a double-breasted white jacket and a red neckerchief, like the classic chef reference
-  - middle_eastern: a headscarf over the hair and neck, and a dark dress with a band of red cross-stitch
-    embroidery (tatreez) across the chest
+  - middle_eastern: a plain hijab with the white chef jacket and an apron, as women chefs who wear a hijab do in
+    professional kitchens (HIJABS: the color variations)
 
     python design/pixel-art/make_women_chefs.py
 """
@@ -29,14 +29,22 @@ LOOKS = {
     "japanese": {"skin": (238, 192, 152), "hair": (46, 34, 34), "cloth": WHITE, "accent": (44, 58, 104)},
     "chinese": {"skin": (232, 182, 138), "hair": (36, 28, 30), "cloth": (246, 242, 230), "accent": (186, 40, 40)},
     "classic": {"skin": (240, 198, 162), "hair": (110, 66, 40), "cloth": WHITE, "accent": (196, 44, 44)},
-    "middle_eastern": {"skin": (214, 152, 112), "hair": (40, 30, 30), "cloth": (52, 50, 84),
-                       "accent": (200, 132, 140), "stitch": (206, 48, 52)},
+    "middle_eastern": {"skin": (214, 152, 112), "hair": (40, 30, 30), "cloth": WHITE,
+                       "accent": (236, 232, 222), "apron": (46, 44, 52)},
+}
+# The Middle Eastern cook's choices: a plain hijab in one color with the white chef jacket, and the apron's color
+HIJABS = {
+    "white": {"accent": (236, 232, 222), "apron": (46, 44, 52)},
+    "black": {"accent": (44, 40, 48), "apron": (110, 70, 44)},
+    "navy": {"accent": (44, 58, 104), "apron": (46, 44, 52)},
+    "rose": {"accent": (200, 132, 140), "apron": (110, 70, 44)},
 }
 
 
-def figure(region: str, mood: str) -> np.ndarray:
-    """The cook drawn in layers, each over the last, then shaded and outlined; returns RGBA."""
-    look = LOOKS[region]
+def figure(region: str, mood: str, look: dict | None = None) -> np.ndarray:
+    """The cook drawn in layers, each over the last, then shaded and outlined; returns RGBA. look overrides the
+    region's colors (the hijab variations)."""
+    look = {**LOOKS[region], **(look or {})}
     layers: list[tuple[tuple[int, int, int], Image.Image]] = []
 
     def layer(color: tuple[int, int, int]) -> ImageDraw.ImageDraw:
@@ -51,8 +59,8 @@ def figure(region: str, mood: str) -> np.ndarray:
     d = layer(look["cloth"])                                 # shoulders
     d.rounded_rectangle((3, 34, 36, H + 4), radius=7, fill=1)
     if region == "middle_eastern":
-        d = layer(look["accent"])                            # the scarf over the shoulders
-        d.polygon([(8, 30), (31, 30), (34, 40), (5, 40)], fill=1)
+        d = layer(look["accent"])                            # the hijab over the shoulders
+        d.polygon([(9, 30), (30, 30), (32, 37), (7, 37)], fill=1)
     d = layer(look["skin"])                                  # neck, ears and face
     if region != "middle_eastern":
         d.rectangle((16, 28, 23, 35), fill=1)
@@ -102,11 +110,12 @@ def figure(region: str, mood: str) -> np.ndarray:
             d.point((15, y), fill=1)
             d.point((25, y), fill=1)
     else:
-        d = layer(look["stitch"])                            # a band of cross-stitch across the chest
-        for x in range(12, 29, 2):
-            d.point((x, 41), fill=1)
-            d.point((x + 1, 42), fill=1)
-            d.point((x, 43), fill=1)
+        d = layer(look["apron"])                             # the apron's bib, over the chef jacket
+        d.rectangle((13, 40, 26, H), fill=1)
+        d = layer((190, 190, 196))                           # the jacket's buttons, either side of the bib
+        for y in (39, 42, 45):
+            d.point((10, y), fill=1)
+            d.point((29, y), fill=1)
 
     rgb = np.zeros((H, W, 3), np.float32)
     z = np.full((H, W), -1)
@@ -175,6 +184,18 @@ def face(rgb: np.ndarray, mood: str) -> None:
             px(x, 26, MOUTH)
 
 
+def variations() -> None:
+    """previews/middle_eastern_woman_variations.png: each hijab color, happy and wink."""
+    rows = []
+    for colors in HIJABS.values():
+        faces = [Image.fromarray(figure("middle_eastern", mood, colors), "RGBA")
+                 .resize((W * SCALE, (H + TOP) * SCALE), Image.NEAREST) for mood in ("happy", "wink")]
+        rows.append(np.concatenate([np.array(f) for f in faces], axis=1))
+    sheet = Image.fromarray(np.concatenate(rows, axis=1))
+    back = Image.new("RGBA", sheet.size, (236, 226, 208, 255))
+    Image.alpha_composite(back, sheet).save(HERE / "previews" / "middle_eastern_woman_variations.png")
+
+
 def main() -> None:
     rows = []
     for region in LOOKS:
@@ -187,6 +208,7 @@ def main() -> None:
     sheet = Image.fromarray(np.concatenate(rows, axis=0))
     back = Image.new("RGBA", sheet.size, (236, 226, 208, 255))
     Image.alpha_composite(back, sheet).save(HERE / "previews" / "women_chefs.png")
+    variations()
 
 
 if __name__ == "__main__":
