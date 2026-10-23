@@ -14,6 +14,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import cv2
 import numpy as np
 from PIL import Image, ImageDraw
 
@@ -48,10 +49,19 @@ def woman(man: np.ndarray, scarf: tuple[int, int, int]) -> np.ndarray:
     alpha = img[..., 3] > 0
     h, w = alpha.shape
     lum = rgb.mean(axis=2)
-    pinkish = (rgb[..., 0] > rgb[..., 2] + 10) & (lum > 110) & (lum < 215)    # the headdress' rose tones
-    # the scarf: his rose headdress, in her color (keeping its light and shade)
-    head = alpha & (pinkish | ((lum > 60) & (lum < 130))) & (np.arange(h)[:, None] < 150)
-    head &= ~((np.abs(np.arange(w)[None, :] - 90) < 34) & (np.arange(h)[:, None] > 52))   # not the face
+    ys = np.broadcast_to(np.arange(h)[:, None], (h, w))
+    # her face: his skin with the eyes, brows and mouth inside it, widened to a rounded chin where the beard was.
+    # The hijab is never painted inside it, and a dark line one block wide frames it.
+    skinlike = alpha & (rgb[..., 0] - rgb[..., 2] > 75) & (rgb[..., 0] > 170)
+    closed = cv2.morphologyEx(skinlike.astype(np.uint8), cv2.MORPH_CLOSE, np.ones((11, 11), np.uint8))
+    filled = closed.copy()
+    flood = np.zeros((h + 2, w + 2), np.uint8)
+    cv2.floodFill(filled, flood, (0, 0), 1)
+    face = (closed | (1 - filled)).astype(bool)
+    chin = blocks(lambda d: d.ellipse((11, 13, 34, 36), fill=1), (h, w))
+    face = (face | chin) & (ys >= 52) & (ys < 150)
+    # the scarf: his headdress (everything around the face above the shoulders), in her color with its shading
+    head = alpha & ~face & (ys < 150) & (lum > 60)
     tone = (lum / np.median(lum[head]))[..., None]
     # the black cord on top becomes scarf too
     edge = np.zeros_like(alpha)
@@ -62,17 +72,20 @@ def woman(man: np.ndarray, scarf: tuple[int, int, int]) -> np.ndarray:
     beard_zone = blocks(lambda d: d.rectangle((10, 23, 35, 38), fill=1), (h, w))
     beard = alpha & beard_zone & (lum < 95)
     mouth = blocks(lambda d: d.rectangle((17, 26, 27, 29), fill=1), (h, w))
-    chin = blocks(lambda d: d.ellipse((14, 14, 31, 35), fill=1), (h, w))
     skin = np.array((217, 154, 119), np.float32)
 
     out = rgb.copy()
     scarf_c = np.array(scarf, np.float32)
     out[head] = np.clip(scarf_c * tone[head], 0, 255)
     out[cord] = scarf_c * 0.86
-    out[beard & chin & ~mouth] = skin
-    out[beard & ~chin & ~mouth] = scarf_c * 0.9
-    jaw = outline(chin) & beard_zone & ~mouth & (np.arange(h)[:, None] > 100)
-    out[jaw & alpha] = INK
+    out[beard & face & ~mouth] = skin
+    out[beard & ~face & ~mouth] = scarf_c * 0.9
+    # leftover specks inside the face (the beard's edge, the headdress' shadow) become skin; the eyes, brows,
+    # nose and mouth stay
+    nose = blocks(lambda d: d.rectangle((19, 24, 25, 25), fill=1), (h, w))
+    speck = face & ~skinlike & ~mouth & ~nose & (((ys < 100) & (lum >= 80)) | (ys >= 100))
+    out[speck] = skin
+    out[outline(face) & alpha & ~mouth] = INK
     # finer brows (the lower block of each goes), lashes, a colored lower lip
     brows = blocks(lambda d: (d.rectangle((13, 16, 18, 16), fill=1), d.rectangle((26, 16, 31, 16), fill=1)), (h, w))
     out[brows & (lum < 80)] = skin
@@ -85,7 +98,7 @@ def woman(man: np.ndarray, scarf: tuple[int, int, int]) -> np.ndarray:
     rim = np.zeros_like(alpha)
     for dy, dx in ((B, 0), (-B, 0), (0, B), (0, -B)):
         rim |= ~np.roll(np.roll(alpha, dy, 0), dx, 1)
-    body = alpha & (np.arange(h)[:, None] >= 146) & ~blocks(lambda d: d.ellipse((14, 14, 31, 35), fill=1), (h, w))
+    body = alpha & (ys >= 150)
     xs = np.broadcast_to(np.arange(w)[None, :], (h, w))
     out[body] = JACKET[1]
     out[body & (xs < w * 0.3)] = JACKET[2]
