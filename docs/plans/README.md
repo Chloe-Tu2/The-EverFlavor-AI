@@ -52,9 +52,9 @@ Branch `release/0.5.2`. The kitchens come alive first; the base kitchen follows 
 |---|---|---|
 | 1 | **v5 kitchens in the app**, in the visitor's time of day (morning, afternoon, evening, night) | in progress |
 | 2 | **Interactive spots** (key ones, not everything): trees and plants shake and drop their own leaves (cherry blossom petals from the cherry tree, green leaves from others), lights switch on and off with their glow, stools and chairs wobble, some pots hop and steam; placed per kitchen so pieces that overlap still answer the right tap, by day and by night | in progress |
-| 3 | **Regional chefs** in the foreground, from the team's four chef references (`design/pixel-art/references/chefs/`), a man and a woman cook per region, dressed after traditional cooks of that region; tap the chef to make them react | planned |
+| 3 | **Regional chefs** in the foreground, from the team's four chef references (`design/pixel-art/references/chefs/`), a man and a woman cook per region, dressed after traditional cooks of that region; tap the chef to make them react | started: the four references are the Japanese, Chinese, Middle Eastern and default chefs (`make_chefs.py`); still to do: the woman cooks, Mexican and Moroccan chefs, one picture per mood |
 | 4 | **Icons reworked** from the original set, to match the v5 art | planned |
-| 5 | **A dish picture for recipes without a photo** (pixel art) and a **"cooking in progress" loading screen** | planned |
+| 5 | **A dish picture for recipes without a photo** (pixel art) and a **"cooking in progress" loading screen** | loading screen done (an egg frying, `make_loading.py`); dish picture to do |
 
 ### 0.5.3 (planned): the base kitchen
 

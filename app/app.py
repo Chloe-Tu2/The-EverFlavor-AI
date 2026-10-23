@@ -63,10 +63,10 @@ THEMES = {
     # The cuisine kitchens, each with its own chef. Chinese, Mediterranean, Mexican and Middle Eastern are the v5
     # kitchens (traced from the team's art, four hours, design/pixel-art/build_scenes.py); Japanese and Moroccan the
     # code-drawn drafts (design/pixel-art/cuisine_kitchens.py)
-    "Japanese": {"scene": "japanese", "chef": "japanese_", "panel": "#FBF3E2", "sidebar": "#F3E6CC",
+    "Japanese": {"scene": "japanese", "chef": "ref_japanese_", "panel": "#FBF3E2", "sidebar": "#F3E6CC",
                  "border": "#5B3A29", "text": "#3A2A20", "heading": "#8E2C2C", "button": "#E9C46A",
                  "button_hover": "#D9AE4A", "shadow": "#C9A57A", "bubble": "#FFFDF7"},
-    "Chinese": {"scene": "v5_chinese", "chef": "chinese_", "panel": "#FBF5EA", "sidebar": "#F4E9D8",
+    "Chinese": {"scene": "v5_chinese", "chef": "ref_chinese_", "panel": "#FBF5EA", "sidebar": "#F4E9D8",
                 "border": "#7A2A22", "text": "#3A2420", "heading": "#B22D2D", "button": "#E9B44C",
                 "button_hover": "#D99E30", "shadow": "#CDBFA6", "bubble": "#FFFDF7"},
     "Moroccan": {"scene": "moroccan", "chef": "moroccan_", "panel": "#FCF3E8", "sidebar": "#F6E2D2",
@@ -78,10 +78,13 @@ THEMES = {
     "Mexican": {"scene": "v5_mexican", "chef": "mexican_", "panel": "#FFF6E5", "sidebar": "#FCE8C8",
                 "border": "#8C3B1F", "text": "#3B2218", "heading": "#1F5FA8", "button": "#F2A541",
                 "button_hover": "#E08E22", "shadow": "#D88A3A", "bubble": "#FFFDF5"},
-    "Middle Eastern": {"scene": "v5_middle_eastern", "chef": "middle_eastern_", "panel": "#FBF3E4",
+    "Middle Eastern": {"scene": "v5_middle_eastern", "chef": "ref_middle_eastern_", "panel": "#FBF3E4",
                        "sidebar": "#F3E2C2", "border": "#7A4B22", "text": "#3B2A1A", "heading": "#1E6F80",
                        "button": "#D9A830", "button_hover": "#C49420", "shadow": "#C9A46B", "bubble": "#FFFDF6"},
 }
+# The chef in kitchens without their own: the classic white-hat chef from the team's references
+# (design/pixel-art/make_chefs.py)
+DEFAULT_CHEF = "ref_classic_"
 # With "Match the kitchen to the cuisine" on (Settings), searching a cuisine family opens its kitchen
 # (each family opens the kitchen of its biggest country in the data: China leads Asian recipes after India, which
 # has no kitchen yet; Morocco leads African; Italy, Mexico and Lebanon the others. Japanese is in Settings.)
@@ -264,7 +267,7 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
 .site-footer .credits {{ display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin: 0.25rem 0 0.75rem; }}
 .site-footer small {{ opacity: 0.85; }}
 .chef {{ cursor: pointer; transition: transform 0.1s steps(2); }}
-.chef:active {{ background-image: url('{art("chef_" + theme.get("chef", "") + "wink")}') !important; animation: hop 0.35s steps(3); }}
+.chef:active {{ background-image: url('{art("chef_" + theme.get("chef", DEFAULT_CHEF) + "wink")}') !important; animation: hop 0.35s steps(3); }}
 @keyframes hop {{ 50% {{ transform: translateY(-10px); }} }}
 @keyframes wiggle {{ 25% {{ transform: rotate(-12deg); }} 75% {{ transform: rotate(12deg); }} }}
 [data-testid="stTab"]:active p::before, .stat:hover .ico, .bubble:hover .ico {{ animation: wiggle 0.3s steps(2); }}
@@ -329,6 +332,20 @@ def chef_says(place, mood: str, message: str, icon: str | None = None) -> None:
                       unsafe_allow_html=True)
 
 
+def cooking(message: str = "Cooking..."):
+    """The "cooking in progress" screen: an egg frying in a pan over a fire (design/pixel-art/make_loading.py),
+    shown while the app works. Returns the spot it is drawn in; call .empty() on it when done."""
+    spot = st.empty()
+    spot.markdown(f"""<style>@keyframes fry {{ to {{ background-position: -640px 0; }} }}
+.cooking {{ display: flex; flex-direction: column; align-items: center; gap: 0.4rem; padding: 1rem; }}
+.cooking .pan {{ width: 160px; height: 128px; image-rendering: pixelated; animation: fry 0.8s steps(4) infinite;
+  background: url('{art("loading_eggs")}') 0 0 / 640px 128px no-repeat; }}
+@media (prefers-reduced-motion: reduce) {{ .cooking .pan {{ animation: none; background-position: -480px 0; }} }}
+</style><div class="cooking" role="status"><div class="pan"></div><p>{html.escape(message)}</p></div>""",
+                  unsafe_allow_html=True)
+    return spot
+
+
 def stats(place, calories: float, protein: float, minutes: float | None) -> None:
     """A recipe's calories, protein and time, each with its pixel icon."""
     chips = [("icon_flame", f"{calories:.0f}", "kcal"), ("icon_protein", f"{protein:.0f} g", "protein"),
@@ -345,7 +362,7 @@ st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if 
 theme_name = st.session_state.get("theme", "Classic")
 if st.session_state.get("follow_cuisine", True) and st.session_state.get("cuisine") in CUISINE_KITCHENS:
     theme_name = CUISINE_KITCHENS[st.session_state["cuisine"]]
-CHEF = THEMES[theme_name].get("chef", "")   # which chef stands in this kitchen (chef_says)
+CHEF = THEMES[theme_name].get("chef", DEFAULT_CHEF)   # which chef stands in this kitchen (chef_says)
 st.markdown(style(THEMES[theme_name]), unsafe_allow_html=True)
 # The kitchen's time of day: the visitor's clock only once they allow it (Settings), otherwise the hour they pick
 HOURS = ["Morning", "Afternoon", "Evening", "Night"]
@@ -423,6 +440,7 @@ with find_tab:
     how_many = st.number_input("How many ideas?", min_value=1, max_value=20, value=5)
 
     if st.button("Find recipes", type="primary"):
+        loading = cooking("Cooking up ideas...")
         results = baseline_recommend(
             recipes,
             cuisine_family=None if cuisine == "Any" else cuisine,
@@ -433,6 +451,7 @@ with find_tab:
             diets=diets,
             top_n=int(how_many),
         )
+        loading.empty()
         if results.empty:
             chef_says(chef, "thinking", "Hmm, nothing matches all your choices. Try removing one.", "empty")
         else:
@@ -472,8 +491,9 @@ with check_tab:
     if st.button("Check it"):
         # The safety gate decides; the local AI (if on) only explains a failure, and its words are
         # replaced by a plain sentence when they do not match the gate's answer.
-        with st.spinner("Checking..."):
-            report = check_and_explain(lines.splitlines(), name, profile, model=ai["model"] if use_ai else None)
+        loading = cooking("Checking every ingredient...")
+        report = check_and_explain(lines.splitlines(), name, profile, model=ai["model"] if use_ai else None)
+        loading.empty()
         if report["passed"]:
             chef_says(chef, "happy", f"{name} is safe for your profile. Happy cooking!", "safe")
             st.success("Safe for your profile.")
