@@ -57,17 +57,17 @@ come in through the team (med27-coder's teammates).
 | 1 | Rename the branch `release/0.5.2` to `release/0.7.1` (GitHub keeps a redirect) | GitHub |
 | 2 | Retitle the 0.5.2 and 0.5.3 sections below as 0.7.1 (the base kitchen stays a later item unless it is ready) | this planner |
 | 3 | Build the landing page (option A, inside the app) | [LANDING_PAGE.md](LANDING_PAGE.md) |
-| 4 | Build the Houston map, after the team answers its questions | [MAP.md](MAP.md) |
+| 4 | Build the Houston map, after the team answers its questions; it opens from a third tab, **Map**, next to Find recipes and Check my recipe (with its own pixel icon, a map pin; planned for later) | [MAP.md](MAP.md) |
 | 5 | Finish the dish information page: estimated times (notebook 01 rerun), pronunciation | [COOKING_STEPS_AND_VIDEOS.md](COOKING_STEPS_AND_VIDEOS.md), DISH_PRONUNCIATION.md (to finish) |
-| 6 | README: a "Watch" section at the bottom for interested readers with the YouTube link | `README.md` |
+| 6 | README: a "Watch" section at the bottom for interested readers with the YouTube link to the team's cooking demo video (the team records it and sends the link) | `README.md` |
 | 7 | README: bring the main README up to date (the app as it is now: kitchens and light, chefs, search, dish page, the data rule, the project tree) | `README.md` |
 | 8 | Release: `__version__`, `CHANGELOG.md` (one 0.7.1 entry for all of it) and the What's new notes, all checks, merge into `main`, tag `v0.7.1` | `/release` |
 
+Decided (med27-coder, 2026-10-25): the README links the team's cooking demo video; the American base kitchen
+(0.5.3) is probably the version after 0.7.1, or in 0.7.1 if the sprites are ready; the map gets its own tab.
+
 Open questions:
 
-- **The YouTube link in the README:** which video? A project demo or presentation video (the team records it), a
-  playlist of cooking videos, or the note that every recipe card has a "Watch it made on YouTube" search link?
-- **0.5.3, the American base kitchen:** part of 0.7.1 if the sprites are ready, or the next version?
 - **The README update** happens in the 0.7.1 release so `main` gets it with the code it describes (updating
   `main` alone first would describe features `main` does not have yet).
 

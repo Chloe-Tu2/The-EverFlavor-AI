@@ -45,6 +45,9 @@ Boulevard's Asian markets on the west side, Hillcroft's South Asian and Middle E
 
 ## What the user sees
 
+The map opens from a third tab, **Map**, next to Find recipes and Check my recipe, with its own pixel icon (a map
+pin) like the other tabs. Planned for later (the 0.7.1 plan in [README.md](README.md)).
+
 | Part | What it does |
 |---|---|
 | A third tab, **"Where to buy"** (next to "Find recipes" and "Check my recipe") | A map of Houston, styled to match the pixel kitchen (flat colors, chunky pixels, the app's palette). |
