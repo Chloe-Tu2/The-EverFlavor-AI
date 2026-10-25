@@ -18,6 +18,7 @@ import ast
 import base64
 import html
 import random
+import re
 import sys
 from functools import cache
 from pathlib import Path
@@ -374,6 +375,31 @@ def cooking(message: str = "Cooking..."):
     return spot
 
 
+MAX_STEPS, MAX_STEP_CHARS = 25, 600     # the card shows at most this many steps, each cut at this length
+
+
+def cooking_steps(instructions: object) -> list[str]:
+    """A recipe's steps, one per item: Food.com's are one per line (lowercase, " ," spacing), TheMealDB's are
+    paragraphs with "step 1" lines. Tidied for reading, at most MAX_STEPS, each at most MAX_STEP_CHARS."""
+    if not isinstance(instructions, str):
+        return []
+    steps = []
+    for raw in re.split(r"\r?\n+", instructions):
+        step = re.sub(r"\s+([,.;:!?])", r"\1", raw).strip(" -*")
+        if not step or re.fullmatch(r"(?i)step\s*\d+[.:]?", step):
+            continue
+        step = step[0].upper() + step[1:]
+        steps.append(step if len(step) <= MAX_STEP_CHARS else step[:MAX_STEP_CHARS].rsplit(" ", 1)[0] + "...")
+    return steps[:MAX_STEPS]
+
+
+def video_search_link(dish: str, country: object) -> str:
+    """A YouTube search for the dish (no API, no key, nothing plays by itself): the dish's own name and, when
+    known, its country, so "bulgogi" finds Korean bulgogi."""
+    words = f"{dish} {country if isinstance(country, str) and country != 'Unknown' else ''} recipe"
+    return "https://www.youtube.com/results?search_query=" + "+".join(re.findall(r"[\w'-]+", words))
+
+
 def stats(place, calories: float, protein: float, minutes: float | None) -> None:
     """A recipe's calories, protein and time, each with its pixel icon."""
     chips = [("icon_flame", f"{calories:.0f}", "kcal"), ("icon_protein", f"{protein:.0f} g", "protein"),
@@ -571,6 +597,13 @@ with find_tab:
                         ingredients = [ingredients]
 
                 info.write("**Ingredients:** " + ", ".join(map(str, ingredients)))
+                steps = cooking_steps(row.get("instructions"))
+                if steps:
+                    with info.expander(f"Cooking steps ({len(steps)})"):
+                        st.markdown("\n".join(f"{i}. {html.escape(step)}" for i, step in enumerate(steps, 1)))
+                elif isinstance(link, str) and link.startswith("http"):
+                    info.caption(f"Steps: on [the recipe's page]({link})")
+                info.markdown(f"[Watch it made on YouTube]({video_search_link(str(named['dish_name']), where)})")
 
 with check_tab:
     st.write("Paste a recipe (one ingredient per line) to see if it fits your profile.")
