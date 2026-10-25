@@ -267,8 +267,11 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
 .stat .ico, .bubble .ico {{ width: 32px; height: 32px; }}
 .bubble .ico {{ margin-right: 0.5rem; }}
 .stat small {{ font-family: var(--pixel-text); opacity: 0.8; font-size: 1.2rem; }}
-/* The concept layout: the kitchen open under the title, the chef at the bottom of the sidebar */
-.kitchen-view {{ height: 30vh; }}
+/* The concept layout: the kitchen open under the title, the chef standing in it above the tabs (on every screen;
+   the sidebar copy is not shown) */
+.kitchen-view {{ height: 12vh; }}
+.st-key-chef-main {{ max-width: 760px; }}
+.st-key-chef-main .chef {{ width: 150px; height: 150px; }}
 .st-key-chef-side {{ margin-top: 0.5rem; }}
 .st-key-chef-side .chef-row {{ flex-direction: column-reverse; align-items: center; gap: 0.9rem; }}
 .st-key-chef-side .chef {{ width: 132px; height: 132px; }}
@@ -276,9 +279,9 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
 .st-key-chef-side .bubble::before {{
   left: calc(50% - 6px); bottom: -12px; border-right-color: transparent; border-top-color: var(--border);
 }}
-@media (min-width: 641px) {{ .st-key-chef-main {{ display: none; }} }}
+.st-key-chef-side {{ display: none; }}
 @media (max-width: 640px) {{
-  .st-key-chef-side {{ display: none; }}
+  .st-key-chef-main .chef {{ width: 80px; height: 80px; }}
   .kitchen-view {{ height: 16vh; }}
   .block-container {{ padding: 1.25rem 1rem 3rem; }} .chef {{ width: 80px; height: 80px; }}
   [data-testid="stTabs"] {{ padding: 0.5rem 0.9rem 1.25rem; }}
@@ -579,7 +582,9 @@ profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetar
 # The chef's welcome: hello in the kitchen's own language, then one tip, dish fact or chef's quote, the same one
 # for the whole visit (a seed per visit, so reruns do not change it)
 visit = st.session_state.setdefault("chef_seed", random.randrange(1_000_000))
-chef_says(chef, "happy", f"{greeting(theme_name)} {line(theme_name, visit)} Tell me what you can't eat in the "
+said = line(theme_name, visit)
+said += "" if said.endswith((".", "!", "?")) else "."          # a quote ends with its source: close the sentence
+chef_says(chef, "happy", f"{greeting(theme_name)} {said} Tell me what you can't eat in the "
                          "sidebar, then find a recipe or check one of yours.")
 
 # ---------- Two tabs ----------
