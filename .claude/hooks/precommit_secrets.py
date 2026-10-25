@@ -12,7 +12,8 @@ from pathlib import Path
 SECRET = re.compile(r'(^|/)(\.secrets(/|$)|[^/]*\.(key|pem)$|\.env(?!\.example$)(\.[\w-]+)?$|data/user(/|$)|logs(/|$)'
                     r'|[^/]*audit[^/]*\.jsonl$|user_profiles[^/]*$|chat_history[^/]*$)', re.IGNORECASE)   # Windows ignores case
 HOOK = '#!/bin/sh\n# Installed by .claude/hooks/precommit_secrets.py --install\nroot="$(git rev-parse --show-toplevel)"\n' \
-       'py="$(command -v python3 || command -v python)"\nexec "$py" "$root/.claude/hooks/precommit_secrets.py"\n'
+       'py="$(command -v python3 || command -v python)"\n"$py" "$root/.claude/hooks/precommit_secrets.py" || exit 1\n' \
+       'exec "$py" "$root/.claude/hooks/precommit_checks.py"\n'   # then the code checks (precommit_checks.py)
 
 
 def staged():

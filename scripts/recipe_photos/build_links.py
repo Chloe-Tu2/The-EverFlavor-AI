@@ -1,6 +1,11 @@
 """Build the list of photo links: one row per (source, recipe_id, url)."""
-import json, string, sys, time, urllib.request
+import json
+import string
+import sys
+import time
+import urllib.request
 from pathlib import Path
+
 import pandas as pd
 from datasets import load_dataset
 

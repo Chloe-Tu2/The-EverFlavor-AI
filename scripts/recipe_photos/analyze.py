@@ -1,5 +1,6 @@
 """Summarize manifest.csv: counts, failures, sizes, shared images."""
 import sys
+
 import pandas as pd
 
 m = pd.read_csv(sys.argv[1])

@@ -404,6 +404,16 @@ def cooking(message: str = "Cooking..."):
     return spot
 
 
+def from_commons(url: object) -> bool:
+    """A link that really is Wikimedia Commons over https (the dish photos and their file pages), nothing else."""
+    return isinstance(url, str) and re.match(r"https://(?:upload|thumb|commons)\.wikimedia\.org/", url) is not None
+
+
+def plain(text: object) -> str:
+    """Text from outside (a photo's author, a dish's name) shown as words only: HTML and Markdown signs escaped."""
+    return re.sub(r"([\\`*_{}\[\]()#+!|<>~-])", r"\\\1", html.escape(str(text)))
+
+
 def video_search_link(dish: str, country: object) -> str:
     """A YouTube search for the dish (no API, no key, nothing plays by itself): the dish's own name and, when
     known, its country, so "bulgogi" finds Korean bulgogi."""
@@ -696,11 +706,11 @@ with find_tab:
                     picture.image(photo, width="stretch")
                     if isinstance(link, str) and link.startswith("http"):
                         picture.caption(f"Photo: [{html.escape(str(site or 'the recipe page'))}]({link})")
-                elif isinstance(row.get("thumb_url"), str):
+                elif from_commons(row.get("thumb_url")) and from_commons(row.get("file_page")):
                     # No photo of its own: a free photo of the dish in general (Wikimedia Commons), said so plainly
                     picture.image(row["thumb_url"], width="stretch")
-                    picture.caption(f"A photo of {html.escape(str(row['dish_label']))} in general, not this recipe. "
-                                    f"[{html.escape(str(row['credit']))}]({row['file_page']})")
+                    picture.caption(f"A photo of {plain(row['dish_label'])} in general, not this recipe. "
+                                    f"[{plain(row['credit'])}]({row['file_page']})")
                 else:
                     picture.markdown(f'<div class="no-photo"><span class="ico" style="background-image: '
                                      f'url({art("icon_cloche")})"></span>No photo of this dish yet</div>',

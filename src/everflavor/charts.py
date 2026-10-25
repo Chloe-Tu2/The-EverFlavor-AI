@@ -8,6 +8,7 @@ import seaborn as sns
 from matplotlib.axes import Axes
 from matplotlib.container import BarContainer
 from matplotlib.figure import Figure
+from matplotlib.ticker import FuncFormatter
 
 __all__ = [
     "FAMILY_COLORS",
@@ -68,7 +69,7 @@ def show_figure(fig: Figure, name: str, folder: str | Path = FIGURE_DIR) -> None
 
 def thousands(ax: Axes, axis: str = "y") -> None:
     """Show 12,000 instead of 12000 on a count axis ("y" or "x")."""
-    formatter = plt.FuncFormatter(lambda v, _: f"{v:,.0f}")
+    formatter = FuncFormatter(lambda v, _: f"{v:,.0f}")
     (ax.yaxis if axis == "y" else ax.xaxis).set_major_formatter(formatter)
 
 

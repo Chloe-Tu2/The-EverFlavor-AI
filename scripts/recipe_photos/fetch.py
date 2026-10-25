@@ -2,10 +2,18 @@
 
 usage: python -I fetch.py LINKS_CSV PHOTO_DIR [--sample N]
 """
-import csv, hashlib, io, json, random, sys, threading, time
+import csv
+import hashlib
+import io
+import json
+import random
+import sys
+import threading
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
+
 import pandas as pd
 import requests
 from PIL import Image
@@ -54,7 +62,7 @@ def describe(path):
         with Image.open(io.BytesIO(data)) as im:
             out["width"], out["height"] = im.size
             out["ahash"] = ahash(im)
-    except Exception as e:  # not a readable image
+    except Exception as e:  # noqa: BLE001  (any file that is not a readable image is recorded, not fatal)
         out["image_error"] = type(e).__name__
     return out
 

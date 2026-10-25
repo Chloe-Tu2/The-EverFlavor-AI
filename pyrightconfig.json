@@ -1,0 +1,19 @@
+{
+  "//": "The editor's checker (Pyright / Pylance) set to agree with CI: mypy (config/mypy.ini) checks the types; Pyright reports what mypy does not, such as undefined names and unused imports. Optional libraries (torch, crewai, google.colab) are only warnings, like mypy's ignore_missing_imports.",
+  "typeCheckingMode": "basic",
+  "include": ["src", "app", "tests", "scripts"],
+  "extraPaths": ["src", "app"],
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportArgumentType": "none",
+  "reportIndexIssue": "none",
+  "reportCallIssue": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportReturnType": "none",
+  "reportAssignmentType": "none",
+  "reportOperatorIssue": "none",
+  "reportOptionalMemberAccess": "none",
+  "reportOptionalSubscript": "none",
+  "reportOptionalOperand": "none"
+}
