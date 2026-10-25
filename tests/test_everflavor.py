@@ -183,6 +183,10 @@ def test_cuisine_family_and_origin():
     assert origin_from_labels("['mexican', 'tex-mex']") == ("United States", "Texas")
     assert origin_from_labels("['iranian-persian']") == ("Iran", None)
     assert origin_from_labels("['american', 'italian']") == ("Unknown", None)
+    assert origin_from_labels("['cajun', 'southern-united-states']") == ("United States", "Louisiana")
+    assert origin_from_labels("['southern-united-states', 'midwestern']") == ("United States", None)
+    assert origin_from_labels("['taiwanese']") == ("Taiwan", None)
+    assert origin_from_labels("['israeli']") == ("Israel", None)
 
 
 # ------------------------------------------------------------------ pipeline

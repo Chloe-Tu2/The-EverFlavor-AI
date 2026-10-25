@@ -83,6 +83,16 @@ DEFAULT_CHEF = "ref_classic_"
 # With "Match the kitchen to the cuisine" on (Settings), searching a cuisine family opens its kitchen
 # (each family opens the kitchen of its biggest country in the data: China leads Asian recipes after India, which
 # has no kitchen yet; Morocco leads African; Italy, Mexico and Lebanon the others. Japanese is in Settings.)
+# A country opens the kitchen of its region (docs/plans/CUISINE_REGIONS.md); countries without a fitting kitchen
+# yet open Classic rather than a wrong one
+COUNTRY_KITCHENS = {
+    **dict.fromkeys(["China", "Taiwan"], "Chinese"), "Japan": "Japanese", "Mexico": "Mexican",
+    **dict.fromkeys(["Italy", "Greece", "Spain", "Portugal", "France"], "Mediterranean"),
+    **dict.fromkeys(["Lebanon", "Turkey", "Iran", "Egypt", "Saudi Arabia", "Iraq", "Palestine", "Israel", "Syria"],
+                    "Middle Eastern"),
+    **dict.fromkeys(["Morocco", "Algeria", "Tunisia", "Libya"], "Moroccan"),
+}
+MIN_COUNTRY_RECIPES = 50          # a country is in the Country list with at least this many recipes
 CUISINE_KITCHENS = {"Asian": "Chinese", "African": "Moroccan", "European": "Mediterranean",
                     "Latin American": "Mexican", "Middle Eastern": "Middle Eastern"}
 
@@ -355,8 +365,11 @@ CHEF_ICON = ART / "chef_happy.png"
 st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
                    layout="wide")
 theme_name = st.session_state.get("theme", "Classic")
-if st.session_state.get("follow_cuisine", True) and st.session_state.get("cuisine") in CUISINE_KITCHENS:
-    theme_name = CUISINE_KITCHENS[st.session_state["cuisine"]]
+if st.session_state.get("follow_cuisine", True):
+    if st.session_state.get("country", "Any") != "Any":
+        theme_name = COUNTRY_KITCHENS.get(st.session_state["country"], "Classic")
+    elif st.session_state.get("cuisine") in CUISINE_KITCHENS:
+        theme_name = CUISINE_KITCHENS[st.session_state["cuisine"]]
 CHEF = THEMES[theme_name].get("chef", DEFAULT_CHEF)   # which chef stands in this kitchen (chef_says)
 if st.session_state.get("cook") == "Woman" and CHEF.startswith("ref_"):   # the regions with a woman cook
     CHEF += "woman_"
@@ -439,12 +452,22 @@ find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pix
 with find_tab:
     families = ["Any"] + sorted(recipes["cuisine_family"].dropna().unique())
     cuisine = st.selectbox("Cuisine", families, key="cuisine")
+    pool = recipes
+    if "origin_country" in recipes:   # the full data knows each recipe's country (notebook 01); the demo does not
+        in_family = recipes if cuisine == "Any" else recipes[recipes["cuisine_family"] == cuisine]
+        counts = in_family["origin_country"].value_counts()
+        counts = counts[(counts >= MIN_COUNTRY_RECIPES) & (counts.index != "Unknown")]
+        country = st.selectbox("Country", ["Any", *counts.index], key="country",
+                               format_func=lambda c: c if c == "Any" else f"{c} ({counts.get(c, 0):,})",
+                               help="Where the dish comes from. The kitchen follows it when Settings says so.")
+        if country != "Any":
+            pool = recipes[recipes["origin_country"] == country]
     how_many = st.number_input("How many ideas?", min_value=1, max_value=20, value=5)
 
     if st.button("Find recipes", type="primary"):
         loading = cooking("Cooking up ideas...")
         results = baseline_recommend(
-            recipes,
+            pool,
             cuisine_family=None if cuisine == "Any" else cuisine,
             calorie_target=calories,
             vegetarian_only=vegetarian,
@@ -474,6 +497,10 @@ with find_tab:
                                      f'url({art("icon_cloche")})"></span>No photo of this dish yet</div>',
                                      unsafe_allow_html=True)
                 info.subheader(row["recipe_name"].title())
+                where = row.get("origin_country")
+                if isinstance(where, str) and where != "Unknown":
+                    region = row.get("origin_region")
+                    info.caption(f"From {region + ', ' if isinstance(region, str) else ''}{where}")
                 stats(info, row["calories_per_serving"], row["protein_g"], row.get("minutes"))
                 ingredients = row["ingredient_list"]
 

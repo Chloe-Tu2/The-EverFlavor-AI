@@ -83,6 +83,9 @@ Everything we are working on or have agreed to do next, in one place. Owners are
 | 12 | **Kitchen art v5, day and night:** each traced kitchen in morning, day, evening and night light (sky in the windows recolored, lanterns lit at night, the room's light shifted), picked by the visitor's clock or the theme. Lamps are off by day (morning, afternoon) and lit at evening and night. Drafts made with `design/pixel-art/day_night.py`; next: show them in the app | [archive/README.md](../../design/pixel-art/archive/README.md) | Claude | in progress |
 | 13 | **More data for the models:** what each model is short of, candidate datasets with licenses, download order | [DATA_AND_MODELS.md](DATA_AND_MODELS.md) | | planned |
 | 14 | **Kitchen art v6 (later):** a team concept sheet per kitchen (room, chefs, title sign, props), started with the colorful Saffron Market | [future-works/v6/](../../design/pixel-art/future-works/v6/README.md) | team (sheets), Claude | set aside |
+| 15 | **Cuisines by country:** a Country list (53 countries with 50+ recipes) that opens the region's kitchen, and fixes to the country labels (state regions such as Louisiana kept; Taiwanese, Israeli, Persian labels) | [CUISINE_REGIONS.md](CUISINE_REGIONS.md) | Claude | Country list and label fixes done; next: notebook 01 rerun, the model kept inside each broad area (Caribbean and South American recipes are pushed into Mexico today), a hand-checked sample |
+| 16 | **Cook time, steps and YouTube links** on each recipe card (Food.com has them; the demo data does not) | [COOKING_STEPS_AND_VIDEOS.md](COOKING_STEPS_AND_VIDEOS.md) | | planned |
+| 17 | **Houston map:** where to buy a recipe's ingredients and where to eat it, MapLibre with free OpenFreeMap tiles, local only | [MAP.md](MAP.md) | | planned; 8 questions for the team |
 
 ### Follow-up for the next session (2026-10-22)
 

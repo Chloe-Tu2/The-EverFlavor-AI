@@ -137,7 +137,8 @@ ORIGIN_LABELS = {
     # Middle East and North Africa
     "turkish": ("Turkey", None), "lebanese": ("Lebanon", None), "iranian persian": ("Iran", None),
     "iraqi": ("Iraq", None), "syrian": ("Syria", None), "palestinian": ("Palestine", None),
-    "saudi arabian": ("Saudi Arabia", None), "armenia": ("Armenia", None), "azerbaijan": ("Azerbaijan", None),
+    "saudi arabian": ("Saudi Arabia", None), "persian": ("Iran", None), "iranian": ("Iran", None),
+    "israeli": ("Israel", None), "yemeni": ("Yemen", None), "armenia": ("Armenia", None), "azerbaijan": ("Azerbaijan", None),
     "moroccan": ("Morocco", None), "egyptian": ("Egypt", None), "libyan": ("Libya", None),
     "tunisian": ("Tunisia", None), "algerian": ("Algeria", None),
     # Sub-Saharan Africa
@@ -148,7 +149,9 @@ ORIGIN_LABELS = {
     # Asia and Oceania
     "chinese": (CN, None), "china": (CN, None), "szechuan": (CN, "Sichuan"), "cantonese": (CN, "Guangdong"),
     "hunan": (CN, "Hunan"), "beijing": (CN, "Beijing"), "mongolian": ("Mongolia", None),
+    "taiwanese": ("Taiwan", None), "taiwan": ("Taiwan", None), "hong kong": (CN, "Hong Kong"),
     "japanese": ("Japan", None), "japan": ("Japan", None), "korean": ("South Korea", None),
+    "south korean": ("South Korea", None), "singaporean": ("Singapore", None), "sri lankan": ("Sri Lanka", None),
     "korea": ("South Korea", None), "thai": ("Thailand", None), "thailand": ("Thailand", None),
     "vietnamese": ("Vietnam", None), "cambodian": ("Cambodia", None), "cambodia": ("Cambodia", None),
     "laotian": ("Laos", None), "laos": ("Laos", None), "malaysian": ("Malaysia", None),
@@ -157,13 +160,17 @@ ORIGIN_LABELS = {
     "nepalese": ("Nepal", None), "bangladesh": ("Bangladesh", None), "afghanistan": ("Afghanistan", None),
     "australian": ("Australia", None), "new zealand": ("New Zealand", None),
 }
+# Regions that cover several states: a recipe that also names a state-level region (Louisiana with
+# "southern united states") keeps the state-level one
+BROAD_REGIONS = {"Southern US", "Southwestern US", "Northeastern US", "Midwestern US", "Pacific Northwest"}
 
 
 def origin_from_labels(raw: object) -> tuple[str, str | None]:
     """Find the country (and region) a recipe comes from in its source labels.
 
     A label that names a region wins over a plain country label for the same
-    recipe ("mexican" + "tex-mex" -> United States, Texas). Labels that point
+    recipe ("mexican" + "tex-mex" -> United States, Texas), and a state-level
+    region over a broad one ("cajun" + "southern united states" -> Louisiana). Labels that point
     to different countries ("american" + "italian") are ambiguous.
 
     Args:
@@ -181,4 +188,6 @@ def origin_from_labels(raw: object) -> tuple[str, str | None]:
     if len(countries) != 1:
         return ("Unknown", None)
     regions = {region for _, region in candidates if region is not None}
+    if len(regions) > 1:
+        regions -= BROAD_REGIONS
     return (countries.pop(), regions.pop() if len(regions) == 1 else None)
