@@ -23,6 +23,7 @@ add `src/` to the path for you.
 | | `nutrition_quality.py` | Macro labels, nutrient-rich ingredients (notebook 07) |
 | | `calories.py` | Calorie calculator: ingredient lines to grams to calories |
 | | `cooking.py` | Cooking methods and fats (notebook 02) |
+| | `cooking_time.py` | Cook-time estimates for recipes without a time (`estimate_minutes`, `time_label`): gradient boosting on the times in the steps and similar Food.com names; `minutes_source` says "recipe" or which estimate, real times are never replaced |
 | | `knowledge.py` | Pairings, substitutions, shelf life, names (notebook 04) |
 | | `variants.py` | Diet versions of each dish (notebook 06) |
 | | `stores.py` | Stores and products, where to buy (notebook 03) |

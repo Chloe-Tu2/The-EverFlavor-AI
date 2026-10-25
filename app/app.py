@@ -41,6 +41,7 @@ from everflavor import __version__
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
+from everflavor.dish_steps import methods_of, split_minutes, step_breakdown
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
 from everflavor.recommend import baseline_recommend
@@ -400,6 +401,38 @@ def video_search_link(dish: str, country: object) -> str:
     return "https://www.youtube.com/results?search_query=" + "+".join(re.findall(r"[\w'-]+", words))
 
 
+@st.dialog("About this dish", width="large")
+def dish_page(row: pd.Series, dish: str) -> None:
+    """The dish on its own page: where it is from, how its time divides, and each step with its time, the pan or
+    pot it uses, the method and what goes in (dish_steps.py, from the recipe's own words)."""
+    st.subheader(dish.title())
+    where = row.get("origin_country")
+    if isinstance(where, str) and where != "Unknown":
+        st.caption(f"From {where}")
+    steps = step_breakdown(row.get("instructions"), row.get("ingredient_list"))
+    minutes = row.get("minutes")
+    total = float(minutes) if minutes is not None and pd.notna(minutes) else None
+    split = split_minutes(steps, total)
+    times = [("Total", split["total"]), ("On the heat", split["on_heat"]), ("Preparation and waiting", split["rest"])]
+    cols = st.columns(3)
+    for col, (label, value) in zip(cols, times, strict=True):
+        col.metric(label, f"{value:.0f} min" if value is not None else "Not written")
+    methods = methods_of(row.get("instructions"))
+    if methods:
+        st.write("**Cooking methods:** " + ", ".join(methods))
+    if not steps:
+        st.info("This recipe has no steps in our data; its own page has them.")
+    for i, step in enumerate(steps, 1):
+        details = [str(step["vessel"]).capitalize()] if step["vessel"] else []
+        details += [f"{float(str(step['minutes'])):.0f} min"] if step["minutes"] else []
+        details += ["on the heat"] if step["on_heat"] else []
+        goes_in = ", ".join(str(item) for item in list(step["ingredients"]))  # type: ignore[call-overload]
+        st.markdown(f"**{i}.** {html.escape(str(step['text']))}"
+                    + (f"  \n<small>{' · '.join(details)}{' · in: ' + html.escape(goes_in) if goes_in else ''}</small>"
+                       if details or goes_in else ""), unsafe_allow_html=True)
+    st.caption("Times are the ones written in the steps; a step without one is not counted.")
+
+
 def stats(place, calories: float, protein: float, minutes: float | None) -> None:
     """A recipe's calories, protein and time, each with its pixel icon."""
     chips = [("icon_flame", f"{calories:.0f}", "kcal"), ("icon_protein", f"{protein:.0f} g", "protein"),
@@ -543,9 +576,13 @@ with find_tab:
         cuisine = st.selectbox("Cuisine", ["Any"] + sorted(recipes["cuisine_family"].dropna().unique()), key="cuisine")
     how_many = st.number_input("How many ideas?", min_value=1, max_value=20, value=5)
 
+    # The results stay on the page between clicks (so "About this dish" can open), but only for the exact choices
+    # they were found with: change the profile or the search and they are gone, never shown as checked for it
+    asked = (tuple(avoid), tuple(diets), vegetarian, vegan, calories, cuisine, str(st.session_state.get("search")),
+             int(how_many))
     if st.button("Find recipes", type="primary"):
         loading = cooking("Cooking up ideas...")
-        results = baseline_recommend(
+        st.session_state["found"] = (asked, baseline_recommend(
             pool,
             cuisine_family=None if cuisine == "Any" else cuisine,
             calorie_target=calories,
@@ -554,8 +591,11 @@ with find_tab:
             avoid=avoid,
             diets=diets,
             top_n=int(how_many),
-        )
+        ))
         loading.empty()
+    found = st.session_state.get("found")
+    if found and found[0] == asked:
+        results = found[1]
         if results.empty:
             chef_says(chef, "thinking", "Hmm, nothing matches all your choices. Try removing one.", "empty")
         else:
@@ -604,6 +644,8 @@ with find_tab:
                 elif isinstance(link, str) and link.startswith("http"):
                     info.caption(f"Steps: on [the recipe's page]({link})")
                 info.markdown(f"[Watch it made on YouTube]({video_search_link(str(named['dish_name']), where)})")
+                if info.button("About this dish", key=f"about-{number}"):
+                    dish_page(row, str(named["dish_name"]))
 
 with check_tab:
     st.write("Paste a recipe (one ingredient per line) to see if it fits your profile.")
