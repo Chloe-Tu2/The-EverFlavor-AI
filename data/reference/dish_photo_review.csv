@@ -1,0 +1,7 @@
+dish_qid,dish_label,keep,reason,reviewed_by
+Q990900,bread pudding,no,photo looks like a flan,Claude (2026-10-25)
+Q1432535,chicken soup,no,a Chinese steam-pot dish (Qi Guoji): misleading for most chicken soup recipes,Claude (2026-10-25)
+Q1501244,vegetable soup,no,a Thai soup (tom jued tahoo): misleading for most vegetable soup recipes,Claude (2026-10-25)
+Q5190246,pie crust,no,an ingredient not a dish,Claude (2026-10-25)
+Q1094882,clam chowder,no,the file is a quail photo,Claude (2026-10-25)
+Q17048447,yellow rice,no,a Korean rice dish (ganghwang-bap),Claude (2026-10-25)

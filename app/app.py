@@ -137,6 +137,16 @@ def load_recipes() -> pd.DataFrame:
         path = DATA / f"{extra}.parquet"
         if path.exists() and "recipe_id" in df:
             df = df.merge(pd.read_parquet(path), on="recipe_id", how="left")
+    # Free photos of dishes in general (scripts/dish_photos/), only for recipes with no photo of their own and only
+    # the dishes the review has not turned down (data/reference/dish_photo_review.csv)
+    dish_photos, review = DATA / "dish_photos.parquet", ROOT / "data" / "reference" / "dish_photo_review.csv"
+    if dish_photos.exists() and "recipe_id" in df:
+        extra = pd.read_parquet(dish_photos, columns=["recipe_id", "dish_qid", "dish_label", "thumb_url", "file_page",
+                                                      "credit"])
+        if review.exists():
+            refused = pd.read_csv(review).query("keep == 'no'")["dish_qid"]
+            extra = extra[~extra["dish_qid"].isin(refused)]
+        df = df.merge(extra, on="recipe_id", how="left")
     return df
 
 
@@ -686,6 +696,11 @@ with find_tab:
                     picture.image(photo, width="stretch")
                     if isinstance(link, str) and link.startswith("http"):
                         picture.caption(f"Photo: [{html.escape(str(site or 'the recipe page'))}]({link})")
+                elif isinstance(row.get("thumb_url"), str):
+                    # No photo of its own: a free photo of the dish in general (Wikimedia Commons), said so plainly
+                    picture.image(row["thumb_url"], width="stretch")
+                    picture.caption(f"A photo of {html.escape(str(row['dish_label']))} in general, not this recipe. "
+                                    f"[{html.escape(str(row['credit']))}]({row['file_page']})")
                 else:
                     picture.markdown(f'<div class="no-photo"><span class="ico" style="background-image: '
                                      f'url({art("icon_cloche")})"></span>No photo of this dish yet</div>',

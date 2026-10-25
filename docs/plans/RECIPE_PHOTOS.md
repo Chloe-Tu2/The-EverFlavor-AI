@@ -31,6 +31,21 @@ Scripts: `scripts/recipe_photos/` (build_links.py, fetch.py, analyze.py; paced, 
   (step 4 below), by hash, not by link.
 - Most photos are 600 x 600 or 300 x 300; 24 are under 5 KB (to check).
 
+## Photos of dishes in general (2026-10-25)
+
+For recipes with no photo of their own, a free photo of the dish in general: Wikidata's chosen picture (P18)
+for 327 dishes, from Wikimedia Commons, free licenses only (CC0, public domain, CC BY, CC BY-SA), with author
+and license (`scripts/dish_photos/fetch_dish_photos.py`, files in `data/raw/dish_photos/`, table
+`data/processed/dish_photos.parquet`). 33,260 recipes get one. The card says it plainly: "A photo of potato
+salad in general, not this recipe", with the credit linking to the file's page.
+
+- A dish photo is matched only when the recipe's clean name names the dish (two words or more) and the countries
+  fit; brand products, diagrams and wrong dishes were deleted (13 files).
+- **Review:** `data/reference/dish_photo_review.csv` turns a dish's photo down (keep = no, with the reason and who
+  decided). Claude checked the 60 most used photos by eye and turned down 6 (bread pudding, chicken soup,
+  vegetable soup, pie crust, clam chowder, yellow rice). The team checks the rest the same way.
+- The recipe's own photo always wins; a hidden logo falls back to the dish photo.
+
 ## Steps, in order
 
 | # | Step | How | Effort |
