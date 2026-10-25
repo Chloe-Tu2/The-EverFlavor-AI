@@ -4,7 +4,7 @@ The chef only reads out what the back end decided (src/everflavor). These lines 
 a welcome in the region's language, a few well-known dishes, common cooking tips and real quotes. None of them
 is safety, health or medical advice, and none of them judges a recipe; that stays with the back end.
 
-Every native phrase and every quote has its source in SOURCES (checked 2026-10-24). Add a line only with a
+Every native phrase and every quote has its source in SOURCES (checked 2026-10-24; chef quotes 2026-10-25). Add a line only with a
 source; leave a quote out when its wording or speaker cannot be checked.
 
     greeting("Chinese")   # '欢迎 (huānyíng) — "welcome"! I'm your Chinese kitchen chef.'
@@ -23,10 +23,12 @@ class Phrase(NamedTuple):
 
 
 class Quote(NamedTuple):
-    """A real quote: the words, who said them and where (the URL is in SOURCES)."""
+    """A real quote: the words, who said them (and their country), where, and the kitchen it belongs to (the URL
+    is in SOURCES under the speaker's name)."""
     text: str
     speaker: str
     where: str
+    kitchen: str
 
 
 # The kitchens in app/app.py (THEMES); a kitchen not listed here gets Classic's lines
@@ -148,26 +150,37 @@ REGIONAL: dict[str, dict[str, list[Phrase] | list[str]]] = {
     },
 }
 
-# Real quotes by chefs and food writers, each checked in SOURCES (Wikiquote with its citation, or the interview)
+# Real quotes by working chefs, one or two per kitchen, each checked in SOURCES (the interview, talk or article)
 QUOTES = [
-    Quote("No one is born a great cook, one learns by doing.", "Julia Child", "My Life in France (2006), ch. 3"),
-    Quote("One of the secrets, and pleasures, of cooking is to learn to correct something if it goes awry; and one "
-          "of the lessons is to grin and bear it if it cannot be fixed.", "Julia Child",
-          "My Life in France (2006), ch. 6"),
-    Quote("Learn how to cook -- try new recipes, learn from your mistakes, be fearless, and above all have fun!",
-          "Julia Child", "My Life in France (2006), ch. 9"),
-    Quote("Usually one's cooking is better than one thinks it is.", "Julia Child", "My Life in France (2006), ch. 2"),
-    Quote("A cookbook is only as good as its worst recipe.", "Julia Child",
-          "quoted in her New York Times obituary (2004)"),
-    Quote("Find out how other people live and eat and cook. Learn from them – wherever you go.", "Anthony Bourdain",
-          "Medium Raw (2010)"),
-    Quote("Meals make the society, hold the fabric together in lots of ways that were charming and interesting "
-          "and intoxicating to me.", "Anthony Bourdain", "interview with BookPage"),
-    Quote("The discovery of a new dish does more for the happiness of mankind, than the discovery of a new planet.",
-          "Jean Anthelme Brillat-Savarin", "The Physiology of Taste (1825), aphorism 9, tr. L. F. Simpson"),
-    Quote("The family meal is the nursery of democracy.", "Michael Pollan", "The Guardian (25 May 2013)"),
-    Quote("Cooking is an act of love.", "Massimo Bottura",
-          "NUVO Magazine Q&A (2016), on the lesson his mother taught him"),
+    Quote("If Yan can cook, so can you!", "Martin Yan (China, Hong Kong and US)",
+          "his sign-off on Yan Can Cook (since 1978)", "Chinese"),
+    Quote("In Chinese cooking, veggies take a prominent role.", "Ken Hom (US and China)",
+          "interview with Euronews (10 Oct 2022)", "Chinese"),
+    Quote("You have to fall in love with your work. You must dedicate your life to mastering your skill.",
+          "Jiro Ono (Japan)", "in the documentary Jiro Dreams of Sushi (2011)", "Japanese"),
+    Quote("It was always cooked with kokoro – or from the heart.", "Nobu Matsuhisa (Japan)",
+          "Fine Dining Lovers interview (2016), on his mother's and grandmother's cooking", "Japanese"),
+    Quote("The inspiration in our restaurants is home cooking and simple cooking, so we've always been very "
+          "connected to that.", "Enrique Olvera (Mexico)", "NPR interview (rebroadcast 7 Jun 2021)", "Mexican"),
+    Quote("I feel that anybody who wants to cook Mexican food should know about traditions in Mexican food. But "
+          "then you have to do your own thing, and you have to be creative.", "Gabriela Cámara (Mexico)",
+          "PBS NewsHour (25 Nov 2020)", "Mexican"),
+    Quote("Cooking is an act of love.", "Massimo Bottura (Italy)",
+          "NUVO Magazine Q&A (2016), on the lesson his mother taught him", "Mediterranean"),
+    Quote("Even under intense kitchen pressure, there is still something pretty meditative about cooking.",
+          "Yotam Ottolenghi (Israel and UK)", "interview in The Times of Israel (24 Apr 2016)", "Middle Eastern"),
+    Quote("Once you cook something a few times you can, of course, leave the measurements and work instinctively.",
+          "Yotam Ottolenghi (Israel and UK)", "interview in The Times of Israel (24 Apr 2016)", "Middle Eastern"),
+    Quote("For me, the flavours of Morocco are the colours, the ancestors, the magic, the mysticality and the power "
+          "of people.", "Najat Kaanache (Morocco and Spain)", "interview with The 50 Best (31 Jul 2020)",
+          "Moroccan"),
+    Quote("I want to feel that when I eat something it reminds me of the way my grandmother made it.",
+          "Mourad Lahlou (Morocco and US)", "interview reported by Yabiladi (4 May 2017)", "Moroccan"),
+    Quote("I like to think we changed the course of America in this restaurant over a bowl of gumbo.",
+          "Leah Chase (US, New Orleans)", "at her 90th birthday, quoted by the Southern Foodways Alliance",
+          "Classic"),
+    Quote("Cooking for me is also a way of looking back. When I make the apple cake, I see my mother.",
+          "Marcus Samuelsson (Ethiopia, Sweden and US)", "NPR (25 Nov 2009)", "Classic"),
 ]
 
 # Where each phrase and quote was checked
@@ -188,11 +201,18 @@ SOURCES = {
     "أهلاً وسهلاً": "https://en.wiktionary.org/wiki/أهلا_وسهلا",
     "بالهنا والشفا": "https://en.wiktionary.org/wiki/بالهنا_والشفا",
     "مرحبا": "https://en.wiktionary.org/wiki/مرحبا",   # the Moroccan Arabic section: marḥba, "welcome"
-    "Julia Child": "https://en.wikiquote.org/wiki/Julia_Child",
-    "Anthony Bourdain": "https://en.wikiquote.org/wiki/Anthony_Bourdain",
-    "Jean Anthelme Brillat-Savarin": "https://en.wikiquote.org/wiki/Jean_Anthelme_Brillat-Savarin",
-    "Michael Pollan": "https://en.wikiquote.org/wiki/Michael_Pollan",
+    "Martin Yan": "https://en.wikipedia.org/wiki/Yan_Can_Cook",
+    "Ken Hom": "https://www.euronews.com/2022/10/10/chef-ken-hom-is-still-trying-to-teach-europeans-to-cook-chinese-food",
+    "Jiro Ono": "https://www.dvdtalk.com/reviews/review/55671",   # review quoting the film's subtitles
+    "Nobu Matsuhisa": "https://www.finedininglovers.com/explore/articles/meet-nobu-san-japans-culinary-global-citizen",
+    "Enrique Olvera": "https://www.wypr.org/2021-06-07/encore-chef-enrique-olvera-on-perfect-imperfection-in-the-kitchen",
+    "Gabriela Cámara": "https://www.pbs.org/newshour/show/mexican-chef-gabriela-camara-on-food-as-a-force-for-social-good",
     "Massimo Bottura": "https://nuvomagazine.com/palate/qa-chef-massimo-bottura",
+    "Yotam Ottolenghi": "https://www.timesofisrael.com/how-chef-yotam-ottolenghi-conquered-kitchens-across-the-uk/",
+    "Najat Kaanache": "https://www.the50.com/stories/News/najat-kaanache-nur-moroccan-chef-cooking-on-the-moon.html",
+    "Mourad Lahlou": "https://en.yabiladi.com/articles/details/53447/mourad-lahlou-fransisco-s-chef-love.html",
+    "Leah Chase": "https://www.southernfoodways.org/latest/remembering-leah-chase/",
+    "Marcus Samuelsson": "https://www.tpr.org/2009-11-25/chefs-global-foods-make-thanksgiving-american",
 }
 
 
@@ -216,12 +236,18 @@ def _say(phrase: Phrase) -> str:
     return f'In {phrase.language}, {phrase.native} ({phrase.say}) means "{phrase.meaning}".'
 
 
+def _quotes(kitchen: str) -> list[Quote]:
+    """The kitchen's own chefs' quotes when it has some (unknown kitchens use Classic's), else every quote."""
+    name = kitchen if kitchen in REGIONAL else "Classic"
+    return [quote for quote in QUOTES if quote.kitchen == name] or list(QUOTES)
+
+
 def line(kitchen: str, seed: int | str) -> str:
     """One general, regional or quote line, picked by the seed: the same seed always gives the same line, so a
     Streamlit rerun does not make the chef change what he says. A text seed is hashed with crc32 (stable across
     runs, unlike hash())."""
     pool = (GENERAL + _lines(kitchen, "dishes")
             + [_say(phrase) for phrase in _lines(kitchen, "greetings")[1:] + _lines(kitchen, "meal")]
-            + [f'"{quote.text}" — {quote.speaker}, {quote.where}' for quote in QUOTES])
+            + [f'"{quote.text}" — {quote.speaker}, {quote.where}' for quote in _quotes(kitchen)])
     number = zlib.crc32(seed.encode("utf-8")) if isinstance(seed, str) else seed
     return pool[number % len(pool)]
