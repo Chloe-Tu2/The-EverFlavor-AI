@@ -31,6 +31,7 @@ How a version moves, as most teams do it:
 |---|---|---|
 | 0.5.1 | **Released** 2026-10-22 (merged into `main`, tag `v0.5.1`) | `release/0.5.1` |
 | 0.6.0 | **Planned** (below) | `release/0.6.0` |
+| 0.7.1 | **Planned rename** of the 0.5.2 work (below) | `release/0.5.2` -> `release/0.7.1` |
 | 1.0.0 | Final presentation | |
 
 ### 0.5.1 (released 2026-10-22)
@@ -43,6 +44,32 @@ The first numbered release: everything up to now. Details in [CHANGELOG.md](../.
 - Recipe photo credits and the no-photo placeholder.
 - Guards for keys and user data; `CLAUDE.md`.
 - Kitchen art v5 (traced, lit, day and night; not in the app yet), the art archive and references, the data plan.
+
+### Plan: the 0.5.2 work becomes 0.7.1 (decided by med27-coder, 2026-10-24; not done yet)
+
+The work on `release/0.5.2` (living kitchens, chefs, search by country, dish names and the dish page) plus the
+landing page, the Houston map and the dish information page are released together as **0.7.1**, since they add
+several features (a MINOR step; 0.6.0 is skipped as a number, its planned items stay below). The team's sprites
+come in through the team (med27-coder's teammates).
+
+| Step | What | Where |
+|---|---|---|
+| 1 | Rename the branch `release/0.5.2` to `release/0.7.1` (GitHub keeps a redirect) | GitHub |
+| 2 | Retitle the 0.5.2 and 0.5.3 sections below as 0.7.1 (the base kitchen stays a later item unless it is ready) | this planner |
+| 3 | Build the landing page (option A, inside the app) | [LANDING_PAGE.md](LANDING_PAGE.md) |
+| 4 | Build the Houston map, after the team answers its questions | [MAP.md](MAP.md) |
+| 5 | Finish the dish information page: estimated times (notebook 01 rerun), pronunciation | [COOKING_STEPS_AND_VIDEOS.md](COOKING_STEPS_AND_VIDEOS.md), DISH_PRONUNCIATION.md (to finish) |
+| 6 | README: a "Watch" section at the bottom for interested readers with the YouTube link | `README.md` |
+| 7 | README: bring the main README up to date (the app as it is now: kitchens and light, chefs, search, dish page, the data rule, the project tree) | `README.md` |
+| 8 | Release: `__version__`, `CHANGELOG.md` (one 0.7.1 entry for all of it) and the What's new notes, all checks, merge into `main`, tag `v0.7.1` | `/release` |
+
+Open questions:
+
+- **The YouTube link in the README:** which video? A project demo or presentation video (the team records it), a
+  playlist of cooking videos, or the note that every recipe card has a "Watch it made on YouTube" search link?
+- **0.5.3, the American base kitchen:** part of 0.7.1 if the sprites are ready, or the next version?
+- **The README update** happens in the 0.7.1 release so `main` gets it with the code it describes (updating
+  `main` alone first would describe features `main` does not have yet).
 
 ### 0.5.2 (in progress): the living kitchen
 
