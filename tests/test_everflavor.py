@@ -730,3 +730,10 @@ def test_red_team_food_names():
     assert flagged("contains_gelatin", "collagen powder") and flagged("contains_gluten", "brewer's yeast")
     for item in ["tonkatsu sauce", "pâte brisée", "pate a choux", "mushroom pâté", "halal chorizo"]:
         assert not flagged("contains_pork", item), item
+
+
+def test_why_it_fits_restates_the_checks_in_plain_words():
+    from everflavor.recommend import why_it_fits
+    assert why_it_fits(["contains_peanut", "contains_tree_nut"], ["halal_friendly"], vegetarian=True) == (
+        "Checked for you: no peanut, no tree nut, halal-friendly ingredients, vegetarian")
+    assert why_it_fits() == ""

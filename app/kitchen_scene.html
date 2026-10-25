@@ -202,6 +202,20 @@ try {
   }, true);
 } catch (e) { /* storage blocked (private window): no dot, nothing breaks */ }
 
+// The phone's "Your profile" button opens Streamlit's own sidebar (added once per page, not per rerun)
+try {
+  const doc = parent.document;
+  if (!doc.documentElement.dataset.efProfile) {
+    doc.documentElement.dataset.efProfile = "1";
+    doc.addEventListener("click", e => {
+      if (e.target.closest && e.target.closest(".open-profile")) {
+        const open = doc.querySelector('[data-testid="stExpandSidebarButton"], [data-testid="stSidebarCollapsedControl"] button');
+        if (open) open.click();
+      }
+    }, true);
+  }
+} catch (e) { /* no access to the page: the sidebar arrow still works */ }
+
 // Each piece's pixels, read once, for tapping by pixel and for where its leaves fall from
 function readAlpha(p) {
   try {

@@ -44,7 +44,7 @@ from everflavor.dish_names import clean_title
 from everflavor.dish_steps import methods_of, split_minutes, step_breakdown
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
-from everflavor.recommend import baseline_recommend
+from everflavor.recommend import baseline_recommend, why_it_fits
 from everflavor.safety import UserProfile
 
 DATA = ROOT / "data" / "processed"
@@ -130,7 +130,13 @@ def nice(column: str) -> str:
 @st.cache_resource   # load the data once and share it (read only), not a fresh copy on every click
 def load_recipes() -> pd.DataFrame:
     parts = [DATA / f"recipes_{split}.parquet" for split in ("train", "val", "test")]
-    return pd.concat([pd.read_parquet(p) for p in parts], ignore_index=True)
+    df = pd.concat([pd.read_parquet(p) for p in parts], ignore_index=True)
+    # The photos and estimated times made next to the data (scripts/recipe_extras.py), when they are there
+    for extra in ("recipe_photos", "recipe_times"):
+        path = DATA / f"{extra}.parquet"
+        if path.exists() and "recipe_id" in df:
+            df = df.merge(pd.read_parquet(path), on="recipe_id", how="left")
+    return df
 
 
 @cache
@@ -281,6 +287,13 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   left: calc(50% - 6px); bottom: -12px; border-right-color: transparent; border-top-color: var(--border);
 }}
 .st-key-chef-side {{ display: none; }}
+/* The phone's "Your profile" button (the sidebar is hidden on phones) */
+.open-profile {{ display: none; }}
+@media (max-width: 640px) {{
+  .open-profile {{ display: block; width: 100%; min-height: 44px; text-align: left; cursor: pointer;
+    background: var(--panel); color: var(--text); border: 3px solid var(--border); box-shadow: 4px 4px 0 var(--shadow);
+    padding: 0.5rem 0.8rem; font-size: 1rem; margin-bottom: 0.75rem; }}
+}}
 @media (max-width: 640px) {{
   .st-key-chef-main .chef {{ width: 80px; height: 80px; }}
   .kitchen-view {{ height: 16vh; }}
@@ -380,24 +393,6 @@ def cooking(message: str = "Cooking..."):
     return spot
 
 
-MAX_STEPS, MAX_STEP_CHARS = 25, 600     # the card shows at most this many steps, each cut at this length
-
-
-def cooking_steps(instructions: object) -> list[str]:
-    """A recipe's steps, one per item: Food.com's are one per line (lowercase, " ," spacing), TheMealDB's are
-    paragraphs with "step 1" lines. Tidied for reading, at most MAX_STEPS, each at most MAX_STEP_CHARS."""
-    if not isinstance(instructions, str):
-        return []
-    steps = []
-    for raw in re.split(r"\r?\n+", instructions):
-        step = re.sub(r"\s+([,.;:!?])", r"\1", raw).strip(" -*")
-        if not step or re.fullmatch(r"(?i)step\s*\d+[.:]?", step):
-            continue
-        step = step[0].upper() + step[1:]
-        steps.append(step if len(step) <= MAX_STEP_CHARS else step[:MAX_STEP_CHARS].rsplit(" ", 1)[0] + "...")
-    return steps[:MAX_STEPS]
-
-
 def video_search_link(dish: str, country: object) -> str:
     """A YouTube search for the dish (no API, no key, nothing plays by itself): the dish's own name and, when
     known, its country, so "bulgogi" finds Korean bulgogi."""
@@ -421,11 +416,17 @@ def dish_page(row: pd.Series, dish: str) -> None:
     cols = st.columns(3)
     for col, (label, value) in zip(cols, times, strict=True):
         col.metric(label, f"{value:.0f} min" if value is not None else "Not written")
+    ingredients = row.get("ingredient_list")
+    if ingredients is not None and len(ingredients):
+        st.write("**Ingredients:** " + ", ".join(map(str, ingredients)))
+    st.markdown(f"[Watch it made on YouTube]({video_search_link(dish, where)})")
     methods = methods_of(row.get("instructions"))
     if methods:
         st.write("**Cooking methods:** " + ", ".join(methods))
     if not steps:
-        st.info("This recipe has no steps in our data; its own page has them.")
+        link = row.get("url")
+        st.info("This recipe has no steps in our data"
+                + (f": [its own page]({link}) has them." if isinstance(link, str) and link.startswith("http") else "."))
     for i, step in enumerate(steps, 1):
         details = [str(step["vessel"]).capitalize()] if step["vessel"] else []
         details += [f"{float(str(step['minutes'])):.0f} min"] if step["minutes"] else []
@@ -437,10 +438,15 @@ def dish_page(row: pd.Series, dish: str) -> None:
     st.caption("Times are the ones written in the steps; a step without one is not counted.")
 
 
-def stats(place, calories: float, protein: float, minutes: float | None) -> None:
-    """A recipe's calories, protein and time, each with its pixel icon."""
-    chips = [("icon_flame", f"{calories:.0f}", "kcal"), ("icon_protein", f"{protein:.0f} g", "protein"),
-             ("icon_timer", f"{minutes:.0f}" if minutes is not None and pd.notna(minutes) else "N/A", "minutes")]
+def stats(place, calories: float, protein: float, minutes: float | None, estimate: float | None = None) -> None:
+    """A recipe's calories, protein and time, each with its pixel icon. Without its own time, the estimate from
+    similar recipes (cooking_time.py) shows as "about ... min, estimated"; with neither, no time chip."""
+    chips = [("icon_flame", f"{calories:.0f}", "kcal"), ("icon_protein", f"{protein:.0f} g", "protein")]
+    if minutes is not None and pd.notna(minutes):
+        chips.append(("icon_timer", f"{minutes:.0f}", "minutes"))
+    elif estimate is not None and pd.notna(estimate):          # over 4 hours an estimate is no better than this
+        chips.append(("icon_timer", "several", "hours, estimated") if estimate > 240
+                     else ("icon_timer", f"about {estimate:.0f}", "min, estimated"))
     place.markdown('<div class="stats">' + "".join(
         f'<div class="stat"><span class="ico" style="background-image: url({art(icon)})"></span>'
         f'{value} <small>{label}</small></div>' for icon, value, label in chips) + "</div>", unsafe_allow_html=True)
@@ -589,6 +595,12 @@ chef_says(chef, "happy", f"{greeting(theme_name)} {said} Tell me what you can't 
                          "Your profile (the arrow at the top left on a phone), then find a recipe or check one of yours.")
 
 # ---------- Two tabs ----------
+# On a phone the sidebar is hidden: a button above the tabs says what the profile holds and opens it (the click is
+# passed to Streamlit's own sidebar button by app/kitchen_scene.html)
+set_profile = [*map(nice, avoid), *map(nice, diets), *(["vegetarian"] if vegetarian else []), *(["vegan"] if vegan else [])]
+st.markdown(f'<button class="open-profile" type="button">Your profile: '
+            f'{html.escape(", ".join(set_profile)) if set_profile else "nothing set yet"} · edit</button>',
+            unsafe_allow_html=True)
 find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pixel icons come from the CSS
 
 with find_tab:
@@ -664,6 +676,8 @@ with find_tab:
         for number, (_, row) in enumerate(results.iterrows()):
             with st.container(border=True, key=f"recipe-card-{number}"):
                 photo, link, site = row.get("image_url"), row.get("url"), row.get("source")
+                if row.get("photo_ok") in (False,):   # a site logo or icon, not the dish (RECIPE_PHOTOS.md)
+                    photo = None
                 picture, info = st.columns([1, 2])
                 if isinstance(photo, str) and photo.startswith("https://"):
                     # The photo comes with the recipe from its website; the credit links there, so anyone can check
@@ -686,7 +700,9 @@ with find_tab:
                 if isinstance(where, str) and where != "Unknown":
                     region = row.get("origin_region")
                     info.caption(f"From {region + ', ' if isinstance(region, str) else ''}{where}")
-                stats(info, row["calories_per_serving"], row["protein_g"], row.get("minutes"))
+                stats(info, row["calories_per_serving"], row["protein_g"], row.get("minutes"), row.get("minutes_estimate"))
+                fits = why_it_fits(avoid, diets, vegetarian, vegan)   # the back end's checks, restated
+                info.caption(fits or "No profile set yet: add what you can't eat to have it checked.")
                 ingredients = row["ingredient_list"]
 
                 if isinstance(ingredients, str):
@@ -695,15 +711,10 @@ with find_tab:
                     except (ValueError, SyntaxError):
                         ingredients = [ingredients]
 
-                info.write("**Ingredients:** " + ", ".join(map(str, ingredients)))
-                steps = cooking_steps(row.get("instructions"))
-                if steps:
-                    with info.expander(f"Cooking steps ({len(steps)})"):
-                        st.markdown("\n".join(f"{i}. {html.escape(step)}" for i, step in enumerate(steps, 1)))
-                elif isinstance(link, str) and link.startswith("http"):
-                    info.caption(f"Steps: on [the recipe's page]({link})")
-                info.markdown(f"[Watch it made on YouTube]({video_search_link(str(named['dish_name']), where)})")
-                if info.button("About this dish", key=f"about-{number}"):
+                # A compact card (name, origin, numbers, the checks); the ingredients, steps and video are on the
+                # dish's own page
+                info.caption(f"{len(ingredients)} ingredients")
+                if info.button("About this dish: ingredients, steps, video", key=f"about-{number}"):
                     dish_page(row, str(named["dish_name"]))
 
 with check_tab:

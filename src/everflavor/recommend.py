@@ -5,7 +5,7 @@ keyword rules (flags.py) and diet rules (diets.py) used to build the data.
 """
 from __future__ import annotations
 
-from collections.abc import Sequence
+from collections.abc import Iterable, Sequence
 
 import pandas as pd
 
@@ -25,6 +25,7 @@ from .flags import (
 __all__ = [
     "baseline_recommend",
     "passes_safety_filter",
+    "why_it_fits",
 ]
 
 
@@ -151,3 +152,19 @@ def baseline_recommend(
         print(f"(safety filter removed {len(candidates) - len(safe)} of {len(candidates)} candidates)")
 
     return safe.head(top_n)
+
+
+def why_it_fits(avoid: Iterable[str] = (), diets: Iterable[str] = (), vegetarian: bool = False,
+                vegan: bool = False) -> str:
+    """The checks a recommended recipe passed, in plain words, for the card ("Checked for you: no peanut, no tree
+    nut, halal-friendly ingredients, vegetarian"). It only restates the filters baseline_recommend applied; diet
+    labels say "...-friendly ingredients", never the diet itself (a screen, not a certification).
+
+    Returns:
+        The line, or "" when the profile asks for nothing.
+    """
+    parts = ["no " + flag.removeprefix("contains_").replace("_", " ") for flag in avoid]
+    parts += [diet.removesuffix("_friendly").replace("_", " ") + "-friendly ingredients"
+              if diet.endswith("_friendly") else diet.replace("_", " ") for diet in diets]
+    parts += ["vegan"] if vegan else ["vegetarian"] if vegetarian else []
+    return "Checked for you: " + ", ".join(parts) if parts else ""
