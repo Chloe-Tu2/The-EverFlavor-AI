@@ -5,15 +5,17 @@ in what order to download them. Nothing here is downloaded yet. The project's ru
 dataset's own page before downloading, record it in [docs/sources.md](../sources.md), keep the files in `data/raw/`
 (never committed), and note the download date and checksum (data backlog item 6).
 
-## Rule: open data only (med27-coder, 2026-10-24)
+## Rule: open or research-use data only (med27-coder, 2026-10-24)
 
 New data comes only from datasets with an open license (for example CC0, CC BY, CC BY-SA, ODbL, or a public
 domain or government source such as USDA). No scraping of forums, social media or video comments: their terms
 forbid it, the posts carry people's names, and they are not open data.
 
-The recipe sources we use today do not all meet this rule. The team decides what to do with them:
+Decided (med27-coder, 2026-10-24): EverFlavor is a research project, so datasets licensed for research or non-commercial use are
+allowed too, and the recipe sources below stay. A public or commercial release would need them checked again.
+Scraping stays ruled out. The recipe sources and their licenses:
 
-| Source | License today | Meets the rule? |
+| Source | License today | Open? |
 |---|---|---|
 | Food.com (Kaggle, 218k recipes, the only times and steps) | Research use, see the dataset page | No |
 | Hugging Face recipes-with-nutrition (37.8k, the demo data) | Not stated on the dataset page | Unclear |
