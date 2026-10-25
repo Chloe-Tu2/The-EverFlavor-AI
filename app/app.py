@@ -17,6 +17,7 @@ color themes are in THEMES below. Settings (top right of the page) switch the th
 import ast
 import base64
 import html
+import random
 import sys
 from functools import cache
 from pathlib import Path
@@ -29,6 +30,10 @@ import streamlit.components.v1 as components
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+from chef_lines import (  # app/chef_lines.py: what the chef says, with its sources
+    greeting,
+    line,
+)
 from updates import UPDATES  # app/updates.py: the What's new notes
 
 from everflavor import __version__
@@ -462,8 +467,11 @@ with st.sidebar:
 
 profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetarian,
                       vegan=vegan, calories_per_meal=calories)
-chef_says(chef, "happy", "Welcome to the kitchen! Tell me what you can't eat in the sidebar, "
-                         "then find a recipe or check one of yours.")
+# The chef's welcome: hello in the kitchen's own language, then one tip, dish fact or chef's quote, the same one
+# for the whole visit (a seed per visit, so reruns do not change it)
+visit = st.session_state.setdefault("chef_seed", random.randrange(1_000_000))
+chef_says(chef, "happy", f"{greeting(theme_name)} {line(theme_name, visit)} Tell me what you can't eat in the "
+                         "sidebar, then find a recipe or check one of yours.")
 
 # ---------- Two tabs ----------
 find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pixel icons come from the CSS
