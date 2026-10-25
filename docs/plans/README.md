@@ -56,7 +56,7 @@ come in through the team (med27-coder's teammates).
 |---|---|---|
 | 1 | Rename the branch `release/0.5.2` to `release/0.7.1` (GitHub keeps a redirect) | GitHub |
 | 2 | Retitle the 0.5.2 and 0.5.3 sections below as 0.7.1 (the base kitchen stays a later item unless it is ready) | this planner |
-| 3 | Build the landing page (option A, inside the app) | [LANDING_PAGE.md](LANDING_PAGE.md) |
+| 3 | Build the landing page (option A, inside the app): **built** 2026-10-25 (`landing()` in `app/app.py`, `?start=1` skips it); wording still to sign off | [LANDING_PAGE.md](LANDING_PAGE.md) |
 | 4 | Build the Houston map, after the team answers its questions; it opens from a third tab, **Map**, next to Find recipes and Check my recipe (with its own pixel icon, a map pin; planned for later) | [MAP.md](MAP.md) |
 | 5 | Finish the dish information page: estimated times (notebook 01 rerun), pronunciation | [COOKING_STEPS_AND_VIDEOS.md](COOKING_STEPS_AND_VIDEOS.md), DISH_PRONUNCIATION.md (to finish) |
 | 6 | README: a "Watch" section at the bottom for interested readers with the YouTube link to the team's cooking demo video (the team records it and sends the link) | `README.md` |

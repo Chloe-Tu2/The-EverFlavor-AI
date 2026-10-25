@@ -468,6 +468,56 @@ heading, corner = st.columns([3, 2], vertical_alignment="center")
 heading.title("EverFlavor Kitchen")
 heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked ingredient by ingredient.</p>',
                  unsafe_allow_html=True)
+
+
+def landing() -> None:
+    """What people see first (docs/plans/LANDING_PAGE.md, option A): the promise, one button into the app, how it
+    works and how we check, drawn before the recipes load. The chef's "catch" is a fixed, reviewed fact from the
+    hidden-allergen review, not a safety verdict; the app's rules make every decision."""
+    st.markdown('<p class="tagline">Allergies, religious and ethical diets, calorie goals: tell the chef once, and '
+                'every recipe is checked for you.</p>', unsafe_allow_html=True)
+    with st.container(key="landing-start"):
+        st.button("Find a safe recipe", type="primary", key="start", on_click=st.session_state.update,
+                  kwargs={"started": True})
+        st.caption("Free · No sign-up · Nothing you enter is saved · Not medical advice")
+    chef_says(st.container(), "happy", f"{greeting(theme_name)} Did you know satay sauce is usually made with "
+                                        "peanuts? Paste any recipe and I'll check it.")
+    # On the app's cream panel, like the tabs, so the text never sits on the busy kitchen
+    st.markdown('<style>.st-key-landing-panel, .st-key-landing-start { background: var(--panel); border: 3px solid var(--border);'
+                ' box-shadow: 4px 4px 0 var(--shadow); padding: 1rem 1.25rem; } .st-key-landing-panel * { pointer-events: auto; }</style>',
+                unsafe_allow_html=True)
+    with st.container(key="landing-panel"):
+        st.subheader("How it works")
+        for col, (title, text) in zip(st.columns(3), [
+            ("1. Tell the chef", ("Pick what you can't eat, the diet you follow and your calories per meal. It takes a "
+                                 "few taps.")),
+            ("2. We check every ingredient", ("Each recipe is checked for allergens, hidden ones too (Worcestershire "
+                                             "sauce has fish), and for your diet's rules.")),
+            ("3. Cook with confidence", ("You see only recipes that pass, with why each one fits you. Or paste your own "
+                                        "recipe and we check it line by line.")),
+        ], strict=True):
+            col.markdown(f"**{title}**  \n{text}")
+        with st.expander("How we check"):
+            st.markdown(
+                "- **What we check:** about 290,000 recipes from open and research datasets, each checked ingredient "
+                "by ingredient against allergen lists from the US, the EU and UK, Canada, Australia and New Zealand, "
+                "Japan and South Korea.\n"
+                "- **Safety is decided in the code, not by the AI.** The rules decide what is safe; the AI chef only "
+                "explains.\n"
+                "- **Not medical advice.** The checks read ingredient names and can miss things: a brand's recipe, "
+                "cross-contact in a factory, an unusual spelling. With a serious allergy or a health condition, read "
+                "the label and ask your doctor or dietitian.\n"
+                "- **Diet labels:** \"halal-friendly ingredients\" means nothing in the ingredients is forbidden. It is "
+                "not a certification.\n"
+                "- **Your data:** nothing you enter is saved. No accounts, no cookies, no tracking.")
+        st.caption("Made by Team EverGlow, a student capstone project (ITAI 2277): "
+                   + ", ".join(f"[@{name}](https://github.com/{name})" for name in ("Chloe-Tu2", "Evaabou20", "med27-coder")))
+
+
+# The landing comes first, before the data loads; ?start=1 (and the button) go straight to the app
+if not st.session_state.get("started") and st.query_params.get("start") != "1":
+    landing()
+    st.stop()
 news_spot, settings_spot = corner.columns(2)
 with news_spot.container(key="whats-new"), st.popover("What's new"):
     st.markdown('<div class="updates">' + "".join(
