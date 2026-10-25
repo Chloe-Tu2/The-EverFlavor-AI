@@ -72,6 +72,26 @@ Open questions:
 - **The README update** happens in the 0.7.1 release so `main` gets it with the code it describes (updating
   `main` alone first would describe features `main` does not have yet).
 
+### Re-plan for the next session (2026-10-25): only what clearly improves the app
+
+Picked from everything built and planned so far; in this order.
+
+| # | Change | Why it matters | Effort |
+|---|---|---|---|
+| 1 | **Profile in the page on phones:** a "Your profile" panel above the search on small screens (the sidebar is hidden there; today the chef has to point at an arrow) | On a phone, people cannot see where to enter their allergies: the app's core step | Small |
+| 2 | **Estimated cook times on the cards** (notebook 01 rerun with `cooking_time.py`, cell by cell) | 25% of recipes show no time; "About 40 min (estimated)" is right within half to double 84% of the time | Medium (a long run) |
+| 3 | **Recipe photos:** connect the downloaded photos (`data/raw/recipe_photos/manifest.csv`) to the full data, hide logos and shared pictures, then the photo-matches-dish check | Photos make results easy to scan; wrong ones mislead | Medium |
+| 4 | **"Why it's safe for you" on every card** (0.6.0 item 6): one line from the back end's check, e.g. "No peanuts or tree nuts; halal-friendly ingredients" | Trust: the user sees the check, not just a claim | Small to medium |
+| 5 | **Results as a compact list first, details on tap** (name, country, time, calories; steps and video in "About this dish") | Cards are long now (steps, video, captions); five results fill several screens on a phone | Small |
+| 6 | **Pronunciation for the top 50 dishes** after the team checks the draft table | Delight, low risk once reviewed | Small after review |
+| 7 | **The Map tab** after the team's answers | A real new use (where to buy, where to eat) | Large |
+
+Not worth doing now: moving the art scripts into a subfolder (churn), more chef lines (enough for now), a static
+landing page (only when the app is hosted).
+
+Done on 2026-10-25 before this re-plan: recipe photos shown whole (fitted, never cropped); the chef's welcome
+points phone users to Your profile; All regions is the default search.
+
 ### 0.5.2 (in progress): the living kitchen
 
 Branch `release/0.5.2`. The kitchens come alive first; the base kitchen follows in 0.5.3.

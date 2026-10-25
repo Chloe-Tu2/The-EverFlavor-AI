@@ -210,7 +210,8 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
   background: var(--panel); border: 3px solid var(--border) !important; border-radius: 0 !important;
   box-shadow: 5px 5px 0 var(--shadow); padding: 1rem 1.25rem;
 }}
-[data-testid="stImage"] img {{ border: 3px solid var(--border); }}
+[data-testid="stImage"] img {{ border: 3px solid var(--border); width: 100%; aspect-ratio: 4 / 3;
+  object-fit: contain; background: var(--panel); }}   /* the whole photo, never cropped or zoomed */
 /* The chef and the speech bubble */
 .chef-row {{ display: flex; gap: 1.25rem; align-items: flex-end; margin: 0.5rem 0 1.25rem; }}
 .chef {{ width: 128px; height: 128px; flex: none; background: center / contain no-repeat; image-rendering: pixelated; }}
@@ -584,8 +585,8 @@ profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetar
 visit = st.session_state.setdefault("chef_seed", random.randrange(1_000_000))
 said = line(theme_name, visit)
 said += "" if said.endswith((".", "!", "?")) else "."          # a quote ends with its source: close the sentence
-chef_says(chef, "happy", f"{greeting(theme_name)} {said} Tell me what you can't eat in the "
-                         "sidebar, then find a recipe or check one of yours.")
+chef_says(chef, "happy", f"{greeting(theme_name)} {said} Tell me what you can't eat under "
+                         "Your profile (the arrow at the top left on a phone), then find a recipe or check one of yours.")
 
 # ---------- Two tabs ----------
 find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pixel icons come from the CSS
