@@ -22,6 +22,7 @@ import re
 import sys
 from functools import cache
 from pathlib import Path
+from typing import cast
 
 import pandas as pd
 import streamlit as st
@@ -604,12 +605,13 @@ st.markdown(f'<button class="open-profile" type="button">Your profile: '
 find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pixel icons come from the CSS
 
 with find_tab:
-    pool, cuisine = recipes, "All"
+    pool: pd.DataFrame = recipes
+    cuisine = "All"
     if "origin_country" in recipes:
         # One search box (a dish, a country or a region, with suggestions as you type) and, for those who would
         # rather not type, Browse by region: every region with its countries, one tap to pick one
-        counts = recipes["origin_country"].value_counts()
-        counts = counts[(counts >= MIN_COUNTRY_RECIPES) & (counts.index != "Unknown")]
+        counts = cast(pd.Series, recipes["origin_country"].value_counts())
+        counts = cast(pd.Series, counts[(counts >= MIN_COUNTRY_RECIPES) & (counts.index != "Unknown")])
         regions = recipes.dropna(subset=["origin_region"]).groupby("origin_region")["origin_country"].first()
         suggestions = [*counts.index, *(f"{r} ({c})" for r, c in regions.items())]
 
@@ -634,11 +636,11 @@ with find_tab:
                              key=f"browse-{family}", on_change=pick_place, args=(f"browse-{family}",))
         country, region, dish = read_search(query)
         if country:
-            pool = pool[pool["origin_country"] == country]
+            pool = cast(pd.DataFrame, pool[pool["origin_country"] == country])
         if region:
-            pool = pool[pool["origin_region"] == region]
+            pool = cast(pd.DataFrame, pool[pool["origin_region"] == region])
         for word in dish:
-            pool = pool[pool["recipe_name"].str.contains(word, case=False, regex=False)]
+            pool = cast(pd.DataFrame, pool[pool["recipe_name"].str.contains(word, case=False, regex=False)])
         if query:                                   # what the search is doing, above the results
             asked = [f"dishes from {region + ', ' if region else ''}{country}"] if country else []
             asked += ['"' + " ".join(dish) + '" in the name'] if dish else []

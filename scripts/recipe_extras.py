@@ -13,6 +13,7 @@ from __future__ import annotations
 import sys
 import time
 from pathlib import Path
+from typing import cast
 
 import pandas as pd
 
@@ -35,7 +36,7 @@ def recipes() -> pd.DataFrame:
 def times() -> None:
     df = recipes()
     start = time.time()
-    model = fit_time_model(df[df["split"] == "train"])
+    model = fit_time_model(cast(pd.DataFrame, df[df["split"] == "train"]))
     out = estimate_minutes(model, df)
     out.insert(0, "recipe_id", df["recipe_id"].values)
     out.to_parquet(PROCESSED / "recipe_times.parquet", index=False)
@@ -45,10 +46,11 @@ def times() -> None:
 
 def photos() -> None:
     m = pd.read_csv(MANIFEST)
-    m = m[m["recipe_id"].notna() & (m["http_status"] == 200)]
-    shared = m.groupby("ahash")["recipe_id"].transform("nunique") >= SHARED
+    m = cast(pd.DataFrame, m[m["recipe_id"].notna() & (m["http_status"] == 200)])
+    shared = cast(pd.Series, m.groupby("ahash")["recipe_id"].transform("nunique")) >= SHARED
     m = m.assign(photo_ok=~shared & (m["bytes"] >= TINY_BYTES))
-    out = m.drop_duplicates("recipe_id")[["recipe_id", "url", "photo_ok"]].rename(columns={"url": "image_url"})
+    out = cast(pd.DataFrame, m.drop_duplicates("recipe_id")[["recipe_id", "url", "photo_ok"]])
+    out = out.rename(columns={"url": "image_url"})
     out.to_parquet(PROCESSED / "recipe_photos.parquet", index=False)
     print(f"recipe_photos.parquet: {len(out):,} recipes, {(~out['photo_ok']).sum():,} photos hidden (logos, tiny)")
 
