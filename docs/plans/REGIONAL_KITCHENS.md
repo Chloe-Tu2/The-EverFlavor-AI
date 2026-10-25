@@ -15,6 +15,9 @@ draws them in the concept sheet's style. Part of version 0.6.0 ([planner](README
 
 ## The recipes, by country
 
+These counts are from 0.5.1; the current counts per country, and the country labels' known problems, are in
+[CUISINE_REGIONS.md](CUISINE_REGIONS.md). Which kitchen each country opens is set in the app (`COUNTRY_KITCHENS`).
+
 Recipes per country of origin in the processed data (labeled by the source, or predicted at 70%+ confidence;
 all splits). The five cuisine families are the ones the main README names.
 

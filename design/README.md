@@ -33,31 +33,25 @@ icons: [ICONS.md](ICONS.md).
   never decides anything (the app's golden rule: safety decisions come from `src/everflavor`).
 - **Real food in the recipe cards.** When a recipe has a photo (the demo data has one for 99% of recipes),
   the card shows it in a pixel frame. The pixel art is the setting; the food is real.
-- **Color themes in Settings** (top right). The kitchen changes with the theme:
+- **Kitchens and their light** (Settings, top right). Seven kitchens; the time of day (morning, afternoon,
+  evening, night) is the kitchen's light, picked in Settings or, with the visitor's permission, from their clock.
+  Classic is Eva's cream, brown and pink kitchen (its morning and night were the Morning and Night themes before
+  0.5.2; Basil, the same kitchen in green, is archived). Chinese, Mediterranean, Mexican and Middle Eastern are the
+  v5 kitchens traced from the team's art (`pixel-art/trace_kitchens.py`, `day_night.py`, `build_scenes.py`), with
+  lanterns that switch on and off, plants and trees that drop leaves, stools that rock and pots that steam.
+  Japanese and Moroccan are the code-drawn drafts.
 
-| Theme | Feel | Kitchen |
-|---|---|---|
-| **Classic** (default) | Eva's cream, brown and pink | Daytime, blue sky and clouds |
-| **Morning** | Butter and peach | Sunrise in the window |
-| **Night** | Plum and lamplight, easy on the eyes in the dark | Moon and stars, a lamp lighting the counter |
-| **Basil** | Fresh greens | Daytime, green accents |
-
-| Classic | Morning |
+| Classic, afternoon | Classic, night |
 |---|---|
-| ![Classic](pixel-art/previews/kitchen_classic_x4.png) | ![Morning](pixel-art/previews/kitchen_morning_x4.png) |
-| **Night** | **Basil** |
-| ![Night](pixel-art/previews/kitchen_night_x4.png) | ![Basil](pixel-art/previews/kitchen_basil_x4.png) |
+| ![Classic](pixel-art/previews/kitchen_classic_x4.png) | ![Night](pixel-art/previews/kitchen_night_x4.png) |
 
-**Cuisine kitchens (draft):** Japanese, Chinese, Mediterranean, Mexican, Middle Eastern and Moroccan, each with its own
-chef (which comes next: [docs/plans/REGIONAL_KITCHENS.md](../docs/plans/REGIONAL_KITCHENS.md)). With
-**Match the kitchen to the cuisine** on (Settings), searching a cuisine family opens its kitchen. Details and
-what still needs redrawing: [pixel-art/archive/v2_2026-10-18_cuisine-mockups/](pixel-art/archive/v2_2026-10-18_cuisine-mockups/README.md).
+With **Match the kitchen to the cuisine** on (Settings), searching a country opens its region's kitchen.
 
-The chef has three moods: happy (greeting, safe recipe), alert (a problem found) and thinking (nothing matched).
-
-| Happy | Alert | Thinking |
-|---|---|---|
-| ![Happy chef](pixel-art/previews/chef_happy_x8.png) | ![Alert chef](pixel-art/previews/chef_alert_x8.png) | ![Thinking chef](pixel-art/previews/chef_thinking_x8.png) |
+**The chefs** come from the team's four references (`pixel-art/references/chefs/`, `make_chefs.py`), with a woman
+cook for each of those regions (Settings > Your chef; `make_women_chefs.py`, `make_chef_from_ref.py`):
+[previews/women_chefs.png](pixel-art/previews/women_chefs.png),
+[previews/middle_eastern_woman.png](pixel-art/previews/middle_eastern_woman.png). Mexican and Moroccan keep their
+code-drawn chefs. Earlier art is in [pixel-art/archive/](pixel-art/archive/README.md).
 
 ## The color bug, fixed
 
