@@ -34,6 +34,7 @@ from updates import UPDATES  # app/updates.py: the What's new notes
 from everflavor import __version__
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
+from everflavor.dish_names import clean_title
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
 from everflavor.recommend import baseline_recommend
@@ -540,7 +541,14 @@ with find_tab:
                     picture.markdown(f'<div class="no-photo"><span class="ico" style="background-image: '
                                      f'url({art("icon_cloche")})"></span>No photo of this dish yet</div>',
                                      unsafe_allow_html=True)
-                info.subheader(row["recipe_name"].title())
+                # The dish's own name; the title as posted stays underneath (the safety checks read the posted
+                # title, never this one)
+                named = clean_title(row["recipe_name"])
+                info.subheader(str(named["dish_name"]).title())
+                if named["name_gloss"]:
+                    info.caption(f"Also called {named['name_gloss']}")
+                if str(named["dish_name"]).lower() != str(row["recipe_name"]).lower():
+                    info.caption(f"Posted as \"{row['recipe_name']}\"")
                 where = row.get("origin_country")
                 if isinstance(where, str) and where != "Unknown":
                     region = row.get("origin_region")

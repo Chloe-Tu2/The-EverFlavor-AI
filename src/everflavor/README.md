@@ -10,6 +10,7 @@ add `src/` to the path for you.
 |---|---|---|
 | **Safety** | `flags.py` | Restriction flags: keyword rules per allergen, meat, alcohol ... (the largest file); `reveal_hidden_words` reads disguised and foreign food words ("p0rk", 🐖, "cerdo") for every check |
 | | `diets.py` | Diet profiles (halal, kosher, vegan, Jain ...) built from the flags |
+| | `dish_names.py` | The dish's own name from a posted title ("Kittencal's Famous Lasagna" -> "Lasagna"), for showing only; the flags read the posted title |
 | | `safety.py` | `UserProfile` and `check_recipe`: the gate every agent-written recipe passes |
 | | `review.py` | Blind hand-check samples for the flags |
 | **Recipes and data** | `sources.py` | Download helpers: USDA, Open Food Facts, CulinaryDB, TheMealDB |
