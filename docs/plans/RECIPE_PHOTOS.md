@@ -13,6 +13,24 @@ Plan written 2026-10-25 (Claude, with med27-coder). Builds on [RELIABILITY.md](R
 The two problems the team saw: some photos are **too zoomed in** to see the dish, and some are **not the dish**
 (a site logo, a different recipe, bread on top of beans).
 
+## Downloaded (2026-10-25)
+
+The photos the sources give are downloaded once into `data/raw/recipe_photos/` (git-ignored, 2.62 GB) with
+`data/raw/recipe_photos/manifest.csv` (source, our recipe_id, recipe name, link, file, size, width, height, hashes).
+Scripts: `scripts/recipe_photos/` (build_links.py, fetch.py, analyze.py; paced, resumable).
+
+| Source | Recipes with a photo | Downloaded | Failed |
+|---|---|---|---|
+| Hugging Face | 37,605 (all but 260 of its rows in the full data; every demo photo is one of them) | 37,082 files | 0 |
+| TheMealDB | 583 | 583 | 0 |
+
+- **recipe_id:** Hugging Face `hf_<row>` of the pinned revision (as in `pipeline._prepare_huggingface`, names
+  match for all 37,823 rows); TheMealDB `themealdb_<idMeal>` (thumbnails from its free API, test key "1").
+- **Logos found:** by image hash, 27 pictures are shared by 3 or more recipes (1,107 recipes): Food Network's
+  logo alone on 866 recipes (under 355 different links), Food & Wine 98, Allrecipes 20. These are hidden first
+  (step 4 below), by hash, not by link.
+- Most photos are 600 x 600 or 300 x 300; 24 are under 5 KB (to check).
+
 ## Steps, in order
 
 | # | Step | How | Effort |
