@@ -591,7 +591,7 @@ chef_says(chef, "happy", f"{greeting(theme_name)} {said} Tell me what you can't 
 find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pixel icons come from the CSS
 
 with find_tab:
-    pool, cuisine = recipes, "Any"
+    pool, cuisine = recipes, "All"
     if "origin_country" in recipes:
         # One search box (a dish, a country or a region, with suggestions as you type) and, for those who would
         # rather not type, Browse by region: every region with its countries, one tap to pick one
@@ -607,9 +607,12 @@ with find_tab:
         search_spot, browse_spot = st.columns([4, 1], vertical_alignment="bottom")
         query = search_spot.selectbox(
             "What would you like to eat?", suggestions, index=None, key="search", accept_new_options=True,
-            placeholder="A dish or where it's from: ramen, Korean, Louisiana, tacos...",
+            placeholder="All regions. Or type a dish or where it's from: ramen, Korean, Louisiana, tacos...",
             help="Type a dish, a country or a region. The kitchen follows the country when Settings says so.")
         with browse_spot.popover("Browse by region", width="stretch"):
+            # All regions is the default: nothing picked searches every country
+            st.button("Show all regions", key="browse-all", on_click=st.session_state.update, kwargs={"search": None},
+                      disabled=not st.session_state.get("search"))
             family_of = recipes.groupby("origin_country")["cuisine_family"].agg(lambda f: f.mode().iat[0])
             for family in ["Asian", "European", "Latin American", "Middle Eastern", "African", "Other"]:
                 in_family = [c for c in counts.index if family_of.get(c) == family]
@@ -628,7 +631,7 @@ with find_tab:
             asked += ['"' + " ".join(dish) + '" in the name'] if dish else []
             st.caption("Looking for " + ", ".join(asked) + f" · {len(pool):,} recipes")
     else:                                           # the demo data has no countries: the cuisine families only
-        cuisine = st.selectbox("Cuisine", ["Any"] + sorted(recipes["cuisine_family"].dropna().unique()), key="cuisine")
+        cuisine = st.selectbox("Cuisine", ["All"] + sorted(recipes["cuisine_family"].dropna().unique()), key="cuisine")
     how_many = st.number_input("How many ideas?", min_value=1, max_value=20, value=5)
 
     # The results stay on the page between clicks (so "About this dish" can open), but only for the exact choices
@@ -639,7 +642,7 @@ with find_tab:
         loading = cooking("Cooking up ideas...")
         st.session_state["found"] = (asked, baseline_recommend(
             pool,
-            cuisine_family=None if cuisine == "Any" else cuisine,
+            cuisine_family=None if cuisine == "All" else cuisine,
             calorie_target=calories,
             vegetarian_only=vegetarian,
             vegan_only=vegan,
