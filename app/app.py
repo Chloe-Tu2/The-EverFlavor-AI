@@ -32,6 +32,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from updates import UPDATES  # app/updates.py: the What's new notes
 
 from everflavor import __version__
+from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
@@ -93,6 +94,22 @@ COUNTRY_KITCHENS = {
     **dict.fromkeys(["Morocco", "Algeria", "Tunisia", "Libya"], "Moroccan"),
 }
 MIN_COUNTRY_RECIPES = 50          # a country is in the Country list with at least this many recipes
+# Every way of naming where a dish is from (labels, countries, regions; lowercase) -> (country, region or None)
+PLACE_WORDS = {**{label: place for label, place in ORIGIN_LABELS.items() if ":" not in label},
+               **{country.lower(): (country, None) for country, _ in ORIGIN_LABELS.values()},
+               **{region.lower(): (country, region) for country, region in ORIGIN_LABELS.values() if region}}
+
+
+def read_search(query: object) -> tuple[str | None, str | None, list[str]]:
+    """What a search asks for: the country and region it names, if any ("korean", "Louisiana", "Japan"), and the
+    words left for the dish's name ("korean bbq" -> South Korea, ["bbq"]). The longest place name wins."""
+    text = str(query or "").lower().split(" (")[0].strip()
+    for place in sorted(PLACE_WORDS, key=len, reverse=True):
+        padded = f" {text} "
+        if f" {place} " in padded:
+            country, region = PLACE_WORDS[place]
+            return country, region, padded.replace(f" {place} ", " ").split()
+    return None, None, text.split()
 CUISINE_KITCHENS = {"Asian": "Chinese", "African": "Moroccan", "European": "Mediterranean",
                     "Latin American": "Mexican", "Middle Eastern": "Middle Eastern"}
 
@@ -366,8 +383,9 @@ st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if 
                    layout="wide")
 theme_name = st.session_state.get("theme", "Classic")
 if st.session_state.get("follow_cuisine", True):
-    if st.session_state.get("country", "Any") != "Any":
-        theme_name = COUNTRY_KITCHENS.get(st.session_state["country"], "Classic")
+    searched_country = read_search(st.session_state.get("search"))[0]
+    if searched_country:
+        theme_name = COUNTRY_KITCHENS.get(searched_country, "Classic")
     elif st.session_state.get("cuisine") in CUISINE_KITCHENS:
         theme_name = CUISINE_KITCHENS[st.session_state["cuisine"]]
 CHEF = THEMES[theme_name].get("chef", DEFAULT_CHEF)   # which chef stands in this kitchen (chef_says)
@@ -450,18 +468,44 @@ chef_says(chef, "happy", "Welcome to the kitchen! Tell me what you can't eat in 
 find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pixel icons come from the CSS
 
 with find_tab:
-    families = ["Any"] + sorted(recipes["cuisine_family"].dropna().unique())
-    cuisine = st.selectbox("Cuisine", families, key="cuisine")
-    pool = recipes
-    if "origin_country" in recipes:   # the full data knows each recipe's country (notebook 01); the demo does not
-        in_family = recipes if cuisine == "Any" else recipes[recipes["cuisine_family"] == cuisine]
-        counts = in_family["origin_country"].value_counts()
+    pool, cuisine = recipes, "Any"
+    if "origin_country" in recipes:
+        # One search box (a dish, a country or a region, with suggestions as you type) and, for those who would
+        # rather not type, Browse by region: every region with its countries, one tap to pick one
+        counts = recipes["origin_country"].value_counts()
         counts = counts[(counts >= MIN_COUNTRY_RECIPES) & (counts.index != "Unknown")]
-        country = st.selectbox("Country", ["Any", *counts.index], key="country",
-                               format_func=lambda c: c if c == "Any" else f"{c} ({counts.get(c, 0):,})",
-                               help="Where the dish comes from. The kitchen follows it when Settings says so.")
-        if country != "Any":
-            pool = recipes[recipes["origin_country"] == country]
+        regions = recipes.dropna(subset=["origin_region"]).groupby("origin_region")["origin_country"].first()
+        suggestions = [*counts.index, *(f"{r} ({c})" for r, c in regions.items())]
+
+        def pick_place(key: str) -> None:
+            st.session_state["search"] = st.session_state[key]
+            st.session_state[key] = None
+
+        search_spot, browse_spot = st.columns([4, 1], vertical_alignment="bottom")
+        query = search_spot.selectbox(
+            "What would you like to eat?", suggestions, index=None, key="search", accept_new_options=True,
+            placeholder="A dish or where it's from: ramen, Korean, Louisiana, tacos...",
+            help="Type a dish, a country or a region. The kitchen follows the country when Settings says so.")
+        with browse_spot.popover("Browse by region", width="stretch"):
+            family_of = recipes.groupby("origin_country")["cuisine_family"].agg(lambda f: f.mode().iat[0])
+            for family in ["Asian", "European", "Latin American", "Middle Eastern", "African", "Other"]:
+                in_family = [c for c in counts.index if family_of.get(c) == family]
+                if in_family:
+                    st.pills("North America, Oceania and more" if family == "Other" else family, in_family,
+                             key=f"browse-{family}", on_change=pick_place, args=(f"browse-{family}",))
+        country, region, dish = read_search(query)
+        if country:
+            pool = pool[pool["origin_country"] == country]
+        if region:
+            pool = pool[pool["origin_region"] == region]
+        for word in dish:
+            pool = pool[pool["recipe_name"].str.contains(word, case=False, regex=False)]
+        if query:                                   # what the search is doing, above the results
+            asked = [f"dishes from {region + ', ' if region else ''}{country}"] if country else []
+            asked += ['"' + " ".join(dish) + '" in the name'] if dish else []
+            st.caption("Looking for " + ", ".join(asked) + f" · {len(pool):,} recipes")
+    else:                                           # the demo data has no countries: the cuisine families only
+        cuisine = st.selectbox("Cuisine", ["Any"] + sorted(recipes["cuisine_family"].dropna().unique()), key="cuisine")
     how_many = st.number_input("How many ideas?", min_value=1, max_value=20, value=5)
 
     if st.button("Find recipes", type="primary"):
