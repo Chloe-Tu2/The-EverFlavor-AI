@@ -756,7 +756,8 @@ with find_tab:
         for number, (_, row) in enumerate(results.iterrows()):
             with st.container(border=True, key=f"recipe-card-{number}"):
                 photo, link, site = row.get("image_url"), row.get("url"), row.get("source")
-                if row.get("photo_ok") in (False,):   # a site logo or icon, not the dish (RECIPE_PHOTOS.md)
+                ok = row.get("photo_ok")             # False: a logo, an icon or not the dish; missing: no check
+                if ok is not None and not pd.isna(ok) and not bool(ok):
                     photo = None
                 picture, info = st.columns([1, 2])
                 if isinstance(photo, str) and photo.startswith("https://"):
