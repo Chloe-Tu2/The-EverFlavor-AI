@@ -67,7 +67,7 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 
 | Source | URL | License | Access method | Status |
 |---|---|---|---|---|
-| Food.com - Recipes and Reviews (irkaal, Kaggle) | <https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews> | CC0: Public Domain (Kaggle API, checked 2026-10-25) | `kagglehub` download of `recipes.parquet` only | Notebook 11, prepared, not run yet (dataset updated 2020-12-28) |
+| Food.com - Recipes and Reviews (irkaal, Kaggle) | <https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews> | CC0: Public Domain (Kaggle API, checked 2026-10-25) | `kagglehub` download of `recipes.parquet` only | Notebook 11, run 2026-10-25 (links); photo download started 2026-10-26 (dataset updated 2020-12-28) |
 | RecipeDB (CoSyLab) | <https://cosylab.iiitd.edu.in/recipedb/> | CC BY-NC-SA 3.0 | API key from the CoSyLab team | Optional, not used yet (2.4.7) |
 
 No website is scraped directly, and nothing behind a login is collected.

@@ -70,7 +70,41 @@ Decided (med27-coder, 2026-10-25): the README links the team's cooking demo vide
 Open questions:
 
 - **The README update** happens in the 0.7.1 release so `main` gets it with the code it describes (updating
-  `main` alone first would describe features `main` does not have yet).
+  `main` alone first would describe features `main` does not have yet). A draft is ready:
+  [README_0.7.1_draft.md](README_0.7.1_draft.md).
+
+### Team checklist (2026-10-26): what needs a person
+
+Everything below waits on a teammate, not on code. Tick an item when it is done.
+
+- [ ] **Pronunciation:** check the 65 dishes in `data/reference/dish_pronunciation.csv` (only Claude has
+  checked them). Mandarin tones first (10 dishes), then Japanese (7), Hindi (3), Arabic, Persian and Greek (1
+  each). Put your name in `reviewed_by`. Rules in [DISH_PRONUNCIATION.md](DISH_PRONUNCIATION.md).
+- [ ] **Photo check labels:** 126 of the 200 rows in `data/reference/photo_check_sample.csv` still need
+  `matches_dish` (yes or no) and `checked_by`. Then `check_photos.py eval` re-tests the cutoff.
+- [ ] **Dish photos:** spot-check the general dish photos in the app; add a row with `keep` = no to
+  `data/reference/dish_photo_review.csv` for any that show the wrong dish (14 turned down so far).
+- [ ] **Map:** answer the 8 open questions at the end of [MAP.md](MAP.md).
+- [ ] **Landing page:** sign off the wording and answer the 7 open questions in [LANDING_PAGE.md](LANDING_PAGE.md).
+- [ ] **"Cooking up a picture..." card:** look at it on a few recipes without a photo and say if it should change.
+- [ ] **Send in:** chef sprites for more regions, the American base kitchen art (0.5.3), and the cooking demo video
+  link (the README's "Watch" section).
+- [ ] **README draft:** read [README_0.7.1_draft.md](README_0.7.1_draft.md) and mark what is wrong or missing.
+- [ ] **Retrospective:** read the bugs-and-fixes retrospective (a shared doc from med27-coder) and add anything
+  missed.
+
+### Before the merge into `main` (planned 2026-10-26; nothing started)
+
+The branch is 68 commits and about 600 files ahead of `main`, so it goes in four gates, in order. Each gate ends
+with med27-coder's go before the next starts.
+
+| Gate | What | How | Done when |
+|---|---|---|---|
+| 1. Code update | Finish the open work: the Food.com photos (download, logo marks, photo check), the team checklist items that change code, and anything the team's answers change | [RECIPE_PHOTOS.md](RECIPE_PHOTOS.md) steps; the checklist above | The app shows the new photos and nothing is half-built |
+| 1b | Get ready to release: rename the branch to `release/0.7.1`; merge `main` into it if `main` moved; bump `__version__`, `CHANGELOG.md` and `app/updates.py` together; the README from the draft; retitle the 0.5.2 and 0.5.3 sections here | `/release` steps, `tests/test_version.py` | Version files agree; the README matches the app |
+| 2. Code check | All CI checks; a code review of the whole branch against `main`, one area at a time (`src/everflavor`, `app`, `scripts`, `notebooks`, `design`); fix what it finds; click through the app end to end (landing, search, cards, dish page, Map) at desktop and phone widths | pytest, ruff, mypy, pymarkdown; `/code-review` (high); the Playwright browser | Checks green, review findings fixed or recorded, no broken screen |
+| 3. Security check | A security review of the branch diff; a secrets sweep of every file and commit on the branch (not only what is staged): no keys, Kaggle token, `.env`, `data/user/`, `logs/`, `data/raw/`; every `unsafe_allow_html` escapes its text; outside links only to allowed hosts (Commons, OpenFreeMap, recipe sites); every new dataset's licence in `docs/sources.md` | `/security-review`; Claude Security scan of the changes; the commit hook's patterns over `git diff --name-only main...` and `git log -p main..` | No findings left open, or each one recorded with who decided |
+| 4. Merge | A pull request `release/0.7.1` into `main` with a summary of the changes; CI green on the pull request; merge; tag `v0.7.1`; publish the GitHub release; mark 0.7.1 released here | GitHub (push via PowerShell) | `main` runs the new app and CI is green |
 
 ### Re-plan for the next session (2026-10-25): only what clearly improves the app
 
@@ -102,7 +136,7 @@ Branch `release/0.5.2`. The kitchens come alive first; the base kitchen follows 
 | 2 | **Interactive spots** (key ones, not everything): trees and plants shake and drop their own leaves (cherry blossom petals from the cherry tree, green leaves from others), lights switch on and off with their glow, stools and chairs wobble, some pots hop and steam; placed per kitchen so pieces that overlap still answer the right tap, by day and by night | in progress |
 | 3 | **Regional chefs** in the foreground, from the team's four chef references (`design/pixel-art/references/chefs/`), a man and a woman cook per region, dressed after traditional cooks of that region; tap the chef to make them react | started: the four references are the Japanese, Chinese, Middle Eastern and default chefs (`make_chefs.py`); the woman cooks are drawn (`make_women_chefs.py`, one face per mood; Settings > Your chef). Other regions later |
 | 4 | **Icons reworked** from the original set, to match the v5 art | planned |
-| 5 | **A dish picture for recipes without a photo** (pixel art) and a **"cooking in progress" loading screen** | loading screen done (an egg frying, `make_loading.py`); dish picture to do |
+| 5 | **A dish picture for recipes without a photo** (pixel art) and a **"cooking in progress" loading screen** | loading screen done (an egg frying, `make_loading.py`); dish picture done 2026-10-26 ("Cooking up a picture...", a spoon and a fork over a pan, `make_pixel_art.no_photo`) |
 
 ### 0.5.3 (planned): the base kitchen
 
