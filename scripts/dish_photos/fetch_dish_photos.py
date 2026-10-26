@@ -8,6 +8,16 @@ Run from the project folder, stage by stage (each stage caches its result and ca
     python -I scripts/dish_photos/fetch_dish_photos.py curate     # keep one good photo per dish, delete the rest
     python -I scripts/dish_photos/fetch_dish_photos.py write      # data/processed/dish_photos.parquet + manifest
 
+A further round for the recipes that still have no photo (the same options on every stage):
+
+    python -I scripts/dish_photos/fetch_dish_photos.py <stage> --extend --top 1000 --min-words 2
+
+--extend targets only recipes with no photo at all (no own photo with photo_ok True and clip_score >= -0.03, no
+Food.com photo link, no row in dish_photos.parquet), skips dishes already in dish_photos.parquet, keeps its
+caches apart (*_ext.parquet), deletes only its own rejected files and appends to dish_photos.parquet and the
+manifest instead of replacing them. --top N is how many dishes (by recipes covered) to take; --min-words N is
+the shortest dish phrase that may match (default 1: a single word that is not a generic one).
+
 Inputs: data/processed/recipes_*.parquet, data/processed/recipe_photos.parquet (photo_ok True = has a photo),
 and the Wikidata dish list (English labels and aliases of every subclass or instance of dish, Q746549; CC0)
 cached at data/raw/dish_photos_cache/wikidata_dishes_en.json (the `dishes` stage rebuilds it, paced 65 s).
@@ -38,6 +48,7 @@ OUT = Path("data/raw/dish_photos")
 CACHE = Path("data/raw/dish_photos_cache")
 DISHES = CACHE / "wikidata_dishes_en.json"
 TOP = 400
+CLIP_CUTOFF = -0.03  # own photos below this clip_score are hidden (docs/plans/RECIPE_PHOTOS.md, photo check)
 WIDTH = 480
 MIN_BYTES = 8 * 1024
 
@@ -130,6 +141,23 @@ def get_json(s: requests.Session, url: str, params: dict, pace: float = 1.0, tri
     raise RuntimeError(f"failed: {url}")
 
 
+class Opts:
+    """Command-line options (see the module docstring); set once in main."""
+
+    top = TOP
+    extend = False
+    min_words = 1
+
+
+def cache_name(stem: str) -> Path:
+    return CACHE / f"{stem}{'_ext' if Opts.extend else ''}.parquet"
+
+
+def existing_dish_photos() -> pd.DataFrame:
+    p = PROC / "dish_photos.parquet"
+    return pd.read_parquet(p) if p.exists() else pd.DataFrame(columns=["recipe_id", "dish_qid"])
+
+
 # ---------------------------------------------------------------- dishes (optional rebuild of the dish list)
 def stage_dishes() -> None:
     ep = "https://query.wikidata.org/sparql"
@@ -166,6 +194,11 @@ def photoless_recipes() -> pd.DataFrame:
     df = pd.concat([pd.read_parquet(p, columns=cols) for p in sorted(PROC.glob("recipes_*.parquet"))])
     ph = pd.read_parquet(PROC / "recipe_photos.parquet", columns=["recipe_id", "photo_ok"])
     has = set(ph.loc[ph.photo_ok.astype(bool), "recipe_id"])
+    if Opts.extend:
+        chk = pd.read_parquet(PROC / "photo_check.parquet", columns=["recipe_id", "clip_score"])
+        has -= set(chk.loc[chk.clip_score < CLIP_CUTOFF, "recipe_id"])
+        has |= set(pd.read_parquet(PROC / "foodcom_photo_links.parquet", columns=["recipe_id"]).recipe_id)
+        has |= set(existing_dish_photos().recipe_id)
     return df[~df.recipe_id.isin(has)].drop_duplicates("recipe_id").reset_index(drop=True)
 
 
@@ -200,7 +233,7 @@ def stage_match() -> None:
     df["k"] = df.clean_name.map(key)
 
     def find(k: str) -> tuple[str, str]:
-        if k in names and (len(k.split()) > 1 or k not in GENERIC):
+        if k in names and len(k.split()) >= Opts.min_words and (len(k.split()) > 1 or k not in GENERIC):
             return k, "whole"
         # The dish is the part before "with/in/on/over/served" ("chicken tikka masala with rice"), and the
         # phrase must end on its last word, the head noun: "easy pork chops" -> pork chop, but
@@ -208,7 +241,7 @@ def stage_match() -> None:
         head = re.split(r"\b(?:with|in|on|over|served|topped|stuffed|for)\b", k)[0].strip() or k
         for part in [head]:
             w = part.split()
-            for n in range(min(maxlen, len(w)), 1, -1):
+            for n in range(min(maxlen, len(w)), max(1, Opts.min_words - 1), -1):
                 p = " ".join(w[len(w) - n:])
                 if p in names:
                     return p, "phrase"
@@ -218,9 +251,11 @@ def stage_match() -> None:
     df["how"] = df.k.map(lambda k: cache[k][1])
     df = df[df.match != ""].copy()
     df["dish_qid"] = df.match.map(names)
+    if Opts.extend:  # dishes that already have a photo row are not fetched again
+        df = df[~df.dish_qid.isin(set(existing_dish_photos().dish_qid))]
     df["dish_label"] = df.dish_qid.map(lambda q: wd[q]["label"])
     CACHE.mkdir(parents=True, exist_ok=True)
-    df.drop(columns=["k"]).to_parquet(CACHE / "matches.parquet", index=False)
+    df.drop(columns=["k"]).to_parquet(cache_name("matches"), index=False)
     print("matched", len(df), "dishes", df.dish_qid.nunique(), df.how.value_counts().to_dict())
     print(df.dish_label.value_counts().head(40).to_dict())
 
@@ -254,9 +289,9 @@ def country_name(label: str) -> str:
 
 
 def stage_meta() -> None:
-    m = pd.read_parquet(CACHE / "matches.parquet")
+    m = pd.read_parquet(cache_name("matches"))
     s = session()
-    pool = m.dish_qid.value_counts().index[: TOP * 3].tolist()  # enough candidates to survive the country check
+    pool = m.dish_qid.value_counts().index[: Opts.top * 3].tolist()  # enough candidates to survive the country check
     claims_p = CACHE / "claims.json"
     claims = load_json(claims_p) if claims_p.exists() else {}
     need = [q for q in pool if q not in claims]
@@ -289,8 +324,8 @@ def stage_meta() -> None:
     m["fits"] = m.apply(fits, axis=1)
     print("country check drops", int((~m.fits).sum()), "recipe matches", flush=True)
     m = m[m.fits]
-    top = m.dish_qid.value_counts().index[:TOP].tolist()
-    m[m.dish_qid.isin(top)].drop(columns=["fits"]).to_parquet(CACHE / "matches_top.parquet", index=False)
+    top = m.dish_qid.value_counts().index[:Opts.top].tolist()
+    m[m.dish_qid.isin(top)].drop(columns=["fits"]).to_parquet(cache_name("matches_top"), index=False)
 
     # Commons file info for the P18 image (Wikidata's chosen picture) of each top dish
     files = {q: claims[q]["p18"][0] for q in top if claims.get(q, {}).get("p18")}
@@ -328,7 +363,7 @@ def stage_meta() -> None:
                      "free": bool(f) and bool(FREE.match(lic)), "status": "" if f else "no P18"})
     d = pd.DataFrame(rows)
     d.loc[(d.status == "") & ~d.free, "status"] = "not free"
-    d.to_parquet(CACHE / "dishes.parquet", index=False)
+    d.to_parquet(cache_name("dishes"), index=False)
     print(d.status.replace("", "ok").value_counts().to_dict(), d[d.free].license.value_counts().to_dict())
 
 
@@ -339,7 +374,7 @@ def ext_of(url: str, mime: str) -> str:
 
 
 def stage_download() -> None:
-    d = pd.read_parquet(CACHE / "dishes.parquet")
+    d = pd.read_parquet(cache_name("dishes"))
     d = d[d.free & (d.thumb_url != "") & ~d.dish_qid.isin(HAND_DROP)]  # known bad ones are not fetched again
     OUT.mkdir(parents=True, exist_ok=True)
     s1, s2 = session(), session()
@@ -391,7 +426,7 @@ HAND_DROP = {
 
 def stage_curate() -> None:
     from PIL import Image
-    d = pd.read_parquet(CACHE / "dishes.parquet")
+    d = pd.read_parquet(cache_name("dishes"))
     keep, why = {}, {}
     for _, r in d[d.free & (d.thumb_url != "")].iterrows():
         path = OUT / f"{r.dish_qid}.{ext_of(r.thumb_url, r.mime)}"
@@ -421,36 +456,53 @@ def stage_curate() -> None:
         else:
             keep[r.dish_qid] = path.name
     removed = []
+    mine = set(d.dish_qid)  # --extend: only this round's files may be deleted
     for f in OUT.iterdir():
-        if f.name != "manifest.csv" and f.name not in set(keep.values()):
+        if f.name != "manifest.csv" and f.name not in set(keep.values()) and (not Opts.extend or f.stem in mine):
             removed.append(f.name)
             f.unlink()
     d["status"] = [why.get(q, "kept" if q in keep else st) for q, st in zip(d.dish_qid, d.status)]
     d["image_file"] = d.dish_qid.map(lambda q: (OUT / keep[q]).as_posix() if q in keep else "")
-    d.to_parquet(CACHE / "dishes_curated.parquet", index=False)
+    d.to_parquet(cache_name("dishes_curated"), index=False)
     print("kept", len(keep), "deleted files", len(removed), pd.Series(why).value_counts().to_dict())
 
 
 # ---------------------------------------------------------------- write
 def stage_write() -> None:
-    d = pd.read_parquet(CACHE / "dishes_curated.parquet")
+    total = len(photoless_recipes())  # before appending, so --extend counts this round's targets
+    d = pd.read_parquet(cache_name("dishes_curated"))
     d = d[d.status == "kept"].copy()
     d["author"] = d.artist.map(plain).str.slice(0, 200).replace("", "author not stated")
     d["credit"] = [f"Photo of {lab}: {a}, {lic}, via Wikimedia Commons"
                    for lab, a, lic in zip(d.dish_label, d.author, d.license)]
     d["thumb_url"] = d.thumb_url.str.split("?").str[0]  # drop Commons tracking parameters
     cols = ["dish_qid", "dish_label", "image_file", "thumb_url", "file_page", "license", "author", "credit"]
-    d[cols + ["recipes", "commons_file"]].to_csv(OUT / "manifest.csv", index=False, encoding="utf-8")
-    m = pd.read_parquet(CACHE / "matches_top.parquet", columns=["recipe_id", "dish_qid"])
+    man = d[cols + ["recipes", "commons_file"]]
+    m = pd.read_parquet(cache_name("matches_top"), columns=["recipe_id", "dish_qid"])
     out = m.merge(d[cols], on="dish_qid", how="inner")[["recipe_id"] + cols]
+    new = out
+    if Opts.extend:  # keep the earlier rows unchanged, add this round's after them
+        old = existing_dish_photos()
+        new = out[~out.recipe_id.isin(set(old.recipe_id))]
+        out = pd.concat([old, new], ignore_index=True)
+        man = pd.concat([pd.read_csv(OUT / "manifest.csv"), man], ignore_index=True)
+    man.to_csv(OUT / "manifest.csv", index=False, encoding="utf-8")
     out.to_parquet(PROC / "dish_photos.parquet", index=False)
-    total = len(photoless_recipes())
+    print("rows added", len(new), "total rows", len(out))
     size = sum(f.stat().st_size for f in OUT.iterdir())
-    print(f"dishes {len(d)}  recipes covered {len(out)} of {total} photo-less ({100 * len(out) / total:.1f}%)  "
+    print(f"dishes {len(d)}  recipes covered {len(new)} of {total} photo-less ({100 * len(new) / total:.1f}%)  "
           f"size {size / 1e6:.1f} MB")
     print(d.license.value_counts().to_dict())
 
 
 if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("stage", choices=["dishes", "match", "meta", "download", "curate", "write"])
+    ap.add_argument("--top", type=int, default=TOP, help="dishes to take, by recipes covered (default %(default)s)")
+    ap.add_argument("--extend", action="store_true", help="a further round for recipes that still have no photo")
+    ap.add_argument("--min-words", type=int, default=1, help="shortest dish phrase that may match")
+    a = ap.parse_args()
+    Opts.top, Opts.extend, Opts.min_words = a.top, a.extend, a.min_words
     {"dishes": stage_dishes, "match": stage_match, "meta": stage_meta, "download": stage_download,
-     "curate": stage_curate, "write": stage_write}[sys.argv[1]]()
+     "curate": stage_curate, "write": stage_write}[a.stage]()

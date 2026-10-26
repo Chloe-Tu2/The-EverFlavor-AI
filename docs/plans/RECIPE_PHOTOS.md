@@ -46,6 +46,19 @@ salad in general, not this recipe", with the credit linking to the file's page.
   vegetable soup, pie crust, clam chowder, yellow rice). The team checks the rest the same way.
 - The recipe's own photo always wins; a hidden logo falls back to the dish photo.
 
+**Second round (2026-10-26).** `fetch_dish_photos.py <stage> --extend --top 1000 --min-words 2` targets only the
+124,554 recipes with no photo at all: no own photo that passes (photo_ok, clip_score -0.03 or more), no Food.com
+photo link and no dish photo yet (91,470 Food.com, 31,540 CulinaryDB, 1,537 Hugging Face, 7 TheMealDB). It skips
+the dishes already in the table, matches dish phrases of two words or more, keeps its caches apart and appends.
+
+- Of the next 1,000 dishes by recipes covered, 246 have no Wikidata picture and 13 are not free; 712 photos kept
+  (17 deleted: brand products, diagrams, menus, labels, logos, drawings, narrow pictures).
+- They cover 4,066 more recipes; the round is a long tail (a median of 4 recipes per dish, 22 at most).
+- Claude checked the 80 most used new photos by eye and turned down 8 (rice cake, chocolate bar, peanut butter,
+  pork belly, chicken dish, rice dish, wacky cake, deep-dish pizza). After the review: 3,956 more recipes.
+- Totals: 1,025 dish photos shown (both rounds, after review) for 37,216 recipes; 120,598 recipes still have no
+  photo. The folder `data/raw/dish_photos/` is 62 MB.
+
 ## Photo check (step 5, first run 2026-10-25)
 
 `scripts/recipe_photos/check_photos.py` (run with `python -I`; steps embed, score, sample, eval) scores every own
