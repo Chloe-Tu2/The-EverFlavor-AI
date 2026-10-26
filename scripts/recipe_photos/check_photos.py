@@ -147,13 +147,23 @@ def embed() -> None:
 
 
 def text_vectors(texts: list[str]) -> np.ndarray:
+    """Text vectors, cached in CACHE/text_vectors.npz so a stopped run keeps what it has (Food.com has ~100k names)."""
     model, _, tokenizer, torch = load_model()
-    out = []
-    for b in range(0, len(texts), 256):
+    path = CACHE / "text_vectors.npz"
+    have: dict[str, np.ndarray] = {}
+    if path.exists():
+        part = np.load(path)
+        have = dict(zip(part["texts"].tolist(), part["vecs"], strict=True))
+    todo = [t for t in dict.fromkeys(texts) if t not in have]
+    for b in range(0, len(todo), 256):
         with torch.no_grad():
-            v = model.encode_text(tokenizer(texts[b:b + 256]))
-        out.append(torch.nn.functional.normalize(v, dim=-1).numpy())
-    return np.concatenate(out)
+            v = model.encode_text(tokenizer(todo[b:b + 256]))
+        have.update(zip(todo[b:b + 256], torch.nn.functional.normalize(v, dim=-1).numpy(), strict=True))
+        if (b // 256) % 20 == 19 or b + 256 >= len(todo):
+            CACHE.mkdir(parents=True, exist_ok=True)
+            np.savez(path, texts=np.array(list(have)), vecs=np.stack(list(have.values())))
+            print(f"text vectors: {min(b + 256, len(todo))} of {len(todo)} new", flush=True)
+    return np.stack([have[t] for t in texts])
 
 
 def score() -> None:
@@ -177,7 +187,9 @@ def score() -> None:
     others = rng.integers(0, len(dishes), size=(len(photos), N_OTHERS))
     clash = others == own[:, None]
     others[clash] = (others[clash] + 1) % len(dishes)  # never the recipe's own name
-    other_cos = np.einsum("id,ikd->ik", img, tv[others])
+    other_cos = np.empty(others.shape, dtype=np.float32)
+    for r in range(0, len(photos), 2048):  # in pieces: all at once needs ~11 GB for Food.com
+        other_cos[r:r + 2048] = np.einsum("id,ikd->ik", img[r:r + 2048], tv[others[r:r + 2048]])
     rank_score = (other_cos < own_cos[:, None]).mean(axis=1)
 
     out = pd.DataFrame({"recipe_id": photos.recipe_id, "clip_score": clip_score.round(4),

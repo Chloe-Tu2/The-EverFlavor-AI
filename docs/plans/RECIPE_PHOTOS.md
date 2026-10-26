@@ -133,7 +133,13 @@ This needs the internet; it waits until we have it again.
 Built: draft B of four (`design/pixel-art/no_photo_drafts.py`, sheet in `previews/no_photo_drafts_x6.png`), a wooden
 spoon and a fork crossed over a steaming frying pan, drawn by `make_pixel_art.no_photo` as `assets/no_photo.png`.
 The cards show it with "Cooking up a picture..." and "No photo of this dish yet"; `tests/test_app_art.py` checks
-that every picture the app names is drawn. The plan as written first:
+that every picture the app names is drawn.
+
+Replaced the same day (med27-coder's pick, option A of `previews/no_photo_compare.png`) by a real photo,
+`assets/no_photo_photo.png`: two wooden utensils crossed over a pan, "Wooden Spatula" by Nordwood Themes on StockSnap
+(<https://stocksnap.io/photo/wooden-spatula-QSUFZLT8SV>, CC0 1.0), cropped, white background cleared, 160 px and 96 colours (6.7 KB, since every card without a photo carries a copy). The
+pixel art stays in `assets/no_photo.png`. Option B (pixel art made from the photo, `previews/no_photo_from_photo.png`)
+was muddy; to use it later, redraw it by hand with a dark outline around each tool. The plan as written first:
 
 Recipes with no photo at all show one small pixel-art picture instead of an empty space, in the kitchen's style.
 
