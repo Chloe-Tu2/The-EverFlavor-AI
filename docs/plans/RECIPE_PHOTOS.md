@@ -74,6 +74,14 @@ common dish names less well.
 - Only 7 wrong photos in the labels, so the cutoff is a first guess: the team labels the other 126 rows (and
   checks Claude's), then `check_photos.py eval` gives the new precision and recall.
 
+## Food.com's own photos (notebook 11, 2026-10-25)
+
+The CC0 Kaggle dataset Food.com - Recipes and Reviews (irkaal) has 217,716 of our 218,024 Food.com recipes under the
+same recipe numbers (the names agree for 95.9% once punctuation is ignored; the rest differ only by HTML codes such
+as `&amp;`), and **111,803 of them (51.3%) have a photo of their own**: links saved in
+`data/processed/foodcom_photo_links.parquet`. Next: download them (notebook 11, `DOWNLOAD_PHOTOS`), the logo
+fingerprint and the photo-matches-dish check, then the app shows them.
+
 ## Steps, in order
 
 | # | Step | How | Effort |
