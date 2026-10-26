@@ -48,3 +48,6 @@ chat_history*
 
 # Serena (code navigation MCP) project cache
 .serena/
+
+# Local-only plans (never pushed)
+docs/plans/local/
