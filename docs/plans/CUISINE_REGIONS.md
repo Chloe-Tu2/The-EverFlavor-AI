@@ -4,7 +4,18 @@ A plan for country-level cuisines (Chinese, Taiwanese, Korean, Japanese, Morocca
 broad families. It covers the data, the app's Cuisine menu and which kitchen each country opens. Part of version
 0.6.0 ([planner](README.md)), next to [REGIONAL_KITCHENS.md](REGIONAL_KITCHENS.md).
 
-Written 2026-10-24 (Claude, with med27-coder). This is a plan. Nothing in `src/` or the notebooks has changed yet.
+Written 2026-10-24 (Claude, with med27-coder). This is a plan.
+
+**Status (2026-10-25, notebook 01 rerun):** steps 1 and 3 are done and part of step 4. `ORIGIN_LABELS` has the
+missing labels and the region rule keeps the narrower region (Louisiana 1,657, Texas 1,353; both were 0). The
+country model now picks only countries inside a broad label's area (`AREA_COUNTRIES`, `area_mask`, `best_in_area`
+in `cuisine.py`), without raising its confidence, so an area with no likely known country stays Unknown. A first
+name rule (`origin_from_name`: "jamaican", "jerk", "taiwan(ese)") gives `origin_source` "named" (389 recipes:
+Jamaica 384, Taiwan 5). Mexico went from 14,849 to 11,508 recipes (predicted 5,818 to 2,477); Jamaica from 18 to
+402; of the 287 Jamaica-named recipes 226 are now Jamaica (was 9) and 4 Mexico (was 132). Cuba 409 to 399, Brazil
+321 to 311, Peru 98 (not in the model), Taiwan 0 to 5. South American recipes mostly stay Unknown (79 of 1,733 got
+a country). Validation at 0.70: 73.9% kept, 90.1% right. Still open: `origin_area` column, smaller-country setting,
+the full name rule and dish-word CSV, the review sample. The counts below are from before this run.
 
 All numbers come from `data/processed/recipes_{train,val,test}.parquet` (291,755 recipes, all splits), counted on
 2026-10-24. The model numbers come from the last full run of notebook 01 (section 5.9.1).

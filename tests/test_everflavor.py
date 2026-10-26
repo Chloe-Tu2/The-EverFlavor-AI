@@ -15,6 +15,7 @@ import json
 import sys
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -33,7 +34,15 @@ from everflavor.cooking import (
     methods_from_tags,
     top_fats_by_group,
 )
-from everflavor.cuisine import map_cuisine, origin_from_labels
+from everflavor.cuisine import (
+    area_countries,
+    area_mask,
+    best_in_area,
+    map_cuisine,
+    origin_areas,
+    origin_from_labels,
+    origin_from_name,
+)
 from everflavor.diets import ALLERGEN_SETS, DIET_PROFILES, add_diet_profiles, meets_diet
 from everflavor.flags import (
     FLAG_COLUMNS,
@@ -187,6 +196,36 @@ def test_cuisine_family_and_origin():
     assert origin_from_labels("['southern-united-states', 'midwestern']") == ("United States", None)
     assert origin_from_labels("['taiwanese']") == ("Taiwan", None)
     assert origin_from_labels("['israeli']") == ("Israel", None)
+
+
+def test_broad_area_limits_the_country_model():
+    assert origin_areas("caribbean, central american") == ["Caribbean", "Central America"]
+    assert origin_areas("['south-american']") == ["South America"]
+    assert area_countries("world") is None and area_countries("") is None
+    caribbean, asia_and_middle_east = area_countries("caribbean"), area_countries("asian, middle eastern")
+    assert caribbean is not None and "Mexico" not in caribbean and "Jamaica" in caribbean
+    assert asia_and_middle_east is not None and {"Lebanon", "China"} <= asia_and_middle_east
+    classes = ["Cuba", "Italy", "Mexico", "United States"]
+    mask = area_mask(["caribbean", "", "south american", "mediterranean"], classes)
+    assert mask.tolist() == [[True, False, False, False], [True] * 4, [False] * 4, [False, True, False, False]]
+    proba = np.array([[0.15, 0.0, 0.8, 0.05], [0.1, 0.1, 0.7, 0.1], [0.0, 0.0, 0.9, 0.1], [0.0, 0.3, 0.6, 0.1]])
+    countries, confidence = best_in_area(proba, classes, mask)
+    # Caribbean: Cuba, but at its own 0.15 (not spread to 1.0), so it stays below the 0.7 bar
+    assert countries.tolist() == ["Cuba", "Mexico", "Unknown", "Italy"]
+    assert confidence.tolist() == [0.15, 0.7, 0.0, 0.3]
+    empty_countries, empty_confidence = best_in_area(np.zeros((0, 4)), classes, area_mask([], classes))
+    assert len(empty_countries) == 0 and len(empty_confidence) == 0
+
+
+def test_origin_from_name():
+    assert origin_from_name("Jamaican Jerk Chicken") == "Jamaica"
+    assert origin_from_name("jerk pork chops", "caribbean") == "Jamaica"
+    assert origin_from_name("beef jerky") == "Unknown"
+    assert origin_from_name("agua de jamaica") == "Unknown"          # a Mexican hibiscus drink
+    assert origin_from_name("Taiwanese Beef Noodle Soup") == "Taiwan"
+    assert origin_from_name("jerk tofu", "asian") == "Unknown"       # outside the label's area
+    assert origin_from_name("jamaican taiwanese fusion") == "Unknown"  # two countries
+    assert origin_from_name(None) == "Unknown"
 
 
 # ------------------------------------------------------------------ pipeline

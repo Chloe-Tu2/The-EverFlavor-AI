@@ -113,14 +113,14 @@ def _origin_pool(recipes: pd.DataFrame, country: str, region: str | None, word: 
     """Recipes from `country`, the surest first.
 
     Origins written by the source ("labeled") are used alone when there are MIN_POOL of them; otherwise
-    the origin model's guesses ("predicted") with confidence 0.9 or more join them. Within that, recipes
-    from the region (Louisiana for "cajun"), else those whose cuisine tag or name holds the word asked for
-    ("thai", "cajun"), are used when there are enough to choose from.
+    names that say the country ("named") and the origin model's guesses ("predicted") with confidence 0.9 or more
+    join them. Within that, recipes from the region (Louisiana for "cajun"), else those whose cuisine tag or name
+    holds the word asked for ("thai", "cajun"), are used when there are enough to choose from.
     """
     pool = recipes[recipes["origin_country"] == country]
     if "origin_source" in pool.columns:
         labeled = pool[pool["origin_source"] == "labeled"]
-        sure = (pool["origin_source"] == "labeled") | (pool.get("origin_confidence", 0) >= 0.9)
+        sure = pool["origin_source"].isin(["labeled", "named"]) | (pool.get("origin_confidence", 0) >= 0.9)
         pool = labeled if len(labeled) >= MIN_POOL else pool[sure]
     narrower = []
     if region and "origin_region" in pool.columns:

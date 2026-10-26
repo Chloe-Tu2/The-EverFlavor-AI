@@ -484,7 +484,7 @@ def validate_recipes(df: pd.DataFrame, origin_min_confidence: float) -> dict[str
         "no pet meat and no recipes made for pets"    : not (df["contains_pet_meat"].astype(bool) | made_for_pets(df)).any(),
         "every diet column follows its rule (5.4.7)"  : all((df[d] == meets_diet(df, d)).all() for d in DIET_PROFILES),
         "nutrition diets only with listed nutrition"  : (~df[list(NUTRITION_DIETS)].any(axis=1) | df["nutrition_plausible"]).all(),
-        "origin_source has only allowed values"       : df["origin_source"].isin(["labeled", "predicted", "unknown"]).all(),
+        "origin_source has only allowed values"       : df["origin_source"].isin(["labeled", "named", "predicted", "unknown"]).all(),
         "country is Unknown only when origin is unknown": ((df["origin_country"] == "Unknown") == (df["origin_source"] == "unknown")).all(),
         "predicted countries meet the confidence bar" : (df.loc[df["origin_source"] == "predicted", "origin_confidence"] >= origin_min_confidence).all(),
         "every recipe is in exactly one split"        : df["split"].isin(["train", "val", "test"]).all(),
