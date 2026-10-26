@@ -3,6 +3,9 @@
 .env.*
 !.env.example
 kaggle.json
+access_token
+access_token.txt
+.kaggle/
 
 # Generated data - recreated by the notebook; the large CSVs
 # are over GitHub's 100 MB file limit. Keep the empty folders.
