@@ -110,7 +110,40 @@ yet. To finish, in order:
 | 5 | Record the counts here and in notebook 11, then commit (no files from `data/raw`) | this file, `notebooks/README.md` | minutes |
 
 Steps 1 and 3 can be stopped and resumed. Even with all of them, about 120,600 recipes (mostly CulinaryDB) have no
-photo: a pixel-art "no photo yet" dish picture is the recommended next step for those.
+photo; the two plans below cover them.
+
+### CulinaryDB: another round of free photos (planned 2026-10-26)
+
+CulinaryDB has no photos and no recipe pages to take them from, so its recipes can only get a general photo of the
+dish. The plan is another, wider lookup of free images, with the same rules as before: free licences only, a credit
+and a link for each photo, the "A photo of X in general, not this recipe" label, and no scraping.
+
+| # | Step | How |
+|---|---|---|
+| 1 | List the CulinaryDB dishes still without a photo, grouped by clean dish name and ranked by how many recipes each covers | `dish_names.clean_title` on the recipes with no `image_url` |
+| 2 | Look them up again on Wikimedia Commons, wider than the first two rounds: the dish's Wikidata picture (P18), then a Commons category or file search on the dish name, then its main ingredient for single-ingredient dishes | `scripts/dish_photos/fetch_dish_photos.py --extend`, with the new lookups added |
+| 3 | Try other free image sources where the licence allows reuse (for example Openverse, CC0 and CC BY only), each recorded in `docs/sources.md` before use | a new source switch in the same script |
+| 4 | Run the photo-matches-dish check on every new photo and hide those below `PHOTO_CUTOFF` | `check_photos.py` |
+| 5 | Review a sample by hand (`data/reference/dish_photo_review.csv`, `keep=no` hides a photo) and record the counts here | team |
+
+This needs the internet; it waits until we have it again.
+
+### Placeholder picture: "Cooking up a cool picture..." (planned 2026-10-26)
+
+Recipes with no photo at all show one small pixel-art picture instead of an empty space, in the kitchen's style.
+
+- **The picture:** a pan on a low flame with a little steam and a covered plate beside it, with the words
+  "Cooking up a cool picture..." under it. It uses the same palette and pixel grid as the kitchens and icons, so it
+  works in light and dark themes.
+- **Where:** `design/pixel-art/make_pixel_art.py` gets an `icon_no_photo` (like `icon_map`), saved as a PNG under
+  `app/` so the app loads it with no internet.
+- **In the app:** when a recipe has no photo (none, hidden by the photo check, or a logo), the card and the dish page
+  show the placeholder at the same size as a photo. The alt text and the caption say there is no photo yet, so no
+  one mistakes it for the dish.
+- **Checks:** a test that every recipe card gets either a photo or the placeholder; look at it in the browser at
+  phone and desktop widths.
+
+This needs no internet and can be built first.
 
 ## Steps, in order
 
