@@ -23,10 +23,63 @@ from .flags import (
 )
 
 __all__ = [
+    "SORT_ORDERS",
     "baseline_recommend",
     "passes_safety_filter",
+    "recipe_minutes",
+    "what_blocks",
     "why_it_fits",
 ]
+
+
+SORT_ORDERS = ("calories", "quickest", "protein")
+
+
+def recipe_minutes(df: pd.DataFrame) -> pd.Series:
+    """Each recipe's time: its own (`minutes`), else the estimate (`minutes_estimate`), else NaN."""
+    own = df["minutes"] if "minutes" in df.columns else pd.Series(float("nan"), index=df.index)
+    if "minutes_estimate" in df.columns:
+        own = own.fillna(df["minutes_estimate"])
+    return pd.to_numeric(own, errors="coerce")
+
+
+def what_blocks(df: pd.DataFrame, avoid: Sequence[str] = (), diets: Sequence[str] = (), vegetarian: bool = False,
+                vegan: bool = False, max_minutes: float | None = None,
+                min_protein_g: float | None = None) -> list[dict[str, object]]:
+    """When nothing fits: for each of the user's choices, how many recipes would fit without that one choice, most
+    first (the app offers to drop it). A quick count on the stored flags and diet columns, before the safety
+    re-check, so it says where recipes are, not that they are safe: whatever is shown next is checked again.
+
+    Returns:
+        One {"kind", "choice", "recipes"} per choice; kind is "avoid", "diet", "vegetarian", "vegan", "time" or
+        "protein".
+    """
+    plausible = df["nutrition_plausible"].astype("boolean").fillna(False) if "nutrition_plausible" in df else True
+    masks: list[tuple[str, str, pd.Series]] = []
+    for flag in avoid:
+        column = "vegan" if flag == "vegan" else flag
+        if column in df.columns:
+            masks.append(("avoid", flag, df[column] == (column == "vegan")))
+    for diet in diets:
+        if diet in df.columns:
+            masks.append(("diet", diet, df[diet].astype("boolean").fillna(False)))
+    if vegetarian:
+        masks.append(("vegetarian", "vegetarian", df["vegetarian"] == True))   # a nullable column: == True, not truthiness
+    if vegan:
+        masks.append(("vegan", "vegan", df["vegan"] == True))
+    if max_minutes is not None:
+        masks.append(("time", f"{max_minutes:g}", recipe_minutes(df) <= max_minutes))
+    if min_protein_g is not None and "protein_g" in df.columns:
+        masks.append(("protein", f"{min_protein_g:g}", df["protein_g"] >= min_protein_g))
+    counts = []
+    for i, (kind, choice, _) in enumerate(masks):
+        keep = pd.Series(plausible, index=df.index)
+        for j, (_, _, mask) in enumerate(masks):
+            if j != i:
+                keep &= mask.fillna(False)
+        counts.append((int(keep.sum()), kind, choice))
+    counts.sort(key=lambda c: -c[0])
+    return [{"kind": kind, "choice": choice, "recipes": n} for n, kind, choice in counts]
 
 
 def passes_safety_filter(row: pd.Series, avoid: Sequence[str] = (), vegetarian: bool = False,
@@ -78,12 +131,18 @@ def baseline_recommend(
     avoid: Sequence[str] = (),
     diets: Sequence[str] = (),
     top_n: int = 5,
+    max_minutes: float | None = None,
+    min_protein_g: float | None = None,
+    sort_by: str = "calories",
 ) -> pd.DataFrame:
     """Recommend recipes with simple rules (the Week 6 baseline model).
 
     Filters by cuisine, dietary flags and diet profiles, keeps recipes with
     plausible listed nutrition, ranks them by distance to the calorie target,
     and re-checks the best candidates with the safety filter.
+
+    The optional filters and orders (the app's "Under 30 min", "High protein" and "Sort by") only narrow or reorder
+    what passed; every recipe returned still passes the same safety filter.
 
     Args:
         df: The preprocessed recipe table.
@@ -95,20 +154,27 @@ def baseline_recommend(
         avoid: Flag columns to exclude, for example ("contains_pork", "contains_alcohol").
         diets: Diet profiles to require, for example ("halal_friendly",).
         top_n: Number of recommendations.
+        max_minutes: Keep recipes that take at most this long: the recipe's own time, or the estimate
+            (minutes_estimate) when it gives none; a recipe with neither is left out.
+        min_protein_g: Keep recipes with at least this much protein per serving.
+        sort_by: "calories" (closest to the target, the default), "quickest" or "protein" (most first). The other
+            two orders look only at recipes within 20% of the calorie target (at least 100 kcal either way).
 
     Returns:
         The top recipes with a 'calorie_distance' column; no rows (same columns) when
         nothing matches.
 
     Raises:
-        ValueError: If `calorie_target` is not positive or `cuisine_family` is not one of
-            the families in `df` (case is ignored: "asian" means "Asian").
+        ValueError: If `calorie_target` is not positive, `sort_by` is not one of the three orders, or
+            `cuisine_family` is not one of the families in `df` (case is ignored: "asian" means "Asian").
     """
     require_columns(df, ["recipe_name", "ingredient_list", "cuisine_family", "calories_per_serving",
                          "nutrition_plausible", "vegetarian", "vegan", "contains_gluten"],
                     "baseline_recommend")
     if not calorie_target > 0:
         raise ValueError(f"calorie_target must be a positive number of kcal, got {calorie_target!r}")
+    if sort_by not in SORT_ORDERS:
+        raise ValueError(f"sort_by must be one of {SORT_ORDERS}, got {sort_by!r}")
     results = df.copy()
 
     # Step 1: Filter by cuisine family (an unknown name is an error, not "no recipes")
@@ -135,13 +201,25 @@ def baseline_recommend(
     results["nutrition_plausible"].astype("boolean").fillna(False)
 ]
 
+    # Step 3b: The optional time and protein filters
+    if max_minutes is not None:
+        results = results[recipe_minutes(results) <= max_minutes]
+    if min_protein_g is not None and "protein_g" in results.columns:
+        results = results[results["protein_g"] >= min_protein_g]
+
     if results.empty:
         print("No recipes matched the given filters.")
         return results.assign(calorie_distance=pd.Series(dtype=float))
 
-    # Step 4: Rank by distance to calorie target
+    # Step 4: Rank by distance to calorie target (or, near the target, by time or protein)
     results["calorie_distance"] = (results["calories_per_serving"] - calorie_target).abs()
-    results = results.sort_values("calorie_distance")
+    results = results.sort_values("calorie_distance", kind="stable")
+    if sort_by != "calories":
+        near = results[results["calorie_distance"] <= max(100.0, 0.2 * calorie_target)]
+        if sort_by == "quickest":
+            results = near.assign(_key=recipe_minutes(near)).sort_values("_key", kind="stable").drop(columns="_key")
+        elif "protein_g" in near.columns:
+            results = near.sort_values("protein_g", ascending=False, kind="stable")
 
     # Step 5: Safety filter on the best candidates
     all_avoid = tuple(avoid) + (("contains_gluten",) if gluten_free else ())

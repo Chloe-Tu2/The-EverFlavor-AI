@@ -355,6 +355,46 @@ def test_baseline_recommend_filters_ranks_and_rechecks():
         baseline_recommend(df, calorie_target=-50)
 
 
+def _recipes(rows):
+    """Tiny recipe tables for the filter and sort tests: every flag False unless given."""
+    out = []
+    for name, kcal, minutes, protein, extra in rows:
+        out.append({**dict.fromkeys(FLAG_COLUMNS, False), "vegetarian": True, "vegan": True, "recipe_name": name,
+                    "ingredient_list": ["rice"], "cuisine_family": "Asian", "calories_per_serving": kcal,
+                    "nutrition_plausible": True, "minutes": minutes, "minutes_estimate": None, "protein_g": protein,
+                    **extra})
+    return pd.DataFrame(out)
+
+
+def test_baseline_recommend_time_protein_and_sort_only_narrow_or_reorder():
+    df = _recipes([("Slow Stew", 500, 120, 30, {}), ("Quick Rice", 520, 15, 8, {}),
+                   ("Estimated Bowl", 480, None, 28, {"minutes_estimate": 25}), ("Far Off", 1200, 5, 60, {})])
+    quick = baseline_recommend(df, calorie_target=500, max_minutes=30, top_n=5)
+    assert set(quick["recipe_name"]) == {"Quick Rice", "Estimated Bowl", "Far Off"}   # the estimate counts
+    strong = baseline_recommend(df, calorie_target=500, min_protein_g=25, top_n=5)
+    assert set(strong["recipe_name"]) == {"Slow Stew", "Estimated Bowl", "Far Off"}
+    fastest = baseline_recommend(df, calorie_target=500, sort_by="quickest", top_n=5)
+    assert fastest["recipe_name"].tolist() == ["Quick Rice", "Estimated Bowl", "Slow Stew"]   # 1,200 kcal is too far
+    most = baseline_recommend(df, calorie_target=500, sort_by="protein", top_n=5)
+    assert most["recipe_name"].tolist() == ["Slow Stew", "Estimated Bowl", "Quick Rice"]
+    with pytest.raises(ValueError):
+        baseline_recommend(df, sort_by="tastiest")
+
+
+def test_what_blocks_counts_recipes_without_each_choice():
+    from everflavor.recommend import what_blocks
+
+    df = _recipes([("Peanut Noodles", 500, 20, 10, {"contains_peanut": True}),
+                   ("Peanut Satay", 500, 20, 10, {"contains_peanut": True, "halal_friendly": True}),
+                   ("Plain Rice", 500, 90, 5, {"halal_friendly": True})])
+    df["halal_friendly"] = df["halal_friendly"].fillna(False).astype(bool)
+    blocks = what_blocks(df, avoid=["contains_peanut"], diets=["halal_friendly"], max_minutes=30)
+    by_kind = {b["kind"]: b["recipes"] for b in blocks}
+    assert by_kind == {"avoid": 1, "diet": 0, "time": 1}       # without the time limit: Plain Rice fits
+    assert blocks[-1]["kind"] == "diet"                       # most recipes first
+    assert what_blocks(df) == []
+
+
 def test_every_diet_rule_is_described():
     lines = describe_diet_rules()
     assert len(lines) == len(DIET_COLUMNS)

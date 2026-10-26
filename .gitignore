@@ -45,3 +45,6 @@ chat_history*
 
 # Browser test screenshots and logs (Playwright MCP)
 .playwright-mcp/
+
+# Serena (code navigation MCP) project cache
+.serena/

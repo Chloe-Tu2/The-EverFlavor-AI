@@ -12,7 +12,7 @@ someone clicks something, and each `st.something(...)` call draws one thing on t
 
 The look: a pixel-art kitchen behind the page and a pixel chef who reads out the results.
 The art is drawn by design/pixel-art/make_pixel_art.py (one kitchen per color theme); the
-color themes are in THEMES below. Settings (top right of the page) switch the theme.
+color themes are in app/themes.py. Settings (top right of the page) switch the theme.
 """
 import ast
 import base64
@@ -38,6 +38,7 @@ from chef_lines import (  # app/chef_lines.py: what the chef says, with its sour
     greeting,
     line,
 )
+from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page colors
 from updates import UPDATES  # app/updates.py: the What's new notes
 
 from everflavor import __version__
@@ -47,7 +48,7 @@ from everflavor.dish_names import clean_title
 from everflavor.dish_steps import methods_of, split_minutes, step_breakdown
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
-from everflavor.recommend import baseline_recommend, why_it_fits
+from everflavor.recommend import baseline_recommend, what_blocks, why_it_fits
 from everflavor.safety import UserProfile
 
 DATA = ROOT / "data" / "processed"
@@ -57,38 +58,6 @@ ART = ROOT / "design" / "pixel-art" / "assets"   # drawn by design/pixel-art/mak
 if not (DATA / "recipes_test.parquet").exists():
     DATA = ROOT / "data" / "demo"
 
-# The kitchens. "Classic" is Eva's cooking-game palette and the default. Each has its own kitchen picture (scene)
-# and the colors of the page drawn over it. The time of day (Settings) is the kitchen's light, not a kitchen of its
-# own: Classic's morning and night are the former Morning and Night themes (design/pixel-art/build_classic_scene.py).
-THEMES = {
-    "Classic": {"scene": "classic_hours", "panel": "#FFF8E7", "sidebar": "#FFF1E6", "border": "#8B4513",
-                "text": "#4A2C2A", "heading": "#8B4513", "button": "#FFB6C1", "button_hover": "#FF8FAB",
-                "shadow": "#D9A679", "bubble": "#FFFFFF"},
-    # The cuisine kitchens, each with its own chef. Chinese, Mediterranean, Mexican and Middle Eastern are the v5
-    # kitchens (traced from the team's art, four hours, design/pixel-art/build_scenes.py); Japanese and Moroccan the
-    # code-drawn drafts (design/pixel-art/cuisine_kitchens.py)
-    "Japanese": {"scene": "japanese", "chef": "ref_japanese_", "panel": "#FBF3E2", "sidebar": "#F3E6CC",
-                 "border": "#5B3A29", "text": "#3A2A20", "heading": "#8E2C2C", "button": "#E9C46A",
-                 "button_hover": "#D9AE4A", "shadow": "#C9A57A", "bubble": "#FFFDF7"},
-    "Chinese": {"scene": "v5_chinese", "chef": "ref_chinese_", "panel": "#FBF5EA", "sidebar": "#F4E9D8",
-                "border": "#7A2A22", "text": "#3A2420", "heading": "#B22D2D", "button": "#E9B44C",
-                "button_hover": "#D99E30", "shadow": "#CDBFA6", "bubble": "#FFFDF7"},
-    "Moroccan": {"scene": "moroccan", "chef": "moroccan_", "panel": "#FCF3E8", "sidebar": "#F6E2D2",
-                 "border": "#7A4B22", "text": "#3B2418", "heading": "#1F6F5C", "button": "#E2B33C",
-                 "button_hover": "#CF9E25", "shadow": "#D69068", "bubble": "#FFFDF6"},
-    "Mediterranean": {"scene": "v5_mediterranean", "panel": "#FBF6EC", "sidebar": "#EFE6D6", "border": "#6B4A2F",
-                      "text": "#3B2E22", "heading": "#4F6B2A", "button": "#D9A441", "button_hover": "#C48F2C",
-                      "shadow": "#CDBDA3", "bubble": "#FFFFFF"},
-    "Mexican": {"scene": "v5_mexican", "chef": "mexican_", "panel": "#FFF6E5", "sidebar": "#FCE8C8",
-                "border": "#8C3B1F", "text": "#3B2218", "heading": "#1F5FA8", "button": "#F2A541",
-                "button_hover": "#E08E22", "shadow": "#D88A3A", "bubble": "#FFFDF5"},
-    "Middle Eastern": {"scene": "v5_middle_eastern", "chef": "ref_middle_eastern_", "panel": "#FBF3E4",
-                       "sidebar": "#F3E2C2", "border": "#7A4B22", "text": "#3B2A1A", "heading": "#1E6F80",
-                       "button": "#D9A830", "button_hover": "#C49420", "shadow": "#C9A46B", "bubble": "#FFFDF6"},
-}
-# The page's colors for the Classic kitchen at night (the former Night theme): easier on the eyes in the dark
-NIGHT_COLORS = {"panel": "#2A2138", "sidebar": "#241C31", "border": "#FF8FAB", "text": "#F3E9F5", "heading": "#FFD98A",
-                "button": "#FF8FAB", "button_hover": "#FF6F95", "shadow": "#120D1A", "bubble": "#3A2E4A"}
 # The chef in kitchens without their own: the classic white-hat chef from the team's references
 # (design/pixel-art/make_chefs.py)
 DEFAULT_CHEF = "ref_classic_"
@@ -128,6 +97,12 @@ CUISINE_KITCHENS = {"Asian": "Chinese", "African": "Moroccan", "European": "Medi
 def nice(column: str) -> str:
     """'contains_tree_nut' -> 'Tree nut', 'halal_friendly' -> 'Halal'."""
     return column.removeprefix("contains_").removesuffix("_friendly").replace("_", " ").capitalize()
+
+
+def nice_diet(diet: str) -> str:
+    """A diet as people pick it: 'halal_friendly' -> 'Halal-friendly' (a screen of the ingredients, never the
+    diet itself), 'pescatarian' -> 'Pescatarian'."""
+    return f"{nice(diet)}-friendly" if diet.endswith("_friendly") else nice(diet)
 
 
 PHOTO_CUTOFF = -0.03     # clip_score below this: the photo does not show the dish (a first cutoff; the team refines it)
@@ -202,6 +177,10 @@ def style(theme: dict) -> str:
   --button-hover: {theme['button_hover']}; --shadow: {theme['shadow']}; --bubble: {theme['bubble']};
   --pixel-font: 'Jersey 10', 'Courier New', monospace;   /* titles, tabs, buttons, numbers */
   --pixel-text: 'VT323', 'Courier New', monospace;       /* the chef's lines, small labels */
+  /* One scale each for space, text and shadows: every size below comes from these */
+  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem; --space-4: 1rem; --space-5: 1.5rem;
+  --fs-1: 1rem; --fs-2: 1.35rem; --fs-3: 1.6rem; --fs-4: 2rem; --fs-5: 3.4rem;
+  --shadow-1: 4px 4px 0 var(--shadow); --shadow-2: 6px 6px 0 var(--shadow); --shadow-3: 8px 8px 0 var(--shadow);
 }}
 /* The kitchen fills the window; image-rendering keeps the pixels sharp when it is scaled up */
 .stApp {{
@@ -215,16 +194,16 @@ def style(theme: dict) -> str:
 /* The title hangs on a wooden sign */
 .stApp h1 {{
   display: inline-block; background: var(--panel); border: 4px solid var(--border);
-  box-shadow: 6px 6px 0 var(--shadow); padding: 0.4rem 1.1rem !important;
+  box-shadow: var(--shadow-2); padding: 0.4rem 1.1rem !important;
 }}
 .tagline {{
   display: inline-block; background: var(--panel); color: var(--text); border: 2px solid var(--border);
-  padding: 0.25rem 0.75rem; margin: 0.4rem 0 0; font-size: 1rem;
+  padding: var(--space-1) var(--space-3); margin: var(--space-2) 0 0; font-size: var(--fs-1);
 }}
 /* The tools: a recipe card pinned over the counter */
 [data-testid="stTabs"] {{
   background: color-mix(in srgb, var(--panel) 96%, transparent); border: 4px solid var(--border);
-  box-shadow: 8px 8px 0 var(--shadow); padding: 0.75rem 1.75rem 1.75rem;
+  box-shadow: var(--shadow-3); padding: var(--space-3) var(--space-5) var(--space-5);
 }}
 [data-testid="stSidebar"] {{ background: var(--sidebar); border-right: 4px solid var(--border); }}
 /* Every text color comes from the theme, so a computer in dark mode does not paint white text on cream */
@@ -234,8 +213,8 @@ h1, h2, h3, [data-testid="stTab"] p {{
   color: var(--heading) !important; font-family: var(--pixel-font) !important; font-weight: 400 !important;
   letter-spacing: 0.02em;
 }}
-.stApp h1 {{ font-size: 3.4rem !important; line-height: 1.1 !important; }}
-.stApp h3 {{ font-size: 2rem !important; }}
+.stApp h1 {{ font-size: var(--fs-5) !important; line-height: 1.1 !important; }}
+.stApp h3 {{ font-size: var(--fs-4) !important; }}
 h1 {{ letter-spacing: 0.02em; }}
 /* Inputs stay light with dark text in every theme, so they are always readable */
 div[data-baseweb="input"] > div, div[data-baseweb="select"] > div, textarea, div[data-baseweb="base-input"] {{
@@ -249,16 +228,31 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 }}
 [data-testid="stMultiSelectTagsContainer"] [data-tag] * {{ color: #2B1E1A !important; }}
 /* Pixel buttons: square corners, a hard shadow that "presses" on click */
-.stButton > button {{
+.stButton button, [data-testid="stDownloadButton"] button {{
   background: var(--button); color: #2B1E1A; border: 3px solid var(--border); border-radius: 0;
-  font-family: var(--pixel-font); font-size: 1.35rem; font-weight: 400; box-shadow: 4px 4px 0 var(--shadow);
+  font-family: var(--pixel-font); font-size: var(--fs-2); font-weight: 400; box-shadow: var(--shadow-1); min-height: 44px;
 }}
-.stButton > button:hover {{ background: var(--button-hover); border-color: var(--border); color: #2B1E1A; }}
-.stButton > button:active {{ transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--shadow); }}
+.stButton button:hover, [data-testid="stDownloadButton"] button:hover {{ background: var(--button-hover); border-color: var(--border); color: #2B1E1A; }}
+.stButton button:active, [data-testid="stDownloadButton"] button:active {{ transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--shadow); }}
+/* The label inside a button takes the button's pixel font and size (Streamlit sets its own on the <p>) */
+.stButton button p, [data-testid="stDownloadButton"] button p {{ font-family: var(--pixel-font) !important; font-size: var(--fs-2) !important; color: inherit; }}
+.stButton button p {{ white-space: normal !important; overflow: visible !important; text-overflow: clip !important; line-height: 1.1; }}
+/* The main action stands out; the others are quieter, on the panel's color */
+.stButton button[kind="secondary"], [data-testid="stDownloadButton"] button {{ background: var(--panel); }}
+/* Filter pills: square chips on the panel; a chosen one takes the button color */
+[data-testid="stButtonGroup"] button {{ border-radius: 0 !important; border: 2px solid var(--border) !important;
+  background: var(--panel) !important; color: var(--text) !important; min-height: 36px; }}
+[data-testid="stButtonGroup"] button[aria-pressed="true"], [data-testid="stButtonGroup"] button[aria-checked="true"] {{
+  background: var(--button) !important; color: #2B1E1A !important; font-weight: 600; }}
+/* Small print at full strength: Streamlit fades captions, which lowers their contrast below AA */
+[data-testid="stCaptionContainer"] {{ opacity: 1 !important; }}
+/* Dialogs (the setup, About this dish) in the pixel style: square, outlined, a hard shadow */
+[data-testid="stDialog"] > div {{ border-radius: 0 !important; border: 4px solid var(--border); box-shadow: var(--shadow-3);
+  background: var(--panel) !important; }}
 /* Recipe cards (each container has a key, recipe-card-<n>, which Streamlit turns into a class) */
 .stApp [class*="st-key-recipe-card"] {{
   background: var(--panel); border: 3px solid var(--border) !important; border-radius: 0 !important;
-  box-shadow: 5px 5px 0 var(--shadow); padding: 1rem 1.25rem;
+  box-shadow: var(--shadow-2); padding: var(--space-4) var(--space-5);
 }}
 [data-testid="stImage"] img {{ border: 3px solid var(--border); width: 100%; aspect-ratio: 4 / 3;
   object-fit: contain; background: var(--panel); }}   /* the whole photo, never cropped or zoomed */
@@ -267,8 +261,8 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 .chef {{ width: 128px; height: 128px; flex: none; background: center / contain no-repeat; image-rendering: pixelated; }}
 .bubble {{
   position: relative; flex: 1 1 auto; overflow-wrap: anywhere; background: var(--bubble); color: var(--text); border: 3px solid var(--border);
-  padding: 0.6rem 1rem; font-family: var(--pixel-text); font-size: 1.45rem; line-height: 1.15;
-  box-shadow: 4px 4px 0 var(--shadow); min-width: 0;
+  padding: 0.6rem 1rem; font-family: var(--pixel-text); font-size: var(--fs-3); line-height: 1.15;
+  box-shadow: var(--shadow-1); min-width: 0;
 }}
 .bubble::before {{
   content: ''; position: absolute; left: -12px; bottom: 14px; border: 6px solid transparent;
@@ -283,15 +277,16 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 [data-testid="stTab"][data-key="0"] p::before {{ background-image: url('{art("icon_find")}'); }}
 [data-testid="stTab"][data-key="1"] p::before {{ background-image: url('{art("icon_check")}'); }}
 [data-testid="stTab"][data-key="2"] p::before {{ background-image: url('{art("icon_map")}'); }}
-[data-testid="stTab"] p {{ font-size: 1.5rem; }}
+[data-testid="stTab"] p {{ font-size: var(--fs-3); }}
 /* Top right: the What's new bell and Settings (the oven knob), pixel buttons */
 [data-testid="stPopover"] {{ display: flex; justify-content: flex-end; }}
 [data-testid="stPopover"] button {{
-  background: var(--panel); border: 3px solid var(--border); border-radius: 0; box-shadow: 4px 4px 0 var(--shadow);
+  background: var(--panel); border: 3px solid var(--border); border-radius: 0; box-shadow: var(--shadow-1);
 }}
-[data-testid="stPopover"] button p {{ font-family: var(--pixel-font); font-size: 1.3rem; color: var(--text); }}
+[data-testid="stPopover"] button p {{ font-family: var(--pixel-font); font-size: var(--fs-2); color: var(--text); }}
 [data-testid="stPopover"] button p::before {{ width: 24px; height: 24px; margin-right: 0.4rem; }}
 .st-key-settings [data-testid="stPopover"] button p::before {{ background-image: url('{art("icon_settings")}'); }}
+.st-key-saved-list [data-testid="stPopover"] button p::before {{ background-image: url('{art("icon_cloche")}'); }}
 .st-key-whats-new [data-testid="stPopover"] button p::before {{ background-image: url('{art("icon_bell")}'); }}
 /* A red dot and a little ring until this browser has opened the newest notes (set by kitchen_scene.html) */
 .st-key-whats-new button {{ position: relative; }}
@@ -303,23 +298,23 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
 @keyframes ring {{ 0%, 80%, 100% {{ transform: none; }} 85% {{ transform: rotate(-14deg); }} 90% {{ transform: rotate(14deg); }} }}
 [data-testid="stPopoverBody"] {{
   background: var(--panel) !important; border: 3px solid var(--border) !important; border-radius: 0 !important;
-  box-shadow: 6px 6px 0 var(--shadow) !important; color: var(--text);
+  box-shadow: var(--shadow-2) !important; color: var(--text);
 }}
 [data-testid="stPopoverBody"] p, [data-testid="stPopoverBody"] li {{ color: var(--text); }}
 .no-photo {{
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem;
   aspect-ratio: 4 / 3; background: var(--sidebar); border: 3px dashed var(--border); color: var(--text);
-  font-family: var(--pixel-text); font-size: 1.2rem; text-align: center; padding: 0.5rem;
+  font-family: var(--pixel-text); font-size: var(--fs-2); text-align: center; padding: var(--space-2);
 }}
 .no-photo .ico {{ width: 96px; height: 96px; }}
-.no-photo small {{ font-size: 0.9rem; opacity: 0.75; }}
-.updates h5 {{ font-family: var(--pixel-font); font-weight: 400; font-size: 1.4rem; margin: 0.5rem 0 0; color: var(--heading); }}
+.no-photo small {{ font-size: var(--fs-1); }}
+.updates h5 {{ font-family: var(--pixel-font); font-weight: 400; font-size: var(--fs-2); margin: var(--space-2) 0 0; color: var(--heading); }}
 .updates ul {{ margin: 0.2rem 0 0.6rem 1.1rem; padding: 0; }}
 .stats {{ display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin: 0.25rem 0 0.75rem; }}
-.stat {{ display: flex; align-items: center; gap: 0.5rem; font-family: var(--pixel-font); font-size: 1.6rem; }}
+.stat {{ display: flex; align-items: center; gap: var(--space-2); font-family: var(--pixel-font); font-size: var(--fs-3); }}
 .stat .ico, .bubble .ico {{ width: 32px; height: 32px; }}
 .bubble .ico {{ margin-right: 0.5rem; }}
-.stat small {{ font-family: var(--pixel-text); opacity: 0.8; font-size: 1.2rem; }}
+.stat small {{ font-family: var(--pixel-text); font-size: var(--fs-2); }}
 /* The concept layout: the kitchen open under the title, the chef standing in it above the tabs (on every screen;
    the sidebar copy is not shown) */
 .kitchen-view {{ height: 12vh; }}
@@ -337,8 +332,8 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
 .open-profile {{ display: none; }}
 @media (max-width: 640px) {{
   .open-profile {{ display: block; width: 100%; min-height: 44px; text-align: left; cursor: pointer;
-    background: var(--panel); color: var(--text); border: 3px solid var(--border); box-shadow: 4px 4px 0 var(--shadow);
-    padding: 0.5rem 0.8rem; font-size: 1rem; margin-bottom: 0.75rem; }}
+    background: var(--panel); color: var(--text); border: 3px solid var(--border); box-shadow: var(--shadow-1);
+    padding: var(--space-2) var(--space-3); font-size: var(--fs-1); margin-bottom: var(--space-3); }}
 }}
 @media (max-width: 640px) {{
   .st-key-chef-main .chef {{ width: 80px; height: 80px; }}
@@ -348,17 +343,34 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   [data-testid="stTab"] p::before {{ width: 28px; height: 28px; margin-right: 0.3rem; }}
   [data-testid="stTab"] p {{ font-size: 1.2rem; }}
   .stApp h1 {{ font-size: 2.4rem !important; }}
+  .stats {{ gap: var(--space-2) var(--space-4); }} .stat {{ font-size: var(--fs-2); }} .stat .ico {{ width: 24px; height: 24px; }}
 }}
+/* Badges: an icon and the back end's words; the check a recipe passed, or a warning (never the icon alone) */
+.badge {{ display: flex; align-items: center; gap: var(--space-2); background: var(--bubble); color: var(--text);
+  border: 2px solid var(--border); padding: var(--space-1) var(--space-3); margin: var(--space-1) 0 var(--space-3);
+  font-size: var(--fs-1); line-height: 1.35; }}
+.badge .ico {{ width: 24px; height: 24px; flex: none; }}
+.badge-warn {{ border-style: dashed; }}
+/* The landing's three promises, as quiet chips (no shadow: they are not buttons) */
+.trust {{ display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-3); margin-top: var(--space-3); }}
+.trust .chip {{ display: inline-flex; align-items: center; gap: var(--space-2); border: 2px solid var(--border);
+  background: var(--bubble); padding: var(--space-1) var(--space-3); font-size: var(--fs-1); }}
+.trust .chip .ico {{ width: 20px; height: 20px; }}
+/* What the results were checked for, and the Check tab's single verdict */
+.st-key-safety-summary {{ margin: var(--space-2) 0 var(--space-3); }}
+.st-key-safety-summary .badge {{ margin: 0; font-size: var(--fs-1); }}
+.st-key-verdict {{ background: var(--panel); border: 3px solid var(--border); box-shadow: var(--shadow-1);
+  padding: var(--space-3) var(--space-4); margin-top: var(--space-3); }}
 /* Footer: the disclaimer and the people behind the project, on a wooden board */
 .site-footer {{
   margin-top: 2.5rem; background: var(--panel); color: var(--text); border: 4px solid var(--border);
-  box-shadow: 6px 6px 0 var(--shadow); padding: 1rem 1.5rem; font-size: 0.95rem; line-height: 1.5;
+  box-shadow: var(--shadow-2); padding: var(--space-4) var(--space-5); font-size: var(--fs-1); line-height: 1.5;
 }}
-.site-footer .footer-title {{ font-family: var(--pixel-font); font-weight: 400; font-size: 1.5rem; color: var(--heading); margin: 0 0 0.25rem; padding: 0; }}
+.site-footer .footer-title {{ font-family: var(--pixel-font); font-weight: 400; font-size: var(--fs-3); color: var(--heading); margin: 0 0 var(--space-1); padding: 0; }}
 .site-footer ul {{ margin: 0.25rem 0 0.75rem 1.1rem; padding: 0; }}
 .site-footer a {{ color: var(--heading); font-weight: 600; }}
 .site-footer .credits {{ display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin: 0.25rem 0 0.75rem; }}
-.site-footer small {{ opacity: 0.85; }}
+.site-footer small {{ font-size: var(--fs-1); }}
 .chef {{ cursor: pointer; transition: transform 0.1s steps(2); }}
 .chef:active {{ background-image: url('{art("chef_" + theme.get("chef", DEFAULT_CHEF) + "wink")}') !important; animation: hop 0.35s steps(3); }}
 @keyframes hop {{ 50% {{ transform: translateY(-10px); }} }}
@@ -383,7 +395,7 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   [data-testid="stTabs"], [class*="st-key-recipe-card"], [data-testid="stPopover"], .chef, .bubble,
   .stat, h1, .tagline, .site-footer, iframe) {{ pointer-events: auto; }}
 @media (prefers-reduced-motion: reduce) {{
-  .stButton > button:active, .chef:active {{ transform: none; animation: none; }}
+  .stButton button:active, .chef:active {{ transform: none; animation: none; }}
   [data-testid="stTab"]:active p::before, .stat:hover .ico, .bubble:hover .ico {{ animation: none; }}
   [data-testid="stPopover"] button:hover p::before {{ transform: none; }}
   html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: none; }}
@@ -478,8 +490,13 @@ def from_commons(url: object) -> bool:
 
 
 def plain(text: object) -> str:
-    """Text from outside (a photo's author, a dish's name) shown as words only: HTML and Markdown signs escaped."""
-    return re.sub(r"([\\`*_{}\[\]()#+!|<>~-])", r"\\\1", html.escape(str(text)))
+    """Text from outside (a photo's author, a dish's name, what the user typed) shown as words only, in Markdown
+    (st.caption, st.markdown without HTML): every Markdown and HTML sign gets a backslash, so it shows as itself and
+    nothing becomes a link, a tag or a format. (HTML codes such as &amp; would show as codes there.) A list shows
+    as its items."""
+    if isinstance(text, list | tuple | set):
+        text = ", ".join(map(str, text))
+    return re.sub(r"([\\`*_{}\[\]()#+!|<>~&-])", r"\\\1", str(text))
 
 
 def video_search_link(dish: str, country: object) -> str:
@@ -494,6 +511,11 @@ def dish_page(row: pd.Series, dish: str) -> None:
     """The dish on its own page: where it is from, how its time divides, and each step with its time, the pan or
     pot it uses, the method and what goes in (dish_steps.py, from the recipe's own words)."""
     st.subheader(dish.title())
+    named = clean_title(row["recipe_name"])
+    if named["name_gloss"]:
+        st.caption(f"Also called {named['name_gloss']}")
+    if str(named["dish_name"]).lower() != str(row["recipe_name"]).lower():   # the checks read the posted title
+        st.caption(f"Posted as \"{plain(row['recipe_name'])}\"")
     spoken = say_it(dish)
     if spoken:
         st.caption(say_it_line(spoken) + (f" · {plain(spoken['note'])}" if spoken["note"] else ""))
@@ -550,6 +572,93 @@ def stats(place, calories: float, protein: float, minutes: float | None, estimat
         f'{value} <small>{label}</small></div>' for icon, value, label in chips) + "</div>", unsafe_allow_html=True)
 
 
+def badge(place, icon: str, text: str, kind: str = "safe") -> None:
+    """A small pixel badge: an icon and the back end's words (never the icon alone: the words carry the meaning)."""
+    place.markdown(f'<div class="badge badge-{kind}"><span class="ico" style="background-image: url({art(icon)})">'
+                   f'</span><span>{html.escape(text)}</span></div>', unsafe_allow_html=True)
+
+
+# ---------- The profile: the sidebar's fields, the first-visit setup and the summary above the results ----------
+PROFILE_DEFAULTS = {"avoid": [], "diets": [], "vegetarian": False, "vegan": False, "calories": 600}
+EATING = ["I eat meat", "Vegetarian", "Vegan"]
+
+
+def save_setup() -> None:
+    """The setup's answers become the sidebar's profile (a callback: it runs before the page draws its fields)."""
+    eating = st.session_state["setup-eating"]
+    st.session_state.update(avoid=st.session_state["setup-avoid"], diets=st.session_state["setup-diets"],
+                            vegetarian=eating == "Vegetarian", vegan=eating == "Vegan",
+                            calories=st.session_state["setup-calories"], onboarded=True)
+
+
+def skip_setup() -> None:
+    st.session_state["onboarded"] = True
+
+
+@st.dialog("Set up your profile", width="large", on_dismiss=skip_setup)
+def setup_profile() -> None:
+    """Three questions on the first visit (and from "Edit profile"), so every result is checked from the start.
+    They fill the same profile as the sidebar; nothing is saved after the page closes."""
+    st.markdown("Three quick questions, and every recipe is checked for you. Change them any time under "
+                "**Your profile**.")
+    state = st.session_state
+    st.markdown("**1. What can't you eat?**")
+    st.multiselect("I can't eat", sorted(FLAG_RULES), default=state.get("avoid", []), format_func=nice,
+                   key="setup-avoid", label_visibility="collapsed", placeholder="Peanuts, shellfish, pork... (leave empty if nothing)")
+    st.markdown("**2. Do you follow a diet?**")
+    st.multiselect("I follow", sorted(DIET_PROFILES), default=state.get("diets", []), format_func=nice_diet,
+                   key="setup-diets", label_visibility="collapsed", placeholder="Halal-friendly, kosher-friendly... (optional)")
+    st.radio("Meat", EATING, horizontal=True, key="setup-eating", label_visibility="collapsed",
+             index=2 if state.get("vegan") else 1 if state.get("vegetarian") else 0)
+    st.markdown("**3. About how many calories per meal?**")
+    st.slider("Calories per meal", 200, 1500, int(state.get("calories", 600)), 50, key="setup-calories",
+              label_visibility="collapsed")
+    save, skip = st.columns(2)
+    if save.button("Save and find recipes", type="primary", on_click=save_setup, width="stretch"):
+        st.rerun()
+    if skip.button("Skip for now", on_click=skip_setup, width="stretch", type="secondary"):
+        st.rerun()
+    st.caption("Not medical advice: the checks read ingredient names. Nothing you enter is saved.")
+
+
+# ---------- Finding: the filters, the order and how many ideas at a time ----------
+QUICK_LABELS = {"time": "Under 30 min", "protein": "High protein (25 g+)"}
+QUICK_FILTERS = list(QUICK_LABELS.values())
+SORTS = {"Closest to my calories": "calories", "Quickest": "quickest", "Most protein": "protein"}
+PAGE, MAX_IDEAS = 5, 30   # ideas per "Find" and per "Show more"; at most this many in all
+
+
+def drop_filter(kind: str) -> None:
+    st.session_state["filters"] = [f for f in st.session_state.get("filters") or [] if f != QUICK_LABELS[kind]]
+
+
+def choice_label(block: dict) -> str:
+    """One of the profile's choices in plain words (diets as "...-friendly ingredients", never the diet itself)."""
+    kind, choice = block["kind"], str(block["choice"])
+    if kind == "avoid":
+        return "Vegan" if choice == "vegan" else f"No {nice(choice).lower()}"
+    if kind == "diet":
+        return f"{nice(choice)}-friendly ingredients" if choice.endswith("_friendly") else nice(choice)
+    return kind.capitalize()
+
+
+# ---------- Saved recipes: this visit only (nothing is stored), with a file to keep them ----------
+def toggle_saved(recipe_id: str, entry: dict) -> None:
+    saved = st.session_state.setdefault("saved", {})
+    if recipe_id in saved:
+        del saved[recipe_id]
+    else:
+        saved[recipe_id] = entry
+
+
+def saved_text(saved: dict) -> str:
+    """The saved recipes as a plain text file: name, where from, the numbers, the ingredients and the link."""
+    parts = ["My EverFlavor recipes (checked for the profile I had when I saved them; not medical advice)\n"]
+    for entry in saved.values():
+        parts.append(f"\n{entry['name']}\n" + "\n".join(f"  {line_}" for line_ in entry["lines"]))
+    return "\n".join(parts) + "\n"
+
+
 # ---------- Page setup ----------
 CHEF_ICON = ART / "chef_happy.png"
 st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
@@ -574,8 +683,8 @@ st.markdown(style(page_colors), unsafe_allow_html=True)
 kitchen_scene(THEMES[theme_name]["scene"], hour)
 heading, corner = st.columns([3, 2], vertical_alignment="center")
 heading.title("EverFlavor Kitchen")
-heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked ingredient by ingredient.</p>',
-                 unsafe_allow_html=True)
+TRUST = [("icon_check", "Free, no sign-up"), ("icon_safe", "Nothing you enter is saved"),
+         ("icon_alert", "Not medical advice")]
 
 
 def landing() -> None:
@@ -587,12 +696,14 @@ def landing() -> None:
     with st.container(key="landing-start"):
         st.button("Find a safe recipe", type="primary", key="start", on_click=st.session_state.update,
                   kwargs={"started": True})
-        st.caption("Free · No sign-up · Nothing you enter is saved · Not medical advice")
+        st.markdown('<div class="trust">' + "".join(
+            f'<span class="chip"><span class="ico" style="background-image: url({art(icon)})"></span>{text}</span>'
+            for icon, text in TRUST) + "</div>", unsafe_allow_html=True)
     chef_says(st.container(), "happy", f"{greeting(theme_name)} Did you know satay sauce is usually made with "
                                         "peanuts? Paste any recipe and I'll check it.")
     # On the app's cream panel, like the tabs, so the text never sits on the busy kitchen
     st.markdown('<style>.st-key-landing-panel, .st-key-landing-start { background: var(--panel); border: 3px solid var(--border);'
-                ' box-shadow: 4px 4px 0 var(--shadow); padding: 1rem 1.25rem; } .st-key-landing-panel * { pointer-events: auto; }</style>',
+                ' box-shadow: var(--shadow-1); padding: var(--space-4) var(--space-5); } .st-key-landing-panel * { pointer-events: auto; }</style>',
                 unsafe_allow_html=True)
     with st.container(key="landing-panel"):
         st.subheader("How it works")
@@ -626,7 +737,22 @@ def landing() -> None:
 if not st.session_state.get("started") and st.query_params.get("start") != "1":
     landing()
     st.stop()
-news_spot, settings_spot = corner.columns(2)
+heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked ingredient by ingredient.</p>',
+                 unsafe_allow_html=True)
+news_spot, saved_spot, settings_spot = corner.columns(3)
+saved = st.session_state.setdefault("saved", {})
+with saved_spot.container(key="saved-list"), st.popover(f"Saved ({len(saved)})"):
+    if not saved:
+        st.markdown("Nothing saved yet. Tap **Save** on a recipe to keep it here while this page is open.")
+    for recipe_id, entry in list(saved.items()):
+        name_col, remove_col = st.columns([4, 1], vertical_alignment="center")
+        name_col.markdown(f"**{html.escape(entry['name'])}**  \n<small>{html.escape(entry['lines'][0])}</small>",
+                          unsafe_allow_html=True)
+        remove_col.button("Remove", key=f"unsave-{recipe_id}", on_click=toggle_saved, args=(recipe_id, entry))
+    if saved:
+        st.download_button("Download my recipes", saved_text(saved), file_name="everflavor_recipes.txt",
+                           mime="text/plain", on_click="ignore", width="stretch")
+        st.caption("Saved for this visit only: nothing is stored. Download them to keep them.")
 with news_spot.container(key="whats-new"), st.popover("What's new"):
     st.markdown('<div class="updates">' + "".join(
         f'<h5>{update["version"]} · {update["date"]}</h5><ul>'
@@ -667,13 +793,18 @@ def local_ai() -> dict:
 ai = local_ai()
 
 # ---------- Sidebar: the user's profile, then settings ----------
+# The first visit opens the three-question setup; the sidebar holds the same profile afterwards
+for field, default in PROFILE_DEFAULTS.items():
+    st.session_state.setdefault(field, default)
+if not st.session_state.get("onboarded"):
+    setup_profile()
 with st.sidebar:
     st.header("Your profile")
-    avoid = st.multiselect("I can't eat", options=sorted(FLAG_RULES), format_func=nice)
-    diets = st.multiselect("I follow", options=sorted(DIET_PROFILES), format_func=nice)
-    vegetarian = st.checkbox("Vegetarian")
-    vegan = st.checkbox("Vegan")
-    calories = st.slider("Calories per meal", min_value=200, max_value=1500, value=600, step=50)
+    avoid = st.multiselect("I can't eat", options=sorted(FLAG_RULES), format_func=nice, key="avoid")
+    diets = st.multiselect("I follow", options=sorted(DIET_PROFILES), format_func=nice_diet, key="diets")
+    vegetarian = st.checkbox("Vegetarian", key="vegetarian")
+    vegan = st.checkbox("Vegan", key="vegan")
+    calories = st.slider("Calories per meal", min_value=200, max_value=1500, step=50, key="calories")
     st.divider()
     if ai["kind"] == "ollama":
         use_ai = st.checkbox(f"Explain problems with local AI ({ai['model']})", value=True)
@@ -689,17 +820,16 @@ profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetar
 visit = st.session_state.setdefault("chef_seed", random.randrange(1_000_000))
 said = line(theme_name, visit)
 said += "" if said.endswith((".", "!", "?")) else "."          # a quote ends with its source: close the sentence
-chef_says(chef, "happy", f"{greeting(theme_name)} {said} Tell me what you can't eat under "
-                         "Your profile (the arrow at the top left on a phone), then find a recipe or check one of yours.")
+chef_says(chef, "happy", f"{greeting(theme_name)} {said} Find a recipe below, or check one of yours.")
 
 # ---------- Two tabs ----------
 # On a phone the sidebar is hidden: a button above the tabs says what the profile holds and opens it (the click is
 # passed to Streamlit's own sidebar button by app/kitchen_scene.html)
-set_profile = [*map(nice, avoid), *map(nice, diets), *(["vegetarian"] if vegetarian else []), *(["vegan"] if vegan else [])]
+set_profile = [*map(nice, avoid), *map(nice_diet, diets), *(["vegetarian"] if vegetarian else []), *(["vegan"] if vegan else [])]
 st.markdown(f'<button class="open-profile" type="button">Your profile: '
             f'{html.escape(", ".join(set_profile)) if set_profile else "nothing set yet"} · edit</button>',
             unsafe_allow_html=True)
-find_tab, check_tab, map_tab = st.tabs(["Find recipes", "Check my recipe", "Map"])   # their pixel icons come from the CSS
+find_tab, check_tab, map_tab = st.tabs(["Find recipes", "Check my recipe", "Map: Houston"])   # icons from the CSS
 
 with find_tab:
     pool: pd.DataFrame = recipes
@@ -744,30 +874,61 @@ with find_tab:
             st.caption("Looking for " + ", ".join(asked) + f" · {len(pool):,} recipes")
     else:                                           # the demo data has no countries: the cuisine families only
         cuisine = st.selectbox("Cuisine", ["All"] + sorted(recipes["cuisine_family"].dropna().unique()), key="cuisine")
-    how_many = st.number_input("How many ideas?", min_value=1, max_value=20, value=5)
+    # Filters, one tap each, and the order; the back end applies them, and every result still passes its checks
+    filter_spot, sort_spot = st.columns([3, 2], vertical_alignment="bottom")
+    quick = filter_spot.pills("Narrow it down", list(QUICK_FILTERS), selection_mode="multi", key="filters") or []
+    sort_label = sort_spot.selectbox("Sort by", list(SORTS), key="sort")
+    max_minutes = 30.0 if "Under 30 min" in quick else None
+    min_protein = 25.0 if "High protein (25 g+)" in quick else None
 
     # The results stay on the page between clicks (so "About this dish" can open), but only for the exact choices
-    # they were found with: change the profile or the search and they are gone, never shown as checked for it
+    # they were found with: change the profile, the search or a filter and they are cleared, with a note saying so
     asked = (tuple(avoid), tuple(diets), vegetarian, vegan, calories, cuisine, str(st.session_state.get("search")),
-             int(how_many))
-    if st.button("Find recipes", type="primary"):
+             tuple(quick), sort_label)
+
+    def find(count: int) -> None:
         loading = cooking("Cooking up ideas...")
-        st.session_state["found"] = (asked, baseline_recommend(
-            pool,
-            cuisine_family=None if cuisine == "All" else cuisine,
-            calorie_target=calories,
-            vegetarian_only=vegetarian,
-            vegan_only=vegan,
-            avoid=avoid,
-            diets=diets,
-            top_n=int(how_many),
-        ))
+        st.session_state["found"] = (asked, count, baseline_recommend(
+            pool, cuisine_family=None if cuisine == "All" else cuisine, calorie_target=calories,
+            vegetarian_only=vegetarian, vegan_only=vegan, avoid=avoid, diets=diets, top_n=count,
+            max_minutes=max_minutes, min_protein_g=min_protein, sort_by=SORTS[sort_label]))
         loading.empty()
+
+    if st.button("Find recipes", type="primary"):
+        find(PAGE)
     found = st.session_state.get("found")
+    if found and found[0] != asked:
+        st.info("Your choices changed, so the earlier ideas were cleared (they were checked for the old ones). "
+                "Press **Find recipes** for new ones.")
+    fits = why_it_fits(avoid, diets, vegetarian, vegan)   # the back end's checks, restated in plain words
     if found and found[0] == asked:
-        results = found[1]
+        results = found[2]
+        # What every result below was checked for, with a way to change it
+        with st.container(key="safety-summary"):
+            said_col, edit_col = st.columns([5, 1], vertical_alignment="center")
+            badge(said_col, "icon_safe" if fits else "icon_alert",
+                  f"{fits or 'No profile set: these ideas are not checked for allergies or diets'}. "
+                  f"About {calories} kcal per meal" + (f"; {', '.join(quick).lower()}." if quick else "."),
+                  "safe" if fits else "warn")
+            edit_col.button("Edit", key="edit-profile", on_click=st.session_state.update, kwargs={"onboarded": False},
+                            width="stretch")
         if results.empty:
-            chef_says(chef, "thinking", "Hmm, nothing matches all your choices. Try removing one.", "empty")
+            chef_says(chef, "thinking", "Hmm, nothing fits all your choices together. Here is what is holding it back.",
+                      "empty")
+            blocks = [b for b in what_blocks(pool, avoid, diets, vegetarian, vegan, max_minutes, min_protein)
+                      if b["recipes"]]
+            # One tap only for the filters and the search; an allergy or a diet is never offered as one tap to drop
+            for b in [b for b in blocks if b["kind"] in ("time", "protein")]:
+                st.button(f"Drop \"{QUICK_LABELS[str(b['kind'])]}\": about {b['recipes']:,} recipes",
+                          key=f"loosen-{b['kind']}", on_click=drop_filter, args=(str(b["kind"]),))
+            if st.session_state.get("search"):
+                st.button("Clear the search", key="loosen-search", on_click=st.session_state.update,
+                          kwargs={"search": None})
+            strict = [b for b in blocks if b["kind"] not in ("time", "protein")][:3]
+            if strict:
+                st.markdown("Your profile's strictest choices, and the recipes each one holds back (change them only "
+                            "if they do not apply to you):\n\n" + "\n".join(
+                                f"- **{choice_label(b)}**: about {b['recipes']:,} recipes without it" for b in strict))
         else:
             chef_says(chef, "happy", f"Here {'is' if len(results) == 1 else 'are'} {len(results)} "
                                      f"{'idea' if len(results) == 1 else 'ideas'} close to {calories} calories. "
@@ -795,68 +956,84 @@ with find_tab:
                                      f'<span class="ico" style="background-image: url({art("no_photo")})"></span>'
                                      'Cooking up a picture...<small>No photo of this dish yet</small></div>',
                                      unsafe_allow_html=True)
-                # The dish's own name; the title as posted stays underneath (the safety checks read the posted
-                # title, never this one)
+                # A short card: the dish's own name and where it is from, the numbers, and the check it passed as
+                # its badge; the other names, how to say it, the ingredients, steps and video are on its own page
                 named = clean_title(row["recipe_name"])
-                info.subheader(str(named["dish_name"]).title())
-                if named["name_gloss"]:
-                    info.caption(f"Also called {named['name_gloss']}")
-                spoken = say_it(str(named["dish_name"]))
-                if spoken:
-                    info.caption(say_it_line(spoken))
-                if str(named["dish_name"]).lower() != str(row["recipe_name"]).lower():
-                    info.caption(f"Posted as \"{row['recipe_name']}\"")
+                dish = str(named["dish_name"]).title()
+                info.subheader(dish)
                 where = row.get("origin_country")
                 if isinstance(where, str) and where != "Unknown":
                     region = row.get("origin_region")
                     info.caption(f"From {region + ', ' if isinstance(region, str) else ''}{where}")
                 stats(info, row["calories_per_serving"], row["protein_g"], row.get("minutes"), row.get("minutes_estimate"))
-                fits = why_it_fits(avoid, diets, vegetarian, vegan)   # the back end's checks, restated
-                info.caption(fits or "No profile set yet: add what you can't eat to have it checked.")
+                badge(info, "icon_safe" if fits else "icon_alert",
+                      fits or "Not checked: add what you can't eat under Your profile", "safe" if fits else "warn")
                 ingredients = row["ingredient_list"]
-
                 if isinstance(ingredients, str):
                     try:
                         ingredients = ast.literal_eval(ingredients)
                     except (ValueError, SyntaxError):
                         ingredients = [ingredients]
-
-                # A compact card (name, origin, numbers, the checks); the ingredients, steps and video are on the
-                # dish's own page
-                info.caption(f"{len(ingredients)} ingredients")
-                if info.button("About this dish: ingredients, steps, video", key=f"about-{number}"):
+                about_col, save_col = info.columns([3, 1])
+                if about_col.button(f"About this dish: {len(ingredients)} ingredients, steps, video",
+                                    key=f"about-{number}", width="stretch"):
                     dish_page(row, str(named["dish_name"]))
+                recipe_id = str(row.get("recipe_id", row["recipe_name"]))
+                entry = {"name": dish, "lines": [
+                    f"{row['calories_per_serving']:.0f} kcal, {row['protein_g']:.0f} g protein"
+                    + (f", from {where}" if isinstance(where, str) and where != "Unknown" else ""),
+                    fits or "Not checked against a profile",
+                    "Ingredients: " + ", ".join(map(str, ingredients)),
+                    *([f"Recipe: {link}"] if isinstance(link, str) and link.startswith("http") else [])]}
+                save_col.button("Saved" if recipe_id in saved else "Save", key=f"save-{number}", width="stretch",
+                                on_click=toggle_saved, args=(recipe_id, entry),
+                                help="Keep it in Saved (top right) while this page is open")
+        more = not results.empty and len(results) == found[1] and found[1] < MAX_IDEAS
+        if more and st.button(f"Show {PAGE} more", key="more"):
+            find(found[1] + PAGE)
+            st.rerun()
 
 with check_tab:
-    st.write("Paste a recipe (one ingredient per line) to see if it fits your profile.")
-    name = st.text_input("Dish name", "Thai Peanut Bowl")
-    lines = st.text_area("Ingredients", "2 cups jasmine rice\n3 tbsp satay sauce\n1 lb chicken breast")
+    st.write("Paste a recipe, one ingredient per line, to check it against your profile.")
+    name = st.text_input("Dish name", placeholder="Thai peanut bowl")
+    lines = st.text_area("Ingredients", placeholder="2 cups jasmine rice\n3 tbsp satay sauce\n1 lb chicken breast",
+                         height=140)
 
-    if st.button("Check it"):
-        # The safety gate decides; the local AI (if on) only explains a failure, and its words are
-        # replaced by a plain sentence when they do not match the gate's answer.
-        loading = cooking("Checking every ingredient...")
-        report = check_and_explain(lines.splitlines(), name, profile, model=ai["model"] if use_ai else None)
-        loading.empty()
-        if report["passed"]:
-            chef_says(chef, "happy", f"{name} is safe for your profile. Happy cooking!", "safe")
-            st.success("Safe for your profile.")
+    if st.button("Check it", type="primary"):
+        if not lines.strip():
+            st.warning("Paste at least one ingredient line first.")
         else:
-            first = report["problems"][0]
-            chef_says(chef, "alert", f"Watch out! \"{first['line']}\" breaks {nice(first['rule'])}"
-                                     + (f", and I found {len(report['problems']) - 1} more."
-                                        if len(report["problems"]) > 1 else "."), "alert")
-            st.error(f"{len(report['problems'])} problem(s) found:")
-            for problem in report["problems"]:
-                st.write(f"- **{problem['line']}**: breaks *{nice(problem['rule'])}* "
-                         f"(matched: {problem['matched']})")
-        st.info(report["text"])
-        st.caption(f"Explained by: {report['explained_by']}. Rules checked: "
-                   + ", ".join(nice(r) for r in report["checked"]))
+            # The safety gate decides; the local AI (if on) only explains a failure, and its words are
+            # replaced by a plain sentence when they do not match the gate's answer.
+            dish_name = name.strip() or "Your recipe"
+            loading = cooking("Checking every ingredient...")
+            report = check_and_explain(lines.splitlines(), dish_name, profile, model=ai["model"] if use_ai else None)
+            loading.empty()
+            with st.container(key="verdict"):
+                if report["passed"]:
+                    chef_says(chef, "happy", f"{dish_name} fits your profile. Happy cooking!", "safe")
+                    badge(st, "icon_safe", f"{dish_name}: nothing in these ingredients breaks your profile.")
+                else:
+                    problems = report["problems"]
+                    count = f"{len(problems)} {'problem' if len(problems) == 1 else 'problems'}"
+                    chef_says(chef, "alert", f"Watch out! I found {count} in {dish_name}.", "alert")
+                    badge(st, "icon_alert", f"{dish_name}: {count} for your profile.", "warn")
+                    by_line: dict[str, list[dict]] = {}
+                    for problem in problems:              # one entry per ingredient line, with every rule it breaks
+                        by_line.setdefault(str(problem["line"]), []).append(problem)
+                    st.markdown("\n".join(
+                        f"- **{plain(text)}**: " + "; ".join(
+                            f"{nice(p['rule'])} (found \"{plain(p['matched'])}\")" for p in found_here)
+                        for text, found_here in by_line.items()))
+                if report["passed"] or report["explained_by"] != "rules":   # the rules' text repeats the list
+                    st.markdown(plain(report["text"]))
+                st.caption(f"Explained by: {report['explained_by']}. Rules checked: "
+                           + ", ".join(nice(r) for r in report["checked"]))
 
 with map_tab:
     # Where to buy and where to eat, Houston only for now (docs/plans/MAP.md): OpenStreetMap places from notebook 03
     # on a free OpenFreeMap street map. The map never asks where the visitor is.
+    st.write("Grocers, restaurants and butchers in Houston, Texas, for now. More cities may follow.")
     places_file = DATA / "places.parquet"
     if not places_file.exists():
         places_file = ROOT / "data" / "processed" / "places.parquet"

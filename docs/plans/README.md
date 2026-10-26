@@ -93,6 +93,30 @@ Everything below waits on a teammate, not on code. Tick an item when it is done.
 - [ ] **Retrospective:** read the bugs-and-fixes retrospective (a shared doc from med27-coder) and add anything
   missed.
 
+### Front end: the professional pass (done 2026-10-26, for 0.7.1)
+
+From research on what makes AI-built pages look professional (Anthropic's frontend-design guidance, v0, Lovable,
+WCAG 2.2, Nielsen Norman Group); the lessons are kept as a personal skill, `pro-ui-design`. Checked in the browser
+at desktop and phone width.
+
+| # | Change | Where |
+|---|---|---|
+| 1 | A safety summary above the results (what they were checked for, the calories, the filters) with Edit | `app/app.py` Find tab |
+| 2 | "Checked for you" is each card's badge; the other names, "Posted as" and how to say it moved to the dish page | cards, `dish_page()` |
+| 3 | A note when a changed choice clears the results, instead of results vanishing | Find tab |
+| 4 | Check tab: one verdict panel, problems grouped by ingredient line, placeholders instead of a prefilled demo | Check tab |
+| 5 | A contrast test for every theme (all pass WCAG AA); no faded text (captions at full strength) | `tests/test_app_contrast.py`, `app/themes.py` |
+| 6 | The Map tab says "Houston" | tabs |
+| 7 | The landing shows the tagline once, with three trust chips | `landing()` |
+| 8 | No results: one-tap fixes for the filters and the search, and how many recipes each strict choice holds back (never a one-tap way to drop an allergy or a diet) | `recommend.what_blocks` |
+| 9 | A three-question setup on the first visit (and from Edit), filling the sidebar's profile | `setup_profile()` |
+| 10 | One spacing, type and shadow scale; button labels in the pixel font; pixel-style dialogs and filter pills | `style()` |
+| 11 | Save recipes for the visit, with a download (nothing is stored) | Saved, top right |
+| 12 | Filters (under 30 min, high protein), Sort by, and "Show 5 more" instead of "How many ideas?" | `baseline_recommend` |
+
+Also: diet names say "-friendly" everywhere they are picked (`nice_diet`), and outside text in Markdown is escaped
+without HTML codes, so "Mac & Cheese" shows as written (`plain()`).
+
 ### Before the merge into `main` (planned 2026-10-26; nothing started)
 
 The branch is 68 commits and about 600 files ahead of `main`, so it goes in four gates, in order. Each gate ends
