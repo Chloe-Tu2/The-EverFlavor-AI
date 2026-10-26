@@ -46,10 +46,33 @@ GENERIC = ["a photo of food.", "a photo of a dish.", "a photo of a meal on a pla
 N_OTHERS, CHUNK, BATCH, SEED = 50, 2048, 64, 2277
 
 
+def manifest_so_far() -> pd.DataFrame:
+    """While a Food.com download is still running there is no manifest.csv yet: the same rows from its log
+    (results.jsonl) and its links, so the check can start on the photos already downloaded."""
+    import json
+
+    recs = []
+    for line in (PHOTOS / "results.jsonl").read_text(encoding="utf-8").splitlines():
+        try:
+            recs.append(json.loads(line))
+        except json.JSONDecodeError:   # the line being written right now
+            continue
+    res = pd.DataFrame(recs).drop_duplicates("url", keep="last")
+    links = pd.read_csv(ROOT / "data" / "raw" / "foodcom_links.csv", usecols=["source", "recipe_id", "recipe_name", "url"])
+    m = links.merge(res, on="url", how="inner")
+    for c in ("file", "http_status", "image_error"):
+        if c not in m:
+            m[c] = None
+    return m[["source", "recipe_id", "recipe_name", "file", "http_status", "image_error"]]
+
+
 def own_photos() -> pd.DataFrame:
     """One row per recipe with a downloaded, readable own photo, with its clean dish name."""
-    m = pd.read_csv(PHOTOS / "manifest.csv", usecols=["source", "recipe_id", "recipe_name", "file", "http_status",
-                                                       "image_error"])
+    if SET == "foodcom" and not (PHOTOS / "manifest.csv").exists():
+        m = manifest_so_far()
+    else:
+        m = pd.read_csv(PHOTOS / "manifest.csv", usecols=["source", "recipe_id", "recipe_name", "file", "http_status",
+                                                           "image_error"])
     m = m[(m.http_status == 200) & m.image_error.isna() & m.file.notna()].drop_duplicates("recipe_id")
     m = m[[(PHOTOS / f).is_file() for f in m.file]].copy()
     m["dish_name"] = [str(clean_title(str(t))["dish_name"]) or str(t) for t in m.recipe_name]
@@ -66,13 +89,34 @@ def load_model():  # type: ignore[no-untyped-def]
     return model, preprocess, open_clip.get_tokenizer(ARCH), torch
 
 
+def cached() -> tuple[list[str], np.ndarray, np.ndarray]:
+    """Every vector saved so far, with its file. A chunk names its own files; older chunks (before 2026-10-26)
+    take theirs from files.csv by position."""
+    names: list[str] = []
+    vectors, oks = [], []
+    old = pd.read_csv(CACHE / "files.csv").file.tolist() if (CACHE / "files.csv").exists() else []
+    for c, path in enumerate(sorted(CACHE.glob("emb_*.npz"))):
+        part = np.load(path)
+        names += list(part["files"]) if "files" in part else old[c * CHUNK:c * CHUNK + len(part["emb"])]
+        vectors.append(part["emb"])
+        oks.append(part["ok"])
+    if not vectors:
+        return [], np.zeros((0, 512), np.float16), np.zeros(0, bool)
+    return names, np.concatenate(vectors), np.concatenate(oks)
+
+
 def embed() -> None:
-    """Image vectors for every distinct photo file, saved in chunks so a stopped run resumes."""
+    """Image vectors for every photo file not embedded yet, saved in chunks that name their files, so a stopped
+    run resumes and a later run (more photos downloaded) only adds the new ones."""
     from PIL import Image
 
-    files = sorted(own_photos().file.unique())
     CACHE.mkdir(parents=True, exist_ok=True)
-    pd.Series(files, name="file").to_csv(CACHE / "files.csv", index=False)
+    done = set(cached()[0])
+    files = [f for f in sorted(own_photos().file.unique()) if f not in done]
+    first = len(list(CACHE.glob("emb_*.npz")))
+    print(f"{len(done)} photos embedded before, {len(files)} to embed", flush=True)
+    if not files:
+        return
     model, preprocess, _, torch = load_model()
 
     def prep(f: str):  # type: ignore[no-untyped-def]
@@ -86,9 +130,7 @@ def embed() -> None:
     n_chunks = (len(files) + CHUNK - 1) // CHUNK
     with ThreadPoolExecutor(4) as pool:
         for c in range(n_chunks):
-            path = CACHE / f"emb_{c:03d}.npz"
-            if path.exists():
-                continue
+            path = CACHE / f"emb_{first + c:03d}.npz"
             part = files[c * CHUNK:(c + 1) * CHUNK]
             vecs, oks = [], []
             for b in range(0, len(part), BATCH):
@@ -98,7 +140,7 @@ def embed() -> None:
                     v = model.encode_image(x)
                 vecs.append(torch.nn.functional.normalize(v, dim=-1).numpy().astype(np.float16))
                 oks += [g[1] for g in got]
-            np.savez(path, emb=np.concatenate(vecs), ok=np.array(oks))
+            np.savez(path, emb=np.concatenate(vecs), ok=np.array(oks), files=np.array(part))
             done = min(len(files), (c + 1) * CHUNK)
             print(f"chunk {c + 1}/{n_chunks}: {done} photos, {time.time() - t0:.0f} s", flush=True)
     print(f"embed done: {len(files)} photos in {time.time() - t0:.0f} s", flush=True)
@@ -117,10 +159,8 @@ def text_vectors(texts: list[str]) -> np.ndarray:
 def score() -> None:
     t0 = time.time()
     photos = own_photos()
-    files = pd.read_csv(CACHE / "files.csv").file.tolist()
-    parts = [np.load(CACHE / f"emb_{c:03d}.npz") for c in range((len(files) + CHUNK - 1) // CHUNK)]
-    emb = np.concatenate([p["emb"] for p in parts]).astype(np.float32)
-    ok = np.concatenate([p["ok"] for p in parts])
+    files, emb16, ok = cached()
+    emb = emb16.astype(np.float32)
     row_of = {f: i for i, f in enumerate(files)}
     photos = photos[photos.file.map(lambda f: f in row_of and ok[row_of[f]])].reset_index(drop=True)
     img = emb[photos.file.map(row_of).to_numpy()]
