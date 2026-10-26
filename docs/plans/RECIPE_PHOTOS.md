@@ -95,6 +95,23 @@ as `&amp;`), and **111,803 of them (51.3%) have a photo of their own**: links sa
 `data/processed/foodcom_photo_links.parquet`. Next: download them (notebook 11, `DOWNLOAD_PHOTOS`), the logo
 fingerprint and the photo-matches-dish check, then the app shows them.
 
+### Download paused (2026-10-26)
+
+The download was stopped on request at **74,277 of 111,803 photos** (`data/raw/foodcom_photos/foodcom/`, each
+try logged in `results.jsonl`). The script writes `manifest.csv` only at the end, so the app shows none of them
+yet. To finish, in order:
+
+| # | Step | Command or place | Time (estimate) |
+|---|---|---|---|
+| 1 | Resume the download; it skips every link already in `results.jsonl` and writes `manifest.csv` | `python -I scripts/recipe_photos/fetch.py data/raw/foodcom_links.csv data/raw/foodcom_photos` | about 2-3 hours for the last 37,500 |
+| 2 | Mark logos and icons (a picture shared by 3 or more recipes, or under 5 KB) and write what the app reads | notebook 11 section 5 (`CHECK_PHOTOS = True`): `data/processed/foodcom_photos.parquet` | minutes |
+| 3 | Photo-matches-dish check (CLIP, CPU) | `PHOTO_SET=foodcom python -I scripts/recipe_photos/check_photos.py embed`, then `score` | a few hours for embed |
+| 4 | Restart the app and look at a few Food.com recipes | `python -m streamlit run app/app.py` | minutes |
+| 5 | Record the counts here and in notebook 11, then commit (no files from `data/raw`) | this file, `notebooks/README.md` | minutes |
+
+Steps 1 and 3 can be stopped and resumed. Even with all of them, about 120,600 recipes (mostly CulinaryDB) have no
+photo: a pixel-art "no photo yet" dish picture is the recommended next step for those.
+
 ## Steps, in order
 
 | # | Step | How | Effort |
