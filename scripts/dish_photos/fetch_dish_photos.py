@@ -147,6 +147,8 @@ class Opts:
     top = TOP
     extend = False
     min_words = 1
+    apply = False
+    dry = False
 
 
 def cache_name(stem: str) -> Path:
@@ -197,7 +199,15 @@ def photoless_recipes() -> pd.DataFrame:
     if Opts.extend:
         chk = pd.read_parquet(PROC / "photo_check.parquet", columns=["recipe_id", "clip_score"])
         has -= set(chk.loc[chk.clip_score < CLIP_CUTOFF, "recipe_id"])
-        has |= set(pd.read_parquet(PROC / "foodcom_photo_links.parquet", columns=["recipe_id"]).recipe_id)
+        # Food.com photos really downloaded and readable (notebook 11), minus the ones the photo check hides; a
+        # link alone is not a photo
+        fc = pd.read_parquet(PROC / "foodcom_photos.parquet", columns=["recipe_id", "photo_ok"])
+        fc_has = set(fc.loc[fc.photo_ok.astype(bool), "recipe_id"])
+        fc_chk = PROC / "photo_check_foodcom.parquet"
+        if fc_chk.exists():
+            c = pd.read_parquet(fc_chk, columns=["recipe_id", "clip_score"])
+            fc_has -= set(c.loc[c.clip_score < CLIP_CUTOFF, "recipe_id"])
+        has |= fc_has
         has |= set(existing_dish_photos().recipe_id)
     return df[~df.recipe_id.isin(has)].drop_duplicates("recipe_id").reset_index(drop=True)
 
@@ -251,8 +261,8 @@ def stage_match() -> None:
     df["how"] = df.k.map(lambda k: cache[k][1])
     df = df[df.match != ""].copy()
     df["dish_qid"] = df.match.map(names)
-    if Opts.extend:  # dishes that already have a photo row are not fetched again
-        df = df[~df.dish_qid.isin(set(existing_dish_photos().dish_qid))]
+    if Opts.extend:  # dishes that already have a photo row, or whose photo failed the verify stage, are skipped
+        df = df[~df.dish_qid.isin(set(existing_dish_photos().dish_qid) | failed_verify())]
     df["dish_label"] = df.dish_qid.map(lambda q: wd[q]["label"])
     CACHE.mkdir(parents=True, exist_ok=True)
     df.drop(columns=["k"]).to_parquet(cache_name("matches"), index=False)
@@ -471,7 +481,7 @@ def stage_curate() -> None:
 def stage_write() -> None:
     total = len(photoless_recipes())  # before appending, so --extend counts this round's targets
     d = pd.read_parquet(cache_name("dishes_curated"))
-    d = d[d.status == "kept"].copy()
+    d = d[(d.status == "kept") & ~d.dish_qid.isin(failed_verify())].copy()
     d["author"] = d.artist.map(plain).str.slice(0, 200).replace("", "author not stated")
     d["credit"] = [f"Photo of {lab}: {a}, {lic}, via Wikimedia Commons"
                    for lab, a, lic in zip(d.dish_label, d.author, d.license)]
@@ -495,14 +505,417 @@ def stage_write() -> None:
     print(d.license.value_counts().to_dict())
 
 
+# ---------------------------------------------------------------- CLIP check of general photos (verify, search)
+# A photo of a dish in general comes from a match or a search, and a search can return anything, so the cutoff is
+# stricter than for a recipe's own photo (-0.03): the photo must look more like this dish than like food in
+# general by a clear margin, its name must beat at least 90% of 50 other dish names, and it must look more like
+# food than like a package, a bottle, a landscape, a person or a drawing (nonfood < 0). Chosen from hand-checked
+# contact sheets (Claude, 2026-10-26): Wikidata's own dish images (verify) were mostly right from clip_score 0.02;
+# search results between 0.02 and 0.04 were wrong about half the time (a landscape for "s'mores", foil bricks for
+# "meatloaf"), from 0.04 about one in ten or fewer, so a search needs 0.045.
+GENERAL_CLIP = 0.02   # verify: the photos matched to Wikidata dishes
+SEARCH_CLIP = 0.045   # search: any Commons file
+GENERAL_RANK = 0.9
+NONFOOD = ["a photo of a product package with a brand label.", "a photo of bottles or jars on a shelf.",
+           "a photo of a landscape.", "a photo of a person.", "a drawing or an illustration.",
+           "a photo of a building or a shop."]
+# File names that point to a package, a shop or something else than a plate of food
+SEARCH_BAD = re.compile(r"\b(box|boxes|bottles?|cans?|cartons?|wrappers?|brand|products?|advert\w*|supermarket|"
+                        r"grocery|store|shop|panorama|landscape|portrait|ostracon|almanack|dpla|museum|"
+                        r"restaurant sign|tv dinner)\b", re.IGNORECASE)
+SCORES = CACHE / "clip_scores.parquet"         # (image_file, name) -> clip_score, rank_score
+VERIFY = CACHE / "verify.csv"                  # one row per dish_photos dish: its scores and passed True/False
+HIDDEN = CACHE / "dish_photos_hidden.parquet"  # rows the verify stage took out of dish_photos.parquet
+RESULTS = CACHE / "search_results.json"        # group key -> phrase and free Commons candidates
+THUMBS = CACHE / "search_thumbs"               # candidate thumbnails (rejected ones stay here, git-ignored)
+CLEAN = CACHE / "clean_names.parquet"          # recipe title -> clean dish name (dish_names.clean_title)
+POOL = CACHE / "rank_pool.json"                # the 2000 commonest clean dish names, for rank_score
+
+
+def failed_verify() -> set[str]:
+    """Dishes whose photo failed the general-photo check (verify stage): never written again."""
+    if not VERIFY.exists():
+        return set()
+    v = pd.read_csv(VERIFY)
+    return set(v.loc[~v.passed.astype(bool), "dish_qid"])
+
+
+def passes(clip_score: float, rank_score: float, nonfood: float = -1.0, search: bool = False) -> bool:
+    cut = SEARCH_CLIP if search else GENERAL_CLIP
+    return bool(clip_score >= cut and rank_score >= GENERAL_RANK and nonfood < 0)
+
+
+# Words in front of a dish name that say nothing about which dish it is, and people whose dish it is
+FLUFF = set("""easy easiest best quick quickie homemade simple healthy healthier light lite skinny my our the a an
+ultimate perfect famous classic delicious yummy super really amazing awesome favorite favourite real great speedy
+fabulous fantastic wonderful tasty scrumptious fresh basic traditional authentic ultra incredible good lazy
+extra""".split())  # noqa: SIM905
+FLUFF_PREFIX = re.compile(r"^(?:low[- ]?(?:fat|carb|cal|calorie|sodium)|fat[- ]?free|sugar[- ]?free|gluten[- ]?free|"
+                          r"crock[- ]?pot|slow[- ]?cooker|instant[- ]?pot|old[- ]?fashioned|home[- ]?made|"
+                          r"\d+[- ]?(?:minute|min|ingredient)s?|one[- ]?pot|no[- ]?fuss|best[- ]?ever|"
+                          r"weight[- ]?watchers?|ww)\b\s*")
+PEOPLE = set("""grandma grandmas grandmother granny gran nana nanas mom moms mommy mama mamas mother mothers dad dads
+daddy papa grandpa aunt aunts auntie uncle uncles mimi mamaw""".split())  # noqa: SIM905
+# Single or paired words that never name one dish ("breakfast bowl", "special treat")
+VAGUE = set("""treat treats delight delights surprise special mix blend medley platter bowl plate side main dish meal
+lunch dinner breakfast brunch snack appetizer dessert bite bites ball balls bar bars cup cups square squares slice
+drink beverage thing stuff goodie goodies food recipe""".split())  # noqa: SIM905
+# Plain ingredients and cuts: a photo of the raw thing would not show the recipe ("broccoli", "chicken breast")
+INGREDIENTS = set("""broccoli spinach asparagu zucchini cauliflower cabbage mushroom pepper eggplant squash kale lettuce
+avocado cucumber celery leek beet okra pea artichoke scallop mussel clam oyster crab lobster tilapia cod halibut
+haddock trout breast thigh drumstick tenderloin ground loin sirloin fillet filet green bean sweet potato corn sprout
+brussel chicken pork beef turkey lamb fresh frozen raw""".split())  # noqa: SIM905
+STOP = {"and", "or", "of", "a", "the", "de", "la", "n", "an", "with", "to", "au", "e", "y", "et", "le", "el"}
+
+
+def core_phrase(name: str) -> str:
+    """The part of a clean dish name a photo search can find: no "easy", "grandma's" or "crock pot" in front, no
+    "with ..." after. "" when what is left does not name one dish (a single generic word like "chicken", vague
+    words only, or more than four words)."""
+    s = unicodedata.normalize("NFKD", str(name or "")).encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"\(.*?\)|\".*?\"", " ", s.replace("’", "'"))
+    s = re.split(r"\s+-\s+|[:;,/]| a la | from | by | for | served | per | using ", f" {s} ")[0]
+    s = re.split(r"\s+with\s+", s)[0]
+    for word in ("in", "on", "over"):  # "mussels in sherry" -> mussels, but "pigs in a blanket" stays whole
+        left = re.split(rf"\s+{word}\s+", s)[0]
+        if len(left.split()) >= 2:
+            s = left
+    s = re.sub(r"[^a-z0-9' -]+", " ", s)
+    s = re.sub(r"^((?:\S+ ){0,2}?[a-z]+) s\b", r"\1's", s.strip())  # Food.com's lost apostrophe: "dan s chili"
+    words = s.replace("-", " ").split()
+    # people's dishes: "grandma's meatloaf", "aunt sue's chili", "bob's chili" (but not "shepherd's pie")
+    for i in reversed(range(min(3, len(words)))):
+        w = words[i]
+        if w.endswith(("'s", "s'")) or w in PEOPLE:
+            rest = words[i + 1:]
+            if w.rstrip("'s") in PEOPLE or w in PEOPLE or len(rest) > 1 or (rest and key(rest[0]) not in GENERIC):
+                words = rest
+            break
+    while words:
+        joined = " ".join(words)
+        m = FLUFF_PREFIX.match(joined)
+        if m and m.end() > 0:
+            words = joined[m.end():].split()
+        elif words[0] in FLUFF or words[0] in PEOPLE or words[0].isdigit():
+            words = words[1:]
+        else:
+            break
+    while words and (words[-1] in {"k", "i", "ii", "iii", "iv", "dup", "recipe", "ever", "and", "or"}
+                     or words[-1].isdigit()):
+        words = words[:-1]
+    words = [w.strip("'") for w in words if w.strip("'")]
+    if not words or len(words) > 4:
+        return ""
+    if len(words) == 1 and (key(words[0]) in GENERIC or len(words[0]) < 3):
+        return ""
+    if all(key(w) in VAGUE or w in STOP for w in words) or all(key(w) in INGREDIENTS for w in words):
+        return ""
+    return " ".join(words)
+
+
+def clip_kit():  # type: ignore[no-untyped-def]
+    """The photo check's CLIP model (scripts/recipe_photos/check_photos.py), loaded once."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("check_photos", Path("scripts/recipe_photos/check_photos.py"))
+    assert spec and spec.loader
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    model, preprocess, tokenizer, torch = mod.load_model()
+    torch.set_num_threads(4)  # leave the rest of the CPU to the other photo check
+    return mod, model, preprocess, tokenizer, torch
+
+
+def clean_names(titles: list[str]) -> dict[str, str]:
+    from everflavor.dish_names import clean_title
+    have = pd.read_parquet(CLEAN) if CLEAN.exists() else pd.DataFrame(columns=["title", "clean"])
+    out = dict(zip(have.title, have.clean))
+    need = sorted({t for t in titles if t not in out})
+    for t in need:
+        try:
+            out[t] = str(clean_title(t)["dish_name"] or t)
+        except Exception:  # noqa: BLE001 - keep the raw title if the cleaner trips
+            out[t] = t
+    if need:
+        CACHE.mkdir(parents=True, exist_ok=True)
+        pd.DataFrame({"title": list(out), "clean": list(out.values())}).to_parquet(CLEAN, index=False)
+    return out
+
+
+def all_recipes() -> pd.DataFrame:
+    return pd.concat([pd.read_parquet(p, columns=["recipe_id", "recipe_name"])
+                      for p in sorted(PROC.glob("recipes_*.parquet"))]).drop_duplicates("recipe_id")
+
+
+def rank_pool() -> list[str]:
+    """2000 common dish names (all recipes), the 'other dishes' a photo's own name must beat."""
+    if POOL.exists():
+        return list(load_json(POOL))
+    titles = all_recipes().recipe_name.dropna().astype(str)
+    cn = clean_names(titles.unique().tolist())
+    names = titles.map(cn).str.lower().str.strip()
+    names = names[names.map(lambda n: bool(n) and not (len(n.split()) == 1 and key(n) in GENERIC))]
+    pool = names.value_counts().index[:2000].tolist()
+    save_json(pool, POOL)
+    return pool
+
+
+def score_images(pairs: list[tuple[str, str]]) -> pd.DataFrame:
+    """clip_score and rank_score for (image file, dish name) pairs, cached in SCORES."""
+    import zlib
+
+    import numpy as np
+    from PIL import Image
+    have = pd.read_parquet(SCORES) if SCORES.exists() else pd.DataFrame(
+        columns=["image_file", "name", "clip_score", "rank_score", "nonfood"])
+    if "nonfood" not in have:  # scores from before the non-food check are scored again
+        have = have.iloc[0:0].assign(nonfood=pd.Series(dtype=float))
+    done = set(zip(have.image_file, have.name))
+    todo = sorted({p for p in pairs if p not in done})
+    print("CLIP scores cached", len(done), "to score", len(todo), flush=True)
+    if todo:
+        mod, model, preprocess, tokenizer, torch = clip_kit()
+
+        def text(texts: list[str]) -> np.ndarray:
+            out = []
+            for b in range(0, len(texts), 256):
+                with torch.no_grad():
+                    v = model.encode_text(tokenizer(texts[b:b + 256]))
+                out.append(torch.nn.functional.normalize(v, dim=-1).numpy())
+            return np.concatenate(out)
+        pool = rank_pool()
+        pool_keys = [set(key(n).split()) for n in pool]
+        pool_vec = text([f"a photo of {n}, a type of food." for n in pool])
+        gen = text(mod.GENERIC)
+        non = text(NONFOOD)
+        names = sorted({n for _, n in todo})
+        name_vec = dict(zip(names, text([f"a photo of {n}, a type of food." for n in names])))
+        rows = []
+        for b in range(0, len(todo), 64):
+            part = todo[b:b + 64]
+            ims, ok = [], []
+            for f, _ in part:
+                try:
+                    with Image.open(f) as im:
+                        ims.append(preprocess(im.convert("RGB")))
+                        ok.append(True)
+                except (OSError, ValueError, SyntaxError, Image.DecompressionBombError):
+                    ims.append(torch.zeros(3, 224, 224))
+                    ok.append(False)
+            with torch.no_grad():
+                v = torch.nn.functional.normalize(model.encode_image(torch.stack(ims)), dim=-1).numpy()
+            for (f, n), vec, good in zip(part, v, ok):
+                if not good:
+                    rows.append((f, n, -1.0, 0.0, 1.0))
+                    continue
+                own = float(vec @ name_vec[n])
+                cs = own - float((gen @ vec).mean())
+                k = set(key(n).split())
+                # other names that are not this dish in other words ("brownie" vs "fudge brownie")
+                others = [i for i, pk in enumerate(pool_keys) if not (pk <= k or k <= pk)]
+                rng = np.random.default_rng(zlib.crc32(f"{f}|{n}".encode()))
+                pick = rng.choice(others, size=50, replace=False)
+                rs = float((pool_vec[pick] @ vec < own).mean())
+                nf = float((non @ vec).max()) - float((gen @ vec).mean())  # the closest non-food prompt
+                rows.append((f, n, round(cs, 4), round(rs, 3), round(nf, 4)))
+            print(f"  scored {min(b + 64, len(todo))}/{len(todo)}", flush=True)
+        new = pd.DataFrame(rows, columns=["image_file", "name", "clip_score", "rank_score", "nonfood"])
+        have = pd.concat([have, new], ignore_index=True) if len(have) else new
+        have.to_parquet(SCORES, index=False)
+    return have
+
+
+# ---------------------------------------------------------------- verify: CLIP check of the photos already chosen
+def stage_verify() -> None:
+    """Score every dish in dish_photos.parquet against its label; write VERIFY. With --apply, take the rows of the
+    dishes that fail out of dish_photos.parquet (kept in HIDDEN, so nothing is lost), and the write stages never
+    add them again."""
+    dp = existing_dish_photos()
+    dishes = dp.groupby("dish_qid", as_index=False).agg(dish_label=("dish_label", "first"),
+                                                       image_file=("image_file", "first"),
+                                                       recipes=("recipe_id", "size"))
+    sc = score_images(list(zip(dishes.image_file, dishes.dish_label)))
+    v = dishes.merge(sc, left_on=["image_file", "dish_label"], right_on=["image_file", "name"], how="left")
+    v["passed"] = [passes(c, r) for c, r in zip(v.clip_score, v.rank_score)]  # nonfood is reported, not used
+    v = v.drop(columns=["name"])
+    if VERIFY.exists():  # dishes taken out by an earlier --apply stay on the list
+        old = pd.read_csv(VERIFY)
+        v = pd.concat([v, old[~old.dish_qid.isin(set(v.dish_qid))]], ignore_index=True)
+    v.sort_values("clip_score").to_csv(VERIFY, index=False)
+    v = v[v.dish_qid.isin(set(dishes.dish_qid))]
+    bad = v[~v.passed.astype(bool)]
+    print(f"dishes {len(v)}: pass {int(v.passed.sum())}, fail {len(bad)} ({int(bad.recipes.sum())} recipe rows)")
+    print(bad.sort_values("recipes", ascending=False).head(15)[["dish_label", "clip_score", "rank_score",
+                                                                 "recipes", "image_file"]].to_string())
+    if Opts.apply and len(bad):
+        drop = dp.dish_qid.isin(set(bad.dish_qid))
+        hidden = pd.concat([pd.read_parquet(HIDDEN), dp[drop]]) if HIDDEN.exists() else dp[drop]
+        hidden.drop_duplicates("recipe_id").to_parquet(HIDDEN, index=False)
+        dp[~drop].to_parquet(PROC / "dish_photos.parquet", index=False)
+        print("took out", int(drop.sum()), "rows; dish_photos rows now", int((~drop).sum()))
+
+
+# ---------------------------------------------------------------- search: Commons search for photo-less dishes
+def commons(s: requests.Session, params: dict) -> dict:
+    """One Commons API call: 1 request a second, maxlag=5, backing off when the servers are busy."""
+    params = {**params, "format": "json", "formatversion": 2, "maxlag": 5}
+    for i in range(6):
+        j = get_json(s, "https://commons.wikimedia.org/w/api.php", params, pace=1.0)
+        if j.get("error", {}).get("code") == "maxlag":
+            time.sleep(5 * (i + 1))
+            continue
+        return j
+    raise RuntimeError("commons busy")
+
+
+def candidates(j: dict, phrase: str) -> tuple[int, list[dict]]:
+    """Free, photo-like files from one search answer whose name or categories carry every word of the phrase."""
+    need = {w for w in key(phrase).split() if w not in STOP}
+    pages = sorted(j.get("query", {}).get("pages", []), key=lambda p: p.get("index", 0))
+    out = []
+    for p in pages:
+        ii = (p.get("imageinfo") or [{}])[0]
+        md = ii.get("extmetadata", {})
+        lic = re.sub(r"\s+", " ", html.unescape(md.get("LicenseShortName", {}).get("value", ""))).strip()
+        title = p.get("title", "")[5:]
+        w, h = ii.get("width") or 0, ii.get("height") or 0
+        words = set(key(" ".join([title.rsplit(".", 1)[0], plain(md.get("ObjectName", {}).get("value", "")),
+                                  md.get("Categories", {}).get("value", "").replace("|", " ")])).split())
+        if (ii.get("mime") not in ("image/jpeg", "image/png", "image/webp") or min(w, h) < 300
+                or max(w, h) / max(1, min(w, h)) > 2.5 or not FREE.match(lic) or BAD_WORDS.search(title)
+                or SEARCH_BAD.search(title)
+                or not need <= words or not ii.get("thumburl", "").startswith("https://")):
+            continue
+        out.append({"pageid": p["pageid"], "commons_file": title, "thumb_url": ii["thumburl"].split("?")[0],
+                    "file_page": ii.get("descriptionurl", ""), "mime": ii.get("mime"), "license": lic,
+                    "artist": md.get("Artist", {}).get("value", "")})
+        if len(out) == 5:
+            break
+    return len(pages), out
+
+
+def thumb_path(c: dict) -> Path:
+    return THUMBS / f"{c['pageid']}.{ext_of(c['thumb_url'], c['mime'])}"
+
+
+def stage_search() -> None:
+    import shutil
+    Opts.extend = True
+    ph = photoless_recipes()
+    cn = clean_names(ph.recipe_name.dropna().astype(str).unique().tolist())
+    ph["core"] = ph.recipe_name.astype(str).map(cn).map(core_phrase)
+    total = len(ph)
+    ph = ph[ph.core != ""].copy()
+    ph["gk"] = ph.core.map(key)
+    res = load_json(RESULTS) if RESULTS.exists() else {}
+    groups = ph.groupby("gk").agg(n=("recipe_id", "size"), phrase=("core", lambda x: x.value_counts().index[0]))
+    done = [k for k, v in res.items() if v.get("done")]  # groups a written round has settled (a --dry one has not)
+    groups = groups[~groups.index.isin(done)].reset_index().sort_values(["n", "gk"], ascending=[False, True])
+    todo = groups.head(Opts.top)
+    print(f"photo-less {total}, with a dish phrase {len(ph)} in {len(groups)} unsearched groups; "
+          f"this round {len(todo)} names, {int(todo.n.sum())} recipes", flush=True)
+
+    s = session()
+    for i, (gk, phrase) in enumerate(zip(todo.gk, todo.phrase)):
+        if gk in res:  # searched before (a --dry round or a stopped run)
+            continue
+        base = {"action": "query", "generator": "search", "gsrnamespace": 6, "gsrlimit": 10, "prop": "imageinfo",
+                "iiprop": "url|extmetadata|mime|size", "iiurlwidth": WIDTH}
+        hits, cands = candidates(commons(s, {**base, "gsrsearch": f"{phrase} food filetype:bitmap"}), phrase)
+        if not cands:
+            hits2, cands = candidates(commons(s, {**base, "gsrsearch": f"{phrase} filetype:bitmap"}), phrase)
+            hits = max(hits, hits2)
+        res[gk] = {"phrase": phrase, "hits": hits, "cands": cands}
+        if i % 25 == 24 or i == len(todo) - 1:
+            save_json(res, RESULTS)
+            print(f"  searched {i + 1}/{len(todo)}", flush=True)
+    save_json(res, RESULTS)
+
+    # thumbnails of this round's candidates, 2 at a time, paced
+    THUMBS.mkdir(parents=True, exist_ok=True)
+    cands = [c for gk in todo.gk for c in res[gk]["cands"] if not thumb_path(c).exists()]
+    s1, s2 = session(), session()
+
+    def fetch(args: tuple[int, dict]) -> str:
+        i, c = args
+        sess = s1 if i % 2 else s2
+        for t in range(5):
+            try:
+                r = sess.get(c["thumb_url"], timeout=60)
+                if r.status_code == 200:
+                    thumb_path(c).write_bytes(r.content)
+                    time.sleep(1.0)
+                    return "got"
+                time.sleep(float(r.headers.get("Retry-After", 15 * (t + 1))))
+            except requests.RequestException:
+                time.sleep(15 * (t + 1))
+        return "failed"
+    print("thumbnails to fetch", len(cands), flush=True)
+    with ThreadPoolExecutor(max_workers=2) as ex:
+        got = list(ex.map(fetch, enumerate(cands)))
+    print(pd.Series(got, dtype=str).value_counts().to_dict(), flush=True)
+
+    pairs = [(thumb_path(c).as_posix(), res[gk]["phrase"]) for gk in todo.gk for c in res[gk]["cands"]
+             if thumb_path(c).exists() and thumb_path(c).stat().st_size >= 2048]
+    sc = score_images(pairs).set_index(["image_file", "name"])
+    best, no_free, rejected = {}, 0, 0
+    for gk in todo.gk:
+        r = res[gk]
+        scored = [(sc.loc[(thumb_path(c).as_posix(), r["phrase"])], c) for c in r["cands"]
+                  if (thumb_path(c).as_posix(), r["phrase"]) in sc.index]
+        if not scored:
+            no_free += 1
+            continue
+        ok = [(x.clip_score, c) for x, c in scored if passes(x.clip_score, x.rank_score, x.nonfood, search=True)
+              and not SEARCH_BAD.search(c["commons_file"])]
+        if ok:
+            best[gk] = max(ok, key=lambda t: t[0])[1]
+        else:
+            rejected += 1
+    new = ph[ph.gk.isin(list(best))].copy()
+    print(f"ROUND names {len(todo)} accepted {len(best)} ({100 * len(best) / max(1, len(todo)):.1f}%) "
+          f"recipes {len(new)} rejected_by_clip {rejected} no_free_candidates {no_free}", flush=True)
+    if Opts.dry:
+        return
+    for gk in todo.gk:
+        res[gk]["done"] = True
+    save_json(res, RESULTS)
+    if new.empty:
+        return
+    rows, man = [], []
+    for gk, c in best.items():
+        src = thumb_path(c)
+        dst = OUT / f"c{c['pageid']}{src.suffix}"
+        if not dst.exists():
+            shutil.copyfile(src, dst)
+        lab = res[gk]["phrase"]
+        author = plain(c["artist"])[:200] or "author not stated"
+        d = {"dish_qid": f"search:{gk}", "dish_label": lab, "image_file": dst.as_posix(),
+             "thumb_url": c["thumb_url"], "file_page": c["file_page"], "license": c["license"], "author": author,
+             "credit": f"Photo of {lab}: {author}, {c['license']}, via Wikimedia Commons"}
+        rows.append(d)
+        man.append({**d, "recipes": int((new.gk == gk).sum()), "commons_file": c["commons_file"]})
+    d = pd.DataFrame(rows)
+    out = new[["recipe_id", "gk"]].assign(dish_qid=lambda x: "search:" + x.gk).drop(columns="gk")
+    out = out.merge(d, on="dish_qid")
+    old = existing_dish_photos()
+    out = out[~out.recipe_id.isin(set(old.recipe_id))]
+    pd.concat([old, out[old.columns].astype(old.dtypes.to_dict())], ignore_index=True).to_parquet(
+        PROC / "dish_photos.parquet", index=False)
+    pd.concat([pd.read_csv(OUT / "manifest.csv"), pd.DataFrame(man)], ignore_index=True).to_csv(
+        OUT / "manifest.csv", index=False, encoding="utf-8")
+    print("rows added", len(out), "dish_photos rows", len(old) + len(out))
+
+
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=["dishes", "match", "meta", "download", "curate", "write"])
+    ap.add_argument("stage", choices=["dishes", "match", "meta", "download", "curate", "write", "verify", "search"])
     ap.add_argument("--top", type=int, default=TOP, help="dishes to take, by recipes covered (default %(default)s)")
     ap.add_argument("--extend", action="store_true", help="a further round for recipes that still have no photo")
     ap.add_argument("--min-words", type=int, default=1, help="shortest dish phrase that may match")
+    ap.add_argument("--apply", action="store_true", help="verify: take failing dishes out of dish_photos.parquet")
+    ap.add_argument("--dry", action="store_true", help="search: score but do not write dish_photos.parquet")
     a = ap.parse_args()
-    Opts.top, Opts.extend, Opts.min_words = a.top, a.extend, a.min_words
+    Opts.top, Opts.extend, Opts.min_words, Opts.apply, Opts.dry = a.top, a.extend, a.min_words, a.apply, a.dry
     {"dishes": stage_dishes, "match": stage_match, "meta": stage_meta, "download": stage_download,
-     "curate": stage_curate, "write": stage_write}[a.stage]()
+     "curate": stage_curate, "write": stage_write, "verify": stage_verify, "search": stage_search}[a.stage]()
