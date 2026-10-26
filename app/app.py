@@ -221,6 +221,7 @@ div[data-baseweb="input"] > div, div[data-baseweb="select"] > div, textarea, div
   background: #FFFDF8 !important; border: 2px solid var(--border) !important; border-radius: 0 !important;
 }}
 div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color: #2B1E1A !important; }}
+[data-testid="stTextInputRootElement"], div[data-baseweb="input"] {{ border-radius: 0 !important; }}
 /* Chosen items in "I can't eat" / "I follow": the theme's button color, so the dark text stays readable */
 [data-testid="stMultiSelectTagsContainer"] [data-tag] {{
   background: var(--button) !important; color: #2B1E1A !important; border: 2px solid var(--border) !important;
@@ -642,6 +643,39 @@ def choice_label(block: dict) -> str:
     return kind.capitalize()
 
 
+# ---------- The Check tab's words: the back end's report in plain language (no rule names or codes) ----------
+def where_found(line_: str) -> str:
+    """'3 tbsp satay sauce' -> '**3 tbsp satay sauce**'; '(dish name) Thai peanut bowl' -> 'The dish's name, ...'."""
+    if line_.startswith("(dish name) "):
+        return f"The dish's name, **{plain(line_.removeprefix('(dish name) '))}**,"
+    return f"**{plain(line_)}**"
+
+
+def rule_words(rule: str) -> str:
+    """A rule the line breaks: 'contains_peanut' -> 'has peanut', 'vegan' -> 'is not vegan',
+    'halal_friendly' -> 'is not halal-friendly'."""
+    if rule.startswith("contains_"):
+        return f"has {nice(rule).lower()}"
+    if rule in ("vegan", "vegetarian"):
+        return f"is not {rule}"
+    return f"is not {nice_diet(rule).lower()}"
+
+
+def because(line_: str, matched: object) -> str:
+    """The word that broke the rule, only when it is not plain to see in the line (a hidden or translated
+    ingredient): ' (we found "anchovy")'; '' when the line already shows it."""
+    words = [str(w) for w in (matched if isinstance(matched, list | tuple | set) else [matched])]
+    hidden = [w for w in words if w.lower() not in line_.lower()]
+    return f" (we found \"{plain(hidden)}\")" if hidden else ""
+
+
+def checked_words(rule: str) -> str:
+    """What was checked: 'contains_peanut' -> 'peanut', 'halal_friendly' -> 'halal-friendly ingredients'."""
+    if rule.startswith("contains_"):
+        return nice(rule).lower()
+    return f"{nice_diet(rule).lower()} ingredients" if rule.endswith("_friendly") else nice_diet(rule).lower()
+
+
 # ---------- Saved recipes: this visit only (nothing is stored), with a file to keep them ----------
 def toggle_saved(recipe_id: str, entry: dict) -> None:
     saved = st.session_state.setdefault("saved", {})
@@ -939,15 +973,18 @@ with find_tab:
                 ok = row.get("photo_ok")             # False: a logo, an icon or not the dish; missing: no check
                 if ok is not None and not pd.isna(ok) and not bool(ok):
                     photo = None
+                named = clean_title(row["recipe_name"])
+                dish = str(named["dish_name"]).title()
                 picture, info = st.columns([1, 2])
                 if isinstance(photo, str) and photo.startswith("https://"):
                     # The photo comes with the recipe from its website; the credit links there, so anyone can check
-                    picture.image(photo, width="stretch")
+                    picture.image(photo, width="stretch", alt=f"Photo of {dish} from the recipe's page")
                     if isinstance(link, str) and link.startswith("http"):
                         picture.caption(f"Photo: [{html.escape(str(site or 'the recipe page'))}]({link})")
                 elif from_commons(row.get("thumb_url")) and from_commons(row.get("file_page")):
                     # No photo of its own: a free photo of the dish in general (Wikimedia Commons), said so plainly
-                    picture.image(row["thumb_url"], width="stretch")
+                    picture.image(row["thumb_url"], width="stretch",
+                                  alt=f"A photo of {row['dish_label']} in general, not this recipe")
                     picture.caption(f"A photo of {plain(row['dish_label'])} in general, not this recipe. "
                                     f"[{plain(row['credit'])}]({row['file_page']})")
                 else:
@@ -958,8 +995,6 @@ with find_tab:
                                      unsafe_allow_html=True)
                 # A short card: the dish's own name and where it is from, the numbers, and the check it passed as
                 # its badge; the other names, how to say it, the ingredients, steps and video are on its own page
-                named = clean_title(row["recipe_name"])
-                dish = str(named["dish_name"]).title()
                 info.subheader(dish)
                 where = row.get("origin_country")
                 if isinstance(where, str) and where != "Unknown":
@@ -1022,13 +1057,16 @@ with check_tab:
                     for problem in problems:              # one entry per ingredient line, with every rule it breaks
                         by_line.setdefault(str(problem["line"]), []).append(problem)
                     st.markdown("\n".join(
-                        f"- **{plain(text)}**: " + "; ".join(
-                            f"{nice(p['rule'])} (found \"{plain(p['matched'])}\")" for p in found_here)
+                        f"- {where_found(text)} " + "; ".join(
+                            rule_words(p["rule"]) + because(text, p["matched"]) for p in found_here) + "."
                         for text, found_here in by_line.items()))
-                if report["passed"] or report["explained_by"] != "rules":   # the rules' text repeats the list
-                    st.markdown(plain(report["text"]))
-                st.caption(f"Explained by: {report['explained_by']}. Rules checked: "
-                           + ", ".join(nice(r) for r in report["checked"]))
+                    if report["explained_by"] != "rules":   # the local AI's words, kept only when they match the rules
+                        st.markdown(plain(report["text"]))
+                checked = [checked_words(r) for r in report["checked"] if r != "contains_pet_meat"]
+                st.caption(("Checked for: " + ", ".join(checked) + ". " if checked else "")
+                           + "The app's rules made this decision"
+                           + (f"; the local AI ({report['explained_by']}) only explained it." if report["explained_by"] != "rules"
+                              else ".") + " Not medical advice: the check reads ingredient names.")
 
 with map_tab:
     # Where to buy and where to eat, Houston only for now (docs/plans/MAP.md): OpenStreetMap places from notebook 03

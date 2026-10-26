@@ -233,6 +233,17 @@ Where the living kitchen stands, for whoever picks it up next:
   pick is layout 4); the app still shows the title as before. The planner's version rule says new features are a
   MINOR step; the team chose to number this work 0.5.2 and 0.5.3.
 
+### 0.8.0 (planned 2026-10-26): chat with the chef, and a real store locator
+
+Two plans, researched and written; nothing built. Each step in them ships on its own.
+
+| Feature | Plan | In short | First steps |
+|---|---|---|---|
+| Chat with the chef | [CHEF_CHAT.md](CHEF_CHAT.md) | A bubble bottom-right; the chef answers by calling the project's own functions (find, check, substitutions, where to buy), never from its own judgment; every recipe re-checked by the safety gate; rules-only answers when the local AI is off; no chat history saved | `chat.py` with a rules router and red-team tests, then the bubble |
+| Store locator | [MAP.md](MAP.md), "Making it a real store locator" | A list beside the map, ZIP search from the Census table (no paid API), a details card with directions, "Where to buy" from a recipe; MapLibre later; Greater Houston coverage | back-end `map_places` and `zip_center`, then the wider data |
+
+Both list open questions for the team at their ends.
+
 ### Later (1.0 and after)
 
 Hosting and a landing page; My cookbook and sharing; the chef chat tab (`llm.ask_agent`); the meal planner in the
