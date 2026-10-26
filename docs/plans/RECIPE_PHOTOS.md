@@ -46,6 +46,34 @@ salad in general, not this recipe", with the credit linking to the file's page.
   vegetable soup, pie crust, clam chowder, yellow rice). The team checks the rest the same way.
 - The recipe's own photo always wins; a hidden logo falls back to the dish photo.
 
+## Photo check (step 5, first run 2026-10-25)
+
+`scripts/recipe_photos/check_photos.py` (run with `python -I`; steps embed, score, sample, eval) scores every own
+photo against its dish's clean name with CLIP ViT-B/32 (OpenAI weights, MIT license, `open_clip`, on the CPU;
+model cached in `data/raw/clip_models/`). Results: `data/processed/photo_check.parquet` (recipe_id, clip_score,
+rank_score) for 38,188 recipes (37,665 photo files, 35,864 dish names).
+
+- **clip_score:** how much closer the photo is to `"a photo of <dish>, a type of food."` than to four generic
+  food prompts. Median 0.066; below 0 the photo fits food in general better than this dish.
+- **rank_score:** the share of 50 random other dish names that fit the photo worse than its own name. Median
+  1.00, so it separates only the bottom of the list.
+- **Time:** 36 minutes for the images, 48 minutes for the dish names and scores (a laptop CPU).
+- **Sample:** `data/reference/photo_check_sample.csv`, 200 photos, 20 from each of 10 score bands. Claude
+  labelled 74 by eye (6 per band and all 20 of the lowest band), `checked_by` "Claude (draft)": 7 are not the
+  dish (3 site logos, a drawing, a birthday cake for cinnamon rolls, raw rice for a risotto, a party table).
+
+**Proposed cutoff: hide when clip_score is below -0.03.** On the 74 labels: precision 1.00, recall 0.71 (5 of
+the 7 wrong photos hidden, no right ones). It hides 1,270 photos: 931 are pictures shared by 3 or more recipes
+(the logos step 4 hides anyway) and 339 more. Of 12 of those 339 checked by eye, 8 were wrong (raw mussels for
+"Fideos with Seafood", a pig drawing for pancakes, beer and beans for "Wilted Collards", bare rocket for
+"Salad Nicoise") and 3 were right (a pasta with text on it, pâté chinois, a mala dry pot): CLIP knows less
+common dish names less well.
+
+- Missed at this cutoff: a party table for "Crispy Chicken Bites" (-0.027), raw rice for the risotto (-0.009).
+- rank_score below 0.5 does about as well (precision 1.00, recall 0.57, 741 photos); keep it as a second view.
+- Only 7 wrong photos in the labels, so the cutoff is a first guess: the team labels the other 126 rows (and
+  checks Claude's), then `check_photos.py eval` gives the new precision and recall.
+
 ## Steps, in order
 
 | # | Step | How | Effort |

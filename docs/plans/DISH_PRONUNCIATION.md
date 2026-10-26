@@ -207,3 +207,12 @@ files; we store the file name and play it from Commons.
 6. App: show the line and the play button with credit on the recipe card; audio only on a tap.
 7. Credits page and data README: sources, licenses, date of the snapshot.
 8. Later: more countries, Taiwanese (traditional script) when Taiwan recipes exist.
+
+## Built (2026-10-25)
+
+`data/reference/dish_pronunciation.csv`: 65 dishes (50 from the draft above, plus 10 Chinese and 5 Japanese), each
+with its own name, a respelling and, for 18, a native speaker's recording. The respellings follow the rules of
+med27-coder's language app [linguaVercel](https://github.com/med27-coder/linguaVercel): simple Latin letters, never
+IPA; Mandarin in pinyin with tone numbers (gong1 bao3); Japanese in romaji with the stressed mora in capitals
+(te-ri-YA-ki); one regional variety per language, said in a note (chorizo: Mexican Spanish). English names that
+came from Cantonese (chow mein, dim sum, char siu) say so. First check by Claude; a team member confirms.

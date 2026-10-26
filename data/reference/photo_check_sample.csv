@@ -1,0 +1,201 @@
+recipe_id,dish_name,file,clip_score,rank_score,matches_dish,checked_by
+hf_10798,"Grilled Potato, Onion, and Arugula Salad",huggingface/fb2b4b46244f91257f8a29b7a4b5baa3c1701ac5.jpg,0.0043,0.9,yes,Claude (draft)
+hf_13914,Duck with Apple and Cherry Sauce,huggingface/17049caa8b5970125a7f0c30614c7966e3c9635e.jpg,-0.0624,0.4,no,Claude (draft)
+hf_16307,Pannekoeken,huggingface/bf21722415a81de4021c0c4101d2deae6db5f40b.jpg,-0.0073,0.92,yes,Claude (draft)
+hf_16755,Colorado Bulldog,huggingface/3c3db923e342b0b421837ed85964a3fec50115c1.jpg,0.0161,0.82,yes,Claude (draft)
+hf_18696,Grilled Jerk Pork Tenderloin,huggingface/6c079efbf28664496d646dc599fd41f5e58dfe12.jpg,0.004,0.86,yes,Claude (draft)
+hf_2244,Mr Daniels Dastardly Fruitcake,huggingface/5b5fbbcf8f765c7904af72fbe67c010c48f127b9.jpg,0.0099,0.92,yes,Claude (draft)
+hf_23705,Crispy Chicken Bites,huggingface/c67abb8ec7f0714c5c8f3212991b475e9ec06335.jpg,-0.0269,0.8,no,Claude (draft)
+hf_24732,Panisses With Sage Leaves and Lemon,huggingface/39c8fb2f9efead5cde369acbd69a988cd1e85132.jpg,0.0114,0.92,yes,Claude (draft)
+hf_25713,Cheese Please,huggingface/fd6eb8cdeaf52f74f514a9d4f53e14d1039fcd10.jpg,-0.0215,0.86,yes,Claude (draft)
+hf_25957,Seared Filet Mignon,huggingface/1df2215b65e4358da52505cffa48bac9ef81226f.jpg,-0.0641,0.3,no,Claude (draft)
+hf_27892,French Salad Dressing Mix,huggingface/dcf30ec452111b2755480f32ec5cd0110ae16153.jpg,0.0152,0.92,yes,Claude (draft)
+hf_27980,Ginisang Togue,huggingface/d9ddf2813b699594290b0d4c39c04dcdb01d7991.jpg,0.0076,0.9,yes,Claude (draft)
+hf_30170,Chicken,huggingface/e01a80d187cd7baacfda2c6cc8e204e8567984bf.jpg,0.0269,0.92,yes,Claude (draft)
+hf_3213,Ginger Poached Pear,huggingface/01e641bc962cd72e6987e81111b370f03ade5b3a.jpg,-0.0555,0.46,no,Claude (draft)
+hf_32530,Upside Down Pizza,huggingface/43dbdc575f8171a8910366dd2b6d254d02ed5423.jpg,-0.0237,0.7,yes,Claude (draft)
+hf_32975,"Roasted Cauliflower Short Grain Brown Rice Risotto With Lemon, Walnut And Mascarpone",huggingface/3b680c3adb66b8124feba10540d96207bb2c00f5.jpg,-0.0086,0.82,no,Claude (draft)
+hf_33680,Grill Up Stuffed Burgers For Your Next Party,huggingface/d4d545f4ae98aef479947cbd7d6a308ba3df3291.jpg,-0.005,0.94,yes,Claude (draft)
+hf_3693,Strawberry Vanilla Bean Ice Cream,huggingface/7514ddb98fb3d35eab8fe9b88514669f02e2be43.jpg,-0.0005,0.88,yes,Claude (draft)
+hf_37016,Warm Piquillo & Crab Dip,huggingface/3f4329bd9eccfa14c395694a65b684701c9adc0c.png,-0.0492,0.74,no,Claude (draft)
+hf_37048,Overnight Buttermilk Cinnamon Rolls,huggingface/af9c82b5b7a98a1a8d43e5dd1079b38d13d248cd.jpg,-0.0661,0.34,no,Claude (draft)
+hf_10346,Pouding Chômeur,huggingface/79835d3ab41c3bbdf4e60af88c2aea6ecc824ad4.jpg,0.0387,0.98,yes,Claude (draft)
+hf_10970,Grapefruit Spinach Salad,huggingface/b960913b0a14d71e82bc95bcd695c5e04f78f0e2.jpg,0.0243,0.98,yes,Claude (draft)
+hf_1136,Winter Squash With Spiced Butter,huggingface/a933ba898e19dd8b5b84c1895cd02d53b6da4fc1.jpg,0.018,0.96,yes,Claude (draft)
+hf_12019,Japanese Style Dressings-2 Choices,huggingface/b672dac9159648e566914accf48f52bd79ca4562.jpg,0.023,0.96,yes,Claude (draft)
+hf_14892,Daliya,huggingface/842c8a44f1c47606dc205f188aef0ae7520940b8.jpg,0.0338,0.96,yes,Claude (draft)
+hf_15128,Roasted Potatoes and Haddock Puttanesca,huggingface/c1e39ad3d24542db341c8b9d535802925887eb64.jpg,0.0168,0.94,yes,Claude (draft)
+hf_15340,"100% Whole Wheat, Multipurpose Dough - Pizza, Buns, Bread",huggingface/858ad7d94c5443a374d1b058af8278cabd13de16.jpg,0.0263,0.98,,
+hf_18037,British Curry Sauce,huggingface/488291d438a312e8fa1d65c5a1e27e830e73a630.jpg,0.0199,0.98,,
+hf_20937,Creole Old-Fashioned,huggingface/45bebb75e5d608eea9aa2614114dd846bc437e7f.png,-0.0274,0.96,,
+hf_20949,Non Dairy Vanilla Ice Cream,huggingface/7ca5227d42733e4b9db50067b0da919f6b984cb3.jpg,0.0387,0.98,,
+hf_21223,Vietnamese Coffee Cake,huggingface/a267db9269637cd9353eeaa06dc45977142e3608.jpg,0.0337,0.96,,
+hf_21437,Pan Roasted Halibut with Calvados and Serrano Ham-Butter Sauce,huggingface/4b85004acc887ddd8193f6df735c3f3e7b21af72.jpg,0.0068,0.96,,
+hf_23537,Salad Salsa,huggingface/b2f05726e2ddc8d3a4b94fa45b098b8d2562f823.jpg,0.0299,0.98,,
+hf_26180,Caesar salad cups,huggingface/7ffddaae1400807e74fa43d2b135f31a908f10c7.jpg,0.0385,0.94,,
+hf_27210,Citrus-cumin Salad Dressing,huggingface/3aa5710873b1f323a8f7387db3933370da37d676.jpg,0.0261,0.98,,
+hf_27879,AIP Mushroom Pate,huggingface/8ba8a3c0f84b5bf2c32a2d74ca688feeae1fe751.jpg,0.0169,0.98,,
+hf_29777,Calypso Sauce,huggingface/6ebe260c14639ffb51fef0656d9f97f0a2685d89.jpg,0.0233,0.98,,
+hf_34142,Burger Or Hot Dog Buns,huggingface/cd55c378ae3aedd756745014eca6c7f439adfdd5.jpg,0.0122,0.96,,
+hf_4286,Blue Cheese Sauce,huggingface/d060883dd6935bbe25939eb54439bf088fb3b3d3.jpg,0.0342,0.98,,
+hf_7283,Grilled Pepper Steak with Honey Onions,huggingface/be368a8747003e95cee3ad95feb7a06f7a7b0952.webp,0.0088,0.98,,
+hf_11380,Filet Of Beef With Madeira Sauce,huggingface/97510ff708d570ce54769cc369198519d899f5e2.jpg,0.0343,1.0,yes,Claude (draft)
+hf_13991,No Potato Salad,huggingface/7822668b3f79b2f9ee01e4314ebdc2924dbaf095.jpg,0.0825,0.98,yes,Claude (draft)
+hf_14369,2 Minute Peanut Butter Protein Shake,huggingface/73343c53888b26c15e76da64154b7cda22ebe4ba.jpg,0.107,0.98,yes,Claude (draft)
+hf_16042,Multi Veggie Dosa,huggingface/466857ffebc7f4fcba0fd22c06e9e34f666c8119.jpg,0.0249,1.0,yes,Claude (draft)
+hf_18129,Chef Michael Smith's Anise Drop Cookies,huggingface/5e182e869b94a22434f02bef280b28635dbef9e1.jpg,0.048,0.98,yes,Claude (draft)
+hf_20787,House Pulled Pork for Man Food Mo,huggingface/9378612ee2e030afcade31352c717856de292497.jpg,0.0631,0.98,yes,Claude (draft)
+hf_21756,Grilled Chicken Legs with Lemon and Pepper,huggingface/34514cf4097789e870e4a65f973c1792b472d42c.jpg,0.0307,1.0,,
+hf_22192,Zesty Pepperoni Penne,huggingface/66640dcfd2ac2ab7e916c40b7cfbaed1fdd398c6.jpg,0.0274,1.0,,
+hf_24399,Jezebel Sauce,huggingface/2fc38534ebf274215da06a7b734bc4970d859494.jpg,0.0863,0.98,,
+hf_27092,Turkey Pepper Jack Links with Corn Black Bean Salsa,huggingface/2b90ae96a26fe2ecfc61584c8c8cd4bf2e1a2b15.jpg,0.0309,1.0,,
+hf_2820,Sweet potatoes with mushrooms & rosemary,huggingface/c1bfabb7520c30adbff227fbb71e8cccd344c977.jpg,0.0475,0.98,,
+hf_28743,ORUK,huggingface/7a99df4ce0892f933ca72bfcb02dc279655957c6.jpg,0.0171,1.0,,
+hf_29952,Tuscan Inspired Lemon-Rosemary Chicken with Cannellini Beans,huggingface/98b59a34ba93ba52b5f704b14c7bb30425f08c57.jpg,0.0167,1.0,,
+hf_30454,Cheddar Potato Casserole,huggingface/e69ee040578b771d1ac5692b1af2706a7c33ef5c.jpg,0.1007,0.98,,
+hf_31430,Vegetable Pizza,huggingface/6c1f1d4e816461b065fa88f0e24a044284e1af30.jpg,0.0493,0.98,,
+hf_32553,Nearly Eggless Quiche,huggingface/15c75021ed3a6f4fb332fadf31a2c609d39187cb.jpg,0.0482,0.98,,
+hf_37720,Portuguese Rice And Salt Cod Salad,huggingface/e87e51490e9facf2d75cda54f7d716bbe12fd1e6.jpg,0.044,0.98,,
+hf_39406,Help Celebrate the 30th Annual Lebanese Food Festival,huggingface/921d0f49e0abf05cda95167cafc23c546e6979eb.jpg,0.0174,1.0,,
+hf_8296,Celery Root Puree,huggingface/9112d41df1ed017efa7c4b6cf0d52391c3fd5683.jpg,0.0616,0.98,,
+hf_8391,Pasta Primavera,huggingface/dc1e3d285ba54fee364d4ed8abd9f73108649a7a.jpg,0.0344,1.0,,
+hf_10425,Bolognese Polenta and Apple Cake,huggingface/3062837cdf186b807c3839f3c780c398e0411286.jpg,0.0419,1.0,yes,Claude (draft)
+hf_10971,Soy Yogurt Overnight Oats with Hot Raspberry Coulis,huggingface/4671cecbdd4f04670a0e7f8d911522900122be2a.jpg,0.05,1.0,yes,Claude (draft)
+hf_11944,Skillet Spicy Mexican Chicken,huggingface/123a38a6d948952a2f9fa7d340c3a50377445fad.jpg,0.0415,1.0,yes,Claude (draft)
+hf_19750,Sweet Red Chili Noodles With Sesame Seeds,huggingface/ef2f9d14616ffde2d9edd33dae74453a2e915450.jpg,0.0498,1.0,yes,Claude (draft)
+hf_1990,Bellini granita,huggingface/2fd58f22800582896f01e654dae1e5ff05531992.jpg,0.0414,1.0,yes,Claude (draft)
+hf_20226,Pumpkin Bread Pudding,huggingface/463cf42e5a47d647a5a4e3bb30566907e91bf572.jpg,0.0517,1.0,yes,Claude (draft)
+hf_2312,Chocolate Cherry Biscotti,huggingface/a67d0b4c703b0633b25eae6c1394eebf1c7ae8ce.jpg,0.036,1.0,,
+hf_23270,Vegetarian Posole Soup With Hominy,huggingface/9f0f4179453076a71ac71a79cf91524ee54912cb.jpg,0.0395,1.0,,
+hf_23937,Friendly Gumbo,huggingface/3ef033518a5e81d7814f47cf4da6c29100c9a655.jpg,0.0417,1.0,,
+hf_24220,Chicken Thigh Casserole With Orange,huggingface/0a4d740fa6b05c2e2f6ed5440272d0d42b887fde.jpg,0.0434,1.0,,
+hf_24838,Wicked Hot Burger,huggingface/c5e7d9c424e5e2eb4fe0025e7805bda1126c465f.jpg,0.0474,1.0,,
+hf_24907,Hawaiian Poi,huggingface/234e0d8e1f98dc1833c5bee953efbaa134917fa2.jpg,0.0371,1.0,,
+hf_26259,Chocolate Peanut Frosting,huggingface/04e3fa0c59181a7d4e205ae415c75f996cdc3b01.jpg,0.0468,1.0,,
+hf_31635,Mexican Baked Fish,huggingface/e2023723cf8d8b3d092fa4ec7230fec99de9a998.jpg,0.0441,1.0,,
+hf_36688,Faux Ice Cream,huggingface/4dea9d649df293b097f191f69922af5e2ef4710c.jpg,0.0442,1.0,,
+hf_380,Mango Dream Cocktail,huggingface/84a9e0279d11bf69fb21584cdfd4ca3bd46b0c1a.jpg,0.0475,1.0,,
+hf_5931,Apple Cinnamon Cake,huggingface/c8b2000d117583cde5e343c94d5f209bce8307a1.jpg,0.0516,1.0,,
+hf_697,Bacon Mozzarella Cheese Bombs,huggingface/a2af87abf131e14b06ad330e826e0127577c250e.jpg,0.0362,1.0,,
+hf_9048,Tuscan Tuna with Tomato Salad,huggingface/3244a11fa734cdbb0cc45087226a26e63d7ef4e3.jpg,0.0402,1.0,,
+themealdb_53202,Thai-style steamed fish,themealdb/5f2281dbea5a6c4691fe0bc40bded8e459c2b9b4.jpg,0.0367,1.0,,
+hf_100,Strawberry Peach Jam,huggingface/ca65f24a4fca62a8264a66445578181f07b2b68c.jpg,0.0594,1.0,yes,Claude (draft)
+hf_11764,Banoffee Porridge,huggingface/2828d3141d70034b38c0d832276102d88a4177d3.jpg,0.0563,1.0,yes,Claude (draft)
+hf_12706,Cauliflower Soup,huggingface/526224972a0dcf5d07e89a05dba0dcfbe88333e0.jpg,0.0586,1.0,yes,Claude (draft)
+hf_14058,Vegetarian Tacos or Bean Dip,huggingface/5bd7326cbf876c01ef05b711d5f37c8b6b499d38.jpg,0.0533,1.0,yes,Claude (draft)
+hf_16194,Fish in cabbage leaves with Asian greens and curry sauce,huggingface/4314eef9e51ab73f5f7dd2f817420c28f46a5e39.jpg,0.0561,1.0,yes,Claude (draft)
+hf_17273,Wood-Grilled Veal Chops With Tomato-Basil Salsa,huggingface/23f7a90ffdb0fdf07cafa4f48ea9d9418b4f19ab.jpg,0.0615,1.0,yes,Claude (draft)
+hf_20068,Veg Noodles,huggingface/55c6a817dd7dd0b46c96099e38f53f0e3b1bf65d.jpg,0.0556,1.0,,
+hf_2020,Mango Chi-Chi Cocktail,huggingface/7b5d4d932391909ef2b4b687cea45a60b71ce495.jpg,0.0542,1.0,,
+hf_29596,Mini Jalapeno Cornmeal Muffins,huggingface/f718bb4f2b7524f398a0ea97a8fb5a11edb51822.jpg,0.0593,1.0,,
+hf_33524,Crimson Bacon Popcorn,huggingface/0cba3025e656c51e29c133acdeeb5a4a469477d9.jpg,0.0622,1.0,,
+hf_34192,Cream Cheese Pickles,huggingface/3d9eef79919055abe1456c8ec62af12ba71ae7b8.jpg,0.06,1.0,,
+hf_35231,Pesto Zucchini Noodles with Roasted Tomatoes,huggingface/a48e6d688e0419039a2aff18e81a839a77af4832.jpg,0.0591,1.0,,
+hf_36399,Bacon and Sauerkraut Pierogi,huggingface/f921b881e27a90fcf1cfd220d2448f0999b1714e.jpg,0.0545,1.0,,
+hf_37252,Fregola Bastia with Sauce A'l Americaine,huggingface/a24ab4a5564070680406c4bc5f7f4e44aab1082f.jpg,0.0592,1.0,,
+hf_3768,Tarragona-Region Romesco Sauce,huggingface/967cb0792dcba11cd046cc41f06c540ca1fad06f.jpg,0.0577,1.0,,
+hf_37773,TANGY RANCH GRILLED CHICKEN,huggingface/2e6f2b73006bddac06a7f8d2c7e19a2b86674bc2.jpg,0.0619,1.0,,
+hf_4341,Vegan Cashew Cream Dessert,huggingface/125ca9866b691cd49d7d503c931bb8e6fabf32f5.jpg,0.0548,1.0,,
+hf_4602,Antipasto baguette,huggingface/0f8063aa25672bb8690d91f6e6c3a92a1e397d94.jpg,0.0629,1.0,,
+hf_6464,Chicken Biryani,huggingface/abfef773a9547a3f5e309d18ef90da7dbb210ff7.jpg,0.0595,1.0,,
+hf_7993,Pizza with Ham and Vegetables,huggingface/3ce76489ae4fea1c470c64d77c6fbc44b40bab64.jpg,0.0637,1.0,,
+hf_12198,Chili,huggingface/2019bb1d006b6fd8345054c8c74bd3b51a353cc9.jpg,0.0649,1.0,yes,Claude (draft)
+hf_15943,Crunchy Sesame Chicken Salad,huggingface/7f6802783c32c1351176099b57897a71499f9612.webp,0.0659,1.0,yes,Claude (draft)
+hf_15980,Braised Venison Shoulder with Mushroom Pierogi,huggingface/df44d5ba382ff3859dbd6f80e3081561e26d4fb3.jpg,0.066,1.0,yes,Claude (draft)
+hf_21109,Spaghetti with Spinach Pesto,huggingface/d024f46a6cc012d9eef5045a37e0810dfd636a28.jpg,0.0699,1.0,yes,Claude (draft)
+hf_21470,All-Butter Pie Crust,huggingface/4c52eafab2ef969c8d815fe6c980e18054276ea3.jpg,0.0727,1.0,yes,Claude (draft)
+hf_23084,Bison Tacos,huggingface/eba7b1a80774d52cb171a7d04afb6ac8534a8fdb.jpg,0.0657,1.0,yes,Claude (draft)
+hf_23187,Vegan Hot and Sour Soup,huggingface/a768b675691833bab9edbdce36c973f30b9eb3bb.jpg,0.0648,1.0,,
+hf_25564,Cioppino,huggingface/0607fbf1cc46b72dfbfae798abd51766eff39073.jpg,0.0656,1.0,,
+hf_25684,Tillamook Mac & Cheese,huggingface/ed84cdbd663701f1f559a6d3665dd437d5c94cbf.jpg,0.0719,1.0,,
+hf_27172,Queso Dip,huggingface/6ffc8f3a4d40d08d32720cf8d87daa71a80517e2.jpg,0.0645,1.0,,
+hf_28511,Glazed Root Beer Float Bundt Cake,huggingface/3acc42b1d39e70016b0b8c0b3f44bb1ac72c1f72.jpg,0.0701,1.0,,
+hf_29817,Chicharrón,huggingface/08c865e72f0454e81dd1489c8674bcaeafa8f751.jpg,0.0691,1.0,,
+hf_31913,"Baked Striped Bass with Tomatoes, Rosemary and Olives",huggingface/684689f0e9ead6c06c8511d77f9e6d7399bd03da.jpg,0.0716,1.0,,
+hf_32616,Mini Beef Wellingtons,huggingface/6853faa595a880af8648f69e63cfd0cfeaeb4c5f.jpg,0.0652,1.0,,
+hf_34325,Roasted Turkey Pesto Panini,huggingface/6250082f1ae35524c4403904f72ffc8911e12811.jpg,0.0697,1.0,,
+hf_5326,Roast Chicken with Roast Wedgetables,huggingface/8bd9bac19b100a66b7ad31da9f8429ff1611a717.jpg,0.0643,1.0,,
+hf_6057,Bruschetta with Borlotti Beans and Prosciutto di Parma,huggingface/818f0582ae25f2a78d9593235af39c0ffc7f018d.jpg,0.0658,1.0,,
+hf_8784,Waldorf Salad,huggingface/a19bdc6f2ec83c0b8032eaa2c57b808e72589c05.jpg,0.0712,1.0,,
+hf_970,Sourdough Bread,huggingface/73d24e9ad8b1918d26e271a3a7916ca66dddb78b.jpg,0.0694,1.0,,
+themealdb_53260,"Slow-roast lamb with cinnamon, fennel & citrus",themealdb/7a1b0383392986bfe8c822997b8403931226be72.jpg,0.0697,1.0,,
+hf_12431,Whipped Feta and Herb Dip,huggingface/7a981ef4c08bd621da88c86a80eec039fa17fb1a.jpg,0.0789,1.0,yes,Claude (draft)
+hf_12789,Peach Mint Green Tea,huggingface/cccf661fd808da74cdf4049648fe385098f6afda.jpg,0.0776,1.0,yes,Claude (draft)
+hf_12837,Cinnamon and Walnut Porridge,huggingface/745c710bc02d39dde3654f8c0ef8af572e7b8a7d.jpg,0.0798,1.0,yes,Claude (draft)
+hf_14971,Hummus & Crostini,huggingface/cefd6db344e1b653e5ec97bdfcc1fc0e45cbd6f0.jpg,0.0769,1.0,yes,Claude (draft)
+hf_1516,Chanterelle Rillettes,huggingface/5967a6e68e9eb342e1ddd00094f82074d2a93bf4.jpg,0.0742,1.0,yes,Claude (draft)
+hf_15821,Quinoa with Vegetables and Nuts,huggingface/e86c6bc89a8882f5fd9aad0a48f51303539348cb.jpg,0.0794,1.0,yes,Claude (draft)
+hf_18594,Spicy Pineapple Agua Frescas,huggingface/efc8df4d2c563bae59e79339176e2f137ef3524b.jpg,0.0761,1.0,,
+hf_1923,Italian Garbanzo Beans/Chickpea Salad For Weight Loss,huggingface/d2fa01bc6b3eceffa120290016c3afecf57dddec.jpg,0.0741,1.0,,
+hf_19640,Chicken Cacciatore Parmesan,huggingface/cc677928b0b6ebce6c3e97d90d2193d227b5bbb0.jpg,0.0812,1.0,,
+hf_20602,Roasted Red Pepper Hummus,huggingface/a384896bc6a6eeac3c2f1e6e9936a3ef552ff8bb.jpg,0.0752,1.0,,
+hf_23613,Peach-Glazed Country Ham,huggingface/c7ab230942e9fe7db36874c1b407adeab2e7bc75.jpg,0.0734,1.0,,
+hf_27865,Corpse Reviver No. 2 Cocktail,huggingface/6a4f782d1dc301e71b93aa0e2171e6281b007dcd.jpg,0.077,1.0,,
+hf_28526,Pancakes with Apricot-Bourbon Sauce,huggingface/868e203db71bf292e1b2b9a5828e4fd6a444f4f0.jpg,0.0777,1.0,,
+hf_29946,Creamy Chipotle Mac & Cheese,huggingface/d425560764e6d9ce14cf45bd66cf08c3a055b8b9.jpg,0.0782,1.0,,
+hf_31247,Moong Dal Dosa,huggingface/2d3191895ced034a5d73fd65abc0120201db1447.jpg,0.0787,1.0,,
+hf_32152,SMOKED CHICKEN AND WILD RICE SALAD,huggingface/c237cf0f7299c7e939092ce5751b290837fc61af.jpg,0.0752,1.0,,
+hf_3381,Cups Of Snack Mix,huggingface/8b92eab3711681011636393a3eb135bea5248796.jpg,0.0822,1.0,,
+hf_36224,Chopped Liver with Caramelized Onions,huggingface/0991ae5f907b18b6ddf2538637fae5702872b702.jpg,0.0773,1.0,,
+hf_37351,Just Delish Veggie Kabobs,huggingface/166c9dc6369fb81e2df6aff6cdc97f2992bf8024.jpg,0.0793,1.0,,
+hf_9193,Hot Buttered Rolls,huggingface/9e8ec5e6dc9e1e8a78745b03f0472d5cae3d7441.jpg,0.0759,1.0,,
+hf_1003,Lemon-Anise Flan,huggingface/e24f701f2598fbee0c67b510628352fc7e00a0d2.jpg,0.084,1.0,yes,Claude (draft)
+hf_12352,Parisian Hot Chocolate,huggingface/72603d8b3890301fc64a18cb9b596672d49ec1cd.jpg,0.0835,1.0,yes,Claude (draft)
+hf_13442,Roasted Rosemary Chicken With Lentils,huggingface/52348fb5cc2587f2e2e1bfda31e2a2806f8fa45f.jpg,0.0862,1.0,yes,Claude (draft)
+hf_16167,Poached Eggs Caprese,huggingface/83448ee07b2a308ead8472645cd7460bc947e64e.jpg,0.0865,1.0,yes,Claude (draft)
+hf_16501,Fresh Strawberries With Yogurt,huggingface/f302a231a965d572f5175e1a0dcf70b229f20054.jpg,0.0844,1.0,yes,Claude (draft)
+hf_16656,"Warm chicken liver, onion, carrot, and pepper salad",huggingface/9d68d7a24f7bf9db1698e060c1de1313fb2b833c.jpg,0.09,1.0,yes,Claude (draft)
+hf_17185,Caramelized Carrot Risotto,huggingface/3c62bd3b3e8825a688102803d433bd1150eb905c.jpg,0.0867,1.0,,
+hf_17980,Honey Roasted Beets,huggingface/39aa1f6b602238a3093a08a98e54dbec3667d2bb.jpg,0.0914,1.0,,
+hf_2038,Smoky Chipotle Lime Prawn Salsa on Avocado Mash,huggingface/5db4c3632d23ed740e640d1b6a57816f39b7b37d.jpg,0.0857,1.0,,
+hf_2194,Shrimp Spaghetti Carbonara,huggingface/1a6cde27e79d474e8012875d9f5e446cf8f40ccb.jpg,0.0827,1.0,,
+hf_24011,Garlicky Grilled Shrimp,huggingface/0ad2217f1e2faa9a2d283afc3a39026b73b2d896.jpg,0.0875,1.0,,
+hf_24113,Stove Top Chili Bread Boats,huggingface/60c71bb984620e2038d8374a5c78fbf85e194fa2.jpg,0.0839,1.0,,
+hf_25454,Razor Clams With Burnt Cucumber And Salami,huggingface/80d4ee39a13a1a2903b555b0e6827a80b8173b0d.jpg,0.0849,1.0,,
+hf_26871,Jalapeno Popper Chicken Casserole,huggingface/f567dd50cc3581ee0361e92131784d4d40e1dfee.jpg,0.0883,1.0,,
+hf_27670,Cream of Pumpkin and Apple Soup,huggingface/e0db5a2f8d5fce37e1310112442923f7431f6735.jpg,0.0836,1.0,,
+hf_30539,Soul Food: Pistachio Matcha Balls,huggingface/9794e022df7ccd9535dbed3373a95a32c5e30662.jpg,0.089,1.0,,
+hf_33124,Sunburst Lemon Bars,huggingface/2502fdcf16dcc813a6e443c0db8480590a725299.jpg,0.0837,1.0,,
+hf_5413,Falafel-Crusted Chicken With Hummus Slaw,huggingface/970e93327c2589688510bf2299a3e84870f8f80e.jpg,0.0864,1.0,,
+hf_5849,Cool and Creamy Salmorejo Soup,huggingface/df839122febefddb63e2e82fe172709970877173.jpg,0.0896,1.0,,
+hf_9718,Black Bean Salsa,huggingface/df01ef34d2f1f676bfeb5f0c3319c299407fee5d.jpg,0.0889,1.0,,
+hf_10959,Sauteed Cabbage with Bacon and White Wine Vinegar,huggingface/64c91fe09da833a60172d48623bbadd8ad632dad.jpg,0.1027,1.0,yes,Claude (draft)
+hf_16965,Easter Egg Puzzle Cookies,huggingface/e9c9d302c26871bb69b5e5a55bd8b6b7bad975be.jpg,0.0937,1.0,yes,Claude (draft)
+hf_18031,Black Bean and Sweet Potato Burritos,huggingface/f8a79502ff578c82378783f6987eba5a60b4c15d.jpg,0.0956,1.0,yes,Claude (draft)
+hf_18276,Grilled Flatbreads With Rosemary Oil,huggingface/23027455c89c09c82640df0eab5238e87ef1cc48.jpg,0.1037,1.0,yes,Claude (draft)
+hf_1887,Garlic Bread,huggingface/0e1d3d004744fbc46f0eab849eaa54de566873eb.jpg,0.1054,1.0,yes,Claude (draft)
+hf_20846,Baked Blueberry Oatmeal,huggingface/d5251ba6489dda9561c323b3b5ab3b12daa62639.jpg,0.1055,1.0,yes,Claude (draft)
+hf_21242,"Spinach, Avocado & Mango Salad",huggingface/d0cf51ce5020bc0f6af1dd4909cb7fbb489486c5.jpg,0.0983,1.0,,
+hf_22433,Spanish Rice,huggingface/827e835c91bb93068e2ada11d70e4c86fd3ef6bb.jpg,0.0927,1.0,,
+hf_2257,Rigatoni with No-Cook Tomato Sauce,huggingface/32c1128d9b0c4ee6bfcabfdd616444314a82620b.jpg,0.0932,1.0,,
+hf_24292,Lemon Linguine with Spinach and Sundried Tomatoes,huggingface/bb2474f6fc5796430f69f4ddb69a357d3d1b8533.jpg,0.1016,1.0,,
+hf_25008,Honey-Lime Asparagus with Goat Cheese,huggingface/d144058440f2b0af7b31b2001a3fbe397840a728.jpg,0.1049,1.0,,
+hf_25376,Coconut oil and sea salt popcorn,huggingface/e487027684094fcbe4c70c8f082a24497257ab86.jpg,0.0962,1.0,,
+hf_31593,Pita Bread Greek Cheese Pie- Tiropita,huggingface/404e40adf8adcd7ec97085155c69bb509760a300.jpg,0.1056,1.0,,
+hf_32475,Oven Baked Chips/Potato Wedges,huggingface/18f845abd211cfacc1f33fca42a44c7d4e945a5c.jpg,0.1039,1.0,,
+hf_32555,Grilled Chicken and Pork Paella,huggingface/8664cdc299d60192aa1243ddc6a811702c72e9b6.jpg,0.094,1.0,,
+hf_3712,Italian Grinders,huggingface/249daabddcbf05166e2b089140eac9e3a700cbde.jpg,0.0961,1.0,,
+hf_4213,Maple Granola with Pumpkin Seeds & Coconut,huggingface/c67bc89d1d04624bfe0c6bc2f16c002f3e0991bd.jpg,0.1039,1.0,,
+hf_4518,Organic Chocolate Pudding,huggingface/cd8dba4ceb68f90e65aec53dd429626dbd9584cc.jpg,0.0979,1.0,,
+hf_5737,Cornmeal Crusted Fried Pickles with Spicy Dipping Sauce,huggingface/f79491e6581afc785f2fc5951ad2f149dd6a8787.jpg,0.0924,1.0,,
+hf_8057,Pumpernickel Bread,huggingface/e557df0ab683adce45d5e07647df53028df63551.jpg,0.0958,1.0,,
+hf_15538,Jalapeno Mezcal Margarita,huggingface/3706a5121060b60cd5e98cbaa50a23fcb319fb57.jpg,0.1091,1.0,yes,Claude (draft)
+hf_17039,Butternut Squash and Apple Soup with Bacon,huggingface/8633f18f6acc31b5c095bd29726213dae6b06298.jpg,0.1098,1.0,yes,Claude (draft)
+hf_18924,Pan Seared Pork Cutlet with Black Eyed Pea Salsa - Guest Post from Spatulas On Parade,huggingface/3bc53efb8a52861d32f94c37c6da98995c46eb82.jpg,0.1112,1.0,yes,Claude (draft)
+hf_21619,Cracked Pepper Potato Chips with Onion Dip,huggingface/07f46ec2581ab3d92fbf582938cf7748e6b87dd2.jpg,0.1067,1.0,yes,Claude (draft)
+hf_25419,Crispy-Cakey Chocolate Chip Cookies,huggingface/2ea0b1d8a4ccf422963cfe598308cf18902d14ed.jpg,0.1067,1.0,yes,Claude (draft)
+hf_29537,Grilled Chicken Shawarma Kebabs,huggingface/7c8f6954e97484f03ad8f8864e38f3c9facbe4fc.jpg,0.1067,1.0,yes,Claude (draft)
+hf_30456,Cornbread,huggingface/f6f03d4e0eeff2157c22db4ca073aa30a4789fa7.jpg,0.1141,1.0,,
+hf_31601,Blueberry Smoothie Icy poles,huggingface/fdc052d64c1e9dd6b72add87e0f55c6488abeeba.jpg,0.1188,1.0,,
+hf_32075,Bacon Wrapped Asparagus,huggingface/ede137247a524c22ab04ea50aee0f20b68403c79.jpg,0.1284,1.0,,
+hf_32493,Roasted Green Beans,huggingface/4b5bcf96587d1eece17f189357f88693a718a405.jpg,0.119,1.0,,
+hf_34922,Pork Tenderloin with Cream Sauce,huggingface/946b9cd529d9dd14a53ea83d2207b0611383e2e2.jpg,0.1239,1.0,,
+hf_35029,Ginger-Peach Ice Cream Floats,huggingface/c1d5f095a7bf36621b2b5f92e6a0dcdd402ad1b1.jpg,0.1071,1.0,,
+hf_36171,Corn Casserole,huggingface/4a6fedaaf33f901d656269c3a92cc0f03e032602.jpg,0.1286,1.0,,
+hf_37742,Rustic Prosciutto and Kale Galette,huggingface/40c94390e6a07f3924dde656ae3f5b166ee74564.jpg,0.1421,1.0,,
+hf_7635,Pear Ginger Mocktail,huggingface/2968424a0a52b6885422042c02e6f42ff956f723.jpg,0.1153,1.0,,
+hf_7823,Carrot Muffins,huggingface/475eb2086404b4f2c7f9665f4c4dccebe50b40b7.jpg,0.1146,1.0,,
+hf_8192,Lemon Verbena Strawberry Juleps,huggingface/94a68fa5de0ac3152d238fe6f4b1ab0cc3fa7e87.jpg,0.1126,1.0,,
+hf_8581,4th of July Inspired Berry Trifle,huggingface/1064135c419178429fcbdd13f14d386525e9af9f.jpg,0.1517,1.0,,
+hf_8900,Peanut Butter Yogurt Apples - Comeback Fit,huggingface/f0a6da7bfe8ae0ba7aed992d4b5bd6c67ba252b3.jpg,0.113,1.0,,
+hf_9073,Asparagus Lasagna,huggingface/0d892727413e6f4d72db8abbb9cc7b7dbe08f029.jpg,0.1091,1.0,,

@@ -23,8 +23,10 @@ import sys
 from functools import cache
 from pathlib import Path
 from typing import cast
+from urllib.parse import quote
 
 import pandas as pd
+import pydeck as pdk
 import streamlit as st
 import streamlit.components.v1 as components
 
@@ -128,6 +130,9 @@ def nice(column: str) -> str:
     return column.removeprefix("contains_").removesuffix("_friendly").replace("_", " ").capitalize()
 
 
+PHOTO_CUTOFF = -0.03     # clip_score below this: the photo does not show the dish (a first cutoff; the team refines it)
+
+
 @st.cache_resource   # load the data once and share it (read only), not a fresh copy on every click
 def load_recipes() -> pd.DataFrame:
     parts = [DATA / f"recipes_{split}.parquet" for split in ("train", "val", "test")]
@@ -136,7 +141,17 @@ def load_recipes() -> pd.DataFrame:
     for extra in ("recipe_photos", "recipe_times"):
         path = DATA / f"{extra}.parquet"
         if path.exists() and "recipe_id" in df:
-            df = df.merge(pd.read_parquet(path), on="recipe_id", how="left")
+            side = pd.read_parquet(path)
+            new = [c for c in side.columns if c == "recipe_id" or c not in df.columns]   # notebook 01 may have them
+            if len(new) > 1:
+                df = df.merge(side[new], on="recipe_id", how="left")
+    # A photo the image check says does not show the dish (scripts/recipe_photos/check_photos.py, CLIP; cutoff from
+    # a hand-checked sample, RECIPE_PHOTOS.md step 5) is hidden like a logo
+    check = DATA / "photo_check.parquet"
+    if check.exists() and "photo_ok" in df:
+        scores = pd.read_parquet(check, columns=["recipe_id", "clip_score"])
+        doubtful = df["recipe_id"].isin(scores.loc[scores["clip_score"] < PHOTO_CUTOFF, "recipe_id"])
+        df.loc[doubtful, "photo_ok"] = False
     # Free photos of dishes in general (scripts/dish_photos/), only for recipes with no photo of their own and only
     # the dishes the review has not turned down (data/reference/dish_photo_review.csv)
     dish_photos, review = DATA / "dish_photos.parquet", ROOT / "data" / "reference" / "dish_photo_review.csv"
@@ -249,6 +264,7 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 [data-testid="stTab"] p::before {{ width: 40px; height: 40px; margin-right: 0.5rem; }}
 [data-testid="stTab"][data-key="0"] p::before {{ background-image: url('{art("icon_find")}'); }}
 [data-testid="stTab"][data-key="1"] p::before {{ background-image: url('{art("icon_check")}'); }}
+[data-testid="stTab"][data-key="2"] p::before {{ background-image: url('{art("icon_map")}'); }}
 [data-testid="stTab"] p {{ font-size: 1.5rem; }}
 /* Top right: the What's new bell and Settings (the oven knob), pixel buttons */
 [data-testid="stPopover"] {{ display: flex; justify-content: flex-end; }}
@@ -404,6 +420,39 @@ def cooking(message: str = "Cooking..."):
     return spot
 
 
+LANGUAGES = {"es": "Spanish", "it": "Italian", "el": "Greek", "fr": "French", "ja": "Japanese", "hi": "Hindi",
+             "ar": "Arabic", "zh": "Mandarin", "ko": "Korean", "th": "Thai", "fa": "Persian", "tr": "Turkish"}
+
+
+@cache
+def pronunciations() -> pd.DataFrame:
+    """How to say the most common foreign dish names (data/reference/dish_pronunciation.csv, from Wikidata and
+    Lingua Libre, docs/plans/DISH_PRONUNCIATION.md), longest name first so "chile chipotle" wins over "chipotle"."""
+    path = ROOT / "data" / "reference" / "dish_pronunciation.csv"
+    if not path.exists():
+        return pd.DataFrame(columns=["dish"])
+    table = pd.read_csv(path).fillna("")
+    return table.iloc[table["dish"].str.len().sort_values(ascending=False).index]
+
+
+def say_it(dish: str) -> dict | None:
+    """The pronunciation row for the dish name the recipe's name contains (a whole word), or None."""
+    words = f" {dish.lower()} "
+    for row in pronunciations().itertuples():
+        if f" {row.dish} " in words:
+            return row._asdict()
+    return None
+
+
+def say_it_line(entry: dict) -> str:
+    """'Say it: PEH-stoh (pesto alla genovese, Italian name)': the respelling, and the dish's own name when the
+    recipe's name differs from it."""
+    native = str(entry["native_name"])
+    language = LANGUAGES.get(str(entry["lang"]), str(entry["lang"]))
+    own = f" ({plain(native)}, {plain(language)})" if native and native.lower() != str(entry["dish"]).lower() else ""
+    return f"Say it: {plain(entry['respelling'])}{own}"
+
+
 def from_commons(url: object) -> bool:
     """A link that really is Wikimedia Commons over https (the dish photos and their file pages), nothing else."""
     return isinstance(url, str) and re.match(r"https://(?:upload|thumb|commons)\.wikimedia\.org/", url) is not None
@@ -426,6 +475,15 @@ def dish_page(row: pd.Series, dish: str) -> None:
     """The dish on its own page: where it is from, how its time divides, and each step with its time, the pan or
     pot it uses, the method and what goes in (dish_steps.py, from the recipe's own words)."""
     st.subheader(dish.title())
+    spoken = say_it(dish)
+    if spoken:
+        st.caption(say_it_line(spoken) + (f" · {plain(spoken['note'])}" if spoken["note"] else ""))
+        if spoken["audio_file"]:   # a recording of a native speaker: plays only when tapped, with its credit
+            name = str(spoken["audio_file"]).replace(" ", "_")
+            st.audio(f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(name)}")
+            st.caption(f"Recording: {plain(spoken['audio_author'] or 'a Wikimedia Commons contributor')}, "
+                       f"{plain(spoken['audio_license'])}, via [Wikimedia Commons]"
+                       f"(https://commons.wikimedia.org/wiki/File:{quote(name)})")
     where = row.get("origin_country")
     if isinstance(where, str) and where != "Unknown":
         st.caption(f"From {where}")
@@ -622,7 +680,7 @@ set_profile = [*map(nice, avoid), *map(nice, diets), *(["vegetarian"] if vegetar
 st.markdown(f'<button class="open-profile" type="button">Your profile: '
             f'{html.escape(", ".join(set_profile)) if set_profile else "nothing set yet"} · edit</button>',
             unsafe_allow_html=True)
-find_tab, check_tab = st.tabs(["Find recipes", "Check my recipe"])   # their pixel icons come from the CSS
+find_tab, check_tab, map_tab = st.tabs(["Find recipes", "Check my recipe", "Map"])   # their pixel icons come from the CSS
 
 with find_tab:
     pool: pd.DataFrame = recipes
@@ -721,6 +779,9 @@ with find_tab:
                 info.subheader(str(named["dish_name"]).title())
                 if named["name_gloss"]:
                     info.caption(f"Also called {named['name_gloss']}")
+                spoken = say_it(str(named["dish_name"]))
+                if spoken:
+                    info.caption(say_it_line(spoken))
                 if str(named["dish_name"]).lower() != str(row["recipe_name"]).lower():
                     info.caption(f"Posted as \"{row['recipe_name']}\"")
                 where = row.get("origin_country")
@@ -770,6 +831,41 @@ with check_tab:
         st.info(report["text"])
         st.caption(f"Explained by: {report['explained_by']}. Rules checked: "
                    + ", ".join(nice(r) for r in report["checked"]))
+
+with map_tab:
+    # Where to buy and where to eat, Houston only for now (docs/plans/MAP.md): OpenStreetMap places from notebook 03
+    # on a free OpenFreeMap street map. The map never asks where the visitor is.
+    places_file = DATA / "places.parquet"
+    if not places_file.exists():
+        places_file = ROOT / "data" / "processed" / "places.parquet"
+    if not places_file.exists():
+        st.info("The map needs the places from notebook 03 (data/processed/places.parquet).")
+    else:
+        places = pd.read_parquet(places_file).dropna(subset=["lat", "lng"])
+        places["cuisine_text"] = places["cuisine"].map(lambda c: ", ".join(c) if c is not None and len(c) else "")
+        kinds = {"Grocers": "grocery", "Restaurants": "restaurant", "Butchers": "butcher"}
+        picked = st.pills("Show", list(kinds), default=list(kinds), selection_mode="multi", key="map-kinds") or []
+        shown = cast(pd.DataFrame, places[places["category"].isin([kinds[k] for k in picked])])
+        searched = read_search(st.session_state.get("search"))[0]
+        adjective = next((label for label, (country, _) in ORIGIN_LABELS.items()
+                          if country == searched and " " not in label and label.endswith(("an", "ese", "ish", "i"))), None)
+        if adjective and st.toggle(f"Only {adjective} places (from your search)", value=True, key="map-match"):
+            words = f"{adjective}|{searched.lower()}" if searched else adjective
+            text = shown["cuisine_text"].str.lower() + " " + shown["name_hint"].fillna("").str.lower() + " " \
+                + shown["name"].fillna("").str.lower()
+            shown = cast(pd.DataFrame, shown[text.str.contains(words, regex=True)])
+        st.caption(f"{len(shown):,} places in Houston from OpenStreetMap. Unverified: check with the store. "
+                   "© OpenStreetMap contributors, map © OpenFreeMap.")
+        colors = {"grocery": [69, 117, 54], "restaurant": [217, 72, 59], "butcher": [139, 69, 19]}
+        shown = shown.assign(color=shown["category"].map(colors), label=shown["name"].fillna("(no name)"),
+                             kind=shown["category"].str.capitalize())
+        st.pydeck_chart(pdk.Deck(
+            map_style="https://tiles.openfreemap.org/styles/liberty",
+            initial_view_state=pdk.ViewState(latitude=29.76, longitude=-95.37, zoom=10.5),
+            layers=[pdk.Layer("ScatterplotLayer", shown[["lng", "lat", "color", "label", "kind", "cuisine_text"]],
+                              get_position="[lng, lat]", get_fill_color="color", get_radius=90, pickable=True)],
+            tooltip={"text": "{label}\n{kind} {cuisine_text}\nUnverified: check with the store"}),
+            height=480)
 
 # ---------- Footer: disclaimer and contributors ----------
 REPO = "https://github.com/Chloe-Tu2/The-EverFlavor-AI"

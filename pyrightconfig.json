@@ -1,5 +1,7 @@
 {
-  "//": "The editor's checker (Pyright / Pylance) set to agree with CI: mypy (config/mypy.ini) checks the types; Pyright reports what mypy does not, such as undefined names and unused imports. Optional libraries (torch, crewai, google.colab) are only warnings, like mypy's ignore_missing_imports.",
+  // The editor's checker (Pyright / Pylance) set to agree with CI: mypy (config/mypy.ini) checks the types;
+  // Pyright reports what mypy does not, such as undefined names and unused imports. Optional libraries
+  // (torch, crewai, google.colab) are only warnings, like mypy's ignore_missing_imports.
   "typeCheckingMode": "basic",
   "include": ["src", "app", "tests", "scripts"],
   "extraPaths": ["src", "app"],

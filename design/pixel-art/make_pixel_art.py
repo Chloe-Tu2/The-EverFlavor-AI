@@ -341,6 +341,20 @@ def icon_find() -> Image.Image:
     return img
 
 
+def icon_map() -> Image.Image:
+    """Map: a folded street map with a red pin on it."""
+    img, d = _canvas()
+    d.polygon([(1, 5), (7, 3), (13, 5), (19, 3), (19, 17), (13, 19), (7, 17), (1, 19)], fill="#F4E7C8", outline=INK)
+    d.line([(7, 3), (7, 17)], fill=PLATE_SHADE)                         # the folds
+    d.line([(13, 5), (13, 19)], fill=PLATE_SHADE)
+    d.line([(2, 12), (18, 9)], fill="#9BC4E2", width=2)                 # a river
+    d.line([(4, 7), (16, 16)], fill=PLATE)                              # a road
+    d.ellipse([7, 1, 14, 8], fill=RED, outline=INK)                     # the pin
+    d.polygon([(8, 7), (13, 7), (10, 12)], fill=RED, outline=INK)
+    d.rectangle([10, 4, 11, 5], fill=PLATE)                             # its shine
+    return img
+
+
 def icon_check() -> Image.Image:
     """Check my recipe: the chef handing a plate over, a green check rising from it."""
     img, d = _canvas()
@@ -461,7 +475,7 @@ def icon_cloche() -> Image.Image:
     return img
 
 
-ICONS = {"bell": icon_bell, "cloche": icon_cloche, "find": icon_find, "check": icon_check, "settings": icon_settings, "timer": icon_timer,
+ICONS = {"bell": icon_bell, "cloche": icon_cloche, "find": icon_find, "check": icon_check, "map": icon_map, "settings": icon_settings, "timer": icon_timer,
          "flame": icon_flame, "protein": icon_protein, "safe": icon_safe, "alert": icon_alert, "empty": icon_empty}
 
 
