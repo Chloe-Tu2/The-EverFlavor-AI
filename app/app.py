@@ -145,6 +145,24 @@ def load_recipes() -> pd.DataFrame:
             new = [c for c in side.columns if c == "recipe_id" or c not in df.columns]   # notebook 01 may have them
             if len(new) > 1:
                 df = df.merge(side[new], on="recipe_id", how="left")
+    # Food.com recipes' own photos (notebook 11, a CC0 dataset): only where a recipe has no photo yet, with the same
+    # logo marks and, when it has run, the same image check (photo_check_foodcom.parquet)
+    foodcom = DATA / "foodcom_photos.parquet"
+    if foodcom.exists() and "recipe_id" in df:
+        side = pd.read_parquet(foodcom, columns=["recipe_id", "image_url", "photo_ok"])
+        side_check = DATA / "photo_check_foodcom.parquet"
+        if side_check.exists():
+            scores = pd.read_parquet(side_check, columns=["recipe_id", "clip_score"])
+            side.loc[side["recipe_id"].isin(scores.loc[scores["clip_score"] < PHOTO_CUTOFF, "recipe_id"]),
+                     "photo_ok"] = False
+        side = side.rename(columns={"image_url": "foodcom_url", "photo_ok": "foodcom_ok"})
+        df = df.merge(side, on="recipe_id", how="left")
+        if "image_url" not in df:
+            df["image_url"], df["photo_ok"] = None, pd.NA
+        missing = df["image_url"].isna() & df["foodcom_url"].notna()
+        df.loc[missing, "image_url"] = df.loc[missing, "foodcom_url"]
+        df.loc[missing, "photo_ok"] = df.loc[missing, "foodcom_ok"]
+        df = df.drop(columns=["foodcom_url", "foodcom_ok"])
     # A photo the image check says does not show the dish (scripts/recipe_photos/check_photos.py, CLIP; cutoff from
     # a hand-checked sample, RECIPE_PHOTOS.md step 5) is hidden like a logo
     check = DATA / "photo_check.parquet"
