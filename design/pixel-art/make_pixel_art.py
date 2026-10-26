@@ -475,6 +475,30 @@ def icon_cloche() -> Image.Image:
     return img
 
 
+WOOD, WOOD_DARK, PAN, PAN_DARK = "#C8874A", "#8E5A2E", "#4A4A52", "#2E2E34"
+
+
+def no_photo() -> Image.Image:
+    """No photo yet ("Cooking up a picture..."): a wooden spoon and a fork crossed over a steaming frying pan, 32x32,
+    shown where a recipe card's photo would be (draft B of no_photo_drafts.py, picked 2026-10-26)."""
+    img = Image.new("RGBA", (32, 32), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rectangle([22, 21, 31, 23], fill=WOOD_DARK, outline=INK)                 # the pan's handle
+    d.ellipse([1, 16, 25, 30], fill=PAN, outline=INK)                          # its rim
+    d.ellipse([4, 18, 22, 28], fill=PAN_DARK)                                  # the inside
+    d.line([(6, 19), (10, 18)], fill=STEEL)                                    # its shine
+    for x in (8, 13, 18):                                                      # steam
+        d.point([(x, 13), (x + 1, 12), (x, 11), (x + 1, 10), (x, 9)], fill=STEEL)
+    d.line([(5, 4), (24, 24)], fill=WOOD, width=2)                             # the spoon's handle
+    d.ellipse([1, 0, 7, 6], fill=WOOD, outline=INK)                            # its bowl
+    d.point((3, 2), fill=CREAM)
+    d.line([(26, 4), (7, 24)], fill=STEEL_DARK, width=2)                       # the fork's handle
+    for x in (25, 27, 29):
+        d.line([(x, 0), (x, 4)], fill=STEEL)                                   # its tines
+    d.line([(25, 4), (29, 4)], fill=STEEL)
+    return img
+
+
 ICONS = {"bell": icon_bell, "cloche": icon_cloche, "find": icon_find, "check": icon_check, "map": icon_map, "settings": icon_settings, "timer": icon_timer,
          "flame": icon_flame, "protein": icon_protein, "safe": icon_safe, "alert": icon_alert, "empty": icon_empty}
 
@@ -523,6 +547,7 @@ def main() -> None:
         icon.resize((20 * 8, 20 * 8), Image.NEAREST).save(PREVIEW / f"icon_{name}_x8.png")
         sheet.paste(icon, (k * 24 + 2, 2))
     sheet.resize((sheet.width * 6, sheet.height * 6), Image.NEAREST).save(PREVIEW / "icons_sheet_x6.png")
+    no_photo().save(OUT / "no_photo.png")
     print(f"Saved {len(scenes)} kitchens, {len(CHEF_FACES) * (1 + len(cuisine_kitchens.CHEF_VARIANTS))} chefs and "
           f"{len(ICONS)} icons in {OUT}")
 

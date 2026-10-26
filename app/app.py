@@ -311,7 +311,8 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   aspect-ratio: 4 / 3; background: var(--sidebar); border: 3px dashed var(--border); color: var(--text);
   font-family: var(--pixel-text); font-size: 1.2rem; text-align: center; padding: 0.5rem;
 }}
-.no-photo .ico {{ width: 80px; height: 80px; }}
+.no-photo .ico {{ width: 96px; height: 96px; }}
+.no-photo small {{ font-size: 0.9rem; opacity: 0.75; }}
 .updates h5 {{ font-family: var(--pixel-font); font-weight: 400; font-size: 1.4rem; margin: 0.5rem 0 0; color: var(--heading); }}
 .updates ul {{ margin: 0.2rem 0 0.6rem 1.1rem; padding: 0; }}
 .stats {{ display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin: 0.25rem 0 0.75rem; }}
@@ -789,8 +790,10 @@ with find_tab:
                     picture.caption(f"A photo of {plain(row['dish_label'])} in general, not this recipe. "
                                     f"[{plain(row['credit'])}]({row['file_page']})")
                 else:
-                    picture.markdown(f'<div class="no-photo"><span class="ico" style="background-image: '
-                                     f'url({art("icon_cloche")})"></span>No photo of this dish yet</div>',
+                    # No photo at all: the kitchen's own picture, which says plainly that it is not the dish
+                    picture.markdown(f'<div class="no-photo" role="img" aria-label="No photo of this dish yet">'
+                                     f'<span class="ico" style="background-image: url({art("no_photo")})"></span>'
+                                     'Cooking up a picture...<small>No photo of this dish yet</small></div>',
                                      unsafe_allow_html=True)
                 # The dish's own name; the title as posted stays underneath (the safety checks read the posted
                 # title, never this one)

@@ -128,7 +128,12 @@ and a link for each photo, the "A photo of X in general, not this recipe" label,
 
 This needs the internet; it waits until we have it again.
 
-### Placeholder picture: "Cooking up a cool picture..." (planned 2026-10-26)
+### Placeholder picture: "Cooking up a picture..." (built 2026-10-26)
+
+Built: draft B of four (`design/pixel-art/no_photo_drafts.py`, sheet in `previews/no_photo_drafts_x6.png`), a wooden
+spoon and a fork crossed over a steaming frying pan, drawn by `make_pixel_art.no_photo` as `assets/no_photo.png`.
+The cards show it with "Cooking up a picture..." and "No photo of this dish yet"; `tests/test_app_art.py` checks
+that every picture the app names is drawn. The plan as written first:
 
 Recipes with no photo at all show one small pixel-art picture instead of an empty space, in the kitchen's style.
 

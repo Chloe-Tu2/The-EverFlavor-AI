@@ -42,3 +42,6 @@ logs/
 audit*.jsonl
 user_profiles*
 chat_history*
+
+# Browser test screenshots and logs (Playwright MCP)
+.playwright-mcp/
