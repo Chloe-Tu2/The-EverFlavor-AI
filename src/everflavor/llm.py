@@ -68,8 +68,8 @@ def ollama_url() -> str:
     host = os.environ.get("OLLAMA_HOST", "").strip()
     if not host:
         return OLLAMA_URL
-    if host.startswith("0.0.0.0"):   # a listen address, not one to call
-        host = host.replace("0.0.0.0", "localhost", 1)
+    if host.startswith("0.0.0.0"):  # noqa: S104 - a listen address, not one to call: use localhost
+        host = host.replace("0.0.0.0", "localhost", 1)  # noqa: S104
     return (host if "://" in host else f"http://{host}").rstrip("/")
 
 

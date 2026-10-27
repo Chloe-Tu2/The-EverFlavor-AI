@@ -1,0 +1,15 @@
+# Dependabot (free for public repos): a weekly pull request when a library or a GitHub Action we use has a newer
+# version or a known security problem. It reads the requirement lists in config/ and the workflow files.
+# After merging a library update, refresh config/requirements.lock (command in config/README.md).
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /config
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5

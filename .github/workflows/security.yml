@@ -1,0 +1,35 @@
+# Security checks that run beside the main checks (they do not block them):
+# - osv-scanner: every library in config/requirements.lock against the OSV database of known vulnerabilities.
+# - dependency review (pull requests only): flags a pull request that adds a library with a known vulnerability.
+# Actions are pinned to a full commit (a tag can be moved); Dependabot proposes updates.
+name: security
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 6 * * 1"   # Mondays, for vulnerabilities found after our last push
+
+permissions:
+  contents: read
+
+jobs:
+  osv-scanner:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1   # v7.0.1
+
+      - name: Known vulnerabilities in the locked libraries
+        uses: google/osv-scanner-action/osv-scanner-action@a345acffa64b0eaede81a3d9aae6141214d9c8fc   # v2.6.0
+        with:
+          scan-args: |-
+            --lockfile=requirements.txt:./config/requirements.lock
+
+  dependency-review:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1   # v7.0.1
+      - uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294   # v5.0.0

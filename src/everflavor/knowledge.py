@@ -379,7 +379,7 @@ NOT_FOOD_DESCRIPTION_WORDS = ["gene", "genetic", "element", "protein", "film", "
 def _sparql(query: str, cache_dir: Path, refresh: bool = False, retries: int = 3) -> list[dict]:
     """Run one SPARQL query on Wikidata, cached by the query's hash; returns the result rows."""
     cache_dir.mkdir(parents=True, exist_ok=True)
-    cache_file = cache_dir / (hashlib.sha1(query.encode("utf-8")).hexdigest()[:16] + ".json")
+    cache_file = cache_dir / (hashlib.sha1(query.encode("utf-8"), usedforsecurity=False).hexdigest()[:16] + ".json")
     if cache_file.exists() and not refresh:
         return json.loads(cache_file.read_text(encoding="utf-8"))
     for attempt in range(1, retries + 1):

@@ -131,8 +131,8 @@ def _get_bytes(url: str, timeout: int) -> bytes:
     """GET a URL with urllib (Mendeley's bot check refuses the requests library, but not urllib)."""
     if not url.startswith("https://"):
         raise ValueError(f"only https downloads are allowed: {url}")
-    request = urllib.request.Request(url, headers=DOWNLOAD_HEADERS)
-    with urllib.request.urlopen(request, timeout=timeout) as response:   # https only, checked above
+    request = urllib.request.Request(url, headers=DOWNLOAD_HEADERS)  # noqa: S310 - https only, checked above
+    with urllib.request.urlopen(request, timeout=timeout) as response:  # noqa: S310 - https only, checked above
         return response.read()
 
 
@@ -145,8 +145,8 @@ def _download_to(url: str, target: Path, timeout: int, chunk: int = 2**20) -> Pa
     if not url.startswith("https://"):
         raise ValueError(f"only https downloads are allowed: {url}")
     partial = target.with_name(target.name + ".part")
-    request = urllib.request.Request(url, headers=DOWNLOAD_HEADERS)
-    with urllib.request.urlopen(request, timeout=timeout) as response, open(partial, "wb") as out:
+    request = urllib.request.Request(url, headers=DOWNLOAD_HEADERS)  # noqa: S310 - https only, checked above
+    with urllib.request.urlopen(request, timeout=timeout) as response, open(partial, "wb") as out:  # noqa: S310
         while block := response.read(chunk):
             out.write(block)
     partial.replace(target)
@@ -263,15 +263,17 @@ def _unpack_rar(archive: Path, folder: Path) -> None:
     """List a .rar archive, refuse paths that leave `folder`, then unpack it there."""
     tool = _rar_tool()
     if tool[0] == "unrar":
-        listing = subprocess.run(["unrar", "lb", str(archive)], capture_output=True, text=True, check=True).stdout
+        listing = subprocess.run(["unrar", "lb", str(archive)],  # noqa: S603, S607 - fixed tool, our own paths
+                                 capture_output=True, text=True, check=True).stdout
         unpack = ["unrar", "x", "-o+", str(archive), str(folder) + "/"]
     else:
-        listing = subprocess.run([*tool, "-tf", str(archive)], capture_output=True, text=True, check=True).stdout
+        listing = subprocess.run([*tool, "-tf", str(archive)],  # noqa: S603 - fixed tool, our own paths
+                                 capture_output=True, text=True, check=True).stdout
         unpack = [*tool, "-xf", str(archive), "-C", str(folder)]
     for member in listing.splitlines():
         if member.strip() and not (folder / member.strip()).resolve().is_relative_to(folder.resolve()):
             raise ValueError(f"unsafe path in {archive.name}: {member}")
-    subprocess.run(unpack, check=True, capture_output=True)
+    subprocess.run(unpack, check=True, capture_output=True)  # noqa: S603 - every member path checked above
 
 
 def zenodo_download(record_id: str, folder: str | Path, refresh: bool = False, timeout: int = 7200) -> list[Path]:
@@ -482,7 +484,7 @@ def split_without_leakage(index: pd.DataFrame, fractions: Mapping[str, float] | 
     cuts = np.cumsum(list(fractions.values()))
 
     def assign(group: str) -> str:
-        u = int(hashlib.sha1(f"{seed}:{group}".encode()).hexdigest()[:8], 16) / 0xFFFFFFFF
+        u = int(hashlib.sha1(f"{seed}:{group}".encode(), usedforsecurity=False).hexdigest()[:8], 16) / 0xFFFFFFFF
         return list(fractions)[int(np.searchsorted(cuts, u * cuts[-1], side="right").clip(0, len(cuts) - 1))]
 
     return groups.map(assign).rename("split")
@@ -605,7 +607,8 @@ def _gpu_names() -> list[str]:
     else:
         command = ["lspci"]
     try:
-        lines = subprocess.run(command, check=False, capture_output=True, text=True, timeout=30).stdout.splitlines()
+        lines = subprocess.run(command, check=False, capture_output=True,  # noqa: S603 - fixed commands
+                               text=True, timeout=30).stdout.splitlines()
     except (OSError, subprocess.SubprocessError):
         return []
     if command[0] == "system_profiler":

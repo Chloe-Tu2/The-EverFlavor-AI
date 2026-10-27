@@ -43,7 +43,8 @@ _METHOD_NAMES = {"deep_fry": "deep-fry", "pan_fry": "pan-fry or sauté", "stir_f
                  "bake_roast": "bake or roast", "grill_broil": "grill or broil", "boil_simmer": "boil or simmer",
                  "steam": "steam", "slow_cook": "slow cook", "pressure_cook": "pressure cook",
                  "microwave": "microwave", "smoke": "smoke", "no_cook": "no heat"}
-assert set(_METHOD_NAMES) == set(COOKING_METHODS)
+if set(_METHOD_NAMES) != set(COOKING_METHODS):   # a real check, kept even when Python runs with -O
+    raise RuntimeError("dish_steps._METHOD_NAMES must name every cooking method")
 
 
 def _steps(instructions: object) -> list[str]:

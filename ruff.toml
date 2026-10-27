@@ -2,3 +2,18 @@
 # The oldest Python the project supports (notebook 01: MIN_PYTHON = (3, 10)), so ruff never
 # suggests code that Python 3.10 cannot run (for example datetime.UTC, new in 3.11).
 target-version = "py310"
+
+[lint]
+# Ruff's default rules plus "S", bandit's security checks (subprocess, eval, pickle, unsafe URLs, weak hashes ...).
+# Reviewed exceptions (2026-10-27):
+# - S311 random numbers here pick colours and sample rows, never anything secret.
+# - S106 flags scikit-learn's `token_pattern=` (a regex) as a password.
+extend-select = ["S"]
+ignore = ["S311", "S106"]
+
+[lint.per-file-ignores]
+# Tests use assert and call git and Python with fixed arguments.
+"tests/**" = ["S101", "S603", "S607"]
+# Every notebook's setup cell downloads its own src/everflavor files from GitHub over https, and notebook 11 runs
+# the project's photo scripts with sys.executable.
+"notebooks/**" = ["S310", "S603", "S607"]
