@@ -23,7 +23,7 @@ jobs:
           python-version: "3.12"   # the version Google Colab runs
 
       # uv installs the same requirement files as pip, much faster, with a cache between runs
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.0   # this action has no v10 tag: pin a release, upgrade on purpose
         with:
           enable-cache: true
           cache-dependency-glob: config/requirements*.txt
