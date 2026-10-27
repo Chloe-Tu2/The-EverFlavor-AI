@@ -21,7 +21,7 @@ After 01, the rest can run in any order, except where the table says "needs".
 | 07 | [Nutrition quality](07_nutrition_quality.ipynb) | Macro labels, nutrient-rich ingredients, calorie calculator check | `processed/recipe_nutrition_quality.parquet`, `ingredient_micronutrients.csv` |
 | 08 | [Climate and season](08_climate_and_season.ipynb) | Meat: when each meat is most plentiful and when animals graze fresh grass, by region (built; first run downloads about 10 minutes of weather). Carbon footprint and produce seasons: planned | `processed/meat_supply_seasons.csv`, `pasture_seasons.csv` |
 | 09 | [Agent evaluation](09_agent_evaluation.ipynb) | The same 33 questions (5 profiles, 13 attacks) for every local model, scored by code: leaks, right tool, right calories, attacks pushed back; each run compared with the last. VS Code / Antigravity only (needs Ollama) | `processed/agent_eval/agent_eval_<date>.csv` |
-| 11 | [Recipe photos](11_recipe_photos.ipynb) | Food.com's own photo links from a CC0 Kaggle dataset (irkaal), joined by recipe number; optional photo download, logo fingerprint and the photo-matches-dish check. Prepared, not run yet (needs a Kaggle login) | `processed/foodcom_photo_links.parquet`, `processed/foodcom_photos.parquet` |
+| 11 | [Recipe photos](11_recipe_photos.ipynb) | Food.com's own photo links from a CC0 Kaggle dataset (irkaal), joined by recipe number; optional photo download, logo fingerprint and the photo-matches-dish check. Run 2026-10-25/26: 111,614 photos downloaded, 303 hidden as logos or icons, and the photo check (`scripts/recipe_photos/check_photos.py`) hides 445 more that do not show the dish | `processed/foodcom_photo_links.parquet`, `processed/foodcom_photos.parquet` |
 
 ## Run times
 

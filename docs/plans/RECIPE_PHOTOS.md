@@ -103,6 +103,15 @@ coddle"); of 20 from 0.06 up, 1-2 ("cherry bars" as a chocolate bar). `fetch_dis
 weaker round-1 photos out: 2,101 recipes, 263 dish names (kept in `dish_photos_hidden.parquet`). A wrong photo with
 a high score (the "lemon mousse" drink, 0.083) needs a second check that is not CLIP; see "Other sources" below.
 
+**Dish photo search, round 2 (2026-10-26, cutoff 0.06):** the next 2,000 names covered only 4,653 recipes (the
+long tail). 593 names (29.6%) got a photo, 1,430 recipes; 687 names had candidates the check turned down, 720 had
+no free candidate. Of 16 checked by eye, two were turned down in the review file ("austin": a street of food
+trucks, a place name taken for a dish; "chicken crepes": no crepe) and one is loose ("stracciatella" as gelato).
+
+**Totals after both search rounds:** 178,217 of 291,755 recipes (61.1%) show a photo (their own, Food.com's or a
+dish photo); 113,538 show the "Cooking up a picture..." skillet. `dish_photos.parquet`: 46,203 recipes, 2,394
+photos. Further Commons rounds would add fewer than one recipe per name.
+
 ### Other sources and a second check (researched 2026-10-26, not built)
 
 - **Openverse API** (Flickr, Wikimedia and more, licence filter CC0/PDM/BY/BY-SA, no key needed, a free key gives

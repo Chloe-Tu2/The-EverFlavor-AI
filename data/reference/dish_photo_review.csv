@@ -13,3 +13,5 @@ Q27994917,chicken dish,no,a generic name: breaded chicken strips for any chicken
 Q21976260,rice dish,no,a generic name: one vermicelli rice dish for any rice dish,Claude (2026-10-26)
 Q7958828,wacky cake,no,a pile of cocoa and flour; not the baked cake,Claude (2026-10-26)
 Q56669796,deep-dish pizza,no,flat thin pizzas; not a deep-dish pizza,Claude (2026-10-26)
+search:austin,austin,no,"a street of food trucks: Austin is a city, not a dish",Claude (2026-10-26)
+search:chicken crepe,chicken crepes,no,"chicken in a cream sauce, no crepe in sight",Claude (2026-10-26)
