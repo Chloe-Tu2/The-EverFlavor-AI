@@ -87,6 +87,16 @@ common dish names less well.
 - Only 7 wrong photos in the labels, so the cutoff is a first guess: the team labels the other 126 rows (and
   checks Claude's), then `check_photos.py eval` gives the new precision and recall.
 
+**Food.com photos (run 2026-10-26, `PHOTO_SET=foodcom`):** 111,613 recipes scored (102,744 dish names) in 110
+minutes on the laptop CPU; median clip_score 0.064, median rank_score 1.00. The same cutoff hides **445 photos
+(0.4%)** and keeps 111,168. Results: `data/processed/photo_check_foodcom.parquet`. The score step now works 2,048
+photos at a time (all at once needed ~11 GB) and caches the dish-name vectors, so a stopped run resumes.
+
+**Dish photo search, round 1 (2026-10-26):** the 2,000 most common names of recipes with no photo were searched on
+Wikimedia Commons (free licences only). 1,214 names (61%) got a photo, giving 9,385 recipes a "photo of the dish in
+general". Of 16 checked by eye, about 13 were right; wrong or loose: "perogies" (stuffed vegetable boats), "lemon
+mousse" (a pink drink), "roasted red peppers" (stuffed peppers). Tighten the match or review before round 2.
+
 ## Food.com's own photos (notebook 11, 2026-10-25)
 
 The CC0 Kaggle dataset Food.com - Recipes and Reviews (irkaal) has 217,716 of our 218,024 Food.com recipes under the
