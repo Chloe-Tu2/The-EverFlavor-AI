@@ -268,11 +268,14 @@ jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
     # via jsonschema
 jupyter-client==8.10.0
-    # via ipykernel
+    # via
+    #   ipykernel
+    #   nbclient
 jupyter-core==5.9.1
     # via
     #   ipykernel
     #   jupyter-client
+    #   nbclient
     #   nbformat
 jupyterlab-widgets==3.0.17
     # via ipywidgets
@@ -344,8 +347,12 @@ narwhals==2.27.1
     # via
     #   altair
     #   scikit-learn
+nbclient==0.11.0
+    # via -r config/requirements-dev.txt
 nbformat==5.11.1
-    # via jupytext
+    # via
+    #   jupytext
+    #   nbclient
 nest-asyncio2==1.7.4
     # via ipykernel
 networkx==3.7
@@ -514,6 +521,8 @@ pillow==13.0.0
     #   pdfplumber
     #   streamlit
     #   torchvision
+pip==26.2.2
+    # via -r config/requirements.txt
 platformdirs==4.13.5
     # via
     #   jupyter-core
@@ -789,6 +798,7 @@ traitlets==5.16.1
     #   jupyter-client
     #   jupyter-core
     #   matplotlib-inline
+    #   nbclient
     #   nbformat
 triton==3.8.0 ; python_full_version < '3.15' and sys_platform == 'linux'
     # via torch

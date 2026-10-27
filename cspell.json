@@ -16,6 +16,7 @@
   // Arabic, Cyrillic, Devanagari and CJK words (foreign food names in the safety rules) are not spell-checked
   "ignoreRegExpList": ["/[\u0400-\u04FF\u0600-\u06FF\u0900-\u097F\u3040-\u30FF\u4E00-\u9FFF\uAC00-\uD7AF]+/g"],
   "words": [
+    "Openverse",
     "lastgroup",
     "panceta",
     "vinagre",

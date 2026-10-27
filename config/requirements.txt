@@ -11,6 +11,7 @@ matplotlib
 seaborn
 scikit-learn
 ipykernel
+pip           # the notebooks' %pip cells need it (an environment made by uv has none)
 tqdm
 ipywidgets
 # Notebook 03: read the Open Food Facts export over the network
