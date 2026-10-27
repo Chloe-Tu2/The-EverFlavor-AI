@@ -512,9 +512,12 @@ def stage_write() -> None:
 # food than like a package, a bottle, a landscape, a person or a drawing (nonfood < 0). Chosen from hand-checked
 # contact sheets (Claude, 2026-10-26): Wikidata's own dish images (verify) were mostly right from clip_score 0.02;
 # search results between 0.02 and 0.04 were wrong about half the time (a landscape for "s'mores", foil bricks for
-# "meatloaf"), from 0.04 about one in ten or fewer, so a search needs 0.045.
+# "meatloaf"), from 0.04 about one in ten or fewer, so a search needs 0.045. Raised to 0.06 after round 1
+# (med27-coder, 2026-10-26): of 20 accepted photos between 0.045 and 0.06, 5-6 were wrong or loose (apples for
+# "ambrosia", razor clams for "shells", a pub table for "dublin coddle"); of 20 from 0.06, 1-2. `prune` applies it
+# to the photos a search already wrote.
 GENERAL_CLIP = 0.02   # verify: the photos matched to Wikidata dishes
-SEARCH_CLIP = 0.045   # search: any Commons file
+SEARCH_CLIP = 0.06    # search: any Commons file
 GENERAL_RANK = 0.9
 NONFOOD = ["a photo of a product package with a brand label.", "a photo of bottles or jars on a shelf.",
            "a photo of a landscape.", "a photo of a person.", "a drawing or an illustration.",
@@ -754,6 +757,26 @@ def stage_verify() -> None:
         print("took out", int(drop.sum()), "rows; dish_photos rows now", int((~drop).sum()))
 
 
+def stage_prune() -> None:
+    """Take out the search photos (Commons files c<pageid>.jpg) whose score is below today's SEARCH_CLIP; they go to
+    HIDDEN like the verify stage's, so nothing is lost. Without --apply it only counts them."""
+    dp = pd.read_parquet(PROC / "dish_photos.parquet")
+    sc = pd.read_parquet(SCORES)
+    sc = sc.assign(pid=sc.image_file.str.extract(r"(\d+)\.\w+$")[0], name=sc["name"].str.lower())
+    sc = sc.drop_duplicates(["pid", "name"]).set_index(["pid", "name"])
+    pid = dp.image_file.str.extract(r"/c(\d+)\.\w+$")[0]
+    keys = list(zip(pid, dp.dish_label.str.lower()))
+    score = pd.Series([sc.clip_score.get(k) if isinstance(k[0], str) else None for k in keys], index=dp.index)
+    drop = score.notna() & (score < SEARCH_CLIP)
+    print(f"search rows {int(score.notna().sum())}: below {SEARCH_CLIP} {int(drop.sum())} rows, "
+          f"{dp.loc[drop, 'dish_label'].nunique()} dish names")
+    if Opts.apply and drop.any():
+        hidden = pd.concat([pd.read_parquet(HIDDEN), dp[drop]]) if HIDDEN.exists() else dp[drop]
+        hidden.drop_duplicates("recipe_id").to_parquet(HIDDEN, index=False)
+        dp[~drop].to_parquet(PROC / "dish_photos.parquet", index=False)
+        print("took out", int(drop.sum()), "rows; dish_photos rows now", int((~drop).sum()))
+
+
 # ---------------------------------------------------------------- search: Commons search for photo-less dishes
 def commons(s: requests.Session, params: dict) -> dict:
     """One Commons API call: 1 request a second, maxlag=5, backing off when the servers are busy."""
@@ -909,13 +932,14 @@ def stage_search() -> None:
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=["dishes", "match", "meta", "download", "curate", "write", "verify", "search"])
+    ap.add_argument("stage", choices=["dishes", "match", "meta", "download", "curate", "write", "verify", "search", "prune"])
     ap.add_argument("--top", type=int, default=TOP, help="dishes to take, by recipes covered (default %(default)s)")
     ap.add_argument("--extend", action="store_true", help="a further round for recipes that still have no photo")
     ap.add_argument("--min-words", type=int, default=1, help="shortest dish phrase that may match")
-    ap.add_argument("--apply", action="store_true", help="verify: take failing dishes out of dish_photos.parquet")
+    ap.add_argument("--apply", action="store_true", help="verify, prune: take failing rows out of dish_photos.parquet")
     ap.add_argument("--dry", action="store_true", help="search: score but do not write dish_photos.parquet")
     a = ap.parse_args()
     Opts.top, Opts.extend, Opts.min_words, Opts.apply, Opts.dry = a.top, a.extend, a.min_words, a.apply, a.dry
     {"dishes": stage_dishes, "match": stage_match, "meta": stage_meta, "download": stage_download,
-     "curate": stage_curate, "write": stage_write, "verify": stage_verify, "search": stage_search}[a.stage]()
+     "curate": stage_curate, "write": stage_write, "verify": stage_verify, "search": stage_search,
+     "prune": stage_prune}[a.stage]()

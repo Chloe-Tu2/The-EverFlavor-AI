@@ -97,6 +97,30 @@ Wikimedia Commons (free licences only). 1,214 names (61%) got a photo, giving 9,
 general". Of 16 checked by eye, about 13 were right; wrong or loose: "perogies" (stuffed vegetable boats), "lemon
 mousse" (a pink drink), "roasted red peppers" (stuffed peppers). Tighten the match or review before round 2.
 
+**Stricter search cutoff (med27-coder, 2026-10-26):** `SEARCH_CLIP` 0.045 to 0.06. Of 20 accepted photos between
+0.045 and 0.06, 5-6 were wrong or loose (apples for "ambrosia", razor clams for "shells", a pub table for "dublin
+coddle"); of 20 from 0.06 up, 1-2 ("cherry bars" as a chocolate bar). `fetch_dish_photos.py prune --apply` took the
+weaker round-1 photos out: 2,101 recipes, 263 dish names (kept in `dish_photos_hidden.parquet`). A wrong photo with
+a high score (the "lemon mousse" drink, 0.083) needs a second check that is not CLIP; see "Other sources" below.
+
+### Other sources and a second check (researched 2026-10-26, not built)
+
+- **Openverse API** (Flickr, Wikimedia and more, licence filter CC0/PDM/BY/BY-SA, no key needed, a free key gives
+  higher limits): the only other source that fits both the licences and the volume. Every Flickr photo needs its
+  own licence and creator credit, as the Commons ones do. Pexels and Unsplash allow app use with credit, but their
+  catalogues are small and "pretty" (few dish-level matches), and Unsplash requires hotlinking and download reports.
+- **Not usable:** Food-101 and Recipe1M (scraped or research-only images, not safe to show in a public app), Open
+  Food Facts (packaged products, not dishes).
+- **Gemini API, free tier:** vision is free on the Flash and Flash-Lite models; limits are per project and shown in
+  AI Studio (one source says 2.5 Flash-Lite: 15 a minute, 1,000 a day; unverified). Useful only as a yes/no check
+  of borderline photos (`is this a photo of <dish>?`), about 10 days for 10,000 photos at 1,000 a day. It cannot
+  find licensed photos (search grounding returns text and links, 500 a day), and image generation is not free and
+  would show fake photos of real recipes. Free-tier inputs may be used by Google: send only public photos, never
+  user data.
+- **A better local check:** SigLIP 2 (`google/siglip2-base-patch16-224`, Apache 2.0) is likely stronger than CLIP
+  ViT-B/32; compare the two on about 200 hand-labelled photos before switching.
+- Most of the remaining recipes are a long tail of one-off names; they keep the "Cooking up a picture..." skillet.
+
 ## Food.com's own photos (notebook 11, 2026-10-25)
 
 The CC0 Kaggle dataset Food.com - Recipes and Reviews (irkaal) has 217,716 of our 218,024 Food.com recipes under the
