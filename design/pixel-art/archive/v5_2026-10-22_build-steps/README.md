@@ -10,3 +10,5 @@ keeps only what the app and `day_night.py` use.
 | `compare_all.png`, `compare_all_lighting.png` | The same for all four kitchens on one sheet |
 
 `trace_kitchens.py` writes the first two again (as `compare.png` and `compare_lighting.png`) when it is run.
+
+**Pruned 2026-10-26:** kept the Mexican pair and `compare_all_lighting.png`; the other images of this round were deleted and are in the git history.

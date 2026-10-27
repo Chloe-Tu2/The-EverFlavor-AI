@@ -67,7 +67,7 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 
 | Source | URL | License | Access method | Status |
 |---|---|---|---|---|
-| "Wooden Spatula" photo (Nordwood Themes, StockSnap): the photo idea behind the "no photo yet" picture | <https://stocksnap.io/photo/wooden-spatula-QSUFZLT8SV> | CC0 1.0 (Openverse, checked 2026-10-26) | One download, cropped and resized to `design/pixel-art/assets/no_photo_photo.png` | 2026-10-26; the app now shows pixel art from med27-coder's Gemini concept of it (`assets/no_photo_skillet.png`) |
+| "Wooden Spatula" photo (Nordwood Themes, StockSnap): the photo idea behind the "no photo yet" picture | <https://stocksnap.io/photo/wooden-spatula-QSUFZLT8SV> | CC0 1.0 (Openverse, checked 2026-10-26) | One download, cropped and resized to `design/pixel-art/archive/no-photo_2026-10-26/photo_stocksnap_cc0_small.png` | 2026-10-26; the app now shows pixel art from med27-coder's Gemini concept of it (`assets/no_photo_skillet.png`) |
 | Food.com - Recipes and Reviews (irkaal, Kaggle) | <https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews> | CC0: Public Domain (Kaggle API, checked 2026-10-25) | `kagglehub` download of `recipes.parquet` only | Notebook 11, run 2026-10-25 (links); photo download started 2026-10-26 (dataset updated 2020-12-28) |
 | RecipeDB (CoSyLab) | <https://cosylab.iiitd.edu.in/recipedb/> | CC BY-NC-SA 3.0 | API key from the CoSyLab team | Optional, not used yet (2.4.7) |
 

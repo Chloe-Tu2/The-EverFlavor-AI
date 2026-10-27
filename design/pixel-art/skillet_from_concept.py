@@ -1,5 +1,5 @@
-"""The no-photo picture as true pixel art, from Gemini concept art (design/pixel-art/previews/skillet_concept_gemini.jpg,
-made by med27-coder): crop to the skillet, one colour per cell (the cell's most common colour, so edges stay sharp),
+"""The no-photo picture as true pixel art, from med27-coder's Gemini concept art
+(design/pixel-art/archive/no-photo_2026-10-26/skillet_concept_gemini.jpg): crop to the skillet, one colour per cell (the cell's most common colour, so edges stay sharp),
 a shared palette of K flat colours, white made transparent.
 Run: python -I design/pixel-art/skillet_from_concept.py <out folder> <size> [<colours>]
 """
@@ -11,7 +11,7 @@ from PIL import Image
 
 out, N = sys.argv[1], int(sys.argv[2])
 K = int(sys.argv[3]) if len(sys.argv) > 3 else 32
-src = Image.open("design/pixel-art/previews/skillet_concept_gemini.jpg").convert("RGB")
+src = Image.open("design/pixel-art/archive/no-photo_2026-10-26/skillet_concept_gemini.jpg").convert("RGB")
 a = np.asarray(src)
 ys, xs = np.nonzero(a.min(axis=2) < 225)                     # everything that is not the white background
 x0, x1, y0, y1 = xs.min(), xs.max() + 1, ys.min(), ys.max() + 1

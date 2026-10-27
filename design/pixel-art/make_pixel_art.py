@@ -547,7 +547,6 @@ def main() -> None:
         icon.resize((20 * 8, 20 * 8), Image.NEAREST).save(PREVIEW / f"icon_{name}_x8.png")
         sheet.paste(icon, (k * 24 + 2, 2))
     sheet.resize((sheet.width * 6, sheet.height * 6), Image.NEAREST).save(PREVIEW / "icons_sheet_x6.png")
-    no_photo().save(OUT / "no_photo.png")
     print(f"Saved {len(scenes)} kitchens, {len(CHEF_FACES) * (1 + len(cuisine_kitchens.CHEF_VARIANTS))} chefs and "
           f"{len(ICONS)} icons in {OUT}")
 

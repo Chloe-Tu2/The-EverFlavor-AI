@@ -33,3 +33,5 @@ Each comparison shows the original (text painted out) on the left and the recrea
   beams are straighter.
 
 The previous drafts (the concept sheet's kitchens, 280 x 268) are in [../concept-recreation/](../concept-recreation/README.md).
+
+**Pruned 2026-10-26:** kept `compare_mexican.png`; the other images of this round were deleted and are in the git history.

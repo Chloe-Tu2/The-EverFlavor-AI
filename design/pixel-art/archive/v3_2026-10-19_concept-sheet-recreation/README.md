@@ -41,3 +41,5 @@ Top: the concept. Bottom: the recreation.
   "EverFlavor Kitchen" over every kitchen.
 
 Not in the app yet; the code-drawn kitchens and the team's originals folder stay as they were.
+
+**Pruned 2026-10-26:** kept `compare_mexican.png` and `compare_chefs.png`; the other images of this round were deleted and are in the git history.

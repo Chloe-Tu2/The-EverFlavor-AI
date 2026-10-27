@@ -50,3 +50,5 @@ The scenes on their own (before the page is drawn over them):
    (480 x 270, see `design/PLAN.md`) would leave room for it.
 4. **The chefs' faces** share the classic chef's features; each could get its own face and smile.
 5. **Respect check:** have someone from each food culture look at their kitchen and chef before it goes public.
+
+**Pruned 2026-10-26:** kept the Mexican and Middle Eastern mockups; the other images of this round were deleted and are in the git history.
