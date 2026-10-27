@@ -149,7 +149,13 @@ Replaced the same day (med27-coder's pick, option A of `previews/no_photo_compar
 `assets/no_photo_photo.png`: two wooden utensils crossed over a pan, "Wooden Spatula" by Nordwood Themes on StockSnap
 (<https://stocksnap.io/photo/wooden-spatula-QSUFZLT8SV>, CC0 1.0), cropped, white background cleared, 160 px and 96 colours (6.7 KB, since every card without a photo carries a copy). The
 pixel art stays in `assets/no_photo.png`. Option B (pixel art made from the photo, `previews/no_photo_from_photo.png`)
-was muddy; to use it later, redraw it by hand with a dark outline around each tool. The plan as written first:
+was muddy; to use it later, redraw it by hand with a dark outline around each tool.
+
+Final (same day): med27-coder's own concept art, made with Gemini (`previews/skillet_concept_gemini.jpg`): a black
+cast-iron skillet with the yellow-handled spatula over the blue-handled turner, the photo's idea. Turned into flat
+pixel art by `design/pixel-art/skillet_from_concept.py` at 48, 64, 96, 128 and 150 px (`previews/skillet_pixel_*.png`);
+med27-coder picked **64 px** ("just right for a stand-in"), shown at 128 px (exactly 2x) as `assets/no_photo_skillet.png`.
+The photo and the hand-drawn stoneware drafts (`no_photo_outlined.py`) stay as alternatives. The plan as written first:
 
 Recipes with no photo at all show one small pixel-art picture instead of an empty space, in the kitchen's style.
 

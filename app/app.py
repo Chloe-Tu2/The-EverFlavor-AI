@@ -307,7 +307,7 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   aspect-ratio: 4 / 3; background: var(--sidebar); border: 3px dashed var(--border); color: var(--text);
   font-family: var(--pixel-text); font-size: var(--fs-2); text-align: center; padding: var(--space-2);
 }}
-.no-photo .ico {{ width: 128px; height: 128px; image-rendering: auto; }}  /* a real photo, so smooth scaling */
+.no-photo .ico {{ width: 128px; height: 128px; }}  /* 64 px art at exactly 2x */
 .no-photo small {{ font-size: var(--fs-1); }}
 .updates h5 {{ font-family: var(--pixel-font); font-weight: 400; font-size: var(--fs-2); margin: var(--space-2) 0 0; color: var(--heading); }}
 .updates ul {{ margin: 0.2rem 0 0.6rem 1.1rem; padding: 0; }}
@@ -990,7 +990,7 @@ with find_tab:
                 else:
                     # No photo at all: the kitchen's own picture, which says plainly that it is not the dish
                     picture.markdown(f'<div class="no-photo" role="img" aria-label="No photo of this dish yet">'
-                                     f'<span class="ico" style="background-image: url({art("no_photo_photo")})"></span>'
+                                     f'<span class="ico" style="background-image: url({art("no_photo_skillet")})"></span>'
                                      'Cooking up a picture...<small>No photo of this dish yet</small></div>',
                                      unsafe_allow_html=True)
                 # A short card: the dish's own name and where it is from, the numbers, and the check it passed as
