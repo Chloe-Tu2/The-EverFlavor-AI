@@ -68,7 +68,7 @@ def describe(path):
 
 
 def fetch(source, url):
-    sha1 = hashlib.sha1(url.encode()).hexdigest()
+    sha1 = hashlib.sha1(url.encode(), usedforsecurity=False).hexdigest()   # a file name, not security
     d = ROOT / source
     if d.exists():
         for p in d.glob(sha1 + ".*"):

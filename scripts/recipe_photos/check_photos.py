@@ -15,7 +15,7 @@ Steps (each resumable; photos are untrusted data, so run with python -I):
   python -I scripts/recipe_photos/check_photos.py score    # data/processed/photo_check.parquet
   python -I scripts/recipe_photos/check_photos.py sample   # data/reference/photo_check_sample.csv (200 rows)
   python -I scripts/recipe_photos/check_photos.py eval     # precision/recall of cutoffs on the labelled rows
-Food.com's own photos (notebook 11): the same steps with PHOTO_SET=foodcom (data/processed/photo_check_foodcom.parquet).
+Food.com's own photos (notebook 10): the same steps with PHOTO_SET=foodcom (data/processed/photo_check_foodcom.parquet).
 """
 from __future__ import annotations
 
@@ -33,7 +33,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from everflavor.dish_names import clean_title
 
-# Which photos: the first set (default) or Food.com's own photos from notebook 11 (PHOTO_SET=foodcom), each with
+# Which photos: the first set (default) or Food.com's own photos from notebook 10 (PHOTO_SET=foodcom), each with
 # its own cache and output so one run never overwrites the other's
 SET = os.environ.get("PHOTO_SET", "")
 PHOTOS = ROOT / "data" / "raw" / ("foodcom_photos" if SET == "foodcom" else "recipe_photos")

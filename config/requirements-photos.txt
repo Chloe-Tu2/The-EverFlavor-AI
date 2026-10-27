@@ -1,4 +1,4 @@
-# The recipe-photo tools (scripts/recipe_photos, scripts/dish_photos; notebook 11's photo check), for VS Code and
+# The recipe-photo tools (scripts/recipe_photos, scripts/dish_photos; notebook 10's photo check), for VS Code and
 # Antigravity. Colab already has torch and torchvision. About 1 GB, mostly PyTorch (CPU build on Windows ARM).
 # Install: uv pip install -r config/requirements-photos.txt   (or pip install -r ...)
 -r requirements.txt

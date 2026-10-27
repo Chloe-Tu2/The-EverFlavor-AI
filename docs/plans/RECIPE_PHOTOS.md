@@ -137,12 +137,12 @@ the next source is Openverse (below).
   ViT-B/32; compare the two on about 200 hand-labelled photos before switching.
 - Most of the remaining recipes are a long tail of one-off names; they keep the "Cooking up a picture..." skillet.
 
-## Food.com's own photos (notebook 11, 2026-10-25)
+## Food.com's own photos (notebook 10, 2026-10-25)
 
 The CC0 Kaggle dataset Food.com - Recipes and Reviews (irkaal) has 217,716 of our 218,024 Food.com recipes under the
 same recipe numbers (the names agree for 95.9% once punctuation is ignored; the rest differ only by HTML codes such
 as `&amp;`), and **111,803 of them (51.3%) have a photo of their own**: links saved in
-`data/processed/foodcom_photo_links.parquet`. Next: download them (notebook 11, `DOWNLOAD_PHOTOS`), the logo
+`data/processed/foodcom_photo_links.parquet`. Next: download them (notebook 10, `DOWNLOAD_PHOTOS`), the logo
 fingerprint and the photo-matches-dish check, then the app shows them.
 
 ### Download paused (2026-10-26)
@@ -154,10 +154,10 @@ yet. To finish, in order:
 | # | Step | Command or place | Time (estimate) |
 |---|---|---|---|
 | 1 | Resume the download; it skips every link already in `results.jsonl` and writes `manifest.csv` | `python -I scripts/recipe_photos/fetch.py data/raw/foodcom_links.csv data/raw/foodcom_photos` | about 2-3 hours for the last 37,500 |
-| 2 | Mark logos and icons (a picture shared by 3 or more recipes, or under 5 KB) and write what the app reads | notebook 11 section 5 (`CHECK_PHOTOS = True`): `data/processed/foodcom_photos.parquet` | minutes |
+| 2 | Mark logos and icons (a picture shared by 3 or more recipes, or under 5 KB) and write what the app reads | notebook 10 section 5 (`CHECK_PHOTOS = True`): `data/processed/foodcom_photos.parquet` | minutes |
 | 3 | Photo-matches-dish check (CLIP, CPU) | `PHOTO_SET=foodcom python -I scripts/recipe_photos/check_photos.py embed`, then `score` | a few hours for embed |
 | 4 | Restart the app and look at a few Food.com recipes | `python -m streamlit run app/app.py` | minutes |
-| 5 | Record the counts here and in notebook 11, then commit (no files from `data/raw`) | this file, `notebooks/README.md` | minutes |
+| 5 | Record the counts here and in notebook 10, then commit (no files from `data/raw`) | this file, `notebooks/README.md` | minutes |
 
 Steps 1 and 3 can be stopped and resumed. Even with all of them, about 120,600 recipes (mostly CulinaryDB) have no
 photo; the two plans below cover them.

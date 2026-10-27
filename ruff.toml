@@ -14,6 +14,6 @@ ignore = ["S311", "S106"]
 [lint.per-file-ignores]
 # Tests use assert and call git and Python with fixed arguments.
 "tests/**" = ["S101", "S603", "S607"]
-# Every notebook's setup cell downloads its own src/everflavor files from GitHub over https, and notebook 11 runs
+# Every notebook's setup cell downloads its own src/everflavor files from GitHub over https, and notebook 10 runs
 # the project's photo scripts with sys.executable.
 "notebooks/**" = ["S310", "S603", "S607"]

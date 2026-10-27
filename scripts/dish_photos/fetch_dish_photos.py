@@ -199,7 +199,7 @@ def photoless_recipes() -> pd.DataFrame:
     if Opts.extend:
         chk = pd.read_parquet(PROC / "photo_check.parquet", columns=["recipe_id", "clip_score"])
         has -= set(chk.loc[chk.clip_score < CLIP_CUTOFF, "recipe_id"])
-        # Food.com photos really downloaded and readable (notebook 11), minus the ones the photo check hides; a
+        # Food.com photos really downloaded and readable (notebook 10), minus the ones the photo check hides; a
         # link alone is not a photo
         fc = pd.read_parquet(PROC / "foodcom_photos.parquet", columns=["recipe_id", "photo_ok"])
         fc_has = set(fc.loc[fc.photo_ok.astype(bool), "recipe_id"])
@@ -620,7 +620,8 @@ def clip_kit():  # type: ignore[no-untyped-def]
     """The photo check's CLIP model (scripts/recipe_photos/check_photos.py), loaded once."""
     import importlib.util
     spec = importlib.util.spec_from_file_location("check_photos", Path("scripts/recipe_photos/check_photos.py"))
-    assert spec and spec.loader
+    if spec is None or spec.loader is None:
+        raise ImportError("scripts/recipe_photos/check_photos.py not found (run from the project folder)")
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     model, preprocess, tokenizer, torch = mod.load_model()

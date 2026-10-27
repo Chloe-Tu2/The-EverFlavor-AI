@@ -120,7 +120,7 @@ def load_recipes() -> pd.DataFrame:
             new = [c for c in side.columns if c == "recipe_id" or c not in df.columns]   # notebook 01 may have them
             if len(new) > 1:
                 df = df.merge(side[new], on="recipe_id", how="left")
-    # Food.com recipes' own photos (notebook 11, a CC0 dataset): only where a recipe has no photo yet, with the same
+    # Food.com recipes' own photos (notebook 10, a CC0 dataset): only where a recipe has no photo yet, with the same
     # logo marks and, when it has run, the same image check (photo_check_foodcom.parquet)
     foodcom = DATA / "foodcom_photos.parquet"
     if foodcom.exists() and "recipe_id" in df:

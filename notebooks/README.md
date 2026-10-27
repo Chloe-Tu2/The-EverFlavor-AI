@@ -21,7 +21,7 @@ After 01, the rest can run in any order, except where the table says "needs".
 | 07 | [Nutrition quality](07_nutrition_quality.ipynb) | Macro labels, nutrient-rich ingredients, calorie calculator check | `processed/recipe_nutrition_quality.parquet`, `ingredient_micronutrients.csv` |
 | 08 | [Climate and season](08_climate_and_season.ipynb) | Meat: when each meat is most plentiful and when animals graze fresh grass, by region (built; first run downloads about 10 minutes of weather). Carbon footprint and produce seasons: planned | `processed/meat_supply_seasons.csv`, `pasture_seasons.csv` |
 | 09 | [Agent evaluation](09_agent_evaluation.ipynb) | The same 33 questions (5 profiles, 13 attacks) for every local model, scored by code: leaks, right tool, right calories, attacks pushed back; each run compared with the last. VS Code / Antigravity only (needs Ollama) | `processed/agent_eval/agent_eval_<date>.csv` |
-| 11 | [Recipe photos](11_recipe_photos.ipynb) | Food.com's own photo links from a CC0 Kaggle dataset (irkaal), joined by recipe number; optional photo download, logo fingerprint and the photo-matches-dish check. Run 2026-10-25/26: 111,614 photos downloaded, 303 hidden as logos or icons, and the photo check (`scripts/recipe_photos/check_photos.py`) hides 445 more that do not show the dish | `processed/foodcom_photo_links.parquet`, `processed/foodcom_photos.parquet` |
+| 10 | [Recipe photos](10_recipe_photos.ipynb) | Food.com's own photo links from a CC0 Kaggle dataset (irkaal), joined by recipe number; optional photo download, logo fingerprint and the photo-matches-dish check. Run 2026-10-25/26: 111,614 photos downloaded, 303 hidden as logos or icons, and the photo check (`scripts/recipe_photos/check_photos.py`) hides 445 more that do not show the dish | `processed/foodcom_photo_links.parquet`, `processed/foodcom_photos.parquet` |
 
 ## Run times
 
@@ -39,7 +39,7 @@ at the top. Colab's free runtime takes about as long, or a little longer. First-
 | 07 | under 1 min | nothing (uses 01's USDA files) | Section 6, calorie calculator check |
 | 08 | about 2 min | 10-12 min (10 years of weather for 11 regions) | Section 3b |
 | 09 | about 30 min (two small models) | pulling the models (`ollama pull`, a few GB) | Section 4, the questions (10-50 s each) |
-| 11 | a few minutes for the links; a few hours for all the photos (off by default) | the recipes file from Kaggle (part of 1.55 GB) | Section 4, the photo download |
+| 10 | a few minutes for the links; a few hours for all the photos (off by default) | the recipes file from Kaggle (part of 1.55 GB) | Section 4, the photo download |
 
 All nine on a fresh computer: plan for an afternoon (most of it notebook 05's photos); re-running all of
 them takes about an hour.

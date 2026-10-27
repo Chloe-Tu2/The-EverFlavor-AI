@@ -12,7 +12,7 @@ What changes, in short:
 | The App: EverFlavor Kitchen | Rewritten for the living kitchens, chefs, search, dish page, Map tab and photos |
 | Versions and plans | 0.7.1 instead of 0.5.1 |
 | Data Sources | A new "Photos and places" table; the data rule |
-| Project Structure | Notebook 11, `scripts/`, the new shared modules, app files and tests |
+| Project Structure | Notebook 10, `scripts/`, the new shared modules, app files and tests |
 | Watch (new, at the end) | The team's cooking demo video |
 | Top links | Add [The App](#the-app-everflavor-kitchen-front-end) and [Watch](#watch) |
 
@@ -72,7 +72,7 @@ A new table after "Nutrition and product lookups":
 | Source | What we use it for | License | How it is collected |
 |---|---|---|---|
 | Recipe photos from the recipe datasets (Hugging Face, TheMealDB) | Each recipe's own photo, with a link to its page | Each recipe site's terms; research use | Downloaded once, checked, not committed |
-| [Food.com - Recipes and Reviews (Kaggle, irkaal)](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews) | Photo links for our Food.com recipes (111,803 of 218,024), joined on the recipe number | CC0 | `kagglehub`, notebook 11 |
+| [Food.com - Recipes and Reviews (Kaggle, irkaal)](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews) | Photo links for our Food.com recipes (111,803 of 218,024), joined on the recipe number | CC0 | `kagglehub`, notebook 10 |
 | [Wikimedia Commons](https://commons.wikimedia.org) via [Wikidata](https://www.wikidata.org) | A general photo of a dish when a recipe has none (1,737 dishes), and recordings of dish names | Free licenses only, credited on the card | `scripts/dish_photos/fetch_dish_photos.py` |
 | [OpenStreetMap](https://www.openstreetmap.org) with [OpenFreeMap](https://openfreemap.org) tiles | The Map tab: Houston grocers, restaurants, butchers | ODbL; tiles free, no key | Overpass download, notebook 03 |
 
@@ -87,7 +87,7 @@ Lines to add to the tree:
 
 ```text
 ├── notebooks/
-│   └── 11_recipe_photos.ipynb                     # Food.com's own photos (CC0): links, download, logo marks
+│   └── 10_recipe_photos.ipynb                     # Food.com's own photos (CC0): links, download, logo marks
 ├── scripts/
 │   ├── recipe_extras.py          # Cook times and photo links as side tables for the app
 │   ├── recipe_photos/            # Download recipe photos, mark logos, check each photo shows its dish (CLIP)

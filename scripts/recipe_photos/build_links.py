@@ -51,7 +51,7 @@ meals = {}
 for c in string.ascii_lowercase + string.digits:
     req = urllib.request.Request(f"https://www.themealdb.com/api/json/v1/1/search.php?f={c}",
                                  headers={"User-Agent": "EverFlavorAI-capstone-photo-index/0.1 (student research)"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
+    with urllib.request.urlopen(req, timeout=30) as resp:  # noqa: S310 - a fixed https address
         data = json.loads(resp.read().decode("utf-8"))
     for m in data.get("meals") or []:
         meals[m["idMeal"]] = m.get("strMealThumb")
