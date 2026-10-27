@@ -554,7 +554,7 @@ def dish_page(row: pd.Series, dish: str) -> None:
         details += ["on the heat"] if step["on_heat"] else []
         goes_in = ", ".join(str(item) for item in list(step["ingredients"]))  # type: ignore[call-overload]
         st.markdown(f"**{i}.** {html.escape(str(step['text']))}"
-                    + (f"  \n<small>{' · '.join(details)}{' · in: ' + html.escape(goes_in) if goes_in else ''}</small>"
+                    + (f"  \n<small>{html.escape(' · '.join(details))}{' · in: ' + html.escape(goes_in) if goes_in else ''}</small>"
                        if details or goes_in else ""), unsafe_allow_html=True)
     st.caption("Times are the ones written in the steps; a step without one is not counted.")
 

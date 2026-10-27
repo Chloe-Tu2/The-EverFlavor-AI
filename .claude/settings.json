@@ -1,4 +1,22 @@
 {
+  "permissions": {
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Edit(**/.env)",
+      "Edit(**/.env.*)",
+      "Read(data/user/**)",
+      "Read(logs/**)",
+      "Read(~/.kaggle/**)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git push --force-with-lease*)",
+      "Bash(git commit --no-verify*)",
+      "PowerShell(git push --force*)",
+      "PowerShell(git push -f*)",
+      "PowerShell(git commit --no-verify*)"
+    ]
+  },
   "hooks": {
     "PreToolUse": [
       {
@@ -9,6 +27,19 @@
             "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard_secrets.py\"",
             "timeout": 15,
             "statusMessage": "Checking for API keys and user data"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/ruff_after_edit.py\"",
+            "timeout": 30,
+            "statusMessage": "Ruff: fixing what it can"
           }
         ]
       }

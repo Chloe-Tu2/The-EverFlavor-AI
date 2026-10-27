@@ -2,6 +2,8 @@
 # The oldest Python the project supports (notebook 01: MIN_PYTHON = (3, 10)), so ruff never
 # suggests code that Python 3.10 cannot run (for example datetime.UTC, new in 3.11).
 target-version = "py310"
+# Our own package lives in src/everflavor: say so, so the CLI and the editor's bundled Ruff sort imports the same way.
+src = [".", "src"]
 
 [lint]
 # Ruff's default rules plus "S", bandit's security checks (subprocess, eval, pickle, unsafe URLs, weak hashes ...).
