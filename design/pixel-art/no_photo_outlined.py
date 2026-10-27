@@ -11,7 +11,7 @@ import sys
 from PIL import Image, ImageDraw
 
 out = sys.argv[1]
-N = 64                      # shown at 128 px on the card: exactly 2x
+N = int(sys.argv[2]) if len(sys.argv) > 2 else 64  # 64: shown at 128 px on the card, exactly 2x
 X0, Y0, SIDE = 438, 122, 492  # the square of the photo that holds the picture
 
 
@@ -90,12 +90,12 @@ yel = layer()
 d = ImageDraw.Draw(yel)
 bar(d, (450, 260), (598, 302), 36, YEL)
 bar(d, (598, 302), (748, 352), 30, WOOD)
-d.polygon([P(742, 340), P(780, 330), P(892, 368), P(884, 452), P(842, 450), P(752, 402)], fill=WOOD)
+d.polygon([P(742, 340), P(780, 330), P(870, 358), P(886, 366), P(893, 382), P(888, 440), P(878, 452), P(842, 450), P(752, 402)], fill=WOOD)
 d.line([P(780, 336), P(886, 372)], fill=WOOD_L)            # light on its top edge
 d.point([P(472, 268)], fill=INK)                           # the hanging hole
 
 art = ink([pan, blue, yel])
-art.save(f"{out}/no_photo_pixel_outlined.png")
+art.save(f"{out}/no_photo_pixel_outlined{'' if N == 64 else f'_{N}'}.png")
 
 sheet = Image.new("RGBA", (460, 250), (0xE8, 0xD5, 0xB5, 255))
 dd = ImageDraw.Draw(sheet)
