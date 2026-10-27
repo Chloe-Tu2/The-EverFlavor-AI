@@ -8,7 +8,7 @@ It is a starting point for the front-end team. (The proposal names Gradio; the b
 From the project folder, after notebook 01 has built the recipe data:
 
 ```bash
-pip install -r config/requirements-app.txt
+uv pip install -r config/requirements-app.txt   # or pip install ...
 streamlit run app/app.py
 ```
 

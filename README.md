@@ -358,11 +358,14 @@ The notebook's reusable code (download helpers, cleaning, restriction flags, die
 <details>
 <summary><b>VS Code or Antigravity</b></summary>
 
-1. Install the **Python** and **Jupyter** extensions.
-2. In a terminal in the project folder, run `pip install -r config/requirements.txt`.
+1. Install the **Python** and **Jupyter** extensions, and [uv](https://docs.astral.sh/uv/getting-started/installation/)
+   (a fast installer for Python packages; `winget install astral-sh.uv` on Windows).
+2. In a terminal in the project folder, make an environment once and install everything at the tested versions:
+   `uv venv --python 3.12`, then `uv pip sync config/requirements.lock` (about a minute). Without uv,
+   `pip install -r config/requirements.txt` still works.
 3. Copy `config/.env.example` to `config/.env` and fill in `USDA_API_KEY`. Git ignores `.env`, so your keys are never pushed.
 4. Open the notebook, pick the Python interpreter you installed into as the kernel, and run all cells.
-5. Optional: for the starter app run `pip install -r config/requirements-app.txt`; for local AI models install [Ollama](#local-ai-models-ollama).
+5. The lock file already includes the starter app, the checking tools and the photo tools (with pip: `pip install -r config/requirements-app.txt`). For local AI models install [Ollama](#local-ai-models-ollama).
 
 </details>
 
@@ -439,7 +442,7 @@ keyword_flag("graham cracker | smoked ham", "contains_pork")          # True
 
 **Security checks** (`tests/test_security.py`): run them before every push. They confirm that `config/.env` is ignored by git, that no API key appears in any committed file (notebook outputs included), that saved outputs show no local paths with your username, and that user input cannot change an API request's URL. A failure names the file and the key's name, never the key. They need no extra install: `python tests/test_security.py`.
 
-**All checks**, for editing the code locally in **VS Code or Antigravity** (optional; the notebook does not need these tools, and Colab can skip them). Install once in a terminal in the project folder with `pip install -r config/requirements-dev.txt`, then run:
+**All checks**, for editing the code locally in **VS Code or Antigravity** (optional; the notebook does not need these tools, and Colab can skip them). Install once in a terminal in the project folder with `uv pip sync config/requirements.lock` (or `pip install -r config/requirements-dev.txt`), then run:
 
 ```bash
 # in the VS Code / Antigravity terminal, from the project folder
@@ -464,7 +467,7 @@ Settings). Design, art and plans: [design/](design/README.md). It runs after not
 (or on the small demo data in `data/demo/`):
 
 ```bash
-pip install -r config/requirements-app.txt
+uv pip install -r config/requirements-app.txt   # or pip install -r ...
 streamlit run app/app.py
 ```
 
@@ -509,7 +512,7 @@ The model only proposes. For a recipe the code holds, the safety gate decides on
 
 **Live tests** (October 2026, laptop CPU, `granite4.1:3b` and `llama3.2`): both models pick the right tool for 12 of 12 questions; the planner wrote a Thai green curry and a Mexican chicken dish that passed the gate on the first try (30-70 s each). Bugs the tests found and fixed: a model copying only 2 of 5 lines into the safety check, a "yes" to pancetta for a halal user, "pork strips" added to bacon swaps, "Thai-style" giving an Indian curry, "0 kcal" for lines without amounts, a 1,424 kcal serving for a 600 kcal budget, and the planner crashing while Ollama updated itself (it now falls back to a safe dish). Full results: [docs/ollama_plan.md](docs/ollama_plan.md).
 
-To try the planner (VS Code / Antigravity, Ollama running, `pip install -r config/requirements-app.txt`):
+To try the planner (VS Code / Antigravity, Ollama running, `uv pip install -r config/requirements-app.txt`):
 
 ```python
 from everflavor.agent_tools import load_agent_data
