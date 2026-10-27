@@ -1,5 +1,6 @@
 # Security checks that run beside the main checks (they do not block them):
-# - osv-scanner: every library in config/requirements.lock against the OSV database of known vulnerabilities.
+# - osv-scanner: every library in config/requirements.lock against the OSV database of known vulnerabilities;
+#   accepted ones, each with a reason and an end date, are in config/osv-scanner.toml.
 # - dependency review (pull requests only): flags a pull request that adds a library with a known vulnerability.
 # Actions are pinned to a full commit (a tag can be moved); Dependabot proposes updates.
 name: security
@@ -24,6 +25,7 @@ jobs:
         uses: google/osv-scanner-action/osv-scanner-action@a345acffa64b0eaede81a3d9aae6141214d9c8fc   # v2.6.0
         with:
           scan-args: |-
+            --config=./config/osv-scanner.toml
             --lockfile=requirements.txt:./config/requirements.lock
 
   dependency-review:

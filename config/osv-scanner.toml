@@ -1,0 +1,47 @@
+# Known vulnerabilities the security workflow (osv-scanner) accepts for now, each with the reason and an end date:
+# after ignoreUntil the scan fails again, so the decision is made again. Reviewed by Claude, 2026-10-27.
+#
+# chromadb 1.5.9 comes only through crewai (the meal planner). All four advisories are about Chroma running as a
+# server (its HTTP API, tenants, authorisation providers). We never start a Chroma server, and crew.py builds the
+# Crew without memory, so this code does not run in EverFlavor. No fixed version exists yet; Dependabot proposes one
+# when it does.
+
+[[IgnoredVulns]]
+id = "PYSEC-2026-311"
+ignoreUntil = 2026-12-31
+reason = "Chroma server endpoint (pre-auth code injection); no Chroma server is run; transitive via crewai; no fix yet"
+
+[[IgnoredVulns]]
+id = "GHSA-f4j7-r4q5-qw2c"
+ignoreUntil = 2026-12-31
+reason = "Same advisory as PYSEC-2026-311"
+
+[[IgnoredVulns]]
+id = "PYSEC-2026-3813"
+ignoreUntil = 2026-12-31
+reason = "Chroma server tenant isolation; no Chroma server is run; transitive via crewai; no fix yet"
+
+[[IgnoredVulns]]
+id = "GHSA-2wm9-hf6c-p5cr"
+ignoreUntil = 2026-12-31
+reason = "Same advisory as PYSEC-2026-3813"
+
+[[IgnoredVulns]]
+id = "PYSEC-2026-3814"
+ignoreUntil = 2026-12-31
+reason = "Chroma server code injection; no Chroma server is run; transitive via crewai; no fix yet"
+
+[[IgnoredVulns]]
+id = "GHSA-36p7-vc44-83pf"
+ignoreUntil = 2026-12-31
+reason = "Same advisory as PYSEC-2026-3814"
+
+[[IgnoredVulns]]
+id = "PYSEC-2026-3815"
+ignoreUntil = 2026-12-31
+reason = "Chroma server RBAC provider; no Chroma server is run; transitive via crewai; no fix yet"
+
+[[IgnoredVulns]]
+id = "GHSA-xph7-9rjv-w5fr"
+ignoreUntil = 2026-12-31
+reason = "Same advisory as PYSEC-2026-3815"
