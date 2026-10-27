@@ -112,6 +112,13 @@ trucks, a place name taken for a dish; "chicken crepes": no crepe) and one is lo
 dish photo); 113,538 show the "Cooking up a picture..." skillet. `dish_photos.parquet`: 46,203 recipes, 2,394
 photos. Further Commons rounds would add fewer than one recipe per name.
 
+**Rounds 3-6 (night of 2026-10-26, run unattended on med27-coder's laptop by a watcher that stops a round when the connection drops,
+scores downloaded photos offline and resumes):** 978, 405 and 143 recipes (489, 255 and 143 of 2,000 names), then
+the loop stopped (a round under 200 recipes). 16 new photos checked by eye: all right (pastrami, kachori, aval
+payasam ...). **Totals: 180,186 of 291,755 recipes (61.8%) show a photo; 111,569 show the skillet;
+`dish_photos.parquet` 48,172 recipes, 3,327 photos.** More Commons rounds would add well under 200 recipes each;
+the next source is Openverse (below).
+
 ### Other sources and a second check (researched 2026-10-26, not built)
 
 - **Openverse API** (Flickr, Wikimedia and more, licence filter CC0/PDM/BY/BY-SA, no key needed, a free key gives
