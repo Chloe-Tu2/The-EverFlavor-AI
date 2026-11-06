@@ -697,19 +697,43 @@ def saved_text(saved: dict) -> str:
 CHEF_ICON = ART / "chef_happy.png"
 st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
                    layout="wide")
-theme_name = st.session_state.get("theme", "Classic")
-if st.session_state.get("follow_cuisine", True):
+HOURS = ["Morning", "Afternoon", "Evening", "Night"]
+# The kitchen settings survive a refresh: they live in the page address (?theme=Mexican&hour=Night), never on a
+# server. They are kept in st.session_state["prefs"], not in the widgets' own state: Streamlit can drop or reset a
+# widget's state between reruns (the time of day once jumped back to Morning), the prefs never change by themselves.
+SETTING_CHOICES = {"theme": list(THEMES), "hour": HOURS, "cook": ["Man", "Woman"]}
+SETTING_DEFAULTS = {"theme": "Classic", "hour": "Afternoon", "cook": "Man", "use_clock": False, "follow_cuisine": True}
+if "prefs" not in st.session_state:
+    prefs = dict(SETTING_DEFAULTS)
+    for name, value in st.query_params.items():
+        if name in SETTING_CHOICES and value in SETTING_CHOICES[name]:
+            prefs[name] = value
+        elif name in ("use_clock", "follow_cuisine") and value in ("0", "1"):
+            prefs[name] = value == "1"
+    st.session_state["prefs"] = prefs
+PREFS = st.session_state["prefs"]
+
+
+def keep_pref(name: str) -> None:
+    """A Settings widget changed: keep its value in the prefs (picking a kitchen also stops following the cuisine,
+    which otherwise silently kept the cuisine's kitchen on screen: the "it fights me" bug, 2026-10-29)."""
+    PREFS[name] = st.session_state[f"set_{name}"]
+    if name == "theme":
+        PREFS["follow_cuisine"] = False
+
+
+theme_name = PREFS["theme"]
+if PREFS["follow_cuisine"]:
     searched_country = read_search(st.session_state.get("search"))[0]
     if searched_country:
         theme_name = COUNTRY_KITCHENS.get(searched_country, "Classic")
     elif st.session_state.get("cuisine") in CUISINE_KITCHENS:
         theme_name = CUISINE_KITCHENS[st.session_state["cuisine"]]
 CHEF = THEMES[theme_name].get("chef", DEFAULT_CHEF)   # which chef stands in this kitchen (chef_says)
-if st.session_state.get("cook") == "Woman" and CHEF.startswith("ref_"):   # the regions with a woman cook
+if PREFS["cook"] == "Woman" and CHEF.startswith("ref_"):   # the regions with a woman cook
     CHEF += "woman_"
 # The kitchen's time of day: the visitor's clock only once they allow it (Settings), otherwise the hour they pick
-HOURS = ["Morning", "Afternoon", "Evening", "Night"]
-hour = "auto" if st.session_state.get("use_clock") else st.session_state.get("hour", "Afternoon").lower()
+hour = "auto" if PREFS["use_clock"] else PREFS["hour"].lower()
 page_colors = dict(THEMES[theme_name], chef=CHEF)
 if theme_name == "Classic" and hour == "night":       # (with the clock, the page keeps its day colors)
     page_colors.update(NIGHT_COLORS)
@@ -795,18 +819,30 @@ with news_spot.container(key="whats-new"), st.popover("What's new"):
     st.caption(f"EverFlavor {__version__} (beta). Every change: "
                "[the changelog](https://github.com/Chloe-Tu2/The-EverFlavor-AI/blob/main/CHANGELOG.md).")
 with settings_spot.container(key="settings"), st.popover("Settings"):
-    st.selectbox("Kitchen theme", list(THEMES), key="theme",
-                 help="Classic is the team's original kitchen. The time of day below sets its light.")
-    st.radio("Your chef", ["Man", "Woman"], key="cook", horizontal=True,
+    # Each widget shows the kept pref (index/value from PREFS) and writes it back on change (keep_pref)
+    st.selectbox("Kitchen theme", list(THEMES), index=list(THEMES).index(PREFS["theme"]), key="set_theme",
+                 on_change=keep_pref, args=("theme",),
+                 help="Classic is the team's original kitchen. The time of day below sets its light. Picking a "
+                      "kitchen here turns off \"Match the kitchen to the cuisine\".")
+    if theme_name != PREFS["theme"]:
+        st.caption(f"Showing the {theme_name} kitchen to match your search. Pick a kitchen above to keep yours.")
+    st.radio("Your chef", SETTING_CHOICES["cook"], index=SETTING_CHOICES["cook"].index(PREFS["cook"]), key="set_cook",
+             horizontal=True, on_change=keep_pref, args=("cook",),
              help="The cook who reads out your results, dressed for the kitchen's region.")
-    st.toggle("Use my clock for the kitchen's light", value=False, key="use_clock",
+    st.toggle("Use my clock for the kitchen's light", value=PREFS["use_clock"], key="set_use_clock",
+              on_change=keep_pref, args=("use_clock",),
               help="With your permission, the kitchen follows your device's time: morning, afternoon, evening or "
                    "night light. Your time stays in your browser; nothing is sent or saved.")
-    st.radio("Time of day", HOURS, index=1, key="hour", horizontal=True, disabled=st.session_state.get("use_clock", False),
+    st.radio("Time of day", HOURS, index=HOURS.index(PREFS["hour"]), key="set_hour", horizontal=True,
+             disabled=PREFS["use_clock"], on_change=keep_pref, args=("hour",),
              help="Pick the kitchen's light yourself (used while the clock is off).")
-    st.toggle("Match the kitchen to the cuisine", value=True, key="follow_cuisine",
+    st.toggle("Match the kitchen to the cuisine", value=PREFS["follow_cuisine"], key="set_follow_cuisine",
+              on_change=keep_pref, args=("follow_cuisine",),
               help="Searching a cuisine family opens its kitchen: Asian (Chinese), African (Moroccan), "
                    "European (Mediterranean), Latin American (Mexican), Middle Eastern.")
+# Keep the kitchen settings in the page address, so a refresh brings them back (nothing is stored anywhere)
+for name, value in PREFS.items():
+    st.query_params[name] = ("1" if value else "0") if isinstance(value, bool) else value
 st.markdown('<div class="kitchen-view"></div>', unsafe_allow_html=True)   # leave the kitchen in view
 # The chef's line, filled in below once we know what happened: in the page on phones (the sidebar is hidden there),
 # and at the bottom of the sidebar on wider screens (added after the profile, below)

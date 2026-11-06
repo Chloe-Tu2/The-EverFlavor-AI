@@ -145,11 +145,15 @@ as `&amp;`), and **111,803 of them (51.3%) have a photo of their own**: links sa
 `data/processed/foodcom_photo_links.parquet`. Next: download them (notebook 10, `DOWNLOAD_PHOTOS`), the logo
 fingerprint and the photo-matches-dish check, then the app shows them.
 
-### Download paused (2026-10-26)
+### Download paused (2026-10-26), then finished the same day
+
+**Done (2026-10-26, 15:40):** the resumed download fetched the last 37,407 links (70 failed, 3.4 GB, 219 min) and
+wrote `manifest.csv` (111,803 rows; 111,614 photos, 111,311 readable). Steps 2 and 3 below ran that evening (445
+photos hidden by the check, see above). The steps are kept as the record of how it was done.
 
 The download was stopped on request at **74,277 of 111,803 photos** (`data/raw/foodcom_photos/foodcom/`, each
-try logged in `results.jsonl`). The script writes `manifest.csv` only at the end, so the app shows none of them
-yet. To finish, in order:
+try logged in `results.jsonl`). The script writes `manifest.csv` only at the end, so the app showed none of them
+until then. To finish, in order:
 
 | # | Step | Command or place | Time (estimate) |
 |---|---|---|---|

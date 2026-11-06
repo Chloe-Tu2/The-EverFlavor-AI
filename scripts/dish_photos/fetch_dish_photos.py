@@ -519,9 +519,14 @@ def stage_write() -> None:
 GENERAL_CLIP = 0.02   # verify: the photos matched to Wikidata dishes
 SEARCH_CLIP = 0.06    # search: any Commons file
 GENERAL_RANK = 0.9
+# The last five added after rounds 7-8 (Claude, 2026-10-27): of 30 photos turned down by eye they catch 11 (a hare, a
+# spider, a galaxy, a flower, banana plants), of 302 kept 3 (1%). Food-like prompts (a glass of beer, raw meat, grain)
+# were tried and dropped: they also caught 1 good photo in 10 (smoothies, roasts, risotto).
 NONFOOD = ["a photo of a product package with a brand label.", "a photo of bottles or jars on a shelf.",
            "a photo of a landscape.", "a photo of a person.", "a drawing or an illustration.",
-           "a photo of a building or a shop."]
+           "a photo of a building or a shop.", "a photo of an animal.", "a photo of an insect or a spider.",
+           "a photo of a flower or a plant.", "a photo of the night sky or outer space.",
+           "a screenshot of a video game or a computer screen."]
 # File names that point to a package, a shop or something else than a plate of food
 SEARCH_BAD = re.compile(r"\b(box|boxes|bottles?|cans?|cartons?|wrappers?|brand|products?|advert\w*|supermarket|"
                         r"grocery|store|shop|panorama|landscape|portrait|ostracon|almanack|dpla|museum|"

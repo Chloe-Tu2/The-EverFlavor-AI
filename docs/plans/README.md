@@ -117,6 +117,18 @@ at desktop and phone width.
 Also: diet names say "-friendly" everywhere they are picked (`nice_diet`), and outside text in Markdown is escaped
 without HTML codes, so "Mac & Cheese" shows as written (`plain()`).
 
+### After the photo downloads (planned by med27-coder, 2026-10-27; nothing started)
+
+Start once the photo rounds, the Openverse run and their review are committed. Plan only, no code yet.
+
+| # | What | Why | Where |
+|---|---|---|---|
+| 1 | **Lag:** find where the app is slow (first load, search, switching tabs, the kitchen scene). Measured 2026-10-29 in Edge: every kitchen change re-sends the whole scene with its pictures inside the page (1.1-1.9 MB per click, 2-3 s); a plain click sends nothing. Fix idea: serve the scene files as static files the browser caches, so a change sends only the scene's name; then measure again, also on a phone | The page feels slow, phones most | `app/app.py` (`scene_page`, `kitchen_scene`), `app/kitchen_scene.html` |
+| 2 | **Terminal messages:** read what Streamlit prints while the app runs (warnings, deprecations, errors) and fix or explain each one. Found 2026-10-27: on every rerun Streamlit warns that `st.components.v1.html` (the kitchen scene, `kitchen_scene()`) is deprecated and to use `st.iframe` instead. Switch it, then test that the scene still reaches the page (the phone profile button, the hour, the lights) | A clean log; a later Streamlit may remove the old call, and the kitchen would vanish | the terminal output, `app/app.py` `kitchen_scene()` |
+| 3 | **UI clean-up:** go through every screen, fix what is unclear or broken, and make labels and steps plain | Clearer for first-time users | `app/app.py`, `style()` |
+| 4 | **Check my recipe:** improve the tab (clearer input, clearer verdict, what each problem means and what to swap, the same profile as Find recipes) | It is the second main use of the app | Check tab, `src/everflavor/safety.py` (results only shown, the back end still decides) |
+| 5 | **Profile button more visible:** the button that opens the sidebar to edit allergies and diets gets colours that contrast with the background in every theme and time of day (light and dark kitchens), with a contrast test like the other theme colours | People must find where to enter their allergies: the app's core step | the open-profile button CSS, `app/themes.py`, `tests/test_app_contrast.py` |
+
 ### Before the merge into `main` (planned 2026-10-26; nothing started)
 
 The branch is 68 commits and about 600 files ahead of `main`, so it goes in four gates, in order. Each gate ends
