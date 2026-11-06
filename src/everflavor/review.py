@@ -138,8 +138,8 @@ def score_flags(labeled_path: str | Path, df_all: pd.DataFrame,
             disagreements.append({"recipe_id": labeled.at[idx, "recipe_id"], "recipe_name": labeled.at[idx, "recipe_name"],
                                   "ingredients": labeled.at[idx, "ingredients"], "flag": flag,
                                   "answer": int(true[idx]), "pipeline_flag": int(ours[idx]),
-                                  "why_flagged": _why_flagged(f"{labeled.at[idx, 'ingredients']} | "
-                                                              f"{labeled.at[idx, 'recipe_name']}", flag),
+                                  "why_flagged": _why_flagged(f"{labeled.at[idx, 'ingredients']!s} | "
+                                                              f"{labeled.at[idx, 'recipe_name']!s}", flag),
                                   "team_check": ""})   # reviewer: who is right? write "answer" or "pipeline"
         # For vegetarian / vegan the risky case is "not vegetarian", so score that side
         if flag in ("vegetarian", "vegan"):

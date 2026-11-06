@@ -26,10 +26,14 @@ jobs:
       - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884   # v10.3.0; Dependabot proposes updates
         with:
           enable-cache: true
-          cache-dependency-glob: config/requirements*.txt
+          cache-dependency-glob: |
+            config/requirements*.txt
+            config/requirements.lock
 
+      # Pinned to the lock (-c): the same versions as everyone's environment, so a new release of a checking tool
+      # cannot turn CI red overnight (pandas-stubs 3.1.0 did, 2026-11-05). Dependabot proposes upgrades to the lock.
       - name: Install the libraries and checking tools
-        run: uv pip install --system -r config/requirements-dev.txt
+        run: uv pip install --system -r config/requirements-dev.txt -c config/requirements.lock
 
       - name: Tests and security checks
         run: python -m pytest tests
