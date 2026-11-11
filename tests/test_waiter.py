@@ -87,3 +87,53 @@ def test_find_takes_the_dish_at_the_head_of_the_title_not_a_broad_word() -> None
     assert know.find("prosciutto chicken kabobs") is None   # a one-word dish counts only at the end
     assert know.find("french veal rolls") is None           # a food, not a dish, inside a longer title
     assert know.find("veal") is veal                        # an exact name still matches
+
+
+# ------------------------------------------------------------------ rewording by a local model
+
+STORY = waiter.Reply("Legend has it the taco was named after silver miners' charges in Mexico.", "wink",
+                     ["Wikipedia: Taco"], skill="inspiration")
+
+
+def fake_chat(answer: str, calls: list | None = None):
+    def send(messages, model, **_options):
+        if calls is not None:
+            calls.append(messages)
+        if answer == "ERROR":
+            raise RuntimeError("Ollama did not answer")
+        return {"content": answer}
+    return send
+
+
+def test_reword_keeps_the_facts_and_sources() -> None:
+    calls: list = []
+    good = "Here is a fun one: legend has it the taco was named after the charges silver miners used in Mexico!"
+    out = waiter.reword(STORY, "llama3.2", chat=fake_chat(good, calls), preset_name="Fun Food Explorer")
+    assert out.reworded and out.text == good and out.sources == STORY.sources and out.mood == "wink"
+    assert "playful" in calls[0][0]["content"] and calls[0][1]["content"] == STORY.text   # notes sent as data
+
+
+def test_reword_falls_back_when_the_model_adds_or_fails() -> None:
+    for bad in ("Legend says Emperor Maximilian named the taco in Mexico.",    # a new name
+                "Legend has it the taco was named in 1820 by silver miners.",  # a new number
+                "Read more at https://example.com about the taco.",            # a link
+                "[Click](http://x) for tacos", "", "ERROR", "taco " * 200):     # markup, empty, error, too long
+        assert waiter.reword(STORY, "m", chat=fake_chat(bad)) is STORY
+
+
+def test_reword_never_touches_safety_or_ingredient_answers() -> None:
+    calls: list = []
+    for skill in ("allergy", "ingredients", "learn_more", "refused", "recommendation"):
+        reply = waiter.Reply("The checks found peanut in this recipe.", skill=skill)
+        assert waiter.reword(reply, "m", chat=fake_chat("All safe, enjoy!", calls)) is reply
+    assert calls == []
+
+
+def test_reword_is_screened_by_the_safety_gate() -> None:
+    from everflavor.safety import UserProfile
+    story = waiter.Reply("Satay is grilled meat served with a sauce in Indonesia.", skill="origin")
+    peanut = "Satay is grilled meat served with a peanut sauce in Indonesia."
+    no_peanut = UserProfile(avoid=("contains_peanut",))
+    assert waiter.reword(story, "m", profile=no_peanut, chat=fake_chat(peanut)) is story
+    assert waiter.reword(story, "m", profile=UserProfile(), chat=fake_chat(peanut)) is story   # a new food
+    assert waiter.reword_problem(story.text, peanut) == "new food: contains_peanut"

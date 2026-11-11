@@ -562,11 +562,15 @@ def walter_panel(row: pd.Series, dish: str, country: object) -> None:
     skill = next((s.name for s in waiter.SKILLS if s.label == chip), None) if chip and not typed else None
     with st.spinner(waiter.waiting_line(turn)):
         reply = waiter.ask(typed, ctx, style_name, limiter, log, skill=skill)
+        if PREFS["retell"] and ai["kind"] == "ollama":   # opt-in; story answers only, checked, else the sources' words
+            reply = waiter.reword(reply, ai["model"], profile, style_name, dish_name=dish)
     turns[dish] = turn + 1
     face, words = st.columns([1, 9], vertical_alignment="center")
     face.image(str(ART / f"walter_{reply.mood}.png"), width=96)
-    words.markdown(html.escape(reply.text) + (f"<br>{credit(reply.sources)}" if reply.sources else ""),
-                   unsafe_allow_html=True)
+    words.markdown(md_text(reply.text))   # plain text: a model's words never become links or markup
+    if reply.sources:
+        note = " Retold by the local AI from this source." if reply.reworded else ""
+        words.markdown(credit(reply.sources) + f"<small>{note}</small>", unsafe_allow_html=True)
     if reply.links:
         words.markdown(" · ".join(f"[{link['title']}]({link['url']})" for link in reply.links))
 
@@ -806,7 +810,7 @@ HOURS = ["Morning", "Afternoon", "Evening", "Night"]
 # widget's state between reruns (the time of day once jumped back to Morning), the prefs never change by themselves.
 SETTING_CHOICES = {"theme": list(THEMES), "hour": HOURS, "cook": ["Man", "Woman"], "walter": list(waiter.PRESETS)}
 SETTING_DEFAULTS = {"theme": "Classic", "hour": "Afternoon", "cook": "Man", "use_clock": False, "follow_cuisine": True,
-                    "walter": "Balanced"}
+                    "walter": "Balanced", "retell": False}
 if "prefs" not in st.session_state:
     prefs = dict(SETTING_DEFAULTS)
     for name, value in st.query_params.items():
@@ -989,6 +993,11 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
     if st.button("Clear saved recipes", width="stretch", disabled=not saved):
         saved = st.session_state["saved"] = {}
         st.rerun()
+    st.toggle("Let the local AI retell Walter's stories (experimental)", value=PREFS["retell"], key="set_retell",
+              on_change=keep_pref, args=("retell",),
+              help="Needs Ollama on this computer. Walter's story answers are retold in his voice; a retelling that "
+                   "adds a name, number, food or link is thrown away and the source's words are shown. Safety and "
+                   "ingredient answers are never retold. Small models can still bend a fact, so it is off by default.")
     # Feedback goes to the project's GitHub issue forms (.github/ISSUE_TEMPLATE); only the version is filled in,
     # never the user's profile
     st.divider()
