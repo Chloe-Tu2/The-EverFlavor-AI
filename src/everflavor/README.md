@@ -27,6 +27,7 @@ add `src/` to the path for you.
 | | `knowledge.py` | Pairings, substitutions, shelf life, names (notebook 04) |
 | | `dish_knowledge.py` | The waiter's dish knowledge (0.6.3): tidies the collected facts (sources' words only), sorts them by topic, writes one page per country (notebook 11) |
 | | `waiter.py` | Walter, the AI waiter (0.6.3): finds a recipe's dish in the knowledge notebook, answers with skills (fun fact, inspiration, origin, history, ingredients, allergy explained from the back end's flags, learn more, recommendation) weighted by the user's style; screens questions (prompt injection, length), rate-limits them and counts problems without the words |
+| | `saved_recipes.py` | Saved recipes kept in the user's own browser (0.6.3 beta): the JSON kept in local storage and in the backup file, and checking what comes back (malformed entries left out, text and count capped) |
 | | `variants.py` | Diet versions of each dish (notebook 06) |
 | | `stores.py` | Stores and products, where to buy (notebook 03) |
 | | `seasons.py` | Meat supply season and pasture season (notebook 08) |

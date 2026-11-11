@@ -42,7 +42,7 @@ from chef_lines import (  # app/chef_lines.py: what the chef says, with its sour
 from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page colors
 from updates import UPDATES  # app/updates.py: the What's new notes
 
-from everflavor import __version__, waiter
+from everflavor import __version__, saved_recipes, waiter
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
@@ -684,7 +684,7 @@ def setup_profile() -> None:
         st.rerun()
     if skip.button("Skip for now", on_click=skip_setup, width="stretch", type="secondary"):
         st.rerun()
-    st.caption("Not medical advice: the checks read ingredient names. Nothing you enter is saved.")
+    st.caption("Not medical advice: the checks read ingredient names. Nothing you enter is sent to us.")
 
 
 # ---------- Finding: the filters, the order and how many ideas at a time ----------
@@ -741,7 +741,39 @@ def checked_words(rule: str) -> str:
     return f"{nice_diet(rule).lower()} ingredients" if rule.endswith("_friendly") else nice_diet(rule).lower()
 
 
-# ---------- Saved recipes: this visit only (nothing is stored), with a file to keep them ----------
+# ---------- Saved recipes: kept in this browser (beta), with a file to keep or move them ----------
+# A tiny custom component reads and writes one "everflavor" key in the browser's local storage. Nothing is sent to
+# us; what comes back is checked by everflavor.saved_recipes.decode (anyone can edit their own storage).
+STORE_KEY = "browser-store"
+_BROWSER_STORE = st.components.v2.component(
+    "everflavor_browser_store",
+    html="<span></span>",
+    js="""
+export default function (component) {
+  const { data, setStateValue } = component
+  let store = null
+  try { store = window.localStorage } catch (e) { store = null }
+  const action = data ? data.action : "read"
+  if (action === "read") {
+    let text = ""
+    try { text = (store && store.getItem("everflavor")) || "" } catch (e) { text = "" }
+    setStateValue("stored", text)
+  } else if (store && action === "write") {
+    try { store.setItem("everflavor", data.text) } catch (e) { /* full or blocked: nothing kept */ }
+  } else if (store && action === "clear") {
+    try { store.removeItem("everflavor") } catch (e) { /* blocked */ }
+  }
+}
+""",
+)
+
+
+def browser_store(action: str, text: str = "") -> None:
+    """Read the saved recipes from this browser ("read"), keep them ("write") or forget them ("clear")."""
+    _BROWSER_STORE(key=STORE_KEY, data={"action": action, "text": text}, default={"stored": None},
+                   on_stored_change=lambda: None, height=0)
+
+
 def toggle_saved(recipe_id: str, entry: dict) -> None:
     saved = st.session_state.setdefault("saved", {})
     if recipe_id in saved:
@@ -809,7 +841,7 @@ st.markdown(style(page_colors), unsafe_allow_html=True)
 kitchen_scene(THEMES[theme_name]["scene"], hour)
 heading, corner = st.columns([3, 2], vertical_alignment="center")
 heading.title("EverFlavor Kitchen :orange-badge[Beta]")
-TRUST = [("icon_check", "Free, no sign-up"), ("icon_safe", "Nothing you enter is saved"),
+TRUST = [("icon_check", "Free, no sign-up"), ("icon_safe", "Nothing you enter is sent to us"),
          ("icon_alert", "Not medical advice")]
 
 
@@ -854,7 +886,8 @@ def landing() -> None:
                 "the label and ask your doctor or dietitian.\n"
                 "- **Diet labels:** \"halal-friendly ingredients\" means nothing in the ingredients is forbidden. It is "
                 "not a certification.\n"
-                "- **Your data:** nothing you enter is saved. No accounts, no cookies, no tracking.\n"
+                "- **Your data:** nothing you enter is sent to us. Recipes you save stay in this browser (beta). "
+                "No accounts, no cookies, no tracking.\n"
                 "- **Beta:** EverFlavor is a student project in beta. Features change from version to version, "
                 "and some things may not work yet.")
         st.caption("Made by Team EverGlow, a student capstone project (ITAI 2277): "
@@ -869,9 +902,18 @@ heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked 
                  unsafe_allow_html=True)
 news_spot, saved_spot, settings_spot = corner.columns(3)
 saved = st.session_state.setdefault("saved", {})
+# The first runs read what this browser kept; afterwards the page's list is written back on every run
+if not st.session_state.get("store_loaded"):
+    stored = (st.session_state.get(STORE_KEY) or {}).get("stored")
+    if stored is not None:
+        saved = st.session_state["saved"] = saved_recipes.merge(saved, saved_recipes.decode(stored))
+        st.session_state["store_loaded"] = True
+remember = st.session_state.setdefault("remember_saved", True)
+BETA_SAVE = ("Beta: your saved recipes are kept only in this browser on this device. Clearing your browser data "
+             "erases them; download a backup to keep a copy.")
 with saved_spot.container(key="saved-list"), st.popover(f"Saved ({len(saved)})"):
     if not saved:
-        st.markdown("Nothing saved yet. Tap **Save** on a recipe to keep it here while this page is open.")
+        st.markdown("Nothing saved yet. Tap **Save** on a recipe to keep it here.")
     for recipe_id, entry in list(saved.items()):
         name_col, remove_col = st.columns([4, 1], vertical_alignment="center")
         name_col.markdown(f"**{html.escape(entry['name'])}**  \n<small>{html.escape(entry['lines'][0])}</small>",
@@ -879,8 +921,22 @@ with saved_spot.container(key="saved-list"), st.popover(f"Saved ({len(saved)})")
         remove_col.button("Remove", key=f"unsave-{recipe_id}", on_click=toggle_saved, args=(recipe_id, entry))
     if saved:
         st.download_button("Download my recipes", saved_text(saved), file_name="everflavor_recipes.txt",
-                           mime="text/plain", on_click="ignore", width="stretch")
-        st.caption("Saved for this visit only: nothing is stored. Download them to keep them.")
+                           mime="text/plain", on_click="ignore", width="stretch", help="A text file to read or print")
+        st.download_button("Download a backup", saved_recipes.encode(saved), file_name="everflavor_backup.json",
+                           mime="application/json", on_click="ignore", width="stretch",
+                           help="Load it below on another device or browser")
+    backup = st.file_uploader("Load recipes from a backup", type=["json"], key="load_backup")
+    done = st.session_state.setdefault("loaded_backups", set())   # each file once, so Remove still works after
+    if backup is not None and backup.file_id not in done and backup.size <= saved_recipes.MAX_BYTES:
+        done.add(backup.file_id)
+        loaded = saved_recipes.decode(backup.getvalue())
+        if loaded:
+            saved = st.session_state["saved"] = saved_recipes.merge(saved, loaded)
+            st.caption(f"Loaded {len(loaded)} recipe(s) from the backup.")
+        else:
+            st.caption("That file isn't an EverFlavor backup.")
+    st.caption(BETA_SAVE if remember else "Remembering is off (Settings): saved recipes last only while this page "
+               "is open. Download them to keep them.")
 with news_spot.container(key="whats-new"), st.popover("What's new"):
     st.markdown('<div class="updates">' + "".join(
         f'<h5>{update["version"]} · {update["date"]}</h5><ul>'
@@ -920,6 +976,12 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
                  help="How Walter talks about dishes: Fun Food Explorer leads with stories, Chef Expert with history "
                       "and the deep reading links, Ingredient Guide with what's in it, Personal Concierge with what "
                       "to try next.")
+    st.toggle("Remember my saved recipes on this device", key="remember_saved",
+              help="Saved recipes stay in this browser's storage, on your device only; nothing is sent to us. "
+                   "Turning this off forgets them here when the page closes.")
+    if st.button("Clear saved recipes", width="stretch", disabled=not saved):
+        saved = st.session_state["saved"] = {}
+        st.rerun()
     # Feedback goes to the project's GitHub issue forms (.github/ISSUE_TEMPLATE); only the version is filled in,
     # never the user's profile
     st.divider()
@@ -927,7 +989,15 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
     bug_col, idea_col = st.columns(2)
     bug_col.link_button("Report a bug", FEEDBACK["bug"], width="stretch")
     idea_col.link_button("Suggest a feature", FEEDBACK["idea"], width="stretch")
-# Keep the kitchen settings in the page address, so a refresh brings them back (nothing is stored anywhere)
+# Read the browser's saved recipes once, then keep the page's list there (or forget it when remembering is off)
+if not st.session_state.get("store_loaded"):
+    browser_store("read")
+elif st.session_state["remember_saved"]:
+    browser_store("write", saved_recipes.encode(saved))
+else:
+    browser_store("clear")
+st.html("<style>.st-key-" + STORE_KEY + "{display:none}</style>")
+# Keep the kitchen settings in the page address, so a refresh brings them back (no server keeps them)
 for name, value in PREFS.items():
     st.query_params[name] = ("1" if value else "0") if isinstance(value, bool) else value
 st.markdown('<div class="kitchen-view"></div>', unsafe_allow_html=True)   # leave the kitchen in view
@@ -1145,7 +1215,7 @@ with find_tab:
                     *([f"Recipe: {link}"] if isinstance(link, str) and link.startswith("http") else [])]}
                 save_col.button("Saved" if recipe_id in saved else "Save", key=f"save-{number}", width="stretch",
                                 on_click=toggle_saved, args=(recipe_id, entry),
-                                help="Keep it in Saved (top right) while this page is open")
+                                help="Keep it in Saved (top right); it stays in this browser")
         more = not results.empty and len(results) == found[1] and found[1] < MAX_IDEAS
         if more and st.button(f"Show {PAGE} more", key="more"):
             find(found[1] + PAGE)
@@ -1240,7 +1310,8 @@ st.markdown(f"""
     <li><b>Diet labels are not certifications.</b> "Halal", "kosher" and the other diets mean the ingredients
         contain nothing the diet forbids; they cannot show how food was produced or certified.</li>
     <li><b>Some numbers are estimates.</b> Calories and protein marked as estimated are approximate.</li>
-    <li><b>Nothing you enter is saved.</b> Your choices last only while this page is open.</li>
+    <li><b>Nothing you enter is sent to us.</b> Your choices last while this page is open; recipes you save stay
+        in this browser on this device (beta).</li>
   </ul>
   <div class="footer-title">Made by Team EverGlow</div>
   <div class="credits">{"".join(f'<a href="https://github.com/{name}" target="_blank" rel="noopener">@{name}</a>' for name in CONTRIBUTORS)}</div>
