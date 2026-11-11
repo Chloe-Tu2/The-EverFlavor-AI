@@ -137,3 +137,16 @@ def test_reword_is_screened_by_the_safety_gate() -> None:
     assert waiter.reword(story, "m", profile=no_peanut, chat=fake_chat(peanut)) is story
     assert waiter.reword(story, "m", profile=UserProfile(), chat=fake_chat(peanut)) is story   # a new food
     assert waiter.reword_problem(story.text, peanut) == "new food: contains_peanut"
+
+
+def test_injection_set() -> None:
+    """data/reference/walter_injection_set.csv: attacks (overrides, role play, prompt leaks, bending a safety answer,
+    markup, spaced or hidden letters) are blocked; real food questions, including near misses, get through."""
+    import csv
+    path = Path(__file__).resolve().parents[1] / "data" / "reference" / "walter_injection_set.csv"
+    with path.open(encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    assert len(rows) >= 70 and {r["expected"] for r in rows} == {"block", "allow"}
+    wrong = [(r["expected"], r["text"]) for r in rows
+             if ("block" if waiter.screen_question(r["text"])[1] else "allow") != r["expected"]]
+    assert wrong == []

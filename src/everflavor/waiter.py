@@ -299,10 +299,31 @@ def pick_skill(question: str) -> Skill:
 
 MAX_QUESTION = 300
 INJECTION = re.compile(
-    r"ignore (all |any |the )?(previous|prior|above|earlier) (instructions|rules|prompts?)|system prompt|"
-    r"you are now|act as|pretend (to be|you are)|jailbreak|developer mode|do anything now|\bDAN\b|"
-    r"reveal (your|the) (instructions|prompt|rules)|disregard (your|the|all)|<\s*script|BEGIN (SYSTEM|PROMPT)|"
-    r"override (the |your )?(safety|rules)", re.IGNORECASE)
+    # changing Walter's rules or role
+    r"ignore (all |any |the |your )?(previous|prior|above|earlier) (instructions|rules|prompts?)|"
+    r"disregard (your|the|all)|override (the |your )?(safety|rules)|forget (everything|all|your (instructions|rules|"
+    r"prompt)|what you were told)|new instructions?\s*:|from now on,? (you|say|answer|respond|act|always|never)|"
+    r"you are now|you'?re now|(you are|you'?re) no longer|stop being (a |the |my )?waiter|act as (if|my|your|an? (unrestricted|different|new|ai|assistant|bot|doctor|nutritionist|dietitian|human))|role[- ]?play|"
+    r"pretend (to be|you are|you'?re)|jailbreak|developer mode|do anything now|(?-i:\bDAN\b)|"
+    # asking for his instructions
+    r"system[\s\W_]*prompt|(hidden|initial|original|secret|first) (prompt|instructions|rules|message)|"
+    r"reveal (your|the) (instructions|prompt|rules)|text above|what (were|was) you told|before this conversation|"
+    r"BEGIN (SYSTEM|PROMPT)|"
+    # bending a safety answer
+    r"no matter what|regardless of (the )?(check|rule|flag|allerg)|even if it (has|contains)|"
+    r"ignore the (allergy|safety|diet|halal|kosher) ?(check|checks|rules|flags|warning)?|"
+    # markup and scripts
+    r"<\s*/?\s*(script|img|iframe|svg|style|object|embed|a)\b|\bon[a-z]+\s*=|javascript:|\]\s*\(",
+    re.IGNORECASE)
+# The same attacks with the letters spaced, dotted or hidden ("i g n o r e", "s.y.s.t.e.m p.r.o.m.p.t")
+COMPACT_INJECTION = ("ignoreallpreviousinstructions", "ignorepreviousinstructions", "ignoreallpriorinstructions",
+                     "systemprompt", "jailbreak", "developermode", "revealyourinstructions", "disregardyourrules")
+
+
+def _plain(text: str) -> str:
+    """Full-width and styled letters made plain (NFKC), invisible characters (zero-width spaces) removed."""
+    text = unicodedata.normalize("NFKC", text)
+    return "".join(c for c in text if unicodedata.category(c) != "Cf")
 
 
 def screen_question(text: object) -> tuple[str, str | None]:
@@ -313,7 +334,9 @@ def screen_question(text: object) -> tuple[str, str | None]:
         return "", "empty"
     if len(clean) > MAX_QUESTION:
         return "", "too long"
-    if INJECTION.search(clean):
+    plain = _plain(clean)
+    compact = re.sub(r"[^a-z]", "", plain.lower())
+    if INJECTION.search(plain) or any(phrase in compact for phrase in COMPACT_INJECTION):
         return "", "injection attempt"
     return clean, None
 
