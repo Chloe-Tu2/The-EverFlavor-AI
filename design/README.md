@@ -52,16 +52,18 @@ With **Match the kitchen to the cuisine** on (Settings), searching a country ope
 **The chefs** come from the team's four references (`pixel-art/references/chefs/`, `make_chefs.py`), with a woman
 cook for each of those regions (Settings > Your chef; `make_women_chefs.py`, `make_chef_from_ref.py`):
 [previews/women_chefs.png](pixel-art/previews/women_chefs.png),
-[previews/middle_eastern_woman.png](pixel-art/previews/middle_eastern_woman.png). Mexican and Moroccan keep their
-code-drawn chefs. Earlier art is in [pixel-art/archive/](pixel-art/archive/README.md).
+[previews/middle_eastern_woman.png](pixel-art/previews/middle_eastern_woman.png). Earlier art is in
+[pixel-art/archive/](pixel-art/archive/README.md).
 
-**The team's chef packs (0.6.3).** The Classic and Chinese chefs, men and women, now come from the team's own
-expression packs (13 faces each): [import_team_chefs.py](pixel-art/import_team_chefs.py) makes their white
-background transparent and scales them to the app's size. The app uses happy, wink, thinking and worried (for
-alerts); all 13 are kept in `pixel-art/originals/chefs/`
-([previews/team_chefs.png](pixel-art/previews/team_chefs.png)). Rerunning `make_chefs.py` or the women chef
-scripts would replace them with the older code-drawn chefs, so rerun `import_team_chefs.py` after them. The team's
-four banners are in `pixel-art/originals/banners/`, cut one by one from their sheet by
+**The team's chef packs (0.6.3).** The Classic, Chinese, Moroccan and Mexican chefs, men and women, now come from
+the team's own expression packs (13 faces each): [import_team_chefs.py](pixel-art/import_team_chefs.py) makes
+their background transparent, clears slices of neighbouring frames that some files carry along an edge, and scales
+each face so its hat is as wide as in the rest of its pack (some faces were framed larger or smaller). The app uses
+happy, wink, thinking and worried (for alerts); all 13 are kept in `pixel-art/originals/chefs/`
+([previews/team_chefs.png](pixel-art/previews/team_chefs.png)). The Moroccan woman's happy face was cut off its
+sheet, so her laughing face stands in until the team re-exports it. Rerunning `make_chefs.py` or the women chef
+scripts would replace the chefs with the older code-drawn ones, so rerun `import_team_chefs.py` after them. The
+team's four banners are in `pixel-art/originals/banners/`, cut one by one from their sheet by
 [cut_banners.py](pixel-art/cut_banners.py) with no resizing.
 
 ## The color bug, fixed

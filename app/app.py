@@ -258,6 +258,8 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 }}
 [data-testid="stImage"] img {{ border: 3px solid var(--border); width: 100%; aspect-ratio: 4 / 3;
   object-fit: contain; background: var(--panel); }}   /* the whole photo, never cropped or zoomed */
+/* The team's banners in What's new keep their own shape and frame */
+[data-testid="stPopoverBody"] [data-testid="stImage"] img {{ border: none; aspect-ratio: auto; background: none; }}
 /* The chef and the speech bubble */
 .chef-row {{ display: flex; gap: 1.25rem; align-items: flex-end; margin: 0.5rem 0 1.25rem; }}
 .chef {{ width: 128px; height: 128px; flex: none; background: center / contain no-repeat; image-rendering: pixelated; }}
@@ -988,10 +990,18 @@ with saved_spot.container(key="saved-list"), st.popover(f"Saved ({len(saved)})")
     st.caption(BETA_SAVE if remember else "Remembering is off (Settings): saved recipes last only while this page "
                "is open. Download them to keep them.")
 with news_spot.container(key="whats-new"), st.popover("What's new"):
-    st.markdown('<div class="updates">' + "".join(
-        f'<h5>{update["version"]} · {update["date"]}</h5><ul>'
-        + "".join(f"<li>{html.escape(note)}</li>" for note in update["notes"]) + "</ul>"
-        for update in UPDATES) + "</div>", unsafe_allow_html=True)
+    # The team's banners (design/pixel-art/cut_banners.py): "App Update" on top, then each release's own
+    if (ART / "banner_app_update.png").exists():
+        st.image(str(ART / "banner_app_update.png"), width="stretch")
+    for update in UPDATES:
+        st.markdown(f'<div class="updates"><h5>{update["version"]} · {update["date"]}</h5></div>',
+                    unsafe_allow_html=True)
+        for banner in update.get("banners", []):
+            if (ART / f"banner_{banner}.png").exists():
+                st.image(str(ART / f"banner_{banner}.png"), width="stretch")
+        st.markdown('<div class="updates"><ul>' + "".join(f"<li>{html.escape(note)}</li>"
+                                                         for note in update["notes"]) + "</ul></div>",
+                    unsafe_allow_html=True)
     st.caption(f"EverFlavor {__version__} (beta). Every change: "
                "[the changelog](https://github.com/Chloe-Tu2/The-EverFlavor-AI/blob/main/CHANGELOG.md).")
 # Where users report bugs and ideas: GitHub issue forms, the version filled in (needs a free GitHub account)

@@ -3,6 +3,8 @@
 One entry per release, added at the top when the version changes (src/everflavor/__init__.py and CHANGELOG.md;
 tests/test_version.py checks that the three agree). Write for the people who use the app: 1 to 3 short notes
 starting "New:", "Changed:" or "Fixed:", plain words, no technical or security details (those go in CHANGELOG.md).
+An entry may also name the team's banners to show above its notes ("banners": ["meet_the_waiter", "new_chefs"];
+design/pixel-art/assets/banner_<name>.png, made by design/pixel-art/cut_banners.py --app).
 """
 
 UPDATES = [

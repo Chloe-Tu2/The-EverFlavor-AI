@@ -37,3 +37,11 @@ def test_update_notes_are_short_and_newest_first():
     for update in updates:
         assert 1 <= len(update["notes"]) <= 3
         assert all(note.startswith(("New: ", "Changed: ", "Fixed: ")) for note in update["notes"])
+
+
+def test_update_banners_exist():
+    art = ROOT / "design" / "pixel-art" / "assets"
+    assert (art / "banner_app_update.png").exists(), "the What's new header banner (cut_banners.py --app)"
+    for update in _updates():
+        for banner in update.get("banners", []):
+            assert (art / f"banner_{banner}.png").exists(), banner
