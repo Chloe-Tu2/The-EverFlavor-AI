@@ -12,17 +12,17 @@ Gaz is an Iranian nougat that originated in the Isfahan region.
 
 Fun facts:
 
-- (history) Similar confections known as halva have been made in Persia since around the 9th century Saffarid period.
 - (about) It is widely known as Persian Nougat in American and European countries.
 - (culture) Gaz is made from egg whites, sugar, pistachios and/or almonds, rosewater, and (traditionally) psyllid honeydew collected from Persian manna.
+- (origin) Gaz comes from Iran, Iraq.
 
 More fun facts (when the user asks for more):
 
 - (culture) Gaz has a mild laxative effect, traditionally used for children.
 - (culture) Gaz was traditionally (though mistakenly) understood as the sap of the Persian manna Astragalus brachycalyx, sometimes further mistaken by its shared Persian name with the tamarisk Tamarix gallica.
 - (culture) The modern form of gaz dates backs 450 years to the Safavid period, the honeydew found on Persian manna being combined with egg white, sugar, glucose syrup, rosewater, and pistachios and/or almonds in traditional and industrial workshops.
-- (origin) Gaz comes from Iran, Iraq.
 - (about) Not to be confused with Gaz.
+- (history) Similar confections known as halva have been made in Persia since around the 9th century Saffarid period.
 
 Learn more:
 
@@ -90,15 +90,15 @@ Laffa, also known as lafa or Iraqi pita, is the Modern Hebrew term for a large, 
 
 Fun facts:
 
-- (history) Members of the Jewish community of Iraq, almost all of whom came to Israel via Operation Ezra and Nehemiah in the mid-20th century, brought with them the standard Iraqi flatbread known in Baghdad Jewish Arabic as ʿēsh tannūr, ḫobz al-tannūr, or simply khubz "bread".
 - (culture) Laffa is a simple bread that is traditionally vegan and cooked in a tannur or tabun, both of which are clay ovens.
 - (about) Laffa is known as Iraqi pita, given its origin in Iraq.
+- (origin) Laffa comes from Israel.
 
 More fun facts (when the user asks for more):
 
 - (culture) Laffa is also the traditional bread used in sabich, an Israeli eggplant sandwich.
 - (culture) Laffa was traditionally baked in communal outdoor wood or coal-fired ovens and served as an accompaniment to myriad dishes.
-- (origin) Laffa comes from Israel.
+- (history) Members of the Jewish community of Iraq, almost all of whom came to Israel via Operation Ezra and Nehemiah in the mid-20th century, brought with them the standard Iraqi flatbread known in Baghdad Jewish Arabic as ʿēsh tannūr, ḫobz al-tannūr, or simply khubz "bread".
 
 Learn more:
 
@@ -198,8 +198,8 @@ Quzi, also spelled as qoozi or ghoozi, is a popular rice-based dish and is consi
 
 Fun facts:
 
-- (history) British lexicographer James Redhouse described qoozi in his 1890 Ottoman Turkish to English dictionary as "A lamb stuffed and roasted whole"
 - (origin) Quzi comes from Mesopotamia.
+- (history) British lexicographer James Redhouse described qoozi in his 1890 Ottoman Turkish to English dictionary as "A lamb stuffed and roasted whole"
 
 Learn more:
 
@@ -282,8 +282,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (inspiration) Created by Iraqi Jewish merchants in Bombay who purportedly shipped mangoes in vinegar back to Baghdad, Amba bears a resemblance to chutneys from South Asia.
-- (about) From Basra, the mangoes made their way to Baghdad's Jewish market—known as Souk Hennouni—and the neighbouring Shorja marketplace.
 - (origin) Amba comes from India.
+- (about) From Basra, the mangoes made their way to Baghdad's Jewish market—known as Souk Hennouni—and the neighbouring Shorja marketplace.
 
 Learn more:
 
@@ -341,7 +341,7 @@ Jibneh Arabieh is a soft white cheese found all over the Middle East.
 Fun facts:
 
 - (about) Jibneh Arabieh is particularly popular in the Persian Gulf region.
-- (origin) Jibneh Arabieh comes from Middle East, Levant.
+- (origin) Jibneh Arabieh comes from the Middle East, the Levant.
 
 Learn more:
 
@@ -368,9 +368,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Preserved clotted cream has been recovered from Mongol-period burials dating to around the 13th century.
 - (about) In Iran, kaymak is also known as سَرشیر (sarshir), which translates to "top of the milk", and likewise as սեր (ser) in Armenia.
 - (origin) Kaymak comes from Central Asia.
+- (history) Preserved clotted cream has been recovered from Mongol-period burials dating to around the 13th century.
 - (about) Not to be confused with dulce de leche.
 
 Learn more:
@@ -390,8 +390,8 @@ The term leben, variously laban, liben, lben in the Middle East and North Africa
 
 Fun facts:
 
-- (about) Generally, there are two main products known as laban: the yogurt variant for the Levant region and the buttermilk variant for parts of Arabia and North Africa (Maghreb).
 - (about) Not to be confused with Leben.
+- (about) Generally, there are two main products known as laban: the yogurt variant for the Levant region and the buttermilk variant for parts of Arabia and North Africa (Maghreb).
 
 Learn more:
 
@@ -410,14 +410,14 @@ Legumes are plants in the pea family Fabaceae (or Leguminosae), or the fruit or 
 
 Fun facts:
 
-- (about) Dry pea seeds have been discovered in a Swiss village that are believed to date back to the Stone Age.
-- (history) Archaeological evidence suggests that these peas must have been grown in the eastern Mediterranean and Mesopotamian regions at least 5,000 years ago and in Britain as early as the 11th century.
 - (origin) Genetic analyses of the common bean Phaseolus show that it originated in Mesoamerica, and subsequently spread southward, along with maize and squash, traditional companion crops.
+- (about) Not to be confused with bean, legume.
+- (history) Archaeological evidence suggests that these peas must have been grown in the eastern Mediterranean and Mesopotamian regions at least 5,000 years ago and in Britain as early as the 11th century.
 
 More fun facts (when the user asks for more):
 
+- (about) Dry pea seeds have been discovered in a Swiss village that are believed to date back to the Stone Age.
 - (origin) In the United States, the domesticated soybean was introduced in 1770 by Benjamin Franklin after he sent seeds to Philadelphia from France.
-- (about) Not to be confused with bean, legume.
 
 Learn more:
 
@@ -438,13 +438,13 @@ Maqluba is a traditional Levantine dish, a variety of Pilaf that is popular acro
 Fun facts:
 
 - (inspiration) According to one folk legend, the dish was served in 1187 to celebrate Saladin's successful capture of Jerusalem, prompting Saladin to inquire about the "upside-down dish", hence giving the dish it's name.
-- (about) However, an Al Jazeera report notes that there are no historical records to substantiate this claim.
 - (culture) The People of Palestine, a 1921 book by American scholar Elihu Grant documenting Palestinian tradition, contained a description of maqluba: Maḳlûbeh is a preparation of rice and eggplant cooked in a deep dish, and, when served, turned out, upside down; whence the name, which means "turned over."
+- (origin) Maqluba comes from Palestine, the Levant.
 
 More fun facts (when the user asks for more):
 
-- (origin) Maqluba comes from Palestine, Levant.
 - (about) Not to be confused with Il-Maqluba.
+- (about) An Al Jazeera report notes that there are no historical records to substantiate this claim.
 
 Learn more:
 

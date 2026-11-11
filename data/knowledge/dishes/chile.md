@@ -71,8 +71,8 @@ Barros Luco is a hot sandwich in Chile that includes beef and melted cheese in o
 Fun facts:
 
 - (inspiration) The sandwich is named after Ramón Barros Luco, who served as president of Chile from 1910 to 1915.
-- (about) These sandwiches became known as Barros Jarpa.
 - (origin) Barros Luco comes from Chile.
+- (about) These sandwiches became known as Barros Jarpa.
 
 More fun facts (when the user asks for more):
 
@@ -223,9 +223,9 @@ Chorrillana is a Chilean dish consisting of a plate of salted French fries toppe
 
 Fun facts:
 
-- (culture) Traditional recipes mix scrambled egg, fried onion and sliced beef.
-- (origin) Chorrillana comes from Peru.
 - (culture) This dish is similar to the Québécois dish poutine and the Peruvian classic street food salchipapa.
+- (origin) Chorrillana comes from Peru.
+- (culture) Traditional recipes mix scrambled egg, fried onion and sliced beef.
 
 Learn more:
 
@@ -476,9 +476,9 @@ Mote con huesillo is a traditional Chilean summer-time drink often sold in stree
 
 Fun facts:
 
-- (about) This drink is very popular during summer months and is sold by street vendors on rolling carts or stands.
-- (origin) Mote con huesillo comes from Chile.
 - (about) Mote con huesillo is also a very popular homemade recipe, for which the ingredients are readily available in supermarkets, small grocery stores and farmers' markets.
+- (origin) Mote con huesillo comes from Chile.
+- (about) This drink is very popular during summer months and is sold by street vendors on rolling carts or stands.
 
 Learn more:
 
@@ -521,12 +521,12 @@ Paila marina is a traditional Chilean seafood soup or light stew usually served 
 Fun facts:
 
 - (culture) Paila marina is traditional for groups of friends or family to go to the local seafood market and enjoy a paila marina, especially the morning after a party, when it is believed to aid recovery from a hangover.
-- (about) On January 1, the historic seafood market Mercado Central de Santiago is one of the busiest places in Santiago; Chilean national newspaper La Nación reported that 28,000 people were expected to visit the market on January 1, 2010.
+- (about) Popular belief also ascribes aphrodisiac properties to paila marina.
 - (origin) Paila marina comes from Chile.
 
 More fun facts (when the user asks for more):
 
-- (about) Popular belief also ascribes aphrodisiac properties to paila marina.
+- (about) On January 1, the historic seafood market Mercado Central de Santiago is one of the busiest places in Santiago; Chilean national newspaper La Nación reported that 28,000 people were expected to visit the market on January 1, 2010.
 
 Learn more:
 
@@ -606,8 +606,8 @@ Porotos granados is a traditional Chilean countryside stew made mainly of ripe c
 
 Fun facts:
 
-- (origin) The stew receives its name from its main ingredient, ripe harvested Cranberry (cargamanto) beans, originated in Colombia, but also is common among the Aymara people.
 - (origin) Porotos granados comes from Chile.
+- (origin) The stew receives its name from its main ingredient, ripe harvested Cranberry (cargamanto) beans, originated in Colombia, but also is common among the Aymara people.
 
 Learn more:
 
@@ -653,13 +653,13 @@ The albacore (Thunnus alalunga), known also as the albicore or longfin tuna, is 
 
 Fun facts:
 
-- (about) For the first year of their lives, juveniles remain close to the place where they were hatched.
 - (inspiration) Albacore form schools based on their stage in the life cycle, but also combine with other tuna like the skipjack tuna, yellowfin tuna, and bluefin tuna.
-- (about) They begin to migrate after their first year.
+- (about) For the first year of their lives, juveniles remain close to the place where they were hatched.
+- (about) Previously listed as "Near Threatened" by the International Union for Conservation of Nature (IUCN) because of the threat of overfishing, the species moved to the category "Least Concern" in 2021.
 
 More fun facts (when the user asks for more):
 
-- (about) Previously listed as "Near Threatened" by the International Union for Conservation of Nature (IUCN) because of the threat of overfishing, the species moved to the category "Least Concern" in 2021.
+- (about) They begin to migrate after their first year.
 - (about) The creation of ova, known as oogenesis, begins with the rapid production of oogonia (undifferentiated germ cells that give rise to oocytes) by mitotic separations in the oogonial nests of female tuna.
 
 Learn more:
@@ -680,14 +680,14 @@ Borgoña (Burgundy) is a traditional Chilean cocktail made with red wine, choppe
 
 Fun facts:
 
-- (origin) The use of strawberries in alcoholic beverages, and particularly wine, probably originated in the border regions, where there were already vineyards planted in the 17th century.
 - (history) In the mid-19th century, European technocrats started a trend of overvaluation of French wine varieties and of imitation wines that sought to copy French ones and were labeled "Burdeos," "Borgoña," and "Champagne," among others.
+- (origin) The use of strawberries in alcoholic beverages, and particularly wine, probably originated in the border regions, where there were already vineyards planted in the 17th century.
 - (culture) In 2011, a Chilean nutritionist calculated the number of calories in various traditional Chilean alcoholic beverages and determined that borgoña—at 250 calories per glass—was the fifth most caloric, after pihuelo, paxarette, chupilca, and cola de mono.
 
 More fun facts (when the user asks for more):
 
-- (history) Which they sell very easily."In the mid-19th century, wines were advertised with little clarity about the grape variety.
 - (history) While earlier the consumer was warned that a wine was "Bordeaux-style," "sherry-style," "Burgundy-style," eventually they became directly labeled as "Bordeaux," "Sherry," or "Burgundy." In this period the word Borgoña (Burgundy) became popular to denote types or varieties of French wines.
+- (history) Which they sell very easily."In the mid-19th century, wines were advertised with little clarity about the grape variety.
 
 Learn more:
 
@@ -709,7 +709,7 @@ Chicha is a fermented (alcoholic) or non-fermented beverage of Latin America, em
 Fun facts:
 
 - (about) It is possible that one of the first uses of the term chicha was from a group of people who lived in Colombia and Panama, the Guna.
-- (origin) Additionally, chicha is thought by Miguel Ángel Quesada Pacheco to originate from the long-extinct and poorly attested Chocoan language Cueva.
+- (origin) Chicha is thought by Miguel Ángel Quesada Pacheco to originate from the long-extinct and poorly attested Chocoan language Cueva.
 - (culture) In the Inca Empire, chicha had ceremonial and ritual uses.
 
 More fun facts (when the user asks for more):
@@ -736,15 +736,15 @@ Cola de mono or colemono is a cocktail from Chilean cuisine, made with aguardien
 Fun facts:
 
 - (history) The drink, initially dubbed "cola de Montt," allegedly morphed into "cola de mono." A third theory involves President Pedro Montt (1906–1910), nicknamed El Mono Montt by his inner circle.
-- (culture) After the 1901 Chilean presidential election, when Pedro Montt was defeated by Germán Riesco, Riesco's supporters reportedly celebrated his victory and "Montt's tail" at an ice cream parlor on San Pablo Street.
-- (about) These were bottles of Anís del Mono, imported from Spain and popular in the Americas, whose label featured a monkey with a long tail.
+- (culture) It is widely consumed during Christmas and New Year celebrations, often paired with pan de Pascua (Christmas fruitcake).
+- (about) In December 2023, the culinary website TasteAtlas named cola de mono the world's best cocktail.
 
 More fun facts (when the user asks for more):
 
 - (history) In the album Bajo Belgrano (1983) by Argentine jazz rock band Spinetta Jade, the ninth track is "Cola de mono," composed by Luis Alberto Spinetta.
-- (culture) It is widely consumed during Christmas and New Year celebrations, often paired with pan de Pascua (Christmas fruitcake).
-- (about) In December 2023, the culinary website TasteAtlas named cola de mono the world's best cocktail.
 - (origin) Cola de mono comes from Chile.
+- (culture) After the 1901 Chilean presidential election, when Pedro Montt was defeated by Germán Riesco, Riesco's supporters reportedly celebrated his victory and "Montt's tail" at an ice cream parlor on San Pablo Street.
+- (about) These were bottles of Anís del Mono, imported from Spain and popular in the Americas, whose label featured a monkey with a long tail.
 
 Learn more:
 
@@ -896,21 +896,21 @@ Fun facts:
 
 - (history) Its name literally means earthquake, due to the fact that it was invented after the 1985 earthquake in Chile.
 - (about) A half-size Terremoto served directly after the first one is referred to as a Réplica (aftershock).
-- (origin) Wines with a sweet additive go through a long historical tradition, originating in colonial Chile, from which the Asoleados of Cauquenes and the Pajaretes from Huasco and Elqui are still present to this day.
+- (culture) Terremoto is tradition to serve the drink in a 400 ml glass.
 
 More fun facts (when the user asks for more):
 
+- (about) If served in a larger jug, it is popularly known as Cataclismo (cataclysm); while if a single small drink is served, it is referred to as a Temblor (small-scale earthquake).
+- (about) If made with red wine instead of Pipeño, the cocktail is then known as Africano or Terremoto Africano (African earthquake).
+- (origin) Terremoto comes from Chile.
+- (origin) Wines with a sweet additive go through a long historical tradition, originating in colonial Chile, from which the Asoleados of Cauquenes and the Pajaretes from Huasco and Elqui are still present to this day.
 - (history) The American documentary Travel Talks (1930) shows members of the Chilean upper class consuming wine together with sweet foods, such as champagne containing fresh seasonal fruits.
 - (culture) By the 1970s, the practice of adding pineapple ice cream to carbonated wine became a seasonal custom, specially during end-of-year celebrations.
 - (history) Red wine with condensed milk became popular during the 1980s in some bars outside the historic center of Santiago.
 - (history) The bar La Piojera in downtown Santiago was, according to its tenant, known for serving this drink since before 1985, In said restaurant, the Replica is also served, as well as the Tsunami, which contains beer, wine, pisco and ice.
 - (history) According to its tenant, German reporters had come to cover the 1985 earthquake in Chile, as they quickly drank the cocktail and one of them, feeling dizzy when standing up, exclaimed: "Now this one really is an earthquake!".
 - (about) Although its origin is not confirmed and many claim its creation, several bars such as La Piojera, Rincón de los canallas, and El Hoyo have contributed to popularizing the drink in Chilean culture.
-- (culture) Terremoto is tradition to serve the drink in a 400 ml glass.
-- (about) If served in a larger jug, it is popularly known as Cataclismo (cataclysm); while if a single small drink is served, it is referred to as a Temblor (small-scale earthquake).
-- (about) If made with red wine instead of Pipeño, the cocktail is then known as Africano or Terremoto Africano (African earthquake).
 - (about) A similar punch containing fruits or pineapple ice cream became popular in the mid-sixties and seventies, particularly in some bars on Paseo Ahumada and Calle Santo Domingo.
-- (origin) Terremoto comes from Chile.
 
 Learn more:
 
@@ -952,8 +952,8 @@ Vino Pipeño is a wine from Chile that is made from ordinary grape stock, differ
 
 Fun facts:
 
-- (culture) The drink is usually served with meats and typical dishes of the traditional Chilean home.
 - (origin) Vino pipeño comes from Chile.
+- (culture) The drink is usually served with meats and typical dishes of the traditional Chilean home.
 
 Learn more:
 

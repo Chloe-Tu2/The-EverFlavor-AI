@@ -11,9 +11,9 @@ Arany galushka is a traditional Hungarian dessert consisting of balls of yeast d
 
 Fun facts:
 
-- (culture) The balls are rolled in melted butter, and then rolled in a mixture of sugar and crushed nuts (traditionally walnuts), assembled into layers, before being baked till golden.
 - (about) Nancy Reagan popularized this dish in the United States when she served it at the White House for Christmas.
 - (origin) Arany galuska comes from Hungary.
+- (culture) The balls are rolled in melted butter, and then rolled in a mixture of sugar and crushed nuts (traditionally walnuts), assembled into layers, before being baked till golden.
 
 Learn more:
 
@@ -36,7 +36,7 @@ Fun facts:
 
 - (history) In America, the Campbell's began producing its canned Cream of Mushroom Soup in 1934.
 - (inspiration) Home cooks had already been using canned soup as a casserole or sauce base, and Campbell's started publishing its own recipes based on it in 1941.
-- (origin) Cream of mushroom soup comes from United States.
+- (origin) Cream of mushroom soup comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -105,15 +105,15 @@ Dobos torte, also known as Dobosh, is a Hungarian sponge cake layered with choco
 Fun facts:
 
 - (origin) Dobos torte was introduced at the National General Exhibition of Budapest in 1885; Emperor Franz Joseph I and Empress Elisabeth were among the first to taste it.
-- (inspiration) The layered pastry is named after its inventor, Hungarian chef József C.
-- (history) In the late 19th century, he decided to create a cake that would last longer than other pastries in an age when cooling techniques were limited.
+- (inspiration) The layered pastry is named after its inventor, Hungarian chef József C. Dobos, a delicatessen owner in Budapest.
+- (about) Dobos had discovered buttercream while traveling in France, but he invented the batter of the cake.
 
 More fun facts (when the user asks for more):
 
-- (about) Dobos had discovered buttercream while traveling in France, but he invented the batter of the cake.
 - (history) Near the end of his career, in 1906, Dobos donated his recipe to the Pastry and Honey-Makers' Guild.
-- (about) The cake became popular throughout Europe, both for its durability through shipping and for its unique appearance.
 - (origin) Dobos torte comes from Hungary.
+- (history) In the late 19th century, he decided to create a cake that would last longer than other pastries in an age when cooling techniques were limited.
+- (about) The cake became popular throughout Europe, both for its durability through shipping and for its unique appearance.
 
 Learn more:
 
@@ -134,16 +134,16 @@ Dunakavics is a Hungarian candy made of crunchy roasted peanuts coated with suga
 Fun facts:
 
 - (history) First produced in the 1960s, Dunakavics has been considered as bringing back a feeling of nostalgia into the retro years of Hungary.
-- (origin) The name originates from the uneven sugar coating, which makes the dragées resemble pebbles found along the Danube.
+- (origin) Dunakavics comes from Hungary.
 - (about) The "Budapest Confectionery Enterprise" (Budapest Édesipari Vállalat) was among the first to be privatized.
 
 More fun facts (when the user asks for more):
 
 - (history) In 1964, the production of Dunakavics began at the Danube Chocolate Factory, and it has been made with the same recipe ever since.
-- (history) Most of the candies considered retro today were created around the 1960s.
 - (history) Dunakavics is remembered by older generations as a retro Hungarian candy, which enjoyed its peak popularity in the 1960s, 70s, and 80s.
+- (origin) The name originates from the uneven sugar coating, which makes the dragées resemble pebbles found along the Danube.
+- (history) Most of the candies considered retro today were created around the 1960s.
 - (culture) This traditional Hungarian sweet treat, sold by Bonbonetti (a confectioner owned by Roshen since 2012), has been widely distributed in its original blue packaging within the country.
-- (origin) Dunakavics comes from Hungary.
 
 Learn more:
 
@@ -164,7 +164,7 @@ Egg drop soup, also known as egg flower soup, is a Chinese soup of wispy beaten 
 
 Fun facts:
 
-- (origin) Egg drop soup comes from People's Republic of China.
+- (origin) Egg drop soup comes from the People's Republic of China.
 
 Learn more:
 
@@ -417,8 +417,8 @@ Hortobágyi palacsinta is a savoury Hungarian crêpe dish, filled with meat (usu
 Fun facts:
 
 - (history) Hortobágyi palacsinta was invented for the 1958 Brussels World Fair.
-- (about) A popular serving option in Hungary is to roll up the filled crêpes, or fold them into halves and then roll them up on the shorter side.
 - (origin) Hortobágyi palacsinta comes from Hungary.
+- (about) A popular serving option in Hungary is to roll up the filled crêpes, or fold them into halves and then roll them up on the shorter side.
 
 Learn more:
 
@@ -441,8 +441,8 @@ Jókai bean soup (Jókai bableves) is a Hungarian bean soup.
 Fun facts:
 
 - (inspiration) The soup was named after Jókai Mór, a Hungarian writer.
-- (history) In 1854 he published Zoltán Kárpáthy, in which there is a detailed description of a buffet.
 - (origin) Jókai bean soup comes from Hungary.
+- (history) In 1854 he published Zoltán Kárpáthy, in which there is a detailed description of a buffet.
 
 More fun facts (when the user asks for more):
 
@@ -471,12 +471,12 @@ Kaiserschmarrn or Kaiserschmarren is a lightly sweetened pancake that takes its 
 Fun facts:
 
 - (history) It is generally agreed that the dish was first prepared for the Austrian Emperor Francis Joseph I (1830–1916).
-- (inspiration) One apocryphal story involves the Emperor and his wife, Elisabeth of Bavaria, of the House of Wittelsbach.
 - (about) The name Kaiserschmarrn is a compound of the words Kaiser ('emperor') and Schmarren (a scrambled or shredded dish).
+- (inspiration) Kaiserschmarrn is named after Franz Joseph I of Austria.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Kaiserschmarrn is named after Franz Joseph I of Austria.
+- (inspiration) One apocryphal story involves the Emperor and his wife, Elisabeth of Bavaria, of the House of Wittelsbach.
 - (history) Kaiserschmarrn is a popular meal or dessert in Austria, Bavaria, and many parts of the former Austro-Hungarian empire, e.g. northern Italy, Hungary, Slovakia, Czech Republic, Slovenia, northern Croatia and western Romania, which usually use the name as a loan word or translations of it.
 - (origin) Kaiserschmarrn comes from Austria.
 
@@ -501,20 +501,20 @@ Kipferl, kifli, kiflice, kifle or cornuri is a traditional yeast-based bread rol
 Fun facts:
 
 - (history) The Kipferl has been documented in Austria to at least 1227 when they were recorded in Babenberg-ruled Vienna as chipfen: dô brâchten im die pecken chipfen und weiʒe flecken, weiʒer dann ein hermelein.
+- (origin) Kifli comes from Austria.
 - (about) The 17th-century Austrian monk Abraham a Sancta Clara described the roll as crescent-shaped, writing "the moon in the first quarter shines like a kipfl", and noted there were Kipferl in various forms: "vil lange, kurze, krumpe und gerade kipfel" ("many long, short, crooked and straight kipfel").
-- (culture) Kipferl is a traditional yeasted bread rolled into a crescent shape.
 
 More fun facts (when the user asks for more):
 
 - (history) In the 13th century, that usage referred to a bread shape of pagan origin.
 - (history) Breads or pastries in the shape of a crescent moon are believed to have been served in ancient times as offerings to the goddess of the moon, Selene.
+- (culture) Kipferl is a traditional yeasted bread rolled into a crescent shape.
 - (culture) The shape is also reminiscent of horns; both are associated with ancient symbolism and considered the oldest surviving pastry shape.
 - (culture) In Austria, the Kipferl is formally recognized by the government as a traditional food.
 - (culture) According to the Austrian Ministry of Agriculture, Regions and Tourism, Kipferl were probably a traditional monastery roll baked for Easter.
-- (about) They are described as crescent-shaped rolls made of yeast wheat dough in a variety of shapes and as being popular for coffee breaks and breakfasts, particularly in Vienna.
 - (inspiration) The Kipferl likely inspired the similarly shaped French croissant, which is made from a viennoiserie.
-- (origin) Kifli comes from Austria.
 - (about) Not to be confused with Rogal.
+- (about) They are described as crescent-shaped rolls made of yeast wheat dough in a variety of shapes and as being popular for coffee breaks and breakfasts, particularly in Vienna.
 
 Learn more:
 
@@ -536,22 +536,22 @@ Kürtőskalács is a spit cake specific to Hungarians from Transylvania, more sp
 Fun facts:
 
 - (history) The first written record dates back to 1679 and was found in the village of Úzdiszentpéter (now Sânpetru de Câmpie), while the first recipe appears in a manuscript cookbook dated in 1781.
-- (origin) The first known recipe of Kürtőskalács originates from Transylvania, included in the 1784 cookbook of Countess Mária Mikes of Zabola ("‘kürtős kaláts’ à la Mrs.
-- (about) The first branch contains pastries that preserved the image of cake similar to the one mentioned above, with a strip wound on spit in a helical shape.
+- (origin) The first known recipe of Kürtőskalács originates from Transylvania, included in the 1784 cookbook of Countess Mária Mikes of Zabola ("‘kürtős kaláts’ à la Mrs. Poráni").
+- (inspiration) The Skalicky trdelnik, a variant from the 18th century is based on similar preparation, with the cake surface covered in chopped nuts (e.g. walnut, almond) before baking, and sugar that is added only subsequent to baking.
 
 More fun facts (when the user asks for more):
 
-- (history) The first known record that hints at a family of cakes baked by rotating spit over cinders dates back to medieval times (about 1450) and is found in a manuscript from Heidelberg.
 - (origin) The name "kürtőskalács" originated in Transylvania and became popular only by the middle of the 20th century.
 - (history) The present variant "kürtőskalács" was first used in print in a cookbook, published in 1926 by the book department of 'Brassói Lapok', a newspaper from Brașov.
-- (history) A recipe from the cookbook written by Kristóf Simai in 1795 in Upper Hungary (present-day Slovakia) first mentioned "sweetening subsequent to baking".
 - (history) Almost 100 years passed before the first mention was made of the next step in the evolution of kürtőskalács, the appearance of a caramelized sugar glaze, in Aunt Rézi's Cookbook written by Terézia Dolecskó in 1876, published in Szeged, Hungary.
+- (history) The first known record that hints at a family of cakes baked by rotating spit over cinders dates back to medieval times (about 1450) and is found in a manuscript from Heidelberg.
 - (origin) A similar pastry to kürtőskalács is Baumstriezel, originating in the Transylvanian Saxon communities.
-- (history) More references were mentioned even in the 19th century (e.g. dorongfánk 'spit-donut' or botratekercs 'stick roll' or botfánk 'stick-donut').
-- (history) Since the 16th century, the evolution of the cake family proceeded in three branches.
-- (inspiration) The Skalicky trdelnik, a variant from the 18th century is based on similar preparation, with the cake surface covered in chopped nuts (e.g. walnut, almond) before baking, and sugar that is added only subsequent to baking.
+- (history) A recipe from the cookbook written by Kristóf Simai in 1795 in Upper Hungary (present-day Slovakia) first mentioned "sweetening subsequent to baking".
 - (about) Originally popular in the Székely Land, it became popular in both Hungary and Romania.
 - (origin) Kürtőskalács comes from Székely Land.
+- (history) More references were mentioned even in the 19th century (e.g. dorongfánk 'spit-donut' or botratekercs 'stick roll' or botfánk 'stick-donut').
+- (history) Since the 16th century, the evolution of the cake family proceeded in three branches.
+- (about) The first branch contains pastries that preserved the image of cake similar to the one mentioned above, with a strip wound on spit in a helical shape.
 
 Learn more:
 
@@ -574,8 +574,8 @@ Lecsó, also anglicized as lecho, is a Hungarian thick vegetable ragout or stew 
 Fun facts:
 
 - (inspiration) Lecsó in particular is believed to have emerged in Hungary in the 19th century, inspired by a similar dish prepared by ethnic Bulgarians in Hungary.
-- (culture) Garlic can also be a traditional ingredient.
 - (origin) Lecsó comes from Hungary.
+- (culture) Garlic can also be a traditional ingredient.
 
 Learn more:
 
@@ -599,17 +599,17 @@ The Linzertorte is a traditional Austrian pastry, a form of shortcrust topped wi
 Fun facts:
 
 - (inspiration) The invention of the Linzertorte is subject of numerous legends, claiming either a Viennese confectioner named Linzer (as given by Alfred Polgar) or the Franconian pastry chef Johann Konrad Vogel (1796–1883), who started mass production of the cake in Linz around 1823.
-- (history) For a long time, the recipe from 1696 in the Wiener Stadt- und Landesbibliothek was the oldest one known.
+- (history) In 2005, however, Waltraud Faißner, the library director of the Upper Austrian Landesmuseum and author of the book Wie mann die Linzer Dortten macht ("How to make the Linzertorte"), found an even older Veronese recipe from 1653 in Codex 35/31 in the archive of Admont Abbey.
 - (origin) The Austrian migrant Franz Hölzlhuber claimed to have introduced the Linzertorte to Milwaukee in the 1850s.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) Linzertorte is named after the city of Linz, Austria.
 - (inspiration) The Linzertorte has been cited as the oldest cake ever to be named after a place.
-- (history) In 2005, however, Waltraud Faißner, the library director of the Upper Austrian Landesmuseum and author of the book Wie mann die Linzer Dortten macht ("How to make the Linzertorte"), found an even older Veronese recipe from 1653 in Codex 35/31 in the archive of Admont Abbey.
 - (inspiration) Linzertorte is named after Linz.
 - (culture) Linzertorte is a holiday treat in the Austrian, Czech, Swiss, German, and Tirolean traditions, often eaten at Christmas.
 - (origin) Linzertorte comes from Austria.
+- (history) For a long time, the recipe from 1696 in the Wiener Stadt- und Landesbibliothek was the oldest one known.
 
 Learn more:
 
@@ -652,9 +652,9 @@ Lángos is a Hungarian flatbread.
 
 Fun facts:
 
+- (origin) Lángos comes from Hungary.
 - (history) Up to the mid 20th century, bread was baked once a week due to the cost of heating up the large oven and the lengthy process kneading up to 35 kilograms (80 lb) of dough.
 - (culture) The average-sized bread loaf typical to Hungarian markets weighs around 2.5–4.5 kilograms (6–10 lb) each, bakers traditionally make smaller (0.5–1 kg or 1–2 lb) cipó rolls for the evening and the next day.
-- (origin) Lángos comes from Hungary.
 
 Learn more:
 
@@ -675,8 +675,8 @@ Palatschinke, palačinka, or palacsinta, is a thin crêpe-like variety of pancak
 
 Fun facts:
 
-- (history) In 350 BCE, the ancient Greek poets Archestratos and Antiphanes first mentioned plakous.
 - (about) Palatschinke is also popular among the Jewish community.
+- (history) In 350 BCE, the ancient Greek poets Archestratos and Antiphanes first mentioned plakous.
 
 Learn more:
 
@@ -889,22 +889,22 @@ Szaloncukor is a type of sweet traditionally associated with Christmas in Hungar
 
 Fun facts:
 
-- (history) Such candies were made first in the 14th century in France.
-- (culture) The tradition of hanging these candies on the Christmas tree started in the 19th century.
-- (origin) French pastry chef Pierre-Andre Manion in the 17th century introduced fondantcukor recipe in Germany.
+- (history) By the beginning of the 19th century it came through German intermediates to Hungary.
+- (about) Szaloncukor is a typical imported and adapted Hungarikum.
+- (origin) Szaloncukor comes from Hungary.
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest version of this fondant dessert emerged during the 14th century in France and was called fondantcukor.
-- (history) The popularity of the fondant candies reached Hungary when German craftsmen migrated there in the 19th century.
-- (history) By the beginning of the 19th century it came through German intermediates to Hungary.
 - (history) In 1891, Hungarian-French chef and entrepreneur Hegyesi Joseph coined the name Szaloncukor which is derived from German fondant candy called "Salonzuckerl" which means "Sugar in Salons".
+- (about) Szaloncukor was named szaloncukor because the tree usually stood in the parlour (szalon in Hungarian; Cukor means "sugar" or "candy"; in Slovak salón is "parlour" and -ka is diminutive suffix).
+- (culture) The tradition of hanging these candies on the Christmas tree started in the 19th century.
+- (history) The earliest version of this fondant dessert emerged during the 14th century in France and was called fondantcukor.
+- (origin) French pastry chef Pierre-Andre Manion in the 17th century introduced fondantcukor recipe in Germany.
+- (history) The popularity of the fondant candies reached Hungary when German craftsmen migrated there in the 19th century.
+- (history) Such candies were made first in the 14th century in France.
 - (history) Following Gerbeaud as inspiration, the family of Geza Kugler founded a chocolate factory in 1886.
 - (history) By the end of the 1800s, the candies were packed in tinfoil balls and colored tissue papers.
 - (history) In 1941, the Kuglers opened the largest chocolate factory in Hungary.
-- (about) Szaloncukor is a typical imported and adapted Hungarikum.
-- (about) Szaloncukor was named szaloncukor because the tree usually stood in the parlour (szalon in Hungarian; Cukor means "sugar" or "candy"; in Slovak salón is "parlour" and -ka is diminutive suffix).
-- (origin) Szaloncukor comes from Hungary.
 
 Learn more:
 
@@ -927,14 +927,14 @@ Székelykáposzta also known as "cabbage stew à la Székely" or "Székely goula
 Fun facts:
 
 - (inspiration) According to legend, the recipe for this dish is attributed to József Székely, a county archivist from the 19th century who was a contemporary and friend of the Hungarian poet Sándor Petőfi.
-- (history) Dobos's 1881 Hungarian-French cookbook, but it does appear in Ágnes Zilahy's 1891 "Valódi magyar szakácskönyv" (Genuine Hungarian Cookbook) in the section on side dishes.
+- (history) Allegedly, Petőfi ordered the same dish on a subsequent occasion, referring to it as "Székely-cabbage." The recipe is not found in József C. Dobos's 1881 Hungarian-French cookbook, but it does appear in Ágnes Zilahy's 1891 "Valódi magyar szakácskönyv" (Genuine Hungarian Cookbook) in the section on side dishes.
 - (origin) Contrary to its name, it does not originate from the Székely people, and traditional Transylvanian cuisine does not recognize it.
 
 More fun facts (when the user asks for more):
 
+- (origin) Székelykáposzta comes from Hungary.
 - (history) In 1846, while dining at the Komló Garden on Gránát Street in Pest, they found the available dishes running out.
 - (origin) Alternatively, the name may suggest the inclusion of Szeged paprika, although such dishes do not originate from or characterize Szeged.
-- (origin) Székelykáposzta comes from Hungary.
 
 Learn more:
 
@@ -955,8 +955,8 @@ Tarhonya or tarhoňa is a dried egg- and wheat-based ingredient found in Hungari
 
 Fun facts:
 
-- (inspiration) The ingredient was adapted from tarhana, which was introduced to Hungarians by the Ottoman Turks in the 16th century.
 - (origin) Tarhonya comes from Hungary.
+- (inspiration) The ingredient was adapted from tarhana, which was introduced to Hungarians by the Ottoman Turks in the 16th century.
 
 Learn more:
 
@@ -978,16 +978,16 @@ Túró Rudi is the name of a curd snack which has been popular in Hungary since 
 
 Fun facts:
 
-- (history) Its first public appearance was in a Hungarian family film, Kismaszat és a Gézengúzok (roughly translated to Little Smear and the Rascals) in the 1980s.
-- (about) The basic (plain, natúr) bar is cheaper and more popular and comes in two sizes: the classic 30-gram (1.1 oz) bar and the large (óriás, "giant") 51 g (1.8 oz) bar.
+- (history) Túró Rudi dates from 1954-.
 - (inspiration) It is widely acknowledged that Túró Rudi was based on it, as design and production began after a study trip to the Soviet Union (presumably by Antal Deák).
+- (origin) Túró Rudi comes from Hungary.
 
 More fun facts (when the user asks for more):
 
+- (history) Its first public appearance was in a Hungarian family film, Kismaszat és a Gézengúzok (roughly translated to Little Smear and the Rascals) in the 1980s.
 - (history) Regardless, the name stayed, and throughout the 1970s the candy proved both popular and successful.
 - (history) Production moved from Budapest to Mátészalka and eventually grew to several additional factories throughout the 1980s.
-- (history) Túró Rudi dates from 1954-.
-- (origin) Túró Rudi comes from Hungary.
+- (about) The basic (plain, natúr) bar is cheaper and more popular and comes in two sizes: the classic 30-gram (1.1 oz) bar and the large (óriás, "giant") 51 g (1.8 oz) bar.
 
 Learn more:
 
@@ -1034,11 +1034,11 @@ Fun facts:
 
 - (origin) Vanillekipferl originate from Vienna in Austria and are traditionally made at Christmas.
 - (culture) They are said to have been created in the shape of the Turkish crescent moon symbolizing the celebration of the victory over the Ottoman Turks in 1683 at the Battle of Vienna.
-- (culture) Since Advent in Germany is celebrated by several denominations of Christianity on the four Sundays preceding Christmas, many kinds of biscuits and sweets are consumed during this time and have become typical for winter.
+- (origin) Vanillekipferl comes from Austria.
 
 More fun facts (when the user asks for more):
 
-- (origin) Vanillekipferl comes from Austria.
+- (culture) Since Advent in Germany is celebrated by several denominations of Christianity on the four Sundays preceding Christmas, many kinds of biscuits and sweets are consumed during this time and have become typical for winter.
 
 Learn more:
 
@@ -1068,10 +1068,10 @@ More fun facts (when the user asks for more):
 
 - (history) Other dishes in Austrian cuisine before the Schnitzel that were breaded and deep-fried were known to exist, such as the Backhendl, first mentioned in a cookbook from 1719.
 - (origin) The earliest evidence of a schnitzel-like dish comes from Nuremberg, where a recipe for Gebackene Schnitten von einem Rebhuhn (roughly, "fried slices of partridge") can be found in the Nürnbergisches Kochbuch ("Nuremberg Cookbook"), published in 1691.
-- (history) According to a tale, Field Marshal Joseph Radetzky von Radetz brought the recipe from Italy to Vienna in 1857.
 - (history) The Schnitzel was then mentioned in the 19th century as Wiener Schnitzel analogically to the Backhendl.
 - (about) In the popular southern German cookbook by Katharina Prato, it was mentioned as eingebröselte Kalbsschnitzchen (roughly, "breaded veal cutlets").
 - (origin) Wiener schnitzel comes from Austria.
+- (history) According to a tale, Field Marshal Joseph Radetzky von Radetz brought the recipe from Italy to Vienna in 1857.
 - (about) Not to be confused with pork cutlet.
 
 Learn more:
@@ -1129,14 +1129,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Pantenelli supposedly invented the dough in 1540, seven years after the arrival of Catherine in France.
 - (history) Choux pastry is later widely documented in the 18th century, under names including Pate a la Royale or Paste Royal.
+- (history) Pantenelli supposedly invented the dough in 1540, seven years after the arrival of Catherine in France.
+- (origin) Choux pastry comes from France.
 - (history) Popelins were common aristocratic desserts in the 16th century, and were flavored with cheese or citrus (for example lemon peel, orange blossom water, etc.).
 - (history) The royal chefs Jean Avice, a pâtissier, and Antoine Carême, who worked in the court of Marie Antoinette, made modifications to the recipe in the 18th century, resulting in the recipe most commonly used now for profiteroles.
 - (history) The name pouplin, later popelin or poupelin, is attested in around 1349 for a kind of cake made with flour and eggs.
 - (inspiration) Over time, the recipe of the dough evolved, and the name changed to pâte à popelin, which was used to make popelins, named after Pantanelli's successor Popelini.
-- (about) He is said to have used the dough to make a gâteau named pâte à Pantanelli.
-- (origin) Choux pastry comes from France.
 
 Learn more:
 
@@ -1178,8 +1177,8 @@ Hungarian sausages are sausages found in the cuisine of Hungary.
 
 Fun facts:
 
-- (culture) This traditionally took place outside on the fall day when a pig was slaughtered.
 - (origin) Hungarian sausages comes from Hungary.
+- (culture) This traditionally took place outside on the fall day when a pig was slaughtered.
 
 Learn more:
 
@@ -1200,7 +1199,7 @@ A raisin is a dried grape.
 
 Fun facts:
 
-- (origin) Raisin comes from People's Republic of China, Iran.
+- (origin) Raisin comes from the People's Republic of China, Iran.
 - (about) Not to be confused with sultana.
 
 Learn more:

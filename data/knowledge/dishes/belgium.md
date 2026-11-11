@@ -18,9 +18,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Until the early 20th century, families without home ovens would bring the prepared dough to local bakeries to be baked.
 - (about) In 2020, efforts began in Aalst to recognise the pie as part of Flanders’ intangible cultural heritage, supported by local baker guilds.
 - (origin) Aalsterse vla comes from Belgium.
+- (history) Until the early 20th century, families without home ovens would bring the prepared dough to local bakeries to be baked.
 
 Learn more:
 
@@ -109,8 +109,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (culture) Cuberdons are traditionally made with gum arabic candy crust with a soft, raspberry-flavored filling.
-- (culture) They are traditionally about 2.5 cm (1 inch) wide and weigh approximately 10 to 18 grams (0.35 to 0.63 oz), although smaller versions are also produced.
 - (origin) Cuberdon comes from Belgium.
+- (culture) They are traditionally about 2.5 cm (1 inch) wide and weigh approximately 10 to 18 grams (0.35 to 0.63 oz), although smaller versions are also produced.
 
 Learn more:
 
@@ -133,8 +133,8 @@ Dame blanche (French, "fair lady" and literally, "white lady") is the name used 
 Fun facts:
 
 - (inspiration) Dame blanche is named after La dame blanche.
-- (about) In Germany and in Switzerland, the same type of dessert is known as a Coupe Dänemark.
 - (origin) Dame blanche comes from France.
+- (about) In Germany and in Switzerland, the same type of dessert is known as a Coupe Dänemark.
 
 More fun facts (when the user asks for more):
 
@@ -231,8 +231,8 @@ The hochepot is a stew eaten in the Nord-Pas-de-Calais region of France, and in 
 
 Fun facts:
 
-- (history) Its origins go back to the Middle Ages and its first known recipes are in the Manuscript of Sion, the oldest treatise on cooking written in French around the 13th century.
 - (history) Le Viandier de Taillevent, the oldest manuscript of which was written in the 14th century, possesses only one hochepot recipe, with poultry.
+- (history) Its origins go back to the Middle Ages and its first known recipes are in the Manuscript of Sion, the oldest treatise on cooking written in French around the 13th century.
 
 Learn more:
 
@@ -270,14 +270,14 @@ Liège waffles are a variety of waffle developed in the Wallonia region of Belgi
 Fun facts:
 
 - (history) According to Visit Belgium, the waffle was invented in the 18th century by the chef to the Prince-Bishopric of Liège.
-- (origin) The Brussels style was introduced in the United States at the 1964 World's Fair, while the Liège version became known outside of Europe decades later.
 - (inspiration) Liège waffle is named after Liege.
+- (culture) Liège waffle is smaller, the dough is a dense and heavy brioche, it contains pearl sugar, and unlike the Brussels waffle, which is traditionally served with toppings, the Liège waffle is traditionally eaten plain.
 
 More fun facts (when the user asks for more):
 
-- (culture) Liège waffle is smaller, the dough is a dense and heavy brioche, it contains pearl sugar, and unlike the Brussels waffle, which is traditionally served with toppings, the Liège waffle is traditionally eaten plain.
 - (culture) In 2011 Brussels MP Joël Riguelle said the traditional Brussels waffle was in danger of being replaced by the Liège version, which was increasingly being offered in Belgian waffle shops with the toppings traditionally associated with the Brussels waffle.
 - (origin) Liège waffle comes from Belgium.
+- (origin) The Brussels style was introduced in the United States at the 1964 World's Fair, while the Liège version became known outside of Europe decades later.
 
 Learn more:
 
@@ -301,14 +301,14 @@ Fun facts:
 
 - (origin) It is thought to have originated in Brussels, but is also popular in Flanders, Wallonia, and the Nord region of France, where it is also known as an "Américain".
 - (inspiration) Mitraillette is named after submachine gun.
-- (about) After the Brussels bombings in March 2016, images of the sandwich were shared across social media in Belgium and abroad as a sign of friendship and humour.
+- (about) In December 2020, former Top Chef (France) contestant Jean-Philippe Watteyne opened a pop-up mitraillette restaurant in Mons.
 
 More fun facts (when the user asks for more):
 
-- (about) In December 2020, former Top Chef (France) contestant Jean-Philippe Watteyne opened a pop-up mitraillette restaurant in Mons.
 - (about) In November 2021, DH Les Sports + reported that a friterie in Etterbeek sells Belgium's longest mitraillette, measuring 130 centimetres (51 in).
 - (about) In 2025, BetUS.com reported extended queues for a AUS$27 steak mitraillette at the Australian Open.
 - (origin) Mitraillette comes from Belgium.
+- (about) After the Brussels bombings in March 2016, images of the sandwich were shared across social media in Belgium and abroad as a sign of friendship and humour.
 
 Learn more:
 
@@ -355,9 +355,9 @@ An open sandwich, also known as an open-face/open-faced sandwich, bread baser, b
 
 Fun facts:
 
-- (history) During the start of the Middle Ages, thin slabs of coarse bread called "trenches" (late 15th century English) or, in its French derivative, "trenchers", were used as plates.
-- (about) Not to be confused with sandwich, smørrebrød, Butterbrot, canapé, tartine.
 - (history) A direct precursor to the English sandwich may be found in the Netherlands of the 17th century, where the naturalist John Ray observed that in the taverns, beef hung from the rafters "which they cut into thin slices and eat with bread and butter laying the slices upon the butter".
+- (about) Not to be confused with sandwich, smørrebrød, Butterbrot, canapé, tartine.
+- (history) During the start of the Middle Ages, thin slabs of coarse bread called "trenches" (late 15th century English) or, in its French derivative, "trenchers", were used as plates.
 
 Learn more:
 
@@ -380,8 +380,8 @@ Pain d'épices or pain d'épice (French for 'spice bread') is a French cake in t
 Fun facts:
 
 - (history) Its ingredients, according to Le Dictionnaire de l'Académie française (1694), were "rye flour, honey and spices".
-- (culture) In Alsace, a considerable tradition incorporates a pinch of cinnamon.
 - (origin) Pain d'épices comes from France.
+- (culture) In Alsace, a considerable tradition incorporates a pinch of cinnamon.
 
 Learn more:
 
@@ -401,8 +401,8 @@ Paling in 't groen (Dutch) or Anguilles au vert (French) is a Belgian dish, main
 
 Fun facts:
 
-- (culture) The traditionally home-made meal is also sold fully prepared but still uncooked by some fishmongers' shops or market stalls, and can be enjoyed in specialty restaurants.
 - (origin) Paling in 't groen comes from Belgium.
+- (culture) The traditionally home-made meal is also sold fully prepared but still uncooked by some fishmongers' shops or market stalls, and can be enjoyed in specialty restaurants.
 
 Learn more:
 
@@ -443,13 +443,13 @@ In Belgian and Dutch cuisine, tarte au riz, rijsttaart(je)/rijstevlaai, or Germa
 
 Fun facts:
 
-- (history) Recipes for the tart date back to at least 1604.
 - (origin) Rijstevlaai is native to Verviers and popular around the wider region of Eastern Belgium, south-eastern Netherlands and the German region around Aachen.
 - (culture) Traditionally, rijstevlaai are made from unpasteurized cow's milk and stored at room temperature until eaten.
+- (history) Recipes for the tart date back to at least 1604.
 
 More fun facts (when the user asks for more):
 
-- (origin) Rijstevlaai comes from Belgium, Netherlands.
+- (origin) Rijstevlaai comes from Belgium, the Netherlands.
 
 Learn more:
 
@@ -535,12 +535,12 @@ Tuna salad is a salad dish consisting of tuna and mayonnaise.
 Fun facts:
 
 - (history) The first written reference to tuna salad, in Russia, appeared in 1876, and by 1893, dozens of recipes had been published.
-- (about) Pickles, celery, relish, and onion are popular ingredients to add.
+- (about) Tuna salad, especially with celery, is similar to chicken salad while also being more convenient (due to the use of canned tuna), a fact that helped its early rise in popularity.
 - (history) Due to the high nutritional content of tuna salad, it assumed the reputation of a diet food in the 1960s.
 
 More fun facts (when the user asks for more):
 
-- (about) Tuna salad, especially with celery, is similar to chicken salad while also being more convenient (due to the use of canned tuna), a fact that helped its early rise in popularity.
+- (about) Pickles, celery, relish, and onion are popular ingredients to add.
 
 Learn more:
 
@@ -561,7 +561,7 @@ A vol-au-vent is a small hollow case of puff pastry with a filling.
 
 Fun facts:
 
-- (history) However, an entremet called petits gâteaux vole au vent is mentioned in François Marin's 1739 cookbook Les Dons de Comus, years before Carême's birth.
+- (history) An entremet called petits gâteaux vole au vent is mentioned in François Marin's 1739 cookbook Les Dons de Comus, years before Carême's birth.
 - (origin) Vol-au-vent was first made by Marie-Antoine Carême.
 - (origin) Vol-au-vent comes from France.
 
@@ -731,22 +731,23 @@ Gueuze is a type of lambic, a Belgian beer.
 
 Fun facts:
 
-- (history) The name was first seen as the Dutch word 'geuze-bier' in a French text in 1829.
-- (about) Jester King Brewery had no status to represent other American brewers in this meeting, and American brewers were not bound by any agreements made by Jester King's representatives.
-- (culture) HORAL and Jester King agreed that Jester King would use the designation "Méthode Traditionelle" as a style name in the future.
+- (origin) There is some debate on where the word gueuze originated.
+- (about) In 2016 Jester King Brewery released a blended, spontaneously fermented beer which it labelled as "Méthode Gueuze." However, the High Council for Artisanal Lambic Beers (HORAL) objected to the name, and the two parties arranged a meeting in Belgium.
+- (culture) Jester King invited other American brewers to use the Méthode Traditionelle designation for their gueuze-style beers, and proposed a set of standards and a logo for Méthode Traditionelle beers.
 
 More fun facts (when the user asks for more):
 
-- (origin) There is some debate on where the word gueuze originated.
 - (origin) One theory is that it originated from geysa (geyser), Old Norse for gush, since, during times of vigorous fermentation, gueuze will spew out of the bunghole of its enclosing oak barrel.
-- (about) In 2016 Jester King Brewery released a blended, spontaneously fermented beer which it labelled as "Méthode Gueuze." However, the High Council for Artisanal Lambic Beers (HORAL) objected to the name, and the two parties arranged a meeting in Belgium.
-- (culture) Jester King invited other American brewers to use the Méthode Traditionelle designation for their gueuze-style beers, and proposed a set of standards and a logo for Méthode Traditionelle beers.
 - (inspiration) Gueuze is named after Geuzen.
 - (origin) Gueuze was first made in Senne Valley, Brussels.
+- (history) The name was first seen as the Dutch word 'geuze-bier' in a French text in 1829.
+- (about) Jester King Brewery had no status to represent other American brewers in this meeting, and American brewers were not bound by any agreements made by Jester King's representatives.
+- (culture) HORAL and Jester King agreed that Jester King would use the designation "Méthode Traditionelle" as a style name in the future.
 - (culture) Due to its lambic blend, gueuze has a different flavor than traditional ales and lagers.
 - (about) The original, unsweetened version is often referred to as "Oude Gueuze" ("Old Gueuze") and became more popular in the early 2000s.
 - (culture) Traditionally, gueuze, and the lambics from which it is made, have been produced in the area known as Pajottenland and in Brussels.
 - (culture) Some American craft breweries have begun blending young and old sour beers, to produce their own versions of the traditional gueuze.
+- (culture) Van Honsebrouck St. Louis Gueuze Fond Tradition (5%) St. Louis Premium Gueuze (4.5%)
 - (origin) Gueuze comes from Belgium.
 - (about) Not to be confused with Gose.
 
@@ -952,14 +953,14 @@ In French cuisine, à la zingara, sometimes spelled as à la singara, is a garni
 Fun facts:
 
 - (origin) Gypsy sauce may have originated from à la zingara.
-- (history) This term was used in the 1903 book Le guide culinaire written by Auguste Escoffier.
 - (inspiration) À la zingara is named after gypsy.
+- (about) Authorities in Hanover, Germany, issued an internal memo in October 2013 informing city staffers that they should avoid using the term to describe a type of schnitzel served in the cafeterias of city-run public buildings, instead calling it "Balkan-style" or "Budapest-style".
 
 More fun facts (when the user asks for more):
 
+- (history) This term was used in the 1903 book Le guide culinaire written by Auguste Escoffier.
 - (about) In August 2013, a group representing Romani and Sinti peoples called for commercial varieties of the sauce to be renamed, stating that use of the word gypsy is offensive and discriminatory, and has negative connotations.
-- (about) Authorities in Hanover, Germany, issued an internal memo in October 2013 informing city staffers that they should avoid using the term to describe a type of schnitzel served in the cafeterias of city-run public buildings, instead calling it "Balkan-style" or "Budapest-style".
-- (about) However, in August 2020, companies such as Knorr replaced the name with "Hungarian-style paprika sauce", citing the recent debates about racism, spurred by the George Floyd protests.
+- (about) In August 2020, companies such as Knorr replaced the name with "Hungarian-style paprika sauce", citing the recent debates about racism, spurred by the George Floyd protests.
 
 Learn more:
 

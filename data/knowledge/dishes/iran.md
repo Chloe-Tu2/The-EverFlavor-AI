@@ -32,15 +32,15 @@ Faloodeh, or paloodeh, is a traditional Iranian cold dessert similar to a sorbet
 
 Fun facts:
 
-- (about) In the 16th to 18th centuries, the Indo-Persian Mughal kings who ruled South Asia created a cold dessert beverage called falooda, which is a derivative of faloodeh..
-- (origin) Moreover, the Yunnanese desert paoluda also originates from this dessert.
+- (about) In the 16th to 18th centuries, the Indo-Persian Mughal kings who ruled South Asia created a cold dessert beverage called falooda, which is a derivative of faloodeh.
 - (culture) In Iran, faloodeh is sold in ice cream stores and coffee shops in flavors such as pistachio, saffron, rose water, and honey, and can be served alongside bastani sonnati, a traditional Persian ice cream.
+- (history) In Arabic medieval sources, it was known as faloothaj, for example in Al-Muḥkam wa-al-muḥīt al-aʻẓam.
 
 More fun facts (when the user asks for more):
 
 - (about) In 2023, the Ministry of Cultural Heritage, Tourism and Handicrafts added faloodeh-making to Iran's List of the Intangible Cultural Heritage of Humanity.
-- (history) In Arabic medieval sources, it was known as faloothaj, for example in Al-Muḥkam wa-al-muḥīt al-aʻẓam.
 - (origin) Faloodeh comes from Iran.
+- (origin) The Yunnanese desert paoluda also originates from this dessert.
 
 Learn more:
 

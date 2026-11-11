@@ -14,7 +14,7 @@ Fun facts:
 
 - (about) Blueberry pie was first eaten by early American settlers.
 - (history) Berry pie, including with blueberries, was documented in the US region of New England as early as 1872 in the Appledore Cook Book.
-- (origin) Blueberry pie comes from United States.
+- (origin) Blueberry pie comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -38,9 +38,9 @@ Karl Fazer Milk Chocolate, commonly known as Fazer Blue, is a Finnish brand of m
 
 Fun facts:
 
-- (origin) The chocolate was brought to market in 1922.
 - (about) At the 2012 Summer Olympics, Karl Fazer Milk Chocolate sponsored the Finnish sailing team.
 - (origin) Fazer Blue comes from Finland.
+- (origin) The chocolate was brought to market in 1922.
 
 Learn more:
 
@@ -113,7 +113,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) However, in 2008 new research demonstrated that kukko is a loan from Low German and shares the same origin as modern German kochen (to cook) and English cake.
+- (about) In 2008 new research demonstrated that kukko is a loan from Low German and shares the same origin as modern German kochen (to cook) and English cake.
 
 Learn more:
 
@@ -204,8 +204,8 @@ Kiss-Kiss is a brand of candy launched by the Finnish company Fazer in 1897.
 
 Fun facts:
 
-- (history) The candy wrapper has always featured playing kittens, and when the Finnish candy industry turned 100 years old in 1991, the cats got their own stamp.
 - (history) Kiss-Kiss dates from 1897-.
+- (history) The candy wrapper has always featured playing kittens, and when the Finnish candy industry turned 100 years old in 1991, the cats got their own stamp.
 
 Learn more:
 
@@ -302,7 +302,6 @@ More fun facts (when the user asks for more):
 - (history) In 1956, Chymos's new CEO Jouko Keränen had noticed the possibilities of the candy, but he thought the simple paper wrapper was too modest and common.
 - (history) Up to the 1930s, candy products in Finland were named along the lines of "Fazer mint chocolate" or "Chymos filled candies".
 - (history) In the 1950s after the war supermarkets became common in Finland, where customers picked their items from the shelf themselves and paid for them at the cashier's desk.
-- (culture) He sought some kind of French symbol other than the tricolour.
 
 Learn more:
 
@@ -452,14 +451,13 @@ Runeberg torte is a Finnish torte flavored with almonds and arrack or rum and we
 Fun facts:
 
 - (inspiration) The torte is named after the Finnish poet Johan Ludvig Runeberg (1804–1877) who, according to legend, regularly enjoyed the torte, made by his wife, with punsch for breakfast.
-- (history) Her recipe book from the 1850s has a recipe for the torte, believed to be a variation of an earlier recipe by confectioner Lars Astenius from Porvoo.
+- (history) The torte was popularized by Fredrik Edvard Ekberg, who began selling it at Café Ekberg in Helsinki in 1865.
 - (origin) Runeberg torte was first made by Johan Ludvig Runeberg.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) Popular legend says that Runeberg's wife, Fredrika Runeberg, created the dessert.
-- (history) The torte was popularized by Fredrik Edvard Ekberg, who began selling it at Café Ekberg in Helsinki in 1865.
-- (inspiration) In "A Wife-Changing Experience", the third episode of the 21st season of Family Guy series, the Runeberg torte is mentioned, and even Peter Griffin explains that it was named after J.
+- (inspiration) In "A Wife-Changing Experience", the third episode of the 21st season of Family Guy series, the Runeberg torte is mentioned, and even Peter Griffin explains that it was named after J. L. Runeberg.
 - (inspiration) Runeberg torte is named after Johan Ludvig Runeberg.
 - (origin) Runeberg torte comes from Finland.
 
@@ -616,16 +614,16 @@ Bark bread is a traditional food made with the inner bark (phloem) of certain tr
 
 Fun facts:
 
-- (history) During the 18th and early 19th centuries, Northern Europe experienced several very bad years of crop failure, particularly during the Little Ice Age of the mid-18th century.
+- (history) In 1742, samples of "emergency bread" were sent from Kristiansand, Norway, to the Royal Administration in Copenhagen, including bark bread, bread made from grainless husks and bread made from burned bones.
 - (culture) Bark bread seems to be a primarily Nordic tradition.
-- (origin) The grain harvest was badly affected, and creative solutions to make the flour last longer were introduced.
+- (origin) Bark bread comes from Scandinavia.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1742, samples of "emergency bread" were sent from Kristiansand, Norway, to the Royal Administration in Copenhagen, including bark bread, bread made from grainless husks and bread made from burned bones.
 - (culture) Bark bread is mentioned in medieval literature, and it may have an even older tradition among the Sami people, with the oldest findings of bark harvests being around 3000 years old.
-- (origin) Bark bread comes from Scandinavia.
 - (about) Not to be confused with straw bread.
+- (history) During the 18th and early 19th centuries, Northern Europe experienced several very bad years of crop failure, particularly during the Little Ice Age of the mid-18th century.
+- (origin) The grain harvest was badly affected, and creative solutions to make the flour last longer were introduced.
 
 Learn more:
 
@@ -761,8 +759,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Mead was originally brought to Finland in the 1500s from Lübeck and Riga.
 - (culture) Sima is traditionally a form of mead, an alcoholic beverage produced by fermenting a solution of honey and water, although in modern times the honey is generally replaced with different kinds of sugar, mostly syrup, which makes it a sugar wine.
+- (origin) Mead was originally brought to Finland in the 1500s from Lübeck and Riga.
 - (about) Not to be confused with mead.
 
 Learn more:

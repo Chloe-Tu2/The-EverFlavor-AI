@@ -11,14 +11,14 @@ Kleicha (Persian: کلوچه, romanized: koluche; North Mesopotamian Arabic: ك�
 
 Fun facts:
 
-- (culture) These cookies were shaped to resemble a full or crescent moon that symbolized the arrival of Spring, which was often marked by the first full moon in late March or early April.
+- (culture) Kleicha comes in several traditional shapes and fillings.
 - (about) The most popular are the ones filled with dates (kleichat tamur).
 - (inspiration) The origins of kleicha can be traced back to ancient Mesopotamia, where Sumerians would prepare this cookie to celebrate the New Year and Ishtar, one of the more prominent goddesses in ancient Sumerian mythology.
 
 More fun facts (when the user asks for more):
 
-- (culture) Kleicha comes in several traditional shapes and fillings.
 - (culture) Muslims make kleicha for Eid al-Fitr and Eid al-Adha and also for their celebrations, weddings or special ceremonies and they are stuffed with many different fillings like dates, pistachios, walnuts, coconuts, dried figs, sesame seeds or Turkish delight.
+- (culture) These cookies were shaped to resemble a full or crescent moon that symbolized the arrival of Spring, which was often marked by the first full moon in late March or early April.
 
 Learn more:
 
@@ -40,7 +40,7 @@ Tharid also known as thareed, trid, fareed, tashrib, tashreeb or taghrib is a br
 Fun facts:
 
 - (culture) As an Arab national dish it is considered strongly evocative of Arab identity during the lifetime of the Islamic prophet Muhammad.
-- (origin) Tharid comes from Arabian Peninsula.
+- (origin) Tharid comes from the Arabian Peninsula.
 - (culture) According to a widespread cultural tradition, this unremarkable and humble dish was the prophet's favorite food.
 
 Learn more:
@@ -89,7 +89,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Harees comes from Arabian Peninsula.
+- (origin) Harees comes from the Arabian Peninsula.
 
 Learn more:
 
@@ -130,7 +130,7 @@ Khaliat al Nahl, also called Khaliat Nahl, or Honeycomb Bread in English, is an 
 
 Fun facts:
 
-- (origin) Khaliat nahl comes from Yemen, Oman, Arabian Peninsula.
+- (origin) Khaliat nahl comes from Yemen, Oman, the Arabian Peninsula.
 
 Learn more:
 

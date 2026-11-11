@@ -101,8 +101,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) An alternative explanation has "crazy" referencing the inclusion of chilis in the dish; Schwartz describes this as less likely, because he believes the dish likely predated the introduction of chilis and tomatoes to Italy in the early 16th century.
-- (culture) There are many variations of this sauce, from light broths to thick tomato based sauces, which have been found on all types of seafood (not just the traditional white fish) and even chicken.
 - (origin) Acqua pazza comes from Italy.
+- (culture) There are many variations of this sauce, from light broths to thick tomato based sauces, which have been found on all types of seafood (not just the traditional white fish) and even chicken.
 
 Learn more:
 
@@ -132,10 +132,10 @@ More fun facts (when the user asks for more):
 - (origin) Acquacotta is a traditional dish originating in Maremma, a coastal region of Italy which spans the southern half of Tuscany's coast and runs into northern Lazio.
 - (about) Historically, the soup was sometimes served as an antipasto dish, the first course in an Italian meal.
 - (about) Acquacotta was invented in part as a means to make stale, hardened bread edible.
-- (history) In the earlier 1800s, some preparations used agresto, a juice derived from half-ripened grapes, in place of tomatoes, which were not a common food in Italy prior to "the latter decades of the nineteenth century".
 - (culture) Acquacotta was originally a peasant food, and has been described as an ancient dish, the recipe of which was derived in part by people who lived in the Tuscan forest working as colliers (charcoal burners), who were typically very poor, being "traditionally among the poorest of people".
 - (about) Acquacotta remains a popular dish in Maremma and throughout Italy.
 - (origin) Acquacotta comes from Italy.
+- (history) In the earlier 1800s, some preparations used agresto, a juice derived from half-ripened grapes, in place of tomatoes, which were not a common food in Italy prior to "the latter decades of the nineteenth century".
 
 Learn more:
 
@@ -177,11 +177,11 @@ Fun facts:
 
 - (origin) It is believed to have originated in Italian cafés, where espresso and gelato were regularly served, during the mid-1900s.
 - (about) The origins of affogato are uncertain, and no specific inventor or date of invention has been established.
-- (history) The dessert spread internationally in the late-1900s with the development of modern café culture.
+- (history) English-language dictionaries document the use of affogato in 1988.
 
 More fun facts (when the user asks for more):
 
-- (history) English-language dictionaries document the use of affogato in 1988.
+- (history) The dessert spread internationally in the late-1900s with the development of modern café culture.
 - (about) Another variation with a caramel espresso shot with vanilla ice cream is known as the Afragato.
 - (about) Not to be confused with Persea americana.
 
@@ -285,13 +285,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest known written attestations of the name date from the early 20th century.
 - (history) In 1911, Eugenio Rontini's I briganti celebri italiani mentioned "spaghetti alla matriciana", although the dish was described as being seasoned only with pepper and pecorino cheese.
 - (history) The earliest known occurrence of the expression "spaghetti all'amatriciana" accompanied by a recipe dates to 1914, in Amedeo Pettini's Manuale di cucina e di pasticceria.
 - (origin) The recipe was well received and became a classic of Roman cuisine, although it originated elsewhere.
 - (culture) The Italian government has named it a prodotto agroalimentare tradizionale (PAT) of Lazio, and amatriciana tradizionale is registered as a traditional speciality guaranteed (TSG) in the EU and the UK.
 - (about) Boni also distinguished tomato-based amatriciana from a tomato-free preparation called "spaghetti alla marchiciana", corresponding substantially to the dish now known as pasta alla gricia. between Rome and Amatrice.
 - (origin) Amatriciana comes from Italy.
+- (history) The earliest known written attestations of the name date from the early 20th century.
 
 Learn more:
 
@@ -392,15 +392,15 @@ Arancini, also known as arancine, are Italian rice balls that are stuffed, coate
 Fun facts:
 
 - (origin) Arancini are said to have originated in 10th-century Sicily, at a time when the island was under Arab rule.
-- (history) This commemorates the arrival of a grain supply ship on Saint Lucy's Day in 1646, relieving a severe famine.
 - (inspiration) Arancini al ragù produced in eastern Sicily, particularly in cities such as Catania and Messina, have a conical shape inspired by the volcano Etna.
+- (culture) In the cities of Palermo, Syracuse, and Trapani in Sicily, arancini are a traditional food for the feast of Saint Lucy on 13 December, when bread and pasta are not eaten.
 
 More fun facts (when the user asks for more):
 
-- (culture) In the cities of Palermo, Syracuse, and Trapani in Sicily, arancini are a traditional food for the feast of Saint Lucy on 13 December, when bread and pasta are not eaten.
 - (about) Today, with the increasing popularity of this finger food in Italy, arancini are found all year round at most Sicilian food outlets.
 - (origin) Arancini comes from Italy.
 - (about) Not to be confused with Arancini.
+- (history) This commemorates the arrival of a grain supply ship on Saint Lucy's Day in 1646, relieving a severe famine.
 
 Learn more:
 
@@ -475,14 +475,14 @@ Baci di dama are a type of northern Italian sandwich biscuit consisting of two h
 
 Fun facts:
 
-- (history) They were created between 1852 and 1893 as a way to utilize hazelnuts, which are local to Piedmont.
 - (origin) Baci di dama originate from the town of Novi Ligure in the region of Piedmont.
-- (culture) Though traditionally made with hazelnut cookies, there are currently many modern flavour variations.
+- (culture) Baci di dama have been classified as a traditional, protected Piedmontese product (PAT, i.e. prodotti agroalimentari tradizionali).
+- (history) They were created between 1852 and 1893 as a way to utilize hazelnuts, which are local to Piedmont.
 
 More fun facts (when the user asks for more):
 
-- (culture) Baci di dama have been classified as a traditional, protected Piedmontese product (PAT, i.e. prodotti agroalimentari tradizionali).
 - (origin) Baci di dama comes from Italy.
+- (culture) Though traditionally made with hazelnut cookies, there are currently many modern flavour variations.
 
 Learn more:
 
@@ -565,9 +565,9 @@ Bavette is a type of pasta.
 
 Fun facts:
 
-- (origin) This type of pasta originated in the Italian city of Genoa, and is the most typical Ligurian pasta shape.
 - (culture) Bavette is frequently paired with traditional pesto sauces, but also pairs well with vegetables.
 - (origin) Bavette comes from Italy.
+- (origin) This type of pasta originated in the Italian city of Genoa, and is the most typical Ligurian pasta shape.
 
 Learn more:
 
@@ -650,14 +650,14 @@ Bigoli is an extruded pasta in the form of a long and thick strand.
 
 Fun facts:
 
+- (history) In 1604, a pasta maker from Padua named Bartolomio Veronese, known as Abbondanza, patented a press for making bigoli.
+- (origin) Bigoli comes from Italy.
 - (history) They were first mentioned as bigoli in the 15th century at the court of the bishop of Eraclea.
-- (origin) They only agree that they originated in what is now the Veneto region.
-- (history) According to one theory, its origin dates back to the 14th century during the Venetian Turkish Wars.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1604, a pasta maker from Padua named Bartolomio Veronese, known as Abbondanza, patented a press for making bigoli.
-- (origin) Bigoli comes from Italy.
+- (history) According to one theory, its origin dates back to the 14th century during the Venetian Turkish Wars.
+- (origin) They only agree that they originated in what is now the Veneto region.
 
 Learn more:
 
@@ -699,9 +699,9 @@ Bisciola is an Italian sweet leavened bread originating in the Valtellina Valley
 
 Fun facts:
 
-- (inspiration) A legend states that in 1797, Napoleon was passing through the region and ordered his cook to prepare a sweet using local ingredients.
 - (culture) Since bisciola was traditionally a peasant food, its original recipe was never recorded and is probably an "ancient cake recipe".
 - (origin) Bisciola was first made in Valtellina.
+- (inspiration) A legend states that in 1797, Napoleon was passing through the region and ordered his cook to prepare a sweet using local ingredients.
 
 More fun facts (when the user asks for more):
 
@@ -730,14 +730,14 @@ Biscotti are Italian almond biscuits originating in the city of Prato, Tuscany.
 Fun facts:
 
 - (origin) The Italian word biscotti (sing.: biscotto) originates from the Medieval Latin word biscoctus, meaning 'twice-cooked', which described items that were made from dough and baked twice, so they became very dry and could be stored for long periods of time.
-- (inspiration) In the Catalan city of Vic, Carquinyoli is also the name of a ceremonial figure who orchestrates an annual summer festival in honor of the patron saint Albert of Sicily.
 - (history) Biscotti dates from 1300-.
+- (culture) In Italy, they are known as cantucci, biscotti di Prato or biscotti etruschi and may be dipped in a drink, traditionally Vin Santo.
 
 More fun facts (when the user asks for more):
 
-- (culture) In Italy, they are known as cantucci, biscotti di Prato or biscotti etruschi and may be dipped in a drink, traditionally Vin Santo.
 - (about) Smaller biscotti may be known as biscottini or cantuccini.
 - (origin) Biscotti comes from Italy.
+- (inspiration) In the Catalan city of Vic, Carquinyoli is also the name of a ceremonial figure who orchestrates an annual summer festival in honor of the patron saint Albert of Sicily.
 
 Learn more:
 
@@ -765,7 +765,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) An 1863 dictionary defines it as: Italian:...una larga fetta di carne, tagliata dalla culatta o d'altronde, poco arrostito sulla gratella, or altramente, e che si mangia così guascotta....a thick slice of meat, cut from the rump or elsewhere, lightly cooked on a grill or otherwise, and eaten undercooked.
+- (history) An 1863 dictionary defines it as: Italian:..una larga fetta di carne, tagliata dalla culatta o d'altronde, poco arrostito sulla gratella, or altramente, e che si mangia così guascotta...a thick slice of meat, cut from the rump or elsewhere, lightly cooked on a grill or otherwise, and eaten undercooked.
 - (history) The Italian gastronomist Pellegrino Artusi, in his 1891 cooking manual La scienza in cucina e l'arte di mangiare bene' (The Science of Cooking and the Art of Eating Well), defines the cut of the steak as follows: "Florentine steak.
 
 Learn more:
@@ -807,13 +807,13 @@ Bollito misto is an Italian dish consisting of various tougher cuts of beef and 
 
 Fun facts:
 
-- (about) In Piedmont and Lombardy beef is the main ingredient, and in Emilia-Romagna pork products—cotechino and zampone—take first place.
-- (origin) Bollito misto comes from Italy.
 - (about) Bollito misto and its many regional variations are eaten throughout Italy; it is popular in Emilia-Romagna, Piedmont, and Lombardy.
+- (origin) Bollito misto comes from Italy.
+- (about) Anna Del Conte writes in her 2001 Gastronomy of Italy that the mixture of meats in a bollito misto varies by locality.
 
 More fun facts (when the user asks for more):
 
-- (about) Anna Del Conte writes in her 2001 Gastronomy of Italy that the mixture of meats in a bollito misto varies by locality.
+- (about) In Piedmont and Lombardy beef is the main ingredient, and in Emilia-Romagna pork products—cotechino and zampone—take first place.
 
 Learn more:
 
@@ -843,13 +843,13 @@ More fun facts (when the user asks for more):
 
 - (history) The earliest documented recipe for a ragù served with pasta dates back to the end of the 18th century in Imola, near Bologna, from Alberto Alvisi, cook of the local Cardinal Barnaba Chiaramonti, later Pope Pius VII.
 - (history) In 1891, Pellegrino Artusi published a recipe for a ragù characterized as bolognese in his cookbook.
-- (history) Some have suggested the recipe registered by the Accademia Italiana della Cucina in 1982 as the "most authentic".
 - (inspiration) Bolognese sauce is named after Bologna.
 - (about) Although in Italy ragù alla bolognese is not used with spaghetti (but rather with flat pasta, such as tagliatelle), in Anglophone countries, "spaghetti bolognese" has become a popular dish.
 - (about) A new version of the classic recipe was published in 2023 by the Italian Academy of Cuisine; this new version was also deposited in the Bologna Chamber of Commerce.
 - (culture) According to UK cookbook author and food writer Felicity Cloake, "The fact is that there is no definitive recipe for a Bolognese meat sauce, but to be worthy of the name, it should respect the traditions of the area."
 - (culture) In Bologna, ragù is traditionally paired and served with tagliatelle made with eggs and northern Italy's soft wheat flour.
 - (origin) Bolognese sauce comes from Italy.
+- (history) Some have suggested the recipe registered by the Accademia Italiana della Cucina in 1982 as the "most authentic".
 
 Learn more:
 
@@ -980,8 +980,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Waverley Root noted in 1971 that bruschetto was the Roman term for the dish, with other Italians referring to it as schiena d'asino.
-- (history) In ancient Rome, the first taste of olive oil was "likely an oil-soaked piece of bread that may or may not have been rubbed with garlic".
 - (about) Not to be confused with Bruschetta.
+- (history) In ancient Rome, the first taste of olive oil was "likely an oil-soaked piece of bread that may or may not have been rubbed with garlic".
 
 Learn more:
 
@@ -1005,16 +1005,16 @@ Fun facts:
 
 - (history) Until the Italian economic miracle of the 1950s and 1960s, tougher cuts of the beef were used for bruscitti, which required longer cooking.
 - (origin) The dish probably originated in the Middle Ages.
-- (about) The first hypothesis on its origin traces its birth to the use of shreds of beef that remained attached to tanning hides (in fact, many tanneries were active in Busto Arsizio).
+- (culture) Bruscitti is a dish of the ancient peasant tradition.
 
 More fun facts (when the user asks for more):
 
 - (history) In 1975 in Busto Arsizio the Magistero dei Bruscitti ('Bruscitti Magisterium') was founded, an association with the aim of spreading knowledge of local rustic cuisine.
-- (culture) Bruscitti is a dish of the ancient peasant tradition.
-- (culture) Tradition dictates that the meat is cut into small pieces using a knife so as not to lose its juices.
 - (about) On 16 December 2012, the mayor of Busto Arsizio established "the day of bruscitti" (Ul dí di bruscitti in Lombard), which occurs every second Thursday in November.
 - (about) In 2014 the comune of Busto Arsizio recognized the denominazione comunale d'origine (De.CO) for bruscitti.
 - (origin) Bruscitti comes from Italy.
+- (about) The first hypothesis on its origin traces its birth to the use of shreds of beef that remained attached to tanning hides (in fact, many tanneries were active in Busto Arsizio).
+- (culture) Tradition dictates that the meat is cut into small pieces using a knife so as not to lose its juices.
 
 Learn more:
 
@@ -1036,8 +1036,8 @@ Brutti ma buoni, also known as mandorlati di San Clemente, is a type of hazelnut
 
 Fun facts:
 
-- (history) Their origin is disputed, but they have been made since at least the mid-1800s.
 - (origin) Brutti ma buoni comes from Italy.
+- (history) Their origin is disputed, but they have been made since at least the mid-1800s.
 
 Learn more:
 
@@ -1329,12 +1329,12 @@ Cannelloni are a cylindrical type of egg-based stuffed pasta generally served ba
 Fun facts:
 
 - (history) Early references to maccheroni ripieni (stuffed pasta) can be traced back to 1770, but the word cannelloni seems to have appeared at the turn of the 20th century.
-- (about) Popular stuffings include spinach and ricotta or minced beef.
 - (culture) Cannelloni are also a typical dish of the Catalan cuisine, where they are called canelons and traditionally consumed on Saint Stephen's Day.
+- (origin) Cannelloni comes from Italy.
 
 More fun facts (when the user asks for more):
 
-- (origin) Cannelloni comes from Italy.
+- (about) Popular stuffings include spinach and ricotta or minced beef.
 
 Learn more:
 
@@ -1361,9 +1361,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) They also introduced the technique of combining nuts and fruits with sugar and honey.
 - (origin) Cannoli comes from Italy.
 - (about) Not to be confused with Connolly.
+- (origin) They also introduced the technique of combining nuts and fruits with sugar and honey.
 
 Learn more:
 
@@ -1426,9 +1426,9 @@ Cappelletti are ring-shaped stuffed pasta; they are named for the characteristic
 
 Fun facts:
 
-- (culture) The origins of the recipe, very widespread on a territorial basis, are ancient, traditionally and historically linked to Emilia-Romagna and Marche.
-- (origin) Cappelletti comes from Italy.
 - (culture) Some recent sources specifically indicate the area in the Cesena–Ferrara–Reggio Emilia triangle as the place of origin, others report Marche as a land where cappelletti are of ancient tradition.
+- (origin) Cappelletti comes from Italy.
+- (culture) The origins of the recipe, very widespread on a territorial basis, are ancient, traditionally and historically linked to Emilia-Romagna and Marche.
 
 Learn more:
 
@@ -1506,16 +1506,16 @@ More fun facts (when the user asks for more):
 
 - (origin) The salad's name references the island of Capri, where it is believed to have originated.
 - (inspiration) Caprese salad is named after the island of Capri, situated in the Bay of Naples, Campania.
-- (history) Others give the creation as a patriotic homage to the Italian flag, or a way to appease the palates of vacationing royalty and politicians in the 20th century.
 - (history) According to the Capri food writer Marino Barendson, the salad gained its name in the 1930s at the Ristorante Luigi ai Faraglioni.
 - (history) The Naples Chamber of Commerce dates the beginning of the dish's prominence in Capri to the 1920s when the founder of the Futurist movement Filippo Tommaso Marinetti served it over a series of dinners at the Grand Hotel Quisisana.
-- (history) At one point in the 20th century, preparation involved chopping, salting, and draining tomatoes, before seasoning with salt, pepper, oil, and garlic and tossing with basil and diced mozzarella.
-- (history) By the 1990s, oregano was a popular inclusion, particularly on Capri which grew a sweeter local variety, as was a domesticated arugula that was popularly described as "wild".
-- (history) During the 1950s, Capri was frequented by celebrities, royalty, and politicians.
 - (about) Kate Wickers in Italy Magazine credits the dish's international awareness to this period, after it was served to a visiting King Farouk of Egypt.
 - (inspiration) Caprese salad is named after Capri.
 - (origin) Caprese salad comes from Italy.
 - (about) Not to be confused with Caprese Michelangelo.
+- (history) At one point in the 20th century, preparation involved chopping, salting, and draining tomatoes, before seasoning with salt, pepper, oil, and garlic and tossing with basil and diced mozzarella.
+- (history) By the 1990s, oregano was a popular inclusion, particularly on Capri which grew a sweeter local variety, as was a domesticated arugula that was popularly described as "wild".
+- (history) During the 1950s, Capri was frequented by celebrities, royalty, and politicians.
+- (history) Others give the creation as a patriotic homage to the Italian flag, or a way to appease the palates of vacationing royalty and politicians in the 20th century.
 
 Learn more:
 
@@ -1563,17 +1563,16 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The first attested recipe is in an illustrated cookbook published in Chicago in 1952 by Patricia Bronté.
 - (history) In 1954, the first recipe for carbonara published in Italy appeared in La Cucina Italiana magazine, although the recipe featured pancetta, garlic, and Gruyère cheese.
 - (history) The dish took its modern form and name in the middle of the 20th century.
 - (history) The names pasta alla carbonara and spaghetti alla carbonara are unrecorded before the Second World War; notably, it is absent from Ada Boni's 1930 La cucina romana.
 - (history) The 1931 edition of the Guide of Italy of the TCI describes a pasta (strascinati) dish from Cascia and Monteleone di Spoleto, in Umbria, whose sauce contains whipped eggs, sausage, and pork fat and lean, which could be considered as a precursor of carbonara, although it does not contain any cheese.
 - (history) In 1950, the Italian newspaper La Stampa said that American officers had been seeking out "spaghetti alla carbonara" in Trastevere restaurants for years, but similarly didn't describe it.
 - (history) It should also be noted that a major Italian cookbook published in 1950, Il cucchiaio d'argento, has no mention of this dish.
-- (history) His cooking is portrayed as reflecting this influence in Bronté's 1952 cookbook.
 - (inspiration) Carbonara is named after charcoal burner.
+- (history) The first attested recipe is in an illustrated cookbook published in Chicago in 1952 by Patricia Bronté.
+- (origin) Carbonara comes from the United States, Italy.
 - (culture) While guanciale, a cured pork jowl, is traditional, some variations use pancetta, and lardons of smoked bacon are a common substitute outside Italy.
-- (origin) Carbonara comes from United States, Italy.
 
 Learn more:
 
@@ -1805,9 +1804,9 @@ Casunziei (also called casonciei, casanzes or csanzöi) is the name in Ladin for
 
 Fun facts:
 
-- (culture) They are commonly homemade and are typical of the culinary tradition of the Dolomites area, in the northeastern part of Italy, especially the provinces of Belluno, Bolzano, and Trento.
-- (origin) Casunziei comes from Italy.
 - (culture) At Cencenighe Agordino, casunziei served with ground poppy seeds and honey were a traditional Christmas Eve dish.
+- (origin) Casunziei comes from Italy.
+- (culture) They are commonly homemade and are typical of the culinary tradition of the Dolomites area, in the northeastern part of Italy, especially the provinces of Belluno, Bolzano, and Trento.
 
 Learn more:
 
@@ -1829,14 +1828,14 @@ Cavallucci are an Italian Christmas pastry made with anise, walnuts, candied fru
 
 Fun facts:
 
-- (history) They are a version of a pastry which is traceable to the reign of Lorenzo the Magnificent (1449–1492), when they were called "biriquocoli".
 - (inspiration) According to the most popular version of the story, cavallucci were served to travelers on horseback as a source of nourishment for long trips.
-- (culture) The chewy pastries are similar to a cookie or biscuit and traditionally use Tuscan millefiori honey as an essential ingredient in the dough.
+- (history) Cavallucci dates from 1500-.
+- (origin) Cavallucci comes from Italy.
 
 More fun facts (when the user asks for more):
 
-- (history) Cavallucci dates from 1500-.
-- (origin) Cavallucci comes from Italy.
+- (history) They are a version of a pastry which is traceable to the reign of Lorenzo the Magnificent (1449–1492), when they were called "biriquocoli".
+- (culture) The chewy pastries are similar to a cookie or biscuit and traditionally use Tuscan millefiori honey as an essential ingredient in the dough.
 
 Learn more:
 
@@ -1856,13 +1855,13 @@ Cavatappi, also known as spirali, cellentani, amori, fusilli rigati, or curly ma
 
 Fun facts:
 
-- (history) This particular shape was born in the 1970s at Barilla in Parma, when a set of pasta dies had been mistakenly made with a spiral (instead of straight) set of lines.
 - (inspiration) Cavatappi is an Italian word created by compounding cava and tappi, which literally means 'stopper extractor' (a corkscrew).
 - (about) Barilla decided to name it after one of the most famous showpeople of the time, Adriano Celentano, who was nicknamed Il Molleggiato.
+- (origin) Cavatappi comes from Italy.
 
 More fun facts (when the user asks for more):
 
-- (origin) Cavatappi comes from Italy.
+- (history) This particular shape was born in the 1970s at Barilla in Parma, when a set of pasta dies had been mistakenly made with a spiral (instead of straight) set of lines.
 
 Learn more:
 
@@ -1882,8 +1881,8 @@ Cavatelli are small pasta shells made from semolina or other flour dough, common
 
 Fun facts:
 
-- (about) Parmitieddi are usually served as a first course on Palm Sunday because their shape, similar to that of a tree leaf, recalls that of a palm.
 - (origin) Cavatelli comes from Italy.
+- (about) Parmitieddi are usually served as a first course on Palm Sunday because their shape, similar to that of a tree leaf, recalls that of a palm.
 - (about) Not to be confused with cave.
 
 Learn more:
@@ -2021,8 +2020,8 @@ Ciccioli are pressed cakes of fatty pork.
 
 Fun facts:
 
-- (about) They are known under this name in Emilia-Romagna, being popular in Modena, Reggio Emilia, Bologna, Parma, Piacenza, and Romagna.
 - (origin) Ciccioli comes from Italy.
+- (about) They are known under this name in Emilia-Romagna, being popular in Modena, Reggio Emilia, Bologna, Parma, Piacenza, and Romagna.
 
 Learn more:
 
@@ -2065,20 +2064,20 @@ The cioccolato di Modica (Modica chocolate or chocolate of Modica, also known as
 
 Fun facts:
 
-- (history) Ruta was managing director of Antica Dolceria Bonajuto, founded in 1880 and called Caffè Roma until 1992.
+- (history) Modica chocolate only became nationally known in 1999, when the chocolatier Franco Ruta published a newspaper article and subsequently appeared on the Maurizio Costanzo Show on television.
 - (inspiration) Cioccolato di Modica is named after Modica.
 - (culture) Modica chocolate is made "cold" (a freddo) according to a traditional recipe and is not conched.
 
 More fun facts (when the user asks for more):
 
-- (history) Their noble house was the most influential feudal power in southern Italy in the 16th century, during the Spanish domination of Sicily.
-- (history) Modica chocolate only became nationally known in 1999, when the chocolatier Franco Ruta published a newspaper article and subsequently appeared on the Maurizio Costanzo Show on television.
-- (history) In 2017, the consortium also applied for protection at EU level as protected geographical indication for the same designation, which was granted in October 2018 with the Implementing Regulation (EU) 2018/1529.
+- (history) Ruta was managing director of Antica Dolceria Bonajuto, founded in 1880 and called Caffè Roma until 1992.
 - (origin) The specialty was introduced in the County of Modica by the Spaniards, during their domination in southern Italy.
 - (about) Cioccolato di Modica has been in the hands of Franco Ruta's son Pierpaolo Ruta since 2016.
 - (about) At the same time as Ruta's television appearance, the popular police series Inspector Montalbano, which was partly filmed in Modica, was broadcast on Italian television.
 - (about) In 2003, 20 local producers founded the Consorzio di Tutela del Cioccolato di Modica to protect Cioccolato di Modica as a protected geographical indication (PGI).
 - (origin) Cioccolato di Modica comes from Italy.
+- (history) Their noble house was the most influential feudal power in southern Italy in the 16th century, during the Spanish domination of Sicily.
+- (history) In 2017, the consortium also applied for protection at EU level as protected geographical indication for the same designation, which was granted in October 2018 with the Implementing Regulation (EU) 2018/1529.
 
 Learn more:
 
@@ -2214,9 +2213,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The first mention of a bread similar to current coppia ferrarese dates from 1536 when, according to Cristoforo da Messisbugo, the Duke of Este was offered a pane ritorto ("woven bread") during the Carnival.
+- (origin) Coppia ferrarese comes from Italy.
 - (culture) The tradition of cooking this sort of bread remained throughout history until the unification of Italy.
 - (about) In 2001, the recipe gained PGI status under European Union law.
-- (origin) Coppia ferrarese comes from Italy.
 
 Learn more:
 
@@ -2307,9 +2306,9 @@ The cremino is a chocolate originating in the Piedmont region of Italy.
 
 Fun facts:
 
-- (history) This chocolate was created in the first half of the 19th century by Ferdinando Baratti who, with his associate Edoardo Milano in a laboratory in Turin (the future caffe Baratti & Milano), produced liquors and sweets.
+- (history) The first documentation about cremino are from 1934.
 - (origin) Cremino comes from Italy.
-- (history) However, the first documentation about cremino are from 1934.
+- (history) This chocolate was created in the first half of the 19th century by Ferdinando Baratti who, with his associate Edoardo Milano in a laboratory in Turin (the future caffe Baratti & Milano), produced liquors and sweets.
 
 Learn more:
 
@@ -2329,9 +2328,9 @@ Crescentine (sing.: crescentina), crescente (sing.: crescenta) or tigelle (sing.
 
 Fun facts:
 
-- (culture) They are made with flour, water, salt, and yeast, and traditionally eaten filled with cunza, a spread made from pork lard and flavoured with garlic and rosemary or with cold cuts, boar, rabbit, cheese, salty dressings or sweet spreads.
-- (origin) Crescentina modenese comes from Italy.
 - (culture) In the Apennines, crescente have long been eaten at home or enjoyed in traditional restaurants, but in the last decade some fast food and casual restaurants have added crescente to their menus.
+- (origin) Crescentina modenese comes from Italy.
+- (culture) They are made with flour, water, salt, and yeast, and traditionally eaten filled with cunza, a spread made from pork lard and flavoured with garlic and rosemary or with cold cuts, boar, rabbit, cheese, salty dressings or sweet spreads.
 
 Learn more:
 
@@ -2375,11 +2374,11 @@ Fun facts:
 
 - (history) In the 18th century, in English it was typically spelled croquet.
 - (about) Not to be confused with Polish croquette.
-- (history) They are mentioned in a 1706 English dictionary.
+- (history) Croquettes of the modern type, with a thick binder, are documented in an 1822 English cookbook by the French cook Louis Eustache Ude.
 
 More fun facts (when the user asks for more):
 
-- (history) Croquettes of the modern type, with a thick binder, are documented in an 1822 English cookbook by the French cook Louis Eustache Ude.
+- (history) They are mentioned in a 1706 English dictionary.
 
 Learn more:
 
@@ -2510,12 +2509,12 @@ Cupeta or copeta (originating from Arabic qubbayt, literally meaning 'preserved 
 Fun facts:
 
 - (history) The first explicit record of its existence in Italy dates back to 1287.
-- (origin) Several sources (including official Italian ministerial ones) state that the name comes from the Latin word cupedia; however, this is an incorrect etymological attribution made by Matteo Camera in 1838.
+- (origin) Cupeta comes from Italy.
 - (culture) The dessert was part of the wedding feast of Bona Sforza and Sigismund I the Old in 1517.
 
 More fun facts (when the user asks for more):
 
-- (origin) Cupeta comes from Italy.
+- (origin) Several sources (including official Italian ministerial ones) state that the name comes from the Latin word cupedia; however, this is an incorrect etymological attribution made by Matteo Camera in 1838.
 
 Learn more:
 
@@ -2726,14 +2725,14 @@ Fettuccine Alfredo is a pasta dish consisting of fettuccine tossed with butter a
 
 Fun facts:
 
-- (origin) Originating in Rome in the early 20th century, the recipe is now known primarily in the United States and other countries.
 - (inspiration) Fettuccine Alfredo is named after Alfredo Di Lelio, a Roman restaurateur who created and popularized it.
+- (origin) Fettuccine Alfredo was first made by Alfredo Di Lelio.
 - (inspiration) Fettuccine Alfredo is named after Alfredo Di Lelio.
 
 More fun facts (when the user asks for more):
 
-- (origin) Fettuccine Alfredo was first made by Alfredo Di Lelio.
-- (origin) Fettuccine Alfredo comes from United States, Italy.
+- (origin) Originating in Rome in the early 20th century, the recipe is now known primarily in the United States and other countries.
+- (origin) Fettuccine Alfredo comes from the United States, Italy.
 
 Learn more:
 
@@ -2753,9 +2752,9 @@ Filindeu is a rare type of pasta from the Barbagia region of Sardinia.
 
 Fun facts:
 
-- (history) In the 17th century, a Nuorese person accused of banditry built a small church in Lula as an ex voto to Saint Francis of Assisi for having been cleared of all charges against him.
 - (about) In 2016, it was noted that there were only ten women who knew how to make the pasta.
 - (origin) Filindeu comes from Italy.
+- (history) In the 17th century, a Nuorese person accused of banditry built a small church in Lula as an ex voto to Saint Francis of Assisi for having been cleared of all charges against him.
 
 More fun facts (when the user asks for more):
 
@@ -2888,13 +2887,13 @@ Fun facts:
 
 - (history) The first recipes for frico date to around 1450 by Maestro Martino, cook of the camerlengo of the Aquileia patriarch.
 - (about) There are two popular versions of the dish: one soft and thick, which is usually served in slices, and the other thin and crunchy, which can be used either as a garnish or as an appetizer.
-- (culture) While the soft version has a long tradition, the history of the thin version is disputed.
+- (origin) Frico comes from Italy.
 
 More fun facts (when the user asks for more):
 
 - (about) It received some public attention in Italy and the United States in 2013, when Friuli native Luca Manfè prepared it at the semi-finals of the fourth season of the television series MasterChef.
-- (origin) Frico comes from Italy.
 - (about) Not to be confused with Frico.
+- (culture) While the soft version has a long tradition, the history of the thin version is disputed.
 
 Learn more:
 
@@ -2942,8 +2941,8 @@ Frittella (pl.: frittelle) is a type of Italian fried doughnut made from dough, 
 
 Fun facts:
 
-- (origin) They are eaten in and around the Friuli-Venezia Giulia and Veneto regions; however, frittelle originated around the Giuliani areas of Trieste and Venice.
 - (history) Frittelle are included in the British Museum Cookbook by Michelle Berriedale-Johnson and a book about Venice from 1879.
+- (origin) They are eaten in and around the Friuli-Venezia Giulia and Veneto regions; however, frittelle originated around the Giuliani areas of Trieste and Venice.
 - (about) They are known as frìtołe in Venetian and frittelle or frittole in Italian.
 
 More fun facts (when the user asks for more):
@@ -3000,11 +2999,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) The butchering of the pig, in Calabria, is a true collective ritual, of a liberating and at the same time propitiatory, during which the threat of natural forces is imprisoned in a symbolic ritual and culture.
 - (culture) The frittole in Reggio Calabria, by tradition, are consumed during the Feast of Our Lady of Consolation, during which the aroma can be smelt around the old town, helping to create the colorful and distinctive festive atmosphere for the people.
-- (culture) In Mammola, an ancient tradition survives of singing a serenade during the killing of the pig, sung and played with accordion and guitar to honor the family.
 - (culture) This special evening is celebrated with friends and family with the tasting of frittole, accompanied by a glass of wine and bread pizza (cornbread), prepared during the day and cooked in the typical caddàra.
 - (culture) The frittole are consumed in many ways, but more traditionally during the weekly Saturday rituals u pani ca 'scorcìtta ('bun with rind'), accompanied by the local red wine.
+- (culture) The butchering of the pig, in Calabria, is a true collective ritual, of a liberating and at the same time propitiatory, during which the threat of natural forces is imprisoned in a symbolic ritual and culture.
+- (culture) In Mammola, an ancient tradition survives of singing a serenade during the killing of the pig, sung and played with accordion and guitar to honor the family.
 
 Learn more:
 
@@ -3050,10 +3049,6 @@ Fun facts:
 - (culture) Fusilli are traditionally made by wrapping pasta dough around a spindle, or fuso in Italian.
 - (origin) Fusilli comes from Italy.
 
-More fun facts (when the user asks for more):
-
-- (culture) Both busiata and busa come from the Arabic word bus, meaning the thin reed around which the dough was traditionally wound to make the pasta.
-
 Learn more:
 
 - quick: [Fusilli (Wikipedia)](https://en.wikipedia.org/wiki/Fusilli)
@@ -3093,8 +3088,8 @@ Garmugia, also referred to as gramugia, is an Italian soup originally from the t
 
 Fun facts:
 
-- (history) The soup's use in the cuisine of Lucca dates back to the 17th century.
 - (origin) Garmugia comes from Italy.
+- (history) The soup's use in the cuisine of Lucca dates back to the 17th century.
 
 Learn more:
 
@@ -3123,13 +3118,13 @@ More fun facts (when the user asks for more):
 
 - (about) In Florence, Cosimo Ruggeri is credited with creating one of the first gelati, fior di latte, at the court of Catherine de' Medici, in a competition with the theme "il piatto più singolare che si fosse mai visto".
 - (history) In the 1530s, Catherine de' Medici took gelato to Paris.
-- (history) Around 1565, Bernardo Buontalenti, an innovator in ice conservation, made a sorbet with ice, salt, lemon, wine, milk, sugar, egg, and honey, "plus orange and bergamot flavouring".
-- (about) Procopio obtained French citizenship, and a royal license from Louis XIV, making him the sole producer of the frozen dessert in the kingdom.
 - (about) Being one of the first to sell gelato directly to the public (prior to then it was reserved only for nobles), and making it known in the rest of Europe, Procopio is sometimes referred to as "the father of Italian gelato".
-- (culture) In English, however, the term has come to be used to refer to a specific style of ice cream derived from the Italian artisanal tradition.
 - (about) The largest ice cream cone in the world was created in 2011 in Rimini, Emilia-Romagna, during the 32nd edition of the International Exhibition of Handcrafted Gelato, Pastry, and Bakery.
 - (origin) Gelato comes from Italy.
 - (about) Not to be confused with Italian ice, Gelato.
+- (history) Around 1565, Bernardo Buontalenti, an innovator in ice conservation, made a sorbet with ice, salt, lemon, wine, milk, sugar, egg, and honey, "plus orange and bergamot flavouring".
+- (about) Procopio obtained French citizenship, and a royal license from Louis XIV, making him the sole producer of the frozen dessert in the kingdom.
+- (culture) In English, however, the term has come to be used to refer to a specific style of ice cream derived from the Italian artisanal tradition.
 
 Learn more:
 
@@ -3225,8 +3220,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Mixing hazelnut into "standard" chocolates began at an industrial scale in response to Britain's blockade of Napoleonic France and its allies in the early 19th century, which greatly limited Italian access to South American cocoa.
 - (inspiration) Gianduja's tricorner hat inspired the shape of the gianduiotto.
+- (history) Mixing hazelnut into "standard" chocolates began at an industrial scale in response to Britain's blockade of Napoleonic France and its allies in the early 19th century, which greatly limited Italian access to South American cocoa.
 
 Learn more:
 
@@ -3267,8 +3262,8 @@ The giurgiulena, also known as giuggiulena, cubaita or cumpittu, is a traditiona
 
 Fun facts:
 
-- (inspiration) The recipe is based on the composition of sesame seeds poured in honey and fixed by the caramelization of sugar (in an enriched version almonds and candied orange peel are also added), in the way of nougat.
 - (origin) Giurgiulena comes from Italy.
+- (inspiration) The recipe is based on the composition of sesame seeds poured in honey and fixed by the caramelization of sugar (in an enriched version almonds and candied orange peel are also added), in the way of nougat.
 
 Learn more:
 
@@ -3289,16 +3284,16 @@ Gnocchi are a varied family of pasta-like dumplings in Italian cuisine.
 
 Fun facts:
 
-- (about) They are usually eaten as a first course (primo) as an alternative to soups (minestre) or pasta, but they can also be served as a contorno (side dish) to some main courses.
 - (origin) After the potato was introduced to Europe, it was incorporated into gnocchi recipes in the late 19th century, as fees for milling wheat became too expensive for small landowners in central and northern Italy, encouraging the use of alternatives to flour when feasible.
-- (culture) Such variations are often considered to be non-traditional.
+- (about) They are usually eaten as a first course (primo) as an alternative to soups (minestre) or pasta, but they can also be served as a contorno (side dish) to some main courses.
+- (culture) Gnocchi has been a traditional dish since Roman times.
 
 More fun facts (when the user asks for more):
 
-- (culture) Gnocchi has been a traditional dish since Roman times.
 - (origin) Gnocchi was introduced by the Roman legions during the expansion of the empire into the countries of the European continent.
 - (about) Potato gnocchi are particularly popular in Lombardy, Abruzzo, Friuli-Venezia Giulia, Veneto, and Lazio.
 - (origin) Gnocchi comes from Italy, France.
+- (culture) Such variations are often considered to be non-traditional.
 
 Learn more:
 
@@ -3363,8 +3358,8 @@ Graffe or graffe napoletane are sugar-coated fried doughnuts with a dough made o
 
 Fun facts:
 
-- (history) The origin of these pastries in Campania can be traced back to the period of Austrian rule, following the Peace of Utrecht, during the 18th century.
 - (origin) Graffe comes from Italy.
+- (history) The origin of these pastries in Campania can be traced back to the period of Austrian rule, following the Peace of Utrecht, during the 18th century.
 
 Learn more:
 
@@ -3428,8 +3423,8 @@ Honey is a sweet and viscous foodstuff made by several species of bees, the best
 Fun facts:
 
 - (history) The first written records of beekeeping are from ancient Egypt, where honey was used to sweeten cakes, biscuits, and other foods and as a base for unguents in Egyptian hieroglyphs.
-- (about) The husbandry of bees is known as beekeeping or apiculture, with the cultivation of stingless bees usually referred to as meliponiculture.
 - (culture) Honey collection is an ancient activity, long preceding the honey bee's domestication; this traditional practice is known as honey hunting.
+- (about) The husbandry of bees is known as beekeeping or apiculture, with the cultivation of stingless bees usually referred to as meliponiculture.
 
 More fun facts (when the user asks for more):
 
@@ -3462,8 +3457,8 @@ The jota or Istrian stew is a soup made with beans and sauerkraut or sour turnip
 
 Fun facts:
 
-- (inspiration) The stew, based on etymology, most likely originated in Friuli before spreading east and south.
 - (origin) Jota comes from Croatia.
+- (inspiration) The stew, based on etymology, most likely originated in Friuli before spreading east and south.
 
 Learn more:
 
@@ -3528,9 +3523,9 @@ Lagane e ceci or lagane e cicciari, also known as pasta del brigante, is a pasta
 
 Fun facts:
 
+- (origin) Lagane e ceci comes from Italy.
 - (history) The custom may have emerged in the 20th century, or have origins in Calabria's medieval feudal society.
 - (culture) U cumbitu notably suspended class structures in Calabria, which was particularly afflicted by poverty and hunger, and was a symbol of social solidarity and fraternity.
-- (origin) Lagane e ceci comes from Italy.
 
 Learn more:
 
@@ -3600,14 +3595,14 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest discussion of the tomato in European literature appeared in a herbal written in 1544 by Pietro Andrea Mattioli, while the earliest cookbook found with tomato recipes was published in Naples in 1692, but the author had obtained these recipes from Spanish sources.
 - (origin) The first theory is that lasagna comes from Greek λάγανον (laganon), a flat sheet of pasta dough cut into strips.
-- (history) An important difference is the lack of tomatoes, which did not arrive in Europe until after Columbus reached the Americas in 1492.
 - (origin) Lasagna originated in Italy during the Middle Ages.
+- (history) The earliest discussion of the tomato in European literature appeared in a herbal written in 1544 by Pietro Andrea Mattioli, while the earliest cookbook found with tomato recipes was published in Naples in 1692, but the author had obtained these recipes from Spanish sources.
 - (culture) In ancient Rome, there was a dish similar to a traditional lasagna called lasana or lasanum (Latin for 'container' or 'pot') described in the book De re coquinaria by Marcus Gavius Apicius, but the word could have a more ancient origin.
 - (culture) It bore only a slight resemblance to the later traditional form of lasagna, featuring a fermented dough flattened into thin sheets, boiled, sprinkled with cheese and spices, and then eaten with a small pointed stick.
-- (about) In a recipe adapted for the Lenten fast, walnuts were recommended.
 - (origin) Lasagna comes from Italy.
+- (history) An important difference is the lack of tomatoes, which did not arrive in Europe until after Columbus reached the Americas in 1492.
+- (about) In a recipe adapted for the Lenten fast, walnuts were recommended.
 - (about) Not to be confused with Lavanya.
 
 Learn more:
@@ -3658,7 +3653,6 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Giacchero, author of a book on the economy of Genoa in the 1700s, wrote about linguine served with green beans, potatoes, and a Genovese specialty—basil pesto.
-- (history) He claimed it was the typical festive dish of Ligurian families of the 1700s.
 - (culture) Basil pesto is a traditional dish there, and is typically served over linguine.
 - (origin) Linguine comes from Italy.
 
@@ -3708,7 +3702,6 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The first is the Medieval Greek μακαρώνεια, 'dirge' (stated in sec.
 - (origin) Macaroni comes from Italy.
 - (about) Not to be confused with Macaroni.
 
@@ -3730,9 +3723,9 @@ Maccheroni alla molinara or alla mugnaia is an uneven, long and thick fresh past
 
 Fun facts:
 
-- (history) The history of this pasta dates back to the 14th century coinciding with the construction of watermills on the River Fino.
 - (about) Back then it was presented to Robert of Anjou, King of Naples, when he visited the area.
 - (origin) Maccheroni alla molinara comes from Italy.
+- (history) The history of this pasta dates back to the 14th century coinciding with the construction of watermills on the River Fino.
 
 Learn more:
 
@@ -3752,8 +3745,8 @@ Maccu (also known as maccu di fave and sometimes referred to as macco) is a Sici
 
 Fun facts:
 
-- (origin) The ancient Roman people may have invented or introduced the foodstuff, which was created from crushed fava beans.
 - (origin) Maccu comes from Italy.
+- (origin) The ancient Roman people may have invented or introduced the foodstuff, which was created from crushed fava beans.
 
 Learn more:
 
@@ -3798,11 +3791,11 @@ Fun facts:
 
 - (culture) Malloreddus have always been the most prepared traditional dish in Sardinia in all the most important occasions, both in festivals and village fairs, and during weddings.
 - (about) Malloreddus are typical of the area of Medio Campidano (province of South Sardinia), but correspond to equivalent types of pasta, made with similar techniques, but in smaller sizes, in other parts of Sardinia and also known as macarrones de punzu, cigiones, macarones caidos and cravaos.
-- (inspiration) The origin is to be found in the millenary scheme of the peasant cultivation-alimentation in the Mediterranean area, mainly based on the cultivation of wheat.
+- (origin) Malloreddus comes from Italy, Sardinia.
 
 More fun facts (when the user asks for more):
 
-- (origin) Malloreddus comes from Italy, Sardinia.
+- (inspiration) The origin is to be found in the millenary scheme of the peasant cultivation-alimentation in the Mediterranean area, mainly based on the cultivation of wheat.
 
 Learn more:
 
@@ -3843,15 +3836,15 @@ Maritozzo (plural: maritozzi) is a traditional Italian cream bun consisting of b
 Fun facts:
 
 - (culture) Since 2017, the city of Rome celebrates "Maritozzo Day" annually on the first Saturday of December.
-- (about) Its name derives from the custom of men offering this dessert to their girlfriends on the first Friday of March.
-- (history) Giuseppe Gioachino Belli referenced this usage in his sonnet "La Quaresima" in 1833 (La quaresima on Italian Wikisource).
+- (history) The writer Giggi Zanazzo further referenced maritozzi in his book Uses, Customs, and Prejudices of the Roman People (Usi, costumi e pregiudizi del popolo di Roma) in 1908.
+- (about) In Italy, savory versions of these buns are known as maritozzi salati.
 
 More fun facts (when the user asks for more):
 
-- (history) The writer Giggi Zanazzo further referenced maritozzi in his book Uses, Customs, and Prejudices of the Roman People (Usi, costumi e pregiudizi del popolo di Roma) in 1908.
-- (about) In Italy, savory versions of these buns are known as maritozzi salati.
 - (about) This version was known as the maritozzo quaresimale ("Lenten bun"), and was given the nickname er santo maritozzo ("the holy maritozzo") in the Romanesco dialect.
 - (origin) Maritozzo comes from Italy.
+- (about) Its name derives from the custom of men offering this dessert to their girlfriends on the first Friday of March.
+- (history) Giuseppe Gioachino Belli referenced this usage in his sonnet "La Quaresima" in 1833 (La quaresima on Italian Wikisource).
 
 Learn more:
 
@@ -3880,10 +3873,9 @@ More fun facts (when the user asks for more):
 
 - (history) According to some, the birth of the marron glacé occurred around the 16th century (thanks to a greater availability of sugar) in the Cuneo area, where large quantities of chestnuts were collected (and are still collected, to be exported throughout Europe).
 - (history) In 1667, François Pierre La Varenne, ten years' chef de cuisine to Nicolas Chalon du Blé, Marquis of Uxelles (near Lyon and a chestnut-producing area), and foremost figure of the nouvelle cuisine movement of the time, published his best-selling book Le parfaict confiturier.
-- (history) Nevertheless, that book was not mentioned (nor indeed any other) when the recipe, applied to cocoa beans, was in 1694 passed on to Jean-Baptiste Labat, a French missionary in Martinique.
+- (history) That book was not mentioned (nor indeed any other) when the recipe, applied to cocoa beans, was in 1694 passed on to Jean-Baptiste Labat, a French missionary in Martinique.
 - (history) Another early citation, still in French, is from 1690.
 - (history) Towards the end of the 19th century, Lyon was suffering from the collapse of the textile market, notably silk.
-- (about) He was the first businessman to build a factory to produce Spanish marron glacé using Galician raw chestnuts.
 
 Learn more:
 
@@ -3924,8 +3916,8 @@ Melon with ham, or melon and ham is a specialty of many countries in Europe incl
 
 Fun facts:
 
-- (origin) Its preparation involves a few ingredients, but many people have introduced different variations in its serving method.
 - (origin) Melon with ham comes from Mediterranean Basin.
+- (origin) Its preparation involves a few ingredients, but many people have introduced different variations in its serving method.
 
 Learn more:
 
@@ -3946,8 +3938,8 @@ Michetta or rosetta (Italian for 'little rose', used in the rest of the country)
 Fun facts:
 
 - (origin) Michetta is a variation of the Austrian Kaisersemmel brought to Milan in the 19th century during the Austrian rule.
-- (origin) Functionaries of the Austrian empire introduced a number of food products, including the Kaisersemmel, a type of bread with segments resembling a small rose.
 - (origin) Michetta comes from Italy.
+- (origin) Functionaries of the Austrian empire introduced a number of food products, including the Kaisersemmel, a type of bread with segments resembling a small rose.
 
 Learn more:
 
@@ -3985,13 +3977,13 @@ Fun facts:
 
 - (history) The word minestrone, meaning a thick vegetable soup, is attested in English from 1871.
 - (culture) Minestrone is traditionally made without meat, but it has no precise recipe and can be made with many different ingredients.
-- (origin) Spelt flour was also removed from soups, as bread had been introduced into the Roman diet by the Greeks, and pulte became a meal largely for the poor.
+- (origin) Minestrone comes from Italy, Ancient Rome.
 
 More fun facts (when the user asks for more):
 
 - (history) After the introduction of tomatoes to Italy from the New World in the 15th century, the plant was included as an ingredient in minestrone.
 - (culture) Because of its unique origins and the absence of a fixed recipe, minestrone varies widely across Italy depending on traditional cooking times, ingredients, and season.
-- (origin) Minestrone comes from Italy, Ancient Rome.
+- (origin) Spelt flour was also removed from soups, as bread had been introduced into the Roman diet by the Greeks, and pulte became a meal largely for the poor.
 
 Learn more:
 
@@ -4014,19 +4006,19 @@ Mondeghili, also known outside Milan as mondeghini, are meatballs typical of Mil
 Fun facts:
 
 - (history) Mondeghili was created during the Spanish domination of the Duchy of Milan, between 1535 and 1706.
-- (origin) Its name is likely derived from the Spanish albóndiga (diminutive form: albondiguito, meaning 'little meatball'), which in turn originates from the Arabic term for fried meatballs, al-bunduq.
 - (about) Mondeghili was developed as a way to use up leftover cuts of meat, usually beef because of its popularity in Milan.
+- (culture) Although mondeghili were granted the Denominazione comunale d'origine (De.C.O.) by the City of Milan in 2008, they are also traditionally prepared in Pavia—where they are known as munighili—and in the Lomellina area, where they go by the name friciulìn.
 
 More fun facts (when the user asks for more):
 
 - (history) The first attested recipe for mondeghili dates back to 1839.
 - (history) Almost all dialectal texts between the end of the 1800s and the beginning of the 1900s, starting from those by Carlo Porta, mention mondeghili.
-- (history) The mixture included potatoes (for sure not part of the older recipes, since its usage was uncommon in Milanese cuisine before the 19th century), breadcrumbs soaked in milk, eggs, cheese, garlic (or onion) and nutmeg.
 - (history) Due to this heaviness and the bad hygienic conditions of the era, doctor Angelo Dubini in his 1842 book La cucina per gli stomachi deboli (Cooking for weak stomachs) recommended to "never eat mondeghili at an osteria".
 - (history) In Francesco Cherubini's Milanese-Italian Dictionary (1839), mondeghili are defined as "a kind of meatball made with old meat, bread, egg and similar ingredients".
-- (culture) Although mondeghili were granted the Denominazione comunale d'origine (De.C.O.) by the City of Milan in 2008, they are also traditionally prepared in Pavia—where they are known as munighili—and in the Lomellina area, where they go by the name friciulìn.
 - (culture) Mondeghili remains a street food popular among the common people.
 - (origin) Mondeghili comes from Italy.
+- (origin) Its name is likely derived from the Spanish albóndiga (diminutive form: albondiguito, meaning 'little meatball'), which in turn originates from the Arabic term for fried meatballs, al-bunduq.
+- (history) The mixture included potatoes (for sure not part of the older recipes, since its usage was uncommon in Milanese cuisine before the 19th century), breadcrumbs soaked in milk, eggs, cheese, garlic (or onion) and nutmeg.
 
 Learn more:
 
@@ -4068,17 +4060,17 @@ Muffuletta or muffaletta is a type of round Sicilian sesame bread, as well as a 
 
 Fun facts:
 
-- (about) The name is believed to be a diminutive form of muffi ('mold', 'mushroom'), perhaps due to the round sandwich bread being reminiscent of a mushroom cap; more likely from mùffula, 'muff', 'mitten'.
-- (history) In a 1987 article in American Speech, linguists Edwin Eames and Howard Robboy identified the sandwich as a musalatta.
+- (history) The muffuletta sandwich is said to have been created in 1906 at Central Grocery Co. on Decatur Street, New Orleans, Louisiana, U.S., by its delicatessen owner Salvatore Lupo, a Sicilian immigrant.
+- (about) Sicilian immigrant Biaggio Montalbano, who was a delicatessen owner in New Orleans, is credited with invention of the Roma Sandwich, which may have been a forerunner of the muffuletta.
 - (culture) The traditional-style muffuletta sandwich consists of a muffuletta loaf split horizontally and covered with layers of marinated muffuletta-style olive salad, salami, ham, Swiss cheese, provolone, and mortadella.
 
 More fun facts (when the user asks for more):
 
-- (history) The muffuletta sandwich is said to have been created in 1906 at Central Grocery Co. on Decatur Street, New Orleans, Louisiana, U.S., by its delicatessen owner Salvatore Lupo, a Sicilian immigrant.
-- (about) Sicilian immigrant Biaggio Montalbano, who was a delicatessen owner in New Orleans, is credited with invention of the Roma Sandwich, which may have been a forerunner of the muffuletta.
 - (history) Another Italian-style New Orleans delicatessen, Progress Grocery Co., originally opened in 1924 by the Perrone family, claims the origin of the muffuletta is uncertain.
+- (origin) Muffuletta comes from the United States.
+- (about) The name is believed to be a diminutive form of muffi ('mold', 'mushroom'), perhaps due to the round sandwich bread being reminiscent of a mushroom cap; more likely from mùffula, 'muff', 'mitten'.
+- (history) In a 1987 article in American Speech, linguists Edwin Eames and Howard Robboy identified the sandwich as a musalatta.
 - (about) Celery, cauliflower, and carrots are commonly found in the pickled form known as giardiniera.
-- (origin) Muffuletta comes from United States.
 
 Learn more:
 
@@ -4123,12 +4115,12 @@ Fun facts:
 
 - (culture) Pizza napoletana is a traditional speciality guaranteed (TSG) product in the European Union and the United Kingdom, and the art of making it (arte del pizzaiolo napoletano) is included on UNESCO's list of intangible cultural heritage.
 - (origin) Neapolitan pizza comes from Italy.
-- (culture) The tomatoes are traditionally either San Marzano tomatoes or pomodorini del Piennolo del Vesuvio, which grow on the volcanic plains to the south of Mount Vesuvius, and the cheese is traditionally mozzarella di bufala campana or fior di latte di Agerola.
+- (culture) A protected designation is available to pizzerias that meet strict requirements in following Neapolitan traditions in the art of pizza making.
 
 More fun facts (when the user asks for more):
 
-- (culture) A protected designation is available to pizzerias that meet strict requirements in following Neapolitan traditions in the art of pizza making.
 - (culture) The European Union has recognised pizza napoletana as a traditional speciality guaranteed since 5 February 2010.
+- (culture) The tomatoes are traditionally either San Marzano tomatoes or pomodorini del Piennolo del Vesuvio, which grow on the volcanic plains to the south of Mount Vesuvius, and the cheese is traditionally mozzarella di bufala campana or fior di latte di Agerola.
 
 Learn more:
 
@@ -4244,16 +4236,16 @@ Orecchiette is a pasta typical of the Apulia region of Italy.
 
 Fun facts:
 
-- (origin) Some historians attribute the origin to local Pugliese tradition, while others propose a Provençal origin, suggesting that a similar pasta was produced in southern France during the Middle Ages and brought to Apulia by the Angevin dynasty when they ruled the region in the 13th century.
 - (inspiration) Orecchiette is named after ear.
+- (origin) Some historians attribute the origin to local Pugliese tradition, while others propose a Provençal origin, suggesting that a similar pasta was produced in southern France during the Middle Ages and brought to Apulia by the Angevin dynasty when they ruled the region in the 13th century.
 - (culture) In the old town of Bari, particularly along Via dell'Arco Basso in Bari Vecchia, women have traditionally produced orecchiette by hand and sold them to passersby from tables set up outside their homes.
 
 More fun facts (when the user asks for more):
 
-- (culture) The imagery of these so-called "pasta grannies" has become an internationally recognized symbol of southern Italian culinary tradition and a significant draw for tourism.
-- (about) As of 2019, the women were not permitted to sell to restaurants or other commercial establishments.
 - (about) In August 2025, a police raid prompted by allegations that factory-produced orecchiette was being passed off as handmade discovered pasta-making machines in some of the houses.
 - (origin) Orecchiette comes from Italy.
+- (culture) The imagery of these so-called "pasta grannies" has become an internationally recognized symbol of southern Italian culinary tradition and a significant draw for tourism.
+- (about) As of 2019, the women were not permitted to sell to restaurants or other commercial establishments.
 
 Learn more:
 
@@ -4274,9 +4266,9 @@ Orzo, also known in Italy as risoni, is a form of short-cut pasta shaped like a 
 
 Fun facts:
 
-- (history) Ptitim is a rice-grain-shaped pasta developed in the 1950s in Israel as a substitute for rice.
 - (culture) Orzo is also part of the traditional cuisine of eastern France, from Lorraine to Provence, where orzo is called pépinettes or riewele depending on the region.
 - (origin) Orzo comes from Italy.
+- (history) Ptitim is a rice-grain-shaped pasta developed in the 1950s in Israel as a substitute for rice.
 
 More fun facts (when the user asks for more):
 
@@ -4303,8 +4295,8 @@ Ossa di morto are Sicilian biscuits, included in the list of traditional Italian
 Fun facts:
 
 - (inspiration) Ossa di morto is named after All Souls' Day.
-- (about) Also known as nucatoli, mustazzoli, scardellini, scardellini, moscardini or paste di garofano, they are prepared on the occasion of the commemoration of the deceased and have the shape of small human bones.
 - (origin) Ossa di morto comes from Italy.
+- (about) Also known as nucatoli, mustazzoli, scardellini, scardellini, moscardini or paste di garofano, they are prepared on the occasion of the commemoration of the deceased and have the shape of small human bones.
 
 Learn more:
 
@@ -4326,8 +4318,8 @@ Ossobuco or osso buco, also known as ossobuco alla milanese, is a specialty of L
 Fun facts:
 
 - (culture) It is often garnished with gremolada and traditionally served with either risotto alla milanese or polenta, depending on the regional variation.
-- (about) The modern and more popular recipe includes tomatoes, carrots, celery, and onions; gremolada is optional.
 - (origin) Ossobuco comes from Italy.
+- (about) The modern and more popular recipe includes tomatoes, carrots, celery, and onions; gremolada is optional.
 
 Learn more:
 
@@ -4459,8 +4451,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Venice was the principal market for spices as late as the 18th century, as well as for the sugar that by then had replaced honey in European pastries and bread made from leavened dough.
 - (history) The modern history of this dessert bread began there on October 30, 1894, when Domenico Melegatti obtained a patent for a procedure to be applied in producing pandoro industrially.
+- (history) Venice was the principal market for spices as late as the 18th century, as well as for the sugar that by then had replaced honey in European pastries and bread made from leavened dough.
 - (history) In 2018, the Spezzapria family bought the company assets of Melegatti 1894 S.p.A. from bankruptcy trustees for €13.5m, as the only bidder in the second auction, the first auction ended with no bidders.
 
 Learn more:
@@ -4508,8 +4500,8 @@ Panella (pl.: panelle) is a Sicilian fritter made with chickpea flour and other 
 
 Fun facts:
 
-- (culture) They are a popular street food in the city of Palermo and are often eaten between slices of bread or on a sesame roll, like a sandwich.
 - (origin) Panella comes from Italy.
+- (culture) They are a popular street food in the city of Palermo and are often eaten between slices of bread or on a sesame roll, like a sandwich.
 
 Learn more:
 
@@ -4601,8 +4593,8 @@ Panigaccio or panigazzo is a type of round, unleavened and crispy bread from Ita
 
 Fun facts:
 
-- (origin) They originated in the mountains of Podenzana and Bolano.
 - (origin) Panigaccio comes from Italy.
+- (origin) They originated in the mountains of Podenzana and Bolano.
 
 Learn more:
 
@@ -4745,12 +4737,12 @@ Panzerotti, also known as panzarotti, are Italian savory bread products, origina
 Fun facts:
 
 - (origin) Panzerotti originated in Apulian cuisine.
-- (about) They are basically small versions of calzones, but are usually fried rather than oven-baked, which is why they are also known as calzoni fritti or pizze fritte in Italy, most typically in Campania.
 - (about) In parts of Apulia, such as Molfetta, panzerotti also go by the name of frittelle or frittelli, while in Brindisi they are known as fritte (a local variation of frittelle).
+- (origin) Panzerotti comes from Italy.
 
 More fun facts (when the user asks for more):
 
-- (origin) Panzerotti comes from Italy.
+- (about) They are basically small versions of calzones, but are usually fried rather than oven-baked, which is why they are also known as calzoni fritti or pizze fritte in Italy, most typically in Campania.
 
 Learn more:
 
@@ -4818,14 +4810,14 @@ Parmigiana is an Italian dish made with fried, sliced eggplant layered with mozz
 
 Fun facts:
 
-- (about) Its invention is frequently attributed to either Campania, Sicily or Parma, in Emilia-Romagna.
 - (history) The ancestor of the modern dish appears in Vincenzo Corrado's 1786 cookbook Il cuoco galante, whose recipe describes eggplant seasoned with butter, herbs, cinnamon, other spices, and grated Parmesan cheese, then covered with a cream sauce of egg yolks before being baked in an oven.
+- (about) According to Wright, this suggests that the dish evolved in Naples during this time frame, which coincided with the increasing popularity of the tomato in Italian cuisine.
 - (origin) Parmigiana comes from Italy.
 
 More fun facts (when the user asks for more):
 
+- (about) Its invention is frequently attributed to either Campania, Sicily or Parma, in Emilia-Romagna.
 - (history) The modern version with Parmesan and tomato ragù as key ingredients appears several years later in Ippolito Cavalcanti's cookbook Cucina teorico-pratica, which was published in Naples in 1837.
-- (about) According to Wright, this suggests that the dish evolved in Naples during this time frame, which coincided with the increasing popularity of the tomato in Italian cuisine.
 - (about) Not to be confused with moussaka.
 
 Learn more:
@@ -4846,8 +4838,8 @@ Parmitieddi, also known as parmi or parmatieddi, is a variety of cavatelli typic
 
 Fun facts:
 
-- (about) They are made by rolling a stick of dough with the three fingers of one hand and are usually eaten as a first course on Palm Sunday served with ragù sauce and grated pecorino or ricotta salata cheese.
 - (origin) Parmitieddi comes from Italy.
+- (about) They are made by rolling a stick of dough with the three fingers of one hand and are usually eaten as a first course on Palm Sunday served with ragù sauce and grated pecorino or ricotta salata cheese.
 
 Learn more:
 
@@ -4873,8 +4865,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) D'Amico wanted to create a cake that resembled the traditional rough bread made by local farmers with corn flour.
 - (origin) Parrozzo comes from Italy.
+- (culture) D'Amico wanted to create a cake that resembled the traditional rough bread made by local farmers with corn flour.
 
 Learn more:
 
@@ -4922,8 +4914,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Writing in the 2nd century, Athenaeus of Naucratis provides a recipe for lagana which he attributes to the 1st-century Chrysippus of Tyana: sheets of dough made of wheat flour and the juice of crushed lettuce, then flavored with spices and deep-fried in oil.
 - (origin) Pasta is a staple food of Italian cuisine, and many historians believe that pasta in a form recognizable today was introduced to Italy through Sicily in the Middle Ages as a result of Mediterranean trade networks.
+- (history) Writing in the 2nd century, Athenaeus of Naucratis provides a recipe for lagana which he attributes to the 1st-century Chrysippus of Tyana: sheets of dough made of wheat flour and the juice of crushed lettuce, then flavored with spices and deep-fried in oil.
 
 Learn more:
 
@@ -5042,12 +5034,12 @@ Pasticciotto is a type of filled Italian pastry.
 Fun facts:
 
 - (history) The invention of pasticciotti is credited to Andrea Ascalone, a chef in the comune of Galatina, near Lecce, who in 1745 used ingredients left over from full-sized tortas to create a smaller cake.
-- (culture) Depending on the region, they are traditionally filled with either ricotta cheese or egg custard.
 - (origin) Pasticciotto comes from Italy.
+- (culture) Depending on the region, they are traditionally filled with either ricotta cheese or egg custard.
 
 More fun facts (when the user asks for more):
 
-- (history) However, recent studies demonstrate that the Ascalone family was not present in Galatina before 1787.
+- (history) Recent studies demonstrate that the Ascalone family was not present in Galatina before 1787.
 - (culture) They are typically served as a breakfast item, but may also be eaten throughout the day, and are a traditional pastry in Apulia.
 
 Learn more:
@@ -5071,14 +5063,13 @@ Fun facts:
 
 - (inspiration) Various writers repeat legends about the origin of pastiera.
 - (about) The modern pastiera was probably invented in a Neapolitan convent.
-- (culture) The tale goes that unknown nun wanted that cake, symbol of the resurrection, to have the perfume of the flowers of the orange trees which grew in the convent's gardens.
+- (origin) Pastiera comes from Italy.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) Another story connects it to a spring celebration of the goddess Ceres.
-- (culture) She mixed a handful of wheat to the white ricotta cheese, then she added some eggs, symbol of the new life, some water which had the fragrance of the flowers of the spring time, candied citron and aromatic spices.
+- (culture) The tale goes that unknown nun wanted that cake, symbol of the resurrection, to have the perfume of the flowers of the orange trees which grew in the convent's gardens.
 - (origin) This innovation was introduced by Starace, a Neapolitan confectioner with a shop in a corner in Piazza Municipio ('Town Hall Square').
-- (origin) Pastiera comes from Italy.
 
 Learn more:
 
@@ -5157,11 +5148,7 @@ Penne are an extruded type of pasta in the shape of tubular pieces with ends cut
 Fun facts:
 
 - (history) Penne are one of the few pasta shapes with a certain date of birth: in 1865, Giovanni Battista Capurro, a pasta maker from San Martino d'Albaro (Genoa), obtained a patent for a diagonal cutting machine.
-- (about) His invention cut the fresh pasta into a pen shape without crushing it, in sizes from 3 cm (1 in) mezze penne 'half pens' to 5 cm (2 in) penne 'pens'.
 - (origin) Penne comes from Italy.
-
-More fun facts (when the user asks for more):
-
 - (about) Not to be confused with pennoni.
 
 Learn more:
@@ -5182,13 +5169,13 @@ Piada dei morti is a sweet focaccia topped with raisins, almonds, walnuts, and p
 
 Fun facts:
 
-- (history) Others attribute the bread to Ciro Brunori, a pastry chef at the Antica Pasticceria Vecchi in Rimini's Borgo San Giuliano, from the early 20th century.
 - (culture) Piada dei morti is local to Rimini, in the Emilia-Romagna region of Italy, and traditionally eaten in November for All Souls' Day.
+- (origin) Piada dei morti comes from Italy.
 - (about) On the night of Samhain, mischievous nocturnal domestic elves known as the Mazapégul would visit houses while the spirits of the dead would return to their homes and towns.
 
 More fun facts (when the user asks for more):
 
-- (origin) Piada dei morti comes from Italy.
+- (history) Others attribute the bread to Ciro Brunori, a pastry chef at the Antica Pasticceria Vecchi in Rimini's Borgo San Giuliano, from the early 20th century.
 
 Learn more:
 
@@ -5260,8 +5247,8 @@ Pici is thick, hand-rolled pasta, like fat spaghetti.
 Fun facts:
 
 - (origin) It originates in the province of Siena, in Tuscany; in the Montalcino area it is also referred to as pinci.
-- (culture) The addition of egg is optional, being determined by family traditions.
 - (about) Not to be confused with Pici, picio.
+- (culture) The addition of egg is optional, being determined by family traditions.
 
 More fun facts (when the user asks for more):
 
@@ -5285,8 +5272,8 @@ Pignolata is a Sicilian pastry originating in the city of Messina.
 
 Fun facts:
 
-- (culture) In Sicily, this dessert was made for Carnival, the last celebration before Lent begins on Ash Wednesday.
 - (origin) Pignolata comes from Italy.
+- (culture) In Sicily, this dessert was made for Carnival, the last celebration before Lent begins on Ash Wednesday.
 
 Learn more:
 
@@ -5328,13 +5315,13 @@ Pinolate or pignolate are a type of cookie originating in Neapolitan, Genovese a
 
 Fun facts:
 
-- (about) They are popular in all of southern Italy, and in Sicilian communities in the United States, where they may also be known as pignoli (sg.: pignolo).
 - (culture) Pinolate are a popular Italian holiday treat, especially at Christmas.
+- (about) Being essentially an almond macaroon, pinolate belong to a type known as "amaretto".
 - (origin) Pinolate comes from Italy.
 
 More fun facts (when the user asks for more):
 
-- (about) Being essentially an almond macaroon, pinolate belong to a type known as "amaretto".
+- (about) They are popular in all of southern Italy, and in Sicilian communities in the United States, where they may also be known as pignoli (sg.: pignolo).
 
 Learn more:
 
@@ -5354,9 +5341,9 @@ Pinsa, also known as pinsa romana, is a flatbread generally marketed as an oval-
 
 Fun facts:
 
-- (origin) The name originated partly as a marketing strategy, coined by a Rome-based baking family as late as 2001.
-- (history) With the product's success, the invented ancient Roman origins were uncritically adopted and disseminated by the media.
 - (origin) Pinsa comes from Italy.
+- (history) With the product's success, the invented ancient Roman origins were uncritically adopted and disseminated by the media.
+- (origin) The name originated partly as a marketing strategy, coined by a Rome-based baking family as late as 2001.
 
 Learn more:
 
@@ -5396,9 +5383,9 @@ Pinzimonio is an Italian dipping sauce made with olive oil, salt, pepper, and oc
 
 Fun facts:
 
-- (history) Over time, a practice developed where the produce was dipped in the sauces of the dishes they decorated, and by the 19th century the dip was replaced with olive oil.
 - (about) Pinzimonio is popular in the area around Rome, with preparations sometimes including lemon juice.
 - (origin) Pinzimonio comes from Italy.
+- (history) Over time, a practice developed where the produce was dipped in the sauces of the dishes they decorated, and by the 19th century the dip was replaced with olive oil.
 
 More fun facts (when the user asks for more):
 
@@ -5424,11 +5411,11 @@ Fun facts:
 
 - (history) An ancient peasant recipe, poor but complete, still today it is very popular among the people and in the restaurants of Piacenza.
 - (culture) A reliable tradition tells that the recipe at the base of pisarei e faśö was developed in the Middle Ages inside the monasteries of Piacenza thanks to the monks, who served recipes of poor but nutritious ingredients to feed pilgrims going to Rome, in transit on the Via Francigena.
-- (origin) At one time, borlotti beans were used instead of borlotti beans and the recipe did not include tomato puree, as borlotti beans and tomatoes were introduced in Europe only after the discovery of the Americas.
+- (origin) Pisarei e faśö comes from Italy.
 
 More fun facts (when the user asks for more):
 
-- (origin) Pisarei e faśö comes from Italy.
+- (origin) At one time, borlotti beans were used instead of borlotti beans and the recipe did not include tomato puree, as borlotti beans and tomatoes were introduced in Europe only after the discovery of the Americas.
 
 Learn more:
 
@@ -5448,13 +5435,13 @@ Pita or pitta (British English), also known as Greek bread, Arabic bread, Arab b
 
 Fun facts:
 
-- (history) The first mention of the word in English cited in the Oxford English Dictionary was in 1936.
 - (about) In the United Kingdom, the term is used for pocket versions such as the Greek pita, used for barbecues as a souvlaki wrap.
-- (history) The English word is borrowed from Modern Greek πίτα (píta, 'bread, cake, pie'), in turn from Byzantine Greek (attested in 1108), possibly from Ancient Greek πίττα (pítta) or πίσσα (píssa), both meaning 'pitch/resin', or from πικτή, which may have passed to Latin as picta cf. pizza.
+- (history) There is no record of the steam-puffed, two-layer "pocket pita" in the ancient texts, or in any of the medieval Arab cookbooks, and according to food historians such as Charles Perry and Gil Marks it was likely a later development.
+- (history) The first mention of the word in English cited in the Oxford English Dictionary was in 1936.
 
 More fun facts (when the user asks for more):
 
-- (history) However, there is no record of the steam-puffed, two-layer "pocket pita" in the ancient texts, or in any of the medieval Arab cookbooks, and according to food historians such as Charles Perry and Gil Marks it was likely a later development.
+- (history) The English word is borrowed from Modern Greek πίτα (píta, 'bread, cake, pie'), in turn from Byzantine Greek (attested in 1108), possibly from Ancient Greek πίττα (pítta) or πίσσα (píssa), both meaning 'pitch/resin', or from πικτή, which may have passed to Latin as picta cf. pizza.
 
 Learn more:
 
@@ -5476,9 +5463,9 @@ Pitina, peta or petuccia is an Italian salume originating in the Dolomite valley
 
 Fun facts:
 
-- (inspiration) The recipe was probably based on the impromptu need to preserve game.
 - (culture) Today the tradition is still alive and pitina is being produced commercially by several families in the province of Pordenone.
 - (origin) Pitina comes from Italy.
+- (inspiration) The recipe was probably based on the impromptu need to preserve game.
 
 Learn more:
 
@@ -5506,10 +5493,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The oldest recorded usage of the word pizza is thought to be from May 997 AD, appearing in the Codex diplomaticus Caietanus, a notarial Latin document from the town of Gaeta, then still part of the Byzantine Empire.
-- (origin) The Lombardic word bizzo or pizzo, meaning 'mouthful' (related to the English words bit and bite), which was brought to Italy in the middle of the 6th century AD by the invading Lombards.
 - (history) The word pizza was borrowed from Italian into English in the 1930s; before it became well known, pizza was called "tomato pie" by English speakers.
 - (history) Records of pizza-like foods can be found throughout ancient history from Ancient Rome to the Middle Ages.
-- (history) In the 6th century BC, the Persian soldiers of the Achaemenid Empire during the rule of Darius the Great baked flatbreads with cheese and dates on top of their battle shields and the ancient Greeks supplemented their bread with oils, herbs, and cheese.
 - (about) An early reference to a pizza-like food occurs in the Aeneid, when Celaeno, queen of the Harpies, foretells that the Trojans would not find peace until they are forced by hunger to eat their tables (Book III).
 - (origin) The first mention of the word pizza seemingly comes from a notarial document written in Latin and dating to 997 AD from Gaeta, demanding a payment of "twelve pizzas, a pork shoulder, and a pork kidney on Christmas Day, and 12 pizzas and a couple of chickens on Easter Day".
 - (history) Modern pizza evolved from similar flatbread dishes in Naples, Italy, in the 18th or early 19th century.
@@ -5521,6 +5506,8 @@ More fun facts (when the user asks for more):
 - (about) A person who makes pizza is known as a pizzaiolo.
 - (about) In 2023, archeologists discovered a fresco in Pompeii appearing to depict a pizza-like dish among other foodstuffs and staples on a silver platter.
 - (origin) Pizza comes from Italy.
+- (origin) The Lombardic word bizzo or pizzo, meaning 'mouthful' (related to the English words bit and bite), which was brought to Italy in the middle of the 6th century AD by the invading Lombards.
+- (history) In the 6th century BC, the Persian soldiers of the Achaemenid Empire during the rule of Darius the Great baked flatbreads with cheese and dates on top of their battle shields and the ancient Greeks supplemented their bread with oils, herbs, and cheese.
 
 Learn more:
 
@@ -5611,12 +5598,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) The Roman Jewish community prepares this traditional dessert on the occasion of a brit milah (ceremony of circumcision).
 - (culture) The cake's appellation Beridde derives from the Judeo-Roman form of the word Brit milah ('covenant of circumcision' in Hebrew), i.e. the ritual circumcision of male infants in the community.
-- (culture) A lozenge of the cake is traditionally given to each participant of the circumcision feast at the end of the ceremony.
 - (culture) Pizza dolce di Beridde is contained in a bag of sweets called kavodde, which means 'dignity' in Hebrew and symbolises the commandment to honour one's father and mother.
 - (culture) In addition to being prepared in families for the feast of circumcision, pizza di Beridde is sold by kosher bakeries, such as the Pasticceria Boccione in the Roman Ghetto (in Sant'Angelo rione), along with other traditional Jewish sweets, such as ricotta and sour cherry tart and mostaccioli.
 - (origin) Pizza dolce di Beridde comes from Italy.
+- (culture) The Roman Jewish community prepares this traditional dessert on the occasion of a brit milah (ceremony of circumcision).
+- (culture) A lozenge of the cake is traditionally given to each participant of the circumcision feast at the end of the ceremony.
 
 Learn more:
 
@@ -5670,13 +5657,13 @@ Pizza marinara, also known as pizza alla marinara (from Italian marinaro "pertai
 
 Fun facts:
 
-- (culture) Francesco de Bourcard, writing in his 1866 book Usi e costumi di Napoli ('Customs and Traditions of Naples'), Vol.
-- (about) To the first, small fish is often added; to the second, thin slices of mozzarella.
+- (culture) The historical account of the pizza marinara's creation and its association with sailors rests predominantly on oral and traditional retellings rather than documented, empirical evidence.
 - (origin) Pizza marinara comes from Italy.
+- (about) To the first, small fish is often added; to the second, thin slices of mozzarella.
 
 More fun facts (when the user asks for more):
 
-- (culture) The historical account of the pizza marinara's creation and its association with sailors rests predominantly on oral and traditional retellings rather than documented, empirical evidence.
+- (culture) Francesco de Bourcard, writing in his 1866 book Usi e costumi di Napoli ('Customs and Traditions of Naples'), Vol.
 
 Learn more:
 
@@ -5725,9 +5712,9 @@ Pizza quattro stagioni, also known as pizza 4 stagioni, pizza alle quattro stagi
 
 Fun facts:
 
-- (culture) Artichokes represent spring (a symbol of a new awakening), prosciutto represent summer, mushrooms represent autumn (a symbol of the autumn forest floor's abundance) and black olives represent winter.
 - (about) Pizza quattro stagioni is a very popular pizza in Italy, and has been described as a "classic", "famous", and "renowned" Italian pizza.
 - (origin) Pizza quattro stagioni comes from Italy.
+- (culture) Artichokes represent spring (a symbol of a new awakening), prosciutto represent summer, mushrooms represent autumn (a symbol of the autumn forest floor's abundance) and black olives represent winter.
 
 More fun facts (when the user asks for more):
 
@@ -5826,11 +5813,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) In the 1799 book Die Republik Graubündent (The Republic of Graubünden), German historian Heinrich L.
 - (about) Pizzoccheri is also popular in Val Poschiavo, a side valley of Valtellina which belongs to the Swiss canton of Grisons.
 - (culture) In 2002, the Accademia del Pizzocchero di Teglio was founded to promote traditional preparations of pizzocchero.
 - (about) In 2016, the dish gained the European Union's recognition of protected geographical indication (PGI).
 - (origin) Pizzoccheri comes from Italy.
+- (history) In the 1799 book Die Republik Graubündent (The Republic of Graubünden), German historian Heinrich L. Lehmann wrote about a "perzockel" dough made from buckwheat flour and egg.
 
 Learn more:
 
@@ -5858,11 +5845,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) Its consumption was traditionally associated with lower classes, as in times past cornmeal mush was an essential food in their everyday nutrition.
 - (about) As it is known today, polenta derives from earlier forms of grain mush (known as puls or pulmentum in Latin) that were commonly eaten since Roman times.
-- (about) The fried version, though, has become popular even in other regions that did not receive Italian migration and is a popular snack and finger food in bars across the country.
 - (origin) Polenta comes from Italy.
 - (inspiration) Polenta is based on grits.
+- (culture) Its consumption was traditionally associated with lower classes, as in times past cornmeal mush was an essential food in their everyday nutrition.
+- (about) The fried version, though, has become popular even in other regions that did not receive Italian migration and is a popular snack and finger food in bars across the country.
 
 Learn more:
 
@@ -5904,13 +5891,13 @@ Porchetta is a savory, fatty, and moist boneless pork roast of Italian culinary 
 
 Fun facts:
 
-- (culture) The carcass is deboned and spitted or roasted traditionally over wood for at least eight hours, fat and skin still on.
-- (origin) Porchetta comes from Italy, France.
 - (culture) In some traditions, porchetta is stuffed with liver and wild fennel, although many versions do not involve stuffing.
+- (origin) Porchetta comes from Italy, France.
+- (culture) Porchetta has been selected by the Italian Ministry of Agricultural, Food and Forestry Policy as a prodotto agroalimentare tradizionale (PAT), one of a list of traditional Italian foods held to have cultural relevance.
 
 More fun facts (when the user asks for more):
 
-- (culture) Porchetta has been selected by the Italian Ministry of Agricultural, Food and Forestry Policy as a prodotto agroalimentare tradizionale (PAT), one of a list of traditional Italian foods held to have cultural relevance.
+- (culture) The carcass is deboned and spitted or roasted traditionally over wood for at least eight hours, fat and skin still on.
 
 Learn more:
 
@@ -5931,13 +5918,13 @@ Prosciutto, also known as prosciutto crudo, is an uncooked, unsmoked, and dry-cu
 
 Fun facts:
 
-- (history) The practice became more organised after their first contact with the Roman Empire (221 BC), as pork meat was a favourite in the Roman diet.
 - (culture) There is also a tradition of making prosciutto in southern Switzerland.
-- (inspiration) The ancient Romans recognised that the local factors of low humidity, ventilation, and a hilly piedmont climate allowed for superior meat preservation, marking the origins of the specialized curing method based on the region's microclimate.
+- (origin) Prosciutto comes from Italy.
+- (history) The practice became more organised after their first contact with the Roman Empire (221 BC), as pork meat was a favourite in the Roman diet.
 
 More fun facts (when the user asks for more):
 
-- (origin) Prosciutto comes from Italy.
+- (inspiration) The ancient Romans recognised that the local factors of low humidity, ventilation, and a hilly piedmont climate allowed for superior meat preservation, marking the origins of the specialized curing method based on the region's microclimate.
 
 Learn more:
 
@@ -6013,13 +6000,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) By the late 19th century the cost of meat saw the use of heavy meat sauces on pasta reserved to feast days and Sundays, and only among the wealthier classes of the newly unified Italy.
 - (history) Independent research by Kasper and De Vita indicates that, while ragù with pasta gained popularity through the 19th century, it was largely eaten by the wealthy.
-- (history) However, technological advances that came with the industrial revolution at the end of the 19th century made pasta flour more affordable for the less affluent.
 - (culture) Other types include ragù alla napoletana (Neapolitan ragù), ragù di salsiccia, ragù alla barese (ragù from Bari, sometimes made with horse meat), and ragù d'anatra (a traditionally tomatoless duck ragù, from Veneto).
-- (inspiration) According to De Vita, before World War II, 80% of the Italian rural population ate a diet based on plants; pasta was reserved for special feast days and was then often served in a legume soup.
 - (origin) Ragù comes from Italy, France.
 - (about) Not to be confused with ragout.
+- (history) By the late 19th century the cost of meat saw the use of heavy meat sauces on pasta reserved to feast days and Sundays, and only among the wealthier classes of the newly unified Italy.
+- (history) Technological advances that came with the industrial revolution at the end of the 19th century made pasta flour more affordable for the less affluent.
+- (inspiration) According to De Vita, before World War II, 80% of the Italian rural population ate a diet based on plants; pasta was reserved for special feast days and was then often served in a legume soup.
 
 Learn more:
 
@@ -6061,17 +6048,17 @@ Ravioli are a type of stuffed pasta comprising a filling enveloped in thin pasta
 
 Fun facts:
 
-- (origin) Usually served in broth or with a sauce, they originated as a traditional food in Italian cuisine.
 - (history) English and French borrowed the word ravioli from Italian in the 14th century.
+- (origin) This dish originated in Jewish communities in Spain and Italy, with migrating Jews bringing it to Syria and then Israel, where it became a Shavuot staple.
 - (about) In Turkey, manti, similar to ravioli, is a popular dish.
 
 More fun facts (when the user asks for more):
 
 - (history) Ravioli are mentioned in the personal letters of Francesco Datini, a merchant of Prato in the 14th century.
 - (history) In Rome, ravioli were already well known when Bartolomeo Scappi served them with boiled chicken to the papal conclave of 1549.
-- (origin) This dish originated in Jewish communities in Spain and Italy, with migrating Jews bringing it to Syria and then Israel, where it became a Shavuot staple.
 - (about) In India, a popular dish called gujhia is similar to ravioli.
 - (origin) Ravioli comes from Italy, France.
+- (origin) Usually served in broth or with a sauce, they originated as a traditional food in Italian cuisine.
 
 Learn more:
 
@@ -6115,8 +6102,8 @@ Ricciarelli are a type of biscuit originating in 14th-century Siena, Italy.
 Fun facts:
 
 - (inspiration) Legend holds that they were introduced by Ricciardetto della Gherardesca in his castle near Volterra upon his return from the Crusades.
-- (history) In medieval times, they were known as marzapanetti alla senese or morzelletti.
 - (origin) Ricciarelli comes from Italy.
+- (history) In medieval times, they were known as marzapanetti alla senese or morzelletti.
 
 Learn more:
 
@@ -6167,7 +6154,7 @@ More fun facts (when the user asks for more):
 - (history) There is a recipe for a dish named as a risotto in the 1854 Trattato di cucina (Treatise on Cooking) by Giovanni Vialardi, assistant chief cook to kings.
 - (history) The rice varieties associated with risotto were developed in the 20th century, starting with Maratelli in 1914.
 - (inspiration) According to a legend, the Netherlandish glass painter Valerio Profondavalle of the Veneranda Fabbrica del Duomo di Milano, who used to use saffron as a pigment, added it to a rice dish at a wedding feast.
-- (about) However, who invented risotto in Milan cannot be stated with certainty.
+- (about) Who invented risotto in Milan cannot be stated with certainty.
 - (origin) Risotto comes from Italy.
 - (about) Not to be confused with orzo.
 
@@ -6275,9 +6262,9 @@ Rotelle is a type of pasta resembling wheels with spokes.
 
 Fun facts:
 
-- (origin) They originated about 1900 in Italy, probably in Apulia.
 - (inspiration) There are various novelty pastas based on rotelle, where the pasta is not shaped as a wheel, but it is still a flat image that maintains its shape.
 - (origin) Rotelle comes from Italy.
+- (origin) They originated about 1900 in Italy, probably in Apulia.
 
 Learn more:
 
@@ -6300,18 +6287,18 @@ Fun facts:
 
 - (history) The modern baba au rhum (rum baba), with dried fruit and soaked in rum, was invented in the rue Montorgueil in Paris, France, in 1835 or before.
 - (origin) The original baba was introduced into France in the 18th century via Lorraine.
-- (about) This is attributed to Stanislaus I, the exiled king of Poland.
+- (about) While he is believed to have done so on the fresh cakes (right out of the mold), it is a common practice today to let the baba dry a little so that it soaks up the rum better.
 
 More fun facts (when the user asks for more):
 
-- (history) Stohrer followed Stanislaus's daughter Marie Leszczyńska to Versailles as her pâtissier in 1725 when she married King Louis XV.
 - (history) The writer Courchamps stated in 1839 that the descendants of Stanislaus served the baba with a saucière containing sweet Malaga wine mixed with one sixth of Tanaisie liqueur.
-- (history) Stohrer founded his pâtisserie in Paris in 1730.
 - (history) One of his descendants allegedly had the idea of using rum in 1835.
-- (about) While he is believed to have done so on the fresh cakes (right out of the mold), it is a common practice today to let the baba dry a little so that it soaks up the rum better.
-- (history) The pastry has appeared on restaurant menus in the United States at least since 1899.
+- (history) Stohrer followed Stanislaus's daughter Marie Leszczyńska to Versailles as her pâtissier in 1725 when she married King Louis XV.
 - (about) The baba is also popular in Naples, and became a popular Neapolitan specialty under the name babà or babbà.
 - (origin) Rum baba comes from France.
+- (about) This is attributed to Stanislaus I, the exiled king of Poland.
+- (history) Stohrer founded his pâtisserie in Paris in 1730.
+- (history) The pastry has appeared on restaurant menus in the United States at least since 1899.
 
 Learn more:
 
@@ -6393,9 +6380,9 @@ Sanguinaccio dolce ('sweet blood pudding' in English) is an Italian sweet cream 
 
 Fun facts:
 
-- (history) However, public sale of pig blood was banned for health reasons in 1992.
 - (culture) In Naples, it is traditionally prepared for Carnival.
 - (origin) Sanguinaccio dolce comes from Italy.
+- (history) Public sale of pig blood was banned for health reasons in 1992.
 
 Learn more:
 
@@ -6654,9 +6641,9 @@ Sfogliatella is a shell-shaped pastry with a sweet or creamy filling, originatin
 
 Fun facts:
 
-- (about) A variation named coda d'aragosta (in the United States called a lobstertail) also exists, with the same crust but a sweeter filling.
 - (origin) Sfogliatella comes from Italy.
 - (about) Not to be confused with Sfogliatelle.
+- (about) A variation named coda d'aragosta (in the United States called a lobstertail) also exists, with the same crust but a sweeter filling.
 
 Learn more:
 
@@ -6793,10 +6780,10 @@ More fun facts (when the user asks for more):
 - (history) One of the earliest dates from 1844, when Ippolito Cavalcanti, in his Cucina teorico-pratica, included a recipe from popular Neapolitan cuisine, calling it vermicelli all'oglio con olive capperi ed alici salse.
 - (history) After some sporadic appearances in other Neapolitan cookbooks, in 1931 the Touring Club Italiano's Guida gastronomica d'Italia lists it among the gastronomic specialties of Campania, calling it maccheroni alla marinara.
 - (history) The earliest known mention of pasta alla puttanesca is in Raffaele La Capria's Ferito a morte (Mortal Wound), a 1961 Italian novel which mentions "spaghetti alla puttanesca come li fanno a Siracusa".
-- (history) The sauce became popular in the 1960s, according to the Professional Union of Italian Pasta Makers.
-- (history) In Dom DeLuise's 1988 cookbook, Eat This...
 - (origin) It'll Make You Feel Better!, he offers a recipe named "Puttanesca Sauce (Harlot Sauce)", which he explains was introduced to him by Caterina Valente during the filming of The Entertainers in 1964.
 - (origin) Spaghetti alla puttanesca comes from Italy.
+- (history) The sauce became popular in the 1960s, according to the Professional Union of Italian Pasta Makers.
+- (history) In Dom DeLuise's 1988 cookbook, Eat This..
 
 Learn more:
 
@@ -6843,14 +6830,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) In 1725, Rosino Lentilio, a councillor and personal physician from Württemberg, concluded that Knöpflein and Spazen were "all the things that are made from flour".
 - (history) In a description of a Swabian farmers' village written in 1937, Spätzle are described as a festive food.
 - (history) The great importance of Schwäbische Spätzle/Schwäbische Knöpfle in Swabian cooking can be seen, inter alia, from the 1827 novel Die Geschichte von den Sieben Schwaben, according to which the custom in Swabia is "to eat five times a day, five times soup, twice with Knöpfle or Spätzle".
 - (history) In the early 21st century, Spätzle are largely considered a "Swabian speciality" and are generally associated with the German state of Baden-Württemberg.
 - (history) Examples are poems such as "Das Lob der Schwabenknöpfle" (The Praise of Swabian Knöpfle) which was published in the regional newspaper Schwarzwälder Bote (Black Forest Messenger) in 1838, the poem "Schwäbische Leibspeisa" (The Swabian Favourite Dish) or the “Spätzles-Lied” (The Spätzle Song).
-- (about) They are also known as Knöpfle (diminutive of button) which describes the compact, round form of the noodle.
-- (about) The cereal grew on poor soils and was very popular in the region, which was home to small farmers and characterised by poverty.
 - (origin) Spätzle comes from Swabia.
+- (history) In 1725, Rosino Lentilio, a councillor and personal physician from Württemberg, concluded that Knöpflein and Spazen were "all the things that are made from flour".
+- (about) The cereal grew on poor soils and was very popular in the region, which was home to small farmers and characterised by poverty.
 
 Learn more:
 
@@ -6962,8 +6948,8 @@ Strozzapreti are hand-made pasta shape, similar to cavatelli, though longer.
 
 Fun facts:
 
-- (inspiration) There are several legends to explain the name, primarily based on the anticlerical sentiment of the region.
 - (origin) Strozzapreti comes from Italy.
+- (inspiration) There are several legends to explain the name, primarily based on the anticlerical sentiment of the region.
 
 Learn more:
 
@@ -6986,18 +6972,18 @@ Strudel is a type of layered baked good made with pastry, with a filling that is
 Fun facts:
 
 - (history) Strudel became popular in the 18th century throughout the Austrian Empire.
-- (culture) The pastry is believed to descend from the Hungarian rétes, which was traditionally a variation of the Ottoman baklava.
 - (about) The origins of the strudel are believed to lie in the Hungarian rétes, which developed from the Turkish baklava during Ottoman rule in Hungary.
+- (culture) In Hungary, rétes, a traditional Hungarian strudel is consumed at Farsang or New Year, because it is believed to bring good luck and a long life.
 
 More fun facts (when the user asks for more):
 
 - (history) The oldest strudel recipes (a Millirahmstrudel and a turnip strudel) are from 1696, in a handwritten cookbook at the Wienbibliothek im Rathaus (formerly Wiener Stadtbibliothek).
 - (history) The strudel, with its distinctive rolled form, developed in the Austrian Empire around the turn of the 18th century.
-- (culture) In Hungary, rétes, a traditional Hungarian strudel is consumed at Farsang or New Year, because it is believed to bring good luck and a long life.
 - (history) Strudel dates from 1696-.
-- (culture) Traditionally, the Hungarian rétes was made using the same method as baklava, layering paper-thin sheets of dough with filling.
 - (culture) Strudel is also the subject of several traditional Hungarian nursery rhymes, two of which are Aki nem lép egyszerre ('who doesn't match the pace') and Tekeredik a rétes ('the snake coils'): "The snake coils" is sung while children do a special circle dance, imitating the coiling and shapeshifting of the snake.
 - (origin) Strudel comes from Hungary, Austria.
+- (culture) The pastry is believed to descend from the Hungarian rétes, which was traditionally a variation of the Ottoman baklava.
+- (culture) Traditionally, the Hungarian rétes was made using the same method as baklava, layering paper-thin sheets of dough with filling.
 - (about) Not to be confused with nut roll.
 
 Learn more:
@@ -7069,8 +7055,8 @@ Supplì are Italian snacks consisting of a ball of rice (generally risotto) with
 Fun facts:
 
 - (history) The name is first attested in the 19th century, and is a corruption of the term en surprise, which is used in French cuisine for all types of croquettes or pieces of meat covered with breadcrumbs.
-- (origin) Some believe that they derive from the French croquettes and were introduced to Rome by the French troops of Napoleon at the beginning of the 19th century.
 - (origin) Supplì comes from Italy.
+- (origin) Some believe that they derive from the French croquettes and were introduced to Rome by the French troops of Napoleon at the beginning of the 19th century.
 
 Learn more:
 
@@ -7142,8 +7128,8 @@ Taralli (sing.: tarallo) are toroidal Italian snack foods, common in southern It
 Fun facts:
 
 - (history) By the 1990s, taralli were sold by vendors from carts, alongside chips and other snacks, and Neapolitans complained that the culture had ended.
-- (about) They were particularly popular in the comune of Caserta.
 - (origin) Taralli comes from Italy.
+- (about) They were particularly popular in the comune of Caserta.
 
 Learn more:
 
@@ -7194,8 +7180,8 @@ Tiella is an Italian dish prepared with potato, rice, onion and mussels as prima
 Fun facts:
 
 - (origin) In Italy, the dish originated during the time of Spanish rule in southern Italy, and it has been described as being "reminiscent of Spanish rule".
-- (history) Potatoes entered Italian cuisine during the 16th century, a time of powerful Spanish influence in the peninsula.
 - (culture) The round earthenware dish in which tiella is traditionally cooked is also referred to as tiella.
+- (history) Potatoes entered Italian cuisine during the 16th century, a time of powerful Spanish influence in the peninsula.
 
 More fun facts (when the user asks for more):
 
@@ -7250,20 +7236,20 @@ Fun facts:
 
 - (history) Tiramisu is not mentioned in encyclopaedias and dictionaries of the 1970s, first appearing in an Italian dictionary in 1980, and in English in 1982.
 - (origin) Tiramisu originated in northeastern Italy, and modern versions were popularized in restaurants from the 1970s.
-- (inspiration) Others claim it was created toward the end of the 17th century in Siena in honour of Grand Duke Cosimo III.
+- (inspiration) Tiramisu has become one of the most internationally recognised Italian desserts and has inspired many variations in home and professional cooking.
 
 More fun facts (when the user asks for more):
 
 - (history) From 1939, Mario Cosolo (1913–1986) served there a dessert originally called Coppa Vetturino that was made with cream, sponge cake and Marsala instead of mascarpone and coffee.
-- (origin) Others argue it originated from another dish, dolce Torino.
 - (origin) Alternatively, it may have originated as a variation of another layered dessert, zuppa inglese.
-- (history) The dessert was derived from a preparation that, according to documentation held by the Consorzio culturale del Monfalconese, he had developed in 1935 while working as a cook in a ship for Victor Emmanuel III.
-- (history) The dessert was reportedly renamed Tirime su in 1945, taking its name from a humorous expression uttered by a customer.
 - (history) In October 1975, the magazine La buona tavola described Cosolo’s preparation as a precursor to a family of desserts known as “tirame su” that were served in Friulian trattorias.
 - (history) The modern tiramisu recipe is not found in cookbooks before the 1960s.
 - (history) Tiramisu is mentioned in a Sydney Morning Herald restaurant column published in 1978.
-- (inspiration) Tiramisu has become one of the most internationally recognised Italian desserts and has inspired many variations in home and professional cooking.
+- (origin) Others argue it originated from another dish, dolce Torino.
+- (inspiration) Others claim it was created toward the end of the 17th century in Siena in honour of Grand Duke Cosimo III.
 - (origin) Tiramisu comes from Italy.
+- (history) The dessert was derived from a preparation that, according to documentation held by the Consorzio culturale del Monfalconese, he had developed in 1935 while working as a cook in a ship for Victor Emmanuel III.
+- (history) The dessert was reportedly renamed Tirime su in 1945, taking its name from a humorous expression uttered by a customer.
 
 Learn more:
 
@@ -7305,7 +7291,7 @@ Torta Barozzi is an Italian dessert.
 
 Fun facts:
 
-- (inspiration) Torta Barozzi is an enchanting mystery made up of a thousand aromas that confuse the palate in a symphony of sweetness...) Italian pastry chef Eugenio Gollini created the cake in his pastry shop in 1897 in Vignola and named it in honour of Italian renaissance architect Giacomo Barozzi da Vignola.
+- (inspiration) Torta Barozzi is an enchanting mystery made up of a thousand aromas that confuse the palate in a symphony of sweetness..) Italian pastry chef Eugenio Gollini created the cake in his pastry shop in 1897 in Vignola and named it in honour of Italian renaissance architect Giacomo Barozzi da Vignola.
 - (origin) Torta Barozzi comes from Italy.
 - (inspiration) Torta Barozzi is named after Giacomo Barozzi da Vignola.
 
@@ -7326,8 +7312,8 @@ Torta mimosa is an Italian dessert first created in the comune (municipality) of
 
 Fun facts:
 
-- (inspiration) The recipe was invented by Adelmo Renzi, a chef from San Filippo, a frazione (hamlet) of Contigliano, who owned a restaurant in the centre of the comune of Rieti, Lazio.
 - (history) The cake became famous in May 1962, when the chef took part in a pastry competition in Sanremo, during which he presented the mimosa as a tribute to the city of flowers, and won.
+- (inspiration) The recipe was invented by Adelmo Renzi, a chef from San Filippo, a frazione (hamlet) of Contigliano, who owned a restaurant in the centre of the comune of Rieti, Lazio.
 - (culture) Thanks to the flower's connection with International Women's Day, the cake is also often used to celebrate this occasion.
 
 Learn more:
@@ -7371,21 +7357,20 @@ Tortellini is a type of stuffed pasta typical of the Italian cities of Bologna a
 
 Fun facts:
 
-- (inspiration) In the 1800s, legends sprang up to explain the recipe's origins, offering a compromise.
 - (history) The recipe for a dish called tortelletti appears in 1570 from Bartolomeo Scappi.
+- (inspiration) This legend would be at the origin of the term ombelico di Venere, occasionally used to describe tortellini.
 - (culture) Traditionally it is stuffed with a mix of meat (pork loin, prosciutto, mortadella), Parmesan cheese, egg, and nutmeg and served in capon broth (in brodo di cappone).
 
 More fun facts (when the user asks for more):
 
-- (inspiration) In honour of this legend, an annual festival is held in Castelfranco Emilia.
 - (history) Vincenzo Tanara's writings in the mid-17th century may be responsible for the pasta's renaming to tortellini.
-- (inspiration) Castelfranco Emilia, located between Bologna and Modena, is featured in one legend, in which Venus stays at an inn.
-- (inspiration) This legend would be at the origin of the term ombelico di Venere, occasionally used to describe tortellini.
-- (inspiration) Another legend posits that the shape comes from Modena's architecture, which resembles a turtle.
 - (inspiration) Tortellini is named after Tortelli.
-- (inspiration) He is inspired to create a pasta in this shape.
+- (inspiration) In the 1800s, legends sprang up to explain the recipe's origins, offering a compromise.
+- (inspiration) In honour of this legend, an annual festival is held in Castelfranco Emilia.
 - (origin) Tortellini comes from Italy.
 - (about) Not to be confused with tortelloni, Tortelli.
+- (inspiration) Castelfranco Emilia, located between Bologna and Modena, is featured in one legend, in which Venus stays at an inn.
+- (inspiration) Another legend posits that the shape comes from Modena's architecture, which resembles a turtle.
 
 Learn more:
 
@@ -7454,8 +7439,8 @@ Tramezzino is an Italian sandwich consisting of two slices of soft white bread, 
 Fun facts:
 
 - (history) The origin of the tramezzino can be found in the Caffè Mulassano in Piazza Castello, Turin, where it was devised in 1925 as an alternative to English tea sandwich.
-- (about) Popular fillings include prosciutto, tuna, and olives, but many other fillings can be used.
 - (origin) Tramezzino comes from Italy.
+- (about) Popular fillings include prosciutto, tuna, and olives, but many other fillings can be used.
 
 Learn more:
 
@@ -7542,18 +7527,18 @@ Trofie, less frequently troffie, strofie or stroffie, is a short, thin, twisted 
 
 Fun facts:
 
-- (origin) These thin, twisted shapes are believed to have originated in Sori, a town in the province of Genoa.
+- (origin) Modern trofie seems to originate from Golfo Paradiso, a strip of land in the Riviera di Levante including maritime towns like Recco, Sori, Camogli and other comuni (municipalities) in the area.
 - (history) This pasta shape was not so common in Genoa until the mid-20th century, though the term trofie was already in use there and referred to gnocchi as a whole.
 - (culture) Genovese trofie was traditionally made with either wheat or chestnut flour and, from the beginning of the 19th century, with the addition of potatoes also.
 
 More fun facts (when the user asks for more):
 
-- (origin) Modern trofie seems to originate from Golfo Paradiso, a strip of land in the Riviera di Levante including maritime towns like Recco, Sori, Camogli and other comuni (municipalities) in the area.
 - (culture) Trofiette from Carloforte are also typical of the Sulcis archipelago in Sardinia, a region influenced by the Genoese culinary tradition known as cucina tabarchina (Tabarchino cuisine).
-- (culture) The pasta's distinct shape resembles wood shavings, traditionally referred to as risso da banché.
 - (about) In 2019, Trofie di Sori received the De.Co. (Denominazione Comunale) designation, recognizing it as a product deeply tied to its local territory and community.
-- (culture) This status aims to preserve not only the traditional production methods but also the historical and cultural significance of this distinctive pasta shape.
 - (origin) Trofie comes from Italy.
+- (origin) These thin, twisted shapes are believed to have originated in Sori, a town in the province of Genoa.
+- (culture) The pasta's distinct shape resembles wood shavings, traditionally referred to as risso da banché.
+- (culture) This status aims to preserve not only the traditional production methods but also the historical and cultural significance of this distinctive pasta shape.
 
 Learn more:
 
@@ -7575,12 +7560,12 @@ Fun facts:
 
 - (inspiration) A local festival (sagra) dedicated to the dish has been held since 1997.
 - (history) Tumact me tulez is typical of Barile, a comune (municipality) in the province of Potenza where Albanian Christians settled in the 15th century to escape the Ottoman invasion of the Balkans.
-- (culture) In 2018, American Express cited the sagra among "10 amazing Italian food festivals".
+- (culture) With ministerial decree of 25 February 2022, tumact me tulez entered the list of traditional Lucanian agri-food products (PAT).
 
 More fun facts (when the user asks for more):
 
-- (history) Matthew (1964), expressed appreciation for the dish.
-- (culture) With ministerial decree of 25 February 2022, tumact me tulez entered the list of traditional Lucanian agri-food products (PAT).
+- (history) Pier Paolo Pasolini, who arrived in Barile for the shooting of his film The Gospel According to St. Matthew (1964), expressed appreciation for the dish.
+- (culture) In 2018, American Express cited the sagra among "10 amazing Italian food festivals".
 
 Learn more:
 
@@ -7625,11 +7610,11 @@ Fun facts:
 
 - (origin) Pastizz is a type of calzone, originating in the 18th and 19th centuries.
 - (culture) By tradition, it was prepared for particular events of the year (pig slaughter, Easter, and the celebration of Saint Mary of Anglona), when the availability of meat was increased.
-- (culture) The half-moon shape is linked to a symbolism that refers to the concepts of female fertility and prosperity, and recalls that of a large womb that holds nutritious elements.
+- (origin) U' pastizz 'rtunnar comes from Italy.
 
 More fun facts (when the user asks for more):
 
-- (origin) U' pastizz 'rtunnar comes from Italy.
+- (culture) The half-moon shape is linked to a symbolism that refers to the concepts of female fertility and prosperity, and recalls that of a large womb that holds nutritious elements.
 
 Learn more:
 
@@ -7697,8 +7682,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Further evidence dates to around the 1st century BC indicating that the Romans enjoyed dishes of thinly sliced meat, which was breaded and fried.
 - (origin) Veal Milanese comes from Italy.
+- (history) Further evidence dates to around the 1st century BC indicating that the Romans enjoyed dishes of thinly sliced meat, which was breaded and fried.
 
 Learn more:
 
@@ -7720,12 +7705,12 @@ Veneziana is a sweet from the Lombard cuisine covered with sugar grains or almon
 Fun facts:
 
 - (history) The history of veneziana is very similar to that of the panettone, which was created around 15th century.
-- (culture) This sweet was once eaten during celebrations such as weddings and Christmas, while since the end of Second World War is considered a breakfast food.
 - (about) Buondì, a popular snack in Italy, is the industrial version of veneziana.
+- (origin) Veneziana comes from Italy.
 
 More fun facts (when the user asks for more):
 
-- (origin) Veneziana comes from Italy.
+- (culture) This sweet was once eaten during celebrations such as weddings and Christmas, while since the end of Second World War is considered a breakfast food.
 - (about) Not to be confused with panettone.
 
 Learn more:
@@ -7771,13 +7756,13 @@ Fun facts:
 
 - (culture) According to tradition, the Italian name of the dish derives from simplification and italianization of the name of the general Alfred von Windisch-Grätz who defeated the Napoleonic troops in the siege of Ancona in 1799.
 - (inspiration) Vincisgrassi is not clear, however, if the dish was invented in honor of the general or if it was a dish already known at the time that was dedicated to him.
-- (history) In Il cuoco maceratese, a book of 1779, Antonio Nebbia describes the preparation of particular lasagna called princisgrass with a richer recipe.
+- (origin) Vincisgrassi comes from Italy.
 
 More fun facts (when the user asks for more):
 
 - (culture) So, probably, the dish was already present in the culinary tradition of the Marche, and in particular of Macerata.
 - (culture) Since 2022, in the EU the vincisgrassi alla maceratese (from Macerata) has been registered as a traditional speciality guaranteed.
-- (origin) Vincisgrassi comes from Italy.
+- (history) In Il cuoco maceratese, a book of 1779, Antonio Nebbia describes the preparation of particular lasagna called princisgrass with a richer recipe.
 
 Learn more:
 
@@ -7870,16 +7855,16 @@ Zeppole are Italian doughnut consisting of a deep-fried dough ball of varying si
 
 Fun facts:
 
+- (history) The zeppole that is around today was created in the 18th century.
 - (origin) They originated in ancient Rome, when people started frying dough and putting sugar or cinnamon on it.
-- (history) However, the zeppole that is around today was created in the 18th century.
-- (culture) They are traditionally eaten to celebrate Saint Joseph's Day, which is a Catholic feast day.
+- (culture) Zippole are eaten in Sardinia to celebrate Carnival.
 
 More fun facts (when the user asks for more):
 
-- (history) The custom was popularized in the early 19th century by Neapolitan baker Pasquale Pintauro.
-- (culture) Zippole are eaten in Sardinia to celebrate Carnival.
-- (culture) They are traditionally consumed during the Festa di San Giuseppe ('Saint Joseph's Day'), celebrated every March 19, when they are sold on many streets and sometimes presented as gifts.
 - (origin) Zeppole comes from Italy.
+- (history) The custom was popularized in the early 19th century by Neapolitan baker Pasquale Pintauro.
+- (culture) They are traditionally eaten to celebrate Saint Joseph's Day, which is a Catholic feast day.
+- (culture) They are traditionally consumed during the Festa di San Giuseppe ('Saint Joseph's Day'), celebrated every March 19, when they are sold on many streets and sometimes presented as gifts.
 
 Learn more:
 
@@ -7927,8 +7912,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (inspiration) The dessert is thought to have been invented by the Renaissance chef Bernardo Buontalenti.
 - (origin) Zuccotto comes from Italy.
+- (inspiration) The dessert is thought to have been invented by the Renaissance chef Bernardo Buontalenti.
 
 Learn more:
 
@@ -7972,13 +7957,13 @@ Zuppa inglese is an Italian dessert with layers of custard and sponge cake dippe
 Fun facts:
 
 - (inspiration) A later account describes it as a dessert tribute to Lord Nelson after his 1798 victory over Napoleon, created by a Neapolitan chef.
-- (history) In the Larousse Gastronomique, the creation is credited to a Neapolitan chef in 19th century Europe at a time when English trifles were popular.
 - (about) Zuppa inglese is also a popular gelato flavour.
+- (origin) Zuppa inglese comes from Italy.
 
 More fun facts (when the user asks for more):
 
+- (history) In the Larousse Gastronomique, the creation is credited to a Neapolitan chef in 19th century Europe at a time when English trifles were popular.
 - (inspiration) Often, a layer of crema al cioccolato is created by dissolving dark chocolate in a plain crema pasticcera.
-- (origin) Zuppa inglese comes from Italy.
 
 Learn more:
 
@@ -8071,17 +8056,17 @@ Fun facts:
 
 - (origin) Like all the Aglianico grape varieties, Aglianico del Vulture has ancient origins, and it is believed to have been introduced by the Greeks in southern Italy in the 7th or 6th century BC.
 - (history) Located on volcanic soils derived from nearby Mount Vulture, it was awarded Denominazione di Origine Controllata (DOC) status in 1971.
-- (about) The Superiore was elevated to a separate Denominazione di Origine Controllata e Garantita (DOCG) status in 2011, the only DOCG wine in Basilicata.
+- (about) Although not as famous as other Italian wines, Aglianico del Vulture is considered one of the best red wines of Italy.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1280 Charles of Anjou ordered the giustiziere of Basilicata the supply of 400 salme (equal to 185 liters) of "vino rubeo Melfie" (red wine of Melfi) when planning a summer stay at Castel Lagopesole with the Angevin court.
 - (history) In the 15th century, vineyards covered the slopes of Mount Vulture between Melfi, Rapolla, and Barile.
 - (history) In 1906, Aglianico del Vulture was presented at the Milan International.
-- (about) Although not as famous as other Italian wines, Aglianico del Vulture is considered one of the best red wines of Italy.
 - (culture) Some of the literary references about the history of Aglianico del Vulture have been left by Horace, the Roman poet born in Venosa who celebrated the beauty of his native land and the quality of the wine.
-- (culture) Subsequently, there was a notable increase in viticulture, also linked to the new uses of wine in the celebration of mass and in medicine.
 - (about) In 2012, Poste Italiane has dedicated a stamp to it, along with other wines of fifteen regions of Italy.
+- (history) In 1280 Charles of Anjou ordered the giustiziere of Basilicata the supply of 400 salme (equal to 185 liters) of "vino rubeo Melfie" (red wine of Melfi) when planning a summer stay at Castel Lagopesole with the Angevin court.
+- (about) The Superiore was elevated to a separate Denominazione di Origine Controllata e Garantita (DOCG) status in 2011, the only DOCG wine in Basilicata.
+- (culture) Subsequently, there was a notable increase in viticulture, also linked to the new uses of wine in the celebration of mass and in medicine.
 
 Learn more:
 
@@ -8175,13 +8160,13 @@ Amaretto (Italian for 'a little bitter') is a sweet Italian liqueur originating 
 Fun facts:
 
 - (origin) The name amaretto originated as a diminutive of the Italian word amaro, meaning "bitter", which references the distinctive flavour lent by the mandorla amara or by the drupe kernel.
-- (history) Though of sometimes questionable provenance, these tales hold a sentimental place in Saronno culture: In 1525, a Saronno church commissioned artist Bernardino Luini, one of Leonardo da Vinci's pupils, to paint its sanctuary with frescoes.
+- (history) Amaretto dates from 1525-.
 - (about) When served as a beverage, amaretto can be drunk by itself, used as an ingredient to create several popular mixed drinks, or added to coffee.
 
 More fun facts (when the user asks for more):
 
-- (history) Amaretto dates from 1525-.
 - (origin) Amaretto comes from Italy.
+- (history) Though of sometimes questionable provenance, these tales hold a sentimental place in Saronno culture: In 1525, a Saronno church commissioned artist Bernardino Luini, one of Leonardo da Vinci's pupils, to paint its sanctuary with frescoes.
 
 Learn more:
 
@@ -8201,14 +8186,14 @@ Amaro (Italian for 'bitter'); pl. amari) is a type of Italian (or Italian-style)
 
 Fun facts:
 
+- (culture) Amaro is traditionally consumed neat, sometimes with a citrus wedge.
+- (origin) Amaro comes from Italy.
 - (history) Many commercial bottlers trace their recipe or production to the 19th century or earlier.
-- (origin) Recipes often originated in monasteries or pharmacies.
-- (about) In the United States, the Tax and Trade Bureau classifies what is colloquially known as amari as aromatized wines per 27 CFR 4.21(g).
 
 More fun facts (when the user asks for more):
 
-- (culture) Amaro is traditionally consumed neat, sometimes with a citrus wedge.
-- (origin) Amaro comes from Italy.
+- (origin) Recipes often originated in monasteries or pharmacies.
+- (about) In the United States, the Tax and Trade Bureau classifies what is colloquially known as amari as aromatized wines per 27 CFR 4.21(g).
 
 Learn more:
 
@@ -8228,16 +8213,16 @@ Amaro Averna is an Italian liqueur in the amaro category produced in Caltanisset
 Fun facts:
 
 - (inspiration) Amaro Averna is named after its inventor, Salvatore Averna, who invented the recipe in 1868.
-- (history) During a private visit of King Umberto I in 1895, Francesco received a gold pin with the House of Savoy insignia in recognition of the Sicilian bitter, which by now was well known.
-- (culture) This drink is produced on the Island of Sicily and is considered a traditional drink.
+- (history) Salvatore Averna was born in 1802 into a family of drapers.
+- (about) In May 2026, Gruppo Campari sold Amaro Averna to Disaronno Group.
 
 More fun facts (when the user asks for more):
 
-- (history) Salvatore Averna was born in 1802 into a family of drapers.
-- (history) In 1859, as a token of gratitude, fray Girolamo, prior de la Abadía de Santo Spirito gave Salvatore the recipe for the infusion.
 - (history) In 1868 he began producing Averna for guests at his home.
 - (history) Since 1978, the fourth generation of Averna has maintained that position in the market, further consolidating it through product diversification: the "Averna Group" now includes the Villa Frattina winery producing still and sparkling wines.
-- (about) In May 2026, Gruppo Campari sold Amaro Averna to Disaronno Group.
+- (history) During a private visit of King Umberto I in 1895, Francesco received a gold pin with the House of Savoy insignia in recognition of the Sicilian bitter, which by now was well known.
+- (history) In 1859, as a token of gratitude, fray Girolamo, prior de la Abadía de Santo Spirito gave Salvatore the recipe for the infusion.
+- (culture) This drink is produced on the Island of Sicily and is considered a traditional drink.
 - (culture) Here, following an ancient tradition born in the fortified Benedictine abbeys and spread to Europe through the Cluniac and Cistercian monasteries, the monks produced an elixir of herbs that was pleasant despite being "bitter", and was popularly thought to possess tonic and therapeutic properties.
 
 Learn more:
@@ -8259,13 +8244,13 @@ Amaro Lucano is an Italian herbal liqueur belonging to the amaro category.
 Fun facts:
 
 - (history) In 1900, Amaro Lucano gained fame throughout the Kingdom of Italy when the Vena family became the official supplier to the House of Savoy, whose coat of arms appears on the label.
+- (history) Amaro Lucano dates from 1894-.
 - (history) The recipe was created in 1894 by Pasquale Vena, a pastry chef who blended more than 30 herbs.
-- (history) After a period of recession during World War II, in 1950 the workshop became an industrial enterprise under the management of Vena's sons, Leonardo and Giuseppe.
 
 More fun facts (when the user asks for more):
 
+- (history) After a period of recession during World War II, in 1950 the workshop became an industrial enterprise under the management of Vena's sons, Leonardo and Giuseppe.
 - (history) Subsequently, in 1965, a new factory was opened in the frazione (hamlet) of Pisticci Scalo.
-- (history) Amaro Lucano dates from 1894-.
 
 Learn more:
 
@@ -8315,9 +8300,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (about) Amarone dates from 2011-.
 - (history) The wine was assigned denominazione di origine controllata (DOC) status in December 1990.
 - (about) Total production for sale (including Recioto) in 2008 was 8.57 million bottles.
-- (about) Amarone dates from 2011-.
 
 Learn more:
 
@@ -8358,7 +8343,6 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found.
 - (history) As late as the 17th century, the word also functioned as a generic term for all fruit including nuts; one example is the pineapple, the swollen accessory fruit outside of the cashew nut known as the "cashew apple", another is a 14th-century Middle English expression appel of paradis, meaning a banana.
 - (history) There is direct evidence, apple cores, dated to the 10th century BCE from a Judean site between the Sinai and Negev.
 - (about) Grafting is an essential part of modern domesticated apple production, to be able to propagate the best cultivars; it is unclear when apple tree grafting was invented.
@@ -8369,6 +8353,7 @@ More fun facts (when the user asks for more):
 - (origin) Apples have been grown for thousands of years in Eurasia before they were introduced to the American continent by European colonists.
 - (about) In 2010, the fruit's genome was sequenced as part of research on disease control and selective breeding in apple production.
 - (about) Not to be confused with evil, Alma, Apple, Apfel, Elma.
+- (origin) The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found.
 
 Learn more:
 
@@ -8413,14 +8398,14 @@ The artichoke (Cynara cardunculus var. scolymus) is a variety of a species of th
 
 Fun facts:
 
-- (history) Artichoke beds are mentioned in Avignon by the notaries from 1532 onward; from the principal towns they spread into the hinterlands... appearing as carchofas at Cavaillon in 1541, at Chateauneuf du Pape in 1553, at Orange in 1554.
+- (history) Artichoke beds are mentioned in Avignon by the notaries from 1532 onward; from the principal towns they spread into the hinterlands.. appearing as carchofas at Cavaillon in 1541, at Chateauneuf du Pape in 1553, at Orange in 1554.
 - (origin) The Dutch introduced artichokes to England, where they grew in the garden of Henry VIII at Newhall in 1530.
 - (about) The Italian form articiocco seems to have been adapted to correspond to Italian arci- ('arch-, chief') and ciocco ('stump').
 
 More fun facts (when the user asks for more):
 
-- (history) The hearts were considered luxury ingredients in the new court cookery as recorded by writers such as François Pierre La Varenne, the author of Le Cuisinier François (1651).
 - (history) Towards 1480 it is noticed in Venice, as a curiosity.
+- (history) The hearts were considered luxury ingredients in the new court cookery as recorded by writers such as François Pierre La Varenne, the author of Le Cuisinier François (1651).
 - (about) Not to be confused with Jerusalem artichoke.
 
 Learn more:
@@ -8473,16 +8458,16 @@ Asti (also known as Asti spumante) is a sparkling white Italian wine that is pro
 Fun facts:
 
 - (history) The first sparkling Asti is believed to have been produced around 1870 by Carlo Gancia who studied the Champagne method used to produce the notable wine in the Champagne wine region of France.
-- (culture) On 22 June 2014, Vineyard Landscape of Piedmont: Langhe-Roero and Monferrato was declared a UNESCO World Heritage Site.
-- (about) The Moscato Bianco grape (also known as Muscat Blanc à Petits Grains) has long been found in the Piedmont and, along with Nebbiolo, may be one of the oldest grapes in the region.
+- (about) Producing his wine in the town of Canelli along the river Belbo, the wine grew in such popularity that Moscato Bianco developed the synonym of Muscat Canelli that is still seen on wine labels today.
+- (origin) Asti wine comes from Italy.
 
 More fun facts (when the user asks for more):
 
 - (history) Since 1993 the wine has been classified as a denominazione di origine controllata e garantita (DOCG) and as of 2004 was Italy's largest producing appellation.
 - (history) When the wine was promoted to DOCG status in 1993, producers sought to distinguish themselves from that reputation and dropped the use of Spumante altogether in favor of the shortened Asti name.
-- (about) Producing his wine in the town of Canelli along the river Belbo, the wine grew in such popularity that Moscato Bianco developed the synonym of Muscat Canelli that is still seen on wine labels today.
 - (history) After World War II, Asti saw an uptick in popularity in the United States as returning soldiers from the war brought their taste for the light, sweet wine home with them.
-- (origin) Asti wine comes from Italy.
+- (culture) On 22 June 2014, Vineyard Landscape of Piedmont: Langhe-Roero and Monferrato was declared a UNESCO World Heritage Site.
+- (about) The Moscato Bianco grape (also known as Muscat Blanc à Petits Grains) has long been found in the Piedmont and, along with Nebbiolo, may be one of the oldest grapes in the region.
 
 Learn more:
 
@@ -8552,20 +8537,20 @@ Fun facts:
 
 - (inspiration) The story of balsamic vinegar began in the 11th century in the city of Modena; by 1046, it was already gaining a wider reputation.
 - (about) The future Holy Roman Emperor, King Henry III, requested Marquis Bonifacio of Canossa to craft a high quality vinegar in his castle.
-- (history) The first use of the term was in a catalogue of wines held by the duke of Este in 1747, to distinguish a particular type from others present in the palace.
+- (history) The earliest surviving recipe for balsamic vinegar is in a letter by Francesco Aggazzotti in 1860 or 1862, where he describes it as "Modena vinegar".
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest surviving recipe for balsamic vinegar is in a letter by Francesco Aggazzotti in 1860 or 1862, where he describes it as "Modena vinegar".
 - (history) From a regulatory point of view, the first ministerial authorization to produce "balsamic vinegar of Modena" dates back to 1933.
 - (history) In 1965, further regulations on the use of the term "balsamic vinegar" were established, and the first production regulations for "balsamic vinegar of Modena" were created.
 - (origin) Originating in Emilia-Romagna and considered a staple condiment in Italian cuisine, balsamic vinegar adds sweet tangy flavor in preparation of seafood, meat marinades, roasted vegetables, and as salad dressing.
 - (history) In 1830, this definition was further refined, so that the vinegars present at the court were divided into "balsamic", "semi-balsamic", "fine", and "common".
 - (culture) In 1976, to distinguish traditional production methods from industrial ones, the term "natural" balsamic vinegar was adopted, later changed to "traditional" due to legislative requirements.
 - (culture) The original standard defining traditional balsamic vinegar, aceto balsamico tradizionale, was created in 1986.
+- (history) The first use of the term was in a catalogue of wines held by the duke of Este in 1747, to distinguish a particular type from others present in the palace.
 - (culture) Three types of balsamic vinegar are "protected" as traditional vinegars in Europe.
-- (about) In 2000, criteria were established for protected designation of origin, a European Union standard.
 - (origin) Balsamic vinegar comes from Italy.
+- (about) In 2000, criteria were established for protected designation of origin, a European Union standard.
 - (about) Not to be confused with doshab.
 
 Learn more:
@@ -8689,13 +8674,12 @@ More fun facts (when the user asks for more):
 - (history) Barolo was Staglieno who was called upon by Camillo Benso, Conte di Cavour, who appointed him to the position of oenologist at his Grinzane estate between 1836 and 1841.
 - (history) Another popular idea was that in the mid-19th century, Camillo Benso, Conte di Cavour, the mayor of Grinzane Cavour, invited the French enologist Louis Oudart to the Barolo region to improve the winemaking techniques of the local producers.
 - (about) Using techniques focusing on improving the hygiene of the cellar, Oudart was able to ferment the nebbiolo must completely dry, making the first modern Barolo.
-- (history) He was the author of a winemaking manual, Istruzione intorno al miglior metodo di fare e conservare i vini in Piemonte, published in 1835.
-- (history) Oudart was a grape and wine merchant, not an oenologist, who in the early 1800s moved to Genoa and set up a winery, Maison Oudard et Bruché.
-- (about) By the time Oudart turned up in Alba, King Carlo Alberto and Cavour were already following Staglieno's guidelines and both were producing dry wines.
 - (history) By the mid-20th century, wine production in the Barolo zone was dominated by large negociants who purchased grapes and wines from across the zone and blended them into a house style.
-- (about) Although production codes have always stipulated that vineyards must be located on hillsides, the most recent revision of the production code released in 2010 goes further, categorically excluding valley floors, humid and flat areas, areas without sufficient sunlight, and areas with full-on northern exposures.
 - (inspiration) The idea that Barolo was once a sweet wine and that it took a French oenologist to turn it into a dry wine has been recently challenged, based on new research, by Kerin O'Keefe.
 - (origin) Barolo comes from Piedmont.
+- (history) Oudart was a grape and wine merchant, not an oenologist, who in the early 1800s moved to Genoa and set up a winery, Maison Oudard et Bruché.
+- (about) By the time Oudart turned up in Alba, King Carlo Alberto and Cavour were already following Staglieno's guidelines and both were producing dry wines.
+- (about) Although production codes have always stipulated that vineyards must be located on hillsides, the most recent revision of the production code released in 2010 goes further, categorically excluding valley floors, humid and flat areas, areas without sufficient sunlight, and areas with full-on northern exposures.
 
 Learn more:
 
@@ -8921,13 +8905,13 @@ More fun facts (when the user asks for more):
 - (history) In 1980, Brunello di Montalcino was among the four wines awarded the first denominazione di origine controllata e garantita (DOCG) designation.
 - (history) In 1888, his grandson Ferruccio Biondi-Santi—a veteran soldier who fought under Giuseppe Garibaldi during the Risorgimento—released the first "modern version" of Brunello di Montalcino that was aged for over a decade in large wood barrels.
 - (history) By the 1960s there were 11 producers making Brunello, and in 1968 the region was granted denominazione di origine controllata (DOC) status.
-- (history) By 1970 the number of producers had more than doubled to 25, and by 1980 there were 53 producers.
 - (history) In 1980, the Montalcino region was the first Italian wine region to be awarded denominazione di origine controllata e garantita (DOCG) designation.
 - (history) In 1879 the province of Siena's Amphelographic Commission determined, after a few years of controlled experiments, that Sangiovese and Brunello were the same grape variety, and that the former should be its designated name.
 - (history) In 1831, marchese Cosimo Ridolfi (who was later appointed Prime Minister of Tuscany by the Grand Duke Leopold II) praised the merits of the red wines of Montalcino above all others in Tuscany.
 - (history) In 1865, an agricultural fair in Montalcino noted that the prize winning wine of the event was a "select red wine" known as a Brunello.
-- (history) In the mid-19th century, a local farmer named Clemente Santi isolated certain plantings of Sangiovese vines in order to produce a 100% varietal wine that could be aged for a considerable period of time.
 - (history) By the turn of the 21st century, there were nearly 200 producers of Brunello di Montalcino, mostly small farmers and family estates, together producing nearly 330,000 cases a year.
+- (history) By 1970 the number of producers had more than doubled to 25, and by 1980 there were 53 producers.
+- (history) In the mid-19th century, a local farmer named Clemente Santi isolated certain plantings of Sangiovese vines in order to produce a 100% varietal wine that could be aged for a considerable period of time.
 
 Learn more:
 
@@ -9092,7 +9076,7 @@ Caffè americano, also known as americano or American, is an espresso shot with 
 Fun facts:
 
 - (inspiration) Caffè americano is named after United States.
-- (origin) Caffè americano comes from United States, Italy.
+- (origin) Caffè americano comes from the United States, Italy.
 
 Learn more:
 
@@ -9204,8 +9188,8 @@ Canestrato is a hard cheese from the Italian regions of Basilicata, Apulia, Sici
 
 Fun facts:
 
-- (about) An application for PGI status was registered in 2010.
 - (origin) Canestrato comes from Italy.
+- (about) An application for PGI status was registered in 2010.
 
 Learn more:
 
@@ -9226,8 +9210,8 @@ Canestrelli are a type of Italian biscuit.
 
 Fun facts:
 
-- (origin) Originating in Montferrat, these biscuits are common in both Piedmont and Liguria.
 - (origin) Canestrelli comes from Italy.
+- (origin) Originating in Montferrat, these biscuits are common in both Piedmont and Liguria.
 
 Learn more:
 
@@ -9248,8 +9232,8 @@ Capocollo or coppa is an Italian pork salted meat made from the dry-cured muscle
 
 Fun facts:
 
-- (inspiration) The pronunciation gabagool has been used by some Italian Americans in the New York City area and elsewhere in the Northeast US, based on the Neapolitan language word capecuollo in working-class strata of 19th- and early 20th-century immigrants.
 - (origin) Capocollo comes from Italy.
+- (inspiration) The pronunciation gabagool has been used by some Italian Americans in the New York City area and elsewhere in the Northeast US, based on the Neapolitan language word capecuollo in working-class strata of 19th- and early 20th-century immigrants.
 - (about) Not to be confused with Coppa.
 
 Learn more:
@@ -9272,25 +9256,23 @@ Cappuccino is an espresso-based coffee drink traditionally prepared with steamed
 
 Fun facts:
 
-- (history) Cappuccino is sometimes said to have been served in the coffeehouses of Trieste and other Italian areas of the Austro-Hungarian Empire in the early 20th century, spreading throughout the Kingdom of Italy after World War I.
 - (inspiration) According to a popular but unverified legend, cappuccino was named after the Italian Capuchin friar Marco d'Aviano, who contributed to the victory of the Battle of Vienna.
-- (origin) The use of fresh milk in coffee in cafés and restaurants is a newer phenomenon (from the 20th century), introduced when refrigeration became common.
+- (history) Cappuccino as written today (in Italian) is first mentioned in the 19th century and is described as "black coffee with a few drops of milk or cream".
+- (origin) Later, the Kapuziner was introduced in northern Italy during the period of Austrian domination, and Italians started to use it for the beverage as well as the friar dress.
 
 More fun facts (when the user asks for more):
 
-- (history) Adding milk to coffee was mentioned by Europeans as early as the 1700s, while the British already started filtering and steeping coffee in the second half of the 18th century.
-- (history) Cappuccino as written today (in Italian) is first mentioned in the 19th century and is described as "black coffee with a few drops of milk or cream".
-- (history) The Viennese bestowed the name Kapuziner, possibly in the 18th century, on an early version that included whipped cream and spices.
-- (history) However, the existence in central Italy of a coffee drink mixed with milk named cappuccino is already documented in the 19th century.
-- (history) Drinks called Kapuziner, consisting of coffee with a few drops of cream, showed up in coffee house menus all over the Habsburg monarchy around the late 1700s, so nicknamed due to the vestments of the Capuchin friars, commonly seen in Vienna, sharing the same color as the drink.
 - (history) The word cappuccino, in its Italian form, appears in Italian writings in the 19th century and is described as "black coffee with a few drops of milk or cream which give it the color the tunic of the Capuchins, from which it takes its name".
-- (history) Kapuziner showed up in coffee house menus all over the Habsburg monarchy around the late 1700s.
 - (inspiration) Cappuccino is named after Order of Friars Minor Capuchin.
-- (origin) Later, the Kapuziner was introduced in northern Italy during the period of Austrian domination, and Italians started to use it for the beverage as well as the friar dress.
+- (history) Adding milk to coffee was mentioned by Europeans as early as the 1700s, while the British already started filtering and steeping coffee in the second half of the 18th century.
+- (origin) Cappuccino comes from Italy.
+- (history) The Viennese bestowed the name Kapuziner, possibly in the 18th century, on an early version that included whipped cream and spices.
+- (history) Drinks called Kapuziner, consisting of coffee with a few drops of cream, showed up in coffee house menus all over the Habsburg monarchy around the late 1700s, so nicknamed due to the vestments of the Capuchin friars, commonly seen in Vienna, sharing the same color as the drink.
+- (history) Kapuziner showed up in coffee house menus all over the Habsburg monarchy around the late 1700s.
+- (origin) The use of fresh milk in coffee in cafés and restaurants is a newer phenomenon (from the 20th century), introduced when refrigeration became common.
 - (inspiration) The consumption of coffee in Europe was initially based on the traditional Ottoman preparation of the drink, by bringing to boil the mixture of coffee and water together, sometimes adding sugar.
 - (about) Another popular coffee was Franziskaner, with more cream, referring to the somewhat lighter brown of the tunics of the Franciscan order.
 - (culture) Today, Kapuziner is still served in Viennese traditional cafés, comprising still black coffee with only a few drops of cream (in some establishments developed into a dollop of whipped cream), or frothed milk instead of cream.
-- (origin) Cappuccino comes from Italy.
 - (about) Not to be confused with latte macchiato, latte.
 
 Learn more:
@@ -9334,8 +9316,8 @@ Capuliato, or capuliatu in the Sicilian language, is a traditional condiment of 
 Fun facts:
 
 - (history) Initially in Europe the tomato was used as an ornamental plant and it was only in the 19th century that it spread on a gastronomic level.
-- (culture) Among the areas of diffusion of the product, Vittoria has always been seen as having the greatest production and tradition of the tomato.
 - (origin) Capuliato comes from Italy.
+- (culture) Among the areas of diffusion of the product, Vittoria has always been seen as having the greatest production and tradition of the tomato.
 
 Learn more:
 
@@ -9386,12 +9368,12 @@ More fun facts (when the user asks for more):
 
 - (history) Vine cuttings of Cabernet from Château Lafite Rothschild in Bordeaux were imported and by 1975 Carmignano was the first DOC to be awarded official sanctioning for the use of Cabernet in the blend.
 - (history) Noted for the quality of its wines since the Middle Ages, Carmignano was identified by Cosimo III de' Medici, Grand Duke of Tuscany as one of the superior wine producing areas of Tuscany and granted special legal protections in 1716.
-- (history) In 1716, the Grand Duke of Tuscany, Cosimo III de' Medici issued an edict identify four areas of Tuscany that produced the highest quality wine in the area.
-- (history) The wines were similarly praised in the 18th and 19th century writings of Giovanni Cosimo Villifranchi and Cosimo Ridolfi.
 - (history) In 1932, the Dalmasso Commission (in establishing an early precursor to the Denominazione di origine controllata system) officially grouped Carmignano with the Chianti sub-zone of Chianti Montalbano.
-- (history) While some theories suggest that this practice dates back to the time of the Medici (with those early vines subsequently being wiped out during the phylloxera epidemic), the practice became more common during the 20th century.
 - (history) While the early "Super Tuscans" of the late 20th century which included Sangiovese-Cabernet blends had to be relegated to the lowly vino da tavola or "table wine" designation, DOC (and later DOCG) Carmignano wine was being produced with full legal sanctioning.
 - (culture) But the Carmignano region produced distinctly different wines from Chianti due, in part, to the tradition of including Cabernet Sauvignon in the blend with Sangiovese.
+- (history) In 1716, the Grand Duke of Tuscany, Cosimo III de' Medici issued an edict identify four areas of Tuscany that produced the highest quality wine in the area.
+- (history) The wines were similarly praised in the 18th and 19th century writings of Giovanni Cosimo Villifranchi and Cosimo Ridolfi.
+- (history) While some theories suggest that this practice dates back to the time of the Medici (with those early vines subsequently being wiped out during the phylloxera epidemic), the practice became more common during the 20th century.
 
 Learn more:
 
@@ -9484,12 +9466,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) The larvae of the cheese fly (Piophila casei) are deliberately introduced to pecorino cheese, where their digestive action produces an advanced level of fermentation, including a breakdown of the cheese's fats.
 - (culture) An Italian journalist for CNN described casu martzu's cultural status as "revered", and the unique cheesemaking process combined with the strong, rare taste of the dish are described as icons of the traditional Sardinian pastoral lifestyle.
-- (about) As of 2019, the illegal production of this cheese was estimated at 100 tonnes (98 long tons; 110 short tons) per year, worth between €6–7 million.
 - (culture) Attempts have been made to circumvent the Italian and EU ban by having casu martzu declared a traditional food.
-- (culture) The traditional way of making the cheese is explained by an official paper of the Sardinian government.
 - (origin) Casu martzu comes from Sardinia, Corsica.
+- (origin) The larvae of the cheese fly (Piophila casei) are deliberately introduced to pecorino cheese, where their digestive action produces an advanced level of fermentation, including a breakdown of the cheese's fats.
+- (about) As of 2019, the illegal production of this cheese was estimated at 100 tonnes (98 long tons; 110 short tons) per year, worth between €6–7 million.
+- (culture) The traditional way of making the cheese is explained by an official paper of the Sardinian government.
 
 Learn more:
 
@@ -9509,8 +9491,8 @@ Centerbe or Centerba (Italian for 'Hundred Herbs') is a liqueur made by aromatic
 
 Fun facts:
 
-- (history) There was a "green and unsweetened" version, as listed in the "Green Devil" cocktail recipe included in the book "Drinks Long and Short" (1925 - Nina Toye and A.H.
 - (origin) Centerbe comes from Italy.
+- (history) There was a "green and unsweetened" version, as listed in the "Green Devil" cocktail recipe included in the book "Drinks Long and Short" (1925 - Nina Toye and A.H. Adair) also published in the UK. "A potent cocktail, very dry, warranted to wake up any party.
 - (history) Alternatively, many of the 18th century sweet recipes are, to modern tastes, exceptionally sweet.
 
 Learn more:
@@ -9557,8 +9539,8 @@ Chianti is an Italian red wine produced in the Chianti region of central Tuscany
 Fun facts:
 
 - (history) In the late 19th century, Baron Bettino Ricasoli (later Prime Minister of the Kingdom of Italy) helped establish Sangiovese as the blend's dominant grape variety, creating the blueprint for today's Chianti wines.
-- (origin) Other variants, with the exception of Rufina north-east of Florence and Montalbano south of Pistoia, originate in the named provinces: Siena for the Colli Senesi, Florence for the Colli Fiorentini, Arezzo for the Colli Aretini and Pisa for the Colline Pisane.
-- (inspiration) In 1967, the Denominazione di origine controllata (DOC) regulation set by the Italian government was based on a loose interpretation of Ricasoli's "recipe", calling for a Sangiovese-based blend with 10–30% Malvasia and Trebbiano.
+- (inspiration) Chianti is named after Chianti.
+- (origin) Chianti comes from Italy.
 
 More fun facts (when the user asks for more):
 
@@ -9567,7 +9549,6 @@ More fun facts (when the user asks for more):
 - (history) In 1398 the earliest-known record notes Chianti as a white wine, though the red wines of Chianti were also discussed around the same time in similar documents.
 - (history) The first attempt to classify Chianti wine in any way came in 1427, when Florence developed a tariff system for the wines of the surrounding countryside, including an area referred to as "Chianti and its entire province".
 - (history) In 1932 the Chianti area was completely redrawn and divided into seven sub-areas: Classico, Colli Aretini, Colli Fiorentini, Colline Pisane, Colli Senesi, Montalbano and Rùfina.
-- (history) In 1996 part of the Colli Fiorentini sub-area was renamed Montespertoli.
 - (history) During the 1970s producers started to reduce the quantity of white grapes in Chianti.
 - (history) In 1995 it became legal to produce a Chianti with 100% Sangiovese.
 - (history) The earliest documentation of a "Chianti wine" dates back to the 14th century, when viticulture was known to flourish in the "Chianti Mountains" around Florence.
@@ -9576,10 +9557,11 @@ More fun facts (when the user asks for more):
 - (history) Subsequent expansions in 1967 would eventually result in the Chianti zone covering a very large area all over central Tuscany.
 - (history) By the 18th century Chianti was widely recognised as a red wine, but the exact composition and grape varieties used to make Chianti at this point is unknown.
 - (history) In the mid-19th century, Ricasoli developed a recipe for Chianti that was based primarily on Sangiovese.
-- (inspiration) Chianti is named after Chianti.
-- (about) Ampelographers find clues about which grape varieties were popular at the time in the writings of Italian writer Cosimo Villifranchi, who noted that Canaiolo was a widely planted variety in the area along with Sangiovese, Mammolo and Marzemino.
-- (origin) Chianti comes from Italy.
 - (about) Not to be confused with Chianti.
+- (origin) Other variants, with the exception of Rufina north-east of Florence and Montalbano south of Pistoia, originate in the named provinces: Siena for the Colli Senesi, Florence for the Colli Fiorentini, Arezzo for the Colli Aretini and Pisa for the Colline Pisane.
+- (history) In 1996 part of the Colli Fiorentini sub-area was renamed Montespertoli.
+- (inspiration) In 1967, the Denominazione di origine controllata (DOC) regulation set by the Italian government was based on a loose interpretation of Ricasoli's "recipe", calling for a Sangiovese-based blend with 10–30% Malvasia and Trebbiano.
+- (about) Ampelographers find clues about which grape varieties were popular at the time in the writings of Italian writer Cosimo Villifranchi, who noted that Canaiolo was a widely planted variety in the area along with Sangiovese, Mammolo and Marzemino.
 
 Learn more:
 
@@ -9601,7 +9583,7 @@ Chili oil or chile oil is a condiment made from vegetable oil that has been infu
 Fun facts:
 
 - (about) Chili oil is particularly popular in Chinese cuisine, especially western Chinese cuisines, such as Sichuan cuisine, Hunan cuisine, Guizhou cuisine, and Shaanxi cuisine, where it is used as an ingredient in cooked dishes, as well as a condiment.
-- (origin) Chili oil comes from People's Republic of China.
+- (origin) Chili oil comes from the People's Republic of China.
 - (about) Recipes targeted to Western cooks also suggest other popular oils, such as rapeseed, grapeseed or peanut, and any dried or fresh chili peppers.
 
 Learn more:
@@ -9623,15 +9605,15 @@ Fun facts:
 
 - (origin) Chili peppers originated in Central or South America and were first cultivated in Mexico.
 - (culture) European explorers brought chili peppers back to the Old World in the late 15th century as part of the Columbian exchange, which led to the cultivation of multiple varieties across the world for food and traditional medicine.
-- (about) They were among the first self-pollinating crops cultivated in those areas.
+- (about) While pepper originally meant the genus Piper, not Capsicum, the Oxford English Dictionary and Merriam-Webster record both usages.
 
 More fun facts (when the user asks for more):
 
-- (origin) Capsicum plants originated in modern-day Peru and Bolivia, and have been a part of human diets since about 7,500 BC.
-- (about) While pepper originally meant the genus Piper, not Capsicum, the Oxford English Dictionary and Merriam-Webster record both usages.
 - (about) The three primary spellings are chili (common in North America), chile (Central America and parts of the US) and chilli (United Kingdom and former British colonies).
 - (origin) Peru has the highest diversity of cultivated Capsicum; it is a center of diversification where varieties of all five domesticates were introduced, grown, and consumed in pre-Columbian times.
 - (about) Not to be confused with bell pepper.
+- (origin) Capsicum plants originated in modern-day Peru and Bolivia, and have been a part of human diets since about 7,500 BC.
+- (about) They were among the first self-pollinating crops cultivated in those areas.
 
 Learn more:
 
@@ -9675,16 +9657,16 @@ Cinnamon is a spice obtained from the inner bark of several tree species from th
 
 Fun facts:
 
-- (about) The name "cassia", first recorded in late Old English from Latin, ultimately derives from the Hebrew word קציעה qetsīʿāh, a form of the verb קצע qātsaʿ, "to strip off bark".
-- (history) The first Greek reference to κασία kasía is found in a poem by Sappho in the 7th century BC.
-- (inspiration) However, the story remained current in Byzantium as late as 1310.
+- (history) The English word "cinnamon", attested in English since the 15th century, derives from the Ancient Greek κιννάμωμον, via Latin and medieval French intermediate forms.
+- (about) Cinnamon was too expensive to be commonly used on funeral pyres in Rome, but the Emperor Nero is said to have burned a year's worth of the city's supply at the funeral for his wife Poppaea Sabina in AD 65.
+- (inspiration) The story remained current in Byzantium as late as 1310.
 
 More fun facts (when the user asks for more):
 
-- (history) The English word "cinnamon", attested in English since the 15th century, derives from the Ancient Greek κιννάμωμον, via Latin and medieval French intermediate forms.
 - (history) From the Ptolemaic Kingdom onward, Ancient Egyptian recipes for kyphi, an aromatic used for burning, included cinnamon and cassia.
-- (about) Cinnamon was too expensive to be commonly used on funeral pyres in Rome, but the Emperor Nero is said to have burned a year's worth of the city's supply at the funeral for his wife Poppaea Sabina in AD 65.
 - (history) Cinnamon dates from -1999.
+- (about) The name "cassia", first recorded in late Old English from Latin, ultimately derives from the Hebrew word קציעה qetsīʿāh, a form of the verb קצע qātsaʿ, "to strip off bark".
+- (history) The first Greek reference to κασία kasía is found in a poem by Sappho in the 7th century BC.
 - (culture) Cinnamon is used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines, in particular sweet and savoury dishes such as biscuits, breakfast cereals, snack foods, bagels, teas, hot chocolate, and traditional foods.
 - (about) In 2023, world production of cinnamon was 238,403 tonnes, led by China with 39% of the total.
 - (about) Cinnamon was imported to Egypt as early as 2000 BC, but those who reported that it had come from China had confused it with Cinnamomum cassia, a related species.
@@ -9783,9 +9765,9 @@ Cortese di Gavi, or simply Gavi, is an Italian dry white wine produced in a rest
 
 Fun facts:
 
-- (history) The wine was awarded DOC status in 1974 and elevated to DOCG in 1998.
-- (origin) Cortese di Gavi comes from Italy.
 - (history) The name derives from Gavi, the comune at the centre of its production zone, and Cortese, the local variety of grape from which it is exclusively made and whose existence is reported from the 17th century.
+- (origin) Cortese di Gavi comes from Italy.
+- (history) The wine was awarded DOC status in 1974 and elevated to DOCG in 1998.
 
 More fun facts (when the user asks for more):
 
@@ -9949,9 +9931,9 @@ Dried and salted cod, sometimes referred to as salt cod or saltfish or salt doll
 
 Fun facts:
 
-- (history) Salting became economically feasible during the 17th century, when cheap salt from Southern Europe became available to the maritime nations of Northern Europe.
 - (about) In Norway, this was first known as "terranova fisk" (Newfoundland fish) but came to be known as klippfisk (rock fish) for the rocky coasts where it was (and still is) produced.
 - (culture) Traditionally, it was dried outdoors by the wind and sun, often on cliffs and other bare rock-faces.
+- (history) Salting became economically feasible during the 17th century, when cheap salt from Southern Europe became available to the maritime nations of Northern Europe.
 
 More fun facts (when the user asks for more):
 
@@ -9982,13 +9964,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The Oxford English Dictionary records that between 1797 and 1888, the name vegetable egg was also used.
 - (history) The white, egg-shaped varieties of the eggplant's fruits are also known as garden eggs, a term first attested in 1811.
+- (history) The Oxford English Dictionary records that between 1797 and 1888, the name vegetable egg was also used.
 - (history) Eggplant arrived in Muslim Spain in the 8th century.
-- (history) Records exist from later medieval Catalan and Spanish, as well as from 14th-century Italy.
 - (history) Eggplant was present in Muslim Sicily in the 10th century.
 - (history) The eggplant remained unknown in northern Europe until the 17th century.
 - (about) In 2023, world production of eggplants was 61 million tonnes (130 billion pounds), with China and India combining for 85% of the total.
+- (history) Records exist from later medieval Catalan and Spanish, as well as from 14th-century Italy.
 - (about) The plant is also known as guinea squash in Southern American English.
 
 Learn more:
@@ -10017,7 +9999,6 @@ More fun facts (when the user asks for more):
 - (history) In 1906, Aaron Aaronsohn's discovery of wild emmer wheat growing in Rosh Pinna (Israel) created a stir in the botanical world.
 - (history) In the absence of any obvious functional explanation, the greater prevalence of emmer wheat in the diet of ancient Egypt may simply reflect a marked culinary or cultural preference, or may reflect growing conditions having changed after the Third Dynasty.
 - (about) Emmer recovered from the Phoenician settlement at Volubilis (in present-day Morocco) has been dated to the middle of the first millennium BC.
-- (about) He states that in Etruria emmer was first roasted, then crushed either with an iron-capped pestle, or using a handmill that was toothed on the inside.
 
 Learn more:
 
@@ -10059,21 +10040,21 @@ Espresso is a concentrated form of coffee produced by forcing hot water under hi
 
 Fun facts:
 
-- (history) Coffee arrived in Italy in the 16th century, and the first recorded coffee houses followed a century later.
+- (history) The first Bezzera and Pavoni espresso machines in 1906 took 45 seconds to make a cup of coffee, one at a time, expressly for you.
 - (origin) Originating in Italy, espresso has become one of the most popular coffee-brewing methods worldwide.
-- (about) The first meaning is to do with the idea of "expressing" ("pressing out of") or squeezing the flavour from the coffee using the pressure of the steam.
+- (about) As of 2016, the Oxford Dictionary online entry for espresso described the alternate spelling as "common".
 
 More fun facts (when the user asks for more):
 
-- (history) The first Bezzera and Pavoni espresso machines in 1906 took 45 seconds to make a cup of coffee, one at a time, expressly for you.
 - (history) In the 1970s, the spelling espresso gained prominence, and by 1996, the third edition of Fowler's Modern English Usage described expresso as "entirely driven out".
+- (history) Coffee arrived in Italy in the 16th century, and the first recorded coffee houses followed a century later.
 - (history) Modern espresso, using hot water under pressure, as pioneered by Gaggia in the 1940s, was originally called crema caffè, as seen on old Gaggia machines, due to the crema.
 - (history) English speakers in America and England have sometimes spelled and pronounced espresso as expresso since at least the 1940s.
+- (history) Espresso dates from 1884-.
+- (origin) Espresso comes from Italy, France.
+- (about) The first meaning is to do with the idea of "expressing" ("pressing out of") or squeezing the flavour from the coffee using the pressure of the steam.
 - (history) By the mid-19th century, coffee was drunk throughout Italy, as drip coffee in homes and as infused coffee in cafés.
 - (history) The drink's popularity expanded following the 1890s as economic depression ended, and businesses responded by working to make their brewing processes more efficient.
-- (history) Espresso dates from 1884-.
-- (about) As of 2016, the Oxford Dictionary online entry for espresso described the alternate spelling as "common".
-- (origin) Espresso comes from Italy, France.
 - (about) Not to be confused with moka pot brew.
 
 Learn more:
@@ -10158,13 +10139,13 @@ Fennel (Foeniculum vulgare) is a flowering plant species in the carrot family.
 Fun facts:
 
 - (history) As Old English finule, fennel is one of the nine plants invoked in the pagan Anglo-Saxon Nine Herbs Charm, recorded in the 10th century.
-- (about) The word is first attested in Mycenaean Linear B form as ma-ra-tu-wo.
+- (about) The Greek name for fennel is marathon or marathos, and the place of the famous battle of Marathon literally means a plain with fennel.
 - (history) In the 15th century, Portuguese settlers on Madeira noticed the abundance of wild fennel and used the Portuguese word funcho (fennel) and the suffix -al to form the name of a new town, Funchal.
 
 More fun facts (when the user asks for more):
 
+- (about) The word is first attested in Mycenaean Linear B form as ma-ra-tu-wo.
 - (history) Henry Wadsworth Longfellow's 1842 poem "The Goblet of Life" repeatedly refers to the plant and mentions its purported ability to strengthen eyesight:
-- (about) The Greek name for fennel is marathon or marathos, and the place of the famous battle of Marathon literally means a plain with fennel.
 
 Learn more:
 
@@ -10263,10 +10244,10 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Fossa's production dates to the 14th century.
-- (history) From the early 1980s, the cheese was popularised by Antonio Monti, mayor of Talamello, who came from Sogliano al Rubicone.
 - (about) In November 2009, fossa received denominazione di origine protetta (DOP) status.
 - (about) In 2017, it was estimated that about 112,000 kilograms (247,000 lb) of fossa is produced annually.
 - (culture) Traditionally, fossa would be buried in mid-to-late August and unearthed on Saint Catherine's Day (25 November), when it was said to be "resurrected".
+- (history) From the early 1980s, the cheese was popularised by Antonio Monti, mayor of Talamello, who came from Sogliano al Rubicone.
 
 Learn more:
 
@@ -10329,19 +10310,19 @@ Franciacorta is a sparkling wine from the Italian province of Brescia (Lombardy)
 Fun facts:
 
 - (history) In 1990, the Consorzio per la tutela del Franciacorta was formed, instigating codes of self-regulation with a gradual reduction of yields and elimination of the use of Pinot grigio, becoming the body considered responsible for the efficient elevation of sparkling Franciacorta to DOCG status in 1995.
-- (culture) The still wines from this area have ancient traditions, referred to by Virgil and Pliny the Elder, and documented in Brescia City council books as "Franzacurta" as far back as in 1277.
+- (culture) With its directives, Franciacorta became the first DOC to specify that its sparkling wines must be made by traditional method.
 - (about) Since August 1, 2003, Franciacorta has been the only Italian wine not obliged to declare its DOCG appellation on the label, in the same manner that a Champagne is permitted to exclude from labels its AOC.
 
 More fun facts (when the user asks for more):
 
 - (history) Franciacorta was awarded DOC status in 1967, the designation then also including red and white still wines.
-- (history) Since 1995 the DOCG classification has applied exclusively to the sparkling wines of the area.
 - (history) The wines were not called Franciacorta until 1957, when Guido Berlucchi released a white wine named Pinot di Franciacorta.
 - (history) An ambitious young winemaker working for Berlucchi, Franco Ziliani, was permitted to pursue an aspiration of producing a fine sparkling wine, and in 1961 was allowed to produce for release 3,000 bottles of Pinot di Franciacorta.
 - (history) The national prominence that followed was soon exploited by several entrepreneurs from Milan and Brescia, and by the time the region was granted DOC status in 1967 there were 11 producers of sparkling Franciacorta, although Berlucchi represented more than 80% of the production.
-- (culture) With its directives, Franciacorta became the first DOC to specify that its sparkling wines must be made by traditional method.
 - (culture) Franciacorta is produced using the traditional method from grapes grown within the boundaries of the territory of Franciacorta, on the hills located between the southern shore of Lake Iseo and the city of Brescia.
 - (origin) Franciacorta comes from Italy.
+- (history) Since 1995 the DOCG classification has applied exclusively to the sparkling wines of the area.
+- (culture) The still wines from this area have ancient traditions, referred to by Virgil and Pliny the Elder, and documented in Brescia City council books as "Franzacurta" as far back as in 1277.
 
 Learn more:
 
@@ -10412,13 +10393,13 @@ Gentian liqueur (also known as Enzian, Gentian schnapps, or simply Gentian) is a
 Fun facts:
 
 - (history) Gentian liqueur origins are disputed, with the first mentions of production being from the 1600's in Bavaria, Germany.
-- (about) These liqueurs were first sold as medicinal bitter tonics, but gained popularity as aperitifs.
+- (about) Gentian liqueur was popularized in the French Alps, in the modern-day Auvergne-Rhône-Alpes region.
 - (origin) Gentian liqueur comes from Italy, Switzerland, Austria, France, Germany.
 
 More fun facts (when the user asks for more):
 
 - (history) Enzianbrennerei Grassl in Berchtesgaden, Bavaria has produced distilled gentian liquors since 1692, and is Germany's oldest gentian distillery.
-- (about) However, it was popularized in the French Alps, in the modern-day Auvergne-Rhône-Alpes region.
+- (about) These liqueurs were first sold as medicinal bitter tonics, but gained popularity as aperitifs.
 
 Learn more:
 
@@ -10484,13 +10465,13 @@ More fun facts (when the user asks for more):
 - (history) Gorgonzola has been produced for centuries in Gorgonzola, Milan, acquiring its greenish-blue marbling in the 11th century.
 - (history) Gorgonzola was supposedly created in the Middle Ages from the years 879–1007 AD.
 - (inspiration) There is a Lombardy legend of Gorgonzola's origin where a cheese maker added new fresh curds to a vat and left it open all night.
-- (about) This was also the first discovery of the process of erborinatura, the creation of mold.
 - (history) Gorgonzola was referred to as stracchino verde until the early 20th century: stracchino used to describe a number of young, soft cheeses—and verde refers to the cheese's blue-green veining.
 - (history) Under EU law, Gorgonzola has been registered as a protected designation of origin (PDO) since 1996.
 - (origin) Gorgonzola was first made in Lombardy.
-- (culture) For example, another possible place of origin is the cheese-making area known for ancient dairy traditions, Pasturo nella Valsassina.
 - (inspiration) As a Geographical indication, Gorgonzola produced in parts of Italy is protected in certain countries based on bilateral agreements of the European Union, membership of the Lisbon Agreement or national registration as a certification mark.
 - (origin) Gorgonzola comes from Italy.
+- (about) This was also the first discovery of the process of erborinatura, the creation of mold.
+- (culture) For example, another possible place of origin is the cheese-making area known for ancient dairy traditions, Pasturo nella Valsassina.
 
 Learn more:
 
@@ -10548,16 +10529,16 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) Another variation of this is the ammazzacaffè: the espresso is drunk first, followed by a few ounces of grappa served in its own glass.
-- (history) Distillation is an ancient practice that can be traced back to the 1st century AD.
-- (history) The distillation of alcohol may have been carried out reliably by al-Kindī (c. 801–873), al-Fārābī (c. 872–950), and al-Zahrāwī, as well as by the School of Salerno in the 12th century.
 - (history) Distillation useful for producing beverages was not discovered until the 8th century, and it probably took about two more centuries for the technology to travel from its home in the Levant and Persia to Italy (likely by route of the Crusades).
 - (history) The modernisation of grappa distillation is relatively recent, probably in 1979 in northern Italy.
-- (about) A similar drink, known as acquavite d'uva, is made by distilling whole must.
 - (culture) In Uruguay, a local version called grappamiel has also been created, which sees honey added to the traditional grappa.
 - (culture) Grappa is traditionally produced in northern Italy and is also widely consumed in places such as Argentina, Bulgaria, Georgia (chacha), Uruguay, Galicia (orujo or aguardiente in Spanish), and Portugal (known as bagaço or bagaceira).
 - (origin) Oak is the most used, but some more expensive grappas are aged successively in casks of acacia, ash, and cherry-wood, an innovation introduced by the Marzadro Distillery.
 - (about) In Sardinia, Grappa is colloquially known as Filu è Ferru (iron wire), as most of the distillation was illegally home-made to avoid customs and excise taxes.
 - (origin) Grappa comes from Italy.
+- (history) Distillation is an ancient practice that can be traced back to the 1st century AD.
+- (history) The distillation of alcohol may have been carried out reliably by al-Kindī (c. 801–873), al-Fārābī (c. 872–950), and al-Zahrāwī, as well as by the School of Salerno in the 12th century.
+- (about) A similar drink, known as acquavite d'uva, is made by distilling whole must.
 
 Learn more:
 
@@ -10669,9 +10650,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) In 1995, evidence of large-scale Mesolithic nut processing, some 8,000 years old, was found in a midden pit on the island of Colonsay in Scotland.
-- (about) They are also known as cobnuts or filberts according to species.
 - (about) In 2023, Turkey was the world's largest producer of hazelnuts, accounting for 57.7% of total production.
+- (history) In 1995, evidence of large-scale Mesolithic nut processing, some 8,000 years old, was found in a midden pit on the island of Colonsay in Scotland.
 
 Learn more:
 
@@ -10691,15 +10671,14 @@ Italicus Rosolio di Bergamotto is a bergamot rosolio (a type of aperitivo) manuf
 Fun facts:
 
 - (inspiration) Italicus was created by an Italian bartender, Giuseppe Gallo, using a family recipe.
-- (about) He launched the spirit commercially in September 2016.
+- (about) Giuseppe Gallo, an Italian bartender, developed the spirit in 2016 after learning about rosolios.
 - (origin) The product was introduced at the Savoy Hotel in London on September 1, 2016.
 
 More fun facts (when the user asks for more):
 
-- (about) Giuseppe Gallo, an Italian bartender, developed the spirit in 2016 after learning about rosolios.
-- (about) In 2017, the liqueur won the "best new spirit/cocktail ingredient" category at Tales of the Cocktail in New Orleans.
 - (about) Italicus has been in partnership with Pernod Ricard since 2020.
 - (about) In 2021, Italicus helped finance the reopening of several London bars following the COVID-19 pandemic, alongside a promotion of Italicus and its use in cocktails.
+- (about) In 2017, the liqueur won the "best new spirit/cocktail ingredient" category at Tales of the Cocktail in New Orleans.
 
 Learn more:
 
@@ -10798,13 +10777,13 @@ Latte () or caffè latte (Italian: [kaffe(l)ˈlatte]), also known as caffellatte
 Fun facts:
 
 - (history) The modern caffè latte appeared in the 20th century, following the invention of the espresso machine in the 19th century.
-- (origin) The drink is said to have "technically originated" in 17th-century Europe.
+- (origin) Latte comes from Italy.
 - (about) Not to be confused with latte macchiato, cappuccino.
 
 More fun facts (when the user asks for more):
 
 - (history) This was made possible by the addition of the steam wand to the espresso machine in 1903, which made it possible to add heat and texture to milk added to coffee.
-- (origin) Latte comes from Italy.
+- (origin) The drink is said to have "technically originated" in 17th-century Europe.
 
 Learn more:
 
@@ -11030,14 +11009,14 @@ Montasio is a mountain cheese made from cow's milk produced in northeastern Ital
 Fun facts:
 
 - (history) Montasio was awarded a protected designation of origin (PDO) in 1986.
+- (origin) Montasio comes from Italy.
 - (about) Commonly produced in the small farm town of Gemona inside the Friuli-Venezio Giulia region for over 200 years and a little hamlet named Campo Lessie.
-- (inspiration) A tally was kept, and based on how much milk each family brought in, the corresponding number of cheese wheels were delivered.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1880, a cooperative movement of dairies was formed to support the production of this cheese.
 - (history) A decree of the Ministry of Agriculture and Forests of 16 March 1987, assigned the Montasio Producers Association the tasks of supervision, control and marketing of Montasio production.
-- (origin) Montasio comes from Italy.
+- (history) In 1880, a cooperative movement of dairies was formed to support the production of this cheese.
+- (inspiration) A tally was kept, and based on how much milk each family brought in, the corresponding number of cheese wheels were delivered.
 
 Learn more:
 
@@ -11128,14 +11107,14 @@ Mortadella is a large salume made of finely hashed or ground cured pork, which i
 Fun facts:
 
 - (history) This theory, proposed by Giancarlo Susini, professor of ancient history in the University of Bologna, relies on two funerary steles kept in the Archaeological Civic Museum of Bologna, believed to pertain to the same monument, one showing a herd of piglets and the other a mortar and pestle.
-- (origin) Another theory, introduced by Ovidio Montalbani in the 17th century, derives the name from a Roman sausage flavoured with myrtle berries that Romans called farcimen myrtatum or farcimen murtatum (myrtle sausage).
 - (culture) Mortadella is traditionally flavoured with peppercorns, but modern versions can also contain pistachios or less commonly, myrtle berries.
+- (origin) Mortadella comes from Italy.
 
 More fun facts (when the user asks for more):
 
 - (culture) One theory derives the name from the Latin word mortarium ("mortar"), traditionally used in pounding the meat to produce the sausage.
+- (origin) Another theory, introduced by Ovidio Montalbani in the 17th century, derives the name from a Roman sausage flavoured with myrtle berries that Romans called farcimen myrtatum or farcimen murtatum (myrtle sausage).
 - (about) Myrtle was a popular spice before pepper became available to European markets.
-- (origin) Mortadella comes from Italy.
 - (about) Not to be confused with Lady Liberty.
 
 Learn more:
@@ -11157,12 +11136,12 @@ Moscadello di Montalcino is a white Italian wine from the Tuscan wine village of
 Fun facts:
 
 - (origin) The cultivation of the Moscadello grape vines in Tuscany was almost completely destroyed by the attacks of Phylloxera, and the vineyards were not reconstituted until the end of the 20th century, largely through the use of Moscato bianco grapes originating in Piedmont.
-- (history) In 1984 the region was awarded denominazione di origine controllata (DOC) status.
+- (history) Moscadello di Montalcino dates from 1985-.
 - (about) The 2014 vintage of Moscadello di Montalicino produced nearly 7,300 gallons (275 hectoliters) of DOCG designating wine from a planting of approximately 54 acres (22 ha).
 
 More fun facts (when the user asks for more):
 
-- (history) Moscadello di Montalcino dates from 1985-.
+- (history) In 1984 the region was awarded denominazione di origine controllata (DOC) status.
 
 Learn more:
 
@@ -11216,9 +11195,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Genetic research suggest buffalo came to Italy by migration of river buffalo from India in the 7th century CE.
 - (culture) Due to its high moisture content, it is traditionally served the day after it is made but can be kept in brine for up to a week or longer when sold in vacuum-sealed packages.
 - (origin) Mozzarella comes from Italy.
+- (history) Genetic research suggest buffalo came to Italy by migration of river buffalo from India in the 7th century CE.
 
 Learn more:
 
@@ -11259,8 +11238,8 @@ Nocello is a walnut flavored liqueur from Italy.
 
 Fun facts:
 
-- (origin) The product originated in Emilia-Romagna.
 - (about) In 2004 Nocello was awarded a gold medal at the IWSC (International Wine and Spirit Competition, UK) competition for nut liquors.
+- (origin) The product originated in Emilia-Romagna.
 
 Learn more:
 
@@ -11281,16 +11260,16 @@ Nocino is a dark brown liqueur from the Emilia-Romagna region of Italy.
 
 Fun facts:
 
-- (culture) The earliest records are related to the Picts and the Romans also recorded the strange traditions of these people on June 24, when they drank a very special brew, and they said they could talk with goblins, elves and goddesses.
-- (history) Conrad Gessner provided a potential exception to this observation in his 1552 book The Treasure of Euonymus.
+- (culture) Ordine del Nocino Modenese is an association of Spilamberto, province of Modena, Emilia-Romagna, Italy, which, since 1978, promotes the traditional Nocino of Modena.
 - (about) At some point, this practice of infusing green walnuts came to the Italian peninsula where it became known as Nocino or, in the case of Piedmont, Ratafià Di Noci (walnut ratafià).
+- (origin) Nocino comes from Italy.
 
 More fun facts (when the user asks for more):
 
-- (culture) Ordine del Nocino Modenese is an association of Spilamberto, province of Modena, Emilia-Romagna, Italy, which, since 1978, promotes the traditional Nocino of Modena.
+- (culture) The earliest records are related to the Picts and the Romans also recorded the strange traditions of these people on June 24, when they drank a very special brew, and they said they could talk with goblins, elves and goddesses.
+- (history) Conrad Gessner provided a potential exception to this observation in his 1552 book The Treasure of Euonymus.
 - (culture) When the Romans made Christianity the official religion of the Empire (in 313 AD), these ancient rites, in order to survive, had to be "translated" into the tradition of the Bible.
-- (culture) John the Baptist, who, according to the tradition, was born on the summer solstice.
-- (origin) Nocino comes from Italy.
+- (culture) Thus, they became associated to St. John the Baptist, who, according to the tradition, was born on the summer solstice.
 
 Learn more:
 
@@ -11310,14 +11289,14 @@ Nutmeg is the seed, or the ground spice derived from the seed, of several tree s
 
 Fun facts:
 
-- (history) These islands were the only source of nutmeg and mace production until the mid-19th century.
+- (history) Nutmeg was one of the spices traded over the Austronesian maritime spice trade network since at least 1500 BCE.
 - (about) Conifers of the genus Torreya, commonly known as the nutmeg yews, have edible seeds of similar appearance, but are not closely related to M. fragrans, and are not used as a spice.
 - (origin) Nutmeg comes from Indonesia.
 
 More fun facts (when the user asks for more):
 
-- (history) Nutmeg was one of the spices traded over the Austronesian maritime spice trade network since at least 1500 BCE.
 - (history) By the 13th century, Arab traders had pinpointed the origin of nutmeg to the Banda Islands, but kept this location a secret from European traders.
+- (history) These islands were the only source of nutmeg and mace production until the mid-19th century.
 - (about) Not to be confused with Gałka Muszkatołowa.
 
 Learn more:
@@ -11443,21 +11422,21 @@ Parmesan is an Italian hard, granular cheese produced from cow's milk and aged a
 Fun facts:
 
 - (history) In French, it is first attested as a name for the cheese in 1414, and in English, in 1519.
-- (origin) This day celebrating the "king of cheeses" originated in response to the two earthquakes hitting the area of origin in May 2012.
-- (about) Parmigiano Reggiano, among others, has been called "king of cheeses".
+- (origin) Parmesan was first made in Emilia-Romagna, Province of Parma.
+- (about) A 2021 press release by the Italian farmer-rancher association Coldiretti reported that, in the United States, 90% of "Italian sounding" cheese sold as parmesan, mozzarella, grana, and gorgonzola was produced domestically.
 
 More fun facts (when the user asks for more):
 
+- (history) In the memoirs of Giacomo Casanova, he remarked that the name Parmesan was a misnomer common throughout an "ungrateful" Europe in his time (mid-18th century), as the cheese was produced in the comune (municipality) of Lodi, in Lombardy, not Parma.
+- (history) Parmesan is well documented that it has been consistently dry, hard, and grainy since the 15th century.
 - (history) The earliest written record of this cheese is from the year 1254.
+- (origin) This day celebrating the "king of cheeses" originated in response to the two earthquakes hitting the area of origin in May 2012.
+- (origin) Parmesan comes from Italy.
+- (about) Parmigiano Reggiano, among others, has been called "king of cheeses".
 - (inspiration) According to legend, Parmigiano Reggiano was created in the course of the Middle Ages in the comune (municipality) of Bibbiano, in the province of Reggio Emilia.
 - (history) During the Great Fire of London of 1666, Samuel Pepys buried his "Parmazan cheese, as well as his wine and some other things" to preserve them.
-- (history) In the memoirs of Giacomo Casanova, he remarked that the name Parmesan was a misnomer common throughout an "ungrateful" Europe in his time (mid-18th century), as the cheese was produced in the comune (municipality) of Lodi, in Lombardy, not Parma.
-- (history) However, it is well documented that it has been consistently dry, hard, and grainy since the 15th century.
-- (origin) Parmesan was first made in Emilia-Romagna, Province of Parma.
-- (about) A 2021 press release by the Italian farmer-rancher association Coldiretti reported that, in the United States, 90% of "Italian sounding" cheese sold as parmesan, mozzarella, grana, and gorgonzola was produced domestically.
 - (history) Between November 2013 and January 2015, an organised crime gang stole 2,039 wheels of Parmigiano Reggiano from warehouses in northern and central Italy.
 - (about) Total production in 2025 was worth €1.760 billion.
-- (origin) Parmesan comes from Italy.
 
 Learn more:
 
@@ -11547,8 +11526,8 @@ Pecorino di Carmasciano, or simply Carmasciano, is an Italian cheese of the peco
 
 Fun facts:
 
-- (inspiration) The area is named after a Roman soldier who was given the land by the emperor for his success in war.
 - (origin) Pecorino di Carmasciano was first made in Frigento, Guardia Lombardi, Rocca San Felice.
+- (inspiration) The area is named after a Roman soldier who was given the land by the emperor for his success in war.
 - (about) Pecorino di Carmasciano has been recognized since 2009 by the Italian Ministry of Agricultural, Food and Forestry Policies as a prodotto agroalimentare tradizionale (PAT).
 
 More fun facts (when the user asks for more):
@@ -11601,17 +11580,17 @@ Pecorino romano is a hard, salty Italian cheese made from sheep milk, often used
 
 Fun facts:
 
-- (origin) Although this variety of cheese originated in Lazio, nearly all of its actual production has moved to the island of Sardinia.
 - (culture) On the first of May (May Day), Roman families traditionally eat pecorino with fresh fava beans during an excursion in the Roman Campagna.
+- (origin) What might be considered the earliest form of today's pecorino romano was first created in the countryside around Rome, whose production methods are described in detail by Latin authors such as Marcus Terentius Varro and Pliny the Elder about 2,000 years ago.
 - (history) Pecorino romano was mainly produced in the region surrounding Rome (Lazio) until the end of the 19th century.
 
 More fun facts (when the user asks for more):
 
-- (origin) What might be considered the earliest form of today's pecorino romano was first created in the countryside around Rome, whose production methods are described in detail by Latin authors such as Marcus Terentius Varro and Pliny the Elder about 2,000 years ago.
 - (history) In 1884, the Roman city council prohibited salting the cheese in the grocers' shops in Rome, but this could not prevent the establishment of salting premises and cheesemaking premises on the outskirts of Rome or elsewhere in the province.
 - (history) In 1981 the Consortium was tasked by the Ministry of Agriculture to supervise the production and trade of pecorino romano, and in 2002 to protect its PDO status.
 - (about) As of 2024, it is the fourth most exported Italian cheese, with 22,000 tons exported overseas annually.
 - (origin) Pecorino romano comes from Italy.
+- (origin) Although this variety of cheese originated in Lazio, nearly all of its actual production has moved to the island of Sardinia.
 
 Learn more:
 
@@ -11678,8 +11657,8 @@ Pecorino toscano is a firm sheep milk cheese from Tuscany.
 Fun facts:
 
 - (history) Since 1996 it has enjoyed protected designation of origin (PDO) status.
-- (culture) Other early names of the cheese include marzolino, after the month of March (marzo in Italian) in which production traditionally began.
 - (origin) Pecorino toscano comes from Italy.
+- (culture) Other early names of the cheese include marzolino, after the month of March (marzo in Italian) in which production traditionally began.
 
 Learn more:
 
@@ -11751,10 +11730,10 @@ More fun facts (when the user asks for more):
 - (history) Pesto became popular in North America in the 1980s and 1990s.
 - (history) An early American pesto recipe was published in 1928; it includes butter and cream.
 - (history) In 1946, Sunset magazine published a pesto recipe by Angelo Pellegrini.
+- (origin) Pesto comes from Italy.
 - (about) During the Middle Ages, a popular sauce in the Genoan cuisine was agliata, which was a mash of garlic and walnuts, as garlic was a staple in the nutrition of Ligurians, especially for the seafarers.
 - (culture) For reasons of expense or availability, almond, Brazil nut, cashew, hazelnut, macadamia, pecan, pistachio, walnut or even peanuts are sometimes substituted for the traditional pine nuts.
-- (culture) Also, while the nuts are traditionally raw, some recipes call for prior toasting or roasting.
-- (origin) Pesto comes from Italy.
+- (culture) While the nuts are traditionally raw, some recipes call for prior toasting or roasting.
 - (about) Not to be confused with pistou.
 
 Learn more:
@@ -11860,23 +11839,23 @@ Prosecco is an Italian DOC or DOCG white wine produced in a large area spanning 
 
 Fun facts:
 
-- (culture) In Trieste at the beginning of the 16th century, the local wine "Ribolla" was promoted as the recreation of the Pucinian celebrated by Pliny the Elder in his Natural History and praised for its medicinal qualities by Livia, the wife of Emperor Augustus.
 - (history) In 1754, the spelling Prosecco appears for the first time in the book Il Roccolo Ditirambo, written by Aureliano Acanti in Novoledo, in the comune (municipality) of Villaverla, located in the province of Vicenza.
+- (culture) In 2019, Le Colline del Prosecco di Conegliano e Valdobbiadene (Conegliano and Valdobbiadene Prosecco Hills) became a UNESCO World Heritage Site, in large part due to the region's role in the production of Prosecco.
 - (about) The first known mention of the name Prosecco is attributed to the Englishman Fynes Moryson, who used the spelling Prosecho.
 
 More fun facts (when the user asks for more):
 
-- (culture) In 2019, Le Colline del Prosecco di Conegliano e Valdobbiadene (Conegliano and Valdobbiadene Prosecco Hills) became a UNESCO World Heritage Site, in large part due to the region's role in the production of Prosecco.
-- (history) Moryson, visiting the north of Italy in 1593, notes: "Histria is devided into Forum Julii, and Histria properly so called...
 - (culture) This was followed by claiming UNESCO World Heritage status for "Prosecco Hills of Conegliano and Valdobbiadene" a few years later.
 - (history) According to a 2008 New York Times report, Prosecco rose sharply in popularity in markets outside Italy, with global sales growing by double-digit percentages since 1998, aided also by its comparatively low price.
+- (culture) In Trieste at the beginning of the 16th century, the local wine "Ribolla" was promoted as the recreation of the Pucinian celebrated by Pliny the Elder in his Natural History and praised for its medicinal qualities by Livia, the wife of Emperor Augustus.
 - (about) Prosecco is made from the Prosecco grape (renamed "Glera" in Italy in 2009), but denomination rules allow up to 15% of the wine to be other permitted varieties.
 - (about) Since 2020, the DOC rules allow a rosé variety of Prosecco designated spumante rosé, which must contain Glera blended with 10–15% Pinot nero.
 - (culture) Here growes the wine Pucinum, now called Prosecho, much celebrated by Pliny." He places Prosecco among the famous wines of Italy: "These are the most famous Wines of Italy.
 - (origin) Prosecco was introduced into the mainstream US market in 2000 by Mionetto, now the largest US importer of Prosecco, who reported an "incredible growth trend" in 2008.
 - (about) The UK became in the mid-2010s the biggest export market for Prosecco, consuming one quarter of all Italian production.
-- (about) Production expanded massively, to €500m sales in 2019.
 - (origin) Prosecco comes from Italy.
+- (history) Moryson, visiting the north of Italy in 1593, notes: "Histria is devided into Forum Julii, and Histria properly so called..
+- (about) Production expanded massively, to €500m sales in 2019.
 
 Learn more:
 
@@ -11896,8 +11875,8 @@ Provatura (pl.: provature) or provatura romana is a fresh Italian cheese from th
 
 Fun facts:
 
-- (about) The first mention of this cheese is found in a 12th-century document kept in the bishop's archives of Capua.
 - (history) An antipasto with provatura is described in La singolare dottrina, a gastronomic work by Domenico Romoli, a work known as "Panunto" or Il Panunto, published in 1560.
+- (about) The first mention of this cheese is found in a 12th-century document kept in the bishop's archives of Capua.
 - (history) The cheese has often been confused with mozzarella, as in a medical work of the Schola Medica Salernitana, published several times in the 16th century, where it is said that with buffalo milk "one makes those balls tied with rushes that are called mozze here and provature in Rome".
 
 More fun facts (when the user asks for more):
@@ -11929,9 +11908,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) Provola comes from Italy.
 - (culture) Although its origins lie in the Italian region of Campania, its production is now widespread across all regions of southern Italy, with different variants that depend on the cattle breed, the aging process, and specific local factors such as microclimates and cheesemaking traditions.
 - (culture) Its name is traditionally linked to the dialect term provatura, associated with the practice of testing a piece of curd (prova) in hot water to verify its readiness for stretching.
-- (origin) Provola comes from Italy.
 
 Learn more:
 
@@ -12000,15 +11979,15 @@ Puzzone di Moena (in the Ladin language known as "Spretz tzaorì", lit. 'tasty p
 
 Fun facts:
 
-- (history) After the First World War, the malgarians of Fassa began to wash their cheeses called "nostrani" with water and salt after they were collected from the dairies.
+- (history) In 1984 Puzzone di Moena won the bronze medal at the Concours International des Fromages de Montagne of Grenoble (France).
 - (inspiration) Puzzone di Moena is named after Moena.
 - (about) In March 2013 it has become PDO product (Puzzone di Moena was previously a PAT product).
 
 More fun facts (when the user asks for more):
 
-- (history) In 1984 Puzzone di Moena won the bronze medal at the Concours International des Fromages de Montagne of Grenoble (France).
-- (about) In 2014, the cheese received PDO recognition from the European Union.
 - (origin) Puzzone di Moena comes from Italy.
+- (history) After the First World War, the malgarians of Fassa began to wash their cheeses called "nostrani" with water and salt after they were collected from the dairies.
+- (about) In 2014, the cheese received PDO recognition from the European Union.
 
 Learn more:
 
@@ -12028,9 +12007,9 @@ Quartirolo lombardo is a soft cheese made with cow's milk, which has a protected
 
 Fun facts:
 
-- (history) The beginning of its production dates back to the 10th century.
-- (origin) Quartirolo lombardo comes from Italy.
 - (history) Nowadays, it is made all year around, it has been recognised by the European Economic Community and registered in the PDP list with ECC Reg. n. 1107/96.
+- (origin) Quartirolo lombardo comes from Italy.
+- (history) The beginning of its production dates back to the 10th century.
 
 Learn more:
 
@@ -12088,8 +12067,8 @@ Raschera is an Italian pressed fat or medium fat, semi-hard cheese made with raw
 
 Fun facts:
 
-- (history) The cheese was given an Italian protected designation of origin (DOP) in July 1996, and may also carry the name "di alpeggio" (from mountain pasture) if the cheese was made in the mountainous areas of its designated province of Cuneo.
 - (origin) Raschera comes from Italy.
+- (history) The cheese was given an Italian protected designation of origin (DOP) in July 1996, and may also carry the name "di alpeggio" (from mountain pasture) if the cheese was made in the mountainous areas of its designated province of Cuneo.
 
 Learn more:
 
@@ -12136,9 +12115,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) Ricotta comes from Italy.
 - (about) The production of rennet-coagulated cheese, though, overtook the production of fresh whole-milk cheeses during the first millennium BC.
 - (about) Bronze cheese graters found in the graves of the Etruscan elite prove that hard-grating cheeses were popular with the aristocracy.
-- (origin) Ricotta comes from Italy.
 
 Learn more:
 
@@ -12158,8 +12137,8 @@ Ricotta di fuscella is a fresh cow's milk cheese made in the Campania region of 
 
 Fun facts:
 
-- (culture) The fiscella is traditionally made with braided reeds or wicker.
 - (origin) Ricotta di fuscella comes from Italy.
+- (culture) The fiscella is traditionally made with braided reeds or wicker.
 
 Learn more:
 
@@ -12264,14 +12243,14 @@ Fun facts:
 
 - (history) The production of rosolio most likely started in the Middle Ages, as the use of distilled liqueurs for curative purposes dates back to the 1300s or 1400s.
 - (origin) In 1533, during the reing of the House of Medici, the variant of Alkermes Rosolio became popular in Florence, and the drink was even introduced to France after the marriage between Catherine de' Medici and Henry II of Orléans.
-- (about) However, under the Kingdom of Savoy, the popularity of rosolio declined especially in Piedmont, in favour of an increased production of vermouth, made with locally produced grapes.
+- (about) Under the Kingdom of Savoy, the popularity of rosolio declined especially in Piedmont, in favour of an increased production of vermouth, made with locally produced grapes.
 
 More fun facts (when the user asks for more):
 
-- (history) In his book Science in the kitchen and the art of eating well, Pellegrino Artusi described the recipe of four types that were popular at the time, while Italo Ghersi listed 55 different types in his Il Liquorista hadbook in 1921.
 - (inspiration) Despite a common misconception based on the name, rosolio has no direct connection with roses or rose petals (rose essence is, however, one option for addition to the base; other options include citrus, coffee, aniseed, and mint).
 - (about) It enjoys a special popularity in Sicily, where it has been prepared since the sixteenth century and was offered to house guests as a sign of good luck.
 - (origin) Rosolio comes from Italy.
+- (history) In his book Science in the kitchen and the art of eating well, Pellegrino Artusi described the recipe of four types that were popular at the time, while Italo Ghersi listed 55 different types in his Il Liquorista hadbook in 1921.
 
 Learn more:
 
@@ -12341,11 +12320,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) The term originates from the word sale with a termination (-ame), which in Italian indicates a collective noun.
-- (culture) For example, due to emigration to North America, European settlers brought many traditions, including fermented meats such as pepperoni.
 - (about) Likewise, in Central Europe, Hungarian salami is quite popular.
 - (culture) In the United States, National Salami Day is celebrated on September 7 of each year.
 - (origin) Salami comes from Italy.
+- (origin) The term originates from the word sale with a termination (-ame), which in Italian indicates a collective noun.
+- (culture) For example, due to emigration to North America, European settlers brought many traditions, including fermented meats such as pepperoni.
 
 Learn more:
 
@@ -12415,8 +12394,8 @@ A wide variety of sausages are made in Italy, having evolved through the centuri
 
 Fun facts:
 
-- (about) A recipe for preparation is provided in the first century Apicius.
 - (origin) Sausages in Italian cuisine comes from Italy.
+- (about) A recipe for preparation is provided in the first century Apicius.
 
 Learn more:
 
@@ -12527,7 +12506,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q21029475) (CC0); [Wikipedia: 
 
 ### Siracusa lemon
 
-The Siracusa lemon is the fruit of the cultivar femminello and its clones, corresponding to the botanical species Citrus × limon L.
+The Siracusa lemon is the fruit of the cultivar femminello and its clones, corresponding to the botanical species Citrus × limon L. Burm.
 
 - From: Italy
 - Origin (Wikidata): Italy
@@ -12880,14 +12859,14 @@ Taurasi and Taurasi riserva are red, still Italian wines based principally on th
 
 Fun facts:
 
+- (history) Taurasi dates from 1970-.
+- (about) By the mid-2000s, there were over 293 producers in the Taurausi zone.
 - (history) They were awarded denominazione di origine controllata (DOC) status in 1970 and denominazione di origine controllata e garantita (DOCG) status in 1993.
-- (about) The popularity of the region's wine is a relatively recent phenomenon.
-- (history) Until the early 1990s, there was only one winery (Mastroberardino), producing wine for the export market.
 
 More fun facts (when the user asks for more):
 
-- (history) Taurasi dates from 1970-.
-- (about) By the mid-2000s, there were over 293 producers in the Taurausi zone.
+- (history) Until the early 1990s, there was only one winery (Mastroberardino), producing wine for the export market.
+- (about) The popularity of the region's wine is a relatively recent phenomenon.
 
 Learn more:
 
@@ -12955,7 +12934,7 @@ Tripe is the upper digestive system of ruminants prepared as edible offal.
 
 Fun facts:
 
-- (origin) Tripe comes from Hungary, Italy, Switzerland, France, People's Republic of China, Germany.
+- (origin) Tripe comes from Hungary, Italy, Switzerland, France, the People's Republic of China, Germany.
 - (about) Not to be confused with Sulz, Fleck, Piepen.
 
 Learn more:
@@ -13077,14 +13056,14 @@ Fun facts:
 
 - (origin) While the style is believed to have originated in Tuscany, examples of Vin Santo can be found throughout Italy and it is an authorised style of wine for several denominazione di origine controllata (DOC) and indicazione geografica tipica (IGT).
 - (inspiration) According to legend, at the Ecumenical Council of Florence of 1439 a local Florentine wine called Vin Pretto ('pure wine') was served.
-- (culture) Traditional in Tuscany, these wines are often made from white grape varieties such as Trebbiano and Malvasia, although Sangiovese may be used to produce a rosé style known as "Occhio di Pernice" or eye of the partridge.
+- (about) Over the next few centuries, this wine became known as Vin Santo and was widely exported to Russia, where it was used in the Eucharist by the Russian Orthodox Church.
 
 More fun facts (when the user asks for more):
 
-- (about) Over the next few centuries, this wine became known as Vin Santo and was widely exported to Russia, where it was used in the Eucharist by the Russian Orthodox Church.
 - (about) After trying the wine, Bessarion is said to have liked it and remarked that it was like Xanthos, alluding to the famous straw wine of Thrace (although some sources said he described the wine as Xantho or "yellow").
-- (culture) Another oft-cited theory for the name association is the tradition of starting fermentation around All Saints' Day and bottling the wine during Easter week.
 - (origin) Vin Santo comes from Italy.
+- (culture) Traditional in Tuscany, these wines are often made from white grape varieties such as Trebbiano and Malvasia, although Sangiovese may be used to produce a rosé style known as "Occhio di Pernice" or eye of the partridge.
+- (culture) Another oft-cited theory for the name association is the tradition of starting fermentation around All Saints' Day and bottling the wine during Easter week.
 
 Learn more:
 
@@ -13108,7 +13087,7 @@ Fun facts:
 
 - (history) In 1685 Vino Nobile di Montepulciano is also mentioned by the poet Francesco Redi, who, in addition to praising the work of Bacchus in Tuscany ("Montepulciano is the king of all wines!"), wrote an ode to Count Federico Veterani dedicated exclusively to praise of the qualities of this wine.
 - (inspiration) It is claimed that the name Vino Nobile di Montepulciano was invented by Adamo Fanetti.
-- (about) In copious draughts of this the King of Tuscan wines, we drowned our cares. <...> Of all Italian vintages, with the exception of some rare qualities of Sicily and the Valtellina, it is, in my humble opinion, the best.
+- (about) In copious draughts of this the King of Tuscan wines, we drowned our cares. <..> Of all Italian vintages, with the exception of some rare qualities of Sicily and the Valtellina, it is, in my humble opinion, the best.
 
 More fun facts (when the user asks for more):
 
@@ -13156,13 +13135,12 @@ Zampina, also known as zampina di Sammichele, is a salume recognised as a prodot
 
 Fun facts:
 
-- (inspiration) A festival dedicated to the cold cut has been held since 1967.
 - (origin) Zampina originates from the Apulia region of Italy, more specifically from the comune (municipality) of Sammichele di Bari.
 - (history) Its origin dates back to around 1600, where some shepherds used to make it using sheep meat from sheep that had not calved.
+- (inspiration) A festival dedicated to the cold cut has been held since 1967.
 
 More fun facts (when the user asks for more):
 
-- (about) In 2020, the Promoter Committee for the recognition of the IGP mark of the zampina di Sammichele di Bari was formed, composed of the Municipality of Sammichele di Bari, the Pro Loco Dino Bianco, the Centro Studi di Storia Cultura e Territorio, the G.A.L.
 - (origin) Zampina comes from Italy.
 
 Learn more:

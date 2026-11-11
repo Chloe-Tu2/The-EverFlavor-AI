@@ -21,8 +21,8 @@ More fun facts (when the user asks for more):
 
 - (culture) According to Latvian tradition, it was conceived to commemorate a visit of Tsar Alexander III (1881–1894) to Riga, today capital of Latvia.
 - (culture) Alexandertorte is traditionally eaten as a dessert after lunch or dinner, but it can also be served at tea time.
-- (about) A similar dessert exists in Denmark and is known as hindbærsnitte.
 - (origin) Alexandertorte comes from Latvia.
+- (about) A similar dessert exists in Denmark and is known as hindbærsnitte.
 
 Learn more:
 
@@ -50,9 +50,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The dish arose when buttermilk became commonly available in Denmark in the early 1900s and was eaten chilled most days during the summer as a dessert or snack.
-- (history) Since 1979, there have been ready-made varieties on the Danish market, originally from Esbjerg Dairy, but now from a range of dairies, including Arla.
 - (history) The earliest mentions of koldskål are from the 18th century, where the term was used to describe a sweet beer-based gruel, however this dish is not commonly eaten any more.
 - (origin) Buttermilk koldskål comes from Denmark.
+- (history) Since 1979, there have been ready-made varieties on the Danish market, originally from Esbjerg Dairy, but now from a range of dairies, including Arla.
 
 Learn more:
 
@@ -122,8 +122,8 @@ Kagemand or kagekone is a Danish cake in the shape of a person which is traditio
 
 Fun facts:
 
-- (culture) They are prepared by decorating a cake base to represent the person who is being celebrated.
 - (origin) Kagemand comes from Denmark.
+- (culture) They are prepared by decorating a cake base to represent the person who is being celebrated.
 
 Learn more:
 
@@ -257,20 +257,20 @@ Risalamande is a traditional Danish dessert served at Christmas dinner and julef
 Fun facts:
 
 - (culture) It is believed that this tradition came from a French custom of the 1500s where on the Epiphany, also known as "Three Kings' Day", you would bake and serve a "Three Kings cake" or simply "king cake" in which one whole bean was hidden, and whoever got the bean was "king" for the night with all his privileges.
-- (history) The almond present is believed to have come about in Denmark around 1800 where the bean was replaced with an almond and the Holy Three Kings cake with the rice pudding.
+- (history) Risalamande was not until the rationing times during and following World War II that the rice pudding became the most common Danish Christmas food, that is in the first 50 years of the 20th century, and became more common as rice became both more cheap and common in the nation.
 - (about) According to a rumor, the invention of risalamande came about when a French cook or chef at the Hotel d'Angleterre in Copenhagen had to improvise a dessert.
 
 More fun facts (when the user asks for more):
 
 - (culture) As a tradition, rislamande is known from around 1900, meaning it was probably invented in the 19th century.
-- (history) Risalamande was not until the rationing times during and following World War II that the rice pudding became the most common Danish Christmas food, that is in the first 50 years of the 20th century, and became more common as rice became both more cheap and common in the nation.
+- (history) The almond present is believed to have come about in Denmark around 1800 where the bean was replaced with an almond and the Holy Three Kings cake with the rice pudding.
 - (history) Risalamande dates from 1900-.
-- (inspiration) The name is based on French riz à l'amande meaning 'rice with almonds', although the dessert has a Danish origin.
 - (inspiration) Risalamande was inspired by the classical French dessert of riz à l'impératrice (empress rice) which is more solid, shaped in moulds and decorated with raspberry jelly.
-- (culture) At some point, a tradition of giving a special additional prize to someone who found one whole almond hidden in the pudding, called mandelgaven "the almond present" was created, with the prize usually being in the form of a pink marzipan pig.
 - (culture) This is often regarded as an older tradition than the risalamande.
 - (culture) According to tradition, hot rice pudding is also the dish eaten by nisser, the Christmas elfs, which is common in other Nordic countries too.
 - (origin) Risalamande comes from Denmark.
+- (inspiration) The name is based on French riz à l'amande meaning 'rice with almonds', although the dessert has a Danish origin.
+- (culture) At some point, a tradition of giving a special additional prize to someone who found one whole almond hidden in the pudding, called mandelgaven "the almond present" was created, with the prize usually being in the form of a pink marzipan pig.
 
 Learn more:
 
@@ -337,9 +337,9 @@ Tebirkes (sometimes thebirkes, københavnerbirkes, or grovbirkes) is a tradition
 
 Fun facts:
 
+- (about) Tebirkes is a popular pastry in Denmark and can be found in most bakeries throughout the country.
 - (origin) The pastry was introduced to Denmark by Austrian bakers who came to work in Copenhagen in the late 1800s.
 - (about) Over time, Danish bakers adapted the recipe and added their own twist by incorporating marzipan filling and poppy seeds on top.
-- (about) Tebirkes is a popular pastry in Denmark and can be found in most bakeries throughout the country.
 
 Learn more:
 
@@ -380,15 +380,15 @@ Wine gums are chewy, firm pastille-type sweets originating from the United Kingd
 Fun facts:
 
 - (about) Wine gums are popular in the United Kingdom, Canada, Ireland, South Africa and many Commonwealth nations, as well as several European countries.
-- (history) Charles Riley Maynard started his business in 1880 by producing confections in a kitchen with his brother Tom in Stamford Hill, London, while his wife Sarah Ann served the customers.
 - (origin) Maynards Wine Gums were introduced in 1909 by Maynard's son Charles Gordon Maynard.
+- (history) Charles Riley Maynard started his business in 1880 by producing confections in a kitchen with his brother Tom in Stamford Hill, London, while his wife Sarah Ann served the customers.
 
 More fun facts (when the user asks for more):
 
-- (origin) Wine gum comes from United Kingdom.
+- (origin) Wine gum comes from the United Kingdom.
+- (about) In 2010, a limited "fruit duos" edition was produced with two colours and flavours in each gum.
 - (culture) The red flavours are traditionally red berry, strawberry, cherry, or raspberry.
 - (culture) Black is traditionally blackcurrant flavoured.
-- (about) In 2010, a limited "fruit duos" edition was produced with two colours and flavours in each gum.
 - (about) Not to be confused with Żelki.
 
 Learn more:
@@ -409,9 +409,9 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1028754) (CC0); [Wikipedia: W
 
 Fun facts:
 
-- (about) In a version common today, the pork belly is fried first in a skillet, and then followed by pieces of tart apples.
 - (origin) Æbleflæsk is not clear where the dish originated.
 - (about) Æbleflæsk is a popular dish for pre-Christmas buffets (julefrokost).
+- (about) In a version common today, the pork belly is fried first in a skillet, and then followed by pieces of tart apples.
 
 Learn more:
 
@@ -432,7 +432,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q3232406) (CC0); [Wikipedia: �
 
 Fun facts:
 
-- (history) Nevertheless, it was consumed by all classes, having reportedly been a staple of the court of King Christian III during the 16th century.
+- (history) Øllebrød was consumed by all classes, having reportedly been a staple of the court of King Christian III during the 16th century.
 - (origin) Øllebrød comes from Denmark.
 - (history) A morning meal became more popular during the 13th century in Denmark, and the dish was part of an emerging breakfast culture.
 
@@ -541,24 +541,23 @@ Carbonated water is water containing dissolved carbon dioxide gas, either artifi
 Fun facts:
 
 - (history) It is thought that the first person to aerate water with carbon dioxide was William Brownrigg in the 1740s.
-- (about) The first factory was built by Thomas Henry of Manchester, England.
+- (about) Priestley referred to his invention of this treated water as being his "happiest" discovery.
 - (history) Joseph Priestley invented carbonated water, independently and by accident, in 1767 when he discovered a method of infusing water with carbon dioxide after having suspended a bowl of water above a beer vat at a brewery in Leeds, Yorkshire.
 
 More fun facts (when the user asks for more):
 
 - (history) While Priestley's discovery ultimately led to the creation of the soft drink industry—which began in 1783 when Johann Jacob Schweppe founded Schweppes to sell bottled soda water—he did not benefit financially from his invention.
 - (history) William Brownrigg was apparently the first to produce artificial carbonated water, in the early 1740s, by using carbon dioxide taken from mines.
-- (history) He wrote of the "peculiar satisfaction" he found in drinking it, and in 1772 he published a paper entitled Impregnating Water with Fixed Air.
-- (history) However, it was not until 1781 that companies specialized in producing artificial mineral water were established and began producing carbonated water on a large scale.
-- (history) Priestley received scientific recognition when the Council of the Royal Society "were moved to reward its discoverer with the Copley Medal" at the anniversary meeting of the Royal Society on 30 November 1773.
-- (history) In 1662 Christopher Merret created 'sparkling wine'.
+- (history) Carbonated water was not until 1781 that companies specialized in producing artificial mineral water were established and began producing carbonated water on a large scale.
 - (history) In 1750 the Frenchman Gabriel François Venel also produced artificial carbonated water, though he misunderstood the nature of the gas that caused the carbonation.
+- (history) In 1764, Irish chemist Dr. Macbride infused water with carbon dioxide as part of a series of experiments on fermentation and putrefaction.
 - (history) In 1766 Henry Cavendish devised an aerating apparatus that would inspire Joseph Priestley to carry out his own experiments with regard to carbonated waters.
 - (history) In 1767 Priestley discovered a method of infusing water with carbon dioxide by pouring water back and forth above a beer vat at a local brewery in Leeds, England.
 - (history) In 1772, Priestley published a paper titled Impregnating Water with Fixed Air in which he describes dripping "oil of vitriol" (sulfuric acid) onto chalk to produce carbon dioxide gas, and encouraging the gas to dissolve into an agitated bowl of water.
-- (about) Priestley referred to his invention of this treated water as being his "happiest" discovery.
-- (history) In 1792, Schweppe moved to London to develop the business there.
 - (about) Not to be confused with aerated water.
+- (about) The first factory was built by Thomas Henry of Manchester, England.
+- (history) Priestley received scientific recognition when the Council of the Royal Society "were moved to reward its discoverer with the Copley Medal" at the anniversary meeting of the Royal Society on 30 November 1773.
+- (history) In 1662 Christopher Merret created 'sparkling wine'.
 
 Learn more:
 
@@ -586,7 +585,6 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) For the North American market, Castello markets a Camembert, a Brie, and several varieties of blue cheese, named Noble Blue Cheese, Extra Danish Creamy Blue (also available sliced), Soft Blue, and Crumbled Blue Cheese.
-- (about) His son, Henrik, bought a Swedish dairy and produced the popular Bianco cheese, followed by the Castello cheese, a white cheese that was developed over ten years before its debut.
 
 Learn more:
 
@@ -628,8 +626,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) They also bought De Maeyer's patent in 2009, so as to seal the market.
 - (about) On January 20, 2011, a court of commerce in Ghent, Belgium, denied the patent because the recipe had already been published on a Dutch website prior to its production.
+- (about) They also bought De Maeyer's patent in 2009, so as to seal the market.
 
 Learn more:
 
@@ -794,15 +792,15 @@ Esrom, or Danish Port Salut cheese is a Trappist-style pale yellow semi-soft cow
 
 Fun facts:
 
-- (history) The first large-scale production of the cheese was established at Midtsjællands Herregårdsmejeri in the early 1940s.
+- (history) It takes its name from the monastery, Esrom Abbey, where it was produced until 1559.
 - (inspiration) Esrom is named after Esrum Abbey.
 - (origin) Esrom comes from Denmark.
 
 More fun facts (when the user asks for more):
 
-- (history) It takes its name from the monastery, Esrom Abbey, where it was produced until 1559.
 - (history) The production of modern-style Esrom cheese was standardized at Statens Forsøgsmejeri in the 1930s.
 - (history) Esrom was one of the most popular Danish cheeses in the 1960s but then almost disappeared.
+- (history) The first large-scale production of the cheese was established at Midtsjællands Herregårdsmejeri in the early 1940s.
 
 Learn more:
 
@@ -825,13 +823,13 @@ Fun facts:
 
 - (origin) Pork has been eaten by Danes for centuries, but it was after the Industrial Revolution in the 1860s when wood-fired ovens were introduced for use in the home that, in addition to sausages and hams, roast pork became a common dish.
 - (culture) Always prepared with crackling, it is traditionally on the menu for the Danish Christmas dinner served as the evening meal on Christmas Eve.
-- (culture) The traditional method of preparation is to roast a joint of pork from the breast or neck without removing the rind.
+- (culture) Flæskesteg is traditionally accompanied by both boiled potatoes and caramelized potatoes (brunede kartofler).
 
 More fun facts (when the user asks for more):
 
-- (culture) Flæskesteg is traditionally accompanied by both boiled potatoes and caramelized potatoes (brunede kartofler).
-- (culture) Many Danes consider the traditional recipe to be the one described by Frk.
 - (origin) Flæskesteg comes from Denmark.
+- (culture) The traditional method of preparation is to roast a joint of pork from the breast or neck without removing the rind.
+- (culture) Many Danes consider the traditional recipe to be the one described by Frk.
 
 Learn more:
 
@@ -854,13 +852,13 @@ Havarti or cream Havarti is a semisoft Danish cow's milk cheese.
 Fun facts:
 
 - (history) In 1952, the cheese was named Havarti, after Havartigården near Holte, where the Danish cheese pioneer Hanne Nielsen worked in the 19th century.
-- (about) Among other cheeses, Nielsen created a Tilsit cheese with caraway for King Christian IX of Denmark.
 - (inspiration) Some sources, such as The Oxford Companion to Cheese, say that Nielsen invented Havarti cheese, while the Dansk Biografisk Leksikon states that the current Havarti is not based on her cheesemaking.
+- (origin) Havarti comes from Denmark.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) Havarti is named after Havarthigaarden.
-- (origin) Havarti comes from Denmark.
+- (about) Among other cheeses, Nielsen created a Tilsit cheese with caraway for King Christian IX of Denmark.
 
 Learn more:
 
@@ -888,7 +886,6 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The first appearance of mustard-makers on the royal registers in Paris was in 1292.
-- (history) The Indus Valley Civilization existed until about 1850 BC.
 - (history) It was often used in the royal courts during the Zhou Dynasty to help whet the appetite for the later courses in a meal.
 - (history) In the 10th century the monks of Saint-Germain-des-Prés in Paris began their own production of mustard.
 - (history) Dijon, France, had become a recognized centre for mustard making by the 13th century.
@@ -896,6 +893,7 @@ More fun facts (when the user asks for more):
 - (about) As a paste or as individual seeds, mustard is used as a condiment in the cuisine of India and Bangladesh, the Mediterranean, northern and southeastern Europe, Asia, the Americas, and Africa, making it one of the most popular and widely used spices and condiments in the world.
 - (about) Mustard greens have been popularly consumed in China.
 - (origin) Mustard comes from Italy.
+- (history) The Indus Valley Civilization existed until about 1850 BC.
 
 Learn more:
 
@@ -996,7 +994,7 @@ Whisky sauce is a sauce in Scottish cooking, which has become popular globally.
 Fun facts:
 
 - (about) Despite the fact that various types of alcohol have been used to make sauces for centuries, the lack of documentation of whisky sauce would seem to indicate that it is a relatively modern invention.
-- (origin) Whisky sauce comes from United Kingdom.
+- (origin) Whisky sauce comes from the United Kingdom.
 - (inspiration) Whisky sauce is created by pouring an amount of whisky into a saucepan.
 
 More fun facts (when the user asks for more):
@@ -1029,12 +1027,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (culture) In North America there are several annual events that celebrate æbleskiver and Danish culture, with churches and museums holding "Æbleskiver Suppers" and similar events.
+- (origin) Æbleskiver comes from Denmark.
+- (about) One popular speculation is that a band of Vikings were part of a difficult battle.
 - (culture) They are traditionally served with jam and powdered sugar and three are placed on a plate at a time.
 - (culture) They are traditionally eaten during the Christmas season and are often served with gløgg (Scandinavian mulled wine).
-- (about) They are also served at children's birthday parties, due to their popularity and easy preparation.
-- (culture) In North America there are several annual events that celebrate æbleskiver and Danish culture, with churches and museums holding "Æbleskiver Suppers" and similar events.
-- (about) One popular speculation is that a band of Vikings were part of a difficult battle.
-- (origin) Æbleskiver comes from Denmark.
 
 Learn more:
 

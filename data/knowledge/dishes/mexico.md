@@ -33,19 +33,18 @@ Al pastor (from Spanish, "herdsman style"), tacos al pastor, or tacos de trompo 
 
 Fun facts:
 
-- (history) Well, that, and nothing less, happened on September 16th, in the unfortunate year of 1856; I saw it, took part in it, and enjoyed it immensely.
+- (history) During the 19th century, variations of a vertically grilled meat dish doner, now known by several names, started to spread throughout the Ottoman Empire.
 - (inspiration) The method of preparing and cooking al pastor is based on the lamb shawarma brought by Lebanese immigrants to the region.
 - (culture) Al pastor features a flavor palette that uses traditional Mexican adobada (marinade).
 
 More fun facts (when the user asks for more):
 
-- (history) During the 19th century, variations of a vertically grilled meat dish doner, now known by several names, started to spread throughout the Ottoman Empire.
-- (history) By the 1920s, lamb meat was mostly replaced by pork.
 - (history) It is unknown when they began to be prepared as we know them today; however, some agree that it was in the 1960s when they became popular.
 - (culture) Al pastor is a popular street food that has spread to the United States.
 - (about) In some places of northern Mexico and coastal Mexico, such as in Baja California, taco al pastor is known as taco de trompo or taco de adobada.
 - (about) The asado al pastor, also known as “asado del pastor”, “carbonada” and “asado a la estaca”, was one of the styles for roasting or “barbecuing” meats in the Mexican countryside, the other one being barbacoa.
 - (origin) Al pastor comes from Mexico.
+- (history) By the 1920s, lamb meat was mostly replaced by pork.
 - (about) Not to be confused with carnitas, Carne asada, taco acorazado.
 
 Learn more:
@@ -67,17 +66,17 @@ An alfajor or alajú is a traditional confection.
 
 Fun facts:
 
-- (history) The Spanish grammarian Nebrija noted the word for the first time in his Latin-Spanish Dictionary (1495) as: alfaxor or alaxur.
 - (origin) According to Spanish philologist and dialectologist Manuel Alvar López, alfajor is an Andalusian variant of the Castilian alajú, derived from the Arabic word الفَاخِر, al-fakhir, meaning luxurious, and, contrary to some beliefs that it originated in the New World, was introduced to Latin America as alfajor.
+- (history) In the Americas, the word alfajor was not known until the 19th century.
 - (culture) Traditional alfajores in Argentina, Peru, Uruguay and Venezuela consist of two round, sweet biscuits made of wheat flour or corn flour joined with dulce de leche (known as "manjar blanco" in Peru and as "arequipe" in Venezuela), and optionally coated with powdered sugar.
 
 More fun facts (when the user asks for more):
 
-- (origin) The word had been introduced into Spanish dictionaries in the 14th century.
-- (history) In the 12th century, Raimundo Martin describes in his book Vocabulista another possible etymology of the Hispano-Arabic fasur, meaning "nectar".
-- (history) In the Americas, the word alfajor was not known until the 19th century.
+- (history) The Spanish grammarian Nebrija noted the word for the first time in his Latin-Spanish Dictionary (1495) as: alfaxor or alaxur.
 - (origin) Alfajor comes from al-Andalus.
 - (about) Not to be confused with alfajor.
+- (origin) The word had been introduced into Spanish dictionaries in the 14th century.
+- (history) In the 12th century, Raimundo Martin describes in his book Vocabulista another possible etymology of the Hispano-Arabic fasur, meaning "nectar".
 
 Learn more:
 
@@ -197,9 +196,9 @@ Bionico is a popular Mexican dessert that originated in the city of Guadalajara 
 
 Fun facts:
 
+- (origin) Bionico comes from Mexico.
 - (history) According to the Gómez Ruiz family, one of the earliest versions of the biónico was created in the early 1970s at the Mercado Alcalde in Guadalajara.
 - (about) Gómez Ruiz developed a fruit-based dessert known as the rickyross, which used a blend of fresh fruit juice and blended guava as a sweet topping.
-- (origin) Bionico comes from Mexico.
 
 More fun facts (when the user asks for more):
 
@@ -223,20 +222,19 @@ Birria is a regional variation of barbacoa from western Mexico, mainly made with
 
 Fun facts:
 
-- (inspiration) One such story argues that in 1519, Hernán Cortés and the Conquistadors first landed in Mexico, bringing various old-world domestic animals, including goats.
-- (history) The Cuban professor Félix Ramos y Duarte had defined the term in 1898 as a regionalism from Mexico City for goat barbacoa or roasted goat.
+- (inspiration) According to another legend, the dish was invented accidentally during the eruption of a volcano, when a shepherd was forced to abandon his goats in a cave where they were cooked perfectly by the steam.
+- (history) Mexican linguist and philologist Darío Rubio wrote in 1925 that "birria" was a lower social class term for "barbacoa".
 - (culture) It is often served at celebratory occasions such as weddings, baptisms and during holidays such as Christmas and Easter, and even at funerals.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) According to another legend, the dish was invented accidentally during the eruption of a volcano, when a shepherd was forced to abandon his goats in a cave where they were cooked perfectly by the steam.
-- (history) Mexican linguist and philologist Darío Rubio wrote in 1925 that "birria" was a lower social class term for "barbacoa".
 - (history) Mexican historian Leovigildo Islas Escárcega stated in 1945 that birria was a term specifically from Jalisco and some areas of the interior for barbacoa.
-- (history) Santamaría defined the term in 1959 as being another name for barbacoa, typically made from lamb or goat, and cited the work of Mexican scholar José Ignacio Dávila Garibi who argued that the term was of Coca origin and not from the Spanish term birria meaning worthless.
+- (history) Mexican linguist and philologist Francisco J. Santamaría defined the term in 1959 as being another name for barbacoa, typically made from lamb or goat, and cited the work of Mexican scholar José Ignacio Dávila Garibi who argued that the term was of Coca origin and not from the Spanish term birria meaning worthless.
 - (history) Mexican writer and essayist Jorge Mejia Prieto defined it in 1985 as a "soupy barbacoa made with lamb or goat meat from Guadalajara, Jalisco".
 - (about) Restaurants or street carts that serve birria are known as birrierías and exist throughout Mexico, especially in Michoacán and Jalisco.
 - (origin) Birria comes from Mexico.
 - (about) Not to be confused with Birria.
+- (history) The Cuban professor Félix Ramos y Duarte had defined the term in 1898 as a regionalism from Mexico City for goat barbacoa or roasted goat.
 
 Learn more:
 
@@ -257,7 +255,7 @@ Biscocho, also spelled biskotso (from Spanish: bizcocho), refers to various type
 Fun facts:
 
 - (about) There are multiple claims of people who "invented" the biscocho in the Philippines, usually varying depending on the region.
-- (origin) Biscocho comes from Philippines.
+- (origin) Biscocho comes from the Philippines.
 - (about) Biscocho is also known as biscocho duro, machacao, or matsakaw.
 
 More fun facts (when the user asks for more):
@@ -402,18 +400,18 @@ A Calavera, in the context of the Day of the Dead, is a representation of a huma
 
 Fun facts:
 
-- (culture) Traditional methods for producing sugar skulls with molds have been in use for a long time, though the first known mention of the sale of skeletal figures dates to the 1740s.
 - (about) It is believed that the departed return home to enjoy the offerings on the altar.
+- (culture) Traditional methods for producing sugar skulls with molds have been in use for a long time, though the first known mention of the sale of skeletal figures dates to the 1740s.
 - (origin) Calavera comes from Mexico.
 
 More fun facts (when the user asks for more):
 
-- (culture) The term is often applied to edible or decorative skulls made (usually with molds) from either sugar (called alfeñiques) or clay, used in the Mexican celebration of the Day of the Dead and the Roman Catholic holiday All Souls' Day.
-- (about) They are sometimes now used as offerings to be placed on altars known as ofrendas ("offerings") for Día de Los Muertos.
 - (culture) Calavera has been argued that the tradition has roots in indigenous celebrations, by groups including the Aztec, Mayan, and Toltec commemorations.
 - (culture) Calavera is also argued what we now call Day of the Dead is more Catholic than indigenous because the Spanish tried to eradicate indigenous religions, forcing most native traditions to hide behind the more similar Spanish ones.
+- (culture) The term is often applied to edible or decorative skulls made (usually with molds) from either sugar (called alfeñiques) or clay, used in the Mexican celebration of the Day of the Dead and the Roman Catholic holiday All Souls' Day.
 - (culture) Sugar skulls were not traditionally used on loved ones' ofrendas, though they are now.
 - (culture) In Mexico, children who have died are celebrated on 1 November.
+- (about) They are sometimes now used as offerings to be placed on altars known as ofrendas ("offerings") for Día de Los Muertos.
 
 Learn more:
 
@@ -497,7 +495,7 @@ Carne a la tampiqueña is one of the most popular meat dishes in Mexico.
 
 Fun facts:
 
-- (history) Carne a la tampiqueña was created in 1939 by the restaurateur José Inés Loredo and his brother chef Fidel, originally from San Luis Potosí, at their restaurant "Tampico Club" on Avenida Mexico in México City..
+- (history) Carne a la tampiqueña was created in 1939 by the restaurateur José Inés Loredo and his brother chef Fidel, originally from San Luis Potosí, at their restaurant "Tampico Club" on Avenida Mexico in México City.
 - (inspiration) The restaurant was named in honor of the years the brothers had lived in the port of Tampico, Tamaulipas.
 
 Learn more:
@@ -567,11 +565,11 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) Champurrado is also very popular during Day of the Dead and at Las Posadas (during the Christmas season), where it is served alongside tamales.
-- (culture) Upon the production of the drink, special tools like the molinillo were made to assist in the making of the drink which is now also used to make traditional hot chocolate in former Spanish colonies.
 - (about) Although adapted directly from Mexican champurrado via the Manila galleons, it differs in that it uses whole grains of glutinous rice instead of masa.
 - (culture) Instead of a drink, it is a sweet rice porridge traditionally eaten during cold rainy days and in the Christmas season.
 - (inspiration) The taste of the beverage also varies based on how it was made.
 - (origin) Champurrado comes from Mexico.
+- (culture) Upon the production of the drink, special tools like the molinillo were made to assist in the making of the drink which is now also used to make traditional hot chocolate in former Spanish colonies.
 
 Learn more:
 
@@ -729,15 +727,14 @@ A chimichanga is a deep-fried burrito that is common in Southwestern U.S. cuisin
 Fun facts:
 
 - (origin) Although no official records indicate when the dish first appeared, retired University of Arizona folklorist Jim Griffith recalls seeing chimichangas at the Yaqui Old Pascua Village in Tucson in the mid-1950s.
-- (history) According to one source, Monica Flin, the founder of the Tucson, Arizona, restaurant El Charro Café (est. 1922), accidentally dropped a burrito into the deep-fat fryer in the early 1950s.
-- (inspiration) Instead, most researchers agree that the chimichanga was created by accident at a Mexican restaurant in Arizona, United States, although they disagree over precisely where.
+- (history) Woody Johnson, founder of Mexican restaurant chain Macayo's Mexican Kitchen, said he had invented the chimichanga in 1946 when he put some burritos into a deep fryer as an experiment at his original restaurant Woody's El Nido, in Phoenix, Arizona.
+- (inspiration) Most researchers agree that the chimichanga was created by accident at a Mexican restaurant in Arizona, United States, although they disagree over precisely where.
 
 More fun facts (when the user asks for more):
 
-- (history) Woody Johnson, founder of Mexican restaurant chain Macayo's Mexican Kitchen, said he had invented the chimichanga in 1946 when he put some burritos into a deep fryer as an experiment at his original restaurant Woody's El Nido, in Phoenix, Arizona.
-- (history) Santamaría's Diccionario de Mejicanismos (1959), Chivichanga is a regionalism from the State of Tabasco: In Tabasco, it's any trinket or trifle; something unimportant and whose true role or origin, is not known legitimately. — Variants: chibachanga, chimichanga.
-- (history) These "fried burritos" became so popular that by 1952, when Woody's El Nido became Macayo's, the chimichanga was one of the restaurant's main menu items.
+- (history) According to one source, Monica Flin, the founder of the Tucson, Arizona, restaurant El Charro Café (est. 1922), accidentally dropped a burrito into the deep-fat fryer in the early 1950s.
 - (about) Knowledge and appreciation of the dish spread slowly outward from the Tucson area, with popularity elsewhere accelerating over the decades.
+- (history) These "fried burritos" became so popular that by 1952, when Woody's El Nido became Macayo's, the chimichanga was one of the restaurant's main menu items.
 - (origin) Chimichanga comes from Mexico.
 
 Learn more:
@@ -783,8 +780,8 @@ Chocolate is a food made from roasted and ground cocoa beans.
 Fun facts:
 
 - (history) Chocolate is a Spanish loanword, first recorded in English in 1604, and in Spanish in 1579.
-- (about) The cacao tree was first used as a source for food in what is today Ecuador at least 5,300 years ago.
 - (origin) Mesoamerican civilizations widely consumed cacao beverages, and in the 16th century, one of these beverages, chocolate, was introduced to Europe.
+- (about) It is unknown when chocolate was first consumed as opposed to other cacao-based drinks, and there is evidence the Olmecs, the earliest known major Mesoamerican civilization, fermented the sweet pulp surrounding the cacao beans into an alcoholic beverage.
 
 More fun facts (when the user asks for more):
 
@@ -792,7 +789,6 @@ More fun facts (when the user asks for more):
 - (history) Chocolate was believed to be an aphrodisiac and medicine, and spread across Europe in the 17th century, sweetened, served warm and flavored with familiar spices.
 - (history) It proved to be an acquired taste, and it took until 1585 for the first official recording of a shipment of cocoa beans to Europe.
 - (history) Until the 19th century, chocolate was a drink consumed by societal elite.
-- (about) It is unknown when chocolate was first consumed as opposed to other cacao-based drinks, and there is evidence the Olmecs, the earliest known major Mesoamerican civilization, fermented the sweet pulp surrounding the cacao beans into an alcoholic beverage.
 - (history) In the 18th century, it was considered southern European, aristocratic and Catholic, and was still produced in a similar way to the way it had been produced by the Aztecs.
 - (history) Starting in the 18th century, chocolate production was improved.
 - (history) Chocolate dates from -1749.
@@ -803,6 +799,7 @@ More fun facts (when the user asks for more):
 - (inspiration) Chocolate in Mesoamerica was a bitter drink, flavored with additives such as vanilla, earflower and chili, and was capped with a dark brown foam created by pouring the liquid from a height between containers.
 - (origin) Chocolate comes from Mesoamerica.
 - (about) Not to be confused with Čokolada, Chocolate, Schoko.
+- (about) The cacao tree was first used as a source for food in what is today Ecuador at least 5,300 years ago.
 
 Learn more:
 
@@ -826,12 +823,11 @@ A chocolate brownie, or simply a brownie, is a chocolate baked dessert bar.
 Fun facts:
 
 - (history) The brownie was developed in the United States at the end of the 19th century and was popularized during the first half of the 20th century.
-- (origin) Chocolate brownie comes from United Kingdom.
+- (origin) Chocolate brownie comes from the United Kingdom.
 - (history) During the 1880s in the United States, dinner parties themed around the color brown were popular events.
 
 More fun facts (when the user asks for more):
 
-- (history) One such recipe appeared in the 1896 version of Fannie Farmer's The Boston Cooking-School Cook Book, containing molasses and a nut at their center, but no chocolate.
 - (history) Chocolate brownie dates from 1900-.
 
 Learn more:
@@ -875,13 +871,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The Portuguese sailed for the Orient; as they returned from Ming-dynasty China to Portugal, they brought along with them new culinary techniques.
 - (history) The Mexican sitcom El Chavo del Ocho featured a 3-episode saga in 1978 titled La Venta de Churros with churros as the main theme.
 - (about) One included altering dough for youtiao, also known as yóuzháguǐ in southern China, which bears a resemblance to the churro.
 - (origin) The new pastry was soon introduced to Spain, where it was modified to have the dough extruded through a star-shaped nozzle (compare a piping bag) rather than pulled.
 - (about) The popularity of this saga has led people to frequently associate churros with the series, to the point of even selling them using the characters' images to boost sales.
 - (about) There is a churro character from Rick and Morty named Churry, at Season 7 Episode 6.
 - (origin) Churro comes from Spain.
+- (history) The Portuguese sailed for the Orient; as they returned from Ming-dynasty China to Portugal, they brought along with them new culinary techniques.
 
 Learn more:
 
@@ -904,12 +900,12 @@ Cocada are a traditional coconut confectionery found in many parts of Latin Amer
 Fun facts:
 
 - (history) Cocadas are mentioned as early as 1878 in Peru.
-- (about) They are particularly popular in Argentina, Bolivia, Brazil, Colombia, Chile, the Dominican Republic, Cuba, Spain, Mexico, Panama, Venezuela, Ecuador, and also in the former Estado da Índia Portuguesa.
 - (culture) Made with eggs and shredded coconut, cocadas come in a variety of colors due to the modern use of food coloring, however the traditional variations are golden brown.
+- (origin) Cocada comes from Latin America.
 
 More fun facts (when the user asks for more):
 
-- (origin) Cocada comes from Latin America.
+- (about) They are particularly popular in Argentina, Bolivia, Brazil, Colombia, Chile, the Dominican Republic, Cuba, Spain, Mexico, Panama, Venezuela, Ecuador, and also in the former Estado da Índia Portuguesa.
 
 Learn more:
 
@@ -953,9 +949,9 @@ Cochinitos de piloncillo, also known as marranitos, cochinitos and puerquitos (a
 
 Fun facts:
 
-- (origin) Gingerbread was brought by the English to Mexico during and after the First World War for the extraction of oil in Mexico, today ginger is no longer added, but instead other spices such as cinnamon and anise
 - (about) Cochinitos are popular in bakeries in Mexico and throughout the US.
 - (origin) Cochinito de piloncillo comes from Mexico.
+- (origin) Gingerbread was brought by the English to Mexico during and after the First World War for the extraction of oil in Mexico, today ginger is no longer added, but instead other spices such as cinnamon and anise
 
 Learn more:
 
@@ -1087,19 +1083,19 @@ Dulce de leche, caramelized milk, milk candy, or milk jam is a confection common
 Fun facts:
 
 - (origin) Some reports say it originated in Indonesia in the 6th century.
-- (history) There are records of doce de leite in Minas Gerais, Brazil from 1773.
-- (inspiration) The same confectionery is also known as kajmak in Polish cuisine, named after Turkish kaymak, a kind of clotted cream.
+- (history) Swiss naturalist Johann Rudolph Rengger reports the consumption of dulce de leche in Paraguay in his trip from 1818 to 1825.
+- (culture) In France, it is traditional in the regions of Normandy and Savoy, where it is commonly served with fromage blanc or crêpes.
 
 More fun facts (when the user asks for more):
 
 - (origin) Argentine historian Daniel Balmaceda considers that it might have originated in the Philippines in the 4th century.
-- (history) There are customs reports of importation of manjar into Argentina from Chile in 1693 and 1712.
 - (origin) Argentine historian Víctor Ego Ducrot says it originated in the Captaincy General of Chile and would have made its diffusion into Argentina with Army of the Andes in 1817.
-- (history) Swiss naturalist Johann Rudolph Rengger reports the consumption of dulce de leche in Paraguay in his trip from 1818 to 1825.
-- (about) A famous confection from Mexico is known as cajeta de Celaya.
-- (culture) In France, it is traditional in the regions of Normandy and Savoy, where it is commonly served with fromage blanc or crêpes.
-- (culture) Kajmak is most commonly used for wafers or the mazurek pie traditionally eaten at Easter.
+- (history) There are records of doce de leite in Minas Gerais, Brazil from 1773.
+- (history) There are customs reports of importation of manjar into Argentina from Chile in 1693 and 1712.
 - (origin) Dulce de leche comes from Uruguay, Brazil, Argentina.
+- (inspiration) The same confectionery is also known as kajmak in Polish cuisine, named after Turkish kaymak, a kind of clotted cream.
+- (about) A famous confection from Mexico is known as cajeta de Celaya.
+- (culture) Kajmak is most commonly used for wafers or the mazurek pie traditionally eaten at Easter.
 - (about) Not to be confused with kaymak.
 
 Learn more:
@@ -1171,17 +1167,17 @@ Fun facts:
 
 - (origin) The first culinary evidence of fajitas with the cut of meat, the cooking style (directly on a campfire or on a grill), and the Spanish nickname comes from the 1930s in the ranch lands of South and West Texas.
 - (culture) In September 1969, Sonny Falcón, an Austin meat market manager, operated the first commercial fajita taco concession stand at a rural 16 de septiembre celebration in Kyle, Texas.
-- (history) In southern Arizona, the term was unknown except as a cut of meat until the 1990s, when Mexican fast food restaurants started using the word in their marketing.
+- (about) Popular condiments include shredded lettuce, sour cream, guacamole, salsa, pico de gallo, shredded cheese, refried beans, and diced tomatoes. "Tacos de arrachera" is applied to the northern Mexican variant of the dish.
 
 More fun facts (when the user asks for more):
 
-- (about) Popular alternatives to skirt steak include chicken, shrimp, and other cuts of beef, as well as vegetables instead of meat.
-- (about) Popular condiments include shredded lettuce, sour cream, guacamole, salsa, pico de gallo, shredded cheese, refried beans, and diced tomatoes. "Tacos de arrachera" is applied to the northern Mexican variant of the dish.
-- (about) Skirt steak is one of the most popular cuts of beef for grilling in Mexico.
 - (origin) During that same year, Otilia Garza introduced fajitas at the Round-Up Restaurant in Pharr, Texas.
-- (about) The style was popularized by various businesses, such as Ninfa's in Houston, the Hyatt Regency in Austin, and numerous restaurants in San Antonio.
 - (about) In later years, fajitas became popular at American casual dining restaurants as well as in-home cooking.
 - (origin) Fajita comes from Mexico.
+- (history) In southern Arizona, the term was unknown except as a cut of meat until the 1990s, when Mexican fast food restaurants started using the word in their marketing.
+- (about) Popular alternatives to skirt steak include chicken, shrimp, and other cuts of beef, as well as vegetables instead of meat.
+- (about) Skirt steak is one of the most popular cuts of beef for grilling in Mexico.
+- (about) The style was popularized by various businesses, such as Ninfa's in Houston, the Hyatt Regency in Austin, and numerous restaurants in San Antonio.
 
 Learn more:
 
@@ -1208,7 +1204,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Fried ice cream comes from United States.
+- (origin) Fried ice cream comes from the United States.
 
 Learn more:
 
@@ -1325,11 +1321,11 @@ Fun facts:
 
 - (history) Don Phillips, also known as the frozen banana king, opened the first frozen banana stand - The Original Frozen Banana - on Balboa Peninsula, located in Orange County, California, circa 1940 after seeing them being sold on the Santa Cruz Beach Boardwalk.
 - (culture) Frozen bananas are a tradition on Balboa Island to this day.
-- (history) Bob Fitch sold the building around 1978-1979 to Mrs.
+- (history) Bob Fitch created the Frozen Banana in the 1950s on Balboa island maybe earlier.
 
 More fun facts (when the user asks for more):
 
-- (history) Bob Fitch created the Frozen Banana in the 1950s on Balboa island maybe earlier.
+- (history) Bob Fitch sold the building around 1978-1979 to Mrs. Banto for $110,000.00.
 
 Learn more:
 
@@ -1367,9 +1363,9 @@ Huachinango a la Veracruzana (Veracruz-style red snapper) is a classic fish dish
 
 Fun facts:
 
-- (culture) Traditionally, a whole red snapper is used, gutted and de-scaled and marinated in lime juice, salt, pepper, nutmeg and garlic.
-- (origin) Huachinango a la Veracruzana comes from Mexico.
 - (culture) Huachinango a la Veracruzana is traditionally served with small roasted potatoes and Mexican-style white rice.
+- (origin) Huachinango a la Veracruzana comes from Mexico.
+- (culture) Traditionally, a whole red snapper is used, gutted and de-scaled and marinated in lime juice, salt, pepper, nutmeg and garlic.
 
 Learn more:
 
@@ -1389,8 +1385,8 @@ Huarache is a popular Mexican dish consisting of masa dough with smashed pinto b
 Fun facts:
 
 - (origin) Huaraches originated in Mexico City in about the early 1930s.
-- (history) When the navigation channel was covered to make the "Calzada de la Viga", Gómez moved to another place and after 1957, when the Mercado de Jamaica was founded, she moved there, and then to a little place at Torno street.
 - (about) Because Gómez's new invention was shaped differently than a sope or a tlacoyo and resembled the sole of a sandal, people started to call it "huarache".
+- (history) When the navigation channel was covered to make the "Calzada de la Viga", Gómez moved to another place and after 1957, when the Mercado de Jamaica was founded, she moved there, and then to a little place at Torno street.
 
 More fun facts (when the user asks for more):
 
@@ -1438,7 +1434,7 @@ Fun facts:
 
 - (inspiration) Epperson claimed to have first created an ice pop in 1905, at the age of 11, when he accidentally left a glass of powdered lemonade soda and water with a mixing stick in it on his porch during a cold night, a story still printed on the back of Popsicle treat boxes.
 - (history) As early as 1872, a partnership known as Ross and Robins sold "a frozen-fruit confection on a stick, which they called the Hokey-Pokey." Later, Francis William "Frank" Epperson of Oakland, California, popularized ice pops after patenting the concept of "frozen ice on a stick" in 1923.
-- (origin) Ice pop comes from United States.
+- (origin) Ice pop comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -1465,16 +1461,16 @@ Fun facts:
 
 - (history) The earliest known reference to a king cake in North America, including a recipe, dates to 1649.
 - (culture) The origin of the cake tradition was popularly believed to be related to the Roman Saturnalia.
-- (inspiration) These were festivals dedicated to the god Saturn so that the Roman people, in general could celebrate the longer days that began to come after the winter solstice.
+- (about) In the Middle Ages, it was said that the king who was chosen had to pay the assembly a general round of drinks.
 
 More fun facts (when the user asks for more):
 
-- (about) In the Middle Ages, it was said that the king who was chosen had to pay the assembly a general round of drinks.
 - (culture) In Christian tradition the cake commemorates the witness of the "Three Kings".
 - (culture) Many holiday foods have rituals and customs connected to the preparation of the food, but the customs of the kings cake mainly revolve around the fève.
 - (origin) King cake comes from Spain, Switzerland, Ancient Rome.
 - (culture) Traditionally made with brioche dough, in most cases a fève, such as a figurine representing Christ as a child, was hidden inside.
-- (culture) For this reason, Margaret Hasluck disputed the Greek tradition commemorating St.
+- (inspiration) These were festivals dedicated to the god Saturn so that the Roman people, in general could celebrate the longer days that began to come after the winter solstice.
+- (culture) For this reason, Margaret Hasluck disputed the Greek tradition commemorating St. Basil's feast day with vasilopita, claiming that both customs had a common origin in the Saturnalia and Kronia.
 
 Learn more:
 
@@ -1537,9 +1533,9 @@ Manchamanteles in Mexican cuisine, is a stew of assorted meat, chili peppers, ve
 
 Fun facts:
 
-- (history) Jose Moreda (1832), a manuscript preserved in a public library in Oaxaca.
 - (culture) Manchamanteles is traditionally associated with the colonial-era convents of Puebla and Oaxaca, the two Mexican states where the dish became most established.
 - (origin) Manchamanteles comes from Mexico.
+- (history) A later 19th-century version appears in Libro de cocina de D. Jose Moreda (1832), a manuscript preserved in a public library in Oaxaca.
 
 Learn more:
 
@@ -1588,8 +1584,8 @@ A marquesita is a dessert native to the state of Yucatán, Mexico.
 Fun facts:
 
 - (history) Marquesitas were created in the 1930s by Leopoldo Mena, an ice cream business owner, who did not have as many customers in the winter season.
-- (about) To attract more customers, he invented a new sweet and integrated the sweet taste of jams with the salty taste of queso de bola, which became a success.
 - (about) It consists of a crepe, rolled and filled with cajeta, condensed milk, jam, chocolate or edam cheese, also known as queso de bola.
+- (about) To attract more customers, he invented a new sweet and integrated the sweet taste of jams with the salty taste of queso de bola, which became a success.
 
 Learn more:
 
@@ -1610,17 +1606,16 @@ Marzipan is a confection consisting primarily of sugar and almond meal (ground a
 
 Fun facts:
 
-- (history) In Johann Burchard’s Diarium curiae romanae (1483–1492) the Latin form appears as martiapanis.
 - (about) Marzipan is used in some versions of king cake eaten during the Carnival season.
+- (history) In Johann Burchard’s Diarium curiae romanae (1483–1492) the Latin form appears as martiapanis.
 - (culture) In some countries, it is shaped into small figures of animals as a traditional treat for New Year's Day or Christmas.
 
 More fun facts (when the user asks for more):
 
+- (about) Among the other possible etymologies set forth in the Oxford English Dictionary, one theory proposes that the word "marzipan" may be a corruption of Martaban, a Burmese city famous for its jars.
+- (origin) Marzipan comes from Spain, France, Germany.
 - (about) Another possible source is from Arabic: موثابان mawthābān 'king who sits still'.
 - (about) The Arabic, Latinised as matapanus, was used to describe a Venetian coin depicting an enthroned Christ the King.
-- (about) Among the other possible etymologies set forth in the Oxford English Dictionary, one theory proposes that the word "marzipan" may be a corruption of Martaban, a Burmese city famous for its jars.
-- (about) One such luxury that crept into the box in the sixteenth century is the now-famous almond-flavoured marzipan, named (at least proximately) after the box in which it was stored.
-- (origin) Marzipan comes from Spain, France, Germany.
 - (about) Not to be confused with Pasta di mandorle PAT.
 
 Learn more:
@@ -1675,9 +1670,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Those that were known under that name did not necessarily resemble the modern dish: one such recipe under the name "Spanish" rice, published in Sarah Tyson Rorer's 1902 New Cook Book resembled a chicken paella.
 - (history) In the 1920s, at a time when foods associated with Mexico were becoming popular for their perceived exoticism, Mexican rice became established in the American diet.
 - (history) Valued as a more accessible option when more spicy dishes were considered overwhelming, it remained popular into the 1960s when its popularity declined.
+- (history) Those that were known under that name did not necessarily resemble the modern dish: one such recipe under the name "Spanish" rice, published in Sarah Tyson Rorer's 1902 New Cook Book resembled a chicken paella.
 - (origin) Mexican rice comes from Mexico.
 
 Learn more:
@@ -1727,23 +1722,23 @@ Fun facts:
 
 - (origin) A popular variation originating in Buenos Aires is the milanesa napolitana (Neapolitan), which is topped with tomato sauce, ham and melted cheese, and, according to popular belief, was invented in the 1940s when a cook sought to conceal a burnt milanesa.
 - (inspiration) A classic variation of the dish is the milanesa napolitana (Neapolitan), topped with tomato sauce, ham and melted cheese, which, according to popular legend, originated in Buenos Aires in the 1940s when a cook tried to cover up a burnt milanesa.
-- (history) The original recipe disseminated to other nations via the Italian diaspora, which in Argentina constituted the largest immigrant community in the country as part of a massive wave of European immigration from the late 19th century to the early 20th century.
+- (culture) Although known throughout Latin American cuisine, it is closely tied to the cuisine of Argentina, where it is considered a quintessential national dish and a cultural mainstay.
 
 More fun facts (when the user asks for more):
 
 - (origin) The term first appeared in the eighth edition of Francisco Figueredo's El libro de cocina, published in 1914—whose first edition has not been located—which includes two recipes describing veal ribs and cutlets prepared "a la milanesa".
 - (origin) Italian tradition holds that the Wiener schnitzel derives from the costoletta alla milanese, supposedly introduced to Vienna by Field Marshal Josef Radetzky during his posting in Italy between 1831 and 1857, though no documentary evidence of such transmission has been found.
-- (history) Among the earliest records is the menu for a banquet held in 1134 for the feast of Saint Satyrus, which listed lombos cum panitio, or breaded loin of meat.
-- (history) The city's population rose from approximately 180,000 in 1870 to 1,300,000 by 1910 and Buenos Aires became predominantly immigrant in composition.
-- (history) Around 3 million Italians arrived at the port of Buenos Aires between 1870 and 1920, which represents almost two-thirds of the total immigration of the period.
-- (culture) Although known throughout Latin American cuisine, it is closely tied to the cuisine of Argentina, where it is considered a quintessential national dish and a cultural mainstay.
 - (origin) Since 2011, milanesa has been celebrated annually in Argentina on 3 May as "National Milanesa Day", an observance that originated as a social media initiative.
 - (about) When the dish reached the Americas, the term "milanesa" itself signaled an origin in Milan, and it is widely believed to derive directly from the cotoletta alla milanese owing to their close similarities.
 - (origin) The milanesa of the Río de la Plata region is widely regarded as a culinary legacy of Italian immigration, most likely originating with migrants from Lombardy.
 - (inspiration) Milanesa is named after Milan.
+- (history) The original recipe disseminated to other nations via the Italian diaspora, which in Argentina constituted the largest immigrant community in the country as part of a massive wave of European immigration from the late 19th century to the early 20th century.
+- (history) Among the earliest records is the menu for a banquet held in 1134 for the feast of Saint Satyrus, which listed lombos cum panitio, or breaded loin of meat.
+- (history) The city's population rose from approximately 180,000 in 1870 to 1,300,000 by 1910 and Buenos Aires became predominantly immigrant in composition.
+- (history) Around 3 million Italians arrived at the port of Buenos Aires between 1870 and 1920, which represents almost two-thirds of the total immigration of the period.
 - (culture) The historical origins of the milanesa (meaning "Milanese" in Spanish) are surrounded by debate, and as with many traditional dishes, its nationality is contested between Milan and Vienna.
-- (about) The recipe became particularly popular in Argentina, which experienced a massive wave of European immigration between the late 19th and early 20th centuries that profoundly reshaped the country's demographic composition.
 - (origin) Milanesa comes from Buenos Aires.
+- (about) The recipe became particularly popular in Argentina, which experienced a massive wave of European immigration between the late 19th and early 20th centuries that profoundly reshaped the country's demographic composition.
 
 Learn more:
 
@@ -1795,9 +1790,9 @@ Morisqueta is a Mexican dish native to Apatzingán, Michoacán.
 
 Fun facts:
 
-- (culture) Cooked and served with the sauce, traditionally may be served with cubes of adobera, a kind of cheese, ranchero or fresh cheese, which melts as you eat.
-- (origin) Morisqueta comes from Mexico, Philippines.
 - (culture) Espinaca is traditionally the cut of pork that is served with this dish in a spicy green, Chile verde, sauce.
+- (origin) Morisqueta comes from Mexico, the Philippines.
+- (culture) Cooked and served with the sauce, traditionally may be served with cubes of adobera, a kind of cheese, ranchero or fresh cheese, which melts as you eat.
 
 Learn more:
 
@@ -1882,20 +1877,20 @@ Pan de muerto (Spanish for 'bread of the dead') is a type of pan dulce tradition
 
 Fun facts:
 
-- (culture) At first, the breads produced in Mexico were crude and poorly developed doughs, but over time, the country strengthened its baking tradition by making increasingly refined pieces.
 - (inspiration) Legend has it that the conquistadors, disgusted with the cannibalistic practice, forced the natives to replace the heart with a nice sweet bun.
-- (history) For now, evidence indicates that the Mexican Day of the Dead is a colonial invention, a unique product of colonial demographic and economic processes.
+- (culture) According to Dr. Malvido (1999), although much weight has been given to pre-Hispanic ideas in the celebration of the Day of the Dead, the influence that the Spanish culture and Catholic religion has exerted in colonial Mexico is also very important.
+- (origin) Wheat and the baking culture were introduced to America by the Spanish, so it is not uncommon to see that many classic Mexican breads, such as cemita, pan bazo or telera, have their respective counterparts in Spain.
 
 More fun facts (when the user asks for more):
 
-- (culture) Malvido (1999), although much weight has been given to pre-Hispanic ideas in the celebration of the Day of the Dead, the influence that the Spanish culture and Catholic religion has exerted in colonial Mexico is also very important.
-- (origin) Wheat and the baking culture were introduced to America by the Spanish, so it is not uncommon to see that many classic Mexican breads, such as cemita, pan bazo or telera, have their respective counterparts in Spain.
 - (about) The bread was blessed by the local priest, so it was also known as pan bendecido ("blessed bread").
 - (inspiration) A frequently repeated myth explains that the Mexican bread of the dead dates back to the pre-Hispanic custom of human sacrifice: "A maiden was offered to the gods, and they placed her still beating heart in a pot with amaranth, they had to bite it as a symbol of gratitude".
-- (about) All these products arrived in America in what is known as the "Columbian exchange".
 - (culture) According to this author, in an essay published by the National Institute of Anthropology and History: "continuing to think that [the pan de muerto] is a tradition of pre-Hispanic origin means that we did not understand anything, since it is profoundly Roman".
 - (culture) With the industrialization of Europe, the traditions of panes de ánimas ('soul breads') disappeared from the Old Continent, but curiously the tradition is still alive on the other side of the ocean, in Mexico, as well as in the Central Andes, where the bread of the dead is known as guagua or tanwawa.
 - (origin) Pan de muerto comes from Mexico.
+- (culture) At first, the breads produced in Mexico were crude and poorly developed doughs, but over time, the country strengthened its baking tradition by making increasingly refined pieces.
+- (history) For now, evidence indicates that the Mexican Day of the Dead is a colonial invention, a unique product of colonial demographic and economic processes.
+- (about) All these products arrived in America in what is known as the "Columbian exchange".
 
 Learn more:
 
@@ -2004,12 +1999,12 @@ Fun facts:
 
 - (history) Pollo a la brasa was developed by Roger Schuler, a Swiss resident of Chaclacayo, Lima, in 1950.
 - (culture) Pollo a la brasa is considered a national dish of Peru: the average Peruvians eats it three times a month, and rotisserie chicken restaurants make up 40% of the domestic fast food industry.
-- (about) After receiving a large catering order, he sought out a fellow Swiss immigrant, Franz Ulrich, a metalworker who developed a type of rotisserie oven to allow high throughput that he named "El rotombo".
+- (origin) Pollo a la brasa comes from Peru.
 
 More fun facts (when the user asks for more):
 
+- (about) After receiving a large catering order, he sought out a fellow Swiss immigrant, Franz Ulrich, a metalworker who developed a type of rotisserie oven to allow high throughput that he named "El rotombo".
 - (about) The modern version is almost always served with mayonnaise-based sauces, or a salsa known as ají.
-- (origin) Pollo a la brasa comes from Peru.
 
 Learn more:
 
@@ -2067,13 +2062,13 @@ A polvorón (From polvo, the Spanish word for powder, or dust) is a type of heav
 
 Fun facts:
 
-- (culture) Under the name mantecados, these sweets are a traditional preparation of other areas of the Iberian Peninsula and other Spanish-speaking countries as well.
+- (culture) Polvorones are popular holiday delicacies in all of Spain, Hispanic America, the Philippines, and other Spanish-influenced countries around the world.
 - (origin) Polvorón comes from Spain.
 - (about) Not to be confused with Polvorosa.
 
 More fun facts (when the user asks for more):
 
-- (culture) Polvorones are popular holiday delicacies in all of Spain, Hispanic America, the Philippines, and other Spanish-influenced countries around the world.
+- (culture) Under the name mantecados, these sweets are a traditional preparation of other areas of the Iberian Peninsula and other Spanish-speaking countries as well.
 - (culture) Traditionally, they were prepared from September to January, but they are now available all year round.
 
 Learn more:
@@ -2150,7 +2145,6 @@ More fun facts (when the user asks for more):
 
 - (history) Hare stew dates back to at least the 14th century, and was published in The Forme of Cury during this time as a recipe for stewed hare.
 - (history) A stewed hare dish is included in The Forme of Cury, a book of English recipes published in the 14th century.
-- (history) Both hare stew and rabbit stew are included in Le Viandier de Taillevent, a recipe collection with an initial publishing dated to circa 1300.
 - (culture) Rabbit stew has been described as a "kind of national dish in Crete", Greece, and is also prepared on the Greek island of Icaria, where hares and partridges comprise the primary game meats available.
 - (history) Circa the early 1900s in eastern France and western Germany, hare stew was commercially prepared and canned by various packers.
 - (history) Circa the early 1900s in the United States, rabbit stew was prepared using domestic or wild rabbits.
@@ -2197,8 +2191,8 @@ Romeritos is a Mexican dish from Central Mexico, consisting of tender sprigs of 
 
 Fun facts:
 
-- (culture) They are traditionally enjoyed at Christmas and Lent.
 - (about) The plant is known as romerito in Spanish.
+- (culture) They are traditionally enjoyed at Christmas and Lent.
 
 Learn more:
 
@@ -2243,7 +2237,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) However, Italian ice, also known as "water ice", often has the fruit juice or other ingredients, like almond, incorporated into the sugared water before it is frozen.
+- (about) Italian ice, also known as "water ice", often has the fruit juice or other ingredients, like almond, incorporated into the sugared water before it is frozen.
 - (culture) As Japanese people immigrated to Hawaii, they brought this tradition with them.
 
 Learn more:
@@ -2287,13 +2281,13 @@ Lime soup is a traditional dish from the Mexican state of Yucatan, which is made
 Fun facts:
 
 - (origin) The lime soup as it is known was first created in 1946 by the master called Katún (means "warrior" in the Mayan language).
-- (history) Since at least the 1950s, Mexico has been the world's largest producer and exporter of limes.
 - (culture) Lime soup is a traditional dish from Yucatan.
+- (history) Since at least the 1950s, Mexico has been the world's largest producer and exporter of limes.
 
 More fun facts (when the user asks for more):
 
-- (culture) Traditional Yucatan cuisine has its origins in the Hispanic and Yucatán Mayan culture.
 - (origin) Sopa de lima comes from Mexico.
+- (culture) Traditional Yucatan cuisine has its origins in the Hispanic and Yucatán Mayan culture.
 
 Learn more:
 
@@ -2340,7 +2334,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) Also, an extremely large dish similar to a giant sope or a giant tostada is the traditional food of reference in Oaxaca known as tlayuda.
+- (culture) An extremely large dish similar to a giant sope or a giant tostada is the traditional food of reference in Oaxaca known as tlayuda.
 - (origin) Sope comes from Mexico.
 
 Learn more:
@@ -2431,8 +2425,8 @@ More fun facts (when the user asks for more):
 
 - (history) The modern definition of a taquito as a rolled-tortilla dish was given in 1929 in a book of stories of Mexican people in the United States aimed at a youth audience, where the dish was noted as a particularly popular offering of railroad station vendors.
 - (history) Taquitos were referred to, without definition, in a 1932 issue of the Los Angeles School Journal.
-- (history) Cielito Lindo was founded by Aurora Guerrero in 1934 and located on Olvera Street in Los Angeles.
 - (history) Taquitos were among the early Mexican food items developed as a frozen food, with Van de Kamp's introducing a successful frozen taquito offering by 1976.
+- (history) Cielito Lindo was founded by Aurora Guerrero in 1934 and located on Olvera Street in Los Angeles.
 - (about) Not to be confused with taco, burrito, enchilada, tostada, taco acorazado.
 
 Learn more:
@@ -2554,14 +2548,14 @@ More fun facts (when the user asks for more):
 
 - (history) In the US, the cake became popular in the 1980s, beginning in Miami, due to the large Nicaraguan immigration.
 - (history) Its popularity then spread across the US, possibly from Los Ranchos restaurant in Miami, which featured it on its menu when the restaurant opened in 1981.
-- (history) The Joy of Cooking included a tres leches recipe in its 1997 edition.
 - (history) Tres leches cake dates from 1900-.
 - (culture) European countries have long held the tradition of "soaked" cakes.
 - (culture) This tradition is thought to have influenced the creation of the tres leches cake in Latin America.
-- (origin) Cattle, sugarcane plantations, and milk preservation techniques were introduced to Nicaragua by that time, by way of American military occupation.
 - (about) In Tabasco, Mexico, a dessert named torta de leche consisted of "sweetened scalded milk, baked and served floating in its milk sauce".
 - (about) The cake is popular in Central America, North America, many parts of the Caribbean, Canary Islands, Albania, Bosnia and Herzegovina, North Macedonia, Serbia and other parts of Europe.
-- (about) The cake was so popular at Los Ranchos that its recipe was featured on its fliers, which were pervasively distributed.
+- (history) By 1896, the U.S. Department of Commerce was exporting condensed milk to Nicaragua.
+- (history) In 1936, President Franklin D. Roosevelt signed a trade agreement with Nicaragua, which "reduced Nicaraguan duties" in favor of importing dairy products from Wisconsin, including evaporated, powdered, and condensed milk.
+- (origin) Cattle, sugarcane plantations, and milk preservation techniques were introduced to Nicaragua by that time, by way of American military occupation.
 
 Learn more:
 
@@ -2632,7 +2626,6 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (inspiration) The first is based on ground arbol chilies, vinegar, garlic, oregano, and other spices.
 - (culture) It is traditional to eat tortas ahogadas in Estadio Jalisco, the football stadium in Guadalajara, in spite of the difficulty in consuming them.
 - (origin) Torta ahogada comes from Mexico.
 
@@ -2677,8 +2670,8 @@ Aguas frescas or frescos or aguas, are light traditionally non-alcoholic beverag
 
 Fun facts:
 
-- (about) They are popular in many Latin American countries, as well as parts of the United States such as the Southwest and heavy-Latino population cities, such as Los Angeles and San Antonio.
 - (culture) Industry analysts at Technomic report that their popularity is growing faster than lemonade, driven by demand from both Latin American communities and younger consumers seeking lower- sugar alternatives to carbonated soft drinks, as well as interest in natural ingredients and traditional preparations.
+- (about) They are popular in many Latin American countries, as well as parts of the United States such as the Southwest and heavy-Latino population cities, such as Los Angeles and San Antonio.
 
 Learn more:
 
@@ -2801,16 +2794,16 @@ Fun facts:
 
 - (origin) The first origin hypothesis is via Filipino immigrants on the Manila galleons which connected the Philippines and Mexico from 1565 to 1815.
 - (history) The term "chamoy", in this case, was supposedly coined by Teikichi Iwadare, a Japanese immigrant to Mexico who produced umeboshi made with apricot in the 1950s, which he allegedly called "chamoy" from Chinese 酸梅 (suān méi)—sour plum—or Vietnamese xí muôi ("preserved prune").
-- (about) However, whereas champoy refers to the pickled fruit in the Philippines, in Mexico the term chamoy has evolved to refer to the sauce derived from pickling the fruit; while the fruits themselves are now known as saladitos.
+- (about) Whereas champoy refers to the pickled fruit in the Philippines, in Mexico the term chamoy has evolved to refer to the sauce derived from pickling the fruit; while the fruits themselves are now known as saladitos.
 
 More fun facts (when the user asks for more):
 
-- (origin) All of them ultimately originate from the Chinese Li Hing Mui snacks, made from dried, sour, and salty plums or berries.
-- (origin) They originate from the li hing mui recipes carried by Chinese immigrants (sangley) to the Philippines during the Spanish colonial period.
-- (origin) There are three main pathways that they may have been introduced to Mexico, as well as the origin of the name.
-- (culture) The second hypothesis is via 19th-century Chinese workers in Hawaii that also carried the tradition of li hing mui with them as salted and dried apricots.
 - (origin) However it is unknown how it may have been introduced to Mexico.
 - (origin) Chamoy comes from Mexico.
+- (origin) All of them ultimately originate from the Chinese Li Hing Mui snacks, made from dried, sour, and salty plums or berries.
+- (origin) There are three main pathways that they may have been introduced to Mexico, as well as the origin of the name.
+- (origin) They originate from the li hing mui recipes carried by Chinese immigrants (sangley) to the Philippines during the Spanish colonial period.
+- (culture) The second hypothesis is via 19th-century Chinese workers in Hawaii that also carried the tradition of li hing mui with them as salted and dried apricots.
 
 Learn more:
 
@@ -2852,9 +2845,9 @@ Chimichurri is an uncooked sauce used as an ingredient in cooking and as a table
 
 Fun facts:
 
-- (history) Another theory is that the name may be a variant of Spanish chirriburri, zurriburri and chirriburri 'hubbub', ultimately perhaps from Basque zurrumurru 'noise, rumor', many Basques settled in Argentina and Uruguay in the 19th century.
 - (origin) Chimichurri comes from Uruguay, Argentina.
 - (about) Not to be confused with chimichurri burger.
+- (history) Another theory is that the name may be a variant of Spanish chirriburri, zurriburri and chirriburri 'hubbub', ultimately perhaps from Basque zurrumurru 'noise, rumor', many Basques settled in Argentina and Uruguay in the 19th century.
 
 Learn more:
 
@@ -2878,8 +2871,8 @@ Coconut candy refers to various candies made with coconut or coconut flavorings.
 Fun facts:
 
 - (history) Mason Pecan Cocoanut Candy was made in the 1950s in Milprint, Milwaukee.
-- (culture) These included various traditional confections in the United States.
 - (origin) Coconut candy comes from Vietnam, Nigeria.
+- (culture) These included various traditional confections in the United States.
 
 More fun facts (when the user asks for more):
 
@@ -2945,9 +2938,9 @@ Coyotas are empanada-like cookies that are large, flat, and traditionally filled
 
 Fun facts:
 
+- (origin) Coyotas comes from Mexico.
 - (origin) They originated mainly in Villa de Seris, a city in Hermosillo, Sonora Mexico in 1954.
 - (origin) Spaniards introduced wheat, sugar, and goat's milk to Mexico around 500 years ago.
-- (origin) Coyotas comes from Mexico.
 
 Learn more:
 
@@ -2989,12 +2982,12 @@ Many species of fish are caught by humans and consumed as food in virtually all 
 Fun facts:
 
 - (history) In per capita terms, food fish consumption has grown from 9.0 kg (19.8 lb) in 1961, to 20.2 kg (45 lb) in 2015, at an average rate of about 1.5 percent per year.
-- (about) Of the global total of 149 million tonnes in 2015, Asia consumed more than two-thirds (106 million tonnes at 24.0 kg per capita), while Oceania and Africa consumed the lowest share.
+- (about) Not to be confused with aquarium fish feed.
 - (history) Europe, Japan and the United States together accounted for 47 percent of the world's total food fish consumption in 1961, but only about 20 percent in 2015.
 
 More fun facts (when the user asks for more):
 
-- (about) Not to be confused with aquarium fish feed.
+- (about) Of the global total of 149 million tonnes in 2015, Asia consumed more than two-thirds (106 million tonnes at 24.0 kg per capita), while Oceania and Africa consumed the lowest share.
 
 Learn more:
 
@@ -3076,8 +3069,8 @@ Horchata, or orxata, is a name given to several sweet beverages made from plant-
 
 Fun facts:
 
-- (origin) The name probably derives from a Latin word for barley, the term hordeata, which in turn comes from hordeum (barley), related to a Mediterranean tradition of grain-based beverages.
 - (about) Not to be confused with horchata.
+- (origin) The name probably derives from a Latin word for barley, the term hordeata, which in turn comes from hordeum (barley), related to a Mediterranean tradition of grain-based beverages.
 
 Learn more:
 
@@ -3099,14 +3092,14 @@ Hot chocolate, also known as hot cocoa or drinking chocolate, is a heated drink 
 
 Fun facts:
 
-- (about) Cacao was first domesticated at least 5,300 years ago, in the Mayo-Chinchipe culture in what is present-day Ecuador, and cacao beverages were consumed by the period 2,500–3,000 years ago by the Maya.
 - (history) A chocolate drink was an essential part of Aztec culture by 1400 AD.
-- (origin) The drink became popular in Europe after being introduced from Mexico in the New World and has undergone multiple changes since then.
+- (origin) Hot chocolate comes from Mesoamerica.
+- (about) Cacao was first domesticated at least 5,300 years ago, in the Mayo-Chinchipe culture in what is present-day Ecuador, and cacao beverages were consumed by the period 2,500–3,000 years ago by the Maya.
 
 More fun facts (when the user asks for more):
 
 - (history) Until the 19th century, hot chocolate was used medicinally to treat ailments such as liver and stomach diseases.
-- (origin) Hot chocolate comes from Mesoamerica.
+- (origin) The drink became popular in Europe after being introduced from Mexico in the New World and has undergone multiple changes since then.
 
 Learn more:
 
@@ -3130,15 +3123,12 @@ Japanese-style peanuts are a type of snack food invented in Mexico, made from pe
 Fun facts:
 
 - (history) Japanese-style peanuts were created in Mexico during the 1940s by Japanese immigrant Yoshihei Nakatani, the father of Yoshio and Carlos Nakatani.
-- (inspiration) Later, he developed a new variety of fried snacks he named oranda that he named after the like-named fish.
-- (about) They are also known as Japanese peanuts, cracker nuts, or snacking peanuts in English, cacahuates japoneses or maní japonés in Spanish, and by various other names in different countries.
+- (inspiration) Japanese-style peanuts is named after Japan.
+- (origin) Japanese-style peanuts comes from Mexico.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Japanese-style peanuts is named after Japan.
-- (history) He lost his job after the mother-of-pearl button factory he worked at, named El Nuevo Japón, was forced to close after its proprietor came under suspicion of being a spy for the Empire of Japan.
-- (about) He also created a new version of a snack that reminded him of his homeland, mamekashi (seeds covered with a layer of flour with spices), that he adapted to Mexican tastes.
-- (origin) Japanese-style peanuts comes from Mexico.
+- (inspiration) Later, he developed a new variety of fried snacks he named oranda that he named after the like-named fish.
 
 Learn more:
 
@@ -3166,11 +3156,11 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) By 1960, Jarritos had secured distribution in 80 percent of Mexico’s 31 states.
-- (history) Exports to the United States began in 1988.
 - (history) Jarritos dates from 1950-.
 - (about) Jarritos is made with fruit flavors and cane sugar, and is less carbonated than many popular soft drinks.
 - (inspiration) In May 2023, Jarritos and Nike collaborated to make a Jarritos-inspired Nike Dunk shoe.
 - (origin) Jarritos comes from Mexico.
+- (history) Exports to the United States began in 1988.
 
 Learn more:
 
@@ -3220,7 +3210,7 @@ More fun facts (when the user asks for more):
 - (history) In the 18th century, James Lind linked citrus fruits to the prevention of scurvy, which, a century later, led to the implementation of the Merchant Shipping Act 1867, requiring all ocean-bound British ships to carry citrus-based juice on board.
 - (history) The word "juice" developed around the year 1300 from the Old French words jus, juis, jouis ("liquid obtained by boiling herbs").
 - (history) Since the 19th century, the term "juice" has also been used in a figurative sense (e.g., to mean alcohol or electricity).
-- (history) In 1869, a dentist by the name of Thomas B.
+- (history) In 1869, a dentist by the name of Thomas B. Welch developed a pasteurization method that allowed for the storage of juice without the juice fermenting into alcohol.
 - (inspiration) The McKinley Tariff Act of 1890 increased import taxes from 38 to 49.5 percent and set taxes on fruit juices based on the alcohol content of the drink.
 - (about) Juice emerged as a popular beverage choice after the development of pasteurization methods enabled its preservation without using fermentation (which is used in wine production).
 - (about) Not to be confused with yus, Sok, Zumo, juice.
@@ -3344,24 +3334,24 @@ Mexican wine and wine making began with the arrival of the Spanish in the 16th c
 Fun facts:
 
 - (inspiration) According to legend, Hernán Cortés and his soldiers quickly depleted the wine they brought with them from Spain celebrating the conquest of the Aztec Empire in 1521.
-- (history) One of these was Jesuit priest Juan Ugarte, who planted the first vines in Baja California when he arrived at the Loreto mission in 1701.
+- (history) In 1888, the former lands of the Santo Tomás Mission were sold to a private group, which established the first large-scale commercial winery and the earliest winery in continuous operation, called Bodegas Santo Tomás.
 - (culture) This area is promoted heavily for enotourism with the “Ruta del Vino” (Wine Route), which connects over fifty wineries with the port of Ensenada and the border and the annual Vendimia harvest festival.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1888, the former lands of the Santo Tomás Mission were sold to a private group, which established the first large-scale commercial winery and the earliest winery in continuous operation, called Bodegas Santo Tomás.
 - (history) Although there were indigenous grapes before the Spanish conquest, the Spaniards found that Spanish grapevines also did very well in the colony of New Spain (Mexico) and by the 17th century wine exports from Spain to the New World fell.
 - (history) In 1699, Charles II of Spain prohibited wine making in Mexico, with the exception of wine for Church purposes.
 - (history) Wine production in Mexico has been rising in both quantity and quality since the 1980s, although competition from foreign wines and 40% tax on the product makes competing difficult within Mexico.
-- (about) Because of this, one of Cortés’ first acts as governor was to order the planting of grapevines throughout New Spain.
 - (history) In 1597, Casa Madero was founded by Lorenzo García in the town of Santa María de las Parras (Holy Mary of the Grapevines) and is now the oldest winery in the Americas.
 - (history) Because of this, the government of Charles II decided to prohibit the production of wine in Spain’s colonies, especially Mexico, except for the making of wine for the Church in 1699.
 - (history) From the end of the 18th century to the middle of the 19th, most wine production was done by clergy.
 - (history) The Santo Tomás Mission, founded in Baja California by Jesuit priests in 1791, reactivated larger scale production of wine in Mexico.
-- (history) In 1843, Dominican priests began growing grapes at the nearby Nuestra Señora de Guadalupe del Norte mission, located in what is now called Valle de Guadalupe.
 - (history) In the 1850s, as part of Mexico’s Reform War, many of the Church’s land holdings were taken by the state.
+- (history) One of these was Jesuit priest Juan Ugarte, who planted the first vines in Baja California when he arrived at the Loreto mission in 1701.
 - (culture) Mexico is not traditionally a wine-drinking country, but rather prefers beer, tequila and mezcal.
 - (about) In 2020, the wine Don Leo Gran Reserva Cabernet Sauvignon won gold in the International Cabernet competition (CIDC) and the trophy for the world's best Cabernet.
+- (about) Because of this, one of Cortés’ first acts as governor was to order the planting of grapevines throughout New Spain.
+- (history) In 1843, Dominican priests began growing grapes at the nearby Nuestra Señora de Guadalupe del Norte mission, located in what is now called Valle de Guadalupe.
 
 Learn more:
 
@@ -3381,19 +3371,19 @@ Mezcal, sometimes spelled mescal, is a distilled alcoholic beverage made from an
 
 Fun facts:
 
-- (history) The first mention of distilled agave spirits in colonial records is from 1619, by the Spanish cleric Domingo Lázaro de Arregui.
 - (origin) Pulque (a fermented drink from agave sap) is pre-colonial, but the distillation of agave heart juice into mezcal was only introduced in the colonial era when Filipino sailors and migrants brought the technology of Filipino-type stills with them during the galleon trade between Mexico and the Philippines (1565 to 1815).
 - (about) The first historical record of mezcal production is from southern Jalisco, using techniques derived from coconut liquor production from Colima.
+- (history) By 1643, there are records of mezcal and vino de coco being sold in Guadalajara.
 
 More fun facts (when the user asks for more):
 
-- (history) By 1643, there are records of mezcal and vino de coco being sold in Guadalajara.
+- (history) The first mention of distilled agave spirits in colonial records is from 1619, by the Spanish cleric Domingo Lázaro de Arregui.
 - (inspiration) There are also many other modified variants, usually named after the indigenous peoples that use them, including the "Tarascan still" (or "Tarasco still"), "Zapoteco still", "Nahua still", "Bolaños still", and "Huichol still" (the latter used for making sotol, not mezcal).
 - (history) By 1638, the governor of Nueva Galicia also started to regulate the sale of mezcal.
 - (history) The production of mezcal moved from the coastal river basins of the Río Grande de Santiago to the inland ravines by the early 1700s to evade the prohibition on indigenous spirits production, as well as to take advantage of the larger numbers of wild agave plants in the interiors.
-- (history) By the mid-1700s, the production of vino de coco had ceased completely due to the prohibition and the loss of coconut plantations.
 - (culture) Mezcal is the product of the merging of pre-Columbian indigenous fermentation traditions and Asian distillation techniques brought over from the Philippines.
 - (origin) Mezcal comes from Mexico.
+- (history) By the mid-1700s, the production of vino de coco had ceased completely due to the prohibition and the loss of coconut plantations.
 - (about) Not to be confused with mescaline.
 
 Learn more:
@@ -3534,7 +3524,7 @@ Pickled meat snacks are a Midwestern, Rocky Mountain and Southern cuisine snack 
 
 Fun facts:
 
-- (history) However, pickled meat snacks were increasingly rejected by younger bar-goers at the turn of the 21st century; with the 21st century growth of the Hispanic-American population, cueritos (Latin cuisine pickled pork rinds) have gained prevalence over endemic American-cuisine pickled meat snacks.
+- (history) Pickled meat snacks were increasingly rejected by younger bar-goers at the turn of the 21st century; with the 21st century growth of the Hispanic-American population, cueritos (Latin cuisine pickled pork rinds) have gained prevalence over endemic American-cuisine pickled meat snacks.
 - (culture) Pickled pig's feet in particular are eaten during New Year's Eve celebrations, believed to bring good luck for the new year.
 - (about) Pickled meat snacks were historically popular at bars and general stores in the American South, but have waned in mass appeal to become a delicacy.
 
@@ -3588,8 +3578,8 @@ Popo is a foamy and cold cacao beverage typical in the south of the state of Ver
 Fun facts:
 
 - (culture) Popo is a ceremonial drink, and is prepared for weddings, baptisms, birthdays and patron saint festivals.
-- (about) Azquiote, known as cocomeca in Oaxaca, is added, or chupipi, or sometimes both; both foaming agents.
 - (origin) Popo comes from Mexico.
+- (about) Azquiote, known as cocomeca in Oaxaca, is added, or chupipi, or sometimes both; both foaming agents.
 
 More fun facts (when the user asks for more):
 
@@ -3634,18 +3624,18 @@ Pulque, occasionally known as octli or agave wine, is an alcoholic beverage made
 Fun facts:
 
 - (history) During the 1930s, German filmmakers traveled to the town of Apan to make the 1936 documentary Pulquebereitung in Mexiko (translated into Spanish as La producción del pulque en México), directed by Hubert Schonger, which addressed the history of pulque.
-- (about) The emperor and princess wed, and they named their son Meconetzin [mekoˈnet͡sin] (maguey son).
 - (culture) Pulque is traditional in central Mexico, where it has been produced for millennia.
+- (inspiration) Pulque has been drunk for at least 2000 years, and its origins are the subject of various stories and myths.
 
 More fun facts (when the user asks for more):
 
 - (history) The consumption of pulque reached its peak in the late 19th century.
-- (history) Another account traces the discovery of aguamiel to the Toltec Empire, when a noble named Papantzin tried to get the emperor to marry his daughter, Xochitl.
 - (history) Awareness of pulque grew after the release of the 1966 film The Appaloosa.
-- (inspiration) Pulque has been drunk for at least 2000 years, and its origins are the subject of various stories and myths.
 - (about) Another version involving Mayahuel has her as a mortal woman who discovered how to collect aguamiel, but someone named Pantecatl [panˈtekat͡ɬ] discovered how to make pulque.
 - (about) In season 1 episode 3 of the 2025 Netflix series Serpientes y Escaleras, Tiño (Benny Emmanuel) goes to an openly LGBTQ disco-like Pulquería with Juana (Loreto Peralta) and Nicolás (Germán Bracco), where they order pulque.
 - (origin) Pulque comes from Mexico.
+- (history) Another account traces the discovery of aguamiel to the Toltec Empire, when a noble named Papantzin tried to get the emperor to marry his daughter, Xochitl.
+- (about) The emperor and princess wed, and they named their son Meconetzin [mekoˈnet͡sin] (maguey son).
 
 Learn more:
 
@@ -3735,17 +3725,17 @@ Sotol is a distilled spirit made from the plants of the genus Dasylirion, which 
 
 Fun facts:
 
-- (origin) Distillation technology was introduced in the 16th century by early Filipino immigrants who arrived via the Manila galleons to the coastal regions of western Mexico.
 - (history) The beverage was illegal in Mexico until 1994, and it was granted a denomination of origin (DO) in 2002.
 - (about) Sotol liquor is known as the state spirit of Chihuahua; however, the drink is also consumed in Durango and Coahuila.
+- (origin) Distillation technology was introduced in the 16th century by early Filipino immigrants who arrived via the Manila galleons to the coastal regions of western Mexico.
 
 More fun facts (when the user asks for more):
 
 - (about) Sotol has a registered Denominación de Origen from the government of Mexico since 2002, and may be produced only in Chihuahua, Coahuila and Durango.
 - (about) Production of sotol spirits exists outside the Sotol Denomination of Origin in several regions such as Sonora (where it is known as "Palmilla"), Oaxaca ("Cucharillo"), and the Texas Hill Country ("Texas Sotol").
+- (about) Not to be confused with Sotol.
 - (culture) The indigenous people of the Chihuahuan desert, such as the Jumano Pueblos and the Lipan Apache, have made this traditional drink for centuries.
 - (about) In 2020 The United States refrained from recognizing Mexico's DO during the final drafting of the United States–Mexico–Canada Agreement.
-- (about) Not to be confused with Sotol.
 
 Learn more:
 
@@ -3789,10 +3779,10 @@ More fun facts (when the user asks for more):
 - (origin) Sweet potatoes were also introduced to the Ryukyu Kingdom, present-day Okinawa, Japan, in the early 1600s by the Portuguese.
 - (history) Kang P'il-ri and Yi Kwang-ryŏ embarked on a project to grow sweet potatoes in Seoul in 1766, using the knowledge of Japanese cultivators they learned in Tongnae starting in 1764.
 - (history) The first Europeans to taste sweet potatoes were members of Christopher Columbus's expedition in 1492.
+- (about) Aoki Konyō helped popularize the cultivation of the sweet potato in Japan, and the Tokugawa bakufu sponsored, published, and disseminated a vernacular Japanese translation of his research monograph on sweet potatoes to encourage their growth more broadly.
 - (origin) The plant was introduced to Fujian in about 1594 from Luzon, in response to a major crop failure.
 - (origin) The crop was introduced to Korea in 1764.
 - (history) The project succeeded for a year but ultimately failed in winter 1767 after Kang's unexpected death.
-- (about) Aoki Konyō helped popularize the cultivation of the sweet potato in Japan, and the Tokugawa bakufu sponsored, published, and disseminated a vernacular Japanese translation of his research monograph on sweet potatoes to encourage their growth more broadly.
 - (about) Not to be confused with 🍠.
 
 Learn more:
@@ -3820,9 +3810,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (origin) During the 16th century tamarind was introduced into Mexico where it became commonly used as a flavor of aguas frescas.
+- (about) Tamarindo is one of the many popular flavors of aguas frescas, alongside other flavors such as horchata and hibiscus.
 - (origin) Aguas frescas are a type of non-alcoholic beverage, comprising water, sugar and one or more seasonal fruits, seeds, cereals or flowers which are sold primarily in Mexico and other Latin American countries and have since been introduced into the United States.
 - (culture) Aguas frescas are commonly sold at street vendors as well as at restaurants and taquerias and are traditionally served from an authentic Mexican glass dispenser (a vitrolero) with a ladle and poured over ice.
-- (about) Tamarindo is one of the many popular flavors of aguas frescas, alongside other flavors such as horchata and hibiscus.
 
 Learn more:
 
@@ -3918,9 +3908,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The first tequila distillery in the United States was opened in 1936 in Nogales, Arizona by Harry J.
+- (history) The first tequila distillery in the United States was opened in 1936 in Nogales, Arizona by Harry J. Karns, former Arizona state senator and Nogales Mayor.
 - (history) Tequila was protected through NAFTA in Canada and the United States until July 2020 and through bilateral agreements with individual countries such as Japan and Israel, and it has been a protected designation of origin product in the European Union since 1997.
-- (origin) The distillation technology to produce mezcal from agave heart juice was first introduced by Filipino sailors and migrants into the coastal regions of what was then Nueva Galicia (present-day Aguascalientes, Colima, Guanajuato, Jalisco, Nayarit, and Zacatecas).
 - (history) Mezcal distillation spread into the highland valleys of Amatitán, Tequila, Magdalena, and El Arenal in the mid-1700s.
 - (history) The Mexican government declared the term "tequila" to be its intellectual property in 1974.
 - (inspiration) Tequila is named after Tequila.
@@ -3929,6 +3918,7 @@ More fun facts (when the user asks for more):
 - (about) On January 17, 2006, the United States and Mexico signed an agreement allowing the continued bulk import of tequila into the United States.
 - (origin) Tequila comes from Mexico.
 - (about) Not to be confused with Tequila.
+- (origin) The distillation technology to produce mezcal from agave heart juice was first introduced by Filipino sailors and migrants into the coastal regions of what was then Nueva Galicia (present-day Aguascalientes, Colima, Guanajuato, Jalisco, Nayarit, and Zacatecas).
 
 Learn more:
 
@@ -4012,8 +4002,8 @@ Maize (US:; Zea mays), also known as corn, is a tall stout grass that produces c
 Fun facts:
 
 - (history) A maize stalk with two ripe ears is depicted on the reverse of the Croatian 1 lipa coin, minted since 1993.
-- (about) The ears yield grain, known as kernels or seeds.
 - (culture) Maize kernels have sometimes denoted cowardice, as maize is fed to chickens, which symbolise cowards.
+- (about) The ears yield grain, known as kernels or seeds.
 
 More fun facts (when the user asks for more):
 

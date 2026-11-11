@@ -58,20 +58,20 @@ Avial or aviyal is an Indian dish with origins in Kerala of India.
 
 Fun facts:
 
-- (inspiration) Another popular old story is that in the Kingdom of Travancore in Kerala there was a great feast held by the king.
+- (inspiration) Avial is believed to have been invented by the warrior Bhima during his exile.
 - (about) One of the first things he did was to chop up many different vegetables, boil them together and top the dish with grated coconut.
 - (culture) Avial is considered an essential part of the main meal in Kerala (oonu in Malayalam), often the star dish in a traditional Kerala Sadhya and is also served as a delicacy in South India.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Avial is believed to have been invented by the warrior Bhima during his exile.
-- (inspiration) According to the legend, when Ballava (Bhima's name during this time) assumed his duties as the cook in the kitchen of Virata, he did not know how to cook.
+- (inspiration) Another popular old story is that in the Kingdom of Travancore in Kerala there was a great feast held by the king.
 - (about) Bhima is said to have prepared Avial, when there were unexpected guests for King Virata and he needed to serve meals for them.
-- (about) Every one in the kingdom came to eat so there was a shortage of curry to be served.
 - (about) The king ordered the cook to make a curry with this along with some other ingredients so Avial was born.
 - (about) There were no sufficient vegetables to cook any single recipe for a side dish, so Bheema used whatever available vegetables to make a new dish, which came to be known as Avial.
-- (about) However, Bhima was unhappy with this decision, and decided to mix all of the vegetables to prepare a new dish which later became popular as Avial.
+- (about) Bhima was unhappy with this decision, and decided to mix all of the vegetables to prepare a new dish which later became popular as Avial.
 - (origin) Avial comes from India.
+- (inspiration) According to the legend, when Ballava (Bhima's name during this time) assumed his duties as the cook in the kitchen of Virata, he did not know how to cook.
+- (about) Every one in the kingdom came to eat so there was a shortage of curry to be served.
 
 Learn more:
 
@@ -143,9 +143,9 @@ Baati is a hard, unleavened bread cooked in most areas of Rajasthan, and in Malw
 
 Fun facts:
 
-- (about) Baphla is a kind of baati, which is softer and popular in Malwa-Nimar Region of Madhya Pradesh.
 - (culture) Traditionally it is made by mashing up wheat flour baatis or leftover rotis in ghee and jaggery, optionally mixed with dry fruits and flavours.
 - (origin) Bati comes from Madhya Pradesh.
+- (about) Baphla is a kind of baati, which is softer and popular in Malwa-Nimar Region of Madhya Pradesh.
 
 More fun facts (when the user asks for more):
 
@@ -177,9 +177,9 @@ More fun facts (when the user asks for more):
 
 - (about) The Guinness World Record for the largest onion bhaji is held by one weighing 175.48 kilograms made by Oli Khan and Team of Surma Takeaway Stevenage on 4 February 2020.
 - (about) Bhaji is a popular snack food in India and is also very popular in Pakistan.
+- (about) Not to be confused with bhaji.
 - (culture) They are generally served with a cup of coffee, tea, or a traditional serving of yameen.
 - (culture) They may be served with a side of salad and a slice of lemon, or with mango chutney, and are traditionally made to a mild taste.
-- (about) Not to be confused with bhaji.
 
 Learn more:
 
@@ -249,7 +249,7 @@ Biryani is a mixed rice dish traditionally made with spiced meat, seafood, or ve
 
 Fun facts:
 
-- (history) The Mughal text Ain-i-Akbari (written 1589–1596), from the time of the emperor Akbar, mentions two rice dishes, pilau and biryani, listing ingredients with required quantities for each: Secondly, [dishes] in which meat and rice, &c., are used... 2.
+- (history) The Mughal text Ain-i-Akbari (written 1589–1596), from the time of the emperor Akbar, mentions two rice dishes, pilau and biryani, listing ingredients with required quantities for each: Secondly, [dishes] in which meat and rice, &c., are used.. 2.
 - (about) Biryani is mentioned, too, in letters of the emperor Aurangzeb to his son.
 - (culture) In Bangladesh, kacchi biryani with mutton has been described as "the quintessential wedding dish" of Old Dhaka, largely replacing the murg (chicken) pulao that was favoured in the 20th century for special occasions across the subcontinent.
 
@@ -258,12 +258,12 @@ More fun facts (when the user asks for more):
 - (history) For a whole Dashmandi sheep, take 2 s[eer] salt; 1 s[eer] g'hí; 2 m[āshā] saffron, cloves, pepper, cuminseed: it is made in various ways." The Portuguese priest Sebastien Manrique described rice dishes on sale in the tent-city of the next Mughal emperor Shah Jahan as he travelled to Lahore in 1641.
 - (culture) The Muslim festival of Bakr Eid is marked by biryani at dinner, using the mutton from goats slaughtered in memory of the prophet Abraham, who had shown he was willing to sacrifice his own son.
 - (culture) Annual biryani festivals have been held in cities such as Ambur, Islamabad and Karachi.
-- (culture) South Asian diaspora populations have held their own festivals, for example by the North American Indian Muslim Association in North America.
 - (culture) Biryani festivals have been held more widely in places such as Singapore and Qatar.
 - (origin) Biryani was first made in Hyderabad.
 - (about) Biryani is one of the most popular dishes in South Asia and among the South Asian diaspora.
 - (culture) Biryani is the most-ordered dish on Indian online food ordering and delivery services, is used in weddings and celebrations throughout the region, and has been described as the most popular dish in India.
 - (culture) Biryani is used across the Indian Subcontinent in celebrations.
+- (culture) South Asian diaspora populations have held their own festivals, for example by the North American Indian Muslim Association in North America.
 
 Learn more:
 
@@ -329,8 +329,8 @@ Butter chicken or murgh makhani is a curry made from chicken cooked in a spiced 
 Fun facts:
 
 - (inspiration) Butter chicken was invented by Indian chefs Kundan Lal Gujral and Kundan Lal Jaggi and is associated with their Moti Mahal restaurant in Daryaganj, Delhi which popularized it in the 1950s.
-- (history) They popularized the dish at their Moti Mahal restaurant in the Daryaganj neighbourhood of Old Delhi in the 1950s, where it is often said to have been invented.
 - (origin) In 1975, the English phrase "butter chicken" curry first appeared in print, as a specialty of the house at Gaylord Indian restaurant in Manhattan.
+- (history) They popularized the dish at their Moti Mahal restaurant in the Daryaganj neighbourhood of Old Delhi in the 1950s, where it is often said to have been invented.
 
 More fun facts (when the user asks for more):
 
@@ -383,7 +383,7 @@ Fun facts:
 
 - (about) Evidence of foods resembling chapati dates back to the Indus Valley Civilization, and chapati is recorded in Sanskrit and Mughal-era texts.
 - (history) In the 21st century, it is common for households to purchase chapati rather than make it.
-- (origin) They were introduced to East Africa by trade and immigration, including by Indian indentured railway workers.
+- (culture) Chapati may also be used for wraps, such as the Ugandan street foods rolex and kikomando.
 
 More fun facts (when the user asks for more):
 
@@ -394,13 +394,13 @@ More fun facts (when the user asks for more):
 - (history) Chapati was also an important food at prisons in the British protectorate of Zanzibar, with a 1930 letter listing prisoners' complaints about how it was prepared.
 - (history) Beginning in the 1990s, Indians have increasingly consumed wheat as Western-style bread instead of chapati.
 - (about) Chapati is cooked on an iron griddle known as a tava, then puffed up over direct heat.
-- (culture) Chapati may also be used for wraps, such as the Ugandan street foods rolex and kikomando.
 - (culture) According to food writer Nina Mukerjee Furstenau, the role of chapati in this event signifies the symbolism of bread as a simple, common food, while writer Anita Mannur views it as an example of culinary practices being difficult to comprehend.
 - (origin) Indian indentured labourers introduced chapati to the Caribbean, leading to regional forms of roti.
 - (origin) Chapati was introduced to East Africa by immigrants from the subcontinent.
 - (origin) In Kenya, it was likely introduced amid widespread migration from India in the late 19th and early 20th centuries.
 - (origin) Chapati comes from India.
 - (about) Not to be confused with ciabatta.
+- (origin) They were introduced to East Africa by trade and immigration, including by Indian indentured railway workers.
 
 Learn more:
 
@@ -499,18 +499,17 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) However, according to food scholar Charis Galanakis, it originated in eastern Uttar Pradesh.
+- (origin) According to food scholar Charis Galanakis, it originated in eastern Uttar Pradesh.
 - (origin) Chole bhature spread to Delhi in the 1940s, with differing claims over who introduced it.
-- (history) Peshori Lal Lamba, a native of Lahore, moved to Delhi after the 1947 partition of India and opened Kwality Restaurant in the Connaught Place neighbourhood.
 - (about) Some consider Lamba to be the first to have paired chole with bhature.
 - (origin) Chole bhature is also widely believed that the dish was introduced to the city by Sita Ram, who also migrated from Lahore around this time.
 - (history) Beginning around the 1990s, the dish spread beyond North India to the rest of the country, becoming a typical dish at vegetarian establishments by the 2010s.
 - (culture) It is commonly eaten as a breakfast or street food.
 - (about) It spread to Delhi after the partition of India, where it is a popular dish.
 - (about) By the 2010s, it had become a popular fast food across India.
-- (about) He migrated to Delhi with his son, Diwan Chand, and began selling chole bhature, a dish that had been popular in his hometown, from a food cart.
 - (about) It and other Punjabi dishes—such as tikki and dahi bhalla—became popular in Indian fast food, alongside the more popular South Indian cuisine.
 - (origin) Chole bhature comes from India.
+- (history) Peshori Lal Lamba, a native of Lahore, moved to Delhi after the 1947 partition of India and opened Kwality Restaurant in the Connaught Place neighbourhood.
 
 Learn more:
 
@@ -612,18 +611,18 @@ Daal bati (also spelled daal baati) is an Indian dish of dal (lentils) and bati 
 
 Fun facts:
 
-- (about) Baati made of unsalted wheat, ghee and camel milk was first mentioned during the time of Bappa Rawal—the founder of the kingdom of Mewar in Rajasthan.
-- (history) They were known as a nomadic warrior tribe before they settled into the tapestry of a kingdom and got Chittor in form of dowry from Maan Mori, Baati was the Guhilot's official wartime meal.
 - (origin) Baati, a traditional dish, is said to have originated with soldiers who would break the dough into chunks and bury them under thin layers of sand to bake under the sun.
+- (about) Baati made of unsalted wheat, ghee and camel milk was first mentioned during the time of Bappa Rawal—the founder of the kingdom of Mewar in Rajasthan.
+- (culture) Tennis ball-sized round balls of this dough are cooked in a well-heated traditional oven or in an earthen stove.
 
 More fun facts (when the user asks for more):
 
-- (about) First, a small amount of vegetable oil is heated in a frying pan and then the seasoning rai-jeera (mustard and cumin seeds) is added to the hot oil.
 - (about) Dal bati is popular in Rajasthan, Madhya Pradesh (especially in Braj, Nimar and Malwa regions), Maharashtra's Khandesh and Vidarbha region, Gujarat, and Uttar Pradesh.
 - (about) In Rajasthan and neighbouring regions, daal bati is commonly served with churma as the complete meal known as dal bati churma.
-- (about) Batti is a hard bread made up of wheat flour commonly known as aata.
-- (culture) Tennis ball-sized round balls of this dough are cooked in a well-heated traditional oven or in an earthen stove.
 - (about) Initially, baati was paired with ghee and curd, while the addition of dal and churma later developed into the complete meal known as dal bati churma.
+- (about) First, a small amount of vegetable oil is heated in a frying pan and then the seasoning rai-jeera (mustard and cumin seeds) is added to the hot oil.
+- (about) Batti is a hard bread made up of wheat flour commonly known as aata.
+- (history) They were known as a nomadic warrior tribe before they settled into the tapestry of a kingdom and got Chittor in form of dowry from Maan Mori, Baati was the Guhilot's official wartime meal.
 
 Learn more:
 
@@ -644,8 +643,8 @@ Dal makhani is a dish originating in the Punjab region.
 
 Fun facts:
 
-- (history) Kundan Lal Jaggi and Kundan Lal Gujral were both Punjabi Hindu migrants from Peshawar, who had already invented the butter chicken in the Moti Mahal restaurant, in the Daryaganj neighborhood of Old Delhi, during the early 1950s, after the Partition of India.
 - (culture) A regular diner at the restaurant that Jaggi and Gujral ran suggested that something exciting could be created out of urad dal commonly used in traditional dishes, leading to the invention of dal makhani.
+- (history) Kundan Lal Jaggi and Kundan Lal Gujral were both Punjabi Hindu migrants from Peshawar, who had already invented the butter chicken in the Moti Mahal restaurant, in the Daryaganj neighborhood of Old Delhi, during the early 1950s, after the Partition of India.
 - (origin) Dal makhani comes from India.
 
 More fun facts (when the user asks for more):
@@ -720,19 +719,19 @@ A dosa (in Indian English) or thosai (in Malaysian English and Singapore English
 Fun facts:
 
 - (origin) The dosa originated in South India, but its precise geographical origins are unknown.
-- (history) Achaya, references in the Sangam literature suggest that dosa was already in use in the ancient Tamil country around the first century CE.
-- (about) In New Delhi, the Madras Hotel in Connaught Place became one of the first restaurants to serve South Indian cuisine.
+- (history) According to food historian K. T. Achaya, references in the Sangam literature suggest that dosa was already in use in the ancient Tamil country around the first century CE.
+- (culture) In popular tradition, the origin of the dosa is linked to Udupi, probably because of the dish's association with Udupi restaurants.
 
 More fun facts (when the user asks for more):
 
-- (origin) Thankappan Nair, dosa originated in the town of Udupi in Karnataka.
+- (origin) According to historian P. Thankappan Nair, dosa originated in the town of Udupi in Karnataka.
 - (origin) The Tamil Nadu dosa is traditionally softer and thicker; the thinner and crispier version of dosa, which became popular across India, was first made in present-day Karnataka.
 - (history) The dosa arrived in Mumbai with the opening of Udupi restaurants in the 1930s.
-- (history) After India's independence in 1947, South Indian cuisine became increasingly popular in North India.
-- (culture) In popular tradition, the origin of the dosa is linked to Udupi, probably because of the dish's association with Udupi restaurants.
 - (origin) Dosas, like many other dishes of South Indian cuisine, were introduced in Ceylon (Sri Lanka) by South Indian emigrants during British rule.
 - (culture) In Konkan, there are some traditional dishes similar or related to the Dosa, known as polo in Concanese.
 - (origin) Dosa comes from India.
+- (history) After India's independence in 1947, South Indian cuisine became increasingly popular in North India.
+- (about) In New Delhi, the Madras Hotel in Connaught Place became one of the first restaurants to serve South Indian cuisine.
 
 Learn more:
 
@@ -797,9 +796,9 @@ Gajar ka halwa, also known as gajorer halwa, gajarno halwo, gajar pak, and carro
 
 Fun facts:
 
+- (origin) Gajar ka halwa comes from India.
 - (about) The nuts and other items used are first sautéed in ghee, a type of clarified butter from the Indian subcontinent.
 - (culture) The dessert is traditionally eaten during all the festivals in the Indian subcontinent, mainly on the occasion of Diwali, Holi, Raksha Bandhan, and Eid.
-- (origin) Gajar ka halwa comes from India.
 
 Learn more:
 
@@ -916,19 +915,19 @@ Idli (; plural: idlis) or idly is a South Indian rice cake popular as a breakfas
 Fun facts:
 
 - (history) According to him, the cooks employed by the Hindu kings of the Indianised kingdoms might have invented the steamed idli there, and brought the recipe back to India during 800–1200 CE.
-- (origin) Achaya speculates that the modern idli recipe might have originated in present-day Indonesia, which has a long tradition of fermented food.
-- (about) According to Dorian Fuller, the steaming technique was already in use in Neolithic South India around 2000 BCE.
+- (origin) Food historian K. T. Achaya speculates that the modern idli recipe might have originated in present-day Indonesia, which has a long tradition of fermented food.
+- (culture) In 2015, Chennai-based idli caterer Eniyavan started celebrating March 30 as "World Idli Day".
 
 More fun facts (when the user asks for more):
 
 - (history) The Western Chalukya king and scholar Someshwara III, reigning in the area now called Karnataka, included an idli recipe in his encyclopedia, Manasollasa (1130 CE).
-- (history) Chavundaraya II, the author of the earliest available Kannada encyclopedia, Lokopakara (c.1025 CE), describes the preparation of this food by soaking black gram in buttermilk, ground to a fine paste, and mixed with the clear water of curd and spices.
 - (history) In Karnataka, the Idli in 1235 CE is described as being "light, like coins of high value", which is not suggestive of a rice base.
-- (history) The references to the modern recipe appear in the Indian works only after 1250 CE.
 - (history) The Gujarati work Varṇaka Samuccaya (1520 CE) mentions idli as idari, and also mentions its local adaptation, idada (a non-fermented version of dhokla).
 - (history) The earliest extant Tamil work to mention idli (as itali) is Maccapuranam, dated to the 17th century.
-- (culture) In 2015, Chennai-based idli caterer Eniyavan started celebrating March 30 as "World Idli Day".
 - (origin) Idli comes from India.
+- (history) Chavundaraya II, the author of the earliest available Kannada encyclopedia, Lokopakara (c.1025 CE), describes the preparation of this food by soaking black gram in buttermilk, ground to a fine paste, and mixed with the clear water of curd and spices.
+- (history) The references to the modern recipe appear in the Indian works only after 1250 CE.
+- (about) According to Dorian Fuller, the steaming technique was already in use in Neolithic South India around 2000 BCE.
 - (about) Not to be confused with Inba Twinkle Lilly.
 
 Learn more:
@@ -951,8 +950,8 @@ Jalebi is a common sweet snack in South Asia, West Asia and some parts of Africa
 
 Fun facts:
 
-- (origin) The earliest known recipe of this food comes from the 10th century in the Arabic cookbook Kitab al-Tabikh by Ibn Sayyar al-Warraq.
 - (history) In the 13th century Abbasid Caliphate, a cookbook by Muhammad bin Hasan al-Baghdadi mentioned a similar dish.
+- (origin) Jalebi comes from Egypt, Sudan, the Middle East, the Maghreb.
 - (inspiration) Others claim that it was created by a musician during the reign of the Abbasid caliph Harun al-Rashid, Abdourrahman Ibnou Nafaâ Ziriab, who made a prolonged stop over in Tunisia while traveling from Baghdad to Andalusia.
 
 More fun facts (when the user asks for more):
@@ -960,7 +959,7 @@ More fun facts (when the user asks for more):
 - (history) According to the Hobson-Jobson (1903) historical dictionary, the word jalebi is derived from the Arabic word zulabiya, or the Persian zolbiya.
 - (history) Priyamkara-nrpa-katha, a work by the Jain author Jinasura, composed around 1450 CE, mentions jalebi in the context of a dinner held by a rich merchant.
 - (history) Gunyagunabodhini, another Sanskrit work dating before 1600 CE, lists the ingredients and recipe of the dish; these are identical to the ones used to prepare the modern jalebi.
-- (origin) Jalebi comes from Egypt, Sudan, Middle East, Maghreb.
+- (origin) The earliest known recipe of this food comes from the 10th century in the Arabic cookbook Kitab al-Tabikh by Ibn Sayyar al-Warraq.
 - (about) Not to be confused with Zalabiyeh.
 
 Learn more:
@@ -980,8 +979,8 @@ Jhunka or zunka is a gram flour porridge or a gram flour curry, similar to polen
 
 Fun facts:
 
-- (history) In 1995, the Shiv Sena-Bharatiya Janata Party government launched the Zhunka-Bhaakar scheme in Maharashtra.
 - (culture) Jhunka is a traditional Indian dish prepared in Maharashtra, North Karnataka, and Goa.
+- (history) In 1995, the Shiv Sena-Bharatiya Janata Party government launched the Zhunka-Bhaakar scheme in Maharashtra.
 - (about) Pithle is also known as chun in the Vidarbha region of Maharashtra.
 
 More fun facts (when the user asks for more):
@@ -1059,9 +1058,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) In 1964, Nizam moved to bamboo skewers that were lightweight and available in large numbers.
-- (about) However, as Nizam's popularity grew, these long heavy iron skewers became problematic, as far many more were required than could be handled.
 - (about) In West Bengal, shops serving rolls are mostly known as Roll-er-dokaan and people use roll to refer to a kati roll.
+- (history) In 1964, Nizam moved to bamboo skewers that were lightweight and available in large numbers.
+- (about) As Nizam's popularity grew, these long heavy iron skewers became problematic, as far many more were required than could be handled.
 
 Learn more:
 
@@ -1135,20 +1134,20 @@ Kheer, khir, ksheerannam, payesh, doodh pheni, payasam, meetha bhat, or sweet ri
 
 Fun facts:
 
-- (inspiration) A story from Kerala titled "The Legend of Chessboard" holds that an old sage, who was Krishna in disguise, challenged the king of Ambalapuzha (chess enthusiasts) to a game.
 - (about) The sage modestly asked for a few grains of rice but with one condition: the king must put a single grain of rice on the first chess square and double it on every subsequent one.
+- (inspiration) A story from Kerala titled "The Legend of Chessboard" holds that an old sage, who was Krishna in disguise, challenged the king of Ambalapuzha (chess enthusiasts) to a game.
 - (origin) The word payasam used in South India for kheer originates from the Sanskrit term pāyasa, which means "milk" or a dish made from milk.
 
 More fun facts (when the user asks for more):
 
-- (about) To motivate the sage, the king offered anything the old man would name.
-- (about) Krishna, as the sage, won the game and the king started placing the grains.
 - (about) Krishna reveals himself and asks the king to provide kheer to every pilgrim who comes to what is now the Ambalapuzha Krishna Temple in the Alappuzha District, which still follows this command.
 - (history) First mentioned in ancient Indian literature, it was a mixture of rice, milk and sugar.
 - (about) As paddy cultivation is highly labor-intensive, eating kheer is culturally believed to provide farmers with nourishment and rejuvenation after weeks of working in muddy monsoon terraces.
-- (history) Achaya, kheer (or payasam, as it is known in South India) was a popular dish in ancient India.
+- (history) According to the food historian K. T. Achaya, kheer (or payasam, as it is known in South India) was a popular dish in ancient India.
 - (culture) In Nepal, kheer holds cultural and agricultural significance and is celebrated with Khir Khane Din ("the day of eating kheer"), celebrated annually on Shrawan 15 of the Bikram Sambat calendar, usually in late July or early August in the Gregorian calendar.
 - (origin) Kheer comes from India.
+- (about) To motivate the sage, the king offered anything the old man would name.
+- (about) Krishna, as the sage, won the game and the king started placing the grains.
 - (about) Not to be confused with Phirni, Payesh with date palm jaggery.
 
 Learn more:
@@ -1177,11 +1176,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) The Greek king Seleucus during his campaign in India (305-303 BC), mentioned that rice with pulses is very popular among people of the Indian subcontinent.
 - (about) Ain-i-Akbari, a 16th-century document written by Mughal Emperor Akbar's vizier, Abu'l Fadl, mentions the recipe for khichdi, which gives seven variations.
 - (about) Hence in Devanagari the letter ⟨ड⟩, representing /ɖ/, was adapted to write /ɽ/ by adding a diacritic under it.
 - (about) Khichdi was very popular with the Mughals, especially Jahangir.
 - (about) Khichdi has lent its name to media synonymous with ensembles or potpourri as depicted in the popular culture through movies such as Khichdi: The Movie, and TV sitcoms such as Khichdi and Instant Khichdi.
+- (about) The Greek king Seleucus during his campaign in India (305-303 BC), mentioned that rice with pulses is very popular among people of the Indian subcontinent.
 - (about) Not to be confused with Kedgeree.
 
 Learn more:
@@ -1209,10 +1208,10 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest extant use of the word in the Urdu language is attested in Mulla Nusrati's ʿAlī Nāma (1665).
 - (about) Kofta is also a popular dish among Kurdish people and Assyrian people.
 - (culture) In Armenia and Azerbaijan, it is, along with dolma, lavash, harissa, kebabs, and pahlava, a dish of "clearly symbolic ethnic significance" often argued over by gastronationalists attempting to claim it as one of their own country's traditional dishes that has been co-opted by the other country.
 - (origin) Kofta comes from Egypt.
+- (history) The earliest extant use of the word in the Urdu language is attested in Mulla Nusrati's ʿAlī Nāma (1665).
 
 Learn more:
 
@@ -1277,7 +1276,7 @@ Kulcha is a type of Indian flatbread made from refined wheat flour, fermented in
 Fun facts:
 
 - (origin) Kulcha was first made in Kashmir.
-- (history) However, in India this term came to be associated with round breads popularized during the British colonial period.
+- (history) In India this term came to be associated with round breads popularized during the British colonial period.
 - (origin) Kulcha comes from India, Pakistan.
 
 Learn more:
@@ -1300,17 +1299,17 @@ Kulfi () is a frozen dairy dessert from the Indian subcontinent.
 
 Fun facts:
 
-- (origin) The dessert originated in Delhi during the Mughal Empire in the 16th century.
-- (history) Ain-i-Akbari, a detailed record of the Mughal emperor Akbar's administration, mentions use of saltpeter for refrigeration as well as transportation of Himalayan ice to warmer areas.
+- (origin) Kulfi originated in 16th-century Delhi during the Mughal era.
 - (about) During the Mughal period, this mixture was flavoured with pistachios and saffron, packed into metal cones and immersed in slurry ice, resulting in the invention of kulfi.
+- (history) Ain-i-Akbari, a detailed record of the Mughal emperor Akbar's administration, mentions use of saltpeter for refrigeration as well as transportation of Himalayan ice to warmer areas.
 
 More fun facts (when the user asks for more):
 
-- (origin) Kulfi originated in 16th-century Delhi during the Mughal era.
+- (origin) The dessert originated in Delhi during the Mughal Empire in the 16th century.
 - (culture) It is often described as "traditional Indian ice cream".
 - (culture) Kulfi comes in various flavours, traditionally almond, cardamom (elaichi), mango, pistachio, and saffron.
-- (about) The mixture of dense evaporated milk was already popular in the sweet dishes in the Indian subcontinent.
 - (origin) Kulfi comes from Mughal Empire.
+- (about) The mixture of dense evaporated milk was already popular in the sweet dishes in the Indian subcontinent.
 
 Learn more:
 
@@ -1333,7 +1332,7 @@ Fun facts:
 
 - (culture) Laddus are often served during celebrations and religious festivals, especially those associated with the Hindu deity Ganesha.
 - (history) In the 3rd–4th century Sanskrit medical text Sushruta Samhita, ladduka are described as small balls of jaggery, peanuts, and sesame seeds coated with honey.
-- (about) However, the first documented mention of laddu as a sweet is in the 11th-century Western Indian cookbook Lokopakara.
+- (about) The first documented mention of laddu as a sweet is in the 11th-century Western Indian cookbook Lokopakara.
 
 More fun facts (when the user asks for more):
 
@@ -1469,13 +1468,12 @@ Masala dosa is a dish of South India, consisting of a savoury dosa crepe stuffed
 Fun facts:
 
 - (history) One tale attributes it to the cooks of Someshvara III, King of Mysore (1126–1138), who combined leftover curry with dosas.
-- (origin) However, while the Manasollasa compiled during his reign does mention a dosa-like dish called dosaka, potatoes are a New World plant not introduced to India until the arrival of the Portuguese in the 16th century.
+- (origin) While the Manasollasa compiled during his reign does mention a dosa-like dish called dosaka, potatoes are a New World plant not introduced to India until the arrival of the Portuguese in the 16th century.
 - (about) Masala dosa is a popular breakfast item in South India, though it can be served at all times of the day and found in many other parts of the country and overseas.
 
 More fun facts (when the user asks for more):
 
-- (history) Masala dosa was created and popularized in Madras (now Chennai) during the 1930s by K.
-- (about) Krishna Rao, a restaurateur who operated the popular Udupi style hotel called Sri Krishna Vilas Hotel on Mount Road and later the New Woodlands Hotel, both pioneers of Udupi cuisine.
+- (history) Masala dosa was created and popularized in Madras (now Chennai) during the 1930s by K. Krishna Rao, a restaurateur who operated the popular Udupi style hotel called Sri Krishna Vilas Hotel on Mount Road and later the New Woodlands Hotel, both pioneers of Udupi cuisine.
 - (origin) Masala dosa comes from India.
 
 Learn more:
@@ -1625,9 +1623,9 @@ Naan () is a leavened, oven-baked or tawa-fried flatbread, that can also be bake
 
 Fun facts:
 
-- (history) The earliest known English use of the term occurs in an 1803 travelogue written by William Tooke.
-- (origin) Naan comes from Indian subcontinent.
 - (history) While Tooke and other early sources spelled it "nan", the spelling "naan" has become predominant since the 1970s.
+- (origin) Naan comes from Indian subcontinent.
+- (history) The earliest known English use of the term occurs in an 1803 travelogue written by William Tooke.
 
 Learn more:
 
@@ -1713,7 +1711,7 @@ Palak paneer or palak chhena is a dish from the Indian subcontinent consisting o
 
 Fun facts:
 
-- (culture) However, saag chhena is different from traditional palak chhena in that it contains other green leafy vegetables, such as mustard greens, whereas palak paneer only contains spinach.
+- (culture) Saag chhena is different from traditional palak chhena in that it contains other green leafy vegetables, such as mustard greens, whereas palak paneer only contains spinach.
 
 Learn more:
 
@@ -1742,7 +1740,6 @@ More fun facts (when the user asks for more):
 
 - (history) The dish spread across India in the 20th century, resulting in variations using local ingredients.
 - (culture) Beginning in the 1990s, chefs developed non-traditional variations, including vodka panipuri and panipuri served with shot glasses.
-- (origin) According to The Business Standard, this term originated in Assam.
 - (about) Panipuri is not known when or by whom panipuri was invented.
 - (history) Panipuri spread to the rest of India mainly due to internal migration in the 20th century, gaining new names and variations of ingredients.
 - (culture) Panipuri is primarily a street food and is part of the chaat category of light snacks.
@@ -1750,11 +1747,12 @@ More fun facts (when the user asks for more):
 - (about) In Uttar Pradesh, where the dish is known as pani ke batashe, many flavours of pani are used.
 - (about) Primarily associated with North India, panipuri is also popular in South India, sometimes altered for regional tastes.
 - (inspiration) Panipuri inspired trends in the 2020s, when the COVID-19 pandemic inspired people to make panipuri at home, and vendors went viral for serving non-traditional versions.
-- (origin) While ingredients such as puri and tamarind existed in ancient India, potatoes were not introduced until after the Columbian Exchange.
 - (inspiration) Dalal states that the fillings of panipuri evolved from kachori and were adapted based on personal tastes.
+- (origin) Panipuri comes from India.
+- (origin) According to The Business Standard, this term originated in Assam.
+- (origin) While ingredients such as puri and tamarind existed in ancient India, potatoes were not introduced until after the Columbian Exchange.
 - (culture) Most of the early variations maintained the traditional flavours, with minor additions such as sweet tamarind water, jal-jeera, and garlic.
 - (culture) The white peas that were traditional in Uttar Pradesh were replaced in Kolkata by Bengal gram and in Delhi by kabuli chana, a variation which remains hyperlocal to the city.
-- (origin) Panipuri comes from India.
 
 Learn more:
 
@@ -1836,7 +1834,6 @@ More fun facts (when the user asks for more):
 - (about) It does not appear in the Nushka-e-Shahjahani, from the reign of Mughal Emperor Shah Jahan, indicating that it was not yet present.
 - (about) Paratha is one of the most popular flatbreads in India.
 - (about) Variations also exist in the cuisines of Myanmar, Mauritius, Malaysia (where it is known as roti canai), and the Caribbean (where it is known as buss-up-shut).
-- (origin) Possible origins include the Persian flatbread waraki or from breads introduced by Arabs in India.
 - (origin) The popularity of paratha increased during the Mughal Empire, which introduced it across the region.
 - (origin) During the British imperial era, indentured workers from India introduced paratha to Southeast Asia, the Caribbean, and Mauritius.
 - (origin) Trade routes to India, such as the Silk Road, may have introduced flatbreads from Persia and Central Asia, as well as the scallion pancake of Chinese and Uyghur cuisine, which resemble paratha.
@@ -1845,6 +1842,7 @@ More fun facts (when the user asks for more):
 - (origin) Banerji states that the Mughals were introduced to parathas during their conquests of Punjab.
 - (about) The paratha was popular among Mughal leadership, and it later became popular in Islamic Indian cuisine.
 - (origin) Paratha comes from Indian subcontinent.
+- (origin) Possible origins include the Persian flatbread waraki or from breads introduced by Arabs in India.
 - (about) Not to be confused with flatbread.
 
 Learn more:
@@ -1910,8 +1908,8 @@ Phirni or firni is a rice pudding dessert made with ground rice, rice flour or c
 Fun facts:
 
 - (culture) It is often prepared for occasions and festivals such as Eid.
-- (about) Rose water-flavored and banana-flavored firnee are the two popular varieties.
 - (origin) Phirni comes from India.
+- (about) Rose water-flavored and banana-flavored firnee are the two popular varieties.
 
 More fun facts (when the user asks for more):
 
@@ -2077,17 +2075,17 @@ Fun facts:
 
 - (inspiration) In Tamil Nadu, puttu is mentioned in a common legend and related festival involving Shiva.
 - (history) It describes how, following a flood of the Vaigai River, King Arimarthana of the Pandya dynasty ordered his subjects to carry sand to plug breaches in the river bank.
-- (about) Seeing this, the king became enraged and struck him with a cane.
+- (about) It is claimed that instead of harming Chokkan, the cane blow was felt by all bystanders, including the king himself.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) This legend is known as the puttuku mann sumantha lilai (translated from Tamil as "the divine game of moving sand in exchange for puttu").
-- (about) It is claimed that instead of harming Chokkan, the cane blow was felt by all bystanders, including the king himself.
 - (inspiration) This myth is re-enacted yearly during the puttu tiruvila portion of the Avani Mula festival at the Meenakshi Sundareswarar Temple in the Puttuthoppu region of Arappalayam, a neighborhood of Madurai.
 - (culture) Puttu is commonly sold and distributed at the festival.
 - (about) Puttu is a famous breakfast dish among Sri Lankan Tamils.
-- (about) An aged woman named Vanthiammai is said to have been unable to carry out this duty, whereupon Shiva is said to have appeared in the guise of a manual laborer named Chokkan.
 - (origin) Puttu comes from India, Sri Lanka.
+- (about) Seeing this, the king became enraged and struck him with a cane.
+- (about) An aged woman named Vanthiammai is said to have been unable to carry out this duty, whereupon Shiva is said to have appeared in the guise of a manual laborer named Chokkan.
 
 Learn more:
 
@@ -2131,22 +2129,22 @@ Rasgulla is a syrupy dessert popular in the eastern part of the Indian subcontin
 
 Fun facts:
 
+- (origin) In Banglar Khabar (1987), food historian Pranab Ray writes that a man named Braja Moira introduced rôśôgolla in his shop near Calcutta High Court in 1866, two years before Das started selling it.
 - (history) In 1906, Panchana Bandopadhyay wrote that rôśôgolla was invented in the 19th century by Haradhan Mondal (Moira), a Phulia-based sweetmaker who worked for the Pal Chowdhurys of Ranaghat.
-- (origin) The spongy, white rôśôgolla is believed to have been introduced in present-day West Bengal in 1868 by the Kolkata-based confectioner Nobin Chandra Das.
 - (about) Another theory is that rôśôgolla was first prepared by someone else in Bengal, and Das only popularised it.
 
 More fun facts (when the user asks for more):
 
-- (origin) In Banglar Khabar (1987), food historian Pranab Ray writes that a man named Braja Moira introduced rôśôgolla in his shop near Calcutta High Court in 1866, two years before Das started selling it.
 - (origin) While it is nearly universally agreed that the dessert originated in the eastern Indian subcontinent, the exact locus of origin is disputed between locations such as West Bengal and Odisha, where it is offered at the Puri Jagannath Temple.
 - (origin) According to historians of Odisha, the rasgulla originated in Puri, as khira mohana, which later evolved into the Pahala rasgulla.
+- (origin) The spongy, white rôśôgolla is believed to have been introduced in present-day West Bengal in 1868 by the Kolkata-based confectioner Nobin Chandra Das.
+- (culture) Rasgulla has been traditionally offered as bhog, a religious offering, to goddess Lakshmi at Jagannath Temple, Puri.
+- (origin) Rasgulla comes from India.
 - (inspiration) According to the local legend, Lakshmi got upset because her husband, Lord Jagannath, went on a 9-day sojourn (the ratha yatra) without her consent, so she locked Jai Vijay Dwar, one of the temple gates, and prevented his convoy from reentering the temple's Garbhagṛha (sanctum sanctorum).
 - (about) In 2019, the Government of Odisha was granted the GI status for "Odisha rasagola" (Odia rasagola).
 - (about) According to sweetmeat researcher Haripada Bhowmick, dela rasagulla was popular in Nabadwip and Phulia of Nadia.
 - (about) Even if they did, they did not match the quality of Nobin Chandra, and having failed to excite the Bengali palate, they slipped into oblivion." Bhagwandas Bagla, a Marwari businessman and a customer of Nobin Chandra Das, popularised the Bengali rôśôgolla beyond the shop's locality by ordering huge amounts.
-- (culture) Rasgulla has been traditionally offered as bhog, a religious offering, to goddess Lakshmi at Jagannath Temple, Puri.
 - (culture) This ritual, known as Bachanika, is part of the "Niladri Bije" (or "Arrival of the God") observance, which marks the return of the deities to the temple after the Ratha Yatra.
-- (origin) Rasgulla comes from India.
 
 Learn more:
 
@@ -2173,16 +2171,16 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Bahujanapalli Sitaramacharyulu's dictionary Sabdaratnakaramu (1885) and Vedam Venkataraya Sastry's commentary (1927) on the poem also interpret the word in the same way.
-- (history) Achaya (1994), the earliest extant reference to sambar, as "huli", can be dated to the 17th century in present-day Karnataka.
+- (history) According to food historian K. T. Achaya (1994), the earliest extant reference to sambar, as "huli", can be dated to the 17th century in present-day Karnataka.
 - (inspiration) The legend states that during a visit by Sambhaji, a king or his royal chef substituted kokum with tamarind in the traditional amti (lentil soup), and added some vegetables to it: the resulting curry was named sambar or sambhar after Sambhaji.
 - (about) The recorded history of sambar is vague.
 - (history) Therefore, Sistla theorizes that sambar must have been an integral part of the Tamil cuisine by the 16th century.
 - (history) Kanthirava Narasaraja Vijaya, a 1648 text by the Kannada scholar Govinda Vaidya, mentions huli (puli), a curry similar to the modern sambar, made with vegetables and toor dal.
-- (inspiration) Sourish Bhattacharyya, in The Bloomsbury Handbook of Indian Cuisine (2023), notes that the fathers of Shahuji I and Sambhaji were half-brothers and not on good terms, which reduces the credibility of this legend.
+- (history) Bahujanapalli Sitaramacharyulu's dictionary Sabdaratnakaramu (1885) and Vedam Venkataraya Sastry's commentary (1927) on the poem also interpret the word in the same way.
 - (about) According to a 2010 translation by Srinivas Sistla of Andhra University, the poem mentions "Sambar ingredients packed in separate packs, jaggery, tamarind paste" while describing the food that Periyalvar's wife packs at Srivilliputhur in present-day Tamil Nadu.
 - (origin) Sambar comes from India.
 - (about) Not to be confused with sambal.
+- (inspiration) Sourish Bhattacharyya, in The Bloomsbury Handbook of Indian Cuisine (2023), notes that the fathers of Shahuji I and Sambhaji were half-brothers and not on good terms, which reduces the credibility of this legend.
 
 Learn more:
 
@@ -2204,19 +2202,19 @@ A samosa () () or shingara is a fried Indian subcontinent turnover with a savour
 Fun facts:
 
 - (history) Amir Khusrau (1253–1325), a scholar and the royal poet of the Delhi Sultanate, wrote around 1300 CE that the princes and nobles enjoyed the "samosa prepared from meat, ghee, onion, and so on".
-- (origin) Its name originates from the Middle Persian word sambosag (meaning 'triangular pastry').
-- (culture) Sweet versions containing traditional Indian flavours, or even chocolate, are also made.
+- (about) Samosas are popular snacks in South Asia and within the Indian diaspora across the world.
+- (origin) Samosa comes from the Middle East.
 
 More fun facts (when the user asks for more):
 
 - (history) In Iran, the dish was popular until the 16th century, but by the 20th century, its popularity was restricted to certain provinces (such as the sambusas of Larestan).
 - (history) The South Asian samosa is believed to be derived from a medieval precursor from the Middle East that was baked and not deep-fried.
-- (history) Among these is sanbusaj in the Arabic 10th century Kitab al-Tabikh in the same chapter as sausages, suggesting the dough may have been a substitute for intestine.
 - (history) Abu'l-Fadl Bayhaqi (995–1077), an Iranian historian, mentioned it in his history book, Tarikh-i Bayhaqi.
-- (origin) The Central Asian samsa was introduced to the Indian subcontinent in the 13th or 14th century by chefs from the Middle East and Central Asia who cooked in the royal kitchens for the rulers of the Delhi Sultanate.
-- (about) Samosas are popular snacks in South Asia and within the Indian diaspora across the world.
 - (about) The samosa gained popularity because of its savoury flavour and convenience.
-- (origin) Samosa comes from Middle East.
+- (origin) Its name originates from the Middle Persian word sambosag (meaning 'triangular pastry').
+- (history) Among these is sanbusaj in the Arabic 10th century Kitab al-Tabikh in the same chapter as sausages, suggesting the dough may have been a substitute for intestine.
+- (origin) The Central Asian samsa was introduced to the Indian subcontinent in the 13th or 14th century by chefs from the Middle East and Central Asia who cooked in the royal kitchens for the rulers of the Delhi Sultanate.
+- (culture) Sweet versions containing traditional Indian flavours, or even chocolate, are also made.
 
 Learn more:
 
@@ -2238,7 +2236,7 @@ Sandesh is a Bengali dessert, originating from the undivided Bengal region in th
 
 Fun facts:
 
-- (history) However, it is known that by the second half of the 19th century, sandesh commonly referred to the chhena-based sweet.
+- (history) It is known that by the second half of the 19th century, sandesh commonly referred to the chhena-based sweet.
 - (origin) Sandesh comes from India, Bangladesh.
 - (about) Not to be confused with Sylheti Handesh.
 
@@ -2311,12 +2309,12 @@ Fun facts:
 
 - (origin) One hypothesis is that it originated in the western state of Maharashtra, India.
 - (culture) Traditionally sold loose in rolled paper cones, modern industrial production has led to it being sold in the form of tightly formed cubes.
-- (origin) Other sources name Uttar Pradesh or Gujarat as the originator of this sweet.
+- (culture) Soan papdi is frequently given as a traditional Diwali gift.
 
 More fun facts (when the user asks for more):
 
-- (culture) Soan papdi is frequently given as a traditional Diwali gift.
 - (origin) Soan papdi comes from India.
+- (origin) Other sources name Uttar Pradesh or Gujarat as the originator of this sweet.
 
 Learn more:
 
@@ -2419,18 +2417,18 @@ Tandoori chicken is a dish made from roasted chicken with meat marinated in yogu
 
 Fun facts:
 
-- (history) They used to work at a small eatery called Moti Mahal, owned by a man named Mokha Singh Lamba in Peshawar, British India, from the 1920s to 1947.
-- (about) Much later, the Sushruta Samhita records meat being cooked in an oven (kandu) after being seasoned with black mustard (rai) powder and fragrant spices.
+- (history) A recipe for tandoori chicken was printed in the Los Angeles Times in 1963, for "the hostess in search of a fresh idea for a party dinner"; a similar recipe was featured in the same newspaper in 1964.
 - (origin) Tandoori chicken as a dish originated in the Punjab before the independence of partition of India.
+- (about) Tandoori chicken was popularised in post-independence India by Moti Mahal, Daryaganj in Delhi when it was served to the first prime minister of India, Jawaharlal Nehru.
 
 More fun facts (when the user asks for more):
 
-- (history) A recipe for tandoori chicken was printed in the Los Angeles Times in 1963, for "the hostess in search of a fresh idea for a party dinner"; a similar recipe was featured in the same newspaper in 1964.
 - (history) In the late 1940s, tandoori chicken was popularised at Moti Mahal in the locality of Daryaganj in New Delhi by Kundan Lal Jaggi, Kundan Lal Gujral and Thakur Das Magu, who were Punjabi Hindu migrants from Peshawar as well as the founders of the Moti Mahal restaurant.
-- (about) Tandoori chicken was popularised in post-independence India by Moti Mahal, Daryaganj in Delhi when it was served to the first prime minister of India, Jawaharlal Nehru.
 - (history) In the United States, tandoori chicken began appearing on menus by the 1960s.
 - (history) Jacqueline Kennedy was reported to have eaten "chicken tandoori" on a flight from Rome to Bombay in 1962.
 - (origin) Tandoori chicken comes from India.
+- (about) Much later, the Sushruta Samhita records meat being cooked in an oven (kandu) after being seasoned with black mustard (rai) powder and fragrant spices.
+- (history) They used to work at a small eatery called Moti Mahal, owned by a man named Mokha Singh Lamba in Peshawar, British India, from the 1920s to 1947.
 
 Learn more:
 
@@ -2451,8 +2449,8 @@ Thali or bhojanam is a round platter used to serve food in South Asia, Southeast
 
 Fun facts:
 
-- (about) Many small bowls which are first cleaned with water and wiped dry with a white cloth should be placed with the plate." The Ksemakutuhalam culinary text advises the cook to serve boiled rice in the middle of the plate.
 - (culture) B.B Lal notes that "typical dinner set in the Painted Grey Ware consists of the thali (dish), katora (bowl) and lota (drinking vessel)," he suggests it highlights the tradition followed today.
+- (about) Many small bowls which are first cleaned with water and wiped dry with a white cloth should be placed with the plate." The Ksemakutuhalam culinary text advises the cook to serve boiled rice in the middle of the plate.
 - (culture) In Ayurvedic tradition, six tastes known as Shadrasa is used to classify foods according to their qualities for ideal meal.
 
 Learn more:
@@ -2538,13 +2536,13 @@ Unleavened bread is any of a wide variety of breads which are prepared without u
 
 Fun facts:
 
-- (culture) Indeed, this usage figures as one of the three points of contention that traditionally accounted as causes (along with the issues of Petrine supremacy and the filioque in the Niceno-Constantinopolitan Creed) of the Great Schism of 1054 between Eastern and Western churches.
 - (culture) Unleavened breads have symbolic importance in Judaism and Christianity.
 - (culture) Some Protestant churches tend to follow the Latin Catholic practice, whereas others use either unleavened bread or wafers or ordinary (leavened) bread, depending on the traditions of their particular denomination or local usage.
+- (culture) Eastern Christians associate unleavened bread with the Old Testament and allow only for bread with yeast, as a symbol of the New Covenant in Christ's blood.
 
 More fun facts (when the user asks for more):
 
-- (culture) Eastern Christians associate unleavened bread with the Old Testament and allow only for bread with yeast, as a symbol of the New Covenant in Christ's blood.
+- (culture) Indeed, this usage figures as one of the three points of contention that traditionally accounted as causes (along with the issues of Petrine supremacy and the filioque in the Niceno-Constantinopolitan Creed) of the Great Schism of 1054 between Eastern and Western churches.
 
 Learn more:
 
@@ -2570,8 +2568,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) In Trinidad and Tobago, bara became a component of one of their most famous street foods, called doubles.
 - (origin) Vada comes from Indian subcontinent.
+- (culture) In Trinidad and Tobago, bara became a component of one of their most famous street foods, called doubles.
 
 Learn more:
 
@@ -2602,8 +2600,8 @@ More fun facts (when the user asks for more):
 - (history) This potato dumpling (batata vada), placed inside a pav was quick to make, cheap (~10-15 paisa in 1971), and more convenient than the batata bhaji and chapati combination, which could not be eaten in overcrowded local trains.
 - (origin) Vada pav was first made in Mumbai.
 - (about) The most famous snack in Mumbai, vada pav is claimed to be a part of the culture of Mumbaikars.
-- (about) The carbohydrate-rich snack catered to the cotton mill workers of what was then known as Girangaon.
 - (origin) Vada pav comes from India.
+- (about) The carbohydrate-rich snack catered to the cotton mill workers of what was then known as Girangaon.
 
 Learn more:
 
@@ -2633,7 +2631,7 @@ More fun facts (when the user asks for more):
 
 - (history) In the 20th century, some recipes in Britain called for lemon juice in place of wine vinegar, possibly because British Muslim chefs intentionally omitted it.
 - (history) As a result, Anglo-Indian cuisine in the 19th century took on vindaloo or "Portuguese curry".
-- (history) Dawe's 1888 cookery book, The Wife's Help to Indian Cookery, gave a recipe for "Vindaloo or Bindaloo—A Portuguese Kárhí", suggesting beef, pork, or duck as the meat.
+- (history) W. H. Dawe's 1888 cookery book, The Wife's Help to Indian Cookery, gave a recipe for "Vindaloo or Bindaloo—A Portuguese Kárhí", suggesting beef, pork, or duck as the meat.
 - (history) London's Veeraswamy restaurant, opened in 1926, served the same sort of British Raj food, including duck vindaloo in its early years.
 - (history) Vindaloo became widespread in Britain with the creation of more Indian restaurants in the 1970s.
 - (about) As a postwar British restaurant dish, vindaloo became popular as the curry to eat after pub closing time.
@@ -2658,13 +2656,13 @@ Wazwan is a multi-course meal in Kashmiri cuisine, originating from Kashmir.
 
 Fun facts:
 
-- (culture) Moreover, Wazwan is also served internationally at Kashmiri food festivals and reunions.
+- (culture) Wazwan is also served internationally at Kashmiri food festivals and reunions.
 - (about) Wazwan is popular throughout the larger Kashmir region.
-- (culture) A ritual washing of hands in a portable basin called the Tash-t-naer, which is taken around by attendants.
+- (culture) Although traditionally only available as a large feast serving dozens or hundreds of guests, in recent years restaurants offering the iconic wazwan dishes by the plate have sprang up in Cashmere, many of them run by the hereditary waza cooks who honed their skills serving banquets.
 
 More fun facts (when the user asks for more):
 
-- (culture) Although traditionally only available as a large feast serving dozens or hundreds of guests, in recent years restaurants offering the iconic wazwan dishes by the plate have sprang up in Cashmere, many of them run by the hereditary waza cooks who honed their skills serving banquets.
+- (culture) A ritual washing of hands in a portable basin called the Tash-t-naer, which is taken around by attendants.
 
 Learn more:
 
@@ -2963,13 +2961,13 @@ More fun facts (when the user asks for more):
 - (history) Darjeeling's population had grown from less than a 100 in the 1830s to 95,000 people with 100 tea gardens in 1885, predominantly Indian Gorkha and Lepcha migrants from Nepal and Sikkim, as the Darjeeling Himalayan Railway, the use of steamships and the Suez Canal reduced shipping times.
 - (history) Following Indian independence in 1947, practices shifted as the British began to sell their stakes in the gardens to Indians and the 1953 Tea Act put the tea industry under the regulatory jurisdiction of the Tea Board of India.
 - (history) With more area being opened for tea crops at the expense of natural area and the introduction of pesticides and fertilizers, yields increased from 7.8 to 10 million kilograms between 1950 and 1960, though this came at the cost of increased soil instability.
-- (history) While the original plantings succeeded, Campbell moved to Lebong where he and several other residents planted a new batch, in 1846, of both varieties (sinensis and assamica).
 - (history) Despite a limited exemption for the tea industry the 1973 Foreign Exchange Regulations Act the new foreign ownership limitations resulted in Indian nationals becoming majority owners of the Darjeeling tea industry.
 - (about) As the Soviet Union replaced the United Kingdom as India's largest tea customers, Darjeeling gardens were supplemented with assamica plantings to accommodate their preference for that variety.
 - (history) Production methods again shifted in the 1990s as Western Europe and Japan replaced the collapsed Soviet Union as Darjeeling's principal customers and new garden managers were bringing the principles of biodynamic agriculture to their practices.
 - (history) Camellia sinensis was first planted in the Darjeeling area in 1841 by Archibald Campbell who was working for the East India Company in this jungle-covered, sparsely populated area to develop a hill station for use by the British stationed in Kolkata.
 - (about) Since 2004, the term Darjeeling tea has been a registered geographical indication referring to products produced on certain estates within Darjeeling and Kalimpong.
 - (origin) Darjeeling tea comes from India.
+- (history) While the original plantings succeeded, Campbell moved to Lebong where he and several other residents planted a new batch, in 1846, of both varieties (sinensis and assamica).
 
 Learn more:
 
@@ -3124,7 +3122,7 @@ Idiyappam, also known as indiappa, noolappam, noolputtu, sheveo, santhagai, or o
 
 Fun facts:
 
-- (history) Achaya, idiyappam, appam, idli, dosa and vada were known during ancient Tamil country the 1st century AD, as per references in the Sangam literature.
+- (history) According to food historian K. T. Achaya, idiyappam, appam, idli, dosa and vada were known during ancient Tamil country the 1st century AD, as per references in the Sangam literature.
 - (origin) Idiyappam comes from India.
 - (history) The Lokopakara (1025 AD) cookbook in Kannada also mentions a method of making shavige and the mold-presser used for it.
 
@@ -3176,8 +3174,8 @@ More fun facts (when the user asks for more):
 
 - (history) The consumption of coffee was recorded in the art and accounts of the Mughal court, from the early 1600s, with travellers offering accounts of the qahwakhanas (coffeehouses) of Shahjahanabad (Old Delhi).
 - (history) Until the 17th century, efforts were made to establish and maintain an Arabian coffee monopoly, with cultivation limited to Ethiopia, Tanzania, and Yemen, and exports limited to roasted or baked coffee beans, to protect the Arabian merchants.
-- (history) They also noted its popularity among the locals, a Dutch chaplain, Rev Jacob Vissche, of Cochin, wrote in the 1720s: "The coffee shrub is planted in the gardens for pleasure and yields plenty of fruit which attains a proper degree of ripeness.
 - (about) The favourable conditions enabled the coffee plants to thrive in the hills, which were later named Baba Budangiri ('Baba Budan Hills').
+- (history) They also noted its popularity among the locals, a Dutch chaplain, Rev Jacob Vissche, of Cochin, wrote in the 1720s: "The coffee shrub is planted in the gardens for pleasure and yields plenty of fruit which attains a proper degree of ripeness.
 - (origin) Indian filter coffee comes from India.
 
 Learn more:
@@ -3220,17 +3218,17 @@ Jalfrezi is a curry dish popular in Britain.
 Fun facts:
 
 - (inspiration) All the same, the historian of food Navreet Rana writes that it "is impossible to tell that [it is] designed for the use of leftovers." One story is that jalfrezi was the invention of Marcus Sandys, governor of Bengal.
-- (origin) The stir fry technique was brought to India by Chinese labourers working in Assam tea plantations in the 1830s.
+- (origin) The stir frying technique used for making jalfrezi was introduced to British India from Chinese cuisine as Chinese labourers migrated to Assam to work in the tea plantations during the 1830s.
 - (history) In Indian restaurants in Britain in the 20th century, "jalfrezi" could mean a standardised curry sauce with a little extra curry powder and food colouring.
 
 More fun facts (when the user asks for more):
 
-- (origin) The stir frying technique used for making jalfrezi was introduced to British India from Chinese cuisine as Chinese labourers migrated to Assam to work in the tea plantations during the 1830s.
 - (history) In 1998 it was reported that one ton of jalfrezi had been made for the UK's National Curry Day.
 - (about) In a 2011 survey, jalfrezi was rated the most popular dish in UK Indian restaurants, having taken over from chicken tikka masala.
 - (culture) This meant it was much quicker to make than traditional curries.
 - (about) In a survey in 2011, jalfrezi was rated the most popular dish in British Indian restaurants, having taken over from chicken tikka masala.
 - (origin) Jalfrezi comes from India.
+- (origin) The stir fry technique was brought to India by Chinese labourers working in Assam tea plantations in the 1830s.
 
 Learn more:
 
@@ -3322,8 +3320,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) The sweet is more commonly known as jonnadula halwa in certain parts of northern India.
 - (about) Kesari bat is also served with upma, rava khichdi or khara bath, and a serving of both dishes on one plate is popularly called "chow chow bath".
+- (about) The sweet is more commonly known as jonnadula halwa in certain parts of northern India.
 
 Learn more:
 
@@ -3387,13 +3385,13 @@ Khichu is a dough for making papad, however, owing to its taste it is also consu
 
 Fun facts:
 
-- (about) The snack is prepared by cooking flour in water like porridge with cumin seeds and an alkaline salt known as Papad Khar (An alkaline salt with major components as sodium carbonate and sodium bicarbonate) and then steaming the lump.
+- (about) The name khichiyu or khichu is derived from the ductile nature of the dough. (Khinch in Indic languages means to pull.) Papad made from this dough are known as Khichiya Papad.
 - (culture) Khichu is traditionally eaten during the monsoon season.
 - (origin) Khichu comes from India.
 
 More fun facts (when the user asks for more):
 
-- (about) The name khichiyu or khichu is derived from the ductile nature of the dough. (Khinch in Indic languages means to pull.) Papad made from this dough are known as Khichiya Papad.
+- (about) The snack is prepared by cooking flour in water like porridge with cumin seeds and an alkaline salt known as Papad Khar (An alkaline salt with major components as sodium carbonate and sodium bicarbonate) and then steaming the lump.
 
 Learn more:
 
@@ -3435,8 +3433,8 @@ Koottu, often transcribed "kootu", is a lentil and spicy vegetable stew in South
 
 Fun facts:
 
-- (about) Add the vegetables, including shallots (known as "Madras onions" in India), saute and then add water.
 - (origin) Koottu comes from India.
+- (about) Add the vegetables, including shallots (known as "Madras onions" in India), saute and then add water.
 
 Learn more:
 
@@ -3483,9 +3481,9 @@ Kuḻambu, is a tamarind-based curry in Tamil cuisine popular in Tamil Nadu and 
 
 Fun facts:
 
-- (inspiration) Kuḻambu is based on a broth made with tamarind, a blend of spices that include ground coriander seeds, fenugreek, and toor dal, and can include fresh or dried vegetables, blended fresh coconut, or dried lentil balls.
 - (about) Kuzhambu is very popular as a side dish for rice in the northern regions of Sri Lanka and the southern regions of India, especially in Tamil Nadu, Karnataka, and Kerala.
 - (origin) Kuzhambu comes from India.
+- (inspiration) Kuḻambu is based on a broth made with tamarind, a blend of spices that include ground coriander seeds, fenugreek, and toor dal, and can include fresh or dried vegetables, blended fresh coconut, or dried lentil balls.
 
 More fun facts (when the user asks for more):
 
@@ -3509,9 +3507,9 @@ Laapsi or lapsi is an Indian sweet dish made using grain flour or broken wheat a
 
 Fun facts:
 
+- (origin) Laapsi comes from India.
 - (culture) Skanda Purana mentions Lapsika as a Naivedhya for Puja (Hindu ritual worship).
 - (about) Lapsi finds mention in an Ayurvedic text named Bhāvaprakāśa nighaṇṭu.
-- (origin) Laapsi comes from India.
 
 More fun facts (when the user asks for more):
 
@@ -3544,11 +3542,10 @@ More fun facts (when the user asks for more):
 
 - (inspiration) According to a legend from the Ramayana, Lord Ram consumed Litti-Chokha during his visit to Charitravan in Buxar while staying at the ashram of Maharishi Vishwamitra.
 - (culture) Litti is also a popular street food in small towns and cities.
-- (culture) Both the Panchkosi Jatra and the Lota-Bhanta Mela are significant cultural and religious events in these regions, highlighting the ritualistic importance of Litti.
 - (culture) As part of the Panchkosi Jatra, Litti is prepared and offered to Lord Ram as prasad at Charitravan on the final day of the journey, symbolizing devotion and preserving the dish’s ritualistic significance in the area's long-standing traditions.
-- (about) This site is now known as Rameshwar Mahadev.
 - (culture) As part of the Lota-Bhanta Mela, devotees bathe in the Varuna River, prepare Litti-Chokha, and offer it to Lord Shiva, continuing this sacred tradition of devotion.
 - (origin) Litti comes from India.
+- (about) This site is now known as Rameshwar Mahadev.
 
 Learn more:
 
@@ -3590,10 +3587,11 @@ Fun facts:
 
 - (history) In 1753, Carl Linnaeus described foxtail millet as Panicum italicum.
 - (history) Finger millet was described as Eleusine coracana by Joseph Gaertner in 1788.
-- (history) In 1812, Palisot de Beauvois grouped several taxa into Setaria italica.
+- (history) In 1977, J. Brunken and colleagues classed the wild P. violaceum as part of the cultivated species P. glaucum (pearl millet).
 
 More fun facts (when the user asks for more):
 
+- (history) In 1812, Palisot de Beauvois grouped several taxa into Setaria italica.
 - (history) The genus Pennisetum was divided by Otto Stapf in 1934 into the section penicillaria, with 32 species including all the cultivated ones, and four other sections.
 
 Learn more:
@@ -3684,15 +3682,15 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Historically, Chinese names for steamed buns did not distinguish between those with or without fillings until the term baozi emerged during the Song dynasty, between the 10th and 13th centuries.
 - (history) A large number of Tibetans emigrated to India following the 1959 Tibetan uprising, bringing their recipes for momos with them.
 - (origin) Momo was first made in Nepal.
-- (about) They are usually served with a dipping sauce known as achar or chutney.
-- (about) In the Newar language, they are known as ममचा (mamacha).
 - (culture) The Tibetan word may have been borrowed from the Chinese momo, a name traditionally used in northwestern Chinese dialects for steamed wheat buns and bread.
-- (about) The history of dumplings in China shows that they were popular during the Northern and Southern dynasties (420–589 AD).
 - (about) As the dish was initially popular among the Newar community, one prevalent belief is that traveling Nepali Newar merchants took the recipe from Tibet, where they traded, and brought it to Nepal.
 - (origin) After arriving in the Indo-Gangetic Plains, the most common meat in momos was chicken, and vegetable momos were introduced to feed the large population of vegetarian Hindus.
+- (history) Historically, Chinese names for steamed buns did not distinguish between those with or without fillings until the term baozi emerged during the Song dynasty, between the 10th and 13th centuries.
+- (about) In the Newar language, they are known as ममचा (mamacha).
+- (about) The history of dumplings in China shows that they were popular during the Northern and Southern dynasties (420–589 AD).
+- (about) They are usually served with a dipping sauce known as achar or chutney.
 
 Learn more:
 
@@ -3744,22 +3742,22 @@ Paneer is a fresh acid-set cheese, common in South Asian cuisine, made from cow 
 
 Fun facts:
 
+- (origin) Another theory is that paneer originated in Persianate lands and spread to the Indian subcontinent under Muslim rule.
+- (about) Sunil Kumar et al.(2011) interpret this product as the present-day paneer.
 - (history) Its origins are not known, with doubtful references in the Vedas of ancient India; other hypotheses include a Persian origin and a Portuguese introduction of the use of acid to form cheeses in the 17th century.
-- (inspiration) Legends about Krishna make several references to milk, butter, ghee and dahi (yogurt), but do not mention sour milk cheese.
-- (about) Manasollasa, a Sanskrit-language text by the 12th-century king Someshvara III, describes Kshiraprakara, a similar sweet food prepared from milk solids after separating boiled milk using buttermilk.
 
 More fun facts (when the user asks for more):
 
-- (history) However, Otto Schrader (1890) believes that the Rigveda only mentions "a skin of sour milk, not cheese in the proper sense".
-- (history) Lokopakara text dated to the 10th century gives two recipes for coagulated cheeses made from buffalo milk for making sweets using plants and roots.
-- (origin) Another theory is that paneer originated in Persianate lands and spread to the Indian subcontinent under Muslim rule.
-- (origin) A different theory is that the Portuguese may have introduced the technique of "breaking" milk with acid to Bengal in the 17th century.
 - (origin) Paneer was first made in Indian subcontinent.
 - (origin) National Dairy Research Institute states that paneer was introduced into India by Afghan and Iranian invaders.
-- (inspiration) Based on texts such as Charaka Samhita, BN Mathur wrote that the earliest evidence of a heat-acid coagulated milk product in India can be traced to 75–300 CE, in the Kushan-Satavahana era.
-- (about) Sunil Kumar et al.(2011) interpret this product as the present-day paneer.
 - (origin) According to them, paneer is indigenous to the north-western part of South Asia and was introduced in India by Afghan and Iranian travellers.
 - (origin) Paneer comes from India.
+- (inspiration) Legends about Krishna make several references to milk, butter, ghee and dahi (yogurt), but do not mention sour milk cheese.
+- (history) Otto Schrader (1890) believes that the Rigveda only mentions "a skin of sour milk, not cheese in the proper sense".
+- (history) Lokopakara text dated to the 10th century gives two recipes for coagulated cheeses made from buffalo milk for making sweets using plants and roots.
+- (about) Manasollasa, a Sanskrit-language text by the 12th-century king Someshvara III, describes Kshiraprakara, a similar sweet food prepared from milk solids after separating boiled milk using buttermilk.
+- (origin) A different theory is that the Portuguese may have introduced the technique of "breaking" milk with acid to Bengal in the 17th century.
+- (inspiration) Based on texts such as Charaka Samhita, BN Mathur wrote that the earliest evidence of a heat-acid coagulated milk product in India can be traced to 75–300 CE, in the Kushan-Satavahana era.
 - (about) Not to be confused with chhena.
 
 Learn more:
@@ -3820,16 +3818,16 @@ Peda, pedha or pera is an Indian sweet that originated in the city of Mathura, U
 
 Fun facts:
 
-- (history) Piṇḍaka as a sweet finds mention in Ayurvedic & Pākaśāstra texts ranging from Charaka Samhita of the 4th century BCE to Bhojanakutūhala of 17th century CE.
 - (origin) Modern variations of pedas originated in the city of Mathura in present-day Uttar Pradesh.
-- (culture) Traditionally prepared as thick, semi-soft round balls, its main ingredients are khoa, sugar and traditional flavourings including cardamom seeds.
+- (history) Piṇḍaka as a sweet finds mention in Ayurvedic & Pākaśāstra texts ranging from Charaka Samhita of the 4th century BCE to Bhojanakutūhala of 17th century CE.
+- (about) Dood peda, made famous by the Nandini Milk Co-operative in Karnataka, is another popular variety.
 
 More fun facts (when the user asks for more):
 
 - (origin) Thakur Ram Ratan Singh of Lucknow who migrated to Dharwad (in the present-day Karnataka) in the 1850s introduced pedas there.
-- (about) This distinct variety is now famous as the Dharwad pedha.
-- (about) Dood peda, made famous by the Nandini Milk Co-operative in Karnataka, is another popular variety.
 - (origin) Peda comes from India.
+- (culture) Traditionally prepared as thick, semi-soft round balls, its main ingredients are khoa, sugar and traditional flavourings including cardamom seeds.
+- (about) This distinct variety is now famous as the Dharwad pedha.
 
 Learn more:
 
@@ -3850,12 +3848,12 @@ Pheni or fenia is a form of vermicelli from the Indian subcontinent.
 Fun facts:
 
 - (culture) Pheni is ritually used for the Karva Chauth festival, which is celebrated in parts of India, where it is one of the dishes on the traditional platter sargi thali and is consumed just before the fast associated with the festival begins.
-- (origin) Similar dishes include khajla and sutarfeni; latter of these originates from Rajasthan.
+- (origin) Pheni comes from Indian subcontinent.
 - (culture) Since khajla and pheni are used as traditional foods for Ramadan in different cities of Pakistan, therefore, its preparation creates job opportunities for additional labour, and the trade for multiple grain industries rises.
 
 More fun facts (when the user asks for more):
 
-- (origin) Pheni comes from Indian subcontinent.
+- (origin) Similar dishes include khajla and sutarfeni; latter of these originates from Rajasthan.
 
 Learn more:
 
@@ -3983,7 +3981,7 @@ Sevai, also called shavige, semiya,, saemia and santhakai, is a type of rice ver
 
 Fun facts:
 
-- (history) Achaya, references in the Sangam literature mentions sevai and idiyappam around 1st century CE.
+- (history) According to food historian K. T. Achaya, references in the Sangam literature mentions sevai and idiyappam around 1st century CE.
 - (origin) Sevai comes from India.
 - (history) Lokopakara (1025 CE) a cookbook in Kannada also mentions method of making sevai and a mold-presser used for it.
 
@@ -4084,20 +4082,20 @@ In the culinary arts, a spice is a seed, fruit, root, bark, or other plant subst
 
 Fun facts:
 
+- (history) The earliest written records of spices come from ancient Egyptian, Chinese, and Indian cultures.
 - (origin) Historians believe that nutmeg, which originates from the Banda Islands in Southeast Asia, was introduced to Europe in the 6th century BCE.
-- (history) Cloves were used in Mesopotamia by 1700 BCE.
-- (inspiration) By 1000 BCE, medical systems based on herbs could be found in China, Korea, and India.
+- (culture) Spices are sometimes used in medicine, religious rituals, cosmetics, or perfume production.
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest written records of spices come from ancient Egyptian, Chinese, and Indian cultures.
-- (history) The Ebers Papyrus from early Egypt dating from 1550 BCE describes some eight hundred different herbal medicinal remedies and numerous medicinal procedures.
-- (history) The Romans had cloves in the 1st century CE, as Pliny the Elder wrote about them.
-- (culture) Spices are sometimes used in medicine, religious rituals, cosmetics, or perfume production.
 - (about) A 2019 review paper found that most claimed health benefits were not supported by clinical evidence, although noted that polyphenols found in spices may be beneficial.
 - (about) The spice trade developed throughout the Indian subcontinent and Middle East by 2000 BCE with cinnamon and black pepper, and in East Asia with herbs and pepper.
-- (culture) Early uses were associated with magic, medicine, religion, tradition, and preservation.
 - (about) Not to be confused with spice.
+- (history) Cloves were used in Mesopotamia by 1700 BCE.
+- (history) The Ebers Papyrus from early Egypt dating from 1550 BCE describes some eight hundred different herbal medicinal remedies and numerous medicinal procedures.
+- (inspiration) By 1000 BCE, medical systems based on herbs could be found in China, Korea, and India.
+- (history) The Romans had cloves in the 1st century CE, as Pliny the Elder wrote about them.
+- (culture) Early uses were associated with magic, medicine, religion, tradition, and preservation.
 
 Learn more:
 

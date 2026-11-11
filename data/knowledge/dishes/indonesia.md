@@ -13,8 +13,8 @@ Acar is a type of vegetable pickle of Maritime Southeast Asia, most prevalent in
 Fun facts:
 
 - (origin) Pickling originated in India around 2400 BCE, and with expansion of Indian cultural influence on Greater India, through transmission of Hinduism leading to Indianisation, and the formation of native Southeast Asian kingdoms which adopted many Indian cultural elements, including food processing techniques.
-- (history) The adoption of this vegetable pickling technique possibly took place during the Srivijaya period between 7th to 13th century.
 - (about) Acar is known as atjar in Dutch cuisine, derived from Indonesian acar.
+- (history) The adoption of this vegetable pickling technique possibly took place during the Srivijaya period between 7th to 13th century.
 
 More fun facts (when the user asks for more):
 
@@ -41,8 +41,8 @@ Amplang, also known as kerupuk kuku macan, is a traditional savoury fish cracker
 Fun facts:
 
 - (culture) In Indonesia, amplang is traditionally associated with Samarinda, the capital city of East Kalimantan, since the amplang cracker home industry has thrived in the city since the 1970s.
-- (about) From Samarinda, the popularity of this savoury fish cracker spread to other cities in the Borneo island, such as Balikpapan, Banjarmasin, Pontianak, and even to Sabah in Malaysia.
 - (origin) Amplang comes from Indonesia.
+- (about) From Samarinda, the popularity of this savoury fish cracker spread to other cities in the Borneo island, such as Balikpapan, Banjarmasin, Pontianak, and even to Sabah in Malaysia.
 
 More fun facts (when the user asks for more):
 
@@ -87,14 +87,14 @@ Fun facts:
 
 - (culture) At the end of the 18th century, the Carmelite friar Paolino da San Bartolomeo reported that the ancient Saint Thomas Christians of Kerala celebrated the agape lovefeast using a rice-cake dish called "appam".
 - (about) Appam is a popular dish in the Indian state of Kerala as well as Sri Lanka.
-- (origin) Early dosas were made from rice batter, and later, black lentils were introduced, and since then, black lentils have become an integral component of dosa.
+- (origin) Appam comes from India, Sri Lanka.
 
 More fun facts (when the user asks for more):
 
 - (culture) Appam is made with fermented rice batter and coconut milk, traditionally cooked in an appachatti, a deep pan similar in shape to a wok.
-- (about) In Sri Lanka, they are typically known as hoppers.
-- (origin) Appam comes from India, Sri Lanka.
 - (about) Not to be confused with The Steamship Appam.
+- (about) In Sri Lanka, they are typically known as hoppers.
+- (origin) Early dosas were made from rice batter, and later, black lentils were introduced, and since then, black lentils have become an integral component of dosa.
 
 Learn more:
 
@@ -161,16 +161,16 @@ Asam pedas is a traditional sour and spicy gulai commonly found in Southeast Asi
 Fun facts:
 
 - (origin) One theory suggests that ''Asam pedas'' originated in the port city of Malacca, where maritime trade facilitated contact between local, Chinese and Portuguese communities.
-- (about) These interactions are believed to have influenced the development of the dish, particularly through the introduction of tamarind, which imparts a sour flavour, and the use of chilli, lemongrass and turmeric as key seasonings.
 - (culture) Influences from various culinary traditions led to the adaptation of local ingredients and cooking methods, resulting in distinct regional expressions of the dish.
+- (about) These interactions are believed to have influenced the development of the dish, particularly through the introduction of tamarind, which imparts a sour flavour, and the use of chilli, lemongrass and turmeric as key seasonings.
 
 More fun facts (when the user asks for more):
 
 - (culture) Asam pedas is part of the shared culinary heritage of both Malay and Minangkabau traditions, making its exact origin unclear.
 - (culture) Asam pedas also shows influences from Peranakan (Baba-Nyonya) cuisine, which incorporates elements of Malay and Chinese culinary traditions.
 - (culture) Asam pedas is also associated with the Minangkabau people of West Sumatra in Indonesia, where a similar preparation known as asam padeh is part of traditional Minangkabau cuisine.
-- (about) These establishments, which specialise in Minangkabau dishes, are common throughout Indonesia and also present in parts of Malaysia and Singapore, helping to popularise the dish beyond its original context.
 - (origin) Asam pedas comes from Indonesia.
+- (about) These establishments, which specialise in Minangkabau dishes, are common throughout Indonesia and also present in parts of Malaysia and Singapore, helping to popularise the dish beyond its original context.
 
 Learn more:
 
@@ -257,17 +257,17 @@ Ayam geprek is Indonesian crispy battered fried chicken crushed and mixed with h
 
 Fun facts:
 
-- (about) Its origin, however, was believed to be from Yogyakarta, from the creation of Mrs.
 - (culture) Ayam geprek is quite similar to the traditional East Javanese ayam penyet, as both consist of fried chicken that is smashed and mixed with hot and spicy sambal chili paste.
+- (about) Ayam geprek gained popularity across Indonesia in 2017, with a number of outlets sprouting in most Indonesian cities.
 - (origin) Ayam geprek comes from Indonesia.
 
 More fun facts (when the user asks for more):
 
-- (about) Ayam geprek gained popularity across Indonesia in 2017, with a number of outlets sprouting in most Indonesian cities.
 - (about) In 2003, Bu Rum's customers requested that her ayam goreng tepung (battered fried chicken) be smashed and topped with sambal chilli paste.
-- (about) Subsequently, this smashed spicy crispy fried chicken has gained wider popularity, as a number of restaurants copied the recipe.
 - (about) Another source argued that the current popularity of ayam geprek was initiated by local fast food chain Quick Chicken, which launched their product called "American Penyet" in 2013.
 - (about) Bedi Zubaedi, founder and CEO of Quick Chicken, claimed that before the ayam geprek was as popular, they had made an identical dish named "American Penyet".
+- (about) Its origin, however, was believed to be from Yogyakarta, from the creation of Mrs. Ruminah, or popularly known as Bu Rum.
+- (about) Subsequently, this smashed spicy crispy fried chicken has gained wider popularity, as a number of restaurants copied the recipe.
 
 Learn more:
 
@@ -320,9 +320,9 @@ More fun facts (when the user asks for more):
 
 - (origin) Kalasan fried chicken) originates from Yogyakarta's Kalasan area, near the Prambanan Temple.
 - (history) Upon the restaurant's bankruptcy and demise in the 1960s, the dish was reproduced and spread by her former staff and patrons, who opened restaurants of their own.
-- (history) Upon the death of Mbok Berek, the recipe was passed down to her descendants, who later opened a restaurant of their own in Jakarta in 1978.
 - (about) Ronodikromo, better known as Mbok Berek, ran a small stall selling ayam goreng and created the dish after learning of a cooking technique taught by an unknown elderly man said to have come from the Baduy of West Java.
 - (origin) Ayam goreng kalasan comes from Indonesia.
+- (history) Upon the death of Mbok Berek, the recipe was passed down to her descendants, who later opened a restaurant of their own in Jakarta in 1978.
 
 Learn more:
 
@@ -523,7 +523,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Babi kecap is also popular among non-Muslim Indonesians, such as the Balinese, Ambonese, Bataks, Minahasans, and Dayaks, and in the Netherlands among the Indo-Dutch, where it is known as babi ketjap, owing to colonial ties with Indonesia.
-- (origin) However, it is more Indonesian in nature, because of the mild sweetness introduced by Indonesian kecap manis (sweet soy sauce).
+- (origin) Babi kecap is more Indonesian in nature, because of the mild sweetness introduced by Indonesian kecap manis (sweet soy sauce).
 - (origin) Babi kecap comes from Indonesia.
 
 Learn more:
@@ -578,10 +578,10 @@ More fun facts (when the user asks for more):
 - (history) By the 1960s, bak kut teh had become a popular street fare in Singapore.
 - (history) Ong Say Bak Kut Teh was originally founded in the 1920s but was closed in 1989 due to redevelopment, leading to Teo starting her own bak kut teh business with the same recipe that was passed to her.
 - (about) Tea of various kinds, most commonly the Tieguanyin variety which is popular in the Klang Valley area of Malaysia, is also usually served in the belief that it dilutes or dissolves the copious amount of fat consumed in this dish.
-- (culture) The Hokkien and Teochew are traditionally tea-drinking cultures and this aspect runs deep in their cuisines.
 - (about) In Malaysia, the dish is popularly associated with Klang, where the locals believe it to be the place of origin of bak kut teh.
 - (origin) Bak kut teh was popular among early Chinese immigrants, many of whom had also come from Fujian.
 - (origin) Bak kut teh comes from Malaysia.
+- (culture) The Hokkien and Teochew are traditionally tea-drinking cultures and this aspect runs deep in their cuisines.
 
 Learn more:
 
@@ -609,8 +609,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) In Thailand, wheat-based egg noodles are known as bami, which may be ordered as bami nam or bami haeng (egg noodles with soup and without soup respectively), and the noodles may be used in Chinese style stir-fried dishes.
 - (origin) Bakmi comes from Indonesia.
+- (about) In Thailand, wheat-based egg noodles are known as bami, which may be ordered as bami nam or bami haeng (egg noodles with soup and without soup respectively), and the noodles may be used in Chinese style stir-fried dishes.
 
 Learn more:
 
@@ -637,9 +637,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) Later on, a version with mung bean fillings was developed, and this version remains popular to this day.
 - (about) To differentiate their products, bakpia pathok makers named their products after their house number (e.g., Bakpia Pathok 25, Bakpia Pathok 75), a practice that remains to this day.
 - (origin) Bakpia pathok comes from Indonesia.
+- (about) Later on, a version with mung bean fillings was developed, and this version remains popular to this day.
 
 Learn more:
 
@@ -683,7 +683,7 @@ Balado is a type of hot and spicy bumbu (spice mixture) found in Minang cuisine 
 
 Fun facts:
 
-- (culture) Nevertheless, the term balado is more specifically referring to Minang cooking tradition, while sambal goreng refers to a more general Indonesian cuisine tradition.
+- (culture) The term balado is more specifically referring to Minang cooking tradition, while sambal goreng refers to a more general Indonesian cuisine tradition.
 - (about) Hot and spicy balado has become an inspiration for a popular dangdut song, "Sambalado", sung by Ayu Tingting.
 - (origin) Balado comes from Indonesia.
 
@@ -812,16 +812,16 @@ Bika ambon or golden cake or golden kuih bingka, is an Indonesian dessert made f
 
 Fun facts:
 
-- (origin) Originating from the city of Medan in North Sumatra, the cake is usually cooked twelve hours.
 - (about) Another popular explanation states that Bika Ambon derives its name from being first sold in Medan in Ambon street.
-- (culture) This cake is a further development of kue bingka, a famous traditional cake in the eastern parts of Indonesia.
+- (culture) Recently, bika ambon has become popular around Central Java, thanks to a few retail shops that sell various Indonesian traditional cakes.
+- (origin) Bika ambon comes from Indonesia.
 
 More fun facts (when the user asks for more):
 
 - (about) Although the name contains the word "Ambon", the name of an island and its largest city, Bika ambon is widely known as the specialty cake of Medan in North Sumatra and is often brought as a gift by those who visited the city.
 - (about) Nowadays, Mojopahit Street, Medan Petisah is the most famous sales region of bika ambon in Medan, North Sumatra.
-- (culture) Recently, bika ambon has become popular around Central Java, thanks to a few retail shops that sell various Indonesian traditional cakes.
-- (origin) Bika ambon comes from Indonesia.
+- (origin) Originating from the city of Medan in North Sumatra, the cake is usually cooked twelve hours.
+- (culture) This cake is a further development of kue bingka, a famous traditional cake in the eastern parts of Indonesia.
 
 Learn more:
 
@@ -842,8 +842,8 @@ Bir pletok is a non-alcoholic Indonesian drink of the Betawi people in Jakarta, 
 
 Fun facts:
 
-- (inspiration) The drink is inspired by the Dutch colonists that brought new traditions to Batavia; one being drinking alcoholic drinks late at night.
 - (origin) Bir pletok comes from Indonesia.
+- (inspiration) The drink is inspired by the Dutch colonists that brought new traditions to Batavia; one being drinking alcoholic drinks late at night.
 
 Learn more:
 
@@ -1025,11 +1025,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) During the Majapahit era, dishes made from black sticky rice were commonly served in traditional ceremonies and religious rituals, as black sticky rice was considered a special ingredient and symbol of prosperity.
 - (culture) In ancient Javanese tradition, Bubur ketan hitam was often included as part of offerings to ancestors and gods.
 - (culture) This dish also has philosophical meanings, symbolizing fertility and gratitude to nature.
 - (about) Over time, black sticky rice porridge has evolved into a popular everyday dish due to its sweet and rich taste.
 - (culture) The tradition of enjoying this dish continues to be preserved to this day.
+- (culture) During the Majapahit era, dishes made from black sticky rice were commonly served in traditional ceremonies and religious rituals, as black sticky rice was considered a special ingredient and symbol of prosperity.
 
 Learn more:
 
@@ -1051,8 +1051,8 @@ Bubur pedas is a traditional porridge dish for the Malays both in Sambas, West K
 
 Fun facts:
 
-- (origin) This type of porridge comes from the Malays on Sambas in West Kalimantan and later adapted as the food for the Sarawak Malays.
 - (origin) Bubur pedas comes from Indonesia.
+- (origin) This type of porridge comes from the Malays on Sambas in West Kalimantan and later adapted as the food for the Sarawak Malays.
 
 Learn more:
 
@@ -1247,8 +1247,8 @@ Cincalok, also cencaluk, is a Malay condiment that originated in Malacca, Malays
 
 Fun facts:
 
-- (history) Winstedt has written about "Cencaluk" in Malaysia in his book "The Circumstances of Malay Life - 1909".
 - (origin) Cincalok comes from Malaysia.
+- (history) Sir R. O. Winstedt has written about "Cencaluk" in Malaysia in his book "The Circumstances of Malay Life - 1909".
 
 Learn more:
 
@@ -1298,7 +1298,7 @@ A corn cookie (or maize cookie) is a type of cookie prepared with corn products.
 
 Fun facts:
 
-- (origin) Corn cookie comes from United States.
+- (origin) Corn cookie comes from the United States.
 
 Learn more:
 
@@ -1319,13 +1319,13 @@ Corn fritters are fried cakes of a dough or batter made of, or containing, a fea
 
 Fun facts:
 
-- (origin) Originating in Native American cuisine, they are a traditional sweet and savory snack in the Americas, the Southern United States, as well as Indonesia where they are known as perkedel jagung or bakwan jagung.
 - (culture) The corn fritter probably was invented in the Southern United States, whose traditional cuisine contains a lot of deep fried foods.
-- (origin) On the other side of the world, maize seeds from the Americas were introduced into Southeast Asia in the late 16th century through Spanish and Portuguese traders.
+- (origin) Corn fritter comes from Indonesia.
+- (origin) Originating in Native American cuisine, they are a traditional sweet and savory snack in the Americas, the Southern United States, as well as Indonesia where they are known as perkedel jagung or bakwan jagung.
 
 More fun facts (when the user asks for more):
 
-- (origin) Corn fritter comes from Indonesia.
+- (origin) On the other side of the world, maize seeds from the Americas were introduced into Southeast Asia in the late 16th century through Spanish and Portuguese traders.
 
 Learn more:
 
@@ -1346,13 +1346,13 @@ Coto Makassar or Coto Mangkasara (Makassarese), is an Indonesian traditional sou
 
 Fun facts:
 
-- (origin) The soup originates in the 16th-century in the Sultanate of Gowa, and was originally cooked for royal servants and soldiers.
 - (culture) Coto makassar is a variant of soto, traditionally made with beef, offal stew with seasoned broth made from ground peanuts and spices.
+- (origin) Coto makassar comes from Indonesia.
 - (culture) While it is now eaten regularly as a breakfast food in the region, it retains an association with weddings and religious celebrations.
 
 More fun facts (when the user asks for more):
 
-- (origin) Coto makassar comes from Indonesia.
+- (origin) The soup originates in the 16th-century in the Sultanate of Gowa, and was originally cooked for royal servants and soldiers.
 
 Learn more:
 
@@ -1394,7 +1394,7 @@ Fun facts:
 
 - (history) Crab in oyster sauce can trace its origin to Southern China's Cantonese cuisine, more precisely, after the development of oyster sauce in the late 19th century.
 - (about) Known in Indonesia as kepiting saus tiram, it is a popular seafood in Chinese Indonesian cuisine, being one of the two most popular ways of serving crab.
-- (origin) Crab in oyster sauce comes from People's Republic of China.
+- (origin) Crab in oyster sauce comes from the People's Republic of China.
 
 Learn more:
 
@@ -1460,9 +1460,9 @@ A curry puff is a snack of Southeast Asian origin.
 
 Fun facts:
 
-- (history) Although its origins are uncertain, the snack is believed to have developed in maritime Southeast Asia due in part to the various influences of the British Cornish pasty, the Portuguese empanada and the South Asian samosa during the colonial era.
 - (about) Many variations of the snack exist throughout Southeast Asia and India, where it is a popular snack food.
 - (origin) Curry puff comes from Malay Peninsula.
+- (history) Although its origins are uncertain, the snack is believed to have developed in maritime Southeast Asia due in part to the various influences of the British Cornish pasty, the Portuguese empanada and the South Asian samosa during the colonial era.
 
 Learn more:
 
@@ -1485,8 +1485,8 @@ Dadar gulung is a popular traditional kue (traditional snack) of sweet coconut p
 Fun facts:
 
 - (about) Dadar gulung is one of the popular snacks in Indonesia, especially in Java.
-- (culture) The snack is commonly found in traditional marketplaces and Warung in Indonesia, especially in Java, Bali and other regions.
 - (origin) Dadar gulung comes from Indonesia.
+- (culture) The snack is commonly found in traditional marketplaces and Warung in Indonesia, especially in Java, Bali and other regions.
 
 More fun facts (when the user asks for more):
 
@@ -1632,7 +1632,7 @@ Egg foo young (Chinese: 芙蓉蛋; pinyin: fúróngdàn; Jyutping: fu4 jung4 daa
 
 Fun facts:
 
-- (origin) Egg foo young comes from People's Republic of China.
+- (origin) Egg foo young comes from the People's Republic of China.
 
 Learn more:
 
@@ -1855,8 +1855,8 @@ Gethuk is an Indonesian-Javanese dish made from cassava.
 
 Fun facts:
 
-- (about) This kind of getuk is also known as getuk lindri.
 - (origin) Gethuk comes from Indonesia.
+- (about) This kind of getuk is also known as getuk lindri.
 
 Learn more:
 
@@ -1898,23 +1898,23 @@ Gulai is a type of spiced stew commonly found in the culinary traditions of Indo
 
 Fun facts:
 
-- (history) The establishment of the Sultanate of Malacca in the early 15th century marked a significant turning point in the region's culinary landscape.
 - (culture) By the 16th century, the dish was already well-established in the Malay culinary tradition, particularly within the courts of Malacca.
 - (origin) Additional testimony comes from Stamford Raffles, who in his 1817 account of early 19th-century Java described a type of soupy dish known as Gulai Melayu.
+- (inspiration) According to Raffles, the dish was named after its place of origin, Melayu (Malay), reflecting its association with the Malay region and culinary identity.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) According to Raffles, the dish was named after its place of origin, Melayu (Malay), reflecting its association with the Malay region and culinary identity.
 - (origin) The origins of gulai can be traced to Indian culinary influences introduced through maritime trade routes across the Indian Ocean.
-- (about) Over time, these foreign elements were adapted to local tastes with the incorporation of regional ingredients such as lemongrass, galangal, ginger and candlenut.
 - (culture) Regional interpretations of gulai vary in flavour, texture and ingredients, influenced by local preferences and culinary traditions.
-- (about) A related version known as guleh is also present in Javanese-Surinamese cuisine.
-- (culture) This longstanding interconnectedness fostered their emergence as important hubs for the transmission, adaptation and localisation of curry-based culinary traditions.
-- (culture) This convergence of cultures facilitated the further dissemination of spices, cooking techniques and food traditions.
 - (about) Indian culinary practices, in particular, were gradually adapted to suit local palates and ingredients, resulting in a distinctly Malay style of gulai.
 - (culture) Over time, gulai became a foundational component of the Malay gastronomic repertoire, commonly served during communal feasts, religious celebrations and courtly banquets.
 - (about) Outside the archipelagic region of Southeast Asia, gulai has also continued within the Javanese diaspora, including those in Suriname, where it is known as guleh among the local community.
 - (origin) Gulai comes from Indonesia.
+- (history) The establishment of the Sultanate of Malacca in the early 15th century marked a significant turning point in the region's culinary landscape.
+- (about) Over time, these foreign elements were adapted to local tastes with the incorporation of regional ingredients such as lemongrass, galangal, ginger and candlenut.
+- (about) A related version known as guleh is also present in Javanese-Surinamese cuisine.
+- (culture) This longstanding interconnectedness fostered their emergence as important hubs for the transmission, adaptation and localisation of curry-based culinary traditions.
+- (culture) This convergence of cultures facilitated the further dissemination of spices, cooking techniques and food traditions.
 
 Learn more:
 
@@ -2045,7 +2045,7 @@ Kaasstengels ( ), Kastengel or kue keju are a Dutch cheese snack in the shape of
 Fun facts:
 
 - (about) In Indonesia kaasstengels, together with nastar and putri salju are the popular kue kering ("dried kue", or cookie), during festive occasions, such as Natal (Christmas) and Lebaran (Eid al Fitr).
-- (origin) Kaasstengels comes from Netherlands.
+- (origin) Kaasstengels comes from the Netherlands.
 
 Learn more:
 
@@ -2095,21 +2095,21 @@ Kahk, also Kahk El Eid, is a sweet shortbread biscuit that is eaten in Egypt, pr
 Fun facts:
 
 - (culture) Kahk rose to greater prominence under the 10th-century Ikhshidid dynasty, which was the first to formally incorporate it into the Eid al-Fitr celebrations.
-- (history) Following the fall of the Fatimids, the Sunni Ayyubid dynasty came to power in 1174.
 - (about) Date-filled kahk are believed to be the origin of maamoul, a similar biscuit eaten in the Levant during Eid.
+- (history) Kahk is believed to date back to ancient Egypt.
 
 More fun facts (when the user asks for more):
 
-- (history) Kahk is believed to date back to ancient Egypt.
 - (history) Murals depicting people preparing kahk have been discovered in the ruins of temples in Memphis and Thebes, as well as in tombs dating to the Eighteenth Dynasty, approximately 3,500 years ago.
-- (origin) Larger, pie-sized versions known as shurik were also baked and brought to ancestral tombs, where they were believed to serve as magical amulets.
 - (culture) During the Tulunid dynasty bakers created kahk molds inscribed with religious expressions such as kol wishkur ("eat and thank God").
 - (history) For example, in 1124 CE (518 AH), the Fatimid caliph reportedly spent 20,000 dinars baking and distributing kahk filled with gold for Eid.
-- (culture) These biscuits were produced in a variety of geometric forms, and were even stamped with a solar disk, a symbol associated with the sun god Ra.
-- (culture) The tradition persisted after the advent of Christianity in Egypt.
+- (history) Following the fall of the Fatimids, the Sunni Ayyubid dynasty came to power in 1174.
 - (about) Despite his broad influence over Egyptian society, he was ultimately unsuccessful, underscoring the deeply rooted popularity of kahk.
 - (origin) Kahk comes from Egypt.
 - (about) Not to be confused with Kahk.
+- (origin) Larger, pie-sized versions known as shurik were also baked and brought to ancestral tombs, where they were believed to serve as magical amulets.
+- (culture) The tradition persisted after the advent of Christianity in Egypt.
+- (culture) These biscuits were produced in a variety of geometric forms, and were even stamped with a solar disk, a symbol associated with the sun god Ra.
 
 Learn more:
 
@@ -2179,7 +2179,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) However, since the dish has gained popularity (because of the increase of Asian-themed restaurants) Karedok sauce is now mostly made ahead of time and cooked in bulk, although this is probably more common in Western restaurants rather than in Indonesia.
+- (about) Since the dish has gained popularity (because of the increase of Asian-themed restaurants) Karedok sauce is now mostly made ahead of time and cooked in bulk, although this is probably more common in Western restaurants rather than in Indonesia.
 - (about) Not to be confused with Karedok.
 
 Learn more:
@@ -2268,7 +2268,7 @@ Ketoprak is an Indonesian vegetarian dish from Jakarta, consisting of tofu, vege
 Fun facts:
 
 - (about) Ketoprak is also believed that a man who loved eating invented the dish because he grew tiresome of the food he had normally eaten.
-- (origin) However, there is a debate on whether or not it actually originated in Jakarta.
+- (origin) There is a debate on whether or not it actually originated in Jakarta.
 - (origin) Some has claimed that the dish was first made in Cirebon, while others say that it comes from Central Java.
 
 More fun facts (when the user asks for more):
@@ -2319,25 +2319,25 @@ Klepon, also known as Onde-onde or Buah Melaka, is a traditional Southeast Asian
 
 Fun facts:
 
-- (culture) According to local tradition, this version has been part of ceremonial and culinary practices since at least the 13th or 14th century.
-- (history) In the Malay Peninsula, comparable confections are known as buah melaka and onde-onde, both of which appear in John Leyden’s 1810 Comparative Vocabulary of the Barmá, Maláya, and Thái Languages.
-- (inspiration) The traditional flavour combination of pandan, palm sugar and coconut has also inspired a range of modern desserts and beverages, including cakes, ice cream and instant coffee.
+- (culture) The confection is widely consumed in Indonesia, Malaysia, Brunei and Singapore, where it is commonly sold in traditional markets and classified as kue or kuih, terms for local confections often prepared for ceremonial or festive occasions.
+- (about) A comparable variant of this glutinous rice ball confection is found in South Sulawesi, where it is known as onde-onde, or umba-umba among the Makassar communities.
+- (origin) Klepon comes from Indonesia.
 
 More fun facts (when the user asks for more):
 
-- (culture) Their inclusion in this early lexicon indicates the established presence of such sweets within Malay culinary tradition by the early 19th century.
-- (culture) The confection is widely consumed in Indonesia, Malaysia, Brunei and Singapore, where it is commonly sold in traditional markets and classified as kue or kuih, terms for local confections often prepared for ceremonial or festive occasions.
-- (culture) The traditional sweet holds cultural significance across various communities in Maritime Southeast Asia.
 - (culture) In Bugis-Makassar and Balinese traditions, it features in ritual offerings and thanksgiving ceremonies.
-- (culture) In Javanese culture, the delicacy carries symbolic meanings associated with inner virtue and the cycle of life.
-- (about) A comparable variant of this glutinous rice ball confection is found in South Sulawesi, where it is known as onde-onde, or umba-umba among the Makassar communities.
 - (culture) Klepon is typically prepared for thanksgiving occasions such as housewarmings and the celebration of new acquisitions.
+- (culture) According to local tradition, this version has been part of ceremonial and culinary practices since at least the 13th or 14th century.
+- (history) In the Malay Peninsula, comparable confections are known as buah melaka and onde-onde, both of which appear in John Leyden’s 1810 Comparative Vocabulary of the Barmá, Maláya, and Thái Languages.
+- (culture) Their inclusion in this early lexicon indicates the established presence of such sweets within Malay culinary tradition by the early 19th century.
+- (culture) The traditional sweet holds cultural significance across various communities in Maritime Southeast Asia.
+- (culture) In Javanese culture, the delicacy carries symbolic meanings associated with inner virtue and the cycle of life.
+- (inspiration) The traditional flavour combination of pandan, palm sugar and coconut has also inspired a range of modern desserts and beverages, including cakes, ice cream and instant coffee.
 - (culture) Within Bugis-Makassar culture, these components carry symbolic meanings: palm sugar signifies joy or affection, rice flour represents strength and coconut denotes enjoyment.
 - (culture) The round shape of the confection symbolises unity and harmony, while the name umba-umba, meaning "to rise" or "to emerge", reflects cultural aspirations for prosperity and social advancement.
 - (culture) This symbolic meaning underlies its role as an essential offering during traditional thanksgiving rituals and ceremonial events in Bugis Makassar culture.
 - (culture) Onde-onde is also included in Deppa Pitu, a traditional grouping of seven ceremonial cakes associated with Bugis-Makassar food culture.
 - (culture) This set of confections is typically prepared for important ritual occasions and reflects longstanding customs surrounding symbolic food offerings.
-- (origin) Klepon comes from Indonesia.
 - (about) Not to be confused with Jin deui.
 
 Learn more:
@@ -2383,13 +2383,13 @@ Kompia or kompyang, also known as guang bing, is a bread product that originates
 Fun facts:
 
 - (inspiration) Kompia was named after Qi Jiguang, who invented it.
+- (origin) Kompyang comes from the People's Republic of China.
 - (history) When Qi Jiguang led his troops into Fujian in 1563, the Japanese pirates, fearing his name, engaged mainly in guerrilla-style battles.
-- (about) So Qi Jiguang invented a kind of bread with a hole in the center so that they could be strung together to be conveniently carried along.
 
 More fun facts (when the user asks for more):
 
+- (about) So Qi Jiguang invented a kind of bread with a hole in the center so that they could be strung together to be conveniently carried along.
 - (inspiration) Later, to commemorate Qi Jiguang's victory against the pirate raiders, the bread was named after him as guāng-bǐng (or "Guang cake").
-- (origin) Kompyang comes from People's Republic of China.
 
 Learn more:
 
@@ -2498,9 +2498,9 @@ Kue cubit is a Southeast Asian snack, originating from Indonesia.
 
 Fun facts:
 
-- (culture) The sellers of this snack usually operate near schools or traditional markets.
 - (inspiration) Another variant is called kue "laba-laba", referring to its spider-web-like form created by pouring the liquid dough spread around the steel plate.
 - (origin) Kue cubit comes from Indonesia.
+- (culture) The sellers of this snack usually operate near schools or traditional markets.
 
 Learn more:
 
@@ -2844,15 +2844,15 @@ More fun facts (when the user asks for more):
 
 - (history) In early Indonesian literature, lemang was mentioned in Marah Rusli's 1922 novel Siti Nurbaya, in which Nurbaya unwittingly eats a poisonous lemang due to Meringgih's evil scheme.
 - (culture) Derived cognates refer to a traditional dish made by cooking glutinous rice mixed with coconut milk inside a hollow bamboo tube lined with banana leaves to prevent sticking.
-- (culture) Sticky rice in bamboo is known as a ubiquitous traditional food in many traditional Southeast Asian communities.
 - (culture) In Minangkabau culture, lemang, or lamang is a traditional food which consists of glutinous rice or tapai that is used in various traditional ceremonies, mainly in West Sumatra, Indonesia.
-- (culture) However, lemang are also known as traditional foods of other tribes in the Southeast Asian region, and their cooking method is still very ancient and depends on natural materials and ingredients, including bamboo tubes.
+- (culture) Lemang are also known as traditional foods of other tribes in the Southeast Asian region, and their cooking method is still very ancient and depends on natural materials and ingredients, including bamboo tubes.
 - (culture) In Indonesia, Lemang is associated with Minangkabau tradition of West Sumatra.
 - (about) The Minahasan version of this dish is known as Nasi Jaha, which is cooked in the same method.
 - (culture) In Minangkabau tradition, lemang making is called Malamang.
-- (culture) However, there is no symbolic meaning behind the obligatory existence of lemang at traditional ceremonies.
+- (culture) There is no symbolic meaning behind the obligatory existence of lemang at traditional ceremonies.
 - (origin) Lemang comes from Indonesia.
 - (about) Not to be confused with Lemang.
+- (culture) Sticky rice in bamboo is known as a ubiquitous traditional food in many traditional Southeast Asian communities.
 
 Learn more:
 
@@ -2922,10 +2922,10 @@ More fun facts (when the user asks for more):
 - (culture) Lontong cap go meh is usually consumed by the Chinese Indonesian community during the Cap go meh celebration.
 - (culture) To celebrate Chinese New Year, during Cap go meh, Peranakan of Java replaced the traditional yuanxiao (rice ball) with local lontong accompanied with an array of Javanese dishes such as opor ayam and sambal goreng ati (spicy beef liver).
 - (culture) The elongated form of lontong also symbolizes longevity.
-- (culture) While eggs symbolize good fortune and yellowish turmeric-coconut milk broth represents gold and fortune.
 - (culture) When eating the dish during Chinese New Year, it is the tradition in Medan to jump after taking each mouthful, saying "Boing, tjampolin, boing".
 - (culture) It is commonly associated with Imlek traditions of Chinese Indonesians in Javan cities, especially Semarang.
 - (origin) Lontong cap go meh comes from Indonesia.
+- (culture) While eggs symbolize good fortune and yellowish turmeric-coconut milk broth represents gold and fortune.
 
 Learn more:
 
@@ -3063,13 +3063,13 @@ Martabak manis also known as Apam balik, terang bulan, peanut pancake, or ban ji
 
 Fun facts:
 
-- (history) The invention has been attributed, though without evidence, to Zuo Zongtang, a military leader of the late Qing dynasty.
 - (origin) In Indonesia, this dish originated in Bangka Belitung Islands by ethnic Chinese (Hokkien and Khek) and it was named “Hok Lo Pan” which translates to “Hoklo ethnicity’s cake.” Its traditional topping includes sugar and sesame seeds.
+- (history) The invention has been attributed, though without evidence, to Zuo Zongtang, a military leader of the late Qing dynasty.
 - (history) In 1855, the army of the Taiping Heavenly Kingdom invaded the Fujian region and General Zuo was appointed to lead an army to crush the rebels.
 
 More fun facts (when the user asks for more):
 
-- (origin) Martabak manis comes from People's Republic of China, Indonesia.
+- (origin) Martabak manis comes from the People's Republic of China, Indonesia.
 
 Learn more:
 
@@ -3161,8 +3161,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) This is evidenced by the large number of ethnic Chinese selling noodles there since the early 18th century.
 - (history) In Indonesia, the dish is recognized as a popular Chinese Indonesian dish, served by restaurants, street-side warung, and travelling vendor carts frequenting residential areas.
+- (history) This is evidenced by the large number of ethnic Chinese selling noodles there since the early 18th century.
 
 Learn more:
 
@@ -3185,11 +3185,11 @@ Fun facts:
 
 - (origin) Modern mie bakso was first developed by traditions brought by the Hakka Chinese, specifically the Chaoshang region of Guangdong during the late 19th century by introducing beef meatballs.
 - (culture) Along with soto, satay and siomay, mie bakso is one of the most popular street foods in Indonesia.
-- (culture) These traditions eventually spread to Southeast Asia through Chinese migrations, reaching Indonesia.
+- (origin) Mie bakso comes from Indonesia.
 
 More fun facts (when the user asks for more):
 
-- (origin) Mie bakso comes from Indonesia.
+- (culture) These traditions eventually spread to Southeast Asia through Chinese migrations, reaching Indonesia.
 
 Learn more:
 
@@ -3362,12 +3362,8 @@ Mie Kering or Makassar Dried Noodle is a Chinese Indonesian cuisine, a type of d
 
 Fun facts:
 
-- (history) He opened his noodle shop to sell his dried noodle and it gaining popularity in Makassar since early 1970s.
 - (about) Titi's are the most popular in Makassar, hence the name of "Mie Titi" become synonymous with Makassar dried noodle.
 - (origin) Mie kering comes from Indonesia.
-
-More fun facts (when the user asks for more):
-
 - (about) Mie Kering is one of the most famous Makassar dishes, the others are Coto Makassar and Konro.
 
 Learn more:
@@ -3454,14 +3450,14 @@ Murtabak, or mutabbaq, is a stuffed pancake or pan-fried bread commonly found in
 Fun facts:
 
 - (origin) This suggests that murtabak might originate from Yemen, which had a sizeable Indian population; Through Indian traders it spread back to their home countries.
-- (inspiration) Another version of muttabaq was created by a former Ottoman Empire soldier named Mohammed Zalatimo in the Old City of Jerusalem in 1860.
+- (inspiration) In Indonesia, the term martabak refers to two dishes: martabak manis, based on apam balik, and martabak telur, which resembles murtabak the closest and includes egg, meat, and scallions.
 - (culture) This dish is made not only at home, but often found in inexpensive food service menus specialising in traditional cuisine, which is why it has the reputation of street food.
 
 More fun facts (when the user asks for more):
 
 - (origin) Murtabak was then brought to Southeast Asia by Tamil Muslim traders. 17th century Ottoman traveller Evliya Çelebi described spiced mutabbak being made in Anatolia and Egypt, which was a pastry of thin dough cooked in a tandoor, food historian Priscilla Mary Işın likened this dish to gözleme.
-- (inspiration) In Indonesia, the term martabak refers to two dishes: martabak manis, based on apam balik, and martabak telur, which resembles murtabak the closest and includes egg, meat, and scallions.
 - (origin) Murtabak comes from Yemen.
+- (inspiration) Another version of muttabaq was created by a former Ottoman Empire soldier named Mohammed Zalatimo in the Old City of Jerusalem in 1860.
 
 Learn more:
 
@@ -3658,14 +3654,14 @@ Nasi goreng, (Indonesian and Malay for 'fried rice') is a Southeast Asian rice d
 
 Fun facts:
 
+- (history) Tante Lien's song "Geef Mij Maar Nasi Goreng" (Just Give Me Nasi Goreng), composed and recorded in 1979, illustrates historical culinary ties between the Netherlands and Indonesia, as well as whimsically describing the craving of people of Indo (Eurasian) descent repatriated in the Netherlands for Indonesian cuisine.
 - (origin) Fried rice is generally believed to have originated in China during the Sui dynasty (589–618 CE), particularly in the city of Yangzhou.
-- (history) In China, the stir frying technique became increasingly popular during the Ming dynasty (1368–1644 CE).
 - (culture) Nasi goreng is regarded as a national dish of Indonesia, while in Malaysia it is officially recognised as part of the country’s national culinary heritage.
 
 More fun facts (when the user asks for more):
 
-- (history) Tante Lien's song "Geef Mij Maar Nasi Goreng" (Just Give Me Nasi Goreng), composed and recorded in 1979, illustrates historical culinary ties between the Netherlands and Indonesia, as well as whimsically describing the craving of people of Indo (Eurasian) descent repatriated in the Netherlands for Indonesian cuisine.
 - (history) In February 1973 Philip Proctor and Peter Bergman from The Firesign Theatre released their first solo album TV or Not TV on which a character named "Nasi Goreng" sings a song of the same name to introduce himself.
+- (history) In China, the stir frying technique became increasingly popular during the Ming dynasty (1368–1644 CE).
 - (origin) Collins English Dictionary defines it as "a dish, originating in Malaysia, consisting of rice fried with a selection of other ingredients".
 - (origin) Surinamese nasi is typically served with a mix of meats, such as moksi meti (a combination of roasted meats) or roasted chicken, which originates from Chinese-Surinamese cuisine.
 - (origin) Although originating from Indonesian migrants, the version of nasi goreng in Suriname has evolved over time to incorporate local flavors and variations in herbs and spices.
@@ -3764,8 +3760,8 @@ Nasi kari is an Indian Indonesian rice dish, commonly found in Sumatran (Acehnes
 Fun facts:
 
 - (about) The first word, Nasi means cooked rice in Malay and Indonesian.
-- (origin) Its development is unclear, either originating from the Arab-Indian-Malay spice traditions of Sumatra, or Hokkien settlers from Thailand.
 - (culture) Nasi kari has regional variants across Indonesia because of the difference between curry preparations with local ingredients and traditions.
+- (origin) Its development is unclear, either originating from the Arab-Indian-Malay spice traditions of Sumatra, or Hokkien settlers from Thailand.
 
 More fun facts (when the user asks for more):
 
@@ -3843,8 +3839,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (inspiration) One legend tells the story of a young girl named Seri in Malacca who accidentally spilled coconut milk into rice while she was cooking for her mother.
 - (culture) Nasi lemak was nominated to the UNESCO Intangible Cultural Heritage List in 2024 by Malaysia, where it was subsequently listed.
+- (inspiration) One legend tells the story of a young girl named Seri in Malacca who accidentally spilled coconut milk into rice while she was cooking for her mother.
 - (culture) Traditionally, nasi lemak is wrapped and served in banana leaves, together with a hot spicy sauce (sambal) and various garnishes, including fresh cucumber slices, fried anchovies (ikan bilis), roasted peanuts, and hard-boiled or fried eggs.
 - (culture) In January 2019, Google released a Google Doodle celebrating nasi lemak.
 - (culture) A traditional Malaysian nasi lemak calls for rice and a serving of sambal, anchovies, peanuts, and boiled egg.
@@ -4022,21 +4018,21 @@ Nasi uduk is an Indonesian-style steamed rice cooked in coconut milk dish, espec
 
 Fun facts:
 
-- (history) Moreover, after the fall of Portuguese Malacca to the Dutch in 1641, the link between the two port cities was enforced tremendously since finally, both belonged to the Dutch empire.
 - (origin) On the other hand, some historians suggested that nasi uduk was originated from Java.
+- (history) Nasi uduk is mentioned in early 19th century Javanese literature Serat Centhini as sega wuduk.
 - (about) According to the book Kuliner Betawi Selaksa Rasa & Cerita (2016) written by Akademi Kuliner Indonesia, the term uduk etymology derived from the term that means "difficult" or "struggle", which suggested that this rice dish was originally consumed by farmers and hard labourers.
 
 More fun facts (when the user asks for more):
 
-- (culture) On the other hand, some people connected the etymology to the Javanese traditions.
-- (about) According to the book Makanan Khas Betawi (2018) by Lilly T.
-- (about) Erwin, nasi uduk is a Betawi food that is quite popular and easy to find in almost all corners of Jakarta.
+- (about) According to the book Makanan Khas Betawi (2018) by Lilly T. Erwin, nasi uduk is a Betawi food that is quite popular and easy to find in almost all corners of Jakarta.
 - (culture) Despite its current popularity in the Jakarta area, historians suggest that the origin of this rice dish can be traced to the influence of two culinary traditions: Malay and Javanese.
 - (origin) According to historians, there were historic trade and migration links connecting the port of Malacca and the port of Batavia, thus Malay traders and immigrants frequently visited Batavia, thus they brought the nasi lemak cooking tradition into Batavia.
 - (inspiration) Nasi uduk was the brainchild of Sultan Agung of Mataram, a Javanese ruler, inspired by his experience consuming kebuli rice.
 - (about) The phrase is often translated to kebuli (popular among Arabic descent in Indonesia) or biryani (an Indian Muslim dish) as these two dishes are the most commonly known among Javanese Muslims.
 - (origin) Nasi uduk comes from Indonesia.
 - (about) Not to be confused with Nasi lemak.
+- (history) After the fall of Portuguese Malacca to the Dutch in 1641, the link between the two port cities was enforced tremendously since finally, both belonged to the Dutch empire.
+- (culture) On the other hand, some people connected the etymology to the Javanese traditions.
 
 Learn more:
 
@@ -4101,13 +4097,13 @@ Ngo hiang, also known as heh gerng lor bak or kikiam is a Hokkien and Teochew di
 Fun facts:
 
 - (about) Ngo hiang is essentially a composition of various meats and vegetables and other ingredients, such as a sausage-like roll consisting of minced pork and prawn (or fish) seasoned with five-spice powder after which it is named, rolled inside a tofu skin and deep-fried.
-- (origin) The Philippine versions were originally introduced by Hokkien migrants and are generally known as kikiam.
 - (culture) A street food dish also sometimes called "kikiam" (called "tempura" in Cebu) in the Philippines is neither of those dishes, but is instead an elongated version of fishballs.
+- (origin) Ngo hiang comes from the People's Republic of China.
 
 More fun facts (when the user asks for more):
 
+- (origin) The Philippine versions were originally introduced by Hokkien migrants and are generally known as kikiam.
 - (culture) The street food version of kikiam was made from pork, not fish.
-- (origin) Ngo hiang comes from People's Republic of China.
 
 Learn more:
 
@@ -4130,7 +4126,7 @@ Fun facts:
 
 - (about) This sticky sweet snack was believed to be an offering to the Kitchen God, with the aim that his mouth will be stuck with the sticky cake, so that he cannot badmouth the human family in front of the Jade Emperor.
 - (culture) While it can be eaten all year round, traditionally it is most popular during the Chinese New Year.
-- (origin) Nian gao comes from People's Republic of China.
+- (origin) Nian gao comes from the People's Republic of China.
 
 More fun facts (when the user asks for more):
 
@@ -4181,18 +4177,18 @@ An oliebol is a Dutch beignet, a variety of doughnut that is traditionally eaten
 
 Fun facts:
 
-- (about) They are said by some to have been first eaten by Germanic tribes in the Netherlands during the Yule, the period between December 21 and January 2 where such baked goods were used.
 - (origin) Oliebol has also been speculated that they were introduced to the Netherlands in the 15th century by Portuguese Sephardi Jewish immigrants; the food being related to the Jewish sufganiyah traditionally eaten on Hanukkah.
 - (history) The earliest discovered recipe of oliekoecken ("oil cookies", the direct precursor of the oliebol) came from the 1667 Dutch book De verstandige kock "The sensible cook".
+- (about) In English they are more commonly known as Dutch doughnuts or dutchies.
 
 More fun facts (when the user asks for more):
 
 - (history) Oliebol dates from 1600-.
-- (about) In English they are more commonly known as Dutch doughnuts or dutchies.
+- (origin) Oliebol comes from the Netherlands.
 - (about) In Nigeria, they are known as 'puff puff'.
 - (about) In Iceland they're known as ástarpungar ('love balls').
 - (about) In Zambia they're known as Chitumbuwa ('fritters').
-- (origin) Oliebol comes from Netherlands.
+- (about) They are said by some to have been first eaten by Germanic tribes in the Netherlands during the Yule, the period between December 21 and January 2 where such baked goods were used.
 
 Learn more:
 
@@ -4332,7 +4328,7 @@ Pandan cake is a light, fluffy, green-coloured sponge cake flavoured with the ju
 Fun facts:
 
 - (origin) The pandan plant is believed to be native to the Moluccas islands of Indonesia.
-- (history) However, the modern pandan chiffon cake can be more directly traced back to 20th century America.
+- (history) The modern pandan chiffon cake can be more directly traced back to 20th century America.
 - (about) The cake is popular in Malaysia, Indonesia, Singapore, Vietnam, Cambodia, Laos, Thailand, Sri Lanka, Hong Kong, China, and the Netherlands.
 
 More fun facts (when the user asks for more):
@@ -4390,8 +4386,8 @@ Pecel is a traditional Javanese salad with peanut sauce, usually eaten with stea
 Fun facts:
 
 - (history) Pecel is an ancient food that has existed since the 9th century AD, the era of the Ancient Mataram Kingdom under the reign of king Rakai Watukura Dyah Balitung (898–930 AD) which was recorded in the Kakawin Ramayana.
-- (about) The simplicity of its preparation and cheap price has contributed to its popularity throughout Java.
 - (origin) Pecel was introduced to Malaysia, where it is known as pecal, by Javanese immigrants.
+- (about) The simplicity of its preparation and cheap price has contributed to its popularity throughout Java.
 
 More fun facts (when the user asks for more):
 
@@ -4421,13 +4417,13 @@ Fun facts:
 
 - (origin) Some suggest that pempek probably originated from ancient kelesan, a steamed dish made of the mixture of sago dough with fish flesh, dated as early as Srivijayan era circa 7th century CE.
 - (history) Before the introduction of tapioca in Asia in the 16th century A.D., pempek had been made with sago flour, in which the dish known as kelesan at that time.
-- (culture) According to local tradition, around the 16th century there was an old Chinese immigrant who lived near the Musi river.
+- (culture) Traditional folklore connects it with Chinese influences.
 
 More fun facts (when the user asks for more):
 
-- (about) In the Sumatran tropical climate, before the invention of refrigeration technology, most of these unsold leftover fish decayed and were wasted.
-- (culture) Traditional folklore connects it with Chinese influences.
 - (origin) Pempek comes from Indonesia.
+- (culture) According to local tradition, around the 16th century there was an old Chinese immigrant who lived near the Musi river.
+- (about) In the Sumatran tropical climate, before the invention of refrigeration technology, most of these unsold leftover fish decayed and were wasted.
 
 Learn more:
 
@@ -4560,15 +4556,15 @@ A potato doughnut, sometimes called a spudnut, is a type of doughnut, typically 
 
 Fun facts:
 
-- (history) A recipe was published in a 1915 printing of the Five Roses Cook Book in Canada and also in 1938 in the Glenna Snow Cook Book.
+- (history) In the late 1930s, Vernon Rudolph began selling Krispy Kreme doughnuts, using a recipe containing potatoes.
+- (origin) Potato doughnut comes from the United States.
 - (about) A chain of Spudnut Shops was established and spread to more than 500 locations in the United States before being thinned out to around 50 in the mid-2000s.
-- (origin) Potato doughnut comes from United States.
 
 More fun facts (when the user asks for more):
 
+- (history) A recipe was published in a 1915 printing of the Five Roses Cook Book in Canada and also in 1938 in the Glenna Snow Cook Book.
 - (history) A chain of Spudnut Shops was established across the United States in the 1940s before declining to a few dozen more recently.
 - (history) Syndicated recipes appeared in American newspapers as early as the 1870s.
-- (history) In the late 1930s, Vernon Rudolph began selling Krispy Kreme doughnuts, using a recipe containing potatoes.
 
 Learn more:
 
@@ -4590,19 +4586,19 @@ A profiterole, or chou à la crème, known as a cream puff in the US and Canada,
 Fun facts:
 
 - (inspiration) A widely-repeated legend claims that choux pastry, the key ingredient of profiteroles, was invented by the head chef to the court of Catherine de' Medici, but this is a 19th-century invention.
-- (history) Joseph Menon in his Traité de cuisine (1732) and François Marin in Les Dons de Comus (1750) give other examples of savory recipes while keeping the same principle.
+- (history) The French word profiterole, 'small profit, gratification', has been used in cuisine since the 16th century.
 - (origin) Profiterole comes from France.
 
 More fun facts (when the user asks for more):
 
-- (history) The French word profiterole, 'small profit, gratification', has been used in cuisine since the 16th century.
 - (history) In the 17th century, profiteroles were small hollow bread rolls filled with a mixture of sweetbreads, truffles, artichoke bottoms, mushrooms, pieces of partridge, pheasant, or various poultry, accompanied by garnish.
 - (history) François Massialot in Le Cuisinier royal et bourgeois (1698) gives several recipes for profiterole soup, with fillings of minced ham and poultry on a stew of mushrooms, asparagus, artichoke bottoms, rooster crests, sweetbreads, and truffles.
 - (history) The profiteroles we know today, using choux pastry, were created in the 19th century.
 - (history) Jules Gouffé in his Livre de cuisine (1870) explains that a profiterole is a small choux pastry.
 - (history) Gustave Garlin in Le Cuisinier moderne (1887) mentions profiteroles filled with cream and glazed with chocolate or coffee, worked to be smooth and shiny.
-- (history) The pastry cook's art of choux pastry began to develop around the 17th century.
 - (history) The patissier Jean Avice developed the pastry further in the middle of the 18th century and created choux buns, with the dough becoming known as 'pâte à choux', since only choux buns were made from it.
+- (history) Joseph Menon in his Traité de cuisine (1732) and François Marin in Les Dons de Comus (1750) give other examples of savory recipes while keeping the same principle.
+- (history) The pastry cook's art of choux pastry began to develop around the 17th century.
 - (about) Not to be confused with cream puff.
 
 Learn more:
@@ -4675,25 +4671,25 @@ Rendang is a stir-fried meat dish or dry curry made of meat stewed in coconut mi
 
 Fun facts:
 
-- (history) Gusti Asnan notes that the earliest recorded mention of randang in the Minangkabau context appears in J.L. van der Toorn's Minangkabau-Malay-Dutch dictionary published in 1891.
+- (history) Historical records from the 19th century, including newspaper reports and travelogues, often described the key ingredients of rempah (spice paste) used in rendang, as well as its regional variations.
 - (origin) In 20th century, the deeply rooted migratory tradition of the Minangkabau people further maintained and contributed to the dish's spread, as they introduced Minang-style rendang to the various places they settled.
 - (culture) Indonesia granted rendang cultural heritage status in 2013 and officially declared it one of its national dishes in 2018.
 
 More fun facts (when the user asks for more):
 
-- (history) Historical records from the 19th century, including newspaper reports and travelogues, often described the key ingredients of rempah (spice paste) used in rendang, as well as its regional variations.
 - (history) In 1881, when King David Kalākaua of Hawaii visited Johor, Sultan Abu Bakar served rendang tenggiri as part of the royal reception.
 - (history) The introduction of chili peppers by the Portuguese through the Columbian exchange after the capture of Malacca in 1511, played a key role in the evolution of rendang.
 - (history) For instance, Munshi Abdullah in his 1838 travelogue to Kelantan described the people of Terengganu enjoying rendang pisang (fried banana fritters) — what the Malays now called goreng pisang or pisang goreng.
 - (history) A 1960 article from Azizah Ja'afar in Berita Harian's Dewan Wanita section lists rendang as "frying with a generous amount of oil", similar to merendang pisang or jemput-jemput (fried fritters), where the things being fried would float in the hot oil.
 - (origin) The name rendang comes from the frying process; by the late 19th century, rendang was associated more specifically with a type of dry curry by British colonial officials in Malaya, where it is noted that Malays distinguished rendang as a dry curry and gulai as a wet curry.
+- (history) In 1873, J.F.A. McNair described a royal Malay banquet featuring dishes such as rendang tenggiri and rendang chinchang Plentong.
+- (history) Gusti Asnan notes that the earliest recorded mention of randang in the Minangkabau context appears in J.L. van der Toorn's Minangkabau-Malay-Dutch dictionary published in 1891.
 - (culture) As a signature dish in Southeast Asian Muslim cuisines—Malay, Minangkabau (as samba randang), and Moro (as riyandang)—rendang is traditionally served at ceremonial occasions and festive gatherings, such as wedding feasts and Hari Raya (Eid al-Fitr and Eid al-Adha).
 - (about) In 2009, Malaysia recognized rendang as a heritage food.
-- (culture) Additionally, "rendang" is also the name of a traditional Malay dish known for its rich, spicy flavors, such as rendang santan (meat cooked in coconut milk), and rendang pedas (spiced meat).
-- (culture) Another manuscript, Hikayat Awang Sulung Merah Muda, reflects 18th-century life and cooking traditions.
+- (culture) "rendang" is also the name of a traditional Malay dish known for its rich, spicy flavors, such as rendang santan (meat cooked in coconut milk), and rendang pedas (spiced meat).
 - (culture) Rendang was officially recognized by Malaysia as a National Heritage food in 2009, celebrated for its rich diversity across the country.
-- (about) Randang from West Sumatra was granted cultural heritage status in 2013 by the Indonesian government.
 - (origin) Rendang comes from Indonesia.
+- (culture) Another manuscript, Hikayat Awang Sulung Merah Muda, reflects 18th-century life and cooking traditions.
 
 Learn more:
 
@@ -4765,15 +4761,15 @@ Rojak or rujak is a salad dish of Javanese origin, commonly found in Indonesia, 
 
 Fun facts:
 
+- (origin) Rojak was later introduced to other regions and neighboring countries by the Javanese diaspora as well as by Indian migrants from Java.
 - (history) Alternatively, its origin may be the word rurujak, meaning a mixture of chopped unripe fruit, as attested in the ancient Taji Inscriptions (901 CE) from the era of the Mataram kingdom in Central Java.
 - (about) The most popular variant in all three countries is composed of a mixture of sliced fruit and vegetables and served with a spicy palm sugar dressing.
-- (origin) Rojak was later introduced to other regions and neighboring countries by the Javanese diaspora as well as by Indian migrants from Java.
 
 More fun facts (when the user asks for more):
 
+- (origin) Rojak comes from Indonesia.
 - (about) In Indonesia, particularly among the Javanese, the sweet, spicy, and sour tastes of rujak are popular among pregnant women; this craving for unripe mango and other sour-tasting fruits is known as ngidham or nyidham in Javanese.
 - (culture) In Javanese culture, rujak is an essential part of the traditional prenatal ceremony called naloni mitoni or tujuh bulanan and is meant to wish the mother-to-be a safe, smooth, and successful labour.
-- (origin) Rojak comes from Indonesia.
 
 Learn more:
 
@@ -4814,16 +4810,16 @@ Roti buaya is a Betawi two piece sweetened bread in the shape of a crocodile.
 
 Fun facts:
 
-- (about) The Betawi believe that crocodiles mate with only one partner; therefore, the bread is believed to represent the fidelity of married couples.
 - (culture) Roti buaya is always present in traditional Betawi wedding ceremonies.
-- (origin) Bread and pastry-making was introduced by Europeans that settled in Batavia (Jakarta), the Portuguese and Dutch.
+- (origin) Before the arrival of the Europeans who introduced bread, the crocodile shaped dish was made from yam or cassava.
+- (about) The Betawi believe that crocodiles mate with only one partner; therefore, the bread is believed to represent the fidelity of married couples.
 
 More fun facts (when the user asks for more):
 
-- (origin) Before the arrival of the Europeans who introduced bread, the crocodile shaped dish was made from yam or cassava.
-- (culture) Crocodiles have traditionally been considered to be very patient.
-- (culture) However, in modern culture the symbolism of the crocodile has changed.
 - (origin) Roti buaya comes from Indonesia, Jakarta.
+- (origin) Bread and pastry-making was introduced by Europeans that settled in Batavia (Jakarta), the Portuguese and Dutch.
+- (culture) Crocodiles have traditionally been considered to be very patient.
+- (culture) In modern culture the symbolism of the crocodile has changed.
 
 Learn more:
 
@@ -5150,8 +5146,8 @@ Sate taichan is a variation of chicken satay grilled and served without peanut o
 
 Fun facts:
 
-- (about) Initially, there was a young couple (the man was from Japan, while the woman was originally from Indonesia) who wanted to buy satay in the Senayan, Jakarta, around 2012.
 - (origin) Sate taichan comes from Indonesia.
+- (about) Initially, there was a young couple (the man was from Japan, while the woman was originally from Indonesia) who wanted to buy satay in the Senayan, Jakarta, around 2012.
 
 Learn more:
 
@@ -5257,7 +5253,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) Nevertheless, the pleasantly soft and chewy texture along with its broth's savoury rich and spicy taste has made seblak an Indonesian, especially Sundanese street food favourite.
+- (culture) The pleasantly soft and chewy texture along with its broth's savoury rich and spicy taste has made seblak an Indonesian, especially Sundanese street food favourite.
 - (origin) Seblak comes from Indonesia.
 
 Learn more:
@@ -5323,16 +5319,16 @@ Serabi, surabi, srabi or serabai is a traditional Bali–Java snack, similar to 
 Fun facts:
 
 - (origin) Originating in Java, the popularity of serabi has spread to neighbouring islands, especially Bali, (srabi) in Balinese.
-- (culture) This spread was due to Javanese migration, notably during the Majapahit era (14th–16th century) when western coastal Balinese adopted the food as an 'offering snack for the gods' in their local Balinese Hindu rituals.
 - (history) During the 17th century, when the Dutch colonized Java (and other Indonesian regions in general), serabi and also dadar gulung (rolled coconut pancake) became colloquially known as the Javaans pannenkoek due to its shape, which resembles the pannenkoek (Dutch pancake).
+- (culture) Most traditional serabi tastes sweet, as these pancake-like desserts are usually eaten with kinca, a golden-brown coconut sugar syrup in the Sundanese culinary tradition.
 
 More fun facts (when the user asks for more):
 
-- (culture) Most traditional serabi tastes sweet, as these pancake-like desserts are usually eaten with kinca, a golden-brown coconut sugar syrup in the Sundanese culinary tradition.
 - (about) Serabi, known as serabai in Malay, can also be found in Malaysia.
 - (culture) The history of serabi is unknown, but these traditional snacks are commonly served as an offering in Javanese folk religion rituals as a symbol of gratitude towards God or the local deities of Java.
-- (culture) However, the Suriname Javanese community in South America still uses the term Javaans pannenkoek to refer to serabi, dadar gulung, and similar traditional Javanese pancake-like snacks.
+- (culture) The Suriname Javanese community in South America still uses the term Javaans pannenkoek to refer to serabi, dadar gulung, and similar traditional Javanese pancake-like snacks.
 - (origin) Serabi comes from Indonesia.
+- (culture) This spread was due to Javanese migration, notably during the Majapahit era (14th–16th century) when western coastal Balinese adopted the food as an 'offering snack for the gods' in their local Balinese Hindu rituals.
 
 Learn more:
 
@@ -5353,8 +5349,8 @@ Serundeng refers to a Javanese spiced grated coconut side dish or condiment orig
 
 Fun facts:
 
-- (culture) The spiced shredded toasted coconut can be mixed with peanuts, used as a condiment to add flavour, or used as a garnish sprinkled upon rice-based dishes, such as steamed rice, lontong, ketan sticky rice, and burasa; or upon traditional soto soups.
 - (origin) Serundeng comes from Indonesia.
+- (culture) The spiced shredded toasted coconut can be mixed with peanuts, used as a condiment to add flavour, or used as a garnish sprinkled upon rice-based dishes, such as steamed rice, lontong, ketan sticky rice, and burasa; or upon traditional soto soups.
 
 Learn more:
 
@@ -5407,14 +5403,12 @@ Sop saudara is an Indonesian beef or buffalo soup specialty from Makassar city, 
 Fun facts:
 
 - (inspiration) Sop Saudara was created by Haji Dollahi, who previously worked for Haji Subair, a prominent Coto Makassar seller in Makassar during the 1950s.
-- (origin) Both individuals originated from a town in Pangkajene Islands Regency (Pangkajene Kepulauan or Pangkep) and were engaged in selling traditional meat soup.
+- (origin) Sop saudara comes from Indonesia.
 - (history) In 1957, after three years of working for Haji Subair, Haji Dollahi established his own business.
 
 More fun facts (when the user asks for more):
 
-- (about) His first stall was located in the Karebosi area of Makassar.
 - (inspiration) The name "sop saudara" (meaning "brotherly soup") was inspired by the *warung* name coto paraikatte, which sold Coto Makassar.
-- (origin) Sop saudara comes from Indonesia.
 
 Learn more:
 
@@ -5527,12 +5521,12 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (culture) The sup kambing was adopted by locals, and often linked to the Islamic festival of kurban (Eid al-Adha), where large numbers of cattle – including goats, are slaughtered and distributed among people.
-- (history) Tomato and potato are not available in Southeast Asia until European colonials brought them from the Americas around the 17th century.
 - (inspiration) The most famous sup kambing in Singapore is the sup tulang merah which was invented by Baharudeen, Abdul Hameed (mammaka) and Abdul Kadir who were migrants from a remote village Thopputhurai in Tamilnadu.
 - (culture) Traditionally, sup kambing together with gulai and sate kambing are quite widespread during Eid al-Adha, as large amount of goat meat and offals being distributed among people.
+- (origin) Sup kambing comes from Indonesia.
+- (history) Tomato and potato are not available in Southeast Asia until European colonials brought them from the Americas around the 17th century.
 - (about) Despite its wide popularity in Maritime Southeast Asia, the question of origin however, might be owed to the Arabs and Muslim Indian migrations into the region.
 - (origin) The Arabs settlers introduced and promoted goat, lamb and mutton as their preferred meat, thus several dishes influenced by Arab and Muslim Indian culinary traditions were introduced to Sumatra, Malay peninsula and Java.
-- (origin) Sup kambing comes from Indonesia.
 
 Learn more:
 
@@ -5642,8 +5636,8 @@ Tahu goreng (Indonesian spelling) or tauhu goreng (Bruneian, Malaysian and Singa
 Fun facts:
 
 - (history) Its first arrival in Indonesia is estimated through the Khubilai Khan's army in Kediri in 1292.
-- (origin) Tofu originated from China and was brought to Southeast Asia by Chinese immigrants to the region.
 - (origin) Tahu goreng comes from ASEAN.
+- (origin) Tofu originated from China and was brought to Southeast Asia by Chinese immigrants to the region.
 
 Learn more:
 
@@ -5687,7 +5681,7 @@ Fun facts:
 
 - (origin) The tauco of Indonesia originated from the acculturation between Chinese and Sundanese ethnic groups in Cianjur.
 - (culture) Tauco is also used in other Indonesian cuisine traditions, such as Sundanese cuisine and Javanese cuisine, as well as by non-Chinese Malaysians, Singaporeans, Bruneians, and Thais.
-- (origin) Tauco comes from People's Republic of China.
+- (origin) Tauco comes from the People's Republic of China.
 
 Learn more:
 
@@ -5732,8 +5726,8 @@ Teh talua or teh telur (egg tea) is a tea beverage from West Sumatra, Indonesia.
 
 Fun facts:
 
-- (culture) A traditional method of preparing this drink involves stirring the egg yolk and two spoons of sugar or condensed milk in a glass until a batter is developed.
 - (origin) Teh talua comes from Indonesia.
+- (culture) A traditional method of preparing this drink involves stirring the egg yolk and two spoons of sugar or condensed milk in a glass until a batter is developed.
 
 Learn more:
 
@@ -5798,20 +5792,20 @@ Tempeh or tempe is a traditional Indonesian food made from fermented soybeans.
 
 Fun facts:
 
-- (history) The first known usage of this spelling is in an 1896 German article.
 - (origin) According to historical evidence, tempeh was first made in Bayat, Klaten, Central Java, and was commonly consumed around 1700.
+- (history) Other spellings, such as témpé, were also used, but tempeh has become the standard spelling in English since the 1960s.
 - (about) The invention of tempeh seems to have arisen through the serendipitous introduction to stored soybeans of the fungus, which is crucial in tempeh's fermentation.
 
 More fun facts (when the user asks for more):
 
-- (history) Other spellings, such as témpé, were also used, but tempeh has become the standard spelling in English since the 1960s.
 - (about) The type of soybean first used to make tempeh was the black soybean, which was a native plant.
 - (history) In North America, a compound growth rate of 6.1% is expected in the tempeh market from 2024-2030, reaching $1519.8 million by 2030.
-- (history) Sri Tandjung noted that Javanese had been eating cooked (native black) soybeans since the 12th century.
 - (history) By the 16th or the 19th century, depending on which period of time the writer of Serat Centhini referred to, Javanese people had mastered the art of cooking with tempeh, when it was not only eaten as is, but converted into different types of dishes, showing a full understanding and mastery of the food product.
+- (history) The first known usage of this spelling is in an 1896 German article.
 - (about) A fungus, Rhizopus oligosporus or Rhizopus oryzae, is used in the fermentation process and is also known as tempeh starter.
 - (culture) In fact, in traditional tempeh making, an usar (a mycelium-filled leaf) is used, instead of store-bought ragi.
 - (origin) Tempeh comes from Indonesia.
+- (history) Sri Tandjung noted that Javanese had been eating cooked (native black) soybeans since the 12th century.
 
 Learn more:
 
@@ -5910,17 +5904,17 @@ Tongseng is an Indonesian goat meat, mutton or beef stew dish in curry-like soup
 
 Fun facts:
 
-- (origin) However, it is believed that the dish originated from Klego district in Boyolali, Central Java.
+- (origin) It is believed that the dish originated from Klego district in Boyolali, Central Java.
 - (history) According to Indonesian culinary expert, tongseng started to appear in Java between the 18th to 19th century CE.
-- (about) Among others are sate kambing, which was believed to be the local adaptation of Indian-Muslim kebabs and gulai, which was a local adaptation of curry-based soup probably influenced by Indian cuisine.
+- (culture) Traditionally, tongseng is considered as the merge between goat satay and gulai spicy soup.
 
 More fun facts (when the user asks for more):
 
+- (origin) Tongseng comes from Indonesia.
+- (about) Among others are sate kambing, which was believed to be the local adaptation of Indian-Muslim kebabs and gulai, which was a local adaptation of curry-based soup probably influenced by Indian cuisine.
 - (history) During the 19th century, the southern area of Central Java was developed as sugar plantation, thus sugar mills were built.
-- (culture) Traditionally, tongseng is considered as the merge between goat satay and gulai spicy soup.
 - (origin) The Arabs settlers introduced and promoted goat, lamb and mutton as their preferred meat, thus several dishes influenced by Arab and Muslim Indian culinary traditions were introduced to Java.
 - (culture) Next to common sugar, traditional Javanese palm sugar (gula jawa) were also produced in the region.
-- (origin) Tongseng comes from Indonesia.
 
 Learn more:
 
@@ -5947,12 +5941,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) Traditionally featured in the slametan ceremony, the rice is made by using a cone-shaped woven bamboo container.
 - (culture) As its counterpart the Spanish paella, today it can be found in other celebrations as well, such as for birthdays or parties.
 - (culture) According to folklore in Java and Bali, the cone-shaped dish symbolises life and the glory of God as the creator of nature, and the side dishes and vegetables represent the life and harmony of nature.
 - (culture) Usually, tumpeng is served with spinach, which is a traditional symbol of prosperity in Javanese agricultural society.
 - (culture) Today, most Indonesians serve tumpeng as a dish to celebrate a special occasion, such as a birthday party, arisan, family or neighborhood gathering, farewell party, celebrations, recitals, and many other joyous events.
 - (culture) Because of its festive and celebration value, up until now tumpeng sometimes seen as an Indonesian counterpart of the Spanish paella or birthday cake.
+- (culture) Traditionally featured in the slametan ceremony, the rice is made by using a cone-shaped woven bamboo container.
 
 Learn more:
 
@@ -5973,7 +5967,7 @@ Fun facts:
 
 - (history) According to some circles, since the 1940s nasi tutug oncom has been served as a simple, cheap and quite satisfying breakfast.
 - (about) Nasi tutug oncom is a Sundanese dish, quite popular in most of cities in West Java, especially Bandung and Tasikmalaya, and also in Greater Jakarta area.
-- (about) Nevertheless, the savoury flavour of the rice mixed with roasted oncom fermented beans had led to the popularity of this rice mix; started in Eastern Priangan region to Bandung, to Jakarta, and then to the rest of Indonesia.
+- (about) The savoury flavour of the rice mixed with roasted oncom fermented beans had led to the popularity of this rice mix; started in Eastern Priangan region to Bandung, to Jakarta, and then to the rest of Indonesia.
 
 More fun facts (when the user asks for more):
 
@@ -6019,9 +6013,9 @@ Ulam is a traditional Malay salad produced from foraged leaves, vegetables or fr
 
 Fun facts:
 
-- (history) This term is first attested in Western lexicons of Malay as olam from Jacob Corneliszoon van Neck's Vocabulaer compiled in Ternate in 1598.
 - (culture) It also has its uses in Ayurvedic and traditional medicine, such as diabetes and high blood pressure.
 - (origin) Ulam comes from Indonesia.
+- (history) This term is first attested in Western lexicons of Malay as olam from Jacob Corneliszoon van Neck's Vocabulaer compiled in Ternate in 1598.
 
 More fun facts (when the user asks for more):
 
@@ -6093,14 +6087,14 @@ Aleurites moluccanus, commonly known as candlenut, Indian walnut or, in Hawaii, 
 Fun facts:
 
 - (history) First described by Carl Linnaeus in 1753, the species' origin is unclear due to its spread by humans, but it can be found in many tropical rainforests and gallery forests.
+- (culture) It also represents the island of Molokaʻi, whose symbolic color is the silvery green of the kukui leaf.
 - (about) In Uganda, the seed is referred to as kabakanjagala, meaning "the king loves me".
-- (inspiration) One of the legends told of Kamapuaʻa: one day, a man beat his wife to death and buried her beneath Kamapuaʻa while he was in tree form.
 
 More fun facts (when the user asks for more):
 
+- (inspiration) One of the legends told of Kamapuaʻa: one day, a man beat his wife to death and buried her beneath Kamapuaʻa while he was in tree form.
 - (history) Kukui was named the state tree of Hawaii on 1 May 1959 due to its multitude of uses.
 - (culture) In Maui, the kukui is a symbol of enlightenment, protection, and peace.
-- (culture) It also represents the island of Molokaʻi, whose symbolic color is the silvery green of the kukui leaf.
 
 Learn more:
 
@@ -6121,16 +6115,16 @@ Ang ku kueh, also known as red tortoise cake, is a small round or oval-shaped sw
 
 Fun facts:
 
+- (origin) Ang ku kueh comes from China.
 - (culture) Red tortoise cakes are shaped like tortoise shells because the Chinese traditionally believed that eating tortoises would bring longevity, good fortune and prosperity.
 - (about) Red tortoise cakes are also prepared for occasions that are culturally important to the Chinese such as a newborn baby's first month or birthdays of the elderly.
-- (origin) Ang ku kueh comes from China.
 
 More fun facts (when the user asks for more):
 
 - (culture) Considered to be auspicious items, these sweet pastries are especially prepared during important festivals such as Chinese New Year as offerings to the Chinese deities.
 - (culture) Aside from China, in modern times, red tortoise cakes continue to be important food items during Chinese festivals in many countries with significant Sinophone communities especially in Southeast Asia.
-- (culture) They are typically associated with auspicious occasions and are especially prepared during birthdays and religious festivals to symbolize blessings and good fortune.
 - (culture) In Chinese culture, the color red is traditionally used as a symbol of joy and happiness whereas the tortoise symbolizes longevity, power and tenacity.
+- (culture) They are typically associated with auspicious occasions and are especially prepared during birthdays and religious festivals to symbolize blessings and good fortune.
 
 Learn more:
 
@@ -6199,8 +6193,8 @@ Bajigur is a hot and sweet beverage native to the Sundanese people of West Java,
 
 Fun facts:
 
-- (culture) Traditionally fragrant pandan leaves were added, but now often artificial vanilla powder is used.
 - (origin) Bajigur comes from Indonesia.
+- (culture) Traditionally fragrant pandan leaves were added, but now often artificial vanilla powder is used.
 - (culture) The beverage is usually accompanied with traditional snacks such as steamed banana, boiled sweet potato or boiled peanuts.
 
 Learn more:
@@ -6300,14 +6294,14 @@ Bintang Beer is an Indonesian beer brand and is produced by PT Multi Bintang Ind
 
 Fun facts:
 
-- (history) Construction of the brewery began in Surabaya in 1929 during Dutch colonial rule of Indonesia.
+- (history) In 1967 Heineken resumed operations of the brewery, which was later renamed "Multi Bintang Indonesia".
 - (about) In 2011, Bintang Beer won a gold medal for Lager (Class 2) and Champion Beer for the lager category at the Brewing Industry International Awards (BIIA 2011) in London.
-- (history) In 1957 the Indonesian Government appropriated the brewery, and retained control for the next ten years.
+- (history) Bintang Beer dates from 1929-.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1967 Heineken resumed operations of the brewery, which was later renamed "Multi Bintang Indonesia".
-- (history) Bintang Beer dates from 1929-.
+- (history) Construction of the brewery began in Surabaya in 1929 during Dutch colonial rule of Indonesia.
+- (history) In 1957 the Indonesian Government appropriated the brewery, and retained control for the next ten years.
 
 Learn more:
 
@@ -6350,13 +6344,13 @@ Cap cai, sometimes spelled cap cay, is the Hokkien-derived term for a popular Ch
 
 Fun facts:
 
-- (about) According to the royal etiquette, the Chinese emperor should always consume high quality food made of fresh ingredients daily, thus there are a lot of leftover vegetables in the palace kitchen.
 - (origin) Cap cai was brought to Indonesia from the Fujian area, where the Hokkien people originated.
-- (about) This stir-fried leftover vegetables of course, was not meant for the emperor or the royal family, but is served to feed the palace servants, eunuch and courtiers.
+- (about) According to the royal etiquette, the Chinese emperor should always consume high quality food made of fresh ingredients daily, thus there are a lot of leftover vegetables in the palace kitchen.
+- (origin) Cap cai comes from Indonesia.
 
 More fun facts (when the user asks for more):
 
-- (origin) Cap cai comes from Indonesia.
+- (about) This stir-fried leftover vegetables of course, was not meant for the emperor or the royal family, but is served to feed the palace servants, eunuch and courtiers.
 
 Learn more:
 
@@ -6489,8 +6483,8 @@ Daun ubi tumbuk (Indonesian for "pounded cassava leaves") is a vegetable dish co
 
 Fun facts:
 
-- (culture) The cassava leaves are traditionally pounded with a wooden mortar and pestle, although finely chopping or puréeing them using a blender or food processor is an alternative.
 - (origin) Daun ubi tumbuk comes from Indonesia.
+- (culture) The cassava leaves are traditionally pounded with a wooden mortar and pestle, although finely chopping or puréeing them using a blender or food processor is an alternative.
 
 Learn more:
 
@@ -6573,15 +6567,15 @@ Fresh fish rapidly deteriorates unless some way can be found to preserve it.
 
 Fun facts:
 
-- (about) Water is usually removed by evaporation (air-drying, sun-drying, smoking or wind-drying) but in the case of freeze-drying, food is first frozen and then the water is removed by sublimation.
 - (history) With the "discovery" of Newfoundland in 1497, long after the Basque whalers arrived in Channel-Port aux Basques, they started fishing its cod-rich Grand Banks.
 - (origin) The bacalhau or bacalao dish is sometimes said to originate from Kristiansund, where it was introduced by the Spanish and Portuguese fish buyers and became very popular.
+- (culture) This dish was also popular in Portugal and other Roman Catholic countries, because of the many days (Fridays, Lent, and other festivals) on which the Church forbade the eating of meat.
 
 More fun facts (when the user asks for more):
 
-- (culture) This dish was also popular in Portugal and other Roman Catholic countries, because of the many days (Fridays, Lent, and other festivals) on which the Church forbade the eating of meat.
 - (culture) Fish are preserved through such traditional methods as drying, smoking and salting.
 - (culture) The oldest traditional way of preserving fish was to let the wind and sun dry it.
+- (about) Water is usually removed by evaporation (air-drying, sun-drying, smoking or wind-drying) but in the case of freeze-drying, food is first frozen and then the water is removed by sublimation.
 
 Learn more:
 
@@ -6600,20 +6594,20 @@ The durian ( ) is the edible fruit of trees in the genus Durio, most often apply
 
 Fun facts:
 
-- (history) The Oxford English Dictionary first cites the word from a 1588 translation of Juan González de Mendoza's Historie of the Great and Mightie Kingdome of China.
+- (history) The earliest known European reference to the durian is the record of Niccolò de' Conti, who travelled to Southeast Asia in the 15th century.
 - (about) Known in some regions as the "king of fruits", the durian is distinctive for its large size, strong odour, and thorn-covered rind.
-- (origin) D. zibethinus was introduced into Ceylon by the Portuguese in the 16th century and was reintroduced many times later.
+- (inspiration) The genus Durio has a complex taxonomy that has seen the subtraction and addition of many species since it was created by Rumphius.
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest known European reference to the durian is the record of Niccolò de' Conti, who travelled to Southeast Asia in the 15th century.
-- (history) The first seedlings were sent from the Royal Botanic Gardens, Kew, to Auguste Saint-Arroman of Dominica in 1884.
 - (history) In Southeast Asia, the durian has been cultivated for centuries at the village level, probably since the late 18th century, and commercially since the mid-20th century.
+- (history) The Oxford English Dictionary first cites the word from a 1588 translation of Juan González de Mendoza's Historie of the Great and Mightie Kingdome of China.
 - (about) Translated from the Latin in which Poggio Bracciolini recorded de Conti's travels: "They [people of Sumatra] have a green fruit which they call durian, as big as a watermelon.
 - (history) Inside there are five things like elongated oranges, and resembling thick butter, with a combination of flavours." The Portuguese physician Garcia de Orta described durians in Colóquios dos simples e drogas da India published in 1563.
 - (history) In 1741, Herbarium Amboinense by the German botanist Georg Eberhard Rumphius was published, providing the most detailed and accurate account of durians for over a century.
 - (history) In the 18th century, Johann Anton Weinmann considered the durian to belong to Castaneae as its fruit was similar to the horse chestnut.
-- (inspiration) The genus Durio has a complex taxonomy that has seen the subtraction and addition of many species since it was created by Rumphius.
+- (history) The first seedlings were sent from the Royal Botanic Gardens, Kew, to Auguste Saint-Arroman of Dominica in 1884.
+- (origin) D. zibethinus was introduced into Ceylon by the Portuguese in the 16th century and was reintroduced many times later.
 - (about) Not to be confused with Durio zibethinus, Durio.
 
 Learn more:
@@ -6643,8 +6637,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) Edam cheese comes from the Netherlands.
 - (about) These qualities (among others) made it the world's most popular cheese between the 14th and 18th centuries, both at sea and in remote colonies.
-- (origin) Edam cheese comes from Netherlands.
 
 Learn more:
 
@@ -6790,14 +6784,14 @@ Guazi, also called kwasi refers to roasted plant seeds.
 Fun facts:
 
 - (about) The oldest documentation of the consumption of guazi is recorded in the Taiping Huanyu Ji though it is unclear what specific variety of seed was eaten.
+- (origin) Guazi comes from the People's Republic of China.
 - (history) Watermelon seeds were the earliest to be consumed in China during the Tang dynasty and only became widespread during the Ming and Qing dynasties.
-- (origin) Guazi comes from People's Republic of China.
 
 More fun facts (when the user asks for more):
 
-- (about) The Wanli Emperor was described by Liu Ruoyu in the Zhuo Zhong Zhi to have “loved eating fresh watermelon seeds baked with salt.” There is a folk song from the late Ming that described a girl gifting a bag of shelled seeds to her lover.
 - (about) Guazi is a popular snack in China, Malaysia and overseas Chinese communities, especially in Indonesia.
 - (about) Republican-era artist Feng Zikai observed the popularity of eating seeds during his lifetime in an article on the matter titled "Eating Guazi".
+- (about) The Wanli Emperor was described by Liu Ruoyu in the Zhuo Zhong Zhi to have “loved eating fresh watermelon seeds baked with salt.” There is a folk song from the late Ming that described a girl gifting a bag of shelled seeds to her lover.
 
 Learn more:
 
@@ -6965,8 +6959,8 @@ Kopi joss or kopi jos is a traditional coffee beverage from Yogyakarta served wi
 Fun facts:
 
 - (inspiration) Kopi joss originated at Angkringan Lek Man, which is considered one of Yogyakarta's legendary angkringan.
-- (culture) This coffee is typically sold at angkringans, a type of street food stall or cart, in Yogyakarta.
 - (origin) Kopi joss comes from Indonesia.
+- (culture) This coffee is typically sold at angkringans, a type of street food stall or cart, in Yogyakarta.
 
 Learn more:
 
@@ -6986,9 +6980,9 @@ Kopi luwak, also known as civet coffee, is a coffee that consists of partially d
 
 Fun facts:
 
-- (history) In the 19th century, farmers in central Java started to brew and drink coffee from excreted beans collected at their plantations.
 - (about) Although kopi luwak is a form of processing rather than a variety of coffee, it is known as one of the most expensive coffees in the world, with retail prices reaching $100 per kilogram ($45/lb) for farmed beans and $1,000 per kilogram ($450/lb) for wild-collected beans.
 - (origin) Kopi luwak comes from Indonesia.
+- (history) In the 19th century, farmers in central Java started to brew and drink coffee from excreted beans collected at their plantations.
 
 Learn more:
 
@@ -7009,8 +7003,8 @@ Kopi Tubruk is an Indonesian-style coffee where hot water is poured over fine co
 Fun facts:
 
 - (about) The first word of kopi tubruk's name is derived from the Indonesian word for coffee, kopi.
-- (history) The drink is popular in Yogyakarta and Central Java and can be found in most warungs that serve coffee.
 - (origin) Kopi tubruk comes from Indonesia.
+- (history) The drink is popular in Yogyakarta and Central Java and can be found in most warungs that serve coffee.
 
 Learn more:
 
@@ -7053,13 +7047,13 @@ Krupuk, also known as keropok and kropek refers to traditional deep-fried cracke
 
 Fun facts:
 
-- (culture) The food has long-standing traditions throughout maritime Southeast Asia and neighbouring coastal regions, particularly in Indonesia, Malaysia, the Philippines, southern Thailand, Brunei and Singapore.
 - (about) In the Netherlands the food is known as kroepoek, reflecting historical ties with Indonesia, while in Suriname it forms part of Javanese-Surinamese cuisine.
-- (origin) In Suriname, kroepoek is widely consumed as part of Javanese-Surinamese cuisine, introduced through Indonesian migration during the colonial period.
+- (origin) Krupuk comes from Indonesia.
+- (culture) The food has long-standing traditions throughout maritime Southeast Asia and neighbouring coastal regions, particularly in Indonesia, Malaysia, the Philippines, southern Thailand, Brunei and Singapore.
 
 More fun facts (when the user asks for more):
 
-- (origin) Krupuk comes from Indonesia.
+- (origin) In Suriname, kroepoek is widely consumed as part of Javanese-Surinamese cuisine, introduced through Indonesian migration during the colonial period.
 
 Learn more:
 
@@ -7363,8 +7357,8 @@ Mandi is a traditional Arab dish with regional variations across the Arab world.
 
 Fun facts:
 
-- (history) Palestinian ethnographer Tawfiq Canaan described zarb in 1927: Zarb is a roasted sheep, where the whole (when the animal is young) or a part of a sheep is placed in a small freshly-prepared, cave like oven.
 - (origin) Mandi was introduced to Hyderabadi cuisine by Yemeni migration to Barkas.
+- (history) Palestinian ethnographer Tawfiq Canaan described zarb in 1927: Zarb is a roasted sheep, where the whole (when the animal is young) or a part of a sheep is placed in a small freshly-prepared, cave like oven.
 - (origin) Mandi comes from Yemen.
 
 Learn more:
@@ -7401,8 +7395,8 @@ Milk pie or pie susu is an Indonesian custard tart pastry consisting of a shortc
 
 Fun facts:
 
-- (culture) This traditional Indonesian dessert pastry is very flat with only one very thin layer of custard.
 - (origin) Milk pie comes from Indonesia.
+- (culture) This traditional Indonesian dessert pastry is very flat with only one very thin layer of custard.
 
 Learn more:
 
@@ -7423,9 +7417,9 @@ Muisjes are Dutch aniseed comfits, used as a traditional bread topping, often to
 
 Fun facts:
 
-- (culture) They are traditionally eaten on beschuit, or rusk, though it is also customary to eat them on bread.
-- (origin) Muisjes comes from Netherlands.
 - (culture) It may have been that the stem of the seed reminded people of a mouse's tail, or it may have been that the mouse's fast reproductive cycle was further used as symbolism for healthy childbirth.
+- (origin) Muisjes comes from the Netherlands.
+- (culture) They are traditionally eaten on beschuit, or rusk, though it is also customary to eat them on bread.
 
 Learn more:
 
@@ -7507,17 +7501,17 @@ Fun facts:
 
 - (history) The word for noodles in English was borrowed in the 18th century from the German word Nudel.
 - (about) The earliest written record of noodles is found in a book dated to the Eastern Han period (25–220 CE).
-- (inspiration) Serventi and Sabban, in Pasta: The Story of a Universal Food, noted that wheat-based pasta traditions were established in China long before they had appeared in Europe.
+- (origin) Noodles comes from the People's Republic of China.
 
 More fun facts (when the user asks for more):
 
 - (history) Noodles made from wheat dough became a prominent food for the people of the Han dynasty.
-- (origin) Food historian Gil Marks documented that the practise of boiling strips of dough in water originated in China and that this tradition did not take hold in Europe until the medieval period.
-- (about) However, many food historians dispute this interpretation, point out the scarcity of Roman-era references to anything resembling pasta, and believe that the dish instead first arrived in Italy as a "result of extensive Mediterranean trading in the Middle Ages".
-- (history) References to pasta dishes only became increasingly frequent across the Italian peninsula starting in the 13th century.
+- (about) Many food historians dispute this interpretation, point out the scarcity of Roman-era references to anything resembling pasta, and believe that the dish instead first arrived in Italy as a "result of extensive Mediterranean trading in the Middle Ages".
 - (about) Noodles are often served with an accompanying sauce or in a soup, the latter being known as noodle soup.
 - (about) In 2005, a team of archaeologists reported finding an earthenware bowl that contained 4,000-year-old noodles at the Lajia archaeological site, made by the Qijia culture.
-- (origin) Noodles comes from People's Republic of China.
+- (inspiration) Serventi and Sabban, in Pasta: The Story of a Universal Food, noted that wheat-based pasta traditions were established in China long before they had appeared in Europe.
+- (origin) Food historian Gil Marks documented that the practise of boiling strips of dough in water originated in China and that this tradition did not take hold in Europe until the medieval period.
+- (history) References to pasta dishes only became increasingly frequent across the Italian peninsula starting in the 13th century.
 
 Learn more:
 
@@ -7544,7 +7538,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) However, by the 1980s, food scientists developed a fresher-tasting juice known as reconstituted ready-to-serve juice.
+- (history) By the 1980s, food scientists developed a fresher-tasting juice known as reconstituted ready-to-serve juice.
 - (history) Eventually in the 1990s, "not from concentrate" (NFC) orange juice was developed.
 - (history) Due to the importance of oranges to the economy of Florida, "the juice obtained from mature oranges of the species Citrus sinensis and hybrids thereof" was adopted as the official beverage of Florida in 1967.
 - (about) Not to be confused with orange soft drink, orange drink.
@@ -7650,9 +7644,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (origin) In 1912, rambutans were introduced to the Philippines from Indonesia.
-- (history) An unsuccessful attempt was made to introduce the tree to the Southeastern United States, with seeds imported from Java in 1906.
 - (origin) Around the 13th to 15th centuries, Arab traders, who played a major role in Indian Ocean trade, introduced rambutans to Zanzibar and Pemba in East Africa.
-- (about) He chooses a child: it is a girl named Rabona.
+- (history) An unsuccessful attempt was made to introduce the tree to the Southeastern United States, with seeds imported from Java in 1906.
 - (about) Not to be confused with Euphoria.
 
 Learn more:
@@ -7674,17 +7667,17 @@ Rijsttafel is an elaborate Indonesian meal adapted by the Dutch from the hidang 
 
 Fun facts:
 
-- (about) The first to be served was a cone-shaped pile of rice on a large platter, placed in the center of the table.
 - (culture) During its colonial heyday until the Japanese occupation of the Dutch East Indies in 1942, the most celebrated rijsttafel in the colony were served for Sunday luncheon at the Hotel des Indes in Batavia and the Savoy Homann Hotel in Bandung, where the rice was accompanied by up to sixty different dishes.
 - (history) Brought back to the Netherlands by former colonials, exiled Indonesians, and Indo-Europeans (Eurasians) after Indonesia gained independence in 1945, the rijsttafel was predominantly popular with Dutch families of colonial origin.
+- (origin) The Dutch introduced the rice table to both enjoy a wide array of dishes at a single sitting, and it to impress visitors with the exotic abundance of their colonial empire.
 
 More fun facts (when the user asks for more):
 
+- (origin) Rijsttafel comes from Dutch East Indies.
+- (about) The first to be served was a cone-shaped pile of rice on a large platter, placed in the center of the table.
 - (history) Since about 1990, Indonesian food has become part of a mainstream interest in Southeast Asian cuisine, and there has been a proliferation of Indonesian restaurants in the Netherlands.
 - (about) Popular side dishes include egg rolls, sambals, satay, fish, fruit, vegetables, pickles, and nuts.
-- (origin) The Dutch introduced the rice table to both enjoy a wide array of dishes at a single sitting, and it to impress visitors with the exotic abundance of their colonial empire.
 - (culture) During its centuries of popularity in Dutch East Indies, lines of servants or sarong-clad waitresses ceremoniously served the marathon meal on platters laden with steaming bowls of fragrant foods.
-- (origin) Rijsttafel comes from Dutch East Indies.
 
 Learn more:
 
@@ -7700,11 +7693,6 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1596624) (CC0); [Wikipedia: R
 Toast is a popular breakfast food as well as tea time snack in countries like Brunei, Indonesia, Malaysia and Singapore known as roti bakar or roti kahwin.
 
 - From: Indonesia
-
-Fun facts:
-
-- (about) In Malaya on the British colonised side of the East Indies or the "Malay Archipelago", Western-style bread first became popular to the local market in the form of roti benggali sold by the British Malaya Bakery in George Town, Penang jointly ventured by one S.
-- (history) Mohamed Ismail from Madras in 1928.
 
 Learn more:
 
@@ -7747,17 +7735,17 @@ Sambal is a category of chilli-based sauces or pastes originating in maritime So
 Fun facts:
 
 - (culture) By the 18th century, chilli-based sambals were recorded across the Indonesian archipelago and the Malay Peninsula, with each community developing variations shaped by local ingredients and culinary traditions.
-- (history) Before the arrival of chilli peppers from the Americas in the 16th century, local communities prepared pungent relishes using indigenous and Old World ingredients such as long pepper, ginger, galangal and andaliman.
 - (about) Owing to historical connections and migration, sambal is also found in South Africa, Suriname and the Netherlands, while in Sri Lanka a local adaptation is known as sambol.
+- (inspiration) Distinctive Surinamese versions incorporate local ingredients, such as Surinam cherry sambal and peanut sambal (pinda sambal), which blend indigenous produce with Indonesia-inspired preparation methods.
 
 More fun facts (when the user asks for more):
 
-- (origin) Chilli peppers, introduced through Portuguese and Spanish trade networks, were rapidly adopted for their flavour, adaptability to tropical climates and compatibility with established cooking methods, soon replacing long pepper in most dishes.
-- (culture) While chilli remains the central ingredient, the addition of items such as fermented durian, torch ginger stems, coconut or sweet soy sauce produces distinctive variations linked to local ingredients and culinary traditions.
 - (culture) Sambal is a commonly used condiment in Surinamese cuisine, particularly among the Javanese-Surinamese community, who brought their culinary traditions during the colonial era.
-- (inspiration) Distinctive Surinamese versions incorporate local ingredients, such as Surinam cherry sambal and peanut sambal (pinda sambal), which blend indigenous produce with Indonesia-inspired preparation methods.
 - (origin) Sambal comes from Indonesia.
 - (about) Not to be confused with Sambal people.
+- (history) Before the arrival of chilli peppers from the Americas in the 16th century, local communities prepared pungent relishes using indigenous and Old World ingredients such as long pepper, ginger, galangal and andaliman.
+- (origin) Chilli peppers, introduced through Portuguese and Spanish trade networks, were rapidly adopted for their flavour, adaptability to tropical climates and compatibility with established cooking methods, soon replacing long pepper in most dishes.
+- (culture) While chilli remains the central ingredient, the addition of items such as fermented durian, torch ginger stems, coconut or sweet soy sauce produces distinctive variations linked to local ingredients and culinary traditions.
 
 Learn more:
 
@@ -7835,19 +7823,19 @@ Semur is an Indonesian meat stew (mainly beef) braised in thick brown gravy.
 Fun facts:
 
 - (history) History shows that the dish of marinated boiled meat in Indonesia has been known since the 9th century CE in ancient Java.
-- (about) However, whether the buffalo and goat meat mentioned in these records was the same dishes as stews today is still uncertain.
-- (culture) This assimilation has developed a blend of traditions of the archipelago, including culinary.
+- (about) At first, semur was associated with the beef that is processed in thick brown gravy.
+- (culture) Over time, semur was incorporated into Indonesian tradition and served in a variety of traditional events.
 
 More fun facts (when the user asks for more):
 
 - (history) The European Dutch colonial is believed to have brought the stewing technique and combined it with local spices and local sweet soy sauce, dark soy sauce with caramelized palm sugar, and various spices added, which has become one of the most popular flavours.
 - (history) The particular flavor of Indonesian spices combined with a variety of foreign food processing techniques has resulted in the creation of unique dishes such as semur, which existed since 1600.
-- (history) One of the oldest and most cookbook recipes complete document in the Dutch East Indies, Groot Nieuw Oost-Indisch Volledig Kookboek published in 1902, contains six recipes stew (Smoor Ajam I, Ajam Smoor II, Smoor Ajam III, Smoor Bandjar van Kip, Smoor Bantam van Kip, Solosche Smoor van Kip).
-- (about) At first, semur was associated with the beef that is processed in thick brown gravy.
-- (culture) Over time, semur was incorporated into Indonesian tradition and served in a variety of traditional events.
 - (culture) Betawi people in Jakarta have adopted semur as part of their tradition that is always served during Lebaran, weddings, and any important celebrations.
 - (culture) Not only Betawi culture, semur also often appeared at celebration events in various parts of the archipelago such as Kalimantan and Sumatra, with the flavor and appearance that suit local tastes.
 - (origin) Semur comes from Indonesia.
+- (about) Whether the buffalo and goat meat mentioned in these records was the same dishes as stews today is still uncertain.
+- (history) One of the oldest and most cookbook recipes complete document in the Dutch East Indies, Groot Nieuw Oost-Indisch Volledig Kookboek published in 1902, contains six recipes stew (Smoor Ajam I, Ajam Smoor II, Smoor Ajam III, Smoor Bandjar van Kip, Smoor Bantam van Kip, Solosche Smoor van Kip).
+- (culture) This assimilation has developed a blend of traditions of the archipelago, including culinary.
 
 Learn more:
 
@@ -7903,10 +7891,10 @@ More fun facts (when the user asks for more):
 - (about) Beet sugar, the starting point for the modern sugar industry, was a German invention.
 - (history) Sugar became a household item by the 19th century, and this evolution of taste and demand for sugar as an essential food ingredient resulted in major economic and social changes.
 - (inspiration) Sugar is named after -ose.
-- (about) In 2016 the combined world production of those two crops was about two billion tonnes.
 - (about) In 2015 the World Health Organization recommended that adults and children should reduce their intake of free sugars to less than 10% of their total energy intake, encouraging a reduction to below 5%.
 - (origin) Sugar was introduced into Europe by the Arabs in Sicily and Spain.
 - (about) Not to be confused with carbohydrate, glucose, maltose, sucrose, α-lactose, beta-L-fructo-furanose, sugar product.
+- (about) In 2016 the combined world production of those two crops was about two billion tonnes.
 
 Learn more:
 
@@ -8108,17 +8096,17 @@ Radish cake, turnip cake or chai tow kway is a Chinese dish made of steamed rice
 Fun facts:
 
 - (inspiration) In Taiwan, one story explaining the popularity of the dish and its significance at the Lunar New Year goes back to the 17th century Qing takeover of Taiwan.
-- (history) This veneration of the last Ming claimant was conducted in secret and passed down through the generations until the end of Qing rule in 1895.
+- (history) Daikon radishes were largely a winter crop in Taiwan, making radish cakes a seasonal specialty, but innovations in cultivation and development of new radish varieties in the 20th century have allowed it to become a year-round favorite.
 - (culture) Turnip cake is traditionally called carrot cake in Singapore, but has no relation to European carrot cake.
 
 More fun facts (when the user asks for more):
 
-- (history) Daikon radishes were largely a winter crop in Taiwan, making radish cakes a seasonal specialty, but innovations in cultivation and development of new radish varieties in the 20th century have allowed it to become a year-round favorite.
 - (history) A new name, chai tow kway, is self-attributed by hawker Ng Soik Theng, when she added radish to the cakes in the 1960s.
-- (history) Hawker Lau Goh then became famous for a light soya sauce version in the 1970s.
 - (culture) This misnomer gave the title to a popular 2010 guidebook on Singapore's street food, There's No Carrot in Carrot Cake by Ruth Wan, Roger Hiew and Leslie Tay.
 - (about) In Singapore, it became known as char kueh, where it was cut into cubes and stir-fried with dark soya sauce.
 - (about) For reasons that are less clear it is also a popular dish for the Chinese New Year among Cantonese, although the gōu of lòbaahk gōu is a homophone of gōu meaning "high" and indicating a wish for rising prosperity in the new year (cf. nian gao).
+- (history) This veneration of the last Ming claimant was conducted in secret and passed down through the generations until the end of Qing rule in 1895.
+- (history) Hawker Lau Goh then became famous for a light soya sauce version in the 1970s.
 
 Learn more:
 

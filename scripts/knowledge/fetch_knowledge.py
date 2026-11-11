@@ -301,7 +301,10 @@ FACT_SIGNALS = re.compile(
     r"tradition|popular|famous|known as|UNESCO|festival|introduced|first|record|emperor|dynasty|king|queen|"
     r"street food|celebrat|ritual|symbol|national dish|inspired|created by|based on|adapted|in hono[u]?r of)",
     re.IGNORECASE)
-SENTENCE = re.compile(r"(?<=[.!?])\s+(?=[A-Z])")
+# A sentence ends at . ! ? before a capital, but not after an initial or abbreviation ("the U.S. Senate",
+# "General J. B. M. Hertzog", "St. Louis", "c. 1850"), which once cut facts in half (review, 2026-11-11)
+SENTENCE = re.compile(r"(?<=[.!?])(?<!\b[A-Z]\.)(?<!\bSt\.)(?<!\bDr\.)(?<!\bMr\.)(?<!\bMrs\.)(?<!\bMs\.)"
+                      r"(?<!\bGen\.)(?<!\bJr\.)(?<!\bSr\.)(?<!\bNo\.)(?<!\bca\.)(?<!\bc\.)(?<!\bvs\.)\s+(?=[A-Z])")
 
 
 def sentences(intro: str) -> list[str]:

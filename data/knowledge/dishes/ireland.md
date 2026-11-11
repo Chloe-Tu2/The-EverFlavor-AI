@@ -13,15 +13,15 @@ Barmbrack, also often shortened to brack, is a bread with added sultanas and rai
 Fun facts:
 
 - (history) This was used in place of bicarbonate of soda in baking, as it was not widely available in Ireland until the early 19th century.
-- (culture) The Halloween Brack traditionally contained various objects baked into the bread and was used as a sort of fortune-telling game.
+- (culture) In many areas of Ireland, it was traditional to bake a large barmbrack on New Year's Eve by the woman of the house.
 - (origin) Barmbrack comes from Ireland.
 
 More fun facts (when the user asks for more):
 
 - (history) Commercially produced barmbracks have been sold in Ireland since the late 19th century.
+- (culture) The Halloween Brack traditionally contained various objects baked into the bread and was used as a sort of fortune-telling game.
 - (culture) Other articles added to the brack include a medallion, usually of the Virgin Mary to symbolise taken a religious vocation, although this tradition is not widely continued in the present day.
 - (culture) In modern times those sold for the Halloween market still include a toy ring, but due to food safety regulations, they do not contain the other items traditionally included.
-- (culture) In many areas of Ireland, it was traditional to bake a large barmbrack on New Year's Eve by the woman of the house.
 - (culture) In a variant of this tradition from west County Limerick, the door was struck three times with the cake with a different recitation.
 
 Learn more:
@@ -193,14 +193,14 @@ Colcannon is a traditional Irish dish of mashed potatoes with cabbage.
 
 Fun facts:
 
-- (origin) The first syllable "col" likely comes from the Irish cál meaning kale.
-- (about) Colcannon is a popular dish on Saint Patrick's Day and on the feast day of St.
-- (about) This usage is also found in the Irish name for a coot, a white-headed bird known as cearc cheannan or "white-head hen".
+- (about) Colcannon is a popular dish on Saint Patrick's Day and on the feast day of St. Brigid.
+- (origin) Colcannon comes from Ireland.
+- (about) In Welsh, the name for leek soup is cawl cennin, a phrase combining cawl meaning "soup", "broth" or "gruel", when it is not a reference to the typical Welsh meat and vegetable stew named in full cawl Cymreig, with cennin, the plural of cenhinen, meaning "leeks".
 
 More fun facts (when the user asks for more):
 
-- (about) In Welsh, the name for leek soup is cawl cennin, a phrase combining cawl meaning "soup", "broth" or "gruel", when it is not a reference to the typical Welsh meat and vegetable stew named in full cawl Cymreig, with cennin, the plural of cenhinen, meaning "leeks".
-- (origin) Colcannon comes from Ireland.
+- (origin) The first syllable "col" likely comes from the Irish cál meaning kale.
+- (about) This usage is also found in the Irish name for a coot, a white-headed bird known as cearc cheannan or "white-head hen".
 
 Learn more:
 
@@ -220,9 +220,8 @@ Drisheen is a type of blood pudding made in Ireland.
 
 Fun facts:
 
-- (history) Morton's 1930 book, In Search of Ireland.
+- (culture) Drisheen is also described in celebrated travel writer H. V. Morton's 1930 book, In Search of Ireland.
 - (about) In the Irish cities of Cork and Limerick, the dish is often paired with tripe, where it is known as "packet and tripe".
-- (culture) Drisheen is also described in celebrated travel writer H.
 
 Learn more:
 
@@ -271,11 +270,11 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) In the early 20th century, the term "French fried" was used in the sense of "deep-fried" for foods like onion rings or chicken.
-- (history) The term was in use in the United States as early as 1880.
-- (history) Army, and the popularity of the term did not increase for decades after 1917.
 - (about) In Great Britain, Australia, South Africa, Ireland and New Zealand, the term chips is generally used, being a popular dish in most Commonwealth countries.
-- (culture) However, the term French fries or skinny fries is used for thinly cut fried potatoes which are distinguished from the more traditional thick cut chips.
+- (culture) The term French fries or skinny fries is used for thinly cut fried potatoes which are distinguished from the more traditional thick cut chips.
 - (origin) French fries comes from Belgium.
+- (history) The term was in use in the United States as early as 1880.
+- (history) But the name was used long before that in English, even in the U.S. Army, and the popularity of the term did not increase for decades after 1917.
 
 Learn more:
 
@@ -318,21 +317,21 @@ Irish stew or stobhach is a stew from Ireland that is traditionally made with ro
 
 Fun facts:
 
-- (history) First compiled by the Countess of Thomond, 1684–1734.
+- (history) Old Irish recipes are scarce, due to poor documentation, but the first such recipe for Irish stew dates to the 1600s, from southern Ireland, by the O'Brien family.
 - (culture) Irish stew is considered a national dish of Ireland.
 - (origin) The root vegetables and meat (originally goat) for the stew were then all in place, save for the potato, which was introduced to Ireland around the 16th century during the Columbian exchange.
 
 More fun facts (when the user asks for more):
 
-- (history) Old Irish recipes are scarce, due to poor documentation, but the first such recipe for Irish stew dates to the 1600s, from southern Ireland, by the O'Brien family.
+- (history) First compiled by the Countess of Thomond, 1684–1734.
 - (history) It seems that Irish stew was recognised as early as about 1800.
+- (culture) Irish stew is a celebrated Irish dish, yet its composition is a matter of dispute.
+- (culture) Irish stew is the product of a culinary tradition that relied almost exclusively on cooking over an open fire.
+- (origin) Irish stew comes from Ireland.
 - (about) The chops must be very tender, but as they are all put down together, the potatoes must be taken out first, as they burst".
 - (about) A 19th-century American recipe was recorded by Helen Stuart Campbell, a professor of domestic science at Kansas State Agricultural College.
 - (culture) As in all traditional folk dishes, the exact recipe is not consistent from time to time or place to place.
-- (culture) Irish stew is a celebrated Irish dish, yet its composition is a matter of dispute.
 - (culture) Purists maintain that the only acceptable and traditional ingredients are neck mutton chops or kid, potatoes, onions, and water.
-- (culture) Irish stew is the product of a culinary tradition that relied almost exclusively on cooking over an open fire.
-- (origin) Irish stew comes from Ireland.
 
 Learn more:
 
@@ -354,14 +353,14 @@ Jambons are square pastries filled with cheese and chunks of ham.
 
 Fun facts:
 
-- (history) The product emerged during the 1990s as part of a broader movement towards "food to go".
-- (about) They are a deli item popular in Ireland.
+- (about) Twenty million jambons were purchased by Irish consumers in 2020.
 - (origin) Jambon comes from Ireland, France.
+- (history) The product emerged during the 1990s as part of a broader movement towards "food to go".
 
 More fun facts (when the user asks for more):
 
-- (about) Twenty million jambons were purchased by Irish consumers in 2020.
 - (about) Following the trend of meat-free sausage rolls, vegan jambons have also been available since 2020.
+- (about) They are a deli item popular in Ireland.
 
 Learn more:
 
@@ -381,14 +380,14 @@ Limerick ham is a particular method of preparing a joint of ham within the cuisi
 
 Fun facts:
 
-- (history) O'Mara's opened in 1839, and had an factory in Russia in the 1890s, as well as offices in London and Romania.
 - (about) Some sources claim that Queen Victoria ate Limerick ham for Christmas.
-- (history) They were exported across the British Empire on "Limerick Liners" from the early 1800s.
+- (history) The pork trade in Limerick went into decline from the 1970s, unable to compete with imported products from Denmark, France, and the Netherlands.
+- (history) O'Mara's opened in 1839, and had an factory in Russia in the 1890s, as well as offices in London and Romania.
 
 More fun facts (when the user asks for more):
 
-- (history) The pork trade in Limerick went into decline from the 1970s, unable to compete with imported products from Denmark, France, and the Netherlands.
 - (about) Limerick was so synonymous with its production of pork products, it became known as "Pigtown".
+- (history) They were exported across the British Empire on "Limerick Liners" from the early 1800s.
 
 Learn more:
 
@@ -470,8 +469,8 @@ Skirts and kidneys is an Irish stew made from pork and pork kidneys.
 Fun facts:
 
 - (history) Cork, on the southern coast of Ireland, has a long-standing association with animal produce and, from the 17th century to the end of the 19th century, was a major supplier of butter and salted (preserved) beef and pork to the British Empire and specifically the armed forces.
-- (inspiration) An entire Cork cuisine developed based on offal – particularly pig offal.
 - (culture) Examples include Crubeens/cruibín (pigs' trotters); pigs' tails; drisheen – a boiled blood sausage traditionally served with tripe; bodice – plain or salted pig ribs, cooked as a simple white stew, or as a salted bacon dish cooked with cabbage and turnip.
+- (inspiration) An entire Cork cuisine developed based on offal – particularly pig offal.
 
 Learn more:
 
@@ -522,8 +521,8 @@ A Spice Burger is a spice-flavoured breaded meat patty, popular in Irish traditi
 Fun facts:
 
 - (history) Spice Burger dates from 1934-.
-- (about) A legal row emerged in 2009 between Walsh Family Foods, and a former director regarding the ownership of the recipe.
 - (origin) Spice Burger comes from Ireland.
+- (about) A legal row emerged in 2009 between Walsh Family Foods, and a former director regarding the ownership of the recipe.
 
 Learn more:
 
@@ -564,14 +563,14 @@ White pudding, oatmeal pudding or (in Scotland) mealy pudding is a meat dish in 
 
 Fun facts:
 
-- (history) A similar recipe given in Woolley's 1670 book The Queen-Like Closet used hog's lights and was filled into intestine sausage-skins.
+- (history) Many older recipes are sweetened: a 15th-century British pudding combined pork liver, cream, eggs, breadcrumbs, raisins and dates, while a 1588 recipe collection featured a white pudding made of beef suet, breadcrumbs, egg yolk and currants, flavoured with nutmeg, sugar and cinnamon.
 - (culture) White pudding is often thought of as a very old dish that, like black pudding, was a traditional way of making use of offal following the annual slaughter of livestock.
 - (about) Alongside these more refined and elaborate recipes, a simpler form of white pudding was popular in Ireland, Scotland, the West Country and some parts of Northern England, combining suet, oatmeal (or barley in Northumberland), seasoning and onions, in sheep's or cow's intestines.
 
 More fun facts (when the user asks for more):
 
-- (history) Many older recipes are sweetened: a 15th-century British pudding combined pork liver, cream, eggs, breadcrumbs, raisins and dates, while a 1588 recipe collection featured a white pudding made of beef suet, breadcrumbs, egg yolk and currants, flavoured with nutmeg, sugar and cinnamon.
 - (history) By the mid-18th century, Elizabeth Raffald's white pudding recipe, "White Puddings in Skins", combined rice, lard, ground almonds, currants and egg, using sugar, nutmeg, cinnamon and mace as flavourings; by this period the inclusion of offal such as liver or lights, as well as sweet flavourings, was becoming rarer.
+- (history) A similar recipe given in Woolley's 1670 book The Queen-Like Closet used hog's lights and was filled into intestine sausage-skins.
 - (inspiration) Modern commercially made Scottish white puddings are generally based on oatmeal, onions and beef suet; the same mixture simply fried in a pan is known as skirlie.
 - (origin) White pudding comes from Scotland.
 
@@ -698,9 +697,9 @@ Goody or goodie is a sweet Irish dish made by boiling bread in milk with sugar a
 
 Fun facts:
 
-- (history) Many children were given this during the 20th century as a treat in neighbours' houses or after school as a snack before dinner.
-- (culture) John's Eve, when it would be prepared near the bonfires lit to celebrate.
+- (culture) This dish is eaten on St. John's Eve, when it would be prepared near the bonfires lit to celebrate.
 - (origin) Goody comes from Ireland.
+- (history) Many children were given this during the 20th century as a treat in neighbours' houses or after school as a snack before dinner.
 
 Learn more:
 
@@ -723,12 +722,12 @@ Fun facts:
 
 - (origin) In the Southern United States, gravy and biscuits are popular breakfast foods that originated in Southern Appalachia in the late 1800s.
 - (about) One of the earliest recorded mentions of gravy is in a 14th-century English recipe book, The Forme of Cury.
-- (history) Poutine emerged in rural Québec in the 1950s and has become one of Canada's most iconic meals.
+- (culture) In North America, gravy is considered a popular sauce to accompany traditional Thanksgiving and Christmas celebrations and food, such as turkey and potatoes.
 
 More fun facts (when the user asks for more):
 
 - (origin) The term gravy originates from the Old French word for meat or fish bouillon, which in fourteenth century French manuscripts was "gravé" or "grané".
-- (culture) In North America, gravy is considered a popular sauce to accompany traditional Thanksgiving and Christmas celebrations and food, such as turkey and potatoes.
+- (history) Poutine emerged in rural Québec in the 1950s and has become one of Canada's most iconic meals.
 
 Learn more:
 
@@ -748,7 +747,7 @@ Irish breakfast tea is a blend of several black teas, most often a combination o
 Fun facts:
 
 - (origin) When tea was first transported from China to Ireland in the mid-18th century, it was mainly introduced to the wealthy as a result of its high cost and low demand.
-- (history) However, throughout the mid-19th century, Irish breakfast tea became readily available to those of both lower and higher socioeconomic classes.
+- (history) Throughout the mid-19th century, Irish breakfast tea became readily available to those of both lower and higher socioeconomic classes.
 - (about) Irish breakfast tea is one of the most popular blended teas, common in tea culture in Ireland.
 
 Learn more:
@@ -792,8 +791,8 @@ Irish cream is a cream liqueur based on Irish whiskey, cream and other flavourin
 Fun facts:
 
 - (culture) Despite its name, it is not a traditional Irish product, as the first version of it, Baileys, was invented in 1973 by a team headed by British businessman Tom Jago in London, in response to a marketing brief from Gilbeys of Ireland (a division of International Distillers & Vintners).
-- (about) Its largest markets are the United Kingdom, Canada and the United States.
 - (origin) Irish cream comes from Ireland.
+- (about) Its largest markets are the United Kingdom, Canada and the United States.
 
 Learn more:
 
@@ -816,15 +815,15 @@ Fun facts:
 
 - (history) Irish Mist was the first liqueur to be produced in Ireland when commercial production began in 1947 at Tullamore, County Offaly.
 - (about) Irish Mist was then sold to Heaven Hill in 2017.
-- (culture) The bottle shape has also been changed from a "decanter" style to a more traditional whiskey bottle shape.
+- (origin) Irish Mist comes from Ireland.
 
 More fun facts (when the user asks for more):
 
 - (history) Irish Mist dates from 1947-.
-- (inspiration) Williams began the search for an alternative yet related product, eventually deciding to produce a liqueur based on the ancient beverage known as heather wine.
 - (about) In the summer of 2010 Irish Mist and the entire spirit division of C&C was bought by William Grant of Scotland.
 - (about) In September 2010 they in turn sold Irish Mist to Gruppo Campari.
-- (origin) Irish Mist comes from Ireland.
+- (inspiration) In the mid-1940s Desmond E. Williams began the search for an alternative yet related product, eventually deciding to produce a liqueur based on the ancient beverage known as heather wine.
+- (culture) The bottle shape has also been changed from a "decanter" style to a more traditional whiskey bottle shape.
 
 Learn more:
 
@@ -843,16 +842,15 @@ Irish red ale, also known as red ale or Irish ale, is a style of pale ale that i
 
 Fun facts:
 
-- (history) Commercial brewing, distilling, malting and milling took place in the city in the 18th century by a merchant class of predominantly Catholic families, namely Archdeakin, Brennan, Cormick, Connell, Dullard, Hyland, Kinchella, McCreary, Meighan, Smithwick, Sullivan and Watters.
+- (history) It is said that ale has been brewed in Kilkenny city, at St. Francis Abbey, since the 14th century.
 - (about) Irish red ale was popularised in the United States to describe a style of reddish-amber ale that has its roots in Ireland.
-- (history) Conditions for brewing and distilling in Kilkenny were ideal, and by 1782 there were eight distilleries in the city.
+- (history) Commercial brewing, distilling, malting and milling took place in the city in the 18th century by a merchant class of predominantly Catholic families, namely Archdeakin, Brennan, Cormick, Connell, Dullard, Hyland, Kinchella, McCreary, Meighan, Smithwick, Sullivan and Watters.
 
 More fun facts (when the user asks for more):
 
+- (history) Perhaps the most well known Irish red ale is Smithwick's, which traces its lineage to 1710, with the establishment of John Smithwick's brewery at St. Francis Abbey.
+- (history) Conditions for brewing and distilling in Kilkenny were ideal, and by 1782 there were eight distilleries in the city.
 - (history) Further, as noted by MP and brewer Richard Sullivan in 1834, the nearby Castlecomer Plateau provided brewers and distillers in the city with a plentiful supply of coal.
-- (history) Perhaps the most well known Irish red ale is Smithwick's, which traces its lineage to 1710, with the establishment of John Smithwick's brewery at St.
-- (history) Francis Abbey brewery in 1827 from the Brennans and greatly expanded its operations.
-- (about) Killian's Irish Red, which is actually an amber lager, popularised the name "Irish red ale" to such an extent that the term was imported back into Ireland by many craft brewers as a classification.
 
 Learn more:
 
@@ -871,21 +869,21 @@ Irish whiskey is whiskey made on the island of Ireland.
 
 Fun facts:
 
-- (history) For instance, the excise return for 1800 lists 40 distilleries operating in Dublin city alone, while Drogheda is estimated to have had 15 distilleries in the 1780s, with as many as ten operating in Cork city in the 19th century.
+- (history) The oldest known documented record of whiskey in Ireland was in 1405; in the Annals of Clonmacnoise it was written that the head of a clan died after "taking a surfeit of aqua vitae" at Christmas.
 - (about) It is believed that Irish monks brought the technique of distilling perfumes back to Ireland from their travels to southern Europe around 1,000 AD.
 - (inspiration) Irish Mist, a whiskey liqueur launched in 1963, is purportedly based on such a recipe.
 
 More fun facts (when the user asks for more):
 
-- (history) The monopoly situation was ended by an academically conceived launch of the first new distillery in decades, Cooley Distillery, in 1987.
-- (history) The oldest known documented record of whiskey in Ireland was in 1405; in the Annals of Clonmacnoise it was written that the head of a clan died after "taking a surfeit of aqua vitae" at Christmas.
-- (history) Its first known mention in Scotland dates from 1494.
+- (history) For instance, the excise return for 1800 lists 40 distilleries operating in Dublin city alone, while Drogheda is estimated to have had 15 distilleries in the 1780s, with as many as ten operating in Cork city in the 19th century.
 - (history) Since 1990, Irish whiskey has seen a resurgence in popularity and has been the fastest-growing spirit in the world every year since.
 - (history) Irish whiskey was one of the earliest distilled drinks in Europe, arising around the 12th century.
 - (about) Although known to have occurred for hundreds of years, records of whiskey production in Ireland can be difficult to come by, particularly in the earlier years when production was unregulated.
-- (about) Even in later years, as production was frequently illicit, official records bear little resemblance to reality.
 - (culture) In addition, as many Irish records were traditionally oral rather than written, details on early production are likely lost.
-- (history) However, it is known that by 1556 whiskey was widespread, as an act passed by the Parliament of Ireland (3 & 4 Phil. & Mar. c. 7 (I)) declared whiskey to be "a drink nothing profitable to be drunken daily and used, is now universally throughout this realm made".
+- (history) It is known that by 1556 whiskey was widespread, as an act passed by the Parliament of Ireland (3 & 4 Phil. & Mar. c. 7 (I)) declared whiskey to be "a drink nothing profitable to be drunken daily and used, is now universally throughout this realm made".
+- (history) The monopoly situation was ended by an academically conceived launch of the first new distillery in decades, Cooley Distillery, in 1987.
+- (history) Its first known mention in Scotland dates from 1494.
+- (about) Even in later years, as production was frequently illicit, official records bear little resemblance to reality.
 - (about) As of December 2019, Ireland has 32 distilleries in operation, with more either planned or under development.
 
 Learn more:
@@ -943,7 +941,7 @@ More fun facts (when the user asks for more):
 - (history) Uncarbonated lemonade was a popular drink in the UK in the early 19th century, with Maria Rundell's A New System of Domestic Cookery (1807) including a recipe.
 - (history) A drink made with lemons, dates, and honey was consumed in Mamluk Egypt, as well as a lemon juice drink with sugar known as qatarmizat in the 13th century.
 - (history) A recipe for lemonade in John Nott's early 18th century Cooks and confectioners Dictionary included oil of sulphur.
-- (history) White's lemonade has been sold in the UK since 1845.
+- (history) One of the first mass produced soft drink brands, R. White's lemonade has been sold in the UK since 1845.
 
 Learn more:
 
@@ -964,19 +962,19 @@ Mead (, MEED), also called honey wine, and hydromel (particularly when low in al
 
 Fun facts:
 
-- (culture) When 12-year-old Prince Charles II visited Wales in 1642, Welsh metheglin was served at the feast as a symbol of Welsh presence in the emerging British identity in the years between the Union of the Crowns in 1603 and the creation of the Kingdom of Great Britain in 1707.
-- (origin) The Rigveda predates the Indo-Iranian separation, dated to roughly 2000 BCE, so this mention may originate from the Western Steppe or Eastern Europe.
+- (culture) The earliest surviving written record of mead is possibly the soma mentioned in the hymns of the Rigveda, one of the sacred books of the historical Vedic religion and (later) Hinduism dated around 1700–1100 BCE.
 - (inspiration) The legendary drinking, feasting, and boasting of warriors in the mead hall is echoed in the mead hall Din Eidyn (modern-day Edinburgh) as depicted in the poem Y Gododdin, attributed to the poet Aneirin, who would have been a contemporary of Taliesin.
+- (history) Since the turn of the 21st century, mead production has experienced a global renaissance.
 
 More fun facts (when the user asks for more):
 
-- (culture) The earliest surviving written record of mead is possibly the soma mentioned in the hymns of the Rigveda, one of the sacred books of the historical Vedic religion and (later) Hinduism dated around 1700–1100 BCE.
+- (culture) When 12-year-old Prince Charles II visited Wales in 1642, Welsh metheglin was served at the feast as a symbol of Welsh presence in the emerging British identity in the years between the Union of the Crowns in 1603 and the creation of the Kingdom of Great Britain in 1707.
 - (culture) Beekeeping was brought around the 5th century, traditionally attributed to Modomnoc, and mead came with it.
 - (inspiration) Many other legends of saints mention mead, as does that of the Children of Lir.
-- (history) Since the turn of the 21st century, mead production has experienced a global renaissance.
 - (history) Mead (Old Irish mid) was a popular drink in medieval Ireland.
 - (about) A banquet hall on the Hill of Tara was known as Tech Mid Chuarda ("house of the circling of mead").
 - (culture) Some monasteries kept up the traditions of mead-making as a by-product of beekeeping, especially in areas where grapes could not be grown.
+- (origin) The Rigveda predates the Indo-Iranian separation, dated to roughly 2000 BCE, so this mention may originate from the Western Steppe or Eastern Europe.
 - (about) Not to be confused with sima.
 
 Learn more:
@@ -997,9 +995,9 @@ Offal (), also called organ meats, variety meats, or pluck, is the internal orga
 
 Fun facts:
 
-- (culture) Others remain part of traditional regional cuisine and are consumed especially during holidays; some examples are sweetbread, Jewish chopped liver, Scottish haggis, U.S. chitlins, and Mexican menudo.
-- (about) Not to be confused with Abat.
 - (culture) Intestines are traditionally used as casing for sausages.
+- (about) Not to be confused with Abat.
+- (culture) Others remain part of traditional regional cuisine and are consumed especially during holidays; some examples are sweetbread, Jewish chopped liver, Scottish haggis, U.S. chitlins, and Mexican menudo.
 
 Learn more:
 
@@ -1102,9 +1100,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) Tanora was also available in 330ml cans, but these ceased production in June 2010; 200ml glass bottles (for the licensed trade) have already been withdrawn, both due to lack of demand.
-- (about) The new flavour proved unpopular, and a Facebook vote along with taste-tests in Cork retail stores was scheduled to take place during July 2011.
 - (about) In January 2018, ahead of the Irish government's planned introduction of a "sugar tax" later that year, Tanora was slightly reformulated again, to replace some of its sugar with artificial sweeteners.
 - (origin) Tanora comes from Ireland.
+- (about) The new flavour proved unpopular, and a Facebook vote along with taste-tests in Cork retail stores was scheduled to take place during July 2011.
 
 Learn more:
 
@@ -1125,7 +1123,7 @@ Veda bread is a brand of malt loaf traditionally produced across the United King
 
 Fun facts:
 
-- (origin) Veda bread comes from United Kingdom.
+- (origin) Veda bread comes from the United Kingdom.
 
 Learn more:
 

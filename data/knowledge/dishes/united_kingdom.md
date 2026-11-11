@@ -14,7 +14,7 @@ Fun facts:
 
 - (history) The word cawl in Welsh is first recorded in the 14th century, and is thought to come from the Latin caulis, meaning the stalk of a plant, a cabbage stalk or a cabbage.
 - (culture) Cawl is recognised as a national dish of Wales.
-- (about) The second suggestion seems more likely because of the sense, but in favour of the first theory, it is true that one of the reflexes of Latin AU can be AW in Welsh, while the short A of calidus would normally give A.
+- (origin) Cawl comes from Wales.
 
 More fun facts (when the user asks for more):
 
@@ -22,7 +22,6 @@ More fun facts (when the user asks for more):
 - (history) With the introduction of the potato into Welsh cuisine in the later half of the 18th century, it became a core ingredient in the recipe as well.
 - (culture) In modern Welsh, the word is used for any soup or broth; in English, it refers to a traditional Welsh soup, usually called cawl Cymreig ('Welsh soup') in Welsh.
 - (culture) Cawl was traditionally eaten during the winter months in the south-west of Wales.
-- (origin) Cawl comes from Wales.
 
 Learn more:
 
@@ -67,15 +66,15 @@ Bangers and mash or sausages and mash is a traditional British dish consisting o
 Fun facts:
 
 - (history) Although it is sometimes stated that the term banger has its origins in World War II, it is recorded in use at least as far back as 1919.
-- (origin) Although the Romans introduced sausages to Britain as early as the 4th century and potatoes arrived from the Americas in the late 16th century, they were not paired as a singular meal until the Industrial Revolution.
+- (origin) Bangers and mash comes from the United Kingdom.
 - (about) In 2009, the dish was listed as Britain's most popular comfort food in a survey commissioned by TV channel Good Food.
 
 More fun facts (when the user asks for more):
 
+- (origin) Although the Romans introduced sausages to Britain as early as the 4th century and potatoes arrived from the Americas in the late 16th century, they were not paired as a singular meal until the Industrial Revolution.
+- (about) The dish began to become especially popular among working class people due to its low cost and high caloric density.
 - (origin) The term is said to have originated from the fact that sausages produced during the meat rationing of World War I were made with such a high water content that they were liable to explode when cooked.
 - (history) In 1747, Hannah Glasse’s The Art of Cookery Made Plain and Easy featured instructions for sausages served with potatoes.
-- (origin) Bangers and mash comes from United Kingdom.
-- (about) The dish began to become especially popular among working class people due to its low cost and high caloric density.
 
 Learn more:
 
@@ -98,17 +97,17 @@ Fun facts:
 
 - (history) Small, oval pancakes baked in this manner were called picklets, a name used for the first recognisable crumpet-type recipe, published in 1769 by Elizabeth Raffald in The Experienced English Housekeeper.
 - (inspiration) Crumpets have been variously described as originating in Wales or as part of the Anglo-Saxon diet, based on proposed etymologies of the word.
-- (origin) Crumpet comes from United Kingdom.
+- (origin) Crumpet comes from the United Kingdom.
 
 More fun facts (when the user asks for more):
 
-- (history) The bara planca, or griddle bread, baked on an iron plate over a fire, was part of the everyday diet in Wales until the 19th century.
-- (history) However, a correspondent to Manchester Notes and Queries, writing in 1883, claimed that the crampet, as it was then locally known, simply took its name from the metal ring or "cramp" used to retain the batter during cooking.
-- (history) From the 19th century, a little bicarbonate of soda was also usually added to the batter.
+- (history) A correspondent to Manchester Notes and Queries, writing in 1883, claimed that the crampet, as it was then locally known, simply took its name from the metal ring or "cramp" used to retain the batter during cooking.
 - (history) As late as the 1950s, Dorothy Hartley noted a wide degree of regional variation, identifying the small, thick, spongy type of crumpet specifically with the Midlands.
 - (about) Crumpet has since become popular in Australia, Canada, New Zealand, and South Africa.
 - (about) Historically, crumpets are also regionally known as "pikelets".
 - (about) This is limited, however, as pikelets are more widely known as a thinner, more pancake-like griddle bread; a type of the latter is referred to as a "crumpet" in Scotland.
+- (history) The bara planca, or griddle bread, baked on an iron plate over a fire, was part of the everyday diet in Wales until the 19th century.
+- (history) From the 19th century, a little bicarbonate of soda was also usually added to the batter.
 
 Learn more:
 
@@ -129,15 +128,15 @@ Faggots, or savoury ducks, are meatballs made from minced off-cuts and offal (es
 
 Fun facts:
 
-- (history) The first reference to savoury ducks in print was in the Manchester Courier on Saturday 3 June 1843.
 - (culture) Faggot is a traditional dish in the United Kingdom, especially South and Mid Wales and the English Midlands.
 - (origin) Faggots originated as a traditional cheap food consumed by country people in Western England, particularly west Wiltshire and the West Midlands.
+- (history) The first reference to savoury ducks in print was in the Manchester Courier on Saturday 3 June 1843.
 
 More fun facts (when the user asks for more):
 
-- (origin) Faggot comes from United Kingdom.
-- (about) Their popularity spread from there, especially to South Wales in the mid-nineteenth century, when many agricultural workers left the land to work in the rapidly expanding industry and mines of that area.
+- (origin) Faggot comes from the United Kingdom.
 - (about) Not to be confused with faggot.
+- (about) Their popularity spread from there, especially to South Wales in the mid-nineteenth century, when many agricultural workers left the land to work in the rapidly expanding industry and mines of that area.
 
 Learn more:
 
@@ -165,18 +164,18 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (origin) Fish-and-chip shops first appeared in the UK in the 1860s, and by 1910 there were over 25,000 of them across the UK.
-- (origin) These immigrants arrived as early as the 16th century, the main immigration to London being during the 1850s.
 - (history) In 1928, Harry Ramsden opened his first fish and chip shop in Guiseley, West Yorkshire.
 - (history) On a single day in 1952, the shop served 10,000 portions of fish and chips, earning a place in the Guinness Book of Records.
-- (history) This increased to over 35,000 by the 1930s, but eventually decreased to approximately 10,000 by 2009.
 - (history) The British government safeguarded the supply of fish and chips during the First World War and again in the Second World War.
-- (history) The earliest known shops were opened in London during the 1860s by Eastern European Jewish immigrant Joseph Malin, and by John Lees in Mossley, Lancashire.
 - (origin) The modern fish-and-chip shop ("chippy" in modern British slang) originated in the UK, although outlets selling fried food occurred commonly throughout Europe.
 - (history) In George Orwell's The Road to Wigan Pier (1937), which documents his experience of working-class life in the North of England, the author considered fish and chips chief among the 'home comforts' which acted as a panacea to the working classes.
 - (history) During the Second World War, fish and chips—a staple of the working class—remained one of the few foods in the United Kingdom not subject to rationing.
 - (history) Fish and chips was one of the few foods in the UK not subject to rationing during the wars, which further contributed to its popularity.
 - (origin) The British tradition of eating fish battered and fried in oil was introduced to the country by the Chuts and Spanish and Portuguese Jews who lived in the Netherlands before settling in the UK.
 - (origin) Fish and chips comes from England.
+- (history) This increased to over 35,000 by the 1930s, but eventually decreased to approximately 10,000 by 2009.
+- (origin) These immigrants arrived as early as the 16th century, the main immigration to London being during the 1850s.
+- (history) The earliest known shops were opened in London during the 1860s by Eastern European Jewish immigrant Joseph Malin, and by John Lees in Mossley, Lancashire.
 
 Learn more:
 
@@ -197,8 +196,8 @@ A full breakfast or fry-up is a substantial cooked breakfast meal often made in 
 Fun facts:
 
 - (history) Fried breakfasts became popular in Great Britain and Ireland during the Victorian era; while the term "full breakfast" does not appear, a breakfast of "fried ham and eggs" is in Isabella Beeton's Book of Household Management (1861).
-- (culture) Baked beans, hash browns, and coffee (in place of tea) are common contemporary but non-traditional inclusions.
 - (about) The rising popularity of breakfast was closely tied to the rise of tea as a popular morning drink.
+- (culture) The meal remains popular as an occasional, celebratory or traditional breakfast.
 
 More fun facts (when the user asks for more):
 
@@ -206,9 +205,9 @@ More fun facts (when the user asks for more):
 - (history) Cookbooks were important in the fixing of the ingredients of a full breakfast during this time, and the full breakfast appeared in the best-selling Isabella Beeton's Book of Household Management (1861).
 - (history) The full breakfast reached its peak of popularity in Edwardian Britain, and despite a decline following the food shortages of World War II, new technologies of food storage and preparation allowed it to become a staple of the working class in the 1950s.
 - (about) Since then the full breakfast has declined in popularity as a daily meal, due to concerns about health and the longer preparation time needed compared to convenience-food breakfasts.
-- (culture) However, the meal remains popular as an occasional, celebratory or traditional breakfast.
 - (about) Full breakfast is so popular in Britain and Ireland that many cafés and pubs offer the meal at any time of day as an "all-day breakfast".
 - (about) Full breakfast is also popular in many Commonwealth nations.
+- (culture) Baked beans, hash browns, and coffee (in place of tea) are common contemporary but non-traditional inclusions.
 
 Learn more:
 
@@ -254,13 +253,13 @@ Jellied eels is a traditional English dish that originated in the 18th century, 
 
 Fun facts:
 
-- (history) The earliest known eel, pie and mash houses opened in London in the 18th century, and the oldest surviving shop, M.Manze, has been open since 1902.
-- (origin) Jellied eels comes from United Kingdom.
+- (history) The water quality of the Thames, having improved greatly since the 1960s, has since become suitable once again for eels.
+- (origin) Jellied eels comes from the United Kingdom.
 - (about) In 2026 there are relatively few eel, pie and mash shops, although jellied eels are sold in some of the capital's delicatessens and supermarkets.
 
 More fun facts (when the user asks for more):
 
-- (history) The water quality of the Thames, having improved greatly since the 1960s, has since become suitable once again for eels.
+- (history) The earliest known eel, pie and mash houses opened in London in the 18th century, and the oldest surviving shop, M.Manze, has been open since 1902.
 
 Learn more:
 
@@ -280,20 +279,20 @@ A pasty ( PASS-tee) is a British baked turnover, a variety of which is particula
 
 Fun facts:
 
-- (history) Other early references to pasties include a charter that was granted by King John of England to the town of Great Yarmouth in 1208.
-- (about) The town was bound to send to the sheriffs of Norwich every year one hundred herrings, baked in twenty four pasties, which the sheriffs delivered to the lord of the manor of East Carlton who then conveyed them to the king.
-- (origin) Pasty comes from United Kingdom.
+- (history) The earliest reference for a pasty in Devon or Cornwall can be found in Plymouth city records of 1509/10, which describe "Itm for the cooke is labor to make the pasties 10d".
+- (origin) Pasty comes from the United Kingdom.
+- (culture) Pasty is a traditional dish and accounts for 6% of the Cornish food economy.
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest reference for a pasty in Devon or Cornwall can be found in Plymouth city records of 1509/10, which describe "Itm for the cooke is labor to make the pasties 10d".
-- (history) In 1393, Le Ménagier de Paris contains recipes for pasté with venison, veal, beef or mutton.
-- (history) In 1465, 5,500 venison pasties were served at the installation feast of George Neville, archbishop of York and chancellor of England.
-- (history) In his diaries written in the mid-17th century, Samuel Pepys makes several references to his consumption of pasties, for instance "dined at Sir W.
-- (history) However, many old photographs show that pasties were wrapped in bags made of paper or muslin and were eaten from end to end; according to the earliest Cornish recipe book, published in 1929, this is "the true Cornish way" to eat a pasty.
-- (culture) Pasty is a traditional dish and accounts for 6% of the Cornish food economy.
+- (history) In his diaries written in the mid-17th century, Samuel Pepys makes several references to his consumption of pasties, for instance "dined at Sir W. Pen's.. on a damned venison pasty, that stunk like a devil", but after this period the use of the word outside Devon and Cornwall declined.
+- (history) Many old photographs show that pasties were wrapped in bags made of paper or muslin and were eaten from end to end; according to the earliest Cornish recipe book, published in 1929, this is "the true Cornish way" to eat a pasty.
+- (history) Other early references to pasties include a charter that was granted by King John of England to the town of Great Yarmouth in 1208.
 - (about) The pasty is now popular worldwide because of the spread of Cornish miners and sailors from across Cornwall, and variations can be found in Australia, Mexico, the United States, Ulster and elsewhere.
 - (about) In contrast to its earlier place amongst the wealthy, during the 17th and 18th centuries, the pasty became popular with working people in Cornwall and west Devon, where tin miners and others adopted it because of its unique shape, forming a complete meal that could be carried easily and eaten without cutlery.
+- (history) In 1393, Le Ménagier de Paris contains recipes for pasté with venison, veal, beef or mutton.
+- (about) The town was bound to send to the sheriffs of Norwich every year one hundred herrings, baked in twenty four pasties, which the sheriffs delivered to the lord of the manor of East Carlton who then conveyed them to the king.
+- (history) In 1465, 5,500 venison pasties were served at the installation feast of George Neville, archbishop of York and chancellor of England.
 - (about) Not to be confused with pastie.
 
 Learn more:
@@ -315,18 +314,18 @@ Piccalilli is a relish from English cuisine made from chopped and pickled vegeta
 
 Fun facts:
 
-- (history) Early versions were published by Hannah Glasse in 1758 and by Elizabeth Raffald in 1769; they salted the vegetables and left them to dry, before adding vinegar.
 - (inspiration) Piccalilli was adapted from Indian pickles in the 18th century, with the style being intentionally exotic but adapted to English taste.
+- (history) A piccalilli has been sold commercially by Crosse & Blackwell from the 19th century onwards.
 - (about) The English diaspora brought the relish to North America, where it has been adapted into forms such as "neon relish", and back to the British Raj in India.
 
 More fun facts (when the user asks for more):
 
-- (history) A piccalilli has been sold commercially by Crosse & Blackwell from the 19th century onwards.
 - (history) The Oxford English Dictionary traces 'piccalilli' to 1758, when Hannah Glasse described how "to make Paco-Lilla, or India Pickle" in her book The Art of Cookery Made Plain and Easy.
-- (history) An apparently earlier reference is in Anne Blencowe's Receipt Book, handwritten c. 1694, which has "To Pickle Lila, an Indian Pickle" credited to Lord Kilmory.
 - (history) The more familiar form of the word appears in 1769, in Elizabeth Raffald's The Experienced English Housekeeper, as "To make Indian pickle, or Piccalillo".
 - (history) Richard Briggs, in his 1788 The English Art of Cookery, similarly calls it "Picca Lillo".
 - (history) The spelling "piccalilli" can be seen in an advertisement in a 1789 edition of The Times.
+- (history) Early versions were published by Hannah Glasse in 1758 and by Elizabeth Raffald in 1769; they salted the vegetables and left them to dry, before adding vinegar.
+- (history) An apparently earlier reference is in Anne Blencowe's Receipt Book, handwritten c. 1694, which has "To Pickle Lila, an Indian Pickle" credited to Lord Kilmory.
 - (inspiration) The name's derivation is not known, but may be based on English 'pickle' (food preserved in vinegar), which in turn is from Middle Dutch pekel with a similar meaning.
 
 Learn more:
@@ -349,7 +348,7 @@ A pork pie is a traditional English meat pie, usually served at room temperature
 Fun facts:
 
 - (history) Hannah Glasse's influential 1747 recipe collection included a recipe for a "Cheshire pork pie", having a filling of layers of pork loin and apple, slightly sweetened with sugar, and filled with half a pint (285ml) of white wine.
-- (origin) Pork pie comes from United Kingdom Ukulele Orchestra.
+- (origin) Pork pie comes from the United Kingdom Ukulele Orchestra.
 - (about) Not to be confused with Pork Pie.
 
 More fun facts (when the user asks for more):
@@ -407,7 +406,7 @@ Fun facts:
 
 - (history) The Staffordshire oatcake dates back to the 19th century where it was baked on a hotplate over an open fire.
 - (inspiration) Staffordshire oatcake is named after Staffordshire.
-- (origin) Staffordshire oatcake comes from England, United Kingdom.
+- (origin) Staffordshire oatcake comes from England, the United Kingdom.
 
 More fun facts (when the user asks for more):
 
@@ -441,8 +440,8 @@ More fun facts (when the user asks for more):
 
 - (history) Hannah Glasse (1751) gives a recipe for a suet pudding with beef-steak (or mutton).
 - (history) Nearly a century later, Eliza Acton (1846) specifies rump steak for her "Small beef-steak pudding" made with suet pastry, but, like her predecessor, does not include kidney.
-- (history) In the following century, Dorothy Hartley (1954) recommended the use of black-gilled mushrooms rather than oysters, because the long cooking is "apt to make [oysters] go hard".
 - (history) Grigson (1974) calls for either veal or beef kidney, as does Marcus Wareing.
+- (history) In the following century, Dorothy Hartley (1954) recommended the use of black-gilled mushrooms rather than oysters, because the long cooking is "apt to make [oysters] go hard".
 
 Learn more:
 
@@ -540,7 +539,7 @@ A Berwick cockle is a white-coloured sweet with red stripes, originally associat
 Fun facts:
 
 - (inspiration) Berwick cockle is named after Berwick-upon-Tweed.
-- (origin) Berwick cockle comes from United Kingdom.
+- (origin) Berwick cockle comes from the United Kingdom.
 - (culture) They are sold loose by weight in paper bags, traditionally in "quarters"—a quarter of a pound.
 
 Learn more:
@@ -562,18 +561,18 @@ Black bun, sometimes known as Scotch bun, is a type of fruit cake completely cov
 Fun facts:
 
 - (history) Black bun has been recorded that Mary herself participated in such games, and in 1563 she dressed her childhood companion Mary Fleming in royal robes and jewellery after Fleming became Queen for the evening.
-- (origin) The cake originated as a Scottish King cake for use on Twelfth Night on 5 January – the eve of Epiphany, and the end of the Twelve Days of Christmas.
+- (origin) Black bun was introduced following the return of Mary, Queen of Scots from France, and the tradition was that a bean was hidden in the cake – whoever found it became the King for the evening.
 - (about) Black bun was subsequently used for first-footing over Hogmanay.
 
 More fun facts (when the user asks for more):
 
 - (history) Previously called Scotch bun and Scotch Christmas bun, the term "black bun" was first recorded in 1898, and may have been a result of Robert Louis Stevenson referring to the cake as "a black substance inimical to life".
-- (origin) Black bun was introduced following the return of Mary, Queen of Scots from France, and the tradition was that a bean was hidden in the cake – whoever found it became the King for the evening.
 - (origin) Black bun had originally been introduced following the return of Mary, Queen of Scots from France, but its original use at Twelfth Night ended with the Scottish Reformation.
 - (culture) This is called first-foot, and the gift of a black bun was meant to symbolise that the receiving family would not go hungry during the forthcoming year.
-- (culture) After the Scottish Reformation, winter festivities were moved to the New Year in Presbyterian Scotland, so the cake has been commonly incorporated into the New Year festivities after Hogmanay, where people traditionally visit their neighbours after midnight to celebrate the New Year.
+- (origin) The cake originated as a Scottish King cake for use on Twelfth Night on 5 January – the eve of Epiphany, and the end of the Twelve Days of Christmas.
 - (culture) Black bun was also used as a traditional cake to serve to those visiting homes as part of Hogmanay, to be consumed with whisky.
 - (origin) Black bun comes from Scotland.
+- (culture) After the Scottish Reformation, winter festivities were moved to the New Year in Presbyterian Scotland, so the cake has been commonly incorporated into the New Year festivities after Hogmanay, where people traditionally visit their neighbours after midnight to celebrate the New Year.
 
 Learn more:
 
@@ -617,7 +616,7 @@ A rowie, also known as a buttery or Aberdeen roll, is a savoury bread roll origi
 Fun facts:
 
 - (inspiration) Legend has it that the rowie was made for the fishermen sailing from Aberdeen harbour.
-- (culture) However, concerns have been raised about major commercial producers swapping the traditional butter and lard mixture for palm oil.
+- (culture) Concerns have been raised about major commercial producers swapping the traditional butter and lard mixture for palm oil.
 - (origin) Buttery comes from Scotland.
 
 Learn more:
@@ -660,14 +659,14 @@ Fun facts:
 
 - (culture) Chicken tikka masala is one of the most popular dishes in Britain, and in 2001 was described by the British Foreign Secretary Robin Cook as "a true British national dish".
 - (about) The British Indian businessman Gulam Noon is among the people who helped to popularise the dish, though he was not its inventor; he ran food product companies in Southall, in the west of London.
-- (history) The Multicultural Handbook of Food, Nutrition and Dietetics credits its creation to Bangladeshi migrant chefs in Britain in the 1960s, who at that time ran most of Britain's Indian restaurants.
+- (origin) Chicken tikka masala comes from the United Kingdom, India.
 
 More fun facts (when the user asks for more):
 
-- (origin) Chicken tikka masala comes from United Kingdom, India.
 - (origin) Chicken tikka masala was first made by Ali Ahmed Aslam.
 - (culture) Scholars and critics have debated the status of the dish, concluding variously that it has undergone an elaborate process of cultural interchange, and serves as symbol of Britain's multicultural society.
 - (about) Not to be confused with chicken tikka, chicken marsala.
+- (history) The Multicultural Handbook of Food, Nutrition and Dietetics credits its creation to Bangladeshi migrant chefs in Britain in the 1960s, who at that time ran most of Britain's Indian restaurants.
 
 Learn more:
 
@@ -848,22 +847,22 @@ A digestive biscuit, sometimes described as a sweet-meal biscuit, is a semi-swee
 Fun facts:
 
 - (history) The digestive was first developed in 1839 by two doctors to aid digestion.
-- (about) The incident was recounted by recording engineer Geoff Emerick in his book Here, There, and Everywhere: My Life Recording the Music of The Beatles.
 - (origin) The term digestive is derived from the belief, around the time the biscuit was first introduced, that they had antacid properties due to the use of sodium bicarbonate as an ingredient.
+- (about) The incident was recounted by recording engineer Geoff Emerick in his book Here, There, and Everywhere: My Life Recording the Music of The Beatles.
 
 More fun facts (when the user asks for more):
 
 - (history) In 1839, digestives were developed in the United Kingdom by two Scottish doctors to aid digestion.
-- (history) In 1889, John Montgomerie of Scotland filed a U.S. patent application, which was granted in 1890.
 - (history) McVitie's digestive biscuits have become known among fans of the Beatles because they were the cause of an argument between George Harrison and John Lennon during a recording session for the group's 1969 album Abbey Road.
 - (history) First manufactured by McVitie's in 1892 to a secret recipe developed by Sir Alexander Grant, their digestive is the best-selling biscuit in the United Kingdom.
 - (history) In 2009, the digestive was ranked the fourth most popular biscuit for "dunking" into tea among the British public, with the chocolate digestive (produced by McVitie's since 1925) coming in at number one.
 - (history) In an 1851 issue of The Lancet, London's advertising section offered brown meal digestive biscuits.
 - (history) By 1912, it was more widely known that brown meal included the germ, which lent a characteristic sweetness.
+- (origin) Digestive biscuit comes from the United Kingdom.
+- (history) Digestive biscuit dates from 1839-.
+- (history) In 1889, John Montgomerie of Scotland filed a U.S. patent application, which was granted in 1890.
 - (history) A recipe was given in Cassell's New Universal Cookery Book of 1894.
 - (history) This patent asserted a prior patent existed in England dated to 1886.
-- (origin) Digestive biscuit comes from United Kingdom.
-- (history) Digestive biscuit dates from 1839-.
 
 Learn more:
 
@@ -915,13 +914,13 @@ Edinburgh rock or Edinburgh Castle rock is a traditional Scottish confection, an
 Fun facts:
 
 - (origin) Edinburgh rock was first made in the 19th century by a man named Alexander Ferguson, who became known as 'Sweetie Sandy'.
-- (history) Ferguson was born in Doune, Perthshire in 1798.
+- (history) In the early 20th century, the rock was produced and sold at 1 Melbourne Place (now demolished, but previously the corner of George IV Bridge with the Lawnmarket).
 - (inspiration) Edinburgh rock is named after Edinburgh.
 
 More fun facts (when the user asks for more):
 
-- (history) In the early 20th century, the rock was produced and sold at 1 Melbourne Place (now demolished, but previously the corner of George IV Bridge with the Lawnmarket).
 - (origin) Edinburgh rock comes from Scotland.
+- (history) Ferguson was born in Doune, Perthshire in 1798.
 
 Learn more:
 
@@ -957,17 +956,17 @@ A Finnan haddie is a haddock that has been cured with the smoke of green wood or
 
 Fun facts:
 
-- (history) The fish started making its first appearances in London when shipped by established mail coach, but became widely available with the construction of the railway link connecting Aberdeen to London in the 1840s.
-- (origin) They are usually said to have originated in Findon, a fishing village south of Aberdeen, though an alternative tradition traces them to Findhorn in Moray.
+- (history) Although known and admired in Scotland for a long time, Finnan haddies became a popular food item in London only in the 1830s.
 - (inspiration) Finnan haddie is named after Findhorn, Findon.
+- (culture) Finnan has a long association with the traditional Scottish fish soup Cullen skink, and most old Scottish recipe books cite Finnan haddie as the smoked haddock to be used for this dish.
 
 More fun facts (when the user asks for more):
 
-- (history) Although known and admired in Scotland for a long time, Finnan haddies became a popular food item in London only in the 1830s.
-- (culture) Finnan has a long association with the traditional Scottish fish soup Cullen skink, and most old Scottish recipe books cite Finnan haddie as the smoked haddock to be used for this dish.
-- (culture) The traditional preparation is to roast or grill the whole pieces of fish over high heat.
+- (history) The fish started making its first appearances in London when shipped by established mail coach, but became widely available with the construction of the railway link connecting Aberdeen to London in the 1840s.
 - (culture) Finnan haddie is also often served poached in milk for breakfast and is an important part of traditional kedgeree and the Arnold Bennett omelette.
 - (origin) Finnan haddie comes from Scotland.
+- (origin) They are usually said to have originated in Findon, a fishing village south of Aberdeen, though an alternative tradition traces them to Findhorn in Moray.
+- (culture) The traditional preparation is to roast or grill the whole pieces of fish over high heat.
 
 Learn more:
 
@@ -1025,14 +1024,14 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Hobson-Jobson cites ibn Battuta (c. 1340) mentioning a dish of munj (mung beans) boiled with rice called kishrī and cites a recipe for khichdi from the Ain-i-Akbari (c. 1590).
-- (history) The Mughal emperor Aurangzeb (d.1707) was fond of the Alamgiri Khichdi, a variety featuring fish and boiled eggs.
 - (origin) It is widely believed that the dish was brought to the United Kingdom by returning British colonials who had enjoyed it in India and introduced it to the UK as a breakfast dish in Victorian times, part of the new introduced cuisine.
 - (history) By 1930s and 1940s in Britain, kedgeree was a popular and affordable breakfast among the working classes and in institutional settings because it could incorporate leftovers; rather than fresh fish, smoked or tinned fish was often used.
 - (history) Kedgeree was listed as early as 1790 in the recipe book of Stephana Malcolm of Burnfoot, Dumfriesshire.
-- (origin) Kedgeree comes from United Kingdom, India.
-- (culture) Other fish can be used instead of haddock such as tuna or salmon, though these are not traditional.
+- (origin) Kedgeree comes from the United Kingdom, India.
+- (history) The Mughal emperor Aurangzeb (d.1707) was fond of the Alamgiri Khichdi, a variety featuring fish and boiled eggs.
 - (about) In Gujarat, where khichdi remains popular, the lentil and rice dish is usually served with kadhi, a spiced yogurt dish that can be mixed with the khichdi.
 - (inspiration) Kedgeree is based on khichri.
+- (culture) Other fish can be used instead of haddock such as tuna or salmon, though these are not traditional.
 - (about) Not to be confused with khichri.
 
 Learn more:
@@ -1086,9 +1085,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) Kipper comes from Isle of Man.
 - (inspiration) According to Mark Kurlansky, "Smoked foods almost always carry with them legends about their having been created by accident—usually the peasant hung the food too close to the fire, and then, imagine his surprise the next morning when …".
 - (history) For instance Thomas Nashe wrote in 1599 about a fisherman from Lothingland in the Great Yarmouth area who discovered smoking herring by accident.
-- (origin) Kipper comes from Isle of Man.
 - (about) Not to be confused with red herring.
 
 Learn more:
@@ -1110,16 +1109,16 @@ A macaroon is a small cake or cookie, originally made from ground almonds, egg w
 Fun facts:
 
 - (history) In 1624 an abbey was founded in the heart of Nancy (Benedictine from 1668) by a daughter of Catherine de' Medici and Henry II of France, where macaroons were made.
-- (culture) Mrs Beeton's Book of Household Management (1861) includes a typical traditional recipe.
-- (about) They became known as the "Macaroon Sisters".
+- (about) Macaroons became a popular treat for Jews on Passover because they had no flour or leavening, as macaroons are leavened by egg whites.
+- (origin) Macaroon comes from France.
 
 More fun facts (when the user asks for more):
 
 - (history) Macaroons can be traced to a French monastery of the 8th century in the city of Cormery.
 - (history) Recipes for macaroons appeared in recipe books at least as early as 1725 (Robert Smith's Court Cookery, or the Complete English Cook), and use egg whites and almond paste.
-- (about) Macaroons became a popular treat for Jews on Passover because they had no flour or leavening, as macaroons are leavened by egg whites.
-- (origin) Macaroon comes from France.
 - (about) Not to be confused with macaron.
+- (culture) Mrs Beeton's Book of Household Management (1861) includes a typical traditional recipe.
+- (about) They became known as the "Macaroon Sisters".
 
 Learn more:
 
@@ -1140,15 +1139,15 @@ Marmalade is a sweet, tangy fruit preserve made from the juice and peel of citru
 
 Fun facts:
 
-- (history) In the 21st century, the term refers mainly to jam made with citrus fruits.
+- (history) Mary Kettilby's 1714 cookery book, A Collection of above Three Hundred Receipts (pages 78–79) discusses how to make marmalade.
 - (about) The 2014 movie Paddington slightly increased marmalade sales in the United Kingdom.
 - (origin) Marmalade comes from Portugal.
 
 More fun facts (when the user asks for more):
 
-- (history) Mary Kettilby's 1714 cookery book, A Collection of above Three Hundred Receipts (pages 78–79) discusses how to make marmalade.
 - (history) Modern marmalade was created in the 1700s when the Scots added water to make it less solid.
 - (history) In the 1500s, marmalade was made from quince, and was imported to England from Spain and Italy.
+- (history) In the 21st century, the term refers mainly to jam made with citrus fruits.
 - (about) Not to be confused with Marmolada, marmelade.
 
 Learn more:
@@ -1202,7 +1201,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Mint sales have remained robust in the 21st century.
-- (about) However, many of the most popular mints citing these natural sources contain none in their ingredient list or contain only trace amounts.
+- (about) Many of the most popular mints citing these natural sources contain none in their ingredient list or contain only trace amounts.
 - (about) Early producers used cardboard boxes and tins, which have remained popular.
 
 Learn more:
@@ -1264,9 +1263,9 @@ An oatcake is a type of flatbread similar to a cracker or biscuit, or in some ve
 
 Fun facts:
 
-- (history) Jean Le Bel, around AD 1357–1360 describes the Beguine nuns making "little pancakes rather like communion wafers".
-- (origin) Oatcake comes from United Kingdom.
 - (history) Oatcakes have been documented as existing in Caledonia (subsequently Scotland after the 9th century) since at least the time of the Roman conquest of Britain in AD 43, and likely before then.
+- (origin) Oatcake comes from the United Kingdom.
+- (history) Jean Le Bel, around AD 1357–1360 describes the Beguine nuns making "little pancakes rather like communion wafers".
 
 Learn more:
 
@@ -1289,7 +1288,7 @@ A pan loaf is a style of bread loaf baked in a loaf pan or tin.
 Fun facts:
 
 - (about) Pan loaf is the most common style available in the United Kingdom, though the term itself is predominantly Scottish and Northern Irish to differentiate it from the plain loaf.
-- (origin) Pan loaf comes from United States, Italy, France, United Kingdom.
+- (origin) Pan loaf comes from the United States, Italy, France, the United Kingdom.
 - (about) Not to be confused with toast, sandwich bread, sliced bread.
 
 Learn more:
@@ -1330,16 +1329,16 @@ Penguin is a chocolate sandwich biscuit with a chocolate flavoured coating, fill
 
 Fun facts:
 
-- (history) They were first produced in 1932 and became a McVitie's product a few years after MacDonald was taken over by United Biscuits in 1965.
 - (inspiration) The Tim Tam, produced by Arnott's in Australia and first sold in 1964, was based on the Penguin.
+- (history) They were first produced in 1932 and became a McVitie's product a few years after MacDonald was taken over by United Biscuits in 1965.
 - (about) Since 2025, the coating on the biscuits has been described as "chocolate flavour" because the amount of cocoa it contains has been reduced below the 20% minimum required to be called "chocolate".
 
 More fun facts (when the user asks for more):
 
-- (history) William Macdonald founded Macdonald Biscuits in Glasgow in 1928.
-- (inspiration) After seeing some biscuits from Antwerp, Belgium he was inspired to create a chocolate covered biscuit with a chocolate cream sandwich in the centre.
 - (about) Each wrapper has a joke or "funny fact" printed on it and imaginative, often humorous designs featuring penguins that often pastiche famous works of art.
 - (about) By December 2007, United Biscuits began to advertise the absence of trans fats from Penguins, having removed the ingredient from this product line.
+- (history) William Macdonald founded Macdonald Biscuits in Glasgow in 1928.
+- (inspiration) After seeing some biscuits from Antwerp, Belgium he was inspired to create a chocolate covered biscuit with a chocolate cream sandwich in the centre.
 
 Learn more:
 
@@ -1419,8 +1418,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) A crucial factor in their popularity was the development of the long-range railway network, which allowed the transport of herring from the North and Baltic seas to the interior.
 - (about) In pubs in Old Berlin, it was common to have high-rising glass display cases known as Hungerturm (meaning "hunger tower") on the bar to present ready-to-eat dishes like lard bread, salt eggs, meatballs, mettwurst, and of course rollmops.
+- (about) A crucial factor in their popularity was the development of the long-range railway network, which allowed the transport of herring from the North and Baltic seas to the interior.
 
 Learn more:
 
@@ -1442,7 +1441,7 @@ Rumbledethumps is a traditional dish from the Scottish Borders.
 
 Fun facts:
 
-- (origin) Rumbledethumps comes from United Kingdom.
+- (origin) Rumbledethumps comes from the United Kingdom.
 - (about) In January 2009, Gordon Brown submitted a recipe for rumbledethumps to a cookbook for Donaldson's School for the Deaf, describing it as his favourite food.
 
 Learn more:
@@ -1533,9 +1532,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The first printed recipe, in 1736, was from a Scotswoman named Mrs McLintock.
 - (history) The "short-cake" mentioned in Shakespeare's play The Merry Wives of Windsor, first published in 1602, was a reference to the cookie-style of shortbread.
 - (history) In British English, shortbread and shortcake have been synonyms for several centuries, starting in the 1400s; both referred to the crisp, crumbly cookie-type baked good, rather than a softer cake.
+- (history) The first printed recipe, in 1736, was from a Scotswoman named Mrs McLintock.
 - (about) Despite the enduring popular association, evidence for any connection between Mary and shortbread's origin is sparse.
 - (culture) In Scotland, it was traditional to break a decorated shortbread cake (infar-cake or dreaming bread) over the head of a new bride on the entrance of her new house.
 - (about) Shortbread is so named because of its crumbly texture (from an old meaning of the word "short", as opposed to "long", or stretchy).
@@ -1562,9 +1561,9 @@ A singing hinny or singin' hinny is a type of bannock, griddle cake or scone, ma
 
 Fun facts:
 
-- (origin) Singing hinny comes from England, United Kingdom.
-- (about) In Scotland, they are known as fatty cutties.
+- (origin) Singing hinny comes from England, the United Kingdom.
 - (culture) Traditionally it is made as one large cake, but it can also be made into multiple smaller cakes.
+- (about) In Scotland, they are known as fatty cutties.
 
 Learn more:
 
@@ -1604,9 +1603,8 @@ Smoked salmon is a preparation of salmon, typically a fillet that has been cured
 
 Fun facts:
 
-- (history) The first smoking factory was from Poland in the 7th century A.D.
+- (history) The first smoking factory was from Poland in the 7th century A.D. The 19th century marked the rise of the American smoked salmon industry in the West Coast, processing Pacific salmon from Alaska and Oregon.
 - (culture) Smoked salmon was also a common dish in Greek and Roman culture throughout history, often being eaten at large gatherings and celebrations.
-- (history) The 19th century marked the rise of the American smoked salmon industry in the West Coast, processing Pacific salmon from Alaska and Oregon.
 
 Learn more:
 
@@ -1627,13 +1625,13 @@ A Soor ploom (Scots for "sour plum") is a sharp-flavoured, round, green boiled s
 
 Fun facts:
 
-- (origin) They are said to have been first made in 1337 in commemoration of a skirmish near Galashiels.
 - (history) They have been featured in Oor Wullie and The Broons cartoons; additionally, there is a Border pipe tune from 1700 called "Soor Plooms of Galashiels".
+- (origin) Soor ploom comes from Scotland.
 - (culture) They are sold loose by weight in paper bags, traditionally in "quarters" — a quarter of a lb.
 
 More fun facts (when the user asks for more):
 
-- (origin) Soor ploom comes from Scotland.
+- (origin) They are said to have been first made in 1337 in commemoration of a skirmish near Galashiels.
 
 Learn more:
 
@@ -1720,7 +1718,7 @@ Tablet (taiblet in Scots) is a medium-hard, sugary confection from Scotland.
 
 Fun facts:
 
-- (history) Marian McNeill, tablet is noted in The Household Book of Lady Grisell Baillie in the early 18th century.
+- (history) According to The Scots Kitchen by F. Marian McNeill, tablet is noted in The Household Book of Lady Grisell Baillie in the early 18th century.
 - (culture) This produces a slightly less granular texture compared to the traditional home-made tablet, and is supposedly easier to prepare on a commercial scale.
 - (origin) Tablet comes from Scotland.
 
@@ -1775,14 +1773,14 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Jelly is first recorded as part of a trifle recipe in Hannah Glasse's 'A grand trifle' in her book The Compleat Confectioner (1760).
-- (history) One was in the 4th edition of Hannah Glasse's The Art of Cookery Made Plain and Easy (1751) and the other was by an unknown author entitled The Whole Duty of a Woman (1751).
 - (history) The late 19th century was, according to the food historian Annie Gray, "a sort of heyday" for trifles and by the early 1900s there were, in print, says Gray, "a bewildering number of recipes".
 - (history) The earliest use of the name trifle was in a recipe for a thick cream flavoured with sugar, ginger and rosewater, in Thomas Dawson's 1585 book of English cookery The Good Huswifes Jewell.
 - (history) Trifle was not until the 1750s that trifles took the form that many know of today.
-- (history) There were thirteen in The Encyclopaedia of Practical Cookery: A Complete Dictionary of All Pertaining to the Art of Cookery and Table Service (8 volumes, 1891), from Theodore Francis Garrett, alone.
 - (culture) In 2022, a trifle was selected to be the Platinum Pudding, to help celebrate the Platinum Jubilee of Queen Elizabeth II.
-- (culture) The assembled dessert can be topped with whipped cream or, more traditionally, syllabub.
+- (history) One was in the 4th edition of Hannah Glasse's The Art of Cookery Made Plain and Easy (1751) and the other was by an unknown author entitled The Whole Duty of a Woman (1751).
 - (origin) Trifle comes from England.
+- (history) There were thirteen in The Encyclopaedia of Practical Cookery: A Complete Dictionary of All Pertaining to the Art of Cookery and Table Service (8 volumes, 1891), from Theodore Francis Garrett, alone.
+- (culture) The assembled dessert can be topped with whipped cream or, more traditionally, syllabub.
 
 Learn more:
 
@@ -1824,7 +1822,7 @@ Black pudding is a type of blood sausage originating in the United Kingdom and I
 Fun facts:
 
 - (history) While the dish has been known as black pudding for centuries, blak podyngs having been recorded c. 1450, a number of dialect names have also been used for the dish, such as black pot (in Somerset), and bloody pot.
-- (origin) Black pudding comes from United Kingdom, Ireland.
+- (origin) Black pudding comes from the United Kingdom, Ireland.
 - (culture) Most traditional recipes from the UK involve stirring the fresh blood, adding fat and some form of rusk, and seasoning, before filling the mixture into a casing and boiling it.
 
 More fun facts (when the user asks for more):
@@ -1898,7 +1896,7 @@ Bonchester cheese is a soft Scottish cheese, made from unpasteurised Jersey cows
 Fun facts:
 
 - (inspiration) Bonchester cheese is named after Bonchester Bridge.
-- (origin) Bonchester cheese comes from United Kingdom.
+- (origin) Bonchester cheese comes from the United Kingdom.
 
 Learn more:
 
@@ -1940,7 +1938,7 @@ Caboc is a Scottish cream cheese, made with double cream or cream-enriched milk.
 
 Fun facts:
 
-- (origin) Caboc comes from United Kingdom.
+- (origin) Caboc comes from the United Kingdom.
 
 Learn more:
 
@@ -2012,7 +2010,7 @@ More fun facts (when the user asks for more):
 - (history) In the United States, a written mention of "cocktail" as a beverage appeared in The Farmers Cabinet, 1803.
 - (history) In 1862, Jerry Thomas published a bartender's guide called How to Mix Drinks; or, The Bon Vivant's Companion which included 10 cocktail recipes using bitters, to differentiate from other drinks such as punches and cobblers.
 - (history) Cocktails continued to evolve and gain popularity throughout the 1900s, with the term eventually expanding to cover all mixed drinks.
-- (history) In 1917, the term cocktail party was coined by Julius S.
+- (history) In 1917, the term cocktail party was coined by Julius S. Walsh Jr. of St. Louis, Missouri.
 - (history) A well-known "cocktail" in ancient Greece was named kykeon.
 - (culture) The early to mid-2000s saw the rise of cocktail culture through the style of mixology which mixes traditional cocktails and other novel ingredients.
 - (about) Not to be confused with mixed drink.
@@ -2063,16 +2061,15 @@ Crowdie is a type of soft, fresh cheese made from cows' milk, traditionally from
 
 Fun facts:
 
-- (history) Apparently, one day in 1962, after making too much, she offered the surplus to a local grocer.
-- (origin) Crowdie comes from United Kingdom.
-- (culture) The cheese was traditionally made for domestic use by crofters and smallholders in the Scottish Highlands and Islands, and in the Orkney Islands, using milk from the family cow.
+- (origin) Crowdie comes from the United Kingdom.
+- (culture) Following World War II, crowdie production on a domestic scale declined with the passing of crofting traditions, although it continued to be made in many households and is still commonly made there in the year 2025.
+- (about) There are several variations on the basic crowdie: one variety known as "black crowdie" or Gruth Dubh is made by mixing crowdie with double cream and rolling it in a mixture of pinhead oatmeal and crushed black peppercorns.
 
 More fun facts (when the user asks for more):
 
-- (culture) Following World War II, crowdie production on a domestic scale declined with the passing of crofting traditions, although it continued to be made in many households and is still commonly made there in the year 2025.
-- (culture) Her traditional crowdie became popular enough that she and her husband began to produce it commercially with their other traditional Scottish cheeses.
-- (about) There are several variations on the basic crowdie: one variety known as "black crowdie" or Gruth Dubh is made by mixing crowdie with double cream and rolling it in a mixture of pinhead oatmeal and crushed black peppercorns.
 - (culture) One of the most popular ways of eating the cheese is to turn it into a dessert called "cream crowdie" or "cranachan", traditionally eaten as part of a Burns supper.
+- (history) Apparently, one day in 1962, after making too much, she offered the surplus to a local grocer.
+- (culture) The cheese was traditionally made for domestic use by crofters and smallholders in the Scottish Highlands and Islands, and in the Orkney Islands, using milk from the family cow.
 
 Learn more:
 
@@ -2094,15 +2091,15 @@ Drambuie is a golden-coloured, 40% ABV liqueur made from Scotch whisky, heather 
 
 Fun facts:
 
+- (history) Drambuie dates from 1910-.
 - (inspiration) The legend holds that the recipe was given by Clan MacKinnon to John Ross in the late 19th century.
-- (history) After the Battle of Culloden in 1746, Prince Charles Edward Stuart, also called Bonnie Prince Charlie, fled to the isle of Skye.
 - (origin) Drambuie comes from Scotland.
 
 More fun facts (when the user asks for more):
 
+- (history) After the Battle of Culloden in 1746, Prince Charles Edward Stuart, also called Bonnie Prince Charlie, fled to the isle of Skye.
 - (inspiration) According to family legend, after staying with the captain, the prince rewarded him with this prized drink recipe.
 - (history) After John Ross's death in 1879, his son James Ross, a business man and owner of the Broadford Hotel in Broadford on Skye, began to experiment with the recipe.
-- (history) Drambuie dates from 1910-.
 
 Learn more:
 
@@ -2154,8 +2151,8 @@ Ecclefechan tarts, also known as Ecclefechan butter tarts, are a traditional Sco
 
 Fun facts:
 
-- (inspiration) They are named after the village of Ecclefechan, located in Dumfries and Galloway in the south of Scotland, where it is sold by many local businesses and has become an attraction for tourists.
 - (history) Somewhat similar recipes for a butter tart, a crust pastry with a filling of fruit, almonds, sugar, butter, and wine, can be found in Britain from the early 18th century.
+- (inspiration) They are named after the village of Ecclefechan, located in Dumfries and Galloway in the south of Scotland, where it is sold by many local businesses and has become an attraction for tourists.
 - (about) In 2007, Ecclefechan tarts gained national prominence in the UK when the supermarket Sainsbury's promoted them as an alternative to mince pies at Christmas, the tarts sold over 50,000 packs in November 2007.
 
 More fun facts (when the user asks for more):
@@ -2181,7 +2178,7 @@ An Empire biscuit (also known as Imperial biscuit, Imperial cookie, German biscu
 Fun facts:
 
 - (history) With the outbreak of the First World War it was renamed the Empire biscuit.
-- (origin) Empire biscuit comes from United Kingdom.
+- (origin) Empire biscuit comes from the United Kingdom.
 - (history) Empire biscuit is also popular in Ireland, as well as Canada (particularly iconic in Winnipeg and Hamilton).
 
 More fun facts (when the user asks for more):
@@ -2212,19 +2209,19 @@ Fun facts:
 
 - (inspiration) An investigation to find the original Journal of Commerce article failed to locate it but did come upon an earlier reference to the same story in an 1876 edition of the Daily Alta California, citing "a New York commercial journal" and dating the tea's origin to 1844.
 - (history) The term breakfast tea has been applied by vendors since at least the late 18th century.
-- (origin) The current naming practice of the blend is claimed to have originated not in England but America, as far back as Colonial times.
+- (about) In the UK, the popularisation of breakfast tea has been attributed in part to Queen Victoria.
 
 More fun facts (when the user asks for more):
 
 - (history) An additional account (referencing a period-era Journal of Commerce article) dates the blend to 1843 and a tea merchant named Richard Davies in New York City.
 - (history) In an 1884 American publication it was noted that "Bohea teas (are) known to trade in this country as 'English Breakfast' tea, from its forming the staple shipment to England".
-- (about) In the UK, the popularisation of breakfast tea has been attributed in part to Queen Victoria.
-- (history) At her Scottish residence of Balmoral in 1892, she tasted and enjoyed a blend so named, and returned to London with a supply.
 - (inspiration) English breakfast tea is named after English breakfast.
-- (origin) English breakfast tea comes from United Kingdom.
+- (origin) English breakfast tea comes from the United Kingdom.
 - (about) English breakfast tea is one of the most popular blended teas, common in British and Irish tea culture, which developed since their exposure to Asian tea culture.
 - (culture) English breakfast tea is a black tea blend usually described as full-bodied, robust, rich and blended to go well with milk and sugar, in a style traditionally associated with a hearty full English breakfast.
 - (about) It sold for 50 cents per pound (0.45 kg) (equivalent to $17.28 per pound in 2025), and its success led to imitators, helping to popularize the name.
+- (origin) The current naming practice of the blend is claimed to have originated not in England but America, as far back as Colonial times.
+- (history) At her Scottish residence of Balmoral in 1892, she tasted and enjoyed a blend so named, and returned to London with a supply.
 
 Learn more:
 
@@ -2275,8 +2272,8 @@ More fun facts (when the user asks for more):
 - (inspiration) Haggis pakora has been described as a "highly improbable Indo-Caledonian alliance making use of the Scots' most potent culinary weapons: sheep pluck (heart, liver and lungs) and deep-fat frying." It has more fondly been called "an inspired example of Indo-Gael fusion".
 - (culture) Often these use vegetarian haggis rather than the traditional haggis made from a sheep's stomach stuffed with the chopped up lung, heart and liver of the sheep mixed with oatmeal.
 - (about) Haggis pakoras have become popular appetizers in Indian restaurants in Scotland, where they appeal to what English food writer Felicity Cloake described as "the Scottish predilection for deep-frying anything that will stay still long enough to be dunked in batter".
-- (about) The product had won the Best Innovative Product prize at the BPEX Foodservice Awards 2013.
 - (origin) Haggis pakora comes from Scotland.
+- (about) The product had won the Best Innovative Product prize at the BPEX Foodservice Awards 2013.
 
 Learn more:
 
@@ -2329,8 +2326,8 @@ More fun facts (when the user asks for more):
 - (history) By the 1860s, India pale ales were widely brewed in England, and they were much more attenuated and hopped than porters and ales.
 - (history) Demand for the export style of pale ale, which had become known as "India pale ale", developed in England around 1840 and India pale ale became a popular product in England.
 - (history) In 1837, Hodgson's IPA typically cost 6/6 (32.5p; equivalent to £31 in 2025) for a dozen pint bottles, the same as Guinness Double Stout, 53% more than the 4/3 (21.25p; equivalent to £21) a dozen for those of porter.
-- (about) IPA declined in popularity in the late 19th and mid 20th centuries.
 - (about) One variety was Old ale, a pale well-hopped brew popular among the landed gentry, who brewed it domestically; once brewed, it was intended to age in a cellar for two years.
+- (about) IPA declined in popularity in the late 19th and mid 20th centuries.
 
 Learn more:
 
@@ -2351,18 +2348,18 @@ Irn-Bru is a Scottish carbonated soft drink, often described as "Scotland's othe
 
 Fun facts:
 
-- (origin) Introduced in 1901, the drink is produced in Westfield, Cumbernauld, North Lanarkshire, by A.G.
 - (about) As well as being sold throughout the United Kingdom, Irn-Bru is available throughout the world and can usually be bought where there is a significant community of people from Scotland.
-- (history) Barr, were forced to change the name of the drink in 1946 following a change in the law that stipulated that the marketing of products be "literally true".
+- (history) Originally selling it as Iron Brew, the drink's makers, A.G. Barr, were forced to change the name of the drink in 1946 following a change in the law that stipulated that the marketing of products be "literally true".
+- (origin) Irn-Bru comes from Scotland.
 
 More fun facts (when the user asks for more):
 
-- (history) An advertisement for Barr's Iron Brew dated 1900 featuring the original strongman label can be found in Falkirk's Local History Archives.
 - (history) Irn-Bru dates from 1901-.
-- (history) The first Iron Brew drink was produced by the Maas & Waldstein chemicals company of New York in 1889 under the name IRONBREW.
 - (about) Irn-Bru has long been the most popularly consumed soft drink in Scotland, consistently beating rivals such as Coca-Cola, Pepsi and Fanta, and reportedly sells 20 cans every second throughout Scotland.
+- (origin) Introduced in 1901, the drink is produced in Westfield, Cumbernauld, North Lanarkshire, by A.G. Barr of Glasgow.
+- (history) An advertisement for Barr's Iron Brew dated 1900 featuring the original strongman label can be found in Falkirk's Local History Archives.
+- (history) The first Iron Brew drink was produced by the Maas & Waldstein chemicals company of New York in 1889 under the name IRONBREW.
 - (about) The drink was popular across North America and was widely copied.
-- (origin) Irn-Bru comes from Scotland.
 
 Learn more:
 
@@ -2385,7 +2382,7 @@ Isle of Mull Cheddar is a very sharp white cheddar cheese with a blue vein, from
 Fun facts:
 
 - (inspiration) Isle of Mull Cheddar is named after Isle of Mull.
-- (origin) Isle of Mull Cheddar comes from United Kingdom.
+- (origin) Isle of Mull Cheddar comes from the United Kingdom.
 
 Learn more:
 
@@ -2404,19 +2401,19 @@ Kale (), also called leaf cabbage, belongs to a group of cabbage (Brassica olera
 
 Fun facts:
 
-- (history) The earliest record of cabbages in western Europe is of hard-heading cabbage in the 13th century.
 - (origin) The name kale originates from Northern Middle English cale (compare Scots kail and German Kohl) for various cabbages.
 - (about) Records in 14th-century England distinguish between hard-heading cabbage and loose-leaf kale.
+- (history) The earliest record of cabbages in western Europe is of hard-heading cabbage in the 13th century.
 
 More fun facts (when the user asks for more):
 
 - (origin) Kale originated in the eastern Mediterranean and Anatolia, where it was cultivated for food beginning by 2000 BCE at the latest.
-- (history) Curly-leaved varieties of cabbage already existed along with flat-leaved varieties in Greece in the 4th century BC.
 - (origin) Russian traders introduced Russian kale into Canada and then into the United States in the 19th century.
 - (about) The different types of ornamental kale are peacock kale, coral prince, kamone coral queen, color up kale, and chidori kale.
 - (about) In 2012, Pizza Hut purchased approximately 14,000 lbs of kale for use in salad bar decoration.
-- (culture) Barrie (creator of Peter Pan), consisted of authors who wrote about traditional rural Scottish life (kailyard = 'kale field').
+- (culture) The Kailyard school of Scottish writers, which included J. M. Barrie (creator of Peter Pan), consisted of authors who wrote about traditional rural Scottish life (kailyard = 'kale field').
 - (about) In Cuthbertson's book Autumn in Kyle and the charm of Cunninghame, he states that Kilmaurs in East Ayrshire was famous for its kale, which was an important foodstuff.
+- (history) Curly-leaved varieties of cabbage already existed along with flat-leaved varieties in Greece in the 4th century BC.
 
 Learn more:
 
@@ -2445,7 +2442,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Lanark Blue comes from United Kingdom.
+- (origin) Lanark Blue comes from the United Kingdom.
 - (origin) Lanark Blue was first made in Lanarkshire.
 
 Learn more:
@@ -2539,25 +2536,25 @@ Scotch whisky (Scottish Gaelic: uisge-beatha na h-Alba; Scots: whisky/whiskie [�
 
 Fun facts:
 
-- (history) The first known reference to a still for making "aquavite" in Scotland appears in the Aberdeen council registers, in a case heard in 1505 by the town's bailies concerning the inheritance of goods belonging to a chaplain named Sir Andrew Gray, who died in 1504.
+- (history) The first known written mention of Scotch whisky is in the Exchequer Rolls of Scotland of 1494.
 - (origin) Between the 1760s and the 1830s, a substantial unlicensed trade originated from the Highlands, forming a significant part of the region's export economy.
-- (about) The Exchequer Rolls' record crown income and expenditure and the quote records eight bolls of malt given to Friar John Cor to make aqua vitae over the previous year.
+- (about) As a drink, Scotch whisky was a favourite of King James IV of Scotland.
 
 More fun facts (when the user asks for more):
 
-- (history) The first known written mention of Scotch whisky is in the Exchequer Rolls of Scotland of 1494.
-- (history) The earliest record of distillation in Scotland is in the Exchequer Rolls of Scotland for 1494.
-- (history) Spirit production was first taxed by the Parliament of Scotland from January 1644, with an excise duty of 2s 8d imposed per Scots pint; instigating the illicit distilling of spirits within the country.
+- (history) The first known reference to a still for making "aquavite" in Scotland appears in the Aberdeen council registers, in a case heard in 1505 by the town's bailies concerning the inheritance of goods belonging to a chaplain named Sir Andrew Gray, who died in 1504.
 - (history) Commercial distilleries began introducing whisky made from wheat and rye in the late 18th century.
-- (about) To Friar John Cor, by order of the King, to make aqua vitae, VIII bolls of malt.
-- (history) This would be enough for 1,500 bottles, which suggests that distillation was well-established by the late 15th century.
-- (about) Among his goods was recorded (in Middle Scots) "ane stellatour for aquavite and ros wattir'".
-- (about) As a drink, Scotch whisky was a favourite of King James IV of Scotland.
-- (history) In 1782, more than 1,000 illegal stills were seized in the Highlands: these can only have been a fraction of those in operation.
+- (history) The earliest record of distillation in Scotland is in the Exchequer Rolls of Scotland for 1494.
+- (about) The Exchequer Rolls' record crown income and expenditure and the quote records eight bolls of malt given to Friar John Cor to make aqua vitae over the previous year.
+- (history) Spirit production was first taxed by the Parliament of Scotland from January 1644, with an excise duty of 2s 8d imposed per Scots pint; instigating the illicit distilling of spirits within the country.
 - (about) As of June 2026, there were 154 whisky distilleries operating in Scotland, making Scotch whisky one of the most renowned geographical indications worldwide.
 - (about) A whisky with an age statement is known as guaranteed-age whisky.
 - (about) A whisky without an age statement is known as a no age statement (NAS) whisky, the only guarantee being that all whisky contained in that bottle is at least three years old.
 - (origin) Scotch whisky comes from Scotland.
+- (about) To Friar John Cor, by order of the King, to make aqua vitae, VIII bolls of malt.
+- (history) This would be enough for 1,500 bottles, which suggests that distillation was well-established by the late 15th century.
+- (about) Among his goods was recorded (in Middle Scots) "ane stellatour for aquavite and ros wattir'".
+- (history) In 1782, more than 1,000 illegal stills were seized in the Highlands: these can only have been a fraction of those in operation.
 
 Learn more:
 
@@ -2580,7 +2577,7 @@ Teviotdale is a full fat hard cheese produced in the area of Teviotdale on the b
 Fun facts:
 
 - (inspiration) Teviotdale cheese is named after Teviotdale.
-- (origin) Teviotdale cheese comes from United Kingdom.
+- (origin) Teviotdale cheese comes from the United Kingdom.
 
 Learn more:
 
@@ -2601,11 +2598,11 @@ Fun facts:
 
 - (history) McVitie's produced a Tunis cake until the mid 1980s.
 - (inspiration) The updated recipe used by McVitie's is said to have been created by Elizabeth Ewing of Inverness, whose husband was a baker at McVitie's.
-- (history) In March 1934 the Taunton Courier and Western Advertiser printed a recipe including the North African fruits dates, figs, walnuts and prunes.
+- (history) In 1936 Garratt's Bakers of Lichfield included honey, dates and walnuts in their recipe, plus topping the cake with chocolate icing.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1936 Garratt's Bakers of Lichfield included honey, dates and walnuts in their recipe, plus topping the cake with chocolate icing.
+- (history) In March 1934 the Taunton Courier and Western Advertiser printed a recipe including the North African fruits dates, figs, walnuts and prunes.
 
 Learn more:
 

@@ -31,6 +31,40 @@ _PLACEHOLDER_IT = re.compile(r"^It (is|was) (not )?(unknown|unclear|uncertain|th
                              r"widely|commonly|traditional to|usual)\b")
 
 
+# Found by the review of 65 focus dishes (2026-11-11):
+# - openers that need the sentence before them ("She has operated the restaurant", "Both dishes", "One such
+#   story") or a first-person quote out of context ("Well, that ... I saw it"): never shown;
+# - unsuitable for a food app's small talk (a murder film about buns): never shown;
+# - "They", "These", "This word" may point elsewhere, and a fact that names neither the dish nor "it" may be about
+#   something else (a tea bureau, lime exports): kept, but not among the first facts.
+_NEEDS_CONTEXT = re.compile(r"^(He|She|His|Her|Hers|Both|Most of them|Among (their|them)|One such|Some versions|"
+                            r"They are also|Well,|The (first|second|other) (is|one))\b|"
+                            r"\bI (saw|was|have|had|am|remember)\b")
+# Small words in dish names that say nothing about a fact ("Chicken and waffles", "Pan de muerto")
+_NAME_FILLERS = {"and", "the", "with", "del", "des", "con", "les", "las", "los", "food", "dish", "style"}
+_UNSUITABLE = re.compile(r"\b(murder(s|ed)?|victims?|crime-horror|massacre)\b", re.IGNORECASE)
+_MAYBE_CONTEXT = re.compile(r"^(They|These|Those|This (word|term|name|one)|Such|Others)\b")
+# Connectives that only make sense after another sentence ("Moreover, ...")
+_CONNECTIVE = re.compile(r"^(Moreover|Furthermore|Additionally|However|Also|Finally|Instead|Nevertheless),\s+")
+_DOUBLED = re.compile(r"\b(\w+ \w+(?: \w+)?) \1\b")   # "an authentic Algerian dish Algerian dish"
+
+
+def shown_ok(text: str) -> bool:
+    """False for a fact Walter should never say (needs missing context, or unsuitable)."""
+    return not (_NEEDS_CONTEXT.search(text) or _UNSUITABLE.search(text))
+
+
+def about_dish(text: str, name: str) -> bool:
+    """True when the fact names the dish (any long word of its name) or says "it" / "the dish"."""
+    words = {w for w in re.findall(r"[a-z]+", name.lower()) if len(w) > 2 and w not in _NAME_FILLERS}
+    return not words or any(w[:5] in text.lower() for w in words) or bool(re.search(r"\b(it|dish)\b", text, re.IGNORECASE))
+
+
+def fact_rank(text: str, name: str) -> int:
+    """fact_score, lowered for a fact that may point to another sentence or not be about the dish."""
+    return fact_score(text) - 2 * bool(_MAYBE_CONTEXT.match(text)) - 3 * (not about_dish(text, name))
+
+
 def clean_fact(text: str, name: str) -> str:
     """One source sentence made easy to read on its own: brackets of translations and other scripts removed,
     a leading "It is ..." given the dish's name. The words of the source stay as written."""
@@ -38,6 +72,10 @@ def clean_fact(text: str, name: str) -> str:
     text = _SCRIPT_BRACKET.sub("", text)
     text = _SPACES.sub(" ", text).strip()
     text = re.sub(r"\s+([,.;:])", r"\1", text)
+    text = re.sub(r"\.{2}(?!\.)", ".", _DOUBLED.sub(r"\1", text))
+    if _CONNECTIVE.match(text):
+        text = _CONNECTIVE.sub("", text)
+        text = text[:1].upper() + text[1:]
     if _PLACEHOLDER_IT.match(text):
         return text
     return _PRONOUN_START.sub(name, text, count=1)
@@ -66,6 +104,16 @@ def fact_topic(text: str) -> str:
     return next((topic for topic, words in TOPICS.items() if words.search(text)), "about")
 
 
+# Places that read with "the": "comes from the United States", "the Arabian Peninsula"
+_THE_PLACES = re.compile(r"^(United |People's Republic|Republic of|Arabian Peninsula|Netherlands|Philippines|"
+                         r"Czech Republic|Democratic Republic|Ottoman Empire|Roman Empire|Middle East|Near East|"
+                         r"Levant|Maghreb|Caribbean|Balkans|Andes|Gulf )")
+
+
+def _places(names: list[str]) -> str:
+    return ", ".join(f"the {n}" if _THE_PLACES.match(n) else n for n in names)
+
+
 def wikidata_lines(dish: dict, name: str) -> list[str]:
     """Short lines made from the dish's Wikidata facts (CC0); they only restate the recorded values.
     "Unknown value" entries (blank-node links, not names) are left out."""
@@ -75,7 +123,7 @@ def wikidata_lines(dish: dict, name: str) -> list[str]:
     if dish.get("named_after"):
         lines.append(f"{name} is named after {', '.join(dish['named_after'])}.")
     if dish.get("origin"):
-        lines.append(f"{name} comes from {', '.join(dish['origin'])}.")
+        lines.append(f"{name} comes from {_places(dish['origin'])}.")
     if dish.get("inception"):
         lines.append(f"{name} dates from {dish['inception'][0]}.")
     if dish.get("heritage"):
@@ -91,19 +139,20 @@ def wikidata_lines(dish: dict, name: str) -> list[str]:
     return lines
 
 
-def tidy_dish(dish: dict, keep: int = 3) -> dict:
+def tidy_dish(dish: dict, keep: int = 3, drop: frozenset[str] | set[str] = frozenset()) -> dict:
     """The dish with its facts tidied and sorted by topic:
     - `fun_facts`: the best `keep`, from different topics where it can (an inspiration, an origin, a story);
     - `more_fun_facts`: the rest, for a user who asks for more (before the "learn more" links).
-    Each fact is {"text", "topic", "source"}; dull ones (company news) are dropped."""
+    Each fact is {"text", "topic", "source"}; dull ones (company news), ones Walter should never say
+    (`shown_ok`) and the texts in `drop` (a reviewer's "drop" verdicts) are left out."""
     name = dish["name"].split(" (")[0]
     article = next((src["name"] for src in dish.get("sources", []) if src["name"].startswith("Wikipedia:")),
                    "Wikipedia")
     texts = [clean_fact(c, name) for c in dish.get("fun_fact_candidates", []) + dish.get("story_candidates", [])]
     facts = [{"text": t, "topic": fact_topic(t), "source": article}
-             for t in dict.fromkeys(texts) if fact_score(t) >= 0]
+             for t in dict.fromkeys(texts) if fact_score(t) >= 0 and shown_ok(t) and t not in drop]
     facts += [{"text": t, "topic": fact_topic(t), "source": "Wikidata"} for t in wikidata_lines(dish, name)]
-    facts.sort(key=lambda f: fact_score(f["text"]), reverse=True)
+    facts.sort(key=lambda f: fact_rank(f["text"], name), reverse=True)
     best: list[dict] = []
     for f in facts:   # one per topic first, then the next best
         if len(best) < keep and f["topic"] not in {b["topic"] for b in best}:
@@ -112,6 +161,40 @@ def tidy_dish(dish: dict, keep: int = 3) -> dict:
     summary = clean_fact(dish.get("summary", ""), name)
     return {**dish, "summary": summary, "fun_facts": best, "more_fun_facts": [f for f in facts if f not in best],
             "review": "auto-cleaned" if dish.get("reviewed") is False else dish.get("review", "reviewed")}
+
+
+# What a reviewer should look at twice (the review sheet's "warnings" column); none of these drop a fact
+_LEADING_PRONOUN = re.compile(r"^(This|These|They|He|She|His|Her|Their|Its|Such|Both|Others?)\b")
+_LEFTOVER = re.compile(r"\[\d+\]|citation needed|\(\s*\)|�|\s{2,}", re.IGNORECASE)
+
+
+def fact_warnings(text: str, name: str) -> list[str]:
+    """Reasons a person should check this fact: it starts with a pronoun that may point to another sentence,
+    has no ending, is very short or long, may not be about the dish, or has leftovers of the source's markup."""
+    warnings = []
+    if _LEADING_PRONOUN.match(text):
+        warnings.append("starts with a pronoun")
+    if not text.rstrip().endswith((".", "!", "?", '"', "'", ")")):
+        warnings.append("no ending")
+    if len(text) < 40:
+        warnings.append("very short")
+    if len(text) > 350:
+        warnings.append("very long")
+    if not about_dish(text, name):
+        warnings.append("may not be about the dish")
+    if _LEFTOVER.search(text):
+        warnings.append("leftover markup")
+    return warnings
+
+
+def review_drops(path: str | Path) -> frozenset[str]:
+    """The fact texts a person marked "drop" in a review sheet (data/knowledge/review/*.csv); none when absent."""
+    path = Path(path)
+    if not path.exists():
+        return frozenset()
+    import csv
+    with path.open(encoding="utf-8", newline="") as f:
+        return frozenset(row["text"] for row in csv.DictReader(f) if row.get("verdict", "").strip().lower() == "drop")
 
 
 def load_dishes(path: str | Path) -> list[dict]:

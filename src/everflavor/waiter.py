@@ -25,7 +25,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-from everflavor.dish_knowledge import load_dishes, tidy_dish
+from everflavor.dish_knowledge import load_dishes, review_drops, tidy_dish
 
 if TYPE_CHECKING:
     from everflavor.safety import UserProfile
@@ -68,7 +68,8 @@ class Knowledge:
 
     @classmethod
     def load(cls, path: str | Path) -> Knowledge:
-        dishes = [tidy_dish(d) for d in load_dishes(path)]
+        drop = review_drops(Path(path).parent / "review" / "focus_review.csv")   # a reviewer's "drop" verdicts
+        dishes = [tidy_dish(d, drop=drop) for d in load_dishes(path)]
         dishes.sort(key=lambda d: d.get("kind") != "dish")
         return cls(dishes)
 

@@ -46,8 +46,8 @@ Ambrosia also known as ambrosia salad is a North American variety of fruit salad
 
 Fun facts:
 
+- (origin) Ambrosia comes from the United States.
 - (history) The earliest known mention of the salad is in the 1867 cookbook Dixie Cookery by Maria Massey Barringer.
-- (origin) Ambrosia comes from United States.
 
 Learn more:
 
@@ -70,7 +70,7 @@ Fun facts:
 
 - (history) American goulash, mentioned in cookbooks since at least 1914, exists in a number of variant recipes.
 - (inspiration) American goulash is named after goulash.
-- (origin) American goulash comes from United States.
+- (origin) American goulash comes from the United States.
 
 Learn more:
 
@@ -112,7 +112,7 @@ Fun facts:
 
 - (history) The name "baked Alaska" was supposedly coined in 1876 at Delmonico's, a restaurant in New York City, to honor the acquisition by the United States of Alaska from the Russian Empire in March 1867.
 - (inspiration) Baked Alaska is named after Alaska.
-- (origin) Baked Alaska comes from United States.
+- (origin) Baked Alaska comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -149,14 +149,14 @@ Barbecue spaghetti is a dish from Memphis, Tennessee, that combines spaghetti wi
 
 Fun facts:
 
-- (origin) Frank Vernon said the food originated in the early 1960s.
 - (inspiration) Barbecue spaghetti was invented by former railroad cook Brady Vincent, who opened a barbecue restaurant called Brady and Lil's.
 - (history) In 1980 Frank and Hazel Vernon bought the restaurant and renamed it The Bar-B-Q Shop.
+- (origin) Barbecue spaghetti was first made in Memphis.
 
 More fun facts (when the user asks for more):
 
 - (history) Vincent also taught the recipe for barbecue spaghetti to Jim Neely, who opened Interstate Bar-B-Q in the late 1970s; Interstate modified the sauce recipe by adding the "extra back flap meat" from a rack of ribs and cooking it in a pot with peppers and onions.
-- (origin) Barbecue spaghetti was first made in Memphis.
+- (origin) Frank Vernon said the food originated in the early 1960s.
 
 Learn more:
 
@@ -176,13 +176,9 @@ A bean pie is a sweet custard pie whose filling consists of mashed beans (usuall
 
 Fun facts:
 
-- (history) Fard, who was a restaurateur in the 1910s and 1920s prior to founding the Nation of Islam in 1930.
-- (origin) The bean pie was allegedly introduced by W.
+- (origin) The bean pie was allegedly introduced by W. D. Fard, who was a restaurateur in the 1910s and 1920s prior to founding the Nation of Islam in 1930.
 - (history) In 1884, a recipe for bean pie was published in the New Kentucky Home Cook Book, contributed by Lucy Keith and compiled by the ladies of the Methodist Episcopal Church, Maysville, Kentucky.
-
-More fun facts (when the user asks for more):
-
-- (origin) Bean pie comes from United States.
+- (origin) Bean pie comes from the United States.
 
 Learn more:
 
@@ -204,7 +200,7 @@ A bear claw is a sweet pastry originating in the United States during the mid-19
 Fun facts:
 
 - (history) The name bear claw as used for a pastry is first attested in a 1914 newspaper ad for the Geibel German Bakery in Sacramento, California.
-- (origin) Bear claw comes from United States.
+- (origin) Bear claw comes from the United States.
 - (history) The name bear claw as used for a pastry is first attested on March 13, 1914, in a newspaper ad for the Geibel German Bakery in Sacramento, California.
 
 More fun facts (when the user asks for more):
@@ -230,7 +226,7 @@ Beaten biscuits are a baked good associated with the Southern United States, dat
 
 Fun facts:
 
-- (origin) Beaten biscuit comes from United States.
+- (origin) Beaten biscuit comes from the United States.
 
 Learn more:
 
@@ -252,7 +248,7 @@ Fun facts:
 
 - (history) By the 1950s, it had become ubiquitous and it is now one of the most popular American Chinese dishes in the 21st century.
 - (inspiration) Beef and broccoli is based on a Chinese dish that used gai lan, which was replaced with broccoli, a vegetable initially popularized in the United States by Italian immigrants.
-- (origin) Beef and broccoli comes from United States.
+- (origin) Beef and broccoli comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -278,7 +274,7 @@ Fun facts:
 
 - (origin) Beef Manhattan was first served in a restaurant under the name "Beef Manhattan" in a now-defunct Indianapolis deli in the late 1940s where it gained traction as a Hoosier staple.
 - (history) Beef Manhattan was named by Naval Ordnance Plant, Indianapolis (NOPI) workers who were trained on a fabrication of the Norden bombsight in Manhattan during World War II.
-- (origin) Beef Manhattan comes from United States.
+- (origin) Beef Manhattan comes from the United States.
 
 Learn more:
 
@@ -300,12 +296,12 @@ Fun facts:
 
 - (history) The origin and history of the beef on weck sandwich is not well established but is thought to predate the 1960s development of Buffalo wings by approximately a century.
 - (about) It is believed that a German baker named William Wahr, who is thought to have immigrated from the Black Forest region of Germany, created the kummelweck roll while living in Buffalo, New York.
-- (culture) The meat on the sandwich is traditionally served rare, thin cut, with the top bun getting a dip in jus and spread with horseradish.
+- (origin) Beef on weck comes from the United States.
 
 More fun facts (when the user asks for more):
 
 - (history) The sandwich's creation is estimated to have taken place some time in the mid-19th century, according to a butcher in Western New York.
-- (origin) Beef on weck comes from United States.
+- (culture) The meat on the sandwich is traditionally served rare, thin cut, with the top bun getting a dip in jus and spread with horseradish.
 
 Learn more:
 
@@ -330,10 +326,10 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (history) The Big Mac proved popular and it was added to the menu of all U.S. McDonald's restaurants in 1968.
 - (inspiration) The Big Mac was created by Jim Delligatti, who stated later he did not invent the Big Mac but merely copied the double deck hamburger marketed by the Big Boy hamburger chain since the 1940s.
 - (culture) The Big Mac is known worldwide and often used as a symbol of American capitalism and decadence.
-- (about) The Big Mac proved popular and it was added to the menu of all U.S.
-- (origin) Big Mac comes from United States.
+- (origin) Big Mac comes from the United States.
 
 Learn more:
 
@@ -354,22 +350,22 @@ In the United States and Canada, a biscuit is a variety of quick bread with a fi
 
 Fun facts:
 
-- (origin) These were first introduced in 1588 to the rations of ships and found their way into the New World by the 1700s at the latest.
+- (origin) In recent years, food franchises that focus on biscuits have gained popularity in the United States such as Bojangles originating from North Carolina in 1977 and Tudor's Biscuit World in West Virginia in 1980.
 - (history) Ship's biscuits were first referenced in the 12th century in a journey Richard I took to Cyprus.
-- (about) Ashbourne patented the first biscuit cutter in the United States, useful for making cookies, cakes, or baking powder biscuits.
+- (about) In eating, the advantage of the biscuit over a slice of bread was that it was harder, and hence kept its shape when wiping up gravy in the popular combination biscuits and gravy.
 
 More fun facts (when the user asks for more):
 
-- (origin) In recent years, food franchises that focus on biscuits have gained popularity in the United States such as Bojangles originating from North Carolina in 1977 and Tudor's Biscuit World in West Virginia in 1980.
+- (history) In 1875, Alexander P. Ashbourne patented the first biscuit cutter in the United States, useful for making cookies, cakes, or baking powder biscuits.
 - (origin) Biscuits developed from hardtack, which was first made from only flour and water, to which lard and then baking powder were added later.
 - (origin) The word "biscuit" itself originates from the medieval Latin word biscoctus, meaning "twice-cooked".
 - (history) In the early 19th century, before the American Civil War, cooks created biscuits as a cheaply produced addition for their meals that required no yeast, which was expensive and difficult to store.
+- (origin) These were first introduced in 1588 to the rations of ships and found their way into the New World by the 1700s at the latest.
 - (history) These refrigerator biscuits were patented by Ballard and Ballard in 1931.
+- (origin) Biscuit comes from the United States.
+- (about) Not to be confused with cookie, biscuit, scone, sponge cake.
 - (history) The modern Italian baked goods known as biscotti (also meaning "twice-cooked" in Italian) most closely resemble the Medieval Latin item and cooking technique.
 - (inspiration) Early British settlers in the United States brought with them a simple, easy style of cooking, most often based on ground wheat and warmed with gravy.
-- (about) In eating, the advantage of the biscuit over a slice of bread was that it was harder, and hence kept its shape when wiping up gravy in the popular combination biscuits and gravy.
-- (origin) Biscuit comes from United States.
-- (about) Not to be confused with cookie, biscuit, scone, sponge cake.
 
 Learn more:
 
@@ -390,9 +386,9 @@ Black-and-white cookies, half-and-half cookies, and half-moon cookies are round 
 
 Fun facts:
 
-- (history) Designs with contrasting light and dark parts were popular at the beginning of the 20th century, including on baked goods and desserts.
 - (about) Cookies with cake bases also became popular at the time.
-- (origin) Black and white cookie comes from United States.
+- (origin) Black and white cookie comes from the United States.
+- (history) Designs with contrasting light and dark parts were popular at the beginning of the 20th century, including on baked goods and desserts.
 
 More fun facts (when the user asks for more):
 
@@ -419,7 +415,7 @@ Fun facts:
 
 - (history) Blackout cake was invented during World War II by a Brooklyn bakery chain named Ebinger's, in recognition of the mandatory blackouts to protect the Brooklyn Navy Yard.
 - (inspiration) Blackout cake is named after blackout.
-- (origin) Blackout cake comes from United States.
+- (origin) Blackout cake comes from the United States.
 
 Learn more:
 
@@ -440,13 +436,13 @@ A BLT is a type of sandwich, named for the initials of its primary ingredients, 
 Fun facts:
 
 - (history) Although its ingredients have existed for many years, there is little evidence of BLT sandwich recipes before 1900.
-- (origin) BLT comes from United States.
-- (history) In the 1903 Good Housekeeping Everyday Cook Book, a recipe for a club sandwich included bacon, lettuce, tomato, mayonnaise and a slice of turkey sandwiched between two slices of bread.
+- (origin) BLT comes from the United States.
+- (history) The BLT became popular after World War II because of the rapid expansion of supermarkets, which made its ingredients available year-round.
 
 More fun facts (when the user asks for more):
 
-- (history) While the 1928 book Seven Hundred Sandwiches by Florence A.
-- (history) The BLT became popular after World War II because of the rapid expansion of supermarkets, which made its ingredients available year-round.
+- (history) In the 1903 Good Housekeeping Everyday Cook Book, a recipe for a club sandwich included bacon, lettuce, tomato, mayonnaise and a slice of turkey sandwiched between two slices of bread.
+- (history) While the 1928 book Seven Hundred Sandwiches by Florence A. Cowles includes a section on bacon sandwiches, the recipes often include pickles and none contain tomato.
 
 Learn more:
 
@@ -467,7 +463,7 @@ Bookbinder's soup, also known as snapper soup, is a type of seafood soup origina
 Fun facts:
 
 - (origin) The name "Bookbinder" comes from Samuel Bookbinder, a Jewish immigrant from the Netherlands who opened Old Original Bookbinder's in 1893.
-- (origin) Bookbinder soup comes from United States.
+- (origin) Bookbinder soup comes from the United States.
 
 Learn more:
 
@@ -504,9 +500,9 @@ Boston baked beans are a variety of baked beans, sweetened with molasses, and fl
 
 Fun facts:
 
-- (history) The Pilgrims at Plymouth Colony brought recipes for bean and bacon pottage in the early 1620s which was made with honey and mustard cured ham and onions.
 - (culture) In colonial New England, baked beans were traditionally cooked on Saturdays and left in brick ovens overnight.
 - (about) Brown bread and baked beans along with frankfurters continue to be a popular Saturday night staple throughout the region.
+- (history) The Pilgrims at Plymouth Colony brought recipes for bean and bacon pottage in the early 1620s which was made with honey and mustard cured ham and onions.
 
 Learn more:
 
@@ -527,7 +523,7 @@ Bourbon chicken is a dish named after Bourbon Street in New Orleans, Louisiana, 
 
 Fun facts:
 
-- (origin) Bourbon chicken comes from United States.
+- (origin) Bourbon chicken comes from the United States.
 
 Learn more:
 
@@ -547,16 +543,16 @@ Brunswick stew is a tomato-based stew generally involving local beans, vegetable
 
 Fun facts:
 
-- (inspiration) A competing story claims a Virginia state legislator's chef invented the recipe in 1828 on a hunting expedition.
 - (origin) According to the Virginia Writers Project's guide to Virginia, published in 1941, the stew originated in Brunswick County, Virginia: Native to this county is Brunswick Stew, a flavorous brew first concocted by a group of hunters.
-- (history) A plaque on an old iron pot in Brunswick, Georgia, says the first Brunswick stew was made in it on July 2, 1898, on nearby St.
+- (history) A plaque on an old iron pot in Brunswick, Georgia, says the first Brunswick stew was made in it on July 2, 1898, on nearby St. Simons Island.
+- (culture) Marjorie Kinnan Rawlings, in her Cross Creek Cookery (1942), wrote that the stew, said to have been one of Queen Victoria's favorites, may have come from Braunschweig, Germany, one of the historic capitals of the Duchy of Brunswick-Lüneburg and traditionally known as "Brunswick" in British English.
 
 More fun facts (when the user asks for more):
 
-- (culture) Marjorie Kinnan Rawlings, in her Cross Creek Cookery (1942), wrote that the stew, said to have been one of Queen Victoria's favorites, may have come from Braunschweig, Germany, one of the historic capitals of the Duchy of Brunswick-Lüneburg and traditionally known as "Brunswick" in British English.
+- (inspiration) A competing story claims a Virginia state legislator's chef invented the recipe in 1828 on a hunting expedition.
 - (origin) It may have originated earlier in some form in the city of Braunschweig (Brunswick) in the Duchy of Brunswick-Lüneburg in today's northern Germany.
 - (inspiration) Brunswick County, Virginia, and the city of Brunswick, Georgia, both named after the German Duchy of Brunswick-Lüneburg, then home to the House of Hanover, which also held the British Crown, claim to have created it.
-- (origin) Brunswick stew comes from United States.
+- (origin) Brunswick stew comes from the United States.
 
 Learn more:
 
@@ -583,17 +579,16 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Several versions of the story of the invention have been circulated by the Bellissimo family and others, including: The Bellissimos' son, Dominic, was tending the bar, and upon the unannounced late-night arrival of several of his friends, Teressa wanted a fast and easy snack to present to the guests.
 - (about) There are several different claims about the invention of Buffalo wings.
 - (history) Dominic told The New Yorker reporter Calvin Trillin in 1980: "It was Friday night in the bar and since people were buying a lot of drinks he wanted to do something nice for them at midnight when the mostly Catholic patrons would be able to eat meat again." He stated his mother came up with the idea of chicken wings.
 - (history) Although an article published about the Anchor Bar in a local newspaper during 1969 does not mention Buffalo wings, a local competitor of the Anchor Bar, Duff's, began selling Buffalo wings in that year.
 - (history) Beginning in 1961, he began serving uncut chicken wings that were breaded, deep fried, and served in his own special tomato-based Mumbo sauce at his Buffalo restaurant.
-- (history) He registered the name of his restaurant, John Young's Wings 'n Things, at the county courthouse before leaving the Buffalo area in 1970.
 - (inspiration) Buffalo wing is named after Buffalo.
-- (culture) They are traditionally served hot with celery and carrot sticks and a dip of ranch dressing or blue cheese dressing.
+- (inspiration) Several versions of the story of the invention have been circulated by the Bellissimo family and others, including: The Bellissimos' son, Dominic, was tending the bar, and upon the unannounced late-night arrival of several of his friends, Teressa wanted a fast and easy snack to present to the guests.
 - (about) Buffalo wings have gained in popularity in the United States and abroad, with some North American restaurant chains featuring them as a main menu item.
-- (origin) Buffalo wing comes from United States.
+- (origin) Buffalo wing comes from the United States.
 - (about) Not to be confused with wyngz.
+- (culture) They are traditionally served hot with celery and carrot sticks and a dip of ranch dressing or blue cheese dressing.
 
 Learn more:
 
@@ -613,7 +608,7 @@ A bulkie roll or bulkie is a New England regional variety of sandwich roll.
 
 Fun facts:
 
-- (origin) Bulkie roll comes from United States.
+- (origin) Bulkie roll comes from the United States.
 
 Learn more:
 
@@ -649,22 +644,20 @@ California-style pizza (also known as California pizza) is a style of pizza that
 Fun facts:
 
 - (history) The California-style pizza was invented more or less simultaneously in 1980 by Ed LaDou (the "Prince of Pizza"), then working as a pizza chef for Spectrum Foods' Prego Restaurant in San Francisco's Cow Hollow neighborhood, and by pizza chefs working for Alice Waters at the Chez Panisse Cafe in Berkeley, California.
-- (origin) Among their most famous invention was "Jewish pizza", a pizza dough first cooked then topped with smoked salmon, crème fraîche, capers, and dill.
 - (about) Its invention is generally attributed to chef Ed LaDou, and Chez Panisse, in Berkeley, California.
+- (culture) LaDou had learned pizza-making in the 1970s as a teenager at Frankie, Johnnie & Luigi Too, a traditional New York–style pizzeria in Mountain View, California.
 
 More fun facts (when the user asks for more):
 
 - (history) By 1980, Alice Waters' Chez Panisse and its head chef, Jeremiah Tower, had already invented California cuisine, a combination of French and Italian techniques and presentation with fresh local ingredient-focused flavors.
 - (history) Waters was a long-time fan of Tommaso's Italian restaurant in San Francisco's North Beach, which had installed the West Coast's first wood-fired pizza oven when it opened in 1935.
 - (history) Wolfgang Puck, in 1980 and 1981, was preparing to open the restaurant that would make him famous, Spago, in West Hollywood, California.
-- (culture) LaDou had learned pizza-making in the 1970s as a teenager at Frankie, Johnnie & Luigi Too, a traditional New York–style pizzeria in Mountain View, California.
-- (about) At one table, the guest to whom he served an off-menu invention involving mustard, ricotta, pâté, and red pepper turned out to be chef Wolfgang Puck.
-- (history) In 1985, LaDou helped two inexperienced lawyer-restaurateurs, Richard L.
+- (history) In 1985, LaDou helped two inexperienced lawyer-restaurateurs, Richard L. Rosenfeld and Larry S. Flax, start a new restaurant concept, California Pizza Kitchen (also known as "CPK").
 - (about) When the new restaurant's chef quit less than a month before opening, LaDou quickly designed and cooked an entire menu, inventing barbecue chicken pizza on the spot.
 - (inspiration) California-style pizza is named after California.
 - (about) Wolfgang Puck, after meeting LaDou, popularized the style of pizza in the rest of the country.
-- (about) Flax, start a new restaurant concept, California Pizza Kitchen (also known as "CPK").
-- (origin) California-style pizza comes from United States.
+- (origin) California-style pizza comes from the United States.
+- (about) At one table, the guest to whom he served an off-menu invention involving mustard, ricotta, pâté, and red pepper turned out to be chef Wolfgang Puck.
 
 Learn more:
 
@@ -707,7 +700,7 @@ Catfish stew is a dish commonly found in the Southern United States, particularl
 
 Fun facts:
 
-- (origin) Catfish stew comes from United States.
+- (origin) Catfish stew comes from the United States.
 
 Learn more:
 
@@ -719,7 +712,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q5051989) (CC0); [Wikipedia: C
 
 ### Celery Victor
 
-Celery Victor is an historical American marinated celery salad dish invented in 1910 by Victor Hirtzler, head chef at San Francisco's St.
+Celery Victor is an historical American marinated celery salad dish invented in 1910 by Victor Hirtzler, head chef at San Francisco's St. Francis Hotel, who is also credited with inventing Crab Louie.
 
 - From: United States
 - Origin (Wikidata): United States
@@ -728,14 +721,13 @@ Celery Victor is an historical American marinated celery salad dish invented in 
 
 Fun facts:
 
-- (about) Francis Hotel, who is also credited with inventing Crab Louie.
 - (history) The dish, an "American classic", was popularized by author Clarence Edwords in his 1914 book, A Bohemian Guide to San Francisco Restaurants.
 - (inspiration) Celery Victor is named after Victor Hirtzler.
+- (origin) Celery Victor was first made by Victor Hirtzler.
 
 More fun facts (when the user asks for more):
 
-- (origin) Celery Victor was first made by Victor Hirtzler.
-- (origin) Celery Victor comes from United States.
+- (origin) Celery Victor comes from the United States.
 
 Learn more:
 
@@ -775,8 +767,8 @@ A cheese ball is an American hors d'oeuvre that is a type of cheese spread.
 Fun facts:
 
 - (origin) It first appeared in the 1940s, fell out of fashion, and then had a resurgence in popularity in the 21st century.
-- (history) According to Splendid Table the first recipe appeared in a 1944 cookbook by Virginia Safford, a "wildly popular columnist" for the Minneapolis Star Journal.
 - (history) Cheese ball is representative of mid-20th century US cuisine.
+- (history) According to Splendid Table the first recipe appeared in a 1944 cookbook by Virginia Safford, a "wildly popular columnist" for the Minneapolis Star Journal.
 
 Learn more:
 
@@ -795,7 +787,7 @@ Cheese straws are a traditional food of England and the Southern United States.
 
 Fun facts:
 
-- (about) An early recipe for cheese straws was named "cayenne cheese fingers" in Mrs.
+- (about) An early recipe for cheese straws was named "cayenne cheese fingers" in Mrs. Beeton's Book of Household Management.
 
 Learn more:
 
@@ -815,15 +807,15 @@ A cheesesteak is a sandwich made from thinly sliced pieces of beefsteak (often r
 
 Fun facts:
 
-- (history) Philadelphians Pat and Harry Olivieri are often credited with inventing the sandwich by serving chopped steak on an Italian roll in the early 1930s.
-- (about) They became so popular that Pat opened up his own restaurant which still operates today as Pat's King of Steaks.
-- (origin) Cheesesteak comes from United States.
+- (history) The cheesesteak was developed in the early 20th century "by combining frizzled beef, onions, and cheese in a small loaf of bread," according to a 1987 exhibition catalog published by the Library Company of Philadelphia and the Historical Society of Pennsylvania.
+- (about) A popular regional fast food, it has its roots in the American city of Philadelphia, Pennsylvania.
+- (origin) Cheesesteak comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) The cheesesteak was developed in the early 20th century "by combining frizzled beef, onions, and cheese in a small loaf of bread," according to a 1987 exhibition catalog published by the Library Company of Philadelphia and the Historical Society of Pennsylvania.
-- (about) A popular regional fast food, it has its roots in the American city of Philadelphia, Pennsylvania.
+- (history) Philadelphians Pat and Harry Olivieri are often credited with inventing the sandwich by serving chopped steak on an Italian roll in the early 1930s.
 - (about) Cheesesteaks have become popular at restaurants and food carts throughout the city with many locations being independently owned, family-run businesses.
+- (about) They became so popular that Pat opened up his own restaurant which still operates today as Pat's King of Steaks.
 
 Learn more:
 
@@ -845,7 +837,7 @@ A Chicago-style hot dog, Chicago dog, or Chicago red hot is a hot dog made with 
 Fun facts:
 
 - (origin) It originates from and is considered a defining symbol of Chicago, Illinois.
-- (origin) Chicago-style hot dog comes from United States.
+- (origin) Chicago-style hot dog comes from the United States.
 
 Learn more:
 
@@ -954,13 +946,13 @@ Chicken mull is a traditional dish from North Carolina, upstate South Carolina, 
 Fun facts:
 
 - (about) Some others have claimed that it was invented around Athens, Georgia, where it retains its popularity today.
-- (culture) Traditionally, the stew is served in the late fall and winter months.
 - (inspiration) This tradition inspired inland communities to slow cook chicken using similar ingredients in what is sometimes called a chicken muddle or chicken mull.
+- (culture) Chicken mull is a tradition at these gatherings to prepare the mull in a large cast iron or stainless steel pot, often outdoors over an open fire.
 
 More fun facts (when the user asks for more):
 
-- (culture) Chicken mull is a tradition at these gatherings to prepare the mull in a large cast iron or stainless steel pot, often outdoors over an open fire.
-- (origin) Chicken mull comes from United States.
+- (origin) Chicken mull comes from the United States.
+- (culture) Traditionally, the stew is served in the late fall and winter months.
 
 Learn more:
 
@@ -988,7 +980,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The chicken nugget was developed in the 1950s by Robert C.
+- (history) The chicken nugget was developed in the 1950s by Robert C. Baker, a food science professor at Cornell University, and published as unpatented academic work.
 - (about) Thomas Welborn holds the world record for eating the most chicken nuggets in three minutes (746 grams, or approximately 42 chicken nuggets).
 - (inspiration) Chicken nugget is named after gold nugget.
 - (history) Chicken nugget dates from 1950-.
@@ -997,7 +989,7 @@ More fun facts (when the user asks for more):
 - (inspiration) Chicken nugget has inspired gourmet restaurants, exercise routines, and even feature-length productions, including Cooties, a movie about a grade school child who eats a chicken nugget infected with a virus that turns prepubescent children into zombies.
 - (about) On Twitter, the most retweeted tweet of 2017 was made by Carter Wilkerson who asked Wendy's what it would take for them to offer him a year of free nuggets.
 - (about) Chicken nugget was unveiled at Kosherfest in Secaucus, New Jersey on October 29, 2013.
-- (origin) Chicken nugget comes from United States.
+- (origin) Chicken nugget comes from the United States.
 - (about) Not to be confused with chicken fingers.
 
 Learn more:
@@ -1040,7 +1032,7 @@ A chiffon cake is a light cake made with vegetable oil, eggs, sugar, flour, baki
 Fun facts:
 
 - (history) Baker kept the recipe secret for 20 years until he sold it to General Mills, which spread the recipe through marketing materials in the 1940s and 1950s under the name "chiffon cake", and a set of 14 recipes and variations was released to the public in a Betty Crocker pamphlet published in 1948.
-- (origin) Chiffon cake comes from United States.
+- (origin) Chiffon cake comes from the United States.
 - (history) The recipe is credited to Harry Baker (1883–1974), a Californian insurance salesman turned caterer.
 
 Learn more:
@@ -1068,7 +1060,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) The popularity of the pie was such that Strause traveled as much as 30,000 miles a year teaching the technique to hotels and restaurants.
-- (origin) Chiffon pie comes from United States.
+- (origin) Chiffon pie comes from the United States.
 
 Learn more:
 
@@ -1089,17 +1081,16 @@ A chili burger (also known as a chili size, or simply size, stemming from "hambu
 Fun facts:
 
 - (history) Chili burgers appear to have been invented in the 1920s by Thomas M. "Ptomaine Tommy" DeForest, who founded a sawdust-floored all-night restaurant, "Ptomaine Tommy's", located in the Lincoln Heights neighborhood of Los Angeles.
-- (about) Edge considers the invention the milestone that marks the start of "traceable history of burgers in LA", a first step to what he considers the "baroque" character of the Los Angeles hamburger scene.
-- (origin) Chili burger comes from United States.
+- (about) Food author John T. Edge considers the invention the milestone that marks the start of "traceable history of burgers in LA", a first step to what he considers the "baroque" character of the Los Angeles hamburger scene.
+- (origin) Chili burger comes from the United States.
 
 More fun facts (when the user asks for more):
 
 - (history) Ptomaine Tommy's was open from around 1919 to 1958, where his chili burger was referred to as "size", and chopped onions as "flowers" or "violets".
 - (history) By interviewing former customers and friends decades after the fact, columnist Jack Smith wrote a definitive article in 1974 about DeForest and the dish that he had invented which became a very important part of the history of Los Angeles.
-- (history) Ptomaine Tommy was forced to close his restaurant August 10, 1958 and sell his property to satisfy creditors, and he died just a week later.
-- (about) His service to the community and his invention was noted by resolution of the California State Senate that same year.
-- (history) One of these is Original Tommy's, which dates to 1946.
 - (about) What helped spread the popularity of this dish was Deforest's diverse clientele which included doctors coming off the late shift at the local county hospital, fight fans on their way home after attending matches at the Olympic Auditorium, and people associated with the Hollywood film industry.
+- (history) Ptomaine Tommy was forced to close his restaurant August 10, 1958 and sell his property to satisfy creditors, and he died just a week later.
+- (history) One of these is Original Tommy's, which dates to 1946.
 
 Learn more:
 
@@ -1119,7 +1110,7 @@ A chili dog is a savory hot dog served in a bun and topped with a meat sauce, us
 
 Fun facts:
 
-- (origin) Chili dog comes from United States.
+- (origin) Chili dog comes from the United States.
 
 Learn more:
 
@@ -1146,14 +1137,14 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) But the Chinese chicken salad being consumed... by the fashionable set, probably originated in California." In Hollywood Dish, Akasha Richmond writes, "Hollywood gave rise to more salads than just the Caesar and Cobb.
+- (origin) But the Chinese chicken salad being consumed.. by the fashionable set, probably originated in California." In Hollywood Dish, Akasha Richmond writes, "Hollywood gave rise to more salads than just the Caesar and Cobb.
 - (history) The 1960s produced the Chinese (or Shredded) Chicken Salad, which was popular at Madame Wu's in Santa Monica.
-- (history) Simon Kander, published as early as 1910, includes a simple "Lettuce salad" with chopped onion and French or German dressing; but, no Chinese, Asian or Oriental salad of any kind.
+- (history) For example, The Settlement Cookbook by Mrs. Simon Kander, published as early as 1910, includes a simple "Lettuce salad" with chopped onion and French or German dressing; but, no Chinese, Asian or Oriental salad of any kind.
 - (history) Chinese chicken salad was by 1950s that main course type salads started to appear in books like Better Homes & Gardens, New Cook Book; whereas, that often included Caesar salad along with the usual bound chicken salad, but no Asian-styled or -flavored salads.
 - (culture) Many non-Western world cultures also have salads of various sorts as part of their traditional cuisines.
 - (about) Cary Grant told her about the dish." According to a website about Sylvia Wu, who is popularly known by her alias Madame Wu, "She came up with something better, using a recipe she vaguely remembered having encountered in Shanghai.
 - (origin) The Good Housekeeping Cookbook introduced a "Sesame-Spinach Salad," with soy sauce and salad oil, although not with sesame oil; whereas, this introduced something closer to Asian flavors, such as a few curry salads and others similar to those of Better Homes.
-- (origin) Chinese chicken salad comes from United States.
+- (origin) Chinese chicken salad comes from the United States.
 
 Learn more:
 
@@ -1174,20 +1165,20 @@ A chocolate chip cookie is a drop cookie that contains pieces of chocolate mixed
 
 Fun facts:
 
-- (history) Their invention is generally credited to Massachusetts chef and hotelier Ruth Graves Wakefield in the 1930s, although versions existed that preceded hers.
 - (inspiration) In Massachusetts, the chocolate chip cookie was designated as the Official State Cookie in 1997 in reference to the story of Ruth Wakefield creating the cookie in a Massachusetts inn.
+- (history) Chocolate chip cookie dates from 1938-.
 - (origin) Chocolate chip cookie was first made by Ruth Graves Wakefield.
 
 More fun facts (when the user asks for more):
 
-- (history) Chocolate chip cookie dates from 1938-.
+- (history) Their invention is generally credited to Massachusetts chef and hotelier Ruth Graves Wakefield in the 1930s, although versions existed that preceded hers.
 - (about) Chocolate chip cookies are closely associated with the United States, where they are the most popular cookie.
-- (history) Over the 20th century they gained popularity through their association with the Swiss company Nestlé, their distribution to American troops in World War II, and the development of new versions in the 1970s and 1980s by manufacturers such as Famous Amos and Mrs.
-- (about) In 2017, Brides's daughter shared what she said was the original recipe:
 - (about) As of the early 2010s, it was the country's most popular, particularly in a home baking context.
 - (about) Among tourists from some countries, eating an American chocolate chip cookie is an important part of a trip, and as of 2014, Nestlé only printed recipes in English on the side of their chocolate chips to maintain the association.
 - (about) In 2006, food writer Bunny Crumpacker described men having a preference for large, chewy cookies containing chunks of chocolate and nuts.
-- (origin) Chocolate chip cookie comes from United States.
+- (origin) Chocolate chip cookie comes from the United States.
+- (history) Over the 20th century they gained popularity through their association with the Swiss company Nestlé, their distribution to American troops in World War II, and the development of new versions in the 1970s and 1980s by manufacturers such as Famous Amos and Mrs. Fields.
+- (about) In 2017, Brides's daughter shared what she said was the original recipe:
 
 Learn more:
 
@@ -1208,16 +1199,16 @@ The chopped cheese, also known as the chop cheese, is a type of sandwich origina
 
 Fun facts:
 
-- (history) Hajji's Deli claims a former worker invented the sandwich for himself sometime in the 1990s, after which the concept spread to other bodegas.
 - (origin) The actual origins of the sandwich are up for debate, although generally most agree it was first created in a Spanish Harlem bodega called Hajji's Deli, also known as Blue Sky Deli.
-- (about) The sandwich has also been the topic of a documentary on the website First We Feast.
+- (inspiration) The documentary Hometown Hero: The Legend of New York's Chopped Cheese discusses the origins of the sandwich and its cultural history.
+- (history) Hajji's Deli claims a former worker invented the sandwich for himself sometime in the 1990s, after which the concept spread to other bodegas.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) The documentary Hometown Hero: The Legend of New York's Chopped Cheese discusses the origins of the sandwich and its cultural history.
 - (about) The sandwich gained significant media attention in the 2010s, starting with a 2014 episode of Parts Unknown in which Anthony Bourdain, a lifelong New Yorker, told a group of students in the Bronx that he'd never heard of a chopped cheese sandwich.
 - (about) In 2016 a reporter for Insider described the sandwich as "something most New Yorkers had never heard of", despite it being well-known in multiple parts of the city.
-- (origin) Chopped cheese comes from United States.
+- (origin) Chopped cheese comes from the United States.
+- (about) The sandwich has also been the topic of a documentary on the website First We Feast.
 
 Learn more:
 
@@ -1240,7 +1231,7 @@ Fun facts:
 
 - (origin) Originating in Fall River, Massachusetts, in the 1930s or 1940s, the sandwich is not well known outside of a relatively small area of New England.
 - (about) Although the sandwich is mostly unknown in nearby Boston, it was on the menu at the more distant Coney Island location of Nathan's Famous in Brooklyn, New York as recently as 2013.
-- (origin) Chow mein sandwich comes from United States.
+- (origin) Chow mein sandwich comes from the United States.
 
 Learn more:
 
@@ -1267,7 +1258,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Cioppino comes from United States.
+- (origin) Cioppino comes from the United States.
 
 Learn more:
 
@@ -1294,7 +1285,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) Many regional variations exist, but the three most popular are New England or "white" clam chowder, which is made with milk or cream; Manhattan or "red" clam chowder, which includes tomatoes instead; and Rhode Island or "clear" clam chowder, which omits both.
-- (origin) Clam chowder comes from United States.
+- (origin) Clam chowder comes from the United States.
 
 Learn more:
 
@@ -1345,9 +1336,9 @@ More fun facts (when the user asks for more):
 
 - (history) The sandwich appeared on U.S. restaurant menus as early as 1899.
 - (history) The earliest reference to the sandwich in published fiction is from Conversations of a Chorus Girl, a 1903 book by Ray Cardell.
-- (history) An 1897 recipe has three layers, with the chicken and ham separated not by a slice of bread, but by a lettuce leaf.
 - (history) Club sandwich dates from 1900-.
-- (origin) Club sandwich comes from United States.
+- (origin) Club sandwich comes from the United States.
+- (history) An 1897 recipe has three layers, with the chicken and ham separated not by a slice of bread, but by a lettuce leaf.
 
 Learn more:
 
@@ -1374,11 +1365,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Stories vary whether the salad was invented by Cobb or by his chef, Paul J.
+- (inspiration) Stories vary whether the salad was invented by Cobb or by his chef, Paul J. Posti.
 - (inspiration) The legend is that Cobb had not eaten until near midnight, and so he mixed together leftovers he found in the kitchen, along with some bacon cooked by the line cook, and tossed it with their French dressing.
 - (inspiration) Yet another version of the creation is that Robert Kreis, executive chef at the restaurant, created the salad in 1929 (the year the Brown Derby's Hollywood location opened) and named it in honor of Cobb.
 - (history) The same source confirms that 1937 was the reported date of the version noted above, with Cobb making the salad.
-- (origin) Cobb salad comes from United States.
+- (origin) Cobb salad comes from the United States.
 
 Learn more:
 
@@ -1398,7 +1389,7 @@ Coconut cake is a popular dessert in the Southern region of the United States.
 
 Fun facts:
 
-- (origin) Coconut cake comes from United States.
+- (origin) Coconut cake comes from the United States.
 
 Learn more:
 
@@ -1417,8 +1408,8 @@ Cookie salad is a dessert salad from the U.S. states of Minnesota and North Dako
 
 Fun facts:
 
+- (origin) Cookie salad comes from the United States.
 - (culture) They are popular with children and a common contribution to holiday tables and potlucks.
-- (origin) Cookie salad comes from United States.
 
 Learn more:
 
@@ -1439,15 +1430,15 @@ Country captain is a curried chicken dish, often served with rice, popular in th
 Fun facts:
 
 - (about) Country Captain has appeared on television shows in both the United States and in the United Kingdom, with chefs Bobby Flay, Atul Kochhar and Cyrus Todiwala all cooking the dish.
-- (culture) Todiwala served his version to Queen Elizabeth II as part of her Diamond Jubilee celebrations.
 - (origin) Country captain originated in Anglo-Indian cuisine during the British Raj in India as a simple spatchcock poultry or game recipe involving onions and curry and possibly enjoyed by British officers.
+- (history) Henrietta Hervey, in her 1895 book Anglo-Indian Cooking at Home, gave a recipe for the Anglo-Indian dish for a British audience back in England.
 
 More fun facts (when the user asks for more):
 
-- (history) Henrietta Hervey, in her 1895 book Anglo-Indian Cooking at Home, gave a recipe for the Anglo-Indian dish for a British audience back in England.
 - (origin) Country Captain was introduced to the United States through Charleston, Savannah, New York City, and Philadelphia, but has origins in Anglo-Indian cuisine from the time of the British Raj in India.
-- (inspiration) Country Captain was included in the U.S. military's Meal, Ready-to-Eat packs from 2000 to 2004, in honor of its being a favorite of George S.
-- (origin) Country Captain comes from United States.
+- (inspiration) Country Captain was included in the U.S. military's Meal, Ready-to-Eat packs from 2000 to 2004, in honor of its being a favorite of George S. Patton.
+- (origin) Country Captain comes from the United States.
+- (culture) Todiwala served his version to Queen Elizabeth II as part of her Diamond Jubilee celebrations.
 
 Learn more:
 
@@ -1468,7 +1459,7 @@ Fun facts:
 
 - (history) Although cowboy appears in the name, the use of canned beans, ketchup, and barbecue sauce means the dish is unlike anything ranch hands would have eaten in the 19th century.
 - (origin) It is unclear how cowboy beans got their name or where they originated.
-- (origin) Cowboy beans comes from United States.
+- (origin) Cowboy beans comes from the United States.
 
 Learn more:
 
@@ -1489,14 +1480,14 @@ Crab Louie salad, also known as Crab Louis salad or the King of Salads, is a typ
 Fun facts:
 
 - (inspiration) San Francisco's Bergez-Frank's Old Poodle Dog restaurant menu included "Crab Leg à la Louis (special)" in 1908, named for the chef Louis Coutard who died in May 1908.
-- (origin) The recipe dates back to the early 1900s and originates on the West Coast of the United States.
 - (history) The exact origins of the dish are uncertain, but it is known that Crab Louie was being served in San Francisco, at Solari's, as early as 1914.
+- (origin) The recipe dates back to the early 1900s and originates on the West Coast of the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) Edwords, and for a similar "Crabmeat a la Louise" salad in the 1910 edition of a cookbook by Victor Hirtzler, head chef of the city's St.
+- (history) A recipe for Crab Louie exists from this date in Bohemian San Francisco by Clarence E. Edwords, and for a similar "Crabmeat a la Louise" salad in the 1910 edition of a cookbook by Victor Hirtzler, head chef of the city's St. Francis Hotel.
+- (origin) Crab Louie comes from the United States.
 - (history) Another early recipe is found in The Neighborhood Cook Book, compiled by the Portland Council of Jewish Women in 1912.
-- (origin) Crab Louie comes from United States.
 
 Learn more:
 
@@ -1526,7 +1517,7 @@ More fun facts (when the user asks for more):
 - (history) Although cream cheese was a staple of 1940s and 1950s American cuisine, it is not found in Chinese or Burmese cuisine.
 - (about) Trader Vic's featured a menu that included American Chinese cuisine, which could have led to the invention of the crab rangoon when working with wonton wrappers.
 - (history) A "Rangoon crab a la Jack" was mentioned as a dish at a Hawaiian-style party in 1952 but without further detail and so may or may not be the same thing.
-- (origin) Crab Rangoon comes from United States.
+- (origin) Crab Rangoon comes from the United States.
 
 Learn more:
 
@@ -1546,7 +1537,7 @@ Cream of crab soup is a dish from the Eastern Shore of Maryland.
 Fun facts:
 
 - (origin) Cream of crab soup was first made in Eastern Shore of Maryland.
-- (origin) Cream of crab soup comes from United States.
+- (origin) Cream of crab soup comes from the United States.
 
 Learn more:
 
@@ -1573,7 +1564,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (origin) Ansel introduced the Cronut on May 10, 2013, at Dominique Ansel Bakery in New York's SoHo neighborhood.
-- (origin) Cronut comes from United States.
+- (origin) Cronut comes from the United States.
 
 Learn more:
 
@@ -1594,14 +1585,14 @@ Cuban bread is a white bread formed into long, baguette-like loaves.
 Fun facts:
 
 - (origin) With regards to where it originated, the first commercial bakery in the U.S. to produce Cuban bread was most likely La Joven Francesca bakery, which was established by the Sicilian-born Francisco Ferlita in 1896 in Ybor City, a thriving Cuban-Spanish-Italian community in Tampa.
-- (history) Ferlita's bakery was destroyed by fire in 1922, with only the large brick oven remaining.
 - (culture) Cuban bread is the traditional base of a Cuban sandwich.
+- (about) Cuban bread was co-founded by Juan Morè, who migrated to Tampa from Spain via Cuba and became a partner in a bakery co-op with three locations: "La Primera", "La Segunda", and "La Tercera".
 
 More fun facts (when the user asks for more):
 
 - (origin) Cuban bread originated in the immigrant communities of Tampa, Florida, and it has become a staple of Cuban-American cuisine.
-- (about) Cuban bread was co-founded by Juan Morè, who migrated to Tampa from Spain via Cuba and became a partner in a bakery co-op with three locations: "La Primera", "La Segunda", and "La Tercera".
-- (origin) Cuban bread comes from United States.
+- (origin) Cuban bread comes from the United States.
+- (history) Ferlita's bakery was destroyed by fire in 1922, with only the large brick oven remaining.
 
 Learn more:
 
@@ -1624,7 +1615,7 @@ Fun facts:
 
 - (history) The earliest extant description of what is now often called a cupcake was in 1796, when a recipe for "a light cake to bake in small cups" was written in American Cookery by Amelia Simmons.
 - (culture) While English fairy cakes vary in size more than American cupcakes, they are traditionally smaller and are rarely topped with elaborate frosting.
-- (origin) Cupcake comes from United States.
+- (origin) Cupcake comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -1649,14 +1640,14 @@ Curly fries, or twisted fries or spiral fries, are french fries cut into a spira
 
 Fun facts:
 
-- (inspiration) Though they are sometimes said to have been invented by the Arby's restaurant chain, their actual origins are more complex; their existence can be traced back to the 19th century.
 - (history) The creation date of the curly fry has not been pinpointed, but its existence can be traced back to the 19th century.
-- (inspiration) Though they are sometimes said to have been invented by the Arby's restaurant chain, their actual origins are more complex.
+- (inspiration) Though they are sometimes said to have been invented by the Arby's restaurant chain, their actual origins are more complex; their existence can be traced back to the 19th century.
+- (history) Oklahoma City's Dolores Restaurant and Inn served curly fries as "Suzi-Q potatoes" in 1938.
 
 More fun facts (when the user asks for more):
 
-- (history) Oklahoma City's Dolores Restaurant and Inn served curly fries as "Suzi-Q potatoes" in 1938.
 - (history) Arby's is well known for curly fries, but they did not introduce them until 1988.
+- (inspiration) Though they are sometimes said to have been invented by the Arby's restaurant chain, their actual origins are more complex.
 
 Learn more:
 
@@ -1679,11 +1670,11 @@ Fun facts:
 
 - (about) Also known as a bacon-wrapped hot dog, it was first sold by street vendors in Mexico.
 - (origin) Danger dog comes from Mexico.
-- (about) These dogs are sold from carts that are ubiquitous along Avenida Revolución and the area surrounding the border in Tijuana, as well as the bar district in Ensenada, and are still popular in Southern Arizona.
+- (about) Bacon-wrapped hot dogs were popularized in Los Angeles using available American-style hot dog buns, giving rise to the popular name L.A. Street Dog.
 
 More fun facts (when the user asks for more):
 
-- (about) Bacon-wrapped hot dogs were popularized in Los Angeles using available American-style hot dog buns, giving rise to the popular name L.A.
+- (about) These dogs are sold from carts that are ubiquitous along Avenida Revolución and the area surrounding the border in Tijuana, as well as the bar district in Ensenada, and are still popular in Southern Arizona.
 
 Learn more:
 
@@ -1705,15 +1696,15 @@ Fun facts:
 
 - (history) Deep-dish pizza was invented at Pizzeria Uno in Chicago, founded by Ike Sewell and Richard Riccardo in 1943.
 - (culture) In traditional recipes, the top of the crust is layered with meats and/or vegetables and mozzarella cheese while the sides rise to the top of the pan, and then a layer of crushed tomatoes is ladled over the top and the whole pizza is baked to completion.
-- (origin) Deep-dish pizza comes from United States.
+- (origin) Deep-dish pizza comes from the United States.
 
 More fun facts (when the user asks for more):
 
 - (history) Rudy's sons Lou and Rudy Jr., who also worked at Pizzeria Uno, later respectively founded Lou Malnati's Pizzeria in 1971 and Pizano's in 1991, both also known for their deep-dish pizzas.
 - (history) Riccardo's original recipe for a pizza cooked in a pie pan or cake tin was published in 1945 and included a dough made with scalded milk, butter, and sugar.
+- (about) Not to be confused with Detroit-style pizza, Greek pizza, deep-dish pizza.
 - (history) In the 1960s and '70s, the dough ball became larger, to cover the full sides of the pan, with a higher fat percentage.
 - (history) Redmond later worked at Gino's East, founded in 1966, where she made a fattier, biscuit-like dough.
-- (about) Not to be confused with Detroit-style pizza, Greek pizza, deep-dish pizza.
 
 Learn more:
 
@@ -1754,15 +1745,15 @@ A Denver sandwich, also known as a Western sandwich, consists of a Denver omelet
 
 Fun facts:
 
-- (about) The origin of the sandwich is unclear, with its invention attributed to a variety of individuals, including Denver restaurateur Albert A.
-- (history) As early as 1908 it was known as the "Western Sandwich", cited in a San Antonio newspaper.
+- (history) The origin of the sandwich is unclear, with its invention attributed to a variety of individuals, including Denver restaurateur Albert A. McVittie in 1907 and M. D. Looney, also of Denver, in the same year.
 - (about) There is also a claim that the "Denver sandwich" was invented at Denver's Tabor Hotel, but mentions of it in newspapers predate all these claimants.
+- (history) As early as 1908 it was known as the "Western Sandwich", cited in a San Antonio newspaper.
 
 More fun facts (when the user asks for more):
 
 - (history) A "Manhattan Sandwich" (cited from 1909) was similar in that it contained fried egg, minced ham, and onion.
 - (about) Food writers James Beard and Evan Jones believed that the Denver or Western sandwich was actually created earlier by "the many Chinese chefs who cooked for logging camps and railroad gangs in the nineteenth and early twentieth centuries" and was probably derived from egg foo young.
-- (about) They believed that the early Denver sandwiches were actually St.
+- (about) They believed that the early Denver sandwiches were actually St. Paul sandwiches.
 
 Learn more:
 
@@ -1790,7 +1781,7 @@ More fun facts (when the user asks for more):
 
 - (history) After leaving the Melrose Inn in 1960, the Kern family continued to make derby pie for select customers.
 - (history) A federal judge in April 1982 ruled against a local cookbook, and demanded that the cookbook be recalled so the page with the derby pie recipe could be removed.
-- (origin) Derby pie comes from United States.
+- (origin) Derby pie comes from the United States.
 
 Learn more:
 
@@ -1810,24 +1801,24 @@ Detroit-style pizza is a rectangular pan pizza with a thick, crisp, chewy crust.
 
 Fun facts:
 
-- (history) The steel pans were made by Dover Parkersburg in the 1930s and 1940s and were originally used as drip trays or to hold small parts or scrap metal in automobile factories.
+- (history) The Detroit News called Tourtois the "king of pizzas" in 1978.
 - (inspiration) Detroit-style pizza is named after Detroit.
 - (culture) Detroit-style pizza is traditionally topped to the edges with mozzarella or Wisconsin brick cheese, which caramelizes against the high-sided heavyweight rectangular pan.
 
 More fun facts (when the user asks for more):
 
-- (history) The Detroit News called Tourtois the "king of pizzas" in 1978.
 - (history) Detroit-style pizza was developed during the mid-20th century in Detroit, Michigan, before spreading to other parts of the United States in the 2010s.
 - (history) Detroit-style pizza was developed in 1946 at Buddy's Rendezvous, a former speakeasy owned by Gus and Anna Guerra located at the corner of Six Mile Road and Conant Street in Detroit.
 - (history) In 1953, the Guerras sold it and opened Cloverleaf Bar in Eastpointe, Michigan.
+- (history) The steel pans were made by Dover Parkersburg in the 1930s and 1940s and were originally used as drip trays or to hold small parts or scrap metal in automobile factories.
 - (history) Buddy's Pizza chief brand officer Wesley Pikula, who started at Buddy's as a busboy in the 1980s, said that he had never heard the term "Detroit-style" before the 1980s when a trade magazine used it and that even afterward it was seldom used except in national trade articles.
 - (about) Detroit-style pizza is one of Detroit's most famous local foods.
-- (about) Historical accounts attribute the original Sicilian-style base either to Anna Guerra's mother's recipe for sfincione or a recipe from one of the restaurant's employees, a Sicilian woman named Connie Piccinato.
-- (about) As late as 2007, some local media were referring to the style as "Sicilian-style".
 - (about) Some makers of Detroit-style pizza in other areas questioned whether to call their pizza by that name, as "sometimes people have negative thoughts about Detroit." The Detroit-style pizza was popular throughout the Detroit area but until the 2010s was not often found at restaurants outside the area.
 - (about) In 2012, a New York restaurateur created a pizza he called "Detroit-style", though he had never visited Detroit, using focaccia dough, mozzarella, and ricotta.
-- (origin) Detroit-style pizza comes from United States.
+- (origin) Detroit-style pizza comes from the United States.
 - (about) Not to be confused with Chicago-style pizza, Greek pizza.
+- (about) Historical accounts attribute the original Sicilian-style base either to Anna Guerra's mother's recipe for sfincione or a recipe from one of the restaurant's employees, a Sicilian woman named Connie Piccinato.
+- (about) As late as 2007, some local media were referring to the style as "Sicilian-style".
 
 Learn more:
 
@@ -1847,12 +1838,12 @@ Deviled crab (croqueta de jaiba in Spanish) is a crab meat croquette.
 Fun facts:
 
 - (origin) Deviled crabs originated in the Spanish/Cuban/Italian immigrant community of Ybor City, Tampa, Florida during a late-1920s strike in the area's cigar factories.
-- (about) These croquetas de jaiba became widely popular after the strike, when local entrepreneurs began selling their own versions of the snack from pushcarts and bicycles along Tampa sidewalks.
+- (about) Deviled crabs are still popular in the Tampa Bay area, especially in lunch cafes and restaurants that serve Cuban and/or Spanish cuisine in Ybor City and West Tampa.
 - (origin) Deviled crab croquettes originated in Tampa, Florida, where they were developed in the Spanish, Cuban and Italian immigrant community of Ybor City.
 
 More fun facts (when the user asks for more):
 
-- (about) Deviled crabs are still popular in the Tampa Bay area, especially in lunch cafes and restaurants that serve Cuban and/or Spanish cuisine in Ybor City and West Tampa.
+- (about) These croquetas de jaiba became widely popular after the strike, when local entrepreneurs began selling their own versions of the snack from pushcarts and bicycles along Tampa sidewalks.
 
 Learn more:
 
@@ -1873,16 +1864,16 @@ Disco fries are a dish of American origin consisting of french fries topped with
 Fun facts:
 
 - (origin) While there is some dispute over their origin, locals widely agree that disco fries first appeared by name on the menu at the 24/7 service Tick Tock Diner in Clifton, New Jersey, U.S., in the 1970s.
-- (history) Popularized in the 1970s by the Tick Tock Diner in Clifton, New Jersey, they are a staple of New Jersey cuisine, commonly served at diners throughout the state.
+- (history) John Russell of LGBTQ Nation argues that disco fries are emblematic of the cuisine of LGBTQ culture in the United States, given their popularity among gay nightclub–goers and their association with the queer disco community of the 1970s.
 - (about) A 2025 book by Erik Piepenburg titled Dining Out: First Dates, Defiant Nights, and Last Call Disco Fries at America's Gay Restaurants discusses the history of LGBTQ cuisine in the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) John Russell of LGBTQ Nation argues that disco fries are emblematic of the cuisine of LGBTQ culture in the United States, given their popularity among gay nightclub–goers and their association with the queer disco community of the 1970s.
 - (about) In the 2020s, disco fries gained popularity at restaurants throughout the United States.
 - (about) In 2024, The Takeout wrote that disco fries "may be New Jersey's greatest contribution to the snack food pantheon".
 - (about) The dish derives its name from its popularity as a late-night snack among young crowds returning from disco nightclubs, especially as "drunk food".
-- (origin) Disco fries comes from United States.
+- (origin) Disco fries comes from the United States.
+- (history) Popularized in the 1970s by the Tick Tock Diner in Clifton, New Jersey, they are a staple of New Jersey cuisine, commonly served at diners throughout the state.
 
 Learn more:
 
@@ -1910,7 +1901,7 @@ More fun facts (when the user asks for more):
 - (about) Until 2021, they were known as "Farmer John Dodger Dogs".
 - (about) Starting with the 2021 MLB Los Angeles Dodgers season, the iconic "Dodger Dog" is being supplied to Dodger Stadium by Vernon, California-based Papa Cantella's.
 - (about) This was changed for the 2010 Spring Training season where the Dodger Dog was either cooked on a hot dog roller or steamed.
-- (origin) Dodger Dog comes from United States.
+- (origin) Dodger Dog comes from the United States.
 
 Learn more:
 
@@ -1929,14 +1920,14 @@ Finger steaks are strips of steak (usually top sirloin), battered with a tempura
 Fun facts:
 
 - (origin) Finger steaks are purported to have been first served in a restaurant setting at Boise, Idaho’s "Torch Lounge" (aka The Torch) in 1957.
-- (about) Milo Bybee claimed to have invented finger steaks while wondering what to do with leftover tenderloin scraps when he was working as a butcher for the U.S.
-- (history) Bybee went to work as a chef at the Torch in 1946.
+- (about) Milo Bybee claimed to have invented finger steaks while wondering what to do with leftover tenderloin scraps when he was working as a butcher for the U.S. Forest Service in McCall, Idaho.
+- (history) Finger steaks were produced as a frozen food by B and D Foods, which was founded in 1972 to supply its Signature Finger steak to a chain of fast food restaurants, the Red Steer, a now defunct chain of fast food burger joints in Idaho.
 
 More fun facts (when the user asks for more):
 
 - (about) According to a local lifestyle reporter, Milo's claim of inventing finger steaks is questioned.
 - (origin) Opposing claims have been made that finger steaks were first created near Lewiston, Idaho during the log drives as a method of thoroughly cooking potentially spoiled beef while still remaining palatable.
-- (history) Finger steaks were produced as a frozen food by B and D Foods, which was founded in 1972 to supply its Signature Finger steak to a chain of fast food restaurants, the Red Steer, a now defunct chain of fast food burger joints in Idaho.
+- (history) Bybee went to work as a chef at the Torch in 1946.
 
 Learn more:
 
@@ -1957,21 +1948,21 @@ A fluffernutter (also called a "peanut butter and marshmallow sandwich", "peanut
 Fun facts:
 
 - (origin) The sandwich was first created in the early 20th century after marshmallow creme, a sweet marshmallow-like spread, was invented in Massachusetts.
-- (history) Marshmallow creme was invented in the early 20th century.
 - (inspiration) The term "fluffernutter" was created by an advertising agency in 1960 as a more effective way to market the sandwich.
+- (history) The recipe was published in a promotional booklet sent to Curtis' customers in 1918 and may be the origin of the fluffernutter sandwich.
 
 More fun facts (when the user asks for more):
 
+- (history) The sandwich made with peanut butter and marshmallow creme continued to be eaten, but was not called a fluffernutter until 1960, when an advertising firm Durkee-Mower hired created the term as a more effective way to market the sandwich.
+- (history) Marshmallow creme was invented in the early 20th century.
 - (history) In 1917, Archibald Query invented what he called Marshmallow Creme in Somerville, Massachusetts.
 - (history) Amory and Emma Curtis of Melrose, Massachusetts, invented Snowflake Marshmallow Creme in 1913.
-- (history) The recipe was published in a promotional booklet sent to Curtis' customers in 1918 and may be the origin of the fluffernutter sandwich.
-- (history) The sandwich made with peanut butter and marshmallow creme continued to be eaten, but was not called a fluffernutter until 1960, when an advertising firm Durkee-Mower hired created the term as a more effective way to market the sandwich.
-- (about) The sandwich is particularly popular in New England and has been proposed as the official state sandwich of Massachusetts.
 - (culture) The traditional Fluffernutter can be grilled for a popular variation.
 - (about) In June 2006, Massachusetts State Senator Jarrett Barrios proposed legislation restricting the serving of fluffernutter sandwiches in public schools after learning that his son was served fluffernutters on a daily basis at his elementary school in Cambridge, Massachusetts.
-- (about) The measure failed, and Reinstein tried again unsuccessfully in 2009.
 - (about) In 2021, Merriam-Webster added the word fluffernutter to its dictionary.
-- (origin) Fluffernutter comes from United States.
+- (origin) Fluffernutter comes from the United States.
+- (about) The sandwich is particularly popular in New England and has been proposed as the official state sandwich of Massachusetts.
+- (about) The measure failed, and Reinstein tried again unsuccessfully in 2009.
 
 Learn more:
 
@@ -1992,17 +1983,17 @@ Fool's Gold Loaf is a sandwich made by the Colorado Mine Company, a restaurant i
 
 Fun facts:
 
-- (inspiration) The story became legend and the sandwich became the subject of continued media interest and part of numerous cookbooks, typically focused on Presley's love of food.
 - (about) Wood writes that Presley obtained the recipe from the Scotts so his personal chef could make it, but noted that "the Fool's Gold Loaf never made a recorded encore".
-- (origin) Fool's Gold Loaf comes from United States.
+- (inspiration) The Fool's Gold Loaf is a recurring motif in the 2013 romantic comedy The F Word (released in some territories as What If), where the protagonists discuss and prepare the sandwich; screenwriter Elan Mastai has said he used the sandwich as a storytelling device.
+- (origin) Fool's Gold Loaf comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) The sandwich's connection to the singer Elvis Presley is the source of its legend and prolonged interest.
-- (inspiration) The Fool's Gold Loaf is a recurring motif in the 2013 romantic comedy The F Word (released in some territories as What If), where the protagonists discuss and prepare the sandwich; screenwriter Elan Mastai has said he used the sandwich as a storytelling device.
-- (about) The sandwich was named to fit the restaurant's mining motif.
+- (inspiration) The story became legend and the sandwich became the subject of continued media interest and part of numerous cookbooks, typically focused on Presley's love of food.
 - (about) At the time of Presley's visit, it cost US$49.95 (equivalent to $280 in 2025).
 - (inspiration) The track "01:40 FOOLS GOLD" appears on Phil Broikos' 2021 album a day in music: 1am; in notes accompanying the release, he described it as inspired by Elvis Presley's late-night flight to Denver to eat the Fool's Gold Loaf.
+- (inspiration) The sandwich's connection to the singer Elvis Presley is the source of its legend and prolonged interest.
+- (about) The sandwich was named to fit the restaurant's mining motif.
 
 Learn more:
 
@@ -2022,22 +2013,22 @@ A fortune cookie is a crisp and sugary cookie wafer made from flour, sugar, vani
 
 Fun facts:
 
-- (origin) They most likely originated from cookies made by Japanese immigrants to the United States in the late 19th or early 20th century.
 - (history) Makoto Hagiwara of Golden Gate Park's Japanese Tea Garden in San Francisco is reported to have been the first person in the U.S. to have served the modern version of the cookie when he did so at the tea garden in the early 1900s.
+- (origin) They most likely originated from cookies made by Japanese immigrants to the United States in the late 19th or early 20th century.
 - (culture) As far back as the 19th century, a cookie very similar in appearance to the modern fortune cookie was made in Kyoto, Japan, and there is a Japanese temple tradition of random fortunes, called omikuji.
 
 More fun facts (when the user asks for more):
 
 - (history) The exact origin of fortune cookies is unclear, though various immigrant groups in California claim to have popularized them in the early 20th century.
-- (history) San Francisco's Court of Historical Review attempted to settle the dispute in 1983.
 - (origin) A federal judge of the Court of Historical Review, from San Francisco themselves, determined that the cookie originated with Hagiwara and the court ruled in favor of San Francisco.
 - (about) Seiichi Kito, the founder of Fugetsu-do of Little Tokyo in Los Angeles, also claims to have invented the cookie.
 - (history) Fortune cookies before the early 20th century were all made by hand.
 - (history) David Jung, founder of the Hong Kong Noodle Company in Los Angeles, made a competing claim that he invented the cookie in 1918.
-- (origin) During the proceedings, a fortune cookie was introduced as a piece of evidence with a message reading, "S.F.
+- (origin) During the proceedings, a fortune cookie was introduced as a piece of evidence with a message reading, "S.F. Judge who rules for L.A. Not Very Smart Cookie".
 - (history) Up to around World War II, fortune cookies were known as "fortune tea cakes"—likely reflecting their origins in Japanese tea cakes.
 - (culture) Traditionally, bakers would bake 3-inch circles of dough, insert a fortune while still warm, and use chopsticks to fold the cookie into its iconic shape before it hardened.
-- (origin) Fortune cookie comes from United States.
+- (origin) Fortune cookie comes from the United States.
+- (history) San Francisco's Court of Historical Review attempted to settle the dispute in 1983.
 
 Learn more:
 
@@ -2056,21 +2047,20 @@ A French dip sandwich, also known as a beef dip, is a hot sandwich consisting of
 
 Fun facts:
 
-- (origin) However, Cole's claims to have originated the sandwich shortly after the restaurant opened in 1908, while Philippe's claims that owner Philippe Mathieu invented it in 1918.
+- (origin) Cole's claims to have originated the sandwich shortly after the restaurant opened in 1908, while Philippe's claims that owner Philippe Mathieu invented it in 1918.
 - (history) A November 1929 reference in Modern Mechanics and Inventions, "War Veteran Erects Sand-bagged Dugout as Eating Place in Los Angeles" (which cites the dish at the Dugout) may be the first mention of the dish in print.
 - (inspiration) The story of the sandwich's invention by Philippe's has several variants: some sources say that it was first created by a cook or a server who, while preparing a sandwich for a police officer or fireman, accidentally dropped it into a pan of meat drippings.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) The sandwich is most commonly served with a cup on the side, into which the sandwich is dipped as it is eaten, although this is not how the sandwich came into contact with the jus in the various legends of its origin.
+- (about) The patron liked it, and the dish surged in popularity shortly after its invention.
+- (about) A popular variation is to top with Swiss cheese, onions, and a dipping container of beef broth produced from the cooking process (termed au jus, "with juice").
+- (origin) French dip comes from the United States.
 - (about) The sandwich is an American invention, with the name seeming to refer to the style of bread.
 - (origin) The controversy over who originated the sandwich remains unresolved.
-- (history) Both restaurants were established in 1908.
-- (about) The patron liked it, and the dish surged in popularity shortly after its invention.
 - (inspiration) Cole's account states that the sandwich was invented by a sympathetic chef, Jack Garlinghouse, for a customer who was complaining of sore gums.
 - (about) The mystery of the sandwich's invention might not be solved due to a lack of information and observable evidence.
-- (about) A popular variation is to top with Swiss cheese, onions, and a dipping container of beef broth produced from the cooking process (termed au jus, "with juice").
-- (origin) French dip comes from United States.
 
 Learn more:
 
@@ -2091,8 +2081,8 @@ A fried brain sandwich is a sandwich of sliced calves' brains on sliced bread.
 
 Fun facts:
 
+- (origin) Fried brain sandwich comes from the United States.
 - (about) They remain popular in the Ohio River valley, where they are served heavily battered on hamburger buns.
-- (origin) Fried brain sandwich comes from United States.
 
 Learn more:
 
@@ -2112,13 +2102,13 @@ Fried green tomatoes is a culinary dish usually found in the United States, made
 
 Fun facts:
 
-- (history) Recipes in the early 20th century were mainly published in the Northeastern United States and Midwestern United States.
-- (about) They became known as a food of the Southern United States after they were featured in the film Fried Green Tomatoes.
 - (culture) Traditional preparation of fried green tomatoes begins by cutting the tomatoes into approximately 1⁄2 inch (1.3 cm), 1⁄4 in (~0.6 cm) or even 1⁄8 in (0.3 cm) slices.
+- (origin) Fried green tomatoes comes from the United States.
+- (history) Recipes in the early 20th century were mainly published in the Northeastern United States and Midwestern United States.
 
 More fun facts (when the user asks for more):
 
-- (origin) Fried green tomatoes comes from United States.
+- (about) They became known as a food of the Southern United States after they were featured in the film Fried Green Tomatoes.
 
 Learn more:
 
@@ -2146,10 +2136,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Route 81 as a way to stretch ground beef with less expensive onions to feed railroad workers during the Great Railroad Strike of 1922 and became further popularized during the Great Depression.
 - (history) Extending ground beef with onions also predates the onion burger; the 1883 Boston Cooking School Cookbook included a recipe that called for mashing two or three onions into a pound of ground beef.
 - (about) The Davises named it the Depression Burger and sold it for five cents.
-- (origin) Fried onion burger comes from United States.
+- (origin) Fried onion burger comes from the United States.
 
 Learn more:
 
@@ -2172,7 +2161,7 @@ Fun facts:
 
 - (inspiration) Frog eye salad is named after eye.
 - (about) In 2021, at the Utah Museum of Contemporary Art in Salt Lake City, photographs of frogeye salad were displayed alongside other foods in a showcase of Mormon cultural dishes.
-- (origin) Frog eye salad comes from United States.
+- (origin) Frog eye salad comes from the United States.
 
 Learn more:
 
@@ -2194,15 +2183,15 @@ Fun facts:
 
 - (history) By the 1880s and 1890s, mentions of and recipes for fudge appeared widely in American periodicals and advertisements, arriving as prices for sugar and chocolate became increasingly cheap.
 - (about) Fudge can come in a variety of flavorings depending on the region or country it was made; popular flavors include fruit, nut, chocolate, and caramel.
-- (origin) Fudge comes from United States.
+- (origin) Fudge comes from the United States.
 
 More fun facts (when the user asks for more):
 
 - (history) Modern fudge has its origins in the 19th century United States, and became popular in American women's colleges late in the century.
 - (history) In the Oxford Dictionary of Word Origins, the term fudge, used as an expression of annoyance, is traced to the 18th century.
 - (history) Within Britain, various communities in the Midlands and Cornwall had been making local variations of the Scottish sweet, tablet, for centuries which would retroactively be referred to as fudge by the 1890s.
-- (history) One of these recipes cited by Parks was published in 1874 in the American agricultural magazine The Cultivator and Country Gentleman, crediting a "Baltimore friend" for "Caramel": Six ounces of Baker's chocolate; 1 ½ lbs. of brown sugar; ½ lb. butter; 1 cup of milk or cream.
 - (history) When this confection began to be called fudge is difficult to identify, given the widespread use of 'fudge' in the colloquial sense during the 19th century.
+- (history) One of these recipes cited by Parks was published in 1874 in the American agricultural magazine The Cultivator and Country Gentleman, crediting a "Baltimore friend" for "Caramel": Six ounces of Baker's chocolate; 1 ½ lbs. of brown sugar; ½ lb. butter; 1 cup of milk or cream.
 - (about) Not to be confused with toffee.
 
 Learn more:
@@ -2231,13 +2220,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Recipes can be found in multiple Relief Society cookbooks dating to the early 20th century.
-- (history) By the mid-20th century recipes called for convenience foods.
 - (about) Funeral potatoes has been associated with members of the Church of Jesus Christ of Latter-day Saints (LDS Church) because of its popularity among members of the church.
 - (about) In Texas the dish is known as Texas potatoes.
 - (about) Funeral potatoes is also known as Mormon funeral potatoes, or Relief Society Potatoes.
 - (about) In Iowa they are known as party potatoes.
-- (origin) Funeral potatoes comes from United States.
+- (origin) Funeral potatoes comes from the United States.
+- (history) Recipes can be found in multiple Relief Society cookbooks dating to the early 20th century.
+- (history) By the mid-20th century recipes called for convenience foods.
 
 Learn more:
 
@@ -2259,8 +2248,8 @@ General Tso's chicken is a Chinese-American sweet and spicy deep-fried chicken d
 Fun facts:
 
 - (inspiration) Although General Tso's chicken was invented in the 1970s, the dish was retroactively named for Zuo Zongtang (Tso Tsung-t'ang) (1812–1885), a Chinese statesman and military leader from Hunan Province during the late Qing dynasty.
-- (about) Wang, each claimed to have invented General Tso's chicken in New York City.
-- (origin) General Tso's chicken comes from People's Republic of China, Taiwan.
+- (about) Two Chinese chefs, Peng Chang-kuei and T. T. Wang, each claimed to have invented General Tso's chicken in New York City.
+- (origin) General Tso's chicken comes from the People's Republic of China, Taiwan.
 
 More fun facts (when the user asks for more):
 
@@ -2276,7 +2265,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q839206) (CC0); [Wikipedia: Ge
 
 ### Gerber sandwich
 
-The Gerber is an open-faced sandwich made in St.
+The Gerber is an open-faced sandwich made in St. Louis, Missouri.
 
 - From: United States
 - Origin (Wikidata): United States
@@ -2286,7 +2275,7 @@ Fun facts:
 
 - (inspiration) The "Gerber Special" was first made by the local family-owned Ruma's Deli, and named after their customer and next-store-neighbor, Dick Gerber.
 - (history) Dee and Tom Ruma were so impressed with the sandwich he concocted one day that they added the sandwich to the menu in 1973.
-- (origin) Gerber sandwich comes from United States.
+- (origin) Gerber sandwich comes from the United States.
 
 Learn more:
 
@@ -2313,12 +2302,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (history) In a 1959 General Foods Co. newsletter, a St. Louis homemaker reported that she was given a similar recipe in the 1920s but could not bake it at the time because she could not afford the ingredients during the Depression.
 - (history) In 1957, another recipe for "German's Chocolate Cake" appeared as the "Recipe of the Day" in The Dallas Morning News.
-- (history) In a 1959 General Foods Co. newsletter, a St.
-- (history) Louis homemaker reported that she was given a similar recipe in the 1920s but could not bake it at the time because she could not afford the ingredients during the Depression.
+- (history) In 1958, Mrs. Jackie Huffines’ recipe for “Samuel German Chocolate Cake” was published in General Foods’ cookbook.
 - (inspiration) German chocolate cake is named after Samuel German.
-- (inspiration) German chocolate cake was created by Lucy Clay, frequently cited as Mrs.
-- (origin) German chocolate cake comes from United States.
+- (inspiration) German chocolate cake was created by Lucy Clay, frequently cited as Mrs. George Clay, a homemaker from Dallas, Texas.
+- (origin) German chocolate cake comes from the United States.
 
 Learn more:
 
@@ -2340,7 +2329,7 @@ Fun facts:
 
 - (culture) In 1995, Janet Letnes Martin and Suzann Nelson authored a humorous book comparing Lutheran and Catholic traditions called They Glorified Mary…We Glorified Rice: A Catholic–Lutheran Lexicon.
 - (about) Glorified rice is popular in more rural areas with sizable Lutheran populations of Scandinavian heritage.
-- (origin) Glorified rice comes from United States.
+- (origin) Glorified rice comes from the United States.
 
 Learn more:
 
@@ -2353,7 +2342,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q5571519) (CC0); [Wikipedia: G
 
 ### Gooey butter cake
 
-Gooey butter cake is a type of cake traditionally made in St.
+Gooey butter cake is a type of cake traditionally made in St. Louis, Missouri.
 
 - From: United States
 - Origin (Wikidata): United States
@@ -2361,16 +2350,17 @@ Gooey butter cake is a type of cake traditionally made in St.
 
 Fun facts:
 
-- (origin) Louis, MO Bakers' gooey butter is believed to have originated in the 1930s.
-- (history) Bill Ozenkoski, operating Ozenkoski Bakery in Cool Valley (Ferguson, Missouri), received the highly regarded formula around 1963 from bakery sales representative Danzer.
+- (origin) The original St. Louis, MO Bakers' gooey butter is believed to have originated in the 1930s.
 - (about) The cream cheese and commercial yellow cake mix variant is a popular modern approximation designed for easier home preparation, which has obscured the original formula.
+- (inspiration) Bakeries in the greater St. Louis area who know how to make an original formula Gooey Butter cake use a slightly different recipe based on corn syrup, sugar and powdered eggs; however, no cake mix or cream cheese is involved.
 
 More fun facts (when the user asks for more):
 
-- (origin) The cake was supposedly first made by accident in the 1930s by a St.
+- (origin) The cake was supposedly first made by accident in the 1930s by a St. Louis–area German American baker who was trying to make regular cake batter but reversed the proportions of butter and flour.
+- (about) The St. Louis Convention & Visitors Commission includes a recipe for this variant on its website, calling it "one of St. Louis' popular, quirky foods".
 - (about) The cream cheese variant of the gooey butter cake recipe (also known as "Ooey Gooey butter cake", occasionally "chess cake"), while close enough to the original, is an approximation designed for easier preparation at home.
-- (inspiration) Louis area who know how to make an original formula Gooey Butter cake use a slightly different recipe based on corn syrup, sugar and powdered eggs; however, no cake mix or cream cheese is involved.
-- (origin) Gooey butter cake comes from United States.
+- (origin) Gooey butter cake comes from the United States.
+- (history) Bill Ozenkoski, operating Ozenkoski Bakery in Cool Valley (Ferguson, Missouri), received the highly regarded formula around 1963 from bakery sales representative Danzer.
 
 Learn more:
 
@@ -2402,9 +2392,9 @@ More fun facts (when the user asks for more):
 - (origin) Around 1994, Umberto Corteo introduced "Sicilian Grandma pizza" at his Long Island pizzerias; unlike typical thick-crusted Sicilian pizza, his Grandma Sicilian pizza had a thinner crust, though not as thin as Neapolitan.
 - (history) PMQ Pizza Magazine reports that the style did not become popular in restaurants until the mid- to late 1990s.
 - (inspiration) Grandma pizza is named after grandmother.
+- (origin) Grandma pizza comes from the United States.
 - (about) By the late 2000s and early 2010s, the name caught on and numerous pizzerias began to offer the pie.
 - (about) Rosengarten visited two pizzerias on Manhattan's Upper East Side in 2013 and heard different accounts of how the pie arrived there.
-- (origin) Grandma pizza comes from United States.
 
 Learn more:
 
@@ -2425,7 +2415,7 @@ Grape pie is a type of fruit pie made from Concord grape and is part of harvest 
 Fun facts:
 
 - (culture) Grape pie is particularly sought after at the Naples Grape Festival, and the Geneva Grape Jamboree, and can be found at various shops around town.
-- (origin) Grape pie comes from United States.
+- (origin) Grape pie comes from the United States.
 
 Learn more:
 
@@ -2443,6 +2433,7 @@ A grilled cheese, toasted cheese sandwich, cheese toastie (UK), cheese jaffle (N
 
 Fun facts:
 
+- (history) The 1861 English recipe book Mrs. Beeton's Book of Household Management includes a recipe for placing sandwiches of brown bread and butter with 1⁄2-inch (13 mm) slices of "a nice fat Cheshire or any good rich cheese" into an oven, and serving when the bread becomes toasted.
 - (about) The cheese dream, an open-faced grilled cheese sandwich (a close variation of cheese on toast), became popular in the United States during the Great Depression.
 
 Learn more:
@@ -2476,7 +2467,7 @@ More fun facts (when the user asks for more):
 - (origin) A similar bill was introduced in South Carolina to name it the official state food, but it did not advance.
 - (culture) Traditionally, grits were either yellow or white, depending on the color of the maize used.
 - (history) In the 2010s, companies began re-introducing ancient colored corn grits.
-- (origin) Grits comes from United States.
+- (origin) Grits comes from the United States.
 - (about) Not to be confused with GRITS.
 
 Learn more:
@@ -2499,8 +2490,8 @@ Hangtown fry is a type of omelette made famous during the California Gold Rush i
 Fun facts:
 
 - (about) Hangtown fry was invented in Placerville, California, then known as Hangtown.
+- (origin) Hangtown fry comes from the United States.
 - (history) Three versions are included in Booth Seafood Co.'s compendium of James Beard's 1954 seafood cookbook.
-- (origin) Hangtown fry comes from United States.
 
 More fun facts (when the user asks for more):
 
@@ -2527,7 +2518,7 @@ Fun facts:
 
 - (history) The happy cake was invented at Kemo'o Farms Restaurant in Wahiawa, Hawaii in 1967 by Dick Rodby, owner of the restaurant famous for live Hawaiian music.
 - (about) Cakes were ordered from all over the country as gifts and were popular in Hawaiian themed parties.
-- (origin) Happy cake comes from United States.
+- (origin) Happy cake comes from the United States.
 
 Learn more:
 
@@ -2549,7 +2540,7 @@ Fun facts:
 
 - (history) Hash browns first started appearing on breakfast menus in New York City in the 1890s.
 - (about) Hash browns are a popular mass-produced product sold in refrigerated, frozen and dehydrated forms.
-- (origin) Hash browns comes from United States.
+- (origin) Hash browns comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -2626,15 +2617,15 @@ Fun facts:
 
 - (history) From that, he (Howard) added honey to the ingredients, and eventually developed the first commercial honey bun." They eventually sold to Flowers Foods in 1983.
 - (culture) The 2023 festival broke the Guinness World Record for most people eating honey buns at the same time with 777 people.
-- (about) In the state of Florida, 270,000 are sold per month as of 2010.
+- (about) Referring to the case, a public defender was quoted as saying, "In here, a honey bun is like a million dollars." In February 2026, a jail officer in Morgan County, Alabama was charged with seven felony extortion charges related to taking honey buns from inmates.
 
 More fun facts (when the user asks for more):
 
-- (history) These became so popular that in 1926, Griffin sold his restaurant and opened a home bakery service in Greensboro, North Carolina to sell small fried pies to local restaurants.
 - (history) Louis' brother Howard Griffin reportedly developed the honey bun in Greensboro, NC in 1954, and it became a signature product.
-- (about) Referring to the case, a public defender was quoted as saying, "In here, a honey bun is like a million dollars." In February 2026, a jail officer in Morgan County, Alabama was charged with seven felony extortion charges related to taking honey buns from inmates.
 - (culture) Flower Foods' London, KY bakery, which can produce almost 60,000 honey buns an hour or about 10 million honey buns per week, has sponsored an annual Honey Bun Day since 2021, which is celebrated on October 19.
-- (origin) Honey bun comes from United States.
+- (origin) Honey bun comes from the United States.
+- (history) These became so popular that in 1926, Griffin sold his restaurant and opened a home bakery service in Greensboro, North Carolina to sell small fried pies to local restaurants.
+- (about) In the state of Florida, 270,000 are sold per month as of 2010.
 
 Learn more:
 
@@ -2646,7 +2637,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q17116108) (CC0); [Wikipedia: 
 
 ### Hot Brown
 
-A Hot Brown sandwich (sometimes known as a Louisville Hot Brown or Kentucky Hot Brown) is an American hot sandwich originally created at the Brown Hotel in Louisville, Kentucky, by Fred K.
+A Hot Brown sandwich (sometimes known as a Louisville Hot Brown or Kentucky Hot Brown) is an American hot sandwich originally created at the Brown Hotel in Louisville, Kentucky, by Fred K. Schmidt in 1926.
 
 - From: United States
 - Origin (Wikidata): United States
@@ -2655,7 +2646,7 @@ A Hot Brown sandwich (sometimes known as a Louisville Hot Brown or Kentucky Hot 
 Fun facts:
 
 - (inspiration) Hot Brown is a variation of traditional Welsh rarebit and was one of two signature sandwiches created by chefs at the Brown Hotel shortly after its founding in 1923.
-- (origin) Hot Brown comes from United States.
+- (origin) Hot Brown comes from the United States.
 
 Learn more:
 
@@ -2677,20 +2668,19 @@ Fun facts:
 
 - (origin) The dish may have been introduced as early as the 1930s; however, the current style of spice paste may only date back to the mid-1970s.
 - (culture) Many restaurants in Nashville serve a variant of the dish; a citywide festival and competition celebrate it.
-- (history) She has operated the restaurant since 1980; before that time, it was owned by her great-uncle, Thornton Prince III.
+- (history) Thornton decided he liked it so much that, by the mid-1930s, he and his brothers had created their own recipe and opened the BBQ Chicken Shack café.
 
 More fun facts (when the user asks for more):
 
-- (origin) This method of preparation originates within African American communities in the Southern United States.
 - (origin) It is generally accepted that the originator of hot chicken is the family of André Prince Jeffries, owner of Prince's Hot Chicken Shack.
-- (history) Instead, Thornton decided he liked it so much that, by the mid-1930s, he and his brothers had created their own recipe and opened the BBQ Chicken Shack café.
 - (culture) Former mayor of Nashville Bill Purcell is a devoted fan, sponsoring the Music City Hot Chicken Festival and giving numerous interviews touting the dish.
 - (about) The popularity of hot chicken has spread beyond the Southern United States due to the influence of Nashville's music industry.
 - (about) As of 2015, there are an estimated two dozen restaurants in the Nashville area that serve hot chicken, either as the focus or as part of a larger menu.
 - (about) Between 2001 and about 2006, country music stars Lorrie Morgan and Sammy Kershaw owned and operated a now-defunct hot chicken restaurant called "hotchickens.com".
 - (about) Reflecting the growing popularity of the dish, many cities in the United States host restaurants that serve hot chicken or a variation thereof, including Atlanta, New York City, Philadelphia, Chicago, Los Angeles, Birmingham, Louisville, Ann Arbor, Columbus, Salt Lake City, and Seattle.
 - (about) In January 2016, fast food chain KFC began selling "Nashville Hot Chicken" and "Nashville Hot Tenders" in its U.S. restaurants.
-- (origin) Hot chicken comes from United States.
+- (origin) Hot chicken comes from the United States.
+- (origin) This method of preparation originates within African American communities in the Southern United States.
 
 Learn more:
 
@@ -2712,13 +2702,13 @@ Fun facts:
 
 - (culture) Hot milk cake has been served every year since 1991 at the Anne Arundel County Historical Society's annual Strawberry Festival at Thurgood Marshall International Airport.
 - (history) A simple recipe from 1911 is made with sugar, eggs, flour, salt, baking powder and hot milk, with optional ingredients of chocolate, nuts or coconut.
-- (origin) Hot milk cake comes from United States.
+- (origin) Hot milk cake comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) A recipe from Ruth Ellen Church, a former food editor for the Chicago Tribune (who sometimes wrote under the pen name Mary Meade) was published in 1955.
 - (culture) It differs from traditional sponge cakes, such as angel food cake or genoise, in that it contains baking powder as leavening instead of just egg whites, so it can be made with butter like a Victoria sponge.
 - (history) Compared to a typical butter cake, a hot milk cake uses fewer expensive ingredients, so it became popular during the Great Depression and among people coping with the restrictions of rationing during World War II.
+- (history) A recipe from Ruth Ellen Church, a former food editor for the Chicago Tribune (who sometimes wrote under the pen name Mary Meade) was published in 1955.
 
 Learn more:
 
@@ -2761,7 +2751,7 @@ Fun facts:
 
 - (history) While the printed term "hushpuppy" did not gain widespread usage until the 20th century, the dish's documented origins trace directly to Romeo Govan (c. 1845 - 1915), an African American caterer and cook born into enslavement in South Carolina.
 - (culture) Hushpuppies are traditionally served as a staple side dish for fried seafood, Southern pit barbecue, and riverbank fish fries.
-- (about) Popular folklore attributes the name to hunters, fishers, or cooks tossing fried batter scraps to barking dogs to "hush the puppies."
+- (origin) Hushpuppy comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -2769,7 +2759,7 @@ More fun facts (when the user asks for more):
 - (history) In the 1870s, Govan established a popular catering venue known locally as his "club house," hosting expansive fish fries for local and visiting diners, including prominent state politicians and sportsmen.
 - (history) Historical newspaper accounts from the era, such as a 1903 profile in the Augusta Chronicle, regularly credited Govan with creating and popularizing this "once eaten, never-to-be-forgotten" bread, describing his recipe as a mixture of cornmeal, water, salt, and egg dropped by spoonful into boiling lard.
 - (history) Following Govan's death in 1915, Red Horse Bread remained a standard accompaniment for fried fish suppers throughout South Carolina.
-- (origin) Hushpuppy comes from United States.
+- (about) Popular folklore attributes the name to hunters, fishers, or cooks tossing fried batter scraps to barking dogs to "hush the puppies."
 
 Learn more:
 
@@ -2801,7 +2791,7 @@ More fun facts (when the user asks for more):
 - (inspiration) Italian hot dog is named after Italy.
 - (about) The hot dog was so popular amongst Jimmy's close friends inside and outside of the card table and relatives that Jimmy and his family had made the restaurant known as Jimmy Buff's.
 - (about) Even to this day over 80 years later the Italian hot dog along with its contemporary the Italian sausage is still widely popular at Jimmy Buff's and even take turns outselling each other.
-- (origin) Italian hot dog comes from United States.
+- (origin) Italian hot dog comes from the United States.
 
 Learn more:
 
@@ -2821,18 +2811,18 @@ Jell-O (stylized in all caps) is an American brand offering a variety of powdere
 
 Fun facts:
 
-- (history) The dessert was especially popular in the first half of the 20th century.
+- (history) Jell-O is mentioned in the 1936 popular song "A Fine Romance" by Dorothy Fields (with music by Jerome Kern), where it is humorously referred to as a mundane alternative to the excitement of romantic love.
 - (about) Gelatin was popularized in New York in the Victorian era with spectacular and complex jelly molds.
-- (origin) Jell-O comes from United States.
+- (origin) Jell-O comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1845, a patent for powdered gelatin was obtained by industrialist Peter Cooper, who built the first American steam-powered locomotive, the Tom Thumb.
-- (history) In 1992, Ivette Bassa won the second ever Ig Nobel Prize in chemistry for inventing blue Jell-O.
-- (history) He and his wife May had made the product by adding strawberry, raspberry, orange, and lemon flavoring to sugar and granulated gelatin (which had been patented in 1845).
-- (history) Gelatin, a protein produced from collagen extracted from boiled bones, connective tissues, and other animal products, has been a component of food, particularly desserts, since the 15th century.
-- (history) Jell-O is mentioned in the 1936 popular song "A Fine Romance" by Dorothy Fields (with music by Jerome Kern), where it is humorously referred to as a mundane alternative to the excitement of romantic love.
 - (history) In 1980, the American composer William Bolcom wrote a popular humorous song about Jell-O, "Lime Jello Marshmallow Cottage Cheese Surprise", satirising its use in combined sweet and savory dishes such as Jello salad.
+- (history) The dessert was especially popular in the first half of the 20th century.
+- (history) The original gelatin dessert began in Le Roy, New York, in 1897, when Pearle Bixby Wait registered a trademark for the name Jell-O. He and his wife May had made the product by adding strawberry, raspberry, orange, and lemon flavoring to sugar and granulated gelatin (which had been patented in 1845).
+- (history) In 1845, a patent for powdered gelatin was obtained by industrialist Peter Cooper, who built the first American steam-powered locomotive, the Tom Thumb.
+- (history) In 1992, Ivette Bassa won the second ever Ig Nobel Prize in chemistry for inventing blue Jell-O. The rock group Green Jellÿ was originally named Green Jellö, but had to change their name due to a lawsuit by Kraft Foods which claimed that the band was infringing the trademark for Jell-O.
+- (history) Gelatin, a protein produced from collagen extracted from boiled bones, connective tissues, and other animal products, has been a component of food, particularly desserts, since the 15th century.
 
 Learn more:
 
@@ -2854,8 +2844,8 @@ The jibarito is a sandwich originating from Chicago’s Puerto Rican community.
 Fun facts:
 
 - (origin) Chicago restaurateur Juan "Peter" Figueroa introduced the jibarito at Borinquen Restaurant, a Puerto Rican restaurant in the Humboldt Park neighborhood, in 1996.
-- (inspiration) The twice-fried plantain chip used as the base of the sandwich is inspired by Venezuelan patacones, also known in Puerto Rico as tostones.
 - (about) The sandwich's popularity soon spread to other Latin American restaurants around Chicago, including Mexican, Cuban and Argentinian establishments, and jibaritos now can be found in some mainstream restaurants as well.
+- (inspiration) The twice-fried plantain chip used as the base of the sandwich is inspired by Venezuelan patacones, also known in Puerto Rico as tostones.
 
 More fun facts (when the user asks for more):
 
@@ -2879,7 +2869,7 @@ Joe's Special is a dish that originated in San Francisco.
 Fun facts:
 
 - (about) Although the dish has been served for decades at many restaurants throughout the San Francisco Bay Area including several with "Joe's" as part of their names, it was popularized by Original Joe's, a restaurant in San Francisco's Tenderloin District.
-- (origin) Joe's Special comes from United States.
+- (origin) Joe's Special comes from the United States.
 - (about) When Original Joe's relocated to the North Beach neighborhood following a fire, San Francisco mayor Ed Lee issued a proclamation calling the Joe's Special "famous".
 
 Learn more:
@@ -2923,19 +2913,19 @@ A Jucy Lucy (or Juicy Lucy) is a stuffed cheeseburger with the cheese inside of 
 Fun facts:
 
 - (inspiration) Another version is that the burger was invented by a customer in 1954 who remarked "Oooh, that's one juicy lucy!" after biting into it.
-- (about) Two bars in Minneapolis claim to have invented the burger, while other local bars and restaurants have created their own interpretations of the style.
 - (history) One account claims it preceded his purchase of the bar in the 1950s, but that Bristol formally added it to the menu and thus popularized it.
+- (origin) Jucy Lucy was first made by Matt's Bar.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) The 5-8 Club does not provide a particular origin story, but the bar itself was originally a speakeasy dating to the 1920s.
-- (about) Two bars about three miles (5 km) from each other on Cedar Avenue in South Minneapolis both claim to have invented the burger: Matt's Bar and the 5-8 Club.
-- (origin) Jucy Lucy was first made by Matt's Bar.
 - (about) Jucy Lucy is a popular, regional dish in Minnesota, particularly in the Twin Cities of Minneapolis and Saint Paul.
-- (about) The rivalry between both bars and their interpretations is longstanding, but has gained more exposure since receiving a mention in Time in 2008 and being featured on food-related television shows such as Man v.
 - (about) In 2014, President Barack Obama visited Matt's and had a Jucy Lucy, prompting the 5-8 Club to offer him one of theirs.
-- (about) In 2018, the editors of Thrillist wrote that "The Jucy Lucy is... an important milestone in the evolution of hamburgers themselves, leading the charge for industrious chefs (and more than a few infomercial entrepreneurs) to begin stuffing their burgers."
-- (origin) Jucy Lucy comes from United States.
+- (about) In 2018, the editors of Thrillist wrote that "The Jucy Lucy is.. an important milestone in the evolution of hamburgers themselves, leading the charge for industrious chefs (and more than a few infomercial entrepreneurs) to begin stuffing their burgers."
+- (origin) Jucy Lucy comes from the United States.
+- (about) Two bars in Minneapolis claim to have invented the burger, while other local bars and restaurants have created their own interpretations of the style.
+- (about) Two bars about three miles (5 km) from each other on Cedar Avenue in South Minneapolis both claim to have invented the burger: Matt's Bar and the 5-8 Club.
+- (about) The rivalry between both bars and their interpretations is longstanding, but has gained more exposure since receiving a mention in Time in 2008 and being featured on food-related television shows such as Man v.
 
 Learn more:
 
@@ -2963,14 +2953,14 @@ More fun facts (when the user asks for more):
 
 - (history) An "icebox lime pie", was mentioned as a specialty of the Florida Keys in 1935. and a recipe under the name "Key Lime Pie" was published in 1940.
 - (history) Various accounts claim that it was known earlier, but none were recorded before 1933.
-- (inspiration) But there is no evidence for this, and the oldest version of this story dates to only 1995, in promotional materials for a Bed and Breakfast in Curry's former house.
 - (inspiration) Key lime pie is named after the small Key limes, which are more aromatic than the common Persian limes, and which have yellow juice.
 - (history) Key lime pie is probably derived from the "Magic Lemon Cream Pie" published in a promotional brochure by Borden, a producer of condensed milk, in 1931.
 - (history) A "Tropical Lime Chiffon Pie", using condensed milk and egg yolks was documented in a 1933 Miami newspaper article.
 - (history) A 1927 Key West Women's Club cookbook does not mention the recipe.
 - (history) A 1926 restaurant menu includes "lime pie", but it is unclear what it was.
+- (inspiration) But there is no evidence for this, and the oldest version of this story dates to only 1995, in promotional materials for a Bed and Breakfast in Curry's former house.
 - (culture) According to the pastry chef Stella Parks, users of the recipe altered it with local ingredients; she describes it as "a stunning reminder of how deeply America's traditions are shaped by advertising".
-- (origin) Key lime pie comes from United States.
+- (origin) Key lime pie comes from the United States.
 
 Learn more:
 
@@ -2996,7 +2986,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Klobásník comes from United States.
+- (origin) Klobásník comes from the United States.
 
 Learn more:
 
@@ -3016,18 +3006,17 @@ Korean tacos are a Korean-Mexican fusion dish popular in a number of urban areas
 Fun facts:
 
 - (origin) Korean tacos originated in Los Angeles, often as street food, consisting of Korean-style fillings, such as bulgogi and kimchi, placed on top of small traditional Mexican corn tortillas.
-- (about) In its first year of operation, Kogi generated an estimated $2 million of revenue.
 - (about) Korean taco was the first time a food truck chef had been nominated for the award.
+- (about) Although various restaurants have occasionally served dishes they called Korean tacos, the popularity of the dish is generally traced to the use of Twitter by the proprietors of the Kogi Korean BBQ, a food truck in Los Angeles, California, to announce their schedule and itinerary.
 
 More fun facts (when the user asks for more):
 
-- (about) Although various restaurants have occasionally served dishes they called Korean tacos, the popularity of the dish is generally traced to the use of Twitter by the proprietors of the Kogi Korean BBQ, a food truck in Los Angeles, California, to announce their schedule and itinerary.
 - (about) In San Francisco the dish was popularized in 2009 by Namu Restaurant's Happy Belly food cart in Golden Gate Park, later moving to a farmers market food stand at the San Francisco Ferry Building.
 - (about) The dish's popularity led mainstream fast food chain Baja Fresh to test market Korean tacos as a menu item in California, with plans to introduce the dish to hundreds of locations nationwide.
-- (about) In 2011, David Choi founded Seoul Taco as a food truck in St.
-- (about) Louis, and expanded the business to nine locations in Chicago and Missouri by 2023.
-- (about) In April 2010, Food & Wine magazine named Roy Choi, the chef of the original Kogi's, one of its annual "Best New Chefs".
+- (about) In 2011, David Choi founded Seoul Taco as a food truck in St. Louis, and expanded the business to nine locations in Chicago and Missouri by 2023.
 - (origin) Korean taco comes from Mexico.
+- (about) In its first year of operation, Kogi generated an estimated $2 million of revenue.
+- (about) In April 2010, Food & Wine magazine named Roy Choi, the chef of the original Kogi's, one of its annual "Best New Chefs".
 
 Learn more:
 
@@ -3047,7 +3036,7 @@ Kūlolo is a Hawaiian dish made with taro and coconut.
 Fun facts:
 
 - (history) Kūlolo is a well-beloved dish well documented by many non-Hawaiians since the late 1800s, sometimes found during festive occasions like lūʻau.
-- (origin) Kūlolo comes from United States.
+- (origin) Kūlolo comes from the United States.
 
 Learn more:
 
@@ -3069,13 +3058,12 @@ Fun facts:
 
 - (history) The first recorded mentions of a cake with the name of "Lady Baltimore" began appearing in 1906, with several newspaper articles referring to it as the "famous" or "original" cake.
 - (inspiration) The most popular legend of the Lady Baltimore is that Alicia Rhett Mayberry, a Southern belle, baked and served the cake to novelist Owen Wister in Charleston, South Carolina.
-- (about) I returned to the table and I had my first felicitous meeting with Lady Baltimore.
+- (about) The Ottolenguis are said to have annually baked and shipped a cake to Owen Wister as a "thanks" for making their creation famous, and were known to ship hundreds of cakes around the country at Christmastime.
 
 More fun facts (when the user asks for more):
 
 - (history) The cake is believed to have been created in the Southern United States in the early 20th century, but its exact origins are disputed.
-- (about) The Ottolenguis are said to have annually baked and shipped a cake to Owen Wister as a "thanks" for making their creation famous, and were known to ship hundreds of cakes around the country at Christmastime.
-- (origin) Lady Baltimore cake comes from United States.
+- (origin) Lady Baltimore cake comes from the United States.
 
 Learn more:
 
@@ -3114,8 +3102,8 @@ Lemon ice box pie is an icebox pie consisting of lemon juice, eggs, and condense
 Fun facts:
 
 - (history) No-bake icebox pies like the lemon icebox pie first became features of American cuisine in the 1930s, becoming more popular in the 1950s and 1960s as refrigerators became a standard item of the American kitchen.
+- (origin) Lemon ice box pie comes from the United States.
 - (culture) They are associated with the food traditions of the cuisine of the Southern United States.
-- (origin) Lemon ice box pie comes from United States.
 
 More fun facts (when the user asks for more):
 
@@ -3147,10 +3135,10 @@ More fun facts (when the user asks for more):
 - (about) The popularity of lemon pepper wings in the mid-2000s has been attributed to their being less likely to dirty clothes than buffalo wings, making them preferred by rappers who commonly wore white t-shirts at the time.
 - (about) Future Atlanta mayor Keisha Lance Bottoms commented that "Lemon pepper wings are Atlanta" in 2017.
 - (about) The 2 Chainz song "Hot Wings" (2018) includes the verse "She just want her 20-piece/ All flats with the lemon pepper".
-- (about) They are mentioned in the Drake song "Lemon Pepper Freestyle" (2021) featuring Rick Ross.
 - (about) The scene went viral on social media and popularized the dish online.
 - (inspiration) The "lemon pepper wet" depicted in the show was actually inspired by a dish served at the American Deli, a different restaurant in Atlanta.
-- (inspiration) Crickets added "lemon pepper wet" to the menu in honor of the show.
+- (inspiration) In 2017, J.R. Crickets added "lemon pepper wet" to the menu in honor of the show.
+- (about) They are mentioned in the Drake song "Lemon Pepper Freestyle" (2021) featuring Rick Ross.
 
 Learn more:
 
@@ -3190,12 +3178,12 @@ Fun facts:
 
 - (origin) Livermush has been suggested that livermush derives from scrapple, and likely originated from German settlers who traveled south through the Appalachian Mountains in the 1700s.
 - (history) In the 1930s and 1940s, a five-pound portion of livermush cost around 10 cents.
-- (inspiration) Several festivals exist in North Carolina that are dedicated to the food.
+- (about) Livermush became popular in factory towns, where workers needed affordable, premade food.
 
 More fun facts (when the user asks for more):
 
-- (about) Livermush became popular in factory towns, where workers needed affordable, premade food.
-- (origin) Livermush comes from United States.
+- (origin) Livermush comes from the United States.
+- (inspiration) Several festivals exist in North Carolina that are dedicated to the food.
 
 Learn more:
 
@@ -3216,17 +3204,16 @@ Lobster Newberg (also spelled lobster Newburg or lobster Newburgh) is an America
 Fun facts:
 
 - (inspiration) A modern legend with no primary or early sources states that the dish was invented by Ben Wenberg, a sea captain in the fruit trade.
-- (history) He was said to have demonstrated the dish at Delmonico's Restaurant in New York City to the manager, Charles Delmonico, in 1876.
-- (about) No clear process of invention took place.
+- (about) After refinements by the chef, Charles Ranhofer, the creation was added to the restaurant's menu as Lobster à la Wenberg and it soon became very popular.
+- (origin) Lobster Newberg comes from the United States.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) The legend says that an argument between Wenberg and Charles Delmonico caused the dish to be removed from the menu, but patrons continued to request it, so the name was rendered in anagram as Lobster à la Newberg or Lobster Newberg.
-- (inspiration) However, according to culinary historian Jan Whitaker lobster Newberg is merely the addition of lobster to a French-inspired sauce of a type already common in 1870s American cuisine.
-- (about) After refinements by the chef, Charles Ranhofer, the creation was added to the restaurant's menu as Lobster à la Wenberg and it soon became very popular.
+- (inspiration) According to culinary historian Jan Whitaker lobster Newberg is merely the addition of lobster to a French-inspired sauce of a type already common in 1870s American cuisine.
 - (about) Early mentions of the dish in American periodicals spell it both "Newberg" and "Newburg," without referring to any specific person or location for which it had been named.
 - (about) Among the many surviving Delmonico's menus from the late nineteenth century, none include a dish described as "Lobster Wenberg." It is still quite popular and is found in French cookbooks.
-- (origin) Lobster Newberg comes from United States.
+- (about) No clear process of invention took place.
 
 Learn more:
 
@@ -3247,16 +3234,15 @@ Loco moco is a dish featured in contemporary Hawaiian cuisine.
 Fun facts:
 
 - (history) Loco moco was reportedly created at the Lincoln Grill restaurant in Hilo, Hawaiʻi, in 1949 by its proprietors, Richard and Nancy Inouye.
-- (about) The first is that the dish was made to cater to teenagers from the Lincoln Wreckers Sports club who wanted a dish that was inexpensive, different from a sandwich, and quick to prepare and serve.
 - (culture) Traditionally, loco moco consists of white rice, topped with a hamburger patty and brown gravy, and a sunny-side-up fried egg.
+- (about) The teenagers named the dish "Loco Moco" after one of their members, George Okimoto, whose nickname was "Crazy" because of his crazy antics.
 
 More fun facts (when the user asks for more):
 
 - (history) In 1983, it sold for around $1 to $1.75.
 - (culture) Modern (non-traditional) presentations of the dish may include other toppings and side dishes such as grilled onions, pickled vegetables, macaroni, or potato salad.
-- (about) The teenagers named the dish "Loco Moco" after one of their members, George Okimoto, whose nickname was "Crazy" because of his crazy antics.
 - (about) In 2015, a loco moco special was priced at around $16.
-- (origin) Loco moco comes from United States.
+- (origin) Loco moco comes from the United States.
 
 Learn more:
 
@@ -3275,21 +3261,20 @@ Lomi-lomi salmon (or lomi salmon) is a side dish in Hawaiian cuisine containing 
 
 Fun facts:
 
-- (history) Following the formation of a constitutional monarchy in Hawaii, the first tariff act took effect on January 1, 1843.
-- (origin) In the 1790s, Spanish horticulturist Francisco de Paula Marin brought tomatoes to the Hawaiian Islands.
-- (about) He was the first to successfully cultivate and raise tomatoes.
+- (history) The Northwest was exporting 3,000 to 4,000 barrels of salted salmon, mainly to Hawaii and Asia by 1835.
+- (culture) Lomi-lomi salmon is seen today as a quintessential side dish when serving traditional Hawaiian foods or at traditional lū‘au festivities.
+- (about) Lomi-lomi salmon is appropriate that dish should be known popularly by its hapa name "lomi salmon" rather than "lomi kāmano".
 
 More fun facts (when the user asks for more):
 
+- (history) Following the formation of a constitutional monarchy in Hawaii, the first tariff act took effect on January 1, 1843.
+- (about) A similar dish called lomi ʻōpae uses dried shrimp in place of salted salmon and was made popular by singer Henry Kapono.
+- (origin) Since fresh salmon would not last the journey, these laborers introduced salted salmon, which immediately became popular.
 - (history) When Captain James Cook arrived in 1778, he brought along with him the concept of preserved fish and meat—such as salted cod and corned beef—common rations of foreign navies, whalers, and traders.
+- (origin) In the 1790s, Spanish horticulturist Francisco de Paula Marin brought tomatoes to the Hawaiian Islands.
 - (history) By 1840, around 300 to 400 native Hawaiian laborers were sent to the Northwest in vessels and at ports.
 - (history) Similarly, the Portuguese starting in the late 1800s brought with them bacalhau, a Portuguese salted cod.
-- (history) The Northwest was exporting 3,000 to 4,000 barrels of salted salmon, mainly to Hawaii and Asia by 1835.
-- (culture) However, it is seen today as a quintessential side dish when serving traditional Hawaiian foods or at traditional lū‘au festivities.
-- (about) Lomi-lomi salmon is appropriate that dish should be known popularly by its hapa name "lomi salmon" rather than "lomi kāmano".
-- (about) A similar dish called lomi ʻōpae uses dried shrimp in place of salted salmon and was made popular by singer Henry Kapono.
 - (about) De Paula Marin further popularized the planting of onions.
-- (origin) Since fresh salmon would not last the journey, these laborers introduced salted salmon, which immediately became popular.
 
 Learn more:
 
@@ -3309,7 +3294,7 @@ Lox is a fillet of brined salmon, which may be smoked.
 
 Fun facts:
 
-- (origin) Lox comes from United States.
+- (origin) Lox comes from the United States.
 - (about) Not to be confused with smoked salmon.
 
 Learn more:
@@ -3365,7 +3350,7 @@ More fun facts (when the user asks for more):
 
 - (inspiration) M&M's is named after Forrest Mars.
 - (history) M&M's dates from 1941-.
-- (origin) M&M's comes from United States.
+- (origin) M&M's comes from the United States.
 
 Learn more:
 
@@ -3406,7 +3391,7 @@ Maryland crab soup is made with lump Maryland crab meat, tomatoes, corn, potato,
 
 Fun facts:
 
-- (origin) Maryland crab soup comes from United States.
+- (origin) Maryland crab soup comes from the United States.
 
 Learn more:
 
@@ -3428,7 +3413,7 @@ Fun facts:
 
 - (inspiration) This sandwich is widely said to have been created by Jimmy Stefanovic, a Macedonian immigrant who took over his aunt and uncle's hot dog stand in 1939 (now called Jim's Original) located at Maxwell and Halsted in Chicago's old Maxwell Street market district.
 - (about) Despite the competition, the Maxwell Polish sausage sandwich soon grew to be one of Chicago's most popular local offerings, along with the Chicago-style hot dog and the Italian beef sandwich.
-- (origin) Maxwell Street Polish comes from United States.
+- (origin) Maxwell Street Polish comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -3454,9 +3439,8 @@ A melt sandwich is a type of hot sandwich containing a suitable meltable cheese 
 
 Fun facts:
 
-- (culture) Both patty melts and tuna melts are staples of the traditional American diner; patty melts were commonly found on menus by the 1940s.
 - (about) Other popular choices are ham, roast beef, chicken, turkey, or a ground beef patty (for a patty melt).
-- (origin) Melt sandwich comes from United States.
+- (origin) Melt sandwich comes from the United States.
 
 Learn more:
 
@@ -3485,7 +3469,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) According to Press-Republican columnist Gordie Little, a newspaper advertisement for the Otis's Michigans appeared in 1927.
-- (origin) Michigan hot dog comes from United States.
+- (origin) Michigan hot dog comes from the United States.
 
 Learn more:
 
@@ -3504,7 +3488,7 @@ A Michigan salad is a type of green salad popular at restaurants in the Detroit 
 
 Fun facts:
 
-- (origin) Michigan salad comes from United States.
+- (origin) Michigan salad comes from the United States.
 
 Learn more:
 
@@ -3531,12 +3515,12 @@ More fun facts (when the user asks for more):
 - (history) If the claims of the owner of "El Faro" are true, the first San Francisco burrito was sold September 26, 1961 to a group of San Francisco firefighters, using two 6-inch tortillas in place of what later became the large single tortilla.
 - (history) But while the Mexican-American burrito began as a wider regional phenomenon, most would agree that the Mission burrito emerged as a recognizable and distinct local culinary movement during the 1970s and 1980s.
 - (history) It precedes the California burrito, which was developed around the 1980s in San Diego and contains carne asada, cheese and French-fried potatoes.
-- (history) Since its commercial availability began in the 1960s, the style has spread widely throughout the United States and Canada.
 - (history) Long-time residents of the Mission District trace the origins of the Mission burrito back to the 1960s.
 - (history) The creation of the style is credited to Raul and Micaela Duran who sold burritos from their meat market, which they converted into La Cumbre Taqueria in 1972.
-- (history) They date the birth of the San Francisco burrito to September 29, 1969.
-- (history) One restaurant consultant remembered his teen years in the fields in the 1960s this way: Freezing cold five AM mornings, the best time to pick lettuce, owners needed a very good cook to attract the best fast crews.
 - (history) Other burrito researchers trace the burrito's ancestry even further back to miners of the 19th century.
+- (history) They date the birth of the San Francisco burrito to September 29, 1969.
+- (history) Since its commercial availability began in the 1960s, the style has spread widely throughout the United States and Canada.
+- (history) One restaurant consultant remembered his teen years in the fields in the 1960s this way: Freezing cold five AM mornings, the best time to pick lettuce, owners needed a very good cook to attract the best fast crews.
 
 Learn more:
 
@@ -3557,13 +3541,13 @@ Mississippi mud pie is a chocolate-based dessert pie that is likely to have orig
 Fun facts:
 
 - (inspiration) Another story says that Mississippi mud pie may also have originated from the Vicksburg-Natchez area near Jackson, Mississippi in the 1920s.
-- (history) Its earliest known reference in print is dated 1975.
+- (history) Mississippi mud pies may have begun in the 1970s as a variation on mud cake, a dessert which was popular in the American South during World War II.
 - (about) In this version, a woman named Jenny Meyer worked as a waitress in the Vicksburg area after having lost her home when the Mississippi River flooded.
 
 More fun facts (when the user asks for more):
 
-- (history) Mississippi mud pies may have begun in the 1970s as a variation on mud cake, a dessert which was popular in the American South during World War II.
-- (origin) Mississippi mud pie comes from United States.
+- (origin) Mississippi mud pie comes from the United States.
+- (history) Its earliest known reference in print is dated 1975.
 
 Learn more:
 
@@ -3617,7 +3601,7 @@ More fun facts (when the user asks for more):
 
 - (history) The expression muffin-man, meaning a street seller of muffins, is attested in a 1754 poem, which includes the line: "Hark! the shrill Muffin-Man his Carol plies."
 - (culture) While muffins are often sweetened, there are also savory varieties made with ingredients such as cornbread muffins and cheese muffins, and less sweet varieties such as traditional bran muffins.
-- (origin) Muffin comes from United States.
+- (origin) Muffin comes from the United States.
 - (about) Not to be confused with English muffin.
 
 Learn more:
@@ -3638,7 +3622,7 @@ The Natchitoches meat pie is a regional turnover from northern Louisiana, in the
 
 Fun facts:
 
-- (origin) Natchitoches meat pie comes from United States.
+- (origin) Natchitoches meat pie comes from the United States.
 
 Learn more:
 
@@ -3665,7 +3649,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Negimaki comes from Japan, United States.
+- (origin) Negimaki comes from Japan, the United States.
 
 Learn more:
 
@@ -3690,7 +3674,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) New Haven–style pizza comes from United States.
+- (origin) New Haven–style pizza comes from the United States.
 
 Learn more:
 
@@ -3734,17 +3718,17 @@ The New York–style bagel is the original style of bagel available in the Unite
 
 Fun facts:
 
-- (history) They have also grown over time, from about 3 ounces (85 g) in 1915 to 6 ounces (170 g) in 2003.
 - (culture) As Jewish refugees from Poland and Eastern Europe began to arrive in New York City en masse in the 1800s, they brought their traditional foods with them.
+- (history) Bagels became so popular among the Jewish community of New York, that unions were formed to represent bagel bakers in the city, such as Bagel Bakers Local 338, which by the early 1910s represented over 300 bagel craftsman in Manhattan.
 - (origin) New York–style bagels are the original bagel available in the United States, where it was popular as a filling, tasty, inexpensive treat for Jewish immigrants living in Manhattan in the 1800s.
 
 More fun facts (when the user asks for more):
 
-- (history) Bagels became so popular among the Jewish community of New York, that unions were formed to represent bagel bakers in the city, such as Bagel Bakers Local 338, which by the early 1910s represented over 300 bagel craftsman in Manhattan.
 - (history) Beginning in the 1960s, the popularity of the New York–style bagel began to increase with the non-Jewish population of New York City and beyond.
 - (culture) A traditional New York-style is typically larger and fatter than a mass-produced bagel, or a wood-fired Montreal-style bagel.
 - (about) For many decades, bagels were little known outside of the Jewish community, where their popularity was widespread.
-- (origin) New York–style bagel comes from United States.
+- (origin) New York–style bagel comes from the United States.
+- (history) They have also grown over time, from about 3 ounces (85 g) in 1915 to 6 ounces (170 g) in 2003.
 
 Learn more:
 
@@ -3765,18 +3749,18 @@ Fun facts:
 
 - (origin) This style evolved in the U.S. from the pizza that originated among Italian immigrants (and particularly Neapolitan immigrants) in New York City in the early 1900s, itself derived from the Neapolitan-style pizza made in Italy.
 - (history) The first pizzeria in the United States, Lombardi's, is said to have been founded by Gennaro Lombardi in New York City's Little Italy in 1905, although this has been challenged by author Peter Regas.
-- (culture) Traditional toppings are simply tomato sauce and shredded mozzarella cheese.
+- (about) Today, it is the dominant style eaten in the New York metropolitan area states of New York and New Jersey and is popular throughout the United States.
 
 More fun facts (when the user asks for more):
 
 - (history) An immigrant pizzaiolo ('pizza maker') from Naples, he opened a grocery store in 1897; eight years later, it was licensed to sell pizza by New York State.
-- (history) In 1924, Totonno left Lombardi's to open his own pizzeria on Coney Island, called Totonno's.
-- (about) This was a popular meal among poor Italian Americans due to its low cost.
-- (about) Today, it is the dominant style eaten in the New York metropolitan area states of New York and New Jersey and is popular throughout the United States.
-- (inspiration) Totonno's, Patsy's Pizzeria and John's Pizzeria inspired a renaissance in the growth of pizzerias such as Grimaldi's.
 - (about) By 2010, over 400 pizza restaurants existed in New York City, with hundreds more of varied cuisine also offering pizza.
-- (origin) New York–style pizza comes from United States.
+- (origin) New York–style pizza comes from the United States.
 - (about) Not to be confused with pizza in New York City.
+- (history) In 1924, Totonno left Lombardi's to open his own pizzeria on Coney Island, called Totonno's.
+- (culture) Traditional toppings are simply tomato sauce and shredded mozzarella cheese.
+- (about) This was a popular meal among poor Italian Americans due to its low cost.
+- (inspiration) Totonno's, Patsy's Pizzeria and John's Pizzeria inspired a renaissance in the growth of pizzerias such as Grimaldi's.
 
 Learn more:
 
@@ -3823,7 +3807,7 @@ More fun facts (when the user asks for more):
 
 - (origin) Another theory, proposed by the food writer Stella Parks, is that the name derives from the Greek Oreodaphne, a genus of the laurel family, originating from the Greek words 'oreo' meaning 'beautiful' and 'daphne' referring to the laurel.
 - (history) Oreo dates from 1912-.
-- (origin) Oreo comes from United States.
+- (origin) Oreo comes from the United States.
 
 Learn more:
 
@@ -3844,14 +3828,13 @@ Pasta primavera is an Italian-American dish that consists of pasta in a cream sa
 
 Fun facts:
 
-- (origin) The fame of pasta primavera traces back to Maccioni's New York City restaurant Le Cirque, where it first appeared as an unlisted special, before it was made famous through a 1977 article in The New York Times by Craig Claiborne and Pierre Franey, which included a recipe for the dish.
-- (history) In 1975, New York restaurateur Sirio Maccioni flew to the Canadian summer home of Italian Baron Carlo Amato, Shangri-La Ranch on Roberts Island, Nova Scotia.
 - (about) Chef Franco Brigandi claims to have invented it while the maitre at Il Gatto Pardo Ristorante in New York City and prepared it for Bob Lape on WABC-TV, before his dish was requested to be cooked by other culinary practitioners.
+- (history) The combination of lightly cooked vegetables and pasta, which Claiborne and Franey hailed as "by far, the most talked-about dish in Manhattan", is widely recognized as one of the signature developments of American cuisine in the 1970s.
+- (origin) Pasta primavera comes from Canada.
 
 More fun facts (when the user asks for more):
 
-- (history) The combination of lightly cooked vegetables and pasta, which Claiborne and Franey hailed as "by far, the most talked-about dish in Manhattan", is widely recognized as one of the signature developments of American cuisine in the 1970s.
-- (origin) Pasta primavera comes from Canada.
+- (history) In 1975, New York restaurateur Sirio Maccioni flew to the Canadian summer home of Italian Baron Carlo Amato, Shangri-La Ranch on Roberts Island, Nova Scotia.
 
 Learn more:
 
@@ -3879,9 +3862,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Pastrami on rye was created in 1888 by the Lithuanian immigrant Sussman Volk, who served it at his deli on Delancey Street in Manhattan.
-- (history) Sussman Volk emigrated from Lithuania in the late 1800s and opened a small butchershop on New York's Lower East Side.
 - (history) Pastrami on rye dates from 1888-.
-- (origin) Pastrami on rye comes from United States.
+- (origin) Pastrami on rye comes from the United States.
+- (history) Sussman Volk emigrated from Lithuania in the late 1800s and opened a small butchershop on New York's Lower East Side.
 
 Learn more:
 
@@ -3903,7 +3886,7 @@ A pastry heart is a regional dessert item found in the Western New York area, wi
 Fun facts:
 
 - (history) Pastry hearts were mentioned in local newspapers throughout the 1900s in department stores and grocery store advertisements.
-- (origin) Pastry heart comes from United States.
+- (origin) Pastry heart comes from the United States.
 
 Learn more:
 
@@ -3924,16 +3907,16 @@ A peanut butter and jelly sandwich (PB&J or PBJ) is a sandwich that consists of 
 Fun facts:
 
 - (history) The earliest recorded mention of a peanut butter and jelly sandwich appeared in 1901, suggesting it as a tea sandwich.
-- (culture) They held cultural value both in the mainstream and with new social movements, including the civil rights movement and the counterculture of the 1960s, where they were sometimes eaten at protests or music festivals.
 - (about) As with many sandwiches, the origin of the peanut butter and jelly sandwich is disputed, though it is understood to be an American-invented dish.
+- (origin) Peanut butter and jelly sandwich comes from the United States.
 
 More fun facts (when the user asks for more):
 
 - (history) The sandwich was ingrained in popular culture by the 1950s and 1960s.
-- (history) They were first prepared in the 1900s decade as a teahouse dish for wealthy Americans.
 - (history) The first published mention of the peanut butter and jelly sandwich appeared in an article by Julia Davis Chandler in a 1901 issue of the Boston Cooking School Magazine.
 - (history) Peanut butter and jelly sandwiches became a major dish in American cuisine beginning in the 1950s and 1960s.
 - (history) Concern about peanut allergies has eroded its prominence as a school meal in the 21st century.
+- (history) They were first prepared in the 1900s decade as a teahouse dish for wealthy Americans.
 - (about) This came five years after the first published mention of using peanut butter as a spread on slices of bread.
 - (history) By 1913, an article in The New York Times endorsed using peanut and jelly spreads in sandwiches for children's lunches in school.
 - (history) Peanut butter and jelly sandwiches became more popular by the 1930s as all three of their ingredients became more accessible through industrialization and preservation.
@@ -3941,7 +3924,7 @@ More fun facts (when the user asks for more):
 - (about) Peanut butter and jelly sandwich is known for its popularity among children in the United States and is considered a comfort food.
 - (about) Peanut butter and jelly sandwich was popularized in the United States after mass-production made peanut butter accessible.
 - (about) This led to a common image of the sandwich having been popularized by veterans when they returned home.
-- (origin) Peanut butter and jelly sandwich comes from United States.
+- (culture) They held cultural value both in the mainstream and with new social movements, including the civil rights movement and the counterculture of the 1960s, where they were sometimes eaten at protests or music festivals.
 - (about) Not to be confused with PB&J.
 
 Learn more:
@@ -3970,7 +3953,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Peanut butter cookie was not until the early 1930s that peanut butter was listed as an ingredient in the cookies.
-- (origin) Peanut butter cookie comes from United States.
+- (origin) Peanut butter cookie comes from the United States.
 
 Learn more:
 
@@ -3992,7 +3975,7 @@ Peanut pie is a pie that is part of the cuisine of the Southern United States, i
 Fun facts:
 
 - (about) First lady Rosalynn Carter was known for her peanut meringue pie.
-- (origin) Peanut pie comes from United States.
+- (origin) Peanut pie comes from the United States.
 
 Learn more:
 
@@ -4039,12 +4022,12 @@ More fun facts (when the user asks for more):
 
 - (history) Attempts to trace the dish's origin have not found any recipes dated earlier than a pecan custard pie recipe published in Harper's Bazaar in 1886.
 - (history) The 1929 congressional club cookbook has a recipe for the pie which used only eggs, milk, sugar and pecans.
-- (history) Well-known cookbooks such as Fannie Farmer and The Joy of Cooking did not include this dessert before 1940.
 - (history) The word pecan is a derivative from the early 18th century of an Algonquin word, pakani, referring to a nut.
 - (about) The makers of Karo syrup significantly contributed to popularizing the dish and many of the recipes for variants (caramel, cinnamon, Irish cream, peanut butter, etc.) of the classic pie.
 - (history) Sugar pies such as treacle tart were attested in medieval Europe, and adapted in North America to the ingredients available, resulting in such dishes as shoofly pie, sugar cream pie, butter tart and chess pie.
-- (origin) Pecan pie comes from United States.
+- (origin) Pecan pie comes from the United States.
 - (about) Not to be confused with Pecan Pie.
+- (history) Well-known cookbooks such as Fannie Farmer and The Joy of Cooking did not include this dessert before 1940.
 
 Learn more:
 
@@ -4065,13 +4048,13 @@ A pepper and egg sandwich is a sandwich made with grilled bell peppers and scram
 Fun facts:
 
 - (inspiration) The sandwich is believed to have been originally created by Italian immigrants to Chicago in the late 19th or early 20th century.
-- (history) Prior to the 1966 introduction of revised fasting requirements by Pope Paul VI in Paenitemini, Catholics were not allowed to eat meat on Fridays.
 - (about) Pepper and egg sandwich is a popular staple on Fridays during Lent among Catholic Italian-Americans, particularly in Chicago, Illinois.
+- (origin) Pepper and egg sandwich comes from the United States.
 
 More fun facts (when the user asks for more):
 
 - (about) Chicago's large Catholic population led to the popularization of the sandwich as restaurants wanted to find a way to keep customers coming in on Fridays without needing to serve fish.
-- (origin) Pepper and egg sandwich comes from United States.
+- (history) Prior to the 1966 introduction of revised fasting requirements by Pope Paul VI in Paenitemini, Catholics were not allowed to eat meat on Fridays.
 
 Learn more:
 
@@ -4090,20 +4073,20 @@ Pepper pot soup is a thick stew of beef tripe, vegetables, pepper and other seas
 
 Fun facts:
 
-- (inspiration) According to this story, during the harsh winter of 1777–1778, farmers near Valley Forge sold food to the British rather than accepting the weak continental currency.
+- (inspiration) The origins of the stew are steeped in legend, with one story attributing the dish to Christopher Ludwick, baker general of the Continental Army during the American Revolutionary War.
 - (origin) The soup was first made in South America and the Caribbean before being brought to North America through slave trade and made into a distinctively Philadelphian dish by colonial Black women during the nineteenth century.
 - (culture) Pepper pot soup was one of the first street foods in the United States, sold by so-called "Pepper Pot women", and was at one point the symbolic food of the city of Philadelphia.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) The origins of the stew are steeped in legend, with one story attributing the dish to Christopher Ludwick, baker general of the Continental Army during the American Revolutionary War.
+- (inspiration) According to this story, during the harsh winter of 1777–1778, farmers near Valley Forge sold food to the British rather than accepting the weak continental currency.
 - (history) In a children's book from 1810 titled The Cries of Philadelphia, the scene is described in detail:Strangers who visit the city, cannot but be amused with the cries of the numerous black women who sit in the market house and at the corners, selling a soup which they call pepperpot.
 - (inspiration) The story has been found to be almost certainly untrue, though it helped make the soup a symbol of the city.
 - (inspiration) In Philadelphia, legend made pepper pot soup popular and easy to find around the city.
 - (culture) The traditional version associated with Philadelphia specifically do have some ingredients in common: "a variety of peppers, spices, root vegetables, beef tripe, herbs, and leafy greens." These ingredients came specifically from the Africans and Caribbeans living in the city at the time of its origin.
 - (culture) Pepper pot soup was sold as street food and in taverns because it was known as the stew which kept George Washington's troops alive during that cold winter.
 - (culture) Its popularity meant that it became the symbolic food of the city, "It was a dish to try if you were an out-of-towner.
-- (origin) Pepper pot soup comes from United States.
+- (origin) Pepper pot soup comes from the United States.
 
 Learn more:
 
@@ -4123,7 +4106,7 @@ Piki is a bread made from blue corn meal used in Hopi cuisine.
 
 Fun facts:
 
-- (origin) Piki comes from United States.
+- (origin) Piki comes from the United States.
 
 Learn more:
 
@@ -4143,8 +4126,7 @@ A pistolette is either of two bread-based dishes in Louisiana cuisine.
 
 Fun facts:
 
-- (about) The other is a type of submarine shaped bread about half the size of a baguette that is popular in New Orleans for Vietnamese bánh mì and other sandwiches.
-- (origin) Pistolette comes from United States.
+- (origin) Pistolette comes from the United States.
 
 Learn more:
 
@@ -4185,7 +4167,7 @@ A Pittsburgh salad is a layered salad, often composed of lettuce, vegetables, gr
 Fun facts:
 
 - (inspiration) Legend has it that one night in the early 1960s, a customer ordered a steak sandwich without the bun but with added fries and salad dressing.
-- (origin) Pittsburgh salad comes from United States.
+- (origin) Pittsburgh salad comes from the United States.
 - (inspiration) Pittsburgh salad is named after Pittsburgh.
 
 Learn more:
@@ -4234,7 +4216,7 @@ A pizza puff is a deep-fried dough pocket filled with cheese, tomato sauce, and 
 
 Fun facts:
 
-- (origin) Pizza puff comes from United States.
+- (origin) Pizza puff comes from the United States.
 
 Learn more:
 
@@ -4254,18 +4236,18 @@ A po' boy (also po-boy, po boy derived from the non-rhotic southern accents ofte
 
 Fun facts:
 
-- (history) In 1929 the bakery of John Gendusa first baked the bread used for this sandwich.
-- (about) The Martins were interviewed on record regarding the origins of the sandwich.
+- (history) The Martin brothers wrote a letter, reprinted in local newspapers in 1929, promising to feed the streetcar workers, but it referenced "our meal" and made no mention of sandwiches.
 - (culture) It traditionally consists of a filling, which is usually roast beef, ham, or fried seafood such as shrimp, crawfish, fish, oysters, or crab on a New Orleans French bread roll cut lengthwise.
+- (about) A popular local theory claims that the term "poor boy" (later "po' boy", etc.), specifically referring to a type of sandwich, was coined in a New Orleans restaurant owned by Benjamin ("Benny") and Clovis Martin, former streetcar conductors originally from Raceland, Louisiana.
 
 More fun facts (when the user asks for more):
 
+- (history) In 1929 the bakery of John Gendusa first baked the bread used for this sandwich.
+- (origin) Po' boy comes from the United States.
 - (history) In the late 19th century, fried oyster sandwiches on French loaves were known in New Orleans as "oyster loaves", a term still in use.
 - (history) The Martins established their eatery in 1921.
-- (history) The Martin brothers wrote a letter, reprinted in local newspapers in 1929, promising to feed the streetcar workers, but it referenced "our meal" and made no mention of sandwiches.
-- (about) A popular local theory claims that the term "poor boy" (later "po' boy", etc.), specifically referring to a type of sandwich, was coined in a New Orleans restaurant owned by Benjamin ("Benny") and Clovis Martin, former streetcar conductors originally from Raceland, Louisiana.
+- (about) The Martins were interviewed on record regarding the origins of the sandwich.
 - (inspiration) The Martin brothers were asked the question of whether the name was inspired by some French or French patois word such as pourboire, but they denied that was the case.
-- (origin) Po' boy comes from United States.
 
 Learn more:
 
@@ -4286,7 +4268,7 @@ Poke or poké (, Hawaiian: [poke]) is a dish of diced raw fish (poke being Hawai
 
 Fun facts:
 
-- (origin) Poke comes from United States.
+- (origin) Poke comes from the United States.
 
 Learn more:
 
@@ -4305,7 +4287,7 @@ Popcorn shrimp is the name of several small shrimp fritter dishes, so called bec
 
 Fun facts:
 
-- (history) However, at least for the name, what Prudhomme invented was Cajun popcorn, which he put on the menu of the restaurant he worked, sometime later than 1975.
+- (history) At least for the name, what Prudhomme invented was Cajun popcorn, which he put on the menu of the restaurant he worked, sometime later than 1975.
 - (origin) In 1974, the American restaurant chain Red Lobster introduced a menu item called "popcorn shrimp", a fritter of small shrimp meat, which they still offer as of 2025.
 - (history) Other restaurants were also serving menu items named "popcorn shrimp" as early as 1975.
 
@@ -4333,7 +4315,7 @@ The pork tenderloin sandwich, also known as a breaded pork tenderloin sandwich (
 Fun facts:
 
 - (origin) The sandwich is claimed to have originated at Nick's Kitchen restaurant in Huntington, Indiana, near Fort Wayne.
-- (origin) Pork tenderloin sandwich comes from United States.
+- (origin) Pork tenderloin sandwich comes from the United States.
 
 Learn more:
 
@@ -4353,14 +4335,13 @@ Pot liquor, sometimes spelled potlikker or pot likker, is the liquid that is lef
 Fun facts:
 
 - (history) In 1935, governor and U.S. senator Huey Pierce Long, Jr., of Louisiana presented a treatise on potlikker during a 15-hour filibuster.
-- (about) In his autobiography, Every Man a King, he defined "potlikker", a favorite of his country political supporters, as... the juice that remains in a pot after greens or other vegetables are boiled with proper seasoning.
+- (about) In his autobiography, Every Man a King, he defined "potlikker", a favorite of his country political supporters, as.. the juice that remains in a pot after greens or other vegetables are boiled with proper seasoning.
 - (culture) Former governor and U.S. senator Zell Miller of Georgia wrote a defense of the traditional spelling "potlikker" in a letter to The New York Times.
 
 More fun facts (when the user asks for more):
 
 - (history) Earlier, in 1931, Long's insistence on dunking his cornpone in the potlikker stimulated wide debate on whether crumbling or dunking was the correct method of immersion, with comments made by Emily Post and New York City mayor Jimmy Walker.
-- (about) In the Canadian province of Newfoundland and Labrador, the term pot liquor is used to describe the broth left over from boiling multiple vegetables (potato, carrot, cabbage, etc.), usually with the dish known as Jiggs Dinner.
-- (origin) Pot liquor comes from United States.
+- (origin) Pot liquor comes from the United States.
 
 Learn more:
 
@@ -4405,7 +4386,7 @@ Fun facts:
 
 - (history) The first person to bring pizza to the Quad Cities was Tony Maniscalco Sr. in 1952.
 - (inspiration) Quad City–style pizza is named after Quad Cities.
-- (origin) Quad City–style pizza comes from United States.
+- (origin) Quad City–style pizza comes from the United States.
 
 Learn more:
 
@@ -4426,7 +4407,7 @@ Red velvet cake is a red-colored layer cake with cream cheese or ermine icing.
 Fun facts:
 
 - (origin) It is unknown where the red velvet cake originated, although its popularity in the Southern United States dates to the early 20th century.
-- (history) Additionally, in the 19th century, the first recipes for chocolate cakes appeared, with some including buttermilk, which, when combined with raw cocoa powder, would turn the batter and resulting cake a naturally occurring burgundy hue.
+- (history) In the 19th century, the first recipes for chocolate cakes appeared, with some including buttermilk, which, when combined with raw cocoa powder, would turn the batter and resulting cake a naturally occurring burgundy hue.
 - (about) By 2000, red velvet cakes were experiencing widespread popularity.
 
 More fun facts (when the user asks for more):
@@ -4438,7 +4419,7 @@ More fun facts (when the user asks for more):
 - (history) In the 1920s, red velvet layer cake became a famous dessert at New York City's Waldorf-Astoria hotel.
 - (history) By the 1960s, recipes for red velvet cake appeared in newspapers and multiple cookbooks.
 - (history) Starting in the 1970s after Red Dye #2 was linked to cancer, the cake became less popular.
-- (origin) Red velvet cake comes from United States.
+- (origin) Red velvet cake comes from the United States.
 
 Learn more:
 
@@ -4458,15 +4439,14 @@ Reese's Peanut Butter Cups (, REE-siz) are an American candy by the Hershey Comp
 
 Fun facts:
 
-- (history) They were created on November 15, 1928, by H.
+- (history) Reese was let go from his job with Hershey when the Round Barn, which he managed, was shut down for cost-saving measures in 1919.
 - (about) Reese's includes the overall top-selling confection item—the Reese's Peanut Butter Cups King Size—as well as six of the top 20 chocolate/non-chocolate items.
 - (origin) Reese's Peanut Butter Cups was first made by H. B. Reese.
 
 More fun facts (when the user asks for more):
 
-- (history) Reese was let go from his job with Hershey when the Round Barn, which he managed, was shut down for cost-saving measures in 1919.
-- (history) On July 2, 1963, the Reese brothers merged the H.
 - (history) Reese's Peanut Butter Cups dates from 1928-.
+- (history) They were created on November 15, 1928, by H. B. Reese, a former dairy farmer and shipping foreman for Milton S. Hershey.
 - (about) Reese's Peanut Butter Cups were his most popular candy, leading Reese to eventually discontinue his other lines.
 
 Learn more:
@@ -4502,7 +4482,7 @@ More fun facts (when the user asks for more):
 - (history) Bernard Sobel in his 1953 book, Broadway Heartbeat: Memoirs of a Press Agent states that the sandwich was an extemporaneous creation for Marjorie Rambeau, inaugurated when the Broadway actress visited the Reuben's Delicatessen one night when the cupboards were particularly bare.
 - (history) Still other versions give credit to Alfred Scheuing, a chef at Reuben's Delicatessen, and say he created the sandwich for Reuben's son, Arnold Jr., in the 1930s.
 - (culture) Despite this association, the sandwich is not considered kosher under traditional Jewish dietary law because it combines meat and dairy products.
-- (origin) Reuben sandwich comes from United States.
+- (origin) Reuben sandwich comes from the United States.
 - (about) Reuben sandwich dates from 2000-.
 
 Learn more:
@@ -4545,13 +4525,13 @@ Rolled oyster is a baseball-sized seafood dish that is found only in and around 
 
 Fun facts:
 
-- (origin) They were first served by Italian immigrant Phillip Mazzoni and his brothers in the late 19th century as a free giveaway to their saloon patrons with a purchased beer or whiskey.
 - (inspiration) It is unknown if rolled oysters were actually invented by the Mazzonis, or if the recipe was brought over from Italy with them.
 - (about) During prohibition, Mazzoni's remained open by selling these oysters in their new restaurant and it became a popular food item all over town.
+- (origin) Rolled oyster comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (origin) Rolled oyster comes from United States.
+- (origin) They were first served by Italian immigrant Phillip Mazzoni and his brothers in the late 19th century as a free giveaway to their saloon patrons with a purchased beer or whiskey.
 
 Learn more:
 
@@ -4573,19 +4553,19 @@ Fun facts:
 
 - (history) In the mid-1920s, records of Girl Scouts preparing "Some Mores" using the modern recipe appear, with the contraction s'more arising by the 1930s.
 - (about) A s'mores martini was also invented during this time, made with white chocolate and vanilla liqueurs.
-- (origin) S'more comes from United States.
+- (origin) S'more comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) Popularised by cookbooks and magazines published by the Boston Cooking School, variations published in newspapers and magazines included a 1910 variation using graham crackers as a base, and a 1913 variation with a layer of melted chocolate below the marshmallow.
 - (history) The predecessor to the s'more is the Marshmallow Marguerite, a small confection of buttered marshmallow on a saltine cracker that became popular in the early 20th century.
 - (history) More elaborate versions of s'mores came about in the 1990s, and today, s'mores are popular in the United States and Canada, where they are regarded as nostalgic.
 - (history) By the mid-1920s, descriptions were being published of s'mores being eaten in a camping setting.
-- (history) Roasting marshmallows on a fire was well established in the US by this time, with reports appearing in the New York Times as early as 1902 attesting to the popularity of the practice at "marshmallow parties".
 - (history) In 1925, a Connecticut newspaper described Girl Scouts eating "Some-mores" as, "a graham cracker on which is placed a piece of Hershey chocolate, a toasted marshmallow, another piece of chocolate and a graham cracker".
-- (history) Marguerites continued to be eaten and were popular through the 1930s among women's luncheons and teas, served open-faced and without chocolate.
 - (history) In the 1990s, s'mores became popular among American adults, and elaborate versions appeared in restaurants, dressed with a raspberry coulis and intended to be eaten with cutlery.
 - (history) Food historian Linda Civitello attributes this to Americans in the baby boomer generation turning from low-fat foods and exercise to comfort foods as they aged, with s'mores a food reminiscent of their 1950s childhoods.
+- (history) Popularised by cookbooks and magazines published by the Boston Cooking School, variations published in newspapers and magazines included a 1910 variation using graham crackers as a base, and a 1913 variation with a layer of melted chocolate below the marshmallow.
+- (history) Roasting marshmallows on a fire was well established in the US by this time, with reports appearing in the New York Times as early as 1902 attesting to the popularity of the practice at "marshmallow parties".
+- (history) Marguerites continued to be eaten and were popular through the 1930s among women's luncheons and teas, served open-faced and without chocolate.
 - (history) Later in 1913, a commercial version was released by National Biscuit Company under the name "Nabisco Mallowmars", and in 1917, Moon Pie went on the market as another marshmallow and chocolate combination.
 
 Learn more:
@@ -4614,7 +4594,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) Dot's Back Inn and the sailor sandwich were featured in an episode of Diners, Drive-Ins and Dives filmed in 2007.
-- (origin) Sailor sandwich comes from United States.
+- (origin) Sailor sandwich comes from the United States.
 
 Learn more:
 
@@ -4634,21 +4614,21 @@ Saimin (from Cantonese Chinese: 細麵, sai³ min⁶, thin (wheat) noodles, or �
 
 Fun facts:
 
-- (history) The first recorded use of the romanized word in Hawaii dates as far back as 1908, but was most likely spoken in the local dialect much earlier.
 - (origin) There are records of Japanese immigrants peddling saimin in Hawaii as early as 1915, giving them a decent standing as its fore-bearer.
+- (history) The first recorded use of the romanized word in Hawaii dates as far back as 1908, but was most likely spoken in the local dialect much earlier.
 - (about) The earliest records of saimin identified the dish as being Chinese in origin.
 
 More fun facts (when the user asks for more):
 
 - (history) Saimin is certain that saimin, along with much of the contemporary cuisine in Hawaii, is closely related to the immigration of Chinese, Japanese, Korean, Filipino, and Portuguese field workers during the plantation era of Hawaii beginning in the 1850s.
 - (about) This common, yet supposed history of saimin's origins is highly debatable, since there are recorded accounts of much racial tension between the various ethnic groups during this time.
-- (origin) To drive this point further, if indeed Japanese immigrants were attempting to recreate ramen in Hawaii, the common Japanese language did not use the word ramen until about the 1950s.
 - (about) In Japan it was first known as shina soba, as the ramen itself was a dish with Chinese origins.
 - (culture) Traditionally consisting of soft wheat egg noodles served in a hot dashi garnished with diced green onions and a thin slice of kamaboko, modern versions of saimin include additional toppings such as char siu, sliced Spam, sliced egg, bok choy, mushrooms, or shredded nori.
-- (about) As the popular belief goes, these plantation laborers of various ethnic backgrounds would return from the fields and share communal meals.
 - (inspiration) Among the immigrant population in Hawaii, one of the largest (besides the Chinese) and most influential (besides the Caucasian) immigrants were the Japanese and it is theorized that saimin was created by this ethnic group wanting to eat ramen.
 - (origin) During the same time period, ramen was not the widely popular phenomenon in Japan as it is known today and would not be considered a food Japanese immigrants immediately associate with their homeland.
-- (origin) Saimin comes from United States.
+- (origin) Saimin comes from the United States.
+- (origin) To drive this point further, if indeed Japanese immigrants were attempting to recreate ramen in Hawaii, the common Japanese language did not use the word ramen until about the 1950s.
+- (about) As the popular belief goes, these plantation laborers of various ethnic backgrounds would return from the fields and share communal meals.
 
 Learn more:
 
@@ -4671,14 +4651,14 @@ Fun facts:
 
 - (inspiration) The phrase "salad days", meaning a "time of youthful inexperience" (based on the notion of "green"), is first recorded by Shakespeare in 1606, while the use of salad bar, referring to a buffet-style serving of salad ingredients, first appeared in American English in 1937.
 - (history) In his 1699 book, Acetaria: A Discourse of Sallets, often considered the first book on salads, John Evelyn attempted with little success to encourage his fellow Britons to eat fresh salad greens.
-- (about) Mary, Queen of Scots, ate boiled celery root over greens covered with creamy mustard dressing, truffles, chervil, and slices of hard-boiled eggs.
+- (about) Salads, including layered and dressed salads, have been popular in Europe since the Greek and Roman imperial expansions.
 
 More fun facts (when the user asks for more):
 
-- (about) Salads, including layered and dressed salads, have been popular in Europe since the Greek and Roman imperial expansions.
 - (about) Salad restaurants were earning more than $300 million in 2014.
 - (about) At-home salad consumption in the 2010s was rising but moving away from fresh-chopped lettuce and toward bagged greens and salad kits, with bag sales expected to reach $7 billion per year.
 - (origin) Salad comes from internationality.
+- (about) Mary, Queen of Scots, ate boiled celery root over greens covered with creamy mustard dressing, truffles, chervil, and slices of hard-boiled eggs.
 - (about) Not to be confused with Lactuca sativa.
 
 Learn more:
@@ -4701,15 +4681,15 @@ Fun facts:
 
 - (origin) The dish gained popularity when it was introduced in 1904 as part of the popular clambakes served at Hinerwadel's Grove in North Syracuse, and Hinerwadel's began selling salt potato kits in local stores 1981.
 - (history) In the 19th century, Irish salt miners would bring a bag of small, unpeeled, substandard potatoes to work each day, and boil the potatoes in the salt blocks.
-- (about) They are a staple food at fairs and barbecues in the Central New York region, where they are most popular.
+- (about) Salinated brine was boiled dry in large vats known as "salt blocks", and the salt residue was then scraped up, ground, and packaged.
 
 More fun facts (when the user asks for more):
 
 - (history) The earliest written record of salt potatoes being served outside of the salt works is an 1883 menu from a saloon run by the Keefe brothers, who were the sons of a salt manufacturer.
-- (about) Salinated brine was boiled dry in large vats known as "salt blocks", and the salt residue was then scraped up, ground, and packaged.
-- (about) They quickly became popular in other taverns and bars, where they started being served with melted butter.
 - (about) In 2021, a historical marker was erected outside the Onondaga County Salt Museum commemorating the dish.
-- (origin) Salt potatoes comes from United States, Germany.
+- (origin) Salt potatoes comes from the United States, Germany.
+- (about) They are a staple food at fairs and barbecues in the Central New York region, where they are most popular.
+- (about) They quickly became popular in other taverns and bars, where they started being served with melted butter.
 
 Learn more:
 
@@ -4748,7 +4728,7 @@ A Seattle roll is a makizushi roll similar to the Philadelphia roll.
 Fun facts:
 
 - (inspiration) Like many Western-inspired sushi rolls, the ingredients and name are based on an American market.
-- (origin) Seattle roll comes from United States.
+- (origin) Seattle roll comes from the United States.
 
 Learn more:
 
@@ -4779,7 +4759,7 @@ More fun facts (when the user asks for more):
 - (history) Seattle Dogs increased in popularity at bars and music venues during the grunge movement of the 1990s.
 - (about) In Everett, a cart began selling Seattle-style dogs outside Angel of the Winds Arena in 2009.
 - (about) The Seattle Mariners began serving Seattle Dogs at the Hit it Here Café inside T-Mobile Park during the 2010 season.
-- (origin) Seattle-style hot dog comes from United States.
+- (origin) Seattle-style hot dog comes from the United States.
 
 Learn more:
 
@@ -4800,13 +4780,13 @@ Seven-layer salad is an American dish that includes a colorful combination of se
 Fun facts:
 
 - (origin) The dish may have originated in the South and was called the "seven-layer pea salad" for its main layers of peas.
-- (history) Seven-layer salad has been said to have "helped give salads of the 1950s a bad name... when it came to health."
+- (history) Seven-layer salad has been said to have "helped give salads of the 1950s a bad name.. when it came to health."
 - (culture) Although there are many variations, the traditional seven-layer salad has remained the same for decades.
 
 More fun facts (when the user asks for more):
 
 - (culture) The traditional seven-layer salad is covered with a coating of mayonnaise (and sometimes sour cream) and includes eggs and bacon.
-- (origin) Seven-layer salad comes from United States.
+- (origin) Seven-layer salad comes from the United States.
 
 Learn more:
 
@@ -4827,7 +4807,7 @@ Shaker lemon pie, also known as Ohio lemon pie, is a fruit pie typical of the Mi
 Fun facts:
 
 - (origin) The pie was first made in the religious communities of Shakers during the early 1800s.
-- (origin) Shaker lemon pie comes from United States.
+- (origin) Shaker lemon pie comes from the United States.
 
 Learn more:
 
@@ -4848,7 +4828,7 @@ She-crab soup is a rich soup, similar to bisque, made of milk or heavy cream, cr
 Fun facts:
 
 - (inspiration) The soup is named for the "she-crab", or female crab, originally a gravid (roe-carrying) crab, as the orange crab roe comprise a chief ingredient in traditional she-crab soup.
-- (origin) She-crab soup comes from United States.
+- (origin) She-crab soup comes from the United States.
 
 Learn more:
 
@@ -4868,8 +4848,8 @@ Shrimp and grits is a dish that combines sautéed shrimp with grits—a porridge
 Fun facts:
 
 - (history) At restaurants, "shrimp and grits" is the most common name, while in the Lowcountry, "breakfast shrimps" was most common, with "breakfast shrimp with tomatoes" used among the Louisiana Creole, and "breakfast shrimp with hominy" identified as the dish's name by Arturo Schomburg early in the 20th century.
-- (about) Twitty in his 2017 book The Cooking Gene.
-- (origin) Shrimp and grits comes from United States.
+- (about) An early dish similar to shrimp and grits is identified by Michael W. Twitty in his 2017 book The Cooking Gene.
+- (origin) Shrimp and grits comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -4894,7 +4874,7 @@ Fun facts:
 
 - (origin) Shrimp Louie originated in San Francisco in the early 1900s.
 - (about) A version made with crab is known as Crab Louie.
-- (origin) Shrimp Louie comes from United States.
+- (origin) Shrimp Louie comes from the United States.
 
 Learn more:
 
@@ -4912,17 +4892,16 @@ Skittles are multicolored fruit-flavored lentil-shaped sweets produced and marke
 
 Fun facts:
 
+- (history) By 1979, Skittles became widely distributed throughout the U.S. In 1982, production of Skittles began in the United States.
 - (origin) Skittles were introduced in 1971 by Jack Candies, a British distributor for Mars, Incorporated.
-- (history) Patent Office for the name Skittles in 1974.
 - (inspiration) Skittles' "taste the rainbow" theme was created by the New York ad agency D'Arcy Masius Benton & Bowles.
 
 More fun facts (when the user asks for more):
 
-- (history) By 1979, Skittles became widely distributed throughout the U.S.
-- (history) In 1982, production of Skittles began in the United States.
 - (origin) The name of the candy, Skittles, comes from the sports game of the same name, named as such for the resemblance of the sweet to items used in the game.
 - (about) On March 2, 2009, Skittles launched a web-based marketing campaign where the official website became a small overlay with options to view different social media sites in the main area, including its official YouTube channel, a Facebook profile, and a Twitter account.
 - (culture) In 2009, the production of Skittles ceased using animal-derived gelatin, making them suitable for vegetarians, vegans, and certain religious groups.
+- (about) Skittles were involved in two political incidents in the 2010s.
 
 Learn more:
 
@@ -4943,7 +4922,7 @@ A slinger is an American Midwest diner specialty typically consisting of two egg
 Fun facts:
 
 - (about) Slinger is described as "a hometown culinary invention" of a mishmash of meat, hash-fried potatoes, eggs, and chili, sided with a choice of ham, sausage, bacon, hamburger patties, or an entire T-bone steak.
-- (origin) Slinger comes from United States.
+- (origin) Slinger comes from the United States.
 
 Learn more:
 
@@ -4970,12 +4949,12 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Circa 1937, Hemingway convinced Joe Russell, a bar owner in Key West, Florida, to rename his Silver Slipper bar Sloppy Joe's.
-- (history) Heinz in Pittsburgh, says their research at the Carnegie Library suggests that the sloppy joe's origins lie with the "loose meat sandwiches" sold in Sioux City, Iowa, in the 1930s and were the creation of a cook named Joe.
+- (history) Marilyn Brown, director of the consumer test kitchen at H.J. Heinz in Pittsburgh, says their research at the Carnegie Library suggests that the sloppy joe's origins lie with the "loose meat sandwiches" sold in Sioux City, Iowa, in the 1930s and were the creation of a cook named Joe.
 - (history) References to sloppy joes as sandwiches began in the 1940s.
 - (history) Food companies began producing packaged sloppy joe, in cans with meat, or just the sauce, such as Manwich, by the 1960s.
 - (history) A 1975 Dictionary of American Slang defines sloppy joe as any cheap restaurant or lunch counter serving cheap food quickly.
 - (about) Town Hall Deli in New Jersey claims that this same Cuban bar also served a messy sliced ham and turkey sandwich with Russian dressing that Town Hall copied and also named "Sloppy Joe" after the bar, creating much confusion.
-- (origin) Sloppy joe comes from United States.
+- (origin) Sloppy joe comes from the United States.
 
 Learn more:
 
@@ -5002,10 +4981,10 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (culture) While it similarly includes turkey, coleslaw, and Russian dressing on rye bread, it is usually served as a single-layer sandwich rather than the traditional double-decker New Jersey style.
+- (origin) Sloppy joe comes from the United States.
 - (history) During the mid-20th century, the sandwich became popular in Jewish delicatessens throughout Newark and surrounding communities, contributing to its association with the delicatessen culture of the region.
 - (about) A related sandwich sometimes known as the New York deli turkey sandwich is also found in the New York metropolitan area.
-- (culture) While it similarly includes turkey, coleslaw, and Russian dressing on rye bread, it is usually served as a single-layer sandwich rather than the traditional double-decker New Jersey style.
-- (origin) Sloppy joe comes from United States.
 
 Learn more:
 
@@ -5025,13 +5004,13 @@ A slugburger (originally Weeksburger) is a sandwich with a deep-fried patty cont
 Fun facts:
 
 - (origin) Slugburger is a traditional Southern food originating in northeast Mississippi.
-- (history) John Weeks brought his hamburger recipe from Chicago to Corinth, Mississippi, in 1917.
 - (inspiration) According to town legend, the term "slugburger" comes from the slang term for a metal disk the size of a nickel that would work in vending machines; the original price of the burger was a nickel.
+- (history) John Weeks brought his hamburger recipe from Chicago to Corinth, Mississippi, in 1917.
 
 More fun facts (when the user asks for more):
 
+- (origin) Slugburger comes from the United States.
 - (history) Sometime before 1950, soy grits replaced the potato and flour.
-- (origin) Slugburger comes from United States.
 
 Learn more:
 
@@ -5061,7 +5040,7 @@ More fun facts (when the user asks for more):
 - (inspiration) In 1930, the Mars Candy Factory in Chicago introduced Snickers, named after the favorite horse of the Mars family.
 - (history) Snickers dates from 1930-.
 - (history) A Marathon retro edition was sold exclusively at the Morrisons supermarket for three months in 2019. ("Marathon" was also the name of an unrelated bar marketed in the 1970s in the United States.) Snickers launched in France in 1989.
-- (origin) Snickers comes from United States.
+- (origin) Snickers comes from the United States.
 
 Learn more:
 
@@ -5083,7 +5062,7 @@ Snickers salad is a dessert salad consisting of a mix of Snickers bars, Granny S
 Fun facts:
 
 - (about) As to whether it is a salad or a dessert, popular lore has it that it depends on which end of the table it is sitting at.
-- (origin) Snickers salad comes from United States.
+- (origin) Snickers salad comes from the United States.
 - (about) The recipe for Snickers salad was included in a 2009 article "Salads worthy of a church picnic" in The Indianapolis Star.
 
 Learn more:
@@ -5172,15 +5151,15 @@ Fun facts:
 
 - (history) It grew in popularity during the first half of the 20th century and is today considered a classic in Italian-American cuisine both in New York City and the rest of the U.S.
 - (inspiration) Originally inspired by similar dishes from southern Italy, the modern version of spaghetti and meatballs was developed by Italian immigrants in New York City.
-- (origin) When arriving in America, Italian immigrants brought their food traditions with them, but the availability of new ingredients and a better economy meant that traditional peasant foods from southern Italy evolved.
+- (origin) This way, spaghetti and meatballs soon became a popular dish among Italian immigrants in New York City.
 
 More fun facts (when the user asks for more):
 
 - (history) Early references to the dish include: In 1888, Juliet Corson of New York published a recipe for pasta and meatballs and tomato sauce.
 - (history) In 1909, a recipe for "Beef Balls with Spaghetti" appeared in American Cookery, Volume 13.
 - (history) In 1931, Venice Maid in New Jersey was selling canned "spaghetti with meatballs in sauce".
-- (origin) This way, spaghetti and meatballs soon became a popular dish among Italian immigrants in New York City.
-- (origin) Spaghetti and meatballs comes from United States.
+- (origin) Spaghetti and meatballs comes from the United States.
+- (origin) When arriving in America, Italian immigrants brought their food traditions with them, but the availability of new ingredients and a better economy meant that traditional peasant foods from southern Italy evolved.
 
 Learn more:
 
@@ -5228,7 +5207,7 @@ More fun facts (when the user asks for more):
 - (about) Although named a "bread", spoonbread is closer in consistency and taste to many savory puddings, such as Yorkshire pudding.
 - (culture) Subsequently it has become a traditional side dish in soul food.
 - (inspiration) North Carolina chef Bill Neal wrote, "Spoon bread… is based on the native staple, corn.
-- (origin) Spoonbread comes from United States.
+- (origin) Spoonbread comes from the United States.
 
 Learn more:
 
@@ -5240,20 +5219,20 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q7579159) (CC0); [Wikipedia: S
 
 ### St. Louis–style barbecue
 
-St.
+St. Louis–style barbecue refers to spare ribs associated with the St. Louis area.
 
 - From: United States
 
 Fun facts:
 
-- (inspiration) Louis is said to be home to the first barbecue sauce in the country, which was created by Louis Maull in 1926.
-- (origin) Louis Style," allegedly originated with numerous meat-packing plants located in the region in the mid-20th century and put into the policy by a diehard fan of the St.
-- (history) In the 1950s, pork butt became a staple in local St.
+- (inspiration) St. Louis–style barbecue sauce is described by author Steven Raichlen as a "very sweet, slightly acidic, sticky, tomato-based barbecue sauce usually made without liquid smoke." St. Louis is said to be home to the first barbecue sauce in the country, which was created by Louis Maull in 1926.
+- (origin) This cut of ribs, formalized by the USDA as "Pork Ribs, St. Louis Style," allegedly originated with numerous meat-packing plants located in the region in the mid-20th century and put into the policy by a diehard fan of the St. Louis Cardinals baseball team.
+- (history) In the 1950s, pork butt became a staple in local St. Louis-Style barbecue when local grocery chain Schnucks began selling it.
 
 More fun facts (when the user asks for more):
 
 - (history) Barbecue had long been a part of the cities' culture, but it began to have widespread popularity in the 1920s.
-- (about) This cutting technique eventually gained popularity as local meatpackers realized they could advertise the cut as St.
+- (about) This cutting technique eventually gained popularity as local meatpackers realized they could advertise the cut as St. Louis–style ribs and differentiate themselves from competitors.
 
 Learn more:
 
@@ -5265,7 +5244,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q7589551) (CC0); [Wikipedia: S
 
 ### St. Louis–style pizza
 
-St.
+St. Louis–style pizza is a type of pizza in St. Louis, Missouri, United States, and surrounding areas.
 
 - From: United States
 - Origin (Wikidata): United States
@@ -5275,7 +5254,7 @@ St.
 Fun facts:
 
 - (inspiration) St. Louis–style pizza is named after St. Louis.
-- (origin) St. Louis–style pizza comes from United States.
+- (origin) St. Louis–style pizza comes from the United States.
 
 Learn more:
 
@@ -5288,7 +5267,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q7589550) (CC0); [Wikipedia: S
 
 ### St. Paul sandwich
 
-The St.
+The St. Paul sandwich can be found in many Chinese American restaurants in St. Louis, Missouri, as well as in other cities in Missouri, including Columbia, Jefferson City, and Springfield.
 
 - From: United States
 - Origin (Wikidata): United States
@@ -5296,17 +5275,16 @@ The St.
 
 Fun facts:
 
-- (history) Paul sandwich dating to the early 1940s, when Chinese restaurants created the sandwich as a unique dish that was in a more familiar sandwich form to appeal to the palates of Midwestern Americans, an early example of fusion cuisine.
-- (inspiration) Paul sandwich was invented by Steven Yuen at Park Chop Suey in Lafayette Square, a neighborhood near downtown St.
-- (about) Louis; Yuen named the sandwich after his hometown of St.
+- (inspiration) According to local legend, the St. Paul sandwich was invented by Steven Yuen at Park Chop Suey in Lafayette Square, a neighborhood near downtown St. Louis; Yuen named the sandwich after his hometown of St. Paul, Minnesota.
+- (history) One source has the origin of the St. Paul sandwich dating to the early 1940s, when Chinese restaurants created the sandwich as a unique dish that was in a more familiar sandwich form to appeal to the palates of Midwestern Americans, an early example of fusion cuisine.
+- (about) This sandwich was featured in the PBS documentary Sandwiches That You Will Like in 2003.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) Food writers James Beard and Evan Jones believed that the Denver or Western sandwich was created by "the many Chinese chefs who cooked for logging camps and railroad gangs in the nineteenth and early twentieth centuries" and was probably derived from egg foo young.
-- (about) They think that the early Denver sandwiches had the same ingredients as what were later known as St.
-- (about) This sandwich was featured in the PBS documentary Sandwiches That You Will Like in 2003.
 - (about) St. Paul sandwich was featured in a 2016 book by artist Kelly Pratt, called Stately Sandwiches, as the sandwich chosen to represent the state of Missouri.
-- (origin) St. Paul sandwich comes from United States.
+- (origin) St. Paul sandwich comes from the United States.
+- (about) They think that the early Denver sandwiches had the same ingredients as what were later known as St. Paul sandwiches in St. Louis and a few other Missouri cities.
 
 Learn more:
 
@@ -5328,7 +5306,7 @@ Fun facts:
 
 - (inspiration) An origin story proposed by Sidney Saylor Farr in 1983 is that stack cakes were a local substitute for layered wedding cake, which were prohibitively expensive.
 - (culture) Traditionally the cakes are made in a cast iron skillet, but they can be baked as well.
-- (origin) Stack cake comes from United States.
+- (origin) Stack cake comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -5354,7 +5332,7 @@ Steak de Burgo is a steak dish and a regional specialty in the Midwest, specific
 Fun facts:
 
 - (culture) This traditional dish was originally made famous by Johnny and Kay's Restaurant.
-- (origin) Steak de Burgo comes from United States.
+- (origin) Steak de Burgo comes from the United States.
 
 Learn more:
 
@@ -5376,7 +5354,7 @@ Fun facts:
 
 - (history) Steak Diane was most likely invented in London in the 1930s.
 - (inspiration) Romano's maître d'hôtel, Tony Clerici, said he invented it in London at his Mayfair restaurant Tony's Grill in 1938 and named it in honour of Lady Diana Cooper.
-- (origin) Steak Diane comes from United States.
+- (origin) Steak Diane comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -5414,7 +5392,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Steamed cheeseburger comes from United States.
+- (origin) Steamed cheeseburger comes from the United States.
 
 Learn more:
 
@@ -5474,13 +5452,13 @@ Strawberry delight is a dessert salad found in the United States, especially in 
 
 Fun facts:
 
-- (history) A soda fountain version with sponge cake and ice cream was featured in a 1922 edition of The Soda fountain newsletter.
 - (origin) Strawberry delight was first made in Minnesota, Southern United States.
 - (about) Strawberry delight dates from 2000-.
+- (history) A soda fountain version with sponge cake and ice cream was featured in a 1922 edition of The Soda fountain newsletter.
 
 More fun facts (when the user asks for more):
 
-- (origin) Strawberry delight comes from United States.
+- (origin) Strawberry delight comes from the United States.
 
 Learn more:
 
@@ -5501,15 +5479,15 @@ A submarine sandwich, commonly known as a sub, is a type of American cold or hot
 Fun facts:
 
 - (origin) This sandwich type originated in several different Italian-American communities in the northeastern United States from the late 19th to the mid-20th centuries.
-- (about) Pizzerias may have been among the first Italian-American eateries, but even at the turn of the [20th] century distinctions were clear-cut as to what constituted a true ristorante.
 - (history) In a 1967 article in American Speech, linguists Edwin Eames and Howard Robboy identified thirteen different terms for the submarine sandwich in the United States in a survey of 100 American cities.
+- (inspiration) Submarine sandwich is named after submarine.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Submarine sandwich is named after submarine.
 - (about) The popularity of the Italian-American sandwich grew from its origins in Connecticut, Pennsylvania, Delaware, Maine, Maryland, New Hampshire, New York, New Jersey, Massachusetts, and Rhode Island to other parts of the United States, often as local pizzerias began adding the sub to their menus.
 - (about) As the sandwich's popularity grew, small restaurants called hoagie shops or sub shops, which specialized in offering the sandwich, began to open across the United States.
-- (origin) Submarine sandwich comes from United States.
+- (origin) Submarine sandwich comes from the United States.
+- (about) Pizzerias may have been among the first Italian-American eateries, but even at the turn of the [20th] century distinctions were clear-cut as to what constituted a true ristorante.
 
 Learn more:
 
@@ -5537,7 +5515,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) According to What's Cooking America, the biggest rivalry (referred to as the "Sundae War") to claim the invention of the ice cream sundae is between Two Rivers, Wisconsin, and Ithaca, New York.
-- (origin) Sundae comes from United States.
+- (origin) Sundae comes from the United States.
 - (about) Not to be confused with Sunday, sundae.
 
 Learn more:
@@ -5565,7 +5543,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Sweet potato pie comes from United States.
+- (origin) Sweet potato pie comes from the United States.
 
 Learn more:
 
@@ -5613,7 +5591,7 @@ A taco salad is a Tex-Mex dish that combines ingredients used in Tex-Mex tacos.
 Fun facts:
 
 - (origin) Taco salad originated in Texas during the 1960s.
-- (origin) Taco salad comes from United States.
+- (origin) Taco salad comes from the United States.
 
 Learn more:
 
@@ -5650,7 +5628,7 @@ Fun facts:
 
 - (history) Heglin sold the sandwiches at his Sioux City, Iowa, restaurant in 1924.
 - (about) The sandwich is now well known throughout the Midwestern United States, and is served not only in small, local establishments but also in franchise restaurant locations such as Dairy Queen and Maid-Rite.
-- (origin) Tavern sandwich comes from United States.
+- (origin) Tavern sandwich comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -5677,12 +5655,8 @@ Texas caviar, also called cowboy caviar, is a bean salad consisting of black-eye
 Fun facts:
 
 - (history) Texas caviar was created in the U.S. state of Texas around 1940 by Helen Corbitt, a native New Yorker who later became director of food service for the Zodiac Room at Neiman Marcus in Dallas, Texas.
-- (origin) She first served the dish on New Year's Eve at the Houston Country Club.
 - (inspiration) Texas caviar is named after Texas, caviar.
-
-More fun facts (when the user asks for more):
-
-- (origin) Texas caviar comes from United States.
+- (origin) Texas caviar comes from the United States.
 
 Learn more:
 
@@ -5702,15 +5676,15 @@ Texas toast is a toasted bread that is typically made from sliced bread that has
 
 Fun facts:
 
-- (origin) The once-thriving chain, whose heyday in the 1940s saw over 100 locations across the United States, also claims to be the originator of the onion ring.
+- (origin) Texas toast may have been first created in 1946 at the Pig Stand in Denton, Texas, after a bakery order for thicker slices of bread resulted in slices too thick for the toaster; a cook, Wiley W. W. Cross, suggested buttering and grilling them as a solution.
 - (about) One claimant to the invention of Texas toast is Kirby's Pig Stand.
-- (origin) Texas toast may have been first created in 1946 at the Pig Stand in Denton, Texas, after a bakery order for thicker slices of bread resulted in slices too thick for the toaster; a cook, Wiley W.
+- (origin) The once-thriving chain, whose heyday in the 1940s saw over 100 locations across the United States, also claims to be the originator of the onion ring.
 
 More fun facts (when the user asks for more):
 
 - (about) Popular not only in Texas and its bordering states, Texas toast is often served as a side dish with southern-style dishes, such as chicken-fried steak, fried catfish, or barbecue.
-- (about) Cross is also credited for combining the Texas toast with chicken-fried steak to create Kirby's Pig Stand's famous Chicken Fried Steak Sandwich.
-- (origin) Texas toast comes from United States.
+- (about) W.W.W. Cross is also credited for combining the Texas toast with chicken-fried steak to create Kirby's Pig Stand's famous Chicken Fried Steak Sandwich.
+- (origin) Texas toast comes from the United States.
 
 Learn more:
 
@@ -5737,7 +5711,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) In the 1998 episode of Friends, S5E9 "The One with Ross' Sandwich", character Monica Geller constructs a double-decker Thanksgiving leftovers sandwich for her brother Ross Geller, featuring a so-called "moist maker"—the middle bread slice soaked in gravy.
-- (origin) Thanksgiving sandwich comes from United States.
+- (origin) Thanksgiving sandwich comes from the United States.
 
 Learn more:
 
@@ -5780,12 +5754,13 @@ Toasted ravioli, colloquially known as T-ravs, is breaded deep-fried ravioli, us
 
 Fun facts:
 
-- (history) Louis area, also claim to have been among the first to bring toasted ravioli to the States from Sicily; their current owner, Tony Lombardo, shows menus from the 1930s that include it.
-- (about) While many restaurants on The Hill claim its creation, Charlie Gitto's "On The Hill" restaurant (then known as "Angelo's") is where it was made famous.
+- (history) Lombardo's Restaurants, located around the St. Louis area, also claim to have been among the first to bring toasted ravioli to the States from Sicily; their current owner, Tony Lombardo, shows menus from the 1930s that include it.
+- (about) Toasted ravioli was created and popularized in St. Louis, Missouri.
 - (history) Supposedly, in the early 1940s, a ravioli was accidentally dropped into the fryer by a chef.
 
 More fun facts (when the user asks for more):
 
+- (about) While many restaurants on The Hill claim its creation, Charlie Gitto's "On The Hill" restaurant (then known as "Angelo's") is where it was made famous.
 - (about) Oldani is said to have named the dish 'toasted' ravioli because he thought 'toasted' was more appealing than 'fried'.
 
 Learn more:
@@ -5807,7 +5782,7 @@ A tomato sandwich is a dish closely associated with the cuisine of the Southern 
 Fun facts:
 
 - (history) According to Tasting Table, the Virginia Chronicle is widely credited with the first mention of the sandwich in 1911.
-- (origin) Tomato sandwich comes from United States.
+- (origin) Tomato sandwich comes from the United States.
 
 Learn more:
 
@@ -5828,7 +5803,7 @@ Fun facts:
 
 - (history) The first tomato pies in the United States were sold in New York City at Lombardi's which opened in 1905.
 - (about) In September 2017, Classico Tomato Pies opened in West Windsor and won best Trenton tomato pie by the Bridgewater Courier News.
-- (origin) Trenton tomato pie comes from United States.
+- (origin) Trenton tomato pie comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -5861,7 +5836,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (inspiration) The club had an English atmosphere and the sandwich was named after Devonshire Street, located one block away.
-- (origin) Turkey Devonshire comes from United States.
+- (origin) Turkey Devonshire comes from the United States.
 
 Learn more:
 
@@ -5883,18 +5858,18 @@ The Twinkie is an American, soft snack cake, described on its packaging as "gold
 Fun facts:
 
 - (origin) In 1988, Fruit and Cream Twinkies were introduced with a strawberry filling swirled into the cream.
-- (about) Vanilla's dominance over banana flavoring was challenged in 2005, following a month-long promotion of the movie King Kong.
 - (inspiration) A common urban legend claims that Twinkies have a theoretically infinite shelf life, and can last unspoiled for a relatively long time of ten, fifty, or one hundred years due to the chemicals used in their production.
+- (history) Twinkie dates from 1930-.
 
 More fun facts (when the user asks for more):
 
-- (history) Twinkie dates from 1930-.
 - (history) Twinkies were invented on April 6, 1930, by Canadian-born baker James "Jimmy" Alexander Dewar for the Continental Baking Company in Schiller Park, Illinois.
 - (about) During bankruptcy proceedings, Twinkie production was suspended on November 15, 2012, and resumed after an absence of a few months from American store shelves, becoming available again nationwide on July 15, 2013.
 - (origin) This change proved popular, and banana-cream Twinkies were not widely re-introduced.
 - (about) A box of Twinkies from shortly before Hostess's bankruptcy in 2012 was opened eight years later; one had completely molded over with cladosporium, another had a small amount of mold, and the creme filling in a third Twinkie had turned brown with the taste of "old sock".
 - (about) The 2012 Super Bowl Chevy Silverado Apocalypse commercial also gives a nod to the Twinkie's reputed durability.
-- (origin) Twinkie comes from United States.
+- (origin) Twinkie comes from the United States.
+- (about) Vanilla's dominance over banana flavoring was challenged in 2005, following a month-long promotion of the movie King Kong.
 
 Learn more:
 
@@ -5979,20 +5954,19 @@ A Waldorf salad is a fruit and nut salad generally made of celery, fresh apples,
 
 Fun facts:
 
-- (inspiration) Waldorf salad is named for the Waldorf-Astoria hotel in New York City, where it was first created for a charity ball given in honor of the St.
-- (history) Mary's Hospital for Children on March 13, 1896.
+- (inspiration) Waldorf salad is named for the Waldorf-Astoria hotel in New York City, where it was first created for a charity ball given in honor of the St. Mary's Hospital for Children on March 13, 1896.
+- (history) In 1896, the salad appeared in The Cook Book by "Oscar of the Waldorf".
 - (origin) Waldorf salad was first made by Oscar Tschirky.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1896, the salad appeared in The Cook Book by "Oscar of the Waldorf".
 - (history) It did not contain nuts, but they had been added by the time the recipe appeared in The Rector Cook Book in 1928.
 - (history) An American guest demanding a Waldorf salad featured prominently in a 1979 episode of the British sitcom Fawlty Towers.
 - (inspiration) Waldorf salad is named after Waldorf-Astoria Hotel (New York, N.Y.).
 - (history) Waldorf salad dates from 1893-.
 - (inspiration) The Waldorf-Astoria's maître d'hôtel, Oscar Tschirky, developed or inspired many of the hotel's signature dishes and is widely credited with creating the salad recipe.
 - (about) The salad is alluded to in the 2009 Mad Men episode "Guy Walks Into an Advertising Agency", when Conrad Hilton boasts to Don Draper about the Waldorf-Astoria's kitchen and its namesake salad.
-- (origin) Waldorf salad comes from United States.
+- (origin) Waldorf salad comes from the United States.
 
 Learn more:
 
@@ -6019,7 +5993,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) The salad is also full of nuts." Both cake and salad were part of a trend for satirically named recipes such as Nixon's Perfectly Clear Consommé and Liddy's Clam-Up Chowder.
-- (origin) Watergate salad comes from United States.
+- (origin) Watergate salad comes from the United States.
 
 Learn more:
 
@@ -6046,7 +6020,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) The white hot is the official hot dog of the Buffalo Sabres, Rochester Americans and Rochester Rhinos and was the official hot dog of the Washington Nationals during the major league baseball team's first season.
-- (origin) White hot comes from United States.
+- (origin) White hot comes from the United States.
 
 Learn more:
 
@@ -6066,18 +6040,18 @@ Yaka mein or yat gaw mein is a type of beef noodle soup found in many Creole res
 Fun facts:
 
 - (inspiration) Some sources say it was invented by Chinese immigrants brought to California during the mid-19th century to build the railroads between Houston and New Orleans and work in the sugar plantations of the American South. "Ya-Ca-Mein" is documented as being on the menu in New Orleans at least since 1945.
-- (culture) Vendors are common at New Orleans second lines, along with other settings including the New Orleans Jazz & Heritage Festival, alongside many other Creole and Cajun specialties.
 - (history) Regardless of its North American origins, by the 1920s yaka mein was already known in other parts of North America.
+- (about) One of the major proponents of yaka mein since 2006 is Linda Green, who caters the dish at the Ogden Museum of Southern Art, JazzFest, Oak Street Po’Boy Fest, among other locations and cultural events in New Orleans.
 
 More fun facts (when the user asks for more):
 
-- (about) One of the major proponents of yaka mein since 2006 is Linda Green, who caters the dish at the Ogden Museum of Southern Art, JazzFest, Oak Street Po’Boy Fest, among other locations and cultural events in New Orleans.
 - (about) The Baltimore variation, colloquially called yat gaw mein or "dirty yak", utilizes shrimp, crayfish, or blue crab as the primary source of protein instead of beef brisket, due to the popularity of shellfish in Maryland; the noodles are udon and are served in a thicker, richer gravy than New Orleans yakamein.
 - (about) Chinese restaurants in both northwest and northeast Baltimore are known for their yat gaw mein, with a slight rivalry between the two areas in methods of serving and popularity.
 - (about) In Norfolk and the surrounding Hampton Roads area, yaka mein is known as "box of yock" and served in takeout pails; this name is shared with the style of yaka mein in Cambridge, Maryland, on Maryland's Eastern Shore.
 - (about) Yaka mein was during this period that the Chinese noodle soup adapted to local Creole and Chinese clientele.
 - (about) The author also indicated that other noodle dishes served in disparate fashions may also be collectively known as yet-ca mein.
-- (origin) Yaka mein comes from United States.
+- (origin) Yaka mein comes from the United States.
+- (culture) Vendors are common at New Orleans second lines, along with other settings including the New Orleans Jazz & Heritage Festival, alongside many other Creole and Cajun specialties.
 
 Learn more:
 
@@ -6097,17 +6071,17 @@ Spam musubi is a snack and lunch food composed of a slice of grilled Spam sandwi
 
 Fun facts:
 
-- (origin) In 1999, L&L Hawaiian Barbecue introduced the Hawaii regional snack as a menu item in its first mainland U.S. restaurant in Puente Hills, California.
 - (about) Survivors of the Japanese American internment camps on the mainland of the United States claim to have invented the precursor to Spam musubi, when they placed seasoned slices of Spam on white rice in a baking pan.
 - (history) The Garden Island in 1983 described it as, "Spam and rice, two local favorites, are combined in an enormous musubi (rice ball) wrapped in nori (sheets of dried seaweed)." Eventually, Funamura's musubi was made using a box mold, taking on its familiar form.
+- (origin) In 1999, L&L Hawaiian Barbecue introduced the Hawaii regional snack as a menu item in its first mainland U.S. restaurant in Puente Hills, California.
 
 More fun facts (when the user asks for more):
 
-- (about) As the Hawaii-based chain grew across several American states, so did the awareness and popularity of the snack, eventually becoming a mainstay on the menu, and making L&L the first restaurant chain to make the snack available nationally.
 - (history) In the United Kingdom, where Spam was ubiquitous during the hardship of the postwar years, Spam acquired a stigma exemplified by the 1970 Monty Python sketch.
 - (about) Spam musubi is a form of musubi that originally came from Hawaii, a popular item in the lunchboxes of Hawaiian plantation workers.
 - (culture) On August 8, 2021, L&L Hawaiian Barbecue established "National Spam Musubi Day" to celebrate the iconic snack from Hawaii.
 - (origin) Spam musubi comes from Hawaii.
+- (about) As the Hawaii-based chain grew across several American states, so did the awareness and popularity of the snack, eventually becoming a mainstay on the menu, and making L&L the first restaurant chain to make the snack available nationally.
 
 Learn more:
 
@@ -6131,22 +6105,22 @@ Fun facts:
 
 - (history) Baguette was first recorded as a kind of bread in 1920.
 - (origin) The first steam oven was brought to Paris in the early 19th century by August Zang, who also introduced Vienna bread (pain viennois) and the croissant, and whom some French sources thus credit with originating the baguette.
-- (about) In November 2018, documentation surrounding the "craftsmanship and culture" of making this bread was added to the French Ministry of Culture's National Inventory of Intangible Cultural Heritage.
+- (culture) In 2022, the artisanal know-how and culture of baguette bread was inscribed to the UNESCO Intangible Cultural Heritage Lists.
 
 More fun facts (when the user asks for more):
 
-- (history) The average consumption of bread fell from 600 grams/day in the early 1900s to 170 grams/day in 1986.
-- (culture) In 2022, the artisanal know-how and culture of baguette bread was inscribed to the UNESCO Intangible Cultural Heritage Lists.
-- (history) Finally, the word "baguette" appears to define a particular type of bread in a regulation of the department of the Seine in August 1920: "The baguette, having a minimum weight of 80 g [2+3⁄4 oz] and a maximum length of 40 cm [16 in], may not be sold for a price higher than 0.35 francs apiece".
+- (history) The word "baguette" appears to define a particular type of bread in a regulation of the department of the Seine in August 1920: "The baguette, having a minimum weight of 80 g [2+3⁄4 oz] and a maximum length of 40 cm [16 in], may not be sold for a price higher than 0.35 francs apiece".
 - (history) In April 1944, a competition called Le Grand Prix de la Baguette began in France to determine who made the best baguettes.
-- (history) In 1993, the French Parliament passed Le Décret Pain (The Bread Decree).
 - (culture) Since 1994, the city of Paris awards the Grand prix de la baguette de tradition française de la ville de Paris for the best baguette in the city.
+- (history) The average consumption of bread fell from 600 grams/day in the early 1900s to 170 grams/day in 1986.
 - (culture) The dough of the traditional baguette is defined by French law.
 - (culture) Outside France, the baguette is often considered a symbol of French culture, but the association of France with long loaves long predates it.
-- (culture) These combine a traditional gas-fired oven and a brick oven, a thick "deck" of stone or firebrick heated by natural gas instead of wood.
-- (inspiration) They are judged based on baking, appearance, smell, taste, and crumb.
 - (origin) Baguette comes from France.
 - (about) Not to be confused with Bagietka, Baguette.
+- (about) In November 2018, documentation surrounding the "craftsmanship and culture" of making this bread was added to the French Ministry of Culture's National Inventory of Intangible Cultural Heritage.
+- (history) In 1993, the French Parliament passed Le Décret Pain (The Bread Decree).
+- (culture) These combine a traditional gas-fired oven and a brick oven, a thick "deck" of stone or firebrick heated by natural gas instead of wood.
+- (inspiration) They are judged based on baking, appearance, smell, taste, and crumb.
 
 Learn more:
 
@@ -6168,9 +6142,9 @@ Banana pudding is a Southern United States dessert generally consisting of layer
 
 Fun facts:
 
-- (origin) In 1920, the use of vanilla wafers instead of ladyfingers first appeared, first seen in a recipe from Mrs.
+- (origin) In 1920, the use of vanilla wafers instead of ladyfingers first appeared, first seen in a recipe from Mrs. Laura Kerley in a Bloomington, Illinois local newspaper, The Pantagraph.
 - (history) Recipes for banana pudding became very popular in the 1890s across the US, with the sponge cake approach being the most popular.
-- (origin) Banana pudding comes from United States.
+- (origin) Banana pudding comes from the United States.
 
 Learn more:
 
@@ -6193,14 +6167,14 @@ Fun facts:
 
 - (history) In 1951, Ella Brennan and the restaurant's chef Paul Blangé worked together to modify a dish made by Ella's mother in the Brennan family home.
 - (inspiration) Bananas Foster was named for Richard Foster, the chairman of the New Orleans Crime Commission and a friend of restaurant owner Owen Brennan.
-- (about) Popular toppings also include whipped cream and different types of nuts (e.g., pecans, walnuts, etc.).
+- (about) Bananas Foster was created at the original location of Brennan's in New Orleans, Louisiana, when the restaurant was still known as Owen Brennan's Vieux Carré.
 
 More fun facts (when the user asks for more):
 
 - (history) Bananas foster were among the most popular desserts of the 1960s in the US.
-- (about) Bananas Foster was created at the original location of Brennan's in New Orleans, Louisiana, when the restaurant was still known as Owen Brennan's Vieux Carré.
 - (about) In New Orleans, popular lore credits the introduction of flambéeing bananas to a relative of Empress Joséphine de Beauharnais of France.
-- (origin) Bananas Foster comes from United States.
+- (origin) Bananas Foster comes from the United States.
+- (about) Popular toppings also include whipped cream and different types of nuts (e.g., pecans, walnuts, etc.).
 
 Learn more:
 
@@ -6221,13 +6195,13 @@ Beignet is a deep-fried pastry of French origin.
 
 Fun facts:
 
-- (origin) They were brought to New Orleans in the 18th century by French colonists, from "the old mother country", as well as by Acadians, and became a large part of home-style Creole cooking.
+- (origin) Beignet comes from France.
 - (about) The pastry is popular in French, Hungarian, Italian, Cajun, and American cuisines.
 - (culture) Deep-fried yeast dough has been part of culinary tradition since at least the Middle Ages.
 
 More fun facts (when the user asks for more):
 
-- (origin) Beignet comes from France.
+- (origin) They were brought to New Orleans in the 18th century by French colonists, from "the old mother country", as well as by Acadians, and became a large part of home-style Creole cooking.
 
 Learn more:
 
@@ -6276,13 +6250,13 @@ Calas () are dumplings composed primarily of cooked rice, yeast, sugar, eggs, an
 Fun facts:
 
 - (culture) Writers in the first decade of the 20th century refer to the increasing rarity of calas as street food.
-- (history) A 1653 French recipe, beignets de riz, lends support to a French origin as well.
 - (about) From a breakfast food it evolved into a Mardi Gras and First Communion treat among Louisiana Creole families.
+- (history) After World War II, while the beignet remained popular, the calas became more and more obscure.
 
 More fun facts (when the user asks for more):
 
 - (culture) Calas is traditionally a breakfast dish, served with coffee or cafe au lait, and has a mention in most Creole cuisine cookbooks.
-- (history) After World War II, while the beignet remained popular, the calas became more and more obscure.
+- (history) A 1653 French recipe, beignets de riz, lends support to a French origin as well.
 
 Learn more:
 
@@ -6348,8 +6322,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) In the 1800s, harmful stereotypes emerged that associated black individuals with certain foods, such as fried chicken, chitterlings, watermelon, and dirty rice.
-- (about) Through these options, enslaved people adapted to create meals to feed themselves and their families.
 - (culture) Cajun rice typically incorporates Andouille sausage, bell pepper, celery, and onions along with a blend of traditional Cajun spices.
+- (about) Through these options, enslaved people adapted to create meals to feed themselves and their families.
 
 Learn more:
 
@@ -6371,19 +6345,17 @@ Doberge cake (often pronounced DOH-bash) is a layered dessert originating in New
 
 Fun facts:
 
-- (history) She opened her new bakery on May 21, 1970; she ran it until she retired in 1981 at the age of 87, when she sold the shop and doberge recipe to Maurice's French Pastries, which was still in the business of baking and selling doberge cakes in Metairie as of early 2022.
 - (inspiration) The doberge cake is based on a recipe originating in Alsace-Lorraine.
+- (history) In 1946 Joe Gambino bought the name, recipe and retail shop, including her recipe for doberge cake and a promise that she would not reopen in New Orleans for five years.
 - (about) Still popular in the area, the cake is made of multiple thin layers of cake alternating with dessert pudding.
 
 More fun facts (when the user asks for more):
 
-- (history) Rose, Louisiana, opened a bakery in New Orleans in 1933.
-- (inspiration) Beulah Ledner's recipe is available in the cookbook, Let's bake with Beulah Ledner: A legendary New Orleans Lady by Maxine Wolchansky.
-- (history) In 1946 Joe Gambino bought the name, recipe and retail shop, including her recipe for doberge cake and a promise that she would not reopen in New Orleans for five years.
-- (culture) Traditional flavors are chocolate, lemon or caramel.
-- (inspiration) She became very successful after creating her "Doberge cake" adapted from the Hungarian/Austrian Dobos Cake, a cake made of nine génoise cake layers filled with buttercream and topped with a hard caramel glaze.
 - (about) After a couple of years of illness, she reopened in a new location on Metairie Road in the New Orleans suburb of Metairie under the name "Beulah Ledner, Inc." As her business and popularity grew, her son, Albert, designed and built a new building and a new machine to mass-produce sheet cakes using his mother's recipes.
-- (origin) Doberge cake comes from United States.
+- (origin) Doberge cake comes from the United States.
+- (history) Beulah Levy Ledner, born into a Jewish family in St. Rose, Louisiana, opened a bakery in New Orleans in 1933.
+- (inspiration) Beulah Ledner's recipe is available in the cookbook, Let's bake with Beulah Ledner: A legendary New Orleans Lady by Maxine Wolchansky.
+- (culture) Traditional flavors are chocolate, lemon or caramel.
 
 Learn more:
 
@@ -6433,13 +6405,13 @@ French toast is a dish of sliced bread soaked in beaten eggs and often milk or c
 
 Fun facts:
 
-- (history) In Spain, one of the first recipes was published in 1611 by Francisco Martínez Motiño.
+- (history) In Le Viandier, a cookbook written around 1300, the French chef Guillaume Taillevent presented a recipe for tostées dorées involving eggs and sugar.
 - (origin) French toast comes from France.
-- (history) Hannah Woolley included a recipe in her 1670s cookbook The Queen-Like Closet.
+- (history) In Spain, one of the first recipes was published in 1611 by Francisco Martínez Motiño.
 
 More fun facts (when the user asks for more):
 
-- (history) In Le Viandier, a cookbook written around 1300, the French chef Guillaume Taillevent presented a recipe for tostées dorées involving eggs and sugar.
+- (history) Hannah Woolley included a recipe in her 1670s cookbook The Queen-Like Closet.
 - (history) In the 15th century, there are English recipes for pain perdu and culinary expert Martino da Como also offers a recipe.
 
 Learn more:
@@ -6460,9 +6432,9 @@ In cooking and gastronomy, goose is the meat of several species of bird in the f
 
 Fun facts:
 
-- (history) There are records of domesticated geese in ancient Egypt, and wall-paintings show them being force-fed to enlarge their livers.
 - (culture) In many culinary traditions, a roast goose is a feast meal dating back centuries.
 - (about) Geese also provide some famous oriental dishes: Alan Davidson in The Oxford Companion to Food instances the marinated and roasted goose of Shantou in Guangdong province in China.
+- (history) There are records of domesticated geese in ancient Egypt, and wall-paintings show them being force-fed to enlarge their livers.
 
 More fun facts (when the user asks for more):
 
@@ -6481,7 +6453,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q122723474) (CC0); [Wikipedia:
 
 ### Gumbo
 
-Gumbo is a stew that is popular among the U.S.
+Gumbo is a stew that is popular among the U.S. Gulf Coast community, the New Orleans stew variation being the official state cuisine of the U.S. state of Louisiana.
 
 - From: Louisiana, United States
 - Origin (Wikidata): United States
@@ -6491,25 +6463,25 @@ Fun facts:
 
 - (history) Gumbo was first described in 1802, and was listed in various cookbooks in the latter half of the 19th century.
 - (inspiration) The dish gained more widespread popularity in the 1970s, after the United States Senate dining room added it to the menu in honor of Louisiana Senator Allen Ellender.
-- (about) The first ships carried rice and men who were experienced in its cultivation.
+- (culture) Gumbo is traditionally served with rice.
 
 More fun facts (when the user asks for more):
 
 - (history) The popularity of chef Paul Prudhomme in the 1980s spurred further interest in the dish.
 - (inspiration) Gumbo was likely named after one of its two main ingredients, okra or filé.
+- (inspiration) Cajun gumbo is generally based on a dark roux and is made with shellfish or fowl.
+- (inspiration) Gumbo may have been partially based on the French dish bouillabaisse, West African okra stew or Choctaw stew.
+- (origin) Gumbo comes from the United States.
 - (history) The establishment of Mobile in 1702 marked the beginning of the French colony of Louisiana.
 - (history) Slave ships began arriving in Louisiana in 1719.
+- (about) The first ships carried rice and men who were experienced in its cultivation.
 - (origin) In 1721, 125 Germans settled 40 miles (64 km) from New Orleans, and introduced the art of making sausage.
 - (history) By 1746, the white population of Louisiana was estimated to be 3,200, with an estimated 4,730 black people.
 - (history) The colony was transferred from French to Spanish control in 1762.
 - (inspiration) The preferred method in the historical New Orleans variation is with a French-inspired dark, even chocolate-like, roux.
-- (inspiration) Cajun gumbo is generally based on a dark roux and is made with shellfish or fowl.
-- (culture) Gumbo is traditionally served with rice.
-- (inspiration) Gumbo may have been partially based on the French dish bouillabaisse, West African okra stew or Choctaw stew.
 - (about) The vegetable okra was known as ki ngombo or quingombo in Kimbundu; the word is akin to the Umbundu: ochinggômbo and the Luba-Lulua: chinggômbô "okra".
 - (culture) In this environment, cultures could influence each other and combine to create new traditions and cuisine.
 - (about) The grain adapted well to its new environment, and within a few years, rice was commonly grown along the Mississippi River.
-- (origin) Gumbo comes from United States.
 
 Learn more:
 
@@ -6531,22 +6503,22 @@ Jambalaya is a savory rice dish that developed in the U.S. state of Louisiana fu
 
 Fun facts:
 
-- (history) This is supported by the fact that the first printed appearance of the word is in a Provençal poem published in 1837.
 - (origin) Jambalaya is a Creole/Cajun-American dish that originated in French Louisiana during the colonial period.
 - (about) In the records of slave narratives, formerly enslaved Black Americans made jambalaya.
+- (history) This is supported by the fact that the first printed appearance of the word is in a Provençal poem published in 1837.
 
 More fun facts (when the user asks for more):
 
 - (about) Historians who researched the records of slave narratives say they point to a possible Caribbean and African origin of the dish.
-- (origin) John the Baptist Parish, suggests jambalaya originated on the Senegalese coast of West Africa.
+- (origin) Author Ibraham Seck, director of research at the Whitney Plantation Slave Museum in St. John the Baptist Parish, suggests jambalaya originated on the Senegalese coast of West Africa.
 - (about) In the records of slave narratives, formerly enslaved African Americans from Louisiana made jambalaya as a meal with rice, pork or chicken, red pepper, onion, lard, salt and pepper.
 - (origin) There is some folklore that claims jambalaya originates from the French Quarter of New Orleans, in the original sector.
 - (origin) The tomato, a mainstay ingredient of the dish, was introduced to West Africans by the French and was subsequently incorporated into their one-pot rice dishes.
 - (about) Another history, per Louisiana chef John Folse, author of The Encyclopedia of Cajun & Creole Cuisine (2004), is that jambalaya is a contraction of jambon à la yaya, meaning "ham with rice", from French jambon and Yoruba yaya.
-- (culture) Rice was and is a traditional staple in West Africa, where one-pot mixed rice dishes such as thiéboudienne, benachin or Jollof rice were common.
-- (about) Black Americans adapted West African dishes in the Southern United States by using North American ingredients.
 - (origin) Jambalaya comes from Louisiana.
 - (about) Not to be confused with Jambalaya.
+- (culture) Rice was and is a traditional staple in West Africa, where one-pot mixed rice dishes such as thiéboudienne, benachin or Jollof rice were common.
+- (about) Black Americans adapted West African dishes in the Southern United States by using North American ingredients.
 
 Learn more:
 
@@ -6591,9 +6563,9 @@ Oysters en brochette is a classic dish in New Orleans Creole cuisine.
 
 Fun facts:
 
-- (culture) The traditional presentation is on triangles of toast with the skewer removed and dusted with salt and pepper or topped with either maître d'hôtel butter or a meunière sauce.
 - (about) Oysters en brochette was usually offered on restaurant menus as an appetizer, but was also a popular lunch entrée.
-- (origin) Oysters en brochette comes from United States.
+- (origin) Oysters en brochette comes from the United States.
+- (culture) The traditional presentation is on triangles of toast with the skewer removed and dusted with salt and pepper or topped with either maître d'hôtel butter or a meunière sauce.
 
 More fun facts (when the user asks for more):
 
@@ -6621,16 +6593,16 @@ Fun facts:
 
 - (history) Oysters Rockefeller was created in 1889 in New Orleans.
 - (inspiration) Oysters Rockefeller is named after John D. Rockefeller.
-- (culture) Also, diced bacon often appears as a non-traditional topping in addition to or in place of the sauce.
+- (about) Oysters Rockefeller is a popular restaurant appetizer throughout the United States and is served as a brunch item in the South.
 
 More fun facts (when the user asks for more):
 
 - (history) Oysters Rockefeller was created in 1889 at the New Orleans restaurant Antoine's by Jules Alciatore, son of founder Antoine Alciatore.
+- (about) Oysters Rockefeller was named "oysters Rockefeller" after John D. Rockefeller, the then-wealthiest American, for its extreme richness.
+- (origin) Oysters Rockefeller comes from the United States.
 - (history) The restaurant's recipe remains unchanged, with an estimated three and a half million orders having been served by 1980.
 - (history) A 1986 laboratory analysis by William Poundstone in Bigger Secrets indicated its primary ingredients were parsley, pureed and strained celery, scallions or chives (indistinguishable in a food lab), olive oil, and capers.
-- (about) Oysters Rockefeller is a popular restaurant appetizer throughout the United States and is served as a brunch item in the South.
-- (about) Oysters Rockefeller was named "oysters Rockefeller" after John D.
-- (origin) Oysters Rockefeller comes from United States.
+- (culture) Diced bacon often appears as a non-traditional topping in addition to or in place of the sauce.
 
 Learn more:
 
@@ -6653,7 +6625,7 @@ Fun facts:
 
 - (culture) Red beans and rice is customary – ham was traditionally a Sunday meal and Monday was washday.
 - (about) A similar vegetarian dish rajma chawal (which translates literally to red beans and rice) is popular in North India.
-- (origin) Red beans and rice comes from United States.
+- (origin) Red beans and rice comes from the United States.
 
 Learn more:
 
@@ -6675,7 +6647,7 @@ Shrimp creole is a dish of Louisiana Creole origin (French, Spanish, and African
 
 Fun facts:
 
-- (origin) Shrimp creole comes from United States.
+- (origin) Shrimp creole comes from the United States.
 
 Learn more:
 
@@ -6732,7 +6704,7 @@ Turtle soup, also known as terrapin soup, is a soup or stew made from the meat o
 
 Fun facts:
 
-- (origin) Turtle soup comes from People's Republic of China.
+- (origin) Turtle soup comes from the People's Republic of China.
 
 Learn more:
 
@@ -6761,7 +6733,7 @@ More fun facts (when the user asks for more):
 
 - (about) Originally, crawfish étouffée was a popular dish amongst Cajuns in the bayous and backwaters of Louisiana.
 - (about) "Étouffée" is the sixth track on Vince Staples's 2024 album Dark Times.
-- (origin) Étouffée comes from United States.
+- (origin) Étouffée comes from the United States.
 
 Learn more:
 
@@ -6788,7 +6760,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) A newspaper article published in 1902 declared that "No pie-eating people can be permanently vanquished." "Mom and apple pie" became a shorthand for Americana.
-- (history) However, the recipe has changed over the years due to health concerns and McDonald's switched to baked pies in 1992.
+- (history) The recipe has changed over the years due to health concerns and McDonald's switched to baked pies in 1992.
 - (inspiration) The unincorporated community of Pie Town, New Mexico, is named after apple pie.
 - (about) The bottom pastry base may be baked separately (known as "blind-baking") to prevent it from getting soggy.
 - (culture) Apple pie was one of the dishes that Rhode Island army officers ate for their Fourth of July celebrations during the Siege of Petersburg, part of the American Civil War.
@@ -6825,11 +6797,11 @@ More fun facts (when the user asks for more):
 
 - (about) Historically in the United Kingdom, quick breads were known as biscuits.
 - (about) This is because biscuits were originally cooked in a twofold process: first baked, and then dried out in a slow oven.
-- (about) In a non-dunking poll the Chocolate Hobnob was ranked first with custard creams coming third.
 - (about) In the United States and sometimes Canada, this word refers to a quick bread that is like a scone, but with a fluffier texture (see biscuit (bread)), and what are known as biscuits in other English-speaking countries are called either a cookie or a cracker.
 - (about) Chocolate digestives, rich tea, and Hobnobs were ranked the UK's top three favourite dunking biscuits in 2009.
 - (origin) Biscuit comes from Great Britain.
 - (about) Not to be confused with cake, fruitcake, sponge cake, biscuit.
+- (about) In a non-dunking poll the Chocolate Hobnob was ranked first with custard creams coming third.
 
 Learn more:
 
@@ -6852,7 +6824,7 @@ Biscuits and gravy is a popular breakfast dish in the United States, especially 
 Fun facts:
 
 - (history) The meal emerged as a distinct regional dish after the American Revolutionary War (1775–1783), when stocks of foodstuffs were in short supply.
-- (origin) Biscuits and gravy comes from United States.
+- (origin) Biscuits and gravy comes from the United States.
 
 Learn more:
 
@@ -6898,18 +6870,18 @@ Buckeyes are confections made from a peanut butter fudge partially dipped in cho
 
 Fun facts:
 
-- (history) The dessert is not known prior to the 1960s or 1970s, originally being prepared by home cooks in their kitchens.
 - (inspiration) Named for their resemblance to the poisonous nut of the Ohio buckeye tree, the state tree of Ohio, this candy is particularly popular in Ohio and neighboring states.
+- (history) Despite recipes for chocolate-covered peanut butter confections dating back to the early 20th century, Ohio resident Gail Tabor is widely credited with the creation of candy as it is recognized today.
 - (about) In 2025, the Ohio State Legislature passed a bill that would make the buckeye Ohio's official state candy.
 
 More fun facts (when the user asks for more):
 
-- (history) Despite recipes for chocolate-covered peanut butter confections dating back to the early 20th century, Ohio resident Gail Tabor is widely credited with the creation of candy as it is recognized today.
-- (history) In 1964, Tabor was making candy from her mother's recipe for chocolate-covered peanut butter candies.
-- (history) Despite Tabor's refusal to share the recipe, the recipe appeared in the Ohio State Alumni Magazine in 1973 with the recipe attributed to a friend.
 - (history) In 1983, Tabor wrote an article for the Arizona Republic newspaper to re-claim her authorship of the recipe, outline the backstory, and share her recipe for the candies, Buckeye Balls.
 - (inspiration) Buckeye is named after Aesculus glabra.
-- (origin) Buckeye comes from United States.
+- (history) The dessert is not known prior to the 1960s or 1970s, originally being prepared by home cooks in their kitchens.
+- (origin) Buckeye comes from the United States.
+- (history) In 1964, Tabor was making candy from her mother's recipe for chocolate-covered peanut butter candies.
+- (history) Despite Tabor's refusal to share the recipe, the recipe appeared in the Ohio State Alumni Magazine in 1973 with the recipe attributed to a friend.
 
 Learn more:
 
@@ -6952,16 +6924,16 @@ A cabbage roll is a dish consisting of cooked cabbage leaves wrapped around a va
 Fun facts:
 
 - (about) Cooking textbook author Nancy Krcek stated that the origins of the dish are unclear and that it is possible multiple groups of people invented it at the same time.
-- (culture) Meat fillings are traditional in Europe, and include beef, lamb, or pork seasoned with garlic, onion, and spices.
+- (culture) Traditionally made with pork, beef, bacon, rice, spices and aromatics, the cabbage rolls are broiled in a tomato sauce and served with polenta, sour cream and spicy pickled peppers.
 - (about) Another cooking book author, Malgorzata Caprari, stated it is believed that credit is owed to the poorer inhabitants of Central and Eastern European countries.
 
 More fun facts (when the user asks for more):
 
 - (about) Due to the widespread cultivation of cabbage in these regions, it is likely the cultures who inhabited them were the original inventors of this dish.
-- (culture) Traditionally made with pork, beef, bacon, rice, spices and aromatics, the cabbage rolls are broiled in a tomato sauce and served with polenta, sour cream and spicy pickled peppers.
 - (about) Cabbage rolls have found their way into popular culture, becoming one of the most recognizable dishes in Central and Eastern European cuisine.
-- (culture) They often appear in literature and films as a symbol of homey comfort and tradition.
+- (culture) Meat fillings are traditional in Europe, and include beef, lamb, or pork seasoned with garlic, onion, and spices.
 - (culture) A version called holishkes is traditionally eaten by Jews on Simchat Torah.
+- (culture) They often appear in literature and films as a symbol of homey comfort and tradition.
 
 Learn more:
 
@@ -7012,9 +6984,9 @@ Chicken Vesuvio, a specialty of Chicago, is an Italian-American dish made from c
 
 Fun facts:
 
-- (about) The origins of the dish are unknown, but some suggest it might have been popularized by the Vesuvio Restaurant, which operated at 15 E.
+- (history) The origins of the dish are unknown, but some suggest it might have been popularized by the Vesuvio Restaurant, which operated at 15 E. Wacker Drive, Chicago, in the 1930s.
 - (culture) Other food historians have suggested that variants of Chicken Vesuvio can be found among the chicken dishes of the traditional cuisines of southern Italy.
-- (origin) Chicken Vesuvio comes from United States.
+- (origin) Chicken Vesuvio comes from the United States.
 
 Learn more:
 
@@ -7041,7 +7013,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Chislic comes from United States.
+- (origin) Chislic comes from the United States.
 
 Learn more:
 
@@ -7063,25 +7035,24 @@ Cincinnati chili (or Cincinnati-style chili) is a Mediterranean-spiced meat sauc
 
 Fun facts:
 
-- (history) Both dishes were developed by immigrant restaurateurs in the Cincinnati area during the 1920s.
 - (origin) Cincinnati chili originated with immigrant restaurateurs who were trying to expand their customer base by moving beyond narrowly ethnic styles of cuisine.
-- (culture) They began serving a "stew with traditional Mediterranean spices" as a topping for hot dogs which they called "coneys" in 1922 at their hot dog stand located next to a burlesque theater called the Empress, which they named their business after.
+- (history) Empress was the largest chili parlor chain in Cincinnati until 1949, when a former Empress employee and Greek immigrant, Nicholas Lambrinides, started Skyline Chili.
+- (inspiration) The dish does not contain chocolate, despite popular myth to the contrary.
 
 More fun facts (when the user asks for more):
 
-- (history) Tom and John Kiradjieff emigrated from the village of Hrupishta (present-day Argos Orestiko, Greece), fleeing ethnic rivalries and bigotry in the fallout from the Balkan Wars and World War I, in 1921.
-- (history) Empress was the largest chili parlor chain in Cincinnati until 1949, when a former Empress employee and Greek immigrant, Nicholas Lambrinides, started Skyline Chili.
-- (origin) In 1965, four brothers named Daoud, immigrants from Jordan, bought a restaurant called Hamburger Heaven from a former Empress employee.
 - (history) In 1985, one of the founders of Gold Star Chili, Fahid Daoud, returned to Jordan, where he opened his own parlor, called Chili House.
-- (origin) According to Jane and Michael Stern "Virtually all" were developed by Greek or Macedonian immigrants who passed through Ellis Island as they fled the fallout from the Balkan Wars in the first two decades of the twentieth century.
 - (history) Blues musician Lonnie Mack, who was born and raised just outside Cincinnati, released a guitar instrumental called "Camp Washington Chili" on his 1986 album Second Sight.
-- (inspiration) The dish does not contain chocolate, despite popular myth to the contrary.
-- (about) Customary toppings include cheddar cheese, onions, and beans; specific combinations of toppings are known as "ways".
 - (about) The most popular order is a "three-way", which adds shredded cheese to the chili-topped spaghetti (a "two-way"), while a "four-way" adds onions or beans before topping with the cheese.
 - (about) In 2000, one local chili parlor was named an America's Classic by the James Beard Foundation, and in 2013, Smithsonian named the same chili parlor one of the "20 Most Iconic Food Destinations in America".
 - (about) Outside of Jordan, Chili House as of 2020 had locations in Iran, Iraq, Libya, Oman, Palestine, Turkey and Qatar.
 - (about) For Restaurant Week 2018, a local mixologist developed a cocktail called "Manhattan Skyline", a Cincinnati chili-flavored whiskey cocktail.
-- (origin) Cincinnati chili comes from United States.
+- (origin) Cincinnati chili comes from the United States.
+- (history) Tom and John Kiradjieff emigrated from the village of Hrupishta (present-day Argos Orestiko, Greece), fleeing ethnic rivalries and bigotry in the fallout from the Balkan Wars and World War I, in 1921.
+- (origin) In 1965, four brothers named Daoud, immigrants from Jordan, bought a restaurant called Hamburger Heaven from a former Empress employee.
+- (origin) According to Jane and Michael Stern "Virtually all" were developed by Greek or Macedonian immigrants who passed through Ellis Island as they fled the fallout from the Balkan Wars in the first two decades of the twentieth century.
+- (about) Customary toppings include cheddar cheese, onions, and beans; specific combinations of toppings are known as "ways".
+- (culture) They began serving a "stew with traditional Mediterranean spices" as a topping for hot dogs which they called "coneys" in 1922 at their hot dog stand located next to a burlesque theater called the Empress, which they named their business after.
 
 Learn more:
 
@@ -7111,7 +7082,7 @@ More fun facts (when the user asks for more):
 
 - (history) In fact, a 1926 article from a Binghamton newspaper gave the dish its present name.
 - (about) City chicken is still popular in the Binghamton, New York, area.
-- (origin) City chicken comes from United States.
+- (origin) City chicken comes from the United States.
 
 Learn more:
 
@@ -7141,7 +7112,7 @@ More fun facts (when the user asks for more):
 
 - (history) The name was anglicized to Coney Island after the English took over the colony in 1664, coney being the corresponding English word.
 - (about) Despite its name and association with New York, it is most popular in the Midwestern United States, especially in Michigan.
-- (origin) Coney Island hot dog comes from United States.
+- (origin) Coney Island hot dog comes from the United States.
 
 Learn more:
 
@@ -7184,14 +7155,14 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) However, the Scottish were the first to have been recorded as deep-frying their chicken in fat with breadcrumbs and seasonings, as evidenced by a recipe in a 1747 cookbook by Hannah Glasse and a 1773 diary entry describing fried chicken on the Isle of Skye.
-- (about) The first known recipe in the US did not contain the seasonings that were in the earlier Scottish recipe.
+- (history) The Scottish were the first to have been recorded as deep-frying their chicken in fat with breadcrumbs and seasonings, as evidenced by a recipe in a 1747 cookbook by Hannah Glasse and a 1773 diary entry describing fried chicken on the Isle of Skye.
 - (history) There is an English cookbook from 1736 which mentions fried chicken, the "Dictionarium Domesticum", by Nathan Bailey, where it is called "a marinade of chickens".
 - (history) Fried chicken provided some means of an independent economy for enslaved and segregated African-American women, who became noted sellers of poultry (live or cooked) as early as the 1730s though this was cooked on a griddle.
 - (history) During the 20th century, chain restaurants focused on fried chicken began among the boom in the fast food industry.
 - (about) Because of the expensive nature of the ingredients, it was, despite popular belief, a rare dish in the African-American community reserved (as in Africa) for special occasions.
 - (about) American-style fried chicken gradually passed into everyday use as a general Southern dish, especially after the abolition of slavery, and its popularity spread.
 - (about) Not to be confused with Southern fried chicken.
+- (about) The first known recipe in the US did not contain the seasonings that were in the earlier Scottish recipe.
 
 Learn more:
 
@@ -7212,17 +7183,16 @@ Frozen custard is a frozen dessert that is a type of ice cream made with egg yol
 
 Fun facts:
 
-- (origin) Drewes Sr. was introduced to the treat when he began selling it in Florida to earn extra money during the winter off-season, first with the traveling carnival in the 1920s and then at his own custard stand in 1929.
-- (history) Louis, Missouri, where he opened Ted Drewes in 1930 and expanded to a second location in 1931 and three stores in that city by 1941.
-- (about) In their first weekend on the boardwalk, they sold 18,460 cones.
+- (origin) That is where tennis player Theodore R. Drewes Sr. was introduced to the treat when he began selling it in Florida to earn extra money during the winter off-season, first with the traveling carnival in the 1920s and then at his own custard stand in 1929.
+- (history) One early commercialization of frozen custard was in Coney Island, New York, in 1919, when ice cream vendors Archie and Elton Kohr found that adding egg yolks to ice cream created a smoother texture and helped the ice cream stay cold longer.
+- (about) Following the fair, the dessert's popularity spread throughout the Midwest; Milwaukee, Wisconsin, in particular, became known as the "unofficial frozen custard capital of the world".
 
 More fun facts (when the user asks for more):
 
-- (history) Egg yolks have been integrated into ice creams since at least the 1690s, though there are several notable invention stories that are associated with modern commercializations of this practice.
-- (history) One early commercialization of frozen custard was in Coney Island, New York, in 1919, when ice cream vendors Archie and Elton Kohr found that adding egg yolks to ice cream created a smoother texture and helped the ice cream stay cold longer.
 - (history) Throughout the 1920s, the popularity of frozen custard spread from Coney Island to traveling carnivals.
 - (origin) A frozen custard stand at the 1933 World's Fair in Chicago introduced the dessert to a wider audience.
-- (about) Following the fair, the dessert's popularity spread throughout the Midwest; Milwaukee, Wisconsin, in particular, became known as the "unofficial frozen custard capital of the world".
+- (history) Egg yolks have been integrated into ice creams since at least the 1690s, though there are several notable invention stories that are associated with modern commercializations of this practice.
+- (about) In their first weekend on the boardwalk, they sold 18,460 cones.
 
 Learn more:
 
@@ -7251,9 +7221,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (origin) Earlier versions of goulash did not include paprika, as it was not introduced to Europe until the 16th century.
+- (origin) Goulash comes from Kingdom of Hungary.
 - (origin) The name originates from the Hungarian gulyás [ˈɡujaːʃ].
 - (history) From the Middle Ages until well into the 19th century, the Puszta was home to enormous herds of cattle sold at cattle markets in Moravia, Vienna, Nuremberg and Venice.
-- (origin) Goulash comes from Kingdom of Hungary.
 - (about) Not to be confused with gulyásleves.
 
 Learn more:
@@ -7278,7 +7248,7 @@ Graham bread is a name for whole wheat bread that was inspired by the teachings 
 Fun facts:
 
 - (inspiration) Graham bread is named after Sylvester Graham.
-- (origin) Graham bread comes from United States.
+- (origin) Graham bread comes from the United States.
 
 Learn more:
 
@@ -7302,16 +7272,15 @@ A hamburger, often known as a burger, consists of fillings—usually a patty of 
 Fun facts:
 
 - (history) "Hamburger steak sandwiches" have been advertised in U.S. newspapers from New York to Hawaii since at least the 1890s, but the inventor is unclear.
-- (about) Some of the largest multinational fast-food chains feature burgers as one of their core products: McDonald's Big Mac and Burger King's Whopper have become global icons of American culture.
+- (about) The invention of hamburgers is attributed to various people, including Charlie Nagreen, Frank and Charles Menches, Oscar Weber Bilby, Fletcher Davis, and Louis Lassen.
 - (inspiration) Hamburger is named after Hamburg, sandwich.
 
 More fun facts (when the user asks for more):
 
 - (history) Some have pointed to a recipe for "Hamburgh sausages" on toasted bread, published in The Art of Cookery Made Plain and Easy by Hannah Glasse in 1758, as a notable first source of the dish.
-- (about) The invention of hamburgers is attributed to various people, including Charlie Nagreen, Frank and Charles Menches, Oscar Weber Bilby, Fletcher Davis, and Louis Lassen.
-- (history) Hamburgers gained national recognition in the U.S. at the 1904 St.
-- (about) Louis World's Fair when the New York Tribune referred to the hamburger as "the innovation of a food vendor on the pike." No conclusive argument has ended the dispute over invention.
-- (origin) Hamburger comes from United States, Germany.
+- (history) Hamburgers gained national recognition in the U.S. at the 1904 St. Louis World's Fair when the New York Tribune referred to the hamburger as "the innovation of a food vendor on the pike." No conclusive argument has ended the dispute over invention.
+- (origin) Hamburger comes from the United States, Germany.
+- (about) Some of the largest multinational fast-food chains feature burgers as one of their core products: McDonald's Big Mac and Burger King's Whopper have become global icons of American culture.
 
 Learn more:
 
@@ -7336,7 +7305,7 @@ Fun facts:
 
 - (inspiration) Horseshoe sandwich is named after horseshoe.
 - (about) Ross' Restaurant in Bettendorf, Iowa, was known for a similar dish called the Magic Mountain before closing permanently in February 2023.
-- (origin) Horseshoe sandwich comes from United States.
+- (origin) Horseshoe sandwich comes from the United States.
 
 Learn more:
 
@@ -7359,17 +7328,17 @@ Fun facts:
 
 - (history) In 2016, Food & Wine credited a 1930 Mankato church congregation as the first written record of a hotdish recipe.
 - (origin) The dish originates in the Upper Midwest region of the United States, where it remains a popular comfort food, particularly in Minnesota, South Dakota, Wisconsin, North Dakota, and Montana.
-- (about) The source included neither the name of the woman that invented the recipe nor the source.
+- (culture) A classic hotdish known as "tater tot hotdish" is traditionally made with ground beef topped with tater tots and flavored with thick condensed cream of mushroom soup sauce.
 
 More fun facts (when the user asks for more):
 
 - (history) Mankato resident, Joyce Nelson, 90, had a copy of the 1930 Lutheran church recipe book and it was found that the recipe was indeed included in that year's cookbook.
-- (culture) A classic hotdish known as "tater tot hotdish" is traditionally made with ground beef topped with tater tots and flavored with thick condensed cream of mushroom soup sauce.
-- (about) In years past, a pasta was the most frequently used starch, but tater tots and local wild rice have become very popular as well.
-- (about) They are well-suited for family reunions, funerals, church suppers, and covered dish dinners or potlucks where they may be paired with potato salad, coleslaw, Jello salads, Snickers salad, and pan-baked desserts known as bars.
 - (about) Minnesota public television station KSMQ in Austin, Minnesota has produced a 2012 documentary video entitled "Minnesota Hotdish." providing a historical and humorous look at the popular church supper and family gathering staple.
-- (origin) Hotdish comes from United States.
+- (origin) Hotdish comes from the United States.
 - (about) Not to be confused with hot dish.
+- (about) The source included neither the name of the woman that invented the recipe nor the source.
+- (about) They are well-suited for family reunions, funerals, church suppers, and covered dish dinners or potlucks where they may be paired with potato salad, coleslaw, Jello salads, Snickers salad, and pan-baked desserts known as bars.
+- (about) In years past, a pasta was the most frequently used starch, but tater tots and local wild rice have become very popular as well.
 
 Learn more:
 
@@ -7397,13 +7366,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (inspiration) One possible origin is that the sandwich was invented by Italian American immigrants who sliced inexpensive beef cuts exceedingly thin to feed many people and to tenderize tougher cuts of beef that they were limited to buying due to discrimination.
 - (history) The sandwich gradually grew in popularity and was widely eaten in the city by the 1970s and 1980s.
 - (culture) Some historians believe that Pasquale Scala invented the sandwich in the 1920s to serve at weddings.
-- (inspiration) One possible origin is that the sandwich was invented by Italian American immigrants who sliced inexpensive beef cuts exceedingly thin to feed many people and to tenderize tougher cuts of beef that they were limited to buying due to discrimination.
+- (origin) Italian beef comes from the United States.
 - (history) By the 1980s, the sandwich was ubiquitous throughout Chicago and celebrities such as Neil Diamond and Jay Leno reportedly enjoyed the sandwich.
 - (about) The sandwich saw a substantial rise in popularity with the 2020s television show The Bear, set in a fictional Chicago restaurant that specializes in the sandwich.
 - (about) Still, the sandwich was mostly unknown outside the city until the release of The Bear in 2022.
-- (origin) Italian beef comes from United States.
 
 Learn more:
 
@@ -7427,19 +7396,18 @@ Fun facts:
 
 - (history) Jello salads were popular in the early 20th century and are now considered retro.
 - (about) Perfection Salad won third prize in a Better Homes and Gardens recipe contest and popularized the concept of the jello salad in the United States.
-- (origin) Jello salad comes from United States.
+- (origin) Jello salad comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) Gelatin was time-consuming to cook, and commercial gelatin was produced in shreds or strips until the late 19th century and needed to be soaked for a long time before use.
-- (history) Cook of New Castle, Pennsylvania in 1904.
+- (history) One of the earliest examples of jello salad is Perfection Salad, developed by Mrs. John E. Cook of New Castle, Pennsylvania in 1904.
 - (history) Jello salads were especially fashionable in the suburbs in the 1950s.
 - (history) Jello salad fell out of fashion in the 1960s and 70s.
-- (history) In 1894, the Knox Company produced the first commercial granulated gelatin, followed by Jell-O a few years later.
 - (about) The release of lime-flavored Jell-O during the Great Depression heightened the popularity of savory jello salads.
 - (about) In response to the mid-century popularity of jello salads, Jell-O released several savory flavors, including seasoned tomato and celery.
-- (about) The rise of Julia Child and the popularization of French cooking in the United States made the jello salad appear less elegant, and dieting trends eventually turned against sugary food like Jell-O.
-- (about) Jello salad is now most popular in rural areas of the upper Midwest and in Utah, where Jell-O is the official state snack.
+- (about) The rise of Julia Child and the popularization of French cooking in the United States made the jello salad appear less elegant, and dieting trends eventually turned against sugary food like Jell-O. Jello salad is now most popular in rural areas of the upper Midwest and in Utah, where Jell-O is the official state snack.
+- (history) Gelatin was time-consuming to cook, and commercial gelatin was produced in shreds or strips until the late 19th century and needed to be soaked for a long time before use.
+- (history) In 1894, the Knox Company produced the first commercial granulated gelatin, followed by Jell-O a few years later.
 
 Learn more:
 
@@ -7463,7 +7431,7 @@ Fun facts:
 
 - (inspiration) Local legend says Johnny Marzetti originated in Columbus, Ohio, at Marzetti's, an Italian restaurant established in 1896 at Woodruff Avenue and High Street by Italian immigrant Teresa (née Piacentini) Marzetti.
 - (history) According to Columbus Monthly, the connection between the dish and the restaurant was made only after Teresa Marzetti's death in 1972.
-- (origin) Johnny Marzetti comes from United States.
+- (origin) Johnny Marzetti comes from the United States.
 
 Learn more:
 
@@ -7545,7 +7513,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Meatloaf comes from Germany, Czech Republic.
+- (origin) Meatloaf comes from Germany, the Czech Republic.
 
 Learn more:
 
@@ -7574,9 +7542,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) In Britain and the Commonwealth, they are associated with Shrove Tuesday, commonly known as "Pancake Day", when, historically, perishable ingredients had to be used up before the fasting period of Lent.
-- (about) These were quite different from what are known as pancakes today.
-- (origin) Pancake comes from United States.
+- (origin) Pancake comes from the United States.
 - (about) Not to be confused with Berliner, pancake.
+- (about) These were quite different from what are known as pancakes today.
 
 Learn more:
 
@@ -7600,12 +7568,12 @@ Fun facts:
 
 - (culture) Every year at the annual Persimmon Festival in Mitchell, Indiana, persimmon pudding is sold with ice cream.
 - (about) Persimmon pudding was the most searched for Thanksgiving recipe in the state in 2014.
-- (origin) Persimmon pudding comes from United States.
+- (origin) Persimmon pudding comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (culture) The recipe traditional to American cuisine is baked or steamed slowly over a long duration, with a little baking soda.
 - (culture) Persimmon pudding is traditionally served warm, though it can be served cold as well.
+- (culture) The recipe traditional to American cuisine is baked or steamed slowly over a long duration, with a little baking soda.
 
 Learn more:
 
@@ -7627,23 +7595,22 @@ Pierogi are filled dumplings made by wrapping unleavened dough around a filling 
 
 Fun facts:
 
+- (origin) Other sources theorize that in the 13th century, pierogi were brought by Saint Hyacinth of Poland from the Far East (Asia) via what was then the Kievan Rus'.
+- (culture) Pierogi gradually gained popularity due to their affordability and versatility, and people began serving them at festivals, religious holidays, and as a common food for everyone.
 - (history) The recipe itself dates back to at least 1682, when Poland's first cookbook, Compendium ferculorum, albo Zebranie potraw, was published.
-- (origin) Dumplings most likely originated in China and became widespread in Europe during the Middle Ages or later periods.
-- (about) These became characteristic to Central and East European cuisines, where different varieties (preparation methods, ingredients, fillings) were invented.
 
 More fun facts (when the user asks for more):
 
-- (origin) Other sources theorize that in the 13th century, pierogi were brought by Saint Hyacinth of Poland from the Far East (Asia) via what was then the Kievan Rus'.
-- (history) In the poem by Stepan Rudansky Varenyky-Varenyky (1858), a Russian soldier asks a Ukrainian countrywoman to cook varenyky for him.
-- (culture) Pierogi gradually gained popularity due to their affordability and versatility, and people began serving them at festivals, religious holidays, and as a common food for everyone.
 - (culture) On festival days and religious occasions such as wigilia, families served pierogi as a symbol of unity.
 - (culture) Dumplings under the name pierogi are a traditional Polish dish, holding considerable culinary significance in Poland.
 - (about) Pierogi are also popular in modern-day Canadian and American cuisines.
 - (about) According to another theory, the dish was adopted in the territories of contemporary Ukraine from Turks, whose cuisine has a similar speciality known as düs-vara.
-- (culture) Hyacinth with his pierogi) and invoked under this moniker, this custom is especially tied to the traditional "baked pierogi of St.
-- (culture) In Ukrainian literature, varenyky appeared as a symbol of national identity, sometimes stressing its distinction from Russian.
 - (culture) Traditionally in the medieval ages, the rich enjoyed pierogi as a high-class meal, considering it a delicacy.
-- (origin) Pierogi comes from Poland, People's Republic of China, Ukraine.
+- (origin) Pierogi comes from Poland, the People's Republic of China, Ukraine.
+- (origin) Dumplings most likely originated in China and became widespread in Europe during the Middle Ages or later periods.
+- (history) In the poem by Stepan Rudansky Varenyky-Varenyky (1858), a Russian soldier asks a Ukrainian countrywoman to cook varenyky for him.
+- (about) These became characteristic to Central and East European cuisines, where different varieties (preparation methods, ingredients, fillings) were invented.
+- (culture) In Ukrainian literature, varenyky appeared as a symbol of national identity, sometimes stressing its distinction from Russian.
 - (about) Not to be confused with pirog.
 
 Learn more:
@@ -7717,8 +7684,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (inspiration) According to this legend, this inspired the residents of Cologne to imitate the Roman import.
 - (origin) Sauerbraten comes from Belgium, Germany.
+- (inspiration) According to this legend, this inspired the residents of Cologne to imitate the Roman import.
 
 Learn more:
 
@@ -7738,7 +7705,7 @@ Shrimp DeJonghe, or Shrimp de Jonghe, a specialty of Chicago, is a casserole of 
 
 Fun facts:
 
-- (origin) Shrimp DeJonghe has the oldest pedigree of Chicagoan cuisine, having originated in the late 19th or early 20th century at DeJonghe's Hotel and Restaurant, 12 E.
+- (origin) Shrimp DeJonghe has the oldest pedigree of Chicagoan cuisine, having originated in the late 19th or early 20th century at DeJonghe's Hotel and Restaurant, 12 E. Monroe St. (1899–1923).
 - (history) Shrimp DeJonghe was the most popular at Fritzel's Restaurant, which was open from 1947 to 1972.
 
 Learn more:
@@ -7770,8 +7737,8 @@ More fun facts (when the user asks for more):
 
 - (history) Sponge cake covered in boiled icing was very popular in American cuisine during the 1920s and 1930s.
 - (history) The modern sponge cakes arose when bakers started using beaten eggs as a leavening agent in the mid-19th century.
-- (history) According to food historian Gil Marks, the use of an egg and sugar mixture as a leavening agent in batters was discovered in Moorish Spain around the 11th century.
 - (origin) Sponge cake comes from Italy.
+- (history) According to food historian Gil Marks, the use of an egg and sugar mixture as a leavening agent in batters was discovered in Moorish Spain around the 11th century.
 
 Learn more:
 
@@ -7798,12 +7765,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) In the 15th century, in medieval Saxony (in central Germany, north of Bavaria and south of Brandenburg), the Prince Elector Ernst (1441–1486) and his brother Duke Albrecht (1443–1500) decided to remedy this by writing to the Pope in Rome.
-- (history) Five popes died before finally, in 1490, Pope Innocent VIII (1432–1492) sent a letter, known as the "Butter-Letter", to the prince's successor.
 - (history) As a Christmas bread, stollen was baked for the first time at the Saxon Royal Court in 1427, and was made with flour, yeast, oil and water.
+- (history) In the 15th century, in medieval Saxony (in central Germany, north of Bavaria and south of Brandenburg), the Prince Elector Ernst (1441–1486) and his brother Duke Albrecht (1443–1500) decided to remedy this by writing to the Pope in Rome.
 - (history) Stollen is said to have been first popularized in the Netherlands by a German baker in Amsterdam in the 19th century.
+- (history) Five popes died before finally, in 1490, Pope Innocent VIII (1432–1492) sent a letter, known as the "Butter-Letter", to the prince's successor.
 - (history) Suriname was a colony of the Netherlands from 1667 until 1954.
-- (history) He placed an advertisement in an Amsterdam newspaper of 23 December 1870, and continued placing advertisements in subsequent years.
 - (culture) In Germany, stollen are produced year-round, but are traditionally eaten during Advent or Christmas.
 - (culture) Over the centuries, the bread changed from being a simple, fairly tasteless "bread" to a sweeter bread with richer ingredients, such as marzipan, although traditional stollen is not as sweet, light, and airy as the copies made around the world.
 - (culture) Commercially made stollen has become a popular Christmas food in Britain in recent decades, complementing traditional dishes such as mince pies and Christmas pudding.
@@ -7831,7 +7797,7 @@ American chop suey is an American pasta casserole made with ground beef, macaron
 Fun facts:
 
 - (inspiration) American chop suey is named after chop suey.
-- (origin) American chop suey comes from United States.
+- (origin) American chop suey comes from the United States.
 
 Learn more:
 
@@ -7860,7 +7826,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (inspiration) A popular folkloric account regarding the origin of the word "Anadama" tells the story of a fisherman becoming tired of meals of corn meal and molasses mush.
-- (origin) Anadama bread comes from United States.
+- (origin) Anadama bread comes from the United States.
 
 Learn more:
 
@@ -7888,7 +7854,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (inspiration) According to this legend, Carrie Cooper invented clam cakes by adding fresh clams to her corn fritter recipe, thus inventing clam fritters.
-- (origin) Clam cake comes from United States.
+- (origin) Clam cake comes from the United States.
 
 Learn more:
 
@@ -7909,21 +7875,21 @@ The clambake or clam bake, also known as the New England clambake, is a traditio
 
 Fun facts:
 
-- (inspiration) Contrary to legend, though, American colonists did not learn to enjoy baked clams from Native Americans.
 - (about) Rhode Island businessmen operated many clambake pavilions, and the first published clambake recipe credited that state as the origin.
 - (history) The Cleveland Plain Dealer published an article on October 15, 1866, called "Great Clam Bake at Camp Gilbert: A 'Running Account' Of It".
+- (culture) The writer expressed the "firm opinion that clam bakes were glorious institutions." In 1888 a group of Quakers in Dartmouth, Massachusetts held a clambake, which became an annual tradition each August that continues today.
 
 More fun facts (when the user asks for more):
 
-- (culture) The writer expressed the "firm opinion that clam bakes were glorious institutions." In 1888 a group of Quakers in Dartmouth, Massachusetts held a clambake, which became an annual tradition each August that continues today.
-- (culture) The food is traditionally cooked by steaming the ingredients over layers of seaweed in a pit oven.
-- (culture) German concluded, "There is no question that Native American peoples have been consuming clams for four thousand years, but there is little evidence that they prepared them in the traditional New England way.
-- (culture) Perhaps they smoked them for preservation, and they probably roasted them in open fires, but neither oral traditions nor early European observations refer to steaming in rockweed.
 - (inspiration) Consciously based on indigenous foods, it was developed in the United States after the American Revolution—a part of a created mythology as an "icon of its unique cultural identity".
 - (history) The clambake "exploded" in popularity after the American Civil War.
 - (about) This was the beginning of the popularity of the clambake in the Cleveland area.
 - (about) The event, called the "Allen’s Neck Friends Meeting Clambake", was attended by 625 people in 2017.
-- (origin) Clambake comes from United States.
+- (origin) Clambake comes from the United States.
+- (inspiration) Contrary to legend, though, American colonists did not learn to enjoy baked clams from Native Americans.
+- (culture) The food is traditionally cooked by steaming the ingredients over layers of seaweed in a pit oven.
+- (culture) Author Andrew W. German concluded, "There is no question that Native American peoples have been consuming clams for four thousand years, but there is little evidence that they prepared them in the traditional New England way.
+- (culture) Perhaps they smoked them for preservation, and they probably roasted them in open fires, but neither oral traditions nor early European observations refer to steaming in rockweed.
 
 Learn more:
 
@@ -7952,10 +7918,9 @@ More fun facts (when the user asks for more):
 
 - (about) According to Merrill Shindler, "in the first decades of this century [the 20th], if a restaurant wanted to be noted, it came up with a dish that involved the baking of shellfish".
 - (culture) Clams casino is often served at Italian festivals and during the holidays in the United States.
-- (about) She named the dish after the hotel, and word and popularity of the dish has since spread across the United States, including New Orleans, where oysters are substituted for clams.
 - (about) Clams casino remains a very popular dish in Rhode Island, "appearing on almost every menu".
 - (about) Clams casino is popular with Italian-Americans, having "a permanent spot on just about every trattoria menu" in Little Italy, Manhattan, and is considered an American classic.
-- (origin) Clams casino comes from United States.
+- (origin) Clams casino comes from the United States.
 
 Learn more:
 
@@ -7979,20 +7944,20 @@ Fun facts:
 
 - (history) The Industrial Revolution in Britain and the consumers it created saw cookies (biscuits) become products for the masses, and firms such as Huntley & Palmers (formed in 1822), McVitie's (formed in 1830) and Carr's (formed in 1831) were all established.
 - (inspiration) The modern form of cookies, which is based on creaming butter and sugar together, did not appear commonly until the 18th century.
-- (origin) Cookie comes from United Kingdom, Persis.
+- (origin) Cookie comes from the United Kingdom, Persis.
 
 More fun facts (when the user asks for more):
 
-- (history) The first documented instance of the figure-shaped gingerbread man was at the court of Elizabeth I of England in the 16th century.
-- (history) The earliest reference to cookies in America is in 1703, when "The Dutch in New York provided... 'in 1703... at a funeral 800 cookies'".
+- (history) The earliest reference to cookies in America is in 1703, when "The Dutch in New York provided.. 'in 1703.. at a funeral 800 cookies'".
 - (history) The word cookie dates from at least 1701 in Scottish usage where the word meant "plain bun", rather than thin baked good, and so it is not certain whether it is the same word.
-- (history) From 1808, the word "cookie" is attested "...in the sense of "small, flat, sweet cake" in American English.
+- (history) From 1808, the word "cookie" is attested "..in the sense of "small, flat, sweet cake" in American English.
 - (history) Cookies appear to have their origins in 7th century AD Persia, shortly after the use of sugar became relatively common in the region.
-- (history) By the 14th century, they were common in all levels of society throughout Europe, from royal cuisine to street vendors.
 - (history) Cookies came to America through the Dutch in New Amsterdam in the late 1620s.
+- (history) The first documented instance of the figure-shaped gingerbread man was at the court of Elizabeth I of England in the 16th century.
 - (about) One of the most popular early cookies, which traveled especially well and became known on every continent by similar names, was the jumble, a relatively hard cookie made largely from nuts, sweetener, and water.
 - (about) Cookie dates from 0601-.
 - (about) Not to be confused with fruitcake, biscuit, chocolate chip cookie.
+- (history) By the 14th century, they were common in all levels of society throughout Europe, from royal cuisine to street vendors.
 
 Learn more:
 
@@ -8013,15 +7978,14 @@ Corn chowder is a chowder soup prepared using corn as a primary ingredient.
 
 Fun facts:
 
+- (history) Farmer's recipe utilized canned corn, a product that emerged around the mid-1800s in the U.S. The 1896 recipe also included salt pork, potatoes and crackers as ingredients.
+- (origin) Corn chowder comes from the United States.
 - (history) In the United States, recipes for corn chowder date to at least as early as 1884.
-- (origin) Corn chowder comes from United States.
-- (history) In the United States, recipes for corn chowder date back to at least 1884, at which time a corn chowder recipe was published in the Boston Cook Book, authored by Mary Lincoln of the Boston Cooking School.
 
 More fun facts (when the user asks for more):
 
+- (history) In the United States, recipes for corn chowder date back to at least 1884, at which time a corn chowder recipe was published in the Boston Cook Book, authored by Mary Lincoln of the Boston Cooking School.
 - (history) Another corn chowder recipe was published in the Boston Cooking-School Cook Book in 1896, which was authored by Fannie Farmer, Lincoln's successor at the Boston Cooking School.
-- (history) Farmer's recipe utilized canned corn, a product that emerged around the mid-1800s in the U.S.
-- (history) The 1896 recipe also included salt pork, potatoes and crackers as ingredients.
 - (history) After Lincoln's published recipe in 1884, myriad recipes for corn chowder began circulating in various cookbooks in the United States, with many types of recipe variations.
 - (history) Around the early 1900s, the Shakers were well known for their chowder soups and general culinary skills.
 
@@ -8045,16 +8009,15 @@ A crab cake is a variety of fishcake popular in the United States.
 
 Fun facts:
 
-- (history) Although the earliest use of the term "crab cake" is commonly believed to date to Crosby Gaige's 1939 publication New York World's Fair Cook Book in which they are described as "Baltimore crab cakes," earlier usages can be found such as in Thomas J.
+- (history) Although the earliest use of the term "crab cake" is commonly believed to date to Crosby Gaige's 1939 publication New York World's Fair Cook Book in which they are described as "Baltimore crab cakes," earlier usages can be found such as in Thomas J. Murrey's book Cookery with a Chafing Dish published in 1891.
 - (culture) Crab cakes are traditionally associated with the Chesapeake Bay, in the state of Maryland.
 - (about) Crab cakes are particularly popular along the coast of the Mid-Atlantic where the crabbing industry thrives.
 
 More fun facts (when the user asks for more):
 
-- (history) Murrey's book Cookery with a Chafing Dish published in 1891.
 - (culture) While meat from any species of crab may be used, the blue crab, whose native habitat includes the Chesapeake Bay, is the traditional choice and generally considered to be the best tasting.
 - (about) In the Pacific Northwest and northern California, the Dungeness crab is a popular ingredient for crab cakes, and the cakes are prepared at many restaurants throughout the region.
-- (origin) Crab cake comes from United States.
+- (origin) Crab cake comes from the United States.
 
 Learn more:
 
@@ -8077,12 +8040,7 @@ Fried clams are clams dipped in milk, floured, and deep-fried.
 Fun facts:
 
 - (history) Fried clams are mentioned as early as 1840, and are listed on an 1865 menu from the Parker House hotel.
-- (about) He sold these to Howard Johnson's in an exclusive deal, and as the chain expanded, they became popular throughout the country.
-- (origin) Fried clams comes from United States.
-
-More fun facts (when the user asks for more):
-
-- (history) He is said to have created the first batch on July 3, 1916, in his small roadside restaurant, now Woodman's of Essex.
+- (origin) Fried clams comes from the United States.
 - (history) How exactly they were prepared is unclear; the 1865 menu offers both "oysters—fried" and "oysters—fried in batter", but only "fried clams".
 
 Learn more:
@@ -8154,7 +8112,7 @@ More fun facts (when the user asks for more):
 - (culture) The Shediac Lobster Festival took the record back in 2017 with a 180 foot lobster roll.
 - (about) The Prince Edward Island Fishermen's Association took back the record with a 119.8 foot lobster roll.
 - (about) The record was then taken by a restaurant in New Hampshire with a 159.4 foot lobster roll.
-- (origin) Lobster roll comes from United States.
+- (origin) Lobster roll comes from the United States.
 
 Learn more:
 
@@ -8202,9 +8160,9 @@ A Parker House roll is a bread roll made by flattening the center of a ball of d
 
 Fun facts:
 
-- (history) They were invented at the Parker House Hotel in Boston, during the 1870s.
-- (origin) Parker House roll comes from United States.
 - (history) The recipe for Parker House rolls first started appearing in cookbooks in the 1880s.
+- (origin) Parker House roll comes from the United States.
+- (history) They were invented at the Parker House Hotel in Boston, during the 1870s.
 
 More fun facts (when the user asks for more):
 
@@ -8237,11 +8195,11 @@ More fun facts (when the user asks for more):
 
 - (history) The Pilgrims brought the pumpkin pie back to New England after learning recipes from the Northeastern Native Americans in 1621.
 - (history) Pumpkin pies were discouraged from Thanksgiving dinners in the United States in 1947 as part of a voluntary egg rationing campaign promoted by the Truman Administration, mainly because of the eggs used in the recipe.
-- (history) Part of the campaign included an "Egg-less & Poultry-less Thursday", which began in October 1947, and with Thanksgiving Day always occurring on a Thursday, there was a considerable backlash among American consumers against this.
 - (history) Truman was true to his word, and no pumpkin pie was served at the White House for Thanksgiving in 1947.
 - (culture) In the United States after the Civil War, the pumpkin pie was resisted in Southern states as a symbol of Yankee culture imposed on the South, where there was no tradition of eating pumpkin pie.
 - (culture) Today, throughout much of Canada and the United States, it is traditional to serve pumpkin pie after Thanksgiving dinner and sometimes while celebrating Christmas.
-- (origin) Pumpkin pie comes from United States.
+- (origin) Pumpkin pie comes from the United States.
+- (history) Part of the campaign included an "Egg-less & Poultry-less Thursday", which began in October 1947, and with Thanksgiving Day always occurring on a Thursday, there was a considerable backlash among American consumers against this.
 
 Learn more:
 
@@ -8263,7 +8221,7 @@ Rhubarb pie is a fruit pie with a rhubarb filling.
 
 Fun facts:
 
-- (origin) Rhubarb pie comes from United States.
+- (origin) Rhubarb pie comes from the United States.
 
 Learn more:
 
@@ -8284,13 +8242,13 @@ A snickerdoodle is a type of cookie made with flour, fat, sugar, and salt, and r
 
 Fun facts:
 
-- (history) The earliest use of the word recorded by the Oxford English Dictionary is from 1889.
 - (origin) Snickerdoodle is also possible that the name is simply a nonsense word with no particular meaning, originating from a New England tradition of whimsical cookie names.
+- (history) The earliest use of the word recorded by the Oxford English Dictionary is from 1889.
 - (culture) While snickerdoodles may appear similar to "sugar cookies", traditional sugar cookies are often rolled in white sugar whereas snickerdoodles are rolled in a mixture of white sugar and cinnamon.
 
 More fun facts (when the user asks for more):
 
-- (origin) Snickerdoodle comes from United States.
+- (origin) Snickerdoodle comes from the United States.
 
 Learn more:
 
@@ -8312,7 +8270,7 @@ A steak sandwich is a sandwich prepared with thinly-sliced steak that has been b
 Fun facts:
 
 - (about) According to the Library of Congress, the first steak sandwich sold in the United States was at Louis' Lunch of New Haven, Connecticut.
-- (origin) Steak sandwich comes from United States.
+- (origin) Steak sandwich comes from the United States.
 
 Learn more:
 
@@ -8347,16 +8305,16 @@ A bagel and cream cheese (also known as bagel with cream cheese) is a food pairi
 
 Fun facts:
 
-- (culture) The revue ran at the Holiday Theatre in New York City from September 1951 to February 1952.
-- (history) They became popular among the general population beyond Jewish communities in the 1980s.
+- (history) Bagels and cream cheese were provided to theater patrons by the cast of Bagels and Yox, a 1951 American-Yiddish Broadway revue, during the intermission period of the show.
 - (about) Bagel and cream cheese has been recorded by several different artists, including Eddie "Rochester" Anderson and, more recently, Rob Schneider, Joan Jaffe, and Oleg Frish.
+- (culture) The revue ran at the Holiday Theatre in New York City from September 1951 to February 1952.
 
 More fun facts (when the user asks for more):
 
-- (history) Bagels and cream cheese were provided to theater patrons by the cast of Bagels and Yox, a 1951 American-Yiddish Broadway revue, during the intermission period of the show.
 - (history) A 1951 review of Bagels and Yox published in Time magazine helped to popularize bagels to American consumers throughout the country. "Bagel and Lox" is a humorous song about the virtues of the bagel, lox, and cream cheese sandwich.
 - (culture) Bagels with cream cheese are most traditionally served open-faced (although bagel sandwiches are now at least as common) and spread with cream cheese and other toppings.
-- (origin) Bagel and cream cheese comes from United States.
+- (origin) Bagel and cream cheese comes from the United States.
+- (history) They became popular among the general population beyond Jewish communities in the 1980s.
 
 Learn more:
 
@@ -8379,7 +8337,7 @@ Fun facts:
 
 - (origin) Chicken and dumplings is a popular comfort food dish, commonly found in the Southern and Midwestern United States, that is also attributed to being a French Canadian meal that originated during the Great Depression.
 - (origin) Some sources say that chicken and dumplings originated in the Southern United States during the era of the Antebellum South and was considered a mainstay during harsh economic times.
-- (origin) Chicken and dumplings comes from United States.
+- (origin) Chicken and dumplings comes from the United States.
 
 Learn more:
 
@@ -8411,11 +8369,11 @@ More fun facts (when the user asks for more):
 - (history) Waffles served with chicken and gravy were a common Sunday dish among the Pennsylvania Dutch by the 1860s.
 - (history) A 1901 memoir recalled a tavern in the Pittsburgh neighborhood East Liberty in western Pennsylvania that was known for "suppers of spring chickens and waffles".
 - (culture) By the 1840s, broiled chicken and waffles were the celebrated specialty at Warriner's Tavern in Springfield, Massachusetts, owned by "Uncle" Jeremy Warriner and his wife "Aunt" Phoebe, two well-known abolitionists.
-- (history) Porter’s Southern Cookery Book, published in 1871, or in What Mrs.
-- (history) Fisher Knows About Old Southern Cooking, published in 1881 by former slave Abby Fisher.
-- (about) Fisher's cookbook is generally considered the first cookbook written by an African American.
+- (history) James M. Cain's 1941 novel Mildred Pierce concerns a woman who finds success serving "chicken-and-waffle dinner" at her Glendale restaurant.
+- (history) In New York City, the dish was served in the African-American community in Harlem as early as the 1930s in such locations as Tillie's Chicken Shack, Richard Wells' jazz nightclub, and particularly the Wells Supper Club.
 - (culture) Chicken and waffles is part of a variety of culinary traditions, including Pennsylvania Dutch cuisine and soul food, and is served in certain specialty restaurants in the United States.
-- (origin) Chicken and waffles comes from United States.
+- (origin) Chicken and waffles comes from the United States.
+- (about) Fisher's cookbook is generally considered the first cookbook written by an African American.
 
 Learn more:
 
@@ -8437,7 +8395,7 @@ Chow-chow (also spelled chowchow or chow chow) is a pickled dish popular in Nort
 Fun facts:
 
 - (origin) Some suggest an origin in the American South, while other sources suggest it originated in Canada and was brought south by the Acadians who migrated to the American South after being expelled from the Maritimes in the mid-1700s; another theory is that it originated from Chinese railway workers.
-- (origin) Chow-chow comes from United States.
+- (origin) Chow-chow comes from the United States.
 
 Learn more:
 
@@ -8465,10 +8423,10 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The 1667 Dutch cookbook The Sensible Cook contains a recipe attributed to the author's Dutch landlady, who mixed thin strips of cabbage with melted butter, vinegar, and oil.
 - (history) The most commonly prepared recipe for coleslaw is a recent innovation, owing to the development of mayonnaise during the mid-18th century.
 - (history) According to The Joy of Cooking (1997), raw cabbage is the only entirely consistent ingredient in coleslaw; the type of cabbage, dressing, and added ingredients vary widely.
-- (origin) Coleslaw comes from Netherlands.
+- (origin) Coleslaw comes from the Netherlands.
+- (history) The 1667 Dutch cookbook The Sensible Cook contains a recipe attributed to the author's Dutch landlady, who mixed thin strips of cabbage with melted butter, vinegar, and oil.
 
 Learn more:
 
@@ -8492,11 +8450,11 @@ Fun facts:
 
 - (origin) The idea of a Dutch baby pancake may have been derived from the German Pfannkuchen, but the current form originated in the United States in the early 1900s.
 - (origin) According to Sunset magazine, Dutch babies were introduced in the first half of the 1900s at Manca's Cafe, a family-run restaurant that was located in Seattle, Washington, and that was owned by Victor Manca.
-- (origin) Despite the name, they are not small, nor do they originate in the Netherlands.
+- (origin) Dutch baby pancake comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (origin) Dutch baby pancake comes from United States.
+- (origin) Despite the name, they are not small, nor do they originate in the Netherlands.
 
 Learn more:
 
@@ -8524,7 +8482,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Funnel cake comes from United States, Germany.
+- (origin) Funnel cake comes from the United States, Germany.
 
 Learn more:
 
@@ -8676,7 +8634,7 @@ Italian tomato pie is an Italian-American and Italian-Canadian baked good consis
 Fun facts:
 
 - (history) In Utica, New York, the family that would later found O'Scugnizzo's Pizzeria in 1914 sold tomato pies from their basement for several years prior, starting in 1910.
-- (origin) Italian tomato pie comes from United States, Italy.
+- (origin) Italian tomato pie comes from the United States, Italy.
 - (history) A 1903 article in the New-York Tribune on the food of Italian-Americans described a "pomidore pizza", or tomato pie, made solely with dough, tomatoes, and powdered red pepper.
 
 More fun facts (when the user asks for more):
@@ -8772,7 +8730,6 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (inspiration) According to some scholars and various sources, the most popular story is that the pretzel was made in 610 AD by an Italian monk when he decided to make a special treat to help motivate his students to keep on learning.
-- (about) Another source locates the invention in a monastery in southern France.
 - (about) In Germany, there are stories that pretzels were the invention of desperate bakers held hostage by local dignitaries.
 - (inspiration) Pretzel is named after arm.
 - (culture) The traditional pretzel shape is a distinctive symmetrical form, with the ends of a long strip of dough intertwined and then twisted back onto itself in a particular way (a pretzel loop or pretzel bow).
@@ -8782,6 +8739,7 @@ More fun facts (when the user asks for more):
 - (origin) Pretzel comes from Germany, Southern Germany.
 - (about) Pretzel dates from 0610-.
 - (about) Not to be confused with Bricelet, Pretzel.
+- (about) Another source locates the invention in a monastery in southern France.
 
 Learn more:
 
@@ -8803,15 +8761,15 @@ Scrapple, also known by the Pennsylvania Dutch name Pannhaas ('pan tenderloin' i
 
 Fun facts:
 
-- (inspiration) The first recipes were created by German colonists who settled near Philadelphia and Chester County, Pennsylvania, in the 17th and 18th centuries.
 - (culture) Its popularity on the Delmarva Peninsula is celebrated the second weekend of October during the annual "Apple Scrapple Festival" in Bridgeville, Delaware.
+- (inspiration) The title of jazz artist Charlie Parker's 1947 composition "Scrapple from the Apple" is inspired by the food scrapple and the Big Apple (New York City).
 - (about) The more immediate culinary ancestor of scrapple was the Low German dish called panhas, which was adapted to make use of locally available ingredients, and it is still called "Pannhaas", "panhoss", "ponhoss", or "pannhas" in parts of Pennsylvania.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) The title of jazz artist Charlie Parker's 1947 composition "Scrapple from the Apple" is inspired by the food scrapple and the Big Apple (New York City).
 - (culture) The roots of the culinary traditions that led to the development of scrapple in America have been traced back to pre-Roman Europe.
-- (origin) Scrapple comes from United States.
+- (origin) Scrapple comes from the United States.
+- (inspiration) The first recipes were created by German colonists who settled near Philadelphia and Chester County, Pennsylvania, in the 17th and 18th centuries.
 
 Learn more:
 
@@ -8832,23 +8790,22 @@ Shoofly pie is a type of American pie made with molasses associated with Pennsyl
 
 Fun facts:
 
+- (inspiration) The name "shoo-fly pie" was used in the 1880s, but its first appearance in print was after World War I. The "Shoo-fly Molasses" brand was named after a popular circus animal that toured in Pennsylvania in the 19th century, "Shoo-fly the Boxing Mule".
 - (origin) Possibly related to the Jenny Lind pie (a soft gingerbread pie), it may have originated among the Pennsylvania Dutch in the 1880s as molasses crumb cake, and is sometimes called molasses crumb pie.
-- (inspiration) Precursors include Jenny Lind pie, a type of gingerbread cake that was named for the famed Swedish opera star, Jenny Lind, after her tour of America in the 1850s.
-- (history) The use of baking powder places its invention firmly after the Civil War, and not before the 1870s (when Pennsylvania Dutch bakers began using baking powder).
+- (culture) Shoo-fly pie began as a crust-less molasses cake called centennial cake in 1876, created to celebrate the 100th anniversary of the signing of the Declaration of Independence in Philadelphia.
 
 More fun facts (when the user asks for more):
 
-- (history) The name "shoo-fly pie" was used in the 1880s, but its first appearance in print was after World War I.
+- (inspiration) Precursors include Jenny Lind pie, a type of gingerbread cake that was named for the famed Swedish opera star, Jenny Lind, after her tour of America in the 1850s.
 - (inspiration) While shoo-fly pie has been a staple of Moravian (Hussite), Mennonite, and Amish cuisine, most of the folktales concerning the pie are apocryphal, including the persistent legend that the name comes from flies being attracted to the sweet filling.
-- (culture) Shoo-fly pie began as a crust-less molasses cake called centennial cake in 1876, created to celebrate the 100th anniversary of the signing of the Declaration of Independence in Philadelphia.
 - (history) In the 1880s, home bakers added a crust to make it easier to eat alongside a cup of coffee in the morning, without plates and forks.
-- (inspiration) The mule, in turn, may have been named after a song that became popular half a century before: "Shoo Fly, Don't Bother Me".
 - (history) The pie is mentioned in the song "Shoo-Fly Pie and Apple Pan Dowdy", popularized by Dinah Shore in the 1940s.
 - (history) Before its modern name became popular during the 20th century, it was molasses crumb pie or soda rivvel cake (rivels are lumps of food).
-- (inspiration) The "Shoo-fly Molasses" brand was named after a popular circus animal that toured in Pennsylvania in the 19th century, "Shoo-fly the Boxing Mule".
+- (history) The use of baking powder places its invention firmly after the Civil War, and not before the 1870s (when Pennsylvania Dutch bakers began using baking powder).
 - (culture) Traditionally it was not served as a dessert pie, but instead as a breakfast food with hot coffee.
 - (culture) Because shoo-fly pie traditionally contains molasses but no eggs, historians conclude that it was typically baked during the winter, when chickens laid fewer eggs and molasses could be stored in the cold weather without fear of it fermenting.
-- (origin) Shoofly pie comes from United States.
+- (origin) Shoofly pie comes from the United States.
+- (inspiration) The mule, in turn, may have been named after a song that became popular half a century before: "Shoo Fly, Don't Bother Me".
 
 Learn more:
 
@@ -8873,13 +8830,13 @@ Fun facts:
 
 - (history) Stromboli are an Italian-American dish invented in Philadelphia by the mid-20th century.
 - (inspiration) Stromboli is ultimately named for the volcanic island off the coast of Sicily, by way of the 1950 Roberto Rossellini film of the same name.
-- (origin) Stromboli comes from United States.
+- (origin) Stromboli comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) Romano's Italian Restaurant & Pizzeria claims to have first used the name in 1950 in Essington, Pennsylvania, just outside Philadelphia, courtesy of Nazzareno Romano, an Italian immigrant.
 - (inspiration) Stromboli is named after Stromboli.
 - (history) Stromboli dates from 1950-.
+- (history) Romano's Italian Restaurant & Pizzeria claims to have first used the name in 1950 in Essington, Pennsylvania, just outside Philadelphia, courtesy of Nazzareno Romano, an Italian immigrant.
 
 Learn more:
 
@@ -8919,20 +8876,20 @@ The whoopie pie, alternatively called a black moon, gob (Pittsburgh area), black
 
 Fun facts:
 
-- (history) However, the earliest written records of whoopie pies from Pennsylvania date from the 1960s, while Labadie's Bakery in Lewiston, Maine, has records of making the confection dating to 1925.
-- (about) The previous record holder, from Pennsylvania, weighed 200 lb (90.7 kg).
+- (history) The earliest written records of whoopie pies from Pennsylvania date from the 1960s, while Labadie's Bakery in Lewiston, Maine, has records of making the confection dating to 1925.
 - (culture) The town of Dover-Foxcroft, Maine, has hosted the Maine Whoopie Pie Festival since 2009.
+- (about) Maine officially recognized the whoopie pie as its state treat in 2011 (not to be confused with the official state dessert, which is blueberry pie).
 
 More fun facts (when the user asks for more):
 
-- (culture) In 2014, more than 7,500 people attended the festival.
 - (culture) The 2013 festival had eight different whoopie pie vendors in attendance.
-- (about) They therefore argue the whoopie pie is possibly an internal invention of the Amish community.
 - (culture) A Whoopie Pie is composed of two round, mound-shaped pieces of cake (traditionally chocolate cake, although sometimes available with pumpkin, gingerbread, or other flavored cake), sandwiching a sweet, fluffy and creamy filling (somewhat like a marshmallow creme-based buttercream).
 - (culture) While people consider the whoopie pie a New England classic and a Pennsylvania Amish tradition, vendors sell whoopie pies throughout the United States.
-- (about) Maine officially recognized the whoopie pie as its state treat in 2011 (not to be confused with the official state dessert, which is blueberry pie).
 - (about) On March 26, 2011, creators in South Portland, Maine, made the world's largest whoopie pie, which weighed in at 1,062 lb (481.7 kg).
-- (origin) Whoopie pie comes from United States.
+- (about) They therefore argue the whoopie pie is possibly an internal invention of the Amish community.
+- (origin) Whoopie pie comes from the United States.
+- (about) The previous record holder, from Pennsylvania, weighed 200 lb (90.7 kg).
+- (culture) In 2014, more than 7,500 people attended the festival.
 
 Learn more:
 
@@ -8969,16 +8926,16 @@ The breakfast burrito, sometimes referred to as a breakfast wrap outside of the 
 
 Fun facts:
 
-- (origin) This style was invented and popularized in several regional American cuisines, most notably originating in New Mexican cuisine, and expanding beyond Southwestern cuisine and neighboring Tex-Mex.
 - (history) Tia Sophia's, a New Mexican diner in Santa Fe, claims the first use of the term "breakfast burrito" on a menu, in 1975, although a rolled tortilla containing some combination of eggs, bacon, potatoes, and cheese existed in New Mexican cuisine well before that.
+- (origin) Fast food giant McDonald's introduced their version in the late 1980s, and by the 1990s, more fast food restaurants caught on to the style, with Sonic Drive-In, Hardee's, and Carl's Jr. offering breakfast burritos on their menus.
 - (about) Some fast food restaurants such as Burger King, Dunkin' Donuts, McDonald's, and Taco Bell sell breakfast burritos.
 
 More fun facts (when the user asks for more):
 
-- (origin) Fast food giant McDonald's introduced their version in the late 1980s, and by the 1990s, more fast food restaurants caught on to the style, with Sonic Drive-In, Hardee's, and Carl's Jr. offering breakfast burritos on their menus.
+- (origin) This style was invented and popularized in several regional American cuisines, most notably originating in New Mexican cuisine, and expanding beyond Southwestern cuisine and neighboring Tex-Mex.
 - (culture) The breakfast burrito is also a popular street food, and street-style breakfast burritos are found in the food truck scene in places such as Los Angeles.
 - (about) In 2014, Taco Bell launched their breakfast menu, which included breakfast burritos.
-- (origin) Breakfast burrito comes from United States.
+- (origin) Breakfast burrito comes from the United States.
 
 Learn more:
 
@@ -9000,17 +8957,17 @@ A burrito or burro is historically a regional name in Mexico for what in other p
 
 Fun facts:
 
-- (history) Both Diccionario Agrícola Nacional (1935), by the Mexican Dirección General de Estadística, and Diccionario de Mejicanismos (1959), by Mexican linguist and philologist Francisco J.
+- (inspiration) An often repeated piece of folk history is the story of a man named Juan Méndez who sold tacos at a street stand in the Bella Vista neighborhood of Ciudad Juárez during the Mexican Revolution period (1910–1921), while using a donkey as a transport for himself and his food.
 - (origin) Sonoran historian and politician, Horacio Sorbazo Díaz, explained that the term originated in Sonora where some dubious taco stands would sell donkey meat instead of beef, and people, maliciously, began calling tacos "burritos" implying they were made with donkey meat.
-- (about) The term burrito was regional, specifically from Guanajuato, Guerrero, Michoacán, San Luis Potosí, Sonora and Sinaloa, for what is known as a taco in Mexico City and surrounding areas, and codzito in Yucatán and Quintana Roo.
+- (history) Before the development of the modern burrito, the Maya civilization of Mexico used corn tortillas as early as 1500 BC to wrap foods, with fillings of chili peppers, tomatoes, mushrooms, squash, and avocados.
 
 More fun facts (when the user asks for more):
 
-- (history) Before the development of the modern burrito, the Maya civilization of Mexico used corn tortillas as early as 1500 BC to wrap foods, with fillings of chili peppers, tomatoes, mushrooms, squash, and avocados.
 - (history) In the 1895 Diccionario de Mejicanismos by Feliz Ramos i Duarte, burrito was identified as the regional name given in the Mexican state of Guanajuato to what is known as a taco in other regions: Burrito: Tortilla arrollada, con carne u otra cosa dentro, que en Yucatán llaman coçito, y en Cuernavaca y en Mexico, taco.
 - (history) References to burritos made with corn tortillas appear as late as 1938 in California.
 - (history) Ana Bégué de Packman, author of the book Early California Hospitality (1938), wrote that corn and flour tortillas could be used interchangeably for making burritos.
 - (origin) Stemming from the view that burritos are distinct from tacos, there are many explanations and folk stories about the origin of burritos, most of them originating in the United States.
+- (about) The term burrito was regional, specifically from Guanajuato, Guerrero, Michoacán, San Luis Potosí, Sonora and Sinaloa, for what is known as a taco in Mexico City and surrounding areas, and codzito in Yucatán and Quintana Roo.
 - (about) In Central and Southern Mexico, burritos are still considered tacos, and are known as tacos de harina ("wheat flour tacos").
 - (about) Dried beef is very popular in Sonora, and it has been observed on some occasions that, taking advantage of this circumstance, dried donkey meat is fraudulently sold.
 - (about) Being that burrito or burro was originally a regional name for what is known as a taco or codzito in other regions of Mexico, the use of both corn and wheat flour tortillas was understandable.
@@ -9065,9 +9022,9 @@ More fun facts (when the user asks for more):
 
 - (history) According to Sebastian de Covarrubias’ 1611 Spanish dictionary —Tesoro de la Lengua Castellana o Española— capirotada is a type of stew that goes over another, covering it like a capirote or hood, and hence, it was called capirotada.
 - (history) A capiróta, according to English linguist and translator John Florio’s —A Worlde of Wordes, or Dictionarie of the Italian and English tongues (1598)— is a: “kind of dainty potage or sauce used in Italy”.
-- (history) In the book “De re coquinaria de Apicius ” from the end of the 4th century, which compiled the favorite stews of the Romans of that time, shows a Sala Cattabia recipe, which used pieces of stale bread soaked in water with vinegar, layers of cow cheese, cucumber, capers, cooked chicken liver and covered with a dressing.
 - (culture) Previously a more savory dish, capirotada progressively became sweeter after New World ingredients and indigenous traditions were combined with the existing Spanish version, leading to a large increase in the varieties of capirotada.
 - (origin) Capirotada comes from Mexico.
+- (history) In the book “De re coquinaria de Apicius ” from the end of the 4th century, which compiled the favorite stews of the Romans of that time, shows a Sala Cattabia recipe, which used pieces of stale bread soaked in water with vinegar, layers of cow cheese, cucumber, capers, cooked chicken liver and covered with a dressing.
 
 Learn more:
 
@@ -9113,13 +9070,13 @@ Cheese fries (or in the United Kingdom cheesy chips) is a dish consisting of Fre
 
 Fun facts:
 
-- (about) Another report claims that a young fry cook named Austin Ruse was the first to serve this dish while working at Dairy Queen in St.
+- (about) Another report claims that a young fry cook named Austin Ruse was the first to serve this dish while working at Dairy Queen in St. Charles, Missouri.
 - (origin) Cheese fries have been said to have grown in popularity in the United States after canned cheese products such as Cheez Whiz were introduced in 1952.
-- (about) Jenkins is said to have invented the chili cheese fry variation at the age of 16, in Tomball, Texas.
+- (about) Don A. Jenkins is said to have invented the chili cheese fry variation at the age of 16, in Tomball, Texas.
 
 More fun facts (when the user asks for more):
 
-- (origin) Cheese fries comes from United States.
+- (origin) Cheese fries comes from the United States.
 
 Learn more:
 
@@ -9148,12 +9105,12 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Dale Mulder, the owner of an A&W Restaurants franchise in Lansing, Michigan, has been credited with inventing the bacon cheeseburger in 1963, putting it on the menu after repeated requests from the same customer.
-- (history) By the late 19th century, the vast grasslands of the Great Plains had been opened up for cattle ranching.
 - (history) Adding cheese to hamburgers became popular in the 1920s.
 - (about) Other restaurants also claim to have invented the cheeseburger.
-- (history) However, there are earlier examples of a restaurant selling bacon cheeseburgers, including a menu for a Harrisburg, Pennsylvania restaurant from 1941.
+- (history) There are earlier examples of a restaurant selling bacon cheeseburgers, including a menu for a Harrisburg, Pennsylvania restaurant from 1941.
+- (origin) Cheeseburger comes from the United States.
+- (history) By the late 19th century, the vast grasslands of the Great Plains had been opened up for cattle ranching.
 - (about) This was highlighted in a 2014 ad campaign for the chain featuring Mulder, who had since become the president of the A&W chain.
-- (origin) Cheeseburger comes from United States.
 
 Learn more:
 
@@ -9227,7 +9184,7 @@ Chili con carne, often shortened to chili, is a spicy stew of Mexican origin con
 Fun facts:
 
 - (history) In Spanish, the term "chile con carne" (consisting of the word chile (from the Nahuatl chīlli) and con carne, Spanish for "with meat") is first recorded in a book from 1857 about the Mexican–American War.
-- (origin) The use of beef as the primary meat originated when the Spanish introduced cattle to Mexico.
+- (origin) Unlike some other Texas foods, such as barbecued brisket, chili largely originated with working-class Tejana and Mexican women.
 - (about) The "chili queens" of San Antonio, Texas, were particularly famous in previous decades for selling their inexpensive chili-flavored beef stew in their casual "chili joints".
 
 More fun facts (when the user asks for more):
@@ -9236,11 +9193,11 @@ More fun facts (when the user asks for more):
 - (history) French colonist Mathieu de Fossey had a similar experience in 1831 when he was served tasajo cooked in chili in the village of Jáltipan near Coatzacoalcos in southern Veracruz: That day we had a completely Indian meal, in which they served us tasajo cooked with chili, beans and tortillas.
 - (history) American traveler Theodore Taylor Johnson also wrote about eating carne con chile while in San Blas, Nayarit, in 1849: Returning to the town we obtained a true Mexican dinner, consisting of jerked beef stewed with onions and plenty of cayenne pepper, which they call "carne con chile colorado".
 - (history) A recipe dating back to the 1850s describes dried beef, suet, dried chili peppers and salt, which were pounded together, formed into bricks and left to dry, which could then be boiled in pots in an army encampment in Monterrey, of what is now Nuevo León, Mexico.
-- (origin) Unlike some other Texas foods, such as barbecued brisket, chili largely originated with working-class Tejana and Mexican women.
-- (inspiration) The types of meat and other ingredients used vary based on geographic and personal tastes.
-- (about) Most of the beef being consumed in Mexico, especially by the rancheros (cowboys) in the 17th, 18th, and 19th centuries, consisted of dried salted beef known as tasajo or cecina.
 - (about) Tasajo was used in many dishes, including a stew of red chili sauce known as carne con chile, (meat with chili).
 - (origin) Chili con carne comes from Mexico.
+- (origin) The use of beef as the primary meat originated when the Spanish introduced cattle to Mexico.
+- (inspiration) The types of meat and other ingredients used vary based on geographic and personal tastes.
+- (about) Most of the beef being consumed in Mexico, especially by the rancheros (cowboys) in the 17th, 18th, and 19th centuries, consisted of dried salted beef known as tasajo or cecina.
 
 Learn more:
 
@@ -9318,21 +9275,20 @@ Frybread (also spelled fry bread) is a dish of the indigenous people of North Am
 Fun facts:
 
 - (culture) The US government believed that this food was a traditional Native American dish, which is a common misconception.
-- (history) She attributes the spread of frybread to boarding schools, like the Phoenix Indian School, which she attended in the late 1970s.
+- (history) Frybread, and the phrase "Frybread Power", is featured in Sherman Alexie's 1998 film Smoke Signals.
 - (about) The United States government provided a small set of staple food items, which included the ingredients to create a simple quick bread, that was cooked in a pan of hot lard over coals and became known as frybread.
 
 More fun facts (when the user asks for more):
 
-- (history) Frybread, and the phrase "Frybread Power", is featured in Sherman Alexie's 1998 film Smoke Signals.
 - (culture) The ingredients for frybread were provided to Native Americans to prevent them from starving when they were moved from areas where they could grow and forage their traditional foods to areas that would not support their traditional foods.
 - (culture) Critics see the dish as both a symbol of colonization and a symbol of resilience.
 - (about) Frybread was named the official state bread of South Dakota in 2005.
-- (about) In 2012 the Phoenix restaurant The Fry Bread House was named an American Classic by the James Beard Foundation.
 - (culture) Although frybread is often associated with "traditional" Native American cuisine, some Native American chefs reject it as a symbol of colonialism.
 - (culture) Frybread became a symbol of resilience as it was developed out of necessity using government-provided flour, sugar, and lard.
-- (culture) However, indigenous chefs such as Sherman consider it a symbol of colonial oppression, as the ingredients were being provided because the government had moved the people onto land that could not support growing traditional staples like corn and beans.
+- (culture) Indigenous chefs such as Sherman consider it a symbol of colonial oppression, as the ingredients were being provided because the government had moved the people onto land that could not support growing traditional staples like corn and beans.
 - (about) A fictional frybread contest formed the plotline for the 2012 mockumentary More Than Frybread.
-- (origin) Frybread comes from United States.
+- (origin) Frybread comes from the United States.
+- (about) In 2012 the Phoenix restaurant The Fry Bread House was named an American Classic by the James Beard Foundation.
 
 Learn more:
 
@@ -9361,7 +9317,6 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Another recipe, but under the name "Huevos Rancheros", appears in a Puebla manual in 1898, and it is the same recipe as the one in Galvan Rivera’s cookbook: Huevos rancheros - Remove the veins from some pasilla chiles, with a third of the ancho chiles, both deveined, toasted and ground with roasted tomatoes.
-- (history) In her book Mexico as I saw it (1901), Ethel Brilliana Tweedie, while eating in a Mexico City restaurant, recounts: “Before the menu arrived, a bundle of knives and forks were thrust on the marble table before us, and sticking on to the ends of the forks were rolls of bread.
 
 Learn more:
 
@@ -9445,17 +9400,17 @@ Menudo, also known as Mondongo, pancita ([little] gut or [little] stomach) or mo
 
 Fun facts:
 
-- (culture) Tripe soups of both beef and mutton have been traditional in Spanish cuisine since at least the 14th century.
 - (history) In the Mexican cookbook Nuevo y Sencillo Arte de Cocina, Reposteria y Refrescos (1836), Antonia Carrillo includes many menudo recipes, including a beef or mutton caldo de menudo (menudo soup), a veal menudo soup, and a menudo sopa (bread pudding).
 - (about) Menudo is also believed to be a hangover cure.
+- (culture) Documents from the American Works Progress Administration indicate that in the 1930s, among migrant workers in Arizona, menudo parties were held regularly to celebrate births, Christmas, and other occasions.
 
 More fun facts (when the user asks for more):
 
 - (history) In his cookbook Diccionario de Cocina o El Nuevo Cocinero Mexicano (1845), Manuel Galvan Rivera defined “menudo” in Mexico as: MENUDO: Although this word includes the stomach, feet, blood and head of the cattle that are killed, in cuisine it is commonly understood as only the stomach or “pancita” and the tripe.
-- (culture) Documents from the American Works Progress Administration indicate that in the 1930s, among migrant workers in Arizona, menudo parties were held regularly to celebrate births, Christmas, and other occasions.
 - (origin) With the Spanish colonization of the Americas, the Spanish introduced the tradition of menudo or tripe soups throughout the Americas, including Mexico.
 - (origin) Menudo comes from Mexico.
 - (about) Not to be confused with Menudo.
+- (culture) Tripe soups of both beef and mutton have been traditional in Spanish cuisine since at least the 14th century.
 
 Learn more:
 
@@ -9484,8 +9439,6 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) In 1943, Ignacio Anaya was a maître d' at a restaurant called the Victory Club, when a group of women whose husbands were officers stationed at the nearby U.S.
-- (history) His original recipe was printed in the 1954 St.
 - (history) According to El Cholo Spanish Cafe history, waitress Carmen Rocha is credited with making nachos in San Antonio, Texas, before introducing the dish to Los Angeles at the cafe in 1959.
 - (history) During the September 4, 1978, Monday Night Football game between the Baltimore Colts and Dallas Cowboys, sportscaster Howard Cosell enjoyed the name "nachos", and made a point of mentioning the dish in his broadcasts over the following weeks, further popularizing it and introducing it to a larger audience.
 - (inspiration) Nachos is named after Ignacio Anaya García.
@@ -9494,6 +9447,7 @@ More fun facts (when the user asks for more):
 - (about) This version became known as "ballpark nachos".
 - (culture) In the United States, National Nacho Day is celebrated on November 6.
 - (origin) Nachos comes from Mexico.
+- (history) In 1943, Ignacio Anaya was a maître d' at a restaurant called the Victory Club, when a group of women whose husbands were officers stationed at the nearby U.S. Army base Fort Duncan, traveled across the border to eat there.
 
 Learn more:
 
@@ -9538,14 +9492,14 @@ Pico de gallo, also called salsa fresca ('fresh sauce'), salsa cruda ('raw sauce
 
 Fun facts:
 
-- (inspiration) Many native residents of the Sonoran Mexico region say that the salsa is named after the serrano pepper's resemblance to a rooster's beak in shape.
+- (inspiration) Pico de gallo is named after beak.
 - (culture) Pico de gallo is traditionally made from chopped tomato, onion, and serrano peppers (jalapeños or habaneros may be used as alternatives), with salt, lime juice, and cilantro.
-- (about) The tomato-based variety is widely known as salsa picada ('minced/chopped sauce').
+- (origin) Pico de gallo comes from Mexico.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Pico de gallo is named after beak.
-- (origin) Pico de gallo comes from Mexico.
+- (inspiration) Many native residents of the Sonoran Mexico region say that the salsa is named after the serrano pepper's resemblance to a rooster's beak in shape.
+- (about) The tomato-based variety is widely known as salsa picada ('minced/chopped sauce').
 
 Learn more:
 
@@ -9590,13 +9544,13 @@ A quesadilla is a Mexican dish made from a tortilla folded in half or two tortil
 
 Fun facts:
 
-- (about) Other popular fillings and toppings include green or red salsa, avocado or guacamole, chopped onion, tomato, chiles, and cilantro.
-- (origin) Quesadilla comes from Mexico.
 - (about) In the cuisine of Oaxaca, large corn tortillas cooked on a dry comal and filled with cheese, which would be called quesadillas in other regions of Mexico, are known as empanadas.
+- (origin) Quesadilla comes from Mexico.
+- (about) The combination of cheese and ham sandwiched between two flour tortillas, cooked and wedged – commonly known as a sincronizada (Spanish for "synchronized") in Mexico – is not regarded as a quesadilla.
 
 More fun facts (when the user asks for more):
 
-- (about) The combination of cheese and ham sandwiched between two flour tortillas, cooked and wedged – commonly known as a sincronizada (Spanish for "synchronized") in Mexico – is not regarded as a quesadilla.
+- (about) Other popular fillings and toppings include green or red salsa, avocado or guacamole, chopped onion, tomato, chiles, and cilantro.
 - (about) Not to be confused with taco.
 
 Learn more:
@@ -9686,12 +9640,12 @@ Fun facts:
 
 - (inspiration) According to a version of the origin story by Gray's Coors Tavern's, the slopper originated there in the 1950s.
 - (origin) One writer determined that the slopper originated in Pueblo, Colorado in the early to mid-1970s.
-- (history) Others attribute the origin of the dish to the late Herb Casebeer, owner of Herb's Sports shop, who was a regular patron in the late 1950s to early 1960s.
+- (about) The first restaurant to serve the slopper is undetermined.
 
 More fun facts (when the user asks for more):
 
 - (origin) Some claim that it was first served in Coors Tavern, while others insist that it originated at Star Bar.
-- (about) The first restaurant to serve the slopper is undetermined.
+- (history) Others attribute the origin of the dish to the late Herb Casebeer, owner of Herb's Sports shop, who was a regular patron in the late 1950s to early 1960s.
 
 Learn more:
 
@@ -9712,22 +9666,22 @@ A taco is a traditional Mexican dish consisting of a small hand-sized corn- or w
 
 Fun facts:
 
-- (inspiration) Others argue that the advent of the taco is much more recent, with one of the more popular theories being that the taco was invented by silver miners in the 18th century.
-- (history) These instances disprove the claim that the first mention of the word "taco" in Mexico was in the same author's 1891 novel Los bandidos de Río Frío.
 - (about) Writing at the time of the Spanish conquistadors, Bernal Díaz del Castillo documented the first taco feast enjoyed by Europeans, a meal which Hernán Cortés arranged for his captains in Coyoacán.
+- (inspiration) Others argue that the advent of the taco is much more recent, with one of the more popular theories being that the taco was invented by silver miners in the 18th century.
+- (origin) One of the oldest mentions of the term taco comes from an 1836 cookbook —Nuevo y sencillo arte de cocina, reposteria y refrescos— by Antonia Carrillo; in a recipe for a rolled pork loin (lomo de cerdo enrollado), she instructs the readers to roll the loin like they would a "taco de tortilla" or tortilla taco.
 
 More fun facts (when the user asks for more):
 
-- (origin) One of the oldest mentions of the term taco comes from an 1836 cookbook —Nuevo y sencillo arte de cocina, reposteria y refrescos— by Antonia Carrillo; in a recipe for a rolled pork loin (lomo de cerdo enrollado), she instructs the readers to roll the loin like they would a "taco de tortilla" or tortilla taco.
+- (history) These instances disprove the claim that the first mention of the word "taco" in Mexico was in the same author's 1891 novel Los bandidos de Río Frío.
 - (about) In 2024, El Califa de León in Mexico City became the first taco stand to win a Michelin star.
 - (origin) Tacos de camarones ("shrimp tacos") originated in Baja California, Mexico.
 - (culture) Tacos are a common form of antojitos, or Mexican street food, which have spread around the world.
-- (culture) They can be served on their own as tapas or street food, or can be added to other dishes such as salmorejo, omelettes, stews, empanadas, or melón con jamón.
 - (culture) There is significant debate about the origins of the taco in Mexico, with some arguing that the taco predates the arrival of the Spanish in Mexico, since there is anthropological evidence that the indigenous people living in the lake region of the Valley of Mexico traditionally ate tacos filled with small fish.
 - (culture) Tacos de asador ("spit" or "grill" tacos) may be composed of any of the following: carne asada tacos; tacos de tripita ("tripe tacos"), grilled until crisp; and, chorizo asado (traditional Spanish-style sausage).
 - (about) Mulita is used to describe these types of sandwiched tacos in the Northern States of Mexico while they are known as gringas in the Mexican south and are prepared using wheat flour tortillas.
 - (origin) Taco comes from Mexico.
 - (about) Not to be confused with burrito, quesadilla, enchilada, taquito, tostada, gordita.
+- (culture) They can be served on their own as tapas or street food, or can be added to other dishes such as salmorejo, omelettes, stews, empanadas, or melón con jamón.
 
 Learn more:
 
@@ -9758,10 +9712,10 @@ More fun facts (when the user asks for more):
 - (history) Tamale pie was invented in the United States around the beginning of the 20th century.
 - (history) The first recipe for a "tamale pie", according to Mark H Zanger in The Oxford Encyclopedia of Food and Drink in America, was published in 1911.
 - (history) In 1899 a book published in Austin, Texas, titled The Capitol Cook Book included a recipe for a pot pie similar to the modern tamale pie that used a wheat flour crust to top the dish.
-- (history) In 1905, The Times Cook Book #2 was published by the Los Angeles Times.
 - (inspiration) Tamale pie is named after tamale.
 - (inspiration) Tamale pie is adapted from the elements of the Mexican tamale, although it has never been popular in Mexican-American culture.
-- (origin) Tamale pie comes from United States.
+- (origin) Tamale pie comes from the United States.
+- (history) In 1905, The Times Cook Book #2 was published by the Los Angeles Times.
 
 Learn more:
 
@@ -9818,13 +9772,13 @@ More fun facts (when the user asks for more):
 - (about) Corn tortillas are made by treating corn with limewater, a process known as nixtamalization, forming a dough known as masa, which is baked on a griddle.
 - (about) After the 16th-century Spanish conquest of Mexico, corn tortillas remained popular among indigenous communities.
 - (about) The flour tortilla remained popular in parts of Mexico that became part of the United States, including Texas and California.
-- (about) They became popular as a convenient and palatable food that could easily be carried by workers.
 - (origin) The Maya used masa to make tamales rather than tortillas, which were likely introduced much later by migrants from Central Mexico.
 - (culture) The tortilla is a national symbol of Mexico, seen as a unifier of the country's races and classes.
 - (culture) Artistic depictions of tortillas include Diego Rivera's paintings Tortilla Makers and The Grinder, which both depict idealized images of peasant women, reflecting the tortilla's use as a national symbol.
 - (culture) The Otomi of the state of Querétaro have a unique tradition of painting tortillas for special occasions, such as Catholic feast days.
 - (culture) In Mixtec culture, tortillas hold significance in the wedding tradition, as the tortilla is a symbol of unity.
 - (origin) Tortilla comes from Mesoamerica.
+- (about) They became popular as a convenient and palatable food that could easily be carried by workers.
 
 Learn more:
 
@@ -9845,16 +9799,16 @@ American cheese is a type of processed cheese made from cheddar, Colby, or simil
 
 Fun facts:
 
-- (history) Processed American cheese was invented in the 1910s by James L.
+- (history) The Oxford English Dictionary lists the first known usage of "American cheese" as occurring in the Frankfort, Kentucky, newspaper The Guardian of Freedom in 1804.
 - (about) What was known in America as yellow cheese or store cheese was known as American cheddar or Yankee cheddar in England.
 - (culture) The term "American cheese" rapidly began to refer to the processed variety instead of the traditional but more expensive cheddars also made and sold in the U.S.
 
 More fun facts (when the user asks for more):
 
-- (history) The Oxford English Dictionary lists the first known usage of "American cheese" as occurring in the Frankfort, Kentucky, newspaper The Guardian of Freedom in 1804.
+- (history) Processed American cheese was invented in the 1910s by James L. Kraft, the founder of Kraft Foods Inc., who obtained a patent for his manufacturing process in 1916.
 - (history) By 1790, American-made cheddars were being exported back to England.
-- (history) Kraft began marketing it in the late 1910s.
-- (origin) American cheese comes from United States.
+- (history) After patenting a new method for manufacturing processed cheese in 1916, James L. Kraft began marketing it in the late 1910s.
+- (origin) American cheese comes from the United States.
 
 Learn more:
 
@@ -9909,9 +9863,8 @@ A bagel dog is a food item consisting of a full-size or miniature hot dog wrappe
 
 Fun facts:
 
-- (inspiration) Bagel dog has been said that the bagel dog was invented by Milan R.
-- (history) Burger in Durham, North Carolina in 1980.
-- (origin) Bagel dog comes from United States.
+- (inspiration) Bagel dog has been said that the bagel dog was invented by Milan R. Burger in Durham, North Carolina in 1980.
+- (origin) Bagel dog comes from the United States.
 
 Learn more:
 
@@ -9958,9 +9911,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Sugar, ketchup, and Worcestershire sauce started to be used in the 1920s, but after World War II, the quantity of sugar and the number of ingredients increased dramatically.
-- (history) Kraft Foods only entered the market in around 1960, but with heavy advertising, succeeded in becoming the market leader.
 - (history) Heinz was the first major company to sell bottled barbecue sauce in 1940.
-- (origin) Barbecue sauce comes from United States.
+- (origin) Barbecue sauce comes from the United States.
+- (history) Kraft Foods only entered the market in around 1960, but with heavy advertising, succeeded in becoming the market leader.
 
 Learn more:
 
@@ -9991,8 +9944,8 @@ More fun facts (when the user asks for more):
 - (history) Invented near the beginning of the 20th century, it was originally and still is used for making Benedictine sandwiches, a type of cucumber sandwich, but it also has been used as a dip or combined with meat in a sandwich.
 - (history) Benedict opened a kitchen providing catering services in 1893, and in 1900 opened a restaurant and tea room called "Benedict's".
 - (history) Benedict's cookbooks are still in print; The Blue Ribbon Cook Book, first published in 1902, has been reprinted at least as recently as 2008.
+- (origin) Benedictine comes from the United States.
 - (about) Although early editions of this book do not contain a recipe for the spread, the 2022 edition does.
-- (origin) Benedictine comes from United States.
 
 Learn more:
 
@@ -10013,7 +9966,7 @@ Blue cheese dressing is a popular side sauce, salad dressing and dip in the Unit
 
 Fun facts:
 
-- (origin) Blue cheese dressing comes from United States.
+- (origin) Blue cheese dressing comes from the United States.
 
 Learn more:
 
@@ -10041,7 +9994,7 @@ More fun facts (when the user asks for more):
 
 - (history) Boiling peanuts has been a folk cultural practice in the Southern United States, where they were originally called goober peas, since at least the 19th century.
 - (history) Boiled peanuts became a mainstream commodity in the lower South in the early 20th century.
-- (history) A 1925 account from Orangeburg, South Carolina (where the food historian Andrew F.
+- (history) A 1925 account from Orangeburg, South Carolina (where the food historian Andrew F. Smith believes the sale of boiled peanuts may have begun), mentions boys hawking the food as a snack for five cents per bag.
 
 Learn more:
 
@@ -10061,8 +10014,7 @@ Booyah (also spelled booya, bouja, boulyaw, and bouyou) is a thick stew believed
 
 Fun facts:
 
-- (culture) He went around to parents and neighbors, gathering up beef and chickens for the traditional Belgian soup that would be the main dish at the benefit affair.
-- (origin) Booyah comes from United States.
+- (origin) Booyah comes from the United States.
 
 Learn more:
 
@@ -10083,7 +10035,7 @@ The breakfast sausage (or country sausage) is a type of fresh sausage, typically
 Fun facts:
 
 - (origin) Breakfast sausage is a common breakfast item in traditional North American "farmer" or "country" breakfasts, as it originated as a way for farmers to make use of as much of their livestock (usually pigs) as possible.
-- (origin) Breakfast sausage comes from United States.
+- (origin) Breakfast sausage comes from the United States.
 
 Learn more:
 
@@ -10122,14 +10074,15 @@ Burgoo is a stew, similar to Irish or Mulligan stew, often served with cornbread
 
 Fun facts:
 
-- (history) The first OED reference in English is from 1743 in J.
 - (about) Suppl. reads "Burgoo, a sea-faring dish", likely with associations to the Royal Navy and Merchant Navy (United Kingdom).
-- (origin) Burgoo comes from United States.
+- (history) The first OED reference in English is from 1743 in J. Isham Observ.
+- (origin) Burgoo comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) North American." A 1753 reference from Chambers's Cycl.
 - (about) Burgoo is popular as the basis for civic fundraisers in the Upland South.
+- (history) North American." A 1753 reference from Chambers's Cycl.
+- (history) An 1863 reference to G. A. Sala, Strange Adventures Capt.
 
 Learn more:
 
@@ -10155,8 +10108,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) Carne asada fries comes from the United States.
 - (about) By 2015, fast food chain Del Taco began to sell the item.
-- (origin) Carne asada fries comes from United States.
 
 Learn more:
 
@@ -10176,7 +10129,7 @@ Carolina style refers to an established set of condiments for hot dogs and hambu
 
 Fun facts:
 
-- (origin) Carolina style comes from United States.
+- (origin) Carolina style comes from the United States.
 
 Learn more:
 
@@ -10216,7 +10169,7 @@ Cheetos (formerly styled as Chee-tos) is a crunchy corn-cheese puff snack brand 
 Fun facts:
 
 - (history) Fritos creator Charles Elmer Doolin invented Cheetos in 1948, and began national distribution in the United States.
-- (origin) Lay for marketing and distribution, and Cheetos were introduced nationally in the U.S. in 1948, along with a potato product called Fritatos.
+- (origin) This led Doolin to partner with potato chip businessman Herman W. Lay for marketing and distribution, and Cheetos were introduced nationally in the U.S. in 1948, along with a potato product called Fritatos.
 - (about) Most of the competing cheese-flavored snacks are distributed in specific regions of the U.S., and as of 2010 Cheetos remains as the top-selling cheese puff in America.
 
 More fun facts (when the user asks for more):
@@ -10225,7 +10178,7 @@ More fun facts (when the user asks for more):
 - (history) The success of Cheetos prompted Doolin and Lay to merge their two companies in 1961, forming Frito-Lay Inc.
 - (history) Cheetos dates from 1948-.
 - (history) Cheetos were invented in 1948 by Fritos creator Charles Elmer Doolin, who cooked early test batches in the Frito Company's research and development kitchen in Dallas, Texas.
-- (origin) Cheetos comes from United States.
+- (origin) Cheetos comes from the United States.
 
 Learn more:
 
@@ -10248,7 +10201,7 @@ Fun facts:
 
 - (history) Frank Sodolak of Sodolak's Original Country Inn in Snook, Texas, states that he invented the dish; however, there is a similar recipe in the 1954 cookbook Louisiana Cookery by Mary Land which uses salt pork instead of bacon.
 - (origin) Chicken fried bacon is an American dish that was introduced in Texas in circa 1991.
-- (origin) Chicken fried bacon comes from United States.
+- (origin) Chicken fried bacon comes from the United States.
 
 Learn more:
 
@@ -10275,10 +10228,10 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The Oxford English Dictionary's earliest attestation of the term "chicken-fried steak" is from a restaurant advertisement in the 19 June 1914 edition of the Colorado Springs Gazette newspaper.
-- (history) A 1943 American cookbook recipe for Wiener schnitzel includes a white salt and pepper cream gravy.
 - (history) Chicken-fried steak is among numerous popular dishes which make up the official state meal of Oklahoma, added to the list in 1988.
 - (origin) Lamesa, the seat of Dawson County on the Texas South Plains, claims to be the birthplace of chicken-fried steak, and hosts an annual celebration accordingly.
-- (origin) Chicken-fried steak comes from United States.
+- (origin) Chicken-fried steak comes from the United States.
+- (history) A 1943 American cookbook recipe for Wiener schnitzel includes a white salt and pepper cream gravy.
 
 Learn more:
 
@@ -10314,9 +10267,9 @@ More fun facts (when the user asks for more):
 - (history) In 1998, the city of Colby adopted a resolution supporting the measure and the Wisconsin State Assembly voted 81–15 in support, but the bill was not voted on by the Senate.
 - (inspiration) Colby cheese is named after Colby.
 - (culture) Traditional "washed-curd" Colby is pressed into a cylindrical form called a longhorn, and cures into an open texture with irregular holes.
+- (origin) Colby cheese comes from the United States.
 - (origin) A similar measure was introduced in 2019, but did not receive a vote in either the Assembly or the Senate.
 - (origin) In 2021, the bill was introduced again in an Assembly committee, with Joseph Steinwand's great-granddaughter speaking in support of the measure.
-- (origin) Colby cheese comes from United States.
 
 Learn more:
 
@@ -10337,7 +10290,7 @@ Corn pudding (also called pudding corn, puddin' corn, hoppy glop, or spoonbread)
 
 Fun facts:
 
-- (origin) Corn pudding comes from United States.
+- (origin) Corn pudding comes from the United States.
 
 Learn more:
 
@@ -10357,7 +10310,7 @@ Crawfish pie is a type of baked savory pie common in the Cajun and Creole cuisin
 
 Fun facts:
 
-- (origin) Crawfish pie comes from United States.
+- (origin) Crawfish pie comes from the United States.
 
 Learn more:
 
@@ -10378,16 +10331,15 @@ Cream cheese is a soft, usually mild-tasting fresh cheese made from milk and cre
 Fun facts:
 
 - (origin) Cream cheese originated in the United States in the 1870s.
-- (about) Lawrence, a dairyman in Chester, New York, was the first to mass produce an unripened fresh cheese known generically as cream cheese.
-- (history) In 1879, to build a larger factory, Lawrence entered into an arrangement with Samuel S.
+- (history) Around 1873, William A. Lawrence, a dairyman in Chester, New York, was the first to mass produce an unripened fresh cheese known generically as cream cheese.
+- (history) In 1880, Alvah Reynolds, a New York cheese distributor, began to sell the cheese of Lawrence & Durland and called it "Philadelphia Cream Cheese".
 
 More fun facts (when the user asks for more):
 
-- (history) In 1880, Alvah Reynolds, a New York cheese distributor, began to sell the cheese of Lawrence & Durland and called it "Philadelphia Cream Cheese".
 - (history) In 1892, Reynolds bought the Empire Cheese Co. of South Edmeston, New York, to produce cheese under his "Philadelphia" label.
-- (history) Whitney Sr. (which later merged with Kraft, in 1928).
 - (history) In 1877, Lawrence created the first brand of cream cheese; its logo was a silhouette of a cow followed by the words "Neufchatel & Cream Cheese".
-- (origin) Cream cheese comes from United States.
+- (origin) Cream cheese comes from the United States.
+- (history) In 1879, to build a larger factory, Lawrence entered into an arrangement with Samuel S. Durland, another Chester merchant.
 
 Learn more:
 
@@ -10414,15 +10366,14 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The initial flavor was simply toasted corn, followed by taco in 1967, and the now-ubiquitous nacho cheese in 1972.
 - (history) Doritos were released nationwide in 1966, the first tortilla chip to be launched nationally in the United States.
-- (history) The original product was made at the Casa de Fritos (now Rancho Del Zocalo) at Disneyland in Anaheim, California, during the early 1960s.
-- (history) He made a deal in 1964 with Alex Foods, the provider of many items for Casa de Fritos at Disneyland, and produced the chips for a short time regionally, before it was overwhelmed by the volume, and Frito-Lay moved the production in-house to its Tulsa plant.
 - (origin) Doritos were introduced in Australia in 1984.
 - (history) According to Information Resources International, in 1993, Doritos earned $1.2 billion in retail sales, one-third of the total Frito-Lay sales for the year.
-- (history) The redesigned chips were released in four flavors beginning in January 1995.
 - (history) Doritos dates from 1964-.
-- (origin) Doritos comes from United States.
+- (history) The initial flavor was simply toasted corn, followed by taco in 1967, and the now-ubiquitous nacho cheese in 1972.
+- (origin) Doritos comes from the United States.
+- (history) The original product was made at the Casa de Fritos (now Rancho Del Zocalo) at Disneyland in Anaheim, California, during the early 1960s.
+- (history) The redesigned chips were released in four flavors beginning in January 1995.
 
 Learn more:
 
@@ -10487,7 +10438,7 @@ Fry sauce is a condiment often served with French fries or other food in many pl
 
 Fun facts:
 
-- (origin) Fry sauce comes from United States, Argentina.
+- (origin) Fry sauce comes from the United States, Argentina.
 
 Learn more:
 
@@ -10580,7 +10531,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) In the early 1970s, salad dressing maker Seven Seas produced a bottled version of this dressing.
-- (origin) Green goddess dressing comes from United States.
+- (origin) Green goddess dressing comes from the United States.
 
 Learn more:
 
@@ -10602,7 +10553,7 @@ A half-smoke is a type of hot dog found in Washington, D.C., and the surrounding
 Fun facts:
 
 - (history) Briggs started selling his half-smokes in about 1930.
-- (origin) Half-smoke comes from United States.
+- (origin) Half-smoke comes from the United States.
 
 Learn more:
 
@@ -10624,16 +10575,16 @@ Hoppin' John, also known as Carolina peas and rice, is a rice and beans dish of 
 Fun facts:
 
 - (origin) Hoppin' John originated from the Gullah people and was originally a Lowcountry one-pot dish before spreading to the entire population of the South.
-- (culture) The peas are symbolic of pennies or coins, and a coin is sometimes added to the pot or left under the dinner bowls.
+- (culture) American chef Sean Brock claims that traditional Hoppin' John was made with Carolina Gold rice, once thought to be extinct, and Sea Island red peas.
 - (about) As of 2017, several rice growers offer Carolina Gold rice.
 
 More fun facts (when the user asks for more):
 
+- (origin) Hoppin' John comes from the United States.
+- (culture) The peas are symbolic of pennies or coins, and a coin is sometimes added to the pot or left under the dinner bowls.
 - (culture) Another traditional food, cornbread, can also be served to represent wealth, being the color of gold.
 - (culture) One tradition common in the United States is that each person at the meal should leave three peas on their plate to ensure that the New Year will be filled with luck, fortune and romance.
 - (culture) Another tradition holds that counting the number of peas in a serving predicts the amount of luck, or wealth, that the diner will have in the coming year.
-- (culture) American chef Sean Brock claims that traditional Hoppin' John was made with Carolina Gold rice, once thought to be extinct, and Sea Island red peas.
-- (origin) Hoppin' John comes from United States.
 
 Learn more:
 
@@ -10654,7 +10605,7 @@ A hot link (also red link, Louisiana red hot or Louisiana hot link) is a sausage
 
 Fun facts:
 
-- (origin) Hot link comes from United States.
+- (origin) Hot link comes from the United States.
 
 Learn more:
 
@@ -10675,7 +10626,7 @@ The hot wiener, also known as New York System wiener or gagger, is a staple of t
 
 Fun facts:
 
-- (origin) Hot wiener comes from United States.
+- (origin) Hot wiener comes from the United States.
 
 Learn more:
 
@@ -10694,16 +10645,16 @@ Animal intestines are eaten as offal in various cuisines.
 
 Fun facts:
 
-- (history) Chitterling is first documented in Middle English in the form cheterling, c. 1400.
+- (history) A 1743 English cookery book The Lady's Companion: or, An Infallible Guide to the Fair Sex contained a recipe for "Calf's Chitterlings" which was essentially a bacon and offal sausage in a calf's intestine casing.
+- (about) On January 11th, 2013, This American Life aired a viewer-submitted letter alleging that the American meat-packing industry was engaging in food adulteration of squid rings, swapping it for cross-sections of pork bung.
 - (inspiration) This became a viral phenomenon; although This American Life did not further corroborate this letter after the initial airing, the rumor became an urban legend.
-- (about) They are popular in many parts of Europe, and are also eaten in the southern United States.
 
 More fun facts (when the user asks for more):
 
-- (history) A 1743 English cookery book The Lady's Companion: or, An Infallible Guide to the Fair Sex contained a recipe for "Calf's Chitterlings" which was essentially a bacon and offal sausage in a calf's intestine casing.
+- (history) Chitterling is first documented in Middle English in the form cheterling, c. 1400.
 - (history) This recipe was repeated by the English cookery writer Hannah Glasse in her 1784 cookery book Art of Cookery.
 - (history) Linguist Paul Anthony Jones has written, "in the late 1500s a chitterling was an ornate type of neck ruff, so called because its frilled edge looked like the folds of a slaughtered animal's entrails".
-- (about) On January 11th, 2013, This American Life aired a viewer-submitted letter alleging that the American meat-packing industry was engaging in food adulteration of squid rings, swapping it for cross-sections of pork bung.
+- (about) They are popular in many parts of Europe, and are also eaten in the southern United States.
 
 Learn more:
 
@@ -10723,7 +10674,7 @@ Kentucky jam cake is a traditional dessert originating in the United States stat
 
 Fun facts:
 
-- (origin) Kentucky jam cake comes from United States.
+- (origin) Kentucky jam cake comes from the United States.
 
 Learn more:
 
@@ -10745,18 +10696,17 @@ Fun facts:
 
 - (history) Lane cake was invented or popularized by Emma Rylander Lane (1856–1904), a native and long-time resident of Americus, Georgia, who developed the recipe while living in Clayton, Alabama, in the 1890s.
 - (origin) While the Lane cake originated in Alabama, the Lady Baltimore came from Charleston.
-- (about) My prize cake, and named not from my own conceit, but through the courtesy of Mrs.
+- (about) My prize cake, and named not from my own conceit, but through the courtesy of Mrs. Janie McDowell Pruett, of Eufaula, Ala.
 
 More fun facts (when the user asks for more):
 
-- (history) She published the original recipe in Some Good Things to Eat (1898).
-- (history) The original recipe in Some Good Things to Eat (1898) states: 8 egg whites, 1 cup (~240 mL) butter, 1 cup (~240 mL) sweet milk, 2 cups (~480 mL) sifted sugar, 3+1/4 cups (~720 mL) sifted flour, 2 tsp (10 mL) baking powder, 1 tbsp (15 mL) vanilla.
-- (origin) When the recipe originated, there were no stand or electric hand mixers.
 - (history) Although it is difficult to locate a copy of Emma Rylander Lane's original cookbook or the revised edition published in 1989, Some Good Things to Eat, the recipe can be found in many older cookbooks.
 - (history) The Purefoy Hotel Cook Book published in 1953 has the recipe for Lane cake appearing on page 123–124.
-- (culture) Recipes for Lane cake vary because so many Southern cooks fiercely guarded their recipes, passing them down from generation to generation to recreate the family tradition.
+- (culture) Recipes for Lane cake vary because so many Southern cooks fiercely guarded their recipes, passing them down from generation to recreate the family tradition.
 - (about) Since this cake recipe required a strong dose of bourbon, it was just for the adult relatives, doctors, nurses, and other friends who would be invited to our house for eggnog." In May 2016, Lane cake was voted the official state cake of Alabama.
-- (origin) Lane cake comes from United States.
+- (origin) Lane cake comes from the United States.
+- (history) The original recipe in Some Good Things to Eat (1898) states: 8 egg whites, 1 cup (~240 mL) butter, 1 cup (~240 mL) sweet milk, 2 cups (~480 mL) sifted sugar, 3+1/4 cups (~720 mL) sifted flour, 2 tsp (10 mL) baking powder, 1 tbsp (15 mL) vanilla.
+- (origin) When the recipe originated, there were no stand or electric hand mixers.
 
 Learn more:
 
@@ -10775,14 +10725,14 @@ Manapua is the Hawaiian adaptation of the Chinese bun, baozi, derived specifical
 Fun facts:
 
 - (history) Bat Moi Kam Mau is credited with retailing the first large char siu bao in the 1940s at her manapua shop "Char Hung Sut".
-- (about) These bao would later be known as manapua, said to be a portmanteau of the Hawaiian phrase mea ʻono puaʻa, roughly translated as "pork cake" – mea ʻono referring to any food item encompassing dessert, cake, pastry, cookie and puaʻa meaning "pork" or "pig".
+- (about) Some of these Chinese laborers, who would later be known as a "manapua man", would peddle their char siu bao in the plantation fields and to other plantation camps by foot and later by vehicle for additional income.
 - (culture) These traditional char siu bao would eventually grow in size into the modern manapua known today.
 
 More fun facts (when the user asks for more):
 
 - (history) Honolulu restaurant Royal Kitchen claimed to have been one of the first retailers of baked manapua in 1974.
 - (history) The prospect of financial reward found in the sugar industry caused much Chinese immigration starting in the mid 1800s.
-- (about) Some of these Chinese laborers, who would later be known as a "manapua man", would peddle their char siu bao in the plantation fields and to other plantation camps by foot and later by vehicle for additional income.
+- (about) These bao would later be known as manapua, said to be a portmanteau of the Hawaiian phrase mea ʻono puaʻa, roughly translated as "pork cake" – mea ʻono referring to any food item encompassing dessert, cake, pastry, cookie and puaʻa meaning "pork" or "pig".
 
 Learn more:
 
@@ -10832,8 +10782,8 @@ Minnesota sushi is a type of roll that is popular in the Midwestern United State
 
 Fun facts:
 
-- (about) The dish goes by different names in different regions and is also known as midwest sushi, pickle wrap, pickle roll-up, frog eyes, pickle dawg, Iowa sushi, Lutheran sushi, ham and pickle pinwheels, or St.
-- (origin) Minnesota sushi comes from United States.
+- (about) The dish goes by different names in different regions and is also known as midwest sushi, pickle wrap, pickle roll-up, frog eyes, pickle dawg, Iowa sushi, Lutheran sushi, ham and pickle pinwheels, or St. Louis sushi.
+- (origin) Minnesota sushi comes from the United States.
 - (about) Minnesota sushi dates from 2000-.
 
 Learn more:
@@ -10879,7 +10829,7 @@ The mother-in-law is a fast food dish of Chicago, consisting of a tamale topped 
 Fun facts:
 
 - (inspiration) Mother-in-law is named after mother-in-law.
-- (origin) Mother-in-law comes from United States.
+- (origin) Mother-in-law comes from the United States.
 
 Learn more:
 
@@ -10899,7 +10849,7 @@ Muenster is a semi-soft cheese created in the United States and popularized in t
 Fun facts:
 
 - (origin) Muenster cheese may be an imitation of Munster cheese, a washed-rind cheese originating in Munster, Haut-Rhin, Alsace, which was familiar to German immigrants.
-- (origin) Muenster cheese comes from United States.
+- (origin) Muenster cheese comes from the United States.
 
 Learn more:
 
@@ -10920,18 +10870,18 @@ New Mexico chile or New Mexican chile (Capsicum annuum 'New Mexico Group'; Spani
 
 Fun facts:
 
-- (history) These landrace chile plants were used to develop the modern New Mexico chile peppers by horticulturist Fabián García and his students, including Roy Nakayama, at what is now New Mexico State University in 1894.
 - (about) Various types of chile plants were first grown by the Puebloan peoples, who continue to grow their own strains, each with a distinct pungency, sweetness, taste, and heat.
+- (history) The New Mexican type cultivars were developed by the horticulturist Fabián García, whose major release was the 'New Mexico No. 9' chile pepper in 1913.
 - (inspiration) New Mexico chile is named after New Mexico.
 
 More fun facts (when the user asks for more):
 
-- (history) The New Mexican type cultivars were developed by the horticulturist Fabián García, whose major release was the 'New Mexico No. 9' chile pepper in 1913.
-- (about) These first commercially viable peppers were created to have a "larger, smoother, fleshier, more tapering and shoulderless pod for canning purposes".
 - (history) Paul Bosland, an expert on chile genetics, breeding, and germplasm evaluation, founded the Chile Pepper Institute in 1992 at New Mexico State University to study New Mexico's state vegetable and peppers from around the world.
+- (history) These landrace chile plants were used to develop the modern New Mexico chile peppers by horticulturist Fabián García and his students, including Roy Nakayama, at what is now New Mexico State University in 1894.
 - (about) New Mexico chile, which typically grows from a green to a ripened red, is popular in the cuisines of the Southwestern United States, including Sonoran and Arizonan cuisine, and it is an integral staple of New Mexican cuisine.
 - (origin) When the Spanish arrived, they introduced European cultivation techniques to the chile plants, and eventually created cultivars in their towns.
 - (culture) These cultivars are "hotter" than others to suit the tastes of New Mexicans in their traditional foods.
+- (about) These first commercially viable peppers were created to have a "larger, smoother, fleshier, more tapering and shoulderless pod for canning purposes".
 
 Learn more:
 
@@ -11036,8 +10986,8 @@ More fun facts (when the user asks for more):
 - (origin) The pepperoni roll bears a resemblance to the pasty and the sausage roll, which originated in the mining communities of Great Britain, as well as the Italian calzone.
 - (about) Pepperoni rolls are also found in Southeast Michigan where they were popular among auto workers in the factories.
 - (origin) A resolution was introduced in the West Virginia House of Delegates in 2013 declaring the pepperoni roll as the official state food, but the resolution was tabled.
+- (origin) Pepperoni roll comes from the United States.
 - (origin) A new resolution was introduced and adopted by the House of Delegates in 2021 only to languish in the state senate.
-- (origin) Pepperoni roll comes from United States.
 
 Learn more:
 
@@ -11065,9 +11015,9 @@ More fun facts (when the user asks for more):
 
 - (history) A 1908 Good Housekeeping recipe called for soft cream cheese and minced pimentos.
 - (history) In 1909, Eva Green Fuller's Up-to-Date Sandwich Book included a recipe calling for pimentos and Neufchâtel.
-- (history) By 1910 commercial versions had appeared, and ads appeared in parts of the North.
 - (history) After World War II, the prevalence of the dish decreased in most of the U.S. but kept its popularity in the South, becoming relatively unknown outside that region.
-- (origin) Pimento cheese comes from United States.
+- (origin) Pimento cheese comes from the United States.
+- (history) By 1910 commercial versions had appeared, and ads appeared in parts of the North.
 
 Learn more:
 
@@ -11088,7 +11038,7 @@ The Polish Boy is a sausage sandwich native to Cleveland, Ohio.
 Fun facts:
 
 - (about) While Polish Boys can be found at various establishments throughout Cleveland, a popular place was Freddie's Southern Style Rib House, known for their southern style barbecue sauce.
-- (origin) Polish Boy comes from United States.
+- (origin) Polish Boy comes from the United States.
 - (about) Esquire named theirs as one of the best sandwiches in America, calling it "soul on white." Chef Michael Symon cited the Polish Boy as "The Best Thing I Ever Ate" on the Food Network, where he featured Seti's Polish Boys on the show.
 
 Learn more:
@@ -11110,12 +11060,12 @@ Fun facts:
 
 - (history) During the American Civil War (1861 to 1865), the peas were thought to represent wealth to the Southerners, while the Northern army considered the food to be fit as livestock feed only.
 - (culture) Different food traditions have used it as a fresh cut or as a cured pork product (with smoke and/or curing salt).
-- (culture) Outside the United States, there is a longer culinary tradition: the cured, non-smoked Italian variant is called guanciale.
+- (culture) A Southern US tradition of eating black-eyed peas and greens with either pork jowls or fatback on New Year's Day to ensure prosperity throughout the new year goes back hundreds of years.
 
 More fun facts (when the user asks for more):
 
-- (culture) A Southern US tradition of eating black-eyed peas and greens with either pork jowls or fatback on New Year's Day to ensure prosperity throughout the new year goes back hundreds of years.
 - (culture) Pigs (and by extension, pork products) were symbolic of "wealth and gluttony" and consuming jowls or fatback on New Year's Day guaranteed a good new year.
+- (culture) Outside the United States, there is a longer culinary tradition: the cured, non-smoked Italian variant is called guanciale.
 
 Learn more:
 
@@ -11136,7 +11086,7 @@ Potatoes O'Brien is a dish of pan-fried potatoes along with red and green bell p
 Fun facts:
 
 - (origin) The origin of the dish is disputed; it has been claimed to have originated in the early 1900s at Jerome's, a restaurant in Boston, or at Jack's, a restaurant in Manhattan, during the same period.
-- (origin) Potatoes O'Brien comes from United States.
+- (origin) Potatoes O'Brien comes from the United States.
 
 Learn more:
 
@@ -11157,23 +11107,23 @@ Pringles is an American brand of stackable potato-based chips invented by Procte
 
 Fun facts:
 
-- (history) In 1956, Procter & Gamble assigned a task to chemist Fredric J.
-- (about) But because Procter & Gamble had gotten its product to retailers first, General Foods had to discontinue marketing under its chosen name.
+- (history) The earliest mention in an advertisement was on October 3, 1968, where a newspaper in Evansville, Indiana advertised "Pringle Potato Chips" as being "New at Kroger".
 - (inspiration) Pringles is named after Pringle Drive.
+- (origin) Pringles was first made by Fred Baur.
 
 More fun facts (when the user asks for more):
 
-- (history) Baur (1918–2008): to develop a new kind of potato chip to address consumer complaints about broken, greasy, and stale chips, as well as air in the bags.
-- (history) In the mid-1960s, another P&G researcher, Alexander Liepa of Montgomery, Ohio, restarted Baur's work and succeeded in improving the taste.
-- (history) The earliest mention in an advertisement was on October 3, 1968, where a newspaper in Evansville, Indiana advertised "Pringle Potato Chips" as being "New at Kroger".
-- (history) Afterward, they were gradually distributed across the country and, by 1975, were available across most of the US.
 - (history) By 1991, Pringles were distributed internationally.
+- (history) One theory refers to Mark Pringle, who filed a US Patent 2,286,644 titled "Method and Apparatus for Processing Potatoes" on March 5, 1937.
 - (history) Pringles dates from 1968-.
-- (origin) Pringles was first made by Fred Baur.
+- (history) In 1956, Procter & Gamble assigned a task to chemist Fredric J. Baur (1918–2008): to develop a new kind of potato chip to address consumer complaints about broken, greasy, and stale chips, as well as air in the bags.
 - (history) In 1968, P&G first marketed Pringles in Indiana.
+- (about) Almost simultaneous with the Pringles test-marketing, competitor General Foods first marketed its popcorn-based snack, "Pringle's Pop Chips," in the U.S. But because Procter & Gamble had gotten its product to retailers first, General Foods had to discontinue marketing under its chosen name.
 - (about) As of 2011, Pringles were sold in more than 140 countries.
 - (about) The saddle-shape of Pringles chips is mathematically known as a hyperbolic paraboloid.
-- (origin) Pringles comes from United States.
+- (origin) Pringles comes from the United States.
+- (history) In the mid-1960s, another P&G researcher, Alexander Liepa of Montgomery, Ohio, restarted Baur's work and succeeded in improving the taste.
+- (history) Afterward, they were gradually distributed across the country and, by 1975, were available across most of the US.
 
 Learn more:
 
@@ -11194,7 +11144,7 @@ Ripper is the slang term for a type of hot dog.
 
 Fun facts:
 
-- (origin) Ripper comes from United States.
+- (origin) Ripper comes from the United States.
 
 Learn more:
 
@@ -11214,7 +11164,7 @@ Roasted chestnut is a popular autumn and winter street food in East Asia, Europe
 
 Fun facts:
 
-- (origin) Roasted chestnut comes from Italy, People's Republic of China.
+- (origin) Roasted chestnut comes from Italy, the People's Republic of China.
 
 Learn more:
 
@@ -11235,15 +11185,15 @@ A runza (also called a krautburger, or kraut pirok) is a yeast dough bread pocke
 Fun facts:
 
 - (origin) The runza sandwich originated from the pirog, an Eastern European baked good or more specifically from its small version, known as pirozhok.
-- (history) In the 18th century, Volga Germans (ethnic Germans who settled in the Volga River valley in the Russian Empire at the invitation of Catherine the Great because of their skill in farming), adapted the pirog /pirozhok to create the bierock, a yeast pastry sandwich with similar savory ingredients.
 - (about) Sarah "Sally" Everett (née Brening), originally of Sutton, is credited with adapting her family's bierock recipe into the runza and also inventing the name for the sandwich.
+- (history) In 1949, Everett went into business selling runzas with her brother Alex in Lincoln, founding the Runza restaurant chain.
 
 More fun facts (when the user asks for more):
 
-- (history) When the political climate turned against the Volga Germans as part of Russification including the threat of conscription into the Russian army beginning in 1871, many emigrated to the United States, creating communities across the Great Plains.
-- (history) In 1949, Everett went into business selling runzas with her brother Alex in Lincoln, founding the Runza restaurant chain.
 - (about) Many sources agree that Sally Everett invented the name "runza" although it is likely she adapted it from an existing name for the sandwich; either the krautrunz, an older, different German name for the bierock, or the Low German runsa, meaning "belly", alluding to the gently rounded shape of the pouch pastry.
-- (origin) Runza comes from United States.
+- (origin) Runza comes from the United States.
+- (history) In the 18th century, Volga Germans (ethnic Germans who settled in the Volga River valley in the Russian Empire at the invitation of Catherine the Great because of their skill in farming), adapted the pirog /pirozhok to create the bierock, a yeast pastry sandwich with similar savory ingredients.
+- (history) When the political climate turned against the Volga Germans as part of Russification including the threat of conscription into the Russian army beginning in 1871, many emigrated to the United States, creating communities across the Great Plains.
 
 Learn more:
 
@@ -11264,7 +11214,7 @@ Sonofabitch stew (or sonofagun stew.
 Fun facts:
 
 - (inspiration) The "polite" name is used in the Gunsmoke episode "Long, Long Trail" in 1961 (7.6), also Gunsmoke Matt's Love Story in 1973 (19.3) and Disney's 1975 movie adaptation of The Apple Dumpling Gang.
-- (origin) Sonofabitch stew comes from United States.
+- (origin) Sonofabitch stew comes from the United States.
 
 Learn more:
 
@@ -11291,11 +11241,10 @@ More fun facts (when the user asks for more):
 
 - (history) The "chicken category" was added to the Spiedie Fest cook-off in 1987, and quickly became the most popular meat choice.
 - (history) Camillo Iacovelli created the spiedie in Endwell and was serving them in 1938 at his Parkview Restaurant on Oak Hill Ave in Endicott.
-- (origin) His brother, Agostino "Augie" Iacovelli, popularized spiedies when he introduced them in his Endicott restaurant Augie's in 1939.
 - (history) Augie Iacovelli's son Guido continued in the spiedie business into the 1990s, owning as many as 26 restaurants at the peak of his career.
-- (culture) The traditional method involves serving freshly prepared cubes of lamb, chicken, or beef on soft Italian bread or a submarine roll, occasionally drizzled with fresh marinade.
 - (culture) Traditionally, the early Broome County spiedie was made only from spring lamb, but currently most commercial restaurants prepare spiedies using chicken or pork.
-- (origin) Spiedie comes from United States.
+- (origin) Spiedie comes from the United States.
+- (culture) The traditional method involves serving freshly prepared cubes of lamb, chicken, or beef on soft Italian bread or a submarine roll, occasionally drizzled with fresh marinade.
 
 Learn more:
 
@@ -11331,17 +11280,17 @@ Succotash is a North American vegetable dish consisting primarily of sweet corn 
 Fun facts:
 
 - (about) It is believed to have been an invention of indigenous peoples in what is now known as New England, as corn and beans are two of the "Three Sisters" natives grew together - corn, beans, and squash - which thrived from their symbiotic cultivation.
-- (history) The practice was taught in the 1600s to early European settlers in the Plymouth and Massachusetts Bay Colonies.
+- (history) They call this food Succatosh.British colonists adapted the dish as a stew in the 17th century.
 - (culture) Composed of ingredients unknown in Europe at the time, it gradually became a standard meal in the cuisine of New England and is a traditional dish of many Thanksgiving celebrations in the region, as well as in Pennsylvania and other states.
 
 More fun facts (when the user asks for more):
 
-- (history) They call this food Succatosh.British colonists adapted the dish as a stew in the 17th century.
 - (about) Because of the relatively inexpensive and more readily available ingredients, the dish was popular during the Great Depression in the United States.
 - (culture) Succotash was sometimes cooked in a casserole form, often with a light pie crust on top as in a traditional pot pie.
 - (origin) After the abolition of slavery in the United States, freed slaves in the American South returned to Africa and introduced the dish to the region.
 - (about) Professional wrestler Roman Reigns infamously used the phrase "suffering succotash" during a promo on a 2015 episode of SmackDown.
-- (origin) Succotash comes from United States.
+- (origin) Succotash comes from the United States.
+- (history) The practice was taught in the 1600s to early European settlers in the Plymouth and Massachusetts Bay Colonies.
 
 Learn more:
 
@@ -11363,18 +11312,18 @@ Tabasco is an American brand of hot sauce made from vinegar, tabasco peppers, an
 Fun facts:
 
 - (history) According to the company's official history, Tabasco was first produced in 1868 by Edmund McIlhenny, a Maryland-born former banker who had moved to Louisiana around 1840.
-- (inspiration) A 2007 book review by Mark Robichaux of The Wall Street Journal quotes Rothfeder's book: The story actually begins in the pre-Civil War era with a New Orleans plantation owner named Maunsel White, who was famous for the food served at his sumptuous dinner parties.
-- (origin) Tabasco sauce comes from United States.
+- (inspiration) Mr. White's table no doubt groaned with the region's varied fare—drawing inspiration from European, Caribbean, and Cajun sources—but one of his favorite sauces was of his own devising, made from a pepper named for its origins in the Mexican state of Tabasco.
+- (origin) Tabasco sauce comes from the United States.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) White's table no doubt groaned with the region's varied fare—drawing inspiration from European, Caribbean, and Cajun sources—but one of his favorite sauces was of his own devising, made from a pepper named for its origins in the Mexican state of Tabasco.
 - (history) Although the McIlhennys have tried to dismiss the possibility, it seems clear now that in 1849, a full two decades before Edmund McIlhenny professed to discover the Tabasco pepper, White was already growing Tabasco chilies on his plantation.
+- (history) Tabasco sauce dates from 1868-.
+- (inspiration) A 2007 book review by Mark Robichaux of The Wall Street Journal quotes Rothfeder's book: The story actually begins in the pre-Civil War era with a New Orleans plantation owner named Maunsel White, who was famous for the food served at his sumptuous dinner parties.
 - (inspiration) Rothfeder cited January 26, 1850, letter to the New Orleans Daily Delta newspaper crediting White as having introduced "Tobasco red pepper" [sic] to the Southern United States and asserting that the McIlhenny was at least inspired by White's recipe.
 - (history) On his death in 1890, McIlhenny was succeeded by his eldest son, John Avery McIlhenny, who expanded and modernized the business, but resigned after only a few years to join Theodore Roosevelt's 1st US Volunteer Cavalry Regiment, the Rough Riders.
-- (history) Tabasco sauce dates from 1868-.
 - (history) On John's departure, brother Edward Avery McIlhenny, a self-taught naturalist fresh from an Arctic adventure, assumed control of the company and also focused on expansion and modernization, running the business from 1898 until his death in 1949.
-- (history) McIlhenny, in turn, succeeded his uncle Edward Avery McIlhenny, serving as president of McIlhenny Company from 1949 until his death in 1985.
+- (history) Walter S. McIlhenny, in turn, succeeded his uncle Edward Avery McIlhenny, serving as president of McIlhenny Company from 1949 until his death in 1985.
 
 Learn more:
 
@@ -11395,20 +11344,20 @@ Thousand Island dressing is a creamy salad dressing and condiment made from a ba
 
 Fun facts:
 
-- (inspiration) They discovered the existence of a third origin story in which the original recipe was based upon French dressing, which is supported by a recipe published in the 11th edition of The Fannie Farmer Cookbook (1965).
 - (history) According to a 1959 National Geographic article, "Thousand Island Dressing was reportedly developed by Boldt's chef." Despite claims that he was involved in the introduction of the salad dressing at the Waldorf, Tschirky did not mention it in his cookbook published during that period.
-- (culture) All the claims appeared to be based upon oral traditions without supporting written records.
+- (inspiration) When University of Wisconsin sociologist Michael Bell and his graduate students attempted to determine the origin of Thousand Island dressing in 2010, they found that the story differed among villages and islands in the Thousand Islands region.
+- (culture) According to Food & Wine magazine, the dressing was a traditional sauce from the late 19th century in the Thousand Islands region.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) When University of Wisconsin sociologist Michael Bell and his graduate students attempted to determine the origin of Thousand Island dressing in 2010, they found that the story differed among villages and islands in the Thousand Islands region.
-- (culture) According to Food & Wine magazine, the dressing was a traditional sauce from the late 19th century in the Thousand Islands region.
+- (inspiration) They discovered the existence of a third origin story in which the original recipe was based upon French dressing, which is supported by a recipe published in the 11th edition of The Fannie Farmer Cookbook (1965).
 - (about) Some food writers claim that Theo Rooms, a chef at the Blackstone Hotel in Chicago, invented the dressing during the same period.
 - (history) The earliest known print reference to Thousand Island dressing was in October 1912, when Thousand Island on lettuce was a trendy dish in Kansas City.
 - (inspiration) Thousand Island dressing is named after Thousand Islands.
 - (about) Thousand Island dressing was initially popularized in the Thousand Islands region of the upper Saint Lawrence River spanning New York and Canada.
 - (inspiration) Historically a salad dressing, it has been widely adopted by fast food chains as a "special" or "secret" sauce of their own variation based on the Thousand Island recipe.
-- (origin) Thousand Island dressing comes from United States.
+- (origin) Thousand Island dressing comes from the United States.
+- (culture) All the claims appeared to be based upon oral traditions without supporting written records.
 
 Learn more:
 
@@ -11430,17 +11379,17 @@ Velveeta is a brand name for a processed cheese similar to American cheese.
 Fun facts:
 
 - (history) In the 1930s, Velveeta became the first cheese product to gain the American Medical Association's seal of approval.
-- (origin) Velveeta comes from United States.
+- (origin) Velveeta comes from the United States.
 - (history) Velveeta was developed in 1918 by Emil Frey (1867–1951) of the Monroe Cheese Company in Monroe, New York.
 
 More fun facts (when the user asks for more):
 
 - (history) In 1925, it advertised two varieties, Swiss and American.
-- (history) The firm was purchased by Kraft Foods Inc. in 1927.
-- (history) In 1888, the new owners of the Monroe Cheese Co., Adolphe Tode and Ferdinand Wolfe, hired former Neuesswanders Cheese Factory’s cheesemaker Emil Frey.
 - (history) In 1918 he had his breakthrough, mixing cheese byproducts with the broken cheese bits to form a cheese blend that would become known as Velveeta.
 - (history) Velveeta was reformulated in 1953 as a "cheese spread"; however, as of 2002, Velveeta is labeled in the United States as a "pasteurized prepared cheese product".
 - (history) Velveeta dates from 1918-.
+- (history) The firm was purchased by Kraft Foods Inc. in 1927.
+- (history) In 1888, the new owners of the Monroe Cheese Co., Adolphe Tode and Ferdinand Wolfe, hired former Neuesswanders Cheese Factory’s cheesemaker Emil Frey.
 
 Learn more:
 
@@ -11531,24 +11480,24 @@ The coconut (Cocos nucifera) is a member of the palm family (Arecaceae) and the 
 Fun facts:
 
 - (history) Coconuts were spread much later along the coasts of the Indian and Atlantic Oceans by South Asian, Arab, and, from the 16th century, European sailors.
-- (inspiration) Rigby (1995) assigned them to modern Cocos nucifera based on its size.
+- (inspiration) The coconut has cultural and religious significance for many Austronesian peoples, appearing in their mythologies, songs, and oral traditions.
 - (culture) It also has religious significance in South Asian cultures, where it is used in Hindu rituals, including weddings and worship.
 
 More fun facts (when the user asks for more):
 
-- (history) The Swedish botanist and taxonomist Carl Linnaeus formally described the species Cocos nucifera in his book Species Plantarum in 1753.
-- (history) In 1768, in his book The Gardeners Dictionary, the English botanist Philip Miller redescribed the plant as Palma cocos, a name treated as a synonym.
 - (history) In 1891, the German botanist Otto Kuntze gave it the name Calappa nucifera in his Revisio Generum Plantarum, also treated as a synonym.
 - (history) This apparently came from encounters in 1521 by Portuguese and Spanish explorers with Pacific Islanders, when the coconut shell reminded them of ghosts in Portuguese folklore called coco or côca.
-- (history) In the West, the fruit was originally called nux indica, a name used by Marco Polo in 1280 while in Sumatra.
 - (history) Thenga, its Tamil/Malayalam name, was used in the detailed description of coconut found in Itinerario by Ludovico di Varthema published in 1510 and in the later Hortus Indicus Malabaricus.
-- (inspiration) The coconut has cultural and religious significance for many Austronesian peoples, appearing in their mythologies, songs, and oral traditions.
+- (about) In 2024, world production of coconuts was 65.5 million tonnes, with 73% of the total produced by Indonesia, India, and the Philippines.
+- (inspiration) One study assigned it to Cocos based on the size and the ridged shape of the fruit.
+- (culture) A coconut is used in Hindu rituals.
+- (history) The Swedish botanist and taxonomist Carl Linnaeus formally described the species Cocos nucifera in his book Species Plantarum in 1753.
+- (history) In 1768, in his book The Gardeners Dictionary, the English botanist Philip Miller redescribed the plant as Palma cocos, a name treated as a synonym.
+- (history) In the West, the fruit was originally called nux indica, a name used by Marco Polo in 1280 while in Sumatra.
+- (inspiration) Rigby (1995) assigned them to modern Cocos nucifera based on its size.
 - (inspiration) Based on these introductions, the species can be divided into Pacific and Indo-Atlantic types.
 - (origin) The Indo-Atlantic type was introduced to the Americas during the colonial era in the Columbian exchange.
-- (about) In 2024, world production of coconuts was 65.5 million tonnes, with 73% of the total produced by Indonesia, India, and the Philippines.
 - (about) These include two specimens named C. palaeonucifera and C. binoriensis, both dated by their authors to the Maastrichtian–Danian of the early Tertiary (70 to 62 million years ago).
-- (inspiration) Nevertheless, one study assigned it to Cocos based on the size and the ridged shape of the fruit.
-- (culture) A coconut is used in Hindu rituals.
 
 Learn more:
 
@@ -11588,19 +11537,19 @@ A grape is a fruit, botanically a berry, of the deciduous woody vines of the flo
 
 Fun facts:
 
-- (history) By the 9th century AD, the city of Shiraz was known to produce some of the finest wines in the Middle East.
 - (inspiration) Thus it has been proposed that Syrah red wine is named after Shiraz, a city in Persia where the grape was used to make Shirazi wine.
+- (history) Ancient Egyptian hieroglyphics record the cultivation of purple grapes, and history attests to the ancient Greeks, Cypriots, Phoenicians, and Romans growing purple grapes for eating and wine production.
 - (about) By country dedicating farmland for grape growing in 2023, Spain had 913,000 ha (2,260,000 acres), France 753,340 ha (1,861,500 acres), Italy 713,350 ha (1,762,700 acres), and China 607,030 ha (1,500,000 acres).
 
 More fun facts (when the user asks for more):
 
-- (history) Ancient Egyptian hieroglyphics record the cultivation of purple grapes, and history attests to the ancient Greeks, Cypriots, Phoenicians, and Romans growing purple grapes for eating and wine production.
-- (history) In 2005, a team of archaeologists concluded that Chalcolithic wine jars discovered in Cyprus in the 1930s dated back to 3500 BC, making them the oldest of their kind in the world.
 - (history) In the 19th century, Ephraim Bull of Concord, Massachusetts, cultivated seeds from wild Vitis labrusca vines to create the Concord grape, which would become an important agricultural crop in the United States.
 - (inspiration) It is believed that the most widely planted variety is Sultana, also known as Thompson Seedless, with at least 3,600 km2 (880,000 acres) dedicated to it.
 - (inspiration) In 2023, the world total of land dedicated to grape growing (in hectares, ha) was 6,595,680 ha (16,298,300 acres).
-- (about) Other popular varieties include Cabernet Sauvignon, Sauvignon blanc, Cabernet Franc, Merlot, Grenache, Tempranillo, Riesling, and Chardonnay.
 - (about) Not to be confused with grapefruit.
+- (history) By the 9th century AD, the city of Shiraz was known to produce some of the finest wines in the Middle East.
+- (history) In 2005, a team of archaeologists concluded that Chalcolithic wine jars discovered in Cyprus in the 1930s dated back to 3500 BC, making them the oldest of their kind in the world.
+- (about) Other popular varieties include Cabernet Sauvignon, Sauvignon blanc, Cabernet Franc, Merlot, Grenache, Tempranillo, Riesling, and Chardonnay.
 
 Learn more:
 
@@ -11669,22 +11618,22 @@ Lettuce (Lactuca sativa) is an annual plant of the family Asteraceae mostly grow
 
 Fun facts:
 
-- (history) The species was first described in 1753 by Carl Linnaeus in the second volume of his Species Plantarum.
 - (about) DNA analysis of 445 types of lettuce indicates that lettuce was first domesticated from its wild ancestor near the Caucasus, where seed shattering was first selected out of the cultivar.
+- (history) Hildegard of Bingen mentioned it in her writings on medicinal herbs between 1098 and 1179, and many early herbals also describe its uses.
 - (origin) Lettuce was first brought to the Americas from Europe by Christopher Columbus in the late 15th century.
 
 More fun facts (when the user asks for more):
 
-- (history) Hildegard of Bingen mentioned it in her writings on medicinal herbs between 1098 and 1179, and many early herbals also describe its uses.
-- (history) Between the late 16th century and the early 18th century, many varieties were developed in Europe, particularly Holland.
 - (history) Europe and North America originally dominated the market for lettuce, but by the late 20th century the consumption of lettuce had spread throughout the world.
-- (history) The 16th through 18th centuries saw the development of many varieties in Europe, and by the mid-18th century, cultivars were described that can still be found in modern gardens.
 - (history) From there, lettuce was likely spread to the Near East and then to ancient Egypt, where the first depictions of lettuce cultivation can be found as early as 2680 BC.
 - (culture) Lettuce was considered a sacred plant of the reproduction god Min and was carried during his festivals and placed near his images.
 - (about) The long leaves in Egyptian depictions suggest that it may have been grown for its leaves, which would make it the first lettuce cultivar grown for this purpose.
 - (history) In 1586, Joachim Camerarius provided descriptions of the three basic modern lettuces – head lettuce, loose-leaf lettuce, and romaine (or cos) lettuce.
 - (history) The early 20th century saw the development of new packing, storage and shipping technologies that improved the lifespan and transportability of lettuce and resulted in a significant increase in availability.
+- (history) The species was first described in 1753 by Carl Linnaeus in the second volume of his Species Plantarum.
+- (history) Between the late 16th century and the early 18th century, many varieties were developed in Europe, particularly Holland.
 - (about) In 2023, world production of lettuce (and chicory) was 28 million tonnes, led by China with 53% of the total.
+- (history) The 16th through 18th centuries saw the development of many varieties in Europe, and by the mid-18th century, cultivars were described that can still be found in modern gardens.
 - (about) Not to be confused with salad.
 
 Learn more:
@@ -11743,11 +11692,11 @@ More fun facts (when the user asks for more):
 - (history) The Mughal Empire was especially fond of the fruit; the emperor Babur praises the mango in his Baburnama.
 - (culture) Mango flowers and leaves are used in the worship of the Hindu goddess Saraswati at the spring festival of Vasant Panchami.
 - (inspiration) Paisley patterns, with a teardrop-shaped motif or boteh on shawls and saris, are named for the unripe mango in languages across the Indian subcontinent, such as kalka in Bengali, ambi in Punjabi, and kairi in Hindi.
-- (history) Forster's 1924 novel A Passage to India has the character Dr.
+- (history) E. M. Forster's 1924 novel A Passage to India has the character Dr. Aziz suggest to the English character Cyril Fielding "For you I shall arrange a lady with breasts like mangoes".
 - (culture) The mango has a traditional context in the culture of South Asia.
-- (culture) The leaves are used as decorations in celebrations of Ganesh Chaturthi for the elephant-headed god Ganesha.
 - (culture) The Jain goddess Ambika is traditionally represented as sitting under a mango tree.
 - (about) Not to be confused with Mangifera, Garcinia mangostana, Mango.
+- (culture) The leaves are used as decorations in celebrations of Ganesh Chaturthi for the elephant-headed god Ganesha.
 
 Learn more:
 
@@ -11770,23 +11719,22 @@ The orange, also called sweet orange to distinguish it from the bitter orange (C
 Fun facts:
 
 - (inspiration) The colour was named after the fruit, with the first recorded use of orange as a colour name in English in 1512.
-- (history) They first appear in Western art in the Arnolfini Portrait by Jan van Eyck, but they had been depicted in Chinese art centuries earlier, as in Zhao Lingrang's Song dynasty fan painting Yellow Oranges and Green Tangerines.
+- (history) By the 17th century, orangeries were added to great houses in Europe, both to enable the fruit to be grown locally and for prestige, as seen in the Versailles Orangerie completed in 1686.
 - (origin) The orange originated in a region encompassing Southern China, Northeast India, and Myanmar; the earliest mention of the sweet orange was in Chinese literature in 314 BC.
 
 More fun facts (when the user asks for more):
 
-- (history) By the 17th century, orangeries were added to great houses in Europe, both to enable the fruit to be grown locally and for prestige, as seen in the Versailles Orangerie completed in 1686.
 - (history) The Dutch Post-Impressionist artist Vincent van Gogh portrayed oranges in paintings such as his 1889 Still Life of Oranges and Lemons with Blue Gloves and his 1890 A Child with Orange, both works late in his life.
 - (history) The American artist of the Ashcan School, John Sloan, made a 1935 painting Blond Nude with Orange, Blue Couch, while Henri Matisse's last painting was his 1951 Nude with Oranges; after that he only made cut-outs.
+- (history) They first appear in Western art in the Arnolfini Portrait by Jan van Eyck, but they had been depicted in Chinese art centuries earlier, as in Zhao Lingrang's Song dynasty fan painting Yellow Oranges and Green Tangerines.
 - (history) By the 17th century, an orangery had become an item of prestige in Europe, as seen at the Versailles Orangerie.
 - (origin) Orange originated in a region encompassing Southern China, Northeast India, and Myanmar.
 - (about) Since its chloroplast DNA is that of pomelo, it was likely the hybrid pomelo, perhaps a pomelo BC1 backcross, that was the maternal parent of the first orange.
-- (history) The word entered Late Middle English in the 14th century via Old French pomme d'orenge.
 - (about) Pham comments that the Arnolfini Portrait by Jan van Eyck contains in a small detail one of the first representations of oranges in Western art, the costly fruit perhaps traded by the merchant Arnolfini himself.
 - (inspiration) Orange is named after Portugal, Malta, China.
 - (about) In 2024, 67 million tonnes of oranges were grown worldwide, with Brazil producing 23% of the total, followed by China and Mexico.
 - (inspiration) Based on genomic analysis, the relative proportions of the ancestral species in the sweet orange are approximately 42% pomelo and 58% mandarin.
-- (culture) She notes that oranges symbolised desire and wealth on the one hand, and deformity on the other, while in the fairy-stories of Sicily, they have magical properties.
+- (history) The word entered Late Middle English in the 14th century via Old French pomme d'orenge.
 - (about) Not to be confused with Citrus sinensis.
 
 Learn more:
@@ -11829,16 +11777,16 @@ The pomelo ( POM-il-oh, PUM-; or pummelo, Citrus maxima), also known as a shaddo
 
 Fun facts:
 
-- (history) From there the name spread to Jamaica in 1696.
 - (culture) The pomelo features in cultural and spiritual festivals across Asia.
 - (about) Not to be confused with Citrus × paradisi, Corsican pomelo.
+- (history) From there the name spread to Jamaica in 1696.
 
 More fun facts (when the user asks for more):
 
-- (culture) In China, during the Lunar New Year festival, the fruit is offered to ancestors.
 - (culture) In Thailand, pomelo is used in rituals such as the Songkran festival.
 - (culture) In the Hindu festival of Chhath Puja, pomelo is used as an offering.
 - (culture) Its name is similar to the word for "to have", making it a symbol of prosperity and family unity.
+- (culture) In China, during the Lunar New Year festival, the fruit is offered to ancestors.
 
 Learn more:
 
@@ -11867,7 +11815,7 @@ More fun facts (when the user asks for more):
 
 - (history) Rice spread around the rest of the world through cultivation, migration and trade, eventually to the Americas as part of the Columbian exchange after 1492.
 - (about) Rice has become commonplace in many cultures worldwide; in 2023, 800 million tons were produced, placing it third after sugarcane and maize.
-- (about) Production of rice is estimated to have caused over 1% of global greenhouse gas emissions in 2022.
+- (about) Golden rice is a variety produced by genetic engineering to contain vitamin A. Production of rice is estimated to have caused over 1% of global greenhouse gas emissions in 2022.
 - (culture) In human culture, rice plays a role in various religions and traditions, such as in weddings.
 - (origin) Rice was introduced early into Sino-Tibetan cultures in northern China by around 6000 to 5600 years ago, and to the Korean peninsula and Japan by around 5500 to 3200 years ago.
 - (origin) The now less common Oryza glaberrima (African rice) was independently domesticated in Africa around 3,000 years ago, and introduced to the Americas by the Spanish.
@@ -11907,8 +11855,8 @@ Tamarind (Tamarindus indica) is a leguminous tree bearing edible fruit that is i
 
 Fun facts:
 
-- (culture) The pulp is also used in traditional medicine and as a dye.
 - (about) In Hindi, it is known as imli or tintrini, and as chincha in Marathi.
+- (culture) The pulp is also used in traditional medicine and as a dye.
 
 Learn more:
 
@@ -11975,7 +11923,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q492769) (CC0); [Wikipedia: An
 
 ### Bell pepper
 
-The bell pepper (also known as sweet pepper, paprika, pepper, capsicum or, in some parts of the U.S.
+The bell pepper (also known as sweet pepper, paprika, pepper, capsicum or, in some parts of the U.S. Midwest, mango) is the fruit of plants in the Grossum Group of the species Capsicum annuum.
 
 - From: Louisiana, United States
 - Named after: Shimla
@@ -11983,15 +11931,15 @@ The bell pepper (also known as sweet pepper, paprika, pepper, capsicum or, in so
 Fun facts:
 
 - (history) Pepper seeds were spread all through the globe; Spain by 1493, the East Indies by 1540, and India by 1542, where they became staples for many cuisines and cultures.
-- (origin) Capsicum originated in Bolivia and Brazil, being transported to Mesoamerica and the Caribbean before the arrival of Europeans.
 - (inspiration) Bell pepper is named after Shimla.
+- (origin) The Spanish introduced peppers to Europe, but the Portuguese played the primary role in their spread to Africa, India, and Southeast Asia.
 
 More fun facts (when the user asks for more):
 
 - (history) Pepper seeds were imported to Spain in 1493 and then spread through Europe and Asia.
 - (inspiration) Peppers are one of the oldest domesticated crops based on findings in caves in Mexico, Peru, and Ecuador, suggesting that the species was being used around 7,000 years ago.
-- (origin) The Spanish introduced peppers to Europe, but the Portuguese played the primary role in their spread to Africa, India, and Southeast Asia.
 - (about) Not to be confused with chili pepper, capsicum.
+- (origin) Capsicum originated in Bolivia and Brazil, being transported to Mesoamerica and the Caribbean before the arrival of Europeans.
 
 Learn more:
 
@@ -12011,18 +11959,18 @@ A blackberry is an edible fruit produced by many species in the genus Rubus in t
 
 Fun facts:
 
-- (history) One of the first thornless varieties was developed in 1921, but the berries lost much of their flavor.
+- (history) Common thornless cultivars developed from the 1990s to the early 21st century by the US Department of Agriculture enabled efficient machine-harvesting, higher yields, larger and firmer fruit, and improved flavor, including the Triple Crown, Black Diamond, Black Pearl, and Nightfall, a marionberry.
 - (about) Folklore in the United Kingdom and Ireland states that blackberries should not be picked after Old Michaelmas Day (11 October) as the devil (or a Púca) has made them unfit to eat by stepping, spitting or fouling on them.
-- (inspiration) There is some value in this legend as autumn's wetter and cooler weather often allows the fruit to become infected by various molds such as Botryotinia which give the fruit an unpleasant look and may be toxic.
+- (culture) Blackberry plants were used for traditional medicine by Greeks, other European peoples, and aboriginal Americans.
 
 More fun facts (when the user asks for more):
 
-- (history) Common thornless cultivars developed from the 1990s to the early 21st century by the US Department of Agriculture enabled efficient machine-harvesting, higher yields, larger and firmer fruit, and improved flavor, including the Triple Crown, Black Diamond, Black Pearl, and Nightfall, a marionberry.
 - (history) In 1880, a hybrid blackberry-raspberry named the loganberry was developed in Santa Cruz, California, by an American judge and horticulturalist, James Harvey Logan.
 - (history) The use of blackberries to make wines and cordials was documented in the London Pharmacopoeia in 1696.
 - (history) A 1771 document described brewing blackberry leaves, stem, and bark for stomach ulcers.
-- (culture) Blackberry plants were used for traditional medicine by Greeks, other European peoples, and aboriginal Americans.
+- (history) One of the first thornless varieties was developed in 1921, but the berries lost much of their flavor.
 - (culture) According to some traditions, a blackberry's deep purple color represents Jesus's blood and the crown of thorns was made of brambles, although other thorny plants, such as Crataegus (hawthorn) and Euphorbia milii (crown of thorns plant), have been proposed as the material for the crown.
+- (inspiration) There is some value in this legend as autumn's wetter and cooler weather often allows the fruit to become infected by various molds such as Botryotinia which give the fruit an unpleasant look and may be toxic.
 
 Learn more:
 
@@ -12065,12 +12013,12 @@ Fun facts:
 
 - (inspiration) Cayenne, the capital city of French Guiana is related to the name, and may have been named for the pepper or the Cayenne River.
 - (history) English botanist Nicholas Culpeper used the phrase "cayenne pepper" in 1652.
-- (origin) They were introduced to the rest of the world by Christopher Columbus, around 1493, during his voyages to the New World.
+- (about) Not to be confused with cayenne pepper.
 
 More fun facts (when the user asks for more):
 
+- (origin) They were introduced to the rest of the world by Christopher Columbus, around 1493, during his voyages to the New World.
 - (origin) They originated in what is now French Guiana.
-- (about) Not to be confused with cayenne pepper.
 
 Learn more:
 
@@ -12091,19 +12039,19 @@ Celery (Apium graveolens Dulce Group or Apium graveolens var. dulce) is a cultiv
 Fun facts:
 
 - (origin) First attested and printed in English as "sellery" by John Evelyn in 1664, the modern English word "celery" derives from the French céleri, in turn from Italian seleri, the plural of selero, which comes from Late Latin selinon, the latinisation of the Ancient Greek: σέλινον, romanized: selinon, "celery".
-- (history) Its first extended treatment in print was in Bernard M'Mahon's American Gardener's Calendar (1806).
-- (about) In the Capitulary of Charlemagne, compiled c. 800, apium appears, as does olisatum, or alexanders, among folk medicinal herbs and vegetables the Frankish emperor desired to see grown.
+- (history) Daniel Zohary and Maria Hopf note that celery leaves and inflorescences were part of the garlands found in the tomb of pharaoh Tutankhamun (died 1323 BCE), and celery mericarps dated to the seventh century BCE were recovered in the Heraion of Samos.
+- (culture) Historically, celery has held culinary and symbolic significance.
 
 More fun facts (when the user asks for more):
 
-- (history) Daniel Zohary and Maria Hopf note that celery leaves and inflorescences were part of the garlands found in the tomb of pharaoh Tutankhamun (died 1323 BCE), and celery mericarps dated to the seventh century BCE were recovered in the Heraion of Samos.
-- (history) Fragiska mentions an archeological find of celery dating to the 9th century BCE, at Kastanas; however, the literary evidence for ancient Greece is far more abundant.
+- (history) M. Fragiska mentions an archeological find of celery dating to the 9th century BCE, at Kastanas; however, the literary evidence for ancient Greece is far more abundant.
 - (history) The name "celery" retraces the plant's route of successive adoption in European cooking, as the English "celery" (1664) is derived from the French céleri coming from the Lombard term, seleri, from the Latin selinon, borrowed from Greek.
 - (history) By 1699, John Evelyn could recommend it in his Acetaria.
 - (history) After the mid-19th century, continued selections for refined crisp texture and taste brought celery to American tables, where it was served in celery vases to be salted and eaten raw.
-- (culture) Historically, celery has held culinary and symbolic significance.
+- (history) Its first extended treatment in print was in Bernard M'Mahon's American Gardener's Calendar (1806).
 - (culture) Celery's late arrival in the English kitchen is an end-product of the long tradition of seed selection needed to reduce the sap's bitterness and increase its sugars.
 - (about) Celery was so popular in the United States during the 19th and early 20th centuries that the New York Public Library's historical menu archive shows that it was the third-most-popular dish in New York City menus during that time, behind only coffee and tea.
+- (about) In the Capitulary of Charlemagne, compiled c. 800, apium appears, as does olisatum, or alexanders, among folk medicinal herbs and vegetables the Frankish emperor desired to see grown.
 
 Learn more:
 
@@ -12188,7 +12136,7 @@ More fun facts (when the user asks for more):
 - (history) Creole cream cheese's popularity declined during the second half of the 20th century and it became difficult to find.
 - (history) In 1998 it was still available at Dorignac's Food Center on Veterans Boulevard in Metairie.
 - (origin) Creole cream cheese was first made in New Orleans.
-- (origin) Creole cream cheese comes from United States.
+- (origin) Creole cream cheese comes from the United States.
 
 Learn more:
 
@@ -12233,9 +12181,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) Cucumber was probably introduced to Europe by the Greeks or Romans.
 - (history) In the Middle Ages, Charlemagne had them grown for him, and the Spanish brought them to the Americas in the Columbian exchange in 1494.
 - (inspiration) Based on demographic modelling, the East Asian C. sativus cultivars diverged from the Indian cultivars about 2,500 years ago.
-- (origin) Cucumber was probably introduced to Europe by the Greeks or Romans.
 
 Learn more:
 
@@ -12353,9 +12301,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) Although the trinity is now famously known in both Cajun and Creole cooking, it originated in Cajun cuisine.
 - (history) The term is first attested in 1981 and was probably popularized by Paul Prudhomme.
 - (history) After the Acadians were exiled from Nova Scotia, Canada in 1755, they settled in Louisiana.
-- (origin) Although the trinity is now famously known in both Cajun and Creole cooking, it originated in Cajun cuisine.
 - (culture) When attempting to import the French culinary tradition of using mirepoix, the carrots in the traditional mixture was changed to bell peppers, for reasons including availability and cost.
 
 Learn more:
@@ -12532,7 +12480,7 @@ Rice and gravy is a staple of Louisiana Creole and Cajun cuisine, made by deglaz
 
 Fun facts:
 
-- (origin) Rice and gravy comes from United States.
+- (origin) Rice and gravy comes from the United States.
 
 Learn more:
 
@@ -12663,10 +12611,6 @@ The tabasco pepper is a variety of the chili pepper species Capsicum frutescens 
 
 - From: Louisiana, United States
 
-Fun facts:
-
-- (history) A large part of the tabasco pepper stock fell victim to the tobacco mosaic virus in the 1960s; the first resistant variety (Greenleaf tabasco) was not cultivated until around 1970.
-
 Learn more:
 
 - quick: [Tabasco pepper (Wikipedia)](https://en.wikipedia.org/wiki/Tabasco_pepper)
@@ -12743,10 +12687,10 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) Before the 20th century, pork ribs were the most common food for the North American holidays, as the animals were usually slaughtered in November.
 - (culture) While the tradition of turkey at Christmas spread throughout Britain in the 17th century, among the working classes, it became common to serve goose, which remained the predominant roast until the Victorian era.
 - (history) Turkeys have been raised in Finland since the 1950s, and consumption is at its highest at Christmas time.
 - (culture) Turkeys are traditionally eaten as the main course of Thanksgiving dinner feasts in the United States and Canada, and at Christmas dinner feasts in much of the rest of the world (often as stuffed turkey).
+- (culture) Before the 20th century, pork ribs were the most common food for the North American holidays, as the animals were usually slaughtered in November.
 
 Learn more:
 
@@ -12814,14 +12758,14 @@ Fun facts:
 
 - (history) German Bohne) have existed in common use in West Germanic languages since before the 12th century, referring to broad beans, chickpeas, and other pod-borne seeds.
 - (origin) Genetic analyses of the common bean Phaseolus show that it originated in Mesoamerica, and subsequently spread southward.
-- (about) The first European to encounter them was Christopher Columbus, while exploring what may have been the Bahamas, and saw them growing in fields.
+- (culture) Dried beans are traditionally soaked and boiled, and used in traditional dishes throughout the world including salads, soups, and stews such as chili con carne.
 
 More fun facts (when the user asks for more):
 
 - (history) In the Iliad, written in the 8th century BCE, there is a passing mention of beans and chickpeas cast on the threshing floor.
 - (origin) Most of the kinds of beans commonly eaten today are part of the genus Phaseolus, which originated in the Americas.
-- (culture) Dried beans are traditionally soaked and boiled, and used in traditional dishes throughout the world including salads, soups, and stews such as chili con carne.
 - (culture) Beans have traditionally been seen as a food of the poor.
+- (about) The first European to encounter them was Christopher Columbus, while exploring what may have been the Bahamas, and saw them growing in fields.
 - (about) Not to be confused with legume.
 
 Learn more:
@@ -12842,9 +12786,9 @@ Beef is the culinary name for meat from cattle (Bos taurus).
 
 Fun facts:
 
-- (about) The first domestication event occurred around 10,500 years ago with the evolution of Bos taurus.
-- (history) Upon the acquisition of grasslands through the Mexican–American War of 1848, and later the expulsion of the Plains Indians from this region and the Midwest, the American livestock industry began, starting primarily with the taming of feral and semi-feral Longhorn cattle.
 - (about) As of 2018, the United States, Brazil, and China were the largest producers of beef.
+- (history) Upon the acquisition of grasslands through the Mexican–American War of 1848, and later the expulsion of the Plains Indians from this region and the Midwest, the American livestock industry began, starting primarily with the taming of feral and semi-feral Longhorn cattle.
+- (about) The first domestication event occurred around 10,500 years ago with the evolution of Bos taurus.
 
 More fun facts (when the user asks for more):
 
@@ -12905,8 +12849,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) Not to be confused with brännvin.
 - (inspiration) Brandy is based on apple, wine, Pixie Grape.
+- (about) Not to be confused with brännvin.
 
 Learn more:
 
@@ -12941,10 +12885,10 @@ More fun facts (when the user asks for more):
 - (history) Carl Peter Thunberg reported that cabbage was not yet known in Japan in 1775.
 - (history) During the 16th century, German gardeners developed the savoy cabbage.
 - (about) As of 2012, the heaviest cabbage was 62.71 kilograms (138 lb 4 oz).
-- (origin) New variants were introduced from the Renaissance on, mostly by Germanic-speaking peoples.
 - (about) By the 17th and 18th centuries, cabbage was popularised as a staple food in central, northern, and Eastern Europe.
 - (origin) In India, cabbage was one of several vegetable crops introduced by colonizing traders from Portugal, who established trade routes from the 14th to 17th centuries.
 - (origin) Many cabbage varieties—including some still commonly grown—were introduced in Germany, France, and the Low Countries.
+- (origin) New variants were introduced from the Renaissance on, mostly by Germanic-speaking peoples.
 
 Learn more:
 
@@ -13044,15 +12988,15 @@ Morchella, the true morels, is a genus of edible sac fungi closely related to an
 Fun facts:
 
 - (inspiration) Morchella purpurascens, the purple morel, was first described by Boudier as a variety of M. elata in 1897 based on an 1834 plate by Krombholz, and was recombined as a distinct species in 1985 by Emile Jacquetant.
-- (history) Among early pioneers who took an interest in the genus, were mycologists Julius Vincenz von Krombholz and Émile Boudier, who, in 1834 and 1897 respectively, published several species and varieties, accompanied by meticulously illustrated iconographic plates.
 - (culture) As one observer stated, "if there is a modern, North American reenactment of Geoffrey Chaucer's Canterbury Tales this is it." Other festivals and hunting competitions in North America include the Illinois State Morel Mushroom Hunting Championship, the Ottawa Midwest Morel Fest and the Mesick Michigan Mushroom Festival.
+- (history) Typified by Morchella esculenta in 1794, the genus has been the source of considerable taxonomical controversy throughout the years, mostly with regard to the number of species involved, with some mycologists recognising as few as three species and others over thirty.
 
 More fun facts (when the user asks for more):
 
-- (history) Typified by Morchella esculenta in 1794, the genus has been the source of considerable taxonomical controversy throughout the years, mostly with regard to the number of species involved, with some mycologists recognising as few as three species and others over thirty.
 - (history) Morchella Dill. ex Pers.: Fr. was typified by Christiaan Hendrik Persoon in 1794, with Morchella esculenta designated as the type species for the genus.
 - (history) The seminal taxon Morchella elata, whose true identity still remains unresolved, was described by Elias Fries in 1822, from a fir forest in Sweden.
 - (history) Morchella eximia, a globally-occurring fire-associated species was also described by Boudier in 1910.
+- (history) Among early pioneers who took an interest in the genus, were mycologists Julius Vincenz von Krombholz and Émile Boudier, who, in 1834 and 1897 respectively, published several species and varieties, accompanied by meticulously illustrated iconographic plates.
 - (culture) Every spring, hundreds of morel enthusiasts gather in Boyne City, Michigan for the National Morel Mushroom Festival, a century-old event.
 - (about) In Tyler Childers 2019 song "All Your'n", he mentions "Fried morels and fine hotels" in the first line of the 2nd verse.
 - (about) In parts of West Virginia, they are known as molly moochers, muggins, or muggles.
@@ -13114,7 +13058,7 @@ More fun facts (when the user asks for more):
 
 - (history) Ranch dressing dates from 1950-.
 - (about) In 2017, 40% of Americans named ranch as their favorite dressing, according to a study by the Association for Dressings and Sauces.
-- (origin) Ranch dressing comes from United States.
+- (origin) Ranch dressing comes from the United States.
 
 Learn more:
 
@@ -13137,7 +13081,7 @@ Fun facts:
 
 - (about) According to Wilhelm Holzapfel et al., Plinius the Elder, writing in the first century AD, is reputed to have been the first writer to describe the making of sauerkraut by preserving what the Romans called salt cabbage in earthen vessels.
 - (origin) Popular folklore has imagined that sauerkraut was introduced to Europe by the trade networks formed across Eurasia by the Golden Horde.
-- (history) However, according to Mack and Surina (2005), there is no evidence to support this theory, nor any evidence that fermented cabbage arrived from an East Asian source, and there is evidence of sauerkraut production in Europe dating back to the early period of the Western Roman Empire.
+- (history) According to Mack and Surina (2005), there is no evidence to support this theory, nor any evidence that fermented cabbage arrived from an East Asian source, and there is evidence of sauerkraut production in Europe dating back to the early period of the Western Roman Empire.
 
 More fun facts (when the user asks for more):
 
@@ -13264,19 +13208,19 @@ Wine is an alcoholic drink made from fermented grape juice.
 
 Fun facts:
 
-- (history) Jesuit Missionaries managed to grow vines in California in the 1670s, and plantings were later established in Los Angeles in the 1820s and Napa and Sonoma in the 1850s.
+- (history) New World wine was established by settler colonies from the 16th century onwards, and the wine trade increased dramatically up to the latter half of the 19th century, when European vineyards were largely destroyed by the invasive pest phylloxera.
 - (origin) Arthur Phillip introduced vines to Australia in 1788, and viticulture was widely practiced by the 1850s.
 - (about) Its popularity spread around the Mediterranean during Classical antiquity, and was sustained in Western Europe by winemaking monks and a secular trade for general drinking.
 
 More fun facts (when the user asks for more):
 
-- (history) New World wine was established by settler colonies from the 16th century onwards, and the wine trade increased dramatically up to the latter half of the 19th century, when European vineyards were largely destroyed by the invasive pest phylloxera.
-- (history) Vineyards were established in Mexico by 1530, Peru by the 1550s and Chile shortly afterwards.
+- (history) Jesuit Missionaries managed to grow vines in California in the 1670s, and plantings were later established in Los Angeles in the 1820s and Napa and Sonoma in the 1850s.
 - (history) The subsequent spread of wine culture around the Mediterranean was probably due to the influence of the Phoenicians (from c. 1000 BCE) and Greeks (from c. 600 BCE).
-- (origin) The Australian missionary Samuel Marsden introduced vines to New Zealand in 1819.
 - (history) The Great French Wine Blight began in the latter half of the 19th century, caused by an infestation of the aphid phylloxera brought over from America, whose louse stage feeds on vine roots and eventually kills the plant.
+- (history) Vineyards were established in Mexico by 1530, Peru by the 1550s and Chile shortly afterwards.
 - (history) After the Second World War, winemakers focused on quality and marketing to cater for a more discerning audience, and wine remains a popular drink in much of the world.
 - (culture) European wine grape traditions were incorporated into New World wine, with colonists planting vineyards in order to celebrate the Eucharist.
+- (origin) The Australian missionary Samuel Marsden introduced vines to New Zealand in 1819.
 - (about) Not to be confused with wino.
 
 Learn more:
@@ -13367,9 +13311,9 @@ More fun facts (when the user asks for more):
 
 - (history) Gadus morhua was named by Linnaeus in 1758. (However, G. morhua callarias, a low-salinity, nonmigratory race restricted to parts of the Baltic, was originally described as Gadus callarias by Linnaeus.) Cod as food is popular in several parts of the world.
 - (history) The Portuguese began fishing cod in the 15th century.
-- (history) By the end of the 14th century, the Hanseatic League dominated trade operations and sea transport, with Bergen as the most important port.
 - (history) In the 20th century, Iceland re-emerged as a fishing power and entered the Cod Wars.
 - (about) The fish was so important to the history and development of Massachusetts, the state's House of Representatives hung a wood carving of a codfish, known as the Sacred Cod of Massachusetts, in its chambers.
+- (history) By the end of the 14th century, the Hanseatic League dominated trade operations and sea transport, with Bergen as the most important port.
 - (about) Not to be confused with Armed Forces Operational Command (Poland).
 
 Learn more:
@@ -13392,19 +13336,18 @@ Coffee milk is a drink made by mixing coffee syrup or extract with milk, in a ma
 Fun facts:
 
 - (origin) Coffee milk originated in American diners and soda fountains in the early 20th century.
-- (history) The product was first documented in the 1926 Ice Cream Trade Journal published by Thomas D.
+- (history) Since 1993, it has been the official state drink of the U.S. state of Rhode Island.
 - (inspiration) The first coffee syrup is thought to have been created by a soda fountain operator who sweetened leftover coffee grounds with milk and sugar to create a syrup, then mixed it into glasses of milk.
 
 More fun facts (when the user asks for more):
 
-- (history) Since 1993, it has been the official state drink of the U.S. state of Rhode Island.
 - (history) While the precise origin of coffee milk is unclear, several sources trace it back to the 19th century Italian immigrant population in Providence, Rhode Island.
 - (origin) In the late 19th and early 20th centuries, approximately 55,000 Italian immigrants traveled to Providence, introducing their traditions and customs to Rhode Island; this included drinking sweetened coffee with milk, which is believed to have led to the creation of coffee milk.
 - (history) In the 1930s, coffee milk was regularly served at pharmacy lunch counters, targeted toward children and youth as an alternative to the hot coffee served to their parents.
-- (about) The first merchant to bottle and sell coffee syrup was D.
 - (origin) To honor the heritage of this local beverage which originated in Rhode Island's Blackstone Valley, the Blackstone Valley Tourism Council markets its own version of coffee syrup (in collaboration with Dave's Coffee).
+- (history) The product was first documented in the 1926 Ice Cream Trade Journal published by Thomas D. Cutler.
 - (about) Due to the popularity of the product, coffee syrup was eventually bottled and sold by merchants.
-- (origin) Coffee milk comes from United States.
+- (origin) Coffee milk comes from the United States.
 - (about) Not to be confused with milk coffee.
 
 Learn more:
@@ -13426,7 +13369,7 @@ Fun facts:
 
 - (history) The name cranberry derives from the Middle Low German kraanbere (English translation, craneberry), first named as cranberry in English by the missionary John Eliot in 1647.
 - (culture) Cranberry sauce is a traditional accompaniment to turkey at Christmas and Thanksgiving dinners in the U.S. and Canada, and at Christmas dinners in the United Kingdom.
-- (origin) The traditional English name for the plant more common in Europe, Vaccinium oxycoccos, fenberry, originated from plants with small red berries found growing in fen (marsh) lands of England.
+- (about) In 2020, the U.S., Canada, and Chile accounted for 97% of the world production of cranberries.
 
 More fun facts (when the user asks for more):
 
@@ -13437,8 +13380,8 @@ More fun facts (when the user asks for more):
 - (history) In 1643, Roger Williams's book A Key into the Language of America described cranberries, referring to them as "bearberries" because bears ate them.
 - (history) In 1648, preacher John Elliott was quoted in Thomas Shepard's book Clear Sunshine of the Gospel with an account of the difficulties the Pilgrims were having in using the Indians to harvest cranberries as they preferred to hunt and fish.
 - (history) In 1663, the Pilgrim cookbook appears with a recipe for cranberry sauce.
-- (about) In 2020, the U.S., Canada, and Chile accounted for 97% of the world production of cranberries.
 - (origin) Calling the red berries sasemineash, the Narragansett people may have introduced cranberries to colonists in Massachusetts.
+- (origin) The traditional English name for the plant more common in Europe, Vaccinium oxycoccos, fenberry, originated from plants with small red berries found growing in fen (marsh) lands of England.
 - (about) Not to be confused with blueberry, raspberry.
 
 Learn more:
@@ -13466,13 +13409,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) They would have been sweetened with maple sugar and served at the settlers first Thanksgiving in North America that year.
 - (about) Although the Pilgrims may have been aware of the wild cranberries growing in the Massachusetts Bay area, it is unlikely that cranberry sauce would have been among the dishes served at the First Thanksgiving meal.
 - (about) Cranberries are not mentioned by any primary sources for the First Thanksgiving meal.
 - (history) Although stuffings are not mentioned in primary sources, it was a common way to prepare birds for the table in the 17th century.
 - (history) Canned cranberry sauce appeared on the market in 1941, allowing the product to be sold year-round.
 - (about) Cranberry sauce is often eaten in conjunction with turkey for Christmas in the United Kingdom and Canada or Thanksgiving in the United States and Canada, and it is only rarely eaten or served in other contexts there.
-- (origin) Cranberry sauce comes from United States.
+- (origin) Cranberry sauce comes from the United States.
+- (about) They would have been sweetened with maple sugar and served at the settlers first Thanksgiving in North America that year.
 - (about) Not to be confused with lingonberry jam.
 
 Learn more:
@@ -13541,7 +13484,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Milkshake comes from United States.
+- (origin) Milkshake comes from the United States.
 
 Learn more:
 
@@ -13579,12 +13522,12 @@ Fun facts:
 
 - (history) The term "scrod" for a method of preparing fish, rather than a type or size of fish, is first attested in 1841.
 - (history) Starting in the mid-20th century, it came to mean a small haddock or cod that is filleted or split.
-- (history) A similar meaning is found in Scots scrae: "fish dried in the sun without being salted", attested in 1806.
+- (history) I've fixed him more than a thousand. "Scrod" has been used as a facetious past participle of the word "screw," slang for having sexual intercourse, since at least the 1960s, in jokes like "I got scrod in Boston."
 
 More fun facts (when the user asks for more):
 
+- (history) A similar meaning is found in Scots scrae: "fish dried in the sun without being salted", attested in 1806.
 - (history) Seth Peterson, a boatman, fisherman, and friend of Daniel Webster, described the 19th century orator and statesman (per biographer George Curtis) as having greatly enjoyed scrawed cod:He loved codfish best—he liked to have them scrawed—to have them split open, corned a little over night, and broiled for breakfast.
-- (history) I've fixed him more than a thousand. "Scrod" has been used as a facetious past participle of the word "screw," slang for having sexual intercourse, since at least the 1960s, in jokes like "I got scrod in Boston."
 
 Learn more:
 
@@ -13662,7 +13605,7 @@ Fun facts:
 
 - (history) A print called Lesson in apple dumplings or Learning to make apple dumplings, variously attributed to British caricaturists James Gillray in 1792 or Richard Newton in 1797, shows a woman making apple dumplings, watched by a man, possibly King George III.
 - (about) Food historian Bruce Kraig speculated that apple dumplings were popular in the United States because they were "enormously practical in a country where apples grew well and could be dried for year-round use, few individually portioned foods were available, and large boiled dinners required the least tending."
-- (origin) Apple dumpling comes from United States.
+- (origin) Apple dumpling comes from the United States.
 
 More fun facts (when the user asks for more):
 
@@ -13670,9 +13613,9 @@ More fun facts (when the user asks for more):
 - (history) In 1749–1750, when botanist Pehr Kalm traveled from New Jersey to Quebec, he reported having apple dumplings at every meal.
 - (history) Louis Hughes, born a black slave in Virginia in 1832, recorded an account of a Fourth of July barbecue for the slaves with roasted pigs and sheep, but apple dumplings and peach cobbler were still the favorites "relished by all the slaves".
 - (history) A young pioneer's diary entry for July 4th, 1859 on Oregon Trail records having apple dumplings for supper that evening.
-- (history) In 1754 English agriculturalist William Ellis called them one of the most common foods among farmers, along with bacon and pickled pork.
 - (history) In 1838 American physician William Alcott in his book of advice for young wives The Young House-keeper: Or, Thoughts on Food and Cookery said that "apple dumplings are not very objectionable, except for the crust" as long as no spices were added, but goes on to say, "But why should we have the apple dumpling at all?
 - (history) In 1879 Mark Twain included baked apple dumplings on a list of American foods "unmatched by European hotel cuisine".
+- (history) In 1754 English agriculturalist William Ellis called them one of the most common foods among farmers, along with bacon and pickled pork.
 
 Learn more:
 
@@ -13766,7 +13709,7 @@ Lebanon bologna is a type of American cured, smoked, and fermented semidry beef 
 Fun facts:
 
 - (culture) Lebanon bologna was developed by the Pennsylvania Dutch of Lebanon County, Pennsylvania, prior to the 1780s and was a common item by the early 1800s, reflecting the slow-cured and smoked sausage traditions of Western Europe.
-- (origin) Lebanon bologna comes from United States.
+- (origin) Lebanon bologna comes from the United States.
 - (culture) Hardwood smoking imparts a strong smokiness to the traditionally prepared versions of the product.
 
 Learn more:
@@ -13794,12 +13737,11 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) An item resembling pork roll, packed minced ham, may have been locally produced in the later 1700s.
-- (history) John Taylor is credited with creating his secret recipe for the product in 1856.
 - (history) George Washington Case, a farmer and butcher from nearby Belle Mead, created his own recipe for hickory-smoked pork roll in 1870.
 - (history) Following the Civil War, in the later 1800s, the American meat-packing industry experienced dramatic growth, bringing meat products like pork roll to rapidly growing urban areas.
 - (history) Taylor originally called his product "Taylor's Prepared Ham", but was forced to change the name after it failed to meet the new legal definition of "ham" established by the Pure Food and Drug Act of 1906.
 - (history) Adolph Gobel, the "Sausage King" of Brooklyn, was sued by Taylor in 1910 for calling his competing product "Roll of Pork", but the court ruled that the words "Pork Roll" and "Roll of Pork" could not be trademarked.
-- (culture) On May 15, 2016, President Barack Obama gave a commencement speech at Rutgers University's 250th graduation ceremony in which he referenced the "Taylor Ham vs. pork roll debate", saying, "I come here for a simple reason – to finally settle this pork roll vs.
+- (history) John Taylor is credited with creating his secret recipe for the product in 1856.
 
 Learn more:
 
@@ -13830,12 +13772,12 @@ More fun facts (when the user asks for more):
 - (history) Hires developed his root tea made from sassafras in 1875, debuted a commercial version of root beer at the Philadelphia Centennial Exposition in 1876, and began selling his extract.
 - (history) Since safrole, a key component of sassafras, was banned by the US Food and Drug Administration in 1960 due to its carcinogenicity, most commercial root beers have been flavored using artificial sassafras flavoring, but a few (e.g.
 - (history) Root beer was combined with soda as early as the 1850s; at that time it was sold as a syrup rather than a ready-made beverage.
-- (history) In 1886, Hires began to bottle a beverage made from his famous extract.
 - (history) By 1893, root beer was distributed widely across the United States.
 - (history) One of Hires's early competitors was Barq's, which began selling its sarsaparilla-based root beer in 1898 and was labeled simply as "Barq's".
 - (history) In 1919, Roy Allen opened his root-beer stand in Lodi, California, which led to the development of A&W Root Beer.
 - (history) Root beer dates from 1840-.
 - (culture) Not all traditional or commercial root beers were sassafras-based.
+- (history) In 1886, Hires began to bottle a beverage made from his famous extract.
 
 Learn more:
 
@@ -13856,15 +13798,15 @@ Fun facts:
 
 - (history) The English word saffron is a borrowing from French, first found in a Middle English text written around 1200 as saffran.
 - (origin) Saffron originated in Iran especially in the Khorasan region descended from wild relatives in the eastern Mediterranean and later spread to Kashmir, the Mediterranean region, and Asia Minor.
-- (about) Its recorded history is attested as early as a 7th-century BC Assyrian botanical treatise.
+- (about) C. sativus is probably a triploid form of Crocus cartwrightianus, which is also known as "wild saffron".
 
 More fun facts (when the user asks for more):
 
 - (origin) Saffron originated from the older زر پران zarparān, meaning 'gold-strung' in reference to the flower's golden filaments or the rich golden hue it imparts as a spice.
 - (origin) Saffron likely originated in Iran, Greece, Mesopotamia, or Kashmir.
-- (culture) Additional historical uses include traditional medicine, dyeing, perfumery, and religious rituals.
-- (about) C. sativus is probably a triploid form of Crocus cartwrightianus, which is also known as "wild saffron".
 - (about) Not to be confused with Saffron.
+- (about) Its recorded history is attested as early as a 7th-century BC Assyrian botanical treatise.
+- (culture) Additional historical uses include traditional medicine, dyeing, perfumery, and religious rituals.
 
 Learn more:
 
@@ -13889,7 +13831,7 @@ Fun facts:
 
 - (inspiration) Arizona cheese crisp is named after Arizona.
 - (about) Cheese crisps are served as appetizers at most Phoenix-area and Tucson-area Mexican restaurants, but are rarely found outside the state, other than places popular with Arizonan tourists such as Puerto Peñasco and San Diego.
-- (origin) Arizona cheese crisp comes from United States.
+- (origin) Arizona cheese crisp comes from the United States.
 
 Learn more:
 
@@ -14032,16 +13974,15 @@ Chocolate milk is a type of flavoured milk made by mixing cocoa powder with milk
 
 Fun facts:
 
-- (origin) The first domesticated cattle were introduced to the Caribbean in 1493 by Christopher Columbus.
 - (about) The Natural History Museum of London lists Anglo-Irish botanist Hans Sloane as the inventor of drinking chocolate with milk.
-- (history) However, according to historian James Delbourgo, the Jamaicans were brewing "a hot beverage brewed from shavings of freshly harvested cacao, boiled with milk and cinnamon" as far back as 1494.
+- (history) According to historian James Delbourgo, the Jamaicans were brewing "a hot beverage brewed from shavings of freshly harvested cacao, boiled with milk and cinnamon" as far back as 1494.
+- (origin) The first domesticated cattle were introduced to the Caribbean in 1493 by Christopher Columbus.
 
 More fun facts (when the user asks for more):
 
-- (origin) Reciprocally, cocoa was introduced in Europe in the 1520s.
 - (history) In the late 19th century, Swiss entrepreneur Daniel Peter developed a solid dehydrated version of chocolate milk so that it could be easily portioned, transported and conserved (fresh milk was rare in the cities).
-- (history) He eventually created milk chocolate in 1875.
 - (about) Not to be confused with milk chocolate.
+- (origin) Reciprocally, cocoa was introduced in Europe in the 1520s.
 
 Learn more:
 
@@ -14064,13 +14005,12 @@ Frito pie is a dish popular in the Midwestern, Southeastern, and Southwestern Un
 Fun facts:
 
 - (inspiration) Another story says that true Frito pie originated only in the 1960s with Teresa Hernández, who worked at the Woolworth's lunch counter in Santa Fe, New Mexico.
-- (history) Her Frito pie used homemade red chili con carne with cheddar cheese and onions, and was served in the bag, which was thicker in the 1960s than it is now.
-- (origin) Frito pie comes from United States.
+- (history) Charles Doolin and his Frito Company were early investors in Disneyland, which opened Casa de Fritos restaurant in Disneyland in 1955. "Frito Chili Pie" appears on the 1950s menu.
+- (origin) Frito pie comes from the United States.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) The recipe may have been invented by Daisy Doolin, the mother of Frito Company founder Charles Elmer Doolin and the first person to use Fritos as an ingredient in cooking, or by Mary Livingston, Doolin's executive secretary.
-- (history) Charles Doolin and his Frito Company were early investors in Disneyland, which opened Casa de Fritos restaurant in Disneyland in 1955. "Frito Chili Pie" appears on the 1950s menu.
 
 Learn more:
 
@@ -14091,14 +14031,14 @@ Guacamole, sometimes informally shortened to guac in the United States, is an av
 
 Fun facts:
 
-- (about) Avocado seeds were first found in the Tehuacan Valley of Mexico around 9,000–10,000 years ago (7000–8000 BCE) and had been domesticated by various Mesoamerican groups by 5000 BCE.
-- (history) In the early 1900s, avocados frequently went by the name alligator pear.
+- (history) The rising consumption of guacamole is most likely due to the U.S. government lifting a ban on avocado imports in the 1990s and the growth of the U.S. Latino population.
+- (about) On November 20, 2022, Peribán, Mexico, achieved the Guinness World Record for the largest serving of guacamole.
 - (origin) Guacamole comes from Mexico.
 
 More fun facts (when the user asks for more):
 
-- (history) The rising consumption of guacamole is most likely due to the U.S. government lifting a ban on avocado imports in the 1990s and the growth of the U.S.
-- (about) On November 20, 2022, Peribán, Mexico, achieved the Guinness World Record for the largest serving of guacamole.
+- (about) Avocado seeds were first found in the Tehuacan Valley of Mexico around 9,000–10,000 years ago (7000–8000 BCE) and had been domesticated by various Mesoamerican groups by 5000 BCE.
+- (history) In the early 1900s, avocados frequently went by the name alligator pear.
 
 Learn more:
 
@@ -14150,7 +14090,7 @@ Panocha is a pudding made from ground sprouted wheat and piloncillo in New Mexic
 Fun facts:
 
 - (culture) In the Philippines, panocha (also spelled panutsa or panotsa) is the Spanish term for sangkaka, a traditional native jaggery made in halved coconut shells.
-- (origin) Panocha comes from United States.
+- (origin) Panocha comes from the United States.
 - (about) Not to be confused with panela.
 
 Learn more:
@@ -14200,9 +14140,9 @@ Seafood is any form of sea life regarded as food by humans, prominently includin
 
 Fun facts:
 
-- (history) A stele of the late 3rd century BCE from the small Boeotian city of Akraiphia, on Lake Copais, provides us with a list of fish prices.
 - (inspiration) The Dietary Guidelines for Americans recommend eating at least 8 ounces of seafood per week as part of a healthy eating pattern, based on a 2,000-calorie diet.
 - (about) The harvesting of wild seafood is usually known as fishing or hunting, while the cultivation and farming of seafood is known as aquaculture and fish farming (in the case of fish).
+- (history) A stele of the late 3rd century BCE from the small Boeotian city of Akraiphia, on Lake Copais, provides us with a list of fish prices.
 
 More fun facts (when the user asks for more):
 

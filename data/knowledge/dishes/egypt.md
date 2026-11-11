@@ -71,12 +71,12 @@ Fun facts:
 
 - (history) The word fatayir is attested in English as early as 1882 in an Arabic-English dictionary by Francis Joseph Steingass, where its translated as "pastry", and equated with sambusaq.
 - (origin) Fatayer was first made in Levant.
-- (history) Triangular filled pastries filled with cheese called mujabbanat can be found in a 13th-century augmented version of Ibn Sayyar al-Warraq's 10th century cookbook Kitab al-Tabikh.
+- (origin) Fatayer comes from Lebanon.
 
 More fun facts (when the user asks for more):
 
+- (history) Triangular filled pastries filled with cheese called mujabbanat can be found in a 13th-century augmented version of Ibn Sayyar al-Warraq's 10th century cookbook Kitab al-Tabikh.
 - (history) An early description is found in Arbeit und Sitte in Palaestina ("Work and customs in Palestine"); a 1935 book by German Orientalist Gustaf Dalman.
-- (origin) Fatayer comes from Lebanon.
 
 Learn more:
 
@@ -275,7 +275,7 @@ Om Ali, Omali, Umm Ali, or Oumm Ali, meaning "Ali's Mother", is a traditional Eg
 Fun facts:
 
 - (origin) The most often cited version is that it originated as a celebration of the 1257 death of Shajar al-Durr, who had been married to Egypt's final Sultan from the Ayyubid dynasty, As-Salih, and subsequently to the first of Egypt's Mamluk Sultans, Izz al-Din Aybak.
-- (inspiration) However, there is no historical evidence connecting the dessert to the legend, and the first known recipe only dates back to the 19th century.
+- (inspiration) There is no historical evidence connecting the dessert to the legend, and the first known recipe only dates back to the 19th century.
 - (culture) Ultimately, she was herself killed in retribution, whereafter Aybak's first wife, who was known as Om Ali, asked to have a dessert prepared in celebration.
 
 More fun facts (when the user asks for more):
@@ -314,10 +314,10 @@ More fun facts (when the user asks for more):
 - (history) During the 9th century, thin qatayef, then regarded as high quality, where used to wrap a type of marzipan to create lauzinaj.
 - (history) Medieval Arabic cookbooks typically used crushed almond as filling, one 13th century recipe provided Muhammad bin Hasan al-Baghdadi called for a filling of almond and sugar, and instructed to fry the qatayef in sesame oil after they are stuffed and folded.
 - (history) An 1844 French-Syrian-and-Egyptian-Arabic by Swedish Orientalist Jacob Berggren described qatayef being made from a fine flour batter that is poured from a spoon into molds arranged on a pan, then eaten sweetened by honey or grape syrup.
-- (history) In 1935, German Orientalist Gustaf Dalman noted in his book Arbeit und Sitte in Palaestina ("Work and customs in Palestine") that Arabs in Palestine made kataif from flour, sourdough, and cold water, which were cooked on a pan and stuffed with nuts, and sometimes sent to a bakery to be baked in sesame oil.
 - (about) Food historian Gil Marks noted that Ibn al-Qataifi was a surname of family of Jews in Egypt, highlighting qatayef's popularity.
 - (culture) Arab Christians, particularly in the Levant, also eat it during some celebrations, like Eid il-Burbara.
-- (origin) Qatayef comes from Levant.
+- (origin) Qatayef comes from the Levant.
+- (history) In 1935, German Orientalist Gustaf Dalman noted in his book Arbeit und Sitte in Palaestina ("Work and customs in Palestine") that Arabs in Palestine made kataif from flour, sourdough, and cold water, which were cooked on a pan and stuffed with nuts, and sometimes sent to a bakery to be baked in sesame oil.
 - (about) Not to be confused with vermicelli, Kadayif.
 
 Learn more:
@@ -454,17 +454,17 @@ Eish baladi is a traditional Egyptian flatbread and is one of the oldest and mos
 Fun facts:
 
 - (origin) In Egypt, where the term originates, baladi encompasses the essence of local culture, traditions, and everyday life, extending well beyond its literal translation.
-- (about) Hieroglyphic records document at least fourteen types of bread, including leavened pita and pot-baked varieties used in temples and on special occasions.
-- (history) Evidence from the Amarna Workers' Village, dating to the reign of Akhenaten (c. 1350 BC), suggests that households were largely self-sufficient in producing their own bread, collaborating in grinding grain and baking.
+- (history) The government’s subsidy for eish baladi is one of the most sensitive national policies, with bread affordability and availability being a driving force behind mass uprisings, including the 1977 Egyptian bread riots and the 2011 Egyptian revolution.
+- (culture) Toasted or fried pieces of eish baladi can enhance soups, salads, or the traditional Egyptian dish known as fatta.
 
 More fun facts (when the user asks for more):
 
-- (history) The government’s subsidy for eish baladi is one of the most sensitive national policies, with bread affordability and availability being a driving force behind mass uprisings, including the 1977 Egyptian bread riots and the 2011 Egyptian revolution.
 - (history) As the most popular type of bread in Egypt, it has formed the backbone of Egyptian cuisine since ancient Egypt.
-- (culture) Additionally, toasted or fried pieces of eish baladi can enhance soups, salads, or the traditional Egyptian dish known as fatta.
-- (about) These same microbial methods were later used to brew acidic beer, today known as bouza or boozah in Egypt, made from lightly baked loaves of germinated grains.
-- (culture) Despite the introduction of modern baking techniques, traditional ovens remain prevalent, especially in rural and local markets.
 - (origin) Eish baladi comes from Egypt.
+- (about) Hieroglyphic records document at least fourteen types of bread, including leavened pita and pot-baked varieties used in temples and on special occasions.
+- (history) Evidence from the Amarna Workers' Village, dating to the reign of Akhenaten (c. 1350 BC), suggests that households were largely self-sufficient in producing their own bread, collaborating in grinding grain and baking.
+- (culture) Despite the introduction of modern baking techniques, traditional ovens remain prevalent, especially in rural and local markets.
+- (about) These same microbial methods were later used to brew acidic beer, today known as bouza or boozah in Egypt, made from lightly baked loaves of germinated grains.
 
 Learn more:
 
@@ -524,7 +524,7 @@ Feteer meshaltet, often simply referred to as meshaltet, is a traditional Egypti
 Fun facts:
 
 - (culture) Feteer meshaltet is considered a symbol of hospitality in Egypt.
-- (about) President Barack Obama along with Egyptian falafel during his visit to Egypt in June 2009.
+- (about) Feteer meshaltet was notably served to U.S. President Barack Obama along with Egyptian falafel during his visit to Egypt in June 2009.
 - (history) Feteer meshaltet dates back to ancient Egypt, where it was known as maltoot.
 
 More fun facts (when the user asks for more):
@@ -604,18 +604,18 @@ Kashk, kishk, qurut, qurt, kurut, kurt, jameed, shilanch, chortan, aaruul or khu
 
 Fun facts:
 
-- (inspiration) Chortan is mentioned in the 19th century Armenian epic poem Daredevils of Sassoun, said to be based on an 8th-century oral tradition.
-- (origin) According to Francoise Aubaile-Sallenave, the first known literary use of the term comes from the Armenian historian Yeghishe.
 - (about) The word Kashk is also mentioned in the Middle Persian text Xusraw ud rēdag in adjectival form: ārd ī kaškēn. the 10th-century Persian Shahnameh ("Book of Kings") by Firdausi the term is used in the sense of "barley flour", but it is also used for a mixture of cracked wheat and cracked barley.
+- (inspiration) Charles Perry offers an alternate explanation based on the 13th century Arabic cookbook Wasf al-Atimah al-Mutadah which says dried yogurt was a Turkomen-style kashk.
+- (origin) Kashk was first made in Central Asia, Levant.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Charles Perry offers an alternate explanation based on the 13th century Arabic cookbook Wasf al-Atimah al-Mutadah which says dried yogurt was a Turkomen-style kashk.
-- (origin) Kashk was first made in Central Asia, Levant.
-- (inspiration) There are three main kinds of food products with this name: foods based on curdled milk products like yogurt or cheese; foods based on barley broth, bread, or flour; and foods based on cereals combined with curdled milk.
 - (about) In Turkic languages, it is known as qurut/kurut.
 - (about) Kashk is also central to the staple Iranian eggplant dish known as kashk-e bademjan.
 - (origin) Kashk comes from Turkey, Lebanon, Syria, Afghanistan.
+- (inspiration) Chortan is mentioned in the 19th century Armenian epic poem Daredevils of Sassoun, said to be based on an 8th-century oral tradition.
+- (origin) According to Francoise Aubaile-Sallenave, the first known literary use of the term comes from the Armenian historian Yeghishe.
+- (inspiration) There are three main kinds of food products with this name: foods based on curdled milk products like yogurt or cheese; foods based on barley broth, bread, or flour; and foods based on cereals combined with curdled milk.
 
 Learn more:
 
@@ -689,15 +689,15 @@ Macarona bil-bechamel is a traditional Egyptian pasta bake that combines penne p
 
 Fun facts:
 
-- (history) This casserole is reminiscent of Italian lasagna and Greek pastitsio, likely an influence from the latter during the early 20th century, when a significant Greek community resided in Egypt.
-- (origin) These chefs introduced European culinary techniques, which were later adopted by Egyptian cooks.
+- (history) Macarona bil-bechamel, a popular Egyptian dish, traces its origins to French-trained chefs who worked in khedival palace kitchens and luxury hotels in the mid-19th century.
 - (culture) Egyptian chefs adapted the dish, replacing its traditional spicing with the béchamel sauce, a technique influenced by French cuisine.
+- (origin) These chefs introduced European culinary techniques, which were later adopted by Egyptian cooks.
 
 More fun facts (when the user asks for more):
 
-- (history) Macarona bil-bechamel, a popular Egyptian dish, traces its origins to French-trained chefs who worked in khedival palace kitchens and luxury hotels in the mid-19th century.
 - (history) By the early 20th century, Greek-owned restaurants in Cairo and Alexandria played a significant role in popularizing dishes like pastitsio, the Greek predecessor to macarona bil-bechamel.
 - (culture) Rather than a direct European import, macarona bil-bechamel represents the fusion of Mediterranean culinary traditions, evolving within Egypt’s dynamic food culture.
+- (history) This casserole is reminiscent of Italian lasagna and Greek pastitsio, likely an influence from the latter during the early 20th century, when a significant Greek community resided in Egypt.
 
 Learn more:
 

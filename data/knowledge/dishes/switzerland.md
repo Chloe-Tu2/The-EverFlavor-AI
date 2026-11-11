@@ -12,16 +12,16 @@ The Basler Läckerli (also Leckerli or Läggerli, lecker meaning "delicious" in 
 
 Fun facts:
 
-- (history) Gallen (1640), Zofingen (1677), Schaffhausen (1684), Graubünden (1689) and Zurich (end of the 17th century).
+- (history) Other early Läckerli recipes are attested from St. Gallen (1640), Zofingen (1677), Schaffhausen (1684), Graubünden (1689) and Zurich (end of the 17th century).
 - (inspiration) Basler Läckerli were originally created by local spice merchants over 700 years ago and are available year-round.
 - (origin) Basler Läckerli comes from Switzerland.
 
 More fun facts (when the user asks for more):
 
 - (history) The word is first attested from Augsburg in 1591 («111 Leckherle at 4 Kreuzer and 324 other Leckherle at 3 Kreuzer»); the first Swiss Läckerli recipe can be found in the 1621 handbook of Abraham Schneuwly, a doctor in Bern («Frauw Anna Von Hallweil to make little treats»).
-- (history) When the trade in oriental spices reached Europe in the 11th century, the wealthy monasteries were the first to use them to flavor honey cakes.
 - (history) From the 17th century, the first different gingerbread and treat recipes appeared in cookbooks. "Läckerli" or "Läckerle" are or were widespread in southern Germany and German-speaking Switzerland.
 - (history) In Basel, the Läckerli appear for the first time in a statement by the gardeners' guild of October 10, 1711, where "3 Läckerlin leaves" are mentioned; in previous the recipe books the term gingerbread was used.
+- (history) When the trade in oriental spices reached Europe in the 11th century, the wealthy monasteries were the first to use them to flavor honey cakes.
 - (history) This custom gradually spread to the towns, starting the gingerbread craft in Switzerland in the 15th century.
 
 Learn more:
@@ -63,9 +63,9 @@ Birnbrot or Birnweggen are a traditional baked good originating in Switzerland w
 
 Fun facts:
 
-- (about) They exist throughout Switzerland and popular variations include "Bündener Birnbrot" (from the Kanton Graubünden), "Glarner Birnbrot" (from the Kanton Glarus), "Toggenburger Birnbrot" (from Toggenburg) and "Luzerner Birnweggen" (from Luzern).
-- (origin) Birnbrot comes from Switzerland.
 - (about) Nowadays it is a popular pastry around Christmas and New Year's Eve and there are some customs around it.
+- (origin) Birnbrot comes from Switzerland.
+- (about) They exist throughout Switzerland and popular variations include "Bündener Birnbrot" (from the Kanton Graubünden), "Glarner Birnbrot" (from the Kanton Glarus), "Toggenburger Birnbrot" (from Toggenburg) and "Luzerner Birnweggen" (from Luzern).
 
 Learn more:
 
@@ -87,15 +87,15 @@ The Bündner Nusstorte (Graubünden nut pastry), also known as Engadiner Nusstor
 Fun facts:
 
 - (history) The modern filled Nusstorte was first widely available in the 1960s, though it was invented in the 1920s.
-- (origin) In 1934 he sold the pastries at the Mustermesse in Basel, which introduced them to the wider world.
+- (origin) Bündner Nusstorte comes from Switzerland.
 - (culture) Another theory, that comes up often in the literature, is that the traditional shortcrust pastry Fuatscha Grassa was crossed with a French nut pastry by confectioners from Graubünden living in France.
 
 More fun facts (when the user asks for more):
 
 - (history) While there are recipes for Nusstorte from the 19th century, they are different from the modern Nusstorte.
 - (history) The modern, filled Nusstorte was developed by an Engadin (a region in Graubünden) baker named Fausto Pult in 1926.
+- (origin) In 1934 he sold the pastries at the Mustermesse in Basel, which introduced them to the wider world.
 - (history) When they were expelled in 1766, the Graubünden confectioners traveled around Europe before many of them settled back in Graubünden.
-- (origin) Bündner Nusstorte comes from Switzerland.
 - (about) Not to be confused with Bulle Cake.
 
 Learn more:
@@ -207,7 +207,7 @@ More fun facts (when the user asks for more):
 
 - (history) The earliest reference to "veal Cordon Bleu" is in the Los Angeles Times in 1958, while similar veal recipes are found from at least 1955.
 - (history) According to Larousse Gastronomique, the cordon bleu "was originally a wide blue ribbon worn by members of the highest order of knighthood, L'Ordre des chevaliers du Saint-Esprit, instituted by Henri III of France in 1578.
-- (history) However, its origin can also be traced back to a cooking competition in France in 1930, where the winning dish was named "le Cordon Bleu".
+- (history) Its origin can also be traced back to a cooking competition in France in 1930, where the winning dish was named "le Cordon Bleu".
 - (culture) Veal cordon bleu is the traditional version, while chicken cordon bleu is the most popular modern variant.
 - (origin) Cordon bleu comes from Switzerland.
 
@@ -229,8 +229,8 @@ Magenbrot is a small, sweet glazed biscuit that shares many similarities with a 
 
 Fun facts:
 
-- (origin) This recipe first appeared in Swiss cookbooks in the late 18th century.
 - (about) The name of the dish directly translates to "stomach-bread" as it is believed to help improve digestion.
+- (origin) This recipe first appeared in Swiss cookbooks in the late 18th century.
 
 Learn more:
 
@@ -257,13 +257,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) After an eleven-month siege, the fort was taken in September 1855 and its capture led to the fall of Sevastopol and the Treaty of Paris on March 30, 1856.
 - (inspiration) Legend has it that during this time, soldiers would fry slices of cheese in a pan or warm them over a campfire.
-- (inspiration) However, the daily rations of the soldiers of the Swiss Legion did not include cheese and no written source has confirmed the legend.
 - (inspiration) In memory of the assaults on the famous Sebastopol tower, this famous cheese-based dish was named after the fort and called malakoff.
-- (culture) According to oral tradition, on returning home, many Swiss from Geneva and the La Côte would occasionally gather to taste slices of cheese fried in a pan in butter, accompanied by bread and many pitchers of white wine.
-- (about) Larpin, always on the lookout for novelty in the culinary arts and at the request of the prince who wanted to honor his guests, served as a starter an adapted version of malakoffs in the form of a slice of cheese coated with pastry, fried and cooked in butter.
+- (history) After an eleven-month siege, the fort was taken in September 1855 and its capture led to the fall of Sevastopol and the Treaty of Paris on March 30, 1856.
 - (origin) Malakoff comes from Switzerland.
+- (inspiration) The daily rations of the soldiers of the Swiss Legion did not include cheese and no written source has confirmed the legend.
+- (culture) According to oral tradition, on returning home, many Swiss from Geneva and the La Côte would occasionally gather to taste slices of cheese fried in a pan in butter, accompanied by bread and many pitchers of white wine.
 
 Learn more:
 
@@ -284,14 +283,14 @@ Maluns are a traditional dish of the Grisons, essentially made of potatoes.
 
 Fun facts:
 
-- (history) The first potatoes were planted as ornamentals at Marschlins in 1717.
-- (origin) Potatoes (as well as maize) were introduced in the Grisons by Johann Gubert Rudolf von Salis in the 18th century, at Marschlins Castle, which is located in the vicinity of Landquart.
+- (history) Maluns was not until 1758 that potatoes were served there for the first time at a castle dinner, but with very mixed success.
 - (about) Maluns are also known as Bündner Kartoffelribel in German.
+- (origin) Maluns comes from Switzerland, Austria.
 
 More fun facts (when the user asks for more):
 
-- (history) Maluns was not until 1758 that potatoes were served there for the first time at a castle dinner, but with very mixed success.
-- (origin) Maluns comes from Switzerland, Austria.
+- (history) The first potatoes were planted as ornamentals at Marschlins in 1717.
+- (origin) Potatoes (as well as maize) were introduced in the Grisons by Johann Gubert Rudolf von Salis in the 18th century, at Marschlins Castle, which is located in the vicinity of Landquart.
 
 Learn more:
 
@@ -349,9 +348,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Pork meat was relatively expensive until the 19th century, cabbage sausage could therefore not be very widespread.
 - (inspiration) Papet Vaudois is named after Canton of Vaud.
 - (about) Since 2009, the Vaud butchers' association has organized the Journée du Papet vaudois on the 1st Friday of October.
+- (history) Pork meat was relatively expensive until the 19th century, cabbage sausage could therefore not be very widespread.
 
 Learn more:
 
@@ -378,14 +377,14 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The cultivation land of Ribelmais decreased significantly from the 1960s to 1990s, until there were only about 4 ha left in the 1990s.
-- (history) The cultivation of maize in Rhine valley is first reported in 1571 in Altstaetten.
-- (history) In 1871 60% of the arable land in Liechtenstein were cultivated with Maize.
 - (history) In 1998 an association of different producers, processors and farmers was founded which had the aim to promote the cultivation of Rheintaler Ribelmais again.
+- (history) The cultivation of maize in Rhine valley is first reported in 1571 in Altstaetten.
 - (about) Rheintaler Ribelmais has a large genetic diversity, since the best cobs were used in small-scale cultivation for new crops and, through centuries of artificial selection, varieties have been chosen that are optimally adapted to local conditions.
-- (culture) Traditionally every family grew its own maize in the garden or on the field.
 - (culture) For this occasion, it was tradition, that the whole family would meet and did this together.
-- (culture) They also want to ensure high quality of products and seed, strengthen the food value chain in the region, and preserve the tradition and the genetic diversity.
 - (about) To ensure the high quality of the product the Rheintaler Ribelmais were labelled as AOP (Appellation d’Origine Protégée) in 2000.
+- (history) In 1871 60% of the arable land in Liechtenstein were cultivated with Maize.
+- (culture) Traditionally every family grew its own maize in the garden or on the field.
+- (culture) They also want to ensure high quality of products and seed, strengthen the food value chain in the region, and preserve the tradition and the genetic diversity.
 
 Learn more:
 
@@ -411,9 +410,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Since the 1990s, Loto rice is also cultivated in the Maggia delta between Ascona and Locarno.
 - (culture) Risotto in general is widely served in homes and restaurants and also plays an important role in communal food traditions.
 - (origin) Risotto alla ticinese comes from Switzerland.
+- (history) Since the 1990s, Loto rice is also cultivated in the Maggia delta between Ascona and Locarno.
 
 Learn more:
 
@@ -440,8 +439,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Its popularity declined, however, by the end of the 20th century.
 - (origin) Riz Casimir comes from Switzerland.
+- (history) Its popularity declined, however, by the end of the 20th century.
 
 Learn more:
 
@@ -461,7 +460,6 @@ A Schenkele, or Schenkela (in Alsace), Schänkeli, Schenkeli, Schenggeli, Schän
 Fun facts:
 
 - (history) A reference to Schenkele can be found as early as 1787 by Kaspar von Stieler as "im Elsass schenkele zur bezeichnung kleiner, länglicher brödchen" ("in Alsace schenkele to mean small, elongated bread rolls").
-- (about) They are also known as pieds de chèvre ("goat's feet") in the Canton of Jura, due to the small incision made at one end of the dough making them resemble cloven hoofs.
 
 Learn more:
 
@@ -502,21 +500,21 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q11293688) (CC0); [Wikipedia: 
 
 ### St. Galler Bratwurst
 
-The St.
+The St. Galler Bratwurst, also known as the Olma Bratwurst after OLMA (the agricultural show where it is served as a staple) is a bratwurst produced in Northeastern Switzerland.
 
 - From: Switzerland
 
 Fun facts:
 
-- (history) In the 1438 statutes of the Butchers' Guild of St.
+- (inspiration) St. Galler Bratwurst is named after the city of St. Gallen.
+- (history) In the 1438 statutes of the Butchers' Guild of St. Gallen, it is stipulated that this sausage must be produced with veal, bacon, spices and fresh milk.
 - (origin) St. Galler Bratwurst was first made in Canton of Appenzell Ausserrhoden, Canton of Appenzell Innerrhoden, Canton of Thurgau, Canton of St. Gallen.
-- (about) Galler Bratwurst, also known as the Olma Bratwurst after OLMA (the agricultural show where it is served as a staple) is a bratwurst produced in Northeastern Switzerland.
 
 More fun facts (when the user asks for more):
 
 - (culture) It is commonly eaten as street food with very few accompaniments, such as bread and mustard.
 - (about) But it is also part of several popular dishes, a notable example being rösti with veal sausage and onion sauce.
-- (about) Galler, are the most popular sausages for grilling in Switzerland.
+- (about) Veal sausages, including the St. Galler, are the most popular sausages for grilling in Switzerland.
 
 Learn more:
 
@@ -549,9 +547,9 @@ More fun facts (when the user asks for more):
 - (history) In the second half of the 19th century, Swiss chocolate started to spread abroad.
 - (about) It is unclear when chocolate bars meant for raw consumption were made for the first time.
 - (history) Swiss chocolate is known, however, that chocolate was also eaten in the form of bark or pastilles (instead of being grated into drinks) by the end of the 18th century.
-- (history) A company was founded in 1767 in Vevey (see below), another one in 1788 in Morges.
 - (about) In addition to milk, a wide variety of ingredients other than cocoa are used to make the most popular chocolate bars.
 - (origin) Swiss chocolate comes from Switzerland.
+- (history) A company was founded in 1767 in Vevey (see below), another one in 1788 in Morges.
 
 Learn more:
 
@@ -594,7 +592,7 @@ Fun facts:
 
 - (history) The first documented mention of the term "wäye" dates back to 1556 when it was described as a bun or cake in a lexicon from the Zurich area.
 - (origin) The wähe is likely to have originated in central Switzerland.
-- (about) However, the wähe did not remain just poor man's food, it also became very popular with the middle class.
+- (about) The wähe did not remain just poor man's food, it also became very popular with the middle class.
 
 More fun facts (when the user asks for more):
 
@@ -655,8 +653,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Pastry chef Heinrich Höhn invented the cake in 1921 in the city of Zug.
 - (history) Zuger Kirschtorte dates from 1915-.
+- (history) Pastry chef Heinrich Höhn invented the cake in 1921 in the city of Zug.
 
 Learn more:
 
@@ -708,9 +706,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The first mass production of Macaroni was in Switzerland By 1731, Disentis Abbey mentions in its archives a thread press machine to make hollow macaroni noodles.
+- (origin) Älplermagronen comes from Switzerland.
 - (history) According to a popular theory, pasta became widespread in northern Switzerland in the late 19th century, when the Gotthard Tunnel was built, partly by Italian workers who brought dry pasta with them.
 - (history) In 1836, A Bernese cookbook includes a "maccaroni" and cheese recipe.
-- (origin) Älplermagronen comes from Switzerland.
 
 Learn more:
 
@@ -799,9 +797,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The rise of hard cheeses is linked to the appearance of new outlets in the 15th century.
-- (about) The growing demand in urban markets, first in the Confederation and soon also in Italy, France and Germany, gave rise to a capital-intensive export trade.
 - (about) Cheese companies were therefore first established in the alpine and pre-Alpine areas of Appenzell, Schwyz, Unterwalden, Bernese Oberland and Fribourg.
 - (history) In the Jura, production did not develop until the 18th century, under the impetus of Gruyère herdsmen.
+- (about) The growing demand in urban markets, first in the Confederation and soon also in Italy, France and Germany, gave rise to a capital-intensive export trade.
 
 Learn more:
 
@@ -821,12 +819,12 @@ Sausages and cured meats are widely consumed in Switzerland.
 Fun facts:
 
 - (history) This has not changed much throughout history: until the 19th century, animals were typically slaughtered in November, then cut up for salting, smoking and making sausages.
-- (history) In 1438, the statutes of the Butchers' Guild of St.
+- (history) In 1438, the statutes of the Butchers' Guild of St. Gallen mention a veal sausage.
 - (history) In Valais, dried meat specialities made from beef are attested in Münster's 1544 Cosmographia.
 
 More fun facts (when the user asks for more):
 
-- (history) Grisons Meat is described by 18th century travellers, in particular by Johann Gottfried Ebel who notes that "the air is so dry from Sils to St.
+- (history) Grisons Meat is described by 18th century travellers, in particular by Johann Gottfried Ebel who notes that "the air is so dry from Sils to St. Moritz between the months of October and March that meat is dried instead of being smoked".
 
 Learn more:
 
@@ -845,14 +843,14 @@ Ziger (German), sérac (French) and ricotta (Italian) is a group of fresh cheese
 
 Fun facts:
 
-- (history) The French term sérac or séré is mentioned among other cheeses in a Gruyère document dating from 1312.
-- (about) In Ticino, Ziger is known as ricotta, mascarpa, or zigra, and it has been produced there at least since the late Middle Ages (but, as written above, ricotta was produced in Italy since the Bronze age).
 - (history) In Valais, it is mentioned in a document from 1437.
+- (about) In Ticino, Ziger is known as ricotta, mascarpa, or zigra, and it has been produced there at least since the late Middle Ages (but, as written above, ricotta was produced in Italy since the Bronze age).
+- (history) From the 20th century, the consumption of Ziger declined owing to an increase in purchasing power.
 
 More fun facts (when the user asks for more):
 
-- (history) From the 20th century, the consumption of Ziger declined owing to an increase in purchasing power.
 - (about) Not to be confused with Ziger.
+- (history) The French term sérac or séré is mentioned among other cheeses in a Gruyère document dating from 1312.
 
 Learn more:
 

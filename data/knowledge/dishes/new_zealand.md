@@ -62,9 +62,9 @@ Kānga waru (waru means 'to scrape') is a type of pudding from New Zealand.
 
 Fun facts:
 
-- (origin) The dessert originates from the Māori people and is closely associated with Māori cuisine.
 - (culture) Scrapping (waru) was one of the common preparation methods used by Polynesians for traditional puddings.
 - (origin) Corn (borrowed from English as kānga) was introduced to New Zealand by early Europeans and was adopted by Māori as a food crop.
+- (origin) The dessert originates from the Māori people and is closely associated with Māori cuisine.
 
 Learn more:
 

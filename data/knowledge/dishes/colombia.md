@@ -33,14 +33,14 @@ An arepa is a type of flatbread made of ground maize dough that may be stuffed w
 
 Fun facts:
 
-- (about) For example, in Colombia, the first record of the presence of corn cultivation dates from about 6,000 years ago.
-- (inspiration) Sizes, maize types, and added ingredients vary based on preparation.
+- (about) Although it has not been specified in which country an arepa was cooked for the first time, it has been possible to define the oldest dates of the presence of maize in Colombia and Venezuela.
 - (culture) Throughout its history, the arepa has stayed mainly unchanged from the arepas that pre-Columbian native peoples would have consumed, making the arepa one of the few pre-contact traditions that have remained popular in the years since colonization.
+- (origin) Arepa comes from Venezuela, Colombia.
 
 More fun facts (when the user asks for more):
 
-- (about) Although it has not been specified in which country an arepa was cooked for the first time, it has been possible to define the oldest dates of the presence of maize in Colombia and Venezuela.
-- (origin) Arepa comes from Venezuela, Colombia.
+- (about) For example, in Colombia, the first record of the presence of corn cultivation dates from about 6,000 years ago.
+- (inspiration) Sizes, maize types, and added ingredients vary based on preparation.
 
 Learn more:
 
@@ -83,9 +83,9 @@ Bandeja paisa, with variations known as bandeja de arriero, bandeja montañera, 
 
 Fun facts:
 
-- (history) In the 19th century, French and British colonialists also brought their cuisine with them.
-- (culture) The main characteristic of this dish is the generous amount and variety of food in a traditional bandeja paisa: red beans cooked with pork, white rice, carne molida (ground meat), chicharrón, fried egg, plantain (plátano maduro), chorizo, arepa, hogao sauce, black pudding (morcilla), avocado and lemon.
 - (history) There are no references in the food writing about this dish before 1950.
+- (culture) The main characteristic of this dish is the generous amount and variety of food in a traditional bandeja paisa: red beans cooked with pork, white rice, carne molida (ground meat), chicharrón, fried egg, plantain (plátano maduro), chorizo, arepa, hogao sauce, black pudding (morcilla), avocado and lemon.
+- (history) In the 19th century, French and British colonialists also brought their cuisine with them.
 
 Learn more:
 
@@ -160,10 +160,10 @@ More fun facts (when the user asks for more):
 - (culture) It is common in funeral rites as many indigenous traditions consider the beverage a favorite of the dead.
 - (about) In the Department of Valle del Cauca it is served very cold, being popular at any time of the year.
 - (about) According to the Seminario de la Historia de la Cocina Peruana (2007), "A champucera is a lady that placed herself in the plots with a lamp of tallow candles and an Afro-Descendant boy recited a copla to proclaim the sale of the champús”.
-- (culture) In "Canto Negro" (2004), Nicomedes Santa Cruz finds this lady in traditional Afro-Peruvian songs.
-- (origin) Diaz (2018) believes that the most convincing theory about the origin of the word comes from the Quechua, as “chapuy” means “to make dough”, which is the main ingredient of the drink.
 - (origin) Ceballos; Micanquer; Perez; Lasso and Zambrano (2011) explain that, in Colombia, the champús is a drink that comes from low-income families.
 - (culture) Nowadays, it is a drink served all year long, but the authors explained that this drink is made for Christmas celebrations and is also considered a dessert.
+- (culture) In "Canto Negro" (2004), Nicomedes Santa Cruz finds this lady in traditional Afro-Peruvian songs.
+- (origin) Diaz (2018) believes that the most convincing theory about the origin of the word comes from the Quechua, as “chapuy” means “to make dough”, which is the main ingredient of the drink.
 
 Learn more:
 
@@ -251,8 +251,8 @@ Pan de yuca (Spanish for 'cassava bread') is a type of bread made of cassava sta
 
 Fun facts:
 
-- (history) An 1856 watercolor by Manuel María Paz shows cassava bread being prepared by members of the Saliva people in Casanare Province.
 - (origin) Pan de yuca comes from South America.
+- (history) An 1856 watercolor by Manuel María Paz shows cassava bread being prepared by members of the Saliva people in Casanare Province.
 
 Learn more:
 
@@ -274,9 +274,9 @@ Pandebono or pan de bono is a type of Colombian bread made of cassava starch, ch
 
 Fun facts:
 
-- (about) The version documented by Edouard André in "Equinoctial America" published in Picturesque America is that there was a place called "Hacienda El Bono" on the road between Dagua and Cali where this product was first prepared.
 - (culture) The somewhat valid historical records suggest that it was Genoveva, the matron-cook of Hacienda El Bono, who, in an attempt to enhance the nutritional and sensory value of traditional bread, added cassava starch, then corn, and cheese.
 - (origin) Pandebono comes from Colombia.
+- (about) The version documented by Edouard André in "Equinoctial America" published in Picturesque America is that there was a place called "Hacienda El Bono" on the road between Dagua and Cali where this product was first prepared.
 
 More fun facts (when the user asks for more):
 
@@ -372,12 +372,12 @@ Sweet corn arepa is a common variation of arepa made with sweet corn instead of 
 Fun facts:
 
 - (origin) The sweet corn arepa may have originated in the Cauca Valley in Colombia.
-- (about) This type of griddlecake is known as a cachapa in Venezuela and a chorreada in Costa Rica.
 - (about) In Mexico, sweet corn cakes are known as toquera or toquete depending on the state.
+- (origin) Sweet corn arepa comes from Colombia.
 
 More fun facts (when the user asks for more):
 
-- (origin) Sweet corn arepa comes from Colombia.
+- (about) This type of griddlecake is known as a cachapa in Venezuela and a chorreada in Costa Rica.
 - (about) Not to be confused with Cachapa.
 
 Learn more:
@@ -400,8 +400,8 @@ Aborrajados de plátano maduro (also called Aborrajados colombianos) is a dish o
 
 Fun facts:
 
-- (about) Guava paste, known as bocadillo in Colombia, is also sometimes included as part of the filling.
 - (origin) Aborrajados de plátano maduro comes from Colombia.
+- (about) Guava paste, known as bocadillo in Colombia, is also sometimes included as part of the filling.
 
 Learn more:
 
@@ -604,7 +604,6 @@ More fun facts (when the user asks for more):
 
 - (history) In his Zhu Fan Zhi (1225), a collection of descriptions of foreign countries, he writes that the kingdom of Boni "produces no wheat, but hemp and rice, and they use sha-hu (sago) for grain".
 - (history) Sago is recorded that during the Japanese occupation in the early 1940s, sago became an important staple food for both the Malay and Melanau communities in Sarawak.
-- (about) Mukah is recorded as the main area for rumbia palm cultivation in Sarawak.
 - (about) Historical records also note that sago was available in other areas such as Matu Daro, Dalat, and Oya.
 - (culture) Traditionally, the trunk of the sago palm is harvested before the tree fully matures because the starch reserves inside the trunk are richest at that stage.
 - (culture) After settling and drying, the starch becomes sago flour, which can then be used in many traditional dishes.
@@ -614,6 +613,7 @@ More fun facts (when the user asks for more):
 - (culture) Another traditional sago food is sago pearls or sago balls, which are small rounded starch balls often eaten as snacks or served together with traditional dishes such as umai and grilled fish.
 - (culture) The process of producing these sago balls is considered time-consuming and traditionally involves several stages of drying, rolling, and processing by hand.
 - (culture) In historical accounts, the Melanau are noted for producing a traditional food in small round forms, about the size of a peanut, known as sago or bulu.
+- (about) Mukah is recorded as the main area for rumbia palm cultivation in Sarawak.
 
 Learn more:
 
@@ -659,13 +659,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The plant, then known as the tree tomato, was popularly grown in home gardens, and small-scale commercial production began by the 1910s.
-- (history) In 1993, in New Zealand, about 2,000 tons were produced on 200 hectares of land and exported to the United States.
 - (history) The first internationally marketed crop of tamarillos in Australia was produced around 1996.
 - (origin) It is common globally, especially in its native South America (as the Quechuan chilltu in Peru, Colombia, and Ecuador, or as tomate andino in other Andean countries), and has been introduced in New Zealand, Nepal, Rwanda, Burundi, the Democratic Republic of the Congo, Australia, Indonesia, Madeira and Bhutan.
+- (about) Tamarillo is known as "Naga tree tomato" in Nagaland, and it is registered under the Geographical Indications (GI) of Nagaland by Government of India.
+- (history) The plant, then known as the tree tomato, was popularly grown in home gardens, and small-scale commercial production began by the 1910s.
+- (history) In 1993, in New Zealand, about 2,000 tons were produced on 200 hectares of land and exported to the United States.
 - (about) By 2020, there was a decrease from 150 after the discovery of the tomato potato psyllid (TPP) in 2006.
 - (about) In 2021, growers sold 414 tonnes through the domestic wholesalers at a value of $3.1 million, and 8 tonnes exported to the US from two growers at a value of $0.02 million.
-- (about) Tamarillo is known as "Naga tree tomato" in Nagaland, and it is registered under the Geographical Indications (GI) of Nagaland by Government of India.
 
 Learn more:
 

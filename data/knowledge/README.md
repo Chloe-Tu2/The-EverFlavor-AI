@@ -2,8 +2,8 @@
 
 Facts the waiter may tell, collected from open sources, never invented (for the waiter, planned for 0.6.3).
 
-- `dishes.jsonl`: one dish or food per line (2026-11-11: 4,827; 3,166 dishes, the rest foods and drinks; 2,771 with
-  fun-fact candidates and 2,386 with story sentences; 10,935 facts shown first and 9,119 "more"), built by
+- `dishes.jsonl`: one dish or food per line (2026-11-11: 4,827; 3,166 dishes, the rest foods and drinks; 2,769 with
+  fun-fact candidates and 2,385 with story sentences; 10,912 facts shown first and 8,935 "more"), built by
   `scripts/knowledge/fetch_knowledge.py`. It starts with what
   the app shows: the 54 countries in its Country list and its 22 regions (other countries later).
 - Fields: `name`, `country`, `region` (when a region page lists it), `kind` (dish, or food or drink), `sections`
@@ -21,7 +21,15 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   "more fun facts" for a user who asks for more, before the links. Wikidata facts become short lines ("comes
   from Mexico", "named after ...") credited to Wikidata.
   They are **not reviewed** (`reviewed: false`): they get tidied in the knowledge notebook before the app shows
-  them, and each keeps its source.
+  them, and each keeps its source. Tidying never shows a fact that needs a missing sentence ("She has operated
+  the restaurant ...") or is unsuitable (a murder film), and ranks facts that may not be about the dish last.
+- `review/focus_review.csv`: the review sheet for 65 of the focus areas' best-documented dishes (USA, Mexico,
+  China, Middle East, Africa; 260 rows: summary and the first three facts), from
+  `scripts/knowledge/review_sheet.py`. `warnings` are automatic, `pre_review` is Claude's reading (2026-11-11:
+  6 drops and 5 fixes suggested, 10 to check), and `verdict` / `reviewer` / `note` are for a person: `keep`,
+  `fix` or `drop`. Walter never says a fact marked `drop`. Rerunning the script keeps what people wrote.
+- `review/origin_elsewhere.csv`: dishes a country's Wikipedia list names but whose Wikidata origin is elsewhere
+  (117, such as Baguette under the United States): their country needs a person's check.
 
 ## Licence and credit
 

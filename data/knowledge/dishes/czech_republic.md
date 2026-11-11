@@ -10,14 +10,14 @@ Easter cakes (breads) are cakes prepared and served during the Easter season.
 
 Fun facts:
 
-- (culture) These holiday breads have been made for centuries before the invention of modern baking powder.
 - (history) By the 1950s baking powder cakes had become household staples.
 - (culture) Sharing a cake with family for Easter is an Easter tradition in many denominations and countries.
+- (culture) Often what is meant by traditional Easter cakes are sweet yeasted doughs, enriched with eggs and butter.
 
 More fun facts (when the user asks for more):
 
-- (culture) Often what is meant by traditional Easter cakes are sweet yeasted doughs, enriched with eggs and butter.
 - (culture) They were sometimes shaped like animals - in Germany the cakes were shaped like hares, a symbol of Ēostre, and a precursor of the modern Easter bunny.
+- (culture) These holiday breads have been made for centuries before the invention of modern baking powder.
 - (culture) In Italy the preferred shape was the dove, symbolic of Christ's innocence and ascension.
 - (culture) In modern times even traditional recipes like gugelhupf and babka have been adapted to be made with baking powder.
 
@@ -41,25 +41,25 @@ A hot dog is a grilled, steamed, or boiled sausage served in the slit of a parti
 
 Fun facts:
 
-- (history) These sausages, Frankfurter Würstchen, were known since the 13th century and given to the people on the event of imperial coronations, starting with the coronation of Maximilian II, Holy Roman Emperor, as King. "Wiener" refers to Vienna, Austria, home to a sausage made of a mixture of pork and beef.
+- (history) Although particularly connected with New York City and its cuisine, the hot dog eventually became ubiquitous throughout the US during the 20th century.
 - (origin) The word frankfurter comes from Frankfurt, Germany, where pork sausages similar to hot dogs originated.
-- (inspiration) A German immigrant named Feuchtwanger, from Frankfurt, in Hesse, allegedly pioneered the practice in the American Midwest; there are several versions of the story with varying details.
+- (inspiration) Hot dog is named after dog, Vienna, Coney Island.
 
 More fun facts (when the user asks for more):
 
-- (history) Although particularly connected with New York City and its cuisine, the hot dog eventually became ubiquitous throughout the US during the 20th century.
 - (history) Johann Georg Lahner, an 18th/19th century butcher from the Franconian city of Coburg, is said to have brought the Frankfurter Würstchen to Vienna, where he added beef to the mixture and simply called it Frankfurter.
-- (history) The claim is that, while working at the New York Polo Grounds in 1901, he came upon the idea of using small French rolls to hold the sausages when the waxed paper they were using ran out.
-- (history) According to one account, Feuchtwanger's wife proposed the use of a bun in 1880: Feuchtwanger sold hot dogs on the streets of St.
-- (history) In another version, Antoine Feuchtwanger, or Anton Ludwig Feuchtwanger, served sausages in rolls at the World's Fair—either at the 1904 Louisiana Purchase Exposition in St.
-- (history) Louis, or, earlier, at the 1893 World's Columbian Exposition, in Chicago—again, allegedly because the white gloves provided to customers to protect their hands were being kept as souvenirs.
-- (history) In 1867 he had a cart made with a stove on which to boil sausages, and a compartment to keep buns in which they were served fresh.
+- (history) According to one account, Feuchtwanger's wife proposed the use of a bun in 1880: Feuchtwanger sold hot dogs on the streets of St. Louis, Missouri, and provided gloves to his customers so that they could handle the sausages without burning their hands.
 - (history) In 1871 he leased land to build a permanent restaurant, and the business grew, selling far more than just the "Coney Island Red Hots" as they were known.
-- (inspiration) Hot dog is named after dog, Vienna, Coney Island.
+- (history) The term dog has been used as a synonym for sausage since the 1800s, possibly from accusations that sausage makers used dog meat in their sausages.
+- (history) An early use of the term hot dog in reference to the sausage-meat appears in 1884: even the innocent "wienerworst" man will be barred from dispensing hot dog on the street corner.
 - (origin) Hot dog was first made by Charles Feltman.
-- (about) These types of sausages were culturally imported from Germany and became popular in the United States.
+- (history) These sausages, Frankfurter Würstchen, were known since the 13th century and given to the people on the event of imperial coronations, starting with the coronation of Maximilian II, Holy Roman Emperor, as King. "Wiener" refers to Vienna, Austria, home to a sausage made of a mixture of pork and beef.
 - (culture) Hot dog became a working-class street food in the U.S., sold at stands and carts.
-- (origin) Hot dog comes from United States, Germany.
+- (origin) Hot dog comes from the United States, Germany.
+- (history) The claim is that, while working at the New York Polo Grounds in 1901, he came upon the idea of using small French rolls to hold the sausages when the waxed paper they were using ran out.
+- (inspiration) A German immigrant named Feuchtwanger, from Frankfurt, in Hesse, allegedly pioneered the practice in the American Midwest; there are several versions of the story with varying details.
+- (history) In 1867 he had a cart made with a stove on which to boil sausages, and a compartment to keep buns in which they were served fresh.
+- (about) These types of sausages were culturally imported from Germany and became popular in the United States.
 
 Learn more:
 
@@ -82,11 +82,11 @@ Fun facts:
 
 - (origin) Originating as a semisweet bread from Central Europe, kolache have become popular in parts of the United States.
 - (culture) Traditional Czech koláče are used in villages during feasts as a treat or at important events, such as weddings.
-- (origin) The name originates from Bohemian, originally Old Slavonic word kolo, meaning "circle" or "wheel".
+- (origin) Kolach comes from the Czech Republic.
 
 More fun facts (when the user asks for more):
 
-- (origin) Kolach comes from Czech Republic.
+- (origin) The name originates from Bohemian, originally Old Slavonic word kolo, meaning "circle" or "wheel".
 
 Learn more:
 
@@ -122,9 +122,9 @@ Smažený sýr or vyprážaný syr – both meaning "fried cheese" – is a Czec
 
 Fun facts:
 
-- (about) A slice of cheese about 1.5 cm (0.6 in) thick is first breaded with flour, egg, and bread crumbs and then fried either in a pan or deep-fat fryer.
 - (culture) Smažený sýr is a common street food in both countries and is popular among students as an inexpensive staple in school canteens.
-- (origin) Smažený sýr comes from Czech Republic.
+- (origin) Smažený sýr comes from the Czech Republic.
+- (about) A slice of cheese about 1.5 cm (0.6 in) thick is first breaded with flour, egg, and bread crumbs and then fried either in a pan or deep-fat fryer.
 
 Learn more:
 
@@ -144,9 +144,9 @@ Svíčková, or svíčková na smetaně, is a Czech meat dish and one of the mos
 
 Fun facts:
 
+- (origin) Svíčková comes from the Czech Republic.
 - (inspiration) The first explanation is based on the visual resemblance of the slender muscle to a candle.
 - (origin) The third explanation dates back to the Middle Ages, proposing that the name originated from a traditional guild practice.
-- (origin) Svíčková comes from Czech Republic.
 
 Learn more:
 
@@ -172,10 +172,10 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) In the 21st century, the confection became popular among tourists in the Czech Republic, Hungary and Slovakia.
 - (about) A similar pastry was also popular in the Hungarian-speaking part of Transylvania (in today's Romania), where it is called kürtőskalács.
 - (about) A variation of trdelník, with ice cream and toppings such as strawberries and chocolate, has been popularized by Prague cafés.
-- (origin) Trdelník comes from Czech Republic.
+- (origin) Trdelník comes from the Czech Republic.
+- (history) In the 21st century, the confection became popular among tourists in the Czech Republic, Hungary and Slovakia.
 
 Learn more:
 
@@ -236,8 +236,8 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q125059439) (CC0); [Wikipedia:
 
 Fun facts:
 
+- (origin) Žemlovka comes from the Czech Republic.
 - (culture) The meal is a traditional part of Czech and Slovak cuisine and often appears in canteens.
-- (origin) Žemlovka comes from Czech Republic.
 
 Learn more:
 
@@ -266,8 +266,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Up to the 1970's Hermelín was under the wider classification of camembert, until the brand Král Sýrů meaning King of cheeses (another reason for the nickname of the Hermelín) led the popularization of the name Hermelín.
+- (origin) Hermelín comes from the Czech Republic, Third Czechoslovak Republic.
 - (about) Over time Czech cheese makers adapted the flavour to suit regional tastes, which lead to an overall softer, creamier paste and a milder mushroom essence compared to the authentic French camembert.
-- (origin) Hermelín comes from Czech Republic, Third Czechoslovak Republic.
 
 Learn more:
 
@@ -289,21 +289,21 @@ Olomoucké tvarůžky, also known as olomoucké syrečky or tvargle (from its Ge
 
 Fun facts:
 
-- (history) The first written mention of this cheese is from 1452.
+- (history) In 1583, the name tvarůžky appeared for the first time.
 - (inspiration) Olomoucké tvarůžky is named after the city of Olomouc where it was originally sold.
 - (origin) Olomoucké tvarůžky was first made in Loštice.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1583, the name tvarůžky appeared for the first time.
-- (history) In the first decades of the 20th century there were still several dairies in Loštice that produced the cheese.
 - (history) Until the 19th century, Olomoucké tvarůžky was produced in the villages surrounding Olomouc, and was generally regarded as a peasant food.
 - (inspiration) Olomoucké tvarůžky is named after Olomouc.
+- (history) The first written mention of this cheese is from 1452.
+- (history) In the first decades of the 20th century there were still several dairies in Loštice that produced the cheese.
 - (about) Since 2010, 'Olomoucké tvarůžky' has been registered as a Protected Geographical Indication by the European Union.
-- (inspiration) In 2016, a shop in Loštice began producing a variety of ice cream based on the cheese.
 - (about) Olomoucké tvarůžky has long been a popular beer snack and a staple of Czech beer culture.
 - (about) Since the late 2010s, however, it has also gained popularity among fitness enthusiasts due to its high protein content and exceptionally low fat content.
-- (origin) Olomoucké tvarůžky comes from Czech Republic.
+- (origin) Olomoucké tvarůžky comes from the Czech Republic.
+- (inspiration) In 2016, a shop in Loštice began producing a variety of ice cream based on the cheese.
 
 Learn more:
 
@@ -332,7 +332,7 @@ More fun facts (when the user asks for more):
 
 - (history) Vánočka was further referred to during the 16th century, where it could only be made by a baker who was a guild craftsman.
 - (history) During the 18th century, people took the recipe and began baking it at home.
-- (origin) Vánočka comes from Czech Republic.
+- (origin) Vánočka comes from the Czech Republic.
 
 Learn more:
 

@@ -59,3 +59,31 @@ def test_wikidata_lines_skip_unknown_values():
     dish = {"inventor": ["http://www.wikidata.org/.well-known/genid/abc"], "named_after": ["Victor Hirtzler"]}
     lines = dk.wikidata_lines(dish, "Celery Victor")
     assert lines == ["Celery Victor is named after Victor Hirtzler."]
+
+
+def test_review_rules_hide_out_of_context_and_unsuitable_facts() -> None:
+    """From the review of 65 focus dishes (2026-11-11)."""
+    dish = {"name": "Hot chicken", "fun_fact_candidates": [
+        "She has operated the restaurant since 1980; before that time, it was owned by her great-uncle.",
+        "Well, that happened on September 16th, in 1856; I saw it, took part in it, and enjoyed it immensely.",
+        "In the 1993 crime-horror film the main character processes his victims into buns.",
+        "During the Ming dynasty, the Tea and Horses Bureau was established to monitor tea production in 1368.",
+        "Hot chicken may have been introduced as early as the 1930s in Nashville.",
+        "Many restaurants in Nashville serve a variant of the dish; a citywide festival celebrates it."],
+        "sources": [{"name": "Wikipedia: Hot chicken", "url": "https://x", "licence": "CC BY-SA 4.0"}]}
+    tidy = dk.tidy_dish(dish)
+    shown = [f["text"] for f in tidy["fun_facts"] + tidy["more_fun_facts"]]
+    assert not any(t.startswith(("She ", "Well,", "In the 1993")) for t in shown)
+    assert "Ming" not in " ".join(f["text"] for f in tidy["fun_facts"][:2])     # not about the dish: later
+    assert any("Tea and Horses" in t for t in shown)                             # but still kept for "more"
+    assert dk.tidy_dish(dish, drop={shown[0]})["fun_facts"][0]["text"] != shown[0]   # a reviewer's drop
+
+
+def test_clean_fact_fixes_source_slips_and_places_read_well() -> None:
+    assert dk.clean_fact("Moreover, the Yunnanese paoluda comes from it..", "Faloodeh") == \
+        "The Yunnanese paoluda comes from it."
+    assert dk.clean_fact("Harira is an authentic Algerian dish Algerian dish of Andalusian origin.", "Harira") == \
+        "Harira is an authentic Algerian dish of Andalusian origin."
+    assert dk.clean_fact("Dan dan noodles are spicy.", "Dan dan noodles") == "Dan dan noodles are spicy."
+    assert dk.wikidata_lines({"origin": ["United States"]}, "Jell-O") == ["Jell-O comes from the United States."]
+    assert dk.wikidata_lines({"origin": ["Mexico"]}, "Taquito") == ["Taquito comes from Mexico."]

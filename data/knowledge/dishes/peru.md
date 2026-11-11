@@ -60,20 +60,20 @@ Anticuchos (singular anticucho, Quechua 'Anti Kuchu', Anti: 'Eastern region of t
 
 Fun facts:
 
-- (culture) In the 16th century European ingredients such as garlic were added and beef began to replace the traditional llama that was used at the time of the Inca Empire.
 - (origin) According to the text file from the National Library in Lima (Peru), it is believed that the term comes from the Quechua antikuchu (anti: 'East' + kuchu: 'cut' or uchu: 'porridge, mix').
 - (history) The modern dish was adapted during the colonial era between the 16th and 19th centuries and can now be found in Peru, Bolivia, Chile, and Ecuador, where they are known as "chuzos" or "carne en palito".
+- (culture) Anticuchos can be found on street-carts and street food stalls (anticucheras).
 
 More fun facts (when the user asks for more):
 
 - (origin) Anticucho was first made by Inca Empire.
-- (culture) Anticuchos can be found on street-carts and street food stalls (anticucheras).
 - (about) While anticuchos can be made of any type of meat, the most popular are made of beef heart (anticuchos de corazón).
 - (history) Anticucho was a popular dish among the inhabitants of the Inca Empire, and it is currently popular throughout most South American countries.
 - (culture) The writer Erika Fetzer mentions that according to tradition, anticuchos were prepared with meat and flame.
-- (culture) As a result, many traditional recipes use beef heart and other "off" cuts.
 - (culture) In Peru, the tradition continues with the traditional name and ingredients; anticuchos are consumed by all social classes of Peru, and are especially popular as a street food.
 - (origin) Anticucho comes from Peru.
+- (culture) In the 16th century European ingredients such as garlic were added and beef began to replace the traditional llama that was used at the time of the Inca Empire.
+- (culture) As a result, many traditional recipes use beef heart and other "off" cuts.
 
 Learn more:
 
@@ -208,19 +208,19 @@ Lomo saltado is a traditional Peruvian dish, a stir-fry that typically combines 
 
 Fun facts:
 
-- (history) Later, large numbers of Chinese immigrant workers arrived between 1849 and 1874, to replace African slave laborers, while Peru was in the process of abolishing slavery.
 - (origin) Lomo saltado originated as part of the chifa tradition, the Chinese cuisine of Peru, though its popularity has made it part of the mainstream culture.
+- (history) A 1903 Peruvian cookbook (Nuevo Manual de Cocina a la Criolla) included a short description of lomo saltado, an indication of the assimilation of Chinese cooking technique in Peruvian cuisine.
 - (about) According to a 2011 article that was published in the Peruvian newspaper El Comercio, the book Diccionario de la Gastronomía Peruana Tradicional, published in 2009 by Sergio Zapata Acha, includes an old description for lomo saltado, which fails to mention its Asian influence.
 
 More fun facts (when the user asks for more):
 
+- (history) The 1903 cookbook is not an all-inclusive list of old Peruvian dishes available in the country, and it does not contradict the Chinese-Peruvian roots of lomo saltado.
+- (history) Later, large numbers of Chinese immigrant workers arrived between 1849 and 1874, to replace African slave laborers, while Peru was in the process of abolishing slavery.
+- (origin) Lomo saltado comes from Peru.
 - (history) The same 2011 newspaper article mentions that having a Chinese cook (or servant) was considered a luxury at the time and that years later, after completing their indenture contracts, many Chinese Peruvians opened restaurants that became known as chifa by 1921.
 - (history) A census of Lima in 1613 shows the presence of Chinese (and other Asians) in Peru, mainly as servants (and slaves).
-- (history) A 1903 Peruvian cookbook (Nuevo Manual de Cocina a la Criolla) included a short description of lomo saltado, an indication of the assimilation of Chinese cooking technique in Peruvian cuisine.
-- (history) The 1903 cookbook is not an all-inclusive list of old Peruvian dishes available in the country, and it does not contradict the Chinese-Peruvian roots of lomo saltado.
 - (inspiration) A few critics incorrectly theorized a purely Peruvian origin (without foreign influence) based on this cookbook, which features an assorted variety of regional Peruvian dishes (from Arequipa, Chorrillos, Moquegua, etc.).
 - (culture) But this cookbook's list of traditional Peruvian Criollo cuisine includes many dishes with Spanish, Italian, Cuban, Guatemalan, and Chilean origins.
-- (origin) Lomo saltado comes from Peru.
 
 Learn more:
 
@@ -430,8 +430,8 @@ Adobo or adobar (Spanish for 'marinade, sauce or seasoning') is the immersion of
 Fun facts:
 
 - (history) One of the earliest references to adobo is found in the Manual del Cocinero, Repostero, Pastelero, Confitero Y Botillero by Mariano de Rementeria y Fica in 1850.
-- (about) The Portuguese variant is known as carne de vinha d'alhos.
 - (origin) Adobo comes from Spain.
+- (about) The Portuguese variant is known as carne de vinha d'alhos.
 
 Learn more:
 
@@ -451,7 +451,7 @@ Algarrobina is a syrup made from the Black Carob tree.
 Fun facts:
 
 - (about) Algarrobina is popular in Peruvian cuisine and can be used in smoothies, cocktails, or simply in milk.
-- (origin) Although its common name is black carob, Prosopis pallida is a South American native tree, unrelated to the traditional Mediterranean carob Ceratonia siliqua, which was introduced to Peru by Spanish settlers.
+- (origin) Algarrobina can also be found in health food stores in the U.S. Although its common name is black carob, Prosopis pallida is a South American native tree, unrelated to the traditional Mediterranean carob Ceratonia siliqua, which was introduced to Peru by Spanish settlers.
 
 Learn more:
 
@@ -531,13 +531,14 @@ Fanta Kola Inglesa (Spanish for "English Cola") is a Peruvian soft drink.
 Fun facts:
 
 - (origin) Introduced in 1912, Kola Inglesa currently comes in several sizes including a 3-liter bottle and a 500ml bottle.
-- (about) The drink is popular across Peru as in some Latin American markets in the United States.
 - (about) Fanta Kola Inglesa was during this time that the drink became highly popular among Peruvians.
+- (history) In 1971 the recipe was sold to Mr. Enrique Heredia Alarcón (Pepsi's bottler in Peru at the time).
 
 More fun facts (when the user asks for more):
 
 - (about) In 2013 the name changed to Fanta Kola Inglesa.
 - (origin) Fanta Kola Inglesa comes from Peru.
+- (about) The drink is popular across Peru as in some Latin American markets in the United States.
 
 Learn more:
 
@@ -575,16 +576,15 @@ Inca Kola, also known as Golden Kola in international advertising, is a soft dri
 Fun facts:
 
 - (history) In the late 1970s and early 1980s, Inca Kola's common logo featured the slogan "Made of National Flavor!" (¡De Sabor Nacional!), later changed to "The taste of Peru" (El Sabor del Perú).
-- (about) Lindley became its first General Manager.
 - (origin) Inca Kola comes from Peru.
+- (history) In 1935, the 400th anniversary of the founding of Lima, Lindely launched Inca Kola, the flavor was derived from Lemon Verbena.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1935, the 400th anniversary of the founding of Lima, Lindely launched Inca Kola, the flavor was derived from Lemon Verbena.
 - (history) By 1945, Inca Kola had become a bestseller in the Lima market thanks to extensive advertising campaigns.
 - (history) By 1970, Inca Kola had achieved a 38% market share in Peru, surpassing all other carbonated beverages in the country, becoming the representative of "Peru's Drink" (La Bebida del Perú).
 - (history) Inca Kola dates from 1935-.
-- (about) Both lemon verbena and lemongrass are known as hierbaluisa in Spanish, but they are not the same species.
+- (history) The company was officially incorporated in Peru in 1928 as Corporación José R. Lindley S.A., Joseph R. Lindley became its first General Manager.
 
 Learn more:
 
@@ -605,13 +605,13 @@ Kola Escocesa is a Peruvian soft drink.
 
 Fun facts:
 
-- (history) Shortly after moving to Arequipa in 1948, he expressed interest in creating flavored beverages to Enrique Botas, the owner of a factory in Yura that made mineral water products supplied by a nearby spring.
+- (history) Kola Escocesa dates from 1950-.
 - (about) For decades, affection for Kola Escocesa in Arequipa and its popularity eventually surpassed Peru's best-selling soft drink, Inca Kola, though its availability outside of the city is very limited.
 - (origin) Kola Escocesa comes from Peru.
 
 More fun facts (when the user asks for more):
 
-- (history) Kola Escocesa dates from 1950-.
+- (history) Shortly after moving to Arequipa in 1948, he expressed interest in creating flavored beverages to Enrique Botas, the owner of a factory in Yura that made mineral water products supplied by a nearby spring.
 
 Learn more:
 
@@ -668,26 +668,26 @@ A pisco sour is an alcoholic cocktail of Peruvian origin, which is made from pis
 Fun facts:
 
 - (history) Although the preparation of pisco-based mixed beverages possibly dates back to the 1700s, historians and drink experts agree that the cocktail as it is known today was invented in the early 1920s in Lima, the capital of Peru, by the American bartender Victor Vaughen Morris.
+- (inspiration) Revoredo further argues this drink served as the predecessor of the Californian pisco punch, invented by Duncan Nicol in the Bank Exchange Bar of San Francisco, California.
 - (origin) The first grapevines were brought to Peru shortly after its conquest by Spain in the 16th century.
-- (inspiration) Peru celebrates yearly in honor of the cocktail on the first Saturday of February.
 
 More fun facts (when the user asks for more):
 
-- (history) Morris left the United States in 1903 to work in Cerro de Pasco, a city in central Peru.
-- (history) In 1916, he opened Morris' Bar in Lima, and his saloon quickly became a popular spot for the Peruvian upper class and English-speaking foreigners.
 - (history) The oldest known mentions of the pisco sour are found in newspaper and magazine advertisements, dating to the early 1920s, for Morris and his bar published in Peru and Chile.
 - (history) The pisco sour underwent several changes until Mario Bruiget, a Peruvian bartender working at Morris' Bar, created the modern Peruvian recipe for the cocktail in the latter part of the 1920s by adding Angostura bitters and egg whites to the mix.
+- (history) Since at least 1764, Peruvian aguardiente was called "pisco" after its port of shipping; the usage of the name "pisco" for aguardiente then spread to Chile.
+- (history) According to historian Luciano Revoredo, the preparation of pisco with lime dates as far back as the 18th century.
+- (about) Chile and Peru both claim the pisco sour as their national drink, and each asserts ownership of the cocktail's base liquor—pisco; consequently, the pisco sour has become a significant and oft-debated topic of Latin American popular culture.
+- (origin) Pisco sour comes from Peru.
+- (history) Morris left the United States in 1903 to work in Cerro de Pasco, a city in central Peru.
+- (history) In 1916, he opened Morris' Bar in Lima, and his saloon quickly became a popular spot for the Peruvian upper class and English-speaking foreigners.
+- (inspiration) Peru celebrates yearly in honor of the cocktail on the first Saturday of February.
 - (about) Spanish chroniclers from the time note the first winemaking in South America took place in the hacienda Marcahuasi of Cuzco.
 - (history) The largest and most prominent vineyards of the 16th and 17th century Americas were established in the Ica valley of south-central Peru.
 - (history) In the 1540s, Bartolomé de Terrazas and Francisco de Carabantes planted vineyards in Peru.
 - (history) Already in the 16th century, Spanish settlers in Chile and Peru began producing aguardiente distilled from fermented grapes.
-- (history) Since at least 1764, Peruvian aguardiente was called "pisco" after its port of shipping; the usage of the name "pisco" for aguardiente then spread to Chile.
-- (history) According to historian Luciano Revoredo, the preparation of pisco with lime dates as far back as the 18th century.
-- (inspiration) Revoredo further argues this drink served as the predecessor of the Californian pisco punch, invented by Duncan Nicol in the Bank Exchange Bar of San Francisco, California.
-- (about) Chile and Peru both claim the pisco sour as their national drink, and each asserts ownership of the cocktail's base liquor—pisco; consequently, the pisco sour has become a significant and oft-debated topic of Latin American popular culture.
 - (origin) Carabantes also established vineyards in Ica, where Spaniards from Andalucia and Extremadura introduced grapevines into Chile.
 - (about) At this time, the drink was named Punche (Punch), and was sold by slaves.
-- (origin) Pisco sour comes from Peru.
 
 Learn more:
 

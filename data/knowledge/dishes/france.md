@@ -138,14 +138,14 @@ Bouillabaisse ( BOO-yə-BESS, US also -⁠BAYSS, French: [bujabɛs]; Provençal:
 
 Fun facts:
 
-- (origin) In Marseille, the broth is served first in a soup plate with slices of bread and rouille, then the fish is served separately on a large platter (see image at top); or, more simply, as Julia Child suggests, the fish and broth are brought to the table separately and served together in large soup plates.
 - (culture) There are at least three kinds of fish in a traditional bouillabaisse: typically red rascasse (Scorpaena scrofa); sea robin; and European conger.
+- (origin) Bouillabaisse comes from France.
 - (culture) More expensive versions may add langoustine (Dublin Bay prawn; Norway lobster), though this was not part of the traditional dish made by Marseille fishermen.
 
 More fun facts (when the user asks for more):
 
+- (origin) In Marseille, the broth is served first in a soup plate with slices of bread and rouille, then the fish is served separately on a large platter (see image at top); or, more simply, as Julia Child suggests, the fish and broth are brought to the table separately and served together in large soup plates.
 - (culture) The broth is traditionally served with rouille, a mayonnaise made of olive oil, garlic, saffron, and cayenne pepper, on grilled slices of bread.
-- (origin) Bouillabaisse comes from France.
 
 Learn more:
 
@@ -186,9 +186,9 @@ Bourride (bourrido, in provençal, borrida, in occitan) is a culinary speciality
 
 Fun facts:
 
-- (about) A variant of bouillabaisse or fish soup à la Sétoise, this fish soup, originally from Provence and Languedoc, is particularly popular in Toulon (Var) and Agde (Hérault).
 - (origin) Bourride comes from France.
 - (about) Not to be confused with BourrideSétoise, Buridda.
+- (about) A variant of bouillabaisse or fish soup à la Sétoise, this fish soup, originally from Provence and Languedoc, is particularly popular in Toulon (Var) and Agde (Hérault).
 
 Learn more:
 
@@ -234,7 +234,7 @@ Brioche is a Viennoiserie of French origin whose high egg and butter content giv
 Fun facts:
 
 - (history) The first recorded use of the word in French dates from 1404.
-- (origin) In the 17th century "pâté à tarte briochée", "a pain à brioche pauvre [poor]... [using only] 3 eggs and 250 grams [8 oz] of butter for 1 kilogram [2 lb] of flour" was introduced.
+- (origin) In the 17th century "pâté à tarte briochée", "a pain à brioche pauvre [poor].. [using only] 3 eggs and 250 grams [8 oz] of butter for 1 kilogram [2 lb] of flour" was introduced.
 - (history) Brioche is attested in 1611 in Cotgrave's A Dictionarie of the French and English Tongues, where it is described as "a rowle, or bunne, of spiced bread" and its origin given as Norman.
 
 More fun facts (when the user asks for more):
@@ -290,12 +290,11 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) In 1938, the Larousse Gastronomique first referenced café liégeois, noting that iced coffee, when topped with whipped cream, became café liégeois.
+- (history) This marked the first official mention of the term, 20 years after World War I. By the 1960 edition of Nouveau Larousse gastronomique, the recipe for iced coffee remained the same, confirming that the addition of whipped cream defined café liégeois.
+- (origin) In 1936, Madame A. Moerman's Livre pratique de cuisine introduced a recipe for café viennois, which involved making a coffee-flavored custard and serving it with whipped cream.
+- (origin) Café liégeois comes from France.
 - (history) At the outbreak of World War I in August 1914, Belgium refused a German ultimatum demanding free passage through its territory to attack France.
 - (history) Auguste Escoffier’s Guide Culinaire (1907) features a recipe for iced coffee, where freshly brewed coffee is combined with sugar, milk, and cream, then churned in an ice cream maker.
-- (history) This marked the first official mention of the term, 20 years after World War I.
-- (history) By the 1960 edition of Nouveau Larousse gastronomique, the recipe for iced coffee remained the same, confirming that the addition of whipped cream defined café liégeois.
-- (origin) Moerman's Livre pratique de cuisine introduced a recipe for café viennois, which involved making a coffee-flavored custard and serving it with whipped cream.
-- (origin) Café liégeois comes from France.
 
 Learn more:
 
@@ -326,11 +325,11 @@ More fun facts (when the user asks for more):
 - (inspiration) A popular legend traces the introduction of calissons to Provence around the mid-15th century.
 - (history) The most probable etymology of its name, as established by the sociolinguist Philippe Blanchet in 1998, is that the Provençal word calissoun is formed from "calice" and the diminutive suffix "-oun", literally meaning "small chalice".
 - (history) The earliest known literary reference to calissons in vernacular Romance languages appears in the Estoires de Venise, written in French around 1275 by the Venetian chronicler Martino da Canal, who mentions a confection of that name without describing it.
-- (origin) Others suggest that it was not introduced in its modern form until the 16th century, as this was when almonds became an established crop in Aix-en-Provence.
 - (culture) Calissons are traditionally associated with the town of Aix-en-Provence, France, and most of the world's supply is still made in the Provence region.
 - (culture) Since the Eucharist consists of the consecrated wine in the chalice and the consecrated bread (the host), the calisson's ceremonial distribution has traditionally been compared to that of the host.
-- (about) This piece of folklore attributes the popularization of this sweet to her approval, and its name to her comment that these were "hugs" or "kisses" (di calin soun).
+- (origin) Others suggest that it was not introduced in its modern form until the 16th century, as this was when almonds became an established crop in Aix-en-Provence.
 - (origin) Calisson comes from France.
+- (about) This piece of folklore attributes the popularization of this sweet to her approval, and its name to her comment that these were "hugs" or "kisses" (di calin soun).
 
 Learn more:
 
@@ -349,22 +348,22 @@ The carrot (Daucus carota subsp. sativus) is a root vegetable in the umbellifer 
 
 Fun facts:
 
-- (history) The word is first recorded in English around 1530, borrowed from the Middle French carotte, itself from the Latin carōta, from the ancient Greek καρωτόν (karōtón), originally from the Proto-Indo-European root *ker- ('horn'), due to its horn-like shape.
+- (history) Carrot has 3 synonyms, Carota sativa (Franz Josef Ruprecht in Flora Ingrica, 1860); Daucus carota var sativus (Georg Franz Hoffmann in Deutsche Flora, Botanisches Taschenbuch, 1791); and Daucus sativus (proposed by Johann Christoph Röhling, published by Giovanni Passerini in Flora Parma, 1852).
 - (origin) The domesticated plant probably originated in Iran where it was cultivated for its leaves and seeds.
 - (about) When first cultivated, carrots were grown for their aromatic leaves and seeds rather than their roots.
 
 More fun facts (when the user asks for more):
 
-- (history) The word's use as a colour name in English was first recorded around 1670, originally referring to yellowish-red hair.
-- (history) Carrot has 3 synonyms, Carota sativa (Franz Josef Ruprecht in Flora Ingrica, 1860); Daucus carota var sativus (Georg Franz Hoffmann in Deutsche Flora, Botanisches Taschenbuch, 1791); and Daucus sativus (proposed by Johann Christoph Röhling, published by Giovanni Passerini in Flora Parma, 1852).
 - (history) The first mention of the root in classical sources is from the 1st century AD; the Romans ate a root vegetable called pastinaca, which may have been the carrot or the closely related parsnip.
+- (history) The word is first recorded in English around 1530, borrowed from the Middle French carotte, itself from the Latin carōta, from the ancient Greek καρωτόν (karōtón), originally from the Proto-Indo-European root *ker- ('horn'), due to its horn-like shape.
+- (history) The word's use as a colour name in English was first recorded around 1670, originally referring to yellowish-red hair.
 - (origin) Its wild ancestors probably originated in Greater Persia, which remains the centre of diversity for the wild carrot.
-- (history) Carl Linnaeus described the wild species as Daucus carota in 1753 in his Species Plantarum.
 - (history) The domestic carrot is classified as its own subspecies D. carota subsp. sativus, the accepted name published by Gustav Schübler and Georg Matthias von Martens in Flora Würtemberg, 1834.
-- (history) Another copy of this work, the Codex Neapolitanus from the late 6th or early 7th century, has basically the same illustrations but with roots in purple.
 - (about) In 2022, world production of carrots (combined with turnips) topped 42 million tonnes, with China producing 44% of the total.
 - (about) Carrot seeds have been found in Switzerland and Southern Germany dating back to 2000–3000 BC.
 - (about) Not to be confused with carrot plant, wild carrot.
+- (history) Carl Linnaeus described the wild species as Daucus carota in 1753 in his Species Plantarum.
+- (history) Another copy of this work, the Codex Neapolitanus from the late 6th or early 7th century, has basically the same illustrations but with roots in purple.
 
 Learn more:
 
@@ -386,8 +385,8 @@ Cassoulet is a rich stew originating in southern France.
 
 Fun facts:
 
-- (history) Sources differ on when haricots were first used instead of favolles: the Oxford Companion to Food states that haricots arrived in France via Spain from the New World in the 16th century; according to Larousse Gastronomique they were not used in France until the 19th century.
 - (culture) According to tradition, cassoulet was invented in 1355 in the town of Castelnaudary, under siege by the English during the Hundred Years' War.
+- (history) Sources differ on when haricots were first used instead of favolles: the Oxford Companion to Food states that haricots arrived in France via Spain from the New World in the 16th century; according to Larousse Gastronomique they were not used in France until the 19th century.
 - (origin) Cassoulet originated in the town of Castelnaudary in the Aude department in the Occitanie region.
 
 More fun facts (when the user asks for more):
@@ -416,18 +415,18 @@ The Chausson aux Pommes is a Viennoiserie filled with applesauce.
 
 Fun facts:
 
-- (inspiration) The legend says that after a plague epidemic that killed a part of Saint-Calais' population in 1580, the chatelaine would have offered a sort of apple pie to the survivors forced to still live there.
-- (culture) After the end of the epidemic in Saint-Calais (Pays-de-la-Loire region in France), considered by many as a miracle, a procession was organized to celebrate the event each first Sunday of September, including a sale of the apple pastry was organized in memory of the chatelaine's gesture.
 - (history) Since the 18th century, the pastry is called chausson aux pommes after the technique used to fill the viennoiserie dough with an apple puree, just like putting on slippers.
+- (culture) In 1992, the Confrérie of Chausson aux Pommes was created to perpetuate this tradition.
+- (inspiration) The legend says that after a plague epidemic that killed a part of Saint-Calais' population in 1580, the chatelaine would have offered a sort of apple pie to the survivors forced to still live there.
 
 More fun facts (when the user asks for more):
 
-- (culture) In 1992, the Confrérie of Chausson aux Pommes was created to perpetuate this tradition.
 - (culture) In September 2023, the city of Saint-Calais celebrated the 393rd edition of the Chausson aux pommes' festival.
 - (about) An alternative to apple, filled with lemon cream, is known as a Chausson au Citron.
+- (origin) Chausson aux pommes comes from France.
+- (culture) After the end of the epidemic in Saint-Calais (Pays-de-la-Loire region in France), considered by many as a miracle, a procession was organized to celebrate the event each first Sunday of September, including a sale of the apple pastry was organized in memory of the chatelaine's gesture.
 - (culture) Since then, the celebration evolved but remained as a gastronomic and traditional meet up.
 - (culture) Those celebrations usually gather several thousands of visitors each year and host shows, markets, exhibitions, and concerts.
-- (origin) Chausson aux pommes comes from France.
 
 Learn more:
 
@@ -455,8 +454,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) In Le Figaro in 1870 Eugène Morand recorded a lunch eaten by a group of army officers at which—after two types of sausage, York and Bayonne ham, fried eggs, fillet steak, and macaroni with Parmesan—they concluded the savoury part of the meal with poulet à la chasseur ("Ah! quel plaisir d'être soldat!" (lit. 'Ah!
-- (history) The earliest citation of the culinary use of the word in English given by the Oxford English Dictionary dates from the 1880s.
 - (history) Chicken chasseur is mentioned in the American and British press during the later years of the 19th century.
+- (history) The earliest citation of the culinary use of the word in English given by the Oxford English Dictionary dates from the 1880s.
 
 Learn more:
 
@@ -509,13 +508,13 @@ Chouquettes or petits choux are small pieces of French patisserie consisting of 
 
 Fun facts:
 
-- (history) The term was known in the 16th century, and was originally applied to small savoury spheres.
-- (origin) Chouquette comes from France.
 - (history) Since the late 17th century chouquettes have been sweet.
+- (origin) Chouquette comes from France.
+- (history) Davidson describes chouquettes as among the most popular Parisian friandises – "eaten at tea when warm and soft, semi-dry at other times".
 
 More fun facts (when the user asks for more):
 
-- (history) Davidson describes chouquettes as among the most popular Parisian friandises – "eaten at tea when warm and soft, semi-dry at other times".
+- (history) The term was known in the 16th century, and was originally applied to small savoury spheres.
 
 Learn more:
 
@@ -566,26 +565,26 @@ A croissant is a Viennoiserie in a crescent shape made from a laminated yeast do
 
 Fun facts:
 
-- (history) In either 1838 or 1839, an Austrian artillery officer, August Zang, founded a Viennese bakery (Boulangerie Viennoise) at 92, rue de Richelieu in Paris.
+- (history) The earliest known recipe for the present-day croissant appears in 1905, although the name croissant appears among the "fantasy or luxury breads" in 1853.
 - (inspiration) Croissants are named for their crescent shape.
 - (about) The croissant bakery, notably the La Croissanterie chain, was a French response to American-style fast food, and as of 2008, 30–40% of the croissants sold in French bakeries and patisseries were baked from frozen dough.
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest known recipe for the present-day croissant appears in 1905, although the name croissant appears among the "fantasy or luxury breads" in 1853.
 - (history) Earlier recipes for non-laminated croissants can be found in the 19th century and at least one reference to croissants as an established French bread appeared as early as 1850.
 - (history) By 1869, the croissant was well established enough to be mentioned as a breakfast staple, and in 1872, Charles Dickens wrote (in his periodical All the Year Round) of "the workman's pain de ménage and the soldier's pain de munition, to the dainty croissant on the boudoir table".
 - (history) The viennoiserie technique that now characterizes the croissant was already mentioned in the late 17th century, when La Varenne's Le Cuisinier françois gave a recipe for it in the 1680 – and possibly earlier – edition.
 - (history) The modern croissant was developed in the early 20th century, when French bakers replaced the brioche dough of the kipferl with a yeast-leavened laminated dough.
+- (inspiration) The French version of the kipferl was named for its crescent (croissant) shape and has become a universally identifiable shape across the world.
+- (history) It does not appear to be mentioned in relation to the croissant until the 20th century.
+- (inspiration) Croissant is named after crescent.
+- (history) In either 1838 or 1839, an Austrian artillery officer, August Zang, founded a Viennese bakery (Boulangerie Viennoise) at 92, rue de Richelieu in Paris.
+- (history) Zang himself returned to Austria in 1848 to become a press magnate, but the bakery remained popular for some time afterwards, and was mentioned in several works of the time: "This same M. Zank [sic]..founded around 1830 [sic], in Paris, the famous Boulangerie viennoise".
+- (inspiration) Croissant is buttery and flaky, inspired by the shape of the Austrian kipferl, but using the Viennoiserie yeast-leavened laminated dough.
+- (origin) Croissant comes from France.
 - (history) In the late 1970s, the development of factory-made, frozen, preformed but unbaked dough made them into a fast food that could be freshly baked by unskilled labor.
 - (history) The kipferl, an Austrian crescent-shaped pastry, can be dated back to at least the 13th century in Austria, and came in various shapes.
-- (inspiration) The French version of the kipferl was named for its crescent (croissant) shape and has become a universally identifiable shape across the world.
-- (history) Zang himself returned to Austria in 1848 to become a press magnate, but the bakery remained popular for some time afterwards, and was mentioned in several works of the time: "This same M.
-- (history) Zank [sic]...founded around 1830 [sic], in Paris, the famous Boulangerie viennoise".
-- (inspiration) Croissant is named after crescent.
-- (inspiration) Croissant is buttery and flaky, inspired by the shape of the Austrian kipferl, but using the Viennoiserie yeast-leavened laminated dough.
 - (inspiration) This bakery, which served Viennese specialties including the kipferl and the Vienna loaf, quickly became popular and inspired French imitators (and the concept, if not the term, of viennoiserie).
-- (origin) Croissant comes from France.
 
 Learn more:
 
@@ -667,7 +666,6 @@ More fun facts (when the user asks for more):
 - (history) The practice of browning dishes with a hot iron was already documented in La Varenne's Cuisinier françois, published in 1651.
 - (history) The name "burnt cream" was later used to refer to the dish in the 1702 English translation of Massialot's Cuisinier royal et bourgeois.
 - (history) In 1740, he referred to a similar recipe as crême à l'Angloise, or 'English cream', which further cast doubt on its origins.
-- (about) He claimed to have made it "the most famous and by far the most popular dessert in restaurants from Paris to Peoria".
 - (origin) Crème brûlée comes from France.
 - (about) Not to be confused with Crème Brûlée.
 
@@ -724,11 +722,11 @@ Fun facts:
 
 - (culture) In Gascony, according to the families perpetuating the tradition, all of the duck is used to produce the dish.
 - (origin) Duck confit comes from France.
-- (culture) Each part can have a specific destination in traditional cooking, the neck being used for example in an invigorating soup, the garbure.
+- (culture) Duck confit is also a traditional ingredient in many versions of cassoulet.
 
 More fun facts (when the user asks for more):
 
-- (culture) Duck confit is also a traditional ingredient in many versions of cassoulet.
+- (culture) Each part can have a specific destination in traditional cooking, the neck being used for example in an invigorating soup, the garbure.
 
 Learn more:
 
@@ -750,8 +748,8 @@ Far Breton (also Breton far; Breton: Farz forn) is a traditional cake or dessert
 
 Fun facts:
 
-- (culture) Numerous recipes available at popular websites suggest soaking the dried fruits in alcohol; however, this is not traditional practice.
 - (origin) Far Breton comes from France.
+- (culture) Numerous recipes available at popular websites suggest soaking the dried fruits in alcohol; however, this is not traditional practice.
 
 Learn more:
 
@@ -772,14 +770,14 @@ Flammekueche (Alsatian), Flammkuchen (Standard German), or tarte flambée (Frenc
 
 Fun facts:
 
-- (history) The German name (rendering Latin panis subcinericeus) appears in Hieronymus Bock's Teutsche Speißkammer (Strasbourg, 1550), denoting unleavened bread baked quickly in ashes or on hot stones.
+- (history) An 1832 handbook on baking describes "so-called Flammkuchen" made from bread dough, baked before the bread and served warm with soup in place of vegetables or meat.
 - (about) In Alsace, the French name tarte flambée is the most common name for the dish, while it is known as its Alsatian name "flammekueche" in the rest of France.
 - (origin) Flammekueche comes from France, Germany.
 
 More fun facts (when the user asks for more):
 
-- (history) An 1832 handbook on baking describes "so-called Flammkuchen" made from bread dough, baked before the bread and served warm with soup in place of vegetables or meat.
 - (history) The Flammekueche was originally a homemade dish which did not make its urban restaurant debut until the "pizza craze" of the 1960s.
+- (history) The German name (rendering Latin panis subcinericeus) appears in Hieronymus Bock's Teutsche Speißkammer (Strasbourg, 1550), denoting unleavened bread baked quickly in ashes or on hot stones.
 - (history) The Alsatian term is the original, much older one, having been used by peasants for centuries before being calqued into French as tarte flambée in an 1894 cookbook.
 
 Learn more:
@@ -824,14 +822,14 @@ Fun facts:
 
 - (history) The earliest known English-language reference to a floating island is in The Art of Cookery Made Plain and Easy (1747) by the English cookery writer Hannah Glasse.
 - (culture) An 1847 American cookbook lists floating island as a Fourth of July celebration dessert.
-- (about) The version recorded in the Larousse Gastronomique was made with stale Savoy biscuits sliced thin and soaked in kirsch and maraschino, layered with apricot marmalade, and a garnish of chopped almonds and currants.
+- (about) The historical form was quite different in England than in France, where it was known as Île Flottante.
 
 More fun facts (when the user asks for more):
 
 - (history) A 1771 letter from the American founding father Benjamin Franklin reported eating a floating island at a dinner.
 - (history) According to Larousse Gastronomique the dessert was being served a little less often by the time the encyclopedia was published in 1938, and its writers expressed regret because the dish is "excellent".
-- (about) The historical form was quite different in England than in France, where it was known as Île Flottante.
 - (origin) Floating island comes from France.
+- (about) The version recorded in the Larousse Gastronomique was made with stale Savoy biscuits sliced thin and soaked in kirsch and maraschino, layered with apricot marmalade, and a garnish of chopped almonds and currants.
 
 Learn more:
 
@@ -859,12 +857,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) His innovation earned him a patent in 1784, and he later established a business supplying this delicacy to the French aristocracy.
-- (history) By the early 19th century, Strasbourg had become renowned as the "goose-liver capital of the world".
 - (history) In the late 1980s, the Chernobyl disaster produced radioactive clouds over France and Hungary, then the large producers of foie gras.
 - (culture) Foie gras was served at royal courts as a symbol of luxury and refinement.
-- (culture) Its production and consumption became particularly associated with Southwest France, including regions like Dordogne and Alsace, where traditional methods of preparation flourished.
 - (about) Foie gras dates from -4499.
+- (history) By the early 19th century, Strasbourg had become renowned as the "goose-liver capital of the world".
+- (culture) Its production and consumption became particularly associated with Southwest France, including regions like Dordogne and Alsace, where traditional methods of preparation flourished.
 
 Learn more:
 
@@ -910,14 +907,14 @@ The fraisier is a strawberry cake made of an almond sponge cake or meringue, pas
 
 Fun facts:
 
-- (inspiration) The cake's origin dates back to a cake created by Auguste Escoffier at the end of the 19th century that included fresh strawberries.
-- (history) The initial version evolved as Pierre Lacam designed a strawberry cake with a sponge cake and a touch of kirsch in the 1900s.
+- (history) The fraisier as known today was created only in 1966 by Gaston Lenôtre.
 - (origin) Fraisier comes from France.
+- (inspiration) The cake's origin dates back to a cake created by Auguste Escoffier at the end of the 19th century that included fresh strawberries.
 
 More fun facts (when the user asks for more):
 
-- (history) The fraisier as known today was created only in 1966 by Gaston Lenôtre.
 - (history) Fraisier dates from 1966-.
+- (history) The initial version evolved as Pierre Lacam designed a strawberry cake with a sponge cake and a touch of kirsch in the 1900s.
 
 Learn more:
 
@@ -1116,21 +1113,21 @@ Kig ha farz is a cooked dish consisting of various meats simmered in a broth wit
 
 Fun facts:
 
-- (origin) Although numerous palynological traces are attested for the ancient and medieval era, buckwheat, originating in Asia, appears in Breton and Norman texts from the end of the 15th century.
-- (history) By providing the population with a correct diet, buckwheat was probably no stranger to the population growth in Brittany in the 19th century.
+- (history) Until the Revolution, the obligation to use communal ovens and to pay taxes restricted the method of cooking farz to cooking in a bag, thus remaining the only type of farz until the 19th century.
+- (origin) This national Léonard dish allows the Léonard population to gather together often, a convivial means of financing activities; in 1982, the kig ha farz of Plouescat brought together more than a thousand guests.
 - (culture) Kig ha farz is in Léon that this culinary tradition remains most alive, although since the 1970s kig ha farz has tended to spread beyond its original Léonard region.
 
 More fun facts (when the user asks for more):
 
-- (history) Until the Revolution, the obligation to use communal ovens and to pay taxes restricted the method of cooking farz to cooking in a bag, thus remaining the only type of farz until the 19th century.
-- (history) As early as 1732, Grégoire de Rostrenen, in his dictionary, defined the word fars as "farce cooked in a bag in the pot to eat with meat in the manner of Léon".
-- (history) In the middle of the 19th century, the vegetable boom in the agricultural economy, thanks to marine amendments, gave far en sac its current form.
-- (origin) This national Léonard dish allows the Léonard population to gather together often, a convivial means of financing activities; in 1982, the kig ha farz of Plouescat brought together more than a thousand guests.
+- (origin) Although numerous palynological traces are attested for the ancient and medieval era, buckwheat, originating in Asia, appears in Breton and Norman texts from the end of the 15th century.
 - (culture) Kig ha farz is eaten traditionally in Brittany, more specifically around Léon in the region situated west from Morlaix to Brest.
 - (about) Kig ha farz is presented with the cooked meats and vegetables and the farz is consumed with a sauce locally known as lipig, made with melted butter, bacon, and shallots.
 - (about) It quickly becomes popular in the poor lands of inland Brittany due to its rapid growth (four months) and high yield, replacing wheat as a staple food in Bas-Léon. "The part of Brittany where Breton is spoken lives on buckwheat flour pancakes," wrote Stendhal.
 - (about) Kig ha farz was the Breton associations, particularly in Paris (cf. the Ti Jos crêpe restaurant in Montparnasse) and in the big cities, which popularized a name and a recipe that had hitherto been family-run and local.
 - (origin) Kig ha farz comes from France.
+- (history) By providing the population with a correct diet, buckwheat was probably no stranger to the population growth in Brittany in the 19th century.
+- (history) As early as 1732, Grégoire de Rostrenen, in his dictionary, defined the word fars as "farce cooked in a bag in the pot to eat with meat in the manner of Léon".
+- (history) In the middle of the 19th century, the vegetable boom in the agricultural economy, thanks to marine amendments, gave far en sac its current form.
 
 Learn more:
 
@@ -1177,7 +1174,7 @@ Fun facts:
 
 - (history) Others think that the inventor was named Madeleine Paulmier, who is said to have been a cook in the 18th century for Stanislaus I, duke of Lorraine and exiled King of Poland.
 - (inspiration) The story goes that, in 1755, Louis XV, son-in-law of the duke, charmed by the little cakes prepared by Madeleine Paulmier, named them after her, while his wife, Maria Leszczyńska, introduced them soon afterward to the court in Versailles.
-- (about) Other stories do not give the cake a Lorraine origin and lay its invention at the feet of pastry chef Jean Avice, who worked in the kitchens of Prince Talleyrand.
+- (origin) Madeleine was first made by Madeleine Paulmier.
 
 More fun facts (when the user asks for more):
 
@@ -1185,11 +1182,11 @@ More fun facts (when the user asks for more):
 - (history) Marcel Proust's description of his experience as an adult of the taste of a madeleine dipped in tea triggering memories of childhood in his early 20th century Remembrance of Things Past caused the term 'Proustian' to become synonymous with something that "evok(es) the recall of a forgotten memory".
 - (inspiration) Several legends are attached to the development of the madeleine.
 - (inspiration) Madeleine is named after Madeleine Paulmier.
-- (origin) Madeleine was first made by Madeleine Paulmier.
-- (about) They have tended to center on a woman named Madeleine who is said to have been in the service of an important character in the history of Lorraine – although there is neither consensus over the last name of the cook nor the identity of the famous character.
 - (about) Another version claims Leszczynska herself created them with help from her own cook, a woman named Madeleine.
 - (about) In the UK a madeleine, also known as an Eiffel Tower cake, is an individual sponge cake baked in a dariole mould.
 - (origin) Madeleine comes from Spain, France.
+- (about) Other stories do not give the cake a Lorraine origin and lay its invention at the feet of pastry chef Jean Avice, who worked in the kitchens of Prince Talleyrand.
+- (about) They have tended to center on a woman named Madeleine who is said to have been in the service of an important character in the history of Lorraine – although there is neither consensus over the last name of the cook nor the identity of the famous character.
 
 Learn more:
 
@@ -1210,13 +1207,13 @@ A matelote is the name given in French cooking to a fish stew made with white or
 
 Fun facts:
 
-- (history) The term is recorded in English use from the 18th century onward.
+- (history) The Dictionnaire de l'Académie française dates the word from the 16th century and defines it as "A dish consisting of one or more kinds of freshwater fish, stewed with wine and herbs".
 - (culture) Matelote is traditionally garnished with small onions and mushrooms that have been cooked with the fish.
 - (origin) Matelote comes from France.
 
 More fun facts (when the user asks for more):
 
-- (history) The Dictionnaire de l'Académie française dates the word from the 16th century and defines it as "A dish consisting of one or more kinds of freshwater fish, stewed with wine and herbs".
+- (history) The term is recorded in English use from the 18th century onward.
 
 Learn more:
 
@@ -1412,16 +1409,16 @@ Pain de campagne, also called "French sourdough", is typically a large round loa
 
 Fun facts:
 
-- (origin) The addition of rye flour in some recipes probably originates from the presence of rye growing among the wheat.
 - (history) With the rise of commercial yeast at the turn of the 20th century, pain de campagne fell out of favor in French cities, where it was replaced by the baguette.
-- (culture) Most traditional versions of this bread are made with a combination of white flour with whole wheat flour and/or rye flour, water, leavening and salt.
+- (culture) Rye flour ferments more quickly than wheat flour, and it imparts a distinctive flavor to traditional pains de campagne.
+- (origin) Pain de campagne comes from France.
 
 More fun facts (when the user asks for more):
 
-- (history) However, with the rise of artisan breads in the 1970s, pain de campagne has been growing in popularity, both in Europe and the US.
-- (culture) Rye flour ferments more quickly than wheat flour, and it imparts a distinctive flavor to traditional pains de campagne.
+- (history) With the rise of artisan breads in the 1970s, pain de campagne has been growing in popularity, both in Europe and the US.
+- (origin) The addition of rye flour in some recipes probably originates from the presence of rye growing among the wheat.
+- (culture) Most traditional versions of this bread are made with a combination of white flour with whole wheat flour and/or rye flour, water, leavening and salt.
 - (culture) When made traditionally, the dough is allowed to ferment for several hours, allowing the yeasts to grow and develop the flavors.
-- (origin) Pain de campagne comes from France.
 
 Learn more:
 
@@ -1503,9 +1500,9 @@ A petit four is a small bite-sized confectionery, pâtisserie or savory appetise
 
 Fun facts:
 
-- (history) The most accepted is that during the 19th century in France, an oven was little more than a stone cabinet with a fire lit underneath.
 - (about) According to Wason, the cakes were first presented as part of the course of entremet to Louis XIV as part of the competition between his chefs to impress him.
 - (origin) Petit four comes from France.
+- (history) The most accepted is that during the 19th century in France, an oven was little more than a stone cabinet with a fire lit underneath.
 
 More fun facts (when the user asks for more):
 
@@ -1570,8 +1567,8 @@ Pissaladière is a dish of flatbread with toppings from the region of Provence a
 Fun facts:
 
 - (origin) The etymology of the word seems to originate from the Latin piscis "fish", which in turn originated pissalat, the name of an anchovy paste (via peis salat, "salted fish" Niçard).
-- (about) The first written recipe was found in a document of the year 879 in Provence.
 - (culture) The dough is usually a bread dough thicker than that of the classic pizza Margherita, and the traditional topping in Nice usually consists of caramelised (almost pureed) onions, black olives (generally caillettes) and anchovies (whole, and sometimes also with pissalat, a type of anchovy paste).
+- (about) The first written recipe was found in a document of the year 879 in Provence.
 
 More fun facts (when the user asks for more):
 
@@ -1704,14 +1701,14 @@ Quince cheese (also known as quince paste) is a sweet and tart, thick jelly made
 Fun facts:
 
 - (history) The Roman cookbook of Apicius, a collection of Roman cookery recipes compiled in the late 4th or early 5th century AD, also gives recipes for stewing quince with honey.
-- (culture) In the Iberian Peninsula, this traditionally Mediterranean food is known by various names: ate, dulce de membrillo or carne de membrillo in Spanish; marmelada or doce de marmelo in Portuguese; marmelo in Galician; marmiellu in Asturian; irasagarra in Basque; and codonyat in Catalan.
-- (about) Similar preparations are popular across different cultures, such as birsalmasajt in Hungary, kitnikez in Serbia, pâte de coing in French-speaking regions, Quittenpästli in Switzerland, and cotognata in Italy.
+- (about) Quince cheese is also enjoyed in Mexico, Colombia, Argentina, Uruguay, Paraguay, and Chile as ate or dulce de membrillo, and known as machacado de membrillo in Peru, ממבריו (membrio) in Israel, ayva peltesi in Turkey, and marmeladă de gutui in Romania.
+- (culture) Quince cheese is also a traditional food in France, served during Christmas, and is a common food in Italy.
 
 More fun facts (when the user asks for more):
 
-- (about) Quince cheese is also enjoyed in Mexico, Colombia, Argentina, Uruguay, Paraguay, and Chile as ate or dulce de membrillo, and known as machacado de membrillo in Peru, ממבריו (membrio) in Israel, ayva peltesi in Turkey, and marmeladă de gutui in Romania.
-- (culture) Quince cheese is also a traditional food in France, served during Christmas, and is a common food in Italy.
 - (origin) Quince cheese comes from Spain, Italy, Portugal.
+- (culture) In the Iberian Peninsula, this traditionally Mediterranean food is known by various names: ate, dulce de membrillo or carne de membrillo in Spanish; marmelada or doce de marmelo in Portuguese; marmelo in Galician; marmiellu in Asturian; irasagarra in Basque; and codonyat in Catalan.
+- (about) Similar preparations are popular across different cultures, such as birsalmasajt in Hungary, kitnikez in Serbia, pâte de coing in French-speaking regions, Quittenpästli in Switzerland, and cotognata in Italy.
 
 Learn more:
 
@@ -1735,19 +1732,19 @@ Fun facts:
 
 - (culture) At the 1909 Cantonal Exhibition of Sion, raclette was promoted as a national dish of Valais.
 - (origin) Raclette is historically a dish originating from the canton of Valais in Switzerland.
-- (history) Dishes of melted cheese were mentioned in medieval texts from Swiss convents as early as 1291.
+- (history) Melting raclette-type cheese in front of a fire is attested in Valais as early as 1574.
 
 More fun facts (when the user asks for more):
 
-- (history) Melting raclette-type cheese in front of a fire is attested in Valais as early as 1574.
 - (history) Since 1875, the French term raclette is commonly used for this dish.
 - (history) Raclette eventually gained national (and international) popularity from the 1964 National Exhibition.
 - (culture) Raclette is also served as street food, but often with bread instead of potatoes.
-- (culture) Traditionally, cow herders carried cheese with them when they were moving cows to or from pastures up in the mountains.
 - (about) A popular French option is to serve it with white wine, such as Savoy wine, but Riesling and pinot gris are also common.
 - (culture) Traditionally, it is consumed with black tea, since a warm beverage is considered to aid digestion.
 - (origin) Raclette comes from Switzerland.
 - (about) Not to be confused with Raclette du Valais.
+- (history) Dishes of melted cheese were mentioned in medieval texts from Swiss convents as early as 1291.
+- (culture) Traditionally, cow herders carried cheese with them when they were moving cows to or from pastures up in the mountains.
 
 Learn more:
 
@@ -1769,7 +1766,7 @@ Ratatouille is a traditional French vegetable dish originating in the Provence r
 Fun facts:
 
 - (history) In the early 19th century, the word was originally used to describe a coarse stew or mixed dish, sometimes with a pejorative connotation, rather than a specific vegetable preparation.
-- (origin) Tomatoes, peppers, and squash were introduced to France after the 16th century following contact with the Americas of the New World, but were not widely accepted as food until the 18th and 19th centuries.
+- (origin) The development of ratatouille in its modern form depended on the gradual incorporation of several vegetables introduced into European diets.
 - (about) One influential variation, known as Confit byaldi, arranged the vegetables in thin, carefully layered slices rather than preparing them as a stew, aligning the dish with contemporary haute cuisine aesthetics.
 
 More fun facts (when the user asks for more):
@@ -1779,10 +1776,10 @@ More fun facts (when the user asks for more):
 - (history) By the early 20th century, ratatouille became increasingly associated with the cuisine of Nice.
 - (history) The international recognition of ratatouille expanded significantly in the mid-20th century, particularly through the growing interest in Mediterranean cuisines outside France.
 - (history) From the late 20th century onward, professional chefs began reinterpreting ratatouille using refined techniques and modern presentation.
-- (origin) The development of ratatouille in its modern form depended on the gradual incorporation of several vegetables introduced into European diets.
-- (origin) Aubergine, introduced earlier through Mediterranean culinary influence, became established in southern France before spreading northward.
 - (origin) Ratatouille comes from France.
 - (about) Not to be confused with Ratatouille.
+- (origin) Tomatoes, peppers, and squash were introduced to France after the 16th century following contact with the Americas of the New World, but were not widely accepted as food until the 18th and 19th centuries.
+- (origin) Aubergine, introduced earlier through Mediterranean culinary influence, became established in southern France before spreading northward.
 
 Learn more:
 
@@ -1838,14 +1835,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (about) Cooked green beans and potatoes are commonly served in variations of salade niçoise that are popular around the world.
+- (culture) Former Nice mayor and cookbook author Jacques Médecin was a strict salad traditionalist.
+- (about) In 2016, French Michelin-starred chef Hélène Darroze posted a salade niçoise recipe on Facebook that included cooked potatoes and green beans.
+- (origin) Salade niçoise comes from France.
 - (history) The version known in Nice in the late 19th century was a basic combination of tomatoes, anchovies and olive oil, described as "simple food for poor people".
 - (history) A 1903 recipe by Henri Heyraud in a book called La Cuisine à Nice included tomatoes, anchovies, artichokes, olive oil, red peppers and black olives, but excluded tuna and lettuce.
 - (culture) For decades, traditionalists and innovators have disagreed over which ingredients should be included; traditionalists exclude cooked vegetables.
-- (about) However, cooked green beans and potatoes are commonly served in variations of salade niçoise that are popular around the world.
-- (culture) Former Nice mayor and cookbook author Jacques Médecin was a strict salad traditionalist.
-- (about) In 2016, French Michelin-starred chef Hélène Darroze posted a salade niçoise recipe on Facebook that included cooked potatoes and green beans.
-- (culture) Darroze's version was called "a massacre of the recipe", a "sacrilege", and a violation of the "ancestral traditions" of the salad.
-- (origin) Salade niçoise comes from France.
 
 Learn more:
 
@@ -1884,7 +1880,7 @@ Shepherd's pie, cottage pie, or in French cuisine hachis Parmentier, is a savour
 Fun facts:
 
 - (history) The term "cottage pie" is first recorded in 1791. "Shepherd's pie" is later, first recorded in the nineteenth century.
-- (origin) Shepherd's pie comes from Ireland, United Kingdom.
+- (origin) Shepherd's pie comes from Ireland, the United Kingdom.
 
 Learn more:
 
@@ -1911,12 +1907,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Usage of the French word "escargot" dates back to 1892.
 - (about) In the modern era snails are farmed, an industry known as heliciculture.
 - (culture) Heliciculture occurs mainly in Spain, France, and Italy, which are also the countries with the greatest culinary tradition of the snail.
 - (about) In Historia de gastronomía (2004), Fernández-Armesto points out the possible reasons: snails are easy to handle, and their cultivation "seems like a natural extension of harvesting".
 - (about) According to Lubell (2004b), archaeological remains of land snails have been found in the Caribbean, Peru, Texas and other parts of North America, East Africa, Sudan, Nigeria, and the Philippines.
 - (origin) Snails as food comes from Spain, France, Morocco.
+- (history) Usage of the French word "escargot" dates back to 1892.
 - (about) Not to be confused with Escargots à la bourguignonne.
 
 Learn more:
@@ -1958,7 +1954,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q846376) (CC0); [Wikipedia: So
 
 ### St. Honoré cake
 
-The St.
+The St. Honoré cake, usually known by its French name gâteau St-Honoré, and also sometimes called St. Honoratus cake, is a dessert named for the French patron saint of bakers and pastry chefs, Saint Honoré or Honoratus (d. 600 AD), Bishop of Amiens.
 
 - From: France
 - Origin (Wikidata): France
@@ -1968,14 +1964,13 @@ The St.
 Fun facts:
 
 - (inspiration) St. Honoré cake was invented by Auguste Julien in the 1840s at the patisserie Chiboust on Rue Saint-Honoré in Paris.
-- (culture) Traditionally granulated sugar was sprinkled directly on the pastry and finished by holding a red hot iron close to the surface, but modern versions may use chocolate-dipped profiterole or dip the puffs in caramel stabilized with corn syrup or glucose syrup.
+- (culture) This base is traditionally filled with crème chiboust and finished with whipped cream using a special St. Honoré piping tip.
 - (origin) St. Honoré cake comes from France.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Honoratus cake, is a dessert named for the French patron saint of bakers and pastry chefs, Saint Honoré or Honoratus (d. 600 AD), Bishop of Amiens.
 - (inspiration) St. Honoré cake is named after rue Saint-Honoré.
-- (culture) This base is traditionally filled with crème chiboust and finished with whipped cream using a special St.
+- (culture) Traditionally granulated sugar was sprinkled directly on the pastry and finished by holding a red hot iron close to the surface, but modern versions may use chocolate-dipped profiterole or dip the puffs in caramel stabilized with corn syrup or glucose syrup.
 
 Learn more:
 
@@ -2043,7 +2038,7 @@ Tarte à l'oignon or Zewelwaï is a savoury tart with a baked filling of onions 
 
 Fun facts:
 
-- (about) Elizabeth David singles out Zewelwaï as "the famous Alsatian speciality... a truly lovely first course".
+- (about) Elizabeth David singles out Zewelwaï as "the famous Alsatian speciality.. a truly lovely first course".
 
 Learn more:
 
@@ -2065,16 +2060,16 @@ Tartiflette is a dish from Savoy in the French Alps.
 
 Fun facts:
 
-- (history) Tartiflette was first mentioned in a 1705 book, Le Cuisinier Royal et Bourgeois, written by François Massialot and his assistant cook B.
+- (history) Tartiflette was first mentioned in a 1705 book, Le Cuisinier Royal et Bourgeois, written by François Massialot and his assistant cook B. Mathieu.
 - (inspiration) This modern recipe was inspired by a traditional dish called péla: a gratin cooked in a long-handled pan.
-- (culture) As with many traditional dishes in the region, the potato is a staple ingredient.
+- (origin) Tartiflette comes from France.
 
 More fun facts (when the user asks for more):
 
 - (history) In its modern form, tartiflette began to appear on the menus of restaurants in the ski resorts in the 1980s.
 - (history) Tartiflette dates from 1980-.
-- (origin) Tartiflette comes from France.
 - (inspiration) Tartiflette is based on Péla.
+- (culture) As with many traditional dishes in the region, the potato is a staple ingredient.
 
 Learn more:
 
@@ -2201,7 +2196,7 @@ Calf's head, or [la] tête de veau (French; pl.: [les] têtes de veau), [la] tes
 
 Fun facts:
 
-- (origin) Tête de veau comes from Netherlands.
+- (origin) Tête de veau comes from the Netherlands.
 - (about) Not to be confused with calf head.
 
 Learn more:
@@ -2332,13 +2327,13 @@ Andouillette is a French coarse-grained sausage made from the intestine of pork,
 Fun facts:
 
 - (about) The original composition of "andouillette sausages" is unknown and there is no record of the andouillette's composition from earlier than the nineteenth century.
-- (culture) Offal dishes are an important element of many culinary traditions, and by making use of animal parts that might otherwise be discarded, they could be said to contribute to sustainability in food and farming.
 - (origin) Andouillette comes from France.
+- (culture) Offal dishes are an important element of many culinary traditions, and by making use of animal parts that might otherwise be discarded, they could be said to contribute to sustainability in food and farming.
 
 More fun facts (when the user asks for more):
 
-- (about) During the twenty-first century the incorporation of veal, historically the more costly meat ingredient, has been banned in response to concerns over BSE.
 - (about) In his 2021 memoir Taste: My Life Through Food, actor Stanley Tucci wrote humorously about ordering an andouillette with Meryl Streep in a small French restaurant.
+- (about) During the twenty-first century the incorporation of veal, historically the more costly meat ingredient, has been banned in response to concerns over BSE.
 
 Learn more:
 
@@ -2365,8 +2360,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) This superstition has been documented since at least the Vietnam War and is often cited as originating in World War II.
 - (about) In Middle Eastern and North African cuisines, apricots are used to make Qamar al-Din, a thick apricot drink that is a popular fixture at Iftar during Ramadan.
+- (origin) This superstition has been documented since at least the Vietnam War and is often cited as originating in World War II.
 
 Learn more:
 
@@ -2419,17 +2414,17 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) As more Beaujolais producers tried to capitalize on the "Nouveau craze", production of regular Beaujolais dropped and an eventual backlash occurred in the late 1990s and early 21st century.
-- (history) From the 7th century through the Middle Ages, most of the viticulture and winemaking was done by the Benedictine monks.
-- (history) The expansion of the French railroad system in the 19th century opened up the lucrative Paris market.
 - (about) The first mention of Beaujolais wines in English followed soon after when Cyrus Redding described the wines of Moulin-à-Vent and Saint-Amour as being low-priced and best consumed young.
 - (history) In the 1980s, Beaujolais hit a peak of popularity in the world's wine market with its Beaujolais nouveau wine.
 - (history) Beaujolais dates from 1937-.
-- (about) Whites, 1% of production, are made mostly with Chardonnay, though Aligoté was also permitted until 2024.
-- (culture) Most vines are trained in the traditional gobelet style, where the spurs of the vines are pushed upwards and arranged in a circle, resembling a chalice.
 - (about) The Gamay grape, more accurately known as Gamay noir à Jus blanc to distinguish it from the Gamay teinturier grapes with red juice and different from the Napa Gamay and the Gamay Beaujolais grapes of California, is the most widely planted grape in Beaujolais, accounting for nearly 98% of all plantings.
-- (about) Aligote vines that were planted prior to 2004 are permitted in wine production, but the entire grape variety is being phased out of the region by 2024.
 - (origin) Beaujolais comes from France.
 - (about) Not to be confused with Beaujolais.
+- (history) From the 7th century through the Middle Ages, most of the viticulture and winemaking was done by the Benedictine monks.
+- (history) The expansion of the French railroad system in the 19th century opened up the lucrative Paris market.
+- (about) Whites, 1% of production, are made mostly with Chardonnay, though Aligoté was also permitted until 2024.
+- (culture) Most vines are trained in the traditional gobelet style, where the spurs of the vines are pushed upwards and arranged in a circle, resembling a chalice.
+- (about) Aligote vines that were planted prior to 2004 are permitted in wine production, but the entire grape variety is being phased out of the region by 2024.
 
 Learn more:
 
@@ -2483,8 +2478,8 @@ Bleu du Vercors-Sassenage is a mild pasteurized natural rind cow's milk blue che
 Fun facts:
 
 - (inspiration) Bleu du Vercors-Sassenage is named for the Vercors Massif and the town of Sassenage.
-- (history) The cheese has been a protected Appellation d'Origine Contrôlée since 1998.
 - (origin) Bleu du Vercors-Sassenage was first made in Drôme, Isère.
+- (history) The cheese has been a protected Appellation d'Origine Contrôlée since 1998.
 
 More fun facts (when the user asks for more):
 
@@ -2511,17 +2506,17 @@ Fun facts:
 
 - (origin) Camembert was first made in the late 18th century in Camembert, Normandy, in northwest France.
 - (history) From the early 20th century onwards, the rind has been more commonly pure white, but it was not until the mid-1970s that pure white became standard.
-- (about) Ridel, devised the wooden box that was used to carry the cheese and helped to send it for longer distances, in particular to America, where it became very popular.
+- (origin) Camembert was reportedly first made in 1791 by Marie Harel, a farmer from Normandy, following advice from Abbot Charles-Jean Bonvoust who came from Alençon.
 
 More fun facts (when the user asks for more):
 
-- (origin) Camembert was reportedly first made in 1791 by Marie Harel, a farmer from Normandy, following advice from Abbot Charles-Jean Bonvoust who came from Alençon.
 - (history) The variety named Camembert de Normandie was granted a protected designation of origin in 1992 after the original AOC in 1983.
 - (history) The origin of the cheese known today as Camembert is more likely to rest with the beginnings of the industrialization of the cheesemaking process at the end of the 19th century.
+- (history) In 1890, an engineer, M. Ridel, devised the wooden box that was used to carry the cheese and helped to send it for longer distances, in particular to America, where it became very popular.
 - (origin) Camembert was first made by Marie Harel.
 - (origin) Camembert was first made in Normandy.
-- (history) The cheese was famously issued to French troops during World War I, becoming firmly fixed in French popular culture as a result.
 - (origin) Camembert comes from France.
+- (history) The cheese was famously issued to French troops during World War I, becoming firmly fixed in French popular culture as a result.
 
 Learn more:
 
@@ -2564,20 +2559,20 @@ Chartreuse is a French herbal liqueur that has been made by Carthusian monks sin
 Fun facts:
 
 - (history) The word chartreuse was first recorded as the name of a colour in English in 1884, having previously referred only to the liqueur.
-- (culture) According to tradition, a marshal of artillery to French king Henry IV, François Annibal d'Estrées, presented the Carthusian monks at Vauvert, near Paris, with an alchemical manuscript that contained a recipe for an "elixir of long life" in 1605.
 - (inspiration) Chartreuse was named after the monks' Grande Chartreuse monastery, located in the Chartreuse Mountains north of Grenoble, France.
+- (culture) According to tradition, a marshal of artillery to French king Henry IV, François Annibal d'Estrées, presented the Carthusian monks at Vauvert, near Paris, with an alchemical manuscript that contained a recipe for an "elixir of long life" in 1605.
 
 More fun facts (when the user asks for more):
 
-- (history) The recipe was further enhanced in 1737 by Brother Gérome Maubec.
 - (history) The beverage soon became popular, and in 1764 the monks adapted the elixir recipe to make what is now called the "Elixir Végétal de la Grande Chartreuse".
-- (history) In 1810, Napoleon ordered that all "secret" recipes of medicine be sent to the Ministry of Interior for review.
-- (history) After the death of the pharmacist, his heirs returned the manuscript to the monks who had been back at the monastery since 1816.
 - (history) In 1840, they developed a milder version called green Chartreuse and a sweeter version called yellow Chartreuse.
-- (history) The monks were again expelled from the monastery following a French law in 1903, and their real property, including the distillery, was confiscated by the government.
 - (inspiration) Chartreuse is named after Carthusian monastery.
 - (history) Chartreuse dates from 1764-.
 - (origin) Chartreuse comes from France.
+- (history) The recipe was further enhanced in 1737 by Brother Gérome Maubec.
+- (history) In 1810, Napoleon ordered that all "secret" recipes of medicine be sent to the Ministry of Interior for review.
+- (history) After the death of the pharmacist, his heirs returned the manuscript to the monks who had been back at the monastery since 1816.
+- (history) The monks were again expelled from the monastery following a French law in 1903, and their real property, including the distillery, was confiscated by the government.
 
 Learn more:
 
@@ -2628,18 +2623,18 @@ Condrieu is a French wine-growing Appellation d'Origine Contrôlée (AOC) locate
 
 Fun facts:
 
-- (history) Rhône wines in general started to be more in demand from the early 1970s, and stronger so from the late 1970s/early 1980s.
+- (history) This was particularly felt by some Rhône appellations in the early post-World War II era, including Condrieu and its neighbour Côte-Rôtie, with the 1950s and 1960s a particularly difficult time.
 - (origin) The wines made in this AOC are exclusively white, from the Viognier grape, which may have originated in the region.
 - (about) Viticulture in the area around Condrieu has existed since at least Roman times and it is possible that the area was first cultivated by the native Allobroges tribe.
 
 More fun facts (when the user asks for more):
 
-- (history) For most of the 20th century before the early 1970s, the only northern Rhône wine well-known far from the region was Hermitage, and there was little demand on the export market for Rhône wines.
-- (history) This was particularly felt by some Rhône appellations in the early post-World War II era, including Condrieu and its neighbour Côte-Rôtie, with the 1950s and 1960s a particularly difficult time.
-- (history) The area under vine was less than 12 hectares (30 acres) in the 1960s, 14 hectares (35 acres) in 1982, 98 hectares (240 acres) at the end of the century and 135 hectares (330 acres) in 2005.
+- (history) Rhône wines in general started to be more in demand from the early 1970s, and stronger so from the late 1970s/early 1980s.
 - (history) The Condrieu AOC was officially created in 1940.
 - (history) In the 18th century, Condrieu enjoyed a period of popularity as it gained access to the lucrative Parisian market.
 - (history) Condrieu AOC dates from 1940-.
+- (history) For most of the 20th century before the early 1970s, the only northern Rhône wine well-known far from the region was Hermitage, and there was little demand on the export market for Rhône wines.
+- (history) The area under vine was less than 12 hectares (30 acres) in the 1960s, 14 hectares (35 acres) in 1982, 98 hectares (240 acres) at the end of the century and 135 hectares (330 acres) in 2005.
 
 Learn more:
 
@@ -2789,14 +2784,14 @@ More fun facts (when the user asks for more):
 
 - (history) The term “fondue” appears in written sources that predate the first widely recognized recipe from 1699, suggesting that the practice itself existed long before it was formally recorded.
 - (culture) As a way to increase cheese consumption, it was promoted as a Swiss national dish by the Swiss Cheese Union (Schweizerische Käseunion) in the 1930s.
-- (history) However, the name "cheese fondue", until the late 19th century, referred to a dish composed of eggs and cheese, as in la Chapelle's 1735 Fonduë de Fromage, aux Truffes Fraiches; it was something between scrambled eggs with cheese and a cheese soufflé.
+- (history) The name "cheese fondue", until the late 19th century, referred to a dish composed of eggs and cheese, as in la Chapelle's 1735 Fonduë de Fromage, aux Truffes Fraiches; it was something between scrambled eggs with cheese and a cheese soufflé.
 - (history) Since the 1950s, the term "fondue" has been generalized to other dishes in which a food is dipped into a communal pot of liquid kept hot in a fondue pot.
 - (history) As recipes became more standardized in later centuries—especially following the earliest documented cheese-and-wine preparation in a 1699 Zürich cookbook—the dish evolved beyond its rural origins.
 - (history) With the introduction of corn starch to Switzerland in 1905, it became easier to make a smooth and stable emulsion of the wine and cheese, and this probably helped contribute to the success of fondue.
 - (culture) Although fondue is widely recognized as a Swiss tradition, its dates and influences reflect a broader European exchange of ideas, especially involving melted cheese dishes made with varieties such as Raclette and Gruyère.
 - (culture) Eventually, fondue came to be embraced as a symbol of Swiss identity, reflecting both the country’s agricultural traditions and its emphasis on communal dining.
-- (culture) What began as a practical solution eventually evolved into a cultural symbol of Switzerland.
 - (origin) Fondue comes from Switzerland.
+- (culture) What began as a practical solution eventually evolved into a cultural symbol of Switzerland.
 - (about) Not to be confused with Fondi.
 
 Learn more:
@@ -2820,12 +2815,11 @@ Fun facts:
 
 - (history) This recipe was created for the first time in 1930 by the wife of the mayor of Dijon, Gaston Gérard, for the French gastronomist, humorist and food critic Curnonsky.
 - (inspiration) According to one story, Reine Geneviève Bourgogne, first wife of the mayor of Dijon, was preparing a chicken in her usual way for the "prince of gastronomists".
-- (about) This mixture pleased the famous gastronomic critic.
+- (origin) Gaston Gérard chicken comes from France.
 
 More fun facts (when the user asks for more):
 
-- (about) He congratulated the mistress of the house for this recipe which he found strongly to his taste, and named it after his host.
-- (origin) Gaston Gérard chicken comes from France.
+- (about) This mixture pleased the famous gastronomic critic.
 
 Learn more:
 
@@ -2846,8 +2840,8 @@ Herbes de Provence is a mixture of dried herbs considered typical of the Provenc
 
 Fun facts:
 
-- (history) Formerly simply a descriptive term, commercial blends started to be sold under this name in the 1970s.
 - (origin) Herbes de Provence comes from France.
+- (history) Formerly simply a descriptive term, commercial blends started to be sold under this name in the 1970s.
 
 Learn more:
 
@@ -2902,10 +2896,10 @@ More fun facts (when the user asks for more):
 - (history) During the Siege of Paris (1870–1871), horse meat, along with the meat of donkeys and mules, was eaten by anyone who could afford it, partly because of a shortage of fresh meat in the blockaded city, and also because horses were eating grain that was needed by the human populace.
 - (about) Paleoindians, the first humans to inhabit the Americas, hunted the continents' native horses shortly prior to their extinction.
 - (history) At the battle of Eylau in 1807, Larrey served horse as soup and as bœuf à la mode.
-- (history) At Aspern-Essling (1809), cut off from the supply lines, the cavalry used the breastplates of fallen cuirassiers as cooking pans and gunpowder as seasoning, thus founding a practice that carried on until at least the Waterloo campaign.
 - (history) Despite the general Anglophone taboo, horse and donkey meat was eaten in Britain, especially in Yorkshire, until the 1930s, and, in times of postwar food shortages, surged in popularity in the United States and was considered for use as hospital food.
 - (about) The meat was, and still is, preserved by being sun-dried in the high Andes into a product known as charqui.
 - (history) Many Parisians gained a taste for horse meat during the siege, and after the war ended, horse meat remained popular.
+- (history) At Aspern-Essling (1809), cut off from the supply lines, the cavalry used the breastplates of fallen cuirassiers as cooking pans and gunpowder as seasoning, thus founding a practice that carried on until at least the Waterloo campaign.
 - (about) Not to be confused with Konina.
 
 Learn more:
@@ -2944,15 +2938,14 @@ A leek is a biennial vegetable, a cultivar of Allium ampeloprasum, the broadleaf
 
 Fun facts:
 
-- (history) In the play, Henry V tells the Welsh officer Fluellen that he, too, is wearing a leek "for I am Welsh, you know, good countryman." The 1985 and 1990 British one pound coins bear the design of a leek in a coronet, representing Wales.
+- (history) The 1st century CE cookbook Apicius contains four recipes involving leeks.
 - (about) Raw leek was the favorite vegetable of the Emperor Nero, who consumed it in soup or oil, believing it beneficial to the quality of his voice.
 - (inspiration) According to one Welsh myth, King Cadwaladr of Gwynedd ordered his soldiers to identify themselves by wearing the vegetable on their helmets in an ancient battle against the Saxons that took place in a leek field.
 
 More fun facts (when the user asks for more):
 
-- (history) The 1st century CE cookbook Apicius contains four recipes involving leeks.
 - (culture) The leek has been known to be a symbol of Wales for a long time; Shakespeare, for example, refers to the custom of wearing a leek as an "ancient tradition" in Henry V (c. 1599).
-- (about) The leek is one of the national emblems of Wales, and it or the daffodil (in Welsh, the daffodil is known as "Peter's leek", Cenhinen Bedr) is worn on St.
+- (about) The leek is one of the national emblems of Wales, and it or the daffodil (in Welsh, the daffodil is known as "Peter's leek", Cenhinen Bedr) is worn on St. David's Day.
 - (culture) The Elizabethan poet Michael Drayton stated, in contrast, that the tradition was a tribute to Saint David, who ate only leeks when he was fasting.
 - (about) One version of the 2013 British one pound coin shows a leek with a daffodil.
 - (culture) In Romania, the leek is also widely considered a symbol of Oltenia, a historical region in the country's southwestern part.
@@ -2980,19 +2973,19 @@ Fun facts:
 
 - (inspiration) A number of legends arose relating how the Duke of Richelieu first tried the sauce, including his discovery of the sauce in a local inn of Mahon where he would have allegedly asked the innkeeper to make him some dinner during the siege of Mahon, and even that he invented it himself as a quick garnish.
 - (history) Mayonnaise is a French cuisine appellation that seems to have appeared for the first time in 1806.
-- (about) Other theories have been dismissed by some authors as being somewhat a retrospective invention aiming to credit the sauce as an invention of southwestern France, when, most likely, its origin can be found in the port city of Menorca.
+- (origin) Some have pointed out that it would make sense that mayonnaise originated in Spain given its requirement of olive oil, a liquid produced and consumed mostly there at the time.
 
 More fun facts (when the user asks for more):
 
-- (origin) Some have pointed out that it would make sense that mayonnaise originated in Spain given its requirement of olive oil, a liquid produced and consumed mostly there at the time.
 - (history) In 1750, Francesc Roger Gomila, a Valencian friar, published a recipe for a sauce similar to mayonnaise in Art de la Cuina ('Art of the Kitchen').
 - (culture) This sauce had clearly spread throughout the Crown of Aragon, for Juan de Altamiras gives a recipe for it in his celebrated 1745 recipe book Nuevo Arte de Cocinar ('New Art of Cooking').
-- (history) On April 18, 1756, the Duke of Richelieu invaded Menorca and took the port of Mahon.
-- (about) This is the first modern mention of a stable cold emulsified sauce.
 - (history) Mayonnaise is only in 1815 that Antonin Carême mentions a cold "magnonaise" emulsified with egg yolk.
 - (inspiration) Mayonnaise is named after Maó.
-- (about) A theory states that the aioli bo sauce was thereafter adopted by the cook of the Duke of Richelieu, who upon his return to France made the sauce famous in the French court. which would have been known as mahonnaise.
+- (about) Other theories have been dismissed by some authors as being somewhat a retrospective invention aiming to credit the sauce as an invention of southwestern France, when, most likely, its origin can be found in the port city of Menorca.
 - (origin) Mayonnaise comes from France.
+- (history) On April 18, 1756, the Duke of Richelieu invaded Menorca and took the port of Mahon.
+- (about) This is the first modern mention of a stable cold emulsified sauce.
+- (about) A theory states that the aioli bo sauce was thereafter adopted by the cook of the Duke of Richelieu, who upon his return to France made the sauce famous in the French court. which would have been known as mahonnaise.
 
 Learn more:
 
@@ -3039,13 +3032,13 @@ The navy bean, haricot bean, Jigna bean, pearl haricot bean, Boston bean, white 
 
 Fun facts:
 
-- (about) The United States military maintained a large base in Kingaroy and had many bases and camps throughout south-east Queensland.
 - (history) The name "Navy bean" is an American term coined because the US Navy has served the beans as a staple to its sailors since the mid-1800s.
+- (about) Kingaroy is known as the Baked Bean Capital of Australia.
 - (history) In Australia, navy bean production began during World War II when it became necessary to find an economical way of supplying a nutritious food to the many troops—especially American troops—based in Queensland.
 
 More fun facts (when the user asks for more):
 
-- (about) Kingaroy is known as the Baked Bean Capital of Australia.
+- (about) The United States military maintained a large base in Kingaroy and had many bases and camps throughout south-east Queensland.
 - (about) Another popular name for the bean during this time was "the Yankee bean".
 
 Learn more:
@@ -3067,18 +3060,17 @@ Fun facts:
 
 - (culture) The United Kingdom hosts several other annual oyster festivals; for example, Woburn Oyster Festival is held in September.
 - (origin) The word oyster comes from Old French oistre, and first appeared in English during the 14th century.
-- (history) The first known brewery to start this was in 1938 at the Hammerton Brewery in London.
+- (about) In the United Kingdom, the town of Whitstable is noted for oyster farming from beds on the Kentish Flats that have been used since Roman times.
 
 More fun facts (when the user asks for more):
 
-- (about) In the United Kingdom, the town of Whitstable is noted for oyster farming from beds on the Kentish Flats that have been used since Roman times.
 - (about) That is where the oyster stout was first started.
 - (about) Sergius Orata of the Roman Republic is considered the first major merchant and cultivator of oysters.
 - (history) In the early 19th century, oysters were cheap and mainly eaten by the working class.
 - (history) Throughout the 19th century, oyster beds in New York Harbor became the largest source of oysters worldwide.
-- (about) They have been cultivated in Japan from at least 2000 BC.
-- (about) He was so famous for this, the Romans used to say he could breed oysters on the roof of his house.
+- (history) The first known brewery to start this was in 1938 at the Hammerton Brewery in London.
 - (about) Not to be confused with Olustra.
+- (about) They have been cultivated in Japan from at least 2000 BC.
 
 Learn more:
 
@@ -3099,8 +3091,8 @@ Pistou (Provençal: pisto (classical) or pistou (Mistralian), pronounced [ˈpist
 Fun facts:
 
 - (history) The Dictionnaire de l'Académie française dates "pistou" from the 20th century, and defines it as a Provençal word denoting a condiment made from fresh basil, crushed with garlic and olive oil; the term derives from pistar (to grind) itself derived from the Latin pinsare (to pound, to grind).
-- (culture) The sauce is similar to Genoese pesto, which is traditionally made of garlic, basil, pine nuts, grated Sardinian pecorino, and olive oil, crushed and mixed with a mortar and pestle.
 - (origin) Pistou comes from France.
+- (culture) The sauce is similar to Genoese pesto, which is traditionally made of garlic, basil, pine nuts, grated Sardinian pecorino, and olive oil, crushed and mixed with a mortar and pestle.
 
 More fun facts (when the user asks for more):
 
@@ -3126,16 +3118,16 @@ Fun facts:
 
 - (history) The fame of the Victoria plum, first sold in 1844, has been put down to good marketing rather than any inherent quality.
 - (about) Plums are likely to have been one of the first fruits domesticated by humans, with origins in Eastern Europe, the Caucasus Mountains and China.
-- (origin) Three of the most abundantly cultivated species are not found in the wild, only around human settlements: Prunus domestica has been traced to East European and Caucasian mountains, while Prunus salicina and Prunus simonii originated in China.
+- (origin) According to Ken Albala, plums originated in Iran.
 
 More fun facts (when the user asks for more):
 
 - (about) Plums are likely to have been one of the first fruits domesticated by humans.
-- (origin) According to Ken Albala, plums originated in Iran.
 - (history) Plum cultivation is recorded in medieval monasteries in England.
 - (origin) The name plum comes from Old English plūme "plum, plum tree", an evolution of plūmā, which was a common West Germanic loanword from Latin prūnum, which borrowed it from Ancient Greek προῦμνον: proûmnon, itself believed to be a loanword from an unknown language of Asia Minor.
 - (history) In the late 18th century, the word plum was used to indicate "something sweet or agreeable", probably in reference to tasty fruit pieces in desserts, as in the word sugar plum.
 - (about) In 2023, China produced 55% of the world total of plums.
+- (origin) Three of the most abundantly cultivated species are not found in the wild, only around human settlements: Prunus domestica has been traced to East European and Caucasian mountains, while Prunus salicina and Prunus simonii originated in China.
 - (about) Not to be confused with potato, ale.
 
 Learn more:
@@ -3235,19 +3227,19 @@ Roquefort is a sheep-milk blue cheese from southern France.
 
 Fun facts:
 
-- (history) In 1925, the cheese was the recipient of France's first Appellation d'Origine Contrôlée when regulations controlling its production and naming were first implemented.
 - (about) In France, Roquefort is often called the "king of cheeses" or the "cheese of kings", although those names also apply to other cheeses.
+- (history) By 1820, Roquefort was producing 300 tonnes a year, a figure that steadily increased throughout the next century so that by 1914 it was 9,250.
 - (inspiration) According to legend, Roquefort cheese was discovered when a shepherd, eating his lunch of bread and ewes' milk cheese, saw a beautiful girl in the distance.
 
 More fun facts (when the user asks for more):
 
-- (history) By 1820, Roquefort was producing 300 tonnes a year, a figure that steadily increased throughout the next century so that by 1914 it was 9,250.
+- (history) In 1925, the cheese was the recipient of France's first Appellation d'Origine Contrôlée when regulations controlling its production and naming were first implemented.
 - (history) In AD 79, Pliny the Elder praised the cheeses of Lozère and Gévaudan and reported their popularity in ancient Rome; in 1737, Jean Astruc suggested that this was a reference to an ancestor of Roquefort.
-- (history) The theory was widely taken up and by the 1860s was being promoted by the Société des Caves.
 - (history) On 4 June 1411, Charles VI granted a monopoly for the ripening of the cheese to the people of Roquefort-sur-Soulzon as they had been doing for centuries.
 - (inspiration) Roquefort is named after Roquefort-sur-Soulzon.
 - (origin) Roquefort was first made in Roquefort-sur-Soulzon.
 - (origin) Roquefort comes from France.
+- (history) The theory was widely taken up and by the 1860s was being promoted by the Société des Caves.
 
 Learn more:
 
@@ -3287,19 +3279,18 @@ Salmon (; pl.: salmon) are any of several commercially important species of ray-
 Fun facts:
 
 - (about) First was the welcoming of the first catch, and then the cooking of it.
-- (history) The 1917 catch was one quarter of the 1913 catch.
 - (origin) The Modern English term salmon is derived from Middle English: samoun, samon and saumon, which in turn are from Anglo-Norman: saumon, from Old French: saumon, and from Latin: salmō (which in turn might have originated from salire, meaning "to leap".).
+- (history) On the Columbia River, the Chief Joseph Dam completed in 1955 completely blocks salmon migration to the upper Columbia River system.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Baseline data is near impossible to recreate based on the inconsistent historical data, but there has been massive depletion since the 1900s.
 - (about) Many tribes, such as the Yurok, had a taboo against harvesting the first fish that swam upriver in summer, but once they confirmed that the salmon run had returned in abundance they would begin to catch them in plentiful.
-- (history) In his 1908 State of the Union address, U.S.
-- (history) On the Columbia River, the Chief Joseph Dam completed in 1955 completely blocks salmon migration to the upper Columbia River system.
 - (history) The Fraser River salmon population was affected by the 1914 slide caused by the Canadian Pacific Railway at Hells Gate.
 - (history) After speaking to a string of other ancient animals who do not know his whereabouts, King Arthur's men Cai and Bedwyr are led to the Salmon of Llyn Llyw, who lets them ride its back to the walls of Mabon's prison in Gloucester.
+- (history) The 1917 catch was one quarter of the 1913 catch.
 - (origin) Many species of salmon have since been introduced and naturalized into non-native environments such as the Great Lakes of North America, Patagonia in South America and South Island of New Zealand.
 - (origin) The original salmon ceremony, introduced by indigenous tribes on the Pacific coast, consisted of three major parts.
+- (inspiration) Baseline data is near impossible to recreate based on the inconsistent historical data, but there has been massive depletion since the 1900s.
 
 Learn more:
 
@@ -3326,10 +3317,10 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Pilchard fishing and processing became a thriving industry in Cornwall, England from around 1750 to around 1880, after which it went into decline.
-- (history) Catches varied from year to year, and in 1871, the catch was 47,000 hogsheads, while in 1877, only 9,477 hogsheads.
-- (history) However, Sardinia is over 1000 km from Athens, so it seems "hardly probable that the Greeks would have obtained fish from so far as Sardinia at a time relatively so early as that of Aristotle", although the Myceneans traded with the Sardinians during the latter Bronze Age.
+- (history) Sardinia is over 1000 km from Athens, so it seems "hardly probable that the Greeks would have obtained fish from so far as Sardinia at a time relatively so early as that of Aristotle", although the Myceneans traded with the Sardinians during the latter Bronze Age.
 - (history) Since 1997, sardines from Cornwall have been sold as 'Cornish sardines', and since March 2010, under EU law, Cornish sardines have Protected Geographical Status.
 - (history) In the United States, the sardine canning industry peaked in the 1950s.
+- (history) Catches varied from year to year, and in 1871, the catch was 47,000 hogsheads, while in 1877, only 9,477 hogsheads.
 - (history) The canneries in Monterey Bay, in what was known as Cannery Row in Monterey County, California (where John Steinbeck's novel of the same name was set), failed in the mid-1950s.
 - (about) The pilchards were mostly exported to Roman Catholic countries such as Italy and Spain, where they are known as fermades.
 - (culture) The traditional "Toast to Pilchards" refers to the lucrative export of the fish to Catholic Europe: Here's health to the Pope, may he live to repent And add just six months to the term of his Lent And tell all his vassals from Rome to the Poles, There's nothing like pilchards for saving their souls!
@@ -3381,8 +3372,8 @@ A shrimp (pl.: shrimp (US) or shrimps (UK)) is a common name typically used for 
 Fun facts:
 
 - (history) Trawling was first recorded in England in 1376, when King Edward III received a request that he ban this new and destructive way of fishing.
-- (origin) Modern industrial shrimping methods originated in this area. "For shrimp to develop into one of the world's most popular foods, it took the simultaneous development of the otter trawl... and the internal combustion engine." Shrimp trawling can capture shrimp in huge volumes by dragging a net along the seafloor.
-- (about) There are thousands of species adapted to a wide range of habitats, both freshwater and marine; they can be found feeding near the seafloor on most coasts and estuaries, as well as in rivers and lakes.
+- (origin) Modern industrial shrimping methods originated in this area. "For shrimp to develop into one of the world's most popular foods, it took the simultaneous development of the otter trawl.. and the internal combustion engine." Shrimp trawling can capture shrimp in huge volumes by dragging a net along the seafloor.
+- (about) Being one of the more popular shellfish eaten, the muscular tails of many forms of shrimp are eaten by humans, and they are widely caught or farmed for human consumption.
 
 More fun facts (when the user asks for more):
 
@@ -3393,8 +3384,8 @@ More fun facts (when the user asks for more):
 - (history) Diesel engines were adapted for use in shrimp boats in the 1920s.
 - (history) By the 1960s, steel and fibreglass hulls further strengthened shrimp boats, so they could trawl heavier nets, and steady advances in electronics, radar, sonar, and GPS resulted in more sophisticated and capable shrimp fleets.
 - (history) As shrimp fishing methods industrialised, parallel changes were happening in the way shrimp were processed. "In the 19th century, sun dried shrimp were largely replaced by canneries.
-- (about) Being one of the more popular shellfish eaten, the muscular tails of many forms of shrimp are eaten by humans, and they are widely caught or farmed for human consumption.
 - (origin) In the mid nineteenth century, Chinese immigrants arrived for the California Gold Rush, many from the Pearl River Delta where netting small shrimp had been a tradition for centuries.
+- (about) There are thousands of species adapted to a wide range of habitats, both freshwater and marine; they can be found feeding near the seafloor on most coasts and estuaries, as well as in rivers and lakes.
 - (about) Not to be confused with Camarão.
 
 Learn more:
@@ -3511,8 +3502,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) The broth obtained from this process was known as pot likker and was served with crumbled corn pone, often made from coarse meal when little else was available along the antebellum frontier.
 - (about) In Scottish and some other English dialects, the word turnip can also refer to rutabagas (North American English), also known as swedes in England, a variety of Brassica napus, which is a hybrid between the turnip, Brassica rapa, and the cabbage.
+- (about) The broth obtained from this process was known as pot likker and was served with crumbled corn pone, often made from coarse meal when little else was available along the antebellum frontier.
 - (about) Not to be confused with Brassica napus subsp. rapifera, Brassica rapa subsp. rapa, Brassica rapa subsp. rapifera.
 
 Learn more:
@@ -3533,14 +3524,14 @@ Vacqueyras is a French wine Appellation d'Origine Contrôlée (AOC) in the south
 
 Fun facts:
 
-- (history) Côtes du Rhône Decree appellation in 1937, and in 1955 was promoted to Côtes du Rhône Villages status, becoming a named village in 1967.
+- (history) Vacqueyras received the A.O.C. Côtes du Rhône Decree appellation in 1937, and in 1955 was promoted to Côtes du Rhône Villages status, becoming a named village in 1967.
 - (about) However records are sparse, reduced to mentioning large vineyards and a decree on how to keep hungry goats away from the grapes.
 - (history) In 1990, Vacqueyras was granted its own AOC, the first in the region since Gigondas in 1971,
 
 More fun facts (when the user asks for more):
 
-- (history) Wine has been produced in the region since the 15th century.
 - (history) Vacqueyras AOC dates from 1990-.
+- (history) Wine has been produced in the region since the 15th century.
 
 Learn more:
 
@@ -3577,17 +3568,17 @@ Fun facts:
 
 - (history) Whipped cream was mentioned in the writings of Rabelais (Paris, 1531) and recipes are found in Cristoforo di Messisbugo (Ferrara, 1549), Bartolomeo Scappi (Rome, 1570), and Lancelot de Casteau (Liège, 1604).
 - (about) One modern author calls it a "popular milk foam" and suggests that it was "possibly a forerunner of whipped cream".
-- (history) A recipe for sneeu 'snow', is found in a manuscript from the Netherlands from circa 1525–1575.
+- (history) The French name crème fouettée for whipped cream is attested in 1629, and the English name "whipped cream" in 1673.
 
 More fun facts (when the user asks for more):
 
-- (history) The French name crème fouettée for whipped cream is attested in 1629, and the English name "whipped cream" in 1673.
 - (history) The earliest clear evidence for whipped cream, often sweetened and aromatised, comes in the 16th century, under the name milk or cream snow (neve di latte, neige de lait, neige de crème).
 - (history) The recipe "A Dyschefull of Snow" in A Proper Newe Booke of Cokerye (London, 1545) is made of a mixture of egg whites and cream.
 - (history) In these recipes, and until the end of the 19th century, naturally separated cream is whipped, typically with willow or rush branches, and the resulting foam ("snow") on the surface is from time to time skimmed off and drained.
 - (history) By the end of the 19th century, centrifuge separation was used to rapidly produce high-fat cream suitable for whipping.
 - (history) The name "snow cream" continued to be used in the 17th century.
 - (history) At the end of the 18th century, "whisked cream" could mean both whipped cream as well as cream curdled with wine and lemon to make a syllabub.
+- (history) A recipe for sneeu 'snow', is found in a manuscript from the Netherlands from circa 1525–1575.
 - (about) Not to be confused with Whipped Cream.
 
 Learn more:

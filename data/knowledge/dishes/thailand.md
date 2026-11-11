@@ -33,19 +33,19 @@ Aspic () or meat jelly is a savory gelatin made with a meat stock or broth, set 
 
 Fun facts:
 
-- (history) In the 1890s, packaged gelatins gained commercial success for the first time in America.
+- (history) A poetic reference is given by the poet Ibrahim ibn al-Mahdi, who described in the 9th century a gelled dish prepared with Iraqi carp, as "like ruby on the platter, set in a pearl.. steeped in saffron thus, like garnet it looks, vibrantly red, shimmering on silver".
 - (about) Carême also invented various types of aspic and ways of preparing it.
-- (history) A poetic reference is given by the poet Ibrahim ibn al-Mahdi, who described in the 9th century a gelled dish prepared with Iraqi carp, as "like ruby on the platter, set in a pearl... steeped in saffron thus, like garnet it looks, vibrantly red, shimmering on silver".
+- (history) The Dongjing Meng Hua Lu mentioned two types of meat aspic in the restaurants of Kaifeng, the Northern Song dynasty capital: "Crystalline Sliced Meat" and "Jiangchi".
 
 More fun facts (when the user asks for more):
 
-- (history) The Dongjing Meng Hua Lu mentioned two types of meat aspic in the restaurants of Kaifeng, the Northern Song dynasty capital: "Crystalline Sliced Meat" and "Jiangchi".
 - (history) A detailed recipe for aspic is found in Le Viandier, written around 1375.
-- (history) In the early 19th century, the French chef Marie-Antoine Carême created Chaudfroid sauce, the name referencing foods that were prepared hot and served cold.
-- (history) By the 1870s, boxed gelatin was available.
 - (history) By the 1920s, a third of salads published in cookbooks contained gelatin elements, and a tomato aspic was among jellied products of the era.
 - (history) By the 1950s, meat aspic was a popular dinner staple, as were other gelatin-based dishes such as tomato aspic.
 - (about) Cooks showed off their aesthetic skills by creating inventive aspics.
+- (history) In the 1890s, packaged gelatins gained commercial success for the first time in America.
+- (history) In the early 19th century, the French chef Marie-Antoine Carême created Chaudfroid sauce, the name referencing foods that were prepared hot and served cold.
+- (history) By the 1870s, boxed gelatin was available.
 - (about) Not to be confused with sulze.
 
 Learn more:
@@ -90,19 +90,18 @@ Fun facts:
 
 - (culture) Bua Loi is also traditionally eaten during the Dongzhi Festival in Thailand, which is a festival for the Chinese-Thai bloodline.
 - (inspiration) Bua loi was inspired by Tangyuan, a Chinese dessert that is traditionally eaten around the Lantern festival.
-- (about) Her mother was a Japanese and Portuguese woman named Ursula Yamada, whose family had emigrated to Thailand following the repression of Christianity in Japan during King Naresuan the Great period.
+- (about) The first types of dessert were Kaikob, Nokprow, Ai Tue, and Bua Loi (At that time, the Bua Loi recipe used popped rice instead of glutinous rice flour ).
 
 More fun facts (when the user asks for more):
 
+- (inspiration) From the record, Bua Loi is inspired by Tang Yuan.
 - (culture) In the King Rama I period, in the memo of Krom Luang Narintharathewi, wrote about the Celebration of the Emerald Buddha in 1809.
 - (history) In 1682, Maria married Constantine Phaulkon after he abandoned Anglicanism for Catholicism to show his sincerity.
-- (about) They had two sons, George "Jorge" Phaulkon and Constantin "João" Phaulkon, and lived a life of affluence as Phaulkon rose to become highly influential at the royal court of king Narai.
-- (about) The first types of dessert were Kaikob, Nokprow, Ai Tue, and Bua Loi (At that time, the Bua Loi recipe used popped rice instead of glutinous rice flour ).
 - (about) In the King Narai period, Chinese peoples evacuated to Thailand to trade and work, including working on cuisine for the palace.
-- (inspiration) From the record, Bua Loi is inspired by Tang Yuan.
 - (culture) During the festival, There're sweet decks for 2000 monks with are Chicken filling dessert, Foi Thong, Khanom Phing, Kluai Khaek, Rhum, Lhateang, Sangkhaya, and dessert in Kap Ho Khlong Hae boat to the sweet savory dishes poem.
 - (about) Around the Chulalongkorn period, Thai cuisine recipes began to be published and officially recorded.
 - (inspiration) Some Thai foods take inspiration and are adapted from other countries, such as from Portugal and China.
+- (about) They had two sons, George "Jorge" Phaulkon and Constantin "João" Phaulkon, and lived a life of affluence as Phaulkon rose to become highly influential at the royal court of king Narai.
 
 Learn more:
 
@@ -131,13 +130,13 @@ More fun facts (when the user asks for more):
 
 - (origin) Some sources also suggest a Hakka Chinese connection, with bánh lọt potentially originating among Hakka communities and brought by migrants to maritime Southeast Asia, where it became a popular rice-based sweet beverage in tropical climates.
 - (about) The earliest known written records referring to cendol (spelled “tjendol” in old Dutch orthography) date to the mid-nineteenth century in the Dutch East Indies.
-- (culture) Its basic components, including rice or tapioca flour, coconut milk, palm sugar and pandan, are longstanding features of indigenous Southeast Asian food traditions.
-- (culture) Some Thai sources suggest that an earlier form of lot chong, known as nokploi, formed part of Indian-influenced culinary rituals, reflecting the influence of Hindu and Brahmanical food and ritual traditions in Southeast Asia.
 - (about) Other culinary experts link cendol to the Persian dessert faloodeh, which was adapted in India as falooda before spreading to Southeast Asia.
-- (history) In Thailand, the dessert is known as lot chong, which can be translated as “gone through a hole”, referring to the method of pressing warm dough through a sieve into cold water.
 - (about) In Cambodia, variants include lot, bang-aem lot, nom lot, and banh lot, while in Laos it is known as lod song.
 - (about) In most parts of Indonesia, cendol refers to the green rice flour jelly, while the full preparation of jelly combined with coconut milk, shaved ice, palm sugar and sometimes diced jackfruit is known as es cendol in West Java or dawet in Central and East Java.
 - (origin) Cendol comes from Indonesia, Java.
+- (culture) Its basic components, including rice or tapioca flour, coconut milk, palm sugar and pandan, are longstanding features of indigenous Southeast Asian food traditions.
+- (culture) Some Thai sources suggest that an earlier form of lot chong, known as nokploi, formed part of Indian-influenced culinary rituals, reflecting the influence of Hindu and Brahmanical food and ritual traditions in Southeast Asia.
+- (history) In Thailand, the dessert is known as lot chong, which can be translated as “gone through a hole”, referring to the method of pressing warm dough through a sieve into cold water.
 - (about) Not to be confused with sugar palm fruit, Dawet.
 
 Learn more:
@@ -206,14 +205,14 @@ Fun facts:
 
 - (history) Cruller is first attested in Edinburgh in 1829 and is thought to copied from the 'cruller' of the United States according to the Scottish National Dictionary (1931–1976).
 - (about) Distinct from this, the "yum-yum" is a commonly available treat in the United Kingdom, which resembles a straightened French cruller coated in thin glacé icing.
-- (culture) They are traditionally baked on New Year's Eve as a family project, with the children doing the labor-intensive shaping and the grown-ups handling the deep frying.
+- (origin) In the United States, crullers were introduced in the late 18th and early 19th centuries by Pennsylvania Dutch settlers, and became popular in regions with large German populations.
 
 More fun facts (when the user asks for more):
 
+- (culture) The "Aberdeen crulla" is a traditional Scottish pastry made in the same way as the rectangular, plaited cruller of New England.
 - (about) In northern Germany they are known as Hirschhörner ('deer horns').
 - (about) In Danish they are known as klejner and in Swedish as klenäter, both names deriving from Low German.
-- (origin) In the United States, crullers were introduced in the late 18th and early 19th centuries by Pennsylvania Dutch settlers, and became popular in regions with large German populations.
-- (culture) The "Aberdeen crulla" is a traditional Scottish pastry made in the same way as the rectangular, plaited cruller of New England.
+- (culture) They are traditionally baked on New Year's Eve as a family project, with the children doing the labor-intensive shaping and the grown-ups handling the deep frying.
 
 Learn more:
 
@@ -255,12 +254,8 @@ Drunken noodles or drunkard noodles is a Thai stir-fried noodle dish similar to 
 
 Fun facts:
 
-- (about) She believed that the heavy mixture of spices including chilies would fix her husband's behavior.
-- (origin) Drunken noodles comes from Thailand.
 - (about) Its name refers to it being popular among the inebriated; unlike drunken chicken, alcohol is not part of the ingredients or preparation.
-
-More fun facts (when the user asks for more):
-
+- (origin) Drunken noodles comes from Thailand.
 - (about) Drunken noodles is widely available in restaurants or at street vendors in Thailand but it is also popular in the United States, and has become ubiquitous on Thai restaurant menus there.
 
 Learn more:
@@ -347,7 +342,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (inspiration) Grass jelly is created by using Chinese mesona (a member of the mint family) and has a mild, slightly bitter taste.
-- (origin) Grass jelly comes from People's Republic of China.
+- (origin) Grass jelly comes from the People's Republic of China.
 
 Learn more:
 
@@ -401,10 +396,10 @@ More fun facts (when the user asks for more):
 - (history) Green papaya salad was mentioned as a favorite Lao dish by a former Lao politician, Katay Don Sasorith (1904–1959), in a memoir recounting his experience during his primary school years in 1910s.
 - (history) Although it is unknown when papayas and chili peppers entered Laos specifically, they had already been fully integrated into the Lao territory by the time Jean-Baptiste Pallegoix and Henri Mouhot visited in mid-1800s, and were listed among key ingredients for preparing main Lao dishes.
 - (history) Papaya, among other fruits, were cultivated in Cambodia in the 1500s.
-- (history) Furthermore, according to the travelogue "Nirat Wang Bang Yi Khan" written in 1869 by Thai poet Khun Phum, the dish was already known among members of the Lao royal family living as war hostages in Bang Yi Khan compound in Bangkok, Siam.
+- (history) According to the travelogue "Nirat Wang Bang Yi Khan" written in 1869 by Thai poet Khun Phum, the dish was already known among members of the Lao royal family living as war hostages in Bang Yi Khan compound in Bangkok, Siam.
 - (origin) Thai historian Sujit Wongthes has speculated that the green papaya salad originated during the late 18th to early 19th centuries in the communities of ethnic Chinese–Lao settlers living in what is now Central Thailand, where papayas were widely cultivated by Chinese immigrants.
 - (about) Green papaya salad is also popular in neighboring Thailand, particularly in the Isan region, where the population is predominantly ethnic Lao.
-- (about) Beyond Laos and Thailand, green papaya salad has also gained popularity across continental Southeast Asia, including Cambodia, Myanmar, and Vietnam..
+- (about) Beyond Laos and Thailand, green papaya salad has also gained popularity across continental Southeast Asia, including Cambodia, Myanmar, and Vietnam.
 - (about) In Thai cuisine, the dish is known as som tam.
 - (about) Green papaya salad is variously known as: Burmese: သင်္ဘောသီးသုပ်; Khmer: បុកល្ហុង; Rakhine: ပဒကာသီးသုပ်; Northeastern Thai: ตำบักหุ่ง/ตำส้ม, pronounced [tām bǎk.hūŋ, tām.sòm]; and Vietnamese: gỏi đu đủ.
 - (origin) The Lao were introduced to papaya (mak hung) from Khmer Loeu living in provinces bordering the southeastern Laos (who called them l'hun or lohung/rohung in Khmer).
@@ -536,8 +531,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) Historically, there have been constant interactions and exchanges between cultures (and cuisines) of South Thailand and South India, in particular the Tamil kingdoms including the Chola.
 - (about) Kaeng tai pla or kaeng phung pla is a southern food and the famous dish from Phatthalung Province, but is also found in other Southern cities.
+- (about) Historically, there have been constant interactions and exchanges between cultures (and cuisines) of South Thailand and South India, in particular the Tamil kingdoms including the Chola.
 - (about) In 2024, TasteAtlas, a website that provides information about food from all over the world, often ranks the best and worst dishes of various types.
 
 Learn more:
@@ -566,14 +561,14 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) The term Kaeng Thepo literally means “Thepo curry.” The word kaeng refers to a Thai-style curry or soup, while thepo is believed to come from pla thepho, a freshwater catfish (Pangasius larnaudii) commonly found in the Chao Phraya River basin.
-- (culture) Others claim that the dish may have been first offered as temple food, and the association with “Thepo” symbolized merit-making and offerings to monks.
-- (origin) Despite these debates, most culinary historians agree that the name most likely originated from the fish species rather than a religious figure.
 - (culture) In this poem, the dish is praised in vivid terms: Kaeng thepho is classified as a traditional central Thai curry.
 - (about) Its original name derives from the freshwater shark catfish known as thepho (Pangasius larnaudii), which was once the primary ingredient used in preparing the dish.
 - (culture) Kaeng thepho was also noted in traditional literature such as royal poems, which praised its rich and savory flavor, suggesting that Kaeng Thepo had an established place in both household and ceremonial cooking during that era.
+- (culture) Others claim that the dish may have been first offered as temple food, and the association with “Thepo” symbolized merit-making and offerings to monks.
+- (origin) Kaeng thepho comes from Thailand.
+- (origin) Despite these debates, most culinary historians agree that the name most likely originated from the fish species rather than a religious figure.
 - (culture) As the fish became rare, pork belly was substituted, but the traditional name remained in use.
 - (culture) Some accounts suggest that the name Thepo may also have a religious or symbolic origin.
-- (origin) Kaeng thepho comes from Thailand.
 
 Learn more:
 
@@ -620,8 +615,8 @@ Khanom piak pun is a type of Thai dessert.
 
 Fun facts:
 
-- (about) There is no concrete evidence of when Khanom Piak poon was first invented.
 - (culture) Interviews with community elders reveal that Kanom Piak Poon has been passed down for generations, commonly made at home and sold during festivals and ceremonial events.
+- (about) There is no concrete evidence of when Khanom Piak poon was first invented.
 - (about) Kanom piakpoon is only speculated that it was made from the wisdom of our ancestors, who adapted the recipe from Khanom Gwan or Kalamae to create a new menu item called Khanom Piak poon.
 
 More fun facts (when the user asks for more):
@@ -666,18 +661,18 @@ Khanom chan is an ancient Thai khanom, or dessert.
 
 Fun facts:
 
-- (culture) The dessert is also commonly prepared for other important occasions, including the Mid-Autumn Festival, the Ullambana Festival (Vu Lan), and various family gatherings.
 - (origin) Originating from the Sukhothai Period, the dessert is a staple snack in Thai cuisine, and Thai people usually prepare it for auspicious ceremonies is a traditional Thai dessert distinguished by its layered appearance and method of preparation.
-- (history) However, some accounts claim that during the Dutch colonial era in Indonesia, around the reign of King Rama I, dessert-making methods from Indonesia had an impact on its growth.
+- (culture) The dessert is also commonly prepared for other important occasions, including the Mid-Autumn Festival, the Ullambana Festival (Vu Lan), and various family gatherings.
+- (about) A classic steamed dessert in Thailand, Khanom Chan is also popular in Malaysia, Singapore, Laos, Indonesia, the Philippines, and Vietnam, and other Southeast Asian countries.
 
 More fun facts (when the user asks for more):
 
-- (about) As a result, the food was developed from ingredients that came from many nations and was adapted to suit the living conditions of local people.
-- (about) A classic steamed dessert in Thailand, Khanom Chan is also popular in Malaysia, Singapore, Laos, Indonesia, the Philippines, and Vietnam, and other Southeast Asian countries.
 - (culture) Because of its layered look, which is sometimes connected to prosperity and advancement, Khanom Chan has become a well-known traditional delicacy in Thailand and is frequently made for important celebrations and auspicious events.
+- (origin) Khanom chan comes from Thailand.
+- (history) Some accounts claim that during the Dutch colonial era in Indonesia, around the reign of King Rama I, dessert-making methods from Indonesia had an impact on its growth.
+- (about) As a result, the food was developed from ingredients that came from many nations and was adapted to suit the living conditions of local people.
 - (culture) Banh Da Lon is a traditional Vietnamese steamed layered dessert that is especially popular in southern Vietnam.
 - (culture) Its popularity is attributed not only to its sweet flavor but also to its symbolic layered structure, which is often interpreted as representing good fortune, prosperity, and continuity.
-- (origin) Khanom chan comes from Thailand.
 
 Learn more:
 
@@ -699,8 +694,8 @@ Khanom tom and khanom kho are closely related traditional Thai desserts.
 
 Fun facts:
 
-- (culture) They are served at ceremonies, festivals, parties, and weddings.
 - (origin) Khanom kho comes from Thailand.
+- (culture) They are served at ceremonies, festivals, parties, and weddings.
 
 Learn more:
 
@@ -721,12 +716,12 @@ Khanom tan is a traditional Thai dessert consisting of small steamed cakes flavo
 Fun facts:
 
 - (history) The Thai term tan /taːn˧/ has its origins in the Indic language, as evidenced by its appearance in the Ram Khamhaeng Inscription No. 1 Face 3 Line 13, dated to 1292 CE.
-- (inspiration) During that time, the main ingredients used in preparing desserts were rice flour, sugar and coconut, in contrast to desserts from the later Ayutthaya period, which are based on a mixture of eggs and sugar.
 - (about) Today, Khanom Tan is not well known among younger generations due to its disappearance from street markets, but it is still a popular Thai dessert outside of the Bangkok area.
+- (origin) Khanom tan comes from Thailand.
 
 More fun facts (when the user asks for more):
 
-- (origin) Khanom tan comes from Thailand.
+- (inspiration) During that time, the main ingredients used in preparing desserts were rice flour, sugar and coconut, in contrast to desserts from the later Ayutthaya period, which are based on a mixture of eggs and sugar.
 
 Learn more:
 
@@ -895,16 +890,16 @@ Laab / Larb is a type of Lao meat salad that is the national dish of Laos, along
 Fun facts:
 
 - (history) Laab has a meaning in the Lan Na dialect (1292–1775), the neighboring kingdom of Lan Xang (1353–1707, present day Laos).
-- (culture) Historically, laab dishes were more common amongst the aristocracy and traditional recipes for laab served to Laotian royalty are in a collection of handwritten recipes from Phia Sing (1898–1967), royal chef and master of ceremonies.
-- (about) Laab can be served raw, which is known as laab diip (raw) or aharn suer (tiger food), or cooked, and usually served with a soup made with the bones of the meat being used.
+- (culture) Laab is considered to be an auspicious and lucky dish because traditionally meat was not readily available, and most Laotians would normally eat laab at special occasions, such as wedding, New Year celebrations and festivals.
+- (origin) Larb comes from Laos.
 
 More fun facts (when the user asks for more):
 
 - (history) Another French visitor, Doctor Estrade, who arrived in 1893, described laab as a Lao main dish made with boiled fish, chili and ground roasted sticky rice.
-- (culture) Laab is considered to be an auspicious and lucky dish because traditionally meat was not readily available, and most Laotians would normally eat laab at special occasions, such as wedding, New Year celebrations and festivals.
+- (culture) Historically, laab dishes were more common amongst the aristocracy and traditional recipes for laab served to Laotian royalty are in a collection of handwritten recipes from Phia Sing (1898–1967), royal chef and master of ceremonies.
 - (culture) In 2026, Laos submitted an application to UNESCO seeking to declare laab as Intangible Cultural Heritage.
+- (about) Laab can be served raw, which is known as laab diip (raw) or aharn suer (tiger food), or cooked, and usually served with a soup made with the bones of the meat being used.
 - (culture) During the New Year celebration, many Lao families believe that eating laab on day one of the three-day celebration will bring good fortune for the rest of the year.
-- (origin) Larb comes from Laos.
 - (about) Not to be confused with Llapi.
 
 Learn more:
@@ -926,8 +921,8 @@ Mamuang kuan, also referred to as preserved mango or mango leather, is a traditi
 
 Fun facts:
 
-- (culture) Traditionally, the mango is then sun-dried for multiple days, but this may be accelerated with a conventional oven.
 - (origin) Mamuang kuan comes from Thailand.
+- (culture) Traditionally, the mango is then sun-dried for multiple days, but this may be accelerated with a conventional oven.
 
 Learn more:
 
@@ -1083,7 +1078,7 @@ Fun facts:
 
 - (origin) Nam ngiao was first made in Yunnan, Chiang Mai, Chiang Rai, Mae Hong Son, Shan State.
 - (about) Nam ngiao has become famous in the northern Thai cuisine.
-- (origin) Nam ngiao comes from People's Republic of China, Myanmar, Thailand.
+- (origin) Nam ngiao comes from the People's Republic of China, Myanmar, Thailand.
 
 Learn more:
 
@@ -1110,8 +1105,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) Queen Sadub Ladawan is supposed to have created the recipe for an onboard picnic of two sister princesses – Sohmdet Ying Naawy and Sohmdet Ying Glaang.
 - (origin) Nam phrik long ruea comes from Thailand.
+- (about) Queen Sadub Ladawan is supposed to have created the recipe for an onboard picnic of two sister princesses – Sohmdet Ying Naawy and Sohmdet Ying Glaang.
 
 Learn more:
 
@@ -1234,13 +1229,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (inspiration) Since the opening of Fábrica de Pastéis de Belém, the original recipe that inspired pastel de nata varieties is kept in a secret room.
+- (inspiration) The Fábrica de Pastéis de Belém is, therefore, the only place in the world that produces the original pastry that inspired many variations commonly known as "pastéis de nata"; the shop is located just a short three-minute walk from the Jerónimos Monastery.
+- (origin) Pastel de nata comes from Portugal.
 - (history) In 1834, the monastery was closed and the recipe sold to the sugar refinery, whose owners opened the Fábrica de Pastéis de Belém in 1837.
 - (about) Outside Portugal, they are particularly popular in other parts of Western Europe, former Portuguese colonies, such as Brazil, Mozambique, Macau, Goa, Malacca and Timor-Leste, and other parts of Asia.
 - (about) In Indonesia, this pastry is especially popular in Kampung Tugu, Jakarta, a culturally Portuguese (Mardijker) enclave.
-- (inspiration) Since the opening of Fábrica de Pastéis de Belém, the original recipe that inspired pastel de nata varieties is kept in a secret room.
-- (inspiration) The Fábrica de Pastéis de Belém is, therefore, the only place in the world that produces the original pastry that inspired many variations commonly known as "pastéis de nata"; the shop is located just a short three-minute walk from the Jerónimos Monastery.
 - (about) In 2009, The Guardian listed pastéis de Belém as one of the 50 "best things to eat" in the world.
-- (origin) Pastel de nata comes from Portugal.
 
 Learn more:
 
@@ -1269,11 +1264,11 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (origin) This dish is said to have originated in that era.
-- (culture) Older preparations may also involve techniques like grilling the meat before simmering, reflecting traditional regional cooking practices.
 - (about) Today, Phanaeng remains a popular Thai curry both within Thailand and internationally.
 - (about) Phanaeng was later prepared in the palace style before becoming a popular dish in restaurants throughout Thailand.
 - (about) In the late twentieth century, phanaeng became widely known outside of Thailand due to the increasing popularity of Thai restaurants abroad.
 - (origin) Phanaeng comes from Thailand.
+- (culture) Older preparations may also involve techniques like grilling the meat before simmering, reflecting traditional regional cooking practices.
 
 Learn more:
 
@@ -1498,9 +1493,9 @@ Shumai is a type of traditional Chinese dumpling meat made of ground pork.
 
 Fun facts:
 
+- (origin) Shumai comes from the People's Republic of China.
 - (culture) The product was initially in the form of meat and vegetables wrapped in thin sheets, and was sold weighing only the wrapper, a tradition which is still kept in Hohhot.
 - (about) In 2021, "the craft of making Shaomai at Lao Suiyuan" was awarded as a non-material cultural heritage project in Hohhot.
-- (origin) Shumai comes from People's Republic of China.
 
 More fun facts (when the user asks for more):
 
@@ -1546,14 +1541,14 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) By 1929, two Shanghai factories were selling over 1000 bottles a day, and another in Beijing was almost as productive itself.
 - (history) Soymilk was mentioned in various European letters from China beginning in the 17th century. "Soy milk" entered the English language (as "soy-bean milk") in an 1897 USDA report.
-- (history) A tofu broth (doufujiang) c. 1365 was used during the Mongol Yuan.
 - (history) The compendium of Materia Medica, which was completed in 1578, also has an evaluation of soymilk.
-- (history) Its use increased during the Qing dynasty, apparently due to the discovery that gently heating doujiang for at least 90 minutes hydrolyzed or helped to break down its undesirable raffinose and stachyose, oligosaccharides which can cause flatulence and digestive pain among lactose-intolerant adults.
 - (history) By the 18th century, it was common enough that street vendors were hawking it; in the 19th, it was also common to take a cup to tofu shops to get hot, fresh doujiang for breakfast.
-- (history) Chard began production of "Soy Lac" in New York City, United States, in 1917.
+- (history) J.A. Chard began production of "Soy Lac" in New York City, United States, in 1917.
+- (history) By 1929, two Shanghai factories were selling over 1000 bottles a day, and another in Beijing was almost as productive itself.
 - (origin) Soy milk comes from China.
+- (history) A tofu broth (doufujiang) c. 1365 was used during the Mongol Yuan.
+- (history) Its use increased during the Qing dynasty, apparently due to the discovery that gently heating doujiang for at least 90 minutes hydrolyzed or helped to break down its undesirable raffinose and stachyose, oligosaccharides which can cause flatulence and digestive pain among lactose-intolerant adults.
 
 Learn more:
 
@@ -1619,8 +1614,8 @@ Suea rong hai is a Lao and Northeastern Thai local food cooked from brisket of b
 
 Fun facts:
 
-- (inspiration) Its name is based on a local myth, which means "crying tiger".
 - (origin) Suea rong hai comes from Thailand.
+- (inspiration) Its name is based on a local myth, which means "crying tiger".
 
 Learn more:
 
@@ -1701,12 +1696,12 @@ Fun facts:
 
 - (history) In 1957, a restaurant called Coca opened its first branch in Soi Tantawan, Bangkok, offering a modified version of the Chinese hot pot under the Japanese name of Sukiyaki.
 - (inspiration) Thai suki is named after sukiyaki.
-- (about) Other popular chains include Texas and Lailai.
+- (origin) Thai suki comes from Thailand.
 
 More fun facts (when the user asks for more):
 
 - (history) Today the MK Restaurant chain, which opened its first restaurant in 1962 on Siam Square in Bangkok, is the most popular in Thailand with around 430 restaurants across the country and 23 in Japan.
-- (origin) Thai suki comes from Thailand.
+- (about) Other popular chains include Texas and Lailai.
 
 Learn more:
 
@@ -1934,16 +1929,16 @@ Agar ( or ), or agar-agar, is a jelly-like substance consisting of polysaccharid
 
 Fun facts:
 
-- (history) Jelly seaweeds were also favoured and foraged by Malay communities living on the coasts of the Riau Archipelago and Singapore in Southeast Asia for centuries. 19th century records indicate that dried Graciliaria were one of the bulk exports of British Malaya to China.
+- (history) Agar was first subjected to chemical analysis in 1859 by the French chemist Anselme Payen, who had obtained agar from the marine algae Gelidium corneum.
 - (about) Agar is also known as kanten (from the phrase kan-zarashi tokoroten or "cold-exposed agar"), Japanese isinglass, China grass, Ceylon moss, and Jaffna moss.
 - (origin) Agar comes from Asia.
 
 More fun facts (when the user asks for more):
 
-- (history) Agar was first subjected to chemical analysis in 1859 by the French chemist Anselme Payen, who had obtained agar from the marine algae Gelidium corneum.
 - (history) Agar was first described for use in microbiology in 1882 by the German microbiologist Walther Hesse, an assistant working in Robert Koch's laboratory, on the suggestion of his wife Fanny Hesse.
-- (history) Gulaman was described in Vocabulario de la lengua tagala in 1754 by the Jesuit priests Juan de Noceda and Pedro de Sanlucar as "a herb, from which a jam-like preserve is made, grows in the sea", with an additional entry for guinolaman to refer to food made with the jelly.
 - (history) Beginning in the late 19th century, agar began to be used as a solid medium for growing various microbes.
+- (history) Jelly seaweeds were also favoured and foraged by Malay communities living on the coasts of the Riau Archipelago and Singapore in Southeast Asia for centuries. 19th century records indicate that dried Graciliaria were one of the bulk exports of British Malaya to China.
+- (history) Gulaman was described in Vocabulario de la lengua tagala in 1754 by the Jesuit priests Juan de Noceda and Pedro de Sanlucar as "a herb, from which a jam-like preserve is made, grows in the sea", with an additional entry for guinolaman to refer to food made with the jelly.
 - (history) By the mid-1970s, production worldwide had increased dramatically to approximately 10,000 tons each year.
 - (about) In the Philippines, Gracilaria, known as gulaman (also guraman, gar-garao, or gulaman dagat, among other names) in Tagalog, have been harvested and used as food for centuries, eaten both fresh or sun-dried and turned into jellies.
 
@@ -2093,15 +2088,14 @@ Goji, goji berry, or wolfberry, is the fruit of either Lycium barbarum or Lycium
 
 Fun facts:
 
+- (about) Since about 2000, dried goji berries and associated powder and juice products have become common in developed countries as snack foods or supposed alternative medicine remedies, extending from exaggerated and unproven claims about their health benefits.
 - (culture) The fruit has also been an ingredient in East Asian traditional medicine, namely traditional Chinese, Japanese, and Korean medicine since at least the 3rd century AD.
 - (history) The genus name Lycium was assigned by Linnaeus in 1753.
-- (origin) Both Lycium species are native to East Asia, and have been long used in traditional Chinese cuisine.
 
 More fun facts (when the user asks for more):
 
-- (about) Since about 2000, dried goji berries and associated powder and juice products have become common in developed countries as snack foods or supposed alternative medicine remedies, extending from exaggerated and unproven claims about their health benefits.
-- (about) The Latin name lycium is derived from the Greek word λύκιον (lykion), used by Pliny the Elder (23–79) and Pedanius Dioscorides (ca. 40–90) for a plant known as dyer's buckthorn, which was probably a Rhamnus species.
 - (about) In the English-speaking world, the name goji berry has been used since around 2000.
+- (about) The Latin name lycium is derived from the Greek word λύκιον (lykion), used by Pliny the Elder (23–79) and Pedanius Dioscorides (ca. 40–90) for a plant known as dyer's buckthorn, which was probably a Rhamnus species.
 
 Learn more:
 
@@ -2142,7 +2136,7 @@ Iced tea is a form of cold tea.
 Fun facts:
 
 - (history) Two of the earliest cookbooks with iced tea recipes are the Buckeye Cookbook by Estelle Woods Wilcox, first published in 1876, and Housekeeping in Old Virginia by Marion Cabell Tyree, copyright 1878.
-- (origin) Its popularity rapidly increased after Richard Blechynden introduced it at the 1904 World's Fair in St.
+- (origin) Its popularity rapidly increased after Richard Blechynden introduced it at the 1904 World's Fair in St. Louis.
 - (about) Iced tea is also a popular packaged drink, normally mixed with fruit-flavored syrup such as lemon and peach.
 
 More fun facts (when the user asks for more):
@@ -2177,9 +2171,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) The jackfruit tree might have originated in the Western Ghats range in India.
 - (inspiration) Native to India, the species was first described under the name Artocarpus heterophyllus in Encyclopédie Méthodique, Botanique in 1789 by Jean-Baptiste Lamarck, based on a specimen collected by botanist Philibert Commerson.
 - (inspiration) The species was first described under the name Artocarpus heterophyllus in Encyclopédie Méthodique, Botaniquein 1789 by Jean-Baptiste Lamarck, based on a specimen collected by botanist Philibert Commerson.
-- (origin) The jackfruit tree might have originated in the Western Ghats range in India.
 - (origin) In addition to the various countries in South Asia and Southeast Asia, where it is extensively grown, it has also been introduced across parts of Africa, Americas, and Oceania.
 - (about) In India, it is known as palaa in Tamil, kathal in Hindi and Bengali, and phanas in Marathi.
 - (about) Jackfruit is known as nangka in Tagalog, and nangkà in Cebuano and in Malay, all from the Austronesian language family.
@@ -2228,13 +2222,13 @@ Khanom farang kudi chin is a Thai-style cake that was influenced by Portuguese d
 Fun facts:
 
 - (history) After the fall of Ayutthaya and during the reign of King Taksin (1767–82), people migrated from the former capital to the new one located on Chao Phraya's west bank (now Thonburi), which included a number of Portuguese people.
-- (about) They were permitted to settle there by the king and intermarry with the Thais.
-- (culture) To this day, they have inherited legacies from their ancestors, such as Christianity and some western traditions.
+- (culture) Khanom farang kudi chin is topped with raisins, dried sweet gourds, and white sugar, which are symbols of good luck, and is made without using any baking powder or yeast.
+- (origin) Khanom farang kudi chin comes from Thailand.
 
 More fun facts (when the user asks for more):
 
-- (culture) Khanom farang kudi chin is topped with raisins, dried sweet gourds, and white sugar, which are symbols of good luck, and is made without using any baking powder or yeast.
-- (origin) Khanom farang kudi chin comes from Thailand.
+- (about) They were permitted to settle there by the king and intermarry with the Thais.
+- (culture) To this day, they have inherited legacies from their ancestors, such as Christianity and some western traditions.
 
 Learn more:
 
@@ -2257,17 +2251,17 @@ Fun facts:
 
 - (culture) Khao tom was listed in a collection of recipes for favorite dishes of the former Lao royal family written by Phia Sing (1898-1967), the king's personal chef and master of ceremonies.
 - (about) A similar dessert is enjoyed throughout Southeast Asian countries where it is known as num ansom in Khmer, lepet in Indonesian, suman in Filipino, and bánh tét and bánh chưng in Vietnamese.
-- (culture) Furthermore, khao tom is a popular snack sold during festivals, in markets and food stalls around the country.
+- (culture) Khao tom is a popular snack sold during festivals, in markets and food stalls around the country.
 
 More fun facts (when the user asks for more):
 
-- (culture) In Laos, sticky rice is a national staple food and steeped in the Lao culture and religious traditions.
 - (culture) Khao tom is offered during the Lao baci ceremony held to commemorate special occasions, such as starting a new job, marriage, housewarming, birth of a new baby, and celebration of Lao New Year.
-- (culture) In Thailand, the Sai Krachat tradition, also known as Suea Krachat or Soe Krachat in Phuan language, is a merit-making Buddhist tradition of the Thai Phuan people of Ban Mi District, Lopburi Province.
 - (culture) It takes place on the eve of the Great Birth Sermon celebration.
 - (culture) In Thailand, khao tom mat is the symbol of couples because for boiling usually the leaf wraps are bundled to sets of two.
 - (culture) Khao tom mat is also a traditional Thai dessert for Ok Phansa Day (the end of Buddhist lent in late October.), but it is then called khao tom luk yon.
 - (about) In 2014, the Department of Cultural Promotion under the Ministry of Culture registered khao tom mat as an intangible cultural heritage, in the Knowledge and Practices Concerning Nature and the Universe category, to prevent them from being lost along with other cultural heritage.
+- (culture) In Laos, sticky rice is a national staple food and steeped in the Lao culture and religious traditions.
+- (culture) In Thailand, the Sai Krachat tradition, also known as Suea Krachat or Soe Krachat in Phuan language, is a merit-making Buddhist tradition of the Thai Phuan people of Ban Mi District, Lopburi Province.
 
 Learn more:
 
@@ -2343,12 +2337,12 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Of the Rice Beer they likewise make Vinegar.” In 1790, during the reign of King Rama I, Bangyikhan Liquor Distillery was known to have been established.
+- (origin) Lao khao comes from Thailand.
 - (history) In 1834, English sources mention that exports of Siam included white spirits distilled from glutinous rice.
 - (history) The metals were switched out with stainless steel when the government took over all distilleries by 1960.
 - (history) By 1984, only twelve distilleries were left.
 - (history) ThaiBev then took control of these twelve distilleries in 1985, forming a monopoly.
 - (about) In 2003, Thaksin Shinawatra fulfilled an election promise made during the 2001 Thai general election to let people produce the spirits with licenses, thus breaking the monopoly.
-- (origin) Lao khao comes from Thailand.
 
 Learn more:
 
@@ -2368,16 +2362,16 @@ Mekhong is Thailand's first domestically produced branded golden spirit.
 
 Fun facts:
 
-- (history) The concession agreement expired in 1927 during the reign of King Prajadhipok.
 - (about) Mekhong Rum is mentioned several times on the album Hell's Ditch by The Pogues, along with other common Thai drinks. "Mekhong" (Mekong) is also the name of a popular song recorded by The Refreshments on the album Fizzy Fuzzy Big & Buzzy.
+- (history) The concession agreement expired in 1927 during the reign of King Prajadhipok.
 - (culture) Later, the Excise Department concocted another blended spirit using herbs combined with a traditional medicated liquor recipe.
 
 More fun facts (when the user asks for more):
 
+- (about) Mekhong is also known as "The Spirit of Thailand".
+- (history) Such a dramatic effect influenced the Excise Department to use "Mekhong" to name the 35-degree special blended spirit that was newly produced in 1941.
 - (history) In 1914, the ownership of the privately owned Sura Bangyikhan Distillery (lit.
 - (history) The Department then cancelled the concession for spirit distillation and distribution before taking over the spirit production on 1 April 1929.
-- (history) Such a dramatic effect influenced the Excise Department to use "Mekhong" to name the 35-degree special blended spirit that was newly produced in 1941.
-- (about) Mekhong is also known as "The Spirit of Thailand".
 - (about) The Kham Khong song was very popular and avidly instilled a patriotic sense into the hearts of Thai people.
 
 Learn more:
@@ -2448,7 +2442,7 @@ Nam chim or nam jim (Thai: น้ำจิ้ม, IPA: [nám tɕîm]) is Thai fo
 
 Fun facts:
 
-- (history) Many types of nam chim used in different dishes are mentioned in various cookbooks, including Mae Khrua Hua Pa (1908–1909) by Lady Plean Phatsakorawong, and "Nang Suea Kap Khao Son Luklan Kap Pholmai Khong Wang Lae Khanom" (1876-1961) by Mrs.
+- (history) Many types of nam chim used in different dishes are mentioned in various cookbooks, including Mae Khrua Hua Pa (1908–1909) by Lady Plean Phatsakorawong, and "Nang Suea Kap Khao Son Luklan Kap Pholmai Khong Wang Lae Khanom" (1876-1961) by Mrs. Kleep Mahitorn.
 - (about) Although Sriracha sauce is commonly known as sot Sriracha in Thailand (sot is the Thai pronunciation of the English word sauce), it is sometimes called nam chim Sriracha or nam phrik Sriracha.
 - (culture) Many of the ingredients in a nam chim are finely chopped or pounded in a mortar and pestle or, non-traditionally, ground in a blender.
 
@@ -2481,9 +2475,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) Nam phrik comes from Thailand.
 - (origin) The chef David Thompson, an acknowledged expert on Thai cuisine, writes, "They are at the very core of Thai cooking and have fed the Thai from their distant past to the present." Chili peppers originated in the Americas, where they have been cultivated for over 6,000 years.
 - (origin) They were probably introduced to Asia, and Thailand, in the 16th century by Portuguese emissaries and traders in what is known as the Columbian Exchange.
-- (origin) Nam phrik comes from Thailand.
 
 Learn more:
 
@@ -2607,9 +2601,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Phallus indusiatus has a recorded history of use in Chinese medicine extending back to the 7th century CE and features in Nigerian folklore.
-- (about) A Chinese common name that alludes to its typical growth habitat is "bamboo mushroom".
 - (culture) Southern China's Miao people continue to use it traditionally for a number of afflictions.
 - (culture) Phallus indusiatus has been prescribed as Traditional Chinese Medicine as a treatment for laryngitis, leucorrhea, fever, and oliguria (low urine output), diarrhea, hypertension, cough, hyperlipidemia, and in anticancer therapy.
+- (about) A Chinese common name that alludes to its typical growth habitat is "bamboo mushroom".
 
 Learn more:
 
@@ -2636,12 +2630,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) That etymology traces to John Fryer's A New Account of East India and Persia, in Eight Letters (1698).
 - (history) But around 1655, Jamaican-produced rum came into use, and the "modern" punch emerged.
 - (history) By 1671, documents make references to punch houses.
 - (about) Punch is usually served at parties in large, wide bowls, known as punch bowls.
 - (origin) From there it was introduced into other European countries.
 - (origin) Punch comes from India.
+- (history) That etymology traces to John Fryer's A New Account of East India and Persia, in Eight Letters (1698).
 - (about) Not to be confused with chronic traumatic encephalopathy.
 
 Learn more:
@@ -2662,16 +2656,16 @@ Sai krok Isan is a fermented sausage originating from northeastern provinces of 
 Fun facts:
 
 - (about) It is believed that the process evolved as a way to preserve food when refrigeration was not available.
-- (culture) The technique was traditionally made during community gatherings and seasonal festivals, and the fermentation process relied on naturally occurring bacteria like Pediococcus cerevisiae.
 - (culture) Isan sausages are found in region's "Heet Sip Song" (12 monthly merit-making festivals, such as Bung Bang Fai) and various community celebrations throughout the year, and it symbolized the resourcefulness of Isan ancestors in food preservation.
+- (culture) Traditional preparation methods involved mixing leftover meat with glutinous rice, garlic, and salt, then stuffing the mixture into cleaned intestines and fermenting for 3–4 days until it developed a sour taste.
 
 More fun facts (when the user asks for more):
 
-- (culture) TasteAtlas, a global food and travel guide known for ranking traditional dishes from around the world, released its list of the Top 100 Best Sausages in the World in July 2025.
-- (culture) Traditional preparation methods involved mixing leftover meat with glutinous rice, garlic, and salt, then stuffing the mixture into cleaned intestines and fermenting for 3–4 days until it developed a sour taste.
 - (about) Developed over time, the heritage of Sai krok Isan has adapted to modern ingredients and processes.
 - (culture) Isan sausage displays Thai traditions and culinary development while continuing to adapt to meet the modern standards of taste and safety.
 - (culture) Commonly served during social gatherings and celebrations, Sai krok Isan is one of the dishes that families share.
+- (culture) The technique was traditionally made during community gatherings and seasonal festivals, and the fermentation process relied on naturally occurring bacteria like Pediococcus cerevisiae.
+- (culture) TasteAtlas, a global food and travel guide known for ranking traditional dishes from around the world, released its list of the Top 100 Best Sausages in the World in July 2025.
 - (culture) Fermentation techniques and their methods have been passed down through tradition by generations, connecting and reflecting today's society to its roots.
 
 Learn more:
@@ -2691,16 +2685,16 @@ Sai oua, sometimes also known as Lao sausage, is a popular type of sausage made 
 
 Fun facts:
 
-- (history) Luang Prabang was once the royal capital and seat of power of the Kingdom of Lan Xang (1353–1707).
 - (culture) Sai oua was listed in a collection of favorite dishes of the former Lao royal family written by Phia Sing (1898–1967), the king's personal chef and master of ceremonies, and today it is one of several popular traditional Lao dishes.
-- (origin) The sausage originates from Luang Prabang, Laos.
+- (history) Luang Prabang was once the royal capital and seat of power of the Kingdom of Lan Xang (1353–1707).
+- (about) In Shan State, Myanmar, this sausage is known as sai long phik.
 
 More fun facts (when the user asks for more):
 
-- (about) At the height of its power, Luang Prabang's influence stretched from the borders of Sipsongpanna (China) to Steung Treng (Cambodia), and from the Annamite Range along the border with Vietnam to the Khorat Plateau in northeastern Thailand and its sister kingdom of Lan Na.
-- (about) In Shan State, Myanmar, this sausage is known as sai long phik.
 - (about) In Thailand, it is also known as northern Thai sausage or Chiang Mai sausage.
 - (about) Sai oua is a staple food in Thailand's northern provinces and has also become popular in the rest of the country.
+- (origin) The sausage originates from Luang Prabang, Laos.
+- (about) At the height of its power, Luang Prabang's influence stretched from the borders of Sipsongpanna (China) to Steung Treng (Cambodia), and from the Annamite Range along the border with Vietnam to the Khorat Plateau in northeastern Thailand and its sister kingdom of Lan Na.
 
 Learn more:
 
@@ -2745,19 +2739,19 @@ Satay or sate is a Southeast Asian dish consisting of small pieces of seasoned m
 Fun facts:
 
 - (culture) Satay is regarded as a national dish in Indonesia and Malaysia and remains a prominent element of hawker and street-food culture in Singapore, Thailand and Brunei.
-- (origin) Middle Eastern kebabs introduced by Muslim traders, South Asian cooking techniques brought by Tamil and Gujarati merchants, and Chinese practices such as bamboo skewering and bite-sized portions were adapted in the port cities of Java, Sumatra and the Malay Peninsula.
+- (origin) Satay is also popular in Suriname, where it was introduced by Javanese migrants during the colonial period.
 - (about) Not to be confused with shacha sauce.
 
 More fun facts (when the user asks for more):
 
 - (culture) Satay is widely consumed across Indonesia, Malaysia, Singapore, Brunei, Thailand and the southern Philippines, where it forms part of everyday meals, street food and festive occasions.
-- (culture) Regional adaptations reflect local ingredients and cooking traditions, incorporating elements such as sweet soy sauce, coconut milk, turmeric and spice pastes, often served with ketupat, lontong or pickled condiments.
 - (culture) Satay is prepared by hawkers, restaurants and home cooks alike, and has become a familiar feature of night markets and public celebrations.
-- (origin) Muslim merchants introduced these practices to South Asia, where they were adapted into local culinary traditions.
-- (origin) Satay is also popular in Suriname, where it was introduced by Javanese migrants during the colonial period.
 - (origin) Brought by contract workers from the Dutch East Indies in the late 19th and early 20th centuries, the dish became a part of Surinamese cuisine and is commonly known as sate.
 - (culture) Variants include chicken, beef, and goat satay, reflecting both Javanese culinary traditions and local adaptations.
 - (origin) Satay comes from Indonesia.
+- (origin) Middle Eastern kebabs introduced by Muslim traders, South Asian cooking techniques brought by Tamil and Gujarati merchants, and Chinese practices such as bamboo skewering and bite-sized portions were adapted in the port cities of Java, Sumatra and the Malay Peninsula.
+- (culture) Regional adaptations reflect local ingredients and cooking traditions, incorporating elements such as sweet soy sauce, coconut milk, turmeric and spice pastes, often served with ketupat, lontong or pickled condiments.
+- (origin) Muslim merchants introduced these practices to South Asia, where they were adapted into local culinary traditions.
 
 Learn more:
 

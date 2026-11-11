@@ -40,23 +40,23 @@ Babka is a sweet braided cake or viennoiserie that originated in the Jewish comm
 
 Fun facts:
 
-- (history) The cake is also the forerunner of the French baba au rhum (and Neapolitan babbà) via Polish king Stanisław Leszczyński's exile in Wissembourg, Lorraine, France, in the 18th century.
-- (culture) Traditionally fillings included jam or nuts, though now include chocolate, cinnamon, fruit, or cheese.
+- (history) Babka was developed in the early 19th century by the Jewish communities of Poland and Central and Eastern Europe.
 - (about) Babka is popular in Jewish communities worldwide, where it is also known as yeast cake or Ugat Shmarim.
+- (culture) The Eastern European babka is known for its tall, stout, fluted sides formed in a traditional pan, and reminiscent of a grandma's skirt.
 
 More fun facts (when the user asks for more):
 
-- (history) Babka was developed in the early 19th century by the Jewish communities of Poland and Central and Eastern Europe.
 - (history) Chocolate was not originally used, as it was not generally available; the chocolate babka was likely a mid-20th century American development.
 - (history) The Jewish babka was mostly unheard-of outside the Polish Jewish community until the latter part of the 20th century.
 - (history) European-style bakeries started to offer it in the late 1950s in Israel and the United States.
 - (history) In the 21st century it has found more popularity with non-Jewish communities.
-- (culture) To be pareve, traditional recipes used olive oil instead of butter.
+- (history) The cake is also the forerunner of the French baba au rhum (and Neapolitan babbà) via Polish king Stanisław Leszczyński's exile in Wissembourg, Lorraine, France, in the 18th century.
 - (about) Its name (though not necessarily the dish itself) may be related to a type of Easter cake popular in Poland and Ukraine known as baba or the diminutive babka, which means "grandmother".
-- (culture) The Eastern European babka is known for its tall, stout, fluted sides formed in a traditional pan, and reminiscent of a grandma's skirt.
-- (origin) In comparison, the variant introduced by émigrés to New York consists of strands of rich yeasted dough interwoven and baked in a loaf tin.
 - (about) In addition to chocolate, various fillings including poppy seeds, almond paste, cheese, and others became popular, and some bakers began to top it with streusel.
 - (about) Not to be confused with babka.
+- (culture) Traditionally fillings included jam or nuts, though now include chocolate, cinnamon, fruit, or cheese.
+- (culture) To be pareve, traditional recipes used olive oil instead of butter.
+- (origin) In comparison, the variant introduced by émigrés to New York consists of strands of rich yeasted dough interwoven and baked in a loaf tin.
 
 Learn more:
 
@@ -87,11 +87,11 @@ More fun facts (when the user asks for more):
 - (history) A manuscript recipe collection from the Radziwiłł family court, dating back to ca. 1686, contains instructions for cooking bigos of roast beef, fried fish and even chopped crêpes (thin pancakes).
 - (history) Kucharz doskonały (The Perfect Cook), a cookbook published by Wojciech Wielądko in 1783, contains recipes for beef, veal, wether mutton, oyster, as well as root vegetable bigos (the latter was a mixture of carrots, parsnip, rutabaga and celeriac).
 - (history) The 18th century saw the development of a poor man's version of the dish, known as bigos hultajski, or "rascal's bigos", in which vinegar and lemon juice were replaced with cheaper sauerkraut as the source of tartness.
+- (culture) Bigos is traditionally made from sliced or diced potatoes, onions, carrots, sausages and bacon arranged in layers inside a cast-iron cauldron greased with lard and lined with cabbage leaves, which is placed in bonfire embers for baking.
+- (origin) Bigos comes from Poland.
 - (culture) Aleksander Brückner has proposed the German Bleiguss, "piece of lead", as a possible source, referring to a tradition of divining from strangely shaped flakes of molten lead dropped into water.
 - (history) Maria Dembińska rejects this etymology as "doubtlessly erroneous", suggesting instead either archaic German becken, "to chop", or old German bîbôz (Beifuss in modern German), meaning "mugwort" (Artemisia vulgaris), a herb that was popular in medieval cuisine.
 - (history) Similar layered dishes of medieval origin also exist in other European cuisines; they include the Italian mescolanza (known in 16th-century Poland under the Polonized name miszkulancja) and the Alsatian Baeckeoffe (also known as potée boulangère), made from cabbage, leftover meats and fruits.
-- (culture) Bigos is traditionally made from sliced or diced potatoes, onions, carrots, sausages and bacon arranged in layers inside a cast-iron cauldron greased with lard and lined with cabbage leaves, which is placed in bonfire embers for baking.
-- (origin) Bigos comes from Poland.
 
 Learn more:
 
@@ -112,7 +112,6 @@ Kluski czarne (black dumplings; Silesian: czorne kluski), also known as kluski p
 
 Fun facts:
 
-- (culture) Both black and white dumplings are served at weddings and other traditional feasts in Silesia.
 - (culture) According to tradition, they should be served in odd numbers.
 
 Learn more:
@@ -180,11 +179,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) In volume two of L'art du cuisinier (1814), Antoine Beauvilliers, former chef to Louis XVI, included a recipe for a "Gâteau de Carottes", which was popular enough to be copied verbatim in competitors' cookbooks.
 - (history) In 1824, Beauvilliers published an English version of his cookbook in London which includes a recipe for "Carrot Cakes" in a literal translation of his earlier recipe.
 - (history) The popularity of carrot cake was revived in the United Kingdom because of the rationing during the Second World War and also because of the promotion of carrot consumption by the government.
 - (about) According to the Culinary Heritage of Switzerland, it is one of the most popular cakes in Switzerland, especially for the birthdays of children.
 - (origin) Carrot cake comes from Switzerland, France.
+- (history) In volume two of L'art du cuisinier (1814), Antoine Beauvilliers, former chef to Louis XVI, included a recipe for a "Gâteau de Carottes", which was popular enough to be copied verbatim in competitors' cookbooks.
 
 Learn more:
 
@@ -223,13 +222,13 @@ Cepelinai are potato dumplings made from grated potatoes and stuffed with ground
 Fun facts:
 
 - (culture) Cepelinai has been described as a national dish of Lithuania, and is typically served as a main dish.
-- (inspiration) Originally called didžkukuliai, or dumb-bells, they were renamed modishly in honour of Count Ferdinand von Zeppelin, pioneer of the rigid airship, in 1900.
+- (inspiration) Cepelinai is named after Zeppelin.
 - (history) In the Suwałki Region, Podlachia, Warmia and Masuria, it is known as kartacz (pol.Tooltip literal translation: grapeshot).
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Cepelinai is named after Zeppelin.
 - (origin) Cepelinai comes from Lithuania.
+- (inspiration) Originally called didžkukuliai, or dumb-bells, they were renamed modishly in honour of Count Ferdinand von Zeppelin, pioneer of the rigid airship, in 1900.
 
 Learn more:
 
@@ -252,20 +251,20 @@ Challah ( (K)HAH-lə; Hebrew: חַלָּה, romanized: ḥallā, pronounced [χa
 Fun facts:
 
 - (history) A plaited bread made from white flour in the form of a decorative plait, was first mentioned around 1400 by the Benedictine monk Jan of Holešov in his work Treatise on Christmas Eve.
-- (origin) These names originated from Proto-Slavic kolo meaning "circle", or "wheel", and refer to the circular form of the loaf.
 - (culture) Ritually acceptable challah is made of dough from which a small portion has been set aside as an offering.
+- (about) The practice of separating this dough sometimes became known as separating challah or taking challah.
 
 More fun facts (when the user asks for more):
 
-- (history) Author of A Blessing of Bread, Maggie Glezer, writes that the braiding began in 15th century Austria, Moravia and Southern Germany, "with Jewish housewives following their non-Jewish counterparts, who plaited the loaves they baked on Sundays".
-- (about) The practice of separating this dough sometimes became known as separating challah or taking challah.
 - (culture) This practice applies to any loaf of bread, not only to the Shabbat bread, but it is traditional to intentionally bake bread for the Sabbath in such a manner as to obligate oneself, to dignify the Shabbat.
-- (culture) The braids were meant to symbolize the Sabbath bride's hair, according to Professor Hasia R.
 - (about) In Poland it is commonly known as chałka, in Ukraine as kolach or khala and khala in Belarus and Russia.
-- (culture) The term koylatch is cognate with the names of similarly braided breads consumed on special occasions by other cultures outside the Jewish tradition in several European cuisines.
-- (culture) According to Jewish tradition, the three Sabbath meals (Friday night, Saturday lunch, and Saturday late afternoon) and two holiday meals (one at night and lunch the following day) each begin with two complete loaves of bread.
 - (culture) Challot - in these cases extremely large ones - are also sometimes eaten at other occasions, such as a wedding or a Brit milah, but without ritual.
 - (origin) Challah comes from Eastern Europe.
+- (history) Author of A Blessing of Bread, Maggie Glezer, writes that the braiding began in 15th century Austria, Moravia and Southern Germany, "with Jewish housewives following their non-Jewish counterparts, who plaited the loaves they baked on Sundays".
+- (culture) The braids were meant to symbolize the Sabbath bride's hair, according to Professor Hasia R. Diner.
+- (culture) The term koylatch is cognate with the names of similarly braided breads consumed on special occasions by other cultures outside the Jewish tradition in several European cuisines.
+- (origin) These names originated from Proto-Slavic kolo meaning "circle", or "wheel", and refer to the circular form of the loaf.
+- (culture) According to Jewish tradition, the three Sabbath meals (Friday night, Saturday lunch, and Saturday late afternoon) and two holiday meals (one at night and lunch the following day) each begin with two complete loaves of bread.
 - (about) Not to be confused with Chala, Chała.
 
 Learn more:
@@ -418,13 +417,13 @@ Fruitcake or fruit cake is a cake made with candied or dried fruit, nuts, and sp
 Fun facts:
 
 - (history) Pope Innocent VIII (1432–1492) finally granted the use of butter, in a written permission known as the ‘Butter Letter' or Butterbrief in 1490, giving permission to Saxony to use milk and butter in the Stollen fruitcakes.
-- (about) In the United Kingdom, certain rich versions may be iced and decorated.
 - (culture) Fruitcakes are usually served in celebration of weddings and Christmas.
+- (about) Not to be confused with biscuit, Fruitcake, fruitcake, tea loaf, fruit pie.
 
 More fun facts (when the user asks for more):
 
 - (history) Starting in the 16th century, sugar from the American Colonies (and the discovery that high concentrations of sugar could preserve fruits) created an excess of candied fruit, thus making fruitcakes more affordable and popular.
-- (about) Not to be confused with biscuit, Fruitcake, fruitcake, tea loaf, fruit pie.
+- (about) In the United Kingdom, certain rich versions may be iced and decorated.
 
 Learn more:
 
@@ -491,7 +490,7 @@ Karpatka is a traditional Polish cream pie with some sort of vanilla buttercream
 Fun facts:
 
 - (history) The origins of the dessert are unclear; it most likely emerged at the turn of the 1950s and 1960s, but its popularity only became widespread in the 1970s and 1980s.
-- (about) Nevertheless, the version with two layers of choux pastry is popular.
+- (about) The version with two layers of choux pastry is popular.
 - (culture) Traditionally, one large slice of the pie was served with coffee or tea.
 
 More fun facts (when the user asks for more):
@@ -625,13 +624,12 @@ Krówki, literally a diminutive form of the Polish word for "cow," are Polish fu
 
 Fun facts:
 
-- (history) Pomorski i syn" claims that the first krówki were produced in Poznań by the Pomorski family, which was later expelled by Nazi Germans to Milanówek near Warsaw during the German occupation of Poland in World War II.
+- (history) Originally it was made at home, and has been produced commercially since the 1930s.
 - (culture) Krówki added to the list of Polish Traditional Products by the Ministry of Agriculture and Rural Development: "Krówka opatowska" – is being made since 1982, produced in a traditional way, handmade cut and packed in Opatów, Świętokrzyskie Voivodeship.
 - (origin) Krówki comes from Poland.
 
 More fun facts (when the user asks for more):
 
-- (history) Originally it was made at home, and has been produced commercially since the 1930s.
 - (history) Widely known across Europe even before the end of the Cold War, they are something of an equivalent of the White Rabbit Creamy Candy famous across East Asia, or Scottish Tablet.
 - (about) Not to be confused with toffee.
 
@@ -724,15 +722,15 @@ Marinated mushrooms are forest or cultivated edible mushrooms preserved in vario
 
 Fun facts:
 
-- (history) However, the first recipes for preparing marinated mushrooms appeared in cookbooks in the mid-17th century.
+- (history) The first recipes for preparing marinated mushrooms appeared in cookbooks in the mid-17th century.
 - (origin) Marinated mushrooms are prepared from fresh mushrooms, which are first cooked and then marinated in a vinegar brine with spices.
-- (about) The Babylonians were already using vinegar as a means of preserving and pickling food – the first mention of this dates back to around 3000 years AC.
+- (culture) Marinated mushrooms are a traditional dish in Polish cuisine and are characteristic of other national cuisines as well.
 
 More fun facts (when the user asks for more):
 
-- (culture) Marinated mushrooms are a traditional dish in Polish cuisine and are characteristic of other national cuisines as well.
 - (culture) Several variations of marinated mushrooms have been registered by the Ministry of Agriculture and Rural Development as traditional products.
 - (culture) In English cuisine, marinated mushrooms were traditionally added to stews of meat, poultry, fish, and eggs.
+- (about) The Babylonians were already using vinegar as a means of preserving and pickling food – the first mention of this dates back to around 3000 years AC.
 
 Learn more:
 
@@ -759,12 +757,12 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (culture) The symbolism of mazurek is closely associated with the period of Lent, marking the successful completion of the festival.
-- (culture) Among the traditional yet distinctive versions is the "gypsy mazurek" (mazurek cygański), which consists of a sheet of half-short pastry that is half-baked, covered with a layer made of dried fruit, almonds, egg yolks creamed with sugar and whipped egg white and baked again..
-- (culture) Decorative patterns may include Easter symbols like eggs, hares, pussy willows and Easter greetings.
+- (culture) Among the traditional yet distinctive versions is the "gypsy mazurek" (mazurek cygański), which consists of a sheet of half-short pastry that is half-baked, covered with a layer made of dried fruit, almonds, egg yolks creamed with sugar and whipped egg white and baked again.
 - (culture) After a 40-day fast (although not a total abstinence from food), celebrated in Christian liturgy in memory of the Temptation of Christ, mazurek was supposed to be the rich reward for adherence to faith and tradition.
 - (culture) Although today, the religious meaning of mazurek is virtually lost in Poland, the cake is closely associated with seasonal celebrations nevertheless.
 - (culture) News portal Wirtualna Polska insisted that mazurek must not resemble any other regular cake, and that very traditionally "there should be 12 mazurek cakes at Easter, each with a different flavour".
 - (origin) Mazurek comes from Poland.
+- (culture) Decorative patterns may include Easter symbols like eggs, hares, pussy willows and Easter greetings.
 
 Learn more:
 
@@ -829,15 +827,15 @@ Napoleonka (Polish: [napɔlɛˈɔnka]; colloquially kremówka, is a Polish type 
 
 Fun facts:
 
-- (inspiration) These became popular particularly in the aftermath of a false story that Pope John Paul II was fond of that variant.
+- (inspiration) Napoleonka is named after Napoleon.
 - (about) In some places in Poland the cake is known as kremówka (roughly translated as "cream cake"), in others, it is called napoleonka.
-- (culture) In fact, the Pope was fond of the traditional kremówka.
+- (origin) Napoleonka comes from Poland.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Napoleonka is named after Napoleon.
 - (about) The cake is a variation of mille-feuille. a French dessert made of three layers of puff pastry filled with cream or jam, also known as the Napoleon.
-- (origin) Napoleonka comes from Poland.
+- (inspiration) These became popular particularly in the aftermath of a false story that Pope John Paul II was fond of that variant.
+- (culture) In fact, the Pope was fond of the traditional kremówka.
 
 Learn more:
 
@@ -865,14 +863,14 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) In 1496, King John Albert granted the bakers' guild of the city of Kraków a monopoly on baking white bread, including obwarzanki.
-- (about) This privilege was subsequently confirmed by all Polish kings up to John III Sobieski.
 - (history) The guild issued a decree in 1611 regulating the sale of obwarzanki inside the city walls and the choice of bakers who were allowed to sell them.
-- (history) A radical change took place in the 19th century.
 - (history) On 22 January 1802, a decree was signed which stipulated that any baker had the right to bake obwarzanki when it was his turn to do so.
 - (history) The custom of drawing lots probably ended in 1849, there being no evidence that it continued after that date.
-- (history) As late as the 1950s, they were sold straight from wicker baskets.
 - (culture) As a well-known symbol of Kraków and Lesser Poland, it is often used in advertising aimed at locals and tourists alike.
 - (origin) Obwarzanek krakowski comes from Poland.
+- (about) This privilege was subsequently confirmed by all Polish kings up to John III Sobieski.
+- (history) A radical change took place in the 19th century.
+- (history) As late as the 1950s, they were sold straight from wicker baskets.
 
 Learn more:
 
@@ -1047,8 +1045,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The company, which was founded in 1920, was purchased by Kraft Jacobs Suchard in 1993 (today Mondelez International).
 - (origin) Prince Polo comes from Poland.
+- (history) The company, which was founded in 1920, was purchased by Kraft Jacobs Suchard in 1993 (today Mondelez International).
 
 Learn more:
 
@@ -1071,23 +1069,23 @@ Ptasie mleczko or bird's milk is a confectionery originating in Poland as well a
 
 Fun facts:
 
-- (origin) Bird's milk was first created in 1936 in Poland by Jan Wedel, owner of the E.
-- (history) Its owner created the original "bird's milk" in 1936.
+- (history) Ptasie mleczko became a hit, and mass production was started in 1975 by the Krasny Oktyabr confectionery factory in Moscow.
 - (inspiration) Ptasie mleczko is named after crop milk.
+- (origin) Ptasie mleczko was first made by E. Wedel, Jan Wedel.
 
 More fun facts (when the user asks for more):
 
-- (origin) In Russia, ptichye moloko was originally a type of confectionery introduced in 1967 in Vladivostok and in 1968 by the Rot Front factory in Moscow.
-- (history) Ptasie mleczko became a hit, and mass production was started in 1975 by the Krasny Oktyabr confectionery factory in Moscow.
 - (history) Ptasie mleczko dates from 1936-.
-- (origin) Ptasie mleczko was first made by E. Wedel, Jan Wedel.
+- (origin) In Russia, ptichye moloko was originally a type of confectionery introduced in 1967 in Vladivostok and in 1968 by the Rot Front factory in Moscow.
 - (about) Other confectionery producers also make similar candies named differently (e.g., Alpejskie mleczko, "Alpine milk").
+- (origin) Ptasie mleczko comes from Poland.
+- (about) Not to be confused with crop milk, Ptasie mleczko.
+- (history) Its owner created the original "bird's milk" in 1936.
+- (origin) Bird's milk was first created in 1936 in Poland by Jan Wedel, owner of the E. Wedel Company.
 - (about) In Russia, ptichye moloko is both a popular candy and a famous soufflé cake derived from the Polish candy.
 - (culture) In the fairy tale Little Hare by Aleksey Remizov (who wrote many imitations of traditional Slavic folk tales), the magic bird Gagana produces milk.
 - (about) In 2021, a special edition with grapefruit flavor was produced.
 - (culture) Despite the name, the candy is not to be confused with the Romanian traditional dessert lapte de pasăre.
-- (origin) Ptasie mleczko comes from Poland.
-- (about) Not to be confused with crop milk, Ptasie mleczko.
 
 Learn more:
 
@@ -1128,9 +1126,8 @@ Pâté (UK: PAT-ay, US: pa(h)-TAY, French: [pɑte] ) is a forcemeat.
 
 Fun facts:
 
-- (history) Both the Dictionnaire de l'Académie française and the Oxford English Dictionary (OED) date the term back to the 12th century.
-- (origin) Pâté comes from Romania.
 - (history) By the 19th century the pastry case was often dispensed with.
+- (origin) Pâté comes from Romania.
 
 Learn more:
 
@@ -1279,14 +1276,14 @@ Sour cereal soup is a Polish traditional soup made with various types of cereals
 Fun facts:
 
 - (history) Potatoes became widespread among poor people of Czech lands in the late 18th century, so before that time soups of this type were also made without potatoes.
-- (inspiration) As a staple food, kyselo plays an important part in local legends and fairy tales, especially in connection to the mythical mountain lord Krakonoš.
 - (about) It is said that he gave sourdough to people and invented kyselo.
+- (origin) Sour cereal soup comes from Poland, Bohemia.
 
 More fun facts (when the user asks for more):
 
 - (about) Though it is also prepared in the mountainous regions of Bohemia in the Czech Republic, where it is known as kyselo.
+- (inspiration) As a staple food, kyselo plays an important part in local legends and fairy tales, especially in connection to the mythical mountain lord Krakonoš.
 - (culture) Kyselo has been a traditional daily food of poor people in the Giant Mountain region for centuries, primarily in the winter.
-- (origin) Sour cereal soup comes from Poland, Bohemia.
 
 Learn more:
 
@@ -1299,24 +1296,23 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q703313) (CC0); [Wikipedia: So
 
 ### St. Martin's croissant
 
-St.
+St. Martin's croissant is a croissant, a type of Viennoiserie, with white poppy-seed filling traditionally prepared in Poznań and some parts of Greater Poland region on the occasion of St. Martin's Day (11 November).
 
 - From: Poland
 - Origin (Wikidata): Poland
 
 Fun facts:
 
-- (inspiration) However, there is a popular legend that the tradition in its present form was born in November 1891.
-- (history) Martin's croissants on 11 November certainly existed in 1860, when the oldest known advertisement for the pastry was published in Dziennik Poznański.
-- (culture) After the First World War, Franciszek Rączyński returned to the tradition of giving gifts to the poor, and after the Second World War, Zygmunt Wasiński saved the croissant from oblivion.
+- (culture) In Poznań, the tradition of baking St. Martin's croissants on 11 November certainly existed in 1860, when the oldest known advertisement for the pastry was published in Dziennik Poznański.
+- (inspiration) There is a popular legend that the tradition in its present form was born in November 1891.
+- (origin) St. Martin's croissant comes from Poland.
 
 More fun facts (when the user asks for more):
 
+- (culture) After the First World War, Franciszek Rączyński returned to the tradition of giving gifts to the poor, and after the Second World War, Zygmunt Wasiński saved the croissant from oblivion.
 - (history) The custom of baking in 1901 was taken over by the Association of Confectioners.
-- (culture) Martin's croissant is a croissant, a type of Viennoiserie, with white poppy-seed filling traditionally prepared in Poznań and some parts of Greater Poland region on the occasion of St.
 - (about) On 30 October 2008, the name and recipe for rogal świętomarciński was entered in the register of protected designations of origin and protected geographical indications in the European Union.
 - (culture) The confectioner Józef Melzer, who was present at the mass and worked in a nearby confectionery, persuaded his boss to revive the old tradition.
-- (origin) St. Martin's croissant comes from Poland.
 
 Learn more:
 
@@ -1358,19 +1354,19 @@ Szczecin paprikash, also known as Polish paprikash, is a Polish canned fish spre
 
 Fun facts:
 
-- (history) The recipe was developed in Gryf laboratories between 1965 and 1967.
-- (about) Its invention was a result of an efficiency improvement project whose goal was to find a way to use up fish scraps left over from cutting blocks of frozen fish on Gryf's fishing trawlers.
+- (history) By the end of the 1960s, the company had left the West African waters due to the Nigerian Civil War; in 1977, it moved out of the northern Pacific Ocean when Canada and the United States claimed their exclusive economic zones; and in 1982, it had to abandon the Falkland waters because of the Argentine-British war.
+- (about) Not to be confused with paprikash.
 - (inspiration) According to Bogusław Borysowicz, a co-founder and long-time employee of Gryf, the recipe was inspired by "chop-chop", a West African delicacy sampled by Gryf's fishermen in one of the local ports.
 
 More fun facts (when the user asks for more):
 
-- (history) By the end of the 1960s, the company had left the West African waters due to the Nigerian Civil War; in 1977, it moved out of the northern Pacific Ocean when Canada and the United States claimed their exclusive economic zones; and in 1982, it had to abandon the Falkland waters because of the Argentine-British war.
 - (history) In 1967, Jakacki and his colleagues were issued a certificate for rationalization proposal, which, under communist intellectual property law, awarded them limited property rights to their improvement idea and allowed to put it in place.
 - (history) At the turn of the 1980s, paprykarz szczeciński amounted to about 50 percent of Gryf's total annual canned fish output of 22,000 tonnes (24,000 short tons).
-- (history) An economic downturn, which hit Poland in the 1980s, resulted in inferior quality of the product.
 - (history) The original recipe for paprykarz szczeciński is attributed to Wojciech Jakacki (1924–1987), deputy director and production manager at PPDiUR Gryf ("Griffin"), a state-owned far-sea fishing and fish processing company based in Szczecin.
+- (history) The recipe was developed in Gryf laboratories between 1965 and 1967.
+- (about) Its invention was a result of an efficiency improvement project whose goal was to find a way to use up fish scraps left over from cutting blocks of frozen fish on Gryf's fishing trawlers.
+- (history) An economic downturn, which hit Poland in the 1980s, resulted in inferior quality of the product.
 - (about) Due to its low price and long shelf life, the spread quickly gained popularity among Polish students, artists and hikers.
-- (about) Not to be confused with paprikash.
 
 Learn more:
 
@@ -1466,14 +1462,14 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Finally in 1556, they formed an agreement by which each city could bake the specialties of the other.
 - (history) In the 16th century, the Cistercian Order on the outskirts of Toruń prospered mainly due to this activity and even sold their product to other countries.
-- (history) During the 17th century, the well-known workshop of the Grauer family appeared.
-- (history) In the 18th and 19th century, the city saw a fall in baking and other craftsmanship.
 - (history) In 1875 the Toruń Gazette (Gazeta Toruńska) wrote on New Year's Eve that due to the demand it was even sold in Africa.
 - (inspiration) Toruń gingerbread is named after Toruń.
 - (about) Toruń and the city of Nuremberg, itself famous for special gingerbread, were eager to protect the secrets of their recipes from each other.
 - (origin) Toruń gingerbread comes from Poland.
+- (history) Finally in 1556, they formed an agreement by which each city could bake the specialties of the other.
+- (history) During the 17th century, the well-known workshop of the Grauer family appeared.
+- (history) In the 18th and 19th century, the city saw a fall in baking and other craftsmanship.
 
 Learn more:
 
@@ -1616,7 +1612,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The first recipe in Lithuania and the whole region was published in Vilnius by Jan Szyttler in 1830 (the culinary book "Kucharz dobrze usposobiony...").
+- (history) The first recipe in Lithuania and the whole region was published in Vilnius by Jan Szyttler in 1830 (the culinary book "Kucharz dobrze usposobiony..").
 - (culture) Šakotis can be decorated with chocolate and flower ornaments, but it is often served plain. Šakotis is one of the most important desserts in Lithuanian celebrations, especially at weddings or other special occasions such as Easter or Christmas.
 - (about) Šakotis was the sweet chosen to represent Lithuania in the Café Europe initiative of the Austrian presidency of the European Union, on Europe Day 2006.
 - (culture) In 2006, Masurian sękacz was included in the list of traditional products of the Warmian–Masurian Voivodeship in Poland.
@@ -1643,14 +1639,15 @@ Advocaat or advocatenborrel is a traditional Dutch alcoholic beverage made from 
 
 Fun facts:
 
-- (history) In 1876, the Antwerp distiller Eugen Verpoorten established a distillery in Heinsberg near Aachen, Germany, which made an egg liqueur (Eierlikör in German) using eggs, sugar, distilled alcohol, and other ingredients.
+- (history) Advocaat dates from 1700-.
 - (origin) Dutch colonials of northern Brazil introduced this beverage to Europe as "advocat/advocaat".
 - (about) Not to be confused with Dick Advocaat.
 
 More fun facts (when the user asks for more):
 
-- (history) Advocaat dates from 1700-.
-- (origin) Advocaat comes from Netherlands.
+- (origin) Advocaat comes from the Netherlands.
+- (history) In 1828, J.G. Cooymans started a distillery in downtown 's-Hertogenbosch.
+- (history) In 1876, the Antwerp distiller Eugen Verpoorten established a distillery in Heinsberg near Aachen, Germany, which made an egg liqueur (Eierlikör in German) using eggs, sugar, distilled alcohol, and other ingredients.
 
 Learn more:
 
@@ -1702,8 +1699,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The word was first recorded as brençe, described as "Vlach cheese", in the Croatian port of Dubrovnik in 1370.
 - (history) The modern version of the soft spreadable bryndza is believed to have been developed by entrepreneurs from Stará Turá (Western Slovakia) toward the end of the 18th century.
+- (history) The word was first recorded as brençe, described as "Vlach cheese", in the Croatian port of Dubrovnik in 1370.
 - (culture) Bryndza is an essential ingredient in preparing traditional Slovak dishes such as podplamenníky s bryndzou or bryndzové halušky.
 - (about) Outside Slovakia, Romania, Ukraine and the flanking regions of southern Poland, it is still popular nowadays in the Czech Republic under the Czech spelling "brynza".
 - (about) They traded bryndza and popularized it all around the Austrian Habsburg monarchy.
@@ -1757,9 +1754,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (inspiration) Chopin is named after Frédéric Chopin.
-- (about) Outcomes have generally been favorable, particularly after 2005.
 - (about) For instance, between 2006 and 2011, Chopin potato vodka earned one double gold, three gold, and two silver medals from the San Francisco World Spirits Competition.
 - (origin) Chopin comes from Poland.
+- (about) Outcomes have generally been favorable, particularly after 2005.
 
 Learn more:
 
@@ -1789,8 +1786,7 @@ More fun facts (when the user asks for more):
 - (history) The earliest reports of coffee drinking pertain to the plant's use among the Sufis of Yemen in southern Arabia in the middle of the 15th century.
 - (history) Up to the end of the 17th century, most of the world's coffee was imported from Yemen.
 - (history) The word coffee entered the English language in 1582 via the Dutch koffie, borrowed from the Ottoman Turkish kahve, borrowed from the Arabic qahwah.
-- (origin) Hattox records traditions in which the Islamic prophet Muhammad is said to have been introduced to a stimulating beverage by the Angel Gabriel, who recommended it for its restorative qualities.
-- (about) The herder is unnamed in the earliest account and the name Kaldi appears to be a later invention from the twentieth century.
+- (origin) Ralph S. Hattox records traditions in which the Islamic prophet Muhammad is said to have been introduced to a stimulating beverage by the Angel Gabriel, who recommended it for its restorative qualities.
 - (inspiration) Another legend attributes the discovery of coffee to a Sheikh Omar.
 - (history) There is no confirmed evidence, either historical or archaeological, of coffee as a drink being consumed before the 15th century.
 - (history) By the late 15th century, coffee drinking was well established among Sufi communities in Yemen.
@@ -1798,8 +1794,9 @@ More fun facts (when the user asks for more):
 - (culture) Though coffee has become a global commodity, it has a history tied to food traditions around the Red Sea.
 - (about) The global coffee industry was worth US$495.50 billion in 2023.
 - (about) In 2023, Brazil was the leading grower of coffee beans, producing 31% of the world's total, followed by Vietnam.
-- (culture) Medieval Arabic lexicons traditionally held that the etymology of qahwah meant 'wine', given its distinctly dark color, and was derived from the verb qahiya, 'to have no appetite'.
 - (origin) Coffee comes from Ethiopia, Yemen.
+- (about) The herder is unnamed in the earliest account and the name Kaldi appears to be a later invention from the twentieth century.
+- (culture) Medieval Arabic lexicons traditionally held that the etymology of qahwah meant 'wine', given its distinctly dark color, and was derived from the verb qahiya, 'to have no appetite'.
 - (about) Not to be confused with Joe, Kawa.
 
 Learn more:
@@ -1821,7 +1818,7 @@ Edible mushrooms are the fleshy fruit bodies of numerous species of properly ide
 Fun facts:
 
 - (about) Food tasters were employed by Roman emperors to ensure that mushrooms were safe to eat.
-- (culture) Additionally, mushrooms were consumed medicinally in traditional medicine, but are not upheld by evidence.
+- (culture) Mushrooms were consumed medicinally in traditional medicine, but are not upheld by evidence.
 
 Learn more:
 
@@ -1848,9 +1845,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (history) After 1945, when the city became part of Poland, only the Berlin factory continued to produce genuine Danziger Goldwasser.
 - (inspiration) The drink was invented by a Dutchman from De Lier, Ambrosius Vermeulen, who moved to Danzig and became a citizen of Danzig on 6 July 1598.
 - (history) In 1704 Ambrosius' grandson Salomon Vermöllen and his brother-in-law Isaac Wed-Ling moved production to new premises located in the Breitgasse.
-- (history) After 1945, when the city became part of Poland, only the Berlin factory continued to produce genuine Danziger Goldwasser.
 - (history) In 1971 Der Lachs was taken over by the Hardenberg-Wilthen distillery and production was moved to the town of Nörten-Hardenberg in West Germany.
 - (about) Wódka Gdańska is mentioned by the Polish-Lithuanian poet Adam Mickiewicz as a drink popular with the Polish nobility.
 
@@ -1912,18 +1909,18 @@ Grodziskie is a historical beer style from Poland made from oak-smoked wheat mal
 Fun facts:
 
 - (history) The first documented mention of the town of Grodzisk Wielkopolski was from around 1257 as part of lands owned by the Cistercian monastery in Paradyż.
-- (inspiration) A legend associated with the history of this beer relates to a Benedictine monk named Bernard of Wąbrzeźno.
+- (inspiration) Legends claimed that the newly refilled well had the ability to make whoever drank from it healthy again, and the beer that was produced from the water was far superior to any of the beer the brewers had been able to produce before.
 - (about) Industrial-scale brewing developed when Johann Volanus, the administrator of the Ostroróg estate and father of Andreas Volanus, a famous Reformation writer, imported skilled brewers from Moravia and Bohemia.
 
 More fun facts (when the user asks for more):
 
 - (history) In 1843 and 1844, there were two breweries in Grodzisk that shared the well.
-- (history) The earliest documentation of the beer being exported to other regions is from records in the nearby town of Wschowa from 1671.
 - (history) The beer was originally produced by brewers in the town of Grodzisk Wielkopolski in the 14th or 15th century.
+- (history) The earliest documentation of the beer being exported to other regions is from records in the nearby town of Wschowa from 1671.
 - (history) By 1993, the last brewery that was producing the style was shut down.
 - (history) By the 16th century, the Ostroróg family in Greater Poland (Wielkopolska) controlled the town.
+- (inspiration) A legend associated with the history of this beer relates to a Benedictine monk named Bernard of Wąbrzeźno.
 - (history) Around 1603, he arrived from the Benedictine monastery in Lubiń to find the residents starving and the town's wells depleted.
-- (inspiration) Legends claimed that the newly refilled well had the ability to make whoever drank from it healthy again, and the beer that was produced from the water was far superior to any of the beer the brewers had been able to produce before.
 - (history) A maltsters' and brewers' guild existed in the town in 1601.
 - (history) By 1866, the city had begun taxing the breweries for their use of the municipal wells.
 
@@ -2093,8 +2090,8 @@ Knedle (plural from German: Knödel, lit. 'dumpling'), is a dish of boiled ball-
 
 Fun facts:
 
-- (origin) Dumplings originated in the Austro-Hungarian Empire.
 - (about) Knedle are popular in Central and Eastern European countries.
+- (origin) Dumplings originated in the Austro-Hungarian Empire.
 
 Learn more:
 
@@ -2141,9 +2138,9 @@ Koryciński, also known as "Swojski" (homemade), is a hard cheese made from cow'
 
 Fun facts:
 
-- (culture) In the traditional technique of producing the cheese, dried and powderized veal stomachs were used as rennet.
-- (origin) Korycinski comes from Poland.
 - (culture) In 2005, the Koryciński cheese was included on the list of traditional food products by the Ministry of Agriculture of Poland.
+- (origin) Korycinski comes from Poland.
+- (culture) In the traditional technique of producing the cheese, dried and powderized veal stomachs were used as rennet.
 
 Learn more:
 
@@ -2218,15 +2215,15 @@ Nalewka, plural nalewki, is a traditional alcoholic beverage from Poland.
 Fun facts:
 
 - (history) It could also be confused with its cognate, nalivka or nalyvka, popular in Ukraine since the 17th century and in Russia since the second half of the 16th century.
-- (inspiration) The first documented alcoholic herbal tinctures were created by Hippocrates, the "father of medicine", as treatments for illnesses.
-- (origin) Creating sweetened alcoholic tinctures gained popularity in Poland during the 16th century, possibly due to an influx of French culture brought by Henry III of France.
+- (inspiration) Nalewka is created by macerating and / or infusing various ingredients in alcohol, usually vodka or neutral spirits.
+- (about) During Roman times it was popular to infuse wines with spices, giving rise to hippocras and mulled wine.
 
 More fun facts (when the user asks for more):
 
 - (history) The oldest known Polish book describing nalewka was written by Stefan Falimierz and published in Kraków in 1534, titled On Herbs and Their Potency (O ziolach y o moczy gich).
 - (history) The production of nalewka later spread to ordinary households, and from the mid to late 19th century a large number of books were published describing processes and recipes, as well as instructions for obtaining ingredients.
-- (inspiration) Nalewka is created by macerating and / or infusing various ingredients in alcohol, usually vodka or neutral spirits.
-- (about) During Roman times it was popular to infuse wines with spices, giving rise to hippocras and mulled wine.
+- (inspiration) The first documented alcoholic herbal tinctures were created by Hippocrates, the "father of medicine", as treatments for illnesses.
+- (origin) Creating sweetened alcoholic tinctures gained popularity in Poland during the 16th century, possibly due to an influx of French culture brought by Henry III of France.
 - (about) Families in the Polish nobility, known as the Szlachta, often kept these recipes secret, and they were only given to the senior children upon the death of the father.
 - (about) Not to be confused with nalivka.
 
@@ -2249,16 +2246,16 @@ Oscypek, rarely oszczypek, is a smoked cheese made of salted sheep milk exclusiv
 
 Fun facts:
 
-- (history) The first mention of cheese production in the Tatra Mountains dates back to the 15th century, in a document from the village of Ochotnica in 1416.
+- (history) The first recorded recipe for Oscypek was issued in 1748 in the Żywiec area.
 - (about) Oscypek is made by an expert named "baca", a term also denoting a shepherd in the mountains.
-- (culture) The cheese is a traditional holiday cheese in some European countries and is often pan-fried and served with cranberry jam (żurawina) on the side.
+- (origin) Oscypek comes from Poland.
 
 More fun facts (when the user asks for more):
 
-- (history) The first recorded recipe for Oscypek was issued in 1748 in the Żywiec area.
+- (history) The first mention of cheese production in the Tatra Mountains dates back to the 15th century, in a document from the village of Ochotnica in 1416.
 - (about) There is also a smaller form called redykołka, known as the 'younger sister' of oscypek.
 - (about) Since 14 February 2008 Oscypek has been registered under the European Union Protected Designation of Origin (PDO).
-- (origin) Oscypek comes from Poland.
+- (culture) The cheese is a traditional holiday cheese in some European countries and is often pan-fried and served with cranberry jam (żurawina) on the side.
 
 Learn more:
 
@@ -2301,13 +2298,12 @@ A soft drink (see § Terminology for other names) is a class of beverage contain
 
 Fun facts:
 
-- (history) White's Lemonade in 1845, Moxie in 1876, Dr Pepper in 1885 and Coca-Cola in 1886.
+- (history) Soft drink brands founded in the 19th century include R. White's Lemonade in 1845, Moxie in 1876, Dr Pepper in 1885 and Coca-Cola in 1886.
 - (about) Not to be confused with lemonade, tonic, carbonated beverage.
 - (history) Within a decade of the invention of carbonated water by Joseph Priestley in 1767, inventors in Europe had used his concept to produce the drink in greater quantities.
 
 More fun facts (when the user asks for more):
 
-- (history) Schweppe, formed Schweppes in 1783 and began selling the world's first bottled soft drink.
 - (history) The Compagnie des Limonadiers of Paris was granted a monopoly for the sale of lemonade soft drinks in 1676, making it the first marketed soft drink.
 - (history) Middle Eastern drinks later became popular in medieval Europe, where the word "syrup" was derived from Arabic.
 
@@ -2336,17 +2332,17 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest of the three to enter English is cha, which came in the 1590s via the Portuguese, who traded in Macao and picked up the Cantonese pronunciation of the word.
 - (origin) The third form chai (meaning "spiced tea") originated from a northern Chinese pronunciation of cha, which travelled via the overland Silk Road to Central Asia and Persia, where it picked up a Persian ending yi.
-- (origin) Chinese (small-leaf) type tea (C. sinensis var. sinensis) may have originated in southern China possibly with hybridization of unknown wild tea relatives.
 - (origin) Thus, Western Yunnan Assam tea and Indian Assam tea both may have originated from the same parent plant in the area where southwestern China, Indo-Burma, and Tibet meet.
-- (origin) However, as the Indian Assam tea shares no haplotypes with Western Yunnan Assam tea, Indian Assam tea is likely to have originated from an independent domestication.
+- (origin) As the Indian Assam tea shares no haplotypes with Western Yunnan Assam tea, Indian Assam tea is likely to have originated from an independent domestication.
 - (about) In the United Kingdom, 63% of people drink tea daily.
 - (culture) Traditionally, tea is made by steeping loose tea leaves in hot water (usually in a teapot or teacup) for a period of time, or in the case of compressed and fermented tea, via decoction (simmering) in a kettle.
 - (culture) Tea ceremonies have arisen in different cultures, such as the Chinese and Japanese traditions, each of which employs certain techniques and ritualised protocol of brewing and serving tea for enjoyment in a refined setting.
 - (about) Ireland, as of 2016, was the second-biggest per capita consumer of tea in the world, after Turkey.
 - (about) In 2004, Turkey produced 205,500 tonnes of tea (6.4% of the global total), which made it one of the largest tea markets in the world, with 120,000 tons being consumed in Turkey and the rest being exported.
 - (about) Not to be confused with herbal tea, tea.
+- (history) The earliest of the three to enter English is cha, which came in the 1590s via the Portuguese, who traded in Macao and picked up the Cantonese pronunciation of the word.
+- (about) In 2010, Turkey had the highest per capita consumption in the world at 2.7 kg.
 
 Learn more:
 
@@ -2370,7 +2366,7 @@ Fun facts:
 
 - (culture) Traditionally prepared tvorog is customarily classified according to its fat content.
 - (inspiration) According to the GOST standards, tvorog is classified, based on physical and chemical properties, into several categories: fat-free, low-fat, classic, and fatty.
-- (origin) Tvorog comes from Poland, Russia, Ukraine, Czech Republic, Slovakia.
+- (origin) Tvorog comes from Poland, Russia, Ukraine, the Czech Republic, Slovakia.
 
 More fun facts (when the user asks for more):
 

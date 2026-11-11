@@ -60,8 +60,6 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The oldest recorded use of the word confectionery discovered so far by the Oxford English Dictionary is by Richard Jonas in 1540, who spelled or misspelled it as "confection nere" in a passage "Ambre, muske, frankencense, gallia muscata and confection nere", thus in the sense of "things made or sold by a confectioner".
-- (history) In 1390, the treasurer of the Earl of Derby included "penydes" in the audit of his provisions and expenses for expeditions made to Prussia and the Holy Land.
-- (history) By the 16th century, a cumfit was more specifically a seed, nut or small piece of spice enclosed in a round or ovoid mass of sugar.
 - (history) The production of comfits was a core skill of the early confectioner, who was known more commonly in 16th and 17th century England as a comfitmaker.
 - (history) An important study of Ottoman confectionery called Conditorei des Orients was published by the royal confectioner Friedrich Unger in 1838.
 - (about) The first confectionery in Manchester, England was opened by Elizabeth Raffald who had worked six years in domestic service as a housekeeper.
@@ -69,6 +67,8 @@ More fun facts (when the user asks for more):
 - (about) The words candy (Canada and US), sweets (UK, Ireland, and others), and lollies (Australia and New Zealand) are common words for some of the most popular varieties of sugar confectionery.
 - (culture) Traditional confectionery goes back to ancient times and continued to be eaten through the Middle Ages and into the modern era.
 - (inspiration) Before sugar was readily available in the ancient western world, confectionery was based on honey.
+- (history) In 1390, the treasurer of the Earl of Derby included "penydes" in the audit of his provisions and expenses for expeditions made to Prussia and the Holy Land.
+- (history) By the 16th century, a cumfit was more specifically a seed, nut or small piece of spice enclosed in a round or ovoid mass of sugar.
 - (about) Not to be confused with pastry.
 
 Learn more:
@@ -90,9 +90,9 @@ Güllaç is a Turkish dessert made with milk, rose water, pomegranate and a spec
 
 Fun facts:
 
-- (history) Its first known mention is in a 14th-century book, Yinshan Zhenyao, a food and health manual written by Hu Sihui, a physician to the Mongol court of the Yuan dynasty.
 - (about) Güllaç is first attested in the Persian-Turkish dictionary Lügat-i Halîmî.
 - (inspiration) In Egypt, gollash pies are named after güllaç pastry, although the Egyptian version is baked, savoury and contains meat.
+- (history) Its first known mention is in a 14th-century book, Yinshan Zhenyao, a food and health manual written by Hu Sihui, a physician to the Mongol court of the Yuan dynasty.
 
 More fun facts (when the user asks for more):
 
@@ -145,8 +145,8 @@ Joshpara is a kind of dumpling popular in Central Asia, South Caucasus and the M
 Fun facts:
 
 - (history) Shishbarak was described in the proceedings of the International Congress of Orientalists from 1889-1891, which cite the cookbook 1885 Ustadh al-Tabbakhin by author Khalil Khattar Sarkis.
-- (about) According to food historian Charles Perry, the first element of the word, josh, means "to boil" in Persian, while the second element, para, is uncertain, possibly meaning "bit".
 - (origin) Joshpara comes from Iran.
+- (about) According to food historian Charles Perry, the first element of the word, josh, means "to boil" in Persian, while the second element, para, is uncertain, possibly meaning "bit".
 
 More fun facts (when the user asks for more):
 
@@ -173,7 +173,7 @@ Malfouf salad or cabbage salad, is a Levantine salad, typically consisting of sh
 
 Fun facts:
 
-- (origin) Malfouf salad comes from Levant.
+- (origin) Malfouf salad comes from the Levant.
 
 Learn more:
 
@@ -196,7 +196,7 @@ Fun facts:
 
 - (history) Commonly associated with rural Palestinian cuisine, it is especially popular during the olive harvest season and is typically served warm for breakfast alongside za'atar, tea, or yogurt.
 - (culture) Maltout is traditionally prepared in a taboon oven.
-- (origin) Maltout comes from Levant.
+- (origin) Maltout comes from the Levant.
 
 More fun facts (when the user asks for more):
 
@@ -292,10 +292,10 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The first Turkish attestation of the word is dated back to 1501 dictionary Câmiü'l-Fürs.
 - (history) There exists an Ottoman recipe for quince pestil dated to 1891.
-- (about) Pomegranates, grapes, apples, apricots, pears, peaches and watermelons are popular choices.
+- (history) The first Turkish attestation of the word is dated back to 1501 dictionary Câmiü'l-Fürs.
 - (about) Pestil is known as malban in Arabic.
+- (about) Pomegranates, grapes, apples, apricots, pears, peaches and watermelons are popular choices.
 
 Learn more:
 
@@ -323,7 +323,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) Qalayet bandora is popular across the Levant, but especially in Jordan and Palestine on account of its easy preparation and healthy ingredients.
-- (origin) Qalayet bandora comes from Jordan, Levant.
+- (origin) Qalayet bandora comes from Jordan, the Levant.
 
 Learn more:
 
@@ -392,15 +392,15 @@ Rummaniyeh is an Arab dish made from lentils and pomegranate juice.
 
 Fun facts:
 
-- (history) Its origins date back to at least the 10th century.
-- (about) They both appeared in the Tacuinum Sanitatis, a translation of a medicinal textbook of 11th-century Abbasid physician Ibn Butlan, as they were believed to have medicinal properties.
+- (history) The 1948 Palestinian expulsion and flight popularized the dish in refugee communities in the Gaza Strip.
+- (about) Rummaniyeh was a popular dish among Palestinians in the coastal area in cities like Jaffa, Ramla, and Lod.
 - (origin) Rummaniyeh comes from Turkey.
 
 More fun facts (when the user asks for more):
 
-- (history) The 1948 Palestinian expulsion and flight popularized the dish in refugee communities in the Gaza Strip.
 - (history) The dish appeared as romania in some texts, which was initially thought to be a named derived from the Roman Empire as the texts did not credit any Arabic sources, historian Maxime Rodinson argued that it was likely imported from Arabic.
-- (about) Rummaniyeh was a popular dish among Palestinians in the coastal area in cities like Jaffa, Ramla, and Lod.
+- (history) Its origins date back to at least the 10th century.
+- (about) They both appeared in the Tacuinum Sanitatis, a translation of a medicinal textbook of 11th-century Abbasid physician Ibn Butlan, as they were believed to have medicinal properties.
 
 Learn more:
 
@@ -443,8 +443,8 @@ Sumaghiyyeh is a Palestinian dish native to Gaza City, prepared traditionally on
 Fun facts:
 
 - (inspiration) Sumaghiyyeh is a traditional Arab dish, already mentioned in the 11th century, among other dishes by Abū al-Muṭahhar al-Azdī in the story Ḥikāyat Abū al-Qāsim.
-- (about) The ground sumac is first soaked in water and then mixed with Tahini (sesame seed paste), additional water, and flour for thickness.
 - (origin) Sumaghiyyeh comes from Turkey, Occupied Palestinian territory.
+- (about) The ground sumac is first soaked in water and then mixed with Tahini (sesame seed paste), additional water, and flour for thickness.
 
 Learn more:
 
@@ -473,8 +473,8 @@ More fun facts (when the user asks for more):
 
 - (history) By the 19th century, it was still made in Istanbul and was among the sweets brought as gifts to women who had recently given birth.
 - (history) According to food historian Priscilla Mary Işın, the dessert also spread to India by the 15th century, where it became known as jalebi.
+- (origin) Zalabiyeh comes from the Levant.
 - (about) According to 2 Samuel 13:8–10 King David's daughter prepared fritters for her step-brother Amnon.
-- (origin) Zalabiyeh comes from Levant.
 - (about) Not to be confused with Jalebi.
 
 Learn more:
@@ -495,7 +495,7 @@ Erq sous is a traditional beverage made from licorice root consumed in Egypt and
 Fun facts:
 
 - (about) This refreshing drink is particularly popular during the holy month of Ramadan, as it is believed to help maintain hydration during fasting.
-- (culture) However, the Egyptian preparation of erq sous sets it apart from other traditional uses of liquorice.
+- (culture) The Egyptian preparation of erq sous sets it apart from other traditional uses of liquorice.
 - (about) The drink dates back to a time when liquorice extracts were valued for their thirst-quenching properties, it is believed that it was regularly consumed by Egyptian soldiers throughout history to hydrate.
 
 More fun facts (when the user asks for more):
@@ -548,17 +548,17 @@ Maarouk, Marook, or "Ramadan bread", is a traditional Syrian leavened sweet brea
 
 Fun facts:
 
-- (history) A similar, date-stuffed, ring bread is mentioned as "aljerk" in the records from Jerusalem's Islamic court in the 17th century.
+- (history) Aleppan historian Khayr al-Din al-Asadi's encyclopedia (completed 1971, published posthumously in 1981) described maarouk as a type of ka'ak that is kneaded thoroughly then brushed with syrup after it is baked and then topped with sesame seeds and nigella sative seeds.
 - (culture) Maarouk is very popular during the month of Ramadan, and is traditionally stuffed with date paste, and flavored with mahleb.
 - (about) Maarouk is similar to other leavened breads found in Iraq and Turkey like Çörek, also known as "zherk", the Iraqi bread has a similar shape and date stuffing to maarouk.
 
 More fun facts (when the user asks for more):
 
-- (history) Aleppan historian Khayr al-Din al-Asadi's encyclopedia (completed 1971, published posthumously in 1981) described maarouk as a type of ka'ak that is kneaded thoroughly then brushed with syrup after it is baked and then topped with sesame seeds and nigella sative seeds.
+- (history) A similar, date-stuffed, ring bread is mentioned as "aljerk" in the records from Jerusalem's Islamic court in the 17th century.
+- (origin) Maarouk comes from the Levant.
 - (history) Kneaded leavened breads have existed in the Mashriq since at least the 10th century; the 10th-century cookbook Kitāb al-Ṭabīkh by Ibn Sayyar al-Warraq contained a recipe for khubz mʻrūk (well-kneaded bread).
 - (culture) The bread was traditionally only made during Ramadan.
 - (culture) The term maʿrūk derives from the Arabic root ʿaraka, meaning "to knead" or "to mix thoroughly until cohesive." Traditionally, maʿrūk was prepared by hand before the advent of kneading machines.
-- (origin) Maarouk comes from Levant.
 
 Learn more:
 
@@ -602,9 +602,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) Another theory holds that apricot season coincided with the sighting of the new moon marking the beginning of Ramadan in the year when qamar al-din was invented.
-- (history) A recipe for the fruit leather was provided in 1599 within a medical handbook by physician Dawud al-Antaki.
 - (culture) A similar theory, widespread in Egypt, traces the name's origin to a Caliph who was known to celebrate with qamar al-din upon seeing the crescent moon during Ramadan.
 - (origin) Qamar al-din comes from Syria.
+- (history) A recipe for the fruit leather was provided in 1599 within a medical handbook by physician Dawud al-Antaki.
 
 Learn more:
 

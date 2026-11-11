@@ -64,8 +64,8 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (origin) More likely, the dish originated at the border of northern Afghanistan with Uzbekistan.
-- (culture) Palaw dishes form a specific and longstanding tradition of rice preparation in the region, likely dating back as far as Bactrian times.
 - (origin) Kabuli pulao comes from Afghanistan.
+- (culture) Palaw dishes form a specific and longstanding tradition of rice preparation in the region, likely dating back as far as Bactrian times.
 
 Learn more:
 
@@ -88,14 +88,14 @@ Lassi is a yogurt–based beverage with a smoothie-like consistency.
 Fun facts:
 
 - (history) The word 'lassi' for the drink is a borrowing from Hindi, first attested in 1882; its ultimate origin is unclear, and has been suggested as derived ultimately from Sanskrit lasya (stickiness) or rasah (juice).
-- (origin) In Punjab, where the drink originated, the yogurt is traditionally made from water buffalo milk.
 - (culture) Lassi is traditionally served in a clay cup known as kulhar.
+- (origin) Lassi comes from India.
 
 More fun facts (when the user asks for more):
 
 - (history) In the 21st century, lassi is commonly consumed in many world regions.
-- (origin) Lassi comes from India.
 - (about) Not to be confused with Lassi.
+- (origin) In Punjab, where the drink originated, the yogurt is traditionally made from water buffalo milk.
 
 Learn more:
 
@@ -166,9 +166,9 @@ Black tea (also literally translated as red tea from various East Asian language
 
 Fun facts:
 
-- (origin) First originating in China, the beverage's name there is hong cha due to the colour of the oxidized leaves when processed appropriately.
 - (history) For this reason, it has long been an article of trade, and compressed bricks of black tea even served as a form of de facto currency in Mongolia, Tibet, and Siberia well into the 19th century.
 - (inspiration) Unblended black teas are often named after the region in which they are produced.
+- (origin) First originating in China, the beverage's name there is hong cha due to the colour of the oxidized leaves when processed appropriately.
 
 More fun facts (when the user asks for more):
 
@@ -196,12 +196,12 @@ Butter tea is a drink of the people in the Himalayan regions of Nepal, Bhutan, I
 Fun facts:
 
 - (history) The history of tea in Tibet dates back to the 7th century during the Tang dynasty.
-- (inspiration) According to legend, a Chinese princess married a king of Tibet which later helped establish trade routes between China and Tibet.
 - (culture) In the 13th century, tea was then used in Tibetan religious ceremonies.
+- (inspiration) According to legend, a Chinese princess married a king of Tibet which later helped establish trade routes between China and Tibet.
 
 More fun facts (when the user asks for more):
 
-- (history) However, butter tea did not become popular in Tibet until about the 13th century, the time of the Phagmodrupa dynasty.
+- (history) Butter tea did not become popular in Tibet until about the 13th century, the time of the Phagmodrupa dynasty.
 - (history) By the 8th century, it was common to drink tea in Tibet.
 - (culture) Traditionally, it is made from tea leaves, yak butter, water, tsampa (roasted barley flour) and salt, although butter made from cow's milk is increasingly used, given its wider availability and lower cost.
 - (origin) Butter tea comes from India.
@@ -245,8 +245,8 @@ Sharbat (Persian: شربت, pronounced [ʃæɾˈbæt]; Turkish şerbet, Arabic �
 
 Fun facts:
 
-- (history) The word is reported to have been first used in English vocabulary in 1603, and referenced by philosopher Francis Bacon in 1626.
 - (origin) It is believed that sharbats originated in Iran (Persia).
+- (history) The word is reported to have been first used in English vocabulary in 1603, and referenced by philosopher Francis Bacon in 1626.
 - (about) The first Western mention of sharbat is an Italian reference to something that Turks drink.
 
 More fun facts (when the user asks for more):
@@ -256,9 +256,9 @@ More fun facts (when the user asks for more):
 - (about) Popular sharbats are made of one or more of the following: basil seeds, golāb (rose water), fresh rose petals, sandalwood, bael, hibiscus, lemon, orange, mango, pineapple, grape, falsa (Grewia asiatica) and chia seeds.
 - (about) Sharbat is also popular with Muslims when breaking their daily fasts during the month of Ramadan.
 - (about) Around 400 BC, sharbat had become popular in Persia as fruit syrup historically cooled with snow.
-- (about) In the modern era sherbet powder is still popular in the UK, though Oxford Reference distinguishes this earlier drink from the later use of effervescent “sherbet powder” in English.
 - (culture) Sharbat was traditionally made with cane juice, but in modern times it is commonly made at home with sugar and water.
 - (origin) Sharbat comes from Iran.
+- (about) In the modern era sherbet powder is still popular in the UK, though Oxford Reference distinguishes this earlier drink from the later use of effervescent “sherbet powder” in English.
 - (about) Not to be confused with sorbet, sherbet.
 
 Learn more:

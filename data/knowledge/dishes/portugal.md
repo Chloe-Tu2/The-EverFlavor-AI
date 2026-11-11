@@ -12,9 +12,9 @@ Aletria is a custardy Portuguese dessert based on vermicelli (aletria).
 
 Fun facts:
 
-- (origin) Vermicelli was probably brought to the Iberian Peninsula by the Moors in the 8th or 9th century.
 - (history) The name aletria itself has disappeared in Spain, remaining only in the region of the ancient Kingdom of Murcia.
 - (origin) Aletria comes from Portugal.
+- (origin) Vermicelli was probably brought to the Iberian Peninsula by the Moors in the 8th or 9th century.
 
 Learn more:
 
@@ -35,13 +35,13 @@ Alheira, or Tabafeia in Mirandese, is a type of Portuguese sausage, made with me
 Fun facts:
 
 - (inspiration) The type of sausage that became known as "alheira" was invented by the Jews of Portugal, also known as Sephardic Jews, who in 1497 were given the choice of either being expelled from the country or converting to Christianity.
-- (culture) Those conversos who remained and secretly retained their beliefs avoided eating pork, forbidden in Judaism; this put them at risk of being noticed not to hang sausages, traditionally made of pork, in their fumeiros (smokehouses).
+- (culture) Alheiras were traditionally grilled or roasted and served with boiled vegetables.
 - (about) Although alheiras are typically associated with the city of Mirandela, the regions of Beira Alta and Trás-os-Montes are also famous for their alheiras.
 
 More fun facts (when the user asks for more):
 
-- (culture) Alheiras were traditionally grilled or roasted and served with boiled vegetables.
 - (origin) Alheira comes from Portugal.
+- (culture) Those conversos who remained and secretly retained their beliefs avoided eating pork, forbidden in Judaism; this put them at risk of being noticed not to hang sausages, traditionally made of pork, in their fumeiros (smokehouses).
 
 Learn more:
 
@@ -134,8 +134,8 @@ Azevias (singular: azevia) are traditional Portuguese fried pastries, turnovers 
 Fun facts:
 
 - (about) Recipes for azevias were first recorded in the refectory notebooks and cookbooks of the Poor Clare nuns of the Convent of Santa Clara in Évora.
-- (inspiration) Because of their thin profile compared to similar fried turnovers, they were named after a type of sole, a flatfish found in Portuguese waters.
 - (origin) Azevia comes from Portugal.
+- (inspiration) Because of their thin profile compared to similar fried turnovers, they were named after a type of sole, a flatfish found in Portuguese waters.
 
 More fun facts (when the user asks for more):
 
@@ -203,15 +203,15 @@ Bacalhau is the Portuguese word for cod and—in a culinary context—dried and 
 
 Fun facts:
 
-- (history) Portuguese, Norman, Breton, and English fisherman were the first to adopt the salt-based curing technique from Basque fishermen in Newfoundland near the cod-rich Grand Banks by the late 1500s.
 - (culture) This dish is also popular in Portugal and other Roman Catholic countries because of historical fasting rules, which forbade the eating of meat on many days (Fridays, Lent, and other festivals), and so bacalhau dishes were eaten instead.
 - (about) Bacalhau is also popular in Sfax where this dish is eaten with chermoula on the first day of Eid ul-Fitr.
+- (history) Portuguese, Norman, Breton, and English fisherman were the first to adopt the salt-based curing technique from Basque fishermen in Newfoundland near the cod-rich Grand Banks by the late 1500s.
 
 More fun facts (when the user asks for more):
 
+- (origin) Bacalhau comes from Portugal.
 - (history) By the 1700s, salted cod had become a staple food for ordinary Portuguese people and by upper levels of Portuguese society.
 - (history) With the advancements in freezing and transportation in the 1900s, salted cod from North America declined and Iceland and Norway became the major supplier of the salted fish to Portuguese markets.
-- (origin) Bacalhau comes from Portugal.
 
 Learn more:
 
@@ -323,12 +323,11 @@ Fun facts:
 
 - (inspiration) The recipe originates from Porto, having achieved popularity in Vizela, being named after its creator, Zé do Pipo, who owned a famous restaurant in Porto during the 1960s.
 - (culture) Although mayonnaise is not traditionally used in Portuguese cuisine, in this dish it's considered typical.
-- (about) He won a national gastronomic contest with this main course, making many restaurants adopt it in their menus and popularizing it through the country to this day.
+- (origin) Bacalhau à Zé do Pipo comes from Portugal.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) Bacalhau à Zé do Pipo is named after Zé do Pipo.
-- (origin) Bacalhau à Zé do Pipo comes from Portugal.
 
 Learn more:
 
@@ -398,8 +397,8 @@ Bife a cavalo, bife com ovo a cavalo, or bife a caballo is a traditional dish in
 
 Fun facts:
 
-- (about) "Steak on horseback" is a recipe of European origin, believed to be from England.
 - (about) In France, it was known as bifteck à cheval or œuf à cheval ("egg on horseback"), consisting of grilled beef steak, with fried eggs on top.
+- (about) "Steak on horseback" is a recipe of European origin, believed to be from England.
 
 Learn more:
 
@@ -464,12 +463,12 @@ Bolo de bolacha is a Portuguese dessert made with Marie biscuits lightly soaked 
 Fun facts:
 
 - (history) The first published recipe for bolo de bolacha first appears in 1959, in the third edition of O Mestre Cozinheiro, a cookbook by Laura Santos and published by Editorial Lavores.
-- (origin) Marie biscuits are popular biscuits introduced to the Iberian Peninsula in the late 1800s.
-- (inspiration) However, it may have been inspired by an earlier recipe known a few years earlier in France known as gâteau de famille which was made with thé brun biscuits.
+- (inspiration) It may have been inspired by an earlier recipe known a few years earlier in France known as gâteau de famille which was made with thé brun biscuits.
+- (origin) Bolo de bolacha comes from Portugal.
 
 More fun facts (when the user asks for more):
 
-- (origin) Bolo de bolacha comes from Portugal.
+- (origin) Marie biscuits are popular biscuits introduced to the Iberian Peninsula in the late 1800s.
 
 Learn more:
 
@@ -537,12 +536,12 @@ Fun facts:
 
 - (origin) It may originate from the Suebian or Gothic word *braudą meaning 'bread', 'slice', 'piece' probably via *𐌱𐍂𐌰𐌿𐌸.
 - (culture) In Brazil, broa is more closely related to cornbread, likely a Native American influence, traditionally seasoned with fennel.
-- (culture) This traditional rye bread has the rustic flavor and texture that suitably accompanies traditional soups, such as caldo verde.
+- (culture) In the Philippines, broa (or broas) traditionally refer to ladyfingers, and not to a type of cornbread.
 
 More fun facts (when the user asks for more):
 
-- (culture) In the Philippines, broa (or broas) traditionally refer to ladyfingers, and not to a type of cornbread.
 - (origin) Broa comes from Brazil.
+- (culture) This traditional rye bread has the rustic flavor and texture that suitably accompanies traditional soups, such as caldo verde.
 
 Learn more:
 
@@ -570,8 +569,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) However, the earliest record of the production of the Avintes variety only dates back to 1563.
-- (culture) However, for the sake of tradition, the people of Avintes have maintained its crafty production, which is well appreciated by consumers who increasingly seek genuinely traditional products.
+- (history) The earliest record of the production of the Avintes variety only dates back to 1563.
+- (culture) For the sake of tradition, the people of Avintes have maintained its crafty production, which is well appreciated by consumers who increasingly seek genuinely traditional products.
 - (origin) Broa de Avintes comes from Portugal.
 
 Learn more:
@@ -613,14 +612,14 @@ Frango à Cafreal is a poultry preparation consumed widely in the Indian state o
 
 Fun facts:
 
-- (origin) The preparation originated from the Portuguese colonies in the African continent.
-- (about) In many contexts and locations in the world, chicken piri-piri and chicken cafreal designate the same dish, but in Goa they are two very different things, even in colour, since the first is red.
 - (origin) Cafreal is suspected that the dish originated in the Portuguese colonies in Africa, most likely in Mozambique. "À Cafreal" means "in the way of the Cafres" and cafre was the designation of the inhabitants of Kaffraria, the region of Southern Africa inhabited by non-Muslim peoples (kafir).
+- (about) In many contexts and locations in the world, chicken piri-piri and chicken cafreal designate the same dish, but in Goa they are two very different things, even in colour, since the first is red.
+- (origin) Cafreal was introduced into Goan cuisine by the Portuguese and the African soldiers serving under the Portuguese.
 
 More fun facts (when the user asks for more):
 
-- (origin) Cafreal was introduced into Goan cuisine by the Portuguese and the African soldiers serving under the Portuguese.
 - (about) Cafreal is a popular dish in the bars and taverns of the state.
+- (origin) The preparation originated from the Portuguese colonies in the African continent.
 
 Learn more:
 
@@ -665,15 +664,15 @@ Fun facts:
 
 - (inspiration) Caldo verde originated from the Minho Province in northern Portugal, based on an earlier recipe brought to Portugal by English merchants.
 - (culture) The basic traditional ingredients for caldo verde are julienned Portuguese cabbage or couve-galega (or alternatively other leafy greens such as kale or mustard greens), potatoes, olive oil, black pepper and salt, mainly flavoured with onion and garlic.
-- (origin) Caldo verde comes from Portugal, People's Republic of China.
+- (origin) Caldo verde comes from Portugal, the People's Republic of China.
 
 More fun facts (when the user asks for more):
 
-- (culture) Traditionally, the soup is accompanied by slices of paio, chouriço or linguiça (boiled whole with the potatoes, then sliced and added to the finished soup when serving) and with a Portuguese cornbread or rye bread called broa on the side for dipping.
 - (culture) In Portugal, caldo verde is typically consumed during events such as weddings, birthdays and popular celebrations.
 - (culture) Caldo verde is traditionally served in earthenware bowls called tigela.
 - (culture) Today, it is a traditional favourite nationwide and abroad, particularly in significant communities of Portuguese descent found in locations like Argentina, Brazil, France, Goa, South Africa, Macau, Massachusetts, New Jersey, Rhode Island, and Toronto.
 - (culture) In neighboring Galicia (historically and culturally close to Portugal) a similar dish, caldo galego is also a culinary tradition.
+- (culture) Traditionally, the soup is accompanied by slices of paio, chouriço or linguiça (boiled whole with the potatoes, then sliced and added to the finished soup when serving) and with a Portuguese cornbread or rye bread called broa on the side for dipping.
 
 Learn more:
 
@@ -778,9 +777,9 @@ Churrasco is the Portuguese and Spanish name for grilled beef prominent in South
 
 Fun facts:
 
-- (about) This serving style is called espeto corrido or rodízio, and is quite popular in Brazil, especially in southern states like Rio Grande do Sul, Paraná, and Santa Catarina.
 - (origin) Churrasco comes from Spain, Brazil.
 - (about) Not to be confused with asado, churrasco, Churrasca.
+- (about) This serving style is called espeto corrido or rodízio, and is quite popular in Brazil, especially in southern states like Rio Grande do Sul, Paraná, and Santa Catarina.
 
 Learn more:
 
@@ -822,16 +821,16 @@ The word "dobradinha" (from the Portuguese word "dobro" which means double) is a
 
 Fun facts:
 
-- (about) Therefore, to combat hunger, the women used these parts to invent a new recipe and avoid starvation.
 - (origin) Dobrada originated in Porto, in northern Portugal, where it is called dobrada or tripas—people from Porto are nicknamed tripeiros.
 - (culture) Dobrada has been a traditional Portuguese dish since the 15th century, and became also traditional in Brazil.
+- (about) The joke website of the UK Tripe Marketing Board featured the dish on its series of 2014 World Cup recipe cards.
 
 More fun facts (when the user asks for more):
 
 - (origin) Dobrada was first made in Porto.
 - (culture) Dobradinha is a traditional Portuguese dish made from a cow's flat white stomach lining commonly flavoured with paprika, tomato paste, onion, garlic, clove and red pepper paste.
-- (about) The joke website of the UK Tripe Marketing Board featured the dish on its series of 2014 World Cup recipe cards.
 - (about) Not to be confused with Dobrada.
+- (about) Therefore, to combat hunger, the women used these parts to invent a new recipe and avoid starvation.
 
 Learn more:
 
@@ -852,7 +851,7 @@ Dom Rodrigo is a traditional dessert from the city of Lagos, in the Algarve regi
 
 Fun facts:
 
-- (origin) The Dom Rodrigo sweet probably originated in the Convent of Nossa Senhora do Carmo, and popular tradition has it that it was produced to please the governor and captain general of the Algarve, D.
+- (origin) The Dom Rodrigo sweet probably originated in the Convent of Nossa Senhora do Carmo, and popular tradition has it that it was produced to please the governor and captain general of the Algarve, D. Rodrigo de Menezes, from whom the sweet took its name.
 - (origin) Dom Rodrigo comes from Portugal.
 
 Learn more:
@@ -970,7 +969,7 @@ A fartura is a fried dough made of flour, yeast, baking soda, salt, sugar, cinna
 
 Fun facts:
 
-- (about) However, they would have changed the aspect to the star shape, because they did not learn the Chinese technique of "pulling" the dough (the Chinese emperor made it a crime with the death penalty if anyone shared knowledge with foreigners).
+- (about) They would have changed the aspect to the star shape, because they did not learn the Chinese technique of "pulling" the dough (the Chinese emperor made it a crime with the death penalty if anyone shared knowledge with foreigners).
 - (inspiration) Another theory is that farturas may have been an adaptation of the Spanish churros, which were created by shepherds as a substitute for foods made with fresh pasta.
 - (about) One theory is that the Portuguese, when trading in the Far East, would have brought with them new cooking techniques, including modifying the dough of Youtiao, also known as Youzagwei, in southern China.
 
@@ -1115,13 +1114,13 @@ Francesinha is a Portuguese sandwich, originally from Porto, made with layers of
 
 Fun facts:
 
-- (origin) In 1953, he introduced a sandwich with local meats and a custom beer-and-tomato sauce at A Regaleira, a restaurant in Rua do Bonjardim in Porto.
-- (about) The francesinha quickly became a popular dish, and although it remains associated with the city, it can now be found throughout Portugal.
 - (origin) Francesinha was first made in Porto.
+- (about) The francesinha quickly became a popular dish, and although it remains associated with the city, it can now be found throughout Portugal.
+- (origin) Francesinha comes from Portugal.
 
 More fun facts (when the user asks for more):
 
-- (origin) Francesinha comes from Portugal.
+- (origin) In 1953, he introduced a sandwich with local meats and a custom beer-and-tomato sauce at A Regaleira, a restaurant in Rua do Bonjardim in Porto.
 
 Learn more:
 
@@ -1143,16 +1142,16 @@ Francesinha poveira, or simply francesinha regionally, is a fast food dish from 
 
 Fun facts:
 
-- (history) Opened since June 1922, Guarda-Sol is the oldest café-bar of Póvoa, and also the first beach bar in Portugal.
+- (history) Francesinha poveira is the fast food variety of the francesinha dish that appeared in 1962 in café Guarda-Sol in Passeio Alegre beach square in Póvoa de Varzim.
 - (origin) Francesinha poveira was first made in Póvoa de Varzim.
 - (inspiration) Francesinha poveira is based on the recipe from the original from Porto.
 
 More fun facts (when the user asks for more):
 
-- (history) Francesinha poveira is the fast food variety of the francesinha dish that appeared in 1962 in café Guarda-Sol in Passeio Alegre beach square in Póvoa de Varzim.
 - (history) Francesinha poveira dates from 1963-.
-- (inspiration) The Portuan variety was created by Povoan Daniel David de Silva.
+- (history) Opened since June 1922, Guarda-Sol is the oldest café-bar of Póvoa, and also the first beach bar in Portugal.
 - (origin) Francesinha poveira comes from Portugal.
+- (inspiration) The Portuan variety was created by Povoan Daniel David de Silva.
 
 Learn more:
 
@@ -1219,15 +1218,15 @@ A Jésuite is a triangular, Puff pastry filled with frangipane cream and topped 
 
 Fun facts:
 
-- (origin) The pastry originated in France and the name refers to the triangular shape of a Jesuit's hat.
-- (about) A similarly-named sweet pastry known in Portugal and Spain, the jesuíta, consists of puff pastry filled with custard.
 - (culture) In Germany, Jesuitermützen are a custard-filled pastry traditionally cut into triangles.
+- (about) A similarly-named Uruguayan dish is the jesuita, a baked ham and cheese sandwich with a puff pastry crust commonly eaten in parts of South America and considered a classic of Argentinian cuisine, where it is known as a fosforito.
+- (origin) Jésuite comes from France.
 
 More fun facts (when the user asks for more):
 
-- (about) A similarly-named Uruguayan dish is the jesuita, a baked ham and cheese sandwich with a puff pastry crust commonly eaten in parts of South America and considered a classic of Argentinian cuisine, where it is known as a fosforito.
 - (about) In Argentina, jesuita is a very popular dish in many provinces.
-- (origin) Jésuite comes from France.
+- (origin) The pastry originated in France and the name refers to the triangular shape of a Jesuit's hat.
+- (about) A similarly-named sweet pastry known in Portugal and Spain, the jesuíta, consists of puff pastry filled with custard.
 
 Learn more:
 
@@ -1255,7 +1254,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) Malassadas are often called "Hawaiian donuts" because of their popularity and cultural presence in the Hawaiian islands.
-- (about) However, another version asserts it was previously made using melaço de cana, having been named melassadas or melaçadas.
+- (about) Another version asserts it was previously made using melaço de cana, having been named melassadas or melaçadas.
 - (culture) Malassada is a traditional confection eaten in the Azores and Madeira during Carnaval.
 - (origin) Malassada comes from Portugal.
 
@@ -1299,17 +1298,17 @@ Ovos moles de Aveiro—sometimes written as ovos-moles de Aveiro—are a local p
 
 Fun facts:
 
-- (history) When the First Portuguese Republic suppressed the convents in 1910, the nuns transferred their artisanal knowledge to educated upper-class women.
-- (inspiration) According to popular legend, the nuns used egg whites to clean their habits, while they used the yolks to make sweets so as not to waste them, and in order to raise money for their religious communities.
 - (origin) Ovos moles was first made in Aveiro.
+- (history) When the First Portuguese Republic suppressed the convents in 1910, the nuns transferred their artisanal knowledge to educated upper-class women.
+- (about) In 2008, it was designated a product with Protected Geographical Indication by the European Union.
 
 More fun facts (when the user asks for more):
 
-- (history) They trace their origin to the nuns who lived at various convents of the Dominican, Franciscan, and Carmelite orders present in the area until the early 20th century—particularly the Mosteiro de Jesus (Monastery of Jesus).
-- (about) In 2008, it was designated a product with Protected Geographical Indication by the European Union.
 - (culture) Ovos moles are a traditional pastry of the Aveiro region.
 - (culture) Ovos moles grew in popularity when women wearing traditional Aveiro costume started selling them at the Aveiro train station on the Lisbon–Porto line.
 - (origin) Ovos moles comes from Portugal.
+- (inspiration) According to popular legend, the nuns used egg whites to clean their habits, while they used the yolks to make sweets so as not to waste them, and in order to raise money for their religious communities.
+- (history) They trace their origin to the nuns who lived at various convents of the Dominican, Franciscan, and Carmelite orders present in the area until the early 20th century—particularly the Mosteiro de Jesus (Monastery of Jesus).
 
 Learn more:
 
@@ -1377,8 +1376,8 @@ Pastel de Tentúgal (Tentúgal pastry) is a Portuguese pastry originating in Ten
 
 Fun facts:
 
-- (origin) This conventual sweet was first created sometime in the 16th century by Carmelite nuns at the Convento de Nossa Senhora do Carmo.
 - (inspiration) Pastel de Tentúgal is named after Tentúgal.
+- (origin) This conventual sweet was first created sometime in the 16th century by Carmelite nuns at the Convento de Nossa Senhora do Carmo.
 - (origin) Pastel de Tentúgal comes from Portugal.
 
 Learn more:
@@ -1488,12 +1487,11 @@ Fun facts:
 
 - (inspiration) It is believed to have been originally called malakoff pudding, named after the Malakoff Fortress in Crimea.
 - (history) During the Crimean War (1853-1856), the Malakhoff Fortress protected the key city of Sevastopol.
-- (about) He chose the name Molotov, derived from the word "sledgehammer", as he believed that the name had an "industrial" and "proletarian" ring to it.
+- (origin) Pudim Molotov comes from Portugal.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) Pudim Molotov is named after Aimable Pélissier, Vyacheslav Molotov.
-- (origin) Pudim Molotov comes from Portugal.
 
 Learn more:
 
@@ -1565,9 +1563,9 @@ Quindim is a popular Brazilian baked dessert of Portuguese heritage, made chiefl
 
 Fun facts:
 
-- (inspiration) Their combination with coconut and sugar was probably created by African slaves in 17th century Brazilian Northeast, where coconuts were abundant and sugar (from sugarcane) was a major industry.
-- (origin) Quindim comes from Brazil.
 - (inspiration) Quindim is also a rhinoceros character (named after the dessert) featured in Monteiro Lobato's children's books.
+- (origin) Quindim comes from Brazil.
+- (inspiration) Their combination with coconut and sugar was probably created by African slaves in 17th century Brazilian Northeast, where coconuts were abundant and sugar (from sugarcane) was a major industry.
 
 Learn more:
 
@@ -1708,12 +1706,11 @@ Tripas à moda do Porto or dobrada à moda do Porto in Portuguese cuisine is a d
 Fun facts:
 
 - (history) It is said that in 1415 the dish was created in Porto where the shipyard of Lordelo do Ouro was located.
-- (about) Helena to England, where she would later marry; others said it was to take King D.
+- (about) But the people of Porto didn't have to suffer, for they invented a way to cook their tripe and this sacrifice earned them the nickname "tripeiros" (tripe eaters).
 - (culture) Tripas à moda do Porto is considered the traditional dish of the city of Porto, in Portugal, and widely known across the entire country, where it is also simply called dobrada.
 
 More fun facts (when the user asks for more):
 
-- (about) But the people of Porto didn't have to suffer, for they invented a way to cook their tripe and this sacrifice earned them the nickname "tripeiros" (tripe eaters).
 - (origin) Tripas à moda do Porto comes from Portugal.
 
 Learn more:
@@ -1757,8 +1754,8 @@ Bica is the term commonly used in certain areas of Portugal for a café ('coffee
 Fun facts:
 
 - (origin) The name bica originates from the way the coffee flows, falling from the espresso machine to the cup on the tray, an analogy with a water spring or fountain; both can also be called bica in Portuguese.
-- (history) The Café A Brasileira coffeehouse was opened in Lisbon by Adriano Telles on 19 November 1905 at No.122 (an old shirt shop), to sell "genuine Brazilian coffee" from the Brazilian state of Minas Gerais, a product generally unappreciated in homes of Lisboetas of that period.
 - (about) Bica was the first shop to sell the bica, a small cup of strong coffee, similar to espresso, with fresh goat milk from nearby farms.
+- (history) The Café A Brasileira coffeehouse was opened in Lisbon by Adriano Telles on 19 November 1905 at No.122 (an old shirt shop), to sell "genuine Brazilian coffee" from the Brazilian state of Minas Gerais, a product generally unappreciated in homes of Lisboetas of that period.
 
 More fun facts (when the user asks for more):
 
@@ -1879,9 +1876,9 @@ Fatias do Freixo is a traditional Portuguese sponge cake from Freixo, Marco de C
 
 Fun facts:
 
-- (history) The Pão de Ló sponge cake dessert has been made exclusively at the family pastelaria Casa dos Lenteirões since 1819.
 - (about) The recipe for fatias do Freixo is believed to have been obtained by the aunts of Maria Helena Vieira da Silva, who were associated with the convent but left to assist the family and open the pastelaria.
 - (inspiration) Another variation of the dessert is from Torres Vedras, inspired by the Palácio do Freixo in Porto in the 1800s.
+- (history) The Pão de Ló sponge cake dessert has been made exclusively at the family pastelaria Casa dos Lenteirões since 1819.
 
 Learn more:
 
@@ -1926,8 +1923,8 @@ Ginjinha, or simply ginja, is a Portuguese liqueur made by infusing ginja berrie
 Fun facts:
 
 - (about) The Ginjinha of Praça de São Domingos in Lisbon was the first establishment in that city to commercialise the drink that gives its name to it.
-- (culture) The traditional liqueur is served all around Portugal, but is especially prominent in the Oeste and Lisbon regions.
 - (origin) Ginjinha comes from Portugal.
+- (culture) The traditional liqueur is served all around Portugal, but is especially prominent in the Oeste and Lisbon regions.
 
 More fun facts (when the user asks for more):
 
@@ -1953,17 +1950,17 @@ Licor Beirão, commonly simply known as Beirão, is a Portuguese liqueur from th
 Fun facts:
 
 - (origin) Originating in the 19th century, it is the most consumed alcoholic spirit in Portugal.
-- (history) In 1940 the factory and the secret recipe were bought by José Carranca Redondo (1921-2005).
 - (history) Production began in the 19th century in Lousã, in the Beira region, from where it got its name (Beirão means "from Beira").
+- (history) It got its name in 1929 in Castelo Branco, during Congresso Beirão, as a homage to the event.
 
 More fun facts (when the user asks for more):
 
-- (history) It got its name in 1929 in Castelo Branco, during Congresso Beirão, as a homage to the event.
-- (history) The liqueur was produced in the 19th century as a medicinal product for stomach aches by a pharmacy in Lousã.
-- (history) In the late 19th century alcoholic beverages were no longer qualified as medicinal but the liqueur was kept in production in a small factory owned by the son-in-law of the original producer.
 - (history) In 1929 the liqueur entered a contest on the 2nd Beirão Congress where it earned a gold medal and its name of Beirão.
 - (history) In the 1960s Redondo drove Beirão to a nationwide success.
+- (history) In 1940 the factory and the secret recipe were bought by José Carranca Redondo (1921-2005).
 - (origin) Licor Beirão comes from Portugal.
+- (history) The liqueur was produced in the 19th century as a medicinal product for stomach aches by a pharmacy in Lousã.
+- (history) In the late 19th century alcoholic beverages were no longer qualified as medicinal but the liqueur was kept in production in a small factory owned by the son-in-law of the original producer.
 
 Learn more:
 
@@ -2022,13 +2019,13 @@ Lupin are the yellow legume seeds of the genus Lupinus.
 
 Fun facts:
 
-- (history) Seven seeds of this species were also retrieved in the tombs of this dynasty dated back to the 22nd century BC.
 - (culture) Lupin is commonly used in Egypt (known by the name "termes") and is eaten by the Egyptians as a snack, especially during the Sham Ennessim festival, which is a national festival in Egypt with a history that goes back to ancient Egyptian times.
 - (history) The most ancient evidence of lupin is from ancient Egypt, dating back to the 22nd century BC.
+- (history) The earliest archaeological reports on lupins are referred to the Twelfth Dynasty of Egyptian Pharaohs.
 
 More fun facts (when the user asks for more):
 
-- (history) The earliest archaeological reports on lupins are referred to the Twelfth Dynasty of Egyptian Pharaohs.
+- (history) Seven seeds of this species were also retrieved in the tombs of this dynasty dated back to the 22nd century BC.
 - (history) Rock imprints of seeds and leaves, dated around 6th and 7th century BC, are exhibited in the National Museum of Lima.
 - (culture) They are traditionally eaten as a pickled snack food, primarily in the Mediterranean basin (L. albus), Latin America (L. mutabilis) and North Africa (L. angustifolius).
 
@@ -2102,13 +2099,13 @@ The Aguardente de Medronho is a strong spirit, a traditional fruit brandy from P
 
 Fun facts:
 
-- (history) There was no large-scale commercial plantation of Arbutus unedo until the 21st century and in the past the arbutus berries were mainly collected by local farmers, by hand and processed privately.
-- (culture) Very few farmers had a license for distillation, but they were tolerated by the authorities to keep this traditional Portuguese specialty alive.
 - (about) Aguardente (de Medronho, but equally other variants) is also known as 'firewater' to non-Portuguese speakers.
+- (origin) Medronho comes from Portugal.
+- (history) There was no large-scale commercial plantation of Arbutus unedo until the 21st century and in the past the arbutus berries were mainly collected by local farmers, by hand and processed privately.
 
 More fun facts (when the user asks for more):
 
-- (origin) Medronho comes from Portugal.
+- (culture) Very few farmers had a license for distillation, but they were tolerated by the authorities to keep this traditional Portuguese specialty alive.
 
 Learn more:
 
@@ -2183,8 +2180,8 @@ Poncha is a traditional alcoholic drink from the island of Madeira, made with ag
 
 Fun facts:
 
-- (origin) This is also where the English drink punch originated from.
 - (about) Poncha is mixed together with a mixing tool created in Madeira officially called a mexelote but more commonly known as a caralhinho (little cock), a type of muddler.
+- (origin) This is also where the English drink punch originated from.
 - (inspiration) The drink may be based on an Indian drink called pãnch or panch.
 
 More fun facts (when the user asks for more):
@@ -2210,15 +2207,13 @@ Port wine, or simply port, is a Portuguese fortified wine produced in the Douro 
 
 Fun facts:
 
-- (history) Both Ferreira and Quinta do Crasto can be credited for pioneering the Douro as a table-wine-producing region, Ferreira making Barca Velha since 1952 and Quinta do Crasto becoming the second producer of note, starting in the early 1990s.
+- (history) In 1678, a Liverpool wine merchant sent two new representatives to Viana do Castelo, north of Oporto, to learn the wine trade.
 - (inspiration) Port wine is named after Porto.
 - (origin) Port wine comes from Portugal.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1678, a Liverpool wine merchant sent two new representatives to Viana do Castelo, north of Oporto, to learn the wine trade.
 - (history) Port became very popular in England after the Methuen Treaty of 1703, when merchants were permitted to import it at a low duty, while war with France deprived English wine drinkers of French wine.
-- (history) He began at the age of 14 (1773) with a bottle a day according to J.
 - (about) Not to be confused with Porto.
 
 Learn more:
@@ -2241,13 +2236,13 @@ Portuguese sweet bread refers to a group of enriched sweet breads or yeasted cak
 Fun facts:
 
 - (culture) Outside of Portugal, Portuguese "sweet bread" translated as "pão doce" is often associated with Azorean "massa sovada" which are similar but traditionally prepared differently.
-- (about) The pão doce is of Spanish origin derived from a Renaissance era sponge cake known as pão-de-ló.
+- (about) In French cuisine, it would later be known as génoise, after the city of Genoa, and in Italy pan di spagna.
 - (origin) Portuguese sweet bread comes from Portugal.
 
 More fun facts (when the user asks for more):
 
-- (about) In French cuisine, it would later be known as génoise, after the city of Genoa, and in Italy pan di spagna.
 - (culture) Many traditional Portuguese sweet breads are defined by the associated region or by the convents, artisan bakers or religious confraternities (similar to a guild) that historically made them.
+- (about) The pão doce is of Spanish origin derived from a Renaissance era sponge cake known as pão-de-ló.
 
 Learn more:
 
@@ -2270,12 +2265,12 @@ Fun facts:
 
 - (history) Francisco Martínez Motiño, head chef to Philip II of Spain (1527–1598), also gave several recipes of puff pastry in his Arte de cocina, pastelería, bizcochería y conservería published in 1611.
 - (origin) Puff pastry comes from France.
-- (history) The first recipe to explicitly use the technique of tourage (the action of encasing solid butter within dough layers, keeping the fat intact and separate, by folding several times) was published in 1651 by François Pierre La Varenne in Le cuisinier français.
+- (history) While modern puff pastry was developed in France in the 17th century, related laminated and air-leavened pastry has a long history.
 
 More fun facts (when the user asks for more):
 
-- (history) While modern puff pastry was developed in France in the 17th century, related laminated and air-leavened pastry has a long history.
 - (history) The oldest known documented recipe for flaky pastry in France was included in a charter by Robert, bishop of Amiens in 1311.
+- (history) The first recipe to explicitly use the technique of tourage (the action of encasing solid butter within dough layers, keeping the fat intact and separate, by folding several times) was published in 1651 by François Pierre La Varenne in Le cuisinier français.
 - (history) The method is sometimes considered the idea of the famous painter Claude Gellée when he was an apprentice baker in 1612.
 
 Learn more:
@@ -2546,8 +2541,8 @@ Toucinho do Céu is a Portuguese dessert made primarily of almonds, eggs, and su
 Fun facts:
 
 - (inspiration) Toucinho do céu is named after its appearance, which closely resembles bacon.
-- (history) The nuns of the Convento de Santa Mónica are credited with creating this pudding in the 1500s.
 - (about) Like other desserts characteristic of Portuguese cuisine known as conventual sweets, it contains high amounts of eggs, almonds and little wheat flour.
+- (history) The nuns of the Convento de Santa Mónica are credited with creating this pudding in the 1500s.
 
 Learn more:
 

@@ -135,13 +135,13 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Thus, the dish may have traveled to the Levant in the Middle Ages via the Armenians, many of whom migrated there following the first appearance of the Turkish tribes in medieval Anatolia.
-- (about) While others attribute the invention of filo to the imperial kitchens of the Topkapı Palace in Ottoman Istanbul.
 - (about) The earliest record of the Turkish word börek appears in the 12th-century Turkish epic Danishmendnâme, where a sweet pastry called şeker böreği is mentioned.
 - (about) The 11th-century Turkic dictionary Dīwān Lughāt al-Turk by Mahmud Kashgari records the term yuvgha, an archaic form of yufka, defining it as “pleated or folded bread”.
 - (history) The origin of the paper-thin sheets of dough that are used to make börek, known as filo today, is also disputed, with some attributing the origin of filo to the Ancient Greeks; Homer's Odyssey, written around 800 BC, mentions thin breads sweetened with walnuts and honey.
-- (culture) These recipes are connected to the tradition of layered breads prepared by the nomadic Turks from Central Asia during the medieval times, who “had an obsessive interest in making layered bread, possibly in emulation of the thick oven breads of city people”.
 - (about) This bread was known as yufka, which is also the modern Turkish term synonymous to the Greek word filo, while yufka is thicker and prepared differently than filo, which is used to make börek today.
-- (origin) Börek comes from Ottoman Empire.
+- (origin) Börek comes from the Ottoman Empire.
+- (about) While others attribute the invention of filo to the imperial kitchens of the Topkapı Palace in Ottoman Istanbul.
+- (culture) These recipes are connected to the tradition of layered breads prepared by the nomadic Turks from Central Asia during the medieval times, who “had an obsessive interest in making layered bread, possibly in emulation of the thick oven breads of city people”.
 
 Learn more:
 
@@ -164,7 +164,7 @@ Gazelle ankles, also known as kaab el-ghazal, are a traditional cookie of the Ma
 Fun facts:
 
 - (history) "Gazelle ankles" are mentioned in a 13th-century book by Ibn Razīn al-Tujībī, the 13th century version was shaped into rolls, the dough was made using olive oil, flour, hot water, and salt, the stuffing used almonds and sugar.
-- (origin) Gazelle ankles comes from Maghreb.
+- (origin) Gazelle ankles comes from the Maghreb.
 
 Learn more:
 
@@ -186,7 +186,7 @@ Harira is a traditional North African soup prepared in Morocco and Algeria with 
 Fun facts:
 
 - (about) Harira is popular as a starter, and is also eaten on its own as a light snack.
-- (culture) Algérie Poste describes harira as an authentic Algerian dish Algerian dish of Andalusian origin and identifies it as one of the best-known dishes of Morocco and western Algeria, where it is traditionally associated with Ramadan.
+- (culture) Algérie Poste describes harira as an authentic Algerian dish of Andalusian origin and identifies it as one of the best-known dishes of Morocco and western Algeria, where it is traditionally associated with Ramadan.
 - (origin) Harira comes from Morocco.
 
 Learn more:
@@ -207,8 +207,8 @@ Ma'amoul is a filled cookie made with semolina flour and butter.
 
 Fun facts:
 
-- (origin) Originating in the Arab world, the filling can be made with dried fruits like figs, dates, or nuts such as pistachios, walnuts, and occasionally almonds or cheese.
 - (about) Ma'amoul is popular throughout the Arab world.
+- (origin) Originating in the Arab world, the filling can be made with dried fruits like figs, dates, or nuts such as pistachios, walnuts, and occasionally almonds or cheese.
 
 Learn more:
 
@@ -252,9 +252,9 @@ Mrouzia, is a dish of the Maghribi cuisine It is a sweet and salty meat tajine, 
 
 Fun facts:
 
-- (culture) This tagine is one of the traditional dishes of the Eid al-Adha Muslim festival (Festival of Sacrifice).
-- (origin) Mrouzia comes from Morocco.
 - (culture) It is often made of lamb from animals ritually sacrificed during the festival.
+- (origin) Mrouzia comes from Morocco.
+- (culture) This tagine is one of the traditional dishes of the Eid al-Adha Muslim festival (Festival of Sacrifice).
 
 Learn more:
 
@@ -292,15 +292,15 @@ Pastilla is a meat or seafood pie in Maghrebi cuisine made with warqa dough, whi
 
 Fun facts:
 
-- (history) The historian Anny Gaul attests to recipes that bear "a strong resemblance to the stuffing that goes inside modern-day bastila" in 13th century Andalusi cookbooks, such as ibn Razīn al-Tujībī's فضالة الخوان في طيبات الطعام والألوان fuḍālat al-k̲iwān fī ṭayyibāti ṭ-ṭaʿāmi wa-l-ʾalwāni.
+- (history) Bouhlila's study corroborated Gaul's theory that the name of the dish, which according to Bouhlila is of Turkish origin, as well as the werqa used to make it, arrived with the Algerian migrants to Tétouan, and spread from there to the rest of Morocco sometime after 1830.
 - (origin) According to Ken Albala, the basic concept of the pastilla was likely brought to Morocco by Muslims who left al-Andalus in the 16th century or earlier because there had been considerable traffic with Morocco since Muslim conquest of the Iberian Peninsula in the seventh century.
 - (about) Pastilla is a specialty of Morocco, Algeria, and Tunisia, where its variation is known as malsouka.
 
 More fun facts (when the user asks for more):
 
-- (history) Bouhlila's study corroborated Gaul's theory that the name of the dish, which according to Bouhlila is of Turkish origin, as well as the werqa used to make it, arrived with the Algerian migrants to Tétouan, and spread from there to the rest of Morocco sometime after 1830.
 - (history) Historians believe that the dish entered northern Morocco through Ottoman Algeria as a result of the relations between the two regions in the 18th and 19th century, according to historians this may explain why many inhabitants of northern Morocco called the dish Turkish.
 - (origin) Pastilla comes from Morocco, Andalusia, Fez.
+- (history) The historian Anny Gaul attests to recipes that bear "a strong resemblance to the stuffing that goes inside modern-day bastila" in 13th century Andalusi cookbooks, such as ibn Razīn al-Tujībī's فضالة الخوان في طيبات الطعام والألوان fuḍālat al-k̲iwān fī ṭayyibāti ṭ-ṭaʿāmi wa-l-ʾalwāni.
 
 Learn more:
 
@@ -425,10 +425,10 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) The origin of this pastry is likely Ottoman, due to its similarity to Eastern pastries such as baklawa in former Ottoman areas, and meshbek in Syria also known as zalabiyeh.
 - (about) In Algeria it is known as griwech and is well-known in Oran, according to some its origins date back to the city of Tiaret.
+- (origin) Shebakia comes from the Ottoman Empire.
+- (about) The origin of this pastry is likely Ottoman, due to its similarity to Eastern pastries such as baklawa in former Ottoman areas, and meshbek in Syria also known as zalabiyeh.
 - (culture) Griwech is mentioned among the sweets eaten in the Eid tradition during the Ottoman Algerian period.
-- (origin) Shebakia comes from Ottoman Empire.
 
 Learn more:
 
@@ -450,7 +450,7 @@ A tagine or tajine, also tajin or tagin is a Maghrebi cuisine stew, named for th
 Fun facts:
 
 - (origin) The tagine cooking vessel with a distinctive cone-shaped lid originated in Tafraout, Morocco.
-- (origin) Tagine comes from Maghreb.
+- (origin) Tagine comes from the Maghreb.
 
 Learn more:
 
@@ -562,12 +562,12 @@ Harissa is a Tunisian hot chili pepper paste.
 Fun facts:
 
 - (history) The origin of harissa goes back to the importation of chili peppers into Tunisian cuisine by the Columbian exchange, presumably during the Spanish occupation of Hafsid Tunisia between 1535 and 1574.
-- (origin) Peppers in the country were first grown in the Cape Bon Peninsula, birthplace of the condiment, with Nabeul famous for being the primary center for its production.
 - (culture) Tunisia is the biggest exporter of prepared harissa and UNESCO lists it as part of Tunisia's Intangible Cultural Heritage.
+- (origin) Harissa comes from Tunisia.
 
 More fun facts (when the user asks for more):
 
-- (origin) Harissa comes from Tunisia.
+- (origin) Peppers in the country were first grown in the Cape Bon Peninsula, birthplace of the condiment, with Nabeul famous for being the primary center for its production.
 - (about) Not to be confused with harees.
 
 Learn more:
@@ -591,21 +591,21 @@ Fun facts:
 
 - (history) Tea consumption became associated with power and prestige in Morocco, and Ahmed Bin Mubarek, officer of Sultan Suleiman (r. 1792–1822), became the first mūl atay in the Makhzen.
 - (culture) James Richardson recorded a description of a Moroccan tea ceremony in the 1840s, and said that during his travels tea was drunk widely and all day long.
-- (origin) According to Van Driem, ʾit-tāī originates from the Dutch language thee.
+- (about) Mint tea is central to social life in the Maghreb and is very popular among the Tuareg people of Algeria, Libya, Niger and Mali.
 
 More fun facts (when the user asks for more):
 
 - (history) Sugar and tea would arrive from Europe to the port of Essaouira, where Jewish merchants who had started migrating to coastal cities in the 19th century managed their passing through the interior of Morocco.
 - (history) Tea consumption spread through wider segments of the population as a result of the famines of the 1880s, when it became an emergency calorie substitute, appetite suppressant, and mode of performing acculturation for rural populations flooding the cities in search of opportunities.
 - (culture) It is traditional to the Greater Maghreb region (the northwest African countries of Algeria, Tunisia, Morocco, Libya, and Mauritania).
-- (about) Mint tea is central to social life in the Maghreb and is very popular among the Tuareg people of Algeria, Libya, Niger and Mali.
 - (culture) The tea is traditionally made by the head male in the family and offered to guests as a sign of hospitality.
 - (culture) The native spearmint naʿnāʿ possesses a clear, pungent, mild aroma, and is the mint that is traditionally used in Maghrebi mint tea.
 - (origin) Gunpowder tea was introduced into North Africa by the British in the 18th and 19th centuries via Morocco and Algeria.
 - (culture) Among urban populations, partaking in the tea ceremony became a symbol of status and savoir faire, while among rural farmers it was a way to emulate the urban class they both envied and resented.
-- (origin) Whereas Algerian cities had been introduced to coffee culture under the influence of the Ottomans, Moroccan cities would only be introduced to coffee later.
 - (culture) Oral traditions in the Algerian city of Tlemcen distinguish between "Fassi tea drinkers and Tlemceni coffee drinkers".
-- (origin) Maghrebi mint tea comes from Maghreb.
+- (origin) Maghrebi mint tea comes from the Maghreb.
+- (origin) According to Van Driem, ʾit-tāī originates from the Dutch language thee.
+- (origin) Whereas Algerian cities had been introduced to coffee culture under the influence of the Ottomans, Moroccan cities would only be introduced to coffee later.
 
 Learn more:
 

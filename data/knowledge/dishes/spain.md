@@ -129,8 +129,8 @@ Caparrones is a Spanish stew made of caparrón, a variety of red kidney bean, an
 
 Fun facts:
 
-- (culture) This plant is widely cultivated in groves around La Rioja, and the most famous are from Anguiano where a yearly festival is held honoring these beans.
 - (origin) Caparrones comes from Spain.
+- (culture) This plant is widely cultivated in groves around La Rioja, and the most famous are from Anguiano where a yearly festival is held honoring these beans.
 
 Learn more:
 
@@ -174,8 +174,8 @@ Catànies is a chocolate sweet typical of Vilafranca del Penedès and some other
 
 Fun facts:
 
-- (about) They are toasted and covered first by caramel and then by a thick layer of white chocolate or a mixture of almond, hazelnut and milk.
 - (origin) Catànies comes from Spain.
+- (about) They are toasted and covered first by caramel and then by a thick layer of white chocolate or a mixture of almond, hazelnut and milk.
 
 Learn more:
 
@@ -222,8 +222,8 @@ Chistorra is a type of fast-cure sausage from Navarre, Spain.
 
 Fun facts:
 
-- (culture) The final cured product tends to be thinner than traditional chorizo or sausage, with a diameter of approximately 25 mm (1.0 in).
 - (origin) Chistorra comes from Spain.
+- (culture) The final cured product tends to be thinner than traditional chorizo or sausage, with a diameter of approximately 25 mm (1.0 in).
 
 Learn more:
 
@@ -408,9 +408,9 @@ Fideuà (dialectal pronunciation of the Valencian word fideuada "large amount of
 
 Fun facts:
 
-- (history) Around the year 1930 (some sources say 1915-1920) Gabriel Rodríguez Pastor, (Gabrielo from a kiosk in the port district of Grau in Gandia), worked as a cook on a boat and Juan Bautista Pascual (Zábalo), was the youngest man on the boat and his assistant.
 - (inspiration) The invention of fideuà is attributed to a picturesque story.
 - (about) The invention was liked, and fame of the dish spread to harbor restaurants such as the "Pastaora House", where they cooked the first "fideuades".
+- (history) Around the year 1930 (some sources say 1915-1920) Gabriel Rodríguez Pastor, (Gabrielo from a kiosk in the port district of Grau in Gandia), worked as a cook on a boat and Juan Bautista Pascual (Zábalo), was the youngest man on the boat and his assistant.
 
 More fun facts (when the user asks for more):
 
@@ -526,13 +526,13 @@ Hornazo is a Spanish meat pie eaten in the provinces of Salamanca and Ávila.
 Fun facts:
 
 - (culture) In Salamanca, it is traditionally eaten in the field during the "Monday of the Waters" (Lunes de aguas) festival.
-- (origin) The name of this unique festival supposedly comes from a twisting of the word enagua ("petticoat"), which the prostitutes of the town used to wear under their dresses.
-- (culture) According to tradition, during Lent the prostitutes were sent to the other side of the Tormes River so that the men of the town were not distracted during the religious observances.
+- (origin) Hornazo comes from Spain.
+- (culture) On Easter Monday, the students of the town threw a party on the banks of the river to celebrate the return of the women, and ate hornazo as part of the celebration.
 
 More fun facts (when the user asks for more):
 
-- (culture) On Easter Monday, the students of the town threw a party on the banks of the river to celebrate the return of the women, and ate hornazo as part of the celebration.
-- (origin) Hornazo comes from Spain.
+- (origin) The name of this unique festival supposedly comes from a twisting of the word enagua ("petticoat"), which the prostitutes of the town used to wear under their dresses.
+- (culture) According to tradition, during Lent the prostitutes were sent to the other side of the Tormes River so that the men of the town were not distracted during the religious observances.
 
 Learn more:
 
@@ -572,8 +572,8 @@ Jamón is a type of dry-cured ham produced in Spain.
 
 Fun facts:
 
-- (about) Spanish dry-cured ham comes in a wide range of prices and qualities; as of 2019, typical prices ranged from €5.00 to €75.00 per kilogram, depending on several factors, such as length of curing time, breed of pig, and the pig's diet.
 - (origin) Jamón comes from Spain.
+- (about) Spanish dry-cured ham comes in a wide range of prices and qualities; as of 2019, typical prices ranged from €5.00 to €75.00 per kilogram, depending on several factors, such as length of curing time, breed of pig, and the pig's diet.
 
 Learn more:
 
@@ -657,14 +657,14 @@ Olla podrida is a Spanish stew, usually made with chickpeas or beans, assorted m
 
 Fun facts:
 
-- (history) This recipe was translated into Dutch by Antonius Magirus for the Koock-boeck oft Familieren kevken-boeck, first published in Leuven in 1612.
+- (history) By the 1640s the word olla, meaning "pot" or "stew", was adapted into English as "olio", an obsolete sense of which the Oxford English Dictionary defines as "a spiced meat and vegetable stew of Spanish and Portuguese origin.
 - (culture) Spaniards traditionally prepare olla podrida in a clay pot over several hours.
 - (origin) Olla podrida comes from Spain.
 
 More fun facts (when the user asks for more):
 
+- (history) This recipe was translated into Dutch by Antonius Magirus for the Koock-boeck oft Familieren kevken-boeck, first published in Leuven in 1612.
 - (history) The recipe can be found in Opera dell’arte del cucinare by Bartolomeo Scappi, the cook of Pope Pius V, published in 1570.
-- (history) By the 1640s the word olla, meaning "pot" or "stew", was adapted into English as "olio", an obsolete sense of which the Oxford English Dictionary defines as "a spiced meat and vegetable stew of Spanish and Portuguese origin.
 
 Learn more:
 
@@ -743,8 +743,6 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Arabs in Al-Andalus began rice cultivation around the 10th century.
-- (history) This led to rice becoming a staple by the 15th century.
 - (inspiration) Some claim that the word paella comes from the Arabic بَقِيَّة baqiyya or ba'iyya, or the plural بَقَايَا baqāyā or ba'āyā, meaning "leftovers." This claim is based on the 8th-century custom in which Moorish kings' servants would take home the rice, chicken, and vegetables their employers left at the end of the meal.
 - (culture) Paella is regarded as one of the community's identifying symbols.
 - (culture) The dish takes its name from the wide, shallow traditional pan used to cook the dish on an open fire, paella being the word for a frying pan in both Catalan and the Valencian language.
@@ -753,6 +751,8 @@ More fun facts (when the user asks for more):
 - (culture) Valencian speakers use the word paella for all pans, including the traditional shallow pan used for cooking the homonym dish.
 - (culture) In many regions of Spain and other Spanish-speaking countries, the term paellera may be used for the traditional pan, while paella is reserved for the rice dish prepared in it.
 - (origin) Paella comes from Spain.
+- (history) Arabs in Al-Andalus began rice cultivation around the 10th century.
+- (history) This led to rice becoming a staple by the 15th century.
 - (about) Not to be confused with Paelya.
 
 Learn more:
@@ -1010,7 +1010,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q3177408) (CC0); [Wikipedia: T
 
 ### Tarta de Santiago
 
-Torta de Santiago (in Galician) or Tarta de Santiago (in Spanish), literally meaning cake of St.
+Torta de Santiago (in Galician) or Tarta de Santiago (in Spanish), literally meaning cake of St. James, is an almond cake or pie from Galicia with its origin in the Middle Ages and the Camino de Santiago.
 
 - From: Spain
 - Origin (Wikidata): Spain
@@ -1025,11 +1025,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The origin of the cross being decorated on the cake dates to 1924 when the "Casa Mora" began to adorn the almond cakes with the silhouette.
-- (history) Food writer Claudia Roden traces the origins of the cake to the 11th century, as Jews fleeing the Almohad Caliphate headed north, bringing their almond Passover cake.
 - (about) In May 2010, the EU gave Tarta de Santiago PGI status within Europe.
 - (origin) Tarta de Santiago comes from Spain.
 - (about) Tarta de Santiago is listed as protected geographical indication.
+- (history) The origin of the cross being decorated on the cake dates to 1924 when the "Casa Mora" began to adorn the almond cakes with the silhouette.
+- (history) Food writer Claudia Roden traces the origins of the cake to the 11th century, as Jews fleeing the Almohad Caliphate headed north, bringing their almond Passover cake.
 
 Learn more:
 
@@ -1248,8 +1248,8 @@ Botifarra is a type of sausage and one of the most important dishes of the Catal
 Fun facts:
 
 - (inspiration) Botifarra is based on ancient recipes, either the Roman sausage botulu or the lucanica, made of raw pork and spices, with variants today in Italy and in the Portuguese and Brazilian linguiça.
-- (culture) In Colombia, butifarras soledeñas are a popular tradition in Soledad, Atlántico.
 - (origin) Botifarra comes from Catalan countries.
+- (culture) In Colombia, butifarras soledeñas are a popular tradition in Soledad, Atlántico.
 
 Learn more:
 
@@ -1341,8 +1341,8 @@ Café con leche (Spanish for 'coffee with milk') is a coffee beverage common thr
 
 Fun facts:
 
-- (about) After becoming popular in Spain, this coffee beverage has spread to other Spanish-speaking countries and areas.
 - (origin) Café con leche comes from Spain.
+- (about) After becoming popular in Spain, this coffee beverage has spread to other Spanish-speaking countries and areas.
 
 Learn more:
 
@@ -1361,12 +1361,8 @@ Calçot is a type of green onion.
 
 Fun facts:
 
-- (history) The origin of the variety is disputed, but one of the most commonly accepted versions of its history is that they were developed by Xat de Benaiges, a peasant farmer from Valls around the turn of the 20th century.
-- (about) He is said to have been the first to have planted the sprouts of garden onions, covering them with earth so a longer portion of the stems remained white and edible.
 - (culture) The origin of the calçot and its cooking method is in the town of Valls, where an annual event celebrates the harvest of calçots.
-
-More fun facts (when the user asks for more):
-
+- (history) The origin of the variety is disputed, but one of the most commonly accepted versions of its history is that they were developed by Xat de Benaiges, a peasant farmer from Valls around the turn of the 20th century.
 - (culture) Nowadays, thousands of eating gatherings centered around the calçots, called calçotades (singular: calçotada), are celebrated around Catalonia.
 
 Learn more:
@@ -1398,12 +1394,12 @@ More fun facts (when the user asks for more):
 - (about) Cider was probably first borrowed from Old French primitive form sizre "fermented beverage" (Eadwine Psalter, LXVIII, 14) and then from another younger French form cistre, later sidre, cidre "beverage made from fruits".
 - (history) By the 19th century, in the United States, cider referred to the expressed juice of apples, either before fermentation as sweet cider, or after fermentation, a hard cider.
 - (about) The first group consists of modern ciders and heritage ciders.
-- (about) Apples were historically confined to the cooler climates of Western Europe and Britain, where record-keeping was not yet common.
 - (culture) Cider remains traditionally popular across the Anglosphere, such as India, South Africa, Canada, Australia, New Zealand, Hong Kong, and the United States (particularly in New England and the Midwest).
 - (inspiration) Cider styles evolved based on the methods used, the apples available and local tastes.
-- (about) However, as cider popularity grows, the production of speciality styles has increased.
+- (about) As cider popularity grows, the production of speciality styles has increased.
 - (origin) Cider comes from Wales, Spain, France, Germany.
 - (about) Not to be confused with apple cider.
+- (about) Apples were historically confined to the cooler climates of Western Europe and Britain, where record-keeping was not yet common.
 
 Learn more:
 
@@ -1446,7 +1442,7 @@ Fun facts:
 
 - (history) After the invention of a system of refrigerator cars in 1878, animals could be raised, slaughtered, and butchered hundreds (later thousands) of miles or kilometers away from the consumer.
 - (about) Not to be confused with ultra-processed food.
-- (history) Canned food was developed in the 19th century, primarily for military use, and became more popular during World War I.
+- (history) Canned food was developed in the 19th century, primarily for military use, and became more popular during World War I. The expansion of canning depended significantly upon the development of canneries for producing large quantities of cans very cheaply.
 
 More fun facts (when the user asks for more):
 
@@ -1487,14 +1483,14 @@ Fuet is a Catalan thin, dry-cured, sausage of pork meat in a pork gut, covered w
 
 Fun facts:
 
-- (origin) In Europe, natural fermented sausages have a long tradition originating in Mediterranean countries during Ancient times.
 - (about) The most famous is made in the comarca (county) of Osona and is also known as Vic fuet (fuet de Vic, after the city of Vic, capital of Osona).
 - (culture) Other places that have long tradition of making it are the city of Olot and the surrounding areas.
+- (origin) Fuet comes from Spain.
 
 More fun facts (when the user asks for more):
 
+- (origin) In Europe, natural fermented sausages have a long tradition originating in Mediterranean countries during Ancient times.
 - (about) The Celts were famous for their cured meat, including hams and sausages.
-- (origin) Fuet comes from Spain.
 
 Learn more:
 
@@ -1544,8 +1540,8 @@ Herbero is a liquor made in the Sierra de Mariola region in the northern part of
 
 Fun facts:
 
-- (origin) The drink originated during the Moorish occupation of Spain, when the Moors brought distilling technology to the peninsula.
 - (about) This mountain range is famous for its abundance of medicinal and aromatic plants, some of which are used to make the herbero liquor.
+- (origin) The drink originated during the Moorish occupation of Spain, when the Moors brought distilling technology to the peninsula.
 
 Learn more:
 
@@ -1590,17 +1586,17 @@ Fun facts:
 
 - (history) Irouléguy AOC was boosted by monks of the Abbey of Roncesvalles in the 11th century who planted the first large scale vineyards to provide wine for pilgrims travelling along the Way of St James.
 - (inspiration) They are named after the village of Irouléguy and are the only wines with AOC certification in the Northern Basque Country.
-- (history) But the following period was marked by constant decline and the vineyards were hit hard by the Great French Wine Blight in 1912 and by the 1980s, only some 70ha were still in cultivation.
+- (history) The wines of Baigorri, Anhauze and Irouléguy were awarded AOVDQS certification in 1953 and Irouléguy was granted AOC status in October 1970.
 
 More fun facts (when the user asks for more):
 
-- (history) The wines of Baigorri, Anhauze and Irouléguy were awarded AOVDQS certification in 1953 and Irouléguy was granted AOC status in October 1970.
+- (history) During its peak in the 17th century, the Irouléguy vineyards comprised some 500 ha of cultivated land.
+- (history) Irouléguy AOC dates from 1970-.
+- (history) But the following period was marked by constant decline and the vineyards were hit hard by the Great French Wine Blight in 1912 and by the 1980s, only some 70ha were still in cultivation.
 - (history) The history of wine-making in the area goes back to at least the 3rd century when the Romans commented on wine-making in the area.
 - (history) Following the Treaty of the Pyrenees in 1659, the monks had to give up wine-making and the vineyards which were taken over by the local villagers.
-- (history) During its peak in the 17th century, the Irouléguy vineyards comprised some 500 ha of cultivated land.
 - (history) The 18th century saw relatively high levels of employment in the area due to increased mining activity, further boosting the consumption and thus production of local wine.
 - (history) A cooperative was formed in 1952 under the lead of Alexander Bergouignan to rescue the situation and to work towards certification.
-- (history) Irouléguy AOC dates from 1970-.
 
 Learn more:
 
@@ -1655,8 +1651,8 @@ The kalimotxo or calimocho is a drink consisting of equal parts red wine and a c
 
 Fun facts:
 
-- (history) That changed in 1953, when the first Coca-Cola factory opened in Spain.
 - (culture) The combination was given various names, until 1972 when its mass usage at a festival in Algorta, Biscay led to it being christened the kalimotxo, a playful combination of the two creators' nicknames, Kalimero and Motxongo.
+- (history) That changed in 1953, when the first Coca-Cola factory opened in Spain.
 - (history) Red wine and cola were combined in Basque Country as early as the 1920s, but Coca-Cola was not widely available.
 
 Learn more:
@@ -1797,13 +1793,13 @@ Fun facts:
 
 - (history) Since the 16th century Galicians have made orujo on their farms and take great pride in their liqueur, each family carefully guarding their own secret recipe.
 - (about) Orujo is popular in northern Spain, particularly in Galicia, but also in Asturias, Castile and León and Cantabria (principally in the valley of Liébana).
-- (culture) These are obtained from quality grapes and produced according to the highest standards and are replacing the traditional homemade liquor, nowadays only available in small villages.
+- (culture) Each November the town of Potes celebrates the "Fiesta del Orujo", including tastings and a contest where participants distill orujo in public with their own stills and judges award a prize for the best-tasting batch.
 
 More fun facts (when the user asks for more):
 
-- (history) However, there are now over 20 commercial producers of orujo within Denominación Específica Orujo de Galicia, ("Denomination Orujo of Galicia"), which was formed in 1989.
-- (culture) Each November the town of Potes celebrates the "Fiesta del Orujo", including tastings and a contest where participants distill orujo in public with their own stills and judges award a prize for the best-tasting batch.
+- (history) There are now over 20 commercial producers of orujo within Denominación Específica Orujo de Galicia, ("Denomination Orujo of Galicia"), which was formed in 1989.
 - (origin) Orujo comes from Spain.
+- (culture) These are obtained from quality grapes and produced according to the highest standards and are replacing the traditional homemade liquor, nowadays only available in small villages.
 
 Learn more:
 
@@ -1884,8 +1880,8 @@ The piquillo pepper (pimientos del piquillo in Spanish) is a variety of chili pe
 Fun facts:
 
 - (inspiration) Piquillo pepper is named after Lodosa.
-- (culture) They are traditionally grown in Northern Spain near the town of Lodosa.
 - (origin) Piquillo pepper comes from Spain.
+- (culture) They are traditionally grown in Northern Spain near the town of Lodosa.
 
 Learn more:
 
@@ -1906,11 +1902,11 @@ Fun facts:
 
 - (culture) Queimada has origins in the Celtic pagan festivals of Galicia.
 - (culture) Queimada is traditionally prepared in a hollowed-out pumpkin or a ceramic or clay pot.
-- (culture) The goal of the preparation ritual is to distance the bad spirits that, according with the tradition, lie in wait for men and women to try to curse them.
+- (culture) The queimada ritual takes place during Saint John's Eve, called "witches' night", on June 23.
 
 More fun facts (when the user asks for more):
 
-- (culture) The queimada ritual takes place during Saint John's Eve, called "witches' night", on June 23.
+- (culture) The goal of the preparation ritual is to distance the bad spirits that, according with the tradition, lie in wait for men and women to try to curse them.
 
 Learn more:
 
@@ -1929,8 +1925,8 @@ Ratafia is a broad term used for two types of sweet alcoholic beverages, a flavo
 
 Fun facts:
 
-- (history) The Oxford English Dictionary lists the word's earliest date of use as 1670.
 - (about) Not to be confused with Ratafia.
+- (history) The Oxford English Dictionary lists the word's earliest date of use as 1670.
 
 Learn more:
 
@@ -1953,18 +1949,18 @@ Fun facts:
 
 - (origin) Sangria has its historical roots in the Kingdom of León during the Middle Ages, where the precursor beverage, Leonese lemonade, originated.
 - (history) The term sangria used for the drink can be traced back to the 18th century.
-- (about) During this era, residents of the Leonese kingdom crafted this concoction using wine, oranges, lemons, sugar, and spices.
+- (culture) A punch, sangria traditionally consists of red wine and chopped fruit, often with other ingredients or spirits.
 
 More fun facts (when the user asks for more):
 
 - (origin) Sangaree, a predecessor drink to sangria that was served either hot or cold, probably originated in the Caribbean (West Indies), and from there was introduced to mainland America, where it was common beginning in the American colonial era but had "largely disappeared in the United States" by the early 20th century.
 - (origin) Hispanic Americans and Spanish restaurants had re-introduced sangria to the U.S. as an iced drink by the late 1940s, and it gained greater popularity through the 1964 World's Fair in New York.
 - (history) The sangria cocktail, on the other hand, has been enjoyed since at least the early 19th century.
-- (culture) A punch, sangria traditionally consists of red wine and chopped fruit, often with other ingredients or spirits.
-- (about) Clericó is a similar beverage that is popular in Latin America.
 - (about) Sangria is very popular among foreign tourists in Spain even if locals do not consume the beverage too often.
-- (about) Wine lemonade has endured as a popular beverage in the region of Castile and León in Spain, gaining prominence in consumption, particularly during Holy Week.
 - (origin) Sangria comes from Spain, Portugal.
+- (about) During this era, residents of the Leonese kingdom crafted this concoction using wine, oranges, lemons, sugar, and spices.
+- (about) Clericó is a similar beverage that is popular in Latin America.
+- (about) Wine lemonade has endured as a popular beverage in the region of Castile and León in Spain, gaining prominence in consumption, particularly during Holy Week.
 
 Learn more:
 
@@ -2056,12 +2052,12 @@ Fun facts:
 
 - (inspiration) Torta del Casar is named after Casar de Cáceres, its city of origin.
 - (history) In 1999, the cheese was given protected-origin status, regulations that stipulate not only where it can be produced, but also that it can only be made with the milk of Merino and Entrefina sheep.
-- (culture) The fully ripe cheese has a creamy consistency in the center, and is traditionally eaten by slicing off the top and scooping out the inside.
+- (origin) Torta del Casar comes from Spain.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) Torta del Casar is named after Casar de Cáceres.
-- (origin) Torta del Casar comes from Spain.
+- (culture) The fully ripe cheese has a creamy consistency in the center, and is traditionally eaten by slicing off the top and scooping out the inside.
 
 Learn more:
 
@@ -2082,19 +2078,19 @@ Txakoli or chacolí is a slightly sparkling, very dry white wine with high acidi
 
 Fun facts:
 
-- (history) The first reference to the name of this wine in Spanish was vino chacolín in a document from the Basque Country in 1520.
+- (history) Until the 1980s, txakoli was a home-made wine, drunk in the Basque Country, Cantabria and Valle de Mena, and almost in danger of dying out towards the middle of the 19th century.
 - (inspiration) The 18th century Palace of Mendibile in Leioa near Bilbao today houses a museum dedicated to txakoli, the Museo del Txakoli, explaining the history of txakoli and with a large collection of machinery used for making it.
 - (culture) Traditionally the general form has been txakolin, although xakolin has been documented in Iparralde.
 
 More fun facts (when the user asks for more):
 
-- (history) Until the 1980s, txakoli was a home-made wine, drunk in the Basque Country, Cantabria and Valle de Mena, and almost in danger of dying out towards the middle of the 19th century.
-- (history) The term is attested from the middle of the 18th century onwards, occasionally also as a personal name.
 - (history) Txakoli, considered a misspelling by the Euskaltzaindia, is attested from 1985 onwards.
-- (history) However, since some varieties of txakoli in the Basque Country managed to achieve denominación de origen certification from 1989 onwards, its quality, spread and appeal have increased.
+- (history) Since some varieties of txakoli in the Basque Country managed to achieve denominación de origen certification from 1989 onwards, its quality, spread and appeal have increased.
 - (history) Txakoli dates from 1989-.
+- (history) The first reference to the name of this wine in Spanish was vino chacolín in a document from the Basque Country in 1520.
 - (inspiration) Derived forms are based on the root txakolin, for example txakolin-ardo (txakoli wine), txakolin-dantza (txakoli dance), txakolin-saltze (txakoli sale), txakolin gorri (red txakoli) or txakolin-etxe (txakoli house).
 - (origin) Txakoli comes from Spain, Chile.
+- (history) The term is attested from the middle of the 18th century onwards, occasionally also as a personal name.
 
 Learn more:
 
@@ -2146,9 +2142,9 @@ Zurracapote (sometimes abbreviated as zurra) is a popular Spanish alcoholic mixe
 
 Fun facts:
 
-- (culture) The drink is normally prepared in large receptacles during local festivals with many local variations in recipe.
 - (about) Zurracapote was first drunk in Calahorra, where "Peña Phillips" developed the recipe through several competitions.
 - (origin) Zurracapote comes from Spain.
+- (culture) The drink is normally prepared in large receptacles during local festivals with many local variations in recipe.
 
 More fun facts (when the user asks for more):
 

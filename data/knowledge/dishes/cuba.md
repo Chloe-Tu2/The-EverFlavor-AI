@@ -59,14 +59,14 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) After a decline in popularity, casabe has seen a revival since the 1990s, in part due to its health value.
-- (origin) This conflation originated among English-speaking observers such as Francis Drake, who referred to the crop as cassavia and the flatbread as cassado.
 - (history) In Spanish, however, the word casabe refers only to the flatbread, as writers did not conflate it with the crop; the word entered Spanish in the 18th century.
 - (origin) According to food writer Richard Foss, it originated in the region of the modern-day Colombia–Venezuela border and spread across Caribbean South America.
 - (inspiration) In Taíno mythology, the major deity Yúcahu was associated with the knowledge of producing casabe, and Taíno shamans gave casabe as offerings to zemi spirits during an annual festival, whose participants received small pieces to keep for a year.
-- (about) The flatbread bakes for a few minutes on a flat surface known as a budare.
 - (about) For the Garifuna people in Central America, casabe (known as ereba) is a culturally important dish.
 - (about) Casabe may have existed as early as 2000 BC.
 - (origin) It is possible that, as cultures from South America expanded, they introduced casabe to pre-agricultural cultures of the Antilles.
+- (origin) This conflation originated among English-speaking observers such as Francis Drake, who referred to the crop as cassavia and the flatbread as cassado.
+- (about) The flatbread bakes for a few minutes on a flat surface known as a budare.
 
 Learn more:
 
@@ -87,9 +87,9 @@ Cuban pastries (known in Spanish as pasteles or pastelitos) are baked puff pastr
 
 Fun facts:
 
+- (origin) Cuban pastry comes from Cuba.
 - (culture) Traditional fillings include cream cheese quesitos, guava (pastelito de guayaba) and cheese, pineapple, and coconut.
 - (origin) They can be found at many Hispanic cafeterias and have also been introduced into the American retail market by Goya Foods.
-- (origin) Cuban pastry comes from Cuba.
 
 Learn more:
 
@@ -192,11 +192,11 @@ Fun facts:
 
 - (about) In 2024, TasteAtlas ranked ikan bakar as one of the best seafood dishes in the world.
 - (origin) Ikan bakar comes from Indonesia.
-- (about) Naturally, this method is immensely popular and quite widespread in the maritime realm of the Indonesian archipelago.
+- (about) As an archipelagic nation, ikan bakar is very popular in Indonesia and is commonly found in many places, from an Acehnese beach to a restaurant perched over Kupang's harbour in East Nusa Tenggara, to the center of Jakarta's business district.
 
 More fun facts (when the user asks for more):
 
-- (about) As an archipelagic nation, ikan bakar is very popular in Indonesia and is commonly found in many places, from an Acehnese beach to a restaurant perched over Kupang's harbour in East Nusa Tenggara, to the center of Jakarta's business district.
+- (about) Naturally, this method is immensely popular and quite widespread in the maritime realm of the Indonesian archipelago.
 - (about) Barbecued seafood, however, is especially popular in Sulawesi and Maluku, where most of the people work as fishermen, and both areas have vast seas which bring them different kinds of seafood.
 
 Learn more:
@@ -225,20 +225,20 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) Early Spanish records also highlight the craftsmanship of Chamorro women in weaving coconut leaves into both decorative and utilitarian items, including katupat containers.
 - (about) Comparable rice cakes are also present in parts of mainland Southeast Asia, including Cambodia, where they are associated with Khmer and Cham communities; a related dish in these regions is known as Nom Katom.
 - (culture) Beyond its role as a staple and festive dish, ketupat carries deep symbolic and ritual significance across the region.
 - (culture) Ketupat is most closely associated with the Islamic celebration of Eid al-Fitr (known regionally as Lebaran or Hari Raya), during which it is often prepared in large quantities and shared among family, neighbours and guests.
 - (culture) Beyond Islamic traditions, ketupat also appears in Balinese Hindu temple offerings, traditional healing practices and seasonal rites marking harvests and ancestral veneration.
+- (culture) Closely resembling ketupat, this tradition reflects the deep Austronesian roots of leaf-wrapped rice practices.
+- (about) Not to be confused with Ketupat.
+- (about) Early Spanish records also highlight the craftsmanship of Chamorro women in weaving coconut leaves into both decorative and utilitarian items, including katupat containers.
 - (culture) The widespread use of similar terms and preparation methods reflects a common cultural heritage in which rice and leaf-wrapping hold both practical and symbolic importance.
 - (culture) In the Philippines, leaf-wrapped rice cakes take several regional forms that reflect both cultural traditions and local ingredients.
 - (about) In the northern region of Ilocos, a variant known as patupat is prepared during the sugarcane harvest season.
-- (culture) Closely resembling ketupat, this tradition reflects the deep Austronesian roots of leaf-wrapped rice practices.
 - (culture) Beyond its role as food, katupat also holds ceremonial and symbolic significance.
 - (culture) In Chamorro tradition, Laso Fu’a, a rock outcrop in Fouha Bay, is considered the cradle of creation for the people of the Mariana Islands, and in some accounts, for all of humankind.
 - (culture) In ancient Java, the preparation of rice cakes wrapped in woven leaves held both cultural and ritual significance within pre-Islamic agricultural traditions.
 - (culture) Among Javanese communities, rice was not only a dietary staple but also a sacred symbol of life and prosperity, closely associated with the worship of Dewi Sri, the Javanese rice goddess of fertility and abundance.
-- (about) Not to be confused with Ketupat.
 
 Learn more:
 
@@ -298,17 +298,17 @@ More fun facts (when the user asks for more):
 - (culture) Kue lapis shares similarities with several traditional layered desserts across Southeast Asia that also bear Chinese culinary influence.
 - (about) In Thailand, a comparable dessert is khanom chan, while in Vietnam, it is known as bánh da lợn.
 - (about) In Lower Myanmar, it is known as kway lapay or kway lapaysa.
-- (origin) The origins of this dessert can be traced to the culinary traditions of Chinese immigrants, particularly those from southern China, who settled in maritime Southeast Asia between the 14th and 20th centuries.
-- (origin) These communities introduced various forms of steamed rice cakes, including jiu ceng gao, meaning "nine layer cake", which were typically prepared with rice flour and steamed one layer at a time.
-- (culture) This reflects the Chinese influence on the naming and culinary tradition.
 - (about) Within this cultural context, jiu ceng gao was adapted into what is now recognised as kue lapis, incorporating local ingredients such as coconut milk, pandan leaves and tapioca flour.
-- (about) The adapted version generally features a softer texture and a more aromatic profile compared to its Chinese predecessor.
-- (culture) Although jiu ceng gao traditionally consists of nine layers, this local layered steamed dessert varies in the number of layers; some recipes retain the nine layers while others use fewer or more, depending on regional or familial preferences.
 - (culture) The use of vivid colours, often pink, green and white, enhances its festive appeal, making it a popular item during celebrations and religious ceremonies.
-- (culture) Variations may include ingredients such as yam or a wider spectrum of colours, each imbued with specific symbolic meanings.
 - (culture) Among the Peranakan community, kue lapis carries cultural and symbolic significance beyond its role as a traditional dessert.
 - (origin) Kue lapis comes from Indonesia.
+- (origin) The origins of this dessert can be traced to the culinary traditions of Chinese immigrants, particularly those from southern China, who settled in maritime Southeast Asia between the 14th and 20th centuries.
+- (culture) This reflects the Chinese influence on the naming and culinary tradition.
+- (about) The adapted version generally features a softer texture and a more aromatic profile compared to its Chinese predecessor.
+- (culture) Although jiu ceng gao traditionally consists of nine layers, this local layered steamed dessert varies in the number of layers; some recipes retain the nine layers while others use fewer or more, depending on regional or familial preferences.
+- (culture) Variations may include ingredients such as yam or a wider spectrum of colours, each imbued with specific symbolic meanings.
 - (about) Not to be confused with spekkoek.
+- (origin) These communities introduced various forms of steamed rice cakes, including jiu ceng gao, meaning "nine layer cake", which were typically prepared with rice flour and steamed one layer at a time.
 
 Learn more:
 
@@ -337,7 +337,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) Arem-arem also known as lontong isi is a smaller version of lontong and "halal" distant relative of bakcang, filled with vegetables and occasionally meat, eaten as a snack.
-- (culture) However, after the spread of Islam to Java, the tradition of eating lontong and ketupat began.
+- (culture) After the spread of Islam to Java, the tradition of eating lontong and ketupat began.
 
 Learn more:
 
@@ -418,14 +418,14 @@ More fun facts (when the user asks for more):
 - (history) Nasi kuning is mentioned in early 19th century Javanese literature Serat Centhini as sega punar or sega wuduk punar.
 - (about) In the Philippines, a related dish exists in Mindanao, particularly among the Maranao people, where it is known as kuning.
 - (about) A similar dish is also found in Sri Lankan cuisine where it is known as kaha buth (and lamprais) and draws from both Indonesian and Sri Lankan influences.
-- (culture) In Javanese tradition, the colour yellow symbolises wealth and prosperity, because of its association with gold pieces as a symbol of wealth, and also the colour of ripe rice ready to be harvested, all of which are symbols of prosperity.
-- (culture) Slightly different in predominantly Hindu island of Bali, the colour yellow symbolised a sacred aspect of Mahadewa.
 - (culture) Therefore, yellow is very commonly used as the dominant colour in the Kuningan Day celebrations of the Hindu-Balinese community.
 - (culture) In Javanese tradition, nasi kuning is often served as a form of gratitude and prayer for blessings.
 - (culture) Nasi kuning as cone-shaped tumpeng is essential in Javanese selamatan rituals, especially among traditional Kejawen community as offerings or consumed as communal meals.
 - (culture) This yellow rice dish holds a special cultural significance in some cultures in the region, considered as an auspicious food item essential for ceremonies, rituals and celebrations.
 - (culture) In Indonesian culture, nasi kuning has favourable symbolic meanings.
 - (origin) Nasi kuning comes from Indonesia.
+- (culture) In Javanese tradition, the colour yellow symbolises wealth and prosperity, because of its association with gold pieces as a symbol of wealth, and also the colour of ripe rice ready to be harvested, all of which are symbols of prosperity.
+- (culture) Slightly different in predominantly Hindu island of Bali, the colour yellow symbolised a sacred aspect of Mahadewa.
 
 Learn more:
 
@@ -630,15 +630,15 @@ The cortadito is a traditional Cuban espresso-based drink consisting of a shot o
 
 Fun facts:
 
-- (inspiration) The signature Cuban innovation—espumita or espuma—is created by whipping the first concentrated drops of espresso with sugar to form a thick caramel-colored foam.
 - (history) By the mid-20th century, the cortadito emerged as a distinct Cuban beverage rather than a smaller version of the Spanish cortado.
 - (origin) Cuban immigrants popularized the drink in the United States during the 1960s, and it remains a cultural staple in cities like Miami and Tampa.
+- (culture) While this method is increasingly common in American Cuban-style coffee shops, it is not part of the traditional preparation in Cuba.
 
 More fun facts (when the user asks for more):
 
-- (culture) While this method is increasingly common in American Cuban-style coffee shops, it is not part of the traditional preparation in Cuba.
-- (origin) The practice spread to Cuba during the colonial era as Spanish settlers introduced espresso-style drinks such as café con leche.
 - (about) Over generations, Cuban coffee culture adapted the cortado to local tastes.
+- (inspiration) The signature Cuban innovation—espumita or espuma—is created by whipping the first concentrated drops of espresso with sugar to form a thick caramel-colored foam.
+- (origin) The practice spread to Cuba during the colonial era as Spanish settlers introduced espresso-style drinks such as café con leche.
 
 Learn more:
 
@@ -703,21 +703,21 @@ The daiquiri is a cocktail whose main ingredients are rum, citrus juice (typical
 
 Fun facts:
 
-- (inspiration) Historians widely agree that the cocktail was invented by an American mining engineer named Jennings Cox, who was in Cuba (then at the tail-end of the Spanish Captaincy-General government) at the time of the Spanish–American War of 1898.
-- (origin) Chanler, a U.S. congressman who purchased the Santiago iron mines in 1902, introduced the daiquiri to clubs in New York in that year.
+- (origin) Daiquiri is also possible that William A. Chanler, a U.S. congressman who purchased the Santiago iron mines in 1902, introduced the daiquiri to clubs in New York in that year.
 - (history) The basic recipe for a daiquiri is also similar to the grog British sailors drank aboard ships from the 1780s.
+- (inspiration) Historians widely agree that the cocktail was invented by an American mining engineer named Jennings Cox, who was in Cuba (then at the tail-end of the Spanish Captaincy-General government) at the time of the Spanish–American War of 1898.
 
 More fun facts (when the user asks for more):
 
-- (history) By 1795 the Royal Navy daily grog ration contained rum, water, ¾ ounce of lemon or lime juice, and 2 ounces of sugar.
-- (history) Consumption of the drink remained localized until 1909, when Rear Admiral Lucius W.
 - (history) Daiquiri dates from 1900-.
 - (origin) Daiquiri was first made by Jennings Cox.
 - (about) The Daiquiri was subsequently refined and popularized by Emelio "Maragato" Gonzalez and Constantino "Constante" Ribalaigua Vert in Havana.
 - (origin) Johnson subsequently introduced it to the Army and Navy Club in Washington, D.C., and drinkers of the daiquiri increased over the space of a few decades.
-- (about) The Good Neighbor policy, also known as the Pan-American program, helped make Latin America fashionable.
 - (about) Consequently, rum-based drinks (once frowned upon as the choice of sailors and down-and-outs) also became fashionable, and the daiquiri saw tremendous popularity in the U.S.
 - (origin) Daiquiri comes from Cuba.
+- (history) By 1795 the Royal Navy daily grog ration contained rum, water, ¾ ounce of lemon or lime juice, and 2 ounces of sugar.
+- (history) Consumption of the drink remained localized until 1909, when Rear Admiral Lucius W. Johnson, a U.S. Navy medical officer, tried Cox's drink.
+- (about) The Good Neighbor policy, also known as the Pan-American program, helped make Latin America fashionable.
 
 Learn more:
 
@@ -739,17 +739,16 @@ The El Presidente is a Cuban cocktail made of rum, orange curaçao, vermouth, an
 Fun facts:
 
 - (history) Another claim is that it was invented as early as 1915 in Cuba, 5 years before Woelke set foot on the Malecón in 1920.
-- (inspiration) There are two rival stories of who the cocktail is named after.
-- (about) There are also multiple claims as to the invention of the cocktail.
+- (inspiration) One story is that it was American bartender Eddie Woelke, who named it after Gen. Menocal after moving to Havana.
+- (about) This premise if true is even further debated, as either being invented at the Vista Alegre (a Havana establishment frequented by Americans), or by President Menocal himself.
 
 More fun facts (when the user asks for more):
 
 - (history) The El Presidente earned its acclaim in Havana during the 1920s through the 1940s during the American Prohibition.
 - (history) One is Mario García Menocal, president from 1913 to 1921.
-- (history) The other is Gerardo Machado, who was a general and also president from 1925 to 1933.
-- (inspiration) One story is that it was American bartender Eddie Woelke, who named it after Gen.
-- (about) This premise if true is even further debated, as either being invented at the Vista Alegre (a Havana establishment frequented by Americans), or by President Menocal himself.
 - (inspiration) El Presidente is named after Gerardo Machado.
+- (inspiration) There are two rival stories of who the cocktail is named after.
+- (about) There are also multiple claims as to the invention of the cocktail.
 - (culture) While variations are made using other orange liqueurs than curaçao, the drink is traditionally meant to be red in color, so blue curaçao should not be used.
 
 Learn more:
@@ -795,15 +794,15 @@ Fun facts:
 
 - (history) Lime juice on its own would have significantly prevented scurvy and dysentery, and tafia/rum was soon added as it became widely available to the British (ca. 1650).
 - (inspiration) Another theory is that it was invented by Sir Francis Drake.
-- (culture) The cocktail often consists of five ingredients: white rum, sugar (traditionally sugar cane juice), lime juice, soda water, and mint.
+- (about) Its combination of sweetness, citrus, and herbaceous mint flavors is intended to complement the rum, and has made the mojito a popular summer drink.
 
 More fun facts (when the user asks for more):
 
 - (history) Mojito dates from 1931-.
-- (about) Its combination of sweetness, citrus, and herbaceous mint flavors is intended to complement the rum, and has made the mojito a popular summer drink.
 - (about) Mojito has also often been said that Hemingway made the bar called La Bodeguita del Medio famous when he became one of its regulars and wrote "My Mojito in La Bodeguita, My Daiquiri in El Floridita" on a wall of the bar.
 - (origin) Mojito comes from Cuba.
 - (inspiration) Mojito is based on Mint Julep.
+- (culture) The cocktail often consists of five ingredients: white rum, sugar (traditionally sugar cane juice), lime juice, soda water, and mint.
 
 Learn more:
 
@@ -823,15 +822,15 @@ The piña colada is a cocktail made with rum, cream of coconut and pineapple jui
 
 Fun facts:
 
-- (history) The earliest known folktale states that in the 19th century, Puerto Rican pirate Roberto Cofresí, to boost the morale of his crew, gave them a beverage or cocktail that contained coconut, pineapple, and white rum.
+- (history) The cocktail gained worldwide fame after Rupert Holmes's 1979 song, "Escape (The Piña Colada Song)," became an international hit.
 - (about) This was what would be later known as piña colada.
 - (culture) In the United States, National Piña Colada Day is celebrated on 10 July.
 
 More fun facts (when the user asks for more):
 
-- (history) With his death in 1825, the recipe for the beverage was lost.
-- (history) The cocktail gained worldwide fame after Rupert Holmes's 1979 song, "Escape (The Piña Colada Song)," became an international hit.
 - (about) Piña coladas are referred to in the 2023 Eurovision entry "Cha Cha Cha" by Finnish rapper Käärijä, in which he describes drinking piña coladas after an exhausting week, before letting himself go on the dancefloor.
+- (history) The earliest known folktale states that in the 19th century, Puerto Rican pirate Roberto Cofresí, to boost the morale of his crew, gave them a beverage or cocktail that contained coconut, pineapple, and white rum.
+- (history) With his death in 1825, the recipe for the beverage was lost.
 - (about) The song led to an increased popularity of the drink in Finland.
 
 Learn more:
@@ -855,25 +854,25 @@ Rum and Coke, or the Cuba libre, is a highball cocktail consisting of cola, rum,
 
 Fun facts:
 
+- (history) Rum and Coke became popular shortly after 1900, when bottled Coca-Cola was first imported into Cuba from the United States.
 - (inspiration) Another story states that the drink was first created in 1902 at Havana's El Floridita restaurant to celebrate the anniversary of Cuban independence.
 - (origin) The cocktail originated in the early 20th century in Cuba, after the country won independence in the Spanish–American War.
-- (history) Rum and Coke became popular shortly after 1900, when bottled Coca-Cola was first imported into Cuba from the United States.
 
 More fun facts (when the user asks for more):
 
-- (history) However, this predates the first distribution of Coca-Cola to Cuba in 1900.
+- (inspiration) Rum and Coke is named after Cuba.
+- (history) Rum and Coke dates from 1900-.
+- (history) This predates the first distribution of Coca-Cola to Cuba in 1900.
 - (history) Fausto Rodriguez, a Bacardi advertising executive, claimed to have been present when the drink was first poured, and produced a notarized affidavit to that effect in 1965.
+- (about) It subsequently became popular across Cuba, the United States, and other countries.
+- (about) Its simple recipe and inexpensive, ubiquitous ingredients have made it one of the world's most popular alcoholic drinks.
+- (origin) Rum and Coke comes from Cuba.
 - (history) The drink was created in Cuba in the early 1900s, but its exact origins are not certain.
 - (culture) Its origin is associated with the heavy U.S. presence in Cuba following the Spanish–American War of 1898; the drink's traditional name, "Cuba libre" (Free Cuba), was the slogan of the Cuban independence movement.
 - (history) A drink called a "Cuba libre" was indeed known in 1898, but this was a mix of water and brown sugar.
-- (history) According to Rodriguez, this took place in August 1900, when he was a 14-year-old messenger working for a member of the U.S.
+- (history) According to Rodriguez, this took place in August 1900, when he was a 14-year-old messenger working for a member of the U.S. Army Signal Corps in Havana.
 - (history) Bacardi published Rodriguez's affidavit in a Life magazine ad in 1966.
-- (inspiration) Rum and Coke is named after Cuba.
-- (history) Rum and Coke dates from 1900-.
-- (about) It subsequently became popular across Cuba, the United States, and other countries.
-- (about) Its simple recipe and inexpensive, ubiquitous ingredients have made it one of the world's most popular alcoholic drinks.
 - (about) This intrigued a nearby group of American soldiers, who ordered a round for themselves, giving birth to a popular new drink.
-- (origin) Rum and Coke comes from Cuba.
 
 Learn more:
 

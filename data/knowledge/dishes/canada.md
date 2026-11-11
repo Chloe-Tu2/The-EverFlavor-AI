@@ -15,11 +15,11 @@ Fun facts:
 
 - (culture) The Vancouver-based Japanese chef Hidekazu Tojo created the B.C. roll in 1974 when he used salmon skin in place of the traditional anago (salt-water eel), which was difficult to obtain in the West Coast.
 - (inspiration) B.C. roll is named after British Columbia.
-- (origin) The name comes from the fact that British Columbia (B.C.) is famous for wild Pacific salmon.
+- (origin) B.C. roll comes from Canada.
 
 More fun facts (when the user asks for more):
 
-- (origin) B.C. roll comes from Canada.
+- (origin) The name comes from the fact that British Columbia (B.C.) is famous for wild Pacific salmon.
 
 Learn more:
 
@@ -39,8 +39,8 @@ Bakeapple pie is a Canadian dessert originating in Newfoundland made from cloudb
 Fun facts:
 
 - (history) The use of cloudberries, known as bakeapples in Eastern Canada, was first prevalent in Norway as a way to combat scurvy, earliest documented by Henrik Høyer, a Norwegian doctor, in 1596.
-- (about) First Nations peoples across the circumpolar North have utilized the berry for centuries, known as "aqpik" in the Inuit language.
 - (about) Settlers consumed cloudberries in Newfoundland, where the berry was named 'bakeapple', however the origin of how this name came to be is debated.
+- (about) First Nations peoples across the circumpolar North have utilized the berry for centuries, known as "aqpik" in the Inuit language.
 
 Learn more:
 
@@ -71,11 +71,11 @@ More fun facts (when the user asks for more):
 - (history) Heinz began producing canned baked beans in 1886.
 - (history) Evidence of preparing beans in this manner dates back to c. 1500 BC in the Maya civilization.
 - (about) British colonists in New England were the first Westerners to introduce their version of the dish to the area, the Native American version was very similar to pease pudding.
-- (about) However, this method of soaking and boiling beans was already in practice in the Americas during the Mayan civilization, and was already a known method of preparing beans in the cultures of the first peoples of the Americas prior to European settlement.
-- (history) These ingredients are still often added to baked beans today. 19th century cookbooks published in New England, spread to other portions of the United States and Canada, which familiarized other people with the dish.
-- (culture) Traditionally served hot, they may be eaten hot or cold, and straight from the can, as they are fully cooked.
+- (about) This method of soaking and boiling beans was already in practice in the Americas during the Mayan civilization, and was already a known method of preparing beans in the cultures of the first peoples of the Americas prior to European settlement.
 - (culture) The bean hole cooking method later became a tradition in Maine that was practiced in logging camps where beans prepared in this way were served as every meal.
 - (culture) It is possible that English colonists used their knowledge of cassoulet cooking to modify the cooking technique of the beans from the traditional Native American version, by soaking the bean overnight and simmering the beans over a fire before baking it in earthen pots in order to decrease the cooking time.
+- (history) These ingredients are still often added to baked beans today. 19th century cookbooks published in New England, spread to other portions of the United States and Canada, which familiarized other people with the dish.
+- (culture) Traditionally served hot, they may be eaten hot or cold, and straight from the can, as they are fully cooked.
 
 Learn more:
 
@@ -96,21 +96,20 @@ A Boston cream pie is a cake with a custard filling.
 
 Fun facts:
 
-- (history) The dessert is estimated to have been created between 1834 and 1856.
+- (history) The invention of the pie is most commonly credited to French chef Augustine François Anezin (also named as M. Sanizan or Sanzian) at the Parker House Hotel in Boston, who reportedly made the dessert for its opening in 1856.
 - (origin) The name "chocolate cream pie" first appeared in the 1872 Methodist Almanac.
-- (about) The invention of the pie is most commonly credited to French chef Augustine François Anezin (also named as M.
+- (about) A direct descendant of earlier cakes known as American pudding-cake pie, Beecher's cream cake, and Washington pie, the dessert was referred to as chocolate cream pie, Parker House chocolate cream pie, and finally Boston cream pie on Parker House's menus.
 
 More fun facts (when the user asks for more):
 
 - (history) In the late 19th century, this type of cake was variously called a "cream pie", a "chocolate cream pie", or a "custard cake".
-- (history) Sanizan or Sanzian) at the Parker House Hotel in Boston, who reportedly made the dessert for its opening in 1856.
 - (history) An early printed use of the term "Boston cream pie" occurred in the Granite Iron Ware Cook Book, printed in 1878.
 - (history) The earliest known recipe for the modern variant was printed in Miss Parloa's Kitchen Companion in 1887 as "chocolate cream pie".
 - (history) Boston cream pie is the official dessert of Massachusetts, declared as such on December 12, 1996.
-- (about) The cake has been popular in Massachusetts since its creation.
-- (about) A direct descendant of earlier cakes known as American pudding-cake pie, Beecher's cream cake, and Washington pie, the dessert was referred to as chocolate cream pie, Parker House chocolate cream pie, and finally Boston cream pie on Parker House's menus.
+- (history) The dessert is estimated to have been created between 1834 and 1856.
 - (about) While other custard cakes may have existed at that time, baking chocolate as a coating was a new process, making it unique and a popular choice on the menu.
-- (origin) Boston cream pie comes from United States.
+- (origin) Boston cream pie comes from the United States.
+- (about) The cake has been popular in Massachusetts since its creation.
 
 Learn more:
 
@@ -137,7 +136,6 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) The first is identified as "A Bread and Butter Pudding for Fasting Days".
 - (about) With the arrival of the first settlers in the 13 English Colonies in America, bread pudding became popular in the colonies and later in the United States.
 - (about) The dessert is also known as poor man's pudding or just pudding.
 - (about) In the Philippines, bread pudding made with Pandesal is popular.
@@ -184,7 +182,7 @@ A butter tart is a type of small pastry tart highly regarded in Canadian cuisine
 
 Fun facts:
 
-- (history) The earliest published Canadian recipe is from Barrie, Ontario, dating back to 1900 and can be found in The Women's Auxiliary of the Royal Victoria Hospital Cookbook, to which a chef by the name of Mrs.
+- (history) The earliest published Canadian recipe is from Barrie, Ontario, dating back to 1900 and can be found in The Women's Auxiliary of the Royal Victoria Hospital Cookbook, to which a chef by the name of Mrs. Mary Ethel MacLeod submitted the recipe for a butter tart filling.
 - (origin) Butter tart was first made by Mary Ethel MacLeod.
 - (culture) Traditionally, the English Canadian tart consists of butter, sugar, and eggs in a pastry shell, similar to the French-Canadian sugar pie.
 
@@ -192,8 +190,8 @@ More fun facts (when the user asks for more):
 
 - (history) Another early publication of a butter tart recipe was found in a 1915 pie cookbook.
 - (culture) Often raisins, walnuts, or pecans are added to the traditional butter tart, although the acceptability of such additions is a matter of national debate.
-- (about) As an iconic Canadian food and one of the most popular desserts in the country, the raisin-or-no-raisin question can provoke polarizing debate.
 - (origin) Butter tart comes from Canada.
+- (about) As an iconic Canadian food and one of the most popular desserts in the country, the raisin-or-no-raisin question can provoke polarizing debate.
 
 Learn more:
 
@@ -216,23 +214,23 @@ A Caesar is a cocktail created and consumed primarily in Canada.
 
 Fun facts:
 
-- (history) In October 1968, Seagram president Victor Fischel and Mott's Clamato marketer Ray Anrig claimed to have invented the seasoned tomato/clam/vodka cocktail, the "Clamdigger" earlier in 1968, in Manhattan.
+- (history) The Caesar was invented in 1969 by restaurant manager Walter Chell of the Calgary Inn (today the Westin Hotel) in Calgary, Alberta, Canada.
 - (inspiration) Caesar is named after Julius Caesar.
 - (origin) Caesar was first made by Walter Chell.
 
 More fun facts (when the user asks for more):
 
+- (history) In October 1968, Seagram president Victor Fischel and Mott's Clamato marketer Ray Anrig claimed to have invented the seasoned tomato/clam/vodka cocktail, the "Clamdigger" earlier in 1968, in Manhattan.
+- (history) Caesar dates from 1969-.
 - (history) 'Bloody Mary a La Milo' in the 1951 Ted Saucier cocktail book titled 'Bottoms Up' (page 45), appears to be the first published cocktail recipe that includes vodka, tomato juice, clam juice, and Worcestershire sauce.
 - (history) In 1959, cartoonist and creator of The Addams Family, Charles Addams (employed by the New Yorker magazine, a few blocks from the Polonaise) claimed he invented the "Gravel Gertie", a cocktail of clam/tomato juice and vodka seasoned with Tabasco sauce.
 - (history) In 1962, Carl La Marca, bar manager at the Baker Hotel in Dallas, invented the "Imperial Clam Digger", adding a basil garnish and dash of lime to an existing version of the "Smirnoff Smiler", called the "Clam Digger".
 - (history) From late 1968 to the end of 1969, Seagram and Mott's ran a major advertising promotion of the "Clam Digger" cocktail recipe in national magazines.
-- (history) The Caesar was invented in 1969 by restaurant manager Walter Chell of the Calgary Inn (today the Westin Hotel) in Calgary, Alberta, Canada.
-- (history) This pre-dates the version at the Polonaise nightclub in Manhattan, which debuted in November 1953.
-- (history) In December 1953, columnist Walter Winchell reported that the drink was seasoned with "a dash of Wooooshhhtasheer Sauce".
-- (history) Caesar dates from 1969-.
-- (origin) The drink was introduced as the "Smirnoff Smiler" by owner Paul Pawlowski.
 - (origin) Caesar comes from Canada.
 - (about) Not to be confused with Caesar.
+- (history) This pre-dates the version at the Polonaise nightclub in Manhattan, which debuted in November 1953.
+- (history) In December 1953, columnist Walter Winchell reported that the drink was seasoned with "a dash of Wooooshhhtasheer Sauce".
+- (origin) The drink was introduced as the "Smirnoff Smiler" by owner Paul Pawlowski.
 
 Learn more:
 
@@ -255,22 +253,22 @@ California roll, or California maki is a type of sushi that contains imitation c
 Fun facts:
 
 - (inspiration) One story, drawn directly from a firsthand source (namely Teruo Imaizumi, Mashita's assistant), was that in 1964, the pair developed a prototype which used cubed avocado, king crab, cucumber and ginger, made into a hand-roll (rather than makizushi rolled using a makisu).
-- (history) According to this account, Mashita began substituting the toro (fatty tuna) with avocado in the off-season, and after further experimentation, developed the prototype, back in the 1960s (or early 1970s).
+- (history) Japanese-born chef Hidekazu Tojo, a resident of Vancouver since 1971, claimed he created the California roll at his restaurant in the late 1970s.
 - (origin) Several chefs from Los Angeles have been cited as the dish's originator, as well as one chef from Vancouver, British Columbia.
 
 More fun facts (when the user asks for more):
 
-- (inspiration) Less than a month later an Associated Press story credited a Los Angeles chef named Ken Seusa at the Kin Jo sushi restaurant near Hollywood as its inventor.
-- (history) Japanese-born chef Hidekazu Tojo, a resident of Vancouver since 1971, claimed he created the California roll at his restaurant in the late 1970s.
 - (history) The earliest mention in print of a "California roll" was in the Los Angeles Times and an Ocala, Florida newspaper on November 25, 1979.
 - (about) Accounts of these first "California Rolls" describe a dish very different from the one today.
 - (about) Early California roll recipes used frozen king crab legs, since surimi imitation crab was not yet available locally and importing it was not convenient.
 - (inspiration) California roll is named after California.
+- (inspiration) Less than a month later an Associated Press story credited a Los Angeles chef named Ken Seusa at the Kin Jo sushi restaurant near Hollywood as its inventor.
+- (history) According to this account, Mashita began substituting the toro (fatty tuna) with avocado in the off-season, and after further experimentation, developed the prototype, back in the 1960s (or early 1970s).
 - (culture) Outside America, California rolls may be closer to the traditional design or futomaki, with nori seaweed on the outside.
 - (culture) As one of the most popular styles of sushi in the United States, Canada and Australia, the California roll has been influential in sushi's global popularity, and in inspiring sushi chefs around the world to create non-traditional fusion cuisine.
 - (culture) The early California roll was wrapped traditional style, with the nori seaweed on the outside, which American customers tended to peel off.
+- (origin) California roll comes from the United States.
 - (about) In 2016 the Japanese Ministry of Agriculture, Forestry and Fisheries named Tojo a goodwill ambassador for Japanese cuisine.
-- (origin) California roll comes from United States.
 
 Learn more:
 
@@ -314,20 +312,18 @@ Fun facts:
 
 - (culture) These are a common treat at fall festivals in Western culture in the Northern Hemisphere, such as Halloween and Guy Fawkes Night, because these festivals occur in the wake of annual apple harvests.
 - (history) Candy apples were originally sold in London in the 1890s.
-- (about) He sold the whole first batch for 5 cents each and later sold thousands yearly.
+- (inspiration) Brazil – candy apples (named as in other Lusophone countries maçã do amor, as in the French pommes d'amour, meaning "apples of love") are common in the festivities in honor of John the Baptist.
 
 More fun facts (when the user asks for more):
 
-- (history) Koln sold the earliest known America version of a red candy apple in 1908.
+- (history) In the US William W. Koln sold the earliest known America version of a red candy apple in 1908.
 - (history) Soon candied apples were being sold along the Jersey Shore, at the circus and in candy shops across the country, according to the Newark News in 1948.
-- (culture) They are a common treat found at many festivals.
 - (culture) Japan – candy apples, grapes, strawberries and tangerines are commonly available at Japanese festivals.
-- (inspiration) Brazil – candy apples (named as in other Lusophone countries maçã do amor, as in the French pommes d'amour, meaning "apples of love") are common in the festivities in honor of John the Baptist.
+- (origin) Candy apple comes from the United States.
+- (about) Not to be confused with caramel apple.
 - (culture) Mainland China – a similar treat called Tanghulu is made by coating small fruits, traditionally hawthorns with hard sugar syrup.
 - (about) Canada – very popular and usually eaten at fairs or carnivals.
-- (culture) They are also sometimes sold at carnivals and fairs Israel – almost solely sold in cities' squares on Yom Ha'atzmaut eve (Israel Independence Day) as part of the street celebrations.
-- (origin) Candy apple comes from United States.
-- (about) Not to be confused with caramel apple.
+- (culture) They are a common treat found at many festivals.
 
 Learn more:
 
@@ -388,12 +384,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Flexner in the April 1938 edition of The American Home, in her article "In Search of Chess Pie".
+- (origin) The link probably comes from cook book author Marion W. Flexner in the April 1938 edition of The American Home, in her article "In Search of Chess Pie".
 - (history) Food writer Jean Anderson characterizes the early recipes for transparent pudding, such as "Mary Randolph's Transparent Pudding" (containing no milk) in the 1825 edition are "for all intents and purposes chess pie".
 - (history) The earliest recipe for Chess pie found by the food blogger, The Passionate Foodie, was in the October 1866 edition of The American Agriculturalist.
-- (history) The cookbook Buckeye Cookery—With Hints on Practical Housekeeping (1881) included a recipe submitted by Mrs.
 - (history) Recipes for "Chess Pie" made without milk can be found in early 20th century cookbooks.
 - (origin) Chess pie comes from England.
+- (history) The cookbook Buckeye Cookery—With Hints on Practical Housekeeping (1881) included a recipe submitted by Mrs. J. Carson of Glendale, Minnesota.
 
 Learn more:
 
@@ -442,13 +438,13 @@ More fun facts (when the user asks for more):
 
 - (history) Chowder was not utterly unfamiliar in England at the time, as in Sir Launcelot Greaves (1762) Tobias Smollett has one character state, "My head sings and simmers like a pot of chowder".
 - (history) In 1890, in the magazine American Notes and Queries, it was said that the dish was of French origin.
-- (about) Additionally, a Portuguese, Brazilian, Galician and Basque fish and shellfish stew is known as caldeirada which appears to have a similar etymology.
 - (about) Chowder became popular for its flavour, and is now used widely for its simple preparation.
-- (culture) After the Revolutionary war, the fourth of July was celebrated with picnics, fireworks, dances and dinners.
 - (culture) Chowder was one of the dishes commonly served for the celebrations in the northern United States.
 - (culture) Its simplicity made it attractive and it became a regional dish of the New Englanders, and their favourite recipe was "chowder master". "Symbolically, functionally, mnemonically or dynamically" chowder has become a community-defining symbol for New Englanders.
-- (origin) Chowder comes from United States.
+- (origin) Chowder comes from the United States.
 - (about) Not to be confused with Chowder.
+- (about) A Portuguese, Brazilian, Galician and Basque fish and shellfish stew is known as caldeirada which appears to have a similar etymology.
+- (culture) After the Revolutionary war, the fourth of July was celebrated with picnics, fireworks, dances and dinners.
 
 Learn more:
 
@@ -470,19 +466,19 @@ A cinnamon roll (also known as cinnamon bun, cinnamon swirl, cinnamon scroll, ci
 Fun facts:
 
 - (history) The oldest recorded recipes for cinnamon rolls are from Germany in the 16th century.
-- (culture) This tradition was specially invented during the 1990s where the national football team usually played their games on Wednesdays.
 - (origin) Cinnamon rolls spread from Germany to Scandinavia, introduced to Norway from Hanseatic traders through the port city of Bergen where they would become known as the skillingsbolle, with the modern Swedish kanelbulle being created after the First World War.
+- (culture) This tradition was specially invented during the 1990s where the national football team usually played their games on Wednesdays.
 
 More fun facts (when the user asks for more):
 
 - (origin) Arab spice traders introduced the Sri Lankan cinnamon spice to Europe.
 - (culture) In Sweden and Finland, cinnamon rolls are traditionally enjoyed during a get-together, including the consumption of coffee and or baked goods.
-- (about) In Sweden, the get-together is known as a fika, typically held in the afternoon, by coworkers during a break, by friends or by family.
 - (about) In Denmark, cinnamon buns are especially popular on Wednesdays, where an extra large variant called the Wednesday snail is sold.
 - (about) Along with Topfengolatsche, Buttercroissant and Faschingskrapfen, cinnamon rolls are a typical baked good to have with afternoon coffee, known as "Kaffe und Kuchen" in Austria and Germany.
 - (about) Cinnamon buns are particularly popular during the Christmas season in Slovakia and the Czech Republic.
-- (culture) They form part of the traditional Christmas baking repertoire in many households, alongside other festive treats like vanilla crescents (vanilkové rožteky) and linzer cookies.
 - (origin) Cinnamon roll comes from Sweden.
+- (about) In Sweden, the get-together is known as a fika, typically held in the afternoon, by coworkers during a break, by friends or by family.
+- (culture) They form part of the traditional Christmas baking repertoire in many households, alongside other festive treats like vanilla crescents (vanilkové rožteky) and linzer cookies.
 
 Learn more:
 
@@ -510,9 +506,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) In the United States, English settlers were unable to make traditional suet puddings due to lack of suitable ingredients and cooking equipment.
-- (origin) Cobbler comes from United States.
+- (origin) Cobbler comes from the United States.
 - (about) Not to be confused with Cobbler.
+- (culture) In the United States, English settlers were unable to make traditional suet puddings due to lack of suitable ingredients and cooking equipment.
 
 Learn more:
 
@@ -533,12 +529,11 @@ Cod au gratin is a Canadian dish originating in Newfoundland, consisting of cod 
 Fun facts:
 
 - (history) Cod has been a staple in Newfoundland ever since early settlers arrived on the island in the 1700s.
-- (about) It is believed that the dish was originally cooked with breadcrumbs, but when a hotel in St.
+- (about) It is believed that the dish was originally cooked with breadcrumbs, but when a hotel in St. John's ran out of bread, they substituted cheese instead, which became popular instantly.
 - (culture) The dish evolved to have a creamy white sauce, known as béchamel, on top, traditionally served in a casserole tin.
 
 More fun facts (when the user asks for more):
 
-- (about) John's ran out of bread, they substituted cheese instead, which became popular instantly.
 - (origin) Cod au gratin comes from Canada.
 
 Learn more:
@@ -600,8 +595,8 @@ Figgy duff is a traditional bag pudding from the province of Newfoundland and La
 
 Fun facts:
 
-- (culture) One traditional recipe lists the ingredients as breadcrumbs, raisins, brown sugar, molasses, butter, flour, and spices.
 - (origin) Figgy duff comes from Canada.
+- (culture) One traditional recipe lists the ingredients as breadcrumbs, raisins, brown sugar, molasses, butter, flour, and spices.
 
 Learn more:
 
@@ -639,14 +634,14 @@ Fun facts:
 
 - (origin) Japanese fishcakes were introduced to Korea during the 1910–1945 Japanese colonial period.
 - (history) The first eomuk processing plant in South Korea was DongKwangFood in Bupyeong Market in the 1950s in Busan.
-- (about) In December 2013, Samjin Fish Cake established an eomuk bakery in South Korea for the first time.
+- (about) Not to be confused with Fishcake, fishcake, fiskekaker, eomuk.
 
 More fun facts (when the user asks for more):
 
 - (history) In the early 1990s, Busan-eomuk commonly sold in food trucks became a trend.
+- (about) In December 2013, Samjin Fish Cake established an eomuk bakery in South Korea for the first time.
 - (about) Since the food trucks usually served eomuk with a hot broth, eomuk became popular in winter.
 - (about) During the 2010s, the eomuk industry in South Korea went through a major transformation, the public perception of eomuk changing from fast food to recognized delicacy.
-- (about) Not to be confused with Fishcake, fishcake, fiskekaker, eomuk.
 
 Learn more:
 
@@ -667,7 +662,7 @@ Flapper pie, or the forgotten Prairie pie, is a vanilla custard pie topped with 
 
 Fun facts:
 
-- (history) However, flapper pie became popular across the Canadian Prairies during the 1920s, with the dessert earning its name from flappers.
+- (history) Flapper pie became popular across the Canadian Prairies during the 1920s, with the dessert earning its name from flappers.
 - (origin) Flapper pie comes from Canada.
 - (history) By the 1940s, the pie had faded into obscurity and become "forgotten."
 
@@ -734,7 +729,7 @@ Fried dough is a food associated with outdoor food stands in carnivals, amusemen
 Fun facts:
 
 - (about) Fried dough is also known as fry dough, fry bread (bannock), fried bread, doughboys, elephant ears, beaver tails, scones, pizza fritte, bawyrsaq, boorsok, shelpek, frying saucers (in the case of smaller pieces).
-- (origin) Fried dough comes from Canada, United States.
+- (origin) Fried dough comes from Canada, the United States.
 
 Learn more:
 
@@ -779,13 +774,12 @@ Hamburg steak is a patty of ground beef.
 
 Fun facts:
 
+- (inspiration) Invented by Dr. James Salisbury (1823–1905), the term Salisbury steak has been used in the United States since 1897.
 - (history) The oldest document that refers to the Hamburg steak in English is a Delmonico's Restaurant menu from 1873 that offered customers an 11-cent plate (equal to $2.96 today) of Hamburg steak that had been developed by American chef Charles Ranhofer (1836–1899).
-- (inspiration) Hamburg steak is named after Hamburg.
 - (about) By the end of the century, the Hamburg steak was gaining popularity because of its ease of preparation and decreasing cost.
 
 More fun facts (when the user asks for more):
 
-- (history) James Salisbury (1823–1905), the term Salisbury steak has been used in the United States since 1897.
 - (history) Made popular worldwide by migrating Germans, it became a mainstream dish around the start of the 19th century.
 - (history) Hamburg steak is considered the origin of the hamburger when, in the early 20th century, vendors began selling the Hamburg steak between bread as a sandwich.
 - (history) The German equivalent of the Hamburg steak is the Frikadelle, also known as a Bulette, which is known to have existed in the 17th century.
@@ -793,9 +787,10 @@ More fun facts (when the user asks for more):
 - (history) Documents show that this preparation style was used by 1887 in some US restaurants and was also used for feeding patients in hospitals; the Hamburg steak was served raw or lightly cooked and was accompanied by a raw egg.
 - (history) The menus of many American restaurants during the 19th century included a Hamburg beefsteak that was often sold for breakfast.
 - (history) By 1930, Hamburg steaks were usually served as part of a sandwich known as a hamburger; the meat part of the sandwich became known as a patty.
+- (inspiration) Hamburg steak is named after Hamburg.
 - (history) Hamburg steak dates from 1900-.
-- (about) This is evident from its detailed description in some of the most popular cookbooks of the day.
 - (origin) Hamburg steak comes from Germany.
+- (about) This is evident from its detailed description in some of the most popular cookbooks of the day.
 
 Learn more:
 
@@ -821,17 +816,17 @@ Fun facts:
 
 - (history) Sam Panopoulos, a Greek-born Canadian, is credited with creating the first Hawaiian pizza at the Satellite Restaurant in Chatham-Kent, Ontario, Canada, in 1962.
 - (origin) In Germany, Hawaiian pizza is thought to be a variation of the ham, pineapple and cheese-topped toast Hawaii, originally introduced by Germany's first TV cook Clemens Wilmenrod in 1955.
-- (inspiration) Inspired in part by his experience preparing Canadian Chinese dishes which commonly mix sweet and sour flavors, Panopoulos experimented with adding pineapple, ham, bacon, and other toppings.
+- (inspiration) Hawaiian pizza is named after brand.
 
 More fun facts (when the user asks for more):
 
 - (history) In 1957, a "Hawaiian Pizza" topped with pineapple, papaya, and chopped green pepper, but not ham or bacon, appeared in Portland, Oregon.
 - (history) Hawaiian pizza dates from 1962-.
 - (origin) Hawaiian pizza was first made by Sam Panopoulos.
-- (about) These additions were not initially very popular.
-- (culture) The addition of pineapple to the traditional mix of tomato sauce and cheese, along with either ham or bacon, later became popular locally and eventually became a staple offering of pizzerias on a global scale.
 - (origin) Hawaiian pizza comes from Canada.
-- (inspiration) Hawaiian pizza is named after brand.
+- (inspiration) Inspired in part by his experience preparing Canadian Chinese dishes which commonly mix sweet and sour flavors, Panopoulos experimented with adding pineapple, ham, bacon, and other toppings.
+- (culture) The addition of pineapple to the traditional mix of tomato sauce and cheese, along with either ham or bacon, later became popular locally and eventually became a staple offering of pizzerias on a global scale.
+- (about) These additions were not initially very popular.
 
 Learn more:
 
@@ -852,14 +847,14 @@ Hodge-podge or hotch potch (variously capitalised and hyphenated) is a soup or s
 Fun facts:
 
 - (culture) In her 1826 book The Cook and Housewife's Manual, Margaret Dods classes hotch-potch as a "Scotch National Dish", and gives recipes for summer and winter versions of the stew.
-- (history) A Dutch variant, "hutspot", known in the Netherlands since the 16th century, contains potato and cheese as well as the onions and carrots familiar elsewhere.
 - (inspiration) In her 1788 book The Lady's Complete Guide; Or Cookery in All its Branches, Mary Cole does not call for mixed meats, but gives recipes for hodge podges based on either beef, mutton, veal, hare or turtle, with onions and a variety of other vegetables such as a turnips, carrots, leeks and celery.
+- (history) In the 19th century Mrs Beeton similarly gave recipes for hodge podges of a single meat – either beef or mutton.
 
 More fun facts (when the user asks for more):
 
+- (history) A Dutch variant, "hutspot", known in the Netherlands since the 16th century, contains potato and cheese as well as the onions and carrots familiar elsewhere.
 - (history) In the 17th century John Dryden refers in an essay to "Memphian hotch-potch, Leeks, and Garlike strong".
 - (history) In The Art of Cookery Made Plain and Easy (1780), Hannah Glasse specifies a mixture of diced beef, veal and mutton; the vegetables are turnip, celery, carrot and lettuce, and, when in season, peas.
-- (history) In the 19th century Mrs Beeton similarly gave recipes for hodge podges of a single meat – either beef or mutton.
 - (history) A 19th century American recipe for hotch potch specifies lean mutton boiled with carrots and turnips, seasoned with salt and pepper.
 
 Learn more:
@@ -901,8 +896,9 @@ Instant mashed potatoes are potatoes that have been through an industrial proces
 
 Fun facts:
 
-- (history) Patent 1025373, developed by Ernest William Cooke, titled "Dehydrate Potatoes and Process of Preparing the Same", and describing a product that was to be reconstituted in hot water, was applied for in 1905 and granted in 1912.
-- (history) Flake-form instant mashed potatoes date back at least to 1954, when two United States Department of Agriculture researchers were issued a patent for "Drum drying of cooked mashed potatoes" (U.S.
+- (history) U.S. Patent 1025373, developed by Ernest William Cooke, titled "Dehydrate Potatoes and Process of Preparing the Same", and describing a product that was to be reconstituted in hot water, was applied for in 1905 and granted in 1912.
+- (history) Flake-form instant mashed potatoes date back at least to 1954, when two United States Department of Agriculture researchers were issued a patent for "Drum drying of cooked mashed potatoes" (U.S. Patent 2,759,832), which describes the end product specifically being "as a thin sheet or flake".
+- (history) In 1962, Canadian scientist Edward A. Asselbergs was issued U.S. Patent 3,260,607, entitled "Preparation of dehydrated cooked mashed potato", for a particular industrial method of producing the product.
 
 Learn more:
 
@@ -966,17 +962,17 @@ Johnnycake, also known as journey cake, hoecake, shawnee cake, or spider cornbre
 
 Fun facts:
 
-- (origin) The food originates from the indigenous people of North America.
+- (origin) The modern johnnycake is found in the cuisine of New England and is often claimed as originating in Rhode Island.
 - (history) Johnnycake is also claimed that johnnycakes were made by the Narragansett people as far back as the 1600s.
 - (about) Johnnycakes are mentioned in Little House in the Big Woods, the first book in the Little House on the Prairie series by Laura Ingalls Wilder.
 
 More fun facts (when the user asks for more):
 
-- (origin) The modern johnnycake is found in the cuisine of New England and is often claimed as originating in Rhode Island.
 - (history) Cornbread was popular during the American Civil War because it was very cheap and could be made in many different sizes and forms.
-- (about) Indian fritters... variously known as "hoe cake",... or "Johnny cake."...
+- (about) Indian fritters.. variously known as "hoe cake",.. or "Johnny cake."..
 - (about) The eighth episode of season six of the HBO crime drama The Sopranos is named "Johnny Cakes", after the modern dish found mainly in New England.
-- (origin) Johnnycake comes from United States.
+- (origin) Johnnycake comes from the United States.
+- (origin) The food originates from the indigenous people of North America.
 
 Learn more:
 
@@ -1025,16 +1021,16 @@ Kraft Dinner (marketed as KD in Canada; Kraft Mac & Cheese in the United States,
 
 Fun facts:
 
-- (origin) A version with spiral-shaped noodles debuted in 1975, while Velveeta Shells & Cheese were introduced in 1984.
 - (about) The prerequisite to a shelf-stable packaged macaroni and cheese product was the invention of processed cheese, where emulsifying salts help stabilize the product, giving it a longer life.
 - (history) While living in Chicago, James Lewis Kraft of Fort Erie, Ontario, began to build his cheese business after winning a patent for one such method in 1916.
+- (origin) A version with spiral-shaped noodles debuted in 1975, while Velveeta Shells & Cheese were introduced in 1984.
 
 More fun facts (when the user asks for more):
 
-- (history) The box's primary colour changed to blue in 1954, later used in an advertising campaign where children were encouraged to ask for "The Blue Box".
-- (origin) A single-serving variation requiring only water for preparation was introduced as Easy Mac in 1999.
 - (history) The product was first marketed in many U.S. states in 1936, typically for 15 cents a box (“grated cheese and macaroni--dinner for four in nine minutes”).
 - (history) The product was first marketed in many U.S. states in 1936, typically for 15 cents (equivalent to $3.48 in 2025) a box (“grated cheese and macaroni--dinner for four in nine minutes”).
+- (history) The box's primary colour changed to blue in 1954, later used in an advertising campaign where children were encouraged to ask for "The Blue Box".
+- (origin) A single-serving variation requiring only water for preparation was introduced as Easy Mac in 1999.
 - (origin) In 2006, the cheddar and white cheddar versions switched to organic macaroni, while Easy Mac Cups were introduced the same year.
 - (about) In 2007, the noodles switched to 50 percent whole grain.
 - (about) Macaroni & Cheese Crackers also debuted in 2007.
@@ -1073,14 +1069,14 @@ The Montreal-style bagel or Montreal bagel is a distinctive variety of handmade 
 
 Fun facts:
 
-- (about) They were (reportedly) first baked in Montreal by Chaim (Hyman) Seligman, as verified by Montreal historian Joe King, a historian of Montreal Jewry.
-- (history) Viateur Bagel Shop in 1957 and Shlafman established Fairmount Bagel in 1919, which both still exist in the present day.
+- (history) Seligman and Lewkowicz founded the St. Viateur Bagel Shop in 1957 and Shlafman established Fairmount Bagel in 1919, which both still exist in the present day.
+- (about) Minor controversy surrounds the question of who first brought the bagel to Montreal.
 - (origin) Montreal-style bagel comes from Canada.
 
 More fun facts (when the user asks for more):
 
-- (about) Minor controversy surrounds the question of who first brought the bagel to Montreal.
-- (about) Seligman first worked in the neighbourhood community of Lachine and later moved his bakery to the lane next door to Schwartz's Delicatessen on Boulevard St.
+- (about) They were (reportedly) first baked in Montreal by Chaim (Hyman) Seligman, as verified by Montreal historian Joe King, a historian of Montreal Jewry.
+- (about) Seligman first worked in the neighbourhood community of Lachine and later moved his bakery to the lane next door to Schwartz's Delicatessen on Boulevard St. Laurent in central Montreal.
 
 Learn more:
 
@@ -1102,12 +1098,11 @@ Montreal-style smoked meat, Montreal smoked meat, or (mainly in Quebec) simply s
 Fun facts:
 
 - (history) According to Eiran Harris, a Montreal historian, Herman Rees Roth from New York may have created the first smoked meat sandwich in 1908, selling them from his deli, the British American Delicatessen Store.
-- (about) His first smoked meat sandwiches were made and sold from his wife's fruit and candy store.
 - (origin) Montreal-style smoked meat comes from Canada.
+- (history) In yet another possibility, a butcher by the name of Aaron Sanft who arrived from Iași, Romania, in 1884 founded Montreal's first kosher butcher shop (Sanft Kosher Meat at 560 Craig Street (now Saint Antoine Street)) and likely made smoked meat in the Romanian style similar to pastrama.
 
 More fun facts (when the user asks for more):
 
-- (history) In yet another possibility, a butcher by the name of Aaron Sanft who arrived from Iași, Romania, in 1884 founded Montreal's first kosher butcher shop (Sanft Kosher Meat at 560 Craig Street (now Saint Antoine Street)) and likely made smoked meat in the Romanian style similar to pastrama.
 - (history) Regardless, all of these stories indicate the creators are of the Jewish Diaspora from Romania or Eastern Europe: Some point to Benjamin Kravitz, who founded Bens De Luxe Delicatessen & Restaurant in 1910, as the introducer of Montreal smoked meat.
 - (history) In another claim by Bill Brownstein, the smoked meat was brought over in 1902 by Itzak Rudman, who was an accomplished salami and smoked meat maker who had a shop on de Bullion Street (formerly Cadieux Street).
 
@@ -1132,18 +1127,18 @@ The Nanaimo bar is a bar dessert that requires no baking and is named after the 
 
 Fun facts:
 
-- (history) Harold Payne, the daughter of Mabel (Knowles) Scott (1883–1957).
+- (history) The first printing of recipes featuring Nanaimo bar ingredients is found in the 1952 Women's Auxiliary to the Nanaimo Hospital Cookbook, which features three nearly identical recipes that differ only slightly from the modern Nanaimo bar.
 - (inspiration) Nanaimo bar is named after Nanaimo.
 - (origin) Nanaimo bar comes from Canada.
 
 More fun facts (when the user asks for more):
 
-- (history) The first printing of recipes featuring Nanaimo bar ingredients is found in the 1952 Women's Auxiliary to the Nanaimo Hospital Cookbook, which features three nearly identical recipes that differ only slightly from the modern Nanaimo bar.
 - (history) Lenore Newman, a scholar of food geography, argues that the Nanaimo bar derives from a 1947 recipe for unbaked chocolate cake, which matches early recipes for the bottom layer.
 - (history) The earliest confirmed printed copy of the recipe using the name "Nanaimo bars" appears in the Edith Adams' prize cookbook (14th edition) from 1953.
 - (history) Other unconfirmed references date the bar back to the 1930s, when it was said to be known locally as "chocolate fridge cake".
 - (history) One modern reference mentions the bars' existence in 19th century Nanaimo.
 - (history) Nanaimo bar dates from 1950-.
+- (history) The recipe was submitted by Mrs. Harold Payne, the daughter of Mabel (Knowles) Scott (1883–1957).
 
 Learn more:
 
@@ -1166,16 +1161,15 @@ Fun facts:
 
 - (history) Marcellus Gilmore Edson of Montreal, Quebec, Canada, obtained the first patent for a method of producing peanut butter from roasted peanuts using heated surfaces in 1884.
 - (about) Although often credited as its inventor, George Washington Carver did not invent peanut butter.
-- (origin) Peanut butter comes from Canada, United States, Aztec, Inca civilization.
+- (origin) Peanut butter comes from Canada, the United States, Aztec, Inca civilization.
 
 More fun facts (when the user asks for more):
 
 - (history) There are reports that 16th century Aztecs used peanut paste for aching gums.
 - (about) Several people can be credited with the invention of modern peanut butter production processes.
-- (about) National Peanut Board credits three modern inventors with the earliest patents related to the production of modern peanut butter.
-- (history) Louis named George Bayle produced and sold peanut butter in the form of a snack food in 1894.
+- (about) The U.S. National Peanut Board credits three modern inventors with the earliest patents related to the production of modern peanut butter.
+- (history) A businessman from St. Louis named George Bayle produced and sold peanut butter in the form of a snack food in 1894.
 - (history) By 1917, American consumers used peanut products during periods of meat rationing, with government promotions of "meatless Mondays" when peanut butter was a favored choice.
-- (history) He was issued a patent for a "Process of Producing Alimentary Products" on May 24, 1898, and used peanuts, although he boiled the peanuts rather than roasting them.
 - (about) At first, peanut butter was a food for wealthy people, as it became popular initially as a product served at expensive health care institutes.
 - (history) By the time Carver published his document about peanuts, entitled "How to Grow the Peanut and 105 Ways of Preparing it For Human Consumption" in 1916, many methods of preparation of peanut butter had already been developed or patented by various pharmacists, doctors, and food scientists working in the US and Canada.
 
@@ -1210,9 +1204,9 @@ More fun facts (when the user asks for more):
 - (history) So important was pemmican that, in 1814, governor Miles Macdonell started the Pemmican War with the Métis when he passed the short-lived Pemmican Proclamation, which forbade the export of pemmican from the Red River Colony.
 - (history) Explorer Alexander Mackenzie relied on pemmican during his 1793 expedition from the Canadas to the Pacific.
 - (history) In his 1917 book, Secrets of Polar Travel, he devoted several pages to the food, stating, "Too much cannot be said of the importance of pemmican to a polar expedition.
-- (about) These bags of taureaux, when mixed with fat from the udder, were known as taureaux fins, when mixed with bone marrow, as taureaux grand, and when mixed with berries, as taureaux à grains.
 - (about) Without it a sledge-party cannot compact its supplies within a limit of weight to make a serious polar journey successful." British polar expeditions fed a type of pemmican to their dogs known as "sledging rations".
 - (origin) Pemmican comes from North America.
+- (about) These bags of taureaux, when mixed with fat from the udder, were known as taureaux fins, when mixed with bone marrow, as taureaux grand, and when mixed with berries, as taureaux à grains.
 
 Learn more:
 
@@ -1232,8 +1226,8 @@ A Persian, Persian roll or Pershing is a deep fried sweet roll with a spiral sha
 
 Fun facts:
 
-- (about) The roll is especially popular around Thunder Bay, Ontario.
 - (origin) Persian comes from Canada.
+- (about) The roll is especially popular around Thunder Bay, Ontario.
 
 Learn more:
 
@@ -1254,8 +1248,8 @@ A ploye is a Brayon flatbread type mix of buckwheat flour, wheat flour, baking p
 
 Fun facts:
 
-- (about) First invented in Nova Scotia, they later spread to the St.
 - (culture) Ployes are often served at local events and fairs, such as the Ployes Festival and Foire Brayonne.
+- (about) First invented in Nova Scotia, they later spread to the St. John Valley and Maine.
 - (origin) Ploye comes from Canada.
 
 More fun facts (when the user asks for more):
@@ -1406,8 +1400,8 @@ Sashimi is a Japanese delicacy that consists of fresh raw fish or other raw meat
 Fun facts:
 
 - (culture) This word was coined during the Muromachi period (1336–1573) and there are multiple theories as to its etymology: A possibility for the name is the traditional method of harvesting. "Sashimi-grade" fish is caught by individual handline.
-- (history) An early Japanese cookbook, written in 1489, directs that the raw flesh should be sliced and mixed with vinegar and seasonings such as salt and herbs.
 - (origin) Sashimi comes from Japan.
+- (history) An early Japanese cookbook, written in 1489, directs that the raw flesh should be sliced and mixed with vinegar and seasonings such as salt and herbs.
 
 More fun facts (when the user asks for more):
 
@@ -1462,7 +1456,7 @@ Fun facts:
 
 - (history) The Times first mentions the food item in 1864 when William Johnstone, "wholesale pork pie manufacturer and sausage roll maker", was fined £15 (£1,300 in 2021), under the Nuisances Removal Act (Amendment) Act 1863, for having on his premises a large quantity of meat unsound, unwholesome and unfit for food.
 - (about) From 2018 to 2022, English YouTuber LadBaby had five consecutive Christmas number ones on the UK Singles Chart with cover versions of songs where the lyrics were rewritten to reference sausage rolls, including "I Love Sausage Rolls", "Don't Stop Me Eatin'", and "Sausage Rolls for Everyone".
-- (history) On 20 September 1809, the Bury and Norwich Post mentions T.
+- (history) On 20 September 1809, the Bury and Norwich Post mentions T. Ling, aged 75, (an industrious vendor of saloop, buns, and sausage rolls).
 
 More fun facts (when the user asks for more):
 
@@ -1525,12 +1519,12 @@ More fun facts (when the user asks for more):
 - (history) The earliest record written recipe for a scone can be found in a folio of written recipes at the Wellcome Collection and dates from 1669.
 - (origin) When baking powder became available to the masses in 1843, the British sweetened scone that is known today first appeared.
 - (history) The most widely accepted origin of 'scone' is the Scottish Gaelic term sgonn, meaning a large lump or mass, reflecting its original form as a rustic, hand-shaped bread, with a mention in Gavin Douglas's 1513 poem, Aeneid.
-- (origin) The Middle Low German term schöne, meaning fine bread, may also have played a role in the origination of this word.
 - (history) On the other hand, Sheila MacNiven Cameron derives the word from the town of Scone ( ) in Scotland, the ancient capital where Scottish monarchs were crowned, and on whose Stone of Scone the monarchs of the United Kingdom are still crowned today.
 - (origin) Scones became a staple of afternoon tea in the early 19th century, a tradition reputedly popularized by Anna, Duchess of Bedford, who introduced the practice of enjoying scones with tea as a light refreshment between meals.
-- (origin) Scone comes from United Kingdom.
+- (origin) Scone comes from the United Kingdom.
 - (about) A 2005 market report estimated the UK scone market to be worth £64m, showing a 9% increase over the previous five years.
 - (about) In 2023, a West London woman completed a decade-long project to sample a scone at every National Trust location (244 sites across England, Wales and Northern Ireland).
+- (origin) The Middle Low German term schöne, meaning fine bread, may also have played a role in the origination of this word.
 - (about) Not to be confused with biscuit.
 
 Learn more:
@@ -1556,18 +1550,18 @@ Fun facts:
 
 - (origin) The modern Sunday roast may originate in the late 1700s, during the Industrial Revolution in Britain.
 - (inspiration) Sunday roast is named after Sunday.
-- (culture) The meal is often described as a less grand version of a traditional Christmas dinner.
+- (culture) Besides being served in its original homeland, the tradition of a Sunday roast lunch or dinner has been a major influence on food cultures in the English-speaking world, particularly in Australia, Ireland, Canada, South Africa, and New Zealand.
 
 More fun facts (when the user asks for more):
 
 - (origin) The Sunday roast originated in Britain as a meal to be eaten after the church service on Sunday.
-- (culture) Besides being served in its original homeland, the tradition of a Sunday roast lunch or dinner has been a major influence on food cultures in the English-speaking world, particularly in Australia, Ireland, Canada, South Africa, and New Zealand.
 - (culture) On Sundays all types of meat and dairy produce are allowed to be eaten; this is unlike Fridays, when many Christians of the Roman Catholic, Anglican and Methodist denominations traditionally abstain from eating meats and instead eat fish.
 - (culture) Likewise, it is traditional for Anglicans and English Catholics to fast before Sunday services, with a larger meal to break the fast afterwards.
-- (culture) These Christian religious rules created several traditional dishes in Britain.
-- (culture) Only eating fish on Friday resulted in a British tradition of 'fish Fridays', which is still common in fish and chip shops and restaurants across Britain on Fridays; particularly during Lent.
 - (culture) To mark the end of not being able to eat meat, the Sunday roast was created as a mark of celebration.
 - (origin) Sunday roast comes from England.
+- (culture) The meal is often described as a less grand version of a traditional Christmas dinner.
+- (culture) Only eating fish on Friday resulted in a British tradition of 'fish Fridays', which is still common in fish and chip shops and restaurants across Britain on Fridays; particularly during Lent.
+- (culture) These Christian religious rules created several traditional dishes in Britain.
 
 Learn more:
 
@@ -1682,20 +1676,19 @@ Touton, pronounced, toutin, tiffin, touten or towtent is a traditional dish from
 
 Fun facts:
 
-- (history) John's) dicky dough (Trinity Bay) dunkie doughs (Random Island. 1980s-90s) fan-titties (Jackson's Arm. 1970s) flacoons (Freshwater, Placentia Bay. 1970s.
 - (culture) By the late 1980s to early 2000s, toutons emerged as a symbol or reminder of Newfoundland identity.
+- (history) Wayne Johnston's 1987 novel The Time of Their Lives has a character exclaim, "She loved toutons, balls of fried dough.
 - (about) Bed and breakfast establishments and tour operators within the province serve up toutons to visiting tourists as part of "The True Newfoundland & Labrador." In 2015, the Downhome magazine sponsored the "Clash of the Toutons" competition to pick the best restaurant-made toutons in the province.
 
 More fun facts (when the user asks for more):
 
-- (history) Wayne Johnston's 1987 novel The Time of Their Lives has a character exclaim, "She loved toutons, balls of fried dough.
-- (history) John's. 1960s) damper devils (possibly St.
-- (history) Possibly from Old French flacon - "bottle" - used to roll out dough) flackers (Stephenville Crossing) flapjacks (Fortune Harbour. 1960s.
-- (history) Most likely a corruption of "fritters.") flummy/flummies (Northwest River, Labrador. 1960s.
+- (culture) Can also refer to a molasses pork cake, or even a deep fried touton.) gandies (Fischells; St. George's; Stephenville. 1950s.) gangees (Point Leamington) luski/luskinikn (traditional Mi'kmaq.
 - (origin) Toutons are referenced in the hit musical Come from Away and Newfoundland-born Petrina Bromley, a member of the original Broadway cast, introduced fellow members of the cast and crew to the fried dough version while in La Jolla.
 - (about) In 2018, Nova Scotia's Andy Hay prepared toutons as his dessert course in the season finale competition of MasterChef Canada.
-- (culture) Also refers to a more traditional pancake.) flats (Bonavista, possibly.) flitters (Lumsden, also Great Northern Peninsula, particularly in the Straits.
 - (origin) Touton comes from Canada.
+- (history) Possibly from Old French flacon - "bottle" - used to roll out dough) flackers (Stephenville Crossing) flapjacks (Fortune Harbour. 1960s.
+- (history) Most likely a corruption of "fritters.") flummy/flummies (Northwest River, Labrador. 1960s.
+- (culture) Also refers to a more traditional pancake.) flats (Bonavista, possibly.) flitters (Lumsden, also Great Northern Peninsula, particularly in the Straits.
 
 Learn more:
 
@@ -1715,14 +1708,14 @@ Cake is a baker's confectionery made by combining flour with a liquid, a fat or 
 
 Fun facts:
 
-- (about) The Greeks invented using beer as a leavener.
 - (history) Early 14th century cakes in England were also essentially bread: the most obvious differences between a "cake" and "bread" were the round, flat shape of the cakes and the cooking method, which turned cakes over once while cooking, while bread was left upright throughout the baking process.
 - (origin) Sponge cakes, leavened with beaten eggs, originated during the Renaissance, possibly in Spain.
+- (about) Not to be confused with biscuit, torte, pastel, Cake, tart, pie.
 
 More fun facts (when the user asks for more):
 
 - (history) Cakes became fashionable in the United States in the 1920s, as women entered the labor force leaving little time to prepare multiple components for dessert.
-- (about) Not to be confused with biscuit, torte, pastel, Cake, tart, pie.
+- (about) The Greeks invented using beer as a leavener.
 
 Learn more:
 
@@ -1847,7 +1840,7 @@ Fun facts:
 
 - (origin) The term hoofdkaas can be divided into hoofd ('head') originating from the animal heads commonly used to prepare the dish, and kaas ('cheese') describing the texture, which resembles that of cheese.
 - (about) A version pickled with vinegar is known as souse.
-- (origin) Head cheese comes from Italy, Switzerland, People's Republic of China.
+- (origin) Head cheese comes from Italy, Switzerland, the People's Republic of China.
 
 More fun facts (when the user asks for more):
 
@@ -1884,11 +1877,11 @@ More fun facts (when the user asks for more):
 - (history) Some food historians trace the origin of macarons to a French monastery in Cormery in the 8th century (791), in the Loire Valley.
 - (history) In the 1790s, macarons began to gain fame when two Carmelite nuns, seeking asylum in Nancy during the French Revolution, baked and sold the macarons in order to pay for their housing.
 - (history) Macaron was not until the 1930s that macarons began to be served as a sandwich with the addition of jams, liqueurs, and spices.
-- (culture) These pastries had been handed down by the Sassanid shahs in Persia, where the almond cake was made to celebrate the Zoroastrian New Year (Nowruz).
-- (about) These nuns became known as the "Macaron Sisters".
 - (about) French macaron bakeries became trendy in North America in the 2010s.
 - (origin) Macaron comes from France.
 - (about) Not to be confused with macaroon.
+- (about) These nuns became known as the "Macaron Sisters".
+- (culture) These pastries had been handed down by the Sassanid shahs in Persia, where the almond cake was made to celebrate the Zoroastrian New Year (Nowruz).
 
 Learn more:
 
@@ -1909,8 +1902,8 @@ Nun's farts is a French Canadian dessert that is made from pie dough; often from
 
 Fun facts:
 
-- (culture) Variations may replace the brown sugar with molasses, caramel sauce or maple syrup; however, this is not common nor traditional.
 - (origin) Nun's Farts comes from Canada.
+- (culture) Variations may replace the brown sugar with molasses, caramel sauce or maple syrup; however, this is not common nor traditional.
 
 Learn more:
 
@@ -1956,15 +1949,15 @@ Fun facts:
 
 - (inspiration) Legend has it that Marie-Antoinette introduced the croissant to France, but croissants and chocolatines are a relatively modern invention.
 - (history) Further stories credit the origin to the Brits in the 15th century who asked to have "chocolate in bread." The word croissant, which refers to a viennoiserie shaped like a half-moon or "crescent", made its entry in the French dictionary in 1863.
-- (about) In Algeria, Belgium, Denmark, Germany, Ireland, Israel, Lebanon, Morocco, the Netherlands, Norway, Sweden, Switzerland, Tunisia, and the United Kingdom, they are sold in most bakeries, supermarkets and cafés.
+- (about) In the United States and sometimes in English Canada, they are commonly known as "chocolate croissants" or "pain au chocolat".
 
 More fun facts (when the user asks for more):
 
-- (origin) The type of dough, called viennoiserie was introduced to France in the early 19th century, when August Zang, an Austrian officer, and Ernest Schwarzer, an Austrian aristocrat, founded a Viennese bakery in Paris located at 92, rue de Richelieu.
-- (about) In the United States and sometimes in English Canada, they are commonly known as "chocolate croissants" or "pain au chocolat".
 - (about) In the Netherlands, they are sold at most cafés, supermarkets and bakeries and are commonly known as a chocoladebroodje.
 - (about) In Mexico, they are also most commonly found in bakeries and supermarkets, and are known as chocolatines.
 - (origin) Pain au chocolat comes from France.
+- (about) In Algeria, Belgium, Denmark, Germany, Ireland, Israel, Lebanon, Morocco, the Netherlands, Norway, Sweden, Switzerland, Tunisia, and the United Kingdom, they are sold in most bakeries, supermarkets and cafés.
+- (origin) The type of dough, called viennoiserie was introduced to France in the early 19th century, when August Zang, an Austrian officer, and Ernest Schwarzer, an Austrian aristocrat, founded a Viennese bakery in Paris located at 92, rue de Richelieu.
 
 Learn more:
 
@@ -2128,7 +2121,6 @@ More fun facts (when the user asks for more):
 - (history) The dish "poutine" appears on the establishment's 1957 menu.
 - (history) Lachance served this on a plate, and beginning in 1962 added hot gravy to keep it warm.
 - (about) The restaurant displays a copyright registration certificate, issued by the Canadian Intellectual Property Office, which alludes to Roy having invented poutine.
-- (about) The Oxford Companion to Cheese takes a different perspective, stating that the inventors were not chefs but the customers who chose to add cheese curds to their fries.
 - (history) The Dictionnaire historique du français québécois lists 15 meanings of poutine in Québécois and Acadian French, most of which are for kinds of food; the word poutine in the meaning "fries with cheese and gravy" is dated to 1982 in English.
 - (history) Poutine dates from 1950-.
 - (origin) Poutine was first made in Centre-du-Québec.
@@ -2136,6 +2128,7 @@ More fun facts (when the user asks for more):
 - (about) Poutine has long been associated with Quebec cuisine, and its rise in prominence has led to its growing popularity throughout the rest of Canada.
 - (culture) Annual poutine celebrations occur in Montreal, Quebec City, and Drummondville, as well as Toronto, Ottawa, New Hampshire, and Chicago.
 - (about) Many variations on the original recipe are popular, leading some to suggest that poutine has emerged as a new dish classification in its own right, as with sandwiches or dumplings.
+- (about) The Oxford Companion to Cheese takes a different perspective, stating that the inventors were not chefs but the customers who chose to add cheese curds to their fries.
 - (about) Not to be confused with Vladimir Putin, poitín, Putin.
 
 Learn more:
@@ -2224,10 +2217,10 @@ More fun facts (when the user asks for more):
 
 - (history) Excavations in Santorini, Greece, unearthed sets of stone cooking supports used by the natives of the island before the Thera eruption of the 17th century BC; souvlaki was "a popular delicacy in Santorini back in 2000 BC".
 - (history) Modern-day souvlaki was described by Gustave Flaubert, a French traveler, who observed Greeks "grilling pieces of meat on a bamboo stick" during his visit to the Boeotian countryside of southern Central Greece in 1850.
-- (about) In Classical Greece, a small spit or skewer was known as ὀβελίσκος (obelískos), and Aristophanes mentions such skewers being used to roast thrushes.
 - (history) In the Byzantine Empire, the Greek author of the Prodromic Poems (4.231) mentions "the hot meat shops" of Constantinople providing clients with spit-roasted meat slices similar to souvlaki known as psenasis souglitarea.
 - (origin) Souvlaki comes from Greece, Cyprus.
 - (about) Not to be confused with Souvlaki.
+- (about) In Classical Greece, a small spit or skewer was known as ὀβελίσκος (obelískos), and Aristophanes mentions such skewers being used to roast thrushes.
 
 Learn more:
 
@@ -2241,13 +2234,12 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q240923) (CC0); [Wikipedia: So
 
 ### St. Catherine's taffy
 
-St.
+St. Catherine's taffy is a variety of taffy made by French-Canadian families to celebrate the feast day of Saint Catherine of Alexandria, which takes place annually on November 25.
 
 - From: Quebec, Canada
 
 Fun facts:
 
-- (culture) Catherine's taffy is a variety of taffy made by French-Canadian families to celebrate the feast day of Saint Catherine of Alexandria, which takes place annually on November 25.
 - (culture) Marguerite Bourgeoys, a founder of the Notre-Dame de Montréal and an early teacher at Ville-Marie, the colonial settlement that later became Montreal, is credited with starting the tradition as a way of keeping the attention of her young students.
 
 Learn more:
@@ -2371,13 +2363,11 @@ A Yule log or bûche de Noël is a traditional Christmas cake, often served as a
 Fun facts:
 
 - (culture) In English, the ritual is most commonly referred to as the Yule log, but was originally known as the Christmas log, including in its first mention in England in 1648.
-- (about) Variants are also served in the United States, United Kingdom, Cambodia, Scandinavia, Portugal, Spain, and Japan.
-- (history) The cake emerged in the 19th century, probably in France, before spreading to other countries.
+- (history) References to it as bûche de Noël or, in English, Yule Log, can be found from at least the Edwardian era (for example, F. Vine, Saleable Shop Goods (1898 and later).
+- (origin) The earliest description of ritual resembling the yule log comes from the 6th century Spanish bishop Martin of Braga in his work De correctione rusticorum.
 
 More fun facts (when the user asks for more):
 
-- (history) Vine, Saleable Shop Goods (1898 and later).
-- (origin) The earliest description of ritual resembling the yule log comes from the 6th century Spanish bishop Martin of Braga in his work De correctione rusticorum.
 - (culture) This ritual being described by Martin of Braga, involving putting a log in hearth, and placing food and wine on it, is believed to be the same ritual that we call the Yule log today.
 - (culture) Yule log is traditionally made from a genoise, generally baked in a large, shallow Swiss roll pan, iced, rolled to form a cylinder, and iced again on the outside.
 - (about) The name bûche de Noël originally referred to the Yule log itself, and was transferred to the dessert after that custom had fallen out of popular use.
@@ -2385,10 +2375,12 @@ More fun facts (when the user asks for more):
 - (culture) Other than involving a log, the exact tradition varies widely from country to country, and from region to region within countries.
 - (culture) The tradition of placing food and wine on the yule log before or during burning is present in descriptions of the practice made in the 20th and 21st centuries in France, Spain, Italy, Croatia, Serbia, Albania, and Montenegro.
 - (culture) The food present as part of the offering during this ritual, often sweets, may have morphed into the Yule log cake we have today.
-- (inspiration) The original ritual is thought to have come from the roman tradition of burning of food, wine, incense, laurels, and wood in the household hearth in honor of the Lares on the kalends of January.
-- (culture) This rituals presence in a variety of unrelated cultures throughout Europe could be explained by its spread through the territory of the late roman empire and its successor states.
 - (culture) France, Spain, Croatia, and Lithuania also all have regional names for the yule log tradition that mention Kalends.
 - (origin) Yule log comes from France.
+- (about) Variants are also served in the United States, United Kingdom, Cambodia, Scandinavia, Portugal, Spain, and Japan.
+- (history) The cake emerged in the 19th century, probably in France, before spreading to other countries.
+- (inspiration) The original ritual is thought to have come from the roman tradition of burning of food, wine, incense, laurels, and wood in the household hearth in honor of the Lares on the kalends of January.
+- (culture) This rituals presence in a variety of unrelated cultures throughout Europe could be explained by its spread through the territory of the late roman empire and its successor states.
 
 Learn more:
 
@@ -2410,16 +2402,16 @@ Acerum is maple eau de vie (brandy) made in Quebec, Canada, following the specif
 
 Fun facts:
 
-- (history) In 1996, the maple farmer was granted the first licence to produce artisanal maple-based alcoholic beverages.
 - (inspiration) Although some distilled alcohol tests were then carried out in university laboratories, it was not until the 1990s that certain maple syrup producers began to produce a wine based on this sweet resource, which was initially called Acer.
 - (about) One of the first producers of Acerum was The Domaine Acer, based in Témiscouata, Quebec.
+- (history) In 1996, the maple farmer was granted the first licence to produce artisanal maple-based alcoholic beverages.
 
 More fun facts (when the user asks for more):
 
-- (history) In the 1970s, distillers began to produce alcohol from maple syrup.
-- (history) When Vallier Robert took the reins of his family maple business in 1990, he quickly saw the potential to make alcohol.
 - (about) During the same period, some distilleries began to market maple eau-de-vie, but it was not until December 2017 that the name Acerum appeared for the first time for a maple eau-de-vie.
 - (origin) Acerum comes from Canada.
+- (history) In the 1970s, distillers began to produce alcohol from maple syrup.
+- (history) When Vallier Robert took the reins of his family maple business in 1990, he quickly saw the potential to make alcohol.
 
 Learn more:
 
@@ -2543,9 +2535,9 @@ Brio or Brio chinotto soda is a Canadian version of chinotto, a bittersweet carb
 
 Fun facts:
 
-- (origin) The drink originates in Italy in the 1930s.
 - (inspiration) Brio was created by three Italian immigrants in Toronto, Ontario, Canada, in 1959—Elio Madonia, who immigrated to Canada in 1950 from Corleone, Sicily, and his partners Giuseppe Panacci and Angelo Pirrello that he had met during his time as an insurance salesman.
 - (history) The three partners created a number of beverages, including Mio, a lemon-lime gazzosa, and Brio, and purchased a used bottling line in downtown Toronto for $4,500 in 1959.
+- (origin) The drink originates in Italy in the 1930s.
 
 More fun facts (when the user asks for more):
 
@@ -2591,22 +2583,21 @@ Canadian Club is a brand of Canadian whisky produced by Suntory Global Spirits.
 
 Fun facts:
 
-- (history) He first learned how to distill cider vinegar in his grocery store in the 1830s before moving on to whisky and producing his first barrels in 1854.
+- (history) Walker's whisky was particularly popular in the late 19th century gentlemen's clubs of the United States and Canada; hence it became known as "Club Whisky." Walker originally positioned the whisky as a premium liquor, pitching it not only on its smoothness and purity but also its five-year oak barrel aging.
 - (about) Club Whisky became very popular and American distillers petitioned for the inclusion of the word "Canada" on the bottle to distinguish it from their competing whiskies, thinking it would hamper the popularity of Walker's.
 - (origin) Canadian Club comes from Canada.
 
 More fun facts (when the user asks for more):
 
-- (history) Hiram Walker merged with Gooderham & Worts, Ltd. in 1926, yielding Hiram Walker-Gooderham & Worts, Ltd.
-- (history) Hiram Walker founded his distillery in 1858 in Detroit.
-- (history) Walker's whisky was particularly popular in the late 19th century gentlemen's clubs of the United States and Canada; hence it became known as "Club Whisky." Walker originally positioned the whisky as a premium liquor, pitching it not only on its smoothness and purity but also its five-year oak barrel aging.
 - (history) Walker saw this and changed the label again in 1889 adding the word "Canadian" to the top of the label, distinguishing Walker's recipe for his whisky from the other processes of the time.
 - (history) In 1890, the word "Canadian" was moved down from the top of the label and incorporated into the name of the whisky.
-- (history) Walker's distillery passed to his sons upon his death in 1899.
 - (history) In 1890, the Canadian government acknowledged Walkerville as a legal town.
 - (history) Canadian Club was incorporated into Windsor in 1935.
 - (history) Canadian Club has received the royal warrants of Queen Victoria, Edward VII, George V, George VI, and Elizabeth II.
 - (history) Canadian Club dates from 1858-.
+- (history) Hiram Walker merged with Gooderham & Worts, Ltd. in 1926, yielding Hiram Walker-Gooderham & Worts, Ltd.
+- (history) Hiram Walker founded his distillery in 1858 in Detroit.
+- (history) Walker's distillery passed to his sons upon his death in 1899.
 
 Learn more:
 
@@ -2619,21 +2610,21 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1032091) (CC0); [Wikipedia: C
 
 ### Cheezies
 
-Cheezies are a brand of cheese puff snack food made and sold in Canada by W.
+Cheezies are a brand of cheese puff snack food made and sold in Canada by W. T. Hawkins Ltd.
 
 - From: Canada
 
 Fun facts:
 
-- (history) The snack was invented after the Second World War by James Marker of Dayton, Ohio, and W.
 - (origin) Cheezies was first made by James Marker.
 - (about) Not to be confused with Cheez-It.
+- (history) The snack was invented after the Second World War by James Marker of Dayton, Ohio, and W. T. Hawkins.
 
 More fun facts (when the user asks for more):
 
-- (history) Production was moved to Tweed, Ontario, in 1949 where the recipe was refined and the W.
+- (history) Production was moved to Tweed, Ontario, in 1949 where the recipe was refined and the W. T. Hawkins Ltd. plant established.
 - (history) Production was moved to a factory in Belleville, Ontario, in 1956 after a fire destroyed the original plant in Tweed.
-- (history) On September 19, 2016, a storage warehouse for W.
+- (history) On September 19, 2016, a storage warehouse for W. T. Hawkins in Belleville also was destroyed by fire.
 
 Learn more:
 
@@ -2702,7 +2693,7 @@ Fun facts:
 
 - (history) First crafted in the mid-1800s at various breweries in the United States, cream ale remained a very localized form with different styles until the early 20th century.
 - (about) Following the end of Prohibition, cream ale from Canada sold well in the United States, reigniting the popularity of the beer.
-- (origin) Cream ale comes from United States.
+- (origin) Cream ale comes from the United States.
 
 Learn more:
 
@@ -2805,15 +2796,15 @@ Ginger ale is a carbonated soft drink (not an ale) flavoured with ginger.
 
 Fun facts:
 
-- (history) Having established a soda water bottling plant in 1890, McLaughlin began developing flavour extracts to add to the water in 1904.
 - (origin) That year, he introduced "Pale Dry" Ginger Ale, the bubbly drink that would be patented in 1907 as Canada Dry Ginger Ale.
+- (history) Ginger ale dates from 1851-.
 - (inspiration) The dry style (also called the pale style), a paler drink with a much milder ginger flavour, was created by Canadian John McLaughlin.
 
 More fun facts (when the user asks for more):
 
-- (history) Ginger ale dates from 1851-.
 - (history) Thomas Joseph Cantrell, an Irish apothecary and surgeon, manufactured the first ginger ale in Belfast, Ireland, in the 1850s.
-- (inspiration) Dry ginger ale was created by Canadian John J.
+- (history) Having established a soda water bottling plant in 1890, McLaughlin began developing flavour extracts to add to the water in 1904.
+- (inspiration) Dry ginger ale was created by Canadian John J. McLaughlin, a chemist and pharmacist.
 - (about) The dry-style also became popular in the United States during the Prohibition era, when it was used as a mixer for alcoholic beverages.
 - (about) Not to be confused with ginger beer.
 
@@ -2836,9 +2827,9 @@ Honey dill or honey dill sauce is a condiment consisting of honey, mayonnaise, a
 
 Fun facts:
 
-- (about) The sauce was mistakenly invented at Mitzi's Chicken Finger Restaurant in downtown Winnipeg.
-- (origin) Honey dill comes from Canada.
 - (about) The accidental sauce was so popular at the restaurant, that it took off locally in the province.
+- (origin) Honey dill comes from Canada.
+- (about) The sauce was mistakenly invented at Mitzi's Chicken Finger Restaurant in downtown Winnipeg.
 
 Learn more:
 
@@ -2878,19 +2869,19 @@ Fun facts:
 
 - (history) An early reference to this is made in the 1957 film Yangtse Incident, in which a naval officer is shown drinking a horse's neck in 1949.
 - (inspiration) In the 1983 British TV series Agatha Christie's Partners in Crime based on Christie's Tommy and Tuppence mysteries, in the episode "The Crackler", Tuppence is particularly eager to try a horse's neck, and drinks several.
-- (origin) Horse's neck comes from United States.
+- (origin) Horse's neck comes from the United States.
 
 More fun facts (when the user asks for more):
 
 - (history) Dating back to at least the 1900s, it was a non-alcoholic mixture of ginger ale, ice and lemon peel.
-- (history) In the 1934 film The Captain Hates the Sea, Alison Skipworth's character craves a horse's neck, when Fred Keating's character tries to stop her, she says, "...I'm a lone wolf and it's my night to howl" then tells the waiter "...be sure to add a big horse, Charley".
-- (history) The disgruntled bartender then takes a lemon and begins to peel it, muttering "...around, and around, and around, for that cock-eyed Horse's Neck." In the 1935 musical film Top Hat, Madge (Helen Broderick) tries to order a drink in Italian but gives up and says "horse's neck".
+- (history) In the 1934 film The Captain Hates the Sea, Alison Skipworth's character craves a horse's neck, when Fred Keating's character tries to stop her, she says, "..I'm a lone wolf and it's my night to howl" then tells the waiter "..be sure to add a big horse, Charley".
+- (history) The disgruntled bartender then takes a lemon and begins to peel it, muttering "..around, and around, and around, for that cock-eyed Horse's Neck." In the 1935 musical film Top Hat, Madge (Helen Broderick) tries to order a drink in Italian but gives up and says "horse's neck".
 - (history) In the 1935 film No Limit, starring George Formby as George Shuttleworth, George accidentally orders a horse's neck at the bar in the steam packet ferry en route to the Isle of Man.
-- (history) In the 1937 crime-adventure novel Challenge featuring gentleman adventurer Bull-Dog Drummond, Drummond's friend Algy Longworth – suffering from a hangover – requests a breakfast cocktail of his butler: "Beneath this outer husk, conditions are poor--very poor...
 - (history) The horse's neck became popular in the wardrooms of the Royal Navy in the 1960s, displacing pink gin as the officers' preferred drink.
 - (history) At the end of the 1988 film Return of the Living Dead Part II, the character Doc Mandel asks the pre-teen character Jesse Wilson if he has ever had a horse's neck, to which he replies "No."
 - (history) Horse's neck dates from 1950-.
 - (history) By the 1910s, brandy, or bourbon would be added for a "horse's neck with a kick" or a "stiff horse's neck." The non-alcoholic version was still served in upstate New York in the late 1950s and early 60s, but eventually it was phased out.
+- (history) In the 1937 crime-adventure novel Challenge featuring gentleman adventurer Bull-Dog Drummond, Drummond's friend Algy Longworth – suffering from a hangover – requests a breakfast cocktail of his butler: "Beneath this outer husk, conditions are poor--very poor..
 
 Learn more:
 
@@ -2918,7 +2909,7 @@ More fun facts (when the user asks for more):
 - (origin) When Labatt introduced an ice beer in August 1993, capturing a 10% market share in Canada, this instigated the so-called "Ice Beer Wars" of the 1990s.
 - (origin) In 1995, Anheuser-Busch also introduced two other major brands: Busch Ice (5.9% ABV, introduced 1995) and Natural Ice (also 5.9% ABV, also introduced in 1995).
 - (origin) Anheuser-Busch introduced Bud Ice (5.5% ABV) in 1994, and it remains one of the country's top selling ice beers.
-- (origin) Finally, the so-treated beer is extracted from the mixture." Miller acquired the U.S. marketing and distribution rights to Molson's products, and first introduced the Molson product in the United States in August 1993 as Molson Ice.
+- (origin) The so-treated beer is extracted from the mixture." Miller acquired the U.S. marketing and distribution rights to Molson's products, and first introduced the Molson product in the United States in August 1993 as Molson Ice.
 - (culture) The brewers started with a strong dark lager (15.3 degrees Plato/1.061 original gravity, 6% alcohol by volume), then used the traditional method of freezing and removing ice to concentrate aroma and flavours while increasing the alcoholic strength to 8% ABV.
 
 Learn more:
@@ -2946,10 +2937,10 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Sweet wines produced from late harvested grapes were well-established as the most valued German wine style by the early 19th century, following the discovery of Spätlese at Schloss Johannisberg in Rheingau in 1775, and the subsequent introduction of the Auslese designation.
-- (about) Pliny the Elder (AD 23–79) wrote that certain grape varieties were not harvested before the first frost had occurred.
 - (about) Ice wine cannot be completely ruled out that the descriptions refer to dried grape wines, a common style of wine in Roman times, where the raisin-like grapes were harvested late enough for the first frost to have fallen.
 - (history) Better documentation exists for an ice wine harvest in Dromersheim close to Bingen in Rheinhessen on February 11, 1830.
 - (about) Wine from Chiomonte in the Val di Susa was popular in Roman times and this town still today produces one of Italy's few ice wines.
+- (about) Pliny the Elder (AD 23–79) wrote that certain grape varieties were not harvested before the first frost had occurred.
 
 Learn more:
 
@@ -2969,7 +2960,7 @@ A Jam Jam is a Canadian sandwich cookie that originated in eastern Canada.
 Fun facts:
 
 - (origin) Jam Jams first appeared in Canadian community cookbooks during the 1930s, with early recipes found in both the Winnipeg Public Schools Home Economics cookbook and the Stayner Sun in Ontario.
-- (history) The cookies gained widespread popularity in the 1950s when Purity Factories of St.
+- (history) The cookies gained widespread popularity in the 1950s when Purity Factories of St. John's, Newfoundland began mass-producing them at their new Blackmarsh Road facility.
 
 Learn more:
 
@@ -2991,17 +2982,16 @@ Jägermeister is a German spiced digestif liqueur.
 
 Fun facts:
 
-- (history) His son, Curt Mast (1897–1970), was passionate about the production of spirits and liqueurs and always keen to help his father in the business even at an early age.
-- (origin) Thus, when Jägermeister was introduced in 1935, its name was already familiar to Germans, who sometimes called the product "Göring-Schnaps".
 - (history) Developed in 1934 by Wilhelm and Curt Mast, it has an alcohol by volume of 35% (61 degrees proof, or US 70 proof).
+- (origin) Thus, when Jägermeister was introduced in 1935, its name was already familiar to Germans, who sometimes called the product "Göring-Schnaps".
+- (history) In 1934, at age 37, Curt devised the recipe for Jägermeister after he took over his father's business.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1934, at age 37, Curt devised the recipe for Jägermeister after he took over his father's business.
-- (history) In 1934, the new Reichsjagdgesetz (Reich hunting law) redefined the term to apply to senior foresters, game wardens, and gamekeepers in the German civil service.
 - (history) Jägermeister dates from 1935-.
 - (origin) Hermann Göring was appointed Reichsjägermeister (Reich hunting master) when the new hunting law was introduced.
 - (origin) Jägermeister comes from Germany.
+- (history) In 1934, the new Reichsjagdgesetz (Reich hunting law) redefined the term to apply to senior foresters, game wardens, and gamekeepers in the German civil service.
 
 Learn more:
 
@@ -3021,8 +3011,8 @@ A liqueur or cordial is an alcoholic drink composed of spirits (often rectified 
 
 Fun facts:
 
-- (history) They were made in France as early as the 13th century, often prepared by monks (for example, Chartreuse).
 - (about) This can cause confusion as in the United Kingdom a cordial would refer to a non-alcoholic concentrated fruit syrup, typically diluted to taste and consumed as a non-carbonated soft drink.
+- (history) They were made in France as early as the 13th century, often prepared by monks (for example, Chartreuse).
 - (about) Not to be confused with liquor, fruit brandy, eau-de-vie, flavored liquor.
 
 Learn more:
@@ -3043,13 +3033,13 @@ A liqueur coffee is a caffeinated alcoholic drink that consists of a shot of liq
 
 Fun facts:
 
-- (culture) However, coffee liqueur (which subsequently get served like traditional coffee with add-ins like cream or sugar) was first produced in the 16th century.
+- (culture) Coffee liqueur (which subsequently get served like traditional coffee with add-ins like cream or sugar) was first produced in the 16th century.
 - (about) One of the most popular liqueur coffee beverage is commonly known as Irish coffee.
-- (about) Some of the other most popular include vodka, rum, bourbon, and whiskey.
+- (about) Not to be confused with coffee liqueur.
 
 More fun facts (when the user asks for more):
 
-- (about) Not to be confused with coffee liqueur.
+- (about) Some of the other most popular include vodka, rum, bourbon, and whiskey.
 
 Learn more:
 
@@ -3120,14 +3110,14 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) In February 2009, cookies made by a bakery in Ottawa became famous after President Barack Obama bought them for his daughters.
-- (about) In 2016, he returned to the same bakery and bought them again.
 - (about) In 2007, an oatmeal cookie with maple syrup as one of its flavours was developed for space travel that became known as Canasnack.
 - (about) Maple cream cookies were served on the International Space Station (ISS) throughout 2011 to 2013 after a contest was held to decide which foods to bring to space.
 - (about) After Artemis II lost contact with Earth in 2026, astronauts commemorated the moment by eating maple cream cookies.
 - (culture) British and French colonists, beginning to settle the east coast of North America, adopted some traditions from the Indigenous peoples, including the sweet syrup obtained from the sap of maple trees growing in the region.
-- (culture) Europeans adapted traditional baking recipes to this new product.
 - (culture) The sugar maple's leaf has come to symbolize Canada, and is depicted on the country's flag.
 - (origin) Maple leaf cream cookie comes from Canada.
+- (about) In 2016, he returned to the same bakery and bought them again.
+- (culture) Europeans adapted traditional baking recipes to this new product.
 
 Learn more:
 
@@ -3149,8 +3139,8 @@ Maple liqueur refers to various alcoholic products made from maple syrup, primar
 Fun facts:
 
 - (culture) Maple liqueur is considered an important cultural beverage in certain Canadian festivals.
-- (about) In Canadian French, such a product is known as eau de vie d'érable.
 - (origin) Maple liqueur comes from Canada.
+- (about) In Canadian French, such a product is known as eau de vie d'érable.
 
 More fun facts (when the user asks for more):
 
@@ -3177,19 +3167,19 @@ Maple taffy (sometimes maple toffee in English-speaking Canada, tire d'érable o
 Fun facts:
 
 - (culture) Similar winter festivals celebrating French-Canadian heritage featuring maple taffy take place across Canada, including the Festival du Voyageur held in Winnipeg.
-- (about) The event was aimed at honoring the diverse community of Canadians living in the United Kingdom.
+- (about) In 2016, then-Canadian Prime Minister, Justin Trudeau visited the Quebec Winter Carnival with his family, where they were photographed making their own maple taffy.
 - (origin) Maple taffy comes from Canada.
 
 More fun facts (when the user asks for more):
 
-- (culture) The Carnival is held annually every February in Quebec City and is the largest winter festival in the Northern Hemisphere, with the aim of bringing warmth to the harsh winter season.
 - (culture) Visitors can roll their own maple taffy at the festival grounds, and in a 2020 interview, it was estimated that the maple taffy stand at the Carnival sold an average of 2,000 sticks per day.
 - (culture) Maple taffy is part of traditional culture in Quebec, Eastern Ontario, New Brunswick and northern New England.
 - (culture) Maple taffy is one of the traditional treats that can be widely found at the Quebec Winter Carnival, among other French-Canadian delicacies and winter festivities.
-- (about) In 2016, then-Canadian Prime Minister, Justin Trudeau visited the Quebec Winter Carnival with his family, where they were photographed making their own maple taffy.
-- (culture) In 2019, Prince Harry and Meghan Markle, the Duke and Duchess of Sussex, celebrated Commonwealth Day with a visit to Canada House in London.
 - (culture) While learning about the time-honoured tradition of maple sugaring and the creation of maple taffy, these gatherings let community members establish connections with one another and local producers.
 - (culture) The maple taffy is served with a dill pickle, modelling the historic traditions in New England.
+- (culture) The Carnival is held annually every February in Quebec City and is the largest winter festival in the Northern Hemisphere, with the aim of bringing warmth to the harsh winter season.
+- (about) The event was aimed at honoring the diverse community of Canadians living in the United Kingdom.
+- (culture) In 2019, Prince Harry and Meghan Markle, the Duke and Duchess of Sussex, celebrated Commonwealth Day with a visit to Canada House in London.
 
 Learn more:
 
@@ -3211,8 +3201,8 @@ The McIntosh ( MAK-in-tosh), McIntosh Red, or colloquially the Mac, is a cultiva
 Fun facts:
 
 - (history) The McIntosh's discoverer, John McIntosh (1777 – c. 1845–46), left his native Mohawk Valley home in New York State in 1796 to follow his love, Dolly Irwin, who had been taken to Upper Canada by her Loyalist parents.
-- (origin) Apple trees were introduced to Canada at the Habitation at Port-Royal as early as 1606 by French settlers.
 - (inspiration) McIntosh is named after John McIntosh.
+- (origin) McIntosh was first made by John McIntosh.
 
 More fun facts (when the user asks for more):
 
@@ -3220,17 +3210,15 @@ More fun facts (when the user asks for more):
 - (history) Earliest sales were in 1835, and in 1836 the cultivar was renamed the "McIntosh Red"; it entered commercial production in 1870.
 - (history) A house fire damaged the original McIntosh tree in 1894; it last produced fruit in 1908, and died and fell over in 1910.
 - (history) In 1870, it entered commercial production, and became common in Ontario, Quebec, New England, and New York after 1900.
-- (history) He married Hannah Doran in 1801, and they farmed along the Saint Lawrence River until 1811, when McIntosh exchanged the land he had with his brother-in-law Edward Doran for a plot in Dundela.
+- (history) John McIntosh discovered the original McIntosh sapling on his Dundela farm in Upper Canada in 1811.
+- (history) McIntosh was selling seedlings from the tree by 1820, but they did not produce fruit of the quality of the original.
 - (history) Allan and brother Sandy (1825–1906), nicknamed "Sandy the Grafter", increased production and promotion of the cultivar.
 - (history) The apple became popular after 1900, when the first sprays for apple scab were developed.
-- (history) John McIntosh discovered the original McIntosh sapling on his Dundela farm in Upper Canada in 1811.
-- (history) He and his wife cultivated it, and the family started grafting the tree and selling the fruit in 1835.
+- (origin) McIntosh comes from Upper Canada.
 - (history) While still produced in large quantities, the fruit's popularity fell in the early 21st century in the face of competition from newer varieties such as the Ambrosia, Gala, and Honeycrisp.
 - (history) Jef Raskin, an employee at Apple Computer, named the Macintosh computer line—later abbreviated to "Mac" in 1999—after the cultivar.
-- (history) McIntosh was selling seedlings from the tree by 1820, but they did not produce fruit of the quality of the original.
-- (origin) McIntosh was first made by John McIntosh.
+- (origin) Apple trees were introduced to Canada at the Habitation at Port-Royal as early as 1606 by French settlers.
 - (about) The Snow Apple (or Fameuse) had been popular in Lower Canada before that time; the seedlings may have sprouted from discarded fruit.
-- (origin) McIntosh comes from Upper Canada.
 
 Learn more:
 
@@ -3243,7 +3231,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1144556) (CC0); [Wikipedia: M
 
 ### Melba (apple)
 
-Melba is a Canadian cultivar of domesticated apple, which was developed by W.
+Melba is a Canadian cultivar of domesticated apple, which was developed by W. T. Macoun at the Central Experimental Farm, in Ottawa, Ontario by crossing a McIntosh with a Liveland Raspberry apple.
 
 - From: Canada
 - Since: 1898-
@@ -3319,12 +3307,12 @@ Moose milk is a traditional Canadian alcoholic mixed drink with roots in the his
 Fun facts:
 
 - (history) The term was first recorded used to describe the cocktail in the 1915–1920.
-- (origin) The Royal Canadian Navy, Royal Canadian Air Force, and Canadian Army all claim as the originator of the drink.
 - (culture) Moose milk is also served at the levée, a New Year's Day celebration held all levels of the Canadian governmental administrations to honour the member of the armed forces, from the federal level to municipalities.
+- (about) Events or parties held in the Royal Canadian Navy serving moose milk, are known as "moosers".
 
 More fun facts (when the user asks for more):
 
-- (about) Events or parties held in the Royal Canadian Navy serving moose milk, are known as "moosers".
+- (origin) The Royal Canadian Navy, Royal Canadian Air Force, and Canadian Army all claim as the originator of the drink.
 
 Learn more:
 
@@ -3370,14 +3358,14 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) The first documented definition of the word "cocktail" was in response to a reader's letter asking to define the word in the 6 May 1806, issue of The Balance and Columbian Repository in Hudson, New York.
-- (history) The invention of the old fashioned is sometimes credited to the Pendennis Club, a gentlemen's club founded in 1881 in Louisville, Kentucky, and its introduction to New York to James E.
+- (history) The invention of the old fashioned is sometimes credited to the Pendennis Club, a gentlemen's club founded in 1881 in Louisville, Kentucky, and its introduction to New York to James E. Pepper, a prominent bourbon distiller and member of the club.
 - (history) The recipe for the old fashioned dates to the early 1800s, though not by that name.
 - (history) An old fashioned was one of the simpler and earlier versions of cocktails, before the development of advanced bartending techniques and recipes in the later part of the 19th century.
 - (history) In the 13 May 1806, issue, the paper's editor wrote that it was a potent concoction of spirits, bitters, water, and sugar; it was also referred to at the time as a bittered sling.
 - (history) By the 1860s, it was common for orange curaçao, absinthe, and other liqueurs to be added to the cocktail.
-- (history) As cocktails became more complex, drinkers accustomed to simpler cocktails began to ask bartenders for something akin to the pre-1850s drinks.
 - (history) The most popular of the in-vogue "old-fashioned" cocktails were made with whiskey, according to a Chicago barman, quoted in the Chicago Daily Tribune in 1882, with rye being more popular than Bourbon.
+- (history) The first documented definition of the word "cocktail" was in response to a reader's letter asking to define the word in the 6 May 1806, issue of The Balance and Columbian Repository in Hudson, New York.
+- (history) As cocktails became more complex, drinkers accustomed to simpler cocktails began to ask bartenders for something akin to the pre-1850s drinks.
 
 Learn more:
 
@@ -3396,8 +3384,8 @@ Palmaria palmata, also called dulse, dillisk or dilsk (from Irish/Scottish Gaeli
 
 Fun facts:
 
-- (history) 5th century laws of archaic Ireland existed concerning eating duileasc.
 - (about) In Iceland, where it is known as söl [ˈsœːl̥], it has been an important source of dietary fibre throughout the centuries.
+- (history) 5th century laws of archaic Ireland existed concerning eating duileasc.
 - (history) The 7th-8th century text Críth Gablach stated that any traveler calling at a person's home was legally entitled to a baseline of hospitality, which included a serving of dulse, and also stating that a rock with a crop of dulse was as valuable as three cows.
 
 More fun facts (when the user asks for more):
@@ -3475,15 +3463,15 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Canola refers to a cultivar developed by Canadian researchers in the mid 1970s.
 - (history) Its use in Northern Europe for oil lamps is documented to have started in the 13th century.
 - (history) Canola was bred from rapeseed cultivars of B. napus and B. rapa at the University of Manitoba in the early 1970s to contain much less erucic acid.
+- (about) A 2010 study conducted in North Dakota found glyphosate- or glufosinate-resistance transgenes in 80% of wild natural rapeseed plants, and a few plants that were resistant to both herbicides.
+- (about) Not to be confused with canola oil.
+- (history) Canola refers to a cultivar developed by Canadian researchers in the mid 1970s.
 - (history) A genetically modified variety developed in 1998 is considered to be the most disease- and drought-resistant canola variety to date.
 - (about) In 2009, 90% of the Canadian crop was herbicide-tolerant.
 - (about) In 2005, 87% of the canola grown in the US was genetically modified.
 - (about) In 2011, out of the 31 million hectares of canola grown worldwide, 8.2 million (26%) were genetically modified.
-- (about) A 2010 study conducted in North Dakota found glyphosate- or glufosinate-resistance transgenes in 80% of wild natural rapeseed plants, and a few plants that were resistant to both herbicides.
-- (about) Not to be confused with canola oil.
 
 Learn more:
 
@@ -3515,22 +3503,21 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q7298998) (CC0); [Wikipedia: R
 
 ### Spartan (apple)
 
-The Spartan is a cultivated variety or cultivar of apple developed by R.
+The Spartan is a cultivated variety or cultivar of apple developed by R. C Palmer and introduced in 1936 from the Federal Agriculture Research Station in Summerland, British Columbia, now known as the Pacific Agri-Food Research Centre - Summerland.
 
 - From: Canada
 - Origin (Wikidata): Canada
 
 Fun facts:
 
-- (origin) C Palmer and introduced in 1936 from the Federal Agriculture Research Station in Summerland, British Columbia, now known as the Pacific Agri-Food Research Centre - Summerland.
 - (about) The Spartan is notable for being the first new breed of apple produced from a formal scientific breeding program.
-- (about) The apple was initially believed to be a cross between two North American cultivars, the McIntosh and the Newtown Pippin, but subsequent genetic analysis revealed that the Newtown Pippin was not one of the parents.
+- (origin) Spartan comes from Canada.
+- (about) During the 2020s, almost all of Canada's Spartan apples are grown in British Columbia.
 
 More fun facts (when the user asks for more):
 
-- (about) During the 2020s, almost all of Canada's Spartan apples are grown in British Columbia.
-- (origin) Spartan comes from Canada.
 - (about) Not to be confused with FV103 Spartan.
+- (about) The apple was initially believed to be a cross between two North American cultivars, the McIntosh and the Newtown Pippin, but subsequent genetic analysis revealed that the Newtown Pippin was not one of the parents.
 
 Learn more:
 
@@ -3558,7 +3545,6 @@ More fun facts (when the user asks for more):
 
 - (inspiration) Sriracha is named after Si Racha.
 - (history) The first internationally-renowned Sriracha chili sauce is the "Sriraja Panich" brand, which began sales in 1935.
-- (culture) Her product won a gold medal in a competition during the Constitution Celebration.
 - (inspiration) Sriracha was created by Thanom Chakkapak, another native of Si Racha, who established a chili sauce factory in Si Racha, Chonburi Province.
 
 Learn more:
@@ -3579,8 +3565,8 @@ Stuffing, filling, or dressing is an edible mixture, often composed of herbs and
 Fun facts:
 
 - (history) Names for stuffing include "farce" (~1390), "stuffing" (1538), "forcemeat" (1688), and more recently in the United States, "dressing" (1850).
-- (about) Additions in the United Kingdom include dried fruits and nuts (such as apricots and flaked almonds), and chestnuts.
 - (about) Stuffing is not known when stuffings were first used.
+- (about) Additions in the United Kingdom include dried fruits and nuts (such as apricots and flaked almonds), and chestnuts.
 
 Learn more:
 
@@ -3600,11 +3586,7 @@ Thunder Bay bon bons are a dish from Canadian Chinese cuisine.
 Fun facts:
 
 - (inspiration) Thunder Bay bon bons was invented by Chinese restaurant owner Lam Pang in Thunder Bay, Ontario in 1946.
-- (about) He first immigrated from Taishan, Guangdong to Canada as a child and learned how to cook onboard ships before founding a restaurant called Pang's.
 - (about) Pang invented the "bon bons" as a quick dish to serve to guests at a house party he was catering.
-
-More fun facts (when the user asks for more):
-
 - (about) Thunder Bay bon bons is often served at restaurants in Thunder Bay where it is popularly paired with beer.
 
 Learn more:
@@ -3631,10 +3613,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Because the importation of alcoholic beverages to Ontario was banned, as a result of the 1921 prohibition referendum, a reliable source for the Italian-made fernet would not have been readily available.
+- (history) In 1948, it was listed as the Toronto Cocktail in the book The Fine Art of Mixing Drinks by David A. Embury, and in 1949 a recipe for the Toronto Cocktail was included in Esquire's Handbook for Hosts.
 - (history) By 1930, it was listed as the Toronto Cocktail in Cocktail Bill Boothby's World Drinks And How To Mix Them by William "Cocktail" Boothby.
-- (history) In 1948, it was listed as the Toronto Cocktail in the book The Fine Art of Mixing Drinks by David A.
-- (history) Embury, and in 1949 a recipe for the Toronto Cocktail was included in Esquire's Handbook for Hosts.
+- (history) Because the importation of alcoholic beverages to Ontario was banned, as a result of the 1921 prohibition referendum, a reliable source for the Italian-made fernet would not have been readily available.
 
 Learn more:
 
@@ -3718,9 +3699,9 @@ Yukon Jack is a liqueur, made from Canadian whisky and honey.
 
 Fun facts:
 
-- (history) The origin of the liqueur, which was advertised in Maryland in the United States as early as 1946, is unknown. later imported by Heublein Inc in the 1970s.
 - (about) Yukon Jack was first recorded when it was imported into the United States by Heublein Inc.
 - (inspiration) Yukon Jack is named after the pioneer Leroy Napoleon 'Jack' McQuesten.
+- (history) The origin of the liqueur, which was advertised in Maryland in the United States as early as 1946, is unknown. later imported by Heublein Inc in the 1970s.
 
 More fun facts (when the user asks for more):
 

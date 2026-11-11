@@ -61,16 +61,15 @@ Boeber is the Cape Malay name for a South African pudding.
 
 Fun facts:
 
-- (culture) The pudding is traditionally served on the 15th night of Ramadan to celebrate the middle of the fast, for those who have completed the first 15 days of fasting.
 - (origin) Boeber bears the closest resemblance to kheer or payasam, a dessert hailing from the Indian subcontinent, which is likely to be either introduced by Indian slaves, or the 1860 Indentured Indian immigrants.
-- (about) They are also known as people who are op die berg.
+- (culture) Boeber has become a traditional Cape Malay sweet, milk drink, made with vermicelli, sago, sugar, and flavoured with cardamom, stick cinnamon, and rose water.
+- (about) In South Africa, an Afrikaans dish known as melkkos is similar to boeber.
 
 More fun facts (when the user asks for more):
 
-- (culture) A similar drink called Sawine or Sewine is served in Trinidad and Tobago homes on Eid al-Fitr (the festival marking the end of Ramadan).
-- (culture) Boeber has become a traditional Cape Malay sweet, milk drink, made with vermicelli, sago, sugar, and flavoured with cardamom, stick cinnamon, and rose water.
-- (about) In South Africa, an Afrikaans dish known as melkkos is similar to boeber.
 - (origin) Boeber comes from South Africa.
+- (culture) The pudding is traditionally served on the 15th night of Ramadan to celebrate the middle of the fast, for those who have completed the first 15 days of fasting.
+- (culture) A similar drink called Sawine or Sewine is served in Trinidad and Tobago homes on Eid al-Fitr (the festival marking the end of Ramadan).
 
 Learn more:
 
@@ -139,16 +138,16 @@ Fun facts:
 
 - (inspiration) One story claims that a South African restaurant run by Banias (an Indian caste) first created the dish at a restaurant-café, called Kapitan's, on the corner of Victoria and Albert streets in Durban.
 - (origin) Bunny chow originated among Indian South Africans of Durban.
-- (history) The precise origins of the food are disputed, although its creation has been dated to the 1940s.
+- (about) During their breaks the workers at first would lay out their food on large leaves, but as this was time-consuming and their breaks were short, the workers found a way to quickly put their food together without it getting cold or taking up most of their break‍— hence the bunny chow.
 
 More fun facts (when the user asks for more):
 
-- (about) During their breaks the workers at first would lay out their food on large leaves, but as this was time-consuming and their breaks were short, the workers found a way to quickly put their food together without it getting cold or taking up most of their break‍— hence the bunny chow.
 - (history) Bunny chow was also sold in Gwelo, Rhodesia (now Zimbabwe), during World War II and is still sold in the nearby town of Kadoma, formerly known as Gatooma.
-- (culture) The use of a loaf of white bread can also be ascribed to the lack of the traditional roti bread as well as its weak structure; thus the cheap loaf, widely available at local stores, would be an optimal substitute vessel for the curry.
-- (culture) The traditional Indian meal was roti and beans, but the roti tended to fall apart as a take-away item.
 - (about) The vegetarian version of the meal is sometimes known as a "beans bunny".
 - (origin) Bunny chow comes from South Africa.
+- (history) The precise origins of the food are disputed, although its creation has been dated to the 1940s.
+- (culture) The use of a loaf of white bread can also be ascribed to the lack of the traditional roti bread as well as its weak structure; thus the cheap loaf, widely available at local stores, would be an optimal substitute vessel for the curry.
+- (culture) The traditional Indian meal was roti and beans, but the roti tended to fall apart as a take-away item.
 
 Learn more:
 
@@ -198,13 +197,13 @@ Devils on horseback are a hot appetizer or small savoury dish of dried fruit stu
 
 Fun facts:
 
+- (history) However the earliest mention of this is from 2008, while the dish itself dates from the 19th century, itself 800 years after the Norman Conquest.
+- (origin) Devils on horseback comes from the United Kingdom.
 - (history) The Oxford English Dictionary states they are "Probably so called on account of being typically served very hot", and gives the earliest reference to 1885, in American agricultural magazine The Country Gentleman.
-- (origin) Devils on horseback comes from United Kingdom.
-- (history) Another source states that there are "a surfeit of theories", but dates the idea (as a refinement of the oyster in bacon combination) to 1800.
 
 More fun facts (when the user asks for more):
 
-- (history) However the earliest mention of this is from 2008, while the dish itself dates from the 19th century, itself 800 years after the Norman Conquest.
+- (history) Another source states that there are "a surfeit of theories", but dates the idea (as a refinement of the oyster in bacon combination) to 1800.
 
 Learn more:
 
@@ -246,9 +245,9 @@ Frikkadel is a traditional Afrikaner dish consisting of usually baked, but somet
 
 Fun facts:
 
-- (culture) Many recipes have put a modern twist on this traditional recipe such as alternating chicken and lamb with the traditional beef staple.
 - (about) Frikkadel are also popular in Sri Lankan cuisine by way of the Burgher people.
 - (origin) Frikkadel comes from South Africa.
+- (culture) Many recipes have put a modern twist on this traditional recipe such as alternating chicken and lamb with the traditional beef staple.
 
 Learn more:
 
@@ -273,13 +272,13 @@ Fun facts:
 
 - (origin) The Gatsby sandwich originated in 1976 in Athlone, in the Cape Flats area of Cape Town.
 - (inspiration) Gatsby is named after The Great Gatsby.
-- (about) The sandwich grew in popularity and was adjusted to use a long French-style roll.
+- (about) The gatsby sandwich is a popular hangover cure for Capetonians.
 
 More fun facts (when the user asks for more):
 
 - (origin) Gatsby originated in Cape Town and is popular throughout the Western Cape province.
-- (about) The gatsby sandwich is a popular hangover cure for Capetonians.
 - (origin) Gatsby comes from South Africa.
+- (about) The sandwich grew in popularity and was adjusted to use a long French-style roll.
 
 Learn more:
 
@@ -301,7 +300,7 @@ A Hertzoggie, also known in Afrikaans as a Hertzogkoekie or in English as a Hert
 
 Fun facts:
 
-- (inspiration) The tartlet is named after the early 20th century South African politician, Prime Minister (1924–1939) and Boer War General J.
+- (inspiration) The tartlet is named after the early 20th century South African politician, Prime Minister (1924–1939) and Boer War General J. B. M. Hertzog.
 - (history) After fulfilling the first promise to give women the vote in 1930, but not the second, the community began baking the cookies with a brown and pink icing called "twee gevreetjie", showing their dissatisfaction with him.
 - (about) The cookie is a popular dessert in South Africa where it is often eaten with a cup of English tea.
 
@@ -369,14 +368,14 @@ Malva pudding is a baked cake or pudding of South African cuisine.
 
 Fun facts:
 
-- (history) Recipes in South African cookbooks date to the 1970s, and a possible predecessor with the same name which is boiled rather than baked and does not call for the apricot jam that is ubiquitous in modern recipes dates to the 1924 South African Cookery Made easy by a Mrs.
 - (inspiration) The pudding is thought to be of Dutch or Cape Dutch origin and likely based on a similar pudding brought to the region by Dutch colonists in the mid-1600s; baking was not a part of the indigenous diet.
 - (about) Malva pudding is believed to have been made in homes "for generations" before it entered cookbooks and restaurants.
+- (history) It appeared on the menu of the Boschendal Wine Estate in 1978.
 
 More fun facts (when the user asks for more):
 
-- (history) It appeared on the menu of the Boschendal Wine Estate in 1978.
-- (history) A recipe for telefoenpoeding, which called for ginger and apricot jam, appears in the 1918 Oranje Kook-, Koek- en Resepteboek by Mrs.
+- (history) A recipe for telefoenpoeding, which called for ginger and apricot jam, appears in the 1918 Oranje Kook-, Koek- en Resepteboek by Mrs. D. J. H. According to Ko, the dish's "creation remains a mystery".
+- (history) Recipes in South African cookbooks date to the 1970s, and a possible predecessor with the same name which is boiled rather than baked and does not call for the apricot jam that is ubiquitous in modern recipes dates to the 1924 South African Cookery Made easy by a Mrs. P.W. De Klerk.
 - (origin) Malva pudding comes from South Africa.
 
 Learn more:
@@ -442,8 +441,8 @@ Mebos is a South African food made from dried apricots seasoned with sugar or sa
 
 Fun facts:
 
-- (culture) The Khoekhoe traditionally prepared fruit by cutting them into pieces and cooking without water into a thick syrup.
 - (origin) Brought to the Dutch Cape Colony by slaves from South East Asia, the earliest references to mebos were medical, but later it became known as a treat.
+- (culture) The Khoekhoe traditionally prepared fruit by cutting them into pieces and cooking without water into a thick syrup.
 
 Learn more:
 
@@ -509,11 +508,11 @@ Fun facts:
 
 - (origin) Potjiekos originated with the Voortrekkers, evolving as a stew made of venison and vegetables (if available), cooked in the potjie.
 - (culture) Potjiekos is traditionally cooked in a round, cast iron, three-legged cauldron, the potjie.
-- (culture) Traditionally, the recipe includes meat, vegetables like carrots, cabbage, cauliflower, or pumpkin, starches like rice or potatoes, all slow-cooked with Dutch-Malay spices, the distinctive spicing of South Africa's early culinary melting pot.
+- (origin) Potjiekos comes from South Africa.
 
 More fun facts (when the user asks for more):
 
-- (origin) Potjiekos comes from South Africa.
+- (culture) Traditionally, the recipe includes meat, vegetables like carrots, cabbage, cauliflower, or pumpkin, starches like rice or potatoes, all slow-cooked with Dutch-Malay spices, the distinctive spicing of South Africa's early culinary melting pot.
 
 Learn more:
 
@@ -618,9 +617,9 @@ Tomato bredie is a South African stew, referred to in Afrikaans as 'tamatiebredi
 
 Fun facts:
 
-- (origin) This form of cooking was introduced to the Cape by Malays, who were brought to the colony in most cases as slaves.
 - (culture) This traditional South African dish is commonly eaten around South Africa by both locals and tourists.
 - (origin) Tomato bredie comes from South Africa.
+- (origin) This form of cooking was introduced to the Cape by Malays, who were brought to the colony in most cases as slaves.
 
 Learn more:
 
@@ -649,9 +648,9 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (origin) Ugali was introduced in Africa shortly after the Portuguese had introduced maize.
+- (origin) Ugali comes from Kenya.
 - (origin) Maize was introduced to Africa from the Americas between the 16th and 17th centuries.
 - (origin) Cassava, which was also introduced from the Americas, can also be used to make nshima/nsima, either exclusively or mixed with maize flour.
-- (origin) Ugali comes from Kenya.
 
 Learn more:
 
@@ -721,15 +720,15 @@ Biltong is a form of air-dried, cured meat which originated in Southern Africa.
 Fun facts:
 
 - (history) According to local lore, biltong was originally made in the 17th century by Afrikaner pioneers who would place large strips of raw meat under horses' saddles to dry with the horses' salty sweat.
-- (about) Iceboxes and refrigerators had not been invented yet, and building up herds of livestock took a long time.
 - (origin) The spices introduced to biltong by the Afrikaners include pepper, coriander, and cloves.
+- (about) Not to be confused with biltong.
 
 More fun facts (when the user asks for more):
 
 - (history) In the First World War, some South African soldiers on the Western Front had biltong specially shipped to them from home.
-- (culture) With game in abundance in Southern Africa, however, traditional methods were called upon to preserve the meat of large African animals including the eland.
 - (origin) Biltong comes from South Africa.
-- (about) Not to be confused with biltong.
+- (about) Iceboxes and refrigerators had not been invented yet, and building up herds of livestock took a long time.
+- (culture) With game in abundance in Southern Africa, however, traditional methods were called upon to preserve the meat of large African animals including the eland.
 
 Learn more:
 
@@ -766,14 +765,14 @@ Boerewors is a type of sausage which originated in South Africa.
 
 Fun facts:
 
-- (origin) When locally available antelopes such as springbok or oryx are included, the sausage must be labelled with the species from which the meat originates.
 - (about) Boerewors is an important part of South African, Setswana, Zimbabwean cuisine and is popular across Southern Africa.
 - (culture) Traditional boerewors is usually formed into a continuous spiral.
+- (origin) Boerewors comes from South Africa.
 
 More fun facts (when the user asks for more):
 
 - (culture) It is often served with pap (traditional South African porridge / polenta made from mielie-meal).
-- (origin) Boerewors comes from South Africa.
+- (origin) When locally available antelopes such as springbok or oryx are included, the sausage must be labelled with the species from which the meat originates.
 
 Learn more:
 
@@ -855,8 +854,8 @@ Melktert, Afrikaans for "milk tart", is a South African dessert consisting of a 
 
 Fun facts:
 
-- (culture) The ratio of milk to egg is higher than in a traditional Portuguese custard tart (pastel de nata) or Chinese egg tart (dan ta), in which both was influenced by the Portuguese, resulting in a lighter texture and a stronger milk flavour.
 - (origin) Melktert comes from South Africa.
+- (culture) The ratio of milk to egg is higher than in a traditional Portuguese custard tart (pastel de nata) or Chinese egg tart (dan ta), in which both was influenced by the Portuguese, resulting in a lighter texture and a stronger milk flavour.
 
 Learn more:
 
@@ -877,16 +876,16 @@ Moonshine is high-proof liquor, traditionally made or distributed illegally.
 
 Fun facts:
 
-- (history) The Excise Whiskey Tax was law until 1802, upon repeal of the Tariff of 1791.
-- (culture) The name was derived from a tradition of distilling the alcohol at night, usually when the moon was out, to avoid detection.
+- (history) The earliest known instance of the term "moonshine" being used to refer to illicit alcohol dates to the 1785 edition of Grose's Dictionary of the Vulgar Tongue, which was published in England.
+- (culture) Traditionally, moonshine usually is a clear, unaged whiskey, made with barley mash in Scotland and in Ireland, and made with maize corn mash in the United States.
 - (about) Not to be confused with moonlight.
 
 More fun facts (when the user asks for more):
 
+- (history) The Excise Whiskey Tax was law until 1802, upon repeal of the Tariff of 1791.
 - (history) Illegal distilling accelerated during the Prohibition era (1920–1933), which mandated a total ban on alcohol production under the Eighteenth Amendment of the Constitution.
 - (history) Since the amendment was repealed in 1933, laws focus on evasion of taxation on any type of spirits or intoxicating liquors.
-- (history) The earliest known instance of the term "moonshine" being used to refer to illicit alcohol dates to the 1785 edition of Grose's Dictionary of the Vulgar Tongue, which was published in England.
-- (culture) Traditionally, moonshine usually is a clear, unaged whiskey, made with barley mash in Scotland and in Ireland, and made with maize corn mash in the United States.
+- (culture) The name was derived from a tradition of distilling the alcohol at night, usually when the moon was out, to avoid detection.
 
 Learn more:
 

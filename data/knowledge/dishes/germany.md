@@ -14,12 +14,12 @@ Fun facts:
 
 - (history) The Aachener Printen became what they are now in 1806, when the French emperor Napoleon blocked the British trade routes and with them Aachen's supply of cane sugar and honey, the most important ingredients for the pastry.
 - (inspiration) The Printen may have been inspired by Couque de Dinant, a pastry from Dinant that was usually baked in the form of figurative representations or artistic braids.
-- (about) An original baker named Henry Lambertz then came up with the idea of rolling out the dough over raised molds.
+- (origin) Aachener Printen comes from Germany.
 
 More fun facts (when the user asks for more):
 
 - (history) Gebildbrot came to Aachen in the 15th century with immigrant blacksmiths and quickly found popularity among the city's bakers.
-- (origin) Aachener Printen comes from Germany.
+- (about) An original baker named Henry Lambertz then came up with the idea of rolling out the dough over raised molds.
 
 Learn more:
 
@@ -61,8 +61,8 @@ Apple sauce (in American English usually the closed compound applesauce) is a pu
 
 Fun facts:
 
-- (culture) They are traditionally associated with the Appalachian region of the United States and Southern Pennsylvania.
 - (about) Not to be confused with apple puree.
+- (culture) They are traditionally associated with the Appalachian region of the United States and Southern Pennsylvania.
 
 Learn more:
 
@@ -112,12 +112,8 @@ Bavarian cream, crème bavaroise or simply bavarois is a French dessert consisti
 
 Fun facts:
 
-- (history) Lincoln in 1884, and by Fannie Farmer in 1896.
-- (origin) In the United States, Bavarian creams first appeared in Boston Cooking School books by D.
+- (origin) In the United States, Bavarian creams first appeared in Boston Cooking School books by D. A. Lincoln in 1884, and by Fannie Farmer in 1896.
 - (history) From 1884 to 2022, there were over 95,000 references to Bavarian cream in US and Canadian newspapers, featuring recipes, commentaries and reviews.
-
-More fun facts (when the user asks for more):
-
 - (origin) Bavarian cream comes from France.
 
 Learn more:
@@ -167,16 +163,16 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) Sugar was very costly until the 16th century, and early doughnuts were usually stuffed with savory fillings like cheese, meat and mushroom.
 - (about) It is unknown whether this innovation was the author's own or simply a record of an existing practice.
+- (inspiration) Berliner is named after Berlin.
+- (origin) Berliner comes from Germany.
+- (about) Not to be confused with pancake, Berliner, Krapfen.
+- (history) Sugar was very costly until the 16th century, and early doughnuts were usually stuffed with savory fillings like cheese, meat and mushroom.
 - (history) The term Bismarcken (for Otto von Bismarck) came into use by the end of the 19th century.
 - (origin) Immigrants from Central Europe settled in the United States in large numbers during the 19th century, and jelly doughnuts are called "bismarcks" or "bismarks" in some parts of the Midwestern United States, Boston, and Alberta and Saskatchewan in Canada.
-- (inspiration) Berliner is named after Berlin.
 - (about) When imports from Caribbean sugar plantations made sugar more affordable, fruit preserves gained in popularity.
 - (about) In Poland, they are known as pączki, in Ukraine, as "pampushky"; and in the Czech Republic as kobliha.
 - (about) In Turkey, they are known as Alman Pastası (German Pie).
-- (origin) Berliner comes from Germany.
-- (about) Not to be confused with pancake, Berliner, Krapfen.
 
 Learn more:
 
@@ -266,12 +262,12 @@ More fun facts (when the user asks for more):
 - (about) It was believed to purify the blood, improve the complexion, and restore appetite.
 - (history) According to A Gift to Young Housewives, a book from the 19th century, "borscht" may or may not include beets (depending from recipe to recipe in the book).
 - (about) With time, it evolved into a diverse array of tart soups, among which the Ukrainian beet-based red borscht has become the most popular.
-- (history) Its popularity has spread throughout Eastern Europe and—by way of migration away from the Russian Empire—to other continents.
 - (culture) Although borscht is mostly used to describe a beet-based soup, there are soups in some culinary traditions with the same or similar names, but with sometimes wide variations in ingredients and preparation methods.
 - (about) In Polish cuisine, white borscht (barszcz biały, also known as żur or żurek, 'sour soup') is made from a fermented mixture of rye flour or oatmeal and water.
 - (inspiration) Like beetroot borscht, it is based on meat or vegetable broth and is typically served with boiled potatoes and hard-boiled eggs, sprinkled with dill.
 - (about) Borscht is used to impart a sour taste to a variety of tangy Romanian soups, known as either also borș or ciorbă.
 - (origin) Borscht comes from Kievan Rus'.
+- (history) Its popularity has spread throughout Eastern Europe and—by way of migration away from the Russian Empire—to other continents.
 
 Learn more:
 
@@ -335,9 +331,9 @@ Buchteln (from Czech buchta, pl. buchty, also in German: pl., sing.
 
 Fun facts:
 
-- (history) In the 19th century, they could be boiled similar to dumplings.
 - (culture) The traditional buchtel is filled with powidl.
-- (origin) Buchteln comes from Czech Republic.
+- (origin) Buchteln comes from the Czech Republic.
+- (history) In the 19th century, they could be boiled similar to dumplings.
 
 More fun facts (when the user asks for more):
 
@@ -406,8 +402,8 @@ Christmas carp is a traditional dish for Christmas Eve in Central Europe.
 
 Fun facts:
 
+- (origin) Christmas carp comes from Austria, Germany, the Czech Republic.
 - (culture) The fish is traditionally kept in a bathtub before preparation to remove muddy flavours and is commonly fried or served in dishes like gefilte fish.
-- (origin) Christmas carp comes from Austria, Germany, Czech Republic.
 
 Learn more:
 
@@ -465,13 +461,12 @@ More fun facts (when the user asks for more):
 
 - (history) The invention of currywurst is attributed to Herta Heuwer in Berlin in 1949, after she obtained ketchup, or possibly Worcestershire sauce, and curry powder from British soldiers in Germany.
 - (history) The 1993 novel Die Entdeckung der Currywurst by Uwe Timm was made into a 1998 play and a 2008 film both of the same name.
-- (history) Heuwer patented her sauce under the name Chillup in 1951.
-- (history) She later opened a small restaurant which operated until 1974.
 - (history) The song "Currywurst" on Herbert Grönemeyer's 1982 album Total Egal (meaning: Totally Regardless) is a tribute to the snack.
 - (about) Currywurst is popular all over Germany but especially in the metropolitan areas of Berlin, Hamburg and the Ruhr Area.
 - (about) In a 2021 controversy over Volkswagen's plans to take the dish off its canteens' menus, he called it the "power bar of the skilled factory worker".
 - (culture) By tradition, every candidate for the mayor of Berlin is photographed at a currywurst stand.
 - (origin) Currywurst comes from Germany.
+- (history) Heuwer patented her sauce under the name Chillup in 1951.
 
 Learn more:
 
@@ -621,14 +616,14 @@ Frankfurter Würstchen ('Frankfurt sausage') is a thin parboiled sausage in a ca
 Fun facts:
 
 - (history) Smoked Frankfurter Würstchen have had protected geographical status in Germany since about 1860.
-- (culture) They are traditionally served with bread, mustard, horseradish or potato salad.
 - (origin) Frankfurter Würstchen comes from Germany.
+- (culture) Therefore, the traditional sausages have a square cross-section, but there are a few exceptions where the sausage is round.
 
 More fun facts (when the user asks for more):
 
 - (history) Since 1929, the indication is only allowed to be used for sausages that are produced in the Frankfurt area, mainly in Neu-Isenburg and Dreieich.
-- (culture) Therefore, the traditional sausages have a square cross-section, but there are a few exceptions where the sausage is round.
 - (about) Not to be confused with sausage, Vienna sausage.
+- (culture) They are traditionally served with bread, mustard, horseradish or potato salad.
 
 Learn more:
 
@@ -650,9 +645,9 @@ A Franzbrötchen is a small, sweet Viennoiserie baked with butter and cinnamon, 
 
 Fun facts:
 
-- (culture) During the French occupation (1810–14), Hamburg was pushed to modify its own confectionery tradition as Napoleonic troops wanted local bakers to make traditional croissants.
 - (inspiration) As its name indicates, the Franzbrötchen, which literally means French-roll, was probably inspired by French viennoiserie.
 - (origin) Franzbrötchen comes from Germany.
+- (culture) During the French occupation (1810–14), Hamburg was pushed to modify its own confectionery tradition as Napoleonic troops wanted local bakers to make traditional croissants.
 
 Learn more:
 
@@ -679,13 +674,13 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (history) In the Dictionnaire des dictionnaires (1837) fricadelle is defined as, "In Belgium, a ball of ground, cooked meat" and a separate word, fricadèle, is defined as fricandeau.
 - (history) And in Phillips's New World of Words (1706) it is defined as "Fricandoe, a sort of Scotch collops made of thin slices of Veal, well larded and stuff'd." The Oxford English Dictionary defines fricandele (variation fricadelle) as a "quasi-French form of fricandeau".
-- (about) They are one of the most popular meals in Poland, where they are known as kotlety mielone or regionally sznycle ("schnitzels").
 - (history) Varieties of frikadelle are also popular across Ukraine, Russia and other countries within the territories of the former Russian Empire and USSR, where they are referred to as kotlety.
-- (about) These are commonly made with beef and closely resemble German and Polish versions, but can also be made with pork, veal, chicken or even fish, with a famous chicken-based variety being Pozharsky cutlet.
 - (about) A related but less similar dish is Chicken Kiev, known as kotlety po-Kiyvsky in Ukraine and Russia.
 - (about) Not to be confused with Faschierte Laibchen, frikandel.
+- (history) In the Dictionnaire des dictionnaires (1837) fricadelle is defined as, "In Belgium, a ball of ground, cooked meat" and a separate word, fricadèle, is defined as fricandeau.
+- (about) They are one of the most popular meals in Poland, where they are known as kotlety mielone or regionally sznycle ("schnitzels").
+- (about) These are commonly made with beef and closely resemble German and Polish versions, but can also be made with pork, veal, chicken or even fish, with a famous chicken-based variety being Pozharsky cutlet.
 
 Learn more:
 
@@ -852,9 +847,9 @@ Kartoffelklöße or Erdäpfelknödel is a type of potato-dumpling.
 
 Fun facts:
 
+- (about) Kartoffelklösse is listed as asset listed by local / municipal government.
 - (culture) According to the Register of Traditional Foodstuffs of the Austrian Federal Ministry of Agriculture, Regions, and Tourism, potato-dumplings have been known in Austria for only a couple of centuries, as opposed to other types of dumpling which date back to at least 2500 BC and likely into the region's Neolithic period.
 - (origin) Potatoes are native to South America and were introduced to Europe during the Columbian Exchange.
-- (about) Kartoffelklösse is listed as asset listed by local / municipal government.
 
 More fun facts (when the user asks for more):
 
@@ -1040,8 +1035,8 @@ More fun facts (when the user asks for more):
 - (history) Since 1808, a variety of Nürnberg Lebkuchen made without flour has been called Elisenlebkuchen.
 - (history) Since 1996, Nürnberger Lebkuchen is a protected designation of origin, meaning that it must be produced within the boundaries of the city.
 - (about) Historically, and due to differences in the ingredients, Lebkuchen is also known as "honey cake" (Honigkuchen) or "pepper cake" (Pfefferkuchen).
-- (culture) Traditionally, the cookies are usually quite large and may be 11.5 cm (4.5 in) in diameter if round, and larger if rectangular.
 - (origin) Lebkuchen comes from Germany.
+- (culture) Traditionally, the cookies are usually quite large and may be 11.5 cm (4.5 in) in diameter if round, and larger if rectangular.
 
 Learn more:
 
@@ -1083,13 +1078,13 @@ Linsen mit Spätzle (lentils with Swabian pasta), normally accompanied by wiener
 Fun facts:
 
 - (origin) Like many dishes from the region, Linsen mit Spätzle originated as a meal for the poor.
-- (about) While meat was too expensive for the major part of the Swabian population, lentils were a popular and nutritious staple food which could be stored during winter.
 - (culture) Today this winter dish is on the menu of many traditional Swabian restaurants.
+- (about) Linsen mit Spätzle is also a popular dish for cooking at home.
 
 More fun facts (when the user asks for more):
 
-- (about) Linsen mit Spätzle is also a popular dish for cooking at home.
 - (origin) Linsen mit Spätzle comes from Germany.
+- (about) While meat was too expensive for the major part of the Swabian population, lentils were a popular and nutritious staple food which could be stored during winter.
 
 Learn more:
 
@@ -1187,8 +1182,8 @@ Maultaschen (German: [ˈmaʊ̯lˌtaʃn̩]; singular Maultasche (), lit. 'mouth p
 Fun facts:
 
 - (culture) Freiberg am Neckar hosts an annual 'Maultaschen festival' and the municipality of Baiersbronn elects a 'Maultaschen queen'.
-- (origin) A cookbook originating in Leipzig in 1794 lists several recipe by this name.
 - (history) The earliest use of the word Maultasche can be found in Martin Luther's transcriptions dating back to the 16th century where it is used as a synonym for a slap in the face.
+- (origin) A cookbook originating in Leipzig in 1794 lists several recipe by this name.
 
 More fun facts (when the user asks for more):
 
@@ -1243,16 +1238,15 @@ Fun facts:
 
 - (history) The first record of wine being spiced and heated can be found in Plautus' play Curculio, written during the 2nd century BC.
 - (inspiration) Mulled wine is based on the novel by the same title from 1933, written by Heinrich Spoerl and directed by Helmut Weiss.
-- (culture) Mulled wine is a traditional drink during winter, especially around Christmas.
+- (culture) A more traditional recipe can be found in Mrs. Beeton's Book of Household Management at paragraph 1961 on page 929 to 930 of the revised edition dated 1869:
 
 More fun facts (when the user asks for more):
 
-- (history) Beeton's Book of Household Management at paragraph 1961 on page 929 to 930 of the revised edition dated 1869:
-- (history) The Forme of Cury, a medieval English cookery book from 1390, which mentioned mulled wine, says: "Pur fait Ypocras..." grinding together cinnamon, ginger, galangal, cloves, long pepper, nutmeg, marjoram, cardamom, and grains of paradise ("spykenard de Spayn", rosemary may be substituted).
+- (history) The Forme of Cury, a medieval English cookery book from 1390, which mentioned mulled wine, says: "Pur fait Ypocras.." grinding together cinnamon, ginger, galangal, cloves, long pepper, nutmeg, marjoram, cardamom, and grains of paradise ("spykenard de Spayn", rosemary may be substituted).
 - (history) In the 1946 Christmas movie It's a Wonderful Life, after the 293-year old guardian angel Clarence Odbody (traveling with George Bailey to an alternate world if George had not been born) goes to a rough bar.
-- (history) Off with you, me lad, and be lively!" There is also a German UFA (Universum Film AG) movie called Feuerzangenbowle (1944) with Heinz Rühmann, one of Germany's most popular actors at the time.
-- (culture) A more traditional recipe can be found in Mrs.
+- (culture) Mulled wine is a traditional drink during winter, especially around Christmas.
 - (about) The film is prefaced with an adapted quote from the novel: "This film is a paean to school, but it is possible that the school will not realize it." In it, you can see the actors preparing and drinking Feuerzangenbowle from a big glass bowl.
+- (history) Off with you, me lad, and be lively!" There is also a German UFA (Universum Film AG) movie called Feuerzangenbowle (1944) with Heinz Rühmann, one of Germany's most popular actors at the time.
 - (culture) The film has become a traditional movie around many German households during Christmas.
 - (about) Not to be confused with Glühwein.
 
@@ -1362,13 +1356,13 @@ Potato salad is a salad dish made from boiled potatoes, usually containing a dre
 
 Fun facts:
 
-- (origin) The oldest known recipe comes from the work Nova Typis Navigatio of 1621 by the Austrian abbot of the Seitenstetten Abbey, Caspar Plautz.
-- (about) Not to be confused with Olivier salad.
 - (origin) American potato salad most likely originated from recipes brought to the U.S. by way of European immigrants during the nineteenth century.
+- (about) Not to be confused with Olivier salad.
+- (origin) The American-style potato salad is likely to have originated from this version.
 
 More fun facts (when the user asks for more):
 
-- (origin) The American-style potato salad is likely to have originated from this version.
+- (origin) The oldest known recipe comes from the work Nova Typis Navigatio of 1621 by the Austrian abbot of the Seitenstetten Abbey, Caspar Plautz.
 
 Learn more:
 
@@ -1505,8 +1499,8 @@ Rinderrouladen are a German meat dish, usually consisting of bacon, onions, must
 Fun facts:
 
 - (culture) Rinderroulade is also considered traditional in the Upper Silesia region of Poland, where it is known as rolada śląska (Silesian roulade; Silesian: Sylezyjsko ruleta) and in the Czech Republic, where it is known as španělský ptáček (Spanish bird).
-- (about) Beef or veal is typically used, though some food scholars tend to believe that the original version was probably venison or pork, and pork is still popular in some areas.
 - (origin) Rinderroulade comes from Switzerland, Bohemia.
+- (about) Beef or veal is typically used, though some food scholars tend to believe that the original version was probably venison or pork, and pork is still popular in some areas.
 
 More fun facts (when the user asks for more):
 
@@ -1674,15 +1668,15 @@ Fun facts:
 
 - (history) Luise Wilhelmine Henninger[16] (1871–1951), cook and landlady at the Weinhaus Henninger in Kallstadt, is said to have saved the largely forgotten saumagen recipe and to have elevated it to a culinary delight, eventually.
 - (culture) Another theory insists that saumagen has always been the highlight of each local Schlachtfest in the Palatinate region, a festival that involved the ceremonial slaughter of a pig and that is still celebrated in some wine-growing districts when the vintage is finished and when winter is near.
-- (about) The first laureates, Imke Bruns and Iris Wittmann are now members of the jury.
+- (inspiration) Saumagen is named after pig's stomach.
 
 More fun facts (when the user asks for more):
 
 - (history) Helmut Kohl, the German chancellor from 1982 to 1998, loved saumagen and had it served to visiting heads of state and government, including Margaret Thatcher, Mikhail Gorbachev, Ronald Reagan and Bill Clinton.
 - (history) There is controversy regarding the origin of the dish: one theory claims that saumagen was created in the 18th century by Palatinate farmers to make use of slaughtering residues (schlachtreste).
 - (history) The Schlotte Carnival society in Schifferstadt has awarded the Order of the Saumagen since 1992.
-- (inspiration) Saumagen is named after pig's stomach.
 - (origin) Saumagen comes from Germany.
+- (about) The first laureates, Imke Bruns and Iris Wittmann are now members of the jury.
 
 Learn more:
 
@@ -1722,9 +1716,9 @@ A Schlachteplatte, Schlachtplatte, Schlachtschüssel (Southern German), or Metzg
 
 Fun facts:
 
-- (culture) As a result, in many places, e.g., in parts of the Palatinate, the entire festival and the meal in particular are known as Metzelsupp.
-- (about) The cooking process produces sausage juices which, together with any split sausages, are used as a soup known as Metzelsuppe.
 - (culture) The word is derived from schlachten, "to slaughter", and Platte, "dish", because, traditionally, it is only eaten on the day of slaughter; before the invention of refrigerators, blood and sensitive organs, like liver, had to be prepared straight away.
+- (about) The cooking process produces sausage juices which, together with any split sausages, are used as a soup known as Metzelsuppe.
+- (culture) As a result, in many places, e.g., in parts of the Palatinate, the entire festival and the meal in particular are known as Metzelsupp.
 
 Learn more:
 
@@ -1851,12 +1845,12 @@ Fun facts:
 
 - (inspiration) Alternatively, the adoption of a meal of the Spanish-inspired court of Jérôme Bonaparte, who ruled the Kingdom of Westphalia from 1807 to 1813, is assumed.
 - (history) A Frikko recipe is included in the Practical Cookbook first published by Henriette Davidis in 1845.
-- (culture) Pork and lamb has also sometimes been traditionally used.
+- (culture) Spanish fricco is a traditional dish in Meschede, a town in the Hochsauerland district, in North Rhine-Westphalia, Germany.
 
 More fun facts (when the user asks for more):
 
-- (culture) Spanish fricco is a traditional dish in Meschede, a town in the Hochsauerland district, in North Rhine-Westphalia, Germany.
 - (culture) The town of Bad Sooden-Allendorf in the Werra-Meißner-Kreis in Hesse, Germany also claims Spanish fricco as a traditional dish and its people serve it annually for Thanksgiving and Heimatfest.
+- (culture) Pork and lamb has also sometimes been traditionally used.
 
 Learn more:
 
@@ -1876,9 +1870,9 @@ Springerle is a type of South German biscuit or cookie with an embossed design m
 
 Fun facts:
 
-- (history) The origin of the cookie can be traced back to at least the 14th century in southwestern Germany and surrounding areas, mostly in Swabia.
 - (about) It may refer the popular motif of a jumping horse in the mold, or just to the rising or "springing up" of the dough as it bakes.
 - (origin) Springerle comes from Germany.
+- (history) The origin of the cookie can be traced back to at least the 14th century in southwestern Germany and surrounding areas, mostly in Swabia.
 
 More fun facts (when the user asks for more):
 
@@ -1924,8 +1918,8 @@ Streuselkuchen, also known in English-speaking countries as crumb cake, is a cak
 
 Fun facts:
 
-- (origin) The recipe allegedly originated in the region of Silesia, and is popular in German and Polish cuisines.
 - (origin) Streuselkuchen comes from Germany.
+- (origin) The recipe allegedly originated in the region of Silesia, and is popular in German and Polish cuisines.
 
 Learn more:
 
@@ -1948,8 +1942,8 @@ Tafelspitz is boiled veal or beef in broth, served with a mix of minced apples a
 Fun facts:
 
 - (about) Franz Joseph I, Emperor of Austria, was a great lover of Tafelspitz.
-- (history) According to the 1912 official cookery textbook used in domestic science schools of the Austro-Hungarian Empire, "His Majesty's private table is never without a fine piece of boiled beef, which is one of his favorite dishes."
 - (origin) Tafelspitz comes from Austria.
+- (history) According to the 1912 official cookery textbook used in domestic science schools of the Austro-Hungarian Empire, "His Majesty's private table is never without a fine piece of boiled beef, which is one of his favorite dishes."
 
 More fun facts (when the user asks for more):
 
@@ -1974,14 +1968,14 @@ Weißwurst is a traditional Bavarian sausage made from minced veal and pork fatb
 
 Fun facts:
 
-- (about) In Poland, a similar kind of sausage, also named 'white sausage' (biała kiełbasa), is made from pork instead and most often served on Easter.
 - (culture) Ways of eating Weißwurst include the traditional way, called zuzeln (Bavarian for sucking), in which each end of the sausage is cut or bitten open, after which the meat is sucked out from the skin.
+- (about) Alternatively, the more popular and more discreet ways of consuming it are by cutting the sausage lengthwise and then "rolling out" the meat from the skin with a fork, or also to open it on one end and consume it very much like a banana, ever opening the peel further and dipping the sausage into the mustard.
 - (origin) Weißwurst comes from Poland, Bavaria.
 
 More fun facts (when the user asks for more):
 
-- (about) Alternatively, the more popular and more discreet ways of consuming it are by cutting the sausage lengthwise and then "rolling out" the meat from the skin with a fork, or also to open it on one end and consume it very much like a banana, ever opening the peel further and dipping the sausage into the mustard.
 - (culture) Weißwurst, whose consumption traditionally is associated with Bavaria, helped in the coining of a humorous term, Weißwurstäquator, that delineates a cultural boundary separating other linguistic and cultural areas from Southern Germany.
+- (about) In Poland, a similar kind of sausage, also named 'white sausage' (biała kiełbasa), is made from pork instead and most often served on Easter.
 
 Learn more:
 
@@ -2097,8 +2091,8 @@ Wurstsalat is a tart sausage salad prepared with distilled white vinegar, oil an
 Fun facts:
 
 - (culture) Wurstsalat is a traditional snack in Southern Germany, Alsace, Switzerland and Austria (where it is known as Saure Wurst, lit. "sour sausage").
-- (about) In the Czech Republic, similar snack is served in full, not cut to slices, and is known as “the drowning man”, “utopenec” in Czech.
 - (origin) Wurstsalat comes from Germany.
+- (about) In the Czech Republic, similar snack is served in full, not cut to slices, and is known as “the drowning man”, “utopenec” in Czech.
 
 Learn more:
 
@@ -2146,21 +2140,21 @@ Akvavit or aquavit () is a distilled spirit that is principally produced in Scan
 
 Fun facts:
 
-- (history) The earliest known reference to "aquavit" is found in a 1531 letter from the Lord of Bergenshus castle, (Norway) Eske Bille, to Olav Engelbrektsson, the last Roman Catholic Archbishop of Norway.
-- (about) While this claim for the medicinal properties of the drink may be rather inflated, aquavit is popularly believed to ease the digestion of rich foods.
+- (about) The EU has established a minimum of 37.5% ABV for akvavit to be named as such.
 - (culture) Akvavit is an important part of Nordic drinking culture, where it is often drunk during festive gatherings, such as Christmas dinners and the Midsummer celebration, and as an aperitif.
+- (origin) Akvavit comes from Scandinavia.
 
 More fun facts (when the user asks for more):
 
-- (about) The EU has established a minimum of 37.5% ABV for akvavit to be named as such.
-- (culture) This is usually attributed to tradition.
-- (culture) In Finland and Sweden, aquavit consumed from a shot glass is also commonly associated with crayfish parties, which are traditionally held during late August.
 - (culture) Akvavit is consumed year-round, though, mainly for lunches of traditional Danish dishes where beer is also always on the table.
 - (culture) In Norway, it is drunk at celebrations, particularly Christmas, Easter, or May 17 (Norwegian Constitution Day).
 - (culture) In Denmark, it is traditionally associated with Christmas and Easter lunches.
 - (culture) In Sweden, it is a staple of the traditional midsummer celebrations dinner, usually drunk while singing one of many drinking songs.
 - (about) In this regard, it is popularly quipped that aquavit helps the fish swim down to the stomach.
-- (origin) Akvavit comes from Scandinavia.
+- (history) The earliest known reference to "aquavit" is found in a 1531 letter from the Lord of Bergenshus castle, (Norway) Eske Bille, to Olav Engelbrektsson, the last Roman Catholic Archbishop of Norway.
+- (about) While this claim for the medicinal properties of the drink may be rather inflated, aquavit is popularly believed to ease the digestion of rich foods.
+- (culture) This is usually attributed to tradition.
+- (culture) In Finland and Sweden, aquavit consumed from a shot glass is also commonly associated with crayfish parties, which are traditionally held during late August.
 - (about) Not to be confused with Aqua vitae.
 
 Learn more:
@@ -2209,7 +2203,7 @@ Fun facts:
 
 - (history) Some sources, such as Dornbusch, give the date 1572 as being the earliest record of the beer being brewed in Berlin.
 - (inspiration) A popular story is that Napoleon's troops dubbed it "The Champagne of the North" in 1809.
-- (about) Broihan's beer, Halberstädter Broihan, became very popular, and a version was being brewed in Berlin by the Berlin doctor J.
+- (culture) Traditionally, beers brewed in March (Märzen beers) were brewed stronger and allowed to mature over the summer months, and there is a report that this may have also happened with Berliner Weisse — the bottles being buried in sand or warm earth.
 
 More fun facts (when the user asks for more):
 
@@ -2217,7 +2211,7 @@ More fun facts (when the user asks for more):
 - (history) By the late 19th century, Berliner Weisse was the most popular alcoholic drink in Berlin, with up to fifty breweries producing it.
 - (history) By the late 20th century, there were only two breweries left in Berlin producing the beer.
 - (history) Most beer authorities trace the origins of Berliner Weisse to an unknown beer being produced in Hamburg which was copied and developed by the 16th century brewer Cord Broihan.
-- (culture) Traditionally, beers brewed in March (Märzen beers) were brewed stronger and allowed to mature over the summer months, and there is a report that this may have also happened with Berliner Weisse — the bottles being buried in sand or warm earth.
+- (history) Broihan's beer, Halberstädter Broihan, became very popular, and a version was being brewed in Berlin by the Berlin doctor J. S. Elsholz in the 1640s.
 
 Learn more:
 
@@ -2377,14 +2371,14 @@ Fanta () is a German-founded, American-owned brand of carbonated, fruit-flavored
 Fun facts:
 
 - (origin) Fanta originated as a Coca-Cola alternative after an American trade embargo against Nazi Germany disrupted the availability of standard Coca-Cola ingredients.
-- (history) The beverage quickly dominated the German market, selling three million cases by 1943.
+- (history) Fanta's current orange-flavored formulation was later developed in Italy in 1955.
 - (inspiration) Fanta is named after fantasy.
 
 More fun facts (when the user asks for more):
 
-- (history) Fanta's current orange-flavored formulation was later developed in Italy in 1955.
 - (history) Fanta dates from 1940-.
 - (origin) Fanta comes from Germany.
+- (history) The beverage quickly dominated the German market, selling three million cases by 1943.
 
 Learn more:
 
@@ -2437,10 +2431,10 @@ More fun facts (when the user asks for more):
 - (history) In 1824, Johann Gottlieb Goedecke began brewing gose at a manor house (rittergut) in Döllnitz.
 - (history) By 1900, it was considered to be local to Leipzig and there were over 80 gose taverns in the city.
 - (history) In 1949, Friedrich Wurzler, who had worked at the Döllnitz brewery and knew the techniques for brewing gose, opened a tiny brewery in Leipzig.
-- (history) Before his death in the late 1950s, Wurzler passed the recipe to his stepson, Guido Pfnister.
 - (culture) The barrel was emptied into a tank, whence it was filled into traditional long-necked bottles.
 - (origin) Gose comes from Germany.
 - (about) Not to be confused with Gose, gueuze.
+- (history) Before his death in the late 1950s, Wurzler passed the recipe to his stepson, Guido Pfnister.
 
 Learn more:
 
@@ -2472,8 +2466,8 @@ More fun facts (when the user asks for more):
 - (about) Gouda today is a generic name for numerous similar cheeses, which are popular and widely produced worldwide.
 - (culture) Buyers then sampled the cheeses and negotiated a price using a ritual bargaining system called handjeklap in which buyers and sellers clap each other's hands and shout out various prices.
 - (culture) Cheesemaking traditionally was a woman's task in Dutch culture, with farmers' wives passing their cheesemaking skills onto their daughters.
-- (culture) However, some 300 Dutch farmers still produce boerenkaas ("farmer's cheese"), which is a protected form of Gouda made in the traditional manner, using unpasteurised milk.
-- (origin) Gouda cheese comes from Netherlands.
+- (culture) Some 300 Dutch farmers still produce boerenkaas ("farmer's cheese"), which is a protected form of Gouda made in the traditional manner, using unpasteurised milk.
+- (origin) Gouda cheese comes from the Netherlands.
 
 Learn more:
 
@@ -2557,13 +2551,13 @@ Kassler or Kasseler in German cuisine is a cured and slightly smoked cut of pork
 
 Fun facts:
 
-- (history) However, records of the town's inhabitants show that in the 19th century no butcher named Cassel or Kassel was living in Berlin.
+- (history) It is often said that the name derived from a Berlin-based butcher called Cassel who prepared the cut in the late 19th century.
 - (about) In Finland, pork neck of any type is known as kassler.
 - (culture) In Iceland, hamborgarhryggur is a traditional Christmas dinner.
 
 More fun facts (when the user asks for more):
 
-- (history) It is often said that the name derived from a Berlin-based butcher called Cassel who prepared the cut in the late 19th century.
+- (history) Records of the town's inhabitants show that in the 19th century no butcher named Cassel or Kassel was living in Berlin.
 
 Learn more:
 
@@ -2795,20 +2789,19 @@ Limburger, commonly known as Limburg (in southern Dutch contexts Rommedoe, and i
 
 Fun facts:
 
-- (history) Reactions to, and misinterpretations of, the smell of Limburger cheese were gags used in numerous Looney Tunes, Little Rascals, and Three Stooges comedy shorts as well as in the Abbott and Costello films Who Done It? (1942) and Abbott and Costello Go to Mars (1953).
-- (about) In the USA, it was first produced by the F.X.
+- (history) In the USA, it was first produced by the F.X. Baumert cheese factory in Antwerp, New York, in 1854.
+- (about) A study showing that the malaria mosquito (Anopheles gambiae) is attracted equally to the smell of Limburger and to the smell of human feet earned the Ig Nobel Prize in 2006 in the area of biology.
 - (origin) Limburger comes from Belgium.
 
 More fun facts (when the user asks for more):
 
-- (history) Herve has been produced since the 15th century.
+- (history) Reactions to, and misinterpretations of, the smell of Limburger cheese were gags used in numerous Looney Tunes, Little Rascals, and Three Stooges comedy shorts as well as in the Abbott and Costello films Who Done It? (1942) and Abbott and Costello Go to Mars (1953).
 - (history) Herve cheese, or "Fromage de Herve", is still produced in the territory of the old Duchy of Limburg, in Belgium, where it has been produced since the 15th century.
-- (history) Baumert cheese factory in Antwerp, New York, in 1854.
 - (history) Limburger was also produced in 1867 by Rudolph Benkerts in his cellar from pasteurized goat's milk.
+- (history) Herve has been produced since the 15th century.
 - (history) The smell of the cheese is referenced in the B-52's 1979 single "Dance This Mess Around", with the lyric "why don't you dance with me?
 - (history) The results of the study were published in the medical journal The Lancet on 9 November 1996.
 - (history) The duchy existed until the French Revolution as a part of the Holy Roman Empire, and the cheese style became popular in other areas, known by the name of its country of origin.
-- (about) A study showing that the malaria mosquito (Anopheles gambiae) is attracted equally to the smell of Limburger and to the smell of human feet earned the Ig Nobel Prize in 2006 in the area of biology.
 
 Learn more:
 
@@ -2910,9 +2903,9 @@ Obatzda pronounced [ˈoːbatsdɐ] (also spelt Obazda, Obatza, and Obatzter) is a
 
 Fun facts:
 
-- (culture) Sweet or hot paprika powder, salt and black pepper are the traditional seasonings, as well as a small amount of beer.
 - (about) In 2015, within the EU, obatzda was granted PGI certification.
 - (origin) Obatzda comes from Germany.
+- (culture) Sweet or hot paprika powder, salt and black pepper are the traditional seasonings, as well as a small amount of beer.
 
 Learn more:
 
@@ -2939,8 +2932,8 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (culture) The name is likely to have derived from the nearby Büchelstein mountain, where the annual Büchelsteiner Fest has been celebrated since 1839.
 - (culture) In Regen, a town in the Bavarian Forest, the citizens have met annually since 1874 on Kirchweih Monday to eat Pichelsteiner together, a tradition that is still alive today.
+- (culture) The name is likely to have derived from the nearby Büchelstein mountain, where the annual Büchelsteiner Fest has been celebrated since 1839.
 
 Learn more:
 
@@ -3044,13 +3037,13 @@ Fun facts:
 
 - (history) The recipe was developed by the pharmacist Willy Drube (1880–1952), since 1908 proprietor of the chemist's Zum Roten Fingerhut in Schierke, and which was patented in 1924.
 - (inspiration) Due to its red-brown coloration, the liqueur is named after the so-called Feuersteinklippe, a rock formation near the village made of reddish granite.
-- (history) After the death of Willy Drube in 1952 and the migration of his descendants to West Germany, production was continued at Bad Lauterberg in the Lower Saxon part of the Harz mountain range.
+- (history) From 1972 onwards, Schierker Feuerstein was also produced again at the original place in Schierke, East Germany by a Volkseigener Betrieb ("Publicly Owned Operation", VEB), part of a larger beverages combine (Getränkekombinat) based in Magdeburg.
 
 More fun facts (when the user asks for more):
 
-- (history) From 1972 onwards, Schierker Feuerstein was also produced again at the original place in Schierke, East Germany by a Volkseigener Betrieb ("Publicly Owned Operation", VEB), part of a larger beverages combine (Getränkekombinat) based in Magdeburg.
 - (history) Upon German reunification in 1990, the Schierke and Bad Lauterberg locations merged within the common Schierker Feuerstein GmbH & Co.
 - (history) Schierker Feuerstein dates from 1908-.
+- (history) After the death of Willy Drube in 1952 and the migration of his descendants to West Germany, production was continued at Bad Lauterberg in the Lower Saxon part of the Harz mountain range.
 
 Learn more:
 
@@ -3118,15 +3111,15 @@ Fun facts:
 
 - (history) Sparkling wines have been produced in Central and Eastern Europe since the early 19th century. "Champagne" was further popularised in the region late in the century, when József Törley started production in Hungary using French methods, learned as an apprentice in Reims.
 - (about) Recently, production of sparkling wine was restarted by United Kingdom winemakers after a long hiatus.
-- (history) Blanquette de Limoux, from Languedoc, shows up in writings from as early as 1531 by the Abbey monks of Saint-Hilaire.
+- (history) Later, when deliberate sparkling wine production increased in the early 18th century, cellar workers would still have to wear a heavy iron mask that resembled a baseball catcher's mask to prevent injury from spontaneously bursting bottles.
 
 More fun facts (when the user asks for more):
 
-- (history) Later, when deliberate sparkling wine production increased in the early 18th century, cellar workers would still have to wear a heavy iron mask that resembled a baseball catcher's mask to prevent injury from spontaneously bursting bottles.
 - (about) The British were the first to see the tendency of wines from Champagne to sparkle as a desirable trait and tried to understand why it produced bubbles.
-- (history) During the 17th century, English glass production used coal-fueled ovens and produced stronger, more durable glass bottles than the wood-fired French glass.
 - (history) In 1662, the English scientist Christopher Merret presented a paper detailing how the presence of sugar in a wine led to it eventually sparkling and that by adding sugar to a wine before bottling it, nearly any wine could be made to sparkle.
 - (about) This is one of the first known accounts of understanding the process of sparkling wine and even suggests that British merchants were producing "sparkling Champagne" before the French Champenois were deliberately making it.
+- (history) Blanquette de Limoux, from Languedoc, shows up in writings from as early as 1531 by the Abbey monks of Saint-Hilaire.
+- (history) During the 17th century, English glass production used coal-fueled ovens and produced stronger, more durable glass bottles than the wood-fired French glass.
 
 Learn more:
 
@@ -3148,7 +3141,7 @@ Fun facts:
 
 - (history) Remains of spelt have been found in Denmark, Germany, and Poland from the later Neolithic (dating from 2500–1700 BCE).
 - (origin) Spelt was introduced to the United States in the 1890s.
-- (about) By 2014, the grain was popular in the UK, Kazakhstan, and Ukraine.
+- (about) In the United States, most spelt is grown in Ohio as of 2022.
 
 More fun facts (when the user asks for more):
 
@@ -3156,7 +3149,7 @@ More fun facts (when the user asks for more):
 - (history) In the 20th century, spelt was replaced by bread wheat in almost all areas where it was still grown.
 - (history) The organic farming movement revived its popularity somewhat toward the end of the 20th century, as spelt requires less fertilizer.
 - (history) Since the beginning of the 21st century, spelt has become a common wheat substitute for making artisanal loaves of bread, pasta, and flakes.
-- (about) In the United States, most spelt is grown in Ohio as of 2022.
+- (about) By 2014, the grain was popular in the UK, Kazakhstan, and Ukraine.
 
 Learn more:
 
@@ -3184,7 +3177,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Sprite comes from United States, Germany.
+- (origin) Sprite comes from the United States, Germany.
 
 Learn more:
 
@@ -3253,14 +3246,13 @@ Underberg is a digestif bitter produced at Rheinberg in Germany by Underberg AG.
 
 Fun facts:
 
-- (history) Production ceased in 1939 due to lack of raw materials and was restarted in December 1949.
-- (inspiration) Underberg is made from aromatic herbs from 43 countries that undergo inspections and are formulated based on a secret recipe of the Underberg family.
 - (history) In 1884, Hubert Underberg began to export his product to Brazil.
+- (inspiration) Underberg is made from aromatic herbs from 43 countries that undergo inspections and are formulated based on a secret recipe of the Underberg family.
+- (history) The drink is usually associated with its portion-sized 20 ml bottle, designed in 1949 by Emil Underberg, grandson of the founder.
 
 More fun facts (when the user asks for more):
 
-- (history) In 1932, the grandson of the founder, Dr.
-- (history) The drink is usually associated with its portion-sized 20 ml bottle, designed in 1949 by Emil Underberg, grandson of the founder.
+- (history) Production ceased in 1939 due to lack of raw materials and was restarted in December 1949.
 
 Learn more:
 

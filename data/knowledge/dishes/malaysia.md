@@ -13,8 +13,8 @@ Ais kacang or air batu campur, Jawi: ‏اءير باتو چمڤور "mixed ice"
 Fun facts:
 
 - (history) Some earlier variants of ais kacang are no longer sold, such as the ice ball version of the dessert, which was popular during the 1950s and 1960s.
-- (culture) Traditionally, an ice shaving machine is used to churn out the shaved ice used in the dessert, originally hand cranked but now more often motorised.
 - (origin) Ais kacang comes from Malaysia.
+- (culture) Traditionally, an ice shaving machine is used to churn out the shaved ice used in the dessert, originally hand cranked but now more often motorised.
 
 More fun facts (when the user asks for more):
 
@@ -43,7 +43,7 @@ Akok is one of the famous traditional foods in the east coast of Peninsular Mala
 
 Fun facts:
 
-- (about) However, there is a savoury variant known as akok berlauk, which include a filling made of minced meat, curry powder, chili peppers and fried onions.
+- (about) There is a savoury variant known as akok berlauk, which include a filling made of minced meat, curry powder, chili peppers and fried onions.
 - (culture) Akok is traditionally baked in a brass mould heated with smouldering coconut charcoal, in a similar manner as the bahulu.
 - (origin) Akok comes from Malaysia.
 
@@ -110,9 +110,9 @@ Ayam masak merah is a Malaysian and Singaporean chicken dish.
 
 Fun facts:
 
-- (about) Pieces of chicken are first marinated in turmeric before being fried to a golden brown then slowly braised in a spicy dried chillies, onion and tomato sauce.
-- (origin) Ayam masak merah comes from Malaysia.
 - (about) Popular in both countries, it is a casserole of chicken pieces in dried chillies sambal.
+- (origin) Ayam masak merah comes from Malaysia.
+- (about) Pieces of chicken are first marinated in turmeric before being fried to a golden brown then slowly braised in a spicy dried chillies, onion and tomato sauce.
 
 Learn more:
 
@@ -140,7 +140,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (culture) Bakkwa is very popular in Singapore and Malaysia where it is traditionally eaten during the Chinese New Year.
-- (origin) Bakkwa comes from People's Republic of China.
+- (origin) Bakkwa comes from the People's Republic of China.
 
 Learn more:
 
@@ -162,14 +162,14 @@ Banmian or pan mee (Min Nan Chinese: pán-mī) is a Chinese noodle dish that con
 
 Fun facts:
 
+- (culture) Traditional versions of banmian use egg noodles that are simply a blend of egg, flour, water and salt that is kneaded and then formed into noodles.
+- (origin) Banmian comes from the People's Republic of China, Singapore, Malaysia.
 - (about) Dry chilli pan mee is a variant which was invented in Chow Kit, Kuala Lumpur, and is often seen in the Klang Valley.
-- (culture) The current style is a mix between the traditional methods of Hakka and Hokkien.
-- (origin) Banmian comes from People's Republic of China, Singapore, Malaysia.
 
 More fun facts (when the user asks for more):
 
+- (culture) The current style is a mix between the traditional methods of Hakka and Hokkien.
 - (culture) Traditionally, the dough is hand-kneaded and torn into smaller pieces of dough (about 5 cm or 2 in).
-- (culture) Traditional versions of banmian use egg noodles that are simply a blend of egg, flour, water and salt that is kneaded and then formed into noodles.
 
 Learn more:
 
@@ -261,7 +261,7 @@ Claypot rice, sometimes translated as "rice casserole", is a Chinese traditional
 Fun facts:
 
 - (culture) Traditionally, the dish is cooked over a charcoal stove, giving it a distinctive flavor.
-- (origin) Claypot rice comes from People's Republic of China.
+- (origin) Claypot rice comes from the People's Republic of China.
 
 Learn more:
 
@@ -285,11 +285,11 @@ Fun facts:
 
 - (inspiration) Devil's curry is named after devil.
 - (culture) Debal Curry traces its roots to the Goan Vindalho which also features vinegar as an important component inherited from Portuguese culinary traditions.
-- (about) Other popular Kristang dishes include Eurasian Smore (a beef stew) and sugee cake.
+- (origin) Devil's curry comes from Malaysia.
 
 More fun facts (when the user asks for more):
 
-- (origin) Devil's curry comes from Malaysia.
+- (about) Other popular Kristang dishes include Eurasian Smore (a beef stew) and sugee cake.
 
 Learn more:
 
@@ -370,10 +370,6 @@ Fun facts:
 
 - (origin) Originating in Teluk Intan in Perak, heong peng are available in many stores around Ipoh, and other parts of Malaysia and Singapore.
 - (about) Heong peng is popular with the Malaysian Chinese community, especially those in Northern Peninsular Malaysia.
-- (about) They are also known as beh teh soh in Hokkien.
-
-More fun facts (when the user asks for more):
-
 - (origin) Heong peng comes from Malaysia.
 
 Learn more:
@@ -518,8 +514,7 @@ Malay sponge cake is a dessert cake popular in Guangdong and Hong Kong, where it
 
 Fun facts:
 
-- (origin) The first one is that Malay sponge cake comes from Guangdong in China and was then brought to Malaysia through the second Chinese immigration wave in Malaya history during the British-ruled period.
-- (origin) Malay sponge cake comes from People's Republic of China.
+- (origin) Malay sponge cake comes from the People's Republic of China.
 
 Learn more:
 
@@ -585,15 +580,15 @@ Nasi kandar is a popular northern Malaysian dish from Penang, originally introdu
 Fun facts:
 
 - (origin) Nasi kandar originates from the early 1900s, when itinerant Indian Muslim vendors would sell curry and rice to the dock employees of Weld Quay, located in George Town, Penang.
-- (history) By the 1930s, the rice peddlers would also commonly travel from home-to-home.
-- (culture) However, by the mid-20th century, the traditional approach of transporting the rice and dishes on the shoulder began to wane, as many sellers moved towards selling nasi kandar in stalls and alleyways.
+- (culture) By the mid-20th century, the traditional approach of transporting the rice and dishes on the shoulder began to wane, as many sellers moved towards selling nasi kandar in stalls and alleyways.
+- (history) In the 1970s, more vendors invested in the restaurant industry, further departing from the mobile eatery origins of nasi kandar.
 
 More fun facts (when the user asks for more):
 
 - (origin) The dish name is potentially a portmanteau, nasi derives from Malay, meaning rice; while kandha' is an Urdu name means shoulder; another possible theory is that the name originated in the Malay verb mengandar - "rest on shoulders".
-- (history) In the 1970s, more vendors invested in the restaurant industry, further departing from the mobile eatery origins of nasi kandar.
 - (history) Hameediyah is recognized as Penang's oldest nasi kandar restaurant, having originally started under a tree at a field in Lebuh Campbell, Penang in 1907.
 - (origin) Nasi kandar comes from India.
+- (history) By the 1930s, the rice peddlers would also commonly travel from home-to-home.
 
 Learn more:
 
@@ -845,9 +840,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) Beside locals, the food has been a favorite among visitors to Terengganu, with the districts of Marang and Kemaman being a popular source for the snack.
 - (about) With its rising popularity, sata is also available in the Klang Valley, albeit sometimes at higher prices.
 - (origin) Sata comes from Malaysia.
+- (about) Beside locals, the food has been a favorite among visitors to Terengganu, with the districts of Marang and Kemaman being a popular source for the snack.
 
 Learn more:
 
@@ -953,14 +948,13 @@ The honeydew melon is one of the two main cultivar types in Cucumis melo Inodoru
 
 Fun facts:
 
-- (history) Wallace, who donated melon seeds to the locals while visiting in the 1940s (probably 1944).
+- (origin) According to Chinese sources, the melons were introduced to China by American Secretary of Agriculture, Henry A. Wallace, who donated melon seeds to the locals while visiting in the 1940s (probably 1944).
 - (about) In China, honeydews are known as Bailan melons.
-- (origin) According to Chinese sources, the melons were introduced to China by American Secretary of Agriculture, Henry A.
+- (about) Not to be confused with Honeydew.
 
 More fun facts (when the user asks for more):
 
 - (about) They are famous locally near Lanzhou, the capital city of Gansu province in China's northwest.
-- (about) Not to be confused with Honeydew.
 
 Learn more:
 
@@ -989,14 +983,14 @@ More fun facts (when the user asks for more):
 
 - (origin) Hong Kong–style milk tea originates from the British colonial rule over Hong Kong.
 - (history) A few decades later in the 1960s, the drink became more widely available at cha chaan teng and thus began to also appeal to office workers, who opted for a less intense tea.
-- (history) These sentiments were boosted in 2007 when the Hong Kong government removed Queen's Pier – a local landmark reminiscent of the city's colonial era – prompting many young Hongkongers to contemplate the local identity, which coupled with rising localist sentiments to further the drink's cultural significance.
 - (history) A dai pai dong–style restaurant called Lan Fong Yuen claims that both "silk-stocking" milk tea and yuenyeung were invented in 1952 by its owner, Lum Muk-ho.
 - (about) Amid the city's mass emigration wave in the early 2020s, this variant of milk tea can now also be found overseas in Hong Kong–style restaurants.
 - (about) The British practice of afternoon tea, where black tea is served with fresh milk and sugar, grew popular in the colony.
 - (about) Hong Kong–style milk tea is a popular part of many Hongkongers' daily lives, typically served as part of afternoon tea but also at breakfast or dinner.
 - (about) A cup of milk tea costs roughly 20 Hong Kong dollars (US$2.66) as of August 2024, with industry estimates suggesting that Hongkongers consume an average of 2.5 million cups a day.
 - (culture) Hong Kong–style milk tea is also considered culturally significant in the city and is seen as a symbol of pride among locals.
-- (origin) Hong Kong–style milk tea comes from People's Republic of China.
+- (history) These sentiments were boosted in 2007 when the Hong Kong government removed Queen's Pier – a local landmark reminiscent of the city's colonial era – prompting many young Hongkongers to contemplate the local identity, which coupled with rising localist sentiments to further the drink's cultural significance.
+- (origin) Hong Kong–style milk tea comes from the People's Republic of China.
 
 Learn more:
 
@@ -1044,11 +1038,11 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Established in 1919 as Kheng Hoe Heng Coffeeshop, Killiney Kopitiam is one of the oldest coffee shops in Singapore specialising in the dish.
-- (history) Kopitiams started becoming a common sight in Singapore after the Japanese occupation around 1945, when rental for commercial spaces were affordable.
-- (culture) In the past, traditional snack shops could only be found in a few locations such as Chinatown and Balestier Road.
-- (culture) However, Singapore started actively promoting its street food or hawker fare via the Singapore Tourism Board (STB).
 - (about) In 2004, Kaya toast was featured by the Singapore Tourism Board in its "Uniquely Singapore Shop & Eat Tours" as a Singaporean representative local snack.
 - (origin) Kaya toast comes from Singapore.
+- (history) Kopitiams started becoming a common sight in Singapore after the Japanese occupation around 1945, when rental for commercial spaces were affordable.
+- (culture) In the past, traditional snack shops could only be found in a few locations such as Chinatown and Balestier Road.
+- (culture) Singapore started actively promoting its street food or hawker fare via the Singapore Tourism Board (STB).
 
 Learn more:
 
@@ -1133,12 +1127,12 @@ Lekor or fully known as keropok lekor is a traditional Malay fish cracker or fis
 Fun facts:
 
 - (inspiration) The fish cracker has its origin in the area of the east coast of West Malaysia, specifically Terengganu, where it was created by Malay fishermen as a way to preserve fish during the monsoon season.
-- (culture) Within the states of Terengganu as well as Kelantan, the snack has been a profound symbol of local Malay cultural identity.
 - (origin) Lekor comes from Malaysia.
+- (about) Not to be confused with Lekor.
 
 More fun facts (when the user asks for more):
 
-- (about) Not to be confused with Lekor.
+- (culture) Within the states of Terengganu as well as Kelantan, the snack has been a profound symbol of local Malay cultural identity.
 
 Learn more:
 
@@ -1162,14 +1156,13 @@ Marmite () is a British savoury spread based on yeast extract invented by the Ma
 Fun facts:
 
 - (history) The first yeast extract spread was invented during the late 19th century when the German scientist Justus von Liebig discovered that brewer's yeast could be concentrated, bottled and eaten.
-- (origin) Marmite comes from United Kingdom.
+- (origin) Marmite comes from the United Kingdom.
 - (culture) Marmite is traditionally eaten spread on buttered toast.
 
 More fun facts (when the user asks for more):
 
 - (history) Marmite is commonly used as a flavouring, as it is known for its savoury taste due to its high levels of glutamate (1960mg/100g).
 - (history) Marmite was originally supplied in earthenware pots but since the 1920s has been sold in glass jars.
-- (history) By 1907, the product had become successful enough to warrant construction of a second factory at Camberwell Green in London.
 - (history) By 1912, the discovery of vitamins was a boost for Marmite, as the spread is a rich source of the vitamin B complex; with the vitamin B1 deficiency beriberi being common during World War I, the spread became more popular.
 - (history) During the 1930s, Marmite was used by the English haematologist and physician researcher Lucy Wills to successfully treat a form of anaemia in mill workers in Bombay (present-day Mumbai), British India.
 - (history) Marmite was used to treat malnutrition by Suriya-Mal workers during the 1934–35 malaria epidemic in British Ceylon (present-day Sri Lanka).
@@ -1178,6 +1171,7 @@ More fun facts (when the user asks for more):
 - (history) This was until 1902, when the Marmite Food Extract Company was formed in Burton upon Trent, Staffordshire, England with Marmite as its main product and Burton as the site of the first factory.
 - (history) In 1990, Marmite Limited, which had become a subsidiary of Bovril Limited, was bought by CPC International Inc, which changed its name to Best Foods Inc in 1998.
 - (about) Not to be confused with Vegemite, marmite.
+- (history) By 1907, the product had become successful enough to warrant construction of a second factory at Camberwell Green in London.
 
 Learn more:
 

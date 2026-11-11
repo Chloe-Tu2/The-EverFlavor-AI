@@ -12,7 +12,6 @@ Balut is a fertilized developing egg embryo that is boiled or steamed and eaten 
 Fun facts:
 
 - (culture) It is commonly sold as street food in Southeast Asia, most notably in the Philippines, Cambodia, and Vietnam, and also occasionally in Thailand.
-- (about) The 2024 horror video game Hapunan has the player taking on the role of Niko, a poor Filipino student who sells balut in Barangay Sak Dudol, where a gang of contract killers is suspected of committing brutal murders during the night.
 
 Learn more:
 
@@ -36,13 +35,13 @@ Fun facts:
 
 - (history) Bun cha was described in 1959 by Vietnamese food writer Vũ Bằng (1913–1984), who described Hanoi as a town "transfixed by bún chả".
 - (inspiration) The origin of the dish is unknown, but one story is that it was created by a grill master in the late 19th or early 20th century in Hanoi.
-- (about) Hanoi's first bún chả restaurant was on Gia Ngư, Hoàn Kiếm District, in Hanoi's Old Quarter.
+- (origin) Bun cha comes from Vietnam.
 
 More fun facts (when the user asks for more):
 
+- (about) Hanoi's first bún chả restaurant was on Gia Ngư, Hoàn Kiếm District, in Hanoi's Old Quarter.
 - (about) Bún chả remains very popular in Hanoi and throughout Vietnam.
 - (about) The Hanoi restaurant Bún Chả Hương Liên became famous after United States President Barack Obama dined there with Chef Anthony Bourdain during his trip to Vietnam in May 2016.
-- (origin) Bun cha comes from Vietnam.
 
 Learn more:
 
@@ -93,7 +92,7 @@ Bánh bò is a sweet, chewy sponge cake from Vietnam.
 Fun facts:
 
 - (inspiration) According to the entry for "𤙭" (bò) in Paulus Huỳnh Tịnh Của's 1895 dictionary Đại Nam quấc âm tự vị, the dessert is named for its resemblance to a cow's udder, implying that the name was shortened from bánh vú bò.
-- (about) However, according to a popular folk etymology, bò refers to how the cake "crawls" up to the rim of the bowl when steamed to completion.
+- (about) According to a popular folk etymology, bò refers to how the cake "crawls" up to the rim of the bowl when steamed to completion.
 - (origin) Bánh bò comes from Vietnam.
 
 More fun facts (when the user asks for more):
@@ -217,7 +216,6 @@ More fun facts (when the user asks for more):
 - (history) Lang Liêu founded the Seventh Hùng dynasty (c. 1631 – 1432 BC).
 - (about) In tasting the dishes offered by his son, the Hùng king found bánh chưng and bánh giầy not only delicious but also a fine representation of the respect for ancestors.
 - (about) Each year, on the occasion of the Death anniversary of the Hung Kings, a competition of making bánh chưng and bánh dày is often organized in Hùng Temple, Phú Thọ.
-- (culture) He earned his place as successor by creating bánh chưng and bánh giầy, which symbolize the earth and the sky, respectively.
 - (culture) Considered an essential element of the family altar on the occasion of Tết, the preparation and consumption of bánh chưng are cherished traditions deeply rooted in Vietnamese culture.
 - (culture) Therefore, he decided to cede the throne to Lang Liêu and bánh chưng, bánh giầy became traditional foods during Tết.
 - (culture) Wrapped in a green square package, bánh chưng symbolizes the earth, the various ingredients of bánh chưng, which come from all the products of nature, also emphasize the meaning of bánh chưng with Vietnamese people.
@@ -312,13 +310,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (about) He told them whoever brought him the most special and unusual food would be made the new emperor.
 - (about) Almost immediately, the princes left for their homes and started looking for the most delicious food to offer the emperor.
 - (about) Neither the rough sea nor the violent weather could stop them from looking for the best gifts to please the emperor.
 - (about) When it was Lang Liêu's turn to present his gifts, he carried the bánh chưng and his wife carried the bánh dầy to the emperor.
 - (about) The emperor then said that his youngest son's gifts were not only the purest, but also the most meaningful, because Lang Liêu had used nothing except rice which was the basic foodstuff of the people to make them.
 - (about) The youngest prince, named Lang Liêu, however, loved neither.
-- (about) He named the square shaped cake bánh chưng which he made with rice, green beans wrapped in leaves.
 
 Learn more:
 
@@ -354,7 +350,7 @@ More fun facts (when the user asks for more):
 - (history) The 1954 Partition of Vietnam sent over a million migrants from North Vietnam to South Vietnam, transforming Saigon's local cuisine.
 - (history) After the Fall of Saigon in 1975, bánh mì sandwiches became a luxury item once again.
 - (history) Bánh mì dates from 1950-.
-- (about) However, a variety of popular fillings are used, like xá xíu (Chinese barbecued pork), xíu mại (Vietnamese minced pork), nem nướng (grilled pork sausage), đậu hũ (tofu), and even ice cream, which is more of a dessert.
+- (about) A variety of popular fillings are used, like xá xíu (Chinese barbecued pork), xíu mại (Vietnamese minced pork), nem nướng (grilled pork sausage), đậu hũ (tofu), and even ice cream, which is more of a dessert.
 - (history) Following the Vietnam War, overseas Vietnamese popularized the bánh mì sandwich in countries such as Australia, Canada and the United States.
 - (culture) Many sources characterize bánh mì primarily as a French bread tradition adapted in Vietnam, with local fillings added atop the colonial-era baguette base.
 - (about) Among the migrants were Lê Minh Ngọc and Nguyễn Thị Tịnh, who opened a small bakery named Hòa Mã in District 3.
@@ -379,9 +375,9 @@ Bánh phu thê or bánh xu xê, is a Vietnamese dessert made from tapioca flour 
 
 Fun facts:
 
-- (culture) The dessert was traditionally given by a suitor but is now part of many wedding banquets.
-- (origin) Bánh phu thê comes from Vietnam.
 - (culture) Bánh phu thê is traditional for a bridegroom to send bánh phu thê to the bride on the couple's wedding day to symbolize wishes for a happy future.
+- (origin) Bánh phu thê comes from Vietnam.
+- (culture) The dessert was traditionally given by a suitor but is now part of many wedding banquets.
 
 Learn more:
 
@@ -645,12 +641,12 @@ Fun facts:
 
 - (history) Bún bò hails from the city of Huế in central Vietnam in the late 1500s and early 1600s, when the city was ruled by the Nguyễn lords.
 - (origin) The dish originates from Huế, a city in central Vietnam associated with the cooking style of the former royal court.
-- (inspiration) Others claim of a legend of a young lady named Cô Bún (Ms.
+- (culture) This classic dish is celebrated for its harmonious blend of spicy, sour, sweet, salty, and umami tastes.
 
 More fun facts (when the user asks for more):
 
-- (culture) This classic dish is celebrated for its harmonious blend of spicy, sour, sweet, salty, and umami tastes.
 - (culture) Some say it was historically catered for the royal family and high-ranking officials, and over time, it made its way from the royal kitchens to the street food stalls and homes across central Vietnam.
+- (inspiration) Others claim of a legend of a young lady named Cô Bún (Ms. Noodles), who perfected noodle making and passed it down to her village of Vân Cù.
 - (origin) Bún bò Huế comes from Vietnam.
 
 Learn more:
@@ -826,15 +822,15 @@ Caramelized pork and eggs or thịt kho tàu is a Vietnamese dish that consists 
 Fun facts:
 
 - (inspiration) The first of these narratives recounts the story of Vietnamese fishermen, who would cook large pots of pork stew to bring along with them on their lengthy voyages.
-- (history) After the Ming Dynasty was overthrown by the Qing Dynasty, there was a mass exodus of Chinese people to Vietnam.
 - (about) Thịt kho tàu is believed to have been an interpretation of a dish brought over by the aforementioned Chinese (specifically, the Fujianese) émigrés: tau yu bak, Fujian soy sauce pork and eggs.
+- (history) After the Ming Dynasty was overthrown by the Qing Dynasty, there was a mass exodus of Chinese people to Vietnam.
 
 More fun facts (when the user asks for more):
 
+- (origin) Caramelized pork and eggs comes from Vietnam.
 - (origin) Regardless of which of the above three narratives is true, they all share the understanding that thịt kho tàu originated in Vietnam.
 - (culture) Along with being a familiar part of an everyday meal in Vietnam, thịt kho tàu also holds significance as one of the traditional dishes during Tết (Vietnamese New Year).
 - (inspiration) The next narrative is based on the word "tàu" meaning "Chinese".
-- (origin) Caramelized pork and eggs comes from Vietnam.
 
 Learn more:
 
@@ -856,7 +852,7 @@ Ching bo leung is a sweet, cold dessert soup of Chinese origin, which is commonl
 Fun facts:
 
 - (about) Ching bo leung is believed to help "dispel heat" from the body and is popular during the typical hot Hainan weather where there are a prolific number of qing bu liang shops and dessert stands in the tropical island province with varying ingredients and flavours.
-- (origin) Ching bo leung comes from People's Republic of China.
+- (origin) Ching bo leung comes from the People's Republic of China.
 - (about) Ching bo leung is a popular dessert in Malaysia and Singapore.
 
 More fun facts (when the user asks for more):
@@ -994,7 +990,7 @@ Corn crab soup is a dish found in Chinese cuisine, American Chinese cuisine, and
 
 Fun facts:
 
-- (origin) Corn crab soup comes from People's Republic of China.
+- (origin) Corn crab soup comes from the People's Republic of China.
 
 Learn more:
 
@@ -1015,18 +1011,18 @@ Curry is a dish with a spicy sauce, initially in Indian cuisine, then modified b
 
 Fun facts:
 
-- (history) The first appearance in its anglicised form (spelt currey) was in Hannah Glasse's 1747 book The Art of Cookery Made Plain and Easy.
+- (history) Curry was then spread in the 19th century by indentured Indian sugar workers to the Caribbean and by British traders to Japan.
 - (about) In Britain, curry is a popular dish with some types adopted from India and others modified or invented.
 - (origin) The cookery writer Pat Chapman noted the similarity of the words Karahi or Kadai, an Indian cooking dish shaped like a wok, without giving evidence. "Curry" is not related to the word cury in The Forme of Cury, a 1390s English cookbook; that term comes from the Middle French word cuire, meaning "to cook".
 
 More fun facts (when the user asks for more):
 
-- (history) During the British Raj, Anglo-Indian cuisine developed, leading to Hannah Glasse's 18th century recipe for "currey the India way" in England.
-- (history) Curry was then spread in the 19th century by indentured Indian sugar workers to the Caribbean and by British traders to Japan.
+- (history) The first appearance in its anglicised form (spelt currey) was in Hannah Glasse's 1747 book The Art of Cookery Made Plain and Easy.
 - (inspiration) In China and Korea, curries are based on a commercial curry powder.
-- (inspiration) Kaṟi is described in a 17th-century Portuguese cookbook, based on trade with Tamil merchants along the Coromandel Coast of southeast India, becoming known as a "spice blend... called kari podi or curry powder".
+- (inspiration) Kaṟi is described in a 17th-century Portuguese cookbook, based on trade with Tamil merchants along the Coromandel Coast of southeast India, becoming known as a "spice blend.. called kari podi or curry powder".
 - (origin) Curry comes from India.
 - (about) Not to be confused with curry powder, Curry.
+- (history) During the British Raj, Anglo-Indian cuisine developed, leading to Hannah Glasse's 18th century recipe for "currey the India way" in England.
 
 Learn more:
 
@@ -1118,7 +1114,7 @@ Fun facts:
 
 - (history) Since Vietnam's urbanization in the first half of the 20th century, Cơm Tấm became popular across Southern provinces, including Saigon.
 - (about) Cơm Tấm emerged as a popular dish among poor rice farmers in the Mekong Delta.
-- (culture) Also, the portion started being served on plates with a fork instead of in traditional bowls with chopsticks.
+- (culture) The portion started being served on plates with a fork instead of in traditional bowls with chopsticks.
 
 More fun facts (when the user asks for more):
 
@@ -1277,7 +1273,7 @@ Ham chim peng, also known in Singapore and Malaysia as haam ji peng, hum ji peng
 Fun facts:
 
 - (about) The pastry is eaten throughout Southeast Asia, where it is known as Indonesian: kue bantal, and Vietnamese: bánh tiêu, among others.
-- (origin) Ham chim peng comes from People's Republic of China.
+- (origin) Ham chim peng comes from the People's Republic of China.
 - (about) Not to be confused with hujiao bing.
 
 Learn more:
@@ -1329,8 +1325,8 @@ Kho is a traditional Vietnamese cooking technique where a protein source, such a
 Fun facts:
 
 - (about) First, kho is a technique where protein sources can be simmered for a long time to make them much more tender.
-- (history) Even though Vietnam has become a prosperous nation following the Đổi Mới reforms that were initiated in 1986, this economical cooking method continues to be employed by a vast majority of the population.
 - (origin) Kho comes from Vietnam.
+- (history) Even though Vietnam has become a prosperous nation following the Đổi Mới reforms that were initiated in 1986, this economical cooking method continues to be employed by a vast majority of the population.
 
 More fun facts (when the user asks for more):
 
@@ -1356,7 +1352,7 @@ Meat floss, also known as yuk sung or rousong, is a dried meat product of Chines
 Fun facts:
 
 - (about) Meat floss is more commonly known as bak hu in Hokkien-influenced regions, such as Southeast Asia and Taiwan.
-- (origin) Meat floss comes from Japan, People's Republic of China, China.
+- (origin) Meat floss comes from Japan, the People's Republic of China, China.
 
 Learn more:
 
@@ -1447,26 +1443,26 @@ Pho is a Vietnamese soup dish consisting of broth, rice noodles, herbs, and meat
 Fun facts:
 
 - (history) Pho is a relatively recent addition to the country's cuisine, first appearing in written records in the early 20th century in Northern Vietnam.
-- (origin) Phở originated in Northern Vietnam in the early 20th century.
 - (culture) Residents of the city of Nam Định were the first to create Vietnamese traditional pho.
+- (origin) Phở originated in Northern Vietnam in the early 20th century.
 
 More fun facts (when the user asks for more):
 
+- (history) Around 1925, a Vân Cù villager named Vạn opened the first "Nam Định style" pho stand in Hanoi.
+- (history) Cultural historian and researcher Trịnh Quang Dũng believes that the popularization and origins of modern pho stemmed from the intersection of several historical and cultural factors in the early 20th century.
 - (origin) During French colonial rule (1887–1954), the French introduced pot-au-feu, a slow-cooked beef stew, and the use of beef bones for broth mirrors French consommé techniques.
 - (history) The modern form emerged between 1900 and 1907 in northern Vietnam, southeast of Hanoi in Nam Định Province, then a substantial textile market.
-- (history) Around 1925, a Vân Cù villager named Vạn opened the first "Nam Định style" pho stand in Hanoi.
-- (culture) Influences from both French and Chinese culinary traditions are believed to have contributed to its development in Vietnam, as well as to the etymology of its name.
-- (history) Cultural historian and researcher Trịnh Quang Dũng believes that the popularization and origins of modern pho stemmed from the intersection of several historical and cultural factors in the early 20th century.
-- (about) Hanoi's first two fixed phở stands were a Vietnamese-owned Cát Tường on Cầu Gỗ Street and a Chinese-owned stand in front of Bờ Hồ tram stop.
-- (history) They were joined in 1918 by two more on Quạt Row and Đồng Row.
 - (about) Pho is a popular food in Vietnam where it is served in households, street-stalls, and restaurants nationwide.
 - (history) After the Vietnam War, refugees popularized it throughout the world.
 - (about) In 2017, Vietnam made December 12 the "Day of Pho".
-- (culture) While the rice noodles and the spices used in the broth of phở have a connection with Chinese culinary traditions, beef consumption was not widespread among the Vietnamese because they traditionally used water buffaloes for farming.
-- (culture) The traditional home of phở is reputed to be the villages of Vân Cù and Dao Cù (or Giao Cù) in Đông Xuân commune, Nam Trực District, Nam Định Province.
 - (about) The demand for this dish was initially the greatest with workers from the provinces of Yunnan and Guangdong, who had an affinity for the dish due to its similarities to that of their homeland, which eventually popularized and familiarized this dish with the general population.
 - (origin) Pho comes from Vietnam.
 - (about) Not to be confused with pho ga.
+- (culture) Influences from both French and Chinese culinary traditions are believed to have contributed to its development in Vietnam, as well as to the etymology of its name.
+- (about) Hanoi's first two fixed phở stands were a Vietnamese-owned Cát Tường on Cầu Gỗ Street and a Chinese-owned stand in front of Bờ Hồ tram stop.
+- (culture) While the rice noodles and the spices used in the broth of phở have a connection with Chinese culinary traditions, beef consumption was not widespread among the Vietnamese because they traditionally used water buffaloes for farming.
+- (culture) The traditional home of phở is reputed to be the villages of Vân Cù and Dao Cù (or Giao Cù) in Đông Xuân commune, Nam Trực District, Nam Định Province.
+- (history) They were joined in 1918 by two more on Quạt Row and Đồng Row.
 
 Learn more:
 
@@ -1514,9 +1510,9 @@ More fun facts (when the user asks for more):
 
 - (culture) Despite regional differences in terminology, flavouring and customary uses, prawn crackers share a broadly similar method of preparation and form part of a shared culinary tradition across maritime and mainland Southeast Asia.
 - (origin) A related preparation, kropeck, is found in the Philippines, where it is thought to have been introduced through early contact with Malay communities prior to Spanish colonisation.
-- (about) Commercial links maintained by Hokkien and Teochew merchants facilitated the movement of these products into Southeast Asia, where they were adapted to local ingredients and preferences.
 - (culture) Across the wider region, the production of prawn crackers formed part of the broader tradition of prawn crackers.
 - (culture) Long-standing trade and cultural networks enabled the circulation of ingredients and methods, linking these local traditions into a wider Southeast Asian pattern of cracker-making.
+- (about) Commercial links maintained by Hokkien and Teochew merchants facilitated the movement of these products into Southeast Asia, where they were adapted to local ingredients and preferences.
 
 Learn more:
 
@@ -1538,12 +1534,12 @@ Pâté chaud, ("hot pastry pie"), also known as patê sô, is a Vietnamese savor
 Fun facts:
 
 - (history) Pâté chaud was the same usage as in France at the time; for example, Urbain Dubois (1818–1901), in his La Cuisine classique of 1868, describes Pâté-chaud à la Marinière as a moulded meat pie.
+- (origin) Pâté chaud comes from Vietnam.
 - (culture) Traditionally, the filling consists of ground pork, but chicken and beef are also now commonly used.
-- (inspiration) This pie is French-inspired but is now commonly found in bakeries in both Vietnam and the diaspora, much like the Haitian patty.
 
 More fun facts (when the user asks for more):
 
-- (origin) Pâté chaud comes from Vietnam.
+- (inspiration) This pie is French-inspired but is now commonly found in bakeries in both Vietnam and the diaspora, much like the Haitian patty.
 
 Learn more:
 
@@ -1703,13 +1699,13 @@ Allium is a large genus of monocotyledonous flowering plants with 1112 accepted 
 Fun facts:
 
 - (history) Carl Linnaeus first described the genus Allium in 1753.
-- (about) A. hollandicum 'Purple Sensation' is one of the most popular and has been given an Award of Garden Merit (H4).
+- (about) Not to be confused with Allium sativum, bow.
 - (culture) Some have been used as traditional medicines.
 
 More fun facts (when the user asks for more):
 
 - (history) When Linnaeus formerly described the genus Allium in his Species Plantarum (1753), there were thirty species with this name.
-- (about) Not to be confused with Allium sativum, bow.
+- (about) A. hollandicum 'Purple Sensation' is one of the most popular and has been given an Award of Garden Merit (H4).
 
 Learn more:
 
@@ -1744,14 +1740,14 @@ Bamboos are a diverse group of mostly evergreen perennial flowering plants makin
 Fun facts:
 
 - (inspiration) In a Chinese legend, the Emperor Yao gave two of his daughters to the future Emperor Shun as a test for his potential to rule.
-- (about) Shun passed the test of being able to run his household with the two emperor's daughters as wives, and thus Yao made Shun his successor, bypassing his unworthy son.
+- (about) Curious to see such a long bamboo, the landlord was magically joined to the bamboo when he touched it, as the young farmer said the first two magic words.
 - (inspiration) A bamboo cane is also the weapon of Vietnamese legendary hero, Thánh Gióng, who had grown up immediately and magically since the age of three because of his wish to liberate his land from Ân invaders.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) The ancient Vietnamese legend Cây tre trăm đốt (The Hundred-knot Bamboo Tree) tells of a poor, young farmer who fell in love with his landlord's beautiful daughter.
-- (about) Curious to see such a long bamboo, the landlord was magically joined to the bamboo when he touched it, as the young farmer said the first two magic words.
 - (about) Not to be confused with Bambuseae, Bamboo.
+- (about) Shun passed the test of being able to run his household with the two emperor's daughters as wives, and thus Yao made Shun his successor, bypassing his unworthy son.
 
 Learn more:
 
@@ -2220,8 +2216,8 @@ Egg coffee is a Vietnamese drink traditionally prepared with egg yolks, sugar, c
 
 Fun facts:
 
-- (origin) The drink is served in cafes throughout Vietnam, originating in Hanoi.
 - (history) The son of the café's founder Nguyen Giang claims that his father developed the recipe for the drink when milk was scarce in Vietnam in the late 1940s, replacing milk with egg yolk.
+- (origin) The drink is served in cafes throughout Vietnam, originating in Hanoi.
 
 Learn more:
 
@@ -2240,14 +2236,14 @@ Ginseng () is the root of plants in the genus Panax, such as South China ginseng
 
 Fun facts:
 
-- (about) The first character 人 means "person" and the second character 蔘 means "plant root" in a forked shape.
+- (about) One of the first written texts covering the use of ginseng as a medicinal herb was the Shen Nong Pharmacopoeia, written in China in 196 AD.
 - (history) In his Compendium of Materia Medica herbal of 1596, Li Shizhen described ginseng as a "superior tonic".
 - (culture) Ginseng has been used in the traditional medicine of Korea and China for centuries, although there is no clinical evidence that it has any therapeutic effects.
 
 More fun facts (when the user asks for more):
 
-- (about) One of the first written texts covering the use of ginseng as a medicinal herb was the Shen Nong Pharmacopoeia, written in China in 196 AD.
 - (history) Control over ginseng fields in China and Korea became an issue in the 16th century.
+- (about) The first character 人 means "person" and the second character 蔘 means "plant root" in a forked shape.
 
 Learn more:
 
@@ -2316,7 +2312,7 @@ Mắm cáy is a type of fermented fish sauce made from the cáy, a small crab pr
 
 Fun facts:
 
-- (about) Many northern localities in Vietnam are famous for this type of sauce, including Hải Phòng, Hải Dương, Quảng Ninh, Thanh Hoá, Thái Bình, Hà Nam, Phú Thọ... is considered a unique feature of Vietnamese cuisine.
+- (about) Many northern localities in Vietnam are famous for this type of sauce, including Hải Phòng, Hải Dương, Quảng Ninh, Thanh Hoá, Thái Bình, Hà Nam, Phú Thọ.. is considered a unique feature of Vietnamese cuisine.
 
 Learn more:
 
@@ -2452,7 +2448,7 @@ More fun facts (when the user asks for more):
 
 - (origin) Shacha is pronounced sa-te in the Teochew and Hokkien dialects, reflecting its origins in satay sauce introduced by expatriate Min Nan people returning to China from Southeast Asia.
 - (origin) Following the Chinese Civil War, Teochew immigrants resettled in Taiwan and introduced shacha sauce to the Taiwanese culinary repertoire.
-- (origin) Shacha sauce comes from People's Republic of China.
+- (origin) Shacha sauce comes from the People's Republic of China.
 - (inspiration) Shacha sauce is based on satay sauce.
 - (about) Not to be confused with satay sauce.
 
@@ -2515,12 +2511,11 @@ Snake wine is an alcoholic beverage produced by infusing whole snakes in rice wi
 Fun facts:
 
 - (culture) The drink was first recorded to have been consumed in China during the Western Zhou dynasty (c. 1040–770 BC) and thought in folklore to reinvigorate a person according to Traditional Chinese medicine.
-- (history) Snake wine was first recorded to be used in China during the Western Zhou dynasty (771 BC) and the supposed medicinal benefits of snakes was noted in the medical manual Shen nong ben cao jing compiled between 300 B.C. and 200 A.D.
 - (history) Snake bile was offered to the Chinese Ming dynasty statesman Yang Jisheng as treatment for the injuries he suffered in prison circa 1554.
+- (culture) Snake wine is a traditional drink in much of East Asia and Southeast Asia.
 
 More fun facts (when the user asks for more):
 
-- (culture) Snake wine is a traditional drink in much of East Asia and Southeast Asia.
 - (culture) Consumption of snakes and their viscera has long been considered by followers of traditional Chinese medicine to promote health.
 
 Learn more:
@@ -2542,7 +2537,7 @@ Sugarcane juice is the liquid extracted from pressed sugarcane.
 
 Fun facts:
 
-- (origin) Sugarcane juice comes from People's Republic of China.
+- (origin) Sugarcane juice comes from the People's Republic of China.
 
 Learn more:
 
@@ -2604,16 +2599,16 @@ Vietnamese lotus tea is a traditional Vietnamese scented tea made by infusing gr
 
 Fun facts:
 
-- (about) Artisans often select half-open buds, believed to contain the most balanced and concentrated aroma.
 - (culture) It is often served during formal gatherings, festivals, and as a gesture of hospitality.
+- (about) An alternative method known as fresh scenting involves placing tea leaves directly inside a whole lotus flower for a shorter infusion period, typically 24–48 hours.
 - (culture) Vietnamese lotus tea is considered one of the most refined artisanal teas in Vietnam and is often associated with cultural ceremonies, hospitality, and seasonal traditions, particularly in Hanoi.
 
 More fun facts (when the user asks for more):
 
 - (culture) Traditional dry-scenting involves repeatedly layering tea leaves with freshly collected lotus anthers over multiple cycles.
-- (about) An alternative method known as fresh scenting involves placing tea leaves directly inside a whole lotus flower for a shorter infusion period, typically 24–48 hours.
 - (culture) Lotus tea holds cultural significance in Vietnam as a symbol of refinement, purity, and harmony with nature.
 - (culture) The labor-intensive traditional production methods, especially those associated with West Lake, contribute to its reputation as one of Vietnam's most prestigious teas.
+- (about) Artisans often select half-open buds, believed to contain the most balanced and concentrated aroma.
 
 Learn more:
 
@@ -2633,14 +2628,14 @@ Vietnamese wine is wine produced in Vietnam.
 
 Fun facts:
 
-- (history) The area was first cultivated for viticulture during the French colonial rule of the region in the late 19th century.
+- (history) The late 20th century saw a renewed focus on the development of Vitis vinifera with the assistance of flying winemakers from regions like Australia.
 - (about) Other areas with vineyard plantings include the Central Highland region along the Annamite Range and the southern coastal plain of the Ninh Thuận around Phan Rang – Tháp Chàm where Vietnam's first commercial winery Thien Thai Winery is located.
 - (origin) Vietnamese wine comes from Vietnam.
 
 More fun facts (when the user asks for more):
 
-- (history) The late 20th century saw a renewed focus on the development of Vitis vinifera with the assistance of flying winemakers from regions like Australia.
 - (history) In 1995, a joint venture with Australian winemakers started an aggressive planting scheme to reintroduce international grape varieties like Cabernet Sauvignon and Chardonnay to land that was until recently littered with landmines left over from the Vietnam War.
+- (history) The area was first cultivated for viticulture during the French colonial rule of the region in the late 19th century.
 
 Learn more:
 
