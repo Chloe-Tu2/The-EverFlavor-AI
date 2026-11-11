@@ -55,6 +55,15 @@ cook for each of those regions (Settings > Your chef; `make_women_chefs.py`, `ma
 [previews/middle_eastern_woman.png](pixel-art/previews/middle_eastern_woman.png). Mexican and Moroccan keep their
 code-drawn chefs. Earlier art is in [pixel-art/archive/](pixel-art/archive/README.md).
 
+**The team's chef packs (0.6.3).** The Classic and Chinese chefs, men and women, now come from the team's own
+expression packs (13 faces each): [import_team_chefs.py](pixel-art/import_team_chefs.py) makes their white
+background transparent and scales them to the app's size. The app uses happy, wink, thinking and worried (for
+alerts); all 13 are kept in `pixel-art/originals/chefs/`
+([previews/team_chefs.png](pixel-art/previews/team_chefs.png)). Rerunning `make_chefs.py` or the women chef
+scripts would replace them with the older code-drawn chefs, so rerun `import_team_chefs.py` after them. The team's
+four banners are in `pixel-art/originals/banners/`, cut one by one from their sheet by
+[cut_banners.py](pixel-art/cut_banners.py) with no resizing.
+
 ## The color bug, fixed
 
 On some computers the page showed white text on the cream background. The page paints its own colors,
