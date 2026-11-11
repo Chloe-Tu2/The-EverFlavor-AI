@@ -37,7 +37,9 @@ The browser opens at `http://localhost:8501` on a short welcome page; **Find a s
 | **Your profile** (sidebar) | Foods you can't eat, diets you follow, calories per meal. On phones the chef points to it |
 | **Find recipes** | One search box: a dish, a country or a region ("ramen", "Korean", "Louisiana"), or **Browse by region**. All regions is the default |
 | **Recipe cards** | The dish's clean name (the posted title underneath), its country, calories, protein, cook time (estimated when the recipe gives none), a "why it fits" line, how to say the dish's name, and a photo |
-| **About this dish** | Ingredients, the steps one at a time, and a YouTube search for the dish |
+| **About this dish** | Ingredients, the steps one at a time, a YouTube search for the dish, and **Walter**, the waiter (below) |
+| **Saved** (top right) | Recipes you save stay in this browser on this device (beta), with a backup file to move them; Settings can turn remembering off or clear them |
+| **Report a bug / Suggest a feature** | In Settings and the footer: the project's GitHub issue forms, with the version filled in |
 | **Check my recipe** | Runs the safety gate on pasted ingredient lines and names the line and rule each problem breaks |
 | **Map** | Grocers, restaurants and butchers in Houston from OpenStreetMap. No location is asked; the map opens on Houston |
 
@@ -51,6 +53,14 @@ greetings in the region's language and quotes from well-known chefs of that regi
 dish (an image-text check) are hidden. Without its own photo, a card may show a free photo of the dish in general
 from Wikimedia Commons, labelled "not this recipe", with its credit. With no photo at all it shows a pixel-art
 pan and "Cooking up a picture...".
+
+**Walter, the waiter.** On a dish's page Walter tells its story: a fun fact, what inspired it, where it comes from,
+its history, what's in it, what to try next, and where to read more (by interest level). Every fact comes from the
+dish knowledge in [data/knowledge/](data/knowledge/README.md) (Wikipedia, credited, and Wikidata; 4,827 dishes and
+foods), never invented; a fact a reviewer marked "drop" is never said. Questions are screened (an injection test set
+of 71 questions) and rate-limited, and allergy answers only explain the back end's flags. Settings > Walter's style
+picks what he leads with. With Ollama on your computer he can retell his stories (off by default; a retelling that
+adds a name, number, food or link is thrown away).
 
 **Safety stays in the back end.** The page only shows what `src/everflavor` decided; diet labels say
 "halal-friendly ingredients", never "halal", and medical profiles are screens, not advice.
