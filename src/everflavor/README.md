@@ -25,6 +25,9 @@ add `src/` to the path for you.
 | | `cooking.py` | Cooking methods and fats (notebook 02) |
 | | `cooking_time.py` | Cook-time estimates for recipes without a time (`estimate_minutes`, `time_label`): gradient boosting on the times in the steps and similar Food.com names; `minutes_source` says "recipe" or which estimate, real times are never replaced |
 | | `knowledge.py` | Pairings, substitutions, shelf life, names (notebook 04) |
+| | `dish_knowledge.py` | The waiter's dish knowledge (0.6.3): tidies the collected facts (sources' words only), sorts them by topic, writes one page per country (notebook 11) |
+| | `waiter.py` | Walter, the AI waiter (0.6.3): finds a recipe's dish in the knowledge notebook, answers with skills (fun fact, inspiration, origin, history, ingredients, allergy explained from the back end's flags, learn more, recommendation) weighted by the user's style and told in their tone (Fun, Funny, Just the facts, Key points, Broad, Simple; picked in Settings, on his panel or by asking "make it funny"); screens questions (prompt injection, length), rate-limits them and counts problems without the words; optionally retold by a local model (`reword`, in the tone's form, checked: no new names, numbers, foods or links, the fact itself kept, then `llm.guard_answer`; "Just the facts" is never retold) |
+| | `saved_recipes.py` | Saved recipes kept in the user's own browser (0.6.3 beta): the JSON kept in local storage and in the backup file, and checking what comes back (malformed entries left out, text and count capped) |
 | | `variants.py` | Diet versions of each dish (notebook 06) |
 | | `stores.py` | Stores and products, where to buy (notebook 03) |
 | | `seasons.py` | Meat supply season and pasture season (notebook 08) |

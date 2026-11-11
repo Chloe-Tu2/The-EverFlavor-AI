@@ -20,6 +20,7 @@ import html
 import random
 import re
 import sys
+import urllib.parse
 from functools import cache
 from pathlib import Path
 from typing import cast
@@ -41,7 +42,7 @@ from chef_lines import (  # app/chef_lines.py: what the chef says, with its sour
 from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page colors
 from updates import UPDATES  # app/updates.py: the What's new notes
 
-from everflavor import __version__
+from everflavor import __version__, saved_recipes, waiter
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
@@ -257,6 +258,8 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 }}
 [data-testid="stImage"] img {{ border: 3px solid var(--border); width: 100%; aspect-ratio: 4 / 3;
   object-fit: contain; background: var(--panel); }}   /* the whole photo, never cropped or zoomed */
+/* The team's banners in What's new keep their own shape and frame */
+[data-testid="stPopoverBody"] [data-testid="stImage"] img {{ border: none; aspect-ratio: auto; background: none; }}
 /* The chef and the speech bubble */
 .chef-row {{ display: flex; gap: 1.25rem; align-items: flex-end; margin: 0.5rem 0 1.25rem; }}
 .chef {{ width: 128px; height: 128px; flex: none; background: center / contain no-repeat; image-rendering: pixelated; }}
@@ -507,6 +510,101 @@ def video_search_link(dish: str, country: object) -> str:
     return "https://www.youtube.com/results?search_query=" + "+".join(re.findall(r"[\w'-]+", words))
 
 
+@st.cache_resource
+def walter_notes() -> waiter.Knowledge | None:
+    """Walter's knowledge notebook (data/knowledge/dishes.jsonl, sourced facts), loaded once; None if missing."""
+    path = ROOT / "data" / "knowledge" / "dishes.jsonl"
+    return waiter.Knowledge.load(path) if path.exists() else None
+
+
+def credit(sources: list[str]) -> str:
+    """The small credit line under Walter's words: each source with its licence (Wikipedia text is CC BY-SA 4.0
+    and needs the credit; Wikidata is CC0)."""
+    parts = [f"{html.escape(s)} (Wikipedia contributors, CC BY-SA 4.0)" if s.startswith("Wikipedia")
+             else f"{html.escape(s)} (CC0)" if s == "Wikidata" else html.escape(s) for s in sources]
+    return f"<small>Source: {'; '.join(parts)}</small>"
+
+
+def walter_panel(row: pd.Series, dish: str, country: object) -> None:
+    """Walter, the AI waiter, on a dish's page: one insight card (a sourced fact), "Tell me more", reading links by
+    the user's style, and questions (chips or typed). He explains the back end's flags; he never decides safety."""
+    notes = walter_notes()
+    entry = notes.find(dish, country if isinstance(country, str) else None) if notes else None
+    turns = st.session_state.setdefault("walter_turns", {})
+    turn = turns.get(dish, 0)
+    style_name = PREFS["walter"]
+    # A typed "make it funny" switches the tone before the tone chips are drawn (once per new question)
+    typed_now = str(st.session_state.get(f"walter_q_{dish}") or "")
+    if typed_now and typed_now != st.session_state.get("walter_tone_seen"):
+        st.session_state["walter_tone_seen"] = typed_now
+        asked = waiter.split_tone(waiter.screen_question(typed_now)[0])[0]
+        if asked:
+            PREFS["tone"] = asked
+            st.query_params["tone"] = asked   # the address is written before this dialog runs
+            st.session_state["tone_picked"] = True
+    tone = waiter.TONES[PREFS["tone"]]
+    card = waiter.insight(entry, style_name, turn, tone.label)
+    face, words = st.columns([1, 9], vertical_alignment="center")
+    face.image(str(ART / f"walter_{card.mood if card else 'happy'}.png"), width=96)
+    if card:
+        lead = f"{html.escape(card.lead)} " if card.lead else ""
+        words.markdown(f"**Walter, your waiter:** {lead}{html.escape(card.text)}<br>{credit(card.sources)}",
+                       unsafe_allow_html=True)
+    else:
+        words.markdown(f"**Walter, your waiter:** {html.escape(waiter.GREETING)}")
+    # How he tells it: the same setting as Settings > How Walter tells facts, kept in the page address
+    if st.session_state.get("walter_tone") != PREFS["tone"]:
+        st.session_state["walter_tone"] = PREFS["tone"]
+    st.pills("How should I tell it?", list(waiter.TONES), key="walter_tone", on_change=pick_tone,
+             help=" ".join(f"{t.label}: {t.blurb}" for t in waiter.TONES.values()))
+    if not st.session_state.get("tone_picked") and "tone" not in st.session_state.get("tone_from_url", ()):
+        st.caption("New here? Pick how I tell my facts, or just ask (\"keep it simple\", \"make it funny\"). "
+                   "I'll remember it; it's also in Settings.")
+    if entry and (entry.get("more_fun_facts") or entry.get("learn_more")):
+        with st.expander("Tell me more"):
+            for fact in waiter.facts_for(entry, preset=waiter.PRESETS[style_name], tone=tone)[:6]:
+                st.markdown(f"- *{fact['topic']}*: {html.escape(fact['text'])}", unsafe_allow_html=True)
+            links = [link for link in entry.get("learn_more", []) if link["level"] in waiter.PRESETS[style_name].links]
+            if links:
+                st.markdown("Read more: " + " · ".join(f"[{link['title']}]({link['url']})" for link in links))
+    chip = st.pills("Ask Walter", [s.label for s in waiter.SKILLS], key=f"walter_chip_{dish}")
+    typed = st.text_input("Or type a question", key=f"walter_q_{dish}", max_chars=waiter.MAX_QUESTION,
+                          placeholder="What inspired it? Where is it from?")
+    if not (chip or typed):
+        return
+    limiter = st.session_state.setdefault("walter_limit", waiter.RateLimiter())
+    log = st.session_state.setdefault("walter_log", waiter.SecurityLog())
+    flags = [nice(rule) for rule in FLAG_RULES if bool(row.get(rule, False)) is True]
+    avoid = [nice(rule) for rule in st.session_state.get("avoid", [])]
+    listed = row.get("ingredient_list")   # a numpy array in the data: no "or []" on it (ambiguous truth value)
+    ingredients = [str(item) for item in listed] if listed is not None else []
+    ctx = waiter.Context(dish=entry, dish_name=dish, ingredients=ingredients,
+                         flags=flags, avoid=avoid, knowledge=notes, turn=turn)
+    skill = next((s.name for s in waiter.SKILLS if s.label == chip), None) if chip and not typed else None
+    last = st.session_state.setdefault("walter_last", {})
+    with st.spinner(waiter.waiting_line(turn)):
+        reply = waiter.ask(typed, ctx, style_name, limiter, log, skill=skill, tone_name=tone.label,
+                           last_skill=last.get(dish))
+        if PREFS["retell"] and ai["kind"] == "ollama":   # opt-in; story answers only, checked, else the sources' words
+            reply = waiter.reword(reply, ai["model"], profile, style_name, dish_name=dish,
+                                  tone_name=reply.tone or tone.label)
+    turns[dish] = turn + 1
+    if reply.skill != "refused":
+        last[dish] = reply.skill
+    face, words = st.columns([1, 9], vertical_alignment="center")
+    face.image(str(ART / f"walter_{reply.mood}.png"), width=96)
+    if reply.tone:
+        words.caption(f"Okay: {reply.tone.lower()} from now on (Settings > How Walter tells facts).")
+    said = "  \n".join(md_text(line) for line in reply.text.split("\n"))   # one point per line (Key points)
+    lead = f"*{md_text(reply.lead)}*  \n" if reply.lead and not reply.reworded else ""
+    words.markdown(lead + said)   # plain text: a model's words never become links or markup
+    if reply.sources:
+        note = " Retold by the local AI from this source." if reply.reworded else ""
+        words.markdown(credit(reply.sources) + f"<small>{note}</small>", unsafe_allow_html=True)
+    if reply.links:
+        words.markdown(" · ".join(f"[{link['title']}]({link['url']})" for link in reply.links))
+
+
 @st.dialog("About this dish", width="large")
 def dish_page(row: pd.Series, dish: str) -> None:
     """The dish on its own page: where it is from, how its time divides, and each step with its time, the pan or
@@ -529,6 +627,7 @@ def dish_page(row: pd.Series, dish: str) -> None:
     where = row.get("origin_country")
     if isinstance(where, str) and where != "Unknown":
         st.caption(f"From {where}")
+    walter_panel(row, dish, where)
     steps = step_breakdown(row.get("instructions"), row.get("ingredient_list"))
     minutes = row.get("minutes")
     total = float(minutes) if minutes is not None and pd.notna(minutes) else None
@@ -619,7 +718,7 @@ def setup_profile() -> None:
         st.rerun()
     if skip.button("Skip for now", on_click=skip_setup, width="stretch", type="secondary"):
         st.rerun()
-    st.caption("Not medical advice: the checks read ingredient names. Nothing you enter is saved.")
+    st.caption("Not medical advice: the checks read ingredient names. Nothing you enter is sent to us.")
 
 
 # ---------- Finding: the filters, the order and how many ideas at a time ----------
@@ -676,7 +775,45 @@ def checked_words(rule: str) -> str:
     return f"{nice_diet(rule).lower()} ingredients" if rule.endswith("_friendly") else nice_diet(rule).lower()
 
 
-# ---------- Saved recipes: this visit only (nothing is stored), with a file to keep them ----------
+# ---------- Saved recipes: kept in this browser (beta), with a file to keep or move them ----------
+# A tiny custom component reads and writes one "everflavor" key in the browser's local storage. Nothing is sent to
+# us; what comes back is checked by everflavor.saved_recipes.decode (anyone can edit their own storage).
+STORE_KEY = "browser-store"
+_BROWSER_STORE = st.components.v2.component(
+    "everflavor_browser_store",
+    html="<span></span>",
+    js="""
+export default function (component) {
+  const { data, setStateValue } = component
+  let store = null
+  try { store = window.localStorage } catch (e) { store = null }
+  const action = data ? data.action : "read"
+  if (action === "read") {
+    let text = ""
+    try { text = (store && store.getItem("everflavor")) || "" } catch (e) { text = "" }
+    setStateValue("stored", text)
+  } else if (store && action === "write") {
+    try { store.setItem("everflavor", data.text) } catch (e) { /* full or blocked: nothing kept */ }
+  } else if (store && action === "clear") {
+    try { store.removeItem("everflavor") } catch (e) { /* blocked */ }
+  }
+}
+""",
+)
+
+
+def browser_store(action: str, text: str = "") -> None:
+    """Read the saved recipes from this browser ("read"), keep them ("write") or forget them ("clear")."""
+    _BROWSER_STORE(key=STORE_KEY, data={"action": action, "text": text}, default={"stored": None},
+                   on_stored_change=lambda: None, height=0)
+
+
+def md_text(text: str) -> str:
+    """Text shown literally in st.markdown: every Markdown and Streamlit markup character backslash-escaped, so
+    "[Click](http://...)", "**", ":red[...]" or "$x$" from an untrusted backup stay plain text."""
+    return re.sub(r"([\\`*_{}\[\]()#+\-.!<>|~:$&])", r"\\\1", text)
+
+
 def toggle_saved(recipe_id: str, entry: dict) -> None:
     saved = st.session_state.setdefault("saved", {})
     if recipe_id in saved:
@@ -695,16 +832,19 @@ def saved_text(saved: dict) -> str:
 
 # ---------- Page setup ----------
 CHEF_ICON = ART / "chef_happy.png"
-st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
+st.set_page_config(page_title="EverFlavor Kitchen (beta)", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
                    layout="wide")
 HOURS = ["Morning", "Afternoon", "Evening", "Night"]
 # The kitchen settings survive a refresh: they live in the page address (?theme=Mexican&hour=Night), never on a
 # server. They are kept in st.session_state["prefs"], not in the widgets' own state: Streamlit can drop or reset a
 # widget's state between reruns (the time of day once jumped back to Morning), the prefs never change by themselves.
-SETTING_CHOICES = {"theme": list(THEMES), "hour": HOURS, "cook": ["Man", "Woman"]}
-SETTING_DEFAULTS = {"theme": "Classic", "hour": "Afternoon", "cook": "Man", "use_clock": False, "follow_cuisine": True}
+SETTING_CHOICES = {"theme": list(THEMES), "hour": HOURS, "cook": ["Man", "Woman"], "walter": list(waiter.PRESETS),
+                   "tone": list(waiter.TONES)}
+SETTING_DEFAULTS = {"theme": "Classic", "hour": "Afternoon", "cook": "Man", "use_clock": False, "follow_cuisine": True,
+                    "walter": "Balanced", "tone": waiter.DEFAULT_TONE, "retell": False}
 if "prefs" not in st.session_state:
     prefs = dict(SETTING_DEFAULTS)
+    st.session_state["tone_from_url"] = tuple(st.query_params)   # a returning visitor already picked a tone
     for name, value in st.query_params.items():
         if name in SETTING_CHOICES and value in SETTING_CHOICES[name]:
             prefs[name] = value
@@ -712,6 +852,8 @@ if "prefs" not in st.session_state:
             prefs[name] = value == "1"
     st.session_state["prefs"] = prefs
 PREFS = st.session_state["prefs"]
+for _name, _value in SETTING_DEFAULTS.items():   # a setting added since this session began
+    PREFS.setdefault(_name, _value)
 
 
 def keep_pref(name: str) -> None:
@@ -720,6 +862,15 @@ def keep_pref(name: str) -> None:
     PREFS[name] = st.session_state[f"set_{name}"]
     if name == "theme":
         PREFS["follow_cuisine"] = False
+    if name == "tone":
+        st.session_state["tone_picked"] = True
+
+
+def pick_tone() -> None:
+    """Walter's tone chips changed: the same setting as Settings (a click on the picked chip keeps it)."""
+    if st.session_state.get("walter_tone"):
+        PREFS["tone"] = st.session_state["walter_tone"]
+    st.session_state["tone_picked"] = True
 
 
 theme_name = PREFS["theme"]
@@ -740,8 +891,8 @@ if theme_name == "Classic" and hour == "night":       # (with the clock, the pag
 st.markdown(style(page_colors), unsafe_allow_html=True)
 kitchen_scene(THEMES[theme_name]["scene"], hour)
 heading, corner = st.columns([3, 2], vertical_alignment="center")
-heading.title("EverFlavor Kitchen")
-TRUST = [("icon_check", "Free, no sign-up"), ("icon_safe", "Nothing you enter is saved"),
+heading.title("EverFlavor Kitchen :orange-badge[Beta]")
+TRUST = [("icon_check", "Free, no sign-up"), ("icon_safe", "Nothing you enter is sent to us"),
          ("icon_alert", "Not medical advice")]
 
 
@@ -786,7 +937,10 @@ def landing() -> None:
                 "the label and ask your doctor or dietitian.\n"
                 "- **Diet labels:** \"halal-friendly ingredients\" means nothing in the ingredients is forbidden. It is "
                 "not a certification.\n"
-                "- **Your data:** nothing you enter is saved. No accounts, no cookies, no tracking.")
+                "- **Your data:** nothing you enter is sent to us. Recipes you save stay in this browser (beta). "
+                "No accounts, no cookies, no tracking.\n"
+                "- **Beta:** EverFlavor is a student project in beta. Features change from version to version, "
+                "and some things may not work yet.")
         st.caption("Made by Team EverGlow, a student capstone project (ITAI 2277): "
                    + ", ".join(f"[@{name}](https://github.com/{name})" for name in ("Chloe-Tu2", "Evaabou20", "med27-coder")))
 
@@ -799,25 +953,61 @@ heading.markdown('<p class="tagline">Recipes that fit what you can eat, checked 
                  unsafe_allow_html=True)
 news_spot, saved_spot, settings_spot = corner.columns(3)
 saved = st.session_state.setdefault("saved", {})
+# The first runs read what this browser kept; afterwards the page's list is written back on every run
+if not st.session_state.get("store_loaded"):
+    stored = (st.session_state.get(STORE_KEY) or {}).get("stored")
+    if stored is not None:
+        saved = st.session_state["saved"] = saved_recipes.merge(saved, saved_recipes.decode(stored))
+        st.session_state["store_loaded"] = True
+remember = st.session_state.setdefault("remember_saved", True)
+BETA_SAVE = ("Beta: your saved recipes are kept only in this browser on this device. Clearing your browser data "
+             "erases them; download a backup to keep a copy.")
 with saved_spot.container(key="saved-list"), st.popover(f"Saved ({len(saved)})"):
     if not saved:
-        st.markdown("Nothing saved yet. Tap **Save** on a recipe to keep it here while this page is open.")
+        st.markdown("Nothing saved yet. Tap **Save** on a recipe to keep it here.")
     for recipe_id, entry in list(saved.items()):
         name_col, remove_col = st.columns([4, 1], vertical_alignment="center")
-        name_col.markdown(f"**{html.escape(entry['name'])}**  \n<small>{html.escape(entry['lines'][0])}</small>",
-                          unsafe_allow_html=True)
+        # Names can come from a backup file someone shared: shown as plain text (no links, HTML or markup)
+        name_col.markdown(f"**{md_text(entry['name'])}**")
+        name_col.caption(md_text(entry["lines"][0]))
         remove_col.button("Remove", key=f"unsave-{recipe_id}", on_click=toggle_saved, args=(recipe_id, entry))
     if saved:
         st.download_button("Download my recipes", saved_text(saved), file_name="everflavor_recipes.txt",
-                           mime="text/plain", on_click="ignore", width="stretch")
-        st.caption("Saved for this visit only: nothing is stored. Download them to keep them.")
+                           mime="text/plain", on_click="ignore", width="stretch", help="A text file to read or print")
+        st.download_button("Download a backup", saved_recipes.encode(saved), file_name="everflavor_backup.json",
+                           mime="application/json", on_click="ignore", width="stretch",
+                           help="Load it below on another device or browser")
+    backup = st.file_uploader("Load recipes from a backup", type=["json"], key="load_backup")
+    done = st.session_state.setdefault("loaded_backups", set())   # each file once, so Remove still works after
+    if backup is not None and backup.file_id not in done and backup.size <= saved_recipes.MAX_BYTES:
+        done.add(backup.file_id)
+        loaded = saved_recipes.decode(backup.getvalue())
+        if loaded:
+            saved = st.session_state["saved"] = saved_recipes.merge(saved, loaded)
+            st.caption(f"Loaded {len(loaded)} recipe(s) from the backup.")
+        else:
+            st.caption("That file isn't an EverFlavor backup.")
+    st.caption(BETA_SAVE if remember else "Remembering is off (Settings): saved recipes last only while this page "
+               "is open. Download them to keep them.")
 with news_spot.container(key="whats-new"), st.popover("What's new"):
-    st.markdown('<div class="updates">' + "".join(
-        f'<h5>{update["version"]} · {update["date"]}</h5><ul>'
-        + "".join(f"<li>{html.escape(note)}</li>" for note in update["notes"]) + "</ul>"
-        for update in UPDATES) + "</div>", unsafe_allow_html=True)
+    # The team's banners (design/pixel-art/cut_banners.py): "App Update" on top, then each release's own
+    if (ART / "banner_app_update.png").exists():
+        st.image(str(ART / "banner_app_update.png"), width="stretch")
+    for update in UPDATES:
+        st.markdown(f'<div class="updates"><h5>{update["version"]} · {update["date"]}</h5></div>',
+                    unsafe_allow_html=True)
+        for banner in update.get("banners", []):
+            if (ART / f"banner_{banner}.png").exists():
+                st.image(str(ART / f"banner_{banner}.png"), width="stretch")
+        st.markdown('<div class="updates"><ul>' + "".join(f"<li>{html.escape(note)}</li>"
+                                                         for note in update["notes"]) + "</ul></div>",
+                    unsafe_allow_html=True)
     st.caption(f"EverFlavor {__version__} (beta). Every change: "
                "[the changelog](https://github.com/Chloe-Tu2/The-EverFlavor-AI/blob/main/CHANGELOG.md).")
+# Where users report bugs and ideas: GitHub issue forms, the version filled in (needs a free GitHub account)
+FEEDBACK = {kind: "https://github.com/Chloe-Tu2/The-EverFlavor-AI/issues/new?"
+                  + urllib.parse.urlencode({"template": template, "version": __version__})
+            for kind, template in (("bug", "bug_report.yml"), ("idea", "feature_request.yml"))}
 with settings_spot.container(key="settings"), st.popover("Settings"):
     # Each widget shows the kept pref (index/value from PREFS) and writes it back on change (keep_pref)
     st.selectbox("Kitchen theme", list(THEMES), index=list(THEMES).index(PREFS["theme"]), key="set_theme",
@@ -840,7 +1030,43 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
               on_change=keep_pref, args=("follow_cuisine",),
               help="Searching a cuisine family opens its kitchen: Asian (Chinese), African (Moroccan), "
                    "European (Mediterranean), Latin American (Mexican), Middle Eastern.")
-# Keep the kitchen settings in the page address, so a refresh brings them back (nothing is stored anywhere)
+    st.selectbox("Walter's style (your waiter)", SETTING_CHOICES["walter"],
+                 index=SETTING_CHOICES["walter"].index(PREFS["walter"]), key="set_walter",
+                 on_change=keep_pref, args=("walter",),
+                 help="How Walter talks about dishes: Fun Food Explorer leads with stories, Chef Expert with history "
+                      "and the deep reading links, Ingredient Guide with what's in it, Personal Concierge with what "
+                      "to try next.")
+    st.selectbox("How Walter tells facts", SETTING_CHOICES["tone"], index=SETTING_CHOICES["tone"].index(PREFS["tone"]),
+                 key="set_tone", on_change=keep_pref, args=("tone",),
+                 help=" ".join(f"{t.label}: {t.blurb}" for t in waiter.TONES.values()) + " You can also pick it on "
+                      "Walter's panel, or ask him (\"keep it simple\", \"just the facts\").")
+    st.toggle("Remember my saved recipes on this device", key="remember_saved",
+              help="Saved recipes stay in this browser's storage, on your device only; nothing is sent to us. "
+                   "Turning this off forgets them here when the page closes.")
+    if st.button("Clear saved recipes", width="stretch", disabled=not saved):
+        saved = st.session_state["saved"] = {}
+        st.rerun()
+    st.toggle("Let the local AI retell Walter's stories (experimental)", value=PREFS["retell"], key="set_retell",
+              on_change=keep_pref, args=("retell",),
+              help="Needs Ollama on this computer. Walter's story answers are retold in his voice; a retelling that "
+                   "adds a name, number, food or link is thrown away and the source's words are shown. Safety and "
+                   "ingredient answers, and the \"Just the facts\" tone, are never retold. Small models can still bend a fact, so it is off by default.")
+    # Feedback goes to the project's GitHub issue forms (.github/ISSUE_TEMPLATE); only the version is filled in,
+    # never the user's profile
+    st.divider()
+    st.caption("Help us improve (beta): found a problem or have an idea?")
+    bug_col, idea_col = st.columns(2)
+    bug_col.link_button("Report a bug", FEEDBACK["bug"], width="stretch")
+    idea_col.link_button("Suggest a feature", FEEDBACK["idea"], width="stretch")
+# Read the browser's saved recipes once, then keep the page's list there (or forget it when remembering is off)
+if not st.session_state.get("store_loaded"):
+    browser_store("read")
+elif st.session_state["remember_saved"]:
+    browser_store("write", saved_recipes.encode(saved))
+else:
+    browser_store("clear")
+st.html("<style>.st-key-" + STORE_KEY + "{display:none}</style>")
+# Keep the kitchen settings in the page address, so a refresh brings them back (no server keeps them)
 for name, value in PREFS.items():
     st.query_params[name] = ("1" if value else "0") if isinstance(value, bool) else value
 st.markdown('<div class="kitchen-view"></div>', unsafe_allow_html=True)   # leave the kitchen in view
@@ -1058,7 +1284,7 @@ with find_tab:
                     *([f"Recipe: {link}"] if isinstance(link, str) and link.startswith("http") else [])]}
                 save_col.button("Saved" if recipe_id in saved else "Save", key=f"save-{number}", width="stretch",
                                 on_click=toggle_saved, args=(recipe_id, entry),
-                                help="Keep it in Saved (top right) while this page is open")
+                                help="Keep it in Saved (top right); it stays in this browser")
         more = not results.empty and len(results) == found[1] and found[1] < MAX_IDEAS
         if more and st.button(f"Show {PAGE} more", key="more"):
             find(found[1] + PAGE)
@@ -1153,11 +1379,14 @@ st.markdown(f"""
     <li><b>Diet labels are not certifications.</b> "Halal", "kosher" and the other diets mean the ingredients
         contain nothing the diet forbids; they cannot show how food was produced or certified.</li>
     <li><b>Some numbers are estimates.</b> Calories and protein marked as estimated are approximate.</li>
-    <li><b>Nothing you enter is saved.</b> Your choices last only while this page is open.</li>
+    <li><b>Nothing you enter is sent to us.</b> Your choices last while this page is open; recipes you save stay
+        in this browser on this device (beta).</li>
   </ul>
   <div class="footer-title">Made by Team EverGlow</div>
   <div class="credits">{"".join(f'<a href="https://github.com/{name}" target="_blank" rel="noopener">@{name}</a>' for name in CONTRIBUTORS)}</div>
   <small>Version {__version__} (beta) · ITAI 2277 Capstone · <a href="{REPO}" target="_blank" rel="noopener">Project on GitHub</a> ·
   <a href="{REPO}/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a> · Recipe photos belong to their sources.</small>
+  <div class="feedback"><a href="{html.escape(FEEDBACK["bug"])}" target="_blank" rel="noopener">Report a bug</a> ·
+  <a href="{html.escape(FEEDBACK["idea"])}" target="_blank" rel="noopener">Suggest a feature</a> (beta: we read every one)</div>
 </footer>
 """, unsafe_allow_html=True)

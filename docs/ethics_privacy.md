@@ -28,6 +28,7 @@ that saves anything.
 |---|---|
 | **Profiles** (foods to avoid, diets, calorie budget, area) | Store only what the features need. If saved, encrypt on disk, with the key in `config/.env` or the operating system's key store, never in the repo. Let the user see and delete their profile. |
 | **Chat history** | Not saved by default. If a feature needs it: ask first, encrypt it, delete it after a set time. |
+| **Saved recipes** (0.6.3 beta) | Kept only in the user's browser (local storage on their device), never sent to us. The user can turn remembering off, clear them, or download a backup. What the browser hands back is checked before use (`everflavor.saved_recipes`). Accounts with an email come after the beta. |
 | **Audit log** (`llm.ask_agent(..., audit_log=...)`) | Records only the time, model, reason and rules of each blocked answer, never the user's words. |
 | **Food photos** (separate photo PC) | Stay on that PC; not sent to outside services. |
 | **Location** | Used in real time to find stores; not stored. |

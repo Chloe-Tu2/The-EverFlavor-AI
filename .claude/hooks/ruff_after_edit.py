@@ -6,6 +6,7 @@ A Python without ruff skips the check (CI still runs it). Registered in .claude/
 """
 import importlib.util
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -21,9 +22,14 @@ def edited_file() -> Path | None:
     if not path or not path.endswith((".py", ".ipynb")):
         return None
     path = Path(path).resolve()
-    project = Path(data.get("cwd") or ".").resolve()
+    project = PROJECT
     # Only the project's own files (not scratch scripts or other folders)
     return path if path.is_file() and path.is_relative_to(project) else None
+
+
+# The project folder (set by Claude Code); the session's cwd can be a subfolder, where ruff would miss the
+# per-folder rules of ruff.toml (asserts are fine in tests/)
+PROJECT = Path(os.environ.get("CLAUDE_PROJECT_DIR") or Path(__file__).resolve().parents[2]).resolve()
 
 
 def main() -> None:
@@ -31,8 +37,8 @@ def main() -> None:
     if path is None or importlib.util.find_spec("ruff") is None:
         return
     # Fixed command; the path is a project file Claude just edited (checked above), passed as one argument
-    out = subprocess.run([sys.executable, "-m", "ruff", "check", "--fix", "--quiet", str(path)],  # noqa: S603
-                         capture_output=True, text=True, encoding="utf-8", errors="replace", check=False)
+    out = subprocess.run([sys.executable, "-m", "ruff", "check", "--fix", "--quiet", str(path.relative_to(PROJECT))],  # noqa: S603
+                         cwd=PROJECT, capture_output=True, text=True, encoding="utf-8", errors="replace", check=False)
     if out.returncode != 0:
         print(f"ruff found problems it cannot fix in {path.name}:\n{out.stdout.strip()}", file=sys.stderr)
         sys.exit(2)
