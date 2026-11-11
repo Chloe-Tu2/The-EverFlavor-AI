@@ -774,6 +774,12 @@ def browser_store(action: str, text: str = "") -> None:
                    on_stored_change=lambda: None, height=0)
 
 
+def md_text(text: str) -> str:
+    """Text shown literally in st.markdown: every Markdown and Streamlit markup character backslash-escaped, so
+    "[Click](http://...)", "**", ":red[...]" or "$x$" from an untrusted backup stay plain text."""
+    return re.sub(r"([\\`*_{}\[\]()#+\-.!<>|~:$&])", r"\\\1", text)
+
+
 def toggle_saved(recipe_id: str, entry: dict) -> None:
     saved = st.session_state.setdefault("saved", {})
     if recipe_id in saved:
@@ -916,8 +922,9 @@ with saved_spot.container(key="saved-list"), st.popover(f"Saved ({len(saved)})")
         st.markdown("Nothing saved yet. Tap **Save** on a recipe to keep it here.")
     for recipe_id, entry in list(saved.items()):
         name_col, remove_col = st.columns([4, 1], vertical_alignment="center")
-        name_col.markdown(f"**{html.escape(entry['name'])}**  \n<small>{html.escape(entry['lines'][0])}</small>",
-                          unsafe_allow_html=True)
+        # Names can come from a backup file someone shared: shown as plain text (no links, HTML or markup)
+        name_col.markdown(f"**{md_text(entry['name'])}**")
+        name_col.caption(md_text(entry["lines"][0]))
         remove_col.button("Remove", key=f"unsave-{recipe_id}", on_click=toggle_saved, args=(recipe_id, entry))
     if saved:
         st.download_button("Download my recipes", saved_text(saved), file_name="everflavor_recipes.txt",
