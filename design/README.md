@@ -22,7 +22,9 @@ kitchen, roadmap, questions for the team).
 
 All the art is drawn by [pixel-art/make_pixel_art.py](pixel-art/make_pixel_art.py) (and
 [cuisine_kitchens.py](pixel-art/cuisine_kitchens.py) for the cuisine kitchens). Plans: [PLAN.md](PLAN.md);
-icons: [ICONS.md](ICONS.md).
+icons: [ICONS.md](ICONS.md). The README banner and the logo (`docs/art/banner.png`, `docs/art/logo.png`) are drawn
+by [make_banner.py](pixel-art/make_banner.py) from the same chefs, Walter and the app's pixel fonts (Jersey 10 and
+VT323, SIL Open Font Licence; downloaded when drawing, not kept here).
 
 ## The idea
 

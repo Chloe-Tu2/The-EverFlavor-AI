@@ -1,5 +1,7 @@
 # EverFlavor AI
 
+![EverFlavor (beta): recipes that fit what you can eat, checked ingredient by ingredient. Three pixel-art chefs and Walter the waiter stand on a tiled kitchen floor.](docs/art/banner.png)
+
 ### Multi-Agent Diet & Discovery System
 
 *A conversational multi-agent AI that helps users cook authentic global recipes within their calorie limits, dietary restrictions and ingredient availability, and then finds the nearest specialty supermarket.*
@@ -619,7 +621,7 @@ The-EverFlavor-AI/
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files
 ├── docs/
-│   ├── art/          # ramen.py (the ramen bowl) and flag_recall.py (the flag chart) draw the README art
+│   ├── art/          # README art: banner.png and logo.png (design/pixel-art/make_banner.py), ramen.py, flag_recall.py
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
 │   ├── flag_review/  # Blind 200-recipe samples per round, their labels, and the human decisions
 │   │                 # (flag_policies.csv, compound_ingredients_review.csv, human_signoff.csv)
