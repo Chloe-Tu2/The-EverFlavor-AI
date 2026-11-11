@@ -20,6 +20,7 @@ import html
 import random
 import re
 import sys
+import urllib.parse
 from functools import cache
 from pathlib import Path
 from typing import cast
@@ -695,7 +696,7 @@ def saved_text(saved: dict) -> str:
 
 # ---------- Page setup ----------
 CHEF_ICON = ART / "chef_happy.png"
-st.set_page_config(page_title="EverFlavor Kitchen", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
+st.set_page_config(page_title="EverFlavor Kitchen (beta)", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
                    layout="wide")
 HOURS = ["Morning", "Afternoon", "Evening", "Night"]
 # The kitchen settings survive a refresh: they live in the page address (?theme=Mexican&hour=Night), never on a
@@ -740,7 +741,7 @@ if theme_name == "Classic" and hour == "night":       # (with the clock, the pag
 st.markdown(style(page_colors), unsafe_allow_html=True)
 kitchen_scene(THEMES[theme_name]["scene"], hour)
 heading, corner = st.columns([3, 2], vertical_alignment="center")
-heading.title("EverFlavor Kitchen")
+heading.title("EverFlavor Kitchen :orange-badge[Beta]")
 TRUST = [("icon_check", "Free, no sign-up"), ("icon_safe", "Nothing you enter is saved"),
          ("icon_alert", "Not medical advice")]
 
@@ -786,7 +787,9 @@ def landing() -> None:
                 "the label and ask your doctor or dietitian.\n"
                 "- **Diet labels:** \"halal-friendly ingredients\" means nothing in the ingredients is forbidden. It is "
                 "not a certification.\n"
-                "- **Your data:** nothing you enter is saved. No accounts, no cookies, no tracking.")
+                "- **Your data:** nothing you enter is saved. No accounts, no cookies, no tracking.\n"
+                "- **Beta:** EverFlavor is a student project in beta. Features change from version to version, "
+                "and some things may not work yet.")
         st.caption("Made by Team EverGlow, a student capstone project (ITAI 2277): "
                    + ", ".join(f"[@{name}](https://github.com/{name})" for name in ("Chloe-Tu2", "Evaabou20", "med27-coder")))
 
@@ -818,6 +821,10 @@ with news_spot.container(key="whats-new"), st.popover("What's new"):
         for update in UPDATES) + "</div>", unsafe_allow_html=True)
     st.caption(f"EverFlavor {__version__} (beta). Every change: "
                "[the changelog](https://github.com/Chloe-Tu2/The-EverFlavor-AI/blob/main/CHANGELOG.md).")
+# Where users report bugs and ideas: GitHub issue forms, the version filled in (needs a free GitHub account)
+FEEDBACK = {kind: "https://github.com/Chloe-Tu2/The-EverFlavor-AI/issues/new?"
+                  + urllib.parse.urlencode({"template": template, "version": __version__})
+            for kind, template in (("bug", "bug_report.yml"), ("idea", "feature_request.yml"))}
 with settings_spot.container(key="settings"), st.popover("Settings"):
     # Each widget shows the kept pref (index/value from PREFS) and writes it back on change (keep_pref)
     st.selectbox("Kitchen theme", list(THEMES), index=list(THEMES).index(PREFS["theme"]), key="set_theme",
@@ -840,6 +847,13 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
               on_change=keep_pref, args=("follow_cuisine",),
               help="Searching a cuisine family opens its kitchen: Asian (Chinese), African (Moroccan), "
                    "European (Mediterranean), Latin American (Mexican), Middle Eastern.")
+    # Feedback goes to the project's GitHub issue forms (.github/ISSUE_TEMPLATE); only the version is filled in,
+    # never the user's profile
+    st.divider()
+    st.caption("Help us improve (beta): found a problem or have an idea?")
+    bug_col, idea_col = st.columns(2)
+    bug_col.link_button("Report a bug", FEEDBACK["bug"], width="stretch")
+    idea_col.link_button("Suggest a feature", FEEDBACK["idea"], width="stretch")
 # Keep the kitchen settings in the page address, so a refresh brings them back (nothing is stored anywhere)
 for name, value in PREFS.items():
     st.query_params[name] = ("1" if value else "0") if isinstance(value, bool) else value
@@ -1159,5 +1173,7 @@ st.markdown(f"""
   <div class="credits">{"".join(f'<a href="https://github.com/{name}" target="_blank" rel="noopener">@{name}</a>' for name in CONTRIBUTORS)}</div>
   <small>Version {__version__} (beta) · ITAI 2277 Capstone · <a href="{REPO}" target="_blank" rel="noopener">Project on GitHub</a> ·
   <a href="{REPO}/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a> · Recipe photos belong to their sources.</small>
+  <div class="feedback"><a href="{html.escape(FEEDBACK["bug"])}" target="_blank" rel="noopener">Report a bug</a> ·
+  <a href="{html.escape(FEEDBACK["idea"])}" target="_blank" rel="noopener">Suggest a feature</a> (beta: we read every one)</div>
 </footer>
 """, unsafe_allow_html=True)

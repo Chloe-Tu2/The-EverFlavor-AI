@@ -1,0 +1,31 @@
+name: Feature request
+description: An idea that would make EverFlavor better
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! EverFlavor is a student project in beta; the team reads every request.
+        **Please do not write personal health details** here: issues are public.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      placeholder: "Let me save a shopping list from a recipe."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help you?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Part of the app
+      options: [Recipe search, Allergies and diets, The chef / Walter the waiter, Kitchen look, Map and stores, Something else]
+  - type: input
+    id: version
+    attributes:
+      label: EverFlavor version
+      description: Filled in for you when you come from the app.
