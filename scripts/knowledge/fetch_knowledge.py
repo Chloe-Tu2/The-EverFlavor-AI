@@ -297,7 +297,8 @@ def food_classes(roots: tuple[str, ...] = ("Q746549", "Q2095", "Q40050")) -> set
 FACT_SIGNALS = re.compile(
     r"\b(1[0-9]{3}|20[0-2][0-9]|[0-9]{1,2}(st|nd|rd|th) century|named|invent|originat|legend|believed|"
     r"tradition|popular|famous|known as|UNESCO|festival|introduced|first|record|emperor|dynasty|king|queen|"
-    r"street food|celebrat|ritual|symbol|national dish)", re.IGNORECASE)
+    r"street food|celebrat|ritual|symbol|national dish|inspired|created by|based on|adapted|in hono[u]?r of)",
+    re.IGNORECASE)
 SENTENCE = re.compile(r"(?<=[.!?])\s+(?=[A-Z])")
 
 
@@ -306,7 +307,36 @@ def sentences(intro: str) -> list[str]:
 
 
 def fact_candidates(intro: str) -> list[str]:
-    return [s for s in sentences(intro)[1:] if 40 <= len(s) <= 320 and FACT_SIGNALS.search(s)][:5]
+    return [s for s in sentences(intro)[1:] if 40 <= len(s) <= 320 and FACT_SIGNALS.search(s)][:8]
+
+
+# Article sections that hold a dish's story ("== History ==" in the plain-text extract)
+STORY_SECTIONS = re.compile(r"histor|origin|etymolog|name|legend|culture|tradition|myth|invent|background|"
+                            r"significance|symbolism", re.IGNORECASE)
+SECTION_HEADING = re.compile(r"^(={2,4})\s*(.+?)\s*\1\s*$", re.MULTILINE)
+
+
+def story_sentences(full_text: str, limit: int = 10) -> list[str]:
+    """Fact-like sentences from the story sections of a whole article (History, Origin, Etymology, Culture...)."""
+    parts = SECTION_HEADING.split(full_text)   # [intro, "==", heading, text, "==", heading, text, ...]
+    out: list[str] = []
+    for i in range(1, len(parts) - 2, 3):
+        if STORY_SECTIONS.search(parts[i + 1]):
+            out += [s for s in sentences(parts[i + 2]) if 40 <= len(s) <= 320 and FACT_SIGNALS.search(s)]
+    return list(dict.fromkeys(out))[:limit]
+
+
+def article_stories(titles: list[str]) -> dict[str, list[str]]:
+    """Title -> story sentences; one whole article per request (the API's limit), cached, 1 s apart."""
+    out: dict[str, list[str]] = {}
+    for n, title in enumerate(titles, 1):
+        data = _get({"action": "query", "prop": "extracts", "explaintext": 1, "exsectionformat": "wiki",
+                     "redirects": 1, "titles": title}, f"full:{title}").get("query", {})
+        text = next((p.get("extract", "") for p in data.get("pages", [])), "")
+        out[title] = story_sentences(text)
+        if n % 250 == 0:
+            print(f"  stories: {n}/{len(titles)} articles", flush=True)
+    return out
 
 
 def wiki_url(title: str) -> str:
@@ -332,6 +362,8 @@ def learn_more(name: str, title: str, qid: str, lists: list[str], heritage: list
 def main() -> None:
     parser = argparse.ArgumentParser(description=(__doc__ or "").splitlines()[0])
     parser.add_argument("--dry", action="store_true", help="print list counts only")
+    parser.add_argument("--stories", action="store_true",
+                        help="also read each article's History/Origin/Culture sections (about 1.5 hours the first time)")
     args = parser.parse_args()
 
     listed: dict[str, dict] = {}   # title -> where it was listed (country, region, lists, sections, regions)
@@ -345,8 +377,12 @@ def main() -> None:
         for r in rows:
             entry = listed.setdefault(r["title"], {"country": country, "region": region, "lists": [],
                                                    "sections": [], "regions": []})
+            if region and not entry["region"]:
+                # A region page is the most precise: it sets the region and the country, and its page comes
+                # first in "learn more"
+                entry["country"], entry["region"] = country, region
+                entry["lists"].insert(0, page)
             entry["country"] = entry["country"] or country
-            entry["region"] = entry["region"] or region   # a region page names the dish's region
             if page not in entry["lists"]:
                 entry["lists"].append(page)
             if r["section"] and r["section"] not in entry["sections"]:
@@ -362,6 +398,11 @@ def main() -> None:
     foods = food_classes()
     dishes_set = food_classes(("Q746549",))
     dishes: dict[str, dict] = {}
+    stories: dict[str, list[str]] = {}
+    if args.stories:
+        kept = [p["title"] for t, p in pages.items()
+                if foods.intersection(facts.get(p["qid"], {}).get("types", []))]
+        stories = article_stories(sorted(set(kept)))
     for title, entry in listed.items():
         page = pages.get(title)
         if not page or page["qid"] in dishes:
@@ -381,6 +422,7 @@ def main() -> None:
             "sections": [" > ".join(s) for s in entry["sections"]], "regions": entry["regions"][:6],
             "summary": (sentences(intro) or [""])[0],
             "fun_fact_candidates": fact_candidates(intro),
+            "story_candidates": [x for x in stories.get(page["title"], []) if x not in fact_candidates(intro)],
             **{k: v for k, v in f.items() if k != "types"},
             "sources": [{"name": "Wikidata", "url": f"https://www.wikidata.org/wiki/{page['qid']}", "licence": "CC0"},
                         {"name": f"Wikipedia: {page['title']}", "url": url, "licence": "CC BY-SA 4.0",

@@ -12,7 +12,12 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
 - `learn_more`: where to read more, by interest level, so the waiter offers what fits the user's settings:
   `quick` (the dish's Wikipedia article), `more` (its cuisine or region page: history and related dishes),
   `deep` (books on Open Library, UNESCO when the dish is listed there, all recorded facts on Wikidata).
-- `fun_fact_candidates` are sentences copied from Wikipedia intros that look like facts (dates, names, stories).
+- `fun_fact_candidates` are sentences copied from Wikipedia intros that look like facts (dates, names, stories);
+  `story_candidates` the same from each article's History, Origin, Etymology and Culture sections (`--stories`).
+- `dishes/`: the readable knowledge notebook, one page per country (notebook 11). Its facts are sorted by
+  topic (inspiration, origin, culture, history, about): three from different topics come first, the rest are
+  "more fun facts" for a user who asks for more, before the links. Wikidata facts become short lines ("comes
+  from Mexico", "named after ...") credited to Wikidata.
   They are **not reviewed** (`reviewed: false`): they get tidied in the knowledge notebook before the app shows
   them, and each keeps its source.
 

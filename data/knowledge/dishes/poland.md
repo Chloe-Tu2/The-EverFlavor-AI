@@ -1,0 +1,2086 @@
+# Poland: dish knowledge
+
+Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
+
+### Apple strudel
+
+Apple strudel is a traditional Viennese strudel, a popular pastry in Austria, Switzerland, Bavaria, the Czech Republic, Slovakia, Northern Italy, Slovenia, Croatia, Bosnia-Herzegovina and other countries in Europe that once belonged to the Austro-Hungarian Empire (1867–1918).
+
+- From: Poland
+- Origin (Wikidata): Italy, Austria
+- Ingredients (Wikidata): apple, sugar, cinnamon, butter, powdered sugar, bread crumbs
+
+Fun facts:
+
+- (origin) Apple strudel comes from Italy, Austria.
+
+Learn more:
+
+- quick: [Apple strudel (Wikipedia)](https://en.wikipedia.org/wiki/Apple_strudel)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Apple strudel (Open Library)](https://openlibrary.org/search?q=Apple%20strudel)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q261387)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q261387) (CC0); [Wikipedia: Apple strudel](https://en.wikipedia.org/wiki/Apple_strudel) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Babka
+
+Babka is a sweet braided cake or viennoiserie that originated in the Jewish communities of Poland and Western Ukraine.
+
+- From: Poland
+
+Fun facts:
+
+- (history) The cake is also the forerunner of the French baba au rhum (and Neapolitan babbà) via Polish king Stanisław Leszczyński's exile in Wissembourg, Lorraine, France, in the 18th century.
+- (culture) Traditionally fillings included jam or nuts, though now include chocolate, cinnamon, fruit, or cheese.
+- (about) Babka is popular in Jewish communities worldwide, where it is also known as yeast cake or Ugat Shmarim.
+
+Learn more:
+
+- quick: [Babka (Wikipedia)](https://en.wikipedia.org/wiki/Babka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Babka (Open Library)](https://openlibrary.org/search?q=Babka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q119828752)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q119828752) (CC0); [Wikipedia: Babka](https://en.wikipedia.org/wiki/Babka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Bigos
+
+Bigos, or hunter's stew, is a Polish dish of chopped meat of various kinds stewed with sauerkraut, shredded fresh cabbage and spices.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): onion, Brassica oleracea var. capitata, sausage, sauerkraut, pork, edible mushroom
+
+Fun facts:
+
+- (culture) Originally from Poland, the dish also became traditional in the areas of the vast Polish–Lithuanian Commonwealth.
+- (origin) Bigos comes from Poland.
+
+Learn more:
+
+- quick: [Bigos (Wikipedia)](https://en.wikipedia.org/wiki/Bigos)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Bigos (Open Library)](https://openlibrary.org/search?q=Bigos)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q598222)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q598222) (CC0); [Wikipedia: Bigos](https://en.wikipedia.org/wiki/Bigos) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Black dumplings
+
+Kluski czarne (black dumplings; Silesian: czorne kluski), also known as kluski polskie (Polish dumplings; polske knedle) or kluski żelazne (iron dumplings; żelazne knedle), are a variety of dumplings popular in Silesia.
+
+- From: Poland
+- Ingredients (Wikidata): potato
+
+Fun facts:
+
+- (culture) Both black and white dumplings are served at weddings and other traditional feasts in Silesia.
+- (culture) According to tradition, they should be served in odd numbers.
+
+Learn more:
+
+- quick: [Black dumplings (Wikipedia)](https://en.wikipedia.org/wiki/Black_dumplings)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Black dumplings (Open Library)](https://openlibrary.org/search?q=Black%20dumplings)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4922403)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4922403) (CC0); [Wikipedia: Black dumplings](https://en.wikipedia.org/wiki/Black_dumplings) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Bread roll
+
+A bread roll is a small, oblong (or round, triangular or rhomboid) individual loaf of bread, usually served with a meal and eaten plain or with butter.
+
+- From: Poland
+- Origin (Wikidata): Italy, Austria, Russia, Germany
+- Ingredients (Wikidata): yeast, dough
+
+Fun facts:
+
+- (origin) Bread roll comes from Italy, Austria, Russia, Germany.
+
+Learn more:
+
+- quick: [Bread roll (Wikipedia)](https://en.wikipedia.org/wiki/Bread_roll)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- deep: [Books about Bread roll (Open Library)](https://openlibrary.org/search?q=Bread%20roll)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q23004)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q23004) (CC0); [Wikipedia: Bread roll](https://en.wikipedia.org/wiki/Bread_roll) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Cabbage soup
+
+Cabbage soup may refer to any of the variety of soups based on various cabbages, or on sauerkraut and known under different names in national cuisines.
+
+- From: Poland
+- Ingredients (Wikidata): Brassica oleracea var. capitata, Brassica oleracea, stock
+
+Learn more:
+
+- quick: [Cabbage soup (Wikipedia)](https://en.wikipedia.org/wiki/Cabbage_soup)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Cabbage soup (Open Library)](https://openlibrary.org/search?q=Cabbage%20soup)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q564622)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q564622) (CC0); [Wikipedia: Cabbage soup](https://en.wikipedia.org/wiki/Cabbage_soup) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Carrot cake
+
+Carrot cake is a cake that contains carrots mixed into the spiced batter, often topped with a rich cream cheese frosting.
+
+- From: Poland
+- Origin (Wikidata): Switzerland, France
+- Named after: carrot
+- Ingredients (Wikidata): carrot, sugar, cinnamon, baking powder, flour, marzipan, egg yolk, lemon zest, kirsch, hazelnut
+
+Fun facts:
+
+- (inspiration) Carrot cake is named after carrot.
+- (origin) Carrot cake comes from Switzerland, France.
+
+Learn more:
+
+- quick: [Carrot cake (Wikipedia)](https://en.wikipedia.org/wiki/Carrot_cake)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- deep: [Books about Carrot cake (Open Library)](https://openlibrary.org/search?q=Carrot%20cake)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q656071)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q656071) (CC0); [Wikipedia: Carrot cake](https://en.wikipedia.org/wiki/Carrot_cake) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Carrot salad
+
+Carrot salad is a salad made with carrots.
+
+- From: Poland
+
+Learn more:
+
+- quick: [Carrot salad (Wikipedia)](https://en.wikipedia.org/wiki/Carrot_salad)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Carrot salad (Open Library)](https://openlibrary.org/search?q=Carrot%20salad)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17080719)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17080719) (CC0); [Wikipedia: Carrot salad](https://en.wikipedia.org/wiki/Carrot_salad) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Cepelinai
+
+Cepelinai are potato dumplings made from grated potatoes and stuffed with ground meat, dry curd cheese, liver, or mushrooms.
+
+- From: Poland
+- Origin (Wikidata): Lithuania
+- Named after: Zeppelin
+- Ingredients (Wikidata): minced meat, potato
+
+Fun facts:
+
+- (culture) Cepelinai has been described as a national dish of Lithuania, and is typically served as a main dish.
+- (inspiration) Originally called didžkukuliai, or dumb-bells, they were renamed modishly in honour of Count Ferdinand von Zeppelin, pioneer of the rigid airship, in 1900.
+- (history) In the Suwałki Region, Podlachia, Warmia and Masuria, it is known as kartacz (pol.Tooltip literal translation: grapeshot).
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Cepelinai is named after Zeppelin.
+- (origin) Cepelinai comes from Lithuania.
+
+Learn more:
+
+- quick: [Cepelinai (Wikipedia)](https://en.wikipedia.org/wiki/Cepelinai)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Cepelinai (Open Library)](https://openlibrary.org/search?q=Cepelinai)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q431570)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q431570) (CC0); [Wikipedia: Cepelinai](https://en.wikipedia.org/wiki/Cepelinai) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Challah
+
+Challah ( (K)HAH-lə; Hebrew: חַלָּה, romanized: ḥallā, pronounced [χaˈla, ħalˈlaː]; pl. [c]hallot, [c]halloth or [c]hallos, Hebrew: חַלּוֹת), also known as berches in Central Europe, is a special bread in Jewish cuisine, usually braided and typically eaten on ceremonial occasions such as Shabbat and major Jewish holidays (other than Passover and Yom Kippur).
+
+- From: Poland
+- Origin (Wikidata): Eastern Europe
+- Ingredients (Wikidata): water, egg as food, wheat flour
+
+Fun facts:
+
+- (culture) Ritually acceptable challah is made of dough from which a small portion has been set aside as an offering.
+- (origin) Challah comes from Eastern Europe.
+
+Learn more:
+
+- quick: [Challah (Wikipedia)](https://en.wikipedia.org/wiki/Challah)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Challah (Open Library)](https://openlibrary.org/search?q=Challah)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q790433)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q790433) (CC0); [Wikipedia: Challah](https://en.wikipedia.org/wiki/Challah) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Chocolate-covered prune
+
+Chocolate-covered prunes, also known as plums in chocolate or prunes in chocolate, is a form of sweet: a chocolate candy with a prune (dried plum) as filling.
+
+- From: Poland
+- Origin (Wikidata): Eastern Europe
+- Ingredients (Wikidata): chocolate, prune
+
+Fun facts:
+
+- (culture) Along with similarly prepared dried apricots, chocolate-covered prunes are a traditional confectionery in Russia and Ukraine.
+- (origin) Chocolate-covered prune comes from Eastern Europe.
+
+Learn more:
+
+- quick: [Chocolate-covered prune (Wikipedia)](https://en.wikipedia.org/wiki/Chocolate-covered_prune)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Chocolate-covered prune (Open Library)](https://openlibrary.org/search?q=Chocolate-covered%20prune)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16826630)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16826630) (CC0); [Wikipedia: Chocolate-covered prune](https://en.wikipedia.org/wiki/Chocolate-covered_prune) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Cucumber soup
+
+Cucumber soup is a traditional Polish and Lithuanian soup.
+
+- From: Poland
+- Ingredients (Wikidata): cucumber
+
+Fun facts:
+
+- (about) A similar soup is also common in Russia and Ukraine, where it is known as rassolnik.
+- (about) There is another cucumber based soup known as tarator in Bulgaria, which is served cold.
+
+Learn more:
+
+- quick: [Cucumber soup (Wikipedia)](https://en.wikipedia.org/wiki/Cucumber_soup)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Cucumber soup (Open Library)](https://openlibrary.org/search?q=Cucumber%20soup)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q115702169)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q115702169) (CC0); [Wikipedia: Cucumber soup](https://en.wikipedia.org/wiki/Cucumber_soup) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Czernina
+
+Czernina is a Polish soup traditionally made of duck blood and clear poultry broth.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): blood as food, duck meat
+
+Fun facts:
+
+- (origin) Czernina comes from Poland.
+
+Learn more:
+
+- quick: [Czernina (Wikipedia)](https://en.wikipedia.org/wiki/Czernina)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Czernina (Open Library)](https://openlibrary.org/search?q=Czernina)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q899976)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q899976) (CC0); [Wikipedia: Czernina](https://en.wikipedia.org/wiki/Czernina) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Deviled egg
+
+Deviled eggs (American English) or devilled eggs (British English), also known as stuffed eggs, curried eggs, dressed eggs or angel eggs, are hard-boiled eggs that have been peeled, cut in half, with the yolk scooped out, then refilled after being mixed with other ingredients such as mayonnaise and mustard and sprinkled with paprika, cinnamon or curry powder.
+
+- From: Poland
+- Origin (Wikidata): Italy
+- Named after: Russia, devil
+- Ingredients (Wikidata): stuffing, hard-boiled egg
+
+Fun facts:
+
+- (inspiration) Deviled egg is named after Russia, devil.
+- (about) Deviled egg is popular in Europe, North America and Australia.
+- (origin) Deviled egg comes from Italy.
+
+Learn more:
+
+- quick: [Deviled egg (Wikipedia)](https://en.wikipedia.org/wiki/Deviled_egg)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [List of Hungarian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Hungarian_dishes)
+- deep: [Books about Deviled egg (Open Library)](https://openlibrary.org/search?q=Deviled%20egg)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q551458)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q551458) (CC0); [Wikipedia: Deviled egg](https://en.wikipedia.org/wiki/Deviled_egg) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Flaki
+
+Flaki or flaczki is a traditional Polish tripe stew.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (origin) Flaki comes from Poland.
+
+Learn more:
+
+- quick: [Flaki (Wikipedia)](https://en.wikipedia.org/wiki/Flaki)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Flaki (Open Library)](https://openlibrary.org/search?q=Flaki)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q8961756)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q8961756) (CC0); [Wikipedia: Flaki](https://en.wikipedia.org/wiki/Flaki) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Fruitcake
+
+Fruitcake or fruit cake is a cake made with candied or dried fruit, nuts, and spices, and optionally soaked in spirits.
+
+- From: Poland
+- Ingredients (Wikidata): dough, candied fruit
+
+Fun facts:
+
+- (about) In the United Kingdom, certain rich versions may be iced and decorated.
+- (culture) Fruitcakes are usually served in celebration of weddings and Christmas.
+
+Learn more:
+
+- quick: [Fruitcake (Wikipedia)](https://en.wikipedia.org/wiki/Fruitcake)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Fruitcake (Open Library)](https://openlibrary.org/search?q=Fruitcake)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q675987)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q675987) (CC0); [Wikipedia: Fruitcake](https://en.wikipedia.org/wiki/Fruitcake) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Gołąbki
+
+Gołąbki is the Polish name of a dish popular in cuisines of Central and Eastern Europe, made from boiled cabbage leaves wrapped around a filling of minced pork or beef, chopped onions, and rice or other carbohydrates such as kasha groats or potatoes.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): Brassica oleracea var. capitata
+
+Fun facts:
+
+- (origin) Gołąbki comes from Poland.
+
+Learn more:
+
+- quick: [Gołąbki (Wikipedia)](https://en.wikipedia.org/wiki/Go%C5%82%C4%85bki)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Gołąbki (Open Library)](https://openlibrary.org/search?q=Go%C5%82%C4%85bki)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13557309)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q13557309) (CC0); [Wikipedia: Gołąbki](https://en.wikipedia.org/wiki/Gołąbki) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kalduny
+
+Kalduny or kolduny are dumplings stuffed with meat, mushrooms or other ingredients, made in Belarusian, Lithuanian, and Polish cuisines, akin to the Polish pierogi, Russian pelmeni and the Ukrainian varenyky.
+
+- From: Poland
+- Origin (Wikidata): Belarus, Grand Duchy of Lithuania
+- Ingredients (Wikidata): water, meat, table salt, dough, stuffing, vegetable oil, minced meat
+
+Fun facts:
+
+- (origin) Kalduny comes from Belarus, Grand Duchy of Lithuania.
+
+Learn more:
+
+- quick: [Kalduny (Wikipedia)](https://en.wikipedia.org/wiki/Kalduny)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Kalduny (Open Library)](https://openlibrary.org/search?q=Kalduny)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5289177)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5289177) (CC0); [Wikipedia: Kalduny](https://en.wikipedia.org/wiki/Kalduny) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Karpatka
+
+Karpatka is a traditional Polish cream pie with some sort of vanilla buttercream filling – aerated butter mixed with eggs beaten and steamed with sugar (krem russel), aerated butter mixed with crème pâtissière (according to Polish gastronomy textbooks made from whole eggs) or just thick milk kissel enriched with melted butter.
+
+- From: Poland
+- Ingredients (Wikidata): egg as food
+
+Fun facts:
+
+- (history) The origins of the dessert are unclear; it most likely emerged at the turn of the 1950s and 1960s, but its popularity only became widespread in the 1970s and 1980s.
+- (about) Nevertheless, the version with two layers of choux pastry is popular.
+- (culture) Traditionally, one large slice of the pie was served with coffee or tea.
+
+More fun facts (when the user asks for more):
+
+- (history) The official name "karpatka" was coined or recorded in 1972 by a group of philology students.
+
+Learn more:
+
+- quick: [Karpatka (Wikipedia)](https://en.wikipedia.org/wiki/Karpatka)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Karpatka (Open Library)](https://openlibrary.org/search?q=Karpatka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16565718)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16565718) (CC0); [Wikipedia: Karpatka](https://en.wikipedia.org/wiki/Karpatka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kiszczonka
+
+Kiszczonka is a traditional soup common in Poznań, known also in some other regions of Poland.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (origin) Kiszczonka comes from Poland.
+
+Learn more:
+
+- quick: [Kiszczonka (Wikipedia)](https://en.wikipedia.org/wiki/Kiszczonka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Kiszczonka (Open Library)](https://openlibrary.org/search?q=Kiszczonka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6417362)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6417362) (CC0); [Wikipedia: Kiszczonka](https://en.wikipedia.org/wiki/Kiszczonka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kogel mogel
+
+Kogel mogel is an egg-based homemade dessert once popular in parts of Europe.
+
+- From: Poland
+- Ingredients (Wikidata): powdered sugar, egg yolk
+
+Learn more:
+
+- quick: [Kogel mogel (Wikipedia)](https://en.wikipedia.org/wiki/Kogel_mogel)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- deep: [Books about Kogel mogel (Open Library)](https://openlibrary.org/search?q=Kogel%20mogel)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q227830)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q227830) (CC0); [Wikipedia: Kogel mogel](https://en.wikipedia.org/wiki/Kogel_mogel) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kopytka
+
+Kopytka or kopitka are a kind of potato dumpling in Polish, Belarusian, and Lithuanian cuisines.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): potato
+
+Fun facts:
+
+- (origin) Kopytka comes from Poland.
+
+Learn more:
+
+- quick: [Kopytka (Wikipedia)](https://en.wikipedia.org/wiki/Kopytka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Kopytka (Open Library)](https://openlibrary.org/search?q=Kopytka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1154225)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1154225) (CC0); [Wikipedia: Kopytka](https://en.wikipedia.org/wiki/Kopytka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kotlet schabowy
+
+Kotlet schabowy is a Polish variety of a breaded cutlet of pork coated with breadcrumbs.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): table salt, flour, black pepper, lard, egg as food, bread crumbs, pork loin
+
+Fun facts:
+
+- (history) The history of schabowy dates back to the 19th century.
+- (origin) Kotlet schabowy comes from Poland.
+
+Learn more:
+
+- quick: [Kotlet schabowy (Wikipedia)](https://en.wikipedia.org/wiki/Kotlet_schabowy)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Kotlet schabowy (Open Library)](https://openlibrary.org/search?q=Kotlet%20schabowy)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6434112)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6434112) (CC0); [Wikipedia: Kotlet schabowy](https://en.wikipedia.org/wiki/Kotlet_schabowy) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Krupnik (soup)
+
+Krupnik is a thick Polish soup made from vegetable or meat broth, containing potatoes and barley groats (kasza jęczmienna, archaically called krupy—hence the name).
+
+- From: Poland
+- Origin (Wikidata): Poland, Belarus
+- Ingredients (Wikidata): groat, bouillon
+
+Fun facts:
+
+- (origin) Krupnik comes from Poland, Belarus.
+
+Learn more:
+
+- quick: [Krupnik (soup) (Wikipedia)](https://en.wikipedia.org/wiki/Krupnik_%28soup%29)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Krupnik (soup) (Open Library)](https://openlibrary.org/search?q=Krupnik%20%28soup%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1515088)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1515088) (CC0); [Wikipedia: Krupnik (soup)](https://en.wikipedia.org/wiki/Krupnik_(soup)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Krówki
+
+Krówki, literally a diminutive form of the Polish word for "cow," are Polish fudge, semi-soft milk toffee candies.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): milk, sugar, Opatów krówki
+
+Fun facts:
+
+- (history) Pomorski i syn" claims that the first krówki were produced in Poznań by the Pomorski family, which was later expelled by Nazi Germans to Milanówek near Warsaw during the German occupation of Poland in World War II.
+- (origin) Krówki comes from Poland.
+- (history) Originally it was made at home, and has been produced commercially since the 1930s.
+
+More fun facts (when the user asks for more):
+
+- (history) Widely known across Europe even before the end of the Cold War, they are something of an equivalent of the White Rabbit Creamy Candy famous across East Asia, or Scottish Tablet.
+
+Learn more:
+
+- quick: [Krówki (Wikipedia)](https://en.wikipedia.org/wiki/Kr%C3%B3wki)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Krówki (Open Library)](https://openlibrary.org/search?q=Kr%C3%B3wki)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2937861)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2937861) (CC0); [Wikipedia: Krówki](https://en.wikipedia.org/wiki/Krówki) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kugelis
+
+Kugelis, also known as bulvių plokštainis ("potato pie"), is a potato dish from Lithuania.
+
+- From: Poland
+- Origin (Wikidata): Lithuania
+- Ingredients (Wikidata): potato
+
+Fun facts:
+
+- (origin) Kugelis comes from Lithuania.
+
+Learn more:
+
+- quick: [Kugelis (Wikipedia)](https://en.wikipedia.org/wiki/Kugelis)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Kugelis (Open Library)](https://openlibrary.org/search?q=Kugelis)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1690265)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1690265) (CC0); [Wikipedia: Kugelis](https://en.wikipedia.org/wiki/Kugelis) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Lazanki
+
+Lazanki is a Polish, Russian, Lithuanian and Belarusian type of pasta.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (origin) Lazanki comes from Poland.
+
+Learn more:
+
+- quick: [Lazanki (Wikipedia)](https://en.wikipedia.org/wiki/Lazanki)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Lazanki (Open Library)](https://openlibrary.org/search?q=Lazanki)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2632589)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2632589) (CC0); [Wikipedia: Lazanki](https://en.wikipedia.org/wiki/Lazanki) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Makówki
+
+Makówki is a sweet poppy seed-based bread dessert from Central Europe.
+
+- From: Poland
+- Origin (Wikidata): Germany
+
+Fun facts:
+
+- (culture) Makówki is considered traditional in Silesia (southwestern Poland), where it is served almost exclusively on Christmas Eve.
+- (about) Makówki is also popular in other parts of Poland as well as in eastern Germany, Slovakia and in Hungary.
+- (origin) Makówki comes from Germany.
+
+Learn more:
+
+- quick: [Makówki (Wikipedia)](https://en.wikipedia.org/wiki/Mak%C3%B3wki)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Hungarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hungarian_cuisine)
+- deep: [Books about Makówki (Open Library)](https://openlibrary.org/search?q=Mak%C3%B3wki)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q552394)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q552394) (CC0); [Wikipedia: Makówki](https://en.wikipedia.org/wiki/Makówki) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Marinated mushrooms
+
+Marinated mushrooms are forest or cultivated edible mushrooms preserved in various ways using vinegar and possibly additionally pasteurized.
+
+- From: Poland
+- Ingredients (Wikidata): mushroom
+
+Fun facts:
+
+- (culture) Marinated mushrooms are a traditional dish in Polish cuisine and are characteristic of other national cuisines as well.
+
+Learn more:
+
+- quick: [Marinated mushrooms (Wikipedia)](https://en.wikipedia.org/wiki/Marinated_mushrooms)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Marinated mushrooms (Open Library)](https://openlibrary.org/search?q=Marinated%20mushrooms)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9282304)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q9282304) (CC0); [Wikipedia: Marinated mushrooms](https://en.wikipedia.org/wiki/Marinated_mushrooms) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Mazurek (cake)
+
+Mazurek (plural: mazurki) is a very sweet, flat cake baked in Poland for Easter.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (culture) In common with simnel cake, it is closely associated with Easter and eaten after the Christian festival of Lent.
+- (origin) Mazurek comes from Poland.
+
+Learn more:
+
+- quick: [Mazurek (cake) (Wikipedia)](https://en.wikipedia.org/wiki/Mazurek_%28cake%29)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Mazurek (cake) (Open Library)](https://openlibrary.org/search?q=Mazurek%20%28cake%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1124761)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1124761) (CC0); [Wikipedia: Mazurek (cake)](https://en.wikipedia.org/wiki/Mazurek_(cake)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Miodek turecki
+
+Miodek turecki is a candy traditionally sold in Kraków, Poland, on the gates of cemeteries during All Saints' Day and All Souls' Day.
+
+- From: Poland
+
+Fun facts:
+
+- (culture) Sometimes sold by churches during autumn parish festivals.
+
+Learn more:
+
+- quick: [Miodek turecki (Wikipedia)](https://en.wikipedia.org/wiki/Miodek_turecki)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Miodek turecki (Open Library)](https://openlibrary.org/search?q=Miodek%20turecki)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10969752)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q10969752) (CC0); [Wikipedia: Miodek turecki](https://en.wikipedia.org/wiki/Miodek_turecki) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Mizeria
+
+Mizeria is a salad which originated in Poland and consists of thinly sliced or grated cucumbers, often with sweet sour cream or kefir and vinegar, although in some cases oil.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): smetana, cucumber
+
+Fun facts:
+
+- (about) Mizeria is usually served alongside a main course and is one of the most popular salads in Poland.
+- (origin) The name of the salad comes from the French word misère (poverty, squalor) and most likely expresses the disdainful attitude of the Polish aristocracy towards this traditional peasant dish.
+- (origin) Mizeria comes from Poland.
+
+Learn more:
+
+- quick: [Mizeria (Wikipedia)](https://en.wikipedia.org/wiki/Mizeria)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Mizeria (Open Library)](https://openlibrary.org/search?q=Mizeria)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1940968)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1940968) (CC0); [Wikipedia: Mizeria](https://en.wikipedia.org/wiki/Mizeria) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Napoleonka
+
+Napoleonka (Polish: [napɔlɛˈɔnka]; colloquially kremówka, is a Polish type of cream pie.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Named after: Napoleon
+- Ingredients (Wikidata): puff pastry, whipped cream, Cream
+
+Fun facts:
+
+- (inspiration) These became popular particularly in the aftermath of a false story that Pope John Paul II was fond of that variant.
+- (about) In some places in Poland the cake is known as kremówka (roughly translated as "cream cake"), in others, it is called napoleonka.
+- (culture) In fact, the Pope was fond of the traditional kremówka.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Napoleonka is named after Napoleon.
+- (about) The cake is a variation of mille-feuille. a French dessert made of three layers of puff pastry filled with cream or jam, also known as the Napoleon.
+- (origin) Napoleonka comes from Poland.
+
+Learn more:
+
+- quick: [Napoleonka (Wikipedia)](https://en.wikipedia.org/wiki/Napoleonka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Napoleonka (Open Library)](https://openlibrary.org/search?q=Napoleonka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6436743)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6436743) (CC0); [Wikipedia: Napoleonka](https://en.wikipedia.org/wiki/Napoleonka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Obwarzanek krakowski
+
+An obwarzanek krakowski is a braided ring-shaped bread that is boiled and sprinkled with salt and sesame or poppy seeds before being baked.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): table salt, dough, poppy seed, Sesamum indicum
+
+Fun facts:
+
+- (culture) Traditionally sold from street carts, it is a popular snack in the Polish city of Kraków, where it has the status of a regional food with protected geographical indication.
+- (origin) Obwarzanek krakowski comes from Poland.
+
+Learn more:
+
+- quick: [Obwarzanek krakowski (Wikipedia)](https://en.wikipedia.org/wiki/Obwarzanek_krakowski)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Obwarzanek krakowski (Open Library)](https://openlibrary.org/search?q=Obwarzanek%20krakowski)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q111046463)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q111046463) (CC0); [Wikipedia: Obwarzanek krakowski](https://en.wikipedia.org/wiki/Obwarzanek_krakowski) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### P'tcha
+
+P'tcha, fisnoga or galareta (also known as "calves' foot jelly") is a traditional Ashkenazi Jewish dish.
+
+- From: Poland
+
+Learn more:
+
+- quick: [P'tcha (Wikipedia)](https://en.wikipedia.org/wiki/P%27tcha)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about P'tcha (Open Library)](https://openlibrary.org/search?q=P%27tcha)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17051646)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17051646) (CC0); [Wikipedia: P'tcha](https://en.wikipedia.org/wiki/P'tcha) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pampuchy
+
+Pampuchy are a type of steamed yeast dumpling (kluski) or doughnut (pączek) in Polish cuisine.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): baker's yeast, wheat flour, cow's milk, chicken egg
+
+Fun facts:
+
+- (origin) Pampuchy comes from Poland.
+
+Learn more:
+
+- quick: [Pampuchy (Wikipedia)](https://en.wikipedia.org/wiki/Pampuchy)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Pampuchy (Open Library)](https://openlibrary.org/search?q=Pampuchy)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q835895)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q835895) (CC0); [Wikipedia: Pampuchy](https://en.wikipedia.org/wiki/Pampuchy) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pasta with strawberries
+
+Makaron z truskawkami ("pasta with strawberries") is a dish from Polish cuisine.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): pasta, Fragaria, sugar, cream
+
+Fun facts:
+
+- (origin) Pasta with strawberries comes from Poland.
+
+Learn more:
+
+- quick: [Pasta with strawberries (Wikipedia)](https://en.wikipedia.org/wiki/Pasta_with_strawberries)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Pasta with strawberries (Open Library)](https://openlibrary.org/search?q=Pasta%20with%20strawberries)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q131819894)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q131819894) (CC0); [Wikipedia: Pasta with strawberries](https://en.wikipedia.org/wiki/Pasta_with_strawberries) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pierogi leniwe
+
+Pierogi leniwe, leniwe, linyvi varenyky are dumplings made of quark, eggs and flour, boiled in lightly salted water.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (origin) Pierogi leniwe comes from Poland.
+
+Learn more:
+
+- quick: [Pierogi leniwe (Wikipedia)](https://en.wikipedia.org/wiki/Pierogi_leniwe)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Pierogi leniwe (Open Library)](https://openlibrary.org/search?q=Pierogi%20leniwe)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11816618)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q11816618) (CC0); [Wikipedia: Pierogi leniwe](https://en.wikipedia.org/wiki/Pierogi_leniwe) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Polonaise sauce
+
+Polonaise sauce is a sauce that originated in Poland and became popular in France in the 18th century.
+
+- From: Poland
+- Ingredients (Wikidata): butter, lemon juice, rusk
+
+Learn more:
+
+- quick: [Polonaise sauce (Wikipedia)](https://en.wikipedia.org/wiki/Polonaise_sauce)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Polonaise sauce (Open Library)](https://openlibrary.org/search?q=Polonaise%20sauce)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1328767)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1328767) (CC0); [Wikipedia: Polonaise sauce](https://en.wikipedia.org/wiki/Polonaise_sauce) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Poppy seed roll
+
+The poppy seed roll is a roulade consisting of a roll of sweet yeast bread (a sweet bread) with a dense, rich, bittersweet filling of poppy seed.
+
+- From: Poland
+- Origin (Wikidata): Europe
+
+Fun facts:
+
+- (about) Poppy seed roll is popular in Central Europe and parts of Eastern Europe, where it is commonly eaten at Christmas and Easter time.
+- (origin) Poppy seed roll comes from Europe.
+
+Learn more:
+
+- quick: [Poppy seed roll (Wikipedia)](https://en.wikipedia.org/wiki/Poppy_seed_roll)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Poppy seed roll (Open Library)](https://openlibrary.org/search?q=Poppy%20seed%20roll)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q61888328)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q61888328) (CC0); [Wikipedia: Poppy seed roll](https://en.wikipedia.org/wiki/Poppy_seed_roll) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Potato babka
+
+Potato babka is a savoury baked potato dish, popular especially in Belarus and northeastern Poland, where it is known as babka ziemniaczana.
+
+- From: Poland
+- Origin (Wikidata): Poland, Belarus
+- Ingredients (Wikidata): potato
+
+Fun facts:
+
+- (about) Potato babka is considered the most famous dish of the Polish region of Podlachia.
+- (origin) Potato babka comes from Poland, Belarus.
+- (about) In 2016, the purported world's largest potato babka, 2 metres in diameter, was baked in the village of Sula, Belarus.
+
+Learn more:
+
+- quick: [Potato babka (Wikipedia)](https://en.wikipedia.org/wiki/Potato_babka)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Potato babka (Open Library)](https://openlibrary.org/search?q=Potato%20babka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2479287)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2479287) (CC0); [Wikipedia: Potato babka](https://en.wikipedia.org/wiki/Potato_babka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Prince Polo
+
+Prince Polo is a Polish brand of chocolate wafer bars and one of Poland's top-selling confectionery products.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): wafer cookie
+
+Fun facts:
+
+- (origin) Prince Polo was introduced in 1955, during the early years of the Polish People's Republic, by Olza S.A. in Cieszyn.
+- (history) In 1995 the Prince Polo packaging was revised with a new logo; the bar was no longer wrapped in paper and was instead sealed in plastic.
+- (origin) Subsequently, several new varieties of Prince Polo were introduced, beginning with Hazelnut (Orzechowy) in 1996, and later milk chocolate, coconut, and Premium (claimed to be a more luxurious version).
+
+More fun facts (when the user asks for more):
+
+- (history) The company, which was founded in 1920, was purchased by Kraft Jacobs Suchard in 1993 (today Mondelez International).
+- (origin) Prince Polo comes from Poland.
+
+Learn more:
+
+- quick: [Prince Polo (Wikipedia)](https://en.wikipedia.org/wiki/Prince_Polo)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Prince Polo (Open Library)](https://openlibrary.org/search?q=Prince%20Polo)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3481208)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3481208) (CC0); [Wikipedia: Prince Polo](https://en.wikipedia.org/wiki/Prince_Polo) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Ptasie mleczko
+
+Ptasie mleczko or bird's milk is a confectionery originating in Poland as well as the name for a Soviet cake that was derived from the original Polish invention.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Since: 1936-
+- Named after: crop milk
+- Ingredients (Wikidata): chocolate, milk, sugar, butter, agar, soufflé
+
+Fun facts:
+
+- (history) Its owner created the original "bird's milk" in 1936.
+- (inspiration) Ptasie mleczko is named after crop milk.
+- (about) Other confectionery producers also make similar candies named differently (e.g., Alpejskie mleczko, "Alpine milk").
+
+More fun facts (when the user asks for more):
+
+- (history) Ptasie mleczko dates from 1936-.
+- (about) In Russia, ptichye moloko is both a popular candy and a famous soufflé cake derived from the Polish candy.
+- (origin) Ptasie mleczko comes from Poland.
+
+Learn more:
+
+- quick: [Ptasie mleczko (Wikipedia)](https://en.wikipedia.org/wiki/Ptasie_mleczko)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Ptasie mleczko (Open Library)](https://openlibrary.org/search?q=Ptasie%20mleczko)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1975589)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1975589) (CC0); [Wikipedia: Ptasie mleczko](https://en.wikipedia.org/wiki/Ptasie_mleczko) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pyzy (dish)
+
+Pyzy are a type of large oval-shaped dumpling (kluski), characteristic to Polish cuisine.
+
+- From: Poland
+
+Learn more:
+
+- quick: [Pyzy (dish) (Wikipedia)](https://en.wikipedia.org/wiki/Pyzy_%28dish%29)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Pyzy (dish) (Open Library)](https://openlibrary.org/search?q=Pyzy%20%28dish%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q108887239)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q108887239) (CC0); [Wikipedia: Pyzy (dish)](https://en.wikipedia.org/wiki/Pyzy_(dish)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pâté
+
+Pâté (UK: PAT-ay, US: pa(h)-TAY, French: [pɑte] ) is a forcemeat.
+
+- From: Poland
+- Origin (Wikidata): Romania
+- Ingredients (Wikidata): liver as food, minced meat
+
+Fun facts:
+
+- (origin) Pâté comes from Romania.
+
+Learn more:
+
+- quick: [Pâté (Wikipedia)](https://en.wikipedia.org/wiki/P%C3%A2t%C3%A9)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Pâté (Open Library)](https://openlibrary.org/search?q=P%C3%A2t%C3%A9)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q816704)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q816704) (CC0); [Wikipedia: Pâté](https://en.wikipedia.org/wiki/Pâté) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pączki
+
+Pączki are filled doughnuts found in Polish cuisine.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): jam, milk, sugar, flour, egg as food, baker's yeast
+
+Fun facts:
+
+- (origin) Pączki comes from Poland.
+
+Learn more:
+
+- quick: [Pączki (Wikipedia)](https://en.wikipedia.org/wiki/P%C4%85czki)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Pączki (Open Library)](https://openlibrary.org/search?q=P%C4%85czki)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2186681)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2186681) (CC0); [Wikipedia: Pączki](https://en.wikipedia.org/wiki/Pączki) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Racuchy
+
+Racuchy is a traditional Polish dish from the same family of foods as the crêpe and similar to American or Scottish pancakes.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (origin) Racuchy comes from Poland.
+
+Learn more:
+
+- quick: [Racuchy (Wikipedia)](https://en.wikipedia.org/wiki/Racuchy)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Racuchy (Open Library)](https://openlibrary.org/search?q=Racuchy)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2125335)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2125335) (CC0); [Wikipedia: Racuchy](https://en.wikipedia.org/wiki/Racuchy) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Rosół
+
+Rosół is a traditional Polish soup based primarily on meat broth.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): chicken
+
+Fun facts:
+
+- (about) Its most popular variety is the rosół z kury, or clear chicken soup.
+- (culture) Rosół is one of the most popular Polish soups, served during family dinners and a traditional soup for weddings; it is also a traditional cold remedy.
+- (origin) Rosół comes from Poland.
+
+Learn more:
+
+- quick: [Rosół (Wikipedia)](https://en.wikipedia.org/wiki/Ros%C3%B3%C5%82)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Rosół (Open Library)](https://openlibrary.org/search?q=Ros%C3%B3%C5%82)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17099188)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17099188) (CC0); [Wikipedia: Rosół](https://en.wikipedia.org/wiki/Rosół) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Salceson
+
+Salceson is a type of meat found in Polish cuisine and other Central and Eastern European cuisines.
+
+- From: Poland
+- Ingredients (Wikidata): offal
+
+Learn more:
+
+- quick: [Salceson (Wikipedia)](https://en.wikipedia.org/wiki/Salceson)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Salceson (Open Library)](https://openlibrary.org/search?q=Salceson)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2996033)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2996033) (CC0); [Wikipedia: Salceson](https://en.wikipedia.org/wiki/Salceson) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Siemieniotka
+
+Siemieniotka is a Silesian soup made of hemp seed, often eaten at the traditional Christmas Eve meal, Wigilia.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): seed
+
+Fun facts:
+
+- (origin) Siemieniotka comes from Poland.
+
+Learn more:
+
+- quick: [Siemieniotka (Wikipedia)](https://en.wikipedia.org/wiki/Siemieniotka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Siemieniotka (Open Library)](https://openlibrary.org/search?q=Siemieniotka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q822810)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q822810) (CC0); [Wikipedia: Siemieniotka](https://en.wikipedia.org/wiki/Siemieniotka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Silesian dumplings
+
+Silesian dumplings are potato dumplings traditional to the Silesia region of Central Europe, falling under the list of Silesian dishes.
+
+- From: Poland
+- Named after: Silesia
+- Ingredients (Wikidata): mashed potato, wheat flour
+
+Fun facts:
+
+- (inspiration) Silesian dumplings is named after Silesia.
+- (culture) The dumplings are listed by the Polish Ministry of Agriculture and Rural Development as known regional or traditional foodstuff, with the Ministry chronicling versions from both the Silesian Voivodeship and the Opole Voivodeship.
+
+Learn more:
+
+- quick: [Silesian dumplings (Wikipedia)](https://en.wikipedia.org/wiki/Silesian_dumplings)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Silesian dumplings (Open Library)](https://openlibrary.org/search?q=Silesian%20dumplings)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3886934)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3886934) (CC0); [Wikipedia: Silesian dumplings](https://en.wikipedia.org/wiki/Silesian_dumplings) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Sour cereal soup
+
+Sour cereal soup is a Polish traditional soup made with various types of cereals such as rye, wheat and oats, which are fermented to create a sourdough-like soup base and stirred into a pot of stock which may contain meat such as boiled sausage and bacon, along with other ingredients such as hard-boiled eggs, potatoes and dried mushrooms.
+
+- From: Poland
+- Origin (Wikidata): Poland, Bohemia
+- Ingredients (Wikidata): water, flour, sourdough, oatmeal
+
+Fun facts:
+
+- (about) Though it is also prepared in the mountainous regions of Bohemia in the Czech Republic, where it is known as kyselo.
+- (origin) Sour cereal soup comes from Poland, Bohemia.
+
+Learn more:
+
+- quick: [Sour cereal soup (Wikipedia)](https://en.wikipedia.org/wiki/Sour_cereal_soup)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Sour cereal soup (Open Library)](https://openlibrary.org/search?q=Sour%20cereal%20soup)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q703313)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q703313) (CC0); [Wikipedia: Sour cereal soup](https://en.wikipedia.org/wiki/Sour_cereal_soup) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### St. Martin's croissant
+
+St.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (culture) Martin's croissant is a croissant, a type of Viennoiserie, with white poppy-seed filling traditionally prepared in Poznań and some parts of Greater Poland region on the occasion of St.
+- (about) On 30 October 2008, the name and recipe for rogal świętomarciński was entered in the register of protected designations of origin and protected geographical indications in the European Union.
+- (origin) St. Martin's croissant comes from Poland.
+
+Learn more:
+
+- quick: [St. Martin's croissant (Wikipedia)](https://en.wikipedia.org/wiki/St._Martin%27s_croissant)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about St. Martin's croissant (Open Library)](https://openlibrary.org/search?q=St.%20Martin%27s%20croissant)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q43422)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q43422) (CC0); [Wikipedia: St. Martin's croissant](https://en.wikipedia.org/wiki/St._Martin's_croissant) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Szałot
+
+Szałot is a Silesian potato salad.
+
+- From: Poland
+- Origin (Wikidata): Silesia
+- Ingredients (Wikidata): potato
+
+Fun facts:
+
+- (culture) In 2006, szałot was placed on the Polish Ministry of Agriculture and Rural Development's list of regional and traditional foods.
+- (origin) Szałot comes from Silesia.
+
+Learn more:
+
+- quick: [Szałot (Wikipedia)](https://en.wikipedia.org/wiki/Sza%C5%82ot)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Szałot (Open Library)](https://openlibrary.org/search?q=Sza%C5%82ot)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7664181)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7664181) (CC0); [Wikipedia: Szałot](https://en.wikipedia.org/wiki/Szałot) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Szczecin paprikash
+
+Szczecin paprikash, also known as Polish paprikash, is a Polish canned fish spread made from ground fish, rice, tomato paste and vegetable oil, seasoned with onion, salt and spices.
+
+- From: Poland
+- Ingredients (Wikidata): fish
+
+Learn more:
+
+- quick: [Szczecin paprikash (Wikipedia)](https://en.wikipedia.org/wiki/Szczecin_paprikash)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Szczecin paprikash (Open Library)](https://openlibrary.org/search?q=Szczecin%20paprikash)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11802933)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q11802933) (CC0); [Wikipedia: Szczecin paprikash](https://en.wikipedia.org/wiki/Szczecin_paprikash) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Szczecin pasztecik
+
+Szczecin pasztecik is a Polish variety of pastry, a machine-produced deep-fried yeast dough stuffed with a meat or vegetarian filling, served in specialised bars as a fast food.
+
+- From: Poland
+
+Fun facts:
+
+- (culture) Szczecin pasztecik is a traditional snack food dish of Szczecin, where it was popular during the time of the Polish People's Republic and still retains this popularity, having become a cultural food of the region.
+- (about) The filling consists of either: minced beef (the oldest and the most popular), or sauerkraut and dried mushrooms, or cheese and champignons.
+
+Learn more:
+
+- quick: [Szczecin pasztecik (Wikipedia)](https://en.wikipedia.org/wiki/Szczecin_pasztecik)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Szczecin pasztecik (Open Library)](https://openlibrary.org/search?q=Szczecin%20pasztecik)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2346339)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2346339) (CC0); [Wikipedia: Szczecin pasztecik](https://en.wikipedia.org/wiki/Szczecin_pasztecik) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Taffy (candy)
+
+Taffy is a type of candy invented in the United States, made by stretching or pulling a sticky mass of a soft candy base, made of boiled sugar, butter, vegetable oil, flavorings, and colorings, until it becomes aerated (tiny air bubbles produced), resulting in a light, fluffy and chewy candy.
+
+- From: Poland
+- Origin (Wikidata): New Jersey
+- Ingredients (Wikidata): sugar
+
+Fun facts:
+
+- (origin) Taffy comes from New Jersey.
+
+Learn more:
+
+- quick: [Taffy (candy) (Wikipedia)](https://en.wikipedia.org/wiki/Taffy_%28candy%29)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Taffy (candy) (Open Library)](https://openlibrary.org/search?q=Taffy%20%28candy%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7892214)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7892214) (CC0); [Wikipedia: Taffy (candy)](https://en.wikipedia.org/wiki/Taffy_(candy)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Torte
+
+A torte (; from German: Torte, in turn from Latin via Italian: torta) is a rich, usually multilayered, cake that is filled with whipped cream, buttercreams, mousses, jams, or fruit.
+
+- From: Poland
+- Ingredients (Wikidata): buttercream, crust
+
+Learn more:
+
+- quick: [Torte (Wikipedia)](https://en.wikipedia.org/wiki/Torte)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Torte (Open Library)](https://openlibrary.org/search?q=Torte)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q130186)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q130186) (CC0); [Wikipedia: Torte](https://en.wikipedia.org/wiki/Torte) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Toruń gingerbread
+
+Toruń gingerbread is a traditional Polish gingerbread that has been produced since the Middle Ages in the city of Toruń.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Named after: Toruń
+
+Fun facts:
+
+- (inspiration) Toruń gingerbread is named after Toruń.
+- (origin) Toruń gingerbread comes from Poland.
+
+Learn more:
+
+- quick: [Toruń gingerbread (Wikipedia)](https://en.wikipedia.org/wiki/Toru%C5%84_gingerbread)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Toruń gingerbread (Open Library)](https://openlibrary.org/search?q=Toru%C5%84%20gingerbread)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q872869)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q872869) (CC0); [Wikipedia: Toruń gingerbread](https://en.wikipedia.org/wiki/Toruń_gingerbread) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Vegetable soup
+
+Vegetable soup is a common soup prepared using vegetables (including leaf vegetables, and sometimes loosely mushrooms) as primary ingredients.
+
+- From: Poland
+- Ingredients (Wikidata): water, vegetable, table salt, spice
+
+Learn more:
+
+- quick: [Vegetable soup (Wikipedia)](https://en.wikipedia.org/wiki/Vegetable_soup)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [List of Hungarian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Hungarian_dishes)
+- deep: [Books about Vegetable soup (Open Library)](https://openlibrary.org/search?q=Vegetable%20soup)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1501244)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1501244) (CC0); [Wikipedia: Vegetable soup](https://en.wikipedia.org/wiki/Vegetable_soup) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Wodzianka
+
+Wodzianka, kapłon, kapłonek – in Polish cuisine, a Silesian and Central Poland bread soup made from stale bread, fat and water (the name wodzianka comes from the word woda which means water), sometimes with vegetables.
+
+- From: Poland
+- Ingredients (Wikidata): drinking water, staling, animal fats and oils
+
+Fun facts:
+
+- (culture) Traditionally, wodzianka is prepared by soaking two- to three-day-old stale bread in water or broth and adding garlic, bay leaves, black pepper and other seasonings, fried bacon, and lard or butter.
+
+Learn more:
+
+- quick: [Wodzianka (Wikipedia)](https://en.wikipedia.org/wiki/Wodzianka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Wodzianka (Open Library)](https://openlibrary.org/search?q=Wodzianka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q990894)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q990894) (CC0); [Wikipedia: Wodzianka](https://en.wikipedia.org/wiki/Wodzianka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Zalewajka
+
+Zalewajka is a traditional rustic soup made of diced and boiled potatoes and overflowed with sour rye made from sourdough bread.
+
+- From: Poland
+
+Learn more:
+
+- quick: [Zalewajka (Wikipedia)](https://en.wikipedia.org/wiki/Zalewajka)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Zalewajka (Open Library)](https://openlibrary.org/search?q=Zalewajka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9386405)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q9386405) (CC0); [Wikipedia: Zalewajka](https://en.wikipedia.org/wiki/Zalewajka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Zapiekanka
+
+A zapiekanka is a toasted open-face sandwich made of a sliced baguette or other long roll of bread, topped with sautéed white mushrooms, cheese and sometimes other ingredients, such as ham.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Since: 1970-
+- Ingredients (Wikidata): fungi, cheese, ketchup, Agaricus bisporus
+
+Fun facts:
+
+- (culture) Served hot with ketchup, it has been a popular street food in Poland since the 1970s.
+- (history) Zapiekanka dates from 1970-.
+- (origin) Zapiekanka comes from Poland.
+
+Learn more:
+
+- quick: [Zapiekanka (Wikipedia)](https://en.wikipedia.org/wiki/Zapiekanka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Zapiekanka (Open Library)](https://openlibrary.org/search?q=Zapiekanka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q147372)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q147372) (CC0); [Wikipedia: Zapiekanka](https://en.wikipedia.org/wiki/Zapiekanka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Zrazy
+
+Zrazy or zrazi is a meat roulade dish popular in Poland (Silesian rouladen), western Belarus and Lithuania.
+
+- From: Poland
+- Ingredients (Wikidata): pork, beef, mutton
+
+Learn more:
+
+- quick: [Zrazy (Wikipedia)](https://en.wikipedia.org/wiki/Zrazy)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Zrazy (Open Library)](https://openlibrary.org/search?q=Zrazy)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q176436)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q176436) (CC0); [Wikipedia: Zrazy](https://en.wikipedia.org/wiki/Zrazy) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Šakotis
+
+Šakotis ("tree cake") is a spit cake.
+
+- From: Poland
+- Ingredients (Wikidata): flour, egg as food
+
+Fun facts:
+
+- (culture) Šakotis is a national Lithuanian, local Polish (northeasternmost part of Poland), and local westernmost Belarusian traditional spit cake, made of butter, egg whites and yolks, flour, sugar, and cream, cooked on a rotating spit in an oven or over an open fire.
+
+Learn more:
+
+- quick: [Šakotis (Wikipedia)](https://en.wikipedia.org/wiki/%C5%A0akotis)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Šakotis (Open Library)](https://openlibrary.org/search?q=%C5%A0akotis)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6882841)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6882841) (CC0); [Wikipedia: Šakotis](https://en.wikipedia.org/wiki/Šakotis) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Advocaat
+
+Advocaat or advocatenborrel is a traditional Dutch alcoholic beverage made from eggs, sugar, and brandy.
+
+- From: Poland
+- Origin (Wikidata): Netherlands
+- Since: 1700-
+- Ingredients (Wikidata): sugar, brandy, egg yolk
+
+Fun facts:
+
+- (history) Advocaat dates from 1700-.
+- (origin) Advocaat comes from Netherlands.
+
+Learn more:
+
+- quick: [Advocaat (Wikipedia)](https://en.wikipedia.org/wiki/Advocaat)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Advocaat (Open Library)](https://openlibrary.org/search?q=Advocaat)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q496934)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q496934) (CC0); [Wikipedia: Advocaat](https://en.wikipedia.org/wiki/Advocaat) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Beer in Poland
+
+Beer has been brewed in Poland for well over a thousand years and has a significant history of traditional and commercial beer production.
+
+- From: Poland
+
+Fun facts:
+
+- (about) In 2009, Poland was Europe's third largest beer producer, producing 36.9 million hectolitres, coming after the United Kingdom with 49.5 million hl and neighbouring Germany with 103 million hl.
+- (history) After the Revolution of 1989 and the shock therapy of extensive privatisation, the market economy returned, international beer companies moved in and a period of consolidation followed.
+- (about) Three companies now control 80% of the Polish beer market (according to data at the end of 2014).
+
+More fun facts (when the user asks for more):
+
+- (about) At the end of 2013, there were 97 breweries in Poland, including microbreweries and contracted breweries.
+- (about) Beer from small regional breweries, grouped in the Association of Polish Regional Breweries (Stowarzyszenie Regionalnych Browarów Polskich), crafts, contracted breweries and brewpubs has become popular and desired by consumers.
+
+Learn more:
+
+- quick: [Beer in Poland (Wikipedia)](https://en.wikipedia.org/wiki/Beer_in_Poland)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Beer in Poland (Open Library)](https://openlibrary.org/search?q=Beer%20in%20Poland)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4880014)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4880014) (CC0); [Wikipedia: Beer in Poland](https://en.wikipedia.org/wiki/Beer_in_Poland) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Bryndza
+
+Bryndza or brynza is a sheep milk cheese made across the countries in Central and Eastern Europe, most notably in Slovakia and Poland.
+
+- From: Poland
+- Ingredients (Wikidata): goat milk, sheep milk, cow's milk, milk
+
+Fun facts:
+
+- (culture) Bryndza is an essential ingredient in preparing traditional Slovak dishes such as podplamenníky s bryndzou or bryndzové halušky.
+
+Learn more:
+
+- quick: [Bryndza (Wikipedia)](https://en.wikipedia.org/wiki/Bryndza)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Bryndza (Open Library)](https://openlibrary.org/search?q=Bryndza)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q698632)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q698632) (CC0); [Wikipedia: Bryndza](https://en.wikipedia.org/wiki/Bryndza) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Bundz
+
+Bundz or budz, also known as bunc in the Podhale dialect, is a cheese traditionally produced in the Carpathian region of Poland and Ukraine.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): sheep milk
+
+Fun facts:
+
+- (about) The first phase of bundz production follows the same process as that of oscypek.
+- (origin) Bundz comes from Poland.
+
+Learn more:
+
+- quick: [Bundz (Wikipedia)](https://en.wikipedia.org/wiki/Bundz)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Bundz (Open Library)](https://openlibrary.org/search?q=Bundz)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2928184)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2928184) (CC0); [Wikipedia: Bundz](https://en.wikipedia.org/wiki/Bundz) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Chopin (vodka)
+
+Chopin is a single-ingredient vodka, 4 times distilled from either potatoes, rye or wheat.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Since: 1992-
+- Named after: Frédéric Chopin
+
+Fun facts:
+
+- (origin) Chopin was first introduced to North America in 1997.
+- (inspiration) The vodka is named after the famous Romantic composer Frédéric Chopin.
+- (history) Chopin dates from 1992-.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Chopin is named after Frédéric Chopin.
+- (about) Outcomes have generally been favorable, particularly after 2005.
+- (about) For instance, between 2006 and 2011, Chopin potato vodka earned one double gold, three gold, and two silver medals from the San Francisco World Spirits Competition.
+- (origin) Chopin comes from Poland.
+
+Learn more:
+
+- quick: [Chopin (vodka) (Wikipedia)](https://en.wikipedia.org/wiki/Chopin_%28vodka%29)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Chopin (vodka) (Open Library)](https://openlibrary.org/search?q=Chopin%20%28vodka%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3495663)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3495663) (CC0); [Wikipedia: Chopin (vodka)](https://en.wikipedia.org/wiki/Chopin_(vodka)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Coffee
+
+Coffee is a beverage brewed from roasted, ground coffee beans.
+
+- From: Poland
+- Origin (Wikidata): Ethiopia, Yemen
+- Ingredients (Wikidata): coffee bean, hot water, phytochemicals
+
+Fun facts:
+
+- (history) As it gained in popularity, coffee started to be cultivated in Java in the 17th century and the Americas from the 18th century.
+- (culture) Though coffee has become a global commodity, it has a history tied to food traditions around the Red Sea.
+- (about) The global coffee industry was worth US$495.50 billion in 2023.
+
+More fun facts (when the user asks for more):
+
+- (history) The earliest reports of coffee drinking pertain to the plant's use among the Sufis of Yemen in southern Arabia in the middle of the 15th century.
+- (history) Up to the end of the 17th century, most of the world's coffee was imported from Yemen.
+- (origin) Coffee comes from Ethiopia, Yemen.
+
+Learn more:
+
+- quick: [Coffee (Wikipedia)](https://en.wikipedia.org/wiki/Coffee)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- deep: [Books about Coffee (Open Library)](https://openlibrary.org/search?q=Coffee)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q8486)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q8486) (CC0); [Wikipedia: Coffee](https://en.wikipedia.org/wiki/Coffee) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Edible mushroom
+
+Edible mushrooms are the fleshy fruit bodies of numerous species of properly identified and prepared fungi.
+
+- From: Poland
+
+Fun facts:
+
+- (culture) Additionally, mushrooms were consumed medicinally in traditional medicine, but are not upheld by evidence.
+
+Learn more:
+
+- quick: [Edible mushroom (Wikipedia)](https://en.wikipedia.org/wiki/Edible_mushroom)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- deep: [Books about Edible mushroom (Open Library)](https://openlibrary.org/search?q=Edible%20mushroom)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q654236)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q654236) (CC0); [Wikipedia: Edible mushroom](https://en.wikipedia.org/wiki/Edible_mushroom) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Goldwasser
+
+Goldwasser (Also Danziger Goldwasser, lit. 'Gold water from Danzig'.
+
+- From: Poland
+- Ingredients (Wikidata): liqueur, gold leaf
+
+Fun facts:
+
+- (history) Goldwasser was produced from 1598 to 2009 in Gdańsk.
+- (culture) Polish: Wódka Gdańska; Kashubian: Wòdka Gduńska, with Goldwasser as the registered tradename.) is a traditional root and herbal liqueur from Central Europe.
+
+Learn more:
+
+- quick: [Goldwasser (Wikipedia)](https://en.wikipedia.org/wiki/Goldwasser)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Goldwasser (Open Library)](https://openlibrary.org/search?q=Goldwasser)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q836692)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q836692) (CC0); [Wikipedia: Goldwasser](https://en.wikipedia.org/wiki/Goldwasser) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Gołka
+
+Gołka is a type of smoked cheese originating in Poland that is similar to oscypek/oštiepok but is made exclusively from cow milk instead of sheep milk.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): cow's milk
+
+Fun facts:
+
+- (origin) Gołka comes from Poland.
+
+Learn more:
+
+- quick: [Gołka (Wikipedia)](https://en.wikipedia.org/wiki/Go%C5%82ka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Gołka (Open Library)](https://openlibrary.org/search?q=Go%C5%82ka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3027771)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3027771) (CC0); [Wikipedia: Gołka](https://en.wikipedia.org/wiki/Gołka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Groat (grain)
+
+Groats (or in some cases, "berries") are the hulled kernels of various cereal grains, such as oats, wheat, rye, and barley.
+
+- From: Poland
+
+Learn more:
+
+- quick: [Groat (grain) (Wikipedia)](https://en.wikipedia.org/wiki/Groat_%28grain%29)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Groat (grain) (Open Library)](https://openlibrary.org/search?q=Groat%20%28grain%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1436715)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1436715) (CC0); [Wikipedia: Groat (grain)](https://en.wikipedia.org/wiki/Groat_(grain)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Grodziskie
+
+Grodziskie is a historical beer style from Poland made from oak-smoked wheat malt with a clear, light golden color, high carbonation, low alcohol content, low to moderate levels of hop bitterness, and a strong smoke flavor and aroma.
+
+- From: Poland
+
+Fun facts:
+
+- (history) The beer was originally produced by brewers in the town of Grodzisk Wielkopolski in the 14th or 15th century.
+- (history) By 1993, the last brewery that was producing the style was shut down.
+
+Learn more:
+
+- quick: [Grodziskie (Wikipedia)](https://en.wikipedia.org/wiki/Grodziskie)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Grodziskie (Open Library)](https://openlibrary.org/search?q=Grodziskie)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11818755)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q11818755) (CC0); [Wikipedia: Grodziskie](https://en.wikipedia.org/wiki/Grodziskie) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Ham sausage
+
+Ham sausage is a sausage prepared using ham and other ingredients, the latter varying by location.
+
+- From: Poland
+- Ingredients (Wikidata): ham
+
+Learn more:
+
+- quick: [Ham sausage (Wikipedia)](https://en.wikipedia.org/wiki/Ham_sausage)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Ham sausage (Open Library)](https://openlibrary.org/search?q=Ham%20sausage)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1419841)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1419841) (CC0); [Wikipedia: Ham sausage](https://en.wikipedia.org/wiki/Ham_sausage) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Herbal tea
+
+Herbal teas or herb teas, technically known as herbal infusions and less commonly called tisanes, are beverages made from the infusion or decoction in water of any herbs, spices, or other plant material (except tea leaves).
+
+- From: Poland
+- Ingredients (Wikidata): spice, herb, hot water, plant material, floral tea
+
+Learn more:
+
+- quick: [Herbal tea (Wikipedia)](https://en.wikipedia.org/wiki/Herbal_tea)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- deep: [Books about Herbal tea (Open Library)](https://openlibrary.org/search?q=Herbal%20tea)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q379932)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q379932) (CC0); [Wikipedia: Herbal tea](https://en.wikipedia.org/wiki/Herbal_tea) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Herring as food
+
+Herring are forage fish in the wild, mostly belonging to the family Clupeidae.
+
+- From: Poland
+
+Learn more:
+
+- quick: [Herring as food (Wikipedia)](https://en.wikipedia.org/wiki/Herring_as_food)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- deep: [Books about Herring as food (Open Library)](https://openlibrary.org/search?q=Herring%20as%20food)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17077995)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17077995) (CC0); [Wikipedia: Herring as food](https://en.wikipedia.org/wiki/Herring_as_food) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kaszanka
+
+Kaszanka is a traditional blood sausage in Central and Eastern European cuisine.
+
+- From: Poland
+- Ingredients (Wikidata): blood, table salt, spice, pork, groat
+
+Fun facts:
+
+- (origin) The dish likely originated in Germany or Denmark.
+- (culture) Kaszanka may be eaten cold, but traditionally, it is either grilled or fried with onions and then served with potatoes and sauerkraut.
+
+Learn more:
+
+- quick: [Kaszanka (Wikipedia)](https://en.wikipedia.org/wiki/Kaszanka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Kaszanka (Open Library)](https://openlibrary.org/search?q=Kaszanka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q491361)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q491361) (CC0); [Wikipedia: Kaszanka](https://en.wikipedia.org/wiki/Kaszanka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kefir
+
+Kefir is a fermented milk drink similar to a thin yogurt or ayran that is made from kefir grains, a specific type of mesophilic symbiotic culture.
+
+- From: Poland
+- Origin (Wikidata): Circassia
+- Ingredients (Wikidata): milk
+
+Fun facts:
+
+- (origin) Kefir comes from Circassia.
+
+Learn more:
+
+- quick: [Kefir (Wikipedia)](https://en.wikipedia.org/wiki/Kefir)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Kefir (Open Library)](https://openlibrary.org/search?q=Kefir)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q185749)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q185749) (CC0); [Wikipedia: Kefir](https://en.wikipedia.org/wiki/Kefir) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kielbasa
+
+Kielbasa is any type of meat sausage from Poland and a staple of Polish cuisine.
+
+- From: Poland
+- Origin (Wikidata): Poland, Ukraine
+
+Fun facts:
+
+- (origin) Kielbasa comes from Poland, Ukraine.
+
+Learn more:
+
+- quick: [Kielbasa (Wikipedia)](https://en.wikipedia.org/wiki/Kielbasa)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Kielbasa (Open Library)](https://openlibrary.org/search?q=Kielbasa)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q829720)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q829720) (CC0); [Wikipedia: Kielbasa](https://en.wikipedia.org/wiki/Kielbasa) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kluski
+
+Kluski (singular: klusek or kluska; from German Klöße) are soft Polish dumplings of various sorts, usually without filling.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): dough
+
+Fun facts:
+
+- (origin) Kluski comes from Poland.
+
+Learn more:
+
+- quick: [Kluski (Wikipedia)](https://en.wikipedia.org/wiki/Kluski)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Kluski (Open Library)](https://openlibrary.org/search?q=Kluski)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1280741)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1280741) (CC0); [Wikipedia: Kluski](https://en.wikipedia.org/wiki/Kluski) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Knedle
+
+Knedle (plural from German: Knödel, lit. 'dumpling'), is a dish of boiled ball- or oval-shaped dumplings with a filling.
+
+- From: Poland
+
+Fun facts:
+
+- (origin) Dumplings originated in the Austro-Hungarian Empire.
+- (about) Knedle are popular in Central and Eastern European countries.
+
+Learn more:
+
+- quick: [Knedle (Wikipedia)](https://en.wikipedia.org/wiki/Knedle)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Knedle (Open Library)](https://openlibrary.org/search?q=Knedle)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5265534)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5265534) (CC0); [Wikipedia: Knedle](https://en.wikipedia.org/wiki/Knedle) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Knysza
+
+Knysza is a type of fast food, consisting of a bread roll amply filled with a variety of ingredients.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (history) Knysza is most popular in Wrocław, where the meal rose in popularity in the 1990s.
+- (origin) Knysza comes from Poland.
+- (history) The original knysza is vegetarian and is named "knysza with vegetables" (knysza z warzywami), with the bread roll solely infilled with fresh vegetables (white and red cabbage, tomato, cucumber and canned sweetcorn), generously topped with garlic sauce, mayonnaise or spicy sauce, besprinkled with roasted onion.
+
+Learn more:
+
+- quick: [Knysza (Wikipedia)](https://en.wikipedia.org/wiki/Knysza)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Knysza (Open Library)](https://openlibrary.org/search?q=Knysza)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25234965)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q25234965) (CC0); [Wikipedia: Knysza](https://en.wikipedia.org/wiki/Knysza) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Korycinski
+
+Koryciński, also known as "Swojski" (homemade), is a hard cheese made from cow's milk, named after the village of Korycin in Poland, and made in the Podlaskie Voivodeship in eastern Poland.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (culture) In the traditional technique of producing the cheese, dried and powderized veal stomachs were used as rennet.
+- (origin) Korycinski comes from Poland.
+- (culture) In 2005, the Koryciński cheese was included on the list of traditional food products by the Ministry of Agriculture of Poland.
+
+Learn more:
+
+- quick: [Korycinski (Wikipedia)](https://en.wikipedia.org/wiki/Korycinski)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Korycinski (Open Library)](https://openlibrary.org/search?q=Korycinski)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q927281)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q927281) (CC0); [Wikipedia: Korycinski](https://en.wikipedia.org/wiki/Korycinski) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kraków sausage
+
+The Kraków sausage, also known by its German name, Krakauer, is a type of Polish sausage (kielbasa), usually served as a cold cut.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): pork
+
+Fun facts:
+
+- (history) The name is the adjective form of the name of the city of Kraków (medieval capital of the Polish–Lithuanian Commonwealth until the late 16th century).
+- (culture) Kraków sausage is registered under the name Kiełbasa krakowska sucha staropolska ("old-Polish dry sausage of Kraków") as a Traditional Speciality Guaranteed product in the European Union and the United Kingdom.
+- (origin) Kraków sausage comes from Poland.
+
+Learn more:
+
+- quick: [Kraków sausage (Wikipedia)](https://en.wikipedia.org/wiki/Krak%C3%B3w_sausage)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Kraków sausage (Open Library)](https://openlibrary.org/search?q=Krak%C3%B3w%20sausage)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2752204)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2752204) (CC0); [Wikipedia: Kraków sausage](https://en.wikipedia.org/wiki/Kraków_sausage) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Mead in Poland
+
+Mead is an alcoholic beverage within Polish culinary tradition made by alcoholic fermentation of a mixture of honey and water.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (culture) In 2008, four traditional Polish mead grades, which indicate the proportion of honey and water used in production, were registered by the European Union as a traditional speciality guaranteed.
+- (origin) Mead in Poland comes from Poland.
+- (culture) Production of mead in Poland almost doubled within the next four years, making Poland the world's largest producer of mead made according to traditional methods.
+
+Learn more:
+
+- quick: [Mead in Poland (Wikipedia)](https://en.wikipedia.org/wiki/Mead_in_Poland)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Mead in Poland (Open Library)](https://openlibrary.org/search?q=Mead%20in%20Poland)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q30315063)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q30315063) (CC0); [Wikipedia: Mead in Poland](https://en.wikipedia.org/wiki/Mead_in_Poland) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Nalewka
+
+Nalewka, plural nalewki, is a traditional alcoholic beverage from Poland.
+
+- From: Poland
+
+Fun facts:
+
+- (history) It could also be confused with its cognate, nalivka or nalyvka, popular in Ukraine since the 17th century and in Russia since the second half of the 16th century.
+
+Learn more:
+
+- quick: [Nalewka (Wikipedia)](https://en.wikipedia.org/wiki/Nalewka)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Nalewka (Open Library)](https://openlibrary.org/search?q=Nalewka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2655726)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2655726) (CC0); [Wikipedia: Nalewka](https://en.wikipedia.org/wiki/Nalewka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Oscypek
+
+Oscypek, rarely oszczypek, is a smoked cheese made of salted sheep milk exclusively in the Tatra Mountains region of Poland.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): sheep milk, smoked cheese
+
+Fun facts:
+
+- (about) Oscypek is made by an expert named "baca", a term also denoting a shepherd in the mountains.
+- (culture) The cheese is a traditional holiday cheese in some European countries and is often pan-fried and served with cranberry jam (żurawina) on the side.
+- (origin) Oscypek comes from Poland.
+
+Learn more:
+
+- quick: [Oscypek (Wikipedia)](https://en.wikipedia.org/wiki/Oscypek)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Oscypek (Open Library)](https://openlibrary.org/search?q=Oscypek)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q72447)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q72447) (CC0); [Wikipedia: Oscypek](https://en.wikipedia.org/wiki/Oscypek) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Quark (dairy product)
+
+Quark or quarg (sometimes translated as curd cheese) is a type of fresh dairy product made from milk.
+
+- From: Poland
+- Ingredients (Wikidata): milk, cheese, Streptococcus cremoris, Streptococcus lactis
+
+Fun facts:
+
+- (culture) Traditional quark can be made without rennet, but in modern dairies small quantities of rennet are typically added.
+- (culture) Quark and its drier variant tvorog are traditional in various European cuisines.
+
+Learn more:
+
+- quick: [Quark (dairy product) (Wikipedia)](https://en.wikipedia.org/wiki/Quark_%28dairy_product%29)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Quark (dairy product) (Open Library)](https://openlibrary.org/search?q=Quark%20%28dairy%20product%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q259642)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q259642) (CC0); [Wikipedia: Quark (dairy product)](https://en.wikipedia.org/wiki/Quark_(dairy_product)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Soft drink
+
+A soft drink (see § Terminology for other names) is a class of beverage containing no alcohol, usually (but not necessarily) carbonated, and typically including added sweetener.
+
+- From: Poland
+- Ingredients (Wikidata): carbonated water
+
+Fun facts:
+
+- (history) White's Lemonade in 1845, Moxie in 1876, Dr Pepper in 1885 and Coca-Cola in 1886.
+- (history) Within a decade of the invention of carbonated water by Joseph Priestley in 1767, inventors in Europe had used his concept to produce the drink in greater quantities.
+- (history) Schweppe, formed Schweppes in 1783 and began selling the world's first bottled soft drink.
+
+Learn more:
+
+- quick: [Soft drink (Wikipedia)](https://en.wikipedia.org/wiki/Soft_drink)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- deep: [Books about Soft drink (Open Library)](https://openlibrary.org/search?q=Soft%20drink)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q147538)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q147538) (CC0); [Wikipedia: Soft drink](https://en.wikipedia.org/wiki/Soft_drink) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tea
+
+Tea is an aromatic beverage prepared by infusion of hot or boiling fresh water with fresh or cured leaves of Camellia sinensis, an evergreen shrub native to East Asia that originated in the borderlands of southwestern China, northeast India and northern Myanmar.
+
+- From: Poland
+- Ingredients (Wikidata): water, sugar, caffeine, tannin, hot water, tea leaves
+
+Fun facts:
+
+- (history) Early credible record of tea drinking dates to the 3rd century AD, in a Chinese medical text written by Eastern Han dynasty physician Hua Tuo.
+- (inspiration) Tea was consumed as a recreational and social beverage during the Tang dynasty, and Chinese tea culture-inspired ceremonial drinking spread to other Sinospheric countries such as Japan (where it is known as chado), Korea (known as darye) and Vietnam (typically as part of a wedding ritual).
+- (origin) Outside of the Far East, Portuguese priests and merchants introduced tea drinking to Europe during the 16th century.
+
+More fun facts (when the user asks for more):
+
+- (culture) Traditionally, tea is made by steeping loose tea leaves in hot water (usually in a teapot or teacup) for a period of time, or in the case of compressed and fermented tea, via decoction (simmering) in a kettle.
+
+Learn more:
+
+- quick: [Tea (Wikipedia)](https://en.wikipedia.org/wiki/Tea)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
+- deep: [Books about Tea (Open Library)](https://openlibrary.org/search?q=Tea)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6097)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6097) (CC0); [Wikipedia: Tea](https://en.wikipedia.org/wiki/Tea) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tvorog
+
+Tvorog is a soft, white, fermented milk product, traditionally made in regions of Central, Eastern and (less commonly) Northern Europe.
+
+- From: Poland
+- Origin (Wikidata): Poland, Russia, Ukraine, Czech Republic, Slovakia
+- Ingredients (Wikidata): milk, pasteurized milk, Streptococcus lactis
+
+Fun facts:
+
+- (culture) Traditionally prepared tvorog is customarily classified according to its fat content.
+- (origin) Tvorog comes from Poland, Russia, Ukraine, Czech Republic, Slovakia.
+
+Learn more:
+
+- quick: [Tvorog (Wikipedia)](https://en.wikipedia.org/wiki/Tvorog)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Tvorog (Open Library)](https://openlibrary.org/search?q=Tvorog)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q116007203)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q116007203) (CC0); [Wikipedia: Tvorog](https://en.wikipedia.org/wiki/Tvorog) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Wściekły pies
+
+Wściekły pies ("rabid dog" or “mad dog”) is a Polish alcoholic drink consisting of a 1 cl shot of vodka, a shot of raspberry or blackcurrant syrup, and several drops of tabasco sauce.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Ingredients (Wikidata): vodka, Tabasco sauce, shot glass, raspberry syrup
+
+Fun facts:
+
+- (origin) Wściekły pies originated in West Pomerania, in Świnoujście by Dariusz Ryżczak, known restaurateur and cultural animator.
+- (culture) Wściekły pies is traditionally drunk in a single gulp, with the ingredients mixing in the mouth, and the syrup softening the taste of the vodka and tabasco.
+- (origin) Wściekły pies comes from Poland.
+
+Learn more:
+
+- quick: [Wściekły pies (Wikipedia)](https://en.wikipedia.org/wiki/W%C5%9Bciek%C5%82y_pies)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Wściekły pies (Open Library)](https://openlibrary.org/search?q=W%C5%9Bciek%C5%82y%20pies)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4418631)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4418631) (CC0); [Wikipedia: Wściekły pies](https://en.wikipedia.org/wiki/Wściekły_pies) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Żubrówka
+
+Żubrówka Bison Grass Vodka is a flavored Polish vodka which contains a blade of bison grass (Hierochloe odorata) in every bottle.
+
+- From: Poland
+- Origin (Wikidata): Poland
+- Since: 1600-
+
+Fun facts:
+
+- (history) While it is claimed that the recipe dates back as far as the 14th century, commercial production of Bison Grass Vodka first began at the distillery in 1928.
+- (about) Since 2022, it has been owned by the Maspex Group.
+- (origin) Żubrówka comes from Poland.
+
+More fun facts (when the user asks for more):
+
+- (history) Żubrówka dates from 1600-.
+
+Learn more:
+
+- quick: [Żubrówka (Wikipedia)](https://en.wikipedia.org/wiki/%C5%BBubr%C3%B3wka)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Żubrówka (Open Library)](https://openlibrary.org/search?q=%C5%BBubr%C3%B3wka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q393188)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q393188) (CC0); [Wikipedia: Żubrówka](https://en.wikipedia.org/wiki/Żubrówka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Žinčica
+
+Žinčica (in Slovak), Žinčice (in Czech), Żętyca (in Polish), Жентиця (Žentyća) (in Ukrainian), or Zyntyca (in Goralic), Jintiță (Romanian language) is a drink made of sheep milk whey similar to kefir consumed mostly in Slovakia and Poland.
+
+- From: Poland
+- Ingredients (Wikidata): sheep milk
+
+Fun facts:
+
+- (culture) Traditionally, this drink is served in a črpák, a wooden cup with a pastoral scene carved into the handle.
+
+Learn more:
+
+- quick: [Žinčica (Wikipedia)](https://en.wikipedia.org/wiki/%C5%BDin%C4%8Dica)
+- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- deep: [Books about Žinčica (Open Library)](https://openlibrary.org/search?q=%C5%BDin%C4%8Dica)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q538932)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q538932) (CC0); [Wikipedia: Žinčica](https://en.wikipedia.org/wiki/Žinčica) (CC BY-SA 4.0). Review: auto-cleaned.

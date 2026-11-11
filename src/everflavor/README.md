@@ -25,6 +25,7 @@ add `src/` to the path for you.
 | | `cooking.py` | Cooking methods and fats (notebook 02) |
 | | `cooking_time.py` | Cook-time estimates for recipes without a time (`estimate_minutes`, `time_label`): gradient boosting on the times in the steps and similar Food.com names; `minutes_source` says "recipe" or which estimate, real times are never replaced |
 | | `knowledge.py` | Pairings, substitutions, shelf life, names (notebook 04) |
+| | `dish_knowledge.py` | The waiter's dish knowledge (0.6.3): tidies the collected facts (sources' words only), sorts them by topic, writes one page per country (notebook 11) |
 | | `variants.py` | Diet versions of each dish (notebook 06) |
 | | `stores.py` | Stores and products, where to buy (notebook 03) |
 | | `seasons.py` | Meat supply season and pasture season (notebook 08) |
