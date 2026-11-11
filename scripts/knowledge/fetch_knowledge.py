@@ -261,7 +261,9 @@ SELECT ?dish ?value ?valueLabel WHERE {{
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
 }}"""
 FACT_PROPS = {"P31": "types", "P279": "types", "P495": "origin", "P571": "inception", "P527": "parts", "P186": "made_from",
-              "P138": "named_after", "P1435": "heritage"}
+              "P138": "named_after", "P1435": "heritage",
+              # who made it first and where (the "what inspired it" facts), and what it was based on
+              "P61": "inventor", "P1071": "created_in", "P144": "based_on", "P1889": "not_to_confuse"}
 
 
 def wikidata_facts(qids: list[str]) -> dict[str, dict[str, list[str]]]:
@@ -368,12 +370,12 @@ def main() -> None:
 
     listed: dict[str, dict] = {}   # title -> where it was listed (country, region, lists, sections, regions)
     missing = []
-    for country, region, page in sources():
-        rows = list_rows(page)
+    for country, region, list_page in sources():
+        rows = list_rows(list_page)
         if not rows:
-            missing.append(page)
+            missing.append(list_page)
             continue
-        print(f"{country or 'group'} / {region or '-'}: {page}: {len(rows)} rows")
+        print(f"{country or 'group'} / {region or '-'}: {list_page}: {len(rows)} rows")
         for r in rows:
             entry = listed.setdefault(r["title"], {"country": country, "region": region, "lists": [],
                                                    "sections": [], "regions": []})
@@ -381,10 +383,10 @@ def main() -> None:
                 # A region page is the most precise: it sets the region and the country, and its page comes
                 # first in "learn more"
                 entry["country"], entry["region"] = country, region
-                entry["lists"].insert(0, page)
+                entry["lists"].insert(0, list_page)
             entry["country"] = entry["country"] or country
-            if page not in entry["lists"]:
-                entry["lists"].append(page)
+            if list_page not in entry["lists"]:
+                entry["lists"].append(list_page)
             if r["section"] and r["section"] not in entry["sections"]:
                 entry["sections"].append(r["section"])
             entry["regions"] += [x for x in r["regions"] if x not in entry["regions"]]

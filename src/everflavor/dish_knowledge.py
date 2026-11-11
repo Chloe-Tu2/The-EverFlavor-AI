@@ -77,6 +77,14 @@ def wikidata_lines(dish: dict, name: str) -> list[str]:
         lines.append(f"{name} dates from {dish['inception'][0]}.")
     if dish.get("heritage"):
         lines.append(f"{name} is listed as {', '.join(dish['heritage'])}.")
+    if dish.get("inventor"):
+        lines.append(f"{name} was first made by {', '.join(dish['inventor'])}.")
+    if dish.get("created_in"):
+        lines.append(f"{name} was first made in {', '.join(dish['created_in'])}.")
+    if dish.get("based_on"):
+        lines.append(f"{name} is based on {', '.join(dish['based_on'])}.")
+    if dish.get("not_to_confuse"):
+        lines.append(f"Not to be confused with {', '.join(dish['not_to_confuse'])}.")
     return lines
 
 
