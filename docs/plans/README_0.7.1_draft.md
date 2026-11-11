@@ -59,8 +59,10 @@ its history, what's in it, what to try next, and where to read more (by interest
 dish knowledge in [data/knowledge/](data/knowledge/README.md) (Wikipedia, credited, and Wikidata; 4,827 dishes and
 foods), never invented; a fact a reviewer marked "drop" is never said. Questions are screened (an injection test set
 of 71 questions) and rate-limited, and allergy answers only explain the back end's flags. Settings > Walter's style
-picks what he leads with. With Ollama on your computer he can retell his stories (off by default; a retelling that
-adds a name, number, food or link is thrown away).
+picks what he leads with, and the tone picks how he tells it: Fun, Funny, Just the facts, Key points, Broad or
+Simple (in Settings, on his panel, or by asking "keep it simple"). With Ollama on your computer he can retell his
+stories in that tone (off by default; a retelling that adds a name, number, food or link, or loses the fact, is
+thrown away).
 
 **Safety stays in the back end.** The page only shows what `src/everflavor` decided; diet labels say
 "halal-friendly ingredients", never "halal", and medical profiles are screens, not advice.

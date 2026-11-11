@@ -150,3 +150,59 @@ def test_injection_set() -> None:
     wrong = [(r["expected"], r["text"]) for r in rows
              if ("block" if waiter.screen_question(r["text"])[1] else "allow") != r["expected"]]
     assert wrong == []
+
+
+# ------------------------------------------------------------------ tones (how Walter tells a fact)
+
+def test_tones_change_which_facts_and_how_many() -> None:
+    simple = waiter.ask("tell me a fun fact", ctx(), "Food Enthusiast", tone_name="Simple")
+    shortest = min((f["text"] for f in waiter.facts_for(TACO)), key=len)
+    assert simple.text == shortest                                   # one fact, the shortest
+    points = waiter.ask("tell me a fun fact", ctx(), tone_name="Key points")
+    assert 2 <= points.text.count("\n- ") + 1 <= 3 and points.text.startswith("- ")
+    facts = waiter.ask("where is it from?", ctx(), tone_name="Just the facts")
+    assert "Mexico" in facts.text and not facts.lead
+    funny = waiter.ask("tell me a fun fact", ctx(), tone_name="Funny")
+    assert funny.lead in waiter.TONES["Funny"].openers and funny.sources   # Walter's lead-in, the source's fact
+    broad = waiter.ask("tell me a fun fact", ctx(), tone_name="Broad")
+    assert broad.links and all(link["level"] in ("quick", "more") for link in broad.links)
+    card = waiter.insight(TACO, tone_name="Simple")
+    assert card is not None and card.text == shortest
+
+
+def test_asking_for_a_tone_switches_it_and_retells_the_last_answer() -> None:
+    assert waiter.split_tone("make it funny") == ("Funny", "")
+    assert waiter.split_tone("Just the facts please, where is it from?")[0] == "Just the facts"
+    assert waiter.split_tone("Can you keep it simple?") == ("Simple", "")
+    assert waiter.split_tone("give me the big picture") == ("Broad", "")
+    assert waiter.split_tone("are broad beans in it?")[0] is None          # food words are not tone requests
+    assert waiter.split_tone("tell me more fun facts")[0] is None
+    again = waiter.ask("make it funny", ctx(), last_skill="history")
+    assert again.tone == "Funny" and again.skill == "history" and again.lead
+    mixed = waiter.ask("just the facts: where is it from?", ctx())
+    assert mixed.tone == "Just the facts" and mixed.skill == "origin"
+    assert waiter.ask("tell me a fun fact", ctx()).tone == ""
+
+
+def test_reword_follows_the_tone() -> None:
+    calls: list = []
+    assert waiter.reword(STORY, "m", chat=fake_chat("x", calls), tone_name="Just the facts") is STORY
+    assert calls == []                                               # never sent: the sources' own words
+    waiter.reword(STORY, "m", chat=fake_chat("x", calls), tone_name="Simple")
+    assert "everyday words" in calls[0][0]["content"]
+    long_simple = STORY.text + " Legend has it the taco was named after silver miners."
+    assert waiter.reword(STORY, "m", chat=fake_chat(long_simple), tone_name="Simple") is STORY
+    points = waiter.Reply("- Legend has it the taco was named after silver miners' charges.\n- Tacos are eaten at "
+                          "festivals across Mexico.", skill="fun_fact")
+    told = "1. The taco was named after silver miners' charges.\n* Tacos are eaten at festivals in Mexico."
+    out = waiter.reword(points, "m", chat=fake_chat(told), tone_name="Key points", dish_name="Taco")
+    assert out.reworded and out.text.split("\n") == ["- The taco was named after silver miners' charges.",
+                                                     "- Tacos are eaten at festivals in Mexico."]
+    four = "\n".join(["- Tacos are eaten at festivals."] * 4)
+    assert waiter.reword(points, "m", chat=fake_chat(four), tone_name="Key points") is points
+
+
+def test_a_retelling_that_loses_the_fact_is_thrown_away() -> None:
+    note = "Pizza: Modern pizza was born in Naples in the 18th century."
+    assert str(waiter.reword_problem(note, "Pizza is a yummy food that people love to eat.")).startswith("dropped")
+    assert waiter.reword_problem(note, "Pizza as we know it was born in Naples in the 18th century!") is None

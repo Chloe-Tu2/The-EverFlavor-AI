@@ -531,17 +531,36 @@ def walter_panel(row: pd.Series, dish: str, country: object) -> None:
     turns = st.session_state.setdefault("walter_turns", {})
     turn = turns.get(dish, 0)
     style_name = PREFS["walter"]
-    card = waiter.insight(entry, style_name, turn)
+    # A typed "make it funny" switches the tone before the tone chips are drawn (once per new question)
+    typed_now = str(st.session_state.get(f"walter_q_{dish}") or "")
+    if typed_now and typed_now != st.session_state.get("walter_tone_seen"):
+        st.session_state["walter_tone_seen"] = typed_now
+        asked = waiter.split_tone(waiter.screen_question(typed_now)[0])[0]
+        if asked:
+            PREFS["tone"] = asked
+            st.query_params["tone"] = asked   # the address is written before this dialog runs
+            st.session_state["tone_picked"] = True
+    tone = waiter.TONES[PREFS["tone"]]
+    card = waiter.insight(entry, style_name, turn, tone.label)
     face, words = st.columns([1, 9], vertical_alignment="center")
     face.image(str(ART / f"walter_{card.mood if card else 'happy'}.png"), width=96)
     if card:
-        words.markdown(f"**Walter, your waiter:** {html.escape(card.text)}<br>{credit(card.sources)}",
+        lead = f"{html.escape(card.lead)} " if card.lead else ""
+        words.markdown(f"**Walter, your waiter:** {lead}{html.escape(card.text)}<br>{credit(card.sources)}",
                        unsafe_allow_html=True)
     else:
         words.markdown(f"**Walter, your waiter:** {html.escape(waiter.GREETING)}")
+    # How he tells it: the same setting as Settings > How Walter tells facts, kept in the page address
+    if st.session_state.get("walter_tone") != PREFS["tone"]:
+        st.session_state["walter_tone"] = PREFS["tone"]
+    st.pills("How should I tell it?", list(waiter.TONES), key="walter_tone", on_change=pick_tone,
+             help=" ".join(f"{t.label}: {t.blurb}" for t in waiter.TONES.values()))
+    if not st.session_state.get("tone_picked") and "tone" not in st.session_state.get("tone_from_url", ()):
+        st.caption("New here? Pick how I tell my facts, or just ask (\"keep it simple\", \"make it funny\"). "
+                   "I'll remember it; it's also in Settings.")
     if entry and (entry.get("more_fun_facts") or entry.get("learn_more")):
         with st.expander("Tell me more"):
-            for fact in waiter.facts_for(entry, preset=waiter.PRESETS[style_name])[:6]:
+            for fact in waiter.facts_for(entry, preset=waiter.PRESETS[style_name], tone=tone)[:6]:
                 st.markdown(f"- *{fact['topic']}*: {html.escape(fact['text'])}", unsafe_allow_html=True)
             links = [link for link in entry.get("learn_more", []) if link["level"] in waiter.PRESETS[style_name].links]
             if links:
@@ -560,14 +579,23 @@ def walter_panel(row: pd.Series, dish: str, country: object) -> None:
     ctx = waiter.Context(dish=entry, dish_name=dish, ingredients=ingredients,
                          flags=flags, avoid=avoid, knowledge=notes, turn=turn)
     skill = next((s.name for s in waiter.SKILLS if s.label == chip), None) if chip and not typed else None
+    last = st.session_state.setdefault("walter_last", {})
     with st.spinner(waiter.waiting_line(turn)):
-        reply = waiter.ask(typed, ctx, style_name, limiter, log, skill=skill)
+        reply = waiter.ask(typed, ctx, style_name, limiter, log, skill=skill, tone_name=tone.label,
+                           last_skill=last.get(dish))
         if PREFS["retell"] and ai["kind"] == "ollama":   # opt-in; story answers only, checked, else the sources' words
-            reply = waiter.reword(reply, ai["model"], profile, style_name, dish_name=dish)
+            reply = waiter.reword(reply, ai["model"], profile, style_name, dish_name=dish,
+                                  tone_name=reply.tone or tone.label)
     turns[dish] = turn + 1
+    if reply.skill != "refused":
+        last[dish] = reply.skill
     face, words = st.columns([1, 9], vertical_alignment="center")
     face.image(str(ART / f"walter_{reply.mood}.png"), width=96)
-    words.markdown(md_text(reply.text))   # plain text: a model's words never become links or markup
+    if reply.tone:
+        words.caption(f"Okay: {reply.tone.lower()} from now on (Settings > How Walter tells facts).")
+    said = "  \n".join(md_text(line) for line in reply.text.split("\n"))   # one point per line (Key points)
+    lead = f"*{md_text(reply.lead)}*  \n" if reply.lead and not reply.reworded else ""
+    words.markdown(lead + said)   # plain text: a model's words never become links or markup
     if reply.sources:
         note = " Retold by the local AI from this source." if reply.reworded else ""
         words.markdown(credit(reply.sources) + f"<small>{note}</small>", unsafe_allow_html=True)
@@ -808,11 +836,13 @@ HOURS = ["Morning", "Afternoon", "Evening", "Night"]
 # The kitchen settings survive a refresh: they live in the page address (?theme=Mexican&hour=Night), never on a
 # server. They are kept in st.session_state["prefs"], not in the widgets' own state: Streamlit can drop or reset a
 # widget's state between reruns (the time of day once jumped back to Morning), the prefs never change by themselves.
-SETTING_CHOICES = {"theme": list(THEMES), "hour": HOURS, "cook": ["Man", "Woman"], "walter": list(waiter.PRESETS)}
+SETTING_CHOICES = {"theme": list(THEMES), "hour": HOURS, "cook": ["Man", "Woman"], "walter": list(waiter.PRESETS),
+                   "tone": list(waiter.TONES)}
 SETTING_DEFAULTS = {"theme": "Classic", "hour": "Afternoon", "cook": "Man", "use_clock": False, "follow_cuisine": True,
-                    "walter": "Balanced", "retell": False}
+                    "walter": "Balanced", "tone": waiter.DEFAULT_TONE, "retell": False}
 if "prefs" not in st.session_state:
     prefs = dict(SETTING_DEFAULTS)
+    st.session_state["tone_from_url"] = tuple(st.query_params)   # a returning visitor already picked a tone
     for name, value in st.query_params.items():
         if name in SETTING_CHOICES and value in SETTING_CHOICES[name]:
             prefs[name] = value
@@ -830,6 +860,15 @@ def keep_pref(name: str) -> None:
     PREFS[name] = st.session_state[f"set_{name}"]
     if name == "theme":
         PREFS["follow_cuisine"] = False
+    if name == "tone":
+        st.session_state["tone_picked"] = True
+
+
+def pick_tone() -> None:
+    """Walter's tone chips changed: the same setting as Settings (a click on the picked chip keeps it)."""
+    if st.session_state.get("walter_tone"):
+        PREFS["tone"] = st.session_state["walter_tone"]
+    st.session_state["tone_picked"] = True
 
 
 theme_name = PREFS["theme"]
@@ -987,6 +1026,10 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
                  help="How Walter talks about dishes: Fun Food Explorer leads with stories, Chef Expert with history "
                       "and the deep reading links, Ingredient Guide with what's in it, Personal Concierge with what "
                       "to try next.")
+    st.selectbox("How Walter tells facts", SETTING_CHOICES["tone"], index=SETTING_CHOICES["tone"].index(PREFS["tone"]),
+                 key="set_tone", on_change=keep_pref, args=("tone",),
+                 help=" ".join(f"{t.label}: {t.blurb}" for t in waiter.TONES.values()) + " You can also pick it on "
+                      "Walter's panel, or ask him (\"keep it simple\", \"just the facts\").")
     st.toggle("Remember my saved recipes on this device", key="remember_saved",
               help="Saved recipes stay in this browser's storage, on your device only; nothing is sent to us. "
                    "Turning this off forgets them here when the page closes.")
@@ -997,7 +1040,7 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
               on_change=keep_pref, args=("retell",),
               help="Needs Ollama on this computer. Walter's story answers are retold in his voice; a retelling that "
                    "adds a name, number, food or link is thrown away and the source's words are shown. Safety and "
-                   "ingredient answers are never retold. Small models can still bend a fact, so it is off by default.")
+                   "ingredient answers, and the \"Just the facts\" tone, are never retold. Small models can still bend a fact, so it is off by default.")
     # Feedback goes to the project's GitHub issue forms (.github/ISSUE_TEMPLATE); only the version is filled in,
     # never the user's profile
     st.divider()
