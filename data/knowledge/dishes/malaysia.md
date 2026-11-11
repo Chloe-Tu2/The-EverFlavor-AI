@@ -12,8 +12,16 @@ Ais kacang or air batu campur, Jawi: ‏اءير باتو چمڤور "mixed ice"
 
 Fun facts:
 
+- (history) Some earlier variants of ais kacang are no longer sold, such as the ice ball version of the dessert, which was popular during the 1950s and 1960s.
 - (culture) Traditionally, an ice shaving machine is used to churn out the shaved ice used in the dessert, originally hand cranked but now more often motorised.
 - (origin) Ais kacang comes from Malaysia.
+
+More fun facts (when the user asks for more):
+
+- (history) The dish underwent many different alterations and variants throughout the history of Singapore, where during the 1920s, one version of it was described as shaved ice topped with rose water, lime or liquorice.
+- (history) A version of the dish, known as kachang mera using canned adzuki (in Malay: kacang merah "red bean", hence named such) was also sold during the 1930s.
+- (history) By the 1940s, the version of the dish described as having "shaved ice heaped into a little mountain", topped with red/adzuki beans, "a Chinese grape-like fruit", syrup, and condensed or evaporated milk, similar to how it is being prepared today, began to appear.
+- (history) Early versions of ice kacang was first known to have been prepared around the time before and after the First World War, where costs of manufacturing ice (in Malay: air batu or ais) became more affordable.
 
 Learn more:
 
@@ -203,6 +211,7 @@ Chicken chop is a dish invented by Hainanese migrant workers during the colonial
 
 Fun facts:
 
+- (inspiration) Chicken chop is traditionally served with black pepper sauce or a Hainanese-style brown sauce (based on tomato ketchup, A1 or Worcestershire sauce, soy sauce, and a thickening agent), accompanied by a side of fries and vegetables usually in the form of salad or coleslaw.
 - (origin) Chicken chop comes from Malaysia.
 
 Learn more:
@@ -225,6 +234,11 @@ Chilli crab is a Southeast Asian seafood dish popular in Malaysian and Singapore
 Fun facts:
 
 - (origin) The modern version of the dish originated in the region in the 1950s.
+- (origin) The Portuguese introduced chilli peppers to Malacca in the 16th century.
+- (origin) A related dish, ketam balado, is a drier crab dish prepared with balado, a spicy mixture originating in the Minangkabau cuisine of West Sumatra, Indonesia.
+
+More fun facts (when the user asks for more):
+
 - (origin) Chilli crab comes from Singapore.
 
 Learn more:
@@ -331,6 +345,8 @@ Fish soup bee hoon, also known as fish head bee hoon, is a Singaporean soup-base
 
 Fun facts:
 
+- (history) Fish soup bee hoon has been available since at least the 1920s; one source credits Swee Kee Fish Head Noodle House with creating the "definitive version" of the dish in the 1970s.
+- (about) Jin Hua Fish Head Bee Hoon was named the best fish soup bee hoon store in Singapore by Time Out Singapore in 2012.
 - (origin) Fish soup bee hoon comes from Singapore.
 
 Learn more:
@@ -354,6 +370,10 @@ Fun facts:
 
 - (origin) Originating in Teluk Intan in Perak, heong peng are available in many stores around Ipoh, and other parts of Malaysia and Singapore.
 - (about) Heong peng is popular with the Malaysian Chinese community, especially those in Northern Peninsular Malaysia.
+- (about) They are also known as beh teh soh in Hokkien.
+
+More fun facts (when the user asks for more):
+
 - (origin) Heong peng comes from Malaysia.
 
 Learn more:
@@ -393,6 +413,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q7348639) (CC0); [Wikipedia: H
 Ipoh white coffee is a popular coffee drink which originated in Ipoh, Perak, Malaysia, resulting in Ipoh being named one of the top three coffee towns by Lonely Planet.
 
 - From: Malaysia
+
+Fun facts:
+
+- (origin) The term white coffee originates from the literal translation of its Chinese name, which was introduced in the 19th century by Chinese migrants who came to work in the local tin mines.
+- (about) This style of coffee continues to be popular throughout the country.
 
 Learn more:
 
@@ -448,6 +473,8 @@ Linopot (; also known as linongot in various Dusunic dialects) is a traditional 
 Fun facts:
 
 - (culture) Popular through the celebration of Kaamatan, the dish is also available through most of Sabah's coffeehouses and restaurants serving traditional foods.
+- (culture) Linopot is considered a special traditional food among Sabah's Dusunic and Murutic indigenous peoples.
+- (culture) In traditional preparation, hill paddy is the mostly used for the making, where it can be mixed with other starchy crops such as yam, to create different types of rice.
 
 Learn more:
 
@@ -491,6 +518,7 @@ Malay sponge cake is a dessert cake popular in Guangdong and Hong Kong, where it
 
 Fun facts:
 
+- (origin) The first one is that Malay sponge cake comes from Guangdong in China and was then brought to Malaysia through the second Chinese immigration wave in Malaya history during the British-ruled period.
 - (origin) Malay sponge cake comes from People's Republic of China.
 
 Learn more:
@@ -508,6 +536,11 @@ Mee siam is a dish of thin rice vermicelli of hot, sweet and sour flavours, orig
 
 - From: Malaysia
 - Ingredients (Wikidata): rice noodle
+
+Fun facts:
+
+- (origin) According to Wendy Hutton, due to the Thai influence on Northern Malaysian cuisine, it is believed that the dish originates from Penang, where Thai influences on Malay and Peranakan dishes are common.
+- (history) As Singapore was established in the early 1800s, many straits Chinese families from Penang moved to Singapore, thus introducing the dish to Singapore.
 
 Learn more:
 
@@ -551,6 +584,15 @@ Nasi kandar is a popular northern Malaysian dish from Penang, originally introdu
 
 Fun facts:
 
+- (origin) Nasi kandar originates from the early 1900s, when itinerant Indian Muslim vendors would sell curry and rice to the dock employees of Weld Quay, located in George Town, Penang.
+- (history) By the 1930s, the rice peddlers would also commonly travel from home-to-home.
+- (culture) However, by the mid-20th century, the traditional approach of transporting the rice and dishes on the shoulder began to wane, as many sellers moved towards selling nasi kandar in stalls and alleyways.
+
+More fun facts (when the user asks for more):
+
+- (origin) The dish name is potentially a portmanteau, nasi derives from Malay, meaning rice; while kandha' is an Urdu name means shoulder; another possible theory is that the name originated in the Malay verb mengandar - "rest on shoulders".
+- (history) In the 1970s, more vendors invested in the restaurant industry, further departing from the mobile eatery origins of nasi kandar.
+- (history) Hameediyah is recognized as Penang's oldest nasi kandar restaurant, having originally started under a tree at a field in Lebuh Campbell, Penang in 1907.
 - (origin) Nasi kandar comes from India.
 
 Learn more:
@@ -718,7 +760,16 @@ Rice noodle rolls, also known as steamed rice rolls, cheung fun, and as look fun
 Fun facts:
 
 - (origin) There is no official recording of the history of rice noodle rolls; most cookbooks claim that it was first made in the 1930s.
+- (history) By the 20th century, rice noodle rolls had become firmly integrated into Cantonese dim sum culture and were widely served in teahouses throughout Guangdong and Hong Kong.
 - (about) When plain and made without filling, the rice noodle is also known as jyu cheung fun or chee cheong fun, literally "pork sausage noodle, pork intestine noodle", a reference to its resemblance to a pig's intestines.
+
+More fun facts (when the user asks for more):
+
+- (origin) Rice noodle rolls are believed to have originated in Guangdong province in southern China, where they became associated with breakfast culture and Cantonese dim sum traditions.
+- (culture) Over time, rice noodle rolls became a common street food in cities such as Guangzhou, where vendors prepared them fresh to order using portable steaming equipment.
+- (about) A related preparation, zhaliang, which wraps the rice noodle sheet around fried dough sticks, also became popular as part of Cantonese breakfast cuisine.
+- (about) Variants also appear in Malaysia and Singapore, where the dish is known as chee cheong fun and is often served with sweet sauces or curry.
+- (culture) Today, rice noodle rolls remain a staple of Cantonese cuisine and are widely consumed both in traditional dim sum restaurants and as street food across Chinese diaspora communities worldwide.
 - (origin) Rice noodle roll comes from China.
 
 Learn more:
@@ -735,6 +786,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q3275558) (CC0); [Wikipedia: R
 Sambal pari, also known in English as stingray sambal or spicy banana leaf stingray and by the Malay name ikan pari bakar (grilled stingray fish), is a Malaysian/Singaporean seafood dish.
 
 - From: Malaysia
+
+Fun facts:
+
+- (origin) Originating from Malaysia, the dish is now also popular among Singaporeans.
+- (about) Stingray was previously deemed as not popular and was cheap to purchase; given the enhancement of its taste, the value of stingray in markets has since risen.
 
 Learn more:
 
@@ -755,9 +811,14 @@ Sarawak layer cake is a delicacy from the state of Sarawak, Malaysia, which come
 
 Fun facts:
 
+- (history) It found its way to Sarawak in the 1970s and 1980s, brought in by the Betawis.
 - (culture) It is often served on special occasions, such as cultural and religious celebrations, including marriages and birthdays.
 - (origin) Sarawak layer cake comes from Malaysia.
+
+More fun facts (when the user asks for more):
+
 - (culture) Sarawak layer cakes are often baked and served for religious or cultural celebrations such as Eid ul-Fitr, Christmas, Lunar New Year, Deepavali, Gawai, birthdays and weddings.
+- (culture) This innovative adaptation occurred as the Sarawak people added their own touches to the traditional recipe, resulting in a delightful variation unique to the region.
 
 Learn more:
 
@@ -890,6 +951,17 @@ The honeydew melon is one of the two main cultivar types in Cucumis melo Inodoru
 
 - From: Malaysia
 
+Fun facts:
+
+- (history) Wallace, who donated melon seeds to the locals while visiting in the 1940s (probably 1944).
+- (about) In China, honeydews are known as Bailan melons.
+- (origin) According to Chinese sources, the melons were introduced to China by American Secretary of Agriculture, Henry A.
+
+More fun facts (when the user asks for more):
+
+- (about) They are famous locally near Lanzhou, the capital city of Gansu province in China's northwest.
+- (about) Not to be confused with Honeydew.
+
 Learn more:
 
 - quick: [Honeydew (melon) (Wikipedia)](https://en.wikipedia.org/wiki/Honeydew_%28melon%29)
@@ -909,12 +981,21 @@ Hong Kong–style milk tea, also known as "silk-stocking" milk tea, is a tea dri
 
 Fun facts:
 
+- (history) This first emerged in the 1990s, as Hong Kong was to be handed over from the UK to China in 1997.
 - (inspiration) The drink originated in the mid-20th century during the British rule of Hong Kong, and was inspired by British afternoon tea.
 - (culture) Since the 1990s, the drink has increasingly become a symbol of the Hong Kong identity and the territory's culture, with industry estimates suggesting that Hongkongers consume an average of 2.5 millions cups of the drink every day.
-- (about) Amid the city's mass emigration wave in the early 2020s, this variant of milk tea can now also be found overseas in Hong Kong–style restaurants.
 
 More fun facts (when the user asks for more):
 
+- (origin) Hong Kong–style milk tea originates from the British colonial rule over Hong Kong.
+- (history) A few decades later in the 1960s, the drink became more widely available at cha chaan teng and thus began to also appeal to office workers, who opted for a less intense tea.
+- (history) These sentiments were boosted in 2007 when the Hong Kong government removed Queen's Pier – a local landmark reminiscent of the city's colonial era – prompting many young Hongkongers to contemplate the local identity, which coupled with rising localist sentiments to further the drink's cultural significance.
+- (history) A dai pai dong–style restaurant called Lan Fong Yuen claims that both "silk-stocking" milk tea and yuenyeung were invented in 1952 by its owner, Lum Muk-ho.
+- (about) Amid the city's mass emigration wave in the early 2020s, this variant of milk tea can now also be found overseas in Hong Kong–style restaurants.
+- (about) The British practice of afternoon tea, where black tea is served with fresh milk and sugar, grew popular in the colony.
+- (about) Hong Kong–style milk tea is a popular part of many Hongkongers' daily lives, typically served as part of afternoon tea but also at breakfast or dinner.
+- (about) A cup of milk tea costs roughly 20 Hong Kong dollars (US$2.66) as of August 2024, with industry estimates suggesting that Hongkongers consume an average of 2.5 million cups a day.
+- (culture) Hong Kong–style milk tea is also considered culturally significant in the city and is seen as a symbol of pride among locals.
 - (origin) Hong Kong–style milk tea comes from People's Republic of China.
 
 Learn more:
@@ -957,6 +1038,16 @@ Kaya toast is a dish consisting of two slices of toast with butter and kaya (coc
 Fun facts:
 
 - (inspiration) Kaya toast was believed to be created by Hainanese immigrants to the Straits Settlements in the 19th century while serving on British ships at the Port of Singapore.
+- (culture) In 1994, it held a month-long event to promote traditional foods called the Singapore Food Festival, which has been hosted annually since then.
+- (origin) It is believed that Hainanese immigrants created the kaya toast by adapting what they had previously prepared while serving on British ships docked at ports during the Straits Settlements period.
+
+More fun facts (when the user asks for more):
+
+- (history) Established in 1919 as Kheng Hoe Heng Coffeeshop, Killiney Kopitiam is one of the oldest coffee shops in Singapore specialising in the dish.
+- (history) Kopitiams started becoming a common sight in Singapore after the Japanese occupation around 1945, when rental for commercial spaces were affordable.
+- (culture) In the past, traditional snack shops could only be found in a few locations such as Chinatown and Balestier Road.
+- (culture) However, Singapore started actively promoting its street food or hawker fare via the Singapore Tourism Board (STB).
+- (about) In 2004, Kaya toast was featured by the Singapore Tourism Board in its "Uniquely Singapore Shop & Eat Tours" as a Singaporean representative local snack.
 - (origin) Kaya toast comes from Singapore.
 
 Learn more:
@@ -1019,6 +1110,8 @@ Kopi, also known as Nanyang coffee, is a traditional coffee beverage found in se
 Fun facts:
 
 - (origin) The drink originated during the British Malaya era and has Hainanese cultural roots.
+- (history) According to the history of Chinese immigration, millions of China residents left due to natural calamities and political instability during the 19th century.
+- (history) This number grew to 200,000 in 1900 as more passed through the Malay States and Dutch East Indies into Singapore.
 
 Learn more:
 
@@ -1039,7 +1132,13 @@ Lekor or fully known as keropok lekor is a traditional Malay fish cracker or fis
 
 Fun facts:
 
+- (inspiration) The fish cracker has its origin in the area of the east coast of West Malaysia, specifically Terengganu, where it was created by Malay fishermen as a way to preserve fish during the monsoon season.
+- (culture) Within the states of Terengganu as well as Kelantan, the snack has been a profound symbol of local Malay cultural identity.
 - (origin) Lekor comes from Malaysia.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Lekor.
 
 Learn more:
 
@@ -1062,14 +1161,23 @@ Marmite () is a British savoury spread based on yeast extract invented by the Ma
 
 Fun facts:
 
-- (history) Marmite is commonly used as a flavouring, as it is known for its savoury taste due to its high levels of glutamate (1960mg/100g).
+- (history) The first yeast extract spread was invented during the late 19th century when the German scientist Justus von Liebig discovered that brewer's yeast could be concentrated, bottled and eaten.
 - (origin) Marmite comes from United Kingdom.
 - (culture) Marmite is traditionally eaten spread on buttered toast.
 
 More fun facts (when the user asks for more):
 
+- (history) Marmite is commonly used as a flavouring, as it is known for its savoury taste due to its high levels of glutamate (1960mg/100g).
 - (history) Marmite was originally supplied in earthenware pots but since the 1920s has been sold in glass jars.
+- (history) By 1907, the product had become successful enough to warrant construction of a second factory at Camberwell Green in London.
+- (history) By 1912, the discovery of vitamins was a boost for Marmite, as the spread is a rich source of the vitamin B complex; with the vitamin B1 deficiency beriberi being common during World War I, the spread became more popular.
+- (history) During the 1930s, Marmite was used by the English haematologist and physician researcher Lucy Wills to successfully treat a form of anaemia in mill workers in Bombay (present-day Mumbai), British India.
+- (history) Marmite was used to treat malnutrition by Suriya-Mal workers during the 1934–35 malaria epidemic in British Ceylon (present-day Sri Lanka).
 - (history) Marmite dates from 1902-.
+- (origin) Marmite was first made by Justus von Liebig.
+- (history) This was until 1902, when the Marmite Food Extract Company was formed in Burton upon Trent, Staffordshire, England with Marmite as its main product and Burton as the site of the first factory.
+- (history) In 1990, Marmite Limited, which had become a subsidiary of Bovril Limited, was bought by CPC International Inc, which changed its name to Best Foods Inc in 1998.
+- (about) Not to be confused with Vegemite, marmite.
 
 Learn more:
 
@@ -1124,6 +1232,10 @@ Mee goreng, or mi goreng, refers to fried noodles in the Malay-speaking cultures
 
 - From: Malaysia
 
+Fun facts:
+
+- (origin) One version is believed to have been developed by Indian immigrants, often of Tamil Muslim origin, who drew influences from other cultures and incorporated them into their cooking.
+
 Learn more:
 
 - quick: [Mee goreng (Wikipedia)](https://en.wikipedia.org/wiki/Mee_goreng)
@@ -1143,6 +1255,7 @@ Mee pok is a Chinese noodle characterized by its flat and yellow appearance, var
 Fun facts:
 
 - (about) Bak chor mee is usually prepared using thin noodles ("mee kia") (widely known as wonton-style noodles or youmian) or mee pok, while yu wan mee can also be prepared in both styles or other noodle varieties.
+- (about) Bak chor mee featured prominently in an episode of The Mr Brown Show, which satirized the James Gomez saga during the 2006 Singapore general elections.
 
 Learn more:
 
@@ -1158,6 +1271,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q6807485) (CC0); [Wikipedia: M
 Milo dinosaur or Milo tabur is a Malaysian/Singaporean beverage, composed of a cup of iced Milo (a chocolate malt beverage) with undissolved Milo powder added on top of it.
 
 - From: Malaysia
+
+Fun facts:
+
+- (history) A drink, known as Milo shake, was being served in Malaysian roadside stalls in the mid-1990s.
+- (about) Milo Dinosaur is also known as "ta-chiu", The drink is made by adding a generous amount of undissolved Milo powder to a cup of iced Milo.
 
 Learn more:
 
@@ -1213,6 +1331,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q46228824) (CC0); [Wikipedia: 
 Satay celup or sate celup is a Malaysian dish where an assortment of raw and semi-cooked seafood, meat (including raw meat) and vegetables on skewers are dunked into a hot boiling pot of satay gravy.
 
 - From: Malaysia
+
+Fun facts:
+
+- (origin) Satay celup originates from, and is popular in Malacca (historical city of Malaysia).
 
 Learn more:
 

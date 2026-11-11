@@ -27,6 +27,7 @@ Bløtkake is a type of layer cake from Norway.
 
 Fun facts:
 
+- (history) The earliest known recipe for bløtkake is in a cookbook written by Helle Schrøders in Denmark in 1692.
 - (culture) Icing is not used in a traditional Norwegian bløtkake.
 - (culture) For birthdays it is customary to decorate the cake also with candles, especially when celebrating a child or teenager.
 
@@ -65,6 +66,7 @@ A buckling is a form of hot-smoked herring similar to the kipper and the bloater
 Fun facts:
 
 - (origin) Buckling comes from Germany.
+- (about) Not to be confused with red herring.
 
 Learn more:
 
@@ -81,6 +83,16 @@ A bun is a type of bread that is round and small enough that it can generally be
 
 - From: Norway
 - Ingredients (Wikidata): honey, sugar, baking powder, butter, flour, dough
+
+Fun facts:
+
+- (history) The Oxford English Dictionary pins the earliest known use to 1371 in the Assize of Bread and Ale, a law of Medieval Europe in the form "bunne" where they identify the meaning as "doubtful", understood from the context simply to refer to a type of "loaf or cake".
+- (about) Not to be confused with Buchteln, Bun, bollo, Bollo.
+- (history) As of the 14th century in Japan, steamed buns stuffed with vegetables or the sweet yōkan were eaten by Buddhists.
+
+More fun facts (when the user asks for more):
+
+- (history) By the 16th century in Europe, spiced buns, commonly served with sweetened wines or ale were consumed as part of funeral customs.
 
 Learn more:
 
@@ -101,6 +113,17 @@ Crispbread is a flat and dry type of bread, containing mostly rye flour.
 
 Fun facts:
 
+- (origin) The Swedish knäcka means 'to crack' or 'to break', however knäckebröd 'crispbread' originates from the old word kruseknäcke, referring to a specific tool that was used to roll the crispbread dough.
+- (history) Sweden's first industrial crispbread bakery, AU Bergmans enka, began its production in Stockholm in 1850.
+- (culture) Sweden, Finland, and Norway have long traditions in crispbread consumption.
+
+More fun facts (when the user asks for more):
+
+- (origin) The slim crispbread that is common today originated in eastern Värmland.
+- (history) Rectangular Knäckebrot was first manufactured in Germany in 1927, and has remained popular and readily available there ever since.
+- (culture) Traditional crispbread in Sweden and western Finland is made in this tradition with the form of a round flat loaf with a hole in the middle to facilitate storage on long poles hanging near the ceiling.
+- (culture) Traditionally, crispbreads were baked just twice a year: following harvest and again in the spring when frozen river waters began to flow.
+- (about) Crispbread in the household is most common in Sweden; as of 2003, in Sweden 85 percent of households had crispbread at home, while in Germany it was 45 percent and in France 8 percent.
 - (origin) Crispbread comes from Sweden, Scandinavia.
 
 Learn more:
@@ -179,7 +202,13 @@ Flatbrød is a traditional Norwegian unleavened bread which is usually eaten wit
 
 Fun facts:
 
+- (culture) It may also accompany betasuppe, a traditional meat soup or lobscouse, a traditional stew.
 - (origin) Flatbrød comes from Norway.
+- (culture) The tradition of making flat bread used to be passed down through generation after generation by housewives, and each person had her own recipe for preparing it.
+
+More fun facts (when the user asks for more):
+
+- (culture) Flatbrød is still an important part of Norwegian food traditions, particularly in the countryside.
 
 Learn more:
 
@@ -201,8 +230,9 @@ Fyrstekake or prince's cake is a Norwegian cake consisting of shortcrust pastry,
 
 Fun facts:
 
-- (history) Fyrstekake dates from 1856-.
+- (history) Fyrstekake was developed by a confectioner in Trondheim in 1856 and has been a staple in Norwegian bakeries ever since.
 - (origin) Fyrstekake comes from Norway.
+- (history) Fyrstekake dates from 1856-.
 
 Learn more:
 
@@ -223,8 +253,14 @@ Fårikål is a traditional Norwegian dish and the country's national dish.
 
 Fun facts:
 
-- (culture) It consists of pieces of mutton with bone, cabbage, whole black pepper, and occasionally a little wheat flour, cooked for several hours in a casserole, traditionally served with potatoes boiled in their skins.
+- (about) On September 29, 2012, Guinness World Records approved the World Record of making the largest portion of fårikål ever.
+- (culture) In the 1970s, fårikål was elected national dish of Norway by the popular radio programme Nitimen.
 - (origin) Fårikål comes from Norway.
+
+More fun facts (when the user asks for more):
+
+- (culture) In 2014, after the controversial decision by the food and agriculture minister Sylvi Listhaug to hold a new competition, it was reconfirmed as the national dish.
+- (culture) It consists of pieces of mutton with bone, cabbage, whole black pepper, and occasionally a little wheat flour, cooked for several hours in a casserole, traditionally served with potatoes boiled in their skins.
 - (culture) Fårikål Feast Day is celebrated on the last Thursday in September each year.
 
 Learn more:
@@ -245,7 +281,21 @@ A gingerbread house is a novelty confectionery shaped like a building that is ma
 
 Fun facts:
 
+- (history) Lebkuchen bakers are recorded as early as 1296 in Ulm and 1395 in Nuremberg, Germany.
+- (origin) Gingerbread house was taken to Sweden in the 13th century by German immigrants; there are references from Vadstena Abbey of Swedish nuns baking gingerbread to ease indigestion in 1444.
+- (inspiration) According to French legend, gingerbread was brought to Europe in 992 by the Armenian monk, later saint, Gregory of Nicopolis (Gregory Makar).
+
+More fun facts (when the user asks for more):
+
+- (history) Gingerbread figurines date back to the 15th century, and figural biscuit-making was practised in the 16th century.
+- (history) Records of honey cakes can be traced to ancient Rome.
+- (history) Gingerbread was also shaped into different forms by monks in Franconia, Germany in the 13th century.
+- (history) Nuremberg was recognized as the "Gingerbread Capital of the World" when, in the 17th century, the guild started to employ master bakers and skilled workers to create complicated works of art from gingerbread.
+- (history) During the 13th century, the custom spread across Europe.
 - (about) These houses, covered with a variety of candies and icing, are popular Christmas decorations.
+- (culture) Gingerbread, in its modern form, descends from Medieval European culinary traditions.
+- (culture) The traditional sweetener is honey, used by the guild in Nuremberg.
+- (about) Not to be confused with Gingerbread house.
 
 Learn more:
 
@@ -345,8 +395,14 @@ Klenät, kleinur, klena, klejne, kleina, kleyna, and fattigmann are all names fo
 
 Fun facts:
 
+- (history) Klenäter are an old type of pastry and are mentioned in Denmark as early as the 14th century and appearing in Danish and Icelandic cookbooks in the 18th century and 19th century.
 - (origin) The name originates from Low German "Kleinet" meaning "little object" or "present", which may indicate that the pastry was originally German.
 - (culture) In Scandinavia, klenäter are traditionally eaten around Christmas, most commonly in the southern parts of Sweden, and Iceland, Norway, the Faroe Islands, Greenland and Denmark, the Baltic states, as well as Northern Germany.
+
+More fun facts (when the user asks for more):
+
+- (history) They are also referenced in a Swedish poem by Anna Maria Lenngren from 1800, called Grevinnans besök.
+- (history) Klenäter also frequently appear in Christmas stories by famous Swedish author Selma Lagerlöf, winner of the Nobel Prize in Literature in 1909.
 
 Learn more:
 
@@ -368,7 +424,14 @@ Kneippbrød (; "Kneippbread") is a whole wheat bread.
 Fun facts:
 
 - (inspiration) Kneippbrød is named for Sebastian Kneipp (1821–1897), a 19th-century Bavarian priest and hydrotherapist.
+- (history) The official Oslo breakfast (Oslofrokosten) first prepared for Norwegian schools in 1929, employed a coarse form of the bread.
+- (about) The publisher Søren Mittet first brought Dr.
+
+More fun facts (when the user asks for more):
+
+- (history) Kneipp's recipe to Norway, where the bakery Baker Hansen AS officially licensed it in 1895.
 - (inspiration) Kneippbrød is named after Sebastian Kneipp.
+- (about) According to FEDIMA, as of 2006, more than 60 million loaves were consumed annually.
 
 Learn more:
 
@@ -464,6 +527,11 @@ Lingonberry jam is a staple of cuisines in Scandinavia, and in Newfoundland and 
 - From: Norway
 - Ingredients (Wikidata): sugar, lingonberry
 
+Fun facts:
+
+- (culture) Traditional dishes such as kroppkakor, pitepalt, potato pancakes, spinach pancakes, kåldolmar, fläskpannkaka, mustamakkara and black pudding are also commonly combined with lingonberries.
+- (about) Not to be confused with cranberry sauce, sweetened lingonberries.
+
 Learn more:
 
 - quick: [Lingonberry jam (Wikipedia)](https://en.wikipedia.org/wiki/Lingonberry_jam)
@@ -479,6 +547,10 @@ Marsipankake (Norwegian, "marzipan cake"), also known as marzipan princess cake 
 
 - From: Norway
 - Ingredients (Wikidata): marzipan, sponge cake
+
+Fun facts:
+
+- (origin) During his visits, he would be served marsipankake, in which he would respond with, "Ah, nochmal die weisse Dame," or, "Ah, again the white lady." While originating in Bergen, the cake has since found its way to bakeries across Norway and other Scandinavian regions.
 
 Learn more:
 
@@ -516,6 +588,19 @@ Pastry is various unleavened doughs, often enriched with fat or eggs.
 
 - From: Norway
 
+Fun facts:
+
+- (history) In the plays of Aristophanes, written in the 5th century BC, there is mention of sweetmeats, including small baked goods filled with fruit.
+- (culture) These recipes were adopted and adapted over time in various European countries, resulting in the myriad pastry traditions known to the region, including Portuguese "pastéis de nata" to Pasty in the United Kingdom.
+- (about) In China, Chinese flaky pastry is made in two distinct styles, Huaiyang-style and Cantonese-style pastry.
+
+More fun facts (when the user asks for more):
+
+- (history) Pastry was not until about the mid-16th century that actual pastry recipes began appearing.
+- (culture) The European tradition of pastry-making is often traced back to the shortcrust era of flaky doughs that were in use throughout the Mediterranean in ancient times.
+- (culture) In the ancient Mediterranean, the Romans, Greeks, and Phoenicians all had filo-style pastry in their culinary traditions.
+- (about) Not to be confused with confectionery, pastry dough.
+
 Learn more:
 
 - quick: [Pastry (Wikipedia)](https://en.wikipedia.org/wiki/Pastry)
@@ -539,6 +624,10 @@ Fun facts:
 - (culture) Originally this is an ancient fertility symbol not unlike throwing rice at a marriage like a farmer sowing seeds.
 - (origin) Pepernoot comes from Netherlands.
 
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Kruidnoten.
+
 Learn more:
 
 - quick: [Pepernoot (Wikipedia)](https://en.wikipedia.org/wiki/Pepernoot)
@@ -557,8 +646,9 @@ Pinnekjøtt is a traditional Norwegian main course dinner dish based on lamb rib
 
 Fun facts:
 
-- (about) Pinnekjøtt is a festive dish typical to Western and Northern Norway, and is rapidly gaining popularity in other regions as well.
+- (about) In the Netflix Original series Lady Dynamite (2017, Season 2 episode "Souplutions"), Maria Bamford’s mother makes pinnekjøtt for the King and Queen of Norway when they visit Duluth, Minnesota.
 - (culture) This dish is largely associated with the celebration of Christmas and frequently paired with puréed rutabaga, sausages and potatoes, served with beer and akevitt.
+- (about) Pinnekjøtt is a festive dish typical to Western and Northern Norway, and is rapidly gaining popularity in other regions as well.
 
 Learn more:
 
@@ -598,13 +688,21 @@ Queen Maud fromage or Queen Maud Pudding is a traditional Norwegian dessert cons
 Fun facts:
 
 - (inspiration) Queen Maud fromage was created in the early 20th century and named in honour of Maud of Wales, who became queen consort of Norway in 1905 following the dissolution of the Union between Sweden and Norway; The dessert was presented to Queen Maud and King Haakon during their coronation expedition in 1906.
-- (about) Although similar in texture to a mousse, Queen Maud fromage is set with gelatin, giving it a firmer consistency.
-- (culture) Queen Maud fromage remains a popular and culturally significant dish in Norwegian cuisine, commonly served at Christmas celebrations, weddings, and other festive occasions.
+- (origin) Queen Maud fromage is believed to have originated in the early 20th century, shortly after Maud of Wales became queen of Norway in 1905.
+- (culture) By the mid-20th century, Queen Maud fromage had become a customary dish at Christmas celebrations, weddings, and confirmations in parts of western Norway.
 
 More fun facts (when the user asks for more):
 
+- (inspiration) According to culinary tradition, the dessert was first prepared in honour of the queen during one of her visits to western Norway.
 - (inspiration) Queen Maud fromage is named after Maud of Wales.
+- (about) Although similar in texture to a mousse, Queen Maud fromage is set with gelatin, giving it a firmer consistency.
+- (culture) Queen Maud fromage remains a popular and culturally significant dish in Norwegian cuisine, commonly served at Christmas celebrations, weddings, and other festive occasions.
+- (culture) Although widely accepted as a regional specialty, details regarding its precise origin and first documented preparation remain uncertain, and accounts vary among local traditions.
+- (culture) Queen Maud fromage holds a particularly strong association with western Norway, where it is regarded as a traditional festive dessert.
 - (culture) The dessert is particularly associated with western Norway, where it is traditionally served at Christmas celebrations, weddings, confirmations, and other festive occasions.
+- (about) Over time, the dessert gained popularity in western Norway, especially in the region of Vestlandet.
+- (culture) While originally linked to royal visits and formal occasions, it gradually became incorporated into local festive traditions.
+- (culture) It is commonly served during Christmas celebrations and at major family occasions such as weddings and confirmations.
 
 Learn more:
 
@@ -624,6 +722,8 @@ Rakfisk is a Norwegian fish dish made from trout or char, salted and autolysed f
 
 Fun facts:
 
+- (history) The first record of the term rakfisk dates back to 1348, but the history of this food is probably even older.
+- (about) No sources are available as to the exact invention year of the rakfisk dish or the autolysis process that produces the raw material for it.
 - (origin) Rakfisk comes from Norway.
 
 Learn more:
@@ -687,6 +787,7 @@ Rosettes are thin, cookie-like fritters made with iron molds that are found in m
 Fun facts:
 
 - (origin) Rosette comes from Sweden.
+- (about) Not to be confused with Struva.
 
 Learn more:
 
@@ -707,6 +808,7 @@ Rye bread is a type of bread made with various proportions of flour from rye gra
 Fun facts:
 
 - (history) Rye cultivation in Britain and Ireland became relatively uncommon in the 1700s due to a shift in farming techniques and technology during the Second Agricultural Revolution.
+- (about) Not to be confused with rugbrød.
 
 Learn more:
 
@@ -727,15 +829,16 @@ Rømmegrøt (Norwegian Bokmål), also known as rømmegraut (Norwegian Nynorsk) a
 
 Fun facts:
 
+- (inspiration) The storyline is based on a grandmother making the dish with her granddaughter, and includes a recipe.
 - (culture) Traditionally, rømmegrøt is a delicacy prepared for special occasions, including holidays.
 - (about) In popular media, the children's book What's in the Rømmegrøt? was written in 2020 by Norwegian-American author Carol Hagen.
-- (origin) Rømmegrøt comes from Norway.
 
 More fun facts (when the user asks for more):
 
 - (culture) Rømmegrøt is considered to be a traditional Norwegian dish.
 - (culture) Traditionally, it is eaten with cured meat.
 - (culture) In Westby, Wisconsin, a city that celebrates its Norwegian heritage, there is an annual rømmegrøt eating contest.
+- (origin) Rømmegrøt comes from Norway.
 
 Learn more:
 
@@ -809,8 +912,15 @@ A school bread or school bun is a Norwegian sweet roll made from yeasted dough f
 
 Fun facts:
 
-- (history) School bread dates from 1950-.
+- (history) This type of pastry appeared in the 1950s.
 - (culture) In Arctic Norway, a similar roll without icing and coconut (known as a solbolle) is eaten to celebrate the return of the sun after polar night.
+- (about) In 2017, the Information Office for Bread and Grain took the initiative to introduce a separate "School Bread Day".
+
+More fun facts (when the user asks for more):
+
+- (history) In the 1970s, controversy arose over the pastry's name.
+- (history) School bread dates from 1950-.
+- (about) According to a survey carried out by the Information Office for Bread and Grain in 2021, 50% of Norwegians eat the school bread crosswise like a regular bun. 47% eat their way around and save the yellow for the end.
 - (origin) School bread comes from Norway.
 
 Learn more:
@@ -827,6 +937,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1574018) (CC0); [Wikipedia: S
 Serinakaker is a Norwegian butter cookie made with flour, granulated sugar, eggs, and topped with pearl sugar.
 
 - From: Norway
+
+Fun facts:
+
+- (history) The first incarnation of serinakaker was in a household management text by Hanna Winsnes from 1845 called “Textbook in the various branches of the household”.
+- (inspiration) While the origin of the name is still debated, the common theory is that it was named after a woman named Serena, who would bake them frequently.
 
 Learn more:
 
@@ -869,6 +984,7 @@ Smalahove (also called smalehovud, sau(d)ehau(d) or skjelte) is a Western Norweg
 
 Fun facts:
 
+- (history) The ear and eye are normally eaten first, as they are the fattiest areas and are best eaten warm.
 - (culture) Smalahove is also traditionally served with akevitt.
 - (origin) Smalahove comes from Norway.
 
@@ -913,6 +1029,7 @@ Smørrebrød, smørbrød "butter bread" (Norwegian), or smörgås [ˈsmœrˌɡo�
 Fun facts:
 
 - (origin) Smørrebrød comes from Denmark.
+- (about) Not to be confused with open sandwich.
 
 Learn more:
 
@@ -928,6 +1045,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q275621) (CC0); [Wikipedia: Sm
 Sodd is a traditional Norwegian soup made with cooked mutton and meatballs made with lamb or beef.
 
 - From: Norway
+
+Fun facts:
+
+- (history) Sodd is described in Håkon the Good's saga from the 13th century, where Håkon the Good had to eat the sodd from the sacrificial animal during a feast at Lade.
+- (culture) Sodd is traditional food most associated with the region of Trøndelag where it is customarily served on festive occasions, such as weddings and confirmation ceremonies.
 
 Learn more:
 
@@ -1020,6 +1142,12 @@ Twist bread or campfire bread is a type of bread in which the dough has been rol
 
 - From: Norway
 
+Fun facts:
+
+- (culture) Twist bread is often made and eaten to celebrate Sankt Hans Aften, also known as Midsummer's Eve.
+- (culture) Sankt Hans Aften originally celebrated the summer solstice, but was later associated with the Christian feast day of St.
+- (culture) Now the holiday is more widely regarded as a time to gather with friends and family and celebrate a feeling of togetherness by lighting bonfires, drinking, and cooking food such as twist bread.
+
 Learn more:
 
 - quick: [Twist bread (Wikipedia)](https://en.wikipedia.org/wiki/Twist_bread)
@@ -1053,6 +1181,16 @@ A berry is a small, pulpy, and often edible fruit.
 - From: Norway
 - Ingredients (Wikidata): berry
 
+Fun facts:
+
+- (history) Berry was first noted by a French gardener around the mid 18th century that, when F. moschata and F. virginiana were planted in between rows of F. chiloensis, the Chilean strawberry would bear abundant and unusually large fruits.
+- (about) They were a seasonal staple for early hunter-gatherers for thousands of years, and wild berry gathering remains a popular activity in Europe and North America today.
+- (history) The musk strawberry (F. moschata), also known as the hautbois strawberry, began to be grown in European gardens in the late 16th century.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with berry.
+
 Learn more:
 
 - quick: [Berry (Wikipedia)](https://en.wikipedia.org/wiki/Berry)
@@ -1068,6 +1206,10 @@ Bran, also known as miller's bran, is the component of a cereal grain consisting
 
 - From: Norway
 - Ingredients (Wikidata): pericarp, aleurone layer
+
+Fun facts:
+
+- (about) Not to be confused with chaff.
 
 Learn more:
 
@@ -1088,9 +1230,18 @@ Brunost is a common Norwegian name for mysost, a family of soft cheese-related f
 
 Fun facts:
 
-- (about) The term brunost is often used to refer to fløtemysost or Gudbrandsdalsost ('Gudbrandsdal cheese'), which are the most popular varieties.
+- (history) In 1933, at age 87, Hov received the King's Medal of Merit (Kongens fortjenstmedalje) for her contributions to Norwegian cuisine and economy.
+- (about) When Hov married and moved to Rusthågå farm in Nord-Fron Municipality, she started larger-scale production and invented a variety where she added goat's milk to the mix for a more pronounced taste.
 - (origin) Brunost comes from Norway.
+
+More fun facts (when the user asks for more):
+
+- (history) In the second half of the 19th century, Gudbrandsdalen was suffering economically due to falling profits from grain and butter sales.
+- (history) While working at the Valseter mountain farm near Gålå in 1863, Anne Hov (sometimes spelled Anne Haav) came up with the idea of adding cream to the whey when boiling, and to boil it down in an iron pot until the fluid content was reduced to less than 80 percent, creating a firmer, fattier, more cheese-like product.
+- (about) The term brunost is often used to refer to fløtemysost or Gudbrandsdalsost ('Gudbrandsdal cheese'), which are the most popular varieties.
 - (about) Brunost is primarily produced in Norway and is popular there, and has spread to South Korea.
+- (about) An archeological find from September 2016 in central Jutland has determined that a cheese residue on pottery from circa 650 B.C.E. is a type of cheese possibly similar to brunost.
+- (about) This variety is currently the second most popular type in Norway.
 
 Learn more:
 
@@ -1176,6 +1327,7 @@ Gamalost (Nynorsk; gammelost or gammalost in Bokmål) is a traditional Norwegian
 
 Fun facts:
 
+- (origin) Gamalost was first made in Vik Municipality.
 - (origin) Gamalost comes from Norway.
 
 Learn more:
@@ -1217,7 +1369,14 @@ Gruel is a food consisting of some type of cereal—such as ground oats, wheat, 
 
 Fun facts:
 
+- (history) In the United Kingdom, it was a common remedy for the sick, relatively nourishing and easy to digest, and a standard component of the evening meal in British hospitals into the early 20th century.
 - (about) Gruel has often been associated with poverty, with negative associations attached to the term in popular culture, as in the Charles Dickens novels Oliver Twist and A Christmas Carol.
+- (inspiration) In modern Dutch, the plural word "grutten" still refers to de-husked, coarse ground grain and a traditional dish based on pearlbarley and blackberry is called watergruwel.
+
+More fun facts (when the user asks for more):
+
+- (history) Gruel was on the third-class menu of the Titanic on the eve of her sinking in April 1912.
+- (about) Not to be confused with Gruel.
 
 Learn more:
 
@@ -1306,6 +1465,12 @@ Karsk (also called kask or kaffeekask, alongside a variety of different names) i
 - From: Norway
 - Ingredients (Wikidata): coffee, moonshine, coffee cup, white sugar
 
+Fun facts:
+
+- (history) The precise origin of karsk is unknown, however it appears to have been a popular drink in the Swedish Bohuslän district in the early 1800s.
+- (about) By the latter half of the century, its popularity spread across Norway.
+- (about) Karsk was and still is especially popular in rural areas, although city-folk also enjoy it.
+
 Learn more:
 
 - quick: [Karsk (Wikipedia)](https://en.wikipedia.org/wiki/Karsk)
@@ -1324,6 +1489,13 @@ Kveik is a collective term for a family of strains of brewing yeast that has bee
 
 Fun facts:
 
+- (origin) Kveik is the most common dialect word for yeast in the parts of Norway where these strains originate.
+- (culture) Many places where the brewing tradition survived brewers started to use bread yeast from the local store instead of the old yeast from the farm.
+- (culture) The existence of kveik today is a result of a continuous tradition, sometimes only by a handful of traditional brewers in western Norway, that has kept the original kveik strains alive along with local traditions and techniques.
+
+More fun facts (when the user asks for more):
+
+- (culture) Many traditional brewers refer to their own yeast as 'kveik' whilst the commercially available yeast is called simply 'yeast'.
 - (origin) Kveik comes from Norway.
 
 Learn more:
@@ -1391,6 +1563,7 @@ Fun facts:
 
 - (about) Steel-cut oats are known as coarse oatmeal, Irish oatmeal, or pinhead oats.
 - (culture) Rolled oats were traditionally thick old-fashioned oats, but they can be made thinner or smaller and may be categorized as quick oatmeal or instant oatmeal depending on the cooking time required, which is determined by the size of the oats and the amount of precooking.
+- (about) Not to be confused with oatmeal porridge.
 
 Learn more:
 
@@ -1477,6 +1650,10 @@ Saftsuppe or sago groat soup is a dessert soup made from various juices, water, 
 
 - From: Norway
 
+Fun facts:
+
+- (inspiration) In Scouting circles, it is known as Gasmann soup, being named after scout leader and pastor Hans Møller Gasmann.
+
 Learn more:
 
 - quick: [Saftsuppe (Wikipedia)](https://en.wikipedia.org/wiki/Saftsuppe)
@@ -1495,6 +1672,7 @@ A seasonal beer is a beer that is typically brewed during or for a particular se
 Fun facts:
 
 - (culture) Furthermore, seasonal beer is produced based upon seasons, holidays, festivals and events.
+- (about) Not to be confused with limited edition beer.
 - (culture) Seasonal beers may be produced when fresh ingredients are available during various seasons, per climatic conditions during the time of the year, and also as a tradition.
 
 Learn more:
@@ -1552,6 +1730,8 @@ Sour cream (sometimes known as soured cream in British English) is a dairy produ
 Fun facts:
 
 - (origin) The bacterial culture, which is introduced either deliberately or naturally, sours and thickens the cream.
+- (culture) Traditionally, sour cream was made by letting cream that was skimmed off the top of milk ferment at a moderate temperature.
+- (about) Not to be confused with smetana.
 
 Learn more:
 
@@ -1612,8 +1792,21 @@ Vegetables are edible parts of plants that are consumed by humans or other anima
 
 Fun facts:
 
+- (history) The word vegetable was first recorded in English in the early 15th century.
 - (about) At first, plants that grew locally were cultivated, but as time went on, trade brought common and exotic crops from elsewhere to add to domestic types.
 - (culture) An alternative definition is applied somewhat arbitrarily, often by culinary and cultural tradition; it may include savoury fruits such as tomatoes and squash, flowers such as broccoli, and seeds such as pulses, but exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains.
+
+More fun facts (when the user asks for more):
+
+- (history) The year 1955 saw the first use of the shortened, slang term "veggie".
+- (history) The meaning of "vegetable" as a "plant grown for food" was not established until the 18th century.
+- (history) In 1767, the word was specifically used to mean a "plant cultivated for food, an edible herb or root".
+- (about) As an adjective, the word vegetable is used in scientific and technical contexts with a different and much broader meaning, namely of "related to plants" in general, edible or not—as in vegetable matter, vegetable kingdom, vegetable origin, etc.
+- (about) Forest gardening in a tropical jungle clearing is thought to be the first example of agriculture; useful plant species were identified and encouraged to grow while undesirable species were removed.
+- (about) While the first evidence for the domestication of grasses such as wheat and barley has been found in the Fertile Crescent in the Middle East, it is likely that various peoples around the world started growing crops in the period 10,000 BC to 7,000 BC.
+- (about) Throughout recorded history, the rich have been able to afford a varied diet including meat, vegetables and fruit, but for poor people, meat was a luxury and the food they ate was very dull, typically comprising mainly some staple product made from rice, rye, barley, wheat, millet or maize.
+- (inspiration) The diet of the ancient Egyptians was based on bread, often contaminated with sand which wore away their teeth.
+- (about) Not to be confused with fruit.
 
 Learn more:
 
@@ -1629,6 +1822,12 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q11004) (CC0); [Wikipedia: Veg
 Whale meat, broadly speaking, may include all cetaceans (whales, dolphins, porpoises) and all parts of the animal: muscle (meat), organs (offal), skin (muktuk), and fat (blubber).
 
 - From: Norway
+
+Fun facts:
+
+- (about) The Dutch and Flemish were also active in the whaling commerce during the Middle Ages, and a number of records regarding the trafficking of whale meat and taxation on it occur from historical Flanders (extending to cities like Arras or Calais in the département of Pas-de-Calais).
+- (history) French surgeon Ambroise Paré (died 1590) wrote that "the flesh has no value, but the tongue is soft and delicious and therefore salted; likewise, the blubber, which is distributed across many provinces, and eaten with peas during Lent".
+- (about) This blubber, known as craspois or lard de carême, was food for the poorer strata on the continent.
 
 Learn more:
 

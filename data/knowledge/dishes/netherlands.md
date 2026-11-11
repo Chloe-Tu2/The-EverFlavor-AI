@@ -32,7 +32,13 @@ A bitterkoekje is a traditional Dutch biscuit made from a mixture of ground bitt
 
 Fun facts:
 
+- (history) The origins of the Bitterkoekje have not been precisely documented, but it has been a popular confection in the Netherlands since at least the 18th century.
+- (culture) Bitterkoekjes were also known as trouwkoekjes (wedding cookies) and were served during engagements or weddings.
 - (origin) Bitterkoekje comes from Netherlands.
+
+More fun facts (when the user asks for more):
+
+- (history) With industrial production in the 20th century, packaged versions became widely available in Dutch supermarkets, which have the almonds replaced with flour of white beans and the kernels of apricot pits as cheap alternatives.
 
 Learn more:
 
@@ -48,6 +54,12 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q14758321) (CC0); [Wikipedia: 
 Bokkenpootje (Dutch pronunciation: [ˈbɔkə(n)ˌpoːcə], literally "goat's foot") is a traditional Dutch cookie consisting of two elongated almond meringue cookies sandwiched together with buttercream filling and dipped in chocolate at both ends.
 
 - From: Netherlands
+
+Fun facts:
+
+- (inspiration) The story goes that around 1859, the local pastor commissioned Schellema to create the recipe.
+- (origin) They originated in Tuitjenhorn, North Holland, from the bakery of Jan Pieter Schellema.
+- (culture) These pastries symbolize the devil's hooves, and eating them was believed to protect the deceased from evil in the afterlife during an annual vigil at the local cemetery.
 
 Learn more:
 
@@ -112,6 +124,14 @@ An Eierkoek is a traditional Dutch confection consisting of a disk shaped, spong
 
 Fun facts:
 
+- (history) Rembertus Dodonaeus wrote in his Cruydt-boeck (Herb book) from 1608 about the healing properties of eyercoekskens.
+- (culture) Eierkoeken have their origins in the Dutch province of Brabant, where they were traditionally made on Christmas and Easter, as well as throughout the rest of the year.
+- (origin) Eierkoeken experienced increased popularity in the early 2000s when dietitian Sonja Bakker introduced them as a healthy snack option.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1879, a baker advertised in a newspaper that eierkoeken are specially recommended by the medical gentlemen, though it was stated that they were not especially intended for sick people but were recommended as a special treat.
+- (history) In Brood- en Gebakvormen en hunne Betekenis in de Folklore (1932) eierkoeken were given special significance related to their supposed healing properties during Easter.
 - (origin) Eierkoek comes from Netherlands.
 
 Learn more:
@@ -133,9 +153,16 @@ A frikandel (Dutch pronunciation: [frikɑnˈdɛl].
 
 Fun facts:
 
+- (history) The difference between a "frikandel" and a "frikadel" is that the frikadel was invented in 1954 and the frikandel is a similar product invented in 1958 and has a different production method, yielding a smoother end-product.
 - (origin) Plural frikandellen) is a traditional snack originating from the Netherlands.
+- (about) Until 2005 however, only "frikadel", was seen as the official spelling.
+
+More fun facts (when the user asks for more):
+
 - (history) The history of this snack in the Spanish Netherlands goes back to the 17th century.
+- (about) After 2005, "frikandel" was accepted as well.
 - (origin) Frikandel comes from Low Countries.
+- (about) Not to be confused with frikadeller.
 
 Learn more:
 
@@ -156,6 +183,8 @@ Gevulde koek ("filled cake") is a Dutch pastry, consisting of a rich almond past
 
 Fun facts:
 
+- (history) The use of almond paste in Dutch cuisine dates back to the early 16th century: a Dutch recipe from Brussels in around 1510 mentions almond paste, indicating early origins of enriched pastries.
+- (culture) The gevulde koek is closely associated with the Dutch coffee break tradition (koffietijd), commonly consumed with coffee or tea.
 - (origin) Gevulde koek comes from Netherlands.
 
 Learn more:
@@ -186,6 +215,7 @@ More fun facts (when the user asks for more):
 
 - (history) The enthusiastic Baron Hop was keen to let his guests try his what were called 'Hopjes' up from 1880, which quickly gained popularity.
 - (history) Special tins were produced starting in 1875 for the hopjes destined for the Dutch East Indies.
+- (history) In 1794, the Nieuwerkerk firm purchased the adjacent house at number 94, and in addition to the shop, there was now also a tea and ice cream parlor; a new concept in The Hague that became very successful.
 - (inspiration) Hopje is named after Hendrik Hop.
 - (origin) Hopje comes from Netherlands.
 
@@ -208,6 +238,18 @@ Hutspot, hochepot (French), or hotchpotch (English), is a dish of boiled and mas
 
 Fun facts:
 
+- (history) The first European record of the potato is as late as 1537, by the Spanish conquistador Juan de Castellanos, and the crop spread quite slowly throughout Europe from thereon.
+- (inspiration) According to legend, the recipe came from the food found in the cooking pots left behind by hastily departing Spanish soldiers after the end of the Siege of Leiden in 1574 during the Eighty Years' War.
+- (culture) The anniversary of this event, known as Leidens Ontzet, is still celebrated every October 3 in Leiden and by Dutch expatriates around the world.
+
+More fun facts (when the user asks for more):
+
+- (history) In The Tale of Melibeus (c. 1386), Chaucer wrote, "you have cast all their words in an hochepoche", but that early use probably referred to its legal sense in English law (recorded from 1292) as a blending of properties.
+- (history) In noting the etymological connection, the Oxford English Dictionary records 'hochepot' as a culinary term from 1440, more than a century before the Siege of Leiden.
+- (inspiration) This included, according to legend, prepared hutspot, which was feasted upon by the famished population after their year-long siege.
+- (inspiration) The original legend thus likely refers to what the Dutch call a 'sweet potato' or pastinaak, which is a parsnip; this vegetable played a similar role in Dutch cuisine prior to the use of the potato as a staple food.
+- (culture) Traditionally, the celebration includes consumption of hutspot.
+- (about) The carrots used are generally of the type known as winterpeen (winter carrots), which give the dish its distinctive flavour ordinary carrots cannot match.
 - (origin) Hutspot comes from Netherlands.
 
 Learn more:
@@ -230,7 +272,14 @@ An ijzerkoekje is a soft cookie, traditionally eaten by Dutch fishermen, especia
 
 Fun facts:
 
+- (history) According to oral history, the grocer "Daatje de Koe" (1838–1915) made the first Vlaardingse iron cookies.
 - (about) The cookies were invented in the city of Vlaardingen and are baked on a checkered iron plate, creating a characteristic waffle-like pattern, similar to stroopwafels.
+- (origin) Afterwards, the product was introduced in the assortment of various city bakers.
+
+More fun facts (when the user asks for more):
+
+- (history) Research of the Vlaardingen baker Hazenberg in regional archives showed that the cookie is probably older and dates from the 18th century.
+- (about) They were popular among fisherman for their caloric-density and longevity.
 - (origin) IJzerkoekje comes from Netherlands.
 
 Learn more:
@@ -270,7 +319,20 @@ A jodenkoek (in Dutch, literal translation: "Jew biscuit", plural: jodenkoeken) 
 
 Fun facts:
 
+- (history) Claimed to have been first baked in the 17th century, these biscuits were advertised by bakeries as early as 1872.
+- (origin) Lotus Bakeries claims that the recipe originates from a Jewish baker in Amsterdam who sold the biscuits around 1920.
+- (about) Jodenkoeken were popularized by Davelaar, in Alkmaar, Netherlands.
+
+More fun facts (when the user asks for more):
+
+- (history) The Stam bakery in Alkmaar started selling jodenkoeken in 1883, and Gijs Verhoeven took over this bakery in 1924.
+- (history) Some producers still use the old spelling, jodekoek, while others have changed the name of the product to jodenkoek, after the new orthography of the Netherlands from 1996.
+- (history) In the 1840s, French baker Pierre Chazelle developed a flat, hard biscuit enriched with iodine to combat goitre, which he called biscuit de iode ("iodine biscuit").
+- (about) By advertising in local newspapers and by offering the biscuits through other shops, his jodenkoeken became a popular product.
+- (origin) Dutch baker Paul Victor Goulmy later introduced a similar biscuit in the Netherlands under the name iodekransen, which was often rendered as joodekransen due to historical spelling conventions—jood being the former Dutch spelling for iodine before the adoption of the -ium suffix.
+- (about) In 2021 Bakery Davelaar in Alkmaar decided to rename the Jodenkoek to Odekoek (or Ode biscuit).
 - (origin) Jodenkoek comes from Netherlands.
+- (about) Not to be confused with Jødekager.
 
 Learn more:
 
@@ -296,11 +358,16 @@ Fun facts:
 
 - (about) The term kapsalon is Dutch for "hairdressing salon" or a barber shop, alluding to the inventor's place of work.
 - (inspiration) Kapsalon is named after haircutting establishment.
-- (origin) Kapsalon comes from Netherlands.
+- (culture) For him, the dish is more than just a foil tray of fries and shoarma; it's a symbol of what it means to be from Rotterdam; a marker of the "Rotterdam identity".
 
 More fun facts (when the user asks for more):
 
+- (about) Kapsalon was conceived in 2003 by Nataniël Gomes, who was a Cape Verdean hairdresser in the Rotterdam multicultural district of Delfshaven, who one day at the neighboring shoarma snack bar "El Aviva" asked to combine all his favorite ingredients into one dish.
+- (about) Gomes reached a measure of international popularity; he died in 2023, aged 47.
+- (about) The kapsalon reached the Nepalese capital city of Kathmandu in 2017, when a chef returning from a visit to the Netherlands was asked to prepare a "typically Dutch" meal.
+- (origin) Kapsalon comes from Netherlands.
 - (about) Kapsalon dates from 2003-.
+- (about) Not to be confused with haircutting establishment.
 
 Learn more:
 
@@ -341,7 +408,14 @@ A kletskop (plural: kletskoppen) is a traditional Dutch and Belgian lace cookie,
 
 Fun facts:
 
+- (history) In 16th century Dutch city of Leiden, the cookie was used as a part of the Leiden bakers’ guild master baker’s trial.
+- (about) In the 19th-century Belgian towns like Bruges and Veurne also claim origin of the kletskop, but Dutch records predate these.
 - (origin) Kletskop comes from Netherlands.
+
+More fun facts (when the user asks for more):
+
+- (history) The earliest known literary mention of the cookie is in a 1602 poem by Flemish writer Zacharias Heyns referencing the Leiden delicacy as schorftenhoofden (“scurf heads”).
+- (about) The modern name kletskop evolved from the earlier official name kanteling, later nicknamed schorftenhoofd (“scurf head”), a reference to the cookie's bumpy, caramel-crusted appearance that resembled the rough texture of diseased skin of a scalp affliction common among children known as favus.
 
 Learn more:
 
@@ -386,6 +460,10 @@ Fun facts:
 
 - (culture) Lapis legit is popular in Indonesia and is served as a holiday treat, especially for natal (Christmas), imlek (Chinese New Year), and lebaran (the Islam holidays of Eid al-Fitr and Eid al-Adha).
 - (origin) Lapis legit comes from Indonesia.
+- (about) Not to be confused with kue lapis.
+
+More fun facts (when the user asks for more):
+
 - (culture) Lapis legit is traditionally served for dessert in rijsttafel.
 
 Learn more:
@@ -507,7 +585,13 @@ Poffertjes are traditional Dutch batter cakes.
 
 Fun facts:
 
+- (history) The first mention of poffertjes is credited to a 1746 appendix to the cookbook Volmaakte Hollandsche keuken-meid.
+- (about) The Catholic Church claims they invented them, but there are doubts about that claim.
 - (origin) Poffertjes comes from Netherlands.
+
+More fun facts (when the user asks for more):
+
+- (history) Poffertjes were first seen at a fair in Amsterdam in 1746.
 
 Learn more:
 
@@ -551,6 +635,7 @@ Semolina pudding or semolina porridge is a porridge-type pudding made from semol
 Fun facts:
 
 - (history) The recipe book of Apicius (roughly dated 4th century AD) describes a semolina porridge made from farina mixed with almonds, raisins and raisin wine.
+- (about) Not to be confused with farina.
 
 Learn more:
 
@@ -595,7 +680,9 @@ Soused herring is raw herring (a variety of fish) soaked in a mild preserving li
 
 Fun facts:
 
+- (about) This process of preparing herring (known as "gibbing") was developed in the Middle Ages by the Dutch.
 - (origin) Soused herring comes from Netherlands.
+- (about) In 2017, there was a controversy over this competition, as an economist produced two working papers accusing the newspaper of biased testing.
 
 Learn more:
 
@@ -616,9 +703,23 @@ Speculaas or speculoos is a biscuit with origins in the historical region of the
 
 Fun facts:
 
-- (history) In the 21st century, Belgian caramelized speculoos has become increasingly well-known worldwide by the commercialized name Biscoff ( BISS-koff), produced by Lotus Bakeries.
+- (history) A related recipe appears in 1604 in L’Ouverture de cuisine by Lancelot de Casteau, indicating the presence of spiced biscuit recipes in the region in the early 17th century.
+- (inspiration) They were based on sweet cakes made from rye flour and honey, which changed to wheat flour and sugar in the 17th century.
 - (about) In German, local variants similar to Dutch speculaas are known as Spekulatius [ʃpekuˈlaːtsi̯ʊs], whereas Belgian speculoos is instead sold as Karamellgebäck ("caramel biscuits").
+
+More fun facts (when the user asks for more):
+
+- (history) In the 21st century, Belgian caramelized speculoos has become increasingly well-known worldwide by the commercialized name Biscoff ( BISS-koff), produced by Lotus Bakeries.
+- (history) The earliest known attestation is the form speculatie in the bakers' ordinance from the Dutch city of Haarlem in 1749.
+- (history) Spices such as cinnamon, nutmeg and cloves were imported in large quantities from Asia by Dutch traders from the 17th century onwards, and their wide availability led to experimentation with spices in baked goods.
+- (history) The use of cassonade has also been linked to techniques developed by Dutch colonists in the Antilles, documented from 1654.
+- (history) From the early 20th century onwards, industrial production contributed to the wider distribution of speculoos.
+- (history) Lotus Bakeries has been making speculoos since 1932.
+- (culture) It emerged in the eighteenth century as a successor to the older klaasjes or klaaskoeken, similar cakes documented in seventeenth-century Amsterdam and traditionally eaten during the Sinterklaas celebrations.
+- (about) Industrialisation contributed to its widespread international popularity, while also altering its composition, shape, and texture.
+- (culture) At the same time, patterns of consumption changed: the large speculoos traditionally shared within families was gradually replaced by smaller, individually wrapped biscuits commonly served with coffee in restaurants and cafés.
 - (origin) Speculoos comes from Belgium.
+- (about) Not to be confused with speculaas biscuit.
 
 Learn more:
 
@@ -662,8 +763,16 @@ A stroopwafel is a thin, round biscuit made from two layers of sweet baked dough
 
 Fun facts:
 
+- (inspiration) One story ascribes the invention of the stroopwafel to the baker Gerard Kamphuisen, which would date the first stroopwafels from somewhere between 1810, the year he opened his bakery, and 1840, the year of the oldest known recipe.
+- (origin) According to Dutch culinary folklore, stroopwafels were first made in Gouda either during the late 18th century or the early 19th century by bakers repurposing scraps and crumbs by sweetening them with syrup.
+- (history) By 1960, there were 17 factories in Gouda alone, of which four are still open.
+
+More fun facts (when the user asks for more):
+
+- (origin) After 1870, stroopwafels began to appear in other cities, and in the 20th century, factory-made stroopwafels were introduced.
 - (origin) First made in the city of Gouda in South Holland, stroopwafels are a well-known Dutch treat popular throughout the Netherlands.
 - (inspiration) Stroopwafel is named after waffle, syrup.
+- (about) They are served as a breakfast snack by United Airlines; and were used as a technical challenge on a 2017 episode of The Great British Bake Off.
 - (origin) Stroopwafel comes from Netherlands.
 
 Learn more:
@@ -685,6 +794,8 @@ A Zeeuwse bolus is a sweet bread of Jewish origin from the Dutch province of Zee
 
 Fun facts:
 
+- (origin) The bolus was introduced to Zeeland in the late 16th and early 17th centuries by Sephardic Jewish bakers fleeing religious persecution in Portugal and Spain.
+- (inspiration) The Jewish bakers created the predecessor of the Zeeuwse bolus, likely based on the Sephardic *bollo*.
 - (origin) Zeeuwse bolus comes from Netherlands.
 
 Learn more:
@@ -760,8 +871,13 @@ Joppie sauce, also known as Joppe sauce or (Dutch) Joppiesaus, is a condiment fr
 Fun facts:
 
 - (inspiration) Joppie sauce is named after Janyne de Jager.
-- (origin) Joppie sauce comes from Netherlands.
+- (origin) Joppie sauce was first made by Janyne de Jager.
 - (about) Joppie sauce dates from 2002-.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Joppie sauce was created by Janyne "Joppie" de Jager of Annie's Snackbar in Glanerbrug, a village in the Netherlands on the border with Germany.
+- (origin) Joppie sauce comes from Netherlands.
 
 Learn more:
 
@@ -812,6 +928,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1866426) (CC0); [Wikipedia: K
 Treacle () is uncrystallised syrup made during the refining of sugar.
 
 - From: Netherlands
+
+Fun facts:
+
+- (inspiration) This is a reference to a real, ancient well at the Church of St Margaret in Binsey, just outside Oxford, playing on the historical, medicinal sense of the word treacle; according to legend, the water from St.
 
 Learn more:
 

@@ -12,7 +12,14 @@ Aalsterse vla (also spelled Aalsterse vlaai) is a traditional pie from Belgium, 
 
 Fun facts:
 
+- (origin) It is believed to have originated as a way to use leftover bread, especially during festive periods.
+- (history) The exact origins of Aalsterse vla are unknown, but historical references to similar bread-based pies in Flanders date back to the 16th century.
 - (inspiration) Aalsterse vla is named after Aalst.
+
+More fun facts (when the user asks for more):
+
+- (history) Until the early 20th century, families without home ovens would bring the prepared dough to local bakeries to be baked.
+- (about) In 2020, efforts began in Aalst to recognise the pie as part of Flanders’ intangible cultural heritage, supported by local baker guilds.
 - (origin) Aalsterse vla comes from Belgium.
 
 Learn more:
@@ -34,6 +41,7 @@ A Babelutte is a sort of long toffee flavoured with honey or vergeoise (demerara
 
 Fun facts:
 
+- (origin) The candy originates from the 19th century, from a couple that prepared and sold it to tourists on Belgian coastal beaches.
 - (origin) Babelutte comes from Belgium.
 
 Learn more:
@@ -70,6 +78,12 @@ The Couque de Dinant is an extremely hard, sweet biscuit native to the southern 
 
 - From: Belgium
 
+Fun facts:
+
+- (inspiration) A popular though unlikely legend holds that the couques arose from the sacking of Dinant in 1466 by Charles the Bold in the Liège Wars.
+- (history) Much more certain is that the couque began to appear some time in the 18th century, though the exact circumstances of its invention are unclear.
+- (culture) As the dough was so firm, they had the idea of printing it in the negative in dinanderie (local ornate brasswork), and thereby began the tradition of giving them patterns.
+
 Learn more:
 
 - quick: [Couque de Dinant (Wikipedia)](https://en.wikipedia.org/wiki/Couque_de_Dinant)
@@ -88,13 +102,15 @@ A cuberdon is a cone-shaped Belgian candy and a popular local delicacy in Ghent.
 
 Fun facts:
 
+- (history) In 1873, pharmacist De Vynck in the city of Ghent discovered the recipe of the cuberdon by chance.
+- (origin) Cuberdon was first made in Ghent.
 - (about) In Dutch it is also known as a neus ("nose"), Gentse neus ("Ghent nose"), or neuzeke ("little nose") for its likeness to a human nose.
-- (culture) Cuberdons are traditionally made with gum arabic candy crust with a soft, raspberry-flavored filling.
-- (origin) Cuberdon comes from Belgium.
 
 More fun facts (when the user asks for more):
 
+- (culture) Cuberdons are traditionally made with gum arabic candy crust with a soft, raspberry-flavored filling.
 - (culture) They are traditionally about 2.5 cm (1 inch) wide and weigh approximately 10 to 18 grams (0.35 to 0.63 oz), although smaller versions are also produced.
+- (origin) Cuberdon comes from Belgium.
 
 Learn more:
 
@@ -120,6 +136,10 @@ Fun facts:
 - (about) In Germany and in Switzerland, the same type of dessert is known as a Coupe Dänemark.
 - (origin) Dame blanche comes from France.
 
+More fun facts (when the user asks for more):
+
+- (inspiration) The dish that was created by Auguste Escoffier originally consisted of almond milk ice cream, poached peach, lemon sorbet and white currants.
+
 Learn more:
 
 - quick: [Dame blanche (dessert) (Wikipedia)](https://en.wikipedia.org/wiki/Dame_blanche_%28dessert%29)
@@ -141,7 +161,12 @@ Filet américain (often shortened to américain) a raw beef preparation associat
 Fun facts:
 
 - (inspiration) Filet américain is named after Armorican.
+- (culture) Filet américain is associated particularly with Belgian brasserie and butcher traditions and is commonly served as a sandwich filling, starter or main dish, often with fries.
 - (origin) Filet américain comes from Belgium.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with steak tartare.
 
 Learn more:
 
@@ -163,6 +188,7 @@ Flemish stew, known in Dutch as stoofvlees or stoverij and in French as carbon(n
 Fun facts:
 
 - (origin) Flemish stew comes from Belgium.
+- (about) Not to be confused with karbonade.
 
 Learn more:
 
@@ -185,6 +211,7 @@ Fun facts:
 
 - (about) One notable variety is the galette des rois (king cake) eaten on the day of Epiphany.
 - (origin) Galette comes from France.
+- (about) Not to be confused with hardtack.
 
 Learn more:
 
@@ -205,6 +232,7 @@ The hochepot is a stew eaten in the Nord-Pas-de-Calais region of France, and in 
 Fun facts:
 
 - (history) Its origins go back to the Middle Ages and its first known recipes are in the Manuscript of Sion, the oldest treatise on cooking written in French around the 13th century.
+- (history) Le Viandier de Taillevent, the oldest manuscript of which was written in the 14th century, possesses only one hochepot recipe, with poultry.
 
 Learn more:
 
@@ -273,6 +301,13 @@ Fun facts:
 
 - (origin) It is thought to have originated in Brussels, but is also popular in Flanders, Wallonia, and the Nord region of France, where it is also known as an "Américain".
 - (inspiration) Mitraillette is named after submachine gun.
+- (about) After the Brussels bombings in March 2016, images of the sandwich were shared across social media in Belgium and abroad as a sign of friendship and humour.
+
+More fun facts (when the user asks for more):
+
+- (about) In December 2020, former Top Chef (France) contestant Jean-Philippe Watteyne opened a pop-up mitraillette restaurant in Mons.
+- (about) In November 2021, DH Les Sports + reported that a friterie in Etterbeek sells Belgium's longest mitraillette, measuring 130 centimetres (51 in).
+- (about) In 2025, BetUS.com reported extended queues for a AUS$27 steak mitraillette at the Australian Open.
 - (origin) Mitraillette comes from Belgium.
 
 Learn more:
@@ -294,6 +329,12 @@ Moules-frites or moules et frites is a main dish of mussels and French fries ori
 
 Fun facts:
 
+- (origin) Although moules-frites are popular in many countries, it is thought that the dish originated in Belgium.
+- (inspiration) It is likely that it was originally created by combining mussels, a popular and cheap foodstuff eaten around the Flemish coast, and fried potatoes, which were commonly eaten around the country in winter when no fish or other food was available.
+- (about) According to a survey conducted by TNS in 2011, moules-frites was identified as the second-favourite dish in France, receiving a vote of 20 per cent, narrowly losing to magret de canard which received 21 per cent.
+
+More fun facts (when the user asks for more):
+
 - (origin) Moules-frites comes from Belgium.
 
 Learn more:
@@ -311,6 +352,12 @@ An open sandwich, also known as an open-face/open-faced sandwich, bread baser, b
 
 - From: Belgium
 - Ingredients (Wikidata): bread, food ingredient
+
+Fun facts:
+
+- (history) During the start of the Middle Ages, thin slabs of coarse bread called "trenches" (late 15th century English) or, in its French derivative, "trenchers", were used as plates.
+- (about) Not to be confused with sandwich, smørrebrød, Butterbrot, canapé, tartine.
+- (history) A direct precursor to the English sandwich may be found in the Netherlands of the 17th century, where the naturalist John Ray observed that in the taverns, beef hung from the rafters "which they cut into thin slices and eat with bread and butter laying the slices upon the butter".
 
 Learn more:
 
@@ -372,6 +419,10 @@ A relish is a cooked and pickled culinary dish made of chopped vegetables, fruit
 
 - From: Belgium
 - Ingredients (Wikidata): cucumber
+
+Fun facts:
+
+- (about) Not to be confused with Relish.
 
 Learn more:
 
@@ -462,6 +513,7 @@ Stoemp is a Flemish dish, found in Belgium, Northern France and the Netherlands,
 
 Fun facts:
 
+- (culture) Stoemp is traditionally featured alongside fried boudin, fried braadworst, grilled bacon, fried mince or fried eggs.
 - (origin) Stoemp comes from Belgium, France.
 
 Learn more:
@@ -482,7 +534,13 @@ Tuna salad is a salad dish consisting of tuna and mayonnaise.
 
 Fun facts:
 
+- (history) The first written reference to tuna salad, in Russia, appeared in 1876, and by 1893, dozens of recipes had been published.
 - (about) Pickles, celery, relish, and onion are popular ingredients to add.
+- (history) Due to the high nutritional content of tuna salad, it assumed the reputation of a diet food in the 1960s.
+
+More fun facts (when the user asks for more):
+
+- (about) Tuna salad, especially with celery, is similar to chicken salad while also being more convenient (due to the use of canned tuna), a fact that helped its early rise in popularity.
 
 Learn more:
 
@@ -504,6 +562,7 @@ A vol-au-vent is a small hollow case of puff pastry with a filling.
 Fun facts:
 
 - (history) However, an entremet called petits gâteaux vole au vent is mentioned in François Marin's 1739 cookbook Les Dons de Comus, years before Carême's birth.
+- (origin) Vol-au-vent was first made by Marie-Antoine Carême.
 - (origin) Vol-au-vent comes from France.
 
 Learn more:
@@ -532,6 +591,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (origin) Waterzooi comes from Belgium.
+- (about) Not to be confused with Waterzooi.
 
 Learn more:
 
@@ -553,8 +613,13 @@ Algérienne sauce or Algerian sauce is a sweet and spicy sauce with a yellowish-
 
 Fun facts:
 
+- (history) Sauce algérienne is mentioned in the 1876 book Le livre des menus authored by Fin-Bec.
 - (inspiration) Algérienne sauce is named after Algeria.
 - (origin) Algérienne sauce comes from Belgium.
+
+More fun facts (when the user asks for more):
+
+- (history) Ernest Loewer describes the Algerian sauce in 1962 as comprising half-sautéed tomatoes, stuffed with a julienne of peppers, and served alongside croquette potatoes.
 
 Learn more:
 
@@ -666,14 +731,24 @@ Gueuze is a type of lambic, a Belgian beer.
 
 Fun facts:
 
-- (inspiration) Gueuze is named after Geuzen.
-- (culture) Due to its lambic blend, gueuze has a different flavor than traditional ales and lagers.
-- (about) The original, unsweetened version is often referred to as "Oude Gueuze" ("Old Gueuze") and became more popular in the early 2000s.
+- (history) The name was first seen as the Dutch word 'geuze-bier' in a French text in 1829.
+- (about) Jester King Brewery had no status to represent other American brewers in this meeting, and American brewers were not bound by any agreements made by Jester King's representatives.
+- (culture) HORAL and Jester King agreed that Jester King would use the designation "Méthode Traditionelle" as a style name in the future.
 
 More fun facts (when the user asks for more):
 
+- (origin) There is some debate on where the word gueuze originated.
+- (origin) One theory is that it originated from geysa (geyser), Old Norse for gush, since, during times of vigorous fermentation, gueuze will spew out of the bunghole of its enclosing oak barrel.
+- (about) In 2016 Jester King Brewery released a blended, spontaneously fermented beer which it labelled as "Méthode Gueuze." However, the High Council for Artisanal Lambic Beers (HORAL) objected to the name, and the two parties arranged a meeting in Belgium.
+- (culture) Jester King invited other American brewers to use the Méthode Traditionelle designation for their gueuze-style beers, and proposed a set of standards and a logo for Méthode Traditionelle beers.
+- (inspiration) Gueuze is named after Geuzen.
+- (origin) Gueuze was first made in Senne Valley, Brussels.
+- (culture) Due to its lambic blend, gueuze has a different flavor than traditional ales and lagers.
+- (about) The original, unsweetened version is often referred to as "Oude Gueuze" ("Old Gueuze") and became more popular in the early 2000s.
 - (culture) Traditionally, gueuze, and the lambics from which it is made, have been produced in the area known as Pajottenland and in Brussels.
+- (culture) Some American craft breweries have begun blending young and old sour beers, to produce their own versions of the traditional gueuze.
 - (origin) Gueuze comes from Belgium.
+- (about) Not to be confused with Gose.
 
 Learn more:
 
@@ -695,6 +770,13 @@ Lambic is a type of beer brewed in the Pajottenland region of Belgium southwest 
 
 Fun facts:
 
+- (history) This beverage is first mentioned in 1794 as allambique.
+- (inspiration) Breweries in and around Lembeek, a village near Halle, Belgium, have attempted to associate lambic with that name, including through the legend of local saint Veronus of Lembeek.
+- (origin) Lambic was first made in Senne Valley, Brussels.
+
+More fun facts (when the user asks for more):
+
+- (history) The initial 'a' was dropped early on so that in an 1811 advertisement it was called lambicq, though it was sometimes referred to as alambic as late as 1829.
 - (inspiration) Lambic is named after alembic.
 - (origin) Lambic comes from Belgium.
 
@@ -715,6 +797,7 @@ The Lokerse paardenworst (Lokeren horse sausage) is a regional product from the 
 
 Fun facts:
 
+- (history) Around the end of the 19th century Lokeren experienced a lot of unemployment and poverty.
 - (about) The Lokerse horse sausage was recognized in 2007 as a Flemish regional product by the Flemish Center for Agro- and Fisheries Marketing (VLAM).
 
 Learn more:
@@ -784,8 +867,13 @@ Sauce andalouse is a Belgian condiment commonly served with Belgian fries.
 Fun facts:
 
 - (inspiration) Sauce andalouse is named after al-Andalus.
+- (origin) Sauce andalouse was first made by Auguste Escoffier.
 - (about) The sauce is also popular and widely used throughout France and Luxembourg.
+
+More fun facts (when the user asks for more):
+
 - (origin) Sauce andalouse comes from Belgium.
+- (inspiration) Sauce andalouse is based on gazpacho.
 
 Learn more:
 
@@ -804,6 +892,15 @@ Shrimp croquettes, known in Dutch as garnaalkroketten, are a Flemish dish made w
 
 Fun facts:
 
+- (history) The first shrimp croquette recipe was probably published by Philippe Cauderlier, a chef from Ghent, in his book called Het spaarzame keukenboek (The Thrifty Kitchen Book) in 1914.
+- (about) Shrimps are first mentioned in 12th-century Flemish writings.
+- (culture) The tradition of cooking shrimp on the ship started after 1885 to ensure fresh quality.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1850, new docks were built in Ostend.
+- (history) The 19th century witnessed the growth of the fishing industry.
+- (history) In Ostend, a circular auction building was established in 1879.
 - (culture) The traditional method involves cooking immediately on the board itself and peeling by hand.
 
 Learn more:
@@ -826,6 +923,13 @@ Tartar sauce, often spelled tartare sauce in the UK and other Commonwealth count
 
 Fun facts:
 
+- (inspiration) Tartar sauce is named for steak tartare (and thus ultimately named for the Tatars), with which it was commonly served in 19th century France.
+- (history) Recipes for tartar sauce have been found in English-language cookbooks dating to the mid-19th century, including a recipe in Modern Cookery for Private Families in 1860.
+- (about) Tatarska omacka is also very popular in Central and Eastern Europe, in countries like Slovakia, Czechia, Poland, Ukraine etc., where it is a beloved condiment.
+
+More fun facts (when the user asks for more):
+
+- (history) Tartar sauce was also popular in Hungary in the late 19th century.
 - (inspiration) Tartar sauce is named after Tatars.
 - (origin) Tartar sauce comes from France.
 
@@ -848,7 +952,14 @@ In French cuisine, à la zingara, sometimes spelled as à la singara, is a garni
 Fun facts:
 
 - (origin) Gypsy sauce may have originated from à la zingara.
+- (history) This term was used in the 1903 book Le guide culinaire written by Auguste Escoffier.
 - (inspiration) À la zingara is named after gypsy.
+
+More fun facts (when the user asks for more):
+
+- (about) In August 2013, a group representing Romani and Sinti peoples called for commercial varieties of the sauce to be renamed, stating that use of the word gypsy is offensive and discriminatory, and has negative connotations.
+- (about) Authorities in Hanover, Germany, issued an internal memo in October 2013 informing city staffers that they should avoid using the term to describe a type of schnitzel served in the cafeterias of city-run public buildings, instead calling it "Balkan-style" or "Budapest-style".
+- (about) However, in August 2020, companies such as Knorr replaced the name with "Hungarian-style paprika sauce", citing the recent debates about racism, spurred by the George Floyd protests.
 
 Learn more:
 

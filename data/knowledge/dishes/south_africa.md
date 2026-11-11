@@ -34,6 +34,12 @@ Bobotie is a South African dish consisting of spiced minced meat baked with an e
 
 Fun facts:
 
+- (history) The first recipe for bobotie appeared in a Dutch cookbook in 1609.
+- (origin) Others think it to have originated from bobotok, an Indonesian dish which consisted of totally different ingredients.
+- (history) Bobotie has been known in the Cape of Good Hope since the 17th century, when it was made with a mixture of mutton and pork.
+
+More fun facts (when the user asks for more):
+
 - (origin) Bobotie comes from South Africa.
 
 Learn more:
@@ -56,12 +62,15 @@ Boeber is the Cape Malay name for a South African pudding.
 Fun facts:
 
 - (culture) The pudding is traditionally served on the 15th night of Ramadan to celebrate the middle of the fast, for those who have completed the first 15 days of fasting.
+- (origin) Boeber bears the closest resemblance to kheer or payasam, a dessert hailing from the Indian subcontinent, which is likely to be either introduced by Indian slaves, or the 1860 Indentured Indian immigrants.
 - (about) They are also known as people who are op die berg.
-- (origin) Boeber comes from South Africa.
 
 More fun facts (when the user asks for more):
 
+- (culture) A similar drink called Sawine or Sewine is served in Trinidad and Tobago homes on Eid al-Fitr (the festival marking the end of Ramadan).
 - (culture) Boeber has become a traditional Cape Malay sweet, milk drink, made with vermicelli, sago, sugar, and flavoured with cardamom, stick cinnamon, and rose water.
+- (about) In South Africa, an Afrikaans dish known as melkkos is similar to boeber.
+- (origin) Boeber comes from South Africa.
 
 Learn more:
 
@@ -81,7 +90,13 @@ Bokkoms (or bokkems) is whole, salted and dried mullet (more specifically the So
 
 Fun facts:
 
+- (history) The first official record of the use of the word in the Afrikaans language of South Africa was in the Patriotwoordeboek in 1902 in the form bokkom.
 - (origin) Bokkoms comes from South Africa.
+- (history) As early as 1658, only six years after the first permanent settlement of Europeans at the Cape of Good Hope, four free burghers were given permission to settle in Saldanha Bay on the West Coast of Southern Africa.
+
+More fun facts (when the user asks for more):
+
+- (history) They had sole rights to the lucrative fishing until 1711.
 
 Learn more:
 
@@ -122,7 +137,17 @@ Bunny chow, often referred to simply as a bunny, is an Indian South African fast
 
 Fun facts:
 
+- (inspiration) One story claims that a South African restaurant run by Banias (an Indian caste) first created the dish at a restaurant-café, called Kapitan's, on the corner of Victoria and Albert streets in Durban.
 - (origin) Bunny chow originated among Indian South Africans of Durban.
+- (history) The precise origins of the food are disputed, although its creation has been dated to the 1940s.
+
+More fun facts (when the user asks for more):
+
+- (about) During their breaks the workers at first would lay out their food on large leaves, but as this was time-consuming and their breaks were short, the workers found a way to quickly put their food together without it getting cold or taking up most of their break‍— hence the bunny chow.
+- (history) Bunny chow was also sold in Gwelo, Rhodesia (now Zimbabwe), during World War II and is still sold in the nearby town of Kadoma, formerly known as Gatooma.
+- (culture) The use of a loaf of white bread can also be ascribed to the lack of the traditional roti bread as well as its weak structure; thus the cheap loaf, widely available at local stores, would be an optimal substitute vessel for the curry.
+- (culture) The traditional Indian meal was roti and beans, but the roti tended to fall apart as a take-away item.
+- (about) The vegetarian version of the meal is sometimes known as a "beans bunny".
 - (origin) Bunny chow comes from South Africa.
 
 Learn more:
@@ -246,8 +271,14 @@ A Gatsby is a South African submarine sandwich consisting of a bread roll filled
 
 Fun facts:
 
-- (origin) Gatsby originated in Cape Town and is popular throughout the Western Cape province.
+- (origin) The Gatsby sandwich originated in 1976 in Athlone, in the Cape Flats area of Cape Town.
 - (inspiration) Gatsby is named after The Great Gatsby.
+- (about) The sandwich grew in popularity and was adjusted to use a long French-style roll.
+
+More fun facts (when the user asks for more):
+
+- (origin) Gatsby originated in Cape Town and is popular throughout the Western Cape province.
+- (about) The gatsby sandwich is a popular hangover cure for Capetonians.
 - (origin) Gatsby comes from South Africa.
 
 Learn more:
@@ -270,9 +301,15 @@ A Hertzoggie, also known in Afrikaans as a Hertzogkoekie or in English as a Hert
 
 Fun facts:
 
+- (inspiration) The tartlet is named after the early 20th century South African politician, Prime Minister (1924–1939) and Boer War General J.
+- (history) After fulfilling the first promise to give women the vote in 1930, but not the second, the community began baking the cookies with a brown and pink icing called "twee gevreetjie", showing their dissatisfaction with him.
 - (about) The cookie is a popular dessert in South Africa where it is often eaten with a cup of English tea.
-- (origin) Hertzoggie comes from South Africa.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) One story of the origin of the dessert states that it was invented by the Cape-Malay community to demonstrate their support for Hertzog after he promised to give women the vote and equal rights to the coloured community in the 1920s.
 - (about) It is often baked at home as part of a dessert-baking cottage industry in the country and sold alongside other popular South African desserts such as koeksisters.
+- (origin) Hertzoggie comes from South Africa.
 
 Learn more:
 
@@ -332,6 +369,14 @@ Malva pudding is a baked cake or pudding of South African cuisine.
 
 Fun facts:
 
+- (history) Recipes in South African cookbooks date to the 1970s, and a possible predecessor with the same name which is boiled rather than baked and does not call for the apricot jam that is ubiquitous in modern recipes dates to the 1924 South African Cookery Made easy by a Mrs.
+- (inspiration) The pudding is thought to be of Dutch or Cape Dutch origin and likely based on a similar pudding brought to the region by Dutch colonists in the mid-1600s; baking was not a part of the indigenous diet.
+- (about) Malva pudding is believed to have been made in homes "for generations" before it entered cookbooks and restaurants.
+
+More fun facts (when the user asks for more):
+
+- (history) It appeared on the menu of the Boschendal Wine Estate in 1978.
+- (history) A recipe for telefoenpoeding, which called for ginger and apricot jam, appears in the 1918 Oranje Kook-, Koek- en Resepteboek by Mrs.
 - (origin) Malva pudding comes from South Africa.
 
 Learn more:
@@ -375,6 +420,11 @@ A meat chop is a cut of meat cut perpendicular to the spine, and usually contain
 
 - From: South Africa
 
+Fun facts:
+
+- (origin) In Great Britain, the idea of a chop comes from the 17th century, when London chophouses started cooking individual portions of meat.
+- (about) Not to be confused with cutlet.
+
 Learn more:
 
 - quick: [Meat chop (Wikipedia)](https://en.wikipedia.org/wiki/Meat_chop)
@@ -413,6 +463,7 @@ Mosbolletjies is a traditional Afrikaner or Cape Dutch sweet-bun or bread tradit
 
 Fun facts:
 
+- (origin) The bun originated from French Huguenots refugees who settled the town of Franschhoek in 1688 and introduced viticulture to the region.
 - (origin) Mosbolletjies comes from South Africa.
 
 Learn more:
@@ -456,7 +507,12 @@ In South Africa, a potjiekos, literally translated "small-pot food", is a dish p
 
 Fun facts:
 
+- (origin) Potjiekos originated with the Voortrekkers, evolving as a stew made of venison and vegetables (if available), cooked in the potjie.
 - (culture) Potjiekos is traditionally cooked in a round, cast iron, three-legged cauldron, the potjie.
+- (culture) Traditionally, the recipe includes meat, vegetables like carrots, cabbage, cauliflower, or pumpkin, starches like rice or potatoes, all slow-cooked with Dutch-Malay spices, the distinctive spicing of South Africa's early culinary melting pot.
+
+More fun facts (when the user asks for more):
+
 - (origin) Potjiekos comes from South Africa.
 
 Learn more:
@@ -587,6 +643,14 @@ Ugali, also known as posho, nsima, papa, pap, bogobe, sadza, isitshwala, akume, 
 Fun facts:
 
 - (culture) In 2017, the dish was added to the UNESCO Representative List of the Intangible Cultural Heritage of Humanity, one of a few foods on the list.
+- (about) The word ugali is an African term derived from Swahili; it is also widely known as nsima in Malawian languages such as Chichewa and Chitumbuka.
+- (origin) In Zimbabwe it is known as sadza in Chishona or isitshwala in Ndebele The Afrikaans name (mielie) pap comes from Dutch, in which the term means "(corn) porridge".
+
+More fun facts (when the user asks for more):
+
+- (origin) Ugali was introduced in Africa shortly after the Portuguese had introduced maize.
+- (origin) Maize was introduced to Africa from the Americas between the 16th and 17th centuries.
+- (origin) Cassava, which was also introduced from the Americas, can also be used to make nshima/nsima, either exclusively or mixed with maize flour.
 - (origin) Ugali comes from Kenya.
 
 Learn more:
@@ -656,7 +720,16 @@ Biltong is a form of air-dried, cured meat which originated in Southern Africa.
 
 Fun facts:
 
+- (history) According to local lore, biltong was originally made in the 17th century by Afrikaner pioneers who would place large strips of raw meat under horses' saddles to dry with the horses' salty sweat.
+- (about) Iceboxes and refrigerators had not been invented yet, and building up herds of livestock took a long time.
+- (origin) The spices introduced to biltong by the Afrikaners include pepper, coriander, and cloves.
+
+More fun facts (when the user asks for more):
+
+- (history) In the First World War, some South African soldiers on the Western Front had biltong specially shipped to them from home.
+- (culture) With game in abundance in Southern Africa, however, traditional methods were called upon to preserve the meat of large African animals including the eland.
 - (origin) Biltong comes from South Africa.
+- (about) Not to be confused with biltong.
 
 Learn more:
 
@@ -693,7 +766,13 @@ Boerewors is a type of sausage which originated in South Africa.
 
 Fun facts:
 
+- (origin) When locally available antelopes such as springbok or oryx are included, the sausage must be labelled with the species from which the meat originates.
 - (about) Boerewors is an important part of South African, Setswana, Zimbabwean cuisine and is popular across Southern Africa.
+- (culture) Traditional boerewors is usually formed into a continuous spiral.
+
+More fun facts (when the user asks for more):
+
+- (culture) It is often served with pap (traditional South African porridge / polenta made from mielie-meal).
 - (origin) Boerewors comes from South Africa.
 
 Learn more:
@@ -798,7 +877,16 @@ Moonshine is high-proof liquor, traditionally made or distributed illegally.
 
 Fun facts:
 
+- (history) The Excise Whiskey Tax was law until 1802, upon repeal of the Tariff of 1791.
 - (culture) The name was derived from a tradition of distilling the alcohol at night, usually when the moon was out, to avoid detection.
+- (about) Not to be confused with moonlight.
+
+More fun facts (when the user asks for more):
+
+- (history) Illegal distilling accelerated during the Prohibition era (1920–1933), which mandated a total ban on alcohol production under the Eighteenth Amendment of the Constitution.
+- (history) Since the amendment was repealed in 1933, laws focus on evasion of taxation on any type of spirits or intoxicating liquors.
+- (history) The earliest known instance of the term "moonshine" being used to refer to illicit alcohol dates to the 1785 edition of Grose's Dictionary of the Vulgar Tongue, which was published in England.
+- (culture) Traditionally, moonshine usually is a clear, unaged whiskey, made with barley mash in Scotland and in Ireland, and made with maize corn mash in the United States.
 
 Learn more:
 
@@ -864,6 +952,7 @@ Waterblommetjiebredie/ˌvɑːtərˌblɔmikiˈbrɪədi/ is a traditional South Af
 
 Fun facts:
 
+- (about) Waterblommerjiebredie was first prepared by Nhlakanipho Madonsela to South Africa.
 - (origin) Waterblommetjiebredie comes from South Africa.
 
 Learn more:

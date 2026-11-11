@@ -14,14 +14,24 @@ Beef Stroganoff, also spelled beef Stroganov, is a Russian dish of sautéed piec
 
 Fun facts:
 
-- (inspiration) Beef Stroganoff is named after one of the members of the Stroganov family.
-- (history) Since its appearance in the 19th century, it has become popular around the world, with considerable variation from the original recipe.
-- (origin) Beef Stroganoff comes from France, Russia, Russian Empire.
+- (inspiration) Another legend attributes its invention to French cooks working for the family, but several researchers point out that the recipe is a refined version of older Russian dishes.
+- (history) Elena Molokhovets's classic Russian cookbook A Gift to Young Housewives gives the first known recipe for Govjadina po-strogonovski, s gorchitseju, "Beef à la Stroganov, with mustard", in its 1871 edition.
+- (about) This led Larousse Gastronomique to assume that he was the inventor of this dish, but both the recipe and the name existed before then.
 
 More fun facts (when the user asks for more):
 
+- (inspiration) Beef Stroganoff is named after one of the members of the Stroganov family.
+- (history) Since its appearance in the 19th century, it has become popular around the world, with considerable variation from the original recipe.
+- (inspiration) Beef Stroganoff is named after one of the members of the Stroganov family, a Russian noble family.
+- (inspiration) Beef Stroganoff has been debated whether it is named after the diplomat Pavel Stroganov or the politician Alexander Stroganov.
+- (inspiration) According to legend, while stationed in Siberia, Pavel Stroganov's chef found the beef to be frozen so solid that it could only be cut into small strips.
+- (history) In 1891, the French chef Charles Brière, who was working in Saint Petersburg, submitted a recipe for beef Stroganoff to a competition sponsored by the French magazine L'Art culinaire.
+- (culture) A recipe from 1909 adds onions and tomato sauce, and serves it with crisp potato straws, which are considered the traditional side dish for beef Stroganoff in Russia.
+- (history) The version given in the 1938 Larousse Gastronomique includes beef strips, and onions, with either mustard or tomato paste optional.
+- (history) After the fall of the Russian monarchy in 1917, the recipe was served in the hotels and restaurants of China before the start of World War II.
 - (inspiration) Beef Stroganoff is named after Stroganov family, Alexander Stroganov.
 - (history) Beef Stroganoff dates from 1900-.
+- (origin) Beef Stroganoff comes from France, Russia, Russian Empire.
 
 Learn more:
 
@@ -42,9 +52,19 @@ Blini are Russian pancakes, often made with a yeast-raised batter of buckwheat, 
 
 Fun facts:
 
+- (about) For example, "Первый блин комом" ("The first blin is lumpy") is a figurative saying that the first attempt to do something is expected to be unsuccessful, said to calm down the person who failed the first try.
+- (history) The influence of French cuisine in the 19th century may have led to the development of lighter blini.
 - (inspiration) Blini is named after mill, disk.
+
+More fun facts (when the user asks for more):
+
 - (culture) They are a traditional dish in Russian cuisine.
 - (culture) In the English language, blini traditionally refers to small savory pancakes made with leavened batter.
+- (inspiration) They are basically rolls based on thin pancakes usually made of wheat flour, folded to form a casing for various kinds of filling, typically cheese, fruit, or (in Russian cuisine) pre-fried minced meat, and then sautéed or baked.
+- (origin) While the modern Russian word блины, bliny, also refers to foreign-introduced pancakes in general, the term русские блины, russkiye bliny ('Russian pancakes'), is often emphasized in Russia for differentiation.
+- (culture) In Russian culture, blini were traditionally prepared at the end of winter during Maslenitsa ('butter week') as a treat eaten twice a day.
+- (culture) Traditional Russian blini are made with yeasted batter, which is left to rise and then diluted with milk, soured milk, and cold or boiling water.
+- (about) All kinds of flour may be used, from wheat and buckwheat to oatmeal and millet, although wheat is currently the most popular.
 
 Learn more:
 
@@ -64,7 +84,16 @@ Borodinsky bread or borodino bread is a dark brown sourdough rye bread of Russia
 
 Fun facts:
 
+- (inspiration) No sources support these legends, and the name of this bread most probably first appeared after the October Revolution (1917), as no mention of this name was made before 1920.
+- (history) The modern recipe did not appear in print before 1933, first in internal memos of a Moscow baking plant.
 - (origin) Borodinsky bread comes from Russia.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Another legend that ties it to the Battle of Borodino mentions a food trailer containing caraway and rye flour that got blasted by a cannon, forcing the locals to recover the ingredients and use them together for the first time.
+- (inspiration) Several legends exist regarding the etymology.
+- (history) However, in the literature of breadbaking of the end of 19th century, a number of similar recipes exist, though caraway seeds were usually used instead of coriander.
+- (history) The most popular one states that this bread traces its name to Margarita Tuchkova, a widow of Napoleonic Wars general Alexander Tuchkov, who perished at Battle of Borodino.
 
 Learn more:
 
@@ -85,6 +114,19 @@ Bublik is a traditional Eastern European bread roll.
 
 Fun facts:
 
+- (history) The first known written mention of the bagel is found in the Community Regulations of the city of Kraków in 1610.
+- (origin) Bublik stems from Old East Slavic бубьлъ (bubl), ultimately from Proto-Slavic *bǫbьlь, from which Polish bąbel, Czech boubel and Slovak bublina also originated.
+- (about) The baranka is first mentioned in Russian sources in a 17th-century text.
+
+More fun facts (when the user asks for more):
+
+- (history) The word bublik was adopted from Ukrainian to Russian in which it is first documented in the 18th century.
+- (history) An entry for the year 1665 in the account ledger of Valday Iversky Monastery reads: "Baranki and eggs purchased for the brothers in Bogoroditsino village for ten altyn." In the 19th century, the town of Valday was famous for its baranki.
+- (history) Bublik is mentioned as "wheat bublik" in the Lexicon or Alphabetic Collection of Speeches from Russian to Dutch by Jacob Bruce published in 1717 in Saint Petersburg.
+- (history) Written accounts of Smarhon' baranki appeared in the 19th century.
+- (about) Bublik or baranka is known as abaranak in Belarusian and riestainis or baronkos in Lithuanian.
+- (about) Adam Kirkor wrote in the encyclopedia Picturesque Russia: "In Smorgon', Oshmyany district, Vilna province, almost all the petty bourgeois population is busy baking small bubliki, or kringles, which are widely known as Smorgon' obvaranki.
+- (about) Each traveller would definitely buy several bundles of these bubliki; besides, they are transported to Vilna and other cities." Władysław Syrokomla mentioned Smarhon' as "the capital of obwarzanki famous in all Lithuania".
 - (origin) Bublik comes from Ukraine.
 
 Learn more:
@@ -105,7 +147,13 @@ Caviar or caviare is a food consisting of salt-cured roe of the family Acipenser
 
 Fun facts:
 
+- (history) Caviar and sturgeon from the Sea of Azov began reaching the tables of aristocratic and noble Greeks in the 10th century, after the commencement of large-scale trading between the Byzantine Empire and Kievan Rus'.
 - (culture) Traditionally, the term caviar refers only to roe from wild sturgeon in the Caspian Sea and Black Sea (beluga, ossetra and sevruga caviars).
+- (history) In the 16th century, François Rabelais described caviar as the finest item of what is now called hors d'oeuvre.
+
+More fun facts (when the user asks for more):
+
+- (history) By 1569, the Russians had conquered the entire Volga River to its mouth.
 
 Learn more:
 
@@ -129,11 +177,13 @@ Fun facts:
 
 - (history) They have become widespread in Eastern Europe in the 20th century.
 - (culture) Chebureki is a national dish of Crimean Tatar cuisine.
-- (about) A popular street dish, they are made with a single round piece of dough folded over the filling in a crescent shape.
+- (inspiration) In modern Turkish, the name is written as çiğ börek, a corruption of the Crimean Tatar name based on a false etymology associating the first part of the name with çiğ, literally meaning "raw." In contrast to dishes such as çiğ köfte (raw meatballs), çiğ börek is a cooked dish that more closely resembles içli köfte.
 
 More fun facts (when the user asks for more):
 
+- (about) A popular street dish, they are made with a single round piece of dough folded over the filling in a crescent shape.
 - (culture) They are popular as a snack and street food throughout the Caucasus, West Asia, Central Asia, Lithuania, Latvia, Estonia, Ukraine, Russia, Eastern Europe, as well as in Turkey, Greece and Romania.
+- (about) Chebureki is very popular, especially in Eskişehir.
 - (origin) Chebureki comes from Crimea.
 
 Learn more:
@@ -156,7 +206,12 @@ Chicken Kiev, also known as chicken Kyiv, is a dish made of chicken fillet pound
 
 Fun facts:
 
+- (culture) Since the 18th century, Russian chefs have adopted many techniques of French haute cuisine and combined them with the local culinary tradition.
+- (history) In particular, the use of high quality meat cuts, such as various cutlets, steaks, escalopes and suprêmes became widespread in the 19th century, and a number of original dishes involving such components were developed in Russia at that time.
 - (inspiration) Chicken Kiev is named after Kyiv.
+
+More fun facts (when the user asks for more):
+
 - (history) Chicken Kiev dates from 1800-.
 - (about) Though it has disputed origins, the dish is particularly popular in the post-Soviet states, as well as in several other countries of the former Eastern Bloc, and in the English-speaking world.
 
@@ -246,6 +301,10 @@ Farina is a form of milled wheat popular in the United States.
 - From: Russia
 - Ingredients (Wikidata): semolina
 
+Fun facts:
+
+- (about) Not to be confused with semolina pudding.
+
 Learn more:
 
 - quick: [Farina (food) (Wikipedia)](https://en.wikipedia.org/wiki/Farina_%28food%29)
@@ -265,6 +324,14 @@ Guryev porridge is a Russian sweet porridge (kasha) prepared from semolina and m
 
 Fun facts:
 
+- (origin) The name of Guryev porridge comes from the name of Count Dmitry Alexandrovich Guryev (1751–1825), Minister of Finance and member of the State Council of the Russian Empire.
+- (history) Prior to the October 17, 1888 train crash that Alexander III was on, the emperor was served this dish for dessert.
+- (inspiration) Guryev porridge has been stated that Guryev porridge was invented by Zakhar Kuzmin, a serf chef of the retired major of the Orenburg dragoon regiment Georgy Jurisovsky, who was visited by Guryev.
+
+More fun facts (when the user asks for more):
+
+- (about) Guryev porridge was a beloved dish of Emperor Alexander III.
+- (about) When the waiter came to the emperor to pour the cream, a terrible blow occurred, and the train derailed.
 - (culture) Traditional preparation of the dessert is made by baking milk or cream until a golden milk skin forms.
 - (origin) Guryev porridge comes from Russia.
 
@@ -296,6 +363,7 @@ More fun facts (when the user asks for more):
 - (culture) Karelian pasties have had traditional speciality guaranteed (TSG) status in Europe since 2003.
 - (culture) This means that any producer not following the traditional recipe cannot call them karjalanpiirakka and instead, will have to call them riisipiirakka 'rice pasties', perunapiirakka 'potato pasties', etc., depending on the filling.
 - (origin) Karelian pasty comes from Finland, Russia.
+- (about) Not to be confused with tsupukka.
 
 Learn more:
 
@@ -311,6 +379,17 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q598113) (CC0); [Wikipedia: Ka
 In English, kasha () is a porridge usually made from buckwheat, a pseudocereal.
 
 - From: Russia
+
+Fun facts:
+
+- (history) The word kasha was borrowed from Russian kásha and first appears in English-language sources in 1808.
+- (origin) The English-language usage of kasha, which refers primarily to buckwheat, probably originated with Jewish immigrants, as did the form קאַשי kashi.
+- (about) As an Ashkenazi Jewish comfort food, kasha is often served with onions and brown gravy on top of farfalle, known as kasha varnishkes.
+
+More fun facts (when the user asks for more):
+
+- (about) Kasha is a popular filling for knishes, and is sometimes included in matzah-ball soup.
+- (about) Not to be confused with buckwheat porridge.
 
 Learn more:
 
@@ -353,6 +432,16 @@ Kissel or kisel is a dish with the consistency of a thick gel, and made of sweet
 
 Fun facts:
 
+- (culture) Oat-based kissel soup is one of the characteristic national dishes of Poland (żurek) and Belarus.
+- (history) In the former Russian Empire, fruit kissels appeared in the late 19th century or at the beginning of the 20th, when affordable potato starch became easily available.
+- (inspiration) In French cuisine there was a similar dish known, called gelée – a berry-fruit jelly-kissel made with addition of gelatin based on fish waste.
+
+More fun facts (when the user asks for more):
+
+- (culture) Descriptions of traditional grain-based kissel note that grains were soaked in water until starch was released and the mixture became lightly fermented.
+- (culture) In Russia, oatmeal, rye or wheat kissel was an everyday dish, but also a ritual one, eaten at funeral feasts.
+- (culture) In Poland’s Podlaskie region, ‘podlaski kisiel owsiany’ (Podlaski oat kissel) was added to the Ministry of Agriculture and Rural Development’s List of Traditional Products in 2022.
+- (inspiration) In Western European languages, fruit and berry sweet kissels based on starch do not have a common name and may be called "fruit cereals", "gravy", "sautés", or "fruit sauces".
 - (origin) Kissel comes from Russia, Belarus, Ukraine, Kievan Rus'.
 
 Learn more:
@@ -376,6 +465,7 @@ A kolach or kalach is a traditional bread found in Central and Eastern European 
 Fun facts:
 
 - (origin) The name originates from the Old Slavonic word kolo meaning "circle" or "wheel".
+- (about) Not to be confused with Kalach.
 - (origin) Kolach comes from Hungary, Russia, Ukraine.
 
 Learn more:
@@ -399,7 +489,15 @@ A korovai, karavai, or kravai is a traditional Bulgarian, Ukrainian, and Russian
 Fun facts:
 
 - (culture) Korovai has remained part of the wedding tradition in Belarus, Russia, Ukraine, as well as in the Russian and Ukrainian diasporas.
+- (about) The white, shaped decorations are typically made from salt dough, also known as dead dough or baker's clay.
 - (origin) Korovai comes from Kievan Rus'.
+
+More fun facts (when the user asks for more):
+
+- (culture) Korovai was a large round braided bread, traditionally baked from wheat flour and decorated with symbolic flags and figurines, such as suns, moons, birds, animals, and pine cones.
+- (culture) The bread was traditionally prepared in the home of the bride by women who sang traditional songs to guide them through the making.
+- (culture) The embellishments served a symbolic function.
+- (culture) The entire arrangement is surrounded by a wreath of periwinkle, a symbol of love and purity.
 
 Learn more:
 
@@ -421,10 +519,11 @@ Fun facts:
 
 - (culture) The Paska bread tradition spread in cultures which were connected to the Byzantine Empire and is a traditional cultural part of countries with an Orthodox Christian population.
 - (origin) Kulich comes from Russia, Grand Principality of Moscow.
-- (culture) Easter is a very important celebration in Eastern European countries, even more important than Christmas.
+- (about) Not to be confused with paskha.
 
 More fun facts (when the user asks for more):
 
+- (culture) Easter is a very important celebration in Eastern European countries, even more important than Christmas.
 - (culture) In an entry in The Oxford Companion to Sugar and Sweets, food historian and artist Alicia Rios described Kulich as "unmistakably" phallic, which she characterized as "[betraying] the pagan traditions that underlie Christian celebrations".
 
 Learn more:
@@ -466,6 +565,10 @@ Kutia or kutya is a ceremonial grain dish in syrup traditionally served predomin
 
 - From: Russia
 - Ingredients (Wikidata): millet, Hordeum, Oryza, Wheatberry, wheat
+
+Fun facts:
+
+- (culture) Kutia has a similar name across the countries where it is traditionally consumed, such as Belarusian: куцця [kuˈt͡sʲːa], Polish: kutia [ˈkutja], Russian: кутья [kʊˈtʲja], and Ukrainian: кутя [kʊˈtʲɑ], except in Armenia where it is called anoush abour, meaning "sweet wheat".
 
 Learn more:
 
@@ -513,7 +616,13 @@ Medovik is a layer cake popular in countries of the former Soviet Union.
 
 Fun facts:
 
+- (culture) According to Russian tradition, the cake was created in the 19th century in the Russian Empire by a young chef who sought to impress Empress Elizabeth Alexeievna, wife of Alexander I.
+- (inspiration) Despite this legend, medovik is not mentioned in any of the 19th-century Russian cookbooks.
 - (about) The dessert, famous for its lengthy preparation time, consists of layers of sponge cake with a cream filling and is often covered with nuts or crumbs made from leftover cake.
+
+More fun facts (when the user asks for more):
+
+- (about) Medovik gained its intense popularity during the Soviet era.
 - (origin) Medovik comes from Russia.
 
 Learn more:
@@ -560,6 +669,7 @@ Okróshka is a cold soup of Russian origin, which probably originated in the Vol
 Fun facts:
 
 - (origin) Later versions that first appeared in Soviet times use light or diluted kefir, whey, ayran, or carbonated water instead of kvass.
+- (about) Not to be confused with doghramaj.
 - (origin) Okroshka comes from Russia.
 
 Learn more:
@@ -577,6 +687,11 @@ Oladyi or oladi are small thick pancakes or fritters common in Russian and Ukrai
 
 - From: Russia
 - Ingredients (Wikidata): milk, sugar, salt, flour, yeast, egg as food, sodium bicarbonate
+
+Fun facts:
+
+- (history) The Old East Slavic word oladya as a proper noun is first attested in 1470.
+- (about) As a dish, it is first mentioned in Domostroy, the 16th-century Russian book of household rules, instructions and advice.
 
 Learn more:
 
@@ -596,7 +711,20 @@ Pelmeni are dumplings of Russian cuisine that consist of a filling wrapped in th
 
 Fun facts:
 
+- (history) The dish kundyumy was largely forgotten after the 17th century, with one of its only surviving recipes included in the works of Vasily Lyovshin in the early 19th century, where it is described as a lenten dumpling dish with a mushroom and rice filling that was baked with mushroom broth.
+- (origin) One theory suggests pelmeni, or stuffed boiled dumplings in general, originated in Siberia, possibly a simplified adaptation of the Chinese jiaozi.
 - (culture) Pelmeni also have deep roots in the traditions and folklore of the regions of Komi and Udmurtia in Russia, and figure prominently in Komi and Udmurt cuisine.
+
+More fun facts (when the user asks for more):
+
+- (origin) Another theory is that they originated in the Urals and were then spread to Central Asia by Russian explorers and pioneers.
+- (history) In a Kungur census book from 1679, surnames derived from the dish begin to appear, such as Pelmenev and Pelnenev.
+- (history) When pelmeni entered the national Russian consciousness in the 19th century, in part thanks to improved transportation connecting different regions of the nation, they were often called Siberian pelmeni.
+- (history) As early as the 16th century, documents like the Domostroy referenced the old Russian dumpling dish kundyumy.
+- (history) Interestingly, the name ushki was considered synonymous with kundyumy by Lyovshin, and the name ushki to denote dumplings became more prevalent into the 19th century.
+- (origin) This theory is corroborated by the fact that traditional pelmeni fillings are strongly flavored with black pepper and other spices that are not native to Russia.
+- (about) The dish gained popularity in Siberia, evident by contemporary writings and works of art.
+- (about) Recipes for ushki during this period eventually evolved to include a variety of meat and fish fillings as well, in conjunction with the rising popularity of pelmeni.
 
 Learn more:
 
@@ -618,6 +746,7 @@ Pirog is a baked case of dough with either sweet or savory filling.
 Fun facts:
 
 - (origin) Pirog comes from Russia.
+- (about) Not to be confused with pierogi, pirozhki, pie.
 
 Learn more:
 
@@ -638,8 +767,20 @@ A Pozharsky cutlet is a breaded ground chicken or veal patty that is typical of 
 
 Fun facts:
 
-- (history) Pozharsky cutlet was created in the beginning of the 19th century in Russia and later adopted by French haute cuisine.
+- (history) The cutlets are mentioned in particular by Leitch Ritchie (1836), Victor d’Arlincourt (1843) and Théophile Gautier (1875).
+- (inspiration) Several legends appeared about the origin of this dish.
 - (origin) Pozharsky cutlet comes from Russia.
+
+More fun facts (when the user asks for more):
+
+- (history) The chicken version appeared probably in 1830–1840s when Darya Pozharskaya inherited the inn after her father's death.
+- (history) The first complete recipes of Pozharsky cutlets were published in a Russian cookbook in 1853; the cookbook included a recipe for chicken cutlets and one for fish cutlets.
+- (history) Pelageya Alexandrova-Ignatieva notes in The Practical Fundamentals of the Cookery Art (1899–1916) that the same cutlets can also be made from game (grouse, partridge etc.).
+- (history) Pozharsky cutlet was created in the beginning of the 19th century in Russia and later adopted by French haute cuisine.
+- (history) Alexander Pushkin recommended in 1826 in a letter to a friend to "dine at Pozharsky in Torzhok, try fried cutlets and set out with a light mood".
+- (inspiration) According to one legend, the recipe was given to the Pozharskys by a poor French traveller as payment for the accommodation.
+- (history) In the 19th and 20th century, the dish was adopted by French chefs, and various cutlet-shaped patties made of minced meat (veal, chicken, grouse, hare) or fish (salmon) mixed with butter were named Pojarski in classical French cookbooks.
+- (inspiration) A popular historical myth related the creation of this dish to prince Dmitry Pozharsky.
 
 Learn more:
 
@@ -659,6 +800,7 @@ Pryanik refers to a range of traditional sweet-baked goods in Russia, Ukraine, B
 Fun facts:
 
 - (culture) Traditionally, pryaniks are made from flour and honey.
+- (about) Not to be confused with gingerbread.
 
 Learn more:
 
@@ -694,13 +836,22 @@ Rassolnik (Russian: рассольник [rɐˈsolʲnʲɪk]) is a traditional Ru
 
 Fun facts:
 
+- (origin) The soup is mentioned in many culinary books from the 19th century, though the first mentions of rassolnik originate from the middle of the 18th century.
+- (about) The inventor of this soup variation is Nikolai Alexandrovich Kurbatov, who invented multiple dishes during the Soviet period.
 - (history) Rassolnik is known to have existed as far back as the 15th century, when it was called kalya.
-- (about) Rassolnik became part of the common Soviet cuisine and today it is also popular in Ukraine (as rozsoljnyk) and Belarus (as rasoljnik).
-- (origin) Rassolnik comes from Russia.
 
 More fun facts (when the user asks for more):
 
+- (origin) The word rassolnik originates from the Russian word рассольник (English: [rɐˈsolʲnʲɪk]), consisting of рассол (rassol,” brine”) + - ник (-nik).
+- (culture) Rassolnik is considered one of the traditional dishes in Russian cuisine, though it has been mentioned in Russian culinary books starting from the 18th century.
+- (culture) Other mentions of rassol in traditional Russian cuisine can be found in Notes on Muscovite Affairs by Sigismund von Herberstein, a Carniolan diplomat in the 16th century.
+- (about) Rassolnik became part of the common Soviet cuisine and today it is also popular in Ukraine (as rozsoljnyk) and Belarus (as rasoljnik).
 - (about) A similar dish is common in Poland, where it is known as zupa ogórkowa.
+- (inspiration) The key part of rassolnik is the rassol, a liquid based on the juice of pickled cucumbers with various other seasonings.
+- (culture) Rassol, or brine, has been widely used in traditional Russian cuisine.
+- (inspiration) Originally rassolnik, based on the Vladimir Dal works, was described as a meat pie with a filling of pickled cucumber.
+- (about) During the Soviet period, Leningrad rassolnik, consisting of beef kidneys, became widely popular.
+- (origin) Rassolnik comes from Russia.
 
 Learn more:
 
@@ -722,6 +873,8 @@ Rasstegai is a type of Russian pirog with a hole in the top.
 
 Fun facts:
 
+- (about) Rasstegai was very popular in Tsarist Russia.
+- (inspiration) Another version: in Moscow, in the gypsy choir, the beautiful Katya sang very well the Russian song "Sarafanchik-rasstegaychik"; in honor of Katya, rasstegai became a very popular meal in taverns in Moscow.
 - (origin) Rasstegai comes from Russia.
 
 Learn more:
@@ -743,7 +896,14 @@ Shashlik, or shashlyck, is a dish of skewered and grilled cubes of meat, similar
 
 Fun facts:
 
+- (culture) From then on, its popularity spread rapidly; by the 1910s it was a staple in St Petersburg restaurants, and by the 1920s it was already a pervasive street food all over urban Russia.
+- (history) The word was coined from Crimean Tatar şış ('spit') by the Zaporozhian Cossacks and entered Russian in the 18th century, from there spreading to English and other European languages.
+- (origin) Shashlik was first made by nomads.
+
+More fun facts (when the user asks for more):
+
 - (culture) Shashlik is known traditionally by various other names in the Caucasus, Eastern Europe and Central Asia, and from the 19th century became popular as shashlik across much of the Russian Empire and later across much of the former Eastern Bloc.
+- (history) Shashlik did not reach Moscow until the late 19th century.
 - (origin) Shashlik comes from Central Asia.
 
 Learn more:
@@ -766,7 +926,20 @@ Shchi is a Russian-style cabbage soup.
 
 Fun facts:
 
+- (origin) Cabbage soups have been known in Kievan Rus as far back as the 9th century, soon after cabbage was introduced from Byzantium.
+- (history) As a result, by the 10th century shchi became a staple food of Russia, and a popular saying sprang from this fact: "Щи да каша — пища наша." (Shchi da kasha — pishcha nasha "Shchi and kasha are our food").
+- (inspiration) When sauerkraut is used instead, the soup is called sour shchi, while soups based on sorrel, spinach, nettle, and similar plants are called green shchi.
+
+More fun facts (when the user asks for more):
+
+- (origin) Its popularity in Russia originates from several factors: Shchi is relatively easy to prepare; it can be cooked with or without various types of meat; and it can be frozen in the winter and carried as a solid on a trip to be cut up when needed.
+- (history) The spice mixture was enriched with black pepper and bay leaf, which were imported to Russia around the 15th century, also from Byzantium.
+- (culture) Shchi (from Old East Slavic: съти, the plural of "съто" (s(i)to) – "something satisfying, feed") is a traditional soup of Russia.
+- (inspiration) The major components of shchi were originally cabbage, meat (beef, pork, lamb, or poultry), mushrooms, flour, and spices (based on onion and garlic).
+- (culture) Shchi is traditionally eaten with rye bread.
+- (about) Beef was the most popular meat for shchi in Russia, while pork was more common in Ukraine.
 - (origin) Shchi comes from Russian Empire.
+- (about) Not to be confused with borscht.
 
 Learn more:
 
@@ -810,6 +983,18 @@ Solyanka is a thick and sour soup of Russian origin.
 
 Fun facts:
 
+- (history) The first written mention of solyanka or selyanka dates back to the 17th century, where it is described as a hot dish with cabbage, salted cucumbers, meat, poultry, fish, mushrooms or other products.
+- (origin) One of the first recipes of selyanka in Russian culinary literature comes from Nikolai Osipov's book Ancient Russian Housewives, Housekeepers and Troublemakers (1794).
+- (about) Due to its astringent sour taste that is believed to relieve a hangover, solyanka has also earned the nickname "hangover soup."
+
+More fun facts (when the user asks for more):
+
+- (history) Yekaterina Avdeyeva's 1842 book The Handbook of an Experienced Russian Hostess (1842) gives a version of solyanka soup made with mushrooms.
+- (history) In the Dictionary of the Russian Academy (1822), solyanka is still described as a main course, rather than a soup.
+- (history) A soup version of solyanka emerged in the 1830s.
+- (history) Solyanka was mentioned by Russian chef Gerasim Stepanov in 1834 under the section on "Miscellaneous Shti" (shchi), alongside nettle soups and Ukrainian borscht.
+- (history) Since the 1840s, solyanka soup has been increasingly mentioned as a separate dish.
+- (history) In the second half of the 19th century, solyanka received the modern form of its name.
 - (origin) Solyanka comes from Russian Empire.
 
 Learn more:
@@ -832,6 +1017,7 @@ Sorrel soup is made from water or broth, sorrel leaves, and salt.
 
 Fun facts:
 
+- (origin) Sorrel soup was first made in Eastern Europe.
 - (origin) Sorrel soup comes from Eastern Europe.
 
 Learn more:
@@ -853,9 +1039,13 @@ Stroganina is a dish of the northern Russians and indigenous people of northern 
 
 Fun facts:
 
-- (culture) Traditional stroganina is made with freshwater whitefish salmonids found in the Siberian Arctic waters such as nelma, muksun, chir, and omul.
+- (culture) The city of Yakutsk holds festivals celebrating the local delicacy.
 - (about) This dish is popular with native Siberians, and is present in Yakutian cuisine, Eskimo cuisine, Komi cuisine and Yamal cuisine.
 - (origin) Stroganina comes from Russia.
+
+More fun facts (when the user asks for more):
+
+- (culture) Traditional stroganina is made with freshwater whitefish salmonids found in the Siberian Arctic waters such as nelma, muksun, chir, and omul.
 
 Learn more:
 
@@ -900,6 +1090,7 @@ Fun facts:
 
 - (about) In Russia, they are also known as tvorozhniki.
 - (origin) Syrniki comes from Ukraine, Eastern Europe.
+- (about) Not to be confused with Serniki.
 
 Learn more:
 
@@ -953,6 +1144,7 @@ Fun facts:
 
 - (culture) When vegetarian (filled only with mushrooms or onion) they are a part of traditional Christmas Eve dishes in Poland, Belarus, and western Ukraine, and are either added to the soup or eaten as a side dish.
 - (origin) Uszka comes from Poland.
+- (about) Not to be confused with Uszka.
 
 Learn more:
 
@@ -998,7 +1190,11 @@ Veal Orloff, or veal Orlov, is a dish created by Urbain Dubois, a 19th-century F
 Fun facts:
 
 - (inspiration) Veal Orloff is named after Nikolay Orlov.
+- (origin) Veal Orloff was first made by Urbain Dubois.
 - (about) Similar dishes are popular in Russia today, where they usually go by the name French-style meat.
+
+More fun facts (when the user asks for more):
+
 - (origin) Veal Orloff comes from France.
 
 Learn more:
@@ -1044,6 +1240,14 @@ Zakuski is the term for an assortment of cold hors d'oeuvres, entrées and snack
 
 Fun facts:
 
+- (history) Its origin is generally attributed to Peter I of Russia (r. 1682–1725), who absorbed many foreign customs during his travels to Western Europe.
+- (about) Zakuski became thus the first course of a festive dinner.
+- (culture) The tradition of zakuski is linked to the Swedish and Finnish brännvinsbord, which was also the ancestor of modern smörgåsbord, and to meze of the Ottoman Empire and other Middle Eastern cultures.
+
+More fun facts (when the user asks for more):
+
+- (about) A broad selection of zakuski constitutes a standard first course at any feast table.
+- (culture) The tradition eventually spread to other layers of society and remained in the Soviet times, but due to lack of space, they were served on the dinner table.
 - (origin) Zakuski comes from Russia.
 
 Learn more:
@@ -1064,6 +1268,12 @@ Zefir is a Russian confectionery, similar to marshmallows and meringue.
 - Ingredients (Wikidata): egg white
 
 Fun facts:
+
+- (origin) An addition of unwhipped egg whites to the recipe originated in the town of Kolomna sometime during the 15th century, and in the 19th century, the zefir dessert most likely emerged in its modern form with whipped egg whites due to a French adaptation on the recipe that was later brought back to Russia.
+- (culture) Zefir is derived from the traditional Russian pastila confectionery, known since the 14th century, but with added egg white foam and a gelling agent.
+- (inspiration) Zefir is based on pastila.
+
+More fun facts (when the user asks for more):
 
 - (culture) The name given after the Greek god of the light west wind Zephyr symbolizes its delicate airy consistency.
 - (origin) Zefir comes from Russia.
@@ -1090,9 +1300,16 @@ Baikal is a Soviet non-alcoholic beverage of dark-brown colour, developed as an 
 
 Fun facts:
 
+- (history) The drink was developed with the Moscow 1980 Summer Olympics in mind, as Western soda companies did not operate in the USSR at that time.
+- (inspiration) The drink was named after Lake Baikal, as a symbol of purity and unique nature.
+- (origin) Baikal comes from Soviet Union.
+
+More fun facts (when the user asks for more):
+
+- (history) Baikal's formula was redesigned after Pepsi Cola entered production in the USSR in 1973.
+- (history) In Moscow in the 1990s, it was nearly impossible to find Baikal; nevertheless, in Saint Petersburg, the beverage's production was continued by the "Polustrovo" factory.
 - (inspiration) Baikal is named after Lake Baikal.
 - (history) Baikal dates from 1973-.
-- (origin) Baikal comes from Soviet Union.
 
 Learn more:
 
@@ -1114,8 +1331,14 @@ Béchamel sauce is a white sauce made from a roux of butter and flour, heated in
 
 Fun facts:
 
-- (inspiration) Béchamel sauce is named after Louis de Béchamel.
+- (inspiration) The sauce is thought to be named after Louis de Béchameil, a financier who held the honorary post of chief steward to King Louis XIV of France in the 17th century.
+- (history) The first recipe of a sauce similar to béchamel is in the book Le cuisinier françois by François Pierre de La Varenne in 1651, made with a roux (also known as Willagrease paste), as in modern recipes.
 - (origin) Béchamel sauce comes from France.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Béchamel sauce is named after Louis de Béchamel.
+- (about) Not to be confused with white sauce.
 
 Learn more:
 
@@ -1136,7 +1359,16 @@ Curd snack, quark bar, cottage cheese bar or curd cheese bar is a type of sweet 
 
 Fun facts:
 
+- (history) The mass production of curd snacks began in the 1950s in the Soviet Union and they quickly gained popularity.
+- (about) In 2013, Estonia set the world record for the biggest curd snack, which weighed 537 kilograms.
 - (origin) Curd snack comes from Soviet Union.
+
+More fun facts (when the user asks for more):
+
+- (history) Initially, they were flavoured with simple ingredients, such as vanilla, cocoa and raisins, but since the 1990s the curd snacks have become more varied and also contain ingredients such as cookie bites, apricot, strawberry jam and boiled condensed milk.
+- (about) In 2012, the Kārums curd snack was voted the favorite product by Latvian consumers, receiving 20% of the votes.
+- (about) Curd snacks have also remained highly popular in Estonia.
+- (about) Curd snacks have also remained highly popular in Lithuania.
 
 Learn more:
 
@@ -1180,8 +1412,11 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) The consumption of kompot has been declining since the 1980s.
+- (inspiration) Kompot is created by cooking fruit such as strawberries, apricots, peaches, apples, raspberries, rhubarb, plums, or sour cherries in a large volume of water, often together with sugar, honey, or raisins as additional sweeteners.
 - (about) Kompot is popular in Central and Eastern European countries, as well as in the Caucasus.
+- (about) With the end of food preservation in many Southern and Eastern European countries, kompot has been supplanted by fruit juice, soft drinks and mineral water, while it is still a popular beverage in Georgia and Armenia.
 - (origin) Kompot comes from Poland, Russia.
+- (about) Not to be confused with compote.
 
 Learn more:
 
@@ -1203,13 +1438,20 @@ Kvass is a fermented, cereal-based, low-alcohol beverage of cloudy appearance an
 
 Fun facts:
 
-- (origin) Kvass originates from northeastern Europe, where grain production was considered insufficient for beer to become a daily drink.
-- (culture) The first written mention of kvass is found in Primary Chronicle, describing the celebration of Vladimir the Great's baptism in 988.
-- (about) Kvass (or similar beverages) are also popular in parts of China, Finland, Kazakhstan, and Uzbekistan.
+- (history) In the 1890s, scientists conducted the first studies on kvass production in Kyiv, and in the 1960s, chemists in Moscow further developed commercial mass-production technology for kvass.
+- (inspiration) The exact origins of kvass are unclear, and whether it was invented by Slavic people or any other Eastern European ethnicity is unknown, although some Polish sources claim that kvass was invented by Slavs.
+- (culture) Possibly invented in the Kievan Rus' and known there since at least the 10th century, kvass has become one of the symbols of East Slavic cuisine.
 
 More fun facts (when the user asks for more):
 
+- (origin) Kvass originates from northeastern Europe, where grain production was considered insufficient for beer to become a daily drink.
+- (culture) The first written mention of kvass is found in Primary Chronicle, describing the celebration of Vladimir the Great's baptism in 988.
+- (history) Kvass has been known among the Early Slavs since the 10th century.
+- (culture) The first written mention of kvass is found in the Primary Chronicle, describing the celebration of Vladimir the Great's baptism in 988, when kvass along with mead and food was given out to the citizens of Kiev.
+- (history) Kvass-making remained a daily household activity well into the 19th century.
+- (history) For example, in the year ended 30 June 1912, there were 17 factories in the Governorate of Livonia, producing a total of 437,255 gallons of kvass.
 - (culture) Traditionally, kvass is made by soaking a mash of rye bread or rye flour and malt in hot water, then fermenting it for about 12 hours at room temperature with sugar and bread yeast or baker's yeast.
+- (about) Kvass (or similar beverages) are also popular in parts of China, Finland, Kazakhstan, and Uzbekistan.
 - (origin) Kvass comes from Poland, Russia, Belarus, Ukraine.
 
 Learn more:
@@ -1234,7 +1476,12 @@ Medovukha is a Slavic honey-based alcoholic beverage.
 Fun facts:
 
 - (history) Produced in Eastern Europe since pagan times, it remained popular well into the 19th century (unlike in Western Europe, where by the Middle Ages mead had already been mostly replaced by wine and beer).
+- (about) Wild honey farming was one of the first Slavic trades.
 - (origin) Medovukha comes from Russia, Belarus, Ukraine.
+
+More fun facts (when the user asks for more):
+
+- (about) They discovered that honey could be fermented, and the first fermented honey appeared as a luxury product in Europe, where it was imported in huge quantities.
 - (about) Medovukha dates from 0946-.
 
 Learn more:
@@ -1279,15 +1526,18 @@ Paskha is an East Slavic festive dish made in Eastern Orthodox countries which c
 Fun facts:
 
 - (culture) Paskha is formed in a mold, traditionally in the shape of a truncated pyramid which symbolizes the first Passover in Egypt, a nod to Christianity's early Jewish beginnings and a reminder that the Last Supper of Jesus was a Passover Seder.
+- (about) The tvorog is first pressed in order to eliminate the maximum amount of liquid possible, then put twice through a sieve to make a homogeneous mass.
 - (inspiration) Paskha is named after Easter.
-- (origin) The name of the dish comes from Pascha, the Eastern Orthodox celebration of Easter.
 
 More fun facts (when the user asks for more):
 
+- (origin) The name of the dish comes from Pascha, the Eastern Orthodox celebration of Easter.
 - (culture) Cheese paskha is a traditional Easter dish made from tvorog, which is white, symbolizing the purity of Christ, the Paschal Lamb, and the joy of the Resurrection.
 - (culture) Others believe the pyramid is a symbol of the Trinity, the Church; Tomb of Christ).
 - (culture) The pascha is decorated with traditional religious symbols, such as the Orthodox three-bar cross, and the letters X and B.
+- (culture) Afterward, it is placed in a traditional wooden mould assembly called pasochnitsa, with a layer of cheesecloth protecting the mould.
 - (origin) Paskha comes from Russia.
+- (about) Not to be confused with paska, Paska, kulich.
 
 Learn more:
 
@@ -1316,6 +1566,7 @@ More fun facts (when the user asks for more):
 - (history) In the 19th century, pastila was made from sourish Russian apples such as Antonovka or mashed Northern berries (lingonberry, rowan, currants) sweetened with honey or sugar and lightened with egg whites.
 - (about) Pastila was ultimately eclipsed in popularity by zefir, which is made from similar ingredients but with whipped egg whites and gelling agents.
 - (origin) Pastila comes from Grand Principality of Moscow.
+- (about) Not to be confused with Pastila, qaq.
 
 Learn more:
 
@@ -1337,6 +1588,7 @@ Pearl barley, or pearled barley, is barley that has been processed to remove its
 Fun facts:
 
 - (about) Pearl barley is the most common form of barley for human consumption because it cooks faster and is less chewy than other, less-processed forms of the grain such as "hulled barley" (or "barley groats", also known as "pot barley" and "Scotch barley").
+- (about) Not to be confused with Gort, Barley grits, barley groats.
 
 Learn more:
 
@@ -1353,6 +1605,16 @@ A pickled cucumber – commonly known as a pickle in the United States and Canad
 
 - From: Russia
 - Ingredients (Wikidata): vinegar, brine, cucumber
+
+Fun facts:
+
+- (origin) It is often claimed that pickled cucumbers were first developed for workers building the Great Wall of China, though another hypothesis is that they were first made as early as 2030 BC in the Tigris Valley of Mesopotamia, using cucumbers brought originally from India.
+- (inspiration) Ancient sources and historians have documented awareness around the nutritional benefits of pickles thousands of years ago as well as the perceived beauty benefits of pickles— Queen Cleopatra of Egypt credited the pickles in her diet with contributing to her health and legendary beauty.
+- (culture) The term traditionally used in British English to refer to a pickled cucumber, gherkin, is also of Dutch origin, derived from the word gurken or augurken, meaning cucumber.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with pickle.
 
 Learn more:
 
@@ -1376,8 +1638,17 @@ Raf coffee is a popular coffee drink in some countries of the former USSR, which
 
 Fun facts:
 
+- (history) Raf coffee appeared in 1996–1997 as a result of experiments in the Moscow coffeehouse "Coffee Bean".
 - (inspiration) Raf coffee is named after human, Raphael.
+- (about) As a result of the experimentations of three baristas (Gleb Neveikin, Artem Berestov and Galina Samokhina), a new beverage was created, originally named "coffee for Raf".
+
+More fun facts (when the user asks for more):
+
 - (history) Raf coffee dates from 1996-.
+- (about) After a while, this coffee drink became popular in all coffeehouses throughout Russia.
+- (about) Raf coffee is considered a very popular coffee drink in Moscow.
+- (about) By 2018, raf coffee has spread beyond the borders of Russia – coffeehouses in Ukraine, Kyrgyzstan, Kazakhstan, Moldova and Belarus also prepare it.
+- (about) In addition, the very fact of the popularity of a rather sweet drink is indicated by them as a characteristic feature of Russian coffee culture.
 - (origin) Raf coffee comes from Russia.
 
 Learn more:
@@ -1400,6 +1671,7 @@ Ryazhenka or ryazhanka, is a traditional fermented milk product in Ukraine, Russ
 Fun facts:
 
 - (origin) Ryazhenka comes from Russia, Belarus, Ukraine.
+- (about) Not to be confused with varenets.
 
 Learn more:
 
@@ -1416,6 +1688,12 @@ Salo or slanina is a European food consisting of salt-cured slabs of pork subcut
 
 - From: Russia
 - Ingredients (Wikidata): fatback
+
+Fun facts:
+
+- (about) Several historical factors contributed to the regional popularity of pork, and pork fat in particular: unlike cattle, which could be used as workforce, and whose meat would mostly be sold by villagers to urban inhabitants along with mutton, pigs were seen as a resource for consumption.
+- (culture) On August 27, the Salo Day is informally celebrated in Ukraine.
+- (about) Not to be confused with tallow.
 
 Learn more:
 
@@ -1435,8 +1713,15 @@ Sbiten is a traditional hot winter beverage in Eastern Slavic cuisine, including
 
 Fun facts:
 
+- (history) First mentioned in chronicles in 1128, sbiten remained popular with all classes of Russian society until the 19th century when it was replaced by coffee and tea.
 - (about) Sbiten was a popular drink in Russian cuisine before the appearance of tea in Russia.
 - (origin) Sbiten comes from Russia, Belarus, Ukraine.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 18th century, sbiten still rivalled tea in popularity and was considered a cheaper option.
+- (about) Sbiten was also historically known as vzvar.
+- (about) In September 2018, Vladimir Putin bought a bottle of sbiten at a market in Vladivostok and presented it to his Chinese counterpart Xi Jinping.
 
 Learn more:
 
@@ -1458,6 +1743,7 @@ Smetana is the English-language name for the different types of sour cream tradi
 Fun facts:
 
 - (origin) Smetana comes from Russia, Ukraine.
+- (about) Not to be confused with sour cream.
 
 Learn more:
 
@@ -1480,6 +1766,7 @@ Varenets, sometimes anglicised as stewler or simmeler, is a fermented milk produ
 Fun facts:
 
 - (origin) Varenets comes from Russia.
+- (about) Not to be confused with ryazhenka.
 
 Learn more:
 
@@ -1500,6 +1787,7 @@ Varenye is a popular whole-fruit preserve, widespread in Eastern Europe (Russia,
 Fun facts:
 
 - (culture) In some traditional recipes, other sweeteners, such as honey or treacle, are used instead of or in addition to sugar.
+- (about) Not to be confused with jam.
 
 Learn more:
 
@@ -1520,14 +1808,24 @@ Vodka is a clear distilled alcoholic beverage.
 
 Fun facts:
 
-- (origin) Its varieties originated in Poland and Russia.
-- (history) Since the 1890s, standard vodkas have been 40% alcohol by volume (ABV), or 80 U.S. proof.
-- (culture) Vodka is traditionally drunk "neat" (not mixed with water, ice, or other mixers), and it is often served freezer chilled in the so-called "vodka belt" of Belarus, Estonia, Finland, Iceland, Latvia, Lithuania, Norway, Poland, Russia, Sweden, and Ukraine.
+- (origin) In English literature, the word vodka first appeared around the late 18th century.
+- (history) Distillation techniques were developed in Roman Egypt by the 3rd century, but the description of aqua ardens ("burning water", i.e., alcohol) made by distilling wine with salt appears in Latin works only by the 12th century.
+- (culture) In 1799, William Tooke glossed vodka as "rectified corn-spirits", using the traditional English sense of the word corn to refer to any grain, not just maize.
 
 More fun facts (when the user asks for more):
 
+- (history) In 1386, the Genoese ambassadors brought the first aqua vitae ('water of life') to Moscow and presented it to Grand Prince Dmitry Donskoy.
+- (origin) Its varieties originated in Poland and Russia.
 - (origin) Traditionally it is made by distilling liquid from fermented cereal grains and potatoes since the latter was introduced in Europe in the 18th century.
+- (history) Since the 1890s, standard vodkas have been 40% alcohol by volume (ABV), or 80 U.S. proof.
 - (history) Since 1960s, the unflavoured Swedish brännvin has also been called vodka.
+- (history) In 1800, the French poet Théophile Gautier glossed it as a "grain liquor" served with meals in Poland (eau-de-vie de grain).
+- (history) The process was well known among European medieval chemists by about 1300.
+- (history) A type of distilled liquor designated by the Russian word vodka came to Russia in the late 14th century.
+- (history) Another theory is that the practice came to Russia through the trade routes of the Hanseatic League, with the earliest mention of imported wines being in 1436.
+- (history) Perhaps one of the earliest terms linked to vodka production was varenoe vino ('distilled wine') which appears in a 1399 document.
+- (culture) Vodka is traditionally drunk "neat" (not mixed with water, ice, or other mixers), and it is often served freezer chilled in the so-called "vodka belt" of Belarus, Estonia, Finland, Iceland, Latvia, Lithuania, Norway, Poland, Russia, Sweden, and Ukraine.
+- (about) Not to be confused with Vodka.
 
 Learn more:
 

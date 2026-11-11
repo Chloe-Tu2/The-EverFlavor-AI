@@ -12,6 +12,8 @@ An Afghan is a traditional New Zealand biscuit made from flour, butter, cornflak
 
 Fun facts:
 
+- (inspiration) There are many theories in circulation about the origin of the name "Afghan", ranging from the First Anglo-Afghan War to the biscuit's texture and colour being likened to the landscape of Afghanistan, while one theory suggests it was named after the traditional Afghan hat, the pakol.
+- (history) A recipe in The Timaru Herald for "Afghans" (minus the icing and walnut) dates from 1934, and an otherwise identical "Chocolate Cornflakes" biscuit recipe, complete with icing and walnut, was in the same publication of the previous year.
 - (origin) Afghan comes from New Zealand.
 
 Learn more:
@@ -35,7 +37,19 @@ The Anzac biscuit is a sweet biscuit, popular in Australia and New Zealand, made
 
 Fun facts:
 
+- (history) The first recipe for an Anzac biscuit containing desiccated coconut is recorded from the city of Adelaide in 1924.
+- (about) The first known recipe for the biscuit significantly predates the formation of the ANZAC Corps.
 - (inspiration) Anzac biscuit is named after Australian and New Zealand Army Corps.
+
+More fun facts (when the user asks for more):
+
+- (history) The first recipe for "Anzac Biscuits" appears in an Australian publication, the War Chest Cookery Book (Sydney, 1917), but this recipe was also for a different biscuit.
+- (history) A notebook belonging to a South Australian housewife and dating from the 1910s has been cited as the first known source to combine the name "Anzac biscuit" with the modern recipe.
+- (history) The earliest known recipe combining the words "Anzac" and "biscuit" is a recipe for "ANZAC ginger biscuits", published in the Perth edition of The Sunday Times on 4 June 1916.
+- (about) The same publication also included the first two recipes for biscuits resembling modern Anzac biscuits, under the names of "Rolled Oats Biscuits" and just "Biscuits".
+- (history) Another early recipe for the Anzac biscuit dates back to 1921, published in an Australian newspaper called The Argus.
+- (history) In New Zealand, a 1919 recipe for Anzac Crispies in the eighth edition of the St Andrew's Cookery Book had similar ingredients to modern Anzac biscuits.
+- (culture) Many early recipes differ from the modern version, with some including non-traditional ingredients like eggs, fruit, and jam.
 - (origin) Anzac biscuit comes from Australia.
 
 Learn more:
@@ -58,12 +72,19 @@ Avocado toast is an open sandwich consisting of toasted bread topped with mashed
 
 Fun facts:
 
-- (history) Avocado toast became a food trend in the 2010s; however, the preparation has appeared on café menus since at least the 1990s.
-- (origin) There have been several debates about where the dish first appeared on menus.
+- (history) According to The Washington Post, Australian self-taught cook, restaurateur and food writer Bill Granger may have been the first person to put avocado toast on a modern café menu in 1993 in Sydney, although the dish is documented in Brisbane, Australia, as early as 1929.
+- (origin) The consumption of avocados on bread or toast has been reported in various sources from the late 19th century onward; however, there has been debate over when the dish first appeared on menus.
 - (culture) Following avocado toast's elevation to trend status, the act of ordering avocado toast at a café was criticized as a symbol of frivolous spending, along with the environmental impact of shipping the fruit from subtropical growing regions.
 
 More fun facts (when the user asks for more):
 
+- (history) In an article published in The New Yorker on 1 May 1937, titled "Avocado, or the Future of Eating", the writer eats "avocado sandwich on whole wheat and a lime rickey." In 1962, an article in The New York Times showcased a "special" way to serve avocado as the filling of a toasted sandwich.
+- (history) Avocado toast became a food trend in the 2010s; however, the preparation has appeared on café menus since at least the 1990s.
+- (origin) There have been several debates about where the dish first appeared on menus.
+- (history) In Chile, avocado on marraqueta or "pan con palta" or "tostadas con palta" is a common breakfast documented in a 1926 cookbook.
+- (history) In the San Francisco Bay Area, people have been eating avocado toast since at least 1885.
+- (history) In 1915, the California Avocado Association described serving small squares of avocado toast as an appetizer.
+- (history) In 1999, English food writer, journalist and broadcaster Nigel Slater published a recipe for an avocado "bruschetta" in The Guardian.
 - (origin) Avocado toast comes from United States.
 
 Learn more:
@@ -84,7 +105,13 @@ Boil up is a traditional Māori food from New Zealand.
 
 Fun facts:
 
+- (history) Camp ovens were imported in their hundreds from the 1850s, and were popular with Māori: they could be transported by waka or carried, and could stand on three feet in the embers or be hung by a chain.
+- (culture) Camp ovens were used for making flour-and-sugar puddings, baking traditional rēwena bread, and for the first pork-and-potato boil ups.
 - (culture) Boil up traditionally is a broth-based soup made from a balanced combination of meat and bones (such as pork), with greens such as pūhā, watercress or cabbage, and kūmara or potatoes, boiled together, along with flour dumplings known as "doughboys".
+
+More fun facts (when the user asks for more):
+
+- (culture) The Māori carried these traditions to Aotearoa (New Zealand), making puddings of grated kūmara (called roroi) or mashed kiekie flower bracts in large wooden bowls.
 
 Learn more:
 
@@ -129,6 +156,19 @@ Caramel shortbread, also known as caramel squares, caramel slice, millionaire's 
 
 Fun facts:
 
+- (origin) Scottish shortbread originated around the 15th century, but its modern refined form is attributed to the efforts of Mary, Queen of Scots in the 16th century.
+- (history) Combinations of shortbread with caramel topping dates to at least the early 1950s.
+- (about) The treat is still commonly associated with the cuisines of Australian, New Zealand, Scotland, and the United Kingdom more generally.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1972 a recipe for Chocolate Caramel Crunch (Millionaires' Shortbread) with a layer of caramel and chocolate on shortbread, was published in Scotland.
+- (history) Recipes for the dish with a chocolate topping also appeared in Australia in the early 1970s in The Australian Women's Weekly.
+- (history) The earliest of these recipes appears in 1970 in an issue of The Australian Women's Weekly under the name "Caramel Shortbread", but this version lacks the distinctive chocolate topping.
+- (history) Later recipes such as one from 1981 include the chocolate layer.
+- (about) In Scotland it is often served to the first visitor to a house on New Year's Day.
+- (about) Caramel shortbread is an adapted form of the original Scottish shortbread.
+- (about) In 2018 the dessert was featured in an episode of the American television show America's Test Kitchen.
 - (origin) Caramel shortbread comes from Scotland.
 
 Learn more:
@@ -151,9 +191,16 @@ Cheese slaw is a side dish consisting of cheddar cheese, carrot, mayonnaise, and
 
 Fun facts:
 
+- (history) Cheese slaw dates to at least 1939 in Australia, when a recipe for it was printed in the Townsville Daily Bulletin, a newspaper published in Townsville, Queensland.
 - (about) Its origins can be traced to Townsville in north Queensland, Australia, and to Broken Hill, New South Wales, Australia.
-- (origin) Cheese slaw comes from Australia.
+- (origin) Some people claim that cheese slaw originated in Broken Hill, New South Wales.
+
+More fun facts (when the user asks for more):
+
+- (history) Cheese slaw recipes were also published in the Australian Women's Weekly, a monthly women's magazine, in 1946 and 1966.
+- (history) Cheese slaw has been served in Broken Hill cafes and milk bars since the second half of the 20th century.
 - (about) Cheese slaw is a common and popular dish in Broken Hill restaurants and households.
+- (origin) Cheese slaw comes from Australia.
 
 Learn more:
 
@@ -220,6 +267,7 @@ Chicken parmesan or chicken parmigiana is a dish that consists of fried breaded 
 Fun facts:
 
 - (origin) Chicken parmesan originated in the Italian diaspora in the United States during the early 20th century.
+- (inspiration) Chicken parmesan has been speculated that the dish is based on a combination of parmigiana, an Italian dish using fried eggplant slices and tomato sauce, with a cotoletta, a breaded veal cutlet generally served without sauce or cheese in Italy.
 - (origin) Chicken parmesan comes from United States.
 
 Learn more:
@@ -245,12 +293,13 @@ Fun facts:
 
 - (inspiration) Chiko Roll was inspired by the Chinese spring roll and was first sold in 1951 as the "Chicken Roll", despite not containing any chicken.
 - (history) At the peak of its popularity in the 1960s and 1970s, 40 million Chiko Rolls were sold annually in Australia.
-- (about) Between 2017 and 2022, Simplot Australia sold a vegetarian Chiko Roll containing no beef or beef tallow, but it was discontinued in early 2023.
+- (origin) Chiko Roll was first made by Frank McEncroe.
 
 More fun facts (when the user asks for more):
 
 - (history) Since 1995, Chiko Rolls have been made by Simplot Australia.
 - (history) Chiko Roll dates from 1951-.
+- (about) Between 2017 and 2022, Simplot Australia sold a vegetarian Chiko Roll containing no beef or beef tallow, but it was discontinued in early 2023.
 - (origin) Chiko Roll comes from Australia.
 
 Learn more:
@@ -296,13 +345,21 @@ Christmas pudding is a sweet boiled or steamed pudding traditionally served as p
 
 Fun facts:
 
+- (inspiration) There is a popular and unsubstantiated myth that in 1714, George I of Great Britain (sometimes known as the Pudding King) requested that plum pudding be served as part of his royal feast in his first Christmas in England.
 - (history) In 1845, cookery writer Eliza Acton wrote the first recipe for a dish called "Christmas pudding".
-- (about) Christmas pudding is sometimes known as plum pudding (though this can also refer to other kinds of boiled pudding involving dried fruit).
-- (origin) Christmas pudding comes from England.
+- (culture) The coin was believed to bring wealth in the coming year, and came from an earlier tradition of putting tokens in a cake, which had died out by the 20th century (see Twelfth Cake).
 
 More fun facts (when the user asks for more):
 
 - (history) The word "plum" was used then for what has been called a "raisin" since the 18th century, and the pudding does not contain plums in the modern sense of the word.
+- (history) However, recipes for plum puddings appear mainly, if not entirely, in the 17th century and later.
+- (history) One of the earliest plum pudding recipes is given by Mary Kettilby in her 1714 book A Collection of above Three Hundred Receipts in Cookery, Physick and Surgery.
+- (history) In 1843, Charles Dickens describes the scene in A Christmas Carol: Mrs.
+- (about) Christmas pudding is sometimes known as plum pudding (though this can also refer to other kinds of boiled pudding involving dried fruit).
+- (about) This led to the custom of preparing Christmas puddings on that day which became known as Stir-up Sunday, associated with the stirring of the Christmas pudding.
+- (about) Initially probably a schoolchild joke, latterly the day became known as "Stir-up Sunday".
+- (culture) Other tokens are also known to have been included, such as a tiny wishbone (to bring good luck), a silver thimble (for thrift) or an anchor (to symbolise safe harbour).
+- (origin) Christmas pudding comes from England.
 
 Learn more:
 
@@ -344,6 +401,22 @@ The conti roll, or continental roll, is a sandwich popular in Perth, Western Aus
 
 - From: Australia
 
+Fun facts:
+
+- (history) Most famously, conti rolls are associated with two delis, The Re Store, which started selling its wares in 1936, and Di Chiera Brothers Continental Store, a business that dates from the mid-1950s.
+- (about) Nearly a decade later, he joined the first wave of Italian emigrants to Western Australia, when he travelled to Fremantle to try his luck on the Kalgoorlie gold fields.
+- (inspiration) In between gossiping and drinking coffee, the men would buy cornettos – a small, braided Italian roll – and fill them with the meat and cheese they had just purchased, laying the foundation for a local legend." The main alternative creation myth involves the brothers Di Chiera.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 1880s and 1890s, there were various gold rushes that attracted prospectors from all over the world, including Italy.
+- (history) Another wave was sparked in 1921, by the imposition by the USA of quotas on immigration; between that year and 1933, the Italian-born population of Australia as a whole trebled.
+- (history) In 1931, during the second wave of Italian immigration, John Re and his own wife, Maria, opened a small fruit and vegetable shop opposite St Brigid's church, Northbridge, and in 1936 founded a grocery store, The Re Store, at the corner of Lake and Aberdeen streets, Northbridge.
+- (history) In 1885, Giuseppe Re migrated from Salina to Sydney, where he ran a food store with some Italian friends.
+- (history) In 1908, Giovanni (John) Re was born, as the second son of Giuseppe Re and his wife Carolina, who ultimately had 10 sons.
+- (culture) The conti roll may have been born, and certainly was raised, in the Perth locality now known as Northbridge, which has been described by SBS Food as "... the inner-city neighbourhood just north of the CBD and one of the Italian community’s traditional heartlands." Otherwise, the sandwich's origins are unclear.
+- (about) Soon afterwards, the deli was joined by a second shop, in James Street, Northbridge, named Giuseppe.
+
 Learn more:
 
 - quick: [Conti roll (Wikipedia)](https://en.wikipedia.org/wiki/Conti_roll)
@@ -365,8 +438,20 @@ A corn dog (also spelled corndog and also known by several other names) is a hot
 
 Fun facts:
 
+- (origin) Carl and Neil Fletcher lay such a claim, having introduced their "Corny Dogs" at the State Fair of Texas sometime between 1938 and 1942.
+- (history) Pronto Pup of Rockaway Beach, Oregon, claims to have invented the corn dog in 1939.
+- (about) A number of current corn dog vendors claim responsibility for the invention or popularization of the corn dog.
+
+More fun facts (when the user asks for more):
+
+- (history) Cozy Dog Drive-in, in Springfield, Illinois, claims to have been the first to serve corn dogs on sticks, on June 16, 1946.
 - (origin) Corn dog originated in the United States and is commonly found in American cuisine.
+- (history) The name "Pluto pup" likely derives from the Disney character Pluto, who is a dog. "Dagwood dog" is derived from the name of a character from the American comic strip Blondie, which was created in 1930.
+- (history) A "Krusty Korn Dog" baker machine appeared in the 1926 Albert Pick-Barth wholesale catalog of hotel and restaurant supplies.
 - (history) Corn dog dates from 1920-.
+- (history) Historically the name "pronto pup" was originally used as a brand name in the United States in 1941, although this name had become obsolete as early as 1949 and was replaced by the name "Pluto pup".
+- (about) In Australia, where they have become a popular food at agricultural shows and carnivals, they are known as either "Pluto pups", "Dagwood dogs", "dippy dogs" or (historically) "pronto pups".
+- (about) In the comic strip, Dagwood, Blondie's husband, has a dog named Daisy.
 - (origin) Corn dog comes from United States.
 
 Learn more:
@@ -393,6 +478,10 @@ Fun facts:
 - (inspiration) Cruffin is named after muffin, croissant.
 - (origin) Cruffin comes from Australia.
 
+More fun facts (when the user asks for more):
+
+- (inspiration) The cruffin was originally created by Lune Croissanterie for Everyday Coffee, Melbourne, in July 2013.
+
 Learn more:
 
 - quick: [Cruffin (Wikipedia)](https://en.wikipedia.org/wiki/Cruffin)
@@ -413,6 +502,8 @@ Damper is a thick home-made bread traditionally prepared by early European settl
 
 Fun facts:
 
+- (origin) The word "damper" originated as a specific use of the British word "damper", meaning "something that takes the edge off the appetite".
+- (about) When cooked as smaller, individually-sized portions, the damper may be known as "bush scones" or "johnnycakes" (also "johnny cakes").
 - (origin) Damper comes from Australia.
 
 Learn more:
@@ -434,6 +525,8 @@ An egg sandwich is a sandwich with a cooked egg filling.
 
 Fun facts:
 
+- (history) Fast food restaurants did not begin serving egg dishes again until the 1970s, starting with the McDonald's McMuffin, invented in 1971 by McDonald's franchisee Herb Peterson in Santa Barbara, California.
+- (origin) Prompted by meat rationing during World War II, manager Bruce LaPlante introduced the first fast food egg dish with a fried egg sandwich at a St.
 - (about) Fried eggs, scrambled eggs, omelette, sliced boiled eggs and egg salad (a mix of chopped cooked egg and mustard and mayonnaise) are popular options.
 
 Learn more:
@@ -456,7 +549,12 @@ Eggs Benedict is a common American breakfast or brunch dish, consisting of two h
 
 Fun facts:
 
+- (origin) Delmonico's in Lower Manhattan says on its menu that "Eggs Benedict was first created in our ovens in 1860." One of its former chefs, Charles Ranhofer, also published the recipe for Eggs à la Benedick in 1920.
+- (history) In 1967 Montgomery wrote a letter to then The New York Times food columnist Craig Claiborne, which included a recipe he said he had received through his uncle, a friend of the commodore.
 - (origin) Eggs Benedict is believed to have originated in New York City, although a number of different origin stories exist.
+
+More fun facts (when the user asks for more):
+
 - (origin) Eggs Benedict comes from United States, France.
 
 Learn more:
@@ -479,7 +577,9 @@ Flummery is a starch-based, sweet, soft dessert pudding which originated in Grea
 
 Fun facts:
 
+- (history) Flummery is also attested in variant forms such as thlummery or flamery in 17th and 18th century English.
 - (origin) Flummery comes from United Kingdom.
+- (history) A pint of flummery was suggested as an alternative to 4 ounces (110 g) of bread and a 0.5 imperial pints (0.28 L) of new milk for the supper of sick inmates in Irish workhouses in the 1840s.
 
 Learn more:
 
@@ -501,15 +601,19 @@ Freddo is a chocolate bar brand shaped like an anthropomorphic cartoon frog.
 
 Fun facts:
 
+- (origin) Freddo bars were introduced to the UK market in 1973, turning over £2 million a year by 1974, before being withdrawn in 1979.
 - (history) The product was invented in 1930 by Harry Melbourne, an 18-year-old MacRobertson's employee.
-- (origin) Freddo comes from United Kingdom.
-- (about) Some of the more popular flavours include strawberry, pineapple and peppermint.
+- (about) In 2009, the Freddo chocolate was redesigned in the United Kingdom, featuring a new, glossier Freddo design, and a replacement Dairy Milk logo.
 
 More fun facts (when the user asks for more):
 
 - (history) In 1967, MacRobertson's was sold to Cadbury, which incorporated Freddo Frogs into its own product range.
+- (history) They were re-launched in 1994 after 15 years.
+- (origin) Freddo comes from United Kingdom.
 - (history) Freddo dates from 1930-.
+- (about) Some of the more popular flavours include strawberry, pineapple and peppermint.
 - (origin) The chocolate was originally sold only in Australia, but has been introduced into several other markets.
+- (about) In June 2006, a scare over possible salmonella contamination in some Cadbury products in the UK led to the recall of around a million Cadbury chocolate bars, including the standard Freddo.
 
 Learn more:
 
@@ -556,13 +660,22 @@ The frog cake is an Australian dessert in the shape of a frog's head, composed o
 Fun facts:
 
 - (inspiration) Frog cake was created by the Balfours bakery around 1923, and soon became a popular treat in South Australia.
-- (history) Frog cake dates from 1922-.
-- (about) In recognition of its cultural significance, in 2001 the frog cake was listed as a South Australian Heritage Icon by the National Trust of South Australia.
+- (about) Balfours does not attribute the invention of the cake to any single person or year.
+- (culture) It soon became known as the Balfours mascot, and has traditionally only been sold in South Australia, although they are now sold in Victoria, New South Wales and Queensland as well.
 
 More fun facts (when the user asks for more):
 
+- (inspiration) They speculate that John Gordon Balfour may have been inspired by fondant-covered petit fours on a visit to Paris in 1923.
 - (inspiration) Frog cake is named after frog, Kaj.
+- (history) Frog cake dates from 1922-.
+- (origin) Frog cake was first made by Balfours.
+- (about) In recognition of its cultural significance, in 2001 the frog cake was listed as a South Australian Heritage Icon by the National Trust of South Australia.
+- (origin) The frog cake was one of many fondant-based "assorted fancies" introduced at a time in which tearooms were still popular in Adelaide.
+- (about) The original frog cakes were green in colour, and green remains the most popular of the options, but chocolate and pink coloured versions were later added to the range.
+- (about) The 2001 inclusion of the frog cake as a South Australian icon saw a comparable increase in sales.
+- (about) Frog cakes feature in the 2023 film Emotion Is Dead, written and directed by Pete Williams.
 - (origin) Frog cake comes from Australia.
+- (inspiration) Frog cake is based on Kaj.
 
 Learn more:
 
@@ -600,15 +713,19 @@ A halal snack pack is an Australian fast food dish consisting of halal-certified
 
 Fun facts:
 
+- (history) According to some, snack packs date back at least to the 1980s.
 - (about) It also includes different kinds of sauces, usually chilli, garlic, and barbecue (sometimes known as the "holy trinity").
 - (culture) While the snack pack was traditionally served in a polystyrene container, it is now most commonly served in moulded pulp or cardboard containers, as most Australian states have banned single-use plastic packaging.
-- (origin) Halal snack pack comes from Australia.
 
 More fun facts (when the user asks for more):
 
 - (about) The name of the dish was voted by readers of the Macquarie Dictionary as the "People's Choice Word of the Year" for 2016.
 - (about) In Western Australia, the dish is often called a "meat box", and in Adelaide it is known as an "AB".
 - (about) The dish also exists in New Zealand, where it is known as meat on chips.
+- (about) In late 2015, following the creation of the Facebook group Halal Snack Pack Appreciation Society, a subculture formed around the dish that was known to bring cultures together.
+- (about) In July 2016, then-Labor Senator Sam Dastyari invited the One Nation party leader Pauline Hanson out for a halal snack pack after she won a Senate seat in the 2016 Australian federal election.
+- (inspiration) In response, several Australian restaurants created a Pauline Hanson-inspired halal snack pack.
+- (origin) Halal snack pack comes from Australia.
 
 Learn more:
 
@@ -638,7 +755,9 @@ More fun facts (when the user asks for more):
 
 - (inspiration) The Dutch name Arretjescake comes from a promotional recipe book published by Calvé and is named after its mascot character, while the Norwegian Delfiakake refers to the Delfia deep-frying fat mentioned in this recipe.
 - (history) In Germany, it is often described as a retro food that conjures nostalgic associations of the 1950s.
+- (about) In 2019, inhabitants of Ronneburg made a 994.9 meter long cake, the longest to date in Germany.
 - (origin) Hedgehog slice comes from Germany.
+- (about) Not to be confused with Salame turco PAT, tinginys.
 
 Learn more:
 
@@ -661,7 +780,14 @@ Hokey pokey is a flavour of ice cream in New Zealand and Australia consisting of
 Fun facts:
 
 - (history) The original recipe until around 1980 consisted of solid toffee, but in a marketing change, Tip Top decided to use small balls of honeycomb toffee instead.
+- (origin) The encyclopedia says the term originated from the Italian phrase oh che poco, 'oh how little'.
 - (about) Hokey pokey is the second-most popular ice cream flavour behind vanilla in New Zealand, and is a frequently cited example of Kiwiana.
+
+More fun facts (when the user asks for more):
+
+- (history) The term hokey pokey has been used in reference to honeycomb toffee in New Zealand since the late 19th century.
+- (history) One such song in use in 1930s Liverpool was "Hokey pokey penny a lump, that's the stuff to make ye jump".
+- (history) According to "The Encyclopedia of Food" (published 1923, New York) hokey pokey (in the U.S.) is "a term applied to mixed colors and flavors of ice cream in cake form".
 - (origin) Hokey pokey comes from New Zealand.
 
 Learn more:
@@ -685,8 +811,13 @@ An icebox cake, or ice box cake (also known, in Australia, as a chocolate (or ch
 
 Fun facts:
 
-- (history) Icebox cake dates from 1920-.
+- (origin) Icebox cake was first introduced to the United States in the 1920s, as companies were promoting the icebox as a kitchen appliance.
+- (history) Its popularity rose in the 1920s and 30s, as it used many commercial shortcuts and pre-made ingredients, such as pre-packaged cookies instead of sponges or ladyfingers that people had to bake at home.
 - (about) The recipe for one particularly well-known version used to be printed on the back of boxes of thin and dark Nabisco Famous Chocolate Wafers.
+
+More fun facts (when the user asks for more):
+
+- (history) Icebox cake dates from 1920-.
 - (origin) Icebox cake comes from United States.
 
 Learn more:
@@ -708,9 +839,22 @@ A jelly doughnut, or jam doughnut, is a doughnut with a fruit preserve filling.
 
 Fun facts:
 
+- (about) The first record of a jelly doughnut dates to the 13th-century epic Parzival, while it is also mentioned in the German cookbook Das Buoch von guoter Spise in the 14th-century, featuring four fillings.
 - (origin) Originating from Germany, where they are commonly referred to as krapfen, they became a popular staple in Europe by the 18th-century.
+- (history) In 1815, the attendees of the Congress of Vienna were supplied with around 10 million jelly doughnuts.
+
+More fun facts (when the user asks for more):
+
 - (about) A popular breakfast item in the United States, its first mention there dates to late 19th-century.
+- (about) Smith wrote that it is hard to tell who invented doughnuts, as they overlap between German and Scandinavian cuisines.
+- (history) The recipe was made by Jewish Central European settlers in the 1920s, when Histadrut encouraged Israelis to replace latkes, which are potato pancakes, with sufganiyot.
+- (about) The food can be traced to the late 19th-century, where it was first mentioned in a cookbook for German-speaking Americans in Milwauke, featuring several doughnut recipes, including the jolly doughnuts.
 - (about) The food was adapted by Israelis, where it is known as sufganiyot, and Poles, where it is known as pączki.
+- (about) In Swedish, jelly doughnuts are known as Berliner kransen.
+- (about) Although popular in the Central Europe, the doughnut was also adapted by Israelis for Hanukkah, where it is known as sufganiyot (or sufganiyah) and defined as a jelly doughnut rolled in sugar.
+- (about) Jelly doughnuts are popular in the United States, such as in Detroit, where the Polish pączki can be found, which is similar to a jelly doughnut.
+- (about) Sufganiyot, originally from Israel, is also popular among Jewish Americans.
+- (about) Not to be confused with Krapfen.
 
 Learn more:
 
@@ -731,7 +875,20 @@ Kangaroo steamer is a historical Australian dish made in the English tradition o
 Fun facts:
 
 - (culture) Kangaroo steamer is first mentioned in the 1820s in an account of Tasmania, with which the dish became closely associated, described in 1843 by Charles Rowcroft as "the national dish of the Van Diemen's Land bush".
+- (history) A reference to kangaroo steamer first appears in an 1820 account of Tasmania, within the writing of Charles Jeffreys.
+- (origin) Several Australian writers of the era spoke highly of kangaroo steamer including Melville, who in 1851 attested "of all the dishes ever brought to table, nothing equals that of the steamer".
+
+More fun facts (when the user asks for more):
+
+- (culture) Kangaroo steamer was closely associated with Tasmania, and in 1843 it was described by Charles Rowcroft as "the national dish of the Van Diemen's Land bush".
+- (history) In the UK, it featured at the first public dinner of the Acclimatisation society in 1862, which hoped to introduce foreign dishes to British palates.
+- (history) Among the last recipes for kangaroo steamer in popular cookbooks appeared in Emily Futter's 1926 book Australian Home Cooker, and in a 1931 edition of the Golden Wattle Cookery Book, published in Perth, Western Australia.
 - (history) Among Australian writers of the 19th century, the dish was regarded as excellent, although by the end of the century it had become increasingly rare, and is obsolete as an everyday dish.
+- (history) Kangaroo steamer was popular in Tasmania and New South Wales, where it was eaten throughout the 19th century.
+- (history) Kangaroo faded from diets in the late 19th century as the population urbanised, tastes changed, mutton and beef production expanded, and kangaroo populations dropped.
+- (history) Kangaroo steamer does not appear in several cookbooks from this time which were generally written for an urban audience, with one exception being The Goulburn Cookery Book (1899) by Mrs Rutledge, which was written for a rural audience.
+- (history) Its recipe for "Steamed Kangaroo or Wallaby" closely resembles Abbott's 1864 preparation, instructing readers: Cut the kangaroo into pieces about the size of a small veal cutlet, and slice the pork or bacon.
+- (history) The last mention identified by the food historian Barbara Santich came in 1936, in The CWA Cookery Book and Household Hints.
 
 Learn more:
 
@@ -759,6 +916,14 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) As most Australians stopped eating kangaroo, kangaroo tail soup was mass produced and exported in the mid-20th century.
+- (history) One preparation for a kangaroo tail soup, given in the Australian Journal in 1879, read as follows: In order to make this satisfactorily the meat must have been killed for some time or it will possess no distinguishing flavour; yet care must be taken not to use any portion of the meat tainted.
+- (history) A later version of the dish, printed in the 1898 Mrs Maclurcan's Cookery Book, included fresh ginger to provide brightness.
+- (history) Beginning in 1869, the English book Mrs.
+- (history) It continued to feature in editions through at least 1892.
+- (history) Kangaroo tail soup continued to be eaten in the late 19th century, which was unusual at a time when kangaroo was becoming increasingly infrequent in the diets of Australians.
+- (history) One recipe in this vein appeared in the 1911 cookbook Kookaburra Cookery Book, including a dollop of native currant jam.
+- (history) Recipes continued to appear in Australian cookbooks into the late 1930s.
+- (history) By the 1960s, MasterFoods was mass-producing and exporting kangaroo tail soup, and the Australian airline Qantas served the dish inflight.
 
 Learn more:
 
@@ -840,7 +1005,19 @@ A lamington is an Australian cake made from squares of butter cake or sponge cak
 
 Fun facts:
 
+- (inspiration) Lamingtons are believed to be named after either Lord Lamington, who served as Governor of Queensland from 1896 to 1901, or his wife, Lady Lamington.
+- (origin) While the recipe originated in Queensland, it spread quickly, appearing in a Sydney newspaper in 1901 and a New Zealand newspaper in 1902.
+- (history) The first known mention of "Lamington cake" appears in an 1896 newspaper account of a "Lamington Function" at Laidley in Queensland.
+
+More fun facts (when the user asks for more):
+
+- (history) A 1900 recipe for Lamington Cakes has been found in the Queensland Country Life newspaper.
+- (history) The earliest known reference to the naming of the lamington, from June 1927, links the cake to Lord Lamington.
+- (about) The identity of the recipe's inventor has also been debated.
+- (inspiration) A 2014 April Fools' Day story from Guardian Australia falsely claimed the lamington to have been based on a previously unknown New Zealand cake known as a "Wellington".
+- (inspiration) Lamingtons are typically baked in a Lamington pan named for the cake.
 - (inspiration) Lamington is named after Charles Cochrane-Baillie, 2nd Baron Lamington.
+- (inspiration) The event was in honour of Lord Lamington (although it appears he did not attend) and also featured "Lamington Tea", "Lamington Soup" etc., so, in the absence of any description of the cake, the name of the cake might signify nothing more than the name of the event.
 - (origin) Lamington comes from Australia.
 
 Learn more:
@@ -863,8 +1040,14 @@ Louise cake or Louise slice (keke ruihi in Māori) is a baked New Zealand sweet 
 
 Fun facts:
 
-- (culture) The confection's name may refer to the 1871 wedding of Princess Louise.
+- (culture) Louise cake has been suggested that the cake was created to celebrate the wedding of Princess Louise (one of Queen Victoria's daughters) in 1871.
+- (history) A recipe for Louise cake was shared in the Otago Witness newspaper in October 1927.
 - (inspiration) Louise cake is named after Princess Louise, Duchess of Argyll.
+
+More fun facts (when the user asks for more):
+
+- (culture) The confection's name may refer to the 1871 wedding of Princess Louise.
+- (about) The cake was featured in the 2022 bilingual cookbook Whānaukai by Auckland baker and former Whakaata Māori presenter, Naomi Toilalo.
 - (origin) Louise cake comes from New Zealand.
 
 Learn more:
@@ -910,11 +1093,14 @@ Milo ( MY-loh; stylised in all caps as MILO) is an Australian chocolate-flavoure
 Fun facts:
 
 - (history) Milo was originally developed in Australia by Thomas Mayne (1901–1995) in 1934.
-- (inspiration) Milo is named after Milo of Croton.
+- (inspiration) The name was derived from the famous ancient Greek athlete Milo of Croton, after his legendary strength.
 - (about) Milo maintains significant popularity in a diverse range of countries throughout the world, particularly in Australasia, Asia, Africa, and Latin America.
 
 More fun facts (when the user asks for more):
 
+- (history) In 1934, Australian industrial chemist and inventor Thomas Mayne, who was working at Nestlé, developed "Milo" and launched it at the Sydney Royal Easter Show.
+- (history) Nestlé, which had taken ownership of a milk-processing plant in Smithtown, New South Wales, in 1921, started producing the product not long after the show.
+- (inspiration) Milo is named after Milo of Croton.
 - (history) Milo dates from 1934-.
 
 Learn more:
@@ -943,8 +1129,17 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (about) In Britain in the twenty-first century, a mince pie tends to be small—for individual consumption—and round; in North America, it tends to be large and intended for sharing among several people.
+- (history) Other food historians and writers state that the mince pie can be dated back to the 11th century and those returning from the Crusades in the Middle East.
+- (history) Mince pie is not known exactly when the pie became so closely connected with the season—although probably by the Elizabethan era—and in 1893 the humorous magazine Punch produced a cartoon showing a mince pie as the "MP for Christmas".
+- (about) Others are that one should always make a wish when you have your first mince pie and that each mince pie one eats makes a wish come true.
 - (culture) Also included is a fat, traditionally beef suet, although vegetable alternatives can be used.
 - (culture) A mince pie is traditionally served during the Christmas season in much of the English-speaking world.
+- (about) Historically, as the ingredients were expensive, a pie was only eaten on feast days; this changed to it becoming associated with Christmas, when most are consumed; an estimated 175 million were eaten in the UK in 2025.
+- (culture) For many people, the mince pie is closely associated with the yule tradition.
+- (about) The food historian Madeline Shanahan describes the mince pie as "one of Christmas's most iconic dishes", and a 2025 a poll showed that forty-four per cent of people in Britain thought the mince pie epitomised the taste of Christmas.
+- (culture) Several traditions and superstitions have also arisen around the mince pie.
+- (about) Not to be confused with Scotch pie.
 
 Learn more:
 
@@ -972,6 +1167,8 @@ More fun facts (when the user asks for more):
 
 - (history) In the December 17, 1918 issue of The Sydney Morning Herald there was an auction notice which included "45 boxes of musk sticks".
 - (history) Another early reference from 1927 in the Australian Worker, talks about the "pink curly musk sticks" from 25 years earlier, which were still available.
+- (about) The popularity of Musk sticks has led to many other Musk flavoured confectioneries in Australia.
+- (about) Zooper Dooper released a line of musk flavoured ice blocks in 2025.
 
 Learn more:
 
@@ -994,7 +1191,13 @@ Mānuka honey is a monofloral honey produced from the nectar of the mānuka tree
 Fun facts:
 
 - (inspiration) Mānuka honey is named after Leptospermum scoparium.
+- (culture) The mānuka tree (Leptospermum scoparium), from which mānuka honey is derived, has long been regarded as a taonga (treasure) in Māori tradition.
 - (origin) Mānuka honey comes from New Zealand.
+
+More fun facts (when the user asks for more):
+
+- (culture) The plant was used in rongoā (traditional medicine), with infusions of the leaves taken for colds and fevers, and oils or poultices from the bark applied to wounds and skin conditions.
+- (culture) Mānuka honey is frequently described as “liquid gold” in media and marketing, symbolising natural heritage and national identity.
 
 Learn more:
 
@@ -1016,8 +1219,18 @@ Parrot pie is a dish that was eaten in Australia into the early 20th century.
 
 Fun facts:
 
+- (history) During the second half of the 19th century, legislation to protect native fauna had expanded, and in 1918 some parrots became a protected species in Australia for the first time.
 - (about) A variety of parrots were used, including king parrots, crimson rosellas, and rainbow lorikeets, which the pies could contain alone or in combination with other meats such as beef and ham.
 - (origin) Parrot pie comes from Australia.
+
+More fun facts (when the user asks for more):
+
+- (about) Parrots have been baked into pies in Australia since the first voyage of James Cook.
+- (about) Birds were trapped or taken from their nests, including king parrots, crimson rosellas, rainbow lorikeets, galahs and sulphur-crested cockatoos, depending on the season.
+- (history) Several settlers writing in the mid-19th century spoke highly of parrot pie, including Katherine Kirkland, who opined that the best were made with white parrots, and Sarah Brunskill, who likened the flavour to pigeon.
+- (history) In Australia, parrot pies remained popular into the early 20th century, when the dish was regarded as a quintessentially Australian dish.
+- (history) They continued to appear in cookbooks, although only rarely, and as a curiosity, and by 1962, Jock Marshall reported that "most people today have not heard of [galah pie], let alone tasted it." Parrots are no longer commonly eaten in Australia.
+- (about) Not to be confused with Parrot Pie.
 
 Learn more:
 
@@ -1041,13 +1254,23 @@ Pavlova is a meringue-based dessert.
 Fun facts:
 
 - (inspiration) Originating in either Australia or New Zealand in the early 20th century, it was named after the Russian prima ballerina Anna Pavlova.
-- (culture) Pavlova is frequently served during celebratory and holiday meals.
-- (origin) Pavlova comes from New Zealand.
+- (history) Leach replied they would not find evidence for that "because it's just not showing up in the cookbooks until really the 1940s in Australia." However, a recipe for "pavlova cake" was published in The Advocate in 1935, and a 1937 issue of The Australian Women's Weekly contains a "pavlova sweet cake" recipe.
+- (about) David Burton regards this as the first known recipe for a food resembling the modern pavlova; Australian food writer Michael Symons, however, does not recognise it as such, pointing to its lack of vinegar or cornflour, to the absence of the pavlova name, and to its description as a meringue cake cut in half and filled.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) The dessert is believed to have been created in honour of the dancer either during or after one of her tours to Australia and New Zealand in the 1920s.
+- (history) Helen Leach, in her role as a culinary anthropologist at the University of Otago, states that the first recipe from New Zealand was a recipe for "pavlova cake" in 1929.
+- (history) A recipe for "Strawberries Pavlova" appeared in the New Zealand Herald on 11 November 1911, but this was a kind of ice block or sorbet.
+- (history) A 1922 book, Australian Home Cookery by Emily Futter, contained a recipe for "Meringue with Fruit Filling".
+- (history) A recipe for pavlova cake was published in The Evening Star on 10 November 1934.
+- (history) The Beverley Times claimed that Bert Sachse created the dish at the Esplanade Hotel in Perth, Western Australia, in 1935.
+- (about) In defence of his claim as inventor of the dish, a relative of Sachse's wrote to Leach suggesting that Sachse may have accidentally dated the recipe incorrectly.
 - (inspiration) Pavlova is named after Anna Pavlova.
+- (culture) Pavlova is frequently served during celebratory and holiday meals.
+- (culture) Both nations claim the dish as a national symbol.
+- (origin) Pavlova comes from New Zealand.
+- (about) Not to be confused with Pavlova.
 
 Learn more:
 
@@ -1093,6 +1316,14 @@ Pineapple lumps or pineapple chunks are a chocolate-covered confection with a so
 
 Fun facts:
 
+- (inspiration) An alternative origin story states that it was the managing director of Regina, John Percy ('Jack') McNamara, who invented the pineapple lump.
+- (history) The product's name was changed to pineapple lumps by Regina in the early 1960s to give it a more catchy name.
+- (origin) Pineapple lumps was first made by Charles Diver.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1995, Regina was bought by Nestlé NZ which shut down the Oamaru factory in 2001.
+- (about) Innovex Holdings purchased the factory from Nestlé, and in June 2001, established Rainbow Confectionery.
 - (origin) Pineapple lumps comes from New Zealand.
 
 Learn more:
@@ -1128,6 +1359,18 @@ Potato wedges are irregular wedge-shaped slices of potato, often large and unpee
 
 - From: Australia
 - Ingredients (Wikidata): potato
+
+Fun facts:
+
+- (about) In some regions of the United States, particularly Idaho, Oregon, Washington, Montana, Alaska, Minnesota, Nebraska, Northern Utah, and Northeast Ohio, a popular variation of potato wedges are known as jojos.
+- (about) In Germany, they are known as Kartoffelspalten ('potato clefts'), wilde Kartoffeln ('wild potatoes'), Westernkartoffeln ('Western potatoes') or Kartoffelecken ('potato wedges').
+- (about) In Czechia, they are known as americké brambory ('American potatoes').
+
+More fun facts (when the user asks for more):
+
+- (about) In Slovakia, they are known as americké zemiaky ('American potatoes').
+- (about) In Russia, they are known as картофель по-деревенски kartofel po-derevenski ('village-style potatoes').
+- (about) In Georgia, they are known as მექსიკური კარტოფელი ('Mexican potatoes').
 
 Learn more:
 
@@ -1185,6 +1428,9 @@ More fun facts (when the user asks for more):
 
 - (history) By 1916, the pumpkin scone was well-established in Queensland baking competitions, and was appearing in mentions outside of the state, including a recipe published in Kalgoorlie, a city in rural Western Australia.
 - (history) Pumpkins had long been a common element of the Australian diet following their import from the Americas via Britain, but it was in the 1920s, following the development of the Queensland Blue and Triamble varieties, that they became ubiquitous in Australian cooking.
+- (history) Despite the scone variety consistently being most popular in Queensland, they were eaten across the country, as attested to in an article from the Sydney Morning Herald on 10 March 1924, reporting on the Manning River Show: "there were... 78 entries in scones.
+- (history) They at least should be an economical product of the kitchen on the north coast, where almost every cultivated field has its wide spreading pumpkin vines." Through the 1920s and 1930s, recipes for pumpkin scones, alongside pumpkin soups, fritters, and cakes appeared throughout newspapers.
+- (history) From 1936, pumpkin scones were included on the curriculum of primary school home economics classes in Queensland state schools, ensuring the dish remained relevant in the state.
 
 Learn more:
 
@@ -1247,6 +1493,18 @@ Surf and turf, sometimes called reef and beef, is a main course typically served
 - From: Australia
 - Ingredients (Wikidata): seafood, red meat
 
+Fun facts:
+
+- (history) This became unfashionable by the 1920s and only regained popularity in the early 1960s.
+- (culture) Surf and turf is often considered to symbolize the middle-class "Continental cuisine" of the 1960s and 1970s, with (frozen) lobster and steak as replacements for the middle class.
+- (origin) In Australia, the dish was first served in 1965 at the Lithgow Hotel in Lithgow, New South Wales.
+
+More fun facts (when the user asks for more):
+
+- (history) While the term's origins remain unclear, the earliest known use of the phrase in print dates to 1961 in the Los Angeles Times.
+- (history) Surf 'n' turf was featured in 1962 at the Eye of the Needle, a revolving restaurant atop the Space Needle in Seattle, Washington.
+- (about) In late 19th-century America, combining large portions of lobster and steak was popular at "show restaurants known as lobster palaces", favored by nouveau riche "arrivistes".
+
 Learn more:
 
 - quick: [Surf and turf (Wikipedia)](https://en.wikipedia.org/wiki/Surf_and_turf)
@@ -1267,8 +1525,18 @@ Tomato sauce can refer to many different sauces made primarily from tomatoes.
 
 Fun facts:
 
+- (about) Bernardino de Sahagún, a Franciscan friar from the Kingdom of Spain, is believed to be the first European to write about tomato sauce after encountering it for sale in the markets of Tenochtitlan (today Mexico City).
+- (history) The first Italian recipe of tomato sauce was published under the name "Spanish tomato sauce" in Lo Scalco alla Moderna ('The Modern Steward'), written by Italian chef Antonio Latini and published in two volumes in 1692 and 1694.
+- (origin) The first written recipe for canned tomatoes comes from Vaucluse, in southern France; it appears in a document written by an individual in 1795.
+
+More fun facts (when the user asks for more):
+
+- (history) The use of tomato sauce with pasta appeared for the first time in 1790 in the Italian cookbook L'Apicio moderno, by Roman chef Francesco Leonardi.
+- (about) Here is where we find the first mention of tomatoes being mixed with olive oil, onion, garlic, chili, and herbs.
+- (history) The Provençals who went to Paris for the National Federation Day of July 14, 1790, demanded tomatoes everywhere they went.
 - (about) In dishes tomato sauces are common for meat and vegetables such as in stews, but they are perhaps best known as bases for Italian pasta or pizza dishes, or in Mexican salsas.
 - (origin) Tomato sauce comes from Italy.
+- (about) Not to be confused with tomato juice, tomato purée, tomato paste.
 
 Learn more:
 
@@ -1289,7 +1557,15 @@ Vanilla slice is an Australian pastry comprising a thick layer of vanilla custar
 
 Fun facts:
 
+- (origin) Most notably this includes the Mille-feuille, which is believed to have originated in France.
 - (about) Similar varieties of the dessert exist in Europe and North America, and it is believed to have evolved from one of the similar European desserts.
+- (culture) To celebrate its cultural significance, an annual competition known as The Great Australian Vanilla Slice Triumph has been held since 1998.
+
+More fun facts (when the user asks for more):
+
+- (about) It is believed that the Australian vanilla slice emerged as a variety of one of these similar desserts, but it is unknown which variety or varieties evolved into the modern vanilla slice.
+- (inspiration) In keeping with the informality and disdain for pretence in Australian vernacular, it is common to refer to the dessert using colloquial names based on bodily fluids such as pus, phlegm, or nasal mucus which are similar in appearance to the custard filling.
+- (about) The event was hosted annually in Ouyen until 2001, when it moved to the nearby town of Merbein.
 - (origin) Vanilla slice comes from New Zealand.
 
 Learn more:
@@ -1351,7 +1627,14 @@ Worcestershire sauce or Worcester sauce ( WUUS-tər) is a fermented condiment in
 
 Fun facts:
 
+- (history) In 1838, the first bottles of Lea & Perrins Worcestershire sauce were released to the general public.
+- (about) However, neither Marcus Lord Sandys nor any Baron Sandys was ever a Governor of Bengal, nor had they ever visited India as far as available records indicate.
 - (inspiration) Worcestershire sauce is named after Worcestershire.
+
+More fun facts (when the user asks for more):
+
+- (origin) Worcestershire sauce was first made by William Henry Perrins, John Wheeley Lea.
+- (history) The Lea & Perrins brand was commercialised in 1837 and was the first sauce to bear the Worcestershire name.
 
 Learn more:
 
@@ -1396,6 +1679,14 @@ Blue Heaven is a milkshake and topping flavour sold primarily in Australia.
 
 Fun facts:
 
+- (origin) Others theorise it might have been first made in the 1950s, sometime after the release of 1950 film My Blue Heaven starring Betty Grable.
+- (history) A 1989 feature in The Canberra Times recalled Australians drinking "Blue Heavens, Blue Moons and Blue Lagoons" made with blue curaçao since the 1930s and 1940s.
+- (history) The bright blue colouring used, brilliant blue FCF, was first synthesised in 1929.
+
+More fun facts (when the user asks for more):
+
+- (origin) It is thought that the name of the flavour may have originated in the 1928 song, My Blue Heaven, coinciding with the creation of the colour, however there is lacking evidence of the milkshake's presence on menus around Australia at the time.
+- (history) The origins of the flavour are unclear, and no confirmed appearance of a "Blue Heaven" milkshake on Australian menus before the 1950s has been located.
 - (origin) Blue Heaven comes from Australia.
 
 Learn more:
@@ -1418,11 +1709,13 @@ Fun facts:
 
 - (culture) Traditional Indigenous Australians' use of bush foods has been severely affected by the British colonisation of Australia beginning in 1788 and subsequent settlement by non-Indigenous peoples.
 - (history) Since the 1970s, there has been recognition of the nutritional and gourmet value of native foods by non-Indigenous Australians, and the bushfood industry has grown enormously.
-- (history) Kangaroo meat has been available in supermarkets since the 1980s, and many other foods are sold in restaurants or packaged as gourmet foods, which has led to expansion of commercial cultivation of native food crops.
+- (about) Not to be confused with bushmeat.
 
 More fun facts (when the user asks for more):
 
+- (history) Kangaroo meat has been available in supermarkets since the 1980s, and many other foods are sold in restaurants or packaged as gourmet foods, which has led to expansion of commercial cultivation of native food crops.
 - (culture) The introduction of non-native organisms, together with the loss of and destruction of traditional lands and habitats, has resulted in reduced access to native foods by Aboriginal and Torres Strait Islander people.
+- (culture) Aboriginal Australians have eaten native animal and plant foods for the estimated 60,000 years of human habitation on Mainland Australia and Tasmania, using various traditional methods of processing and cooking.
 
 Learn more:
 
@@ -1469,14 +1762,25 @@ Cheddar cheese (or simply cheddar) is a natural cheese that is relatively hard, 
 Fun facts:
 
 - (origin) It originates from the village of Cheddar in Somerset, South West England.
-- (inspiration) Cheddar cheese is named after Cheddar.
-- (about) Protected Geographical Indication (PGI) was registered for Orkney Scottish Island Cheddar in 2013 in the EU, which also applies under UK law.
+- (about) The "Joseph Harding method" was the first modern system for cheddar production based upon scientific principles.
+- (history) Before the First World War, more than 3,500 cheese producers were in Britain; fewer than 100 remained after the Second World War.
 
 More fun facts (when the user asks for more):
 
+- (origin) Cheddar cheese originates from the village of Cheddar in Somerset, southwest England.
+- (inspiration) Cheddar cheese is named after Cheddar.
 - (origin) Cheddar cheese comes from England, United Kingdom.
+- (origin) Cheddar cheese was first made in Somerset.
+- (about) Protected Geographical Indication (PGI) was registered for Orkney Scottish Island Cheddar in 2013 in the EU, which also applies under UK law.
 - (about) Cheddar cheese is the most popular cheese in the UK, accounting for 51% of the country's £1.9 billion annual cheese market.
 - (about) Cheddar cheese is the second-most popular cheese in the United States behind mozzarella, with an average annual consumption of 10 lb (4.5 kg) per capita.
+- (about) The United States produced approximately 3,000,000,000 lb (1,300,000 long tons; 1,400,000 tonnes) of cheddar in 2014, and the UK produced 258,000 long tons (262,000 tonnes) in 2008.
+- (culture) Cheddar traditionally had to be made within 30 mi (48 km) of Wells Cathedral.
+- (origin) Harding introduced new equipment to the process of cheese-making, including his "revolving breaker" for curd cutting; the revolving breaker saved much manual effort in the cheese-making process.
+- (origin) Together, Joseph Harding and his wife introduced cheddar in Scotland and North America, while his sons Henry and William Harding were responsible for introducing cheddar cheese production to Australia and facilitating the establishment of the cheese industry in New Zealand, respectively.
+- (about) According to a United States Department of Agriculture researcher, cheddar is the world's most popular cheese and is the most studied type of cheese in scientific publications.
+- (culture) Their specifications, which go further than the "West Country Farmhouse Cheddar" PDO, require that cheddar be made in Somerset and with traditional methods, such as using raw milk, traditional animal rennet, and a cloth wrapping.
+- (about) Not to be confused with Cheddar.
 
 Learn more:
 
@@ -1498,8 +1802,17 @@ A cheese roll (occasionally known by the older name of cheese roll-up) is a New 
 
 Fun facts:
 
+- (history) Early recipes for the dish date from the 1930s, with the earliest appearing in the New Zealand newspaper New Zealand Truth in 1935.
 - (about) Cheese rolls are a very popular food in Otago and Southland Region, where they are commonly found as a menu item at cafeterias and similar food outlets.
 - (origin) Cheese roll comes from New Zealand.
+
+More fun facts (when the user asks for more):
+
+- (history) The popularity of the dish seems to have taken off with the widespread availability of sliced bread from the 1950s.
+- (history) The earliest known cookbook recipe for cheese rolls dates from Dunedin's Roslyn Church Jubilee Cookery Book in 1951, with numerous other South Island community cookbooks listing the recipe in the decade that followed.
+- (history) Cheese rolls were not found in any North Island cookbooks, however, until the late 1970s, and the food is still little known north of Waitaki River.
+- (about) The roll gained popularity in the south due to the cold climate and prevalence of soup as a meal option, especially during the frigid winter months.
+- (about) In 2010 a local referred to the food as southern sushi on a blog.
 
 Learn more:
 
@@ -1542,7 +1855,9 @@ A cortado is a Spanish beverage consisting of espresso mixed with a roughly equa
 
 Fun facts:
 
+- (about) In the United States, the meaning of the name can vary by region, but on the East Coast, it is generally known as a cortado.
 - (origin) Cortado comes from Spain.
+- (about) Not to be confused with Cortado.
 
 Learn more:
 
@@ -1564,8 +1879,22 @@ Couscous is a traditional North African dish of small steamed granules of rolled
 
 Fun facts:
 
+- (history) In medieval Spanish, the word cozcucho, from Andalusi Arabic, is recorded in the 13th century, and alcuzcuzu, alcuzcuçu, cuzcuz and other variants referred since the first half of the 15th century to this dish considered typical of Moors and Moriscos.
+- (origin) Food historian Lucie Bolens believes couscous originated millennia ago, during the reign of Masinissa in the ancient kingdom of Numidia in present-day Algeria.
 - (culture) In 2020, couscous was added to UNESCO's Intangible Cultural Heritage list.
+
+More fun facts (when the user asks for more):
+
+- (history) According to María Teresa Santamaría Hernández, the Arabic name kuskūs, first recorded in the 13th century in Al-Andalus, can be better explained from Latin adjective *coscosus.
+- (history) The word "couscous" (alternately cuscus or kuskus) was first noted in early 17th century French, from Arabic kuskus, from kaskasa 'to pound', and is probably of Berber origin.
+- (history) Traces of cooking vessels akin to couscoussiers have been found in graves from the 3rd century BC, from the time of the Berber kings of Numidia, in Kabylia, Algeria.
+- (origin) According to food writer Charles Perry, couscous originated among the Berbers of Algeria and Morocco between the end of the 11th-century Zirid dynasty, modern-day Algeria, and the rise of the 13th-century Almohad Caliphate.
+- (history) The historian Hady Idris noted that couscous is attested to during the Hafsid dynasty, but not the Zirid dynasty.
+- (history) This same dish was also called formigos, hormigos and hormiguillos (‘resembling ants’) from the 15th century onwards in a metaphorical sense, since the original meaning of cuzcuz had not been lost.
+- (history) Cooking utensils that closely resemble couscoussiers dating back to the 9th century were found in Tiaret, Algeria.
+- (history) Couscoussiers dating back to the 12th century were found in the ruins of Igiliz, located in the Sous valley of Morocco.
 - (origin) Couscous comes from Algeria, Tunisia, Libya, Mauritania, Maghreb.
+- (about) Not to be confused with cuscuz nordestino.
 
 Learn more:
 
@@ -1582,6 +1911,17 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q76605) (CC0); [Wikipedia: Cou
 Cream soda (also known as creme soda) is a sweet soft drink flavored with some form of cream or vanilla.
 
 - From: Australia
+
+Fun facts:
+
+- (history) In Canada, James William Black of Berwick, Nova Scotia, was granted a U.S. patent on December 8, 1885, and a Canadian patent on July 5, 1886, for "ice-cream soda".
+- (origin) Cream soda was suggested as a temperance drink preferable to those of "Uncle Bacchus" and in compliance with the recently introduced Maine law.
+- (about) Not to be confused with Cream soda.
+
+More fun facts (when the user asks for more):
+
+- (history) Sheldon and published in Michigan Farmer in 1852 called for water, cream of tartar (potassium bitartrate), Epsom salts, sugar, egg, and milk to be mixed, then heated, then mixed again once cooled with water and a quarter teaspoonful of baking soda to make an effervescent drink.
+- (history) Howell of Vienna, New Jersey, was granted a patent for "cream soda-water" on June 27, 1865.
 
 Learn more:
 
@@ -1644,7 +1984,15 @@ Fairy bread is sliced white bread spread with butter or margarine and covered wi
 
 Fun facts:
 
+- (history) Although people had been putting hundreds and thousands (or nonpareils) on bread and butter for some time, the first known reference to this dish as "fairy bread" was in the Hobart Mercury in April 1929.
+- (about) In April 2021, the satirical group The Chaser created a fabricated online petition calling for the renaming of fairy bread, calling it "offensive", which resulted in many mainstream news stories.
+- (culture) In November 2021, a Google Doodle was created to celebrate fairy bread.
+
+More fun facts (when the user asks for more):
+
+- (about) In 2024 rumours surfaced that fairy bread, along with smiley fritz, had been banned from South Australian schools.
 - (origin) Fairy bread comes from Australia.
+- (about) Not to be confused with hagelslag.
 
 Learn more:
 
@@ -1666,8 +2014,21 @@ A flat white is a drink consisting of espresso coffee and steamed milk.
 
 Fun facts:
 
+- (origin) Coffee historian Ian Bersten states that, while the origin of the flat white is unclear, the drink probably originated in England in the 1950s.
+- (history) Another Sydney newspaper article in April 1984 satirised a vogue for caffè latte, stating that, "cafe latte translates as flat white." At Moors Espresso Bar in Sydney, Alan Preston added the beverage to his permanent menu in 1985.
 - (about) The origin of the flat white is unclear; café owners in both Australia and New Zealand claim its invention.
+
+More fun facts (when the user asks for more):
+
+- (history) According to historian Dr Garritt Van Dyk, many wealthy Italian cane plantation owners in the area came to enjoy "white coffee: flat" in the cafés' of the 1960s to 1970s, with Preston's café popularising the drink in the southern states.
 - (history) The name, however, was in use in England in the 1960s for an espresso-based coffee.
+- (history) The term is attested in a published source in England in 1971.
+- (history) In the 1963 British film Danger by My Side a character orders a flat white in an espresso bar.
+- (history) Some commentators trace the flat white to Australia and New Zealand during the 1980s.
+- (history) There is documentary evidence of coffee drinks named "flat white" being served in Australia in the early 1980s.
+- (history) A review of the Sydney café Miller's Treat in May 1983 refers to their "flat white coffee".
+- (about) Preston claimed he had imported the idea to Sydney from his native far north Queensland.
+- (history) Other documented references include the Parliament House cafeteria in Canberra putting up a sign in January 1985 saying "flat white only" during a seasonal problem with milk cows that prevented the milk frothing.
 - (origin) Flat white comes from Australia, New Zealand.
 
 Learn more:
@@ -1706,6 +2067,19 @@ An ice cream float, soda float or ice cream soda, also known as a spider in Aust
 
 Fun facts:
 
+- (inspiration) The traditional story is that, on a particularly hot day, Green ran out of ice for the flavored drinks he was selling and instead used vanilla ice cream from a neighboring vendor, inventing a new drink.
+- (culture) Green in Philadelphia, Pennsylvania, in 1874 during the Franklin Institute's semicentennial celebration.
+- (origin) Green's will instructed that "Originator of the Ice Cream Soda" was to be engraved on his tombstone.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) The ice cream float was invented by Robert M.
+- (culture) His own account, published in Soda Fountain magazine in 1910, states that while operating a soda fountain at the celebration, he wanted to create a new treat to attract customers away from another vendor who had a larger, fancier soda fountain.
+- (about) There are at least three other claimants for the invention of the root beer float: Fred Sanders, Philip Mohr, and George Guy, one of Robert Green's own employees.
+- (history) Guy claimed to have absentmindedly mixed ice cream and soda in 1872, much to his customers' delight.
+- (culture) During the celebration, he sold vanilla ice cream with soda and a choice of 16 flavored syrups.
+- (about) In Australia and New Zealand, an ice cream float is known as a "spider" because once the carbonation hits the ice cream it forms a spider web-like reaction.
+- (culture) Ice cream float is traditionally made using either lime or pink cream soda.
 - (origin) Ice cream float comes from United States.
 
 Learn more:
@@ -1751,6 +2125,8 @@ A Japanese slipper is a drink made from Midori, Cointreau, and lemon juice.
 Fun facts:
 
 - (history) Japanese slipper was created in 1984 by French bartender Jean-Paul Bourguignon at Mietta's Restaurant in Melbourne.
+- (about) Bourgignon invented the Japanese slipper while working as a bartender at Mietta's in Melbourne.
+- (history) The Japanese Slipper is referenced in literature as early as 1988: "You might care for one of the other current favorites — a Toblerone, a Japanese Slipper, or a Mind Eraser [...] or a Melon Bullet (Midori, Mainstay, Cointreau, lemon juice)".
 
 Learn more:
 
@@ -1796,7 +2172,13 @@ Kabanos, also known as cabanossi or kabana, is a long, thin, dry sausage usually
 
 Fun facts:
 
+- (history) Before the 20th century, various spices were also being used in the production of kabanosy, giving them locally distinct tastes, which differed between various regions of Poland.
+- (culture) After the accession of Poland to the European Union, Poland and Germany became involved in a trade dispute over the name kabanos (due to a German claim to the traditional Polish recipe).
 - (origin) Kabanos comes from Poland.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Kabanos.
 
 Learn more:
 
@@ -1817,6 +2199,13 @@ Kangaroo meat is produced in Australia from wild kangaroos and is exported to ov
 Fun facts:
 
 - (culture) The kangaroo has traditionally been a staple source of protein for many indigenous Australians for more than 40,000 years.
+- (about) In 2005, the Food Companion International magazine, with support from the Kangaroo Industry Association of Australia, ran a competition hoping to find a name that would not put diners off when they saw it on a menu.
+- (about) The three-month competition attracted over 2,700 entries from 41 nations, and the name australus was decided in December 2005.
+
+More fun facts (when the user asks for more):
+
+- (culture) Kangaroo formed an important part of many traditional Aboriginal diets.
+- (about) This process is named Kuka Kanyini – looking after game animals.
 
 Learn more:
 
@@ -1838,7 +2227,14 @@ Kiwi onion dip is a type of dipping sauce eaten in New Zealand.
 
 Fun facts:
 
+- (origin) Kiwi onion dip was first made by Rosemary Dempsey.
 - (about) Served alongside potato chips, crackers, or chopped vegetables, the dip is a popular dish at parties, barbeques, and other social occasions.
+- (about) In February 2019 Nestlé released a campaign bannered "Kiwi as", aligning the dip with canonical moments in New Zealand popular culture.
+
+More fun facts (when the user asks for more):
+
+- (about) In 2019 it was reported cans of reduced cream are commonly found in the suitcases of New Zealanders as they travel overseas.
+- (about) In 2022, the Kiwi onion dip with Eta's Salt and Vinegar Ripple Chips is the combined replication challenge for episode six of season one of Snackmasters NZ.
 - (origin) Kiwi onion dip comes from New Zealand.
 
 Learn more:
@@ -1884,6 +2280,8 @@ Lemon, lime and bitters (LLB) is a mixed drink made with clear lemonade, lime co
 Fun facts:
 
 - (history) The drink is thought to have been invented in Australia sometime in the 1880s with the addition of lime to lemonade and bitters, an existing home remedy drink.
+- (history) The exact origin of lemon, lime and bitters is unknown, but it is claimed to have been invented and popularised within Australia sometime around 1880.
+- (history) Wimmers Premium Soft Drinks Company from Cooroy in Queensland, Australia were the first to commercialise Lemon, Lime and Bitters into a ready-made soft drink in the 1920s using Angostura bitters.
 
 Learn more:
 
@@ -1905,6 +2303,7 @@ A lolly cake or lolly log is an unbaked New Zealand sweet dish that features mal
 
 Fun facts:
 
+- (history) Lolly cakes are known to have been consumed in the 1940s, but were not commonly available until the 1960s in supermarkets.
 - (origin) Lolly cake comes from New Zealand.
 
 Learn more:
@@ -1926,8 +2325,18 @@ Minties is a brand of confectionery originating in Australia and manufactured in
 
 Fun facts:
 
-- (history) Later in the 1990s, Minties released 'Spearmint Minties', but these were taken off the market for unknown reasons just before the end of 1999.
+- (history) Minties were invented in 1922 by James Noble Stedman (1860–1944), son of company founder (and Australia's first confectioner) James Stedman (1840–1913).
 - (origin) In 2013, Nestlé (Australia) introduced Allen's Minties "Smooth Mints Choc & Vanilla" which had choc-mint and vanilla-mint varieties in one packet.
+- (about) Curiously, the 200g packets sold in Australia as (Nestlé) Allens Minties in 2010 are clearly labelled "Made in New Zealand".
+
+More fun facts (when the user asks for more):
+
+- (history) Later in the 1990s, Minties released 'Spearmint Minties', but these were taken off the market for unknown reasons just before the end of 1999.
+- (history) Minties had been available in shops from 1923 or earlier, but became the subject of prominent advertising as "The Universal Sweet" in June 1926.
+- (history) Minties' first cartoons, and the catchphrase "It's moments like these..." appeared late in 1926; from then they provided an episodic documentation of an era.
+- (history) This publication was a booklet of apparently blank pages whose pictures became evident when lightly rubbed with a soft pencil or crayon, similar to a brass rubbing, and was last offered in September 1932.
+- (history) In 1968, Stedman-Henderson was taken over by Hoadleys, which was itself acquired in 1971 by Rowntree's.
+- (history) They are now sold as "Allens Minties" (Nestlé acquired the Allens brand in 1985.) In 1930 or 1931, a factory was set up in Auckland, New Zealand.
 - (origin) Minties comes from Australia.
 
 Learn more:
@@ -1998,7 +2407,14 @@ Pale ale is a golden to amber coloured beer style brewed with pale malt.
 
 Fun facts:
 
+- (history) Coke had been first used for dry roasting malt in 1642, but it was not until around 1703 that the term pale ale was first applied to beers made from such malt.
 - (origin) The term first appeared in England around 1703 for beers made from malts dried with high-carbon coke, which resulted in a lighter colour than other beers popular at that time.
+- (about) Not to be confused with pale lager.
+
+More fun facts (when the user asks for more):
+
+- (history) By 1784, advertisements appeared in the Calcutta Gazette for "light and excellent" pale ale.
+- (history) By 1830, the expressions bitter and pale ale were synonymous.
 
 Learn more:
 
@@ -2020,8 +2436,17 @@ Passiona is an Australian passionfruit-flavoured soft drink currently manufactur
 
 Fun facts:
 
-- (history) Passiona dates from 1925-.
+- (history) Passiona was first manufactured in 1924, and described in writing in an address to the Mullumbimby Chamber of Commerce by Spencer Cottee 1925.
 - (origin) Passiona comes from Australia.
+- (history) Originally developed as a cordial by Lismore dairy farmer Spencer Cottee during the 1920s to avoid wasting excess passionfruit on his farm, when carbonated Passiona became a foundation product of the Cottee's range.
+
+More fun facts (when the user asks for more):
+
+- (history) On January 17, 1925, Cottee filed an Australian trade mark application for a logo of the words "Passiona", which remains current (in the name of Asahi Group Holdings).
+- (history) Newspaper reports from the 1930s mention Australians taking the drink with them overseas to Canada and Jerusalem.
+- (history) In 1934, Cottees Passiona Ltd reported a gross profit of £609.
+- (history) Passiona dates from 1925-.
+- (history) In 1926, a factory was set up in Sydney, and in 1927 the drink was marketed to the public.
 
 Learn more:
 
@@ -2043,6 +2468,7 @@ Portello (also known as Portino and Ruby Mello), is a carbonated grape and berry
 Fun facts:
 
 - (origin) It is believed to have originated in London, England in the 18th century, before spreading to colonies of the British Empire.
+- (about) Not to be confused with Portello.
 - (origin) Portello comes from United Kingdom.
 
 Learn more:
@@ -2131,6 +2557,11 @@ A saveloy is a type of highly seasoned sausage, usually bright red, normally boi
 
 - From: Australia
 
+Fun facts:
+
+- (origin) The word is believed to be derived from Middle French cervelas or servelat, originating from Old Italian cervella ('pigs brains'), ultimately from the Latin cerebrum ('brain').
+- (history) Its first known use in the English language in this meaning was 1784.
+
 Learn more:
 
 - quick: [Saveloy (Wikipedia)](https://en.wikipedia.org/wiki/Saveloy)
@@ -2168,11 +2599,16 @@ Solo is an Australian, lemon-flavoured, carbonated soft drink currently manufact
 Fun facts:
 
 - (inspiration) First launched by Tarax in 1968 and fell to Cadbury after a takeover in 1974, its lemon flavour is inspired by Australian pubs' traditional and popular non-alcoholic 'pub squash' beverage.
-- (history) Solo dates from 1973-.
+- (history) Solo was first launched by Tarax in 1968, then Cadbury-Schweppes took over in 1973.
 - (about) There is also an energy drink version called ‘Solo Energy’, released approximately in June 2025.
 
 More fun facts (when the user asks for more):
 
+- (history) Solo dates from 1973-.
+- (culture) The drink's lemon flavour is derived from Australian pubs' traditional non-alcoholic beverage 'pub squash' or 'lemon squash', which is a drink made from a sweetened lemon concentrate and water.
+- (about) In response to concerns associated with high sugar content, Asahi beverages and subsequently Solo signed a sugar reduction pledge in 2018.
+- (about) Solo aims to reduce its sugar content by 20% by the year 2025.
+- (about) Solo Energy, an energy drink range with guarana, caffeine and B-vitamins, was released in June 2025.
 - (origin) Solo comes from Australia.
 
 Learn more:
@@ -2196,7 +2632,14 @@ Vegemite () is a brand of a thick, dark brown Australian food spread made from l
 Fun facts:
 
 - (history) Vegemite was developed by Cyril Callister in Melbourne, Victoria, for the Fred Walker Company in 1922 and was first sold in stores on 25 October 1923.
+- (about) Australian band King Gizzard & the Lizard Wizard have a song called "Vegemite" on their 2014 album Oddments. "True Blue", a country music song written by Australian singer-songwriter John Williamson, mentions Vegemite.
+- (origin) Vegemite was first made by Cyril P. Callister.
+
+More fun facts (when the user asks for more):
+
+- (history) The Australian rock band Men at Work refer to a "Vegemite sandwich" in the second verse of their 1982 hit song "Down Under", from their debut studio album Business as Usual.
 - (history) Vegemite dates from 1922-.
+- (about) Not to be confused with Marmite.
 
 Learn more:
 
@@ -2219,8 +2662,13 @@ Wagon Wheels are a sweet snack food sold in the United Kingdom as well as other 
 Fun facts:
 
 - (inspiration) Wagon Wheels were invented by William Peschardt, who sold the patent to Garry Weston, son of W.
-- (about) The name (originally "Weston Wagon Wheels") relates to the shape of the biscuits and capitalised on the Wild West, which was popular in mass media at the time.
+- (about) Wagon Wheels were chosen by Judge Paul Hollywood as the technical challenge for the first episode in series 9 of The Great British Bake Off.
 - (origin) Wagon Wheels comes from Australia.
+
+More fun facts (when the user asks for more):
+
+- (about) Australian interviewer Annabel Crabb fabricated a batch of Wagon Wheels as her contribution to an interview with Prime Minister Anthony Albanese at The Lodge in her ABC series Kitchen Cabinet, first aired in July 2026.
+- (about) The name (originally "Weston Wagon Wheels") relates to the shape of the biscuits and capitalised on the Wild West, which was popular in mass media at the time.
 
 Learn more:
 
@@ -2237,6 +2685,16 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q7959656) (CC0); [Wikipedia: W
 Weet-Bix is a whole-grain wheat breakfast cereal created and manufactured in Australia and New Zealand by the Sanitarium Health Food Company, and in South Africa by Bokomo.
 
 - From: Australia
+
+Fun facts:
+
+- (history) In October 1928, Weet-Bix a success, Shannon sold the rights to Sanitarium, specifically Australasian Conference Association Limited.
+- (about) For the purpose of legally differentiating the product from that sold in Australia, New Zealand and South Africa, the product was named Weetabix.
+- (about) Weet-Bix Clusters were discontinued in June 2025.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Weetabix.
 
 Learn more:
 

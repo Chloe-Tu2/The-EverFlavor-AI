@@ -12,6 +12,14 @@ Ackee and saltfish is the Jamaican national dish prepared with sauteed ackee and
 
 Fun facts:
 
+- (origin) Ackee and saltfish was brought to the Caribbean from Ghana before 1725 as 'Ackee' or 'Aki', another name for the Akan people, Akyem.
+- (culture) Ackee and saltfish is widely regarded as the national dish of Jamaica.
+- (history) Harry Belafonte's 1956 hit song "Jamaica Farewell" declares, "Ackee rice, saltfish are nice".
+
+More fun facts (when the user asks for more):
+
+- (origin) The fruit's scientific name honours Captain William Bligh who took the fruit from Jamaica to the Royal Botanic Gardens in Kew, England in 1793 and introduced it to science.
+- (origin) Salted codfish, on the other hand, was introduced to Jamaica for enslaved people as a long-lasting and inexpensive protein source.
 - (origin) Ackee and saltfish comes from Jamaica.
 
 Learn more:
@@ -55,6 +63,8 @@ Bammy is a traditional Jamaican cassava flatbread descended from the simple flat
 
 Fun facts:
 
+- (origin) Bammies have existed since pre-Columbian times, and they originated from the Taíno people.
+- (culture) The Taínos passed on this tradition to the Spanish, British, enslaved and free Africans and Creoles, and most aspects of the original method of preparing bammy are still practised in parts of St Elizabeth and South East Manchester today.
 - (origin) Bammy comes from Jamaica.
 
 Learn more:
@@ -77,8 +87,19 @@ Banana bread or Banana loaf is a type of sweet bread or cake made from bananas.
 
 Fun facts:
 
+- (history) Commercial shipping of bananas to the United Kingdom started in the 1880s by Elders & Fyffes, with the earliest dessert recipes being possibly in Hilda Leyel and Olga Hartley's book The Gentle Art of Cookery from 1925.
 - (about) However the first recipes were yeast based.
 - (origin) Banana bread comes from United States.
+
+More fun facts (when the user asks for more):
+
+- (history) Bananas became widely available to the US in the 1870s, with the New York Graphic reporting in 1874 that the banana has become a necessity in the fruit market.
+- (history) The earliest known recipe for bananas in a dessert in the US was from the Good Housekeeping magazine in 1888, though a Banana pudding was mentioned in a New York Times column called Information Wanted in 1878.
+- (history) Banana bread was originally a yeast based recipe with the earliest seen advertisements possibly in January 1881 from Lawrence, Kansas, and the Vienna Model Bakery in April 1893.
+- (history) Possibly the first printed recipe for a baking powder based bread was in the Pillsbury Balanced Recipes book of 1933.
+- (history) Banana bread recipes emerged in cookbooks across North America when baking powder became available in grocery stores in the 1930s.
+- (about) These recipes soon travelled across the Atlantic to the United Kingdom through magazines like Good Housekeeping, where American housewifes letters section included the recipes.
+- (about) Banana bread experienced a surge in popularity during the COVID-19 pandemic lockdowns in 2020.
 
 Learn more:
 
@@ -101,14 +122,23 @@ Black Forest gateau, or Black Forest cake, is a layer cake made out of sponge ca
 
 Fun facts:
 
-- (history) However, the cake's recipe from 1927 is kept at an archive in Radolfzell, Germany.
+- (history) His son asserted about 1982 that Keller had invented the cake in 1915, though it is known that he could not have come to Bad Godesberg until after April 1915.
 - (inspiration) A festival dedicated to the cake is organised in Todtnauberg.
-- (origin) Black Forest gateau comes from Germany.
+- (about) The recipe for the cake was protected by the European Commission in 2013, thus for it to be referred as Black Forest gateau in the European Union, the Kirsch in the cake must be produced from cherries cultivated in the Black Forest region.
 
 More fun facts (when the user asks for more):
 
+- (history) The confectioner Josef Keller (1887–1981) claimed in 1975 to have made Black Forest gateau while working at a café in Bad Godesberg.
+- (history) Udo Rauch, the city archivist of Tübingen, cited the pastry chef Erwin Hildenbrand as having invented the cake in 1930.
+- (history) The first written recipe of Black Forest gateau appeared in 1927, where it is kept at an archive in Radolfzell.
+- (history) Oetker featured a Black Forest gateau recipe for the first time in their 1951 cookbook.
+- (history) However, the cake's recipe from 1927 is kept at an archive in Radolfzell, Germany.
 - (history) Black Forest gateau became popular in the second half of the 20th century and is now featured internationally in cafés and restaurants.
+- (history) However, it only became popular in the second half of the 20th century.
+- (history) In the UK, the cake was among the most popular dishes at restaurants for several decades over the second half of the 20th century, forming part of the widespread prawn cocktail, steak and Black Forest gateau order.
 - (inspiration) Black Forest gateau is named after Black Forest.
+- (origin) In the United States, where the cake is known as Black Forest cake, the cake was introduced by German immigrants.
+- (origin) Black Forest gateau comes from Germany.
 
 Learn more:
 
@@ -215,6 +245,7 @@ Coco bread is a Jamaican bread eaten on the island and in other areas of the Car
 Fun facts:
 
 - (origin) Coco bread comes from Jamaica.
+- (about) Not to be confused with pan de coco.
 
 Learn more:
 
@@ -329,8 +360,22 @@ A doughnut or donut is a type of fried or baked good made from leavened dough.
 
 Fun facts:
 
+- (inspiration) In film, the doughnut has inspired Dora's Dunking Doughnuts (1933), The Doughnuts (1963) and Tour de Donut: Gluttons for Punishment.
+- (about) A recipe for a deep-fried dough ball was recorded by Cato the Elder in his De agri cultura, using cheese, honey, and poppy seeds, called globi.
+- (origin) Similar types of fried dough recipes have either spread to, or originated, in other parts of Europe and the World.
+
+More fun facts (when the user asks for more):
+
+- (about) This is done before frying the first batch and results in a shape reminiscent of a modern doughnut.
+- (history) The cookbook Küchenmeisterei (Mastery of the Kitchen), published in Nuremberg in 1485, offers a recipe for "Gefüllte Krapfen", stuffed, fried dough cakes.
+- (origin) The recipe may have been brought from, or introduced to China, in the 16th century.
+- (about) During a citywide "lockdown" after the Boston Marathon bombing, a handful of selected Dunkin' Donuts locations were ordered to remain open to serve police and first responders despite the closing of the vast majority of city businesses.
 - (history) Doughnut dates from 1700-.
 - (about) Doughnut is popular in many countries and is prepared in various forms as a sweet snack that can be homemade or purchased in bakeries, supermarkets, food stalls, and franchised specialty vendors.
+- (about) The doughnut has made many appearances in popular culture, particularly in the United States and Australia.
+- (culture) In the cartoon ¡Mucha Lucha!, there are four things that make up the code of mask wrestling: honor, family, tradition, and doughnuts.
+- (about) In films, TV shows, and other popular culture references, police officers are associated with doughnuts, depicted as enjoying them during their coffee break or office hours.
+- (about) Not to be confused with bagel, doughnut.
 
 Learn more:
 
@@ -352,6 +397,14 @@ Duckunoo or duckanoo, also referred to as tie-a-leaf, blue drawers (draws), doko
 Fun facts:
 
 - (origin) Duckanoo is a variation of tamale, which originated in Mesoamerica as early as 8000 to 5000 BC.
+- (about) Duckanoo is the sweet variation of the more popular savoury tamale, which may date from around 100 AD, according to archaeologists Karl Taube, William Saturno, and David Stuart.
+- (culture) In Belize, the dish is rooted in Mayan and African traditions.
+
+More fun facts (when the user asks for more):
+
+- (origin) Duckanoo originated in the Caribbean, and is closely related to the Mesoamerican tamale de dulce or tamal dulce ('sweet tamale'), a popular indigenous dessert in the Americas, especially in Mexico.
+- (origin) Duckanoo was adapted and influenced by West Africans who were brought to the Americas during slavery and indentureship— particularly the Maroons and Garifunas, who intermingled with the Amerindians.
+- (about) In Ghana, there is a dish known as dokono or Odokono in the Twi language, which is made from fermented corn dough.
 - (origin) Duckanoo comes from Caribbean.
 
 Learn more:
@@ -371,7 +424,14 @@ Eggnog (or egg nog), historically also known (when alcoholic) as milk punch or e
 
 Fun facts:
 
+- (history) One dictionary lists the word as being an Americanism invented in 1765-75.
 - (culture) Eggnog is traditionally consumed throughout Canada and the United States at Christmas every year, often from American Thanksgiving through the end of the Christmas season.
+- (about) Not to be confused with Eggnog.
+
+More fun facts (when the user asks for more):
+
+- (history) Posset was popular from medieval times to the 19th century.
+- (history) Eggs were added to some posset recipes; according to TIME magazine, by the "...13th century, monks were known to drink a posset with eggs and figs."
 
 Learn more:
 
@@ -431,6 +491,18 @@ Fricassee or fricassée is a stew made with pieces of meat that have been browne
 
 - From: Jamaica
 - Ingredients (Wikidata): white meat, white sauce
+
+Fun facts:
+
+- (history) Fricassee is first attested in English in the mid-16th century.
+- (about) Not to be confused with Fricasse.
+- (history) In 1490, it was first referred to specifically as friquassée in the print edition of Le Viandier.
+
+More fun facts (when the user asks for more):
+
+- (history) By the general description of frying and then braising in liquid, there are recipes for fricassee as far back as the earliest version of the medieval French cookbook Le Viandier, circa 1300.
+- (history) The 1586 cookery book The Good Huswifes Jewell contains "For fricasies of a lambes head and purtenance".
+- (history) By the 18th century, egg yolks had started to be replaced by flour in English and American cuisines.
 
 Learn more:
 
@@ -495,6 +567,13 @@ Hard dough bread, also called hardo bread, is a Jamaican bread similar to the Pu
 
 Fun facts:
 
+- (origin) The bread originated from Chinese indentured labourers who arrived in Jamaica by the mid-1800s (or subsequent immigrants), who brought the recipe to Jamaica.
+- (history) The earliest known use of the word "hard-dough" was in 1911, in the Daily Gleaner in Kingston, Jamaica.
+- (culture) According to Jamaican writer and cultural historian, Olive Senior, traditionally the baking process involves a piece of mixing equipment called a dough break machine, which is only found in Jamaica, Cuba and Haiti.
+
+More fun facts (when the user asks for more):
+
+- (origin) It is said to bear similarities to Chinese mantou, and other sweet breads which they introduced to the island.
 - (origin) Hard dough bread comes from Jamaica.
 
 Learn more:
@@ -517,6 +596,14 @@ Hummingbird cake is a banana-pineapple spice cake originating in Jamaica and a p
 
 Fun facts:
 
+- (inspiration) Bird cake), it is named after the island's national bird, the scissors-tail hummingbird (locally known as the doctor bird).
+- (history) In 1968, the Jamaica Tourist Board exported the recipe for hummingbird cake, along with other local Jamaican recipes, in media press kits sent to the United States.
+- (about) One of the first known publications of the recipe in US print, as written by L.H.
+
+More fun facts (when the user asks for more):
+
+- (history) Wiggins, was in the February 1978 issue of Southern Living.
+- (history) Hummingbird cake was later voted Southern Living's favorite recipe in 1990 and was noted as the most requested recipe in the magazine's history.
 - (origin) Hummingbird cake comes from United States.
 
 Learn more:
@@ -538,6 +625,14 @@ A Jamaican patty is a semicircular pastry that contains various fillings and spi
 
 Fun facts:
 
+- (culture) In the 1960s, Chinese Jamaican families who had traditionally operated most of the island's bakeries, began baking and selling patties commercially in Jamaica, which led to the establishment of two major franchises—Tastee, founded by Vincent Chang OD in 1966, and Juici Patties, founded by Jukie Chin in 1978.
+- (history) One of the earliest Jamaican patty establishments was Bruce’s Patties in Kingston, founded in 1930 by Zoe Bruce, a local baker.
+- (origin) The Jamaican patty is a Creole dish which originated in Jamaica, and spread to coastal Latin America during the colonial era.
+
+More fun facts (when the user asks for more):
+
+- (culture) By the 1930s, patties became a mainstay—widely enjoyed as an affordable snack, street food and lunchtime meal.
+- (history) These were followed by other Jamaican-owned franchises such as Mother's Enterprise Ltd., founded in 1981.
 - (culture) Jamaican patty is traditionally filled with seasoned ground beef, but other fillings include chicken, pork, lamb, goat, vegetables, shrimp, lobster, fish, soy, ackee, callaloo, bacon or cheese.
 - (origin) Jamaican patty comes from Jamaica.
 
@@ -560,7 +655,20 @@ Jerk is a style of cooking native to Jamaica, in which meat is dry-rubbed or wet
 
 Fun facts:
 
+- (history) During the invasion of Jamaica in 1655, the Spanish colonists freed the enslaved Africans who fled into the Jamaican countryside, becoming some of the first Jamaican Maroons.
 - (origin) The technique of jerking (or cooking with jerk spice) originated from Jamaica's indigenous peoples, the Arawak and Taíno tribes, and was adopted by the descendants of 17th-century Jamaican Maroons who intermingled with them.
+- (about) Jamaican jerk sauce believed to have been primarily developed by them, added flavour to wild hogs which were seasoned with herbs and allspice before slow-cooking over pimento wood.
+
+More fun facts (when the user asks for more):
+
+- (origin) According to historical evidence, jerked meat was first cooked by the indigenous Taínos.
+- (history) In 1516, Spanish historian Gonzalo Fernández de Oviedo y Valdés, documented how they prepared and preserved meats and fish on a barbacoa, using native hot peppers (Scotch bonnet and cayenne pepper) and pimento for seasoning.
+- (origin) They introduced livestock (pig, cattle and chicken) to the island in the 1500s, which were often cured by adopting the Taíno method of jerking meats over a barbacoa, using pimento wood and berries for flavour and preservation.
+- (history) In the 17th century, all racial groups hunted wild hogs in the Jamaican interior and used the practice of jerking to cook them.
+- (history) However, by the end of the 18th century, most groups had switched to imported pork products, while the Maroons largely continued the practice of hunting wild hogs and jerking pork.
+- (about) The term jerk spice (also known as Jamaican jerk spice) refers to the spice rub.
+- (culture) In the early period of colonization, Spanish conquistadors also adopted Taíno culinary traditions in order to survive.
+- (about) Not to be confused with Jerk.
 
 Learn more:
 
@@ -582,8 +690,13 @@ Lobster Thermidor is a French dish of lobster meat cooked in a rich wine sauce, 
 
 Fun facts:
 
-- (inspiration) Lobster Thermidor is named after Thermidor.
+- (inspiration) In January 1891, the play Thermidor by Victorien Sardou opened in the Comédie-Française theatre, named for month 11 in the new calendar of the French Revolution.
 - (origin) Lobster Thermidor comes from France.
+- (inspiration) Another legend suggests it was created in 1894 at Chez Marie.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Lobster Thermidor is named after Thermidor.
 
 Learn more:
 
@@ -604,8 +717,14 @@ Macaroni and cheese (colloquially known as mac and cheese and known as macaroni 
 
 Fun facts:
 
+- (history) In the United Kingdom in the 21st century, the dish has risen in popularity, becoming widespread as a meal and as a side order in both fast food and upmarket restaurants.
 - (culture) The traditional macaroni and cheese is put in a casserole dish and baked in the oven; however, it may be prepared in a saucepan on top of the stove, sometimes using a packaged mix such as became popular in the mid-20th century.
 - (origin) Macaroni and cheese comes from United Kingdom.
+
+More fun facts (when the user asks for more):
+
+- (history) A recipe for macaroni and cheese was included in Elizabeth Raffald's cookery book, The Experienced English Housekeeper (1769).
+- (history) Eliza Acton's cookery book Modern Cookery in All Its Branches (1845) has a recipe "Macaroni a la Reine", which directs the cook to "dissolve gently ten ounces of any rich, well-flavoured white cheese in full three quarters of a pint of good cream" with salt, Cayenne pepper, mace, and butter.
 
 Learn more:
 
@@ -627,8 +746,13 @@ Madeira cake is a sponge or butter cake in traditional English cookery.
 
 Fun facts:
 
-- (inspiration) Madeira cake is named after Madeira wine (DOC).
+- (inspiration) Madeira cake is sometimes mistakenly thought to originate from the Madeira Islands but was in fact named after Madeira wine from the islands, popular in England in the mid-1800s and often served with the cake.
 - (origin) Madeira cake comes from United Kingdom.
+- (culture) Madeirans produce their own traditional cake – bolo de mel, dark, spicy and honey-flavoured – which is very different.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Madeira cake is named after Madeira wine (DOC).
 
 Learn more:
 
@@ -650,15 +774,18 @@ Mannish water is a goat soup in the Caribbean cuisine.
 
 Fun facts:
 
+- (history) Mannish water is mentioned in the 1974 Pluto Shervington song, "Ram Goat Liver", which was reissued in 1976 (following the success of "Dat") and made it to No. 43 in the UK Singles Chart.
+- (inspiration) Mannish water is believed to have inspired The Rolling Stones with the name for their 1973 Goats Head Soup album.
 - (about) It is believed to be an aphrodisiac and is made from various goat parts.
-- (culture) The meal has been part of Maroon celebrations for over 300 years.
-- (origin) Mannish water comes from Jamaica.
 
 More fun facts (when the user asks for more):
 
+- (culture) The meal has been part of Maroon celebrations for over 300 years.
 - (about) Mannish water is still popular at "dead yard" functions, large stage shows and parties (to make sure one can drive home after a few drinks).
 - (culture) According to the Rough Guide, mannish water is traditionally served to a groom on his wedding night.
 - (about) The soup has been sold packaged since 2006 when it competed for Best New Food Idea in a competition covered by The Jamaica Observer.
+- (about) Feedback indicated it was going to be as popular as Tastee patties.
+- (origin) Mannish water comes from Jamaica.
 
 Learn more:
 
@@ -721,6 +848,7 @@ Fun facts:
 
 - (history) Evidence for the dish's existence in the United States dates from at least 1948.
 - (origin) Pepper steak comes from People's Republic of China.
+- (about) Not to be confused with steak au poivre.
 
 Learn more:
 
@@ -742,7 +870,15 @@ Pineapple cake is a Taiwanese sweet traditional pastry where pineapple filling i
 
 Fun facts:
 
+- (origin) Both pineapple cake and pineapple tart likely came into fruition around the 16th century when the pineapple, a fruit native to South America, was introduced by Portuguese merchants to the region.
+- (history) By the late 1930s, Taiwan had become the third-largest exporter of pineapples in the world.
+- (culture) While pineapple cakes had historically been produced as a ceremonial food, a combination of governmental promotion and globalization popularized the pineapple cake.
+
+More fun facts (when the user asks for more):
+
+- (culture) Today, pineapple cake is considered one of Taiwan's culinary symbols.
 - (origin) Pineapple cake comes from Taiwan.
+- (about) Not to be confused with pineapple upside-down cake.
 
 Learn more:
 
@@ -782,6 +918,11 @@ Pumpkin soup is a usually 'bound' (thick) soup made from a purée of pumpkin.
 - From: Jamaica
 - Ingredients (Wikidata): pumpkin
 
+Fun facts:
+
+- (origin) A variety of pumpkin soup, called soup joumou, originated in Haiti during their independence.
+- (culture) Pumpkin soup is traditionally consumed in the Haitian Independence Day (January 1) to commemorate the revolution in 1804.
+
 Learn more:
 
 - quick: [Pumpkin soup (Wikipedia)](https://en.wikipedia.org/wiki/Pumpkin_soup)
@@ -802,6 +943,14 @@ Red peas soup is a hearty Jamaican soup, made with kidney beans (known locally a
 
 Fun facts:
 
+- (origin) The Spaniards, the first Europeans to colonize Jamaica in the 15th century, introduced pigs, cattle and other livestock to the island.
+- (origin) Red peas soup originated in Jamaica, and it is one of many Creole dishes created from a fusion of cooking techniques and ingredients, contributed by various ethnic groups who have inhabited the island.
+- (origin) One of the main ingredients of red peas soup, kidney beans, originated in Peru around 8,000 B.C., and cultivars were spread throughout the Americas by Indigenous Amerindians, the Arawaks/Taínos— then later the Spanish and Portuguese, who introduced them to other regions through the Columbian Exchange.
+
+More fun facts (when the user asks for more):
+
+- (origin) They also introduced carrot, garlic, thyme and other vegetables and herbs to the region, as well as, cured meats like pickled pigtail, salted pork and salted beef.
+- (origin) Chinese indentured labourers influenced the use of scallion, which was introduced to the island by the indentured East Indians.
 - (origin) Red peas soup comes from Jamaica.
 
 Learn more:
@@ -820,6 +969,16 @@ Rice and peas or peas and rice is a traditional rice dish in some Caribbean and 
 
 - From: Jamaica
 - Ingredients (Wikidata): rice
+
+Fun facts:
+
+- (origin) Rice and peas, a one-pot Creole dish that originated in the Caribbean during the colonial era, includes a mixture of ingredients, cooking techniques and spices influenced by various ethnic groups in the region.
+- (about) The Spanish, the first European arrivals to the Americas, contributed many peas/bean dishes and rice dishes.
+- (origin) Pigeon peas (also called Congo or Angola peas), which originated in India and were domesticated there 3500 years ago, were also introduced by the Spanish and Portuguese, from Africa.
+
+More fun facts (when the user asks for more):
+
+- (origin) They also introduced Asian rice to the Caribbean and Latin America, as well as herbs and spices like garlic, thyme, onion, and oregano.
 
 Learn more:
 
@@ -864,6 +1023,7 @@ Roti is a round flatbread originating from the Indian subcontinent.
 
 Fun facts:
 
+- (history) Due to a mass emigration of Indian Surinamese in the 1970s, roti became a popular take-out dish in the Netherlands.
 - (about) Roti is made from stoneground whole-wheat flour, known as atta, combined with water to form dough.
 - (origin) Roti comes from South Asia.
 
@@ -887,13 +1047,15 @@ Run down, also referred to as rundown, run dun, rondón, fling-me-far, and fling
 
 Fun facts:
 
+- (origin) Rondón originated in Jamaica and was exported to Latin America by the Afro-Jamaican immigrant workers who migrated in the early 19th century to build projects such as the Panama Canal and the Costa Rican railroads.
 - (culture) The traditional Jamaican dish is eaten in several Latin American countries that share a coast with the Caribbean Sea.
-- (origin) Run down comes from Jamaica.
-- (culture) Traditionally, the dish is served with side dishes of dumplings or baked breadfruit.
+- (origin) The name could also originate from the manner in which the fish is thoroughly cooked until it falls apart, or "runs down".
 
 More fun facts (when the user asks for more):
 
+- (culture) Traditionally, the dish is served with side dishes of dumplings or baked breadfruit.
 - (culture) Run down is typically available in Jamaican restaurants, and is also a traditional Jamaican breakfast dish.
+- (origin) Run down comes from Jamaica.
 
 Learn more:
 
@@ -953,6 +1115,12 @@ Stamp and Go or saltfish fritter is a traditional fish fritter made with saltfis
 
 - From: Jamaica
 
+Fun facts:
+
+- (origin) Stamp and Go (saltfish fritter) is a Creole dish with Spanish and Portuguese roots, which originated in Jamaica.
+- (about) The unusual name is believed to have derived from the 18th-century British sailing ships, whereby if an officer wanted something to be done in a hurry the order was "Stamp and Go!".
+- (origin) Saltfish (bacalao in Spanish or bacalhau in Portuguese), which has been a staple in Spanish and Portuguese cuisines for centuries, was introduced to the island as an affordable source of protein and a Lenten and Easter dish during the colonial era.
+
 Learn more:
 
 - quick: [Stamp and Go (Wikipedia)](https://en.wikipedia.org/wiki/Stamp_and_Go)
@@ -967,6 +1135,22 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q7597455) (CC0); [Wikipedia: S
 Stew peas is a Jamaican stew made with beans, salted meat, coconut milk, herbs and spices.
 
 - From: Jamaica
+
+Fun facts:
+
+- (history) Stew peas has been a staple dish in Jamaica since at least the 1940s, and recipes for it began to appear in cookbooks in the 1970s.
+- (origin) Stew peas originated in Jamaica, and is a Caribbean Creole dish created from a blend of cooking techniques and ingredients, influenced by various ethnic groups that exist in the region.
+- (culture) Meats were primarily cured using the traditional Spanish method of salting/drying, and the Taíno method of smoking over a barbacoa, using pimento wood and berries for flavour and preservation.
+
+More fun facts (when the user asks for more):
+
+- (origin) The first European arrivals to the Americas, the Spanish, introduced pigs, cattle and other livestock to Jamaica and the rest of the New World.
+- (origin) Kidney beans which are typically used in Jamaican stew peas, originated in Peru around 8,000 B.C., and cultivars were dispersed throughout the Americas by Indigenous Amerindian tribes, like the Arawaks— then later the Spanish and Portuguese, who introduced them to other regions through the Columbian Exchange.
+- (origin) Pigeon peas (also known as Congo or Angola peas), which originated in India and were domesticated there 3500 years ago, were also introduced by the Spanish and Portuguese, from Africa.
+- (history) In September 1992, the Jamaican newspaper, The Gleaner, declared stew peas with rice as "the best dish made in Jamaica" (in its Home, Living and Food Guide).
+- (origin) Other ingredients including herbs and spices like onion, garlic and thyme were also introduced by the Spanish.
+- (origin) The use of scallion was influenced by Chinese indentured labourers, but was introduced to the island by the indentured East Indians.
+- (about) Stew peas is prepared in various unique ways by Jamaicans, and is a staple in Jamaican homes and restaurants due to its popularity.
 
 Learn more:
 
@@ -984,6 +1168,18 @@ A tart is a baked dish consisting of a filling over a pastry base with an open t
 
 - From: Jamaica
 - Ingredients (Wikidata): pastry, shortcrust pastry
+
+Fun facts:
+
+- (history) Enriched dough (i.e. shortcrust) is thought to have been first commonly used in 1550, approximately 200 years after pies.
+- (culture) Tarts are thought to have either come from a tradition of layering food or to be a product of medieval pie making.
+- (about) In this period, they were viewed as high-cuisine, popular with nobility, in contrast to the view of a commoner's pie.
+
+More fun facts (when the user asks for more):
+
+- (history) An early tart was the Italian crostata, dating to at least the mid-15th century.
+- (inspiration) Early medieval tarts generally had meat fillings, but later ones were often based on fruit and custard.
+- (about) Not to be confused with cake, torta.
 
 Learn more:
 
@@ -1006,6 +1202,7 @@ Fun facts:
 
 - (culture) Toto is a Jamaican delicacy that is served at most family gatherings, Sunday dinners, and various celebrations.
 - (origin) Toto comes from Jamaica.
+- (culture) The cake is a Jamaican speciality dessert with origins from the period of its colonial slavery; it draws on both African and British culinary traditions and is a staple in home baking.
 
 Learn more:
 
@@ -1119,7 +1316,13 @@ Callaloo is a plant used in popular dishes in many Caribbean countries, while fo
 
 Fun facts:
 
+- (about) There are two possible etymological origins for the word, with stronger claims for the first.
+- (culture) The Costa Rican calypso musician Walter Ferguson has written a song celebrating callaloo’s flavour, popularity, and health effects.
 - (origin) Callaloo comes from Africa.
+
+More fun facts (when the user asks for more):
+
+- (about) The first etymology from on ground research states that it is from Kimbundu kalulú referring to okra, or an Angolan vegetable dish, similar to the present use of the word in Haitian Creole and São Tomean Portuguese.
 
 Learn more:
 
@@ -1136,6 +1339,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q5021734) (CC0); [Wikipedia: C
 Carambola, also known as star fruit, is the fruit of Averrhoa carambola, a species of tree native to tropical Southeast Asia.
 
 - From: Jamaica
+
+Fun facts:
+
+- (origin) Carambola was introduced to the Indian subcontinent and Sri Lanka by Austronesian traders, along with ancient Austronesian cultigens like langsat, noni, and santol.
+- (about) The farming video game Stardew Valley allows the player to cultivate and grow carambola, in this setting known as "starfruit".
 
 Learn more:
 
@@ -1272,7 +1480,16 @@ Ginger beer is a sweetened and carbonated, usually non-alcoholic, type of soft d
 
 Fun facts:
 
+- (origin) Brewed ginger beer originated in Yorkshire in England in the mid-18th century and appeared in Canada and the United States around 1790.
+- (history) Until the mid-19th century, many ginger beers contained alcohol, at about 11%.
 - (about) Ginger beer is still produced at home using a type of symbiotic colony of yeast and Lactobacillus bacteria (SCOBY) known as a "ginger beer plant", or from a "ginger bug" starter created from fermenting ginger, sugar, and water.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1855 this became legally limited to 2% in England.
+- (history) The drink reached a peak of popularity in US in 1920, before Prohibition saw it replaced with ginger ale and other soft drinks.
+- (history) In England and Canada its popularity peaked in 1935.
+- (about) Not to be confused with ginger ale.
 
 Learn more:
 
@@ -1294,6 +1511,13 @@ Gizzada, also referred to as pinch-me-round, is a classic traditional pastry in 
 
 Fun facts:
 
+- (history) Its origins trace back to the period of Spanish colonization in the 16th century, as well as British rule in the 17th century.
+- (origin) Gizzada is a coconut tart with Portuguese roots, which originated in Jamaica.
+- (culture) The pastry was contributed by Portuguese Jews who sought refuge in Jamaica from 1530, fleeing religious persecution during the Inquisition.
+
+More fun facts (when the user asks for more):
+
+- (origin) Gizzada was first made in Sintra.
 - (origin) Gizzada comes from Jamaica.
 
 Learn more:
@@ -1313,8 +1537,15 @@ Gooseberry is a common name for many species of Ribes (which also includes curra
 
 Fun facts:
 
-- (history) William Turner described the gooseberry in his Herball, written about the middle of the 16th century.
+- (history) The word first appears in written English in the 16th century.
 - (about) Improved varieties were probably first raised by the gardeners of Holland.
+- (history) William Turner described the gooseberry in his Herball, written about the middle of the 16th century.
+
+More fun facts (when the user asks for more):
+
+- (history) William Turner described the gooseberry in his Herball, written about the middle of the 16th century, and a few years later it is mentioned in one of Thomas Tusser's quaint rhymes as an ordinary object of garden culture.
+- (about) Improved varieties were probably first raised by the skilful gardeners of Holland, whose name for the fruit, Kruisbezie, may have been corrupted into the present English vernacular word.
+- (about) The climate of the British Isles seems peculiarly adapted to bring the gooseberry to perfection, and it may be grown successfully even in the most northern parts of Scotland; indeed, the flavour of the fruit is said to improve with increasing latitude.
 
 Learn more:
 
@@ -1373,16 +1604,27 @@ Guinness ( ) is a stout that originated in the brewery of Arthur Guinness at St.
 
 Fun facts:
 
-- (history) James's Gate, Dublin, Ireland, in the 18th century.
+- (history) The first Guinness beers to use the term "stout" were Single Stout and Double Stout in the 1840s.
 - (about) Guinness is the highest-selling beer in both Ireland and the United Kingdom.
 - (culture) Adopted in 1862 by the incumbent proprietor, Benjamin Lee Guinness, the Guinness harp motif is modelled on the Trinity College harp (which is the national symbol of Ireland), with the right-facing harp registered as a trademark for Guinness in 1876.
 
 More fun facts (when the user asks for more):
 
+- (history) Porter was also referred to as "plain", as mentioned in the famous refrain of Flann O'Brien's poem "The Workman's Friend": "A pint of plain is your only man." Already one of the top-three British and Irish brewers, Guinness's sales soared from 350,000 barrels in 1868 to 779,000 barrels in 1876.
+- (history) James's Gate, Dublin, Ireland, in the 18th century.
+- (history) The unmalted barley is a relatively modern addition that became part of the grist in the mid-20th century.
+- (history) In 1997, Guinness plc merged with Grand Metropolitan to form the multinational alcoholic-drinks producer Diageo plc, based in London.
+- (history) Arthur Guinness started brewing ales in 1759 at the St.
+- (history) On 31 December 1759, he signed a 9,000 year lease at £45 per annum for the unused brewery, and it would become one of the largest in the British Empire.
+- (history) Arthur Guinness started selling porter in 1778.
+- (history) The brewery hired the statistician William Sealy Gosset in 1899, who achieved lasting fame under the pseudonym "Student" for techniques developed for Guinness, particularly Student's t-distribution and the even more commonly known Student's t-test.
+- (history) By 1900 the brewery was operating unparalleled welfare schemes for its 5,000 employees.
+- (history) By 1907 the welfare schemes were costing the brewery £40,000 a year, which was one-fifth of the total wages bill.
 - (history) Guinness dates from 1759-.
 - (about) Sales in 2011 amounted to 850,000,000 litres (190,000,000 imp gal; 220,000,000 U.S. gal).
 - (about) Since opening in 2000, it has received over 20 million visitors.
 - (origin) Guinness comes from Ireland.
+- (about) Not to be confused with Guinness Brewery.
 
 Learn more:
 
@@ -1446,6 +1688,17 @@ Jamaican pepperpot soup or Jamaican pepperpot is a Jamaican soup of Amerindian o
 
 - From: Jamaica
 
+Fun facts:
+
+- (history) By the 1960s, the introduction of callaloo and its use in the dish had been incorrectly associated with the East Indians, because they were the main cultivators of vegetables by the 1930s, and Indian women were commonly associated with selling callaloo during that period.
+- (origin) Jamaican pepperpot soup is a Creole dish which dates back to pre-Columbian times, originating from the native Arawak/Taíno people.
+- (about) Consequently, they adapted the dish and contributed the use of beef chuck and cured meats like pickled pigtail, salted beef and pork, which are typically used in modern recipes.
+
+More fun facts (when the user asks for more):
+
+- (origin) By the 15th century, the Spaniards colonized Jamaica and introduced cattle, pigs, other livestock and saltfish to the island.
+- (origin) They also introduced other key ingredients including onion, thyme, carrot, garlic and other vegetables and herbs.
+
 Learn more:
 
 - quick: [Jamaican pepperpot soup (Wikipedia)](https://en.wikipedia.org/wiki/Jamaican_pepperpot_soup)
@@ -1500,7 +1753,12 @@ Mala is a numbing and pungent seasoning derived from Sichuan peppercorn and chil
 
 Fun facts:
 
+- (history) The precise origins of the dish are unclear, but many sources attribute its development to night markets in Chongqing that targeted pier workers in the 19th to 20th century.
 - (about) Characteristic of Sichuan cuisine, particularly Chongqing cuisine, it has become one of the most popular and synthesized ingredients in Chinese cuisine.
+- (culture) In the Sichuan and Yunnan provinces mala powder is used on snacks and street foods, such as stinky tofu, fried potatoes, and barbecued meat and vegetables.
+
+More fun facts (when the user asks for more):
+
 - (origin) Mala comes from People's Republic of China.
 
 Learn more:
@@ -1517,6 +1775,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q4544654) (CC0); [Wikipedia: M
 Malta is a lightly carbonated, non-alcoholic malt beverage brewed from barley, hops, and water.
 
 - From: Jamaica
+
+Fun facts:
+
+- (about) Not to be confused with malt beer.
 
 Learn more:
 
@@ -1536,8 +1798,16 @@ Mauby, also known as madi, maví, mobi, mabi and maubi, is a tree bark-based bev
 
 Fun facts:
 
+- (history) A fermented version of mauby was develop using tree bark instead of sweet potato by British colonists in Barbados in the 1700s and 1800s, as a replacement for alcoholic beverages from England.
 - (about) The mauby has been known to cause an initial laxative reaction unexpected to many first-time drinkers.
+- (origin) The current non-alcoholic drink originated from the indigenous Taíno and Carib fermented alcoholic beverage, where it was adopted by European settlers in the Caribbean and shaped from a mixture of indigenous, African, and European influences.
+
+More fun facts (when the user asks for more):
+
+- (history) English colonist and writer Richard Ligon wrote in his memoir in 1657 that Barbados women made mobbie from red sweet potatoes, although sugar plantations within the colony provided a huge supply to combine with the bark.
 - (culture) Mauby was traditionally a fermented beverage made in small batches, but is now predominantly a commercial non-fermented soft drink.
+- (culture) Since before the colonial times, mauby bark, or its tree bark (natives to several West Indies Isles), has been consumed by Caribbean natives for numerous social rituals.
+- (culture) The tree bark was already part of the traditions of the indigenous, and the enslaved Africans' knowledge of plants and their fermentation techniques were further added in the shaping of the current drink.
 
 Learn more:
 
@@ -1645,10 +1915,14 @@ Fun facts:
 
 - (origin) Red Stripe was first introduced in 1928 from a recipe developed by Paul H.
 - (about) Since 2015 Red Stripe has also been brewed in the United Kingdom by Heineken under licence from Desnoes & Geddes.
-- (history) Red Stripe dates from 1928-.
+- (history) Red Stripe was brewed under license in the UK from Desnoes and Geddes by the Bedford-based brewers, Charles Wells from 1976 until 2014, when Diageo made alternative supply arrangements.
 
 More fun facts (when the user asks for more):
 
+- (about) The acquisition of Diageos' stake by Heineken in 2015 subsequently saw the production of Red Stripe return to the United Kingdom.
+- (history) In 1993, 51% ownership in Desnoes & Geddes Limited was purchased by Guinness Brewing Worldwide, now Diageo, an acquisition that significantly increased the international distribution of both Red Stripe and Dragon Stout.
+- (history) Red Stripe dates from 1928-.
+- (history) Red Stripe was first produced in the early 1930s by Galena Brewing Company in Galena, Illinois, US.
 - (origin) Red Stripe comes from Jamaica.
 
 Learn more:
@@ -1673,8 +1947,21 @@ Rum is a liquor made by fermenting and then distilling sugarcane molasses or sug
 Fun facts:
 
 - (inspiration) Rum originated in the Caribbean in the 17th century, where it was likely to have first been created by enslaved people on sugar plantations, but has come to be produced in nearly every major sugar-producing region of the world.
+- (history) Both words surfaced in English about the same time as rum did (1651 for "rumbullion", and before 1654 "rum").
+- (origin) Early fermented sugarcane wines were widespread and have been made for thousands of years in Austronesian Island Southeast Asia, where sugarcane originated.
+
+More fun facts (when the user asks for more):
+
+- (history) There have been various other theories: That it arose from the obsolete British slang adjective "rum", meaning "high quality"; "rum booze" is attested from 1725.
+- (history) That it is related to ramboozle and rumfustian, popular British drinks of the mid-17th century.
+- (history) That it was short for iterum, Latin for "again; a second time." Regardless of the original source, the name was already in common use by 1654, when the General Court of Connecticut ordered the confiscations of "whatsoever Barbados liquors, commonly called rum, kill the devil and the like".
+- (about) Marco Polo recorded a 14th-century account of a "very good wine of sugar(cane)" that was offered to him in the area that became modern-day Iran.
+- (history) A liquid identified as rum has been found in a tin bottle found on the Swedish warship Vasa, which sank in 1628.
 - (history) Rum dates from 1500-.
+- (about) That it came from the large drinking glasses used by Dutch seamen known as rummers, from the Dutch word roemer, a drinking glass.
+- (inspiration) In current usage, the name used for a rum is often based on its place of origin.
 - (origin) Rum comes from Caribbean.
+- (about) Not to be confused with Rum.
 
 Learn more:
 
@@ -1743,8 +2030,18 @@ Tia Maria is a dark coffee liqueur made in Italy using Jamaican coffee beans.
 
 Fun facts:
 
-- (history) Tia Maria dates from 1946-.
+- (history) In 1946, he had, to no avail, tried to get the original recipe from his aunt and subsequently connected with Dr Ken Evans, who then developed the recipe.
+- (about) They partnered with others in Jamaica (Herbert Hart, Eustace Myers of Myers Rum, and Paul Geddes of Desnoes & Geddes) to produce the first five thousand cases, with Blue Mountain coffee supplied by Keble Munn.
 - (origin) Tia Maria comes from Jamaica.
+
+More fun facts (when the user asks for more):
+
+- (history) As recently as the 1980s, Tia Maria was made with an alcohol concentration of 31.5% and positioned as a premium liqueur compared to the substantially different product now produced at 20% ABV.
+- (history) Tia Maria dates from 1946-.
+- (about) Aunt Mary – Tia Maria." Another account of its history says that a man named Dr.
+- (about) As part of a debt reduction programme, Pernod Ricard sold it to ILLVA Saronno in July 2009.
+- (about) As of August 1, 2012, Kobrand became the distributor.
+- (about) Not to be confused with Tia Maria.
 
 Learn more:
 
@@ -1765,9 +2062,14 @@ Ting is a carbonated beverage popular in the Caribbean.
 
 Fun facts:
 
+- (history) Ting was first produced in 1976 by Desnoes & Geddes Limited.
 - (about) Ting is produced in the United Kingdom under license by Refresco Beverages.
-- (history) Ting dates from 1976-.
 - (origin) Ting comes from Jamaica.
+
+More fun facts (when the user asks for more):
+
+- (history) Ting dates from 1976-.
+- (history) With Desnoes and Geddes moving to focus on beer alone, its soft drink facility in Jamaica was acquired in 1999 by PepsiCo affiliate Pepsi-Cola Jamaica, located in Kingston, Jamaica.
 
 Learn more:
 
@@ -1804,6 +2106,12 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q2412544) (CC0); [Wikipedia: T
 Yam is the common name for some plant species in the genus Dioscorea (family Dioscoreaceae) that form edible tubers (some other species in the genus being toxic).
 
 - From: Jamaica
+
+Fun facts:
+
+- (history) Historical records in West Africa and of African yams in Europe date back to the 16th century.
+- (about) In Africa, South and Southeast Asia as well as the tropical Pacific islands Amorphophallus paeoniifolius is grown and known as "elephant foot yam".
+- (culture) Their cultivation and harvesting is accompanied by complex rituals and taboos.
 
 Learn more:
 

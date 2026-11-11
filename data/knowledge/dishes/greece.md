@@ -34,15 +34,23 @@ Ashure, Ashura, عاشورا, aşure, anoushabour, anoushabur, Noah's pudding or
 
 Fun facts:
 
-- (culture) In some Jewish, Christian, and Muslim traditions, a similar dish is prepared to commemorate a child's first tooth, or the passing of a family member.
+- (culture) Rites related with Tammuz, the Babylonian god of wheat and fertility, were recorded as late as the 10th century by an Arab traveler who wrote about boiled wheat among the dishes consumed at a pagan celebration held at Harran.
+- (history) This ancient practice is believed to have influenced the later Egyptian observance of Ashura.
 - (inspiration) Ashure is named after Ashura.
-- (origin) Ashure comes from ancient Near East.
 
 More fun facts (when the user asks for more):
 
+- (culture) In some Jewish, Christian, and Muslim traditions, a similar dish is prepared to commemorate a child's first tooth, or the passing of a family member.
+- (culture) Although they are connected to Abrahamic religious holidays like the tenth day of Muharram, Christmas, Lent, Easter, and Tu BiShvat, as well as occasions like a child's first tooth or a family member's passing, their roots can be traced back to fertility and rebirth rituals used by early farmers in the Near East.
+- (culture) Some historians suggest that ancient Egyptians celebrated a festival related to the sowing of wheat during the late Pyramid Age, which involved preparing dishes from wheat and milk.
+- (culture) The observance of Ashura in Egypt was significantly shaped by the Fatimid Caliphate (909–1171 CE), which established mourning rituals for the martyrdom of Hussein bin Ali on the 10th of Muharram.
+- (history) However, after the Ayyubid rise to power led by Saladin in the 12th century, the day was transformed into a festive occasion.
 - (culture) Armenians make it as a Christmas pudding and for New Year's celebrations, where it is a centerpiece, Sephardic Jews prepare the dish to celebrate the Jewish holiday of Tu BiShvat.
 - (culture) Ashure was traditionally made and eaten during the colder months of the year due to its heavy and calorie rich nature, but now it is enjoyed year-round.
 - (culture) Ashure is traditionally made in large quantities and is distributed to friends, relatives, neighbors, colleagues, classmates, and others, without regard to the recipient's religion or belief system as an offering of peace and love.
+- (culture) Egypt The tradition of preparing a wheat-based dish on a specific day of the year may have pre-Islamic origins in Egypt.
+- (culture) Saladin reportedly ordered his cooks to create a special sweet dish made of wheat, sugar, milk, and nuts to replace the mourning foods associated with the Fatimid era, and it was named " Ashura - عاشورا", thereby establishing the Egyptian tradition of Ashura as a celebratory pudding.
+- (origin) Ashure comes from ancient Near East.
 
 Learn more:
 
@@ -86,8 +94,19 @@ Baklava (, or ) is a layered pastry dessert made of filo pastry, filled with cho
 
 Fun facts:
 
+- (history) Although Ottoman kitchen records document the preparation of baklava at the palace as early as 878 AH (1473–74), its place of origin remains uncertain, as the available records do not establish where or how its modern form developed.
+- (about) Another form of the word is also recorded in Persian, باقلبا (bāqlabā).
+- (origin) The Arabic name بقلاوة baqlāwa originates from Turkish.
+
+More fun facts (when the user asks for more):
+
+- (history) The first known documentation of güllaç is attested in Yinshan Zhengyao, a food and health manual that documents foods of the Mongol Empire, written in 1330 by Hu Sihui, an ethnic Mongol court dietitian of China's Yuan dynasty.
+- (history) The word baklava is first attested in English in 1650, a borrowing from Ottoman Turkish: باقلاوه /bɑːklɑvɑː/.
+- (history) A poem attributed to the 14th-15th century poet Kaygusuz Abdal contains a reference to "two hundred trays of baklava", some filled with almonds and others with lentils.
 - (culture) There are several theories for the origin of this pastry, but it is considered a traditional dessert among the cuisines of countries in West Asia, Southeast Europe, Central Asia, and North Africa.
+- (culture) There are several proposals for the original roots of baklava like the Greek placenta cake, the medieval Arabic confection lauzinaj, and the Central Asian tradition of layered yufka.
 - (origin) Baklava comes from Ottoman Empire.
+- (about) Not to be confused with Balaklava, Baklava.
 
 Learn more:
 
@@ -109,7 +128,15 @@ Basbousa is a sweet, syrup-soaked semolina dessert popular throughout the Middle
 
 Fun facts:
 
+- (history) The Oxford Companion to Food (3rd edition) suggests that basbousa might have developed from a dish called ma'mounia, which was created around the 9th century Abbasid period.
+- (about) This recipe was later adapted to use semolina, with the batter being cooked first and then soaked in syrup.
 - (origin) Basbousa comes from Egypt.
+
+More fun facts (when the user asks for more):
+
+- (history) According to food historian Priscilla Mary Işın, a similar recipe is found in a 13th century Arabic-language cookbook from Al-Andalus, the book notes that the dessert was made in the region of Constantinople, she also notes that Ottoman revani was made by whisking all ingredients together until they became frothy.
+- (about) Basbousa is believed by some derive its name from a colloquial Arabic expression meaning "just a kiss".
+- (history) Chef Arto Der Haroutunian suggested that revani was popularized in Anatolia and the Balkans by the Byzantine Empire.
 
 Learn more:
 
@@ -130,7 +157,12 @@ Bougatsa, bugatsa, bogatsa or boogatsa is a Greek breakfast food (sweet or savou
 
 Fun facts:
 
+- (origin) Its modern version originated in Northern Greece, in particular the cities of Serres and Thessaloniki.
 - (about) Bougatsa has several versions with their own filling, with the most popular the bougatsa krema (bougatsa cream) that has semolina custard filling used as a sweet food and dessert.
+- (about) A similar dessert is still known as placenta on the island of Lesbos in Greece.
+
+More fun facts (when the user asks for more):
+
 - (origin) Bougatsa comes from Greece.
 
 Learn more:
@@ -221,6 +253,10 @@ Fun facts:
 - (about) The dessert became popular across Europe and elsewhere, often losing alcohol as an ingredient along the way.
 - (origin) Chocolate salami comes from Italy, Portugal, Romania.
 
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with tinginys, Hedgehog slice.
+
 Learn more:
 
 - quick: [Chocolate salami (Wikipedia)](https://en.wikipedia.org/wiki/Chocolate_salami)
@@ -237,6 +273,10 @@ Compote or compôte ( KAHM-poht; French for 'stewed fruit') is a dessert origina
 
 - From: Greece
 - Ingredients (Wikidata): fruit, syrup
+
+Fun facts:
+
+- (about) Not to be confused with kompot.
 
 Learn more:
 
@@ -324,8 +364,21 @@ Dolma is a family of stuffed dishes largely associated with Ottoman cuisine.
 
 Fun facts:
 
+- (history) The concept is believed to have been invented in the Ottoman palace kitchens during the 15th century, where Ottoman chefs perfected the stuffing of vegetables.
 - (culture) In 2017, the dolma-making tradition of Azerbaijan was inscribed on the UNESCO Intangible Cultural Heritage Lists.
+- (origin) Although its exact origin is disputed, dolma is mainly associated with an array of stuffed vegetables that originated in Turkey during the Ottoman Empire.
+
+More fun facts (when the user asks for more):
+
+- (history) One of the earliest attestations of the word dolma appears in Thesaurus Linguarum Orientalium, Turcicæ, Arabicæ, Persicæ (1680) by Franciscus a Mesgnien Meninski, where the Ottoman Turkish word طولمه (dolma) is recorded with the Latin definition ripieno ("stuffed" or "filled").
+- (history) Dolma spread as far as Sweden, after the Swedish king Charles XII lost the Battle of Poltava to Russia in 1709, and spent his exiled years in the Ottoman Empire.
+- (origin) Dolma has changed little since Ottoman times, during which recipes for both meat-and-rice fillings, meatless and olive oil-based varieties first appeared.
+- (history) The Oxford Companion to Food argues that the distribution and the name of the dish indicates that dolma belongs to the court cuisine of the Ottoman Empire, where stuffed vegetables were first treated as a regular culinary genre in Istanbul.
+- (origin) The Oxford Companion to Food also notes that, according to some, dolma may have originated in Armenia from where it later spread to Turkey.
+- (history) When he returned to Sweden in 1715 with a taste for stuffed dishes and a retinue of Turkish chefs who created stuffed cabbage rolls, giving birth to the Swedish kåldomar.
 - (about) The leaf-wrapped type can be specifically known as sarma, but colloquially dolma is used for both.
+- (inspiration) Marks notes that they may have been inspired by manti, a type of dumpling found in many Central Asian cuisines.
+- (about) Under centuries of Ottoman rule, dolma spread across territories in the Middle East, the Mediterranean, the Caucasus, and the Balkans, where communities adapted it to local tastes and ingredients, while taking on new names.
 - (origin) Dolma comes from Armenia, Ottoman Empire.
 
 Learn more:
@@ -400,7 +453,15 @@ Fanouropita is a sweet cake recipe from Greek cuisine and is traditionally a len
 
 Fun facts:
 
+- (origin) The tradition of fanouropita originated around 1500 AD, or 1355-1369 AD, to venerate the icon of Saint Fanourios when he was discovered untouched between ruins in Rhodes or Cyprus.
 - (inspiration) Fanouropita is named after Saint Phanourios.
+- (culture) In local Orthodox tradition, Saint Fanourios has been since known as the patron saint of lost objects.
+
+More fun facts (when the user asks for more):
+
+- (about) His mother was known as a cruel sinner, sent to hell because of her shameful life.
+- (culture) According to tradition, it is offered for the forgiveness of Saint Fanourios' mother, a sinful woman who was cruel towards the poor.
+- (culture) In various areas of Greece and Cyprus, the tradition is followed by Orthodox Christians asking Saint Fanourios to "reveal" a job to the unemployed, to salvage an item that was lost, or to give health and find a groom for unmarried girls.
 
 Learn more:
 
@@ -464,6 +525,7 @@ Fileja is a type of pasta typical from the province of Vibo Valentia, Calabria.
 Fun facts:
 
 - (origin) Fileja comes from Italy.
+- (about) Not to be confused with Filia.
 
 Learn more:
 
@@ -484,8 +546,14 @@ Galaktoboureko is a dessert popular in Greece and the eastern Black Sea Region o
 
 Fun facts:
 
+- (origin) Filo, a culinary invention originating in Ancient Greece was adopted by Ottomans during the Ottoman period.
 - (culture) In Albania, it is a dessert sometimes prepared during the Orthodox Easter, although Qumështor, an Albanian custard that includes no filo dough is traditionally preferred.
 - (about) Galaktoboureko is popular in Cyprus as galatopourekko.
+
+More fun facts (when the user asks for more):
+
+- (origin) According to tradition, Galaktoboureko originated in the wealthy Greek areas of West Minor Asia and in particular Smyrna.
+- (culture) The earliest known references to this dessert date back to the Byzantine period, highlighting the historical importance of milk and semolina in ancient Mediterranean culinary traditions.
 - (origin) Galaktoboureko comes from Syria.
 
 Learn more:
@@ -504,6 +572,17 @@ Ghorayeba(h) are shortbread-type biscuits, usually made with ground almonds.
 
 - From: Greece
 - Ingredients (Wikidata): almond meal
+
+Fun facts:
+
+- (history) However, as of 2019, Nişanyan's online dictionary gives the earliest known recorded use in Turkish as the late 17th century, with an origin from the Persian gulābiya, a cookie made with rose water, from gulāb, related to flowers.
+- (about) Among others, linguist Sevan Nişanyan gave an Arabic origin in his 2009 book of Turkish etymology, from ġurayb or ğarîb (exotic).
+- (history) The term kurabiye appears in Ottoman cuisine in the 15th century.
+
+More fun facts (when the user asks for more):
+
+- (history) Proceedings of the 8th International Congress of Orientalists from 1889 described Syrian ghraybe as a type of ma'amoul, shaped into small rings or hexagonal star-like forms, with no nut filling and a high butter content.
+- (history) Food historian Nawal Nasrallah comments that this cookie may have been popular as the recipe has been copied into several medieval cookbooks.
 
 Learn more:
 
@@ -613,7 +692,20 @@ Gyros, sometimes anglicized as a gyro, is a Greek dish consisting of meat cooked
 
 Fun facts:
 
+- (origin) There are several claimants to have introduced the first mass-produced gyros to the United States, all based in the Chicago area in the early 1970s, and of Greek descent.
+- (history) The word gyro or gyros was already in use in American English by at least 1970, and along with γύρος in Greek, came to replace doner kebab for the Greek version of the dish.
+- (about) One of them, Peter Parthenis, has said that the mass-produced gyro was first conceptualized by John and Margaret Garlic; John Garlic was a Jewish car salesman who later ran a restaurant featuring live dolphins.
+
+More fun facts (when the user asks for more):
+
+- (history) Some Greek restaurants in the US continued to use both doner kebab and gyros to refer to the same dish in the 1970s.
+- (history) Grilling a vertical spit of stacked meat and slicing it off as it cooks was developed in the city of Bursa during the 19th century in the Ottoman Empire.
+- (history) After the 1922–23 population exchange between Greece and Turkey, the Greeks of Asia Minor brought their variation with them to Greece.
+- (history) By 1970, gyros wraps were already a popular fast food in Athens, as well as in Chicago and New York City.
 - (culture) In Greece and Cyprus, authentic gyros is traditionally made with pork, though chicken is occasionally used as an alternative.
+- (about) In Athens and other parts of southern Greece, the skewered meat dish elsewhere called souvlaki is known as kalamaki, while souvlaki is a term used generally for gyros, and similar dishes.
+- (origin) It was likely introduced by immigrants from Anatolia and the Middle East.
+- (about) The Greek version is normally made with pork and served with tzatziki, and became known as gyros.
 - (origin) Gyros comes from Greece.
 
 Learn more:
@@ -633,6 +725,19 @@ Halva (also helva, halvah, halwa, halua) is a type of confectionery that is foun
 - From: Greece
 - Ingredients (Wikidata): sugar, flour, oil, semolina, sunflower seed, corn starch, sesame seed
 
+Fun facts:
+
+- (history) The word halva entered the English language between 1840 and 1850 from Romanian, which came from Ottoman Turkish: حلوى, romanized: helva, itself ultimately derived from Arabic: حلاوة, romanized: ḥalwat to Persian: حلوا, romanized: halwā, a sweet confection.
+- (origin) Halva originated in Persia (modern-day Iran).
+- (about) The first proper recipes of halva were documented in the 13th-century Arabic cookbook Kitab al-Tabikh (The Book of Dishes), as well as an anonymous cookbook from 13th-century Al-Andalus.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 7th century in the Arabian Peninsula, the word denoted a paste of dates that had been kneaded with milk.
+- (history) By the 9th century, the term was applied to numerous kinds of sweets, including the now-familiar sweetened cooked semolina or flour paste.
+- (history) A description of sesame-based halwa can be found in an 1844 dictionary by Swedish Orientalist Jacob Berggren.
+- (history) According to Al Adib magazine, a factory for tahini halwa was established as early as 1874 in Beirut.
+
 Learn more:
 
 - quick: [Halva (Wikipedia)](https://en.wikipedia.org/wiki/Halva)
@@ -649,6 +754,12 @@ Kadaif, kadayif, kadayıf, kataifi, kadaifi, katayef or kataïf is a family of M
 
 - From: Greece
 - Ingredients (Wikidata): drinking water, flour
+
+Fun facts:
+
+- (origin) Mary Işın writes that kadayif originated as a griddle cake in medieval Arab cuisine and was transformed in early Ottoman times into pastry threads cooked on a griddle, a form that later spread widely in the Near East.
+- (about) Not to be confused with vermicelli, qatayef.
+- (origin) Kadayif was first made in Middle East.
 
 Learn more:
 
@@ -738,7 +849,12 @@ Khash is a traditional dish made from a boiled cow or sheep parts, which might i
 
 Fun facts:
 
+- (history) The dish, initially called khashoy, is mentioned by a number of medieval Armenian authors, including Grigor Magistros (11th century), Mkhitar Heratsi (12th century), and Yesayi Nchetsi (13th century).
 - (origin) It originates from Armenia and is considered one of the oldest Armenian dishes.
+- (origin) The name khash originates from the Armenian verb, which means "to boil".
+
+More fun facts (when the user asks for more):
+
 - (origin) Khash comes from Iraq.
 
 Learn more:
@@ -785,7 +901,14 @@ Knafeh is a traditional Arab dessert made with kadayif (spun pastry dough) layer
 
 Fun facts:
 
+- (inspiration) The story, which dates in writing as early as the 10th century, is variously said to have occurred in Fatimid Egypt or in the Umayyad Caliphate in Damascus, Syria, where Levantine dessert makers preparing it for Mu'awiya I.
+- (origin) A mid-15th century Ottoman Turkish translation of Muhammad bin Hasan al-Baghdadi's Kitab al-Tabikh added several new contemporary knafeh recipes, but does not specify where they originated.
+- (history) The 13th century cookbook, Kitab al tabikh fi-l-Maghrib wa-l-Andalus (Book of Dishes from Maghreb and Al-Andalus), of unknown authorship, provides a number of recipes for knafeh, which it describes as a pancake dumpling thinner than qatayif prepared on a flat pan.
+
+More fun facts (when the user asks for more):
+
 - (origin) The most common variant in Jordan and Palestine, Knafeh Nabulseyeh, originated in the Palestinian city of Nablus.
+- (origin) However, it does feature a chapter on qatayif, an Arabic pancake dumpling dessert that originated in the Fatamid Empire.
 - (about) Knafeh is popular throughout the Arab world, especially Egypt and the Levant.
 - (origin) Knafeh comes from Middle East.
 
@@ -809,7 +932,13 @@ Kokoretsi or kokoreç is a dish of the Balkans and Anatolia (Asia Minor), consis
 
 Fun facts:
 
+- (inspiration) The Turkish word kokoreç was first attested in Lokanta Esrarı; a short story written in 1920 by the Turkish author Ömer Seyfettin.
+- (about) A dish identical to modern kokoretsi is first attested in the cuisine of the Byzantines.
 - (origin) Kokoretsi comes from Byzantine Empire.
+
+More fun facts (when the user asks for more):
+
+- (about) The author wrote that the first time he heard of kokoreç, was when it was presented to him as a specialty of an Athenian who worked in an Istanbul restaurant; it was described as a Greek dish made from small lamb intestines.
 
 Learn more:
 
@@ -830,8 +959,16 @@ Koliva, also spelled, depending on the language, kollyva, kollyba, kolyvo, or co
 
 Fun facts:
 
+- (origin) The 12th century canonist Theodore Balsamon maintained that koliva as a ritual food practice was originated by Athanasius of Alexandria during the reign of the Emperor Julian the Apostate.
 - (about) It may also be used on first Friday of the Great Lent, at Slavas, or at mnemosyna in the Christmas meal.
+- (culture) In the Ancient Greek panspermia, a mixture of cooked seeds and nuts were offered during the pagan festival of the Anthesteria.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 5th century AD koliva in the sense of boiled wheat, constituted along with raw vegetables the diet of monks who refused to eat bread.
 - (culture) This nutritious snack is popular during holidays and special occasions, such as funerals.
+- (culture) The sense of the ritual food is of a latter period.
+- (culture) The ritual food passed from paganism to early Christianity in Byzantium and later spread to the entire Orthodox world.
 
 Learn more:
 
@@ -960,6 +1097,7 @@ Lakerda is a pickled bonito dish eaten as a mezze in the Balkans and the Middle 
 
 Fun facts:
 
+- (history) The Turkish word lakerda, attested before 1566, is a loan from the Greek.
 - (origin) Lakerda comes from Turkey.
 
 Learn more:
@@ -983,6 +1121,7 @@ Lokma (derived from the 13th century Arab dessert luqmat al-qādi) is a dessert 
 Fun facts:
 
 - (history) Lokma was described as early as the 13th century by al-Baghdadi as luqmat al-qādi, "judge's morsels".
+- (about) Lokma was known as luqmat al-qādi or "judge's morsels" in 13th-century Arabic cookery books, and the word luqma or loqma by itself has come to refer to it.
 - (origin) Lokma comes from Greece, Turkey, Egypt, Iraq, Syria.
 
 Learn more:
@@ -1005,6 +1144,7 @@ Magiritsa is a Greek soup made from lamb offal, associated with the Easter (Pasc
 
 Fun facts:
 
+- (culture) Its role and ingredients result from its association with the roasted lamb traditionally served at the Paschal meal; in its traditional form, magiritsa consists of the offal removed from the lamb before roasting, flavored with seasonings and sauces.
 - (origin) Magiritsa comes from Greece.
 
 Learn more:
@@ -1027,6 +1167,15 @@ A meat pie is a pie baked with pastry with a filling of meat and often other sav
 
 Fun facts:
 
+- (history) Between 1387 and 1400, Geoffrey Chaucer wrote, in The Canterbury Tales, of a cook who "koude rooste, and sethe, and broille, and frye / Máken mortreux, and wel bake a pye".
+- (about) Open-crust pastry (not tops or lids) were known as "traps".
+- (culture) In Canada, on the other hand, both English and French meat pie traditions have persisted, notably the iconic tourtière of French Canada.
+
+More fun facts (when the user asks for more):
+
+- (history) This pastry became a common dish in medieval times, and by the 14th century, came to be called a "pye" or "pie".
+- (history) In 1440, the Paris pastry guild was recognized and started to expand their products—and so something like the modern day crust began to be used.
+- (history) Pies were not popular in the United States until the 1800s, and today most pies in the United States are meatless and sweet, except for pot pie.
 - (origin) Meat pie comes from Italy.
 
 Learn more:
@@ -1044,6 +1193,16 @@ Meringue is a type of dessert or candy, traditionally made from whipped egg whit
 
 - From: Greece
 - Ingredients (Wikidata): sugar, beaten egg whites
+
+Fun facts:
+
+- (origin) The name meringue for this confection first appeared in print in François Massialot's cookbook of 1692.
+- (culture) Meringues were traditionally shaped between two large spoons, as they are generally at home today.
+- (origin) The word meringue first appeared in English in 1706 in a translation of Massialot's book.
+
+More fun facts (when the user asks for more):
+
+- (origin) Meringue piped through a pastry bag was introduced by Antonin Carême.
 
 Learn more:
 
@@ -1065,8 +1224,15 @@ Moussaka (, UK also, US also; see below) is an aubergine (eggplant)- or potato-b
 
 Fun facts:
 
-- (history) The modern Greek variant was created in the 1920s by Nikolaos Tselementes.
+- (history) The word is first attested in English in 1862 in an English language translation of a Turkish cookbook called Melceü't-Tabbâhîn, written mùzàkkà.
 - (origin) Moussaka comes from Greece.
+- (about) Not to be confused with parmigiana, stuffed eggplant.
+
+More fun facts (when the user asks for more):
+
+- (history) Several recipes for it can be found in 19th-century Ottoman Turkish cookbooks, like the 1882 cookbook Ev Kadını, and the 1862 English translation of Melceü't-Tabbâhîn.
+- (history) The modern Greek variant was created in the 1920s by Nikolaos Tselementes.
+- (history) As well an 1893 Arabic cookbook from Egypt.
 
 Learn more:
 
@@ -1088,6 +1254,8 @@ Moustalevria or must jelly (also mustpie and mustcake) is a traditional Greek ki
 
 Fun facts:
 
+- (origin) Moustalevria originated in Ancient Greece where it was known under the name oinouta.
+- (about) Nowadays except from its standard name, moustalevria has alternative names that differ from place to place, e.g., it is also known as kefteria in Crete, kourkouta in Samos, palouzes in Cyprus and mustopita in other regions.
 - (origin) Moustalevria comes from Greece.
 
 Learn more:
@@ -1110,7 +1278,16 @@ Muhallebi, or muhalabiyya, is a milk pudding commonly made with rice, sugar, and
 
 Fun facts:
 
+- (inspiration) According to legend, muhallebi was introduced into Arab cuisine in the late 7th century by a Persian cook from the then Sasanian Empire.
+- (history) There are records from the Ottoman Empire for two versions of muhallebi: a version with shredded chicken (tavuk göğsü) served during the reign of Mehmed the Conqueror, and a later recipe dating to 1530 for a meatless version flavored with rose water.
+- (culture) Sephardim serve it on the festival of Shavuot when it is customary to eat dairy food, but according to food historian Gil Marks, the real reason is that the holiday is known in this community as the "feast of roses" and the dessert has a distinct rosy aroma.
+
+More fun facts (when the user asks for more):
+
+- (history) The earliest recipes, dating to the 10th century, featured three versions: milk thickened with ground rice, milk with rice grains and chicken, and an egg custard without rice.
 - (about) Muhallebi is popular as a dessert in the Middle East.
+- (about) He served it to the Arab general Al-Muhallab ibn Abi Sufra, who liked it so much that he named it after himself.
+- (culture) Muhallebi is also eaten at Turkish Jewish weddings to symbolize the sweet life that lies ahead.
 - (origin) Muhallebi comes from Iran, Levant.
 
 Learn more:
@@ -1134,6 +1311,7 @@ Nettle soup is a soup prepared from stinging nettles.
 Fun facts:
 
 - (about) Today, nettle soup is mostly eaten in Scandinavia, Finland, Iran, Ireland, the United Kingdom, and Eastern Europe, with regional differences in recipe; however historically consumption of nettles was more widespread.
+- (origin) Nettle soup was first made in Eastern Europe.
 - (origin) Nettle soup comes from Turkey.
 
 Learn more:
@@ -1155,13 +1333,24 @@ Nougat refers to a variety of soft, chewy or crunchy confections made from sugar
 
 Fun facts:
 
-- (history) Forms of this confection are first attested in Middle Eastern cookbooks during the Middle Ages, but it was greatly popularized as the French Montélimar nougat in the 19th century.
+- (history) Nougat is first attested in Spain from the 15th century in Enrique de Villena's 1423 Arte Cisoria, a treatise on the use of knives at table.
+- (inspiration) Local legend places the creation of Italian nougat at the festivities marking the marriage of the condottiero Francesco Sforza with the illegitimate daughter of Filippo Visconti, duke of Milan, at Cremona on 25 October 1441, although this seems to be a 20th-century fabrication.
 - (culture) In some places it is an everyday item of confectionary, in others it is associated with particular religious festivals.
-- (about) This brown nougat is usually crunchy, with a softer variant known as Viennese nougat.
 
 More fun facts (when the user asks for more):
 
+- (history) Forms of this confection are first attested in Middle Eastern cookbooks during the Middle Ages, but it was greatly popularized as the French Montélimar nougat in the 19th century.
+- (history) English nougat was borrowed in the early 19th century from French nougat, whose pronunciation /nuɡa/ is approximated in English as (NOO-gah).
+- (history) However, Gerard of Cremona, one of the Toledo School of Translators, may have mentioned an Arabic form of nougat (turun) in one of his medical translations as early as the 12th century and forms of nougat were being produced in southern Italy and across the Venetian Empire by the early modern period.
+- (history) The related confection Halva is attested in Persia by at least the 9th century, but the manufacture of gaz—a soft Iranian form of pistachio nougat further flavored with the sweet honeydew of the plant lice C. astragalicola and rosewater—is only documented since the late 16th century.
+- (about) This brown nougat is usually crunchy, with a softer variant known as Viennese nougat.
+- (history) Cognate words in medieval Catalan and Castilian referred to nutty sauces before being adapted to reference the confection.
+- (about) Venetian nougat, known as mandorlato in Cremona, mandulat in Croatia, mantoláto in Greece, and mandolate in Brazil, similarly takes its name from vulgar development of Latin amygdala ("almond").
+- (culture) Iranian forms—particularly those from the Isfahan region—are known as gaz from its incorporation of psyllid honeydew, traditionally misunderstood as astragalus sap.
+- (about) Nougat was known as nāṭif, derived from the Arabic triliteral root nṭf with the base sense of "dribbling", "trickling", and referencing the paste's viscous mass.
+- (origin) A separate tradition credits Frederick II and his close ties with southern Italy and Sicilian Arabs with having introduced or reintroduced nougat to Cremona, at the time the most loyal imperial city in Lombardy, during his 13th-century campaigns.
 - (origin) Nougat comes from Middle East.
+- (about) Not to be confused with gold nugget, Torrone di Caltanissetta PAT.
 
 Learn more:
 
@@ -1184,13 +1373,24 @@ Olivier salad, also known as Russian salad or Stolichny salad, is a traditional 
 
 Fun facts:
 
+- (culture) The original version of the salad was invented in the 1860s by a cook of French and Belgian origin, Lucien Olivier, the chef of the Hermitage, one of Moscow's most celebrated restaurants.
+- (history) At the turn of the 20th century, one of Olivier's sous-chefs, Ivan Ivanov, attempted to steal the recipe.
 - (inspiration) Olivier salad is named after Lucien Olivier.
-- (about) Olivier salad is popular in the post-Soviet and other Eastern Bloc states around the world.
-- (culture) In Russia and other post-Soviet states, as well as in Russophone communities worldwide, the salad has become one of the main dishes on zakuski tables served during New Year's Eve (Novy God) celebrations.
 
 More fun facts (when the user asks for more):
 
+- (history) Due to the closure of the Hermitage restaurant in 1905, and the Olivier family's subsequent departure from Russia, the salad could now be referred to as "Olivier".
+- (origin) Olivier salad was first made by Lucien Olivier.
+- (about) Olivier salad is popular in the post-Soviet and other Eastern Bloc states around the world.
+- (culture) In Russia and other post-Soviet states, as well as in Russophone communities worldwide, the salad has become one of the main dishes on zakuski tables served during New Year's Eve (Novy God) celebrations.
+- (about) In a few Scandinavian countries (Denmark and Norway), it is called italiensk salat (Italian salad, to acknowledge the popularity of this dish in Northern Italy—where, however, the common name is insalata russa), and in Dutch, it is called huzarensalade (hussars' salad).
+- (about) In Romania, it is known as salata (de) boeuf, which means "beef salad" in French.
+- (about) In France, it is referred to as macédoine de légumes, whereas the Polish version, in which there's usually no meat, is simply known as sałatka jarzynowa, or "vegetable salad".
+- (about) Olivier's salad quickly became immensely popular with Hermitage regulars and became the restaurant's signature dish.
+- (about) Later, Ivanov sold the recipe for the salad to various publishing houses, which further contributed to its popularization.
+- (about) As often happens with gourmet recipes which become popular, the ingredients which were rare, expensive, seasonal, or difficult to prepare were gradually replaced with cheaper and more readily available foods.
 - (origin) Olivier salad comes from Russia, Russian Empire.
+- (about) Not to be confused with potato salad.
 
 Learn more:
 
@@ -1231,6 +1431,7 @@ Pastitsada is a Greek dish of meat braised in a spicy tomato-based sauce and ser
 Fun facts:
 
 - (culture) Often associated with the island of Corfu, where it is a traditional Sunday dinner, it is sometimes called pastitsada Korfiatiki.
+- (inspiration) Pastitsada is based on veal, beef or poultry cooked in fresh or canned tomatoes, olive oil, minced onions, garlic, salt, black pepper, white wine, vinegar, cloves, bay leaf, cinnamon, butter and served over pasta.
 
 Learn more:
 
@@ -1252,6 +1453,8 @@ Pastitsio is a baked pasta dish with ground meat and béchamel sauce from the Io
 
 Fun facts:
 
+- (inspiration) Pastitsio takes its name from the Venetian pasticcio, a large family of baked savory pies that may be based on meat, fish, or pasta, with many documented recipes from the early 16th century, and continuing to modern times.
+- (origin) The word pasticcio is attested by the 16th century as "any manner of pastie or pye" and comes from the vulgar Latin word pastīcium derived from pasta, and means "pie", and has developed the figurative meanings of "a mess", "a tough situation", or a pastiche.
 - (origin) Pastitsio comes from Greece.
 
 Learn more:
@@ -1273,6 +1476,8 @@ Paximathia, also spelt paximadia (plural), or paximadi/paximathi (singular), is 
 
 Fun facts:
 
+- (about) The word first appears in a recipe for laxative biscuits composed by the Greek physician Galen.
+- (culture) Paximadia were traditionally consumed by Greek farmers, as well as the Byzantine military and thrifty priests.
 - (origin) Paximathia comes from Greece.
 
 Learn more:
@@ -1294,9 +1499,14 @@ Pirozhki is the Russian name for baked or fried yeast-leavened boat-shaped buns 
 
 Fun facts:
 
+- (origin) Pirozhki was first made in Eastern Europe.
 - (culture) Pirozhki are a popular street food and comfort food.
 - (about) They are especially popular in countries with large ethnic Russian communities, and may also be found in other parts of the world.
+
+More fun facts (when the user asks for more):
+
 - (origin) Pirozhki comes from Eastern Europe.
+- (about) Not to be confused with pirog.
 
 Learn more:
 
@@ -1352,6 +1562,19 @@ Raisin bread or fruit bread,which has been known as "bug bread" is a type of bre
 - From: Greece
 - Ingredients (Wikidata): raisin, grain
 
+Fun facts:
+
+- (history) Its invention has been popularly incorrectly attributed to Henry David Thoreau in Concord, Massachusetts lore, as there have been published recipes for bread with raisins since 1671.
+- (about) Raisin bread was around this time the bread was nick-named "bug bread" as there were weevils in the flour used to make it in many poor families.
+- (history) Since the 15th century, breads made with raisins were made in Europe.
+
+More fun facts (when the user asks for more):
+
+- (history) The earliest citation for "raisin bread" in the Oxford English Dictionary is dated to an 1845 article in Blackwood's Edinburgh Magazine.
+- (history) In England, raisin bread became a common element of high tea from the second half of the 19th century.
+- (history) In the 1920s, raisin bread was advertised as "The Bread Of Iron", due to the high iron content of the raisins.
+- (history) The bread became increasingly popular among English bakers in the 1960s.
+
 Learn more:
 
 - quick: [Raisin bread (Wikipedia)](https://en.wikipedia.org/wiki/Raisin_bread)
@@ -1372,7 +1595,9 @@ In Greek cuisine, saganaki is any one of a variety of dishes prepared in a small
 
 Fun facts:
 
+- (inspiration) The dishes are named for the frying pan in which they are prepared, called a σαγανάκι (saganáki), which is a diminutive of σαγάνι (sagáni), a frying pan with two handles, which comes from the Turkish word sahan 'copper dish', itself borrowed from Arabic صحن.
 - (origin) Saganaki comes from Greece.
+- (about) Not to be confused with Nagasaki.
 
 Learn more:
 
@@ -1394,6 +1619,7 @@ Savory spinach pie is a pastry eaten throughout Greece, Bosnia and Herzegovina, 
 
 Fun facts:
 
+- (origin) Savory spinach pie was first made in Balkans.
 - (origin) Savory spinach pie comes from Greece.
 
 Learn more:
@@ -1435,8 +1661,22 @@ Simit or koulouri is a circular bread, typically encrusted with sesame seeds or,
 
 Fun facts:
 
+- (history) The kollikion was first mentioned in the 9th century by Constantine VII Porphyrogennitos, who describes it as a small ring-shaped bread, sold in Constantinople.
+- (about) The earliest Ottoman records call it simid-i halka 'round simit'.
+- (inspiration) Other names are based on the Byzantine Greek kollikion, or Ancient Greek kollyra, or modern Greek koulouri.
+
+More fun facts (when the user asks for more):
+
+- (history) Simit has been produced in Istanbul since 1525.
+- (history) In Üsküdar in 1593, the weight and price of simit was standardized.
+- (history) The 17th-century traveler Evliya Çelebi wrote that there were 70 simit bakeries in Istanbul during the 1630s.
 - (about) In İzmir, simit is known as gevrek ("crisp"), although it is very similar to the Istanbul variety.
+- (about) In Judaeo-Spanish it is known as roskas turkas.
+- (about) In English, it is known as Turkish bagel, rosca, or koulouri.
+- (history) Simit has its origins in the Byzantine Empire, where it was known as boukellon or kollikion.
+- (about) Byzantine authors describe it as a ring-shaped bread, made from barley or wheat flour and popular among the army.
 - (origin) Simit comes from Egypt.
+- (about) Not to be confused with Semitic people.
 
 Learn more:
 
@@ -1529,6 +1769,7 @@ Spanakorizo is a Greek vegetarian dish of spinach and rice.
 
 Fun facts:
 
+- (origin) Spanakorizo was first made in Balkans.
 - (origin) Spanakorizo comes from Greece.
 
 Learn more:
@@ -1552,7 +1793,12 @@ A stew is a combination of solid food ingredients that have been cooked in liqui
 Fun facts:
 
 - (culture) Stew is very prominent in England, with beef stew and dumplings having been one of England's national dishes in the 14th century.
+- (history) There are recipes for pork stews and fish stews in the Roman cookery book Apicius, believed to date from the 4th century AD.
 - (about) This makes it popular for low-cost cooking.
+
+More fun facts (when the user asks for more):
+
+- (history) Le Viandier, one of the oldest cookbooks in French, written in the early 14th century by the French chef known as Taillevent, has ragouts or stews of various types in it.
 - (origin) Stew comes from France.
 
 Learn more:
@@ -1599,8 +1845,13 @@ Stuffed leaves—more commonly known by its sub-types stuffed grape leaves, stuf
 
 Fun facts:
 
+- (origin) Although the exact origins of dishes made by stuffing vegetables and leaves are not known for certain, sarma originated in the Ottoman cuisine and reached its most significant historical form within that culinary tradition.
 - (history) Since the Ottoman Empire's dissolution, its popularity persists in Turkish, Romanian, Moldovan, Bulgarian, Serbian, Hungarian, Bosnian, Croatian, Kosovan, Albanian, Montenegrin, Slovenian, Macedonian, Greek, Armenian, Uzbek, Persian, Iraqi, Levantine, Egyptian, Indian and Bengali cuisines.
 - (about) Wrapped leaf dishes are part of the broader category of stuffed dishes known as dolma, and they have equivalents (such as the Polish gołąbki) in other Central and Eastern European cuisines from the Baltic states through Slovakia.
+
+More fun facts (when the user asks for more):
+
+- (about) Similarly, in other languages it is known as yalançı dolma (Azerbaijani), yalanchi or yalanchy sarma (Armenian).
 - (origin) Stuffed leaves comes from Greece, Cyprus, Ottoman Empire.
 
 Learn more:
@@ -1618,6 +1869,10 @@ Stuffed peppers is a dish common in many cuisines.
 
 - From: Greece
 - Ingredients (Wikidata): Capsicum, minced meat
+
+Fun facts:
+
+- (about) Not to be confused with ardei umpluţi.
 
 Learn more:
 
@@ -1660,8 +1915,14 @@ Taramasalata or tarama, also known as salată de icre, is a meze made from a sal
 
 Fun facts:
 
+- (history) By the late 19th century, tarama was recorded among the meals and appetizers (meze) sold in the meyhane culture of Istanbul.
 - (about) In Greece, taramasalata is often served on Clean Monday, the first day of Great Lent, with onions and lemon.
+- (culture) While taramasalata was traditionally prepared with the roe of various fish, such as gray mullet, cod, and shad, it became primarily made from carp roe after Sephardic Jewish merchants popularized carp in the Balkans during the 16th century.
+
+More fun facts (when the user asks for more):
+
 - (culture) Traditionally the dish is made with a pestle and mortar, giving a slightly grainy texture, but commercial taramasalata is usually very smooth.
+- (inspiration) Based on etymological grounds, American food writer and historian Gil Marks points to a Turkish origin for the dish.
 - (origin) Taramasalata comes from Greece, Turkey.
 
 Learn more:
@@ -1706,6 +1967,8 @@ Tiropita or tyropita is a Greek pastry made with layers of buttered phyllo and f
 
 Fun facts:
 
+- (culture) A recipe in Greek tradition recorded in Cato the Elder's De Agri Cultura (160 BC) describes placenta as a sweet layered cheese dish: Shape the placenta as follows: place a single row of tracta along the whole length of the base dough.
+- (origin) Tiropita was first made in Balkans.
 - (origin) Tiropita comes from Greece.
 
 Learn more:
@@ -1724,6 +1987,16 @@ Tomato soup is a soup with tomatoes as the primary ingredient.
 
 - From: Greece
 - Ingredients (Wikidata): tomato
+
+Fun facts:
+
+- (about) The first published recipe for tomato soup appeared in N.
+- (history) Eliza Leslie's tomato soup recipe featured in New Cookery Book in 1857 popularized the dish.
+- (inspiration) The soup is often based on rosół that was cooked a few days earlier and has not been eaten.
+
+More fun facts (when the user asks for more):
+
+- (about) This way of cooking tomato soup and its popularity became an inside joke amongst Poles.
 
 Learn more:
 
@@ -1784,7 +2057,14 @@ Tulumba, tolomba, balah ash-shaam, or bamiyeh is a deep-fried dessert found in E
 Fun facts:
 
 - (about) Tulumba is first deep-fried to golden colour and then sugar-sweet syrup is poured over it when still hot.
+- (history) Tulumba in its modern form was likely influenced by medieval Arab cuisine; books like Kitab al-Tabikh by 10th century author Ibn Sayyar al-Warraq mention similar dishes like zalabiyeh.
 - (origin) Tulumba comes from Egypt.
+
+More fun facts (when the user asks for more):
+
+- (history) According to food historian Priscilla Mary Işın, the oldest recipes dates back to 1900, credited to Mahmud Nedim.
+- (about) In Persian cuisine, it is known as bamiyeh, after the vegetable of the same Persian name (okra), due to its shape.
+- (about) In Iraqi cuisine it is known as datli, directly coming from Turkish word tatlı.
 
 Learn more:
 
@@ -1805,8 +2085,21 @@ Turkish delight, lokum () or loqum () is a family of confections based on a gel 
 
 Fun facts:
 
+- (inspiration) The commercial product known as rahatül-hulkum, known from the 17th century, is understood to have been named after the sound similarity: latilokum > lokum.
+- (history) Turkish delight features as the enchanted confection the White Witch uses to gain the loyalty of Edmund Pevensie in The Lion, the Witch and the Wardrobe (1950) by C.
+- (culture) Similarly, during religious festivals like Eid al-Fitr and Eid al-Adha, it is exchanged as gifts among family and friends.
+
+More fun facts (when the user asks for more):
+
 - (culture) Premium varieties consist largely of chopped dates, pistachios, hazelnuts or walnuts bound by the gel; traditional varieties are often flavored with rosewater, mastic gum, bergamot orange, or lemon.
+- (about) Although it is called "malban" in some regions, "malban" may also refer to other similar desserts, such as a type of grape fruit leather made with semolina and grape juice popular in the Levant.
+- (about) In the Indian subcontinent, a variant of it is known as Karachi halwa or Bombay halwa.
+- (about) In English, it was formerly alternatively known as "lumps of delight".
+- (culture) It symbolizes hospitality, generosity, and celebration.
+- (culture) In Turkey, lokum is a staple during festive occasions such as weddings, where it symbolizes sweetness and prosperity in the couples' life together.
+- (culture) In Greece, loukoumi is a symbol of hospitality and refinement.
 - (origin) Turkish delight comes from Ottoman Empire.
+- (about) Not to be confused with Turks Fruit.
 
 Learn more:
 
@@ -1828,6 +2121,16 @@ Tzatziki, also known as cacık or tarator, is a class of dip, soup, or sauce fou
 
 Fun facts:
 
+- (history) The modern term cacık was mentioned in print for the first time in 1844 in Hoca Kâmil Pasha's Melceü't-Tabbâhîn (The Sanctuary of Cooks), the first Ottoman cookbook, in which the basic description is given as "yogurt with cucumber and garlic" (hıyar ve sarmısaklı yoğurt).
+- (origin) The word tzatziki appeared in English around the mid-20th century as a loanword from Modern Greek, which in turn comes from the Turkish word cacık.
+- (about) The first use of this word in the sense of sauce was in Seyahatnâme.
+
+More fun facts (when the user asks for more):
+
+- (history) The earliest known recipe for tzatziki dates back to the medieval period, first appearing in the 10th century as jājaq in the Abbasid-era Baghdadi cookbook Kitab al-Tabikh, compiled by Ibn Sayyār al-Warrāq.
+- (history) Evliya Çelebi's 1665 travelogue, the Seyahatnâme, defined cacıχ (cacıg) as a kind of herb that is added to food.
+- (culture) During the Ottoman Empire, yogurt-based condiments were integral to Ottoman cuisine and the meze tradition, including tzatziki, which, according to the food writer Marianna Yerasimos, reflect earlier Central Asian origins.
+- (about) In Anatolia, however, the version made with yogurt, cucumber, garlic, and sometimes walnuts became known as cacık.
 - (origin) Tzatziki comes from Greece.
 
 Learn more:
@@ -1850,8 +2153,12 @@ Türlü is a Turkish casserole made of stewed vegetables that may also include s
 
 Fun facts:
 
+- (history) According to the food historian Priscilla Mary Işın, the oldest türlü recipe dates back to the 18th century.
 - (about) In particular, it is known as turli perimesh or simply turli in Albania, tourlou in Greece, and turli tava in North Macedonia.
 - (culture) The Macedonian version, turli tava, is traditionally made in a similar earthenware cooking pot, called tava.
+
+More fun facts (when the user asks for more):
+
 - (origin) Türlü comes from Turkey.
 
 Learn more:
@@ -1873,14 +2180,25 @@ Vasilopita (Greek: Βασιλόπιτα, Vasilópita, lit. '(St.) Basil-pie' or 
 
 Fun facts:
 
-- (culture) Vasilopita is associated with Saint Basil's day, 1 January, in most of Greece, but in some regions, the traditions surrounding a cake or pita with a hidden coin are attached to Epiphany or to Christmas.
-- (about) The pie is also known as Chronópita, meaning "New Year's pie".
-- (origin) Vasilopita comes from Greece.
+- (culture) Margaret Hasluck (1927) disputes the historicity of the Greek folk tradition of celebrating the feast day of St.
+- (about) She proposes that the translation "cake of the king" (from basileus) is as accurate as the translation "cake of basil", a claim that she says is supported by the similarity in customs of the hidden coin and the hidden bean.
+- (inspiration) Nonetheless, in popular tradition, vasilopita is associated with a legend of Basil of Caesarea.
 
 More fun facts (when the user asks for more):
 
+- (culture) Hasluck notes that no document mentions the basilopita, although Gregory of Nyssa confirms the festival of Basil was one of the feast days that succeeded Christmas in his time: After [Christmas] the spiritual dance was opened by apostles and prophets...These are Stephen, Peter, James, John, and Paul.
+- (culture) She refers to Larousse Gastronomique's description of the fève custom referring to the gateau des rois (popularly known as king cake in English) associated in present times with the Christian holiday of Epiphany celebrated on the "Twelfth Night" after Christmas.
+- (about) In some tellings, the sieging tribal chief is replaced with an evil emperor levying a tax or simply with Basil attempting to give charity to the poor without embarrassing them.
+- (origin) The name "βασιλόπιτα" comes from βασιλεύς 'king' + πίτα 'cake', but was reinterpreted as "Basil's cake".
+- (culture) Vasilopita is associated with Saint Basil's day, 1 January, in most of Greece, but in some regions, the traditions surrounding a cake or pita with a hidden coin are attached to Epiphany or to Christmas.
 - (culture) Vasilopita is made of a variety of dough, depending on regional and family tradition, including tsoureki.
+- (about) The pie is also known as Chronópita, meaning "New Year's pie".
 - (culture) In other areas of the Balkans, the tradition of cake with a hidden coin during winter holidays exists, but is not associated with Saint Basil at all.
+- (inspiration) She says the popular belief is based on a "false etymology".
+- (culture) Hasluck arrives at this conclusion by comparing the traditions of Greek-speaking communities with the western European celebrations of the Twelfth Night and Epiphany.
+- (culture) Hasluck speculates that the etymology connecting the tradition to Basil's feast day is erroneous.
+- (origin) Vasilopita comes from Greece.
+- (about) Not to be confused with Velociraptor.
 
 Learn more:
 
@@ -1962,6 +2280,8 @@ Basmati is a variety of long, slender-grained aromatic rice which originates fro
 
 Fun facts:
 
+- (about) Basmati rice is believed to have been cultivated in the Indian subcontinent for centuries.
+- (history) The earliest mention of basmati rice was made in the epic Heer Ranjha composed by the Punjabi poet, Waris Shah in 1766.
 - (about) As of 2019, India accounted for 65% of the international trade in basmati rice, while Pakistan accounted for the remaining 35%.
 
 Learn more:
@@ -1984,12 +2304,22 @@ Commandaria Greek: κουμανδαρία, κουμανταρία is an amber-co
 
 Fun facts:
 
-- (history) It represents an ancient wine style documented in Cyprus back to 800 BCE and has the distinction of being the world's oldest named wine still in production, with the name Commandaria dating back to the crusades in the 12th century.
-- (culture) In December 2025, Commandaria was inscribed on UNESCO’s Representative List of the Intangible Cultural Heritage of Humanity, a recognition tied to the wine’s continuing production traditions in the 14 Commandaria villages.
-- (origin) Commandaria comes from Cyprus.
+- (culture) During the crusades, Commandaria was served at the 12th-century wedding of King Richard the Lionheart to Berengaria of Navarre, in the town of Limassol; it was during the wedding that King Richard pronounced Commandaria "the wine of kings and the king of wines".
+- (inspiration) Legend has it that in the 13th century Philip Augustus of France held the first ever wine tasting competition.
+- (history) In 1863, Thomas George Shaw in his book Wine, the vine, and the cellar refers to this wine as Commanderi whilst in 1879, Samuel Baker refers to it as Commanderia.
 
 More fun facts (when the user asks for more):
 
+- (history) La Bataille des Vins), was recorded in a notable French poem written by Henry d'Andeli in 1224.
+- (history) It represents an ancient wine style documented in Cyprus back to 800 BCE and has the distinction of being the world's oldest named wine still in production, with the name Commandaria dating back to the crusades in the 12th century.
+- (culture) In December 2025, Commandaria was inscribed on UNESCO’s Representative List of the Intangible Cultural Heritage of Humanity, a recognition tied to the wine’s continuing production traditions in the 14 Commandaria villages.
+- (culture) The wine has a long history, said to date back to the time of the ancient Greeks, when it was a popular drink at festivals.
+- (about) A dried grape wine from Cyprus was first known to be described in 800 BCE by the Greek poet Hesiod and was known much later as the Cypriot Manna.
+- (history) In 1833 Cyrus Redding in his book "A history and description of modern wines" makes reference to the wine of the "Commandery".
+- (about) The competition which included wines from all over Europe and France, was won by a sweet wine from Cyprus widely believed to be Commandaria.
+- (about) This area under the control of the Knights Templar (and subsequently the Knights Hospitaller) became known as Commandaria.
+- (about) Thus it has the distinction of being the world's oldest named wine still in production.
+- (origin) Commandaria comes from Cyprus.
 - (about) Commandaria dates from 2004-.
 
 Learn more:
@@ -2027,8 +2357,16 @@ Dried fruit is fruit from which the majority of the original water content has b
 Fun facts:
 
 - (history) In the 21st century, dried fruit consumption is widespread worldwide.
+- (origin) This tradition originates from the practice of eating fruits from the Land of Israel/Palestine, particularly the Seven Species, such as grapes, dates, and figs.
 - (culture) Dried fruit has a long tradition of use dating to the fourth millennium BC in Mesopotamia, and is valued for its sweet taste, nutritional content, and long shelf life.
+
+More fun facts (when the user asks for more):
+
+- (history) Before the 20th century, most Jews lived in Europe, where, without modern technology, obtaining these fruits fresh was impossible, so they were typically consumed in their dried form.
 - (culture) These are referred to as "conventional" or "traditional" dried fruits: fruits that have been dried in the sun or in commercial dryers.
+- (culture) Traditional dried fruits such as raisins, figs, dates, apricots, and apples have been a staple of Mediterranean diets for millennia.
+- (about) This is due partly to their early cultivation in the Middle Eastern region known as the Fertile Crescent, made up of parts of modern Iran, Iraq, southwest Turkey, Syria, Lebanon, Palestine, and northern Egypt.
+- (about) Not to be confused with nut, dry fruit.
 
 Learn more:
 
@@ -2049,13 +2387,18 @@ Feta is a Greek white brined cheese made from sheep's milk or from a mixture of 
 
 Fun facts:
 
+- (history) The first unambiguous documentation of preserving cheese in brine appears in Cato the Elder's De Agri Cultura (2nd century BC), though the practice was surely much older.
+- (culture) Not to be confused with FETA - International Street and Open-Air Theatres Festival.
 - (about) Since 2002, feta has been a protected designation of origin (PDO) in the European Union.
-- (culture) EU legislation and similar legislation in 25 other countries limits the name feta to cheeses produced in the traditional way in mainland Greece and Lesbos Prefecture, which are made from sheep milk, or from a mixture of sheep milk and up to 30% goat milk from the same area.
-- (origin) Feta comes from Greece.
 
 More fun facts (when the user asks for more):
 
+- (history) Feta cheese, specifically, is recorded by Psellos in the 11th century under the name prósphatos, and was produced by Cretans.
+- (history) In Greece, the earliest documented reference to cheese production dates back to the 8th century BC and the technology used to make cheese from sheep-goat milk is similar to the technology used by Greek shepherds today to produce feta.
+- (history) In the late 15th century, an Italian visitor to Candia, Pietro Casola, describes the marketing of feta, as well as its storage in brine.
+- (culture) EU legislation and similar legislation in 25 other countries limits the name feta to cheeses produced in the traditional way in mainland Greece and Lesbos Prefecture, which are made from sheep milk, or from a mixture of sheep milk and up to 30% goat milk from the same area.
 - (culture) Similar white brined cheeses are made traditionally in the Balkans, Cyprus, around the Black Sea, and in West Asia.
+- (origin) Feta comes from Greece.
 
 Learn more:
 
@@ -2076,7 +2419,16 @@ Filo or yufka is a very thin unleavened pastry dough used for making baked goods
 
 Fun facts:
 
+- (history) Modern filo was invented in the palace kitchens of Istanbul during the Ottoman Empire, when Ottoman pastry chefs perfected a method for stretching sheets of dough into extreme thinness by the 15th century.
+- (about) According to The Washington Post, some credit the Greeks, saying that it was first mentioned as a bread and walnut sweet in Homer's Odyssey, written around 800 BC.
+- (culture) Filo is argued that traditional yufka served as the base for the paper-thin refinements perfected by Ottoman pastry chefs.
+
+More fun facts (when the user asks for more):
+
 - (history) The paper-thin form of modern filo was developed in the Ottoman Empire by the 15th century.
+- (history) The earliest known use of filo is from the American newspaper Atlanta Constitution in 1946.
+- (history) The word yufka was initially used as a thin physical descriptor, where its earliest mention dates back to the 7th century, when the Chinese Buddhist monk and scholar Xuanzang defined az yuka as "scanty and meagre".
+- (history) By the 8th century, the term appeared in the Tonyukuk inscriptions.
 
 Learn more:
 
@@ -2139,12 +2491,17 @@ A frappé coffee, cold coffee, Greek frappé, or just frappé is a Greek iced co
 Fun facts:
 
 - (history) The frappé was invented in 1957 in Thessaloniki through experimentation by Dimitris Vakondios, a Nescafe representative.
+- (inspiration) Nikos Bakounakis was the first to express doubts about this story in 2006, and further evidence was later presented by the magazine Gastronomos in 2013.
 - (about) Frappés are among the most popular forms of coffee in Greece and Cyprus and have become a hallmark of postwar outdoor Greek coffee culture.
-- (origin) Frappé coffee comes from Greece.
 
 More fun facts (when the user asks for more):
 
 - (history) Greek Christos Lenzos (1930–2023), a coffeehouse (1964–2013) owner in Pangrati, has been recognized for his self-made version of Greek frappé coffee.
+- (history) Frappé coffee has been said that the Greek version of café frappé, using instant coffee, was invented in 1957 at the Thessaloniki International Fair.
+- (history) Beginning in the 19th century, a variety of cold coffee drinks named café frappé (à la glace) are documented, some similar to slushies and others more like iced coffee.
+- (inspiration) Based on Nestlé’s newspaper advertisements from the period leading up to the 1957 Thessaloniki International Trade Fair, it appears that the product was already being promoted as "Nescafé frappe", either as coffee with ice cubes or as an iced shaken—as suggested by its name (frappé = shaken)—or stirred drink.
+- (about) Vakondios' improvised experiment is thought to have established the frappé which quickly grew in popularity in Greece.
+- (origin) Frappé coffee comes from Greece.
 
 Learn more:
 
@@ -2182,15 +2539,25 @@ Gin () is a distilled alcoholic drink flavoured with juniper berries and other b
 
 Fun facts:
 
+- (history) The first recorded mention of genever as a distilled beverage flavored with juniper appears in the 16th century, in Philippus Hermanni's Antwerp-published Een Constelijck Distileerboec.
 - (origin) Gin originated as a medicinal liquor made by monks and alchemists in the 12th Century in Salerno, Italy.
-- (history) Gin emerged as the national alcoholic drink of England during the Gin Craze of 1695–1735.
-- (inspiration) Gin is named after jenever.
+- (culture) The Schola Medica Salernitana, based in Salerno and founded in the 9th century, drew on Arabic and Greek medical traditions and was a leading centre of medical knowledge in Western Europe between the 10th and 13th centuries.
 
 More fun facts (when the user asks for more):
 
+- (history) Gin emerged as the national alcoholic drink of England during the Gin Craze of 1695–1735.
+- (history) Medicinal precursor (Salerno, Italy, ~11th–12th century).
+- (history) A recipe compiled around 1055 under that name includes a juniper-infused tonic wine, made by Benedictine monks using distilling knowledge that had moved into Europe via the Moors' rule of Sicily.
+- (history) Genever is the direct ancestor (Low Countries, 13th–16th century).
+- (history) Belgium's National Jenever museum in Hasselt credits Flanders in the 13th century as where jenever was created.
+- (history) By the mid-17th century, numerous small Dutch and Flemish distillers were popularizing the redistillation of malt wine with juniper and other botanicals to mask poor taste and treat ailments like kidney and stomach complaints.
+- (history) Anglicisation (England, late 17th century onward).
+- (history) The earliest traces of wine distillates infused with herbs date to the 12th century in Italy, documented in the Compendium Salernitanum of the Schola Medica Salernitana.
+- (inspiration) Gin is named after jenever.
 - (history) Although this development had been taking place since the early 17th century, gin became widespread after the 1688 Glorious Revolution led by William of Orange and subsequent import restrictions on French brandy.
 - (about) Gin became popular in England after the introduction of jenever, a Dutch and Belgian liquor.
 - (culture) Gin is also used as a base spirit to produce flavoured, gin-based liqueurs, for example sloe gin, traditionally produced by the addition of fruit, flavourings and sugar.
+- (about) Not to be confused with Gin people, Jin.
 
 Learn more:
 
@@ -2207,6 +2574,12 @@ Grape syrup is a condiment made with concentrated grape juice.
 
 - From: Greece
 - Ingredients (Wikidata): Pelargonium graveolens, must
+
+Fun facts:
+
+- (history) In Turkey, it is known as pekmez, a word recorded in the 1073 dictionary Dīwān Lughāt al-Turk by Mahmud al-Kashgari.
+- (origin) The word comes from the Persian petmez, which usually refers to grape syrup, but is also used to refer to mulberry syrup, which is especially popular in Armenia, and other fruit syrups.
+- (about) In Armenia, Iran, Azerbaijan and more West Asian countries, this grape syrup is known as doshab, and in Palestine, it is dibs or dibes.
 
 Learn more:
 
@@ -2248,8 +2621,16 @@ Greece is one of the oldest wine-producing regions in the world and among the fi
 
 Fun facts:
 
-- (history) Greek wine dates from 1976-.
+- (history) Greece's first Cabernet Sauvignon vineyard was planted in 1963.
 - (about) The Greek wine production reached 1.65 million hectoliters in the 2025-26 season.
+- (origin) The Ancient Greeks introduced vines such as Vitis vinifera and made wine in their numerous colonies in Italy, Sicily, southern France, and Spain.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1971 and 1972, legislation established appellation laws.
+- (history) In 1937, a Wine Institute was established by the Ministry of Agriculture.
+- (history) During the 1960s, retsina suddenly became the national beverage.
+- (history) Greek wine dates from 1976-.
 
 Learn more:
 
@@ -2270,7 +2651,16 @@ Ground meat, called mince or minced meat outside North America, is meat that has
 
 Fun facts:
 
+- (about) Mechanical grinding is generally credited to the German inventor Karl Drais, whose inventions included a meat grinder in addition to his better-known bicycle precursor.
+- (history) Minced preparations appear in the Roman cookbook attributed to Apicius (compiled in late antiquity, probably the 4th or 5th century AD), which has a section on minced dishes called isicia.
 - (culture) In the United States, ground beef makes up a large share of all beef consumed, and it is a traditional way of using trimmings from other cuts.
+
+More fun facts (when the user asks for more):
+
+- (history) By the late 19th century, chopped beefsteak was known in the United States as "Hamburg steak", and American cookbooks often called such recipes "Beefsteak à la Hamburg".
+- (history) The physician James Henry Salisbury recommended broiled cakes of scraped lean beef for ill patients in his book The Relation of Alimentation and Disease (1888); as scraping was laborious, common recipes simply called for grinding the meat, and "Salisbury steak" became another name for a cooked ground-beef patty.
+- (origin) Many food historians trace the meatball to the Persian kofta; the dish was introduced to Arab cultures and spread from there to other regions.
+- (about) Not to be confused with mincemeat.
 
 Learn more:
 
@@ -2310,6 +2700,16 @@ Iced coffee is coffee served cold.
 - From: Greece
 - Ingredients (Wikidata): coffee, ice
 
+Fun facts:
+
+- (origin) Mazagran, a cold, sweetened coffee beverage that originated in Algeria around 1840, has been described by locals as "the original iced coffee".
+- (history) Frozen coffee beverages, similar to slush, are documented in the 19th century.
+- (history) The Italian granita al caffè is a similar beverage. "Iced coffee"—coffee that has been brewed and then chilled with ice—appeared in menus and recipes in the late 19th century.
+
+More fun facts (when the user asks for more):
+
+- (history) Iced coffee was popularized by a marketing campaign of the Joint Coffee Trade Publicity Committee of the United States in 1920.
+
 Learn more:
 
 - quick: [Iced coffee (Wikipedia)](https://en.wikipedia.org/wiki/Iced_coffee)
@@ -2332,6 +2732,10 @@ Fun facts:
 - (about) The explanation is that the lack of use of rennet during its invention by the Jews of Kırkkilise (modern Kırklareli, Turkey) made the cheese fit for the requirements of the Jewish law.
 - (culture) Assyrians use Kasseri cheese to make a traditional Assyrian cheese dish, called gupta tomirta, that is topped with cumin and sometimes other seasonings.
 - (origin) Kasseri comes from Greece.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Kaseri.
 
 Learn more:
 
@@ -2428,6 +2832,16 @@ Kosher salt or kitchen salt (also called cooking salt, rock salt, kashering salt
 
 - From: Greece
 
+Fun facts:
+
+- (history) The popularity of kosher salt in cooking began in the US during the 1980s with professional chefs, who preferred kosher salt because its coarser grains are easier to pick up and distribute with the fingers than table salt.
+- (about) In cooking recipes published in the United States since about 2010, kosher salt has largely replaced the more fine-grained table salt as the kind of salt called for.
+- (history) In the 1990s, the Food Network television channel popularized kosher salt for home cooking.
+
+More fun facts (when the user asks for more):
+
+- (about) Another trend that made kosher salt more popular among nonprofessional cooks was recipes being increasingly published on the Internet, such as in blogs, where readers could interact with the authors through comments and often demanded more specific instructions than "salt to taste".
+
 Learn more:
 
 - quick: [Kosher salt (Wikipedia)](https://en.wikipedia.org/wiki/Kosher_salt)
@@ -2442,6 +2856,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q4116639) (CC0); [Wikipedia: K
 Kumquats ( KUM-kwot), sometimes spelled cumquat, are a group of small, angiosperm, fruit-bearing trees in the family Rutaceae.
 
 - From: Greece
+
+Fun facts:
+
+- (history) The first historical reference to kumquats appears in literature of China from at least the 12th century.
+- (origin) They were introduced into Europe in 1846 by Robert Fortune, collector for the London Horticultural Society, and have spread across the world.
 
 Learn more:
 
@@ -2522,6 +2941,12 @@ The liver of mammals, fowl, and fish is commonly eaten as food by humans (see of
 - From: Greece
 - Ingredients (Wikidata): liver
 
+Fun facts:
+
+- (culture) In Pakistan and North India, the liver is eaten traditionally as the first meat of the sacrificial animal during Eid al-Adha.
+- (culture) Kaleji masala or kaleji salan is popular throughout the festival.
+- (culture) Pig liver is a traditional food of immigrant Okinawans in Hawaii.
+
 Learn more:
 
 - quick: [Liver as food (Wikipedia)](https://en.wikipedia.org/wiki/Liver_as_food)
@@ -2601,8 +3026,14 @@ Mastika or mastiha is a liqueur seasoned with mastic, a resin with a slightly pi
 
 Fun facts:
 
-- (about) In August 2012, wildfires spread across the island of Chios, scorching 12,740 hectares (31,480 acres) and destroying more than half of the island's mastic orchards.
+- (about) The first mention of actual mastic 'tears' was by Hippocrates.
 - (origin) Mastika comes from Greece, Bulgaria, North Macedonia.
+- (about) Roman emperors used mastic along with honey, pepper, and egg in the spiced wine conditum paradoxum.
+
+More fun facts (when the user asks for more):
+
+- (about) In August 2012, wildfires spread across the island of Chios, scorching 12,740 hectares (31,480 acres) and destroying more than half of the island's mastic orchards.
+- (about) Digestive liqueurs, similar to Mastiha but made with grapes, were known as the Greek elixirs before the French Revolution.
 
 Learn more:
 
@@ -2623,9 +3054,14 @@ The melomakarono is an egg-shaped Greek dessert made mainly from flour, olive oi
 
 Fun facts:
 
+- (origin) Some allege that melomakarona, also known as finikia, originated in ancient Phoenicia, due to the name and were introduced to Greece as early as 300BC.
+- (about) Others note how melomakarona were served in the first Olympic Games in 776BC, being a favourite of athletes.
 - (culture) Along with the kurabiedes, it is a traditional dessert prepared primarily during the Christmas holiday season.
-- (origin) Melomakarono comes from Greece.
+
+More fun facts (when the user asks for more):
+
 - (culture) Dark chocolate-covered melomakarona are also a more recent variation of the traditional recipe.
+- (origin) Melomakarono comes from Greece.
 
 Learn more:
 
@@ -2646,8 +3082,14 @@ Metaxa is a line of branded Greek alcoholic drinks, each a flavored amber blend 
 
 Fun facts:
 
-- (history) Metaxa dates from 1888-.
+- (history) Exposed during his travels to spirits and wines from around the world, he created Metaxa in 1888, when he owned a tavern.
+- (inspiration) The "Salamina Warrior", the Metaxa emblem, is inspired by an ancient medallion that Spyros Metaxa found when building his distillery in Piraeus in 1888.
 - (origin) Metaxa comes from Greece.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1968, the distillery and the Metaxa cellars were relocated to new facilities in Athens's northern suburb of Kifissia.
+- (history) Metaxa dates from 1888-.
 
 Learn more:
 
@@ -2672,10 +3114,11 @@ Fun facts:
 
 - (history) Metsovone has been a European protected designation of origin since 1996.
 - (inspiration) Metsovone is named after Metsovo.
-- (about) This cheese, along with Metsovela, is one of the most popular culinary attractions of Metsovo.
+- (origin) Metsovone was first made in Metsovo.
 
 More fun facts (when the user asks for more):
 
+- (about) This cheese, along with Metsovela, is one of the most popular culinary attractions of Metsovo.
 - (origin) Metsovone comes from Greece.
 
 Learn more:
@@ -2758,6 +3201,10 @@ People of several cultures eat octopus.
 
 - From: Greece
 
+Fun facts:
+
+- (about) Not to be confused with Octopoda.
+
 Learn more:
 
 - quick: [Octopus as food (Wikipedia)](https://en.wikipedia.org/wiki/Octopus_as_food)
@@ -2793,7 +3240,20 @@ Ouzo is a dry anise-flavored aperitif that is widely consumed in Cyprus and Gree
 
 Fun facts:
 
+- (history) The first ouzo distillery was founded in Tyrnavos in 1856 by Nikolaos Katsaros, giving birth to the famous ouzo Tyrnavou.
+- (about) On October 25, 2006, Greece won the right to label ouzo as an exclusively Greek product.
 - (origin) Ouzo comes from Greece.
+
+More fun facts (when the user asks for more):
+
+- (history) Modern ouzo distillation largely took off at the beginning of the 19th century following Greek independence.
+- (history) When absinthe fell into disfavor in the early 20th century, ouzo was one of the products whose popularity rose to fill the gap; it was once called "a substitute for absinthe without the wormwood".
+- (history) In 1932, ouzo producers developed a method of distillation using copper stills that is now the standard method of production.
+- (history) A popular derivation is from the Italian "uso Marsiglia"— for use in Marseille—stamped on selected silkworm cocoons exported from Tyrnavos in the 19th century.
+- (history) During a visit to Thessaly in 1896, the late professor Alexander Philadelpheus delivered to us valuable information on the origins of the word "ouzo", which has come to replace the word "tsipouro".
+- (history) According to the professor, tsipouro gradually became ouzo after the following event: Thessaly exported fine cocoons to Marseilles during the 19th century, and in order to distinguish the product, outgoing crates would be stamped with the words "uso Marsiglia"—Italian for "to be used in Marseille".
+- (history) The term subsequently spread by word of mouth, until tsipouro gradually became known as ouzo. —The Times of Thessaly, 1959 However, the major Greek dictionaries derive it from the Turkish word üzüm 'grape'.
+- (about) One day, the Ottoman Greek consulate physician, named Anastas (Anastasios) Bey, happened to be visiting the town of Tyrnavos and was asked to sample the local tsipouro.
 
 Learn more:
 
@@ -2814,8 +3274,22 @@ Paprika is a spice made from dried and ground red peppers, Capsicum annuum.
 
 Fun facts:
 
+- (history) The Spaniards and Portuguese also took them to India and south-east Asia and they were quickly taken up and grown in the Middle East, the Balkans and Europe – to Italy by 1526, Germany by 1543 and known in Hungary by 1569.
 - (origin) The peppers were introduced to Europe via Spain and Portugal in the 16th century.
 - (culture) Paprika is traditionally made from Capsicum annuum varietals in the Longum group, and while it can have varying levels of heat, the peppers used tend to be milder and have thinner flesh than those used to produce chili powder.
+
+More fun facts (when the user asks for more):
+
+- (history) The first recorded use of the word paprika in English is from 1830.
+- (history) The food writer Alan Davidson comments that Christopher Columbus probably came across them on his first voyage in 1492, and may have brought plants back to Europe.
+- (history) Industrialized production of paprika started near the end of the 17th century and grew to be highly developed by the 18th century.
+- (history) The plant used to make the Hungarian version of the spice was first grown in 1569.
+- (history) According to George Lang in his Cuisine of Hungary (1994), the earliest reference to paprika peppers in a Hungarian dictionary was in 1604, when the name used was Török-bors (Turkish pepper).
+- (history) Central European paprika was hot until the 1920s, when a Szeged breeder found a plant that produced sweet fruit, which he grafted onto other plants.
+- (history) The name "paprika" did not come into currency in Hungary until 1775, when J.
+- (history) In Spices, Salt and Aromatics in the English Kitchen (1970), Elizabeth David notes that in cookery books of the Edwardian era, paprika is sometimes referred to as "Krona pepper".
+- (origin) The long period of Turkish presence introduced several foodstuffs to the region, including filo pastry (which evolved into the strudel), pilafs, pita bread and paprika.
+- (about) Not to be confused with bell pepper.
 
 Learn more:
 
@@ -2857,12 +3331,21 @@ Retsina is a Greek white (or rosé or very rarely red) resinated wine, which has
 
 Fun facts:
 
+- (about) The earliest recorded mention of using resin with wine amphorae is by the first-century Roman writer Columella, who detailed in his work "De Re Rustica" (12,20,3 and 12,22,2) the different types of resin that could be used to seal a container or be mixed into the wine.
 - (origin) Its unique flavor is said to have originated from the practice of sealing wine vessels, particularly amphorae, with Aleppo pine resin in ancient times.
-- (about) Before the invention of impermeable glass bottles, oxygen caused many wines to spoil within a year.
 - (history) The Romans began to use barrels in the 3rd century AD, removing any oenological necessity for resin, but the flavor itself was so popular that the style is still widespread.
 
 More fun facts (when the user asks for more):
 
+- (about) In 968, Liutprand was sent to Constantinople to arrange a marriage between the daughter of the late Emperor Romanos II and the future Holy Roman Emperor Otto II.
+- (about) Before the invention of impermeable glass bottles, oxygen caused many wines to spoil within a year.
+- (history) The Roman settlements in Illyria, Cisalpine Gaul and Gallia Narbonensis did not use resin-coated amphorae due to the lack of suitable local pine trees and began to develop solid, less leak-prone wooden barrels in the 1st century AD.
+- (history) By the 3rd century, barrel making was prevalent throughout the Roman Empire.
+- (about) Pilgrims and Crusaders to the Holy Land during the Middle Ages recorded their experiences with the strong, resin wines of the Greek islands.
+- (history) Pietro Casola, an Italian noble who traveled to Jerusalem in 1494, wrote about the wines and cuisines of the places he stopped at along the way.
+- (about) Another anecdote claims that an excess of undiluted retsina was lethal for King Eric I of Denmark and Sigurd I of Norway.
+- (origin) He recommended, however, that the very best wines should not be mixed with resin because of the unpleasant flavor introduced thereby.
+- (about) Popular anecdotes about the evolution of retsina stem from the Roman conquest of Greece.
 - (origin) Retsina comes from Greece.
 
 Learn more:
@@ -2907,7 +3390,15 @@ Salep, also spelled sahlep, salepi or sahlab, is a flour made from the tubers of
 
 Fun facts:
 
+- (origin) The word salep ultimately comes from Arabic saḥlab, and Greek salepi σαλέπι through French and Turkish salep in the mid 18th century.
+- (history) Substitution of British orchid roots, known as "dogstones", for the original Turkish variants was acceptable in the 18th century.
 - (culture) Salep flour is consumed in beverages and desserts, especially in the cuisines of the former Byzantine and Ottoman Empires, notably in the Levant where it is a traditional winter beverage.
+
+More fun facts (when the user asks for more):
+
+- (history) Salep was a popular beverage in the lands of the Ottoman Empire.
+- (about) In England, the drink was known as saloop.
+- (about) Popular in the 17th and 18th centuries in England, its preparation required that the salep powder be added to water until thickened whereupon it would be sweetened, then flavored with orange flower or rose water.
 
 Learn more:
 
@@ -3009,6 +3500,10 @@ A spread is a food that is spread, generally with a knife, onto foods such as br
 
 - From: Greece
 
+Fun facts:
+
+- (about) Not to be confused with Spread, spread butter.
+
 Learn more:
 
 - quick: [Spread (food) (Wikipedia)](https://en.wikipedia.org/wiki/Spread_%28food%29)
@@ -3028,6 +3523,11 @@ Strained yogurt, Labneh, Greek or Greek-style yogurt, yogurt cheese, sack yogurt
 Fun facts:
 
 - (about) In the United Kingdom, the term "Greek yoghurt" may only be used for yoghurt imported from Greece; strained yoghurt is sold as "Greek-style yoghurt", and yoghurt made creamy by thickening agents instead may also use this name, although ingredients must be declared.
+- (history) A court case in 2013 restricted the term "Greek yogurt" in the UK to strained yogurt made in Greece; it had only been used for non-Greek-made yoghurt once since the 1980s.
+- (origin) Strained yogurt was first made in Middle East.
+
+More fun facts (when the user asks for more):
+
 - (about) In Iceland a similar product named skyr is made.
 - (about) In Western Europe and the United States, strained yogurt has increased in popularity compared to unstrained yogurt.
 
@@ -3051,7 +3551,14 @@ Tarhana is a dried food ingredient, based on a fermented mixture of grain and yo
 
 Fun facts:
 
+- (history) In Persian language sources, al-Zamakhshari mentioned the name of this food in the 11th century in the form tarkhana in his dictionary; it is attested in the 17th century in the form tarkhina in the Farhang-i Jahangiri, a Persian dictionary created under the reign of Jahangir.
+- (about) Weaver (2002) also considers it of Western origin.
 - (origin) Tarhana comes from Iran.
+
+More fun facts (when the user asks for more):
+
+- (history) Hill and Bryer suggest that the term tarhana is related to Greek τρακτόν (trakton, romanized as tractum), a thickener Apicius wrote about in the 1st century CE which most other authors consider to be a sort of cracker crumb.
+- (history) Dalby (1996) connects it to the Greek τραγός/τραγανός (tragos/traganos), described (and condemned) in Galen's Geoponica 3.8.
 
 Learn more:
 
@@ -3093,8 +3600,12 @@ Tsipouro is an un-aged brandy from Greece and in particular Thessaly, Epirus, Ma
 
 Fun facts:
 
+- (culture) According to tradition, the first production of tsipouro was the work of Greek Orthodox monks in the 14th century on Mount Athos in Macedonia, Greece.
 - (origin) Tsipouro is typically produced in two varieties: pure, which is the default, and anise-flavored, which is a relatively new variation introduced during the 1900s.
 - (culture) Tsipouro is a strong distilled spirit containing 40–45% alcohol by volume and is traditionally produced from grape pomace (the residue of the winepress) or, alternatively, directly from wine after the grapes and juices have been separated.
+
+More fun facts (when the user asks for more):
+
 - (origin) Tsipouro comes from Greece.
 
 Learn more:
@@ -3116,6 +3627,19 @@ Turkish coffee is a style of coffee prepared in a pot called a cezve using very 
 
 Fun facts:
 
+- (history) It appears that the first coffeehouse in Istanbul was opened in 1554 (some say 1551) by two Arab merchants, Hakem of Aleppo and Shems of Damascus (they may have been separate establishments at first).
+- (origin) Without citing historical sources, some authors have asserted the method originated in the Yemen; or in Damascus (a plausible, if unsubstantiated claim, since the Middle Eastern coffeehouse did probably originate in Damascus and was brought to Istanbul by Syrians, see above).
+- (about) Yemenis may have been the first to drink coffee as a hot beverage instead of chewing the bean, or adding it to solid food, and the earliest social users were probably Sufi mystics in that region who needed to stay awake for their nocturnal vigils.
+
+More fun facts (when the user asks for more):
+
+- (history) From 1538 to 1636 the Ottoman Empire controlled the southern coastal region of what is now Yemen, notably its famous coffee port Mocha.
+- (history) A 1762 Danish expedition recorded that "northern and eastern Arabs" prepared bean coffee "in the same way as with the Turks".
+- (history) Coffee drinking spread in the Islamic world in the 16th century.
+- (origin) The coffee tree was first cultivated commercially in the Yemen, having been introduced there from the rainforests of Ethiopia where it grew wild.
+- (history) In the 18th century Egypt was the richest province of the Ottoman Empire, and the chief commodity it traded was Yemeni coffee.
+- (history) Coffee was in use in Istanbul by 1539; a legal document mentions that Ottoman admiral Barbaros Hayreddin Pasha's house had a coffee chamber.
+- (history) Ignatius d'Ohsson described for French readers the Turkish method of brewing coffee (Tableau Général de l'Empire Othoman, 1789).
 - (origin) Turkish coffee comes from Turkey.
 
 Learn more:
@@ -3133,6 +3657,16 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q43022) (CC0); [Wikipedia: Tur
 Yuvarlakia or ekşili köfte is a meatball soup or stew in Greek and Turkish cuisine.
 
 - From: Greece
+
+Fun facts:
+
+- (origin) Yuvarlakia is believed to have originated in Anatolia during the Ottoman Empire, where culinary techniques crossed Greek, Turkish, Armenian and Jewish cuisines.
+- (about) In Turkish, the dish is known as ekşili köfte, as well as terbiyeli köfte or sulu köfte.
+- (origin) Yuvarlakia was introduced to Greece by Asia Minor Greeks after the population exchange between Greece and Turkey.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with ekşili köfte.
 
 Learn more:
 
@@ -3152,6 +3686,12 @@ Zivania or zivana is a Cypriot pomace brandy produced from the distillation of a
 - Ingredients (Wikidata): Mavro, Xynisteri
 
 Fun facts:
+
+- (origin) Some believe that the method of producing zivania, which resembles that of producing tsipouro, was brought to Cyprus by monks of Mount Athos in the 15th century while others believe that zivania has been produced in Cyprus since the time the Republic of Venice ruled the island, around the end of the 15th century.
+- (about) It is unknown when zivania was first produced in Cyprus.
+- (history) Since 1989, zivania has been protected under EU regulations as a name for grape marc produced in Cyprus.
+
+More fun facts (when the user asks for more):
 
 - (origin) Zivania comes from Cyprus.
 

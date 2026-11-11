@@ -12,6 +12,15 @@ Agwi-jjim or agu-jjim is a Korean jjim dish made with blackmouth angler, the fis
 
 Fun facts:
 
+- (history) Until the 1940s, the fish was not eaten and was frequently discarded due to its ugly appearance and low commercial value.
+- (culture) In the traditional Masan agujjim, agwi dried for 15 days to 30 days is used and then marinated with seasonings, while other regions use fresh agwi after its internal organs have been taken out.
+- (about) Seoul has two famous agujjim streets, in Sinsa-dong and the Jongno district.
+
+More fun facts (when the user asks for more):
+
+- (history) However, as fish began to become more scarce in the late 20th century, the newly found delicacy became popular.
+- (about) The popular jjim dish is eaten with bowls of cooked rice, or sometimes restaurants will stir-fry the remaining sauce with rice and additional vegetables on the grill to make Bokkeumbap with a crispy charred crust.
+- (about) Agujjim is also a popular anju, or dish associated with alcoholic beverages and is usually paired with soju.
 - (origin) Agwi-jjim comes from Korea.
 
 Learn more:
@@ -33,6 +42,7 @@ Andong-jjimdak is a variety of jjim (a Korean steamed or boiled dish), which ori
 
 Fun facts:
 
+- (history) Another assumption is that during the 1980s in the Dak golmok of the "Andong Gu Market," restaurant owners there made a dish including ingredients that regulars demanded, which became the current Andong-jjimdak.
 - (origin) Andong jjimdak comes from South Korea.
 
 Learn more:
@@ -75,8 +85,13 @@ Beondegi, literally "pupa", is a Korean insect-based street food made with silkw
 
 Fun facts:
 
+- (history) While silkworm pupae were consumed in silk-farming villages at least as far back as the 1920s, widespread consumption in South Korea began after the Korean War.
 - (culture) The consumption of Beondegi was historically popular in silk producing areas, but in recent years has been widely consumed as a street food across South Korea.
 - (origin) Beondegi comes from Korea.
+
+More fun facts (when the user asks for more):
+
+- (history) By the 1970s, the overflow of the byproduct provided a cheap source of protein before economic growth allowed broader access to meat supply.
 
 Learn more:
 
@@ -119,6 +134,19 @@ Bibimbap, sometimes romanised as bi bim bap or bi bim bop, is a Korean rice dish
 
 Fun facts:
 
+- (history) Bibimbap was also recorded in Complete Works of Seongho by Yi Ik (1681–1764) as goldong, in Complete Works of Cheongjanggwan by Yi Deok-mu (1741–1793) as goldong-ban, and in Works of Nakhasaeng by Yi Hak-gyu (1770–1835) as both goldong-ban and goldong.
+- (about) Although bibimbap was originally rarely mentioned and mostly only in hanja records, it began to be more frequently referenced and in Hangul (Korean alphabets) records as well upon the creation of Hangul by the King Sejong the Great to improve the state's literacy.
+- (inspiration) The first one, "People's Unofficial Story of Jeonju", describes Jeonju bibimbap, an old-fashioned dish, as being used on occasions such as parties that included government officials of provincial offices.
+
+More fun facts (when the user asks for more):
+
+- (history) In the Diary of Cheongdae by another Joseon scholar Gwon Sang-il (1679–1760), it was recorded as goldong-ban.
+- (history) The hangul transcription beubwieum first appears in the 1810 encyclopedia Mongyupyeon by Jang Hon.
+- (history) This name appeared in the Yeokjogumun portion of the book Historical Notes of Gijae, which was written by Bak Dongnyang around 1590.
+- (history) The 1870 encyclopedia Myeongmul giryak states that the dish name is written as goldong-ban in hanja but is read as bubaeban, a probable transcription of the native Korean bubim-bap.
+- (history) By the late 19th century, it went by a number of names in hangul: bubwiumbap, bubieumbap, bubwimbap, bubuimbap, bubwinbap, and bubimbapbubaeban and goldongban.
+- (origin) Some scholars assert that bibimbap originates from the traditional practice of mixing all the food offerings made at a jesa (ancestral rite) in a bowl before partaking of it.
+- (culture) The second text, "Lannokgi", described bibimbap being made by the wives of farmers, who had no time to prepare meals the traditional way with many side dishes.
 - (origin) Bibimbap comes from Korea.
 
 Learn more:
@@ -140,7 +168,14 @@ Bindae-tteok, or mung bean pancake, is a type of buchimgae (Korean pancake) that
 
 Fun facts:
 
+- (culture) Bindae-tteok is prepared and sold in traditional street markets such as Gwangjang Market in Seoul.
 - (origin) Bindae-tteok comes from Korea.
+- (culture) It gained increased international recognition once Bindae-tteok vendors were featured in the 2019 Netflix documentary series Street Food.
+
+More fun facts (when the user asks for more):
+
+- (culture) The series highlighted Korean street food culture and vendors operating in Gwangjang Market, where bindae-tteok is a staple dish.
+- (culture) Global exposure increased tourism and interest in Korean street food markets, with Gwangjang Market becoming a widely visited destination for both domestic visitors and international tourists seeking to try traditional dishes.
 
 Learn more:
 
@@ -211,15 +246,22 @@ Budae-jjigae is a type of spicy jjigae (Korean stew) from South Korea that is ma
 
 Fun facts:
 
-- (history) A prominent ingredient of the dish, Spam, was only made legally available for sale in 1987, around the time that South Korea democratized.
+- (history) Koreans had been exploited; for example, from 1939 to 1945, around 700,000–800,000 Koreans were moved to Japan to work in slavery-like conditions.
 - (origin) Gyeonggi Province's city of Uijeongbu, which claims to have first made the dish, has a "Uijeongbu Budae-jjigae Street" with a high concentration of specialty restaurants.
 - (inspiration) Budae-jjigae is named after United States Forces Korea.
 
 More fun facts (when the user asks for more):
 
+- (history) A prominent ingredient of the dish, Spam, was only made legally available for sale in 1987, around the time that South Korea democratized.
+- (history) The 20th century was turbulent for the Korean peninsula.
+- (history) In 1945, Korea was liberated from its status as a colony of the Empire of Japan.
+- (history) Many foreign products were not legally available to South Koreans, and some were made artificially expensive due to tariffs even up until 1987.
+- (history) After the June Democratic Struggle of 1987, South Korea finally democratized after decades of dictatorships.
 - (history) Budae-jjigae dates from 1960-.
 - (about) Budae-jjigae is now a popular anju (accompaniment to alcoholic drinks) and a comfort food cooked in a large pot shared by a group of people.
 - (about) Although the dish came from conditions of poverty, it has remained consistently popular, even during and after South Korea's rapid economic growth.
+- (about) As of June 2020, it operated around 1,000 locations across the country.
+- (about) Budae-jjigae has also been adapted into home meal replacement and meal-kit products for home consumption.
 - (origin) Budae-jjigae comes from South Korea.
 
 Learn more:
@@ -241,7 +283,15 @@ Bulgogi is a gui (Korean-style grilled or roasted dish) made of thin, marinated 
 
 Fun facts:
 
+- (origin) Bulgogi is believed to have originated during the Goguryeo era (37 BCE–668 CE), when it was originally called maekjeok, with the beef being grilled on a skewer.
+- (history) Bulgogi was listed in the 1947 edition of the Dictionary of the Korean Language as meat grilled directly over a charcoal fire.
 - (about) Bulgogi is a very popular dish in South Korea, where it can be found anywhere from upscale restaurants to local supermarkets as pan-ready kits.
+
+More fun facts (when the user asks for more):
+
+- (history) Merriam-Webster dated the word's appearance in the American English lexicon in 1961.
+- (origin) Bulgogi became popular in Seoul and other parts of South Korea, introduced by refugees from Pyongan.
+- (culture) Bulgogi was called neobiani, meaning "thinly spread" meat, during the Joseon period and was traditionally prepared especially for the wealthy and the nobility.
 - (origin) Bulgogi comes from Korea.
 
 Learn more:
@@ -263,9 +313,15 @@ Bungeo-ppang is a fish-shaped pastry stuffed with sweetened red bean paste, whic
 
 Fun facts:
 
+- (origin) Bungeo-ppang was derived from the Japanese treat, taiyaki (baked sea bream), introduced to Korea around the 1930s when the country was under Japanese rule.
+- (history) Although bungeo-ppang's popularity did not last long, it found its way back into popularity during the 1990s with the retro craze in South Korea.
 - (culture) One of South Korea's most popular winter street foods, the snack is often sold at street stalls, grilled on an appliance similar to a waffle iron but with a fish-shaped mold.
-- (origin) Bungeo-ppang comes from Korea.
+
+More fun facts (when the user asks for more):
+
+- (origin) According to the 2011 book Bungeoppang Has a Family Tree, bungeo-ppang began as a mix of Western waffles and Eastern dumplings, as the taiyaki itself was a Japanese adaptation of Western waffles introduced to Japan in the 18th century.
 - (culture) Red bean paste is the standard filling but many bungeo-ppang sold as street food are filled with pastry cream (called "choux-bung" as the cream is called "choux-cream" in South Korea), sweet potato, pizza toppings, chocolate, kimchi and others.
+- (origin) Bungeo-ppang comes from Korea.
 
 Learn more:
 
@@ -286,8 +342,14 @@ Chapssal-tteok, also called chaltteok, is a tteok, or Korean rice cake, made of 
 
 Fun facts:
 
+- (history) Chapssal-tteok is a compound noun consisting of chapssal, meaning "glutinous rice," and tteok, meaning "rice cake." The word chapssal is derived from the Middle Korean chɑl, meaning "glutinous," and psɑl, meaning "rice." Chɑlpsɑl appears in Gugeup ganibang, a 1489 book on medicine.
 - (culture) Chapssal-tteok is traditionally provided as a good luck gift to students before exams.
 - (origin) Chapssal-tteok comes from Korea.
+
+More fun facts (when the user asks for more):
+
+- (history) Tteok is derived from the Middle Korean sdeok, which appears in Worin seokbo, a 1459 biography and eulogy of the Buddha.
+- (history) Chal is derived from the Middle Korean chɑl, and the word chɑlsdeok appears in Geumganggyeong Samga hae, a 1482 book on the Diamond Sūtra.
 - (culture) Its sticky texture symbolizes the answers "sticking" in students' minds.
 
 Learn more:
@@ -308,6 +370,12 @@ Cheonggukjang is a traditional Korean food made by fermenting soybeans.
 - Ingredients (Wikidata): soy bean
 
 Fun facts:
+
+- (history) However, Samkukjiwijidongijeon suggests that cheonggukjang has existed in the Korean peninsula since before the Joseon era, as there are records of such fermented foods dating back to first century BC, throughout the Koryo dynasty and the Kingdom of Silla.
+- (origin) There is no known historical source of where cheonggukjang originated from.
+- (origin) One theory proposed by Chinese scholars is that cheonggukjang was introduced by what is now China to the Korean peninsula during the Joseon era.
+
+More fun facts (when the user asks for more):
 
 - (origin) Cheonggukjang comes from Korea.
 
@@ -351,6 +419,7 @@ Dak-bokkeum-tang, also known as dak-dori-tang or braised spicy chicken, is a tra
 
 Fun facts:
 
+- (history) The word dori-tang appears in Haedong jukji, a 1925 collection of poems by the Joseon literatus Choe Yeongnyeon.
 - (origin) Dak-bokkeum-tang comes from Korea.
 
 Learn more:
@@ -372,6 +441,13 @@ Dak-galbi, or spicy stir-fried chicken, is a popular South Korean dish made by s
 
 Fun facts:
 
+- (history) Kim Yeong-seok, an owner of a pork restaurant, is credited with inventing the dish in the 1960s when he used chicken instead of pork when pork ran out.
+- (origin) Due to the overseas popularity of the 2002 drama Winter Sonata which was filmed in Chuncheon, dak-galbi was introduced to foreign countries.
+- (history) Dak-galbi was developed in the 1960s as an anju (accompaniment to alcoholic drinks) in a seonsuljip (pub) in Chuncheon.
+
+More fun facts (when the user asks for more):
+
+- (history) As a relatively cheap dish served in large portions, it gained popularity with soldiers and students on a budget and earned the nickname "commoners' galbi" or "university student's galbi" in the 1970s.
 - (origin) Dak-galbi comes from South Korea.
 
 Learn more:
@@ -393,6 +469,13 @@ Doenjang or soybean paste is a type of fermented bean paste made of soybean and 
 
 Fun facts:
 
+- (culture) In the Samguk sagi, a historical record of the Three Kingdoms of Korea, it is written that doenjang and ganjang, along with meju and jeotgal, were prepared for the wedding ceremony of King Sinmun in February 683.
+- (history) Sikhwaji, a section from Goryeosa (History of Goryeo), recorded that doenjang and ganjang were included in the relief supplies in 1018, after a Khitan invasion, and in 1052, when a famine occurred.
+- (about) The Records of the Three Kingdoms, a Chinese historical text written and published in the third century CE, mentions that "Goguryeo people are good at brewing fermented soybeans" in the section named Dongyi (Eastern foreigners) in the Book of Wei.
+
+More fun facts (when the user asks for more):
+
+- (history) Jangdoks used for doenjang production are found in the mural paintings of Anak Tomb No. 3 from the 4th century Goguryeo.
 - (origin) Doenjang comes from Korea.
 
 Learn more:
@@ -414,6 +497,7 @@ Doenjang-guk or soybean paste soup is a guk (soup) made with doenjang (soybean p
 Fun facts:
 
 - (origin) Doenjang-guk comes from Korea.
+- (about) Not to be confused with doenjang-jjigae.
 
 Learn more:
 
@@ -457,7 +541,12 @@ Dwaeji-gukbap is a South Korean soup especially popular in Busan made with pork,
 Fun facts:
 
 - (origin) Dwaeji-gukbap originated during the Korean War in the 1950s as poverty food.
+- (history) The oldest existing dwaeji-gukbap restaurant was established in 1938. dwaeji-gukbap became widely popular during the 1950s when North Korean refugees fled south during the Korean War.
 - (inspiration) Busan has a street named after the dish, where there are dozens of restaurants that serve dwaeji-gukbap.
+
+More fun facts (when the user asks for more):
+
+- (origin) The salted shrimp that often accompanies the dish originated from the north, whereas the chive salad and spicy seasoning originated in Busan.
 - (origin) Dwaeji-gukbap comes from South Korea.
 
 Learn more:
@@ -501,6 +590,7 @@ Galbi-jjim, or braised short ribs, is a variety of jjim or Korean dish made with
 
 Fun facts:
 
+- (culture) In traditional cuisine, galbijjim was traditionally eaten at Chuseok along with songpyeon, namul, taro soup, chestnut dumplings, chicken jjim and autumn fruit.
 - (origin) Galbi-jjim comes from Korea.
 
 Learn more:
@@ -570,6 +660,13 @@ Gamja-tang or pork back-bone stew is a spicy Korean soup made from the spine or 
 
 Fun facts:
 
+- (origin) Gamja-tang originated in Jeolla Province in southern Korea.
+- (about) The origins of gamjatang can be traced back to the Three Kingdoms era when South Jeolla farmers raised hogs in greater numbers than in most of the rest of Korea.
+- (history) When construction of the Gyung-ui Railway began in 1899, laborers started working around Incheon, and gamjatang become popular among them because it is cheap and nutritious, and its high fat content provided the calories they needed.
+
+More fun facts (when the user asks for more):
+
+- (origin) There is a theory that the name "gamja-tang" originated from the fact that the spinal cord in the backbone of the pig is called "gamja," and there is a part called gamja-bone when the spine of the pig is divided into parts, and it is called "gamja-tang" because it was boiled.
 - (origin) Gamja-tang comes from Korea.
 
 Learn more:
@@ -611,9 +708,19 @@ Gimbap, also romanized as kimbap, is a Korean dish made from bap (cooked rice), 
 
 Fun facts:
 
-- (origin) However, the style of rolling seaweed into a ball on bamboo mat and cutting it to eat is generally agreed to have originated in Japan.
+- (history) Norimaki, borrowed from the name of a similar Japanese dish, was part of the Japanese vocabulary that entered into the Korean language during Japanese occupation (1910–1945).
+- (origin) This theory is supported by a newspaper from 1935, in which the term gimbap first appeared in Korea.
 - (about) Gimbap is a popular takeout food in South Korea and in other countries.
+
+More fun facts (when the user asks for more):
+
+- (origin) However, the style of rolling seaweed into a ball on bamboo mat and cutting it to eat is generally agreed to have originated in Japan.
+- (history) The term gimbap was used in a 1935 Korean newspaper article but at the time, the loanword norimaki was used as well.
+- (history) Yŏryang Sesigi, a Joseon book written in 1819 by Kim Mae-sun, refers to cooked rice and filling rolled with gim as bokssam.
+- (culture) Since then, gimbap has become a distinct dish, often utilizing traditional Korean flavors, as well as sesame oil, instead of rice vinegar.
+- (culture) An alternative theory, suggested in the Encyclopedia of Korean Culture, published by the Academy of Korean Studies, is that the food was developed from the long-established local tradition of rolling bap (cooked rice) and banchan (side dishes) in gim.
 - (origin) Gimbap comes from Korea.
+- (about) Not to be confused with MMMBop.
 
 Learn more:
 
@@ -677,6 +784,7 @@ Gopchang-jeongol or beef tripe hot pot is a spicy Korean stew or casserole made 
 
 Fun facts:
 
+- (inspiration) Although the dish is mainly based on beef gopchang, other parts of beef innards are also used to give the dish a richer flavor and chewy texture.
 - (about) It is often shared between several diners on the center of the table, and is also a popular anju when drinking alcoholic beverages such as soju in South Korea.
 - (origin) Gopchang-jeongol comes from Korea.
 
@@ -694,6 +802,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q8010363) (CC0); [Wikipedia: G
 Gujeolpan refers to either an elaborate Korean dish consisting of nine different foods assorted on a wooden plate with nine divided sections in an octagon shape or the plate itself.
 
 - From: South Korea
+
+Fun facts:
+
+- (history) The history of gujeolpan dates back as early as the 14th century, and has become closely associated with the Joseon royalty.
 
 Learn more:
 
@@ -714,7 +826,20 @@ Gukbap is a Korean dish made by putting cooked rice into hot soup or boiling ric
 
 Fun facts:
 
+- (about) The first record of gukbap in literature is in the "Journal of Royal Secretariat" (Seungjeongwon Ilgi).
+- (history) The first gukbap recipe in Korean literature is the Gyugon Yoram from the 18th century.
+- (culture) Rituals through ancestral rites were common in the Joseon Dynasty.
+
+More fun facts (when the user asks for more):
+
+- (about) Digging into this niche market, gukbap has been recognized as the first fast food as well as the first delivery food.
+- (about) The journal stated that female physicians recommended the dish to King Sukjong due to its heartiness.
+- (history) Illustrations of gukbap being served in jumaks can be seen in Gim Hong-Do's paintings from the Joseon Dynasty.
+- (history) During the 19th century, the dish became commercialized and was sold in large-scale markets.
+- (history) According to a magazine published in 1929, the owners of gukbap diners were often people of low social status, so it was not easy for those who were once aristocrats to eat it with confidence.
 - (about) With jumaks, gukbap became popular especially in the late Joseon period.
+- (culture) Due to the frequency of these rituals, a meat-eating culture developed and meat based soups, like gukbap, became popular.
+- (history) In the Japanese colonial period, gukbap began to gain popularity as a common delivery food.
 - (origin) Gukbap comes from Korea.
 
 Learn more:
@@ -801,6 +926,7 @@ Gyeran-ppang is a South Korean street food.
 
 Fun facts:
 
+- (origin) Gyeran-ppang was first made at the back gate of Inha University in 1984.
 - (history) Gyeran-ppang dates from 1984-.
 - (origin) Gyeran-ppang comes from South Korea.
 
@@ -823,7 +949,16 @@ Haejang-guk or hangover soup refers to every kind of guk or soup eaten as a hang
 
 Fun facts:
 
+- (history) In the Nogeoldae, a manual for learning spoken Chinese published in the late Goryeo dynasty (918–1392), the term seongjutang appears.
+- (about) The record suggests that hyojonggaeng is either the first delivery food to cure a hangover after a banquet held by jaesang was ended or was used as a bribe.
 - (origin) Haejang-guk comes from Korea.
+
+More fun facts (when the user asks for more):
+
+- (history) Although haejangguk is not mentioned in cookbooks written during the Joseon (1392–1910), relevant contents can be seen in genre paintings and documents of the late Joseon.
+- (about) According to the record, the soup consists of thinly sliced meat, noodles, scallions, and powder of cheoncho in a broth.
+- (history) In Shin Yun-bok (b. 1758)'s painting titled Jumakdo, a scene regarding haejangguk is well depicted.
+- (about) According to Haedong jukji, poetry collection written by Choe Yeong-nyeon, haejangguk is referred to as hyojonggaeng, which literally means a "dawn bell soup".
 
 Learn more:
 
@@ -865,6 +1000,12 @@ Hotteok, sometimes called hoeddeok, is a type of filled pancake known as a popul
 Fun facts:
 
 - (origin) Hotteok originated in Qing dynasty China and was first brought into Joseon Korea during the 19th century.
+- (history) It is generally believed that the merchants from China who immigrated to and settled down in Korea around the late 19th century made and sold hotteok at cheap prices, which helped spread the dish throughout Korea.
+- (about) Not to be confused with hot dog.
+
+More fun facts (when the user asks for more):
+
+- (origin) Hotteok is also closely related to the Silk Road as foods related to wheat flour originated.
 - (origin) Hotteok comes from Korea.
 
 Learn more:
@@ -886,12 +1027,15 @@ Japchae is a savory and slightly sweet dish of stir-fried glass noodles and vege
 
 Fun facts:
 
+- (origin) According to Veritable Records of the Joseon Dynasty, the name originally referred to a stir-fried vegetable and mushroom dish, first made in the early 17th century by Yi Chung (1568‒1619) for King Gwanghaegun's palace banquet.
 - (culture) Once a royal dish, japchae is now one of the most popular traditional celebration dishes, often served on special occasions, such as weddings, birthdays (especially dol, the first birthday, and hwangap, the sixtieth), and holidays.
-- (history) Japchae is also popular at banquets, parties, and potlucks, due to the ease of bulk preparation and flexible serving: japchae can be served warm, at room temperature, or cold from the refrigerator, and can be eaten freshly made or the day after.
-- (about) Japchae is sometimes served on a bed of rice: with rice, it is known as japchae-bap.
+- (about) The king liked the dish so much that he rewarded Yi by promoting him to a high-ranking position, equivalent to the position of Secretary of the Treasury, and japchae became a fixture of Korean royal court cuisine.
 
 More fun facts (when the user asks for more):
 
+- (origin) Its popularity increased later in the 20th century when cellophane noodles made from sweet potato starch were introduced to Korea from China.
+- (history) Japchae is also popular at banquets, parties, and potlucks, due to the ease of bulk preparation and flexible serving: japchae can be served warm, at room temperature, or cold from the refrigerator, and can be eaten freshly made or the day after.
+- (about) Japchae is sometimes served on a bed of rice: with rice, it is known as japchae-bap.
 - (origin) Japchae comes from Korea.
 
 Learn more:
@@ -914,8 +1058,14 @@ Jjamppong is a Chinese-style Korean noodle soup with red, spicy seafood- or pork
 
 Fun facts:
 
-- (history) Jjamppong dates from 1960-.
+- (history) During the Japanese occupation of Korea (1910–1945), the Japanese saw chǎomǎmiàn in Chinese restaurants in Korea and named it chanpon, as the white soup seemed similar to the soup of chanpon to their eyes.
+- (inspiration) Jjamppong was inspired by Chinese cuisine.
 - (about) Along with jajangmyeon, it is a popular dish found predominantly in Chinese restaurants in Korea as part of Korean Chinese cuisine.
+
+More fun facts (when the user asks for more):
+
+- (history) Jjamppong dates from 1960-.
+- (about) The Japanese word was subsequently adapted phonetically into Korean as jjamppong.
 - (origin) Jjamppong comes from South Korea.
 
 Learn more:
@@ -937,6 +1087,13 @@ Jokbal is a Korean dish consisting of pig's trotters cooked with soy sauce and s
 
 Fun facts:
 
+- (history) In the 1960s and 1970s, it became widely known through visitors to Jangchung Gymnasium, where professional wrestling games were frequently held.
+- (origin) Jokbal is presumed to have originated from braised pork, a local food of Hwanghae Province, where pigs' legs are boiled.
+- (about) The first presumption is that the word jokbal is from word jjokbal meaning cloven hoof and the word jjokbal was pronounced softly to sell as menu and became jokbal.
+
+More fun facts (when the user asks for more):
+
+- (history) The current jokbal is a food that started in Jangchung-dong in the 1960s and is known to have been developed by grandmothers from Pyongan Province and Hwanghae Province for a living.
 - (origin) Jokbal comes from Korea.
 
 Learn more:
@@ -986,6 +1143,14 @@ Jungguk-naengmyeon is a type of naengmyeon (cold noodles) in Korean Chinese cuis
 
 Fun facts:
 
+- (history) Early records of the dish includes the mentioning of junghwa-yori-sik naengmyeon on 22 June 1947 in the newspaper The Jeju Sinbo, and mentioning of jungguk-naengmyeon in The Dong-A Ilbo on 25 September 1962.
+- (origin) Despite the name, the dish originated in Korea.
+- (culture) The Korean Chinese dish incorporates the Korean tradition of serving noodles in icy cold broth (naengmyeon).
+
+More fun facts (when the user asks for more):
+
+- (history) Jungguk-naengmyeon is assumed that the dish was popularized in South Korea during the 1960s, when Chinese-style peanut sauce was largely replaced by peanut butter from U.S. military bases.
+- (history) In 1980s, high-end Korean Chinese restaurants in major hotels began to serve this dish.
 - (history) Jungguk-naengmyeon dates from 1940-.
 - (origin) Jungguk-naengmyeon comes from South Korea.
 
@@ -1050,6 +1215,8 @@ Kimchi-jjigae or kimchi stew is a jjigae, or stew-like Korean dish, made with ki
 
 Fun facts:
 
+- (history) Kimchi existed as a non-spicy pickled vegetable dish well prior to the Joseon era (1392–1897); it was not until the introduction of chili peppers to the Korean peninsula mid-era that the variant of kimchi which has become the de facto standard of today was created.
+- (about) Joseon-period cookbooks do not use the word jjigae; dishes of this type first appear in writing under the name jochi in the Siuijeonseo, compiled in the late Joseon period.
 - (origin) Kimchi-jjigae comes from Korea.
 
 Learn more:
@@ -1070,6 +1237,13 @@ Kkakdugi or diced radish kimchi is a variety of kimchi in Korean cuisine.
 
 Fun facts:
 
+- (inspiration) According to the book, kkakdugi was created by Princess Sukseon, a daughter of King Jeongjo (r. 1776–1800) and the wife of Hong Hyeon-ju, a high-ranking government officer titled as Yeongmyeongwi.
+- (history) The origin of kkakdugi is mentioned in a cookbook named Joseon yorihak written by Hong Seon-pyo in 1940.
+- (about) When a matter for congratulation happened to the royal court, members of the royal family gathered to have a feast, and the princess presented a new dish made with diced radish to the king.
+
+More fun facts (when the user asks for more):
+
+- (about) The king replied that the dish would be named kkakdugi because cutting food into cubes is called kkakduk sseolgi in Korean.
 - (about) Kkakdugi is a popular banchan (side dish) enjoyed by Koreans and others.
 
 Learn more:
@@ -1089,6 +1263,7 @@ Kkanpunggi, Hanja reading geonpaenggye, is a chicken dish in Korean Chinese cuis
 
 Fun facts:
 
+- (inspiration) Kkanpunggi is based on a Chinese dish from Shandong called ganpengji.
 - (culture) The chicken is often served boneless, although the traditional style may have had bones in it.
 
 Learn more:
@@ -1110,6 +1285,7 @@ Kongbap is a Korean dish of white or brown rice cooked together with one or more
 
 Fun facts:
 
+- (about) Rice cooked with beans other than soybeans, such as French beans (gangnangkong in Korean) or peas (wandu in Korean), are usually named using the specific bean name, as in gangnang-kong-bap (French bean rice) or wandu-kong-bap (pea rice).
 - (origin) Kongbap comes from Korea.
 
 Learn more:
@@ -1177,6 +1353,7 @@ Mandu-guk or dumpling soup is a variety of Korean soup (guk) made by boiling man
 
 Fun facts:
 
+- (origin) According to the 14th-century history text Goryeosa, mandu had already been introduced via Central Asia during the Goryeo period.
 - (origin) Mandu-guk comes from Korea.
 
 Learn more:
@@ -1198,7 +1375,15 @@ Miyeok-guk, also rendered as miyuk guk or seaweed soup, is a non-spicy Korean so
 
 Fun facts:
 
+- (about) The practice of eating seaweed soup after giving birth is believed to date to the Goguryeo period and started because people noticed whales eating seaweed after giving birth.
 - (inspiration) Miyeok-guk is traditionally eaten as a birthday dish in honor of one's mother and by women who have given birth for several months postpartum.
+- (culture) Women traditionally eat the soup for several months after giving birth.
+
+More fun facts (when the user asks for more):
+
+- (culture) Traditionally the soup symbolizes and honors Samsin Halmoni, a goddess who helps women through pregnancy and childbirth.
+- (inspiration) People also eat the soup for breakfast on their birthdays in honor of their mother.
+- (culture) As part of birthday celebrations, guests are served miyeok-guk along with rice cakes and other traditional foods.
 - (origin) Miyeok-guk comes from Korea.
 
 Learn more:
@@ -1221,6 +1406,7 @@ Nabak-kimchi is a dish in Korean cuisine.
 
 Fun facts:
 
+- (origin) The term nabak originated from nabaknabak which is a Korean adverb for "making flattened" or "slicing thinly".
 - (origin) Nabak-kimchi comes from Korea.
 
 Learn more:
@@ -1264,7 +1450,15 @@ Naengmyeaon or raengmyŏn is a noodle dish of North Korean origin which consists
 
 Fun facts:
 
+- (inspiration) In the South Korean variety show Infinite Challenge, Park Myeong-su and Jessica Jung, a former member of Girls' Generation, performed the song "Naengmyeon" which was named after the food.
 - (about) In modern times, the mul naengmyeon variant is commonly associated with and popularly consumed during the summer; however, it was historically a dish enjoyed during winter.
+- (history) Originally a delicacy in northern Korea, especially in the cities of Pyongyang and Hamhung, naengmyeon became widely popular throughout Korea in both North and South Korea after the Korean War.
+
+More fun facts (when the user asks for more):
+
+- (culture) Traditionally, the long noodles would be eaten without cutting, as they symbolized longevity of life and good health, but servers at restaurants usually ask if the noodles should be cut prior to eating, and use or provide scissors to cut the noodles.
+- (about) Since the late 2010s, Pyongyang naengmyeon has gained significant popularity among younger generations in South Korea.
+- (about) Public interest in the dish spiked significantly following the April 2018 Inter-Korean Summit, during which Okryu-gwan cold noodles were served as a main dish.
 - (origin) Naengmyeon comes from North Korea, Korea.
 
 Learn more:
@@ -1349,6 +1543,14 @@ Samgye-tang, or "ginseng chicken soup" is a tang (Korean soup) that consists pri
 
 Fun facts:
 
+- (history) During the Joseon period (1392–1897), people enjoyed the numerous chicken soup dishes that were similar to samgye-tang, including yeongye-tang, chonggye-tang, and hwanggye-tang.
+- (about) While it was the custom to make a soup with young chicken and serve it to elders during the summer days, the chicken boiled with milkvetch roots and its broth were served to the sick queen during King Injo's reign.
+- (culture) Bang Sin-yeong, a professor of Ewha Womans University, wrote in 1917 to compile the information on how to make various traditional dishes of Joseon.
+
+More fun facts (when the user asks for more):
+
+- (history) The dish began to be commercially sold at restaurants around the 1940s and under the name gyesam-tang in the 1950s, which meant chicken ginseng soup.
+- (history) Thus, since the 1960s, it became more common to stuff the chicken with a whole piece of ginseng instead of powder, reaching today's form of the dish.
 - (culture) Samgye-tang is traditionally considered to be a health food.
 - (origin) Samgye-tang comes from Korea.
 
@@ -1370,6 +1572,19 @@ Samgyeopsal, samgyeopsal-gui, or grilled pork belly is a type of gui (grilled di
 
 Fun facts:
 
+- (history) The first mention of the meat dish was in a The Dong-A Ilbo article published on November 3, 1984, titled "How to Distinguish Between Good and Bad Meat", where the dish is called segyeopsal instead of samgyeopsal.
+- (culture) The use of pork in traditional Korean cuisine such as Bossam or jeyuk-bokkeum focused on methods of hiding its smell with strong seasoning using spices such as ginger, garlic, and leek.
+- (about) After the smell problem was solved by scientific methods such as castration of pigs at the production level, the popularization of samgyeopsal became possible.
+
+More fun facts (when the user asks for more):
+
+- (history) During the late 1980s to the 1990s, the dish became a popular menu item along with Jokbal and sundae, as Samsung and Lotte entered the meat processing industry.
+- (history) In 1996, "daepae samgyeopsal", a samgyeopsal that is named because it is thinly cut like it was cut by a Plane (a tool to cut wood, called "daepae" in Korean), was invented.
+- (history) The word samgyeopsal only became an entry for the Standard Korean Language Dictionary after 1994.
+- (history) Until the 1980s, the main type of meat the Koreans preferred was beef, but pork and chicken meat were encouraged at a national policy level as a good alternative as most of the cattle were used for agriculture and thus beef supplies were deficient.
+- (history) The Hoesik culture after the 1998 financial crisis also popularized the dish as part of the South Korean office cuisine.
+- (about) During the 2000s, beoljip samgyeopsal, which was named as such because the way the meat is cut resembled a beehive (beoljip in Korean) appeared.
+- (culture) From 2005, the Jeju Island culture of providing bigger portions of meat in geun (a traditional Korean unit that is equivalent to 600g) instead of 100 grams, and the popularization of Jeju Black pig meat influenced the samgyeopsal culture.
 - (origin) Samgyeopsal comes from Fourth Republic of South Korea.
 
 Learn more:
@@ -1412,6 +1627,14 @@ Seolleongtang or ox bone soup is a Korean tang (soup) made from ox bones (mostly
 
 Fun facts:
 
+- (inspiration) In the Joseon period, Koreans regularly made nationwide sacrifices to their ancestors, such as Dangun (the legendary founder of the kingdom of Gojoseon).
+- (about) To increase the food supply in Joseon, King Seongjong ordered them to invent dishes that could feed the maximum number of people using the fewest ingredients, and seonnongtang (tang meaning "soup") was one of these.
+- (origin) According to this, the food was originated by the Mongolian invasion of Korea during the 13th century.
+
+More fun facts (when the user asks for more):
+
+- (about) King Seongjong had visited the sacrifice himself, and had eaten a meal with the people of Joseon.
+- (about) The phonetic values have changed as follows: Seonnongtang > seollongtang > seolleongtang The first change is a consonant liquidization making the two "N" sounds into softer "L" sounds for easy pronunciation.
 - (origin) Seolleongtang comes from Korea.
 
 Learn more:
@@ -1433,6 +1656,8 @@ Sinseollo or royal hot pot is an elaborate dish consisting of meatballs, small a
 
 Fun facts:
 
+- (history) Jeong Hui-ryang, a scholar in the court of Joseon Dynasty's King Yeonsan, turned to a hermit-like life in the mountains after being exiled and disillusioned from politics.
+- (inspiration) He disappeared in the mountains and legend says he became a sinseon, so the cooking vessel was named "brazier for a sinseon".
 - (origin) Sinseollo comes from Korea.
 
 Learn more:
@@ -1480,7 +1705,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (about) One explanation of Songpyeon's half moon shape stems from a historical anecdote from King Uija's reign.
+- (about) In the anecdote, a turtle once came to the palace with a carving on his back that read "Silla is half moon.", which represented a hopeful future for the kingdom.
 - (culture) Songpyeon is a popular symbol of traditional Korean culture.
+- (culture) Songpyeon is quintessential to Korean families' Chuseok celebrations.
+- (culture) Traditionally, songpyeon was made by Korean families using freshly harvested rice and then offered to their ancestors on the morning of Chuseok as thanks for the bountiful harvest during charye, an ancestral memorial ritual.
+- (culture) These three foods symbolize, respectively, the fruit of the heavens, the fruit of the earth, and the fruit of the underground.
 
 Learn more:
 
@@ -1496,6 +1726,17 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q716797) (CC0); [Wikipedia: So
 Ssam are dishes in Korean cuisine where one food is wrapped in another.
 
 - From: South Korea
+
+Fun facts:
+
+- (history) During the Goryeo period (918–1392), the state's Buddhist practices highly discouraged killing and eating animals.
+- (about) The ssam eaten during Daeboreum was believed to bring a good fortune and called bokssam, which meant "fortune ssam".
+- (history) The ancient Korean book of customs Tongguksesigi noted that women of Goryeo who were taken as servants by the Yuan dynasty made and ate ssam to have the taste of their home country's food and soothe homesickness.
+
+More fun facts (when the user asks for more):
+
+- (about) In Sasojŏl, a Joseon etiquette book, Yi Tŏngmu said it is polite to scoop and roll a ball of rice first before wrapping it with a vegetable from atop while eating ssam.
+- (about) In modern days, ssam is slowly gaining popularity outside of Korea and is being served at restaurants in various locations such as New York City, Tokyo and Brisbane.
 
 Learn more:
 
@@ -1515,6 +1756,8 @@ Sujebi, ttŭdŏguk, or hand-pulled dough soup, or Korean-style pasta soup, is a 
 
 Fun facts:
 
+- (history) Korean people began to eat sujebi and guksu, both dishes made of wheat flour, from the early Goryeo period (935~1392), but the name sujebi (earlier sujeop-eo) dates from the mid Joseon period.
+- (culture) Sujebi is today considered a typical commoner's food, but in the past, it was relatively rare and used for special occasions especially janchi such as dol janchi (the celebration of a baby's first birthday).
 - (origin) Sujebi comes from Korea.
 
 Learn more:
@@ -1556,13 +1799,16 @@ Sundubu-jjigae is a jjigae in Korean cuisine.
 
 Fun facts:
 
+- (history) The origins of using unpressed tofu in Korean cuisine is not well documented, but records from the Joseon dynasty archives show an early form of sundubu-jjigae being served.
 - (about) The first iteration of sundubu was discovered by a Joseon civil official who used spring water and sea water during its cooking process.
-- (culture) Sundubu-jjigae is assembled and cooked directly in the serving vessel, which is traditionally made of thick, robust porcelain, but can also be ground out of solid stone.
-- (origin) Sundubu-jjigae comes from Korea.
+- (origin) The key ingredient sundubu originated in the village of Chodang when Chodang Heoyeop, a Joseon-era civil official, made tofu from the spring water and used sea water instead of brine.
 
 More fun facts (when the user asks for more):
 
+- (history) Some historians assume that unpressed tofu use spread to the masses during the Joseon dynasty.
+- (culture) Sundubu-jjigae is assembled and cooked directly in the serving vessel, which is traditionally made of thick, robust porcelain, but can also be ground out of solid stone.
 - (about) Sundubu-jjigae has reached popularity overseas, making appearances in American and Canadian media such as Kim's Convenience of CBC Television.
+- (origin) Sundubu-jjigae comes from Korea.
 
 Learn more:
 
@@ -1583,7 +1829,19 @@ Tteokbokki, topokki or simmered rice cake, is a Korean food made from small-size
 
 Fun facts:
 
+- (origin) The spicy variant of tteokbokki made with gochujang-based sauce is believed first appeared in 1953, when Ma Bok-rim participated in the opening of a Korean-Chinese restaurant.
+- (about) The first record of tteokbokki appears in Siŭijŏnsŏ, a 19th-century cookbook, where the dish was listed using the archaic spelling steokbokgi.
+- (history) From the 1950s, imported wheat flour became more widely distributed in South Korea, contributing to the growth of inexpensive flour-based foods collectively known as bunsik.
+
+More fun facts (when the user asks for more):
+
+- (history) The spicy version became widely popular as an inexpensive snack during the 1970s, although both wheat- and rice-based rice cakes have continued to be used.
 - (about) Tteokbokki is also a popular home dish, as the garae-tteok can be purchased in pre-packaged, semi-dehydrated form.
+- (about) Rice tteok rose in popularity as the South Korean economy developed, and various versions of the dish have proliferated since then.
+- (culture) Tteokbokki has become one of Korea's most recognisable street food.
+- (origin) Tteokbokki was brought by restaurateurs to North Korea in 2017 and became a popular dish there.
+- (about) In 2024, North Korea banned the sale of tteokbokki, along with budae-jjigae, from sale in restaurants because the dishes are of South Korean origin.
+- (about) The 2022 English translation of South Korean author Baek Se-hee’s million plus-selling memoir, I Want to Die but I Want to Eat Tteokbokki, brought the dish to a global audience.
 - (origin) Tteokbokki comes from Korea.
 
 Learn more:
@@ -1605,7 +1863,13 @@ Tteokguk or sliced rice cake soup is a traditional Korean dish eaten during the 
 
 Fun facts:
 
+- (origin) In the book The Customs of Joseon written in 1946 by historian Ch'oe Namsŏn, the New Year custom of eating tteokguk is speculated as being originated from ancient times.
 - (culture) Eating tteokguk on New Year's Day is traditionally believed to grant good luck for the year and confer one sal (a year of age).
+- (history) A movie with the name Tteokguk (English title "New Year's Soup") was released in 1971 starring Yoon Jeong-hee and Um Aing-ran.
+
+More fun facts (when the user asks for more):
+
+- (culture) The white tteok signifying purity and cleanliness have been eaten during that specific day and it became a ritual to start off the New Year for good fortune.
 - (origin) Tteokguk comes from Korea.
 
 Learn more:
@@ -1649,7 +1913,20 @@ Yaksik or yakbap is a sweet Korean dish made by steaming glutinous rice, and mix
 
 Fun facts:
 
+- (history) Records of yaksik can be found in the historical text Samguk yusa, written in the 13th century.
+- (inspiration) According to the legend entitled Sageumgap, King Soji the 21st ruler of Silla headed on a journey to Cheoncheonjeong in the 10th year of his reign.
+- (about) If you don't open it, only one person will die." After being informed by his servant that the envelope was in direct reference to the king, The King of Silla opened the envelope.
+
+More fun facts (when the user asks for more):
+
+- (about) The King of Silla complied, he shot an arrow into the box discovering a monk and concubine awaiting to assassinate the king (Korean recipes: Sweet rice with nuts and jujubes, yaksik, 2016).
+- (history) According to the etymology book A-eon Gakbi written in early 19th century Joseon, it is noted that honey was commonly called as yak (medicine).
+- (about) The mouse spoke to King Soji in his native language telling him to follow the crow.
+- (about) The King of Silla ordered a servant to follow the crow which took him to a pond.
+- (history) The King saved himself from a potential revolt thanks to the crow's warning and the day of January 15 was designated as a day of remembrance thereafter.
+- (about) Glutinous rice was put up as an offering to the crows as a way to give thanks for saving King Silla's life during the commemorative rites, which became the origin of yaksik.
 - (culture) Yaksik is traditionally eaten on Jeongwol Daeboreum, a Korean holiday which falls on the 15th day of the 1st month of the Korean calendar (lunisolar), but also for weddings and hwangap festivities.
+- (about) Originally, this day was known as Ogiil.
 - (origin) Yaksik comes from Korea.
 
 Learn more:
@@ -1671,6 +1948,15 @@ Yangnyeom chicken is a variety of Korean fried chicken seasoned with a sweet and
 
 Fun facts:
 
+- (history) Fried chicken became popular in South Korea in the 1970s; the first fried chicken restaurant in South Korea, Lim's Chicken, opened in 1977.
+- (about) Outside Korea, yangnyeom chicken is known as Korean fried chicken.
+- (inspiration) However, it was commercialised by Yang Heekwon, an employee of Mr Yoon, who was inspired by the recipe and founded the restaurant chain Pelicana Chicken.
+
+More fun facts (when the user asks for more):
+
+- (history) The naming and trademark status of yangnyeom was argued in the South Korean courts in the 1990s, culminating in a 1997 ruling by the Supreme Court.
+- (about) A jingle in a Pelicana commercial featuring popular comedian Choi Yang-rak further contributed to the popularity of the dish.
+- (about) Yangnyeom chicken restaurants gained in popularity and have been opened in other countries, including the United States, Australia, Taiwan, China, the Philippines, Malaysia, Myanmar, Singapore, and Vietnam.
 - (origin) Yangnyeom chicken comes from South Korea.
 
 Learn more:
@@ -1692,8 +1978,13 @@ Yukgaejang or spicy beef soup is a spicy Korean soup made from shredded beef wit
 
 Fun facts:
 
+- (history) The first culinary records of yukgaejang appear in the Kyugonyoram, a Hangul cookbook written in the early 1800s.
 - (about) It is thought to be healthful and is popular due to its hot and spicy nature.
 - (origin) Yukgaejang comes from Korea.
+
+More fun facts (when the user asks for more):
+
+- (history) During the Japanese colonial era, a Daegu variant of the dish known as Daegutang gained popularity.
 
 Learn more:
 
@@ -1709,6 +2000,19 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1069561) (CC0); [Wikipedia: Y
 Yukhoe is a raw meat dish in Korean cuisine.
 
 - From: South Korea
+
+Fun facts:
+
+- (history) A 1991 comparative study of Yuan China and Goryeo Korea found that while raw meat consumption was common in China until the Yuan dynasty, it declined thereafter; in Korea, however, the preference for raw meat persisted.
+- (culture) Unlike in other East Asian cultures, where the Confucian worldview categorized raw meat consumption as a "barbarian" practice associated with nomadic peoples, yukhoe became an established dish in Korean cuisine, with possible influences from nomadic culinary traditions.
+- (history) According to the 19th century cookbook Siuijeonseo, thin slices of tender beef are soaked to remove blood before being finely shredded.
+
+More fun facts (when the user asks for more):
+
+- (history) During the Joseon Dynasty, cattle were essential to agriculture and their slaughter was strictly controlled by the government, making beef difficult to obtain.
+- (history) A study of 59 yukhoe recipes from 19 Korean cookbooks published between 1766 and 2008 found that the dish was prepared using both lean meat (salkogi) and offal (naejang), with seasoning and garnishes varying by ingredient type.
+- (history) Horse meat yukhoe is a regional specialty of Jeju Island, where horse meat consumption developed under the influence of Mongolian nomadic culture after Kublai Khan occupied Jeju in 1276, bringing 160 Mongolian horses to the island.
+- (history) Some preparations, known as sukhoe, involved stir-frying or warming the beef rather than serving it completely raw.
 
 Learn more:
 
@@ -1777,6 +2081,10 @@ Cheongju, sometimes romanized as Chungju, is a clear, refined rice wine of Korea
 
 - From: South Korea
 
+Fun facts:
+
+- (about) This book says that clear, refined rice wine was made in the royal court, while milky, unrefined rice wine was more popular among commoners.
+
 Learn more:
 
 - quick: [Cheongju (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Cheongju_%28drink%29)
@@ -1798,6 +2106,7 @@ Fun facts:
 
 - (about) The caffeine-free infusion is a popular hot drink in winter.
 - (origin) Corn tea comes from South Korea.
+- (about) Not to be confused with corn silk tea.
 
 Learn more:
 
@@ -1844,7 +2153,20 @@ Gim, also romanized as kim, is a generic term for a group of edible seaweeds dri
 
 Fun facts:
 
+- (history) The earliest mention of edible seaweed in Korea is recorded in the Memorabilia of the Three Kingdoms (1280s); this text, created during the Goryeo era, documents the history of the Three Kingdoms period of Korean history between 57 BCE and 668 CE.
+- (inspiration) The record also told the story of how King Hyojong suspended the royal submission of gim upon hearing that a single piece of gim cost 20 pieces of cotton.
+- (about) In the record, the geographical survey conducted during the regime of the King Sejong the Great described gim as the representative product of Chungcheong, Gyeongsang, and Jeolla Provinces.
+
+More fun facts (when the user asks for more):
+
+- (history) Gim was later mentioned numerous times in the Veritable Records of the Joseon Dynasty.
+- (about) The record showed how King Seonjo was urged to soothe the hardship of the country's eastern coastal people who were required to produce and submit gim as a royal offering.
+- (history) In Seonghosaseol, the encyclopedia written by the Joseon scholar Yi Ik who lived from 1681 to 1764, the author described that gim, reddish algae growing on the rocks of sea, was processed into a sheet.
+- (about) Throughout the record, gim is referred as 海衣, meaning sea cloth or sheet.
+- (about) According to the record, people strictly had to submit gim as a royal offering by a specific size.
+- (history) King Jeongjo, citing that such practice was bad for hygiene, firmly warned the governors of the provinces to not enforce specific offering sizes for gim.
 - (about) Due to the growing popularity of South Korean gim, it now accounts for approximately 70% of the global dried seaweed market.
+- (about) The sheet of gim was described in Baekheonjip, where the author Yi Kyŏngsŏk wrote the poem about receiving gim as a gift from his belated acquaintance and comparing its thinness to paper.
 - (origin) Gim comes from Korea.
 
 Learn more:
@@ -1887,7 +2209,15 @@ Ginseng tea, or insam-cha, is a traditional Korean tea made with ginseng.
 
 Fun facts:
 
+- (history) In the Annals of King Jeongjo (1776–1800) which is part of the Joseon Dynasty Annals, the term "red ginseng" was recorded.
 - (about) Ginseng is a perennial herb derived from the aromatic root of Panax ginseng, also known as Korean ginseng.
+- (history) During the Ming era (1368–1644), Li Shizen documented Korean ginseng tea in his "Great Compendium of Herbs".
+
+More fun facts (when the user asks for more):
+
+- (history) The 21st monarch of the Joseon Dynasty, King Yeongju, drank Geongongtang—a ginseng-infused tea—to preserve his health.
+- (history) The popularity of ginseng reached the western world according to text written as early as 1274 referencing Marco Polo canonizing it in different forms such as syrups, powders, roots, and as a tea.
+- (history) During the Goryeo dynasty, ginseng tea is documented as a way to strengthen the body of the user to resist stress-related illnesses or complications.
 
 Learn more:
 
@@ -1908,7 +2238,20 @@ Gochujang or red chili paste is a savory, sweet, and spicy fermented condiment p
 
 Fun facts:
 
+- (origin) Chili peppers, which originated in the Americas, were introduced to East Asia by Portuguese traders in the early 16th century.
+- (about) Shiyi xinjian, a mid-9th-century Chinese document, recorded the Korean pepper paste as 苦椒醬 (pinyin: kǔ jiāo jiàng, lit. 'pepper paste').
+- (history) The second-oldest documentation of pepper paste is found in the 1433 Korean book Collected Prescriptions of Native Korean Medicines.
+
+More fun facts (when the user asks for more):
+
+- (history) Pepper paste is again mentioned in a 1445 medical encyclopedia named Compendia of Medical Prescriptions.
+- (origin) There is mention of a type of chili pepper brought to Korea found in Collected Essays of Jibong, an encyclopedia published in 1614.
+- (history) Farm Management, a book from c. 1700, discussed the cultivation methods of chili peppers.
+- (about) He loved it so much that he ordered it served to the royal family when he became king.
+- (history) The gochujang recipe in Gyuhap chongseo, an 1809 cookbook, uses powdered meju made from 18 L (19 US qt) of soybeans and 3.6 L of glutinous rice, then adding 900–1,260 mL of chili powder and bap made from 3.6 L (3.8 US qt) of glutinous rice.
 - (culture) Traditionally, it would be naturally fermented over years in jangdok (earthenware) on an elevated stone platform called jangdokdae in the backyard.
+- (origin) However, all these sources are from the time before the actual chili peppers were introduced to Korea.
+- (culture) China and Japan, the countries with which Korea has historically shared the most culture and trade, do not include gochujang in their traditional cuisines.
 - (origin) Gochujang comes from Korea.
 
 Learn more:
@@ -1929,6 +2272,12 @@ Hoppang is a warm snack that is sold throughout South Korea.
 - Ingredients (Wikidata): rice flour
 
 Fun facts:
+
+- (inspiration) The hoppang was invented by Heo Chang-seong, founder of Samlip Foods.
+- (origin) After experimenting with recipes, the hoppang was introduced to the Korean market in 1971.
+- (inspiration) In 1969, during a visit to Japan, he saw steamed buns known as chūkaman, a Japanese variant of the Chinese baozi, being sold on the street and was inspired.
+
+More fun facts (when the user asks for more):
 
 - (origin) Hoppang comes from Korea.
 
@@ -1951,7 +2300,15 @@ Janchi-guksu or banquet noodles is a Korean noodle dish consisting of wheat flou
 
 Fun facts:
 
+- (about) There are records of guksu dating back to the Goryeo period.
+- (history) In the book Dongguk Isangguk Jeonjip Book 6 there is a mention of guksu in a line of poetry, and in the book Goryeo Dogyeong, written by an envoy from the Chinese Song Dynasty, it is mentioned that guksu was eaten on special occasions as wheat was rare and expensive in Goryeo.
 - (culture) The word janchi means "feast" in Korean, in reference to the festive occasions on which the dish is prepared, such as for a wedding or sixtieth birthday celebration.
+
+More fun facts (when the user asks for more):
+
+- (culture) The name derives from the Korean word janchi, because the noodle dish has been eaten for special occasions such as wedding feasts, birthday parties, or hwangap (60th birthday celebration) throughout Korea.
+- (culture) The word guksu means "noodles" in Korean, and noodles symbolise longevity in life and in a marriage.
+- (culture) Because the noodles are traditionally eaten at weddings, the expression "When are you going to feed us guksu?" is a way of asking "When are you going to get married?" and a wedding day might be referred to as "a day to eat guksu".
 - (origin) Janchi-guksu comes from Korea.
 
 Learn more:
@@ -1973,7 +2330,9 @@ Jjapaguri or Chapaguri, also known in English as ram-don, is a South Korean nood
 
 Fun facts:
 
+- (about) Paquet believed the word ram-don did not previously exist as he found no results on Google.
 - (origin) Jjapaguri comes from South Korea.
+- (about) Darcy Paquet, the translator of the critically acclaimed, Oscar winning film Parasite (2019), rendered the dish, featured in the film, as ram-don, meaning ramen-udon.
 
 Learn more:
 
@@ -1994,7 +2353,14 @@ Kal-guksu is a Korean noodle dish consisting of handmade, knife-cut wheat flour 
 
 Fun facts:
 
+- (about) The record of noodles can be found in documents of the Goryeo era, but the descriptions are vague and the nature of the noodles isn't clear.
+- (history) In the 12th century document Goryeo dogyeong it is mentioned that noodles were only eaten on special occasions, as wheat flour was very expensive, being imported from China.
 - (culture) Kal-guksu is traditionally considered a seasonal food, consumed most often in summer.
+
+More fun facts (when the user asks for more):
+
+- (history) A cooking description can be found in a later document, The Best New Cooking Methods of Joseon, written in 1924.
+- (history) In the 1934 book Simple Joseon Cooking, the recipe calls for the noodles to be boiled and rinsed in cold water before adding broth and garnish, a method that differs from the modern version of boiling the noodles together with the broth.
 - (origin) Kal-guksu comes from Korea.
 
 Learn more:
@@ -2016,6 +2382,14 @@ Mak-guksu or buckwheat noodles is a Korean buckwheat noodle dish served in chill
 
 Fun facts:
 
+- (history) The earliest record of the word "makguksu" in print media is a newspaper article in 1934.
+- (origin) Some say that it was made when the government recommended the cultivation of buckwheat to overcome famine after the Imjin War while others say that it originated from buckwheat sujebi eaten by slash-and-burn farmers.
+- (history) Buckwheat is thought to have been cultivated in Korea since the 5th century.
+
+More fun facts (when the user asks for more):
+
+- (history) Mak-guksu was originally eaten in the winter as a late-night snack in Chuncheon and Pyongyang but began to be eaten in all seasons in the 1970s.
+- (history) The completion of the Soyang Dam in 1973 and the subsequent development of Chuncheon as a tourist destination played a major role in transforming mak-guksu from a regional specialty into a nationally recognized dish, as construction workers and visitors from across the country widely tasted and popularized it.
 - (origin) Mak-guksu comes from South Korea.
 
 Learn more:
@@ -2033,6 +2407,20 @@ Makgeolli, sometimes anglicized to makkoli, is a Korean alcoholic drink.
 
 - From: South Korea
 - Ingredients (Wikidata): nuruk
+
+Fun facts:
+
+- (inspiration) The consumption of rice wine during the reign of King Dongmyeong (37–19 BCE) is mentioned in the founding story of the kingdom of Goguryeo in Jewang ungi (Songs of Emperors and Kings), a 13th-century Goryeo Korean book.
+- (history) Rice wine has been brewed since the Three Kingdoms era, which ran from the 1st century BCE to the 7th century CE.
+- (culture) Scottish band Colonel Mustard & The Dijon 5, playing at the inaugural DMZ Peace Train Festival in 2018, called makgeolli 'Fight Milk', or 'Korean Buckfast'.
+
+More fun facts (when the user asks for more):
+
+- (culture) Concerns were raised in Korea that this could lead to makgeolli being mistakenly regarded as traditionally Japanese rather than Korean, as had happened in the 1996 kimchi-kimuchi case.
+- (about) There are a number of other early records mentioning rice wine in the Korean Peninsula.
+- (culture) Another name for makgeolli is nongju, reflecting the traditional popularity of the beverage among farmers.
+- (about) The five-member panel reasoned that the chosen name would communicate the product's identity as a rice liquor and evoke associations with its ambassadors, the popular Korean hip-hop group Drunken Tiger.
+- (about) In 2009, Korean importers in Japan began producing makgeolli products, promoting them with the name makkori, the Japanese pronunciation of makgeolli.
 
 Learn more:
 
@@ -2095,6 +2483,10 @@ Scorched rice, also known as crunchy rice or tahdig, is a thin crust of slightly
 - From: South Korea
 - Ingredients (Wikidata): rice, cooked rice
 
+Fun facts:
+
+- (origin) Scorched rice was first made by Turkic peoples.
+
 Learn more:
 
 - quick: [Scorched rice (Wikipedia)](https://en.wikipedia.org/wiki/Scorched_rice)
@@ -2113,6 +2505,7 @@ The shiitake is an edible mushroom native to East Asia and mainland Southeast As
 Fun facts:
 
 - (history) The earliest written records of their cultivation dates to 1209, during the Song dynasty in China.
+- (about) Not to be confused with Shia Islam.
 
 Learn more:
 
@@ -2168,8 +2561,21 @@ Soju is a clear and colorless distilled alcoholic beverage from Korea, tradition
 
 Fun facts:
 
+- (about) Soju means "burned liquor", with the first syllable, so, referring to the heat of distillation and the second syllable, ju, meaning "alcoholic drink".
+- (history) Merriam-Webster dated the word's appearance in the American English lexicon to 1951.
+- (culture) Soju was traditionally a beverage distilled from rice with 35% ABV until 1965, when diluted soju with 30% ABV made from other fermented substances appeared with South Korean government's prohibition of the traditional distillation of soju from rice, in order to alleviate rice shortages.
+
+More fun facts (when the user asks for more):
+
+- (about) Etymological dictionaries record that China's shaozhou, Japan's shochu, and Korea's soju have the same etymology.
+- (about) Another name for soju is noju, with its first syllable, no/ro, likening the droplets of the collected alcohol during the distilling process to dewdrops.
+- (history) In the 1920s, over 3,200 soju breweries existed throughout the Korean Peninsula.
+- (origin) The Yuan Mongols acquired the technique of distilling arak from the Persians during their invasions of the Levant, Anatolia, and Persia, and in turn introduced it to the Korean Peninsula during the Mongol invasions of Korea (1231–1259).
 - (about) Since 2007, low alcohol soju (below 20%) has become the most common type.
 - (culture) While soju was traditionally made from rice, South Korean ethanol producers replace rice with other starch, such as cassava due to significantly lower capital costs.
+- (about) In 2008, "soju" was included in the Merriam-Webster Dictionary.
+- (about) In 2016, the word was included in the Oxford Dictionary of English.
+- (culture) Soju is traditionally made by distilling alcohol from fermented rice.
 - (origin) Soju comes from Korea.
 
 Learn more:
@@ -2187,6 +2593,12 @@ Soybean sprout is a culinary vegetable grown by sprouting soybeans.
 
 - From: South Korea
 - Ingredients (Wikidata): soy bean
+
+Fun facts:
+
+- (about) Chinese agricultural literature also records methods for producing bean sprouts; the Nongzheng quanshu states of sprout cultivation that “soybean sprouts are done the same way”.
+- (history) In Korea, soybean sprouts are documented by the early 13th century.
+- (about) The Hyangyak gugeupbang records them under the name daedu-hwang, and later Korean works describe their cultivation and culinary use.
 
 Learn more:
 
@@ -2208,6 +2620,7 @@ Ssamjang is a thick, spicy paste used with food wrapped in a leaf in Korean cuis
 Fun facts:
 
 - (origin) Ssamjang comes from Korea.
+- (about) Not to be confused with SSamJang.
 
 Learn more:
 
@@ -2228,6 +2641,15 @@ Sujeonggwa is a Korean traditional cinnamon punch.
 Fun facts:
 
 - (about) The punch is made by brewing first the cinnamon sticks and ginger at a slow boil.
+- (history) The earliest mention of sujeonggwa dates back to 1849 in the book Dongguksesigi, a book of seasonal customs written by scholar Hong Seok-mo.
+- (inspiration) Its former name was baekjeho, literally meaning "white milky beverage", and was named after the white appearance of sugar-coated persimmons.
+
+More fun facts (when the user asks for more):
+
+- (history) In the book Haedongjukji written in 1921, sujeonggwa is known to have been prepared in the Goryeo era by palace women on New Year's Day.
+- (about) The recipe of sujeonggwa is first mentioned in Sujaguigwe.
+- (about) Ginger was not used in Gunhakoedeung, and cinnamon was first used in The Recipes of Joseon.
+- (culture) Nowadays sujeonggwa is a popular traditional beverage drank year-round.
 
 Learn more:
 
@@ -2248,8 +2670,16 @@ Sundae is a type of blood sausage in Korean cuisine.
 
 Fun facts:
 
+- (history) The sundae sausage dates back to the Goryeo period (918–1392), when wild boars, prominent across the Korean Peninsula, were used in the dish.
+- (about) The Siuijeonseo itself is where sundae is first attested in an early or Middle Korean form 슌ᄃᆡ /sjuntʌi/ annotated as an abbreviation of 성기 두하 /səŋgi duha/, a Manchu loan.
 - (culture) Sundae is a popular street food in both North and South Korea, generally made by steaming cow or pig's intestines stuffed with various ingredients.
+
+More fun facts (when the user asks for more):
+
+- (culture) Traditional sundae, cow or pig intestines stuffed with seonji (blood), minced meats, rice, and vegetables, was an indulgent food consumed during special occasions, festivities and large family gatherings.
+- (culture) Sundae became an inexpensive street snack sold in bunsikjip (snack bars), pojangmacha (street stalls), and traditional markets.
 - (origin) Sundae comes from Korea.
+- (about) Not to be confused with sundae.
 
 Learn more:
 
@@ -2266,6 +2696,16 @@ Sungnyung is a traditional Korean infusion made from boiled scorched rice.
 
 - From: South Korea
 - Ingredients (Wikidata): rice
+
+Fun facts:
+
+- (about) Records of sungnyung can be found in the late Joseon era documents of Imwŏn kyŏngjeji.
+- (history) However, in the late 20th century sungnyung began to gain popularity again and many electric rice cookers now come with the ability to cook sungnyung.
+- (culture) Rice in Korea was traditionally made by using a heavy iron cauldron (like a Dutch oven), with the rice being cooked until all water had been boiled away and a crust made on the bottom of the pot.
+
+More fun facts (when the user asks for more):
+
+- (about) The consumption of sungnyung waned as nickel-silver pots and modern electric rice cookers gained popularity, as they do not generally leave a layer of roasted crust after the rice is steamed.
 
 Learn more:
 
@@ -2285,6 +2725,12 @@ Tangsuyuk is a Korean Chinese meat dish with sweet and sour sauce.
 - Ingredients (Wikidata): pork loin
 
 Fun facts:
+
+- (origin) Tangsuyuk is a dish that was first made by Chinese merchants in the port city of Incheon, where the majority of the ethnic Chinese population in contemporary South Korea live.
+- (about) However, the first syllable shared the same Sino-Xenic root enabling the use of the same hanja, and Koreans back-formed the second syllable with hanja su, meaning "water", perhaps because the sauce was considered soupy.
+- (origin) Tangsuyuk is derived from guōbāoròu, a Shandong-style sweet and sour pork dish, as Chinese immigrants in Korea, including those that had first migrated to Northeastern China, mostly had Shandong ancestry.
+
+More fun facts (when the user asks for more):
 
 - (origin) Tangsuyuk comes from Korea.
 
@@ -2306,6 +2752,8 @@ Yuja-cha, yuja tea or yuzu tea is a traditional Korean tea made by mixing hot wa
 
 Fun facts:
 
+- (about) King Sejong, who was responsible for the creation of the Korean Hangul script, was its greatest advocate.
+- (inspiration) This tea is created by curing yuzu into a sweet, thick, pulpy syrup.
 - (about) Yuja tea is popular throughout Korea, especially in the winter.
 
 Learn more:

@@ -67,7 +67,10 @@ def fact_topic(text: str) -> str:
 
 
 def wikidata_lines(dish: dict, name: str) -> list[str]:
-    """Short lines made from the dish's Wikidata facts (CC0); they only restate the recorded values."""
+    """Short lines made from the dish's Wikidata facts (CC0); they only restate the recorded values.
+    "Unknown value" entries (blank-node links, not names) are left out."""
+    dish = {key: [v for v in value if not str(v).startswith("http")] if isinstance(value, list) else value
+            for key, value in dish.items()}
     lines = []
     if dish.get("named_after"):
         lines.append(f"{name} is named after {', '.join(dish['named_after'])}.")
@@ -124,6 +127,9 @@ def dish_card(dish: dict) -> str:
     """One dish as a Markdown section of the knowledge notebook (the spec's sections, sources last)."""
     lines = [f"### {dish['name']}", ""]
     where = ", ".join(x for x in [dish.get("region"), dish.get("country")] if x)
+    dish = {key: [v for v in value if not str(v).startswith("http")]
+            if key in ("origin", "inception", "named_after", "heritage", "made_from", "parts") else value
+            for key, value in dish.items()}
     facts = []
     if where:
         facts.append(f"From: {where}")

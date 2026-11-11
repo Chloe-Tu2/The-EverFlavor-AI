@@ -33,7 +33,12 @@ Ají de gallina is a Peruvian chicken stew.
 
 Fun facts:
 
+- (origin) Aji de gallina is believed to have evolved from manjar blanco or white dish, a combination of ground almonds, milk, sugar, and chicken or fish, first introduced to Spain by the Moors prior to the Reconquista.
 - (about) Ají de gallina is considered a popular Peruvian comfort food, and the name translates to "chicken chili" or "hen's chili" in English.
+- (inspiration) Oral histories say it was created by former chefs to the French aristocracy fleeing the French Revolution and finding new employment in the Viceroyalty of Peru.
+
+More fun facts (when the user asks for more):
+
 - (origin) Ají de gallina comes from Peru.
 
 Learn more:
@@ -55,12 +60,19 @@ Anticuchos (singular anticucho, Quechua 'Anti Kuchu', Anti: 'Eastern region of t
 
 Fun facts:
 
+- (culture) In the 16th century European ingredients such as garlic were added and beef began to replace the traditional llama that was used at the time of the Inca Empire.
+- (origin) According to the text file from the National Library in Lima (Peru), it is believed that the term comes from the Quechua antikuchu (anti: 'East' + kuchu: 'cut' or uchu: 'porridge, mix').
 - (history) The modern dish was adapted during the colonial era between the 16th and 19th centuries and can now be found in Peru, Bolivia, Chile, and Ecuador, where they are known as "chuzos" or "carne en palito".
-- (culture) Anticuchos can be found on street-carts and street food stalls (anticucheras).
-- (about) While anticuchos can be made of any type of meat, the most popular are made of beef heart (anticuchos de corazón).
 
 More fun facts (when the user asks for more):
 
+- (origin) Anticucho was first made by Inca Empire.
+- (culture) Anticuchos can be found on street-carts and street food stalls (anticucheras).
+- (about) While anticuchos can be made of any type of meat, the most popular are made of beef heart (anticuchos de corazón).
+- (history) Anticucho was a popular dish among the inhabitants of the Inca Empire, and it is currently popular throughout most South American countries.
+- (culture) The writer Erika Fetzer mentions that according to tradition, anticuchos were prepared with meat and flame.
+- (culture) As a result, many traditional recipes use beef heart and other "off" cuts.
+- (culture) In Peru, the tradition continues with the traditional name and ingredients; anticuchos are consumed by all social classes of Peru, and are especially popular as a street food.
 - (origin) Anticucho comes from Peru.
 
 Learn more:
@@ -103,9 +115,13 @@ Ceviche, cebiche, sebiche, or seviche is a traditional cold dish consisting of r
 
 Fun facts:
 
+- (history) The first documented evidence of the term ceviche is from 1820, in the patriotic song "La Chicha," considered the first Peruvian national anthem.
 - (culture) Most notably, ceviche is considered the national dish of Peru and is recognized by UNESCO as an expression of Peruvian traditional cuisine and an Intangible Cultural Heritage of Humanity.
-- (history) While the fish is typically marinated in lemon or sour lime juice in contemporary preparation, ancient Andean coastal inhabitants used juices from native plants like the banana passionfruit (known locally as tumbo) before the introduction of citrus fruits to the Andean region during 16th century.
 - (origin) Ceviche comes from Peru.
+
+More fun facts (when the user asks for more):
+
+- (history) While the fish is typically marinated in lemon or sour lime juice in contemporary preparation, ancient Andean coastal inhabitants used juices from native plants like the banana passionfruit (known locally as tumbo) before the introduction of citrus fruits to the Andean region during 16th century.
 
 Learn more:
 
@@ -192,7 +208,18 @@ Lomo saltado is a traditional Peruvian dish, a stir-fry that typically combines 
 
 Fun facts:
 
+- (history) Later, large numbers of Chinese immigrant workers arrived between 1849 and 1874, to replace African slave laborers, while Peru was in the process of abolishing slavery.
 - (origin) Lomo saltado originated as part of the chifa tradition, the Chinese cuisine of Peru, though its popularity has made it part of the mainstream culture.
+- (about) According to a 2011 article that was published in the Peruvian newspaper El Comercio, the book Diccionario de la Gastronomía Peruana Tradicional, published in 2009 by Sergio Zapata Acha, includes an old description for lomo saltado, which fails to mention its Asian influence.
+
+More fun facts (when the user asks for more):
+
+- (history) The same 2011 newspaper article mentions that having a Chinese cook (or servant) was considered a luxury at the time and that years later, after completing their indenture contracts, many Chinese Peruvians opened restaurants that became known as chifa by 1921.
+- (history) A census of Lima in 1613 shows the presence of Chinese (and other Asians) in Peru, mainly as servants (and slaves).
+- (history) A 1903 Peruvian cookbook (Nuevo Manual de Cocina a la Criolla) included a short description of lomo saltado, an indication of the assimilation of Chinese cooking technique in Peruvian cuisine.
+- (history) The 1903 cookbook is not an all-inclusive list of old Peruvian dishes available in the country, and it does not contradict the Chinese-Peruvian roots of lomo saltado.
+- (inspiration) A few critics incorrectly theorized a purely Peruvian origin (without foreign influence) based on this cookbook, which features an assorted variety of regional Peruvian dishes (from Arequipa, Chorrillos, Moquegua, etc.).
+- (culture) But this cookbook's list of traditional Peruvian Criollo cuisine includes many dishes with Spanish, Italian, Cuban, Guatemalan, and Chilean origins.
 - (origin) Lomo saltado comes from Peru.
 
 Learn more:
@@ -234,6 +261,7 @@ Papa a la huancaína is a Peruvian appetizer of boiled potatoes in a spicy, crea
 
 Fun facts:
 
+- (origin) In addition, the olives that accompany the preparation also originate from the coast, and not the city of Huancayo.
 - (about) Papa a la huancaína is one of the most popular and representative gastronomic products of Peru.
 - (origin) Papa a la huancaína comes from Peru.
 
@@ -257,6 +285,7 @@ Fun facts:
 
 - (history) An early Chilean description of a dish corresponding to pastel de choclo appeared in Claudio Gay's 1862 Historia física y política de Chile: Agricultura, which described a filling of minced lamb, sometimes mixed with chicken, covered with ground corn seasoned with sugar, fat, chili and other condiments.
 - (culture) Pastel de choclo is traditional in the cuisines of Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Peru, and Uruguay.
+- (history) The Argentinian poet Florencio Escardó wrote the following ode to pastel de choclo, published in 1876:
 
 Learn more:
 
@@ -294,7 +323,14 @@ Picarones (or picarón singular) is a Peruvian dessert that originated in Lima d
 
 Fun facts:
 
+- (history) This dessert is mentioned in the autobiographical memoirs Remembrances of thirty years (1810-1840) (Spanish: Recuerdos de treinta años (1810-1840)) by Chilean José Zapiola, who mentions that picarones were typically eaten in Plaza de Armas de Santiago (Chile) before 1810.
 - (culture) It is traditional to serve picarones when people prepare anticuchos, another traditional Peruvian dish.
+- (about) Picarones are mentioned by Ricardo Palma in his book Tradiciones Peruanas.
+
+More fun facts (when the user asks for more):
+
+- (culture) People started replacing traditional ingredients with squash and sweet potato, which created a new dessert, picarones.
+- (culture) Picarones are also featured in traditional Latin American music and poetry.
 - (origin) Picarones comes from Peru.
 
 Learn more:
@@ -393,6 +429,7 @@ Adobo or adobar (Spanish for 'marinade, sauce or seasoning') is the immersion of
 
 Fun facts:
 
+- (history) One of the earliest references to adobo is found in the Manual del Cocinero, Repostero, Pastelero, Confitero Y Botillero by Mariano de Rementeria y Fica in 1850.
 - (about) The Portuguese variant is known as carne de vinha d'alhos.
 - (origin) Adobo comes from Spain.
 
@@ -537,9 +574,17 @@ Inca Kola, also known as Golden Kola in international advertising, is a soft dri
 
 Fun facts:
 
+- (history) In the late 1970s and early 1980s, Inca Kola's common logo featured the slogan "Made of National Flavor!" (¡De Sabor Nacional!), later changed to "The taste of Peru" (El Sabor del Perú).
+- (about) Lindley became its first General Manager.
+- (origin) Inca Kola comes from Peru.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1935, the 400th anniversary of the founding of Lima, Lindely launched Inca Kola, the flavor was derived from Lemon Verbena.
+- (history) By 1945, Inca Kola had become a bestseller in the Lima market thanks to extensive advertising campaigns.
+- (history) By 1970, Inca Kola had achieved a 38% market share in Peru, surpassing all other carbonated beverages in the country, becoming the representative of "Peru's Drink" (La Bebida del Perú).
 - (history) Inca Kola dates from 1935-.
 - (about) Both lemon verbena and lemongrass are known as hierbaluisa in Spanish, but they are not the same species.
-- (origin) Inca Kola comes from Peru.
 
 Learn more:
 
@@ -560,8 +605,13 @@ Kola Escocesa is a Peruvian soft drink.
 
 Fun facts:
 
-- (history) Kola Escocesa dates from 1950-.
+- (history) Shortly after moving to Arequipa in 1948, he expressed interest in creating flavored beverages to Enrique Botas, the owner of a factory in Yura that made mineral water products supplied by a nearby spring.
+- (about) For decades, affection for Kola Escocesa in Arequipa and its popularity eventually surpassed Peru's best-selling soft drink, Inca Kola, though its availability outside of the city is very limited.
 - (origin) Kola Escocesa comes from Peru.
+
+More fun facts (when the user asks for more):
+
+- (history) Kola Escocesa dates from 1950-.
 
 Learn more:
 
@@ -577,6 +627,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q6426954) (CC0); [Wikipedia: K
 Masato is a beverage made from cassava, rice, corn, oats, or pineapple.
 
 - From: Peru
+
+Fun facts:
+
+- (about) Not to be confused with Masato.
 
 Learn more:
 
@@ -614,14 +668,26 @@ A pisco sour is an alcoholic cocktail of Peruvian origin, which is made from pis
 Fun facts:
 
 - (history) Although the preparation of pisco-based mixed beverages possibly dates back to the 1700s, historians and drink experts agree that the cocktail as it is known today was invented in the early 1920s in Lima, the capital of Peru, by the American bartender Victor Vaughen Morris.
-- (origin) Pisco sour comes from Peru.
-- (history) Morris left the United States in 1903 to work in Cerro de Pasco, a city in central Peru.
+- (origin) The first grapevines were brought to Peru shortly after its conquest by Spain in the 16th century.
+- (inspiration) Peru celebrates yearly in honor of the cocktail on the first Saturday of February.
 
 More fun facts (when the user asks for more):
 
+- (history) Morris left the United States in 1903 to work in Cerro de Pasco, a city in central Peru.
 - (history) In 1916, he opened Morris' Bar in Lima, and his saloon quickly became a popular spot for the Peruvian upper class and English-speaking foreigners.
 - (history) The oldest known mentions of the pisco sour are found in newspaper and magazine advertisements, dating to the early 1920s, for Morris and his bar published in Peru and Chile.
 - (history) The pisco sour underwent several changes until Mario Bruiget, a Peruvian bartender working at Morris' Bar, created the modern Peruvian recipe for the cocktail in the latter part of the 1920s by adding Angostura bitters and egg whites to the mix.
+- (about) Spanish chroniclers from the time note the first winemaking in South America took place in the hacienda Marcahuasi of Cuzco.
+- (history) The largest and most prominent vineyards of the 16th and 17th century Americas were established in the Ica valley of south-central Peru.
+- (history) In the 1540s, Bartolomé de Terrazas and Francisco de Carabantes planted vineyards in Peru.
+- (history) Already in the 16th century, Spanish settlers in Chile and Peru began producing aguardiente distilled from fermented grapes.
+- (history) Since at least 1764, Peruvian aguardiente was called "pisco" after its port of shipping; the usage of the name "pisco" for aguardiente then spread to Chile.
+- (history) According to historian Luciano Revoredo, the preparation of pisco with lime dates as far back as the 18th century.
+- (inspiration) Revoredo further argues this drink served as the predecessor of the Californian pisco punch, invented by Duncan Nicol in the Bank Exchange Bar of San Francisco, California.
+- (about) Chile and Peru both claim the pisco sour as their national drink, and each asserts ownership of the cocktail's base liquor—pisco; consequently, the pisco sour has become a significant and oft-debated topic of Latin American popular culture.
+- (origin) Carabantes also established vineyards in Ica, where Spaniards from Andalucia and Extremadura introduced grapevines into Chile.
+- (about) At this time, the drink was named Punche (Punch), and was sold by slaves.
+- (origin) Pisco sour comes from Peru.
 
 Learn more:
 

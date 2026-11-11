@@ -12,7 +12,13 @@ Ajiaco is a soup common to Colombia, Cuba, and Peru.
 
 Fun facts:
 
+- (history) Ajiaco is believed to have become popular in Cuba during the 16th century, particularly among rural Cubans, although it was occasionally enjoyed by the upper class.
+- (culture) In the Cuban city of Camagüey, the San Juan festival begins with the making and serving of ajiaco.
 - (about) Ajiaco is especially popular in the Colombian capital, Bogotá, being called ajiaco santafereño, where it is typically made with chicken, three varieties of potatoes, and the herb Galinsoga parviflora, known locally as guasca or guascas.
+
+More fun facts (when the user asks for more):
+
+- (culture) La Calle magazine of Cuba stated that the inhabitants of the village of Santa María de Puerto del Príncipe began the tradition of making ajiaco using their own cooking ingredients, donations from passersby, surplus from farmers, and surplus slave provisions.
 - (origin) Ajiaco comes from Colombia.
 
 Learn more:
@@ -39,6 +45,10 @@ Fun facts:
 - (inspiration) Barros Jarpa is named after the 19th century Chilean Minister Ernesto Barros Jarpa, and was coined in the restaurant of the National Congress of Chile, where Barros Jarpa always asked for this sandwich.
 - (origin) Barros Jarpa comes from Chile.
 - (inspiration) Barros Jarpa is named after Ernesto Barros Jarpa.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Barros Jarpa is based on Barros Luco.
 
 Learn more:
 
@@ -236,7 +246,13 @@ The completo (Spanish for "complete", "total"; in the sense of "the works") is a
 
 Fun facts:
 
+- (origin) Completo was first made in the 1920s in the fuentes de soda (soda fountains) of central Santiago.
+- (about) Completo was there that he first saw the "hot dog" which he decided to bring back to his home country.
 - (origin) Completo comes from Chile.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with whole.
 
 Learn more:
 
@@ -300,7 +316,11 @@ Curanto (from Mapudungun: kurantu 'stony') is a traditional Chilote method of co
 Fun facts:
 
 - (history) In addition, thanks to the migratory flow of the late 19th century and early 20th century, it spread throughout the south of that country.
+- (origin) It is believed that this form of preparing foods was native to the "chono" countryside and that, with the arrival of the southern peoples and the Spanish conquistadors, new ingredients were added until it came to be the curanto that is known today.
 - (culture) The fundamental components are seafood, potatoes, along with other traditional preparations from Chiloé Archipelago such as milcao and chapalele, to which are added meats, sausages and sometimes crustaceans.
+
+More fun facts (when the user asks for more):
+
 - (origin) Curanto comes from Chile.
 
 Learn more:
@@ -364,7 +384,13 @@ Kuchen, the German word for cake, is used in other languages as the name for sev
 
 Fun facts:
 
+- (origin) In the United States, back when Jewish immigrants were first arriving in the country, many of the recipes that they brought with them utilized dried fruits as it was difficult to come across fresh ones in their home countries.
+- (about) This has roots from as early as the twelfth century, when it was customary for boys attending heder (school for Jewish children) to bring a piece of honey cake to the first day of school.
 - (origin) Kuchen comes from Germany.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Kuchen.
 
 Learn more:
 
@@ -494,7 +520,13 @@ Paila marina is a traditional Chilean seafood soup or light stew usually served 
 
 Fun facts:
 
+- (culture) Paila marina is traditional for groups of friends or family to go to the local seafood market and enjoy a paila marina, especially the morning after a party, when it is believed to aid recovery from a hangover.
+- (about) On January 1, the historic seafood market Mercado Central de Santiago is one of the busiest places in Santiago; Chilean national newspaper La Nación reported that 28,000 people were expected to visit the market on January 1, 2010.
 - (origin) Paila marina comes from Chile.
+
+More fun facts (when the user asks for more):
+
+- (about) Popular belief also ascribes aphrodisiac properties to paila marina.
 
 Learn more:
 
@@ -574,6 +606,7 @@ Porotos granados is a traditional Chilean countryside stew made mainly of ripe c
 
 Fun facts:
 
+- (origin) The stew receives its name from its main ingredient, ripe harvested Cranberry (cargamanto) beans, originated in Colombia, but also is common among the Aymara people.
 - (origin) Porotos granados comes from Chile.
 
 Learn more:
@@ -596,7 +629,11 @@ Tortilla de rescoldo or ember tortilla is a traditional Chilean flatbread, often
 Fun facts:
 
 - (culture) It consists of a wheat-flour-based bread, traditionally baked in the coals of a campfire or fireplace.
+- (about) Vendors known as palomitas, typically women dressed all in white, sell the tortillas in train stations and other public areas, especially in Antihue and Laraquete.
 - (origin) Tortilla de rescoldo comes from Chile.
+
+More fun facts (when the user asks for more):
+
 - (culture) Tortilla de rescoldo is a common street food in populated areas or along roadways.
 
 Learn more:
@@ -616,7 +653,14 @@ The albacore (Thunnus alalunga), known also as the albicore or longfin tuna, is 
 
 Fun facts:
 
+- (about) For the first year of their lives, juveniles remain close to the place where they were hatched.
+- (inspiration) Albacore form schools based on their stage in the life cycle, but also combine with other tuna like the skipjack tuna, yellowfin tuna, and bluefin tuna.
+- (about) They begin to migrate after their first year.
+
+More fun facts (when the user asks for more):
+
 - (about) Previously listed as "Near Threatened" by the International Union for Conservation of Nature (IUCN) because of the threat of overfishing, the species moved to the category "Least Concern" in 2021.
+- (about) The creation of ova, known as oogenesis, begins with the rapid production of oogonia (undifferentiated germ cells that give rise to oocytes) by mitotic separations in the oogonial nests of female tuna.
 
 Learn more:
 
@@ -636,7 +680,14 @@ Borgoña (Burgundy) is a traditional Chilean cocktail made with red wine, choppe
 
 Fun facts:
 
+- (origin) The use of strawberries in alcoholic beverages, and particularly wine, probably originated in the border regions, where there were already vineyards planted in the 17th century.
+- (history) In the mid-19th century, European technocrats started a trend of overvaluation of French wine varieties and of imitation wines that sought to copy French ones and were labeled "Burdeos," "Borgoña," and "Champagne," among others.
 - (culture) In 2011, a Chilean nutritionist calculated the number of calories in various traditional Chilean alcoholic beverages and determined that borgoña—at 250 calories per glass—was the fifth most caloric, after pihuelo, paxarette, chupilca, and cola de mono.
+
+More fun facts (when the user asks for more):
+
+- (history) Which they sell very easily."In the mid-19th century, wines were advertised with little clarity about the grape variety.
+- (history) While earlier the consumer was warned that a wine was "Bordeaux-style," "sherry-style," "Burgundy-style," eventually they became directly labeled as "Bordeaux," "Sherry," or "Burgundy." In this period the word Borgoña (Burgundy) became popular to denote types or varieties of French wines.
 
 Learn more:
 
@@ -657,7 +708,12 @@ Chicha is a fermented (alcoholic) or non-fermented beverage of Latin America, em
 
 Fun facts:
 
+- (about) It is possible that one of the first uses of the term chicha was from a group of people who lived in Colombia and Panama, the Guna.
+- (origin) Additionally, chicha is thought by Miguel Ángel Quesada Pacheco to originate from the long-extinct and poorly attested Chocoan language Cueva.
 - (culture) In the Inca Empire, chicha had ceremonial and ritual uses.
+
+More fun facts (when the user asks for more):
+
 - (origin) Chicha comes from Inca Empire.
 
 Learn more:
@@ -679,7 +735,15 @@ Cola de mono or colemono is a cocktail from Chilean cuisine, made with aguardien
 
 Fun facts:
 
+- (history) The drink, initially dubbed "cola de Montt," allegedly morphed into "cola de mono." A third theory involves President Pedro Montt (1906–1910), nicknamed El Mono Montt by his inner circle.
+- (culture) After the 1901 Chilean presidential election, when Pedro Montt was defeated by Germán Riesco, Riesco's supporters reportedly celebrated his victory and "Montt's tail" at an ice cream parlor on San Pablo Street.
+- (about) These were bottles of Anís del Mono, imported from Spain and popular in the Americas, whose label featured a monkey with a long tail.
+
+More fun facts (when the user asks for more):
+
+- (history) In the album Bajo Belgrano (1983) by Argentine jazz rock band Spinetta Jade, the ninth track is "Cola de mono," composed by Luis Alberto Spinetta.
 - (culture) It is widely consumed during Christmas and New Year celebrations, often paired with pan de Pascua (Christmas fruitcake).
+- (about) In December 2023, the culinary website TasteAtlas named cola de mono the world's best cocktail.
 - (origin) Cola de mono comes from Chile.
 
 Learn more:
@@ -721,6 +785,8 @@ Machas a la parmesana or “Parmesan machas” is a dish made with the macha.
 
 Fun facts:
 
+- (history) There is no previous record of the dish before the 1950s.
+- (about) Machas a la parmesana is popular along the coast of Chile, where the macha can be found in great numbers.
 - (origin) Machas a la parmesana comes from Chile.
 
 Learn more:
@@ -830,12 +896,20 @@ Fun facts:
 
 - (history) Its name literally means earthquake, due to the fact that it was invented after the 1985 earthquake in Chile.
 - (about) A half-size Terremoto served directly after the first one is referred to as a Réplica (aftershock).
-- (culture) Terremoto is tradition to serve the drink in a 400 ml glass.
+- (origin) Wines with a sweet additive go through a long historical tradition, originating in colonial Chile, from which the Asoleados of Cauquenes and the Pajaretes from Huasco and Elqui are still present to this day.
 
 More fun facts (when the user asks for more):
 
+- (history) The American documentary Travel Talks (1930) shows members of the Chilean upper class consuming wine together with sweet foods, such as champagne containing fresh seasonal fruits.
+- (culture) By the 1970s, the practice of adding pineapple ice cream to carbonated wine became a seasonal custom, specially during end-of-year celebrations.
+- (history) Red wine with condensed milk became popular during the 1980s in some bars outside the historic center of Santiago.
+- (history) The bar La Piojera in downtown Santiago was, according to its tenant, known for serving this drink since before 1985, In said restaurant, the Replica is also served, as well as the Tsunami, which contains beer, wine, pisco and ice.
+- (history) According to its tenant, German reporters had come to cover the 1985 earthquake in Chile, as they quickly drank the cocktail and one of them, feeling dizzy when standing up, exclaimed: "Now this one really is an earthquake!".
 - (about) Although its origin is not confirmed and many claim its creation, several bars such as La Piojera, Rincón de los canallas, and El Hoyo have contributed to popularizing the drink in Chilean culture.
+- (culture) Terremoto is tradition to serve the drink in a 400 ml glass.
 - (about) If served in a larger jug, it is popularly known as Cataclismo (cataclysm); while if a single small drink is served, it is referred to as a Temblor (small-scale earthquake).
+- (about) If made with red wine instead of Pipeño, the cocktail is then known as Africano or Terremoto Africano (African earthquake).
+- (about) A similar punch containing fruits or pineapple ice cream became popular in the mid-sixties and seventies, particularly in some bars on Paseo Ahumada and Calle Santo Domingo.
 - (origin) Terremoto comes from Chile.
 
 Learn more:
@@ -857,6 +931,7 @@ Valdiviano, as well as referring to inhabitants of Valdivia, Chile, is a Chilean
 
 Fun facts:
 
+- (history) In 1598, after the Disaster of Curalaba where the Spanish conquistadors lost almost half their territory in what was then the province of Chile, the city of Valdivia remained as one of the last Spanish strongholds.
 - (origin) Valdiviano comes from Chile.
 
 Learn more:

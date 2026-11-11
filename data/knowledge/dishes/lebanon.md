@@ -13,8 +13,13 @@ Ayran ( eye-RAHN, also ayryan) is a cold savory yogurt-based beverage found thro
 
 Fun facts:
 
+- (history) Ayran (cf. airag in Mongolian: 'mare milk', uyran in Chuvash: 'buttermilk') is mentioned in Mahmud al-Kashgari's 11th century Dīwān Lughāt al-Turk, although he did not give any information how ayran was made.
 - (origin) Ayran comes from Turkey, Iran.
 - (about) Ayran dates from -5000.
+
+More fun facts (when the user asks for more):
+
+- (history) A c. 1000 CE Turkic dictionary, Dīwān ul-Lughat al-Turk, defines ayran as a "drink made out of milk".
 
 Learn more:
 
@@ -35,6 +40,7 @@ Baba ghanoush, also spelled baba ganoush or baba ghanouj, is a Levantine appetiz
 
 Fun facts:
 
+- (history) Hans Wehr's 4th edition of A Dictionary of Modern Written Arabic, released in 1979, described bābā ghanūj and abū ghanūj as "dish of mashed eggplants, sesame oil, etc.", attributing the term to Syrian and Lebanese Arabic.
 - (culture) The eggplant is traditionally roasted, baked or broiled over an open flame before peeling so that the pulp is soft and has a smoky taste.
 - (origin) Baba ghanoush comes from Egypt.
 
@@ -78,9 +84,17 @@ Barazek or barazeq is a Levantine cookie whose main ingredient is sesame and oft
 
 Fun facts:
 
+- (history) 19th century Orientalist Reinhart Dozy described barāziq as a wheat bread topped with either dibs (syrup) or butter and sesame in his 1881 dictionary Supplément aux dictionnaires arabes.
 - (origin) It probably originated during Ottoman rule in the Syrian capital, Damascus, particularly in the Al-Midan neighborhood, although today it is so popular that it can be found in most pastry shops throughout the Levantine area (Lebanon, Jordan, Palestine and Syria) and the broader Arab world.
 - (culture) Barazek is also one of the more traditional Palestinian desserts and it is easy to find stalls selling barazek on the streets of Jerusalem.
+
+More fun facts (when the user asks for more):
+
+- (history) Barazeq was later described in an 1891 text by the International Congress of Orientalists as a cake, 20-30cm in diameter, baked in butter, either covered with sesame on one side, or plain.
+- (history) In 1898, Orientalists Albert Socin and Immanuel Benzinger also described thin barazik coated with grape-syrup, butter, and sesame being sold in Damascus as a "finer kind of bread".
+- (history) Syrian historian Khayr al-Din al-Asadi described barazeq as "thin flatbreads covered in sesame" in his 1981 book Comparative Encyclopedia of Aleppo.
 - (origin) Barazek comes from Syria.
+- (about) Not to be confused with Barazq.
 
 Learn more:
 
@@ -101,9 +115,15 @@ Booza is a frozen dairy dessert.
 
 Fun facts:
 
+- (history) Booza has been made in Damascus since at least the late 19th century, with a 2022 report on the history of the Bakdash ice cream business documenting its presence in the city by 1895.
 - (culture) Booza is traditionally made through a process of pounding and stretching in a freezer drum, instead of the more usual churning method used in other ice creams, leading to a creamy yet dense texture.
-- (origin) Booza comes from Syria.
+- (about) A 2023 article published by the London Museum discusses the history of Syrian booza and its association with Damascus.
+
+More fun facts (when the user asks for more):
+
 - (culture) The firmness of booza allows it to be shaped into a roll, which is a popular traditional serving method.
+- (origin) Booza comes from Syria.
+- (about) Not to be confused with Buza.
 
 Learn more:
 
@@ -140,7 +160,20 @@ Falafel is a deep-fried ball or patty-shaped fritter of Egyptian origin that fea
 
 Fun facts:
 
+- (culture) According to historian Gil Marks, the pita falafel sandwich was popularized after Israel's independence and in the 1950s by Jewish Yemeni refugees, though a 19 October 1939 The Palestine Post article is the first mention of the concept of falafels served in a pita bread as a street food.
+- (history) In English (where it has been written falafel, felafel, filafel and filafil), it is first attested in 1936.
+- (origin) The dish most likely originated in Egypt.
+
+More fun facts (when the user asks for more):
+
+- (history) However, the earliest written references to falafel from Egyptian sources date to the 19th century, and oil was probably too expensive to use for deep frying in ancient Egypt.
+- (history) It first spread south into the rest of Egypt, but after World War 1 it began to spread outside of Egypt.
+- (history) By 1933 a falafel shop had been opened in Beirut and from there it spread down the Red Sea coast all the way to Yemen, it had spread west into Libya, and north into Turkey.
+- (history) But the introduction of rationing in 1949 boosted falafel’s popularity.
 - (culture) Falafel is a popular street food eaten throughout the Middle East.
+- (about) Falafel is known as ṭaʿmiyya in Egypt and Sudan.
+- (about) In the Levant fava beans were replaced with chickpeas.By the time of Israel's independence, falafel had yet to become as popular among Israelis as it is today.
+- (about) The arrival of Jews expelled from the Middle East, who had eaten falafel in their previous countries helped popularize the food to more hesitant demographics.
 - (origin) Falafel comes from Israeli cuisine, Middle Eastern empires.
 
 Learn more:
@@ -163,6 +196,13 @@ Fattoush is a Levantine salad made from toasted or fried pieces of pita combined
 
 Fun facts:
 
+- (history) This description appears in materials published by the International Congress of Orientalists between 1889 and 1891.
+- (origin) Jake Wallis Simons argued in Spiked Magazine that Jews originating from the region have also been making fattoush for a long time.
+- (inspiration) In 2025, fattoush ranked 5th in the "100 Best Foods by Category" list published by Taste Atlas in the salads category based on user ratings.
+
+More fun facts (when the user asks for more):
+
+- (history) According to Oxford English Dictionary, the earliest English use of the word fattoush was in 1955 by Stevens Point Journal.
 - (history) Fattoush dates from 1900-.
 
 Learn more:
@@ -203,7 +243,12 @@ Ful medames, or simply ful, is a stew of cooked fava beans served with olive oil
 Fun facts:
 
 - (culture) Ful medames is notably a staple food in Egypt and is considered a national dish.
+- (history) In the Middle Ages, the making of fūl in Cairo was monopolized by the people living around the Princess Baths, a public bath in a tiny compound near today's public fountain of Muhammad ‘Ali Pasha, a block north of the two elegant minarets of the Mosque of Sultan al-Muayyad above the 11th century Bab Zuweila gate.
 - (origin) Ful medames comes from Egypt.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1860, Orientalist Edward William Lane described beans being cooked in a pear-shaped earthenware which was "buried, all but the neck, in the hot ashes of an oven or a [Turkish] bath, and having the mouth closely stopped: they are eaten with linseed-oil, or butter, and generally with a little lime-juice".
 - (culture) Ful medames is traditionally made in and served out of a large metal jug.
 
 Learn more:
@@ -225,6 +270,15 @@ Halawet el-jibn is a Syrian dessert made of a semolina and cheese dough, filled 
 
 Fun facts:
 
+- (about) The time period of its invention is also debated, its commonly believed to have been invented during the 19th or 20th centuries.
+- (origin) It is often claimed to have originated in the Syrian cities of Homs and Hama, and there is a long standing debated among the inhabitants of both cities over which city invented it.
+- (history) Syrian author Khayr al-Din al-Asadi described halawet el-jibn in his book "Comparative Encyclopedia of Aleppo", which was completed in 1971 and published posthumously in 1981.
+
+More fun facts (when the user asks for more):
+
+- (culture) In 2026, residents of Hama created a halawet-jibn roll over 100 meters long at a festival, which was reported to be the "longest ever".
+- (about) Al-Asadi described the dessert as a sweet made from sweet cheese, semolina, and samneh, and noted that it was popular during spring, when cheese was in season.
+- (culture) The purpose of the feat was to highlight the dessert as a symbol of the city's local culture.
 - (origin) Halawet el jibn comes from Syria.
 
 Learn more:
@@ -246,8 +300,22 @@ Hummus (full name: Hummus Bi Tahini) is a Levantine dip, spread, or savory dish 
 
 Fun facts:
 
+- (history) According to food historian Nawal Nasrallah, no records of recipes for hummus exist after the 14th century until an 1885 Lebanese cookbook, by which time garlic is established as a standard ingredient.
+- (about) Although multiple different theories and claims of origins exist in various parts of the Middle East, evidence is insufficient to determine the precise location or time of the invention of hummus.
+- (culture) Hummus is often seen as an unofficial "national dish" of Israel, reflecting its huge popularity and significance among the entire Israeli population, which Israel's critics describe as an appropriation of Lebanese, Palestinian or Arab culture.
+
+More fun facts (when the user asks for more):
+
 - (history) The earliest mention of hummus was in a 13th century cookbook attributed to the historian Ibn al-Adim from Aleppo in present-day Syria.
+- (history) The word entered the English language around the mid-20th century from the Arabic ḥummuṣ or via its borrowing for the name of the dish in Turkish: humus.
+- (about) Though regional populations widely ate chickpeas, and often cooked them in stews and other hot dishes, puréed chickpeas eaten cold with tahini do not appear in records before the Abbasid Caliphate in Egypt and the Levant.
+- (about) Other early written recipes for a dish resembling ḥummuṣ bi ṭaḥīna are recorded in cookbooks written in Cairo in the 14th-century.
+- (history) According to Ofra Tene and Dafna Hirsch, the dispute over ownership of hummus exposes nationalism through food and the important role played by the industrialization of hummus made by Israeli private companies in 1958.
+- (origin) Although hummus has traditionally been part of the cuisine of the Mizrahi Jews who lived in Arabic-speaking lands, the dish was also popularized among the Jewish immigrants from Europe in the late 19th and early 20th century.
+- (about) In recent years, through a process of gourmetization, the Arab identity of hummus became a marker of its authenticity, making famous Arab-Israeli villages such as Abu Gosh and Kafr Yasif.
+- (about) As of 2009, the Lebanese Industrialists Association was still "collecting documents and proof" to support its claim.
 - (origin) Hummus comes from Near East.
+- (about) Not to be confused with humus.
 
 Learn more:
 
@@ -268,6 +336,7 @@ Ka'ak, is a baked good of varying types produced throughout the Arab world and t
 
 Fun facts:
 
+- (history) Ka'ak is mentioned in the 10th century Kitāb al-Ṭabīkh by Ibn Sayyar al-Warraq.
 - (about) A similar pastry called kue kaak is also popular in Indonesia.
 - (origin) Ka'ak comes from Middle East, North Africa.
 
@@ -291,8 +360,18 @@ Kibbeh is a popular dish in the Arab world and the Levant in particular, made of
 
 Fun facts:
 
+- (history) The Comparative Encyclopedia of Aleppo by Syrian author Khayr al-Din al-Asadi (completed in 1971, published posthumously in 1981) described 58 different kinds of kibbeh.
 - (culture) Kibbeh is considered to be a national dish of Lebanon and Syria.
 - (origin) Kibbeh comes from Iraq, Lebanon, Syria.
+
+More fun facts (when the user asks for more):
+
+- (history) The 10th century cookbook by Ibn Sayyar al-Warraq referred to meatballs as kubab (singular kubba).
+- (history) As noted by food historian Nawal Nasrallah, the earliest mention of modern kibbeh, made with a filled shell of ground meat and grains, is in the 18th century work Taj al-'Arus min Jawahir al-Qamus.
+- (history) American Methodist missionary William McClure Thomson noted in his memoirs during his 1847 visit to Lebanon that kibbeh, then made by crushing wheat in mortar and pestle, was very popular.
+- (culture) He described it as "the national dish of the Arabs", despite its association with the Levant.
+- (history) Swedish Orientalist Jacob Berggren described 8 types of kibbeh in his 1844 dictionary, and also mentioned a proverb about its social importance: "[...], without our koubbé, we would all have died".
+- (history) The 1885 Beirut cookbook Ustadh al-Tabbakhin by author Khalil Khattar Sarkis provided 15 kibbeh recipes, including recipes for kibbeh labaniyyeh, kiyyeh bil siniyyeh, kibbeh mashwiyyeh, among others.
 
 Learn more:
 
@@ -309,6 +388,18 @@ Kibbeh nayyeh or raw kibbeh is a Levantine mezze that consists of minced raw lam
 
 - From: Lebanon
 - Ingredients (Wikidata): lamb meat
+
+Fun facts:
+
+- (history) Historical texts indicate that raw kibbeh was being consumed in the rural Levant as early as the 19th century, a recorded recipe for it can be found in a 1951 cookbook by Lebanese author George al-Rayyis.
+- (inspiration) As in other dishes based on raw meat, health departments urge to exercise extreme caution when preparing and eating this kind of food.
+- (about) Today, kibbeh nayyeh is most popular in Lebanon and Syria.
+
+More fun facts (when the user asks for more):
+
+- (culture) Kibbeh nayyeh is a popular dish among Christians of the Levant on regular and holiday occasions such as Christmas and Easter, as well as the Shia of Lebanon on their holidays.
+- (culture) Given its association with celebrations, communities in the Galilee (sometimes entire villages) refrained from preparing kibbeh nayyeh during times of mourning or misfortune.
+- (culture) Muslims in Lebanon celebrate Eid al-Adha by preparing kibbeh nayyeh with the meat of the sacrificed animal.
 
 Learn more:
 
@@ -330,12 +421,15 @@ Lahmacun, lahmajun, or lahmajo is a Middle Eastern flatbread topped with minced 
 Fun facts:
 
 - (origin) Lahmacun originated in the Levant region of West Asia and the earliest known written evidence of its existence come from medieval Syria where it is traditionally known by its Arabic name lahm bi ʿajīn ("meat with dough").
+- (history) The word lahmacun is attested in explorer Evliya Çelebi's Seyahatnâme a travelogue from the 17th century, according to Sevan Nişanyan, it is the oldest Turkish-language use of the word.
 - (about) Lahm bi ajeen, or lahmacun is a popular dish in Lebanon and Syria.
-- (culture) In English, it is sometimes referred to as "Lebanese pizza", "Armenian pizza", or "Turkish pizza", because of its round shape and superficial similarity to pizza, though it traditionally contains neither cheese nor tomato sauce and is made with a thinner crust.
 
 More fun facts (when the user asks for more):
 
 - (about) Variants of lahmacun are also common in Armenia and Turkey, where the dish became popular in local cuisines.
+- (culture) In English, it is sometimes referred to as "Lebanese pizza", "Armenian pizza", or "Turkish pizza", because of its round shape and superficial similarity to pizza, though it traditionally contains neither cheese nor tomato sauce and is made with a thinner crust.
+- (culture) In Assyrian tradition, lahmacun is served to those who are grieving the loss of a loved one, alongside coffee and other dishes.
+- (culture) In The Netherlands lahmacun is often sold as a street food or snack, often under the name Turkish pizza.
 
 Learn more:
 
@@ -357,6 +451,8 @@ Makdous is a dish of oil-cured aubergines.
 
 Fun facts:
 
+- (history) Pickled eggplants stuffed with various herbs and spices are mentioned in a 13th century Syrian cookbook called Kitab al-Wuslah ila l-habib.
+- (about) Enab Baladi reported the price of makdous reaching 500,000 Syrian Liras in 2025 in Damascus, the minimum wage being 750,000 at the time.
 - (origin) Makdous comes from Middle East, Levant, Occupied Palestinian territory.
 
 Learn more:
@@ -379,13 +475,16 @@ Manakish, singular man'ousheh is a popular Levantine pastry, consisting of dough
 Fun facts:
 
 - (culture) In 2023, manakish was inscribed to the UNESCO Intangible Cultural Heritage Lists as an emblematic culinary practice in Lebanon.
-- (about) Manakish are popular across the Levant, and can also be found in neighboring regions, and centers of Levantine emigration.
-- (origin) Manakish comes from Lebanon.
+- (history) German Orientalist Gustaf Dalman described manakish in his 1936 Arbeit und Sitte in Palaestina ("Work and Customs in Palestine") as leavened or unleavened dough coated in oil and oregano which is baked in a tabun oven.
+- (origin) Manakish was first made in Levant.
 
 More fun facts (when the user asks for more):
 
 - (culture) Traditionally, women would bake dough in a communal oven in the morning to meet their family's daily bread needs, and would prepare smaller portions of dough with different toppings for breakfast at this time.
 - (culture) Saj and taboon are also common traditional cooking instruments for manakish.
+- (about) Manakish are popular across the Levant, and can also be found in neighboring regions, and centers of Levantine emigration.
+- (about) According to food historian Gil Marks, topped flatbreads like manakish and lahmacun became common in the Levant following the popularization of "baker's ovens" (furn) where the dough is placed on a heated floor rather than being baked vertically like a tannur.
+- (origin) Manakish comes from Lebanon.
 
 Learn more:
 
@@ -405,7 +504,9 @@ Mfarakeh (Arabic: مفركة, also spelled mofarakah or mufaraqah also known as 
 
 Fun facts:
 
+- (history) Proceedings from 1889-1891 by the International Congress of Orientalists described kūsā mufarrrakah as a dish of zucchinis that are cooked in water and eaten with finely chopped meat and eggs.
 - (culture) Mfarakeh is traditionally served as part of a mezze in the Arab world, especially in the Levant (Lebanon, Syria, Palestine, Jordan).
+- (history) The 1885 cookbook Ustadh al-Tabbakhin by Lebanese author Khalil Khattar Sarkis provided 2 recipes for mufarrakat baṣal; a dish made by combining cooked onions and sliced boiled eggs.
 
 Learn more:
 
@@ -426,6 +527,12 @@ Mujaddara is a dish consisting of cooked lentils together with groats, generally
 - Ingredients (Wikidata): rice, Allium, olive oil, Lens culinaris, Lens, Carum, Oryza, fried onion
 
 Fun facts:
+
+- (history) The first recorded recipe for mujaddara appears in Kitab al-Tabikh, a cookbook compiled in 1226 by al-Baghdadi.
+- (inspiration) According to food historian Gil Marks, rice was introduced to the Middle East by the Persians from India, though it is unknown if the combination of rice and lentil was invented by either.
+- (culture) Containing rice, lentils, and meat, it was served this way during celebrations.
+
+More fun facts (when the user asks for more):
 
 - (origin) Mujaddara comes from Palestine, Levant.
 
@@ -449,7 +556,13 @@ Mulukhiyah, also known as mulukhiyya, molokhiyya, melokhiyya, molohiya or ewéd�
 
 Fun facts:
 
+- (history) Furthermore, on the 7th of Muharram in the year 395 AH (1005 AD) the Fatimid ruler of Egypt el-Hakem be Amr Ellah (The Governor by the Order of God)(r. 996–1021) issued a decree which prohibited his subjects from eating the mulukhiyah, which was thought to be an aphrodisiac.
 - (origin) Originating in Egypt, the dish became popular across the Middle East and North Africa and the Levant, Arab cuisine and the medieval Arab culinary tradition.
+- (history) However, his successor caliph al-Zahir (r. 1021–1035) permitted the eating of mulukhiyah again.
+
+More fun facts (when the user asks for more):
+
+- (history) According to the Egyptian historian al-Maqrizi (d. 1442), mulukhiyah was the favorite dish of caliph Muawiyah ibn Abi Sufyan (r. 661–680) the founder of the Umayyad Caliphate.
 - (origin) Mulukhiyah comes from Ancient Egypt.
 
 Learn more:
@@ -472,7 +585,13 @@ Pastirma is a heavily seasoned, air-dried cured meat, typically water buffalo or
 
 Fun facts:
 
+- (about) Pastirma is known as or pasterma, pastarma, pastırma, pastrma, pastourma, basdirma, basterma, basturma, or aboukh.
+- (history) Basturma existed in ancient Armenian cuisine, where it was known as aboukh.
 - (origin) Pastirma comes from Turkey.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with pastrami.
 
 Learn more:
 
@@ -516,6 +635,7 @@ Sayadieh is a seasoned fish and rice dish from the Middle East, made with cumin 
 Fun facts:
 
 - (origin) Historically, it was a fisherman's meal originating on the Mediterranean coast of Egypt, Syria, Palestine, and Lebanon, but the dish can now be found throughout the Middle East.
+- (history) An 1890 cookbook by Lebanese author Khalil al-Khuri lists 3 recipes for sayadiyeh, 2 made with fish, rice, and onions, and one made with octopus.
 - (origin) Sayadieh comes from Middle East.
 
 Learn more:
@@ -537,7 +657,12 @@ Sfiha, esfiha, esfirra, sfija, sfihah, sfeeha or fatay is a Levantine dish consi
 
 Fun facts:
 
+- (history) In Brazil, esfiha gained popularity in the late 20th century, and since has become one of the most common fast foods.
+- (origin) Sfiha was first made in Levant.
 - (culture) Sfiha is traditionally found in the countries of the Levant, and is closely related to manakish and lahmacun.
+
+More fun facts (when the user asks for more):
+
 - (origin) Sfiha has become popular in parts of South America, where it is known as esfiha or esfirra in Brazil or as empanada árabe ("Arab empanada"), fatay or sfija in Argentina, after being introduced by Arab Brazilians and Arab Argentines from the Levant and Armenia.
 - (origin) Sfiha comes from Bilad al-Sham.
 
@@ -582,6 +707,15 @@ Shakriyeh is a traditional Levantine stew of lamb cooked in yogurt, often served
 
 Fun facts:
 
+- (inspiration) The name shakriyeh is thought to have been derived from the first name "shakir", with the person it was named after remaining unknown.
+- (history) Shakriyeh is attested as early as the 19th century; Lebanese scholar Butrus al-Bustani defined shakriyeh in his 1867 dictionary titled Kitāb Muḥīṭ al-muḥīṭ as "a dish of meat cooked in yogurt".
+- (culture) Muslims traditionally cook shakriyeh on Eid al-Fitr as well as Eid al-Adha, and on the first day of Ramadan, and Christians prepare it on Christmas.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Recipes for meat cooked in yogurt can be found in medieval Arabic cookbooks, according to author Claudia Roden, 10th century poet Badi' al-Zaman al-Hamadani wrote a story about such a dish called madira.
+- (culture) Shakriyeh is typically cooked to celebrate special occasions.
+- (culture) Shakriyeh features in several traditional Syrian proverbs and poems.
 - (origin) Shakriyeh comes from Levant.
 
 Learn more:
@@ -604,13 +738,20 @@ Shawarma is a Middle Eastern food that originated in the Levant during the Ottom
 
 Fun facts:
 
+- (history) The name is attested in English and Arabic as early as the 19th century; Socrates Spiro's 1895 Egyptian Arabic-English dictionary translated šāwirma as "rich stew, roast meat".
+- (origin) The technique of shawarma—grilling a vertical stack of meat slices and cutting it off as it cooks—first appeared during the Ottoman Empire in the 19th century in the form of döner kebab, from which both the Greek gyros and the Levantine shawarma are derived.
 - (culture) Traditionally made with lamb or mutton, it may also be made with chicken, turkey meat, beef, falafel or veal.
-- (origin) Shawarma comes from Levant.
-- (about) Shawarma dates from 0019-.
 
 More fun facts (when the user asks for more):
 
+- (origin) Shawarma led to the development during the early 20th century of the contemporary Mexican dish tacos al pastor when it was brought there by Lebanese immigrants.
 - (culture) Shawarma is a popular street food throughout the world.
+- (about) The innovation of this technique is credited by Encyclopedia Britannica to a 19th-century Turkish butcher named Iskender, whose shop in Bursa offered grilled meats that were layered on the vertical spit and slowly carved off into pieces.
+- (about) Shawarma is also especially popular in Ottawa, Ontario, where a large community of the Lebanese diaspora exists.
+- (origin) In 2024, Ottawa City Council declared Ottawa the "shawarma capital of Canada", following a motion introduced by Laura Dudas.
+- (about) Shawarma's adaptation and popularity in Israeli cuisine has been a subject of political debate within the politics of food in the Arab–Israeli conflict.
+- (origin) Shawarma comes from Levant.
+- (about) Shawarma dates from 0019-.
 
 Learn more:
 
@@ -654,8 +795,15 @@ Tabbouleh, also transcribed tabouleh, tabbouli, tabouli, or taboulah, is a Levan
 
 Fun facts:
 
-- (culture) Tabbouleh is traditionally served as part of a mezze in the Eastern Mediterranean and the Arab world.
+- (origin) Use of the word in English first appeared in the 1950s.
+- (culture) Since 2001, it is celebrated the first Saturday of the month of July.
 - (about) Like hummus, baba ghanoush, pita bread, and other elements of Arab cuisine, tabbouleh has become a popular food in the United States.
+
+More fun facts (when the user asks for more):
+
+- (origin) Tabbouleh made by Syrian Jews uses bulgur as the main ingredient, rather than parsley, this variety was introduced by them to Israel and into the US in the 1970s.
+- (culture) Tabbouleh is traditionally served as part of a mezze in the Eastern Mediterranean and the Arab world.
+- (about) Originally from the mountains of Lebanon and Syria, tabbouleh has become one of the most popular salads in the Middle East.
 - (origin) Tabbouleh comes from Lebanon, Syria.
 
 Learn more:
@@ -677,7 +825,12 @@ Salsat toum (Arabic for 'garlic sauce'), also known as toumiya or simply toum, i
 
 Fun facts:
 
+- (history) The sauce goes by many names in Arabic, including, in addition to the above: مثومة and ثومية. 19th-century Orientalist Reinhart Dozy described muthawwamah as a "white sauce made from garlic and cheese" in his 1881 dictionary titled Supplément aux dictionnaires arabes.
+- (origin) Toum was first made in Lebanon.
 - (culture) There are many variations; a common one contains garlic, salt, olive oil or vegetable oil, and lemon juice, traditionally crushed together using a wooden mortar and pestle.
+
+More fun facts (when the user asks for more):
+
 - (about) There is also a popular variation in Lebanon where mint is added; it is called zeit wa toum ('oil and garlic').
 
 Learn more:
@@ -701,6 +854,12 @@ Akkawi cheese is a white brine cheese from the Levant region, named after the Pa
 
 Fun facts:
 
+- (history) Muslim scholar Ahmed Aref El-Zein's 1913 book The History of Sidon contained a list of imported goods into Sidon, Lebanon, from 1907, which mentioned 1200 containers of "Akkawi cheese" being imported from the cities of Haifa and Acre.
+- (inspiration) Akkawi cheese is named after the port city of Acre. ʿAkkāwī is a nisba meaning "from Acre".
+- (origin) Akkawi was first made in Levant.
+
+More fun facts (when the user asks for more):
+
 - (inspiration) Akkawi is named after Acre.
 - (origin) Akkawi comes from Levant, Syria.
 
@@ -723,12 +882,17 @@ Arabic coffee, known in Arabic as qahwa, is a family of brewed coffee made from 
 Fun facts:
 
 - (origin) Arabic coffee originated in Greater Yemen, beginning in the port city of Mokha in Yemen and eventually travelling to Mecca in Hejaz, Egypt, the Levant, and then, in the mid-16th century, to Turkey and from there to Europe where coffee eventually became popular as well.
+- (history) The earliest credible evidence of coffee drinking appears in the middle of the 15th century (but believed to be much earlier) from Yemen as coffee was in use in Yemen's Sufi monasteries.
 - (culture) Arabic coffee is an Intangible Cultural Heritage of Arab states, confirmed by UNESCO.
-- (about) Arabic coffee is typically brewed in a dallah or cezve, and served in a small cup decorated with a pattern, known as a finjān.
 
 More fun facts (when the user asks for more):
 
 - (culture) Every year on 3 March, Yemenis celebrate the "Yemeni Coffee Day," a national festival to encourage coffee cultivation.
+- (history) The word coffee entered the English language in 1582 via the Dutch koffie, borrowed from the Ottoman Turkish kahve, in turn borrowed from the Arabic قَهْوَة (qahwa, 'coffee, a brew').
+- (history) In 1511, it was forbidden for its stimulating effect by conservative, orthodox imams at a theological court in Mecca.
+- (history) However, these bans were to be overturned in 1524 by an order of the Ottoman Turkish Sultan Suleiman I, with Grand Mufti Mehmet Ebussuud el-İmadi issuing a fatwa allowing the consumption of coffee.
+- (history) In Cairo, Egypt, a similar ban was instituted in 1532, and the coffeehouses and warehouses containing coffee beans were sacked.
+- (about) Arabic coffee is typically brewed in a dallah or cezve, and served in a small cup decorated with a pattern, known as a finjān.
 - (origin) Arabic coffee comes from Arabian Peninsula.
 
 Learn more:
@@ -748,6 +912,12 @@ Arak or araq is a distilled Middle Eastern spirit of the anise drinks family.
 - From: Lebanon
 - Ingredients (Wikidata): anise seed
 
+Fun facts:
+
+- (history) The 1936 book Arbeit und Sitte in Palaestina ("Work and Customs in Palestine") by German orientalist Gustaf Dalman described a preparation method for arak that uses grapes and anise seeds which he learned in the Galilee region.
+- (culture) Wortabet's 1856 book Syria and the Syrians contained remarks about arak: [A]rak, a kind of spirit, also manufactured in this country, and which the natives use in visits of ceremony and on festivals; on those occasions it is handed round in small finjans or wine cups.
+- (about) Not to be confused with arrack.
+
 Learn more:
 
 - quick: [Arak (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Arak_%28drink%29)
@@ -762,6 +932,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q330880) (CC0); [Wikipedia: Ar
 Bahārāt is a spice mixture or blend used in Middle Eastern cuisines.
 
 - From: Lebanon
+
+Fun facts:
+
+- (history) Allspice became a prominent component of baharat when it arrived to the region from Central America in the 16th century.
+- (origin) The word originates from the Persian word bahār.
 
 Learn more:
 
@@ -805,6 +980,8 @@ Fatteh is a dish eaten in the Arab world consisting of pieces of fresh, toasted,
 
 Fun facts:
 
+- (history) Similar dishes to fatteh were mentioned in the 10th century Arabic cookbook by Ibn Sayyar al-Warraq.
+- (about) Fatteh was a popular dish in the Fatimid Caliphate during the 10-12th centuries.
 - (origin) Fatteh comes from Egypt, Yemen, Jordan, Lebanon, Syria, Palestine.
 
 Learn more:
@@ -827,8 +1004,21 @@ Halloumi, or haloumi, is a type of dairy product made with milk originating from
 
 Fun facts:
 
+- (history) The earliest known surviving descriptions of halloumi in Cyprus were recorded around 1554 by Florios Voustroniou, head of the Secretariat in the Venetian administration of Cyprus, where it was called "calumi".
+- (about) Halloumi is thought to have first been made by Bedouins, as its preserved qualities were ideal for a nomadic lifestyle.
+- (origin) Traditionally, Cypriot halloumi was made from goat’s and/or sheep milk, since there were few cows on the island until they were introduced by the British in the 20th century.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1788, Archimandrite Kyprianos referred to the cheese in his book Chronological History of the Island of Cyprus, where he also noted that the cheese was exported.
+- (history) In the early 1940s, authorities began issuing licenses to produce it.
+- (history) Georgios Vizyinos, who lived in Cyprus as a teenager, wrote a poem To Ptochon tis Kyprou (1867) that describes eating halloumi in a village.
 - (culture) Halloumi is traditionally made from a mixture of goat milk and sheep's milk; however, due to lower cost of cow's milk and price sensitivity of consumers, modern halloumi increasingly contains cow's milk.
 - (about) Halloumi has a high melting point and so can easily be fried or grilled, a property that makes it a popular meat alternative among vegetarians.
+- (about) By 2013, demand in the UK had surpassed that in every other European country except Cyprus, where that year, the average resident ate 8 kilograms of halloumi per year.
+- (about) In 2018, a protocol was signed for the export of halloumi to China and sales surged.
+- (about) As demand grew, industrial halloumi-makers began using more of the cheaper and more plentiful cow's milk; by 2019, almost all halloumi exported to the UK was composed of 80% cow's milk.
+- (about) In 2023, annual production of the cheese exceeded 450,000 tons.
 - (origin) Halloumi comes from Cyprus.
 
 Learn more:
@@ -909,13 +1099,26 @@ Mate is a caffeine-rich infused herbal drink made with yerba mate (Ilex paraguar
 
 Fun facts:
 
-- (about) Mate is especially popular in South America and the Levant.
-- (origin) Mate comes from Uruguay, Brazil, Argentina, Paraguay.
-- (about) Mate is also known as chimarrão in Portuguese, cimarrón in Spanish, and ka'ay in Guarani.
+- (history) With the Spanish colonization of Paraguay in the late 16th century the consumption of yerba mate spread to Spanish settlers, and in the 17th century to the Río de la Plata and from there to Peru and Chile.
+- (about) Mate was first consumed by the indigenous Guaraní who live in what is now Paraguay, southeastern Brazil, Argentina, Bolivia, Uruguay, and the Tupí people who lived in neighbouring areas.
+- (origin) Mate was first made by Guaraní people.
 
 More fun facts (when the user asks for more):
 
+- (history) The industry continued to be of prime importance for the Paraguayan economy after independence, but development in benefit of the Paraguayan state halted after the Paraguayan War (1864–1870) that devastated the country both economically and demographically.
+- (history) In the mid-17th century, Jesuits managed to domesticate the plant and establish plantations in their Indian reductions in the Argentine province of Misiones, sparking severe competition with the Paraguayan harvesters of wild stands.
+- (history) After their expulsion in the 1770s, the Jesuit missions – along with the yerba mate plantations – fell into ruins.
+- (history) When Brazilian entrepreneurs turned their attention to coffee in the 1930s, Argentina, which had long been the prime consumer, took over as the largest producer, resurrecting the economy of Misiones Province, where the Jesuits had once had most of their plantations.
+- (about) An acute accent is not used in the Spanish spelling, because the first syllable is stressed; "maté" with the stress on the second syllable means "I killed".
+- (origin) Mate was first made in Parana River Basin.
+- (about) Mate is especially popular in South America and the Levant.
+- (about) Mate is also known as chimarrão in Portuguese, cimarrón in Spanish, and ka'ay in Guarani.
 - (about) A very similar preparation, known as mate cocido, removes some of the plant material and sometimes comes in tea bags.
+- (about) As of 2018, Argentina was the largest producer with 56–62%, followed by Brazil, 34–36%, and Paraguay, 5%.
+- (culture) In Brazil, traditionally prepared mate is known as chimarrão, although the Portuguese word mate and the expression "mate amargo" (bitter mate) are also used in Argentina and Uruguay.
+- (culture) Argentina has celebrated National Mate Day every 30 November since 2015.
+- (origin) Mate comes from Uruguay, Brazil, Argentina, Paraguay.
+- (about) Not to be confused with tereré, mate tea.
 
 Learn more:
 
@@ -936,6 +1139,7 @@ Muhammara or mhammara is a dip made of walnuts, red bell peppers, pomegranate mo
 
 Fun facts:
 
+- (history) Muhammara was described in Khayr al-Din al-Asadi's 1981 encyclopedia as an appetizer of crumbled ka'ak, pomegranate molasses, walnuts, peppers, and oil.
 - (origin) Muhammara comes from Syria.
 
 Learn more:
@@ -958,6 +1162,7 @@ Nabulsi is a Palestinian white brined cheese made in the Middle East.
 
 Fun facts:
 
+- (origin) Nabulsi cheese was first made in Middle East.
 - (culture) Nabulsi cheese is a typical ewe's or goat's milk cheese, but is traditionally flavored with mahleb (Prunus mahaleb) and mastic (Pistacia lentiscus) added to the boiling brine.
 - (origin) Nabulsi cheese comes from Palestine.
 
@@ -980,6 +1185,7 @@ A nut is a fruit consisting of a hard or tough nutshell protecting a kernel that
 Fun facts:
 
 - (origin) Most seeds come from fruits that naturally free themselves from the shell, but this is not the case in nuts such as hazelnuts, chestnuts, and acorns, which have hard shell walls and originate from a compound ovary.
+- (about) Not to be confused with nut, dried fruit, dry fruit.
 
 Learn more:
 
@@ -1001,6 +1207,8 @@ Shanklish, also known as chancliche, shinklish, shankleesh, sorke, sürke, or ed
 
 Fun facts:
 
+- (history) The word is attested in Arabic as early as the 19th century; an 1898 dictionary by Lebanese author Rasheed Atiyya defined shanklish as "thick sour milk".
+- (about) The Guinness world record for heaviest piece of shanklish was set in 2008, in Syria, weighing over 200 kilograms.
 - (origin) Shanklish comes from Lebanon, Syria.
 
 Learn more:
@@ -1041,6 +1249,11 @@ Tahini is a Middle Eastern condiment (a seed butter) made from ground sesame see
 - From: Lebanon
 - Ingredients (Wikidata): sesame seed
 
+Fun facts:
+
+- (history) The word tahini had appeared in English by the late 1930s.
+- (history) In North America, sesame tahini, along with other raw nut butters, was available by 1940 in health food stores.
+
 Learn more:
 
 - quick: [Tahini (Wikipedia)](https://en.wikipedia.org/wiki/Tahini)
@@ -1056,6 +1269,20 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q383389) (CC0); [Wikipedia: Ta
 Tarator, sometimes called tahinia sauce, is a nut- or tahini- based sauce made with lemon juice and garlic that is found in Middle Eastern cuisine and usually served next to fish, falafel, or beef shawarma.
 
 - From: Lebanon
+
+Fun facts:
+
+- (history) The earliest mention of the word tarator was by Ottoman explorer Evliya Çelebi in 1655, in his book Seyahatnâme.
+- (origin) According to food historian Murat Doğan, tarator was a product originating in Byzantine cuisine, which was adopted later by the Ottoman Turks.
+- (about) Dairy-free olive oil and nut sauces like tarator were popular among Ottoman Christians during fasts.
+
+More fun facts (when the user asks for more):
+
+- (history) Vinegar and nut based sauces have existed in the middle east since medieval times; the 13th century Arabic cookbook kitab al-tabikh by author Muhammad bin Hasan al-Baghdadi mentions a condiment called khall wa-khardal, made from pounded, peeled, almonds and vinegar.
+- (history) The Ottoman cookbook Melceü't-Tabbâhîn, written in 1844 by Mehmed Kâmil at the Imperial School of Medicine, contained various tarator recipes, using ingredients like walnuts garlic, bread, and spices.
+- (history) The word "tarator" appears twice in the 1890 dictionary by Turkish-to-English James Redhouse, A Turkish and English Lexicon, in which it is defined as "A sauce of pounded nuts and oil, eaten with bread".
+- (history) Another description can be found in a 1923 Egyptian Arabic-English dictionary where terator is defines as "condiment of nuts, with garlic, oil, and curdled milk, used with fish."
+- (about) Not to be confused with tarator.
 
 Learn more:
 
@@ -1077,13 +1304,23 @@ Za'atar is a versatile herb blend and family of wild herbs native to the Levant,
 
 Fun facts:
 
-- (culture) The term refers both to aromatic plants of the Origanum and Thymbra genera (including Origanum syriacum, known as Bible hyssop) and to the prepared spice mixture of dried herbs (traditionally Origanum syriacum), toasted sesame seeds, sumac, and salt.
-- (origin) Za'atar comes from Middle East.
-- (culture) With roots stretching back to ancient Egypt and classical antiquity, za'atar has been used for millennia as a seasoning, folk remedy, and cultural symbol.
+- (history) Prominent scholars including Saadia Gaon (10th century), Abraham ibn Ezra (12th century), Maimonides (12th–13th century), and Obadiah of Bertinoro (15th–16th century) identified the ezov mentioned in the Hebrew Bible (Exodus 12:22 and other passages) with the Arabic za'atar.
+- (culture) While traditionally harvested by Arab communities and used in Arab bakeries, za'atar has also been adopted into Israeli cuisine since the mid-20th century.
+- (about) The species Satureja thymbra demonstrates this linguistic connection through its various vernacular names across cultures: known as "Persian za'atar" in some contexts, while Arabic sources refer to it as za'atar rumi (Roman hyssop) and za'atar franji (European hyssop).
 
 More fun facts (when the user asks for more):
 
+- (history) In Ancient Egypt, botanical remains identified as Thymbra spicata – one of the species used in modern za'atar preparations – were discovered in the tomb of Tutankhamun (14th century BCE).
+- (history) The Greek physician Dioscorides later recorded that this species was known to the Egyptians as saem, though the precise ancient Egyptian name for za'atar remains uncertain.
+- (history) Pliny the Elder's Natural History (1st century CE) mentions maron as a component of Regale Unguentum ("Royal Perfume"), a luxurious fragrance used by Parthian rulers.
+- (history) In 1977, Israel declared Origanum syriacum a protected species due to overharvesting concerns, with stricter limits imposed in 2005 carrying potential fines for violations.
+- (culture) The term refers both to aromatic plants of the Origanum and Thymbra genera (including Origanum syriacum, known as Bible hyssop) and to the prepared spice mixture of dried herbs (traditionally Origanum syriacum), toasted sesame seeds, sumac, and salt.
+- (culture) With roots stretching back to ancient Egypt and classical antiquity, za'atar has been used for millennia as a seasoning, folk remedy, and cultural symbol.
 - (culture) Beyond cuisine, medieval Arabic and Jewish medical texts, including works by Maimonides, documented za'atar's digestive benefits, and Palestinian tradition associates it with mental alertness.
+- (culture) Jewish tradition has consistently associated za'atar with biblical references.
+- (culture) This connection appears in both Rabbinic and Samaritan traditions, as evidenced by the consistent identification across different Hebrew and Samaritan scriptural versions.
+- (culture) Za'atar holds deep cultural meaning across the Levant, serving as both a culinary staple and a symbol of heritage.
+- (origin) Za'atar comes from Middle East.
 
 Learn more:
 
@@ -1101,6 +1338,16 @@ Znoud el-sit is an Arab dessert, made from stuffed filo pastry that is shaped in
 
 - From: Lebanon
 - Ingredients (Wikidata): clotted cream, phyllo
+
+Fun facts:
+
+- (origin) The origin of the name znoud el-sit is uncertain, with folk tales claiming it originated from Ottoman Syria, it is commonly believed that the name is derived from its shape.
+- (history) The name znoud el sit is attested in English texts as early 1965.
+- (inspiration) A common folk legend credits the name of the dessert to Ottoman statesman Mustafa Agha Barbar, then governor of Tripoli, Lebanon, while assigning its origin to Kirkuk, Iraq.
+
+More fun facts (when the user asks for more):
+
+- (about) A comedy show named znoud el-sit after the sweet aired in 2013, every episode of the show showcased a different dish from Damascene cuisine.
 
 Learn more:
 

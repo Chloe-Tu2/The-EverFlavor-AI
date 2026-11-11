@@ -34,6 +34,7 @@ Chapli kabab is a minced kebab made from ground beef, mutton or chicken with var
 Fun facts:
 
 - (origin) The chapli kabab originated from the city of Peshawar in Khyber Pakhtunkhwa province, Pakistan and is today prepared across South Asia.
+- (culture) The tradition of eating grilled meat, skewered on sticks, has existed in the Indian subcontinent since at least the Indus Valley Civilisation.
 - (origin) Chapli kebab comes from Pakistan.
 
 Learn more:
@@ -56,6 +57,14 @@ Kabuli pulao (or pulaw) is a variety of pilaf made in Afghanistan and Uzbekistan
 
 Fun facts:
 
+- (history) The name "Qabili" appears to have been applied early on to a complex pilaf dish in Persian-language contexts, with the first written Qabili pilaf recipes appearing during the Safavid period in Ali Bavarchi's 1521 manuscript Kār-nāma ("The Manual").
+- (origin) Although referred to in English as "Kabuli" (see § Etymology), the dish did not originate in Kabul.
+- (culture) The Uzbeki version differs from traditional Afghan palaw preparation in that it doesn't steam the rice (sof method), but instead boils the rice until all liquid has been absorbed (dampokht method).
+
+More fun facts (when the user asks for more):
+
+- (origin) More likely, the dish originated at the border of northern Afghanistan with Uzbekistan.
+- (culture) Palaw dishes form a specific and longstanding tradition of rice preparation in the region, likely dating back as far as Bactrian times.
 - (origin) Kabuli pulao comes from Afghanistan.
 
 Learn more:
@@ -86,6 +95,7 @@ More fun facts (when the user asks for more):
 
 - (history) In the 21st century, lassi is commonly consumed in many world regions.
 - (origin) Lassi comes from India.
+- (about) Not to be confused with Lassi.
 
 Learn more:
 
@@ -105,7 +115,13 @@ Noon chai or Sheer chai, (also called Kashmiri tea, pink tea and gulabi chai) is
 
 Fun facts:
 
+- (origin) Noon chai originates from the Himalayas, where salt was added as an electrolyte to prevent dehydration at high altitudes.
 - (about) Noon chai has become popular in Pakistan, India and the Caribbean.
+- (origin) Noon chai is also related to other Central Asian salty milk teas, such as the Uyghur tea etkanchay and the Mongolian tea suutei tsai.Use of alkaline salts, like baking soda, in tea originated from the Tibetan Plateau, where naturally occurring deposits of soda were used to darken po cha.
+
+More fun facts (when the user asks for more):
+
+- (about) Noon chai is popularly consumed numerous times per day in Kashmir, served with breads such as kulcha, girda, or tsochwor.
 
 Learn more:
 
@@ -152,7 +168,12 @@ Fun facts:
 
 - (origin) First originating in China, the beverage's name there is hong cha due to the colour of the oxidized leaves when processed appropriately.
 - (history) For this reason, it has long been an article of trade, and compressed bricks of black tea even served as a form of de facto currency in Mongolia, Tibet, and Siberia well into the 19th century.
+- (inspiration) Unblended black teas are often named after the region in which they are produced.
+
+More fun facts (when the user asks for more):
+
 - (origin) Black tea comes from China.
+- (about) Not to be confused with black drink.
 
 Learn more:
 
@@ -174,6 +195,14 @@ Butter tea is a drink of the people in the Himalayan regions of Nepal, Bhutan, I
 
 Fun facts:
 
+- (history) The history of tea in Tibet dates back to the 7th century during the Tang dynasty.
+- (inspiration) According to legend, a Chinese princess married a king of Tibet which later helped establish trade routes between China and Tibet.
+- (culture) In the 13th century, tea was then used in Tibetan religious ceremonies.
+
+More fun facts (when the user asks for more):
+
+- (history) However, butter tea did not become popular in Tibet until about the 13th century, the time of the Phagmodrupa dynasty.
+- (history) By the 8th century, it was common to drink tea in Tibet.
 - (culture) Traditionally, it is made from tea leaves, yak butter, water, tsampa (roasted barley flour) and salt, although butter made from cow's milk is increasingly used, given its wider availability and lower cost.
 - (origin) Butter tea comes from India.
 
@@ -192,6 +221,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q989930) (CC0); [Wikipedia: Bu
 Doodh pati chai is a tea beverage, originating from the Indian subcontinent, consumed in India, Pakistan, Bangladesh, Afghanistan and Nepal in which milk, together with sugar, is boiled with tea.
 
 - From: Pakistan
+
+Fun facts:
+
+- (origin) This comes from the Persian چای (chay), which originated from the Chinese word for tea.
 
 Learn more:
 
@@ -212,9 +245,21 @@ Sharbat (Persian: شربت, pronounced [ʃæɾˈbæt]; Turkish şerbet, Arabic �
 
 Fun facts:
 
+- (history) The word is reported to have been first used in English vocabulary in 1603, and referenced by philosopher Francis Bacon in 1626.
+- (origin) It is believed that sharbats originated in Iran (Persia).
+- (about) The first Western mention of sharbat is an Italian reference to something that Turks drink.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 12th century, Persian book of Zakhireye Khwarazmshahi, Gorgani describes different types of Sharbats in Iran, including Ghoore, Anar, Sekanjebin, etc.
+- (about) One sharbat recorded in the 19th-century cookbook by Friedrich Unger is called Gülgülü Tiryaki Şerbeti
 - (about) Popular sharbats are made of one or more of the following: basil seeds, golāb (rose water), fresh rose petals, sandalwood, bael, hibiscus, lemon, orange, mango, pineapple, grape, falsa (Grewia asiatica) and chia seeds.
-- (origin) Sharbat comes from Iran.
 - (about) Sharbat is also popular with Muslims when breaking their daily fasts during the month of Ramadan.
+- (about) Around 400 BC, sharbat had become popular in Persia as fruit syrup historically cooled with snow.
+- (about) In the modern era sherbet powder is still popular in the UK, though Oxford Reference distinguishes this earlier drink from the later use of effervescent “sherbet powder” in English.
+- (culture) Sharbat was traditionally made with cane juice, but in modern times it is commonly made at home with sugar and water.
+- (origin) Sharbat comes from Iran.
+- (about) Not to be confused with sorbet, sherbet.
 
 Learn more:
 

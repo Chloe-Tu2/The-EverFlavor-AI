@@ -12,6 +12,8 @@ Ajoblanco (sometimes written ajo blanco) is a popular Spanish cold soup typical 
 
 Fun facts:
 
+- (origin) Ajoblanco has its origins in the Arab cuisine since almond, like many other foods and fruits, were introduced to Spain by the Arabs.
+- (origin) The narrative that its origin is Roman cuisine, which was introduced to the Roman Province of Hispania is weak and has very little basis considering that almonds were introduced by the Arabs It would eventually become a traditional dish of Andalucía.
 - (origin) Ajoblanco comes from Spain.
 
 Learn more:
@@ -242,7 +244,14 @@ Crema catalana (Catalan for 'Catalan cream'), or crema cremada ('burnt cream'), 
 
 Fun facts:
 
+- (history) La Vanguardia reported that "precursor versions" of crema catalana appear in early Catalan cookbooks, mentioning custards which were not burnt on top in the 14th century Llibre de Sent Soví and in the 16th century Llibre del Coch.
+- (culture) Analogous recipes appear in 18th century Spanish cookery books, usually under the name of Cream of Saint Joseph ("Crema de Sant Josep"), since it was a traditional dessert served during Saint Joseph's Day, although nowadays it is consumed at all times of the year.
 - (origin) Crema catalana comes from Spain.
+
+More fun facts (when the user asks for more):
+
+- (history) The recipe was first referred to as crema catalana (Catalan cream) in the 1745 cookbook by the Spanish friar Juan de Altamiras, where the recipe was said to be of Catalan origin.
+- (history) The burnt sugar topping is first documented in 1770.
 
 Learn more:
 
@@ -371,7 +380,14 @@ Fabada asturiana, often simply known as fabada, is a rich Asturian bean stew, or
 
 Fun facts:
 
+- (history) The first written reference to fabada appears in the Asturian newspaper of Gijón El Comercio in 1884, but does not mention a recipe.
 - (origin) Fabada asturiana comes from Spain.
+- (history) The consumption of fabes goes back in Asturias to the 16th century, in which it is known with certainty that they were planted in the territory and consumed.
+
+More fun facts (when the user asks for more):
+
+- (history) Scholars think it may have been born in the 18th century, although there is no evidence to support this.
+- (history) Later appearances in Asturian culinary literature relate the dish to the Asturian pot; authors such as Armando Palacio Valdés, when describing the characteristics of Asturian shepherds in his work "Pastoral Symphony" (1931), does not mention the dish.
 
 Learn more:
 
@@ -391,6 +407,12 @@ Fideuà (dialectal pronunciation of the Valencian word fideuada "large amount of
 - Ingredients (Wikidata): water, table salt, Mytilus edulis, olive oil, noodle, seafood, shrimp, Sepia esculenta, onion, garlic
 
 Fun facts:
+
+- (history) Around the year 1930 (some sources say 1915-1920) Gabriel Rodríguez Pastor, (Gabrielo from a kiosk in the port district of Grau in Gandia), worked as a cook on a boat and Juan Bautista Pascual (Zábalo), was the youngest man on the boat and his assistant.
+- (inspiration) The invention of fideuà is attributed to a picturesque story.
+- (about) The invention was liked, and fame of the dish spread to harbor restaurants such as the "Pastaora House", where they cooked the first "fideuades".
+
+More fun facts (when the user asks for more):
 
 - (origin) Fideuà comes from Spain.
 
@@ -413,6 +435,7 @@ Gachas is an ancestral basic dish of central and southern Spain.
 
 Fun facts:
 
+- (history) Gachas was largely replaced by rice and potato dishes in most areas of Spain during the 20th century, especially in the towns and cities.
 - (origin) Gachas comes from Spain.
 
 Learn more:
@@ -451,7 +474,13 @@ Gazpacho or gaspacho, also called Andalusian gazpacho (from Spanish gazpacho and
 Fun facts:
 
 - (origin) Gazpacho originated in the southern regions of the Iberian Peninsula and spread into other areas.
+- (about) Once in Spain, it became a part of southern cuisine, particularly in Córdoba, Seville or Granada Castilian kingdoms, using stale bread, garlic, olive oil, salt, and vinegar, similar to ajoblanco.
+- (history) During the 19th century, red gazpacho was created when tomatoes were added to the ingredients.
+
+More fun facts (when the user asks for more):
+
 - (origin) Gazpacho comes from Spain.
+- (about) Not to be confused with Gabacho.
 
 Learn more:
 
@@ -520,6 +549,10 @@ Huevos rotos or huevos estrellados is any of a number of Spanish dishes involvin
 
 - From: Spain
 - Ingredients (Wikidata): egg as food
+
+Fun facts:
+
+- (inspiration) In Madrid, huevos estrellados is a dish based on a pan-fried egg with a liquid yolk, accompanied by French fries (some modern versions of this dish use chips), some kind of meat (typically ham, bacon, or a sausage like chorizo or chistorra).
 
 Learn more:
 
@@ -673,8 +706,16 @@ Pa amb tomàquet, also known as pa amb tomata or pa amb tomaca (all meaning "bre
 
 Fun facts:
 
+- (history) Catalan chef Josep Lladonosa i Giró says it was first documented in the 18th century.
 - (culture) Pa amb tomàquet is considered one of the typical examples that define the Mediterranean diet, extended as a traditional recipe throughout the Catalan Countries, and its preparation has become an iconic ritual of Western Mediterranean culture.
 - (about) Pa amb tomàquet is popularly consumed on its own as a snack, as sandwich or a tapa with any meal, from breakfast to dinner.
+
+More fun facts (when the user asks for more):
+
+- (history) With better precision, Catalan cooking historian Nèstor Luján says that the first written reference is from 1884 and, according to his thesis, the recipe would have been created in the rural world during an abundant tomato harvest.
+- (history) The origin of this dish is disputed, as tomato is relatively new to Catalan cuisine (it came from America only after the 15th century).
+- (history) Widely regarded as the epitome of Catalan cuisine and identity, some sources claim it is actually a relatively recent (mid to late 19th century) in all the Mediterranean coast of Spain.
+- (history) The cook, born in 1938, remembers his grandmother explaining that her parents used to eat a dish called pa amb tomàquet.
 - (origin) Pa amb tomàquet comes from Catalonia, Pyrénées-Orientales.
 
 Learn more:
@@ -696,15 +737,23 @@ Paella is a rice dish originally from the Valencian Community.
 
 Fun facts:
 
+- (inspiration) One likely theory is that paella was invented by Albufera rice farmers in the 15th century.
 - (history) As a dish, it may have ancient roots, but in its modern form, it is traced back to the mid-19th century, in the rural area around the Albufera de València lagoon adjacent to Valencia.
-- (culture) Paella is regarded as one of the community's identifying symbols.
-- (about) Other popular local variations of paella are cooked throughout the Mediterranean area, the rest of Spain, and internationally.
+- (culture) Spanish food historian Lourdes March noted in 1999 that the dish "symbolizes the union and heritage of two important cultures, the Roman, which gives us the utensil and the Arab which brought us the basic food of humanity for centuries: rice."
 
 More fun facts (when the user asks for more):
 
+- (history) Arabs in Al-Andalus began rice cultivation around the 10th century.
+- (history) This led to rice becoming a staple by the 15th century.
+- (inspiration) Some claim that the word paella comes from the Arabic بَقِيَّة baqiyya or ba'iyya, or the plural بَقَايَا baqāyā or ba'āyā, meaning "leftovers." This claim is based on the 8th-century custom in which Moorish kings' servants would take home the rice, chicken, and vegetables their employers left at the end of the meal.
+- (culture) Paella is regarded as one of the community's identifying symbols.
 - (culture) The dish takes its name from the wide, shallow traditional pan used to cook the dish on an open fire, paella being the word for a frying pan in both Catalan and the Valencian language.
+- (about) Other popular local variations of paella are cooked throughout the Mediterranean area, the rest of Spain, and internationally.
 - (culture) In Spain, paella is traditionally included in restaurant menus on Thursdays.
+- (culture) Valencian speakers use the word paella for all pans, including the traditional shallow pan used for cooking the homonym dish.
+- (culture) In many regions of Spain and other Spanish-speaking countries, the term paellera may be used for the traditional pan, while paella is reserved for the rice dish prepared in it.
 - (origin) Paella comes from Spain.
+- (about) Not to be confused with Paelya.
 
 Learn more:
 
@@ -836,7 +885,12 @@ Ropa vieja is a dish with regional variations in Spain, Latin America and the Ph
 
 Fun facts:
 
+- (origin) Ropa vieja is believed to have been brought to the Americas by immigrants from the Canary Islands and was first reported to have been cooked in Cuba in 1857, but today is well known as a Cuban national dish.
+- (culture) The dish's origins appear to have first arisen among the Sephardic Jews of the Iberian Peninsula, as a slow-cooked stew that was prepared to be eaten over the course of a traditionally observed Shabbat, a kind of cholent called "handrajos" (similar to the Spanish word "andrajos").
 - (origin) Originating in Spain, it is known today as one of the national dishes of Cuba.
+
+More fun facts (when the user asks for more):
+
 - (origin) The name ropa vieja probably originates from the fact that it was often prepared using food left over from other meals, although it has been suggested that the name comes from the "tattered appearance" of the meat.
 - (origin) Ropa vieja comes from Cuba, Venezuela, Colombia, Costa Rica, Panama, Canary Islands.
 
@@ -881,6 +935,8 @@ Salmorejo, sometimes known as ardoria or ardorío, is a traditional soup origina
 
 Fun facts:
 
+- (history) First references to the word "salmorejo" date back to the 17th century, being a transitional soup between the old and new world.
+- (origin) It arose after the discovery of the New World and the tomato was introduced to Europe.
 - (origin) Salmorejo comes from Spain.
 
 Learn more:
@@ -902,7 +958,14 @@ A Spanish omelette or Spanish tortilla is an omelette made with eggs and potatoe
 
 Fun facts:
 
+- (inspiration) According to legend, during the 1835 siege of Bilbao, Carlist General Tomás de Zumalacárregui invented the tortilla de patatas as an easy, fast, and nutritious dish to satisfy the scarcities of the Carlist army.
+- (history) The first reference to the tortilla in Spanish is found in a Navarrese document, as an anonymous "memorial de ratonera" addressed to the court of Navarre in 1817.
 - (about) Spanish omelette is one of the most popular dishes in Spanish cuisine.
+
+More fun facts (when the user asks for more):
+
+- (history) Another tale is that the recipe was learned by Spanish prisoners captured after the Battle of Montes Claros during the Portuguese Restoration War in 1665.
+- (history) After the Portuguese victory, more than 6,000 Spanish soldiers were kept in captivity for three years, until the Treaty of Lisbon of 1668 was signed.
 - (origin) Spanish omelette comes from Spain.
 
 Learn more:
@@ -925,6 +988,14 @@ Talo or Talau, also known as pastetx or artopil in Soule, is a typical food of t
 
 Fun facts:
 
+- (origin) After corn was introduced from America to Basque agriculture in 1520, talo was subsequently prepared.
+- (history) In the 20th century the generalization of wheat bread reduced the consumption of talo, which started to only be eaten in special occasions.
+- (culture) In Bilbao and San Sebastián it is an essential element at Saint Thomas' fair, celebrated annually on December 21.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 1930s, workers would wrap foods within talo and take this to the fields.
+- (history) During the 1930s, miners also consumed talo, and it was also eaten by factory workers after this time.
 - (history) Talo is round and is cooked in a warm metal plank, named a talo burni ("talo iron").
 - (origin) Talo comes from France.
 
@@ -949,13 +1020,14 @@ Torta de Santiago (in Galician) or Tarta de Santiago (in Spanish), literally mea
 Fun facts:
 
 - (history) The application for protected geographic status identifies the first documentary evidence of the cake's existence as dating to 1577, when it was mentioned in notes of what was being eaten at the University of Santiago de Compostela.
+- (origin) Tarta de Santiago was first made in Santiago de Compostela.
 - (culture) The cross is a symbol of the Camino de Santiago pilgrimages, and the cake said to reward pilgrims upon the completion of their journey.
-- (about) In May 2010, the EU gave Tarta de Santiago PGI status within Europe.
 
 More fun facts (when the user asks for more):
 
 - (history) The origin of the cross being decorated on the cake dates to 1924 when the "Casa Mora" began to adorn the almond cakes with the silhouette.
 - (history) Food writer Claudia Roden traces the origins of the cake to the 11th century, as Jews fleeing the Almohad Caliphate headed north, bringing their almond Passover cake.
+- (about) In May 2010, the EU gave Tarta de Santiago PGI status within Europe.
 - (origin) Tarta de Santiago comes from Spain.
 - (about) Tarta de Santiago is listed as protected geographical indication.
 
@@ -1040,6 +1112,12 @@ Tuna pot, also known as marmitako in the Basque Country and as marmita, marmite,
 
 - From: Spain
 - Ingredients (Wikidata): fish, Capsicum, onion, potato, tomato
+
+Fun facts:
+
+- (history) The Basque, a seafaring people whose vessels reached the North Atlantic and Greenland from the late Middle Ages, were among the first Europeans to cultivate the potato after its introduction from the Americas, growing it along the coast of the Bay of Biscay by the late 16th century.
+- (origin) The stew originated as a one-pot meal prepared aboard Basque fishing boats during the summer tuna season, using fresh-caught fish, potatoes, and dried peppers — ingredients that kept well during long trips in the Bay of Biscay.
+- (culture) In the late 20th century, following the end of the Franco era, marmitako briefly fell out of fashion in restaurants as the Nueva Cocina Vasca movement focused on more refined preparations, but it has since returned to menus across the region in both traditional and modern interpretations.
 
 Learn more:
 
@@ -1169,6 +1247,7 @@ Botifarra is a type of sausage and one of the most important dishes of the Catal
 
 Fun facts:
 
+- (inspiration) Botifarra is based on ancient recipes, either the Roman sausage botulu or the lucanica, made of raw pork and spices, with variants today in Italy and in the Portuguese and Brazilian linguiça.
 - (culture) In Colombia, butifarras soledeñas are a popular tradition in Soledad, Atlántico.
 - (origin) Botifarra comes from Catalan countries.
 
@@ -1211,7 +1290,9 @@ Brandy de Jerez is a brandy that is matured in a solera system in the Jerez area
 
 Fun facts:
 
+- (culture) Being unable to drink the already famous wines to be found in the Jerez region for religious reasons, the Moors opted to distil them in order to obtain “alcohol” not only to make perfumes but also for antiseptic and medicinal use.
 - (inspiration) Brandy de Jerez is named after Jerez de la Frontera.
+- (origin) Brandy de Jerez was first made by Pedro Domecq Loustau.
 
 Learn more:
 
@@ -1234,7 +1315,11 @@ Cabrales is a blue cheese made in the artisan tradition by rural dairy farmers i
 Fun facts:
 
 - (inspiration) Cabrales cheese is named after Cabrales.
+- (origin) Cabrales cheese was first made in Cabrales, Peñamellera Alta.
 - (culture) This cheese can be made from pure, unpasteurized cow’s milk or blended in the traditional manner with goat and/or sheep milk, which lends the cheese a stronger, spicier flavor.
+
+More fun facts (when the user asks for more):
+
 - (origin) Cabrales cheese comes from Spain.
 
 Learn more:
@@ -1256,6 +1341,7 @@ Café con leche (Spanish for 'coffee with milk') is a coffee beverage common thr
 
 Fun facts:
 
+- (about) After becoming popular in Spain, this coffee beverage has spread to other Spanish-speaking countries and areas.
 - (origin) Café con leche comes from Spain.
 
 Learn more:
@@ -1275,7 +1361,12 @@ Calçot is a type of green onion.
 
 Fun facts:
 
+- (history) The origin of the variety is disputed, but one of the most commonly accepted versions of its history is that they were developed by Xat de Benaiges, a peasant farmer from Valls around the turn of the 20th century.
+- (about) He is said to have been the first to have planted the sprouts of garden onions, covering them with earth so a longer portion of the stems remained white and edible.
 - (culture) The origin of the calçot and its cooking method is in the town of Valls, where an annual event celebrates the harvest of calçots.
+
+More fun facts (when the user asks for more):
+
 - (culture) Nowadays, thousands of eating gatherings centered around the calçots, called calçotades (singular: calçotada), are celebrated around Catalonia.
 
 Learn more:
@@ -1297,8 +1388,22 @@ Cider is an alcoholic beverage made from the fermented juice of apples.
 
 Fun facts:
 
+- (history) The word cider is first mentioned in Middle English in biblical use as sicer, ciser ("strong drink", "strong liquor") in the 13th century and as sither(e) / cidre "liquor made from the juice of fruits" → "beverage made from apples" in the 14th century.
+- (about) The first recorded reference to cider dates back to Julius Caesar's first attempt to invade Britain in 55 BCE, when he found the native Celts fermenting crabapples.
+- (origin) Cider was first made from crab apples, ancestors of the bittersweet and bittersharp apples used by today's English cider makers.
+
+More fun facts (when the user asks for more):
+
+- (history) The specific meaning "fermented beverage from apples" appears in Old French for the first time by the Norman chronicler Wace in 1130 / 1140 (Wace, conception de Nostre Dame).
+- (about) Cider was probably first borrowed from Old French primitive form sizre "fermented beverage" (Eadwine Psalter, LXVIII, 14) and then from another younger French form cistre, later sidre, cidre "beverage made from fruits".
+- (history) By the 19th century, in the United States, cider referred to the expressed juice of apples, either before fermentation as sweet cider, or after fermentation, a hard cider.
+- (about) The first group consists of modern ciders and heritage ciders.
+- (about) Apples were historically confined to the cooler climates of Western Europe and Britain, where record-keeping was not yet common.
 - (culture) Cider remains traditionally popular across the Anglosphere, such as India, South Africa, Canada, Australia, New Zealand, Hong Kong, and the United States (particularly in New England and the Midwest).
+- (inspiration) Cider styles evolved based on the methods used, the apples available and local tastes.
+- (about) However, as cider popularity grows, the production of speciality styles has increased.
 - (origin) Cider comes from Wales, Spain, France, Germany.
+- (about) Not to be confused with apple cider.
 
 Learn more:
 
@@ -1320,6 +1425,7 @@ The coca, coc or fogassa, is a pastry typically made and consumed in Catalonia, 
 Fun facts:
 
 - (origin) Coca comes from Spain, France, Andorra, Algeria.
+- (about) Not to be confused with Coca, coca plant.
 
 Learn more:
 
@@ -1335,6 +1441,16 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1104947) (CC0); [Wikipedia: C
 Convenience food (also called tertiary processed food) is food that is commercially prepared (often through processing) for ease of consumption, and is usually ready to eat with little to no preparation.
 
 - From: Spain
+
+Fun facts:
+
+- (history) After the invention of a system of refrigerator cars in 1878, animals could be raised, slaughtered, and butchered hundreds (later thousands) of miles or kilometers away from the consumer.
+- (about) Not to be confused with ultra-processed food.
+- (history) Canned food was developed in the 19th century, primarily for military use, and became more popular during World War I.
+
+More fun facts (when the user asks for more):
+
+- (history) Before the 1850s, making a can for food required a skilled tinsmith; afterwards, an unskilled laborer, operating a can-making machine, could produce 15 times as many cans each day.
 
 Learn more:
 
@@ -1371,8 +1487,13 @@ Fuet is a Catalan thin, dry-cured, sausage of pork meat in a pork gut, covered w
 
 Fun facts:
 
+- (origin) In Europe, natural fermented sausages have a long tradition originating in Mediterranean countries during Ancient times.
 - (about) The most famous is made in the comarca (county) of Osona and is also known as Vic fuet (fuet de Vic, after the city of Vic, capital of Osona).
 - (culture) Other places that have long tradition of making it are the city of Olot and the surrounding areas.
+
+More fun facts (when the user asks for more):
+
+- (about) The Celts were famous for their cured meat, including hams and sausages.
 - (origin) Fuet comes from Spain.
 
 Learn more:
@@ -1395,12 +1516,13 @@ Garrotxa is a traditional Catalan goat cheese.
 Fun facts:
 
 - (history) Almost extinct by the early 1980s, it has been revived by a young cheesemakers and goat farmers' cooperative in the Garrotxa area of Catalonia.
+- (origin) Garrotxa cheese was first made in Garrotxa.
 - (culture) Garrotxa is traditionally made from the milk of Murciana goats and aged in caves to enhance mold development and the resulting flavor.
-- (about) As of 2010, some Catalans were seeking designation of origin status for Garrotxa.
 
 More fun facts (when the user asks for more):
 
 - (history) The revival began in 1981, and the cheese has since become widespread in artisanal production.
+- (about) As of 2010, some Catalans were seeking designation of origin status for Garrotxa.
 - (about) Garrotxa received the Protected Geographical Indication (PGI) status on 11/13/2022
 - (origin) Garrotxa cheese comes from Spain.
 
@@ -1445,6 +1567,7 @@ Idiazabal is a pressed cheese made from unpasteurized sheep milk, usually from L
 Fun facts:
 
 - (history) In October 1993, the International Academy of Gastronomy granted it the Gold Medal, recognizing Idiazabal cheese as one of the best European cheeses.
+- (origin) Idiazabal cheese was first made in Navarre, Álava, Biscay, Gipuzkoa.
 - (origin) Idiazabal cheese comes from Spain.
 
 Learn more:
@@ -1465,7 +1588,18 @@ Irouléguy AOC wines come from Lower Navarre in the Northern Basque Country, Fra
 
 Fun facts:
 
+- (history) Irouléguy AOC was boosted by monks of the Abbey of Roncesvalles in the 11th century who planted the first large scale vineyards to provide wine for pilgrims travelling along the Way of St James.
 - (inspiration) They are named after the village of Irouléguy and are the only wines with AOC certification in the Northern Basque Country.
+- (history) But the following period was marked by constant decline and the vineyards were hit hard by the Great French Wine Blight in 1912 and by the 1980s, only some 70ha were still in cultivation.
+
+More fun facts (when the user asks for more):
+
+- (history) The wines of Baigorri, Anhauze and Irouléguy were awarded AOVDQS certification in 1953 and Irouléguy was granted AOC status in October 1970.
+- (history) The history of wine-making in the area goes back to at least the 3rd century when the Romans commented on wine-making in the area.
+- (history) Following the Treaty of the Pyrenees in 1659, the monks had to give up wine-making and the vineyards which were taken over by the local villagers.
+- (history) During its peak in the 17th century, the Irouléguy vineyards comprised some 500 ha of cultivated land.
+- (history) The 18th century saw relatively high levels of employment in the area due to increased mining activity, further boosting the consumption and thus production of local wine.
+- (history) A cooperative was formed in 1952 under the lead of Alexander Bergouignan to rescue the situation and to work towards certification.
 - (history) Irouléguy AOC dates from 1970-.
 
 Learn more:
@@ -1487,6 +1621,19 @@ Izarra means “star” in Basque, and is a brand of liqueur that was created in
 
 Fun facts:
 
+- (history) In 1907, the pelota champion Chiquito gave a bottle of Izarra to King Edward VII of England when he was visiting Sare.
+- (culture) In the 1950s, as the Basque Country's iconic liqueur, Izarra sponsored numerous events, from ski competitions in the Pyrenees to pelota championships and traditional festivals.
+- (origin) Izarra was first made in French Basque Country.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1926, Izarra featured in Ernest Hemingway’s first novel, The Sun Also Rises.
+- (history) The botanist Joseph Grattau created the “Izarra Fine-Hendaye” liqueur in Hendaye in the Basque Country in 1906.
+- (history) In 1909, Izarra covered the walls of houses in the Basque Country with advertisements and commissioned numerous posters that appeared in Biarritz and Bayonne.
+- (history) In 1912, building on its success, Izarra expanded and opened a large distillery in Bayonne on the banks of the Adour.
+- (history) In 1929, Izarra gained further acclaim in a new cocktail called, Et moi je te dis…Maud (“That’s Maud for you”), that won the Championnat de Cocktail des Artistes in Paris.
+- (history) In 1934, to accompany Izarra’s arrival in the US, Zulla released its famous Izarra poster.
+- (history) In 1950, the poster designer Paul Colin produced Izarra’s most famous advertisement, which was seen all over the world.
 - (history) Izarra dates from 1904-.
 - (origin) Izarra comes from French Basque Country.
 
@@ -1505,6 +1652,12 @@ The kalimotxo or calimocho is a drink consisting of equal parts red wine and a c
 
 - From: Spain
 - Ingredients (Wikidata): red wine, cola, highball glass
+
+Fun facts:
+
+- (history) That changed in 1953, when the first Coca-Cola factory opened in Spain.
+- (culture) The combination was given various names, until 1972 when its mass usage at a festival in Algorta, Biscay led to it being christened the kalimotxo, a playful combination of the two creators' nicknames, Kalimero and Motxongo.
+- (history) Red wine and cola were combined in Basque Country as early as the 1920s, but Coca-Cola was not widely available.
 
 Learn more:
 
@@ -1527,6 +1680,7 @@ Manchego is a cheese made in the La Mancha region of Spain from the milk of shee
 Fun facts:
 
 - (inspiration) Manchego is named after La Mancha.
+- (origin) Manchego was first made in Castilla–La Mancha.
 - (origin) Manchego comes from Spain.
 
 Learn more:
@@ -1549,7 +1703,13 @@ Mató is a fresh cheese of Catalonia made from sheep' or goats' milk, with no sa
 Fun facts:
 
 - (culture) Mató is usually served with honey, as a traditional and emblematic Catalan dessert known as mel i mató.
+- (about) The Mató from the villages near the Montserrat mountain, such as Ullastrell and Marganell, is quite famous.
 - (origin) Mató comes from Spain.
+
+More fun facts (when the user asks for more):
+
+- (about) Mató was very popular during the Middle Ages, when it was made plain or scented with orange flowers.
+- (culture) Mató can be sprinkled with sugar, although the most traditional way is the one that uses honey to sweeten it.
 
 Learn more:
 
@@ -1570,6 +1730,7 @@ Milk coffee is a category of coffee-based drinks made with milk.
 Fun facts:
 
 - (history) Johan Nieuhof, the Dutch ambassador to China, is credited as the first person to drink coffee with milk when he experimented with it around 1660.
+- (about) Not to be confused with coffee milk.
 
 Learn more:
 
@@ -1590,6 +1751,7 @@ Mojama is a Mediterranean delicacy consisting of filleted salt-cured tuna, typic
 
 Fun facts:
 
+- (origin) The word mojama comes from the Arabic musama (dry) or mušamma (made of wax) but its origins are Phoenician, specifically from Gdr (Gadir, Cádiz today), the first Phoenician settlement in the Western Mediterranean Sea.
 - (origin) Mojama comes from Spain.
 
 Learn more:
@@ -1633,8 +1795,14 @@ Orujo is a pomace brandy (a liquor obtained from the distillation of marc, the s
 
 Fun facts:
 
+- (history) Since the 16th century Galicians have made orujo on their farms and take great pride in their liqueur, each family carefully guarding their own secret recipe.
 - (about) Orujo is popular in northern Spain, particularly in Galicia, but also in Asturias, Castile and León and Cantabria (principally in the valley of Liébana).
 - (culture) These are obtained from quality grapes and produced according to the highest standards and are replacing the traditional homemade liquor, nowadays only available in small villages.
+
+More fun facts (when the user asks for more):
+
+- (history) However, there are now over 20 commercial producers of orujo within Denominación Específica Orujo de Galicia, ("Denomination Orujo of Galicia"), which was formed in 1989.
+- (culture) Each November the town of Potes celebrates the "Fiesta del Orujo", including tastings and a contest where participants distill orujo in public with their own stills and judges award a prize for the best-tasting batch.
 - (origin) Orujo comes from Spain.
 
 Learn more:
@@ -1667,6 +1835,12 @@ Patxaran is a sloe-flavoured liqueur commonly drunk in Navarre, as well as in th
 
 - From: Spain
 - Ingredients (Wikidata): anisette, sloe
+
+Fun facts:
+
+- (history) Known to have existed in Navarre as early as the Middle Ages, patxaran was initially a home-made liqueur of rural Navarre and became popular during the late 19th century.
+- (culture) It now holds a PGI (protected geographical indication) status that protects the spirit's identity, including traditions and processes to make it, and also indicates that it can only be made and bottled in specific areas.
+- (history) Patxaran was commercialised in the 1950s and then became very popular outside Navarre.
 
 Learn more:
 
@@ -1730,7 +1904,13 @@ Queimada is an alcoholic beverage of Galician tradition.
 
 Fun facts:
 
+- (culture) Queimada has origins in the Celtic pagan festivals of Galicia.
 - (culture) Queimada is traditionally prepared in a hollowed-out pumpkin or a ceramic or clay pot.
+- (culture) The goal of the preparation ritual is to distance the bad spirits that, according with the tradition, lie in wait for men and women to try to curse them.
+
+More fun facts (when the user asks for more):
+
+- (culture) The queimada ritual takes place during Saint John's Eve, called "witches' night", on June 23.
 
 Learn more:
 
@@ -1750,6 +1930,7 @@ Ratafia is a broad term used for two types of sweet alcoholic beverages, a flavo
 Fun facts:
 
 - (history) The Oxford English Dictionary lists the word's earliest date of use as 1670.
+- (about) Not to be confused with Ratafia.
 
 Learn more:
 
@@ -1770,13 +1951,20 @@ Sangria is an alcoholic beverage originating in Spain and Portugal.
 
 Fun facts:
 
-- (culture) A punch, sangria traditionally consists of red wine and chopped fruit, often with other ingredients or spirits.
-- (about) Clericó is a similar beverage that is popular in Latin America.
-- (origin) Sangria comes from Spain, Portugal.
+- (origin) Sangria has its historical roots in the Kingdom of León during the Middle Ages, where the precursor beverage, Leonese lemonade, originated.
+- (history) The term sangria used for the drink can be traced back to the 18th century.
+- (about) During this era, residents of the Leonese kingdom crafted this concoction using wine, oranges, lemons, sugar, and spices.
 
 More fun facts (when the user asks for more):
 
+- (origin) Sangaree, a predecessor drink to sangria that was served either hot or cold, probably originated in the Caribbean (West Indies), and from there was introduced to mainland America, where it was common beginning in the American colonial era but had "largely disappeared in the United States" by the early 20th century.
+- (origin) Hispanic Americans and Spanish restaurants had re-introduced sangria to the U.S. as an iced drink by the late 1940s, and it gained greater popularity through the 1964 World's Fair in New York.
+- (history) The sangria cocktail, on the other hand, has been enjoyed since at least the early 19th century.
+- (culture) A punch, sangria traditionally consists of red wine and chopped fruit, often with other ingredients or spirits.
+- (about) Clericó is a similar beverage that is popular in Latin America.
 - (about) Sangria is very popular among foreign tourists in Spain even if locals do not consume the beverage too often.
+- (about) Wine lemonade has endured as a popular beverage in the region of Castile and León in Spain, gaining prominence in consumption, particularly during Holy Week.
+- (origin) Sangria comes from Spain, Portugal.
 
 Learn more:
 
@@ -1797,6 +1985,8 @@ Sherry vinegar is a gourmet wine vinegar made from sherry.
 
 Fun facts:
 
+- (about) Vinegar from sherry has been around since sherry was first produced in and around Jerez.
+- (history) In the sherry bodegas wines which had undergone acetic fermentation and turned to vinegar were considered failures, however since the 1950s winemakers started to view sherry vinegar as a product in its own right and now even encourage it.
 - (about) Sherry vinegar is produced in the Spanish province of Cádiz and inside the triangular area between the city of Jerez de la Frontera and towns of Sanlúcar de Barrameda and El Puerto de Santa María, known as the "sherry triangle".
 
 Learn more:
@@ -1892,8 +2082,18 @@ Txakoli or chacolí is a slightly sparkling, very dry white wine with high acidi
 
 Fun facts:
 
+- (history) The first reference to the name of this wine in Spanish was vino chacolín in a document from the Basque Country in 1520.
 - (inspiration) The 18th century Palace of Mendibile in Leioa near Bilbao today houses a museum dedicated to txakoli, the Museo del Txakoli, explaining the history of txakoli and with a large collection of machinery used for making it.
+- (culture) Traditionally the general form has been txakolin, although xakolin has been documented in Iparralde.
+
+More fun facts (when the user asks for more):
+
+- (history) Until the 1980s, txakoli was a home-made wine, drunk in the Basque Country, Cantabria and Valle de Mena, and almost in danger of dying out towards the middle of the 19th century.
+- (history) The term is attested from the middle of the 18th century onwards, occasionally also as a personal name.
+- (history) Txakoli, considered a misspelling by the Euskaltzaindia, is attested from 1985 onwards.
+- (history) However, since some varieties of txakoli in the Basque Country managed to achieve denominación de origen certification from 1989 onwards, its quality, spread and appeal have increased.
 - (history) Txakoli dates from 1989-.
+- (inspiration) Derived forms are based on the root txakolin, for example txakolin-ardo (txakoli wine), txakolin-dantza (txakoli dance), txakolin-saltze (txakoli sale), txakolin gorri (red txakoli) or txakolin-etxe (txakoli house).
 - (origin) Txakoli comes from Spain, Chile.
 
 Learn more:
@@ -1915,6 +2115,16 @@ Zamorano is a sheep's milk cheese made in the province of Zamora, Spain.
 
 Fun facts:
 
+- (about) Its elaboration in the province of Zamora could begin with the beginning of the cattle activity of its first sedentary settlers.
+- (history) The cadastre of the Marqués de la Ensenada (1752), also includes continuous references to the cattle herd and the production of cheese in the different towns of Zamora.
+- (culture) Zamorano cheese is also cited in the municipal accounts for festivals and tributes to illustrious people in the cities of Zamora, Benavente and Toro, sometimes with mentions of a cheese in the format of a cupcake.
+
+More fun facts (when the user asks for more):
+
+- (about) The references to the cheese also continue in the books in which the payments for tithes to the different churches, bishoprics and monasteries of the province of Zamora are recorded.
+- (culture) Vestiges of this cheese tradition are the encellas from the Bronze Age that are preserved in the Museum of Zamora, used to mold and drain the cheese.
+- (culture) This craft tradition was maintained over the centuries in the province of Zamora.
+- (culture) All these historical references lead to a long-standing pastoral tradition and the consequent historical tradition in cheese making in the province of Zamora, both preserved today in most of its towns.
 - (origin) Zamorano cheese comes from Spain.
 
 Learn more:

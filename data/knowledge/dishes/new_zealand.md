@@ -11,7 +11,17 @@ A chocolate fish or choccy fish is a traditional confectionery item in New Zeala
 
 Fun facts:
 
+- (history) Chocolate fish have been made since at least 1903, though early varieties may not have included marshmallow.
 - (culture) Variants of the traditional item exist; a common version is made of solid orange-flavoured milk chocolate.
+- (about) In 2019, the chocolate fish was added to the Cadbury Favourites box.
+
+More fun facts (when the user asks for more):
+
+- (history) Marshmallow-based chocolate fish were being produced in Dunedin in 1937.
+- (history) For a short period in the late 1990s to early 2000s, Tip Top sold a chocolate fish ice-cream.
+- (history) In 1970, Ron Barclay, Member of Parliament for New Plymouth, asked a question in Parliament about the price of chocolate fish.
+- (history) In 1996 a "Great New Zealand Cadbury Chocolate Fish Day" was created in May to support the Child Safety Foundation of New Zealand and the Cystic Fibrosis Association of New Zealand.
+- (about) Cadbury stopped producing 20g chocolate fish in 2023, stating that they had become less popular with consumers.
 - (origin) Chocolate fish comes from New Zealand.
 
 Learn more:
@@ -32,6 +42,7 @@ Kānga pirau (which translates literally from Māori as rotten corn), is a ferme
 
 Fun facts:
 
+- (history) The dish dates back to at least the 19th century.
 - (origin) Kānga pirau comes from New Zealand.
 
 Learn more:
@@ -52,6 +63,8 @@ Kānga waru (waru means 'to scrape') is a type of pudding from New Zealand.
 Fun facts:
 
 - (origin) The dessert originates from the Māori people and is closely associated with Māori cuisine.
+- (culture) Scrapping (waru) was one of the common preparation methods used by Polynesians for traditional puddings.
+- (origin) Corn (borrowed from English as kānga) was introduced to New Zealand by early Europeans and was adopted by Māori as a food crop.
 
 Learn more:
 

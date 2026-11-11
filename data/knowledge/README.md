@@ -2,12 +2,14 @@
 
 Facts the waiter may tell, collected from open sources, never invented (for the waiter, planned for 0.6.3).
 
-- `dishes.jsonl`: one dish or food per line (2026-11-10: 4,827; 3,100+ dishes, the rest foods and drinks; 2,734 with
-  fun-fact candidates), built by `scripts/knowledge/fetch_knowledge.py`. It starts with what
+- `dishes.jsonl`: one dish or food per line (2026-11-11: 4,827; 3,166 dishes, the rest foods and drinks; 2,771 with
+  fun-fact candidates and 2,386 with story sentences; 10,935 facts shown first and 9,119 "more"), built by
+  `scripts/knowledge/fetch_knowledge.py`. It starts with what
   the app shows: the 54 countries in its Country list and its 22 regions (other countries later).
 - Fields: `name`, `country`, `region` (when a region page lists it), `kind` (dish, or food or drink), `sections`
   and `regions` (headings and region columns of the Wikipedia list it came from), `summary`,
-  `fun_fact_candidates`, Wikidata facts (`origin`, `inception`, `parts`, `made_from`, `named_after`, `heritage`),
+  `fun_fact_candidates`, Wikidata facts (`origin`, `inception`, `parts`, `made_from`, `named_after`, `heritage`,
+  `inventor`, `created_in`, `based_on`, `not_to_confuse`),
   `learn_more`, `sources`, `reviewed`.
 - `learn_more`: where to read more, by interest level, so the waiter offers what fits the user's settings:
   `quick` (the dish's Wikipedia article), `more` (its cuisine or region page: history and related dishes),

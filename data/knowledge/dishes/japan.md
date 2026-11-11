@@ -12,6 +12,7 @@ Agedashi dōfu is a Japanese hot tofu dish.
 
 Fun facts:
 
+- (history) Agedashi dōfu was included in Japanese tofu cookbook entitled Tofu Hyakuchin, published in 1782, alongside other tofu dishes such as chilled tofu (hiyayakko) and simmered tofu (yudofu).
 - (origin) Agedashi dōfu comes from Japan.
 
 Learn more:
@@ -86,15 +87,24 @@ Anpan is a Japanese sweet roll, most commonly filled with red bean paste.
 
 Fun facts:
 
-- (history) After being presented to Emperor Meiji in 1875, the dish became popular in Japan.
+- (origin) Anpan was first made sometime between 1871 and 1875 in the Meiji era, as Western bakeries gained popularity in Japan for the first time.
+- (history) These anpan were presented to the emperor and empress on April 4, 1875, after which the emperor requested the dessert from Kimura on a regular basis.
 - (inspiration) Anpan is named after bread, sweet bean paste.
-- (origin) Anpan comes from Japan.
 
 More fun facts (when the user asks for more):
 
+- (origin) Kimura first created a bakery named Bun'eidō in 1869, the first owned in Japan by a Japanese person.s In 1874, he moved to Ginza and renamed the bakery Kimuraya, now Kimuraya Sohonten.
+- (history) After being presented to Emperor Meiji in 1875, the dish became popular in Japan.
 - (history) Anpan was made in the 19th century by Yasubei Kimura, a former samurai-turned-baker and the founder of the Kimuraya bakery, which is located in Ginza.
 - (history) By 1897, Kimuraya had sold around 100,000 anpan per day.
 - (history) Anpan remains a popular staple of Japanese bakery in the 21st century.
+- (history) During the First Sino-Japanese War, anpan was consumed by soldiers across Japan.
+- (history) By the early 20th century, anpan were popularly perceived to be prepared the day before, bringing concerns that it could grow stale and harm children consuming the rolls.
+- (history) In the 21st century, anpan are widely regarded as a staple of Japanese bakery culture and are often cited as one of the most recognizable examples of Western-influenced "Japanese bread" products.
+- (origin) Anpan was first made by Yasube Kimura.
+- (about) Because of its newfound association with royalty, the popularity of anpan, and bread as a whole, increased throughout Japan.
+- (culture) During the bunmei-kaika in late 19th-century, the dish became a symbol of the new Japanese era.
+- (origin) Anpan comes from Japan.
 
 Learn more:
 
@@ -115,6 +125,11 @@ Boiled eggs are a food typically made using chicken eggs.
 Fun facts:
 
 - (inspiration) The egg timer was named for commonly being used to time the boiling of eggs.
+- (about) Eggs have a long history of use as food, following the history of the domestic chicken, and recipes that include boiled eggs are found in the first known cookbook, De re coquinaria, in which at least one recipe calls for the use of preserved boiled eggs.
+- (about) A peeled boiled egg may appear concave or flat on one end due to the presence of an air pocket (or "air cell") that allows a chick from an otherwise fertilized egg to take its first breath before hatching; this occurs more often in older eggs with larger air cells due to a decrease in moisture.
+
+More fun facts (when the user asks for more):
+
 - (about) Boiled eggs are a popular breakfast food around the world.
 
 Learn more:
@@ -159,9 +174,16 @@ Bread is a baked food product made from water, flour, and often yeast.
 
 Fun facts:
 
+- (history) The word bread is a cognate of Old Norse and several other Germanic languages first used in English around year 1200.
 - (about) Throughout recorded history and around the world, it has been an important part of many cultures' diets.
 - (culture) Bread is one of the oldest human-made foods, having been of significance since the dawn of agriculture, and plays an essential role in both religious rituals and secular culture.
+
+More fun facts (when the user asks for more):
+
+- (history) The Chorleywood bread process was developed in 1961; it uses the intense mechanical working of dough to dramatically reduce the fermentation period and the time taken to produce a loaf.
+- (history) In Russia in 1917, the Bolsheviks promised "peace, land, and bread." The term "breadbasket" denotes an agriculturally productive region.
 - (about) Bread dates from -3000.
+- (about) Not to be confused with food, Bread.
 
 Learn more:
 
@@ -185,12 +207,17 @@ Castella is a type of Japanese sponge cake and is known for its sweet, moist bri
 Fun facts:
 
 - (inspiration) Castella is based on cakes introduced to Japan by Portuguese merchants in the 16th century.
-- (about) Castella was then popularized in the city of Nagasaki, where it is considered a specialty.
-- (culture) Despite its foreign origins, it is considered a kind of wagashi, or traditional Japanese confectionery.
+- (about) Castile was a former kingdom of Spain, comprising its north-central provinces, thus these names are quasi-synonymous with "bread from Castile".
+- (history) In the 16th century, the Portuguese reached Japan and soon started trade and missionary work.
 
 More fun facts (when the user asks for more):
 
+- (about) When the Emperor of Japan's envoy was invited, the Tokugawa shogunate presented them with castella cakes.
 - (inspiration) Castella is named after Castile.
+- (about) Castella was then popularized in the city of Nagasaki, where it is considered a specialty.
+- (culture) Despite its foreign origins, it is considered a kind of wagashi, or traditional Japanese confectionery.
+- (origin) The Portuguese introduced things such as guns, tobacco, pumpkins, and cakes baked with wheat flour, eggs, and milk.
+- (culture) The protagonist, a Kyoto University student, often encounters slices of castella, which serve as a symbol of his university life and the choices he faces in various parallel universes.
 - (origin) Castella comes from Japan.
 
 Learn more:
@@ -213,6 +240,11 @@ Chahan, also known as yakimeshi, is a Japanese fried rice dish prepared with ric
 Fun facts:
 
 - (origin) Chahan may have originated in the 1860s from Chinese immigrants arriving at the port of Kobe.
+- (inspiration) Chahan is based on chǎofàn.
+- (origin) Chahan may have originated from Chinese immigrants who arrived at the port of Kobe, Japan in the 1860s.
+
+More fun facts (when the user asks for more):
+
 - (origin) Chahan comes from Japan.
 
 Learn more:
@@ -234,6 +266,7 @@ In Japanese cuisine, chankonabe, also known as chanko or sumo stew, is a stew (a
 
 Fun facts:
 
+- (history) Chankonabe is also a popular restaurant food, often served in restaurants operated by retired sumo wrestlers who specialize in the dish; the first of these, Kawasaki Chanko, was started in 1937 in the Ryōgoku district of Tokyo, home to many prominent sumo stables.
 - (origin) Chankonabe comes from Japan.
 
 Learn more:
@@ -301,8 +334,13 @@ Chazuke or ochazuke (お茶漬け, from (o)cha 'tea' + tsuke 'submerge') is a si
 Fun facts:
 
 - (history) Since the 1970s, packaged "instant ochazuke", consisting of freeze-dried toppings and seasonings, has become popular.
-- (about) In Kyoto, ochazuke is known as bubuzuke.
+- (about) This dish first became popular in the Heian period of Japan, when water was most commonly poured over rice, but beginning in the Edo period, green tea (particularly bancha and sencha) became a popular substitute due to its aroma and mild umami flavor.
 - (origin) Chazuke comes from Japan.
+
+More fun facts (when the user asks for more):
+
+- (about) In Kyoto, ochazuke is known as bubuzuke.
+- (about) From the Genroku period, "chazukeya" appeared as restaurants serving chazuke, and they were widely popular as fast food for common people.
 
 Learn more:
 
@@ -366,6 +404,13 @@ Curry bread is a popular Japanese food consisting of Japanese curry (or other ty
 
 Fun facts:
 
+- (history) The exact origin of curry bread in Japan is unknown, but it is often said that it was created in 1927 by a man named Nakata Toyoharu.
+- (origin) As curry was introduced to Japan by Anglo-Indian Royal Navy officers, curry bread was originally called "Western food bread" when it was first sold in Tokyo during the early Shōwa era.
+- (about) Curry bread was during this time period that foods from Western countries were becoming popular in Japan and many businesses were experimenting with making Japanese-style Western dishes.
+
+More fun facts (when the user asks for more):
+
+- (origin) Curry bread was first made in Asia.
 - (origin) Curry bread comes from Japan.
 
 Learn more:
@@ -455,7 +500,19 @@ Edamame is an East Asian and Southeast Asian dish prepared with immature soybean
 
 Fun facts:
 
+- (history) Edamame appeared in haikai verse in Japanese in the Edo period (1603–1868), with one example as early as 1638.
+- (about) In this book, they are first pictured and shown as being eaten out of open shell pods.
 - (origin) Edamame comes from Japan.
+
+More fun facts (when the user asks for more):
+
+- (history) Soybeans were first cultivated in China some 7000 years ago, while the earliest documented reference to the term "edamame" dates from the year 1275, when the Japanese monk Nichiren wrote a note thanking a parishioner for the gift of "edamame" he had left at the temple.
+- (history) In 1406, during the Ming dynasty in China, the leaves of the soybeans were eaten and during outbreaks of famine, it was recommended that citizens eat the beans whole or use them ground up and added to flour.
+- (history) They were first recognized in the United States in 1855, when a farmer commented on the difficulties he had shelling them after harvest.
+- (history) In March 1923, the immature soybean is first referred to in text in the United States in the book "The Soybean" by C.
+- (history) The earliest recorded usage in English of the word edamame is in 1951 in the journal Folklore Studies.
+- (history) Centuries later, in China, in 1620, they are referred to again, but as maodou, which translates to the term "hairy bean".
+- (about) The first nutritional facts about them are published and some recipes are included, as they were a new type of vegetable to the public.
 
 Learn more:
 
@@ -490,9 +547,21 @@ Fugu in Japanese, bogeo or bok in Korean, and hétún in Standard Modern Chinese
 
 Fun facts:
 
+- (history) The Tokugawa shogunate (1603–1868) prohibited the consumption of fugu in Edo and its area of influence.
 - (culture) The liver, widely thought to be the most flavorful part, was traditionally served as a dish named fugu-kimo, but it is also the most poisonous, and serving this organ in restaurants was banned in Japan in 1984.
+- (about) According to one fugu chef in Tokyo, the Emperor of Japan has never eaten fugu due to an unspecified "centuries old ban".
+
+More fun facts (when the user asks for more):
+
+- (history) During the Meiji Era (1867–1912), fugu was again banned in many areas.
+- (history) In China, the use of the pufferfish for culinary purposes was already well-established by the Song dynasty as one of the "three delicacies of the Yangtze", alongside saury and Reeve's shad, and appears in the writings of the polymath Shen Kuo as well as in the encyclopedic work Taiping Guangji.
+- (history) In 1774, James Cook during his second voyage, together with Johann Reinhold Forster and Georg Forster, ate some liver of a fish bartered from a native of an island in New Caledonia, likely a pufferfish.
 - (about) Fugu possesses a potentially lethal poison known as tetrodotoxin, therefore necessitating meticulous preparation to prevent the fish from being contaminated.
 - (culture) In East Asian cuisine, fugu has emerged as a delicacy, establishing itself as one of the most celebrated dishes in Japanese and Korean cuisine.
+- (about) The scholar-statesman Su Shi famously remarked that the taste is worthy of death.
+- (about) The experiment included raising over 5,000 fish between the years 2001–2004, and analyzing the toxicity of muscle, skin, gonads, livers, and other organs.
+- (about) Usuki, a town in Ōita Prefecture, has become known for selling non-poisonous fugu by 2008.
+- (about) As of 2012, most such fish is exported to Japan and South Korea, with a small domestic luxury market that has been operating under license since 2003.
 
 Learn more:
 
@@ -536,7 +605,20 @@ Gyūdon, also known as gyūmeshi, is a Japanese dish consisting of a bowl of ric
 
 Fun facts:
 
+- (history) In 1899, Eikichi Matsuda opened the first Yoshinoya restaurant at the fish market in Tokyo's Nihonbashi district, serving a dish known as gyūnabe-bukkake.
+- (culture) After the arrival of Buddhism in Japan in the 6th century, consumption of meat became rare in Japanese culture (especially those of four-footed animals such as cattle or pigs) and in many cases frowned upon, both for religious and practical reasons.
+- (origin) Gyūdon is generally considered to have originated from gyūnabe, a beef hot pot dish from the Kantō region of eastern Japan.
+
+More fun facts (when the user asks for more):
+
+- (history) Gyūdon was only after the Meiji Restoration in 1868 and the subsequent westernization of the country that meat began to be widely eaten.
+- (history) By 1877, Tokyo had more than 550 gyūnabe restaurants.
+- (history) By around 1887, additional ingredients such as tofu and shirataki had also become common.
+- (history) By the 1890s, gyūmeshi had already become popular in Tokyo, but was yet unknown in other places such as Kyoto or Osaka.
+- (history) Initially regarded as food for the lower classes, gyūdon's social image changed dramatically following the Great Kantō Earthquake of 1923, when it was one of the food items readily available to residents of Tokyo.
 - (about) A popular food in Japan, it is commonly eaten with beni shōga (pickled ginger), shichimi (ground chili pepper), and a side dish of miso soup.
+- (culture) The negi was traditionally cut into pieces about 16-17 mm long, leading to the pieces themselves sometimes being called gobu.
+- (about) A Yomiuri Shimbun article dated December 10th of the same year, headlined "The Whole Nation Ate Gyūdon", reported on the dish's booming popularity.
 - (origin) Gyūdon comes from Japan.
 
 Learn more:
@@ -582,7 +664,12 @@ Hanabiramochi is a Japanese sweet (wagashi), usually eaten at the beginning of t
 Fun facts:
 
 - (culture) Hanabiramochi are also served at the first tea ceremony of the new year.
+- (origin) Hanabiramochi was first made in the Meiji Era, and is now a familiar New Year wagashi.
 - (inspiration) Hanabiramochi is named after petal.
+
+More fun facts (when the user asks for more):
+
+- (culture) Each element of the hanabiramochi is significant: The red colour showing through the white mochi is not only appropriate to the celebration of the new year, but also evokes the Japanese apricot/plum (ume) blossom, which in turn represents the purity, perseverance, and renewal associated with the New Year.
 - (origin) Hanabiramochi comes from Japan.
 
 Learn more:
@@ -604,7 +691,9 @@ Hayashi rice is a dish popular in Japan as a Western-style dish, or yōshoku.
 
 Fun facts:
 
+- (about) Hayashi rice is a dish he invented and prepared for his employees who studied until late at night, or for his friends and foreign clients.
 - (origin) Hayashi rice comes from Japan.
+- (about) Another theory is that the name was produced by a cook named Hayashi who often served this dish for staff meals at the Ueno Seiyōken restaurant.
 
 Learn more:
 
@@ -625,7 +714,12 @@ Hi-Chew is a brand of chewy candy made by the Japanese confectionary company Mor
 Fun facts:
 
 - (inspiration) Introduced in 1975, Hi-Chew is known for its soft, elastic texture that is often described as being between chewing gum and soft taffy, and for its wide range of fruit and dessert-inspired flavors.
+- (history) The origins of Hi-Chew trace back to the 1930s, when Morinaga & Co. founder Taichiro Morinaga conceived of creating an edible alternative to chewing gum that would avoid the Japanese taboo against removing food from one's mouth in public.
 - (origin) Hi-Chew comes from Japan.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1931, Morinaga & Co. developed a candy called Chewlets by combining chewy caramel with fruit flavorings.
 
 Learn more:
 
@@ -691,6 +785,8 @@ Hiyayakko is a Japanese dish made with chilled tofu and toppings.
 
 Fun facts:
 
+- (history) In the 1782 recipe book Tofu Hyakuchin, it is said that hiyayakko is so well known that it needs no introduction.
+- (about) Hiyayakko is also known as hiyakko or yakko-dōfu.
 - (origin) Hiyayakko comes from Japan.
 
 Learn more:
@@ -715,6 +811,10 @@ Fun facts:
 - (inspiration) Honeycomb toffee is named after honeycomb.
 - (about) Owing to its relatively simple recipe and quick preparation time, in some regions it is often made at home, and is a popular recipe for children.
 - (about) Honeycomb toffee is also made commercially and sold in small blocks, or covered in chocolate, a popular example being the Crunchie bar of Britain and Canada, or the Violet Crumble of Australia.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with dalgona.
 
 Learn more:
 
@@ -780,6 +880,11 @@ Fun facts:
 
 - (history) Imagawayaki were first sold near the Imagawa Bridge in Kanda during the An'ei era (1772–1781) of the Edo period (1603–1867).
 - (origin) The name imagawayaki originates from this time.
+- (inspiration) Koban-yaki Taiko-yaki or Taiko manjū – western Japan especially Kansai and Kyūshū region Gishi-yaki – Named after gishi, the forty-seven rōnin.
+
+More fun facts (when the user asks for more):
+
+- (history) Fukkō-yaki – in the song on the occasion of the revival after the Great Kantō earthquake in 1923, is mentioned that imagawayaki was renamed fukkōyaki.
 - (origin) Imagawayaki comes from Japan.
 
 Learn more:
@@ -801,9 +906,15 @@ Imoni is a type of taro and meat soup eaten traditionally in the autumn in the T
 
 Fun facts:
 
+- (culture) Tourists flock to Yamagata for the Autumn Imoni Festival (Akino Imonikai) where they join local residents on the banks of the Mamigasaki River on the first Sunday in September, to eat imoni from a gigantic iron kettle, which uses a building crane to add ingredients and stir the pot.
 - (about) Yamagata Prefecture in particular is famous for its imoni, but other prefectures in the region also have their own different varieties.
 - (origin) Imoni comes from Japan.
+
+More fun facts (when the user asks for more):
+
+- (culture) In 2009 the festival served imoni to 30,000 guests before the pot was empty.
 - (about) Imoni is eaten like any soup, primarily during the late summer and early autumn, but is most famous as an outdoor food.
+- (culture) In Yamagata Prefecture in particular, and its neighbours in general, imonikai are an important autumn tradition.
 
 Learn more:
 
@@ -853,8 +964,18 @@ Jingisukan is a Japanese grilled mutton dish prepared on a convex metal skillet 
 
 Fun facts:
 
+- (history) The first written mention of the dish under this name was in 1931.
+- (origin) Jingisukan, originating from the Japanese transliteration of Genghis Khan, refers to a style of grilling mutton, which is also referred to as a type of yakiniku.
+- (inspiration) The name Jingisukan is thought to have been invented by Sapporo-born Tokuzo Komai, who was inspired by the grilled mutton dishes of Northeastern Chinese cuisine.
+
+More fun facts (when the user asks for more):
+
+- (history) The first jingisukan dedicated restaurant was a Jingisu-sō that opened in Tokyo in 1936.
+- (history) In 1918, according to the plan by the Japanese government to increase the flock to one million sheep, five sheep farms were established in Japan.
+- (origin) There is a dispute over from where the dish originated; candidates include Tokyo, Zaō Onsen, and Tōno.
 - (inspiration) Jingisukan is named after Genghis Khan.
 - (about) Jingisukan is particularly popular on the northern island of Hokkaidō and in China.
+- (about) Jingisukan was conceived in Hokkaidō, where it has been a popular blue-collar dish that has only recently gained nationwide popularity.
 - (origin) Jingisukan comes from Japan.
 
 Learn more:
@@ -924,7 +1045,14 @@ Kakiage or kaki-age, a Japanese dish, is a type of tempura.
 
 Fun facts:
 
+- (history) According to a soba researcher, tempura soba was invented around the Bunsei era (1818–1830), using the shiba ebi shrimp kakiage as topping.
+- (about) The kakiage is so-named because one "mixes up" kakimazeru the ingredients before they are fried, or so it has been claimed, e.g., by the tempura chef and proprietor of Tenkichi in Yokohama.
 - (origin) Kakiage comes from Japan.
+
+More fun facts (when the user asks for more):
+
+- (history) Morisada mankō (written 1837–1853) stated that the tempura offered at soba noodle shops at the time used shiba ebi shrimp (Metapenaeus joyneri).
+- (history) The former shogun Tokugawa Yoshinobu (1837–1913) was a regular customer at the tempura restaurant Tenkin, where he would order an especially large kakiage, served on a Nabeshima plate.
 
 Learn more:
 
@@ -945,6 +1073,18 @@ Kakigōri is a Japanese shaved ice dessert flavored with syrup and a sweetener, 
 
 Fun facts:
 
+- (history) The first kakigōri store is believed to have opened in Yokohama in 1869.
+- (inspiration) Ujikintoki is named after the small city of Uji, in Kyoto Prefecture, famous for its green tea and Sakata Kintoki, who is known as Kintarō in Japanese folklore.
+- (about) July 25 is known as kakigōri day in Japan because of its pronunciation sounding similar to summer ice in Japanese.
+
+More fun facts (when the user asks for more):
+
+- (history) Another reasoning for July 25 being kakigōri day is because, on that day in 1933, there was a record high temperature in Japan.
+- (history) Kakigōri became more accessible in the 19th century, when ice became more widely available to the public during the summertime.
+- (inspiration) Kintoki is the red bean paste that is named after Kintarō's face usually being depicted as red.
+- (about) Another account is that Mujaki, a coffee shop in Kagoshima City, started to sell the kakigōri, put milk syrup, sanshoku-kanten (colorful agar), yōkan (soft azuki-bean jelly), sweet beans and fruits in a pattern that resembled a polar bear when seen from overhead, so it was named shirokuma.
+- (inspiration) Yet others say that it was created in honour of the memory of Saigo Takamori after his battle with the Edo Shogun.
+- (about) In Kagoshima, some similar named kakigōri are made.
 - (origin) Kakigōri comes from Japan.
 
 Learn more:
@@ -966,6 +1106,13 @@ Kakuni is a Japanese braised pork belly dish which literally means 'square simme
 
 Fun facts:
 
+- (history) During the Ming Dynasty and Song Dynasty, the main Sino-Japanese trading route existed between Hangzhou and Kyūshū.
+- (origin) This particular dish most likely originated from the famous Chinese dish Dongpo Pork, making it a form of Japanese Chinese cuisine, although the gravy is less heavy than the original dish.
+- (about) Kakuni is a popular regional cuisine (meibutsu) of Kyushu, particularly Nagasaki.
+
+More fun facts (when the user asks for more):
+
+- (about) Therefore, pork was popularized in major Kyushu cities.
 - (origin) Kakuni comes from Japan.
 
 Learn more:
@@ -987,7 +1134,12 @@ Kamameshi is a Japanese rice dish traditionally cooked in an iron pot called a k
 
 Fun facts:
 
+- (history) The term emerged in the late Meiji period, and is associated with the communal eating of rice in the aftermath of the 1923 Great Kantō earthquake.
 - (inspiration) Kamameshi is named after cauldron.
+- (about) Kama designed specifically to prepare kamameshi appeared on the market as the dish became popular across Japan, and the prepared kamameshi is placed directly on the table in its pot for the meal.
+
+More fun facts (when the user asks for more):
+
 - (origin) Kamameshi comes from Japan.
 
 Learn more:
@@ -1024,6 +1176,12 @@ Katsu-sando is a Japanese sandwich which is made from Japanese-style cutlet (mai
 
 Fun facts:
 
+- (history) Katsu-sando was invented in 1935 by Toki Ishizaka, the landlady of the tonkatsu restaurant "Isen" in Ueno, Tokyo.
+- (about) At the time of its invention, Isen was frequented by geishas of a hanamachi, so Isen made it with special ordered small breads to prevent their lipstick from coming off, and Isen was famous for its tender cutlet made with carefully pounded meat which could be cut with chopsticks.
+- (inspiration) She was inspired by the ham sandwich, and officially called her creation "かつサンド".
+
+More fun facts (when the user asks for more):
+
 - (origin) Katsu-sando comes from Japan.
 
 Learn more:
@@ -1047,6 +1205,12 @@ Katsudon is a popular Japanese food, a bowl of rice topped with a fried tonkatsu
 Fun facts:
 
 - (inspiration) Katsudon is named after katsuretsu.
+- (culture) Katsudon has become a modern tradition for Japanese students to eat katsudon the night before taking a major test or school entrance exam.
+- (about) Katsudon is also a trope in Japanese police films: that suspects will speak the truth with tears when they have eaten katsudon and are asked, "Did you ever think about how your mother feels about this?" Even nowadays, the gag of "We must eat katsudon while interrogating" is popular in Japanese films.
+
+More fun facts (when the user asks for more):
+
+- (about) However, as of 2019, police will never actually feed suspects during interrogation.
 - (origin) Katsudon comes from Japan.
 
 Learn more:
@@ -1068,9 +1232,24 @@ Kimchi is a traditional Korean side dish (banchan) consisting of salted and ferm
 
 Fun facts:
 
+- (about) Samguk Sagi, a historical record of the Three Kingdoms of Korea, mentions the pickle jar used to ferment vegetables, which indicates that fermented vegetables were commonly eaten during this time.
+- (history) The first mention of chili pepper is found in Jibong yuseol, an encyclopedia published in 1614.
 - (culture) Traditionally, winter kimchi, called gimjang, was stored in large earthenware fermentation vessels, called onggi, in the ground to prevent freezing during the winter months and to keep it cool enough to slow down the fermentation process during summer months.
-- (origin) Kimchi comes from Korea.
+
+More fun facts (when the user asks for more):
+
+- (history) During the Silla dynasty (57 BCE – CE 935), kimchi became prevalent as Buddhism caught on throughout the nation and fostered a vegetarian lifestyle.
+- (history) A poem on Korean radish written by Yi Gyubo, a 13th-century literatus, shows that radish kimchi was common in Goryeo (918–1392).
+- (about) Early records of kimchi do not mention garlic or chili pepper.
+- (history) Sallim gyeongje, a 17‒18th century book on farm management, wrote on kimchi with chili peppers.
+- (history) However, it was not until the 19th century that the use of chili peppers in kimchi became widespread.
+- (history) Recipes from the early 19th century closely resemble today's kimchi.
+- (inspiration) The process of making kimchi was called gimjang and was based on participation by the whole village.
 - (culture) Kimchi has gained international recognition as a traditional Korean food and has been promoted as part of Korean cultural heritage.
+- (culture) In Korea, kimchi was made during the winter by fermenting vegetables, and burying them in the ground in traditional brown ceramic pots called onggi.
+- (origin) Chili peppers, originally native to the Americas, were introduced to East Asia by Portuguese traders.
+- (origin) Kimchi comes from Korea.
+- (about) Not to be confused with Chinese pickles.
 
 Learn more:
 
@@ -1112,7 +1291,20 @@ Konowata is a kind of shiokara (fermented salted seafood), made from sea cucumbe
 
 Fun facts:
 
+- (history) The Muromachi-dono Diary completed around the beginning of the 17th century, contains the following regarding Toyotomi Hideyoshi, who ruled Japan at the end of the 15th century.
 - (origin) Konowata comes from Japan.
+- (history) In 1603, at the beginning of the modern period, it was recorded in Nippo Jisho (Japanese-Portuguese dictionary) as cono vata.
+
+More fun facts (when the user asks for more):
+
+- (history) The recipe for making konowata is described as a secret recipe in the cookbook Shijoryu-Houchou-sho from around 1489.
+- (history) The Diary of Odachi Joko states that in 1539, warlord Hatakeyama Yoshifusa of Noto Province gave konowata as a gift for the New Year.
+- (history) In 1583, konowata is provided in the Kaiseki issued by Sen no Rikyū to Araki Murashige.
+- (history) In the Oyudono-no-ue-no-Nikki of 1603, there is an account of Tokugawa Ieyasu, who had just become a Shogun, presenting a konowata to the Kyoto Imperial Palace.
+- (history) In 1635, konowata was served for breakfast when Date Masamune entertained Shogun Tokugawa Iemitsu at the Ninomaru of Edo Castle.
+- (history) There is also a description of konowata in Shokumotsu-honzo published in 1671, which explains the medicinal and toxic properties of food.
+- (history) There is also a description of konowata in Suisho zakki a manual of food ingredients published in 1682.
+- (history) The 'Honcho-Shokkan established in 1697 also includes a commentary on konowata.
 
 Learn more:
 
@@ -1134,7 +1326,12 @@ Konpeitō, also spelled kompeitō, is a type of Japanese sugar candy.
 
 Fun facts:
 
+- (origin) The technique for producing sugar candy was introduced to Japan in the early 16th century by Portuguese traders.
+- (history) In 1569, Luís Fróis, a Portuguese missionary, presented a glass flask of konpeitō to Oda Nobunaga in order to obtain the permit for mission work of Christianity.
 - (inspiration) Konpeitō is named after comfit.
+
+More fun facts (when the user asks for more):
+
 - (origin) Introduced from Portugal as a sugar-coated confection with a poppy seed or sesame seed center, konpeitō was eventually transformed into an all-sugar confection with a zarame center.
 - (origin) Konpeitō comes from Japan.
 
@@ -1158,8 +1355,16 @@ Korokke is a Japanese deep-fried yōshoku dish originally related to a French di
 
 Fun facts:
 
+- (origin) In 1887, the French croquette was introduced to Japan.
+- (about) It is thought that the korokke using mashed potatoes was invented because dairy processing technology had not been popularized in Japan at that time.
 - (inspiration) Korokke is named after croquette.
+
+More fun facts (when the user asks for more):
+
+- (about) The first mention of a "kuroketto" appears in cookery books from the Meiji era.
+- (culture) Korokke became associated with typhoons in the 2000s, after a user on 2channel said they were eating some to prepare for an approaching typhoon, beginning a tradition that persisted on Japanese social media.
 - (origin) Korokke comes from Japan.
+- (about) Not to be confused with karaoke.
 
 Learn more:
 
@@ -1221,9 +1426,21 @@ Manjū is a traditional Japanese confection, usually a small, dense bun with a s
 
 Fun facts:
 
+- (history) During the Kamakura period (1185–1333), Japanese Buddhist monks who studied in the Song dynasty brought the tea culture to Japan, and the custom of eating confections with tea began in Japan.
+- (origin) The monks also introduced tenshin, a light meal, and the history book Teikun ōrai (c. 1394–1428) mentions udon, manjū, and yōkan as types of dim sum.
 - (inspiration) Manjū is named after mantou.
+
+More fun facts (when the user asks for more):
+
+- (origin) One claim is that when the Zen priest Enni returned from China in 1241, he introduced manjū production techniques during his stay in Hakata, Fukuoka Prefecture, revealing the recipe to a teahouse owner named Kurinami Kichiemon.
+- (history) The other claim credits the introduction to Rin Jōin, a Chinese native who came to Japan in 1341 as an attendant of Ryūsan Tokuken.
+- (history) The Sōgo ōzōshi (1528) illustrates in simple line drawing that 3 pieces of manjū were served in each bowl, and placed on a tray alongside chopsticks, bowl of soup, and pickles.
 - (culture) Traditional manjū are usually round, but many different shapes exist today, and some are proprietary to specific bakeries.
+- (culture) Manju is a traditional Japanese flour-based pastry (instead of rice-based like mochi).
+- (origin) There are two major claims regarding who may have introduced the manjū from China.
+- (inspiration) The Hakata manjū calls for a sake-starter (i.e. kōji mold culture) as leavening agent, while the original Shiose recipe was based on a yeast starter of fermented dough called lao mien kneaded into the final dough, and the manjū skin is then wrapped around an adzuki bean paste.
 - (origin) Manjū comes from Japan.
+- (about) Not to be confused with Munju.
 
 Learn more:
 
@@ -1244,6 +1461,16 @@ Melonpan, also called melon bun or melon bread, is a Japanese sweetbun covered i
 
 Fun facts:
 
+- (inspiration) Alternatively, the bread (specifically its shape and method of production) invented by the bakery owner Kikujiro Mitsugawa in 1930 could have been melonpan.
+- (history) Another theory states that the round bread with biscuit dough on top called "Sunrise" sold by Kinseido's Obama branch in Kobe in the 1930s was the first melonpan in Japan.
+- (about) Sagoyan worked at the Imperial Hotel in Tokyo and invented the bread following Russian, French, and Viennese baking techniques.
+
+More fun facts (when the user asks for more):
+
+- (about) However, if Sagoyan was indeed the inventor, he did not refer to the bread as "melonpan".
+- (about) Records from the time describe covering the bread dough with cake dough and adding flavors like coffee or banana, albeit with no mention of the bread's name.
+- (history) One theory is that after World War I, Okura Kihachiro brought an Armenian baker, Hovhannes Ghevenian, also known as Ivan Sagoyan, to Tokyo.
+- (origin) Other theories point to origins in the Mexican pastry conchas and the German pastry Streuselkuchen, which were introduced to Japan from the United States following World War II.
 - (origin) Melonpan comes from Japan.
 
 Learn more:
@@ -1265,6 +1492,7 @@ Miso soup is a traditional Japanese soup consisting of miso in a dashi stock.
 
 Fun facts:
 
+- (inspiration) Optional ingredients based on region and season may be added, such as wakame, tofu, negi, abura-age, and mushrooms.
 - (origin) Miso soup comes from Japan.
 
 Learn more:
@@ -1313,9 +1541,22 @@ Mochi is a Japanese rice cake made of mochigome, a short-grain japonica glutinou
 
 Fun facts:
 
+- (inspiration) In the Bungo no kuni fudoki, compiled in the late 8th century in the Nara period, a legend concerning mochi was described.
+- (history) According to the Ōkagami compiled in the 12th century, emperors and nobilities used to put mochi into the mouths of babies that were 50 days old.
+- (about) The first recorded accounts of mochi being used as a part of New Year's festivities are from the Heian period.
+
+More fun facts (when the user asks for more):
+
+- (history) According to archaeological research, the homemade production of mochi increased beginning in the 6th century (Kofun period), when earthenware steamers became popular in every household, mainly in eastern Japan.
+- (inspiration) This legend shows that round white mochi was historically held to have spiritual power.
+- (culture) In the Heian period (794–1185), mochi was often used in Shinto events to celebrate childbirth and marriage.
+- (culture) The nobles of the Imperial court believed that long strands of freshly made mochi symbolized long life and well-being, while dried mochi helped strengthen one's teeth.
+- (origin) This began to change in the 17th century as Western confections were introduced by the Portuguese, and over the following two centuries sweetened confections were adopted into the diets of Japan's social elite, who held high sugar content up as a status symbol.
+- (history) To accommodate the increased demand, domestic sugar production was increased beginning in the mid-18th century, and a century later the now more accessible sweetened mochi became popular among the general public.
 - (culture) In Japan, it is traditionally made in a ceremony called mochitsuki.
-- (origin) Mochi comes from Southeast Asia.
 - (culture) While eaten year-round, mochi is a traditional food for the Japanese New Year, and is commonly sold and eaten during that time.
+- (culture) In welcoming the New Year, samurai decorated kagami mochi with Japanese armor and Japanese swords and would place them in the tokonoma (alcove in a traditional Japanese room where art or flowers are displayed) to pray for the prosperity of their families in the New Year.
+- (origin) Mochi comes from Southeast Asia.
 
 Learn more:
 
@@ -1432,7 +1673,12 @@ Naporitan or Napolitan is a popular Japanese itameshi pasta dish.
 Fun facts:
 
 - (inspiration) Naporitan is named after Naples.
+- (about) The chef named the dish after Naples, Italy (hence "Napoli").
 - (origin) Naporitan comes from Japan.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Naporitan was created by Shigetada Irie, the chef of the Hotel New Grand in Yokohama, for general Douglas MacArthur.
 
 Learn more:
 
@@ -1453,9 +1699,14 @@ Natto is a traditional Japanese food made from whole soybeans that have been fer
 
 Fun facts:
 
+- (inspiration) One story about the origin of natto attributes it to the samurai Minamoto no Yoshiie (1039–1106), who was on a campaign in northeastern Japan between 1086 and 1088 AD.
 - (about) Within Japan, natto is most popular in the eastern regions, including Kantō, Tōhoku, and Hokkaido.
 - (origin) Natto comes from Japan.
+
+More fun facts (when the user asks for more):
+
 - (about) A 2009 survey revealed that 70% of the 3,827 respondents found the taste pleasant, and others who may not find the taste pleasant still eat the food out of habit.
+- (about) As people happened to eat these fermented beans and found them delicious, this type of fermented stringy beans soon gained popularity in Japan because of its unique taste and strong flavor.
 
 Learn more:
 
@@ -1477,6 +1728,13 @@ Nikujaga is a Japanese dish of meat, potatoes, and onions stewed in dashi, soy s
 
 Fun facts:
 
+- (inspiration) Nikujaga was invented by chefs of the Imperial Japanese Navy in the late 19th century.
+- (history) The municipal government of Kure, Hiroshima, responded in 1898 with a competing claim that Tōgō commissioned the dish while serving as chief of staff of the Kure naval base.
+- (culture) In Kure City, the "Kure Food Festival" is held, where people can enjoy local dishes such as nikujaga and Japan Maritime Self-Defense Force curry.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) One story is that in 1895, Tōgō Heihachirō ordered naval cooks to create a version of the beef stews as served in the British Royal Navy.
 - (inspiration) Nikujaga is named after meat, potato.
 - (about) Thinly sliced beef is the most common meat used, although minced or ground beef is also popular.
 - (origin) Nikujaga comes from Empire of Japan.
@@ -1543,8 +1801,21 @@ Okinawa soba is a type of noodle produced in Okinawa Prefecture, Japan.
 
 Fun facts:
 
-- (about) Varieties include: Sōki soba – topped with extra ribs, known as sōki in Okinawan.
+- (history) The first known documented reference to Okinawa soba was in 1902 during the late Meiji period when it was known as Shina soba (Chinese soba) as in mainland Japan.
+- (about) Some attempt to trace the origin of Okinawa soba to the Ryūkyū Kingdom period.
 - (origin) Okinawa soba comes from Japan.
+
+More fun facts (when the user asks for more):
+
+- (history) Around the 16th century, buckwheat began to be processed into thin noodles.
+- (history) Under a fair competition regulation, soba was standardized as "the noodles contain at least 30% of buckwheat." This definition caused a problem when Okinawa was returned to Japanese rule in 1972.
+- (history) In 1976, the Fair Trade Commission tried to make Okinawa Prefecture drop the name "soba" because Okinawa's soba did not conform to the regulation.
+- (history) In the 1960s, soba was popularized with the introduction of noodle making machines.
+- (about) Varieties include: Sōki soba – topped with extra ribs, known as sōki in Okinawan.
+- (about) This method was originally known as soba-kiri but it was later abbreviated into soba.
+- (about) Soba was mainly consumed in eastern Japan and was not popular in western Japan or on Okinawa.
+- (about) Buckwheat noodles remain rare on Okinawa, where they are known as Nihon soba (Japanese soba) or kuroi soba (black soba).
+- (about) Shina soba, commonly known as Chūka soba (Chinese soba), or rāmen today, is also made from wheat flour.
 
 Learn more:
 
@@ -1565,8 +1836,18 @@ Okonomiyaki is a Japanese teppanyaki savory pancake dish consisting of wheat flo
 
 Fun facts:
 
+- (history) Records of the word funoyaki appear as far back as the 16th century, as written about by tea master Sen no Rikyū, and though the dish's ingredients are unclear, it may have included fu (wheat gluten).
 - (about) A liquid-based okonomiyaki, popular in Tokyo, is called monjayaki and abbreviated as monja.
 - (origin) Okonomiyaki comes from Japan.
+
+More fun facts (when the user asks for more):
+
+- (history) By the late Edo period (1603–1867), funoyaki referred to a thin crêpe baked on a cooking pot, with miso basted on one side.
+- (history) In the Meiji era (1868–1912), monjiyaki, a related confection, was popular with children at dagashiya, shops selling cheap sweets.
+- (history) The first appearance of the word "okonomiyaki" was at a shop in Osaka in the 1930s.
+- (history) The issen yōshoku (cheap Western-style cuisine) of Kyoto, which developed in the Taishō period (1912–1926), may have produced an early form of modern savory okonomiyaki in the form of a pancake with Worcestershire sauce and chopped scallion.
+- (history) After the 1923 Great Kantō earthquake when people lacked amenities, it became a pastime to cook these crêpes, and after World War II (when there was a short supply of rice) okonomiyaki emerged as an inexpensive and filling dish for all ages, often with savory toppings, such as meat, seafood, and vegetables.
+- (about) This confection is the ancestor of the modern confections kintsuba, which is also called gintsuba in Kyoto and Osaka, and taiko-yaki (also known as imagawayaki), which both use nerian, a sweet bean paste.
 
 Learn more:
 
@@ -1587,6 +1868,7 @@ Okowa おこわ is a Japanese steamed rice dish made with glutinous rice mixed w
 
 Fun facts:
 
+- (about) Sometimes, dishes made by blending different rice varieties is also known as Okowa.
 - (origin) Okowa comes from Japan.
 
 Learn more:
@@ -1609,7 +1891,15 @@ Omurice or omu-rice is a Japanese dish consisting of fried rice topped with a sp
 
 Fun facts:
 
+- (inspiration) One story says that it originated around the turn of the 20th century at a Western-style restaurant in Tokyo's Ginza district called Renga-tei, inspired by chakin-zushi.
+- (history) A new kind of omurice was developed for the 1985 comedy film Tampopo in collaboration with Taimeiken, a famous restaurant in Nihonbashi.
+- (about) This version has become so popular that it is the restaurant standard now.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Another story says that the dish originated in 1925 at another Western-style restaurant – Hokkyokusei in Minami, Osaka, when a cook decided to enliven a regular customer's order of an omelet with rice.
 - (inspiration) Omurice is named after rice, omelette.
+- (about) In the 2020s, clips of chefs preparing omurice often went viral on social media, leading to an increased international interest in the dish.
 - (origin) Omurice comes from Japan.
 
 Learn more:
@@ -1632,13 +1922,16 @@ Onigiri, also known as omusubi or nigirimeshi, is a Japanese rice ball made from
 
 Fun facts:
 
+- (inspiration) Onigiri is a Shinto shrine dedicated to "Takami-Musubi, an androgynous deity of creation and birth... the shrine is associated with the concept of en-musubi, as well as... rice balls." Before 1868, the shrine was dedicated to Dairoku-Tenma-Ō, the "Devil King of the Sixth Heaven", and was called Dairokutensha.
 - (origin) Onigiri makes rice portable and easy to eat as well as preserving it, while sushi originated as a way of preserving fish.
-- (history) Onigiri dates from 1100-.
-- (about) Due to the popularity of this trend in Japan, onigiri has become a popular staple in Japanese restaurants worldwide.
+- (history) On November 12, 1987, lumps of carbonized grains of rice, thought to be riceballs, were excavated from a building belonging to the Yayoi period (2000 years ago) in the Sugitani Chanobatake Ruins in Ishikawa Prefecture.
 
 More fun facts (when the user asks for more):
 
+- (history) Onigiri dates from 1100-.
+- (about) Due to the popularity of this trend in Japan, onigiri has become a popular staple in Japanese restaurants worldwide.
 - (origin) Onigiri comes from Japan.
+- (about) Not to be confused with sushi.
 
 Learn more:
 
@@ -1660,13 +1953,22 @@ Fun facts:
 
 - (history) From the late Edo period, some of the dishes in osechi began to be packed in jūbako, and from the Meiji era (1868–1912) to the Showa era (1912–1989), the variety of dishes packed in jūbako increased, becoming a luxurious product sold in department stores.
 - (culture) Originally, osechi was rice served high in a bowl to celebrate the five annual ceremonies (gosekku) from the Nara (610–794) to Kamakura periods (1185–1333).
-- (origin) Osechi comes from Japan.
+- (origin) This custom of celebrating particular days was introduced from China into Japan.
 
 More fun facts (when the user asks for more):
 
 - (culture) Osechi changed greatly under the influence of honzen-ryōri, a banquet dish that was ritualized in daimyo (feudal lords) and the samurai society during the Muromachi period (1336–1573).
 - (history) During the Edo period (1603–1868), osechi came to refer only to New Year's dishes.
+- (history) Even after the samurai class came to power in the Kamakura period (1185–1333), osechi consisted of rice served high in bowls.
+- (history) During the Edo period (1603–1868), the term "osechi" came to refer only to New Year's foods.
+- (history) The osechi of the Nara (710–794) and Heian periods (794–1185) were quite different from those of today.
+- (culture) Osechi of those periods consisted of rice served high in bowls that the emperor served to court officials on the five annual ceremonies of the year.
+- (culture) Osechi is believed to have been influenced by the Shinto ritual of naorai (kyōshoku).
+- (culture) Examples of this ritual are the emperor's enthronement ceremony, Daijōsai, and the old custom of eating osechi after offering it to the altar of the kamidana (household Shinto altar).
 - (culture) Osechi is influenced by the ritual of naorai (also known as kyōshoku), in which a person who prays eats with the Shinto kami.
+- (culture) Naorai is a ritual of eating with the kami in order to offer prayers to them.
+- (about) The three main foods known as iwaizakana (festive side dishes), such as kuromame (sugar-boiled black soybeans), tazukuri (dried Japanese anchovy), and tataki gobo (burdock boiled in vinegar and soy sauce), which are essential to today's osechi, were originally served as snacks with sake in honzen-ryōri.
+- (origin) Osechi comes from Japan.
 
 Learn more:
 
@@ -1689,7 +1991,15 @@ Oyakodon, literally "parent-and-child donburi", is a donburi, or Japanese rice b
 
 Fun facts:
 
+- (history) In 1891 (Meiji 24), she reimagined this oyako-ni as a complete rice bowl meal, and this innovation is generally regarded as the prototype of modern oyakodon.
+- (about) At first, the dish was offered exclusively as a takeout option for delivery.
 - (inspiration) Oyakodon is named after parent and child.
+
+More fun facts (when the user asks for more):
+
+- (history) The earliest written mention of the terms "oyako" and "don" in combination is in a newspaper advertisement for a restaurant in Kobe in 1884.
+- (about) From these neighborhoods, the popularity of oyakodon eventually expanded beyond Tokyo and took root throughout Japan.
+- (about) The advertisement mentions dishes named oyakojōdon, oyakonamidon and oyakochūdon, possibly referring to different sizes.
 - (origin) Oyakodon comes from Japan.
 
 Learn more:
@@ -1709,8 +2019,21 @@ Pudding is a food which can either be a dessert or a savoury dish.
 
 Fun facts:
 
+- (origin) This original meaning of a pudding as a sausage is retained in black pudding, which is a blood sausage originating in the United Kingdom and Ireland made from pork or beef blood, with pork fat or beef suet, and a cereal.
+- (history) A recipe for asida that adds argan seed oil was documented by Leo Africanus (c. 1465–1550), the Arab explorer known as Hasan al-Wazan in the Arab world.
 - (about) In the United Kingdom, Ireland and some Commonwealth countries, the word pudding is used to describe both sweet and savoury dishes.
+
+More fun facts (when the user asks for more):
+
 - (about) Unless qualified, however, pudding usually means dessert and in the United Kingdom, pudding is used as a synonym for dessert.
+- (history) The word pudding is believed to come from the French boudin, which may derive from the Latin botellus, meaning "small sausage", referring to encased meats used in medieval European puddings.
+- (history) According to the Oxford English Dictionary the word pudding dates to the 13th century.
+- (history) By the 1500s, the word was used to refer to the guts or entrails or the contents of other people's stomachs especially when pierced with a sword, as in battle.
+- (about) One of the first documented mentions of pudding can be found in Homer's Odyssey where a blood pudding roasted in a pig's stomach is described.
+- (history) A recipe for asida was also mentioned in an anonymous Hispano-Muslim cookbook dating to the 13th century.
+- (about) In the United Kingdom and some of the Commonwealth countries, the word pudding can be used to describe both sweet and savoury dishes.
+- (about) Unless qualified, however, the term in everyday usage typically denotes a dessert; in the United Kingdom, pudding is used as a synonym for a dessert course.
+- (about) Anne Wilson, to have revolutionised puddings. 'The invention of the pudding-cloth or bag finally severed the link between puddings and animal guts.
 
 Learn more:
 
@@ -1734,15 +2057,28 @@ Ramen () is a Japanese-Chinese fusion noodle dish.
 Fun facts:
 
 - (inspiration) In 1958, instant noodles were invented by Momofuku Ando, further popularizing the dish.
-- (history) The origins of ramen can be traced back to Yokohama Chinatown in the late 19th century.
-- (culture) Today, ramen is considered a national dish of Japan, with many regional varieties and a wide range of toppings.
+- (origin) The word ramen first appeared in Japan in Seiichi Yoshida's How to Prepare Delicious and Economical Chinese Dishes (1928).
+- (history) Ramen was renamed shina soba in 1910 by Kan'ichi Ozaki, the founder of the first specialized ramen shop.
 
 More fun facts (when the user asks for more):
 
+- (history) The origins of ramen can be traced back to Yokohama Chinatown in the late 19th century.
+- (culture) Today, ramen is considered a national dish of Japan, with many regional varieties and a wide range of toppings.
+- (history) Instant ramen was exported from Japan in 1971 and has since gained international recognition.
+- (history) After the end of World War II in 1945, millions of Japanese settler colonists were repatriated to Japan from China.
+- (history) Some cookbooks from this time period include ramen, such as Hatsuko Kuroda's Enjoyable Home Cooking (1947).
+- (history) For example, in 1903, in Yokohama Chinatown, then known as Nankinmachi, there was a Nanjing noodle restaurant.
+- (inspiration) The Nissin Chikin Ramen, created by Momofuku Ando, was released in 1958, and the name ramen began to spread across the country.
 - (inspiration) Ramen is named after lamian.
 - (history) Ramen was largely confined to the Chinese community in Japan and was never popular nationwide until after World War II (specifically the Second Sino-Japanese War), following increased wheat consumption due to rice shortages and the return of millions of Japanese colonizers from China.
 - (about) Ramen's popularity has spread outside of Japan, becoming a cultural icon representing the country worldwide.
+- (about) The global popularity of ramen has sometimes led to the term being misused in the Anglosphere as a catch-all for any noodle soup dish.
+- (about) There are various theories on how the dish came to be named "ramen", but the most plausible is that the term was misapplied by Japanese colonizers.
+- (inspiration) They may have labeled the southern Chinese noodle dishes in Japan "ramen", based on their superficial resemblance to lamian dishes they had encountered in northern China, particularly in the Japanese-backed puppet state of Manchukuo.
+- (culture) The word washoku was used for Japanese cuisine, yoshoku symbolized Western cuisine, and Chinese cuisine was called shina ryori.
+- (about) Today ramen is the most popular name, but chūka soba remains prevalent in areas such as Takayama.
 - (origin) Ramen comes from People's Republic of China.
+- (about) Not to be confused with lamian, Ramen, ramyeon.
 
 Learn more:
 
@@ -1800,6 +2136,16 @@ Shabu-shabu is a Japanese nabemono hotpot dish of thinly sliced meat and vegetab
 
 Fun facts:
 
+- (history) Shabu-shabu was invented in Japan in the 20th century with the opening of the restaurant Suehiro in Osaka, where the name was also invented.
+- (origin) The first is that it comes from the Inner Mongolian hot pot known as instant-boiled mutton (shuàn yángròu), which was introduced to Japan after World War II by Japanese who had lived in Beijing.
+- (inspiration) Mizutaki has various ingredients and versions but is always based on dashi or water without additional flavourings.
+
+More fun facts (when the user asks for more):
+
+- (history) Shabu-shabu became more and more popular in the Kansai region and in 1955 it was also added to the menu of restaurants in Tokyo and then spread throughout Japan.
+- (origin) The other theory is that shabu-shabu originates from Japanese mizutaki hot pot, which is a popular type of nabemono.
+- (about) However, sukiyaki and shabu-shabu are both popular in many parts of Japan, and also in Japantowns in countries such as the United States and Canada.
+- (about) Shabu-shabu is also popular in Taiwan and South Korea.
 - (origin) Shabu-shabu comes from Japan.
 
 Learn more:
@@ -1820,6 +2166,12 @@ Shimotsukare is a local Japanese dish served in the Northern Kantō region of Ja
 - Ingredients (Wikidata): root vegetable, Sake kasu, aramaki, soy bean
 
 Fun facts:
+
+- (inspiration) The origins of shimotsukare can be traced back to Edo period (1603–1868) and is thought to be a derivation of su-mutsukari, a speciality dish which was mentioned in mythological narratives of Uji Shūi Monogatari and Kojidan.
+- (about) Shimotsukare is also widely believed that as the dish is mainly served in Tochigi Prefecture, formerly known as Shimotsuke Province, the name of the dish is thought to be a derivation of the phrase shimotsuke no karei
+- (culture) Shimotsukare is a traditional home cooking and the recipe is passed down from mothers to the next generation.
+
+More fun facts (when the user asks for more):
 
 - (inspiration) Shimotsukare is generally served on hatsu-u-no hi together with sekihan as an offering to appease the legendary deity, inari.
 - (about) Shimotsukare is also known as shimitsukari, shimitsukare or sumitsukare in some areas.
@@ -1881,6 +2233,10 @@ Sōki is an ingredient of Okinawan cuisine.
 
 - From: Japan
 
+Fun facts:
+
+- (about) Not to be confused with Soki.
+
 Learn more:
 
 - quick: [Soki (Wikipedia)](https://en.wikipedia.org/wiki/Soki)
@@ -1901,6 +2257,13 @@ Soy sauce (sometimes called soya sauce in British English) is a liquid condiment
 Fun facts:
 
 - (history) Soy sauce was created in its current form about 2,200 years ago during the Western Han dynasty of ancient China.
+- (about) Historically, the mixture was fermented naturally in large urns and under the sun, which was believed to contribute extra flavors.
+- (culture) Traditional soy sauces are made by mixing soybeans and grain with mold cultures such as Aspergillus oryzae and other related microorganisms and yeasts (the resulting mixture is called Koji in Japan; the term koji is used both for the mixture of soybeans, wheat, and mold as well as for the mold itself).
+
+More fun facts (when the user asks for more):
+
+- (culture) Traditional soy sauces take months to make: Soaking and cooking: The soybeans are soaked in water and boiled until cooked.
+- (about) The term "soy sauce" could also imply other condiments and soy bean paste with thick consistency known as tương.
 - (origin) Soy sauce comes from China.
 
 Learn more:
@@ -1923,6 +2286,18 @@ Sukiyaki is a Japanese dish that is prepared and served in the nabemono (Japanes
 
 Fun facts:
 
+- (history) During the Edo period (1603–1868), farmers used suki to cook things like fish and tofu.
+- (culture) However, sukiyaki became a traditional Japanese dish during the Meiji era (1868–1912).
+- (origin) In the 1860s, when Japan opened its ports to foreign merchants, foreigners who came to Japan introduced the culture of eating meat and new cooking styles.
+
+More fun facts (when the user asks for more):
+
+- (about) At first, cattle were imported from neighboring countries like Korea and China as the demand for beef increased.
+- (origin) Sukiyaki possibly originated and became popular in the Kansai region.
+- (about) The spade derivation is doubted by some, who note that the name sukiyaki may not have entered Japanese until the Taishō era and that the dish was previously known as gyūnabe.
+- (origin) Buddhism was introduced to Japan during the Asuka period.
+- (about) Cows, milk, meat, and eggs became widely used, and sukiyaki was a popular way to serve them.
+- (origin) While the people of Kantō were in Osaka, they got accustomed to the Kansai style of sukiyaki, and when they returned to Kantō, they introduced the Kansai sukiyaki style, where it has since become popular.
 - (origin) Sukiyaki comes from Japan.
 
 Learn more:
@@ -1952,7 +2327,9 @@ More fun facts (when the user asks for more):
 
 - (culture) Sushi is traditionally made with medium-grain white rice, although it can also be prepared with brown rice or short-grain rice.
 - (about) Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.
+- (about) Today, sushi is considered one of the most popular dishes in the world.
 - (origin) Sushi comes from Japan.
+- (about) Not to be confused with onigiri.
 
 Learn more:
 
@@ -1973,9 +2350,18 @@ Taiyaki is a Japanese fish-shaped cake, commonly sold as street food.
 
 Fun facts:
 
+- (history) Taiyaki was first sold in Japan in 1909.
 - (inspiration) It imitates the shape of tai, which it is named after.
 - (about) Smaller, differently shaped versions called kingyoyaki are also available and often sold in bags of five, ten, or more.
+
+More fun facts (when the user asks for more):
+
+- (origin) Taiyaki was first made by Naniwaya Sōhonten.
+- (about) Taiyaki is essentially a reshaped form of imagawayaki, an already popular snack made by wrapping bean paste in flour skin.
+- (culture) Tai is considered a symbol of luck and fortune in Japan and was an expensive fish only affordable by the higher classes or on special occasions.
+- (origin) Taiyaki was introduced to Korea during the Japanese colonial period, where it is known as bungeo-ppang.
 - (origin) Taiyaki comes from Japan.
+- (about) Not to be confused with takoyaki.
 
 Learn more:
 
@@ -1996,6 +2382,8 @@ Takikomi gohan is a Japanese rice dish seasoned with dashi and soy sauce and mix
 
 Fun facts:
 
+- (inspiration) Ingredients will vary based on the seasonal vegetables and fish.
+- (about) During the Muromachi period, katemeshi became popular, turned into a dish called kawarimeshi using ingredients such as barley, beans, and vegetables.
 - (origin) Takikomi gohan comes from Japan, People's Republic of China.
 
 Learn more:
@@ -2017,8 +2405,23 @@ Takoyaki is a ball-shaped Japanese snack made of a wheat flour–based batter an
 
 Fun facts:
 
+- (history) Takoyaki was first popularized in Osaka, where a street vendor named Tomekichi Endo is credited with its invention in 1935.
+- (origin) Takoyaki was first made by Aidu-ya.
 - (about) Yaki, meaning 'to grill', is one of the cooking methods in Japanese cuisine and can be found in the names of other dishes in Japanese cuisine such as okonomiyaki and ikayaki (other famous Osakan dishes).
+
+More fun facts (when the user asks for more):
+
+- (history) A children's book named Takoyaki Mantoman, published in the 1990s and later adapted into an anime television series produced by Studio Pierrot that aired from April 1998 to September 1999, focuses on a group of takoyaki fighting crime.
+- (history) In the early 20th century, in Osaka, there were snacks called choboyaki and radioyaki that contained pieces of beef, konjac or other ingredients.
+- (history) Takoyaki is the favorite food of Taruruto, the title character of the 1988 manga series Magical Taruruto.
+- (about) Meanwhile, in Akashi in Hyōgo Prefecture, there was a snack made of an egg-rich batter and octopus, later named akashiyaki.
+- (about) Endo's takoyaki shop, named Aizuya after his hometown, still exists today and serves the original takoyaki without sauce or mayonnaise.
+- (about) Takoyaki was initially popular in the Kansai region, and later spread to the Kantō region and other areas of Japan.
+- (culture) Takoyaki is associated with yatai street food stalls, and there are many well-established takoyaki specialty restaurants, particularly in the Kansai region.
+- (about) Takoyaki is also very popular in Taiwanese cuisine due to the historical influence of Japanese culture.
+- (about) The food, known as "octopus balls", quickly became popular throughout Japan.
 - (origin) Takoyaki comes from Japan.
+- (about) Not to be confused with taiyaki.
 
 Learn more:
 
@@ -2039,6 +2442,19 @@ Tamago kake gohan, abbreviated TKG, is a popular Japanese breakfast food consist
 
 Fun facts:
 
+- (history) The first person known to have eaten TKG in its modern, raw form was Kishida Ginkō (1833–1905), a pioneering journalist, around 1877.
+- (about) Although domesticated chickens arrived in Japan during the Yayoi period, imperial edicts, such as those by Emperor Tenmu and Emperor Shōmu, forbade the killing and eating of certain animals, including chickens, and eggs were likely avoided as well.
+- (origin) During the Sengoku period and Edo period, contact with Europeans, particularly in Western Japan, introduced meat-eating habits and the consumption of eggs.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1838, records from the Nabeshima clan (Onji Nikki) mention "Odonburi Namatamago" being served to guests.
+- (history) An early dish resembling TKG, called Tamago meshi, appears in the 1805 cookbook Shirōto Hōchō.
+- (history) According to a 1927 magazine article describing Ginkō's habits, he seasoned it with salt and chili pepper (bansho).
+- (history) Eggs were a luxury during the food shortages after World War II, but became widely affordable from the 1950s onwards.
+- (about) TKG then gained popularity for its taste and nutritional value.
+- (origin) The book 365 Nichi Tamago Kake Gohan no Hon (2007) introduced 365 variations and popularized the abbreviation "TKG" for creative tamago kake gohan recipes.
+- (about) The idol group Nama Ham to Yaki Udon has a song titled "Tamago Kake Gohan" (2015).
 - (origin) Tamago kake gohan comes from Japan.
 
 Learn more:
@@ -2080,6 +2496,17 @@ Tempura is a Japanese dish that usually consists of seafood and vegetables that 
 Fun facts:
 
 - (origin) Tempura originated in the 16th century, when Portuguese Jesuits brought the Western-style cooking method of coating foods with flour and frying, via Nanban trade.
+- (history) The modern tempura recipe was first published in 1671 in the cookbook called "料理献立抄".
+- (about) Tempura became popular largely due to the abundance of seafood.
+
+More fun facts (when the user asks for more):
+
+- (origin) Today in Japan, mainstream tempura recipes originate from "Tokyo-style" (also known as “Edo-style“) tempura, invented at the food stalls along the riverside fish market in the Edo period.
+- (origin) The word "tempura" originates from the Latin word tempora, a term referring to these fasting times.
+- (history) In the early 17th century, around the Tokyo Bay area, tempura ingredients and preparation changed as the yatai (food cart) culture gained popularity.
+- (about) Therefore, tempura gained popularity as fast food eaten at outdoor food stalls.
+- (about) The term "tempura" is thought to have gained popularity in southern Japan; it became widely used to refer to any food prepared using hot oil, including some already existing Japanese foods.
+- (about) Not to be confused with tempera.
 
 Learn more:
 
@@ -2100,6 +2527,7 @@ Tenmusu, also spelled as ten-musu, is a dish in Japanese cuisine that consists o
 
 Fun facts:
 
+- (origin) Tenmusu originated in the Mie prefecture region of Japan.
 - (inspiration) Tenmusu is named after onigiri, tempura.
 
 Learn more:
@@ -2121,6 +2549,7 @@ Tonjiru or butajiru is a Japanese soup made with pork and vegetables, flavoured 
 
 Fun facts:
 
+- (history) A version of the dish, containing sweet potatoes, as served to skiers in the ski resorts of Niigata Prefecture up until about 1960, is known as sukii-jiru ("skiing-soup").
 - (origin) Tonjiru comes from Japan.
 
 Learn more:
@@ -2142,6 +2571,14 @@ Tonkatsu is a type of Japanese cutlet made from pork.
 
 Fun facts:
 
+- (origin) Tonkatsu originated in Japan during the Meiji era in the late 19th century, a dish derived from a French dish known as côtelette de veau, a veal cutlet coated in breadcrumbs and fried in a pan with butter.
+- (history) European katsuretsu (loanword/gairaigo for 'cutlet') was usually made with beef; the pork version was created in 1899 at a restaurant serving European-style foods named Rengatei in Tokyo, Japan.
+- (about) Tonkatsu is a type of yōshoku—Japanese versions of European cuisine invented in the late 19th and early 20th centuries—and was called katsuretsu or simply katsu.
+
+More fun facts (when the user asks for more):
+
+- (history) Pork cutlets began to gain popularity around 1907 and eventually became established as one of the "three great yōshoku" during the Taishō era.
+- (history) As its popularity grew among the Japanese public, the modern form of tonkatsu, distinguished by its use of a thick cut of pork, began to be sold in 1929 (Shōwa 4) in the Okachimachi neighborhood of Ueno, Tokyo.
 - (origin) Along with karē raisu and korokke, tonkatsu was considered one of the "three great yōshoku", popular Western-style Japanese dishes that were introduced to Japan.
 - (origin) Tonkatsu comes from Japan.
 
@@ -2244,6 +2681,7 @@ More fun facts (when the user asks for more):
 
 - (history) References to uirō as a confection first appear in the Wa-Kan Sansai Zue, Ryōan Terajima's massive Edo-period dictionary published in 1712.
 - (origin) Uirō comes from Japan.
+- (about) Not to be confused with uirō.
 
 Learn more:
 
@@ -2264,9 +2702,17 @@ Unadon is a dish originating in Japan.
 
 Fun facts:
 
+- (history) Una-don was the first type of donburi rice dish, invented in the late Edo period, during the Bunka era (1804–1818) by a man named Ōkubo Imasuke of Sakai-machi (in present-day Nihonbashi Ningyōchō, Chūō, Tokyo), and became a hit in the neighborhood, where the Nakamura-za and Ichimura-za once stood.
+- (origin) As for unajū, where the eel and rice is stuffed in jūbako boxes, one theory ascribes its originator to one Gihei, who started a freshwater fish restaurant business in Sanya, Asakusa, Tokyo, called Funagi (later known as Jūbako, the current generation of the restaurant is in Akasaka).
 - (about) It consists of a donburi type large bowl filled with steamed white rice, and topped with fillets of eel (unagi) grilled in a style known as kabayaki, similar to teriyaki.
-- (origin) Unadon comes from Japan.
+
+More fun facts (when the user asks for more):
+
+- (history) The first eatery to sell it as a business is claimed to be Ōnoya, in Fukiyachō (adjacent to Sakai-chō) at some indeterminate time, but presumably before the theaters burnt down in 1841 and moved off.
+- (history) After the great famine of 1844, it started selling the unadon for one oblong Tenpō-sen coin, and became a hit.
+- (origin) Unadon was first made by Ōkubo Imasuke.
 - (about) Unadon is also very popular outside of Japan, particularly in Taiwan and the United States.
+- (origin) Unadon comes from Japan.
 
 Learn more:
 
@@ -2329,7 +2775,20 @@ Yakisoba is a Japanese noodle stir-fried dish.
 
 Fun facts:
 
+- (origin) It is believed that yakisoba first appeared around 1918 at street stalls specializing in dondonyaki (jp) for children (the precursor to okonomiyaki) around the late Taishō to the early Shōwa era (c. 1920s).
+- (history) From around 1907, during the Meiji era, a large number of Chinese restaurants featuring Chinese chefs dispatched from Yokohama Chinatown, as well as eateries serving shina soba (the precursor to ramen), began opening in Asakusa, Tokyo.
+- (culture) In 1935, during the Shōwa era, street food stalls specializing in Worcestershire sauce-flavored yakisoba gained popularity in Tokyo, and the dish was also served at okonomiyaki restaurants in Asakusa, where it was considered a local specialty.
+
+More fun facts (when the user asks for more):
+
 - (origin) Yakisoba originated as a type of okonomiyaki.
+- (history) Some of these chefs had been forced to leave the United States due to the Chinese Exclusion Act of 1882 and came to Japan seeking work.
+- (history) Meanwhile, around 1897, also during the Meiji era, street stalls selling teppanyaki began appearing.
+- (history) It used the same sauce and ingredients as dondonyaki but substituted the relatively cheaper Chinese-style noodles for wheat flour ones, the price of which had soared due to the 1918 Rice riots.
+- (history) After Japan's WWII defeat in 1945, Japanese repatriates (jp) returning from Japan's overseas territories ate yakisoba at black markets in Tokyo.
+- (culture) From the late Meiji through the Taishō era, the number of Japanese yatai (street food stalls) specializing in shina soba increased, and the Chinese-style noodles use for them became familiar to Tokyoites.
+- (inspiration) These dishes were inspired by tempura and involved grilling ingredients like squid, shrimp, and ginger mixed with flour and water.
+- (about) This led to the dish spreading to their hometowns, gradually extending its popularity throughout Japan.
 - (origin) Yakisoba comes from Japan.
 
 Learn more:
@@ -2347,6 +2806,11 @@ Yakisoba-pan is a popular Japanese food in which yakisoba is sandwiched between 
 
 - From: Japan
 - Ingredients (Wikidata): hot dog bun, Yakisoba
+
+Fun facts:
+
+- (history) Most concur that it took off during the 1950s.
+- (history) In that era, the United States flooded Japanese markets with cheap flour products; by 1955, it was appearing in department stores in Tokyo and soon nationwide.
 
 Learn more:
 
@@ -2409,6 +2873,13 @@ Zōni, often with the honorific "o-" as o-zōni, is a Japanese soup containing m
 
 Fun facts:
 
+- (about) Zōni is also generally believed that this original meal, at first exclusive to samurai, eventually became a staple food of the common people.
+- (culture) The tradition of eating zōni on New Year's Day dates to the end of the Muromachi period (1336–1573).
+- (origin) Zōni was first served as part of a full-course dinner (honzen ryōri), and thus is thought to have been a considerably important meal to samurai.
+
+More fun facts (when the user asks for more):
+
+- (about) Since the first, 雑 means "miscellaneous" or "mixed", and the second, 煮, means "simmer" or "boil", it is thought that the word is derived from the fact that zōni consists of many miscellaneous items of food (such as mochi, vegetables and seafood) being boiled together.
 - (culture) Zōni is strongly associated with the Japanese New Year and its tradition of osechi ceremonial foods.
 - (origin) Zōni comes from Japan.
 
@@ -2431,7 +2902,15 @@ Aburasoba, also known as maze soba, monjasoba, tenukisoba, abu ramen or shirunas
 Fun facts:
 
 - (origin) Mazesoba was introduced in the 1950s, with Chinchintei opening up in Musashino City in the 1950s.
+- (history) There are two theories about its origin: one is that Sanko, a restaurant near Hitotsubashi University in Kunitachi City, founded in 1952, started serving it as a snack with alcohol.
+- (inspiration) They were likely inspired in the 1950s by soggy ramen noodles.
+
+More fun facts (when the user asks for more):
+
+- (history) The other theory is that Chinchintei, a restaurant near Asia University in the Musashino City district, started selling aburasoba in the 1950s.
 - (culture) Traditional ingredients include shoyu tare base, aroma oil, menma, shredded nori, and green onions.
+- (about) Aburasoba became popular and ranked in the Shimbun list of Trending Products of the Year.
+- (about) In 2002, Myojo Foods launched the "Bubukka" oil-based instant noodles in Kichijoji, Musashino City.
 - (origin) Aburasoba comes from Japan.
 
 Learn more:
@@ -2448,6 +2927,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q96095589) (CC0); [Wikipedia: 
 Allium fistulosum, the Welsh onion, also commonly called Japanese bunching onion, stone-leek, and spring onion, is a species of perennial plant, often considered to be a kind of scallion.
 
 - From: Japan
+
+Fun facts:
+
+- (about) Historically, A. fistulosum was known as the cibol.
+- (about) In Cornwall, they are known as chibols, and in Scotland as sybows or sybies.
 
 Learn more:
 
@@ -2492,6 +2976,10 @@ Arrowroot tea, also called kudzu tea, is a traditional East Asian tea made from 
 - From: Japan
 - Ingredients (Wikidata): root
 
+Fun facts:
+
+- (about) Not to be confused with kuzuyu.
+
 Learn more:
 
 - quick: [Arrowroot tea (Wikipedia)](https://en.wikipedia.org/wiki/Arrowroot_tea)
@@ -2511,12 +2999,22 @@ Awamori is an alcoholic beverage indigenous and unique to the Ryukyuan cuisine o
 
 Fun facts:
 
+- (history) The earliest known use of the term awamori is in a 1671 record of a gift from king Shō Tei of the Ryukyu Kingdom to the fourth shōgun, Tokugawa Ietsuna.
+- (about) On this theory, the word was recorded incorrectly with the first character as "bubble, foam" rather than the character for millet.
 - (culture) In December 2024, UNESCO added knowledge and traditional techniques used for making sake, aamui and shochu to its Intangible Cultural Heritage list.
-- (origin) Awamori comes from Japan, Ryukyu Kingdom.
-- (history) Awamori dates from 1500-.
 
 More fun facts (when the user asks for more):
 
+- (history) The technique of distilling reached Ryukyu Kingdom, today's Okinawa, from the Ayutthaya Kingdom (roughly present-day Thailand) in the 15th century, a time when Okinawa served as a major trading intermediary between Southeast Asia, China, and Japan.
+- (history) Awamori was sent as a gift to the shogunate prior to 1671, but it was recorded as shōchū in earlier records.
+- (about) Awamori is the oldest distilled alcoholic drink in Japan, it is believed to predate sochu.
+- (origin) It originates from the Thai drink lao khao.
+- (history) From the 15th to 19th century, awamori was sent as a tribute to Okinawa's powerful neighbors, to the shogun during the Edo period, and was served to show hospitality to envoys from China.
+- (about) The Okinawan historian Iha Fuyū believed that the name derives from the word for millet, compounded with a verb-derived noun meaning "heaped amount; serving".
+- (about) Millet was a raw material used to make awamori at the time that the word was first used.
+- (origin) Awamori comes from Japan, Ryukyu Kingdom.
+- (history) Awamori dates from 1500-.
+- (origin) Awamori was first made in Ryukyu Islands.
 - (about) The most popular way to drink awamori in Okinawa is with water and ice.
 - (culture) Traditionally, awamori was served in a kara-kara, a small earthen vessel with a small clay marble inside.
 - (culture) Awamori is aged in traditional clay pots to improve its flavor and mellowness.
@@ -2556,14 +3054,25 @@ A bento is a single-portion take-out or home-packed meal of Japanese origin, oft
 
 Fun facts:
 
+- (history) There are several records that claim where ekiben was first sold, but it is believed that it was sold on 16 July 1885 at Utsunomiya Station in the northern Kantō region of Japan, and contained two onigiri and a serving of takuan (pickled radish) wrapped in bamboo leaves.
+- (origin) The word itself originates from the Chinese Song dynasty slang term 便当, meaning "convenient" or "convenience" (this sense is still used in Wu dialects such as Shanghainese).
 - (culture) A traditional bento typically includes rice or noodles with fish or some other meat, often with pickled and cooked vegetables in a box.
-- (about) A typical divider is green plastic "sushi grass", known as baran in Japan, which also works to slow the growth of bacteria.
-- (origin) Bento comes from Japan.
 
 More fun facts (when the user asks for more):
 
+- (history) In the Meiji era (1868–1912), the first ekibentō or ekiben was sold.
+- (history) The practice of carrying food and eating it outside the home can be found in historical texts such as the Kojiki (completed in the 8th century) and the Nihon Shoki (also completed in the 8th century).
+- (history) In the Edo period (1603–1867), bento culture spread and became more refined.
+- (history) In the 8th century, this type of portable food was called hoshi-ii.
+- (history) The increased popularity of bento can be traced back to the 12th century during the Kamakura period, when meals of cooked and dried rice called hoshi-ii were developed to be carried to work.
+- (history) By the 16th century, wooden lacquered boxes were produced, and bento would be eaten during hanami or a tea party.
+- (origin) One of the most popular styles of bento, called makunouchi bentō ("between-act bento"), was first made during this period.
+- (about) A typical divider is green plastic "sushi grass", known as baran in Japan, which also works to slow the growth of bacteria.
 - (about) Bento can be elaborately arranged in styles called kyaraben ("character bento", typically decorated to look like popular characters from anime, manga, or video games) or oekakiben ("picture bento", decorated to look like people, animals, buildings and monuments, or items such as flowers and plants).
 - (about) There are comparable forms of boxed lunches in other Asian countries such as in Taiwan, Korea, and other Sinophone communities, known as piān-tong in Taiwanese Hokkien, in Korea as dosirak and héfàn or biàndāng in Mandarin.
+- (origin) Taiwan, in particular, was under Japanese rule for about fifty years, which allowed Japanese bento culture to be introduced and take root.
+- (origin) Bento comes from Japan.
+- (about) Not to be confused with meal box.
 
 Learn more:
 
@@ -2585,6 +3094,14 @@ C.C.
 Fun facts:
 
 - (history) C.C. Lemon dates from 1994-.
+- (inspiration) Lemon is a Japanese soft drink created by Suntory.
+- (about) The amount of sugar is not different from that of soft drinks such as cola In July 2010, the 500ml PET bottle was redesigned and changed to a slimmer, straight bottle, but the PET bottles for vending machines remained unchanged.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) The drink is named CC Lemon, based on the themes of lemon and vitamin C.
+- (about) Starting with "CC Grape," released in April 2014, the label size was reduced, and existing "CC Lemon" PET bottle products and "CC Lmon Resfresh Zero" were also switched to the new label (the 1.5L PET bottle uses the same small label as the "Pepsi Cola Nex" which was redesigned and released in march of the same year).
+- (about) In July 2014, it was also launched in Vietnam.
 - (origin) C.C. Lemon comes from Japan.
 
 Learn more:
@@ -2605,8 +3122,21 @@ Calpis, sold in North America as Calpico, is a Japanese probiotic milk beverage 
 
 Fun facts:
 
+- (culture) The founder of Calpis, Kaiun Mishima, travelled to Mongolia in 1902, encountering a traditional cultured milk product known as airag (called kumis throughout most of Central Asia).
+- (history) Daigomi, launched in 1916, was made by culturing cream with lactic acid bacteria.
+- (about) Diluting Calpis with water proved to be economical, quickly garnering popularity with customers, along with the catchphrase "the taste of first love".
+
+More fun facts (when the user asks for more):
+
+- (history) Calpis was officially released on July 7, 1919, at the price of ¥1.60 per bottle.
+- (history) Calpis initially had the image of being a special drink, being reserved for special occasions or gifts; it was only around 1965 that it began to be treated as a normal beverage in ordinary households.
+- (history) Orange-flavoured Calpis was released in 1958, with pineapple- and grape-flavoured versions following two years later.
+- (history) A carbonated version called Calpis Soda was also released in 1974.
+- (history) In 1973, sales plummeted after the price was raised.
 - (history) Calpis dates from 1948-.
 - (about) A pre-diluted version known as Calpis Water, or its carbonated variety, known as Calpis Soda, is also available.
+- (inspiration) After the airag he consumed helped return his digestion to normal, Mishima was inspired to develop his own version.
+- (inspiration) Calpis was created by chance when Mishima added sugar to Daigoso and left it overnight.
 
 Learn more:
 
@@ -2628,12 +3158,13 @@ Dried persimmon is a type of traditional dried fruit snack in East Asia with ori
 Fun facts:
 
 - (history) In the Han dynasty, Yangshao dried persimmon was used as a tribute to the imperial court.
+- (inspiration) According to Chinese legend, Zhu Yuanzhang was forced to live in exile at the foot of Jinweng mountain in the north of Fuping.
 - (culture) Known as shìbǐng in Chinese, hoshigaki in Japanese, gotgam in Korean, and hồng khô in Vietnamese, it is traditionally made in the winter, by air drying Oriental persimmon.
-- (origin) Dried persimmon comes from Japan, People's Republic of China, Korea.
 
 More fun facts (when the user asks for more):
 
 - (culture) Dried persimmon is also used to make wine, put in traditional tea, and in creating other desserts.
+- (origin) Dried persimmon comes from Japan, People's Republic of China, Korea.
 
 Learn more:
 
@@ -2715,6 +3246,14 @@ Himono is a Japanese culinary method of preparing dried and salted fish.
 
 Fun facts:
 
+- (history) Over the next few centuries, in particular during the Edo period (1603–1868), as the general population's standard of living improved, the affluent inland civilians began consuming himono as a luxury cuisine item.
+- (culture) Himono is the traditional method of preparing dried fish in Japan.
+- (about) Before the use of modern refrigeration, storage, and logistical technology, this method of preparing and preserving dried fish was popular in the country.
+
+More fun facts (when the user asks for more):
+
+- (history) Archaeological evidence found in the fossils of dried fish and mollusks suggests that the himono method of fish preservation was practiced as early as the Jomon period (14500 - 300 BCE).
+- (history) Himono became a popular delicacy among the royalty and nobility during the Nara period (710-794 CE) and the Heian period (794–1185), becoming part of the imperial diet at the court of Kyoto.
 - (origin) Himono comes from Japan.
 
 Learn more:
@@ -2735,6 +3274,7 @@ Hōjicha is a type of Japanese green tea.
 
 Fun facts:
 
+- (history) The process of making hōjicha was discovered in 1920 by accident when a Kyoto merchant had unsaleable bancha, which is the lowest grade of sencha and is regarded as Japanese "everyday tea".
 - (origin) Hōjicha comes from Japan.
 
 Learn more:
@@ -2757,14 +3297,15 @@ Since the early 21st century, Japanese whisky has undergone rapid expansion and 
 Fun facts:
 
 - (history) The origins of commercial whisky production in Japan date to the early 20th century, when Japanese producers began studying Scotch whisky-making techniques and adapting them to domestic conditions.
+- (origin) Japanese whisky was first made by Masataka Taketsuru.
 - (about) The number of whisky distilleries in Japan increased sharply during the 2010s and 2020s, reflecting renewed domestic demand and growing international interest in Japanese whisky.
-- (culture) Japanese whisky production is traditionally modeled on Scotch whisky, employing malted barley, pot still distillation, and oak cask maturation.
 
 More fun facts (when the user asks for more):
 
 - (history) Commercial production expanded gradually during the interwar and postwar periods, but domestic demand declined in the late 20th century, leading to consolidation within the industry.
 - (history) A renewed global interest in Japanese whisky emerged in the early 21st century, driven in part by international awards and increased visibility in overseas markets.
 - (history) Japanese whisky dates from 1870-.
+- (culture) Japanese whisky production is traditionally modeled on Scotch whisky, employing malted barley, pot still distillation, and oak cask maturation.
 - (origin) Japanese whisky comes from Japan.
 
 Learn more:
@@ -2781,6 +3322,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q901367) (CC0); [Wikipedia: Ja
 Kelp tea or kombu tea is a herbal tea made from kombu, a type of edible kelp.
 
 - From: Japan
+
+Fun facts:
+
+- (history) Tea using kelp already existed in Edo period (1603–1868) at the latest, and people in these days drank it by pouring boiling water over chopped kelp.
+- (about) Not to be confused with kombucha.
 
 Learn more:
 
@@ -2801,8 +3347,19 @@ Koala's March is a Japanese brand of a bite-sized cookie snack with a sweet fill
 
 Fun facts:
 
+- (culture) The product was first released in Japan in 1984, to celebrate the arrival of the first koalas to the country.
+- (history) The product was released in Australia by 1990, and in the United States in May 1990.
+- (inspiration) This myth has persisted until at least 2019.
+
+More fun facts (when the user asks for more):
+
+- (history) The product expanded to Hong Kong in 1986.
+- (history) In 1988, some Japanese students started the rumor that finding a cookie with a koala with two eyebrows playing a trumpet would bring good luck on exams.
 - (history) Koala's March dates from 1984-.
+- (about) Koala's March was one of the products impacted by the 2008 Chinese milk scandal.
+- (about) In 2012, Lotte released an 'emergency food' version of Koala's March biscuits without filling, which were sold in cans and had a shelf life of five years.
 - (origin) Koala's March comes from Japan.
+- (about) Not to be confused with Chocobi.
 
 Learn more:
 
@@ -2821,7 +3378,20 @@ Kombu or Konbu is edible kelp mostly from the family Laminariaceae and is widely
 
 Fun facts:
 
+- (history) The kanji itself already could be seen in Shōsōin Monjo (8th century) and Shoku Nihongi (797) in Japan, and furthermore trace back in China, as early as 3rd century, to the book Wupu Bencao (around 239).
+- (origin) In 1867, the word "kombu" first appeared in an English-language publication—A Japanese and English Dictionary by James Curtis Hepburn.
 - (about) It may also be referred to as dasima or haidai.
+
+More fun facts (when the user asks for more):
+
+- (history) Umami, a basic taste, was first scientifically identified in 1908 by Kikunae Ikeda through his experimentation with kombu.
+- (history) Sometime later the names konfu and kofu appeared respectively in two editions of Iroha Jiruishō in 12th–13th century.
+- (origin) One is that it originated from the on'yomi (Sino-Japanese reading) of the Chinese name 昆布 (kūnbù).
+- (history) Li Shizhen wrote the following in his Bencao Gangmu (1596): Come to think about it, Wupu Bencao says "綸布 (gūanbù), alias 昆布 (kūnbù)." Then, what is mentioned in the Erya as "(what is pronounced) 綸 resembles 綸.
+- (history) In the 20th century, a way to cultivate kombu was discovered and it became cheap and readily available.
+- (history) Since the 1960s, dried kombu has been exported from Japan to many countries.
+- (culture) Traditional Okinawan cuisine relies heavily on kombu as a part of the diet; this practice began in the Edo period.
+- (about) Ikeda named the newly-discovered taste umami, from the Japanese word umai.
 
 Learn more:
 
@@ -2862,15 +3432,20 @@ Matcha is a finely ground powder of green tea specially processed from shade-gro
 
 Fun facts:
 
+- (history) During the Edo period (1603–1867), it came to refer specifically to the official tea masters of Uji, Kyoto, whose status was guaranteed by the Tokugawa shogunate.
+- (culture) The tradition continued from 1633 until 1866, near the end of the Edo period.
 - (origin) Matcha originated through cultural exchanges between China and Japan in the premodern period, developing from earlier powdered tea practices in China that were transmitted to Japan by Zen Buddhist monks.
-- (history) During the Song dynasty, tea leaves were ground into a fine powder and whisked with hot water.
-- (culture) Traditionally, matcha was produced almost exclusively in Japan, although it is now also produced in other countries such as China and South Korea.
 
 More fun facts (when the user asks for more):
 
+- (history) During the Song dynasty, tea leaves were ground into a fine powder and whisked with hot water.
 - (origin) This method was introduced to Japan by the monk Eisai around 1191, where it continued to develop and ultimately evolved into what the world knows today as matcha even as such practices declined in China.
 - (origin) In the twenty-first century, to meet the rising global demand for matcha, China invited Japanese specialists for technical guidance, introduced the necessary equipment, and has promoted mass production in Guizhou Province since 2018.
+- (culture) Traditionally, matcha was produced almost exclusively in Japan, although it is now also produced in other countries such as China and South Korea.
+- (culture) The traditional Japanese tea ceremony, typically known as chanoyu or sadō/chadō, centers on the preparation, serving and drinking of matcha as hot tea, and embodies a meditative and spiritual practice.
+- (about) The matcha made using her method was named Baba Mukashi and was later served to the shogun.
 - (origin) Matcha comes from China.
+- (about) Not to be confused with konacha, matcha.
 
 Learn more:
 
@@ -2898,6 +3473,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Mitsuya Cider gained exposure in the West during 2008 as a result of the Rickrolling internet meme, since Rick Astley was the face of the brand during the late 1980s and early 1990s.
+- (about) Not to be confused with Dodecamin.
 
 Learn more:
 
@@ -2953,6 +3529,7 @@ Nigori sake, also called nigorizake, is a type of Japanese sake (seishu) that is
 
 Fun facts:
 
+- (history) In the late 20th century, nigori sake experienced renewed interest both in Japan and abroad, particularly as part of the diversification of sake styles and the growth of export markets.
 - (origin) Nigori comes from Japan.
 
 Learn more:
@@ -3003,12 +3580,17 @@ Pocari Sweat is a Japanese sports drink, manufactured by Otsuka Pharmaceutical.
 Fun facts:
 
 - (history) Pocari Sweat is a mild-tasting, non-carbonated sweet beverage and is advertised as an "ion supply drink", "refreshment water" (1992), "body request" (1999), and "electrolyte beverage" in Thailand.
+- (about) The first part of the name, Pocari, has no meaning but was intended to sound refreshing.
 - (origin) Pocari Sweat comes from Japan.
-- (history) Pocari Sweat was launched in 1980, and is sold across Asia and the Middle East; it is also available in Australia, Mexico and the United States.
 
 More fun facts (when the user asks for more):
 
+- (history) In 1982, it was exported overseas for the first time, to Hong Kong and Taiwan, followed the next year by Singapore, Bahrain, Oman and Saudi Arabia.
+- (history) By the mid-1990s, Pocari Sweat had become Japan's first domestically produced non-alcoholic drink to ship over $1 billion in product.
+- (history) Pocari Sweat was launched in 1980, and is sold across Asia and the Middle East; it is also available in Australia, Mexico and the United States.
+- (history) Pocari Sweat was launched in 1980 in Japan by Rokuro Harima, an Otsuka Pharmaceutical employee who came up with the idea after observing a doctor drink IV solution to rehydrate.
 - (history) Pocari Sweat dates from 1980-.
+- (about) Not to be confused with Picardy sweat.
 
 Learn more:
 
@@ -3084,11 +3666,15 @@ Ramune is a carbonated soft drink served in a Codd-neck bottle.
 Fun facts:
 
 - (origin) Ramune was introduced in 1884 in Kobe as a carbonated lemonade by the Scottish pharmacist Alexander Cameron Sim.
+- (culture) Ramune is one of the modern symbols of summer in Japan and is widely consumed during festival days.
 - (inspiration) Ramune is named after lemonade.
-- (history) Ramune dates from 1884-.
 
 More fun facts (when the user asks for more):
 
+- (origin) In 1884, Alexander Cameron Sim introduced a lemonade carbonated beverage to the Kobe foreign settlement.
+- (history) Ramune dates from 1884-.
+- (about) The drink soon became popular with Japanese people after it was advertised in the Tokyo Mainichi Newspaper.
+- (about) As ramune is popular among children, there have been package design collaborations with popular Japanese franchises such as Hello Kitty.
 - (origin) Ramune comes from Japan.
 
 Learn more:
@@ -3111,6 +3697,7 @@ Sake, saké, or saki, also referred to as Japanese rice wine, is an alcoholic be
 Fun facts:
 
 - (origin) Sake comes from Japan.
+- (about) Not to be confused with sack.
 
 Learn more:
 
@@ -3145,6 +3732,12 @@ Satsuma-age is a fried fishcake originating from Kagoshima, Japan.
 - Ingredients (Wikidata): fish surimi
 
 Fun facts:
+
+- (history) It is said that, in about 1864, the Shimazu clan brought it to Satsuma from Okinawa through some exchange and invasion.
+- (origin) There are varied histories of Satsuma-age, but the most famous birthplace is the Satsuma district in Kagoshima.
+- (about) In the Chubu region it is known as "Hanpen".
+
+More fun facts (when the user asks for more):
 
 - (origin) Satsuma-age comes from Japan.
 
@@ -3189,6 +3782,17 @@ Shōchū is a Japanese distilled beverage.
 
 Fun facts:
 
+- (history) Tamaki Inui (1873–1946), a lecturer at University of Tokyo, succeeded in the first isolating and culturing aspergillus such as A. kawachii, A. awamori and a variety of subtaxa of A. oryzae.
+- (inspiration) His contemporary Genichirō Kawachi (1883–1948), who is said to be the father of modern shōchu with his development of the Kawachi Drum koji machine, isolated white koji, also known as A. kawachii, which is named after him.
+- (culture) What a nuisance!" From these early times through to the Edo period shōchū was produced throughout Japan in the traditional kasutori way, using single pot distillation.
+
+More fun facts (when the user asks for more):
+
+- (history) When the missionary Francis Xavier visited Kagoshima Prefecture in 1549, he recorded that "the Japanese drink arak is made from rice [...] but I have not seen a single drunkard.
+- (history) Shōchū production has been historically attested to since the 16th century.
+- (history) There, two carpenters working on the shrine in 1559 inscribed the following graffiti on a wooden plank in the roof: "The high priest was so stingy he never once gave us shōchū to drink.
+- (origin) During the Meiji period, the column still was introduced to Japan from Great Britain, making affordable mass production of high-purity multiply distilled shōchū possible during a time of chronic rice shortages.
+- (culture) Through their experience in both Okinawan Awamori and sake production, these men revolutionized traditional shochu production through the introduction of black koji (A. awamori) and multi-stage fermentation.
 - (origin) Shōchū comes from Japan.
 
 Learn more:
@@ -3210,7 +3814,17 @@ Soba are Japanese noodles made from buckwheat flour, with varying amounts of whe
 
 Fun facts:
 
+- (origin) The first specific reference to buckwheat noodles (soba-kiri) comes from a record of 1574, kept at Jōshō-ji temple, which documents that soba-kiri was served to workers repairing the main hall.
+- (about) Buckwheat cultivation was first recorded in the Shoku Nihongi, in an imperial edict of 722 CE issued by Empress Genshō, instructing farmers to plant buckwheat in response to drought and famine.
+- (culture) Later, the monk Enni (1202–1280) is traditionally credited for introducing noodles to Japan after returning from China.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 8th century, noodle-type foods of Chinese origin appeared in Japan.
+- (history) More mentions of soba noodles follow throughout the early 1600s.
 - (culture) The tradition of eating soba among ordinary people arose in the Edo period.
+- (culture) For example, ramen was traditionally called chūka soba or shina soba, both meaning "Chinese noodles", though the word shina is now considered offensive.
+- (about) Traces of buckwheat have been found at Neolithic sites in Japan, dating to 4000–2000 BCE, during the Jōmon period.
 - (origin) Soba comes from Japan.
 
 Learn more:
@@ -3233,7 +3847,15 @@ Sōmen, somyeon, sùmiàn or soomin is a very thin noodle made of wheat flour, l
 
 Fun facts:
 
+- (history) The earliest record for what would later be sōmen dates back to the Tang dynasty in 618-907 China.
+- (about) Sakubei later evolved into somen first in modern-day Sakurai, Nara's Miwa district during the Heian Period and then evolved to become high-class Japanese cuisine served to emperors and nobles.
 - (origin) Sōmen comes from China.
+
+More fun facts (when the user asks for more):
+
+- (history) This transition from the knotted pastry (sakubei) to the thin noodle form we know today occurred primarily during the Kamakura period (1185–1333).
+- (history) By the late 14th century, the term somen appeared in historical records such as the Kakaisho, marking its distinction from its predecessor.
+- (about) Not to be confused with lamian, extruded noodle, knife-cut noodle.
 
 Learn more:
 
@@ -3255,8 +3877,14 @@ Tonkatsu sauce or katsu sauce is a Japanese sauce served with tonkatsu (pork cut
 
 Fun facts:
 
+- (history) The first tonkatsu sauce was made in 1948 by Oliver Sauce Co., Ltd. of Hyōgo Prefecture.
 - (inspiration) Tonkatsu sauce is named after tonkatsu.
+- (origin) Tonkatsu sauce was first made by Oliver Sauce.
+
+More fun facts (when the user asks for more):
+
 - (origin) Tonkatsu sauce comes from Japan.
+- (inspiration) Tonkatsu sauce is based on Worcestershire sauce.
 
 Learn more:
 
@@ -3324,7 +3952,12 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (history) The product launched in July 1979 at its famous 10 yen per piece price point, originally aiming at children and young people on a strict budget, and generally being sold in candy stores.
+- (history) In the face of supply chain issues exacerbated by the coronavirus pandemic and continued inflation (10 JPY in 1979 is worth around 15 JPY in 2022, a substantial relative decline in value), Yaokin raised the price to 12 yen in January 2022.
 - (history) After staying stably at that price point since the product's launch in 1979, it was announced in January 2022 that the price would increase to 12 yen, the first increase in over forty years.
+- (about) It grew in popularity beyond just candy stores, and was soon sold everywhere, including ubiquitous Japanese convenience stores (konbini) and supermarkets.
+- (about) The most popular three flavors have remained corn potage, cheese, and mentai.
+- (about) In 2007, most umaibō were subtly changed to be smaller and lighter, with 1 gram shaved off the product.
 - (origin) Umaibō comes from Japan.
 
 Learn more:
@@ -3386,9 +4019,23 @@ Vanilla is a spice derived from orchids of the genus Vanilla, primarily obtained
 
 Fun facts:
 
+- (history) The Totonac people, who live along the eastern coast of Mexico in the present-day state of Veracruz, were among the first people to domesticate vanilla, cultivated on farms since at least 1185.
+- (about) Although the Totonacs are the most famously associated with human use of vanilla, it is speculated that the Olmecs, who also lived in the regions of wild vanilla growth thousands of years earlier, were one of the first peoples to use wild vanilla in cuisine.
+- (inspiration) Aztecs from the central highlands of Mexico invaded the Totonacs in 1427, developed a taste for the vanilla pods, and began using vanilla to flavor their foods and drinks, often mixing it with cocoa in a drink called "xocolatl" that later inspired modern hot chocolate.
+
+More fun facts (when the user asks for more):
+
+- (history) In Europe, vanilla was seen mostly as an additive to chocolate until the early 17th century when Hugh Morgan, a creative apothecary in the employ of Queen Elizabeth I, created chocolate-free, vanilla-flavored "sweetmeats".
 - (history) In 1837, the Belgian botanist Charles François Antoine Morren discovered this and pioneered a method of artificially pollinating the plant.
-- (about) The majority of the world's vanilla is the V. planifolia species, more commonly known as Bourbon vanilla (after the former name of Réunion, Île Bourbon) or Madagascar vanilla, which is produced in Madagascar and neighboring islands in the southwestern Indian Ocean, and in Indonesia.
 - (history) In 1841, Edmond Albius, a 12-year-old enslaved child who lived on the French island of Réunion in the Indian Ocean, discovered that the plant could be hand-pollinated.
+- (history) Hernán Cortés is credited with introducing both vanilla and chocolate to Europe in the 1520s.
+- (history) By the 18th century, the French were using vanilla to flavor ice cream.
+- (history) Until the mid-19th century, Mexico was the chief producer of vanilla.
+- (history) By 1889, Mexican exports of vanilla exceeded 70,000 kilograms making the region one of the world leaders in vanilla production at the time.
+- (history) In 1819, French entrepreneurs shipped vanilla fruits to the islands of Réunion and Mauritius in hopes of producing vanilla there.
+- (about) The majority of the world's vanilla is the V. planifolia species, more commonly known as Bourbon vanilla (after the former name of Réunion, Île Bourbon) or Madagascar vanilla, which is produced in Madagascar and neighboring islands in the southwestern Indian Ocean, and in Indonesia.
+- (about) The fruit was named tlilxochitl, wrongly interpreted as "black flower" instead of the more probable "black pod" because the matured fruit shrivels and turns a dark color shortly after being picked.
+- (about) Not to be confused with Vanilla Forums.
 
 Learn more:
 
@@ -3429,7 +4076,19 @@ Yakult is a Japanese sweetened probiotic milk beverage fermented with the bacter
 
 Fun facts:
 
+- (history) In 1930, scientist Minoru Shirota strengthened and cultured the Lactobacillus casei Shirota strain.
+- (origin) In 1963, Yakult introduced a home delivery service, employing "Yakult ladies" to distribute the product directly to consumers.
+- (about) In 2004, Yakult launched sales in New Zealand through its Australian operations.
+
+More fun facts (when the user asks for more):
+
+- (history) Five years later, in 1935, Yakult began production in Japan.
+- (history) This international growth continued in 1969 with the establishment of Hong Kong Yakult Co., Ltd. and the founding of Korea Yakult in South Korea.
+- (history) By 1981, Yakult had entered the Mexican market, opening a factory in the city of Ixtapaluca under the direction of Carlos Kasuga.
+- (history) Further expansion took place in 1994, with the product becoming available in Australia, Great Britain, and the United States.
 - (history) Yakult dates from 1935-.
+- (history) Yakult was invented in 1935 in Japan by Minoru Shirota, who helped found the company Yakult Honsha to commercialize it.
+- (history) In 1968, the company opened its first factory outside Japan in São Bernardo do Campo, Brazil.
 
 Learn more:
 

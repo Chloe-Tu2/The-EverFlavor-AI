@@ -53,3 +53,9 @@ def test_write_notebook_makes_one_page_per_country_with_sources(tmp_path: Path) 
     assert "### Fish boil" in page and "From: Midwestern US, United States" in page
     assert "CC BY-SA 4.0" in page and "quick: [Fish boil (Wikipedia)]" in page
     assert "[United States](united_states.md)" in (tmp_path / "README.md").read_text(encoding="utf-8")
+
+
+def test_wikidata_lines_skip_unknown_values():
+    dish = {"inventor": ["http://www.wikidata.org/.well-known/genid/abc"], "named_after": ["Victor Hirtzler"]}
+    lines = dk.wikidata_lines(dish, "Celery Victor")
+    assert lines == ["Celery Victor is named after Victor Hirtzler."]

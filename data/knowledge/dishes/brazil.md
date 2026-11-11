@@ -10,9 +10,17 @@ Acarajé is a type of fritter made from cowpeas or beans (black-eyed peas) fried
 
 Fun facts:
 
+- (origin) They first appeared in Bahia selling acarajé in the 19th century.
+- (history) Historically, earnings from the sale of acarajé were used for a variety of reasons including to supplement income and in some cases to buy the freedom of enslaved family members until the abolition of slavery in Brazil in 1888.
+- (about) The song No Tabuleiro da Baiana, written by Ary Barroso and famously recorded by João Gilberto, Maria Bethânia, Caetano Veloso, and Gilberto Gil, references acarajé, abará, vatapá, and caruru.
+
+More fun facts (when the user asks for more):
+
 - (origin) This dish is descended from Akara which originated in Yorubaland, from the Yoruba ethnic group inhabiting parts of Nigeria, Benin and Togo.
 - (culture) Acarajé is traditionally encountered in Brazil's northeastern state of Bahia, especially in the city of Salvador.
 - (culture) Acarajé serves as both a religious offering to the gods in the Candomblé religion and as street food.
+- (about) Today in Bahia, Brazil, most street vendors who serve acarajé are women, known as Baianas do Acarajé, easily recognizable by their all-white cotton dresses and headscarves and caps.
+- (culture) Acarajé was featured on the Netflix TV series Street Food volume 2, which focused on Latin American street foods.
 
 Learn more:
 
@@ -74,6 +82,11 @@ Fun facts:
 
 - (culture) Arroz carreteiro is traditionally flavoured with garlic, onions, tomato and parsley.
 - (about) In the Central-West Region and the Northeast of Brazil, arroz carreteiro is also known as maria-isabel and it is prepared with carne-de-sol.
+- (about) Without refrigeration, the carter was limited to using a dried, salted meat known as carne-de-sol, a type of jerky also known in Rio Grande do Sul as charque.
+
+More fun facts (when the user asks for more):
+
+- (culture) The traditional arroz carreteiro made with charque in a cast iron pot is one of the main dishes of the state of Rio Grande do Sul.
 
 Learn more:
 
@@ -94,6 +107,7 @@ Avoador, often referred to as the generic name biscoito de polvilho and also kno
 
 Fun facts:
 
+- (history) According to historian Luís da Câmara Cascudo, the biscuit was already prepared for rural landowners in 18th century Minas Gerais by farm cooks.
 - (about) They are popular all throughout Brazil, but especially in the northeast and southeast.
 - (origin) Avoador comes from Brazil.
 
@@ -137,7 +151,9 @@ Baião de dois is a dish originating from the Brazilian state of Ceará, typical
 
 Fun facts:
 
+- (history) The term gained popularity with the song Baião de Dois, a partnership between the composer from Ceará, Humberto Teixeira, with the "Rei do Baião", from Pernambuco, Luiz Gonzaga, in the mid 20th century.
 - (about) In Paraíba and in Pernambuco, there is a variant called rubacão, a dish that is very popular in the Sertão.
+- (history) The cearense origin of the delicacy is attested by the folklorist Câmara Cascudo, citing a reference from 1940, Liceu Cearense, by Gustavo Barroso.
 
 Learn more:
 
@@ -159,11 +175,12 @@ Bauru is a popular Brazilian sandwich.
 Fun facts:
 
 - (inspiration) Bauru is named after Bauru.
+- (origin) Bauru was first made by Casimiro Pinto Neto.
 - (culture) The traditional recipe calls for cheese (usually mozzarella) melted in a bain-marie, slices of roast beef, tomato and pickled cucumber in a pão francês with the crumb (the soft inner part) removed.
-- (about) Many other eateries, though, offer sandwiches named "Bauru" with different combinations of ingredients—for instance, using sliced ham instead of roast beef or sliced bread instead of French bread.
 
 More fun facts (when the user asks for more):
 
+- (about) Many other eateries, though, offer sandwiches named "Bauru" with different combinations of ingredients—for instance, using sliced ham instead of roast beef or sliced bread instead of French bread.
 - (culture) The city of Bauru eventually named the traditional Bauru as the city's official sandwich, codifying the recipe in a municipal law and instituting an official certification program.
 - (origin) Bauru comes from Brazil.
 
@@ -278,6 +295,16 @@ Bolo Souza Leão is a cake from the Brazilian state of Pernambuco.
 
 - From: Brazil
 
+Fun facts:
+
+- (history) Another possible origin given by the same source tells that it was created on 18 December 1849 at Engenho Moreno in Moreno, Pernambuco by a member of the Souza Leão family to receive Brazilian emperor Pedro II.
+- (inspiration) The cake is named after the Sousa Leão family, a notable Brazilian family who owned sugar mills in Northeastern Brazil during the Brazilian sugar cycle, who are credited for its creation.
+- (history) One origin detailed by Brazilian researcher Neide Shinohara and the Diário do Rio tells that the cake was created at Engenho Moreno by Rita de Cássia Souza Leão in 1859 to receive emperor Pedro II and empress Teresa Cristina during one of their trips through Northeastern Brazil.
+
+More fun facts (when the user asks for more):
+
+- (history) Brazilian anthropologist Gilberto Freyre met with representatives of the Souza Leão family in the 1960s and convinced them to share the recipe.
+
 Learn more:
 
 - quick: [Bolo Souza Leão (Wikipedia)](https://en.wikipedia.org/wiki/Bolo_Souza_Le%C3%A3o)
@@ -321,14 +348,22 @@ Brigadeiro is a traditional Brazilian dessert.
 
 Fun facts:
 
+- (history) The origin of the name "brigadeiro" is linked to the presidential campaign of Brigadier Eduardo Gomes, UDN candidate for the Presidency of the Republic in 1945.
+- (about) Women at the time would sell brigadeiro in support of the presidential candidate, as it was the first national election in which women were able to vote.
 - (inspiration) Brigadeiro is named after brigadier.
-- (history) Brigadeiro dates from 1879-.
-- (about) Brigadeiro is a popular confection throughout the country, especially for festive events.
 
 More fun facts (when the user asks for more):
 
+- (history) One researcher traced its origins back to the 1920s, when condensed milk by Nestlé started being sold in Brazil.
+- (history) Brigadeiro dates from 1879-.
+- (inspiration) The dessert was created by a confectioner, Heloísa Nabuco de Oliveira, to promote the presidential candidacy of Eduardo Gomes.
+- (about) Brigadeiro is a popular confection throughout the country, especially for festive events.
 - (about) The mixture may also be served into a small container and eaten with a spoon; this is known as a brigadeiro de colher.
 - (culture) In recent years, flavor and coating variations on the traditional chocolate brigadeiros have become popular.
+- (culture) Heloísa Nabuco de Oliveira, a member of a traditional carioca family who supported the brigadier's candidacy, created a new confection and named it after the candidate.
+- (about) The doce do brigadeiro became popular, and the name was eventually shortened to just "brigadeiro".
+- (about) Despite the campaign's popularity, Eduardo Gomes was defeated, and the election was won by then General Eurico Gaspar Dutra.
+- (about) In the state of Rio Grande do Sul, brigadeiros are most commonly known as negrinhos.
 - (origin) Brigadeiro comes from Brazil.
 
 Learn more:
@@ -369,6 +404,10 @@ Fun facts:
 - (about) Also known as canjicão in some parts of Brazil.
 - (culture) In Colombia and other Latin American countries, one dish similar to canjica cooked corn, known as mazamorra, is widespread in the traditional cuisine.
 - (origin) Canjica comes from Brazil.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with curau.
 
 Learn more:
 
@@ -411,8 +450,14 @@ Caruru is a Brazilian food made from okra, onion, shrimp, palm oil and toasted n
 
 Fun facts:
 
+- (history) Guilherme Piso, who lived in Pernambuco (1638–1644), reports the caruru made with medicinal and food herb (and not with okra).
 - (culture) Caruru is a typical condiment in the northeastern state of Bahia, where it is commonly eaten with acarajé, an Afro-Brazilian street food made from mashed black-eyed peas formed into a ball and then deep-fried in palm oil.
 - (origin) Caruru comes from Brazil.
+
+More fun facts (when the user asks for more):
+
+- (history) Another account, in 1820, in the Amazon, by Von Martius, mentions the "caruru-açu" during a meal with the natives near the Madeira River, when he experienced "a delicacy of chestnuts pounded with an herb similar to spinach...".
+- (history) During his visit to Africa, at the end of the 18th century, Father Vicente Ferreira Pires called the meal in Daomé "chicken caruru", revealing that the use of oil palm, a palm of African origin.
 
 Learn more:
 
@@ -451,6 +496,12 @@ Coxinha is a Brazilian snack of Paulista origin which consists of chopped or shr
 - Ingredients (Wikidata): dough, bread crumbs, chicken as food, wheat flour
 
 Fun facts:
+
+- (origin) In its modern processed form, it may have originated in Limeira, São Paulo, in the 19th century.
+- (history) In the book Stories & Recipes, Nadir Cavazin says that the son of Isabel, Princess Imperial of Brazil (1846–1921) and Prince Gaston, Count of Eu, a child who lived in seclusion for having mental problems, had a favorite dish, chicken, but only ate the drumstick.
+- (culture) Coxinhas were originally made with any part of the chicken, and its traditional shape is meant to resemble a drumstick.
+
+More fun facts (when the user asks for more):
 
 - (origin) Coxinha comes from Brazil.
 
@@ -496,7 +547,9 @@ Curau is a Brazilian sweet custard-like dessert made from the pressed juice of u
 
 Fun facts:
 
+- (history) A giant canjica has been prepared every year since 1999 in the town of Caruaru for the Festa de São João in northeast Brazil; the 2008 issue was 35 meters long and used 4,500 ears of corn.
 - (origin) Curau comes from Brazil.
+- (about) Not to be confused with Curau, Munguzá.
 
 Learn more:
 
@@ -531,8 +584,12 @@ Farofa is toasted cassava meal.
 
 Fun facts:
 
+- (inspiration) Farofa can be found commercially produced and packaged but can also be prepared at home based on family recipes.
 - (about) In Brazil, where farofa is particularly popular, typical recipes call for raw cassava flour to be toasted with abundant butter, vegetable oil or olive oil, salt, bacon, onions, garlic, sausage, or olives until golden brown.
 - (origin) Farofa comes from Brazil.
+
+More fun facts (when the user asks for more):
+
 - (about) In West Africa, a variant of cassava flour known as garri is used in various dishes.
 
 Learn more:
@@ -657,8 +714,13 @@ Moqueca is a Brazilian seafood stew.
 Fun facts:
 
 - (about) We do it like the Portuguese: first we hydrate the flour in cold water and only then add the broth.
-- (origin) Moqueca comes from Brazil.
+- (inspiration) In Manaus, versions based on freshwater fish such as pirarucu and sorubim also prevail.
+- (culture) Moqueca was featured on the Netflix TV series, Street Food volume 2, which focused on Latin American street foods.
+
+More fun facts (when the user asks for more):
+
 - (about) In Espírito Santo, the subject is taken so seriously that it has become a heritage site – the Ofício das Paneleiras de Goiabeiras, a neighborhood in Vitória, was registered as a cultural asset by the National Historical and Artistic Heritage Institute (Iphan) in 2002.
+- (origin) Moqueca comes from Brazil.
 
 Learn more:
 
@@ -679,7 +741,12 @@ The mortadella sandwich is a Brazilian sandwich consisting of mortadella inside 
 
 Fun facts:
 
+- (origin) While the origin of the mortadella sandwich is uncertain, it is believed to have originated in either Hocca Bar or Bar do Mané in the Municipal Market of São Paulo.
+- (history) The sandwich became incredibly popular after this and was first recognized in a publication on 10 July 1979 after a piece was published by Estadão.
 - (history) While there are many establishments selling mortadella sandwiches at Mercadão, one of the best known is Bar do Mané, a small restaurant which claims to have made them since opening in 1933.
+
+More fun facts (when the user asks for more):
+
 - (origin) Mortadella sandwich comes from Italy.
 
 Learn more:
@@ -722,7 +789,14 @@ Passion fruit mousse is a passion fruit-flavored variation of mousse from Brazil
 
 Fun facts:
 
+- (history) Passion fruit mousse was a very successful effort: Nestlé saw an increase in usage, from less than 10% of recipes in courses integrating Leite Moça in 1961, to over 70% of courses using it in some way in 1964.
 - (culture) Passion fruit mousse is usually less aerated than traditional mousses.
+- (about) This affected Brazilian cuisine, especially the desserts: recipes that were once made very similar to their European counterparts were adapted and modified to incorporate condensed milk.
+
+More fun facts (when the user asks for more):
+
+- (history) Starting in 1961 Nestlé began organized culinary courses and worked with cooking schools to promote Leite Moça.
+- (history) Not long after, passion fruit mousse recipes start to appear; examples can be found as early as 1962.
 - (origin) Passion fruit mousse comes from Brazil.
 
 Learn more:
@@ -763,6 +837,12 @@ Pavê is a traditional Brazilian dessert mainly from south and southeast regions
 - From: Brazil
 - Ingredients (Wikidata): chocolate, Savoiarde PAT, cream, egg as food, condensed milk
 
+Fun facts:
+
+- (history) However, recipes of pavê can be found as early as 1937.
+- (history) Brazilian recipes of refrigerated dairy desserts consisting of alternating layers of soaked ladyfingers and creamy mixtures can be found as early as 1917, although not called "pavê" at the time, but instead "pudding" or simply "cream".
+- (history) In the 1970s, a peanut variant of pavê was reportedly popular.
+
 Learn more:
 
 - quick: [Pavê (Wikipedia)](https://en.wikipedia.org/wiki/Pav%C3%AA)
@@ -786,6 +866,12 @@ Fun facts:
 - (history) The state of São Paulo is the largest producer of peanuts in Brazil, while the Santa Helena Group, created in 1942 in the city of Ribeirão Preto, is responsible for the production of Paçoquita, the most consumed paçoca in the country.
 - (origin) Paçoca de amendoim comes from Brazil.
 
+More fun facts (when the user asks for more):
+
+- (history) Savory paçoca was invented earlier during the period of Colonial Brazil Period, and the Native Brazilian peoples had recipes that mixed cassava flour with other ingredients such as meat.
+- (history) Over time, these recipes were modified by people from the interior of São Paulo, who combined them with peanuts, sugar, and salt, giving rise to peanut paçoca, which, until the 1980s, was called peanut candy.
+- (about) Not to be confused with paçoca de carne.
+
 Learn more:
 
 - quick: [Paçoca de amendoim (Wikipedia)](https://en.wikipedia.org/wiki/Pa%C3%A7oca_de_amendoim)
@@ -806,8 +892,14 @@ Pão de queijo ( POWN-də-KAY-zhoo; Portuguese pronunciation: [ˈpɐ̃w dʒi ˈk
 Fun facts:
 
 - (origin) Pão de queijo is a traditional Brazilian recipe, originating in the state of Minas Gerais.
+- (history) With the discovery of mines near Ouro Preto in around 1700, some 20% of the Brazilian population at that time, mainly slaves, occupied a vast territory in southeast Brazil.
 - (culture) In Brazil, traditionally, both sour and sweet cassava flour are used; the Brazilian recipe also excludes some ingredients used in other countries, such as corn starch, all-purpose flour, black pepper, sugar, fennel, and baker's yeast.
+
+More fun facts (when the user asks for more):
+
+- (history) In the late 19th century, grated hard cheese was added.
 - (origin) Pão de queijo comes from Brazil.
+- (about) Not to be confused with Cheese bread, Cuñapé.
 
 Learn more:
 
@@ -847,8 +939,16 @@ Pé de moleque[1] is a traditional candy from São Paulo cuisine, originating in
 
 Fun facts:
 
+- (about) One of the first references to this sweet in Brazil is found in the book Doceiro Nacional (National bakery cookbook).
+- (history) Pé de moleque appeared in the mid-16th century, with the arrival of sugar cane in Brazil.
 - (culture) Pé de moleque is made from a mixture of peanuts and rapadura or molasses and is associated with the tradition of caipira cuisine in the state of São Paulo, and is also widespread in Minas Gerais and Paraná.
+
+More fun facts (when the user asks for more):
+
 - (culture) This traditional preparation results in soft, irregularly-shaped sweets of a dark brown color.
+- (about) The name pé de moleque has two hypotheses for its origin: reference to the paving of irregular stones found in historic Brazilian cities such as Paraty and Ouro Preto, which was so named. motivated by the street vendors of the past who sold them and were robbed by the kids.
+- (about) In 2008, the city of Piranguinho made the world's largest pé de moleque.
+- (about) Not to be confused with pé de moleque.
 
 Learn more:
 
@@ -871,6 +971,7 @@ Quibebé, kiveve (Paraguay, pronounced the same), or quibebe is a popular dish o
 Fun facts:
 
 - (history) Till the second part of the 19th century, it was very usual in the city of Buenos Aires and its area of influence.
+- (about) In fact, in popular slang, the word, "kiveve", is used to identify redheaded people.
 - (origin) Quibebé comes from Brazil.
 
 Learn more:
@@ -893,6 +994,7 @@ Romeu e Julieta is a traditional Brazilian dessert made of cheese and goiabada (
 
 Fun facts:
 
+- (origin) While the exact origin of the dessert is unknown, it is believed to have originated in Minas Gerais during the colonial period when the Portuguese began producing cheese and invented goiabada as an alternative to marmalade.
 - (inspiration) Romeu e Julieta is named after Romeo and Juliet.
 - (origin) Romeu e Julieta comes from Brazil.
 
@@ -914,13 +1016,23 @@ Sagu is a southern Brazilian dessert, made with tapioca pearls, sugar and red wi
 
 Fun facts:
 
+- (history) In the 1940s, 1950s and 1960s, corporations of the state of Santa Catarina and Rio Grande do Sul became producers of tapioca pearls (made of cassava), used in this dessert.
+- (inspiration) In the beginning of the 20th century, some of small corporations in the southern Brazil, created by descendants of Europeans, started to produce the cassava starch as an alternative to the typical products of Europe, like the potato starch.
 - (origin) The sago balls were introduced to Latin America from Southeast Asia via the Spanish and Portuguese Empires.
-- (about) In Brazil, tapioca pearls are still known as sagu, despite being made from the native South American cassava, and not sago palms.
-- (culture) These pearls are used in this traditional dish, known as sagu de vinho ("wine sago"), or just sagu, created in the Serra Gaúcha region, in the northeastern part of Rio Grande do Sul, but consumed in all the state.
 
 More fun facts (when the user asks for more):
 
+- (history) With the transfer of the Portuguese Court to Brazil, in the beginning of the 19th century, the cassava flour started being prepared with Port wine, resulting in a kind of sweet porridge, such as a "parent" of sagu de vinho.
+- (about) In Brazil, tapioca pearls are still known as sagu, despite being made from the native South American cassava, and not sago palms.
+- (culture) These pearls are used in this traditional dish, known as sagu de vinho ("wine sago"), or just sagu, created in the Serra Gaúcha region, in the northeastern part of Rio Grande do Sul, but consumed in all the state.
 - (about) In this kind of dessert, the tapioca pearls can be also prepared with milk or fruit juice (like orange, tangerine or pineapple – generally made by people of German descent), instead of red wine, but these variations are quite rare, the wine sagu being the most popular version.
+- (origin) After cassava (native to South America) was introduced to Southeast Asia during the colonial era, it became an alternative starch source for making pearl sago, resulting in the name "sagu" or "sago" being used interchangeably for cassava, potato or sago starch in European cuisine.
+- (origin) The making of tapioca balls was introduced to Brazil after the arrival of European immigrants, which became known as sagu, despite being made from native cassava starch.
+- (culture) Some traditional German recipes which use potato starch, like rote grütze, are very similar to sagu because they are mixture of starch and red fruits.
+- (inspiration) Although this recipe did not arrive in Brazil with the European immigrants, sagu is a symbol of the European colonization because this dessert was created by them in southern Brazil.
+- (origin) Cassava is a typical indigenous Brazilian ingredient that was absorbed by the traditions of the European immigrants, mixed with the traditional Italian red wine.
+- (origin) There are lesser traditional variations of this dessert, according to the origin of the immigrants.
+- (about) This dish is popular in Rio Grande do Sul, but it is also a common dessert served in restaurants in the states of Santa Catarina and Paraná).
 
 Learn more:
 
@@ -961,7 +1073,16 @@ Sobá is a dish from the Brazilian state of Mato Grosso do Sul that is an adapti
 
 Fun facts:
 
+- (origin) Okinawan immigrants arrived in Campo Grande in 1914, 15 years after the foundation of the city in 1899.
+- (history) According to the Okinawa Association of Campo Grande (Associação Okinawa de Campo Grande), prominent Okinawan immigrant Eiho Tomoyose was the first to serve soba in Campo Grande at his bar in the 1950s.
 - (culture) Sobá is popular in Campo Grande, the capital city of Mato Grosso do Sul, where it is a recognized symbol of the city and the subject of an annual festival.
+
+More fun facts (when the user asks for more):
+
+- (history) Despite initially only serving the Okinawan community in the area, Tomoyose was serving his soba at the Central Fair of Campo Grande to Brazilians by the mid-1960s.
+- (about) As of 2023, Campo Grande has the 3rd largest Japanese Brazilian and 2nd largest Okinawan Brazilian community in Brazil with 11,000 people of Japanese descent. 70% of Campo Grande's Japanese Brazilian community is of Okinawan descent.
+- (about) Sobá became so popular that it soon became the principal attraction at the fair's eatery.
+- (culture) The modern-day sobá that is found in Campo Grande and throughout Brazil has been adapted to the Brazilian palate by substituting beef for the traditional pork and changing the seasoning of the broth.
 
 Learn more:
 
@@ -994,6 +1115,20 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q3490797) (CC0); [Wikipedia: S
 Sprinkles (also known as hundreds and thousands and jimmies) are small pieces of confectionery used as an often colorful decoration or to add texture to desserts such as brownies, cupcakes, doughnuts or ice cream.
 
 - From: Brazil
+
+Fun facts:
+
+- (history) The origin of the name is uncertain, but it was first documented in 1930, as a topping for cake.
+- (about) Hundreds and thousands is the most popular denotation used in United Kingdom, Australia, New Zealand and South Africa to refer to nonpareils, a type of sprinkles.
+- (origin) An unlikely claim on the name jimmies originates from Sidney Farber and Edward Brigham.
+
+More fun facts (when the user asks for more):
+
+- (history) The fund however, was started in 1948, well after the first historical reference.
+- (history) Dutch hagelslag (chocolate sprinkles) were invented in 1913 by Erven H. de Jong from Wormerveer.
+- (inspiration) Farber co-founded the Dana–Farber Cancer Institute in Boston, as well as a charity, The Jimmy Fund, named after one of his child patients.
+- (history) Nonpareils date back at least to the late 18th century, if not earlier.
+- (about) Jimmies is the most popular term for chocolate sprinkles in the Boston, Philadelphia, and New England regions.
 
 Learn more:
 
@@ -1036,7 +1171,15 @@ Vatapá, [vɐtɐˈpa] is an Afro-Brazilian dish made from bread, shrimp, coconut
 
 Fun facts:
 
+- (inspiration) The 1957 song "Vatapá" by Brazilian songwriter Dorival Caymmi is named for the dish.
+- (history) The song was later covered by Gal Costa, appearing on her tribute album of Caymmi's songs, Gal Canta Caymmi (1976).
 - (culture) In the northeastern state of Bahia it is commonly eaten with acarajé, and as a ritual offering in Candomblé, with acaçá or acarajé.
+
+More fun facts (when the user asks for more):
+
+- (history) Vatapá is also mentioned in the 1941 song "Você Já Foi à Bahia?", written by Dorival Caymmi, where it is named, alongside caruru and munguzá, as a specialty of Bahia.
+- (history) A partially-translated version of this song appeared in the 1944 live-action and animated film The Three Caballeros, produced by Walt Disney, in which it is sung by José Carioca in an attempt to convince Donald Duck to visit Bahia.
+- (culture) Vatapá is a typical dish of the northeastern cuisine and very traditional in the state of Bahia, where dendê (unrefined red palm oil) is a key ingredient and the dish is frequently served with caruru.
 - (origin) Vatapá comes from Brazil.
 
 Learn more:
@@ -1057,6 +1200,15 @@ Virado, also known as virado à Paulista, is a complete meal from the state of S
 
 Fun facts:
 
+- (about) The bandeirantes traveled to the interior of Brazil to capture and enslave native Brazilians at first, and later to find gold, silver, and diamonds.
+- (history) Cassava flour was substituted for corn flour after the introduction of the crop to the São Paulo region in the 18th century.
+- (origin) Rice was introduced to virado in the 19th century after the wide-scale introduction of the crop in Brazil; it was cooked in the remains of cooked pork or sausage, and additionally flavored with lard, garlic, and salt.
+
+More fun facts (when the user asks for more):
+
+- (history) The earliest written reference to virado is in 1602, when Nicolau Barreto made an expedition to present-day Paraguay, Bolivia, and Peru.
+- (history) Virado is also associated with the monção, expeditions by river to resupply remote areas of the Brazilian interior from the early 18th to the early 19th century.
+- (history) Dom Pedro I ate virado on August 17, 1822, at Fazenda Pau d'Alho, in São José do Barreiro, Vale do Paraíba on the trip from Rio de Janeiro to São Paulo.
 - (culture) Virado is traditionally served on Mondays.
 - (origin) Virado comes from Brazil.
 
@@ -1080,6 +1232,7 @@ Bolo de rolo is a cake from the Brazilian state of Pernambuco.
 Fun facts:
 
 - (culture) Bolo de rolo is recognized as a national dish in Brazilian law.
+- (about) The passage of Ordinary Law No. 379/2007 recognized bolo de rolo as intangible heritage of Pernambuco.
 - (origin) Bolo de rolo comes from Brazil.
 
 Learn more:
@@ -1102,13 +1255,22 @@ Cachaça is a distilled spirit made from fermented sugarcane juice.
 
 Fun facts:
 
-- (history) Cachaça dates from 1500-.
+- (history) In response to this, in 1635, the king of Portugal banned production of the spirit, with restrictions reaffirmed and heavy taxation levied in 1659.
+- (culture) This caused the Revolta da Cachaça (Cachaça Rebellion) from 1660 to 1661, which lead to the legalization of cachaça on September 13, 1661, a day that is now celebrated as Cachaça Day.
 - (about) Also known as pinga, caninha, and other names, it is the most popular spirit in Brazil, and the most popular cane spirit in the world (though almost entirely due to domestic consumption).
-- (origin) Cachaça comes from Brazil.
 
 More fun facts (when the user asks for more):
 
+- (history) The process dates from 1532, when one of the Portuguese colonists brought the first cuttings of sugar cane to Brazil from Madeira.
+- (history) Sugar production was mostly switched from the Madeira islands to Brazil by the Portuguese in the 16th century.
+- (history) In the beginning of the 17th century, the producers of sugar from various European colonies in the Americas used the by-products of sugar, molasses, and scummings as the raw material for the production of alcoholic spirits.
+- (history) In 1992, Pró-Cachaça, a program to encourage the expansion of cachaça production, was passed by the Brazilian government, and the following year, the government officially defined cachaça, caninha, and aguardente de cana.
+- (history) Cachaça dates from 1500-.
 - (about) Outside Brazil, cachaça is used almost exclusively as an ingredient in tropical drinks, with the caipirinha being the most famous and popular cocktail.
+- (about) The resulting beverage was known by several names: in British colonies, it was named rum; in France, tafia; in Spain, aguardiente de caña; and in Portugal (Brazil), aguardente da terra, aguardente de cana and later cachaça (locals also call it "Pinga", which translates to drip).
+- (about) Later, in 2005, the government defined the technical specifications of what qualifies as cachaça, and in 2007, the geographical indication for cachaça was created.
+- (about) The United States recognized the Brazilian definition for cachaça in 2013.
+- (origin) Cachaça comes from Brazil.
 
 Learn more:
 
@@ -1132,13 +1294,18 @@ Caipirinha is a Brazilian cocktail made with cachaça, sugar, lime, and ice.
 
 Fun facts:
 
+- (history) Although the origin of the drink is unknown, there is a consensus in the academic community that Caipirinha was invented in the interior of São Paulo, Brazil, in 1918.
 - (origin) Originating in the state of São Paulo, the drink is prepared by mixing the fruit and the sugar together, then adding the liquor.
-- (inspiration) Caipirinha is named after Caipiras.
-- (history) Caipirinha dates from 1918-.
+- (inspiration) The 2001 Brazilian film A Samba for Sherlock fancifully depicts caipirinha as being invented by Doctor Watson as a tonic for Sherlock Holmes to combat the heat of Rio de Janeiro.
 
 More fun facts (when the user asks for more):
 
+- (history) Some accounts say it came about around 1918 in the region of Alentejo in Portugal, with a popular recipe made with lemon, garlic, and honey, indicated for patients with the Spanish flu.
+- (inspiration) Caipirinha is named after Caipiras.
+- (history) Caipirinha dates from 1918-.
+- (origin) Caipirinha was first made in Piracicaba.
 - (about) Due to its importance and popularity, the caipirinha was declared Brazilian Cultural Heritage in 2003; in 2019, it was considered Intangible Heritage of Rio de Janeiro, despite its origins in Piracicaba, São Paulo.
+- (inspiration) Another account is that Caipirinha is based on Poncha, an alcoholic drink from Madeira, Portugal.
 - (origin) Caipirinha comes from Brazil.
 
 Learn more:
@@ -1228,6 +1395,10 @@ Cauim is a traditional alcoholic beverage or beer of the Indigenous peoples in B
 
 - From: Brazil
 
+Fun facts:
+
+- (history) The following description, largely from Jean de Léry's account of his trip to Brazil in the 16th century applies specifically to the Tupinambá natives who lived along the coast of central Brazil.
+
 Learn more:
 
 - quick: [Cauim (Wikipedia)](https://en.wikipedia.org/wiki/Cauim)
@@ -1266,9 +1437,21 @@ Coconut milk is a plant milk extracted from the grated pulp of mature coconuts.
 
 Fun facts:
 
+- (about) Coconut cream is extracted from the first pressings of grated coconut pulp directly through cheesecloth.
+- (history) In 1943, it was discovered that coconut milk could actively encourage plant growth.
 - (culture) Coconut milk is a traditional food ingredient used in Southeast Asia, Oceania, South Asia, and East Africa.
+
+More fun facts (when the user asks for more):
+
 - (origin) Coconut milk is also used for cooking in the Caribbean, Central America, northern parts of South America and West Africa, where coconuts were introduced during the colonial era.
+- (inspiration) Coconut milk is differentiated into subtypes based on fat content.
 - (about) A sweetened, processed, coconut milk product from Puerto Rico is also known as cream of coconut, but is distinct from coconut cream and is not interchangeable.
+- (culture) Coconut milk is traditionally made by grating the white inner flesh of mature coconuts and mixing the shredded coconut pulp with a small amount of hot water in order to suspend the fat present in the grated pulp.
+- (culture) Coconut milk is traditionally divided into two grades: coconut cream (or thick coconut milk) and thin coconut milk.
+- (culture) Traditionally prepared coconut milk is utilized immediately after being freshly extracted because it spoils easily when exposed to air.
+- (culture) Coconut milk is also an intermediate step in the traditional wet process methods of producing virgin coconut oil by gradual heating, churning, or fermentation.
+- (about) Although there are many factors that attribute coconut milk to plant growth, the main cause is the existence of a cytokinin known as zeatin found in coconut milk.
+- (about) Not to be confused with Gata, Guta.
 
 Learn more:
 
@@ -1289,6 +1472,14 @@ Coxinha de farofa or coxinha da Lapa is a traditional snack from Lapa.
 Fun facts:
 
 - (inspiration) Despite being named after coxinha, it is made by covering chicken meat farofa with pastel dough and molded in a shape that resembles a straw.
+- (history) She was selling pastel during the worship party of Benedict the Moor in Lapa during the 1940s to help funding the construction of a new church for the community.
+- (about) In March 2015, the Prefecture promoted the first Coxinha Party.
+
+More fun facts (when the user asks for more):
+
+- (culture) From there on, the snack became a tradition during the Saint Benedict parties.
+- (about) Coxinha de farofa was initially known as "coxinha da dona Glória", but she disapproved of the name.
+- (about) Rosa Mazur Kugeratski and her daughter Irene copied the recipe and started selling it on her bakery, Panificadora Zeni, thus helping to popularize the snack in the city.
 
 Learn more:
 
@@ -1353,7 +1544,17 @@ Guaraná is a Brazilian soft drink originating from the guaraná plant.
 
 Fun facts:
 
+- (history) The processing of the fruit syrup began in Brazil in 1905 by Fara, a physician from the city of Resende, Rio de Janeiro.
+- (inspiration) The soft drink was created by Pedro Baptista de Andrade, who sold the formula to Antarctica, which then developed a process to eliminate the astringency and bitterness, emphasizing the characteristic flavor and aroma of the fruit, launching Guaraná Champagne Antarctica in 1921.
+- (about) The drink initially was astringent and markedly bitter, and it did not become popular.
+
+More fun facts (when the user asks for more):
+
+- (history) Diefenthaller in 1906 in Santa Maria, Rio Grande do Sul.
+- (history) Guaraná Jesus, another guaraná soft drink, was created accidentally in 1920 by pharmacist Jesus Norberto Gomes, in the state of Maranhão.
 - (inspiration) Guaraná is named after guarana plant.
+- (about) Gomes imported a gasification machine to produce a kind of magnesia fluid, a medicine famous at the time, with extracts of 17 ingredients from the Amazon rainforest, including guarana and cinnamon, but the business did not work.
+- (about) Over time, the taste of the pink drink has become less popular with people, but it remains quite popular in Maranhão, maintaining its original formula.
 - (origin) Guaraná comes from Brazil, Peru, Paraguay.
 
 Learn more:
@@ -1398,6 +1599,12 @@ Itubaína is the first Brazilian carbonated soft drink produced by Schincariol w
 
 - From: Brazil
 
+Fun facts:
+
+- (origin) The first flavor of Itubaína, tutti-frutti, was introduced in 1954, and belonged to the former Schincariol.
+- (origin) In 2000, the two-liter version was introduced.
+- (origin) Itubaína was initially available in the state of São Paulo and then gradually introduced in other regions of the country.
+
 Learn more:
 
 - quick: [Itubaína (Wikipedia)](https://en.wikipedia.org/wiki/Ituba%C3%ADna)
@@ -1437,6 +1644,7 @@ Maria-mole is a dessert popular in Brazil that is similar to a marshmallow.
 
 Fun facts:
 
+- (inspiration) The dessert was created by Antonio Bergamo, a Brazilian candy maker of Italian descent.
 - (origin) Maria-mole comes from Brazil.
 
 Learn more:
@@ -1459,14 +1667,15 @@ Minas cheese (queijo minas or Portuguese: queijo-de-minas, pronounced [ˈkejʒu 
 Fun facts:
 
 - (culture) In December 2024, Minas cheese was recognized by UNESCO as an Intangible cultural heritage.
+- (origin) Minas cheese was first made in Minas Gerais.
 - (about) Minas cheese comes in three varieties, named queijos-de-minas frescal (fresh), meia-cura (half-aged) and curado (aged).
-- (origin) Minas cheese comes from Brazil.
 
 More fun facts (when the user asks for more):
 
 - (culture) Minas cheese is made from cow's milk according to traditional recipes.
 - (about) Minas cheese is excellent for cooking, being used for a huge variety of dishes of all types, including pastel de queijo and the famous pão de queijo (cheese bun).
 - (about) When these two flavors are combined, it is known as Romeu e Julieta, and this combination can be eaten as it is or used in a wide variety of dishes like cake, pie or ice cream.
+- (origin) Minas cheese comes from Brazil.
 
 Learn more:
 
@@ -1509,6 +1718,7 @@ Panela or rapadura is an unrefined whole cane sugar, typical of Latin America.
 Fun facts:
 
 - (culture) Other traditional NCS include jaggery, which is used in South Asia.
+- (about) Not to be confused with panocha.
 
 Learn more:
 
@@ -1531,6 +1741,10 @@ Fun facts:
 - (culture) Pastel is traditionally sold on the streets, in open-air marketplaces, or in fast-food shops known as pastelarias.
 - (origin) The recipe was later introduced to even more Brazilians by Japanese immigrants who, during World War II tried to pretend to be Chinese to escape from the prejudice Japanese people faced because of the Japanese alliance during the war.
 
+More fun facts (when the user asks for more):
+
+- (origin) Another theory was that Japanese immigrants adapted Chinese fried wontons to sell as snacks at weekly street markets.
+
 Learn more:
 
 - quick: [Pastel (Brazilian food) (Wikipedia)](https://en.wikipedia.org/wiki/Pastel_%28Brazilian_food%29)
@@ -1550,7 +1764,13 @@ Paçoca, or meat paçoca or savory paçoca, is a typical Brazilian dish.
 
 Fun facts:
 
+- (history) Savory paçoca was invented during the period of Colonial Brazil Period, and the Native Brazilian peoples had recipes that mixed cassava flour with other ingredients such as dried meat.
 - (origin) Paçoca comes from Brazil.
+- (about) Not to be confused with peanut paçoca.
+
+More fun facts (when the user asks for more):
+
+- (history) Over time, these recipes were modified by people from the interior of São Paulo, who combined them with peanuts, sugar, and salt, giving rise to peanut paçoca, which, until the 1980s, was called peanut candy.
 
 Learn more:
 
@@ -1629,6 +1849,11 @@ Starch is a carbohydrate consisting of numerous glucose units joined by glycosid
 - From: Brazil
 - Ingredients (Wikidata): hydrogen, carbon, oxygen, amylose, amylopectin
 
+Fun facts:
+
+- (history) Laundry starch was first described in England in the beginning of the 15th century and was essential to make 16th century ruffed collars.
+- (about) The extraction of starch is first described in the Natural History of Pliny the Elder around 77–79 CE.
+
 Learn more:
 
 - quick: [Starch (Wikipedia)](https://en.wikipedia.org/wiki/Starch)
@@ -1666,6 +1891,11 @@ Tapioca is a starch extracted from the tubers of the cassava plant (Manihot escu
 
 - From: Brazil
 - Ingredients (Wikidata): cassava root
+
+Fun facts:
+
+- (history) The word "tapioca" is derived from tipi'óka, its name in the Tupi language spoken by natives when the Portuguese first arrived in the Northeast Region of Brazil around 1500.
+- (about) Tapioca is a perennial shrub adapted to the hot conditions of tropical lowlands.
 
 Learn more:
 
@@ -1714,6 +1944,7 @@ Tucupi is a yellow sauce extracted from wild manioc root in Brazil's Amazon jung
 
 Fun facts:
 
+- (inspiration) In legend, Jacy (The Moon) and Iassytatassú (The Morning Star) joined to visit the centre of the Earth.
 - (culture) Traditionally, a basket-like instrument called the tipiti was used.
 - (origin) Tucupi comes from Brazil.
 

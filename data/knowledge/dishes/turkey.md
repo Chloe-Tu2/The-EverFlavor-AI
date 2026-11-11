@@ -13,8 +13,13 @@ Adana kebap or Adana kebab is a dish that consists of a long strip of hand-mince
 Fun facts:
 
 - (inspiration) The kebab is named after Adana, the fifth-largest city of Turkey, and was originally known as the kıyma kebabı (lit: minced meat kebab) or kıyma in Adana-Mersin and the southeastern provinces of Turkey.
-- (origin) Adana kebabı comes from Turkey.
+- (origin) Adana kebabı was first made in Adana.
+- (about) The version prepared and consumed today in the province of Adana also has a history rooted in the modern Turkish culture, only to receive a "Controlled Designation of Origin" in February 2005, after several legal trials.
+
+More fun facts (when the user asks for more):
+
 - (inspiration) Adana kebabı is named after Adana.
+- (origin) Adana kebabı comes from Turkey.
 
 Learn more:
 
@@ -80,6 +85,12 @@ Arnavut ciğeri is a Turkish dish made of oil-fried lamb or veal liver cubes sea
 
 Fun facts:
 
+- (origin) In the late 17th century, Albanians were noted by Ottoman traveler Evliya Çelebi as being butchers in Istanbul originating from Ohrid, Korçë and Hurupişte (modern Argos Orestiko) selling lamb meat cuts like liver, heart and kidneys.
+- (about) The word Arnavut (Albanian) is part of a dish in Istanbul cuisine known as Arnavut ciğeri (Albanian liver).
+- (culture) The dish Arnavut ciğeri became part of Turkish cuisine during the Ottoman period, when Ottomans assimilated culinary traditions from peoples they encountered and merged them with their own cuisine, cooking practices and customs.
+
+More fun facts (when the user asks for more):
+
 - (origin) Arnavut ciğeri comes from Turkey.
 
 Learn more:
@@ -101,7 +112,9 @@ Aush reshteh or ash-e-reshteh is a type of āsh (Iranian thick soup) featuring r
 
 Fun facts:
 
+- (culture) Traditionally, aush reshteh is served at special Iranian events like Nowruz or Sizdah Be-dar, or during wintertime.
 - (origin) Aush reshteh comes from Iran.
+- (culture) The noodles are supposed to symbolize good fortune for the new year.
 
 Learn more:
 
@@ -123,6 +136,7 @@ Açma is a slightly sweet yeast pastry from Turkish cuisine that is often offere
 
 Fun facts:
 
+- (about) Açma is popular and widespread throughout Turkey.
 - (origin) Açma comes from Turkey.
 
 Learn more:
@@ -148,6 +162,10 @@ Fun facts:
 - (culture) After baking, it is generally consumed fresh and is often served as part of a traditional Turkish breakfast.
 - (about) Bazlama is sometimes referred to as "village bread" due to its popularity in rural areas of Turkey.
 - (origin) Bazlama comes from Turkey.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Bazlama, somun.
 
 Learn more:
 
@@ -270,6 +288,11 @@ Fun facts:
 
 - (about) Note that while it is increasingly available in most Turkish cities, the Cağ kebabı is especially popular in Erzurum, whereas enjoying an ever-growing success in Istanbul and Ankara.
 - (origin) Cağ kebabı comes from Turkey.
+- (about) Ottoman travel books of the eighteenth century cite a kebab cooked on wood fire consisting of a horizontal stack of meat, known as "Cağ Kebabı" in the Eastern Turkish province of Erzurum.
+
+More fun facts (when the user asks for more):
+
+- (about) Now, the kebab is very famous in Erzurum, Istanbul and many states in the EU.
 
 Learn more:
 
@@ -287,6 +310,10 @@ Chorba, shorwa, shurba, shurpa, shurbah or shorba is a broad class of stews or r
 
 - From: Turkey
 - Ingredients (Wikidata): meat
+
+Fun facts:
+
+- (about) Not to be confused with ciorbă.
 
 Learn more:
 
@@ -354,6 +381,13 @@ Cornbread is a quick bread made with cornmeal, popular in the cuisine of the Sou
 
 Fun facts:
 
+- (origin) First domesticated in Mexico around six thousand years ago, corn was introduced to what is now the United States between three thousand and one thousand years ago.
+- (inspiration) Native cooks developed a number of recipes based on corn, including cornbread, that were later adopted by European settlers and slaves —especially those who lived in Southern colonies.
+- (about) Not to be confused with maize bread.
+
+More fun facts (when the user asks for more):
+
+- (origin) Although Native people in the Americas first cultivated corn, it was introduced in West Africa by European traders shortly after contact through the Atlantic slave trade, and quickly became a major staple in African cooking.
 - (origin) Cornbread comes from United States.
 
 Learn more:
@@ -377,6 +411,12 @@ Dondurma is the Turkish name for ice cream, while Booza is the Arabic name for i
 Fun facts:
 
 - (origin) Outside of the Middle East, it typically refers specifically to mastic ice cream, which is often believed to originate from the city and region of Kahramanmaraş and is known as maraş dondurma in Turkish.
+- (history) The 1882 recipe appeared in a cookbook titled Ev Kadını credited to Ayse Fahriye.
+- (culture) Mary Işın also notes the diverging traditions of making ice cream: Italian recipes of the time used eggs to thicken ice cream where as the Turkish recipe used salep.
+
+More fun facts (when the user asks for more):
+
+- (origin) Food historian Priscilla Mary Işın wrote in Ottoman Culinary Dictionary that it is unknown when salep-based milk dondurma was first made, though she notes that the earliest recipe dates back to 1882.
 - (origin) Dondurma comes from Turkey.
 
 Learn more:
@@ -399,13 +439,23 @@ Doner kebab or döner kebab is a Turkish dish made of meat cooked on a vertical 
 
 Fun facts:
 
+- (history) His restaurant, first opened in 1945, was soon discovered by journalists and began serving doner and other kebab dishes to kings, prime ministers, film stars and celebrities.
 - (origin) The modern sandwich variant of doner kebab originated and was popularized in 1970s West Berlin by Turkish immigrants.
-- (history) The vertical rotisserie was invented in the 19th-century Ottoman Empire, and dishes such as the Arab shawarma, Greek gyros, Greek-Canadian donair, and Mexican al pastor are derived from the rotisserie technique of this dish.
 - (about) The sliced meat of a doner kebab may be served on a plate with various accompaniments, stuffed into a pita or other type of bread as a sandwich, or wrapped in a thin flatbread such as lavash or filo, known as a dürüm.
 
 More fun facts (when the user asks for more):
 
+- (history) The vertical rotisserie was invented in the 19th-century Ottoman Empire, and dishes such as the Arab shawarma, Greek gyros, Greek-Canadian donair, and Mexican al pastor are derived from the rotisserie technique of this dish.
 - (origin) Kadir Nurman in the early 1970s introduced the sandwich or wrap form, which has become popular around the world as a fast food dish sold by kebab shops, and is often called simply a "kebab".
+- (history) In the Ottoman Empire, at least as far back as the 17th century, stacks of seasoned sliced meat were cooked on a horizontal rotisserie, similar to the cağ kebab.
+- (origin) The vertical rotisserie was introduced no later than the mid-19th century.
+- (history) According to Yavuz İskenderoğlu, his grandfather İskender Efendi as a child in 1850s Bursa had the idea of roasting the lamb at his father's restaurant vertically rather than horizontally.
+- (history) However, he may have been preceded by Hamdi Usta from Kastamonu around 1830.
+- (origin) By at least the 1930s, it had been brought overseas, and was sold in restaurants in Mexico by Lebanese immigrants.
+- (origin) The Greek variation was likely brought to Greece proper by Greek refugees in the 1920s, due to the population exchange between Greece and Turkey, later transforming into gyros.
+- (origin) Doner kebab was not until a century after its invention that doner kebab was introduced and popularized in Istanbul, most famously by Beyti Güler.
+- (about) Doner kebab was a success, and some years later became known as doner kebap.
+- (about) A version popular in the Arab world became known as shawarma.
 - (origin) Doner kebab comes from Ottoman Empire.
 
 Learn more:
@@ -560,6 +610,8 @@ Gözleme is a savory Turkish stuffed turnover.
 
 Fun facts:
 
+- (history) The oldest record of the word in a Turkic language is dated back to 1477.
+- (about) Gözleme is first attested in Persian-Turkish dictionary Lügat-i Halîmî and also found in Evliya Çelebi's Seyahatnâme.
 - (origin) Gözleme comes from Turkey.
 
 Learn more:
@@ -607,12 +659,14 @@ Fun facts:
 
 - (inspiration) İskender kebap is named after Bursa.
 - (history) İskender kebap dates from 1867-.
-- (about) İskender kebap is one of the most popular dishes of Turkey.
+- (origin) İskender kebap was first made in Balkans.
 
 More fun facts (when the user asks for more):
 
 - (history) It takes its name from its inventor, İskender, who lived in Bursa in the late 19th century Ottoman Empire. "Kebapçı İskender" is trademarked by the İskenderoğlu family, who still run the restaurant in Bursa.
+- (about) İskender kebap is one of the most popular dishes of Turkey.
 - (origin) İskender kebap comes from Turkey.
+- (about) Not to be confused with Alexander the Great.
 
 Learn more:
 
@@ -643,6 +697,7 @@ More fun facts (when the user asks for more):
 
 - (about) Onions are first sautéd in a large amount of butter until caramelized.
 - (culture) The meat broth is used to prepare a noodle soup that is traditionally served as an appetizer and flour helva made with milk is prepared as a dessert.
+- (about) Some modern cooks have adapted the recipe for preparation in home kitchens.
 - (origin) İskilip dolması comes from Turkey.
 
 Learn more:
@@ -709,7 +764,9 @@ Kavurma is a broad type of fried or sautéed meat dish found in Turkish cuisine.
 
 Fun facts:
 
+- (about) In Central Asia the dish is known as Kuurdak.
 - (origin) Kavurma comes from Turkey.
+- (about) Not to be confused with kavarma.
 
 Learn more:
 
@@ -776,8 +833,16 @@ Keşkek, also known as kashkak, kashkek, or keške, is a ceremonial meat or chic
 
 Fun facts:
 
-- (culture) In 2011, keşkek was confirmed to be an Intangible Cultural Heritage of Turkey by UNESCO.
+- (history) The first known written reference to the dish is found in a copy of Danishmendname dating back to 1360.
+- (culture) Keşkek is documented in Iran and the region of Syria by Turkish tribes as early as the 15th century; it is still consumed by many today, traditionally during religious festivals, weddings and funerals.
 - (origin) Keşkek comes from Turkey.
+
+More fun facts (when the user asks for more):
+
+- (culture) In 2011, keşkek was confirmed to be an Intangible Cultural Heritage of Turkey by UNESCO.
+- (culture) Under the name of κεσκέκ, κεσκέκι and κισκέκ (keskék, keskéki, and kiskék), it is a festival dish in Lesbos and among Pontian Greeks.
+- (culture) Harissa bears strong similarities to keşkek in terms of its preparation and cooking process; however, harissa is associated with different symbolic meanings.
+- (about) Not to be confused with Keşkek.
 
 Learn more:
 
@@ -800,7 +865,14 @@ Kumpir (also compire) is a baked potato with various fillings.
 Fun facts:
 
 - (about) Kumpir is a popular fast food in the Balkans.
+- (origin) The word comes from the Palatine/Alemannic Grumbier or Grummbeere 'potato', introduced to Southeastern Europe by the Danube Swabians.
+- (culture) In Western languages, particularly English and French, the traditional Turkish baked potato dish is referred to as kumpir or, in some contexts, compire or (grundbirne)..
+
+More fun facts (when the user asks for more):
+
+- (about) In English it is known as Turkish baked potato or compire; in French it is known as compiré.
 - (origin) Kumpir comes from Turkey.
+- (about) Not to be confused with baked potato.
 
 Learn more:
 
@@ -867,13 +939,19 @@ Lavash is a thin flatbread made of leavened or unleavened wheat dough, baked in 
 
 Fun facts:
 
+- (history) Sevan Nişanyan connects the Persian word for lavash to the Aramaic לושׁ lwš root meaning 'to knead' and recorded al-Faraj ba'd ash-Shiddah from 1451 as the oldest text to use the term in Turkish.
+- (inspiration) One story tells that King Arame of Urartu was captured by Assyrian forces, who would free him if he won an archery competition after ten days without food, but his messenger secretly brought him lavash hidden in his armor, enabling him to win.
 - (origin) Lavash originated in ancient times, with several countries claiming its origin.
-- (culture) The UNESCO Intangible Cultural Heritage List inscribed lavash "as an expression of culture in Armenia" in 2014.
-- (about) This was controversial in other countries in the region, and a separate listing regarding the culture of lavash and other flatbreads in Iran, Azerbaijan, Kazakhstan, Kyrgyzstan, and Turkey was inscribed in 2016.
 
 More fun facts (when the user asks for more):
 
+- (culture) The UNESCO Intangible Cultural Heritage List inscribed lavash "as an expression of culture in Armenia" in 2014.
+- (origin) Food historian Gil Marks states that lavash originated in the Middle East and traces it to the early innovation of cooking thin flatbreads on terracotta griddles rather than directly on embers.
+- (culture) Claims of lavash as a uniquely Iranian tradition have existed as far back as the Arsacid dynasty of ancient Persia.
+- (history) President Gerald Ford to hang in the White House in 1976.
 - (origin) In the modern day, lavash is widespread in many parts of Asia between Turkey and Kashmir, and also exists in other regions where it was introduced by Armenian immigrants.
+- (about) This was controversial in other countries in the region, and a separate listing regarding the culture of lavash and other flatbreads in Iran, Azerbaijan, Kazakhstan, Kyrgyzstan, and Turkey was inscribed in 2016.
+- (culture) In Armenian weddings, it is traditional for a lavash to be placed on the couple's shoulders as a symbol of luck, wealth, and fertility.
 - (origin) Lavash comes from Armenia, Middle East.
 
 Learn more:
@@ -896,8 +974,16 @@ Macun (in Turkish also Macun şekeri) is a soft, sweet and colorful Turkish toff
 Fun facts:
 
 - (origin) Macun originated from spicy preparations of Mesir macunu, a traditional Turkish herbal paste from the Ottoman empire.
+- (history) During the 17th century in Turkey, the dervish Seyyid Hasan denoted the consumption of two flavors of macun, respectively flavored with mint and sweet flag.
+- (culture) Street vendors would purvey macun to people at the Hıdırellez spring festival, on market days, holidays, at wedding processions, and at other times.
+
+More fun facts (when the user asks for more):
+
+- (origin) Macun originated from spicy preparations of Mesir macunu, a traditional herbal paste from the Ottoman empire.
 - (culture) Macun is a street food that may be prepared with many herbs and spices.
+- (about) During the Ottoman period, macun named Neruz macunu, also referred to as nevruziyye, was consumed as both a medicine and confectionery.
 - (origin) Macun comes from Turkey.
+- (about) Not to be confused with Macun.
 
 Learn more:
 
@@ -920,7 +1006,14 @@ Pilaf (US: or pilau UK: ) is a rice dish, or in some regions, a wheat dish, whos
 Fun facts:
 
 - (about) During the Abbasid Caliphate, such methods of cooking rice first spread across a vast territory from South Asia to Spain, and eventually to a wider world.
+- (history) The earliest known recipe for pilaf to appear explicitly under the name "pilaf" (or any of its variant spellings) is found in the cookbook Kārnāma dar bāb-e tabbākhī-o san'at-e ān (A Manual of Cookery and Its Art), written in 1521 by Muhammad-'Alī Bāvarchī-e Baghdādī, a cook associated with the court of Ismail I.
 - (origin) Pilaf comes from Uzbekistan, Iran, Tajikistan.
+
+More fun facts (when the user asks for more):
+
+- (about) Pilaf was at the time of the Abbasid Caliphate that methods of cooking rice which approximate modern styles of cooking pilaf at first spread through a vast territory from Spain to Afghanistan, and eventually to a wider world.
+- (about) Kitab al-Wusla, an early 13th–century cookbook authored by Ibn al-Adim of Aleppo, provides the first recipe for a dish resembling modern pilaf, utilizing a base of rice, meat, chickpeas, and garlic.
+- (history) Similarly, Alexander the Great and his army, many centuries earlier, in the 4th century BCE, have been reported to have been so impressed with the Eastern Iranic Bactrian and Sogdian palāvs that his soldiers brought the recipes back to Macedon when they returned.
 
 Learn more:
 
@@ -937,6 +1030,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q485796) (CC0); [Wikipedia: Pi
 Pilaki is a style of meze and may refer to several dishes that are cooked in a sauce made out of onion, garlic, carrot, potato, tomato or tomato paste, sugar, and olive oil.
 
 - From: Turkey
+
+Fun facts:
+
+- (origin) Pilaki originated in the Byzantine Empire, being used in Byzantine cuisine.
 
 Learn more:
 
@@ -959,6 +1056,7 @@ Piyaz is a bean salad or meze in Turkish cuisine and Persian cuisine that is mad
 Fun facts:
 
 - (origin) During the Ottoman period, piyaz was also made from artichoke, pea, chickpea, broad bean and potato, which were introduced to Turkey in the last quarter of the 19th century.
+- (inspiration) In Antalya province of Turkey it is prepared differently from other regions with other ingredients such as tarator sauce based on tahini (crushed sesame seeds).
 - (origin) Piyaz comes from Turkey, Iran, Iraq.
 
 Learn more:
@@ -1014,7 +1112,12 @@ Shish kebab or shish kebap is a popular dish of skewered and grilled cubes of me
 Fun facts:
 
 - (origin) Shish kebab is one of the many types of kebab, a range of meat dishes originating in the Middle East.
+- (history) The word kebab alone was already present in English by the late 17th century, from the Arabic: كَبَاب (kabāb), partly via Urdu, Persian and Turkish.
 - (culture) Shish kebab is traditionally made of lamb but there are also versions with various kinds of meat, poultry, or fish.
+
+More fun facts (when the user asks for more):
+
+- (history) According to the Oxford English Dictionary, its earliest known publication in English is in the 1914 novel Our Mr.
 - (origin) Shish kebab comes from Armenia.
 
 Learn more:
@@ -1036,7 +1139,14 @@ Stuffed mussels, or midye, is a generic name for plump orange mussels that conta
 
 Fun facts:
 
+- (history) Balıkhane Nazırı Ali Rıza Bey (1842–1928) also notes that in Bahariye, Kadıköy brickworks owner Şahbaz Efendi's Armenian cook was preparing stuffed mussels.
+- (origin) In the 1960s, the preparation and sale of stuffed mussels came to be dominated by immigrants from Mardin, who had at the time recently immigrated to İstanbul's Galata district.
 - (culture) Midye dolma is a popular and common street food snack in the coastal cities of Turkey and in Armenia.
+
+More fun facts (when the user asks for more):
+
+- (history) Maggakis' 1888 work Bizans Salnamesi Armenians had used big mussels and prepared the dish using sheep's tail fat or "zibir yağı", a solid fat imported from Siberia.
+- (history) During the 19th century it was reported that İstanbulite Turkish women were also cooking stuffed mussels.
 - (origin) Stuffed mussels comes from Turkey.
 
 Learn more:
@@ -1059,6 +1169,14 @@ Sujuk, sugou or sucuk is a Turkish dry, spicy and fermented sausage which is con
 
 Fun facts:
 
+- (history) Sucuk was first mentioned in the 11th century by Mahmud al-Kashgari in his Dīwān Lughāt al-Turk as suɣut (as a sausage made by stuffing spiced rice and meat into intestine casing).
+- (origin) Sujuk was first made in Balkans.
+- (culture) Sujuk is associated with Turkic meat-preservation traditions.
+
+More fun facts (when the user asks for more):
+
+- (history) Franciscus a Mesgnien Meninski in his Thesaurus recorded the word sucuk in Ottoman Turkish in late 17th century.
+- (history) Another mention was made by Abu Hayyan al-Gharnati in his early 14th century work titled Kitab al-'idrak li-lisan al-'atrak.
 - (origin) Sujuk comes from Turkey.
 
 Learn more:
@@ -1082,6 +1200,7 @@ Sulu köfte is a Turkish stew or thick soup (çorba) with köfte.
 Fun facts:
 
 - (origin) Sulu köfte comes from Turkey.
+- (about) Not to be confused with ekşili köfte.
 
 Learn more:
 
@@ -1103,8 +1222,16 @@ Tantuni is a spicy Turkish dish consisting of julienne cut beef or lamb, stir-fr
 
 Fun facts:
 
+- (history) Over time, starting from the 1970s and 1980s, the recipe evolved to appeal to a broader urban palate.
 - (origin) Originating from the Mersin province in southern Turkey, it has become one of the country's most popular street foods.
+- (inspiration) The origin of the word "tantuni" is uncertain, but a widely accepted urban legend suggests it is an onomatopoeic word.
+
+More fun facts (when the user asks for more):
+
+- (about) It is believed to derive from the "tan-tun" sounds produced when the metal spoon hits the metal sac (pan) rhythmically during the cooking process.
+- (history) In its earliest forms (early to mid-20th century), it was primarily made from minced offal, specifically lung (akciğer) and beef fat, which were affordable.
 - (culture) Distinct from other Turkish kebabs or döner, tantuni is characterized by its specific cooking method involving a combination of boiling and frying, the use of cottonseed oil, and the ritual of steaming the bread atop the cooking meat.
+- (culture) While exact origins are debated, tantuni is rooted in the culinary traditions of Turkmen and Yörük (nomadic) tribes in the Mersin region.
 - (origin) Tantuni comes from Turkey.
 
 Learn more:
@@ -1240,6 +1367,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q55638285) (CC0); [Wikipedia: 
 Fun facts:
 
 - (origin) Şakşuka comes from Turkey.
+- (about) Not to be confused with shakshuka.
 
 Learn more:
 
@@ -1282,6 +1410,7 @@ Allspice, also known as Jamaica pepper, myrtle pepper, pimenta, or pimento, is t
 Fun facts:
 
 - (history) The name allspice was coined as early as 1621 by the English, who valued it as a spice that combined the flavours of cinnamon, nutmeg, and clove.
+- (about) Not to be confused with allspice.
 
 Learn more:
 
@@ -1298,6 +1427,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1963621) (CC0); [Wikipedia: A
 Barbunya pilaki is a traditional Turkish dish made with borlotti beans (known as barbunya in Turkish) stewed in olive oil with a medley of vegetables, garlic, tomato, and seasonings.
 
 - From: Turkey
+
+Fun facts:
+
+- (about) The word barbunya refers specifically to borlotti beans, also known as cranberry beans, which are recognized for their mottled red-pink skins before cooking.
 
 Learn more:
 
@@ -1340,8 +1473,15 @@ Cardamom (), sometimes cardamon or cardamum, is a spice made from the seeds of s
 
 Fun facts:
 
+- (history) In China, Amomum was an important part of the economy during the Song Dynasty (960–1279).
 - (about) The first references to cardamom are found in Sumer, and in Ayurveda.
+- (history) The Portuguese became involved in the trade in the 16th century, and the industry gained wide-scale European interest in the 19th century.
+
+More fun facts (when the user asks for more):
+
 - (history) In the 21st century, it is cultivated mainly in India, Indonesia, and Guatemala.
+- (history) In 1150, the Arab geographer Muhammad al-Idrisi noted that cardamom was being imported to Aden, in Yemen, from India and China.
+- (about) Not to be confused with Elettaria cardamomum.
 
 Learn more:
 
@@ -1387,6 +1527,12 @@ Crushed red pepper or red pepper flakes or chilli flakes is a condiment or spice
 Fun facts:
 
 - (about) Often there is a high ratio of seeds, which are often erroneously believed to contain the most heat.
+- (history) Southern Italians popularized crushed red chilli peppers in the 19th century and heavily used them in the U.S. when they migrated there.
+- (origin) Spanish explorers were introduced to the pepper while on a search for black pepper.
+
+More fun facts (when the user asks for more):
+
+- (about) Red chilli peppers, which are a part of the Solanaceae (nightshade) family, were first found in Central and South America and have been harvested for use since about 7,500 BCE.
 - (about) Crushed red chilli pepper in Turkey, served as a common condiment with very few seeds, is known as pul biber.
 
 Learn more:
@@ -1420,6 +1566,12 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q618324) (CC0); [Wikipedia: Du
 The gilt-head bream (Sparus aurata), also known as the gilthead, dourade, gilt-head seabream, European seabream or silver seabream, is a species of marine ray-finned fish belonging to the family Sparidae, the seabreams or porgies.
 
 - From: Turkey
+
+Fun facts:
+
+- (history) However, intensive rearing systems were developed during the 1980s, and gilt-head seabream has become an important aquaculture species, primarily in the Mediterranean area and Portugal.
+- (culture) Gilt-head seabream have traditionally been cultured extensively in coastal lagoons and saltwater ponds.
+- (history) Reported production was negligible until the late 1980s, but reached 140,000 metric tons (140,000 long tons; 150,000 short tons) in 2010, thus dwarfing the capture fisheries production.
 
 Learn more:
 
@@ -1539,6 +1691,11 @@ Poppy seeds are a type of oilseed obtained from the poppy plant (Papaver somnife
 
 - From: Turkey
 
+Fun facts:
+
+- (history) For instance, the Egyptian Ebers Papyrus, written c. 1550 BCE, lists the poppy seed as a sedative.
+- (history) The Minoan civilization (approximately 2700 to 1450 BCE), a Bronze Age civilization which arose on the island of Crete, cultivated poppies for their seeds, and used a mixture of milk, opium and honey to calm crying babies.
+
 Learn more:
 
 - quick: [Poppy seed (Wikipedia)](https://en.wikipedia.org/wiki/Poppy_seed)
@@ -1574,7 +1731,11 @@ Rose water or rosewater is a flavoured water created by steeping rose petals in 
 Fun facts:
 
 - (culture) Central Iran is home to the annual Golabgiri festival each spring.
+- (origin) Rose water likely originated in Persia, where it is known as golāb, from gul and ab.
 - (culture) Rose water is widely used to flavour culinary dishes and enhance cosmetic products, and it is significant in religious rituals throughout Eurasia.
+
+More fun facts (when the user asks for more):
+
 - (culture) Thousands of tourists visit the area to celebrate the rose harvest for the production of rosewater.
 
 Learn more:
@@ -1619,7 +1780,14 @@ Urfa biber (also known as isot pepper, ) is a spice prepared from landrace Capsi
 
 Fun facts:
 
+- (history) The term ısı ot has been attested in Turkish in multiple sources since late 15th century.
 - (inspiration) Urfa biber is named after Şanlıurfa.
+- (about) As a result, Urfa biber gained international popularity during the 2010s as a substitute.
+
+More fun facts (when the user asks for more):
+
+- (history) In Hamit Zübeyir Koşay and İshak Işıtman's book from 1932, Anadilden Derlemeler, this term was included as ısıot and isot.
+- (history) The Syrian Civil War caused export of the popular Aleppo pepper to drop dramatically.
 - (origin) Urfa biber comes from Turkey.
 
 Learn more:
@@ -1641,6 +1809,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q12812990) (CC0); [Wikipedia: 
 Fun facts:
 
 - (history) Oldest written record about the cheese could be dated to 15th century.
+- (about) Not to be confused with Çökelek.
 
 Learn more:
 

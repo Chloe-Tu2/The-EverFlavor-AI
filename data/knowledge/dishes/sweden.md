@@ -54,7 +54,12 @@ The Budapest roll is a classic Swedish dessert made with hazelnut-meringue, egg 
 
 Fun facts:
 
+- (history) The Budapest roll was invented around 1969 by Ingvar Strid.
+- (culture) When Vetlanda, the municipality where the inventor was born, reached a population of 27,000, the milestone was celebrated with a 27-meter-long Budapest roll.
 - (inspiration) Budapest roll is named after Budapest.
+
+More fun facts (when the user asks for more):
+
 - (culture) The Budapest roll has its own holiday, celebrated annually on May 1st.
 - (origin) Budapest roll comes from Sweden.
 
@@ -93,7 +98,15 @@ A Danish pastry is a multilayered, laminated sweet viennoiserie.
 Fun facts:
 
 - (origin) It is thought that some bakery techniques were brought to Denmark by Austrian bakers, and originated the name of this product.
+- (history) The origin of the Danish pastry is often ascribed to a strike amongst bakery workers in Denmark in 1850.
+- (about) In Austria and Bavaria, conversely, the Danish pastry is known as Kopenhagener Plunder (or simply Kopenhagener, after Copenhagen) or Dänischer Plunder.
+
+More fun facts (when the user asks for more):
+
 - (origin) Danish pastries were brought with immigrants to the United States, where they are often topped with a fruit or cream cheese filling, and are now popular around the world.
+- (culture) The strike caused bakery owners to hire workers from abroad, among them several Austrian bakers, who brought along new baking traditions and recipes.
+- (about) This development resulted in what is now known as the Danish pastry.
+- (culture) One of the baking techniques and traditions that the Austrian bakers reportedly brought with them was the Viennese lamination technique.
 - (origin) Danish pastry comes from Denmark, Austria.
 
 Learn more:
@@ -165,7 +178,20 @@ Glögg, gløgg or glögi is a spiced, often alcoholic, mulled wine, or spirit of
 
 Fun facts:
 
+- (history) While mulled wine (hõõgvein) was long known and popular in Estonia, Swedish-style glögg (glögi in Estonian) spread into Estonia only in the 1980s and 1990s, mostly via Finland, and local commercial production of glögi started in Estonia in 1995.
+- (culture) When prohibition was lifted in the 1930s glögg was advertised in Fenno-Swedish magazines, and in the 1950s and 60s, the drinking of glögg was a Fenno-Swedish tradition.
+- (about) In 2021, around 2.9 million litres of glögg were sold at Systembolaget.
+
+More fun facts (when the user asks for more):
+
+- (culture) At the end of the 1960s and beginning of the 1970s, glögg recipes began to also appear in Finnish-language magazines, after which glögg became a Christmas tradition in the whole of Finland.
+- (history) In the Nordic countries, hot wine has been a common drink since at least the 16th century.
+- (history) Since the early 19th century, glögg has been a common winter drink, mixed and warmed with juice, syrup, and sometimes with a smaller quantity of harder spirits or punsch.
+- (history) Glögg came to Finland from Sweden at the end of 19th century.
+- (culture) Drinking glögg around Christmas became a tradition in the 19th century.
+- (culture) Since the 20th century glögg is traditionally served with almonds, raisins, gingerbread biscuits and saffron buns.
 - (culture) Glögg is a traditional Nordic drink during winter, especially around Christmas.
+- (culture) Glögg is a traditional Swedish drink during winter, especially around Christmas.
 
 Learn more:
 
@@ -187,6 +213,7 @@ Gravlax, graavilohi, gravad lax, gravlaks or graved salmon is a Nordic dish cons
 
 Fun facts:
 
+- (history) Perhaps the oldest reference is found in 1348 in Diplomatarium Norvegicum as the nickname of a man named Óláfr, who was a delegate in a salmon fishery.
 - (origin) Gravlax comes from Sweden, Scandinavia.
 
 Learn more:
@@ -208,6 +235,7 @@ Herring salad is a mixed salad consisting of cut and salted herring, beetroot, p
 
 Fun facts:
 
+- (inspiration) The Swedish word sillsallad is thought to have inspired the word sinsalla which is used to refer to rosolli in Ostrobothnia.
 - (origin) Herring salad comes from Norway.
 
 Learn more:
@@ -229,6 +257,8 @@ Ischoklad ("Ice chocolate"; Eiskonfekt in German, which is also translated as Ic
 
 Fun facts:
 
+- (history) Ischoklad was invented in 1927 by the confectioner Adam Eichelmann.
+- (about) Ischoklad is a popular Swedish Christmas treat.
 - (origin) Ischoklad comes from Germany.
 
 Learn more:
@@ -271,12 +301,15 @@ Jansson's Temptation (Swedish: Janssons frestelse) is a traditional Swedish cass
 
 Fun facts:
 
+- (history) Jansson's temptation has often been associated with the opera singer Per Adolf "Pelle" Janzon (1844–1889), remembered as a gourmand, but any connection with him is unlikely, according to food writer Jens Linder.
 - (inspiration) Jansson's temptation is named after Per Janzon, Jansson's Temptation.
 - (culture) These days, it is also commonly included in a Swedish julbord (Christmas smörgåsbord), and the Easter påskbuffé, which is lighter than a traditional julbord.
-- (about) Jansson's temptation is also common in Finland where it is known as janssoninkiusaus.
 
 More fun facts (when the user asks for more):
 
+- (history) Another claim for the origin of the name has been made by Gunnar Stigmark (1910–2001) in his article "Så var det med Janssons frestelse", which appeared in the periodical Gastronomisk kalender.
+- (history) According to Linder the dish did not become associated with Christmas dinner until the 1970s.
+- (about) Jansson's temptation is also common in Finland where it is known as janssoninkiusaus.
 - (origin) Jansson's temptation comes from Sweden.
 
 Learn more:
@@ -299,6 +332,7 @@ Julmust is a soft drink that is mainly consumed in Sweden around Christmas.
 Fun facts:
 
 - (inspiration) Must was created by Harry Roberts and his father Robert Roberts in 1910 as a non-alcoholic alternative to beer.
+- (origin) Julmust was first made by Harry Roberts.
 - (origin) Julmust comes from Sweden.
 
 Learn more:
@@ -341,8 +375,14 @@ Kladdkaka is a popular Swedish dessert.
 
 Fun facts:
 
+- (history) In 1938, when baking powder was difficult to get hold of in Sweden, Gudrun Isaksson, a woman from Örebro, used an American brownie recipe and simply left out the baking powder.
 - (about) Since 2008, the official kladdkaka day is 7 November.
 - (origin) Kladdkaka comes from Sweden.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1968, Margareta Wickman, was served a chocolate cake at a restaurant in Paris and was given the recipe.
+- (history) She later published the recipe in a couple of different variants in the Swedish magazine Vecko-Journalen, during the late 1970s.
 
 Learn more:
 
@@ -384,6 +424,12 @@ Korv stroganoff or korvstroganoff, Swedish for sausage stroganoff, is a Swedish 
 
 Fun facts:
 
+- (origin) Korv Stroganoff originated as a budget-friendly variation of beef Stroganoff, first introduced as a school meal in the 1950s, before spreading to households.
+- (about) Korv stroganoff was Sweden's fifth most popular dish in 2022.
+- (inspiration) Korv stroganoff is based on Beef Stroganoff.
+
+More fun facts (when the user asks for more):
+
 - (origin) Korv stroganoff comes from Sweden.
 
 Learn more:
@@ -401,6 +447,16 @@ Kringle is a Northern European pastry or bread, a variety of pretzel that may be
 
 - From: Sweden
 - Ingredients (Wikidata): wheat flour, rye flour
+
+Fun facts:
+
+- (history) Kringle is told (though currently unconfirmed by historic documents), that when Vienna was besieged by the Turkish Ottoman armies in 1529, local bakers working in the night gave the city defence an early warning of the attacking enemy.
+- (culture) Baker's guilds in Europe have used the kringle or pretzel as a symbol for centuries.
+- (culture) For this, they were later rewarded by the Pope with permission to use a crown as part of their kringle guild symbol.
+
+More fun facts (when the user asks for more):
+
+- (culture) The guild in Denmark is now the only baker's guild in the world with official authority to display a royal crown as part of their baker's guild trade symbol that is often hung outside of bakery shops.
 
 Learn more:
 
@@ -461,7 +517,21 @@ Marshmallow (UK:, US: ) is a confection made from sugar, water and gelatin whipp
 
 Fun facts:
 
+- (about) Marshmallow is not known exactly when marshmallows were invented, but their history goes back as early as 2000 BCE.
+- (history) Ancient Egyptians were said to be the first to make use of the root of the plant to soothe coughs and sore throats and to heal wounds.
+- (culture) In the early to mid-19th century, the marshmallow had made its way to France, where confectioners augmented the plant's traditional medicinal value.
+
+More fun facts (when the user asks for more):
+
+- (about) The first marshmallows were prepared by boiling pieces of root pulp with honey until thick.
+- (history) In the late 19th century, candy makers started looking for a new process and discovered the starch mogul system, in which trays of modified corn starch had a mold firmly pushed down in them to create cavities within the starch.
+- (history) By the early 20th century, thanks to the starch mogul system, marshmallows were available for mass consumption.
+- (history) In 1956, Alex Doumak patented the extrusion process that involved running marshmallow ingredients through tubes.
+- (history) Modern marshmallow manufacturing is highly automated and has been since the early 1950s, when the extrusion process was first developed.
+- (inspiration) This sugar confection is inspired by a medicinal confection made from Althaea officinalis, the marsh-mallow plant.
+- (about) They also became a popular garnish for hot chocolate and dishes including candied sweet potatoes.
 - (origin) Marshmallow comes from United States.
+- (about) Not to be confused with cotton candy.
 
 Learn more:
 
@@ -484,15 +554,24 @@ The oatmeal ball or the chocolate ball is a type of unbaked pastry that is a pop
 Fun facts:
 
 - (about) The balls can be eaten immediately, but usually they are first chilled in a refrigerator.
-- (history) Oatmeal ball dates from 1940-.
-- (origin) Oatmeal ball comes from Sweden, Denmark.
+- (history) The oatmeal ball was most likely invented during World War II, when, because of rationing, there was a limited supply of wheat flour, which caused a search for substitutes.
+- (culture) One traditional name for the pastry in Swedish is negerboll ("negro ball").
 
 More fun facts (when the user asks for more):
 
+- (history) In 1943, the Danish Nationaltidende published a small booklet for housewives called Ingenuity in a time of crisis containing the recipe for havregrynskugle.
+- (history) There is also a classified ad for a konditorei product with the name negerbollar from 1918 in the Swedish newspaper Svenska Dagbladet.
+- (about) Chokladboll was first added to the Swedish Academy's spelling dictionary Svenska Akademiens ordlista in 2006, with only negerboll being listed prior.
+- (history) Oatmeal ball dates from 1940-.
 - (about) Because of the simple, non-bake recipe, oatmeal balls can be easily made by less skilled cooks, making them a popular homemade sweet and a common at children's parties.
 - (about) Variations on the oatmeal ball are popular in other countries too.
 - (about) Popular in Austria, especially around Christmastime, is the Rumkugel (plural Rumkugeln), which contains the same ingredients as oatmeal balls but adds a small amount of rum to the mix.
 - (about) In the Canadian province of Newfoundland and Labrador, the snowball is a popular Christmas treat, which uses the same ingredients with the addition of evaporated milk.
+- (about) When made with shredded coconut, it is also known as kokosboll (coconut ball).
+- (about) In the 13th (2006) edition, the pastry can be found under both names, with a comment that chokladboll is the recommended term.
+- (about) In the 14th edition (2015) negerboll was removed.
+- (about) In mid-2003, a bakery owner from Sjöbo was reported to the Swedish Ombudsman against Ethnic Discrimination for using the word negerboll on a sign in her bakery shop.
+- (origin) Oatmeal ball comes from Sweden, Denmark.
 
 Learn more:
 
@@ -563,14 +642,18 @@ Pickled herring is a traditional way of preserving herring as food by pickling o
 Fun facts:
 
 - (about) The herring is first cured with salt to extract water, then the salt is removed and the herring is placed in vinegar, salt, and sugar solution, often with peppercorn, bay leaf, and raw onions.
+- (history) In 1801 Dutch fishermen amongst the prisoners of war in the Norman Cross Prison were sent to Scotland to teach the Scottish herring fishermen how to cure fish using the Dutch method.
 - (inspiration) Pickled herring is named after Otto von Bismarck, Russians.
-- (culture) Additional flavorings include sherry, and dill, while other non-traditional ingredients have also begun being included in recent years.
 
 More fun facts (when the user asks for more):
 
+- (culture) Additional flavorings include sherry, and dill, while other non-traditional ingredients have also begun being included in recent years.
 - (about) Pickled herring remains a popular food or ingredient to dishes in many parts of Europe including the Nordic countries, Great Britain, the Baltic, Eastern and Central Europe, as well as the Netherlands.
 - (about) Pickled herring is also popular in parts of Canada such as British Columbia, Newfoundland, and the Maritimes.
 - (culture) Pickled herring is one of the Twelve-dish Christmas Eve supper twelve dishes traditionally served at Christmas Eve in Russia, Poland, Lithuania, and Ukraine.
+- (culture) Pickled herring is also eaten at the stroke of midnight on New Year's Eve to symbolize a prosperous New Year in Poland, the Czech Republic, Germany, and parts of Scandinavia.
+- (culture) Pickled herring with tahini is a popular dish in Egypt usually eaten in the spring holiday of Sham Ennessim.
+- (about) Not to be confused with fried and pickled herring.
 
 Learn more:
 
@@ -613,7 +696,17 @@ Polkagris (plural: polkagrisar) is a Swedish stick candy that was invented in 18
 
 Fun facts:
 
+- (history) Polkagris is a special candy stick type which was invented in Gränna 1859 by Amalia Eriksson (1824–1923), a poor 35-year-old widow.
+- (origin) The dance originated in the middle of the 19th century and is still a common genre in Swedish folk dance and folk music.
+- (about) The name "polkagris" literally means "polka pig". "Polka" in the candy's name refers to a lively Slavic swirling dance, polka, which was still a novelty when the polkagris was invented.
+
+More fun facts (when the user asks for more):
+
+- (origin) Polkagris was first made by Amalia Eriksson.
 - (culture) The traditional polkagris candy stick is white and red, and is peppermint-flavoured.
+- (culture) It may recall the way a traditional polkagris is made, twisting red and white sugar dough ribbons. "Gris" means "pig", and was at that time used as an expression for candy.
+- (culture) The town of Gränna has only 2,500 residents, but its convenient location off one of the most traveled highways in Sweden attracts over a million visitors per year, many of them drawn by the famous candy, which has been a tradition for more than 150 years.
+- (about) In 2016, polkagris made its debut in the US in the small town of Solvang, California.
 - (origin) Polkagris comes from Sweden.
 
 Learn more:
@@ -636,7 +729,12 @@ Princess cake or princess torte is a traditional Swedish layer cake or torte con
 
 Fun facts:
 
+- (history) The princesses were Princess Margaretha (1899–1977; later Princess of Denmark), Princess Märtha (1901–1954; later Crown Princess of Norway), and Princess Astrid (1905–1935; later Queen of the Belgians).
+- (origin) The original recipe first appeared in the 1948 cookbook Prinsessornas kokbok, which was published by Jenny Åkerström (1867–1957), teacher of the three daughters of Prince Carl, Duke of Västergötland.
 - (inspiration) Princess cake is named after Astrid of Sweden, Princess Märtha of Sweden, Princess Margaretha of Sweden.
+
+More fun facts (when the user asks for more):
+
 - (origin) Princess cake comes from Sweden.
 
 Learn more:
@@ -701,6 +799,8 @@ Pölsa is a traditional northern Swedish dish that is a close relative to Scotti
 
 Fun facts:
 
+- (history) The dish plays a central role in the allegorical novel Pölsan (2002) by Swedish author Torgny Lindgren (1938–2017), in which two men go on a personal quest across postwar Sweden in search of the genuine Swedish "pölsa".
+- (culture) Pölsa is simply a traditional variety of sausage filling without any casing.
 - (origin) Pölsa comes from Sweden.
 
 Learn more:
@@ -764,6 +864,17 @@ Saffranspannkaka or gotlandspannkaka is a dessert from the island of Gotland, Sw
 
 Fun facts:
 
+- (history) The particular combination of rice-almond-saffron-sugar made the dish extremely exclusive, compared to the saffron bread that has been known since the 16th century.
+- (culture) The saffranspannkaka is associated with Christmas, as it is sometimes made with the leftover Christmas pudding, but in the 19th and 20th century, it was also served during anniversaries, weddings, and funerals.
+- (about) Saffranspannkaka has also been named Gotland's provincial dish.
+
+More fun facts (when the user asks for more):
+
+- (history) Oven pancakes, which were mostly served during feasts, have been made on Gotland since the 18th century.
+- (history) During the 19th century, it became common not only to add sugar to the pancakes, but also saffron and raisins.
+- (history) Today's saffranspannkaka, made with rice pudding that is then baked in an oven, belongs to the class of pudding desserts which became common during the 19th century when the wood stove made cooking easier.
+- (history) The jams eaten with the pancake are also a fashion from the 19th century, when sugar became cheaper.
+- (culture) During the latter half of the 20th century, the saffranspannkaka have become a well-known tourism symbol for Gotland and is often served at summer-open tourism restaurants and in other contexts where the local island food is highlighted.
 - (culture) The cake can be eaten tepid or cold and is traditionally served with dewberry jam and whipped cream.
 - (origin) Saffranspannkaka comes from Sweden.
 
@@ -808,6 +919,7 @@ Salty liquorice, also known as salmiak liquorice, salmiac liquorice or (in Finla
 
 Fun facts:
 
+- (history) Where and when ammonium chloride and liquorice were first combined to produce salty liquorice is unclear, but by the 1930s it was produced in Finland, Norway, Denmark, Sweden and the Netherlands as a pastille.
 - (origin) Salty liquorice comes from Finland.
 
 Learn more:
@@ -828,13 +940,22 @@ A semla, laskiaispulla, Swedish eclair, fastlagsbulle, fastelavnsbolle, vastlaku
 
 Fun facts:
 
+- (inspiration) According to a popular myth, King Adolf Frederick of Sweden died of digestion problems on February 12, 1771, after consuming a hetvägg (semla), the king's favorite dessert, after a meal consisting of sauerkraut, turnips, caviar, smoked herring, and champagne.
 - (about) In Sweden it is most commonly known as just semla (plural: semlor), but is also known as fettisdagsbulle, lit. 'Fat Tuesday bun' or 'Shrove Tuesday bun'.
-- (origin) Semla comes from Finland, Sweden.
-- (about) In the southern parts of Sweden, as well as in Swedish-speaking Finland, it is known as fastlagsbulle (plural: fastlagsbullar; semla on the other hand means a plain wheat bun with butter, called bulle in Swedish).
+- (culture) The semla in its bowl of warm milk became a traditional dessert every Tuesday between Shrove Tuesday and Easter.
 
 More fun facts (when the user asks for more):
 
+- (inspiration) In recent versions of the legend, the semla has turned into 14, and sometimes into cinnamon buns.
+- (about) In the southern parts of Sweden, as well as in Swedish-speaking Finland, it is known as fastlagsbulle (plural: fastlagsbullar; semla on the other hand means a plain wheat bun with butter, called bulle in Swedish).
 - (about) In Iceland, it is known as a bolla and served on Bolludagur.
+- (about) In the southernmost part of Sweden (Scania) and by the Swedish-speaking population in Finland, they are known as fastlagsbulle.
+- (about) In Denmark and Norway they are known as fastelavnsbolle (fastlagen and fastelavn being the equivalent of Shrove Tuesday).
+- (about) In Finnish they are known as laskiaispulla (which refers to the Finnish laskiainen), in Latvian as vēja kūkas, and in Estonian as vastlakukkel.
+- (about) In Swedish this is known as hetvägg, from Middle Low German hete Weggen ('hot wedges') or German heisse Wecken ('hot buns') and falsely interpreted as "hotwall".
+- (about) This was the sweet chosen to represent Finland in the Café Europe initiative of the Austrian presidency of the European Union, on Europe Day 2006.
+- (origin) Semla comes from Finland, Sweden.
+- (about) Not to be confused with samsa.
 
 Learn more:
 
@@ -921,11 +1042,14 @@ Surströmming is a lightly salted, fermented Baltic Sea herring traditional to S
 Fun facts:
 
 - (history) At the end of the 1940s, surströmming producers in Sweden lobbied for a royal ordinance that would prevent incompletely fermented fish from being sold.
+- (origin) The oldest archeological finds of fish fermentation are 9,200 years old and originate from the south of today's Sweden.
 - (about) The Baltic herring, known as strömming in Swedish, is smaller than the Atlantic herring found in the North Sea.
-- (culture) Traditionally, strömming is defined as herring caught in the brackish waters of the Baltic north of the Kalmar Strait.
 
 More fun facts (when the user asks for more):
 
+- (history) Surströmming has been part of northern Swedish cuisine since at least the 16th century.
+- (culture) Traditionally, strömming is defined as herring caught in the brackish waters of the Baltic north of the Kalmar Strait.
+- (culture) Fermented fish is a traditional staple in European cuisines.
 - (origin) Surströmming comes from Sweden.
 
 Learn more:
@@ -999,6 +1123,21 @@ Arrack is a distilled alcoholic drink typically produced in India, Sri Lanka, an
 
 - From: Sweden
 
+Fun facts:
+
+- (origin) The word "arrack" has been considered by some experts to be derived from areca nut, a palm seed originating in India from the areca tree and used as the basis for many varieties of arrack.
+- (history) In 1838, Samuel Morewood's work on the histories of liquors was published.
+- (about) Strabo reports Indians made a beverage from rice known as arak.
+
+More fun facts (when the user asks for more):
+
+- (history) Arrack was the first distilled spirit consumed in colonial America, in the colonies of New Sweden and New Netherland, but is now mostly confused with the more common and similar spelled anise-flavored spirit arak.
+- (history) This is largely due to the proliferation of distillation knowledge throughout the Middle East during the 14th century.
+- (history) Each country named its own alcohol by using various Latin alphabet forms of the same word that was synonymous with distillation at the time (arak, araka, araki, ariki, arrack, arack, raki, raque, racque, rac, rak). 1864 English and Australian Cookery Book described arrack as "a spirituous liquor from the East Indies.
+- (about) Outside Asia, the spirit was a common ingredient in the proliferation of Indian alcoholic punch, and was particularly popular in Holland and Sweden.
+- (culture) Regardless of the exact origin, arrack has come to symbolize a multitude of largely unrelated, distilled alcohols produced throughout Asia and the eastern Mediterranean.
+- (about) Not to be confused with Arak.
+
 Learn more:
 
 - quick: [Arrack (Wikipedia)](https://en.wikipedia.org/wiki/Arrack)
@@ -1045,7 +1184,18 @@ A Christmas ham, or Yule ham, is a ham often served for Christmas dinner or duri
 
 Fun facts:
 
+- (history) Ham began being mentioned as a Christmas dish in around 1900, and started growing in popularity in about 1960.
+- (origin) The baked Christmas ham with a clove-studded, diamond-hatched sugar glaze which became popular in the 20th century was introduced in the 1930s.
 - (culture) The tradition of eating ham is thought to have evolved from the Germanic pagan ritual of sacrificing a wild boar known as a sonargöltr to the Norse god Freyr during harvest festivals.
+
+More fun facts (when the user asks for more):
+
+- (culture) The centerpiece of the cold cuts section of a traditional Swedish Christmas smörgåsbord (at Christmas called "julbord") is a large Christmas ham (a cured ham which has been boiled or baked, then coated with a mixture of egg, breadcrumbs and mustard, browned in the oven).
+- (culture) As of 2019, Americans purchase about as much ham as turkey around the holiday season.
+- (about) Stuffed ham is popular in southern Maryland, and particularly St.
+- (culture) Mary's County, where it is traditional to stuff a corned ham with greens such as kale and cabbage.
+- (culture) This tradition has been around in the area for at least 200 years.
+- (culture) Ham is a traditional Australian dish that features on most tables on Christmas Day.
 - (origin) Christmas ham comes from Sweden.
 
 Learn more:
@@ -1063,6 +1213,12 @@ Dumplings are a broad class of dishes that consist of pieces of cooked dough (ma
 
 - From: Sweden
 - Ingredients (Wikidata): flour, dough
+
+Fun facts:
+
+- (inspiration) The dough can be based on bread, wheat or other flours, or potatoes, and it may be filled with meat, fish, tofu, cheese, vegetables, or a combination.
+- (about) Dumplings were also featured in the popular Disney short Bao which features a personified dumpling to display the struggles parents face as their children grow up.
+- (about) Not to be confused with stuffed pasta.
 
 Learn more:
 
@@ -1084,7 +1240,12 @@ Falukorv, or Falu sausage in English, is a type of sausage (korv in Swedish) tha
 
 Fun facts:
 
+- (history) The history of falukorv reaches back to the Falun copper mine during the 16th and 17th century, where ox hide was used for ropes and some of the meat remaining after slaughter was salted and smoked and used for sausages.
+- (culture) The tradition of preparing the meat in this way was revitalised in the late 19th century by the butcher Anders Olsson, whose initiation led to the development of the modern falukorv, which uses a mixture of pork and beef or veal.
 - (inspiration) Falukorv is named after Falun.
+
+More fun facts (when the user asks for more):
+
 - (origin) Falukorv comes from Sweden.
 
 Learn more:
@@ -1143,6 +1304,10 @@ A juniper berry is the female seed cone produced by the various species of junip
 
 - From: Sweden
 
+Fun facts:
+
+- (about) The berries imported into Egypt may have come from Greece; the Greeks record using juniper berries as a medicine long before mentioning their use in food.
+
 Learn more:
 
 - quick: [Juniper berry (Wikipedia)](https://en.wikipedia.org/wiki/Juniper_berry)
@@ -1170,6 +1335,7 @@ More fun facts (when the user asks for more):
 
 - (culture) Swedish emigrants brought the tradition of kalvdans to North America, as well.
 - (about) In 2008 kalvdans, along with four other Swedish dishes, was included in the 'Ark of Taste' of the Slow Food movement.
+- (culture) In England colostrum milk, or beestings as it is called locally, was traditionally used for puddings.
 - (origin) Kalvdans comes from Sweden.
 
 Learn more:
@@ -1207,6 +1373,13 @@ Pommac is the brand name for a carbonated soft drink made by Carlsberg Sverige A
 
 Fun facts:
 
+- (history) In the US, Dr Pepper distributed a formulation of it, with sodium cyclamate as a sweetener, as a diet drink from 1963 to 1969 in six-and-a-half- and ten-ounce bottles.
+- (about) The recipe was made by a Finland-Swedish inventor.
+- (culture) Pommac is in Finland an extremely popular non-alcoholic substitute for Champagne and sparkling wines, and as children's birthday celebration drink.
+
+More fun facts (when the user asks for more):
+
+- (history) Finnish brewery Hartwall has produced Pommac in Finland since 1950.
 - (history) Pommac dates from 1919-.
 
 Learn more:
@@ -1285,6 +1458,11 @@ Fun facts:
 
 - (history) Trocadero was launched in Sweden in the summer of 1953 by Saturnus AB in Malmö, Sweden.
 - (about) Trocadero has been especially popular in Norrland, the northern part of Sweden, and has therefore been called the "national beverage of Norrland".
+- (origin) The same year Trocadero was introduced, the ban of cola drinks was lifted in Sweden.
+
+More fun facts (when the user asks for more):
+
+- (origin) Both Coca-Cola and Cuba Cola (the latter also brewed by Saturnus) were introduced to the market.
 
 Learn more:
 

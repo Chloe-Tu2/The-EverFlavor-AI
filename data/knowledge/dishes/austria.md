@@ -9,6 +9,19 @@ Beuschel is a dish that is typically a ragout made from lungs and other organs, 
 - From: Austria
 - Ingredients (Wikidata): offal
 
+Fun facts:
+
+- (about) In Austrian hunting terminology, the term refers to the lungs, liver, heart, spleen, and kidneys of game, known as the "hunter's right." According to the Duden, the word dates back to the early meaning of "Bausch" (swelling), which was used to refer to entrails.
+- (culture) Beuschel, also known as Beuschl, Beuscherl, Saures Lüngerl, Lungensuppe, or Lungenhaschee, refers to a dish in traditional Viennese, Austrian, Bavarian, and Bohemian cuisine (where it is known as pajšl).
+- (inspiration) Traditional restaurants in Bavaria and Austria often offer beuschel based on their own handed-down recipes.
+
+More fun facts (when the user asks for more):
+
+- (about) In Swiss cuisine, a calf heart and lung ragout is known as Gschtell, according to the Swiss kitchen encyclopedia Chuchi-Dix.
+- (about) In Upper Franconia, the dish is called Saure Lunge mit Herz or Gschling because it is prepared with vinegar or wine, while in Coburg, it is known as "Gelüng." Beuschel can be made from nearly all lungs and other organs such as heart, tongue, and kidney from cattle, pigs, or game.
+- (culture) Traditionally, it is prepared as a ragout from calf lungs, sometimes supplemented with heart, spleen, liver, and/or tongue, depending on the recipe.
+- (about) Originally, innards, including beuschel, were served as a starter before the main course, known as "Voressen." The classic side dishes in Austria are either bread or napkin dumplings, while in Franconia, potato dumplings or Baumwollene Klöße ("cotton dumplings"), along with green salad, are common.
+
 Learn more:
 
 - quick: [Beuschel (Wikipedia)](https://en.wikipedia.org/wiki/Beuschel)
@@ -69,6 +82,8 @@ The milk-cream strudel is a traditional Viennese strudel and a popular pastry in
 
 Fun facts:
 
+- (inspiration) A Viennese legend credits Franz Stelzer (1842–1913), who owned a small inn in Breitenfurt near Vienna, for the invention of the Millirahmstrudel, maintaining that the pastry made him a very famous and rich man.
+- (history) The first documented strudel recipe was a recipe of a milk-cream strudel (Millirahmstrudel) from 1696 in Vienna, a handwritten recipe at the Viennese City Library.
 - (origin) Milk-cream strudel comes from Austria.
 
 Learn more:
@@ -99,6 +114,11 @@ More fun facts (when the user asks for more):
 - (culture) Traditionally, large amounts of powidl to be used as a winter store and natural sweetener were prepared in late autumn during a communal event.
 - (culture) Traditionally the plums were "overcooked," (to promote evaporation) in a copper kettle, or sometimes vinegar preserved, or even steamed.
 - (culture) Another recipe for "traditional Austrian plum butter" recommends roasting the plums in an oven and then transforming that compote-like dish into jam.
+- (culture) Powidl is a key ingredient of the popular Austrian street food pofesen, which is a jam-filled form of French toast.
+- (culture) In this the traditional method of production allows for a long shelf life even in unsealed containers.
+- (about) The prune trees are less sensitive to cold, making them popular in harsher climate areas.
+- (culture) The high-sugar content, combined with good availability and storability, made Powidl into the general sweetener in many traditional recipes.
+- (about) Not to be confused with plum compote.
 
 Learn more:
 
@@ -118,7 +138,12 @@ An Einspänner is a Viennese coffee drink consisting of espresso ("Mocca" in Vie
 
 Fun facts:
 
+- (history) The drink's name refers to the carriages that were common in Vienna in the 19th century, as it was intended for the drivers.
 - (culture) Einspänner is traditionally served in a glass rather than a mug or a coffee cup.
+- (about) The Einspänner also found popularity beyond carriage drivers and quickly became a staple of Vienna's coffee houses.
+
+More fun facts (when the user asks for more):
+
 - (origin) Einspänner comes from Austria.
 
 Learn more:
@@ -140,7 +165,21 @@ Milk is usually a white liquid food (but can be shades of yellow, cream, pink, o
 Fun facts:
 
 - (about) The first milk, which is called colostrum, contains antibodies and immune-modulating components that strengthen the immune system against many diseases.
+- (history) Cows were imported to New England in 1624.
+- (inspiration) In Greek mythology, the Milky Way was formed after the trickster god Hermes suckled the infant Heracles at the breast of Hera, the queen of the gods, while she was asleep.
+
+More fun facts (when the user asks for more):
+
+- (about) Humans first learned to consume the milk of other mammals regularly following the domestication of animals during the Neolithic Revolution or the development of agriculture.
+- (about) Though the first evidence of the shift from meat production to milk production, appeared in Western Anatolia in the form of milk residue on pottery shards dated to circ. 6500 BC.
+- (about) People first domesticated the most important dairy animals – cattle, sheep and goats – in Southwest Asia, although domestic cattle had been independently derived from wild aurochs populations several times since.
+- (about) The first farmers in central Europe and Britain milked their animals.
+- (about) The earliest Egyptian records of burn treatments describe burn dressings using milk from mothers of male babies.
 - (about) In 2011, dairy farms produced around 730 million tonnes (800 million short tons) of milk from 260 million dairy cows.
+- (inspiration) Sherratt's model is not supported by recent findings, based on the analysis of lipid residue in prehistoric pottery, that shows that dairying was practiced in the early phases of agriculture in Southwest Asia, by at least the seventh millennium BC.
+- (origin) Sheep and goats were introduced to Africa from Southwest Asia, but African cattle may have been independently domesticated around 7000–6000 BC.
+- (culture) Incorrectly thought to be blood diverted from the womb to the breast, it was also known as "white blood", and treated like blood for religious dietary purposes and in humoral theory.
+- (about) Not to be confused with goat milk, sheep milk, water buffalo milk, Milch, cow's milk.
 
 Learn more:
 

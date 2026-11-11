@@ -12,7 +12,13 @@ Blueberry pie is a fruit pie with a blueberry filling.
 
 Fun facts:
 
+- (about) Blueberry pie was first eaten by early American settlers.
+- (history) Berry pie, including with blueberries, was documented in the US region of New England as early as 1872 in the Appledore Cook Book.
 - (origin) Blueberry pie comes from United States.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 21st century, it is a common dessert in Canada and the United States where blueberry pie made with wild blueberries is the official state dessert of Maine.
 
 Learn more:
 
@@ -32,6 +38,8 @@ Karl Fazer Milk Chocolate, commonly known as Fazer Blue, is a Finnish brand of m
 
 Fun facts:
 
+- (origin) The chocolate was brought to market in 1922.
+- (about) At the 2012 Summer Olympics, Karl Fazer Milk Chocolate sponsored the Finnish sailing team.
 - (origin) Fazer Blue comes from Finland.
 
 Learn more:
@@ -72,7 +80,12 @@ A joulutorttu is a Finnish Christmas pastry.
 
 Fun facts:
 
+- (origin) The Finnish joulutorttu developed in the 19th century from plum-filled pastries originating in England.
+- (history) The recipe originally came via Sweden when it was published in the cookbook Hjelpreda i hushållningen för unga fruentimber, which was written by Cajsa Warg and published in 1755.
 - (culture) Joulutorttu is traditionally made from puff pastry in the shape of a star or pinwheel and filled with prune jam and often dusted with icing sugar.
+
+More fun facts (when the user asks for more):
+
 - (origin) Joulutorttu comes from Finland.
 
 Learn more:
@@ -95,7 +108,12 @@ Kalakukko is a traditional Finnish dish from the region of Savonia made from fis
 Fun facts:
 
 - (about) Kalakukko is especially popular in Kuopio, capital city of the Northern Savonia region.
+- (culture) Kalakukko obtained Traditional Speciality Guaranteed (TSG) status in Europe in 2002.
 - (origin) Kalakukko comes from Finland.
+
+More fun facts (when the user asks for more):
+
+- (about) However, in 2008 new research demonstrated that kukko is a loan from Low German and shares the same origin as modern German kochen (to cook) and English cake.
 
 Learn more:
 
@@ -117,14 +135,15 @@ The Karelian hot pot (British) or Karelian stew (US) is a traditional Finnish me
 Fun facts:
 
 - (culture) In 2007, it was selected as the national dish of Finland by the readers of the Finnish tabloid Iltalehti.
+- (history) As meat became more readily available during the 20th century, the dish became a common, everyday food throughout Finland.
 - (about) In a similar poll organized by the ELO Foundation for the Promotion of Finnish Food Culture in cooperation with the Central Union of Agricultural Producers and Forest Owners (MTK) and the Finnish Ministry of Agriculture and Forestry in autumn 2016, Karelian hot pot took second place, losing to rye bread.
-- (origin) Karelian hot pot comes from Finland.
 
 More fun facts (when the user asks for more):
 
 - (culture) Like most other Karelian foods, the Karelian hot pot is traditionally braised (cooked in a pot (uuniruukku or pata in Finnish) placed inside an oven).
 - (culture) The term Karelian hot pot can be used to refer to nearly any food that contains meat and that is prepared in this traditional Karelian fashion.
 - (culture) Due to the scarcity of meat in the past, the hot pot was traditionally prepared only for festive occasions.
+- (origin) Karelian hot pot comes from Finland.
 
 Learn more:
 
@@ -208,6 +227,12 @@ A licorice pipe is a candy made of licorice shaped like a tobacco pipe, often wi
 Fun facts:
 
 - (history) Licorice pipe dates from 1920-.
+- (about) In January 2010, displaying licorice pipes for sale in stores was banned in Norway.
+- (history) The first known licorice pipe was manufactured as early as the 1920s at the Heikki Huhtamäki factory in Kokkola, Finland.
+
+More fun facts (when the user asks for more):
+
+- (about) In August 2013, licorice pipes again made headlines because of a forthcoming EU directive on tobacco prevention, with the potential of a ban which could affect the sale of sweets and toys imitating tobacco products.
 
 Learn more:
 
@@ -268,6 +293,16 @@ Marianne is a Finnish mint chocolate candy originally developed in 1949 by Chymo
 Fun facts:
 
 - (history) Fazer bought Chymos in 1993 and Marianne moved to Fazer's product line.
+- (culture) The diagonal red-white stripes describing the flavour of peppermint was an old European tradition.
+- (about) The product was just simply named "Chymos peppermint chocolate".
+
+More fun facts (when the user asks for more):
+
+- (history) Production of Marianne started in 1949 at the Chymos factory in Toijala under instruction of master candymaker Aimo Martikainen.
+- (history) In 1956, Chymos's new CEO Jouko Keränen had noticed the possibilities of the candy, but he thought the simple paper wrapper was too modest and common.
+- (history) Up to the 1930s, candy products in Finland were named along the lines of "Fazer mint chocolate" or "Chymos filled candies".
+- (history) In the 1950s after the war supermarkets became common in Finland, where customers picked their items from the shelf themselves and paid for them at the cashier's desk.
+- (culture) He sought some kind of French symbol other than the tricolour.
 
 Learn more:
 
@@ -283,6 +318,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q5062050) (CC0); [Wikipedia: M
 Mynthon is a Finnish brand of pastilles owned by Cloetta.
 
 - From: Finland
+
+Fun facts:
+
+- (about) In the early 2000s, Russia was Leaf's single most important export country and Mynthon pastilles were its most important export product.
+- (about) In 2010 Mynthon's share of the Finnish market for pastilles was about 30%.
 
 Learn more:
 
@@ -303,15 +343,18 @@ Mämmi is a traditional Finnish dessert, eaten around Easter.
 
 Fun facts:
 
+- (history) Mämmi was first mentioned during the 16th century, in a dissertation (in Latin).
 - (culture) Mämmi is traditionally made of water, rye flour, ground malted rye, salt, and dried, ground Seville orange zest.
 - (origin) Mämmi comes from Finland.
-- (culture) Unlike traditional mämmi, which is left to sweeten naturally, commercially made mämmi is usually seasoned with dark molasses.
 
 More fun facts (when the user asks for more):
 
+- (history) It is claimed that it has been eaten in southwestern Finland ever since the 13th century.
+- (culture) Unlike traditional mämmi, which is left to sweeten naturally, commercially made mämmi is usually seasoned with dark molasses.
 - (culture) Traditional mämmi has an aromatic and sweet flavour, consisting of just 2% sugar or less, whereas commercially produced mämmi can contain as much as 20% sugar and is therefore much different in flavour.
 - (culture) Traditionally, mämmi was stored in small boxes made of birch bark called tuokkonen or rove, the appearance of which is now mimicked by commercial packaging.
 - (culture) Traditionally, it was also eaten on sliced bread as a spread.
+- (culture) Traditional versions of mämmi are sold in Finland with the labels perinteinen (traditional) or luomu (organic).
 
 Learn more:
 
@@ -409,8 +452,16 @@ Runeberg torte is a Finnish torte flavored with almonds and arrack or rum and we
 Fun facts:
 
 - (inspiration) The torte is named after the Finnish poet Johan Ludvig Runeberg (1804–1877) who, according to legend, regularly enjoyed the torte, made by his wife, with punsch for breakfast.
-- (origin) Runeberg torte comes from Finland.
+- (history) Her recipe book from the 1850s has a recipe for the torte, believed to be a variation of an earlier recipe by confectioner Lars Astenius from Porvoo.
+- (origin) Runeberg torte was first made by Johan Ludvig Runeberg.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Popular legend says that Runeberg's wife, Fredrika Runeberg, created the dessert.
+- (history) The torte was popularized by Fredrik Edvard Ekberg, who began selling it at Café Ekberg in Helsinki in 1865.
+- (inspiration) In "A Wife-Changing Experience", the third episode of the 21st season of Family Guy series, the Runeberg torte is mentioned, and even Peter Griffin explains that it was named after J.
 - (inspiration) Runeberg torte is named after Johan Ludvig Runeberg.
+- (origin) Runeberg torte comes from Finland.
 
 Learn more:
 
@@ -470,6 +521,13 @@ Sisu is a Finnish brand of candy, currently produced by Leaf International.
 
 Fun facts:
 
+- (history) The Sisu packaging and logo was developed by Arnold Tilgmann (1902–1978), 25 years at the time, and working in Turun Kivipaino.
+- (about) The inventor of the name "Sisu" and its exact moment of conception are not known.
+- (history) Sisu was a term clearly in fashion in the 1920s.
+
+More fun facts (when the user asks for more):
+
+- (history) The Sisu logo has remained the same since the 1920s.
 - (history) Sisu dates from 1928-.
 
 Learn more:
@@ -534,6 +592,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q4413006) (CC0); [Wikipedia: T
 
 - From: Finland
 
+Fun facts:
+
+- (origin) The Åland pancake is believed to have originated in the Åland archipelago as a practical dish prepared from leftover porridge ingredients.
+- (inspiration) Reliable written sources on its early history are limited, and accounts of its origin are largely based on local tradition.
+
 Learn more:
 
 - quick: [Åland pancake (Wikipedia)](https://en.wikipedia.org/wiki/%C3%85land_pancake)
@@ -553,7 +616,16 @@ Bark bread is a traditional food made with the inner bark (phloem) of certain tr
 
 Fun facts:
 
+- (history) During the 18th and early 19th centuries, Northern Europe experienced several very bad years of crop failure, particularly during the Little Ice Age of the mid-18th century.
+- (culture) Bark bread seems to be a primarily Nordic tradition.
+- (origin) The grain harvest was badly affected, and creative solutions to make the flour last longer were introduced.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1742, samples of "emergency bread" were sent from Kristiansand, Norway, to the Royal Administration in Copenhagen, including bark bread, bread made from grainless husks and bread made from burned bones.
+- (culture) Bark bread is mentioned in medieval literature, and it may have an even older tradition among the Sami people, with the oldest findings of bark harvests being around 3000 years old.
 - (origin) Bark bread comes from Scandinavia.
+- (about) Not to be confused with straw bread.
 
 Learn more:
 
@@ -574,6 +646,7 @@ Bread cheese, sometimes known in the United States as Finnish squeaky cheese, is
 
 Fun facts:
 
+- (culture) Traditionally, the cheese has been called leipäjuusto mainly in Ostrobothnia and Lapland, and juustoleipä in Kainuu.
 - (origin) Bread cheese comes from Finland.
 
 Learn more:
@@ -682,8 +755,15 @@ Sima is a Finnish fermented low-alcohol drink and soft drink.
 
 Fun facts:
 
+- (origin) The modern concept of a low-alcohol sima originated in the 1700s, as it was developed to be a more refreshing summer beverage.
 - (culture) Sima is therefore a sweet sparkling beverage that is mainly seasonal and connected with the Finnish Vappu festival.
+- (history) During the 1900s, the drink became associated with the Finnish labour movement and the Finnish Walpurgis Night festivities.
+
+More fun facts (when the user asks for more):
+
+- (origin) Mead was originally brought to Finland in the 1500s from Lübeck and Riga.
 - (culture) Sima is traditionally a form of mead, an alcoholic beverage produced by fermenting a solution of honey and water, although in modern times the honey is generally replaced with different kinds of sugar, mostly syrup, which makes it a sugar wine.
+- (about) Not to be confused with mead.
 
 Learn more:
 

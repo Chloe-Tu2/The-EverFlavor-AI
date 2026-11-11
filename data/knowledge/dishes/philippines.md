@@ -12,8 +12,20 @@ Adobo is a popular Filipino dish and cooking process in Philippine cuisine.
 
 Fun facts:
 
+- (history) Adobo was first recorded in the 1613 dictionary Vocabulario de la lengua tagala compiled by the Spanish Franciscan missionary, Pedro de San Buenaventura, who referred to it as adobo de los naturales ("adobo of the native [peoples]").
 - (about) In its base form, meat, seafood, or vegetables are first browned in oil, and then marinated and simmered in vinegar, salt and/or soy sauce, and garlic.
 - (culture) It is often considered the unofficial national dish in the Philippines.
+
+More fun facts (when the user asks for more):
+
+- (history) Food historian Raymond Sokolov believed that the name "adobo" was applied to a native dish that already existed before the arrival of the Spanish Empire.
+- (history) In the 1794 edition of the Vocabulario, it was applied to quilauìn (kinilaw) a related but different dish which also primarily uses vinegar.
+- (history) In the 1711 Visayan dictionary Vocabulario de la lengua Bisaya, the term guinamus (verb form: gamus) was used to refer to any kind of marinades (adobo), from fish to pork.
+- (culture) Vinegar, in particular, is one of the most important ingredients in Filipino cuisine, with the main traditional types being coconut, cane, nipa palm, and kaong palm.
+- (culture) These are all linked to traditional alcohol fermentation, and relate to a wide array of fermentation techniques used to produce complex flavours in Filipino cooking.
+- (culture) There are four main traditional cooking methods using vinegar in the Philippines: kiniláw (raw seafood in vinegar and spices), paksíw (a broth of meat with vinegar and spices), sangkutsá (pre-cooked braising of meat in vinegar and spices), and finally adobo (a stew of vinegar, garlic, salt/soy sauce, and other spices).
+- (about) Some writers have therefore suggested that the original indigenous name for the dish was lost, with paksiw proposed as the native term for what is now known as adobo.
+- (about) On March 15, 2023, Google Doodles released a Philippine Adobo doodle.
 - (origin) Adobo comes from Philippines.
 
 Learn more:
@@ -34,6 +46,7 @@ Afritada is a Philippine dish consisting of chicken, or pork braised in tomato s
 
 Fun facts:
 
+- (about) The name afritada is derived from Spanish fritada ("fried"), referring to the first step of the preparation in which the meat is pan-fried before simmering in the tomato sauce.
 - (origin) Afritada comes from Philippines.
 
 Learn more:
@@ -153,6 +166,12 @@ Banana ketchup, also known as banana sauce (in export markets), is a Philippine 
 
 Fun facts:
 
+- (history) Orosa (1892–1945) is credited with inventing the product.
+- (origin) Banana ketchup was first made by Maria Orosa.
+- (history) In 1942, banana ketchup was first mass-produced commercially by Magdalo V.
+
+More fun facts (when the user asks for more):
+
 - (history) Banana ketchup was first produced in the Philippines during World War II due to a shortage of tomatoes but a comparatively high production of bananas.
 - (origin) Banana ketchup comes from Philippines.
 
@@ -181,7 +200,10 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (about) It spread to neighboring countries and today is extremely popular in East and Southeast Asia countries.
+- (culture) Barquillo is derived from the ancient tradition of heating the biscuits in convex or boat-shaped molds.
+- (about) In English it is also known as biscuit roll, cookie roll, crispy biscuit roll, egg roll, crisp biscuit roll, or love letter.
 - (origin) Barquillo comes from Spain.
+- (about) Not to be confused with spring roll, egg roll.
 
 Learn more:
 
@@ -202,7 +224,17 @@ Batchoy, alternatively spelled batsoy, is a Filipino noodle soup of pork offal, 
 
 Fun facts:
 
+- (history) The origin of La Paz batchoy is unclear, with several accounts claiming credit for the dish: Domingo Lozada opened their batchoy stall, Inggo's Batchoy, in 1922 and claims to be the first batchoy shop in La Paz, Iloilo City, 16 years ahead of Deco's La Paz Batchoy Shop, which opened in 1938.
+- (about) Federico Guillergan, Jr., the son of the soup's inventor, states that his father at first jokingly called the dish "bats" when asked for its name.
+- (origin) Other sources claim that the dish originated from the Chinese community in La Paz, since the etymology of the name "batchoy" likely comes from the Hokkien Chinese: 肉碎; Pe̍h-ōe-jī: bah-chhùi; lit. 'minced meat' or Hokkien Chinese: 肉水; Pe̍h-ōe-jī: bah chúi; lit. 'meat water'.
+
+More fun facts (when the user asks for more):
+
+- (history) Teodorico "Ted" Lepura opened his first batchoy shop, Ted's Oldtimer Lapaz Batchoy, at the La Paz Public Market in 1945.
+- (history) SunStar Iloilo claims Federico Guilergan Sr. concocted the dish in 1938 in Iloilo.
+- (history) In the 1930s, as a teenager, Lepura learned the basics of making La Paz batchoy while working for a Chinese merchant, and eventually concocted his own version of the dish.
 - (about) The original and most popular variant, La Paz batchoy, traces its roots to the Iloilo City district of La Paz, in the Philippines.
+- (about) The soup later evolved into its present form which has become Iloilo City's most popular dish.
 - (origin) Batchoy comes from Philippines.
 
 Learn more:
@@ -247,6 +279,7 @@ Fun facts:
 
 - (about) Bibingka is also known as bingka in the Visayas and Mindanao islands.
 - (origin) Bibingka comes from Indonesia.
+- (about) Bibingka is also known as bingka in Cebuano and Hiligaynon, bingka or bingkah in Aklanon, and vivingka in Ivatan.
 
 Learn more:
 
@@ -318,7 +351,11 @@ Binignit is a Visayan dessert soup from the central Philippines.
 Fun facts:
 
 - (culture) Binignit is traditionally made with glutinous rice cooked in coconut milk with various slices of sabá bananas, taro, ube, and sweet potato, among other ingredients.
+- (about) A popular afternoon snack, it is best served when hot.
 - (origin) Binignit comes from Philippines.
+
+More fun facts (when the user asks for more):
+
 - (culture) Among the Visayan people, the dish is traditionally served on Good Friday of Holy Week.
 
 Learn more:
@@ -360,6 +397,7 @@ Buko pie, sometimes anglicized as coconut pie, is a traditional Filipino baked y
 
 Fun facts:
 
+- (origin) The buko pie is said to have originated from the province of Laguna in the Philippines.
 - (culture) Buko pie is traditionally plain, but nowadays flavorings such as pandan, vanilla, or almond essences are used.
 - (origin) Buko pie comes from Philippines.
 
@@ -425,6 +463,8 @@ Champorado or tsampurado is a sweet chocolate rice porridge in Filipino cuisine.
 
 Fun facts:
 
+- (origin) The name of the dish originates from the Spanish word champurrado, derived from champurrar, meaning 'to mix'.
+- (origin) During the galleon trade between Mexico and the Philippines, Mexican traders brought not just the native crop of cocoa and the chocolate product itself but also the knowledge of making champurrado to the Philippines, while tuba was introduced back in Mexico.
 - (origin) Champorado comes from Philippines.
 
 Learn more:
@@ -446,8 +486,16 @@ Chicken inasal, commonly known simply as inasal, is a Visayan variant of the Fil
 
 Fun facts:
 
+- (history) The book published in 1895 in Madrid, Spain, listed inihao nga manuc as one of the items sold in the photo of a Calenderia, a store that sells food.
+- (origin) Banoy Velez from Oton, Iloilo, who started Velez Inasal, claimed to have introduced chicken inasal in Bacolod in 1946.
 - (about) There are two popular versions of chicken inasal: the Bacolod and the Iloilo.
+
+More fun facts (when the user asks for more):
+
+- (history) The chicken inasal became widely popular in the 1970s on Bacolod's Cuadra Street (Chicken Alley).
+- (about) Inihao nga manuc (Inihaw nga manok) was described as pollo asado, Spanish for grilled or roasted chicken, which is now popularly known as chicken inasal.
 - (origin) Chicken inasal comes from Philippines.
+- (about) Not to be confused with Philippine asado.
 
 Learn more:
 
@@ -544,6 +592,8 @@ Dinuguan is a Filipino savory stew usually of pork offal (typically lungs, kidne
 
 Fun facts:
 
+- (origin) Dinuguan is also found in the Mariana Islands, believed to have been introduced to the islands by Filipino immigrants, where it is known locally as fritada.
+- (about) The most popular term, dinuguan, and other regional naming variants come from their respective words for "blood" (e.g., "dugo" in Tagalog means "blood," hence "dinuguan" as "to be stewed with blood" or "bloody soup").
 - (origin) Dinuguan comes from Philippines.
 
 Learn more:
@@ -566,7 +616,21 @@ Dodol, also known as kalamae, or mont kalar mei, is a traditional sweet confecti
 Fun facts:
 
 - (culture) These sweets are commonly featured in festivals, communal gatherings and other significant occasions, reflecting their cultural importance across Southeast Asia and parts of the Indian subcontinent.
+- (about) The exact origin of dodol, kalamea or mont kalar mei is not clearly documented, and there is no definitive evidence identifying where or when the confection was first developed.
+- (origin) In northern Luzon, a version appears in Ilocano culinary tradition and is believed to have been introduced by Malay and Indian settlers before Spanish colonization.
+
+More fun facts (when the user asks for more):
+
+- (about) The confection is also listed in the Gemekan inscription from 852 Saka (930 CE) and was served in royal banquets of the Mataram Kingdom (8th–11th centuries), highlighting its role in courtly as well as everyday food culture.
+- (culture) Dodol or kalamea is closely associated with festivals, religious observances and communal celebrations across Southeast Asia.
+- (culture) Despite differences in terminology, they share broadly similar methods of preparation, reflecting a common culinary tradition in the region.
+- (culture) These techniques allowed rice harvests to be stored over longer periods while also serving ritual and communal purposes.
+- (culture) In Thailand, kalamae is traditionally associated with southern regions, including in Phatthalung Province, where it is regarded as a longstanding local specialty.
+- (about) Another perspective links its origins to the Mon and Burmese languages, in which a similar sweet is known as kwayn kalamae (kwayn meaning “confection”).
+- (culture) Among the Thai-Malay community, the sweet is known as dodoi, where it continues to be prepared as part of local heritage and communal tradition.
+- (culture) The widespread availability of coconut, palm sugar and rice in these areas supported the development of similar confections, which became embedded in local culinary traditions, particularly in association with communal and festive occasions.
 - (origin) Dodol comes from Indonesia.
+- (about) Not to be confused with maja blanca.
 
 Learn more:
 
@@ -587,8 +651,14 @@ Embutido, or embotido, is a Filipino meatloaf made with ground pork and stuffed 
 
 Fun facts:
 
+- (origin) The dish originates from the American meatloaf introduced during the American colonial period in the Philippines from 1898 to 1946.
 - (culture) Embutido is traditionally wrapped in aluminum foil and steamed, though it can also be baked.
+- (about) Canned products were new at the time, and Filipino families adapted them into many recipes.
+
+More fun facts (when the user asks for more):
+
 - (origin) Embutido comes from Philippines.
+- (about) Not to be confused with embutido.
 
 Learn more:
 
@@ -654,6 +724,8 @@ Filipino spaghetti (also known as sweet spaghetti) is a Filipino adaptation of I
 
 Fun facts:
 
+- (history) Filipino spaghetti is believed to date back to the period between the 1940s and the 1960s.
+- (origin) Spaghetti with Bolognese sauce was introduced by the Americans and was tweaked to suit the local Filipino predilection for sweet dishes.
 - (origin) Filipino spaghetti comes from Philippines.
 
 Learn more:
@@ -696,7 +768,15 @@ Halo-halo is a cold dessert in the Philippines made with crushed ice, evaporated
 
 Fun facts:
 
+- (history) Some authors specifically attribute halo-halo to the 1920s or 1930s Japanese migrants in the Quinta Market of Quiapo, Manila, due to its proximity to the Insular Ice Plant, Quiapo's main ice supply.
+- (about) Although the ice plant was built, it was not the first introduction of ice to the Philippines.
 - (origin) Halo-halo comes from Philippines.
+
+More fun facts (when the user asks for more):
+
+- (history) The Insular Ice Plant was built in 1902 by the Americans, which became the ice supplier for the Philippines.
+- (history) In the mid-19th century, the United States exported ice from Wenham Lake to different countries, including India, Australia, and the Philippines.
+- (about) Talde was named one of the top three Quickfire Challenge dishes by guest judge Johnny Iuzzinni of Jean Georges.
 
 Learn more:
 
@@ -719,6 +799,7 @@ Fun facts:
 
 - (about) Hamonado is a popular dish during Christmas in Philippine regions where pineapples are commonly grown.
 - (origin) Hamonado comes from Philippines.
+- (about) Hamonado is also known as endulsado in Zamboanga.
 
 Learn more:
 
@@ -740,7 +821,15 @@ Humbà, also spelled hombà, is a Filipino braised pork dish from the Visayas, P
 
 Fun facts:
 
+- (culture) The festival is also considered a religious festival and is celebrated around the feast day of the town's patron saint, Our Lady of Sorrows, which falls on September 15.
+- (inspiration) During the festival, there are humba cooking contests and religious dance offerings in honor of the Blessed Virgin.
+- (about) The humba is known as the main delicacy of the town of Ronda in the province of Cebu.
+
+More fun facts (when the user asks for more):
+
+- (culture) Every year, the town holds the Humba Festival to promote the local cuisine of the town.
 - (culture) It traditionally uses fatty cuts of pork belly slow-cooked until very tender in soy sauce, vinegar, black peppercorns, garlic, bay leaves, and fermented black beans (tausi) sweetened with muscovado sugar.
+- (culture) Humba also does not traditionally use rice wine, ginger, chilis, or five-spice powder; and it commonly use additional ingredients like banana flowers or pineapples, which are absent in the original dish.
 - (origin) Humba comes from Philippines.
 
 Learn more:
@@ -762,8 +851,13 @@ Jian dui or sesame balls are a type of fried Chinese pastry made from glutinous 
 
 Fun facts:
 
+- (history) The origins of jian dui can be traced back to the Tang dynasty as a royal food in Chang'an, known as lüdui.
 - (about) Depending on the region and cultural area, jiandui are known as matuan in North and Northwest China, mayuan in Northeast China, and zhendai in Hainan.
 - (origin) Jian dui comes from Indonesia.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Onde-onde.
 
 Learn more:
 
@@ -904,6 +998,7 @@ Lugaw, also spelled lugao, is a Filipino glutinous rice dish or porridge.
 
 Fun facts:
 
+- (history) The Vocabulario de la lengua tagala (1613) by Fr.
 - (origin) Lugaw comes from Philippines.
 
 Learn more:
@@ -952,7 +1047,14 @@ Maja blanca is a Filipino dessert with a gelatin-like consistency made primarily
 Fun facts:
 
 - (culture) Also known as coconut pudding, it is usually served during fiestas and during the holidays, especially Christmas.
+- (about) Maja blanca was most popular in Luzon, especially in Tagalog, Kapampangan, Pangasinense, and Ilocano cuisine.
 - (origin) Maja blanca comes from Philippines.
+
+More fun facts (when the user asks for more):
+
+- (about) But it was also popular in the south, especially among Chavacano-speaking Zamboangueños.
+- (about) Maja blanca is also known as dudul in Ilocano which reflects its Austronesian origin dodol; as well as maja blanca con maíz, maja maíz, or maja blanca maíz when corn kernels are used in the preparation (maíz is Spanish for corn).
+- (about) Not to be confused with Dodol, Tibok-tibok.
 
 Learn more:
 
@@ -973,6 +1075,16 @@ Mami is a popular Filipino noodle soup made with wheat flour noodles, broth and 
 
 Fun facts:
 
+- (history) Its creation is generally attributed to Ma Mon Luk, a Chinese immigrant to the Philippines who began selling noodles served with chicken broth and chicken meat in Binondo, Manila in 1920.
+- (about) Regardless, the claim that Ma "invented" mami, both the dish itself and the term, is likely untrue.
+- (culture) Thus, mami was originally street food, but with the success of his business, Ma eventually opened up an eatery and ultimately a chain of restaurants bearing his name.
+
+More fun facts (when the user asks for more):
+
+- (about) He later decided to call the dish "Ma mi".
+- (about) This is supported by beef or pork mami sometimes being known as bami, from baboy' (pork/pig) or baka (beef/cow).
+- (about) According to linguist Gloria Chan-Yap, mami is Fujianese in origin, not Cantonese; in Philippine Hokkien literally means "meat noodles".
+- (about) Like the siopao, the noodle dish already existed in Filipino-Chinese cuisine before Ma popularized his version.
 - (origin) Mami soup comes from Philippines.
 
 Learn more:
@@ -1023,6 +1135,11 @@ Mechado is a Filipino beef roulade or stew dish braised in soy sauce and calaman
 Fun facts:
 
 - (culture) Traditionally, mechado was made by inserting strips of pork fatback (Spanish mecha, Filipino mitsa, "wick") into a cut of beef to lard it, giving the dish its name and tenderizing the meat.
+- (origin) The name "Mechado" comes from the Spanish word mecha or mechar, meaning "wick" or "to stuff," referencing the traditional larding method.
+- (culture) While larding was a traditional Spanish method to tenderize tougher cuts of beef, Filipino cooks adapted it using local ingredients like soy sauce, calamansi, and tomatoes.
+
+More fun facts (when the user asks for more):
+
 - (origin) Mechado comes from Philippines.
 
 Learn more:
@@ -1044,6 +1161,7 @@ Menudo (from Spanish: "small [bits]"), also known as ginamay or ginagmay, is a t
 Fun facts:
 
 - (origin) Menudo comes from Philippines.
+- (about) Not to be confused with Menudo.
 
 Learn more:
 
@@ -1064,6 +1182,14 @@ Nata de coco, also marketed as coconut gel, is a chewy, translucent, jelly-like 
 Fun facts:
 
 - (origin) Originating in Ramon, Isabela, nata de coco was invented in 1949 by Teódula Kalaw África as an alternative to the traditional Filipino nata de piña made from pineapples.
+- (history) Nata de coco was invented in 1949 by Teódula Kalaw África, a Filipino chemist working for the National Coconut Corporation (now the Philippine Coconut Authority).
+- (history) Nata de coco was originally conceived as an alternative to nata de piña, another gel-like Filipino dessert produced since the 18th century.
+
+More fun facts (when the user asks for more):
+
+- (origin) Commercial production of nata de coco began in 1954, when the agency, renamed the Philippine Coconut Administration, opened a branch in Alaminos, Laguna and introduced the technology to local farmers.
+- (history) Nata de coco production was later optimized in the mid-1970s through the efforts of a team of microbiologists led by Priscilla C.
+- (history) In the 20th century, the demand for coconuts increased.
 - (origin) Nata de coco comes from Philippines.
 
 Learn more:
@@ -1205,6 +1331,7 @@ Pandesal, also written as pan de sal or pandisal, is a staple bread roll in the 
 
 Fun facts:
 
+- (history) Pandesal flourished in the American colonial era in the early 1900s, when cheaper American wheat became readily available.
 - (origin) Pandesal comes from Philippines.
 
 Learn more:
@@ -1225,6 +1352,7 @@ Pares, also known as beef pares, is a term for a serving of Filipino braised bee
 
 Fun facts:
 
+- (history) The origin of the term pares is credited to the carinderia Jonas established by Lolita Tiu and Roger Tiu in 1979 at the corner of Mayon Street and Malindang Street in Quezon City, near Calle Retiro (present-day N.S.
 - (about) Pares is a popular meal particularly associated with specialty roadside diner-style establishments known as paresan ("pares house").
 - (origin) Pares comes from Philippines.
 
@@ -1337,7 +1465,12 @@ Pinapaitan, also known as papaítan or sangkutsar, is a Filipino stew characteri
 Fun facts:
 
 - (origin) Pinapaitan originated in the Ilocos Region of northwestern Luzon, Philippines.
+- (history) In the early 1800s, the Spanish friars would get the best meat, while the Filipinos were given the less desirable cuts.
 - (culture) Pinapaitan is traditionally prepared using ginger, meat and offal such as the liver, heart, kidneys, and intestines of goat, cow, or carabao.
+
+More fun facts (when the user asks for more):
+
+- (about) Pinapaitan has been a staple of Ilocano cuisine for centuries and remains a popular comfort food today.
 - (origin) Pinapaitan comes from Philippines.
 
 Learn more:
@@ -1379,6 +1512,7 @@ Puchero is a type of stew originally from Spain, prepared in Yucatán, Mexico, A
 
 Fun facts:
 
+- (origin) Puchero was first made in Valencian Community.
 - (origin) Puchero comes from Spain.
 
 Learn more:
@@ -1399,15 +1533,25 @@ Pusô [puˈsoʔ] or tamu, sometimes known in Philippine English as "hanging rice
 
 Fun facts:
 
+- (history) The first recorded mention of rice cooked in leaves is by Antonio Pigafetta who wrote in 1525 of a Visayan meal of rice and millet wrapped in leaves served with roast fish.
+- (origin) Pusô originated from a method of cooking and packing rice.
 - (culture) Pusô is known under many different names throughout the Philippines with numerous variations, but it is usually associated with the street food cultures of the Visayan and Moro peoples.
-- (origin) Pusô comes from Philippines.
-- (culture) Pusô is traditionally prepared as a way to pack rice for journeys and is eaten held in the hands while standing, usually paired with meat or seafood cooked on skewers (inihaw or satti).
 
 More fun facts (when the user asks for more):
 
+- (history) Fray Mateo Sánchez, a Jesuit priest stationed in Dagami, Leyte, is the first to describe pusô by name (as "poso") in his Vocabulario de la lengua Bisaya (1615–1617).
+- (culture) Pusô is traditionally prepared as a way to pack rice for journeys and is eaten held in the hands while standing, usually paired with meat or seafood cooked on skewers (inihaw or satti).
 - (culture) Pusô is still eaten this way from street food peddlers (pungkò-pungkò).
 - (culture) Pusô is still used in rituals in some parts of the Philippines today, though the rituals themselves have been mostly Christianized.
 - (culture) Similarly, it remained culturally important to Muslim Filipinos, where it became symbolic of the Hari Raya feast.
+- (culture) Pusô was also prominent in religious rituals in the anitism of pre-colonial Filipinos.
+- (culture) The smaller or more elaborate versions were a traditional part of the food offerings to the diwatà spirits, a tradition the Spanish referred to as ofrendas.
+- (culture) These traditions have been increasingly forgotten or syncretized as Filipinos converted to Christianity and Islam in the last few centuries.
+- (culture) Nevertheless, it still survives in some (Christianized) rituals today, like in the pamisa (Catholic prayer for the dead).
+- (culture) Among Muslim Filipinos, it also survives as a festive food, and is very popular during a lot of Islamic holidays.
+- (culture) Pusô is particularly associated with the Hari Raya celebrations at the end of Ramadan.
+- (culture) Nevertheless, they give a glimpse of how complex the traditional pusô were during the pre-Hispanic period, although some of these forms have now been lost.
+- (origin) Pusô comes from Philippines.
 
 Learn more:
 
@@ -1472,7 +1616,11 @@ Rosquillos are Philippine cookies made from flour, eggs, shortening, sugar, and 
 Fun facts:
 
 - (about) The first is galletas del Carmen, which is flower-shaped and does not have a hole in the center.
+- (inspiration) They were originally created by Margarita "Titay" T.
 - (origin) Rosquillo comes from Philippines.
+
+More fun facts (when the user asks for more):
+
 - (about) Despite sharing the name, Philippine rosquillos are not related to the Spanish rosquillos (better known as rosquillas, roscos, or rosquillos de vino), which are more akin to baked doughnuts.
 
 Learn more:
@@ -1558,8 +1706,15 @@ Silog is a class of Filipino breakfast dishes containing sinangag (garlic fried 
 
 Fun facts:
 
-- (about) The name of the accompanying dish determines the portmanteau name of the silog; for example, the former three would be known as tapsilog, longsilog, and hamsilog.
+- (about) The first type of silog to be named as such was the tapsilog.
+- (history) The term tapsilog was originally established in the 1980s and came from the Tapsi ni Vivian ("Vivian's Tapsi") restaurant in Marikina.
 - (origin) Silog comes from Philippines.
+
+More fun facts (when the user asks for more):
+
+- (about) According to Vivian del Rosario, owner of Tapsi ni Vivian, she was the first to use the term tapsilog.
+- (about) Some diners like the first Tapsi ni Vivian in Marikina and Rodic's Diner in the University of the Philippines Diliman campus in Quezon City have also opened other branches after becoming recognized for their silog dishes.
+- (about) The name of the accompanying dish determines the portmanteau name of the silog; for example, the former three would be known as tapsilog, longsilog, and hamsilog.
 
 Learn more:
 
@@ -1581,6 +1736,10 @@ Fun facts:
 
 - (culture) In the Visayas regions of the Philippines, sinangag was traditionally seasoned with asín tibuok.
 - (origin) Sinangag comes from Philippines.
+- (about) Not to be confused with sinigang.
+
+More fun facts (when the user asks for more):
+
 - (culture) Sinangag is a common part of a traditional Filipino breakfast and is usually prepared with leftover rice from the dinner before.
 
 Learn more:
@@ -1604,6 +1763,7 @@ Fun facts:
 
 - (about) Sinigang is one of the more popular dishes in Filipino cuisine.
 - (origin) Sinigang comes from Philippines.
+- (about) Not to be confused with sinangag.
 
 Learn more:
 
@@ -1625,8 +1785,13 @@ Siopao is a Philippine steamed bun with various fillings.
 
 Fun facts:
 
+- (inspiration) There is an urban legend about the snack alleging that cat meat is used in the production of siopao.
 - (origin) Siopao is the indigenized version of the Fujianese baozi, introduced to the Philippines by Hokkien immigrants during the Spanish colonial period.
 - (about) Siopao is a popular snack in the Philippines and is commonly sold by bakeries and restaurants.
+
+More fun facts (when the user asks for more):
+
+- (about) In September 2024, during IShowSpeed's visit to the Philippines, the online streamer livestreamed himself dining at a restaurant in Binondo, where he was misled by a local into believing that the siopao he was eating contained cat meat.
 - (origin) Siopao comes from Philippines.
 
 Learn more:
@@ -1648,8 +1813,12 @@ Sisig ( Tagalog pronunciation: ['sisig]) is a Filipino dish made from pork jowl 
 
 Fun facts:
 
+- (history) The earliest known record of the word sisig can be traced back to 1732, and was recorded by Augustinian friar Diego Bergaño in his Vocabulary of the Kapampangan Language in Spanish and Dictionary of the Spanish Language in Kapampangan.
 - (origin) It originates from the Pampanga region in Luzon.
 - (about) The city government of Angeles, Pampanga, through City Ordinance No. 405, series of 2017, declared sizzling sisig babi ("pork sisig") a tangible heritage of the city.
+
+More fun facts (when the user asks for more):
+
 - (origin) Sisig comes from Philippines.
 
 Learn more:
@@ -1669,8 +1838,19 @@ Sorbetes, also referred to as dirty ice cream, in the Philippines refers to a tr
 
 Fun facts:
 
+- (history) The first large-scale ice plant, the Insular Ice Plant was built during the American colonial period in 1902.
+- (about) The first sorbetes was made during this period using a garapiñera.
+- (origin) Ice was first introduced as a luxury item to the Philippines in 1847, when an American company, Russell & Sturgis, imported 250 tons of organic ice into the then Spanish colony.
+
+More fun facts (when the user asks for more):
+
+- (history) Ice cream was served as a dessert at the banquet at the inauguration of Emilio Aguinaldo in 1898.
+- (about) Sorbetes was one of the first permanent structures built by the US government in the islands, and the first ice manufacturing plant in Southeast Asia.
 - (about) Sorbetes is distinct from the similarly named sorbet and sherbet.
 - (culture) Sorbetes is traditionally peddled in colorful wooden pushcarts by street vendors called "sorbeteros".
+- (about) These were sold on the streets by peddlers known as sorbeteros.
+- (inspiration) These ingredients give the ice cream a distinctly different flavor and consistency to the western ice creams it was based on.
+- (about) Not to be confused with sorbet.
 
 Learn more:
 
@@ -1712,6 +1892,7 @@ Tahô is a Philippine snack food made of fresh soft/silken tofu, arnibal (sweete
 
 Fun facts:
 
+- (origin) Taho originated from China, and its name taken from the Hokkien pronunciation of Chinese: 豆腐; Pe̍h-ōe-jī: tāu-hū, which was introduced to the Philippines via Hoklo immigrants.
 - (origin) Taho comes from Philippines.
 
 Learn more:
@@ -1748,6 +1929,7 @@ Tinola is a Filipino soup usually served as a main course with white rice.
 
 Fun facts:
 
+- (about) One of the earliest mentions of the dish is in José Rizal's first novel, Noli Me Tangere, where Kapitan Tiago served it to Crisostomo Ibarra after arriving from Europe.
 - (culture) Traditionally, the dish is cooked with chicken or fish, wedges of papaya and/or chayote, and leaves of the siling labuyo chili pepper in broth flavored with ginger, onions, and fish sauce.
 - (origin) Tinola comes from Philippines.
 
@@ -1769,8 +1951,13 @@ Tokneneng (or tukneneng) and kwek kwek (or kwek-kwek) are terms for a tempura-li
 
 Fun facts:
 
+- (inspiration) The word tokneneng originated from the 1978 Pinoy Komiks series Batute, illustrated by Vic Geronimo and created by Rene Villaroman.
 - (about) The batter is colored with annatto, locally known as achuete, either in powder form or by annatto seeds that have been soaked in water.
 - (culture) Tokneneng and kwek kwek are commonly found at street food stalls, often with fish balls, squid balls, and kikiam.
+
+More fun facts (when the user asks for more):
+
+- (culture) Battered eggs as Philippine street food is said to have started with a balut vendor in Cubao.
 - (origin) Tokneneng comes from Philippines.
 
 Learn more:
@@ -1821,6 +2008,11 @@ Fun facts:
 
 - (culture) Due to its simplistic nature, the dish grew in popularity as street food and snack for festival and celebration, especially in Hawaii after Filipino immigration in the 20th century, giving rise to local variation adjusted to local taste and commonly found ingredients.
 - (origin) Turon originated in the plantation community during the Spanish occupation of the Philippines as a simple snack that can be created from cheap and widely available local ingredients.
+- (origin) The word Turon can be traced to the name of the sweet name Turrón, which is a sweet originated from Spain whose name translates in its native tongue as “Nougat”.
+
+More fun facts (when the user asks for more):
+
+- (origin) This likely originates from the cultural influence during the Spanish occupation of the Philippines which makes the association between two dishes, specifically from the properties of its ingredients.
 - (origin) Turon comes from Philippines.
 
 Learn more:
@@ -1842,6 +2034,12 @@ Ube ice cream is a Filipino ice cream flavor prepared using ube (purple yam, not
 
 Fun facts:
 
+- (history) The earliest recorded use of ube in ice cream was in a recipe from 1922, when ice cream's introduction to Filipino culture during the American occupation (as the local adaptation sorbetes) led to new flavors like mango, pinipig, and melon.
+- (about) As plain boiled ube is nearly flavorless similar to kamote (sweet potato), taro (known as gabi locally) and other root crops, the "ube flavor" is really the flavor of ube halaya, which is ube cooked with coconut milk or cow's milk and sugar.
+- (origin) Ube ice cream has risen in popularity outside the Philippines, due to its use by Filipino immigrants in restaurants (often with halo-halo) and Trader Joe's line of ube products, its vivid violet color and the spread of its pictures on social media.
+
+More fun facts (when the user asks for more):
+
 - (origin) Ube ice cream comes from Philippines.
 
 Learn more:
@@ -1862,9 +2060,22 @@ Arroz a la valenciana ('Valencian-style rice'; in Valencian, arròs a la valenci
 
 Fun facts:
 
+- (history) The first written mention of Arroz a la valenciana is found in a manuscript from the 18th century: Avisos y instrucciones per lo principiant cuyiner by the Franciscan friar Josep Orri.
 - (about) Paella is one of the recipes derived from a generic method to cook rice developed in the old kingdom of Valencia, now applied to the modern variants of arroz a la valenciana.
+- (culture) During a religious event in 1889 in Bergara, Spain, they served the guests Arroz a la valenciana.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1903, the French chef Auguste Escoffier dedicated a few pages to riz valenciennes in his first publication of Le Guide Cullinaire.
 - (history) On the other hand, Valencian paella, did not emerge until the late 19th century, among the peasants of the Horta of Valencia.
+- (history) This is reflected in both the medieval cookbooks of Christians and Muslims, in which it is evident that they were already seasoning their rice with saffron in this era; an example of this is arròs en Cassola al forn by Mestre Robert (16th century).
+- (history) Shortly afterwards, in 1780 Friar Gerónimo de San Pelayo published a cookbook in Mexico City about Arroz a la valenciana.
+- (history) Additionally, in another Mexican cookbook called New and Simple Art of Cooking (1836) by Antonia Carrillo, there is a Arroz a la valenciana recipe that includes green chiles and saffron.
+- (history) The dish also appears in a cookbook published in La Habana in 1862.
+- (history) In his General Dictionary of cooking from 1892, Ángel Muro included a recipe for Arroz a la valenciana to pay homage to the "country of rice".
+- (history) In the 1890s the term arroz a la paella ('in a frying pan') began to be used as synonymous with Arroz a la valenciana.
 - (about) In Spain, when a paella has other ingredients that are not "properly Valencian" it receives the informal, popular, and derogatory name of arroz con cosas ('rice with stuff').
+- (about) The recipe has been adapted over time to include new ingredients and to cater to American taste preferences.
 
 Learn more:
 
@@ -1884,6 +2095,7 @@ The asparagus bean (Vigna unguiculata subsp. sesquipedalis) is a legume cultivat
 Fun facts:
 
 - (about) Asparagus bean is also known as yardlong bean, pea bean, long-podded cowpea, Chinese long bean, snake bean, bodi, bora, and kosbanti (kousenband).
+- (about) Not to be confused with Hatstring beans.
 
 Learn more:
 
@@ -1904,8 +2116,22 @@ Basí is a traditional Ilocano fermented alcoholic beverage made from sugarcane 
 
 Fun facts:
 
+- (history) Additionally, basi is believed to pacify and honor various spirits, including kaibáan (spirits of the forest undergrowth) and mangmangkik (spirits of trees), and is also thought to ward off malevolent spirits through the recitation of prayers and chants.
+- (culture) The practice of pitik, which involves offering the first taste of basi to deceased relatives before anyone else partakes, is a vital component of these rituals.
+- (inspiration) In traditional rituals, basi is used in atang, a ritual offering of food and drink dedicated to the spirits of the deceased.
+
+More fun facts (when the user asks for more):
+
 - (culture) Basí has been an integral part of Ilocano culture for centuries, commonly featured in various rituals and celebrations, with distinct regional variations in its production methods and flavor profiles.
+- (culture) Basi is a traditional Filipino sugarcane wine that holds significant cultural and spiritual importance, particularly in Ilocano culture.
+- (culture) Basi has been deeply ingrained in various rituals and customs surrounding childbirth, marriage, and death since pre-colonial times.
+- (culture) As a staple in many Ilocano celebrations, basi is commonly used in events such as fiestas, weddings, christenings, birthdays, and funerals.
+- (culture) It serves not only as a symbol of unity but also as an essential component in communal gatherings.
+- (culture) In funeral rites, basi plays an important role in gulgol, a cleansing ritual performed the morning after a burial.
+- (culture) This ritual is aimed at dispelling grief, bad luck, and the lingering presence of the deceased's spirit.
+- (culture) Led by a manglualo (prayer leader), the ritual seeks to cleanse the family of sorrow and misfortune while ensuring the peaceful transition of the deceased to the afterlife.
 - (origin) Basi comes from Philippines, Guyanas.
+- (about) Not to be confused with Basi.
 
 Learn more:
 
@@ -1947,6 +2173,16 @@ Bicol express, known natively in Bikol as sinilihan, is a common Filipino dish w
 Fun facts:
 
 - (history) Bicol express was named by Laguna resident Cely Kalaw during a cooking competition in the 1970s in Malate, Manila.
+- (origin) The ingredients of coconut and chili peppers are predominant in dishes originating from the Bicol community.
+- (inspiration) The name was inspired by the Bicol Express railway train (Philippine National Railways) that operated from Tutuban, Manila to Legazpi, Albay, the regional center of the Bicol region.
+
+More fun facts (when the user asks for more):
+
+- (history) The Bicol express dish had been formally named by a Laguna native, Cely Kalaw, as a result of her cooking competition experience in the 1970s at Malate, Manila.
+- (history) During the 1960s, the Bicol express dish was created and sold by people in the Bicol Region despite a lack of name for the dish.
+- (inspiration) This event inspired Kalaw to name the dish Bicol express after the PNR train that is programmed to undergo the Manila-Legazpi route.
+- (about) However, food selling on trains became prohibited on the PNR train lines and so the dish's relevance diminished over time until Kalaw was able to reintroduce and popularise the dish in her restaurant in Malate, Manila.
+- (origin) The siling labuyo peppers were introduced by Spanish settlers during their exploration of the New World.
 - (origin) Bicol express comes from Philippines.
 
 Learn more:
@@ -1994,6 +2230,7 @@ Calabaza is the generic name in the Spanish language for any type of winter squa
 Fun facts:
 
 - (about) C. moschata is also known as ahuyama in Colombia, the Dominican Republic and Venezuela; ayote in Central America; zapallo in certain countries of South America; and "pumpkin", "squash", or "calabash" in English-speaking islands.
+- (inspiration) The French term calebasse, and hence the English "calabash", is based on the older Spanish.
 
 Learn more:
 
@@ -2013,6 +2250,7 @@ Camaron rebosado is a deep-fried battered shrimp dish in Philippine cuisine.
 
 Fun facts:
 
+- (origin) Despite the Spanish name, the dish is Chinese Filipino, originally introduced by Chinese migrants to the Philippines.
 - (origin) Camaron rebosado comes from Philippines.
 
 Learn more:
@@ -2055,7 +2293,9 @@ Cascaron is a Filipino doughnut made of deep-fried ground glutinous rice, grated
 
 Fun facts:
 
+- (about) Cascaron is also known as bitsu-bitsu (or bicho-bicho) in Negros Occidental, not to be confused with bicho or bicho-bicho, which is a Chinese Filipino version of youtiao made with regular flour.
 - (origin) Cascaron comes from Philippines.
+- (about) Not to be confused with cascarón.
 
 Learn more:
 
@@ -2074,7 +2314,17 @@ Filipino barbecue or Pinoy barbecue is a Filipino cuisine variety of skewers (tu
 
 Fun facts:
 
+- (origin) The development of the grilling style may come from the influence of the United States colonization of the Philippines from 1898 to 1946, through which soda, ketchup and American barbecue were introduced in the 1930s.
+- (history) Chicken and pork prime cuts along with grilled squid (inihaw na pusit) were the skewers of choice from the 1950s until the 1969 Philippine balance of payments crisis.
 - (inspiration) Entrenched in the street food of the Philippines since the 1950s, Filipino barbecue is quintessentially based on marinated pork, chicken and offal.
+
+More fun facts (when the user asks for more):
+
+- (history) Filipino barbecue developed in the 1950s in Metropolitan Manila; according to Filipino chef Jordy Navarra, the style is couched in the charcoal-grilling of rural inihaw.
+- (history) During World War II in the Philippines, banana ketchup was invented as an ersatz good that defined the nascent Filipino barbecue marinade after the war.
+- (history) The continued economic hardships in the Philippines of the 1970s during the Marcos dictatorship drove increasingly impoverished Filipinos to eat cheaper offal cuts as poverty food.
+- (culture) By the early 1990s, Filipino barbecue with its modern offal skewers had become entrenched as a street food, sold during the day on streets in both urban and suburban contexts, as well as at night markets alongside ukay-ukay stalls.
+- (inspiration) Filipino food historian Ige Ramos opines that the precursor to the standard marinade of Filipino barbecue was created by combining imported American foods, to cherish and maximize their perceived value.
 
 Learn more:
 
@@ -2126,6 +2376,10 @@ Fun facts:
 - (origin) Ginisang munggo comes from Philippines.
 - (about) A variant of the dish includes coconut milk and is known as ginisang munggo sa gata.
 
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Ginataang munggo.
+
 Learn more:
 
 - quick: [Ginisang munggo (Wikipedia)](https://en.wikipedia.org/wiki/Ginisang_munggo)
@@ -2165,8 +2419,14 @@ Kare-kare is a Filipino dish featuring a thick savory peanut sauce.
 
 Fun facts:
 
+- (origin) Peanuts were introduced to the Philippine islands from Mexico in the 16th century via Spanish galleon trades.
 - (culture) Traditionally, most Filipino fiestas have kare-kare.
+- (inspiration) Kapampangan kari was adapted from Moro dishes which features fresh spices and herbs used in Malay curries, but not often in Tagalog cooking; this lackness as well as the use of peanuts and pork led to creation of the very distinct kare-kare.
+
+More fun facts (when the user asks for more):
+
 - (origin) Kare-kare comes from Philippines.
+- (about) Not to be confused with Kare.
 
 Learn more:
 
@@ -2287,6 +2547,15 @@ Misua (also spelled miswa) is an extremely thin type of noodle made from wheat f
 
 Fun facts:
 
+- (origin) Misua originated in Fujian, China, where thin wheat noodles have been a staple for centuries.
+- (culture) The noodle is traditionally associated with longevity and is often served during birthdays, festivals, and other celebrations to symbolize a long life.
+- (about) Misua is usually served with ingredients such as eggs, tofu, bell peppers, oysters, pig's large intestine, sponge gourd (known as patola in the Philippines), shiitake mushroom, beef, shallots, or scallions, roasted nuts or fried fish.
+
+More fun facts (when the user asks for more):
+
+- (origin) Chinese immigrants brought misua to Southeast Asia, where it was adapted into local cuisines.
+- (culture) The adaptation demonstrates how Chinese culinary traditions influenced Filipino food culture over the centuries.
+- (culture) Misua signifies long life in Chinese culture, and as such is a traditional birthday food.
 - (origin) Misua comes from China.
 
 Learn more:
@@ -2326,7 +2595,17 @@ Napa cabbage (Brassica rapa subsp. pekinensis, or Brassica rapa Pekinensis Group
 
 Fun facts:
 
+- (history) The first records of napa cabbage cultivation date back to the 15th century in the Yangtze River region in China.
+- (origin) During the 19th century napa cabbage was first introduced to America from Europe and the supply of seed materials from Europe continued until World War I.
+- (about) In the United Kingdom this vegetable is known as Chinese leaf or winter cabbage, and in the Philippines as petsay (from Hokkien, 白菜) or pechay baguio.
+
+More fun facts (when the user asks for more):
+
 - (history) Since the 20th century, it has also become a widespread crop in Europe, the Americas, and Australia.
+- (history) Beginning in the 19th century with the Chinese diaspora, it was distributed to the rest of Asia, Europe, America as well as Australia.
+- (origin) Napa cabbage might have originated from natural hybridization between turnip (Brassica rapa subsp. rapa) and pak-choi (Brassica rapa subsp. chinensis).
+- (about) Today in Mandarin Chinese, napa cabbage is known as dàbáicài, literally "big white vegetable", as opposed to the "small white vegetable" that is known in English as bok choy.
+- (about) Napa cabbage is also known as siu choy in Western Canada, wombok in Australia and wong bok or won bok in New Zealand, all corruptions of wong ngaa baak.
 
 Learn more:
 
@@ -2454,6 +2733,7 @@ Fun facts:
 
 - (history) She started to commercially sell it on January 8, 1990, using the money left over from her husband's Christmas bonus.
 - (origin) Pastel de Camiguín comes from Philippines.
+- (about) Not to be confused with Pastil.
 
 Learn more:
 
@@ -2547,6 +2827,10 @@ Sprouting is the natural process by which seeds or spores germinate and put out 
 
 - From: Philippines
 
+Fun facts:
+
+- (about) Not to be confused with Sprout.
+
 Learn more:
 
 - quick: [Sprouting (Wikipedia)](https://en.wikipedia.org/wiki/Sprouting)
@@ -2592,6 +2876,10 @@ Fun facts:
 - (origin) Tapai comes from Indonesia.
 - (culture) Tapai is traditionally made with white rice or glutinous rice, but can also be made from a variety of carbohydrate sources, including cassava and potatoes.
 
+More fun facts (when the user asks for more):
+
+- (culture) Traditionally, cooked white rice or glutinous rice are fermented in tapayan jars.
+
 Learn more:
 
 - quick: [Tapai (Wikipedia)](https://en.wikipedia.org/wiki/Tapai)
@@ -2611,6 +2899,7 @@ Tapuy, also spelled tapuey or tapey, is a rice wine produced in the Philippines.
 Fun facts:
 
 - (origin) Tapuy is a traditional beverage and originated from Banaue and Mountain Province, where it is used for important occasions like weddings, rice harvesting ceremonies, fiestas and cultural fairs.
+- (culture) Once a year during the Ipitik festival, rice wine brewers from all over Mountain Province gather together to bring their best rice wine concoctions.
 - (about) Tapuy is produced from either pure glutinous rice or a combination of glutinous and non-glutinous rice together with onuad roots, ginger extract, and a powdered starter culture locally known as bubod.
 
 Learn more:

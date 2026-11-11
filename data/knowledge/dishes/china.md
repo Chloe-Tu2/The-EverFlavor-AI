@@ -12,8 +12,12 @@ Arroz caldo is a Filipino dish made of rice and chicken gruel, heavily infused w
 Fun facts:
 
 - (about) Arroz caldo is also known as pospas in Visayan regions, though pospas has slightly different ingredients.
-- (origin) Arroz caldo comes from Philippines.
+- (origin) A similar local derivative dish known as "Lugaw" or congee was introduced by Chinese migrants.
 - (about) Arroz caldo is regarded as a comfort food in Philippine culture and is a popular breakfast meal.
+
+More fun facts (when the user asks for more):
+
+- (origin) Arroz caldo comes from Philippines.
 
 Learn more:
 
@@ -37,6 +41,10 @@ Fun facts:
 
 - (origin) Arroz chaufa comes from the Chinese cuisine due to the influx of Chinese immigrants to Peru at the end of the 19th century.
 - (about) A person specialized in the art of making arroz chaufa is known as a chaufero.
+- (origin) The word "chaufa" comes from the Chinese word "chaofan", literally “(stir) fried rice".
+
+More fun facts (when the user asks for more):
+
 - (origin) Arroz chaufa comes from Peru.
 
 Learn more:
@@ -58,7 +66,14 @@ Bakso or baso is an Indonesian meatball, or a meat paste made from beef surimi.
 
 Fun facts:
 
+- (origin) The soup and the noodles probably originated in China, but the meatball may have come from the Dutch, who colonized Indonesia in the 19th century.
 - (culture) Along with soto, satay, and siomay, bakso is one of the most popular street foods in Indonesia.
+- (about) In Malang, bakso bakar (roasted bakso) is also popular.
+
+More fun facts (when the user asks for more):
+
+- (origin) The name bakso originated from bak-so, the Hokkien pronunciation for "fluffy meat" or "minced meat".
+- (origin) Bakso Solo and Bakso Malang are the most popular variants; the name comes from the city it comes from, Solo in Central Java and Malang in East Java.
 - (origin) Bakso comes from Indonesia.
 
 Learn more:
@@ -81,7 +96,19 @@ Baozi, or simply bao, is a type of yeast-leavened filled bun in various Chinese 
 
 Fun facts:
 
+- (inspiration) According to a legend first recorded in the Song dynasty, Zhuge Liang invented mantou to substitute for human heads in a sacrifice to gods.
+- (history) During the Western Jin Dynasty (266–316), Shu Xi wrote about dumplings and other wheat-based foods (at the time called bing), which he believed were from the Han dynasty (202 BC – 220 AD) or later.
+- (origin) Baozi was first made by Zhuge Liang.
+
+More fun facts (when the user asks for more):
+
+- (history) In the Mongol-led Yuan dynasty (1271–1368), court recipes for baozi and mantou included Central Asian elements with fillings such as lamb, onions, ginger, and chenpi.
+- (history) By the Qing dynasty (1664–1911), the words had settled into their modern meanings: bing are baked or steamed wheat cakes, baozi are buns with fillings, mantou are steamed buns without fillings, and jiao are thin-skinned dumplings with fillings.
+- (history) In the Song dynasty (960–1279), mantou could have a variety of fillings (meat, poultry, fish, vegetables) and were said to be a common snack for students.
+- (inspiration) The Legend There was a legend about a man named Zhuge Liang who was a military leader in China.
+- (history) In the Tang dynasty (618–907), mantou were small leavened filled buns eaten as dianxin.
 - (about) Baozi are popular throughout China and have even made their way into the cuisines of many other countries through the Chinese diaspora.
+- (culture) Other early sources mention the use of mantou in rituals.
 - (origin) Baozi comes from China.
 
 Learn more:
@@ -102,8 +129,19 @@ Beggar's chicken is a Chinese dish of chicken that is stuffed, wrapped in clay a
 
 Fun facts:
 
+- (inspiration) Finally, in another legend tells us that, during the 17th century toward the end of the Ming dynasty in Changshu, politician and Koxinga's mentor Qian Qianyi met the beggar who made the impromptu dish and had his chefs improve the recipe.
+- (origin) Most experts agree the dish originated in Hangzhou.
+- (about) In other versions, the beggar stole the chicken from the emperor and used the mud-hole method to avoid smoke that might attract the imperial guards.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) In another legend, the dish was a childhood favorite of Emperor Gaozu of Han, who had been born a peasant.
+- (inspiration) Various legends surround the origins of beggar's chicken.
+- (about) Alternatively, the emperor stopped to dine with the beggar and so enjoyed the dish that he added it to the imperial menu and the beggar prospered by selling the dish to locals.
+- (about) When he became emperor, the recipe became an imperial specialty.
 - (origin) Beggar's chicken comes from Qing dynasty.
 - (culture) Although the dish is traditionally prepared with clay, the recipe has evolved; for convenience and safety it is often baked with dough, oven bags, ceramic cooking pots, or convection ovens.
+- (culture) Beggar's chicken is very popular in China, with many regions claiming it as traditionally their own.
 
 Learn more:
 
@@ -123,8 +161,16 @@ Biangbiang noodles, alternatively known as yóupō chěmiàn in Chinese, are a t
 
 Fun facts:
 
+- (inspiration) In one version of the story, the character biáng was invented by the Qin dynasty Premier Li Si.
 - (culture) The character is unusually complex, with the standard variant of its traditional form containing 58 strokes.
 - (origin) Biangbiang noodles comes from People's Republic of China.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) A legend about a student fabricating a character for the noodle to get out of a biangbiang noodle bill also is a commonly believed hypothesis about the origin of the character.
+- (inspiration) In the 2007 season of the TVB show The Web, the show's producers tried to find the origin of the character by contacting university professors, but they could not verify the Li Si story or the origin of the character.
+- (inspiration) Biangbiang noodles was concluded that the character was invented by a noodle shop.
+- (about) Not to be confused with 𰻝, 𰻞.
 
 Learn more:
 
@@ -146,8 +192,16 @@ Buddha Jumps Over the Wall, also known as Buddha's Temptation or fotiaoqiang, is
 
 Fun facts:
 
+- (history) Another origin is that the dish dates back to the Qing Dynasty.
 - (inspiration) Buddha Jumps Over the Wall is named after Buddha.
 - (origin) Buddha Jumps Over the Wall comes from Qing dynasty.
+
+More fun facts (when the user asks for more):
+
+- (history) Another possible origin is that the phrase "Buddha Jumps Over the Wall" appears in a book from the Song dynasty.
+- (inspiration) It is said to be a recipe that was created by a Fuzhou official who was trying to leave an impression on his superior Zhou Lian.
+- (about) He put pork, chicken, duck, and seafood altogether and left it to simmer in an empty wine jar, which followed the recipe at the time that was known as "Full of Blessing and Longevity." The official at the home praised the dish for its aroma and flavor.
+- (about) The chef adapted the recipe and made it better, and later opened a restaurant to serve it to his customers.
 
 Learn more:
 
@@ -167,9 +221,20 @@ Buddha's delight, often transliterated as Luóhàn zhāi (simplified Chinese: �
 
 Fun facts:
 
+- (culture) Buddha's delight is traditionally served in Chinese households on the first day of the Chinese New Year, stemming from the old Buddhist practice that one should maintain a vegetarian diet in the first five days of the new year, as a form of self-purification.
 - (about) Buddha's delight is sometimes also called Luóhàn cài.
-- (culture) Buddha's delight is traditionally enjoyed by Buddhist monks who are vegetarians, but it has also grown in popularity throughout the world as a common dish available as a vegetarian option in Chinese restaurants.
 - (origin) Buddha's delight comes from People's Republic of China.
+
+More fun facts (when the user asks for more):
+
+- (culture) Buddha's delight is traditionally enjoyed by Buddhist monks who are vegetarians, but it has also grown in popularity throughout the world as a common dish available as a vegetarian option in Chinese restaurants.
+- (about) In the name luóhàn zhāi, luóhàn – short for Ā luóhàn – is the Chinese transliteration of the Sanskrit arhat, meaning an enlightened, ascetic individual or the Buddha himself.
+- (about) Zhāi means "vegetarian food" or "vegetarian diet." The dish is usually made with at least 10 ingredients, although more elaborate versions may comprise 18 or even 35 ingredients.
+- (about) If 18 ingredients are used, the dish is called luóhàn quánzhāi.
+- (about) In China and Hong Kong, when served exclusively using only the most flavor-packed vegetarian ingredients, such as pickled tofu or sweet bean curds, it is known as tián suān zhāi.
+- (culture) As suggested by its name, it is a dish traditionally enjoyed by Buddhists, but it has also grown in popularity throughout the world as a common dish available in Chinese restaurants (though often not including all of the ingredients) as a vegetarian option.
+- (culture) Traditionally eggs and dairy are not permitted.
+- (about) Alliums and some other vegetables are not used in Buddha's delight, as they are frowned upon in Buddhist cuisine.
 
 Learn more:
 
@@ -234,7 +299,19 @@ Champon, also known as Chanpon, is a noodle dish that is a regional cuisine of N
 
 Fun facts:
 
+- (origin) Usage to refer to the food item appears from the late 19th century to early 20th century, apparently originating from the Shikairō Chinese restaurant in Nagasaki.
+- (history) In the middle of the Meiji era (late 19th century – early 20th century), the owner saw a need for a cheap, filling meal that suited the palates of hundreds of Chinese students who came to Japan for school.
+- (inspiration) According to the restaurant's website, this was based on a dish in Fujian cuisine, "tang rousi mian", more commonly known as rousi tangmian.
+
+More fun facts (when the user asks for more):
+
+- (origin) Champon was first served by Shikairō, a Chinese restaurant founded in Nagasaki in 1899.
+- (origin) However, some have cast doubt on this claim as the rousi tangmian originates not from Fujian but from Jiangnan.
+- (history) The original sense of "mixed together" appears in texts from the mid-1700s.
 - (history) Champon dates from 1899-.
+- (origin) Champon was first made by Heijun Chin.
+- (origin) Champon was first made in Nagasaki.
+- (about) Nowadays, champon is a popular specialty food (or meibutsu) of Nagasaki.
 - (origin) Champon comes from Japan.
 
 Learn more:
@@ -294,6 +371,13 @@ Crossing-the-bridge noodles is a rice noodle soup that originates from Yunnan pr
 
 Fun facts:
 
+- (origin) According to Yunnan culinary tradition, crossing-the-bridge noodles originated during the Qing Dynasty (1644–1912) in Mengzi, Yunnan.
+- (inspiration) Local governments have since used the noodles as a focus for cultural tourism initiatives, with annual food festivals and cooking competitions dedicated to preserving the tradition.
+- (about) In 2008, the dish was officially listed as part of Kunming's intangible cultural heritage, recognizing its historical and social importance to the region.
+
+More fun facts (when the user asks for more):
+
+- (culture) The designation highlights both the traditional preparation methods and the dish's role in Yunnan's culinary identity.
 - (origin) Crossing-the-bridge noodles comes from People's Republic of China.
 
 Learn more:
@@ -315,14 +399,25 @@ Dim sum is a large range of small Chinese dishes that are traditionally eaten in
 
 Fun facts:
 
-- (about) The first is "one bowl with two pieces", in reference to the custom of serving teahouse customers two delicately made food items, savory or sweet, to complement their tea.
-- (origin) There are over one thousand dim sum dishes originating from Guangdong alone, a total that no other area in China comes even close to matching.
-- (culture) Many Cantonese restaurants serve dim sum as early as five in the morning, while more traditional restaurants typically serve dim sum until mid-afternoon.
+- (inspiration) Some versions date the legend to the Southern Song dynasty (960–1279) after the term's earliest attestation in the Book of Tang.
+- (origin) Dim sum is part of the Chinese tradition of snacks originating from the Song dynasty (960–1279), when royal chefs created various dishes such as minced pheasant, lark tongue, and desserts made from steamed milk and bean paste.
+- (history) During the Ming dynasty (1368–1644), the Tea and Horses Bureau was established to monitor tea production and improve tea quality.
 
 More fun facts (when the user asks for more):
 
+- (origin) Some references state that the term originated in the Eastern Jin dynasty (317 AD–420 AD).
+- (about) The first is "one bowl with two pieces", in reference to the custom of serving teahouse customers two delicately made food items, savory or sweet, to complement their tea.
+- (origin) There are over one thousand dim sum dishes originating from Guangdong alone, a total that no other area in China comes even close to matching.
+- (inspiration) According to one legend, to show soldiers gratitude after battles, a general had civilians make buns and cakes to send to the front lines. "Gratitude", later shortened to dim sum, came to represent dishes made similarly.
+- (about) The first, 一盅兩件, translates literally as "one cup, two pieces".
+- (inspiration) Cantonese dim sum was originally based on local foods.
 - (origin) As dim sum continued to develop, chefs introduced influences and traditions from other regions of China.
+- (culture) Many Cantonese restaurants serve dim sum as early as five in the morning, while more traditional restaurants typically serve dim sum until mid-afternoon.
 - (culture) In addition to traditional dim sum, some chefs also create and prepare new fusion-based dim sum dishes.
+- (culture) Dim sum dishes are usually associated with "yum cha", which is known as the Cantonese brunch tradition.
+- (inspiration) Cantonese dim sum was originally based on local foods such as sweet roast pork called char siu and fresh rice noodles.
+- (origin) As dim sum continued to develop, chefs introduced influences and traditions from other regions of China, which created a starting point for the wide variety of dim sum available today.
+- (culture) These are just a few examples of how a wide range of influences became incorporated into traditional Cantonese dim sum.
 - (origin) Dim sum comes from People's Republic of China.
 
 Learn more:
@@ -346,8 +441,15 @@ Dongpo pork, also known as Dongpo meat, is a Hangzhou dish made by pan-frying an
 Fun facts:
 
 - (inspiration) Dongpo pork is named in honor of Su Dongpo (Su Shi), a distinguished Song Dynasty poet and gastronome.
-- (origin) Dongpo pork comes from People's Republic of China.
+- (history) The recipe was subsequently adopted and developed by the people in the Hangzhou area, the capital city of South Song Dynasty.
+- (about) Dongpo pork is the subject of a famous piece of art, the Meat-Shaped Stone, which was carved out of jasper to resemble braised meat.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) According to legend, while facing financial hardship during his exile in Huangzhou following the Crow Terrace Poetry Trial, Su Shi (aka Su Dongpo) innovated upon the conventional method of preparing pork.
+- (inspiration) In Chinese Gastronomy, Lin Hsiang Ju and Lin Tsuifeng included the recipe of "The Fragrance of Pork: Tungpo Pork (Another name for Dongpo pork)", and remarked that the "square of fat is named after Su Tungpo, the poet, for unknown reasons.
 - (inspiration) Dongpo pork is named after Su Shi.
+- (origin) Dongpo pork comes from People's Republic of China.
 
 Learn more:
 
@@ -389,7 +491,13 @@ Fuqi feipian is a popular Sichuan dish, served cold or at room temperature, whic
 
 Fun facts:
 
+- (history) As early as the late Qing dynasty, many vendors living in Chengdu were already selling beef slices served cold in the city's streets, using beef offal because they were relatively inexpensive.
+- (about) Because of its low cost, the dish was popular among rickshaw pullers and poor students.
 - (origin) Fuqi feipian comes from People's Republic of China.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 1930s, a married couple in Chengdu became famous for making beef slices.
 
 Learn more:
 
@@ -412,6 +520,10 @@ Fun facts:
 
 - (about) As with many dishes, the invention of ginger beef is claimed by several restaurants and chefs.
 - (history) However, the most widely accepted origin attributes the dish's development during the mid-1970s by chef George Wong at the Silver Inn in Calgary, Alberta.
+- (inspiration) The ingredients of ginger beef can depend on where it is featured, but the Albertan version generally consists of deep fried strips of beef coated in a dark sweet sauce that is reminiscent of other Asian sauces based on vinegar and sugar.
+
+More fun facts (when the user asks for more):
+
 - (origin) Ginger beef comes from Canada.
 
 Learn more:
@@ -432,7 +544,20 @@ Hainanese chicken rice is a dish of poached or roasted chicken with seasoned ric
 
 Fun facts:
 
+- (history) The chicken is also delicious and fragrant, truly deserving the name Wenchang chicken!" Additionally, during the reign of the Guangxu Emperor of the Qing Dynasty, there were several large banyan trees in Wenchang, which bore seeds all year round.
 - (culture) It is widely considered one of the national dishes of Singapore, and is commonly associated with Singaporean cuisine, being widely available in most food courts and hawker centres around the country.
+- (inspiration) Hainanese chicken rice is based on a well-known Hainanese dish called Wenchang chicken, which is one of four important Hainan dishes dating to the Qing dynasty.
+
+More fun facts (when the user asks for more):
+
+- (history) Wenchang chicken rice remained a dish for special occasions in Hainanese homes in Singapore until the 1940s.
+- (history) According to the Hainan Chamber of Commerce, it is said that during the Ming Dynasty, a Wenchang native served in the imperial court and brought Wenchang chicken back from his hometown to entertain members of the royal family during the Lunar New Year.
+- (inspiration) Hainanese chicken rice was created by immigrants from Hainan in southern China and adapted from the Hainanese dishes of Wenchang chicken and Wenchang chicken rice.
+- (inspiration) Hainanese chicken rice is a dish adapted from early Chinese immigrants originally from Hainan province in southern China.
+- (about) The original dish was adapted by the Hainanese overseas Chinese population in the Nanyang area (present-day Southeast Asia).
+- (culture) The Hainanese in China traditionally used a specific breed, the Wenchang chicken, to make the dish.
+- (about) Wenchang chicken rice is closely related to another chicken rice dish known as Anpu chicken rice from Zhanjiang in western Guangdong province, and Anpu chicken rice is speculated to be the predecessor to Wenchang chicken rice.
+- (culture) By the Ming and Qing dynasties, there was already a tradition of raising Wenchang chickens in rural areas of Wenchang.
 
 Learn more:
 
@@ -453,7 +578,16 @@ Hot pot or hotpot, also known as steamboat, is a dish of soup or stock kept simm
 
 Fun facts:
 
+- (history) During the Qing dynasty, hot pot became popular among the emperors.
+- (about) Later, a hot pot made with copper was created during the Three Kingdoms period (200–280 AD), which is generally acknowledged as the origin of the hot pot.
 - (origin) Hot pot comes from China.
+
+More fun facts (when the user asks for more):
+
+- (history) The tripods of the Zhou dynasty may be the earliest prototypes of the hot pot.
+- (about) In particular, the Qianlong Emperor was very fond of hot pot and would eat it for almost every meal.
+- (about) Later, the Jiaqing Emperor had a banquet with 1,550 hot pots at his coronation.
+- (history) Since the 1990s, as the number of Chinese expatriates entering the United States has grown significantly, the popularity of Chinese food has also risen in the U.S. and hot pot has become globally recognized.
 
 Learn more:
 
@@ -475,13 +609,23 @@ Jiaozi are a type of Chinese dumpling.
 
 Fun facts:
 
-- (culture) They can be boiled, steamed, pan-fried, deep-fried, or baked, and are traditionally served with a black vinegar and soy sauce dip.
-- (origin) Jiaozi was introduced to Japan by the return of millions of Japanese colonizers from China following the end of World War II (specifically the Second Sino-Japanese War).
-- (culture) Their resemblance to the gold and silver ingots (sycee) used in Imperial China has meant that they symbolize wealth and good fortune.
+- (history) Chinese archaeologists have found a bowl of jiaozi in the Tang dynasty tombs in Turpan. 7th or 8th century dumplings and wontons were found in Turfan.
+- (culture) Traditionally, jiaozi were thought to have been invented during the era of the Eastern Han (AD 25–220) by Zhang Zhongjing who was a great practitioner of traditional Chinese medicine.
+- (about) During the Three Kingdoms period (AD 220–280), the book Guangya by Zhang Yi mentions jiaozi.
 
 More fun facts (when the user asks for more):
 
+- (history) At the same time, jiaozi look like yuan bao silver or gold ingots used as currency during the Ming dynasty, and as the name sounds like the word for the earliest paper money, serving them is believed to bring prosperity.
+- (history) In the Western Han dynasty (206 BC – AD 9) jiaozi were called jiaozi.
+- (history) Yan Zhitui during the Northern Qi dynasty (AD 550–577) wrote: "Today the jiaozi, shaped like a crescent moon, is a common food in the world." Six Dynasties Turfan tombs contained dumplings.
+- (history) Later in the Tang dynasty (AD 618–907), jiaozi become more popular, called Bian Shi.
+- (culture) They can be boiled, steamed, pan-fried, deep-fried, or baked, and are traditionally served with a black vinegar and soy sauce dip.
+- (culture) Their resemblance to the gold and silver ingots (sycee) used in Imperial China has meant that they symbolize wealth and good fortune.
+- (origin) Jiaozi was introduced to Japan by the return of millions of Japanese colonizers from China following the end of World War II (specifically the Second Sino-Japanese War).
+- (culture) In order to celebrate the New Year as well as recovering from frostbitten ears, people imitated Zhang's recipe to make tender ears.
+- (about) Jiaozi may also be named because they are horn-shaped.
 - (origin) Jiaozi comes from People's Republic of China.
+- (about) Not to be confused with wonton.
 
 Learn more:
 
@@ -504,8 +648,21 @@ Jjajangmyeon or Jajangmyeon is a Korean Chinese noodle dish topped with a thick 
 Fun facts:
 
 - (history) Jjajangmyeon is a variation of the Chinese dish zhajiangmian; it developed in the late 19th century, during the Joseon period, when Chinese migrant workers from Shandong arrived in Incheon.
-- (origin) Jjajangmyeon comes from Korean Empire.
+- (origin) Both the name and dish originate from the Chinese dish zhájiàngmiàn.
+- (about) For many years, until 22 August 2011, the National Institute of Korean Language did not recognize the word jjajangmyeon as an accepted idiomatic transliteration.
+
+More fun facts (when the user asks for more):
+
+- (history) At a time when both Qing and Japanese businesses were competing against each other, jajangmyeon was offered at the Chinese restaurant Gonghwachun in Incheon Chinatown, which was founded in 1905 and run by an immigrant from the Shandong region.
+- (history) In the mid-1950s in South Korea, immediately after the Korean War, jajangmyeon was sold at low prices so that anyone could eat it without economic burden.
 - (history) Jjajangmyeon dates from 1890-.
+- (about) Later, jjajangmyeon was accepted as an alternative standard spelling alongside jajangmyeon in the National Language Deliberation Council and, on 31 August 2011, included as a standard spelling in the Standard Korean Language Dictionary.
+- (about) The building which the restaurant formerly occupied now houses the Jajangmyeon Museum, which opened in April 2012.
+- (origin) Originally the sauce that was introduced from China to make the noodle dish was saltier, richer, and of a deep brown color.
+- (culture) The new Korean-style jajangmyeon became popular among merchants visiting the port of Incheon, the center of trade, and the many dock workers working in the fish market, and quickly spread throughout the country, being recognized as its "own dish" rather than a copied version of the traditional Chinese one.
+- (origin) Jjajangmyeon comes from Korean Empire.
+- (inspiration) Jjajangmyeon is based on zhajiangmian.
+- (about) Not to be confused with jjamppong.
 
 Learn more:
 
@@ -571,7 +728,17 @@ Laksa is a spicy noodle dish popular in Southeast Asia.
 
 Fun facts:
 
+- (history) Essai d'histoire globale II (The Javanese Crossroads: Towards a Global History, 2005), one of the earliest record of the word laksa to describe noodles was found in the Javanese Biluluk inscription dated from 1391 of Majapahit era that mentions the word hanglaksa.
 - (origin) Originating from Peranakan Chinese cuisine, laksa recipes are commonly served in Singapore, Indonesia, and Malaysia.
+- (about) In Singapore, the dish is believed to have been created after interaction between the Peranakan Chinese with local Singaporean Malays.
+
+More fun facts (when the user asks for more):
+
+- (history) An early mention of laksa in the English language can be found in a Royal Geographical Society journal from 1846.
+- (origin) In Malaysia, the earliest variant of laksa is believed to have been introduced by the Peranakan Chinese in Malacca.
+- (origin) In Indonesia, the dish is believed to have been born from the mixing of the cultures and cooking practices of local people and Chinese immigrants.
+- (culture) In traditional Sundanese community of Baduy in Banten province, there is a harvest ceremony involving the making of laksa, called ngalaksa ceremony.
+- (culture) Ngalaksa is a Sundanese traditional harvest thanksgiving ceremony, in which a traditional noodle-like laksa dish made of rice flour is prepared and consumed communally.
 - (origin) Laksa comes from Iran.
 
 Learn more:
@@ -592,6 +759,12 @@ Lamian is a type of soft wheat flour handmade Chinese noodle that is particularl
 - Origin (Wikidata): People's Republic of China
 
 Fun facts:
+
+- (history) The earliest description of making lamian noodles with the pulling technique is found in the Songshi Yangsheng Bu, a dietary manual written in 1504 by Song Xu, an agriculturalist and gastronomer of the Ming dynasty.
+- (origin) The unique method of making lamian noodles originated in China.
+- (about) Not to be confused with sōmen, extruded noodle, knife-cut noodle.
+
+More fun facts (when the user asks for more):
 
 - (origin) Lamian comes from People's Republic of China.
 
@@ -635,6 +808,12 @@ Liangpi is a Chinese dish composed of cold noodles made from wheat or rice flour
 Fun facts:
 
 - (origin) Liangpi is a specialty dish originating from Xi'an and forms part of the cuisine of Shaanxi Province, but has now spread throughout China.
+- (about) After thoughtful consideration, the squire decided to use the old rice left over from the first year to make a tribute to the court.
+- (about) After that, people used seasonings on the cold skin noodles, including chili, vinegar, sesame, salt, and soy sauce, which eventually became known as liangpi.
+
+More fun facts (when the user asks for more):
+
+- (about) Since then, liangpi has become popular in the province, and has become a unique Shaanxi snack.
 - (origin) Liangpi comes from People's Republic of China.
 
 Learn more:
@@ -656,15 +835,22 @@ Luosifen is a Chinese noodle soup and specialty of Liuzhou, Guangxi.
 
 Fun facts:
 
-- (history) In Liuzhou, the dish has been widely served in stands and small restaurants since the 1990s.
-- (about) After it was featured on a culinary documentary in 2010, many luosifen restaurants opened in Beijing, Shanghai, and Hong Kong, as well as abroad.
+- (history) Luosifen was created in Liuzhou, Guangxi in the 1970s or 1980s.
+- (about) Several people claim to have been the first to combine snail soup and rice noodles, two popular dishes in Guangxi.
 - (origin) Luosifen comes from People's Republic of China.
 
 More fun facts (when the user asks for more):
 
+- (history) In Liuzhou, the dish has been widely served in stands and small restaurants since the 1990s.
+- (about) After it was featured on a culinary documentary in 2010, many luosifen restaurants opened in Beijing, Shanghai, and Hong Kong, as well as abroad.
 - (about) Mass production of packaged luosifen started in 2014, making it a nationwide household food.
 - (about) In 2019, 2.5 million packets were produced daily and yearly sales were 6 billion yuan.
 - (about) Luosifen became more popular during the COVID-19 pandemic.
+- (about) In 2012, the dish gained popularity from appearing in the culinary documentary A Bite of China, and Liuzhou's government sought to establish luosifen as a signature specialty of the city.
+- (about) In 2014, small workshops in Liuzhou began producing luosifen instant noodles.
+- (about) Simultaneously, a large number of sellers emerged on online retailer Taobao, and luosifen sales on the site increased by 3200% in 2016.
+- (about) Luosifen became one of the most popular regional foods on Taobao in 2019, and went viral during the COVID-19 pandemic.
+- (about) In 2020, vlogger Li Ziqi established a factory in Liuzhou to make luosifen.
 
 Learn more:
 
@@ -685,7 +871,14 @@ Manchurian is a class of Indian Chinese dishes made by roughly chopping and deep
 
 Fun facts:
 
+- (history) It is said to have been invented in 1975 by Nelson Wang, a cook at the Cricket Club of India in Mumbai, when a customer asked him to create a new dish, rather than what was on the menu.
+- (about) Wang described the invention process as starting from the basic ingredients of an Indian dish, namely chopped garlic, ginger, and green chilis, but next, instead of adding garam masala, he put in soy sauce, followed by cornstarch and the chicken itself.
 - (inspiration) Manchurian is named after Manchuria.
+
+More fun facts (when the user asks for more):
+
+- (culture) The word Manchurian means native or inhabitant of Manchuria (in northeast China); the dish, however, is a creation of Chinese restaurants in India, and bears little resemblance to traditional Manchu cuisine or Northeastern Chinese cuisine.
+- (about) A popular vegetarian variant replaces chicken with cauliflower, and is commonly known as gobi manchurian.
 
 Learn more:
 
@@ -800,6 +993,18 @@ Pad thai is a stir-fried rice noodle dish commonly served as a street food in Th
 
 Fun facts:
 
+- (origin) Although stir-fried rice noodles were introduced to Thailand from China centuries ago, the dish pad thai was invented in the mid-20th century.
+- (history) Pad thai was actually created in the 1930s in Thailand.
+- (inspiration) As a result, a new noodle dish called sen chan pad thai (named after Chanthaburi Province) was created.
+
+More fun facts (when the user asks for more):
+
+- (culture) Pad thai has since become one of Thailand's national dishes.
+- (inspiration) Another explanation by Thai-American food writer Kasma Loha-unchit suggests that pad thai was invented by the Thai Chinese immigrants, because "for a dish to be so named in its own country clearly suggests an origin that isn't Thai".
+- (about) Kuai tiao is a Thai borrowing from the Teochew word guê2 diao5, which means a type of thick Chinese rice noodle also known as shahe fen.
+- (culture) American author Mark Padoongpatt maintains that pad thai is "...not this traditional, authentic, going back hundreds of years dish.
+- (origin) Noodle cookery in most Southeast Asian countries was introduced by the wave of immigrants from southern China settling in the region the past century.
+- (about) Pad thai is listed at number five on a list of "World's 50 most delicious foods" readers' poll compiled by CNN Go in 2011.
 - (origin) Pad thai comes from Thailand.
 
 Learn more:
@@ -823,9 +1028,23 @@ Peking duck is a dish from Beijing that has been prepared since the Imperial era
 
 Fun facts:
 
+- (history) By the Qianlong period (1736–1796) of the Qing dynasty, the popularity of Peking duck spread to the upper classes, inspiring some poets and scholars who enjoyed the dish.
 - (about) Aromatic duck is a similar dish to Peking duck and is popular in the United Kingdom and Ireland.
+- (culture) By the mid-20th century, Peking duck had become a national symbol of China, favored by tourists and diplomats alike.
+
+More fun facts (when the user asks for more):
+
+- (history) A variation of roast duck was prepared by the emperor in the Mongol-led Yuan dynasty.
+- (history) The first restaurant specialising in Peking duck, Bianyifang, was established in the Xianyukou, close to Qianmen of Beijing in 1416.
+- (history) For example, Henry Kissinger, the secretary of state of the United States, met Premier Zhou Enlai in the Great Hall of the People on 10 July 1971, during his first (secret) visit to China.
+- (history) The dish, originally named "shāo yāzi", was mentioned in the Complete Recipes for Dishes and Beverages manual in 1330 by Hu Sihui, an inspector of the imperial kitchen.
+- (history) The Peking roast duck that came to be associated with the term was fully developed during the later Ming dynasty, and by then, Peking duck was one of the main dishes on imperial court menus.
+- (history) In 1864, the Quanjude restaurant was established in Beijing.
+- (history) The Americans and Chinese issued a joint statement the following day, inviting President Richard Nixon to visit China in 1972.
+- (history) Following Zhou's death in 1976, Kissinger paid another visit to Beijing to savor Peking duck.
 - (inspiration) Peking duck is named after Beijing.
 - (origin) Peking duck comes from People's Republic of China.
+- (about) Not to be confused with Pekinška Patka.
 
 Learn more:
 
@@ -883,7 +1102,12 @@ Shacha noodles, also known as sate or satay noodles, is a noodle dish popular in
 Fun facts:
 
 - (history) On December 11, 1997, Xiamen Wu Zaitian Sate Noodles was identified as one of China's top famous snacks.
+- (about) Satay or sate is a popular dish originally from Indonesia and Malaysia.
 - (origin) Shacha noodles comes from People's Republic of China.
+
+More fun facts (when the user asks for more):
+
+- (about) Tea drinking is popular in the Minnan region (another term for southern Fujian province), so the Malay word for sate is translated into Minnan's word for sa-te which is called sha-cha in Standard Mandarin.
 
 Learn more:
 
@@ -900,6 +1124,11 @@ A soy egg (a.k.a. braised egg) is a type of egg in Chinese, Vietnamese, Korean, 
 
 - From: China
 - Ingredients (Wikidata): egg as food
+
+Fun facts:
+
+- (culture) Soy egg is one of the most popular type of street foods.
+- (culture) They can also be used in traditional Chinese and Vietnamese egg dishes in which regular eggs, century eggs, and soy eggs are steamed together.
 
 Learn more:
 
@@ -942,10 +1171,13 @@ Fun facts:
 
 - (origin) Although it originated from China and is traditionally associated with Chinese cuisine, other similar recipes and variations have been developed throughout Asia.
 - (about) Tea egg is also known as marble egg because cracks in the egg shell create darkened lines with marble-like patterns.
-- (origin) Tea eggs originated in Zhejiang province as a way to preserve food for a long time but are now found in all provinces.
+- (culture) Fragrant and flavorful tea eggs are a traditional Chinese food.
 
 More fun facts (when the user asks for more):
 
+- (origin) Tea eggs originated in Zhejiang province as a way to preserve food for a long time but are now found in all provinces.
+- (culture) In the traditional method of preparation, eggs are boiled until they reach a hardened, cooked state.
+- (culture) The cracking method is the formal feature in this traditional egg recipe.
 - (origin) Tea egg comes from China.
 
 Learn more:
@@ -966,7 +1198,20 @@ Tong sui or tim tong is a general term for any sweet soup served as a dessert ty
 
 Fun facts:
 
+- (history) During the 1980s to 1990s, Hong Kong's economy developed rapidly and living standards rose.
 - (origin) Tong sui originated in the Lingnan region of China, including Guangdong, Guangxi, Hainan, Hong Kong, Macau, and some parts of other provinces in China.
+- (about) Most of them sold black sesame soup, mung bean soup, almond soup, and sweet potato soup at first.
+
+More fun facts (when the user asks for more):
+
+- (history) In Guangzhou, Guangdong, there were Tong sui stores in the early 20th century.
+- (history) Later, in the 1930s, dairy-based tong sui, such as steamed milk curd and ginger milk curd, appeared on the market and were fashionable.
+- (origin) Tong sui shops in Hong Kong mainly originated from the postwar period.
+- (history) In the 21st century, chain tong sui shops have become more prominent and recommended as tourist attractions by The Hong Kong Tourism Board.
+- (culture) One main theory is that the climate in Lingnan is hot and humid, and, in accordance with Traditional Chinese Medicine, it is thought that this weather makes people catch dampness and internal heat, and sugar has the effect of clearing dampness and internal heat.
+- (about) As the price of the products was low, it gained popularity among the people, and the industry developed well.
+- (culture) Historically, the basic ingredients of traditional sweet soups are beans, milk, and fruits.
+- (culture) The desserts and sweet soups provided in the menus of the traditional tong sui shops are mainly the Chinese-style sweet soups.
 - (origin) Tong sui comes from People's Republic of China.
 
 Learn more:
@@ -1030,11 +1275,14 @@ Xiaolongbao is a type of Chinese tangbao, traditionally prepared in a xiaolong, 
 Fun facts:
 
 - (origin) Xiaolongbao is generally believed to have originated in Shanghai.
+- (history) It evolved from the guantangbao (soup-filled dumplings/buns) of Kaifeng, Henan province, which was the capital city of the Northern Song Dynasty (960–1127).
 - (culture) In the Shanghainese language, they are known as siaulon moedeu or xiaolong mantou, as Wu Chinese-speaking peoples use the traditional definition of mantou, which refers to both filled and unfilled buns.
-- (about) In English, the xiaolongbao are often referred to as "soup dumplings", but "soup dumpling" in Chinese may translate to the broader culinary category known as tangbao, which includes the xiaolongbao and other related dishes, such as the Kaifeng tangbao.
 
 More fun facts (when the user asks for more):
 
+- (origin) Shanghai-style xiaolongbao originated in Nanxiang, which was a neighboring village of Shanghai in Jiangsu that eventually became an outer suburb of Shanghai's Jiading District.
+- (about) In English, the xiaolongbao are often referred to as "soup dumplings", but "soup dumpling" in Chinese may translate to the broader culinary category known as tangbao, which includes the xiaolongbao and other related dishes, such as the Kaifeng tangbao.
+- (about) From there xiaolongbao became popular in downtown Shanghai and promptly spread outward.
 - (origin) Xiaolongbao comes from People's Republic of China.
 
 Learn more:
@@ -1056,6 +1304,15 @@ Yangzhou fried rice, also known by several other spellings and names, is a popul
 
 Fun facts:
 
+- (inspiration) Although it did not originate there, it is named for Yangzhou, an ancient city at the intersection of the Yangtze River and the Grand Canal in eastern China. "Yangzhou" is the pinyin romanization devised in the 1950s and very gradually introduced across the rest of the world.
+- (about) However, due to a part of it being sent to feed animals, the world record attempt was disqualified, as a Guinness World Records spokesman said that it had become obvious that the dish was not fit for human consumption.
+- (culture) Yangzhou fried rice was first popularized by the Qing official Yi Bingshou, who had previously been the prefect of Yangzhou and is also traditionally credited for yi mein.
+
+More fun facts (when the user asks for more):
+
+- (about) In October 2015, as part of the 2,500th anniversary of the town of Yangzhou, an attempt was made in Yangzhou at beating the previous world record for fried rice set in 2014 by the Turkey culinary federation.
+- (culture) Yangzhou fried rice is a calque of the Chinese name written 揚州炒飯 in traditional characters or 扬州炒饭 in simplified ones, pronounced Yángzhōu chǎofàn in Mandarin or joeng4 zau1 caau2 faan6 in Cantonese.
+- (about) Yangzhou fried rice is also frequently known as Yangchow fried rice from the same name's Postal Map form and as Yeung Chow fried rice from irregular romanization of its Cantonese pronunciation.
 - (origin) Yangzhou fried rice comes from People's Republic of China.
 
 Learn more:
@@ -1097,6 +1354,8 @@ Yong tau foo is a Hakka Chinese dish consisting primarily of tofu filled with gr
 
 Fun facts:
 
+- (culture) Due to the unavailability of wheat flour traditionally used for making dumpling skins during festivals, they used tofu instead.
+- (about) The Hakka term nyong, meaning the act of stuffing, gave rise to the dish known as yong tau foo, in which tofu is filled with various ingredients.
 - (origin) Yong tau foo comes from People's Republic of China.
 
 Learn more:
@@ -1118,13 +1377,17 @@ Yusheng, yee sang or yuu sahng, or Prosperity Toss, also known as lo sahng is a 
 Fun facts:
 
 - (about) Yusheng is believed to have been derived in Southeast Asia by the Chinese communities (particularly the Cantonese) who moved from China to the modern-day states of Malaysia and Singapore.
-- (culture) Therefore, yusheng is considered a symbol of abundance, prosperity and vigor.
-- (origin) Yusheng comes from People's Republic of China.
+- (culture) First, peanut crumbs are dusted on the dish, symbolising a household filled with gold and silver.
+- (origin) The Chinese Cuisine Association mentions the tradition coming from Malaysia and Singapore before the dishes were brought to Southeast Asia by Chinese immigration.
 
 More fun facts (when the user asks for more):
 
 - (about) Modern takes of the dish existed in both Malaysia and Singapore with both countries having competitive claims over who first modified the dish to its modern version.
+- (culture) Therefore, yusheng is considered a symbol of abundance, prosperity and vigor.
 - (about) Yusheng during Chinese New Year is a cultural activity for the Chinese population in Malaysia and Singapore and recently become popular although not historically practiced in Indonesia, Thailand and Hong Kong over the last few decades.
+- (culture) However, the statement only mentions the tradition of having raw fish during Chinese New Year, which was served very differently from today's Yusheng.
+- (culture) Shredded green radish is later added symbolising eternal youth – 青春常驻 (pinyin: qing chun chang zhu; Jyutping: cing1 ceon1 soeng4 zyu3), "forever young".
+- (origin) Yusheng comes from People's Republic of China.
 
 Learn more:
 
@@ -1161,8 +1424,13 @@ Baodu is a halal tripe dish that is part of Beijing cuisine.
 
 Fun facts:
 
-- (culture) Baodu is traditionally prepared by the Muslim Hui people.
+- (history) Baodu was first recorded in the Qing dynasty.
+- (culture) There are many restaurants and street peddlers selling it in Beijing, such as Baodu Feng, a traditional and well-known restaurant established in 1881.
 - (origin) Baodu comes from People's Republic of China.
+
+More fun facts (when the user asks for more):
+
+- (culture) Baodu is traditionally prepared by the Muslim Hui people.
 
 Learn more:
 
@@ -1245,7 +1513,16 @@ Instant-boiled mutton is a Chinese hot pot dish popular in Beijing cuisine.
 
 Fun facts:
 
+- (inspiration) While a popular legend attributes the dish to the Yuan Dynasty, the story has little historical backing and the practice of eating thinly sliced meat cooked quickly in boiling broth in a style of resembling today's hot pot — was already established before then.
+- (history) Lin explicitly noted that "mutton can also be used." However, it was only during the Qing Dynasty when multiple written records exist of a dish named shuanyangrou as a popular dish in Beijing.
+- (origin) A notable early account comes from the Song dynasty book Shan Jia Qinggong by scholar Lin Hong, who described a similar cooking method both made by himself in his hometown Quanzhou and also at a banquet in present-day Hangzhou.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) The dish shabu-shabu was inspired by this dish in 1952, but without mutton as the Japanese favored beef.
 - (culture) Traditionally, Chinese people have eaten it inside the home during cold winter weather, but in recent times, instant-boiled mutton has been eaten year-round.
+- (about) At the victory banquet, Kublai Khan requested that the chef make this lamb dish again and named it shuanyangrou or instant-boiled mutton.
+- (inspiration) Inspired by the sight of the meat swirling in the bubbling broth — which he likened to "waves surging over snowy rivers and winds turning evening clouds" — Lin composed a poem and named the dish Bo Xia Gong.
 
 Learn more:
 
@@ -1344,6 +1621,14 @@ Luzhu huoshao is a popular traditional Beijing street food.
 
 Fun facts:
 
+- (inspiration) According to legends, "su zao rou" was a dish invented by Zhang Dongguan as a tribute for Qianlong Emperor during one of Qianlong' inspection to Suzhou around 1970 and it was the origin of luzhu huoshao.
+- (history) The origins of luzhu huoshao can be traced back to the Qing dynasty as a palace food in Peking.
+- (about) His technique impressed the emperor, and Zhang eventually became the lead cook in the palace.
+
+More fun facts (when the user asks for more):
+
+- (about) Over time, the recipe of "su zao rou" spread beyond the walls of palace to the rest of Beijing, and many people tried to imitate the recipe to eat like an emperor.
+- (culture) Hence, luzhu huoshao was formed over generations, and since then, it has become one of the most well-known Beijing street food, and still in fashion nowadays.
 - (origin) Luzhu huoshao comes from People's Republic of China.
 
 Learn more:
@@ -1404,8 +1689,15 @@ Moo shu pork or mu shu, originally spelled moo shi pork is a dish of northern Ch
 
 Fun facts:
 
-- (about) It invariably contains egg, whose yellow color is reminiscent of blossoms of the osmanthus tree, after which the dish is named.
+- (about) The first part 木犀 (mù xī) is the name for the sweet osmanthus, a small ornamental tree that produces bunches of small and fragrant blossoms that may be yellow or white.
+- (culture) Additionally, at Chinese Confucian death anniversary celebrations, the Chinese word for "egg" is avoided when referring to dishes containing eggs, as many Chinese curses contain this word.
 - (origin) Moo shu pork comes from People's Republic of China.
+
+More fun facts (when the user asks for more):
+
+- (about) Thus, the word dàn was typically substituted using the euphemism "sweet osmanthus." By this reasoning, in this version of the dish's name, the first character, 木 (mù) is short for 木耳 (mù'ěr, meaning "wood ear fungus") and 樨 (xī, meaning "sweet osmanthus tree") is short for 桂花 (guíhuā, meaning "sweet osmanthus flower").
+- (about) It is possible that 木須肉 might have been used on the menus of the first American Chinese restaurants to serve the dish in place of the correct compound 木樨肉 ("sweet osmanthus pork") due to haste or simply because of the limitations of Chinese typewriters.
+- (about) It invariably contains egg, whose yellow color is reminiscent of blossoms of the osmanthus tree, after which the dish is named.
 
 Learn more:
 
@@ -1426,8 +1718,15 @@ Pease pudding, also known as pease porridge, is a savoury pudding dish made of b
 
 Fun facts:
 
+- (history) The song "Food, Glorious Food" from the 1960s West End and Broadway musical (and 1968 film) Oliver! has a lyric extolling pease pudding.
+- (about) In the Victorian novel The Princess and the Goblin, Curdie takes bread and pease pudding with him for sustenance when he goes to spy on the King's house.
 - (origin) Pease pudding comes from England, United Kingdom.
+
+More fun facts (when the user asks for more):
+
 - (culture) In Newfoundland, it retains its traditional name as part of the customary Jiggs dinner.
+- (about) Later taken to be a plural form, the modern singular pea and its plural peas derive from this, in a process known as back-formation.
+- (about) Pease porridge is discussed extensively in Stephen Graham Jones's 2025 novel The Buffalo Hunter Hunter, where it is associated with themes of greed, excess, and gluttony.
 
 Learn more:
 
@@ -1465,6 +1764,7 @@ Sachima is a sweet snack originating in Chinese cuisine made of fluffy strands o
 Fun facts:
 
 - (origin) Sachima originated in Manchuria and is now popular throughout China.
+- (history) Historical documents show that sachima was popular in the Qing dynasty, in keeping with the preference for sweet, sticky, or wheat-based snacks favored by Manchu cuisine at the time.
 - (origin) Sachima comes from People's Republic of China, Manchuria.
 
 Learn more:
@@ -1487,8 +1787,16 @@ Senbei, also spelled sembei, is a type of Japanese rice cracker.
 
 Fun facts:
 
+- (culture) Sweet senbei came to Japan during the Tang dynasty, with the first recorded usage in 737 AD, and still are very similar to Tang traditional styles, originally often baked in the Kansai area, of which include the traditional "roof tile" senbei.
+- (about) Modern senbei versions are very inventive and may include flavorings which can range from kimchi to wasabi to curry to chocolate.
+- (inspiration) Kantō senbei were originally based on uruchimai, a non-glutinous rice, and they tend to be more crunchy (kari kari) and richly flavored.
+
+More fun facts (when the user asks for more):
+
 - (culture) There are several types of traditional Japanese senbei.
 - (about) Thin rice crackers are popular in Australia and other countries.
+- (culture) These include ingredients like potato and wheat flour or glutinous rice, and are similar to castella cakes, distinctly different from what most people would consider as senbei today, though traditional senbei such as this can still be found, e.g.
+- (about) What Japanese commonly refer to as senbei nowadays were popularized by a teahouse in Sōka city in the Edo period, which spread salty soy sauce flavored senbei throughout Japan.
 - (origin) Senbei comes from Japan.
 
 Learn more:
@@ -1510,6 +1818,13 @@ Shaobing (pinyin: shāobǐng; Wade–Giles: shao-ping), also called huoshao, is 
 
 Fun facts:
 
+- (inspiration) Chinese legends claim that the roasted, flat shaobing was brought back from the Xiyu (the Western Regions, a name for far-western China and Central Asia) by the Han dynasty General Ban Chao, and that it was originally known as hubing.
+- (about) The shaobing is believed to be descended from the hubing.
+- (history) Foreign westerners made and sold sesame cakes in China during the Tang dynasty.
+
+More fun facts (when the user asks for more):
+
+- (about) Shaobing is believed to be related to the Persian and Central Asian naan and the Near Eastern pita.
 - (about) Most Shaobing are popular in the northern part of China.
 - (culture) In the Mandarin cuisine tradition, shaobing are served with hot pot (huǒguō) in winter or soy milk.
 - (origin) Shaobing comes from People's Republic of China.
@@ -1534,6 +1849,7 @@ Spring rolls are rolled appetizers or dim sum commonly found in Chinese and Sout
 Fun facts:
 
 - (origin) Spring roll comes from People's Republic of China.
+- (about) Not to be confused with Swiss roll, biscuit roll, egg roll.
 
 Learn more:
 
@@ -1555,8 +1871,14 @@ Stir-fried tomato and scrambled eggs is a common household dish in China.
 
 Fun facts:
 
+- (history) In the 1920s and 1930s, stir-fried tomato and scrambled eggs was sold at restaurants.
 - (about) Stir-fried tomato and scrambled eggs is popular especially due to its simple preparation and widely available ingredients.
 - (origin) Stir-fried tomato and scrambled eggs comes from Republic of China.
+
+More fun facts (when the user asks for more):
+
+- (history) Stir-fried tomato and scrambled eggs was around the 1940s that records of the home-cooked style stir-fried tomato and scrambled egg dish emerged.
+- (history) Western restaurants using tomatoes in their cuisine began to appear in China during the late Qing Dynasty and early Republican era, influencing Chinese to experiment with tomatoes in cooking.
 
 Learn more:
 
@@ -1578,8 +1900,13 @@ A suncake, or taiyang bing, is a Taiwanese dessert originally from the city of T
 
 Fun facts:
 
-- (about) Some famous suncake pastry shops always have long lines of people waiting to buy boxed suncakes.
+- (about) The first suncakes were made by the Lin family in the Shekou area of Shengang Township, Taichung County (now part of Taichung City).
 - (origin) Suncake comes from Taiwan.
+- (about) Some famous suncake pastry shops always have long lines of people waiting to buy boxed suncakes.
+
+More fun facts (when the user asks for more):
+
+- (about) Though not originally called "suncakes", they were given the name by the owner of "Sun Booth", one of the most famous pastry shops that sells them.
 
 Learn more:
 
@@ -1602,11 +1929,13 @@ Fun facts:
 
 - (history) In records from the Qing dynasty, grapes and walnuts were added.
 - (inspiration) Tanghulu is named for its calabash-like shape.
-- (culture) Chinese hawthorn is the traditional fruit used, though in ancient times other fruits were also used.
+- (culture) Tanghulu is traditionally a Northern Chinese dessert which was prominently famous in Beijing, according to numerous Qing dynasty accounts.
 
 More fun facts (when the user asks for more):
 
+- (history) Folklore attributes its origin to the Southern Song dynasty, when the emperor Song Guangzong had a beloved imperial concubine named Huang Guifei.
 - (history) Tanghulu has been made since the Song dynasty and remains popular throughout northern China.
+- (culture) Chinese hawthorn is the traditional fruit used, though in ancient times other fruits were also used.
 - (origin) Tanghulu comes from People's Republic of China.
 
 Learn more:
@@ -1628,7 +1957,19 @@ Tangyuan is a traditional Chinese dessert made of glutinous rice shaped into bal
 
 Fun facts:
 
+- (culture) Tangyuan is traditionally eaten during the Lantern Festival, which falls on the 15th day of the first month of a chinese new year, which is the first full moon.
+- (inspiration) According to legend, there was a maid in the palace during the reign of Emperor Wu of the Han Dynasty named "Yuanxiao".
+- (about) Minister Dongfang Shuo was determined to help her, so he lied to Emperor Wu of Han that the God of Fire was ordered by the Jade Emperor to burn Chang'an on the fifteenth day of the first lunar month.
+
+More fun facts (when the user asks for more):
+
+- (about) The only way to escape the disaster was to let the "Yuanxiao girl" make a lot of glutinous rice balls, which the God of Fire loved to eat, on the fifteenth day of the first lunar month, and all the subjects would light lanterns and offer sacrifices to her.
+- (about) Emperor Wu of Han approved the request, and the "Yuanxiao girl" finally saw her family.
+- (culture) From then on, the Lantern Festival was formed.
+- (culture) For many Chinese families in mainland China as well as overseas, tangyuan are traditionally eaten during the Lantern Festival, Chinese New Year, and gatherings with family to celebrate.
+- (culture) Their round shape and the bowls in which they are served hold cultural and symbolic significance, symbolizing togetherness, unity, and reunion.
 - (origin) Tangyuan comes from People's Republic of China.
+- (about) Not to be confused with Tangyuan County, yuanxiao.
 
 Learn more:
 
@@ -1650,9 +1991,19 @@ A wonton is a type of Chinese dumpling commonly found across regional styles of 
 
 Fun facts:
 
+- (history) Yang Xiong from the western Han dynasty mentioned "bing wei zhi tun", which means wontons are a type of bread.
 - (about) Even though there are many different styles of wonton served throughout China, Cantonese wontons are the most popular in the West due to the predominance of Cantonese restaurants overseas.
 - (culture) Wontons, which have their origins in China, have achieved significant popularity in East Asian cuisine, as well as across various Southeast Asian culinary traditions.
+
+More fun facts (when the user asks for more):
+
+- (history) From the time of the Tang dynasty, the Chinese began to differentiate the names of dumplings (jiaozi) and wontons.
+- (about) In Mandarin, they are called huntun.
+- (culture) In Cantonese, 馄饨 is pronounced wantan, more commonly written as the homophonic simplified Chinese: 云吞; traditional Chinese: 雲吞; lit. 'cloud swallow'.
+- (inspiration) Based on the Chinese method of making written characters, the radicals are changed from water to food; then, they became "hun tun".
+- (about) For centuries, the popularity and affinity of dumplings had not changed among the Han Chinese, but wontons eventually became popular in southern China and developed a distinct culinary style.
 - (origin) Wonton comes from People's Republic of China.
+- (about) Not to be confused with jiaozi.
 
 Learn more:
 
@@ -1695,8 +2046,19 @@ Zhajiangmian, commonly translated as "noodles served with fried bean sauce", is 
 
 Fun facts:
 
+- (history) One theory maintains that the earliest form of zhajiangmian was created during the late 16th century in Manchuria by Nurhaci, the Emperor Taizu of Qing.
 - (origin) Zhajiangmian originated in Shandong, China, and is a well-known dish known within and beyond China.
+- (about) The veracity of these claims is tenuous as important inventions in Chinese history were frequently attributed to prominent leaders and figures of the time.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1900, forces of the Eight-Nation Alliance invaded Beijing.
+- (about) The entire imperial court, including Empress Dowager Cixi and the Guangxu Emperor, fled Beijing and evacuated to Xi'an.
+- (about) The empress dowager and emperor dined at the restaurant, each partaking of a bowl of vegetarian zhajiangmian.
 - (about) The popular variation is Beijing zhajiangmian, which is recognized as one of the Ten Great Noodles of China.
+- (about) Zhajiangmian has also been adapted into the cuisines of South Korea (as jajangmyeon), and Japan (as jajamen).
+- (origin) Another theory suggests that zhajiangmian was discovered in Xi'an, Shaanxi and introduced to Beijing by the Empress Dowager Cixi.
+- (culture) The symbolic sign "Old Beijing Noodles with Fried Bean Sauce" is hidden but rich in profound cultural connotation.
 - (origin) Zhajiangmian comes from People's Republic of China.
 
 Learn more:
@@ -1719,7 +2081,21 @@ Zongzi, simply zong or translated as rice dumplings and, alternatively, as Chine
 
 Fun facts:
 
+- (culture) Zongzi (sticky rice dumplings) are traditionally eaten during the Duanwu Festival (Double Fifth Festival) which falls on the fifth day of the fifth month of the Chinese lunisolar calendar, and commonly known as the "Dragon Boat Festival" in English.
+- (history) What has become established popular belief amongst the Chinese is that zongzi has since the days of yore been a food offering to commemorate the death of Qu Yuan, a famous poet from the kingdom of Chu who lived during the Warring States period.
+- (about) Known for his patriotism, Qu Yuan tried to counsel his king to no avail, and drowned himself in the Miluo River in 278 BC.
+
+More fun facts (when the user asks for more):
+
+- (culture) But by the 6th century, sources attest to the offering of zongzi on the Double Fifth Festival (5th day of the 5th month of the lunar calendar) being connected with the figure of Qu Yuan.
+- (about) However, this fable is not attested in contemporary (Han period) literature, and only known to be recorded centuries later in Wu Jun's Xu Qixieji.
+- (inspiration) Modern media has printed a version of the legend which says that the locals had rushed out in dragonboats to try retrieve his body and threw packets of rice into the river to distract the fish from eating the poet's body.
+- (about) Vietnamese cuisine also has a variation on this dish known as bánh ú tro or bánh tro.
+- (about) Similarly, zongzi is more popularly known as machang among Chinese Filipinos in the Philippines.
+- (about) In some areas of the United States, particularly California and Texas, zongzi are often known as "Chinese tamales".
+- (culture) In Mauritius, zongzi (typically called zong), is a traditional dish which continues to be eaten by the Sino-Mauritian and by the Overseas Chinese communities.
 - (origin) Zongzi comes from People's Republic of China.
+- (about) Not to be confused with Alivongvong, cinavu.
 
 Learn more:
 
@@ -1742,6 +2118,7 @@ Beef chow fun, also known as beef ho fun, gōn cháau ngàuh hó, or gānchǎo n
 Fun facts:
 
 - (origin) The main ingredient of this dish is hor fun noodles, which is also known as shahe fen, originating in the town of Shahe in Guangzhou.
+- (inspiration) The origin of chow fun is unknown, but there is a legend concerning the origin of dry-fried chow fun: During World War II, a man named Mr.
 - (origin) Beef chow fun comes from People's Republic of China.
 
 Learn more:
@@ -1807,6 +2184,14 @@ Century eggs, (also called preserved egg or 100-year egg) also known as alkalize
 
 Fun facts:
 
+- (history) The century egg is known to have been present in Chinese cuisine since at least the 17th century CE and its purported origins are the subject of several folk tales.
+- (about) In her honour, the farmer named the transformed eggs with their delicate crystalline patterns on their surfaces "pine-patterned eggs".
+- (culture) The traditional method for producing century eggs developed through improvement of the aforementioned primitive process.
+
+More fun facts (when the user asks for more):
+
+- (history) In one such tale, a homeowner living in Hunan during the Ming Dynasty discovered duck eggs in a shallow pool of slaked lime that was used for mortar during construction of his home two months before.
+- (history) Preserved eggs were called "Chaoszi" in the Ming Dynasty.
 - (origin) Century egg comes from People's Republic of China, China.
 
 Learn more:
@@ -1829,8 +2214,20 @@ Char siu is a Cantonese-style barbecued pork.
 
 Fun facts:
 
+- (inspiration) In the 1993 crime-horror film film The Untold Story which is based on the Eight Immortals Restaurant murders, the main character processes his victims into cha siu buns.
 - (origin) Originating in Guangdong, char siu and its variations are popular in Hong Kong, Singapore, Malaysia, Philippines, Indonesia, Thailand, Cambodia, Vietnam, and Japan.
+- (history) In the 1950s, many Cantonese roast meat chefs immigrated to Hong Kong and refined their char siu techniques.
+
+More fun facts (when the user asks for more):
+
+- (about) While the pork collar or mui tau cut is commonly used, cuts such as "first cut" char siu, which refers to the tip of mui tau, have also become popular in recent years due to its rarity and distinct texture.
 - (culture) Traditionally, the distinctive red colour was due to the use of red fermented bean curd and red yeast rice, however red food colouring is now commonly used.
+- (culture) Traditionally, sweet main dishes were not common in traditional Chinese cuisine.
+- (about) During that period, pork belly cuts, known as “tor dei” char siu, made from the local Da Hua Bai pigs and so named because it was said that the pigs were so fat their bellies would brush the floor, was popular.
+- (about) However, its popularity later declined due to increased health consciousness, and the mui tau pork collar cut became the standard cut used for the dish.
+- (about) This sweet-and-savoury flavour gained popularity in Hong Kong and became the standard method to prepare char siu.
+- (culture) While char siu is traditionally made with pork from Chinese pigs, many high-end restaurants in Hong Kong prefer to use Black Iberian pork or other overseas breeds such as the Hungarian Mangalica due to their higher fat content resulting in a tender mouthfeel.
+- (about) However, it was reported to have become popular again in 2024.
 - (origin) Char siu comes from People's Republic of China.
 
 Learn more:
@@ -1874,12 +2271,15 @@ Chow mein is a dish of Chinese stir-fried noodles with vegetables and sometimes 
 
 Fun facts:
 
-- (origin) Chow mein was introduced in other countries by Chinese immigrants.
-- (about) Chow mein is popular throughout the Chinese diaspora and appears on the menus of most Chinese restaurants abroad.
-- (about) Chow mein is particularly popular in India, Nepal, the UK, and the US.
+- (origin) The written term first appeared in American English as chow mien in 1890 and as the current spelling chow mein in 1903.
+- (about) The first term chow is written with the Chinese character 炒 and means stir-fried or sautéed.
+- (culture) The second term mein is written with the characters 麵 (traditional) or 面 (simplified) and means noodles or flour.
 
 More fun facts (when the user asks for more):
 
+- (origin) Chow mein was introduced in other countries by Chinese immigrants.
+- (about) Chow mein is popular throughout the Chinese diaspora and appears on the menus of most Chinese restaurants abroad.
+- (about) Chow mein is particularly popular in India, Nepal, the UK, and the US.
 - (origin) Chow mein comes from People's Republic of China.
 
 Learn more:
@@ -1951,6 +2351,8 @@ Custard is a variety of culinary preparations based on sweetened milk, cheese, o
 
 Fun facts:
 
+- (history) Examples include Crustardes of flessh and Crustade, in the 14th century English collection The Forme of Cury.
+- (about) Custards baked in pastry (custard tarts) were very popular in the Middle Ages, and are the origin of the English word 'custard': the French term croustade originally referred to the crust of a tart, and is derived from the Italian word crostata, and ultimately the Latin crustāre.
 - (origin) Custard comes from Ukraine.
 
 Learn more:
@@ -1973,12 +2375,19 @@ Double skin milk is a Chinese dessert made of milk, egg whites, and sugar.
 Fun facts:
 
 - (about) The first skin is formed during cooling of the boiled milk and the second when cooling the cooked custard.
-- (culture) Traditionally, buffalo milk is used; its higher fat content compared to cow's milk produces a smooth texture.
-- (origin) Double skin milk comes from People's Republic of China.
+- (origin) Double skin milk originated in the Daliang, Shunde in Guangdong.
+- (inspiration) It is said to have been created by Grandma Dong in Qing Dynasty in Shunde.
 
 More fun facts (when the user asks for more):
 
+- (origin) After several improvements, contemporary double skin milk developed, with Grandma Dong credited as the originator.
+- (culture) Traditionally, buffalo milk is used; its higher fat content compared to cow's milk produces a smooth texture.
 - (about) This dessert is particularly popular in Shunde, Guangzhou, Shenzhen, Macau, and Hong Kong.
+- (about) Hence, she started to sell milk with skin in her store and the products became popular in the neighborhood.
+- (culture) Double skin milk has remained popular despite a competitive market for traditional food in China.
+- (culture) Traditional double skin milk has been combined with new food trends while its traditional essence is retained.
+- (about) In 2018, double skin milk was declared a Provincial Intangible Cultural Heritage.
+- (origin) Double skin milk comes from People's Republic of China.
 
 Learn more:
 
@@ -1999,6 +2408,16 @@ Douhua is a Chinese sweet or savoury snack made with silken tofu.
 
 Fun facts:
 
+- (history) The earliest records of douhua date from the Han dynasty; it was called 豆腐脑 dòufunǎo, or "tofu brains", because of its softness.
+- (about) In the next 2000 years, it gradually spread throughout China.
+- (inspiration) Vietnamese sweet tofu is generally the same, sometimes it will changes based on summer or winter seasons.
+
+More fun facts (when the user asks for more):
+
+- (history) Ming dynasty scholars credited Han Prince Liu An with inventing tofu and douhua as foods soft enough for his ailing mother to eat.
+- (about) The boss of a famous Douhua restaurant, Liu Xilu, learnt the methods of making beancurd from others and innovated on them until he finally came up with his own "secret recipe", which greatly improved its taste.
+- (about) In Vietnam, it is known as tàu hủ nước đường, tàu hủ hoa or tào phớ, đậu hủ, tàu hủ.
+- (culture) Tofu pudding was featured on the Netflix TV series, Street Food, in the Chiayi, Taiwan episode.
 - (origin) Douhua comes from People's Republic of China.
 
 Learn more:
@@ -2021,7 +2440,15 @@ Fermented tofu (also called fermented bean curd, white bean-curd cheese, tofu ch
 
 Fun facts:
 
+- (history) According to the 1596 Compendium of Materia Medica written by the Chinese polymath Li Shizhen during the Ming dynasty, the creation of tofu is attributed to the Western Han dynasty Prince Liu An (179 – 122 BC), prince of Huainan.
+- (about) In Mandarin, the product is generally known as dòufǔrǔ, "dòurǔ" or fǔrǔ — though in southwest China it is often known as lǔfǔ.
 - (origin) Fermented bean curd comes from People's Republic of China.
+
+More fun facts (when the user asks for more):
+
+- (history) A clear reference to fermented tofu appeared in the 1610 Penglong Yehua, under the name haifu.
+- (history) In 1818, Englishman Basil Hall wrote about a red, cheese-like substance served in Ryukyu; he might be referring to fermented tofu.
+- (history) In 1855, Frenchman Baron de Montgaudry described the making of tofu and fermented tofu in writing.
 
 Learn more:
 
@@ -2048,8 +2475,11 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (history) The earliest record of fried rice is in the Sui dynasty (589–618 AD) in China, particularly in the city of Yangzhou.
 - (about) Fried rice is a popular component of East Asian, Southeast Asian, South Asian and American Chinese cuisines.
 - (about) In Southeast Asia, similarly constructed Indonesian, Malaysian, and Singaporean nasi goreng and Thai khao phat are popular dishes.
+- (culture) Fried rice is a common street food in Asia and other parts of the world.
+- (culture) Many Southeast Asian street food stands offer fried rice with a selection of optional garnishes and side dishes.
 - (origin) Fried rice comes from People's Republic of China.
 
 Learn more:
@@ -2072,7 +2502,13 @@ Guilinggao, literal translated as tortoise jelly (though not technically correct
 
 Fun facts:
 
+- (inspiration) According to a legend, the Tongzhi Emperor nearly cured his smallpox by taking guilinggao.
+- (about) However, Empress Dowager Cixi believed his disease could be cured by worshipping a smallpox idol.
 - (culture) Guilinggao was traditionally made from the gao, or paste of the plastron (bottom shell) from the turtle Cuora trifasciata and a variety of herbal products, in particular, China roots Smilax glabra.
+
+More fun facts (when the user asks for more):
+
+- (about) She succeeded in convincing the emperor to quit his guilinggao regimen.
 - (origin) Guilinggao comes from China.
 
 Learn more:
@@ -2114,6 +2550,10 @@ Chinese bakery products consist of pastries, cakes, snacks, and desserts of larg
 
 - From: Guangdong, China
 
+Fun facts:
+
+- (culture) These are specially featured at the Mid-Autumn Festival, but may be available year-round.
+
 Learn more:
 
 - quick: [List of Chinese bakery products (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Chinese_bakery_products)
@@ -2132,6 +2572,7 @@ Lo mein is a Chinese dish with noodles.
 
 Fun facts:
 
+- (culture) The Cantonese use of the character 撈, pronounced lou and meaning "to stir", in its casual form, differs from the character's traditional Han meaning of "to dredge" or "to scoop out of water" in Mandarin, in which case it would be pronounced as laau or lou in Cantonese (lāo in Mandarin).
 - (origin) Lo mein comes from People's Republic of China.
 
 Learn more:
@@ -2150,6 +2591,10 @@ Orange cuttlefish or bittern cuttlefish is the most common English name used for
 
 - From: Guangdong, China
 - Ingredients (Wikidata): Sepiida
+
+Fun facts:
+
+- (culture) Nowadays, in Hong Kong, the dish is also sold as a street food.
 
 Learn more:
 
@@ -2183,6 +2628,12 @@ A pork chop is a thick slice of meat cut from the domestic pig, particularly one
 - From: Guangdong, China
 
 Fun facts:
+
+- (history) The first use of the term cited in the OED dates from c. 1752, but the cut has been familiar for considerably longer: the Dictionnaire de l'Académie Française dates the French term for it, Côtelette de porc, back to the fourteenth century.
+- (history) Hanna Glasse (1747) makes no mention of pork chops in The Art of Cookery Made Plain and Easy, but Mrs Beeton (1861) gives two recipes for pork chops in Beeton's Book of Household Management.
+- (history) In her 1954 Food in England, Dorothy Hartley wrote of the Anglo-Saxons enjoying a grilled pork chop with apple sauce and ale, but although pork was a favoured meat in classical and mediaeval times it was not until the nineteenth century that pork chops became widely popular.
+
+More fun facts (when the user asks for more):
 
 - (history) Although pork was favoured in classical and medieval times it was not until the nineteenth century that pork chops became popular.
 
@@ -2269,6 +2720,7 @@ Sampan congee (also called boat congee in English) is a Guangdong congee dish in
 
 Fun facts:
 
+- (origin) During Qing Dynasty, in Lychee Bay, Guangzhou, the Tanka people who lived on the water first created sampan porridge.
 - (origin) Sampan congee comes from People's Republic of China.
 
 Learn more:
@@ -2322,7 +2774,13 @@ Shark fin soup is a soup or stewed dish served in parts of China, Taiwan, and So
 
 Fun facts:
 
+- (origin) Imitation shark fin soup originated from Temple Street in Hong Kong during the 1950s and 1960s.
+- (about) Although this soup was inexpensive and lacked the authentic flavor, since it was cheap, tasty and contained many ingredients, it was popular among the poor and became one of the famous street snacks of Hong Kong.
 - (origin) Shark fin soup comes from Ming dynasty.
+
+More fun facts (when the user asks for more):
+
+- (about) Since April 2016, Cup Noodles released various instant imitation shark fin ramen soups.
 
 Learn more:
 
@@ -2344,6 +2802,17 @@ Shrimp paste, shrimp sauce, or prawn sauce is a fermented condiment commonly use
 
 Fun facts:
 
+- (about) According to Carita Purwaka Caruban Nagari, Cirebon had angered the King of Galuh Kingdom after they stopped paying a tribute (in the forms of shrimp paste and salt, their regional products) to him.
+- (origin) Shrimp paste originated in continental Southeast Asia, probably among the Cham and Mon people, from where it spread southwards to insular Southeast Asia.
+- (history) However, after adding a little part of it, the dish's flavour became quite savory." In the 1880s, trassi was described by Anna Forbes during her visit to Ambon.
+
+More fun facts (when the user asks for more):
+
+- (about) In Mertasinga, it was mentioned that Cirebon was attacked by Galuh Kingdom because they stopped sending trasi to the king.
+- (history) Anna was the wife of British naturalist Henry Ogg Forbes; the couple travelled through the Dutch East Indies in the 1880s.
+- (about) Shrimp paste was one of Java's most popular exports bought by traders from neighboring islands and abroad.
+- (inspiration) He was the one who introduced trasi to China, a foreign condiment which later became popular and inspired locals to make their own version.
+- (culture) In her journal she describes the culture, customs and tradition of the natives, including their culinary tradition.
 - (origin) Shrimp paste comes from People's Republic of China.
 
 Learn more:
@@ -2428,8 +2897,15 @@ A sucking-pig (BrE) or suckling pig (AmE) is a piglet fed on its mother's milk (
 
 Fun facts:
 
-- (history) Its popularity in Britain and the US has declined since the 19th century.
+- (history) The first recorded use of the term in English dates from 1553: "Yonge suckynge pygges, porci delici".
 - (culture) Celebrated since Greek and Roman times, it is traditionally cooked whole, usually roasted, in various cuisines, and is often prepared for special occasions and gatherings.
+- (history) In the 18th century Hannah Glasse and in the 19th century Mrs Beeton published recipes for them, "always the most favoured way of cooking them"; Mrs Beeton stipulates, "A sucking-pig, to be eaten in perfection, should not be more than three weeks old, and should be dressed the same day that it is killed".
+
+More fun facts (when the user asks for more):
+
+- (history) Its popularity in Britain and the US has declined since the 19th century.
+- (history) Andrew Dalby in his Siren Feasts: A History of Food and Gastronomy in Greece (1996) draws attention to the precise and differentiated Greek vocabulary for categorising pigs of varying ages and sizes, and observes that "sucking-pigs, galathenoi, were a particular delicacy".
+- (history) In her 1985 Food and Cooking in Roman Britain, Jane Renfrew writes, "Sucking pig was roasted in the oven and then served with a thickened sauce flavoured with pepper, lovage, caraway, celery seed, asafoetida root, rue, liquamen, wine must and olive oil".
 - (history) A variation is popular in Spain and Portugal and their former empires under the name lechón (Spanish) or leitão (Portuguese), but the dish is common to many countries in Europe, the Americas and east Asia.
 
 Learn more:
@@ -2452,7 +2928,15 @@ Sweet and sour pork is a Cantonese and Chinese-American dish consisting of fried
 Fun facts:
 
 - (origin) Sweet and sour pork originated from Cantonese cuisine in the 18th century.
+- (history) Since Europeans and Americans contacted the Guangdong area first during the Qing Dynasty, the dish became popular among them.
+- (about) Moreover, the Guangdong people were the first ones to immigrate to the United States.
+
+More fun facts (when the user asks for more):
+
 - (origin) Sweet and sour pork became popular in the United States after Chinese immigrants came to the US to work on railroads in the early 20th century.
+- (history) During the early Chinese migration wave (mid‑19th century California Gold Rush and railroad construction), sweet and sour pork became a staple in Chinese American restaurants, often viewed as emblematic of adaptation to Western palates.
+- (about) This dish became popular because it fits the taste of foreigners living in Guangdong.
+- (origin) This dish also became a symbol of cultural identity for Chinese immigrants in America, reflecting both adaptation to local tastes and the preservation of heritage cuisine.
 - (origin) Sweet and sour pork comes from People's Republic of China.
 
 Learn more:
@@ -2562,7 +3046,12 @@ Youtiao, known in Southern China as yau char kway, is a long golden-brown deep-f
 
 Fun facts:
 
+- (history) The Cantonese name 油炸鬼 is, according to folklore, an act of protest against Song dynasty official Qin Hui, who is said to have orchestrated the plot to frame the general Yue Fei, an icon of patriotism in Chinese culture.
+- (inspiration) In keeping with the legend, youtiao are often made as two foot-long rolls of dough joined along the middle, with one roll representing the husband and the other the wife.
 - (about) Conventionally, youtiao are lightly salted and easily separated by hand. youtiao are normally eaten at breakfast as an accompaniment for rice congee, soy milk or cow's milk blended with sugar. youtiao may also be known as a Chinese cruller, Chinese oil stick, Chinese donut [sticks], and fried breadstick, among others.
+
+More fun facts (when the user asks for more):
+
 - (origin) Youtiao comes from People's Republic of China.
 
 Learn more:
@@ -2631,12 +3120,22 @@ Tofu or bean curd is a food prepared by pressing the curds of coagulated soy mil
 
 Fun facts:
 
-- (origin) Tofu originated in China and has been consumed for over 2,000 years.
-- (history) Cultivation of soybeans has one of the lowest needs for land use (1.3 m2/ 1000 kcal) and emits some of the lowest amounts of greenhouse gas emissions per gram of edible protein of any food (1.6 kg CO2/ 100 g protein).
-- (culture) Tofu is a traditional component of many East Asian and Southeast Asian cuisines; in modern Western cooking, it is commonly used as a meat substitute.
+- (history) Tofu making was first recorded during the Chinese Han dynasty.
+- (origin) Tofu and its production technique were introduced to Japan during the Nara period (710–794) but there are no clear records; tofu first appeared on record in AD 965.
+- (inspiration) Chinese legend ascribes its invention to Prince Liu An (179–122 BC) of Anhui province.
 
 More fun facts (when the user asks for more):
 
+- (history) In 1960, a stone mural unearthed from an Eastern Han dynasty tomb provided support for the theory of the Han origin of tofu; however some scholars maintain that tofu during the Han dynasty was rudimentary and lacked the firmness and taste for it to be considered as tofu.
+- (origin) Tofu originated in China and has been consumed for over 2,000 years.
+- (history) Cultivation of soybeans has one of the lowest needs for land use (1.3 m2/ 1000 kcal) and emits some of the lowest amounts of greenhouse gas emissions per gram of edible protein of any food (1.6 kg CO2/ 100 g protein).
+- (history) The earliest documentation of the word in English is in the 1704 translation of Domingo Fernández Navarrete's A Collection of Voyages and Travels, that describes how tofu was made.
+- (history) The word towfu also appears in a 1770 letter from the English merchant James Flint to Benjamin Franklin.
+- (history) The term "bean curd(s)" for tofu has been used in the United States since at least 1840.
+- (history) Li Shizhen, during the Ming dynasty, described a method of making tofu in the Compendium of Materia Medica.
+- (history) The most commonly held of the three theories of tofu's origin maintains that tofu was discovered by Liu An (179–122 BC), a Han dynasty prince.
+- (about) In Chinese history, important inventions were frequently attributed to important leaders and figures of the time.
+- (culture) Tofu is a traditional component of many East Asian and Southeast Asian cuisines; in modern Western cooking, it is commonly used as a meat substitute.
 - (origin) Tofu comes from China.
 - (about) Tofu dates from 0100-.
 
@@ -2680,7 +3179,13 @@ Bang bang chicken, also known by variant names such as bam bam chicken or bon bo
 
 Fun facts:
 
+- (origin) Some food historians believe it to have originated in the town of Hang Yang Ba during the early 20th century.
 - (culture) The name 'bang bang chicken' is derived from the Chinese word for stick, 'bàng', referring to the baton or cudgel traditionally used to tenderize the meat.
+- (inspiration) A popular myth claims that the name comes from the sound of tenderizing the meat by pounding it, but this is unlikely.
+
+More fun facts (when the user asks for more):
+
+- (origin) Bang bang chicken originates in the street food of Sichuan.
 
 Learn more:
 
@@ -2702,8 +3207,13 @@ Dandan noodles is a Chinese noodle dish originating from Sichuan cuisine.
 Fun facts:
 
 - (origin) Dandanmian originated in Chengdu, the capital of Sichuan.
+- (about) The first word may be either dandan, dundun or tantan.
 - (culture) The Hong Kong variant is uncommon in Sichuan itself, where the traditional style dominates, but it is widespread throughout the rest of China and in Chinese restaurants overseas.
+
+More fun facts (when the user asks for more):
+
 - (origin) Dandan noodles comes from People's Republic of China.
+- (about) Not to be confused with Taiwan ramen.
 
 Learn more:
 
@@ -2726,8 +3236,16 @@ Suan Cai Yu, also known as sauerkraut fish or sichuan fish with pickled mustard 
 
 Fun facts:
 
+- (origin) There are several theories regarding the origin of SuanCai Yu: First, SuanCai Yu is said to have originated on a fishing boat in Jiangjin, Chongqing.
 - (history) Popularized in the 1990s, Suan Cai Yu has become one of Sichuan's most renowned dishes, distinguished by its sour and spicy flavors.
 - (inspiration) Fish with pickled mustard greens is named after suan cai.
+
+More fun facts (when the user asks for more):
+
+- (history) By the early 1990s, sauerkraut fish gained popularity in restaurants of all sizes, becoming one of the pioneers of Chongqing cuisine.
+- (origin) Second, another version suggests that the dish was first created at a Zhou Yu food store in Jiangjin County, Jinfu Township, Chongqing.
+- (origin) Third, SuanCai Yu may have originated from a fish restaurant in Bishan County, Chongqing Municipality.
+- (origin) This restaurant, located near a highway tunnel and surrounded by bodies of water with fresh fish, introduced many fish-based dishes, including SuanCai Yu.
 - (origin) Fish with pickled mustard greens comes from People's Republic of China.
 
 Learn more:
@@ -2775,6 +3293,13 @@ Laziji is one of the most iconic dishes of Sichuan cuisine.
 Fun facts:
 
 - (origin) Originating from the Geleshan region of Chongqing, it is a staple of Jianghu cuisine (a type of Chongqing folk cooking) and is renowned for its intense mala (numbing and spicy) flavor profile.
+- (history) Laziji is a relatively modern addition to the Sichuan canon, rising to prominence in the late 20th century.
+- (about) Historically, the dish gained popularity among truck drivers and travelers passing through Geleshan, eventually becoming a signature culinary export for the region.
+
+More fun facts (when the user asks for more):
+
+- (origin) Laziji originated in the town of Geleshan in Chongqing's Shapingba District.
+- (culture) Laziji is traditionally served as a communal dish.
 - (origin) Laziji comes from People's Republic of China.
 
 Learn more:
@@ -2811,6 +3336,13 @@ Mao xue wang is a Chongqing cuisine dish from Chongqing, China.
 
 Fun facts:
 
+- (inspiration) The legendary origin of mao xue wang is that the dish was invented by accident in the 1940s in Ciqikou, Chongqing, when a woman at a food booth selling malatang dropped blood curds into the broth; the resulting proto-mao xue wang was immediately popular.
+- (about) In the Chengdu-Chongqing dialect, the first character may be substituted for 冒, 'rough'.
+- (culture) The name mao xue wang is derived from the characters 毛, 'raw'; 血, 'blood'; and 旺, an archaic symbol for 'blood'.
+
+More fun facts (when the user asks for more):
+
+- (about) Mao xue wang was identified as one of twelve quintessential Chongqing cuisine dishes by the Chongqing Municipal People's Government in 2012; the dish was defined as a core part of Chongqing cuisine later that year by the National Standardization Administration.
 - (origin) Mao xue wang comes from People's Republic of China.
 
 Learn more:
@@ -2832,7 +3364,19 @@ Mapo tofu is a popular Chinese dish from Sichuan province.
 Fun facts:
 
 - (origin) It is likely to have originated at a Chengdu restaurant in the 1860s–1870s.
+- (history) Mapo tofu was opened in 1862 or 1874 as a Fanpu eatery named Chenxingsheng by a couple named Chen, near a popular Wanfu bridge.
+- (about) "Ma" stands for mázi, 麻子, which means pockmarks. "Po" is the first syllable of pópo, 婆婆, which means an old woman or grandma.
+
+More fun facts (when the user asks for more):
+
+- (history) The first written and published recipe for mapo tofu was included in “中国名菜谱”, a 1950s document by the Food, Beverage, and Hospitality Bureau cataloguing recipes found throughout the country.
+- (about) Historical records tie the history of mapo tofu to Chen Mapo restaurant in Chengdu.
+- (history) In the 1920s, Chen Mapo hired a chef named Xue Xiangshun, who transformed the eatery into a restaurant and perfected the mapo tofu recipe by cooking with beef instead of pork and adding douchi.
+- (history) A documentary named Chugoku No Shoku Bunka from the 1980s shows a Chen Mapo restaurant version of mapo tofu that doesn't use doubanjiang or chili bean paste either.
 - (inspiration) It consists of tofu set in a spicy sauce, typically a thin, oily, and bright red suspension, based on douban (fermented broad bean and chili paste), and douchi (fermented black beans), along with minced meat, traditionally beef.
+- (inspiration) According to Li Jieren, the initial version created by Mrs.
+- (origin) It arrived at the table fresh, fragrant, and so spicy hot, or la, that it actually caused sweat to break out." In Japan, the dish was introduced and popularized by the Chinese-Japanese chef Chen Kenmin.
+- (about) Not to be confused with madoufu.
 
 Learn more:
 
@@ -2921,7 +3465,17 @@ Chinese noodles vary widely according to the region of production, ingredients, 
 
 Fun facts:
 
+- (history) During the Song dynasty (960–1279) noodle shops were very popular in the cities, and remained open all night.
 - (about) Noodles were invented in China, and are an essential ingredient and staple in Chinese cuisine.
+- (culture) Food historian Gil Marks documented Chinese noodle-making traditions spread along the Silk Road to Central Asia and had reached Persia by the fourth or fifth century.
+
+More fun facts (when the user asks for more):
+
+- (about) The earliest written record of noodles is from a book dated to the Eastern Han period (25–220 AD).
+- (history) Noodles, often made from wheat dough, became a prominent staple of food during the Han dynasty.
+- (history) In the Western Han dynasty, due to demand by the military, it was necessary for the government to implement food processing technologies that would make the food storage easier and more affordable.
+- (about) In Persia, they were known as laksha which is the Farsi word for "slippery".
+- (about) The food was later spread westwards to Sicily and Spain through Arab influence, where noodles were known as itriya.
 - (origin) Chinese noodles comes from People's Republic of China.
 
 Learn more:
@@ -2938,6 +3492,16 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q2723400) (CC0); [Wikipedia: C
 Chinese pickles or Chinese preserved vegetables consist of vegetables or fruits that have been fermented by pickling with salt and brine, or marinated in mixtures based on soy sauce or savory bean pastes.
 
 - From: China
+
+Fun facts:
+
+- (history) In the following Zhou dynasty, Northern Wei dynasty, Tang dynasty, Song dynasty, Yuan dynasty and Ming dynasty, there were historical records and books about pao cai.
+- (about) Not to be confused with Kimchi.
+- (history) Claims to the history of pickled vegetables date back to the Shang dynasty.
+
+More fun facts (when the user asks for more):
+
+- (history) The Shijing (~11th century BCE) mentions "葅", understood to be a word for pickles.
 
 Learn more:
 
@@ -2977,7 +3541,20 @@ Chop suey (usually pronounced ) is a dish from overseas Chinese cuisine, general
 
 Fun facts:
 
+- (inspiration) One account claims that it was invented by Chinese American cooks working on the transcontinental railroad in the 19th century.
+- (history) Another tale is that it was created during Qing dynasty premier Li Hongzhang's visit to the United States in 1896 by his chef, who tried to create a meal suitable for both Chinese and American palates.
+- (about) Chop suey is widely believed to have been developed in the U.S. by Chinese Americans.
+
+More fun facts (when the user asks for more):
+
+- (history) Hong Kong doctor Li Shu-fan likewise reported that he knew it in Toisan in the 1890s.
+- (about) Charles Hayford argues that the dish was not invented per se, but rather was collectively adopted by Chinese American restaurants when the owners saw an opportunity to have a dish that Americans would like.
+- (inspiration) Another myth is that, in the 1860s, a Chinese restaurant cook in San Francisco was forced to serve something to drunken miners after hours, when he had no fresh food.
+- (history) Hayford stated that the popularity of chop suey declined after a new interest in China and new immigration into the United States in the mid-20th century pushed new dishes into prominence while chop suey became perceived as inauthentic.
 - (about) In Chinese Indonesian cuisine it is known as cap cai (tjap tjoi) and mainly consists of vegetables.
+- (inspiration) The long list of conflicting stories about the origin of chop suey is, in the words of food historian Alan Davidson, "a prime example of culinary mythology" and typical of popular foods.
+- (about) Chop suey especially declined in popularity on the West Coast and the East Coast with new Chinese immigration and with more diverse types of food available, while it retained more prominence in the American Midwest, where there was less Chinese immigration.
+- (about) Louis, Missouri, as of 2012, continued to have a number of chop suey restaurants in low-income neighborhoods.
 
 Learn more:
 
@@ -3001,6 +3578,7 @@ Fun facts:
 
 - (history) Dim sim was popularised in the 1940s by William Chen Wing Young, a Chinese Australian born in Wahgunyah, Victoria in 1896.
 - (origin) Dim sim comes from Australia.
+- (history) William Wing Young's "original recipe" for the dim sim was presented by Elizabeth Chong on the second episode of the ABC1 TV show Myf Warhurst's Nice (20 June 2012).
 
 Learn more:
 
@@ -3021,7 +3599,15 @@ Hao kuih is a traditional snack originating from Shantou, Guangdong Province, Ch
 Fun facts:
 
 - (origin) Hao kuih is believed to have first appeared in Chaoyang District in Shantou, and remains a regional specialty.
+- (culture) In Chaonan District in Shantou, many counties hold festivals for the gods.
 - (about) While popular within the Chaoshan community, it is relatively uncommon outside this cultural region.
+
+More fun facts (when the user asks for more):
+
+- (culture) One such festival is observed as a day of homage to the deities and is a day of great importance to the Shantou people.
+- (culture) On the day of the festival, villagers prepare a large feast and hold a ceremony for the gods as a way of thanking them for their blessings.
+- (culture) This ethos is deeply integrated with the region's long-standing tradition of folk religion.
+- (culture) Kuih plays a role in many traditional Chaoshan activities of worship and is frequently used as an offering to the gods in exchange for their blessings.
 
 Learn more:
 
@@ -3041,12 +3627,14 @@ Hot dry noodles, sometimes called reganmian after the Chinese name, are a tradit
 
 Fun facts:
 
-- (about) They are the most significant, famous and popular breakfast food in Wuhan, often sold by street carts and restaurants in residential and business areas.
+- (about) There are multiple origin stories for the invention of hot dry noodles:
+- (culture) Hot dry noodles are considered to be a symbol of Wuhan's culture.
 - (origin) Hot dry noodles comes from People's Republic of China.
-- (about) These noodles can be prepared within minutes and are affordable, making them a popular breakfast food.
 
 More fun facts (when the user asks for more):
 
+- (about) They are the most significant, famous and popular breakfast food in Wuhan, often sold by street carts and restaurants in residential and business areas.
+- (about) These noodles can be prepared within minutes and are affordable, making them a popular breakfast food.
 - (about) In a 2013 article, Business Insider reported that China Network Television rated hot dry noodles as the top Chinese noodle dish.
 
 Learn more:
@@ -3095,6 +3683,14 @@ Mantou, often referred to as a Chinese steamed bun, is a white and soft type of 
 
 Fun facts:
 
+- (origin) Mantou may have originated in the Qin State of the Zhou dynasty during the reign of King Zhaoxiang (307 BCE – 250 BCE).
+- (history) The Mongols are thought to have taken the filled (baozi) style of mantou to many countries of Central and East Asia about the beginning of the Yuan dynasty in the 13th century.
+- (about) He first called them mantou.
+
+More fun facts (when the user asks for more):
+
+- (history) Mantou, as well as other wheat derived foodstuffs such as noodles, Shaobing and Baozi became popular during the Han dynasty (206 BCE – 206 CE) and collectively were known as 餅; bǐng; mantou was distinguished as 蒸餅; zhēngbǐng or 籠餅; lóngbǐng.
+- (history) During the Western Jin dynasty (265–316 CE), Shu Xi wrote about steamed cakes in his "Ode to boiled cakes", written around 300 CE.
 - (origin) Mantou comes from China.
 
 Learn more:
@@ -3173,7 +3769,15 @@ Douzhi is a traditional fermented drink in Beijing cuisine similar to soy milk, 
 
 Fun facts:
 
+- (about) Records from the Qianlong era note an official report to the emperor suggesting that Douzhi be inspected for cleanliness, and if deemed suitable, to serve it within the palace.
+- (origin) Douzhi originated during the Liao and Song dynasties, when Beijing was a key center in northern China.
+- (history) By the Qing dynasty, Douzhi's popularity had even reached the imperial court.
+
+More fun facts (when the user asks for more):
+
+- (about) In 2007, Douzhi was recognized as a cultural heritage in Beijing by the Beijing intangible cultural heritage program.
 - (origin) Douzhi comes from China.
+- (about) Not to be confused with soy milk.
 
 Learn more:
 
@@ -3215,6 +3819,14 @@ Wotou or wowotou, also called Chinese cornbread, is a type of steamed bread made
 
 Fun facts:
 
+- (inspiration) The legend says that during Empress Dowager Cixi's flight to Xi'an from the Battle of Peking (1900) when the Eight-Nation Alliance invaded China in the Boxer Rebellion, Cixi received a bunch of corn buns to satiate her hunger.
+- (history) Howell in his article published in the China Journal of March 1934, The soy bean: A dietary revolution in China, wotou was made out of millet flour at a ratio of 8 to soy flour at 3 or 2 in north China.
+- (about) Wotou has been transformed into a popular food from its previous poor status.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Wotou was a cheap food for poor people, but a legend grew on how it became a dish served in the Imperial Kitchens.
+- (about) Wotou was known as wotou 窩頭, "maize-soybean flour bread." It was also known as wowotou 窩窩頭, "bean-millet bread".
 - (origin) Wotou comes from People's Republic of China.
 
 Learn more:
@@ -3231,6 +3843,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q19841044) (CC0); [Wikipedia: 
 Abalone (mass noun; or; via Spanish abulón, from Rumsen aulón) are sea snails in the genus Haliotis, the only genus in the family Haliotidae.
 
 - From: Guangdong, China
+
+Fun facts:
+
+- (about) Other common names for abalone are ear shells, sea ears, and, now rarely, muttonfish or muttonshells in parts of Australia, ormer in the United Kingdom, perlemoen in South Africa, and pāua in New Zealand.
+- (inspiration) The few known Cretaceous abalone fossils have all been found in North America, suggesting that the group may have originated there, although other possibilities have been suggested, including a central Indo-Pacific origin based on where abalone are most diverse today.
 
 Learn more:
 
@@ -3250,7 +3867,15 @@ Bok choy (American English, Canadian English, and Australian English), pak choi 
 
 Fun facts:
 
+- (history) Bok choy evolved from the mustard plant in China, where it has been cultivated since the 5th century CE.
+- (origin) The vegetable was introduced to Europe in the mid-18th century.
 - (about) Chinensis varieties are popular in southern China, East Asia, and Southeast Asia.
+
+More fun facts (when the user asks for more):
+
+- (history) Bok choy plantations were present in Japan and Malaya by the early 19th century.
+- (origin) Bok choy was introduced to North America in the 19th century, but did not gain in use for another century.
+- (about) A Swede named Osbeck brought bok choy seeds to Europe during the same time period Jesuit missionaries brought similar strains of the vegetable to German scientists working in Russia.
 
 Learn more:
 
@@ -3323,7 +3948,14 @@ Douchi, also known as doushi, shi, or tochi, is a group of fermentation-processe
 
 Fun facts:
 
+- (inspiration) When the prince of Huainan Liu An (legendary inventor of tofu) was exiled for inciting rebellion (in 173 BCE) against his brother, the Han Emperor Wendi.
+- (history) The tomb was sealed about 165 BCE and was first opened in 1972.
 - (origin) There are two main stages to the typical douchi-making process: first cooked black soybeans undergo natural mold growth and fermentation, then they are salted to continue fermentation.
+
+More fun facts (when the user asks for more):
+
+- (about) The high-ranking woman to whom the undisturbed tomb belonged was probably the wife of the first Marquis of Tai.
+- (about) Written in 90 BCE, the Records of the Grand Historian (aka the Shiji), by Sima Qian, Chapter 69, refers to 1,000 earthenware vessels of mold-fermented cereal grains and salty fermented soybeans (shi).
 
 Learn more:
 
@@ -3394,6 +4026,11 @@ Gourds include the fruits of some flowering plant species in the family Cucurbit
 
 - From: Guangdong, China
 
+Fun facts:
+
+- (about) The archaeological and DNA records show it is likely that the gourd was among the first domesticated species, in Asia between 12,000 and 13,000 years before present, and possibly the first domesticated plant species.
+- (about) A study of bottle gourd DNA published in 2005 suggests that there are two distinct subspecies of bottle gourds, domesticated independently in Africa and Asia, the latter approximately 4,000 years earlier.
+
 Learn more:
 
 - quick: [Gourd (Wikipedia)](https://en.wikipedia.org/wiki/Gourd)
@@ -3413,7 +4050,9 @@ Hoisin sauce is a thick, savory sauce originating in China.
 
 Fun facts:
 
+- (about) The word hoisin is derived from the Cantonese pronunciation of the Chinese words for "seafood", although the sauce does not contain any seafood ingredients and is not commonly consumed with seafood.
 - (origin) Hoisin sauce comes from People's Republic of China.
+- (about) Hoisin sauce is a popular condiment for phở, a Vietnamese noodle soup, in southern Vietnam.
 
 Learn more:
 
@@ -3541,6 +4180,15 @@ Rice noodles are noodles made with rice flour and water as the principal ingredi
 
 Fun facts:
 
+- (history) The origin of rice noodles dates back to China during the Qin dynasty when people from northern China settled the south.
+- (culture) Noodles are traditionally made out of wheat and eaten throughout northern China so to adapt, northern cooks tried to prepare "noodles" using rice, thus inventing rice noodles.
+- (origin) Over time rice noodles and their processing methods have been introduced around the world, becoming especially popular in Southeast Asia.
+
+More fun facts (when the user asks for more):
+
+- (history) In India, idi-appam, strings of cooked rice, was known in ancient Tamil country around 1st century AD, as per references in the Sangam literature, according to food historian K.
+- (history) Cao lầu Gỏi cuốn / Summer roll Hủ tiếu – A version of kuay teow that became popular in the 1960s in Southern Vietnam, especially in Saigon.
+- (culture) Due to climatic conditions, the northern Chinese have traditionally preferred wheat and millet which grew in cold weather while the southern Chinese preferred rice which grew in hot weather.
 - (origin) Rice noodles comes from People's Republic of China.
 
 Learn more:
@@ -3563,6 +4211,8 @@ San choy bow is a dish consisting of seasoned minced meat encased in a crisp raw
 Fun facts:
 
 - (origin) San Choy Bow originated in Cantonese cuisine and through the Chinese diaspora, was introduced to other countries such as the United States and Australia around the mid-to-late 20th century, where it became part of Westernized adaptations of Chinese cuisine.
+- (history) In the United States, the dish was widely referred to as "San Choy Bao" in Cantonese restaurants during the 1980s, but the Chinese-American restaurant chain P.F.
+- (history) Chang's popularized the term lettuce wrap for the dish in the 1990s, and this has since become the most mainstream name for Chinese lettuce wraps in the U.S.
 
 Learn more:
 
@@ -3584,6 +4234,7 @@ Shahe fen or guotiao is a type of wide Chinese noodle made from rice.
 
 Fun facts:
 
+- (origin) Shahe fen is believed to have originated in the town of Shahe, now part of the Tianhe District in the city of Guangzhou, in the southern Chinese province of Guangdong, whence their name derives.
 - (inspiration) Shahe fen is named after Shahe Subdistrict.
 - (origin) Shahe fen comes from People's Republic of China.
 
@@ -3607,7 +4258,9 @@ Silver needle noodle, rat noodle, bee tai bak, runny nose vermicelli or lot, gia
 
 Fun facts:
 
+- (about) The noodle is more commonly known as silver needle noodle in Hong Kong and Taiwan, and rat noodle or "runny nose vermicelli" in Malaysia and Singapore.
 - (origin) Silver needle noodles comes from People's Republic of China.
+- (about) The noodles are named as such because the shape of the noodles is long and tapered much like a rat's tail, translucent white like needles, or from the way the noodles are made by pushing them through the holes of a sieve.
 
 Learn more:
 
@@ -3628,7 +4281,13 @@ Squab is the meat of an immature domestic pigeon, typically under four weeks old
 Fun facts:
 
 - (about) Although squab has been consumed throughout much of recorded history, it is generally regarded as exotic, not as a contemporary staple food; there are more records of its preparation for the wealthy than for the poor.
+- (history) Caelius Aurelianus, an Ancient Roman physician, regarded the meat as a cure for headaches, but by the 16th century, squab was believed to cause headaches.
 - (origin) The practice of domesticating pigeons as livestock may have originated in North Africa; historically, many societies have consumed squabs or pigeons, including ancient Egypt (still common in modern Egypt), Rome, China, India (Northeast), and medieval Europe.
+
+More fun facts (when the user asks for more):
+
+- (about) A stone inscription in Bwahan village of Indonesian island Bali dated to 994 AD lists turtle doves (manuk kitiran), doves (putir) and wild pigeons (wuruwuru) as part of the trade inventory.
+- (origin) Dovecotes were introduced to South America and Africa by Mediterranean colonists.
 
 Learn more:
 
@@ -3649,6 +4308,8 @@ Suancai (also called suan tsai and Chinese sauerkraut; lit. 'sour vegetable') is
 
 Fun facts:
 
+- (culture) In China, the earliest record of Chinese traditional Suan cai production is in the Book of Odes (or Classic of Poetry), dating back to 11th to 7th centuries BC.
+- (about) A popular sitcom and namesake song depicting lives in Northeast China titled Cui Hua Shang Suancai debuted in 2001, and the phrase Cui Hua Shang Suancai became a popular catch phrase.
 - (origin) Suan cai comes from People's Republic of China.
 
 Learn more:
@@ -3665,6 +4326,22 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q3269753) (CC0); [Wikipedia: S
 Taro (; Colocasia esculenta), also known as dasheen, is a root vegetable.
 
 - From: Guangdong, China
+
+Fun facts:
+
+- (history) The English name taro was borrowed from the Māori language when Captain Cook first observed Colocasia plantations in New Zealand in 1769.
+- (origin) All these forms originate from Proto-Polynesian *talo, which itself descended from Proto-Oceanic *talos (cf. dalo in Fijian) and Proto-Austronesian *tales (cf. taleus in Sundanese & tales in Javanese).
+- (about) It is believed that they were domesticated independently multiple times, with authors giving possible locations as New Guinea, Mainland Southeast Asia, and northeastern India, based largely on the assumed native range of the wild plants.
+
+More fun facts (when the user asks for more):
+
+- (history) Taro were carried into the Pacific Islands by Austronesian peoples from around 1300 BC, where they became a staple crop of Polynesians, along with other types of "taros", like Alocasia macrorrhizos, Amorphophallus paeoniifolius, and Cyrtosperma merkusii.
+- (history) Taro is also identified as one of the staples of Micronesia, from archaeological evidence dating back to the pre-colonial Latte Period (c. 900 – 1521 AD), indicating that it was also carried by Micronesians when they colonized the islands.
+- (history) Taro pollen and starch residue have also been identified in Lapita sites, dated to between 1100 BC and 550 BC.
+- (history) Taro was later spread to Madagascar as early as the 1st century AD.
+- (inspiration) Legend joins two siblings of high and divine rank: Papahānaumoku ("Papa from whom lands are born", or Earth mother) and Wākea (Sky father).
+- (about) Daughter and father then conceived a child together named Hāloanakalaukapalili (Long stalk trembling), but it was stillborn.
+- (about) The second child born of Wākea and Hoʻohokukalani was named Hāloa after his older brother.
 
 Learn more:
 
@@ -3687,8 +4364,14 @@ Tofu skin, yuba, fupi, beancurd skin, beancurd sheet, or beancurd robes is a foo
 Fun facts:
 
 - (about) Tofu skin's use was first documented in written records in China in the sixteenth century.
-- (origin) Tofu skin comes from People's Republic of China.
+- (history) This work was completed in 1578, but not published until 1596.
+- (culture) An early written reference to tofu skin appeared in 1587 in Japan in the Matsuya Hisamatsu Chakai-ki (Three-generation Diary of the Matsuya's Family's Tea Ceremonies).
+
+More fun facts (when the user asks for more):
+
 - (about) The films are collected and dried into yellowish sheets known as tofu skin.
+- (origin) Tofu skin comes from People's Republic of China.
+- (about) Not to be confused with Yuba.
 
 Learn more:
 
@@ -3725,6 +4408,22 @@ Vinegar (from Old French vyn egre 'sour wine') is an odorous aqueous solution of
 
 - From: Guangdong, China
 - Ingredients (Wikidata): ethanol, mother of vinegar, water, acetic acid, aroma compound
+
+Fun facts:
+
+- (history) Karl Sebastian Schüzenbach invented the first large-scale industrial process for vinegar production in the Kingdom of Baden in 1823.
+- (about) During this time, malt vinegar also began to develop in England, where it was first known as alegar.
+- (culture) The Spartans had vinegar as a part of their traditional black soup (melas zomos; a blood soup); in addition to flavoring the broth, the acidity of the vinegar prevented the blood from coagulating (a purpose for which vinegar is still used in modern blood soups around the world).
+
+More fun facts (when the user asks for more):
+
+- (history) While vinegar making may be as old as brewing, the first documented evidence of vinegar making and use was by the ancient Babylonians around 3000 BCE.
+- (history) In East Asia, the Chinese began professionalizing vinegar production in the Zhou dynasty.
+- (history) In the 19th century, vinegar production underwent many dramatic changes, such as rapid industrialization and scientific analysis.
+- (about) Most vinegar-making then was concentrated in what is now Shanxi province near the city of Taiyuan, which remains a famous vinegar-making region today.
+- (about) In the late Middle Ages, vinegar making was slowly being professionalized in Europe, with the French city of Orléans becoming particularly famous for the quality of its vinegar through a formalized fermentation and aging process, which became known as the Orléans process.
+- (about) Known as the packed generator, it circulated alcohol over beechwood shavings to reduce fermentation times from several months down to 1–2 weeks.
+- (culture) Japan also began industrializing vinegar production during the last days of the Tokugawa shogunate, when Matazaemon Nakano, a man from a traditional sake brewing family, discovered that sake lees could be used to make rice vinegar.
 
 Learn more:
 
@@ -3776,7 +4475,13 @@ Yi mein or yimian is a variety of flat Cantonese egg noodles made from wheat flo
 
 Fun facts:
 
+- (culture) Yi mein is traditionally credited to the Qing official Yi Bingshou, who is taken to be their namesake ("Yi-style noodles") and who is also credited with popularizing Yangzhou fried rice.
+- (about) Yi mein is also a popular Lunar New Year dish.
 - (origin) Yi mein comes from People's Republic of China.
+
+More fun facts (when the user asks for more):
+
+- (culture) Tradition holds that the chef cannot cut the noodles, and each strand should be eaten whole.
 
 Learn more:
 
@@ -3830,8 +4535,17 @@ Garlic (Allium sativum) is a species of bulbous flowering plants in the genus Al
 
 Fun facts:
 
+- (about) Numerous cuneiform records show that garlic has been cultivated in Mesopotamia for at least 4,000 years.
+- (history) Well-preserved garlic was found in the tomb of Tutankhamun (c. 1325 BC).
+- (culture) Garlic was rare in traditional English cuisine (though it is said to have been grown in England before 1548) but has been a common ingredient in Mediterranean Europe.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) In the foundation myth of the ancient Korean kingdom of Gojoseon, eating nothing but 20 cloves of garlic and a bundle of Korean mugwort for 100 days let a bear be transformed into a woman.
 - (culture) Garlic has been used for thousands of years as a seasoning, culinary ingredient, and traditional medical remedy.
 - (about) Garlic is cultivated in a variety of climates and countries; China was the largest producer in 2024, accounting for 73% of the world's supply, according to the United Nations FAOSTAT.
+- (about) Some Mahāyāna Buddhists and sects in China and Vietnam avoid eating onions, garlic, scallions, chives and leeks, which are known as Wu hun.
+- (about) Not to be confused with garlic.
 
 Learn more:
 
@@ -3852,6 +4566,7 @@ Hot and sour noodles is a dish which comes from Sichuan, China and is a popular 
 
 Fun facts:
 
+- (culture) It is unclear when and who invented the dish, which had been very popular in at least the Qing dynasty, and was initially mostly served as street food in Sichuan.
 - (origin) Hot and sour noodles comes from People's Republic of China.
 
 Learn more:
@@ -3872,6 +4587,7 @@ Yuxiang is a seasoning mixture in Chinese cuisine, and also refers to the result
 Fun facts:
 
 - (origin) It is said to have originated in Sichuan cuisine, and has since spread to other regional Chinese cuisines.
+- (about) Not to be confused with Yuxiang.
 
 Learn more:
 

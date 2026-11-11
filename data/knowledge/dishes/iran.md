@@ -32,8 +32,14 @@ Faloodeh, or paloodeh, is a traditional Iranian cold dessert similar to a sorbet
 
 Fun facts:
 
+- (about) In the 16th to 18th centuries, the Indo-Persian Mughal kings who ruled South Asia created a cold dessert beverage called falooda, which is a derivative of faloodeh..
+- (origin) Moreover, the Yunnanese desert paoluda also originates from this dessert.
 - (culture) In Iran, faloodeh is sold in ice cream stores and coffee shops in flavors such as pistachio, saffron, rose water, and honey, and can be served alongside bastani sonnati, a traditional Persian ice cream.
+
+More fun facts (when the user asks for more):
+
 - (about) In 2023, the Ministry of Cultural Heritage, Tourism and Handicrafts added faloodeh-making to Iran's List of the Intangible Cultural Heritage of Humanity.
+- (history) In Arabic medieval sources, it was known as faloothaj, for example in Al-Muḥkam wa-al-muḥīt al-aʻẓam.
 - (origin) Faloodeh comes from Iran.
 
 Learn more:
@@ -137,6 +143,7 @@ Kuku or kookoo is an Iranian dish of beaten eggs with various ingredients folded
 
 Fun facts:
 
+- (culture) Herb kuku (kuku sabzi), which is the most popular version, is served traditionally at Nowruz, the Iranian New Year's Day, symbolizing a fresh start, and also at Easter, as celebrated by Iranian Armenians and Iranian Georgians.
 - (origin) Kuku comes from Azerbaijan, Iran.
 
 Learn more:
@@ -240,6 +247,12 @@ Doogh is a cold and savoury Persian drink.
 
 - From: Iran
 
+Fun facts:
+
+- (history) Doogh is an Iranian fermented drink that has long been a popular drink and was already consumed in ancient Iran (Persia).
+- (culture) In some parts of Iran, mainly Isfahan, doogh is served with the sweet pastry Gosh-e fil as a hallmark tradition of the city and snack.
+- (about) In Iranian popular culture doogh is also considered to have a sedative effect.
+
 Learn more:
 
 - quick: [Doogh (Wikipedia)](https://en.wikipedia.org/wiki/Doogh)
@@ -259,6 +272,13 @@ Gondi, sometimes spelled gundi, is a Persian Jewish dish of meatballs made from 
 
 Fun facts:
 
+- (origin) The origin of gondi is not known with certainty, as the Jewish community residing in various cities in Iran are said to have originated it, but it is commonly said to have first been made in the Jewish community of Tehran.
+- (culture) Gondi is primarily a home-cooked dish, traditionally prepared for Friday evening Shabbat dinners within Persian Jewish households.
+- (culture) Gondi is closely tied to the tradition of Iranian Jewish families gathering at home on the eve of Shabbat, both in Iran and in diaspora communitites.
+
+More fun facts (when the user asks for more):
+
+- (culture) Because the recipe has been passed down through family tradition rather than written documentation, the dish varies considerably from household to household in terms of spices and meat choice.
 - (origin) Gondi comes from Iran.
 
 Learn more:

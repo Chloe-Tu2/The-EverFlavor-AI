@@ -32,6 +32,8 @@ Bülbül yuvası, literally "nightingale's nest" or "Bulbuls nest", also known a
 
 Fun facts:
 
+- (history) A similar dish dubbed "eat and give thanks" appears in a 13th century Arabic cookbook called Kitab al-Wuslah ila l-habib, it calls for wrapping dough around a dowel, sliding it down form the dowel, and then shaping it into a "cake" and frying it in sesame oil.
+- (about) Bülbül yuvası was also known as qarni yārūq; a Turkish language-name, indicating a possible origin.
 - (origin) Bülbül yuvası comes from Turkey, Syria.
 
 Learn more:
@@ -51,13 +53,23 @@ Confectionery is the art of making confections, or sweet foods.
 
 Fun facts:
 
+- (history) Also according to the OED, the sense of "the art and business of a confectioner" is first recorded in 1743, and the earliest use in the sense of a "confectioner's shop" dates to 1803.
 - (about) The confectionery industry also includes specialized training schools and extensive historical records.
-- (culture) Traditional confectionery goes back to ancient times and continued to be eaten through the Middle Ages and into the modern era.
-- (about) Sugar confectionery (known as candy making in the US) includes candies (also called sweets, short for sweetmeats, in many English-speaking countries), candied nuts, chocolates, chewing gum, bubble gum, pastillage, and other confections that are made primarily of sugar.
+- (origin) An early medieval Latin name for an apothecary was confectionarius, and it was in this sort of sugar work that the activities of the two trades overlapped and that the word "confectionery" originated.
 
 More fun facts (when the user asks for more):
 
+- (history) The oldest recorded use of the word confectionery discovered so far by the Oxford English Dictionary is by Richard Jonas in 1540, who spelled or misspelled it as "confection nere" in a passage "Ambre, muske, frankencense, gallia muscata and confection nere", thus in the sense of "things made or sold by a confectioner".
+- (history) In 1390, the treasurer of the Earl of Derby included "penydes" in the audit of his provisions and expenses for expeditions made to Prussia and the Holy Land.
+- (history) By the 16th century, a cumfit was more specifically a seed, nut or small piece of spice enclosed in a round or ovoid mass of sugar.
+- (history) The production of comfits was a core skill of the early confectioner, who was known more commonly in 16th and 17th century England as a comfitmaker.
+- (history) An important study of Ottoman confectionery called Conditorei des Orients was published by the royal confectioner Friedrich Unger in 1838.
+- (about) The first confectionery in Manchester, England was opened by Elizabeth Raffald who had worked six years in domestic service as a housekeeper.
+- (about) Sugar confectionery (known as candy making in the US) includes candies (also called sweets, short for sweetmeats, in many English-speaking countries), candied nuts, chocolates, chewing gum, bubble gum, pastillage, and other confections that are made primarily of sugar.
 - (about) The words candy (Canada and US), sweets (UK, Ireland, and others), and lollies (Australia and New Zealand) are common words for some of the most popular varieties of sugar confectionery.
+- (culture) Traditional confectionery goes back to ancient times and continued to be eaten through the Middle Ages and into the modern era.
+- (inspiration) Before sugar was readily available in the ancient western world, confectionery was based on honey.
+- (about) Not to be confused with pastry.
 
 Learn more:
 
@@ -78,6 +90,13 @@ Güllaç is a Turkish dessert made with milk, rose water, pomegranate and a spec
 
 Fun facts:
 
+- (history) Its first known mention is in a 14th-century book, Yinshan Zhenyao, a food and health manual written by Hu Sihui, a physician to the Mongol court of the Yuan dynasty.
+- (about) Güllaç is first attested in the Persian-Turkish dictionary Lügat-i Halîmî.
+- (inspiration) In Egypt, gollash pies are named after güllaç pastry, although the Egyptian version is baked, savoury and contains meat.
+
+More fun facts (when the user asks for more):
+
+- (history) The earliest record of the word in a Turkic language dates back to 1477.
 - (origin) Güllaç comes from Turkey.
 
 Learn more:
@@ -102,6 +121,10 @@ Fun facts:
 - (culture) Jerusalem bagel has a ring shape but is otherwise only baked and not boiled unlike a traditional boiled bagel.
 - (culture) The dough has a lighter texture than a traditional bagel.
 
+More fun facts (when the user asks for more):
+
+- (culture) Traditionally, it is eaten for breakfast, often with eggs, falafel, and za'atar.
+
 Learn more:
 
 - quick: [Jerusalem bagel (Wikipedia)](https://en.wikipedia.org/wiki/Jerusalem_bagel)
@@ -121,7 +144,16 @@ Joshpara is a kind of dumpling popular in Central Asia, South Caucasus and the M
 
 Fun facts:
 
+- (history) Shishbarak was described in the proceedings of the International Congress of Orientalists from 1889-1891, which cite the cookbook 1885 Ustadh al-Tabbakhin by author Khalil Khattar Sarkis.
+- (about) According to food historian Charles Perry, the first element of the word, josh, means "to boil" in Persian, while the second element, para, is uncertain, possibly meaning "bit".
 - (origin) Joshpara comes from Iran.
+
+More fun facts (when the user asks for more):
+
+- (history) The word was commonly used prior to the 10th century, during which it was pronounced joshparag.
+- (history) Medieval Kipchak sources record şiş börek for pieces of dough stuffed with meat that are cooked on a skewer.
+- (history) Shishbarak is mentioned in 13th and 15th Century Egyptian cookbooks.
+- (about) The earlier form was adapted by the Arabs with the pronunciation shushbarak or shishbarak.
 
 Learn more:
 
@@ -190,11 +222,21 @@ Mansaf is a traditional Jordanian dish made of lamb, cooked in a sauce of fermen
 Fun facts:
 
 - (history) The dish evolved greatly between the 1940s and late 1980s, undergoing changes in the recipe as well as in the preparation process.
-- (culture) Mansaf is considered the national dish of Jordan and common and popular especially in Palestine.
-- (about) Mansaf is a popular dish eaten throughout the Levant.
+- (culture) Tradition in Jordan holds that mansaf dates back to at least the time of the 9th century BCE King Mesha of Moab, who exhorted his people to make it to distinguish themselves from Hebrews with whom he was at war.
+- (inspiration) Following the popularization of rice in northern Transjordan in the 1920s, rice gradually was introduced into the dish, at first mixed with bulgur, and later on its own, until the dish reached its modern incarnation of being based on white rice.
 
 More fun facts (when the user asks for more):
 
+- (culture) Mansaf is considered the national dish of Jordan and common and popular especially in Palestine.
+- (history) The original pastoralist Bedouin mansaf underwent significant changes in the 20th century.
+- (history) Mansaf is said to originally have been made with simply meat (camel or lamb), meat broth or ghee (clarified butter) and bread. 19th century orientalist Reinhart Dozy described mansaf ruzz (ruzz means "rice") as a "heap of cooked rice".
+- (about) Mansaf is a popular dish eaten throughout the Levant.
+- (culture) Mansaf has long been held that ancient Canaanites used to make this food at feasts, perhaps celebrating the beginning of the season of spring, and that the prohibition against mixing meat with milk mentioned in the Torah was to distance from these cultic practices, but this view is challenged as speculative.
+- (inspiration) Mansaf is associated with a traditional Jordanian culture based on an agro-pastoral lifestyle in which meat and yogurt are readily available.
+- (culture) Mansaf is traditionally eaten collectively from a large platter in the Bedouin and rural style, standing around the platter with the left hand behind the back and using the right hand instead of utensils.
+- (about) Mansaf plays an active role in settling tribal disputes in Jordan in what is known as an Atwa (truce) and a Ja'ha (peacemaking process).
+- (culture) Since mansaf was originally popular among Bedouins, much of the traditions that they used with the dish still exist today.
+- (culture) Many of these traditions are still used; however, it can also be eaten with spoons and plates.
 - (origin) Mansaf comes from Jordan.
 
 Learn more:
@@ -222,7 +264,9 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (inspiration) Some sources state that the dish was created by mistake, where in communal ovens that were dug into the ground, ingredients like chicken and bread were frequently placed next to one another to cook simultaneously, and eventually came to be placed on top of one another.
 - (origin) Musakhan comes from Jordan, Palestine.
+- (about) Not to be confused with Mocejón.
 
 Learn more:
 
@@ -242,9 +286,16 @@ Pestil is a traditional dried fruit pulp that is commonly produced in West Asia.
 
 Fun facts:
 
+- (history) This word and the fruit leather it describes was first attested in Middle Armenian as պաստեղ (pasteġ) in the year 1227 AD.
 - (about) Pestil is a popular dessert in Armenia and Turkey.
 - (origin) Pestil comes from Turkey.
+
+More fun facts (when the user asks for more):
+
+- (history) The first Turkish attestation of the word is dated back to 1501 dictionary Câmiü'l-Fürs.
+- (history) There exists an Ottoman recipe for quince pestil dated to 1891.
 - (about) Pomegranates, grapes, apples, apricots, pears, peaches and watermelons are popular choices.
+- (about) Pestil is known as malban in Arabic.
 
 Learn more:
 
@@ -264,6 +315,12 @@ Qalayet bandora is a simple Levantine dish of tomatoes, onions, hot peppers (usu
 - Ingredients (Wikidata): table salt, olive oil, chili pepper, onion, tomato
 
 Fun facts:
+
+- (history) The origin of the dish is disputed, one of the earliest documented references to frying tomatoes in olive oil dates to 1544; 16th century Italian physician Pietro Andrea Mattioli wrote that tomatoes were fried in Italy in a manner similar to mushrooms, cooked in olive oil and seasoned with salt.
+- (about) In 2019, king Abdullah II of Jordan stated in a widely-reported interview that qalayet bandora was his favorite dish.
+- (culture) Palestinians and Jordanians traditionally prepare qalayet bandora during the olive harvest season.
+
+More fun facts (when the user asks for more):
 
 - (about) Qalayet bandora is popular across the Levant, but especially in Jordan and Palestine on account of its easy preparation and healthy ingredients.
 - (origin) Qalayet bandora comes from Jordan, Levant.
@@ -286,7 +343,12 @@ Qidreh is a rice and lamb dish in Palestinian cuisine, commonly served at social
 
 Fun facts:
 
+- (origin) The origins of the dish are not agreed upon, but most sources state that it originates from the city of Hebron, although different sources attribute it to different Palestinian families.
+- (inspiration) Qidra means "pot" or sometimes specifically "clay vessel"; the dish is named after the pot it is cooked in.
 - (culture) Qidreh is traditionally prepared in clay ovens on coals, but regular ovens may also be used; the lamb may also be swapped out for chicken.
+
+More fun facts (when the user asks for more):
+
 - (origin) Qidreh comes from Palestine.
 
 Learn more:
@@ -331,7 +393,14 @@ Rummaniyeh is an Arab dish made from lentils and pomegranate juice.
 Fun facts:
 
 - (history) Its origins date back to at least the 10th century.
+- (about) They both appeared in the Tacuinum Sanitatis, a translation of a medicinal textbook of 11th-century Abbasid physician Ibn Butlan, as they were believed to have medicinal properties.
 - (origin) Rummaniyeh comes from Turkey.
+
+More fun facts (when the user asks for more):
+
+- (history) The 1948 Palestinian expulsion and flight popularized the dish in refugee communities in the Gaza Strip.
+- (history) The dish appeared as romania in some texts, which was initially thought to be a named derived from the Roman Empire as the texts did not credit any Arabic sources, historian Maxime Rodinson argued that it was likely imported from Arabic.
+- (about) Rummaniyeh was a popular dish among Palestinians in the coastal area in cities like Jaffa, Ramla, and Lod.
 
 Learn more:
 
@@ -396,7 +465,17 @@ Zalabiyeh is a fritter or doughnut found in several cuisines across the Arab wor
 
 Fun facts:
 
+- (origin) The earliest known recipes for zalabiya comes from the 10th century Arabic cookbook Kitab al-Tabikh.
+- (inspiration) A recipe for it appears in a 15th-century Turkish cookbook by Muhammad Shirvani adapted from Muhammad bin Hasan al-Baghdadi's 13th century cookbook.
+- (culture) Zalabiyeh was purchased in large quantities for the Ottoman palace during the reigns of Mehmed II and Bayezid II and was served at the 1539 circumcision celebrations for the sons of Suleiman the Magnificent.
+
+More fun facts (when the user asks for more):
+
+- (history) By the 19th century, it was still made in Istanbul and was among the sweets brought as gifts to women who had recently given birth.
+- (history) According to food historian Priscilla Mary Işın, the dessert also spread to India by the 15th century, where it became known as jalebi.
+- (about) According to 2 Samuel 13:8–10 King David's daughter prepared fritters for her step-brother Amnon.
 - (origin) Zalabiyeh comes from Levant.
+- (about) Not to be confused with Jalebi.
 
 Learn more:
 
@@ -416,6 +495,12 @@ Erq sous is a traditional beverage made from licorice root consumed in Egypt and
 Fun facts:
 
 - (about) This refreshing drink is particularly popular during the holy month of Ramadan, as it is believed to help maintain hydration during fasting.
+- (culture) However, the Egyptian preparation of erq sous sets it apart from other traditional uses of liquorice.
+- (about) The drink dates back to a time when liquorice extracts were valued for their thirst-quenching properties, it is believed that it was regularly consumed by Egyptian soldiers throughout history to hydrate.
+
+More fun facts (when the user asks for more):
+
+- (about) The specific preparation of erq sous as a popular beverage likely evolved over time, influenced by different cultures, ultimately becoming an integral part of Egyptian culinary heritage.
 
 Learn more:
 
@@ -437,6 +522,11 @@ Freekeh (sometimes spelled frikeh) or farik is a cereal food made from green dur
 Fun facts:
 
 - (history) Freekeh is an ancient dish derived from Levantine and North African cuisines, remaining popular in many countries of the eastern Mediterranean Basin, where wheat was first domesticated.
+- (about) In the Book of Kings II, for instance, it is said that Elisha miraculously fed about a hundred people with some barley bread and carmel.
+- (culture) While scriptural references have been cited as evidence that freekeh was a part of ancient Israelite cuisine, freekeh was largely unknown in modern Israeli cuisine until recently, and is traditionally farmed by Palestinians and Arabs, constituting a main staple in their cuisines.
+
+More fun facts (when the user asks for more):
+
 - (origin) Freekeh comes from Palestine.
 
 Learn more:
@@ -458,7 +548,16 @@ Maarouk, Marook, or "Ramadan bread", is a traditional Syrian leavened sweet brea
 
 Fun facts:
 
+- (history) A similar, date-stuffed, ring bread is mentioned as "aljerk" in the records from Jerusalem's Islamic court in the 17th century.
 - (culture) Maarouk is very popular during the month of Ramadan, and is traditionally stuffed with date paste, and flavored with mahleb.
+- (about) Maarouk is similar to other leavened breads found in Iraq and Turkey like Çörek, also known as "zherk", the Iraqi bread has a similar shape and date stuffing to maarouk.
+
+More fun facts (when the user asks for more):
+
+- (history) Aleppan historian Khayr al-Din al-Asadi's encyclopedia (completed 1971, published posthumously in 1981) described maarouk as a type of ka'ak that is kneaded thoroughly then brushed with syrup after it is baked and then topped with sesame seeds and nigella sative seeds.
+- (history) Kneaded leavened breads have existed in the Mashriq since at least the 10th century; the 10th-century cookbook Kitāb al-Ṭabīkh by Ibn Sayyar al-Warraq contained a recipe for khubz mʻrūk (well-kneaded bread).
+- (culture) The bread was traditionally only made during Ramadan.
+- (culture) The term maʿrūk derives from the Arabic root ʿaraka, meaning "to knead" or "to mix thoroughly until cohesive." Traditionally, maʿrūk was prepared by hand before the advent of kneading machines.
 - (origin) Maarouk comes from Levant.
 
 Learn more:
@@ -497,7 +596,14 @@ Qamar al-din is an apricot fruit leather used to make apricot juice or a nectar 
 Fun facts:
 
 - (origin) It originates from what is now Syria, and was first produced in the Ghouta, where the variety of apricots most suitable for qamar al-din was first grown.
+- (inspiration) One theory holds that it was named for its inventor, a Syrian man named Qamar al-Din.
 - (about) Qamar al-din is used across the Middle East and North Africa and Somalia, though Syrian qamar al-din is still believed to be the best because the variety of apricots most suitable for making qamar al-din grows only in Syria and southwestern Turkey.
+
+More fun facts (when the user asks for more):
+
+- (about) Another theory holds that apricot season coincided with the sighting of the new moon marking the beginning of Ramadan in the year when qamar al-din was invented.
+- (history) A recipe for the fruit leather was provided in 1599 within a medical handbook by physician Dawud al-Antaki.
+- (culture) A similar theory, widespread in Egypt, traces the name's origin to a Caliph who was known to celebrate with qamar al-din upon seeing the crescent moon during Ramadan.
 - (origin) Qamar al-din comes from Syria.
 
 Learn more:
@@ -514,6 +620,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1808843) (CC0); [Wikipedia: Q
 Qatir, qatr, sheera or attar is a type of sweet syrup used in the preparation of Middle Eastern desserts.
 
 - From: Palestine
+
+Fun facts:
+
+- (history) The 15th Century book Kanz al-fawāʾid contained a recipe for a syrup made by boiling honey and lemon juice in water, it also contains recipes for jullāb sugar-syrup, made by boiling sugar in water.
 
 Learn more:
 
@@ -534,6 +644,7 @@ Qizha is a black seed paste used in Palestinian cuisine.
 
 Fun facts:
 
+- (culture) A spoonful of Qizha is sometimes consumed by the elderly as a traditional remedy for a variety of ailments.
 - (origin) Qizha comes from Syria, Palestine.
 
 Learn more:
@@ -570,6 +681,17 @@ Tamriyeh is a sweet made by enveloping a cream filling (typically semolina puddi
 
 - From: Palestine
 - Ingredients (Wikidata): sugar, dough, semolina pudding
+
+Fun facts:
+
+- (history) It is believed that tamriyeh spread from Nablus in the West Bank to Port Said in Egypt after the inhabitants of the Suez Canal where displaced during the 1967 Six-Day War.
+- (origin) It is often said to have originated from the Palestinian city of Nablus, but some tamriyeh vendors in Nablus attribute its origin to Tamra, a village east of Acre.
+- (culture) Tamriyeh is made by Christians to celebrate holidays and by Muslims during Ramadan.
+
+More fun facts (when the user asks for more):
+
+- (history) An early mention of tamriyeh can be found in German Orientalist Gustaf Dalman's 1935 Arbeit und Sitte in Palaestina ("Work and customs in Palestine"), which documented common foods in Palestine at the time.
+- (history) Literary mentions of vendors selling fried sweet donuts called tamriyeh in Lebanon date back to at least 1956.
 
 Learn more:
 

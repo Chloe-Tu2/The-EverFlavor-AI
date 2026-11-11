@@ -11,8 +11,13 @@ Kleicha (Persian: کلوچه, romanized: koluche; North Mesopotamian Arabic: ك�
 
 Fun facts:
 
-- (culture) Kleicha comes in several traditional shapes and fillings.
+- (culture) These cookies were shaped to resemble a full or crescent moon that symbolized the arrival of Spring, which was often marked by the first full moon in late March or early April.
 - (about) The most popular are the ones filled with dates (kleichat tamur).
+- (inspiration) The origins of kleicha can be traced back to ancient Mesopotamia, where Sumerians would prepare this cookie to celebrate the New Year and Ishtar, one of the more prominent goddesses in ancient Sumerian mythology.
+
+More fun facts (when the user asks for more):
+
+- (culture) Kleicha comes in several traditional shapes and fillings.
 - (culture) Muslims make kleicha for Eid al-Fitr and Eid al-Adha and also for their celebrations, weddings or special ceremonies and they are stuffed with many different fillings like dates, pistachios, walnuts, coconuts, dried figs, sesame seeds or Turkish delight.
 
 Learn more:
@@ -55,6 +60,10 @@ Grape leaves, the leaves of the grapevine plant, are used in the cuisines of a n
 - From: Saudi Arabia
 - Ingredients (Wikidata): leaf
 
+Fun facts:
+
+- (about) Not to be confused with grapevine leaf (red).
+
 Learn more:
 
 - quick: [Grape leaves (Wikipedia)](https://en.wikipedia.org/wiki/Grape_leaves)
@@ -73,6 +82,12 @@ Harees, haresa, hareesa, arizah, harise, jarish, jareesh,, harisa, or korkot is 
 - Ingredients (Wikidata): wheat
 
 Fun facts:
+
+- (origin) Haleem, and cholent originate from harees.
+- (culture) Harees was traditionally served on Easter day.
+- (culture) There is a different traditional way of preparing Harees in each of the Arab countries in the Arabian Peninsula area, and among the tribes of these countries.
+
+More fun facts (when the user asks for more):
 
 - (origin) Harees comes from Arabian Peninsula.
 

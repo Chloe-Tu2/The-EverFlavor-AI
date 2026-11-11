@@ -13,12 +13,15 @@ Best known by its German name, Alexandertorte is a cake that consists of pastry 
 
 Fun facts:
 
+- (culture) According to Finnish tradition, the dessert has been made since 1818 in memory of Alexander I, the first Russian Emperor to rule Finland.
 - (inspiration) Alexandertorte is named after Alexander III of Russia.
-- (culture) Alexandertorte is traditionally eaten as a dessert after lunch or dinner, but it can also be served at tea time.
-- (about) A similar dessert exists in Denmark and is known as hindbærsnitte.
+- (origin) Alexandertorte was first made in Riga.
 
 More fun facts (when the user asks for more):
 
+- (culture) According to Latvian tradition, it was conceived to commemorate a visit of Tsar Alexander III (1881–1894) to Riga, today capital of Latvia.
+- (culture) Alexandertorte is traditionally eaten as a dessert after lunch or dinner, but it can also be served at tea time.
+- (about) A similar dessert exists in Denmark and is known as hindbærsnitte.
 - (origin) Alexandertorte comes from Latvia.
 
 Learn more:
@@ -42,13 +45,14 @@ Fun facts:
 
 - (history) Buttermilk koldskål was not until the 19th century that recipes for buttermilk-based koldskål appeared, and it took until the 20th century for the dish to become a mainstay in Danish homes.
 - (culture) Traditionally, buttermilk koldskål is served with dry, crispy biscuits such as kammerjunkere or tvebakker.
-- (origin) Buttermilk koldskål comes from Denmark.
+- (about) In 2013, Arla sold 3.8 million litres of koldskål in the month of July alone (about 2/3 litres per Dane).
 
 More fun facts (when the user asks for more):
 
 - (history) The dish arose when buttermilk became commonly available in Denmark in the early 1900s and was eaten chilled most days during the summer as a dessert or snack.
 - (history) Since 1979, there have been ready-made varieties on the Danish market, originally from Esbjerg Dairy, but now from a range of dairies, including Arla.
 - (history) The earliest mentions of koldskål are from the 18th century, where the term was used to describe a sweet beer-based gruel, however this dish is not commonly eaten any more.
+- (origin) Buttermilk koldskål comes from Denmark.
 
 Learn more:
 
@@ -88,6 +92,16 @@ Ham is pork from a leg cut that has been preserved by wet or dry curing, with or
 
 - From: Denmark
 - Ingredients (Wikidata): pork thigh
+
+Fun facts:
+
+- (history) The preserving of pork leg as ham has a long history, with traces of production of cured ham among the Etruscan civilisation known in the 6th and 5th century BC.
+- (about) There are claims that the Chinese were the first people to mention the production of cured ham.
+- (history) It began to refer to the cut of pork derived from the hind leg of a pig around the 15th century.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with Ham, Gare de Ham.
 
 Learn more:
 
@@ -130,9 +144,14 @@ Kransekage, kransekake (Norwegian) or kransakaka (Icelandic) is a traditional Da
 
 Fun facts:
 
+- (inspiration) The origin of the kransekage can be traced to the 18th century, where it was first created by a baker in Copenhagen.
+- (history) Almonds were very expensive in the 18th century, and as a result, the almond-rich kransekage became a way for wealthy people to display their wealth.
 - (culture) In Norway it is alternatively referred to as tårnkake and often prepared for Constitution Day celebrations, Christmas, weddings, and baptisms.
-- (origin) Kransekage comes from Denmark.
+
+More fun facts (when the user asks for more):
+
 - (culture) In Denmark it is typically eaten as part of New Year celebrations, while a variation of the cake, overflødighedshorn, is traditionally served at weddings and baptisms.
+- (origin) Kransekage comes from Denmark.
 
 Learn more:
 
@@ -154,13 +173,14 @@ A layer cake (US English) or sandwich cake (UK English) is a cake consisting of 
 Fun facts:
 
 - (history) In the mid-19th century, modern cakes were first described in English.
-- (about) Popular flavor combinations include German chocolate cake, red velvet cake, Black Forest cake, and carrot cake with cream cheese icing.
+- (about) Most cake recipes can be adapted for layer cakes; butter cakes and sponge cakes are common choices.
 - (origin) Layer cake comes from Europe.
 
 More fun facts (when the user asks for more):
 
 - (history) Maria Parloa's Appledore Cook Book, published in Boston in 1872, contained one of the first layer cake recipes.
 - (history) Another early recipe for layer cake was published in Cassell's New Universal Cookery Book, published in London in 1894.
+- (about) Popular flavor combinations include German chocolate cake, red velvet cake, Black Forest cake, and carrot cake with cream cheese icing.
 
 Learn more:
 
@@ -236,7 +256,20 @@ Risalamande is a traditional Danish dessert served at Christmas dinner and julef
 
 Fun facts:
 
+- (culture) It is believed that this tradition came from a French custom of the 1500s where on the Epiphany, also known as "Three Kings' Day", you would bake and serve a "Three Kings cake" or simply "king cake" in which one whole bean was hidden, and whoever got the bean was "king" for the night with all his privileges.
+- (history) The almond present is believed to have come about in Denmark around 1800 where the bean was replaced with an almond and the Holy Three Kings cake with the rice pudding.
+- (about) According to a rumor, the invention of risalamande came about when a French cook or chef at the Hotel d'Angleterre in Copenhagen had to improvise a dessert.
+
+More fun facts (when the user asks for more):
+
+- (culture) As a tradition, rislamande is known from around 1900, meaning it was probably invented in the 19th century.
+- (history) Risalamande was not until the rationing times during and following World War II that the rice pudding became the most common Danish Christmas food, that is in the first 50 years of the 20th century, and became more common as rice became both more cheap and common in the nation.
 - (history) Risalamande dates from 1900-.
+- (inspiration) The name is based on French riz à l'amande meaning 'rice with almonds', although the dessert has a Danish origin.
+- (inspiration) Risalamande was inspired by the classical French dessert of riz à l'impératrice (empress rice) which is more solid, shaped in moulds and decorated with raspberry jelly.
+- (culture) At some point, a tradition of giving a special additional prize to someone who found one whole almond hidden in the pudding, called mandelgaven "the almond present" was created, with the prize usually being in the form of a pink marzipan pig.
+- (culture) This is often regarded as an older tradition than the risalamande.
+- (culture) According to tradition, hot rice pudding is also the dish eaten by nisser, the Christmas elfs, which is common in other Nordic countries too.
 - (origin) Risalamande comes from Denmark.
 
 Learn more:
@@ -277,6 +310,13 @@ Steak tartare, or tartar steak, is a French dish of raw ground (minced) beef.
 
 Fun facts:
 
+- (history) In the early 20th century, what is now generally known as "steak tartare" was called steak à l'Americaine in Europe.
+- (origin) At the same time, the name "tartare" is also sometimes applied to other dishes of raw meats or fish, such as tuna tartare, introduced in 1975 by the restaurant Le Duc in Paris.
+- (about) Not to be confused with filet américain.
+
+More fun facts (when the user asks for more):
+
+- (history) The 1938 edition of Larousse Gastronomique describes steak tartare as raw ground beef served with a raw egg yolk, without any mention of tartar sauce. "À la tartare" or simply "tartare" can still mean "served with tartar sauce" for some dishes, mostly fried fish.
 - (origin) Steak tartare comes from France, Francia.
 
 Learn more:
@@ -295,6 +335,12 @@ Tebirkes (sometimes thebirkes, københavnerbirkes, or grovbirkes) is a tradition
 - From: Denmark
 - Ingredients (Wikidata): puff pastry, poppy seed
 
+Fun facts:
+
+- (origin) The pastry was introduced to Denmark by Austrian bakers who came to work in Copenhagen in the late 1800s.
+- (about) Over time, Danish bakers adapted the recipe and added their own twist by incorporating marzipan filling and poppy seeds on top.
+- (about) Tebirkes is a popular pastry in Denmark and can be found in most bakeries throughout the country.
+
 Learn more:
 
 - quick: [Tebirkes (Wikipedia)](https://en.wikipedia.org/wiki/Tebirkes)
@@ -309,6 +355,10 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q12338859) (CC0); [Wikipedia: 
 Top sirloin is a cut of beef from the primal loin or subprimal sirloin.
 
 - From: Denmark
+
+Fun facts:
+
+- (origin) An often quoted false etymology suggests that sirloin comes from the knighting by an English king (various kings are cited) of a piece of meat.
 
 Learn more:
 
@@ -330,7 +380,16 @@ Wine gums are chewy, firm pastille-type sweets originating from the United Kingd
 Fun facts:
 
 - (about) Wine gums are popular in the United Kingdom, Canada, Ireland, South Africa and many Commonwealth nations, as well as several European countries.
+- (history) Charles Riley Maynard started his business in 1880 by producing confections in a kitchen with his brother Tom in Stamford Hill, London, while his wife Sarah Ann served the customers.
+- (origin) Maynards Wine Gums were introduced in 1909 by Maynard's son Charles Gordon Maynard.
+
+More fun facts (when the user asks for more):
+
 - (origin) Wine gum comes from United Kingdom.
+- (culture) The red flavours are traditionally red berry, strawberry, cherry, or raspberry.
+- (culture) Black is traditionally blackcurrant flavoured.
+- (about) In 2010, a limited "fruit duos" edition was produced with two colours and flavours in each gum.
+- (about) Not to be confused with Żelki.
 
 Learn more:
 
@@ -373,7 +432,9 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q3232406) (CC0); [Wikipedia: �
 
 Fun facts:
 
+- (history) Nevertheless, it was consumed by all classes, having reportedly been a staple of the court of King Christian III during the 16th century.
 - (origin) Øllebrød comes from Denmark.
+- (history) A morning meal became more popular during the 13th century in Denmark, and the dish was part of an emerging breakfast culture.
 
 Learn more:
 
@@ -405,6 +466,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q753069) (CC0); [Wikipedia: Bi
 In classic French cuisine, a brown sauce is generally a sauce with a meat stock base, thickened by reduction and sometimes the addition of a browned roux, similar in some ways to, but more involved than, a gravy.
 
 - From: Denmark
+
+Fun facts:
+
+- (about) Not to be confused with brown sauce.
+- (inspiration) Brown sauce is based on brown stock.
 
 Learn more:
 
@@ -449,8 +515,13 @@ Béarnaise sauce is a sauce made of clarified butter, egg yolk, white wine vineg
 
 Fun facts:
 
-- (inspiration) Béarnaise sauce is named after Béarn, Henry IV of France.
+- (inspiration) According to a common explanation, the sauce was accidentally invented by the chef Jean-Louis-François Collinet, the accidental inventor of puffed potatoes (pommes de terre soufflées), and served at the 1836 opening of Le Pavillon Henri IV, a restaurant at Saint-Germain-en-Laye.
+- (history) Although the sauce is a French invention, it became popular in the Nordic countries in the late 20th century, where it forms a major part of local steak cuisine with steaks and fries, and is occasionally used there as topping on pizza, whether as part of the pizza or as a cold dressing put on afterwards.
 - (origin) Béarnaise sauce comes from France.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Béarnaise sauce is named after Béarn, Henry IV of France.
 
 Learn more:
 
@@ -475,8 +546,19 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (history) While Priestley's discovery ultimately led to the creation of the soft drink industry—which began in 1783 when Johann Jacob Schweppe founded Schweppes to sell bottled soda water—he did not benefit financially from his invention.
+- (history) William Brownrigg was apparently the first to produce artificial carbonated water, in the early 1740s, by using carbon dioxide taken from mines.
 - (history) He wrote of the "peculiar satisfaction" he found in drinking it, and in 1772 he published a paper entitled Impregnating Water with Fixed Air.
 - (history) However, it was not until 1781 that companies specialized in producing artificial mineral water were established and began producing carbonated water on a large scale.
+- (history) Priestley received scientific recognition when the Council of the Royal Society "were moved to reward its discoverer with the Copley Medal" at the anniversary meeting of the Royal Society on 30 November 1773.
+- (history) In 1662 Christopher Merret created 'sparkling wine'.
+- (history) In 1750 the Frenchman Gabriel François Venel also produced artificial carbonated water, though he misunderstood the nature of the gas that caused the carbonation.
+- (history) In 1766 Henry Cavendish devised an aerating apparatus that would inspire Joseph Priestley to carry out his own experiments with regard to carbonated waters.
+- (history) In 1767 Priestley discovered a method of infusing water with carbon dioxide by pouring water back and forth above a beer vat at a local brewery in Leeds, England.
+- (history) In 1772, Priestley published a paper titled Impregnating Water with Fixed Air in which he describes dripping "oil of vitriol" (sulfuric acid) onto chalk to produce carbon dioxide gas, and encouraging the gas to dissolve into an agitated bowl of water.
+- (about) Priestley referred to his invention of this treated water as being his "happiest" discovery.
+- (history) In 1792, Schweppe moved to London to develop the business there.
+- (about) Not to be confused with aerated water.
 
 Learn more:
 
@@ -498,8 +580,13 @@ Castello is a brand of cheeses produced by Arla Foods amba, a Danish-Swedish agr
 Fun facts:
 
 - (about) The Alps Selection Cheeses; Hirten, Bergkase, and Weissbier, were launched in the United States in the end of 2012, and were the first of their kind available in the United States.
+- (history) Castello was established in 1893 by Rasmus Tholstrup of Denmark.
 - (origin) Castello cheeses comes from Denmark.
+
+More fun facts (when the user asks for more):
+
 - (about) For the North American market, Castello markets a Camembert, a Brie, and several varieties of blue cheese, named Noble Blue Cheese, Extra Danish Creamy Blue (also available sliced), Soft Blue, and Crumbled Blue Cheese.
+- (about) His son, Henrik, bought a Swedish dairy and produced the popular Bianco cheese, followed by the Castello cheese, a white cheese that was developed over ten years before its debut.
 
 Learn more:
 
@@ -535,7 +622,14 @@ Cookie butter is a food paste made primarily from speculoos cookie crumbs, fat (
 
 Fun facts:
 
+- (about) The idea spread widely in part to a Belgian TV inventor show, called De Bedenkers ("The Inventors").
 - (origin) Cookie butter comes from Belgium.
+- (about) The idea is generally attributed to Oma Wapsie, pseudonym of the Dutch Rita, who placed the recipe on her website in 2002.
+
+More fun facts (when the user asks for more):
+
+- (about) They also bought De Maeyer's patent in 2009, so as to seal the market.
+- (about) On January 20, 2011, a court of commerce in Ghent, Belgium, denied the patent because the recipe had already been published on a Dutch website prior to its production.
 
 Learn more:
 
@@ -577,6 +671,14 @@ Curry powder is any of several spice mixes for curry, adapted from garam masala 
 Fun facts:
 
 - (history) The first commercial curry powder product was sold by Sorlie's Perfumery in London in 1784.
+- (origin) British traders introduced the powder to Meiji Japan, in the mid-19th century, where it became known as "Japanese curry", and evolved into a distinct dish.
+- (culture) As commercially available in Western markets, curry powder is comparable to the traditional Indian spice mixture known as garam masala ('warm spices').
+
+More fun facts (when the user asks for more):
+
+- (history) The first commercially available curry powder in England was advertised by Sorlie's Perfumery Warehouse on Piccadilly in 1784.
+- (history) In her 1895 book Anglo-Indian Cooking at Home, Henrietta Hervey described how to make three curry powders, which she called "Madras", "Bombay", and "Bengal".
+- (about) Not to be confused with curry.
 
 Learn more:
 
@@ -597,6 +699,7 @@ Danbo is a semi-soft, aged cow's milk cheese from Denmark.
 
 Fun facts:
 
+- (origin) In the first decades of the 20th century, Danish immigrants, established in the south part of Minas Gerais State in Brazil, discovered a new kind of cheese, after making the traditional Danbo Cheese with Brazilian milk.
 - (about) Danbo was awarded PGI status under European Union law in 2017.
 - (origin) Danbo comes from Denmark.
 
@@ -621,8 +724,13 @@ Danablu, often marketed under the trademark Danish Blue Cheese within North Amer
 Fun facts:
 
 - (history) Danablu was developed early in the 20th century by a Danish cheese maker named Marius Boel with the intention of emulating a Roquefort-style cheese.
-- (origin) Danish Blue Cheese comes from Denmark.
+- (origin) Danish Blue Cheese was first made by Marius Boel.
 - (history) Danish Blue Cheese dates from 1920-.
+
+More fun facts (when the user asks for more):
+
+- (origin) Danish Blue Cheese was first made in Denmark.
+- (origin) Danish Blue Cheese comes from Denmark.
 
 Learn more:
 
@@ -638,6 +746,12 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q165855) (CC0); [Wikipedia: Da
 Eels are elongated fish, ranging in length from five centimetres (2 in) to four metres (13 ft), and are used in various cuisines around the world.
 
 - From: Denmark
+
+Fun facts:
+
+- (history) The first "Eel Pie & Mash Houses" opened in London in the 18th century, and the oldest surviving shop — M.Manze — has been open since 1902.
+- (history) Eels have been consumed in Britain since at least the 8th century, when they were mentioned by the English monk Bede.
+- (history) By the 16th century, the demand for eels outstripped the fresh supply, and eels were often dried.
 
 Learn more:
 
@@ -680,8 +794,15 @@ Esrom, or Danish Port Salut cheese is a Trappist-style pale yellow semi-soft cow
 
 Fun facts:
 
+- (history) The first large-scale production of the cheese was established at Midtsjællands Herregårdsmejeri in the early 1940s.
 - (inspiration) Esrom is named after Esrum Abbey.
 - (origin) Esrom comes from Denmark.
+
+More fun facts (when the user asks for more):
+
+- (history) It takes its name from the monastery, Esrom Abbey, where it was produced until 1559.
+- (history) The production of modern-style Esrom cheese was standardized at Statens Forsøgsmejeri in the 1930s.
+- (history) Esrom was one of the most popular Danish cheeses in the 1960s but then almost disappeared.
 
 Learn more:
 
@@ -702,7 +823,14 @@ Flæskesteg, the Danish version of roast pork, is considered to be one of Denmar
 
 Fun facts:
 
+- (origin) Pork has been eaten by Danes for centuries, but it was after the Industrial Revolution in the 1860s when wood-fired ovens were introduced for use in the home that, in addition to sausages and hams, roast pork became a common dish.
 - (culture) Always prepared with crackling, it is traditionally on the menu for the Danish Christmas dinner served as the evening meal on Christmas Eve.
+- (culture) The traditional method of preparation is to roast a joint of pork from the breast or neck without removing the rind.
+
+More fun facts (when the user asks for more):
+
+- (culture) Flæskesteg is traditionally accompanied by both boiled potatoes and caramelized potatoes (brunede kartofler).
+- (culture) Many Danes consider the traditional recipe to be the one described by Frk.
 - (origin) Flæskesteg comes from Denmark.
 
 Learn more:
@@ -724,6 +852,12 @@ Havarti or cream Havarti is a semisoft Danish cow's milk cheese.
 - Ingredients (Wikidata): cow's milk
 
 Fun facts:
+
+- (history) In 1952, the cheese was named Havarti, after Havartigården near Holte, where the Danish cheese pioneer Hanne Nielsen worked in the 19th century.
+- (about) Among other cheeses, Nielsen created a Tilsit cheese with caraway for King Christian IX of Denmark.
+- (inspiration) Some sources, such as The Oxford Companion to Cheese, say that Nielsen invented Havarti cheese, while the Dansk Biografisk Leksikon states that the current Havarti is not based on her cheesemaking.
+
+More fun facts (when the user asks for more):
 
 - (inspiration) Havarti is named after Havarthigaarden.
 - (origin) Havarti comes from Denmark.
@@ -747,7 +881,20 @@ Mustard is a condiment made from the seeds of a mustard plant, which may be the 
 
 Fun facts:
 
+- (origin) Yellow mustard paste originated in China during the Zhou dynasty (1046–256 BC), when the mustard seeds were ground and made into paste.
+- (history) First attested in English in the late 13th century, 'mustard' was used as a surname a century earlier.
+- (about) Evidence of mustard in the archaeological record is scarce since species in the Brassicaceae family do not accumulate silica and therefore do not produce phytoliths.
+
+More fun facts (when the user asks for more):
+
+- (history) The first appearance of mustard-makers on the royal registers in Paris was in 1292.
+- (history) The Indus Valley Civilization existed until about 1850 BC.
+- (history) It was often used in the royal courts during the Zhou Dynasty to help whet the appetite for the later courses in a meal.
+- (history) In the 10th century the monks of Saint-Germain-des-Prés in Paris began their own production of mustard.
+- (history) Dijon, France, had become a recognized centre for mustard making by the 13th century.
+- (history) The popularity of mustard in Dijon is evidenced by written accounts of guests consuming 320 litres (70 imp gal) of mustard creme in a single sitting at a gala held by the Duke of Burgundy in 1336.
 - (about) As a paste or as individual seeds, mustard is used as a condiment in the cuisine of India and Bangladesh, the Mediterranean, northern and southeastern Europe, Asia, the Americas, and Africa, making it one of the most popular and widely used spices and condiments in the world.
+- (about) Mustard greens have been popularly consumed in China.
 - (origin) Mustard comes from Italy.
 
 Learn more:
@@ -826,6 +973,7 @@ Stegt flæsk is a dish from Scandinavia consisting of fried pork belly and gener
 
 Fun facts:
 
+- (about) Jimi and René, a musical duo from Denmark, recorded a song on their Volume Four To Som Os album called "stegt flæsk med persillesovs".
 - (origin) Stegt flæsk comes from Denmark.
 
 Learn more:
@@ -849,11 +997,12 @@ Fun facts:
 
 - (about) Despite the fact that various types of alcohol have been used to make sauces for centuries, the lack of documentation of whisky sauce would seem to indicate that it is a relatively modern invention.
 - (origin) Whisky sauce comes from United Kingdom.
-- (culture) Due to the distinctly Scottish nature of the sauce, recipes including whisky sauce have been popularised as dishes to be eaten on Burns supper along with the traditional main course of haggis.
+- (inspiration) Whisky sauce is created by pouring an amount of whisky into a saucepan.
 
 More fun facts (when the user asks for more):
 
 - (about) However the documentation of whisky in savoury cooking goes back to at least Victorian times, where its use in meals is documented in Isabella Beeton's famous cookery book Mrs Beeton's Book of Household Management.
+- (culture) Due to the distinctly Scottish nature of the sauce, recipes including whisky sauce have been popularised as dishes to be eaten on Burns supper along with the traditional main course of haggis.
 
 Learn more:
 
@@ -874,6 +1023,17 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q17064677) (CC0); [Wikipedia: 
 
 Fun facts:
 
+- (inspiration) The first appearance of the word "æbleskiver" occurs in Peters Jul (1866), a book of Yule poems by Johan Krohn (1841–1925; son of Frederik Christopher Krohn and brother of Pietro Krohn). "Apple-filled æbleskiver" are also mentioned in the 1872 story "The Cripple" (Krøblingen) by Hans Christian Andersen.
+- (origin) According to another explanation, the custom of making a special sliced-apple dish originated in the Middle Ages when it was impossible to store raw apples beyond a certain date.
+- (history) In the 17th century, as cast iron pans with hemispherical concavities became available, æbleskiver could be easily made throughout the year, and the variety of fruit and other fillings expanded.
+
+More fun facts (when the user asks for more):
+
+- (culture) They are traditionally served with jam and powdered sugar and three are placed on a plate at a time.
+- (culture) They are traditionally eaten during the Christmas season and are often served with gløgg (Scandinavian mulled wine).
+- (about) They are also served at children's birthday parties, due to their popularity and easy preparation.
+- (culture) In North America there are several annual events that celebrate æbleskiver and Danish culture, with churches and museums holding "Æbleskiver Suppers" and similar events.
+- (about) One popular speculation is that a band of Vikings were part of a difficult battle.
 - (origin) Æbleskiver comes from Denmark.
 
 Learn more:
