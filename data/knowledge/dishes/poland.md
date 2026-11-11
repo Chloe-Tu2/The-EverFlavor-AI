@@ -1767,48 +1767,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3495663) (CC0); [Wikipedia: Chopin (vodka)](https://en.wikipedia.org/wiki/Chopin_(vodka)) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Coffee
-
-Coffee is a beverage brewed from roasted, ground coffee beans.
-
-- From: Poland
-- Origin (Wikidata): Ethiopia, Yemen
-- Ingredients (Wikidata): coffee bean, hot water, phytochemicals
-
-Fun facts:
-
-- (origin) The terms coffee pot and coffee break originated in 1705 and 1952, respectively.
-- (history) As it gained in popularity, coffee started to be cultivated in Java in the 17th century and the Americas from the 18th century.
-- (inspiration) In another commonly repeated legend, Kaldi, a 9th-century Ethiopian or Arab goatherd, first observed the coffee plant after seeing his flock energized by chewing on the plant.
-
-More fun facts (when the user asks for more):
-
-- (history) The earliest reports of coffee drinking pertain to the plant's use among the Sufis of Yemen in southern Arabia in the middle of the 15th century.
-- (history) Up to the end of the 17th century, most of the world's coffee was imported from Yemen.
-- (history) The word coffee entered the English language in 1582 via the Dutch koffie, borrowed from the Ottoman Turkish kahve, borrowed from the Arabic qahwah.
-- (origin) Ralph S. Hattox records traditions in which the Islamic prophet Muhammad is said to have been introduced to a stimulating beverage by the Angel Gabriel, who recommended it for its restorative qualities.
-- (inspiration) Another legend attributes the discovery of coffee to a Sheikh Omar.
-- (history) There is no confirmed evidence, either historical or archaeological, of coffee as a drink being consumed before the 15th century.
-- (history) By the late 15th century, coffee drinking was well established among Sufi communities in Yemen.
-- (history) Coffee appears to have been likely collected from wild plants, with some indications that its use expanded from the 14th century among certain Islamized groups in southeastern Ethiopia, though direct evidence for early consumption remains scarce.
-- (culture) Though coffee has become a global commodity, it has a history tied to food traditions around the Red Sea.
-- (about) The global coffee industry was worth US$495.50 billion in 2023.
-- (about) In 2023, Brazil was the leading grower of coffee beans, producing 31% of the world's total, followed by Vietnam.
-- (origin) Coffee comes from Ethiopia, Yemen.
-- (about) The herder is unnamed in the earliest account and the name Kaldi appears to be a later invention from the twentieth century.
-- (culture) Medieval Arabic lexicons traditionally held that the etymology of qahwah meant 'wine', given its distinctly dark color, and was derived from the verb qahiya, 'to have no appetite'.
-- (about) Not to be confused with Joe, Kawa.
-
-Learn more:
-
-- quick: [Coffee (Wikipedia)](https://en.wikipedia.org/wiki/Coffee)
-- more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
-- more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
-- deep: [Books about Coffee (Open Library)](https://openlibrary.org/search?q=Coffee)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q8486)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q8486) (CC0); [Wikipedia: Coffee](https://en.wikipedia.org/wiki/Coffee) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Edible mushroom
 
 Edible mushrooms are the fleshy fruit bodies of numerous species of properly identified and prepared fungi.

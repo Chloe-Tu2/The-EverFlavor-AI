@@ -2493,26 +2493,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7435296) (CC0); [Wikipedia: Scorched rice](https://en.wikipedia.org/wiki/Scorched_rice) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Shiitake
-
-The shiitake is an edible mushroom native to East Asia and mainland Southeast Asia, which is cultivated and consumed around the globe.
-
-- From: South Korea
-
-Fun facts:
-
-- (history) The earliest written records of their cultivation dates to 1209, during the Song dynasty in China.
-- (about) Not to be confused with Shia Islam.
-
-Learn more:
-
-- quick: [Shiitake (Wikipedia)](https://en.wikipedia.org/wiki/Shiitake)
-- more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
-- deep: [Books about Shiitake (Open Library)](https://openlibrary.org/search?q=Shiitake)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q320999)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q320999) (CC0); [Wikipedia: Shiitake](https://en.wikipedia.org/wiki/Shiitake) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Sicklepod tea
 
 Gyeolmyeongja-cha or sicklepod tea is a tea made from roasted (but not ground) seeds of Senna (formerly Cassia) spp., especially S. obtusifolia and S. tora.

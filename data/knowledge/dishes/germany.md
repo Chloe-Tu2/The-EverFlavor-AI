@@ -239,46 +239,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q154482) (CC0); [Wikipedia: Blood sausage](https://en.wikipedia.org/wiki/Blood_sausage) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Borscht
-
-Borscht is a sour soup, made with meat stock, vegetables and seasonings, common in Eastern Europe, Central Europe and Northern Asia.
-
-- From: Germany
-- Origin (Wikidata): Kievan Rus'
-- Ingredients (Wikidata): carrot, potato, onion, Brassica oleracea var. capitata, Brassica oleracea, Beta vulgaris, beet, beet kvass, white cabbage
-
-Fun facts:
-
-- (origin) In English, the word borscht, borrowed via Yiddish, is most often associated with the variant of the soup originating in Ukraine, made with red beetroots as one of the main ingredients, which give the dish its distinctive red color.
-- (about) In North America, borscht is often linked with either Jews or Mennonites, the groups who first brought it there from Europe.
-- (culture) Several ethnic groups claim borscht, in its various local implementations, as their own national dish consumed as part of ritual meals within Orthodox, Greek Catholic, Roman Catholic, and Jewish religious traditions.
-
-More fun facts (when the user asks for more):
-
-- (culture) In 2022, shortly after Russia's invasion of Ukraine, UNESCO recognized the "Culture of Ukrainian borscht cooking" on its List of Intangible Cultural Heritage in Need of Urgent Safeguarding.
-- (culture) UNESCO noted that several countries in the broader region have also practiced borscht cooking and their inscription does not imply exclusivity or ownership of the dish for any particular country.
-- (origin) The English form borscht comes from Yiddish באָרשט (borsht), as the dish was first popularized in North America by Yiddish-speaking Ashkenazi Jews from Eastern Europe.
-- (history) As early as the 19th century, it was recommended for fever and sore throat.
-- (about) It was believed to purify the blood, improve the complexion, and restore appetite.
-- (history) According to A Gift to Young Housewives, a book from the 19th century, "borscht" may or may not include beets (depending from recipe to recipe in the book).
-- (about) With time, it evolved into a diverse array of tart soups, among which the Ukrainian beet-based red borscht has become the most popular.
-- (culture) Although borscht is mostly used to describe a beet-based soup, there are soups in some culinary traditions with the same or similar names, but with sometimes wide variations in ingredients and preparation methods.
-- (about) In Polish cuisine, white borscht (barszcz biały, also known as żur or żurek, 'sour soup') is made from a fermented mixture of rye flour or oatmeal and water.
-- (inspiration) Like beetroot borscht, it is based on meat or vegetable broth and is typically served with boiled potatoes and hard-boiled eggs, sprinkled with dill.
-- (about) Borscht is used to impart a sour taste to a variety of tangy Romanian soups, known as either also borș or ciorbă.
-- (origin) Borscht comes from Kievan Rus'.
-- (history) Its popularity has spread throughout Eastern Europe and—by way of migration away from the Russian Empire—to other continents.
-
-Learn more:
-
-- quick: [Borscht (Wikipedia)](https://en.wikipedia.org/wiki/Borscht)
-- more: [List of German dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_German_dishes)
-- more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
-- deep: [Books about Borscht (Open Library)](https://openlibrary.org/search?q=Borscht)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4551)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q4551) (CC0); [Wikipedia: Borscht](https://en.wikipedia.org/wiki/Borscht) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Breadcrumbs
 
 Breadcrumbs are a culinary ingredient consisting of flour or crumbled bread of varying dryness, sometimes with seasonings added.

@@ -23,39 +23,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q19949631) (CC0); [Wikipedia: Aguachile](https://en.wikipedia.org/wiki/Aguachile) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Al pastor
-
-Al pastor (from Spanish, "herdsman style"), tacos al pastor, or tacos de trompo is a preparation of sliced, spit-grilled meat, usually pork, originating in the Central Mexican region of Puebla where they remain most prominent, though it is a common menu item found in taquerías throughout Mexico.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): pork, pineapple
-
-Fun facts:
-
-- (history) During the 19th century, variations of a vertically grilled meat dish doner, now known by several names, started to spread throughout the Ottoman Empire.
-- (inspiration) The method of preparing and cooking al pastor is based on the lamb shawarma brought by Lebanese immigrants to the region.
-- (culture) Al pastor features a flavor palette that uses traditional Mexican adobada (marinade).
-
-More fun facts (when the user asks for more):
-
-- (history) It is unknown when they began to be prepared as we know them today; however, some agree that it was in the 1960s when they became popular.
-- (culture) Al pastor is a popular street food that has spread to the United States.
-- (about) In some places of northern Mexico and coastal Mexico, such as in Baja California, taco al pastor is known as taco de trompo or taco de adobada.
-- (about) The asado al pastor, also known as “asado del pastor”, “carbonada” and “asado a la estaca”, was one of the styles for roasting or “barbecuing” meats in the Mexican countryside, the other one being barbacoa.
-- (origin) Al pastor comes from Mexico.
-- (history) By the 1920s, lamb meat was mostly replaced by pork.
-- (about) Not to be confused with carnitas, Carne asada, taco acorazado.
-
-Learn more:
-
-- quick: [Al pastor (Wikipedia)](https://en.wikipedia.org/wiki/Al_pastor)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Al pastor (Open Library)](https://openlibrary.org/search?q=Al%20pastor)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2386967)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q2386967) (CC0); [Wikipedia: Al pastor](https://en.wikipedia.org/wiki/Al_pastor) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Alfajor
 
 An alfajor or alajú is a traditional confection.
@@ -187,64 +154,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q10859394) (CC0); [Wikipedia: Beefsteak](https://en.wikipedia.org/wiki/Beefsteak) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Bionico
-
-Bionico is a popular Mexican dessert that originated in the city of Guadalajara in Jalisco, Mexico, in the early 1990s.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (origin) Bionico comes from Mexico.
-- (history) According to the Gómez Ruiz family, one of the earliest versions of the biónico was created in the early 1970s at the Mercado Alcalde in Guadalajara.
-- (about) Gómez Ruiz developed a fruit-based dessert known as the rickyross, which used a blend of fresh fruit juice and blended guava as a sweet topping.
-
-More fun facts (when the user asks for more):
-
-- (about) This preparation eventually evolved into what is now widely known as the biónico.
-
-Learn more:
-
-- quick: [Bionico (Wikipedia)](https://en.wikipedia.org/wiki/Bionico)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Bionico (Open Library)](https://openlibrary.org/search?q=Bionico)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17064154)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q17064154) (CC0); [Wikipedia: Bionico](https://en.wikipedia.org/wiki/Bionico) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Birria
-
-Birria is a regional variation of barbacoa from western Mexico, mainly made with goat, beef or lamb.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (inspiration) According to another legend, the dish was invented accidentally during the eruption of a volcano, when a shepherd was forced to abandon his goats in a cave where they were cooked perfectly by the steam.
-- (history) Mexican linguist and philologist Darío Rubio wrote in 1925 that "birria" was a lower social class term for "barbacoa".
-- (culture) It is often served at celebratory occasions such as weddings, baptisms and during holidays such as Christmas and Easter, and even at funerals.
-
-More fun facts (when the user asks for more):
-
-- (history) Mexican historian Leovigildo Islas Escárcega stated in 1945 that birria was a term specifically from Jalisco and some areas of the interior for barbacoa.
-- (history) Mexican linguist and philologist Francisco J. Santamaría defined the term in 1959 as being another name for barbacoa, typically made from lamb or goat, and cited the work of Mexican scholar José Ignacio Dávila Garibi who argued that the term was of Coca origin and not from the Spanish term birria meaning worthless.
-- (history) Mexican writer and essayist Jorge Mejia Prieto defined it in 1985 as a "soupy barbacoa made with lamb or goat meat from Guadalajara, Jalisco".
-- (about) Restaurants or street carts that serve birria are known as birrierías and exist throughout Mexico, especially in Michoacán and Jalisco.
-- (origin) Birria comes from Mexico.
-- (about) Not to be confused with Birria.
-- (history) The Cuban professor Félix Ramos y Duarte had defined the term in 1898 as a regionalism from Mexico City for goat barbacoa or roasted goat.
-
-Learn more:
-
-- quick: [Birria (Wikipedia)](https://en.wikipedia.org/wiki/Birria)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Birria (Open Library)](https://openlibrary.org/search?q=Birria)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4916959)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q4916959) (CC0); [Wikipedia: Birria](https://en.wikipedia.org/wiki/Birria) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Biscocho
 
 Biscocho, also spelled biskotso (from Spanish: bizcocho), refers to various types of Filipino twice-baked breads, usually coated with butter and sugar, or garlic in some cases.
@@ -272,54 +181,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4918187)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q4918187) (CC0); [Wikipedia: Biscocho](https://en.wikipedia.org/wiki/Biscocho) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Bolillo
-
-A bolillo or pan francés (in Central America, meaning "French bread") is a type of savory bread made in Mexico and Central America.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (origin) Brought to Mexico City in the 1860s by Emperor Maximilian's troupe of cooks, its use quickly spread throughout the country.
-- (about) Bolillo is roughly 15 centimeters (5.9 in) long, in the shape of an ovoid (similar to an American football), with a crunchy crust and a soft inside known as migajón.
-- (origin) Bolillo comes from Mexico.
-
-Learn more:
-
-- quick: [Bolillo (Wikipedia)](https://en.wikipedia.org/wiki/Bolillo)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Bolillo (Open Library)](https://openlibrary.org/search?q=Bolillo)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4939444)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q4939444) (CC0); [Wikipedia: Bolillo](https://en.wikipedia.org/wiki/Bolillo) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Burro percherón
-
-A burro percherón is a traditional dish from the Mexican state of Sonora, originating in the cities of Hermosillo and Guaymas.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (about) A variation of the classic burrito, it is one of the most popular foods in these two cities, being offered in several establishments, both establishments and mobile food trucks, where they are offered mainly at night, although recently there are establishments that offer burro percherón in its menu throughout the day.
-- (culture) Traditionally the burro percherón are prepared with grilled or charcoal-roasted meat, avocado, Mexican cheese or chihuahua cheese, and tomatoes (although variants exist in each restaurant).
-- (origin) Burro percherón comes from Mexico.
-
-More fun facts (when the user asks for more):
-
-- (culture) Burro percherón was rather a derivation from traditional burrito, made with wheat flour tortilla flour, in which meat is usually added to the iron and / or roasted with other variations.
-
-Learn more:
-
-- quick: [Burro percherón (Wikipedia)](https://en.wikipedia.org/wiki/Burro_percher%C3%B3n)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Burro percherón (Open Library)](https://openlibrary.org/search?q=Burro%20percher%C3%B3n)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5735843)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q5735843) (CC0); [Wikipedia: Burro percherón](https://en.wikipedia.org/wiki/Burro_percherón) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Buñuelo
 
@@ -486,47 +347,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7083004)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7083004) (CC0); [Wikipedia: Caldo tlalpeño](https://en.wikipedia.org/wiki/Caldo_tlalpeño) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Carne a la tampiqueña
-
-Carne a la tampiqueña is one of the most popular meat dishes in Mexico.
-
-- From: Mexico
-
-Fun facts:
-
-- (history) Carne a la tampiqueña was created in 1939 by the restaurateur José Inés Loredo and his brother chef Fidel, originally from San Luis Potosí, at their restaurant "Tampico Club" on Avenida Mexico in México City.
-- (inspiration) The restaurant was named in honor of the years the brothers had lived in the port of Tampico, Tamaulipas.
-
-Learn more:
-
-- quick: [Carne a la tampiqueña (Wikipedia)](https://en.wikipedia.org/wiki/Carne_a_la_tampique%C3%B1a)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Carne a la tampiqueña (Open Library)](https://openlibrary.org/search?q=Carne%20a%20la%20tampique%C3%B1a)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20748063)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q20748063) (CC0); [Wikipedia: Carne a la tampiqueña](https://en.wikipedia.org/wiki/Carne_a_la_tampiqueña) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Cemita
-
-The cemita is a sandwich originally from Puebla, Mexico.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (about) Also known as cemita poblana, it derives from the city (and region) of Puebla.
-- (origin) Cemita comes from Mexico.
-
-Learn more:
-
-- quick: [Cemita (Wikipedia)](https://en.wikipedia.org/wiki/Cemita)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Cemita (Open Library)](https://openlibrary.org/search?q=Cemita)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q109353074)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q109353074) (CC0); [Wikipedia: Cemita](https://en.wikipedia.org/wiki/Cemita) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Chahuis
 
@@ -697,25 +517,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1072902) (CC0); [Wikipedia: Chiles en nogada](https://en.wikipedia.org/wiki/Chiles_en_nogada) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Chilorio
-
-Chilorio is a pork dish from the Mexican state of Sinaloa.
-
-- From: Mexico
-
-Fun facts:
-
-- (about) This recipe has been known for approximately 300 years and is believed to have been used as a means of preserving stewed meat, as the seasonings act as natural preservatives just like lard, in the same way as a sausage, only this one does not come packed in any casing or membrane.
-
-Learn more:
-
-- quick: [Chilorio (Wikipedia)](https://en.wikipedia.org/wiki/Chilorio)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Chilorio (Open Library)](https://openlibrary.org/search?q=Chilorio)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5099176)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q5099176) (CC0); [Wikipedia: Chilorio](https://en.wikipedia.org/wiki/Chilorio) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Chimichanga
 
 A chimichanga is a deep-fried burrito that is common in Southwestern U.S. cuisine.
@@ -840,21 +641,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q503129) (CC0); [Wikipedia: Chocolate brownie](https://en.wikipedia.org/wiki/Chocolate_brownie) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Chongos zamoranos
-
-Chongos zamoranos is a Mexican dessert made of curdled milk.
-
-- From: Mexico
-
-Learn more:
-
-- quick: [Chongos zamoranos (Wikipedia)](https://en.wikipedia.org/wiki/Chongos_zamoranos)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Chongos zamoranos (Open Library)](https://openlibrary.org/search?q=Chongos%20zamoranos)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6410637)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q6410637) (CC0); [Wikipedia: Chongos zamoranos](https://en.wikipedia.org/wiki/Chongos_zamoranos) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Churro
 
 A churro is a type of fried dough from Spanish and Portuguese cuisine, made with choux pastry dough piped into hot oil with a piping bag and large closed star tip or similar shape.
@@ -916,28 +702,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2981212)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2981212) (CC0); [Wikipedia: Cocada](https://en.wikipedia.org/wiki/Cocada) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Cochinita pibil
-
-Cochinita pibil (also puerco pibil or cochinita con achiote) is a traditional Yucatec Mayan slow-roasted pork dish from the Yucatán Peninsula of Mexico.
-
-- From: Mexico
-- Origin (Wikidata): Yucatán
-- Ingredients (Wikidata): pork, annatto, citrus fruit
-
-Fun facts:
-
-- (culture) Preparation of traditional cochinita involves marinating the meat in strongly acidic citrus juice, adding annatto seed, which imparts a vivid burnt orange color, and roasting the meat in a píib while it is wrapped in banana leaf.
-- (origin) Cochinita pibil comes from Yucatán.
-
-Learn more:
-
-- quick: [Cochinita pibil (Wikipedia)](https://en.wikipedia.org/wiki/Cochinita_pibil)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Cochinita pibil (Open Library)](https://openlibrary.org/search?q=Cochinita%20pibil)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4804467)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q4804467) (CC0); [Wikipedia: Cochinita pibil](https://en.wikipedia.org/wiki/Cochinita_pibil) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Cochinito de piloncillo
 
@@ -1029,26 +793,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5171058)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5171058) (CC0); [Wikipedia: Corn on the cob](https://en.wikipedia.org/wiki/Corn_on_the_cob) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Corunda
-
-Corunda is a Mexican type of tamale, but wrapped in a long corn or reed plant leaf, and folded, making a triangular shape or spherical shape.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (origin) Corunda comes from Mexico.
-
-Learn more:
-
-- quick: [Corunda (Wikipedia)](https://en.wikipedia.org/wiki/Corunda)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Corunda (Open Library)](https://openlibrary.org/search?q=Corunda)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3694877)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q3694877) (CC0); [Wikipedia: Corunda](https://en.wikipedia.org/wiki/Corunda) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Curtido
 
@@ -1273,21 +1017,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5504556) (CC0); [Wikipedia: Frijoles negros](https://en.wikipedia.org/wiki/Frijoles_negros) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Frijoles Puercos
-
-Frijoles Puercos (pig beans) is a traditional Mexican dish.
-
-- From: Mexico
-
-Learn more:
-
-- quick: [Frijoles Puercos (Wikipedia)](https://en.wikipedia.org/wiki/Frijoles_Puercos)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Frijoles Puercos (Open Library)](https://openlibrary.org/search?q=Frijoles%20Puercos)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16882443)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q16882443) (CC0); [Wikipedia: Frijoles Puercos](https://en.wikipedia.org/wiki/Frijoles_Puercos) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Fritada
 
 Fritada is a typical dish in Ecuadorian cuisine.
@@ -1353,74 +1082,28 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q152834) (CC0); [Wikipedia: Fruit salad](https://en.wikipedia.org/wiki/Fruit_salad) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Huachinango a la Veracruzana
+### Gordita
 
-Huachinango a la Veracruzana (Veracruz-style red snapper) is a classic fish dish from Veracruz, Mexico.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): Red snapper
-
-Fun facts:
-
-- (culture) Huachinango a la Veracruzana is traditionally served with small roasted potatoes and Mexican-style white rice.
-- (origin) Huachinango a la Veracruzana comes from Mexico.
-- (culture) Traditionally, a whole red snapper is used, gutted and de-scaled and marinated in lime juice, salt, pepper, nutmeg and garlic.
-
-Learn more:
-
-- quick: [Huachinango a la Veracruzana (Wikipedia)](https://en.wikipedia.org/wiki/Huachinango_a_la_Veracruzana)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Huachinango a la Veracruzana (Open Library)](https://openlibrary.org/search?q=Huachinango%20a%20la%20Veracruzana)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17073167)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q17073167) (CC0); [Wikipedia: Huachinango a la Veracruzana](https://en.wikipedia.org/wiki/Huachinango_a_la_Veracruzana) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Huarache (food)
-
-Huarache is a popular Mexican dish consisting of masa dough with smashed pinto beans placed in the center before it is given an oblong shape, fried, topped with green or red salsa, onions, potato, cilantro and any manner of protein such as ground beef or tongue, then finished with queso fresco.
-
-- From: Mexico
-
-Fun facts:
-
-- (origin) Huaraches originated in Mexico City in about the early 1930s.
-- (about) Because Gómez's new invention was shaped differently than a sope or a tlacoyo and resembled the sole of a sandal, people started to call it "huarache".
-- (history) When the navigation channel was covered to make the "Calzada de la Viga", Gómez moved to another place and after 1957, when the Mercado de Jamaica was founded, she moved there, and then to a little place at Torno street.
-
-More fun facts (when the user asks for more):
-
-- (about) The name "huarache" is derived from the shape of the masa, similar to the popular sandals of the same name.
-
-Learn more:
-
-- quick: [Huarache (food) (Wikipedia)](https://en.wikipedia.org/wiki/Huarache_%28food%29)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Huarache (food) (Open Library)](https://openlibrary.org/search?q=Huarache%20%28food%29)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11682627)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q11682627) (CC0); [Wikipedia: Huarache (food)](https://en.wikipedia.org/wiki/Huarache_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Huevos motuleños
-
-Huevos motuleños is a breakfast food which originated in the town of Motul (Yucatán).
+A gordita in Mexican cuisine is a dish made with masa and stuffed with cheese, meat, or other fillings.
 
 - From: Mexico
 - Origin (Wikidata): Mexico
-- Ingredients (Wikidata): cheese, Pisum sativum, egg as food, ham, tomato sauce, corn tortilla
+- Ingredients (Wikidata): salsa (food), chicharrón, corn tortilla
 
 Fun facts:
 
-- (origin) Huevos motuleños comes from Mexico.
+- (origin) Gordita comes from Mexico.
+- (about) Not to be confused with taco, burrito, tostada.
 
 Learn more:
 
-- quick: [Huevos motuleños (Wikipedia)](https://en.wikipedia.org/wiki/Huevos_motule%C3%B1os)
+- quick: [Gordita (Wikipedia)](https://en.wikipedia.org/wiki/Gordita)
+- more: [Cuisine of Baja California (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Baja_California)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Huevos motuleños (Open Library)](https://openlibrary.org/search?q=Huevos%20motule%C3%B1os)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5929345)
+- deep: [Books about Gordita (Open Library)](https://openlibrary.org/search?q=Gordita)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5584732)
 
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q5929345) (CC0); [Wikipedia: Huevos motuleños](https://en.wikipedia.org/wiki/Huevos_motuleños) (CC BY-SA 4.0). Review: auto-cleaned.
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5584732) (CC0); [Wikipedia: Gordita](https://en.wikipedia.org/wiki/Gordita) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Ice pop
 
@@ -1574,28 +1257,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3232603) (CC0); [Wikipedia: Marie biscuit](https://en.wikipedia.org/wiki/Marie_biscuit) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Marquesita
-
-A marquesita is a dessert native to the state of Yucatán, Mexico.
-
-- From: Mexico
-- Ingredients (Wikidata): chocolate, Edam, dulce de leche, condensed milk, marmalade
-
-Fun facts:
-
-- (history) Marquesitas were created in the 1930s by Leopoldo Mena, an ice cream business owner, who did not have as many customers in the winter season.
-- (about) It consists of a crepe, rolled and filled with cajeta, condensed milk, jam, chocolate or edam cheese, also known as queso de bola.
-- (about) To attract more customers, he invented a new sweet and integrated the sweet taste of jams with the salty taste of queso de bola, which became a success.
-
-Learn more:
-
-- quick: [Marquesita (Wikipedia)](https://en.wikipedia.org/wiki/Marquesita)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Marquesita (Open Library)](https://openlibrary.org/search?q=Marquesita)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q77501769)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q77501769) (CC0); [Wikipedia: Marquesita](https://en.wikipedia.org/wiki/Marquesita) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Marzipan
 
 Marzipan is a confection consisting primarily of sugar and almond meal (ground almonds), sometimes augmented with almond oil or extract.
@@ -1626,33 +1287,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q106252)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q106252) (CC0); [Wikipedia: Marzipan](https://en.wikipedia.org/wiki/Marzipan) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Memela
-
-Memelas, also known as memelitas, are fried or toasted cakes made of masa topped with different fresh ingredients eaten as antojitos or snacks in the states of Guerrero, Oaxaca, Tlaxcala, and Puebla, Mexico, which have their origins in prehispanic food.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): masa
-
-Fun facts:
-
-- (history) Memelas have been served at Oaxacan Mexican restaurants in the United States since the 1990s.
-- (culture) Although the traditional memela is supposed to be topped with no other ingredients, those toppings now vary.
-- (origin) Memela comes from Mexico.
-
-More fun facts (when the user asks for more):
-
-- (culture) In the Netflix Street Food series, memelas were prominently featured for locals and tourists.
-
-Learn more:
-
-- quick: [Memela (Wikipedia)](https://en.wikipedia.org/wiki/Memela)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Memela (Open Library)](https://openlibrary.org/search?q=Memela)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6815190)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q6815190) (CC0); [Wikipedia: Memela](https://en.wikipedia.org/wiki/Memela) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Mexican rice
 
@@ -1781,28 +1415,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q16608468) (CC0); [Wikipedia: Mole de olla](https://en.wikipedia.org/wiki/Mole_de_olla) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Morisqueta
-
-Morisqueta is a Mexican dish native to Apatzingán, Michoacán.
-
-- From: Mexico
-- Origin (Wikidata): Mexico, Philippines
-
-Fun facts:
-
-- (culture) Espinaca is traditionally the cut of pork that is served with this dish in a spicy green, Chile verde, sauce.
-- (origin) Morisqueta comes from Mexico, the Philippines.
-- (culture) Cooked and served with the sauce, traditionally may be served with cubes of adobera, a kind of cheese, ranchero or fresh cheese, which melts as you eat.
-
-Learn more:
-
-- quick: [Morisqueta (Wikipedia)](https://en.wikipedia.org/wiki/Morisqueta)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Morisqueta (Open Library)](https://openlibrary.org/search?q=Morisqueta)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6024261)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q6024261) (CC0); [Wikipedia: Morisqueta](https://en.wikipedia.org/wiki/Morisqueta) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Nopalito
 
 Nopalitos is a dish made with diced nopales, the naturally flat stems, called pads, of prickly pear cactus (Opuntia).
@@ -1921,41 +1533,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6059387) (CC0); [Wikipedia: Pan dulce](https://en.wikipedia.org/wiki/Pan_dulce) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Papadzules
-
-Papadzules is a traditional dish from the Yucatán Peninsula resembling enchiladas.
-
-- From: Mexico
-
-Fun facts:
-
-- (about) First, there is a lack of comals in the archaeological record of the Yucatán, implying that the Mayans did not make the thin tortillas required for filling.
-- (about) Second, the historical record seems to indicate that the Mayans preferred making thicker tortillas cooked in ashes.
-
-Learn more:
-
-- quick: [Papadzules (Wikipedia)](https://en.wikipedia.org/wiki/Papadzules)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Papadzules (Open Library)](https://openlibrary.org/search?q=Papadzules)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6060064)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q6060064) (CC0); [Wikipedia: Papadzules](https://en.wikipedia.org/wiki/Papadzules) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Pastel azteca
-
-Pastel azteca is a traditional Mexican dish made with alternating layers of fried corn tortillas, tomato sauce, poblano pepper strips, corn kernels, onion strips, cream, and Oaxaca cheese or Chihuahua cheese.
-
-- From: Mexico
-
-Learn more:
-
-- quick: [Pastel azteca (Wikipedia)](https://en.wikipedia.org/wiki/Pastel_azteca)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Pastel azteca (Open Library)](https://openlibrary.org/search?q=Pastel%20azteca)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20751125)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q20751125) (CC0); [Wikipedia: Pastel azteca](https://en.wikipedia.org/wiki/Pastel_azteca) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Picadillo
 
 Picadillo is a traditional dish in many Latin American countries including Mexico and Cuba, as well as the Philippines.
@@ -1971,21 +1548,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q166128)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q166128) (CC0); [Wikipedia: Picadillo](https://en.wikipedia.org/wiki/Picadillo) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Poc chuc
-
-Poc chuc is a Mayan dish of meat, commonly pork, that is prepared in citrus marinade and cooked over a grill.
-
-- From: Mexico
-
-Learn more:
-
-- quick: [Poc chuc (Wikipedia)](https://en.wikipedia.org/wiki/Poc_chuc)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Poc chuc (Open Library)](https://openlibrary.org/search?q=Poc%20chuc)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q15010030)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q15010030) (CC0); [Wikipedia: Poc chuc](https://en.wikipedia.org/wiki/Poc_chuc) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Pollo a la brasa
 
@@ -2036,21 +1598,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q136700752)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q136700752) (CC0); [Wikipedia: Pollo al carbón](https://en.wikipedia.org/wiki/Pollo_al_carbón) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Pollo motuleño
-
-Pollo motuleño is a dish originating from the town of Motul, Yucatán.
-
-- From: Mexico
-
-Learn more:
-
-- quick: [Pollo motuleño (Wikipedia)](https://en.wikipedia.org/wiki/Pollo_motule%C3%B1o)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Pollo motuleño (Open Library)](https://openlibrary.org/search?q=Pollo%20motule%C3%B1o)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7225702)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q7225702) (CC0); [Wikipedia: Pollo motuleño](https://en.wikipedia.org/wiki/Pollo_motuleño) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Polvorón
 
@@ -2203,25 +1750,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q605444) (CC0); [Wikipedia: Romeritos](https://en.wikipedia.org/wiki/Romeritos) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Salbute
-
-A salbut is a puffed deep fried tortilla that is topped with lettuce, sliced avocado, pulled chicken or turkey, tomato and pickled red onion.
-
-- From: Mexico
-
-Fun facts:
-
-- (origin) Salbutes originate from the Yucatán Peninsula and are a staple in Belize.
-
-Learn more:
-
-- quick: [Salbute (Wikipedia)](https://en.wikipedia.org/wiki/Salbute)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Salbute (Open Library)](https://openlibrary.org/search?q=Salbute)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16900667)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q16900667) (CC0); [Wikipedia: Salbute](https://en.wikipedia.org/wiki/Salbute) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Shaved ice
 
 Shaved ice is a large family of ice-based desserts made of fine shavings of ice and sweet condiments or flavored syrups.
@@ -2249,55 +1777,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7491078) (CC0); [Wikipedia: Shaved ice](https://en.wikipedia.org/wiki/Shaved_ice) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Sincronizada
-
-The quesadilla sincronizada is a flour tortilla-based sandwich made by placing ham, vegetables (like tomatoes, onion, etc.) and a portion of cheese (most commonly Oaxaca cheese) between two flour tortillas.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): ham, cheese, vegetable, tortilla
-
-Fun facts:
-
-- (origin) Sincronizada comes from Mexico.
-
-Learn more:
-
-- quick: [Sincronizada (Wikipedia)](https://en.wikipedia.org/wiki/Sincronizada)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Sincronizada (Open Library)](https://openlibrary.org/search?q=Sincronizada)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9077681)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q9077681) (CC0); [Wikipedia: Sincronizada](https://en.wikipedia.org/wiki/Sincronizada) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Sopa de lima
-
-Lime soup is a traditional dish from the Mexican state of Yucatan, which is made of chicken or some other meat such as pork or beef, lime juice and served with tortilla chips.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): lime, broth, chicken as food, tomato, tortilla
-
-Fun facts:
-
-- (origin) The lime soup as it is known was first created in 1946 by the master called Katún (means "warrior" in the Mayan language).
-- (culture) Lime soup is a traditional dish from Yucatan.
-- (history) Since at least the 1950s, Mexico has been the world's largest producer and exporter of limes.
-
-More fun facts (when the user asks for more):
-
-- (origin) Sopa de lima comes from Mexico.
-- (culture) Traditional Yucatan cuisine has its origins in the Hispanic and Yucatán Mayan culture.
-
-Learn more:
-
-- quick: [Sopa de lima (Wikipedia)](https://en.wikipedia.org/wiki/Sopa_de_lima)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Sopa de lima (Open Library)](https://openlibrary.org/search?q=Sopa%20de%20lima)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28155493)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q28155493) (CC0); [Wikipedia: Sopa de lima](https://en.wikipedia.org/wiki/Sopa_de_lima) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Sopaipilla
 
 A sopaipilla, sopapilla, sopaipa, torta frita or cachanga is a kind of fried pastry and a type of quick bread served in several regions with Spanish heritage in the Americas.
@@ -2318,33 +1797,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q763843)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q763843) (CC0); [Wikipedia: Sopaipilla](https://en.wikipedia.org/wiki/Sopaipilla) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Sope (food)
-
-A sope is a traditional Mexican dish consisting of a fried masa base with savory toppings.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (origin) Also known as picadita (in Tierra Caliente, Guerrero), it originates in the central and southern parts of Mexico, where it was sometimes first known as pellizcadas.
-- (culture) Even though sopes are traditionally from Mexico, many Central American countries have adopted this dish into their cuisine, with slightly different ingredients, and very similar to Salvadoran enchiladas.
-- (about) The most common variation of the sope involves simply adding chicken and is widely known as a sope de pollo.
-
-More fun facts (when the user asks for more):
-
-- (culture) An extremely large dish similar to a giant sope or a giant tostada is the traditional food of reference in Oaxaca known as tlayuda.
-- (origin) Sope comes from Mexico.
-
-Learn more:
-
-- quick: [Sope (food) (Wikipedia)](https://en.wikipedia.org/wiki/Sope_%28food%29)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Sope (food) (Open Library)](https://openlibrary.org/search?q=Sope%20%28food%29)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10751991)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q10751991) (CC0); [Wikipedia: Sope (food)](https://en.wikipedia.org/wiki/Sope_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Swiss roll
 
@@ -2438,97 +1890,28 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2393807) (CC0); [Wikipedia: Taquito](https://en.wikipedia.org/wiki/Taquito) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Tejate
+### Tostada (tortilla)
 
-Tejate [teˈxate] is a non-alcoholic maize and cacao beverage traditionally made in Oaxaca, Mexico, originating from pre-Hispanic times.
-
-- From: Mexico
-- Ingredients (Wikidata): maize, cinnamon, cocoa bean, Zea, Quararibea funebris
-
-Fun facts:
-
-- (about) Tejate remains very popular among the indigenous Mixtec and Zapotec peoples, especially in rural areas.
-- (about) Tejate is also very popular in Oaxaca and the surrounding regions.
-- (about) Principal ingredients include toasted maize, fermented cacao beans, toasted mamey pits (pixtle) and flor de cacao (also known as rosita de cacao).
-
-Learn more:
-
-- quick: [Tejate (Wikipedia)](https://en.wikipedia.org/wiki/Tejate)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Tejate (Open Library)](https://openlibrary.org/search?q=Tejate)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1389341)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q1389341) (CC0); [Wikipedia: Tejate](https://en.wikipedia.org/wiki/Tejate) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Tlayuda
-
-Tlayuda, sometimes spelled clayuda, is a handmade dish in traditional Oaxacan cuisine, consisting of a large, thin, crunchy, partially fried or toasted tortilla covered with a spread of refried beans, asiento (unrefined pork lard), lettuce or cabbage, avocado, meat (usually shredded chicken, beef tenderloin or pork), Oaxaca cheese, and salsa.
+Tostadas are various dishes in Mexican and Guatemalan cuisine based on toasted tortillas.
 
 - From: Mexico
 - Origin (Wikidata): Mexico
-- Ingredients (Wikidata): wheat tortilla
+- Ingredients (Wikidata): wheat tortilla, corn tortilla
 
 Fun facts:
 
-- (origin) A popular antojito, the tlayuda is native to the state of Oaxaca.
-- (culture) Tlayuda was featured on the Netflix TV series Street Food volume 2, which focuses on Latin American street food.
-- (origin) Tlayuda comes from Mexico.
+- (origin) Tostada comes from Mexico.
+- (about) Not to be confused with taco, burrito, enchilada, taquito, gordita.
 
 Learn more:
 
-- quick: [Tlayuda (Wikipedia)](https://en.wikipedia.org/wiki/Tlayuda)
+- quick: [Tostada (tortilla) (Wikipedia)](https://en.wikipedia.org/wiki/Tostada_%28tortilla%29)
+- more: [Cuisine of Baja California (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Baja_California)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Tlayuda (Open Library)](https://openlibrary.org/search?q=Tlayuda)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7810735)
+- deep: [Books about Tostada (tortilla) (Open Library)](https://openlibrary.org/search?q=Tostada%20%28tortilla%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3280441)
 
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q7810735) (CC0); [Wikipedia: Tlayuda](https://en.wikipedia.org/wiki/Tlayuda) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Tortilla soup
-
-Tortilla soup is a traditional Mexican soup containing fried corn tortilla.
-
-- From: Mexico
-- Ingredients (Wikidata): corn tortilla
-
-Fun facts:
-
-- (culture) Traditional tortilla soup is made with chicken broth combined with roasted tomatoes, onion, garlic, chiles and tortillas, cut into strips and fried.
-- (culture) Traditional tortilla soup is made of fried corn tortilla pieces, submerged into a broth of tomato, garlic, onion, and epazote.
-
-Learn more:
-
-- quick: [Tortilla soup (Wikipedia)](https://en.wikipedia.org/wiki/Tortilla_soup)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Tortilla soup (Open Library)](https://openlibrary.org/search?q=Tortilla%20soup)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5644076)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q5644076) (CC0); [Wikipedia: Tortilla soup](https://en.wikipedia.org/wiki/Tortilla_soup) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Totopo
-
-Totopo, in Mexican cuisine, is a flat, round, or triangular corn item similar to a tortilla, that has been toasted, fried or baked, and prepared with nixtamalized corn masa.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (origin) Totopos are best known as originating from Zapotec peoples of the Isthmus of Tehuantepec region of the Mexican state of Oaxaca.
-- (about) There, the Zapotec women bake totopos in a clay oven known as a comixcal.
-- (about) When the whole round tortilla is baked or fried it is generally known as a tostada.
-
-More fun facts (when the user asks for more):
-
-- (origin) Totopo comes from Mexico.
-
-Learn more:
-
-- quick: [Totopo (Wikipedia)](https://en.wikipedia.org/wiki/Totopo)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Totopo (Open Library)](https://openlibrary.org/search?q=Totopo)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q258455)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q258455) (CC0); [Wikipedia: Totopo](https://en.wikipedia.org/wiki/Totopo) (CC BY-SA 4.0). Review: auto-cleaned.
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3280441) (CC0); [Wikipedia: Tostada (tortilla)](https://en.wikipedia.org/wiki/Tostada_(tortilla)) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Tres leches cake
 
@@ -2588,34 +1971,138 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q10916834) (CC0); [Wikipedia: Walnut soup](https://en.wikipedia.org/wiki/Walnut_soup) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Gordita
+### Frijoles Puercos
 
-A gordita in Mexican cuisine is a dish made with masa and stuffed with cheese, meat, or other fillings.
+Frijoles Puercos (pig beans) is a traditional Mexican dish.
 
-- From: Baja California, Mexico
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): salsa (food), chicharrón, corn tortilla
-
-Fun facts:
-
-- (origin) Gordita comes from Mexico.
-- (about) Not to be confused with taco, burrito, tostada.
+- From: Chihuahua, Mexico
 
 Learn more:
 
-- quick: [Gordita (Wikipedia)](https://en.wikipedia.org/wiki/Gordita)
-- more: [Cuisine of Baja California (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Baja_California)
+- quick: [Frijoles Puercos (Wikipedia)](https://en.wikipedia.org/wiki/Frijoles_Puercos)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Gordita (Open Library)](https://openlibrary.org/search?q=Gordita)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5584732)
+- deep: [Books about Frijoles Puercos (Open Library)](https://openlibrary.org/search?q=Frijoles%20Puercos)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16882443)
 
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q5584732) (CC0); [Wikipedia: Gordita](https://en.wikipedia.org/wiki/Gordita) (CC BY-SA 4.0). Review: auto-cleaned.
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16882443) (CC0); [Wikipedia: Frijoles Puercos](https://en.wikipedia.org/wiki/Frijoles_Puercos) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Memela
+
+Memelas, also known as memelitas, are fried or toasted cakes made of masa topped with different fresh ingredients eaten as antojitos or snacks in the states of Guerrero, Oaxaca, Tlaxcala, and Puebla, Mexico, which have their origins in prehispanic food.
+
+- From: Guerrero, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): masa
+
+Fun facts:
+
+- (history) Memelas have been served at Oaxacan Mexican restaurants in the United States since the 1990s.
+- (culture) Although the traditional memela is supposed to be topped with no other ingredients, those toppings now vary.
+- (origin) Memela comes from Mexico.
+
+More fun facts (when the user asks for more):
+
+- (culture) In the Netflix Street Food series, memelas were prominently featured for locals and tourists.
+
+Learn more:
+
+- quick: [Memela (Wikipedia)](https://en.wikipedia.org/wiki/Memela)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Memela (Open Library)](https://openlibrary.org/search?q=Memela)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6815190)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6815190) (CC0); [Wikipedia: Memela](https://en.wikipedia.org/wiki/Memela) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Sope (food)
+
+A sope is a traditional Mexican dish consisting of a fried masa base with savory toppings.
+
+- From: Guerrero, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (origin) Also known as picadita (in Tierra Caliente, Guerrero), it originates in the central and southern parts of Mexico, where it was sometimes first known as pellizcadas.
+- (culture) Even though sopes are traditionally from Mexico, many Central American countries have adopted this dish into their cuisine, with slightly different ingredients, and very similar to Salvadoran enchiladas.
+- (about) The most common variation of the sope involves simply adding chicken and is widely known as a sope de pollo.
+
+More fun facts (when the user asks for more):
+
+- (culture) An extremely large dish similar to a giant sope or a giant tostada is the traditional food of reference in Oaxaca known as tlayuda.
+- (origin) Sope comes from Mexico.
+
+Learn more:
+
+- quick: [Sope (food) (Wikipedia)](https://en.wikipedia.org/wiki/Sope_%28food%29)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Sope (food) (Open Library)](https://openlibrary.org/search?q=Sope%20%28food%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10751991)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q10751991) (CC0); [Wikipedia: Sope (food)](https://en.wikipedia.org/wiki/Sope_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Bionico
+
+Bionico is a popular Mexican dessert that originated in the city of Guadalajara in Jalisco, Mexico, in the early 1990s.
+
+- From: Jalisco, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (origin) Bionico comes from Mexico.
+- (history) According to the Gómez Ruiz family, one of the earliest versions of the biónico was created in the early 1970s at the Mercado Alcalde in Guadalajara.
+- (about) Gómez Ruiz developed a fruit-based dessert known as the rickyross, which used a blend of fresh fruit juice and blended guava as a sweet topping.
+
+More fun facts (when the user asks for more):
+
+- (about) This preparation eventually evolved into what is now widely known as the biónico.
+
+Learn more:
+
+- quick: [Bionico (Wikipedia)](https://en.wikipedia.org/wiki/Bionico)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Bionico (Open Library)](https://openlibrary.org/search?q=Bionico)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17064154)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17064154) (CC0); [Wikipedia: Bionico](https://en.wikipedia.org/wiki/Bionico) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Birria
+
+Birria is a regional variation of barbacoa from western Mexico, mainly made with goat, beef or lamb.
+
+- From: Jalisco, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (inspiration) According to another legend, the dish was invented accidentally during the eruption of a volcano, when a shepherd was forced to abandon his goats in a cave where they were cooked perfectly by the steam.
+- (history) Mexican linguist and philologist Darío Rubio wrote in 1925 that "birria" was a lower social class term for "barbacoa".
+- (culture) It is often served at celebratory occasions such as weddings, baptisms and during holidays such as Christmas and Easter, and even at funerals.
+
+More fun facts (when the user asks for more):
+
+- (history) Mexican historian Leovigildo Islas Escárcega stated in 1945 that birria was a term specifically from Jalisco and some areas of the interior for barbacoa.
+- (history) Mexican linguist and philologist Francisco J. Santamaría defined the term in 1959 as being another name for barbacoa, typically made from lamb or goat, and cited the work of Mexican scholar José Ignacio Dávila Garibi who argued that the term was of Coca origin and not from the Spanish term birria meaning worthless.
+- (history) Mexican writer and essayist Jorge Mejia Prieto defined it in 1985 as a "soupy barbacoa made with lamb or goat meat from Guadalajara, Jalisco".
+- (about) Restaurants or street carts that serve birria are known as birrierías and exist throughout Mexico, especially in Michoacán and Jalisco.
+- (origin) Birria comes from Mexico.
+- (about) Not to be confused with Birria.
+- (history) The Cuban professor Félix Ramos y Duarte had defined the term in 1898 as a regionalism from Mexico City for goat barbacoa or roasted goat.
+
+Learn more:
+
+- quick: [Birria (Wikipedia)](https://en.wikipedia.org/wiki/Birria)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Birria (Open Library)](https://openlibrary.org/search?q=Birria)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4916959)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4916959) (CC0); [Wikipedia: Birria](https://en.wikipedia.org/wiki/Birria) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Torta ahogada
 
 A torta ahogada is a typical dish from the Mexican state of Jalisco, particularly in the city of Guadalajara.
 
-- From: Baja California, Mexico
+- From: Jalisco, Mexico
 - Origin (Wikidata): Mexico
 
 Fun facts:
@@ -2639,28 +2126,541 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7827283) (CC0); [Wikipedia: Torta ahogada](https://en.wikipedia.org/wiki/Torta_ahogada) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Tostada (tortilla)
+### Bolillo
 
-Tostadas are various dishes in Mexican and Guatemalan cuisine based on toasted tortillas.
+A bolillo or pan francés (in Central America, meaning "French bread") is a type of savory bread made in Mexico and Central America.
 
-- From: Baja California, Mexico
+- From: Mexico City, Mexico
 - Origin (Wikidata): Mexico
-- Ingredients (Wikidata): wheat tortilla, corn tortilla
 
 Fun facts:
 
-- (origin) Tostada comes from Mexico.
-- (about) Not to be confused with taco, burrito, enchilada, taquito, gordita.
+- (origin) Brought to Mexico City in the 1860s by Emperor Maximilian's troupe of cooks, its use quickly spread throughout the country.
+- (about) Bolillo is roughly 15 centimeters (5.9 in) long, in the shape of an ovoid (similar to an American football), with a crunchy crust and a soft inside known as migajón.
+- (origin) Bolillo comes from Mexico.
 
 Learn more:
 
-- quick: [Tostada (tortilla) (Wikipedia)](https://en.wikipedia.org/wiki/Tostada_%28tortilla%29)
-- more: [Cuisine of Baja California (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Baja_California)
+- quick: [Bolillo (Wikipedia)](https://en.wikipedia.org/wiki/Bolillo)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Tostada (tortilla) (Open Library)](https://openlibrary.org/search?q=Tostada%20%28tortilla%29)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3280441)
+- deep: [Books about Bolillo (Open Library)](https://openlibrary.org/search?q=Bolillo)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4939444)
 
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q3280441) (CC0); [Wikipedia: Tostada (tortilla)](https://en.wikipedia.org/wiki/Tostada_(tortilla)) (CC BY-SA 4.0). Review: auto-cleaned.
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4939444) (CC0); [Wikipedia: Bolillo](https://en.wikipedia.org/wiki/Bolillo) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Huarache (food)
+
+Huarache is a popular Mexican dish consisting of masa dough with smashed pinto beans placed in the center before it is given an oblong shape, fried, topped with green or red salsa, onions, potato, cilantro and any manner of protein such as ground beef or tongue, then finished with queso fresco.
+
+- From: Mexico City, Mexico
+
+Fun facts:
+
+- (origin) Huaraches originated in Mexico City in about the early 1930s.
+- (about) Because Gómez's new invention was shaped differently than a sope or a tlacoyo and resembled the sole of a sandal, people started to call it "huarache".
+- (history) When the navigation channel was covered to make the "Calzada de la Viga", Gómez moved to another place and after 1957, when the Mercado de Jamaica was founded, she moved there, and then to a little place at Torno street.
+
+More fun facts (when the user asks for more):
+
+- (about) The name "huarache" is derived from the shape of the masa, similar to the popular sandals of the same name.
+
+Learn more:
+
+- quick: [Huarache (food) (Wikipedia)](https://en.wikipedia.org/wiki/Huarache_%28food%29)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Huarache (food) (Open Library)](https://openlibrary.org/search?q=Huarache%20%28food%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11682627)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q11682627) (CC0); [Wikipedia: Huarache (food)](https://en.wikipedia.org/wiki/Huarache_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tortilla soup
+
+Tortilla soup is a traditional Mexican soup containing fried corn tortilla.
+
+- From: Mexico City, Mexico
+- Ingredients (Wikidata): corn tortilla
+
+Fun facts:
+
+- (culture) Traditional tortilla soup is made with chicken broth combined with roasted tomatoes, onion, garlic, chiles and tortillas, cut into strips and fried.
+- (culture) Traditional tortilla soup is made of fried corn tortilla pieces, submerged into a broth of tomato, garlic, onion, and epazote.
+
+Learn more:
+
+- quick: [Tortilla soup (Wikipedia)](https://en.wikipedia.org/wiki/Tortilla_soup)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Tortilla soup (Open Library)](https://openlibrary.org/search?q=Tortilla%20soup)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5644076)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5644076) (CC0); [Wikipedia: Tortilla soup](https://en.wikipedia.org/wiki/Tortilla_soup) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Chongos zamoranos
+
+Chongos zamoranos is a Mexican dessert made of curdled milk.
+
+- From: Michoacán, Mexico
+
+Learn more:
+
+- quick: [Chongos zamoranos (Wikipedia)](https://en.wikipedia.org/wiki/Chongos_zamoranos)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Chongos zamoranos (Open Library)](https://openlibrary.org/search?q=Chongos%20zamoranos)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6410637)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6410637) (CC0); [Wikipedia: Chongos zamoranos](https://en.wikipedia.org/wiki/Chongos_zamoranos) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Corunda
+
+Corunda is a Mexican type of tamale, but wrapped in a long corn or reed plant leaf, and folded, making a triangular shape or spherical shape.
+
+- From: Michoacán, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (origin) Corunda comes from Mexico.
+
+Learn more:
+
+- quick: [Corunda (Wikipedia)](https://en.wikipedia.org/wiki/Corunda)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Corunda (Open Library)](https://openlibrary.org/search?q=Corunda)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3694877)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3694877) (CC0); [Wikipedia: Corunda](https://en.wikipedia.org/wiki/Corunda) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Morisqueta
+
+Morisqueta is a Mexican dish native to Apatzingán, Michoacán.
+
+- From: Michoacán, Mexico
+- Origin (Wikidata): Mexico, Philippines
+
+Fun facts:
+
+- (culture) Espinaca is traditionally the cut of pork that is served with this dish in a spicy green, Chile verde, sauce.
+- (origin) Morisqueta comes from Mexico, the Philippines.
+- (culture) Cooked and served with the sauce, traditionally may be served with cubes of adobera, a kind of cheese, ranchero or fresh cheese, which melts as you eat.
+
+Learn more:
+
+- quick: [Morisqueta (Wikipedia)](https://en.wikipedia.org/wiki/Morisqueta)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Morisqueta (Open Library)](https://openlibrary.org/search?q=Morisqueta)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6024261)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6024261) (CC0); [Wikipedia: Morisqueta](https://en.wikipedia.org/wiki/Morisqueta) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pastel azteca
+
+Pastel azteca is a traditional Mexican dish made with alternating layers of fried corn tortillas, tomato sauce, poblano pepper strips, corn kernels, onion strips, cream, and Oaxaca cheese or Chihuahua cheese.
+
+- From: Oaxaca, Mexico
+
+Learn more:
+
+- quick: [Pastel azteca (Wikipedia)](https://en.wikipedia.org/wiki/Pastel_azteca)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Pastel azteca (Open Library)](https://openlibrary.org/search?q=Pastel%20azteca)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20751125)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q20751125) (CC0); [Wikipedia: Pastel azteca](https://en.wikipedia.org/wiki/Pastel_azteca) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Sincronizada
+
+The quesadilla sincronizada is a flour tortilla-based sandwich made by placing ham, vegetables (like tomatoes, onion, etc.) and a portion of cheese (most commonly Oaxaca cheese) between two flour tortillas.
+
+- From: Oaxaca, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): ham, cheese, vegetable, tortilla
+
+Fun facts:
+
+- (origin) Sincronizada comes from Mexico.
+
+Learn more:
+
+- quick: [Sincronizada (Wikipedia)](https://en.wikipedia.org/wiki/Sincronizada)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Sincronizada (Open Library)](https://openlibrary.org/search?q=Sincronizada)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9077681)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q9077681) (CC0); [Wikipedia: Sincronizada](https://en.wikipedia.org/wiki/Sincronizada) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tejate
+
+Tejate [teˈxate] is a non-alcoholic maize and cacao beverage traditionally made in Oaxaca, Mexico, originating from pre-Hispanic times.
+
+- From: Oaxaca, Mexico
+- Ingredients (Wikidata): maize, cinnamon, cocoa bean, Zea, Quararibea funebris
+
+Fun facts:
+
+- (about) Tejate remains very popular among the indigenous Mixtec and Zapotec peoples, especially in rural areas.
+- (about) Tejate is also very popular in Oaxaca and the surrounding regions.
+- (about) Principal ingredients include toasted maize, fermented cacao beans, toasted mamey pits (pixtle) and flor de cacao (also known as rosita de cacao).
+
+Learn more:
+
+- quick: [Tejate (Wikipedia)](https://en.wikipedia.org/wiki/Tejate)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Tejate (Open Library)](https://openlibrary.org/search?q=Tejate)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1389341)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1389341) (CC0); [Wikipedia: Tejate](https://en.wikipedia.org/wiki/Tejate) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tlayuda
+
+Tlayuda, sometimes spelled clayuda, is a handmade dish in traditional Oaxacan cuisine, consisting of a large, thin, crunchy, partially fried or toasted tortilla covered with a spread of refried beans, asiento (unrefined pork lard), lettuce or cabbage, avocado, meat (usually shredded chicken, beef tenderloin or pork), Oaxaca cheese, and salsa.
+
+- From: Oaxaca, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): wheat tortilla
+
+Fun facts:
+
+- (origin) A popular antojito, the tlayuda is native to the state of Oaxaca.
+- (culture) Tlayuda was featured on the Netflix TV series Street Food volume 2, which focuses on Latin American street food.
+- (origin) Tlayuda comes from Mexico.
+
+Learn more:
+
+- quick: [Tlayuda (Wikipedia)](https://en.wikipedia.org/wiki/Tlayuda)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Tlayuda (Open Library)](https://openlibrary.org/search?q=Tlayuda)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7810735)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7810735) (CC0); [Wikipedia: Tlayuda](https://en.wikipedia.org/wiki/Tlayuda) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Totopo
+
+Totopo, in Mexican cuisine, is a flat, round, or triangular corn item similar to a tortilla, that has been toasted, fried or baked, and prepared with nixtamalized corn masa.
+
+- From: Oaxaca, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (origin) Totopos are best known as originating from Zapotec peoples of the Isthmus of Tehuantepec region of the Mexican state of Oaxaca.
+- (about) There, the Zapotec women bake totopos in a clay oven known as a comixcal.
+- (about) When the whole round tortilla is baked or fried it is generally known as a tostada.
+
+More fun facts (when the user asks for more):
+
+- (origin) Totopo comes from Mexico.
+
+Learn more:
+
+- quick: [Totopo (Wikipedia)](https://en.wikipedia.org/wiki/Totopo)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Totopo (Open Library)](https://openlibrary.org/search?q=Totopo)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q258455)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q258455) (CC0); [Wikipedia: Totopo](https://en.wikipedia.org/wiki/Totopo) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Al pastor
+
+Al pastor (from Spanish, "herdsman style"), tacos al pastor, or tacos de trompo is a preparation of sliced, spit-grilled meat, usually pork, originating in the Central Mexican region of Puebla where they remain most prominent, though it is a common menu item found in taquerías throughout Mexico.
+
+- From: Puebla, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): pork, pineapple
+
+Fun facts:
+
+- (history) During the 19th century, variations of a vertically grilled meat dish doner, now known by several names, started to spread throughout the Ottoman Empire.
+- (inspiration) The method of preparing and cooking al pastor is based on the lamb shawarma brought by Lebanese immigrants to the region.
+- (culture) Al pastor features a flavor palette that uses traditional Mexican adobada (marinade).
+
+More fun facts (when the user asks for more):
+
+- (history) It is unknown when they began to be prepared as we know them today; however, some agree that it was in the 1960s when they became popular.
+- (culture) Al pastor is a popular street food that has spread to the United States.
+- (about) In some places of northern Mexico and coastal Mexico, such as in Baja California, taco al pastor is known as taco de trompo or taco de adobada.
+- (about) The asado al pastor, also known as “asado del pastor”, “carbonada” and “asado a la estaca”, was one of the styles for roasting or “barbecuing” meats in the Mexican countryside, the other one being barbacoa.
+- (origin) Al pastor comes from Mexico.
+- (history) By the 1920s, lamb meat was mostly replaced by pork.
+- (about) Not to be confused with carnitas, Carne asada, taco acorazado.
+
+Learn more:
+
+- quick: [Al pastor (Wikipedia)](https://en.wikipedia.org/wiki/Al_pastor)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Al pastor (Open Library)](https://openlibrary.org/search?q=Al%20pastor)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2386967)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2386967) (CC0); [Wikipedia: Al pastor](https://en.wikipedia.org/wiki/Al_pastor) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Cemita
+
+The cemita is a sandwich originally from Puebla, Mexico.
+
+- From: Puebla, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (about) Also known as cemita poblana, it derives from the city (and region) of Puebla.
+- (origin) Cemita comes from Mexico.
+
+Learn more:
+
+- quick: [Cemita (Wikipedia)](https://en.wikipedia.org/wiki/Cemita)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Cemita (Open Library)](https://openlibrary.org/search?q=Cemita)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q109353074)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q109353074) (CC0); [Wikipedia: Cemita](https://en.wikipedia.org/wiki/Cemita) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Carne a la tampiqueña
+
+Carne a la tampiqueña is one of the most popular meat dishes in Mexico.
+
+- From: San Luis Potosí, Mexico
+
+Fun facts:
+
+- (history) Carne a la tampiqueña was created in 1939 by the restaurateur José Inés Loredo and his brother chef Fidel, originally from San Luis Potosí, at their restaurant "Tampico Club" on Avenida Mexico in México City.
+- (inspiration) The restaurant was named in honor of the years the brothers had lived in the port of Tampico, Tamaulipas.
+
+Learn more:
+
+- quick: [Carne a la tampiqueña (Wikipedia)](https://en.wikipedia.org/wiki/Carne_a_la_tampique%C3%B1a)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Carne a la tampiqueña (Open Library)](https://openlibrary.org/search?q=Carne%20a%20la%20tampique%C3%B1a)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20748063)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q20748063) (CC0); [Wikipedia: Carne a la tampiqueña](https://en.wikipedia.org/wiki/Carne_a_la_tampiqueña) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Chilorio
+
+Chilorio is a pork dish from the Mexican state of Sinaloa.
+
+- From: Sinaloa, Mexico
+
+Fun facts:
+
+- (about) This recipe has been known for approximately 300 years and is believed to have been used as a means of preserving stewed meat, as the seasonings act as natural preservatives just like lard, in the same way as a sausage, only this one does not come packed in any casing or membrane.
+
+Learn more:
+
+- quick: [Chilorio (Wikipedia)](https://en.wikipedia.org/wiki/Chilorio)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Chilorio (Open Library)](https://openlibrary.org/search?q=Chilorio)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5099176)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5099176) (CC0); [Wikipedia: Chilorio](https://en.wikipedia.org/wiki/Chilorio) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Burro percherón
+
+A burro percherón is a traditional dish from the Mexican state of Sonora, originating in the cities of Hermosillo and Guaymas.
+
+- From: Sonora, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (about) A variation of the classic burrito, it is one of the most popular foods in these two cities, being offered in several establishments, both establishments and mobile food trucks, where they are offered mainly at night, although recently there are establishments that offer burro percherón in its menu throughout the day.
+- (culture) Traditionally the burro percherón are prepared with grilled or charcoal-roasted meat, avocado, Mexican cheese or chihuahua cheese, and tomatoes (although variants exist in each restaurant).
+- (origin) Burro percherón comes from Mexico.
+
+More fun facts (when the user asks for more):
+
+- (culture) Burro percherón was rather a derivation from traditional burrito, made with wheat flour tortilla flour, in which meat is usually added to the iron and / or roasted with other variations.
+
+Learn more:
+
+- quick: [Burro percherón (Wikipedia)](https://en.wikipedia.org/wiki/Burro_percher%C3%B3n)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Burro percherón (Open Library)](https://openlibrary.org/search?q=Burro%20percher%C3%B3n)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5735843)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5735843) (CC0); [Wikipedia: Burro percherón](https://en.wikipedia.org/wiki/Burro_percherón) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Huachinango a la Veracruzana
+
+Huachinango a la Veracruzana (Veracruz-style red snapper) is a classic fish dish from Veracruz, Mexico.
+
+- From: Veracruz, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): Red snapper
+
+Fun facts:
+
+- (culture) Huachinango a la Veracruzana is traditionally served with small roasted potatoes and Mexican-style white rice.
+- (origin) Huachinango a la Veracruzana comes from Mexico.
+- (culture) Traditionally, a whole red snapper is used, gutted and de-scaled and marinated in lime juice, salt, pepper, nutmeg and garlic.
+
+Learn more:
+
+- quick: [Huachinango a la Veracruzana (Wikipedia)](https://en.wikipedia.org/wiki/Huachinango_a_la_Veracruzana)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Huachinango a la Veracruzana (Open Library)](https://openlibrary.org/search?q=Huachinango%20a%20la%20Veracruzana)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17073167)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17073167) (CC0); [Wikipedia: Huachinango a la Veracruzana](https://en.wikipedia.org/wiki/Huachinango_a_la_Veracruzana) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Cochinita pibil
+
+Cochinita pibil (also puerco pibil or cochinita con achiote) is a traditional Yucatec Mayan slow-roasted pork dish from the Yucatán Peninsula of Mexico.
+
+- From: Yucatán, Mexico
+- Origin (Wikidata): Yucatán
+- Ingredients (Wikidata): pork, annatto, citrus fruit
+
+Fun facts:
+
+- (culture) Preparation of traditional cochinita involves marinating the meat in strongly acidic citrus juice, adding annatto seed, which imparts a vivid burnt orange color, and roasting the meat in a píib while it is wrapped in banana leaf.
+- (origin) Cochinita pibil comes from Yucatán.
+
+Learn more:
+
+- quick: [Cochinita pibil (Wikipedia)](https://en.wikipedia.org/wiki/Cochinita_pibil)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Cochinita pibil (Open Library)](https://openlibrary.org/search?q=Cochinita%20pibil)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4804467)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4804467) (CC0); [Wikipedia: Cochinita pibil](https://en.wikipedia.org/wiki/Cochinita_pibil) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Huevos motuleños
+
+Huevos motuleños is a breakfast food which originated in the town of Motul (Yucatán).
+
+- From: Yucatán, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): cheese, Pisum sativum, egg as food, ham, tomato sauce, corn tortilla
+
+Fun facts:
+
+- (origin) Huevos motuleños comes from Mexico.
+
+Learn more:
+
+- quick: [Huevos motuleños (Wikipedia)](https://en.wikipedia.org/wiki/Huevos_motule%C3%B1os)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Huevos motuleños (Open Library)](https://openlibrary.org/search?q=Huevos%20motule%C3%B1os)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5929345)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5929345) (CC0); [Wikipedia: Huevos motuleños](https://en.wikipedia.org/wiki/Huevos_motuleños) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Marquesita
+
+A marquesita is a dessert native to the state of Yucatán, Mexico.
+
+- From: Yucatán, Mexico
+- Ingredients (Wikidata): chocolate, Edam, dulce de leche, condensed milk, marmalade
+
+Fun facts:
+
+- (history) Marquesitas were created in the 1930s by Leopoldo Mena, an ice cream business owner, who did not have as many customers in the winter season.
+- (about) It consists of a crepe, rolled and filled with cajeta, condensed milk, jam, chocolate or edam cheese, also known as queso de bola.
+- (about) To attract more customers, he invented a new sweet and integrated the sweet taste of jams with the salty taste of queso de bola, which became a success.
+
+Learn more:
+
+- quick: [Marquesita (Wikipedia)](https://en.wikipedia.org/wiki/Marquesita)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Marquesita (Open Library)](https://openlibrary.org/search?q=Marquesita)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q77501769)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q77501769) (CC0); [Wikipedia: Marquesita](https://en.wikipedia.org/wiki/Marquesita) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Papadzules
+
+Papadzules is a traditional dish from the Yucatán Peninsula resembling enchiladas.
+
+- From: Yucatán, Mexico
+
+Fun facts:
+
+- (about) First, there is a lack of comals in the archaeological record of the Yucatán, implying that the Mayans did not make the thin tortillas required for filling.
+- (about) Second, the historical record seems to indicate that the Mayans preferred making thicker tortillas cooked in ashes.
+
+Learn more:
+
+- quick: [Papadzules (Wikipedia)](https://en.wikipedia.org/wiki/Papadzules)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Papadzules (Open Library)](https://openlibrary.org/search?q=Papadzules)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6060064)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6060064) (CC0); [Wikipedia: Papadzules](https://en.wikipedia.org/wiki/Papadzules) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Poc chuc
+
+Poc chuc is a Mayan dish of meat, commonly pork, that is prepared in citrus marinade and cooked over a grill.
+
+- From: Yucatán, Mexico
+
+Learn more:
+
+- quick: [Poc chuc (Wikipedia)](https://en.wikipedia.org/wiki/Poc_chuc)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Poc chuc (Open Library)](https://openlibrary.org/search?q=Poc%20chuc)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q15010030)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q15010030) (CC0); [Wikipedia: Poc chuc](https://en.wikipedia.org/wiki/Poc_chuc) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pollo motuleño
+
+Pollo motuleño is a dish originating from the town of Motul, Yucatán.
+
+- From: Yucatán, Mexico
+
+Learn more:
+
+- quick: [Pollo motuleño (Wikipedia)](https://en.wikipedia.org/wiki/Pollo_motule%C3%B1o)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Pollo motuleño (Open Library)](https://openlibrary.org/search?q=Pollo%20motule%C3%B1o)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7225702)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7225702) (CC0); [Wikipedia: Pollo motuleño](https://en.wikipedia.org/wiki/Pollo_motuleño) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Salbute
+
+A salbut is a puffed deep fried tortilla that is topped with lettuce, sliced avocado, pulled chicken or turkey, tomato and pickled red onion.
+
+- From: Yucatán, Mexico
+
+Fun facts:
+
+- (origin) Salbutes originate from the Yucatán Peninsula and are a staple in Belize.
+
+Learn more:
+
+- quick: [Salbute (Wikipedia)](https://en.wikipedia.org/wiki/Salbute)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Salbute (Open Library)](https://openlibrary.org/search?q=Salbute)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16900667)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16900667) (CC0); [Wikipedia: Salbute](https://en.wikipedia.org/wiki/Salbute) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Sopa de lima
+
+Lime soup is a traditional dish from the Mexican state of Yucatan, which is made of chicken or some other meat such as pork or beef, lime juice and served with tortilla chips.
+
+- From: Yucatán, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): lime, broth, chicken as food, tomato, tortilla
+
+Fun facts:
+
+- (origin) The lime soup as it is known was first created in 1946 by the master called Katún (means "warrior" in the Mayan language).
+- (culture) Lime soup is a traditional dish from Yucatan.
+- (history) Since at least the 1950s, Mexico has been the world's largest producer and exporter of limes.
+
+More fun facts (when the user asks for more):
+
+- (origin) Sopa de lima comes from Mexico.
+- (culture) Traditional Yucatan cuisine has its origins in the Hispanic and Yucatán Mayan culture.
+
+Learn more:
+
+- quick: [Sopa de lima (Wikipedia)](https://en.wikipedia.org/wiki/Sopa_de_lima)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Sopa de lima (Open Library)](https://openlibrary.org/search?q=Sopa%20de%20lima)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28155493)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q28155493) (CC0); [Wikipedia: Sopa de lima](https://en.wikipedia.org/wiki/Sopa_de_lima) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Agua fresca
 
@@ -2681,26 +2681,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4694505)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q4694505) (CC0); [Wikipedia: Agua fresca](https://en.wikipedia.org/wiki/Agua_fresca) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Bacanora
-
-Bacanora is an agave-derived liquor made in the Mexican state of Sonora.
-
-- From: Mexico
-
-Fun facts:
-
-- (history) The distillation of Bacanora was illegal until 1992 despite being bootlegged by vinateros for many generations.
-- (about) Not to be confused with Bacanora Municipality.
-
-Learn more:
-
-- quick: [Bacanora (Wikipedia)](https://en.wikipedia.org/wiki/Bacanora)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Bacanora (Open Library)](https://openlibrary.org/search?q=Bacanora)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1389479)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q1389479) (CC0); [Wikipedia: Bacanora](https://en.wikipedia.org/wiki/Bacanora) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Beef tongue
 
@@ -2887,26 +2867,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q426601)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q426601) (CC0); [Wikipedia: Coconut candy](https://en.wikipedia.org/wiki/Coconut_candy) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Colonche
-
-Colonche is an alcoholic red coloured drink from Mexico prepared with tuna, the fruits of "nopal" (Opuntia cacti), especially with tuna cardona, the fruits of Opuntia streptacantha.
-
-- From: Mexico
-- Ingredients (Wikidata): nopal
-
-Fun facts:
-
-- (culture) In 2003, Teófilo Herrera Suárez, a Mexican mycologist, published a book titled Más allá del pulque y el tepache (Beyond Pulque and Tepache), in which he writes about traditional Mexican alcoholic beverages such as "pozol", "tesgüino" and "colonche".
-
-Learn more:
-
-- quick: [Colonche (Wikipedia)](https://en.wikipedia.org/wiki/Colonche)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Colonche (Open Library)](https://openlibrary.org/search?q=Colonche)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11691341)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q11691341) (CC0); [Wikipedia: Colonche](https://en.wikipedia.org/wiki/Colonche) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Cooking banana
 
@@ -3225,26 +3185,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q8492) (CC0); [Wikipedia: Juice](https://en.wikipedia.org/wiki/Juice) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Jumiles
-
-Jumiles are small stink bugs native to the Taxco region of the state of Guerrero in Mexico.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (origin) Jumiles comes from Mexico.
-
-Learn more:
-
-- quick: [Jumiles (Wikipedia)](https://en.wikipedia.org/wiki/Jumiles)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Jumiles (Open Library)](https://openlibrary.org/search?q=Jumiles)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3189940)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q3189940) (CC0); [Wikipedia: Jumiles](https://en.wikipedia.org/wiki/Jumiles) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Licuado
 
 Licuados (also known regionally as batidos) are a Latin American handmade blended beverage similar to smoothies, made with milk, fruit, and usually ice.
@@ -3281,6 +3221,34 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3259068)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3259068) (CC0); [Wikipedia: Longaniza](https://en.wikipedia.org/wiki/Longaniza) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Maize
+
+Maize (US:; Zea mays), also known as corn, is a tall stout grass that produces cereal grain.
+
+- From: Mexico
+- Ingredients (Wikidata): corncob
+
+Fun facts:
+
+- (history) A maize stalk with two ripe ears is depicted on the reverse of the Croatian 1 lipa coin, minted since 1993.
+- (culture) Maize kernels have sometimes denoted cowardice, as maize is fed to chickens, which symbolise cowards.
+- (about) The ears yield grain, known as kernels or seeds.
+
+More fun facts (when the user asks for more):
+
+- (history) In the months before the 1973 Chilean coup d'etat anti-Allende protestors threw maize at military barracks in a call to depose him.
+- (about) In 2020, world production was 1.1 billion tonnes.
+
+Learn more:
+
+- quick: [Maize (Wikipedia)](https://en.wikipedia.org/wiki/Maize)
+- more: [Cuisine of Baja California (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Baja_California)
+- more: [Mexican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mexican_cuisine)
+- deep: [Books about Maize (Open Library)](https://openlibrary.org/search?q=Maize)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11575)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q11575) (CC0); [Wikipedia: Maize](https://en.wikipedia.org/wiki/Maize) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Manjar blanco
 
@@ -3325,104 +3293,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6825758) (CC0); [Wikipedia: Mexican Coke](https://en.wikipedia.org/wiki/Mexican_Coke) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Mexican wine
-
-Mexican wine and wine making began with the arrival of the Spanish in the 16th century, when they brought vines from Europe to modern day Mexico, the oldest wine-growing region in the Americas.
-
-- From: Mexico
-
-Fun facts:
-
-- (inspiration) According to legend, Hernán Cortés and his soldiers quickly depleted the wine they brought with them from Spain celebrating the conquest of the Aztec Empire in 1521.
-- (history) In 1888, the former lands of the Santo Tomás Mission were sold to a private group, which established the first large-scale commercial winery and the earliest winery in continuous operation, called Bodegas Santo Tomás.
-- (culture) This area is promoted heavily for enotourism with the “Ruta del Vino” (Wine Route), which connects over fifty wineries with the port of Ensenada and the border and the annual Vendimia harvest festival.
-
-More fun facts (when the user asks for more):
-
-- (history) Although there were indigenous grapes before the Spanish conquest, the Spaniards found that Spanish grapevines also did very well in the colony of New Spain (Mexico) and by the 17th century wine exports from Spain to the New World fell.
-- (history) In 1699, Charles II of Spain prohibited wine making in Mexico, with the exception of wine for Church purposes.
-- (history) Wine production in Mexico has been rising in both quantity and quality since the 1980s, although competition from foreign wines and 40% tax on the product makes competing difficult within Mexico.
-- (history) In 1597, Casa Madero was founded by Lorenzo García in the town of Santa María de las Parras (Holy Mary of the Grapevines) and is now the oldest winery in the Americas.
-- (history) Because of this, the government of Charles II decided to prohibit the production of wine in Spain’s colonies, especially Mexico, except for the making of wine for the Church in 1699.
-- (history) From the end of the 18th century to the middle of the 19th, most wine production was done by clergy.
-- (history) The Santo Tomás Mission, founded in Baja California by Jesuit priests in 1791, reactivated larger scale production of wine in Mexico.
-- (history) In the 1850s, as part of Mexico’s Reform War, many of the Church’s land holdings were taken by the state.
-- (history) One of these was Jesuit priest Juan Ugarte, who planted the first vines in Baja California when he arrived at the Loreto mission in 1701.
-- (culture) Mexico is not traditionally a wine-drinking country, but rather prefers beer, tequila and mezcal.
-- (about) In 2020, the wine Don Leo Gran Reserva Cabernet Sauvignon won gold in the International Cabernet competition (CIDC) and the trophy for the world's best Cabernet.
-- (about) Because of this, one of Cortés’ first acts as governor was to order the planting of grapevines throughout New Spain.
-- (history) In 1843, Dominican priests began growing grapes at the nearby Nuestra Señora de Guadalupe del Norte mission, located in what is now called Valle de Guadalupe.
-
-Learn more:
-
-- quick: [Mexican wine (Wikipedia)](https://en.wikipedia.org/wiki/Mexican_wine)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Mexican wine (Open Library)](https://openlibrary.org/search?q=Mexican%20wine)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q246889)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q246889) (CC0); [Wikipedia: Mexican wine](https://en.wikipedia.org/wiki/Mexican_wine) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Mezcal
-
-Mezcal, sometimes spelled mescal, is a distilled alcoholic beverage made from any type of agave.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (origin) Pulque (a fermented drink from agave sap) is pre-colonial, but the distillation of agave heart juice into mezcal was only introduced in the colonial era when Filipino sailors and migrants brought the technology of Filipino-type stills with them during the galleon trade between Mexico and the Philippines (1565 to 1815).
-- (about) The first historical record of mezcal production is from southern Jalisco, using techniques derived from coconut liquor production from Colima.
-- (history) By 1643, there are records of mezcal and vino de coco being sold in Guadalajara.
-
-More fun facts (when the user asks for more):
-
-- (history) The first mention of distilled agave spirits in colonial records is from 1619, by the Spanish cleric Domingo Lázaro de Arregui.
-- (inspiration) There are also many other modified variants, usually named after the indigenous peoples that use them, including the "Tarascan still" (or "Tarasco still"), "Zapoteco still", "Nahua still", "Bolaños still", and "Huichol still" (the latter used for making sotol, not mezcal).
-- (history) By 1638, the governor of Nueva Galicia also started to regulate the sale of mezcal.
-- (history) The production of mezcal moved from the coastal river basins of the Río Grande de Santiago to the inland ravines by the early 1700s to evade the prohibition on indigenous spirits production, as well as to take advantage of the larger numbers of wild agave plants in the interiors.
-- (culture) Mezcal is the product of the merging of pre-Columbian indigenous fermentation traditions and Asian distillation techniques brought over from the Philippines.
-- (origin) Mezcal comes from Mexico.
-- (history) By the mid-1700s, the production of vino de coco had ceased completely due to the prohibition and the loss of coconut plantations.
-- (about) Not to be confused with mescaline.
-
-Learn more:
-
-- quick: [Mezcal (Wikipedia)](https://en.wikipedia.org/wiki/Mezcal)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Mezcal (Open Library)](https://openlibrary.org/search?q=Mezcal)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q726413)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q726413) (CC0); [Wikipedia: Mezcal](https://en.wikipedia.org/wiki/Mezcal) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Michelada
-
-A michelada is a Mexican drink made with beer, lime juice, assorted sauces (often chili-based), spices, and chili peppers.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): beer, table salt, soy sauce, hot sauce, pint glass, tomato juice, Worcestershire sauce, lime juice, teriyaki sauce
-
-Fun facts:
-
-- (history) In the 1960s, Ésper began to ask for his beer with lime, salt, ice, and a straw, in a cup called "chabela", as if it were a beer lemonade (limonada).
-- (about) There are two popular versions of the origin and etymology of the michelada.
-- (origin) Michelada comes from Mexico.
-
-More fun facts (when the user asks for more):
-
-- (about) One involves a man named Michel Ésper at Club Deportivo Potosino in San Luis Potosí.
-- (about) The word chela is a popular term for a cold beer in Mexico; therefore the phrase mi chela helada means "my ice-cold beer".
-
-Learn more:
-
-- quick: [Michelada (Wikipedia)](https://en.wikipedia.org/wiki/Michelada)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Michelada (Open Library)](https://openlibrary.org/search?q=Michelada)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1382251)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q1382251) (CC0); [Wikipedia: Michelada](https://en.wikipedia.org/wiki/Michelada) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Mole (sauce)
 
 Mole or mōlli is a traditional sauce and marinade originally used in Mexican cuisine.
@@ -3451,47 +3321,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1495652)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1495652) (CC0); [Wikipedia: Mole (sauce)](https://en.wikipedia.org/wiki/Mole_(sauce)) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Moronga
-
-Moronga (also called rellena, morcilla, or mbusia) is a kind of blood sausage.
-
-- From: Mexico
-
-Learn more:
-
-- quick: [Moronga (Wikipedia)](https://en.wikipedia.org/wiki/Moronga)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Moronga (Open Library)](https://openlibrary.org/search?q=Moronga)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6913247)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q6913247) (CC0); [Wikipedia: Moronga](https://en.wikipedia.org/wiki/Moronga) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Nicuatole
-
-Nicuatole is a pre-Columbian gelatinous dessert made from ground maize and sugar, traditional in Oaxaca, Mexico.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (about) Nicuatole is linked to the municipality of San Agustín Yatareni, with Doña Juana Agustín Martínez being the first person known to produce it, in the nineteenth century.
-- (culture) Nicuatole is commonly eaten as a snack in festivals like the Guelaguetza.
-- (origin) Nicuatole comes from Mexico.
-
-More fun facts (when the user asks for more):
-
-- (about) Since 2011, a Nicuatole Fair has been held in this municipality.
-
-Learn more:
-
-- quick: [Nicuatole (Wikipedia)](https://en.wikipedia.org/wiki/Nicuatole)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Nicuatole (Open Library)](https://openlibrary.org/search?q=Nicuatole)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7030707)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q7030707) (CC0); [Wikipedia: Nicuatole](https://en.wikipedia.org/wiki/Nicuatole) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Palm wine
 
@@ -3567,52 +3396,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q323635)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q323635) (CC0); [Wikipedia: Pinto bean](https://en.wikipedia.org/wiki/Pinto_bean) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Popo (drink)
-
-Popo is a foamy and cold cacao beverage typical in the south of the state of Veracruz and some areas of the state of Oaxaca, such as the basin of Papaloapan or Istmo.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (culture) Popo is a ceremonial drink, and is prepared for weddings, baptisms, birthdays and patron saint festivals.
-- (origin) Popo comes from Mexico.
-- (about) Azquiote, known as cocomeca in Oaxaca, is added, or chupipi, or sometimes both; both foaming agents.
-
-More fun facts (when the user asks for more):
-
-- (culture) For these communities, the very preparation of the popo is in itself a ritual, which can last up to two days.
-
-Learn more:
-
-- quick: [Popo (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Popo_%28drink%29)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Popo (drink) (Open Library)](https://openlibrary.org/search?q=Popo%20%28drink%29)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16242929)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q16242929) (CC0); [Wikipedia: Popo (drink)](https://en.wikipedia.org/wiki/Popo_(drink)) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Pozol
-
-Pozol (from the Nahuatl Pozōlli) is the name of both fermented corn dough and the cacao drink made from it, which has its origins in Pre-Columbian Mesoamerica.
-
-- From: Mexico
-
-Fun facts:
-
-- (history) Initially, it was called pochotl (from Nahuatl, pozolli, meaning "sparkling"), but after the arrival of the Spanish in Tabasco in 1519, the name changed to the now-familiar "pozol".
-- (culture) Pozol was traditionally made by women by fermenting corn dough, which, when dissolved in water, is eaten raw by various ethnic groups of southern and southeastern Mexico.
-
-Learn more:
-
-- quick: [Pozol (Wikipedia)](https://en.wikipedia.org/wiki/Pozol)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Pozol (Open Library)](https://openlibrary.org/search?q=Pozol)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7237064)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q7237064) (CC0); [Wikipedia: Pozol](https://en.wikipedia.org/wiki/Pozol) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Pulque
 
@@ -3717,35 +3500,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7418124) (CC0); [Wikipedia: Sangria Señorial](https://en.wikipedia.org/wiki/Sangria_Señorial) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Sotol
-
-Sotol is a distilled spirit made from the plants of the genus Dasylirion, which grow in the Chihuahuan desert of northern Mexico, New Mexico, Arizona, and west and central Texas.
-
-- From: Mexico
-
-Fun facts:
-
-- (history) The beverage was illegal in Mexico until 1994, and it was granted a denomination of origin (DO) in 2002.
-- (about) Sotol liquor is known as the state spirit of Chihuahua; however, the drink is also consumed in Durango and Coahuila.
-- (origin) Distillation technology was introduced in the 16th century by early Filipino immigrants who arrived via the Manila galleons to the coastal regions of western Mexico.
-
-More fun facts (when the user asks for more):
-
-- (about) Sotol has a registered Denominación de Origen from the government of Mexico since 2002, and may be produced only in Chihuahua, Coahuila and Durango.
-- (about) Production of sotol spirits exists outside the Sotol Denomination of Origin in several regions such as Sonora (where it is known as "Palmilla"), Oaxaca ("Cucharillo"), and the Texas Hill Country ("Texas Sotol").
-- (about) Not to be confused with Sotol.
-- (culture) The indigenous people of the Chihuahuan desert, such as the Jumano Pueblos and the Lipan Apache, have made this traditional drink for centuries.
-- (about) In 2020 The United States refrained from recognizing Mexico's DO during the final drafting of the United States–Mexico–Canada Agreement.
-
-Learn more:
-
-- quick: [Sotol (Wikipedia)](https://en.wikipedia.org/wiki/Sotol)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Sotol (Open Library)](https://openlibrary.org/search?q=Sotol)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q932877)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q932877) (CC0); [Wikipedia: Sotol](https://en.wikipedia.org/wiki/Sotol) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Squash blossom
 
 Squash blossoms (called courgette flowers in Great Britain) are the edible flowers of Cucurbita species, particularly Cucurbita pepo, the species that produces zucchini (courgette), marrow, spaghetti squash, and many other types of squash.
@@ -3823,47 +3577,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7680906) (CC0); [Wikipedia: Tamarindo (drink)](https://en.wikipedia.org/wiki/Tamarindo_(drink)) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Tascalate
-
-Tascalate (alternative spelling Tazcalate) is a chocolate drink made from a mixture of roasted maize, roasted cocoa bean, ground pine nuts, achiote and sugar or panela, very common in the Mexican state of Chiapas.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-
-Fun facts:
-
-- (origin) Tascalate comes from Mexico.
-
-Learn more:
-
-- quick: [Tascalate (Wikipedia)](https://en.wikipedia.org/wiki/Tascalate)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Tascalate (Open Library)](https://openlibrary.org/search?q=Tascalate)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3515927)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q3515927) (CC0); [Wikipedia: Tascalate](https://en.wikipedia.org/wiki/Tascalate) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Tejuino
-
-Tejuino is a cold, sugary fermented beverage made from corn and popularly consumed in the Mexican states of Jalisco, Colima, and Nayarit.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): maize
-
-Fun facts:
-
-- (origin) Tejuino comes from Mexico.
-
-Learn more:
-
-- quick: [Tejuino (Wikipedia)](https://en.wikipedia.org/wiki/Tejuino)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Tejuino (Open Library)](https://openlibrary.org/search?q=Tejuino)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7695264)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q7695264) (CC0); [Wikipedia: Tejuino](https://en.wikipedia.org/wiki/Tejuino) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Tepache
 
 Tepache is a fermented beverage made from the peel and the rind of pineapples, and is sweetened either with piloncillo or brown sugar.
@@ -3890,44 +3603,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1888644)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1888644) (CC0); [Wikipedia: Tepache](https://en.wikipedia.org/wiki/Tepache) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Tequila
-
-Tequila is a distilled beverage made from the blue agave plant, primarily in the area surrounding the town of Tequila 65 km (40 mi) northwest of Guadalajara, and in the Jaliscan Highlands (Los Altos de Jalisco) of the central western Mexican state of Jalisco.
-
-- From: Mexico
-- Origin (Wikidata): Mexico
-- Named after: Tequila
-- Ingredients (Wikidata): Agave tequilana
-
-Fun facts:
-
-- (history) Don Cenobio Sauza, founder of Sauza Tequila and Municipal President of the Village of Tequila from 1884 to 1885, was the first to export tequila to the United States.
-- (about) Spain's King Carlos IV granted the Cuervo family the first license to commercially make tequila.
-- (culture) Due to its historical and cultural importance, the region near Tequila was declared a UNESCO World Heritage Site in 2006, the Agave Landscape and Ancient Industrial Facilities of Tequila.
-
-More fun facts (when the user asks for more):
-
-- (history) The first tequila distillery in the United States was opened in 1936 in Nogales, Arizona by Harry J. Karns, former Arizona state senator and Nogales Mayor.
-- (history) Tequila was protected through NAFTA in Canada and the United States until July 2020 and through bilateral agreements with individual countries such as Japan and Israel, and it has been a protected designation of origin product in the European Union since 1997.
-- (history) Mezcal distillation spread into the highland valleys of Amatitán, Tequila, Magdalena, and El Arenal in the mid-1700s.
-- (history) The Mexican government declared the term "tequila" to be its intellectual property in 1974.
-- (inspiration) Tequila is named after Tequila.
-- (about) The distinctive mezcal produced in these regions became known as "tequila".
-- (about) In 2003, Mexico issued a proposal that would require all Mexican-made tequila be bottled in Mexico before being exported to other countries.
-- (about) On January 17, 2006, the United States and Mexico signed an agreement allowing the continued bulk import of tequila into the United States.
-- (origin) Tequila comes from Mexico.
-- (about) Not to be confused with Tequila.
-- (origin) The distillation technology to produce mezcal from agave heart juice was first introduced by Filipino sailors and migrants into the coastal regions of what was then Nueva Galicia (present-day Aguascalientes, Colima, Guanajuato, Jalisco, Nayarit, and Zacatecas).
-
-Learn more:
-
-- quick: [Tequila (Wikipedia)](https://en.wikipedia.org/wiki/Tequila)
-- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
-- deep: [Books about Tequila (Open Library)](https://openlibrary.org/search?q=Tequila)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q122195)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q122195) (CC0); [Wikipedia: Tequila](https://en.wikipedia.org/wiki/Tequila) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Tlacoyo
 
@@ -3992,30 +3667,355 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2296872) (CC0); [Wikipedia: Venison](https://en.wikipedia.org/wiki/Venison) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Maize
+### Colonche
 
-Maize (US:; Zea mays), also known as corn, is a tall stout grass that produces cereal grain.
+Colonche is an alcoholic red coloured drink from Mexico prepared with tuna, the fruits of "nopal" (Opuntia cacti), especially with tuna cardona, the fruits of Opuntia streptacantha.
 
-- From: Baja California, Mexico
-- Ingredients (Wikidata): corncob
+- From: Aguascalientes, Mexico
+- Ingredients (Wikidata): nopal
 
 Fun facts:
 
-- (history) A maize stalk with two ripe ears is depicted on the reverse of the Croatian 1 lipa coin, minted since 1993.
-- (culture) Maize kernels have sometimes denoted cowardice, as maize is fed to chickens, which symbolise cowards.
-- (about) The ears yield grain, known as kernels or seeds.
-
-More fun facts (when the user asks for more):
-
-- (history) In the months before the 1973 Chilean coup d'etat anti-Allende protestors threw maize at military barracks in a call to depose him.
-- (about) In 2020, world production was 1.1 billion tonnes.
+- (culture) In 2003, Teófilo Herrera Suárez, a Mexican mycologist, published a book titled Más allá del pulque y el tepache (Beyond Pulque and Tepache), in which he writes about traditional Mexican alcoholic beverages such as "pozol", "tesgüino" and "colonche".
 
 Learn more:
 
-- quick: [Maize (Wikipedia)](https://en.wikipedia.org/wiki/Maize)
-- more: [Cuisine of Baja California (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Baja_California)
-- more: [Mexican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mexican_cuisine)
-- deep: [Books about Maize (Open Library)](https://openlibrary.org/search?q=Maize)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11575)
+- quick: [Colonche (Wikipedia)](https://en.wikipedia.org/wiki/Colonche)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Colonche (Open Library)](https://openlibrary.org/search?q=Colonche)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11691341)
 
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q11575) (CC0); [Wikipedia: Maize](https://en.wikipedia.org/wiki/Maize) (CC BY-SA 4.0). Review: auto-cleaned.
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q11691341) (CC0); [Wikipedia: Colonche](https://en.wikipedia.org/wiki/Colonche) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pozol
+
+Pozol (from the Nahuatl Pozōlli) is the name of both fermented corn dough and the cacao drink made from it, which has its origins in Pre-Columbian Mesoamerica.
+
+- From: Campeche, Mexico
+
+Fun facts:
+
+- (history) Initially, it was called pochotl (from Nahuatl, pozolli, meaning "sparkling"), but after the arrival of the Spanish in Tabasco in 1519, the name changed to the now-familiar "pozol".
+- (culture) Pozol was traditionally made by women by fermenting corn dough, which, when dissolved in water, is eaten raw by various ethnic groups of southern and southeastern Mexico.
+
+Learn more:
+
+- quick: [Pozol (Wikipedia)](https://en.wikipedia.org/wiki/Pozol)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Pozol (Open Library)](https://openlibrary.org/search?q=Pozol)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7237064)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7237064) (CC0); [Wikipedia: Pozol](https://en.wikipedia.org/wiki/Pozol) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tascalate
+
+Tascalate (alternative spelling Tazcalate) is a chocolate drink made from a mixture of roasted maize, roasted cocoa bean, ground pine nuts, achiote and sugar or panela, very common in the Mexican state of Chiapas.
+
+- From: Chiapas, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (origin) Tascalate comes from Mexico.
+
+Learn more:
+
+- quick: [Tascalate (Wikipedia)](https://en.wikipedia.org/wiki/Tascalate)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Tascalate (Open Library)](https://openlibrary.org/search?q=Tascalate)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3515927)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3515927) (CC0); [Wikipedia: Tascalate](https://en.wikipedia.org/wiki/Tascalate) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Sotol
+
+Sotol is a distilled spirit made from the plants of the genus Dasylirion, which grow in the Chihuahuan desert of northern Mexico, New Mexico, Arizona, and west and central Texas.
+
+- From: Chihuahua, Mexico
+
+Fun facts:
+
+- (history) The beverage was illegal in Mexico until 1994, and it was granted a denomination of origin (DO) in 2002.
+- (about) Sotol liquor is known as the state spirit of Chihuahua; however, the drink is also consumed in Durango and Coahuila.
+- (origin) Distillation technology was introduced in the 16th century by early Filipino immigrants who arrived via the Manila galleons to the coastal regions of western Mexico.
+
+More fun facts (when the user asks for more):
+
+- (about) Sotol has a registered Denominación de Origen from the government of Mexico since 2002, and may be produced only in Chihuahua, Coahuila and Durango.
+- (about) Production of sotol spirits exists outside the Sotol Denomination of Origin in several regions such as Sonora (where it is known as "Palmilla"), Oaxaca ("Cucharillo"), and the Texas Hill Country ("Texas Sotol").
+- (about) Not to be confused with Sotol.
+- (culture) The indigenous people of the Chihuahuan desert, such as the Jumano Pueblos and the Lipan Apache, have made this traditional drink for centuries.
+- (about) In 2020 The United States refrained from recognizing Mexico's DO during the final drafting of the United States–Mexico–Canada Agreement.
+
+Learn more:
+
+- quick: [Sotol (Wikipedia)](https://en.wikipedia.org/wiki/Sotol)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Sotol (Open Library)](https://openlibrary.org/search?q=Sotol)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q932877)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q932877) (CC0); [Wikipedia: Sotol](https://en.wikipedia.org/wiki/Sotol) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Mexican wine
+
+Mexican wine and wine making began with the arrival of the Spanish in the 16th century, when they brought vines from Europe to modern day Mexico, the oldest wine-growing region in the Americas.
+
+- From: Coahuila, Mexico
+
+Fun facts:
+
+- (inspiration) According to legend, Hernán Cortés and his soldiers quickly depleted the wine they brought with them from Spain celebrating the conquest of the Aztec Empire in 1521.
+- (history) In 1888, the former lands of the Santo Tomás Mission were sold to a private group, which established the first large-scale commercial winery and the earliest winery in continuous operation, called Bodegas Santo Tomás.
+- (culture) This area is promoted heavily for enotourism with the “Ruta del Vino” (Wine Route), which connects over fifty wineries with the port of Ensenada and the border and the annual Vendimia harvest festival.
+
+More fun facts (when the user asks for more):
+
+- (history) Although there were indigenous grapes before the Spanish conquest, the Spaniards found that Spanish grapevines also did very well in the colony of New Spain (Mexico) and by the 17th century wine exports from Spain to the New World fell.
+- (history) In 1699, Charles II of Spain prohibited wine making in Mexico, with the exception of wine for Church purposes.
+- (history) Wine production in Mexico has been rising in both quantity and quality since the 1980s, although competition from foreign wines and 40% tax on the product makes competing difficult within Mexico.
+- (history) In 1597, Casa Madero was founded by Lorenzo García in the town of Santa María de las Parras (Holy Mary of the Grapevines) and is now the oldest winery in the Americas.
+- (history) Because of this, the government of Charles II decided to prohibit the production of wine in Spain’s colonies, especially Mexico, except for the making of wine for the Church in 1699.
+- (history) From the end of the 18th century to the middle of the 19th, most wine production was done by clergy.
+- (history) The Santo Tomás Mission, founded in Baja California by Jesuit priests in 1791, reactivated larger scale production of wine in Mexico.
+- (history) In the 1850s, as part of Mexico’s Reform War, many of the Church’s land holdings were taken by the state.
+- (history) One of these was Jesuit priest Juan Ugarte, who planted the first vines in Baja California when he arrived at the Loreto mission in 1701.
+- (culture) Mexico is not traditionally a wine-drinking country, but rather prefers beer, tequila and mezcal.
+- (about) In 2020, the wine Don Leo Gran Reserva Cabernet Sauvignon won gold in the International Cabernet competition (CIDC) and the trophy for the world's best Cabernet.
+- (about) Because of this, one of Cortés’ first acts as governor was to order the planting of grapevines throughout New Spain.
+- (history) In 1843, Dominican priests began growing grapes at the nearby Nuestra Señora de Guadalupe del Norte mission, located in what is now called Valle de Guadalupe.
+
+Learn more:
+
+- quick: [Mexican wine (Wikipedia)](https://en.wikipedia.org/wiki/Mexican_wine)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Mexican wine (Open Library)](https://openlibrary.org/search?q=Mexican%20wine)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q246889)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q246889) (CC0); [Wikipedia: Mexican wine](https://en.wikipedia.org/wiki/Mexican_wine) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Jumiles
+
+Jumiles are small stink bugs native to the Taxco region of the state of Guerrero in Mexico.
+
+- From: Guerrero, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (origin) Jumiles comes from Mexico.
+
+Learn more:
+
+- quick: [Jumiles (Wikipedia)](https://en.wikipedia.org/wiki/Jumiles)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Jumiles (Open Library)](https://openlibrary.org/search?q=Jumiles)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3189940)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3189940) (CC0); [Wikipedia: Jumiles](https://en.wikipedia.org/wiki/Jumiles) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tejuino
+
+Tejuino is a cold, sugary fermented beverage made from corn and popularly consumed in the Mexican states of Jalisco, Colima, and Nayarit.
+
+- From: Jalisco, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): maize
+
+Fun facts:
+
+- (origin) Tejuino comes from Mexico.
+
+Learn more:
+
+- quick: [Tejuino (Wikipedia)](https://en.wikipedia.org/wiki/Tejuino)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Tejuino (Open Library)](https://openlibrary.org/search?q=Tejuino)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7695264)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7695264) (CC0); [Wikipedia: Tejuino](https://en.wikipedia.org/wiki/Tejuino) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tequila
+
+Tequila is a distilled beverage made from the blue agave plant, primarily in the area surrounding the town of Tequila 65 km (40 mi) northwest of Guadalajara, and in the Jaliscan Highlands (Los Altos de Jalisco) of the central western Mexican state of Jalisco.
+
+- From: Jalisco, Mexico
+- Origin (Wikidata): Mexico
+- Named after: Tequila
+- Ingredients (Wikidata): Agave tequilana
+
+Fun facts:
+
+- (history) Don Cenobio Sauza, founder of Sauza Tequila and Municipal President of the Village of Tequila from 1884 to 1885, was the first to export tequila to the United States.
+- (about) Spain's King Carlos IV granted the Cuervo family the first license to commercially make tequila.
+- (culture) Due to its historical and cultural importance, the region near Tequila was declared a UNESCO World Heritage Site in 2006, the Agave Landscape and Ancient Industrial Facilities of Tequila.
+
+More fun facts (when the user asks for more):
+
+- (history) The first tequila distillery in the United States was opened in 1936 in Nogales, Arizona by Harry J. Karns, former Arizona state senator and Nogales Mayor.
+- (history) Tequila was protected through NAFTA in Canada and the United States until July 2020 and through bilateral agreements with individual countries such as Japan and Israel, and it has been a protected designation of origin product in the European Union since 1997.
+- (history) Mezcal distillation spread into the highland valleys of Amatitán, Tequila, Magdalena, and El Arenal in the mid-1700s.
+- (history) The Mexican government declared the term "tequila" to be its intellectual property in 1974.
+- (inspiration) Tequila is named after Tequila.
+- (about) The distinctive mezcal produced in these regions became known as "tequila".
+- (about) In 2003, Mexico issued a proposal that would require all Mexican-made tequila be bottled in Mexico before being exported to other countries.
+- (about) On January 17, 2006, the United States and Mexico signed an agreement allowing the continued bulk import of tequila into the United States.
+- (origin) Tequila comes from Mexico.
+- (about) Not to be confused with Tequila.
+- (origin) The distillation technology to produce mezcal from agave heart juice was first introduced by Filipino sailors and migrants into the coastal regions of what was then Nueva Galicia (present-day Aguascalientes, Colima, Guanajuato, Jalisco, Nayarit, and Zacatecas).
+
+Learn more:
+
+- quick: [Tequila (Wikipedia)](https://en.wikipedia.org/wiki/Tequila)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Tequila (Open Library)](https://openlibrary.org/search?q=Tequila)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q122195)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q122195) (CC0); [Wikipedia: Tequila](https://en.wikipedia.org/wiki/Tequila) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Michelada
+
+A michelada is a Mexican drink made with beer, lime juice, assorted sauces (often chili-based), spices, and chili peppers.
+
+- From: Mexico City, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): beer, table salt, soy sauce, hot sauce, pint glass, tomato juice, Worcestershire sauce, lime juice, teriyaki sauce
+
+Fun facts:
+
+- (history) In the 1960s, Ésper began to ask for his beer with lime, salt, ice, and a straw, in a cup called "chabela", as if it were a beer lemonade (limonada).
+- (about) There are two popular versions of the origin and etymology of the michelada.
+- (origin) Michelada comes from Mexico.
+
+More fun facts (when the user asks for more):
+
+- (about) One involves a man named Michel Ésper at Club Deportivo Potosino in San Luis Potosí.
+- (about) The word chela is a popular term for a cold beer in Mexico; therefore the phrase mi chela helada means "my ice-cold beer".
+
+Learn more:
+
+- quick: [Michelada (Wikipedia)](https://en.wikipedia.org/wiki/Michelada)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Michelada (Open Library)](https://openlibrary.org/search?q=Michelada)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1382251)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1382251) (CC0); [Wikipedia: Michelada](https://en.wikipedia.org/wiki/Michelada) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Mezcal
+
+Mezcal, sometimes spelled mescal, is a distilled alcoholic beverage made from any type of agave.
+
+- From: Oaxaca, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (origin) Pulque (a fermented drink from agave sap) is pre-colonial, but the distillation of agave heart juice into mezcal was only introduced in the colonial era when Filipino sailors and migrants brought the technology of Filipino-type stills with them during the galleon trade between Mexico and the Philippines (1565 to 1815).
+- (about) The first historical record of mezcal production is from southern Jalisco, using techniques derived from coconut liquor production from Colima.
+- (history) By 1643, there are records of mezcal and vino de coco being sold in Guadalajara.
+
+More fun facts (when the user asks for more):
+
+- (history) The first mention of distilled agave spirits in colonial records is from 1619, by the Spanish cleric Domingo Lázaro de Arregui.
+- (inspiration) There are also many other modified variants, usually named after the indigenous peoples that use them, including the "Tarascan still" (or "Tarasco still"), "Zapoteco still", "Nahua still", "Bolaños still", and "Huichol still" (the latter used for making sotol, not mezcal).
+- (history) By 1638, the governor of Nueva Galicia also started to regulate the sale of mezcal.
+- (history) The production of mezcal moved from the coastal river basins of the Río Grande de Santiago to the inland ravines by the early 1700s to evade the prohibition on indigenous spirits production, as well as to take advantage of the larger numbers of wild agave plants in the interiors.
+- (culture) Mezcal is the product of the merging of pre-Columbian indigenous fermentation traditions and Asian distillation techniques brought over from the Philippines.
+- (origin) Mezcal comes from Mexico.
+- (history) By the mid-1700s, the production of vino de coco had ceased completely due to the prohibition and the loss of coconut plantations.
+- (about) Not to be confused with mescaline.
+
+Learn more:
+
+- quick: [Mezcal (Wikipedia)](https://en.wikipedia.org/wiki/Mezcal)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Mezcal (Open Library)](https://openlibrary.org/search?q=Mezcal)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q726413)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q726413) (CC0); [Wikipedia: Mezcal](https://en.wikipedia.org/wiki/Mezcal) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Nicuatole
+
+Nicuatole is a pre-Columbian gelatinous dessert made from ground maize and sugar, traditional in Oaxaca, Mexico.
+
+- From: Oaxaca, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (about) Nicuatole is linked to the municipality of San Agustín Yatareni, with Doña Juana Agustín Martínez being the first person known to produce it, in the nineteenth century.
+- (culture) Nicuatole is commonly eaten as a snack in festivals like the Guelaguetza.
+- (origin) Nicuatole comes from Mexico.
+
+More fun facts (when the user asks for more):
+
+- (about) Since 2011, a Nicuatole Fair has been held in this municipality.
+
+Learn more:
+
+- quick: [Nicuatole (Wikipedia)](https://en.wikipedia.org/wiki/Nicuatole)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Nicuatole (Open Library)](https://openlibrary.org/search?q=Nicuatole)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7030707)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7030707) (CC0); [Wikipedia: Nicuatole](https://en.wikipedia.org/wiki/Nicuatole) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Bacanora
+
+Bacanora is an agave-derived liquor made in the Mexican state of Sonora.
+
+- From: Sonora, Mexico
+
+Fun facts:
+
+- (history) The distillation of Bacanora was illegal until 1992 despite being bootlegged by vinateros for many generations.
+- (about) Not to be confused with Bacanora Municipality.
+
+Learn more:
+
+- quick: [Bacanora (Wikipedia)](https://en.wikipedia.org/wiki/Bacanora)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Bacanora (Open Library)](https://openlibrary.org/search?q=Bacanora)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1389479)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1389479) (CC0); [Wikipedia: Bacanora](https://en.wikipedia.org/wiki/Bacanora) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Popo (drink)
+
+Popo is a foamy and cold cacao beverage typical in the south of the state of Veracruz and some areas of the state of Oaxaca, such as the basin of Papaloapan or Istmo.
+
+- From: Veracruz, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (culture) Popo is a ceremonial drink, and is prepared for weddings, baptisms, birthdays and patron saint festivals.
+- (origin) Popo comes from Mexico.
+- (about) Azquiote, known as cocomeca in Oaxaca, is added, or chupipi, or sometimes both; both foaming agents.
+
+More fun facts (when the user asks for more):
+
+- (culture) For these communities, the very preparation of the popo is in itself a ritual, which can last up to two days.
+
+Learn more:
+
+- quick: [Popo (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Popo_%28drink%29)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Popo (drink) (Open Library)](https://openlibrary.org/search?q=Popo%20%28drink%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16242929)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16242929) (CC0); [Wikipedia: Popo (drink)](https://en.wikipedia.org/wiki/Popo_(drink)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Moronga
+
+Moronga (also called rellena, morcilla, or mbusia) is a kind of blood sausage.
+
+- From: Yucatán, Mexico
+
+Learn more:
+
+- quick: [Moronga (Wikipedia)](https://en.wikipedia.org/wiki/Moronga)
+- more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- deep: [Books about Moronga (Open Library)](https://openlibrary.org/search?q=Moronga)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6913247)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6913247) (CC0); [Wikipedia: Moronga](https://en.wikipedia.org/wiki/Moronga) (CC BY-SA 4.0). Review: auto-cleaned.

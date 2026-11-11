@@ -2531,36 +2531,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6799144) (CC0); [Wikipedia: Mais con yelo](https://en.wikipedia.org/wiki/Mais_con_yelo) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Misua
-
-Misua (also spelled miswa) is an extremely thin type of noodle made from wheat flour.
-
-- From: Philippines
-- Origin (Wikidata): China
-- Ingredients (Wikidata): wheat flour
-
-Fun facts:
-
-- (origin) Misua originated in Fujian, China, where thin wheat noodles have been a staple for centuries.
-- (culture) Misua signifies long life in Chinese culture, and as such is a traditional birthday food.
-- (about) Misua is usually served with ingredients such as eggs, tofu, bell peppers, oysters, pig's large intestine, sponge gourd (known as patola in the Philippines), shiitake mushroom, beef, shallots, or scallions, roasted nuts or fried fish.
-
-More fun facts (when the user asks for more):
-
-- (origin) Chinese immigrants brought misua to Southeast Asia, where it was adapted into local cuisines.
-- (origin) Misua comes from China.
-- (culture) The noodle is traditionally associated with longevity and is often served during birthdays, festivals, and other celebrations to symbolize a long life.
-- (culture) The adaptation demonstrates how Chinese culinary traditions influenced Filipino food culture over the centuries.
-
-Learn more:
-
-- quick: [Misua (Wikipedia)](https://en.wikipedia.org/wiki/Misua)
-- more: [List of Filipino dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Filipino_dishes)
-- deep: [Books about Misua (Open Library)](https://openlibrary.org/search?q=Misua)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3545084)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q3545084) (CC0); [Wikipedia: Misua](https://en.wikipedia.org/wiki/Misua) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Morón (food)
 
 In Filipino cuisine, morón (also spelled murón, with the stress placed on the last syllable) is a rice cake similar to suman.

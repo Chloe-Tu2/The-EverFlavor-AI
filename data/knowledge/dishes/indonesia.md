@@ -556,43 +556,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q10750955) (CC0); [Wikipedia: Babi panggang](https://en.wikipedia.org/wiki/Babi_panggang) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Bak kut teh
-
-Bak kut teh is a pork rib dish cooked in broth popularly served in Malaysia and Singapore where there is a predominant Hoklo and Teochew community.
-
-- From: Indonesia
-- Origin (Wikidata): Malaysia
-- Ingredients (Wikidata): pork ribs, spare ribs
-
-Fun facts:
-
-- (history) There are a number of claims for the invention of the dish; one claimed that a local sinseh (a Chinese physician) invented the dish in the 1930s, while another claimed he brought the recipe from his hometown in Fujian, China, in the 1940s.
-- (inspiration) The origin of bak kut teh is unclear, but it is believed to have been brought over from Fujian, China said to be based on a Quanzhou dish of beef ribs stewed with herbs known as niu pai ("beef steak").
-- (culture) Certain business has been focused mainly on serving this dish, and developed their business from traditional humble pushcart into a restaurant chain, one such example would be Song Fa Bak Kut Teh, which was founded as a pushcart stall in 1969.
-
-More fun facts (when the user asks for more):
-
-- (history) Established in 1925, owners of Pek Sin Choon claims that it had been supplying tea to bak kut teh stalls since its founding, but the business records were lost during World War II and the oldest preserved record by the business dates back to 1938.
-- (history) Bak kut teh is also claimed to have been invented in Port Klang for coolies working at the port to supplement their meagre diet and as a tonic to boost their health in the early 20th century.
-- (history) It is believed that the Singaporean version of the dish had at least been around since 1938, with evidence from Pek Sin Choon, which had been supplying tea to a bak kut teh stall, Nankin Street Bak Kut Teh, selling the Hokkien version of the dish in Maxwell Food Centre.
-- (history) By the 1960s, bak kut teh had become a popular street fare in Singapore.
-- (history) Ong Say Bak Kut Teh was originally founded in the 1920s but was closed in 1989 due to redevelopment, leading to Teo starting her own bak kut teh business with the same recipe that was passed to her.
-- (about) Tea of various kinds, most commonly the Tieguanyin variety which is popular in the Klang Valley area of Malaysia, is also usually served in the belief that it dilutes or dissolves the copious amount of fat consumed in this dish.
-- (about) In Malaysia, the dish is popularly associated with Klang, where the locals believe it to be the place of origin of bak kut teh.
-- (origin) Bak kut teh was popular among early Chinese immigrants, many of whom had also come from Fujian.
-- (origin) Bak kut teh comes from Malaysia.
-- (culture) The Hokkien and Teochew are traditionally tea-drinking cultures and this aspect runs deep in their cuisines.
-
-Learn more:
-
-- quick: [Bak kut teh (Wikipedia)](https://en.wikipedia.org/wiki/Bak_kut_teh)
-- more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
-- more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
-- deep: [Books about Bak kut teh (Open Library)](https://openlibrary.org/search?q=Bak%20kut%20teh)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q983160)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q983160) (CC0); [Wikipedia: Bak kut teh](https://en.wikipedia.org/wiki/Bak_kut_teh) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Bakmi
 
 Bakmi or bami are a type of wheat-based noodles derived from Chinese cooking tradition.
@@ -4086,35 +4049,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q13651680) (CC0); [Wikipedia: Natinombur](https://en.wikipedia.org/wiki/Natinombur) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Ngo hiang
-
-Ngo hiang, also known as heh gerng lor bak or kikiam is a Hokkien and Teochew dish widely adopted in Indonesia, Malaysia, the Philippines, Singapore, and Thailand, in addition to its place of origin in southern China.
-
-- From: Indonesia
-- Origin (Wikidata): People's Republic of China
-- Ingredients (Wikidata): five-spice powder, tofu skin
-
-Fun facts:
-
-- (about) Ngo hiang is essentially a composition of various meats and vegetables and other ingredients, such as a sausage-like roll consisting of minced pork and prawn (or fish) seasoned with five-spice powder after which it is named, rolled inside a tofu skin and deep-fried.
-- (culture) A street food dish also sometimes called "kikiam" (called "tempura" in Cebu) in the Philippines is neither of those dishes, but is instead an elongated version of fishballs.
-- (origin) Ngo hiang comes from the People's Republic of China.
-
-More fun facts (when the user asks for more):
-
-- (origin) The Philippine versions were originally introduced by Hokkien migrants and are generally known as kikiam.
-- (culture) The street food version of kikiam was made from pork, not fish.
-
-Learn more:
-
-- quick: [Ngo hiang (Wikipedia)](https://en.wikipedia.org/wiki/Ngo_hiang)
-- more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
-- more: [Malaysian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malaysian_cuisine)
-- deep: [Books about Ngo hiang (Open Library)](https://openlibrary.org/search?q=Ngo%20hiang)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7022462)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q7022462) (CC0); [Wikipedia: Ngo hiang](https://en.wikipedia.org/wiki/Ngo_hiang) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Nian gao
 
 Nian gao, sometimes translated as year cake or New Year cake or Chinese New Year's cake, is a food prepared from glutinous rice flour and consumed in Chinese cuisine.
@@ -5015,7 +4949,7 @@ Sapo tahu is a Chinese Indonesian tofu dish traditionally cooked and served in c
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): vegetable oil, garlic, carrot, Brassica oleracea var. botrytis, table salt, onion, Brassica rapa subsp. chinensis, tofu, sesame oil, soy sauce
+- Ingredients (Wikidata): carrot, Brassica oleracea var. botrytis, table salt, onion, Brassica rapa subsp. chinensis, tofu, sesame oil, soy sauce, cooking oil, oyster sauce
 
 Fun facts:
 
@@ -6586,40 +6520,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5307391) (CC0); [Wikipedia: Dried fish](https://en.wikipedia.org/wiki/Dried_fish) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Durian
-
-The durian ( ) is the edible fruit of trees in the genus Durio, most often applying to those of Durio zibethinus, the only species available on the international market.
-
-- From: Indonesia
-
-Fun facts:
-
-- (history) The earliest known European reference to the durian is the record of Niccolò de' Conti, who travelled to Southeast Asia in the 15th century.
-- (about) Known in some regions as the "king of fruits", the durian is distinctive for its large size, strong odour, and thorn-covered rind.
-- (inspiration) The genus Durio has a complex taxonomy that has seen the subtraction and addition of many species since it was created by Rumphius.
-
-More fun facts (when the user asks for more):
-
-- (history) In Southeast Asia, the durian has been cultivated for centuries at the village level, probably since the late 18th century, and commercially since the mid-20th century.
-- (history) The Oxford English Dictionary first cites the word from a 1588 translation of Juan González de Mendoza's Historie of the Great and Mightie Kingdome of China.
-- (about) Translated from the Latin in which Poggio Bracciolini recorded de Conti's travels: "They [people of Sumatra] have a green fruit which they call durian, as big as a watermelon.
-- (history) Inside there are five things like elongated oranges, and resembling thick butter, with a combination of flavours." The Portuguese physician Garcia de Orta described durians in Colóquios dos simples e drogas da India published in 1563.
-- (history) In 1741, Herbarium Amboinense by the German botanist Georg Eberhard Rumphius was published, providing the most detailed and accurate account of durians for over a century.
-- (history) In the 18th century, Johann Anton Weinmann considered the durian to belong to Castaneae as its fruit was similar to the horse chestnut.
-- (history) The first seedlings were sent from the Royal Botanic Gardens, Kew, to Auguste Saint-Arroman of Dominica in 1884.
-- (origin) D. zibethinus was introduced into Ceylon by the Portuguese in the 16th century and was reintroduced many times later.
-- (about) Not to be confused with Durio zibethinus, Durio.
-
-Learn more:
-
-- quick: [Durian (Wikipedia)](https://en.wikipedia.org/wiki/Durian)
-- more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
-- more: [Malaysian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malaysian_cuisine)
-- deep: [Books about Durian (Open Library)](https://openlibrary.org/search?q=Durian)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q134185)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q134185) (CC0); [Wikipedia: Durian](https://en.wikipedia.org/wiki/Durian) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Edam cheese
 
 Edam is a semi-hard cheese that originated in the Netherlands, and is named after the town of Edam in the province of North Holland.
@@ -7489,40 +7389,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q934376) (CC0); [Wikipedia: Nasi pecel](https://en.wikipedia.org/wiki/Nasi_pecel) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Noodles
-
-Noodles are a type of food typically made from unleavened dough which is rolled flat and cut, stretched, or extruded into long strips or strings.
-
-- From: Indonesia
-- Origin (Wikidata): People's Republic of China
-- Ingredients (Wikidata): water, table salt, flour, egg as food
-
-Fun facts:
-
-- (history) The word for noodles in English was borrowed in the 18th century from the German word Nudel.
-- (about) The earliest written record of noodles is found in a book dated to the Eastern Han period (25–220 CE).
-- (origin) Noodles comes from the People's Republic of China.
-
-More fun facts (when the user asks for more):
-
-- (history) Noodles made from wheat dough became a prominent food for the people of the Han dynasty.
-- (about) Many food historians dispute this interpretation, point out the scarcity of Roman-era references to anything resembling pasta, and believe that the dish instead first arrived in Italy as a "result of extensive Mediterranean trading in the Middle Ages".
-- (about) Noodles are often served with an accompanying sauce or in a soup, the latter being known as noodle soup.
-- (about) In 2005, a team of archaeologists reported finding an earthenware bowl that contained 4,000-year-old noodles at the Lajia archaeological site, made by the Qijia culture.
-- (inspiration) Serventi and Sabban, in Pasta: The Story of a Universal Food, noted that wheat-based pasta traditions were established in China long before they had appeared in Europe.
-- (origin) Food historian Gil Marks documented that the practise of boiling strips of dough in water originated in China and that this tradition did not take hold in Europe until the medieval period.
-- (history) References to pasta dishes only became increasingly frequent across the Italian peninsula starting in the 13th century.
-
-Learn more:
-
-- quick: [Noodles (Wikipedia)](https://en.wikipedia.org/wiki/Noodles)
-- more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
-- more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
-- deep: [Books about Noodles (Open Library)](https://openlibrary.org/search?q=Noodles)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q192874)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q192874) (CC0); [Wikipedia: Noodles](https://en.wikipedia.org/wiki/Noodles) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Orange juice
 
 Orange juice is a primarily liquid extract of the orange tree fruit, produced by squeezing or reaming oranges.
@@ -7613,50 +7479,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q90965089)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q90965089) (CC0); [Wikipedia: Pisang cokelat](https://en.wikipedia.org/wiki/Pisang_cokelat) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Pork ribs
-
-Pork ribs are a cut of pork popular in Western and Asian cuisines.
-
-- From: Indonesia
-
-Learn more:
-
-- quick: [Pork ribs (Wikipedia)](https://en.wikipedia.org/wiki/Pork_ribs)
-- more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
-- deep: [Books about Pork ribs (Open Library)](https://openlibrary.org/search?q=Pork%20ribs)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1526944)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q1526944) (CC0); [Wikipedia: Pork ribs](https://en.wikipedia.org/wiki/Pork_ribs) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Rambutan
-
-Rambutan (; Nephelium lappaceum) is a medium-sized tropical tree in the family Sapindaceae, and the edible fruit of this tree.
-
-- From: Indonesia
-
-Fun facts:
-
-- (history) Further introductions were made in 1920 (from Indonesia) and 1930 (from Malaya), but until the 1950s its distribution was limited.
-- (origin) In the 19th century, the Dutch introduced rambutans from Indonesia in Southeast Asia, to Suriname in South America.
-- (inspiration) In the Philippines, a legend tells how a man saves a deer from a tiger.
-
-More fun facts (when the user asks for more):
-
-- (origin) In 1912, rambutans were introduced to the Philippines from Indonesia.
-- (origin) Around the 13th to 15th centuries, Arab traders, who played a major role in Indian Ocean trade, introduced rambutans to Zanzibar and Pemba in East Africa.
-- (history) An unsuccessful attempt was made to introduce the tree to the Southeastern United States, with seeds imported from Java in 1906.
-- (about) Not to be confused with Euphoria.
-
-Learn more:
-
-- quick: [Rambutan (Wikipedia)](https://en.wikipedia.org/wiki/Rambutan)
-- more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
-- more: [Malaysian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malaysian_cuisine)
-- deep: [Books about Rambutan (Open Library)](https://openlibrary.org/search?q=Rambutan)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q476864)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q476864) (CC0); [Wikipedia: Rambutan](https://en.wikipedia.org/wiki/Rambutan) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Rijsttafel
 
@@ -8085,38 +7907,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12683133)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q12683133) (CC0); [Wikipedia: Tuak](https://en.wikipedia.org/wiki/Tuak) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Turnip cake
-
-Radish cake, turnip cake or chai tow kway is a Chinese dish made of steamed rice flour and shredded daikon radish often served as dim sum.
-
-- From: Indonesia
-- Ingredients (Wikidata): rice flour, white radish
-
-Fun facts:
-
-- (inspiration) In Taiwan, one story explaining the popularity of the dish and its significance at the Lunar New Year goes back to the 17th century Qing takeover of Taiwan.
-- (history) Daikon radishes were largely a winter crop in Taiwan, making radish cakes a seasonal specialty, but innovations in cultivation and development of new radish varieties in the 20th century have allowed it to become a year-round favorite.
-- (culture) Turnip cake is traditionally called carrot cake in Singapore, but has no relation to European carrot cake.
-
-More fun facts (when the user asks for more):
-
-- (history) A new name, chai tow kway, is self-attributed by hawker Ng Soik Theng, when she added radish to the cakes in the 1960s.
-- (culture) This misnomer gave the title to a popular 2010 guidebook on Singapore's street food, There's No Carrot in Carrot Cake by Ruth Wan, Roger Hiew and Leslie Tay.
-- (about) In Singapore, it became known as char kueh, where it was cut into cubes and stir-fried with dark soya sauce.
-- (about) For reasons that are less clear it is also a popular dish for the Chinese New Year among Cantonese, although the gōu of lòbaahk gōu is a homophone of gōu meaning "high" and indicating a wish for rising prosperity in the new year (cf. nian gao).
-- (history) This veneration of the last Ming claimant was conducted in secret and passed down through the generations until the end of Qing rule in 1895.
-- (history) Hawker Lau Goh then became famous for a light soya sauce version in the 1970s.
-
-Learn more:
-
-- quick: [Turnip cake (Wikipedia)](https://en.wikipedia.org/wiki/Turnip_cake)
-- more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
-- more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
-- deep: [Books about Turnip cake (Open Library)](https://openlibrary.org/search?q=Turnip%20cake)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q708906)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q708906) (CC0); [Wikipedia: Turnip cake](https://en.wikipedia.org/wiki/Turnip_cake) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Untir-untir
 

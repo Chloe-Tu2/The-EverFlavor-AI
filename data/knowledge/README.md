@@ -2,10 +2,14 @@
 
 Facts the waiter may tell, collected from open sources, never invented (for the waiter, planned for 0.6.3).
 
-- `dishes.jsonl`: one dish or food per line (2026-11-11: 4,827; 3,166 dishes, the rest foods and drinks; 2,769 with
-  fun-fact candidates and 2,385 with story sentences; 10,912 facts shown first and 8,935 "more"), built by
+- `dishes.jsonl`: one dish or food per line (2026-11-11: 4,885; 3,201 dishes, the rest foods and drinks; 2,806 with
+  fun-fact candidates and 2,415 with story sentences; 11,044 facts shown first and 9,035 "more"), built by
   `scripts/knowledge/fetch_knowledge.py`. It starts with what
   the app shows: the 54 countries in its Country list and its 22 regions (other countries later).
+- Regions: China by region and province (16 cuisine pages: the Eight Great Traditions, Beijing, Shanghai, Hong
+  Kong, Yunnan, Xinjiang, the Northeast, Hakka, Teochew; 282 Chinese entries); Mexico by state (its region pages
+  are prose, so a dish gets the state its own intro or Wikidata origin names first: 45 dishes, such as Al pastor in
+  Puebla and Torta ahogada in Jalisco).
 - Fields: `name`, `country`, `region` (when a region page lists it), `kind` (dish, or food or drink), `sections`
   and `regions` (headings and region columns of the Wikipedia list it came from), `summary`,
   `fun_fact_candidates`, Wikidata facts (`origin`, `inception`, `parts`, `made_from`, `named_after`, `heritage`,
@@ -29,7 +33,7 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   6 drops and 5 fixes suggested, 10 to check), and `verdict` / `reviewer` / `note` are for a person: `keep`,
   `fix` or `drop`. Walter never says a fact marked `drop`. Rerunning the script keeps what people wrote.
 - `review/origin_elsewhere.csv`: dishes a country's Wikipedia list names but whose Wikidata origin is elsewhere
-  (117, such as Baguette under the United States): their country needs a person's check.
+  (130, such as Baguette under the United States): their country needs a person's check.
 
 ## Licence and credit
 

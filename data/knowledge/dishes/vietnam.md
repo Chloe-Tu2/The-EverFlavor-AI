@@ -1758,21 +1758,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q670887) (CC0); [Wikipedia: Bamboo](https://en.wikipedia.org/wiki/Bamboo) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Bamboo shoot
-
-Bamboo shoots or bamboo sprouts are the edible shoots (new bamboo culms that come out of the ground) of many bamboo species including Bambusa vulgaris and Phyllostachys edulis.
-
-- From: Vietnam
-
-Learn more:
-
-- quick: [Bamboo shoot (Wikipedia)](https://en.wikipedia.org/wiki/Bamboo_shoot)
-- more: [Vietnamese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Vietnamese_cuisine)
-- deep: [Books about Bamboo shoot (Open Library)](https://openlibrary.org/search?q=Bamboo%20shoot)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2157176)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q2157176) (CC0); [Wikipedia: Bamboo shoot](https://en.wikipedia.org/wiki/Bamboo_shoot) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Banana fritter
 
 A banana fritter is a fritter made by deep frying battered banana or plantain in hot cooking oil.
@@ -2254,34 +2239,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q20817212) (CC0); [Wikipedia: Ginseng](https://en.wikipedia.org/wiki/Ginseng) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Jasmine tea
-
-Jasmine tea is a scented tea produced by infusing a tea base — most commonly green tea, though white tea, oolong, and black tea are also used — with the natural fragrance of jasmine blossoms.
-
-- From: Vietnam
-
-Fun facts:
-
-- (history) Jasmine tea did not become widespread until the Qing dynasty (1644 to 1912 AD), when tea began to be exported in large quantities to the West.
-- (origin) The jasmine plant is believed to have been introduced into China from eastern South Asia via India during the Han dynasty (206 BC to 220 AD), and was being used to scent tea around the fifth century.
-- (about) Jasmine tea is the most famous scented tea in China and has been consumed across Asia for centuries.
-
-More fun facts (when the user asks for more):
-
-- (culture) Today jasmine tea is produced across Asia, with significant traditions in China, Japan, and Vietnam; Vietnamese production is particularly noted for its preservation of traditional natural scenting methods.
-- (culture) Vietnam has also developed a significant jasmine tea tradition, producing naturally scented teas from tea-growing regions such as Thái Nguyên, Hà Giang, and Lâm Đồng.
-- (culture) Vietnam has developed a distinct jasmine tea tradition that has gained recognition among specialty tea drinkers internationally.
-- (culture) Vietnamese production is particularly noted for its preservation of traditional hand-scenting methods, use of naturally grown jasmine flowers and emphasis on small-batch craftsmanship.
-
-Learn more:
-
-- quick: [Jasmine tea (Wikipedia)](https://en.wikipedia.org/wiki/Jasmine_tea)
-- more: [Vietnamese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Vietnamese_cuisine)
-- deep: [Books about Jasmine tea (Open Library)](https://openlibrary.org/search?q=Jasmine%20tea)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q60855)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q60855) (CC0); [Wikipedia: Jasmine tea](https://en.wikipedia.org/wiki/Jasmine_tea) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Mì
 
 Mì or mi is a Vietnamese term for noodles.
@@ -2343,30 +2300,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1324118)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1324118) (CC0); [Wikipedia: Nước chấm](https://en.wikipedia.org/wiki/Nước_chấm) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Peanut sauce
-
-In Indonesian cuisine, peanut sauce (bumbu kacang) is a sauce made from ground roasted or fried peanuts, widely used in and many other dishes throughout the world.
-
-- From: Vietnam
-- Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): roasted peanut
-
-Fun facts:
-
-- (about) Specific versions of this sauce include satay sauce (saté sauce), pecel sauce, and sambal kacang, the satay having been adapted globally.
-- (origin) Peanut sauce comes from Indonesia.
-- (about) Not to be confused with peanut stew.
-
-Learn more:
-
-- quick: [Peanut sauce (Wikipedia)](https://en.wikipedia.org/wiki/Peanut_sauce)
-- more: [List of Vietnamese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Vietnamese_dishes)
-- more: [List of Filipino dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Filipino_dishes)
-- deep: [Books about Peanut sauce (Open Library)](https://openlibrary.org/search?q=Peanut%20sauce)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2480049)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q2480049) (CC0); [Wikipedia: Peanut sauce](https://en.wikipedia.org/wiki/Peanut_sauce) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Rượu cần
 
@@ -2430,36 +2363,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7386961)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7386961) (CC0); [Wikipedia: Rượu đế](https://en.wikipedia.org/wiki/Rượu_đế) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Shacha sauce
-
-Shacha sauce is a savory, slightly spicy Chinese condiment used in Minnan cuisine (primarily Teochew, Hokkien, and Taiwanese).
-
-- From: Vietnam
-- Origin (Wikidata): People's Republic of China
-
-Fun facts:
-
-- (history) In the 1960s and 1970s, as beef consumption slowly gained cultural acceptance in Taiwan, shacha sauce became more popular among locals.
-- (origin) During the 20th century, Teochew immigrants in Southeast Asia adapted satay sauce to local tastes, including the introduction of dried seafood.
-- (about) Shacha is now quite different from the peanut-based satay sauce popular in Malaysia and Indonesia.
-
-More fun facts (when the user asks for more):
-
-- (origin) Shacha is pronounced sa-te in the Teochew and Hokkien dialects, reflecting its origins in satay sauce introduced by expatriate Min Nan people returning to China from Southeast Asia.
-- (origin) Following the Chinese Civil War, Teochew immigrants resettled in Taiwan and introduced shacha sauce to the Taiwanese culinary repertoire.
-- (origin) Shacha sauce comes from the People's Republic of China.
-- (inspiration) Shacha sauce is based on satay sauce.
-- (about) Not to be confused with satay sauce.
-
-Learn more:
-
-- quick: [Shacha sauce (Wikipedia)](https://en.wikipedia.org/wiki/Shacha_sauce)
-- more: [List of Vietnamese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Vietnamese_dishes)
-- deep: [Books about Shacha sauce (Open Library)](https://openlibrary.org/search?q=Shacha%20sauce)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q60365)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q60365) (CC0); [Wikipedia: Shacha sauce](https://en.wikipedia.org/wiki/Shacha_sauce) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Smoked plum
 
@@ -2526,28 +2429,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1255155)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1255155) (CC0); [Wikipedia: Snake wine](https://en.wikipedia.org/wiki/Snake_wine) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Sugarcane juice
-
-Sugarcane juice is the liquid extracted from pressed sugarcane.
-
-- From: Vietnam
-- Origin (Wikidata): People's Republic of China
-- Ingredients (Wikidata): sugarcane
-
-Fun facts:
-
-- (origin) Sugarcane juice comes from the People's Republic of China.
-
-Learn more:
-
-- quick: [Sugarcane juice (Wikipedia)](https://en.wikipedia.org/wiki/Sugarcane_juice)
-- more: [List of Vietnamese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Vietnamese_dishes)
-- more: [Vietnamese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Vietnamese_cuisine)
-- deep: [Books about Sugarcane juice (Open Library)](https://openlibrary.org/search?q=Sugarcane%20juice)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q718680)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q718680) (CC0); [Wikipedia: Sugarcane juice](https://en.wikipedia.org/wiki/Sugarcane_juice) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Taro cake
 

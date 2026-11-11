@@ -2727,7 +2727,7 @@ Hubba Bubba is a brand of bubble gum produced by Wm.
 
 Fun facts:
 
-- (origin) Introduced in the United States in 1979, the bubble gum got its name from the phrase. "Hubba Hubba", which some military personnel in World War II used to express approval.
+- (origin) Introduced in the United States in 1979, the bubble gum got its name from the phrase "Hubba Hubba", which some military personnel in World War II used to express approval.
 - (history) Hubba Bubba dates from 1979-.
 
 Learn more:
@@ -6394,35 +6394,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1297721)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1297721) (CC0); [Wikipedia: Eggs Sardou](https://en.wikipedia.org/wiki/Eggs_Sardou) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### French toast
-
-French toast is a dish of sliced bread soaked in beaten eggs and often milk or cream, then pan-fried.
-
-- From: Louisiana, United States
-- Origin (Wikidata): France
-- Ingredients (Wikidata): bread, milk, sugar, egg as food
-
-Fun facts:
-
-- (history) In Le Viandier, a cookbook written around 1300, the French chef Guillaume Taillevent presented a recipe for tostées dorées involving eggs and sugar.
-- (origin) French toast comes from France.
-- (history) In Spain, one of the first recipes was published in 1611 by Francisco Martínez Motiño.
-
-More fun facts (when the user asks for more):
-
-- (history) Hannah Woolley included a recipe in her 1670s cookbook The Queen-Like Closet.
-- (history) In the 15th century, there are English recipes for pain perdu and culinary expert Martino da Como also offers a recipe.
-
-Learn more:
-
-- quick: [French toast (Wikipedia)](https://en.wikipedia.org/wiki/French_toast)
-- more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
-- deep: [Books about French toast (Open Library)](https://openlibrary.org/search?q=French%20toast)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q197973)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q197973) (CC0); [Wikipedia: French toast](https://en.wikipedia.org/wiki/French_toast) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Goose as food
 
@@ -11154,26 +11125,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7335695) (CC0); [Wikipedia: Ripper (food)](https://en.wikipedia.org/wiki/Ripper_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Roasted chestnut
-
-Roasted chestnut is a popular autumn and winter street food in East Asia, Europe, New York City and Istanbul.
-
-- From: United States
-- Origin (Wikidata): Italy, People's Republic of China
-- Ingredients (Wikidata): chestnut
-
-Fun facts:
-
-- (origin) Roasted chestnut comes from Italy, the People's Republic of China.
-
-Learn more:
-
-- quick: [Roasted chestnut (Wikipedia)](https://en.wikipedia.org/wiki/Roasted_chestnut)
-- deep: [Books about Roasted chestnut (Open Library)](https://openlibrary.org/search?q=Roasted%20chestnut)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3650544)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q3650544) (CC0); [Wikipedia: Roasted chestnut](https://en.wikipedia.org/wiki/Roasted_chestnut) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Runza
 
 A runza (also called a krautburger, or kraut pirok) is a yeast dough bread pocket with a filling consisting of ground beef, cabbage or sauerkraut, onions, and seasonings.
@@ -11400,27 +11351,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7919370) (CC0); [Wikipedia: Velveeta](https://en.wikipedia.org/wiki/Velveeta) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Banana
-
-A banana is an elongated, edible fruit that is botanically a berry produced by several kinds of large treelike herbaceous flowering plants in the genus Musa.
-
-- From: Hawaii, United States
-
-Fun facts:
-
-- (about) The world's largest producers of bananas in 2022 were India and China, which together accounted for approximately 26% of total production.
-- (about) Not to be confused with Banane.
-
-Learn more:
-
-- quick: [Banana (Wikipedia)](https://en.wikipedia.org/wiki/Banana)
-- more: [Cuisine of Hawaii (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Hawaii)
-- more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
-- deep: [Books about Banana (Open Library)](https://openlibrary.org/search?q=Banana)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q503)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q503) (CC0); [Wikipedia: Banana](https://en.wikipedia.org/wiki/Banana) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Banana passionfruit
 
 Banana passionfruit (Passiflora supersect.
@@ -11561,35 +11491,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q10978) (CC0); [Wikipedia: Grape](https://en.wikipedia.org/wiki/Grape) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Guava
-
-Guava, also known as the 'guava-pear' in various regions, is a common tropical fruit cultivated in many tropical and subtropical regions.
-
-- From: Hawaii, United States
-
-Fun facts:
-
-- (history) The term guava appears to have been in use since the mid-16th century.
-- (origin) Guavas originated from an area thought to extend from Mexico, Central America or northern South America throughout the Caribbean region.
-- (about) In 2024, the world production of guavas (data combined with mangos and mangosteens) was 62 million tonnes, led by India having 45% of the total.
-
-More fun facts (when the user asks for more):
-
-- (origin) Guavas were introduced to Florida in the 19th century and are grown there as far north as Sarasota, Chipley, Waldo and Fort Pierce.
-- (history) Guavas also grow in southwestern Europe, specifically the Costa del Sol on Málaga (Spain) and Greece where guavas have been commercially grown since the middle of the 20th century and they proliferate as cultivars.
-- (about) Guava has been adapted in many European and Asian languages, having a similar form.
-- (about) Not to be confused with Psidium guajava.
-
-Learn more:
-
-- quick: [Guava (Wikipedia)](https://en.wikipedia.org/wiki/Guava)
-- more: [Cuisine of Hawaii (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Hawaii)
-- more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
-- deep: [Books about Guava (Open Library)](https://openlibrary.org/search?q=Guava)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3181909)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q3181909) (CC0); [Wikipedia: Guava](https://en.wikipedia.org/wiki/Guava) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Hawaii wine
 
 Hawaii wine is wine made in the U.S. state of Hawaii.
@@ -11674,40 +11575,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q13195) (CC0); [Wikipedia: Lime (fruit)](https://en.wikipedia.org/wiki/Lime_(fruit)) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Mango
-
-A mango is an edible stone fruit produced by the tropical tree Mangifera indica.
-
-- From: Hawaii, United States
-
-Fun facts:
-
-- (history) Mughal emperor Akbar (1556–1605) is said to have planted a mango orchard of 100,000 trees near Darbhanga, Bihar.
-- (origin) The English word mango (plural mangoes or mangos) originated in the 16th century from the Malay word manga, from the Malayalam manga, and ultimately from the Tamil māṉ + kāy.
-- (about) In his edicts, the Mauryan emperor Ashoka references the planting of fruit- and shade-bearing trees along imperial roads in his Major Pillar Edict No.5: On the roads banyan-trees were caused to be planted by me, (in order that) they might afford shade to cattle and men, (and) mango-groves were caused to be planted.
-
-More fun facts (when the user asks for more):
-
-- (origin) Mango originated in the area between the northeastern part of the Indian subcontinent and Myanmar.
-- (history) The Mughal Empire was especially fond of the fruit; the emperor Babur praises the mango in his Baburnama.
-- (culture) Mango flowers and leaves are used in the worship of the Hindu goddess Saraswati at the spring festival of Vasant Panchami.
-- (inspiration) Paisley patterns, with a teardrop-shaped motif or boteh on shawls and saris, are named for the unripe mango in languages across the Indian subcontinent, such as kalka in Bengali, ambi in Punjabi, and kairi in Hindi.
-- (history) E. M. Forster's 1924 novel A Passage to India has the character Dr. Aziz suggest to the English character Cyril Fielding "For you I shall arrange a lady with breasts like mangoes".
-- (culture) The mango has a traditional context in the culture of South Asia.
-- (culture) The Jain goddess Ambika is traditionally represented as sitting under a mango tree.
-- (about) Not to be confused with Mangifera, Garcinia mangostana, Mango.
-- (culture) The leaves are used as decorations in celebrations of Ganesh Chaturthi for the elephant-headed god Ganesha.
-
-Learn more:
-
-- quick: [Mango (Wikipedia)](https://en.wikipedia.org/wiki/Mango)
-- more: [Cuisine of Hawaii (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Hawaii)
-- more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
-- deep: [Books about Mango (Open Library)](https://openlibrary.org/search?q=Mango)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q169)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q169) (CC0); [Wikipedia: Mango](https://en.wikipedia.org/wiki/Mango) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Orange (fruit)
 
 The orange, also called sweet orange to distinguish it from the bitter orange (Citrus × aurantium), is the fruit of a tree in the family Rutaceae.
@@ -11769,69 +11636,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q29526) (CC0); [Wikipedia: Persimmon](https://en.wikipedia.org/wiki/Persimmon) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Pomelo
-
-The pomelo ( POM-il-oh, PUM-; or pummelo, Citrus maxima), also known as a shaddock, is the largest citrus fruit.
-
-- From: Hawaii, United States
-
-Fun facts:
-
-- (culture) The pomelo features in cultural and spiritual festivals across Asia.
-- (about) Not to be confused with Citrus × paradisi, Corsican pomelo.
-- (history) From there the name spread to Jamaica in 1696.
-
-More fun facts (when the user asks for more):
-
-- (culture) In Thailand, pomelo is used in rituals such as the Songkran festival.
-- (culture) In the Hindu festival of Chhath Puja, pomelo is used as an offering.
-- (culture) Its name is similar to the word for "to have", making it a symbol of prosperity and family unity.
-- (culture) In China, during the Lunar New Year festival, the fruit is offered to ancestors.
-
-Learn more:
-
-- quick: [Pomelo (Wikipedia)](https://en.wikipedia.org/wiki/Pomelo)
-- more: [Cuisine of Hawaii (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Hawaii)
-- more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
-- deep: [Books about Pomelo (Open Library)](https://openlibrary.org/search?q=Pomelo)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q80024)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q80024) (CC0); [Wikipedia: Pomelo](https://en.wikipedia.org/wiki/Pomelo) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Rice
-
-Rice is a cereal grain and, in its domesticated form, is the staple food of over half of the world's population, particularly in Africa and Asia.
-
-- From: Hawaii, United States
-- Ingredients (Wikidata): starch
-
-Fun facts:
-
-- (history) The English word rice appeared in the 13th century and was borrowed from the Old French ris, a descendant of the Latin oriza, which is cognate with the Sanskrit vrihi-s ("rice").
-- (about) Oryza sativa rice was first domesticated in China 9,000 years ago, by people of Neolithic cultures in the Upper and Lower Yangtze, associated with Hmong–Mien speakers and pre-Austronesians, respectively.
-- (culture) Traditional rice polycultures such as rice-duck farming, and modern integrated pest management seek to control damage from pests in a sustainable way.
-
-More fun facts (when the user asks for more):
-
-- (history) Rice spread around the rest of the world through cultivation, migration and trade, eventually to the Americas as part of the Columbian exchange after 1492.
-- (about) Rice has become commonplace in many cultures worldwide; in 2023, 800 million tons were produced, placing it third after sugarcane and maize.
-- (about) Golden rice is a variety produced by genetic engineering to contain vitamin A. Production of rice is estimated to have caused over 1% of global greenhouse gas emissions in 2022.
-- (culture) In human culture, rice plays a role in various religions and traditions, such as in weddings.
-- (origin) Rice was introduced early into Sino-Tibetan cultures in northern China by around 6000 to 5600 years ago, and to the Korean peninsula and Japan by around 5500 to 3200 years ago.
-- (origin) The now less common Oryza glaberrima (African rice) was independently domesticated in Africa around 3,000 years ago, and introduced to the Americas by the Spanish.
-- (culture) Rice plays an important role in certain religions and popular beliefs.
-- (culture) In Japan and the Philippines, rice wine is used for weddings and other celebrations.
-
-Learn more:
-
-- quick: [Rice (Wikipedia)](https://en.wikipedia.org/wiki/Rice)
-- more: [Cuisine of Hawaii (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Hawaii)
-- more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
-- deep: [Books about Rice (Open Library)](https://openlibrary.org/search?q=Rice)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5090)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q5090) (CC0); [Wikipedia: Rice](https://en.wikipedia.org/wiki/Rice) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Sweet onion
 
 A sweet onion is a variety of onion that is not pungent.
@@ -11846,27 +11650,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3496785)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3496785) (CC0); [Wikipedia: Sweet onion](https://en.wikipedia.org/wiki/Sweet_onion) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Tamarind
-
-Tamarind (Tamarindus indica) is a leguminous tree bearing edible fruit that is indigenous to tropical Africa and naturalized in Asia.
-
-- From: Hawaii, United States
-
-Fun facts:
-
-- (about) In Hindi, it is known as imli or tintrini, and as chincha in Marathi.
-- (culture) The pulp is also used in traditional medicine and as a dye.
-
-Learn more:
-
-- quick: [Tamarind (Wikipedia)](https://en.wikipedia.org/wiki/Tamarind)
-- more: [Cuisine of Hawaii (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Hawaii)
-- more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
-- deep: [Books about Tamarind (Open Library)](https://openlibrary.org/search?q=Tamarind)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q80235)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q80235) (CC0); [Wikipedia: Tamarind](https://en.wikipedia.org/wiki/Tamarind) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Yellowfin tuna
 
@@ -12062,38 +11845,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q23012379)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q23012379) (CC0); [Wikipedia: Celery](https://en.wikipedia.org/wiki/Celery) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Chicken as food
-
-Chicken is the most common type of poultry and the second most consumed meat in the world, after pork.
-
-- From: Louisiana, United States
-- Ingredients (Wikidata): chicken foot as food, chicken breast, chicken leg, chicken wing, chicken drumstick, chicken thigh, chicken gizzard
-
-Fun facts:
-
-- (history) Since the latter half of the 20th century, prepared chicken has become a staple of fast food.
-- (about) The modern chicken is a descendant of red junglefowl hybrids along with the grey junglefowl first raised thousands of years ago in the northern parts of the Indian subcontinent.
-- (culture) In developed countries, chickens are typically subject to intensive farming methods while less-developed areas raise chickens using more traditional farming techniques.
-
-More fun facts (when the user asks for more):
-
-- (history) In the United States in the 1800s, chicken was more expensive than other meats and it was "sought by the rich because [it is] so costly as to be an uncommon dish." Chicken consumption in the U.S. increased during World War II due to a shortage of beef and pork.
-- (history) This led to the creation of the Cornish Rock Cross in the late 1940s - a chicken with an efficient feed conversion ratio (FCR), speedy to rear, and good meat quality.
-- (history) In Europe, consumption of chicken overtook that of beef and veal in 1996, linked to consumer awareness of bovine spongiform encephalopathy (mad cow disease). 357 million tonnes of meat were produced in 2021, 53% more than in 2000, with chicken meat representing more than half the increase.
-- (about) The United Nations estimated there to be 19 billion chickens on Earth in 2011, making them outnumber humans more than two to one.
-- (about) Chicken meat was the most produced type of meat in 2021 just ahead of pig meat.
-- (about) Not to be confused with roast chicken.
-
-Learn more:
-
-- quick: [Chicken as food (Wikipedia)](https://en.wikipedia.org/wiki/Chicken_as_food)
-- more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
-- deep: [Books about Chicken as food (Open Library)](https://openlibrary.org/search?q=Chicken%20as%20food)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q864693)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q864693) (CC0); [Wikipedia: Chicken as food](https://en.wikipedia.org/wiki/Chicken_as_food) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Chorizo
 
@@ -12721,33 +12472,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q33076576) (CC0); [Wikipedia: Vieux Carré (cocktail)](https://en.wikipedia.org/wiki/Vieux_Carré_(cocktail)) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Wheat
-
-Wheat is a group of wild and domesticated grasses of the genus Triticum ().
-
-- From: Louisiana, United States
-
-Fun facts:
-
-- (about) The archaeological record suggests that wheat was first cultivated in the regions of the Fertile Crescent around 9600 BC.
-- (history) Since 1960, world production of wheat and other grain crops has tripled and is expected to grow further through the middle of the 21st century.
-- (about) Wheat is grown on a larger area of land than any other food crop (219.5 million hectares or 542 million acres in 2024).
-
-More fun facts (when the user asks for more):
-
-- (about) In 2024, world wheat production was 799 million tonnes (881 million short tons), making it the second most-produced cereal after maize (known as corn in North America and Australia).
-- (about) Not to be confused with Ble, Blé.
-
-Learn more:
-
-- quick: [Wheat (Wikipedia)](https://en.wikipedia.org/wiki/Wheat)
-- more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
-- deep: [Books about Wheat (Open Library)](https://openlibrary.org/search?q=Wheat)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q15645384)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q15645384) (CC0); [Wikipedia: Wheat](https://en.wikipedia.org/wiki/Wheat) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Bean
 
 A bean is the seed of plants in many genera of the legume family (Fabaceae) used as a vegetable for human consumption or animal feed.
@@ -12777,32 +12501,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q379813)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q379813) (CC0); [Wikipedia: Bean](https://en.wikipedia.org/wiki/Bean) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Beef
-
-Beef is the culinary name for meat from cattle (Bos taurus).
-
-- From: Midwestern US, United States
-
-Fun facts:
-
-- (about) As of 2018, the United States, Brazil, and China were the largest producers of beef.
-- (history) Upon the acquisition of grasslands through the Mexican–American War of 1848, and later the expulsion of the Plains Indians from this region and the Midwest, the American livestock industry began, starting primarily with the taming of feral and semi-feral Longhorn cattle.
-- (about) The first domestication event occurred around 10,500 years ago with the evolution of Bos taurus.
-
-More fun facts (when the user asks for more):
-
-- (about) Not to be confused with Manzo.
-
-Learn more:
-
-- quick: [Beef (Wikipedia)](https://en.wikipedia.org/wiki/Beef)
-- more: [Midwestern cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Midwestern_cuisine)
-- more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
-- deep: [Books about Beef (Open Library)](https://openlibrary.org/search?q=Beef)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q192628)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q192628) (CC0); [Wikipedia: Beef](https://en.wikipedia.org/wiki/Beef) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Beer
 
@@ -12861,44 +12559,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q146470)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q146470) (CC0); [Wikipedia: Brandy](https://en.wikipedia.org/wiki/Brandy) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Cabbage
-
-Cabbage, comprising several cultivars of Brassica oleracea, is a leafy green, red (purple), or white (pale green) biennial plant grown as an annual vegetable crop for its dense-leaved heads.
-
-- From: Midwestern US, United States
-
-Fun facts:
-
-- (history) Jacques Cartier first brought cabbage to the Americas in 1541–42, and it was probably planted by the early English colonists, despite the lack of written evidence of its existence there until the mid-17th century.
-- (about) Cabbage heads are generally picked during the first year of the plant's life cycle, but plants intended for seed are allowed to grow a second year and must be kept separate from other cole crops to prevent cross-pollination.
-- (origin) According to the triangle of U theory of the evolution and relationships between Brassica species, B. oleracea and other closely related kale vegetables (cabbages, kale, broccoli, Brussels sprouts, and cauliflower) represent one of three ancestral lines from which all other brassicas originated.
-
-More fun facts (when the user asks for more):
-
-- (history) Nonheading cabbages and kale were probably the first to be domesticated, before 1000 BC, perhaps by the Celts of central and western Europe, although recent linguistic and genetic evidence enforces a Mediterranean origin of cultivated brassicas.
-- (history) Cabbage continued to figure in the materia medica of antiquity as well as at table: in the first century AD Dioscorides mentions two kinds of coleworts with medical uses, the cultivated and the wild, and his opinions continued to be paraphrased in herbals right through the 17th century.
-- (history) French naturalist Jean Ruel made what is considered the first explicit mention of head cabbage in his 1536 botanical treatise De Natura Stirpium, referring to it as capucos coles ("head-coles").
-- (history) Cabbage was most likely domesticated somewhere in Europe in ancient history before 1000 BC.
-- (history) Savoy cabbage was developed in the 16th century.
-- (origin) While unidentified brassicas were part of the highly conservative unchanging Mesopotamian garden repertory, it is believed that the ancient Egyptians did not cultivate cabbage, which is not native to the Nile valley, though the word shaw't in Papyrus Harris of the time of Ramesses III has been interpreted as "cabbage".
-- (history) Carl Peter Thunberg reported that cabbage was not yet known in Japan in 1775.
-- (history) During the 16th century, German gardeners developed the savoy cabbage.
-- (about) As of 2012, the heaviest cabbage was 62.71 kilograms (138 lb 4 oz).
-- (about) By the 17th and 18th centuries, cabbage was popularised as a staple food in central, northern, and Eastern Europe.
-- (origin) In India, cabbage was one of several vegetable crops introduced by colonizing traders from Portugal, who established trade routes from the 14th to 17th centuries.
-- (origin) Many cabbage varieties—including some still commonly grown—were introduced in Germany, France, and the Low Countries.
-- (origin) New variants were introduced from the Renaissance on, mostly by Germanic-speaking peoples.
-
-Learn more:
-
-- quick: [Cabbage (Wikipedia)](https://en.wikipedia.org/wiki/Cabbage)
-- more: [Midwestern cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Midwestern_cuisine)
-- more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
-- deep: [Books about Cabbage (Open Library)](https://openlibrary.org/search?q=Cabbage)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q35051)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q35051) (CC0); [Wikipedia: Cabbage](https://en.wikipedia.org/wiki/Cabbage) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Cheese
 
@@ -13010,33 +12670,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q371101)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q371101) (CC0); [Wikipedia: Morchella](https://en.wikipedia.org/wiki/Morchella) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Pork
-
-Pork is the culinary name for the meat of the pig (Sus domesticus).
-
-- From: Midwestern US, United States
-
-Fun facts:
-
-- (culture) Before the mass production and re-engineering of pigs in the 20th century, pork in Europe and North America was traditionally an autumn dish—pigs and other livestock coming to the slaughter in the autumn after growing in the spring and fattening during the summer.
-- (about) Pork is one of the most popular meats in the Western world, particularly in Central Europe.
-- (about) Pork is also very popular in East and Southeast Asia (Mainland Southeast Asia, Philippines, Singapore, and East Timor).
-
-More fun facts (when the user asks for more):
-
-- (culture) The members of this guild produced a traditional range of cooked or salted and dried meats, which varied, sometimes distinctively, from region to region.
-- (about) The year-round availability of meat and fruits has not diminished the popularity of this combination on Western plates.
-
-Learn more:
-
-- quick: [Pork (Wikipedia)](https://en.wikipedia.org/wiki/Pork)
-- more: [Midwestern cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Midwestern_cuisine)
-- more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
-- deep: [Books about Pork (Open Library)](https://openlibrary.org/search?q=Pork)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q191768)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q191768) (CC0); [Wikipedia: Pork](https://en.wikipedia.org/wiki/Pork) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Ranch dressing
 

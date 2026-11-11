@@ -364,35 +364,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3304394) (CC0); [Wikipedia: Pork pie](https://en.wikipedia.org/wiki/Pork_pie) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Sandwich
-
-A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling between slices of bread, or placed atop a slice of bread (known as an open sandwich); or, more generally, any dish in which bread serves as a container or wrapper for another food type.
-
-- From: England, United Kingdom
-- Origin (Wikidata): England
-- Named after: John Montagu, 4th Earl of Sandwich
-- Ingredients (Wikidata): bread
-
-Fun facts:
-
-- (inspiration) The sandwich is named after the inventor of a certain roast-beef sandwich in 18th-century England, John Montagu, 4th Earl of Sandwich.
-- (about) Sandwiches are a popular type of lunch food, taken to work, school, or picnics to be eaten as part of a packed lunch.
-- (origin) Sandwich comes from England.
-
-More fun facts (when the user asks for more):
-
-- (inspiration) Sandwich is named after John Montagu, 4th Earl of Sandwich.
-- (about) Not to be confused with Butterbrot, sandwich, open sandwich.
-
-Learn more:
-
-- quick: [Sandwich (Wikipedia)](https://en.wikipedia.org/wiki/Sandwich)
-- more: [English cuisine (Wikipedia)](https://en.wikipedia.org/wiki/English_cuisine)
-- deep: [Books about Sandwich (Open Library)](https://openlibrary.org/search?q=Sandwich)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28803)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q28803) (CC0); [Wikipedia: Sandwich](https://en.wikipedia.org/wiki/Sandwich) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Staffordshire oatcake
 
 A Staffordshire oatcake is a type of dense, savoury pancake made from oatmeal, flour and yeast.

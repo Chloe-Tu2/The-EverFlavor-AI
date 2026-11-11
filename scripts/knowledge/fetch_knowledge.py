@@ -22,6 +22,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import quote, unquote
@@ -59,6 +60,18 @@ APP_REGIONS = {
     ("Mexico", "Oaxaca"): ["Oaxacan cuisine"],
     ("China", "Beijing"): ["Beijing cuisine"], ("China", "Guangdong"): ["Cantonese cuisine"],
     ("China", "Hunan"): ["Hunan cuisine"], ("China", "Sichuan"): ["Sichuan cuisine"],
+    # China by region and province (the focus plan): the rest of the Eight Great Traditions and well-known others
+    ("China", "Shandong"): ["Shandong cuisine"], ("China", "Jiangsu"): ["Jiangsu cuisine", "Huaiyang cuisine"],
+    ("China", "Zhejiang"): ["Zhejiang cuisine"], ("China", "Fujian"): ["Fujian cuisine"],
+    ("China", "Anhui"): ["Anhui cuisine"], ("China", "Shanghai"): ["Shanghai cuisine"],
+    ("China", "Yunnan"): ["Yunnan cuisine"], ("China", "Xinjiang"): ["Xinjiang cuisine"],
+    ("China", "Hong Kong"): ["Hong Kong cuisine"], ("China", "Northeast China"): ["Northeastern Chinese cuisine"],
+    ("China", "Hakka"): ["Hakka cuisine"], ("China", "Teochew"): ["Teochew cuisine"],
+    # Mexico by culinary region (the focus plan)
+    ("Mexico", "Yucatán"): ["Yucatán cuisine", "Cuisine of Yucatán"], ("Mexico", "Puebla"): ["Cuisine of Puebla"],
+    ("Mexico", "Jalisco"): ["Cuisine of Jalisco"], ("Mexico", "Veracruz"): ["Cuisine of Veracruz"],
+    ("Mexico", "Michoacán"): ["Cuisine of Michoacán"], ("Mexico", "Mexico City"): ["Cuisine of Mexico City"],
+    ("Mexico", "Northern Mexico"): ["Northern Mexican cuisine"],
     ("Canada", "British Columbia"): ["Cuisine of British Columbia"], ("Canada", "Ontario"): ["Cuisine of Ontario"],
     ("Canada", "Quebec"): ["Quebec cuisine"],
     ("United Kingdom", "England"): ["English cuisine"], ("United Kingdom", "Scotland"): ["Scottish cuisine"],
@@ -74,6 +87,31 @@ APP_REGIONS = {
     ("United States", "Southwestern US"): ["Cuisine of the Southwestern United States", "New Mexican cuisine"],
     ("United States", "Texas"): ["Texan cuisine", "Tex-Mex"],
 }
+# Mexico's region pages are prose: their links include places, crafts and other states' dishes (the Baja California
+# page once made Torta ahogada, a Jalisco dish, "Baja California"). There a region page sets the region only when
+# the dish's own intro or Wikidata origin names it (review, 2026-11-11).
+PROSE_REGION_COUNTRIES = {"Mexico"}
+# When no region page fits, the state the dish's intro or origin names (Mexico by state: the focus plan's divisions)
+COUNTRY_DIVISIONS = {"Mexico": [
+    "Aguascalientes", "Baja California Sur", "Baja California", "Campeche", "Chiapas", "Chihuahua", "Coahuila",
+    "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Mexico City", "Michoacán", "Morelos",
+    "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora",
+    "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán", "Zacatecas", "State of Mexico"]}
+
+
+def _plain_words(text: str) -> str:
+    return unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
+
+
+def named_region(options: list[str], intro: str, origin: list[str]) -> str | None:
+    """The region the dish's intro names first (then its Wikidata origin), among `options`, else None.
+    The earliest mention wins: "originated in the town of Motul (Yucatán) ... also in Oaxaca" is Yucatán; a longer
+    name wins a tie ("Baja California Sur" over "Baja California")."""
+    text = _plain_words(intro + " " + " ".join(origin))
+    found = [(text.find(_plain_words(r)), -len(r), r) for r in options if _plain_words(r) in text]
+    return min(found)[2] if found else None
+
+
 # Lists that cover several countries: the dish's country comes from Wikidata's origin when it is an app country
 GROUP_LISTS = ["List of Middle Eastern dishes",
                "List of African dishes"]
@@ -382,6 +420,8 @@ def main() -> None:
         for r in rows:
             entry = listed.setdefault(r["title"], {"country": country, "region": region, "lists": [],
                                                    "sections": [], "regions": []})
+            if region and region not in entry.setdefault("region_options", []):
+                entry["region_options"].append(region)
             if region and not entry["region"]:
                 # A region page is the most precise: it sets the region and the country, and its page comes
                 # first in "learn more"
@@ -421,8 +461,12 @@ def main() -> None:
             continue   # not from a country the app shows (picked up later)
         intro = page["intro"]
         url = "https://en.wikipedia.org/wiki/" + page["title"].replace(" ", "_")
+        region = entry["region"]
+        if country in PROSE_REGION_COUNTRIES:
+            region = named_region(entry.get("region_options", []) + COUNTRY_DIVISIONS.get(country, []), intro,
+                                  f.get("origin", []))
         dishes[page["qid"]] = {
-            "qid": page["qid"], "name": page["title"], "country": country, "region": entry["region"],
+            "qid": page["qid"], "name": page["title"], "country": country, "region": region,
             "kind": "dish" if dishes_set.intersection(f.get("types", [])) else "food or drink",
             "sections": [" > ".join(s) for s in entry["sections"]], "regions": entry["regions"][:6],
             "summary": (sentences(intro) or [""])[0],

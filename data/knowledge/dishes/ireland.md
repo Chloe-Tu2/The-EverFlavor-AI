@@ -398,27 +398,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6549260) (CC0); [Wikipedia: Limerick ham](https://en.wikipedia.org/wiki/Limerick_ham) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Mashed potato
-
-Mashed potato or mashed potatoes (American, Canadian, and Australian English), colloquially known as mash (British English), is a dish made by mashing boiled or steamed potatoes, usually with added milk, butter, salt, and pepper.
-
-- From: Ireland
-- Ingredients (Wikidata): milk, butter, potato
-
-Fun facts:
-
-- (history) An early recipe is found in Hannah Glasse's The Art of Cookery, published in 1747.
-
-Learn more:
-
-- quick: [Mashed potato (Wikipedia)](https://en.wikipedia.org/wiki/Mashed_potato)
-- more: [List of Irish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Irish_dishes)
-- more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
-- deep: [Books about Mashed potato (Open Library)](https://openlibrary.org/search?q=Mashed%20potato)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q322787)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q322787) (CC0); [Wikipedia: Mashed potato](https://en.wikipedia.org/wiki/Mashed_potato) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Pastie
 
 A pastie is a large to medium-sized battered deep-fried round of minced meat and vegetables common to Northern Ireland.

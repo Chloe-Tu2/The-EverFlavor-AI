@@ -383,7 +383,7 @@ Green papaya salad is a spicy salad made from shredded unripe papaya.
 
 - From: Thailand
 - Origin (Wikidata): Southeast Asia
-- Ingredients (Wikidata): Padaek, papaya, nam pu, garlic, tamarind paste, salted crab, bird's eye chili, fish sauce, shrimp paste
+- Ingredients (Wikidata): nam pu, garlic, tamarind paste, salted crab, bird's eye chili, fish sauce, shrimp paste, Padaek, papaya
 
 Fun facts:
 
@@ -1525,41 +1525,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3001949) (CC0); [Wikipedia: Soft-shell crab](https://en.wikipedia.org/wiki/Soft-shell_crab) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Soy milk
-
-Soy milk (or soymilk), also known as soya milk, is a plant-based milk produced by soaking and grinding soybeans, boiling the mixture, and filtering out remaining particulates.
-
-- From: Thailand
-- Origin (Wikidata): China
-- Ingredients (Wikidata): water, soy bean, soy whey
-
-Fun facts:
-
-- (history) Li Yuying established Caséo-Sojaïne, the first soy milk "dairy", in Colombes, France, in 1910; he received the first British and American patents for soy milk manufacturing in 1912 and 1913.
-- (origin) Originating in China, it became a common beverage in Europe and North America in the latter half of the 20th century, especially as production techniques were developed to give it a taste and consistency more closely resembling that of dairy milk.
-- (history) The earliest record of soybean milk is on a stone slab of the Eastern Han dynasty unearthed in China, on which is engraved a description of the making of soy milk in ancient kitchens.
-
-More fun facts (when the user asks for more):
-
-- (history) Soymilk was mentioned in various European letters from China beginning in the 17th century. "Soy milk" entered the English language (as "soy-bean milk") in an 1897 USDA report.
-- (history) The compendium of Materia Medica, which was completed in 1578, also has an evaluation of soymilk.
-- (history) By the 18th century, it was common enough that street vendors were hawking it; in the 19th, it was also common to take a cup to tofu shops to get hot, fresh doujiang for breakfast.
-- (history) J.A. Chard began production of "Soy Lac" in New York City, United States, in 1917.
-- (history) By 1929, two Shanghai factories were selling over 1000 bottles a day, and another in Beijing was almost as productive itself.
-- (origin) Soy milk comes from China.
-- (history) A tofu broth (doufujiang) c. 1365 was used during the Mongol Yuan.
-- (history) Its use increased during the Qing dynasty, apparently due to the discovery that gently heating doujiang for at least 90 minutes hydrolyzed or helped to break down its undesirable raffinose and stachyose, oligosaccharides which can cause flatulence and digestive pain among lactose-intolerant adults.
-
-Learn more:
-
-- quick: [Soy milk (Wikipedia)](https://en.wikipedia.org/wiki/Soy_milk)
-- more: [Thai cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Thai_cuisine)
-- more: [List of Vietnamese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Vietnamese_dishes)
-- deep: [Books about Soy milk (Open Library)](https://openlibrary.org/search?q=Soy%20milk)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q192199)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q192199) (CC0); [Wikipedia: Soy milk](https://en.wikipedia.org/wiki/Soy_milk) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Steamed curry
 
 Steamed curry is a type of Southeast Asian curry that is traditionally cooked by steaming or roasting (on an embers) in banana leaves and served with cooked rice.
@@ -1986,28 +1951,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q18612498) (CC0); [Wikipedia: Chim chum](https://en.wikipedia.org/wiki/Chim_chum) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Chinese cabbage
-
-Chinese cabbage (Brassica rapa, subspecies pekinensis and chinensis) is either of two cultivar groups of leaf vegetables often used in Chinese cuisine: the Pekinensis Group (napa cabbage) and the Chinensis Group (bok choy).
-
-- From: Thailand
-
-Fun facts:
-
-- (history) The Chinese cabbage was principally grown in the Yangtze River Delta region, but the Ming dynasty naturalist Li Shizhen popularized it by bringing attention to its medicinal qualities.
-- (about) In 2017, aboard the International Space Station, a crop of Chinese cabbage from a plant growth device included an allotment for crew consumption, while the rest was saved for scientific study.
-- (history) The variant cultivated in Zhejiang around the 14th century was brought north, and the northern harvest of napa cabbage soon exceeded the southern one.
-
-Learn more:
-
-- quick: [Chinese cabbage (Wikipedia)](https://en.wikipedia.org/wiki/Chinese_cabbage)
-- more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
-- more: [List of Filipino dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Filipino_dishes)
-- deep: [Books about Chinese cabbage (Open Library)](https://openlibrary.org/search?q=Chinese%20cabbage)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q18968514)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q18968514) (CC0); [Wikipedia: Chinese cabbage](https://en.wikipedia.org/wiki/Chinese_cabbage) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Condensed milk
 
 Condensed milk is cow's milk from which water has been removed (roughly 60% of it).
@@ -2156,39 +2099,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q348958)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q348958) (CC0); [Wikipedia: Iced tea](https://en.wikipedia.org/wiki/Iced_tea) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Jackfruit
-
-The jackfruit or jakfruit (Artocarpus heterophyllus) is a fruit tree in the mulberry family of Moraceae.
-
-- From: Thailand
-
-Fun facts:
-
-- (inspiration) In 1984, Ralph Randles Stewart suggested that it might have been named after botanist William Jack (1795–1822), a Scottish botanist who worked for the East India Company in Bengal, Sumatra, and Malaya.
-- (origin) The name jackfruit comes from Portuguese jaca first mentioned by physician and naturalist Garcia de Orta in his 1563 book Colóquios dos simples e drogas da India.
-- (history) Jaca is derived from the Malayalam word chakka, which is used to refer to the fruit in the Malabar region of India as mentioned by Hendrik van Rheede (1636–1691) in the third volume of Hortus Malabaricus.
-
-More fun facts (when the user asks for more):
-
-- (origin) The jackfruit tree might have originated in the Western Ghats range in India.
-- (inspiration) Native to India, the species was first described under the name Artocarpus heterophyllus in Encyclopédie Méthodique, Botanique in 1789 by Jean-Baptiste Lamarck, based on a specimen collected by botanist Philibert Commerson.
-- (inspiration) The species was first described under the name Artocarpus heterophyllus in Encyclopédie Méthodique, Botaniquein 1789 by Jean-Baptiste Lamarck, based on a specimen collected by botanist Philibert Commerson.
-- (origin) In addition to the various countries in South Asia and Southeast Asia, where it is extensively grown, it has also been introduced across parts of Africa, Americas, and Oceania.
-- (about) In India, it is known as palaa in Tamil, kathal in Hindi and Bengali, and phanas in Marathi.
-- (about) Jackfruit is known as nangka in Tagalog, and nangkà in Cebuano and in Malay, all from the Austronesian language family.
-- (about) Jackfruit is known as khanun in Thai, khnor in Khmer, may mi in Lao, and mit in Vietnamese.
-- (about) Jackfruit is part of Moraceae, commonly known as mulberry family.
-
-Learn more:
-
-- quick: [Jackfruit (Wikipedia)](https://en.wikipedia.org/wiki/Jackfruit)
-- more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
-- more: [Thai cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Thai_cuisine)
-- deep: [Books about Jackfruit (Open Library)](https://openlibrary.org/search?q=Jackfruit)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q45757)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q45757) (CC0); [Wikipedia: Jackfruit](https://en.wikipedia.org/wiki/Jackfruit) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Khanom chin
 

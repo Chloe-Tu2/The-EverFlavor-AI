@@ -8099,34 +8099,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3606669) (CC0); [Wikipedia: Agnolotti pavesi](https://en.wikipedia.org/wiki/Agnolotti_pavesi) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Almond milk
-
-Almond milk is a plant-based milk substitute with a watery texture and nutty flavor manufactured from almonds, although some types or brands are flavored in imitation of cow's milk.
-
-- From: Italy
-- Since: 1200-
-- Ingredients (Wikidata): water, almond
-
-Fun facts:
-
-- (history) The earliest recipes for almond milk date back to at least the 13th century Middle East, as it was listed in Muhammad bin Hasan al-Baghdadi’s book Kitāb al-Ṭabīḫ, written in 1226.
-- (about) Global almond milk sales in 2018 were US$5.8 billion, growing at 14% per year, and forecast to be a $13 billion global market by 2025.
-- (history) Almond milk is even mentioned under the secondary definition of "milk" in Samuel Johnson's Dictionary in 1755, alongside pistachio milk.
-
-More fun facts (when the user asks for more):
-
-- (history) Almond milk dates from 1200-.
-- (about) Almond milk's popularity as a dairy substitute continued throughout history, going well into modern times.
-
-Learn more:
-
-- quick: [Almond milk (Wikipedia)](https://en.wikipedia.org/wiki/Almond_milk)
-- more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
-- deep: [Books about Almond milk (Open Library)](https://openlibrary.org/search?q=Almond%20milk)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q975953)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q975953) (CC0); [Wikipedia: Almond milk](https://en.wikipedia.org/wiki/Almond_milk) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Alpkäse
 
 Alpkäse is a type of cheese made with cow's milk in the Alpine region (Austria, Italy, Switzerland, and Germany).

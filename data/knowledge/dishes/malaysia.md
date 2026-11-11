@@ -875,27 +875,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q16979517) (CC0); [Wikipedia: Umai (food)](https://en.wikipedia.org/wiki/Umai_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Chrysanthemum tea
-
-Chrysanthemum tea is a flower-based infusion beverage made from the chrysanthemum flowers of the species Chrysanthemum morifolium or C. indicum, which are most popular throughout East and Southeast Asia.
-
-- From: Malaysia
-- Ingredients (Wikidata): Chrysanthemum indicum
-
-Fun facts:
-
-- (history) Chrysanthemum are first cultivated in China as a herb as early as the 1500 BCE, making tea from them became popular during the Song dynasty.
-- (culture) In Chinese tradition, once a pot of fresh chrysanthemum tea has been drunk, hot water is typically added again to the flowers in the pot (producing a tea that is slightly less strong); this process is often repeated several times.
-
-Learn more:
-
-- quick: [Chrysanthemum tea (Wikipedia)](https://en.wikipedia.org/wiki/Chrysanthemum_tea)
-- more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
-- deep: [Books about Chrysanthemum tea (Open Library)](https://openlibrary.org/search?q=Chrysanthemum%20tea)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q708203)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q708203) (CC0); [Wikipedia: Chrysanthemum tea](https://en.wikipedia.org/wiki/Chrysanthemum_tea) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Cincin
 
 Cincin is a traditional kuih for the Bruneian Malay people in Brunei and the Malaysian state of Sabah.
@@ -1239,26 +1218,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q106256810)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q106256810) (CC0); [Wikipedia: Mee goreng](https://en.wikipedia.org/wiki/Mee_goreng) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Mee pok
-
-Mee pok is a Chinese noodle characterized by its flat and yellow appearance, varying in thickness and width.
-
-- From: Malaysia
-
-Fun facts:
-
-- (about) Bak chor mee is usually prepared using thin noodles ("mee kia") (widely known as wonton-style noodles or youmian) or mee pok, while yu wan mee can also be prepared in both styles or other noodle varieties.
-- (about) Bak chor mee featured prominently in an episode of The Mr Brown Show, which satirized the James Gomez saga during the 2006 Singapore general elections.
-
-Learn more:
-
-- quick: [Mee pok (Wikipedia)](https://en.wikipedia.org/wiki/Mee_pok)
-- more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
-- deep: [Books about Mee pok (Open Library)](https://openlibrary.org/search?q=Mee%20pok)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6807485)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q6807485) (CC0); [Wikipedia: Mee pok](https://en.wikipedia.org/wiki/Mee_pok) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Milo dinosaur
 

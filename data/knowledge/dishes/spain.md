@@ -1020,12 +1020,11 @@ Torta de Santiago (in Galician) or Tarta de Santiago (in Spanish), literally mea
 Fun facts:
 
 - (history) The application for protected geographic status identifies the first documentary evidence of the cake's existence as dating to 1577, when it was mentioned in notes of what was being eaten at the University of Santiago de Compostela.
-- (origin) Tarta de Santiago was first made in Santiago de Compostela.
 - (culture) The cross is a symbol of the Camino de Santiago pilgrimages, and the cake said to reward pilgrims upon the completion of their journey.
+- (about) In May 2010, the EU gave Tarta de Santiago PGI status within Europe.
 
 More fun facts (when the user asks for more):
 
-- (about) In May 2010, the EU gave Tarta de Santiago PGI status within Europe.
 - (origin) Tarta de Santiago comes from Spain.
 - (about) Tarta de Santiago is listed as protected geographical indication.
 - (history) The origin of the cross being decorated on the cake dates to 1924 when the "Casa Mora" began to adorn the almond cakes with the silhouette.

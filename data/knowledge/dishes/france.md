@@ -1349,36 +1349,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3594122) (CC0); [Wikipedia: Oeufs en meurette](https://en.wikipedia.org/wiki/Oeufs_en_meurette) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Omelette
-
-An omelette (omelet in American English; see spelling differences) is a dish made from beaten eggs (usually chicken eggs) fried with butter or oil.
-
-- From: France
-- Origin (Wikidata): Persian Empire
-- Ingredients (Wikidata): egg, butter, egg as food
-
-Fun facts:
-
-- (history) The French word omelette came into use during the mid-16th century, but the versions alumelle and alumete are employed by the Ménagier de Paris (II, 4 and II, 5) in 1393.
-- (origin) Omelettes may have originated in ancient Persia; they are "nearly indistinguishable" from the Iranian dish kookoo sabzi.
-- (about) Sweet omelettes were formerly popular, filled with liquors, fruits, or fruit preserves.
-
-More fun facts (when the user asks for more):
-
-- (history) Rabelais (Gargantua and Pantagruel, IV, 9) mentions an homelaicte d'oeufs, Olivier de Serres an amelette, La Varenne's Le cuisinier françois (1651) has aumelette, and the modern omelette appears in Cuisine bourgeoise (1784).
-- (about) One is an omelette with fresh herbs (parsley, chives and tarragon), and another is a variation with mushrooms that Dumas says may be adapted using green peas, asparagus, spinach, sorrel or varieties of truffles.
-- (origin) Omelette comes from Persian Empire.
-
-Learn more:
-
-- quick: [Omelette (Wikipedia)](https://en.wikipedia.org/wiki/Omelette)
-- more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
-- more: [List of Greek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Greek_dishes)
-- deep: [Books about Omelette (Open Library)](https://openlibrary.org/search?q=Omelette)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20129)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q20129) (CC0); [Wikipedia: Omelette](https://en.wikipedia.org/wiki/Omelette) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Pain aux raisins
 
 Pain aux raisins, also called escargot or pain russe, is a spiral viennoiserie often eaten for breakfast in France.
@@ -3269,38 +3239,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7368703)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7368703) (CC0); [Wikipedia: Rosette de Lyon](https://en.wikipedia.org/wiki/Rosette_de_Lyon) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Salmon
-
-Salmon (; pl.: salmon) are any of several commercially important species of ray-finned fish that can live in either freshwater or saltwater from the genera Salmo and Oncorhynchus of the family Salmonidae, native to tributaries of the North Atlantic (Salmo) and North Pacific (Oncorhynchus) basins.
-
-- From: France
-
-Fun facts:
-
-- (about) First was the welcoming of the first catch, and then the cooking of it.
-- (origin) The Modern English term salmon is derived from Middle English: samoun, samon and saumon, which in turn are from Anglo-Norman: saumon, from Old French: saumon, and from Latin: salmō (which in turn might have originated from salire, meaning "to leap".).
-- (history) On the Columbia River, the Chief Joseph Dam completed in 1955 completely blocks salmon migration to the upper Columbia River system.
-
-More fun facts (when the user asks for more):
-
-- (about) Many tribes, such as the Yurok, had a taboo against harvesting the first fish that swam upriver in summer, but once they confirmed that the salmon run had returned in abundance they would begin to catch them in plentiful.
-- (history) The Fraser River salmon population was affected by the 1914 slide caused by the Canadian Pacific Railway at Hells Gate.
-- (history) After speaking to a string of other ancient animals who do not know his whereabouts, King Arthur's men Cai and Bedwyr are led to the Salmon of Llyn Llyw, who lets them ride its back to the walls of Mabon's prison in Gloucester.
-- (history) The 1917 catch was one quarter of the 1913 catch.
-- (origin) Many species of salmon have since been introduced and naturalized into non-native environments such as the Great Lakes of North America, Patagonia in South America and South Island of New Zealand.
-- (origin) The original salmon ceremony, introduced by indigenous tribes on the Pacific coast, consisted of three major parts.
-- (inspiration) Baseline data is near impossible to recreate based on the inconsistent historical data, but there has been massive depletion since the 1900s.
-
-Learn more:
-
-- quick: [Salmon (Wikipedia)](https://en.wikipedia.org/wiki/Salmon)
-- more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
-- more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
-- deep: [Books about Salmon (Open Library)](https://openlibrary.org/search?q=Salmon)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2796766)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q2796766) (CC0); [Wikipedia: Salmon](https://en.wikipedia.org/wiki/Salmon) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Sardine
 

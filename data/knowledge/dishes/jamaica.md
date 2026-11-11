@@ -835,30 +835,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7160523) (CC0); [Wikipedia: Peg bread](https://en.wikipedia.org/wiki/Peg_bread) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Pepper steak
-
-Pepper steak is a stir-fried Chinese dish consisting of sliced beef steak (often flank, sirloin, or round) cooked with sliced bell peppers and seasonings such as soy sauce and ginger, and usually thickened with cornstarch.
-
-- From: Jamaica
-- Origin (Wikidata): People's Republic of China
-- Ingredients (Wikidata): pork
-
-Fun facts:
-
-- (history) Evidence for the dish's existence in the United States dates from at least 1948.
-- (origin) Pepper steak comes from the People's Republic of China.
-- (about) Not to be confused with steak au poivre.
-
-Learn more:
-
-- quick: [Pepper steak (Wikipedia)](https://en.wikipedia.org/wiki/Pepper_steak)
-- more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
-- more: [Jamaican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jamaican_cuisine)
-- deep: [Books about Pepper steak (Open Library)](https://openlibrary.org/search?q=Pepper%20steak)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1104577)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q1104577) (CC0); [Wikipedia: Pepper steak](https://en.wikipedia.org/wiki/Pepper_steak) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Pineapple cake
 
 Pineapple cake is a Taiwanese sweet traditional pastry where pineapple filling is covered in a thin golden pastry shell.
@@ -1332,26 +1308,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5021734)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5021734) (CC0); [Wikipedia: Callaloo](https://en.wikipedia.org/wiki/Callaloo) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Carambola
-
-Carambola, also known as star fruit, is the fruit of Averrhoa carambola, a species of tree native to tropical Southeast Asia.
-
-- From: Jamaica
-
-Fun facts:
-
-- (origin) Carambola was introduced to the Indian subcontinent and Sri Lanka by Austronesian traders, along with ancient Austronesian cultigens like langsat, noni, and santol.
-- (about) The farming video game Stardew Valley allows the player to cultivate and grow carambola, in this setting known as "starfruit".
-
-Learn more:
-
-- quick: [Carambola (Wikipedia)](https://en.wikipedia.org/wiki/Carambola)
-- more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
-- deep: [Books about Carambola (Open Library)](https://openlibrary.org/search?q=Carambola)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q181560)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q181560) (CC0); [Wikipedia: Carambola](https://en.wikipedia.org/wiki/Carambola) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Carrot juice
 

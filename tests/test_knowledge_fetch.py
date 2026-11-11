@@ -52,3 +52,32 @@ def test_learn_more_links_go_from_quick_to_deep() -> None:
     assert links[0]["url"] == "https://en.wikipedia.org/wiki/Mole_poblano"
     assert any("unesco" in link["url"] for link in links)
     assert fk.learn_more("Taco", "Taco", "Q2", [], [])[-1]["url"] == "https://www.wikidata.org/wiki/Q2"
+
+
+def test_prose_region_pages_set_a_region_only_when_the_dish_names_it() -> None:
+    """Mexico's region pages link other states' dishes: Torta ahogada is Jalisco's, not Baja California's."""
+    jalisco = "A torta ahogada is a typical dish from the Mexican state of Jalisco."
+    assert fk.named_region(["Baja California", "Jalisco"], jalisco, []) == "Jalisco"
+    assert fk.named_region(["Baja California"], "A gordita is a dish made with masa.", []) is None
+    assert fk.named_region(["Yucatán"], "Panucho is a specialty of Yucatan.", []) == "Yucatán"
+    assert fk.named_region(["Oaxaca"], "A mole.", ["Oaxaca"]) == "Oaxaca"
+
+
+def test_sentences_keep_initials_and_abbreviations() -> None:
+    text = "Gumbo is popular among the U.S. Gulf Coast states. It is named after General J. B. M. Hertzog. Next."
+    assert fk.sentences(text) == ["Gumbo is popular among the U.S. Gulf Coast states.",
+                                  "It is named after General J. B. M. Hertzog.", "Next."]
+
+
+def test_mexican_dishes_get_the_state_their_intro_names() -> None:
+    states = fk.COUNTRY_DIVISIONS["Mexico"]
+    assert fk.named_region(states, "Cochinita pibil is a slow-roasted pork dish from the Yucatan Peninsula.", [])         == "Yucatán"
+    assert fk.named_region(states, "A dish from Baja California Sur.", []) == "Baja California Sur"
+
+
+def test_the_first_named_region_wins() -> None:
+    options = ["Oaxaca", *fk.COUNTRY_DIVISIONS["Mexico"]]
+    motul = "Huevos motuleños originated in the town of Motul (Yucatán); it is also eaten in Oaxaca."
+    assert fk.named_region(options, motul, []) == "Yucatán"
+    assert fk.named_region(options, "The cemita is a sandwich originally from Puebla, Mexico. Oaxaca too.", []) == \
+        "Puebla"

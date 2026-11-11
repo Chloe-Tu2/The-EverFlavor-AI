@@ -837,35 +837,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q590076) (CC0); [Wikipedia: Hawaiian pizza](https://en.wikipedia.org/wiki/Hawaiian_pizza) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Hodge-Podge (soup)
-
-Hodge-podge or hotch potch (variously capitalised and hyphenated) is a soup or stew, usually based on diced mutton or other meat, with green and root vegetables.
-
-- From: Canada
-- Ingredients (Wikidata): lamb meat
-
-Fun facts:
-
-- (culture) In her 1826 book The Cook and Housewife's Manual, Margaret Dods classes hotch-potch as a "Scotch National Dish", and gives recipes for summer and winter versions of the stew.
-- (inspiration) In her 1788 book The Lady's Complete Guide; Or Cookery in All its Branches, Mary Cole does not call for mixed meats, but gives recipes for hodge podges based on either beef, mutton, veal, hare or turtle, with onions and a variety of other vegetables such as a turnips, carrots, leeks and celery.
-- (history) In the 19th century Mrs Beeton similarly gave recipes for hodge podges of a single meat – either beef or mutton.
-
-More fun facts (when the user asks for more):
-
-- (history) A Dutch variant, "hutspot", known in the Netherlands since the 16th century, contains potato and cheese as well as the onions and carrots familiar elsewhere.
-- (history) In the 17th century John Dryden refers in an essay to "Memphian hotch-potch, Leeks, and Garlike strong".
-- (history) In The Art of Cookery Made Plain and Easy (1780), Hannah Glasse specifies a mixture of diced beef, veal and mutton; the vegetables are turnip, celery, carrot and lettuce, and, when in season, peas.
-- (history) A 19th century American recipe for hotch potch specifies lean mutton boiled with carrots and turnips, seasoned with salt and pepper.
-
-Learn more:
-
-- quick: [Hodge-Podge (soup) (Wikipedia)](https://en.wikipedia.org/wiki/Hodge-Podge_%28soup%29)
-- more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
-- deep: [Books about Hodge-Podge (soup) (Open Library)](https://openlibrary.org/search?q=Hodge-Podge%20%28soup%29)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10973598)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q10973598) (CC0); [Wikipedia: Hodge-Podge (soup)](https://en.wikipedia.org/wiki/Hodge-Podge_(soup)) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Indian ice cream (Canada)
 
 Indian ice cream, also known as sxusem (), is a Canadian whipped confection made from soapberries (Shepherdia canadensis) and other various fruits; it has been eaten as a traditional dessert by many First Nations peoples.

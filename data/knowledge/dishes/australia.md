@@ -709,7 +709,7 @@ A halal snack pack is an Australian fast food dish consisting of halal-certified
 
 - From: Australia
 - Origin (Wikidata): Australia
-- Ingredients (Wikidata): Kanaken triangle
+- Ingredients (Wikidata): doner kebab
 
 Fun facts:
 
@@ -1081,37 +1081,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1915495) (CC0); [Wikipedia: Meat pie (Australia and New Zealand)](https://en.wikipedia.org/wiki/Meat_pie_(Australia_and_New_Zealand)) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Milo (drink)
-
-Milo ( MY-loh; stylised in all caps as MILO) is an Australian chocolate-flavoured malted powder product produced by Nestlé, typically mixed with milk, hot water, or both, to produce a beverage.
-
-- From: Australia
-- Since: 1934-
-- Named after: Milo of Croton
-
-Fun facts:
-
-- (history) Milo was originally developed in Australia by Thomas Mayne (1901–1995) in 1934.
-- (inspiration) The name was derived from the famous ancient Greek athlete Milo of Croton, after his legendary strength.
-- (about) Milo maintains significant popularity in a diverse range of countries throughout the world, particularly in Australasia, Asia, Africa, and Latin America.
-
-More fun facts (when the user asks for more):
-
-- (history) In 1934, Australian industrial chemist and inventor Thomas Mayne, who was working at Nestlé, developed "Milo" and launched it at the Sydney Royal Easter Show.
-- (inspiration) Milo is named after Milo of Croton.
-- (history) Milo dates from 1934-.
-- (history) Nestlé, which had taken ownership of a milk-processing plant in Smithtown, New South Wales, in 1921, started producing the product not long after the show.
-
-Learn more:
-
-- quick: [Milo (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Milo_%28drink%29)
-- more: [List of Australian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Australian_dishes)
-- more: [Australian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Australian_cuisine)
-- deep: [Books about Milo (drink) (Open Library)](https://openlibrary.org/search?q=Milo%20%28drink%29)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1204628)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q1204628) (CC0); [Wikipedia: Milo (drink)](https://en.wikipedia.org/wiki/Milo_(drink)) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Mince pie
 
 A mince pie is a sweet pie of English origin filled with mincemeat: a mixture of fruits, nuts, spices and a spirit—usually brandy—or vinegar.
@@ -1463,6 +1432,26 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3360600)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3360600) (CC0); [Wikipedia: Rēwena bread](https://en.wikipedia.org/wiki/Rēwena_bread) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Slippery Bob
+
+Slippery Bob is a historical dish made by frying kangaroo brains in emu fat.
+
+- From: Australia
+
+Fun facts:
+
+- (inspiration) Slippery Bob is among the best known of Abbott's recipes―writing at the end of the 20th century, the food historian Barbara Santich describes Slippery Bob as part of a national mythology alongside damper and pan jam, assuming a place in Australia like the bunyip.
+
+Learn more:
+
+- quick: [Slippery Bob (Wikipedia)](https://en.wikipedia.org/wiki/Slippery_Bob)
+- more: [List of Australian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Australian_dishes)
+- more: [List of New Zealand dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_New_Zealand_dishes)
+- deep: [Books about Slippery Bob (Open Library)](https://openlibrary.org/search?q=Slippery%20Bob)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q141758895)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q141758895) (CC0); [Wikipedia: Slippery Bob](https://en.wikipedia.org/wiki/Slippery_Bob) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Steak sandwich (Australia)
 
