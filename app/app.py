@@ -42,7 +42,7 @@ from chef_lines import (  # app/chef_lines.py: what the chef says, with its sour
 from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page colors
 from updates import UPDATES  # app/updates.py: the What's new notes
 
-from everflavor import __version__
+from everflavor import __version__, waiter
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
@@ -508,6 +508,69 @@ def video_search_link(dish: str, country: object) -> str:
     return "https://www.youtube.com/results?search_query=" + "+".join(re.findall(r"[\w'-]+", words))
 
 
+@st.cache_resource
+def walter_notes() -> waiter.Knowledge | None:
+    """Walter's knowledge notebook (data/knowledge/dishes.jsonl, sourced facts), loaded once; None if missing."""
+    path = ROOT / "data" / "knowledge" / "dishes.jsonl"
+    return waiter.Knowledge.load(path) if path.exists() else None
+
+
+def credit(sources: list[str]) -> str:
+    """The small credit line under Walter's words: each source with its licence (Wikipedia text is CC BY-SA 4.0
+    and needs the credit; Wikidata is CC0)."""
+    parts = [f"{html.escape(s)} (Wikipedia contributors, CC BY-SA 4.0)" if s.startswith("Wikipedia")
+             else f"{html.escape(s)} (CC0)" if s == "Wikidata" else html.escape(s) for s in sources]
+    return f"<small>Source: {'; '.join(parts)}</small>"
+
+
+def walter_panel(row: pd.Series, dish: str, country: object) -> None:
+    """Walter, the AI waiter, on a dish's page: one insight card (a sourced fact), "Tell me more", reading links by
+    the user's style, and questions (chips or typed). He explains the back end's flags; he never decides safety."""
+    notes = walter_notes()
+    entry = notes.find(dish, country if isinstance(country, str) else None) if notes else None
+    turns = st.session_state.setdefault("walter_turns", {})
+    turn = turns.get(dish, 0)
+    style_name = PREFS["walter"]
+    card = waiter.insight(entry, style_name, turn)
+    face, words = st.columns([1, 9], vertical_alignment="center")
+    face.image(str(ART / f"walter_{card.mood if card else 'happy'}.png"), width=96)
+    if card:
+        words.markdown(f"**Walter, your waiter:** {html.escape(card.text)}<br>{credit(card.sources)}",
+                       unsafe_allow_html=True)
+    else:
+        words.markdown(f"**Walter, your waiter:** {html.escape(waiter.GREETING)}")
+    if entry and (entry.get("more_fun_facts") or entry.get("learn_more")):
+        with st.expander("Tell me more"):
+            for fact in waiter.facts_for(entry, preset=waiter.PRESETS[style_name])[:6]:
+                st.markdown(f"- *{fact['topic']}*: {html.escape(fact['text'])}", unsafe_allow_html=True)
+            links = [link for link in entry.get("learn_more", []) if link["level"] in waiter.PRESETS[style_name].links]
+            if links:
+                st.markdown("Read more: " + " · ".join(f"[{link['title']}]({link['url']})" for link in links))
+    chip = st.pills("Ask Walter", [s.label for s in waiter.SKILLS], key=f"walter_chip_{dish}")
+    typed = st.text_input("Or type a question", key=f"walter_q_{dish}", max_chars=waiter.MAX_QUESTION,
+                          placeholder="What inspired it? Where is it from?")
+    if not (chip or typed):
+        return
+    limiter = st.session_state.setdefault("walter_limit", waiter.RateLimiter())
+    log = st.session_state.setdefault("walter_log", waiter.SecurityLog())
+    flags = [nice(rule) for rule in FLAG_RULES if bool(row.get(rule, False)) is True]
+    avoid = [nice(rule) for rule in st.session_state.get("avoid", [])]
+    listed = row.get("ingredient_list")   # a numpy array in the data: no "or []" on it (ambiguous truth value)
+    ingredients = [str(item) for item in listed] if listed is not None else []
+    ctx = waiter.Context(dish=entry, dish_name=dish, ingredients=ingredients,
+                         flags=flags, avoid=avoid, knowledge=notes, turn=turn)
+    skill = next((s.name for s in waiter.SKILLS if s.label == chip), None) if chip and not typed else None
+    with st.spinner(waiter.waiting_line(turn)):
+        reply = waiter.ask(typed, ctx, style_name, limiter, log, skill=skill)
+    turns[dish] = turn + 1
+    face, words = st.columns([1, 9], vertical_alignment="center")
+    face.image(str(ART / f"walter_{reply.mood}.png"), width=96)
+    words.markdown(html.escape(reply.text) + (f"<br>{credit(reply.sources)}" if reply.sources else ""),
+                   unsafe_allow_html=True)
+    if reply.links:
+        words.markdown(" · ".join(f"[{link['title']}]({link['url']})" for link in reply.links))
+
+
 @st.dialog("About this dish", width="large")
 def dish_page(row: pd.Series, dish: str) -> None:
     """The dish on its own page: where it is from, how its time divides, and each step with its time, the pan or
@@ -530,6 +593,7 @@ def dish_page(row: pd.Series, dish: str) -> None:
     where = row.get("origin_country")
     if isinstance(where, str) and where != "Unknown":
         st.caption(f"From {where}")
+    walter_panel(row, dish, where)
     steps = step_breakdown(row.get("instructions"), row.get("ingredient_list"))
     minutes = row.get("minutes")
     total = float(minutes) if minutes is not None and pd.notna(minutes) else None
@@ -702,8 +766,9 @@ HOURS = ["Morning", "Afternoon", "Evening", "Night"]
 # The kitchen settings survive a refresh: they live in the page address (?theme=Mexican&hour=Night), never on a
 # server. They are kept in st.session_state["prefs"], not in the widgets' own state: Streamlit can drop or reset a
 # widget's state between reruns (the time of day once jumped back to Morning), the prefs never change by themselves.
-SETTING_CHOICES = {"theme": list(THEMES), "hour": HOURS, "cook": ["Man", "Woman"]}
-SETTING_DEFAULTS = {"theme": "Classic", "hour": "Afternoon", "cook": "Man", "use_clock": False, "follow_cuisine": True}
+SETTING_CHOICES = {"theme": list(THEMES), "hour": HOURS, "cook": ["Man", "Woman"], "walter": list(waiter.PRESETS)}
+SETTING_DEFAULTS = {"theme": "Classic", "hour": "Afternoon", "cook": "Man", "use_clock": False, "follow_cuisine": True,
+                    "walter": "Balanced"}
 if "prefs" not in st.session_state:
     prefs = dict(SETTING_DEFAULTS)
     for name, value in st.query_params.items():
@@ -713,6 +778,8 @@ if "prefs" not in st.session_state:
             prefs[name] = value == "1"
     st.session_state["prefs"] = prefs
 PREFS = st.session_state["prefs"]
+for _name, _value in SETTING_DEFAULTS.items():   # a setting added since this session began
+    PREFS.setdefault(_name, _value)
 
 
 def keep_pref(name: str) -> None:
@@ -847,6 +914,12 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
               on_change=keep_pref, args=("follow_cuisine",),
               help="Searching a cuisine family opens its kitchen: Asian (Chinese), African (Moroccan), "
                    "European (Mediterranean), Latin American (Mexican), Middle Eastern.")
+    st.selectbox("Walter's style (your waiter)", SETTING_CHOICES["walter"],
+                 index=SETTING_CHOICES["walter"].index(PREFS["walter"]), key="set_walter",
+                 on_change=keep_pref, args=("walter",),
+                 help="How Walter talks about dishes: Fun Food Explorer leads with stories, Chef Expert with history "
+                      "and the deep reading links, Ingredient Guide with what's in it, Personal Concierge with what "
+                      "to try next.")
     # Feedback goes to the project's GitHub issue forms (.github/ISSUE_TEMPLATE); only the version is filled in,
     # never the user's profile
     st.divider()

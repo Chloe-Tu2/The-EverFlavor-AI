@@ -26,6 +26,7 @@ add `src/` to the path for you.
 | | `cooking_time.py` | Cook-time estimates for recipes without a time (`estimate_minutes`, `time_label`): gradient boosting on the times in the steps and similar Food.com names; `minutes_source` says "recipe" or which estimate, real times are never replaced |
 | | `knowledge.py` | Pairings, substitutions, shelf life, names (notebook 04) |
 | | `dish_knowledge.py` | The waiter's dish knowledge (0.6.3): tidies the collected facts (sources' words only), sorts them by topic, writes one page per country (notebook 11) |
+| | `waiter.py` | Walter, the AI waiter (0.6.3): finds a recipe's dish in the knowledge notebook, answers with skills (fun fact, inspiration, origin, history, ingredients, allergy explained from the back end's flags, learn more, recommendation) weighted by the user's style; screens questions (prompt injection, length), rate-limits them and counts problems without the words |
 | | `variants.py` | Diet versions of each dish (notebook 06) |
 | | `stores.py` | Stores and products, where to buy (notebook 03) |
 | | `seasons.py` | Meat supply season and pasture season (notebook 08) |

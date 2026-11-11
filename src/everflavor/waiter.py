@@ -37,6 +37,19 @@ def _norm(text: str) -> str:
     return " ".join(words)
 
 
+# Broad dish types and foods: an article about them is not about one recipe (matched only when the title is
+# exactly that word)
+GENERIC = frozenset(_norm(w) for w in (
+    "sauce", "salad", "soup", "stew", "bread", "cake", "pie", "sandwich", "curry", "rice", "noodle", "dumpling",
+    "pasta", "cookie", "biscuit", "pudding", "roll", "chicken", "beef", "pork", "veal", "lamb", "fish", "bean",
+    "cheese", "egg", "potato", "tea", "coffee", "beer", "wine", "milk", "butter", "sugar", "flour", "pepper",
+    "onion", "garlic", "tomato", "fruit", "vegetable", "meat", "dessert", "snack", "porridge", "pancake", "sausage",
+    "casserole", "breakfast", "candy", "chocolate", "jam", "pickle", "dip", "spread", "cracker", "muffin", "tart",
+    "pastry", "doughnut", "fritter", "omelette", "smoothie", "juice", "cocktail", "punch", "seafood", "shellfish",
+    "steak", "barbecue", "street food", "side dish", "appetizer", "main course", "condiment", "seasoning",
+    "guinness"))
+
+
 @dataclass
 class Knowledge:
     """The tidied dishes, with a name index."""
@@ -60,8 +73,16 @@ class Knowledge:
         name = _norm(dish_name)
         if name in self.by_name:
             return self.by_name[name]
+        # The dish is the head of the title: drop "... with fennel salad" / "... on toast", and a one-word name
+        # counts only at the end ("mushroom and sage risotto" yes, "prosciutto chicken kabobs" not Prosciutto)
+        name = re.split(r" (with|on|in|over|served|topped) ", name)[0]
+        if name in self.by_name:
+            return self.by_name[name]
         padded = f" {name} "
-        hits = [k for k in self.by_name if len(k) >= 4 and f" {k} " in padded]
+        # Inside a longer title only a real dish counts, and not a broad word ("french veal rolls" is not "Veal",
+        # "italian salad" is not the general "Salad" article)
+        hits = [k for k in self.by_name if len(k) >= 4 and k not in GENERIC and f" {k} " in padded
+                and self.by_name[k].get("kind") == "dish" and (" " in k or padded.endswith(f" {k} "))]
         if not hits:
             return None
         hits.sort(key=lambda k: (len(k), self.by_name[k].get("country") == country), reverse=True)
@@ -70,6 +91,7 @@ class Knowledge:
     def neighbours(self, dish: dict, n: int = 3, seed: int = 0) -> list[dict]:
         """Other dishes from the same region (else country), for "what else should I try?"."""
         same = [d for d in self.dishes if d is not dish and d.get("kind") == "dish" and d.get("summary")
+                and _norm(d["name"]) not in GENERIC
                 and ((dish.get("region") and d.get("region") == dish.get("region"))
                      or d.get("country") == dish.get("country"))]
         random.Random(seed).shuffle(same)
@@ -102,7 +124,7 @@ PRESETS = {
 }
 
 
-def _facts(dish: dict, topics: Iterable[str] | None = None, preset: Preset | None = None) -> list[dict]:
+def facts_for(dish: dict, topics: Iterable[str] | None = None, preset: Preset | None = None) -> list[dict]:
     """The dish's facts (first ones, then the rest), only the given topics if any, in the preset's topic order."""
     facts = list(dish.get("fun_facts", [])) + list(dish.get("more_fun_facts", []))
     if topics is not None:
@@ -143,7 +165,7 @@ class Context:
 
 def _say_facts(ctx: Context, preset: Preset, topics: Iterable[str] | None, empty: str, mood: str, skill: str) -> Reply:
     dish = ctx.dish
-    facts = _facts(dish, topics, preset) if dish else []
+    facts = facts_for(dish, topics, preset) if dish else []
     if not facts:
         return Reply(empty, "thinking", skill=skill)
     start = (ctx.turn * preset.facts) % len(facts)
@@ -163,9 +185,11 @@ def skill_inspiration(ctx: Context, preset: Preset) -> Reply:
 def skill_origin(ctx: Context, preset: Preset) -> Reply:
     reply = _say_facts(ctx, preset, ("origin",), "", "happy", "origin")
     dish = ctx.dish or {}
+    # Wikidata's recorded origin (in the facts as "... comes from X.") wins; the list a dish was found on only
+    # says where it is well known (a cornbread on a Turkish list is not from Turkey)
     where = ", ".join(x for x in (dish.get("region"), dish.get("country")) if x)
-    if where and where.lower() not in reply.text.lower():
-        reply.text = f"It's a dish from {where}. " + reply.text
+    if where and not dish.get("origin") and where.lower() not in reply.text.lower():
+        reply.text = f"It's a well-known dish in {where}. " + reply.text
     if not reply.text.strip():
         return Reply("My notes don't say where it comes from.", "thinking", skill="origin")
     reply.text, reply.mood = reply.text.strip(), "happy"
@@ -338,7 +362,8 @@ def insight(dish: dict | None, preset_name: str = "Balanced", turn: int = 0) -> 
     if not dish:
         return None
     preset = PRESETS.get(preset_name, PRESETS["Balanced"])
-    facts = _facts(dish, preset=preset)
+    facts = facts_for(dish, preset=preset)
+    facts.sort(key=lambda f: f["source"] == "Wikidata")   # a story from the article beats a one-line record
     if not facts:
         return None
     fact = facts[turn % len(facts)]

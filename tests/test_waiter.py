@@ -76,3 +76,14 @@ def test_insight_card_has_one_sourced_fact_or_nothing() -> None:
     card = waiter.insight(TACO, "Fun Food Explorer")
     assert card is not None and card.sources and card.text
     assert waiter.insight(MOLE) is None and waiter.insight(None) is None
+
+
+def test_find_takes_the_dish_at_the_head_of_the_title_not_a_broad_word() -> None:
+    risotto = tidy_dish({"name": "Risotto", "country": "Italy", "kind": "dish"})
+    prosciutto = tidy_dish({"name": "Prosciutto", "country": "Italy", "kind": "dish"})
+    veal = tidy_dish({"name": "Veal", "country": "France", "kind": "food or drink"})
+    know = waiter.Knowledge([risotto, prosciutto, veal])
+    assert know.find("Mushroom and sage risotto with fennel salad") is risotto
+    assert know.find("prosciutto chicken kabobs") is None   # a one-word dish counts only at the end
+    assert know.find("french veal rolls") is None           # a food, not a dish, inside a longer title
+    assert know.find("veal") is veal                        # an exact name still matches
