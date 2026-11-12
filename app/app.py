@@ -29,7 +29,6 @@ from urllib.parse import quote
 import pandas as pd
 import pydeck as pdk
 import streamlit as st
-import streamlit.components.v1 as components
 
 # Let Python find our package in src/ (same trick the notebooks use).
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,6 +38,13 @@ from chef_lines import (  # app/chef_lines.py: what the chef says, with its sour
     greeting,
     line,
 )
+from dish_info import (  # app/dish_info.py: the dish page's nutrition
+    UNITS,
+    as_number,
+    dish_story,
+    nutrition_facts,
+    nutrition_line,
+)
 from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page colors
 from updates import UPDATES  # app/updates.py: the What's new notes
 
@@ -46,10 +52,18 @@ from everflavor import __version__, saved_recipes, waiter
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
-from everflavor.dish_steps import methods_of, split_minutes, step_breakdown
+from everflavor.dish_steps import cookware, methods_of, split_minutes, step_breakdown
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
-from everflavor.recommend import baseline_recommend, what_blocks, why_it_fits
+from everflavor.parsing import parse_list_string
+from everflavor.preferences import clean_names, common_ingredients, simplest
+from everflavor.recommend import (
+    baseline_recommend,
+    fit_checks,
+    what_blocks,
+    why_it_fits,
+    within_calories,
+)
 from everflavor.safety import UserProfile
 
 DATA = ROOT / "data" / "processed"
@@ -114,7 +128,7 @@ def load_recipes() -> pd.DataFrame:
     parts = [DATA / f"recipes_{split}.parquet" for split in ("train", "val", "test")]
     df = pd.concat([pd.read_parquet(p) for p in parts], ignore_index=True)
     # The photos and estimated times made next to the data (scripts/recipe_extras.py), when they are there
-    for extra in ("recipe_photos", "recipe_times"):
+    for extra in ("recipe_photos", "recipe_times", "foodcom_details"):   # foodcom_details: scripts/recipe_details.py
         path = DATA / f"{extra}.parquet"
         if path.exists() and "recipe_id" in df:
             side = pd.read_parquet(path)
@@ -146,6 +160,12 @@ def load_recipes() -> pd.DataFrame:
         scores = pd.read_parquet(check, columns=["recipe_id", "clip_score"])
         doubtful = df["recipe_id"].isin(scores.loc[scores["clip_score"] < PHOTO_CUTOFF, "recipe_id"])
         df.loc[doubtful, "photo_ok"] = False
+    # A recipe's own photo a person turned down (data/reference/recipe_photo_review.csv: e.g. it shows the bottle,
+    # not the sauce): hidden too, so the card falls back to a photo of the dish in general or the no-photo skillet
+    recipe_review = ROOT / "data" / "reference" / "recipe_photo_review.csv"
+    if recipe_review.exists() and "photo_ok" in df and "recipe_id" in df:
+        turned_down = pd.read_csv(recipe_review).query("keep == 'no'")["recipe_id"]
+        df.loc[df["recipe_id"].isin(turned_down), "photo_ok"] = False
     # Free photos of dishes in general (scripts/dish_photos/), only for recipes with no photo of their own and only
     # the dishes the review has not turned down (data/reference/dish_photo_review.csv)
     dish_photos, review = DATA / "dish_photos.parquet", ROOT / "data" / "reference" / "dish_photo_review.csv"
@@ -259,7 +279,8 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 [data-testid="stImage"] img {{ border: 3px solid var(--border); width: 100%; aspect-ratio: 4 / 3;
   object-fit: contain; background: var(--panel); }}   /* the whole photo, never cropped or zoomed */
 /* The team's banners in What's new keep their own shape and frame */
-[data-testid="stPopoverBody"] [data-testid="stImage"] img {{ border: none; aspect-ratio: auto; background: none; }}
+[data-testid="stPopoverBody"] [data-testid="stImage"] img {{ border: none; aspect-ratio: auto; background: none;
+  image-rendering: pixelated; }}   /* pixel-art banners (design/pixel-art/pixel_banners.py): hard edges */
 /* The chef and the speech bubble */
 .chef-row {{ display: flex; gap: 1.25rem; align-items: flex-end; margin: 0.5rem 0 1.25rem; }}
 .chef {{ width: 128px; height: 128px; flex: none; background: center / contain no-repeat; image-rendering: pixelated; }}
@@ -282,6 +303,10 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 [data-testid="stTab"][data-key="1"] p::before {{ background-image: url('{art("icon_check")}'); }}
 [data-testid="stTab"][data-key="2"] p::before {{ background-image: url('{art("icon_map")}'); }}
 [data-testid="stTab"] p {{ font-size: var(--fs-3); }}
+/* The "I can't eat" tabs (Allergies, Foods I don't eat): plain and small, without the main tabs' icons and card */
+[class*="st-key-food-tabs"] [data-testid="stTabs"], .st-key-dish-tabs [data-testid="stTabs"] {{ background: none; border: none; box-shadow: none; padding: 0; }}
+[class*="st-key-food-tabs"] [data-testid="stTab"] p::before, .st-key-dish-tabs [data-testid="stTab"] p::before {{ display: none !important; }}
+[class*="st-key-food-tabs"] [data-testid="stTab"] p, .st-key-dish-tabs [data-testid="stTab"] p {{ font-size: var(--fs-1) !important; }}
 /* Top right: the What's new bell and Settings (the oven knob), pixel buttons */
 [data-testid="stPopover"] {{ display: flex; justify-content: flex-end; }}
 [data-testid="stPopover"] button {{
@@ -294,6 +319,29 @@ div[data-baseweb="input"] input, textarea, div[data-baseweb="select"] * {{ color
 .st-key-whats-new [data-testid="stPopover"] button p::before {{ background-image: url('{art("icon_bell")}'); }}
 /* A red dot and a little ring until this browser has opened the newest notes (set by kitchen_scene.html) */
 .st-key-whats-new button {{ position: relative; }}
+/* A window (dialog) on screen hides any open panel (Settings, Saved, Walter's bubble) instead of overlapping it */
+body:has([data-testid="stDialog"]) [data-testid="stPopoverBody"] {{ display: none !important; }}
+/* Walter's own colours, from his banner: pale mint and dark green (his bubble, his face, his examples) */
+.walter-face.waiter-half {{ max-width: 168px; aspect-ratio: 192 / 256; }}   /* head to waist, in the setup */
+.walter-face {{ width: 100%; max-width: 96px; aspect-ratio: 128 / 144; background: center bottom / contain no-repeat;
+  image-rendering: pixelated; }}
+[data-testid="stPopoverBody"]:has(.walter-bubble) {{ background: #EEF6EA !important; border-color: #2F6B4F !important; }}
+[data-testid="stPopoverBody"]:has(.walter-bubble) button {{ border-color: #2F6B4F !important; }}
+[data-testid="stPopoverBody"]:has(.walter-bubble) [aria-checked="true"], [data-testid="stPopoverBody"]:has(.walter-bubble)
+  button[kind="pillsActive"] {{ background: #CFE6C8 !important; }}
+.walter-example {{ border: 3px solid #2F6B4F; background: #EEF6EA !important; padding: 0.6rem 0.8rem;
+  margin: 0.4rem 0 0.2rem; }}
+/* Walter waits in the bottom-right corner: a round button with his picture (the words stay for screen readers) */
+.st-key-walter-corner {{ position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 990; width: auto !important; }}
+.st-key-walter-corner [data-testid="stPopover"] button {{ width: 92px; height: 92px; border-radius: 50%; padding: 0;
+  background: #EEF6EA url('{art(WAITER_ART + "_happy")}') center 80% / 96% no-repeat; border: 3px solid #2F6B4F;
+  box-shadow: var(--shadow-2); image-rendering: pixelated; }}
+.st-key-walter-corner [data-testid="stPopover"] button p, .st-key-walter-corner [data-testid="stPopover"] button svg {{
+  font-size: 0; width: 0; height: 0; overflow: hidden; }}
+@media (max-width: 640px) {{   /* smaller on a phone, so he covers less of the page */
+  .st-key-walter-corner {{ right: 0.6rem; bottom: 0.6rem; }}
+  .st-key-walter-corner [data-testid="stPopover"] button {{ width: 60px; height: 60px; }}
+}}
 html[data-ef-news="1"] .st-key-whats-new button::after {{
   content: ''; position: absolute; top: -7px; right: -7px; width: 12px; height: 12px;
   background: #D9483B; border: 2px solid var(--border);
@@ -355,6 +403,11 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   font-size: var(--fs-1); line-height: 1.35; }}
 .badge .ico {{ width: 24px; height: 24px; flex: none; }}
 .badge-warn {{ border-style: dashed; }}
+.dish-story {{ margin: 0 0 var(--space-2); font-size: var(--fs-1); line-height: 1.45; }}
+.dish-story a {{ font-size: 0.8em; white-space: nowrap; }}
+.safe-ticks {{ list-style: none; display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); padding: 0; margin: 0 0 var(--space-2); font-weight: 600; }}
+.safe-ticks li {{ margin: 0; }}
+.safe-ticks li::before {{ content: "\\2713\\00a0"; font-weight: 700; }}
 /* The landing's three promises, as quiet chips (no shadow: they are not buttons) */
 .trust {{ display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-3); margin-top: var(--space-3); }}
 .trust .chip {{ display: inline-flex; align-items: center; gap: var(--space-2); border: 2px solid var(--border);
@@ -425,7 +478,7 @@ def kitchen_scene(scene: str, hour: str) -> None:
     scene files the page keeps the still picture."""
     page = scene_page(scene, hour)
     if page:
-        components.html(page, height=10)
+        st.iframe(page, height=10)   # our own template only (never user input), like the deprecated components.html
 
 
 def chef_says(place, mood: str, message: str, icon: str | None = None) -> None:
@@ -466,7 +519,7 @@ def pronunciations() -> pd.DataFrame:
     path = ROOT / "data" / "reference" / "dish_pronunciation.csv"
     if not path.exists():
         return pd.DataFrame(columns=["dish"])
-    table = pd.read_csv(path).fillna("")
+    table = pd.read_csv(path, dtype=str).fillna("")   # all text: no number column filled with ""
     return table.iloc[table["dish"].str.len().sort_values(ascending=False).index]
 
 
@@ -517,6 +570,17 @@ def walter_notes() -> waiter.Knowledge | None:
     return waiter.Knowledge.load(path) if path.exists() else None
 
 
+def walter_face(place, mood: str = "happy", who: str | None = None, half: bool = False) -> None:
+    """Walter's picture, built into the page (a data URI like the chefs), so it never breaks when the app restarts
+    the way a served st.image link does."""
+    name = who or WAITER   # Walter or Nathalie (Settings > Your waiter)
+    picture = art(f"{name.lower()}_half") if half else art(f"{name.lower()}_{mood}") or art(f"{name.lower()}_happy")
+    place.markdown(f'<div class="walter-face{" waiter-half" if half else ""}" role="img" '
+                   f'aria-label="{html.escape(name)}, your waiter, {"smiling" if half else html.escape(mood)}" '
+                   f'style="background-image: url({picture})"></div>',
+                   unsafe_allow_html=True)
+
+
 def credit(sources: list[str]) -> str:
     """The small credit line under Walter's words: each source with its licence (Wikipedia text is CC BY-SA 4.0
     and needs the credit; Wikidata is CC0)."""
@@ -526,8 +590,9 @@ def credit(sources: list[str]) -> str:
 
 
 def walter_panel(row: pd.Series, dish: str, country: object) -> None:
-    """Walter, the AI waiter, on a dish's page: one insight card (a sourced fact), "Tell me more", reading links by
-    the user's style, and questions (chips or typed). He explains the back end's flags; he never decides safety."""
+    """Walter, the AI waiter, in his corner bubble (about the dish last opened): one insight card (a sourced
+    fact), "Tell me more", reading links by the user's style, and questions (chips or typed). He explains the
+    back end's flags; he never decides safety."""
     notes = walter_notes()
     entry = notes.find(dish, country if isinstance(country, str) else None) if notes else None
     turns = st.session_state.setdefault("walter_turns", {})
@@ -545,14 +610,14 @@ def walter_panel(row: pd.Series, dish: str, country: object) -> None:
     tone = waiter.TONES[PREFS["tone"]]
     card = waiter.insight(entry, style_name, turn, tone.label)
     face, words = st.columns([1, 9], vertical_alignment="center")
-    face.image(str(ART / f"walter_{card.mood if card else 'happy'}.png"), width=96)
+    walter_face(face, waiter.face_for(card, tone.label) if card else "happy")
     if card:
         lead = f"{html.escape(card.lead)} " if card.lead else ""
-        words.markdown(f"**Walter, your waiter:** {lead}{html.escape(card.text)}<br>{credit(card.sources)}",
+        words.markdown(f"**{WAITER}, your waiter:** {lead}{html.escape(card.text)}<br>{credit(card.sources)}",
                        unsafe_allow_html=True)
     else:
-        words.markdown(f"**Walter, your waiter:** {html.escape(waiter.GREETING)}")
-    # How he tells it: the same setting as Settings > How Walter tells facts, kept in the page address
+        words.markdown(f"**{WAITER}, your waiter:** {html.escape(waiter.greeting(WAITER))}")
+    # How he tells it: the same setting as Settings > How Walter tells his stories, kept in the page address
     if st.session_state.get("walter_tone") != PREFS["tone"]:
         st.session_state["walter_tone"] = PREFS["tone"]
     st.pills("How should I tell it?", list(waiter.TONES), key="walter_tone", on_change=pick_tone,
@@ -567,7 +632,7 @@ def walter_panel(row: pd.Series, dish: str, country: object) -> None:
             links = [link for link in entry.get("learn_more", []) if link["level"] in waiter.PRESETS[style_name].links]
             if links:
                 st.markdown("Read more: " + " · ".join(f"[{link['title']}]({link['url']})" for link in links))
-    chip = st.pills("Ask Walter", [s.label for s in waiter.SKILLS], key=f"walter_chip_{dish}")
+    chip = st.pills(f"Ask {WAITER}", [s.label for s in waiter.SKILLS], key=f"walter_chip_{dish}")
     typed = st.text_input("Or type a question", key=f"walter_q_{dish}", max_chars=waiter.MAX_QUESTION,
                           placeholder="What inspired it? Where is it from?")
     if not (chip or typed):
@@ -582,19 +647,22 @@ def walter_panel(row: pd.Series, dish: str, country: object) -> None:
                          flags=flags, avoid=avoid, knowledge=notes, turn=turn)
     skill = next((s.name for s in waiter.SKILLS if s.label == chip), None) if chip and not typed else None
     last = st.session_state.setdefault("walter_last", {})
+    thinking = st.empty()   # the waiter's thinking face while the answer is worked out
+    walter_face(thinking, "thinking")
     with st.spinner(waiter.waiting_line(turn)):
         reply = waiter.ask(typed, ctx, style_name, limiter, log, skill=skill, tone_name=tone.label,
                            last_skill=last.get(dish))
         if PREFS["retell"] and ai["kind"] == "ollama":   # opt-in; story answers only, checked, else the sources' words
             reply = waiter.reword(reply, ai["model"], profile, style_name, dish_name=dish,
-                                  tone_name=reply.tone or tone.label)
+                                  tone_name=reply.tone or tone.label, waiter_name=WAITER)
+    thinking.empty()
     turns[dish] = turn + 1
     if reply.skill != "refused":
         last[dish] = reply.skill
     face, words = st.columns([1, 9], vertical_alignment="center")
-    face.image(str(ART / f"walter_{reply.mood}.png"), width=96)
+    walter_face(face, waiter.face_for(reply, reply.tone or tone.label))
     if reply.tone:
-        words.caption(f"Okay: {reply.tone.lower()} from now on (Settings > How Walter tells facts).")
+        words.caption(f"Okay: {reply.tone.lower()} from now on (Settings > How {WAITER} tells stories).")
     said = "  \n".join(md_text(line) for line in reply.text.split("\n"))   # one point per line (Key points)
     lead = f"*{md_text(reply.lead)}*  \n" if reply.lead and not reply.reworded else ""
     words.markdown(lead + said)   # plain text: a model's words never become links or markup
@@ -603,6 +671,47 @@ def walter_panel(row: pd.Series, dish: str, country: object) -> None:
         words.markdown(credit(reply.sources) + f"<small>{note}</small>", unsafe_allow_html=True)
     if reply.links:
         words.markdown(" · ".join(f"[{link['title']}]({link['url']})" for link in reply.links))
+
+
+def recipe_photo(place, row: pd.Series, dish: str) -> None:
+    """The recipe's photo with its credit, the same on its card and its page."""
+    photo, link, site = row.get("image_url"), row.get("url"), row.get("source")
+    ok = row.get("photo_ok")             # False: a logo, an icon or not the dish; missing: no check
+    if ok is not None and not pd.isna(ok) and not bool(ok):
+        photo = None
+    if isinstance(photo, str) and photo.startswith("https://"):
+        # The photo comes with the recipe from its website; the credit links there, so anyone can check
+        place.image(photo, width="stretch", alt=f"Photo of {dish} from the recipe's page")
+        if isinstance(link, str) and link.startswith("http"):
+            place.caption(f"Photo: [{html.escape(str(site or 'the recipe page'))}]({link})")
+    elif from_commons(row.get("thumb_url")) and from_commons(row.get("file_page")):
+        # No photo of its own: a free photo of the dish in general (Wikimedia Commons), said so plainly
+        place.image(row["thumb_url"], width="stretch", alt=f"A photo of {row['dish_label']} in general, not this recipe")
+        place.caption(f"A photo of {plain(row['dish_label'])} in general, not this recipe. "
+                      f"[{plain(row['credit'])}]({row['file_page']})")
+    else:
+        # No photo at all: the kitchen's own picture, which says plainly that it is not the dish
+        place.markdown(f'<div class="no-photo" role="img" aria-label="No photo of this dish yet">'
+                       f'<span class="ico" style="background-image: url({art("no_photo_skillet")})"></span>'
+                       'Cooking up a picture...<small>No photo of this dish yet</small></div>', unsafe_allow_html=True)
+
+
+def nutrition_tab(info: dict) -> None:
+    """The Nutrition tab: a table per serving, said plainly when it is an estimate. Facts only, not advice."""
+    rows = [(label, f"{value:.0f} {UNITS[label]}") for label, value in info["facts"].items() if value is not None]
+    if not rows:
+        st.info("This recipe has no nutrition facts in our data.")
+        return
+    st.markdown("| Per serving | Amount |\n|---|---|\n" + "\n".join(f"| {a} | {b} |" for a, b in rows))
+    if info["servings"]:
+        st.caption(f"The recipe serves {info['servings']}.")
+    if info["listed"]:
+        st.caption("From the recipe's own data.")
+    else:
+        spread = info["range"]
+        st.caption("Estimated from the ingredients' names (the recipe gives no amounts), so it is a rough guide"
+                   + (f": between about {spread[0]:.0f} and {spread[1]:.0f} kcal." if spread else "."))
+    st.caption("General information, not medical or diet advice.")
 
 
 @st.dialog("About this dish", width="large")
@@ -627,35 +736,63 @@ def dish_page(row: pd.Series, dish: str) -> None:
     where = row.get("origin_country")
     if isinstance(where, str) and where != "Unknown":
         st.caption(f"From {where}")
-    walter_panel(row, dish, where)
+    st.session_state["walter_dish"] = (row, dish, where)   # Walter, in the page's corner, talks about this dish
     steps = step_breakdown(row.get("instructions"), row.get("ingredient_list"))
     minutes = row.get("minutes")
     total = float(minutes) if minutes is not None and pd.notna(minutes) else None
     split = split_minutes(steps, total)
-    times = [("Total", split["total"]), ("On the heat", split["on_heat"]), ("Preparation and waiting", split["rest"])]
-    cols = st.columns(3)
-    for col, (label, value) in zip(cols, times, strict=True):
-        col.metric(label, f"{value:.0f} min" if value is not None else "Not written")
-    ingredients = row.get("ingredient_list")
-    if ingredients is not None and len(ingredients):
-        st.write("**Ingredients:** " + ", ".join(map(str, ingredients)))
-    st.markdown(f"[Watch it made on YouTube]({video_search_link(dish, where)})")
-    methods = methods_of(row.get("instructions"))
-    if methods:
-        st.write("**Cooking methods:** " + ", ".join(methods))
-    if not steps:
-        link = row.get("url")
-        st.info("This recipe has no steps in our data"
-                + (f": [its own page]({link}) has them." if isinstance(link, str) and link.startswith("http") else "."))
-    for i, step in enumerate(steps, 1):
-        details = [str(step["vessel"]).capitalize()] if step["vessel"] else []
-        details += [f"{float(str(step['minutes'])):.0f} min"] if step["minutes"] else []
-        details += ["on the heat"] if step["on_heat"] else []
-        goes_in = ", ".join(str(item) for item in list(step["ingredients"]))  # type: ignore[call-overload]
-        st.markdown(f"**{i}.** {html.escape(str(step['text']))}"
-                    + (f"  \n<small>{html.escape(' · '.join(details))}{' · in: ' + html.escape(goes_in) if goes_in else ''}</small>"
-                       if details or goes_in else ""), unsafe_allow_html=True)
-    st.caption("Times are the ones written in the steps; a step without one is not counted.")
+    prep, cook = as_number(row.get("prep_minutes")), as_number(row.get("cook_minutes"))
+    if prep is not None and cook is not None:   # the recipe's own split (Food.com, CC0 Kaggle set): shown as listed
+        times = [("Total", split["total"]), ("Prep", prep), ("Cook", cook)]
+    else:   # else the split from the times written in its steps
+        times = [("Total", split["total"]), ("On the heat", split["on_heat"]), ("Preparation and waiting", split["rest"])]
+    known = [(label, value) for label, value in times if value is not None]
+    if known:   # only the times the recipe gives; no empty boxes
+        st.markdown(" · ".join(f"**{label}:** {value:.0f} min" for label, value in known))
+    else:
+        st.caption("This recipe doesn't say how long it takes.")
+    link = row.get("url")
+    own_page = f"[its own page]({link})" if isinstance(link, str) and link.startswith("http") else ""
+    info = nutrition_facts(row)
+    recipe_tab, food_tab = st.container(key="dish-tabs").tabs(["Recipe", "Nutrition"])
+    with recipe_tab:
+        picture, _ = st.columns([2, 3])
+        recipe_photo(picture, row, dish)
+        summary = nutrition_line(info)
+        if summary:
+            st.caption(summary + " · more in the Nutrition tab")
+        ingredients = [i for i in parse_list_string(row.get("ingredient_list")) if str(i).strip()]
+        # (a list stored as text, "['a', 'b']", must not be read letter by letter)
+        if ingredients:
+            st.markdown("**Ingredients**")
+            st.markdown("\n".join(f"- {html.escape(str(item))}" for item in ingredients))
+            # Amounts are shown only when the recipe's own source gives them; never guessed (DISH_PAGE_PLAN)
+            face, note = st.columns([1, 9], vertical_alignment="center")
+            walter_face(face, "thinking")
+            note.markdown("**Amounts aren't in our notes for this one.** We list what goes in, but we never guess "
+                          "how much: " + (f"{own_page} has the exact amounts." if own_page
+                                          else "check the recipe's own source for them."))
+        st.markdown(f"[Watch it made on YouTube]({video_search_link(dish, where)})")
+        methods = methods_of(row.get("instructions"))
+        if methods:
+            st.write("**Cooking methods:** " + ", ".join(methods))
+        tools = cookware(row.get("instructions"))   # named in the recipe's own steps, in order
+        if tools:
+            st.write("**You'll need:** " + ", ".join(tools))
+        if not steps:
+            st.info("This recipe has no steps in our data" + (f": {own_page} has them." if own_page else "."))
+        for i, step in enumerate(steps, 1):
+            details = [str(step["vessel"]).capitalize()] if step["vessel"] else []
+            details += [f"{float(str(step['minutes'])):.0f} min"] if step["minutes"] else []
+            details += ["on the heat"] if step["on_heat"] else []
+            goes_in = ", ".join(str(item) for item in list(step["ingredients"]))  # type: ignore[call-overload]
+            st.markdown(f"**{i}.** {html.escape(str(step['text']))}"
+                        + (f"  \n<small>{html.escape(' · '.join(details))}{' · in: ' + html.escape(goes_in) if goes_in else ''}</small>"
+                           if details or goes_in else ""), unsafe_allow_html=True)
+        if steps:
+            st.caption("Times are the ones written in the steps; a step without one is not counted.")
+    with food_tab:
+        nutrition_tab(info)
 
 
 def stats(place, calories: float, protein: float, minutes: float | None, estimate: float | None = None) -> None:
@@ -679,14 +816,47 @@ def badge(place, icon: str, text: str, kind: str = "safe") -> None:
 
 
 # ---------- The profile: the sidebar's fields, the first-visit setup and the summary above the results ----------
-PROFILE_DEFAULTS = {"avoid": [], "diets": [], "vegetarian": False, "vegan": False, "calories": 600}
+PROFILE_DEFAULTS = {"avoid": [], "skip": [], "diets": [], "vegetarian": False, "vegan": False, "calories": 600}
+ALLERGY_HELP = ("Allergies and what your body can't take. Checked for hidden sources too (Worcestershire sauce has "
+                "fish), with a warning that says why.")
+SKIP_HELP = ("Anything else you don't eat, for any reason. Matched by its name in the ingredients (mushroom also "
+             "finds mushrooms); not a safety check: for an allergy, use Allergies.")
+
+
+@st.cache_data(show_spinner=False)
+def food_choices() -> list[str]:
+    """Every ingredient the recipes use, most common first: the choices for "Foods I don't eat"
+    (everflavor.preferences, the back end; anything else can be typed in)."""
+    return common_ingredients(load_recipes())
+
+
+def tidy_foods(key: str) -> None:
+    """Typing "mushroom" and pressing Enter picks every mushroom choice; "mushroom" alone already covers them."""
+    st.session_state[key] = list(simplest(st.session_state.get(key) or []))
+
+
+def food_tabs(avoid_key: str, skip_key: str, avoid_default: list | None = None,
+              skip_default: list | None = None) -> None:
+    """"I can't eat" in two tabs: allergies (the safety check) and foods the user simply doesn't eat."""
+    allergies, foods = st.container(key=f"food-tabs-{avoid_key}").tabs(["Allergies", "Foods I don't eat"])
+    extra = {} if avoid_default is None else {"default": avoid_default}
+    allergies.multiselect("Allergies", sorted(FLAG_RULES), format_func=nice, key=avoid_key, help=ALLERGY_HELP,
+                          label_visibility="collapsed", placeholder="Peanuts, shellfish, pork...", **extra)
+    extra = {} if skip_default is None else {"default": skip_default}
+    foods.multiselect("Foods I don't eat", food_choices(), key=skip_key, help=SKIP_HELP, accept_new_options=True,
+                      on_change=tidy_foods, args=(skip_key,),
+                      label_visibility="collapsed", placeholder="Mushrooms, olives, cilantro... (type any food)",
+                      max_selections=200, **extra)
+    allergies.caption("A safety check: hidden sources too (Worcestershire sauce has fish).")
+    foods.caption("Left out by name only, not a safety check. For an allergy, use Allergies.")
 EATING = ["I eat meat", "Vegetarian", "Vegan"]
 
 
 def save_setup() -> None:
     """The setup's answers become the sidebar's profile (a callback: it runs before the page draws its fields)."""
     eating = st.session_state["setup-eating"]
-    st.session_state.update(avoid=st.session_state["setup-avoid"], diets=st.session_state["setup-diets"],
+    st.session_state.update(avoid=st.session_state["setup-avoid"], skip=st.session_state["setup-skip"],
+                            diets=st.session_state["setup-diets"],
                             vegetarian=eating == "Vegetarian", vegan=eating == "Vegan",
                             calories=st.session_state["setup-calories"], onboarded=True)
 
@@ -703,8 +873,7 @@ def setup_profile() -> None:
                 "**Your profile**.")
     state = st.session_state
     st.markdown("**1. What can't you eat?**")
-    st.multiselect("I can't eat", sorted(FLAG_RULES), default=state.get("avoid", []), format_func=nice,
-                   key="setup-avoid", label_visibility="collapsed", placeholder="Peanuts, shellfish, pork... (leave empty if nothing)")
+    food_tabs("setup-avoid", "setup-skip", list(state.get("avoid", [])), list(state.get("skip", [])))
     st.markdown("**2. Do you follow a diet?**")
     st.multiselect("I follow", sorted(DIET_PROFILES), default=state.get("diets", []), format_func=nice_diet,
                    key="setup-diets", label_visibility="collapsed", placeholder="Halal-friendly, kosher-friendly... (optional)")
@@ -719,6 +888,77 @@ def setup_profile() -> None:
     if skip.button("Skip for now", on_click=skip_setup, width="stretch", type="secondary"):
         st.rerun()
     st.caption("Not medical advice: the checks read ingredient names. Nothing you enter is sent to us.")
+
+
+# ---------- Walter's setup: how he tells his stories, with an example of each (first visit and Settings) ----------
+WALTER_STYLES = {
+    "Balanced": "A bit of everything, one fact at a time.",
+    "Fun Food Explorer": "Leads with stories and fun facts, two at a time.",
+    "Chef Expert": "Leads with history, three facts, and the deep reading links.",
+    "Ingredient Guide": "Leads with what's in the dish.",
+    "Personal Concierge": "Leads with what to try next.",
+    "Food Enthusiast": "Stories and history, three facts, and the deep reading links.",
+}
+EXAMPLE_DISH = ("Taco", "Mexico")   # every example comes from Walter's real, sourced notes on this dish
+
+
+def walter_example(tone: str, style: str) -> str:
+    """How Walter would answer "tell me a fun fact" about the example dish, in this tone and style (HTML-safe)."""
+    notes = walter_notes()
+    entry = notes.find(*EXAMPLE_DISH) if notes else None
+    if not entry:
+        return ""
+    reply = waiter.ask("", waiter.Context(dish=entry, dish_name=EXAMPLE_DISH[0]), style, skill="fun_fact",
+                       tone_name=tone)
+    lines = [line if len(line) < 240 else line[:236].rsplit(" ", 1)[0] + "..." for line in reply.text.splitlines()]
+    words = "<br>".join(html.escape(line) for line in lines[:3])
+    return (f"<i>{html.escape(reply.lead)}</i> " if reply.lead else "") + words
+
+
+def save_walter() -> None:
+    """The setup's picks become Walter's settings (the same ones as in Settings and on his panel)."""
+    state = st.session_state
+    state["prefs"]["tone"] = state["set_tone"] = state["walter_tone"] = state["walter-setup-tone"]
+    state["prefs"]["walter"] = state["set_walter"] = state["walter-setup-style"]
+    state["prefs"]["waiter"] = state["set_waiter"] = state["walter-setup-waiter"]
+    state.update(tone_picked=True, walter_onboarded=True)
+
+
+def skip_walter() -> None:
+    st.session_state["walter_onboarded"] = True
+
+
+@st.dialog("Meet your waiter", width="large", on_dismiss=skip_walter)
+def setup_walter() -> None:
+    """After the profile on the first visit (and from Settings or his bubble): how Walter tells his stories, with a
+    live example of each choice from his real notes."""
+    st.markdown("**1. Who would you like as your waiter?**")
+    who = st.radio("Your waiter", list(waiter.WAITERS), index=list(waiter.WAITERS).index(WAITER), horizontal=True,
+                   key="walter-setup-waiter", label_visibility="collapsed")
+    face, words = st.columns([1, 3], vertical_alignment="center")
+    walter_face(face, who=str(who), half=True)
+    words.markdown(f"**Hi, I'm {who}, your waiter.** Open a dish, then tap me in the corner, and I'll tell you "
+                   "where it comes from and the story behind it. How should I tell it? You can change this any "
+                   "time in **Settings**.")
+    st.markdown("**2. How should I tell my stories?**")
+    tones = list(waiter.TONES)
+    tone = st.radio("How your waiter tells stories", tones, index=tones.index(PREFS["tone"]), key="walter-setup-tone",
+                    captions=[waiter.TONES[t].blurb for t in tones], label_visibility="collapsed")
+    st.markdown("**3. What should I talk about first?**")
+    styles = list(waiter.PRESETS)
+    style = st.radio("What your waiter leads with", styles, index=styles.index(PREFS["walter"]), key="walter-setup-style",
+                     captions=[WALTER_STYLES.get(s, "") for s in styles], label_visibility="collapsed")
+    example = walter_example(str(tone), str(style))
+    if example:
+        st.markdown(f'<div class="walter-example"><b>How that sounds, about tacos:</b><br>{example}</div>',
+                    unsafe_allow_html=True)
+        st.caption(f"{who}'s facts always come from the sources (Wikipedia and Wikidata); the tone changes which "
+                   "ones are picked and how they are laid out.")
+    save, skip = st.columns(2)
+    if save.button("Save", type="primary", on_click=save_walter, width="stretch"):
+        st.rerun()
+    if skip.button("Keep the defaults", on_click=skip_walter, width="stretch", type="secondary"):
+        st.rerun()
 
 
 # ---------- Finding: the filters, the order and how many ideas at a time ----------
@@ -839,9 +1079,10 @@ HOURS = ["Morning", "Afternoon", "Evening", "Night"]
 # server. They are kept in st.session_state["prefs"], not in the widgets' own state: Streamlit can drop or reset a
 # widget's state between reruns (the time of day once jumped back to Morning), the prefs never change by themselves.
 SETTING_CHOICES = {"theme": list(THEMES), "hour": HOURS, "cook": ["Man", "Woman"], "walter": list(waiter.PRESETS),
-                   "tone": list(waiter.TONES)}
+                   "tone": list(waiter.TONES), "waiter": list(waiter.WAITERS)}
 SETTING_DEFAULTS = {"theme": "Classic", "hour": "Afternoon", "cook": "Man", "use_clock": False, "follow_cuisine": True,
-                    "walter": "Balanced", "tone": waiter.DEFAULT_TONE, "retell": False}
+                    "walter": "Balanced", "tone": waiter.DEFAULT_TONE, "retell": False,
+                    "waiter": waiter.DEFAULT_WAITER}
 if "prefs" not in st.session_state:
     prefs = dict(SETTING_DEFAULTS)
     st.session_state["tone_from_url"] = tuple(st.query_params)   # a returning visitor already picked a tone
@@ -854,6 +1095,8 @@ if "prefs" not in st.session_state:
 PREFS = st.session_state["prefs"]
 for _name, _value in SETTING_DEFAULTS.items():   # a setting added since this session began
     PREFS.setdefault(_name, _value)
+WAITER = PREFS["waiter"]            # Walter or Nathalie (Settings > Your waiter): name and pictures
+WAITER_ART = WAITER.lower()         # design/pixel-art/assets/<walter|nathalie>_<mood>.png
 
 
 def keep_pref(name: str) -> None:
@@ -960,11 +1203,11 @@ if not st.session_state.get("store_loaded"):
         saved = st.session_state["saved"] = saved_recipes.merge(saved, saved_recipes.decode(stored))
         st.session_state["store_loaded"] = True
 remember = st.session_state.setdefault("remember_saved", True)
-BETA_SAVE = ("Beta: your saved recipes are kept only in this browser on this device. Clearing your browser data "
+BETA_SAVE = ("Beta: your cookbook is kept only in this browser on this device. Clearing your browser data "
              "erases them; download a backup to keep a copy.")
-with saved_spot.container(key="saved-list"), st.popover(f"Saved ({len(saved)})"):
+with saved_spot.container(key="saved-list"), st.popover(f"My Cookbook ({len(saved)})"):
     if not saved:
-        st.markdown("Nothing saved yet. Tap **Save** on a recipe to keep it here.")
+        st.markdown("Your cookbook is empty. Tap **Save** on a dish you'd like to cook and it lands here.")
     for recipe_id, entry in list(saved.items()):
         name_col, remove_col = st.columns([4, 1], vertical_alignment="center")
         # Names can come from a backup file someone shared: shown as plain text (no links, HTML or markup)
@@ -987,10 +1230,10 @@ with saved_spot.container(key="saved-list"), st.popover(f"Saved ({len(saved)})")
             st.caption(f"Loaded {len(loaded)} recipe(s) from the backup.")
         else:
             st.caption("That file isn't an EverFlavor backup.")
-    st.caption(BETA_SAVE if remember else "Remembering is off (Settings): saved recipes last only while this page "
+    st.caption(BETA_SAVE if remember else "Remembering is off (Settings): your cookbook lasts only while this page "
                "is open. Download them to keep them.")
 with news_spot.container(key="whats-new"), st.popover("What's new"):
-    # The team's banners (design/pixel-art/cut_banners.py): "App Update" on top, then each release's own
+    # The team's banners as pixel art (design/pixel-art/pixel_banners.py): "App Update" on top, then each release's own
     if (ART / "banner_app_update.png").exists():
         st.image(str(ART / "banner_app_update.png"), width="stretch")
     for update in UPDATES:
@@ -1010,10 +1253,11 @@ FEEDBACK = {kind: "https://github.com/Chloe-Tu2/The-EverFlavor-AI/issues/new?"
             for kind, template in (("bug", "bug_report.yml"), ("idea", "feature_request.yml"))}
 with settings_spot.container(key="settings"), st.popover("Settings"):
     # Each widget shows the kept pref (index/value from PREFS) and writes it back on change (keep_pref)
+    st.markdown("**Your kitchen**")
     st.selectbox("Kitchen theme", list(THEMES), index=list(THEMES).index(PREFS["theme"]), key="set_theme",
                  on_change=keep_pref, args=("theme",),
                  help="Classic is the team's original kitchen. The time of day below sets its light. Picking a "
-                      "kitchen here turns off \"Match the kitchen to the cuisine\".")
+                      "kitchen here turns off \"Travel the world through food\".")
     if theme_name != PREFS["theme"]:
         st.caption(f"Showing the {theme_name} kitchen to match your search. Pick a kitchen above to keep yours.")
     st.radio("Your chef", SETTING_CHOICES["cook"], index=SETTING_CHOICES["cook"].index(PREFS["cook"]), key="set_cook",
@@ -1026,29 +1270,38 @@ with settings_spot.container(key="settings"), st.popover("Settings"):
     st.radio("Time of day", HOURS, index=HOURS.index(PREFS["hour"]), key="set_hour", horizontal=True,
              disabled=PREFS["use_clock"], on_change=keep_pref, args=("hour",),
              help="Pick the kitchen's light yourself (used while the clock is off).")
-    st.toggle("Match the kitchen to the cuisine", value=PREFS["follow_cuisine"], key="set_follow_cuisine",
+    st.toggle("Travel the world through food", value=PREFS["follow_cuisine"], key="set_follow_cuisine",
               on_change=keep_pref, args=("follow_cuisine",),
-              help="Searching a cuisine family opens its kitchen: Asian (Chinese), African (Moroccan), "
-                   "European (Mediterranean), Latin American (Mexican), Middle Eastern.")
-    st.selectbox("Walter's style (your waiter)", SETTING_CHOICES["walter"],
+              help="The kitchen changes as you explore: search a cuisine and you cook in its region's kitchen, "
+                   "with its own chef: Asian (Chinese), African (Moroccan), European (Mediterranean), "
+                   "Latin American (Mexican), Middle Eastern.")
+    st.markdown(f"**{WAITER}, your food storyteller**")
+    st.radio("Your waiter", SETTING_CHOICES["waiter"], index=SETTING_CHOICES["waiter"].index(PREFS["waiter"]),
+             key="set_waiter", horizontal=True, on_change=keep_pref, args=("waiter",),
+             help="Walter or Nathalie: the same stories, sources and safety rules, a different waiter.")
+    st.selectbox(f"What {WAITER} tells you about", SETTING_CHOICES["walter"],
                  index=SETTING_CHOICES["walter"].index(PREFS["walter"]), key="set_walter",
                  on_change=keep_pref, args=("walter",),
-                 help="How Walter talks about dishes: Fun Food Explorer leads with stories, Chef Expert with history "
+                 help="What your waiter talks about first: Fun Food Explorer leads with stories, Chef Expert with history "
                       "and the deep reading links, Ingredient Guide with what's in it, Personal Concierge with what "
                       "to try next.")
-    st.selectbox("How Walter tells facts", SETTING_CHOICES["tone"], index=SETTING_CHOICES["tone"].index(PREFS["tone"]),
+    st.selectbox(f"How {WAITER} tells stories", SETTING_CHOICES["tone"], index=SETTING_CHOICES["tone"].index(PREFS["tone"]),
                  key="set_tone", on_change=keep_pref, args=("tone",),
                  help=" ".join(f"{t.label}: {t.blurb}" for t in waiter.TONES.values()) + " You can also pick it on "
-                      "Walter's panel, or ask him (\"keep it simple\", \"just the facts\").")
-    st.toggle("Remember my saved recipes on this device", key="remember_saved",
-              help="Saved recipes stay in this browser's storage, on your device only; nothing is sent to us. "
+                      "the waiter's panel, or just ask (\"keep it simple\", \"just the facts\").")
+    st.button(f"Set up {WAITER}, with examples", key="open-walter-setup", width="stretch",
+              on_click=st.session_state.update, kwargs={"walter_setup_open": True},
+              help="Hear how each tone and style sounds before you pick.")
+    st.markdown("**My Cookbook**")
+    st.toggle("Remember my cookbook on this device", key="remember_saved",
+              help="Your cookbook stays in this browser's storage, on your device only; nothing is sent to us. "
                    "Turning this off forgets them here when the page closes.")
-    if st.button("Clear saved recipes", width="stretch", disabled=not saved):
+    if st.button("Clear my cookbook", width="stretch", disabled=not saved):
         saved = st.session_state["saved"] = {}
         st.rerun()
-    st.toggle("Let the local AI retell Walter's stories (experimental)", value=PREFS["retell"], key="set_retell",
+    st.toggle("Let the local AI retell the waiter's stories (experimental)", value=PREFS["retell"], key="set_retell",
               on_change=keep_pref, args=("retell",),
-              help="Needs Ollama on this computer. Walter's story answers are retold in his voice; a retelling that "
+              help="Needs Ollama on this computer. the waiter's story answers are retold in their voice; a retelling that "
                    "adds a name, number, food or link is thrown away and the source's words are shown. Safety and "
                    "ingredient answers, and the \"Just the facts\" tone, are never retold. Small models can still bend a fact, so it is off by default.")
     # Feedback goes to the project's GitHub issue forms (.github/ISSUE_TEMPLATE); only the version is filled in,
@@ -1094,9 +1347,13 @@ for field, default in PROFILE_DEFAULTS.items():
     st.session_state.setdefault(field, default)
 if not st.session_state.get("onboarded"):
     setup_profile()
+elif not st.session_state.get("walter_onboarded") or st.session_state.pop("walter_setup_open", False):
+    setup_walter()   # right after the profile on the first visit; later from Settings or Walter's bubble
 with st.sidebar:
     st.header("Your profile")
-    avoid = st.multiselect("I can't eat", options=sorted(FLAG_RULES), format_func=nice, key="avoid")
+    st.markdown("**I can't eat**")
+    food_tabs("avoid", "skip")
+    avoid, skip = list(st.session_state["avoid"]), list(st.session_state["skip"])
     diets = st.multiselect("I follow", options=sorted(DIET_PROFILES), format_func=nice_diet, key="diets")
     vegetarian = st.checkbox("Vegetarian", key="vegetarian")
     vegan = st.checkbox("Vegan", key="vegan")
@@ -1110,7 +1367,7 @@ with st.sidebar:
     chef.append(st.container(key="chef-side").empty())
 
 profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetarian,
-                      vegan=vegan, calories_per_meal=calories)
+                      vegan=vegan, calories_per_meal=calories, skip=clean_names(skip))
 # The chef's welcome: hello in the kitchen's own language, then one tip, dish fact or chef's quote, the same one
 # for the whole visit (a seed per visit, so reruns do not change it)
 visit = st.session_state.setdefault("chef_seed", random.randrange(1_000_000))
@@ -1179,14 +1436,14 @@ with find_tab:
 
     # The results stay on the page between clicks (so "About this dish" can open), but only for the exact choices
     # they were found with: change the profile, the search or a filter and they are cleared, with a note saying so
-    asked = (tuple(avoid), tuple(diets), vegetarian, vegan, calories, cuisine, str(st.session_state.get("search")),
+    asked = (tuple(avoid), tuple(skip), tuple(diets), vegetarian, vegan, calories, cuisine, str(st.session_state.get("search")),
              tuple(quick), sort_label)
 
     def find(count: int) -> None:
         loading = cooking("Cooking up ideas...")
         st.session_state["found"] = (asked, count, baseline_recommend(
             pool, cuisine_family=None if cuisine == "All" else cuisine, calorie_target=calories,
-            vegetarian_only=vegetarian, vegan_only=vegan, avoid=avoid, diets=diets, top_n=count,
+            vegetarian_only=vegetarian, vegan_only=vegan, avoid=avoid, diets=diets, top_n=count, skip=profile.skip,
             max_minutes=max_minutes, min_protein_g=min_protein, sort_by=SORTS[sort_label]))
         loading.empty()
 
@@ -1197,6 +1454,8 @@ with find_tab:
         st.info("Your choices changed, so the earlier ideas were cleared (they were checked for the old ones). "
                 "Press **Find recipes** for new ones.")
     fits = why_it_fits(avoid, diets, vegetarian, vegan)   # the back end's checks, restated in plain words
+    checks = fit_checks(avoid, diets, vegetarian, vegan)   # the same checks, one tick each on the cards
+    notes = walter_notes()
     if found and found[0] == asked:
         results = found[2]
         # What every result below was checked for, with a way to change it
@@ -1231,30 +1490,11 @@ with find_tab:
                                      "Every one passed the safety check for your profile.", "safe")
         for number, (_, row) in enumerate(results.iterrows()):
             with st.container(border=True, key=f"recipe-card-{number}"):
-                photo, link, site = row.get("image_url"), row.get("url"), row.get("source")
-                ok = row.get("photo_ok")             # False: a logo, an icon or not the dish; missing: no check
-                if ok is not None and not pd.isna(ok) and not bool(ok):
-                    photo = None
                 named = clean_title(row["recipe_name"])
                 dish = str(named["dish_name"]).title()
                 picture, info = st.columns([1, 2])
-                if isinstance(photo, str) and photo.startswith("https://"):
-                    # The photo comes with the recipe from its website; the credit links there, so anyone can check
-                    picture.image(photo, width="stretch", alt=f"Photo of {dish} from the recipe's page")
-                    if isinstance(link, str) and link.startswith("http"):
-                        picture.caption(f"Photo: [{html.escape(str(site or 'the recipe page'))}]({link})")
-                elif from_commons(row.get("thumb_url")) and from_commons(row.get("file_page")):
-                    # No photo of its own: a free photo of the dish in general (Wikimedia Commons), said so plainly
-                    picture.image(row["thumb_url"], width="stretch",
-                                  alt=f"A photo of {row['dish_label']} in general, not this recipe")
-                    picture.caption(f"A photo of {plain(row['dish_label'])} in general, not this recipe. "
-                                    f"[{plain(row['credit'])}]({row['file_page']})")
-                else:
-                    # No photo at all: the kitchen's own picture, which says plainly that it is not the dish
-                    picture.markdown(f'<div class="no-photo" role="img" aria-label="No photo of this dish yet">'
-                                     f'<span class="ico" style="background-image: url({art("no_photo_skillet")})"></span>'
-                                     'Cooking up a picture...<small>No photo of this dish yet</small></div>',
-                                     unsafe_allow_html=True)
+                recipe_photo(picture, row, dish)
+                link = row.get("url")
                 # A short card: the dish's own name and where it is from, the numbers, and the check it passed as
                 # its badge; the other names, how to say it, the ingredients, steps and video are on its own page
                 info.subheader(dish)
@@ -1262,9 +1502,22 @@ with find_tab:
                 if isinstance(where, str) and where != "Unknown":
                     region = row.get("origin_region")
                     info.caption(f"From {region + ', ' if isinstance(region, str) else ''}{where}")
+                # Dish, its story, why it is safe for you, then the numbers (the team's UX brief: food first)
+                story = dish_story(notes.find(dish, where if isinstance(where, str) else None) if notes else None)
+                if story:
+                    info.markdown(f'<p class="dish-story">{html.escape(story[0])} '
+                                  f'<a href="{html.escape(story[1])}" target="_blank" rel="noopener">Wikipedia, '
+                                  'CC BY-SA 4.0</a></p>', unsafe_allow_html=True)
+                ticks = checks + (["within your calorie target"]
+                                  if within_calories(row["calories_per_serving"], calories) else [])
+                if checks:
+                    shown = ticks[:4] + ([f"{len(ticks) - 4} more checks"] if len(ticks) > 4 else [])
+                    info.markdown('<ul class="safe-ticks" aria-label="Checked for you">' + "".join(
+                        f"<li>{html.escape(t[:1].upper() + t[1:])}</li>" for t in shown) + "</ul>",
+                        unsafe_allow_html=True)
+                else:
+                    badge(info, "icon_alert", "Not checked: add what you can't eat under Your profile", "warn")
                 stats(info, row["calories_per_serving"], row["protein_g"], row.get("minutes"), row.get("minutes_estimate"))
-                badge(info, "icon_safe" if fits else "icon_alert",
-                      fits or "Not checked: add what you can't eat under Your profile", "safe" if fits else "warn")
                 ingredients = row["ingredient_list"]
                 if isinstance(ingredients, str):
                     try:
@@ -1284,7 +1537,7 @@ with find_tab:
                     *([f"Recipe: {link}"] if isinstance(link, str) and link.startswith("http") else [])]}
                 save_col.button("Saved" if recipe_id in saved else "Save", key=f"save-{number}", width="stretch",
                                 on_click=toggle_saved, args=(recipe_id, entry),
-                                help="Keep it in Saved (top right); it stays in this browser")
+                                help="Keep it in My Cookbook (top right); it stays in this browser")
         more = not results.empty and len(results) == found[1] and found[1] < MAX_IDEAS
         if more and st.button(f"Show {PAGE} more", key="more"):
             find(found[1] + PAGE)
@@ -1324,6 +1577,10 @@ with check_tab:
                         for text, found_here in by_line.items()))
                     if report["explained_by"] != "rules":   # the local AI's words, kept only when they match the rules
                         st.markdown(plain(report["text"]))
+                skipped = report.get("skipped", [])
+                if skipped:   # foods the user doesn't eat: a note, never part of the safety verdict
+                    st.markdown("**Foods you don't eat in this recipe:**\n" + "\n".join(
+                        f"- {where_found(str(s['line']))} has {', '.join(plain(f) for f in s['foods'])}." for s in skipped))
                 checked = [checked_words(r) for r in report["checked"] if r != "contains_pet_meat"]
                 st.caption(("Checked for: " + ", ".join(checked) + ". " if checked else "")
                            + "The app's rules made this decision"
@@ -1365,6 +1622,19 @@ with map_tab:
                               get_position="[lng, lat]", get_fill_color="color", get_radius=90, pickable=True)],
             tooltip={"text": "{label}\n{kind} {cuisine_text}\nUnverified: check with the store"}),
             height=480)
+
+# ---------- Walter, the AI waiter: a button in the page's corner; his bubble is about the dish last opened ----------
+with st.container(key="walter-corner"), st.popover(f"Ask {WAITER}, your waiter"):
+    st.markdown('<span class="walter-bubble"></span>', unsafe_allow_html=True)   # gives the bubble his colours
+    picked = st.session_state.get("walter_dish")
+    if picked is None:
+        walter_face(st)
+        st.markdown(f"**{WAITER}, your waiter**  \nOpen a dish (*About this dish*) and I'll tell you where it comes "
+                    "from and the story behind it.")
+    else:
+        walter_panel(*picked)
+    st.button("Change how I tell my stories", key="walter-corner-setup", width="stretch",
+              on_click=st.session_state.update, kwargs={"walter_setup_open": True})
 
 # ---------- Footer: disclaimer and contributors ----------
 REPO = "https://github.com/Chloe-Tu2/The-EverFlavor-AI"

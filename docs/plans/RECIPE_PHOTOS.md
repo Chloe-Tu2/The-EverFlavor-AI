@@ -41,6 +41,8 @@ salad in general, not this recipe", with the credit linking to the file's page.
 
 - A dish photo is matched only when the recipe's clean name names the dish (two words or more) and the countries
   fit; brand products, diagrams and wrong dishes were deleted (13 files).
+- **Review of one recipe's own photo:** `data/reference/recipe_photo_review.csv` (recipe_id, keep = no, the reason
+  and who decided) hides it; the card falls back to a photo of the dish in general or the no-photo skillet.
 - **Review:** `data/reference/dish_photo_review.csv` turns a dish's photo down (keep = no, with the reason and who
   decided). Claude checked the 60 most used photos by eye and turned down 6 (bread pudding, chicken soup,
   vegetable soup, pie crust, clam chowder, yellow rice). The team checks the rest the same way.

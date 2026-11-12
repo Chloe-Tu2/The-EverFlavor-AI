@@ -54,7 +54,7 @@ dish (an image-text check) are hidden. Without its own photo, a card may show a 
 from Wikimedia Commons, labelled "not this recipe", with its credit. With no photo at all it shows a pixel-art
 pan and "Cooking up a picture...".
 
-**Walter, the waiter.** On a dish's page Walter tells its story: a fun fact, what inspired it, where it comes from,
+**Walter, the waiter.** Walter waits in the page's corner; tap him after opening a dish and he tells its story: a fun fact, what inspired it, where it comes from,
 its history, what's in it, what to try next, and where to read more (by interest level). Every fact comes from the
 dish knowledge in [data/knowledge/](data/knowledge/README.md) (Wikipedia, credited, and Wikidata; 4,827 dishes and
 foods), never invented; a fact a reviewer marked "drop" is never said. Questions are screened (an injection test set
