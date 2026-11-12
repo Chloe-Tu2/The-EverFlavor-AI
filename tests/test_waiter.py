@@ -206,3 +206,22 @@ def test_a_retelling_that_loses_the_fact_is_thrown_away() -> None:
     note = "Pizza: Modern pizza was born in Naples in the 18th century."
     assert str(waiter.reword_problem(note, "Pizza is a yummy food that people love to eat.")).startswith("dropped")
     assert waiter.reword_problem(note, "Pizza as we know it was born in Naples in the 18th century!") is None
+
+
+def test_each_tone_has_its_face_but_safety_answers_keep_their_own() -> None:
+    story = waiter.Reply("Tacos came from Mexico.", "happy", ["Wikipedia: Taco"], skill="origin")
+    assert waiter.face_for(story, "Funny") == "laugh"
+    assert waiter.face_for(story, "Fun") == "excited"
+    assert waiter.face_for(story, "Simple") == "happy"          # no face of its own: the fact's mood
+    warning = waiter.Reply("This has peanuts.", "worried", ["EverFlavor checks"], skill="allergy")
+    assert waiter.face_for(warning, "Funny") == "worried"       # never a laughing face on an allergy warning
+
+
+def test_both_waiters_greet_in_their_own_name_and_have_every_face() -> None:
+    assert "I'm Nathalie" in waiter.greeting("Nathalie") and "I'm Walter" in waiter.GREETING
+    assets = Path(__file__).resolve().parents[1] / "design" / "pixel-art" / "assets"
+    faces = {t.face for t in waiter.TONES.values() if t.face} | {
+        "happy", "wink", "laugh", "surprised", "worried", "neutral", "thinking"}
+    for name in waiter.WAITERS:
+        missing = [f for f in sorted(faces | {"half"}) if not (assets / f"{name.lower()}_{f}.png").exists()]
+        assert not missing, (name, missing)

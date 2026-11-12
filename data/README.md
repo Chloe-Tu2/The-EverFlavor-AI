@@ -6,10 +6,10 @@ Only this README, `reference/` and the empty-folder markers (`.gitkeep`) are com
 
 | Folder | What is in it | On GitHub |
 |---|---|---|
-| `reference/` | Small hand-made tables with their sources (`cooking_fats.csv`; `walter_injection_set.csv`: 71 labelled questions, attacks and real food questions, for the waiter's screen) | **Yes** |
+| `reference/` | Small hand-made tables with their sources (`cooking_fats.csv`; `walter_injection_set.csv`: 71 labelled questions, attacks and real food questions, for the waiter's screen; `dish_photo_review.csv` and `recipe_photo_review.csv`: photos a person turned down, for a dish in general or for one recipe, with the reason) | **Yes** |
 | `raw/` | Original downloads, caches and samples: recipes, USDA, Open Food Facts, Wikidata, FoodKeeper, OpenStreetMap, freshness photos (32 GB), USDA ERS livestock data (`ers_livestock/`) and past weather (`weather/`, notebook 08) | No |
 | `interim/` | The combined, cleaned recipe table (`recipes_all.parquet`) and cooking labels | No |
-| `processed/` | Final tables: train / val / test splits, nutrition, knowledge, stores, variants, freshness index, meat supply and pasture seasons (`meat_supply_seasons.csv`, `pasture_seasons.csv`), charts | No |
+| `processed/` | Final tables: train / val / test splits, nutrition, knowledge, stores, variants, freshness index, meat supply and pasture seasons (`meat_supply_seasons.csv`, `pasture_seasons.csv`), charts; `foodcom_details.parquet` (Food.com prep and cook times, servings and extra nutrition, from `scripts/recipe_details.py`) | No |
 
 Which notebook writes which file: [notebooks/README.md](../notebooks/README.md#run-order).
 Column meanings: [docs/data_dictionary.md](../docs/data_dictionary.md). Sources and licenses: [docs/sources.md](../docs/sources.md).
