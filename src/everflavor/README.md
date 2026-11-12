@@ -18,6 +18,7 @@ add `src/` to the path for you.
 | | `ingredients.py` | Cleaning and normalizing ingredient names |
 | | `cuisine.py` | Cuisine families, country and region of origin |
 | | `parsing.py` | Lists and labels stored as text |
+| | `places.py` | The Food Discovery Map's claims: each diet tag at an evidence level (verified needs a checked record with a link; likely from OpenStreetMap tags or the business's name; unknown otherwise), cuisine indicators with their source; never authenticity, freshness or "best" |
 | | `preferences.py` | Foods a person doesn't eat (not allergies): matched by name only, never a safety check; the "Foods I don't eat" choices |
 | | `recipe_details.py` | Food.com recipes' own prep and cook times, servings, sugar, fibre, saturated fat and cholesterol from the CC0 Kaggle set (joined by number and name; its unit-less quantities are not used) |
 | | `features.py` | Text features shared by the models; training weights by group (`balanced_weights`) and results by group (`results_by_group`) |
