@@ -144,26 +144,40 @@ class Tone:
     shape: str                      # the retelling's form for REWORD_RULES; "" = never retold (the sources' words)
     openers: tuple[str, ...] = ()   # Walter's own lead-ins: no facts in them, shown before the sourced text
     points: bool = False            # one fact per line
+    face: str = ""                  # the waiter's face for this tone's stories ("" = the fact's own mood)
 
 
 TONES = {
     "Fun": Tone("Fun", "Stories and surprises first, told warmly.", 0, "story",
-                "in one to three short, lively sentences"),
-    "Funny": Tone("Funny", "The same true facts, with a light joke from Walter.", 0, "story",
+                "in one to three short, lively sentences", face="excited"),
+    "Funny": Tone("Funny", "The same true facts, with a light joke from your waiter.", 0, "story",
                   "in one to three short sentences with one light, kind joke or pun about the dish itself (never "
                   "about people, countries, religions or diets)",
                   ("Here's one to tell at the table:", "This one always gets a smile:", "Don't laugh, but it's true:",
-                   "A waiter's favourite:", "Lean in, this one's good:")),
+                   "A waiter's favourite:", "Lean in, this one's good:"), face="laugh"),
     "Just the facts": Tone("Just the facts", "Only what the sources say, in their own words (never retold).", 0,
-                           "record", ""),
+                           "record", "", face="neutral"),
     "Key points": Tone("Key points", "Up to three short points from different topics.", 3, "spread",
-                       "as up to three short points, each on its own line starting with \"- \"", points=True),
+                       "as up to three short points, each on its own line starting with \"- \"", points=True,
+                       face="proud"),
     "Broad": Tone("Broad", "The bigger picture: several topics and where to read more.", 3, "spread",
-                  "in two to four sentences that link the note's points into the bigger picture of the dish"),
+                  "in two to four sentences that link the note's points into the bigger picture of the dish",
+                  face="thinking"),
     "Simple": Tone("Simple", "One short fact in everyday words.", 1, "short",
                    "in one or two short sentences with everyday words a child would know"),
 }
 DEFAULT_TONE = "Fun"
+# The two waiters (the user picks one in Settings); the same skills, rules and sources, only the name and face differ
+WAITERS = ("Walter", "Nathalie")
+DEFAULT_WAITER = "Walter"
+SAFETY_SKILLS = frozenset({"allergy", "refused"})   # answers whose face is set by the answer, never by the tone
+
+
+def face_for(reply: Reply, tone_name: str = DEFAULT_TONE) -> str:
+    """The waiter's face for a reply: an allergy answer or a refusal keeps its own (worried, neutral); a story
+    shows the tone's face (excited for Fun, laughing for Funny, thinking for Broad), else the fact's mood."""
+    tone = TONES.get(tone_name, TONES[DEFAULT_TONE])
+    return reply.mood if reply.skill in SAFETY_SKILLS or not tone.face else tone.face
 
 
 def _spread(facts: list[dict]) -> list[dict]:
@@ -470,7 +484,12 @@ WAITING_LINES = ["Checking the chef's notes...", "Asking the kitchen...", "Looki
                  "Polishing the silverware...", "Fetching a fresh story from the pantry...",
                  "One moment, finding the good stuff...", "Reading the menu's small print...",
                  "Warming the plates..."]
-GREETING = "Hi, I'm Walter, your waiter. Ask me about this dish: its story, where it's from, what's in it."
+def greeting(name: str = DEFAULT_WAITER) -> str:
+    """The waiter's hello on a dish's panel, in their own name."""
+    return f"Hi, I'm {name}, your waiter. Ask me about this dish: its story, where it's from, what's in it."
+
+
+GREETING = greeting()
 REFUSALS = {"empty": "Ask me anything about this dish.",
             "too long": f"That's a long one! Please keep it under {MAX_QUESTION} characters.",
             "injection attempt": "I can only talk about food and this dish. What would you like to know?",
@@ -504,7 +523,7 @@ def insight(dish: dict | None, preset_name: str = "Balanced", turn: int = 0,
 # ------------------------------------------------------------------ rewording by a local model (optional)
 # Only story answers are reworded; allergy, ingredients, links and refusals keep the rules' exact words.
 REWORD_SKILLS = frozenset({"fun_fact", "inspiration", "origin", "history"})
-REWORD_RULES = ("You are Walter, a friendly waiter. Retell the note about {dish} to a guest {shape}{style}. "
+REWORD_RULES = ("You are {waiter}, a friendly waiter. Retell the note about {dish} to a guest {shape}{style}. "
                 "Name the dish, keep the note's names, places and dates, and keep its meaning. "
                 "Add nothing the note does not say: no new names, places, dates, numbers, dishes or ingredients, "
                 "and no links. Talk about the dish, not about yourself or a restaurant (no \"we\" or \"our\"). "
@@ -516,7 +535,7 @@ _BULLET = re.compile(r"^[-*•\d.)\s]+")   # a model's own bullet or number befo
 # Words a retelling may capitalise without them being new names
 _COMMON_CAPS = {"a", "an", "and", "as", "at", "but", "by", "did", "for", "fun", "here", "i", "in", "it", "its", "it's",
                 "legend", "many", "now", "of", "on", "once", "one", "people", "so", "some", "story", "that", "the",
-                "there", "these", "they", "this", "today", "walter", "well", "what", "when", "you", "your"}
+                "there", "these", "they", "this", "today", "walter", "nathalie", "well", "what", "when", "you", "your"}
 
 
 def reword_problem(original: str, reworded: str) -> str | None:
@@ -571,8 +590,8 @@ def _lost_fact(original: str, text: str) -> str | None:
 
 def reword(reply: Reply, model: str, profile: UserProfile | None = None, preset_name: str = "Balanced",
            chat: Callable[..., dict] | None = None, timeout: float = 30, dish_name: str = "the dish",
-           tone_name: str = DEFAULT_TONE) -> Reply:
-    """The reply retold by a local model in Walter's voice and the user's tone, or the reply unchanged when the
+           tone_name: str = DEFAULT_TONE, waiter_name: str = DEFAULT_WAITER) -> Reply:
+    """The reply retold by a local model in the waiter's voice and the user's tone, or the reply unchanged when the
     skill or tone keeps exact words ("Just the facts"), the model fails, or the retelling adds anything
     (`reword_problem`), is longer than the tone allows, or names food outside the user's rules
     (`llm.guard_answer` with `profile`). The facts and sources stay the rules'."""
@@ -583,7 +602,7 @@ def reword(reply: Reply, model: str, profile: UserProfile | None = None, preset_
         llm,  # only when a model is on (keeps the rules-only path light)
     )
     send = chat or llm.chat
-    rules = REWORD_RULES.format(dish=dish_name, shape=tone.shape, style=_STYLE_WORDS.get(preset_name, ""))
+    rules = REWORD_RULES.format(waiter=waiter_name, dish=dish_name, shape=tone.shape, style=_STYLE_WORDS.get(preset_name, ""))
     note = re.sub(r"^- ", "", reply.text, flags=re.MULTILINE).replace("\n", " ")
     try:
         message = send([{"role": "system", "content": rules}, {"role": "user", "content": note}], model,

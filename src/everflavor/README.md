@@ -18,6 +18,8 @@ add `src/` to the path for you.
 | | `ingredients.py` | Cleaning and normalizing ingredient names |
 | | `cuisine.py` | Cuisine families, country and region of origin |
 | | `parsing.py` | Lists and labels stored as text |
+| | `preferences.py` | Foods a person doesn't eat (not allergies): matched by name only, never a safety check; the "Foods I don't eat" choices |
+| | `recipe_details.py` | Food.com recipes' own prep and cook times, servings, sugar, fibre, saturated fat and cholesterol from the CC0 Kaggle set (joined by number and name; its unit-less quantities are not used) |
 | | `features.py` | Text features shared by the models; training weights by group (`balanced_weights`) and results by group (`results_by_group`) |
 | **Food knowledge** | `nutrition.py` | Nutrition per serving, plausibility, USDA matching (hand-checked list, then automatic matches that must cover every word of the name) |
 | | `nutrition_quality.py` | Macro labels, nutrient-rich ingredients (notebook 07) |

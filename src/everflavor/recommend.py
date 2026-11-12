@@ -21,14 +21,17 @@ from .flags import (
     make_flag,
     recipe_text,
 )
+from .preferences import drop_skipped
 
 __all__ = [
     "SORT_ORDERS",
     "baseline_recommend",
+    "fit_checks",
     "passes_safety_filter",
     "recipe_minutes",
     "what_blocks",
     "why_it_fits",
+    "within_calories",
 ]
 
 
@@ -131,6 +134,7 @@ def baseline_recommend(
     avoid: Sequence[str] = (),
     diets: Sequence[str] = (),
     top_n: int = 5,
+    skip: Sequence[str] = (),
     max_minutes: float | None = None,
     min_protein_g: float | None = None,
     sort_by: str = "calories",
@@ -153,6 +157,8 @@ def baseline_recommend(
         gluten_free: Restrict to gluten-free recipes.
         avoid: Flag columns to exclude, for example ("contains_pork", "contains_alcohol").
         diets: Diet profiles to require, for example ("halal_friendly",).
+        skip: Foods the user doesn't eat (not allergies), left out by name: a recipe that mentions one in its
+            ingredients or its name is dropped (preferences.py; never a safety check).
         top_n: Number of recommendations.
         max_minutes: Keep recipes that take at most this long: the recipe's own time, or the estimate
             (minutes_estimate) when it gives none; a recipe with neither is left out.
@@ -195,6 +201,7 @@ def baseline_recommend(
     for flag in avoid:
         if flag in results.columns:
             results = results[results[flag] == False]
+    results = drop_skipped(results, skip)
 
     # Step 3: Keep only recipes with plausible nutrition data
     results = results.loc[
@@ -241,8 +248,27 @@ def why_it_fits(avoid: Iterable[str] = (), diets: Iterable[str] = (), vegetarian
     Returns:
         The line, or "" when the profile asks for nothing.
     """
+    parts = fit_checks(avoid, diets, vegetarian, vegan)
+    return "Checked for you: " + ", ".join(parts) if parts else ""
+
+
+def fit_checks(avoid: Iterable[str] = (), diets: Iterable[str] = (), vegetarian: bool = False,
+               vegan: bool = False) -> list[str]:
+    """Each check a recommended recipe passed, one short item each, for the card's tick list ("no peanut",
+    "halal-friendly ingredients", "vegetarian"). Like why_it_fits, it only restates the filters baseline_recommend
+    applied."""
     parts = ["no " + flag.removeprefix("contains_").replace("_", " ") for flag in avoid]
     parts += [diet.removesuffix("_friendly").replace("_", " ") + "-friendly ingredients"
               if diet.endswith("_friendly") else diet.replace("_", " ") for diet in diets]
     parts += ["vegan"] if vegan else ["vegetarian"] if vegetarian else []
-    return "Checked for you: " + ", ".join(parts) if parts else ""
+    return parts
+
+
+def within_calories(calories: object, target: object) -> bool:
+    """True when a recipe's calories per serving are known and at most the user's target per meal (policy,
+    med27-coder's UX brief 2026-11-11: "Within your calorie target" is shown only then; never a guess)."""
+    try:
+        kcal, goal = float(calories), float(target)  # type: ignore[arg-type]
+    except (TypeError, ValueError):
+        return False
+    return goal > 0 and 0 < kcal <= goal   # NaN fails both comparisons
