@@ -86,6 +86,7 @@ __all__ = [
     "POULTRY_KEYWORDS",
     "PROCESSED_MEAT_EXCEPTIONS",
     "PROCESSED_MEAT_KEYWORDS",
+    "PRODUCT_CAUTIONS",
     "RAW_ANIMAL_EXCEPTIONS",
     "RAW_ANIMAL_KEYWORDS",
     "RED_MEAT_EXCEPTIONS",
@@ -122,7 +123,9 @@ __all__ = [
     "name_text",
     "named_foods",
     "not_named_foods",
+    "not_product_names",
     "print_flag_counts",
+    "product_names",
     "recipe_text",
     "reveal_hidden_words",
     "spelling_variants",
@@ -398,6 +401,74 @@ def not_named_foods(flag: str) -> list[str]:
     return with_spellings([p for g in FOOD_NAME_GROUPS.values() if flag in g["flags"] for p in g.get("not_this", [])])
 
 
+# --- Brand names and dishes whose name does not say what is in them ---
+# RECORDED POLICY (decided by Claude for review by Team EverGlow, 2026-11-16). A candy bar, a baked good or
+# a dish is named, and the allergen or the meat inside it is not: "2 snickers bars" has peanuts, a croissant
+# is made with butter, carbonara with cured pork. Each entry lists the flags it ADDS, its other names
+# ("aliases") and the look-alikes that are not it ("not_this"). Entries only ever add cautions (the safe
+# direction); a look-alike may only hide the entry's own name, never another keyword
+# (tests/test_product_cautions.py checks both). They count in the ingredients and in the recipe name.
+# Only the allergens the review asked for are listed; a bar's other allergens (milk in a Snickers, wheat in
+# a Kit Kat) wait for the Open Food Facts evidence the team uses for COMPOUND_INGREDIENTS.
+# Choices made on the safe side, each for the team to confirm:
+# - "snicker" counts: the pipeline writes ingredients in the singular ("snickers" becomes "snicker").
+#   "snickerdoodle" is one word and never matches.
+# - "reese" and "hershey" match "reese's" and "hershey's" with any apostrophe. Hershey's cocoa and syrup are
+#   not flagged as dairy: the cocoa is 100% cocoa and the syrup lists no milk.
+# - A plain "ladyfinger" or "lady finger" counts as the sponge biscuit (tiramisu, charlotte), which is how
+#   nearly all the recipes that say it use it. A few okra dishes say "ladyfinger" too and get two cautions
+#   they do not need. Okra's own names ("lady's finger", "ladies' fingers", "okra", "bhindi") are never
+#   flagged.
+# - "pad thai", "kung pao" and "carbonara" count wherever they are written, a meat-free carbonara included:
+#   "carbonara" already rules out vegan (egg), so no look-alike is offered for it.
+# - "burger patty" is meat unless it is named as a plant one ("veggie burger patty", "bean burger patties").
+PRODUCT_CAUTIONS: dict[str, dict[str, list[str]]] = {
+    # candy bars and cookies made with peanuts
+    "snickers": {"flags": ["contains_peanut"], "aliases": ["snicker"]},
+    "reese's": {"flags": ["contains_peanut"], "aliases": ["reeses", "reese"]},
+    "nutter butter": {"flags": ["contains_peanut"]},
+    "butterfinger": {"flags": ["contains_peanut"]},
+    # milk chocolate
+    "m&m": {"flags": ["contains_dairy"], "aliases": ["m&m's", "m & m", "m and m's"]},
+    "hershey": {"flags": ["contains_dairy"], "aliases": ["hershey's", "hersheys"],
+                "not_this": [f"{name}{between}{food}" for name in ("hershey's", "hersheys", "hershey")
+                             for between in (" ", " unsweetened ", " chocolate ") for food in ("cocoa", "syrup")]},
+    "kit kat": {"flags": ["contains_dairy"], "aliases": ["kitkat"]},
+    # chocolates made with hazelnuts or almonds
+    "ferrero": {"flags": ["contains_tree_nut"], "aliases": ["ferrero rocher"]},
+    "almond joy": {"flags": ["contains_tree_nut"]},
+    "toblerone": {"flags": ["contains_tree_nut"]},
+    # baked goods and mixes
+    "croissant": {"flags": ["contains_dairy", "contains_gluten"]},
+    "gravy mix": {"flags": ["contains_gluten"]},
+    "ladyfinger": {"flags": ["contains_gluten", "contains_egg"],
+                   "aliases": ["lady finger", "savoiardi", "sponge finger", "boudoir biscuit"]},
+    "everything bagel": {"flags": ["contains_sesame", "contains_gluten"], "aliases": ["everything but the bagel"]},
+    # dishes
+    "pad thai": {"flags": ["contains_peanut"],
+                 "not_this": ["pad thai rice noodle", "pad thai noodle", "pad thai rice stick"]},
+    "kung pao": {"flags": ["contains_peanut"], "aliases": ["kung po", "gong bao"]},
+    "carbonara": {"flags": ["contains_pork"]},
+    "cheeseburger": {"flags": ["contains_dairy", "contains_meat"]},
+    "burger patty": {"flags": ["contains_meat"], "aliases": ["burger pattie"],
+                     "not_this": [f"{plant} burger patt" for plant in (
+                         "veggie", "vegan", "vegetarian", "vegetable", "plant-based", "meatless",
+                         "bean", "lentil", "chickpea", "tofu", "tempeh", "mushroom", "quinoa", "beyond",
+                         "impossible")]},
+}
+
+
+def product_names(flag: str) -> list[str]:
+    """Return the PRODUCT_CAUTIONS names (and aliases, every spelling) that add a flag."""
+    return term_names({n: g for n, g in PRODUCT_CAUTIONS.items() if flag in g["flags"]})
+
+
+def not_product_names(flag: str) -> list[str]:
+    """Return the look-alikes of the PRODUCT_CAUTIONS entries that add a flag, every spelling."""
+    return with_spellings([p for g in PRODUCT_CAUTIONS.values() if flag in g["flags"] for p in g.get("not_this", [])])
+
+
+PORK_KEYWORDS += product_names("contains_pork")   # before the red-meat and meat lists are built from it
 WINE_NAMES = wine_names()
 WINE_NAME_EXCEPTIONS = list(dict.fromkeys(p for g in wine_name_groups().values() for p in g["not_wine"]))
 ALCOHOL_KEYWORDS  = ["wine", "beer", "ale", "lager", "rum", "vodka", "whiskey", "whisky",
@@ -433,7 +504,7 @@ GLUTEN_KEYWORDS   = ["flour", "bread", "wheat", "pasta", "noodle", "barley", "ry
                      # sauces and soups usually made with wheat
                      "teriyaki", "hoisin", "oyster sauce", "gochujang", "shoyu", "ponzu", "soya sauce",
                      "cream of mushroom soup", "cream of chicken soup", "cream of celery soup",
-                     "minestrone"] + _compounds("contains_gluten")
+                     "minestrone"] + _compounds("contains_gluten") + product_names("contains_gluten")
 DAIRY_KEYWORDS    = (["milk", "buttermilk", "cheese", "butter", "cream", "yogurt", "yoghurt",
                      "ghee", "mozzarella", "parmesan", "ricotta", "mascarpone", "feta", "whey",
                      "cheddar", "brie", "camembert", "gouda", "gruyere", "gorgonzola", "burrata",
@@ -448,16 +519,16 @@ DAIRY_KEYWORDS    = (["milk", "buttermilk", "cheese", "butter", "cream", "yogurt
                      "pepper jack", "velveeta", "cotija", "chevre", "stracciatella", "scamorza",
                      "caciocavallo", "kashkaval", "labne", "skyr", "dahi", "curd", "khoa", "khoya", "malai",
                      "rabri", "kulfi", "gelato", "dulce de leche", "cajeta", "lactose", "bearnaise"]
-                    + _compounds("contains_dairy"))
+                    + _compounds("contains_dairy") + product_names("contains_dairy"))
 EGG_KEYWORDS      = ["egg", "egg white", "egg yolk", "mayonnaise", "mayo", "meringue", "eggnog",
                      "aioli", "hollandaise", "carbonara", "quiche", "frittata", "challah",
                      "brioche", "cheesecake", "macaron", "wonton",
                      # Egg Beaters and similar "egg substitutes" are made from egg whites
                      "eggbeater", "egg beater", "egg substitute",
                      "custard", "albumen", "bearnaise", "lemon curd", "lime curd", "orange curd", "passion fruit curd",
-                     "fruit curd"] + _compounds("contains_egg")
+                     "fruit curd"] + _compounds("contains_egg") + product_names("contains_egg")
 # Policy: a plain "nut" may be peanuts, so it sets the peanut flag too
-PEANUT_KEYWORDS   = ["peanut", "peanut butter", "peanut oil", "groundnut", "ground nut",
+PEANUT_KEYWORDS   = (["peanut", "peanut butter", "peanut oil", "groundnut", "ground nut",
                      "nut", "arachis", "goober",
                      # the bottled sauce; a dish named "satay" is the grilled skewers, whose sauce varies
                      # by region (peanut, turmeric, sweet soy, or none): team decision 2026-10-05
@@ -465,10 +536,11 @@ PEANUT_KEYWORDS   = ["peanut", "peanut butter", "peanut oil", "groundnut", "grou
                      # dishes and products made with peanuts (red-team probe, 2026-10-10); mole poblano and
                      # massaman curry usually have peanuts: flagged on the safe side
                      "gado gado", "gado-gado", "kare-kare", "kare kare", "mole poblano", "massaman", "pb2"] + _compounds("contains_peanut")
+                    + product_names("contains_peanut"))
 TREE_NUT_KEYWORDS = ["almond", "walnut", "pecan", "cashew", "pistachio", "hazelnut",
                      "filbert", "macadamia", "brazil nut", "pine nut", "nut", "nutella",
                      "praline", "marzipan", "macaron", "frangipane", "amaretti", "pesto",
-                     "baklava", "nougat", "gianduja", "marcona", "pignoli", "pinoli", "orgeat", "dukkah"] + _compounds("contains_tree_nut") + named_foods("contains_tree_nut")
+                     "baklava", "nougat", "gianduja", "marcona", "pignoli", "pinoli", "orgeat", "dukkah"] + _compounds("contains_tree_nut") + named_foods("contains_tree_nut") + product_names("contains_tree_nut")
 FISH_KEYWORDS     = ["fish", "salmon", "tuna", "cod", "anchovy", "anchovies", "sardine",
                      "tilapia", "halibut", "trout", "mackerel", "haddock", "catfish",
                      "snapper", "swordfish", "mahi mahi", "flounder", "sole", "hake",
@@ -501,7 +573,7 @@ SOY_KEYWORDS      = ["soy", "soya", "soy sauce", "soybean", "tofu", "tempeh", "e
                      "shoyu", "ponzu", "yuba", "okara"] + _compounds("contains_soy")
 SESAME_KEYWORDS   = ["sesame", "tahini", "tahina", "halva", "halvah", "za'atar", "zaatar",
                      "za atar", "furikake", "gomasio", "gomashio", "benne", "hummus", "houmous",
-                     "hummous", "baba ganoush", "baba ghanoush", "gingelly", "dukkah"] + _compounds("contains_sesame")
+                     "hummous", "baba ganoush", "baba ghanoush", "gingelly", "dukkah"] + _compounds("contains_sesame") + product_names("contains_sesame")
 LAND_MEAT_KEYWORDS = (["chicken", "beef", "lamb", "mutton", "goat", "turkey", "veal", "duck",
                       "venison", "goose", "rabbit", "bison", "elk", "quail", "pheasant",
                       "cornish hen", "game hen", "fryer", "meat", "steak", "sirloin",
@@ -516,7 +588,7 @@ LAND_MEAT_KEYWORDS = (["chicken", "beef", "lamb", "mutton", "goat", "turkey", "v
                       "ground meat", "minced meat", "hare", "camel", "alligator", "crocodile", "frog leg",
                       "frogs leg", "frogs' leg", "turtle meat", "turtle soup", "snapping turtle", "squirrel",
                       "guinea pig", "opossum", "possum", "raccoon", "armadillo"]
-                     + PORK_KEYWORDS + _compounds("contains_meat"))
+                     + PORK_KEYWORDS + _compounds("contains_meat") + product_names("contains_meat"))
 
 # Base flags for the diet profiles in 5.4.7
 BEEF_KEYWORDS     = ["beef", "veal", "steak", "brisket", "sirloin", "chuck", "ground round", "rib eye",
@@ -726,14 +798,14 @@ DAIRY_EXCEPTIONS    = ["coconut milk", "almond milk", "soy milk", "oat milk", "r
                        "soy cream", "coconut yogurt", "soy yogurt", "almond yogurt", "vegan yogurt",
                        "non-dairy", "nondairy", "dairy-free", "dairy free",
                        "bean curd", "soy curd", "tofu curd", "custard apple", "vegan gelato",
-                       "dairy-free gelato", "dairy free gelato"]
+                       "dairy-free gelato", "dairy free gelato"] + not_product_names("contains_dairy")
 EGG_EXCEPTIONS      = ["eggless", "egg-free", "egg free", "egg replacer", "vegan mayo",
                        "vegan mayonnaise", "flax egg", "chia egg",
                        "custard apple", "custard powder", "vegan custard", "eggless custard",
                        "custard cup", "custard style", "custard-style", "bird's custard", "bird's eye custard"]
 PEANUT_EXCEPTIONS   = ["peanut-free", "peanut free", "nut-free", "nut free", "pine nut", "brazil nut",
                        "tiger nut", "macadamia nut", "cashew nut", "pistachio nut", "pecan nut", "hazel nut",
-                       "kola nut", "betel nut", "candle nut", "candlenut"]
+                       "kola nut", "betel nut", "candle nut", "candlenut"] + not_product_names("contains_peanut")
 TREE_NUT_EXCEPTIONS = ["nut-free", "nut free", "tiger nut", "ground nut"] + not_named_foods("contains_tree_nut")
 # Oyster mushrooms, often listed as "wild mushrooms (such as oyster, shiitake ...)"
 OYSTER_MUSHROOM_PHRASES = ["oyster mushroom", "king oyster", "such as oyster", "oyster, shiitake",
@@ -760,7 +832,8 @@ MEAT_EXCEPTIONS     = OYSTER_MUSHROOM_PHRASES + FISH_EXCEPTIONS + NOT_MEAT_LOOKA
                        "impossible pork", "impossible sausage", "plant-based sausage", "plant based sausage",
                        "plant-based beef", "plant based beef", "plant-based chicken", "plant based chicken",
                        "vegan chicken", "vegetarian chicken", "vegan pepperoni", "vegetarian pepperoni",
-                       "vegan chorizo", "vegetarian chorizo", "soy chorizo", "vegan ham", "vegan beef"]
+                       "vegan chorizo", "vegetarian chorizo", "soy chorizo", "vegan ham", "vegan beef"
+                       ] + not_product_names("contains_meat")
 # Used for contains_meat (land meat only): a fish steak is not meat
 LAND_MEAT_EXCEPTIONS = MEAT_EXCEPTIONS + ["tuna steak", "salmon steak", "fish steak", "swordfish steak",
                                           "halibut steak", "cod steak"]
