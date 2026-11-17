@@ -49,7 +49,7 @@ from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page co
 from updates import UPDATES  # app/updates.py: the What's new notes
 
 from everflavor import __version__, saved_recipes, waiter
-from everflavor.confidence import CONFIDENCE, Confidence
+from everflavor.confidence import CONFIDENCE, Confidence, ProfileResponse
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
@@ -77,9 +77,11 @@ from everflavor.recommend import (
     within_calories,
 )
 from everflavor.restrictions import (
+    ALCOHOL_CHOICES,
     CATEGORIES,
     RULES,
     SEVERITIES,
+    AlcoholSetting,
     assess,
     profile_for,
     rule_ids_from_profile,
@@ -1596,6 +1598,22 @@ with st.sidebar:
     diets = st.multiselect("I follow", options=sorted(DIET_PROFILES), format_func=nice_diet, key="diets")
     vegetarian = st.checkbox("Vegetarian", key="vegetarian")
     vegan = st.checkbox("Vegan", key="vegan")
+    # Alcohol: one setting whatever the reason (faith, recovery, pregnancy, medicine); the reason only changes the
+    # words. Halal-friendly, or alcohol on the allergy list, sets it to strict (everflavor.restrictions.AlcoholSetting)
+    fixed_strict = "halal_friendly" in diets or "contains_alcohol" in avoid
+    if fixed_strict:
+        st.session_state["alcohol-level"] = ProfileResponse.STRICT.value
+    alcohol_level = ProfileResponse(st.selectbox(
+        "Alcohol", [r.value for r in ALCOHOL_CHOICES], format_func=lambda v: ALCOHOL_CHOICES[ProfileResponse(v)],
+        key="alcohol-level", disabled=fixed_strict,
+        help="Strictly avoid hides recipes with alcohol. Avoid when possible and Warn me only point it out."))
+    if fixed_strict:
+        st.caption("Set to Strictly avoid by halal-friendly or your allergy list.")
+    cooked_ok = alcohol_level in (ProfileResponse.AVOID, ProfileResponse.WARN) and st.checkbox(
+        "Alcohol cooked into a hot dish is OK", key="alcohol-cooked")
+    extracts = alcohol_level is ProfileResponse.IGNORE or st.checkbox(
+        "Count flavour extracts too (vanilla extract...)", value=True, key="alcohol-extracts")
+    alcohol_setting = AlcoholSetting(alcohol_level, cooked_ok, extracts)
     calories = st.slider("Calories per meal", min_value=200, max_value=1500, step=50, key="calories")
     with st.expander("More of my profile: medical, cooking, sensitivities, goals"):
         # The profile in levels (everflavor.restrictions): medical screens block like allergies; how it's cooked
@@ -1618,7 +1636,9 @@ with st.sidebar:
 
 rule_ids = rule_ids_from_profile(avoid, diets, vegetarian, vegan) + extra_rules   # the whole profile, in levels
 blocking = profile_for(extra_rules)   # the medical screens chosen above join the safety gate's profile
-profile = UserProfile(avoid=tuple(dict.fromkeys([*avoid, *blocking.avoid])),
+strict_alcohol = (["contains_alcohol"] + (["contains_alcohol_extract"] if extracts else [])
+                  if alcohol_level is ProfileResponse.STRICT else [])   # strict alcohol hides recipes, like an allergy
+profile = UserProfile(avoid=tuple(dict.fromkeys([*avoid, *blocking.avoid, *strict_alcohol])),
                       diets=tuple(dict.fromkeys([*diets, *blocking.diets])), vegetarian=vegetarian,
                       vegan=vegan, calories_per_meal=calories, skip=clean_names(skip))
 # The chef's welcome: hello in the kitchen's own language, then one tip, dish fact or chef's quote, the same one
@@ -1827,7 +1847,8 @@ with check_tab:
             # The profile level by level (everflavor.restrictions): the gate's answer sorted by category and
             # severity, plus cautions, the cooking methods read from the steps, and what could not be checked
             levels = assess(ingredients, dish_name, rule_ids, skip=clean_names(skip),
-                            instructions="\n".join(read["ignored"]) or None)
+                            instructions="\n".join(read["ignored"]) or None, alcohol=alcohol_setting,
+                            responses={"no_alcohol": ProfileResponse.STRICT} if fixed_strict else None)
             loading.empty()
             with st.container(key="verdict"):
                 problems = report["problems"]

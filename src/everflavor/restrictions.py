@@ -22,7 +22,14 @@ from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass, replace
 from typing import Any
 
-from .confidence import Confidence, gate_confidence, may_contain_in, severity_for
+from .confidence import (
+    ALWAYS_STRICT,
+    Confidence,
+    ProfileResponse,
+    gate_confidence,
+    may_contain_in,
+    severity_for,
+)
 from .cooking import methods_from_instructions
 from .diets import NUTRITION_DIETS
 from .flags import FLAG_RULES
@@ -30,7 +37,7 @@ from .preparation import PREP_RISKS, prep_risks, step_sentences
 from .recipe_check import opaque_word
 from .safety import UserProfile, check_recipe
 
-__all__ = ["CATEGORIES", "RULES", "SEVERITIES", "Rule", "assess", "profile_for", "rule_ids_from_profile", "rules_in"]
+__all__ = ["ALCOHOL_CHOICES", "CATEGORIES", "RULES", "SEVERITIES", "AlcoholSetting", "Rule", "assess", "profile_for", "rule_ids_from_profile", "rules_in"]
 
 # severity -> (the pixel sign the app shows, design/pixel-art sign_<severity>.png; its words). Never emoji.
 SEVERITIES = {"critical": ("stop sign", "Unsafe for you"), "major": ("warning diamond", "Doesn't match your profile"),
@@ -47,6 +54,20 @@ CATEGORIES = {  # category -> (label, severity), in the order the profile shows 
     "sensitivities": ("Sensitivities", "moderate"),
     "goals": ("Goals", "moderate"),
 }
+
+
+@dataclass(frozen=True)
+class AlcoholSetting:
+    """How the person treats alcohol. The reason (faith, recovery, pregnancy, medicine) only changes the wording;
+    the setting is the same. Halal-friendly sets it to strict in the app. Cooked-in alcohol can only be OK when the
+    level is not strict (a recorded policy, proposed by Claude for Team EverGlow's review, 2026-11-16)."""
+    response: ProfileResponse = ProfileResponse.IGNORE
+    cooked_ok: bool = False      # alcohol cooked into a heated dish is fine (only below strict)
+    extracts: bool = True        # count flavour extracts (vanilla extract...) too
+
+
+ALCOHOL_CHOICES = {ProfileResponse.IGNORE: "No restriction", ProfileResponse.WARN: "Warn me",
+                   ProfileResponse.AVOID: "Avoid when possible", ProfileResponse.STRICT: "Strictly avoid"}
 
 
 @dataclass(frozen=True)
@@ -182,8 +203,11 @@ def rules_in(category: str) -> list[str]:
     return [rid for rid, rule in RULES.items() if rule.category == category]
 
 
-def profile_for(rule_ids: Iterable[str], skip: Sequence[str] = (), calories: float | None = None) -> UserProfile:
-    """The safety gate's profile for the blocking rules (critical and major); cautions and goals stay out of it."""
+def profile_for(rule_ids: Iterable[str], skip: Sequence[str] = (), calories: float | None = None,
+                drop: Iterable[str] = ()) -> UserProfile:
+    """The safety gate's profile for the blocking rules (critical and major); cautions and goals stay out of it.
+    `drop` leaves flags out (alcohol extracts, when the person said not to count them)."""
+    dropped = set(drop)
     avoid: list[str] = []
     diets: list[str] = []
     vegetarian = vegan = False
@@ -192,7 +216,7 @@ def profile_for(rule_ids: Iterable[str], skip: Sequence[str] = (), calories: flo
         if rule.level not in ("critical", "major"):
             continue
         if rule.kind == "flag":
-            avoid += [f for f in rule.targets if f not in avoid]
+            avoid += [f for f in rule.targets if f not in avoid and f not in dropped]
         elif rule.kind == "diet":
             diets += [d for d in rule.targets if d not in diets]
         vegetarian |= rule.kind == "vegetarian"
@@ -214,7 +238,9 @@ def _rules_for_problem(problem: Mapping[str, Any], chosen: Sequence[str]) -> lis
 
 
 def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Sequence[str] = (),
-           instructions: object = None, nutrition: Mapping[str, Any] | None = None) -> dict[str, Any]:
+           instructions: object = None, nutrition: Mapping[str, Any] | None = None,
+           responses: Mapping[str, ProfileResponse] | None = None,
+           alcohol: AlcoholSetting | None = None) -> dict[str, Any]:
     """Check a recipe against the whole profile, level by level.
 
     Args:
@@ -224,6 +250,9 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
         skip: Foods the user doesn't eat (info only).
         instructions: The steps, for "How it's cooked" (not checked without them).
         nutrition: Per-serving values (sodium_mg, carbs_g, protein_g) for goals (not checked without them).
+        responses: The person's answer per rule (strict when not given; allergies and medical always strict): only
+            strict rules reach the safety gate; avoid and warn become cautions (confidence.severity_for).
+        alcohol: The alcohol setting (level, cooked-in OK, extracts counted); it adds or answers "no_alcohol".
 
     Every finding also carries `items`, one per line, each with its confidence (everflavor.confidence): the gate's
     own matches keep their rule's severity and are labelled verified, likely or possible; a food from the
@@ -238,9 +267,21 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
         lines]}.
     """
     chosen = [r for r in dict.fromkeys(rule_ids) if r in RULES]
+    answers = dict(responses or {})
+    drop: set[str] = set()
+    if alcohol is not None and alcohol.response is not ProfileResponse.IGNORE:
+        chosen += [] if "no_alcohol" in chosen else ["no_alcohol"]
+        answers.setdefault("no_alcohol", alcohol.response)
+        drop |= set() if alcohol.extracts else {"contains_alcohol_extract"}
+
+    def answer(rid: str) -> ProfileResponse:
+        return ProfileResponse.STRICT if RULES[rid].category in ALWAYS_STRICT else \
+            ProfileResponse(answers.get(rid, ProfileResponse.STRICT))
+
+    chosen = [r for r in chosen if answer(r) is not ProfileResponse.IGNORE]
     findings: list[dict[str, Any]] = []
     not_checked: list[str] = []
-    profile = profile_for(chosen, skip)
+    profile = profile_for([r for r in chosen if answer(r) is ProfileResponse.STRICT], skip, drop=drop)
     gate = check_recipe(lines, name, profile)   # the gate decides the blocking rules
     for problem in gate["problems"]:
         conf, note, source = gate_confidence(str(problem["line"]), problem["flag"], problem["matched"])
@@ -249,14 +290,18 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
             _add(findings, "pet_meat", problem["line"], problem["matched"], conf, note, source, "critical")
         for rid in owners:
             _add(findings, rid, problem["line"], problem["matched"], conf, note, source)
-    cautions = [r for r in chosen if RULES[r].kind == "flag" and RULES[r].level == "moderate"]
-    caution_flags = tuple(dict.fromkeys(f for r in cautions for f in RULES[r].targets))
-    if cautions:   # sensitivities and moderate screens: the same reading of the names, shown as cautions
+    # sensitivities, moderate screens and rules the person answered "avoid when possible" or "warn me": the same
+    # reading of the names, shown as cautions that never block
+    cautions = [r for r in chosen if RULES[r].kind == "flag"
+                and (RULES[r].level == "moderate" or answer(r) is not ProfileResponse.STRICT)]
+    caution_flags = tuple(dict.fromkeys(f for r in cautions for f in RULES[r].targets if f not in drop))
+    if cautions:
         for problem in check_recipe(lines, name, UserProfile(avoid=caution_flags))["problems"]:
             conf, note, source = gate_confidence(str(problem["line"]), problem["flag"], problem["matched"])
             for rid in cautions:
                 if problem["rule"] in RULES[rid].targets:
-                    _add(findings, rid, problem["line"], problem["matched"], conf, note, source)
+                    _add(findings, rid, problem["line"], problem["matched"], conf, note, source,
+                         severity_for(RULES[rid].level, conf, answer(rid), RULES[rid].category, from_gate=True))
     named = [*lines, *([f"(dish name) {name}"] if str(name or "").strip() else [])]
     for line in named:   # foods usually or sometimes made with something the profile watches
         for row in may_contain_in(line):
@@ -266,7 +311,7 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
             for problem, owners in hits:
                 for rid in owners:
                     if problem["flag"] in row.flags and not _has(findings, rid, line):
-                        level = severity_for(RULES[rid].level, row.confidence, category=RULES[rid].category)
+                        level = severity_for(RULES[rid].level, row.confidence, answer(rid), RULES[rid].category)
                         _add(findings, rid, line, [f"{row.item} ({', '.join(row.contains)})"], row.confidence,
                              row.note, row.source, level)
     if chosen:   # a ready-made product nothing above explains: its contents are unknown
@@ -286,6 +331,13 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
                          severity_for(RULES[rid].level, Confidence.POSSIBLE, category=RULES[rid].category),
                          kind="preparation")
     methods = set(methods_from_instructions(instructions)) if instructions else set()
+    if alcohol is not None and alcohol.cooked_ok and answer("no_alcohol") is not ProfileResponse.STRICT \
+            and methods - {"no_cook"}:   # cooked into a heated dish, which the person said is fine: good to know
+        for found in findings:
+            if found["rule"] == "no_alcohol":
+                for item in found["items"]:
+                    item["severity"], item["note"] = "info", (item["note"] + "; cooked in, which you said is OK")
+                found["severity"] = "info"
     risks = prep_risks("\n".join([str(name or ""), *lines, str(instructions or "")]))
     for rid in chosen:
         rule = RULES[rid]
