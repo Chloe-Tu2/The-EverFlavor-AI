@@ -19,13 +19,14 @@ from __future__ import annotations
 
 import math
 from collections.abc import Iterable, Mapping, Sequence
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from typing import Any
 
 from .confidence import Confidence, gate_confidence, may_contain_in, severity_for
 from .cooking import methods_from_instructions
 from .diets import NUTRITION_DIETS
 from .flags import FLAG_RULES
+from .preparation import PREP_RISKS, prep_risks, step_sentences
 from .recipe_check import opaque_word
 from .safety import UserProfile, check_recipe
 
@@ -52,10 +53,11 @@ CATEGORIES = {  # category -> (label, severity), in the order the profile shows 
 class Rule:
     category: str
     label: str
-    kind: str                     # flag, diet, vegetarian, vegan, method, nutrient
+    kind: str                     # flag, diet, vegetarian, vegan, method, prep, nutrient
     targets: tuple[str, ...] = ()
     severity: str = ""            # empty: the category's own
     note: str = ""                # what is checked, shown with the rule
+    prep: tuple[str, ...] = ()    # preparation risks a flag or diet rule also checks (pregnancy: undercooked)
 
     @property
     def level(self) -> str:
@@ -129,6 +131,10 @@ RULES: dict[str, Rule] = {
     "no_grilled": Rule("preparation", "No grilled or charred food", "method", ("grill_broil",)),
     "no_smoked": Rule("preparation", "No smoked food", "method", ("smoke",)),
     "no_uncooked": Rule("preparation", "No uncooked dishes", "method", ("no_cook",)),
+    # How it's made (everflavor.preparation): read from the name, the lines and the steps
+    "no_undercooked": Rule("preparation", "No raw or undercooked food", "prep", ("undercooked",), "",
+                           "medium-rare, runny yolks, sushi, tartare, ceviche..."),
+    "no_fermented": Rule("preparation", "No fermented food", "prep", ("fermented",), "moderate"),
     # Sensitivities: cautions, never blocks
     "lactose": _flag("sensitivities", "Lactose", "contains_dairy", note="some aged cheeses have little lactose"),
     "caffeine": _flag("sensitivities", "Caffeine", "contains_coffee_or_tea"),
@@ -144,6 +150,9 @@ RULES: dict[str, Rule] = {
 
 
 RULES["nightshade_free"] = _diet("cultural", "Nightshade-free", "nightshade_free")
+# Pregnancy also screens how the dish is made: raw or undercooked animal food named in the name, lines or steps
+RULES["pregnancy"] = replace(RULES["pregnancy"], prep=("undercooked",),
+                             note=RULES["pregnancy"].note + ", raw or undercooked dishes")
 # Every other flag the profile can pick is a personal or cultural rule ("No beef", "No carmine" is the insect dye)
 _COVERED = {t for r in RULES.values() if r.kind == "flag" for t in r.targets} | {"contains_pet_meat"}
 for _name in sorted(set(FLAG_RULES) - _COVERED):
@@ -267,14 +276,33 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
             if word and line not in explained:
                 _add(findings, "label_check", line, [word], Confidence.UNKNOWN,
                      f"a {word} whose ingredients the name does not show", "", "moderate")
+    if instructions:   # foods the steps bring in that the lines don't show (beer for the batter, wine to deglaze)
+        for problem in check_recipe(step_sentences(instructions), "", profile)["problems"]:
+            for rid in _rules_for_problem(problem, chosen):
+                words = set(problem["matched"] if isinstance(problem["matched"], list) else [problem["matched"]])
+                if not any(set(i["why"]) & words for f in findings if f["rule"] == rid for i in f["items"]):
+                    _add(findings, rid, problem["line"], problem["matched"], Confidence.POSSIBLE,
+                         "the steps mention it: check whether it goes into the dish", "",
+                         severity_for(RULES[rid].level, Confidence.POSSIBLE, category=RULES[rid].category),
+                         kind="preparation")
     methods = set(methods_from_instructions(instructions)) if instructions else set()
+    risks = prep_risks("\n".join([str(name or ""), *lines, str(instructions or "")]))
     for rid in chosen:
         rule = RULES[rid]
+        targets = rule.targets if rule.kind == "prep" else rule.prep
+        for risk in targets:   # raw or undercooked, fermented: named in the dish name, a line or the steps
+            if risk in risks:
+                _add(findings, rid, f"(how it's made) {PREP_RISKS[risk][0]}", risks[risk],
+                     note="the recipe says " + ", ".join(risks[risk]), kind="preparation")
+            elif rule.kind == "prep" and not instructions:
+                not_checked.append(f"{rule.label} (no steps to read)")
         if rule.kind == "method":
             if not instructions:
                 not_checked.append(f"{rule.label} (no steps to read)")
             elif methods & set(rule.targets):
-                _add(findings, rid, "the steps", sorted(methods & set(rule.targets)))
+                used = [m.replace("_", " ") for m in sorted(methods & set(rule.targets))]
+                _add(findings, rid, "(how it's made) " + ", ".join(used), used,
+                     note="the steps say so", kind="preparation")
         elif rule.kind in ("nutrient", "nutrient_min"):
             column, limit = rule.targets[0], float(rule.targets[1])
             value = _number((nutrition or {}).get(column))
@@ -291,18 +319,22 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
     worst = min((_ORDER.index(f["severity"]) for f in findings), default=None)
     by_confidence = _by_confidence(findings)
     said = {row["line"] for rows in by_confidence.values() for row in rows}
+    preparation = [row for rows in _by_confidence(findings, "preparation").values() for row in rows]
     return {"findings": findings, "ok": ok, "not_checked": not_checked,
             "overall": _ORDER[worst] if worst is not None else "clear",
-            "by_confidence": by_confidence, "no_issue": [line for line in lines if line not in said]}
+            "by_confidence": by_confidence, "preparation": preparation,
+            "no_issue": [line for line in lines if line not in said]}
 
 
-def _by_confidence(findings: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+def _by_confidence(findings: list[dict[str, Any]], kind: str = "ingredient") -> dict[str, list[dict[str, Any]]]:
     """The findings' lines grouped by how sure they are: each line once, under its most certain match, with every
     rule it touches."""
     order = list(Confidence)
     lines: dict[str, dict[str, Any]] = {}
     for found in findings:
         for item in found["items"]:
+            if item["kind"] != kind:
+                continue
             row = lines.setdefault(str(item["line"]), {"line": str(item["line"]), "rules": [], "notes": [],
                                                        "sources": [], "severity": item["severity"],
                                                        "confidence": item["confidence"]})
@@ -336,13 +368,13 @@ def _has(findings: list[dict[str, Any]], rid: str, line: str) -> bool:
 
 def _add(findings: list[dict[str, Any]], rid: str, line: object, why: object,
          confidence: Confidence = Confidence.VERIFIED, note: str = "", source: str = "",
-         severity: str | None = None) -> None:
+         severity: str | None = None, kind: str = "ingredient") -> None:
     """Add one line to a rule's finding (one finding per rule; its severity is the worst of its lines)."""
     label, category = _SPECIAL[rid] if rid in _SPECIAL else (RULES[rid].label, RULES[rid].category)
     level = severity or RULES[rid].level
     words = why if isinstance(why, list) else [why]
     item = {"line": line, "why": words, "confidence": confidence.value, "note": note, "source": source,
-            "severity": level}
+            "severity": level, "kind": kind}
     for found in findings:
         if found["rule"] == rid:
             found["lines"].append(line)

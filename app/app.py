@@ -1221,6 +1221,11 @@ def where_found(line_: str) -> str:
     """'3 tbsp satay sauce' -> '**3 tbsp satay sauce**'; '(dish name) Thai peanut bowl' -> 'The dish's name, ...'."""
     if line_.startswith("(dish name) "):
         return f"The dish's name, **{plain(line_.removeprefix('(dish name) '))}**,"
+    if line_.startswith("(steps) "):
+        return f"The steps, \"{plain(line_.removeprefix('(steps) '))}\","
+    if line_.startswith("(how it's made) "):
+        what = line_.removeprefix("(how it's made) ").capitalize()
+        return f"**{plain(what)}**:"
     return f"**{plain(line_)}**"
 
 
@@ -1892,6 +1897,11 @@ with check_tab:
                 if found_rows:   # user text goes through plain() (every HTML sign escaped), so only the signs are HTML
                     st.markdown("**What we found, and how sure we are**\n\n" + "\n".join(found_rows),
                                 unsafe_allow_html=True)
+                if levels["preparation"]:   # how the dish is made: cooking methods, raw or fermented, what the steps add
+                    st.markdown("**How it's made**\n\n" + "\n".join(
+                        f"- {sign(row['severity'])} {where_found(row['line'])} {', '.join(row['rules'])}: "
+                        + "; ".join(plain(n) for n in row["notes"] if n) + "." for row in levels["preparation"]),
+                        unsafe_allow_html=True)
                 if levels["no_issue"] and rule_ids:
                     st.markdown(f"{sign('clear')} **No issue found** against your profile: "
                                 + ", ".join(plain(line) for line in levels["no_issue"]) + ".", unsafe_allow_html=True)
