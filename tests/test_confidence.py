@@ -40,6 +40,8 @@ def test_severity_and_confidence_are_separate() -> None:
     assert severity_for("major", Confidence.VERIFIED, ProfileResponse.AVOID) == "moderate"
     assert severity_for("major", Confidence.VERIFIED, ProfileResponse.WARN) == "info"
     assert severity_for("major", Confidence.VERIFIED, ProfileResponse.IGNORE) is None
+    assert severity_for("critical", Confidence.POSSIBLE, category="allergies") == "critical"   # safety first
+    assert severity_for("critical", Confidence.UNKNOWN, category="allergies") == "moderate"    # a label to check
     # nobody gets "warn me" for an allergy
     assert severity_for("critical", Confidence.VERIFIED, ProfileResponse.WARN, category="allergies") == "critical"
 

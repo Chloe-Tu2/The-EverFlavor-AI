@@ -65,7 +65,8 @@ def severity_for(base: str, confidence: Confidence, response: ProfileResponse = 
     """The severity of one match: the rule's own level (`base`), how sure the match is, and the person's answer.
 
     - STRICT: verified and likely keep the rule's level; possible and unknown are a look (moderate), unless the
-      safety gate itself matched it, which always keeps the rule's level.
+      safety gate itself matched it, which always keeps the rule's level. For allergies and medical screens a
+      possible match keeps the rule's level too (a possible peanut is still unsafe for a peanut allergy).
     - AVOID: one step lighter (major -> moderate). WARN: good to know (info). IGNORE: no finding (None).
     - Allergies and medical screens are always STRICT, whatever `response` says.
     """
@@ -75,8 +76,8 @@ def severity_for(base: str, confidence: Confidence, response: ProfileResponse = 
         return None
     if response is ProfileResponse.WARN:
         return "info"
-    level = base if from_gate or confidence in (Confidence.VERIFIED, Confidence.LIKELY) else \
-        ("info" if base == "info" else "moderate")
+    sure_enough = (Confidence.VERIFIED, Confidence.LIKELY) + ((Confidence.POSSIBLE,) if category in ALWAYS_STRICT else ())
+    level = base if from_gate or confidence in sure_enough else ("info" if base == "info" else "moderate")
     return _DOWN[level] if response is ProfileResponse.AVOID else level
 
 

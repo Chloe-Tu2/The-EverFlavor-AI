@@ -52,13 +52,18 @@ def prep_risks(text: object) -> dict[str, list[str]]:
     return found
 
 
+# Cooking words that look like a food when read alone: "poke holes in the cake" is not the raw-fish dish
+# (read and shown as "pierce", the same meaning)
+_COOKING_TALK = re.compile(r"\bpok(?:e|es|ed|ing)\b(?! bowls?)", re.IGNORECASE)
+
+
 def step_sentences(text: object, limit: int = 80) -> list[str]:
     """The steps as short sentences, each marked "(steps)", for the safety gate to read like ingredient lines."""
     if not isinstance(text, str):
         return []
     out = []
     for sentence in re.split(r"(?<=[.!?;\n])\s*", text):
-        sentence = sentence.strip()
+        sentence = _COOKING_TALK.sub("pierce", sentence).strip()
         if len(sentence) > 3:
             out.append("(steps) " + (sentence if len(sentence) <= limit else sentence[:limit - 1] + "…"))
     return out

@@ -321,11 +321,20 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
             if word and line not in explained:
                 _add(findings, "label_check", line, [word], Confidence.UNKNOWN,
                      f"a {word} whose ingredients the name does not show", "", "moderate")
+    listed_nuts = bool(instructions) and bool(check_recipe(
+        lines, "", UserProfile(avoid=("contains_tree_nut", "contains_peanut")))["problems"])
     if instructions:   # foods the steps bring in that the lines don't show (beer for the batter, wine to deglaze)
         for problem in check_recipe(step_sentences(instructions), "", profile)["problems"]:
             for rid in _rules_for_problem(problem, chosen):
-                words = set(problem["matched"] if isinstance(problem["matched"], list) else [problem["matched"]])
-                if not any(set(i["why"]) & words for f in findings if f["rule"] == rid for i in f["items"]):
+                words = [str(w).lower() for w in (problem["matched"] if isinstance(problem["matched"], list)
+                                                  else [problem["matched"]])]
+                # a word the lines already show is the same food ("vanilla" is the "vanilla extract" listed, "the
+                # nuts" are the walnuts): only what the lines don't show at all is new
+                seen = " ".join([*(str(line).lower() for line in lines), *(str(w).lower() for f in findings
+                                 if f["rule"] == rid for i in f["items"] for w in i["why"])])
+                if words and all(w.rstrip("s") in _GENERIC_NUTS for w in words) and listed_nuts:
+                    continue   # "stir in the nuts" when the lines list walnuts: the same nuts
+                if not any(w in seen or w.rstrip("s") in seen for w in words):
                     _add(findings, rid, problem["line"], problem["matched"], Confidence.POSSIBLE,
                          "the steps mention it: check whether it goes into the dish", "",
                          severity_for(RULES[rid].level, Confidence.POSSIBLE, category=RULES[rid].category),
@@ -409,6 +418,9 @@ def _number(value: object) -> float | None:
         return None
     return None if math.isnan(number) else number
 
+
+# "nuts" said alone in the steps: the nuts the lines list, when they list any (otherwise a nut nobody listed)
+_GENERIC_NUTS = {"nut", "mixed nut", "chopped nut"}
 
 # findings that belong to no rule of the profile: pet meat (P24, always checked) and a product to check the label of
 _SPECIAL = {"pet_meat": ("Never served", "cultural"), "label_check": ("Check the label", "unknown")}

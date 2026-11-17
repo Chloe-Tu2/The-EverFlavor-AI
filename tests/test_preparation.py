@@ -41,6 +41,14 @@ def test_the_steps_bring_in_alcohol_the_lines_do_not_show() -> None:
     assert all(r["severity"] == "moderate" for r in prep if "beer" in r["line"])
 
 
+def test_the_steps_only_add_what_the_lines_do_not_show() -> None:
+    ids = rule_ids_from_profile(["contains_peanut"])
+    assert assess(["walnut", "flour"], "Cake", ids, instructions="Stir in nuts and bake.")["overall"] == "clear"
+    # nuts nobody listed: possible, and still unsafe for a peanut allergy
+    assert assess(["banana", "flour"], "Cake", ids, instructions="Add nuts and bake.")["overall"] == "critical"
+    assert step_sentences("Poke holes all over the cake.") == ["(steps) pierce holes all over the cake."]
+
+
 def test_preparation_rules_are_their_own_choice() -> None:
     got = assess(["kimchi"], "x", ["no_fermented"], instructions="Ferment the cabbage for a week.")
     assert [r["severity"] for r in got["preparation"]] == ["moderate"]
