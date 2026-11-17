@@ -17,6 +17,7 @@ color themes are in app/themes.py. Settings (top right of the page) switch the t
 import ast
 import base64
 import html
+import json
 import random
 import re
 import sys
@@ -1252,9 +1253,15 @@ def where_found(line_: str) -> str:
 def usda_data() -> tuple[pd.DataFrame, dict] | None:
     """Notebook 01's USDA table and household weights, for the pasted recipe's estimate (None when not here)."""
     table, folder = DATA / "usda_ingredient_nutrition.csv", ROOT / "data" / "raw" / "usda_fdc"
-    if not table.exists() or not any(folder.glob("*sr_legacy*")):
+    saved = DATA / "usda_portions.json"   # the demo data's copy of the household weights (scripts/demo_extras.py)
+    if not table.exists():
         return None
-    return pd.read_csv(table), usda_portions(folder)
+    if any(folder.glob("*sr_legacy*")):
+        return pd.read_csv(table), usda_portions(folder)
+    if saved.exists():
+        weights = json.loads(saved.read_text(encoding="utf-8"))
+        return pd.read_csv(table), {int(fdc): dict(units) for fdc, units in weights.items()}
+    return None
 
 
 def pasted_nutrition(lines: list[str], servings: int) -> dict | None:
