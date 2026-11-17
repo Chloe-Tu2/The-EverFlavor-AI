@@ -5,10 +5,10 @@ this module only sorts its answer by category and severity and adds the checks t
 
 | Severity | Shown as | Categories |
 |---|---|---|
-| critical | 🔴 Unsafe for you | allergies, medical screens |
-| major | 🟠 Doesn't match your profile | religious practice, ethical diets, personal and cultural rules, how it's cooked |
-| moderate | 🟡 Doesn't suit your sensitivities or goals | sensitivities, goals |
-| info | 🔵 Good to know | foods you don't eat |
+| critical | stop sign: Unsafe for you | allergies, medical screens |
+| major | warning diamond: Doesn't match your profile | religious practice, ethical diets, personal and cultural rules, how it's cooked |
+| moderate | caution triangle: Doesn't suit your sensitivities or goals | sensitivities, goals |
+| info | information circle: Good to know | foods you don't eat |
 
 Medical entries are ingredient screens and nutrition limits, never advice: each says what it checks. A condition
 is only offered when its check rests on a list or a limit the project already uses (diets.py, flags.py); GERD,
@@ -31,8 +31,10 @@ from .safety import UserProfile, check_recipe
 
 __all__ = ["CATEGORIES", "RULES", "SEVERITIES", "Rule", "assess", "profile_for", "rule_ids_from_profile", "rules_in"]
 
-SEVERITIES = {"critical": ("🔴", "Unsafe for you"), "major": ("🟠", "Doesn't match your profile"),
-              "moderate": ("🟡", "Doesn't suit your sensitivities or goals"), "info": ("🔵", "Good to know")}
+# severity -> (the pixel sign the app shows, design/pixel-art sign_<severity>.png; its words). Never emoji.
+SEVERITIES = {"critical": ("stop sign", "Unsafe for you"), "major": ("warning diamond", "Doesn't match your profile"),
+              "moderate": ("caution triangle", "Doesn't suit your sensitivities or goals"),
+              "info": ("information circle", "Good to know")}
 _ORDER = list(SEVERITIES)
 CATEGORIES = {  # category -> (label, severity), in the order the profile shows them
     "allergies": ("Allergies", "critical"),

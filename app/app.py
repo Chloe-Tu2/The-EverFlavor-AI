@@ -425,6 +425,7 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   border: 2px solid var(--border); padding: var(--space-1) var(--space-3); margin: var(--space-1) 0 var(--space-3);
   font-size: var(--fs-1); line-height: 1.35; }}
 .badge .ico {{ width: 24px; height: 24px; flex: none; }}
+img.sign {{ width: 24px; height: 24px; image-rendering: pixelated; vertical-align: middle; margin-right: 0.25rem; }}
 .badge-warn {{ border-style: dashed; }}
 .dish-story {{ margin: 0 0 var(--space-2); font-size: var(--fs-1); line-height: 1.45; }}
 .dish-story a {{ font-size: 0.8em; white-space: nowrap; }}
@@ -845,6 +846,13 @@ def badge(place, icon: str, text: str, kind: str = "safe") -> None:
     """A small pixel badge: an icon and the back end's words (never the icon alone: the words carry the meaning)."""
     place.markdown(f'<div class="badge badge-{kind}"><span class="ico" style="background-image: url({art(icon)})">'
                    f'</span><span>{html.escape(text)}</span></div>', unsafe_allow_html=True)
+
+
+def sign(severity: str) -> str:
+    """A severity's pixel sign (stop sign, warning diamond, caution triangle, information circle, green circle),
+    inline in Markdown shown with unsafe_allow_html; its words go in alt and title, and always next to it."""
+    words = SEVERITIES[severity][1] if severity in SEVERITIES else "No issue found"
+    return f'<img class="sign" src="{art("sign_" + severity)}" alt="{html.escape(words)}" title="{html.escape(words)}">'
 
 
 def rule_label(rule_id: str) -> str:
@@ -1590,8 +1598,9 @@ with st.sidebar:
         extra_rules: list[str] = []
         for category in ("medical", "preparation", "sensitivities", "goals"):
             label, severity = CATEGORIES[category]
-            extra_rules += st.multiselect(f"{SEVERITIES[severity][0]} {label}", rules_in(category),
-                                          format_func=rule_label, key=f"rules-{category}")
+            st.markdown(f"{sign(severity)} {label}", unsafe_allow_html=True)
+            extra_rules += st.multiselect(label, rules_in(category), format_func=rule_label,
+                                          key=f"rules-{category}", label_visibility="collapsed")
         st.caption("Medical screens read ingredient names and nutrition per serving. They are not medical advice: "
                    "ask your doctor or dietitian.")
     st.divider()
@@ -1821,16 +1830,16 @@ with check_tab:
                 if worst in ("critical", "major") or level["level"] == "conflict":
                     worst = "critical" if worst == "critical" or level["level"] == "conflict" and worst != "major" \
                         else "major"
-                    sign, words = SEVERITIES[worst]
+                    words = SEVERITIES[worst][1]
                     chef_says(chef, "alert", f"Watch out! {dish_name}: {words.lower()}.", "alert")
-                    badge(st, "icon_alert", f"{sign} {words}.", "warn")
+                    badge(st, f"sign_{worst}", f"{words}.", "warn")
                 elif worst == "moderate" or level["level"] == "review":
                     chef_says(chef, "thinking", f"{dish_name} breaks none of your rules, but have a look below.")
-                    badge(st, "icon_alert", "🟡 No rule broken, but some things need a look: a label to check, "
-                                            "a sensitivity or a goal.", "warn")
+                    badge(st, "sign_moderate", "No rule broken, but some things need a look: a label to check, "
+                                               "a sensitivity or a goal.", "warn")
                 else:
                     chef_says(chef, "happy", f"{dish_name} fits your profile. Happy cooking!", "safe")
-                    badge(st, "icon_safe", "🟢 No conflicts found in these ingredient names.")
+                    badge(st, "sign_clear", "No conflicts found in these ingredient names.")
                 read_col, rules_col = st.columns([3, 2])
                 with read_col:   # what was read, line by line, so the answer can be trusted
                     marks = {row["line"]: f"{CONFIDENCE[Confidence(conf)][0]} {CONFIDENCE[Confidence(conf)][1].lower()}"
@@ -1855,10 +1864,10 @@ with check_tab:
                         rule_rows = []
                         for rid in mine:
                             hit = found_by.get(rid)
-                            sign = SEVERITIES[RULES[rid].level][0]
-                            rule_rows.append(f"- {sign} {RULES[rid].label}: "
-                                        + ", ".join(plain(w) for w in hit["why"]) if hit else f"- ✓ {RULES[rid].label}")
-                        st.markdown(f"*{category_label}*\n" + "\n".join(rule_rows))
+                            rule_rows.append(f"- {sign(RULES[rid].level)} {RULES[rid].label}: "
+                                             + ", ".join(plain(w) for w in hit["why"]) if hit
+                                             else f"- {sign('clear')} {RULES[rid].label}")
+                        st.markdown(f"*{category_label}*\n" + "\n".join(rule_rows), unsafe_allow_html=True)
                     if levels["not_checked"]:
                         st.caption("Not checked: " + "; ".join(levels["not_checked"]) + ".")
                 # What we found, by how sure we are (everflavor.confidence): listed outright, usually or sometimes
@@ -1873,19 +1882,19 @@ with check_tab:
                         continue
                     found_rows.append(f"**{group_title}**")
                     for row in rows:
-                        sign = SEVERITIES[row["severity"]][0]
                         if conf is Confidence.VERIFIED and row["line"] in by_line:
                             said = "; ".join(rule_words(p["rule"]) + because(row["line"], p["matched"])
                                              for p in by_line[row["line"]])
                         else:
                             said = f"{', '.join(row['rules'])}: " + "; ".join(plain(n) for n in row["notes"])
                         links = " ".join(f"[source]({s})" for s in row["sources"])
-                        found_rows.append(f"- {sign} {where_found(row['line'])} {said}. {links}".rstrip())
-                if found_rows:
-                    st.markdown("**What we found, and how sure we are**\n\n" + "\n".join(found_rows))
+                        found_rows.append(f"- {sign(row['severity'])} {where_found(row['line'])} {said}. {links}".rstrip())
+                if found_rows:   # user text goes through plain() (every HTML sign escaped), so only the signs are HTML
+                    st.markdown("**What we found, and how sure we are**\n\n" + "\n".join(found_rows),
+                                unsafe_allow_html=True)
                 if levels["no_issue"] and rule_ids:
-                    st.markdown("**No issue found** against your profile: "
-                                + ", ".join(plain(line) for line in levels["no_issue"]) + ".")
+                    st.markdown(f"{sign('clear')} **No issue found** against your profile: "
+                                + ", ".join(plain(line) for line in levels["no_issue"]) + ".", unsafe_allow_html=True)
                 if problems and report["explained_by"] != "rules":   # the local AI's words, kept only when they match
                     st.markdown(plain(report["text"]))
                 skipped = report.get("skipped", [])
