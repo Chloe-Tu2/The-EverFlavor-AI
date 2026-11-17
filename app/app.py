@@ -1231,6 +1231,20 @@ def where_found(line_: str) -> str:
     return f"**{plain(line_)}**"
 
 
+def main_finding(levels: dict) -> str:
+    """Walter's one sentence on the check: the most serious finding, the surest first, in the back end's words
+    ("1 tbsp satay sauce (Peanuts): its main ingredient is ground roasted peanuts.")."""
+    order = [c.value for c in Confidence]
+    rows = [(row, conf) for conf, group in levels["by_confidence"].items() for row in group]
+    rows += [(row, "verified") for row in levels["preparation"]]
+    if not rows:
+        return ""
+    row, _ = min(rows, key=lambda pair: (list(SEVERITIES).index(pair[0]["severity"]), order.index(pair[1])))
+    what = re.sub(r"^\((dish name|steps|how it's made)\) ", "", row["line"])
+    note = next((n for n in row["notes"] if n), "")
+    return f"{what} ({', '.join(row['rules'])})" + (f": {note}." if note else ".")
+
+
 def rule_words(rule: str) -> str:
     """A rule the line breaks: 'contains_peanut' -> 'has peanut', 'vegan' -> 'is not vegan',
     'halal_friendly' -> 'is not halal-friendly'."""
@@ -1867,7 +1881,8 @@ with check_tab:
                     worst = "critical" if worst == "critical" or level["level"] == "conflict" and worst != "major" \
                         else "major"
                     words = SEVERITIES[worst][1]
-                    chef_says(chef, "alert", f"Watch out! {dish_name}: {words.lower()}.", "alert")
+                    chef_says(chef, "alert", f"Watch out! {dish_name}: {words.lower()}. {main_finding(levels)}",
+                              "alert")
                     badge(st, f"sign_{worst}", f"{words}.", "warn")
                 elif worst == "moderate" or level["level"] == "review":
                     chef_says(chef, "thinking", f"{dish_name} breaks none of your rules, but have a look below.")
