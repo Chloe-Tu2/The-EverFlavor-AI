@@ -851,6 +851,11 @@ def badge(place, icon: str, text: str, kind: str = "safe") -> None:
                    f'</span><span>{html.escape(text)}</span></div>', unsafe_allow_html=True)
 
 
+def pref_text(value: object) -> str:
+    """A kitchen setting as the page address keeps it: True/False as "1"/"0", anything else as its text."""
+    return ("1" if value else "0") if isinstance(value, bool) else str(value)
+
+
 def sign(severity: str) -> str:
     """A severity's pixel sign (stop sign, warning diamond, caution triangle, information circle, green circle),
     inline in Markdown shown with unsafe_allow_html; its words go in alt and title, and always next to it."""
@@ -1603,7 +1608,7 @@ else:
 st.html("<style>.st-key-" + STORE_KEY + "{display:none}</style>")
 # Keep the kitchen settings in the page address, so a refresh brings them back (no server keeps them)
 for name, value in PREFS.items():
-    st.query_params[name] = ("1" if value else "0") if isinstance(value, bool) else value
+    st.query_params[name] = pref_text(value)
 st.markdown('<div class="kitchen-view"></div>', unsafe_allow_html=True)   # leave the kitchen in view
 # The chef's line, filled in below once we know what happened: in the page on phones (the sidebar is hidden there),
 # and at the bottom of the sidebar on wider screens (added after the profile, below)
@@ -1710,7 +1715,7 @@ find_tab, check_tab, map_tab = st.tabs(["Find recipes", "Check my recipe", "Map:
 
 with find_tab:
     pool: pd.DataFrame = recipes
-    cuisine = "All"
+    cuisine: str | None = "All"
     if "origin_country" in recipes:
         # One search box (a dish, a country or a region, with suggestions as you type) and, for those who would
         # rather not type, Browse by region: every region with its countries, one tap to pick one
