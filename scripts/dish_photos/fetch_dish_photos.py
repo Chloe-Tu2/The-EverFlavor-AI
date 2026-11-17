@@ -23,6 +23,14 @@ and the Wikidata dish list (English labels and aliases of every subclass or inst
 cached at data/raw/dish_photos_cache/wikidata_dishes_en.json (the `dishes` stage rebuilds it, paced 65 s).
 Outputs: data/raw/dish_photos/<QID>.<ext> and manifest.csv (git-ignored), data/processed/dish_photos.parquet.
 Only free licenses are kept (CC0, public domain, CC BY, CC BY-SA, any version); every photo keeps its credit.
+
+    python -I scripts/dish_photos/fetch_dish_photos.py recredit [--apply]   # credits again from the caches
+
+`recredit` needs no network: it reads Commons' cached author fields again with today's `author_name` (the author's
+name, not a whole user box; no e-mail address) and, with --apply, writes the credits that change.
+
+Requests, waits and file writes go through scripts/fetch_tools.py: a busy answer waits as long as the server
+asks, a dead link is not asked again, and caches, photos and tables are written whole or not at all.
 """
 from __future__ import annotations
 
@@ -40,6 +48,8 @@ import pandas as pd
 import requests
 
 sys.path.insert(0, "src")
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # scripts/, for the shared fetch helpers
+import fetch_tools as ft
 
 UA = ("EverFlavorAI-capstone-dish-photos/0.1 (ITAI 2277 student project; https://github.com/med27-coder; "
       "paced, one thumbnail per dish)")
@@ -96,9 +106,7 @@ def load_json(path: Path) -> dict:
         return json.load(f)
 
 
-def save_json(obj: object, path: Path) -> None:
-    with open(path, "w", encoding="utf8") as f:
-        json.dump(obj, f, ensure_ascii=False)
+save_json = ft.save_json   # whole or not at all: a run stopped while saving keeps the cached answers
 
 
 def key(s: str) -> str:
@@ -127,18 +135,9 @@ def session() -> requests.Session:
 
 
 def get_json(s: requests.Session, url: str, params: dict, pace: float = 1.0, tries: int = 5) -> dict:
-    for i in range(tries):
-        try:
-            r = s.get(url, params=params, timeout=60)
-            if r.status_code == 200:
-                time.sleep(pace)
-                return r.json()
-            print("  http", r.status_code, "retry", i, flush=True)
-            time.sleep(float(r.headers.get("Retry-After", 10 * (i + 1))))
-        except requests.RequestException as e:
-            print("  error", e, "retry", i, flush=True)
-            time.sleep(10 * (i + 1))
-    raise RuntimeError(f"failed: {url}")
+    """One API call, then `pace` seconds of rest. A busy answer is tried again after the wait the server asks
+    for (Retry-After); a 4xx answer that asking again cannot change stops at once (fetch_tools.request)."""
+    return ft.get_json(s, url, params, pace=pace, tries=tries)
 
 
 class Opts:
@@ -394,18 +393,8 @@ def stage_download() -> None:
         path = OUT / f"{r.dish_qid}.{ext_of(r.thumb_url, r.mime)}"
         if path.exists() and path.stat().st_size > 0:
             return "have"
-        s = s1 if i % 2 else s2
-        for t in range(5):
-            try:
-                resp = s.get(r.thumb_url, timeout=60)
-                if resp.status_code == 200:
-                    path.write_bytes(resp.content)
-                    time.sleep(1.0)
-                    return "got"
-                time.sleep(float(resp.headers.get("Retry-After", 15 * (t + 1))))
-            except requests.RequestException:
-                time.sleep(15 * (t + 1))
-        return "failed"
+        # saved whole or not at all, and only when the answer is a picture (never an error page as a .jpg)
+        return ft.download_image(s1 if i % 2 else s2, r.thumb_url, path)
     with ThreadPoolExecutor(max_workers=2) as ex:
         res = list(ex.map(fetch, enumerate(r for _, r in d.iterrows())))
     print(pd.Series(res).value_counts().to_dict())
@@ -432,6 +421,49 @@ HAND_DROP = {
     "Q1195276": "cake with the Wikidata logo",
     "Q200527": "pljeskavica, not Salisbury steak",
 }
+
+
+# Commons' Artist field is HTML written by people. Mostly it is a name; sometimes a whole user box with a request to
+# be notified, an e-mail address and the licence text (of 5,486 photos, 125 had more than 60 characters and 55 an
+# e-mail address; measured 2026-11-16). The credit needs the author, and must not show a private address.
+AUTHOR_MAX = 120   # a longer field is not just a name
+EMAIL = re.compile(r"\(?\b[\w.+-]+@[\w-]+(?:\.[\w-]+)+\)?")
+ASSUMED = re.compile(r"No machine-readable author provided\.\s*(.+?)\s+assumed \(based on copyright claims\)",
+                     re.IGNORECASE)
+NOT_A_NAME = re.compile(r"\b(appreciate|notif\w*|permission|licen[cs]e\w*|contact|copyright|public domain|"
+                        r"do not|please|own work)\b", re.IGNORECASE)
+LINE_END = re.compile(r"<br\s*/?>|</p>|</li>|</td>|</div>|</table>", re.IGNORECASE)
+AUTHOR_LINK = re.compile(
+    r'<a\b[^>]*?(?:title="(?:[a-z-]+:)?(?:User:|Special:EmailUser/)(?P<user>[^"/]+?)(?: \(page does not exist\))?"'
+    r'|href="https?://(?:www\.)?flickr\.com/(?:people|photos)/[^"]*")[^>]*>(?P<text>.*?)</a>',
+    re.IGNORECASE | re.DOTALL)
+
+
+def author_name(artist: str) -> str:
+    """The author to credit, from Commons' Artist field. Never invented: always words of the field itself.
+
+    A short field with no e-mail address is kept as written. Otherwise, in this order: the user Commons assumes
+    ("No machine-readable author provided"); the field's first line when it reads like a name; the first linked
+    user or Flickr account; else the text without e-mail addresses, cut at 200 characters. "" when empty."""
+    text = plain(artist)
+    assumed = ASSUMED.search(text)
+    if assumed:
+        return f"{assumed.group(1)} (assumed by Wikimedia Commons)"
+    if len(text) <= AUTHOR_MAX and not EMAIL.search(text):
+        return text
+    lines = (plain(EMAIL.sub("", part)).rstrip(" -–—,:;(") for part in LINE_END.split(artist or ""))
+    first = next((line for line in lines if line), "")
+    if 2 <= len(first) <= AUTHOR_MAX and not NOT_A_NAME.search(first):
+        return first
+    for link in AUTHOR_LINK.finditer(artist or ""):
+        name = plain(link.group("user") or link.group("text"))
+        if name and not name.startswith("http") and "talk" not in name.lower():
+            return name[:AUTHOR_MAX]
+    return plain(EMAIL.sub("", text))[:200].rstrip(" -–—,:;(")
+
+
+def commons_credit(label: str, author: str, lic: str) -> str:
+    return f"Photo of {label}: {author}, {lic}, via Wikimedia Commons"
 
 
 def stage_curate() -> None:
@@ -482,9 +514,8 @@ def stage_write() -> None:
     total = len(photoless_recipes())  # before appending, so --extend counts this round's targets
     d = pd.read_parquet(cache_name("dishes_curated"))
     d = d[(d.status == "kept") & ~d.dish_qid.isin(failed_verify())].copy()
-    d["author"] = d.artist.map(plain).str.slice(0, 200).replace("", "author not stated")
-    d["credit"] = [f"Photo of {lab}: {a}, {lic}, via Wikimedia Commons"
-                   for lab, a, lic in zip(d.dish_label, d.author, d.license)]
+    d["author"] = d.artist.map(author_name).replace("", "author not stated")
+    d["credit"] = [commons_credit(lab, a, lic) for lab, a, lic in zip(d.dish_label, d.author, d.license)]
     d["thumb_url"] = d.thumb_url.str.split("?").str[0]  # drop Commons tracking parameters
     cols = ["dish_qid", "dish_label", "image_file", "thumb_url", "file_page", "license", "author", "credit"]
     man = d[cols + ["recipes", "commons_file"]]
@@ -496,8 +527,8 @@ def stage_write() -> None:
         new = out[~out.recipe_id.isin(set(old.recipe_id))]
         out = pd.concat([old, new], ignore_index=True)
         man = pd.concat([pd.read_csv(OUT / "manifest.csv"), man], ignore_index=True)
-    man.to_csv(OUT / "manifest.csv", index=False, encoding="utf-8")
-    out.to_parquet(PROC / "dish_photos.parquet", index=False)
+    ft.save_table(man, OUT / "manifest.csv")
+    ft.save_table(out, PROC / "dish_photos.parquet")
     print("rows added", len(new), "total rows", len(out))
     size = sum(f.stat().st_size for f in OUT.iterdir())
     print(f"dishes {len(d)}  recipes covered {len(new)} of {total} photo-less ({100 * len(new) / total:.1f}%)  "
@@ -729,7 +760,7 @@ def score_images(pairs: list[tuple[str, str]]) -> pd.DataFrame:
             print(f"  scored {min(b + 64, len(todo))}/{len(todo)}", flush=True)
         new = pd.DataFrame(rows, columns=["image_file", "name", "clip_score", "rank_score", "nonfood"])
         have = pd.concat([have, new], ignore_index=True) if len(have) else new
-        have.to_parquet(SCORES, index=False)
+        ft.save_table(have, SCORES)
     return have
 
 
@@ -758,8 +789,8 @@ def stage_verify() -> None:
     if Opts.apply and len(bad):
         drop = dp.dish_qid.isin(set(bad.dish_qid))
         hidden = pd.concat([pd.read_parquet(HIDDEN), dp[drop]]) if HIDDEN.exists() else dp[drop]
-        hidden.drop_duplicates("recipe_id").to_parquet(HIDDEN, index=False)
-        dp[~drop].to_parquet(PROC / "dish_photos.parquet", index=False)
+        ft.save_table(hidden.drop_duplicates("recipe_id"), HIDDEN)
+        ft.save_table(dp[~drop], PROC / "dish_photos.parquet")
         print("took out", int(drop.sum()), "rows; dish_photos rows now", int((~drop).sum()))
 
 
@@ -778,8 +809,8 @@ def stage_prune() -> None:
           f"{dp.loc[drop, 'dish_label'].nunique()} dish names")
     if Opts.apply and drop.any():
         hidden = pd.concat([pd.read_parquet(HIDDEN), dp[drop]]) if HIDDEN.exists() else dp[drop]
-        hidden.drop_duplicates("recipe_id").to_parquet(HIDDEN, index=False)
-        dp[~drop].to_parquet(PROC / "dish_photos.parquet", index=False)
+        ft.save_table(hidden.drop_duplicates("recipe_id"), HIDDEN)
+        ft.save_table(dp[~drop], PROC / "dish_photos.parquet")
         print("took out", int(drop.sum()), "rows; dish_photos rows now", int((~drop).sum()))
 
 
@@ -844,20 +875,23 @@ def stage_search() -> None:
           f"this round {len(todo)} names, {int(todo.n.sum())} recipes", flush=True)
 
     s = session()
-    for i, (gk, phrase) in enumerate(zip(todo.gk, todo.phrase)):
-        if gk in res:  # searched before (a --dry round or a stopped run)
-            continue
-        base = {"action": "query", "generator": "search", "gsrnamespace": 6, "gsrlimit": 10, "prop": "imageinfo",
-                "iiprop": "url|extmetadata|mime|size", "iiurlwidth": WIDTH}
-        hits, cands = candidates(commons(s, {**base, "gsrsearch": f"{phrase} food filetype:bitmap"}), phrase)
-        if not cands:
-            hits2, cands = candidates(commons(s, {**base, "gsrsearch": f"{phrase} filetype:bitmap"}), phrase)
-            hits = max(hits, hits2)
-        res[gk] = {"phrase": phrase, "hits": hits, "cands": cands}
-        if i % 25 == 24 or i == len(todo) - 1:
-            save_json(res, RESULTS)
-            print(f"  searched {i + 1}/{len(todo)}", flush=True)
-    save_json(res, RESULTS)
+    base = {"action": "query", "generator": "search", "gsrnamespace": 6, "gsrlimit": 10, "prop": "imageinfo",
+            "iiprop": "url|extmetadata|mime|size", "iiurlwidth": WIDTH}
+    try:
+        for i, (gk, phrase) in enumerate(zip(todo.gk, todo.phrase)):
+            if gk in res:  # searched before (a --dry round or a stopped run)
+                continue
+            hits, cands = candidates(commons(s, {**base, "gsrsearch": f"{phrase} food filetype:bitmap"}), phrase)
+            if not cands:
+                hits2, cands = candidates(commons(s, {**base, "gsrsearch": f"{phrase} filetype:bitmap"}), phrase)
+                hits = max(hits, hits2)
+            res[gk] = {"phrase": phrase, "hits": hits, "cands": cands}
+            if i % 25 == 24 or i == len(todo) - 1:
+                save_json(res, RESULTS)
+                print(f"  searched {i + 1}/{len(todo)}", flush=True)
+    finally:  # a failed call or Ctrl+C keeps every answer received so far, so nothing is asked twice
+        CACHE.mkdir(parents=True, exist_ok=True)
+        save_json(res, RESULTS)
 
     # thumbnails of this round's candidates, 2 at a time, paced
     THUMBS.mkdir(parents=True, exist_ok=True)
@@ -866,18 +900,7 @@ def stage_search() -> None:
 
     def fetch(args: tuple[int, dict]) -> str:
         i, c = args
-        sess = s1 if i % 2 else s2
-        for t in range(5):
-            try:
-                r = sess.get(c["thumb_url"], timeout=60)
-                if r.status_code == 200:
-                    thumb_path(c).write_bytes(r.content)
-                    time.sleep(1.0)
-                    return "got"
-                time.sleep(float(r.headers.get("Retry-After", 15 * (t + 1))))
-            except requests.RequestException:
-                time.sleep(15 * (t + 1))
-        return "failed"
+        return ft.download_image(s1 if i % 2 else s2, c["thumb_url"], thumb_path(c))
     print("thumbnails to fetch", len(cands), flush=True)
     with ThreadPoolExecutor(max_workers=2) as ex:
         got = list(ex.map(fetch, enumerate(cands)))
@@ -917,10 +940,10 @@ def stage_search() -> None:
         if not dst.exists():
             shutil.copyfile(src, dst)
         lab = res[gk]["phrase"]
-        author = plain(c["artist"])[:200] or "author not stated"
+        author = author_name(c["artist"]) or "author not stated"
         d = {"dish_qid": f"search:{gk}", "dish_label": lab, "image_file": dst.as_posix(),
              "thumb_url": c["thumb_url"], "file_page": c["file_page"], "license": c["license"], "author": author,
-             "credit": f"Photo of {lab}: {author}, {c['license']}, via Wikimedia Commons"}
+             "credit": commons_credit(lab, author, c["license"])}
         rows.append(d)
         man.append({**d, "recipes": int((new.gk == gk).sum()), "commons_file": c["commons_file"]})
     d = pd.DataFrame(rows)
@@ -928,24 +951,72 @@ def stage_search() -> None:
     out = out.merge(d, on="dish_qid")
     old = existing_dish_photos()
     out = out[~out.recipe_id.isin(set(old.recipe_id))]
-    pd.concat([old, out[old.columns].astype(old.dtypes.to_dict())], ignore_index=True).to_parquet(
-        PROC / "dish_photos.parquet", index=False)
-    pd.concat([pd.read_csv(OUT / "manifest.csv"), pd.DataFrame(man)], ignore_index=True).to_csv(
-        OUT / "manifest.csv", index=False, encoding="utf-8")
+    ft.save_table(pd.concat([old, out[old.columns].astype(old.dtypes.to_dict())], ignore_index=True),
+                  PROC / "dish_photos.parquet")
+    ft.save_table(pd.concat([pd.read_csv(OUT / "manifest.csv"), pd.DataFrame(man)], ignore_index=True),
+                  OUT / "manifest.csv")
     print("rows added", len(out), "dish_photos rows", len(old) + len(out))
+
+
+# ---------------------------------------------------------------- recredit: the credits again, from the caches
+def cached_artists() -> dict[str, str]:
+    """Stored photo name without its ending (the QID, or c<pageid>) -> Commons' Artist field, from the caches."""
+    out: dict[str, str] = {}
+    info = ft.load_json(CACHE / "commons.json", {})
+    if (OUT / "manifest.csv").exists():
+        man = pd.read_csv(OUT / "manifest.csv", usecols=["image_file", "commons_file"]).dropna()
+        out.update({Path(f).stem: info[c]["artist"] for f, c in zip(man.image_file, man.commons_file) if c in info})
+    for group in ft.load_json(RESULTS, {}).values():
+        out.update({f"c{c['pageid']}": c.get("artist", "") for c in group.get("cands", [])})
+    return out
+
+
+def recredit(table: pd.DataFrame, artists: dict[str, str]) -> pd.DataFrame:
+    """`table` with author and credit written again by today's `author_name`, for the Commons photos whose Artist
+    field is cached. Other rows (Openverse, no cached field) are untouched."""
+    table = table.copy()
+    authors, credits = table.author.tolist(), table.credit.tolist()
+    for i, (file, label, lic) in enumerate(zip(table.image_file, table.dish_label, table.license)):
+        artist = artists.get(Path(str(file)).stem)
+        if artist is None or not str(credits[i]).endswith("via Wikimedia Commons"):
+            continue
+        authors[i] = author_name(artist) or "author not stated"
+        credits[i] = commons_credit(label, authors[i], lic)
+    table["author"], table["credit"] = authors, credits
+    return table
+
+
+def stage_recredit() -> None:
+    """No network. Counts the credits today's `author_name` would change; --apply writes them to
+    dish_photos.parquet and the manifest."""
+    artists = cached_artists()
+    dp = existing_dish_photos()
+    new = recredit(dp, artists)
+    changed = new.author.ne(dp.author)
+    print(f"photos {dp.image_file.nunique()}: credits that change {new.loc[changed, 'image_file'].nunique()} "
+          f"({int(changed.sum())} recipe rows)")
+    shown = pd.DataFrame({"was": dp.author[changed], "now": new.author[changed]}).drop_duplicates().head(15)
+    for was, now in zip(shown.was, shown.now):
+        print(f"  {was[:70]!r} -> {now!r}")
+    if Opts.apply and changed.any():
+        ft.save_table(new, PROC / "dish_photos.parquet")
+        ft.save_table(recredit(pd.read_csv(OUT / "manifest.csv"), artists), OUT / "manifest.csv")
+        print("credits written")
 
 
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=["dishes", "match", "meta", "download", "curate", "write", "verify", "search", "prune"])
+    ap.add_argument("stage", choices=["dishes", "match", "meta", "download", "curate", "write", "verify", "search", "prune",
+                                     "recredit"])
     ap.add_argument("--top", type=int, default=TOP, help="dishes to take, by recipes covered (default %(default)s)")
     ap.add_argument("--extend", action="store_true", help="a further round for recipes that still have no photo")
     ap.add_argument("--min-words", type=int, default=1, help="shortest dish phrase that may match")
-    ap.add_argument("--apply", action="store_true", help="verify, prune: take failing rows out of dish_photos.parquet")
+    ap.add_argument("--apply", action="store_true", help="verify, prune: take failing rows out of dish_photos.parquet; "
+                                                  "recredit: write the credits")
     ap.add_argument("--dry", action="store_true", help="search: score but do not write dish_photos.parquet")
     a = ap.parse_args()
     Opts.top, Opts.extend, Opts.min_words, Opts.apply, Opts.dry = a.top, a.extend, a.min_words, a.apply, a.dry
     {"dishes": stage_dishes, "match": stage_match, "meta": stage_meta, "download": stage_download,
      "curate": stage_curate, "write": stage_write, "verify": stage_verify, "search": stage_search,
-     "prune": stage_prune}[a.stage]()
+     "prune": stage_prune, "recredit": stage_recredit}[a.stage]()

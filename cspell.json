@@ -2,7 +2,7 @@
 // library terms. ignoreWords: dataset IDs, code fragments and API field names, not words.
 {
   "version": "0.2",
-  "language": "en",
+  "language": "en,en-GB",   // the docs and code use British spelling (colour, fibre) too
   "ignorePaths": [
     "**/*.csv",
     "**/*.parquet",
@@ -662,6 +662,7 @@
     "zeppole"
   ],
   "ignoreWords": [
+    "fontmode", "getbbox", "getpalette", "interp", "MEDIANCUT", "ndimage", "putpalette", "textbbox",
     "bflamb",
     "ches",
     "chilis",

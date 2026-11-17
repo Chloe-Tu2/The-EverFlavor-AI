@@ -196,7 +196,7 @@ def test_every_notebook_can_download_all_of_the_shared_code():
     """A notebook opened on its own downloads EVERFLAVOR_MODULES from GitHub: the list must name every module."""
     root = Path(__file__).resolve().parents[1]
     modules = {p.stem for p in (root / "src" / "everflavor").glob("*.py")}
-    for notebook in sorted((root / "notebooks").glob("0*.ipynb")):
+    for notebook in sorted((root / "notebooks").glob("[0-9][0-9]_*.ipynb")):   # 01 to 12 and any new one
         cells = json.loads(notebook.read_text(encoding="utf-8"))["cells"]
         setup = next("".join(c["source"]) for c in cells if "EVERFLAVOR_MODULES = [" in "".join(c["source"]))
         listed = set(re.findall(r'"(\w+)"', setup.split("EVERFLAVOR_MODULES = [")[1].split("]")[0]))

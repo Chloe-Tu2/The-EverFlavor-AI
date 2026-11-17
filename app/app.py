@@ -49,6 +49,8 @@ from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page co
 from updates import UPDATES  # app/updates.py: the What's new notes
 
 from everflavor import __version__, saved_recipes, waiter
+from everflavor.calories import nutrition_estimate, usda_portions
+from everflavor.confidence import CONFIDENCE, Confidence, ProfileResponse
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
@@ -56,7 +58,18 @@ from everflavor.dish_steps import cookware, methods_of, split_minutes, step_brea
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
 from everflavor.parsing import parse_list_string
+from everflavor.places import (
+    UNKNOWN_LABEL,
+    cuisine_name,
+    find_stores_for,
+    load_place_evidence,
+    load_specialty_ingredients,
+    map_places,
+    place_facts,
+    specialty_in,
+)
 from everflavor.preferences import clean_names, common_ingredients, simplest
+from everflavor.recipe_check import extract_ingredients, review
 from everflavor.recommend import (
     baseline_recommend,
     fit_checks,
@@ -64,7 +77,20 @@ from everflavor.recommend import (
     why_it_fits,
     within_calories,
 )
+from everflavor.restrictions import (
+    ALCOHOL_CHOICES,
+    CATEGORIES,
+    RULES,
+    SEVERITIES,
+    AlcoholSetting,
+    assess,
+    profile_for,
+    rule_ids_from_profile,
+    rules_in,
+)
 from everflavor.safety import UserProfile
+from everflavor.stores import COUNTRY_CUISINES
+from everflavor.taxonomy import load_taxonomy
 
 DATA = ROOT / "data" / "processed"
 ART = ROOT / "design" / "pixel-art" / "assets"   # drawn by design/pixel-art/make_pixel_art.py
@@ -128,8 +154,8 @@ def load_recipes() -> pd.DataFrame:
     parts = [DATA / f"recipes_{split}.parquet" for split in ("train", "val", "test")]
     df = pd.concat([pd.read_parquet(p) for p in parts], ignore_index=True)
     # The photos and estimated times made next to the data (scripts/recipe_extras.py), when they are there
-    for extra in ("recipe_photos", "recipe_times", "foodcom_details"):   # foodcom_details: scripts/recipe_details.py
-        path = DATA / f"{extra}.parquet"
+    for extra_name in ("recipe_photos", "recipe_times", "foodcom_details"):   # foodcom_details: scripts/recipe_details.py
+        path = DATA / f"{extra_name}.parquet"
         if path.exists() and "recipe_id" in df:
             side = pd.read_parquet(path)
             new = [c for c in side.columns if c == "recipe_id" or c not in df.columns]   # notebook 01 may have them
@@ -170,12 +196,12 @@ def load_recipes() -> pd.DataFrame:
     # the dishes the review has not turned down (data/reference/dish_photo_review.csv)
     dish_photos, review = DATA / "dish_photos.parquet", ROOT / "data" / "reference" / "dish_photo_review.csv"
     if dish_photos.exists() and "recipe_id" in df:
-        extra = pd.read_parquet(dish_photos, columns=["recipe_id", "dish_qid", "dish_label", "thumb_url", "file_page",
+        dish_rows = pd.read_parquet(dish_photos, columns=["recipe_id", "dish_qid", "dish_label", "thumb_url", "file_page",
                                                       "credit"])
         if review.exists():
             refused = pd.read_csv(review).query("keep == 'no'")["dish_qid"]
-            extra = extra[~extra["dish_qid"].isin(refused)]
-        df = df.merge(extra, on="recipe_id", how="left")
+            dish_rows = dish_rows[~dish_rows["dish_qid"].isin(refused)]
+        df = df.merge(dish_rows, on="recipe_id", how="left")
     return df
 
 
@@ -402,6 +428,7 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   border: 2px solid var(--border); padding: var(--space-1) var(--space-3); margin: var(--space-1) 0 var(--space-3);
   font-size: var(--fs-1); line-height: 1.35; }}
 .badge .ico {{ width: 24px; height: 24px; flex: none; }}
+img.sign {{ width: 24px; height: 24px; image-rendering: pixelated; vertical-align: middle; margin-right: 0.25rem; }}
 .badge-warn {{ border-style: dashed; }}
 .dish-story {{ margin: 0 0 var(--space-2); font-size: var(--fs-1); line-height: 1.45; }}
 .dish-story a {{ font-size: 0.8em; white-space: nowrap; }}
@@ -526,9 +553,9 @@ def pronunciations() -> pd.DataFrame:
 def say_it(dish: str) -> dict | None:
     """The pronunciation row for the dish name the recipe's name contains (a whole word), or None."""
     words = f" {dish.lower()} "
-    for row in pronunciations().itertuples():
-        if f" {row.dish} " in words:
-            return row._asdict()
+    for row in pronunciations().to_dict("records"):
+        if f" {row['dish']} " in words:
+            return row
     return None
 
 
@@ -553,7 +580,7 @@ def plain(text: object) -> str:
     as its items."""
     if isinstance(text, list | tuple | set):
         text = ", ".join(map(str, text))
-    return re.sub(r"([\\`*_{}\[\]()#+!|<>~&-])", r"\\\1", str(text))
+    return re.sub(r"([\\`*_{}\[\]()#+!|<>~&$-])", r"\\\1", str(text))   # $: two would start LaTeX
 
 
 def video_search_link(dish: str, country: object) -> str:
@@ -734,7 +761,14 @@ def dish_page(row: pd.Series, dish: str) -> None:
                        f"{plain(spoken['audio_license'])}, via [Wikimedia Commons]"
                        f"(https://commons.wikimedia.org/wiki/File:{quote(name)})")
     where = row.get("origin_country")
-    if isinstance(where, str) and where != "Unknown":
+    node = TAX.node_for(where, row.get("origin_region")) if isinstance(where, str) and where != "Unknown" else None
+    if node:   # where it sits in the Food Taxonomy, and the branches next to it ("More from Sichuan · Hunan")
+        st.caption("From " + " › ".join(n.name for n in TAX.path(node)[1:]))
+        nearby = [TAX.nodes[node], *TAX.related(node)][:4]
+        for spot, place in zip(st.columns(len(nearby)), nearby):
+            spot.button(f"More from {place.name}", key=f"more-from-{place.slug}", width="stretch",
+                        on_click=go_to_place, args=(place.slug,))
+    elif isinstance(where, str) and where != "Unknown":
         st.caption(f"From {where}")
     st.session_state["walter_dish"] = (row, dish, where)   # Walter, in the page's corner, talks about this dish
     steps = step_breakdown(row.get("instructions"), row.get("ingredient_list"))
@@ -754,7 +788,9 @@ def dish_page(row: pd.Series, dish: str) -> None:
     link = row.get("url")
     own_page = f"[its own page]({link})" if isinstance(link, str) and link.startswith("http") else ""
     info = nutrition_facts(row)
-    recipe_tab, food_tab = st.container(key="dish-tabs").tabs(["Recipe", "Nutrition"])
+    recipe_tab, food_tab, buy_tab = st.container(key="dish-tabs").tabs(["Recipe", "Nutrition", "Where to buy"])
+    with buy_tab:
+        where_to_buy(row.get("ingredient_list"), where if isinstance(where, str) else None)
     with recipe_tab:
         picture, _ = st.columns([2, 3])
         recipe_photo(picture, row, dish)
@@ -769,9 +805,9 @@ def dish_page(row: pd.Series, dish: str) -> None:
             # Amounts are shown only when the recipe's own source gives them; never guessed (DISH_PAGE_PLAN)
             face, note = st.columns([1, 9], vertical_alignment="center")
             walter_face(face, "thinking")
-            note.markdown("**Amounts aren't in our notes for this one.** We list what goes in, but we never guess "
-                          "how much: " + (f"{own_page} has the exact amounts." if own_page
-                                          else "check the recipe's own source for them."))
+            note.markdown(("**Exact amounts:** on " + own_page + ". " if own_page else
+                           "**Exact amounts:** in the recipe's own source. ")
+                          + "We show what goes in and never guess how much, so nothing here is made up.")
         st.markdown(f"[Watch it made on YouTube]({video_search_link(dish, where)})")
         methods = methods_of(row.get("instructions"))
         if methods:
@@ -815,6 +851,224 @@ def badge(place, icon: str, text: str, kind: str = "safe") -> None:
                    f'</span><span>{html.escape(text)}</span></div>', unsafe_allow_html=True)
 
 
+def pref_text(value: object) -> str:
+    """A kitchen setting as the page address keeps it: True/False as "1"/"0", anything else as its text."""
+    return ("1" if value else "0") if isinstance(value, bool) else str(value)
+
+
+def sign(severity: str) -> str:
+    """A severity's pixel sign (stop sign, warning diamond, caution triangle, information circle, green circle),
+    inline in Markdown shown with unsafe_allow_html; its words go in alt and title, and always next to it."""
+    words = SEVERITIES[severity][1] if severity in SEVERITIES else "No issue found"
+    return f'<img class="sign" src="{art("sign_" + severity)}" alt="{html.escape(words)}" title="{html.escape(words)}">'
+
+
+def rule_label(rule_id: str) -> str:
+    """A profile rule as the sidebar lists it: its name, and what it checks when that is not obvious."""
+    rule = RULES[rule_id]
+    return f"{rule.label} ({rule.note})" if rule.note else rule.label
+
+
+CHECK_EXAMPLE = """Ingredients
+- 2 chicken breasts
+- 2 tbsp satay sauce
+- 1 tbsp teriyaki sauce
+- 2 cloves garlic
+- 1 cup jasmine rice
+
+Instructions
+Cook the rice. Grill the chicken with the sauces and serve on the rice."""   # Check my recipe's example: one conflict for peanuts, one label to check
+
+
+# ---------- The Food Taxonomy: one tree of where food comes from (everflavor.taxonomy), for search, map and Walter ----------
+TAX = st.cache_resource(load_taxonomy)()
+EXPLORE_ROWS = [("zone", "Zone"), ("region", "Food region"), ("country", "Country"), ("within", "Within the country"),
+                ("deeper", "Deeper")]
+
+
+@st.cache_data(show_spinner=False)
+def taxonomy_counts() -> dict[str, int]:
+    return TAX.counts(load_recipes())
+
+
+def explore_picked(row: int) -> None:
+    """A pill in the explorer changed: go to that place (or back to its parent when it was unpicked). A country is
+    also put in the search box, so the kitchen and the map follow it; any other level filters by its branch."""
+    slug = st.session_state.get(f"explore-{EXPLORE_ROWS[row][0]}")
+    path = TAX.path(st.session_state.get("explore") or "world")
+    parent = path[row].slug if row < len(path) else "world"
+    go_to_place(slug or parent)
+
+
+def go_to_place(slug: str) -> None:
+    """A "More from ..." button: open that branch of the Food Taxonomy in the search (as the explorer would)."""
+    st.session_state["explore"] = None if slug == "world" else slug
+    country = TAX.ancestor(slug, "country")
+    node = TAX.nodes[slug]
+    if node.level == "country":
+        st.session_state["search"] = node.name
+    elif country and node.name in data_regions():
+        st.session_state["search"] = f"{node.name} ({country.name})"
+    else:
+        st.session_state["search"] = None
+    st.session_state["explore-from-search"] = st.session_state["search"] is not None
+
+
+@st.cache_data(show_spinner=False)
+def data_regions() -> set[str]:
+    return set(load_recipes()["origin_region"].dropna().unique())
+
+
+def explore_by_place() -> None:
+    """The explorer: zone, food region, country, then the country's own divisions, one row each. Every row is
+    always shown; a row that cannot be used yet stays visible but muted, saying what to pick first."""
+    counts = taxonomy_counts()
+    path = TAX.path(st.session_state.get("explore") or "world")
+    st.caption(" › ".join(n.name for n in path) + " · pick one level at a time, or type in the search box")
+    for row, (key, label) in enumerate(EXPLORE_ROWS):
+        parent = path[row] if row < len(path) else None
+        level = {"zone": "zone", "region": "region", "country": "country"}.get(key)
+        options = [] if parent is None else [
+            n.slug for n in TAX.children(parent.slug, level)
+            if counts.get(n.slug, 0) > 0 and (level or n.level not in ("zone", "region", "country"))]
+        st.session_state[f"explore-{key}"] = path[row + 1].slug if row + 1 < len(path) else None
+        if options:
+            st.pills(label, options, key=f"explore-{key}", on_change=explore_picked, args=(row,),
+                     format_func=lambda s: f"{TAX.nodes[s].name} · {counts.get(s, 0):,}")
+        elif parent is None or key in ("zone", "region", "country"):   # muted: shows the depth, not a wall of names
+            first = EXPLORE_ROWS[row - 1][1].lower() if row else "zone"
+            st.pills(label, [f"Pick a {first} first"], key=f"explore-{key}-muted", disabled=True)
+    if st.session_state.get("explore"):
+        st.button("Show all places", key="explore-all", on_click=st.session_state.update,
+                  kwargs={"explore": None, "search": None, "explore-from-search": False})
+
+
+# ---------- The Food Discovery Map's data (everflavor.places decides every claim and its words; the page shows them) ----------
+MAP_CREDIT = "© OpenStreetMap contributors (ODbL), map © OpenFreeMap."
+LEVEL_MARKS = {"verified": "✔ Verified", "likely": "◐ Likely", "unknown": "? Unknown"}   # a sign and a word, not colour alone
+
+
+@st.cache_data(show_spinner=False)
+def map_data() -> pd.DataFrame:
+    """The places from notebook 03 (OpenStreetMap rows only), or an empty table when the file is not there."""
+    for path in (DATA / "places.parquet", ROOT / "data" / "processed" / "places.parquet"):
+        if path.exists():
+            places = pd.read_parquet(path)
+            places = places[places["source"].eq("osm")] if "source" in places else places
+            for column in ("osm_kind", "address", "phone", "postcode", "website", "opening_hours", "name_hint"):
+                if column not in places:   # a table from before the Greater Houston update
+                    places[column] = ""
+            if "cuisine" not in places:
+                places["cuisine"] = [[] for _ in range(len(places))]
+            return places.reset_index(drop=True)
+    return pd.DataFrame()
+
+
+@st.cache_data(show_spinner=False)
+def stores_for(ingredients: tuple[str, ...], country: str | None) -> dict:
+    """find_stores_for, kept between reruns of the same dish page."""
+    return find_stores_for(ingredients, country, map_data(), specialty_table(), n=6)
+
+
+@st.cache_data(show_spinner=False)
+def specialty_table() -> pd.DataFrame:
+    return load_specialty_ingredients()
+
+
+@st.cache_data(show_spinner=False)
+def place_evidence() -> dict:
+    return load_place_evidence()
+
+
+MAP_KINDS = {"Grocers": "grocery", "Restaurants": "restaurant", "Butchers": "butcher", "Seafood": "seafood",
+             "Bakeries": "bakery", "Spice shops": "spices", "Markets": "marketplace",
+             "Convenience stores": "convenience"}
+MAP_COLORS = {"grocery": [69, 117, 54], "restaurant": [217, 72, 59], "butcher": [139, 69, 19],
+              "seafood": [30, 110, 170], "bakery": [214, 150, 40], "spices": [150, 60, 140],
+              "marketplace": [20, 140, 120], "convenience": [130, 130, 130]}
+
+
+@st.cache_data(show_spinner=False)
+def map_cuisines() -> list[str]:
+    """The cuisines the places name (OpenStreetMap tags and name hints), the app's own countries' words first."""
+    places = map_data()
+    words = places["cuisine"].explode().dropna().astype(str).map(cuisine_name).str.lower()
+    counts = pd.concat([words, places["name_hint"].replace("", pd.NA).dropna()]).value_counts()
+    ours = [w for w in COUNTRY_CUISINES.values() if w in counts.index]
+    rest = [w for w in counts.index if w not in ours and counts[w] >= 3 and ";" not in w]
+    return ours + sorted(rest)
+
+
+@st.cache_data(show_spinner=False)
+def map_rows(kinds: tuple[str, ...], cuisine: str | None, diet: str | None, level: str) -> pd.DataFrame:
+    """The places to draw, with their words decided in the back end (everflavor.places.map_places)."""
+    return map_places(map_data(), kinds, cuisine=cuisine, diet=diet, level=level, evidence=place_evidence())
+
+
+def website_url(url: object) -> str:
+    """A place's own website, only when it is a plain http(s) address (OpenStreetMap text); else ""."""
+    if isinstance(url, str) and re.fullmatch(r"https?://[^\s()<>\[\]]+", url.strip()):
+        return url.strip()
+    return ""
+
+
+def site_link(place: dict) -> str:
+    """ · [Website](...) for a store or restaurant row with a plain http(s) site (opens their own page); else ""."""
+    url = website_url(place.get("website"))
+    return f" · [Website]({url})" if url else ""
+
+
+def place_card(place, facts: dict) -> None:
+    """One place's card: what it is, its food focus and its diets, each claim with its level and reason."""
+    place.markdown(f"**{plain(facts['name'])}** · {plain(str(facts['kind']).capitalize())}")
+    for item in facts["indicators"]:
+        place.markdown(f"- {plain(item['text'])} *({plain(item['source'])})*")
+    if facts["diet"]:
+        for item in facts["diet"]:
+            place.markdown(f"- **{LEVEL_MARKS[item['level']]}:** {item['label']}. {plain(item['reason'])}.")
+    else:
+        place.markdown(f"- **{LEVEL_MARKS['unknown']}:** {UNKNOWN_LABEL}.")
+    place.caption(" · ".join([plain(facts["hours"])] + ([plain(facts["phone"])] if facts["phone"] else [])))
+    if facts["address"]:   # in a code box: its copy button puts the address on the clipboard for any maps app
+        place.caption("Address (use the copy button, then paste it into your maps app)")
+        place.code(str(facts["address"]), language=None, wrap_lines=True)
+    url = website_url(facts.get("website"))
+    if url:   # their own site, to check menus, hours and certificates for yourself (opens in a new tab)
+        place.link_button("Visit their website", url, icon=":material/open_in_new:",
+                          help="From OpenStreetMap; we have not checked this site.")
+    report = f" [Report a mistake]({facts['osm_url']}) (OpenStreetMap)." if facts.get("osm_url") else ""
+    place.caption(facts["note"] + report)
+
+
+def where_to_buy(ingredient_list: object, country: str | None) -> None:
+    """The dish page's "Where to buy": the specialty ingredients to look for (sourced notes), then the stores whose
+    own cuisine or name says they likely carry that food, and where to eat it. The back end picks and words them."""
+    places = map_data()
+    found = stores_for(tuple(map(str, parse_list_string(ingredient_list))), country)
+    if found["look_for"]:
+        st.markdown("**Look for**")
+        for item in found["look_for"]:
+            pending = "" if item["reviewed"] else " *(note awaiting the team's review)*"
+            st.markdown(f"- **{item['ingredient']}**: {item['note']} [Source]({item['source']}), "
+                        f"{item['licence']}.{pending}")
+    else:
+        st.caption("Nothing on our list of specialty ingredients: a large supermarket may carry what this dish needs.")
+    if places.empty:
+        st.info("The store list needs the places from notebook 03 (data/processed/places.parquet).")
+        return
+    st.markdown("**Stores in Greater Houston**")
+    if not found["stores"]:
+        st.caption("No store in our data says it focuses on this food. Try a large supermarket.")
+    for store in found["stores"]:
+        where = f" · {plain(store['address'])}" if store["address"] else ""
+        st.markdown(f"- **{plain(store['name'])}**: {store['why']}{where}{site_link(store)}")
+    if found["eat"]:
+        st.markdown("**Where to eat it**")
+        for spot in found["eat"]:
+            st.markdown(f"- **{plain(spot['name'])}**: {spot['why']}{site_link(spot)}")
+    st.caption(f"{found['note']} The Map tab shows them all. {MAP_CREDIT}")
+
+
 # ---------- The profile: the sidebar's fields, the first-visit setup and the summary above the results ----------
 PROFILE_DEFAULTS = {"avoid": [], "skip": [], "diets": [], "vegetarian": False, "vegan": False, "calories": 600}
 ALLERGY_HELP = ("Allergies and what your body can't take. Checked for hidden sources too (Worcestershire sauce has "
@@ -839,14 +1093,13 @@ def food_tabs(avoid_key: str, skip_key: str, avoid_default: list | None = None,
               skip_default: list | None = None) -> None:
     """"I can't eat" in two tabs: allergies (the safety check) and foods the user simply doesn't eat."""
     allergies, foods = st.container(key=f"food-tabs-{avoid_key}").tabs(["Allergies", "Foods I don't eat"])
-    extra = {} if avoid_default is None else {"default": avoid_default}
-    allergies.multiselect("Allergies", sorted(FLAG_RULES), format_func=nice, key=avoid_key, help=ALLERGY_HELP,
-                          label_visibility="collapsed", placeholder="Peanuts, shellfish, pork...", **extra)
-    extra = {} if skip_default is None else {"default": skip_default}
-    foods.multiselect("Foods I don't eat", food_choices(), key=skip_key, help=SKIP_HELP, accept_new_options=True,
-                      on_change=tidy_foods, args=(skip_key,),
+    # default=None is Streamlit's own default, so a list set earlier in session state is kept
+    allergies.multiselect("Allergies", sorted(FLAG_RULES), default=avoid_default, format_func=nice, key=avoid_key,
+                          help=ALLERGY_HELP, label_visibility="collapsed", placeholder="Peanuts, shellfish, pork...")
+    foods.multiselect("Foods I don't eat", food_choices(), default=skip_default, key=skip_key, help=SKIP_HELP,
+                      accept_new_options=True, on_change=tidy_foods, args=(skip_key,),
                       label_visibility="collapsed", placeholder="Mushrooms, olives, cilantro... (type any food)",
-                      max_selections=200, **extra)
+                      max_selections=200)
     allergies.caption("A safety check: hidden sources too (Worcestershire sauce has fish).")
     foods.caption("Left out by name only, not a safety check. For an allergy, use Allergies.")
 EATING = ["I eat meat", "Vegetarian", "Vegan"]
@@ -987,7 +1240,41 @@ def where_found(line_: str) -> str:
     """'3 tbsp satay sauce' -> '**3 tbsp satay sauce**'; '(dish name) Thai peanut bowl' -> 'The dish's name, ...'."""
     if line_.startswith("(dish name) "):
         return f"The dish's name, **{plain(line_.removeprefix('(dish name) '))}**,"
+    if line_.startswith("(steps) "):
+        return f"The steps, \"{plain(line_.removeprefix('(steps) '))}\","
+    if line_.startswith("(how it's made) "):
+        what = line_.removeprefix("(how it's made) ").capitalize()
+        return f"**{plain(what)}**:"
     return f"**{plain(line_)}**"
+
+
+@st.cache_resource
+def usda_data() -> tuple[pd.DataFrame, dict] | None:
+    """Notebook 01's USDA table and household weights, for the pasted recipe's estimate (None when not here)."""
+    table, folder = DATA / "usda_ingredient_nutrition.csv", ROOT / "data" / "raw" / "usda_fdc"
+    if not table.exists() or not any(folder.glob("*sr_legacy*")):
+        return None
+    return pd.read_csv(table), usda_portions(folder)
+
+
+def pasted_nutrition(lines: list[str], servings: int) -> dict | None:
+    """Calories, carbs, protein and sodium of pasted lines (calories.nutrition_estimate), or None."""
+    data = usda_data()
+    return nutrition_estimate(lines, servings or None, data[0], data[1]) if data else None
+
+
+def main_finding(levels: dict) -> str:
+    """Walter's one sentence on the check: the most serious finding, the surest first, in the back end's words
+    ("1 tbsp satay sauce (Peanuts): its main ingredient is ground roasted peanuts.")."""
+    order = [c.value for c in Confidence]
+    rows = [(row, conf) for conf, group in levels["by_confidence"].items() for row in group]
+    rows += [(row, "verified") for row in levels["preparation"]]
+    if not rows:
+        return ""
+    row, _ = min(rows, key=lambda pair: (list(SEVERITIES).index(pair[0]["severity"]), order.index(pair[1])))
+    what = re.sub(r"^\((dish name|steps|how it's made)\) ", "", row["line"])
+    note = next((n for n in row["notes"] if n), "")
+    return f"{what} ({', '.join(row['rules'])})" + (f": {note}." if note else ".")
 
 
 def rule_words(rule: str) -> str:
@@ -1321,7 +1608,7 @@ else:
 st.html("<style>.st-key-" + STORE_KEY + "{display:none}</style>")
 # Keep the kitchen settings in the page address, so a refresh brings them back (no server keeps them)
 for name, value in PREFS.items():
-    st.query_params[name] = ("1" if value else "0") if isinstance(value, bool) else value
+    st.query_params[name] = pref_text(value)
 st.markdown('<div class="kitchen-view"></div>', unsafe_allow_html=True)   # leave the kitchen in view
 # The chef's line, filled in below once we know what happened: in the page on phones (the sidebar is hidden there),
 # and at the bottom of the sidebar on wider screens (added after the profile, below)
@@ -1351,12 +1638,49 @@ elif not st.session_state.get("walter_onboarded") or st.session_state.pop("walte
     setup_walter()   # right after the profile on the first visit; later from Settings or Walter's bubble
 with st.sidebar:
     st.header("Your profile")
-    st.markdown("**I can't eat**")
+    # Four groups, from what keeps you safe to what you'd like (each with its severity sign); the keys are unchanged,
+    # so a saved profile stays as it was
+    extra_rules: list[str] = []
+
+    def rule_pick(category: str, label: str | None = None) -> list[str]:
+        """One profile group's choices (medical screens, how it's cooked, sensitivities, goals)."""
+        name = label or CATEGORIES[category][0]
+        return st.multiselect(name, rules_in(category), format_func=rule_label, key=f"rules-{category}")
+
+    st.markdown(f"{sign('critical')} **Safety**", unsafe_allow_html=True)
     food_tabs("avoid", "skip")
     avoid, skip = list(st.session_state["avoid"]), list(st.session_state["skip"])
+    extra_rules += rule_pick("medical")
+    st.caption("Medical screens read ingredient names and nutrition per serving. They are not medical advice: "
+               "ask your doctor or dietitian.")
+    # Alcohol: one setting whatever the reason (faith, recovery, pregnancy, medicine); the reason only changes the
+    # words. Halal-friendly, or alcohol on the allergy list, sets it to strict (everflavor.restrictions.AlcoholSetting)
+    fixed_strict = "halal_friendly" in st.session_state.get("diets", []) or "contains_alcohol" in avoid
+    if fixed_strict:
+        st.session_state["alcohol-level"] = ProfileResponse.STRICT.value
+    alcohol_level = ProfileResponse(st.selectbox(
+        "Alcohol", [r.value for r in ALCOHOL_CHOICES], format_func=lambda v: ALCOHOL_CHOICES[ProfileResponse(v)],
+        key="alcohol-level", disabled=fixed_strict,
+        help="Strictly avoid hides recipes with alcohol. Avoid when possible and Warn me only point it out."))
+    if fixed_strict:
+        st.caption("Set to Strictly avoid by halal-friendly or your allergy list.")
+    cooked_ok = alcohol_level in (ProfileResponse.AVOID, ProfileResponse.WARN) and st.checkbox(
+        "Alcohol cooked into a hot dish is OK", key="alcohol-cooked")
+    extracts = alcohol_level is ProfileResponse.IGNORE or st.checkbox(
+        "Count flavour extracts too (vanilla extract...)", value=True, key="alcohol-extracts")
+    alcohol_setting = AlcoholSetting(alcohol_level, cooked_ok, extracts)
+
+    st.markdown(f"{sign('major')} **Beliefs and values**", unsafe_allow_html=True)
     diets = st.multiselect("I follow", options=sorted(DIET_PROFILES), format_func=nice_diet, key="diets")
     vegetarian = st.checkbox("Vegetarian", key="vegetarian")
     vegan = st.checkbox("Vegan", key="vegan")
+
+    st.markdown(f"{sign('major')} **Cooking preferences**", unsafe_allow_html=True)
+    extra_rules += rule_pick("preparation", "How it's cooked")
+
+    st.markdown(f"{sign('moderate')} **Sensitivities and goals**", unsafe_allow_html=True)
+    extra_rules += rule_pick("sensitivities")
+    extra_rules += rule_pick("goals")
     calories = st.slider("Calories per meal", min_value=200, max_value=1500, step=50, key="calories")
     st.divider()
     if ai["kind"] == "ollama":
@@ -1366,7 +1690,12 @@ with st.sidebar:
         st.caption("Local AI: off. The rules still check everything.", help=ai["reason"])
     chef.append(st.container(key="chef-side").empty())
 
-profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetarian,
+rule_ids = rule_ids_from_profile(avoid, diets, vegetarian, vegan) + extra_rules   # the whole profile, in levels
+blocking = profile_for(extra_rules)   # the medical screens chosen above join the safety gate's profile
+strict_alcohol = (["contains_alcohol"] + (["contains_alcohol_extract"] if extracts else [])
+                  if alcohol_level is ProfileResponse.STRICT else [])   # strict alcohol hides recipes, like an allergy
+profile = UserProfile(avoid=tuple(dict.fromkeys([*avoid, *blocking.avoid, *strict_alcohol])),
+                      diets=tuple(dict.fromkeys([*diets, *blocking.diets])), vegetarian=vegetarian,
                       vegan=vegan, calories_per_meal=calories, skip=clean_names(skip))
 # The chef's welcome: hello in the kitchen's own language, then one tip, dish fact or chef's quote, the same one
 # for the whole visit (a seed per visit, so reruns do not change it)
@@ -1386,11 +1715,11 @@ find_tab, check_tab, map_tab = st.tabs(["Find recipes", "Check my recipe", "Map:
 
 with find_tab:
     pool: pd.DataFrame = recipes
-    cuisine = "All"
+    cuisine: str | None = "All"
     if "origin_country" in recipes:
         # One search box (a dish, a country or a region, with suggestions as you type) and, for those who would
         # rather not type, Browse by region: every region with its countries, one tap to pick one
-        counts = cast(pd.Series, recipes["origin_country"].value_counts())
+        counts = recipes["origin_country"].value_counts()
         counts = cast(pd.Series, counts[(counts >= MIN_COUNTRY_RECIPES) & (counts.index != "Unknown")])
         regions = recipes.dropna(subset=["origin_region"]).groupby("origin_region")["origin_country"].first()
         suggestions = [*counts.index, *(f"{r} ({c})" for r, c in regions.items())]
@@ -1404,27 +1733,29 @@ with find_tab:
             "What would you like to eat?", suggestions, index=None, key="search", accept_new_options=True,
             placeholder="All regions. Or type a dish or where it's from: ramen, Korean, Louisiana, tacos...",
             help="Type a dish, a country or a region. The kitchen follows the country when Settings says so.")
-        with browse_spot.popover("Browse by region", width="stretch"):
-            # All regions is the default: nothing picked searches every country
-            st.button("Show all regions", key="browse-all", on_click=st.session_state.update, kwargs={"search": None},
-                      disabled=not st.session_state.get("search"))
-            family_of = recipes.groupby("origin_country")["cuisine_family"].agg(lambda f: f.mode().iat[0])
-            for family in ["Asian", "European", "Latin American", "Middle Eastern", "African", "Other"]:
-                in_family = [c for c in counts.index if family_of.get(c) == family]
-                if in_family:
-                    st.pills("North America, Oceania and more" if family == "Other" else family, in_family,
-                             key=f"browse-{family}", on_change=pick_place, args=(f"browse-{family}",))
-        country, region, dish = read_search(query)
+        country, region, dish_words = read_search(query)
+        if country:   # a typed or picked place moves the explorer there too
+            st.session_state["explore"] = TAX.node_for(country, region) or st.session_state.get("explore")
+            st.session_state["explore-from-search"] = True
+        elif st.session_state.get("explore-from-search"):   # the search was cleared: so is the place it set
+            st.session_state["explore"], st.session_state["explore-from-search"] = None, False
+        with browse_spot.popover("Explore by place", width="stretch"):
+            explore_by_place()
+        explore = st.session_state.get("explore")
         if country:
-            pool = cast(pd.DataFrame, pool[pool["origin_country"] == country])
+            pool = pool[pool["origin_country"] == country]
         if region:
-            pool = cast(pd.DataFrame, pool[pool["origin_region"] == region])
-        for word in dish:
-            pool = cast(pd.DataFrame, pool[pool["recipe_name"].str.contains(word, case=False, regex=False)])
-        if query:                                   # what the search is doing, above the results
-            asked = [f"dishes from {region + ', ' if region else ''}{country}"] if country else []
-            asked += ['"' + " ".join(dish) + '" in the name'] if dish else []
-            st.caption("Looking for " + ", ".join(asked) + f" · {len(pool):,} recipes")
+            pool = pool[TAX.mask(pool, explore)] if explore and TAX.nodes[explore].name == region \
+                else pool[pool["origin_region"] == region]
+        if not country and explore and explore != "world":   # a zone, a food region or a West Coast: its branch
+            pool = pool[TAX.mask(pool, explore)]
+        for word in dish_words:
+            pool = pool[pool["recipe_name"].str.contains(word, case=False, regex=False)]
+        if query or (explore and explore != "world"):   # what the search is doing, above the results
+            where = " › ".join(n.name for n in TAX.path(explore)[1:]) if explore else country
+            looking_for = [f"dishes from {where}"] if where else []
+            looking_for += ['"' + " ".join(dish_words) + '" in the name'] if dish_words else []
+            st.caption("Looking for " + ", ".join(looking_for) + f" · {len(pool):,} recipes")
     else:                                           # the demo data has no countries: the cuisine families only
         cuisine = st.selectbox("Cuisine", ["All"] + sorted(recipes["cuisine_family"].dropna().unique()), key="cuisine")
     # Filters, one tap each, and the order; the back end applies them, and every result still passes its checks
@@ -1511,9 +1842,9 @@ with find_tab:
                 ticks = checks + (["within your calorie target"]
                                   if within_calories(row["calories_per_serving"], calories) else [])
                 if checks:
-                    shown = ticks[:4] + ([f"{len(ticks) - 4} more checks"] if len(ticks) > 4 else [])
+                    first_ticks = ticks[:4] + ([f"{len(ticks) - 4} more checks"] if len(ticks) > 4 else [])
                     info.markdown('<ul class="safe-ticks" aria-label="Checked for you">' + "".join(
-                        f"<li>{html.escape(t[:1].upper() + t[1:])}</li>" for t in shown) + "</ul>",
+                        f"<li>{html.escape(t[:1].upper() + t[1:])}</li>" for t in first_ticks) + "</ul>",
                         unsafe_allow_html=True)
                 else:
                     badge(info, "icon_alert", "Not checked: add what you can't eat under Your profile", "warn")
@@ -1544,84 +1875,211 @@ with find_tab:
             st.rerun()
 
 with check_tab:
-    st.write("Paste a recipe, one ingredient per line, to check it against your profile.")
-    name = st.text_input("Dish name", placeholder="Thai peanut bowl")
-    lines = st.text_area("Ingredients", placeholder="2 cups jasmine rice\n3 tbsp satay sauce\n1 lb chicken breast",
-                         height=140)
-
-    if st.button("Check it", type="primary"):
-        if not lines.strip():
-            st.warning("Paste at least one ingredient line first.")
+    # Check my recipe: paste anything, see what was read, get one of three
+    # levels. everflavor.recipe_check reads the paste and decides the level from the safety gate's rules.
+    st.markdown("**What are you cooking today?**")
+    st.caption("Paste an ingredient list or a whole recipe (from a website, a family card or a chat). We find the "
+               "ingredients, check each one against your profile and show what we read.")
+    name_col, servings_col = st.columns([3, 1])
+    name = name_col.text_input("Dish name (optional)", placeholder="Thai peanut bowl", key="check-name")
+    servings = servings_col.number_input("Servings (optional)", min_value=0, max_value=50, value=0, step=1,
+                                         key="check-servings", help="For calories, carbs, protein and sodium per serving")
+    lines = st.text_area("Your recipe or ingredients", key="check-text", height=180,
+                         placeholder="Ingredients\n2 chicken breasts\n1 tbsp soy sauce\n1 tsp sesame oil\n"
+                                     "2 cloves garlic\n\nInstructions\nMarinate the chicken...")
+    go, example = st.columns([1, 1])
+    example.button("Try an example", key="check-example", width="stretch", on_click=st.session_state.update,
+                   kwargs={"check-name": "Peanut chicken bowl", "check-text": CHECK_EXAMPLE})
+    if go.button("Check it", type="primary", width="stretch"):
+        read = extract_ingredients(lines)
+        ingredients = read["ingredients"]
+        if not ingredients:
+            st.warning("No ingredient lines found. Paste the ingredients, one per line, or a recipe with an "
+                       "Ingredients heading.")
         else:
             # The safety gate decides; the local AI (if on) only explains a failure, and its words are
             # replaced by a plain sentence when they do not match the gate's answer.
             dish_name = name.strip() or "Your recipe"
             loading = cooking("Checking every ingredient...")
-            report = check_and_explain(lines.splitlines(), dish_name, profile, model=ai["model"] if use_ai else None)
+            report = check_and_explain(ingredients, dish_name, profile, model=ai["model"] if use_ai else None)
+            level = review(report, ingredients, watching=bool(rule_ids))
+            # The profile level by level (everflavor.restrictions): the gate's answer sorted by category and
+            # severity, plus cautions, the cooking methods read from the steps, and what could not be checked
+            estimate = pasted_nutrition(ingredients, int(servings))   # USDA per-100 g values: an estimate
+            per_serving = (estimate or {}).get("per_serving") or {}
+            levels = assess(ingredients, dish_name, rule_ids, skip=clean_names(skip),
+                            instructions="\n".join(read["ignored"]) or None, alcohol=alcohol_setting,
+                            responses={"no_alcohol": ProfileResponse.STRICT} if fixed_strict else None,
+                            nutrition={k: per_serving.get(k) for k in ("sodium_mg", "carbs_g", "protein_g")})
             loading.empty()
             with st.container(key="verdict"):
-                if report["passed"]:
-                    chef_says(chef, "happy", f"{dish_name} fits your profile. Happy cooking!", "safe")
-                    badge(st, "icon_safe", f"{dish_name}: nothing in these ingredients breaks your profile.")
+                problems = report["problems"]
+                worst = levels["overall"]
+                if worst in ("critical", "major") or level["level"] == "conflict":
+                    worst = "critical" if worst == "critical" or level["level"] == "conflict" and worst != "major" \
+                        else "major"
+                    words = SEVERITIES[worst][1]
+                    chef_says(chef, "alert", f"Watch out! {dish_name}: {words.lower()}. {main_finding(levels)}",
+                              "alert")
+                    badge(st, f"sign_{worst}", f"{words}.", "warn")
+                elif worst == "moderate" or level["level"] == "review":
+                    chef_says(chef, "thinking", f"{dish_name} breaks none of your rules, but have a look below.")
+                    badge(st, "sign_moderate", "No rule broken, but some things need a look: a label to check, "
+                                               "a sensitivity or a goal.", "warn")
                 else:
-                    problems = report["problems"]
-                    count = f"{len(problems)} {'problem' if len(problems) == 1 else 'problems'}"
-                    chef_says(chef, "alert", f"Watch out! I found {count} in {dish_name}.", "alert")
-                    badge(st, "icon_alert", f"{dish_name}: {count} for your profile.", "warn")
-                    by_line: dict[str, list[dict]] = {}
-                    for problem in problems:              # one entry per ingredient line, with every rule it breaks
-                        by_line.setdefault(str(problem["line"]), []).append(problem)
-                    st.markdown("\n".join(
-                        f"- {where_found(text)} " + "; ".join(
-                            rule_words(p["rule"]) + because(text, p["matched"]) for p in found_here) + "."
-                        for text, found_here in by_line.items()))
-                    if report["explained_by"] != "rules":   # the local AI's words, kept only when they match the rules
-                        st.markdown(plain(report["text"]))
+                    chef_says(chef, "happy", f"{dish_name} fits your profile. Happy cooking!", "safe")
+                    badge(st, "sign_clear", "No conflicts found in these ingredient names.")
+                read_col, rules_col = st.columns([3, 2])
+                with read_col:   # what was read, line by line, so the answer can be trusted
+                    marks = {row["line"]: f"{CONFIDENCE[Confidence(conf)][0]} {CONFIDENCE[Confidence(conf)][1].lower()}"
+                             for conf, rows in levels["by_confidence"].items() for row in rows}
+                    st.markdown(f"**Detected ingredients · {len(ingredients)} checked**")
+                    st.markdown("\n".join(f"- {'✓' if i not in marks else ''} {where_found(i)}"
+                                          + (f" · {marks[i]}" if i in marks else "") for i in ingredients))
+                    if read["sections"]:
+                        st.caption("Parts of the recipe: " + ", ".join(plain(s) for s in read["sections"]))
+                    if read["ignored"]:
+                        with st.expander(f"{len(read['ignored'])} lines not checked (steps, headings, notes)"):
+                            st.markdown("\n".join(f"- {plain(line)}" for line in read["ignored"]))
+                with rules_col:   # the profile, level by level: what matched, what is fine, what was not checked
+                    st.markdown("**Your profile, level by level**")
+                    if not rule_ids:
+                        st.markdown("Nothing in your profile yet: add allergies, diets or more in the sidebar.")
+                    found_by = {f["rule"]: f for f in levels["findings"]}
+                    for category, (category_label, _sev) in CATEGORIES.items():
+                        mine = [r for r in rule_ids if RULES[r].category == category]
+                        if not mine:
+                            continue
+                        rule_rows = []
+                        for rid in mine:
+                            hit = found_by.get(rid)
+                            rule_rows.append(f"- {sign(RULES[rid].level)} {RULES[rid].label}: "
+                                             + ", ".join(plain(w) for w in hit["why"]) if hit
+                                             else f"- {sign('clear')} {RULES[rid].label}")
+                        st.markdown(f"*{category_label}*\n" + "\n".join(rule_rows), unsafe_allow_html=True)
+                    if levels["not_checked"]:
+                        st.caption("Not checked: " + "; ".join(levels["not_checked"]) + ".")
+                # What we found, by how sure we are (everflavor.confidence): listed outright, usually or sometimes
+                # made with it (sourced), or a product whose contents we can't see. Severity is the sign in front.
+                by_line: dict[str, list[dict]] = {}
+                for problem in problems:              # the gate's words for a line, with every rule it breaks
+                    by_line.setdefault(str(problem["line"]), []).append(problem)
+                found_rows = []
+                for conf, (_mark, group_title) in CONFIDENCE.items():
+                    rows = levels["by_confidence"][conf.value]
+                    if not rows:
+                        continue
+                    found_rows.append(f"**{group_title}**")
+                    for row in rows:
+                        if conf is Confidence.VERIFIED and row["line"] in by_line:
+                            said = "; ".join(rule_words(p["rule"]) + because(row["line"], p["matched"])
+                                             for p in by_line[row["line"]])
+                        else:
+                            said = f"{', '.join(row['rules'])}: " + "; ".join(plain(n) for n in row["notes"])
+                        links = " ".join(f"[source]({s})" for s in row["sources"])
+                        found_rows.append(f"- {sign(row['severity'])} {where_found(row['line'])} {said}. {links}".rstrip())
+                if found_rows:   # user text goes through plain() (every HTML sign escaped), so only the signs are HTML
+                    st.markdown("**What we found, and how sure we are**\n\n" + "\n".join(found_rows),
+                                unsafe_allow_html=True)
+                if levels["preparation"]:   # how the dish is made: cooking methods, raw or fermented, what the steps add
+                    st.markdown("**How it's made**\n\n" + "\n".join(
+                        f"- {sign(row['severity'])} {where_found(row['line'])} {', '.join(row['rules'])}: "
+                        + "; ".join(plain(n) for n in row["notes"] if n) + "." for row in levels["preparation"]),
+                        unsafe_allow_html=True)
+                if estimate:   # good to know: the estimate, how much of the recipe it counts, and the meal goal
+                    amounts = estimate["per_serving"] or estimate["total"]
+                    unit = "per serving" if estimate["per_serving"] else "in the whole recipe (add servings for per serving)"
+                    goal = (f" Your goal: about {int(calories)} calories a meal."
+                            if estimate["per_serving"] and amounts["calories"] > calories else "")
+                    st.markdown(f"{sign('info')} **Nutrition, estimated** {unit}: about {amounts['calories']:.0f} "
+                                f"calories, {amounts['carbs_g']:.0f} g carbs, {amounts['protein_g']:.0f} g protein, "
+                                f"{amounts['sodium_mg']:.0f} mg sodium (from {estimate['counted']} of "
+                                f"{estimate['lines']} lines, USDA values).{goal}", unsafe_allow_html=True)
+                if levels["no_issue"] and rule_ids:
+                    st.markdown(f"{sign('clear')} **No issue found** against your profile: "
+                                + ", ".join(plain(line) for line in levels["no_issue"]) + ".", unsafe_allow_html=True)
+                if problems and report["explained_by"] != "rules":   # the local AI's words, kept only when they match
+                    st.markdown(plain(report["text"]))
                 skipped = report.get("skipped", [])
                 if skipped:   # foods the user doesn't eat: a note, never part of the safety verdict
                     st.markdown("**Foods you don't eat in this recipe:**\n" + "\n".join(
                         f"- {where_found(str(s['line']))} has {', '.join(plain(f) for f in s['foods'])}." for s in skipped))
-                checked = [checked_words(r) for r in report["checked"] if r != "contains_pet_meat"]
-                st.caption(("Checked for: " + ", ".join(checked) + ". " if checked else "")
-                           + "The app's rules made this decision"
+                ingredient_notes = specialty_in(ingredients, specialty_table())
+                if ingredient_notes:   # Walter's notes: sourced facts about the ingredients, never part of the verdict
+                    st.markdown(f"**{WAITER}'s notes**\n" + "\n".join(
+                        f"- **{n['ingredient']}**: {n['note']} [Source]({n['source']})" for n in ingredient_notes))
+                    st.caption("The Map tab's stores can help you find these.")
+                st.caption("The app's rules made this decision"
                            + (f"; the local AI ({report['explained_by']}) only explained it." if report["explained_by"] != "rules"
-                              else ".") + " Not medical advice: the check reads ingredient names.")
+                              else ".") + " Not medical advice: the check reads ingredient names, not labels.")
 
 with map_tab:
-    # Where to buy and where to eat, Houston only for now (docs/plans/MAP.md): OpenStreetMap places from notebook 03
-    # on a free OpenFreeMap street map. The map never asks where the visitor is.
-    st.write("Grocers, restaurants and butchers in Houston, Texas, for now. More cities may follow.")
-    places_file = DATA / "places.parquet"
-    if not places_file.exists():
-        places_file = ROOT / "data" / "processed" / "places.parquet"
-    if not places_file.exists():
+    # The Food Discovery Map (docs/plans/MAP.md): OpenStreetMap places from notebook 03 on a free OpenFreeMap street
+    # map. Every claim on it comes from everflavor.places with its evidence level and reason; the page only shows
+    # them. The map never asks where the visitor is.
+    st.write("Grocers, markets, butchers and restaurants in Greater Houston, Texas, for now. More cities may follow.")
+    places = map_data()
+    if places.empty:
         st.info("The map needs the places from notebook 03 (data/processed/places.parquet).")
     else:
-        places = pd.read_parquet(places_file).dropna(subset=["lat", "lng"])
-        places["cuisine_text"] = places["cuisine"].map(lambda c: ", ".join(c) if c is not None and len(c) else "")
-        kinds = {"Grocers": "grocery", "Restaurants": "restaurant", "Butchers": "butcher"}
-        picked = st.pills("Show", list(kinds), default=list(kinds), selection_mode="multi", key="map-kinds") or []
-        shown = cast(pd.DataFrame, places[places["category"].isin([kinds[k] for k in picked])])
+        present = set(places["category"])
+        map_kinds = {label: kind for label, kind in MAP_KINDS.items() if kind in present}
+        kinds_picked = st.pills("Show", list(map_kinds), selection_mode="multi", key="map-kinds",
+                                default=[k for k in map_kinds if k != "Convenience stores"]) or []
+        cuisine_spot, diet_spot, level_spot = st.columns(3)
         searched = read_search(st.session_state.get("search"))[0]
-        adjective = next((label for label, (country, _) in ORIGIN_LABELS.items()
-                          if country == searched and " " not in label and label.endswith(("an", "ese", "ish", "i"))), None)
-        if adjective and st.toggle(f"Only {adjective} places (from your search)", value=True, key="map-match"):
-            words = f"{adjective}|{searched.lower()}" if searched else adjective
-            text = shown["cuisine_text"].str.lower() + " " + shown["name_hint"].fillna("").str.lower() + " " \
-                + shown["name"].fillna("").str.lower()
-            shown = cast(pd.DataFrame, shown[text.str.contains(words, regex=True)])
-        st.caption(f"{len(shown):,} places in Houston from OpenStreetMap. Unverified: check with the store. "
-                   "© OpenStreetMap contributors, map © OpenFreeMap.")
-        colors = {"grocery": [69, 117, 54], "restaurant": [217, 72, 59], "butcher": [139, 69, 19]}
-        shown = shown.assign(color=shown["category"].map(colors), label=shown["name"].fillna("(no name)"),
-                             kind=shown["category"].str.capitalize())
-        st.pydeck_chart(pdk.Deck(
+        cuisine_options = map_cuisines()
+        wanted = COUNTRY_CUISINES.get(searched or "")
+        if st.session_state.get("map-last-search", "") != (searched or ""):   # a new search: the map follows it
+            st.session_state["map-last-search"] = searched or ""
+            st.session_state["map-cuisine"] = wanted if wanted in cuisine_options else "Any cuisine"
+        map_cuisine = cuisine_spot.selectbox(
+            "Cuisine", ["Any cuisine", *cuisine_options], key="map-cuisine",
+            format_func=lambda c: c if c == "Any cuisine" else c.title(),
+            help="From the place's OpenStreetMap cuisine tag or, when it has none, its name.")
+        map_diet = diet_spot.selectbox("Diet", ["Any", "Halal", "Kosher", "Vegetarian", "Vegan"], key="map-diet",
+                                       help="Only places with evidence for this diet. Unknown is not a no.")
+        map_level = level_spot.radio("Evidence", ["Likely or verified", "Verified only"], key="map-level",
+                                     disabled=map_diet == "Any", horizontal=True,
+                                     help="Verified: a certifier's list or the business's own site, checked by "
+                                          "the team. Likely: OpenStreetMap's tags or the business's name.")
+        rows = map_rows(tuple(map_kinds[k] for k in kinds_picked),
+                        None if map_cuisine == "Any cuisine" else map_cuisine,
+                        None if map_diet == "Any" else map_diet.lower(),
+                        "verified" if map_level == "Verified only" else "likely")
+        st.caption(f"{len(rows):,} places from OpenStreetMap. Unverified unless marked verified: check with the "
+                   f"business before you go. {MAP_CREDIT}")
+        drawn = rows.assign(color=rows["category"].map(MAP_COLORS),
+                            kind_text=rows["category"].str.capitalize())[
+            ["osm_id", "lng", "lat", "color", "label", "kind_text", "cuisine_text", "diet_text"]]
+        event = st.pydeck_chart(pdk.Deck(
             map_style="https://tiles.openfreemap.org/styles/liberty",
-            initial_view_state=pdk.ViewState(latitude=29.76, longitude=-95.37, zoom=10.5),
-            layers=[pdk.Layer("ScatterplotLayer", shown[["lng", "lat", "color", "label", "kind", "cuisine_text"]],
-                              get_position="[lng, lat]", get_fill_color="color", get_radius=90, pickable=True)],
-            tooltip={"text": "{label}\n{kind} {cuisine_text}\nUnverified: check with the store"}),
-            height=480)
+            initial_view_state=pdk.ViewState(latitude=29.76, longitude=-95.37, zoom=9.5),
+            layers=[pdk.Layer("ScatterplotLayer", drawn, id="places", get_position="[lng, lat]",
+                              get_fill_color="color", get_radius=110, radius_min_pixels=3, pickable=True)],
+            tooltip={"text": "{label}\n{kind_text} {cuisine_text}\n{diet_text}"}),
+            height=480, on_select="rerun", selection_mode="single-object", key="map-deck")
+        # The place card: the pin picked on the map, or one picked from the list (the keyboard's way in)
+        picked_pins = event.selection.get("objects", {}).get("places", []) if event and event.selection else []
+        named_rows = rows[~rows["label"].str.startswith("Unnamed ")].sort_values("label")
+        choices = dict(zip(named_rows["osm_id"], named_rows["label"]))
+        st.selectbox("Open a place card", list(choices), format_func=lambda i: choices[i], index=None, key="map-pick",
+                     placeholder=f"Choose one of {len(choices):,} places (or click a pin on the map)",
+                     on_change=lambda: st.session_state.update({"map-card": st.session_state.get("map-pick")}))
+        pin_id = picked_pins[0].get("osm_id") if picked_pins else None
+        if pin_id != st.session_state.get("map-last-pin"):   # the newest choice wins, a pin or the list
+            st.session_state["map-last-pin"] = pin_id
+            if pin_id:
+                st.session_state["map-card"] = pin_id
+        picked_id = st.session_state.get("map-card")
+        if picked_id:
+            row = rows[rows["osm_id"] == picked_id]
+            if not row.empty:
+                with st.container(border=True, key="place-card"):
+                    place_card(st, place_facts(row.iloc[0], place_evidence().get(str(picked_id), [])))
+        hidden = len(rows) - len(named_rows)
+        if hidden:
+            st.caption(f"{hidden:,} places have no name in OpenStreetMap: they are on the map but not in the list.")
 
 # ---------- Walter, the AI waiter: a button in the page's corner; his bubble is about the dish last opened ----------
 with st.container(key="walter-corner"), st.popover(f"Ask {WAITER}, your waiter"):

@@ -31,6 +31,9 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
+sys.path.insert(0, str(ROOT / "scripts"))   # the shared fetch helpers
+import fetch_tools as ft
+
 from everflavor.knowledge import WIKIDATA_USER_AGENT, _sparql
 
 CACHE = ROOT / "data" / "raw" / "knowledge_cache"
@@ -244,24 +247,19 @@ def _get(params: dict, cache_name: str) -> dict:
     folder = CACHE / "wikipedia"
     folder.mkdir(parents=True, exist_ok=True)
     file = folder / (hashlib.sha1(cache_name.encode(), usedforsecurity=False).hexdigest()[:16] + ".json")
-    if file.exists():
-        return json.loads(file.read_text(encoding="utf-8"))
-    for attempt in range(4):
-        try:
-            response = requests.get(WIKIPEDIA_API, timeout=60, headers={"User-Agent": WIKIDATA_USER_AGENT},
-                                    params={**params, "format": "json", "formatversion": 2})
-        except (requests.ConnectionError, requests.Timeout):
-            time.sleep(10 * (attempt + 1))   # a dropped connection: wait and try again
-            continue
-        if response.status_code in (429, 500, 502, 503, 504):
-            time.sleep(10 * (attempt + 1))
-            continue
-        response.raise_for_status()
-        data = response.json()
-        file.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
-        time.sleep(1)   # fair use
+    data = ft.load_json(file, {}) if file.exists() else {}   # an unreadable cache file is asked again
+    if data:
         return data
-    raise RuntimeError("Wikipedia kept answering 'busy'; rerun later (answers so far are cached)")
+    try:
+        session = requests.Session()
+        session.headers["User-Agent"] = WIKIDATA_USER_AGENT
+        data = ft.request(session, WIKIPEDIA_API, parse=lambda r: r.json(), tries=4, wait=10.0,
+                          params={**params, "format": "json", "formatversion": 2})
+    except ft.FetchError as e:
+        raise RuntimeError(f"Wikipedia did not answer ({e}); rerun later (answers so far are cached)") from e
+    ft.save_json(data, file)
+    time.sleep(1)   # fair use
+    return data
 
 
 def list_rows(page: str) -> list[dict]:

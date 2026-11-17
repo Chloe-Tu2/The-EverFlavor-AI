@@ -71,7 +71,7 @@ def drop_skipped(df: pd.DataFrame, names: Iterable[object],
     text = pd.Series("", index=df.index)
     for column in columns:
         if column in df:
-            text = text + " " + df[column].astype(str)
+            text = text.str.cat(df[column].astype(str), sep=" ")
     return df[~text.str.contains(found, na=False)]
 
 
