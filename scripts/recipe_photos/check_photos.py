@@ -31,6 +31,9 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
+sys.path.insert(0, str(ROOT / "scripts"))
+import fetch_tools as ft
+
 from everflavor.dish_names import clean_title
 
 # Which photos: the first set (default) or Food.com's own photos from notebook 10 (PHOTO_SET=foodcom), each with
@@ -195,7 +198,7 @@ def score() -> None:
     out = pd.DataFrame({"recipe_id": photos.recipe_id, "clip_score": clip_score.round(4),
                         "rank_score": rank_score.round(3)})
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    out.to_parquet(OUT, index=False)
+    ft.save_table(out, OUT)
     print(f"score done: {len(out)} recipes, {len(dishes)} dish names, {time.time() - t0:.0f} s")
     print(out[["clip_score", "rank_score"]].describe().round(3).to_string())
 

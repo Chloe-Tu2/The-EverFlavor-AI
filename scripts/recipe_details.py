@@ -18,6 +18,9 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+sys.path.insert(0, str(ROOT / "scripts"))
+import fetch_tools as ft
+
 from everflavor.recipe_details import foodcom_details
 
 PROCESSED = ROOT / "data" / "processed"
@@ -38,7 +41,7 @@ def main(path: str | None = None) -> None:
     ours = pd.concat([pd.read_parquet(PROCESSED / f"recipes_{split}.parquet", columns=["recipe_id", "recipe_name"])
                       for split in ("train", "val", "test")], ignore_index=True)
     details = foodcom_details(pd.read_parquet(kaggle_recipes(path), columns=COLUMNS), ours)
-    details.to_parquet(PROCESSED / "foodcom_details.parquet", index=False)
+    ft.save_table(details, PROCESSED / "foodcom_details.parquet")
     foodcom = ours["recipe_id"].str.startswith("foodcom_").sum()
     print(f"{len(details):,} of {foodcom:,} Food.com recipes matched ({len(details) / foodcom:.1%})")
     for column in details.columns[1:]:

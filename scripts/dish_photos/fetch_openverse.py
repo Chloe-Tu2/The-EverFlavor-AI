@@ -34,8 +34,10 @@ import pandas as pd
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # scripts/, for the shared fetch helpers
 sys.path.insert(0, "src")
 import fetch_dish_photos as fdp
+import fetch_tools as ft
 
 API = "https://api.openverse.org/v1/images/"
 LICENSES = "cc0,pdm,by,by-sa"
@@ -116,27 +118,20 @@ def fetch_thumb(s: requests.Session, c: dict, bad: set[str]) -> Path | None:
         return have[0]
     if c["id"] in bad:
         return None
-    for t in range(5):
-        try:
-            r = s.get(c["thumbnail"], timeout=60)
-            if r.status_code == 200:
-                time.sleep(1.0)
-                if len(r.content) < fdp.MIN_BYTES:
-                    bad.add(c["id"])
-                    return None
-                kind = r.headers.get("Content-Type", "").split(";")[0]
-                p = THUMBS / f"o{c['id']}.{ {'image/png': 'png', 'image/webp': 'webp'}.get(kind, 'jpg') }"
-                p.write_bytes(r.content)
-                return p
-            if r.status_code in (400, 404):
-                bad.add(c["id"])
-                return None
-            print("  http", r.status_code, "retry", t, flush=True)
-            time.sleep(float(r.headers.get("Retry-After", 15 * (t + 1))))
-        except requests.RequestException as e:
-            print("  error", e, "retry", t, flush=True)
-            time.sleep(15 * (t + 1))
-    return None
+    try:
+        r = ft.request(s, c["thumbnail"], tries=5, wait=15.0)
+    except ft.FetchError as e:
+        if e.status in ft.GIVE_UP:   # the link is dead: never ask again
+            bad.add(c["id"])
+        return None
+    time.sleep(1.0)
+    kind = ft.image_kind(r.content)
+    if len(r.content) < fdp.MIN_BYTES or kind is None:   # a placeholder or an error page, not a photo
+        bad.add(c["id"])
+        return None
+    p = THUMBS / f"o{c['id']}.{kind}"
+    ft.write_bytes(p, r.content)
+    return p
 
 
 def stored_hashes() -> dict[str, object]:
@@ -290,7 +285,7 @@ def stage_search(top: int, upgrade_top: int, dry: bool, report: str | None) -> N
     for u in ups:
         print(f"  upgrade {u['label']!r}: {u['old_clip']:.3f} -> {u['clip']:.3f}  ({u['n']} recipes)")
     if report:
-        Path(report).write_text(json.dumps({"new": list(best.values()), "up": ups}, default=str), encoding="utf8")
+        ft.write_text(Path(report), json.dumps({"new": list(best.values()), "up": ups}, default=str))
     if dry:
         return
     write_all(res, targets, best, ups, ph)
@@ -338,12 +333,11 @@ def write_all(res: dict, targets: list[dict], best: dict, ups: list[dict], ph: p
     if hide:
         h = pd.concat(hide)
         hidden = pd.concat([pd.read_parquet(fdp.HIDDEN), h]) if fdp.HIDDEN.exists() else h
-        hidden.to_parquet(fdp.HIDDEN, index=False)
-    pd.concat([out, new[cols].astype(dtypes)], ignore_index=True).to_parquet(
-        fdp.PROC / "dish_photos.parquet", index=False)
+        ft.save_table(hidden, fdp.HIDDEN)
+    ft.save_table(pd.concat([out, new[cols].astype(dtypes)], ignore_index=True), fdp.PROC / "dish_photos.parquet")
     if man:
-        pd.concat([pd.read_csv(fdp.OUT / "manifest.csv"), pd.DataFrame(man)], ignore_index=True).to_csv(
-            fdp.OUT / "manifest.csv", index=False, encoding="utf-8")
+        ft.save_table(pd.concat([pd.read_csv(fdp.OUT / "manifest.csv"), pd.DataFrame(man)], ignore_index=True),
+                      fdp.OUT / "manifest.csv")
     print("rows added", len(new), "rows upgraded", sum(len(x) for x in hide))
 
 
