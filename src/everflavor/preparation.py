@@ -26,6 +26,11 @@ PREP_RISKS: dict[str, tuple[str, str]] = {
                                           r"carpaccio|ceviche|poke bowl|steak tartare|kibbeh nayeh|"
                                           r"pink in the (?:middle|centre|center))\b")),
     "fermented": ("fermented", r"\b(ferment(?:ed|ing|s|ation)?|lacto[- ]fermented)\b"),
+    # "char" alone is also a fish (Arctic char), so only the cooking forms count
+    "charred": ("charred or blackened", (r"\b(charred|charring|char (?:the|until|on|over)|blacken(?:ed|ing)?|"
+                                         r"burnt ends|flame[- ]grilled)\b")),
+    "aged": ("aged or cured", (r"\b(dry[- ]aged|aged (?:cheese|cheddar|gouda|parmesan|beef|steak)|"
+                               r"cured (?:meat|ham|salmon|sausage|pork|beef)|salt[- ]cured|dry[- ]cured)\b")),
 }
 _PATTERNS = {risk: re.compile(words, re.IGNORECASE) for risk, (_, words) in PREP_RISKS.items()}
 # words that undo a match: "not raw", "until no longer pink", "fully cooked", "cooked sushi rice"

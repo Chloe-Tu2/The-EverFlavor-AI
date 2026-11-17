@@ -26,6 +26,7 @@ from typing import Any
 import numpy as np
 import pandas as pd
 
+from .confidence import Confidence
 from .stores import COUNTRY_CUISINES, COUNTRY_REGIONS
 
 __all__ = [
@@ -45,7 +46,9 @@ __all__ = [
     "specialty_in",
 ]
 
-LEVELS = ("verified", "likely", "unknown")
+# The same confidence scale as Check my recipe and Walter (everflavor.confidence): a place is verified (a
+# checked record), likely (OpenStreetMap tags, its own name) or unknown; "possible" is not used on the map
+LEVELS = (Confidence.VERIFIED.value, Confidence.LIKELY.value, Confidence.UNKNOWN.value)
 DIET_TAGS = ("halal", "kosher", "vegetarian", "vegan")
 # How each tag reads at each level (never the bare word: "halal" alone would sound like a certification)
 _LABELS = {
@@ -103,7 +106,7 @@ def diet_evidence(row: pd.Series, verified: Iterable[Mapping] = ()) -> list[dict
         tag = str(record.get("tag", ""))
         if tag in _LABELS and str(record.get("source", "")).startswith("https://"):
             stated = str(record.get("basis") or "").strip().lower() == "business"
-            out[tag] = {"tag": tag, "level": "verified",
+            out[tag] = {"tag": tag, "level": Confidence.VERIFIED.value,
                         "label": _STATED_LABELS[tag] if stated else diet_label(tag, "verified"),
                         "reason": f"Checked {record.get('checked', '')} by {record.get('checked_by') or 'the team'}",
                         "source": str(record["source"])}
@@ -114,12 +117,12 @@ def diet_evidence(row: pd.Series, verified: Iterable[Mapping] = ()) -> list[dict
             continue
         said = row.get(f"diet_{tag}")
         if _flag(said):
-            out[tag] = {"tag": tag, "level": "likely", "label": diet_label(tag, "likely"),
+            out[tag] = {"tag": tag, "level": Confidence.LIKELY.value, "label": diet_label(tag, "likely"),
                         "reason": f"OpenStreetMap contributors list it as {tag}", "source": "OpenStreetMap"}
         elif said is False or isinstance(said, np.bool_):   # OpenStreetMap says no: the name does not overrule it
             continue
         elif re.search(_NAME_WORDS[tag], name, re.IGNORECASE):
-            out[tag] = {"tag": tag, "level": "likely", "label": diet_label(tag, "likely"),
+            out[tag] = {"tag": tag, "level": Confidence.LIKELY.value, "label": diet_label(tag, "likely"),
                         "reason": f"Its name says \"{tag}\"", "source": "the business's name"}
     return sorted(out.values(), key=lambda e: LEVELS.index(e["level"]))
 
@@ -348,5 +351,5 @@ def map_places(places: pd.DataFrame, kinds: Iterable[str], cuisine: str | None =
                     for n, k in zip(shown["name"], shown["category"])]
     out["cuisine_text"] = [", ".join(_cuisine_name(c) for c in _cuisines(r)) for r in shown.to_dict("records")]
     out["diet_text"] = ["; ".join(e["label"] for e in d) or "Diet status unknown" for d in diets]
-    out["level"] = [next((e["level"] for e in d if not diet or e["tag"] == diet), "unknown") for d in diets]
+    out["level"] = [next((e["level"] for e in d if not diet or e["tag"] == diet), Confidence.UNKNOWN.value) for d in diets]
     return out

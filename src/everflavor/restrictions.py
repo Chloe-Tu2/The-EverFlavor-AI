@@ -156,6 +156,8 @@ RULES: dict[str, Rule] = {
     "no_undercooked": Rule("preparation", "No raw or undercooked food", "prep", ("undercooked",), "",
                            "medium-rare, runny yolks, sushi, tartare, ceviche..."),
     "no_fermented": Rule("preparation", "No fermented food", "prep", ("fermented",), "moderate"),
+    "no_aged": Rule("preparation", "No aged or cured food", "prep", ("aged",), "moderate",
+                    "dry-aged beef, aged cheese, cured meat"),
     # Sensitivities: cautions, never blocks
     "lactose": _flag("sensitivities", "Lactose", "contains_dairy", note="some aged cheeses have little lactose"),
     "caffeine": _flag("sensitivities", "Caffeine", "contains_coffee_or_tea"),
@@ -174,6 +176,10 @@ RULES["nightshade_free"] = _diet("cultural", "Nightshade-free", "nightshade_free
 # Pregnancy also screens how the dish is made: raw or undercooked animal food named in the name, lines or steps
 RULES["pregnancy"] = replace(RULES["pregnancy"], prep=("undercooked",),
                              note=RULES["pregnancy"].note + ", raw or undercooked dishes")
+# "No grilled or charred food" also reads charred and blackened in the name, lines and steps; the MAOI screen also
+# reads aged and cured foods named outright (aged cheese and cured meat are the usual high-tyramine foods)
+RULES["no_grilled"] = replace(RULES["no_grilled"], prep=("charred",))
+RULES["maoi"] = replace(RULES["maoi"], prep=("aged",), note=RULES["maoi"].note + ", aged or cured foods")
 # Every other flag the profile can pick is a personal or cultural rule ("No beef", "No carmine" is the insect dye)
 _COVERED = {t for r in RULES.values() if r.kind == "flag" for t in r.targets} | {"contains_pet_meat"}
 for _name in sorted(set(FLAG_RULES) - _COVERED):

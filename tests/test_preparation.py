@@ -54,3 +54,11 @@ def test_preparation_rules_are_their_own_choice() -> None:
     assert [r["severity"] for r in got["preparation"]] == ["moderate"]
     assert assess(["eggs"], "Omelette", ["no_undercooked"])["not_checked"] == [
         "No raw or undercooked food (no steps to read)"]
+
+
+def test_charred_and_aged() -> None:
+    assert prep_risks("Blackened salmon") == {"charred": ["blackened"]}
+    assert prep_risks("Arctic char with lemon") == {}                  # the fish, not the cooking
+    assert prep_risks("A dry-aged ribeye") == {"aged": ["dry-aged"]}
+    got = assess(["1 ribeye", "salt"], "Dry-aged ribeye", ["maoi", "no_grilled"], instructions="Char the steak.")
+    assert {r["rules"][0] for r in got["preparation"]} == {"MAOI medicines", "No grilled or charred food"}

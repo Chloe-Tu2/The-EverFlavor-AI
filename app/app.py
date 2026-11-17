@@ -49,6 +49,7 @@ from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page co
 from updates import UPDATES  # app/updates.py: the What's new notes
 
 from everflavor import __version__, saved_recipes, waiter
+from everflavor.calories import nutrition_estimate, usda_portions
 from everflavor.confidence import CONFIDENCE, Confidence, ProfileResponse
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
@@ -1231,6 +1232,21 @@ def where_found(line_: str) -> str:
     return f"**{plain(line_)}**"
 
 
+@st.cache_resource
+def usda_data() -> tuple[pd.DataFrame, dict] | None:
+    """Notebook 01's USDA table and household weights, for the pasted recipe's estimate (None when not here)."""
+    table, folder = DATA / "usda_ingredient_nutrition.csv", ROOT / "data" / "raw" / "usda_fdc"
+    if not table.exists() or not any(folder.glob("*sr_legacy*")):
+        return None
+    return pd.read_csv(table), usda_portions(folder)
+
+
+def pasted_nutrition(lines: list[str], servings: int) -> dict | None:
+    """Calories, carbs, protein and sodium of pasted lines (calories.nutrition_estimate), or None."""
+    data = usda_data()
+    return nutrition_estimate(lines, servings or None, data[0], data[1]) if data else None
+
+
 def main_finding(levels: dict) -> str:
     """Walter's one sentence on the check: the most serious finding, the surest first, in the back end's words
     ("1 tbsp satay sauce (Peanuts): its main ingredient is ground roasted peanuts.")."""
@@ -1848,7 +1864,10 @@ with check_tab:
     st.markdown("**What are you cooking today?**")
     st.caption("Paste an ingredient list or a whole recipe (from a website, a family card or a chat). We find the "
                "ingredients, check each one against your profile and show what we read.")
-    name = st.text_input("Dish name (optional)", placeholder="Thai peanut bowl", key="check-name")
+    name_col, servings_col = st.columns([3, 1])
+    name = name_col.text_input("Dish name (optional)", placeholder="Thai peanut bowl", key="check-name")
+    servings = servings_col.number_input("Servings (optional)", min_value=0, max_value=50, value=0, step=1,
+                                         key="check-servings", help="For calories, carbs, protein and sodium per serving")
     lines = st.text_area("Your recipe or ingredients", key="check-text", height=180,
                          placeholder="Ingredients\n2 chicken breasts\n1 tbsp soy sauce\n1 tsp sesame oil\n"
                                      "2 cloves garlic\n\nInstructions\nMarinate the chicken...")
@@ -1870,9 +1889,12 @@ with check_tab:
             level = review(report, ingredients, watching=bool(rule_ids))
             # The profile level by level (everflavor.restrictions): the gate's answer sorted by category and
             # severity, plus cautions, the cooking methods read from the steps, and what could not be checked
+            estimate = pasted_nutrition(ingredients, int(servings))   # USDA per-100 g values: an estimate
+            per_serving = (estimate or {}).get("per_serving") or {}
             levels = assess(ingredients, dish_name, rule_ids, skip=clean_names(skip),
                             instructions="\n".join(read["ignored"]) or None, alcohol=alcohol_setting,
-                            responses={"no_alcohol": ProfileResponse.STRICT} if fixed_strict else None)
+                            responses={"no_alcohol": ProfileResponse.STRICT} if fixed_strict else None,
+                            nutrition={k: per_serving.get(k) for k in ("sodium_mg", "carbs_g", "protein_g")})
             loading.empty()
             with st.container(key="verdict"):
                 problems = report["problems"]
@@ -1948,6 +1970,15 @@ with check_tab:
                         f"- {sign(row['severity'])} {where_found(row['line'])} {', '.join(row['rules'])}: "
                         + "; ".join(plain(n) for n in row["notes"] if n) + "." for row in levels["preparation"]),
                         unsafe_allow_html=True)
+                if estimate:   # good to know: the estimate, how much of the recipe it counts, and the meal goal
+                    amounts = estimate["per_serving"] or estimate["total"]
+                    unit = "per serving" if estimate["per_serving"] else "in the whole recipe (add servings for per serving)"
+                    goal = (f" Your goal: about {int(calories)} calories a meal."
+                            if estimate["per_serving"] and amounts["calories"] > calories else "")
+                    st.markdown(f"{sign('info')} **Nutrition, estimated** {unit}: about {amounts['calories']:.0f} "
+                                f"calories, {amounts['carbs_g']:.0f} g carbs, {amounts['protein_g']:.0f} g protein, "
+                                f"{amounts['sodium_mg']:.0f} mg sodium (from {estimate['counted']} of "
+                                f"{estimate['lines']} lines, USDA values).{goal}", unsafe_allow_html=True)
                 if levels["no_issue"] and rule_ids:
                     st.markdown(f"{sign('clear')} **No issue found** against your profile: "
                                 + ", ".join(plain(line) for line in levels["no_issue"]) + ".", unsafe_allow_html=True)
