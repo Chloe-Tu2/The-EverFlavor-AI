@@ -34,6 +34,13 @@ import streamlit as st
 # Let Python find our package in src/ (same trick the notebooks use).
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
+# Streamlit Cloud reruns this file after a deploy but keeps the modules it imported before, so new code in
+# src/everflavor would fail to import ("cannot import name ..."). When any of those files changed since they were
+# loaded, forget the old copies so they load fresh; otherwise nothing is reloaded.
+_SRC_STAMP = max((p.stat().st_mtime for p in (ROOT / "src" / "everflavor").glob("*.py")), default=0.0)
+if sys.modules.get("everflavor") is not None and getattr(sys.modules["everflavor"], "_app_stamp", None) != _SRC_STAMP:
+    for _name in [m for m in sys.modules if m == "everflavor" or m.startswith("everflavor.")]:
+        del sys.modules[_name]
 
 from chef_lines import (  # app/chef_lines.py: what the chef says, with its sources
     greeting,
@@ -92,6 +99,8 @@ from everflavor.restrictions import (
 from everflavor.safety import UserProfile
 from everflavor.stores import COUNTRY_CUISINES
 from everflavor.taxonomy import load_taxonomy
+
+vars(sys.modules["everflavor"])["_app_stamp"] = _SRC_STAMP   # these copies match the files on disk now
 
 DATA = ROOT / "data" / "processed"
 ART = ROOT / "design" / "pixel-art" / "assets"   # drawn by design/pixel-art/make_pixel_art.py
