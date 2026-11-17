@@ -17,6 +17,7 @@ color themes are in app/themes.py. Settings (top right of the page) switch the t
 import ast
 import base64
 import html
+import json
 import random
 import re
 import sys
@@ -884,6 +885,9 @@ Cook the rice. Grill the chicken with the sauces and serve on the rice."""   # C
 TAX = st.cache_resource(load_taxonomy)()
 EXPLORE_ROWS = [("zone", "Zone"), ("region", "Food region"), ("country", "Country"), ("within", "Within the country"),
                 ("deeper", "Deeper")]
+# What to pick before a muted row opens ("Pick a place in the country first", not "a within the country")
+EXPLORE_PICK_FIRST = {"zone": "a zone", "region": "a food region", "country": "a country",
+                      "within": "a place in the country", "deeper": "a place"}
 
 
 @st.cache_data(show_spinner=False)
@@ -936,8 +940,8 @@ def explore_by_place() -> None:
             st.pills(label, options, key=f"explore-{key}", on_change=explore_picked, args=(row,),
                      format_func=lambda s: f"{TAX.nodes[s].name} · {counts.get(s, 0):,}")
         elif parent is None or key in ("zone", "region", "country"):   # muted: shows the depth, not a wall of names
-            first = EXPLORE_ROWS[row - 1][1].lower() if row else "zone"
-            st.pills(label, [f"Pick a {first} first"], key=f"explore-{key}-muted", disabled=True)
+            first = EXPLORE_PICK_FIRST[EXPLORE_ROWS[row - 1][0]] if row else "a zone"
+            st.pills(label, [f"Pick {first} first"], key=f"explore-{key}-muted", disabled=True)
     if st.session_state.get("explore"):
         st.button("Show all places", key="explore-all", on_click=st.session_state.update,
                   kwargs={"explore": None, "search": None, "explore-from-search": False})
@@ -1252,9 +1256,15 @@ def where_found(line_: str) -> str:
 def usda_data() -> tuple[pd.DataFrame, dict] | None:
     """Notebook 01's USDA table and household weights, for the pasted recipe's estimate (None when not here)."""
     table, folder = DATA / "usda_ingredient_nutrition.csv", ROOT / "data" / "raw" / "usda_fdc"
-    if not table.exists() or not any(folder.glob("*sr_legacy*")):
+    saved = DATA / "usda_portions.json"   # the demo data's copy of the household weights (scripts/demo_extras.py)
+    if not table.exists():
         return None
-    return pd.read_csv(table), usda_portions(folder)
+    if any(folder.glob("*sr_legacy*")):
+        return pd.read_csv(table), usda_portions(folder)
+    if saved.exists():
+        weights = json.loads(saved.read_text(encoding="utf-8"))
+        return pd.read_csv(table), {int(fdc): dict(units) for fdc, units in weights.items()}
+    return None
 
 
 def pasted_nutrition(lines: list[str], servings: int) -> dict | None:
