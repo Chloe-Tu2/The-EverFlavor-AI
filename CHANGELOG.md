@@ -12,6 +12,60 @@ Versions below 1.0 are the **beta**. The version lives in `src/everflavor/__init
 notes people see in the app's "What's new" bell are in `app/updates.py`; `tests/test_version.py` checks that all
 three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published as a GitHub Release.
 
+## [0.7.1] - 2026-11-17
+
+The living kitchen, the waiters, the map and Check my recipe as a safety assistant. It sums up the work since
+0.5.1, including the branches planned as 0.5.2 and 0.6.3 (0.6.0 was skipped as a number; its items stay in the
+planner).
+
+### Added
+
+- **A welcome page** before the kitchen: the promise, one button in, how it works and how we check.
+- **Living kitchens** (Japanese, Chinese, Mediterranean, Mexican, Middle Eastern, Moroccan, Classic): the light
+  follows your clock or a time you pick, and you can tap the plants, lamps, pots and stools. Each region has a chef,
+  as a man or a woman, with greetings in the region's language and 13 checked quotes from chefs of that region.
+- **Search by dish, country or region**, Browse by region and **Explore by place**, on the new **Food Taxonomy**
+  (`data/reference/food_taxonomy.csv`, 150 places from world to culinary region, placed by the UN M49 regions).
+- **The dish page**: the dish's clean name, how to say it (65 dishes), the steps one at a time, cookware, estimated
+  cook times, Food.com's own times, servings and extra nutrition (CC0), "Where to buy" and a YouTube search.
+- **Walter or Nathalie, the waiter**: a dish's story from open data (Wikipedia and Wikidata, 4,885 dishes and
+  foods), never invented; six tones; every question screened (71-question injection test set); an optional local
+  retelling that is thrown away if it adds or loses a fact.
+- **Check my recipe as a safety assistant**: reads anything pasted; each finding has a pixel sign for how serious
+  it is and says how sure we are (verified, likely, possible, unknown); "may contain" foods (33 sourced rows),
+  preparation risks (raw, fermented, charred, aged), a nutrition estimate for the servings given, and an alcohol
+  setting (cooked-in and extracts as the person's own choices).
+- **The profile in levels**, in four groups; each rule can be strict, avoid, warn or ignore (allergies and medical
+  screens always strict).
+- **Map: Houston**: 5,473 OpenStreetMap places with the evidence for each diet or cuisine claim, a one-tap address
+  copy and a link to the place's website.
+- **Photos**: Food.com's own photos (CC0, 111,803 recipes), free general dish photos from Wikimedia Commons (3,327
+  photos for 48,172 recipes, labelled "not this recipe"), logos and wrong photos hidden, and a pixel-art
+  "Cooking up a picture..." card when there is none.
+- **Saved recipes** in the browser (beta), with a backup file; **Report a bug / Suggest a feature** forms.
+- **Notebooks 10 to 13**: recipe photos, dish knowledge, the safety engine check (10,000 recipes) and the taxonomy
+  and map coverage.
+- **The live site's demo data** has the map, recipe origins and the USDA tables (`scripts/demo_extras.py`).
+
+### Changed
+
+- Severity is shown with pixel signs (stop sign, warning, caution, information, green circle) instead of emoji.
+- All regions is the default search; the Check tab speaks plain English (no rule names or codes).
+- uv and a lock file (`config/requirements.lock`) install every library at a tested version; CI installs from it.
+
+### Fixed
+
+- The live site no longer fails with an ImportError after a deploy (it reloads the project's code when it changed).
+- Your kitchen pick is kept after a refresh.
+- A recipe card no longer fails when its photo check is missing.
+
+### Security
+
+- Dependabot, osv-scanner, dependency review and CodeQL run on every push; Actions are pinned by commit.
+- oauthlib 4.0.1 (GHSA-3jp2-3mrg-2vxc) and later dependency updates.
+- Ingredient parsing can no longer be slowed for minutes by a crafted pasted line (three CodeQL ReDoS alerts).
+- The commit hook refuses Kaggle keys anywhere in the project.
+
 ## [0.5.1] - 2026-10-22
 
 The first numbered release (beta). It sums up the work since the project started in September 2026.
@@ -61,4 +115,5 @@ The first numbered release (beta). It sums up the work since the project started
 - Chosen allergy and diet tags, and the recipe cards, were not styled in Streamlit 1.65.
 - Recipe cards without a photo showed an empty space (for example Poblano Posole); they now show a covered dish.
 
+[0.7.1]: https://github.com/Chloe-Tu2/The-EverFlavor-AI/releases/tag/v0.7.1
 [0.5.1]: https://github.com/Chloe-Tu2/The-EverFlavor-AI/releases/tag/v0.5.1
