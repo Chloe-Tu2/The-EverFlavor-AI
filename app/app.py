@@ -1000,11 +1000,17 @@ def map_rows(kinds: tuple[str, ...], cuisine: str | None, diet: str | None, leve
     return map_places(map_data(), kinds, cuisine=cuisine, diet=diet, level=level, evidence=place_evidence())
 
 
-def web_link(url: object) -> str:
-    """A Markdown link for a place's own website, only for a plain http(s) address; else ""."""
+def website_url(url: object) -> str:
+    """A place's own website, only when it is a plain http(s) address (OpenStreetMap text); else ""."""
     if isinstance(url, str) and re.fullmatch(r"https?://[^\s()<>\[\]]+", url.strip()):
-        return f"[Website]({url.strip()})"
+        return url.strip()
     return ""
+
+
+def site_link(place: dict) -> str:
+    """ · [Website](...) for a store or restaurant row with a plain http(s) site (opens their own page); else ""."""
+    url = website_url(place.get("website"))
+    return f" · [Website]({url})" if url else ""
 
 
 def place_card(place, facts: dict) -> None:
@@ -1017,9 +1023,14 @@ def place_card(place, facts: dict) -> None:
             place.markdown(f"- **{LEVEL_MARKS[item['level']]}:** {item['label']}. {plain(item['reason'])}.")
     else:
         place.markdown(f"- **{LEVEL_MARKS['unknown']}:** {UNKNOWN_LABEL}.")
-    details = [plain(facts["hours"])] + [plain(facts[k]) for k in ("address", "phone") if facts[k]]
-    link = web_link(facts.get("website"))
-    place.caption(" · ".join(details + ([link] if link else [])))
+    place.caption(" · ".join([plain(facts["hours"])] + ([plain(facts["phone"])] if facts["phone"] else [])))
+    if facts["address"]:   # in a code box: its copy button puts the address on the clipboard for any maps app
+        place.caption("Address (use the copy button, then paste it into your maps app)")
+        place.code(str(facts["address"]), language=None, wrap_lines=True)
+    url = website_url(facts.get("website"))
+    if url:   # their own site, to check menus, hours and certificates for yourself (opens in a new tab)
+        place.link_button("Visit their website", url, icon=":material/open_in_new:",
+                          help="From OpenStreetMap; we have not checked this site.")
     report = f" [Report a mistake]({facts['osm_url']}) (OpenStreetMap)." if facts.get("osm_url") else ""
     place.caption(facts["note"] + report)
 
@@ -1045,11 +1056,11 @@ def where_to_buy(ingredient_list: object, country: str | None) -> None:
         st.caption("No store in our data says it focuses on this food. Try a large supermarket.")
     for store in found["stores"]:
         where = f" · {plain(store['address'])}" if store["address"] else ""
-        st.markdown(f"- **{plain(store['name'])}**: {store['why']}{where}")
+        st.markdown(f"- **{plain(store['name'])}**: {store['why']}{where}{site_link(store)}")
     if found["eat"]:
         st.markdown("**Where to eat it**")
         for spot in found["eat"]:
-            st.markdown(f"- **{plain(spot['name'])}**: {spot['why']}")
+            st.markdown(f"- **{plain(spot['name'])}**: {spot['why']}{site_link(spot)}")
     st.caption(f"{found['note']} The Map tab shows them all. {MAP_CREDIT}")
 
 
