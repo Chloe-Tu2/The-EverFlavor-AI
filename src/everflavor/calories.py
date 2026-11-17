@@ -91,7 +91,7 @@ _PREP_WORDS = ("peeled|seeded|cored|pitted|trimmed|rinsed|drained|shredded|grate
                "crushed|cubed|halved|quartered|julienned|cooled|softened|melted|beaten|"
                "finely|coarsely|thinly|freshly|lightly|roughly")
 # A weight written in brackets is the line's total: "1/2 cup (35g) breadcrumbs", "(about 2 pounds)"
-_WRITTEN_WEIGHT = re.compile(r"\(\s*(?:about|approx\.?|approximately|~)?\s*(?P<n>\d+(?:\.\d+)?)\s*"
+_WRITTEN_WEIGHT = re.compile(r"\(\s*(?:(?:about|approx\.?|approximately|~)\s*)?(?P<n>\d+(?:\.\d+)?)\s*"
                              r"(?P<u>g|grams?|kg|oz|ounces?|lbs?|pounds?)\b", re.IGNORECASE)
 
 
@@ -114,6 +114,9 @@ def parse_ingredient_line(line: object) -> dict:
         amount is None when the line gives none ("salt to taste").
     """
     text = "" if line is None or (isinstance(line, float) and np.isnan(line)) else str(line)
+    # one space between words: the patterns below never meet a long run of spaces (a pasted line with
+    # thousands of them would otherwise take minutes; CodeQL py/polynomial-redos)
+    text = re.sub(r"\s+", " ", text)
     for symbol, fraction in _UNICODE_FRACTIONS.items():
         text = re.sub(rf"(\d)\s*{symbol}", rf"\1 {fraction}", text).replace(symbol, fraction)
     text = re.sub(r"(\d)\s*/\s*(\d)", r"\1/\2", text.replace("⁄", "/"))   # "1 ⁄ 2", "1 /2" -> "1/2"

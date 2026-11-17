@@ -123,3 +123,19 @@ def test_nutrition_estimate_for_pasted_lines() -> None:
 
 if __name__ == "__main__":
     sys.exit(pytest.main([__file__, "-q"]))
+
+
+def test_long_pasted_lines_stay_fast() -> None:
+    """CodeQL py/polynomial-redos: runs of spaces or "(" in a pasted line once took minutes."""
+    import time
+
+    from everflavor.calories import parse_ingredient_line
+    from everflavor.ingredients import _drop_brackets, normalize_ingredient
+    start = time.perf_counter()
+    for line in ("(" + " " * 50_000, "1 cup x" + " " * 50_000 + "y", "(" * 50_000):
+        parse_ingredient_line(line)
+        normalize_ingredient(line)
+    assert time.perf_counter() - start < 5
+    assert _drop_brackets("egg (large (about 50 g)) whole").split() == ["egg", "whole"]
+    assert _drop_brackets("nuts (see note") == "nuts (see note"         # never closed: kept
+    assert parse_ingredient_line("salt    to taste")["ingredient"] == "salt"
