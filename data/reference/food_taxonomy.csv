@@ -1,0 +1,109 @@
+slug,name,level,parent,also_in,aliases
+world,World,world,,,
+asia,Asia,zone,world,,asian
+europe,Europe,zone,world,,european
+mena,Middle East & North Africa,zone,world,,middle eastern;mena
+africa,Africa,zone,world,,african
+north_america,North America,zone,world,,north american
+latin_america,Latin America,zone,world,,latin american;latin
+caribbean,Caribbean,zone,world,,
+oceania,Oceania,zone,world,,
+east_asia,East Asia,region,asia,,
+southeast_asia,Southeast Asia,region,asia,,
+south_asia,South Asia,region,asia,,
+british_isles,British Isles,region,europe,,
+western_europe,Western Europe,region,europe,,
+nordic,Nordic Countries,region,europe,,scandinavian;nordic
+central_europe,Central Europe,region,europe,,
+eastern_europe,Eastern Europe,region,europe,,
+mediterranean_europe,Mediterranean Europe,region,europe,,mediterranean
+levant,Levant,region,mena,,levantine
+anatolia,Anatolia,region,mena,,
+persian_region,Persian Region,region,mena,,
+mesopotamia,Mesopotamia,region,mena,,
+arabian_peninsula,Arabian Peninsula,region,mena,,arabian;gulf
+north_africa,North Africa,region,mena,africa,north african;maghreb
+east_africa,East Africa,region,africa,,
+southern_africa,Southern Africa,region,africa,,
+usa_canada,United States & Canada,region,north_america,,
+mexico_central_america,Mexico & Central America,region,latin_america,,
+south_america,South America,region,latin_america,,south american
+caribbean_islands,Caribbean Islands,region,caribbean,,
+australasia,Australasia,region,oceania,,
+china,China,country,east_asia,,chinese
+japan,Japan,country,east_asia,,japanese
+south_korea,South Korea,country,east_asia,,korean;korea
+thailand,Thailand,country,southeast_asia,,thai
+vietnam,Vietnam,country,southeast_asia,,vietnamese
+philippines,Philippines,country,southeast_asia,,filipino
+indonesia,Indonesia,country,southeast_asia,,indonesian
+malaysia,Malaysia,country,southeast_asia,,malaysian
+cambodia,Cambodia,country,southeast_asia,,cambodian;khmer
+india,India,country,south_asia,,indian
+pakistan,Pakistan,country,south_asia,,pakistani
+united_kingdom,United Kingdom,country,british_isles,,british;uk
+ireland,Ireland,country,british_isles,,irish
+france,France,country,western_europe,mediterranean_europe,french
+belgium,Belgium,country,western_europe,,belgian
+netherlands,Netherlands,country,western_europe,,dutch
+sweden,Sweden,country,nordic,,swedish
+denmark,Denmark,country,nordic,,danish
+norway,Norway,country,nordic,,norwegian
+finland,Finland,country,nordic,,finnish
+germany,Germany,country,central_europe,,german
+austria,Austria,country,central_europe,,austrian
+switzerland,Switzerland,country,central_europe,western_europe,swiss
+czech_republic,Czech Republic,country,central_europe,,czech
+hungary,Hungary,country,central_europe,eastern_europe,hungarian
+poland,Poland,country,central_europe,eastern_europe,polish
+russia,Russia,country,eastern_europe,,russian
+italy,Italy,country,mediterranean_europe,,italian
+greece,Greece,country,mediterranean_europe,,greek
+spain,Spain,country,mediterranean_europe,,spanish
+portugal,Portugal,country,mediterranean_europe,,portuguese
+lebanon,Lebanon,country,levant,,lebanese
+palestine,Palestine,country,levant,,palestinian
+turkey,Turkey,country,anatolia,europe,turkish
+iran,Iran,country,persian_region,,persian;iranian
+iraq,Iraq,country,mesopotamia,,iraqi
+saudi_arabia,Saudi Arabia,country,arabian_peninsula,,saudi
+morocco,Morocco,country,north_africa,,moroccan
+egypt,Egypt,country,north_africa,,egyptian
+ethiopia,Ethiopia,country,east_africa,,ethiopian
+south_africa,South Africa,country,southern_africa,,south african
+united_states,United States,country,usa_canada,,american;usa
+canada,Canada,country,usa_canada,,canadian
+mexico,Mexico,country,mexico_central_america,north_america,mexican
+brazil,Brazil,country,south_america,,brazilian
+argentina,Argentina,country,south_america,,argentinian;argentine
+peru,Peru,country,south_america,,peruvian
+chile,Chile,country,south_america,,chilean
+colombia,Colombia,country,south_america,,colombian
+jamaica,Jamaica,country,caribbean_islands,,jamaican
+cuba,Cuba,country,caribbean_islands,,cuban
+puerto_rico,Puerto Rico,country,caribbean_islands,,puerto rican
+australia,Australia,country,australasia,,australian
+new_zealand,New Zealand,country,australasia,,kiwi
+us_northeast,Northeastern US,division,united_states,,northeast;new england
+us_south,Southern US,division,united_states,,southern;south
+us_midwest,Midwestern US,division,united_states,,midwest
+us_southwest,Southwestern US,division,united_states,,southwest
+us_west,West Coast,division,united_states,,west coast
+us_pennsylvania,Pennsylvania,state,us_northeast,,pennsylvania dutch
+us_louisiana,Louisiana,state,us_south,,cajun;creole
+us_texas,Texas,state,us_southwest,us_south,texan;tex-mex
+us_california,California,state,us_west,,
+us_hawaii,Hawaii,state,united_states,,hawaiian
+us_pacific_northwest,Pacific Northwest,culinary_region,us_west,,
+uk_england,England,state,united_kingdom,,english
+uk_scotland,Scotland,state,united_kingdom,,scottish
+uk_wales,Wales,state,united_kingdom,,welsh
+ca_ontario,Ontario,state,canada,,
+ca_british_columbia,British Columbia,state,canada,,
+ca_quebec,Quebec,state,canada,,quebecois
+mx_baja_california,Baja California,state,mexico,,
+mx_oaxaca,Oaxaca,state,mexico,,oaxacan
+cn_sichuan,Sichuan,state,china,,szechuan;sichuanese
+cn_guangdong,Guangdong,state,china,,cantonese
+cn_hunan,Hunan,state,china,,hunanese
+cn_beijing,Beijing,state,china,,peking

@@ -64,8 +64,10 @@ from everflavor.places import (
     load_specialty_ingredients,
     map_places,
     place_facts,
+    specialty_in,
 )
 from everflavor.preferences import clean_names, common_ingredients, simplest
+from everflavor.recipe_check import extract_ingredients, review
 from everflavor.recommend import (
     baseline_recommend,
     fit_checks,
@@ -75,6 +77,7 @@ from everflavor.recommend import (
 )
 from everflavor.safety import UserProfile
 from everflavor.stores import COUNTRY_CUISINES
+from everflavor.taxonomy import load_taxonomy
 
 DATA = ROOT / "data" / "processed"
 ART = ROOT / "design" / "pixel-art" / "assets"   # drawn by design/pixel-art/make_pixel_art.py
@@ -744,7 +747,14 @@ def dish_page(row: pd.Series, dish: str) -> None:
                        f"{plain(spoken['audio_license'])}, via [Wikimedia Commons]"
                        f"(https://commons.wikimedia.org/wiki/File:{quote(name)})")
     where = row.get("origin_country")
-    if isinstance(where, str) and where != "Unknown":
+    node = TAX.node_for(where, row.get("origin_region")) if isinstance(where, str) and where != "Unknown" else None
+    if node:   # where it sits in the Food Taxonomy, and the branches next to it ("More from Sichuan · Hunan")
+        st.caption("From " + " › ".join(n.name for n in TAX.path(node)[1:]))
+        nearby = [TAX.nodes[node], *TAX.related(node)][:4]
+        for spot, place in zip(st.columns(len(nearby)), nearby):
+            spot.button(f"More from {place.name}", key=f"more-from-{place.slug}", width="stretch",
+                        on_click=go_to_place, args=(place.slug,))
+    elif isinstance(where, str) and where != "Unknown":
         st.caption(f"From {where}")
     st.session_state["walter_dish"] = (row, dish, where)   # Walter, in the page's corner, talks about this dish
     steps = step_breakdown(row.get("instructions"), row.get("ingredient_list"))
@@ -781,9 +791,9 @@ def dish_page(row: pd.Series, dish: str) -> None:
             # Amounts are shown only when the recipe's own source gives them; never guessed (DISH_PAGE_PLAN)
             face, note = st.columns([1, 9], vertical_alignment="center")
             walter_face(face, "thinking")
-            note.markdown("**Amounts aren't in our notes for this one.** We list what goes in, but we never guess "
-                          "how much: " + (f"{own_page} has the exact amounts." if own_page
-                                          else "check the recipe's own source for them."))
+            note.markdown(("**Exact amounts:** on " + own_page + ". " if own_page else
+                           "**Exact amounts:** in the recipe's own source. ")
+                          + "We show what goes in and never guess how much, so nothing here is made up.")
         st.markdown(f"[Watch it made on YouTube]({video_search_link(dish, where)})")
         methods = methods_of(row.get("instructions"))
         if methods:
@@ -825,6 +835,80 @@ def badge(place, icon: str, text: str, kind: str = "safe") -> None:
     """A small pixel badge: an icon and the back end's words (never the icon alone: the words carry the meaning)."""
     place.markdown(f'<div class="badge badge-{kind}"><span class="ico" style="background-image: url({art(icon)})">'
                    f'</span><span>{html.escape(text)}</span></div>', unsafe_allow_html=True)
+
+
+CHECK_EXAMPLE = """Ingredients
+- 2 chicken breasts
+- 2 tbsp satay sauce
+- 1 tbsp teriyaki sauce
+- 2 cloves garlic
+- 1 cup jasmine rice
+
+Instructions
+Cook the rice. Grill the chicken with the sauces and serve on the rice."""   # Check my recipe's example: one conflict for peanuts, one label to check
+
+
+# ---------- The Food Taxonomy: one tree of where food comes from (everflavor.taxonomy), for search, map and Walter ----------
+TAX = st.cache_resource(load_taxonomy)()
+EXPLORE_ROWS = [("zone", "Zone"), ("region", "Food region"), ("country", "Country"), ("within", "Within the country"),
+                ("deeper", "Deeper")]
+
+
+@st.cache_data(show_spinner=False)
+def taxonomy_counts() -> dict[str, int]:
+    return TAX.counts(load_recipes())
+
+
+def explore_picked(row: int) -> None:
+    """A pill in the explorer changed: go to that place (or back to its parent when it was unpicked). A country is
+    also put in the search box, so the kitchen and the map follow it; any other level filters by its branch."""
+    slug = st.session_state.get(f"explore-{EXPLORE_ROWS[row][0]}")
+    path = TAX.path(st.session_state.get("explore") or "world")
+    parent = path[row].slug if row < len(path) else "world"
+    go_to_place(slug or parent)
+
+
+def go_to_place(slug: str) -> None:
+    """A "More from ..." button: open that branch of the Food Taxonomy in the search (as the explorer would)."""
+    st.session_state["explore"] = None if slug == "world" else slug
+    country = TAX.ancestor(slug, "country")
+    node = TAX.nodes[slug]
+    if node.level == "country":
+        st.session_state["search"] = node.name
+    elif country and node.name in data_regions():
+        st.session_state["search"] = f"{node.name} ({country.name})"
+    else:
+        st.session_state["search"] = None
+    st.session_state["explore-from-search"] = st.session_state["search"] is not None
+
+
+@st.cache_data(show_spinner=False)
+def data_regions() -> set[str]:
+    return set(load_recipes()["origin_region"].dropna().unique())
+
+
+def explore_by_place() -> None:
+    """The explorer: zone, food region, country, then the country's own divisions, one row each. Every row is
+    always shown; a row that cannot be used yet stays visible but muted, saying what to pick first."""
+    counts = taxonomy_counts()
+    path = TAX.path(st.session_state.get("explore") or "world")
+    st.caption(" › ".join(n.name for n in path) + " · pick one level at a time, or type in the search box")
+    for row, (key, label) in enumerate(EXPLORE_ROWS):
+        parent = path[row] if row < len(path) else None
+        level = {"zone": "zone", "region": "region", "country": "country"}.get(key)
+        options = [] if parent is None else [
+            n.slug for n in TAX.children(parent.slug, level)
+            if counts.get(n.slug, 0) > 0 and (level or n.level not in ("zone", "region", "country"))]
+        st.session_state[f"explore-{key}"] = path[row + 1].slug if row + 1 < len(path) else None
+        if options:
+            st.pills(label, options, key=f"explore-{key}", on_change=explore_picked, args=(row,),
+                     format_func=lambda s: f"{TAX.nodes[s].name} · {counts.get(s, 0):,}")
+        elif parent is None or key in ("zone", "region", "country"):   # muted: shows the depth, not a wall of names
+            first = EXPLORE_ROWS[row - 1][1].lower() if row else "zone"
+            st.pills(label, [f"Pick a {first} first"], key=f"explore-{key}-muted", disabled=True)
+    if st.session_state.get("explore"):
+        st.button("Show all places", key="explore-all", on_click=st.session_state.update,
+                  kwargs={"explore": None, "search": None, "explore-from-search": False})
 
 
 # ---------- The Food Discovery Map's data (everflavor.places decides every claim and its words; the page shows them) ----------
@@ -1530,25 +1614,27 @@ with find_tab:
             "What would you like to eat?", suggestions, index=None, key="search", accept_new_options=True,
             placeholder="All regions. Or type a dish or where it's from: ramen, Korean, Louisiana, tacos...",
             help="Type a dish, a country or a region. The kitchen follows the country when Settings says so.")
-        with browse_spot.popover("Browse by region", width="stretch"):
-            # All regions is the default: nothing picked searches every country
-            st.button("Show all regions", key="browse-all", on_click=st.session_state.update, kwargs={"search": None},
-                      disabled=not st.session_state.get("search"))
-            family_of = recipes.groupby("origin_country")["cuisine_family"].agg(lambda f: str(f.mode().iat[0]))
-            for family in ["Asian", "European", "Latin American", "Middle Eastern", "African", "Other"]:
-                in_family = [c for c in counts.index if family_of.get(c) == family]
-                if in_family:
-                    st.pills("North America, Oceania and more" if family == "Other" else family, in_family,
-                             key=f"browse-{family}", on_change=pick_place, args=(f"browse-{family}",))
         country, region, dish_words = read_search(query)
+        if country:   # a typed or picked place moves the explorer there too
+            st.session_state["explore"] = TAX.node_for(country, region) or st.session_state.get("explore")
+            st.session_state["explore-from-search"] = True
+        elif st.session_state.get("explore-from-search"):   # the search was cleared: so is the place it set
+            st.session_state["explore"], st.session_state["explore-from-search"] = None, False
+        with browse_spot.popover("Explore by place", width="stretch"):
+            explore_by_place()
+        explore = st.session_state.get("explore")
         if country:
             pool = pool[pool["origin_country"] == country]
         if region:
-            pool = pool[pool["origin_region"] == region]
+            pool = pool[TAX.mask(pool, explore)] if explore and TAX.nodes[explore].name == region \
+                else pool[pool["origin_region"] == region]
+        if not country and explore and explore != "world":   # a zone, a food region or a West Coast: its branch
+            pool = pool[TAX.mask(pool, explore)]
         for word in dish_words:
             pool = pool[pool["recipe_name"].str.contains(word, case=False, regex=False)]
-        if query:                                   # what the search is doing, above the results
-            looking_for = [f"dishes from {region + ', ' if region else ''}{country}"] if country else []
+        if query or (explore and explore != "world"):   # what the search is doing, above the results
+            where = " › ".join(n.name for n in TAX.path(explore)[1:]) if explore else country
+            looking_for = [f"dishes from {where}"] if where else []
             looking_for += ['"' + " ".join(dish_words) + '" in the name'] if dish_words else []
             st.caption("Looking for " + ", ".join(looking_for) + f" · {len(pool):,} recipes")
     else:                                           # the demo data has no countries: the cuisine families only
@@ -1670,34 +1756,67 @@ with find_tab:
             st.rerun()
 
 with check_tab:
-    st.write("Paste a recipe, one ingredient per line, to check it against your profile.")
-    name = st.text_input("Dish name", placeholder="Thai peanut bowl")
-    lines = st.text_area("Ingredients", placeholder="2 cups jasmine rice\n3 tbsp satay sauce\n1 lb chicken breast",
-                         height=140)
-
-    if st.button("Check it", type="primary"):
-        if not lines.strip():
-            st.warning("Paste at least one ingredient line first.")
+    # Check my recipe: paste anything, see what was read, get one of three
+    # levels. everflavor.recipe_check reads the paste and decides the level from the safety gate's rules.
+    st.markdown("**What are you cooking today?**")
+    st.caption("Paste an ingredient list or a whole recipe (from a website, a family card or a chat). We find the "
+               "ingredients, check each one against your profile and show what we read.")
+    name = st.text_input("Dish name (optional)", placeholder="Thai peanut bowl", key="check-name")
+    lines = st.text_area("Your recipe or ingredients", key="check-text", height=180,
+                         placeholder="Ingredients\n2 chicken breasts\n1 tbsp soy sauce\n1 tsp sesame oil\n"
+                                     "2 cloves garlic\n\nInstructions\nMarinate the chicken...")
+    go, example = st.columns([1, 1])
+    example.button("Try an example", key="check-example", width="stretch", on_click=st.session_state.update,
+                   kwargs={"check-name": "Peanut chicken bowl", "check-text": CHECK_EXAMPLE})
+    if go.button("Check it", type="primary", width="stretch"):
+        read = extract_ingredients(lines)
+        ingredients = read["ingredients"]
+        if not ingredients:
+            st.warning("No ingredient lines found. Paste the ingredients, one per line, or a recipe with an "
+                       "Ingredients heading.")
         else:
             # The safety gate decides; the local AI (if on) only explains a failure, and its words are
             # replaced by a plain sentence when they do not match the gate's answer.
             dish_name = name.strip() or "Your recipe"
             loading = cooking("Checking every ingredient...")
-            report = check_and_explain(lines.splitlines(), dish_name, profile, model=ai["model"] if use_ai else None)
+            report = check_and_explain(ingredients, dish_name, profile, model=ai["model"] if use_ai else None)
+            level = review(report, ingredients, watching=bool(avoid or diets or vegetarian or vegan))
             loading.empty()
             with st.container(key="verdict"):
-                if report["passed"]:
-                    chef_says(chef, "happy", f"{dish_name} fits your profile. Happy cooking!", "safe")
-                    badge(st, "icon_safe", f"{dish_name}: nothing in these ingredients breaks your profile.")
-                else:
-                    problems = report["problems"]
+                problems = report["problems"]
+                if level["level"] == "conflict":
                     count = f"{len(problems)} {'problem' if len(problems) == 1 else 'problems'}"
                     chef_says(chef, "alert", f"Watch out! I found {count} in {dish_name}.", "alert")
-                    badge(st, "icon_alert", f"{dish_name}: {count} for your profile.", "warn")
+                    badge(st, "icon_alert", f"🔴 Conflict found: {count} for your profile.", "warn")
+                elif level["level"] == "review":
+                    chef_says(chef, "thinking", f"{dish_name} looks fine by its names, but check a label or two.")
+                    badge(st, "icon_alert", "🟡 Needs review: no conflict in the names, but some ready-made "
+                                            "products can hide what you avoid.", "warn")
+                else:
+                    chef_says(chef, "happy", f"{dish_name} fits your profile. Happy cooking!", "safe")
+                    badge(st, "icon_safe", "🟢 No conflicts found in these ingredient names.")
+                read_col, rules_col = st.columns([3, 2])
+                with read_col:   # what was read, line by line, so the answer can be trusted
+                    marks = {**{c["line"]: f"⚠ check its label ({c['word']})" for c in level["to_check"]},
+                             **{line: "✗ conflict" for line in level["conflict_lines"]}}
+                    st.markdown(f"**Detected ingredients · {len(ingredients)} checked**")
+                    st.markdown("\n".join(f"- {'✓' if i not in marks else ''} {where_found(i)}"
+                                          + (f" · {marks[i]}" if i in marks else "") for i in ingredients))
+                    if read["sections"]:
+                        st.caption("Parts of the recipe: " + ", ".join(plain(s) for s in read["sections"]))
+                    if read["ignored"]:
+                        with st.expander(f"{len(read['ignored'])} lines not checked (steps, headings, notes)"):
+                            st.markdown("\n".join(f"- {plain(line)}" for line in read["ignored"]))
+                with rules_col:
+                    checked = [checked_words(r) for r in report["checked"] if r != "contains_pet_meat"]
+                    st.markdown("**Checked against**")
+                    st.markdown("\n".join(f"- ✓ {c}" for c in checked) if checked
+                                else "Nothing in your profile yet: add allergies or diets to check for them.")
+                if problems:
                     by_line: dict[str, list[dict]] = {}
                     for problem in problems:              # one entry per ingredient line, with every rule it breaks
                         by_line.setdefault(str(problem["line"]), []).append(problem)
-                    st.markdown("\n".join(
+                    st.markdown("**Why**\n" + "\n".join(
                         f"- {where_found(text)} " + "; ".join(
                             rule_words(p["rule"]) + because(text, p["matched"]) for p in found_here) + "."
                         for text, found_here in by_line.items()))
@@ -1707,11 +1826,14 @@ with check_tab:
                 if skipped:   # foods the user doesn't eat: a note, never part of the safety verdict
                     st.markdown("**Foods you don't eat in this recipe:**\n" + "\n".join(
                         f"- {where_found(str(s['line']))} has {', '.join(plain(f) for f in s['foods'])}." for s in skipped))
-                checked = [checked_words(r) for r in report["checked"] if r != "contains_pet_meat"]
-                st.caption(("Checked for: " + ", ".join(checked) + ". " if checked else "")
-                           + "The app's rules made this decision"
+                ingredient_notes = specialty_in(ingredients, specialty_table())
+                if ingredient_notes:   # Walter's notes: sourced facts about the ingredients, never part of the verdict
+                    st.markdown(f"**{WAITER}'s notes**\n" + "\n".join(
+                        f"- **{n['ingredient']}**: {n['note']} [Source]({n['source']})" for n in ingredient_notes))
+                    st.caption("The Map tab's stores can help you find these.")
+                st.caption("The app's rules made this decision"
                            + (f"; the local AI ({report['explained_by']}) only explained it." if report["explained_by"] != "rules"
-                              else ".") + " Not medical advice: the check reads ingredient names.")
+                              else ".") + " Not medical advice: the check reads ingredient names, not labels.")
 
 with map_tab:
     # The Food Discovery Map (docs/plans/MAP.md): OpenStreetMap places from notebook 03 on a free OpenFreeMap street
