@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in EverFlavor does not work as it should
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! EverFlavor is a student project in beta.
+        **Please do not write personal health details** (your allergies, conditions or medicines) here: issues are public.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      placeholder: "I searched for 'tacos', picked Mexico, and the kitchen stayed Classic."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to see it again
+      placeholder: "1. Open the app  2. ...  3. ..."
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+  - type: input
+    id: version
+    attributes:
+      label: EverFlavor version
+      description: Filled in for you when you come from the app.
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: "Phone, Chrome / Laptop, Edge"
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I did not include personal health information.
+          required: true

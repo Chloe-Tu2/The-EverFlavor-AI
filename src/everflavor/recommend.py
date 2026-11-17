@@ -5,6 +5,7 @@ keyword rules (flags.py) and diet rules (diets.py) used to build the data.
 """
 from __future__ import annotations
 
+import logging
 from collections.abc import Iterable, Sequence
 
 import pandas as pd
@@ -21,18 +22,37 @@ from .flags import (
     make_flag,
     recipe_text,
 )
+from .preferences import drop_skipped
 
 __all__ = [
     "SORT_ORDERS",
     "baseline_recommend",
+    "fit_checks",
     "passes_safety_filter",
     "recipe_minutes",
     "what_blocks",
     "why_it_fits",
+    "within_calories",
 ]
 
 
 SORT_ORDERS = ("calories", "quickest", "protein")
+# The safety re-check reads candidates in chunks of top_n * 20, best first, until top_n pass. It stops after
+# this many candidates (one chunk at least), so a table whose stored flags are stale cannot hang a search;
+# the stop is logged as a warning.
+MAX_SAFETY_CHECKS = 2000
+
+logger = logging.getLogger(__name__)
+
+
+def _is(df: pd.DataFrame, column: str, value: bool) -> pd.Series:
+    """Rows where a stored flag has this value; a missing value (a nullable column) never counts."""
+    return (df[column] == value).fillna(False).astype(bool)
+
+
+def _fits(df: pd.DataFrame, column: str) -> pd.Series:
+    """Rows where a stored diet column is True; a missing value never counts."""
+    return df[column].astype("boolean").fillna(False).astype(bool)
 
 
 def recipe_minutes(df: pd.DataFrame) -> pd.Series:
@@ -49,6 +69,8 @@ def what_blocks(df: pd.DataFrame, avoid: Sequence[str] = (), diets: Sequence[str
     """When nothing fits: for each of the user's choices, how many recipes would fit without that one choice, most
     first (the app offers to drop it). A quick count on the stored flags and diet columns, before the safety
     re-check, so it says where recipes are, not that they are safe: whatever is shown next is checked again.
+    Each choice is counted the way baseline_recommend filters it: every name in `avoid` is a stored column that
+    must be False, "vegan" included (the choice "vegan recipes only" is the `vegan` argument).
 
     Returns:
         One {"kind", "choice", "recipes"} per choice; kind is "avoid", "diet", "vegetarian", "vegan", "time" or
@@ -57,12 +79,11 @@ def what_blocks(df: pd.DataFrame, avoid: Sequence[str] = (), diets: Sequence[str
     plausible = df["nutrition_plausible"].astype("boolean").fillna(False) if "nutrition_plausible" in df else True
     masks: list[tuple[str, str, pd.Series]] = []
     for flag in avoid:
-        column = "vegan" if flag == "vegan" else flag
-        if column in df.columns:
-            masks.append(("avoid", flag, df[column] == (column == "vegan")))
+        if flag in df.columns:
+            masks.append(("avoid", flag, _is(df, flag, False)))
     for diet in diets:
         if diet in df.columns:
-            masks.append(("diet", diet, df[diet].astype("boolean").fillna(False)))
+            masks.append(("diet", diet, _fits(df, diet)))
     if vegetarian:
         masks.append(("vegetarian", "vegetarian", df["vegetarian"] == True))   # a nullable column: == True, not truthiness
     if vegan:
@@ -131,15 +152,17 @@ def baseline_recommend(
     avoid: Sequence[str] = (),
     diets: Sequence[str] = (),
     top_n: int = 5,
+    skip: Sequence[str] = (),
     max_minutes: float | None = None,
     min_protein_g: float | None = None,
     sort_by: str = "calories",
 ) -> pd.DataFrame:
     """Recommend recipes with simple rules (the Week 6 baseline model).
 
-    Filters by cuisine, dietary flags and diet profiles, keeps recipes with
+    Filters by cuisine, dietary flags and diet profiles (the stored columns), keeps recipes with
     plausible listed nutrition, ranks them by distance to the calorie target,
-    and re-checks the best candidates with the safety filter.
+    and re-checks the candidates with the safety filter, best first, until `top_n` pass.
+    A diet with no stored column in `df` is checked by the safety filter alone.
 
     The optional filters and orders (the app's "Under 30 min", "High protein" and "Sort by") only narrow or reorder
     what passed; every recipe returned still passes the same safety filter.
@@ -153,6 +176,8 @@ def baseline_recommend(
         gluten_free: Restrict to gluten-free recipes.
         avoid: Flag columns to exclude, for example ("contains_pork", "contains_alcohol").
         diets: Diet profiles to require, for example ("halal_friendly",).
+        skip: Foods the user doesn't eat (not allergies), left out by name: a recipe that mentions one in its
+            ingredients or its name is dropped (preferences.py; never a safety check).
         top_n: Number of recommendations.
         max_minutes: Keep recipes that take at most this long: the recipe's own time, or the estimate
             (minutes_estimate) when it gives none; a recipe with neither is left out.
@@ -175,44 +200,46 @@ def baseline_recommend(
         raise ValueError(f"calorie_target must be a positive number of kcal, got {calorie_target!r}")
     if sort_by not in SORT_ORDERS:
         raise ValueError(f"sort_by must be one of {SORT_ORDERS}, got {sort_by!r}")
-    results = df.copy()
+    # Each filter is a mask over df; the rows are copied once, after every mask is known
+    keep = _fits(df, "nutrition_plausible")   # Step 3 of the baseline: plausible nutrition data only
 
     # Step 1: Filter by cuisine family (an unknown name is an error, not "no recipes")
     if cuisine_family:
         families = {str(f).lower(): f for f in df["cuisine_family"].dropna().unique()}
         if str(cuisine_family).strip().lower() not in families:
             raise ValueError(f"unknown cuisine_family {cuisine_family!r}; one of {sorted(families.values())}")
-        results = results[results["cuisine_family"] == families[str(cuisine_family).strip().lower()]]
+        keep &= (df["cuisine_family"] == families[str(cuisine_family).strip().lower()]).fillna(False).astype(bool)
 
-
-    # Step 2: Apply dietary flags
+    # Step 2: Apply dietary flags and the stored diet columns
     if vegetarian_only:
-        results = results[results["vegetarian"] == True]
+        keep &= _is(df, "vegetarian", True)
     if vegan_only:
-        results = results[results["vegan"] == True]
+        keep &= _is(df, "vegan", True)
     if gluten_free:
-        results = results[results["contains_gluten"] == False]
+        keep &= _is(df, "contains_gluten", False)
     for flag in avoid:
-        if flag in results.columns:
-            results = results[results[flag] == False]
-
-    # Step 3: Keep only recipes with plausible nutrition data
-    results = results.loc[
-    results["nutrition_plausible"].astype("boolean").fillna(False)
-]
+        if flag in df.columns:
+            keep &= _is(df, flag, False)
+    # Without this, a strict diet (Jain, Ital) found nothing: almost none of the best-ranked recipes fit it,
+    # and the safety filter only read the first top_n * 20. The safety filter still re-checks every result.
+    for diet in diets:
+        if diet in df.columns:
+            keep &= _fits(df, diet)
 
     # Step 3b: The optional time and protein filters
     if max_minutes is not None:
-        results = results[recipe_minutes(results) <= max_minutes]
-    if min_protein_g is not None and "protein_g" in results.columns:
-        results = results[results["protein_g"] >= min_protein_g]
+        keep &= (recipe_minutes(df) <= max_minutes).fillna(False).astype(bool)
+    if min_protein_g is not None and "protein_g" in df.columns:
+        keep &= (df["protein_g"] >= min_protein_g).fillna(False).astype(bool)
+
+    results = drop_skipped(df[keep], skip)
 
     if results.empty:
-        print("No recipes matched the given filters.")
+        logger.info("No recipes matched the given filters.")
         return results.assign(calorie_distance=pd.Series(dtype=float))
 
     # Step 4: Rank by distance to calorie target (or, near the target, by time or protein)
-    results["calorie_distance"] = (results["calories_per_serving"] - calorie_target).abs()
+    results = results.assign(calorie_distance=(results["calories_per_serving"] - calorie_target).abs())
     results = results.sort_values("calorie_distance", kind="stable")
     if sort_by != "calories":
         near = results[results["calorie_distance"] <= max(100.0, 0.2 * calorie_target)]
@@ -221,15 +248,26 @@ def baseline_recommend(
         elif "protein_g" in near.columns:
             results = near.sort_values("protein_g", ascending=False, kind="stable")
 
-    # Step 5: Safety filter on the best candidates
+    # Step 5: Safety filter, best candidates first, a chunk at a time until top_n pass
     all_avoid = tuple(avoid) + (("contains_gluten",) if gluten_free else ())
-    candidates = results.head(top_n * 20)
-    safe = candidates[candidates.apply(
-        lambda r: passes_safety_filter(r, all_avoid, vegetarian_only, vegan_only, diets), axis=1)]
-    if len(safe) < len(candidates):
-        print(f"(safety filter removed {len(candidates) - len(safe)} of {len(candidates)} candidates)")
+    chunk = max(1, top_n * 20)
+    limit = max(MAX_SAFETY_CHECKS, chunk)
+    safe_parts: list[pd.DataFrame] = []
+    found = checked = 0
+    while found < top_n and checked < min(len(results), limit):
+        candidates = results.iloc[checked:min(checked + chunk, limit)]
+        passed = candidates.apply(
+            lambda r: passes_safety_filter(r, all_avoid, vegetarian_only, vegan_only, diets), axis=1).astype(bool)
+        safe_parts.append(candidates[passed])
+        found += int(passed.sum())
+        checked += len(candidates)
+    if found < checked:
+        logger.info("safety filter removed %d of %d candidates", checked - found, checked)
+    if found < top_n and checked < len(results):
+        logger.warning("safety filter stopped after %d of %d candidates with %d of %d found",
+                       checked, len(results), found, top_n)
 
-    return safe.head(top_n)
+    return pd.concat(safe_parts).head(top_n) if safe_parts else results.head(0)
 
 
 def why_it_fits(avoid: Iterable[str] = (), diets: Iterable[str] = (), vegetarian: bool = False,
@@ -241,8 +279,27 @@ def why_it_fits(avoid: Iterable[str] = (), diets: Iterable[str] = (), vegetarian
     Returns:
         The line, or "" when the profile asks for nothing.
     """
+    parts = fit_checks(avoid, diets, vegetarian, vegan)
+    return "Checked for you: " + ", ".join(parts) if parts else ""
+
+
+def fit_checks(avoid: Iterable[str] = (), diets: Iterable[str] = (), vegetarian: bool = False,
+               vegan: bool = False) -> list[str]:
+    """Each check a recommended recipe passed, one short item each, for the card's tick list ("no peanut",
+    "halal-friendly ingredients", "vegetarian"). Like why_it_fits, it only restates the filters baseline_recommend
+    applied."""
     parts = ["no " + flag.removeprefix("contains_").replace("_", " ") for flag in avoid]
     parts += [diet.removesuffix("_friendly").replace("_", " ") + "-friendly ingredients"
               if diet.endswith("_friendly") else diet.replace("_", " ") for diet in diets]
     parts += ["vegan"] if vegan else ["vegetarian"] if vegetarian else []
-    return "Checked for you: " + ", ".join(parts) if parts else ""
+    return parts
+
+
+def within_calories(calories: object, target: object) -> bool:
+    """True when a recipe's calories per serving are known and at most the user's target per meal (policy,
+    med27-coder's UX brief 2026-11-11: "Within your calorie target" is shown only then; never a guess)."""
+    try:
+        kcal, goal = float(calories), float(target)  # type: ignore[arg-type]
+    except (TypeError, ValueError):
+        return False
+    return goal > 0 and 0 < kcal <= goal   # NaN fails both comparisons

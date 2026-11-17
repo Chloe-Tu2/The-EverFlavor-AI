@@ -13,17 +13,29 @@ from collections.abc import Iterable
 from .cooking import COOKING_METHODS, METHOD_PATTERNS, methods_from_instructions
 from .cooking_time import parse_step_minutes
 
-__all__ = ["VESSELS", "methods_of", "split_minutes", "step_breakdown"]
+__all__ = ["VESSELS", "cookware", "methods_of", "split_minutes", "step_breakdown"]
 
 # What a step cooks in or uses, first match wins (more specific names first)
 VESSELS: list[tuple[str, str]] = [
+    # The kitchens' own cookware first (Moroccan, Mexican, Chinese, Japanese, Mediterranean, Middle Eastern). Names
+    # that are also dishes (a tagine) count only as a thing to cook in: "in the tagine", "tagine pot", "its lid"
+    ("tagine", r"\b(?:in|into|to|from|of) (?:a|the|your) (?:clay |earthenware )?ta[gj]ine\b|ta[gj]ine (?:pot|dish|base|lid)"),
+    ("couscoussier", r"couscoussier|couscous steamer|top of the steamer"),
+    ("comal", r"\bcomal\b"), ("molcajete", r"molcajete"), ("tortilla press", r"tortilla press"),
+    ("bamboo steamer", r"bamboo steamer"), ("rice cooker", r"rice cooker"),
+    ("clay pot", r"clay pot|donabe|earthenware pot|sand pot"), ("sushi mat", r"sushi mat|bamboo mat|makisu"),
+    ("paella pan", r"paella pan|paellera"), ("cezve", r"\bcezve\b|\bibrik\b|turkish coffee pot"),
+    ("mortar and pestle", r"mortar|pestle"), ("tandoor", r"\btandoor\b"),
     ("slow cooker", r"slow[- ]?cooker|crock[- ]?pot"), ("pressure cooker", r"pressure[- ]?cooker|instant ?pot"),
+    ("deep fryer", r"deep[- ]?fryer"), ("roasting pan", r"roasting pan|roasting tin"),
     ("baking dish", r"baking (?:dish|pan)|casserole|\d+ ?x ?\d+ (?:inch )?(?:pan|dish)|loaf pan|pie (?:plate|dish)"),
     ("baking sheet", r"baking sheet|cookie sheet|sheet pan|baking tray"),
-    ("wok", r"\bwok\b"), ("skillet", r"skillet|frying pan|fry pan|saut[eé] pan"),
-    ("saucepan", r"saucepan|sauce pan"), ("pot", r"\b(?:stock ?pot|dutch oven|pot)\b"),
+    ("wok", r"\bwok\b"), ("griddle", r"griddle|plancha"), ("skillet", r"skillet|frying pan|fry pan|saut[eé] pan"),
+    ("steamer", r"steamer basket|\bsteamer\b"), ("dutch oven", r"dutch oven"),
+    ("saucepan", r"saucepan|sauce pan"), ("pot", r"\b(?:stock ?pot|soup pot|pot)\b"),
     ("grill", r"\bgrill\b|barbecue|\bbbq\b"), ("oven", r"\boven\b|\bbake\b|\broast\b"),
     ("microwave", r"microwave"), ("blender", r"blender|food processor"),
+    ("stand mixer", r"stand mixer|electric mixer|hand mixer|\bmixer\b"),
     ("bowl", r"\bbowl\b"), ("pan", r"\bpan\b"),
 ]
 _HEAT = re.compile(r"\b(?:bak\w*|roast\w*|boil\w*|simmer\w*|fr(?:y|ied|ies|ying)|saut\w*|grill\w*|broil\w*|"
@@ -100,6 +112,31 @@ def step_breakdown(instructions: object, ingredients: Iterable[object] | None = 
         out.append({"text": step[0].upper() + step[1:], "minutes": minutes, "on_heat": on_heat, "vessel": vessel,
                     "methods": [_METHOD_NAMES[m] for m in methods], "ingredients": _mentioned(step, items)})
     return out
+
+
+# Names a more specific one already covers: a recipe with a skillet does not also need "a pan"
+_COVERED = {"pan": ("skillet", "saucepan", "wok", "paella pan", "roasting pan", "griddle", "baking dish",
+                    "baking sheet", "comal"),
+            "pot": ("dutch oven", "clay pot", "slow cooker", "pressure cooker", "rice cooker"),
+            "steamer": ("bamboo steamer", "couscoussier"), "oven": ("tandoor",)}
+_SMALL = {"bowl"}   # every kitchen has bowls: not listed as something to get out
+
+
+def cookware(instructions: object) -> list[str]:
+    """Everything a recipe cooks in or with, in the order its steps first name it ("tagine", "saucepan",
+    "oven"), from the recipe's own words. A general name a more specific one covers is left out ("pan" next to
+    "skillet"), and so are bowls."""
+    found: dict[str, int] = {}
+    text = " ".join(_steps(instructions))
+    for name, pattern in VESSELS:
+        hit = re.search(pattern, text, re.IGNORECASE)
+        if hit and name not in _SMALL:
+            found[name] = hit.start()
+    for general, specific in _COVERED.items():
+        if general in found and any(name in found for name in specific):
+            del found[general]
+    # "pan" inside "paella pan" or "frying pan" is the same pan
+    return sorted(found, key=found.__getitem__)
 
 
 def split_minutes(breakdown: list[dict[str, object]], total: float | None) -> dict[str, float | None]:

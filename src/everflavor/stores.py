@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import re
 import time
+import unicodedata
 from collections.abc import Iterable, Mapping, Sequence
 from datetime import datetime, timezone
 from pathlib import Path
@@ -33,6 +34,7 @@ __all__ = [
     "OVERPASS_URLS",
     "PLACE_QUERIES",
     "UNVERIFIED_NOTE",
+    "count_places",
     "link_ingredients_to_products",
     "off_products_by_country",
     "osm_places",
@@ -70,15 +72,19 @@ COUNTRY_REGIONS = {
     **dict.fromkeys(["Jamaica", "Trinidad And Tobago", "Haiti", "Barbados"], "caribbean"),
     **dict.fromkeys(["Poland", "Russia", "Ukraine"], "eastern european"),
 }
-# Words in a shop's name that hint at what it sells; a guess, never a fact
+# Words in a shop's name that hint at what it sells; a guess, never a fact. Diets ("halal") and kinds of shop
+# ("seafood") are not cuisines: places.diet_evidence reads diets from the name, with its own evidence level.
 NAME_HINTS = {
-    "asian": "asian", "oriental": "asian", "h mart": "korean", "hmart": "korean", "99 ranch": "chinese",
+    # first, every cuisine's own word ("Indian Grocery", "Mexican Carniceria"): the narrowest hint wins
+    # "american" and "spanish" are left out: "American Grill", "Spanish Village" (a Tex-Mex place) say nothing
+    **{word: word for word in COUNTRY_CUISINES.values() if word not in ("american", "spanish")},
+    "latin american": "latin american", "asian": "asian", "oriental": "asian", "h mart": "korean", "hmart": "korean", "99 ranch": "chinese",
     "hong kong": "chinese", "mercado": "latin american", "carniceria": "latin american", "fiesta": "latin american",
-    "supermercado": "latin american", "tienda": "latin american", "halal": "halal", "kosher": "kosher",
+    "supermercado": "latin american", "tienda": "latin american", "latino": "latin american",
     "india": "indian", "patel": "indian", "desi": "indian", "african": "african", "caribbean": "caribbean",
-    "mediterranean": "mediterranean", "middle east": "middle eastern", "persian": "persian", "korean": "korean",
-    "vietnam": "vietnamese", "viet": "vietnamese", "japan": "japanese", "thai": "thai", "filipino": "filipino",
-    "seafood": "seafood", "ethiopian": "ethiopian", "russian": "eastern european", "polish": "eastern european",
+    "mediterranean": "mediterranean", "middle east": "middle eastern", "middle eastern": "middle eastern",
+    "korea": "korean", "vietnam": "vietnamese", "viet": "vietnamese", "japan": "japanese", "thailand": "thai",
+    "russian": "eastern european", "polish": "eastern european", "european": "european",
 }
 
 
@@ -88,9 +94,49 @@ OVERPASS_URLS = ["https://overpass-api.de/api/interpreter", "https://overpass.ku
                  "https://overpass.private.coffee/api/interpreter"]
 OSM_TAGS = {
     "restaurant": '["amenity"="restaurant"]',
-    "grocery": '["shop"~"^(supermarket|convenience|greengrocer|deli)$"]',
+    "grocery": '["shop"~"^(supermarket|greengrocer|deli)$"]',
+    "convenience": '["shop"="convenience"]',   # kept apart: most sell snacks and drinks, not ingredients
     "butcher": '["shop"="butcher"]',
+    "seafood": '["shop"="seafood"]',
+    "bakery": '["shop"="bakery"]',
+    "spices": '["shop"="spices"]',
+    "marketplace": '["amenity"="marketplace"]',
 }
+
+
+def _area_filter(area: Mapping[str, object]) -> str:
+    """The Overpass filter for an area: its box (south, west, north, east) when it has one, else its circle."""
+    box = _bbox(area)
+    if box:
+        return "({},{},{},{})".format(*box)
+    return f"(around:{area['radius_m']},{area['lat']},{area['lng']})"
+
+
+def _bbox(area: Mapping[str, object]) -> tuple[float, ...]:
+    """The area's box as four numbers (south, west, north, east), or () when it is a circle."""
+    box = area.get("bbox")
+    return tuple(float(v) for v in box) if isinstance(box, (list, tuple)) else ()
+
+
+def _area_slug(area: Mapping[str, object]) -> str:
+    """A file-name part for the area's cache files, so a new box or radius never reuses an old answer."""
+    name = re.sub(r"[^a-z0-9]+", "_", str(area["name"]).lower()).strip("_")
+    box = _bbox(area)
+    size = "_".join(f"{v:g}" for v in box) if box else str(area["radius_m"])
+    return f"{name}_{size.replace('-', 'm')}"
+
+
+def count_places(area: Mapping[str, object], category: str) -> int:
+    """How many places of one category OpenStreetMap has in `area`, without downloading them (`out count;`)."""
+    data = _overpass(f"[out:json][timeout:60];nwr{OSM_TAGS[category]}{_area_filter(area)};out count;")
+    return int(data["elements"][0]["tags"]["total"])
+
+
+def _address(tags: Mapping[str, str]) -> str:
+    """The street address as OpenStreetMap has it ("1234 Bellaire Blvd, Houston 77036"), or ""."""
+    street = " ".join(p for p in (tags.get("addr:housenumber", ""), tags.get("addr:street", "")) if p)
+    town = " ".join(p for p in (tags.get("addr:city", ""), tags.get("addr:postcode", "")) if p)
+    return ", ".join(p for p in (street, town) if p)
 
 
 def _overpass(query: str, retries: int = 2, timeout: int = 120) -> dict:
@@ -118,34 +164,38 @@ def _yes(tags: Mapping[str, str], key: str) -> bool | None:
 
 def _name_hint(name: str) -> str:
     """Guess what a shop sells from its name ("Viet Hoa Supermarket" -> "vietnamese"), or ""."""
-    lower = name.lower()
+    lower = unicodedata.normalize("NFKD", name.lower()).encode("ascii", "ignore").decode()   # carnicería -> carniceria
+    lower = re.sub(r"\bfrench quarter\b", "", lower)   # New Orleans, not France
     return next((hint for word, hint in NAME_HINTS.items() if re.search(rf"\b{re.escape(word)}\b", lower)), "")
 
 
 def osm_places(area: Mapping[str, object], category: str, cache_dir: str | Path, refresh: bool = False) -> pd.DataFrame:
-    """Download OpenStreetMap places of one category around `area`, cached (ODbL: credit OpenStreetMap).
+    """Download OpenStreetMap places of one category in `area`, cached (ODbL: credit OpenStreetMap).
 
     Args:
-        area: {"name", "lat", "lng", "radius_m"}.
-        category: A key of OSM_TAGS ("restaurant", "grocery", "butcher").
+        area: {"name", "lat", "lng", "radius_m"}, and optionally "bbox": (south, west, north, east), which is used
+            in place of the circle.
+        category: A key of OSM_TAGS ("restaurant", "grocery", "convenience", "butcher", "seafood", ...).
         cache_dir: Where the answer is saved.
         refresh: True asks Overpass again instead of using the saved answer.
 
     Returns:
         One row per place: osm_id, name, lat, lng, category, cuisine (list, split on ";"),
         name_hint (a guess from the name), diet_halal, diet_kosher, diet_vegan,
-        diet_vegetarian (True / False / None when not tagged), opening_hours, website, brand, source="osm".
+        diet_vegetarian (True / False / None when not tagged), opening_hours, website, phone, address, postcode,
+        brand, osm_kind (OpenStreetMap's own shop or amenity value: "supermarket", "deli"...), source="osm".
     """
     cache_dir = Path(cache_dir)
     cache_dir.mkdir(parents=True, exist_ok=True)
-    slug = re.sub(r"[^a-z0-9]+", "_", str(area["name"]).lower()).strip("_")
-    cache_file = cache_dir / f"{slug}_{category}_{area['radius_m']}.json"
+    cache_file = cache_dir / f"{_area_slug(area)}_{category}.json"
+    if not _bbox(area):   # the circle's files keep their old names
+        slug = re.sub(r"[^a-z0-9]+", "_", str(area["name"]).lower()).strip("_")
+        cache_file = cache_dir / f"{slug}_{category}_{area['radius_m']}.json"
     if cache_file.exists() and not refresh:
         data = json.loads(cache_file.read_text(encoding="utf-8"))
     else:
-        query = (f"[out:json][timeout:90];nwr{OSM_TAGS[category]}"
-                 f"(around:{area['radius_m']},{area['lat']},{area['lng']});out center tags;")
-        data = _overpass(query)
+        data = _overpass(f"[out:json][timeout:180];nwr{OSM_TAGS[category]}{_area_filter(area)};out center tags;",
+                         timeout=240)
         cache_file.write_text(json.dumps(data), encoding="utf-8")
     rows = []
     for element in data.get("elements", []):
@@ -159,8 +209,12 @@ def osm_places(area: Mapping[str, object], category: str, cache_dir: str | Path,
             "name_hint": _name_hint(name),
             "diet_halal": _yes(tags, "diet:halal"), "diet_kosher": _yes(tags, "diet:kosher"),
             "diet_vegan": _yes(tags, "diet:vegan"), "diet_vegetarian": _yes(tags, "diet:vegetarian"),
-            "opening_hours": tags.get("opening_hours", ""), "website": tags.get("website", ""),
-            "brand": tags.get("brand", ""), "source": "osm",
+            "opening_hours": tags.get("opening_hours", ""),
+            "website": tags.get("website", "") or tags.get("contact:website", ""),
+            "phone": tags.get("phone", "") or tags.get("contact:phone", ""),
+            "address": _address(tags), "postcode": tags.get("addr:postcode", ""),
+            "brand": tags.get("brand", ""), "osm_kind": tags.get("shop") or tags.get("amenity", ""),
+            "source": "osm",
         })
     return pd.DataFrame(rows)
 

@@ -1,5 +1,7 @@
 # EverFlavor AI
 
+![EverFlavor (beta): recipes that fit what you can eat, checked ingredient by ingredient. Three pixel-art chefs and Walter the waiter stand on a tiled kitchen floor.](docs/art/banner.png)
+
 ### Multi-Agent Diet & Discovery System
 
 *A conversational multi-agent AI that helps users cook authentic global recipes within their calorie limits, dietary restrictions and ingredient availability, and then finds the nearest specialty supermarket.*
@@ -477,7 +479,7 @@ The browser opens at `http://localhost:8501`. The sidebar holds the user's profi
 
 EverFlavor is in **beta** (version 0.5.1). Every change is listed in [CHANGELOG.md](CHANGELOG.md) (semantic
 versions: fixes 0.5.1 → 0.5.2, features → 0.6.0, the finished release 1.0.0), and the app's **What's new** bell shows
-the latest notes. What comes next, grouped by version, with the reasons and trade-offs: the
+the latest notes, under the team's banners. What comes next, grouped by version, with the reasons and trade-offs: the
 [planner](docs/plans/README.md) (start here), [regional kitchens](docs/plans/REGIONAL_KITCHENS.md) and
 [reliability: hallucinations, photos and the AI models](docs/plans/RELIABILITY.md).
 
@@ -619,7 +621,7 @@ The-EverFlavor-AI/
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   └── test_security.py     # Pre-push checks: no keys or local paths in committed files
 ├── docs/
-│   ├── art/          # ramen.py (the ramen bowl) and flag_recall.py (the flag chart) draw the README art
+│   ├── art/          # README art: banner.png and logo.png (design/pixel-art/make_banner.py), ramen.py, flag_recall.py
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
 │   ├── flag_review/  # Blind 200-recipe samples per round, their labels, and the human decisions
 │   │                 # (flag_policies.csv, compound_ingredients_review.csv, human_signoff.csv)

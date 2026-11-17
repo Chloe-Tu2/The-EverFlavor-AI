@@ -30,6 +30,14 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | Food.com reviews (`RAW_interactions.csv`) | <https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions> | See the dataset page (research use) | Same `kagglehub` download as the recipes | Dataset version 2 | 04, section 3 |
 | USDA FoodKeeper (FSIS) | <https://catalog.data.gov/dataset/fsis-foodkeeper-data> | CC0 (public domain) | JSON download, no key; USDA's server refuses some networks (HTTP 403), so the Internet Archive's copy of the same file is used then | Archive snapshot of 2025-07-02 | 04, section 5 |
 
+## Dish knowledge for the waiter (0.6.3, `scripts/knowledge/fetch_knowledge.py`)
+
+| Source | URL | License | Access method | Version / notes | Notebook |
+|---|---|---|---|---|---|
+| Wikipedia dish lists (USA, Mexico, China, Middle East, Africa) | <https://en.wikipedia.org/wiki/List_of_African_dishes> (and the other lists named in the script) | CC BY-SA 4.0 (credit "Wikipedia contributors", link per page) | MediaWiki API `action=parse`, a descriptive User-Agent, answers cached | Which dishes are best known and their region (section headings, region columns); collected 2026-11-10 | `data/knowledge/` |
+| English Wikipedia article intros | <https://en.wikipedia.org/w/api.php> | CC BY-SA 4.0 (credit and link per article, kept in each row's `sources`) | MediaWiki API `prop=extracts`, 20 titles per request, 1 s apart | Summary and fun-fact candidates (sentences as written, not yet reviewed) | `data/knowledge/` |
+| Wikidata (dish facts) | <https://query.wikidata.org> | CC0 | SPARQL, 200 items per query, cached | Type check (dish, food or drink), origin, start year, ingredients, namesake, heritage listings | `data/knowledge/` |
+
 ## Stores and products (notebook 03)
 
 | Source | URL | License | Access method | Version / notes | Notebook |
@@ -69,7 +77,7 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 |---|---|---|---|---|
 | "Wooden Spatula" photo (Nordwood Themes, StockSnap): the photo idea behind the "no photo yet" picture | <https://stocksnap.io/photo/wooden-spatula-QSUFZLT8SV> | CC0 1.0 (Openverse, checked 2026-10-26) | One download, cropped and resized to `design/pixel-art/archive/no-photo_2026-10-26/photo_stocksnap_cc0_small.png` | 2026-10-26; the app now shows pixel art from med27-coder's Gemini concept of it (`assets/no_photo_skillet.png`) |
 | Wikimedia Commons (via Wikidata P18 and the Commons search API): "a photo of this dish in general" for recipes with no photo | <https://commons.wikimedia.org> | Free licences only: CC0, public domain, CC BY, CC BY-SA (any version); every photo keeps its author and licence credit | `scripts/dish_photos/fetch_dish_photos.py`: Wikidata dish matches, then Commons searches for the commonest photo-less dish names; 1 request a second, a descriptive User-Agent, everything cached; a CLIP check (search cutoff 0.06) and a hand review (`data/reference/dish_photo_review.csv`) | 3,327 photos for 48,172 recipes (2026-10-27, 6 search rounds) |
-| Food.com - Recipes and Reviews (irkaal, Kaggle) | <https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews> | CC0: Public Domain (Kaggle API, checked 2026-10-25) | `kagglehub` download of `recipes.parquet` only | Notebook 10, run 2026-10-25 (links); photo download started 2026-10-26 (dataset updated 2020-12-28) |
+| Food.com - Recipes and Reviews (irkaal, Kaggle) | <https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews> | CC0: Public Domain (Kaggle API, checked 2026-10-25) | `kagglehub` download of `recipes.parquet` only | Notebook 10, run 2026-10-25 (links); photo download started 2026-10-26; `scripts/recipe_details.py` (times, servings, extra nutrition), 2026-11-11 (dataset updated 2020-12-28) |
 | RecipeDB (CoSyLab) | <https://cosylab.iiitd.edu.in/recipedb/> | CC BY-NC-SA 3.0 | API key from the CoSyLab team | Optional, not used yet (2.4.7) |
 
 No website is scraped directly, and nothing behind a login is collected.

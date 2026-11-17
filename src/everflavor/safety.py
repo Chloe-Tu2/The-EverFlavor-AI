@@ -20,6 +20,7 @@ from .flags import (
     name_text,
     reveal_hidden_words,
 )
+from .preferences import found_in
 
 __all__ = [
     "UserProfile",
@@ -41,6 +42,8 @@ class UserProfile:
         calories_per_meal: The calorie budget for one serving, or None.
         cuisines: Preferred cuisine families ("Asian" ...); empty means any.
         area: Where to look for stores ("Houston, TX"); empty means not asked.
+        skip: Foods the person doesn't eat (not allergies): matched by name only, never a safety check
+            (preferences.py).
     """
 
     avoid: tuple[str, ...] = ()
@@ -50,6 +53,7 @@ class UserProfile:
     calories_per_meal: float | None = None
     cuisines: tuple[str, ...] = ()
     area: str = ""
+    skip: tuple[str, ...] = ()
     extra: Mapping[str, object] = field(default_factory=dict)   # front-end fields the back end ignores
 
     def __post_init__(self) -> None:
@@ -64,7 +68,7 @@ class UserProfile:
     @classmethod
     def from_dict(cls, data: Mapping[str, object]) -> UserProfile:
         """Build a profile from JSON-like data (lists become tuples; unknown keys go to `extra`)."""
-        known = {"avoid", "diets", "vegetarian", "vegan", "calories_per_meal", "cuisines", "area"}
+        known = {"avoid", "diets", "vegetarian", "vegan", "calories_per_meal", "cuisines", "area", "skip"}
         values: dict[str, object] = {k: tuple(v) if isinstance(v, list) else v for k, v in data.items() if k in known}
         return cls(**values, extra={k: v for k, v in data.items() if k not in known})  # type: ignore[arg-type]
 
@@ -96,7 +100,9 @@ def check_recipe(ingredient_lines: Sequence[object], recipe_name: object, profil
         {"passed": True only when nothing breaks a rule, "problems": one entry per broken rule
         and line, {"line", "rule" (the flag, diet or "vegetarian" / "vegan" the user asked for),
         "flag" (the flag that fired), "matched" (the words that set it)}, "checked": the rules
-        checked}. Pet meat is always checked (policy P24), whatever the profile says.
+        checked, "skipped": the lines that mention a food the user doesn't eat, {"line", "foods"} (by name only;
+        it never changes "passed", which is about safety and diets)}. Pet meat is always checked (policy P24),
+        whatever the profile says.
     """
     # reveal_hidden_words: "p0rk", "p o r k", 🐖 and "cerdo" are read as pork (red team, 2026-10-10)
     texts = [(str(line), reveal_hidden_words(line).lower()) for line in ingredient_lines
@@ -121,6 +127,8 @@ def check_recipe(ingredient_lines: Sequence[object], recipe_name: object, profil
             a, b = _problems(texts, first, diet), _problems(texts, second, diet)
             if a and b:   # kosher: meat and dairy in the same dish
                 problems += a + b
-    return {"passed": not problems, "problems": problems,
+    skipped = [{"line": original, "foods": foods} for original, _ in texts
+                if (foods := found_in(original, profile.skip))]
+    return {"passed": not problems, "problems": problems, "skipped": skipped,
             "checked": ["contains_pet_meat", *profile.avoid, *(["vegetarian"] if profile.vegetarian else []),
                         *(["vegan"] if profile.vegan else []), *profile.diets]}

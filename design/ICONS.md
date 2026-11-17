@@ -22,6 +22,17 @@ few lines and running the script again.
 5. **Every icon has a text label next to it or an `aria-label`**, for screen readers and for anyone who reads
    the picture differently.
 
+## Severity signs (the one exception to rule 1)
+
+![The five severity signs](pixel-art/previews/signs_sheet_x6.png)
+
+How serious a finding is uses the traditional road-sign shapes instead of a kitchen object (the user's call,
+2026-11-16), because people already know them and the shape carries the meaning as well as the colour: a red
+stop sign (unsafe for you), an orange warning diamond (doesn't match your profile), a yellow caution triangle (a
+sensitivity, a goal or a label to check), a blue information circle (good to know) and a green ticked circle (no
+issue found). 12 x 12 pixels shown at 2x, drawn from text grids in `make_pixel_art.py` (`SIGNS`; redraw with
+`save_signs()`); each always sits next to its words.
+
 ## The drafts
 
 ### Find recipes: the spread

@@ -22,7 +22,9 @@ kitchen, roadmap, questions for the team).
 
 All the art is drawn by [pixel-art/make_pixel_art.py](pixel-art/make_pixel_art.py) (and
 [cuisine_kitchens.py](pixel-art/cuisine_kitchens.py) for the cuisine kitchens). Plans: [PLAN.md](PLAN.md);
-icons: [ICONS.md](ICONS.md).
+icons: [ICONS.md](ICONS.md). The README banner and the logo (`docs/art/banner.png`, `docs/art/logo.png`) are drawn
+by [make_banner.py](pixel-art/make_banner.py) from the same chefs, Walter and the app's pixel fonts (Jersey 10 and
+VT323, SIL Open Font Licence; downloaded when drawing, not kept here).
 
 ## The idea
 
@@ -50,8 +52,39 @@ With **Match the kitchen to the cuisine** on (Settings), searching a country ope
 **The chefs** come from the team's four references (`pixel-art/references/chefs/`, `make_chefs.py`), with a woman
 cook for each of those regions (Settings > Your chef; `make_women_chefs.py`, `make_chef_from_ref.py`):
 [previews/women_chefs.png](pixel-art/previews/women_chefs.png),
-[previews/middle_eastern_woman.png](pixel-art/previews/middle_eastern_woman.png). Mexican and Moroccan keep their
-code-drawn chefs. Earlier art is in [pixel-art/archive/](pixel-art/archive/README.md).
+[previews/middle_eastern_woman.png](pixel-art/previews/middle_eastern_woman.png). Earlier art is in
+[pixel-art/archive/](pixel-art/archive/README.md).
+
+**The team's chef packs (0.6.3).** The Classic, Chinese, Moroccan and Mexican chefs, men and women, now come from
+the team's own expression packs (13 faces each): [import_team_chefs.py](pixel-art/import_team_chefs.py) makes
+their background transparent, clears slices of neighbouring frames that some files carry along an edge, and scales
+each face so its hat is as wide as in the rest of its pack (some faces were framed larger or smaller). The app uses
+happy, wink, thinking and worried (for alerts); all 13 are kept in `pixel-art/originals/chefs/`
+([previews/team_chefs.png](pixel-art/previews/team_chefs.png)). The Moroccan woman's happy face was cut off its
+sheet, so her laughing face stands in until the team re-exports it. Rerunning `make_chefs.py` or the women chef
+scripts would replace the chefs with the older code-drawn ones, so rerun `import_team_chefs.py` after them. The
+team's four banners are in `pixel-art/originals/banners/`, cut one by one from their sheet by
+[cut_banners.py](pixel-art/cut_banners.py) with no resizing.
+
+**Banners as pixel art (0.6.3).** The app's What's new shows the banners redrawn as pixel art by
+[pixel_banners.py](pixel-art/pixel_banners.py): 640 pixels wide, 64 colours (gold, the outline, red and white kept
+exact), and the text set again in Jersey 10 and VT323 with hard edges, one pixel bolder
+([previews/pixel_banners.png](pixel-art/previews/pixel_banners.png)). "Meet the Waiter" first gets its line fitted to
+Walter ([edit_waiter_banner.py](pixel-art/edit_waiter_banner.py)).
+
+**The waiters, Walter and Nathalie (0.6.3).** The user picks a waiter in the setup window or Settings; both tell the
+same sourced stories under the same safety rules. [waiter_sprites.py](pixel-art/waiter_sprites.py) cuts them from the
+team's character sheets (`pixel-art/originals/waiters/`, 13 expressions and a full figure each). The sheets are
+concept art, so only nine faces are kept, each for a moment in the app: neutral, happy, excited, wink, laughing,
+surprised, thinking (while an answer is worked out), concerned (allergy answers) and proud. Each tone has its face
+(Fun excited, Funny laughing, Just the facts neutral, Key points proud, Broad thinking); allergy answers always keep
+their own. The full figure is used from the head to the waist, in the setup window
+([previews/waiters.png](pixel-art/previews/waiters.png)).
+
+**Chef packs, second round (2026-11-11).** The Middle Eastern man and woman and new Mexican packs (the 896 x 1200
+style of the Classic and Chinese chefs) replace the placeholders. Packs whose frames are all one size are cut with one
+box and one scale, so a raised hand never shrinks a face; the others (Moroccan, the Classic and Chinese women) are
+evened out by hat width. The Mediterranean and Japanese kitchens have no pack of their own yet.
 
 ## The color bug, fixed
 

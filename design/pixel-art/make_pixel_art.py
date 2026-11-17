@@ -301,7 +301,8 @@ CHEF_COLORS = {"K": "#3B2A25", "W": "#FFFFFF", "w": "#E6E1DA", "S": "#F2C29B", "
 def chef(mood: str, rows: list[str] | None = None) -> Image.Image:
     """The chef in one mood; `rows` draws another kitchen's chef (cuisine_kitchens.chef_rows)."""
     rows = rows or CHEF_BODY + CHEF_FACES[mood] + CHEF_TORSO
-    assert len(rows) == 24 and all(len(r) == 24 for r in rows), mood
+    if len(rows) != 24 or any(len(r) != 24 for r in rows):
+        raise ValueError(f"chef {mood}: the grid must be 24 x 24")
     img = Image.new("RGBA", (24, 24), (0, 0, 0, 0))
     for y, row in enumerate(rows):
         for x, ch in enumerate(row):
@@ -501,6 +502,50 @@ def no_photo() -> Image.Image:
 
 ICONS = {"bell": icon_bell, "cloche": icon_cloche, "find": icon_find, "check": icon_check, "map": icon_map, "settings": icon_settings, "timer": icon_timer,
          "flame": icon_flame, "protein": icon_protein, "safe": icon_safe, "alert": icon_alert, "empty": icon_empty}
+
+
+# Severity signs (2026-11-16, the user's call): the traditional road-sign shapes, so the shape carries the meaning
+# as well as the colour. 10 x 10 pixels, shown at 2x; each always sits next to its words.
+SIGN_COLORS = {"K": INK, "W": PLATE, "R": RED, "O": ORANGE, "Y": YELLOW, "G": GREEN, "B": "#3E7CB1"}
+SIGNS = {
+    "critical": ["....KKKK....", "...KWWWWK...", "..KWRRRRWK..", ".KWRRRRRRWK.",            # a stop sign: octagon,
+                 "KWRRRRRRRRWK", "KWRRRRRRRRWK", "KWRRRRRRRRWK", "KWRRRRRRRRWK",            # a white rim
+                 ".KWRRRRRRWK.", "..KWRRRRWK..", "...KWWWWK...", "....KKKK...."],
+    "major": [".....KK.....", "....KOOK....", "...KOKKOK...", "..KOOKKOOK..",              # a warning diamond
+              ".KOOOKKOOOK.", "KOOOOKKOOOOK", "KOOOOKKOOOOK", ".KOOOOOOOOK.",
+              "..KOOKKOOK..", "...KOKKOK...", "....KOOK....", ".....KK....."],
+    "moderate": [".....KK.....", "....KYYK....", "....KYYK....", "...KYKKYK...",           # a caution triangle
+                 "...KYKKYK...", "..KYYKKYYK..", "..KYYYYYYK..", ".KYYYKKYYYK.",
+                 ".KYYYKKYYYK.", "KYYYYYYYYYYK", "KYYYYYYYYYYK", "KKKKKKKKKKKK"],
+    "info": ["....KKKK....", "..KKBBBBKK..", ".KBBBWWBBBK.", ".KBBBWWBBBK.",               # an information circle
+             "KBBBBBBBBBBK", "KBBBWWWBBBBK", "KBBBBWWBBBBK", "KBBBBWWBBBBK",
+             ".KBBBWWBBBK.", ".KBBWWWWBBK.", "..KKBBBBKK..", "....KKKK...."],
+    "clear": ["....KKKK....", "..KKGGGGKK..", ".KGGGGGGGGK.", ".KGGGGGGWWK.",              # a green circle, ticked
+              "KGGGGGGWWGGK", "KGGGGGWWGGGK", "KGWWGWWGGGGK", "KGGWWWGGGGGK",
+              ".KGGWGGGGGK.", ".KGGGGGGGGK.", "..KKGGGGKK..", "....KKKK...."],
+}
+
+
+def sign(name: str) -> Image.Image:
+    """One severity sign at 2x (24 x 24), drawn pixel by pixel from SIGNS."""
+    rows = SIGNS[name]
+    img = Image.new("RGBA", (12, 12), (0, 0, 0, 0))
+    for y, row in enumerate(rows):
+        for x, cell in enumerate(row):
+            if cell != ".":
+                img.putpixel((x, y), Image.new("RGB", (1, 1), SIGN_COLORS[cell]).getpixel((0, 0)) + (255,))
+    return img.resize((24, 24), Image.NEAREST)
+
+
+def save_signs() -> None:
+    """Only the signs (no kitchens): `python -c "import make_pixel_art as m; m.save_signs()"`."""
+    PREVIEW.mkdir(parents=True, exist_ok=True)
+    sheet = Image.new("RGBA", (len(SIGNS) * 28, 28), (0, 0, 0, 0))
+    for k, name in enumerate(SIGNS):
+        img = sign(name)
+        img.save(OUT / f"sign_{name}.png")
+        sheet.paste(img, (k * 28 + 2, 2))
+    sheet.resize((sheet.width * 6, sheet.height * 6), Image.NEAREST).save(PREVIEW / "signs_sheet_x6.png")
 
 
 def _png(img: Image.Image) -> str:

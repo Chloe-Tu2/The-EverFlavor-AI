@@ -33,6 +33,7 @@ __all__ = [
     "VOLUME_ML",
     "calorie_accuracy",
     "grams_for",
+    "nutrition_estimate",
     "parse_ingredient_line",
     "recipe_calories",
     "usda_portions",
@@ -90,7 +91,7 @@ _PREP_WORDS = ("peeled|seeded|cored|pitted|trimmed|rinsed|drained|shredded|grate
                "crushed|cubed|halved|quartered|julienned|cooled|softened|melted|beaten|"
                "finely|coarsely|thinly|freshly|lightly|roughly")
 # A weight written in brackets is the line's total: "1/2 cup (35g) breadcrumbs", "(about 2 pounds)"
-_WRITTEN_WEIGHT = re.compile(r"\(\s*(?:about|approx\.?|approximately|~)?\s*(?P<n>\d+(?:\.\d+)?)\s*"
+_WRITTEN_WEIGHT = re.compile(r"\(\s*(?:(?:about|approx\.?|approximately|~)\s*)?(?P<n>\d+(?:\.\d+)?)\s*"
                              r"(?P<u>g|grams?|kg|oz|ounces?|lbs?|pounds?)\b", re.IGNORECASE)
 
 
@@ -113,6 +114,9 @@ def parse_ingredient_line(line: object) -> dict:
         amount is None when the line gives none ("salt to taste").
     """
     text = "" if line is None or (isinstance(line, float) and np.isnan(line)) else str(line)
+    # one space between words: the patterns below never meet a long run of spaces (a pasted line with
+    # thousands of them would otherwise take minutes; CodeQL py/polynomial-redos)
+    text = re.sub(r"\s+", " ", text)
     for symbol, fraction in _UNICODE_FRACTIONS.items():
         text = re.sub(rf"(\d)\s*{symbol}", rf"\1 {fraction}", text).replace(symbol, fraction)
     text = re.sub(r"(\d)\s*/\s*(\d)", r"\1/\2", text.replace("⁄", "/"))   # "1 ⁄ 2", "1 /2" -> "1/2"
@@ -149,7 +153,7 @@ def parse_ingredient_line(line: object) -> dict:
         amount, unit = float(written.group("n")), UNIT_ALIASES[written.group("u").lower()]
     rest = re.sub(r"^\s*of\s+", "", rest)
     # "salt to taste", "parsley for garnish", "nuts (optional)": the phrase is not part of the name
-    rest = re.sub(r"\s*,?\s*\(?\b(?:to taste|as needed|if needed|optional|for (?:garnish|serving|drizzling|"
+    rest = re.sub(r" ?,? ?\(?\b(?:to taste|as needed|if needed|optional|for (?:garnish|serving|drizzling|"
                   r"dusting|frying|greasing|the pan|topping)\b).*$", "", rest, flags=re.IGNORECASE)
     # "peeled and shredded carrots" is one ingredient, not "peeled" and "carrots"; words that change
     # the food ("cooked rice", "toasted almonds") are kept: USDA lists those foods separately
@@ -292,3 +296,37 @@ def calorie_accuracy(estimated: Sequence[float], reference: Sequence[float], tol
         return {"n": 0, "median_error": None, "within": None, "within_10pct": None}
     return {"n": len(err), "median_error": round(float(np.median(err)), 4),
             "within": round(float((err <= tolerance).mean()), 3), "within_10pct": round(float((err <= 0.10).mean()), 3)}
+
+
+def nutrition_estimate(lines: Sequence[object], servings: float | None, usda: pd.DataFrame,
+                       portions: Mapping[int, Mapping[str, float]], min_counted: float = 0.5) -> dict | None:
+    """Calories, carbs, protein and sodium of pasted ingredient lines, from USDA per-100 g values (an estimate).
+
+    Args:
+        lines: Ingredient lines as written ("2 cups rice").
+        servings: Servings the recipe makes; without them only the totals are given.
+        usda: Notebook 01's usda_ingredient_nutrition.csv (ingredient, fdc_id, kcal_100g, carbs_100g,
+            protein_100g, sodium_mg_100g).
+        portions: usda_portions(...).
+        min_counted: The share of lines that must be counted; fewer gives None (the number would be far too low).
+
+    Returns:
+        None, or {"total": {"calories", "carbs_g", "protein_g", "sodium_mg"}, "per_serving": the same per serving
+        or None, "counted": lines counted, "lines": all lines, "not_counted": [lines left out]}.
+    """
+    rows = usda.dropna(subset=["fdc_id", "kcal_100g"])
+    fdc_of = dict(zip(rows["ingredient"], rows["fdc_id"].astype(int)))
+    per_100g = rows.drop_duplicates("fdc_id").set_index(rows.drop_duplicates("fdc_id")["fdc_id"].astype(int))
+    kcal_of = {int(f): float(k) for f, k in zip(per_100g.index, per_100g["kcal_100g"])}
+    result = recipe_calories(lines, servings, fdc_of, kcal_of, portions)
+    if not len(result["lines"]) or result["counted_share"] < min_counted:
+        return None
+    counted = result["lines"].dropna(subset=["kcal"])
+    total = {"calories": result["kcal_total"]}
+    for name, column in (("carbs_g", "carbs_100g"), ("protein_g", "protein_100g"), ("sodium_mg", "sodium_mg_100g")):
+        values = per_100g[column] if column in per_100g else pd.Series(dtype=float)
+        total[name] = round(float(sum(g * values.get(int(f), 0.0) / 100 for g, f in zip(counted["grams"], counted["fdc_id"])
+                                      if f is not None and not pd.isna(f) and not pd.isna(values.get(int(f), np.nan)))), 1)
+    per = {k: round(v / servings, 1) for k, v in total.items()} if servings and servings > 0 else None
+    return {"total": total, "per_serving": per, "counted": len(counted), "lines": len(result["lines"]),
+            "not_counted": [str(t) for t in result["not_counted"]["text"]]}

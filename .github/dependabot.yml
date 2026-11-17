@@ -13,3 +13,8 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
+    # CodeQL's init and analyze steps must be on the same version, or the scan fails: update them together
+    groups:
+      codeql:
+        patterns:
+          - "github/codeql-action*"

@@ -110,6 +110,32 @@ def test_calorie_accuracy():
     assert out["n"] == 3 and out["within"] == pytest.approx(2 / 3, abs=0.001)
     assert calorie_accuracy([], [])["n"] == 0
 
+def test_nutrition_estimate_for_pasted_lines() -> None:
+    import pandas as pd
+
+    from everflavor.calories import nutrition_estimate
+    usda = pd.DataFrame({"ingredient": ["rice", "salt"], "fdc_id": [1, 2], "kcal_100g": [130.0, 0.0],
+                         "carbs_100g": [28.0, 0.0], "protein_100g": [2.7, 0.0], "sodium_mg_100g": [1.0, 38800.0]})
+    got = nutrition_estimate(["200 g rice", "5 g salt"], 2, usda, {})
+    assert got is not None and got["total"]["calories"] == 260.0 and got["per_serving"]["sodium_mg"] == 971.0
+    assert nutrition_estimate(["a pinch of something", "some other thing"], 2, usda, {}) is None   # too few counted
+
 
 if __name__ == "__main__":
     sys.exit(pytest.main([__file__, "-q"]))
+
+
+def test_long_pasted_lines_stay_fast() -> None:
+    """CodeQL py/polynomial-redos: runs of spaces or "(" in a pasted line once took minutes."""
+    import time
+
+    from everflavor.calories import parse_ingredient_line
+    from everflavor.ingredients import _drop_brackets, normalize_ingredient
+    start = time.perf_counter()
+    for line in ("(" + " " * 50_000, "1 cup x" + " " * 50_000 + "y", "(" * 50_000):
+        parse_ingredient_line(line)
+        normalize_ingredient(line)
+    assert time.perf_counter() - start < 5
+    assert _drop_brackets("egg (large (about 50 g)) whole").split() == ["egg", "whole"]
+    assert _drop_brackets("nuts (see note") == "nuts (see note"         # never closed: kept
+    assert parse_ingredient_line("salt    to taste")["ingredient"] == "salt"

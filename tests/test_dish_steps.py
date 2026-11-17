@@ -26,3 +26,15 @@ def test_time_splits_into_on_the_heat_and_the_rest():
     assert split_minutes(steps, 60) == {"on_heat": 34.0, "rest": 26.0, "total": 60}
     assert split_minutes(steps, None)["rest"] is None
     assert split_minutes(step_breakdown("mix everything", []), 10)["on_heat"] is None
+
+
+def test_cookware_names_each_kitchens_own_tools_in_order() -> None:
+    from everflavor.dish_steps import cookware
+    assert cookware("Heat oil in the tagine base.\nCover with the lid.") == ["tagine"]
+    assert cookware("Serve the chicken tagine hot.") == []          # the dish, not the pot
+    assert cookware("Warm tortillas on a comal.\nGrind chiles in a molcajete.\nFry in a frying pan.") == [
+        "comal", "molcajete", "skillet"]
+    assert cookware("Heat a wok.\nSteam in a bamboo steamer.\nCook rice in a rice cooker.") == [
+        "wok", "bamboo steamer", "rice cooker"]
+    assert cookware("Mix in a bowl.\nBake in a 9x13 pan in the oven.") == ["oven", "baking dish"]   # no "pan"
+    assert cookware(None) == []

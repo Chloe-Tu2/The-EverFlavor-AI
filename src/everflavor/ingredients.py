@@ -93,6 +93,25 @@ def singular(word: str) -> str:
     return word
 
 
+def _drop_brackets(text: str) -> str:
+    """Replace each closed (...) note, nested ones too, with a space, in one pass over the text.
+
+    A regex such as r"\\(.*?\\)" takes minutes on a pasted line of thousands of "(" (CodeQL
+    py/polynomial-redos). A "(" that is never closed stays, as before.
+    """
+    out: list[str] = []
+    opened: list[int] = []
+    for char in text:
+        if char == ")" and opened:
+            del out[opened.pop():]
+            out.append(" ")
+        else:
+            if char == "(":
+                opened.append(len(out))
+            out.append(char)
+    return "".join(out)
+
+
 def normalize_ingredient(name: object) -> list[str]:
     """Normalize one ingredient name so that variants count as one ingredient.
 
@@ -108,7 +127,7 @@ def normalize_ingredient(name: object) -> list[str]:
         Usually one name (["egg"]); two for entries such as "salt and pepper";
         none if nothing is left.
     """
-    text = re.sub(r"\(.*?\)", " ", str(name).lower())   # drop notes in brackets
+    text = _drop_brackets(str(name).lower())   # drop notes in brackets
     text = re.sub(r"\s+", " ", text).strip(" ,.;:-")
     quantity = QUANTITY_PATTERN.match(text)
     if quantity:

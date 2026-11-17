@@ -707,7 +707,7 @@ def test_top_fats_by_group_and_method_agreement():
     agreement = method_label_agreement(labels)
     assert agreement[["tagged", "rule", "both"]].loc[["bake_roast"]].to_numpy().tolist() == [[2, 2, 1]]
     assert agreement.loc["bake_roast", "rule_finds_tag"] == 0.5
-    assert agreement.loc["deep_fry", "tagged"] == 0 and pd.isna(agreement.loc["deep_fry", "rule_finds_tag"])
+    assert agreement.loc["deep_fry", "tagged"] == 0 and agreement["rule_finds_tag"].isna()["deep_fry"]
 
 
 def test_alcohol_left_after_cooking_is_a_range_that_never_clears_the_flag():

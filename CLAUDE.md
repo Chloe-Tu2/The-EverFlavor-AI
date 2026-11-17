@@ -32,6 +32,9 @@ the Streamlit front end in `app/` (the pixel-art kitchen; design notes in `desig
   never records the user's words (`docs/ethics_privacy.md`).
 - **Safety decisions come from the back end** (`src/everflavor`: flags, safety gate, recommend). The app and the
   AI models only show or explain them; never filter or "fix" safety in the page or in a prompt.
+- **Unfinished plans and personal info stay local.** A plan in progress lives in `docs/plans/local/` (git-ignored)
+  and moves to `docs/plans/` only when its work is done; commits use the GitHub noreply email; no personal
+  emails or PC paths in files. Before a push: update the main README and the folder READMEs.
 - **Flags only ever add cautions.** Diet labels say "halal-friendly ingredients", never "halal"; medical profiles are
   screens, not advice.
 - **Every judgment call is a recorded policy** with who decided it; README numbers come from the latest full run.

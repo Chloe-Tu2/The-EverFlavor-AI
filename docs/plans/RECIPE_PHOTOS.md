@@ -41,6 +41,8 @@ salad in general, not this recipe", with the credit linking to the file's page.
 
 - A dish photo is matched only when the recipe's clean name names the dish (two words or more) and the countries
   fit; brand products, diagrams and wrong dishes were deleted (13 files).
+- **Review of one recipe's own photo:** `data/reference/recipe_photo_review.csv` (recipe_id, keep = no, the reason
+  and who decided) hides it; the card falls back to a photo of the dish in general or the no-photo skillet.
 - **Review:** `data/reference/dish_photo_review.csv` turns a dish's photo down (keep = no, with the reason and who
   decided). Claude checked the 60 most used photos by eye and turned down 6 (bread pudding, chicken soup,
   vegetable soup, pie crust, clam chowder, yellow rice). The team checks the rest the same way.
@@ -234,6 +236,15 @@ Steps 1 and 2 fix the zoom at once; steps 4 and 5 hide unrelated photos; step 6 
   misleads).
 - Every photo keeps its credit and a link to the recipe's page; photos belong to their sources (research use).
 - A hidden photo is never replaced by another recipe's photo.
+
+## Regional source: native dish names (built 2026-10-27, not run yet)
+
+English recipe titles miss Commons files named in the dish's own language. `scripts/dish_photos/fetch_regional.py`
+works one region at a time: it asks Wikidata for the food items of the region's countries (English aliases, native
+labels, the picture P18 and the Commons category P373), matches photo-less recipes to them by name, and looks for a
+free photo of each item (CC0, public domain, CC BY, CC BY-SA; never NC or ND). Official APIs only, one request a
+second; a dry run (`--dry --report FILE.json`) writes nothing but its caches and report; a real run only appends
+rows and never replaces a recipe's photo. Tests: `tests/test_regional_photos.py` (no network).
 
 ## Open questions
 
