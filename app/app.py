@@ -75,6 +75,15 @@ from everflavor.recommend import (
     why_it_fits,
     within_calories,
 )
+from everflavor.restrictions import (
+    CATEGORIES,
+    RULES,
+    SEVERITIES,
+    assess,
+    profile_for,
+    rule_ids_from_profile,
+    rules_in,
+)
 from everflavor.safety import UserProfile
 from everflavor.stores import COUNTRY_CUISINES
 from everflavor.taxonomy import load_taxonomy
@@ -837,6 +846,12 @@ def badge(place, icon: str, text: str, kind: str = "safe") -> None:
                    f'</span><span>{html.escape(text)}</span></div>', unsafe_allow_html=True)
 
 
+def rule_label(rule_id: str) -> str:
+    """A profile rule as the sidebar lists it: its name, and what it checks when that is not obvious."""
+    rule = RULES[rule_id]
+    return f"{rule.label} ({rule.note})" if rule.note else rule.label
+
+
 CHECK_EXAMPLE = """Ingredients
 - 2 chicken breasts
 - 2 tbsp satay sauce
@@ -1568,6 +1583,16 @@ with st.sidebar:
     vegetarian = st.checkbox("Vegetarian", key="vegetarian")
     vegan = st.checkbox("Vegan", key="vegan")
     calories = st.slider("Calories per meal", min_value=200, max_value=1500, step=50, key="calories")
+    with st.expander("More of my profile: medical, cooking, sensitivities, goals"):
+        # The profile in levels (everflavor.restrictions): medical screens block like allergies; how it's cooked
+        # is read from the steps; sensitivities and goals only inform, they never hide a recipe
+        extra_rules: list[str] = []
+        for category in ("medical", "preparation", "sensitivities", "goals"):
+            label, severity = CATEGORIES[category]
+            extra_rules += st.multiselect(f"{SEVERITIES[severity][0]} {label}", rules_in(category),
+                                          format_func=rule_label, key=f"rules-{category}")
+        st.caption("Medical screens read ingredient names and nutrition per serving. They are not medical advice: "
+                   "ask your doctor or dietitian.")
     st.divider()
     if ai["kind"] == "ollama":
         use_ai = st.checkbox(f"Explain problems with local AI ({ai['model']})", value=True)
@@ -1576,7 +1601,10 @@ with st.sidebar:
         st.caption("Local AI: off. The rules still check everything.", help=ai["reason"])
     chef.append(st.container(key="chef-side").empty())
 
-profile = UserProfile(avoid=tuple(avoid), diets=tuple(diets), vegetarian=vegetarian,
+rule_ids = rule_ids_from_profile(avoid, diets, vegetarian, vegan) + extra_rules   # the whole profile, in levels
+blocking = profile_for(extra_rules)   # the medical screens chosen above join the safety gate's profile
+profile = UserProfile(avoid=tuple(dict.fromkeys([*avoid, *blocking.avoid])),
+                      diets=tuple(dict.fromkeys([*diets, *blocking.diets])), vegetarian=vegetarian,
                       vegan=vegan, calories_per_meal=calories, skip=clean_names(skip))
 # The chef's welcome: hello in the kitchen's own language, then one tip, dish fact or chef's quote, the same one
 # for the whole visit (a seed per visit, so reruns do not change it)
@@ -1780,18 +1808,25 @@ with check_tab:
             dish_name = name.strip() or "Your recipe"
             loading = cooking("Checking every ingredient...")
             report = check_and_explain(ingredients, dish_name, profile, model=ai["model"] if use_ai else None)
-            level = review(report, ingredients, watching=bool(avoid or diets or vegetarian or vegan))
+            level = review(report, ingredients, watching=bool(rule_ids))
+            # The profile level by level (everflavor.restrictions): the gate's answer sorted by category and
+            # severity, plus cautions, the cooking methods read from the steps, and what could not be checked
+            levels = assess(ingredients, dish_name, rule_ids, skip=clean_names(skip),
+                            instructions="\n".join(read["ignored"]) or None)
             loading.empty()
             with st.container(key="verdict"):
                 problems = report["problems"]
-                if level["level"] == "conflict":
-                    count = f"{len(problems)} {'problem' if len(problems) == 1 else 'problems'}"
-                    chef_says(chef, "alert", f"Watch out! I found {count} in {dish_name}.", "alert")
-                    badge(st, "icon_alert", f"🔴 Conflict found: {count} for your profile.", "warn")
-                elif level["level"] == "review":
-                    chef_says(chef, "thinking", f"{dish_name} looks fine by its names, but check a label or two.")
-                    badge(st, "icon_alert", "🟡 Needs review: no conflict in the names, but some ready-made "
-                                            "products can hide what you avoid.", "warn")
+                worst = levels["overall"]
+                if worst in ("critical", "major") or level["level"] == "conflict":
+                    worst = "critical" if worst == "critical" or level["level"] == "conflict" and worst != "major" \
+                        else "major"
+                    sign, words = SEVERITIES[worst]
+                    chef_says(chef, "alert", f"Watch out! {dish_name}: {words.lower()}.", "alert")
+                    badge(st, "icon_alert", f"{sign} {words}.", "warn")
+                elif worst == "moderate" or level["level"] == "review":
+                    chef_says(chef, "thinking", f"{dish_name} breaks none of your rules, but have a look below.")
+                    badge(st, "icon_alert", "🟡 No rule broken, but some things need a look: a label to check, "
+                                            "a sensitivity or a goal.", "warn")
                 else:
                     chef_says(chef, "happy", f"{dish_name} fits your profile. Happy cooking!", "safe")
                     badge(st, "icon_safe", "🟢 No conflicts found in these ingredient names.")
@@ -1807,11 +1842,24 @@ with check_tab:
                     if read["ignored"]:
                         with st.expander(f"{len(read['ignored'])} lines not checked (steps, headings, notes)"):
                             st.markdown("\n".join(f"- {plain(line)}" for line in read["ignored"]))
-                with rules_col:
-                    checked = [checked_words(r) for r in report["checked"] if r != "contains_pet_meat"]
-                    st.markdown("**Checked against**")
-                    st.markdown("\n".join(f"- ✓ {c}" for c in checked) if checked
-                                else "Nothing in your profile yet: add allergies or diets to check for them.")
+                with rules_col:   # the profile, level by level: what matched, what is fine, what was not checked
+                    st.markdown("**Your profile, level by level**")
+                    if not rule_ids:
+                        st.markdown("Nothing in your profile yet: add allergies, diets or more in the sidebar.")
+                    found_by = {f["rule"]: f for f in levels["findings"]}
+                    for category, (category_label, _sev) in CATEGORIES.items():
+                        mine = [r for r in rule_ids if RULES[r].category == category]
+                        if not mine:
+                            continue
+                        rule_rows = []
+                        for rid in mine:
+                            hit = found_by.get(rid)
+                            sign = SEVERITIES[RULES[rid].level][0]
+                            rule_rows.append(f"- {sign} {RULES[rid].label}: "
+                                        + ", ".join(plain(w) for w in hit["why"]) if hit else f"- ✓ {RULES[rid].label}")
+                        st.markdown(f"*{category_label}*\n" + "\n".join(rule_rows))
+                    if levels["not_checked"]:
+                        st.caption("Not checked: " + "; ".join(levels["not_checked"]) + ".")
                 if problems:
                     by_line: dict[str, list[dict]] = {}
                     for problem in problems:              # one entry per ingredient line, with every rule it breaks
