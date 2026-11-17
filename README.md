@@ -6,11 +6,11 @@
 
 *A conversational multi-agent AI that helps users cook authentic global recipes within their calorie limits, dietary restrictions and ingredient availability, and then finds the nearest specialty supermarket.*
 
-![Status](https://img.shields.io/badge/Status-Active%20Development-success)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![Version](https://img.shields.io/badge/version-0.7.1%20beta-success)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?logo=streamlit&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent-FF6B35)
-![Gradio](https://img.shields.io/badge/Gradio-Chat%20Interface-F97316)
-![LLM](https://img.shields.io/badge/LLM-Groq%20%7C%20LLaMA%203.1-00A67E?logo=meta&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-Local%20AI%20(llama3.2)-000000?logo=ollama&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-Baseline%20Model-F7931E?logo=scikit-learn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Datasets-FFD21E?logo=huggingface&logoColor=black)
 ![Kaggle](https://img.shields.io/badge/Kaggle-Data%20Source-20BEFF?logo=Kaggle&logoColor=white)
@@ -27,7 +27,7 @@
 
 **Team EverGlow** · ITAI 2277 Capstone
 
-[Overview](#overview) · [Architecture](#architecture) · [Data Sources](#data-sources) · [Current Status](#current-status) · [Running the Notebook](#running-the-notebook) · [Using the Shared Code](#using-the-shared-code) · [Project Structure](#project-structure)
+[Overview](#overview) · [The App](#the-app-everflavor-kitchen-front-end) · [Architecture](#architecture) · [Data Sources](#data-sources) · [Current Status](#current-status) · [Running the Notebook](#running-the-notebook) · [Using the Shared Code](#using-the-shared-code) · [Project Structure](#project-structure)
 
 </div>
 
@@ -131,6 +131,20 @@ Small samples are collected in Week 4. In Week 5, two free USDA bulk downloads (
 |---|---|---|
 | [USDA FoodData Central](https://fdc.nal.usda.gov/) | Official calorie and nutrient values for single ingredients and prepared dishes | API: `USDA_API_KEY` (free); bulk downloads: no |
 | [Open Food Facts](https://world.openfoodfacts.org) | Packaged and specialty products (miso, tahini, ghee): nutrition, allergens, Nutri-Score | No |
+
+### Photos and places
+
+| Source | What we use it for | License | How it is collected |
+|---|---|---|---|
+| Recipe photos from the recipe datasets (Hugging Face) | Each recipe's own photo, with a link to its page | Each recipe site's terms; research use | Downloaded once, checked, not committed |
+| [Food.com - Recipes and Reviews (Kaggle, irkaal)](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews) | Photo links for our Food.com recipes (111,803), plus their own times, servings and extra nutrition, joined on the recipe number | CC0 | `kagglehub`, notebook 10 and `scripts/recipe_details.py` |
+| [Wikimedia Commons](https://commons.wikimedia.org) via [Wikidata](https://www.wikidata.org) | A general photo of a dish when a recipe has none (3,327 photos for 48,172 recipes), and recordings of dish names | Free licences only, credited on the card | `scripts/dish_photos/fetch_dish_photos.py` |
+| [OpenStreetMap](https://www.openstreetmap.org) with [OpenFreeMap](https://openfreemap.org) tiles | The Map tab: 5,473 Greater Houston grocers, restaurants and butchers | ODbL, credited on the map; tiles free, no key | Overpass download, notebook 03 |
+| Wikipedia (each row credited) | "May contain" foods (`data/reference/may_contain.csv`: 33 rows for 22 foods) and 50 specialty ingredients for "Where to buy" (`specialty_ingredients.csv`) | CC BY-SA, with credit | Written by hand from the pages, each row with its link and reviewer |
+
+TheMealDB's photos are not used (no free licence on them). **The data rule** (decided 2026-10-24): only
+open-licence or research-use datasets; no scraping of forums, social media or video comments. Every source is
+listed in [docs/sources.md](docs/sources.md).
 
 ### Planned or optional
 
@@ -462,23 +476,57 @@ GitHub runs the same checks automatically on every push and pull request (`.gith
 
 ## The App: EverFlavor Kitchen (Front End)
 
-The web page, in [app/app.py](app/app.py) ([Streamlit](https://streamlit.io), plain Python, no HTML needed): a
-pixel-art kitchen you can tap, a chef who reads out every result, and a kitchen for each cuisine family (Chinese for
-Asian, Moroccan for African, Mediterranean, Mexican, Middle Eastern, plus Japanese and four color themes in
-Settings). Design, art and plans: [design/](design/README.md). It runs after notebook 01 has built the recipe data
-(or on the small demo data in `data/demo/`):
+The web page, in [app/app.py](app/app.py) ([Streamlit](https://streamlit.io)): a pixel-art kitchen that lives in
+your time of day, a chef who reads out every result, and safe recipe ideas from around the world. Design, art and
+plans: [design/](design/README.md); the page itself: [app/](app/README.md). It runs after notebook 01 has built the
+recipe data, or on the small demo data in `data/demo/` (what the live site uses):
 
 ```bash
 uv pip install -r config/requirements-app.txt   # or pip install -r ...
 streamlit run app/app.py
 ```
 
-The browser opens at `http://localhost:8501`. The sidebar holds the user's profile (foods to avoid, diets, calories per meal). **Find recipes** uses the baseline recommender; **Check my recipe** runs the safety gate on pasted ingredient lines and names the line and rule each problem breaks.
+The browser opens at `http://localhost:8501` on a short welcome page; **Find a safe recipe** opens the kitchen.
+
+| Part | What it does |
+|---|---|
+| **Your profile** (sidebar) | In four groups: safety (allergies, medical screens, alcohol), beliefs and values, cooking preferences, sensitivities and goals. Each rule can be strict, avoid, warn or ignore; allergies and medical screens are always strict |
+| **Find recipes** | One search box: a dish, a country or a region ("ramen", "Korean", "Louisiana"), **Browse by region**, or **Explore by place** (world, region, country, culinary region, from the Food Taxonomy). All regions is the default |
+| **Recipe cards** | The dish's clean name (the posted title underneath), its country, calories, protein, cook time (estimated when the recipe gives none), a "why it fits" line, how to say the dish's name, and a photo |
+| **About this dish** | Ingredients, cookware ("You'll need"), the steps one at a time, nutrition per serving, "Where to buy" (specialty ingredients, then stores), a YouTube search for the dish, and your waiter (below) |
+| **Check my recipe** | Paste anything (a list, a whole recipe, a family card). Each finding gets a pixel sign for how serious it is (stop sign, warning, caution, information, all clear) and says how sure we are (verified, likely, possible, unknown), with "may contain" foods, how the dish is made (raw, fermented, charred, aged) and a nutrition estimate for the servings you give |
+| **Map: Houston** | 5,473 grocers, restaurants and butchers in Greater Houston from OpenStreetMap; each diet or cuisine claim shows its evidence (verified, likely, unknown) and why. A card copies the address in one tap and links to the place's website. No location is asked |
+| **Saved** (top right) | Recipes you save stay in this browser on this device (beta), with a backup file to move them; Settings can turn remembering off or clear them |
+| **What's new** (the bell) | The latest notes, under the team's banners |
+| **Report a bug / Suggest a feature** | In Settings and the footer: the project's GitHub issue forms, with the version filled in |
+
+**The kitchens.** Searching a country or region opens its kitchen (Japanese, Chinese, Mediterranean, Mexican,
+Middle Eastern, Moroccan, or the Classic kitchen). The light follows your clock, with your permission, or a time
+you pick in Settings: lamps are off by day and lit at sunset and night. Tap the kitchen: plants drop leaves, lamps
+switch, pots steam, stools wobble. Each region has its chef, as a man or a woman (Settings > Your chef), with
+greetings in the region's language and quotes from well-known chefs of that region.
+
+**Photos.** A card shows the recipe's own photo with a link to its page. Logos and photos that do not show the
+dish (an image-text check) are hidden. Without its own photo, a card may show a free photo of the dish in general
+(Wikimedia Commons, free licences only), labelled "not this recipe", with its credit. With no photo at
+all it shows a pixel-art pan and "Cooking up a picture...".
+
+**Your waiter: Walter or Nathalie** (picked in "Meet your waiter" on the first visit, or in Settings). Tap the
+waiter after opening a dish and they tell its story: a fun fact, where it comes from, its history, what's in it,
+what to try next, and where to read more. Every fact comes from the dish knowledge in
+[data/knowledge/](data/knowledge/README.md) (Wikipedia, credited, and Wikidata; 4,885 dishes and foods), never
+invented. Questions are screened (an injection test set of 71 questions: all 36 attacks blocked, all 35 food
+questions answered), and allergy answers only explain the back end's flags. The tone is yours: Fun, Funny, Just the
+facts, Key points, Broad or Simple. With Ollama on your computer the waiter can retell a story in that tone (off by
+default; a retelling that adds or loses a fact is thrown away).
+
+**Safety stays in the back end.** The page only shows what `src/everflavor` decided; diet labels say
+"halal-friendly ingredients", never "halal", and medical profiles are screens, not advice.
 
 ### Versions and plans
 
-EverFlavor is in **beta** (version 0.5.1). Every change is listed in [CHANGELOG.md](CHANGELOG.md) (semantic
-versions: fixes 0.5.1 → 0.5.2, features → 0.6.0, the finished release 1.0.0), and the app's **What's new** bell shows
+EverFlavor is in **beta** (version 0.7.1). Every change is listed in [CHANGELOG.md](CHANGELOG.md) (semantic
+versions: fixes 0.7.1 → 0.7.2, features → 0.8.0, the finished release 1.0.0), and the app's **What's new** bell shows
 the latest notes, under the team's banners. What comes next, grouped by version, with the reasons and trade-offs: the
 [planner](docs/plans/README.md) (start here), [regional kitchens](docs/plans/REGIONAL_KITCHENS.md) and
 [reliability: hallucinations, photos and the AI models](docs/plans/RELIABILITY.md).
@@ -567,14 +615,32 @@ The-EverFlavor-AI/
 │   ├── 06_dish_variants.ipynb                     # Halal, vegan, gluten-free ... versions of each dish
 │   ├── 07_nutrition_quality.ipynb                 # Macros per serving, nutrient-rich ingredients
 │   ├── 08_climate_and_season.ipynb                # Meat seasons (built); carbon footprint, produce seasons (plan)
-│   └── 09_agent_evaluation.ipynb                  # Same questions for every local model, scored by code (Ollama)
+│   ├── 09_agent_evaluation.ipynb                  # Same questions for every local model, scored by code (Ollama)
+│   ├── 10_recipe_photos.ipynb                     # Food.com's own photos (CC0): links, download, logo marks, photo check
+│   ├── 11_dish_knowledge.ipynb                    # The waiter's dish knowledge (Wikipedia, Wikidata), never invented
+│   ├── 12_safety_engine_check.ipynb               # Check my recipe's engine on 10,000 test recipes, by level and confidence
+│   └── 13_taxonomy_and_map_coverage.ipynb         # Recipes per Food Taxonomy branch; countries with recipes but no places
 ├── data/
-│   ├── reference/    # Hand-made reference tables with sources (committed): cooking_fats.csv
+│   ├── reference/    # Hand-made reference tables with sources (committed): food_taxonomy, may_contain,
+│   │                 # specialty_ingredients, place_evidence, dish_pronunciation, photo reviews, cooking_fats
+│   ├── knowledge/    # The waiter's dish facts (committed), with sources and licences
+│   ├── demo/         # The small demo data the live site runs on (committed)
 │   ├── raw/          # Original downloads and samples (generated, not committed)
 │   ├── interim/      # Combined, cleaned recipe table (generated, not committed)
 │   └── processed/    # Train/val/test splits, charts (figures/), dataset_info.json (generated, not committed)
 ├── app/
-│   └── app.py        # Starter front end (Streamlit): profile, find recipes, check a recipe
+│   ├── app.py              # EverFlavor Kitchen: welcome page, kitchens, search, cards, dish page, Check, Map
+│   ├── kitchen_scene.html  # The living kitchen: light by the hour, taps, leaves, steam
+│   ├── chef_lines.py       # The chefs' greetings and world chefs' quotes, by region
+│   ├── dish_info.py, themes.py  # Dish page nutrition; the kitchens' page colours
+│   └── updates.py          # The What's new notes (the bell)
+├── scripts/
+│   ├── recipe_extras.py, recipe_details.py  # Cook times, photo links, Food.com's own details as side tables
+│   ├── demo_extras.py      # Adds the map, origins and USDA tables to the demo data
+│   ├── recipe_photos/      # Download recipe photos, mark logos, check each photo shows its dish (CLIP)
+│   ├── dish_photos/        # Free general dish photos (Wikimedia Commons, by name or native name)
+│   └── knowledge/          # Collect the waiter's dish facts and the review sheet
+├── design/           # Pixel art (kitchens, chefs, signs, banners, all drawn by code), icons and the design plan
 ├── models/           # Fitted baseline pipeline (generated, not committed)
 ├── src/
 │   └── everflavor/   # Shared code: imported by the notebook now and by the agents later
@@ -590,7 +656,14 @@ The-EverFlavor-AI/
 │       ├── freshness.py                 # image labels, duplicates, split, training, Colab resume (notebook 05)
 │       ├── variants.py                  # dish variants for a target diet (notebook 06)
 │       ├── nutrition_quality.py         # macro labels and nutrient-rich ingredients (notebook 07)
-│       ├── calories.py                  # calorie calculator: ingredient lines -> grams -> USDA calories
+│       ├── calories.py                  # calorie calculator: ingredient lines -> grams -> USDA nutrition
+│       ├── restrictions.py, confidence.py  # the profile in levels; how serious a finding is vs how sure we are
+│       ├── recipe_check.py, preparation.py  # Check my recipe: read anything pasted; raw, fermented, charred, aged
+│       ├── preferences.py               # foods a person just skips (not allergies)
+│       ├── taxonomy.py, places.py       # the Food Taxonomy; map places with their evidence
+│       ├── waiter.py, dish_knowledge.py # Walter or Nathalie, the waiter, and their dish facts
+│       ├── dish_names.py, dish_steps.py, cooking_time.py, recipe_details.py  # the dish page
+│       ├── saved_recipes.py             # saved recipes in the browser (beta)
 │       ├── safety.py                    # user profile and the safety gate for agent-written recipes
 │       ├── llm.py                       # local models through Ollama (VS Code / Antigravity, never Colab)
 │       ├── agent_tools.py               # the agents' tools: recipes, calories, where to buy, substitutions
@@ -619,7 +692,11 @@ The-EverFlavor-AI/
 │   ├── test_real_data.py    # The real tables (skipped without data): USDA matches, gate vs dataset filter
 │   ├── test_pipeline.py     # run_pipeline end to end on tiny tables shaped like each source
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
-│   └── test_security.py     # Pre-push checks: no keys or local paths in committed files
+│   ├── test_security.py     # Pre-push checks: no keys or local paths in committed files
+│   ├── test_restrictions.py, test_confidence.py, test_preparation.py, test_alcohol.py, test_recipe_check.py
+│   ├── test_taxonomy.py, test_places.py, test_waiter.py, test_dish_*.py, test_*_photos.py
+│   ├── test_app_art.py, test_app_contrast.py  # Every picture the app names is drawn; theme colours readable
+│   └── test_version.py      # The version, CHANGELOG and What's new agree
 ├── docs/
 │   ├── art/          # README art: banner.png and logo.png (design/pixel-art/make_banner.py), ramen.py, flag_recall.py
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
@@ -639,11 +716,12 @@ The-EverFlavor-AI/
 ├── config/
 │   ├── requirements.txt      # Python libraries for the notebook
 │   ├── requirements-dev.txt  # Optional checking tools (VS Code / Antigravity)
-│   ├── requirements-app.txt  # Starter app (Streamlit); Ollama setup notes
+│   ├── requirements-app.txt  # The app (Streamlit); Ollama setup notes
+│   ├── requirements.lock     # Every library at a tested version (uv); CI installs from it
 │   ├── mypy.ini              # Settings for the type checker
 │   ├── pymarkdown.json       # Settings for the Markdown checker
 │   └── .env.example          # Template for API keys (copy to config/.env, which git ignores)
-├── .github/workflows/checks.yml  # The checks GitHub runs on every push
+├── .github/workflows/      # checks.yml (tests, ruff, mypy, Markdown), security.yml, codeql.yml
 ├── .gitignore
 ├── LICENSE
 └── README.md
