@@ -49,6 +49,7 @@ from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page co
 from updates import UPDATES  # app/updates.py: the What's new notes
 
 from everflavor import __version__, saved_recipes, waiter
+from everflavor.confidence import CONFIDENCE, Confidence
 from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
@@ -1832,8 +1833,8 @@ with check_tab:
                     badge(st, "icon_safe", "🟢 No conflicts found in these ingredient names.")
                 read_col, rules_col = st.columns([3, 2])
                 with read_col:   # what was read, line by line, so the answer can be trusted
-                    marks = {**{c["line"]: f"⚠ check its label ({c['word']})" for c in level["to_check"]},
-                             **{line: "✗ conflict" for line in level["conflict_lines"]}}
+                    marks = {row["line"]: f"{CONFIDENCE[Confidence(conf)][0]} {CONFIDENCE[Confidence(conf)][1].lower()}"
+                             for conf, rows in levels["by_confidence"].items() for row in rows}
                     st.markdown(f"**Detected ingredients · {len(ingredients)} checked**")
                     st.markdown("\n".join(f"- {'✓' if i not in marks else ''} {where_found(i)}"
                                           + (f" · {marks[i]}" if i in marks else "") for i in ingredients))
@@ -1860,16 +1861,33 @@ with check_tab:
                         st.markdown(f"*{category_label}*\n" + "\n".join(rule_rows))
                     if levels["not_checked"]:
                         st.caption("Not checked: " + "; ".join(levels["not_checked"]) + ".")
-                if problems:
-                    by_line: dict[str, list[dict]] = {}
-                    for problem in problems:              # one entry per ingredient line, with every rule it breaks
-                        by_line.setdefault(str(problem["line"]), []).append(problem)
-                    st.markdown("**Why**\n" + "\n".join(
-                        f"- {where_found(text)} " + "; ".join(
-                            rule_words(p["rule"]) + because(text, p["matched"]) for p in found_here) + "."
-                        for text, found_here in by_line.items()))
-                    if report["explained_by"] != "rules":   # the local AI's words, kept only when they match the rules
-                        st.markdown(plain(report["text"]))
+                # What we found, by how sure we are (everflavor.confidence): listed outright, usually or sometimes
+                # made with it (sourced), or a product whose contents we can't see. Severity is the sign in front.
+                by_line: dict[str, list[dict]] = {}
+                for problem in problems:              # the gate's words for a line, with every rule it breaks
+                    by_line.setdefault(str(problem["line"]), []).append(problem)
+                found_rows = []
+                for conf, (_mark, group_title) in CONFIDENCE.items():
+                    rows = levels["by_confidence"][conf.value]
+                    if not rows:
+                        continue
+                    found_rows.append(f"**{group_title}**")
+                    for row in rows:
+                        sign = SEVERITIES[row["severity"]][0]
+                        if conf is Confidence.VERIFIED and row["line"] in by_line:
+                            said = "; ".join(rule_words(p["rule"]) + because(row["line"], p["matched"])
+                                             for p in by_line[row["line"]])
+                        else:
+                            said = f"{', '.join(row['rules'])}: " + "; ".join(plain(n) for n in row["notes"])
+                        links = " ".join(f"[source]({s})" for s in row["sources"])
+                        found_rows.append(f"- {sign} {where_found(row['line'])} {said}. {links}".rstrip())
+                if found_rows:
+                    st.markdown("**What we found, and how sure we are**\n\n" + "\n".join(found_rows))
+                if levels["no_issue"] and rule_ids:
+                    st.markdown("**No issue found** against your profile: "
+                                + ", ".join(plain(line) for line in levels["no_issue"]) + ".")
+                if problems and report["explained_by"] != "rules":   # the local AI's words, kept only when they match
+                    st.markdown(plain(report["text"]))
                 skipped = report.get("skipped", [])
                 if skipped:   # foods the user doesn't eat: a note, never part of the safety verdict
                     st.markdown("**Foods you don't eat in this recipe:**\n" + "\n".join(

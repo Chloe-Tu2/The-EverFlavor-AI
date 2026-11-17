@@ -22,9 +22,11 @@ from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass
 from typing import Any
 
+from .confidence import Confidence, gate_confidence, may_contain_in, severity_for
 from .cooking import methods_from_instructions
 from .diets import NUTRITION_DIETS
 from .flags import FLAG_RULES
+from .recipe_check import opaque_word
 from .safety import UserProfile, check_recipe
 
 __all__ = ["CATEGORIES", "RULES", "SEVERITIES", "Rule", "assess", "profile_for", "rule_ids_from_profile", "rules_in"]
@@ -212,28 +214,57 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
         instructions: The steps, for "How it's cooked" (not checked without them).
         nutrition: Per-serving values (sodium_mg, carbs_g, protein_g) for goals (not checked without them).
 
+    Every finding also carries `items`, one per line, each with its confidence (everflavor.confidence): the gate's
+    own matches keep their rule's severity and are labelled verified, likely or possible; a food from the
+    may-contain table adds a likely or possible caution the gate does not make; a ready-made product no rule
+    explains is unknown ("check the label").
+
     Returns:
-        {"findings": [{"rule", "label", "category", "severity", "lines", "why"}], "ok": [labels checked and
-        fine], "not_checked": [labels with why], "overall": the worst severity found, or "clear"}.
+        {"findings": [{"rule", "label", "category", "severity", "lines", "why", "items": [{"line", "why",
+        "confidence", "note", "source", "severity"}]}], "ok": [labels checked and fine], "not_checked": [labels
+        with why], "overall": the worst severity found, or "clear", "by_confidence": {confidence: [{"line",
+        "rules", "notes", "sources", "severity"}]} for the lines with something to say, "no_issue": [the other
+        lines]}.
     """
     chosen = [r for r in dict.fromkeys(rule_ids) if r in RULES]
     findings: list[dict[str, Any]] = []
     not_checked: list[str] = []
-    gate = check_recipe(lines, name, profile_for(chosen, skip))   # the gate decides the blocking rules
+    profile = profile_for(chosen, skip)
+    gate = check_recipe(lines, name, profile)   # the gate decides the blocking rules
     for problem in gate["problems"]:
+        conf, note, source = gate_confidence(str(problem["line"]), problem["flag"], problem["matched"])
         owners = _rules_for_problem(problem, chosen)
         if not owners:   # pet meat (P24): always checked, always unsafe
-            findings.append({"rule": "pet_meat", "label": "Never served", "category": "cultural",
-                             "severity": "critical", "lines": [problem["line"]], "why": problem["matched"]})
+            _add(findings, "pet_meat", problem["line"], problem["matched"], conf, note, source, "critical")
         for rid in owners:
-            _add(findings, rid, problem["line"], problem["matched"])
+            _add(findings, rid, problem["line"], problem["matched"], conf, note, source)
     cautions = [r for r in chosen if RULES[r].kind == "flag" and RULES[r].level == "moderate"]
+    caution_flags = tuple(dict.fromkeys(f for r in cautions for f in RULES[r].targets))
     if cautions:   # sensitivities and moderate screens: the same reading of the names, shown as cautions
-        flags = tuple(dict.fromkeys(f for r in cautions for f in RULES[r].targets))
-        for problem in check_recipe(lines, name, UserProfile(avoid=flags))["problems"]:
+        for problem in check_recipe(lines, name, UserProfile(avoid=caution_flags))["problems"]:
+            conf, note, source = gate_confidence(str(problem["line"]), problem["flag"], problem["matched"])
             for rid in cautions:
                 if problem["rule"] in RULES[rid].targets:
-                    _add(findings, rid, problem["line"], problem["matched"])
+                    _add(findings, rid, problem["line"], problem["matched"], conf, note, source)
+    named = [*lines, *([f"(dish name) {name}"] if str(name or "").strip() else [])]
+    for line in named:   # foods usually or sometimes made with something the profile watches
+        for row in may_contain_in(line):
+            hits = [(p, _rules_for_problem(p, chosen)) for p in check_recipe(list(row.contains), "", profile)["problems"]]
+            hits += [(p, [r for r in cautions if p["rule"] in RULES[r].targets]) for p in
+                     check_recipe(list(row.contains), "", UserProfile(avoid=caution_flags))["problems"]] if cautions else []
+            for problem, owners in hits:
+                for rid in owners:
+                    if problem["flag"] in row.flags and not _has(findings, rid, line):
+                        level = severity_for(RULES[rid].level, row.confidence, category=RULES[rid].category)
+                        _add(findings, rid, line, [f"{row.item} ({', '.join(row.contains)})"], row.confidence,
+                             row.note, row.source, level)
+    if chosen:   # a ready-made product nothing above explains: its contents are unknown
+        explained = {i["line"] for f in findings for i in f["items"]}
+        for line in lines:
+            word = opaque_word(line)
+            if word and line not in explained:
+                _add(findings, "label_check", line, [word], Confidence.UNKNOWN,
+                     f"a {word} whose ingredients the name does not show", "", "moderate")
     methods = set(methods_from_instructions(instructions)) if instructions else set()
     for rid in chosen:
         rule = RULES[rid]
@@ -251,13 +282,37 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
                 _add(findings, rid, "per serving", [f"{column.split('_')[0]} {value:.0f}"])
     for item in gate.get("skipped", []):
         findings.append({"rule": "skip", "label": "Foods you don't eat", "category": "dislikes", "severity": "info",
-                         "lines": [item["line"]], "why": list(item["foods"])})
+                         "lines": [item["line"]], "why": list(item["foods"]), "items": []})
     hit = {f["rule"] for f in findings}
     ok = [RULES[r].label for r in chosen if r not in hit
           and not any(n.startswith(RULES[r].label + " (") for n in not_checked)]
     worst = min((_ORDER.index(f["severity"]) for f in findings), default=None)
+    by_confidence = _by_confidence(findings)
+    said = {row["line"] for rows in by_confidence.values() for row in rows}
     return {"findings": findings, "ok": ok, "not_checked": not_checked,
-            "overall": _ORDER[worst] if worst is not None else "clear"}
+            "overall": _ORDER[worst] if worst is not None else "clear",
+            "by_confidence": by_confidence, "no_issue": [line for line in lines if line not in said]}
+
+
+def _by_confidence(findings: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+    """The findings' lines grouped by how sure they are: each line once, under its most certain match, with every
+    rule it touches."""
+    order = list(Confidence)
+    lines: dict[str, dict[str, Any]] = {}
+    for found in findings:
+        for item in found["items"]:
+            row = lines.setdefault(str(item["line"]), {"line": str(item["line"]), "rules": [], "notes": [],
+                                                       "sources": [], "severity": item["severity"],
+                                                       "confidence": item["confidence"]})
+            row["rules"] = list(dict.fromkeys([*row["rules"], found["label"]]))
+            row["notes"] = list(dict.fromkeys([*row["notes"], item["note"]]))
+            row["sources"] = list(dict.fromkeys([*row["sources"], *([item["source"]] if item["source"] else [])]))
+            row["severity"] = min(row["severity"], item["severity"], key=_ORDER.index)
+            row["confidence"] = min(row["confidence"], item["confidence"], key=order.index)
+    out: dict[str, list[dict[str, Any]]] = {c.value: [] for c in order}
+    for row in lines.values():
+        out[Confidence(row.pop("confidence")).value].append(row)
+    return out
 
 
 def _number(value: object) -> float | None:
@@ -269,12 +324,29 @@ def _number(value: object) -> float | None:
     return None if math.isnan(number) else number
 
 
-def _add(findings: list[dict[str, Any]], rid: str, line: object, why: object) -> None:
-    rule = RULES[rid]
+# findings that belong to no rule of the profile: pet meat (P24, always checked) and a product to check the label of
+_SPECIAL = {"pet_meat": ("Never served", "cultural"), "label_check": ("Check the label", "unknown")}
+
+
+def _has(findings: list[dict[str, Any]], rid: str, line: str) -> bool:
+    return any(f["rule"] == rid and any(str(i["line"]) == line for i in f["items"]) for f in findings)
+
+
+def _add(findings: list[dict[str, Any]], rid: str, line: object, why: object,
+         confidence: Confidence = Confidence.VERIFIED, note: str = "", source: str = "",
+         severity: str | None = None) -> None:
+    """Add one line to a rule's finding (one finding per rule; its severity is the worst of its lines)."""
+    label, category = _SPECIAL[rid] if rid in _SPECIAL else (RULES[rid].label, RULES[rid].category)
+    level = severity or RULES[rid].level
+    words = why if isinstance(why, list) else [why]
+    item = {"line": line, "why": words, "confidence": confidence.value, "note": note, "source": source,
+            "severity": level}
     for found in findings:
         if found["rule"] == rid:
             found["lines"].append(line)
-            found["why"] = list(dict.fromkeys([*found["why"], *(why if isinstance(why, list) else [why])]))
+            found["why"] = list(dict.fromkeys([*found["why"], *words]))
+            found["items"].append(item)
+            found["severity"] = min(found["severity"], level, key=_ORDER.index)
             return
-    findings.append({"rule": rid, "label": rule.label, "category": rule.category, "severity": rule.level,
-                     "lines": [line], "why": why})
+    findings.append({"rule": rid, "label": label, "category": category, "severity": level,
+                     "lines": [line], "why": list(words), "items": [item]})

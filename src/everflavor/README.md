@@ -12,6 +12,7 @@ add `src/` to the path for you.
 | | `diets.py` | Diet profiles (halal, kosher, vegan, Jain ...) built from the flags |
 | | `dish_names.py` | The dish's own name from a posted title ("Kittencal's Famous Lasagna" -> "Lasagna"), for showing only; the flags read the posted title |
 | | `safety.py` | `UserProfile` and `check_recipe`: the gate every agent-written recipe passes |
+| | `confidence.py` | How sure a finding is, kept apart from how serious it is: verified (listed), likely or possible (a food usually or sometimes made with it, from the sourced may-contain table), unknown (a product whose contents the name does not show); `severity_for` reads both with the person's answer (strict, avoid, warn, ignore; allergies and medical screens always strict) and never softens the gate's call |
 | | `review.py` | Blind hand-check samples for the flags |
 | **Recipes and data** | `sources.py` | Download helpers: USDA, Open Food Facts, CulinaryDB, TheMealDB |
 | | `pipeline.py` | Cleaning, combining, splitting, validation (`run_pipeline`); `refresh_flags` works the flags out again after a rule change |

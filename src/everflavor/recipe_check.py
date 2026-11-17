@@ -18,7 +18,7 @@ import re
 from collections.abc import Iterable, Mapping
 from typing import Any
 
-__all__ = ["OPAQUE_WORDS", "extract_ingredients", "review"]
+__all__ = ["OPAQUE_WORDS", "extract_ingredients", "opaque_word", "review"]
 
 # Headings that open and close the ingredient part of a pasted recipe
 _INGREDIENTS_HEADING = re.compile(r"^\W*(ingredients?|you('ll| will) need|what you need)\b[^a-z]*$", re.IGNORECASE)
@@ -39,6 +39,12 @@ OPAQUE_WORDS = ("sauce", "mix", "paste", "seasoning", "dressing", "marinade", "s
                 "curry powder", "store-bought", "store bought", "ready-made", "premade", "pre-made", "instant",
                 "packet", "canned soup", "cream of")
 _OPAQUE = re.compile(r"\b(" + "|".join(re.escape(w) for w in OPAQUE_WORDS) + r")s?\b", re.IGNORECASE)
+
+
+def opaque_word(line: str) -> str | None:
+    """The ready-made-product word in a line ("2 tbsp house sauce" -> "sauce"), or None."""
+    found = _OPAQUE.search(line)
+    return found.group(1).lower() if found else None
 
 
 def extract_ingredients(text: str) -> dict[str, Any]:
