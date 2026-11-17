@@ -1,13 +1,14 @@
 """Build the list of photo links: one row per (source, recipe_id, url)."""
-import json
 import string
 import sys
-import time
-import urllib.request
 from pathlib import Path
 
 import pandas as pd
+import requests
 from datasets import load_dataset
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # scripts/, for the shared fetch helpers
+import fetch_tools as ft
 
 REPO = Path(sys.argv[1])
 OUT = Path(sys.argv[2])
@@ -48,14 +49,12 @@ hfall["source"] = "huggingface"
 
 # TheMealDB: the raw table has no thumbnail column, so search again (36 calls, free test key "1")
 meals = {}
-for c in string.ascii_lowercase + string.digits:
-    req = urllib.request.Request(f"https://www.themealdb.com/api/json/v1/1/search.php?f={c}",
-                                 headers={"User-Agent": "EverFlavorAI-capstone-photo-index/0.1 (student research)"})
-    with urllib.request.urlopen(req, timeout=30) as resp:  # noqa: S310 - a fixed https address
-        data = json.loads(resp.read().decode("utf-8"))
+api = requests.Session()
+api.headers["User-Agent"] = "EverFlavorAI-capstone-photo-index/0.1 (student research)"
+for c in string.ascii_lowercase + string.digits:   # retries with backoff, Retry-After obeyed (fetch_tools)
+    data = ft.get_json(api, "https://www.themealdb.com/api/json/v1/1/search.php", {"f": c}, pace=0.4)
     for m in data.get("meals") or []:
         meals[m["idMeal"]] = m.get("strMealThumb")
-    time.sleep(0.4)
 md = proc[proc.source == "themealdb"].copy()
 md["idMeal"] = md.recipe_id.str.removeprefix("themealdb_")
 md["image_url"] = md.idMeal.map(meals)
@@ -65,6 +64,6 @@ md = md[["recipe_id", "recipe_name", "image_url"]].assign(source="themealdb", in
 links = pd.concat([hfall, md], ignore_index=True).rename(columns={"image_url": "url"})
 print("no url:", links.url.isna().groupby(links.source).sum().to_dict())
 links = links.dropna(subset=["url"])
-links.to_csv(OUT, index=False)
+ft.save_table(links, Path(OUT))
 print(links.groupby("source").agg(rows=("url", "size"), urls=("url", "nunique")))
 print(links.groupby("source")[["in_full_data", "in_demo"]].sum())

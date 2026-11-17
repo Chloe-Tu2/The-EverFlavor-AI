@@ -2,7 +2,6 @@
 
 usage: python -I fetch.py LINKS_CSV PHOTO_DIR [--sample N]
 """
-import csv
 import hashlib
 import io
 import json
@@ -17,6 +16,9 @@ from pathlib import Path
 import pandas as pd
 import requests
 from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # scripts/, for the shared fetch helpers
+import fetch_tools as ft
 
 LINKS, ROOT = Path(sys.argv[1]), Path(sys.argv[2])
 SAMPLE = int(sys.argv[sys.argv.index("--sample") + 1]) if "--sample" in sys.argv else 0
@@ -33,21 +35,6 @@ def sess():
     return local.s
 
 
-def sniff(b):
-    """File type from the first bytes (the S3 host sends application/octet-stream)."""
-    if b[:3] == b"\xff\xd8\xff":
-        return "jpg"
-    if b[:8] == b"\x89PNG\r\n\x1a\n":
-        return "png"
-    if b[:4] == b"RIFF" and b[8:12] == b"WEBP":
-        return "webp"
-    if b[:6] in (b"GIF87a", b"GIF89a"):
-        return "gif"
-    if b[4:12] in (b"ftypavif", b"ftypheic", b"ftypmif1"):
-        return "avif"
-    return None
-
-
 def ahash(img):
     g = img.convert("L").resize((8, 8), Image.LANCZOS)
     px = list(g.tobytes())
@@ -57,7 +44,7 @@ def ahash(img):
 
 def describe(path):
     data = path.read_bytes()
-    out = {"bytes": len(data), "sha256": hashlib.sha256(data).hexdigest(), "format": sniff(data)}
+    out = {"bytes": len(data), "sha256": hashlib.sha256(data).hexdigest(), "format": ft.image_kind(data)}
     try:
         with Image.open(io.BytesIO(data)) as im:
             out["width"], out["height"] = im.size
@@ -77,25 +64,25 @@ def fetch(source, url):
                         "content_type": None, "reused": True, **describe(p)}
     last = {}
     for attempt in range(4):
+        r = None
         try:
             r = sess().get(url, timeout=(10, 40))
             ct = (r.headers.get("Content-Type") or "").split(";")[0].strip().lower()
             if r.status_code == 200:
-                ext = sniff(r.content) or "bin"
+                ext = ft.image_kind(r.content) or "bin"
                 d.mkdir(parents=True, exist_ok=True)
                 p = d / f"{sha1}.{ext}"
-                tmp = p.with_name(p.name + ".part")
-                tmp.write_bytes(r.content)
-                tmp.replace(p)
+                ft.write_bytes(p, r.content)
                 time.sleep(0.1)
                 return {"url": url, "file": str(p.relative_to(ROOT)).replace("\\", "/"), "http_status": 200,
                         "content_type": ct, **describe(p)}
             last = {"url": url, "http_status": r.status_code, "content_type": ct, "error": f"http_{r.status_code}"}
-            if r.status_code in (400, 401, 403, 404, 410):
+            if r.status_code in ft.GIVE_UP:
                 return last
         except requests.RequestException as e:
             last = {"url": url, "http_status": None, "error": type(e).__name__}
-        time.sleep(2 ** attempt + random.random())
+        pause = ft.retry_after(r.headers if r is not None else None, 2 ** attempt)
+        time.sleep(min(pause, 120.0) + random.random())
     return last
 
 
@@ -107,7 +94,10 @@ def main():
     done = {}
     if LOG.exists():
         for line in LOG.read_text(encoding="utf-8").splitlines():
-            rec = json.loads(line)
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:   # a line cut short by a stopped run: that URL is fetched again
+                continue
             if rec.get("http_status") == 200 or str(rec.get("error", "")).startswith("http_4"):
                 done[rec["url"]] = rec
     todo = [(s, u) for s, u in urls.itertuples(index=False) if u not in done]
@@ -147,7 +137,7 @@ def main():
     for c in cols:
         if c not in m:
             m[c] = None
-    m[cols].to_csv(ROOT / "manifest.csv", index=False, quoting=csv.QUOTE_MINIMAL)
+    ft.save_table(m[cols], ROOT / "manifest.csv")
     print("manifest rows", len(m))
 
 

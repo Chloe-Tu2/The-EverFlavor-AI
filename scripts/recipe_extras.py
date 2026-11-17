@@ -20,6 +20,9 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+sys.path.insert(0, str(ROOT / "scripts"))
+import fetch_tools as ft
+
 from everflavor.cooking_time import estimate_minutes, fit_time_model
 
 PROCESSED = ROOT / "data" / "processed"
@@ -39,7 +42,7 @@ def times() -> None:
     model = fit_time_model(cast(pd.DataFrame, df[df["split"] == "train"]))
     out = estimate_minutes(model, df)
     out.insert(0, "recipe_id", df["recipe_id"].values)
-    out.to_parquet(PROCESSED / "recipe_times.parquet", index=False)
+    ft.save_table(out, PROCESSED / "recipe_times.parquet")
     print(f"recipe_times.parquet: {len(out):,} rows in {time.time() - start:.0f} s;",
           out["minutes_source"].value_counts().to_dict())
 
@@ -51,7 +54,7 @@ def photos() -> None:
     m = m.assign(photo_ok=~shared & (m["bytes"] >= TINY_BYTES))
     out = cast(pd.DataFrame, m.drop_duplicates("recipe_id")[["recipe_id", "url", "photo_ok"]])
     out = out.rename(columns={"url": "image_url"})
-    out.to_parquet(PROCESSED / "recipe_photos.parquet", index=False)
+    ft.save_table(out, PROCESSED / "recipe_photos.parquet")
     print(f"recipe_photos.parquet: {len(out):,} recipes, {(~out['photo_ok']).sum():,} photos hidden (logos, tiny)")
 
 
