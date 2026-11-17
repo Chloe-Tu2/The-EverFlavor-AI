@@ -1592,15 +1592,24 @@ elif not st.session_state.get("walter_onboarded") or st.session_state.pop("walte
     setup_walter()   # right after the profile on the first visit; later from Settings or Walter's bubble
 with st.sidebar:
     st.header("Your profile")
-    st.markdown("**I can't eat**")
+    # Four groups, from what keeps you safe to what you'd like (each with its severity sign); the keys are unchanged,
+    # so a saved profile stays as it was
+    extra_rules: list[str] = []
+
+    def rule_pick(category: str, label: str | None = None) -> list[str]:
+        """One profile group's choices (medical screens, how it's cooked, sensitivities, goals)."""
+        name = label or CATEGORIES[category][0]
+        return st.multiselect(name, rules_in(category), format_func=rule_label, key=f"rules-{category}")
+
+    st.markdown(f"{sign('critical')} **Safety**", unsafe_allow_html=True)
     food_tabs("avoid", "skip")
     avoid, skip = list(st.session_state["avoid"]), list(st.session_state["skip"])
-    diets = st.multiselect("I follow", options=sorted(DIET_PROFILES), format_func=nice_diet, key="diets")
-    vegetarian = st.checkbox("Vegetarian", key="vegetarian")
-    vegan = st.checkbox("Vegan", key="vegan")
+    extra_rules += rule_pick("medical")
+    st.caption("Medical screens read ingredient names and nutrition per serving. They are not medical advice: "
+               "ask your doctor or dietitian.")
     # Alcohol: one setting whatever the reason (faith, recovery, pregnancy, medicine); the reason only changes the
     # words. Halal-friendly, or alcohol on the allergy list, sets it to strict (everflavor.restrictions.AlcoholSetting)
-    fixed_strict = "halal_friendly" in diets or "contains_alcohol" in avoid
+    fixed_strict = "halal_friendly" in st.session_state.get("diets", []) or "contains_alcohol" in avoid
     if fixed_strict:
         st.session_state["alcohol-level"] = ProfileResponse.STRICT.value
     alcohol_level = ProfileResponse(st.selectbox(
@@ -1614,18 +1623,19 @@ with st.sidebar:
     extracts = alcohol_level is ProfileResponse.IGNORE or st.checkbox(
         "Count flavour extracts too (vanilla extract...)", value=True, key="alcohol-extracts")
     alcohol_setting = AlcoholSetting(alcohol_level, cooked_ok, extracts)
+
+    st.markdown(f"{sign('major')} **Beliefs and values**", unsafe_allow_html=True)
+    diets = st.multiselect("I follow", options=sorted(DIET_PROFILES), format_func=nice_diet, key="diets")
+    vegetarian = st.checkbox("Vegetarian", key="vegetarian")
+    vegan = st.checkbox("Vegan", key="vegan")
+
+    st.markdown(f"{sign('major')} **Cooking preferences**", unsafe_allow_html=True)
+    extra_rules += rule_pick("preparation", "How it's cooked")
+
+    st.markdown(f"{sign('moderate')} **Sensitivities and goals**", unsafe_allow_html=True)
+    extra_rules += rule_pick("sensitivities")
+    extra_rules += rule_pick("goals")
     calories = st.slider("Calories per meal", min_value=200, max_value=1500, step=50, key="calories")
-    with st.expander("More of my profile: medical, cooking, sensitivities, goals"):
-        # The profile in levels (everflavor.restrictions): medical screens block like allergies; how it's cooked
-        # is read from the steps; sensitivities and goals only inform, they never hide a recipe
-        extra_rules: list[str] = []
-        for category in ("medical", "preparation", "sensitivities", "goals"):
-            label, severity = CATEGORIES[category]
-            st.markdown(f"{sign(severity)} {label}", unsafe_allow_html=True)
-            extra_rules += st.multiselect(label, rules_in(category), format_func=rule_label,
-                                          key=f"rules-{category}", label_visibility="collapsed")
-        st.caption("Medical screens read ingredient names and nutrition per serving. They are not medical advice: "
-                   "ask your doctor or dietitian.")
     st.divider()
     if ai["kind"] == "ollama":
         use_ai = st.checkbox(f"Explain problems with local AI ({ai['model']})", value=True)
