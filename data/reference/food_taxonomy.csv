@@ -30,6 +30,10 @@ mexico_central_america,Mexico & Central America,region,latin_america,,
 south_america,South America,region,latin_america,,south american
 caribbean_islands,Caribbean Islands,region,caribbean,,
 australasia,Australasia,region,oceania,,
+west_africa,West Africa,region,africa,,west african
+central_africa,Central Africa,region,africa,,central african
+baltic,Baltic States,region,europe,,baltic
+caucasus,Caucasus,region,mena,asia,caucasian
 china,China,country,east_asia,,chinese
 japan,Japan,country,east_asia,,japanese
 south_korea,South Korea,country,east_asia,,korean;korea
@@ -84,6 +88,44 @@ cuba,Cuba,country,caribbean_islands,,cuban
 puerto_rico,Puerto Rico,country,caribbean_islands,,puerto rican
 australia,Australia,country,australasia,,australian
 new_zealand,New Zealand,country,australasia,,kiwi
+costa_rica,Costa Rica,country,mexico_central_america,,costa rican
+guatemala,Guatemala,country,mexico_central_america,,guatemalan
+honduras,Honduras,country,mexico_central_america,,honduran
+venezuela,Venezuela,country,south_america,,venezuelan
+ecuador,Ecuador,country,south_america,,ecuadorian
+uruguay,Uruguay,country,south_america,,uruguayan
+iceland,Iceland,country,nordic,,icelandic
+estonia,Estonia,country,baltic,,estonian
+nepal,Nepal,country,south_asia,,nepali;nepalese
+bangladesh,Bangladesh,country,south_asia,,bangladeshi
+afghanistan,Afghanistan,country,south_asia,,afghan
+laos,Laos,country,southeast_asia,,lao;laotian
+taiwan,Taiwan,country,east_asia,,taiwanese
+nigeria,Nigeria,country,west_africa,,nigerian
+congo,Congo,country,central_africa,,congolese
+angola,Angola,country,central_africa,,angolan
+libya,Libya,country,north_africa,,libyan
+algeria,Algeria,country,north_africa,,algerian
+tunisia,Tunisia,country,north_africa,,tunisian
+sudan,Sudan,country,north_africa,,sudanese
+somalia,Somalia,country,east_africa,,somali
+kenya,Kenya,country,east_africa,,kenyan
+botswana,Botswana,country,southern_africa,,motswana
+namibia,Namibia,country,southern_africa,,namibian
+syria,Syria,country,levant,,syrian
+armenia,Armenia,country,caucasus,,armenian
+azerbaijan,Azerbaijan,country,caucasus,,azerbaijani
+albania,Albania,country,mediterranean_europe,,albanian
+croatia,Croatia,country,mediterranean_europe,,croatian
+andorra,Andorra,country,mediterranean_europe,,andorran
+bulgaria,Bulgaria,country,eastern_europe,,bulgarian
+ukraine,Ukraine,country,eastern_europe,,ukrainian
+slovakia,Slovakia,country,eastern_europe,,slovak
+dominica,Dominica,country,caribbean_islands,,
+cayman_islands,Cayman Islands,country,caribbean_islands,,caymanian
+aruba,Aruba,country,caribbean_islands,,aruban
+barbados,Barbados,country,caribbean_islands,,barbadian;bajan
+antigua_and_barbuda,Antigua and Barbuda,country,caribbean_islands,,antiguan
 us_northeast,Northeastern US,division,united_states,,northeast;new england
 us_south,Southern US,division,united_states,,southern;south
 us_midwest,Midwestern US,division,united_states,,midwest

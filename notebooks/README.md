@@ -50,6 +50,7 @@ The models, and the checks that say whether the app can be trusted.
 | 05 | [Computer vision: freshness](05_computer_vision_freshness.ipynb) | Indexes 45k fruit, meat and fish photos; near-duplicates, licenses, leak-free split; training (needs a GPU: use Colab, which saves results to Google Drive and resumes after a disconnect; section 7 zips the results to share) | `processed/freshness_images.parquet`, `freshness_coverage.csv` |
 | 09 | [Agent evaluation](09_agent_evaluation.ipynb) | The same 33 questions (5 profiles, 13 attacks) for every local model, scored by code: leaks, right tool, right calories, attacks pushed back; each run compared with the last. VS Code / Antigravity only (needs Ollama) | `processed/agent_eval/agent_eval_<date>.csv` |
 | 12 | [Safety engine check](12_safety_engine_check.ipynb) | Runs Check my recipe's engine on 10,000 test recipes for four sample profiles: results by level and by confidence (verified, likely, possible, unknown), the most common may-contain foods, unknown products and preparation risks, agreement with the stored flags by source (Food.com: 0 missed), and a hand-check sample for the team. Needs 01 | `processed/safety_engine_report.csv`, `processed/safety_engine_handcheck.csv` |
+| 13 | [Food Taxonomy and map coverage](13_taxonomy_and_map_coverage.ipynb) | Recipes per branch of the Food Taxonomy, recipe countries and regions the tree lacks (run 2026-11-17: 38 found and added, now 0), and for each country its recipes and the map's places with that cuisine; the thin spots (Indonesia and Egypt: 200+ recipes, no places in the pilot area). Needs 01 and 03 | `processed/taxonomy_map_coverage.csv` |
 
 ## Run times
 
@@ -70,6 +71,7 @@ at the top. Colab's free runtime takes about as long, or a little longer. First-
 | 10 | a few minutes for the links; a few hours for all the photos (off by default) | the recipes file from Kaggle (part of 1.55 GB) | Section 4, the photo download |
 | 11 | seconds (uses the collected file) | about 2 hours to recollect with `COLLECT` (cached after) | Section 2 |
 | 12 | about 5 minutes (10,000 recipes, four profiles) | nothing (needs 01) | Section 3, the checks |
+| 13 | under 10 seconds | nothing (needs 01 and 03) | Section 2 |
 
 All of them on a fresh computer: plan for an afternoon (most of it notebook 05's photos); re-running all of
 them takes about an hour.
