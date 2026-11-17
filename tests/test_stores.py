@@ -88,6 +88,23 @@ def test_osm_places_try_the_next_server_and_read_tags(fake_net, tmp_path):
     assert len(calls) == 2
 
 
+def test_osm_places_in_a_box_with_address_phone_and_kind(fake_net, tmp_path):
+    calls, answers = fake_net
+    answers.append(FakeResponse(200, {"elements": [
+        {"type": "node", "id": 7, "lat": 29.7, "lon": -95.5,
+         "tags": {"name": "Mexican Carnicería", "shop": "butcher", "addr:housenumber": "12", "addr:street": "Main St",
+                  "addr:city": "Houston", "addr:postcode": "77036", "contact:phone": "+1 713 555 0100"}}]}))
+    box = {**AREA, "bbox": (29.45, -95.9, 30.2, -94.95)}
+    out = osm_places(box, "butcher", tmp_path).iloc[0]
+    assert "(29.45,-95.9,30.2,-94.95)" in calls[0]["data"]["data"] and "around:" not in calls[0]["data"]["data"]
+    assert [out["address"], out["postcode"], out["phone"], out["osm_kind"]] == [
+        "12 Main St, Houston 77036", "77036", "+1 713 555 0100", "butcher"]
+    assert out["name_hint"] == "mexican"                                        # the accent does not hide the word
+    answers.append(FakeResponse(200, {"elements": [{"type": "node", "id": 8, "lat": 29.6, "lon": -95.4, "tags": {}}]}))
+    assert osm_places({**box, "bbox": (29.5, -95.9, 30.2, -94.95)}, "butcher", tmp_path).empty is False
+    assert len(calls) == 2                                                      # a new box is never the old cache
+
+
 # ------------------------------------------------------------------ Google Places
 def test_google_places_keep_only_ids_and_never_show_the_key(fake_net, tmp_path):
     calls, answers = fake_net

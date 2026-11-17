@@ -56,6 +56,15 @@ from everflavor.dish_steps import cookware, methods_of, split_minutes, step_brea
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
 from everflavor.parsing import parse_list_string
+from everflavor.places import (
+    UNKNOWN_LABEL,
+    cuisine_name,
+    find_stores_for,
+    load_place_evidence,
+    load_specialty_ingredients,
+    map_places,
+    place_facts,
+)
 from everflavor.preferences import clean_names, common_ingredients, simplest
 from everflavor.recommend import (
     baseline_recommend,
@@ -65,6 +74,7 @@ from everflavor.recommend import (
     within_calories,
 )
 from everflavor.safety import UserProfile
+from everflavor.stores import COUNTRY_CUISINES
 
 DATA = ROOT / "data" / "processed"
 ART = ROOT / "design" / "pixel-art" / "assets"   # drawn by design/pixel-art/make_pixel_art.py
@@ -128,8 +138,8 @@ def load_recipes() -> pd.DataFrame:
     parts = [DATA / f"recipes_{split}.parquet" for split in ("train", "val", "test")]
     df = pd.concat([pd.read_parquet(p) for p in parts], ignore_index=True)
     # The photos and estimated times made next to the data (scripts/recipe_extras.py), when they are there
-    for extra in ("recipe_photos", "recipe_times", "foodcom_details"):   # foodcom_details: scripts/recipe_details.py
-        path = DATA / f"{extra}.parquet"
+    for extra_name in ("recipe_photos", "recipe_times", "foodcom_details"):   # foodcom_details: scripts/recipe_details.py
+        path = DATA / f"{extra_name}.parquet"
         if path.exists() and "recipe_id" in df:
             side = pd.read_parquet(path)
             new = [c for c in side.columns if c == "recipe_id" or c not in df.columns]   # notebook 01 may have them
@@ -170,12 +180,12 @@ def load_recipes() -> pd.DataFrame:
     # the dishes the review has not turned down (data/reference/dish_photo_review.csv)
     dish_photos, review = DATA / "dish_photos.parquet", ROOT / "data" / "reference" / "dish_photo_review.csv"
     if dish_photos.exists() and "recipe_id" in df:
-        extra = pd.read_parquet(dish_photos, columns=["recipe_id", "dish_qid", "dish_label", "thumb_url", "file_page",
+        dish_rows = pd.read_parquet(dish_photos, columns=["recipe_id", "dish_qid", "dish_label", "thumb_url", "file_page",
                                                       "credit"])
         if review.exists():
             refused = pd.read_csv(review).query("keep == 'no'")["dish_qid"]
-            extra = extra[~extra["dish_qid"].isin(refused)]
-        df = df.merge(extra, on="recipe_id", how="left")
+            dish_rows = dish_rows[~dish_rows["dish_qid"].isin(refused)]
+        df = df.merge(dish_rows, on="recipe_id", how="left")
     return df
 
 
@@ -526,9 +536,9 @@ def pronunciations() -> pd.DataFrame:
 def say_it(dish: str) -> dict | None:
     """The pronunciation row for the dish name the recipe's name contains (a whole word), or None."""
     words = f" {dish.lower()} "
-    for row in pronunciations().itertuples():
-        if f" {row.dish} " in words:
-            return row._asdict()
+    for row in pronunciations().to_dict("records"):
+        if f" {row['dish']} " in words:
+            return row
     return None
 
 
@@ -553,7 +563,7 @@ def plain(text: object) -> str:
     as its items."""
     if isinstance(text, list | tuple | set):
         text = ", ".join(map(str, text))
-    return re.sub(r"([\\`*_{}\[\]()#+!|<>~&-])", r"\\\1", str(text))
+    return re.sub(r"([\\`*_{}\[\]()#+!|<>~&$-])", r"\\\1", str(text))   # $: two would start LaTeX
 
 
 def video_search_link(dish: str, country: object) -> str:
@@ -754,7 +764,9 @@ def dish_page(row: pd.Series, dish: str) -> None:
     link = row.get("url")
     own_page = f"[its own page]({link})" if isinstance(link, str) and link.startswith("http") else ""
     info = nutrition_facts(row)
-    recipe_tab, food_tab = st.container(key="dish-tabs").tabs(["Recipe", "Nutrition"])
+    recipe_tab, food_tab, buy_tab = st.container(key="dish-tabs").tabs(["Recipe", "Nutrition", "Where to buy"])
+    with buy_tab:
+        where_to_buy(row.get("ingredient_list"), where if isinstance(where, str) else None)
     with recipe_tab:
         picture, _ = st.columns([2, 3])
         recipe_photo(picture, row, dish)
@@ -815,6 +827,121 @@ def badge(place, icon: str, text: str, kind: str = "safe") -> None:
                    f'</span><span>{html.escape(text)}</span></div>', unsafe_allow_html=True)
 
 
+# ---------- The Food Discovery Map's data (everflavor.places decides every claim and its words; the page shows them) ----------
+MAP_CREDIT = "© OpenStreetMap contributors (ODbL), map © OpenFreeMap."
+LEVEL_MARKS = {"verified": "✔ Verified", "likely": "◐ Likely", "unknown": "? Unknown"}   # a sign and a word, not colour alone
+
+
+@st.cache_data(show_spinner=False)
+def map_data() -> pd.DataFrame:
+    """The places from notebook 03 (OpenStreetMap rows only), or an empty table when the file is not there."""
+    for path in (DATA / "places.parquet", ROOT / "data" / "processed" / "places.parquet"):
+        if path.exists():
+            places = pd.read_parquet(path)
+            places = places[places["source"].eq("osm")] if "source" in places else places
+            for column in ("osm_kind", "address", "phone", "postcode", "website", "opening_hours", "name_hint"):
+                if column not in places:   # a table from before the Greater Houston update
+                    places[column] = ""
+            if "cuisine" not in places:
+                places["cuisine"] = [[] for _ in range(len(places))]
+            return places.reset_index(drop=True)
+    return pd.DataFrame()
+
+
+@st.cache_data(show_spinner=False)
+def stores_for(ingredients: tuple[str, ...], country: str | None) -> dict:
+    """find_stores_for, kept between reruns of the same dish page."""
+    return find_stores_for(ingredients, country, map_data(), specialty_table(), n=6)
+
+
+@st.cache_data(show_spinner=False)
+def specialty_table() -> pd.DataFrame:
+    return load_specialty_ingredients()
+
+
+@st.cache_data(show_spinner=False)
+def place_evidence() -> dict:
+    return load_place_evidence()
+
+
+MAP_KINDS = {"Grocers": "grocery", "Restaurants": "restaurant", "Butchers": "butcher", "Seafood": "seafood",
+             "Bakeries": "bakery", "Spice shops": "spices", "Markets": "marketplace",
+             "Convenience stores": "convenience"}
+MAP_COLORS = {"grocery": [69, 117, 54], "restaurant": [217, 72, 59], "butcher": [139, 69, 19],
+              "seafood": [30, 110, 170], "bakery": [214, 150, 40], "spices": [150, 60, 140],
+              "marketplace": [20, 140, 120], "convenience": [130, 130, 130]}
+
+
+@st.cache_data(show_spinner=False)
+def map_cuisines() -> list[str]:
+    """The cuisines the places name (OpenStreetMap tags and name hints), the app's own countries' words first."""
+    places = map_data()
+    words = places["cuisine"].explode().dropna().astype(str).map(cuisine_name).str.lower()
+    counts = pd.concat([words, places["name_hint"].replace("", pd.NA).dropna()]).value_counts()
+    ours = [w for w in COUNTRY_CUISINES.values() if w in counts.index]
+    rest = [w for w in counts.index if w not in ours and counts[w] >= 3 and ";" not in w]
+    return ours + sorted(rest)
+
+
+@st.cache_data(show_spinner=False)
+def map_rows(kinds: tuple[str, ...], cuisine: str | None, diet: str | None, level: str) -> pd.DataFrame:
+    """The places to draw, with their words decided in the back end (everflavor.places.map_places)."""
+    return map_places(map_data(), kinds, cuisine=cuisine, diet=diet, level=level, evidence=place_evidence())
+
+
+def web_link(url: object) -> str:
+    """A Markdown link for a place's own website, only for a plain http(s) address; else ""."""
+    if isinstance(url, str) and re.fullmatch(r"https?://[^\s()<>\[\]]+", url.strip()):
+        return f"[Website]({url.strip()})"
+    return ""
+
+
+def place_card(place, facts: dict) -> None:
+    """One place's card: what it is, its food focus and its diets, each claim with its level and reason."""
+    place.markdown(f"**{plain(facts['name'])}** · {plain(str(facts['kind']).capitalize())}")
+    for item in facts["indicators"]:
+        place.markdown(f"- {plain(item['text'])} *({plain(item['source'])})*")
+    if facts["diet"]:
+        for item in facts["diet"]:
+            place.markdown(f"- **{LEVEL_MARKS[item['level']]}:** {item['label']}. {plain(item['reason'])}.")
+    else:
+        place.markdown(f"- **{LEVEL_MARKS['unknown']}:** {UNKNOWN_LABEL}.")
+    details = [plain(facts["hours"])] + [plain(facts[k]) for k in ("address", "phone") if facts[k]]
+    link = web_link(facts.get("website"))
+    place.caption(" · ".join(details + ([link] if link else [])))
+    report = f" [Report a mistake]({facts['osm_url']}) (OpenStreetMap)." if facts.get("osm_url") else ""
+    place.caption(facts["note"] + report)
+
+
+def where_to_buy(ingredient_list: object, country: str | None) -> None:
+    """The dish page's "Where to buy": the specialty ingredients to look for (sourced notes), then the stores whose
+    own cuisine or name says they likely carry that food, and where to eat it. The back end picks and words them."""
+    places = map_data()
+    found = stores_for(tuple(map(str, parse_list_string(ingredient_list))), country)
+    if found["look_for"]:
+        st.markdown("**Look for**")
+        for item in found["look_for"]:
+            pending = "" if item["reviewed"] else " *(note awaiting the team's review)*"
+            st.markdown(f"- **{item['ingredient']}**: {item['note']} [Source]({item['source']}), "
+                        f"{item['licence']}.{pending}")
+    else:
+        st.caption("Nothing on our list of specialty ingredients: a large supermarket may carry what this dish needs.")
+    if places.empty:
+        st.info("The store list needs the places from notebook 03 (data/processed/places.parquet).")
+        return
+    st.markdown("**Stores in Greater Houston**")
+    if not found["stores"]:
+        st.caption("No store in our data says it focuses on this food. Try a large supermarket.")
+    for store in found["stores"]:
+        where = f" · {plain(store['address'])}" if store["address"] else ""
+        st.markdown(f"- **{plain(store['name'])}**: {store['why']}{where}")
+    if found["eat"]:
+        st.markdown("**Where to eat it**")
+        for spot in found["eat"]:
+            st.markdown(f"- **{plain(spot['name'])}**: {spot['why']}")
+    st.caption(f"{found['note']} The Map tab shows them all. {MAP_CREDIT}")
+
+
 # ---------- The profile: the sidebar's fields, the first-visit setup and the summary above the results ----------
 PROFILE_DEFAULTS = {"avoid": [], "skip": [], "diets": [], "vegetarian": False, "vegan": False, "calories": 600}
 ALLERGY_HELP = ("Allergies and what your body can't take. Checked for hidden sources too (Worcestershire sauce has "
@@ -839,14 +966,13 @@ def food_tabs(avoid_key: str, skip_key: str, avoid_default: list | None = None,
               skip_default: list | None = None) -> None:
     """"I can't eat" in two tabs: allergies (the safety check) and foods the user simply doesn't eat."""
     allergies, foods = st.container(key=f"food-tabs-{avoid_key}").tabs(["Allergies", "Foods I don't eat"])
-    extra = {} if avoid_default is None else {"default": avoid_default}
-    allergies.multiselect("Allergies", sorted(FLAG_RULES), format_func=nice, key=avoid_key, help=ALLERGY_HELP,
-                          label_visibility="collapsed", placeholder="Peanuts, shellfish, pork...", **extra)
-    extra = {} if skip_default is None else {"default": skip_default}
-    foods.multiselect("Foods I don't eat", food_choices(), key=skip_key, help=SKIP_HELP, accept_new_options=True,
-                      on_change=tidy_foods, args=(skip_key,),
+    # default=None is Streamlit's own default, so a list set earlier in session state is kept
+    allergies.multiselect("Allergies", sorted(FLAG_RULES), default=avoid_default, format_func=nice, key=avoid_key,
+                          help=ALLERGY_HELP, label_visibility="collapsed", placeholder="Peanuts, shellfish, pork...")
+    foods.multiselect("Foods I don't eat", food_choices(), default=skip_default, key=skip_key, help=SKIP_HELP,
+                      accept_new_options=True, on_change=tidy_foods, args=(skip_key,),
                       label_visibility="collapsed", placeholder="Mushrooms, olives, cilantro... (type any food)",
-                      max_selections=200, **extra)
+                      max_selections=200)
     allergies.caption("A safety check: hidden sources too (Worcestershire sauce has fish).")
     foods.caption("Left out by name only, not a safety check. For an allergy, use Allergies.")
 EATING = ["I eat meat", "Vegetarian", "Vegan"]
@@ -1390,7 +1516,7 @@ with find_tab:
     if "origin_country" in recipes:
         # One search box (a dish, a country or a region, with suggestions as you type) and, for those who would
         # rather not type, Browse by region: every region with its countries, one tap to pick one
-        counts = cast(pd.Series, recipes["origin_country"].value_counts())
+        counts = recipes["origin_country"].value_counts()
         counts = cast(pd.Series, counts[(counts >= MIN_COUNTRY_RECIPES) & (counts.index != "Unknown")])
         regions = recipes.dropna(subset=["origin_region"]).groupby("origin_region")["origin_country"].first()
         suggestions = [*counts.index, *(f"{r} ({c})" for r, c in regions.items())]
@@ -1408,23 +1534,23 @@ with find_tab:
             # All regions is the default: nothing picked searches every country
             st.button("Show all regions", key="browse-all", on_click=st.session_state.update, kwargs={"search": None},
                       disabled=not st.session_state.get("search"))
-            family_of = recipes.groupby("origin_country")["cuisine_family"].agg(lambda f: f.mode().iat[0])
+            family_of = recipes.groupby("origin_country")["cuisine_family"].agg(lambda f: str(f.mode().iat[0]))
             for family in ["Asian", "European", "Latin American", "Middle Eastern", "African", "Other"]:
                 in_family = [c for c in counts.index if family_of.get(c) == family]
                 if in_family:
                     st.pills("North America, Oceania and more" if family == "Other" else family, in_family,
                              key=f"browse-{family}", on_change=pick_place, args=(f"browse-{family}",))
-        country, region, dish = read_search(query)
+        country, region, dish_words = read_search(query)
         if country:
-            pool = cast(pd.DataFrame, pool[pool["origin_country"] == country])
+            pool = pool[pool["origin_country"] == country]
         if region:
-            pool = cast(pd.DataFrame, pool[pool["origin_region"] == region])
-        for word in dish:
-            pool = cast(pd.DataFrame, pool[pool["recipe_name"].str.contains(word, case=False, regex=False)])
+            pool = pool[pool["origin_region"] == region]
+        for word in dish_words:
+            pool = pool[pool["recipe_name"].str.contains(word, case=False, regex=False)]
         if query:                                   # what the search is doing, above the results
-            asked = [f"dishes from {region + ', ' if region else ''}{country}"] if country else []
-            asked += ['"' + " ".join(dish) + '" in the name'] if dish else []
-            st.caption("Looking for " + ", ".join(asked) + f" · {len(pool):,} recipes")
+            looking_for = [f"dishes from {region + ', ' if region else ''}{country}"] if country else []
+            looking_for += ['"' + " ".join(dish_words) + '" in the name'] if dish_words else []
+            st.caption("Looking for " + ", ".join(looking_for) + f" · {len(pool):,} recipes")
     else:                                           # the demo data has no countries: the cuisine families only
         cuisine = st.selectbox("Cuisine", ["All"] + sorted(recipes["cuisine_family"].dropna().unique()), key="cuisine")
     # Filters, one tap each, and the order; the back end applies them, and every result still passes its checks
@@ -1511,9 +1637,9 @@ with find_tab:
                 ticks = checks + (["within your calorie target"]
                                   if within_calories(row["calories_per_serving"], calories) else [])
                 if checks:
-                    shown = ticks[:4] + ([f"{len(ticks) - 4} more checks"] if len(ticks) > 4 else [])
+                    first_ticks = ticks[:4] + ([f"{len(ticks) - 4} more checks"] if len(ticks) > 4 else [])
                     info.markdown('<ul class="safe-ticks" aria-label="Checked for you">' + "".join(
-                        f"<li>{html.escape(t[:1].upper() + t[1:])}</li>" for t in shown) + "</ul>",
+                        f"<li>{html.escape(t[:1].upper() + t[1:])}</li>" for t in first_ticks) + "</ul>",
                         unsafe_allow_html=True)
                 else:
                     badge(info, "icon_alert", "Not checked: add what you can't eat under Your profile", "warn")
@@ -1588,40 +1714,72 @@ with check_tab:
                               else ".") + " Not medical advice: the check reads ingredient names.")
 
 with map_tab:
-    # Where to buy and where to eat, Houston only for now (docs/plans/MAP.md): OpenStreetMap places from notebook 03
-    # on a free OpenFreeMap street map. The map never asks where the visitor is.
-    st.write("Grocers, restaurants and butchers in Houston, Texas, for now. More cities may follow.")
-    places_file = DATA / "places.parquet"
-    if not places_file.exists():
-        places_file = ROOT / "data" / "processed" / "places.parquet"
-    if not places_file.exists():
+    # The Food Discovery Map (docs/plans/MAP.md): OpenStreetMap places from notebook 03 on a free OpenFreeMap street
+    # map. Every claim on it comes from everflavor.places with its evidence level and reason; the page only shows
+    # them. The map never asks where the visitor is.
+    st.write("Grocers, markets, butchers and restaurants in Greater Houston, Texas, for now. More cities may follow.")
+    places = map_data()
+    if places.empty:
         st.info("The map needs the places from notebook 03 (data/processed/places.parquet).")
     else:
-        places = pd.read_parquet(places_file).dropna(subset=["lat", "lng"])
-        places["cuisine_text"] = places["cuisine"].map(lambda c: ", ".join(c) if c is not None and len(c) else "")
-        kinds = {"Grocers": "grocery", "Restaurants": "restaurant", "Butchers": "butcher"}
-        picked = st.pills("Show", list(kinds), default=list(kinds), selection_mode="multi", key="map-kinds") or []
-        shown = cast(pd.DataFrame, places[places["category"].isin([kinds[k] for k in picked])])
+        present = set(places["category"])
+        map_kinds = {label: kind for label, kind in MAP_KINDS.items() if kind in present}
+        kinds_picked = st.pills("Show", list(map_kinds), selection_mode="multi", key="map-kinds",
+                                default=[k for k in map_kinds if k != "Convenience stores"]) or []
+        cuisine_spot, diet_spot, level_spot = st.columns(3)
         searched = read_search(st.session_state.get("search"))[0]
-        adjective = next((label for label, (country, _) in ORIGIN_LABELS.items()
-                          if country == searched and " " not in label and label.endswith(("an", "ese", "ish", "i"))), None)
-        if adjective and st.toggle(f"Only {adjective} places (from your search)", value=True, key="map-match"):
-            words = f"{adjective}|{searched.lower()}" if searched else adjective
-            text = shown["cuisine_text"].str.lower() + " " + shown["name_hint"].fillna("").str.lower() + " " \
-                + shown["name"].fillna("").str.lower()
-            shown = cast(pd.DataFrame, shown[text.str.contains(words, regex=True)])
-        st.caption(f"{len(shown):,} places in Houston from OpenStreetMap. Unverified: check with the store. "
-                   "© OpenStreetMap contributors, map © OpenFreeMap.")
-        colors = {"grocery": [69, 117, 54], "restaurant": [217, 72, 59], "butcher": [139, 69, 19]}
-        shown = shown.assign(color=shown["category"].map(colors), label=shown["name"].fillna("(no name)"),
-                             kind=shown["category"].str.capitalize())
-        st.pydeck_chart(pdk.Deck(
+        cuisine_options = map_cuisines()
+        wanted = COUNTRY_CUISINES.get(searched or "")
+        if st.session_state.get("map-last-search", "") != (searched or ""):   # a new search: the map follows it
+            st.session_state["map-last-search"] = searched or ""
+            st.session_state["map-cuisine"] = wanted if wanted in cuisine_options else "Any cuisine"
+        map_cuisine = cuisine_spot.selectbox(
+            "Cuisine", ["Any cuisine", *cuisine_options], key="map-cuisine",
+            format_func=lambda c: c if c == "Any cuisine" else c.title(),
+            help="From the place's OpenStreetMap cuisine tag or, when it has none, its name.")
+        map_diet = diet_spot.selectbox("Diet", ["Any", "Halal", "Kosher", "Vegetarian", "Vegan"], key="map-diet",
+                                       help="Only places with evidence for this diet. Unknown is not a no.")
+        map_level = level_spot.radio("Evidence", ["Likely or verified", "Verified only"], key="map-level",
+                                     disabled=map_diet == "Any", horizontal=True,
+                                     help="Verified: a certifier's list or the business's own site, checked by "
+                                          "the team. Likely: OpenStreetMap's tags or the business's name.")
+        rows = map_rows(tuple(map_kinds[k] for k in kinds_picked),
+                        None if map_cuisine == "Any cuisine" else map_cuisine,
+                        None if map_diet == "Any" else map_diet.lower(),
+                        "verified" if map_level == "Verified only" else "likely")
+        st.caption(f"{len(rows):,} places from OpenStreetMap. Unverified unless marked verified: check with the "
+                   f"business before you go. {MAP_CREDIT}")
+        drawn = rows.assign(color=rows["category"].map(MAP_COLORS),
+                            kind_text=rows["category"].str.capitalize())[
+            ["osm_id", "lng", "lat", "color", "label", "kind_text", "cuisine_text", "diet_text"]]
+        event = st.pydeck_chart(pdk.Deck(
             map_style="https://tiles.openfreemap.org/styles/liberty",
-            initial_view_state=pdk.ViewState(latitude=29.76, longitude=-95.37, zoom=10.5),
-            layers=[pdk.Layer("ScatterplotLayer", shown[["lng", "lat", "color", "label", "kind", "cuisine_text"]],
-                              get_position="[lng, lat]", get_fill_color="color", get_radius=90, pickable=True)],
-            tooltip={"text": "{label}\n{kind} {cuisine_text}\nUnverified: check with the store"}),
-            height=480)
+            initial_view_state=pdk.ViewState(latitude=29.76, longitude=-95.37, zoom=9.5),
+            layers=[pdk.Layer("ScatterplotLayer", drawn, id="places", get_position="[lng, lat]",
+                              get_fill_color="color", get_radius=110, radius_min_pixels=3, pickable=True)],
+            tooltip={"text": "{label}\n{kind_text} {cuisine_text}\n{diet_text}"}),
+            height=480, on_select="rerun", selection_mode="single-object", key="map-deck")
+        # The place card: the pin picked on the map, or one picked from the list (the keyboard's way in)
+        picked_pins = event.selection.get("objects", {}).get("places", []) if event and event.selection else []
+        named_rows = rows[~rows["label"].str.startswith("Unnamed ")].sort_values("label")
+        choices = dict(zip(named_rows["osm_id"], named_rows["label"]))
+        st.selectbox("Open a place card", list(choices), format_func=lambda i: choices[i], index=None, key="map-pick",
+                     placeholder=f"Choose one of {len(choices):,} places (or click a pin on the map)",
+                     on_change=lambda: st.session_state.update({"map-card": st.session_state.get("map-pick")}))
+        pin_id = picked_pins[0].get("osm_id") if picked_pins else None
+        if pin_id != st.session_state.get("map-last-pin"):   # the newest choice wins, a pin or the list
+            st.session_state["map-last-pin"] = pin_id
+            if pin_id:
+                st.session_state["map-card"] = pin_id
+        picked_id = st.session_state.get("map-card")
+        if picked_id:
+            row = rows[rows["osm_id"] == picked_id]
+            if not row.empty:
+                with st.container(border=True, key="place-card"):
+                    place_card(st, place_facts(row.iloc[0], place_evidence().get(str(picked_id), [])))
+        hidden = len(rows) - len(named_rows)
+        if hidden:
+            st.caption(f"{hidden:,} places have no name in OpenStreetMap: they are on the map but not in the list.")
 
 # ---------- Walter, the AI waiter: a button in the page's corner; his bubble is about the dish last opened ----------
 with st.container(key="walter-corner"), st.popover(f"Ask {WAITER}, your waiter"):

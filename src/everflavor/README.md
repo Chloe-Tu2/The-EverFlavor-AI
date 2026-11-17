@@ -18,7 +18,7 @@ add `src/` to the path for you.
 | | `ingredients.py` | Cleaning and normalizing ingredient names |
 | | `cuisine.py` | Cuisine families, country and region of origin |
 | | `parsing.py` | Lists and labels stored as text |
-| | `places.py` | The Food Discovery Map's claims: each diet tag at an evidence level (verified needs a checked record with a link; likely from OpenStreetMap tags or the business's name; unknown otherwise), cuisine indicators with their source; never authenticity, freshness or "best" |
+| | `places.py` | The Food Discovery Map's claims: each diet tag at an evidence level (verified needs a checked record with a link; likely from OpenStreetMap tags or the business's name; unknown otherwise), cuisine indicators with their source; never authenticity, freshness or "best". The recipe -> ingredient -> store link: `specialty_in` (the "Look for" list) and `find_stores_for` (stores whose own cuisine or name says they likely carry that food, each with its reason); `map_places`, the Map tab's rows with their words |
 | | `preferences.py` | Foods a person doesn't eat (not allergies): matched by name only, never a safety check; the "Foods I don't eat" choices |
 | | `recipe_details.py` | Food.com recipes' own prep and cook times, servings, sugar, fibre, saturated fat and cholesterol from the CC0 Kaggle set (joined by number and name; its unit-less quantities are not used) |
 | | `features.py` | Text features shared by the models; training weights by group (`balanced_weights`) and results by group (`results_by_group`) |
@@ -32,7 +32,7 @@ add `src/` to the path for you.
 | | `waiter.py` | Walter, the AI waiter (0.6.3): finds a recipe's dish in the knowledge notebook, answers with skills (fun fact, inspiration, origin, history, ingredients, allergy explained from the back end's flags, learn more, recommendation) weighted by the user's style and told in their tone (Fun, Funny, Just the facts, Key points, Broad, Simple; picked in Settings, on his panel or by asking "make it funny"); screens questions (prompt injection, length), rate-limits them and counts problems without the words; optionally retold by a local model (`reword`, in the tone's form, checked: no new names, numbers, foods or links, the fact itself kept, then `llm.guard_answer`; "Just the facts" is never retold) |
 | | `saved_recipes.py` | Saved recipes kept in the user's own browser (0.6.3 beta): the JSON kept in local storage and in the backup file, and checking what comes back (malformed entries left out, text and count capped) |
 | | `variants.py` | Diet versions of each dish (notebook 06) |
-| | `stores.py` | Stores and products, where to buy (notebook 03) |
+| | `stores.py` | Stores and products, where to buy (notebook 03): OpenStreetMap places in an area's box or circle (`count_places` first), with address, phone and the shop's own kind |
 | | `seasons.py` | Meat supply season and pasture season (notebook 08) |
 | | `freshness.py` | Freshness photos: labels, duplicates, split, training (notebook 05); for long Colab runs: cached duplicate check (`image_hashes`), resumable training (`train_all_groups`), a results zip (`pack_results`); the epoch to keep (`pick_best_epoch`) and what the computer can handle (`system_check`, `system_verdict`); the final test on the test split with the spoiled threshold (`final_test`, `choose_spoiled_threshold`) |
 | **Agents and app** | `recommend.py` | Baseline recommender and its safety filter |
