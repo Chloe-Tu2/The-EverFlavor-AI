@@ -153,7 +153,7 @@ def parse_ingredient_line(line: object) -> dict:
         amount, unit = float(written.group("n")), UNIT_ALIASES[written.group("u").lower()]
     rest = re.sub(r"^\s*of\s+", "", rest)
     # "salt to taste", "parsley for garnish", "nuts (optional)": the phrase is not part of the name
-    rest = re.sub(r"\s*,?\s*\(?\b(?:to taste|as needed|if needed|optional|for (?:garnish|serving|drizzling|"
+    rest = re.sub(r" ?,? ?\(?\b(?:to taste|as needed|if needed|optional|for (?:garnish|serving|drizzling|"
                   r"dusting|frying|greasing|the pan|topping)\b).*$", "", rest, flags=re.IGNORECASE)
     # "peeled and shredded carrots" is one ingredient, not "peeled" and "carrots"; words that change
     # the food ("cooked rice", "toasted almonds") are kept: USDA lists those foods separately
