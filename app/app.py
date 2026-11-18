@@ -24,7 +24,7 @@ import sys
 import urllib.parse
 from functools import cache
 from pathlib import Path
-from typing import cast
+from typing import Any, cast
 from urllib.parse import quote
 
 import pandas as pd
@@ -90,6 +90,7 @@ from everflavor.restrictions import (
     CATEGORIES,
     RULES,
     SEVERITIES,
+    SEVERITY_NAMES,
     AlcoholSetting,
     assess,
     profile_for,
@@ -869,7 +870,8 @@ def pref_text(value: object) -> str:
 def sign(severity: str) -> str:
     """A severity's pixel sign (stop sign, warning diamond, caution triangle, information circle, green circle),
     inline in Markdown shown with unsafe_allow_html; its words go in alt and title, and always next to it."""
-    words = SEVERITIES[severity][1] if severity in SEVERITIES else "No issue found"
+    words = (f"{SEVERITY_NAMES[severity]}: {SEVERITIES[severity][1]}" if severity in SEVERITIES
+             else "No issue found")
     return f'<img class="sign" src="{art("sign_" + severity)}" alt="{html.escape(words)}" title="{html.escape(words)}">'
 
 
@@ -1106,15 +1108,25 @@ def food_tabs(avoid_key: str, skip_key: str, avoid_default: list | None = None,
               skip_default: list | None = None) -> None:
     """"I can't eat" in two tabs: allergies (the safety check) and foods the user simply doesn't eat."""
     allergies, foods = st.container(key=f"food-tabs-{avoid_key}").tabs(["Allergies", "Foods I don't eat"])
-    # default=None is Streamlit's own default, so a list set earlier in session state is kept
-    allergies.multiselect("Allergies", sorted(FLAG_RULES), default=avoid_default, format_func=nice, key=avoid_key,
-                          help=ALLERGY_HELP, label_visibility="collapsed", placeholder="Peanuts, shellfish, pork...")
-    foods.multiselect("Foods I don't eat", food_choices(), default=skip_default, key=skip_key, help=SKIP_HELP,
-                      accept_new_options=True, on_change=tidy_foods, args=(skip_key,),
+    allergy_pick(allergies, avoid_key, avoid_default)
+    skip_pick(foods, skip_key, skip_default)
+
+
+def allergy_pick(place: Any, key: str, default: list | None = None) -> None:
+    """The allergy list (the safety check). default=None is Streamlit's own default, so a list set earlier in
+    session state is kept."""
+    place.multiselect("Allergies", sorted(FLAG_RULES), default=default, format_func=nice, key=key,
+                      help=ALLERGY_HELP, label_visibility="collapsed", placeholder="Peanuts, shellfish, pork...")
+    place.caption("A safety check: hidden sources too (Worcestershire sauce has fish).")
+
+
+def skip_pick(place: Any, key: str, default: list | None = None) -> None:
+    """Foods the person just doesn't eat: matched by name, never part of the safety verdict."""
+    place.multiselect("Foods I don't eat", food_choices(), default=default, key=key, help=SKIP_HELP,
+                      accept_new_options=True, on_change=tidy_foods, args=(key,),
                       label_visibility="collapsed", placeholder="Mushrooms, olives, cilantro... (type any food)",
                       max_selections=200)
-    allergies.caption("A safety check: hidden sources too (Worcestershire sauce has fish).")
-    foods.caption("Left out by name only, not a safety check. For an allergy, use Allergies.")
+    place.caption("Left out by name only, not a safety check. For an allergy, use Allergies.")
 EATING = ["I eat meat", "Vegetarian", "Vegan"]
 
 
@@ -1125,6 +1137,30 @@ def save_setup() -> None:
                             diets=st.session_state["setup-diets"],
                             vegetarian=eating == "Vegetarian", vegan=eating == "Vegan",
                             calories=st.session_state["setup-calories"], onboarded=True)
+    st.session_state["profile-resplit"] = True   # the sidebar's seven groups refill from these answers
+
+
+# Each diet's rule and the profile group it shows in (everflavor.restrictions): religious and ethical diets are picked
+# as diets; a medical or personal one is picked as a rule of its group, so nothing is offered twice
+DIET_RULES = {diet: next(((rid, rule.category) for rid, rule in RULES.items()
+                          if rule.kind == "diet" and rule.targets == (diet,)), (None, "religious"))
+              for diet in DIET_PROFILES}
+DIETS_BY_CATEGORY = {category: sorted(d for d, (_rid, cat) in DIET_RULES.items() if cat == category)
+                     for category in ("religious", "ethical")}
+
+
+def profile_groups() -> None:
+    """Fill the seven groups from the diet list (the first-visit setup or an older profile wrote "diets")."""
+    if not st.session_state.pop("profile-resplit", False) and "diets-religious" in st.session_state:
+        return
+    diets = list(st.session_state.get("diets", []))
+    for category, offered in DIETS_BY_CATEGORY.items():
+        st.session_state[f"diets-{category}"] = [d for d in diets if d in offered]
+    for diet in diets:
+        rid, category = DIET_RULES.get(diet, (None, ""))
+        if rid and category not in DIETS_BY_CATEGORY:
+            picked = list(st.session_state.get(f"rules-{category}", []))
+            st.session_state[f"rules-{category}"] = picked + [rid] * (rid not in picked)
 
 
 def skip_setup() -> None:
@@ -1657,24 +1693,47 @@ elif not st.session_state.get("walter_onboarded") or st.session_state.pop("walte
     setup_walter()   # right after the profile on the first visit; later from Settings or Walter's bubble
 with st.sidebar:
     st.header("Your profile")
-    # Four groups, from what keeps you safe to what you'd like (each with its severity sign); the keys are unchanged,
-    # so a saved profile stays as it was
+    # Seven groups (the roadmap's profile categories), from what keeps you safe to what you'd like, each with its
+    # severity sign. Each rule is picked in one place only: religious and ethical diets stay diets; a medical or
+    # personal diet from the first-visit setup or an older profile moves to its group's rule list (profile_groups)
     extra_rules: list[str] = []
+    profile_groups()
 
-    def rule_pick(category: str, label: str | None = None) -> list[str]:
-        """One profile group's choices (medical screens, how it's cooked, sensitivities, goals)."""
+    def rule_pick(category: str, label: str | None = None, leave_out: tuple[str, ...] = ()) -> list[str]:
+        """One profile group's choices (medical conditions, sensitivities, personal rules, goals, cooking)."""
         name = label or CATEGORIES[category][0]
-        return st.multiselect(name, rules_in(category), format_func=rule_label, key=f"rules-{category}")
+        options = [r for r in rules_in(category) if r not in leave_out]
+        return st.multiselect(name, options, format_func=rule_label, key=f"rules-{category}")
 
-    st.markdown(f"{sign('critical')} **Safety**", unsafe_allow_html=True)
-    food_tabs("avoid", "skip")
-    avoid, skip = list(st.session_state["avoid"]), list(st.session_state["skip"])
-    extra_rules += rule_pick("medical")
+    def diet_pick(category: str, label: str) -> list[str]:
+        return st.multiselect(label, DIETS_BY_CATEGORY[category], format_func=nice_diet, key=f"diets-{category}")
+
+    st.markdown(f"{sign('critical')} **Allergies**", unsafe_allow_html=True)
+    allergy_pick(st, "avoid")
+    avoid = list(st.session_state["avoid"])
+
+    st.markdown(f"{sign('critical')} **Medical conditions**", unsafe_allow_html=True)
+    extra_rules += rule_pick("medical", "Conditions")
+    extra_rules += rule_pick("sensitivities")
     st.caption("Medical screens read ingredient names and nutrition per serving. They are not medical advice: "
                "ask your doctor or dietitian.")
+
+    st.markdown(f"{sign('major')} **Religious requirements**", unsafe_allow_html=True)
+    diets = diet_pick("religious", "I follow")
+
+    st.markdown(f"{sign('major')} **Ethical preferences**", unsafe_allow_html=True)
+    vegetarian = st.checkbox("Vegetarian", key="vegetarian")
+    vegan = st.checkbox("Vegan", key="vegan")
+    diets += diet_pick("ethical", "Also")
+    st.session_state["diets"] = diets   # the whole diet list, as the setup and the recommender know it
+
+    st.markdown(f"{sign('major')} **Personal preferences**", unsafe_allow_html=True)
+    skip_pick(st, "skip")
+    skip = list(st.session_state["skip"])
+    extra_rules += rule_pick("cultural", "Personal rules", leave_out=("no_alcohol",))   # alcohol has its own setting
     # Alcohol: one setting whatever the reason (faith, recovery, pregnancy, medicine); the reason only changes the
     # words. Halal-friendly, or alcohol on the allergy list, sets it to strict (everflavor.restrictions.AlcoholSetting)
-    fixed_strict = "halal_friendly" in st.session_state.get("diets", []) or "contains_alcohol" in avoid
+    fixed_strict = "halal_friendly" in diets or "contains_alcohol" in avoid
     if fixed_strict:
         st.session_state["alcohol-level"] = ProfileResponse.STRICT.value
     alcohol_level = ProfileResponse(st.selectbox(
@@ -1689,18 +1748,12 @@ with st.sidebar:
         "Count flavour extracts too (vanilla extract...)", value=True, key="alcohol-extracts")
     alcohol_setting = AlcoholSetting(alcohol_level, cooked_ok, extracts)
 
-    st.markdown(f"{sign('major')} **Beliefs and values**", unsafe_allow_html=True)
-    diets = st.multiselect("I follow", options=sorted(DIET_PROFILES), format_func=nice_diet, key="diets")
-    vegetarian = st.checkbox("Vegetarian", key="vegetarian")
-    vegan = st.checkbox("Vegan", key="vegan")
+    st.markdown(f"{sign('moderate')} **Goals**", unsafe_allow_html=True)
+    extra_rules += rule_pick("goals", "Nutrition goals")
+    calories = st.slider("Calories per meal", min_value=200, max_value=1500, step=50, key="calories")
 
     st.markdown(f"{sign('major')} **Cooking preferences**", unsafe_allow_html=True)
     extra_rules += rule_pick("preparation", "How it's cooked")
-
-    st.markdown(f"{sign('moderate')} **Sensitivities and goals**", unsafe_allow_html=True)
-    extra_rules += rule_pick("sensitivities")
-    extra_rules += rule_pick("goals")
-    calories = st.slider("Calories per meal", min_value=200, max_value=1500, step=50, key="calories")
     st.divider()
     if ai["kind"] == "ollama":
         use_ai = st.checkbox(f"Explain problems with local AI ({ai['model']})", value=True)
@@ -1793,7 +1846,9 @@ with find_tab:
         loading = cooking("Cooking up ideas...")
         st.session_state["found"] = (asked, count, baseline_recommend(
             pool, cuisine_family=None if cuisine == "All" else cuisine, calorie_target=calories,
-            vegetarian_only=vegetarian, vegan_only=vegan, avoid=avoid, diets=diets, top_n=count, skip=profile.skip,
+            # the whole blocking profile: allergies plus the medical screens and strict alcohol chosen in levels
+            vegetarian_only=vegetarian, vegan_only=vegan, avoid=list(profile.avoid), diets=list(profile.diets),
+            top_n=count, skip=profile.skip,
             max_minutes=max_minutes, min_protein_g=min_protein, sort_by=SORTS[sort_label]))
         loading.empty()
 
@@ -1940,10 +1995,10 @@ with check_tab:
                     words = SEVERITIES[worst][1]
                     chef_says(chef, "alert", f"Watch out! {dish_name}: {words.lower()}. {main_finding(levels)}",
                               "alert")
-                    badge(st, f"sign_{worst}", f"{words}.", "warn")
+                    badge(st, f"sign_{worst}", f"{SEVERITY_NAMES[worst]}: {words}.", "warn")
                 elif worst == "moderate" or level["level"] == "review":
                     chef_says(chef, "thinking", f"{dish_name} breaks none of your rules, but have a look below.")
-                    badge(st, "sign_moderate", "No rule broken, but some things need a look: a label to check, "
+                    badge(st, "sign_moderate", "Review: no rule broken, but some things need a look: a label to check, "
                                                "a sensitivity or a goal.", "warn")
                 else:
                     chef_says(chef, "happy", f"{dish_name} fits your profile. Happy cooking!", "safe")
@@ -1976,6 +2031,7 @@ with check_tab:
                                              + ", ".join(plain(w) for w in hit["why"]) if hit
                                              else f"- {sign('clear')} {RULES[rid].label}")
                         st.markdown(f"*{category_label}*\n" + "\n".join(rule_rows), unsafe_allow_html=True)
+                    st.caption("Checked against: " + "; ".join(levels["checked"]) + ".")
                     if levels["not_checked"]:
                         st.caption("Not checked: " + "; ".join(levels["not_checked"]) + ".")
                 # What we found, by how sure we are (everflavor.confidence): listed outright, usually or sometimes

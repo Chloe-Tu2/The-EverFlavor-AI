@@ -32,3 +32,7 @@ hoisin sauce,hoisin,wheat,contains_gluten,possible,some versions use wheat starc
 naan,,yogurt,contains_dairy,possible,some recipes add yogurt or milk,https://en.wikipedia.org/wiki/Naan,
 mole sauce,mole poblano;mole,peanuts,contains_peanut,possible,some regional moles are made with ground peanuts,https://en.wikipedia.org/wiki/Mole_sauce,
 mole sauce,mole poblano;mole,nuts,contains_tree_nut,possible,a mole generally contains nuts (which nuts varies),https://en.wikipedia.org/wiki/Mole_sauce,
+rum cake,bizcocho de ron;black cake,rum,contains_alcohol,likely,"made with rum: in the cake, in rum-soaked fruit, or as a glaze",https://en.wikipedia.org/wiki/Rum_cake,
+rum cake,bizcocho de ron;black cake,eggs,contains_egg,likely,its main ingredients include eggs,https://en.wikipedia.org/wiki/Rum_cake,
+rum cake,bizcocho de ron;black cake,butter,contains_dairy,likely,its main ingredients include butter,https://en.wikipedia.org/wiki/Rum_cake,
+rum cake,bizcocho de ron;black cake,wheat,contains_gluten,likely,its main ingredients include flour,https://en.wikipedia.org/wiki/Rum_cake,

@@ -12,6 +12,30 @@ Versions below 1.0 are the **beta**. The version lives in `src/everflavor/__init
 notes people see in the app's "What's new" bell are in `app/updates.py`; `tests/test_version.py` checks that all
 three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published as a GitHub Release.
 
+## [Unreleased]
+
+Phase 0 of the roadmap (the safety refactor), finished.
+
+### Added
+
+- **"Checked against"** under Check my recipe's profile: what was read (the lines, the steps, the nutrition) and
+  against which rules and tables, next to what could not be checked.
+- **A typed result** for Check my recipe (`restrictions.RecipeAnalysis`, with `Finding`, `FindingItem` and
+  `LineSummary`): one contract for the app, the notebooks and later the waiter.
+- Rum cake in the may-contain table (rum, eggs, butter, flour; Wikipedia): 37 rows for 23 foods.
+
+### Changed
+
+- Severities are named as in the roadmap: Critical, Warning, Review, Info (the signs stay the same).
+- The profile has seven groups: allergies, medical conditions, religious requirements, ethical preferences,
+  personal preferences, goals, cooking preferences. Each rule is offered in one place only (medical diets were
+  offered twice); personal rules (no pork, no honey...) can now be picked.
+
+### Fixed
+
+- Find recipes now leaves out recipes that break a medical screen or a strict alcohol setting, not only the
+  allergy list and diets.
+
 ## [0.7.1] - 2026-11-17
 
 The living kitchen, the waiters, the map and Check my recipe as a safety assistant. It sums up the work since
