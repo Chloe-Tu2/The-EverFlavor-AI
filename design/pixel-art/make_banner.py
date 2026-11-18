@@ -1,15 +1,16 @@
 """Draw the README banner and the logo from the app's own pixel art (0.6.3).
 
-The banner is the Classic kitchen's colours with three kitchen chefs and Walter standing on a tiled floor and the
-title in the app's pixel fonts; the logo is the classic chef on a cream tile. Both are drawn on a grid of 4 screen
-pixels per art pixel, like the app.
+The banner is the Classic kitchen's colours with the two waiters (Walter and Nathalie) and four of the kitchens'
+chefs, as the app shows them now (the detailed sprites traced from the team's art, 2026-11-11), standing on a tiled
+floor, and the title in the app's pixel fonts; the logo is the classic chef on a cream tile. The sprites are used at
+their own size (never rescaled); the floor, frame and badge are drawn on a grid of 4 screen pixels per art pixel.
 
 The fonts are the app's Google Fonts (SIL Open Font Licence), not kept in the repo; download them first:
     https://github.com/google/fonts/raw/main/ofl/jersey10/Jersey10-Regular.ttf
     https://github.com/google/fonts/raw/main/ofl/vt323/VT323-Regular.ttf
 
     python design/pixel-art/make_banner.py --fonts <folder with the two .ttf files>
-writes docs/art/banner.png (1280x320) and docs/art/logo.png (256x256).
+writes docs/art/banner.png (1600x320) and docs/art/logo.png (256x256).
 """
 from __future__ import annotations
 
@@ -25,8 +26,11 @@ SCALE = 4
 # The Classic theme (app/themes.py)
 PANEL, BORDER, TEXT, HEADING, BUTTON, SHADOW = "#FFF8E7", "#8B4513", "#4A2C2A", "#8B4513", "#FFB6C1", "#D9A679"
 FLOOR = ("#C98B5A", "#B57446")
-# The kitchens' chefs as the app draws them (traced from the team's art, already at screen size) and Walter
-CHEFS = ["chef_ref_classic_happy", "chef_ref_chinese_woman_happy", "chef_ref_middle_eastern_happy", "walter_happy"]
+# Walter, four kitchens' chefs (men and women) and Nathalie, as the app draws them (already at screen size); each is
+# trimmed to what it shows, so they stand side by side
+CHEFS = ["walter_half", "chef_ref_classic_happy", "chef_ref_chinese_woman_happy", "chef_ref_middle_eastern_happy",
+         "chef_ref_moroccan_woman_happy", "nathalie_half"]
+GAP = 2 * SCALE
 
 
 def sprite(name: str, scale: int = SCALE) -> Image.Image:
@@ -42,7 +46,7 @@ def pixel_box(draw: ImageDraw.ImageDraw, box: tuple[int, int, int, int], fill: s
 
 
 def banner(title_font: Path, text_font: Path) -> Image.Image:
-    width, height = 320 * SCALE, 80 * SCALE
+    width, height = 400 * SCALE, 80 * SCALE
     img = Image.new("RGBA", (width, height), PANEL)
     draw = ImageDraw.Draw(img)
     tile = 8 * SCALE   # the floor: two rows of checked tiles
@@ -54,10 +58,11 @@ def banner(title_font: Path, text_font: Path) -> Image.Image:
     draw.rectangle((0, floor_top - SCALE, width, floor_top - 1), fill=BORDER)
     # The chefs and Walter standing on the floor, right half (native size: they are drawn at screen scale)
     people = [sprite(name, 1) for name in CHEFS]
-    x = width - sum(p.width for p in people) - 4 * SCALE
+    people = [p.crop(p.getchannel("A").getbbox() or (0, 0, p.width, p.height)) for p in people]
+    x = width - sum(p.width for p in people) - GAP * (len(people) - 1) - 4 * SCALE
     for person in people:
         img.alpha_composite(person, (x, floor_top - person.height + 4 * SCALE))
-        x += person.width
+        x += person.width + GAP
     # Title, beta badge and tagline, left
     big = ImageFont.truetype(str(title_font), 30 * SCALE)
     small = ImageFont.truetype(str(text_font), 9 * SCALE)
@@ -81,7 +86,7 @@ def logo() -> Image.Image:
     img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
     pixel_box(draw, (2 * SCALE, 2 * SCALE, size - 4 * SCALE, size - 4 * SCALE), PANEL)
-    chef = sprite("chef_happy", 2 * SCALE)   # 24 art pixels at 8x: 192 screen pixels
+    chef = sprite("chef_ref_classic_happy", 1)   # the classic chef as the app shows him (170 x 223)
     img.alpha_composite(chef, ((size - chef.width) // 2 - SCALE, (size - chef.height) // 2 - SCALE))
     return img
 
