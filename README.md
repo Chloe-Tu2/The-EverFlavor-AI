@@ -1,6 +1,6 @@
 # EverFlavor AI
 
-![EverFlavor (beta): recipes that fit what you can eat, checked ingredient by ingredient. Three pixel-art chefs and Walter the waiter stand on a tiled kitchen floor.](docs/art/banner.png)
+![EverFlavor (beta): recipes that fit what you can eat, checked ingredient by ingredient. Walter and Nathalie, the waiters, stand on a tiled kitchen floor with four of the kitchens' chefs: Classic, Chinese, Middle Eastern and Moroccan.](docs/art/banner.png)
 
 ### Multi-Agent Diet & Discovery System
 
