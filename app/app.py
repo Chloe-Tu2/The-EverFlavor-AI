@@ -16,6 +16,7 @@ color themes are in app/themes.py. Settings (top right of the page) switch the t
 """
 import ast
 import base64
+import hashlib
 import html
 import json
 import random
@@ -499,15 +500,42 @@ img.sign {{ width: 24px; height: 24px; image-rendering: pixelated; vertical-alig
 """
 
 
+STATIC_SCENES = Path(__file__).with_name("static") / "scenes"   # served at app/static/scenes/ (git-ignored copies)
+
+
+@cache
+def scene_file(scene: str) -> str:
+    """The scene's file as Streamlit serves it ("scenes/scene_v5_mexican.json?v=<hash>"), so the browser fetches a
+    kitchen once and keeps it: a change of kitchen or hour then sends a small page, not 1-1.5 MB of pictures.
+    "" when static serving is off or the copy cannot be written (the page then carries the scene itself)."""
+    layers = ART / f"scene_{scene}.json"
+    if not layers.exists() or not st.get_option("server.enableStaticServing"):
+        return ""
+    data = layers.read_bytes()
+    target = STATIC_SCENES / layers.name
+    try:
+        if not target.exists() or target.read_bytes() != data:
+            STATIC_SCENES.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+    except OSError:
+        return ""
+    return f"scenes/{layers.name}?v={hashlib.sha256(data).hexdigest()[:12]}"
+
+
 @cache
 def scene_page(scene: str, hour: str = "afternoon") -> str:
     """The interactive kitchen for one theme: app/kitchen_scene.html with that theme's pieces filled in. hour:
-    morning, afternoon, evening or night, or "auto" for the visitor's clock (read in their browser)."""
+    morning, afternoon, evening or night, or "auto" for the visitor's clock (read in their browser). The pieces
+    come from the served scene file when there is one (`scene_file`), else they are written into the page."""
     layers = ART / f"scene_{scene}.json"
     template = Path(__file__).with_name("kitchen_scene.html")
     if not (layers.exists() and template.exists()):
         return ""
-    return (template.read_text(encoding="utf-8").replace("__SCENE__", layers.read_text(encoding="utf-8"))
+    served = scene_file(scene)
+    pieces = (f"await fetch(new URL({json.dumps('app/static/' + served)}, parent.document.baseURI))"
+              ".then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })"
+              if served else layers.read_text(encoding="utf-8"))
+    return (template.read_text(encoding="utf-8").replace("__SCENE__", pieces)
             .replace("__VERSION__", __version__).replace("__HOUR__", hour))
 
 

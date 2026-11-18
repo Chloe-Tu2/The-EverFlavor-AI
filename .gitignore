@@ -51,3 +51,6 @@ chat_history*
 
 # Local-only plans (never pushed)
 docs/plans/local/
+
+# Copies of the kitchen scenes the app serves (made by app/app.py from design/pixel-art/assets)
+app/static/scenes/
