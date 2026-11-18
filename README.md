@@ -140,7 +140,7 @@ Small samples are collected in Week 4. In Week 5, two free USDA bulk downloads (
 | [Food.com - Recipes and Reviews (Kaggle, irkaal)](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews) | Photo links for our Food.com recipes (111,803), plus their own times, servings and extra nutrition, joined on the recipe number | CC0 | `kagglehub`, notebook 10 and `scripts/recipe_details.py` |
 | [Wikimedia Commons](https://commons.wikimedia.org) via [Wikidata](https://www.wikidata.org) | A general photo of a dish when a recipe has none (3,327 photos for 48,172 recipes), and recordings of dish names | Free licences only, credited on the card | `scripts/dish_photos/fetch_dish_photos.py` |
 | [OpenStreetMap](https://www.openstreetmap.org) with [OpenFreeMap](https://openfreemap.org) tiles | The Map tab: 5,473 Greater Houston grocers, restaurants and butchers | ODbL, credited on the map; tiles free, no key | Overpass download, notebook 03 |
-| Wikipedia (each row credited) | "May contain" foods (`data/reference/may_contain.csv`: 33 rows for 22 foods) and 50 specialty ingredients for "Where to buy" (`specialty_ingredients.csv`) | CC BY-SA, with credit | Written by hand from the pages, each row with its link and reviewer |
+| Wikipedia (each row credited) | "May contain" foods (`data/reference/may_contain.csv`: 37 rows for 23 foods) and 50 specialty ingredients for "Where to buy" (`specialty_ingredients.csv`) | CC BY-SA, with credit | Written by hand from the pages, each row with its link and reviewer |
 
 TheMealDB's photos are not used (no free licence on them). **The data rule** (decided 2026-10-24): only
 open-licence or research-use datasets; no scraping of forums, social media or video comments. Every source is

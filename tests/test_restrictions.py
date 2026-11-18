@@ -56,3 +56,17 @@ def test_every_flag_and_diet_belongs_to_a_level() -> None:
     assert len(rule_ids_from_profile(diets=list(DIET_PROFILES))) == len(DIET_PROFILES)
     assert rule_ids_from_profile(["contains_gluten", "contains_pork", "contains_carmine"], ["halal_friendly"],
                                  vegan=True) == ["wheat", "no_pork", "no_carmine", "halal", "vegan"]
+
+
+def test_the_result_says_what_was_checked_and_names_severities_as_the_roadmap() -> None:
+    from everflavor.restrictions import SEVERITIES, SEVERITY_NAMES
+    got = assess(["1 cup rice", "1 slice rum cake"], "Party plate", ["egg"], instructions="Serve.",
+                 nutrition={"sodium_mg": 300})
+    assert got["checked"][0] == "2 ingredient lines and the dish name"
+    assert any("may-contain list" in c for c in got["checked"])
+    assert any(c.startswith("the steps") for c in got["checked"]) and any("nutrition" in c for c in got["checked"])
+    assert "rum cake" in " ".join(row["line"] for rows in got["by_confidence"].values() for row in rows)
+    without = assess(["1 cup rice"], "Rice", [])
+    assert not any(c.startswith(("the steps", "nutrition")) for c in without["checked"])
+    assert set(SEVERITY_NAMES) == set(SEVERITIES)
+    assert list(SEVERITY_NAMES.values()) == ["Critical", "Warning", "Review", "Info"]

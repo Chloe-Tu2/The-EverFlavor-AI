@@ -3,12 +3,15 @@
 The safety gate (safety.check_recipe) still decides every allergy, medical screen, religious and ethical diet;
 this module only sorts its answer by category and severity and adds the checks that are cautions, not blocks:
 
-| Severity | Shown as | Categories |
-|---|---|---|
-| critical | stop sign: Unsafe for you | allergies, medical screens |
-| major | warning diamond: Doesn't match your profile | religious practice, ethical diets, personal and cultural rules, how it's cooked |
-| moderate | caution triangle: Doesn't suit your sensitivities or goals | sensitivities, goals |
-| info | information circle: Good to know | foods you don't eat |
+| Severity | Named (the roadmap's names) | Shown as | Categories |
+|---|---|---|---|
+| critical | Critical | stop sign: Unsafe for you | allergies, medical screens |
+| major | Warning | warning diamond: Doesn't match your profile | religious practice, ethical diets, personal and cultural rules, how it's cooked |
+| moderate | Review | caution triangle: Doesn't suit your sensitivities or goals | sensitivities, goals |
+| info | Info | information circle: Good to know | foods you don't eat |
+
+`assess` returns a `RecipeAnalysis` (typed): the findings with their severity, confidence and explanation, and
+what was checked and what was not.
 
 Medical entries are ingredient screens and nutrition limits, never advice: each says what it checks. A condition
 is only offered when its check rests on a list or a limit the project already uses (diets.py, flags.py); GERD,
@@ -20,13 +23,14 @@ from __future__ import annotations
 import math
 from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass, replace
-from typing import Any
+from typing import Any, TypedDict, cast
 
 from .confidence import (
     ALWAYS_STRICT,
     Confidence,
     ProfileResponse,
     gate_confidence,
+    load_may_contain,
     may_contain_in,
     severity_for,
 )
@@ -37,13 +41,73 @@ from .preparation import PREP_RISKS, prep_risks, step_sentences
 from .recipe_check import opaque_word
 from .safety import UserProfile, check_recipe
 
-__all__ = ["ALCOHOL_CHOICES", "CATEGORIES", "RULES", "SEVERITIES", "AlcoholSetting", "Rule", "assess", "profile_for", "rule_ids_from_profile", "rules_in"]
+__all__ = [
+    "ALCOHOL_CHOICES",
+    "CATEGORIES",
+    "RULES",
+    "SEVERITIES",
+    "SEVERITY_NAMES",
+    "AlcoholSetting",
+    "Finding",
+    "FindingItem",
+    "LineSummary",
+    "RecipeAnalysis",
+    "Rule",
+    "assess",
+    "profile_for",
+    "rule_ids_from_profile",
+    "rules_in",
+]
 
 # severity -> (the pixel sign the app shows, design/pixel-art sign_<severity>.png; its words). Never emoji.
 SEVERITIES = {"critical": ("stop sign", "Unsafe for you"), "major": ("warning diamond", "Doesn't match your profile"),
               "moderate": ("caution triangle", "Doesn't suit your sensitivities or goals"),
               "info": ("information circle", "Good to know")}
+SEVERITY_NAMES = {"critical": "Critical", "major": "Warning", "moderate": "Review", "info": "Info"}
 _ORDER = list(SEVERITIES)
+
+
+class FindingItem(TypedDict):
+    """One line behind a finding: why it matched, how sure we are, how serious it is."""
+    line: str
+    why: list[str]
+    confidence: str      # a Confidence value: verified, likely, possible, unknown
+    note: str            # the explanation (a may-contain note, a preparation risk...), or ""
+    source: str          # a link for a sourced note, or ""
+    severity: str        # a SEVERITIES key
+    kind: str            # "ingredient" or "preparation"
+
+
+class Finding(TypedDict):
+    """One rule of the profile that the recipe meets, with every line that meets it."""
+    rule: str
+    label: str
+    category: str
+    severity: str
+    lines: list[str]
+    why: list[str]
+    items: list[FindingItem]
+
+
+class LineSummary(TypedDict):
+    """One line with something to say, grouped under its most certain match."""
+    line: str
+    rules: list[str]
+    notes: list[str]
+    sources: list[str]
+    severity: str
+
+
+class RecipeAnalysis(TypedDict):
+    """What `assess` returns: the contract the app, the notebooks and later the waiter read."""
+    findings: list[Finding]
+    ok: list[str]                        # rules checked and fine
+    checked: list[str]                   # what was checked: the lines, the steps, the tables, the nutrition
+    not_checked: list[str]               # rules that could not be checked, each with why
+    overall: str                         # the worst severity found, or "clear"
+    by_confidence: dict[str, list[LineSummary]]
+    preparation: list[LineSummary]
+    no_issue: list[str]
 CATEGORIES = {  # category -> (label, severity), in the order the profile shows them
     "allergies": ("Allergies", "critical"),
     "medical": ("Medical screens", "critical"),
@@ -246,7 +310,7 @@ def _rules_for_problem(problem: Mapping[str, Any], chosen: Sequence[str]) -> lis
 def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Sequence[str] = (),
            instructions: object = None, nutrition: Mapping[str, Any] | None = None,
            responses: Mapping[str, ProfileResponse] | None = None,
-           alcohol: AlcoholSetting | None = None) -> dict[str, Any]:
+           alcohol: AlcoholSetting | None = None) -> RecipeAnalysis:
     """Check a recipe against the whole profile, level by level.
 
     Args:
@@ -267,7 +331,8 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
 
     Returns:
         {"findings": [{"rule", "label", "category", "severity", "lines", "why", "items": [{"line", "why",
-        "confidence", "note", "source", "severity"}]}], "ok": [labels checked and fine], "not_checked": [labels
+        "confidence", "note", "source", "severity"}]}], "ok": [labels checked and fine], "checked": [what was
+        read and against which tables], "not_checked": [labels
         with why], "overall": the worst severity found, or "clear", "by_confidence": {confidence: [{"line",
         "rules", "notes", "sources", "severity"}]} for the lines with something to say, "no_issue": [the other
         lines]}.
@@ -387,10 +452,18 @@ def assess(lines: Sequence[str], name: str, rule_ids: Iterable[str], skip: Seque
     by_confidence = _by_confidence(findings)
     said = {row["line"] for rows in by_confidence.values() for row in rows}
     preparation = [row for rows in _by_confidence(findings, "preparation").values() for row in rows]
-    return {"findings": findings, "ok": ok, "not_checked": not_checked,
-            "overall": _ORDER[worst] if worst is not None else "clear",
-            "by_confidence": by_confidence, "preparation": preparation,
-            "no_issue": [line for line in lines if line not in said]}
+    foods = len({row.item for row in load_may_contain()})
+    checked = [f"{len(lines)} ingredient line{'s' * (len(lines) != 1)} and the dish name",
+               f"{len(chosen)} rule{'s' * (len(chosen) != 1)} of your profile",
+               f"hidden sources and a may-contain list of {foods} prepared foods"]
+    checked += ["the steps (how it's cooked, what they add)"] if instructions else []
+    checked += ["nutrition per serving (an estimate)"] if any(v is not None for v in (nutrition or {}).values()) else []
+    checked += [f"{len(skip)} food{'s' * (len(skip) != 1)} you don't eat"] if skip else []
+    return cast(RecipeAnalysis, {
+        "findings": findings, "ok": ok, "checked": checked, "not_checked": not_checked,
+        "overall": _ORDER[worst] if worst is not None else "clear",
+        "by_confidence": by_confidence, "preparation": preparation,
+        "no_issue": [line for line in lines if line not in said]})
 
 
 def _by_confidence(findings: list[dict[str, Any]], kind: str = "ingredient") -> dict[str, list[dict[str, Any]]]:
