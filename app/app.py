@@ -418,11 +418,18 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   left: calc(50% - 6px); bottom: -12px; border-right-color: transparent; border-top-color: var(--border);
 }}
 .st-key-chef-side {{ display: none; }}
+/* The button that opens the profile (allergies, diets) when the sidebar is closed: a real button in the theme's
+   button colour, with its name, so people find where to start (contrast checked in tests/test_app_contrast.py) */
+[data-testid="stExpandSidebarButton"] {{ background: var(--button); color: #2B1E1A; border: 3px solid var(--border);
+  box-shadow: var(--shadow-1); border-radius: 0; padding: 0.2rem 0.6rem; width: auto; gap: 0.35rem; }}
+[data-testid="stExpandSidebarButton"]::after {{ content: "Your profile"; font-weight: 700; font-size: var(--fs-1); }}
+[data-testid="stExpandSidebarButton"]:hover {{ background: var(--button-hover); color: #2B1E1A; }}
+[data-testid="stExpandSidebarButton"] svg {{ fill: #2B1E1A; color: #2B1E1A; }}
 /* The phone's "Your profile" button (the sidebar is hidden on phones) */
 .open-profile {{ display: none; }}
 @media (max-width: 640px) {{
-  .open-profile {{ display: block; width: 100%; min-height: 44px; text-align: left; cursor: pointer;
-    background: var(--panel); color: var(--text); border: 3px solid var(--border); box-shadow: var(--shadow-1);
+  .open-profile {{ display: block; width: 100%; min-height: 44px; text-align: left; cursor: pointer; font-weight: 700;
+    background: var(--button); color: #2B1E1A; border: 3px solid var(--border); box-shadow: var(--shadow-1);
     padding: var(--space-2) var(--space-3); font-size: var(--fs-1); margin-bottom: var(--space-3); }}
 }}
 @media (max-width: 640px) {{

@@ -20,6 +20,8 @@ Phase 0 of the roadmap (the safety refactor), finished.
 
 - **Faster kitchen changes:** the kitchen scenes are served as files the browser keeps (`app/static/scenes/`),
   so switching kitchen or hour sends about 11 KB instead of 1 to 1.5 MB of pictures.
+- **A clearer profile button:** when the sidebar is closed, the small arrow is now a "Your profile" button in the
+  kitchen's button colour, on computers and phones.
 
 ### Added
 

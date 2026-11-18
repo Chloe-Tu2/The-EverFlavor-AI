@@ -43,3 +43,11 @@ def test_every_theme_is_readable(name):
     low = [f"{fg} on {bg}: {contrast(t.get(fg, fg), t[bg]):.2f} < {need}"
            for fg, bg, need in pairs if contrast(t.get(fg, fg), t[bg]) < need]
     assert not low, f"{name}: " + "; ".join(low)
+
+
+@pytest.mark.parametrize("name", list(_themes()))
+def test_the_profile_button_stands_out(name):
+    """The button that opens the profile (allergies, diets) is found at a glance: its outline stands out from its
+    fill (by day), or its fill from the panel around it (at night the outline is the fill's own pink); 3:1."""
+    t = _themes()[name]
+    assert max(contrast(t["border"], t["button"]), contrast(t["button"], t["panel"])) >= 3.0
