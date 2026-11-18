@@ -32,6 +32,9 @@ Phase 0 of the roadmap (the safety refactor), finished.
 - **A typed result** for Check my recipe (`restrictions.RecipeAnalysis`, with `Finding`, `FindingItem` and
   `LineSummary`): one contract for the app, the notebooks and later the waiter.
 - Rum cake in the may-contain table (rum, eggs, butter, flour; Wikipedia): 37 rows for 23 foods.
+- **Domain entities** (roadmap phase 1, step 1): `everflavor.domain` with `Dish`, `Recipe`, `Ingredient` and
+  `Place`, built from today's tables, and the `KnowledgeGraph` that finds a recipe's dish as the app does (826 of
+  the 3,000 demo recipes). Not used by the app yet; ingredient merges wait for the team's review.
 
 ### Changed
 
