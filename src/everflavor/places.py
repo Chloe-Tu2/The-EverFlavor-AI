@@ -157,8 +157,17 @@ def cuisine_indicators(row: pd.Series) -> list[dict[str, str]]:
     return out
 
 
+def map_url(lat: object, lng: object) -> str:
+    """The place on OpenStreetMap with a pin ("Open in maps"; it offers directions there), or "" without a valid
+    location. Only the place's own coordinates go in the link, never the visitor's."""
+    if isinstance(lat, bool) or isinstance(lng, bool) or not isinstance(lat, (int, float))             or not isinstance(lng, (int, float)) or not (-90 <= lat <= 90 and -180 <= lng <= 180):
+        return ""
+    return f"https://www.openstreetmap.org/?mlat={lat:.6f}&mlon={lng:.6f}#map=18/{lat:.6f}/{lng:.6f}"
+
+
 def place_facts(row: pd.Series, verified: Iterable[Mapping] = ()) -> dict[str, object]:
-    """Everything the place card shows, each claim with its evidence: kind, diets, cuisine indicators, hours."""
+    """Everything the place card shows, each claim with its evidence: kind, diets, cuisine indicators, hours, and
+    links to the place on OpenStreetMap (`osm_url` to report a mistake, `map_url` to open it in maps)."""
     hours, name = row.get("opening_hours"), row.get("name")
     text = {key: row.get(key) for key in ("address", "phone", "website")}
     return {"name": name.strip() if isinstance(name, str) and name.strip() else f"Unnamed {row.get('category', 'place')}",
@@ -168,6 +177,7 @@ def place_facts(row: pd.Series, verified: Iterable[Mapping] = ()) -> dict[str, o
             "hours": str(hours) if isinstance(hours, str) and hours.strip() else "Hours not listed",
             **{key: value.strip() if isinstance(value, str) else "" for key, value in text.items()},
             "osm_url": f"https://www.openstreetmap.org/{row['osm_id']}" if isinstance(row.get("osm_id"), str) else "",
+            "map_url": map_url(row.get("lat"), row.get("lng")),
             "note": NOTE}
 
 

@@ -31,7 +31,7 @@ How a version moves, as most teams do it:
 |---|---|---|
 | 0.5.1 | **Released** 2026-10-22 (merged into `main`, tag `v0.5.1`) | `release/0.5.1` |
 | 0.7.1 | **Ready to release** 2026-11-17: the 0.5.2 and 0.6.3 work and PRs #10 to #20 are on `main`; version, CHANGELOG, What's new and READMEs updated; the tag waits for med27-coder's go | `release/0.7.1` |
-| 0.7.2 | Next: speed (scene files cached), `st.iframe` for the kitchen, a clearer profile button, UI clean-up, Check my recipe phases 2-3, an "Open in maps" button | |
+| 0.7.2 | Next: speed (scene files cached), `st.iframe` for the kitchen, a clearer profile button, UI clean-up, Check my recipe phases 2-3, an "Open in maps" button. Local branch `fix/0.7.2-repairs` (not pushed, 2026-11-17): scene files cached, profile button, Open in maps | |
 | 0.8.0 | **Planned** (below): chat with the chef, a real store locator | |
 | 1.0.0 | Final presentation | |
 

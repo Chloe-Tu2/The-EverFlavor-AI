@@ -1082,6 +1082,9 @@ def place_card(place, facts: dict) -> None:
     if facts["address"]:   # in a code box: its copy button puts the address on the clipboard for any maps app
         place.caption("Address (use the copy button, then paste it into your maps app)")
         place.code(str(facts["address"]), language=None, wrap_lines=True)
+    if facts.get("map_url"):   # the place's pin on OpenStreetMap, with directions there (opens in a new tab)
+        place.link_button("Open in maps", str(facts["map_url"]), icon=":material/map:",
+                          help="OpenStreetMap, with a pin on this place. Only the place's location is in the link.")
     url = website_url(facts.get("website"))
     if url:   # their own site, to check menus, hours and certificates for yourself (opens in a new tab)
         place.link_button("Visit their website", url, icon=":material/open_in_new:",
