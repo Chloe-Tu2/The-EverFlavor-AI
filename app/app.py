@@ -1395,7 +1395,7 @@ def checked_words(rule: str) -> str:
     return f"{nice_diet(rule).lower()} ingredients" if rule.endswith("_friendly") else nice_diet(rule).lower()
 
 
-# ---------- Saved recipes: kept in this browser (beta), with a file to keep or move them ----------
+# ---------- My Cookbook (saved recipes): kept in this browser (beta), with a file to keep or move them ----------
 # A tiny custom component reads and writes one "everflavor" key in the browser's local storage. Nothing is sent to
 # us; what comes back is checked by everflavor.saved_recipes.decode (anyone can edit their own storage).
 STORE_KEY = "browser-store"

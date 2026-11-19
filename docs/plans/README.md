@@ -3,7 +3,7 @@
 **Start here** (team members and AI assistants picking up the work). What is done, what is in progress, what comes
 next, grouped by version, with links to the plans behind each item. Update it whenever an item moves.
 
-Last updated: 2026-10-22 (Claude, with med27-coder).
+Last updated: 2026-11-19 (Claude, with med27-coder).
 
 ## How versions work
 
@@ -32,6 +32,7 @@ How a version moves, as most teams do it:
 | 0.5.1 | **Released** 2026-10-22 (merged into `main`, tag `v0.5.1`) | `release/0.5.1` |
 | 0.7.1 | **Ready to release** 2026-11-17: the 0.5.2 and 0.6.3 work and PRs #10 to #20 are on `main`; version, CHANGELOG, What's new and READMEs updated; the tag waits for med27-coder's go | `release/0.7.1` |
 | 0.7.2 | Next: speed (scene files cached), `st.iframe` for the kitchen, a clearer profile button, UI clean-up, Check my recipe phases 2-3, an "Open in maps" button. Local branch `fix/0.7.2-repairs` (not pushed, 2026-11-17): scene files cached, profile button, Open in maps | |
+| After 0.7.2 | **Order of work** (below): foundations first, then discovery | |
 | 0.8.0 | **Planned** (below): chat with the chef, a real store locator | |
 | 1.0.0 | Final presentation | |
 
@@ -247,6 +248,23 @@ Where the living kitchen stands, for whoever picks it up next:
 - **Open:** the title layout on the kitchens' sign (the test is archived, `archive/title-test_2026-10-22/`; Claude's
   pick is layout 4); the app still shows the title as before. The planner's version rule says new features are a
   MINOR step; the team chose to number this work 0.5.2 and 0.5.3.
+
+### Order of work after 0.7.2 (agreed by med27-coder, 2026-11-19)
+
+Foundations first, so later features do not need rewrites. No new chefs, kitchen themes, waiter tones, settings
+or profile options until step 6 is done; repairs are not features.
+
+1. **Safety engine** (done, PR #22); its last known gap: allergen words in Spanish, French and Italian.
+2. **Domain entities:** Dish, Recipe, Ingredient and Place (`src/everflavor/domain/`, step 1 built); next, the
+   ingredient merges after the team's review. The waiter is a service that reads these, not a store of facts.
+3. **Food Taxonomy graph:** dishes and recipes attached to the 150 taxonomy places. A new level (food zone, state,
+   cuisine style) is added only where a published source draws it.
+4. **Recipe page redesign** (with the 0.7.2 UI clean-up): the desktop space used for the story, origin, related
+   dishes, where to buy and swaps; every swap goes through the profile check.
+5. **Discovery:** safety, then taxonomy, preferences, novelty and variety.
+6. **The map from a recipe:** ingredients to the kinds of shop nearby that usually stock them, with the confidence
+   level (OpenStreetMap does not list a shop's stock).
+7. **Chat with the waiter** (0.8.0 below), then **My Cookbook** collections and notes.
 
 ### 0.8.0 (planned 2026-10-26): chat with the chef, and a real store locator
 
