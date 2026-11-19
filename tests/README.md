@@ -26,7 +26,7 @@ are (about 30 seconds) and is skipped on GitHub. Run it after rerunning a notebo
 | `test_variants.py` | Notebook 06: a variant never keeps or adds a forbidden ingredient |
 | `test_nutrition_quality.py` | Notebook 07: Daily Value shares and macro labels |
 | `test_calories.py` | Line parsing, portion weights, calories |
-| `test_domain.py` | The phase 1 entities: dish ids, a recipe owns its lines but no flags, ingredient risks with their confidence, place claims, every table loads |
+| `test_domain.py` | The phase 1 entities: dish ids, a recipe owns its lines but no flags, ingredient risks with their confidence, place claims, dish families and related dishes, every table loads |
 | `test_safety.py` | User profile, the gate, same answer as the dataset filter |
 | `test_agent_tools.py` | The agents' tools on tiny tables: the profile always wins; a warning when the saved data is out of date |
 | `test_crew.py` | Meal planner flow with a fake Chef: retries with the problems, safe fallback, its own model list |

@@ -6,6 +6,7 @@ words only explain the engine's `RecipeAnalysis`. Dishes are matched to recipes 
 """
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass, field, replace
 from pathlib import Path
 
@@ -33,6 +34,8 @@ class KnowledgeGraph:
     may_contain: tuple[MayContain, ...] = ()
     specialty: pd.DataFrame | None = None
     places: dict[str, Place] = field(default_factory=dict)
+    families: dict[str, dict] = field(default_factory=dict)   # family QID -> its entry in dish_families.json
+    dish_families: dict[str, tuple[str, ...]] = field(default_factory=dict)   # dish id -> its family QIDs
     _ingredients: dict[str, Ingredient] = field(default_factory=dict, repr=False)
 
     @classmethod
@@ -52,8 +55,38 @@ class KnowledgeGraph:
         for row in places.to_dict("records") if places is not None else []:
             place = place_from_row(row, evidence.get(str(row.get("osm_id")), []))
             found[place.place_id] = place
-        return cls(dishes, knowledge, load_may_contain(root / "data" / "reference" / "may_contain.csv"),
-                   load_specialty_ingredients(root / "data" / "reference" / "specialty_ingredients.csv"), found)
+        graph = cls(dishes, knowledge, load_may_contain(root / "data" / "reference" / "may_contain.csv"),
+                    load_specialty_ingredients(root / "data" / "reference" / "specialty_ingredients.csv"), found)
+        graph.load_families(root / "data" / "processed" / "dish_families.json")
+        return graph
+
+    def load_families(self, path: str | Path) -> None:
+        """Read notebook 15's dish families (Wikidata "subclass of"); nothing happens when the file is missing."""
+        path = Path(path)
+        if not path.exists():
+            return
+        data = json.loads(path.read_text(encoding="utf-8"))
+        self.families = {f["qid"]: f for f in data.get("families", []) if f.get("qid")}
+        self.dish_families = {d: tuple(q for q in qs if q in self.families)
+                              for d, qs in data.get("dish_families", {}).items()}
+
+    def families_of(self, dish_id: str, kind: str | None = "family") -> list[dict]:
+        """The families a dish is in (dumpling for jiaozi), largest first; `kind=None` adds the categories by
+        main ingredient (chicken dish)."""
+        found = [self.families[q] for q in self.dish_families.get(dish_id, ())]
+        found = [f for f in found if kind is None or f.get("kind") == kind]
+        return sorted(found, key=lambda f: -len(f.get("members", [])))
+
+    def related(self, dish_id: str, limit: int = 12) -> list[Dish]:
+        """Other dishes EverFlavor has in the same families (smallest family first, so the closest come first;
+        the family dish itself too, a biryani for Hyderabadi biryani). Only links Wikidata states."""
+        out: dict[str, Dish] = {}
+        for family in sorted(self.families_of(dish_id), key=lambda f: len(f.get("members", []))):
+            for q in [family["qid"], *(m["qid"] for m in family.get("members", []) if m.get("in_everflavor"))]:
+                dish = self.dishes.get(q)
+                if dish and q != dish_id:
+                    out.setdefault(q, dish)
+        return list(out.values())[:limit]
 
     def get_dish(self, dish_id: str) -> Dish | None:
         return self.dishes.get(dish_id)

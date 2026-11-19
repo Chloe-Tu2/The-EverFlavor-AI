@@ -1,4 +1,5 @@
 """The domain entities (roadmap phase 1): built from today's tables, linked by id, nothing invented."""
+import json
 import sys
 from dataclasses import FrozenInstanceError
 from pathlib import Path
@@ -96,6 +97,31 @@ def test_places_keep_their_claims_and_evidence():
     assert "name" in place.claims[0].reason
     with pytest.raises(ValueError):
         place_from_row({"osm_id": "node/2", "lat": None, "lng": 1.0})
+
+
+def test_dish_families_give_related_dishes(tmp_path):
+    """Notebook 15's families: a dish's families, and related dishes EverFlavor has, closest family first."""
+    dishes = {q: dish_from_record({"qid": q, "name": n}) for q, n in
+              [("Q1", "Dumpling"), ("Q2", "Jiaozi"), ("Q3", "Wonton"), ("Q4", "Biryani"), ("Q5", "Momo")]}
+    families = {"families": [
+        {"qid": "Q1", "name": "dumpling", "kind": "family", "members": [
+            {"qid": "Q2", "in_everflavor": True}, {"qid": "Q3", "in_everflavor": True},
+            {"qid": "Q5", "in_everflavor": True}, {"qid": "Q99", "in_everflavor": False}]},
+        {"qid": "Q7", "name": "Chinese dumpling", "kind": "family", "members": [
+            {"qid": "Q2", "in_everflavor": True}, {"qid": "Q3", "in_everflavor": True}]},
+        {"qid": "Q8", "name": "pork dish", "kind": "category", "members": [{"qid": "Q2", "in_everflavor": True}]}],
+        "dish_families": {"Q2": ["Q1", "Q7", "Q8", "Q404"], "Q3": ["Q1", "Q7"]}}
+    path = tmp_path / "dish_families.json"
+    path.write_text(json.dumps(families), encoding="utf-8")
+    graph = KnowledgeGraph(dishes=dishes)
+    graph.load_families(path)
+    assert [f["name"] for f in graph.families_of("Q2")] == ["dumpling", "Chinese dumpling"]
+    assert len(graph.families_of("Q2", kind=None)) == 3
+    assert [d.name for d in graph.related("Q2")] == ["Wonton", "Dumpling", "Momo"]   # closest family first
+    assert graph.related("Q4") == [] and graph.families_of("Q4") == []
+    empty = KnowledgeGraph(dishes={})
+    empty.load_families(tmp_path / "missing.json")   # no file: no families, no error
+    assert empty.families == {}
 
 
 def test_every_table_loads_into_entities(graph):
