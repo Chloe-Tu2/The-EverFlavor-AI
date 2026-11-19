@@ -26,6 +26,11 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 - **Notebook 15: dish families and variants** (Wikidata, CC0): 564 families (dumpling, biryani, flatbread...), 39
   categories by main ingredient and 49 groupings; 2,634 of our dishes in a family, and 5,220 members we do not
   have yet listed as gaps. The `KnowledgeGraph` reads them (`families_of`, `related`); the app does not yet.
+- **The Food Graph** (`everflavor.domain.FoodGraph`): one graph from World down to a recipe (places, dish families,
+  dishes, variants, recipes), every edge with its source, and the walks every feature can share (ancestors,
+  siblings, families, variants, countries, related dishes).
+- **Dish family, Versions and More like this** on About this dish, straight from the graph's Wikidata links
+  (gazpacho: ajoblanco, salmorejo, okroshka); a dish without links shows nothing.
 
 - **"Checked against"** under Check my recipe's profile: what was read (the lines, the steps, the nutrition) and
   against which rules and tables, next to what could not be checked.

@@ -14,8 +14,10 @@ import pandas as pd
 
 from ..confidence import MayContain, load_may_contain
 from ..places import load_place_evidence, load_specialty_ingredients
+from ..taxonomy import Taxonomy
 from ..waiter import Knowledge
 from .entities import Dish, Ingredient, Place, Recipe
+from .food_graph import FoodGraph
 from .loaders import (
     dish_from_record,
     ingredient_from_name,
@@ -37,6 +39,7 @@ class KnowledgeGraph:
     families: dict[str, dict] = field(default_factory=dict)   # family QID -> its entry in dish_families.json
     dish_families: dict[str, tuple[str, ...]] = field(default_factory=dict)   # dish id -> its family QIDs
     _ingredients: dict[str, Ingredient] = field(default_factory=dict, repr=False)
+    _food_graph: FoodGraph | None = field(default=None, repr=False)
 
     @classmethod
     def load(cls, root: str | Path = ROOT, places: pd.DataFrame | None = None) -> KnowledgeGraph:
@@ -57,8 +60,14 @@ class KnowledgeGraph:
             found[place.place_id] = place
         graph = cls(dishes, knowledge, load_may_contain(root / "data" / "reference" / "may_contain.csv"),
                     load_specialty_ingredients(root / "data" / "reference" / "specialty_ingredients.csv"), found)
-        graph.load_families(root / "data" / "processed" / "dish_families.json")
+        graph.load_families(root / "data" / "knowledge" / "dish_families.json")
         return graph
+
+    def food_graph(self, taxonomy: Taxonomy | None = None) -> FoodGraph:
+        """The Food Graph of these dishes, their families and the taxonomy's places (built once, then kept)."""
+        if self._food_graph is None:
+            self._food_graph = FoodGraph.build(self.dishes, taxonomy, self.families.values())
+        return self._food_graph
 
     def load_families(self, path: str | Path) -> None:
         """Read notebook 15's dish families (Wikidata "subclass of"); nothing happens when the file is missing."""

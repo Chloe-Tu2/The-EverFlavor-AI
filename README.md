@@ -663,7 +663,7 @@ The-EverFlavor-AI/
 │       ├── recipe_check.py, preparation.py  # Check my recipe: read anything pasted; raw, fermented, charred, aged
 │       ├── preferences.py               # foods a person just skips (not allergies)
 │       ├── taxonomy.py, places.py       # the Food Taxonomy; map places with their evidence
-│       ├── domain/                      # Dish, Recipe, Ingredient, Place and the KnowledgeGraph (phase 1)
+│       ├── domain/                      # Dish, Recipe, Ingredient, Place, the KnowledgeGraph and the Food Graph
 │       ├── waiter.py, dish_knowledge.py # Walter or Nathalie, the waiter, and their dish facts
 │       ├── dish_names.py, dish_steps.py, cooking_time.py, recipe_details.py  # the dish page
 │       ├── saved_recipes.py             # saved recipes in the browser (beta)

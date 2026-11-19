@@ -1,5 +1,5 @@
 """Domain entities (roadmap phase 1): Dish, Recipe, Ingredient and Place, linked by id, and the KnowledgeGraph
-that Walter and the app read them through. Built from today's tables; nothing in the app depends on them yet."""
+that Walter and the app read them through. Built from today's tables. `FoodGraph` joins them to the Food Taxonomy: World down to a recipe."""
 from .entities import (
     Claim,
     Dish,
@@ -15,6 +15,7 @@ from .entities import (
     Source,
     Specialty,
 )
+from .food_graph import FoodEdge, FoodGraph, FoodNode
 from .graph import KnowledgeGraph
 from .loaders import (
     dish_from_record,
@@ -30,6 +31,9 @@ __all__ = [
     "Claim",
     "Dish",
     "Fact",
+    "FoodEdge",
+    "FoodGraph",
+    "FoodNode",
     "Ingredient",
     "KnowledgeGraph",
     "Link",

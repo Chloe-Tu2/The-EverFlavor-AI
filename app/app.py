@@ -64,6 +64,8 @@ from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
 from everflavor.dish_steps import cookware, methods_of, split_minutes, step_breakdown
+from everflavor.domain import FoodGraph, FoodNode, dish_from_record
+from everflavor.domain.food_graph import load_families
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
 from everflavor.parsing import parse_list_string
@@ -643,6 +645,54 @@ def walter_notes() -> waiter.Knowledge | None:
     return waiter.Knowledge.load(path) if path.exists() else None
 
 
+@st.cache_resource
+def food_graph() -> FoodGraph | None:
+    """The Food Graph (domain/food_graph.py): the knowledge notebook's dishes, notebook 15's Wikidata families and
+    the Food Taxonomy, built once; None without the notebook."""
+    notes = walter_notes()
+    if notes is None:
+        return None
+    dishes = {}
+    for record in notes.dishes:
+        try:
+            dish = dish_from_record(record)
+        except ValueError:   # an entry without a name: not a dish
+            continue
+        dishes.setdefault(dish.dish_id, dish)
+    return FoodGraph.build(dishes, TAX, load_families(ROOT / "data" / "knowledge" / "dish_families.json"))
+
+
+def graph_link(node: FoodNode) -> str:
+    """A dish's name, linked to its Wikipedia article when the source gives one (brackets in the address encoded)."""
+    if node.url.startswith("https://") and "wikipedia.org/" in node.url:
+        return f"[{plain(node.name)}]({node.url.replace('(', '%28').replace(')', '%29')})"
+    return plain(node.name)
+
+
+def dish_family(dish: str, where: object) -> None:
+    """The dish's family, its versions and "more like this", only from the graph's edges (Wikidata's "subclass
+    of" via notebook 15): no recommendation is made up, and a dish with no edges shows nothing."""
+    graph, notes = food_graph(), walter_notes()
+    entry = notes.find(dish, where if isinstance(where, str) and where != "Unknown" else None) if notes else None
+    qid = str(entry.get("qid") or "") if entry else ""
+    if graph is None or f"dish:{qid}" not in graph.nodes:
+        return
+    kinds = [*graph.variant_of(qid), *graph.families_of(qid)][:3]
+    versions = graph.variants_of(qid)[:8]
+    related = graph.related(qid, 8)
+    lines = []
+    if kinds:
+        lines.append("**Dish family:** a kind of " + ", ".join(graph_link(n) for n in kinds))
+    if versions:
+        lines.append("**Versions:** " + " · ".join(graph_link(n) + ("" if n.in_everflavor else " (not in EverFlavor yet)")
+                                                   for n in versions))
+    if related:
+        lines.append("**More like this:** " + " · ".join(graph_link(n) for n in related))
+    if lines:
+        st.markdown("  \n".join(lines))
+        st.caption("From Wikidata's \"subclass of\" links (CC0), as Wikidata groups them; nothing here is guessed.")
+
+
 def walter_face(place, mood: str = "happy", who: str | None = None, half: bool = False) -> None:
     """Walter's picture, built into the page (a data URI like the chefs), so it never breaks when the app restarts
     the way a served st.image link does."""
@@ -816,6 +866,7 @@ def dish_page(row: pd.Series, dish: str) -> None:
                         on_click=go_to_place, args=(place.slug,))
     elif isinstance(where, str) and where != "Unknown":
         st.caption(f"From {where}")
+    dish_family(dish, where)
     st.session_state["walter_dish"] = (row, dish, where)   # Walter, in the page's corner, talks about this dish
     steps = step_breakdown(row.get("instructions"), row.get("ingredient_list"))
     minutes = row.get("minutes")
