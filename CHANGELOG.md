@@ -20,6 +20,9 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 
 - **Open in maps** on each place card of the Map: the place's pin on OpenStreetMap, which offers directions;
   only the place's location is in the link.
+- **Notebook 14: cooking yields and nutrient retention** (USDA, CC0): raw to cooked weight for 173 cuts of meat
+  and poultry, nutrients kept for 270 foods and preparations, and a profile per cooking method. Not used by the
+  app yet; safe cooking temperatures wait for the FSIS chart.
 
 - **"Checked against"** under Check my recipe's profile: what was read (the lines, the steps, the nutrition) and
   against which rules and tables, next to what could not be checked.

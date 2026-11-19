@@ -20,6 +20,9 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | USDA FoodData Central API | <https://fdc.nal.usda.gov/api-guide.html> | Public domain (U.S. government) | REST API with a free key (`USDA_API_KEY`) | Live API | 2.4.1 |
 | USDA FNDDS (survey foods), bulk download | <https://fdc.nal.usda.gov/download-datasets> | Public domain | Zip download, no key | Release 2024-10-31 | 5.8.1 |
 | USDA SR Legacy, bulk download | <https://fdc.nal.usda.gov/download-datasets> | Public domain | Zip download, no key | Release 2018-04 (final) | 5.8.1 |
+| USDA Table of Cooking Yields for Meat and Poultry, Release 2 (ARS) | <https://catalog.data.gov/dataset/usda-table-of-cooking-yields-for-meat-and-poultry> | CC0 1.0 | CSV download, no key (DOI 10.15482/USDA.ADC/1409031) | 2014 release, retrieved 2026-11-19 | 14, section 2 |
+| USDA Table of Nutrient Retention Factors, Release 6 (ARS) | <https://catalog.data.gov/dataset/usda-table-of-nutrient-retention-factors-release-6-2007> | CC0 1.0 | CSV download, no key (DOI 10.15482/USDA.ADC/1409034) | 2007 release, retrieved 2026-11-19; 24 rows without a factor left out | 14, section 3 |
+| USDA FSIS Safe Minimum Internal Temperature Chart | <https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart> | US government work (to confirm on the saved page) | The site refuses automated reads; the page is saved by hand from a browser | **Candidate:** waiting for the saved page | 14, section 5 |
 | Open Food Facts | <https://world.openfoodfacts.org> | Open Database License (ODbL) | Public API, no key, rate-limited, with a descriptive User-Agent | Live API | 2.4.4 |
 
 ## Ingredient knowledge (notebook 04)
