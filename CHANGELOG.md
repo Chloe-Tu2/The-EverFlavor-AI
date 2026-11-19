@@ -14,18 +14,12 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
 
 ## [Unreleased]
 
-Phase 0 of the roadmap (the safety refactor), finished.
-
-### Changed
-
-- **Faster kitchen changes:** the kitchen scenes are served as files the browser keeps (`app/static/scenes/`),
-  so switching kitchen or hour sends about 11 KB instead of 1 to 1.5 MB of pictures.
-- **A clearer profile button:** when the sidebar is closed, the small arrow is now a "Your profile" button in the
-  kitchen's button colour, on computers and phones.
-- **Open in maps** on each place card of the Map: the place's pin on OpenStreetMap, which offers directions;
-  only the place's location is in the link.
+Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 1; three 0.7.2 repairs.
 
 ### Added
+
+- **Open in maps** on each place card of the Map: the place's pin on OpenStreetMap, which offers directions;
+  only the place's location is in the link.
 
 - **"Checked against"** under Check my recipe's profile: what was read (the lines, the steps, the nutrition) and
   against which rules and tables, next to what could not be checked.
@@ -38,6 +32,10 @@ Phase 0 of the roadmap (the safety refactor), finished.
 
 ### Changed
 
+- **Faster kitchen changes:** the kitchen scenes are served as files the browser keeps (`app/static/scenes/`),
+  so switching kitchen or hour sends about 11 KB instead of 1 to 1.5 MB of pictures.
+- **A clearer profile button:** when the sidebar is closed, the small arrow is now a "Your profile" button in the
+  kitchen's button colour, on computers and phones.
 - Severities are named as in the roadmap: Critical, Warning, Review, Info (the signs stay the same).
 - The profile has seven groups: allergies, medical conditions, religious requirements, ethical preferences,
   personal preferences, goals, cooking preferences. Each rule is offered in one place only (medical diets were
