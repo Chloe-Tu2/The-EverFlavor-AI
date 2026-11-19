@@ -23,6 +23,9 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 - **Notebook 14: cooking yields and nutrient retention** (USDA, CC0): raw to cooked weight for 173 cuts of meat
   and poultry, nutrients kept for 270 foods and preparations, and a profile per cooking method. Not used by the
   app yet; safe cooking temperatures wait for the FSIS chart.
+- **Notebook 15: dish families and variants** (Wikidata, CC0): 613 families (dumpling, biryani, flatbread...) and
+  39 categories by main ingredient; 3,248 of our dishes in at least one, and 5,220 members we do not have yet
+  listed as gaps. Not used by the app yet.
 
 - **"Checked against"** under Check my recipe's profile: what was read (the lines, the steps, the nutrition) and
   against which rules and tables, next to what could not be checked.

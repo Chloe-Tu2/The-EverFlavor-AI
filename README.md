@@ -620,7 +620,8 @@ The-EverFlavor-AI/
 │   ├── 11_dish_knowledge.ipynb                    # The waiter's dish knowledge (Wikipedia, Wikidata), never invented
 │   ├── 12_safety_engine_check.ipynb               # Check my recipe's engine on 10,000 test recipes, by level and confidence
 │   ├── 13_taxonomy_and_map_coverage.ipynb         # Recipes per Food Taxonomy branch; countries with recipes but no places
-│   └── 14_cooking_yields_and_retention.ipynb      # USDA cooking yields and nutrient retention, by cooking method
+│   ├── 14_cooking_yields_and_retention.ipynb      # USDA cooking yields and nutrient retention, by cooking method
+│   └── 15_dish_families_and_variants.ipynb        # Dish families and regional variants (Wikidata), with the gaps
 ├── data/
 │   ├── reference/    # Hand-made reference tables with sources (committed): food_taxonomy, may_contain,
 │   │                 # specialty_ingredients, place_evidence, dish_pronunciation, photo reviews, cooking_fats

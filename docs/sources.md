@@ -40,6 +40,7 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | Wikipedia dish lists (USA, Mexico, China, Middle East, Africa) | <https://en.wikipedia.org/wiki/List_of_African_dishes> (and the other lists named in the script) | CC BY-SA 4.0 (credit "Wikipedia contributors", link per page) | MediaWiki API `action=parse`, a descriptive User-Agent, answers cached | Which dishes are best known and their region (section headings, region columns); collected 2026-11-10 | `data/knowledge/` |
 | English Wikipedia article intros | <https://en.wikipedia.org/w/api.php> | CC BY-SA 4.0 (credit and link per article, kept in each row's `sources`) | MediaWiki API `prop=extracts`, 20 titles per request, 1 s apart | Summary and fun-fact candidates (sentences as written, not yet reviewed) | `data/knowledge/` |
 | Wikidata (dish facts) | <https://query.wikidata.org> | CC0 | SPARQL, 200 items per query, cached | Type check (dish, food or drink), origin, start year, ingredients, namesake, heritage listings | `data/knowledge/` |
+| Wikidata (dish families) | <https://query.wikidata.org> | CC0 | SPARQL, 300 dishes or 150 families per query, cached in `data/raw/dish_families/` | "subclass of" (P279) between dishes, country of origin (P495), English Wikipedia article of each missing member; queried 2026-11-19 | notebook 15 |
 
 ## Stores and products (notebook 03)
 

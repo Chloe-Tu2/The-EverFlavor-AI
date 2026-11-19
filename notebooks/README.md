@@ -52,6 +52,7 @@ The models, and the checks that say whether the app can be trusted.
 | 12 | [Safety engine check](12_safety_engine_check.ipynb) | Runs Check my recipe's engine on 10,000 test recipes for four sample profiles: results by level and by confidence (verified, likely, possible, unknown), the most common may-contain foods, unknown products and preparation risks, agreement with the stored flags by source (Food.com: 0 missed), and a hand-check sample for the team. Needs 01 | `processed/safety_engine_report.csv`, `processed/safety_engine_handcheck.csv` |
 | 13 | [Food Taxonomy and map coverage](13_taxonomy_and_map_coverage.ipynb) | Recipes per branch of the Food Taxonomy, recipe countries and regions the tree lacks (run 2026-11-17: 38 found and added, now 0), and for each country its recipes and the map's places with that cuisine; the thin spots (Indonesia and Egypt: 200+ recipes, no places in the pilot area). Needs 01 and 03 | `processed/taxonomy_map_coverage.csv` |
 | 14 | [Cooking yields and nutrient retention](14_cooking_yields_and_retention.ipynb) | Two USDA tables (CC0): raw to cooked weight with water and fat change for 173 cuts of meat and poultry, and how much of 26 nutrients is kept for 270 foods and preparations, each in the project's cooking-method names; method profiles built from both. Safe cooking temperatures (USDA FSIS) wait for the saved chart | `processed/cooking_yields.json`, `processed/nutrient_retention.json`, `processed/cooking_method_profiles.json`, `processed/knowledge_assets.json` (the list of knowledge files) |
+| 15 | [Dish families and variants](15_dish_families_and_variants.ipynb) | Which dishes belong together, from Wikidata (CC0) "subclass of": run 2026-11-19, 613 families and 39 categories by main ingredient (chicken dish, rice dish), filed under food or dish on Wikidata; 3,248 of our dishes in at least one; 5,220 members with an English Wikipedia article that EverFlavor does not have yet, listed as gaps; a hand check (biryani, dumpling, taco, curry, pasta, flatbread). Needs 11 | `processed/dish_families.json`, an entry in `processed/knowledge_assets.json` |
 
 ## Run times
 
@@ -74,6 +75,7 @@ at the top. Colab's free runtime takes about as long, or a little longer. First-
 | 12 | about 5 minutes (10,000 recipes, four profiles) | nothing (needs 01) | Section 3, the checks |
 | 13 | under 10 seconds | nothing (needs 01 and 03) | Section 2 |
 | 14 | under a minute | about 0.5 MB from data.gov, once | Section 3, the retention profiles |
+| 15 | seconds (saved Wikidata answers) | a few minutes of Wikidata queries, once (cached in `data/raw/dish_families/`) | Section 4, the missing members |
 
 All of them on a fresh computer: plan for an afternoon (most of it notebook 05's photos); re-running all of
 them takes about an hour.
