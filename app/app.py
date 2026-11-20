@@ -73,6 +73,13 @@ from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
 from everflavor.dish_steps import cookware, methods_of, split_minutes, step_breakdown
+from everflavor.domain import (
+    FoodGraph,
+    FoodNode,
+    GraphRecommendationService,
+    dish_from_record,
+)
+from everflavor.domain.food_graph import is_wikipedia, load_families
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
 from everflavor.parsing import parse_list_string
@@ -650,6 +657,107 @@ def walter_notes() -> waiter.Knowledge | None:
     return waiter.Knowledge.load(path) if path.exists() else None
 
 
+@st.cache_resource
+def food_graph() -> FoodGraph | None:
+    """The Food Graph (domain/food_graph.py): the knowledge notebook's dishes, notebook 15's Wikidata families and
+    the Food Taxonomy, built once; None without the notebook."""
+    notes = walter_notes()
+    if notes is None:
+        return None
+    dishes = {}
+    for record in notes.dishes:
+        try:
+            dish = dish_from_record(record)
+        except ValueError:   # an entry without a name: not a dish
+            continue
+        dishes.setdefault(dish.dish_id, dish)
+    return FoodGraph.build(dishes, TAX, load_families(ROOT / "data" / "knowledge" / "dish_families.json"))
+
+
+def graph_link(node: FoodNode) -> str:
+    """A dish's name, linked to its Wikipedia article when the source gives one (brackets in the address encoded)."""
+    if is_wikipedia(node.url):
+        return f"[{plain(node.name)}]({node.url.replace('(', '%28').replace(')', '%29')})"
+    return plain(node.name)
+
+
+def dish_family(dish: str, where: object) -> None:
+    """The dish's family, its versions and "more like this", only from the graph's edges (Wikidata's "subclass
+    of" via notebook 15): no recommendation is made up, and a dish with no edges shows nothing."""
+    graph, qid = food_graph(), graph_dish(dish, where)
+    if graph is None or f"dish:{qid}" not in graph.nodes:
+        return
+    kinds = [*graph.variant_of(qid), *graph.families_of(qid)][:3]
+    versions = graph.variants_of(qid)[:8]
+    parent = graph.variant_of(qid)[:1]   # a version itself (Hyderabadi biryani): show the other versions of its dish
+    siblings = [] if versions or not parent else [
+        n for n in graph.variants_of(parent[0].id.removeprefix("dish:")) if n.id != f"dish:{qid}"][:8]
+    related = graph.related(qid, 8)
+    lines = []
+    if kinds:
+        lines.append("**Dish family:** a kind of " + ", ".join(graph_link(n) for n in kinds))
+    for label, shown in (("Versions", versions), (f"Other versions of {plain(parent[0].name)}" if parent else "", siblings)):
+        if shown:
+            lines.append(f"**{label}:** " + " · ".join(graph_link(n) + ("" if n.in_everflavor else " (not in EverFlavor yet)")
+                                                      for n in shown))
+    if related:
+        lines.append("**More like this:** " + " · ".join(graph_link(n) for n in related))
+    if lines:
+        st.markdown("  \n".join(lines))
+        st.caption("From Wikidata's \"subclass of\" links (CC0), as Wikidata groups them; nothing here is guessed.")
+
+
+def graph_dish(dish: str, where: object) -> str:
+    """The Wikidata QID of a recipe's dish, found as Walter finds it; "" when the notebook does not know it."""
+    notes = walter_notes()
+    entry = notes.find(dish, where if isinstance(where, str) and where != "Unknown" else None) if notes else None
+    return str(entry.get("qid") or "") if entry else ""
+
+
+def graph_card_line(dish: str, where: object) -> str:
+    """One short line for a search result, all from the Food Graph: what the dish is a kind of, its versions, and
+    its food region ("A kind of rice dish · versions: Hyderabadi biryani, Sindhi biryani · South Asia")."""
+    graph, qid = food_graph(), graph_dish(dish, where)
+    if graph is None or f"dish:{qid}" not in graph.nodes:
+        return ""
+    parts = []
+    kinds = [*graph.variant_of(qid), *graph.families_of(qid)][:2]
+    if kinds:
+        parts.append("A kind of " + " and ".join(plain(n.name) for n in kinds))
+    versions = graph.variants_of(qid)
+    if versions:
+        parts.append("versions: " + ", ".join(plain(n.name) for n in versions[:3])
+                     + (f" and {len(versions) - 3} more" if len(versions) > 3 else ""))
+    for place in graph.places_of(qid)[:1]:
+        region = next((n for n in [place, *graph.ancestors(place.id, ("part_of",))] if n.node_type == "region"), None)
+        if region:
+            parts.append(plain(region.name))
+    return " · ".join(parts)
+
+
+EXPLORE_DISHES = 60   # dishes listed per place in Explore (the most particular to the place first)
+
+
+def explore_dishes(slug: str) -> None:
+    """Explore by place: the place's dishes from the Food Graph (Wikidata's country of origin, else the cuisine
+    list), grouped by their closest family, each linked to its Wikipedia article."""
+    graph = food_graph()
+    if graph is None or f"place:{slug}" not in graph.nodes:
+        return
+    groups = GraphRecommendationService(graph).dishes_at(f"place:{slug}", EXPLORE_DISHES)
+    if not groups:
+        return
+    total = sum(len(v) for v in groups.values())
+    shown = f"the first {total}" if total >= EXPLORE_DISHES else str(total)
+    with st.expander(f"Dishes from {TAX.nodes[slug].name} ({shown}), by family"):
+        for family, dishes in groups.items():
+            st.markdown(f"**{plain(family)}:** " + " · ".join(
+                graph_link(n) + (f" ({count} versions)" if (count := len(graph.variants_of(n.id.removeprefix("dish:")))) > 1
+                                 else " (1 version)" if count else "") for n in dishes))
+        st.caption("Families from Wikidata's \"subclass of\" links, places from Wikidata's country of origin or the "
+                   "Wikipedia cuisine list; \"Other\": no family on Wikidata.")
+
+
 def walter_face(place, mood: str = "happy", who: str | None = None, half: bool = False) -> None:
     """Walter's picture, built into the page (a data URI like the chefs), so it never breaks when the app restarts
     the way a served st.image link does."""
@@ -823,6 +931,7 @@ def dish_page(row: pd.Series, dish: str) -> None:
                         on_click=go_to_place, args=(place.slug,))
     elif isinstance(where, str) and where != "Unknown":
         st.caption(f"From {where}")
+    dish_family(dish, where)
     st.session_state["walter_dish"] = (row, dish, where)   # Walter, in the page's corner, talks about this dish
     steps = step_breakdown(row.get("instructions"), row.get("ingredient_list"))
     minutes = row.get("minutes")
@@ -998,6 +1107,7 @@ def explore_by_place() -> None:
     if st.session_state.get("explore"):
         st.button("Show all places", key="explore-all", on_click=st.session_state.update,
                   kwargs={"explore": None, "search": None, "explore-from-search": False})
+        explore_dishes(st.session_state["explore"])
 
 
 # ---------- The Food Discovery Map's data (everflavor.places decides every claim and its words; the page shows them) ----------
@@ -1402,7 +1512,7 @@ def checked_words(rule: str) -> str:
     return f"{nice_diet(rule).lower()} ingredients" if rule.endswith("_friendly") else nice_diet(rule).lower()
 
 
-# ---------- Saved recipes: kept in this browser (beta), with a file to keep or move them ----------
+# ---------- My Cookbook (saved recipes): kept in this browser (beta), with a file to keep or move them ----------
 # A tiny custom component reads and writes one "everflavor" key in the browser's local storage. Nothing is sent to
 # us; what comes back is checked by everflavor.saved_recipes.decode (anyone can edit their own storage).
 STORE_KEY = "browser-store"
@@ -1958,6 +2068,9 @@ with find_tab:
                     info.markdown(f'<p class="dish-story">{html.escape(story[0])} '
                                   f'<a href="{html.escape(story[1])}" target="_blank" rel="noopener">Wikipedia, '
                                   'CC BY-SA 4.0</a></p>', unsafe_allow_html=True)
+                known = graph_card_line(dish, where)   # its family, versions and food region, from the Food Graph
+                if known:
+                    info.caption(known)
                 ticks = checks + (["within your calorie target"]
                                   if within_calories(row["calories_per_serving"], calories) else [])
                 if checks:

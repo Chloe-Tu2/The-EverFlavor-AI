@@ -619,7 +619,9 @@ The-EverFlavor-AI/
 │   ├── 10_recipe_photos.ipynb                     # Food.com's own photos (CC0): links, download, logo marks, photo check
 │   ├── 11_dish_knowledge.ipynb                    # The waiter's dish knowledge (Wikipedia, Wikidata), never invented
 │   ├── 12_safety_engine_check.ipynb               # Check my recipe's engine on 10,000 test recipes, by level and confidence
-│   └── 13_taxonomy_and_map_coverage.ipynb         # Recipes per Food Taxonomy branch; countries with recipes but no places
+│   ├── 13_taxonomy_and_map_coverage.ipynb         # Recipes per Food Taxonomy branch; countries with recipes but no places
+│   ├── 14_cooking_yields_and_retention.ipynb      # USDA cooking yields and nutrient retention, by cooking method
+│   └── 15_dish_families_and_variants.ipynb        # Dish families and regional variants (Wikidata), with the gaps
 ├── data/
 │   ├── reference/    # Hand-made reference tables with sources (committed): food_taxonomy, may_contain,
 │   │                 # specialty_ingredients, place_evidence, dish_pronunciation, photo reviews, cooking_fats
@@ -661,6 +663,7 @@ The-EverFlavor-AI/
 │       ├── recipe_check.py, preparation.py  # Check my recipe: read anything pasted; raw, fermented, charred, aged
 │       ├── preferences.py               # foods a person just skips (not allergies)
 │       ├── taxonomy.py, places.py       # the Food Taxonomy; map places with their evidence
+│       ├── domain/                      # Dish, Recipe, Ingredient, Place, the KnowledgeGraph and the Food Graph
 │       ├── waiter.py, dish_knowledge.py # Walter or Nathalie, the waiter, and their dish facts
 │       ├── dish_names.py, dish_steps.py, cooking_time.py, recipe_details.py  # the dish page
 │       ├── saved_recipes.py             # saved recipes in the browser (beta)
@@ -694,7 +697,7 @@ The-EverFlavor-AI/
 │   ├── test_sources.py      # Download helpers with fake network answers (no real requests)
 │   ├── test_security.py     # Pre-push checks: no keys or local paths in committed files
 │   ├── test_restrictions.py, test_confidence.py, test_preparation.py, test_alcohol.py, test_recipe_check.py
-│   ├── test_taxonomy.py, test_places.py, test_waiter.py, test_dish_*.py, test_*_photos.py
+│   ├── test_domain.py, test_taxonomy.py, test_places.py, test_waiter.py, test_dish_*.py, test_*_photos.py
 │   ├── test_app_art.py, test_app_contrast.py  # Every picture the app names is drawn; theme colours readable
 │   └── test_version.py      # The version, CHANGELOG and What's new agree
 ├── docs/

@@ -6,6 +6,9 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   fun-fact candidates and 2,415 with story sentences; 11,044 facts shown first and 9,035 "more"), built by
   `scripts/knowledge/fetch_knowledge.py`. It starts with what
   the app shows: the 54 countries in its Country list and its 22 regions (other countries later).
+- `dish_families.json`: which dishes belong together (notebook 15, Wikidata "subclass of", CC0): families,
+  categories by main ingredient and groupings, each with its members (QID, name, country, whether EverFlavor has
+  it, its English Wikipedia article). The Food Graph (`everflavor.domain.FoodGraph`) and the dish page read it.
 - Regions: China by region and province (16 cuisine pages: the Eight Great Traditions, Beijing, Shanghai, Hong
   Kong, Yunnan, Xinjiang, the Northeast, Hakka, Teochew; 282 Chinese entries); Mexico by state (its region pages
   are prose, so a dish gets the state its own intro or Wikidata origin names first: 45 dishes, such as Al pastor in

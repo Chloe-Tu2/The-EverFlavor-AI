@@ -14,7 +14,37 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
 
 ## [Unreleased]
 
-Phase 0 of the roadmap (the safety refactor), finished.
+Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 1; three 0.7.2 repairs.
+
+### Added
+
+- **Open in maps** on each place card of the Map: the place's pin on OpenStreetMap, which offers directions;
+  only the place's location is in the link.
+- **Notebook 14: cooking yields and nutrient retention** (USDA, CC0): raw to cooked weight for 173 cuts of meat
+  and poultry, nutrients kept for 270 foods and preparations, and a profile per cooking method. Not used by the
+  app yet; safe cooking temperatures wait for the FSIS chart.
+- **Notebook 15: dish families and variants** (Wikidata, CC0): 564 families (dumpling, biryani, flatbread...), 39
+  categories by main ingredient and 49 groupings; 2,634 of our dishes in a family, and 5,220 members we do not
+  have yet listed as gaps. The `KnowledgeGraph` reads them (`families_of`, `related`); the app does not yet.
+- **The Food Graph** (`everflavor.domain.FoodGraph`): one graph from World down to a recipe (places, dish families,
+  dishes, variants, recipes), every edge with its source, and the walks every feature can share (ancestors,
+  siblings, families, variants, countries, related dishes).
+- **Dish family, Versions and More like this** on About this dish, straight from the graph's Wikidata links
+  (gazpacho: ajoblanco, salmorejo, okroshka); a dish without links shows nothing.
+- **The app reads the Food Graph:** each search result says what the dish is a kind of, its versions and its food
+  region; Explore by place lists the place's dishes by family. Services for discovery, the waiter's context, the
+  cookbook's groups and the map (`everflavor.domain.services`), every suggestion with its reason and source.
+- A version's page lists the other versions of its dish (Hyderabadi biryani: Kolkata and Sindhi biryani), and
+  Explore shows how many versions a dish has. Versions keep their own Wikidata country (Sindhi biryani: Pakistan).
+
+- **"Checked against"** under Check my recipe's profile: what was read (the lines, the steps, the nutrition) and
+  against which rules and tables, next to what could not be checked.
+- **A typed result** for Check my recipe (`restrictions.RecipeAnalysis`, with `Finding`, `FindingItem` and
+  `LineSummary`): one contract for the app, the notebooks and later the waiter.
+- Rum cake in the may-contain table (rum, eggs, butter, flour; Wikipedia): 37 rows for 23 foods.
+- **Domain entities** (roadmap phase 1, step 1): `everflavor.domain` with `Dish`, `Recipe`, `Ingredient` and
+  `Place`, built from today's tables, and the `KnowledgeGraph` that finds a recipe's dish as the app does (826 of
+  the 3,000 demo recipes). Not used by the app yet; ingredient merges wait for the team's review.
 
 ### Changed
 
@@ -22,19 +52,6 @@ Phase 0 of the roadmap (the safety refactor), finished.
   so switching kitchen or hour sends about 11 KB instead of 1 to 1.5 MB of pictures.
 - **A clearer profile button:** when the sidebar is closed, the small arrow is now a "Your profile" button in the
   kitchen's button colour, on computers and phones.
-- **Open in maps** on each place card of the Map: the place's pin on OpenStreetMap, which offers directions;
-  only the place's location is in the link.
-
-### Added
-
-- **"Checked against"** under Check my recipe's profile: what was read (the lines, the steps, the nutrition) and
-  against which rules and tables, next to what could not be checked.
-- **A typed result** for Check my recipe (`restrictions.RecipeAnalysis`, with `Finding`, `FindingItem` and
-  `LineSummary`): one contract for the app, the notebooks and later the waiter.
-- Rum cake in the may-contain table (rum, eggs, butter, flour; Wikipedia): 37 rows for 23 foods.
-
-### Changed
-
 - Severities are named as in the roadmap: Critical, Warning, Review, Info (the signs stay the same).
 - The profile has seven groups: allergies, medical conditions, religious requirements, ethical preferences,
   personal preferences, goals, cooking preferences. Each rule is offered in one place only (medical diets were
