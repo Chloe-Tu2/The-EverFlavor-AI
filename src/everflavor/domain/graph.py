@@ -133,6 +133,12 @@ class KnowledgeGraph:
         made = ingredient_from_name(name, self.may_contain, self.specialty)
         return self._ingredients.setdefault(made.ingredient_id, made)
 
+    def ingredients_of_dish(self, dish_id: str) -> list[Ingredient]:
+        """The ingredients Wikidata says a dish is made from ("made from material", P186), with their risks; [] when
+        Wikidata lists none. A recipe's own lines are `ingredients_of(recipe)`."""
+        dish = self.get_dish(dish_id)
+        return [self.ingredient(i) for i in dish.made_from] if dish else []
+
     def ingredients_of(self, recipe: Recipe) -> list[Ingredient]:
         return [self.ingredient(i) for i in recipe.ingredient_ids]
 

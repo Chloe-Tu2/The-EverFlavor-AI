@@ -8,10 +8,14 @@ from __future__ import annotations
 
 from collections.abc import Iterable
 from dataclasses import dataclass, field
+from typing import TYPE_CHECKING
 
 from ..stores import COUNTRY_CUISINES
 from .entities import Ingredient, Place
 from .food_graph import FoodGraph, FoodNode
+
+if TYPE_CHECKING:
+    from .graph import KnowledgeGraph
 
 
 @dataclass(frozen=True)
@@ -154,6 +158,29 @@ class GraphRecommendationService:
     def discover_related_dishes(self, dish_id: str, limit: int = 8) -> list[Suggestion]:
         return self.related_dishes(dish_id, limit)
 
+    def regional_neighbors(self, dish_id: str, limit: int = 12) -> list[Suggestion]:
+        return self.region_neighbors(dish_id, limit)
+
+    def graph_path(self, dish_id: str) -> dict[str, list[FoodNode]]:
+        """Everything a dish page or the waiter shows about where the dish sits (`FoodGraph.path`)."""
+        return self.graph.path(dish_id)
+
+    # exploration pathways: the same answers under the names Explore, World Tour and Kitchen Adventure will use
+    def explore_family(self, dish_id: str) -> dict[str, list[FoodNode]]:
+        return self.family_members(dish_id)
+
+    def explore_variant(self, dish_id: str) -> list[Suggestion]:
+        return self.related_variants(dish_id)
+
+    def explore_country(self, dish_id: str, limit: int = 12) -> list[Suggestion]:
+        return self.country_neighbors(dish_id, limit)
+
+    def explore_region(self, dish_id: str, limit: int = 12) -> list[Suggestion]:
+        return self.region_neighbors(dish_id, limit)
+
+    def explore_related(self, dish_id: str, limit: int = 8) -> list[Suggestion]:
+        return self.related_dishes(dish_id, limit)
+
     def dishes_at(self, place_id: str, limit: int = 60) -> dict[str, list[FoodNode]]:
         """Explore: the dishes of a place and the places inside it, grouped by their closest family ("Other" when
         Wikidata gives none), families with the most dishes first."""
@@ -264,6 +291,23 @@ class MapLinks:
         cuisines = {c.lower() for c in ingredient.specialty.cuisines}
         found = [p for p in self.places if p.category in kinds]
         return sorted(found, key=lambda p: not (cuisines & {c.lower() for c in p.cuisines}))
+
+    def places_for_variant(self, dish_id: str) -> list[Place]:
+        """A version's map places, by its own Wikidata country of origin (Sindhi biryani: Pakistani places); none
+        when Wikidata gives it no country (never the country of the dish it is a version of)."""
+        return self.places_for_dish(dish_id)
+
+    def places_for_country(self, country: str) -> list[Place]:
+        """Map places whose cuisine tag is a country's cuisine ("India": the places tagged indian)."""
+        return self._serving([country])
+
+    def stores_for_ingredient(self, ingredient: Ingredient) -> list[Place]:
+        return self.places_for_ingredient(ingredient)
+
+    def ingredients_for_dish(self, knowledge: KnowledgeGraph, dish_id: str) -> list[Ingredient]:
+        """What Wikidata says the dish is made from, as Ingredients with their risks and specialty (the step from a
+        dish to the shops of `stores_for_ingredient`)."""
+        return knowledge.ingredients_of_dish(dish_id)
 
     def related_places(self, place_id: str) -> list[FoodNode]:
         """The taxonomy places next to one (its siblings)."""

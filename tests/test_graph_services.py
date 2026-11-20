@@ -96,3 +96,30 @@ def test_cookbook_groups_and_map_links():
     assert links.places_for_ingredient(Ingredient("water", "water")) == []
     assert [p.name for p in links.regional_food_locations("place:south_asia")] == ["Taj"]
     assert {n.name for n in links.related_places("place:cn_sichuan")} >= {"Guangdong"}
+
+
+def test_variants_get_their_own_wikidata_country_and_map_places():
+    """A version we do not have keeps the country Wikidata gives it (never its parent dish's)."""
+    dishes = {"Q1": dish_from_record({"qid": "Q1", "name": "Biryani", "country": "India", "origin": ["India"]})}
+    families = [{"qid": "Q1", "name": "biryani", "kind": "family", "members": [
+        {"qid": "Q90", "name": "Sindhi biryani", "country": "Pakistan", "in_everflavor": False},
+        {"qid": "Q91", "name": "Mystery biryani", "country": "", "in_everflavor": False}]}]
+    g = FoodGraph.build(dishes, TAX, families)
+    assert [n.name for n in g.countries_of("Q90")] == ["Pakistan"] and g.countries_of("Q91") == []
+    links = MapLinks(g, [Place("node/1", "Karachi Grill", 29.7, -95.3, "restaurant", ("pakistani",)),
+                         Place("node/2", "Taj", 29.7, -95.3, "restaurant", ("indian",))])
+    assert [p.name for p in links.places_for_variant("Q90")] == ["Karachi Grill"]
+    assert links.places_for_variant("Q91") == []          # unknown country: no places, not India's
+    assert [p.name for p in links.places_for_country("India")] == ["Taj"]
+    rec = GraphRecommendationService(g)
+    assert rec.graph_path("Q90")["countries"][0].name == "Pakistan"
+    assert [s.node.name for s in rec.explore_variant("Q1")] == ["Mystery biryani", "Sindhi biryani"]
+
+
+def test_a_dish_leads_to_its_wikidata_ingredients():
+    from everflavor.domain import KnowledgeGraph
+    kg = KnowledgeGraph(dishes={"Q1": dish_from_record({"qid": "Q1", "name": "Gazpacho",
+                                                        "made_from": ["tomato", "olive oil", "bread"]})})
+    links = MapLinks(FoodGraph.build(kg.dishes), [])
+    assert [i.ingredient_id for i in links.ingredients_for_dish(kg, "Q1")] == ["tomato", "olive oil", "bread"]
+    assert links.ingredients_for_dish(kg, "Q404") == []

@@ -103,3 +103,11 @@ def test_the_real_graph_links_dishes_to_families_and_places():
     biryani = next(d.dish_id for d in kg.dishes.values() if d.name == "Biryani")
     assert "Sindhi biryani" in {n.name for n in g.variants_of(biryani)}
     assert [n.name for n in g.countries_of(biryani)] == ["India"]
+
+
+def test_list_articles_are_not_versions():
+    dishes = {"Q1": dish_from_record({"qid": "Q1", "name": "Biryani"})}
+    g = FoodGraph.build(dishes, None, [{"qid": "Q1", "name": "biryani", "kind": "family", "members": [
+        {"qid": "Q2", "name": "Varieties of biryani", "in_everflavor": False},
+        {"qid": "Q3", "name": "Sindhi biryani", "in_everflavor": False}]}])
+    assert [n.name for n in g.variants_of("Q1")] == ["Sindhi biryani"]

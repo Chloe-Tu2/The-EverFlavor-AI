@@ -689,13 +689,17 @@ def dish_family(dish: str, where: object) -> None:
         return
     kinds = [*graph.variant_of(qid), *graph.families_of(qid)][:3]
     versions = graph.variants_of(qid)[:8]
+    parent = graph.variant_of(qid)[:1]   # a version itself (Hyderabadi biryani): show the other versions of its dish
+    siblings = [] if versions or not parent else [
+        n for n in graph.variants_of(parent[0].id.removeprefix("dish:")) if n.id != f"dish:{qid}"][:8]
     related = graph.related(qid, 8)
     lines = []
     if kinds:
         lines.append("**Dish family:** a kind of " + ", ".join(graph_link(n) for n in kinds))
-    if versions:
-        lines.append("**Versions:** " + " · ".join(graph_link(n) + ("" if n.in_everflavor else " (not in EverFlavor yet)")
-                                                   for n in versions))
+    for label, shown in (("Versions", versions), (f"Other versions of {plain(parent[0].name)}" if parent else "", siblings)):
+        if shown:
+            lines.append(f"**{label}:** " + " · ".join(graph_link(n) + ("" if n.in_everflavor else " (not in EverFlavor yet)")
+                                                      for n in shown))
     if related:
         lines.append("**More like this:** " + " · ".join(graph_link(n) for n in related))
     if lines:
@@ -747,7 +751,9 @@ def explore_dishes(slug: str) -> None:
     shown = f"the first {total}" if total >= EXPLORE_DISHES else str(total)
     with st.expander(f"Dishes from {TAX.nodes[slug].name} ({shown}), by family"):
         for family, dishes in groups.items():
-            st.markdown(f"**{plain(family)}:** " + " · ".join(graph_link(n) for n in dishes))
+            st.markdown(f"**{plain(family)}:** " + " · ".join(
+                graph_link(n) + (f" ({count} versions)" if (count := len(graph.variants_of(n.id.removeprefix("dish:")))) > 1
+                                 else " (1 version)" if count else "") for n in dishes))
         st.caption("Families from Wikidata's \"subclass of\" links, places from Wikidata's country of origin or the "
                    "Wikipedia cuisine list; \"Other\": no family on Wikidata.")
 

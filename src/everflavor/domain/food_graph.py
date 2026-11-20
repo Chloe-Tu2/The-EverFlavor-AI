@@ -40,6 +40,7 @@ from .entities import Dish, Recipe
 NODE_TYPES = (*LEVELS, "cuisine_style", "dish_family", "dish", "variant", "recipe")
 PLACE_TYPES = frozenset(LEVELS)
 RELATIONS = ("part_of", "in_family", "variant_of", "origin", "eaten_in", "recipe_of")
+LIST_ARTICLE = re.compile(r"^(lists?|varieties|types|kinds) of ", re.IGNORECASE)   # Wikipedia list pages
 MAX_RELATED_GROUP = 40   # a family with more members is a broad class, not "more like this" (see `related`)
 
 
@@ -118,9 +119,10 @@ class FoodGraph:
             if place:
                 self.add_edge(f"dish:{d.dish_id}", f"place:{place}", "eaten_in", "Wikipedia cuisine list")
 
-    def add_families(self, families: Iterable[Mapping[str, Any]]) -> None:
+    def add_families(self, families: Iterable[Mapping[str, Any]], taxonomy: Taxonomy | None = None) -> None:
         """Notebook 15's families: a family that is one of our dishes makes its members variants of that dish;
-        any other becomes a dish_family node. Members we do not have yet are kept, marked not in EverFlavor."""
+        any other becomes a dish_family node. Members we do not have yet are kept, marked not in EverFlavor, with
+        their Wikidata country of origin (P495) as an `origin` edge when the taxonomy has that country."""
         for f in families:
             root = f"dish:{f['qid']}"
             # only a true family that is one of our dishes has variants; a category or grouping stays a group
@@ -129,11 +131,16 @@ class FoodGraph:
                 self.add_node(FoodNode(f"family:{f['qid']}", str(f["name"]), slug(str(f["name"])), "dish_family",
                                        source="Wikidata P279", kind=str(f.get("kind", "family"))))
             for m in f.get("members", []):
+                if LIST_ARTICLE.match(str(m.get("name", ""))):   # "Varieties of biryani" is a list, not a version
+                    continue
                 member = f"dish:{m['qid']}"
                 if member not in self.nodes:
                     self.add_node(FoodNode(member, str(m["name"]), slug(str(m["name"])),
                                            "variant" if is_dish else "dish", source="Wikidata P279",
                                            in_everflavor=False, url=str(m.get("wikipedia", ""))))
+                    place = taxonomy.node_for(m["country"]) if taxonomy is not None and m.get("country") else None
+                    if place:
+                        self.add_edge(member, f"place:{place}", "origin", "Wikidata P495 via notebook 15")
                 if is_dish:
                     self.add_edge(member, root, "variant_of", "Wikidata P279")
                 else:
@@ -157,7 +164,7 @@ class FoodGraph:
         if taxonomy is not None:
             graph.add_taxonomy(taxonomy)
         graph.add_dishes(dishes, taxonomy)
-        graph.add_families(families)
+        graph.add_families(families, taxonomy)
         return graph
 
     # ---------------------------------------------------------------- reading
