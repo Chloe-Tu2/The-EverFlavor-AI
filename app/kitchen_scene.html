@@ -2,13 +2,14 @@
      The v5 kitchens (scene_v5_<name>.json, from design/pixel-art/build_scenes.py) come in four hours and show the
      one of the visitor's clock. Tap a lantern to switch it on or off, a plant or a tree outside to shake its leaves
      down, a stool to rock it, a pot to make it steam. The older kitchens: curtains close and open, the rest moves.
-     Pure canvas drawing, no outside files. -->
+     Pure canvas drawing; the scene file comes from the app itself (app/static/scenes/, cached by the browser). -->
 <style>
   html, body { margin: 0; height: 100%; overflow: hidden; background: transparent; }
   canvas { display: block; width: 100vw; height: 100vh; image-rendering: pixelated; }
 </style>
 <canvas id="kitchen" aria-hidden="true"></canvas>
-<script>
+<script type="module">
+// A module, so the scene can be fetched (and cached by the browser) before anything is drawn
 const SCENE = __SCENE__;
 const [W, H] = SCENE.size;
 const canvas = document.getElementById("kitchen");

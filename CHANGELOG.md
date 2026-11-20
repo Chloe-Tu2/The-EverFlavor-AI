@@ -16,6 +16,15 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
 
 Phase 0 of the roadmap (the safety refactor), finished.
 
+### Changed
+
+- **Faster kitchen changes:** the kitchen scenes are served as files the browser keeps (`app/static/scenes/`),
+  so switching kitchen or hour sends about 11 KB instead of 1 to 1.5 MB of pictures.
+- **A clearer profile button:** when the sidebar is closed, the small arrow is now a "Your profile" button in the
+  kitchen's button colour, on computers and phones.
+- **Open in maps** on each place card of the Map: the place's pin on OpenStreetMap, which offers directions;
+  only the place's location is in the link.
+
 ### Added
 
 - **"Checked against"** under Check my recipe's profile: what was read (the lines, the steps, the nutrition) and

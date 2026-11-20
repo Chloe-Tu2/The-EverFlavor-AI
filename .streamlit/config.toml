@@ -10,3 +10,7 @@ textColor = "#4A2C2A"
 
 [client]
 toolbarMode = "minimal"
+
+# The kitchen scenes are served as files the browser caches (app/app.py, scene_file), not resent with each page.
+[server]
+enableStaticServing = true

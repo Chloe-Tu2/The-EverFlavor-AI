@@ -18,6 +18,7 @@ from everflavor.places import (
     load_place_evidence,
     load_specialty_ingredients,
     map_places,
+    map_url,
     place_facts,
     specialty_in,
 )
@@ -58,6 +59,14 @@ def test_cuisine_is_reported_with_its_source_never_judged() -> None:
     assert not any("authentic" in t.lower() or "best" in t.lower() for t in texts)
     facts = place_facts(pd.Series({"name": None, "category": "grocery"}))
     assert facts["name"] == "Unnamed grocery" and facts["hours"] == "Hours not listed" and facts["diet"] == []
+    assert facts["map_url"] == ""   # no location, no maps button
+
+
+def test_open_in_maps_links_only_the_places_own_location() -> None:
+    facts = place_facts(pd.Series({"name": "Shop", "category": "grocery", "lat": 29.76, "lng": -95.37}))
+    assert facts["map_url"] == ("https://www.openstreetmap.org/?mlat=29.760000&mlon=-95.370000"
+                                "#map=18/29.760000/-95.370000")
+    assert map_url(float("nan"), 1.0) == "" and map_url(95.0, 1.0) == "" and map_url("29", "-95") == ""
 
 
 def test_negated_names_and_numpy_flags() -> None:

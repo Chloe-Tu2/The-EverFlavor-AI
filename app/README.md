@@ -21,6 +21,7 @@ The browser opens at `http://localhost:8501`. Save the file and the page reloads
 |---|---|
 | [app.py](app.py) | The page: welcome, sidebar profile, Find recipes, the dish page, Check my recipe, Map: Houston, Settings, the bell |
 | [kitchen_scene.html](kitchen_scene.html) | The living kitchen behind the page: light by the hour, taps, leaves, steam |
+| `static/` | Files Streamlit serves at `app/static/`; the app copies the kitchen scenes into `static/scenes/` (not committed) so the browser fetches each kitchen once |
 | [chef_lines.py](chef_lines.py) | What the chefs say: greetings, small talk and quotes, each with its source |
 | [dish_info.py](dish_info.py) | The dish page's nutrition facts, as the data has them |
 | [themes.py](themes.py) | Each kitchen's page colours (checked for contrast by `tests/test_app_contrast.py`) |

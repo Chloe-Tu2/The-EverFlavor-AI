@@ -16,6 +16,7 @@ color themes are in app/themes.py. Settings (top right of the page) switch the t
 """
 import ast
 import base64
+import hashlib
 import html
 import json
 import random
@@ -424,11 +425,18 @@ html[data-ef-news="1"] .st-key-whats-new button p::before {{ animation: ring 2.4
   left: calc(50% - 6px); bottom: -12px; border-right-color: transparent; border-top-color: var(--border);
 }}
 .st-key-chef-side {{ display: none; }}
+/* The button that opens the profile (allergies, diets) when the sidebar is closed: a real button in the theme's
+   button colour, with its name, so people find where to start (contrast checked in tests/test_app_contrast.py) */
+[data-testid="stExpandSidebarButton"] {{ background: var(--button); color: #2B1E1A; border: 3px solid var(--border);
+  box-shadow: var(--shadow-1); border-radius: 0; padding: 0.2rem 0.6rem; width: auto; gap: 0.35rem; }}
+[data-testid="stExpandSidebarButton"]::after {{ content: "Your profile"; font-weight: 700; font-size: var(--fs-1); }}
+[data-testid="stExpandSidebarButton"]:hover {{ background: var(--button-hover); color: #2B1E1A; }}
+[data-testid="stExpandSidebarButton"] svg {{ fill: #2B1E1A; color: #2B1E1A; }}
 /* The phone's "Your profile" button (the sidebar is hidden on phones) */
 .open-profile {{ display: none; }}
 @media (max-width: 640px) {{
-  .open-profile {{ display: block; width: 100%; min-height: 44px; text-align: left; cursor: pointer;
-    background: var(--panel); color: var(--text); border: 3px solid var(--border); box-shadow: var(--shadow-1);
+  .open-profile {{ display: block; width: 100%; min-height: 44px; text-align: left; cursor: pointer; font-weight: 700;
+    background: var(--button); color: #2B1E1A; border: 3px solid var(--border); box-shadow: var(--shadow-1);
     padding: var(--space-2) var(--space-3); font-size: var(--fs-1); margin-bottom: var(--space-3); }}
 }}
 @media (max-width: 640px) {{
@@ -506,15 +514,42 @@ img.sign {{ width: 24px; height: 24px; image-rendering: pixelated; vertical-alig
 """
 
 
+STATIC_SCENES = Path(__file__).with_name("static") / "scenes"   # served at app/static/scenes/ (git-ignored copies)
+
+
+@cache
+def scene_file(scene: str) -> str:
+    """The scene's file as Streamlit serves it ("scenes/scene_v5_mexican.json?v=<hash>"), so the browser fetches a
+    kitchen once and keeps it: a change of kitchen or hour then sends a small page, not 1-1.5 MB of pictures.
+    "" when static serving is off or the copy cannot be written (the page then carries the scene itself)."""
+    layers = ART / f"scene_{scene}.json"
+    if not layers.exists() or not st.get_option("server.enableStaticServing"):
+        return ""
+    data = layers.read_bytes()
+    target = STATIC_SCENES / layers.name
+    try:
+        if not target.exists() or target.read_bytes() != data:
+            STATIC_SCENES.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+    except OSError:
+        return ""
+    return f"scenes/{layers.name}?v={hashlib.sha256(data).hexdigest()[:12]}"
+
+
 @cache
 def scene_page(scene: str, hour: str = "afternoon") -> str:
     """The interactive kitchen for one theme: app/kitchen_scene.html with that theme's pieces filled in. hour:
-    morning, afternoon, evening or night, or "auto" for the visitor's clock (read in their browser)."""
+    morning, afternoon, evening or night, or "auto" for the visitor's clock (read in their browser). The pieces
+    come from the served scene file when there is one (`scene_file`), else they are written into the page."""
     layers = ART / f"scene_{scene}.json"
     template = Path(__file__).with_name("kitchen_scene.html")
     if not (layers.exists() and template.exists()):
         return ""
-    return (template.read_text(encoding="utf-8").replace("__SCENE__", layers.read_text(encoding="utf-8"))
+    served = scene_file(scene)
+    pieces = (f"await fetch(new URL({json.dumps('app/static/' + served)}, parent.document.baseURI))"
+              ".then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })"
+              if served else layers.read_text(encoding="utf-8"))
+    return (template.read_text(encoding="utf-8").replace("__SCENE__", pieces)
             .replace("__VERSION__", __version__).replace("__HOUR__", hour))
 
 
@@ -1054,6 +1089,9 @@ def place_card(place, facts: dict) -> None:
     if facts["address"]:   # in a code box: its copy button puts the address on the clipboard for any maps app
         place.caption("Address (use the copy button, then paste it into your maps app)")
         place.code(str(facts["address"]), language=None, wrap_lines=True)
+    if facts.get("map_url"):   # the place's pin on OpenStreetMap, with directions there (opens in a new tab)
+        place.link_button("Open in maps", str(facts["map_url"]), icon=":material/map:",
+                          help="OpenStreetMap, with a pin on this place. Only the place's location is in the link.")
     url = website_url(facts.get("website"))
     if url:   # their own site, to check menus, hours and certificates for yourself (opens in a new tab)
         place.link_button("Visit their website", url, icon=":material/open_in_new:",
