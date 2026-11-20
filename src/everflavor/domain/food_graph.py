@@ -33,6 +33,7 @@ from collections.abc import Iterable, Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 from ..taxonomy import LEVELS, Taxonomy
 from .entities import Dish, Recipe
@@ -42,6 +43,15 @@ PLACE_TYPES = frozenset(LEVELS)
 RELATIONS = ("part_of", "in_family", "variant_of", "origin", "eaten_in", "recipe_of")
 LIST_ARTICLE = re.compile(r"^(lists?|varieties|types|kinds) of ", re.IGNORECASE)   # Wikipedia list pages
 MAX_RELATED_GROUP = 40   # a family with more members is a broad class, not "more like this" (see `related`)
+
+
+def is_wikipedia(url: object) -> bool:
+    """An https address whose host is Wikipedia itself (en.wikipedia.org), not one that only mentions it."""
+    if not isinstance(url, str):
+        return False
+    parts = urlparse(url)
+    host = (parts.hostname or "").lower()
+    return parts.scheme == "https" and (host == "wikipedia.org" or host.endswith(".wikipedia.org"))
 
 
 def slug(text: str) -> str:
@@ -106,7 +116,7 @@ class FoodGraph:
     def add_dishes(self, dishes: Mapping[str, Dish], taxonomy: Taxonomy | None = None) -> None:
         """Our dishes, with their places when the taxonomy has them (origin first, then the cuisine list)."""
         for d in dishes.values():
-            link = next((x.url for x in d.learn_more if "wikipedia.org" in x.url), "")
+            link = next((x.url for x in d.learn_more if is_wikipedia(x.url)), "")
             self.add_node(FoodNode(f"dish:{d.dish_id}", d.name, slug(d.name), "dish", d.summary[:280],
                                    "dishes.jsonl", kind=d.kind, url=link))
             if taxonomy is None:

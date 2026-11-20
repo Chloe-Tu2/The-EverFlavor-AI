@@ -111,3 +111,11 @@ def test_list_articles_are_not_versions():
         {"qid": "Q2", "name": "Varieties of biryani", "in_everflavor": False},
         {"qid": "Q3", "name": "Sindhi biryani", "in_everflavor": False}]}])
     assert [n.name for n in g.variants_of("Q1")] == ["Sindhi biryani"]
+
+
+def test_only_real_wikipedia_addresses_count():
+    from everflavor.domain.food_graph import is_wikipedia
+    assert is_wikipedia("https://en.wikipedia.org/wiki/Gazpacho")
+    assert not is_wikipedia("https://evil.example/?wikipedia.org/wiki/x")
+    assert not is_wikipedia("https://wikipedia.org.evil.example/wiki/x")
+    assert not is_wikipedia("http://en.wikipedia.org/wiki/Gazpacho") and not is_wikipedia(None)

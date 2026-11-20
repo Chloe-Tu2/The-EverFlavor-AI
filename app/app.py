@@ -79,7 +79,7 @@ from everflavor.domain import (
     GraphRecommendationService,
     dish_from_record,
 )
-from everflavor.domain.food_graph import load_families
+from everflavor.domain.food_graph import is_wikipedia, load_families
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
 from everflavor.parsing import parse_list_string
@@ -676,7 +676,7 @@ def food_graph() -> FoodGraph | None:
 
 def graph_link(node: FoodNode) -> str:
     """A dish's name, linked to its Wikipedia article when the source gives one (brackets in the address encoded)."""
-    if node.url.startswith("https://") and "wikipedia.org/" in node.url:
+    if is_wikipedia(node.url):
         return f"[{plain(node.name)}]({node.url.replace('(', '%28').replace(')', '%29')})"
     return plain(node.name)
 
