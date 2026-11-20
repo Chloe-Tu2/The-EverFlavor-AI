@@ -64,7 +64,12 @@ from everflavor.cuisine import ORIGIN_LABELS
 from everflavor.diets import DIET_PROFILES
 from everflavor.dish_names import clean_title
 from everflavor.dish_steps import cookware, methods_of, split_minutes, step_breakdown
-from everflavor.domain import FoodGraph, FoodNode, dish_from_record
+from everflavor.domain import (
+    FoodGraph,
+    FoodNode,
+    GraphRecommendationService,
+    dish_from_record,
+)
 from everflavor.domain.food_graph import load_families
 from everflavor.flags import FLAG_RULES
 from everflavor.llm import check_and_explain, choose_model
@@ -672,9 +677,7 @@ def graph_link(node: FoodNode) -> str:
 def dish_family(dish: str, where: object) -> None:
     """The dish's family, its versions and "more like this", only from the graph's edges (Wikidata's "subclass
     of" via notebook 15): no recommendation is made up, and a dish with no edges shows nothing."""
-    graph, notes = food_graph(), walter_notes()
-    entry = notes.find(dish, where if isinstance(where, str) and where != "Unknown" else None) if notes else None
-    qid = str(entry.get("qid") or "") if entry else ""
+    graph, qid = food_graph(), graph_dish(dish, where)
     if graph is None or f"dish:{qid}" not in graph.nodes:
         return
     kinds = [*graph.variant_of(qid), *graph.families_of(qid)][:3]
@@ -691,6 +694,55 @@ def dish_family(dish: str, where: object) -> None:
     if lines:
         st.markdown("  \n".join(lines))
         st.caption("From Wikidata's \"subclass of\" links (CC0), as Wikidata groups them; nothing here is guessed.")
+
+
+def graph_dish(dish: str, where: object) -> str:
+    """The Wikidata QID of a recipe's dish, found as Walter finds it; "" when the notebook does not know it."""
+    notes = walter_notes()
+    entry = notes.find(dish, where if isinstance(where, str) and where != "Unknown" else None) if notes else None
+    return str(entry.get("qid") or "") if entry else ""
+
+
+def graph_card_line(dish: str, where: object) -> str:
+    """One short line for a search result, all from the Food Graph: what the dish is a kind of, its versions, and
+    its food region ("A kind of rice dish · versions: Hyderabadi biryani, Sindhi biryani · South Asia")."""
+    graph, qid = food_graph(), graph_dish(dish, where)
+    if graph is None or f"dish:{qid}" not in graph.nodes:
+        return ""
+    parts = []
+    kinds = [*graph.variant_of(qid), *graph.families_of(qid)][:2]
+    if kinds:
+        parts.append("A kind of " + " and ".join(plain(n.name) for n in kinds))
+    versions = graph.variants_of(qid)
+    if versions:
+        parts.append("versions: " + ", ".join(plain(n.name) for n in versions[:3])
+                     + (f" and {len(versions) - 3} more" if len(versions) > 3 else ""))
+    for place in graph.places_of(qid)[:1]:
+        region = next((n for n in [place, *graph.ancestors(place.id, ("part_of",))] if n.node_type == "region"), None)
+        if region:
+            parts.append(plain(region.name))
+    return " · ".join(parts)
+
+
+EXPLORE_DISHES = 60   # dishes listed per place in Explore (the most particular to the place first)
+
+
+def explore_dishes(slug: str) -> None:
+    """Explore by place: the place's dishes from the Food Graph (Wikidata's country of origin, else the cuisine
+    list), grouped by their closest family, each linked to its Wikipedia article."""
+    graph = food_graph()
+    if graph is None or f"place:{slug}" not in graph.nodes:
+        return
+    groups = GraphRecommendationService(graph).dishes_at(f"place:{slug}", EXPLORE_DISHES)
+    if not groups:
+        return
+    total = sum(len(v) for v in groups.values())
+    shown = f"the first {total}" if total >= EXPLORE_DISHES else str(total)
+    with st.expander(f"Dishes from {TAX.nodes[slug].name} ({shown}), by family"):
+        for family, dishes in groups.items():
+            st.markdown(f"**{plain(family)}:** " + " · ".join(graph_link(n) for n in dishes))
+        st.caption("Families from Wikidata's \"subclass of\" links, places from Wikidata's country of origin or the "
+                   "Wikipedia cuisine list; \"Other\": no family on Wikidata.")
 
 
 def walter_face(place, mood: str = "happy", who: str | None = None, half: bool = False) -> None:
@@ -1042,6 +1094,7 @@ def explore_by_place() -> None:
     if st.session_state.get("explore"):
         st.button("Show all places", key="explore-all", on_click=st.session_state.update,
                   kwargs={"explore": None, "search": None, "explore-from-search": False})
+        explore_dishes(st.session_state["explore"])
 
 
 # ---------- The Food Discovery Map's data (everflavor.places decides every claim and its words; the page shows them) ----------
@@ -2002,6 +2055,9 @@ with find_tab:
                     info.markdown(f'<p class="dish-story">{html.escape(story[0])} '
                                   f'<a href="{html.escape(story[1])}" target="_blank" rel="noopener">Wikipedia, '
                                   'CC BY-SA 4.0</a></p>', unsafe_allow_html=True)
+                known = graph_card_line(dish, where)   # its family, versions and food region, from the Food Graph
+                if known:
+                    info.caption(known)
                 ticks = checks + (["within your calorie target"]
                                   if within_calories(row["calories_per_serving"], calories) else [])
                 if checks:

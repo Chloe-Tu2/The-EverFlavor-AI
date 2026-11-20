@@ -31,6 +31,9 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
   siblings, families, variants, countries, related dishes).
 - **Dish family, Versions and More like this** on About this dish, straight from the graph's Wikidata links
   (gazpacho: ajoblanco, salmorejo, okroshka); a dish without links shows nothing.
+- **The app reads the Food Graph:** each search result says what the dish is a kind of, its versions and its food
+  region; Explore by place lists the place's dishes by family. Services for discovery, the waiter's context, the
+  cookbook's groups and the map (`everflavor.domain.services`), every suggestion with its reason and source.
 
 - **"Checked against"** under Check my recipe's profile: what was read (the lines, the steps, the nutrition) and
   against which rules and tables, next to what could not be checked.

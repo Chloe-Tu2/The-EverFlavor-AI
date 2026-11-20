@@ -26,17 +26,28 @@ from .loaders import (
     place_from_row,
     recipe_from_row,
 )
+from .services import (
+    CookbookGrouping,
+    GraphRecommendationService,
+    MapLinks,
+    Suggestion,
+    WalterContext,
+    WalterContextService,
+)
 
 __all__ = [
     "Claim",
+    "CookbookGrouping",
     "Dish",
     "Fact",
     "FoodEdge",
     "FoodGraph",
     "FoodNode",
+    "GraphRecommendationService",
     "Ingredient",
     "KnowledgeGraph",
     "Link",
+    "MapLinks",
     "Nutrition",
     "Place",
     "Pronunciation",
@@ -45,6 +56,9 @@ __all__ = [
     "Risk",
     "Source",
     "Specialty",
+    "Suggestion",
+    "WalterContext",
+    "WalterContextService",
     "dish_from_record",
     "dish_id_for",
     "ingredient_from_name",

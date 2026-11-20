@@ -27,6 +27,7 @@ are (about 30 seconds) and is skipped on GitHub. Run it after rerunning a notebo
 | `test_nutrition_quality.py` | Notebook 07: Daily Value shares and macro labels |
 | `test_calories.py` | Line parsing, portion weights, calories |
 | `test_food_graph.py` | The Food Graph: node and edge types, every edge with its evidence, variants and families only from notebook 15, related dishes closest first and never for a dish without a family, places up to World, recipes joined, the committed family file loads |
+| `test_graph_services.py` | The services on the Food Graph: every suggestion with its reason and evidence; a place's dishes by origin, never a food or drink, never a dish whose origin is elsewhere; the waiter's sentences only repeat the graph; cookbook groups; map places by cuisine tag and kind of shop |
 | `test_domain.py` | The phase 1 entities: dish ids, a recipe owns its lines but no flags, ingredient risks with their confidence, place claims, dish families and related dishes, every table loads |
 | `test_safety.py` | User profile, the gate, same answer as the dataset filter |
 | `test_agent_tools.py` | The agents' tools on tiny tables: the profile always wins; a warning when the saved data is out of date |

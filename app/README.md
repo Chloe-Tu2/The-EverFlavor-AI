@@ -38,7 +38,7 @@ The browser opens at `http://localhost:8501`. Save the file and the page reloads
 | **Check my recipe**: findings with a pixel sign and how sure we are; the nutrition estimate | `recipe_check`, `restrictions.assess`, `confidence`, `preparation`, `calories.nutrition_estimate` |
 | A local model's friendly words for a problem (only shown if they match the gate) | `llm.check_and_explain`, `llm.choose_model` (`llama3.2` with Ollama; plain sentences without it) |
 | **Map: Houston** and "Where to buy" | `places` (each claim with its evidence), `stores` |
-| Dish family, Versions, More like this (About this dish) | `domain.FoodGraph` (notebook 15's Wikidata families) |
+| Dish family, Versions, More like this (About this dish); the family line on each search result; "Dishes from ..." in Explore by place | `domain.FoodGraph`, `domain.GraphRecommendationService` (notebook 15's Wikidata families, the Food Taxonomy) |
 | My Cookbook (saved recipes) | `saved_recipes` (this browser only) |
 
 The severity signs are pixel art from `design/pixel-art/make_pixel_art.py` (`sign_*.png`), not emoji.

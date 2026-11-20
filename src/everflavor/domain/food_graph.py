@@ -55,7 +55,7 @@ class FoodNode:
     node_type: str
     description: str = ""
     source: str = ""
-    kind: str = ""              # for a dish_family: family, category (by main ingredient) or grouping
+    kind: str = ""              # dish_family: family, category or grouping; our dish: "dish" or "food or drink"
     in_everflavor: bool = True  # False: on Wikidata, not in our knowledge notebook yet
     url: str = ""               # its Wikipedia article or recipe page, when the source gives one
 
@@ -107,7 +107,7 @@ class FoodGraph:
         for d in dishes.values():
             link = next((x.url for x in d.learn_more if "wikipedia.org" in x.url), "")
             self.add_node(FoodNode(f"dish:{d.dish_id}", d.name, slug(d.name), "dish", d.summary[:280],
-                                   "dishes.jsonl", url=link))
+                                   "dishes.jsonl", kind=d.kind, url=link))
             if taxonomy is None:
                 continue
             for country in d.origin:
@@ -240,25 +240,42 @@ class FoodGraph:
         `max_group` (all members, ours or not) are too broad to be "like this" ("condiment" puts cardamom next to
         hummus) and are left out here; they still show as the dish's kind. No guessing: a dish with no family
         edge has no related dishes."""
-        me = f"dish:{dish_id}"
-        groups: list[list[FoodNode]] = [self.child_nodes(me, "variant_of")]   # its own variants first
-        for parent in self.parent_nodes(me, "variant_of"):
-            groups.append([parent, *self.child_nodes(parent.id, "variant_of")])
-        for family in self.families_of(dish_id):
-            groups.append(self.child_nodes(family.id, "in_family"))
         out: dict[str, FoodNode] = {}
-        close = sorted((g for g in groups[1:] if len(g) <= max_group), key=len)
-        for group in [groups[0], *close]:   # then the smallest group: the closest dishes
-            for n in sorted(group, key=lambda n: (not n.in_everflavor, n.name)):
-                if n.id != me and n.node_type in ("dish", "variant") and (n.in_everflavor or not everflavor_only):
-                    out.setdefault(n.id, n)
+        for _, _, members in self.related_groups(dish_id, everflavor_only, max_group):
+            for n in members:
+                out.setdefault(n.id, n)
         return list(out.values())[:limit]
+
+    def related_groups(self, dish_id: str, everflavor_only: bool = True,
+                       max_group: int = MAX_RELATED_GROUP) -> list[tuple[FoodNode | None, str, list[FoodNode]]]:
+        """`related`'s groups in order, each as (the group's node, the relation, its members): (None,
+        "variant_of", its variants), (biryani, "variant_of", biryani and its other versions), (dumpling,
+        "in_family", the family's other dishes). Lets a caller say why a dish is suggested."""
+        me = f"dish:{dish_id}"
+        groups: list[tuple[FoodNode | None, str, list[FoodNode]]] = [(None, "variant_of",
+                                                                      self.child_nodes(me, "variant_of"))]
+        for parent in self.parent_nodes(me, "variant_of"):
+            groups.append((parent, "variant_of", [parent, *self.child_nodes(parent.id, "variant_of")]))
+        for family in self.families_of(dish_id):
+            groups.append((family, "in_family", self.child_nodes(family.id, "in_family")))
+        close = sorted((g for g in groups[1:] if len(g[2]) <= max_group), key=lambda g: len(g[2]))
+        out = []
+        for node, relation, group in [groups[0], *close]:   # its variants, then the smallest group first
+            members = [n for n in sorted(group, key=lambda n: (not n.in_everflavor, n.name))
+                       if n.id != me and n.node_type in ("dish", "variant") and (n.in_everflavor or not everflavor_only)]
+            if members:
+                out.append((node, relation, members))
+        return out
 
     def path(self, dish_id: str) -> dict[str, list[FoodNode]]:
         """What a dish page shows, all from edges: dish -> family -> related -> country -> its places."""
         return {"families": self.families_of(dish_id), "variant_of": self.variant_of(dish_id),
                 "variants": self.variants_of(dish_id), "related": self.related(dish_id),
                 "countries": self.countries_of(dish_id), "places": self.places_of(dish_id)}
+
+    def degree(self, node_id: str) -> int:
+        """How many edges touch a node: how well the sources know it (used to put known dishes first)."""
+        return len(self._up.get(node_id, [])) + len(self._down.get(node_id, []))
 
     def counts(self) -> dict[str, int]:
         out: dict[str, int] = defaultdict(int)
