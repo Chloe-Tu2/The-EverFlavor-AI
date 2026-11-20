@@ -22,6 +22,7 @@ import json
 import random
 import re
 import sys
+import threading
 import urllib.parse
 from functools import cache
 from pathlib import Path
@@ -38,10 +39,18 @@ sys.path.insert(0, str(ROOT / "src"))
 # Streamlit Cloud reruns this file after a deploy but keeps the modules it imported before, so new code in
 # src/everflavor would fail to import ("cannot import name ..."). When any of those files changed since they were
 # loaded, forget the old copies so they load fresh; otherwise nothing is reloaded.
-_SRC_STAMP = max((p.stat().st_mtime for p in (ROOT / "src" / "everflavor").glob("*.py")), default=0.0)
-if sys.modules.get("everflavor") is not None and getattr(sys.modules["everflavor"], "_app_stamp", None) != _SRC_STAMP:
-    for _name in [m for m in sys.modules if m == "everflavor" or m.startswith("everflavor.")]:
-        del sys.modules[_name]
+# Several sessions run this file at once (two visitors, two tabs, a rerun during start-up). The check, the clean-up
+# and the stamp happen once, under one lock kept on `sys` (this file's own names are new on every run), and the
+# stamp is set before the imports below: a second session must never delete modules another one is still loading
+# (on Python 3.14 that broke @dataclass in cooking_time.py: AttributeError on sys.modules.get(...).__dict__).
+_SRC_STAMP = max((p.stat().st_mtime for p in (ROOT / "src" / "everflavor").rglob("*.py")), default=0.0)
+with sys.__dict__.setdefault("_everflavor_import_lock", threading.Lock()):
+    if sys.modules.get("everflavor") is not None and getattr(sys.modules["everflavor"], "_app_stamp", None) != _SRC_STAMP:
+        for _name in [m for m in sys.modules if m == "everflavor" or m.startswith("everflavor.")]:
+            del sys.modules[_name]
+    import everflavor as _everflavor_package  # the package itself, so the stamp goes on this fresh copy
+
+    vars(_everflavor_package)["_app_stamp"] = _SRC_STAMP   # these copies match the files on disk now
 
 from chef_lines import (  # app/chef_lines.py: what the chef says, with its sources
     greeting,
@@ -101,8 +110,6 @@ from everflavor.restrictions import (
 from everflavor.safety import UserProfile
 from everflavor.stores import COUNTRY_CUISINES
 from everflavor.taxonomy import load_taxonomy
-
-vars(sys.modules["everflavor"])["_app_stamp"] = _SRC_STAMP   # these copies match the files on disk now
 
 DATA = ROOT / "data" / "processed"
 ART = ROOT / "design" / "pixel-art" / "assets"   # drawn by design/pixel-art/make_pixel_art.py

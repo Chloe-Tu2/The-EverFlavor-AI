@@ -42,6 +42,9 @@ Phase 0 of the roadmap (the safety refactor), finished.
 
 ### Fixed
 
+- The live site no longer fails with an AttributeError (Python 3.14, `@dataclass`) when several visitors open
+  it at once after a deploy: the fresh-code reload ran in two sessions together and one deleted the modules the
+  other was loading. It now runs once, under a lock, before the imports.
 - Find recipes now leaves out recipes that break a medical screen or a strict alcohol setting, not only the
   allergy list and diets.
 
