@@ -47,10 +47,16 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 - **A typed result** for Check my recipe (`restrictions.RecipeAnalysis`, with `Finding`, `FindingItem` and
   `LineSummary`): one contract for the app, the notebooks and later the waiter.
 - Rum cake in the may-contain table (rum, eggs, butter, flour; Wikipedia): 37 rows for 23 foods.
-- **Data audits** (`docs/audits/`, read-only; nothing in the app changed): how recipes link to dishes (76,745 of
+- **Data audits** (`docs/audits/`, read-only; nothing in the app changed): how recipes link to dishes (80,741 of
   291,755), and world coverage by zone, country and culinary region, with the dish family and variant gaps, the
   indigenous foodways, proposed publishing rules and an expansion backlog of 3,689 Wikidata dishes (1,459 ready,
   357 to review, 1,873 blocked, among them brands and events), with the 500 to add first.
+- **Recipe quality audit** (`docs/audits/recipe_quality.md`): 47% of recipes have ingredients, steps, servings
+  and nutrition (all from Food.com); CulinaryDB and the Hugging Face set come without steps, 37% have no
+  photo at all, 22% no country. Nothing was changed.
+- **Graph assets** (`data/knowledge/`, not read by the app yet): the waiter's fixed lines for all 3,201 dishes,
+  8 next dishes each with the reason and evidence, and the map's cuisine tag per country (45 of 74 countries
+  have none, so the map shows no place for them).
 - **Domain entities** (roadmap phase 1, step 1): `everflavor.domain` with `Dish`, `Recipe`, `Ingredient` and
   `Place`, built from today's tables, and the `KnowledgeGraph` that finds a recipe's dish as the app does (826 of
   the 3,000 demo recipes). Not used by the app yet; ingredient merges wait for the team's review.

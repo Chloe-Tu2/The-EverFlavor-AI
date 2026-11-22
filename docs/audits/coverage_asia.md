@@ -8,8 +8,8 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| China | high | 178 | 70 | 54 | 107 | 5,867 | 99 | 64% |
-| Japan | medium | 108 | 46 | 55 | 94 | 2,249 | 139 | 44% |
+| China | high | 178 | 68 | 54 | 107 | 5,867 | 99 | 64% |
+| Japan | medium | 108 | 47 | 55 | 94 | 2,249 | 139 | 44% |
 | South Korea | high | 79 | 14 | 27 | 65 | 606 | 9 | 90% |
 | Taiwan | recipes only | 0 | 0 | 0 | 0 | 5 | 11 | 0% |
 
@@ -28,9 +28,9 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Indonesia | high | 248 | 40 | 61 | 169 | 218 | 24 | 91% |
-| Philippines | high | 86 | 36 | 28 | 48 | 254 | 30 | 74% |
-| Thailand | high | 77 | 28 | 25 | 45 | 2,413 | 7 | 92% |
-| Vietnam | high | 71 | 17 | 26 | 53 | 509 | 6 | 92% |
+| Philippines | high | 86 | 37 | 28 | 48 | 254 | 30 | 74% |
+| Thailand | high | 77 | 27 | 25 | 45 | 2,413 | 7 | 92% |
+| Vietnam | high | 71 | 16 | 26 | 53 | 509 | 6 | 92% |
 | Malaysia | medium | 38 | 3 | 19 | 23 | 79 | 3 | 93% |
 | Cambodia | low | 1 | 0 | 1 | 1 | 53 | 7 | 12% |
 | Laos | recipes only | 0 | 0 | 0 | 0 | 18 | 3 | 0% |

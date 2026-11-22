@@ -1,0 +1,160 @@
+{
+ "built_on": "2026-11-21",
+ "by": "scripts/knowledge/recipe_quality_audit.py",
+ "recipes": {
+  "all": 291755,
+  "foodcom": 218024,
+  "culinarydb": 35325,
+  "huggingface": 37823,
+  "themealdb": 583
+ },
+ "checks": {
+  "name missing or under 3 letters": {
+   "all": 0,
+   "foodcom": 0,
+   "culinarydb": 0,
+   "huggingface": 0,
+   "themealdb": 0
+  },
+  "name in capitals only": {
+   "all": 149,
+   "foodcom": 0,
+   "culinarydb": 11,
+   "huggingface": 137,
+   "themealdb": 1
+  },
+  "no ingredients": {
+   "all": 0,
+   "foodcom": 0,
+   "culinarydb": 0,
+   "huggingface": 0,
+   "themealdb": 0
+  },
+  "one ingredient": {
+   "all": 0,
+   "foodcom": 0,
+   "culinarydb": 0,
+   "huggingface": 0,
+   "themealdb": 0
+  },
+  "over 40 ingredients": {
+   "all": 4,
+   "foodcom": 1,
+   "culinarydb": 3,
+   "huggingface": 0,
+   "themealdb": 0
+  },
+  "no steps": {
+   "all": 73149,
+   "foodcom": 1,
+   "culinarydb": 35325,
+   "huggingface": 37823,
+   "themealdb": 0
+  },
+  "steps under 40 characters": {
+   "all": 808,
+   "foodcom": 807,
+   "culinarydb": 0,
+   "huggingface": 0,
+   "themealdb": 1
+  },
+  "no servings": {
+   "all": 117595,
+   "foodcom": 81687,
+   "culinarydb": 35325,
+   "huggingface": 0,
+   "themealdb": 583
+  },
+  "over 50 servings": {
+   "all": 676,
+   "foodcom": 676,
+   "culinarydb": 0,
+   "huggingface": 0,
+   "themealdb": 0
+  },
+  "no time given (an estimate is shown)": {
+   "all": 73731,
+   "foodcom": 0,
+   "culinarydb": 35325,
+   "huggingface": 37823,
+   "themealdb": 583
+  },
+  "over a day of time": {
+   "all": 0,
+   "foodcom": 0,
+   "culinarydb": 0,
+   "huggingface": 0,
+   "themealdb": 0
+  },
+  "no nutrition": {
+   "all": 35908,
+   "foodcom": 0,
+   "culinarydb": 35325,
+   "huggingface": 0,
+   "themealdb": 583
+  },
+  "nutrition not plausible": {
+   "all": 10396,
+   "foodcom": 8913,
+   "culinarydb": 0,
+   "huggingface": 1483,
+   "themealdb": 0
+  },
+  "over 3,000 kcal a serving": {
+   "all": 0,
+   "foodcom": 0,
+   "culinarydb": 0,
+   "huggingface": 0,
+   "themealdb": 0
+  },
+  "no country": {
+   "all": 65601,
+   "foodcom": 55109,
+   "culinarydb": 4003,
+   "huggingface": 6489,
+   "themealdb": 0
+  },
+  "no photo of its own": {
+   "all": 143410,
+   "foodcom": 106713,
+   "culinarydb": 35325,
+   "huggingface": 1372,
+   "themealdb": 0
+  },
+  "no photo at all (neither its own nor its dish's)": {
+   "all": 108991,
+   "foodcom": 81436,
+   "culinarydb": 26543,
+   "huggingface": 1012,
+   "themealdb": 0
+  },
+  "own photo checked and rejected": {
+   "all": 1415,
+   "foodcom": 303,
+   "culinarydb": 0,
+   "huggingface": 1112,
+   "themealdb": 0
+  },
+  "no source link": {
+   "all": 253375,
+   "foodcom": 218024,
+   "culinarydb": 35325,
+   "huggingface": 0,
+   "themealdb": 26
+  },
+  "same dish name and ingredients as another": {
+   "all": 690,
+   "foodcom": 478,
+   "culinarydb": 34,
+   "huggingface": 178,
+   "themealdb": 0
+  }
+ },
+ "complete": {
+  "all": 136336,
+  "foodcom": 136336,
+  "culinarydb": 0,
+  "huggingface": 0,
+  "themealdb": 0
+ }
+}

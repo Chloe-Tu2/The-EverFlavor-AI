@@ -10,9 +10,15 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   categories by main ingredient and groupings, each with its members (QID, name, country, whether EverFlavor has
   it, its English Wikipedia article). The Food Graph (`everflavor.domain.FoodGraph`) and the dish page read it.
 - `dish_recipe_counts.json`: how many of our recipes the app links to each dish (`waiter.Knowledge.find` on the
-  recipe name), by source and by how the name matched, and the dishes with no recipe; counts only, from
-  `scripts/knowledge/recipe_dish_links.py` (2026-11-21: 76,745 of 291,755 recipes; see
+  cleaned dish name), by source and by how the name matched, and the dishes with no recipe; counts only, from
+  `scripts/knowledge/recipe_dish_links.py` (2026-11-21: 80,741 of 291,755 recipes; see
   `docs/audits/recipe_dish_linking.md`).
+- `walter_context.json`, `discovery_paths.json`, `map_prep.json`: read off the Food Graph by
+  `scripts/knowledge/graph_assets.py` for features not built yet: the waiter's fixed-template lines per dish,
+  the next 8 dishes to try with their reasons and evidence, and per country the map's cuisine tag (see
+  `docs/audits/graph_assets.md`).
+- `recipe_quality.json`: what the recipes have and lack, by source (counts only), from
+  `scripts/knowledge/recipe_quality_audit.py` (`docs/audits/recipe_quality.md`).
 - `countries.json`: the world's countries and territories (Wikidata, CC0: ISO code, continent, population), from
   `scripts/knowledge/fetch_countries.py`, for the coverage audit.
 - `coverage/`: the coverage audit (`scripts/knowledge/coverage_audit.py`; reports in `docs/audits/`): coverage by
