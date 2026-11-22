@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts" / "governance"))
 
 import pii_scan
+import provenance_audit
 import secret_scan
 
 
@@ -49,3 +50,9 @@ def test_the_pii_rules_find_emails_phones_and_coordinates() -> None:
     assert {"email", "phone number"} <= kinds
     assert "GPS coordinates" in {k for k, _ in pii_scan.scan_text("at 29.76043, -95.36980 today")}
     assert not pii_scan.scan_text("229228627+med27-coder@users.noreply.github.com")   # GitHub's no-reply address
+
+
+def test_every_data_file_records_its_provenance() -> None:
+    """A data file in data/knowledge/ or data/reference/ says its source and date, or a README names it."""
+    gaps = [r["file"] for r in provenance_audit.audit() if not r["ok"]]
+    assert gaps == [], gaps

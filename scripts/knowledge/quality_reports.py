@@ -57,6 +57,9 @@ def read(path: Path) -> dict:
 
 def save_json(name: str, data: object) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
+    if isinstance(data, dict):   # provenance: which script wrote it, from which sources, when
+        data = {"by": "scripts/knowledge/quality_reports.py", "sources": "data/knowledge/ (dishes.jsonl, "
+                "dish_families.json: Wikipedia CC BY-SA, Wikidata CC0) and the media audit", "built_on": TODAY, **data}
     (OUT / name).write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
