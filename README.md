@@ -702,6 +702,7 @@ The-EverFlavor-AI/
 │   └── test_version.py      # The version, CHANGELOG and What's new agree
 ├── docs/
 │   ├── art/          # README art: banner.png and logo.png (design/pixel-art/make_banner.py), ramen.py, flag_recall.py
+│   ├── audits/       # Read-only data reports: recipe to dish links, world coverage, gaps, publishing rules
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
 │   ├── flag_review/  # Blind 200-recipe samples per round, their labels, and the human decisions
 │   │                 # (flag_policies.csv, compound_ingredients_review.csv, human_signoff.csv)
