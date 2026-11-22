@@ -266,6 +266,21 @@ or profile options until step 6 is done; repairs are not features.
    level (OpenStreetMap does not list a shop's stock).
 7. **Chat with the waiter** (0.8.0 below), then **My Cookbook** collections and notes.
 
+### Data and coverage work (asked by med27-coder, 2026-11-21; reports first, no app changes)
+
+In order. Each makes a report and, where useful, an asset in `data/knowledge/`, with tests for any data change.
+Nothing is invented: only our data, Wikidata and notebook 15.
+
+1. Allergen words in Spanish, French and Italian (in progress; review sheet
+   `docs/flag_review/allergen_words_es_fr_it.csv`, policy P26).
+2. Recipe to dish linking: how many recipes the app's dish match finds, and where it fails.
+3. Taxonomy coverage: which places, countries and regions have dishes, families and recipes.
+4. The waiter's context: the graph's fixed lines for every dish, ready for the chat in 0.8.0.
+5. Discovery paths, a recipe quality audit and the map's preparation data.
+6. Coverage audit and expansion backlog, Europe first: country, culinary region and dish family gaps, the
+   indigenous cuisines, and the rules every future dish must pass (source, licence, place, family or "unknown",
+   provenance), with an approval step (ready, needs review, blocked). Nothing is published by it.
+
 ### 0.8.0 (planned 2026-10-26): chat with the chef, and a real store locator
 
 Two plans, researched and written; nothing built. Each step in them ships on its own.

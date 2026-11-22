@@ -18,6 +18,11 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 
 ### Added
 
+- **Allergen words in Spanish, French and Italian** (policy P26, proposed): 549 words such as leche, huevos,
+  crevettes, cozze and harina, each a name of the same Wikidata item as an English allergen word, with the plurals
+  the matcher does not make and 94 exception phrases (lait de coco, harina de arroz). 240 recipes gain a caution,
+  none loses one. Every word kept or left out, with its reason:
+  `docs/flag_review/allergen_words_es_fr_it.csv`; the change report: `docs/flag_review/allergen_words_change_report.md`.
 - **Open in maps** on each place card of the Map: the place's pin on OpenStreetMap, which offers directions;
   only the place's location is in the link.
 - **Notebook 14: cooking yields and nutrient retention** (USDA, CC0): raw to cooked weight for 173 cuts of meat
