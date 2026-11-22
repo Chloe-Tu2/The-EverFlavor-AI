@@ -27,12 +27,18 @@ place, not family, drives most of discovery today.
 For each country with dishes: the OpenStreetMap cuisine tag the map looks for (`stores.COUNTRY_CUISINES`), its
 dishes and linked recipes, and how many places in the Greater Houston pilot area carry the tag.
 
-- **45 of 74 countries have no cuisine tag**, so the map can show no place for their dishes, among them Canada
+- **45 of 74 countries had no cuisine tag**, so the map could show no place for their dishes, among them Canada
   (6,961 linked recipes), Poland (2,151), the Czech Republic (1,317), Australia (1,244), Norway (1,022) and
-  Belgium (928).
-- **Tags on pilot places that no country uses yet:** `afghan` 4, `venezuelan` 4 and `puerto_rican` 3 name
-  countries we have recipes for (Afghanistan, Venezuela, Puerto Rico), and `salvadoran` 8 a country we have none
-  for yet; most other tags are kinds of food, not a country (pizza 226, seafood 168, barbecue 99, tex-mex 84).
+  Belgium (928). **Fixed for 27 of them (2026-11-22):** each got its English demonym from Wikidata (P1549) where
+  OpenStreetMap uses that word as a cuisine value 50 times or more (taginfo): afghan, argentinian, armenian,
+  australian, austrian, bangladeshi, belgian, cambodian, canadian, chilean, croatian, czech, danish, ecuadorian,
+  hungarian, irish, lao, malaysian, polish, portuguese, puerto_rican, russian, swedish, swiss, syrian, taiwanese,
+  venezuelan. 18 more pilot places now match a country (Afghanistan 4, Venezuela 4, Puerto Rico 3, Argentina 2,
+  Malaysia 2, Belgium 1, Portugal 1, Taiwan 1). Still without a tag (no demonym on Wikidata, or the word is rare
+  on OpenStreetMap): Algeria, Andorra, Azerbaijan, Costa Rica, Finland, Iraq, Kenya, the Netherlands, New
+  Zealand, Norway, Palestine, Saudi Arabia, Slovakia, Somalia, South Africa, Sudan, Ukraine, Uruguay. Words
+  common in shop names for something else (polish, swiss, canadian, irish, lao) are not read from shop names.
+- **Tags on pilot places that no country uses yet:** `salvadoran` 8, a country we have no dishes for yet; most
+  others are kinds of food, not a country (pizza 226, seafood 168, barbecue 99, tex-mex 84).
 - Egypt and Indonesia have a tag but no pilot place carries it.
 
-Adding a country's tag to `COUNTRY_CUISINES` is a small change in the app's code, left for its own reviewed step.
