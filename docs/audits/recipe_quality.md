@@ -1,4 +1,4 @@
-# Recipe quality (audit, 2026-11-21)
+# Recipe quality (audit, 2026-11-22)
 
 What each recipe has and lacks, by source. Counts only: no recipe was changed or removed. Built by `scripts/knowledge/recipe_quality_audit.py`; the numbers are in `data/knowledge/recipe_quality.json`. The limits (a day of time, 50 servings, 40 ingredients, 3,000 kcal a serving) only say where a person should look.
 
@@ -19,7 +19,7 @@ What each recipe has and lacks, by source. Counts only: no recipe was changed or
 | no nutrition | 35,908 (12%) | 0 (0%) | 35,325 (100%) | 0 (0%) | 583 (100%) |
 | nutrition not plausible | 10,396 (4%) | 8,913 (4%) | 0 (0%) | 1,483 (4%) | 0 (0%) |
 | over 3,000 kcal a serving | 0 (0%) | 0 (0%) | 0 (0%) | 0 (0%) | 0 (0%) |
-| no country | 65,601 (22%) | 55,109 (25%) | 4,003 (11%) | 6,489 (17%) | 0 (0%) |
+| no country | 65,730 (23%) | 55,245 (25%) | 4,006 (11%) | 6,479 (17%) | 0 (0%) |
 | no photo of its own | 143,410 (49%) | 106,713 (49%) | 35,325 (100%) | 1,372 (4%) | 0 (0%) |
 | no photo at all (neither its own nor its dish's) | 108,991 (37%) | 81,436 (37%) | 26,543 (75%) | 1,012 (3%) | 0 (0%) |
 | own photo checked and rejected | 1,415 (0%) | 303 (0%) | 0 (0%) | 1,112 (3%) | 0 (0%) |

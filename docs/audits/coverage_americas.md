@@ -1,4 +1,4 @@
-# Coverage: the Americas and the Caribbean (2026-11-21)
+# Coverage: the Americas and the Caribbean (2026-11-22)
 
 Back to [world coverage](coverage_world.md).
 
@@ -9,7 +9,7 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Jamaica | high | 50 | 39 | 32 | 46 | 402 | 1 | 98% |
-| Cuba | medium | 22 | 13 | 9 | 12 | 399 | 0 | 100% |
+| Cuba | medium | 22 | 13 | 9 | 12 | 397 | 0 | 100% |
 | Puerto Rico | recipes only | 0 | 0 | 0 | 0 | 71 | 2 | 0% |
 | Dominica | recipes only | 0 | 0 | 0 | 0 | 15 | 0 |  |
 | Cayman Islands | recipes only | 0 | 0 | 0 | 0 | 7 | 0 |  |
@@ -21,7 +21,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Mexico | high | 110 | 79 | 38 | 67 | 11,508 | 18 | 86% |
+| Mexico | high | 110 | 79 | 38 | 67 | 11,490 | 18 | 86% |
 | Costa Rica | recipes only | 0 | 0 | 0 | 0 | 43 | 0 |  |
 | Guatemala | recipes only | 0 | 0 | 0 | 0 | 24 | 2 | 0% |
 | Honduras | recipes only | 0 | 0 | 0 | 0 | 10 | 1 | 0% |
@@ -43,8 +43,8 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| United States | high | 367 | 309 | 104 | 268 | 131,162 | 148 | 71% |
-| Canada | high | 88 | 70 | 47 | 70 | 4,563 | 20 | 82% |
+| United States | high | 367 | 307 | 104 | 268 | 131,095 | 148 | 71% |
+| Canada | high | 88 | 70 | 47 | 70 | 4,577 | 20 | 82% |
 
 ## Not in the place tree yet
 

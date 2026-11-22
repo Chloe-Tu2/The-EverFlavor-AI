@@ -1,4 +1,4 @@
-# Coverage: the Middle East and North Africa (2026-11-21)
+# Coverage: the Middle East and North Africa (2026-11-22)
 
 Back to [world coverage](coverage_world.md).
 
@@ -8,7 +8,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Turkey | high | 57 | 15 | 19 | 40 | 471 | 32 | 64% |
+| Turkey | high | 57 | 15 | 19 | 40 | 458 | 32 | 64% |
 
 ## Arabian Peninsula
 
@@ -27,7 +27,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Lebanon | medium | 31 | 19 | 18 | 21 | 587 | 0 | 100% |
+| Lebanon | medium | 31 | 19 | 18 | 21 | 596 | 0 | 100% |
 | Palestine | medium | 18 | 1 | 10 | 11 | 51 | 0 | 100% |
 | Syria | recipes only | 0 | 0 | 0 | 0 | 5 | 2 | 0% |
 
@@ -41,8 +41,8 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Morocco | medium | 20 | 9 | 12 | 14 | 1,591 | 0 | 100% |
-| Egypt | medium | 15 | 8 | 4 | 4 | 206 | 3 | 83% |
+| Morocco | medium | 20 | 9 | 12 | 14 | 1,592 | 0 | 100% |
+| Egypt | medium | 15 | 8 | 4 | 4 | 205 | 3 | 83% |
 | Libya | recipes only | 0 | 0 | 0 | 0 | 17 | 1 | 0% |
 | Sudan | recipes only | 0 | 0 | 0 | 0 | 12 | 0 |  |
 | Algeria | recipes only | 0 | 0 | 0 | 0 | 11 | 6 | 0% |
@@ -52,7 +52,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Iran | low | 11 | 2 | 7 | 8 | 429 | 26 | 30% |
+| Iran | low | 11 | 2 | 7 | 8 | 432 | 26 | 30% |
 
 ## Not in the place tree yet
 

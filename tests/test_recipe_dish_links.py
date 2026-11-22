@@ -21,7 +21,9 @@ LONGEST = max(len(k.split()) for k in KNOW.by_name)
 def test_the_fast_match_is_the_apps_match() -> None:
     titles = ["easy beef tacos", "mushroom and sage risotto", "prosciutto chicken kabobs", "Chicken Tikka Masala",
               "pad thai with tofu", "my best salad", "peanut butter blossoms", "Hyderabadi biryani (dum)",
-              "grandma's lasagna", "salmon", "", "spaghetti carbonara served with garlic bread"]
+              "grandma's lasagna", "salmon", "", "spaghetti carbonara served with garlic bread",
+              "chocolate peanut butter fudge", "peanut butter tart", "raisin bread pudding", "french dip sandwiches",
+              "smoked salmon pizza", "hash brown casserole", "grilled cheese sandwich"]
     for title in titles:
         for country in (None, "Italy", "India"):
             a = KNOW.find(title, country)

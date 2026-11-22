@@ -17,6 +17,7 @@ Pieces:
 """
 from __future__ import annotations
 
+import json
 import random
 import re
 import time
@@ -57,12 +58,38 @@ GENERIC = frozenset(_norm(w) for w in (
     "guinness"))
 
 
+# Kinds of dish: a dish named in the middle of a title and followed by one of these is the flavour of another dish
+# ("peanut butter fudge" is fudge, not Peanut butter; "pumpkin pie bars" are bars), unless the dish itself is that
+# kind ("french dip sandwich"). Policy L1 in docs/audits/recipe_dish_linking.md
+DISH_KINDS = frozenset(_norm(w) for w in (
+    "sauce", "salad", "soup", "stew", "bread", "cake", "pie", "sandwich", "sandwiche", "rice", "noodle", "pasta",
+    "cookie", "biscuit", "pudding", "roll", "dessert", "snack", "porridge", "pancake", "casserole", "candy", "dip",
+    "spread", "cracker", "muffin", "tart", "pastry", "doughnut", "fritter", "omelette", "smoothie", "cocktail",
+    "punch", "bar", "fudge", "square", "bite", "ball", "brownie", "cupcake", "cheesecake", "bake", "wrap", "burger",
+    "taco", "pizza", "filling", "frosting", "icing", "sundae", "shake", "milkshake", "popsicle", "truffle", "bark",
+    "blondie", "scone", "waffle", "crepe", "loaf", "mousse", "parfait", "trifle", "granola", "oatmeal", "cobbler",
+    "crumble", "crisp", "dressing", "glaze", "marinade", "mix", "dough", "cereal", "popcorn", "quesadilla",
+    "enchilada", "lasagna", "chili", "chowder", "risotto", "bowl", "skewer", "kabob", "slider", "stuffing",
+    "topping", "appetizer", "cup", "bun", "cone", "log", "drop", "pop", "jar", "stack", "boat"))
+
+
+def _family_names(path: Path) -> dict[str, str]:
+    """Dish qid -> the names of its families (`dish_families.json`, from Wikidata), or nothing without the file."""
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    names = {f["qid"]: str(f.get("name") or "") for f in data.get("families", [])}
+    return {q: " ".join(names.get(f, "") for f in fams) for q, fams in data.get("dish_families", {}).items()}
+
+
 @dataclass
 class Knowledge:
     """The tidied dishes, with a name index."""
 
     dishes: list[dict]
     by_name: dict[str, dict] = field(default_factory=dict)
+    family_names: dict[str, str] = field(default_factory=dict)   # dish qid -> its families' names
+    _kinds: dict[str, set[str]] = field(default_factory=dict, repr=False)
 
     def __post_init__(self) -> None:
         for d in self.dishes:   # the first entry with a name wins (dishes come before foods in the file's order)
@@ -73,7 +100,31 @@ class Knowledge:
         drop = review_drops(Path(path).parent / "review" / "focus_review.csv")   # a reviewer's "drop" verdicts
         dishes = [tidy_dish(d, drop=drop) for d in load_dishes(path)]
         dishes.sort(key=lambda d: d.get("kind") != "dish")
-        return cls(dishes)
+        return cls(dishes, family_names=_family_names(Path(path).parent / "dish_families.json"))
+
+    def is_kind_of(self, dish: dict, word: str) -> bool:
+        """Is the dish itself a `word` ("sandwich" for French dip)? Read from the first sentence of its summary and
+        its families' names, never guessed."""
+        key = str(dish.get("qid") or dish.get("name"))
+        if key not in self._kinds:
+            first = re.split(r"(?<=[a-z)])\. ", str(dish.get("summary") or ""))[0]
+            self._kinds[key] = set(_norm(f"{first} {self.family_names.get(str(dish.get('qid')), '')}").split())
+        kinds = self._kinds[key]
+        return word in kinds or (word.endswith("e") and word[:-1] in kinds)   # "sandwiche", the cleaner's plural
+
+    def pick(self, tokens: list[str], ranked: list[str]) -> dict | None:
+        """The best of the names found inside a title (`ranked`, best first): one followed by a kind of dish it is
+        not is the flavour of that dish, so it and the names overlapping it are skipped."""
+        spans = {}
+        for k in ranked:
+            n = len(k.split())
+            spans[k] = next(set(range(i, i + n)) for i in range(len(tokens) - n + 1) if tokens[i:i + n] == k.split())
+        while ranked:
+            best, end = ranked[0], max(spans[ranked[0]]) + 1
+            if end == len(tokens) or tokens[end] not in DISH_KINDS or self.is_kind_of(self.by_name[best], tokens[end]):
+                return self.by_name[best]
+            ranked = [k for k in ranked[1:] if not spans[k] & spans[best]]
+        return None
 
     def find(self, dish_name: str, country: str | None = None) -> dict | None:
         """The entry for a dish name: an exact match, else the longest known name inside it ("easy beef tacos" ->
@@ -91,10 +142,8 @@ class Knowledge:
         # "italian salad" is not the general "Salad" article)
         hits = [k for k in self.by_name if len(k) >= 4 and k not in GENERIC and f" {k} " in padded
                 and self.by_name[k].get("kind") == "dish" and (" " in k or padded.endswith(f" {k} "))]
-        if not hits:
-            return None
         hits.sort(key=lambda k: (len(k), self.by_name[k].get("country") == country), reverse=True)
-        return self.by_name[hits[0]]
+        return self.pick(name.split(), hits)
 
     def neighbours(self, dish: dict, n: int = 3, seed: int = 0) -> list[dict]:
         """Other dishes from the same region (else country), for "what else should I try?"."""

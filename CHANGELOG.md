@@ -18,6 +18,10 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 
 ### Added
 
+- **Every recipe is a Food Graph node** (`FoodGraph.add_recipes`): `recipe_of` its dish, `named_for` a food or
+  drink entry (a recipe called "Salmon"), else `recipe_from` the place its source's labels name. 83% of the
+  291,755 recipes now reach the place tree, against 27% through a dish; 50,673 stay nodes without an edge, never a
+  guessed one. Counts: `data/knowledge/recipe_graph_counts.json` (`scripts/knowledge/recipe_graph.py`).
 - **Allergen words in Spanish, French and Italian** (policy P26, proposed): 549 words such as leche, huevos,
   crevettes, cozze and harina, each a name of the same Wikidata item as an English allergen word, with the plurals
   the matcher does not make and 94 exception phrases (lait de coco, harina de arroz). 240 recipes gain a caution,
@@ -69,6 +73,10 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 
 ### Changed
 
+- **A recipe named for a dish's flavour no longer links to that dish** (rule L1, proposed): "peanut butter fudge"
+  is Fudge, "pumpkin pie bars" has no dish, "French dip sandwiches" stays French dip (its summary says it is a
+  sandwich). 3,573 links changed: 3,171 wrong dishes dropped, 402 moved to the right one; every change, grouped, is
+  in `docs/audits/dish_link_review.csv`. 77,560 of 291,755 recipes now link to a dish or food.
 - **Faster kitchen changes:** the kitchen scenes are served as files the browser keeps (`app/static/scenes/`),
   so switching kitchen or hour sends about 11 KB instead of 1 to 1.5 MB of pictures.
 - **A clearer profile button:** when the sidebar is closed, the small arrow is now a "Your profile" button in the

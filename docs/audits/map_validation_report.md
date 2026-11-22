@@ -8,7 +8,7 @@ Can the map show a place for a dish? A dish is mappable when its country's OpenS
 | ... with a cuisine tag | 56 | 76% |
 | ... with pilot places for it | 35 | 47% |
 | dishes the map can place (a dish counts once per country of origin) | 2,628 | 72% |
-| linked recipes the map can place | 80,554 | 82% |
+| linked recipes the map can place | 77,278 | 83% |
 
 ## Gaps
 

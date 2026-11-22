@@ -1,4 +1,4 @@
-# Coverage: Oceania (2026-11-21)
+# Coverage: Oceania (2026-11-22)
 
 Back to [world coverage](coverage_world.md).
 
@@ -8,8 +8,8 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Australia | high | 58 | 41 | 30 | 46 | 2,800 | 5 | 92% |
-| New Zealand | low | 1 | 0 | 1 | 1 | 387 | 1 | 50% |
+| Australia | high | 58 | 39 | 30 | 46 | 2,758 | 5 | 92% |
+| New Zealand | low | 1 | 0 | 1 | 1 | 384 | 1 | 50% |
 
 ## Not in the place tree yet
 

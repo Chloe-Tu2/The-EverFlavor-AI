@@ -90,6 +90,25 @@ def test_recipes_join_their_dish():
                                                                           "recipe_name": "Mystery"})]) == 1
     assert [n.name for n in g.recipes_of("Q3")] == ["Pork Jiaozi"]
     assert g.ancestors("recipe:https://example.org/r/9", ("recipe_of", "in_family"))[1].name == "dumpling"
+    assert "recipe:https://e.org/2" in g.nodes and not g.parent_nodes("recipe:https://e.org/2")   # a node, no edge
+
+
+def test_every_recipe_is_a_node_joined_to_its_dish_food_or_place():
+    """A food entry gets `named_for`, not `recipe_of`; a recipe with no dish joins the place its labels name."""
+    from dataclasses import replace
+    g = small_graph()
+    g.add_dishes({"Q7": dish_from_record({"qid": "Q7", "name": "Salmon", "kind": "food or drink"})})
+    salmon = replace(recipe_from_row({"url": "https://e.org/s", "recipe_name": "Salmon"}), dish_id="Q7")
+    sichuan = replace(recipe_from_row({"url": "https://e.org/c", "recipe_name": "Spicy noodles"}),
+                      origin_country="China", origin_region="Sichuan")
+    nowhere = replace(recipe_from_row({"url": "https://e.org/n", "recipe_name": "Odd bake"}), origin_country="Atlantis")
+    assert g.add_recipes([salmon, sichuan, nowhere], TAX) == 1
+    assert [e.relation for e in g.edges if e.source == "recipe:https://e.org/s"] == ["named_for"]
+    assert [n.name for n in g.recipes_of("Q7")] == ["Salmon"]
+    place = TAX.node_for("China", "Sichuan")
+    assert place and [n.name for n in g.recipes_from(place)] == ["Spicy noodles"]
+    assert not g.parent_nodes("recipe:https://e.org/n")   # a place the taxonomy lacks: no edge, never a guess
+    assert {e.relation for e in g.edges} <= set(RELATIONS) and all(e.evidence for e in g.edges)
 
 
 def test_the_real_graph_links_dishes_to_families_and_places():
