@@ -292,7 +292,11 @@ Nothing is invented: only our data, Wikidata and notebook 15.
 10. Content quality sprint (done 2026-11-22): the approved image queue (1,739 photos pass the rules), the dish
     completeness projection (rich 505 to 654 once they are fetched) and the taxonomy validation. **Next, with
     the team's OK:** run the photo pipeline on the approved queue, check the photos by eye, then rerun the
-    quality reports.
+    quality reports. (The OK was given 2026-11-22: the photos are fetched to a staging folder,
+    `scripts/dish_photos/fetch_approved.py`; they reach the app only after the check by eye.)
+11. Governance sprint (2026-11-22): secret scan in CI, PII audit, the policies in `docs/governance/`, `SECURITY.md`,
+    `GOVERNANCE.md`, a README "At a glance". The open questions are in
+    `docs/governance/needs_human_review.md`.
 
 ### 0.8.0 (planned 2026-10-26): chat with the chef, and a real store locator
 

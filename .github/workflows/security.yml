@@ -2,6 +2,7 @@
 # - osv-scanner: every library in config/requirements.lock against the OSV database of known vulnerabilities;
 #   accepted ones, each with a reason and an end date, are in config/osv-scanner.toml.
 # - dependency review (pull requests only): flags a pull request that adds a library with a known vulnerability.
+# - secret scan: API keys and tokens inside tracked files (the test suite runs the same scan, so it blocks too).
 # Actions are pinned to a full commit (a tag can be moved); Dependabot proposes updates.
 name: security
 
@@ -27,6 +28,19 @@ jobs:
           scan-args: |-
             --config=./config/osv-scanner.toml
             --lockfile=requirements.txt:./config/requirements.lock
+
+  secret-scan:
+    # Reads every tracked file for API keys, tokens, passwords and connection strings (scripts/governance/
+    # secret_scan.py: standard library only, values shown redacted). Any finding fails the run.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1   # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0   # v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Secrets inside tracked files
+        run: python scripts/governance/secret_scan.py
 
   dependency-review:
     if: github.event_name == 'pull_request'

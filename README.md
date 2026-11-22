@@ -27,9 +27,40 @@
 
 **Team EverGlow** · ITAI 2277 Capstone
 
-[Overview](#overview) · [The App](#the-app-everflavor-kitchen-front-end) · [Architecture](#architecture) · [Data Sources](#data-sources) · [Current Status](#current-status) · [Running the Notebook](#running-the-notebook) · [Using the Shared Code](#using-the-shared-code) · [Project Structure](#project-structure)
+[At a glance](#at-a-glance) · [Overview](#overview) · [The App](#the-app-everflavor-kitchen-front-end) · [Architecture](#architecture) · [Data Sources](#data-sources) · [Current Status](#current-status) · [Running the Notebook](#running-the-notebook) · [Using the Shared Code](#using-the-shared-code) · [Project Structure](#project-structure)
 
 </div>
+
+---
+
+## At a glance
+
+- **What it is:** a recipe and food-discovery app that only suggests what you can eat. Every recipe is checked
+  ingredient by ingredient against your allergies, religious and ethical diet and calorie goal, then linked to
+  the dish it is, where that dish comes from, and the kinds of shop nearby that likely stock its ingredients.
+- **How it is different:** safety decisions come from rules in the back end, never from an AI model, and every
+  fact about a dish comes from a cited source (Wikipedia, Wikidata, USDA); nothing is made up.
+- **Run it** (on the small demo data, no keys needed):
+
+  ```bash
+  uv pip install -r config/requirements-app.txt   # or: pip install -r config/requirements-app.txt
+  python -m streamlit run app/app.py               # opens http://localhost:8501
+  ```
+
+- **The Food Graph** (`src/everflavor/domain/food_graph.py`): one graph from World down to each recipe. Places
+  (zones, regions, countries, states), dish families, 3,201 dishes and their versions, and all 291,755 recipes are
+  nodes; every edge says where it comes from (Wikidata, the Food Taxonomy, the app's dish match). Discovery, the
+  waiter and the map all read it.
+- **The safety engine** (`src/everflavor/flags.py`, `safety.py`, `recommend.py`): allergen and diet flags from
+  each ingredient line, with recorded policies for every judgment call (`docs/flag_review/`). Flags only ever add
+  cautions; diet labels say "-friendly".
+- **Walter, the waiter:** tells a dish's story and explains its flags from sourced notes only
+  (`src/everflavor/waiter.py`); **the map:** shops that likely sell an ingredient, Greater Houston pilot.
+- **Contribute:** [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) · **Roadmap:** [docs/plans/README.md](docs/plans/README.md) ·
+  **Governance and security:** [GOVERNANCE.md](GOVERNANCE.md), [SECURITY.md](SECURITY.md) ·
+  **Audits:** [docs/audits/](docs/audits/README.md)
+- **Licence:** the code is MIT. The data keeps its own licences (some share-alike or non-commercial); see
+  [docs/sources.md](docs/sources.md) and [docs/governance/license_compliance.md](docs/governance/license_compliance.md).
 
 ---
 
