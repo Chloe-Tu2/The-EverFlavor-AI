@@ -13,11 +13,13 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [culinary_regions.md](culinary_regions.md) | Regions below a country, and indigenous foodways |
 | [recipe_quality.md](recipe_quality.md) | What each recipe has and lacks (steps, servings, time, nutrition, country, photo, link), by source |
 | [graph_assets.md](graph_assets.md) | The waiter's context, discovery paths and map preparation read off the Food Graph |
+| [dish_completeness_report.md](dish_completeness_report.md) | Rich, fair and thin dishes today, how many move up once the approved images are fetched, and what keeps the rest from rich |
 | [dish_quality_report.md](dish_quality_report.md) | The completeness score (0-100) of every dish and what fills each gap |
-| [dish_image_report.md](dish_image_report.md) | The best image each dish can show, its licence and credit, what to fetch next |
+| [image_coverage_report.md](image_coverage_report.md) | The best image each dish can show, its licence and credit, what to fetch next, and the images approved for collection (`approved_image_queue.json`) |
 | [walter_coverage_report.md](walter_coverage_report.md) | What the waiter can tell about each dish, and what a person has checked |
 | [map_validation_report.md](map_validation_report.md) | Which dishes and recipes the map can place in the pilot area |
 | [taxonomy_coverage_report.md](taxonomy_coverage_report.md) | Which nodes of the place tree hold dishes and recipes |
+| [taxonomy_validation_report.md](taxonomy_validation_report.md) | The place tree checked against the UN regions, and the culinary regions below a country with what they hold |
 | [country_coverage_report.md](country_coverage_report.md), [culinary_region_coverage_report.md](culinary_region_coverage_report.md) | Coverage next to depth, by country and by region |
 | [global_culinary_atlas.md](global_culinary_atlas.md) | Coverage by the UN's world regions (CLDR): a score per continent and subregion, the gaps, up to 500 next dishes per continent, missing versions and the review queue |
 | [publishing_rules.md](publishing_rules.md) | The rules and approval states every new dish must pass (proposed) |
@@ -28,4 +30,4 @@ sprint's reports come from `media_audit.py` (with `fetch_image_candidates.py`) a
 `media_audit.py`, then `quality_reports.py`, then `media_audit.py` again (its priority list reads the scores).
 After notebook 01 rewrites the recipe tables, run them all in this order: `recipe_quality_audit.py`,
 `recipe_dish_links.py`, `recipe_graph.py`, `coverage_audit.py`, `atlas_audit.py`, `graph_assets.py`, then the
-three above. The atlas reads its regions from `data/knowledge/atlas/regions.json` (`fetch_regions.py`, once).
+three above, then `image_queue.py`, `completeness_report.py` and `taxonomy_validation.py`. The atlas reads its regions from `data/knowledge/atlas/regions.json` (`fetch_regions.py`, once).

@@ -289,6 +289,10 @@ Nothing is invented: only our data, Wikidata and notebook 15.
    were too patchy), a score per continent and subregion, per-continent next-dish lists, missing versions and the
    review queue (`docs/audits/global_culinary_atlas.md`). The Balkans and Siberia wait for a published source
    that draws them.
+10. Content quality sprint (done 2026-11-22): the approved image queue (1,739 photos pass the rules), the dish
+    completeness projection (rich 505 to 654 once they are fetched) and the taxonomy validation. **Next, with
+    the team's OK:** run the photo pipeline on the approved queue, check the photos by eye, then rerun the
+    quality reports.
 
 ### 0.8.0 (planned 2026-10-26): chat with the chef, and a real store locator
 

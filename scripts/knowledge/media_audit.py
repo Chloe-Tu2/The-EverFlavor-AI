@@ -13,7 +13,7 @@ Statuses: verified (recipe or dish photo, licence and credit complete), fallback
 (only the placeholder now, but Wikidata names a Commons image to fetch), missing (placeholder, nothing known),
 review (a photo whose licence or credit fails the rules).
 
-    python scripts/knowledge/media_audit.py   # data/knowledge/media/*.json, docs/audits/dish_image_report.md
+    python scripts/knowledge/media_audit.py   # data/knowledge/media/*.json, docs/audits/image_coverage_report.md
 """
 from __future__ import annotations
 
@@ -211,7 +211,7 @@ def main() -> None:
               (f"2. **No image anywhere** for {pr['low']:,} dishes: Commons search by name is the next source; a "
               "person checks each match, as the photo review sheet does today."),
               "3. **Family photos** stand in meanwhile, labelled as the family, never as the dish."]
-    with (ROOT / "docs" / "audits" / "dish_image_report.md").open("w", encoding="utf-8", newline="\n") as f:
+    with (ROOT / "docs" / "audits" / "image_coverage_report.md").open("w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines).rstrip() + "\n")
     print(f"levels {dict(lv)}; statuses {dict(st)}; queue {dict(pr)}")
 

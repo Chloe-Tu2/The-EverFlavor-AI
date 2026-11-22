@@ -66,3 +66,15 @@ Statuses: candidate 1,737, verified 1,114, missing 190, fallback 160. Every dish
 1. **Fetch** the Wikidata images of 1,889 dishes through the existing photo pipeline (`scripts/dish_photos/fetch_dish_photos.py meta`, `download`, `curate`, `write`), which checks each licence and keeps a credit line: 281 high priority (50+ of the 80 points besides the image), 1,608 medium (`image_priority_queue.json`).
 2. **No image anywhere** for 198 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
 3. **Family photos** stand in meanwhile, labelled as the family, never as the dish.
+
+## Approved for collection
+
+1,739 of 1,889 Wikidata images pass the photo pipeline's rules (free licence, an author to credit, a photo type, at least 400 px, not a map or drawing), read from the Commons API without downloading: 256 high priority, 1,483 medium priority, 0 low priority. The rest:
+
+- no author to credit: 30
+- smaller than 400 px: 96
+- named or described as a map, logo, drawing or label, not a photo: 12
+- licence not free: 18
+- not a photo: 2
+
+The queue (`data/knowledge/media/approved_image_queue.json`) is for the photo pipeline to fetch once the team agrees; a person then checks each photo by eye before the app shows it.
