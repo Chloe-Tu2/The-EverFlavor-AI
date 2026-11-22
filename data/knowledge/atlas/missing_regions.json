@@ -1,0 +1,177 @@
+{
+ "about": {
+  "built_on": "2026-11-22",
+  "by": "scripts/knowledge/atlas_audit.py",
+  "regions": {
+   "name": "Unicode CLDR territory containment (UN M49 regions)",
+   "version": "49",
+   "url": "https://github.com/unicode-org/cldr-json",
+   "licence": "Unicode License V3; Copyright (c) 2015-2024 Unicode, Inc.",
+   "retrieved": "2026-11-22"
+  },
+  "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
+ },
+ "subregions": [
+  {
+   "subregion": "Eastern Africa",
+   "continent": "Africa",
+   "countries": 22,
+   "with_dishes": 1,
+   "score": 27.3,
+   "band": "thin",
+   "countries_without_dishes": [
+    "British Indian Ocean Territory",
+    "Burundi",
+    "Comoros",
+    "Djibouti",
+    "Eritrea",
+    "French Southern and Antarctic Lands",
+    "Kenya",
+    "Madagascar",
+    "Malawi",
+    "Mauritius",
+    "Mayotte",
+    "Mozambique",
+    "Rwanda",
+    "Réunion",
+    "Seychelles",
+    "Somalia",
+    "South Sudan",
+    "Tanzania",
+    "Uganda",
+    "Zambia",
+    "Zimbabwe"
+   ]
+  },
+  {
+   "subregion": "Middle Africa",
+   "continent": "Africa",
+   "countries": 9,
+   "with_dishes": 0,
+   "score": 0.0,
+   "band": "gap",
+   "countries_without_dishes": [
+    "Angola",
+    "Cameroon",
+    "Central African Republic",
+    "Chad",
+    "Congo",
+    "Democratic Republic of the Congo",
+    "Equatorial Guinea",
+    "Gabon",
+    "São Tomé and Príncipe"
+   ]
+  },
+  {
+   "subregion": "Western Africa",
+   "continent": "Africa",
+   "countries": 17,
+   "with_dishes": 0,
+   "score": 0.0,
+   "band": "gap",
+   "countries_without_dishes": [
+    "Benin",
+    "Burkina Faso",
+    "Cape Verde",
+    "Ghana",
+    "Guinea",
+    "Guinea-Bissau",
+    "Ivory Coast",
+    "Liberia",
+    "Mali",
+    "Mauritania",
+    "Niger",
+    "Nigeria",
+    "Saint Helena, Ascension and Tristan da Cunha",
+    "Senegal",
+    "Sierra Leone",
+    "The Gambia",
+    "Togo"
+   ]
+  },
+  {
+   "subregion": "Central Asia",
+   "continent": "Asia",
+   "countries": 5,
+   "with_dishes": 0,
+   "score": 0.0,
+   "band": "gap",
+   "countries_without_dishes": [
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Tajikistan",
+    "Turkmenistan",
+    "Uzbekistan"
+   ]
+  },
+  {
+   "subregion": "Southern Asia",
+   "continent": "Asia",
+   "countries": 9,
+   "with_dishes": 3,
+   "score": 44.2,
+   "band": "thin",
+   "countries_without_dishes": [
+    "Afghanistan",
+    "Bangladesh",
+    "Bhutan",
+    "Maldives",
+    "Nepal",
+    "Sri Lanka"
+   ]
+  },
+  {
+   "subregion": "Melanesia",
+   "continent": "Oceania",
+   "countries": 5,
+   "with_dishes": 0,
+   "score": 0.0,
+   "band": "gap",
+   "countries_without_dishes": [
+    "Fiji",
+    "New Caledonia",
+    "Papua New Guinea",
+    "Solomon Islands",
+    "Vanuatu"
+   ]
+  },
+  {
+   "subregion": "Micronesian Region",
+   "continent": "Oceania",
+   "countries": 8,
+   "with_dishes": 0,
+   "score": 0.0,
+   "band": "gap",
+   "countries_without_dishes": [
+    "Federated States of Micronesia",
+    "Guam",
+    "Kiribati",
+    "Marshall Islands",
+    "Nauru",
+    "Northern Mariana Islands",
+    "Palau",
+    "United States Minor Outlying Islands"
+   ]
+  },
+  {
+   "subregion": "Polynesia",
+   "continent": "Oceania",
+   "countries": 10,
+   "with_dishes": 0,
+   "score": 0.0,
+   "band": "gap",
+   "countries_without_dishes": [
+    "American Samoa",
+    "Cook Islands",
+    "French Polynesia",
+    "Niue",
+    "Pitcairn Islands",
+    "Samoa",
+    "Tokelau",
+    "Tonga",
+    "Tuvalu",
+    "Wallis and Futuna"
+   ]
+  }
+ ]
+}

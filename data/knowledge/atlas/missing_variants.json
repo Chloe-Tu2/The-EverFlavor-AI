@@ -1,0 +1,7405 @@
+{
+ "about": {
+  "built_on": "2026-11-22",
+  "by": "scripts/knowledge/atlas_audit.py",
+  "regions": {
+   "name": "Unicode CLDR territory containment (UN M49 regions)",
+   "version": "49",
+   "url": "https://github.com/unicode-org/cldr-json",
+   "licence": "Unicode License V3; Copyright (c) 2015-2024 Unicode, Inc.",
+   "retrieved": "2026-11-22"
+  },
+  "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
+ },
+ "rule": "Backlog dishes (ready or to review) whose Wikidata family is a dish EverFlavor has: versions of a dish we already show.",
+ "subregions": {
+  "Australasia": [
+   {
+    "dish": "Bush bread",
+    "wikidata": "Q1017266",
+    "country": "Australia",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Patties pie",
+    "wikidata": "Q7148573",
+    "country": "Australia",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "hamdog",
+    "wikidata": "Q5644416",
+    "country": "Australia",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "prawn roll",
+    "wikidata": "Q7238914",
+    "country": "Australia",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Goody good gum drops",
+    "wikidata": "Q123142484",
+    "country": "New Zealand",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   }
+  ],
+  "Caribbean": [
+   {
+    "dish": "brown stew chicken",
+    "wikidata": "Q17027457",
+    "country": "Barbados",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Bizcocho Dominicano",
+    "wikidata": "Q25058467",
+    "country": "Dominican Republic",
+    "status": "needs_review",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Moro de guandules",
+    "wikidata": "Q16910822",
+    "country": "Dominican Republic",
+    "status": "needs_review",
+    "version_of": [
+     "rice and beans"
+    ]
+   },
+   {
+    "dish": "chimichurri burger",
+    "wikidata": "Q5099374",
+    "country": "Dominican Republic",
+    "status": "needs_review",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "Haitian patty",
+    "wikidata": "Q16976976",
+    "country": "Haiti",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "goat water",
+    "wikidata": "Q25047514",
+    "country": "Montserrat",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Piragua",
+    "wikidata": "Q7197677",
+    "country": "Puerto Rico",
+    "status": "ready",
+    "version_of": [
+     "shaved ice"
+    ]
+   },
+   {
+    "dish": "Quesito",
+    "wikidata": "Q7271398",
+    "country": "Puerto Rico",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Aloo pie",
+    "wikidata": "Q2839301",
+    "country": "Trinidad and Tobago",
+    "status": "needs_review",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Bake and Shark",
+    "wikidata": "Q15785303",
+    "country": "Trinidad and Tobago",
+    "status": "needs_review",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Buljol",
+    "wikidata": "Q15790217",
+    "country": "Trinidad and Tobago",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "doubles",
+    "wikidata": "Q5300145",
+    "country": "Trinidad and Tobago",
+    "status": "needs_review",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "roti",
+    "wikidata": "Q13568060",
+    "country": "Trinidad and Tobago",
+    "status": "needs_review",
+    "version_of": [
+     "sandwich",
+     "pie"
+    ]
+   },
+   {
+    "dish": "Dumb bread",
+    "wikidata": "Q125797909",
+    "country": "United States Virgin Islands",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   }
+  ],
+  "Central America": [
+   {
+    "dish": "pupusa",
+    "wikidata": "Q612128",
+    "country": "El Salvador",
+    "status": "needs_review",
+    "version_of": [
+     "tortilla"
+    ]
+   },
+   {
+    "dish": "Fiambre",
+    "wikidata": "Q3744332",
+    "country": "Guatemala",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "kak'ik",
+    "wikidata": "Q17635889",
+    "country": "Guatemala",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Cocol",
+    "wikidata": "Q5139783",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Guajolota",
+    "wikidata": "Q5613356",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Mexican bread",
+    "wikidata": "Q18344267",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Mexican pizza",
+    "wikidata": "Q6826082",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "Paste",
+    "wikidata": "Q7142958",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Sinaloan sushi",
+    "wikidata": "Q111940065",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "sushi"
+    ]
+   },
+   {
+    "dish": "chocolate sandwich",
+    "wikidata": "Q5103667",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "marquesote",
+    "wikidata": "Q24960939",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "wheat tortilla",
+    "wikidata": "Q204251",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "tortilla"
+    ]
+   },
+   {
+    "dish": "wrap",
+    "wikidata": "Q1599125",
+    "country": "Mexico",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Güirila",
+    "wikidata": "Q5626815",
+    "country": "Nicaragua",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   }
+  ],
+  "Central Asia": [
+   {
+    "dish": "Dymdama",
+    "wikidata": "Q5277707",
+    "country": "Kazakhstan",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Shalgam",
+    "wikidata": "Q7487184",
+    "country": "Kazakhstan",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "tandyr nan",
+    "wikidata": "Q3247788",
+    "country": "Kazakhstan",
+    "status": "needs_review",
+    "version_of": [
+     "bread",
+     "naan"
+    ]
+   },
+   {
+    "dish": "oromo",
+    "wikidata": "Q1048130",
+    "country": "Kyrgyzstan",
+    "status": "needs_review",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Samarkand non",
+    "wikidata": "Q117148246",
+    "country": "Uzbekistan",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Shakarap",
+    "wikidata": "Q12817265",
+    "country": "Uzbekistan",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   }
+  ],
+  "Eastern Africa": [
+   {
+    "dish": "Koba",
+    "wikidata": "Q17107651",
+    "country": "Madagascar",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Romazava",
+    "wikidata": "Q3441149",
+    "country": "Madagascar",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Lahoh",
+    "wikidata": "Q1809371",
+    "country": "Somalia",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "Kunga cake",
+    "wikidata": "Q54165556",
+    "country": "Tanzania",
+    "status": "needs_review",
+    "version_of": [
+     "torta"
+    ]
+   },
+   {
+    "dish": "Luwombo",
+    "wikidata": "Q123171413",
+    "country": "Uganda",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   }
+  ],
+  "Eastern Asia": [
+   {
+    "dish": "Banana roll",
+    "wikidata": "Q985814",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Black sesame roll",
+    "wikidata": "Q3597267",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "ChaSan",
+    "wikidata": "Q5065917",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Chaoshan beef hot pot",
+    "wikidata": "Q97278843",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "hot pot"
+    ]
+   },
+   {
+    "dish": "Chinese almond biscuit",
+    "wikidata": "Q82330310",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Crab jujube",
+    "wikidata": "Q18111413",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "meatball"
+    ]
+   },
+   {
+    "dish": "Deuk Deuk Tong",
+    "wikidata": "Q856899",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Dougan",
+    "wikidata": "Q11633174",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "tofu"
+    ]
+   },
+   {
+    "dish": "Fa gao",
+    "wikidata": "Q5427546",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Funing big cake",
+    "wikidata": "Q5509196",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Ginger milk curd",
+    "wikidata": "Q844029",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Gundain",
+    "wikidata": "Q5618566",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Gyabrag",
+    "wikidata": "Q5623917",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "Hasma",
+    "wikidata": "Q9002202",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Haw flakes",
+    "wikidata": "Q995997",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Hee pan",
+    "wikidata": "Q65042416",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "rice cake"
+    ]
+   },
+   {
+    "dish": "Khapse",
+    "wikidata": "Q2356049",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Lo mai chi",
+    "wikidata": "Q708908",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Mandarin roll",
+    "wikidata": "Q1002439",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Manggong Cake",
+    "wikidata": "Q17040557",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Masan",
+    "wikidata": "Q6782555",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Orange jelly candy",
+    "wikidata": "Q7099775",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Osmanthus cake",
+    "wikidata": "Q28224446",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Pamirdin",
+    "wikidata": "Q9054907",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Paomo",
+    "wikidata": "Q7132274",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Portuguese sauce",
+    "wikidata": "Q7232800",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "curry"
+    ]
+   },
+   {
+    "dish": "Sharkfin and prawn dumpling in superior soup",
+    "wikidata": "Q3914983",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "dim sum"
+    ]
+   },
+   {
+    "dish": "Sou",
+    "wikidata": "Q2919934",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Tangbao",
+    "wikidata": "Q3275270",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "baozi"
+    ]
+   },
+   {
+    "dish": "Yurla",
+    "wikidata": "Q8061747",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "almond biscuit",
+    "wikidata": "Q1196125",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "beef noodle soup",
+    "wikidata": "Q697498",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "noodle soup"
+    ]
+   },
+   {
+    "dish": "black sesame rice cake",
+    "wikidata": "Q4922468",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "chǎofàn",
+    "wikidata": "Q29017361",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "fried rice"
+    ]
+   },
+   {
+    "dish": "dark soy sauce",
+    "wikidata": "Q8484030",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "soy sauce"
+    ]
+   },
+   {
+    "dish": "donkey burger",
+    "wikidata": "Q5296220",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "hujiao bing",
+    "wikidata": "Q542790",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "imitation shark's fin soup",
+    "wikidata": "Q5371177",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "fish soup"
+    ]
+   },
+   {
+    "dish": "mala hot pot",
+    "wikidata": "Q18883046",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "hot pot"
+    ]
+   },
+   {
+    "dish": "marry girl cake",
+    "wikidata": "Q6773064",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "pastry",
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "paper wrapped cake",
+    "wikidata": "Q7132729",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "peanut butter bun",
+    "wikidata": "Q7157935",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "bun"
+    ]
+   },
+   {
+    "dish": "pineapple bun",
+    "wikidata": "Q1140567",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "bun"
+    ]
+   },
+   {
+    "dish": "red bean cake",
+    "wikidata": "Q7305283",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "sticky rice meatballs",
+    "wikidata": "Q17040892",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "meatball"
+    ]
+   },
+   {
+    "dish": "thenthuk",
+    "wikidata": "Q943696",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "noodle soup"
+    ]
+   },
+   {
+    "dish": "tsampa",
+    "wikidata": "Q1144889",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "porridge"
+    ]
+   },
+   {
+    "dish": "white sugar sponge cake",
+    "wikidata": "Q7995704",
+    "country": "China",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "An-doughnut",
+    "wikidata": "Q11258896",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "Chikuzenni",
+    "wikidata": "Q5097538",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "nimono"
+    ]
+   },
+   {
+    "dish": "Chūkadon",
+    "wikidata": "Q1139364",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "donburi"
+    ]
+   },
+   {
+    "dish": "Fish-shaped pastry",
+    "wikidata": "Q5454466",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Giri choco",
+    "wikidata": "Q2196880",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "Hishi mochi",
+    "wikidata": "Q3273961",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "Ika sōmen",
+    "wikidata": "Q11286341",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "sashimi"
+    ]
+   },
+   {
+    "dish": "Japanese milk bread",
+    "wikidata": "Q121037170",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "pan loaf"
+    ]
+   },
+   {
+    "dish": "Kagoshima ramen",
+    "wikidata": "Q11676485",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "ramen"
+    ]
+   },
+   {
+    "dish": "Kashiwameshi",
+    "wikidata": "Q134562216",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "takikomi gohan"
+    ]
+   },
+   {
+    "dish": "Kitakata ramen",
+    "wikidata": "Q4222435",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "ramen"
+    ]
+   },
+   {
+    "dish": "Koya-dofu",
+    "wikidata": "Q11673153",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "tofu"
+    ]
+   },
+   {
+    "dish": "Kusa mochi",
+    "wikidata": "Q3108889",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "Light cheese cake",
+    "wikidata": "Q19875130",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Mefun",
+    "wikidata": "Q6807955",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "shiokara"
+    ]
+   },
+   {
+    "dish": "Miyagegashi",
+    "wikidata": "Q869167",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Moffle",
+    "wikidata": "Q3318218",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "waffle",
+     "mochi"
+    ]
+   },
+   {
+    "dish": "Morioka reimen",
+    "wikidata": "Q5046165",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "naengmyeon"
+    ]
+   },
+   {
+    "dish": "Odori ebi",
+    "wikidata": "Q2014760",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "sashimi"
+    ]
+   },
+   {
+    "dish": "Shottsuru",
+    "wikidata": "Q16894181",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "fish sauce"
+    ]
+   },
+   {
+    "dish": "Shuto",
+    "wikidata": "Q7505632",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "shiokara"
+    ]
+   },
+   {
+    "dish": "Siberia",
+    "wikidata": "Q11307512",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Taiwan mazesoba",
+    "wikidata": "Q17229022",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "ramen"
+    ]
+   },
+   {
+    "dish": "Tenshindon",
+    "wikidata": "Q1132679",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "donburi",
+     "omelette"
+    ]
+   },
+   {
+    "dish": "Yubeshi",
+    "wikidata": "Q2076907",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "rice cake"
+    ]
+   },
+   {
+    "dish": "agemochi",
+    "wikidata": "Q3509587",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "akumaki",
+    "wikidata": "Q4701955",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "butadon",
+    "wikidata": "Q900440",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "donburi"
+    ]
+   },
+   {
+    "dish": "chirashizushi",
+    "wikidata": "Q865773",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "sushi"
+    ]
+   },
+   {
+    "dish": "daifuku",
+    "wikidata": "Q1067842",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "dorayaki",
+    "wikidata": "Q1051482",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "green tea ice cream",
+    "wikidata": "Q934171",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "hirayachi",
+    "wikidata": "Q869086",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "honmei choco",
+    "wikidata": "Q2481743",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "inago no tsukudani",
+    "wikidata": "Q11259841",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "Tsukudani"
+    ]
+   },
+   {
+    "dish": "jibu-ni",
+    "wikidata": "Q6192074",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "nimono"
+    ]
+   },
+   {
+    "dish": "kagami mochi",
+    "wikidata": "Q1432988",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "kamonanban",
+    "wikidata": "Q11675518",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "noodle soup"
+    ]
+   },
+   {
+    "dish": "kankoromochi",
+    "wikidata": "Q11264521",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "karukan",
+    "wikidata": "Q4216301",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "kuzumochi",
+    "wikidata": "Q6449309",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "makizushi",
+    "wikidata": "Q5739461",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "sushi"
+    ]
+   },
+   {
+    "dish": "mochi ice cream",
+    "wikidata": "Q977539",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "ice cream",
+     "mochi"
+    ]
+   },
+   {
+    "dish": "munini-imo",
+    "wikidata": "Q6936640",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "nabemono",
+    "wikidata": "Q1962004",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "hot pot"
+    ]
+   },
+   {
+    "dish": "nigirizushi",
+    "wikidata": "Q10860102",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "sushi"
+    ]
+   },
+   {
+    "dish": "ohaw",
+    "wikidata": "Q7080639",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "hot pot"
+    ]
+   },
+   {
+    "dish": "raindrop cake",
+    "wikidata": "Q24890727",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "rice burger",
+    "wikidata": "Q5369868",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "sandwich",
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "rui-be",
+    "wikidata": "Q7378690",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "sashimi"
+    ]
+   },
+   {
+    "dish": "sakuramochi",
+    "wikidata": "Q1087577",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "sata andagi",
+    "wikidata": "Q1317601",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "fried dough"
+    ]
+   },
+   {
+    "dish": "shōyu",
+    "wikidata": "Q28837710",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "soy sauce"
+    ]
+   },
+   {
+    "dish": "sōmen salad",
+    "wikidata": "Q5682366",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "salad",
+     "pasta salad"
+    ]
+   },
+   {
+    "dish": "taco rice",
+    "wikidata": "Q1137701",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "taco"
+    ]
+   },
+   {
+    "dish": "tamari shoyu",
+    "wikidata": "Q3514675",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "soy sauce"
+    ]
+   },
+   {
+    "dish": "tanindon",
+    "wikidata": "Q11377628",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "donburi"
+    ]
+   },
+   {
+    "dish": "tendon",
+    "wikidata": "Q1045248",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "donburi"
+    ]
+   },
+   {
+    "dish": "torikatsu",
+    "wikidata": "Q7825801",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "fried chicken"
+    ]
+   },
+   {
+    "dish": "toriten",
+    "wikidata": "Q1067542",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "fried chicken",
+     "tempura"
+    ]
+   },
+   {
+    "dish": "wagashi",
+    "wikidata": "Q1063096",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "warabimochi",
+    "wikidata": "Q2580945",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "yakimochi",
+    "wikidata": "Q579671",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "zundamochi",
+    "wikidata": "Q229777",
+    "country": "Japan",
+    "status": "ready",
+    "version_of": [
+     "mochi"
+    ]
+   },
+   {
+    "dish": "sole-cake",
+    "wikidata": "Q3099247",
+    "country": "Mongolia",
+    "status": "needs_review",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Pyongyang raengmyon",
+    "wikidata": "Q102182275",
+    "country": "North Korea",
+    "status": "needs_review",
+    "version_of": [
+     "naengmyeon"
+    ]
+   },
+   {
+    "dish": "Korean fried chicken",
+    "wikidata": "Q626723",
+    "country": "South Korea",
+    "status": "ready",
+    "version_of": [
+     "fried chicken"
+    ]
+   },
+   {
+    "dish": "Ttongppang",
+    "wikidata": "Q25055787",
+    "country": "South Korea",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "chalbori-ppang",
+    "wikidata": "Q5068592",
+    "country": "South Korea",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "hodu-gwaja",
+    "wikidata": "Q625539",
+    "country": "South Korea",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "kkulppang",
+    "wikidata": "Q20445517",
+    "country": "South Korea",
+    "status": "ready",
+    "version_of": [
+     "pastry",
+     "bread"
+    ]
+   },
+   {
+    "dish": "milmyeon",
+    "wikidata": "Q6423078",
+    "country": "South Korea",
+    "status": "ready",
+    "version_of": [
+     "naengmyeon"
+    ]
+   },
+   {
+    "dish": "ramyeon",
+    "wikidata": "Q21091894",
+    "country": "South Korea",
+    "status": "ready",
+    "version_of": [
+     "noodle soup"
+    ]
+   },
+   {
+    "dish": "Belly button pastry",
+    "wikidata": "Q17031594",
+    "country": "Taiwan",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Ji dan gao",
+    "wikidata": "Q119139178",
+    "country": "Taiwan",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "Mango shaved ice",
+    "wikidata": "Q13386962",
+    "country": "Taiwan",
+    "status": "ready",
+    "version_of": [
+     "shaved ice"
+    ]
+   },
+   {
+    "dish": "Shuangbaotai",
+    "wikidata": "Q7504448",
+    "country": "Taiwan",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "Wheel Pie",
+    "wikidata": "Q131735749",
+    "country": "Taiwan",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "egg yolk pastry",
+    "wikidata": "Q15880225",
+    "country": "Taiwan",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "salty biscuit",
+    "wikidata": "Q17031582",
+    "country": "Taiwan",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "tube rice pudding",
+    "wikidata": "Q7215544",
+    "country": "Taiwan",
+    "status": "ready",
+    "version_of": [
+     "rice pudding"
+    ]
+   }
+  ],
+  "Eastern Europe": [
+   {
+    "dish": "Biscuit cake",
+    "wikidata": "Q85747395",
+    "country": "Bulgaria",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Garash cake",
+    "wikidata": "Q5521946",
+    "country": "Bulgaria",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Lyutika",
+    "wikidata": "Q6710583",
+    "country": "Bulgaria",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Pinđur",
+    "wikidata": "Q3388655",
+    "country": "Bulgaria",
+    "status": "ready",
+    "version_of": [
+     "relish"
+    ]
+   },
+   {
+    "dish": "Shopska salad",
+    "wikidata": "Q570038",
+    "country": "Bulgaria",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Snow White salad",
+    "wikidata": "Q7548366",
+    "country": "Bulgaria",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "banitsa",
+    "wikidata": "Q2009256",
+    "country": "Bulgaria",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Czech-style hot dog",
+    "wikidata": "Q13231338",
+    "country": "Czech Republic",
+    "status": "ready",
+    "version_of": [
+     "hot dog"
+    ]
+   },
+   {
+    "dish": "Houska",
+    "wikidata": "Q16845173",
+    "country": "Czech Republic",
+    "status": "ready",
+    "version_of": [
+     "bread roll"
+    ]
+   },
+   {
+    "dish": "diplomat pudding",
+    "wikidata": "Q1420904",
+    "country": "Hungary",
+    "status": "ready",
+    "version_of": [
+     "pastry",
+     "pudding"
+    ]
+   },
+   {
+    "dish": "winter ice cream",
+    "wikidata": "Q27493928",
+    "country": "Hungary",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Alivenci",
+    "wikidata": "Q2837252",
+    "country": "Moldova",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Christmas wafer",
+    "wikidata": "Q129152",
+    "country": "Poland",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Kołacz",
+    "wikidata": "Q17050727",
+    "country": "Poland",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Prądnik bread",
+    "wikidata": "Q9189882",
+    "country": "Poland",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "babka",
+    "wikidata": "Q797734",
+    "country": "Poland",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "rugelach",
+    "wikidata": "Q1993581",
+    "country": "Poland",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Amandine",
+    "wikidata": "Q2223254",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Blachindla",
+    "wikidata": "Q4920036",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "turnover"
+    ]
+   },
+   {
+    "dish": "Colaci",
+    "wikidata": "Q17049500",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Cornuleţe",
+    "wikidata": "Q2997592",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Covrigi",
+    "wikidata": "Q13479746",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Gogoşi",
+    "wikidata": "Q3827928",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Joffre cake",
+    "wikidata": "Q3180338",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Papanași",
+    "wikidata": "Q689984",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Plăcintă",
+    "wikidata": "Q2372494",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Rasol",
+    "wikidata": "Q3070462",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Scovardă",
+    "wikidata": "Q7438660",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "sarmale",
+    "wikidata": "Q11078597",
+    "country": "Romania",
+    "status": "needs_review",
+    "version_of": [
+     "cabbage roll"
+    ]
+   },
+   {
+    "dish": "Dalieba",
+    "wikidata": "Q4154144",
+    "country": "Russia",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Fleischkuekle",
+    "wikidata": "Q5458522",
+    "country": "Russia",
+    "status": "ready",
+    "version_of": [
+     "meat pie"
+    ]
+   },
+   {
+    "dish": "Tula gingerbread",
+    "wikidata": "Q2511331",
+    "country": "Russia",
+    "status": "ready",
+    "version_of": [
+     "pryanik"
+    ]
+   },
+   {
+    "dish": "Kyiv cake",
+    "wikidata": "Q899218",
+    "country": "Ukraine",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Yavoriv pie",
+    "wikidata": "Q116271874",
+    "country": "Ukraine",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "palianytsia",
+    "wikidata": "Q12137633",
+    "country": "Ukraine",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "zozulia",
+    "wikidata": "Q124744092",
+    "country": "Ukraine",
+    "status": "ready",
+    "version_of": [
+     "porridge"
+    ]
+   }
+  ],
+  "Melanesia": [],
+  "Micronesian Region": [
+   {
+    "dish": "Guyuria",
+    "wikidata": "Q5622888",
+    "country": "Guam",
+    "status": "needs_review",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Kalamai",
+    "wikidata": "Q3192094",
+    "country": "Guam",
+    "status": "needs_review",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Latiya",
+    "wikidata": "Q115804031",
+    "country": "Guam",
+    "status": "needs_review",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Roskette",
+    "wikidata": "Q7369003",
+    "country": "Guam",
+    "status": "needs_review",
+    "version_of": [
+     "cookie"
+    ]
+   }
+  ],
+  "Middle Africa": [
+   {
+    "dish": "Ndolé",
+    "wikidata": "Q1131837",
+    "country": "Cameroon",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   }
+  ],
+  "Northern Africa": [
+   {
+    "dish": "Hmiss",
+    "wikidata": "Q3138826",
+    "country": "Algeria",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Khobz tounes",
+    "wikidata": "Q16648323",
+    "country": "Algeria",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Matlou",
+    "wikidata": "Q12243625",
+    "country": "Algeria",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Fig roll",
+    "wikidata": "Q5447680",
+    "country": "Egypt",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "matzah",
+    "wikidata": "Q211361",
+    "country": "Egypt",
+    "status": "ready",
+    "version_of": [
+     "unleavened bread"
+    ]
+   },
+   {
+    "dish": "bazeen",
+    "wikidata": "Q4164571",
+    "country": "Libya",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Bambalouni",
+    "wikidata": "Q2881759",
+    "country": "Tunisia",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "Fricasse",
+    "wikidata": "Q938386",
+    "country": "Tunisia",
+    "status": "ready",
+    "version_of": [
+     "entrée"
+    ]
+   },
+   {
+    "dish": "Kabkabou",
+    "wikidata": "Q16248468",
+    "country": "Tunisia",
+    "status": "ready",
+    "version_of": [
+     "ragout"
+    ]
+   },
+   {
+    "dish": "Mechouia salad",
+    "wikidata": "Q3469471",
+    "country": "Tunisia",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   }
+  ],
+  "Northern America": [
+   {
+    "dish": "Bermuda fish chowder",
+    "wikidata": "Q4892695",
+    "country": "Bermuda",
+    "status": "needs_review",
+    "version_of": [
+     "fish soup"
+    ]
+   },
+   {
+    "dish": "Coconut doughnut",
+    "wikidata": "Q5139848",
+    "country": "Canada",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "Montreal hot dog",
+    "wikidata": "Q6906362",
+    "country": "Canada",
+    "status": "ready",
+    "version_of": [
+     "hot dog"
+    ]
+   },
+   {
+    "dish": "Poutchine au sac",
+    "wikidata": "Q16917893",
+    "country": "Canada",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "maple sugar",
+    "wikidata": "Q402587",
+    "country": "Canada",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "moon mist",
+    "wikidata": "Q109536261",
+    "country": "Canada",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "pizza cake",
+    "wikidata": "Q19766201",
+    "country": "Canada",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "sour cream doughnut",
+    "wikidata": "Q7565082",
+    "country": "Canada",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "50/50 burger",
+    "wikidata": "Q16823983",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "Adobe bread",
+    "wikidata": "Q4684013",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Altoona-style pizza",
+    "wikidata": "Q107175849",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "Amish Friendship Bread",
+    "wikidata": "Q502405",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "bread",
+     "cake"
+    ]
+   },
+   {
+    "dish": "Aplets & Cotlets",
+    "wikidata": "Q25000110",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "BK Stacker",
+    "wikidata": "Q24439117",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "Bacon Deluxe",
+    "wikidata": "Q4839932",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "Boston cream doughnut",
+    "wikidata": "Q4948235",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "Brown Betty",
+    "wikidata": "Q4976066",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Brown Bobby",
+    "wikidata": "Q4976072",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "Butter Pecan",
+    "wikidata": "Q5002838",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Camel rider",
+    "wikidata": "Q118995991",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Chantilly cake",
+    "wikidata": "Q5072677",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Chocolate chip cookie dough ice cream",
+    "wikidata": "Q5103652",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Chocolate pizza",
+    "wikidata": "Q25038426",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "Confetti cake",
+    "wikidata": "Q30594021",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Cornell bread",
+    "wikidata": "Q25004816",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Cottage Pudding",
+    "wikidata": "Q5175528",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Cudighi",
+    "wikidata": "Q5192531",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Dagwood sandwich",
+    "wikidata": "Q5208692",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Desperation pie",
+    "wikidata": "Q104864044",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Devil's food cake",
+    "wikidata": "Q29477",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "layer cake",
+     "butter cake"
+    ]
+   },
+   {
+    "dish": "Fried pie",
+    "wikidata": "Q5503629",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Greek pizza",
+    "wikidata": "Q5602039",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "Jewish almond cookie",
+    "wikidata": "Q85771170",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Kōʻelepālau",
+    "wikidata": "Q123221343",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Luther Burger",
+    "wikidata": "Q1094305",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "Maple bacon donut",
+    "wikidata": "Q4391949",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "Milk Bar Pie",
+    "wikidata": "Q115814329",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Moravian spice cookies",
+    "wikidata": "Q6909359",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Norfolk hot dog",
+    "wikidata": "Q85789437",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "hot dog"
+    ]
+   },
+   {
+    "dish": "Onion roll",
+    "wikidata": "Q85790786",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "bread roll"
+    ]
+   },
+   {
+    "dish": "Pie à la Mode",
+    "wikidata": "Q7191330",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Rainbow roll",
+    "wikidata": "Q85795693",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sushi"
+    ]
+   },
+   {
+    "dish": "Red slaw",
+    "wikidata": "Q7305387",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Redonkadonk",
+    "wikidata": "Q7306192",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Salisbury steak",
+    "wikidata": "Q200527",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "Scali bread",
+    "wikidata": "Q16943314",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Sloosh",
+    "wikidata": "Q7541332",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cornbread"
+    ]
+   },
+   {
+    "dish": "Southern fried chicken",
+    "wikidata": "Q108798661",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "fried chicken"
+    ]
+   },
+   {
+    "dish": "Superman",
+    "wikidata": "Q7643870",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Tembleque",
+    "wikidata": "Q16901399",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Thin Mints",
+    "wikidata": "Q7784272",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "angel food cake",
+    "wikidata": "Q29415",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "baked bean sandwich",
+    "wikidata": "Q4849055",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "beach pizza",
+    "wikidata": "Q96373297",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "breakfast sandwich",
+    "wikidata": "Q4959490",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "bundt cake",
+    "wikidata": "Q2291684",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "butter burger",
+    "wikidata": "Q108672552",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "butter mochi",
+    "wikidata": "Q11327745",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "mochi",
+     "butter cake"
+    ]
+   },
+   {
+    "dish": "cake pop",
+    "wikidata": "Q1189869",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "candle salad",
+    "wikidata": "Q5031953",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "fruit salad"
+    ]
+   },
+   {
+    "dish": "candy pumpkin",
+    "wikidata": "Q2900923",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "caramel apple",
+    "wikidata": "Q1105083",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "cascatelli",
+    "wikidata": "Q106326673",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pasta"
+    ]
+   },
+   {
+    "dish": "cheese dog",
+    "wikidata": "Q5089399",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "hot dog"
+    ]
+   },
+   {
+    "dish": "cheese dream",
+    "wikidata": "Q5089402",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "open sandwich"
+    ]
+   },
+   {
+    "dish": "chef salad",
+    "wikidata": "Q861189",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "chocolate chip",
+    "wikidata": "Q1329680",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "chocolate haupia pie",
+    "wikidata": "Q130633595",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "cider doughnut",
+    "wikidata": "Q5119519",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "country ham",
+    "wikidata": "Q3823327",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "ham"
+    ]
+   },
+   {
+    "dish": "cracker",
+    "wikidata": "Q856330",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pastry",
+     "cookie"
+    ]
+   },
+   {
+    "dish": "crackling bread",
+    "wikidata": "Q5180411",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "bread",
+     "cornbread"
+    ]
+   },
+   {
+    "dish": "depression cake",
+    "wikidata": "Q5260907",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "dirt cake",
+    "wikidata": "Q5280948",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "fruit snack",
+    "wikidata": "Q5506413",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "wine gum"
+    ]
+   },
+   {
+    "dish": "gâteau de Sirop",
+    "wikidata": "Q16868214",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "hasty pudding",
+    "wikidata": "Q1588808",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "hot dog bun",
+    "wikidata": "Q1047392",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "bun"
+    ]
+   },
+   {
+    "dish": "maraca pie",
+    "wikidata": "Q17047960",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "marshmallow creme",
+    "wikidata": "Q2915519",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "meatball pizza",
+    "wikidata": "Q18358623",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "military chocolate",
+    "wikidata": "Q1072093",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "monkey bread",
+    "wikidata": "Q930630",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "bread",
+     "cake"
+    ]
+   },
+   {
+    "dish": "pan pizza",
+    "wikidata": "Q48767667",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "patty melt",
+    "wikidata": "Q7148741",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "peanut butter cup",
+    "wikidata": "Q7157931",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "peanut butter, banana and bacon sandwich",
+    "wikidata": "Q2917139",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "pizza strips",
+    "wikidata": "Q7199990",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "quick bread",
+    "wikidata": "Q11276778",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "rocky road ice cream",
+    "wikidata": "Q7356051",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "sausage bread",
+    "wikidata": "Q7427591",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pastry",
+     "bread"
+    ]
+   },
+   {
+    "dish": "seafoam salad",
+    "wikidata": "Q7440353",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "fruit salad"
+    ]
+   },
+   {
+    "dish": "slider",
+    "wikidata": "Q3357568",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "sandwich",
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "soft serve",
+    "wikidata": "Q1397211",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "stuffed crust pizza",
+    "wikidata": "Q48767364",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "sushi burrito",
+    "wikidata": "Q104844158",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "burrito",
+     "sushi"
+    ]
+   },
+   {
+    "dish": "tomato soup cake",
+    "wikidata": "Q141740590",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "spice cake"
+    ]
+   }
+  ],
+  "Northern Europe": [
+   {
+    "dish": "Jødekager",
+    "wikidata": "Q85772622",
+    "country": "Denmark",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Remonce",
+    "wikidata": "Q7312056",
+    "country": "Denmark",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Sol over Gudhjem",
+    "wikidata": "Q3425445",
+    "country": "Denmark",
+    "status": "ready",
+    "version_of": [
+     "open sandwich"
+    ]
+   },
+   {
+    "dish": "butter cookie",
+    "wikidata": "Q1038537",
+    "country": "Denmark",
+    "status": "ready",
+    "version_of": [
+     "cookie",
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "bøfsandwich",
+    "wikidata": "Q596409",
+    "country": "Denmark",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "kammerjunker",
+    "wikidata": "Q123353",
+    "country": "Denmark",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "pålægschokolade",
+    "wikidata": "Q4992035",
+    "country": "Denmark",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "rugbrød",
+    "wikidata": "Q3302944",
+    "country": "Denmark",
+    "status": "ready",
+    "version_of": [
+     "rye bread"
+    ]
+   },
+   {
+    "dish": "mulgipuder",
+    "wikidata": "Q12370530",
+    "country": "Estonia",
+    "status": "ready",
+    "version_of": [
+     "porridge"
+    ]
+   },
+   {
+    "dish": "Finnish bread",
+    "wikidata": "Q5450828",
+    "country": "Finland",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Porilainen",
+    "wikidata": "Q972267",
+    "country": "Finland",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Rosolli",
+    "wikidata": "Q8097583",
+    "country": "Finland",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "lihapiirakka",
+    "wikidata": "Q6304924",
+    "country": "Finland",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Laufabrauð",
+    "wikidata": "Q1515205",
+    "country": "Iceland",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Rúgbrauð",
+    "wikidata": "Q1344219",
+    "country": "Iceland",
+    "status": "ready",
+    "version_of": [
+     "rye bread"
+    ]
+   },
+   {
+    "dish": "Slatur",
+    "wikidata": "Q7538980",
+    "country": "Iceland",
+    "status": "ready",
+    "version_of": [
+     "blood sausage"
+    ]
+   },
+   {
+    "dish": "Ábrystir",
+    "wikidata": "Q3480481",
+    "country": "Iceland",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "3-in-1",
+    "wikidata": "Q130265510",
+    "country": "Ireland",
+    "status": "ready",
+    "version_of": [
+     "curry"
+    ]
+   },
+   {
+    "dish": "brown bread",
+    "wikidata": "Q940999",
+    "country": "Ireland",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "croffle",
+    "wikidata": "Q109558070",
+    "country": "Ireland",
+    "status": "ready",
+    "version_of": [
+     "waffle",
+     "croissant"
+    ]
+   },
+   {
+    "dish": "Sklandrausis",
+    "wikidata": "Q2087110",
+    "country": "Latvia",
+    "status": "needs_review",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "rupjmaize",
+    "wikidata": "Q7380416",
+    "country": "Latvia",
+    "status": "needs_review",
+    "version_of": [
+     "rye bread"
+    ]
+   },
+   {
+    "dish": "kūčiukai",
+    "wikidata": "Q518601",
+    "country": "Lithuania",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Scouse",
+    "wikidata": "Q7438301",
+    "country": "Norway",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Hallongrotta",
+    "wikidata": "Q5643056",
+    "country": "Sweden",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Hönökaka",
+    "wikidata": "Q10532570",
+    "country": "Sweden",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Limpa bread",
+    "wikidata": "Q6748208",
+    "country": "Sweden",
+    "status": "ready",
+    "version_of": [
+     "bread",
+     "rye bread"
+    ]
+   },
+   {
+    "dish": "Upplandskubb",
+    "wikidata": "Q10710162",
+    "country": "Sweden",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "fläskpannkaka",
+    "wikidata": "Q5463730",
+    "country": "Sweden",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "fruktsoppa",
+    "wikidata": "Q20644870",
+    "country": "Sweden",
+    "status": "ready",
+    "version_of": [
+     "fruit soup"
+    ]
+   },
+   {
+    "dish": "kebab pizza",
+    "wikidata": "Q115519518",
+    "country": "Sweden",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "paltbröd",
+    "wikidata": "Q10615624",
+    "country": "Sweden",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "toast skagen",
+    "wikidata": "Q10699143",
+    "country": "Sweden",
+    "status": "ready",
+    "version_of": [
+     "open sandwich"
+    ]
+   },
+   {
+    "dish": "Abernethy biscuit",
+    "wikidata": "Q4667156",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Bakewell pudding",
+    "wikidata": "Q4849349",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Banbury cake",
+    "wikidata": "Q806142",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Banoffee pie",
+    "wikidata": "Q2748774",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Bath Oliver",
+    "wikidata": "Q2436674",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cookie",
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Battenberg cake",
+    "wikidata": "Q167309",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "Bedfordshire clanger",
+    "wikidata": "Q4879252",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Bourbon biscuit",
+    "wikidata": "Q863966",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Cheese and pickle sandwich",
+    "wikidata": "Q5089395",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Chorley cake",
+    "wikidata": "Q5105172",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Colston bun",
+    "wikidata": "Q5149379",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "bun"
+    ]
+   },
+   {
+    "dish": "Cornish fairing",
+    "wikidata": "Q5171851",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Coventry Godcakes",
+    "wikidata": "Q30324930",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Crempog",
+    "wikidata": "Q2022222",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "Devizes pie",
+    "wikidata": "Q5267591",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Dock pudding",
+    "wikidata": "Q5287205",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Eccles cake",
+    "wikidata": "Q1236200",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Eve's pudding",
+    "wikidata": "Q5416128",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Fat rascal",
+    "wikidata": "Q5437245",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Figgy pudding",
+    "wikidata": "Q15932560",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Flies graveyard",
+    "wikidata": "Q5459109",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Garibaldi biscuit",
+    "wikidata": "Q3399210",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Homity pie",
+    "wikidata": "Q5890907",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Iced bun",
+    "wikidata": "Q5985621",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "bread roll"
+    ]
+   },
+   {
+    "dish": "Kendal Mint Cake",
+    "wikidata": "Q6388856",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "candy bar"
+    ]
+   },
+   {
+    "dish": "Lancashire hotpot",
+    "wikidata": "Q4358444",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Malvern pudding",
+    "wikidata": "Q16997256",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Manchester tart",
+    "wikidata": "Q6747588",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Meat and potato pie",
+    "wikidata": "Q6804256",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Milk roll",
+    "wikidata": "Q55623155",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "National loaf",
+    "wikidata": "Q6979626",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Pink wafer",
+    "wikidata": "Q7196129",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Pontefract cake",
+    "wikidata": "Q7228182",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Raspberry Ripple",
+    "wikidata": "Q7295192",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Sally Lunn bun",
+    "wikidata": "Q2896075",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "bun"
+    ]
+   },
+   {
+    "dish": "Scooby Snack",
+    "wikidata": "Q7434366",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "Shooter's sandwich",
+    "wikidata": "Q29467976",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Simnel cake",
+    "wikidata": "Q7518047",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "fruitcake"
+    ]
+   },
+   {
+    "dish": "Stornoway black pudding",
+    "wikidata": "Q7620316",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "blood sausage"
+    ]
+   },
+   {
+    "dish": "Sugar mice",
+    "wikidata": "Q7634947",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Summer pudding",
+    "wikidata": "Q865744",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Sussex Pond Pudding",
+    "wikidata": "Q7649469",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Tottenham cake",
+    "wikidata": "Q7828466",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Welsh cake",
+    "wikidata": "Q1078202",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Woolton pie",
+    "wikidata": "Q3535545",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "angel cake",
+    "wikidata": "Q2330783",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "layer cake",
+     "butter cake"
+    ]
+   },
+   {
+    "dish": "barm cake",
+    "wikidata": "Q4861253",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "bread and butter pudding",
+    "wikidata": "Q4959183",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "butterscotch",
+    "wikidata": "Q2009326",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "cabinet pudding",
+    "wikidata": "Q5015592",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "chicken and mushroom pie",
+    "wikidata": "Q5096289",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "chocolate truffle",
+    "wikidata": "Q1063560",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "corned beef pie",
+    "wikidata": "Q5171114",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "crumble",
+    "wikidata": "Q2006073",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "curry pie",
+    "wikidata": "Q5195233",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "custard cream",
+    "wikidata": "Q3246820",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "fish pie",
+    "wikidata": "Q3301394",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "flapjack",
+    "wikidata": "Q1810638",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "fruit hat",
+    "wikidata": "Q5506400",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "gypsy tart",
+    "wikidata": "Q5625377",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "tart"
+    ]
+   },
+   {
+    "dish": "haslet",
+    "wikidata": "Q5679304",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "meatloaf"
+    ]
+   },
+   {
+    "dish": "heavy cake",
+    "wikidata": "Q5695228",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "jam sandwich",
+    "wikidata": "Q6127120",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "lardy cake",
+    "wikidata": "Q16248794",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "leek soup",
+    "wikidata": "Q6516224",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "vegetable soup"
+    ]
+   },
+   {
+    "dish": "malt loaf",
+    "wikidata": "Q6744641",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "parkin",
+    "wikidata": "Q2918809",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "potato waffle",
+    "wikidata": "Q2157889",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "waffle"
+    ]
+   },
+   {
+    "dish": "rabbit pie",
+    "wikidata": "Q7278638",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "rich tea",
+    "wikidata": "Q275540",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "salmagundi",
+    "wikidata": "Q2214748",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "shortcake",
+    "wikidata": "Q2706994",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "soldiers",
+    "wikidata": "Q7557379",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "spotted dick",
+    "wikidata": "Q584564",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "steak and kidney pie",
+    "wikidata": "Q861304",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "meat pie"
+    ]
+   },
+   {
+    "dish": "steak and oyster pie",
+    "wikidata": "Q17038483",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "meat pie"
+    ]
+   },
+   {
+    "dish": "steak pie",
+    "wikidata": "Q7605240",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "meat pie"
+    ]
+   },
+   {
+    "dish": "sticky toffee pudding",
+    "wikidata": "Q7616334",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "stonner kebab",
+    "wikidata": "Q7619467",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "kebab"
+    ]
+   },
+   {
+    "dish": "stottie cake",
+    "wikidata": "Q7620532",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "suet pudding",
+    "wikidata": "Q7634410",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "tea loaf",
+    "wikidata": "Q7691132",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "tea sandwich",
+    "wikidata": "Q7691137",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "tiffin",
+    "wikidata": "Q7801277",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "toast sandwich",
+    "wikidata": "Q7811415",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "triple-cooked chips",
+    "wikidata": "Q16861033",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "fries"
+    ]
+   },
+   {
+    "dish": "walnut and coffee cake",
+    "wikidata": "Q16973768",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   }
+  ],
+  "Polynesia": [],
+  "South America": [
+   {
+    "dish": "Argentine pizza",
+    "wikidata": "Q56493317",
+    "country": "Argentina",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "Fugazza",
+    "wikidata": "Q10499831",
+    "country": "Argentina",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "Patay",
+    "wikidata": "Q5551505",
+    "country": "Argentina",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "pebete",
+    "wikidata": "Q7158585",
+    "country": "Argentina",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Chola sandwich",
+    "wikidata": "Q61579505",
+    "country": "Bolivia",
+    "status": "needs_review",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Mané pelado",
+    "wikidata": "Q122809709",
+    "country": "Brazil",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Xis",
+    "wikidata": "Q113455543",
+    "country": "Brazil",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "pão francês",
+    "wikidata": "Q123197340",
+    "country": "Brazil",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Chilean salad",
+    "wikidata": "Q5098835",
+    "country": "Chile",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Conejito",
+    "wikidata": "Q21044363",
+    "country": "Chile",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Pastel de jaiba",
+    "wikidata": "Q124538359",
+    "country": "Chile",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Polvorosa",
+    "wikidata": "Q120486465",
+    "country": "Colombia",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "wine cake",
+    "wikidata": "Q8024918",
+    "country": "Colombia",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Fanesca",
+    "wikidata": "Q3065399",
+    "country": "Ecuador",
+    "status": "ready",
+    "version_of": [
+     "fish soup"
+    ]
+   },
+   {
+    "dish": "kamby arro",
+    "wikidata": "Q605277",
+    "country": "Paraguay",
+    "status": "needs_review",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "piracaldo",
+    "wikidata": "Q7197643",
+    "country": "Paraguay",
+    "status": "needs_review",
+    "version_of": [
+     "fish soup"
+    ]
+   },
+   {
+    "dish": "King Kong milk candy",
+    "wikidata": "Q3815416",
+    "country": "Peru",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Shikashika",
+    "wikidata": "Q7496557",
+    "country": "Peru",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "arroz zambito",
+    "wikidata": "Q61054366",
+    "country": "Peru",
+    "status": "ready",
+    "version_of": [
+     "rice pudding"
+    ]
+   },
+   {
+    "dish": "butifarra",
+    "wikidata": "Q5736147",
+    "country": "Peru",
+    "status": "ready",
+    "version_of": [
+     "ham sandwich"
+    ]
+   },
+   {
+    "dish": "Chivito",
+    "wikidata": "Q1959504",
+    "country": "Uruguay",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Cachapa",
+    "wikidata": "Q1025010",
+    "country": "Venezuela",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "Cachitos",
+    "wikidata": "Q28134919",
+    "country": "Venezuela",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Mandoca",
+    "wikidata": "Q6748129",
+    "country": "Venezuela",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Tequeño",
+    "wikidata": "Q2834371",
+    "country": "Venezuela",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   }
+  ],
+  "Southeast Asia": [
+   {
+    "dish": "Num akor",
+    "wikidata": "Q136327320",
+    "country": "Cambodia",
+    "status": "ready",
+    "version_of": [
+     "rice cake"
+    ]
+   },
+   {
+    "dish": "Num ansom",
+    "wikidata": "Q19695008",
+    "country": "Cambodia",
+    "status": "ready",
+    "version_of": [
+     "rice cake"
+    ]
+   },
+   {
+    "dish": "Num pang",
+    "wikidata": "Q121832765",
+    "country": "Cambodia",
+    "status": "ready",
+    "version_of": [
+     "submarine sandwich"
+    ]
+   },
+   {
+    "dish": "Ayam panggang",
+    "wikidata": "Q65210405",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "roast chicken"
+    ]
+   },
+   {
+    "dish": "Bakakak hayam",
+    "wikidata": "Q65210830",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "grilled chicken",
+     "roast chicken"
+    ]
+   },
+   {
+    "dish": "Es puter",
+    "wikidata": "Q19725637",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Kelan Antep",
+    "wikidata": "Q12490514",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Kuih",
+    "wikidata": "Q14468365",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Lotek",
+    "wikidata": "Q14918748",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Meuseukat",
+    "wikidata": "Q19746250",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Ombus ombus",
+    "wikidata": "Q12492826",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "gulai ayam",
+    "wikidata": "Q5617222",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "chicken curry"
+    ]
+   },
+   {
+    "dish": "lampet",
+    "wikidata": "Q12492825",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "rice cake"
+    ]
+   },
+   {
+    "dish": "mie kuah",
+    "wikidata": "Q97241030",
+    "country": "Indonesia",
+    "status": "ready",
+    "version_of": [
+     "noodle soup"
+    ]
+   },
+   {
+    "dish": "Padaek",
+    "wikidata": "Q6853367",
+    "country": "Laos",
+    "status": "ready",
+    "version_of": [
+     "fish sauce"
+    ]
+   },
+   {
+    "dish": "khao piak sen",
+    "wikidata": "Q25052449",
+    "country": "Laos",
+    "status": "ready",
+    "version_of": [
+     "noodle soup"
+    ]
+   },
+   {
+    "dish": "Tshài-bué-thng",
+    "wikidata": "Q48916161",
+    "country": "Malaysia",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "bubur lambuk",
+    "wikidata": "Q12684337",
+    "country": "Malaysia",
+    "status": "ready",
+    "version_of": [
+     "porridge"
+    ]
+   },
+   {
+    "dish": "Burmese fritters",
+    "wikidata": "Q85749576",
+    "country": "Myanmar",
+    "status": "needs_review",
+    "version_of": [
+     "fritter"
+    ]
+   },
+   {
+    "dish": "Burmese salad",
+    "wikidata": "Q17010544",
+    "country": "Myanmar",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Meeshay",
+    "wikidata": "Q6807728",
+    "country": "Myanmar",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Mohinga",
+    "wikidata": "Q1188066",
+    "country": "Myanmar",
+    "status": "needs_review",
+    "version_of": [
+     "fish soup"
+    ]
+   },
+   {
+    "dish": "Mont di",
+    "wikidata": "Q6903124",
+    "country": "Myanmar",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Pathein halawa",
+    "wikidata": "Q85792397",
+    "country": "Myanmar",
+    "status": "needs_review",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Aparon",
+    "wikidata": "Q65086552",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "wafer"
+    ]
+   },
+   {
+    "dish": "Binangkal",
+    "wikidata": "Q28449101",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "Caycay",
+    "wikidata": "Q65064149",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Galletas de patatas",
+    "wikidata": "Q65086222",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Galletas pesquera",
+    "wikidata": "Q65086226",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Ginataang manok",
+    "wikidata": "Q65059348",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "chicken curry"
+    ]
+   },
+   {
+    "dish": "Inipit",
+    "wikidata": "Q6034013",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Java Rice",
+    "wikidata": "Q30671978",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "fried rice"
+    ]
+   },
+   {
+    "dish": "Lechon manok",
+    "wikidata": "Q60776617",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "roast chicken"
+    ]
+   },
+   {
+    "dish": "Masa podrida",
+    "wikidata": "Q65063699",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Okoy",
+    "wikidata": "Q20586683",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "fritter"
+    ]
+   },
+   {
+    "dish": "Pilipit",
+    "wikidata": "Q65086266",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "twisted doughnut"
+    ]
+   },
+   {
+    "dish": "Pinagong",
+    "wikidata": "Q65087419",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "bread roll"
+    ]
+   },
+   {
+    "dish": "Sans rival",
+    "wikidata": "Q16917687",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "torte"
+    ]
+   },
+   {
+    "dish": "Spanish bread",
+    "wikidata": "Q113279398",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Tupig",
+    "wikidata": "Q85811088",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "rice cake"
+    ]
+   },
+   {
+    "dish": "Ugoy-ugoy",
+    "wikidata": "Q65086573",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "mamón",
+    "wikidata": "Q60739792",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "puto seco",
+    "wikidata": "Q65089597",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "tortang talong",
+    "wikidata": "Q60761158",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "omelette"
+    ]
+   },
+   {
+    "dish": "ube crinkles",
+    "wikidata": "Q65084902",
+    "country": "Philippines",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Har cheong gai burger",
+    "wikidata": "Q24945530",
+    "country": "Singapore",
+    "status": "needs_review",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "sliced fish soup",
+    "wikidata": "Q7540240",
+    "country": "Singapore",
+    "status": "needs_review",
+    "version_of": [
+     "fish soup"
+    ]
+   },
+   {
+    "dish": "Kleeb lamduan",
+    "wikidata": "Q13012656",
+    "country": "Thailand",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "nam pla",
+    "wikidata": "Q24885642",
+    "country": "Thailand",
+    "status": "ready",
+    "version_of": [
+     "fish sauce"
+    ]
+   },
+   {
+    "dish": "stir-fried ice cream",
+    "wikidata": "Q15896943",
+    "country": "Thailand",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "bánh bó",
+    "wikidata": "Q5004796",
+    "country": "Vietnam",
+    "status": "ready",
+    "version_of": [
+     "fruitcake"
+    ]
+   }
+  ],
+  "Southern Africa": [],
+  "Southern Asia": [
+   {
+    "dish": "Afghan salad",
+    "wikidata": "Q25055799",
+    "country": "Afghanistan",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Afghani burger",
+    "wikidata": "Q24943843",
+    "country": "Afghanistan",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "gosh-e fil",
+    "wikidata": "Q5719932",
+    "country": "Afghanistan",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Durus kura",
+    "wikidata": "Q114057994",
+    "country": "Bangladesh",
+    "status": "ready",
+    "version_of": [
+     "roast chicken"
+    ]
+   },
+   {
+    "dish": "Sylheti Duck Bamboo",
+    "wikidata": "Q61366417",
+    "country": "Bangladesh",
+    "status": "ready",
+    "version_of": [
+     "curry"
+    ]
+   },
+   {
+    "dish": "Akki rotti",
+    "wikidata": "Q4701369",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "roti"
+    ]
+   },
+   {
+    "dish": "Ashoka Halwa",
+    "wikidata": "Q137217603",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "halva"
+    ]
+   },
+   {
+    "dish": "Buttermilk curry",
+    "wikidata": "Q24885167",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "curry"
+    ]
+   },
+   {
+    "dish": "Chhilka Roti",
+    "wikidata": "Q114352250",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "roti"
+    ]
+   },
+   {
+    "dish": "Gobhi paratha",
+    "wikidata": "Q5575466",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "paratha"
+    ]
+   },
+   {
+    "dish": "Jolada Rotti",
+    "wikidata": "Q6269826",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Kachumber",
+    "wikidata": "Q17061273",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Khaja",
+    "wikidata": "Q2721957",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Kosambari",
+    "wikidata": "Q6432978",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Laba congee",
+    "wikidata": "Q6466695",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "congee"
+    ]
+   },
+   {
+    "dish": "Mahim halwa",
+    "wikidata": "Q24945597",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Neer dosa",
+    "wikidata": "Q6986919",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "dosa"
+    ]
+   },
+   {
+    "dish": "Osmania Biscuit",
+    "wikidata": "Q19605683",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Paneer makhani",
+    "wikidata": "Q28172393",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "curry"
+    ]
+   },
+   {
+    "dish": "Pathiri",
+    "wikidata": "Q3595628",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Poee",
+    "wikidata": "Q108532355",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Pulissery",
+    "wikidata": "Q16135411",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "curry"
+    ]
+   },
+   {
+    "dish": "Sanna",
+    "wikidata": "Q7418805",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Sutarfeni",
+    "wikidata": "Q18386680",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Tunde ke kabab",
+    "wikidata": "Q7852883",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "kebab"
+    ]
+   },
+   {
+    "dish": "aloo paratha",
+    "wikidata": "Q2839298",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "bebinca",
+    "wikidata": "Q3270102",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "chakli",
+    "wikidata": "Q12997603",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "fried dough"
+    ]
+   },
+   {
+    "dish": "egg bhurji",
+    "wikidata": "Q5347835",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "omelette"
+    ]
+   },
+   {
+    "dish": "tomato omelette",
+    "wikidata": "Q7818563",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "vegetable sandwich",
+    "wikidata": "Q7918342",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Baghali polo",
+    "wikidata": "Q6416946",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pilaf"
+    ]
+   },
+   {
+    "dish": "Bastani",
+    "wikidata": "Q5711624",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Cake Yazdi",
+    "wikidata": "Q5691167",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Ghandi Bread",
+    "wikidata": "Q30680430",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Iranian pizza",
+    "wikidata": "Q26398337",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "Kaak",
+    "wikidata": "Q5944552",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Mahyawa",
+    "wikidata": "Q4164590",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "fish sauce"
+    ]
+   },
+   {
+    "dish": "Poolaki",
+    "wikidata": "Q7228599",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Reshteh khoshkar",
+    "wikidata": "Q7315388",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Shekarpareh",
+    "wikidata": "Q13566136",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Shirazi salad",
+    "wikidata": "Q5674757",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Taftan",
+    "wikidata": "Q7675057",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Wagafi bread",
+    "wikidata": "Q7959466",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "bamiyeh",
+    "wikidata": "Q958759",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "ghormeh sabzi",
+    "wikidata": "Q1305079",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "kolompeh",
+    "wikidata": "Q5870874",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "komaj sehen",
+    "wikidata": "Q6466629",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "masghati",
+    "wikidata": "Q20987904",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "qottab",
+    "wikidata": "Q7268152",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "sohan asali",
+    "wikidata": "Q5726175",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Sel roti",
+    "wikidata": "Q7447375",
+    "country": "Nepal",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Sindhi biryani",
+    "wikidata": "Q7522199",
+    "country": "Pakistan",
+    "status": "ready",
+    "version_of": [
+     "biryani"
+    ]
+   },
+   {
+    "dish": "bun kebab",
+    "wikidata": "Q4997397",
+    "country": "Pakistan",
+    "status": "ready",
+    "version_of": [
+     "sandwich",
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "Bibikkan",
+    "wikidata": "Q16498169",
+    "country": "Sri Lanka",
+    "status": "needs_review",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Ceylon",
+    "wikidata": "Q5065778",
+    "country": "Sri Lanka",
+    "status": "needs_review",
+    "version_of": [
+     "curry"
+    ]
+   },
+   {
+    "dish": "Chocolate Biscuit pudding",
+    "wikidata": "Q5103596",
+    "country": "Sri Lanka",
+    "status": "needs_review",
+    "version_of": [
+     "pudding"
+    ]
+   }
+  ],
+  "Southern Europe": [
+   {
+    "dish": "Bosnian pot",
+    "wikidata": "Q894347",
+    "country": "Bosnia and Herzegovina",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Mlinci",
+    "wikidata": "Q1426070",
+    "country": "Croatia",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Rab cake",
+    "wikidata": "Q7278468",
+    "country": "Croatia",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "rožata",
+    "wikidata": "Q3442077",
+    "country": "Croatia",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "kasseropita",
+    "wikidata": "Q6374730",
+    "country": "Greece",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "kourabiedes",
+    "wikidata": "Q19934811",
+    "country": "Greece",
+    "status": "ready",
+    "version_of": [
+     "cookie",
+     "shortbread"
+    ]
+   },
+   {
+    "dish": "Biscuit Tortoni",
+    "wikidata": "Q4917270",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Buccellato di Lucca",
+    "wikidata": "Q3646253",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Caesar salad",
+    "wikidata": "Q275508",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Cuccalar",
+    "wikidata": "Q117847811",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "unleavened bread"
+    ]
+   },
+   {
+    "dish": "Fiadone",
+    "wikidata": "Q391869",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Gianduja",
+    "wikidata": "Q2270630",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "Gibanica",
+    "wikidata": "Q1522820",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Lorighittas",
+    "wikidata": "Q3837149",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pasta"
+    ]
+   },
+   {
+    "dish": "Marinara sauce",
+    "wikidata": "Q2088642",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "tomato sauce"
+    ]
+   },
+   {
+    "dish": "Neapolitan ice cream",
+    "wikidata": "Q644776",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Neapolitan ragù",
+    "wikidata": "Q2306472",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "ragù"
+    ]
+   },
+   {
+    "dish": "Neapolitan sauce",
+    "wikidata": "Q4886791",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "tomato sauce"
+    ]
+   },
+   {
+    "dish": "Olive bread",
+    "wikidata": "Q111283137",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Pan di Spagna",
+    "wikidata": "Q138702126",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "Panbrioche",
+    "wikidata": "Q7130182",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Pane di Altamura PDO",
+    "wikidata": "Q3893185",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Panfocaccia",
+    "wikidata": "Q7130870",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Pantesca salad",
+    "wikidata": "Q55228866",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Pasta mollicata",
+    "wikidata": "Q3897489",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pasta"
+    ]
+   },
+   {
+    "dish": "Prosciutto di Parma PDO",
+    "wikidata": "Q13360207",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "prosciutto"
+    ]
+   },
+   {
+    "dish": "Prosciutto di San Daniele PDO",
+    "wikidata": "Q1412112",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "prosciutto"
+    ]
+   },
+   {
+    "dish": "Spumoni",
+    "wikidata": "Q1052815",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Stracciatella",
+    "wikidata": "Q3499942",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Tartufo",
+    "wikidata": "Q1432826",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Torrone Nurzia",
+    "wikidata": "Q3995782",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Torta paesana",
+    "wikidata": "Q47347125",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Torta setteveli",
+    "wikidata": "Q3995814",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "garlic bread",
+    "wikidata": "Q1359006",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "linguettine",
+    "wikidata": "Q11238659",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pasta"
+    ]
+   },
+   {
+    "dish": "pastina",
+    "wikidata": "Q105015387",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pasta"
+    ]
+   },
+   {
+    "dish": "pizza di Pasqua",
+    "wikidata": "Q3905963",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "pizzetta",
+    "wikidata": "Q25067130",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pizza"
+    ]
+   },
+   {
+    "dish": "stringozzi",
+    "wikidata": "Q20043",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pasta"
+    ]
+   },
+   {
+    "dish": "stuffed pasta",
+    "wikidata": "Q3897491",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pasta"
+    ]
+   },
+   {
+    "dish": "torta 900",
+    "wikidata": "Q86674159",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "tripoline",
+    "wikidata": "Q7843687",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "pasta"
+    ]
+   },
+   {
+    "dish": "Maltese bread",
+    "wikidata": "Q17009352",
+    "country": "Malta",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "pastizz",
+    "wikidata": "Q3368487",
+    "country": "Malta",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Njeguška pršuta",
+    "wikidata": "Q3160844",
+    "country": "Montenegro",
+    "status": "needs_review",
+    "version_of": [
+     "prosciutto",
+     "ham"
+    ]
+   },
+   {
+    "dish": "Pastrmajlija",
+    "wikidata": "Q3397139",
+    "country": "North Macedonia",
+    "status": "needs_review",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "doce de ovos",
+    "wikidata": "Q83397433",
+    "country": "Portugal",
+    "status": "ready",
+    "version_of": [
+     "custard"
+    ]
+   },
+   {
+    "dish": "prego",
+    "wikidata": "Q10353556",
+    "country": "Portugal",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "queijada",
+    "wikidata": "Q10356075",
+    "country": "Portugal",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Torta Tre Monti",
+    "wikidata": "Q3995799",
+    "country": "San Marino",
+    "status": "needs_review",
+    "version_of": [
+     "layer cake"
+    ]
+   },
+   {
+    "dish": "Karađorđeva šnicla",
+    "wikidata": "Q4213720",
+    "country": "Serbia",
+    "status": "needs_review",
+    "version_of": [
+     "schnitzel"
+    ]
+   },
+   {
+    "dish": "Pljeskavica",
+    "wikidata": "Q2089716",
+    "country": "Serbia",
+    "status": "needs_review",
+    "version_of": [
+     "patty"
+    ]
+   },
+   {
+    "dish": "Proja",
+    "wikidata": "Q7248936",
+    "country": "Serbia",
+    "status": "needs_review",
+    "version_of": [
+     "cornbread"
+    ]
+   },
+   {
+    "dish": "Serbian salad",
+    "wikidata": "Q3469475",
+    "country": "Serbia",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "bundevara",
+    "wikidata": "Q18922477",
+    "country": "Serbia",
+    "status": "needs_review",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "urnebes",
+    "wikidata": "Q6593562",
+    "country": "Serbia",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Belokranjska povitica",
+    "wikidata": "Q2895059",
+    "country": "Slovenia",
+    "status": "needs_review",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Fusi",
+    "wikidata": "Q3447542",
+    "country": "Slovenia",
+    "status": "needs_review",
+    "version_of": [
+     "pasta"
+    ]
+   },
+   {
+    "dish": "Potica",
+    "wikidata": "Q11700178",
+    "country": "Slovenia",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Prekmurska gibanica",
+    "wikidata": "Q2524291",
+    "country": "Slovenia",
+    "status": "needs_review",
+    "version_of": [
+     "layer cake"
+    ]
+   },
+   {
+    "dish": "obara",
+    "wikidata": "Q528008",
+    "country": "Slovenia",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "vrtanek",
+    "wikidata": "Q12806195",
+    "country": "Slovenia",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Andrajos",
+    "wikidata": "Q2881895",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Cocido Montañés",
+    "wikidata": "Q927982",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Esgarrat",
+    "wikidata": "Q3751036",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Miguelitos",
+    "wikidata": "Q935937",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Mona de Pascua",
+    "wikidata": "Q3034906",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Neula",
+    "wikidata": "Q3028666",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Pan de Cádiz",
+    "wikidata": "Q6059380",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Pan de cañada",
+    "wikidata": "Q111182015",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Pionono",
+    "wikidata": "Q7196890",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Sobao",
+    "wikidata": "Q3136951",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "Tortita negra",
+    "wikidata": "Q7827307",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Xuixo",
+    "wikidata": "Q3027539",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Yemas de Santa Teresa",
+    "wikidata": "Q2882983",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "bocadillo",
+    "wikidata": "Q2884589",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "submarine sandwich"
+    ]
+   },
+   {
+    "dish": "calamari sandwich",
+    "wikidata": "Q633615",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "fartons",
+    "wikidata": "Q591888",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "hojuela",
+    "wikidata": "Q5877909",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "fritter"
+    ]
+   },
+   {
+    "dish": "leche frita",
+    "wikidata": "Q593209",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "marañuela",
+    "wikidata": "Q9028481",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "pestiños",
+    "wikidata": "Q2227296",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "doughnut",
+     "fritter"
+    ]
+   },
+   {
+    "dish": "picatostes",
+    "wikidata": "Q11699222",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "regañao",
+    "wikidata": "Q11168485",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "bread",
+     "pizza"
+    ]
+   },
+   {
+    "dish": "roscón",
+    "wikidata": "Q7367597",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "roscón de reyes",
+    "wikidata": "Q17015916",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "wafer cookie",
+    "wikidata": "Q1226651",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "biscuit",
+     "unleavened bread"
+    ]
+   }
+  ],
+  "Western Africa": [
+   {
+    "dish": "Cachupa",
+    "wikidata": "Q2060858",
+    "country": "Cape Verde",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Funkaso",
+    "wikidata": "Q5509249",
+    "country": "Nigeria",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "Okpa",
+    "wikidata": "Q112610072",
+    "country": "Nigeria",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "palm nut soup",
+    "wikidata": "Q17005230",
+    "country": "Nigeria",
+    "status": "ready",
+    "version_of": [
+     "fruit soup"
+    ]
+   },
+   {
+    "dish": "Tapalapa",
+    "wikidata": "Q7684416",
+    "country": "Senegal",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "domoda",
+    "wikidata": "Q1238597",
+    "country": "The Gambia",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   }
+  ],
+  "Western Asia": [
+   {
+    "dish": "Gata",
+    "wikidata": "Q2971383",
+    "country": "Armenia",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Ghapama",
+    "wikidata": "Q3104777",
+    "country": "Armenia",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Matnakash",
+    "wikidata": "Q2604496",
+    "country": "Armenia",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Nazook",
+    "wikidata": "Q26693028",
+    "country": "Armenia",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Lula kebab",
+    "wikidata": "Q1105512",
+    "country": "Azerbaijan",
+    "status": "ready",
+    "version_of": [
+     "kebab"
+    ]
+   },
+   {
+    "dish": "badambura",
+    "wikidata": "Q12837200",
+    "country": "Azerbaijan",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "piti",
+    "wikidata": "Q7198960",
+    "country": "Azerbaijan",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "qutab",
+    "wikidata": "Q4249417",
+    "country": "Azerbaijan",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Hellimli",
+    "wikidata": "Q5707569",
+    "country": "Cyprus",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Chanakhi",
+    "wikidata": "Q2378108",
+    "country": "Georgia",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Elarji",
+    "wikidata": "Q47038431",
+    "country": "Georgia",
+    "status": "needs_review",
+    "version_of": [
+     "kasha"
+    ]
+   },
+   {
+    "dish": "Kubdari",
+    "wikidata": "Q6441202",
+    "country": "Georgia",
+    "status": "needs_review",
+    "version_of": [
+     "bread",
+     "cake"
+    ]
+   },
+   {
+    "dish": "Lobiani",
+    "wikidata": "Q16909052",
+    "country": "Georgia",
+    "status": "needs_review",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Shoti",
+    "wikidata": "Q2920132",
+    "country": "Georgia",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "chakhokhbili",
+    "wikidata": "Q1047978",
+    "country": "Georgia",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "khachapuri",
+    "wikidata": "Q279575",
+    "country": "Georgia",
+    "status": "needs_review",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "lobio",
+    "wikidata": "Q1858518",
+    "country": "Georgia",
+    "status": "needs_review",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "ِAbbas bread",
+    "wikidata": "Q131564107",
+    "country": "Iraq",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Bagel toast",
+    "wikidata": "Q2904916",
+    "country": "Israel",
+    "status": "needs_review",
+    "version_of": [
+     "open sandwich"
+    ]
+   },
+   {
+    "dish": "Halva ice cream",
+    "wikidata": "Q19572039",
+    "country": "Israel",
+    "status": "needs_review",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Israeli eggplant salad",
+    "wikidata": "Q17050599",
+    "country": "Israel",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "Sabich salad",
+    "wikidata": "Q17016362",
+    "country": "Israel",
+    "status": "needs_review",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "malawach",
+    "wikidata": "Q2907412",
+    "country": "Israel",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Shʿifūra",
+    "wikidata": "Q107695675",
+    "country": "Syria",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "markook",
+    "wikidata": "Q2095020",
+    "country": "Syria",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Ayvalık tostu",
+    "wikidata": "Q85428376",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Cezerye",
+    "wikidata": "Q2338350",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Ekmek kadayıfı",
+    "wikidata": "Q4811799",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Harput meatballs",
+    "wikidata": "Q16841290",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "meatball"
+    ]
+   },
+   {
+    "dish": "Kandil simidi",
+    "wikidata": "Q6013161",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Kačamak",
+    "wikidata": "Q15635457",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "porridge"
+    ]
+   },
+   {
+    "dish": "Kolot",
+    "wikidata": "Q6427832",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "bread roll"
+    ]
+   },
+   {
+    "dish": "Kuzu haşlama",
+    "wikidata": "Q20108295",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Mirik meatball",
+    "wikidata": "Q16934063",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "meatball"
+    ]
+   },
+   {
+    "dish": "Pepeçura",
+    "wikidata": "Q15686391",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
+    "dish": "Ramadan pide",
+    "wikidata": "Q13644362",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Wet hamburger",
+    "wikidata": "Q116376913",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "hamburger"
+    ]
+   },
+   {
+    "dish": "balık ekmek",
+    "wikidata": "Q17355815",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "güveç",
+    "wikidata": "Q342208",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "kumru",
+    "wikidata": "Q4833482",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "tas kebab",
+    "wikidata": "Q18671599",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "zelnik",
+    "wikidata": "Q8068822",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "çörek",
+    "wikidata": "Q12849581",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "İnegöl meatballs",
+    "wikidata": "Q14931087",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "meatball"
+    ]
+   },
+   {
+    "dish": "Dubai chocolate",
+    "wikidata": "Q130571534",
+    "country": "United Arab Emirates",
+    "status": "needs_review",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "Fatoot",
+    "wikidata": "Q618910",
+    "country": "Yemen",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Jachnun",
+    "wikidata": "Q1960279",
+    "country": "Yemen",
+    "status": "needs_review",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Kubaneh",
+    "wikidata": "Q6588272",
+    "country": "Yemen",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   }
+  ],
+  "Western Europe": [
+   {
+    "dish": "Allerheiligenstriezel",
+    "wikidata": "Q1125542",
+    "country": "Austria",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Bosna",
+    "wikidata": "Q358507",
+    "country": "Austria",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Kaiser roll",
+    "wikidata": "Q156036",
+    "country": "Austria",
+    "status": "ready",
+    "version_of": [
+     "bread roll"
+    ]
+   },
+   {
+    "dish": "Knieküchle",
+    "wikidata": "Q875287",
+    "country": "Austria",
+    "status": "ready",
+    "version_of": [
+     "pastry",
+     "cruller"
+    ]
+   },
+   {
+    "dish": "Mozartkugel",
+    "wikidata": "Q263223",
+    "country": "Austria",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Vienna bread",
+    "wikidata": "Q3031313",
+    "country": "Austria",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Antwerps Handje",
+    "wikidata": "Q3278369",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Belgian chocolate",
+    "wikidata": "Q2964269",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "Belgian praline",
+    "wikidata": "Q2290274",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Belgian waffle",
+    "wikidata": "Q62271704",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "waffle"
+    ]
+   },
+   {
+    "dish": "Boûkète",
+    "wikidata": "Q2922222",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "pancake"
+    ]
+   },
+   {
+    "dish": "Brussels waffle",
+    "wikidata": "Q1855212",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "waffle"
+    ]
+   },
+   {
+    "dish": "Misérable cake",
+    "wikidata": "Q25060346",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "dagobert",
+    "wikidata": "Q2785975",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "submarine sandwich"
+    ]
+   },
+   {
+    "dish": "flying saucer",
+    "wikidata": "Q5463599",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "merveilleux",
+    "wikidata": "Q18595468",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "pistolet",
+    "wikidata": "Q2782605",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "bread roll"
+    ]
+   },
+   {
+    "dish": "ruby chocolate",
+    "wikidata": "Q42417413",
+    "country": "Belgium",
+    "status": "ready",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "Bredela",
+    "wikidata": "Q2924275",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "Canelé",
+    "wikidata": "Q2746070",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Chiboust cream",
+    "wikidata": "Q3006036",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "custard"
+    ]
+   },
+   {
+    "dish": "Conversation tart",
+    "wikidata": "Q2996393",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "tart"
+    ]
+   },
+   {
+    "dish": "Countess (shortbread)",
+    "wikidata": "Q27442274",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "shortbread"
+    ]
+   },
+   {
+    "dish": "Coussin de Lyon",
+    "wikidata": "Q10220",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Faluche",
+    "wikidata": "Q3064828",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Flamiche",
+    "wikidata": "Q3073285",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   },
+   {
+    "dish": "Génoise cake",
+    "wikidata": "Q11413827",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "Mendiant",
+    "wikidata": "Q15955973",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "Navarin",
+    "wikidata": "Q2718037",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Paris–Brest",
+    "wikidata": "Q1137495",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Paupiette",
+    "wikidata": "Q4273466",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "roulade"
+    ]
+   },
+   {
+    "dish": "Plombir",
+    "wikidata": "Q56411177",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Plombières",
+    "wikidata": "Q3108252",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "ice cream"
+    ]
+   },
+   {
+    "dish": "Puits d'amour",
+    "wikidata": "Q3410675",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Religieuse",
+    "wikidata": "Q55152",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Sablé",
+    "wikidata": "Q2915670",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Salade cauchoise",
+    "wikidata": "Q3469460",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "salad"
+    ]
+   },
+   {
+    "dish": "biscuit rose de Reims",
+    "wikidata": "Q2904639",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "broyé du Poitou",
+    "wikidata": "Q2926353",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "canapé",
+    "wikidata": "Q1032806",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "open sandwich"
+    ]
+   },
+   {
+    "dish": "cat tongues",
+    "wikidata": "Q960635",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "cookie",
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "cholent",
+    "wikidata": "Q1433558",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "crème anglaise",
+    "wikidata": "Q1342574",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "custard"
+    ]
+   },
+   {
+    "dish": "dacquoise",
+    "wikidata": "Q552291",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "dried fruit bread",
+    "wikidata": "Q267554",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "financier",
+    "wikidata": "Q588378",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "ganache",
+    "wikidata": "Q1242466",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "gâteau nantais",
+    "wikidata": "Q20723323",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "pastry",
+     "pound cake"
+    ]
+   },
+   {
+    "dish": "opera cake",
+    "wikidata": "Q1858875",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
+    "dish": "pain brié",
+    "wikidata": "Q3360569",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "potée",
+    "wikidata": "Q16861482",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "tartlet",
+    "wikidata": "Q48792394",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "tart"
+    ]
+   },
+   {
+    "dish": "Bethmännchen",
+    "wikidata": "Q831381",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Butterbrot",
+    "wikidata": "Q1018075",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "bread",
+     "open sandwich"
+    ]
+   },
+   {
+    "dish": "Dominostein",
+    "wikidata": "Q32977",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "Donauwelle",
+    "wikidata": "Q829243",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "Eintopf",
+    "wikidata": "Q267497",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Fanta Cake",
+    "wikidata": "Q42417569",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "Frankfurter Kranz",
+    "wikidata": "Q457255",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "sponge cake"
+    ]
+   },
+   {
+    "dish": "Haddekuche",
+    "wikidata": "Q317872",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "gingerbread"
+    ]
+   },
+   {
+    "dish": "Kommissbrot",
+    "wikidata": "Q646237",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Kottenbutter",
+    "wikidata": "Q895678",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "sandwich",
+     "open sandwich"
+    ]
+   },
+   {
+    "dish": "Leipziger Lerche",
+    "wikidata": "Q453741",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Mutschel",
+    "wikidata": "Q473662",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Panhas",
+    "wikidata": "Q130465645",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "blood sausage"
+    ]
+   },
+   {
+    "dish": "Schneeball",
+    "wikidata": "Q2247208",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Schuxen",
+    "wikidata": "Q2252452",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Stemmelkort",
+    "wikidata": "Q39045630",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "patty"
+    ]
+   },
+   {
+    "dish": "Strammer Max",
+    "wikidata": "Q516212",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "Wurstbrot",
+    "wikidata": "Q2595324",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "sandwich"
+    ]
+   },
+   {
+    "dish": "blood tongue",
+    "wikidata": "Q1872856",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "head cheese"
+    ]
+   },
+   {
+    "dish": "buckwheat gateau",
+    "wikidata": "Q4983569",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "torte"
+    ]
+   },
+   {
+    "dish": "flönz",
+    "wikidata": "Q151380",
+    "country": "Germany",
+    "status": "ready",
+    "version_of": [
+     "blood sausage"
+    ]
+   },
+   {
+    "dish": "Achappam",
+    "wikidata": "Q6426645",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Bossche bol",
+    "wikidata": "Q681488",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Drabbelkoek",
+    "wikidata": "Q507591",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "cookie"
+    ]
+   },
+   {
+    "dish": "Dutch-process cocoa",
+    "wikidata": "Q898835",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "chocolate"
+    ]
+   },
+   {
+    "dish": "Hachee",
+    "wikidata": "Q3094881",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "stew"
+    ]
+   },
+   {
+    "dish": "Stip",
+    "wikidata": "Q2619014",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "porridge"
+    ]
+   },
+   {
+    "dish": "Tiger bread",
+    "wikidata": "Q922721",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Uitsmijter",
+    "wikidata": "Q139960699",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "open sandwich"
+    ]
+   },
+   {
+    "dish": "banket",
+    "wikidata": "Q2468930",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "crompouce",
+    "wikidata": "Q123457994",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "currant bun",
+    "wikidata": "Q106680422",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "bread roll"
+    ]
+   },
+   {
+    "dish": "nonnevot",
+    "wikidata": "Q2457672",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "pastry",
+     "doughnut"
+    ]
+   },
+   {
+    "dish": "speculaas biscuit",
+    "wikidata": "Q6591",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "biscuit"
+    ]
+   },
+   {
+    "dish": "tompouce",
+    "wikidata": "Q17137076",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "mille-feuille"
+    ]
+   },
+   {
+    "dish": "zwieback",
+    "wikidata": "Q2462111",
+    "country": "Netherlands",
+    "status": "ready",
+    "version_of": [
+     "bread roll"
+    ]
+   },
+   {
+    "dish": "Basler Brot",
+    "wikidata": "Q393573",
+    "country": "Switzerland",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Berner Haselnusslebkuchen",
+    "wikidata": "Q17002268",
+    "country": "Switzerland",
+    "status": "ready",
+    "version_of": [
+     "lebkuchen"
+    ]
+   },
+   {
+    "dish": "Berner Honiglebkuchen",
+    "wikidata": "Q4894109",
+    "country": "Switzerland",
+    "status": "ready",
+    "version_of": [
+     "lebkuchen"
+    ]
+   },
+   {
+    "dish": "Burebrot",
+    "wikidata": "Q3647260",
+    "country": "Switzerland",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "Spanisch Brötli",
+    "wikidata": "Q290233",
+    "country": "Switzerland",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Stutenkerl",
+    "wikidata": "Q153944",
+    "country": "Switzerland",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "Taillé aux greubons",
+    "wikidata": "Q3514033",
+    "country": "Switzerland",
+    "status": "ready",
+    "version_of": [
+     "pastry"
+    ]
+   },
+   {
+    "dish": "hematogen",
+    "wikidata": "Q1963961",
+    "country": "Switzerland",
+    "status": "ready",
+    "version_of": [
+     "confectionery"
+    ]
+   },
+   {
+    "dish": "totché",
+    "wikidata": "Q43372008",
+    "country": "Switzerland",
+    "status": "ready",
+    "version_of": [
+     "pie"
+    ]
+   }
+  ]
+ }
+}

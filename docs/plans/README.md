@@ -285,8 +285,10 @@ Nothing is invented: only our data, Wikidata and notebook 15.
    flavour ("peanut butter fudge" is Fudge); the review sheet `docs/audits/dish_link_review.csv` waits for the
    team. Every recipe is now a Food Graph node (`recipe_of`, `named_for` a food entry, else `recipe_from` its
    place).
-9. Next: the Global Culinary Atlas audit (per-zone next-dish lists, coverage scores, review queues). It needs a
-   sourced subregion scheme first: Wikidata's links to the UN regions are too patchy (no Western Europe).
+9. Global Culinary Atlas audit (done 2026-11-22): the UN's regions from Unicode CLDR (Wikidata's links to them
+   were too patchy), a score per continent and subregion, per-continent next-dish lists, missing versions and the
+   review queue (`docs/audits/global_culinary_atlas.md`). The Balkans and Siberia wait for a published source
+   that draws them.
 
 ### 0.8.0 (planned 2026-10-26): chat with the chef, and a real store locator
 

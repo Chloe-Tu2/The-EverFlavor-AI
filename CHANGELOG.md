@@ -18,6 +18,10 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 
 ### Added
 
+- **Global Culinary Atlas audit** (`docs/audits/global_culinary_atlas.md`, reports only): coverage by the UN's
+  22 world regions (Unicode CLDR), a breadth-and-depth score per continent and subregion, the gaps (Western and
+  Middle Africa, Central Asia, Melanesia, Micronesia and Polynesia have no dish yet), up to 500 ready next dishes
+  per continent, 812 missing versions of dishes we show, and the 357-dish review queue grouped by problem.
 - **Every recipe is a Food Graph node** (`FoodGraph.add_recipes`): `recipe_of` its dish, `named_for` a food or
   drink entry (a recipe called "Salmon"), else `recipe_from` the place its source's labels name. 83% of the
   291,755 recipes now reach the place tree, against 27% through a dish; 50,673 stay nodes without an edge, never a

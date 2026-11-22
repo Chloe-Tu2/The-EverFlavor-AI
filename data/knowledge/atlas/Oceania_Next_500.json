@@ -1,0 +1,156 @@
+{
+ "about": {
+  "built_on": "2026-11-22",
+  "by": "scripts/knowledge/atlas_audit.py",
+  "regions": {
+   "name": "Unicode CLDR territory containment (UN M49 regions)",
+   "version": "49",
+   "url": "https://github.com/unicode-org/cldr-json",
+   "licence": "Unicode License V3; Copyright (c) 2015-2024 Unicode, Inc.",
+   "retrieved": "2026-11-22"
+  },
+  "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
+ },
+ "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
+ "count": 6,
+ "dishes": [
+  {
+   "dish": "Bush bread",
+   "wikidata": "Q1017266",
+   "country": "Australia",
+   "subregion": "Australasia",
+   "families": [
+    "bread"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q1017266",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bush_bread",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Goody good gum drops",
+   "wikidata": "Q123142484",
+   "country": "New Zealand",
+   "subregion": "Australasia",
+   "families": [
+    "ice cream"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q123142484",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Goody_Goody_Gum_Drops",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Patties pie",
+   "wikidata": "Q7148573",
+   "country": "Australia",
+   "subregion": "Australasia",
+   "families": [
+    "pie"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q7148573",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Patties_pie",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "hamdog",
+   "wikidata": "Q5644416",
+   "country": "Australia",
+   "subregion": "Australasia",
+   "families": [
+    "hamburger"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q5644416",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Hamdog",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "prawn roll",
+   "wikidata": "Q7238914",
+   "country": "Australia",
+   "subregion": "Australasia",
+   "families": [
+    "sandwich"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q7238914",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Prawn_roll",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Smiley fritz",
+   "wikidata": "Q126946571",
+   "country": "Australia",
+   "subregion": "Australasia",
+   "families": [
+    "sausage"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q126946571",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Smiley_fritz",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  }
+ ]
+}

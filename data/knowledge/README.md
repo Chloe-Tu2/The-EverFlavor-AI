@@ -13,6 +13,11 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   cleaned dish name), by source and by how the name matched, and the dishes with no recipe; counts only, from
   `scripts/knowledge/recipe_dish_links.py` (2026-11-22, with rule L1: 77,560 of 291,755 recipes; see
   `docs/audits/recipe_dish_linking.md`).
+- `atlas/`: the Global Culinary Atlas audit (`scripts/knowledge/atlas_audit.py`): `regions.json` (the UN's M49
+  regions from Unicode CLDR, Unicode License V3), `coverage_scores.json` per continent, subregion and country,
+  `missing_regions.json`, `missing_variants.json`, `regional_expansion_backlog.json`,
+  `publication_review_queue.json` and one `<Continent>_Next_500.json` each (ready dishes only, for a person to
+  approve; nothing is published).
 - `recipe_graph_counts.json`: every recipe as a Food Graph node and the edge it gets (`recipe_of`, `named_for`,
   `recipe_from` its place, or none), by source and by place; counts only, from `scripts/knowledge/recipe_graph.py`.
 - `walter_context.json`, `discovery_paths.json`, `map_prep.json`: read off the Food Graph by

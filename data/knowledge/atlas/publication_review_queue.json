@@ -1,0 +1,3354 @@
+{
+ "about": {
+  "built_on": "2026-11-22",
+  "by": "scripts/knowledge/atlas_audit.py",
+  "regions": {
+   "name": "Unicode CLDR territory containment (UN M49 regions)",
+   "version": "49",
+   "url": "https://github.com/unicode-org/cldr-json",
+   "licence": "Unicode License V3; Copyright (c) 2015-2024 Unicode, Inc.",
+   "retrieved": "2026-11-22"
+  },
+  "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
+ },
+ "rule": "Every backlog dish a person must check before it can be added; nothing here is published. Grouped by the problem found.",
+ "by_problem": {
+  "in more than 3 families: check which one it belongs to": 51,
+  "'Korea' is not one of today's countries (a region, city or former state): a person places it": 30,
+  "Romania is not in the place tree yet": 20,
+  "Georgia is not in the place tree yet": 19,
+  "Slovenia is not in the place tree yet": 11,
+  "Myanmar is not in the place tree yet": 9,
+  "Serbia is not in the place tree yet": 8,
+  "a plant or animal on Wikidata, not a dish": 7,
+  "Ghana is not in the place tree yet": 7,
+  "Sri Lanka is not in the place tree yet": 7,
+  "Yemen is not in the place tree yet": 7,
+  "Israel is not in the place tree yet": 6,
+  "Kazakhstan is not in the place tree yet": 5,
+  "Paraguay is not in the place tree yet": 5,
+  "Trinidad and Tobago is not in the place tree yet": 5,
+  "Cyprus is not in the place tree yet": 4,
+  "Guam is not in the place tree yet": 4,
+  "Moldova is not in the place tree yet": 4,
+  "Mongolia is not in the place tree yet": 4,
+  "Bhutan is not in the place tree yet": 3,
+  "Bosnia and Herzegovina is not in the place tree yet": 3,
+  "Dominican Republic is not in the place tree yet": 3,
+  "'Europe' is not one of today's countries (a region, city or former state): a person places it": 3,
+  "Haiti is not in the place tree yet": 3,
+  "Lithuania is not in the place tree yet": 3,
+  "'Maghreb' is not one of today's countries (a region, city or former state): a person places it": 3,
+  "Maldives is not in the place tree yet": 3,
+  "Malta is not in the place tree yet": 3,
+  "Singapore is not in the place tree yet": 3,
+  "Uganda is not in the place tree yet": 3,
+  "'West Germany' is not one of today's countries (a region, city or former state): a person places it": 3,
+  "'Ancient Rome' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "'British Raj' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "'Central Europe' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "'Eastern Europe' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "El Salvador is not in the place tree yet": 2,
+  "Latvia is not in the place tree yet": 2,
+  "Madagascar is not in the place tree yet": 2,
+  "'Mughal Empire' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "Nicaragua is not in the place tree yet": 2,
+  "'North Africa' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "North Korea is not in the place tree yet": 2,
+  "North Macedonia is not in the place tree yet": 2,
+  "'Portuguese India' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "'Quebec' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "'Roman Empire' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "'Soviet Union' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "'Sultanate of Maguindanao' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "'Tibet Autonomous Region' is not one of today's countries (a region, city or former state): a person places it": 2,
+  "Uzbekistan is not in the place tree yet": 2,
+  "'Abkhazia' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Africa' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Ancient Greece' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Basque Country' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Bavaria' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "Bermuda is not in the place tree yet": 1,
+  "Bolivia is not in the place tree yet": 1,
+  "'British Hong Kong' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Byzantine Empire' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "Cameroon is not in the place tree yet": 1,
+  "Cape Verde is not in the place tree yet": 1,
+  "'Carpathians' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Caucasus' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Central Asia' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Circassia' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Cochabamba' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Corsica' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'East Asia' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'East Germany' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Florence' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Galicia' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Goryeo' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "Greenland is not in the place tree yet": 1,
+  "'Hesse' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Hyderabad State' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Indian subcontinent' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "Jersey is not in the place tree yet": 1,
+  "Jordan is not in the place tree yet": 1,
+  "'Kingdom of England' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "Kuwait is not in the place tree yet": 1,
+  "Kyrgyzstan is not in the place tree yet": 1,
+  "'Kyushu' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Levant' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "Luxembourg is not in the place tree yet": 1,
+  "Malawi is not in the place tree yet": 1,
+  "Mali is not in the place tree yet": 1,
+  "Mauritania is not in the place tree yet": 1,
+  "'Mesoamerica' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Middle East' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Min Nan' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "Montenegro is not in the place tree yet": 1,
+  "Montserrat is not in the place tree yet": 1,
+  "Mozambique is not in the place tree yet": 1,
+  "'Netherlands Antilles' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'New York City' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'North America' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Odisha' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Ossetia' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Ottoman Empire' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Pale of Settlement' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Persian Empire' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Polish–Lithuanian Commonwealth' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Portuguese Macau' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Punjab' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Qajar Iran' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Russian Empire' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Ryukyu Kingdom' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "San Marino is not in the place tree yet": 1,
+  "Senegal is not in the place tree yet": 1,
+  "'Tahiti' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "Tajikistan is not in the place tree yet": 1,
+  "Tanzania is not in the place tree yet": 1,
+  "'Tatarstan' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "The Gambia is not in the place tree yet": 1,
+  "'Thuringia' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "Togo is not in the place tree yet": 1,
+  "'Turin' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "United Arab Emirates is not in the place tree yet": 1,
+  "United States Virgin Islands is not in the place tree yet": 1,
+  "'West Africa' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "'Xinjiang' is not one of today's countries (a region, city or former state): a person places it": 1
+ },
+ "dishes": [
+  {
+   "dish": "Abkhazian cheese",
+   "wikidata": "Q110605440",
+   "country": "Abkhazia",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Abkhazia' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "bushmeat",
+   "wikidata": "Q649978",
+   "country": "Africa",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Africa' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Chian wine",
+   "wikidata": "Q1241955",
+   "country": "Ancient Greece",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Ancient Greece' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "mola salsa",
+   "wikidata": "Q2267393",
+   "country": "Ancient Rome",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Ancient Rome' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "moretum",
+   "wikidata": "Q766999",
+   "country": "Ancient Rome",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Ancient Rome' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "gâteau Basque",
+   "wikidata": "Q683495",
+   "country": "Basque Country",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Basque Country' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Rumford's Soup",
+   "wikidata": "Q356346",
+   "country": "Bavaria",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Bavaria' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Bermuda fish chowder",
+   "wikidata": "Q4892695",
+   "country": "Bermuda",
+   "subregion": "Northern America",
+   "problems": [
+    "Bermuda is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Bhutanese red rice",
+   "wikidata": "Q11144306",
+   "country": "Bhutan",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Bhutan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Datshi",
+   "wikidata": "Q11774318",
+   "country": "Bhutan",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Bhutan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Tsheringma tea",
+   "wikidata": "Q4513001",
+   "country": "Bhutan",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Bhutan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Chola sandwich",
+   "wikidata": "Q61579505",
+   "country": "Bolivia",
+   "subregion": "South America",
+   "problems": [
+    "Bolivia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Bosnian pot",
+   "wikidata": "Q894347",
+   "country": "Bosnia and Herzegovina",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Bosnia and Herzegovina is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Bosnian smoked cheese",
+   "wikidata": "Q30600188",
+   "country": "Bosnia and Herzegovina",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Bosnia and Herzegovina is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Livno cheese",
+   "wikidata": "Q3437219",
+   "country": "Bosnia and Herzegovina",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Bosnia and Herzegovina is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "shrimp toast",
+   "wikidata": "Q873336",
+   "country": "British Hong Kong",
+   "subregion": "(not placed)",
+   "problems": [
+    "'British Hong Kong' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Kolkata biryani",
+   "wikidata": "Q42369886",
+   "country": "British Raj",
+   "subregion": "(not placed)",
+   "problems": [
+    "'British Raj' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "chomchom",
+   "wikidata": "Q3666048",
+   "country": "British Raj",
+   "subregion": "(not placed)",
+   "problems": [
+    "'British Raj' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Lalanga",
+   "wikidata": "Q108770407",
+   "country": "Byzantine Empire",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Byzantine Empire' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Ndolé",
+   "wikidata": "Q1131837",
+   "country": "Cameroon",
+   "subregion": "Middle Africa",
+   "problems": [
+    "Cameroon is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Cachupa",
+   "wikidata": "Q2060858",
+   "country": "Cape Verde",
+   "subregion": "Western Africa",
+   "problems": [
+    "Cape Verde is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Hutsul bryndza",
+   "wikidata": "Q131757744",
+   "country": "Carpathians",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Carpathians' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "soyutma",
+   "wikidata": "Q12845878",
+   "country": "Caucasus",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Caucasus' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "samsa",
+   "wikidata": "Q3470936",
+   "country": "Central Asia",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Central Asia' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Kugel",
+   "wikidata": "Q1639621",
+   "country": "Central Europe",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Central Europe' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "hamantash",
+   "wikidata": "Q1519830",
+   "country": "Central Europe",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Central Europe' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Japanese radish",
+   "wikidata": "Q28048050",
+   "country": "China",
+   "subregion": "Eastern Asia",
+   "problems": [
+    "a plant or animal on Wikidata, not a dish"
+   ]
+  },
+  {
+   "dish": "Circassian smoked cheese",
+   "wikidata": "Q14395710",
+   "country": "Circassia",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Circassia' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Trancapecho",
+   "wikidata": "Q28134524",
+   "country": "Cochabamba",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Cochabamba' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Brocciu",
+   "wikidata": "Q761524",
+   "country": "Corsica",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Corsica' is not one of today's countries (a region, city or former state): a person places it",
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Anari cheese",
+   "wikidata": "Q2669426",
+   "country": "Cyprus",
+   "subregion": "Western Asia",
+   "problems": [
+    "Cyprus is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Apohtin",
+   "wikidata": "Q21503823",
+   "country": "Cyprus",
+   "subregion": "Western Asia",
+   "problems": [
+    "Cyprus is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Hellimli",
+   "wikidata": "Q5707569",
+   "country": "Cyprus",
+   "subregion": "Western Asia",
+   "problems": [
+    "Cyprus is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Tsamarella",
+   "wikidata": "Q7849346",
+   "country": "Cyprus",
+   "subregion": "Western Asia",
+   "problems": [
+    "Cyprus is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Bizcocho Dominicano",
+   "wikidata": "Q25058467",
+   "country": "Dominican Republic",
+   "subregion": "Caribbean",
+   "problems": [
+    "Dominican Republic is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Moro de guandules",
+   "wikidata": "Q16910822",
+   "country": "Dominican Republic",
+   "subregion": "Caribbean",
+   "problems": [
+    "Dominican Republic is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "chimichurri burger",
+   "wikidata": "Q5099374",
+   "country": "Dominican Republic",
+   "subregion": "Caribbean",
+   "problems": [
+    "Dominican Republic is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "hot mustard",
+   "wikidata": "Q69526099",
+   "country": "East Asia",
+   "subregion": "(not placed)",
+   "problems": [
+    "'East Asia' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Ketwurst",
+   "wikidata": "Q463872",
+   "country": "East Germany",
+   "subregion": "(not placed)",
+   "problems": [
+    "'East Germany' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Farfel",
+   "wikidata": "Q1187846",
+   "country": "Eastern Europe",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Eastern Europe' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Holishkes",
+   "wikidata": "Q5880655",
+   "country": "Eastern Europe",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Eastern Europe' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Sopa de pata",
+   "wikidata": "Q5803846",
+   "country": "El Salvador",
+   "subregion": "Central America",
+   "problems": [
+    "El Salvador is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "pupusa",
+   "wikidata": "Q612128",
+   "country": "El Salvador",
+   "subregion": "Central America",
+   "problems": [
+    "El Salvador is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "flan",
+   "wikidata": "Q14747193",
+   "country": "Europe",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Europe' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "gingerbread man",
+   "wikidata": "Q2984665",
+   "country": "Europe",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Europe' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "makaroni schotel",
+   "wikidata": "Q96742825",
+   "country": "Europe",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Europe' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Florentine biscuit",
+   "wikidata": "Q1429469",
+   "country": "Florence",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Florence' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Banon cheese",
+   "wikidata": "Q772326",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Bleu d'Auvergne",
+   "wikidata": "Q883954",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Brie de Meaux",
+   "wikidata": "Q749378",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Brie de Melun",
+   "wikidata": "Q545994",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Cabécou",
+   "wikidata": "Q954122",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Chaumes",
+   "wikidata": "Q1068392",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Couronne lochoise",
+   "wikidata": "Q2165362",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Etorki",
+   "wikidata": "Q531501",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Faisselle",
+   "wikidata": "Q3064619",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Mont des Cats",
+   "wikidata": "Q117022",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Mâconnais cheese",
+   "wikidata": "Q517409",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Oignon de Roscoff",
+   "wikidata": "Q3349932",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "a plant or animal on Wikidata, not a dish"
+   ]
+  },
+  {
+   "dish": "Olivet cendré",
+   "wikidata": "Q302947",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Ossau-Iraty",
+   "wikidata": "Q520598",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Perail",
+   "wikidata": "Q1995784",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Picodon",
+   "wikidata": "Q1245576",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Pont-l'Évêque",
+   "wikidata": "Q1233145",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Port Salut",
+   "wikidata": "Q1854615",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Pouligny-saint-pierre",
+   "wikidata": "Q640839",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Pélardon",
+   "wikidata": "Q965981",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Reblochon",
+   "wikidata": "Q543805",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Rocamadour",
+   "wikidata": "Q768189",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Rochebaron",
+   "wikidata": "Q2797509",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Saint Albray",
+   "wikidata": "Q1218531",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Saint-Marcellin",
+   "wikidata": "Q510126",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Saint-Nectaire",
+   "wikidata": "Q548309",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Saint-Paulin cheese",
+   "wikidata": "Q1649867",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Sainte-Maure de Touraine",
+   "wikidata": "Q652628",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Selles-sur-Cher cheese",
+   "wikidata": "Q1249172",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Tomme des Pyrénées",
+   "wikidata": "Q1227853",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Valençay",
+   "wikidata": "Q659277",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "abondance",
+   "wikidata": "Q322899",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "bleu de Gex",
+   "wikidata": "Q1231078",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "bleu des Causses",
+   "wikidata": "Q883938",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "chabichou",
+   "wikidata": "Q1058296",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "charolais",
+   "wikidata": "Q1067646",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "chevrotin",
+   "wikidata": "Q1071353",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "fourme de Montbrison",
+   "wikidata": "Q1245441",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "laguiole cheese",
+   "wikidata": "Q681326",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "morbier",
+   "wikidata": "Q177727",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "munster",
+   "wikidata": "Q765540",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "neufchâtel",
+   "wikidata": "Q1241190",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "rigotte de Condrieu",
+   "wikidata": "Q2089007",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "salers",
+   "wikidata": "Q1245627",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "tome des Bauges",
+   "wikidata": "Q524966",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Époisses",
+   "wikidata": "Q1231414",
+   "country": "France",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "miodownik",
+   "wikidata": "Q20033690",
+   "country": "Galicia",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Galicia' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Chanakhi",
+   "wikidata": "Q2378108",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Chikhirtma",
+   "wikidata": "Q4516736",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Elarji",
+   "wikidata": "Q47038431",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Georgian cheese",
+   "wikidata": "Q5548067",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Khinkali",
+   "wikidata": "Q971820",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kubdari",
+   "wikidata": "Q6441202",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kupati",
+   "wikidata": "Q3250451",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Lobiani",
+   "wikidata": "Q16909052",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Mchadi",
+   "wikidata": "Q12838065",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Satsivi",
+   "wikidata": "Q2976457",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Shoti",
+   "wikidata": "Q2920132",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Tenili",
+   "wikidata": "Q35547504",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Tkemali",
+   "wikidata": "Q65028",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Tonis puri",
+   "wikidata": "Q7820827",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "acıka",
+   "wikidata": "Q378283",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "chakhokhbili",
+   "wikidata": "Q1047978",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "khachapuri",
+   "wikidata": "Q279575",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "kharcho",
+   "wikidata": "Q2622030",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "lobio",
+   "wikidata": "Q1858518",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "problems": [
+    "Georgia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Abunuabunu",
+   "wikidata": "Q64490692",
+   "country": "Ghana",
+   "subregion": "Western Africa",
+   "problems": [
+    "Ghana is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kenkey",
+   "wikidata": "Q1742211",
+   "country": "Ghana",
+   "subregion": "Western Africa",
+   "problems": [
+    "Ghana is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kokonte",
+   "wikidata": "Q20855028",
+   "country": "Ghana",
+   "subregion": "Western Africa",
+   "problems": [
+    "Ghana is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Plakali",
+   "wikidata": "Q3391081",
+   "country": "Ghana",
+   "subregion": "Western Africa",
+   "problems": [
+    "Ghana is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "banku",
+   "wikidata": "Q806839",
+   "country": "Ghana",
+   "subregion": "Western Africa",
+   "problems": [
+    "Ghana is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "jollof rice",
+   "wikidata": "Q816663",
+   "country": "Ghana",
+   "subregion": "Western Africa",
+   "problems": [
+    "Ghana is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "omo tuo",
+   "wikidata": "Q18357204",
+   "country": "Ghana",
+   "subregion": "Western Africa",
+   "problems": [
+    "Ghana is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "mandu",
+   "wikidata": "Q284983",
+   "country": "Goryeo",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Goryeo' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Suaasat",
+   "wikidata": "Q7630428",
+   "country": "Greenland",
+   "subregion": "Northern America",
+   "problems": [
+    "Greenland is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Guyuria",
+   "wikidata": "Q5622888",
+   "country": "Guam",
+   "subregion": "Micronesian Region",
+   "problems": [
+    "Guam is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kalamai",
+   "wikidata": "Q3192094",
+   "country": "Guam",
+   "subregion": "Micronesian Region",
+   "problems": [
+    "Guam is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Latiya",
+   "wikidata": "Q115804031",
+   "country": "Guam",
+   "subregion": "Micronesian Region",
+   "problems": [
+    "Guam is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Roskette",
+   "wikidata": "Q7369003",
+   "country": "Guam",
+   "subregion": "Micronesian Region",
+   "problems": [
+    "Guam is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Bouillon",
+   "wikidata": "Q4949468",
+   "country": "Haiti",
+   "subregion": "Caribbean",
+   "problems": [
+    "Haiti is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Haitian patty",
+   "wikidata": "Q16976976",
+   "country": "Haiti",
+   "subregion": "Caribbean",
+   "problems": [
+    "Haiti is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "soup joumou",
+   "wikidata": "Q7565043",
+   "country": "Haiti",
+   "subregion": "Caribbean",
+   "problems": [
+    "Haiti is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Ahle Wurst",
+   "wikidata": "Q123441",
+   "country": "Hesse",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Hesse' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Rumali Roti",
+   "wikidata": "Q3634426",
+   "country": "Hyderabad State",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Hyderabad State' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "nihari",
+   "wikidata": "Q7034226",
+   "country": "Indian subcontinent",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Indian subcontinent' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Bagel toast",
+   "wikidata": "Q2904916",
+   "country": "Israel",
+   "subregion": "Western Asia",
+   "problems": [
+    "Israel is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Halva ice cream",
+   "wikidata": "Q19572039",
+   "country": "Israel",
+   "subregion": "Western Asia",
+   "problems": [
+    "Israel is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Israeli eggplant salad",
+   "wikidata": "Q17050599",
+   "country": "Israel",
+   "subregion": "Western Asia",
+   "problems": [
+    "Israel is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Sabich salad",
+   "wikidata": "Q17016362",
+   "country": "Israel",
+   "subregion": "Western Asia",
+   "problems": [
+    "Israel is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Tzfat cheese",
+   "wikidata": "Q2037921",
+   "country": "Israel",
+   "subregion": "Western Asia",
+   "problems": [
+    "Israel is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "malawach",
+   "wikidata": "Q2907412",
+   "country": "Israel",
+   "subregion": "Western Asia",
+   "problems": [
+    "Israel is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "peperoncino",
+   "wikidata": "Q181572",
+   "country": "Italy",
+   "subregion": "Southern Europe",
+   "problems": [
+    "a plant or animal on Wikidata, not a dish"
+   ]
+  },
+  {
+   "dish": "Nièr beurre",
+   "wikidata": "Q15647777",
+   "country": "Jersey",
+   "subregion": "Northern Europe",
+   "problems": [
+    "Jersey is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "jameed",
+   "wikidata": "Q3296477",
+   "country": "Jordan",
+   "subregion": "Western Asia",
+   "problems": [
+    "Jordan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Dymdama",
+   "wikidata": "Q5277707",
+   "country": "Kazakhstan",
+   "subregion": "Central Asia",
+   "problems": [
+    "Kazakhstan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Nauryz kozhe",
+   "wikidata": "Q12555954",
+   "country": "Kazakhstan",
+   "subregion": "Central Asia",
+   "problems": [
+    "Kazakhstan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Shalgam",
+   "wikidata": "Q7487184",
+   "country": "Kazakhstan",
+   "subregion": "Central Asia",
+   "problems": [
+    "Kazakhstan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "kumis",
+   "wikidata": "Q61081",
+   "country": "Kazakhstan",
+   "subregion": "Central Asia",
+   "problems": [
+    "Kazakhstan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "tandyr nan",
+   "wikidata": "Q3247788",
+   "country": "Kazakhstan",
+   "subregion": "Central Asia",
+   "problems": [
+    "Kazakhstan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Suffolk Bang",
+   "wikidata": "Q60792872",
+   "country": "Kingdom of England",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Kingdom of England' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Gyeongdan",
+   "wikidata": "Q28132082",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Korean noodles",
+   "wikidata": "Q34156",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Saengchae",
+   "wikidata": "Q7398299",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Siru-tteok",
+   "wikidata": "Q5361198",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Sungeoguk",
+   "wikidata": "Q7640203",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Tangpyeongchae",
+   "wikidata": "Q707640",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Yakgwa",
+   "wikidata": "Q1373750",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Yeonpotang",
+   "wikidata": "Q5371715",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "baechu-kimchi",
+   "wikidata": "Q30634372",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "baeksuk",
+   "wikidata": "Q4841270",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "bingsu",
+   "wikidata": "Q493784",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "buchimgae",
+   "wikidata": "Q27972934",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "bugak",
+   "wikidata": "Q4986123",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "chapssal doughnut",
+   "wikidata": "Q45901803",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "doenjang-jjigae",
+   "wikidata": "Q703015",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "gamja-jeon",
+   "wikidata": "Q845367",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "golbaengi-muchim",
+   "wikidata": "Q5371632",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "guk",
+   "wikidata": "Q909643",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "hangwa",
+   "wikidata": "Q27103",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "hongeohoe",
+   "wikidata": "Q905135",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "jaecheop-guk",
+   "wikidata": "Q6121698",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "jangajji",
+   "wikidata": "Q1037878",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "jeongol",
+   "wikidata": "Q1071699",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "jijimi",
+   "wikidata": "Q28197100",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "jokpyeon",
+   "wikidata": "Q6269807",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "kong-guksu",
+   "wikidata": "Q844765",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "memil-buchimgae",
+   "wikidata": "Q865258",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "pa-kimchi",
+   "wikidata": "Q25045178",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "soup soy sauce",
+   "wikidata": "Q4216325",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "tteok",
+   "wikidata": "Q703413",
+   "country": "Korea",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Korea' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Kuwaiti tea",
+   "wikidata": "Q25059058",
+   "country": "Kuwait",
+   "subregion": "Western Asia",
+   "problems": [
+    "Kuwait is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "oromo",
+   "wikidata": "Q1048130",
+   "country": "Kyrgyzstan",
+   "subregion": "Central Asia",
+   "problems": [
+    "Kyrgyzstan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kyushu soy sauce",
+   "wikidata": "Q134282351",
+   "country": "Kyushu",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Kyushu' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Sklandrausis",
+   "wikidata": "Q2087110",
+   "country": "Latvia",
+   "subregion": "Northern Europe",
+   "problems": [
+    "Latvia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "rupjmaize",
+   "wikidata": "Q7380416",
+   "country": "Latvia",
+   "subregion": "Northern Europe",
+   "problems": [
+    "Latvia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "makanek",
+   "wikidata": "Q96391585",
+   "country": "Levant",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Levant' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Juka",
+   "wikidata": "Q14930421",
+   "country": "Lithuania",
+   "subregion": "Northern Europe",
+   "problems": [
+    "Lithuania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Skilandis",
+   "wikidata": "Q255555",
+   "country": "Lithuania",
+   "subregion": "Northern Europe",
+   "problems": [
+    "Lithuania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "kūčiukai",
+   "wikidata": "Q518601",
+   "country": "Lithuania",
+   "subregion": "Northern Europe",
+   "problems": [
+    "Lithuania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Bouneschlupp",
+   "wikidata": "Q2922200",
+   "country": "Luxembourg",
+   "subregion": "Western Europe",
+   "problems": [
+    "Luxembourg is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Koba",
+   "wikidata": "Q17107651",
+   "country": "Madagascar",
+   "subregion": "Eastern Africa",
+   "problems": [
+    "Madagascar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Romazava",
+   "wikidata": "Q3441149",
+   "country": "Madagascar",
+   "subregion": "Eastern Africa",
+   "problems": [
+    "Madagascar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Makroudh",
+   "wikidata": "Q1886522",
+   "country": "Maghreb",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Maghreb' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Matbucha",
+   "wikidata": "Q2315099",
+   "country": "Maghreb",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Maghreb' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "ras el hanout",
+   "wikidata": "Q1067261",
+   "country": "Maghreb",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Maghreb' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "usipa",
+   "wikidata": "Q28197217",
+   "country": "Malawi",
+   "subregion": "Eastern Africa",
+   "problems": [
+    "Malawi is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Maldive fish",
+   "wikidata": "Q2568765",
+   "country": "Maldives",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Maldives is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Mas riha",
+   "wikidata": "Q6782239",
+   "country": "Maldives",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Maldives is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Maskurolhi",
+   "wikidata": "Q132132567",
+   "country": "Maldives",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Maldives is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Ngome",
+   "wikidata": "Q7022523",
+   "country": "Mali",
+   "subregion": "Western Africa",
+   "problems": [
+    "Mali is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Maltese bread",
+   "wikidata": "Q17009352",
+   "country": "Malta",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Malta is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "ftira",
+   "wikidata": "Q3090473",
+   "country": "Malta",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Malta is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "pastizz",
+   "wikidata": "Q3368487",
+   "country": "Malta",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Malta is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Caravane",
+   "wikidata": "Q2937903",
+   "country": "Mauritania",
+   "subregion": "Western Africa",
+   "problems": [
+    "Mauritania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "corn tortilla",
+   "wikidata": "Q15660894",
+   "country": "Mesoamerica",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Mesoamerica' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "chilhuacle negro",
+   "wikidata": "Q16540939",
+   "country": "Mexico",
+   "subregion": "Central America",
+   "problems": [
+    "a plant or animal on Wikidata, not a dish"
+   ]
+  },
+  {
+   "dish": "poblano",
+   "wikidata": "Q897746",
+   "country": "Mexico",
+   "subregion": "Central America",
+   "problems": [
+    "a plant or animal on Wikidata, not a dish"
+   ]
+  },
+  {
+   "dish": "barley bread",
+   "wikidata": "Q4861163",
+   "country": "Middle East",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Middle East' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "pork ball",
+   "wikidata": "Q717628",
+   "country": "Min Nan",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Min Nan' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Alivenci",
+   "wikidata": "Q2837252",
+   "country": "Moldova",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Moldova is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Brânză de vaci",
+   "wikidata": "Q108112946",
+   "country": "Moldova",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Moldova is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Scorcolga",
+   "wikidata": "Q13479641",
+   "country": "Moldova",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Moldova is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "murături",
+   "wikidata": "Q5266263",
+   "country": "Moldova",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Moldova is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Khuushuur",
+   "wikidata": "Q1090081",
+   "country": "Mongolia",
+   "subregion": "Eastern Asia",
+   "problems": [
+    "Mongolia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "bansh",
+   "wikidata": "Q25632104",
+   "country": "Mongolia",
+   "subregion": "Eastern Asia",
+   "problems": [
+    "Mongolia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "sole-cake",
+   "wikidata": "Q3099247",
+   "country": "Mongolia",
+   "subregion": "Eastern Asia",
+   "problems": [
+    "Mongolia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "suutei tsai",
+   "wikidata": "Q3505826",
+   "country": "Mongolia",
+   "subregion": "Eastern Asia",
+   "problems": [
+    "Mongolia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Njeguška pršuta",
+   "wikidata": "Q3160844",
+   "country": "Montenegro",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Montenegro is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "goat water",
+   "wikidata": "Q25047514",
+   "country": "Montserrat",
+   "subregion": "Caribbean",
+   "problems": [
+    "Montserrat is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "matapa",
+   "wikidata": "Q96742694",
+   "country": "Mozambique",
+   "subregion": "Eastern Africa",
+   "problems": [
+    "Mozambique is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Pasanda",
+   "wikidata": "Q7141600",
+   "country": "Mughal Empire",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Mughal Empire' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Shami kebab",
+   "wikidata": "Q7487537",
+   "country": "Mughal Empire",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Mughal Empire' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Burmese fritters",
+   "wikidata": "Q85749576",
+   "country": "Myanmar",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Myanmar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Burmese milk tea",
+   "wikidata": "Q97259879",
+   "country": "Myanmar",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Myanmar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Burmese salad",
+   "wikidata": "Q17010544",
+   "country": "Myanmar",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Myanmar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Meeshay",
+   "wikidata": "Q6807728",
+   "country": "Myanmar",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Myanmar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Mohinga",
+   "wikidata": "Q1188066",
+   "country": "Myanmar",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Myanmar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Mont di",
+   "wikidata": "Q6903124",
+   "country": "Myanmar",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Myanmar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Pathein halawa",
+   "wikidata": "Q85792397",
+   "country": "Myanmar",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Myanmar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Star Cola",
+   "wikidata": "Q16944449",
+   "country": "Myanmar",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Myanmar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Talabaw",
+   "wikidata": "Q19711295",
+   "country": "Myanmar",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Myanmar is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Leerdammer",
+   "wikidata": "Q1423094",
+   "country": "Netherlands",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Pan bati",
+   "wikidata": "Q7129710",
+   "country": "Netherlands Antilles",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Netherlands Antilles' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "rainbow cookie",
+   "wikidata": "Q2353020",
+   "country": "New York City",
+   "subregion": "(not placed)",
+   "problems": [
+    "'New York City' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Güirila",
+   "wikidata": "Q5626815",
+   "country": "Nicaragua",
+   "subregion": "Central America",
+   "problems": [
+    "Nicaragua is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kola Shaler",
+   "wikidata": "Q2206673",
+   "country": "Nicaragua",
+   "subregion": "Central America",
+   "problems": [
+    "Nicaragua is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Mofletta",
+   "wikidata": "Q2777639",
+   "country": "North Africa",
+   "subregion": "(not placed)",
+   "problems": [
+    "'North Africa' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "chorba frik",
+   "wikidata": "Q12219245",
+   "country": "North Africa",
+   "subregion": "(not placed)",
+   "problems": [
+    "'North Africa' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "ham salad",
+   "wikidata": "Q5643903",
+   "country": "North America",
+   "subregion": "(not placed)",
+   "problems": [
+    "'North America' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Pyongyang raengmyon",
+   "wikidata": "Q102182275",
+   "country": "North Korea",
+   "subregion": "Eastern Asia",
+   "problems": [
+    "North Korea is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "pyeonsu",
+   "wikidata": "Q12507493",
+   "country": "North Korea",
+   "subregion": "Eastern Asia",
+   "problems": [
+    "North Korea is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Pastrmajlija",
+   "wikidata": "Q3397139",
+   "country": "North Macedonia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "North Macedonia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "malidzano salata",
+   "wikidata": "Q745006",
+   "country": "North Macedonia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "North Macedonia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "kheer sagar",
+   "wikidata": "Q6401206",
+   "country": "Odisha",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Odisha' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Ossetian cheese",
+   "wikidata": "Q4337660",
+   "country": "Ossetia",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Ossetia' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Swedish meatballs",
+   "wikidata": "Q1501015",
+   "country": "Ottoman Empire",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Ottoman Empire' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "sufganiyah",
+   "wikidata": "Q2599893",
+   "country": "Pale of Settlement",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Pale of Settlement' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Mbejú paraguayo",
+   "wikidata": "Q1754338",
+   "country": "Paraguay",
+   "subregion": "South America",
+   "problems": [
+    "Paraguay is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "kamby arro",
+   "wikidata": "Q605277",
+   "country": "Paraguay",
+   "subregion": "South America",
+   "problems": [
+    "Paraguay is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "kosereva",
+   "wikidata": "Q286189",
+   "country": "Paraguay",
+   "subregion": "South America",
+   "problems": [
+    "Paraguay is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "piracaldo",
+   "wikidata": "Q7197643",
+   "country": "Paraguay",
+   "subregion": "South America",
+   "problems": [
+    "Paraguay is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "soyo",
+   "wikidata": "Q6132927",
+   "country": "Paraguay",
+   "subregion": "South America",
+   "problems": [
+    "Paraguay is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "sorbet",
+   "wikidata": "Q13302",
+   "country": "Persian Empire",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Persian Empire' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Capsicum baccatum ‘Ají Panca’",
+   "wikidata": "Q16860983",
+   "country": "Peru",
+   "subregion": "South America",
+   "problems": [
+    "a plant or animal on Wikidata, not a dish"
+   ]
+  },
+  {
+   "dish": "cold borscht",
+   "wikidata": "Q70241",
+   "country": "Polish–Lithuanian Commonwealth",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Polish–Lithuanian Commonwealth' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Bandel cheese",
+   "wikidata": "Q4854506",
+   "country": "Portuguese India",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Portuguese India' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "xacuti",
+   "wikidata": "Q8042825",
+   "country": "Portuguese India",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Portuguese India' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "pork chop bun",
+   "wikidata": "Q838462",
+   "country": "Portuguese Macau",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Portuguese Macau' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "saag",
+   "wikidata": "Q2748359",
+   "country": "Punjab",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Punjab' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "chelow kabab",
+   "wikidata": "Q1069097",
+   "country": "Qajar Iran",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Qajar Iran' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Allegretto cheese",
+   "wikidata": "Q136557361",
+   "country": "Quebec",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Quebec' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Bleu Bénédictin",
+   "wikidata": "Q4926393",
+   "country": "Quebec",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Quebec' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "game pie",
+   "wikidata": "Q5519964",
+   "country": "Roman Empire",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Roman Empire' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "sauce poivrade",
+   "wikidata": "Q15665674",
+   "country": "Roman Empire",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Roman Empire' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Amandine",
+   "wikidata": "Q2223254",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Blachindla",
+   "wikidata": "Q4920036",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Borş de burechiuşe",
+   "wikidata": "Q4947090",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Brânză de burduf",
+   "wikidata": "Q2919666",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Colaci",
+   "wikidata": "Q17049500",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Cornuleţe",
+   "wikidata": "Q2997592",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Covrigi",
+   "wikidata": "Q13479746",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Gogoşi",
+   "wikidata": "Q3827928",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Joffre cake",
+   "wikidata": "Q3180338",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Năsal",
+   "wikidata": "Q734450",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Papanași",
+   "wikidata": "Q689984",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Penteleu",
+   "wikidata": "Q3184014",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Plăcintă",
+   "wikidata": "Q2372494",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Rasol",
+   "wikidata": "Q3070462",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Scovardă",
+   "wikidata": "Q7438660",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Sibiu sausage",
+   "wikidata": "Q3469580",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Telemea",
+   "wikidata": "Q1790730",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Urdă",
+   "wikidata": "Q655654",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "ciorbă de perișoare",
+   "wikidata": "Q1092662",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "sarmale",
+   "wikidata": "Q11078597",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "problems": [
+    "Romania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "glucose syrup",
+   "wikidata": "Q14770547",
+   "country": "Russian Empire",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Russian Empire' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "chinsuko",
+   "wikidata": "Q1110192",
+   "country": "Ryukyu Kingdom",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Ryukyu Kingdom' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Torta Tre Monti",
+   "wikidata": "Q3995799",
+   "country": "San Marino",
+   "subregion": "Southern Europe",
+   "problems": [
+    "San Marino is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Tapalapa",
+   "wikidata": "Q7684416",
+   "country": "Senegal",
+   "subregion": "Western Africa",
+   "problems": [
+    "Senegal is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Karađorđeva šnicla",
+   "wikidata": "Q4213720",
+   "country": "Serbia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Serbia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Pasulj",
+   "wikidata": "Q2056389",
+   "country": "Serbia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Serbia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Pljeskavica",
+   "wikidata": "Q2089716",
+   "country": "Serbia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Serbia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Proja",
+   "wikidata": "Q7248936",
+   "country": "Serbia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Serbia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Serbian salad",
+   "wikidata": "Q3469475",
+   "country": "Serbia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Serbia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "bundevara",
+   "wikidata": "Q18922477",
+   "country": "Serbia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Serbia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "slatko",
+   "wikidata": "Q428392",
+   "country": "Serbia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Serbia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "urnebes",
+   "wikidata": "Q6593562",
+   "country": "Serbia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Serbia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Har cheong gai burger",
+   "wikidata": "Q24945530",
+   "country": "Singapore",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Singapore is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Pig fallopian tubes",
+   "wikidata": "Q17052971",
+   "country": "Singapore",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Singapore is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "sliced fish soup",
+   "wikidata": "Q7540240",
+   "country": "Singapore",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "Singapore is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Ajdov Kruh",
+   "wikidata": "Q4699691",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Belokranjska povitica",
+   "wikidata": "Q2895059",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Fusi",
+   "wikidata": "Q3447542",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Idrija dumplings",
+   "wikidata": "Q11286874",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Potica",
+   "wikidata": "Q11700178",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Prekmurska gibanica",
+   "wikidata": "Q2524291",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Prežganka",
+   "wikidata": "Q7242496",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Styrian sour soup",
+   "wikidata": "Q7629815",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "obara",
+   "wikidata": "Q528008",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "ričet",
+   "wikidata": "Q321356",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "vrtanek",
+   "wikidata": "Q12806195",
+   "country": "Slovenia",
+   "subregion": "Southern Europe",
+   "problems": [
+    "Slovenia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Morkovcha",
+   "wikidata": "Q4302793",
+   "country": "Soviet Union",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Soviet Union' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "doctor's sausage",
+   "wikidata": "Q16645121",
+   "country": "Soviet Union",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Soviet Union' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Palmero cheese",
+   "wikidata": "Q9065235",
+   "country": "Spain",
+   "subregion": "Southern Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Bibikkan",
+   "wikidata": "Q16498169",
+   "country": "Sri Lanka",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Sri Lanka is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Ceylon",
+   "wikidata": "Q5065778",
+   "country": "Sri Lanka",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Sri Lanka is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Ceylon tea",
+   "wikidata": "Q105616623",
+   "country": "Sri Lanka",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Sri Lanka is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Chocolate Biscuit pudding",
+   "wikidata": "Q5103596",
+   "country": "Sri Lanka",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Sri Lanka is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Diyabath",
+   "wikidata": "Q3610216",
+   "country": "Sri Lanka",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Sri Lanka is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Malu Mirisata",
+   "wikidata": "Q20987430",
+   "country": "Sri Lanka",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Sri Lanka is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "kiri hodi",
+   "wikidata": "Q106969864",
+   "country": "Sri Lanka",
+   "subregion": "Southern Asia",
+   "problems": [
+    "Sri Lanka is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kumukunsi",
+   "wikidata": "Q65086269",
+   "country": "Sultanate of Maguindanao",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Sultanate of Maguindanao' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Pastil",
+   "wikidata": "Q60762782",
+   "country": "Sultanate of Maguindanao",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Sultanate of Maguindanao' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Tête de Moine",
+   "wikidata": "Q687579",
+   "country": "Switzerland",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Vacherin Mont-d'Or",
+   "wikidata": "Q662125",
+   "country": "Switzerland",
+   "subregion": "Western Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Faraoa 'ipo",
+   "wikidata": "Q2804868",
+   "country": "Tahiti",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Tahiti' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Bichak",
+   "wikidata": "Q17001456",
+   "country": "Tajikistan",
+   "subregion": "Central Asia",
+   "problems": [
+    "Tajikistan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kunga cake",
+   "wikidata": "Q54165556",
+   "country": "Tanzania",
+   "subregion": "Eastern Africa",
+   "problems": [
+    "Tanzania is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "öçpoçmaq",
+   "wikidata": "Q2464350",
+   "country": "Tatarstan",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Tatarstan' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "domoda",
+   "wikidata": "Q1238597",
+   "country": "The Gambia",
+   "subregion": "Western Africa",
+   "problems": [
+    "The Gambia is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Thuringian sausage",
+   "wikidata": "Q887700",
+   "country": "Thuringia",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Thuringia' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Chura kampo",
+   "wikidata": "Q2613548",
+   "country": "Tibet Autonomous Region",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Tibet Autonomous Region' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Chura loenpa",
+   "wikidata": "Q2667800",
+   "country": "Tibet Autonomous Region",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Tibet Autonomous Region' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Eba",
+   "wikidata": "Q5331480",
+   "country": "Togo",
+   "subregion": "Western Africa",
+   "problems": [
+    "Togo is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Aloo pie",
+   "wikidata": "Q2839301",
+   "country": "Trinidad and Tobago",
+   "subregion": "Caribbean",
+   "problems": [
+    "Trinidad and Tobago is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Bake and Shark",
+   "wikidata": "Q15785303",
+   "country": "Trinidad and Tobago",
+   "subregion": "Caribbean",
+   "problems": [
+    "Trinidad and Tobago is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Buljol",
+   "wikidata": "Q15790217",
+   "country": "Trinidad and Tobago",
+   "subregion": "Caribbean",
+   "problems": [
+    "Trinidad and Tobago is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "doubles",
+   "wikidata": "Q5300145",
+   "country": "Trinidad and Tobago",
+   "subregion": "Caribbean",
+   "problems": [
+    "Trinidad and Tobago is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "roti",
+   "wikidata": "Q13568060",
+   "country": "Trinidad and Tobago",
+   "subregion": "Caribbean",
+   "problems": [
+    "Trinidad and Tobago is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "miga sandwich",
+   "wikidata": "Q2904894",
+   "country": "Turin",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Turin' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Eshabwe",
+   "wikidata": "Q18353987",
+   "country": "Uganda",
+   "subregion": "Eastern Africa",
+   "problems": [
+    "Uganda is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kikalayi",
+   "wikidata": "Q132661273",
+   "country": "Uganda",
+   "subregion": "Eastern Africa",
+   "problems": [
+    "Uganda is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Luwombo",
+   "wikidata": "Q123171413",
+   "country": "Uganda",
+   "subregion": "Eastern Africa",
+   "problems": [
+    "Uganda is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Dubai chocolate",
+   "wikidata": "Q130571534",
+   "country": "United Arab Emirates",
+   "subregion": "Western Asia",
+   "problems": [
+    "United Arab Emirates is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Beenleigh Blue cheese",
+   "wikidata": "Q16839757",
+   "country": "United Kingdom",
+   "subregion": "Northern Europe",
+   "problems": [
+    "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Dumb bread",
+   "wikidata": "Q125797909",
+   "country": "United States Virgin Islands",
+   "subregion": "Caribbean",
+   "problems": [
+    "United States Virgin Islands is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Samarkand non",
+   "wikidata": "Q117148246",
+   "country": "Uzbekistan",
+   "subregion": "Central Asia",
+   "problems": [
+    "Uzbekistan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Shakarap",
+   "wikidata": "Q12817265",
+   "country": "Uzbekistan",
+   "subregion": "Central Asia",
+   "problems": [
+    "Uzbekistan is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Nàng Thơm Chợ Đào rice",
+   "wikidata": "Q7071362",
+   "country": "Vietnam",
+   "subregion": "Southeast Asia",
+   "problems": [
+    "a plant or animal on Wikidata, not a dish"
+   ]
+  },
+  {
+   "dish": "peppersoup",
+   "wikidata": "Q25041632",
+   "country": "West Africa",
+   "subregion": "(not placed)",
+   "problems": [
+    "'West Africa' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Spaghettieis",
+   "wikidata": "Q1756296",
+   "country": "West Germany",
+   "subregion": "(not placed)",
+   "problems": [
+    "'West Germany' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Toast Hawaii",
+   "wikidata": "Q655228",
+   "country": "West Germany",
+   "subregion": "(not placed)",
+   "problems": [
+    "'West Germany' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Zuppa Romana",
+   "wikidata": "Q230246",
+   "country": "West Germany",
+   "subregion": "(not placed)",
+   "problems": [
+    "'West Germany' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "manti",
+   "wikidata": "Q262796",
+   "country": "Xinjiang",
+   "subregion": "(not placed)",
+   "problems": [
+    "'Xinjiang' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Fatoot",
+   "wikidata": "Q618910",
+   "country": "Yemen",
+   "subregion": "Western Asia",
+   "problems": [
+    "Yemen is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Jachnun",
+   "wikidata": "Q1960279",
+   "country": "Yemen",
+   "subregion": "Western Asia",
+   "problems": [
+    "Yemen is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Kubaneh",
+   "wikidata": "Q6588272",
+   "country": "Yemen",
+   "subregion": "Western Asia",
+   "problems": [
+    "Yemen is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Malooga",
+   "wikidata": "Q1959865",
+   "country": "Yemen",
+   "subregion": "Western Asia",
+   "problems": [
+    "Yemen is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "Shahi Haleeb",
+   "wikidata": "Q20982513",
+   "country": "Yemen",
+   "subregion": "Western Asia",
+   "problems": [
+    "Yemen is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "hawaij",
+   "wikidata": "Q536829",
+   "country": "Yemen",
+   "subregion": "Western Asia",
+   "problems": [
+    "Yemen is not in the place tree yet"
+   ]
+  },
+  {
+   "dish": "skhug",
+   "wikidata": "Q978363",
+   "country": "Yemen",
+   "subregion": "Western Asia",
+   "problems": [
+    "Yemen is not in the place tree yet"
+   ]
+  }
+ ]
+}
