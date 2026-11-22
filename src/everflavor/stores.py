@@ -58,7 +58,17 @@ COUNTRY_CUISINES = {
     "Philippines": "filipino", "Indonesia": "indonesian", "Germany": "german", "United Kingdom": "british",
     "Pakistan": "pakistani", "Jamaica": "jamaican", "Colombia": "colombian", "Egypt": "egyptian",
     "United States": "american",
+    # Added 2026-11-22 for the countries we have dishes for (docs/audits/graph_assets.md): the country's English
+    # demonym on Wikidata (P1549) when OpenStreetMap uses it as a cuisine value 50+ times (taginfo)
+    "Afghanistan": "afghan", "Argentina": "argentinian", "Armenia": "armenian", "Australia": "australian",
+    "Austria": "austrian", "Bangladesh": "bangladeshi", "Belgium": "belgian", "Cambodia": "cambodian",
+    "Canada": "canadian", "Chile": "chilean", "Croatia": "croatian", "Czech Republic": "czech", "Denmark": "danish",
+    "Ecuador": "ecuadorian", "Hungary": "hungarian", "Ireland": "irish", "Laos": "lao", "Malaysia": "malaysian",
+    "Poland": "polish", "Portugal": "portuguese", "Puerto Rico": "puerto_rican", "Russia": "russian",
+    "Sweden": "swedish", "Switzerland": "swiss", "Syria": "syrian", "Taiwan": "taiwanese", "Venezuela": "venezuelan",
 }
+# Cuisine words too common in shop names for something else to be a name hint ("nail polish", "Irish pub")
+NOT_NAME_HINTS = {"american", "spanish", "polish", "swiss", "canadian", "irish", "lao"}
 # Origin country -> the broader kind of grocery that often carries its products (a name hint in NAME_HINTS)
 COUNTRY_REGIONS = {
     **dict.fromkeys(["China", "Japan", "South Korea", "Thailand", "Vietnam", "Philippines", "Indonesia", "Taiwan",
@@ -77,7 +87,7 @@ COUNTRY_REGIONS = {
 NAME_HINTS = {
     # first, every cuisine's own word ("Indian Grocery", "Mexican Carniceria"): the narrowest hint wins
     # "american" and "spanish" are left out: "American Grill", "Spanish Village" (a Tex-Mex place) say nothing
-    **{word: word for word in COUNTRY_CUISINES.values() if word not in ("american", "spanish")},
+    **{word: word for word in COUNTRY_CUISINES.values() if word not in NOT_NAME_HINTS},
     "latin american": "latin american", "asian": "asian", "oriental": "asian", "h mart": "korean", "hmart": "korean", "99 ranch": "chinese",
     "hong kong": "chinese", "mercado": "latin american", "carniceria": "latin american", "fiesta": "latin american",
     "supermercado": "latin american", "tienda": "latin american", "latino": "latin american",

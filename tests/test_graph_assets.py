@@ -50,3 +50,12 @@ def test_map_prep_only_names_tags_from_the_app() -> None:
     for country, e in prep["countries"].items():
         assert e["cuisine_tag"] == COUNTRY_CUISINES.get(country, "")
     assert not set(prep["place_tags_without_a_country"]) & set(COUNTRY_CUISINES.values())
+
+
+def test_new_cuisine_tags_are_unique_and_ambiguous_words_are_not_shop_hints() -> None:
+    from everflavor.stores import COUNTRY_CUISINES, NAME_HINTS, NOT_NAME_HINTS
+    words = list(COUNTRY_CUISINES.values())
+    assert len(words) == len(set(words))                       # one country per tag
+    assert NAME_HINTS.get("polish") != "polish" and "swiss" not in NAME_HINTS and "irish" not in NAME_HINTS
+    assert NAME_HINTS["portuguese"] == "portuguese"            # a plain cuisine word still hints
+    assert NOT_NAME_HINTS <= set(words)

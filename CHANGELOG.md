@@ -55,8 +55,10 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
   and nutrition (all from Food.com); CulinaryDB and the Hugging Face set come without steps, 37% have no
   photo at all, 22% no country. Nothing was changed.
 - **Graph assets** (`data/knowledge/`, not read by the app yet): the waiter's fixed lines for all 3,201 dishes,
-  8 next dishes each with the reason and evidence, and the map's cuisine tag per country (45 of 74 countries
-  have none, so the map shows no place for them).
+  8 next dishes each with the reason and evidence, and the map's cuisine tag per country.
+- **The map finds places for 27 more countries** (Poland, Portugal, Canada, Australia, Afghanistan, Venezuela...):
+  each country's Wikidata demonym, where OpenStreetMap uses it as a cuisine tag 50+ times; 18 more pilot-area
+  places now match a dish's country. 18 countries still have no tag.
 - **Domain entities** (roadmap phase 1, step 1): `everflavor.domain` with `Dish`, `Recipe`, `Ingredient` and
   `Place`, built from today's tables, and the `KnowledgeGraph` that finds a recipe's dish as the app does (826 of
   the 3,000 demo recipes). Not used by the app yet; ingredient merges wait for the team's review.
