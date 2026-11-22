@@ -54,6 +54,10 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 - **Recipe quality audit** (`docs/audits/recipe_quality.md`): 47% of recipes have ingredients, steps, servings
   and nutrition (all from Food.com); CulinaryDB and the Hugging Face set come without steps, 37% have no
   photo at all, 22% no country. Nothing was changed.
+- **Quality sprint reports** (`docs/audits/`, reports only): a completeness score (0-100) for every dish (16% rich,
+  42% fair, 43% thin), the dish image audit (33% can show a licensed photo of their own recipe, 60% only the
+  placeholder, but 1,731 of those have a Commons image on Wikidata to fetch), the waiter's knowledge (no fact
+  checked by a person yet), map, taxonomy, country and region coverage, and the publication queue checked again.
 - **Graph assets** (`data/knowledge/`, not read by the app yet): the waiter's fixed lines for all 3,201 dishes,
   8 next dishes each with the reason and evidence, and the map's cuisine tag per country.
 - **The map finds places for 27 more countries** (Poland, Portugal, Canada, Australia, Afghanistan, Venezuela...):

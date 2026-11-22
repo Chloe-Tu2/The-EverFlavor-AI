@@ -41,4 +41,3 @@ dishes and linked recipes, and how many places in the Greater Houston pilot area
 - **Tags on pilot places that no country uses yet:** `salvadoran` 8, a country we have no dishes for yet; most
   others are kinds of food, not a country (pizza 226, seafood 168, barbecue 99, tex-mex 84).
 - Egypt and Indonesia have a tag but no pilot place carries it.
-

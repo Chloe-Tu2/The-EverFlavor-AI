@@ -19,6 +19,13 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   `docs/audits/graph_assets.md`).
 - `recipe_quality.json`: what the recipes have and lack, by source (counts only), from
   `scripts/knowledge/recipe_quality_audit.py` (`docs/audits/recipe_quality.md`).
+- `media/`: the dish image audit (`scripts/knowledge/media_audit.py`): per dish the best image level (its recipe's
+  photo, a Commons photo of the dish, a version or the family, else the app's placeholder), licence and credit
+  checks, coverage by country and zone, missing images and the fetch priority; `wikidata_images.json` lists the
+  Commons files Wikidata names for our dishes (`fetch_image_candidates.py`; nothing downloaded).
+- `quality/`: the quality sprint (`scripts/knowledge/quality_reports.py`): the completeness score per dish, the
+  waiter's coverage, map validation, taxonomy, country and region depth, and `publication_queue.json` (the
+  backlog checked again).
 - `countries.json`: the world's countries and territories (Wikidata, CC0: ISO code, continent, population), from
   `scripts/knowledge/fetch_countries.py`, for the coverage audit.
 - `coverage/`: the coverage audit (`scripts/knowledge/coverage_audit.py`; reports in `docs/audits/`): coverage by
