@@ -19,6 +19,7 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [map_validation_report.md](map_validation_report.md) | Which dishes and recipes the map can place in the pilot area |
 | [taxonomy_coverage_report.md](taxonomy_coverage_report.md) | Which nodes of the place tree hold dishes and recipes |
 | [country_coverage_report.md](country_coverage_report.md), [culinary_region_coverage_report.md](culinary_region_coverage_report.md) | Coverage next to depth, by country and by region |
+| [global_culinary_atlas.md](global_culinary_atlas.md) | Coverage by the UN's world regions (CLDR): a score per continent and subregion, the gaps, up to 500 next dishes per continent, missing versions and the review queue |
 | [publishing_rules.md](publishing_rules.md) | The rules and approval states every new dish must pass (proposed) |
 
 The coverage reports and `data/knowledge/coverage/` are written by `scripts/knowledge/coverage_audit.py`
@@ -26,4 +27,5 @@ The coverage reports and `data/knowledge/coverage/` are written by `scripts/know
 sprint's reports come from `media_audit.py` (with `fetch_image_candidates.py`) and `quality_reports.py`; run
 `media_audit.py`, then `quality_reports.py`, then `media_audit.py` again (its priority list reads the scores).
 After notebook 01 rewrites the recipe tables, run them all in this order: `recipe_quality_audit.py`,
-`recipe_dish_links.py`, `recipe_graph.py`, `coverage_audit.py`, `graph_assets.py`, then the three above.
+`recipe_dish_links.py`, `recipe_graph.py`, `coverage_audit.py`, `atlas_audit.py`, `graph_assets.py`, then the
+three above. The atlas reads its regions from `data/knowledge/atlas/regions.json` (`fetch_regions.py`, once).

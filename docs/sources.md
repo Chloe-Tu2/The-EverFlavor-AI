@@ -41,6 +41,7 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 | English Wikipedia article intros | <https://en.wikipedia.org/w/api.php> | CC BY-SA 4.0 (credit and link per article, kept in each row's `sources`) | MediaWiki API `prop=extracts`, 20 titles per request, 1 s apart | Summary and fun-fact candidates (sentences as written, not yet reviewed) | `data/knowledge/` |
 | Wikidata (dish facts) | <https://query.wikidata.org> | CC0 | SPARQL, 200 items per query, cached | Type check (dish, food or drink), origin, start year, ingredients, namesake, heritage listings | `data/knowledge/` |
 | Wikidata (dish families) | <https://query.wikidata.org> | CC0 | SPARQL, 300 dishes or 150 families per query, cached in `data/raw/dish_families/` | "subclass of" (P279) between dishes, country of origin (P495), English Wikipedia article of each missing member; queried 2026-11-19 | notebook 15 |
+| Unicode CLDR territory containment (the UN's M49 regions) | <https://github.com/unicode-org/cldr-json> | Unicode License V3 (free use with the notice "Copyright (c) 2015-2024 Unicode, Inc.", kept in `data/knowledge/atlas/regions.json`) | Two JSON files from the official repository (`scripts/knowledge/fetch_regions.py`) | CLDR 49: continent and subregion of 253 countries and territories; retrieved 2026-11-22 | `docs/audits/global_culinary_atlas.md` |
 
 ## Stores and products (notebook 03)
 
