@@ -17,6 +17,8 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   `scripts/knowledge/graph_assets.py` for features not built yet: the waiter's fixed-template lines per dish,
   the next 8 dishes to try with their reasons and evidence, and per country the map's cuisine tag (see
   `docs/audits/graph_assets.md`).
+- `recipe_quality.json`: what the recipes have and lack, by source (counts only), from
+  `scripts/knowledge/recipe_quality_audit.py` (`docs/audits/recipe_quality.md`).
 - `countries.json`: the world's countries and territories (Wikidata, CC0: ISO code, continent, population), from
   `scripts/knowledge/fetch_countries.py`, for the coverage audit.
 - `coverage/`: the coverage audit (`scripts/knowledge/coverage_audit.py`; reports in `docs/audits/`): coverage by

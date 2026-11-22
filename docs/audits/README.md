@@ -11,6 +11,7 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [dish_family_gap_report.md](dish_family_gap_report.md) | Which dish families are weakly covered |
 | [variant_gap_report.md](variant_gap_report.md) | Which families' missing versions would add the most |
 | [culinary_regions.md](culinary_regions.md) | Regions below a country, and indigenous foodways |
+| [recipe_quality.md](recipe_quality.md) | What each recipe has and lacks (steps, servings, time, nutrition, country, photo, link), by source |
 | [graph_assets.md](graph_assets.md) | The waiter's context, discovery paths and map preparation read off the Food Graph |
 | [publishing_rules.md](publishing_rules.md) | The rules and approval states every new dish must pass (proposed) |
 

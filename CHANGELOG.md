@@ -51,6 +51,9 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
   291,755), and world coverage by zone, country and culinary region, with the dish family and variant gaps, the
   indigenous foodways, proposed publishing rules and an expansion backlog of 3,689 Wikidata dishes (1,459 ready,
   357 to review, 1,873 blocked, among them brands and events), with the 500 to add first.
+- **Recipe quality audit** (`docs/audits/recipe_quality.md`): 47% of recipes have ingredients, steps, servings
+  and nutrition (all from Food.com); CulinaryDB and the Hugging Face set come without steps, 37% have no
+  photo at all, 22% no country. Nothing was changed.
 - **Graph assets** (`data/knowledge/`, not read by the app yet): the waiter's fixed lines for all 3,201 dishes,
   8 next dishes each with the reason and evidence, and the map's cuisine tag per country (45 of 74 countries
   have none, so the map shows no place for them).
