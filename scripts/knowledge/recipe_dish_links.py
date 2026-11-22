@@ -1,7 +1,8 @@
 """Which recipes the app links to a dish, and how many recipes each dish has (the recipe -> dish linking audit).
 
-Every recipe is matched the way the app matches it (`waiter.Knowledge.find` on the recipe name, the recipe's
-country breaking ties). `find` checks every known name against each title, too slow for 290,000 recipes, so this
+Every recipe is matched the way the app matches it: `waiter.Knowledge.find` on the cleaned dish name (the table's
+`dish_name`, which is `dish_names.clean_title` of the posted title, as the recipe cards use it), the recipe's
+country breaking ties. `find` checks every known name against each title, too slow for 290,000 recipes, so this
 script uses an equal, faster version (all word runs of the title looked up at once) and first checks that both
 give the same dish on 3,000 random recipes.
 
@@ -57,7 +58,7 @@ def fast_find(know: Knowledge, longest: int, dish_name: str, country: str | None
 def main() -> None:
     know = Knowledge.load(ROOT / "data" / "knowledge" / "dishes.jsonl")
     longest = max(len(k.split()) for k in know.by_name)
-    cols = ["recipe_id", "source", "recipe_name", "origin_country"]
+    cols = ["recipe_id", "source", "dish_name", "origin_country"]
     df = pd.concat([pd.read_parquet(ROOT / "data" / "processed" / f"recipes_{s}.parquet", columns=cols) for s in SPLITS],
                    ignore_index=True)
 
@@ -65,12 +66,12 @@ def main() -> None:
         return c if isinstance(c, str) and c != "Unknown" else None
 
     for i in random.Random(0).sample(range(len(df)), 3000):
-        a = know.find(df.recipe_name[i], country(df.origin_country[i]))
-        b, _ = fast_find(know, longest, df.recipe_name[i], country(df.origin_country[i]))
+        a = know.find(df.dish_name[i], country(df.origin_country[i]))
+        b, _ = fast_find(know, longest, df.dish_name[i], country(df.origin_country[i]))
         if (a or {}).get("qid") != (b or {}).get("qid"):
-            raise SystemExit(f"the fast match differs from Knowledge.find on {df.recipe_name[i]!r}")
+            raise SystemExit(f"the fast match differs from Knowledge.find on {df.dish_name[i]!r}")
 
-    found = [fast_find(know, longest, str(n), country(c)) for n, c in zip(df.recipe_name, df.origin_country)]
+    found = [fast_find(know, longest, str(n), country(c)) for n, c in zip(df.dish_name, df.origin_country)]
     df["qid"] = [str(e.get("qid") or "") if e else "" for e, _ in found]
     df["match"] = [how for _, how in found]
     entries = {str(d.get("qid")): d for d in know.dishes if d.get("qid")}
@@ -83,7 +84,7 @@ def main() -> None:
                      "by_match": {m: int(n) for m, n in g.match.value_counts().items()}}
     without = sorted(q for q, e in entries.items() if e.get("kind") == "dish" and q not in dishes)
     out = {
-        "about": "Recipes per dish, as the app links them (waiter.Knowledge.find on the recipe name). Built by "
+        "about": "Recipes per dish, as the app links them (waiter.Knowledge.find on the cleaned dish name). Built by "
                  "scripts/knowledge/recipe_dish_links.py; counts only, no recipe text.",
         "built_on": date.today().isoformat(),
         "recipes": len(df), "linked": len(linked),

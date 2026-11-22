@@ -47,7 +47,7 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 - **A typed result** for Check my recipe (`restrictions.RecipeAnalysis`, with `Finding`, `FindingItem` and
   `LineSummary`): one contract for the app, the notebooks and later the waiter.
 - Rum cake in the may-contain table (rum, eggs, butter, flour; Wikipedia): 37 rows for 23 foods.
-- **Data audits** (`docs/audits/`, read-only; nothing in the app changed): how recipes link to dishes (76,745 of
+- **Data audits** (`docs/audits/`, read-only; nothing in the app changed): how recipes link to dishes (80,741 of
   291,755), and world coverage by zone, country and culinary region, with the dish family and variant gaps, the
   indigenous foodways, proposed publishing rules and an expansion backlog of 3,689 Wikidata dishes (1,459 ready,
   357 to review, 1,873 blocked, among them brands and events), with the 500 to add first.
