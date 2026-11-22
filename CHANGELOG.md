@@ -18,6 +18,12 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 
 ### Added
 
+- **Content quality sprint** (reports only, no app change): an **approved image queue** of 1,739 Wikidata dish
+  photos that pass the photo pipeline's licence, credit and size rules (read from the Commons API, nothing
+  downloaded); the **dish completeness report**, which shows rich dishes going from 505 to 654 and thin ones from
+  1,365 to 728 once those photos are fetched and checked; and the **taxonomy validation**, which finds every one of
+  the 92 countries in a zone and region that match its UN region. The image report is now
+  `docs/audits/image_coverage_report.md`.
 - **Global Culinary Atlas audit** (`docs/audits/global_culinary_atlas.md`, reports only): coverage by the UN's
   22 world regions (Unicode CLDR), a breadth-and-depth score per continent and subregion, the gaps (Western and
   Middle Africa, Central Asia, Melanesia, Micronesia and Polynesia have no dish yet), up to 500 ready next dishes

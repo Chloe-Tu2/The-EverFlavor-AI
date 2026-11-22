@@ -1,6 +1,6 @@
 # Dish quality (2026-11-22)
 
-How complete each of our 3,201 dishes is, not how many there are. The completeness score (0-100) weighs: image 20 (by its level in `dish_image_report.md`), story 15, family 10, country of origin 10, region 10, fun facts 10, versions 10, related dishes 10, a recipe 5. **rich** = 70 or more, **fair** = 40 to 69, **thin** = under 40. Per dish: `data/knowledge/quality/dish_quality.json`.
+How complete each of our 3,201 dishes is, not how many there are. The completeness score (0-100) weighs: image 20 (by its level in `image_coverage_report.md`), story 15, family 10, country of origin 10, region 10, fun facts 10, versions 10, related dishes 10, a recipe 5. **rich** = 70 or more, **fair** = 40 to 69, **thin** = under 40. Per dish: `data/knowledge/quality/dish_quality.json`.
 
 **505 rich (16%), 1,331 fair (42%), 1,365 thin (43%).** Average 44 of 100.
 
@@ -17,7 +17,7 @@ Twelve parts, each from a source we already use (the score is built from most of
 | a dish family (notebook 15) | 2,507 (78%) | 694 | notebook 15, when Wikidata files it under one |
 | a related dish or version in EverFlavor | 1,130 (35%) | 2,071 | the Food Graph (comes with family and versions) |
 | at least one recipe | 1,518 (47%) | 1,683 | a licensed recipe source; never written |
-| a real photo of it (its recipe, the dish or a version) | 1,123 (35%) | 2,078 | scripts/dish_photos/ (dish_image_report.md) |
+| a real photo of it (its recipe, the dish or a version) | 1,123 (35%) | 2,078 | scripts/dish_photos/ (image_coverage_report.md) |
 | fun-fact sentences from its Wikipedia intro | 1,848 (58%) | 1,353 | fetch_knowledge.py |
 | story sentences (history, origin, culture) | 1,587 (50%) | 1,614 | fetch_knowledge.py --stories |
 | map places in the pilot area for its country | 2,402 (75%) | 799 | stores.COUNTRY_CUISINES and the places table |
@@ -53,7 +53,7 @@ Twelve parts, each from a source we already use (the score is built from most of
 Most points can come from sources and scripts we already have, in this order of value for effort:
 
 1. **how to say it** for 3,168 dishes: data/reference/dish_pronunciation.csv (a person adds it).
-2. **a real photo of it (its recipe, the dish or a version)** for 2,078 dishes: scripts/dish_photos/ (dish_image_report.md).
+2. **a real photo of it (its recipe, the dish or a version)** for 2,078 dishes: scripts/dish_photos/ (image_coverage_report.md).
 3. **a related dish or version in EverFlavor** for 2,071 dishes: the Food Graph (comes with family and versions).
 4. **at least one recipe** for 1,683 dishes: a licensed recipe source; never written.
 5. **story sentences (history, origin, culture)** for 1,614 dishes: fetch_knowledge.py --stories.

@@ -1,0 +1,183 @@
+{
+ "about": "The Food Taxonomy against the UN regions (CLDR) and the graph; differences are for review.",
+ "built_on": "2026-11-22",
+ "by": "scripts/knowledge/taxonomy_validation.py",
+ "nodes": {
+  "world": 1,
+  "zone": 8,
+  "region": 26,
+  "country": 92,
+  "division": 5,
+  "state": 17,
+  "culinary_region": 1
+ },
+ "structure": "valid (load_taxonomy checks parents, levels and loops)",
+ "countries_without_iso": [],
+ "zone_differences": [],
+ "region_differences": [],
+ "countries_missing_from_taxonomy": [],
+ "below_country": [
+  {
+   "place": "British Columbia",
+   "level": "state",
+   "country": "Canada",
+   "dishes": 0,
+   "recipes_by_label": 406
+  },
+  {
+   "place": "Ontario",
+   "level": "state",
+   "country": "Canada",
+   "dishes": 0,
+   "recipes_by_label": 499
+  },
+  {
+   "place": "Quebec",
+   "level": "state",
+   "country": "Canada",
+   "dishes": 34,
+   "recipes_by_label": 81
+  },
+  {
+   "place": "Beijing",
+   "level": "state",
+   "country": "China",
+   "dishes": 33,
+   "recipes_by_label": 13
+  },
+  {
+   "place": "Guangdong",
+   "level": "state",
+   "country": "China",
+   "dishes": 68,
+   "recipes_by_label": 54
+  },
+  {
+   "place": "Hunan",
+   "level": "state",
+   "country": "China",
+   "dishes": 5,
+   "recipes_by_label": 21
+  },
+  {
+   "place": "Sichuan",
+   "level": "state",
+   "country": "China",
+   "dishes": 15,
+   "recipes_by_label": 77
+  },
+  {
+   "place": "Baja California",
+   "level": "state",
+   "country": "Mexico",
+   "dishes": 0,
+   "recipes_by_label": 74
+  },
+  {
+   "place": "Oaxaca",
+   "level": "state",
+   "country": "Mexico",
+   "dishes": 7,
+   "recipes_by_label": 42
+  },
+  {
+   "place": "England",
+   "level": "state",
+   "country": "United Kingdom",
+   "dishes": 13,
+   "recipes_by_label": 937
+  },
+  {
+   "place": "Scotland",
+   "level": "state",
+   "country": "United Kingdom",
+   "dishes": 81,
+   "recipes_by_label": 231
+  },
+  {
+   "place": "Wales",
+   "level": "state",
+   "country": "United Kingdom",
+   "dishes": 1,
+   "recipes_by_label": 58
+  },
+  {
+   "place": "California",
+   "level": "state",
+   "country": "United States",
+   "dishes": 0,
+   "recipes_by_label": 555
+  },
+  {
+   "place": "Hawaii",
+   "level": "state",
+   "country": "United States",
+   "dishes": 13,
+   "recipes_by_label": 316
+  },
+  {
+   "place": "Louisiana",
+   "level": "state",
+   "country": "United States",
+   "dishes": 59,
+   "recipes_by_label": 1083
+  },
+  {
+   "place": "Midwestern US",
+   "level": "division",
+   "country": "United States",
+   "dishes": 50,
+   "recipes_by_label": 1792
+  },
+  {
+   "place": "Northeastern US",
+   "level": "division",
+   "country": "United States",
+   "dishes": 32,
+   "recipes_by_label": 1136
+  },
+  {
+   "place": "Pacific Northwest",
+   "level": "culinary_region",
+   "country": "United States",
+   "dishes": 0,
+   "recipes_by_label": 387
+  },
+  {
+   "place": "Pennsylvania",
+   "level": "state",
+   "country": "United States",
+   "dishes": 32,
+   "recipes_by_label": 230
+  },
+  {
+   "place": "Southern US",
+   "level": "division",
+   "country": "United States",
+   "dishes": 0,
+   "recipes_by_label": 3101
+  },
+  {
+   "place": "Southwestern US",
+   "level": "division",
+   "country": "United States",
+   "dishes": 45,
+   "recipes_by_label": 1205
+  },
+  {
+   "place": "Texas",
+   "level": "state",
+   "country": "United States",
+   "dishes": 0,
+   "recipes_by_label": 931
+  },
+  {
+   "place": "West Coast",
+   "level": "division",
+   "country": "United States",
+   "dishes": 0,
+   "recipes_by_label": 0
+  }
+ ],
+ "empty_countries": []
+}

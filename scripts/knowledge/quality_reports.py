@@ -38,7 +38,7 @@ PARTS = {
     "family": ("a dish family (notebook 15)", "notebook 15, when Wikidata files it under one"),
     "related": ("a related dish or version in EverFlavor", "the Food Graph (comes with family and versions)"),
     "recipe": ("at least one recipe", "a licensed recipe source; never written"),
-    "photo": ("a real photo of it (its recipe, the dish or a version)", "scripts/dish_photos/ (dish_image_report.md)"),
+    "photo": ("a real photo of it (its recipe, the dish or a version)", "scripts/dish_photos/ (image_coverage_report.md)"),
     "fun_facts": ("fun-fact sentences from its Wikipedia intro", "fetch_knowledge.py"),
     "story": ("story sentences (history, origin, culture)", "fetch_knowledge.py --stories"),
     "map": ("map places in the pilot area for its country", "stores.COUNTRY_CUISINES and the places table"),
@@ -124,7 +124,7 @@ def main() -> None:
                    for c, rs in by_country.items() if c), key=lambda x: (-x[1], x[0]))
     lines = [f"# Dish quality ({TODAY})", "",
              ("How complete each of our 3,201 dishes is, not how many there are. The completeness score (0-100) "
-              "weighs: image 20 (by its level in `dish_image_report.md`), story 15, family 10, country of origin 10, "
+              "weighs: image 20 (by its level in `image_coverage_report.md`), story 15, family 10, country of origin 10, "
               "region 10, fun facts 10, versions 10, related dishes 10, a recipe 5. **rich** = 70 or more, **fair** "
               "= 40 to 69, **thin** = under 40. Per dish: `data/knowledge/quality/dish_quality.json`."), "",
              (f"**{by_tier['rich']:,} rich ({pct(by_tier['rich'], n)}), {by_tier['fair']:,} fair "
