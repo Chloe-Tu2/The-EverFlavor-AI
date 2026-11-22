@@ -1,4 +1,4 @@
-# Coverage: Asia (2026-11-21)
+# Coverage: Asia (2026-11-22)
 
 Back to [world coverage](coverage_world.md).
 
@@ -8,16 +8,16 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| China | high | 178 | 68 | 54 | 107 | 5,867 | 99 | 64% |
-| Japan | medium | 108 | 47 | 55 | 94 | 2,249 | 139 | 44% |
-| South Korea | high | 79 | 14 | 27 | 65 | 606 | 9 | 90% |
+| China | high | 178 | 68 | 54 | 107 | 5,878 | 99 | 64% |
+| Japan | medium | 108 | 47 | 55 | 94 | 2,232 | 139 | 44% |
+| South Korea | high | 79 | 14 | 27 | 65 | 605 | 9 | 90% |
 | Taiwan | recipes only | 0 | 0 | 0 | 0 | 5 | 11 | 0% |
 
 ## South Asia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| India | high | 102 | 68 | 31 | 66 | 7,319 | 65 | 61% |
+| India | high | 102 | 68 | 31 | 66 | 7,312 | 65 | 61% |
 | Pakistan | low | 6 | 4 | 4 | 4 | 82 | 5 | 55% |
 | Nepal | recipes only | 0 | 0 | 0 | 0 | 33 | 2 | 0% |
 | Afghanistan | recipes only | 0 | 0 | 0 | 0 | 7 | 5 | 0% |
@@ -28,9 +28,9 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Indonesia | high | 248 | 40 | 61 | 169 | 218 | 24 | 91% |
-| Philippines | high | 86 | 37 | 28 | 48 | 254 | 30 | 74% |
-| Thailand | high | 77 | 27 | 25 | 45 | 2,413 | 7 | 92% |
-| Vietnam | high | 71 | 16 | 26 | 53 | 509 | 6 | 92% |
+| Philippines | high | 86 | 37 | 28 | 48 | 255 | 30 | 74% |
+| Thailand | high | 77 | 27 | 25 | 45 | 2,428 | 7 | 92% |
+| Vietnam | high | 71 | 16 | 26 | 53 | 500 | 6 | 92% |
 | Malaysia | medium | 38 | 3 | 19 | 23 | 79 | 3 | 93% |
 | Cambodia | low | 1 | 0 | 1 | 1 | 53 | 7 | 12% |
 | Laos | recipes only | 0 | 0 | 0 | 0 | 18 | 3 | 0% |

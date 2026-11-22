@@ -1,4 +1,4 @@
-# World coverage (audit, 2026-11-21)
+# World coverage (audit, 2026-11-22)
 
 Which parts of the world EverFlavor covers, which it lacks, and where the next dishes should come from. Built by `scripts/knowledge/coverage_audit.py`; the data is in `data/knowledge/coverage/`. Nothing was added to the app.
 
@@ -8,12 +8,12 @@ Which parts of the world EverFlavor covers, which it lacks, and where the next d
 
 | Zone | Countries | In the tree | With dishes | Dishes | Recipes | Ready to add | To review |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| [Europe](coverage_europe.md) | 52 | 28 | 20 | 1185 | 50,007 | 693 | 131 |
-| [Asia](coverage_asia.md) | 34 | 16 | 11 | 994 | 19,715 | 416 | 42 |
-| [Africa](coverage_africa.md) | 55 | 9 | 2 | 38 | 753 | 23 | 22 |
-| [the Americas and the Caribbean](coverage_americas.md) | 57 | 22 | 10 | 760 | 148,961 | 234 | 28 |
-| [Oceania](coverage_oceania.md) | 27 | 2 | 2 | 59 | 3,187 | 6 | 4 |
-| [the Middle East and North Africa](coverage_middle_east.md) | 23 | 15 | 8 | 165 | 3,531 | 87 | 20 |
+| [Europe](coverage_europe.md) | 52 | 28 | 20 | 1185 | 50,001 | 693 | 131 |
+| [Asia](coverage_asia.md) | 34 | 16 | 11 | 994 | 19,708 | 416 | 42 |
+| [Africa](coverage_africa.md) | 55 | 9 | 2 | 38 | 756 | 23 | 22 |
+| [the Americas and the Caribbean](coverage_americas.md) | 57 | 22 | 10 | 760 | 148,888 | 234 | 28 |
+| [Oceania](coverage_oceania.md) | 27 | 2 | 2 | 59 | 3,142 | 6 | 4 |
+| [the Middle East and North Africa](coverage_middle_east.md) | 23 | 15 | 8 | 165 | 3,530 | 87 | 20 |
 
 ## Over-represented
 
@@ -21,16 +21,16 @@ Where most of the recipes are (share of all recipes with a known country) and th
 
 | Country | Recipes | Share of recipes | Dishes | Share of dishes |
 |---|---:|---:|---:|---:|
-| United States | 131,162 | 58% | 367 | 11% |
-| Italy | 24,918 | 11% | 326 | 10% |
-| Mexico | 11,508 | 5% | 110 | 3% |
-| France | 8,509 | 4% | 84 | 3% |
-| India | 7,319 | 3% | 102 | 3% |
-| China | 5,867 | 3% | 178 | 6% |
-| Canada | 4,563 | 2% | 88 | 3% |
-| United Kingdom | 4,545 | 2% | 67 | 2% |
-| Greece | 4,352 | 2% | 88 | 3% |
-| Australia | 2,800 | 1% | 58 | 2% |
+| United States | 131,095 | 58% | 367 | 11% |
+| Italy | 24,910 | 11% | 326 | 10% |
+| Mexico | 11,490 | 5% | 110 | 3% |
+| France | 8,520 | 4% | 84 | 3% |
+| India | 7,312 | 3% | 102 | 3% |
+| China | 5,878 | 3% | 178 | 6% |
+| Canada | 4,577 | 2% | 88 | 3% |
+| United Kingdom | 4,553 | 2% | 67 | 2% |
+| Greece | 4,334 | 2% | 88 | 3% |
+| Australia | 2,758 | 1% | 58 | 2% |
 
 ## Under-represented
 
@@ -82,11 +82,11 @@ Cultural importance is not scored: no source we use measures it, and we do not g
 | 1 | Switzerland | Europe | medium | 30 dishes ready to add; 2 to review |
 | 1 | Philippines | Asia | high | 30 dishes ready to add |
 | 1 | Netherlands | Europe | medium | 29 dishes ready to add; 1 to review |
-| 1 | Iran | Middle East & North Africa | low | 26 dishes ready to add; 429 recipes but 11 dishes |
+| 1 | Iran | Middle East & North Africa | low | 26 dishes ready to add; 432 recipes but 11 dishes |
 | 1 | Indonesia | Asia | high | 24 dishes ready to add |
 | 1 | Canada | North America | high | 20 dishes ready to add |
 | 1 | Sweden | Europe | medium | 20 dishes ready to add |
-| 1 | New Zealand | Oceania | low | 1 dishes ready to add; 387 recipes but 1 dishes |
+| 1 | New Zealand | Oceania | low | 1 dishes ready to add; 384 recipes but 1 dishes |
 | 2 | Belgium | Europe | medium | 18 dishes ready to add |
 | 2 | Nigeria | Africa | recipes only | 18 dishes ready to add |
 | 2 | Mexico | Latin America | high | 16 dishes ready to add; 2 to review |

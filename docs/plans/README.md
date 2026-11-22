@@ -280,6 +280,13 @@ Nothing is invented: only our data, Wikidata and notebook 15.
 6. Coverage audit and expansion backlog, Europe first: country, culinary region and dish family gaps, the
    indigenous cuisines, and the rules every future dish must pass (source, licence, place, family or "unknown",
    provenance), with an approval step (ready, needs review, blocked). Nothing is published by it.
+7. Quality sprint (done, PR #33): the dish completeness score, the image audit and the coverage reports.
+8. Recipe to dish improvements (done 2026-11-22): rule L1, a dish named before a kind of dish is that dish's
+   flavour ("peanut butter fudge" is Fudge); the review sheet `docs/audits/dish_link_review.csv` waits for the
+   team. Every recipe is now a Food Graph node (`recipe_of`, `named_for` a food entry, else `recipe_from` its
+   place).
+9. Next: the Global Culinary Atlas audit (per-zone next-dish lists, coverage scores, review queues). It needs a
+   sourced subregion scheme first: Wikidata's links to the UN regions are too patchy (no Western Europe).
 
 ### 0.8.0 (planned 2026-10-26): chat with the chef, and a real store locator
 

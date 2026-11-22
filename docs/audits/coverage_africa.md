@@ -1,4 +1,4 @@
-# Coverage: Africa (2026-11-21)
+# Coverage: Africa (2026-11-22)
 
 Back to [world coverage](coverage_world.md).
 
@@ -23,7 +23,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| South Africa | medium | 28 | 12 | 14 | 16 | 603 | 1 | 97% |
+| South Africa | medium | 28 | 12 | 14 | 16 | 606 | 1 | 97% |
 | Botswana | recipes only | 0 | 0 | 0 | 0 | 6 | 0 |  |
 | Namibia | recipes only | 0 | 0 | 0 | 0 | 4 | 0 |  |
 

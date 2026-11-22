@@ -9,7 +9,7 @@ Nodes (`FoodNode`), each with an id, a name, a slug, a type and the source it co
                                                                      family member we do not have yet
     variant                                                          a member of a family that is itself a dish
                                                                      (Sindhi biryani under biryani)
-    recipe                                                           a recipe row, added by `add_recipes`
+    recipe                                                           every recipe row, added by `add_recipes`
 
 Edges (`FoodEdge`) go from the narrower node to the wider one, and each says why it exists:
 
@@ -20,6 +20,8 @@ Edges (`FoodEdge`) go from the narrower node to the wider one, and each says why
     eaten_in     dish -> place       the Wikipedia cuisine list the dish was found on (dishes.jsonl `country`,
                                      `region`): where it is eaten, not always where it began
     recipe_of    recipe -> dish      the app's own dish match (`KnowledgeGraph.find_dish`)
+    named_for    recipe -> dish      the same match, when the entry is a food or drink ("Salmon"), not a dish
+    recipe_from  recipe -> place     a recipe with no dish: the place the labels its source gave it name
 
 Nothing is added that a source does not state: a dish whose place is not in the taxonomy simply has no place edge,
 and no relationship is ever inferred. `parent_nodes` and `child_nodes` are the two ends of these edges.
@@ -40,7 +42,7 @@ from .entities import Dish, Recipe
 
 NODE_TYPES = (*LEVELS, "cuisine_style", "dish_family", "dish", "variant", "recipe")
 PLACE_TYPES = frozenset(LEVELS)
-RELATIONS = ("part_of", "in_family", "variant_of", "origin", "eaten_in", "recipe_of")
+RELATIONS = ("part_of", "in_family", "variant_of", "origin", "eaten_in", "recipe_of", "named_for", "recipe_from")
 LIST_ARTICLE = re.compile(r"^(lists?|varieties|types|kinds) of ", re.IGNORECASE)   # Wikipedia list pages
 MAX_RELATED_GROUP = 40   # a family with more members is a broad class, not "more like this" (see `related`)
 
@@ -156,15 +158,25 @@ class FoodGraph:
                 else:
                     self.add_edge(member, f"family:{f['qid']}", "in_family", "Wikidata P279")
 
-    def add_recipes(self, recipes: Iterable[Recipe]) -> int:
-        """Recipes whose dish is linked (`KnowledgeGraph.link_dish`); returns how many were joined."""
+    def add_recipes(self, recipes: Iterable[Recipe], taxonomy: Taxonomy | None = None) -> int:
+        """Every recipe as a node. A recipe whose dish is linked (`KnowledgeGraph.link_dish`) joins it: `recipe_of`
+        for a dish, `named_for` for a food or drink entry (a recipe called "Salmon" is not the dish Salmon). One
+        with no dish joins its place instead when the taxonomy has it (`recipe_from`, from the labels its source gave it).
+        Returns how many joined a dish or food."""
         joined = 0
         for r in recipes:
-            if r.dish_id and f"dish:{r.dish_id}" in self.nodes:
-                self.add_node(FoodNode(f"recipe:{r.recipe_id}", r.title, slug(r.title), "recipe",
-                                       source=r.source, url=r.url))
-                self.add_edge(f"recipe:{r.recipe_id}", f"dish:{r.dish_id}", "recipe_of", "the app's dish match")
+            node = f"recipe:{r.recipe_id}"
+            self.add_node(FoodNode(node, r.title, slug(r.title), "recipe", source=r.source, url=r.url))
+            dish = self.nodes.get(f"dish:{r.dish_id}") if r.dish_id else None
+            if dish is not None:
+                relation = "recipe_of" if dish.kind == "dish" else "named_for"
+                self.add_edge(node, dish.id, relation, "the app's dish match")
                 joined += 1
+            elif taxonomy is not None and r.origin_country:
+                place = taxonomy.node_for(r.origin_country, r.origin_region or None) or taxonomy.node_for(
+                    r.origin_country)
+                if place:
+                    self.add_edge(node, f"place:{place}", "recipe_from", f"{r.source} recipe labels")
         return joined
 
     @classmethod
@@ -232,7 +244,13 @@ class FoodGraph:
         return self.parent_nodes(f"dish:{dish_id}", "variant_of")
 
     def recipes_of(self, dish_id: str) -> list[FoodNode]:
-        return self.child_nodes(f"dish:{dish_id}", "recipe_of")
+        """Its recipes (`named_for` ones when the entry is a food or drink)."""
+        node = f"dish:{dish_id}"
+        return self.child_nodes(node, "recipe_of") + self.child_nodes(node, "named_for")
+
+    def recipes_from(self, place_slug: str) -> list[FoodNode]:
+        """Recipes with no known dish whose source's labels name this place."""
+        return self.child_nodes(f"place:{place_slug}", "recipe_from")
 
     def places_of(self, dish_id: str) -> list[FoodNode]:
         """Its places: Wikidata's origin first, then the cuisine list it is on."""

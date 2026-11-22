@@ -1,4 +1,4 @@
-# Culinary regions and indigenous foodways (2026-11-21)
+# Culinary regions and indigenous foodways (2026-11-22)
 
 Regions below a country: the place tree's own and the knowledge notebook's (from Wikipedia region pages).
 

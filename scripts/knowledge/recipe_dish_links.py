@@ -51,8 +51,9 @@ def fast_find(know: Knowledge, longest: int, dish_name: str, country: str | None
         return None, "none"
     # ties keep the order of the name index, as find's stable sort does
     order = {k: i for i, k in enumerate(by_name) if k in hits}
-    best = max(hits, key=lambda k: (len(k), by_name[k].get("country") == country, -order[k]))
-    return by_name[best], "inside"
+    ranked = sorted(hits, key=lambda k: (-len(k), by_name[k].get("country") != country, order[k]))
+    entry = know.pick(tokens, ranked)
+    return (entry, "inside") if entry else (None, "none")
 
 
 def main() -> None:

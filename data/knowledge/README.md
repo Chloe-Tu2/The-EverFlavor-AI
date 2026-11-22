@@ -11,8 +11,10 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   it, its English Wikipedia article). The Food Graph (`everflavor.domain.FoodGraph`) and the dish page read it.
 - `dish_recipe_counts.json`: how many of our recipes the app links to each dish (`waiter.Knowledge.find` on the
   cleaned dish name), by source and by how the name matched, and the dishes with no recipe; counts only, from
-  `scripts/knowledge/recipe_dish_links.py` (2026-11-21: 80,741 of 291,755 recipes; see
+  `scripts/knowledge/recipe_dish_links.py` (2026-11-22, with rule L1: 77,560 of 291,755 recipes; see
   `docs/audits/recipe_dish_linking.md`).
+- `recipe_graph_counts.json`: every recipe as a Food Graph node and the edge it gets (`recipe_of`, `named_for`,
+  `recipe_from` its place, or none), by source and by place; counts only, from `scripts/knowledge/recipe_graph.py`.
 - `walter_context.json`, `discovery_paths.json`, `map_prep.json`: read off the Food Graph by
   `scripts/knowledge/graph_assets.py` for features not built yet: the waiter's fixed-template lines per dish,
   the next 8 dishes to try with their reasons and evidence, and per country the map's cuisine tag (see

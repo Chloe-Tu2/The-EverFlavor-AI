@@ -89,6 +89,27 @@ def test_find_takes_the_dish_at_the_head_of_the_title_not_a_broad_word() -> None
     assert know.find("veal") is veal                        # an exact name still matches
 
 
+def test_a_dish_before_a_kind_of_dish_is_its_flavour_not_the_dish() -> None:
+    """Policy L1: "peanut butter fudge" is fudge, unless the dish is that kind itself ("french dip sandwiches")."""
+    pb = tidy_dish({"qid": "Q1", "name": "Peanut butter", "kind": "dish", "summary": "Peanut butter is a spread."})
+    fudge = tidy_dish({"qid": "Q2", "name": "Fudge", "kind": "dish"})
+    dip = tidy_dish({"qid": "Q3", "name": "French dip", "kind": "dish",
+                     "summary": "A French dip is a hot sandwich. It has beef."})
+    tart = tidy_dish({"qid": "Q4", "name": "Butter tart", "kind": "dish"})
+    raisin = tidy_dish({"qid": "Q5", "name": "Raisin bread", "kind": "dish"})
+    pudding = tidy_dish({"qid": "Q6", "name": "Bread pudding", "kind": "dish"})
+    pad = tidy_dish({"qid": "Q7", "name": "Pad thai", "kind": "dish"})
+    know = waiter.Knowledge([pb, fudge, dip, tart, raisin, pudding, pad], family_names={"Q7": "noodle dish"})
+    assert know.find("chocolate peanut butter fudge") is fudge       # the next dish in the title
+    assert know.find("peanut butter bars") is None                   # no dish left: better none than a wrong one
+    assert know.find("peanut butter spread") is pb                   # its own summary says it is a spread
+    assert know.find("french dip sandwiches") is dip                 # "sandwiche": the cleaner's plural
+    assert know.find("pad thai noodles") is pad                      # its family is a noodle dish
+    assert know.find("peanut butter tart") is None                   # never the overlapping "butter tart"
+    assert know.find("raisin bread pudding") is pudding              # the longest name still wins first
+    assert know.find("peanut butter and jelly bars") is pb           # not followed by a kind of dish
+
+
 # ------------------------------------------------------------------ rewording by a local model
 
 STORY = waiter.Reply("Legend has it the taco was named after silver miners' charges in Mexico.", "wink",
