@@ -1,0 +1,3074 @@
+{
+"source": {
+"name": "Wikidata",
+"url": "https://www.wikidata.org",
+"licence": "CC0 1.0",
+"retrieved": "2026-11-21"
+},
+"countries": [
+{
+"qid": "Q889",
+"name": "Afghanistan",
+"iso": "AF",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 41454761
+},
+{
+"qid": "Q222",
+"name": "Albania",
+"iso": "AL",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 2811655
+},
+{
+"qid": "Q262",
+"name": "Algeria",
+"iso": "DZ",
+"continents": [
+"Africa"
+],
+"part_of": [
+"France"
+],
+"population": 46164219
+},
+{
+"qid": "Q16641",
+"name": "American Samoa",
+"iso": "AS",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Samoa"
+],
+"population": 49710
+},
+{
+"qid": "Q228",
+"name": "Andorra",
+"iso": "AD",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Catalan countries"
+],
+"population": 89752
+},
+{
+"qid": "Q916",
+"name": "Angola",
+"iso": "AO",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Portuguese-speaking African countries"
+],
+"population": 36749906
+},
+{
+"qid": "Q25228",
+"name": "Anguilla",
+"iso": "AI",
+"continents": [
+"North America"
+],
+"part_of": [
+"Caribbean",
+"Leeward Islands",
+"Lesser Antilles",
+"Windward Islands"
+],
+"population": 16293
+},
+{
+"qid": "Q51",
+"name": "Antarctica",
+"iso": "AQ",
+"continents": [],
+"part_of": [
+"Antarctic",
+"Earth",
+"landmass"
+],
+"population": 5000
+},
+{
+"qid": "Q781",
+"name": "Antigua and Barbuda",
+"iso": "AG",
+"continents": [
+"North America"
+],
+"part_of": [
+"Commonwealth of Nations",
+"Lesser Antilles"
+],
+"population": 101489
+},
+{
+"qid": "Q414",
+"name": "Argentina",
+"iso": "AR",
+"continents": [
+"South America"
+],
+"part_of": [
+"Latin America",
+"Southern Cone"
+],
+"population": 47327407
+},
+{
+"qid": "Q399",
+"name": "Armenia",
+"iso": "AM",
+"continents": [
+"Asia"
+],
+"part_of": [
+"West Asia"
+],
+"population": 2930450
+},
+{
+"qid": "Q21203",
+"name": "Aruba",
+"iso": "AW",
+"continents": [
+"North America"
+],
+"part_of": [
+"CAS countries",
+"Caribbean",
+"Dutch Caribbean",
+"European Union tax haven blacklist",
+"Lesser Antilles",
+"Netherlands Antilles"
+],
+"population": 106739
+},
+{
+"qid": "Q31890709",
+"name": "Ascension",
+"iso": "AC",
+"continents": [],
+"part_of": [],
+"population": null
+},
+{
+"qid": "Q408",
+"name": "Australia",
+"iso": "AU",
+"continents": [
+"Oceania"
+],
+"part_of": [
+"Australasia",
+"Australia and New Zealand",
+"Commonwealth of Nations",
+"MIKTA"
+],
+"population": 27614411
+},
+{
+"qid": "Q40",
+"name": "Austria",
+"iso": "AT",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Central Europe",
+"European Economic Area"
+],
+"population": 8979894
+},
+{
+"qid": "Q227",
+"name": "Azerbaijan",
+"iso": "AZ",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Caucasus",
+"Post-Soviet states",
+"West Asia"
+],
+"population": 10180770
+},
+{
+"qid": "Q398",
+"name": "Bahrain",
+"iso": "BH",
+"continents": [
+"Asia"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Gulf States",
+"Middle East",
+"West Asia"
+],
+"population": 1569666
+},
+{
+"qid": "Q902",
+"name": "Bangladesh",
+"iso": "BD",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 171466990
+},
+{
+"qid": "Q244",
+"name": "Barbados",
+"iso": "BB",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Lesser Antilles",
+"Windward Islands"
+],
+"population": 303431
+},
+{
+"qid": "Q184",
+"name": "Belarus",
+"iso": "BY",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 9056080
+},
+{
+"qid": "Q31",
+"name": "Belgium",
+"iso": "BE",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 11825551
+},
+{
+"qid": "Q242",
+"name": "Belize",
+"iso": "BZ",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist"
+],
+"population": 411106
+},
+{
+"qid": "Q962",
+"name": "Benin",
+"iso": "BJ",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 14111034
+},
+{
+"qid": "Q23635",
+"name": "Bermuda",
+"iso": "BM",
+"continents": [
+"North America"
+],
+"part_of": [
+"Caribbean",
+"European Union tax haven blacklist"
+],
+"population": 65636
+},
+{
+"qid": "Q917",
+"name": "Bhutan",
+"iso": "BT",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 787424
+},
+{
+"qid": "Q750",
+"name": "Bolivia",
+"iso": "BO",
+"continents": [
+"South America"
+],
+"part_of": [
+"Andean Community",
+"Latin America",
+"Mercosur"
+],
+"population": 12244159
+},
+{
+"qid": "Q225",
+"name": "Bosnia and Herzegovina",
+"iso": "BA",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 3816459
+},
+{
+"qid": "Q963",
+"name": "Botswana",
+"iso": "BW",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Southern Africa"
+],
+"population": 2480244
+},
+{
+"qid": "Q23408",
+"name": "Bouvet Island",
+"iso": "BV",
+"continents": [
+"Antarctica"
+],
+"part_of": [],
+"population": 0
+},
+{
+"qid": "Q155",
+"name": "Brazil",
+"iso": "BR",
+"continents": [
+"South America"
+],
+"part_of": [
+"Ibero-America",
+"Latin America",
+"Southern Cone"
+],
+"population": 214211951
+},
+{
+"qid": "Q43448",
+"name": "British Indian Ocean Territory",
+"iso": "IO",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 3000
+},
+{
+"qid": "Q25305",
+"name": "British Virgin Islands",
+"iso": "VG",
+"continents": [
+"North America"
+],
+"part_of": [
+"Caribbean",
+"European Union tax haven blacklist",
+"Leeward Islands",
+"Lesser Antilles",
+"Virgin Islands"
+],
+"population": 39369
+},
+{
+"qid": "Q921",
+"name": "Brunei",
+"iso": "BN",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Borneo"
+],
+"population": 458949
+},
+{
+"qid": "Q219",
+"name": "Bulgaria",
+"iso": "BG",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area"
+],
+"population": 6423207
+},
+{
+"qid": "Q965",
+"name": "Burkina Faso",
+"iso": "BF",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 23025776
+},
+{
+"qid": "Q967",
+"name": "Burundi",
+"iso": "BI",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Economic Community of the Great Lakes Countries"
+],
+"population": 13689450
+},
+{
+"qid": "Q424",
+"name": "Cambodia",
+"iso": "KH",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 17423880
+},
+{
+"qid": "Q1009",
+"name": "Cameroon",
+"iso": "CM",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 28372687
+},
+{
+"qid": "Q16",
+"name": "Canada",
+"iso": "CA",
+"continents": [
+"North America"
+],
+"part_of": [
+"North America"
+],
+"population": 36991981
+},
+{
+"qid": "Q1011",
+"name": "Cape Verde",
+"iso": "CV",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Portuguese-speaking African countries"
+],
+"population": 555988
+},
+{
+"qid": "Q27561",
+"name": "Caribbean Netherlands",
+"iso": "BQ",
+"continents": [
+"North America"
+],
+"part_of": [
+"Caribbean",
+"Dutch Caribbean"
+],
+"population": 29418
+},
+{
+"qid": "Q5785",
+"name": "Cayman Islands",
+"iso": "KY",
+"continents": [
+"North America"
+],
+"part_of": [
+"Caribbean",
+"European Union tax haven blacklist"
+],
+"population": 88833
+},
+{
+"qid": "Q929",
+"name": "Central African Republic",
+"iso": "CF",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 5152421
+},
+{
+"qid": "Q657",
+"name": "Chad",
+"iso": "TD",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 19319064
+},
+{
+"qid": "Q298",
+"name": "Chile",
+"iso": "CL",
+"continents": [
+"South America"
+],
+"part_of": [
+"Southern Cone"
+],
+"population": 19458000
+},
+{
+"qid": "Q31063",
+"name": "Christmas Island",
+"iso": "CX",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Indian Ocean islands"
+],
+"population": 1692
+},
+{
+"qid": "Q161258",
+"name": "Clipperton Island",
+"iso": "CP",
+"continents": [
+"North America"
+],
+"part_of": [
+"Overseas France"
+],
+"population": 0
+},
+{
+"qid": "Q36004",
+"name": "Cocos (Keeling) Islands",
+"iso": "CC",
+"continents": [
+"Oceania"
+],
+"part_of": [],
+"population": 602
+},
+{
+"qid": "Q739",
+"name": "Colombia",
+"iso": "CO",
+"continents": [
+"South America"
+],
+"part_of": [
+"Ibero-America",
+"Latin America"
+],
+"population": 52321152
+},
+{
+"qid": "Q970",
+"name": "Comoros",
+"iso": "KM",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 902348
+},
+{
+"qid": "Q26988",
+"name": "Cook Islands",
+"iso": "CK",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [
+"Realm of New Zealand"
+],
+"population": 14222
+},
+{
+"qid": "Q800",
+"name": "Costa Rica",
+"iso": "CR",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Latin America"
+],
+"population": 5265575
+},
+{
+"qid": "Q224",
+"name": "Croatia",
+"iso": "HR",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Schengen Area",
+"eurozone",
+"post-Yugoslavia states"
+],
+"population": 3871833
+},
+{
+"qid": "Q241",
+"name": "Cuba",
+"iso": "CU",
+"continents": [
+"North America"
+],
+"part_of": [
+"Latin America"
+],
+"population": 10985974
+},
+{
+"qid": "Q25279",
+"name": "Curaçao",
+"iso": "CW",
+"continents": [
+"North America"
+],
+"part_of": [
+"ABC islands",
+"CAS countries",
+"Caribbean",
+"Dutch Caribbean",
+"Lesser Antilles"
+],
+"population": 152849
+},
+{
+"qid": "Q229",
+"name": "Cyprus",
+"iso": "CY",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area",
+"Middle East",
+"West Asia"
+],
+"population": 1344976
+},
+{
+"qid": "Q213",
+"name": "Czech Republic",
+"iso": "CZ",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Central Europe",
+"European Economic Area"
+],
+"population": 10909500
+},
+{
+"qid": "Q974",
+"name": "Democratic Republic of the Congo",
+"iso": "CD",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Economic Community of the Great Lakes Countries"
+],
+"population": 105789731
+},
+{
+"qid": "Q35",
+"name": "Denmark",
+"iso": "DK",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area",
+"European Union",
+"Kingdom of Denmark",
+"Nordic countries",
+"Northern Europe",
+"Scandinavia"
+],
+"population": 5822863
+},
+{
+"qid": "Q184851",
+"name": "Diego Garcia",
+"iso": "DG",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Chagos Archipelago"
+],
+"population": 4202
+},
+{
+"qid": "Q977",
+"name": "Djibouti",
+"iso": "DJ",
+"continents": [
+"Africa"
+],
+"part_of": [
+"French colonial empire"
+],
+"population": 1152944
+},
+{
+"qid": "Q784",
+"name": "Dominica",
+"iso": "DM",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Lesser Antilles",
+"Windward Islands"
+],
+"population": 74656
+},
+{
+"qid": "Q786",
+"name": "Dominican Republic",
+"iso": "DO",
+"continents": [
+"North America"
+],
+"part_of": [
+"Latin America"
+],
+"population": 10760028
+},
+{
+"qid": "Q736",
+"name": "Ecuador",
+"iso": "EC",
+"continents": [
+"South America"
+],
+"part_of": [
+"Americas",
+"Hispanic America",
+"Latin America"
+],
+"population": 16938986
+},
+{
+"qid": "Q79",
+"name": "Egypt",
+"iso": "EG",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Middle East",
+"West Asia"
+],
+"population": 114535772
+},
+{
+"qid": "Q792",
+"name": "El Salvador",
+"iso": "SV",
+"continents": [
+"North America"
+],
+"part_of": [
+"Latin America"
+],
+"population": 6029976
+},
+{
+"qid": "Q983",
+"name": "Equatorial Guinea",
+"iso": "GQ",
+"continents": [
+"Africa"
+],
+"part_of": [
+"European colonies in Africa",
+"Portuguese Empire",
+"Portuguese-speaking African countries",
+"Spanish Empire"
+],
+"population": 1847549
+},
+{
+"qid": "Q986",
+"name": "Eritrea",
+"iso": "ER",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 3497000
+},
+{
+"qid": "Q191",
+"name": "Estonia",
+"iso": "EE",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Baltic states"
+],
+"population": 1369995
+},
+{
+"qid": "Q1050",
+"name": "Eswatini",
+"iso": "SZ",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Southern Africa"
+],
+"population": 1230506
+},
+{
+"qid": "Q115",
+"name": "Ethiopia",
+"iso": "ET",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 128691692
+},
+{
+"qid": "Q9648",
+"name": "Falkland Islands",
+"iso": "FK",
+"continents": [
+"South America"
+],
+"part_of": [],
+"population": 3662
+},
+{
+"qid": "Q4628",
+"name": "Faroe Islands",
+"iso": "FO",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Kingdom of Denmark",
+"Northern Europe",
+"the unity of the Realm"
+],
+"population": 54149
+},
+{
+"qid": "Q702",
+"name": "Federated States of Micronesia",
+"iso": "FM",
+"continents": [
+"Oceania"
+],
+"part_of": [],
+"population": 75817
+},
+{
+"qid": "Q712",
+"name": "Fiji",
+"iso": "FJ",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Melanesia"
+],
+"population": 926276
+},
+{
+"qid": "Q33",
+"name": "Finland",
+"iso": "FI",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area",
+"Fennoscandia",
+"Nordic countries"
+],
+"population": 5652881
+},
+{
+"qid": "Q142",
+"name": "France",
+"iso": "FR",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area"
+],
+"population": 68605616
+},
+{
+"qid": "Q3769",
+"name": "French Guiana",
+"iso": "GF",
+"continents": [
+"South America"
+],
+"part_of": [
+"Latin America",
+"South America"
+],
+"population": 293996
+},
+{
+"qid": "Q30971",
+"name": "French Polynesia",
+"iso": "PF",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [
+"Overseas France"
+],
+"population": 278786
+},
+{
+"qid": "Q129003",
+"name": "French Southern and Antarctic Lands",
+"iso": "TF",
+"continents": [
+"Africa",
+"Antarctica"
+],
+"part_of": [
+"Overseas France"
+],
+"population": 196
+},
+{
+"qid": "Q1000",
+"name": "Gabon",
+"iso": "GA",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 2025137
+},
+{
+"qid": "Q230",
+"name": "Georgia",
+"iso": "GE",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 3929581
+},
+{
+"qid": "Q183",
+"name": "Germany",
+"iso": "DE",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 83467117
+},
+{
+"qid": "Q117",
+"name": "Ghana",
+"iso": "GH",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 32833031
+},
+{
+"qid": "Q1410",
+"name": "Gibraltar",
+"iso": "GI",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 34003
+},
+{
+"qid": "Q41",
+"name": "Greece",
+"iso": "GR",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 10482487
+},
+{
+"qid": "Q223",
+"name": "Greenland",
+"iso": "GL",
+"continents": [
+"North America"
+],
+"part_of": [
+"Kingdom of Denmark",
+"North America"
+],
+"population": 56609
+},
+{
+"qid": "Q769",
+"name": "Grenada",
+"iso": "GD",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Lesser Antilles",
+"Windward Antilles"
+],
+"population": 114299
+},
+{
+"qid": "Q17012",
+"name": "Guadeloupe",
+"iso": "GP",
+"continents": [
+"North America"
+],
+"part_of": [],
+"population": 384160
+},
+{
+"qid": "Q16635",
+"name": "Guam",
+"iso": "GU",
+"continents": [
+"Oceania"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Micronesia"
+],
+"population": 153836
+},
+{
+"qid": "Q774",
+"name": "Guatemala",
+"iso": "GT",
+"continents": [
+"North America"
+],
+"part_of": [
+"Latin America",
+"Middle America"
+],
+"population": 17263239
+},
+{
+"qid": "Q25230",
+"name": "Guernsey",
+"iso": "GG",
+"continents": [
+"Europe"
+],
+"part_of": [
+"British Islands",
+"Channel Islands",
+"Northern Europe"
+],
+"population": 67787
+},
+{
+"qid": "Q1006",
+"name": "Guinea",
+"iso": "GN",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 17521167
+},
+{
+"qid": "Q1007",
+"name": "Guinea-Bissau",
+"iso": "GW",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Portuguese-speaking African countries"
+],
+"population": 1861283
+},
+{
+"qid": "Q734",
+"name": "Guyana",
+"iso": "GY",
+"continents": [
+"South America"
+],
+"part_of": [],
+"population": 878674
+},
+{
+"qid": "Q790",
+"name": "Haiti",
+"iso": "HT",
+"continents": [
+"North America"
+],
+"part_of": [
+"Latin America"
+],
+"population": 10981229
+},
+{
+"qid": "Q131198",
+"name": "Heard Island and McDonald Islands",
+"iso": "HM",
+"continents": [
+"Antarctica"
+],
+"part_of": [],
+"population": 0
+},
+{
+"qid": "Q783",
+"name": "Honduras",
+"iso": "HN",
+"continents": [
+"North America"
+],
+"part_of": [
+"Latin America"
+],
+"population": 8303771
+},
+{
+"qid": "Q8646",
+"name": "Hong Kong",
+"iso": "HK",
+"continents": [
+"Asia"
+],
+"part_of": [
+"East Asia",
+"People's Republic of China"
+],
+"population": 7413070
+},
+{
+"qid": "Q28",
+"name": "Hungary",
+"iso": "HU",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Central Europe"
+],
+"population": 9603634
+},
+{
+"qid": "Q189",
+"name": "Iceland",
+"iso": "IS",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Nordic countries"
+],
+"population": 364260
+},
+{
+"qid": "Q668",
+"name": "India",
+"iso": "IN",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 1326093247
+},
+{
+"qid": "Q252",
+"name": "Indonesia",
+"iso": "ID",
+"continents": [
+"Asia"
+],
+"part_of": [
+"ASEAN",
+"Asia-Pacific Economic Cooperation",
+"MIKTA",
+"United Nations"
+],
+"population": 275439000
+},
+{
+"qid": "Q794",
+"name": "Iran",
+"iso": "IR",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Middle East"
+],
+"population": 92417700
+},
+{
+"qid": "Q796",
+"name": "Iraq",
+"iso": "IQ",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Middle East"
+],
+"population": 38274618
+},
+{
+"qid": "Q27",
+"name": "Ireland",
+"iso": "IE",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area"
+],
+"population": 5149139
+},
+{
+"qid": "Q9676",
+"name": "Isle of Man",
+"iso": "IM",
+"continents": [
+"Europe"
+],
+"part_of": [
+"British Islands",
+"Celtic nations",
+"Northern Europe"
+],
+"population": 84523
+},
+{
+"qid": "Q801",
+"name": "Israel",
+"iso": "IL",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Asia",
+"Middle East",
+"West Asia"
+],
+"population": 9840000
+},
+{
+"qid": "Q38",
+"name": "Italy",
+"iso": "IT",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area"
+],
+"population": 58850717
+},
+{
+"qid": "Q1008",
+"name": "Ivory Coast",
+"iso": "CI",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 31165654
+},
+{
+"qid": "Q766",
+"name": "Jamaica",
+"iso": "JM",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist"
+],
+"population": 2697983
+},
+{
+"qid": "Q17",
+"name": "Japan",
+"iso": "JP",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 123802000
+},
+{
+"qid": "Q785",
+"name": "Jersey",
+"iso": "JE",
+"continents": [
+"Europe"
+],
+"part_of": [
+"British Islands",
+"Northern Europe"
+],
+"population": 103267
+},
+{
+"qid": "Q810",
+"name": "Jordan",
+"iso": "JO",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Arab world",
+"Middle East"
+],
+"population": 10428241
+},
+{
+"qid": "Q232",
+"name": "Kazakhstan",
+"iso": "KZ",
+"continents": [
+"Asia",
+"Europe"
+],
+"part_of": [],
+"population": 20139914
+},
+{
+"qid": "Q114",
+"name": "Kenya",
+"iso": "KE",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 48468138
+},
+{
+"qid": "Q29999",
+"name": "Kingdom of the Netherlands",
+"iso": "NL",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area"
+],
+"population": 17100715
+},
+{
+"qid": "Q710",
+"name": "Kiribati",
+"iso": "KI",
+"continents": [
+"Insular Oceania",
+"Oceania"
+],
+"part_of": [
+"Micronesia",
+"Polynesia"
+],
+"population": 134518
+},
+{
+"qid": "Q1246",
+"name": "Kosovo",
+"iso": "XK",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Southeastern Europe",
+"post-Yugoslavia states"
+],
+"population": 1586659
+},
+{
+"qid": "Q817",
+"name": "Kuwait",
+"iso": "KW",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Gulf States",
+"Middle East"
+],
+"population": 4464000
+},
+{
+"qid": "Q813",
+"name": "Kyrgyzstan",
+"iso": "KG",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 7281800
+},
+{
+"qid": "Q819",
+"name": "Laos",
+"iso": "LA",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 6858160
+},
+{
+"qid": "Q211",
+"name": "Latvia",
+"iso": "LV",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Baltic states",
+"European Economic Area"
+],
+"population": 1845096
+},
+{
+"qid": "Q822",
+"name": "Lebanon",
+"iso": "LB",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Asia",
+"Middle East",
+"West Asia"
+],
+"population": 6100075
+},
+{
+"qid": "Q1013",
+"name": "Lesotho",
+"iso": "LS",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Southern Africa"
+],
+"population": 2007201
+},
+{
+"qid": "Q1014",
+"name": "Liberia",
+"iso": "LR",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 5214030
+},
+{
+"qid": "Q1016",
+"name": "Libya",
+"iso": "LY",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 7381023
+},
+{
+"qid": "Q347",
+"name": "Liechtenstein",
+"iso": "LI",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area",
+"German Confederation"
+],
+"population": 37922
+},
+{
+"qid": "Q37",
+"name": "Lithuania",
+"iso": "LT",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Baltic states",
+"European Economic Area"
+],
+"population": 2860002
+},
+{
+"qid": "Q32",
+"name": "Luxembourg",
+"iso": "LU",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 690959
+},
+{
+"qid": "Q14773",
+"name": "Macau",
+"iso": "MO",
+"continents": [
+"Asia"
+],
+"part_of": [
+"East Asia",
+"European Union tax haven blacklist",
+"People's Republic of China"
+],
+"population": 682100
+},
+{
+"qid": "Q1019",
+"name": "Madagascar",
+"iso": "MG",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Common Market for Eastern and Southern Africa",
+"Indian Ocean Commission",
+"Organisation internationale de la Francophonie",
+"Southern African Development Community"
+],
+"population": 31964956
+},
+{
+"qid": "Q1020",
+"name": "Malawi",
+"iso": "MW",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Southeast Africa",
+"Southern Africa"
+],
+"population": 17563749
+},
+{
+"qid": "Q833",
+"name": "Malaysia",
+"iso": "MY",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 34231700
+},
+{
+"qid": "Q826",
+"name": "Maldives",
+"iso": "MV",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 436330
+},
+{
+"qid": "Q912",
+"name": "Mali",
+"iso": "ML",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 22395489
+},
+{
+"qid": "Q233",
+"name": "Malta",
+"iso": "MT",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Commonwealth of Nations",
+"European Economic Area"
+],
+"population": 553214
+},
+{
+"qid": "Q709",
+"name": "Marshall Islands",
+"iso": "MH",
+"continents": [
+"Oceania"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Micronesia"
+],
+"population": 53127
+},
+{
+"qid": "Q17054",
+"name": "Martinique",
+"iso": "MQ",
+"continents": [
+"North America"
+],
+"part_of": [
+"Lesser Antilles",
+"Windward Islands"
+],
+"population": 360630
+},
+{
+"qid": "Q1025",
+"name": "Mauritania",
+"iso": "MR",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 4736139
+},
+{
+"qid": "Q1027",
+"name": "Mauritius",
+"iso": "MU",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 1264613
+},
+{
+"qid": "Q17063",
+"name": "Mayotte",
+"iso": "YT",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 320901
+},
+{
+"qid": "Q96",
+"name": "Mexico",
+"iso": "MX",
+"continents": [
+"North America"
+],
+"part_of": [
+"Latin America",
+"MIKTA"
+],
+"population": 132274416
+},
+{
+"qid": "Q217",
+"name": "Moldova",
+"iso": "MD",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Southeastern Europe"
+],
+"population": 2409207
+},
+{
+"qid": "Q235",
+"name": "Monaco",
+"iso": "MC",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Europe"
+],
+"population": 38857
+},
+{
+"qid": "Q711",
+"name": "Mongolia",
+"iso": "MN",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 3409939
+},
+{
+"qid": "Q236",
+"name": "Montenegro",
+"iso": "ME",
+"continents": [
+"Europe"
+],
+"part_of": [
+"post-Yugoslavia states"
+],
+"population": 617213
+},
+{
+"qid": "Q13353",
+"name": "Montserrat",
+"iso": "MS",
+"continents": [
+"North America"
+],
+"part_of": [
+"Caribbean",
+"Leeward Islands",
+"Lesser Antilles"
+],
+"population": 5440
+},
+{
+"qid": "Q1028",
+"name": "Morocco",
+"iso": "MA",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 36828330
+},
+{
+"qid": "Q1029",
+"name": "Mozambique",
+"iso": "MZ",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Portuguese-speaking African countries"
+],
+"population": 29668834
+},
+{
+"qid": "Q836",
+"name": "Myanmar",
+"iso": "MM",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 53370609
+},
+{
+"qid": "Q1030",
+"name": "Namibia",
+"iso": "NA",
+"continents": [
+"Africa"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Southern Africa"
+],
+"population": 2533794
+},
+{
+"qid": "Q697",
+"name": "Nauru",
+"iso": "NR",
+"continents": [
+"Oceania"
+],
+"part_of": [
+"Micronesia"
+],
+"population": 13650
+},
+{
+"qid": "Q837",
+"name": "Nepal",
+"iso": "NP",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 29164578
+},
+{
+"qid": "Q33788",
+"name": "New Caledonia",
+"iso": "NC",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [
+"Overseas France"
+],
+"population": 278500
+},
+{
+"qid": "Q664",
+"name": "New Zealand",
+"iso": "NZ",
+"continents": [
+"Oceania"
+],
+"part_of": [
+"Australasia",
+"Australia and New Zealand",
+"Realm of New Zealand"
+],
+"population": 5307800
+},
+{
+"qid": "Q811",
+"name": "Nicaragua",
+"iso": "NI",
+"continents": [
+"North America"
+],
+"part_of": [
+"Latin America"
+],
+"population": 5142098
+},
+{
+"qid": "Q1032",
+"name": "Niger",
+"iso": "NE",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 21477348
+},
+{
+"qid": "Q1033",
+"name": "Nigeria",
+"iso": "NG",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 211400708
+},
+{
+"qid": "Q34020",
+"name": "Niue",
+"iso": "NU",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [
+"New Zealand",
+"Polynesia",
+"Realm of New Zealand"
+],
+"population": 1821
+},
+{
+"qid": "Q31057",
+"name": "Norfolk Island",
+"iso": "NF",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [],
+"population": 2188
+},
+{
+"qid": "Q423",
+"name": "North Korea",
+"iso": "KP",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 26418204
+},
+{
+"qid": "Q221",
+"name": "North Macedonia",
+"iso": "MK",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Southeastern Europe",
+"post-Yugoslavia states"
+],
+"population": 1836713
+},
+{
+"qid": "Q16644",
+"name": "Northern Mariana Islands",
+"iso": "MP",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [
+"Micronesia"
+],
+"population": 47329
+},
+{
+"qid": "Q20",
+"name": "Norway",
+"iso": "NO",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area",
+"Nordic countries"
+],
+"population": 5627400
+},
+{
+"qid": "Q842",
+"name": "Oman",
+"iso": "OM",
+"continents": [
+"Asia"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Gulf States",
+"West Asia"
+],
+"population": 4829480
+},
+{
+"qid": "Q843",
+"name": "Pakistan",
+"iso": "PK",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 223773700
+},
+{
+"qid": "Q695",
+"name": "Palau",
+"iso": "PW",
+"continents": [
+"Insular Oceania",
+"Oceania"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Micronesia"
+],
+"population": 21729
+},
+{
+"qid": "Q219060",
+"name": "Palestine",
+"iso": "PS",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Asia",
+"Israel and The Occupied Territories",
+"Levant",
+"Middle East",
+"Palestine",
+"West Asia"
+],
+"population": 5227193
+},
+{
+"qid": "Q804",
+"name": "Panama",
+"iso": "PA",
+"continents": [
+"North America"
+],
+"part_of": [
+"Continental Central America",
+"European Union tax haven blacklist",
+"Latin America"
+],
+"population": 4570133
+},
+{
+"qid": "Q691",
+"name": "Papua New Guinea",
+"iso": "PG",
+"continents": [
+"Oceania"
+],
+"part_of": [
+"Melanesia",
+"Oceania"
+],
+"population": 8935000
+},
+{
+"qid": "Q733",
+"name": "Paraguay",
+"iso": "PY",
+"continents": [
+"South America"
+],
+"part_of": [
+"Latin America",
+"Southern Cone"
+],
+"population": 6811297
+},
+{
+"qid": "Q148",
+"name": "People's Republic of China",
+"iso": "CN",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Asia",
+"China"
+],
+"population": 1404890000
+},
+{
+"qid": "Q419",
+"name": "Peru",
+"iso": "PE",
+"continents": [
+"South America"
+],
+"part_of": [
+"Latin America"
+],
+"population": 34157732
+},
+{
+"qid": "Q928",
+"name": "Philippines",
+"iso": "PH",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 112729484
+},
+{
+"qid": "Q35672",
+"name": "Pitcairn Islands",
+"iso": "PN",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [],
+"population": 50
+},
+{
+"qid": "Q36",
+"name": "Poland",
+"iso": "PL",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Central Europe",
+"European Economic Area"
+],
+"population": 37563071
+},
+{
+"qid": "Q45",
+"name": "Portugal",
+"iso": "PT",
+"continents": [
+"Europe"
+],
+"part_of": [
+"South-West Europe"
+],
+"population": 10347892
+},
+{
+"qid": "Q1183",
+"name": "Puerto Rico",
+"iso": "PR",
+"continents": [
+"North America"
+],
+"part_of": [
+"Caribbean",
+"Caribbean Islands",
+"Greater Antilles",
+"Latin America",
+"US Caribbean"
+],
+"population": 3285874
+},
+{
+"qid": "Q846",
+"name": "Qatar",
+"iso": "QA",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Gulf States",
+"Middle East",
+"West Asia"
+],
+"population": 2639211
+},
+{
+"qid": "Q971",
+"name": "Republic of the Congo",
+"iso": "CG",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 6142180
+},
+{
+"qid": "Q218",
+"name": "Romania",
+"iso": "RO",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Schengen Area"
+],
+"population": 19053815
+},
+{
+"qid": "Q159",
+"name": "Russia",
+"iso": "RU",
+"continents": [
+"Asia",
+"Eurasia",
+"Europe"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Post-Soviet states"
+],
+"population": 146119928
+},
+{
+"qid": "Q1037",
+"name": "Rwanda",
+"iso": "RW",
+"continents": [
+"Africa"
+],
+"part_of": [
+"African Union",
+"East African Community",
+"Economic Community of the Great Lakes Countries"
+],
+"population": 14569341
+},
+{
+"qid": "Q17070",
+"name": "Réunion",
+"iso": "RE",
+"continents": [
+"Africa"
+],
+"part_of": [
+"East Africa",
+"Mascarene Islands",
+"Overseas France",
+"South Indian Ocean Defense and Security Zone"
+],
+"population": 889679
+},
+{
+"qid": "Q25362",
+"name": "Saint Barthélemy",
+"iso": "BL",
+"continents": [
+"North America"
+],
+"part_of": [
+"Caribbean",
+"Leeward Islands",
+"Lesser Antilles"
+],
+"population": 10124
+},
+{
+"qid": "Q192184",
+"name": "Saint Helena, Ascension and Tristan da Cunha",
+"iso": "SH",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 5633
+},
+{
+"qid": "Q763",
+"name": "Saint Kitts and Nevis",
+"iso": "KN",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Lesser Antilles"
+],
+"population": 46922
+},
+{
+"qid": "Q760",
+"name": "Saint Lucia",
+"iso": "LC",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Lesser Antilles",
+"Windward Islands"
+],
+"population": 167591
+},
+{
+"qid": "Q34617",
+"name": "Saint Pierre and Miquelon",
+"iso": "PM",
+"continents": [
+"North America"
+],
+"part_of": [],
+"population": 5974
+},
+{
+"qid": "Q757",
+"name": "Saint Vincent and the Grenadines",
+"iso": "VC",
+"continents": [
+"North America"
+],
+"part_of": [
+"Lesser Antilles"
+],
+"population": 109296
+},
+{
+"qid": "Q126125",
+"name": "Saint-Martin",
+"iso": "MF",
+"continents": [
+"North America"
+],
+"part_of": [
+"French West Indies",
+"Saint Martin"
+],
+"population": 32358
+},
+{
+"qid": "Q683",
+"name": "Samoa",
+"iso": "WS",
+"continents": [
+"Oceania"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Polynesia"
+],
+"population": 200010
+},
+{
+"qid": "Q238",
+"name": "San Marino",
+"iso": "SM",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 34167
+},
+{
+"qid": "Q3405693",
+"name": "Sark",
+"iso": "CQ",
+"continents": [],
+"part_of": [
+"Channel Islands"
+],
+"population": 562
+},
+{
+"qid": "Q851",
+"name": "Saudi Arabia",
+"iso": "SA",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Arab states of the Persian Gulf",
+"Arab world",
+"Middle East",
+"West Asia"
+],
+"population": 33000000
+},
+{
+"qid": "Q1041",
+"name": "Senegal",
+"iso": "SN",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 16876720
+},
+{
+"qid": "Q403",
+"name": "Serbia",
+"iso": "RS",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Southeastern Europe",
+"post-Yugoslavia states"
+],
+"population": 6605168
+},
+{
+"qid": "Q1042",
+"name": "Seychelles",
+"iso": "SC",
+"continents": [
+"Africa"
+],
+"part_of": [
+"European Union tax haven blacklist"
+],
+"population": 119773
+},
+{
+"qid": "Q1044",
+"name": "Sierra Leone",
+"iso": "SL",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 7557212
+},
+{
+"qid": "Q334",
+"name": "Singapore",
+"iso": "SG",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 5866139
+},
+{
+"qid": "Q26273",
+"name": "Sint Maarten",
+"iso": "SX",
+"continents": [
+"North America"
+],
+"part_of": [
+"CAS countries",
+"Caribbean",
+"Dutch Caribbean",
+"Saint Martin"
+],
+"population": 43847
+},
+{
+"qid": "Q214",
+"name": "Slovakia",
+"iso": "SK",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 5409407
+},
+{
+"qid": "Q215",
+"name": "Slovenia",
+"iso": "SI",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Central Europe",
+"European Economic Area",
+"post-Yugoslavia states"
+],
+"population": 2066880
+},
+{
+"qid": "Q685",
+"name": "Solomon Islands",
+"iso": "SB",
+"continents": [
+"Insular Oceania",
+"Oceania"
+],
+"part_of": [
+"Melanesia"
+],
+"population": 611343
+},
+{
+"qid": "Q1045",
+"name": "Somalia",
+"iso": "SO",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 11031386
+},
+{
+"qid": "Q258",
+"name": "South Africa",
+"iso": "ZA",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Southern Africa"
+],
+"population": 62027503
+},
+{
+"qid": "Q35086",
+"name": "South Georgia and the South Sandwich Islands",
+"iso": "GS",
+"continents": [
+"South America"
+],
+"part_of": [],
+"population": 35
+},
+{
+"qid": "Q884",
+"name": "South Korea",
+"iso": "KR",
+"continents": [
+"Asia"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"MIKTA"
+],
+"population": 51466201
+},
+{
+"qid": "Q958",
+"name": "South Sudan",
+"iso": "SS",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Africa"
+],
+"population": 12575714
+},
+{
+"qid": "Q29",
+"name": "Spain",
+"iso": "ES",
+"continents": [
+"Europe"
+],
+"part_of": [
+"European Economic Area"
+],
+"population": 48592909
+},
+{
+"qid": "Q854",
+"name": "Sri Lanka",
+"iso": "LK",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 21444000
+},
+{
+"qid": "Q1049",
+"name": "Sudan",
+"iso": "SD",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Africa",
+"Middle East and North Africa"
+],
+"population": 40533330
+},
+{
+"qid": "Q730",
+"name": "Suriname",
+"iso": "SR",
+"continents": [
+"South America"
+],
+"part_of": [],
+"population": 563402
+},
+{
+"qid": "Q842829",
+"name": "Svalbard and Jan Mayen",
+"iso": "SJ",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Northern Europe"
+],
+"population": 2905
+},
+{
+"qid": "Q34",
+"name": "Sweden",
+"iso": "SE",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Nordic countries",
+"Scandinavia"
+],
+"population": 10609460
+},
+{
+"qid": "Q39",
+"name": "Switzerland",
+"iso": "CH",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Central Europe"
+],
+"population": 9104063
+},
+{
+"qid": "Q858",
+"name": "Syria",
+"iso": "SY",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Middle East",
+"West Asia"
+],
+"population": 23865423
+},
+{
+"qid": "Q1039",
+"name": "São Tomé and Príncipe",
+"iso": "ST",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Portuguese-speaking African countries"
+],
+"population": 204327
+},
+{
+"qid": "Q865",
+"name": "Taiwan",
+"iso": "TW",
+"continents": [
+"Asia"
+],
+"part_of": [
+"China"
+],
+"population": 23262544
+},
+{
+"qid": "Q863",
+"name": "Tajikistan",
+"iso": "TJ",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 9504000
+},
+{
+"qid": "Q924",
+"name": "Tanzania",
+"iso": "TZ",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 57310019
+},
+{
+"qid": "Q869",
+"name": "Thailand",
+"iso": "TH",
+"continents": [
+"Asia"
+],
+"part_of": [
+"ASEAN",
+"Mainland Southeast Asia"
+],
+"population": 66188503
+},
+{
+"qid": "Q778",
+"name": "The Bahamas",
+"iso": "BS",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist"
+],
+"population": 399440
+},
+{
+"qid": "Q1005",
+"name": "The Gambia",
+"iso": "GM",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 2639916
+},
+{
+"qid": "Q574",
+"name": "Timor-Leste",
+"iso": "TL",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 1400638
+},
+{
+"qid": "Q945",
+"name": "Togo",
+"iso": "TG",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 7797694
+},
+{
+"qid": "Q36823",
+"name": "Tokelau",
+"iso": "TK",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [],
+"population": 1910
+},
+{
+"qid": "Q678",
+"name": "Tonga",
+"iso": "TO",
+"continents": [
+"Oceania"
+],
+"part_of": [
+"Polynesia"
+],
+"population": 108020
+},
+{
+"qid": "Q754",
+"name": "Trinidad and Tobago",
+"iso": "TT",
+"continents": [
+"North America"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Lesser Antilles"
+],
+"population": 1369125
+},
+{
+"qid": "Q34625512",
+"name": "Tristan da Cunha",
+"iso": "TA",
+"continents": [],
+"part_of": [],
+"population": null
+},
+{
+"qid": "Q948",
+"name": "Tunisia",
+"iso": "TN",
+"continents": [
+"Africa"
+],
+"part_of": [
+"European Union tax haven blacklist"
+],
+"population": 11565204
+},
+{
+"qid": "Q43",
+"name": "Turkey",
+"iso": "TR",
+"continents": [
+"Asia",
+"Europe"
+],
+"part_of": [
+"Balkans",
+"Black Sea Basin",
+"Eurasia",
+"Mediterranean Basin",
+"Middle East"
+],
+"population": 85372377
+},
+{
+"qid": "Q874",
+"name": "Turkmenistan",
+"iso": "TM",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 6117933
+},
+{
+"qid": "Q18221",
+"name": "Turks and Caicos Islands",
+"iso": "TC",
+"continents": [
+"North America"
+],
+"part_of": [
+"Caribbean"
+],
+"population": 44542
+},
+{
+"qid": "Q672",
+"name": "Tuvalu",
+"iso": "TV",
+"continents": [
+"Insular Oceania",
+"Oceania"
+],
+"part_of": [
+"Polynesia"
+],
+"population": 10643
+},
+{
+"qid": "Q1036",
+"name": "Uganda",
+"iso": "UG",
+"continents": [
+"Africa"
+],
+"part_of": [],
+"population": 47123531
+},
+{
+"qid": "Q212",
+"name": "Ukraine",
+"iso": "UA",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 41167335
+},
+{
+"qid": "Q878",
+"name": "United Arab Emirates",
+"iso": "AE",
+"continents": [
+"Asia"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Gulf States",
+"Middle East",
+"West Asia"
+],
+"population": 9890400
+},
+{
+"qid": "Q145",
+"name": "United Kingdom",
+"iso": "GB",
+"continents": [
+"Europe"
+],
+"part_of": [
+"Common Travel Area"
+],
+"population": 67326569
+},
+{
+"qid": "Q30",
+"name": "United States",
+"iso": "US",
+"continents": [
+"North America"
+],
+"part_of": [
+"North America"
+],
+"population": 340110988
+},
+{
+"qid": "Q16645",
+"name": "United States Minor Outlying Islands",
+"iso": "UM",
+"continents": [
+"Insular Oceania",
+"North America"
+],
+"part_of": [],
+"population": 190
+},
+{
+"qid": "Q11703",
+"name": "United States Virgin Islands",
+"iso": "VI",
+"continents": [
+"North America"
+],
+"part_of": [
+"American West Indies",
+"Caribbean",
+"US Caribbean",
+"Virgin Islands"
+],
+"population": 87146
+},
+{
+"qid": "Q77",
+"name": "Uruguay",
+"iso": "UY",
+"continents": [
+"South America"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Latin America",
+"Southern Cone"
+],
+"population": 3444263
+},
+{
+"qid": "Q265",
+"name": "Uzbekistan",
+"iso": "UZ",
+"continents": [
+"Asia"
+],
+"part_of": [],
+"population": 34915100
+},
+{
+"qid": "Q686",
+"name": "Vanuatu",
+"iso": "VU",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [
+"European Union tax haven blacklist",
+"Melanesia"
+],
+"population": 300019
+},
+{
+"qid": "Q237",
+"name": "Vatican City",
+"iso": "VA",
+"continents": [
+"Europe"
+],
+"part_of": [],
+"population": 949
+},
+{
+"qid": "Q717",
+"name": "Venezuela",
+"iso": "VE",
+"continents": [
+"South America"
+],
+"part_of": [
+"G3 Free Trade Agreement",
+"Ibero-America",
+"Latin America"
+],
+"population": 31250306
+},
+{
+"qid": "Q881",
+"name": "Vietnam",
+"iso": "VN",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Mainland Southeast Asia"
+],
+"population": 96208984
+},
+{
+"qid": "Q35555",
+"name": "Wallis and Futuna",
+"iso": "WF",
+"continents": [
+"Insular Oceania"
+],
+"part_of": [],
+"population": 11558
+},
+{
+"qid": "Q6250",
+"name": "Western Sahara",
+"iso": "EH",
+"continents": [
+"Africa"
+],
+"part_of": [
+"North Africa"
+],
+"population": 612000
+},
+{
+"qid": "Q805",
+"name": "Yemen",
+"iso": "YE",
+"continents": [
+"Asia"
+],
+"part_of": [
+"Middle East",
+"West Asia"
+],
+"population": 28250420
+},
+{
+"qid": "Q953",
+"name": "Zambia",
+"iso": "ZM",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Southern Africa"
+],
+"population": 19610769
+},
+{
+"qid": "Q954",
+"name": "Zimbabwe",
+"iso": "ZW",
+"continents": [
+"Africa"
+],
+"part_of": [
+"Southern Africa"
+],
+"population": 15178979
+},
+{
+"qid": "Q5689",
+"name": "Åland",
+"iso": "AX",
+"continents": [],
+"part_of": [
+"Nordic countries",
+"Northern Europe"
+],
+"population": 30836
+}
+]
+}
