@@ -18,6 +18,11 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 
 ### Added
 
+- **Governance and security** (`docs/governance/`, `SECURITY.md`, `GOVERNANCE.md`): a secret scan of every tracked
+  file (API keys, tokens, passwords, connection strings; values redacted) that fails CI on any finding; a PII
+  audit (e-mails, phones, addresses, coordinates) for a person to review; the public data policy, the human
+  approval workflow (two people for safety rules), the licence compliance summary, a release checklist and the
+  list of questions waiting for the team. An "At a glance" section opens the README.
 - **Content quality sprint** (reports only, no app change): an **approved image queue** of 1,739 Wikidata dish
   photos that pass the photo pipeline's licence, credit and size rules (read from the Commons API, nothing
   downloaded); the **dish completeness report**, which shows rich dishes going from 505 to 654 and thin ones from

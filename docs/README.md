@@ -15,5 +15,6 @@ What the project is, how the data was made, and the rules we work by.
 | [model_cards/](model_cards/) | One card per model: how well it works and its limits |
 | [flag_review/](flag_review/labeling_notes.md) | The human checks of the restriction flags and the decisions taken (how to help: [HOW_TO_SPOT_CHECK.md](flag_review/HOW_TO_SPOT_CHECK.md); the ingredient merges: [HOW_TO_REVIEW_INGREDIENT_MERGES.md](flag_review/HOW_TO_REVIEW_INGREDIENT_MERGES.md)) |
 | [audits/](audits/README.md) | Read-only reports on the data: recipe to dish links, coverage and gaps |
+| [governance/](governance/README.md) | What may be public, who approves what, licences, releases, the secret and PII scans, and the open questions for the team |
 | [proposal/](proposal/) | The capstone proposal and the Phase 1-2 documents |
 | [art/](art/) | Scripts that draw the README pictures (`ramen.py`, `flag_recall.py`) and their output |

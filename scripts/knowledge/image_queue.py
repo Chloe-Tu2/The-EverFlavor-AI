@@ -40,6 +40,14 @@ PHOTO_TYPES = {"image/jpeg", "image/png", "image/webp"}
 PRIORITY = {"high": 0, "medium": 1, "low": 2}
 
 
+EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
+
+
+def no_email(text: str) -> str:
+    """Commons fields sometimes hold the uploader's e-mail address; it is never stored or passed on."""
+    return EMAIL.sub("[e-mail removed]", text)
+
+
 def fetch_meta(files: list[str], known: dict[str, dict]) -> dict[str, dict]:
     """Commons file information for the files not cached yet, 25 per request, 1 s apart."""
     todo = sorted(set(files) - set(known))
@@ -60,7 +68,7 @@ def fetch_meta(files: list[str], known: dict[str, dict]) -> dict[str, dict]:
                     "mime": ii.get("mime", ""), "missing": bool(p.get("missing")),
                     "license": re.sub(r"\s+", " ", html.unescape(md.get("LicenseShortName", {}).get("value", ""))).strip(),
                     "author": author_name(md.get("Artist", {}).get("value", "")),
-                    "description": re.sub(r"<[^>]+>", "", md.get("ImageDescription", {}).get("value", ""))[:300]}
+                    "description": no_email(re.sub(r"<[^>]+>", "", md.get("ImageDescription", {}).get("value", "")))[:300]}
             print(f"  commons {min(i + 25, len(todo))}/{len(todo)}", flush=True)
             time.sleep(1)
     return known
@@ -91,6 +99,8 @@ def main() -> None:
     wanted = [d for d in audit if d["review_status"] == "fetch_candidate" and d.get("wikidata_image")]
     known = json.loads(META.read_text(encoding="utf-8")) if META.exists() else {}
     known = fetch_meta([d["wikidata_image"] for d in wanted], known)
+    for m in known.values():   # entries cached before the e-mail rule too
+        m["description"], m["author"] = no_email(m.get("description", "")), no_email(m.get("author", ""))
     META.write_text(json.dumps(known, ensure_ascii=False, indent=0, sort_keys=True) + "\n", encoding="utf-8",
                     newline="\n")
     approved, rejected = [], []
