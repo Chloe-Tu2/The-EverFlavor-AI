@@ -574,6 +574,131 @@ SOY_KEYWORDS      = ["soy", "soya", "soy sauce", "soybean", "tofu", "tempeh", "e
 SESAME_KEYWORDS   = ["sesame", "tahini", "tahina", "halva", "halvah", "za'atar", "zaatar",
                      "za atar", "furikake", "gomasio", "gomashio", "benne", "hummus", "houmous",
                      "hummous", "baba ganoush", "baba ghanoush", "gingelly", "dukkah"] + _compounds("contains_sesame") + product_names("contains_sesame")
+# Spanish, French and Italian names of the same Wikidata items as the English words (notebook 04's name table,
+# items checked by their own English label; batch 2 looked up on Wikidata by the English label, with the regular
+# plurals the matcher does not make, such as nueces, cozze, pistacchi; reviewed 2026-11-21 in
+# docs/flag_review/allergen_words_es_fr_it.csv, with every word left out and why). Adding a word only adds a caution.
+FOREIGN_ALLERGEN_KEYWORDS: dict[str, list[str]] = {
+    "contains_crustacean": [
+        "camarón", "aragosta", "aragoste", "astice", "cangrejo", "carne de cangrejo", "carne de jaiba", "chair de crabe",
+        "chair de tourteau", "crabe", "crevette", "fruto de mar", "gamba", "gamberetti", "gamberetto", "gamberi",
+        "gambero", "granchi", "granchio", "homard", "langosta", "miettes de crabe", "pescados y mariscos",
+        "prodotti ittici", "producto del mar", "produit de la mer", "pulpa de cangrejo", "viande de crabe",
+        "écrevisse",
+    ],
+    "contains_dairy": [
+        "arequipe", "babeure", "babeurre", "beurre", "burri", "burro", "cagliata", "cagliate", "caillé", "caseina",
+        "caseine", "cașcaval", "challoúmi", "chocolat blanc", "cioccolato bianco", "crema acida", "crema agria",
+        "crema fresca", "crema helada", "crème", "cuajada", "doce de leite", "erborinati", "erborinato", "formaggi",
+        "formaggio", "fromage", "gelati", "ghî", "helado", "kefyr", "khalloúmi", "khawa", "képhir", "lactosuero",
+        "lactosérum", "lait", "latticelli", "latticello", "leche", "mantequilla", "mawa", "mazada",
+        "milkkefir", "nata", "panir", "panna", "rabdi", "requesón", "ricota", "sieri", "siero", "suero de manteca",
+        "suero lácteo", "toraq", "tvarog", "tvaroh", "tvoroh", "yaourt", "yoghourt", "yogourt", "yogur",
+    ],
+    "contains_egg": [
+        "ajoaceite", "albume", "alioli", "blanc d'oeuf", "blanc d’oeuf", "huevo", "lait de poule", "mahonesa",
+        "maionese", "mayonesa", "merengue", "meringa", "meringhe", "oeuf", "tuorli", "tuorlo", "uova", "uovo", "yema",
+        "œuf",
+    ],
+    "contains_fish": [
+        "acara aya", "aiglefin", "anchoa", "anchois (chair)", "anguila", "anguila de agua dulce",
+        "anguille", "arenque", "aringa", "aringhe", "atún", "atún en conserva", "bacalado", "bacallao", "bianchetti",
+        "blanchaille", "brochet", "cabillaud", "caldo de pescado", "carbonero", "carpa", "carpe", "cavial", "caviale",
+        "cernia", "cernie", "chair d'anchois", "chernas", "chillo", "daurade", "dorade", "eglefini", "eglefino",
+        "escualo", "espadon", "espadron", "espardarte", "esturgeon", "esturión", "filetto di pesce", "flet", "fletan",
+        "fruto de mar", "fumet", "fumetto di pesce", "hanakatsuo", "hareng frais", "hipogloso", "hoplostethe orange",
+        "hoplostèthe rouge", "huachinango", "hueva", "ikura", "jaquetones", "kezurikatsuo", "lamprea", "lampreda",
+        "lamprede", "lamproie", "lenguado", "lieu noir", "luccio", "maquereau", "maquereaux", "merluza",
+        "merluzzi", "merluzzo", "merluzzo bianco", "meros", "morue", "mérou", "naselli", "nasello", "okaka",
+        "osciètre", "pagre fine", "pargo colorado", "pargo del golfo", "pargo guachinango", "pargo real",
+        "pasta d'acciughe", "pasta de anchoas", "peces", "pescadilla", "pescado", "pescado blanco",
+        "pescados y mariscos", "pesce", "pescespada", "pescespade", "pez", "pez mantequilla", "pijota", "plie",
+        "poisson", "prodotti ittici", "producto del mar", "produit de la mer", "pâte d'anchois", "reloj anaranjado",
+        "reloj del atlántico", "requins", "robalo", "rodaballo", "salmone", "salsa de pescado", "salsa di pesce",
+        "sarde", "sarde rouge", "sardella", "sardelle", "sardina", "sardine", "sauce de poisson", "saumon",
+        "selaci", "selaco", "sogliola", "sogliole", "squales", "squali", "storione", "storioni", "sévruga", "thon",
+        "thon en boite", "tiburon", "tonno", "tonno in scatola", "trota", "trote", "trucha", "truite", "verdel",
+        "vivaneau campèche", "vivanot jolle-bleu", "églefin",
+    ],
+    "contains_gluten": [
+        "alcuzcuces", "alcuzcuz", "alcuzcuzu", "aletria", "apanado", "asa-foetida", "ase fétide", "ase puante",
+        "avena", "avoine", "baghetta", "baguel", "baguete", "beguel", "birra", "birre", "biscotti", "biscotto",
+        "bizcocho", "bière", "blé", "bollo", "boulghour", "boulgour", "bretzel", "bretzet", "breze", "brezel",
+        "brezn", "béiguel", "capelli d'angelo", "cebada", "centeno", "cerveza", "chapathi", "cous cous", "craquelin",
+        "cus cus", "cuscus", "ditali", "empanado", "empanar", "espagueti", "farik", "farine", "fideo", "frik",
+        "frikeh", "frumenti", "frumento", "galleta", "ganjang", "gauffre", "gaufre", "gnocco", "gofre", "harina",
+        "impanatura", "impanature", "impasti", "impasto", "jiangyou", "kochujang", "koch’ujang", "lasaña",
+        "laugenbrezel", "macarron", "maccheroni", "maftul", "malti", "malto", "matsa", "matsot", "matza", "matzoh",
+        "matzot", "merde du diable", "mostaccioli", "nouille", "nudolini", "orge", "pain", "pane", "panecillo",
+        "panecillo de perrito caliente", "paner", "panini", "panino", "panino al latte", "pretzl", "pumpernickel",
+        "pâtes", "ramyeon", "rassis", "rassissement", "raviole", "ravioli", "raviolo", "raviuoli", "raviuolo",
+        "risoni", "salsa de ostra", "salsa de soja", "salsa de soya", "salsa di ostriche", "salsa di soia",
+        "salsa soja", "salsas de soja", "salzbrezel", "sauce au soja", "sauce d'huître", "sauce de soja",
+        "sauce soja", "sauces de soja", "segale", "seigle", "semola", "semolini", "semolino", "semoule", "setan",
+        "sho yu", "siave", "siaw", "sillao", "sillau", "soyou", "soyu", "tallarin", "tortellino", "trenette", "trigo",
+        "tritico", "vermicelle", "vinagre de malta", "vinaigres de grains", "wafle", "ñoqui",
+    ],
+    "contains_mollusc": [
+        "abulón", "almeja", "buccin", "calamar", "calmar (chair)", "capasanta", "capasante", "cappasanta",
+        "cappasante", "caracol", "caracola", "chair d'encornet", "chair de calmar", "colimaçon", "conque", "cozza",
+        "cozze", "encornet (chair)", "fruto de mar", "huitre", "limaçon", "mejillón", "mitili", "mitilo",
+        "moule bleue", "moule commune", "oreille de mer", "oreilles de mer", "ormeau", "ormeaux", "ostra", "ostrica",
+        "ostriche", "ottopode", "palourde", "panope du pacifique", "panopea", "panopee", "pescados y mariscos",
+        "pieuvre", "piovra", "piovre", "polpi", "polpo", "poulpe", "prodotti ittici", "producto del mar",
+        "produit de la mer", "pulpo", "pétoncle", "salsa de ostra", "salsa di ostriche", "sauce d'huître", "vieira",
+        "vongola", "vongole",
+    ],
+    "contains_peanut": [
+        "alcahue", "arachide", "arachidi", "burro di arachidi", "cacahouette", "cacahouète", "cacahuate", "cacahuète",
+        "crema di arachidi", "crema di noccioline", "karako", "olio di arachidi", "pinotte",
+    ],
+    "contains_sesame": [
+        "aceite de ajónjoli", "aceite de anjolí", "aceite de sésamo", "ajonjolí", "baba ganousch", "baba ganush",
+        "baba ghanouge", "halava", "halawa", "helva", "hoisin", "hommous", "hoummos", "hoummous", "houmos",
+        "olio di semi di sesamo", "olio di sesamo", "oumos", "pasta de sesamo", "seme di sesamo",
+        "semillas de sésamo", "sesamo", "sésame", "sésamo", "tahin", "tahine", "téhina", "zahtar", "zataar",
+    ],
+    "contains_shellfish": [
+        "camarón", "abulón", "almeja", "aragosta", "aragoste", "astice", "buccin", "calamar", "calmar (chair)", "cangrejo",
+        "capasanta", "capasante", "cappasanta", "cappasante", "caracol", "caracola", "carne de cangrejo",
+        "carne de jaiba", "chair d'encornet", "chair de calmar", "chair de crabe", "chair de tourteau", "colimaçon",
+        "conque", "cozza", "cozze", "crabe", "crevette", "encornet (chair)", "fruto de mar", "gamba", "gamberetti",
+        "gamberetto", "gamberi", "gambero", "granchi", "granchio", "homard", "huitre", "langosta", "limaçon",
+        "mejillón", "miettes de crabe", "mitili", "mitilo", "moule bleue", "moule commune", "oreille de mer",
+        "oreilles de mer", "ormeau", "ormeaux", "ostra", "ostrica", "ostriche", "ottopode", "palourde",
+        "panope du pacifique", "panopea", "panopee", "pescados y mariscos", "pieuvre", "piovra", "piovre", "polpi",
+        "polpo", "poulpe", "prodotti ittici", "producto del mar", "produit de la mer", "pulpa de cangrejo", "pulpo",
+        "pétoncle", "salsa de ostra", "salsa di ostriche", "sauce d'huître", "viande de crabe", "vieira", "vongola",
+        "vongole", "écrevisse",
+    ],
+    "contains_soy": [
+        "doufu", "endamame", "farina di soia", "farine de soja", "ganjang", "jiangyou", "kochujang", "koch’ujang",
+        "misso", "salsa de soja", "salsa di soia", "salsa soja", "salsas de soja", "sauce au soja", "sauce de soja",
+        "sauce soja", "sauces de soja", "sho yu", "siave", "siaw", "sillao", "sillau", "soia", "soja", "soyou",
+        "soyu", "tofou", "toufu",
+    ],
+    "contains_tree_nut": [
+        "alcayoiba", "alfocigo", "alfoncigo", "alfonsic", "alfonsigo", "alfosigo", "alhocigo", "alhosigo",
+        "alhostigo", "almendra", "alpistasia", "amande", "anacarde", "anacardo", "avellana", "baclava", "baclave",
+        "baklawa", "bakllava", "burro di mandorle", "cajou", "cajueiro", "cajuil", "castagna", "castagne", "castaña",
+        "caujil", "chachou", "fistico", "franchipán", "frutta a guscio", "latte di mandorle", "mandorla",
+        "mandorlati", "mandorlato", "mandorle", "marañón", "marzapane", "massepain", "mazapán", "merey", "nocciola",
+        "nocciole", "noce", "noci", "noisette", "noix", "nueces", "nueces de australia", "nuez", "pacana", "pajuil",
+        "pecana", "pecán", "pignon de pin", "pignons de pin", "pinolo", "pistacchi", "pistacchio", "pistache",
+        "pistachero", "pistachier", "pistacho", "pistacio", "piñón", "pralina", "praline", "torrone", "turrón",
+    ],
+}
+EGG_KEYWORDS        += FOREIGN_ALLERGEN_KEYWORDS["contains_egg"]
+DAIRY_KEYWORDS      += FOREIGN_ALLERGEN_KEYWORDS["contains_dairy"]
+PEANUT_KEYWORDS     += FOREIGN_ALLERGEN_KEYWORDS["contains_peanut"]
+TREE_NUT_KEYWORDS   += FOREIGN_ALLERGEN_KEYWORDS["contains_tree_nut"]
+FISH_KEYWORDS       += FOREIGN_ALLERGEN_KEYWORDS["contains_fish"]
+CRUSTACEAN_KEYWORDS += FOREIGN_ALLERGEN_KEYWORDS["contains_crustacean"]
+MOLLUSC_KEYWORDS    += FOREIGN_ALLERGEN_KEYWORDS["contains_mollusc"]
+SHELLFISH_KEYWORDS  += FOREIGN_ALLERGEN_KEYWORDS["contains_shellfish"]
+SOY_KEYWORDS        += FOREIGN_ALLERGEN_KEYWORDS["contains_soy"]
+SESAME_KEYWORDS     += FOREIGN_ALLERGEN_KEYWORDS["contains_sesame"]
+GLUTEN_KEYWORDS     += FOREIGN_ALLERGEN_KEYWORDS["contains_gluten"]
 LAND_MEAT_KEYWORDS = (["chicken", "beef", "lamb", "mutton", "goat", "turkey", "veal", "duck",
                       "venison", "goose", "rabbit", "bison", "elk", "quail", "pheasant",
                       "cornish hen", "game hen", "fryer", "meat", "steak", "sirloin",
@@ -787,7 +912,10 @@ GLUTEN_EXCEPTIONS   = (["rice flour", "almond flour", "coconut flour", "corn flo
                         # "roll" that is not bread
                         "sushi roll", "california roll", "rice paper roll", "summer roll", "cabbage roll",
                         "lettuce roll", "fruit roll", "rice roll",
-                        "100% buckwheat soba", "juwari soba", "buckwheat soba"]
+                        "100% buckwheat soba", "juwari soba", "buckwheat soba",
+                        # Spanish "harina" (flour) is a gluten word; masa harina is corn (nixtamalized maize), and
+                        # stays as it was before "harina" was added
+                        "masa harina"]
                        + [f"gluten{sep}free {food}" for sep in ("-", " ") for food in GLUTEN_FREE_FOODS])
 DAIRY_EXCEPTIONS    = ["coconut milk", "almond milk", "soy milk", "oat milk", "rice milk",
                        "cashew milk", "coconut cream", "cream of tartar", "peanut butter",
@@ -799,14 +927,50 @@ DAIRY_EXCEPTIONS    = ["coconut milk", "almond milk", "soy milk", "oat milk", "r
                        "non-dairy", "nondairy", "dairy-free", "dairy free",
                        "bean curd", "soy curd", "tofu curd", "custard apple", "vegan gelato",
                        "dairy-free gelato", "dairy free gelato"] + not_product_names("contains_dairy")
+# The same exceptions in Spanish, French and Italian: the names of the Wikidata items whose English label is an
+# exception above (coconut milk, rice flour...), so 'lait de coco' stays as 'coconut milk' does
+FOREIGN_ALLERGEN_EXCEPTIONS: dict[str, list[str]] = {
+    "contains_dairy": [
+        "aam panna", "aam ka panna", "crème de menthe", "crème de cacao", "crème de cassis", "crème de banane", "crème de noyaux", "creme de cocoa", "crème de coco", "crème de mûre", "crème de framboise", "crème de violette",
+        "beurre d'amandes", "beurre d'arachide", "beurre de cacahouète", "beurre de cacahuète",
+        "beurre de cacahuètes", "beurre de cacao", "beurre de karite", "beurre de karité", "beurre de noix de cajou",
+        "beurre de peanut", "beurre d’arachide", "burro di anacardi", "burro di arachidi", "burro di cacao",
+        "burro di karité", "burro di mandorle", "crème de noix de coco", "crème de tartre", "formaggio vegano",
+        "formaggio vegetale", "fromage végétal", "lait d'amande", "lait d'avoine", "lait de coco", "lait de riz",
+        "lait de soja", "latte di cocco", "latte di mandorla", "latte di mandorle", "latte di riso", "latte di soia",
+        "leche de almendra", "leche de arroz", "leche de coco", "leche de soja", "mantequilla de almendra",
+        "mantequilla de cacahuate", "mantequilla de cacahuete", "mantequilla de mani", "mantequilla de maní",
+        "queso vegano", "yaourt de soja", "yogourt de soja", "yogurt di soia",
+    ],
+    "contains_gluten": [
+        "arroz vermicelli", "biscuit au riz", "cerveza de jengibre", "cerveza de raiz", "cerveza de raíz",
+        "cracker de arroz", "farina di banane", "farina di patate", "farina di riso", "farine de banane",
+        "farine de coco", "farine de manioc", "farine de pomme de terre", "farine de pommes de terre",
+        "farine de riz", "fideo de arroz", "fideos de arroz", "harina de arroz", "harina de banana", "harina de coco",
+        "nouille de riz", "nouilles de riz", "spaghetti di riso", "tallarines de arroz", "vermicelle de riz",
+        "vermicelli de arroz",
+    ],
+    "contains_peanut": [
+        "kecap manis", "ketjap manis", "kicap manis",
+    ],
+    "contains_tree_nut": [
+        "noix coco", "noix de coco", "beurre noisette", "pommes noisette", "potatoes noisette", "noisette potatoes", "pork noisette", "lamb noisette", "noisettes of",
+    ],
+}
+GLUTEN_EXCEPTIONS   += FOREIGN_ALLERGEN_EXCEPTIONS["contains_gluten"]
+DAIRY_EXCEPTIONS    += FOREIGN_ALLERGEN_EXCEPTIONS["contains_dairy"]
+FOREIGN_PEANUT_EXCEPTIONS = FOREIGN_ALLERGEN_EXCEPTIONS["contains_peanut"]
+FOREIGN_TREE_NUT_EXCEPTIONS = FOREIGN_ALLERGEN_EXCEPTIONS["contains_tree_nut"]
 EGG_EXCEPTIONS      = ["eggless", "egg-free", "egg free", "egg replacer", "vegan mayo",
                        "vegan mayonnaise", "flax egg", "chia egg",
                        "custard apple", "custard powder", "vegan custard", "eggless custard",
                        "custard cup", "custard style", "custard-style", "bird's custard", "bird's eye custard"]
-PEANUT_EXCEPTIONS   = ["peanut-free", "peanut free", "nut-free", "nut free", "pine nut", "brazil nut",
+PEANUT_EXCEPTIONS   = (["peanut-free", "peanut free", "nut-free", "nut free", "pine nut", "brazil nut",
                        "tiger nut", "macadamia nut", "cashew nut", "pistachio nut", "pecan nut", "hazel nut",
                        "kola nut", "betel nut", "candle nut", "candlenut"] + not_product_names("contains_peanut")
-TREE_NUT_EXCEPTIONS = ["nut-free", "nut free", "tiger nut", "ground nut"] + not_named_foods("contains_tree_nut")
+                       + FOREIGN_PEANUT_EXCEPTIONS)
+TREE_NUT_EXCEPTIONS = (["nut-free", "nut free", "tiger nut", "ground nut"] + not_named_foods("contains_tree_nut")
+                       + FOREIGN_TREE_NUT_EXCEPTIONS)
 # Oyster mushrooms, often listed as "wild mushrooms (such as oyster, shiitake ...)"
 OYSTER_MUSHROOM_PHRASES = ["oyster mushroom", "king oyster", "such as oyster", "oyster, shiitake",
                            "oyster, crimini", "oyster and shiitake", "shiitake and oyster",
@@ -1269,7 +1433,8 @@ def explain_flag(text: object, column: str) -> list[str]:
     for t in _spellings_of_text(text.lower()):
         for m in pattern.finditer(_without_phrases(t, exceptions)):
             found.setdefault(_spellings_of_text(m.group(0))[-1], m.group(0))   # "jalapeño" once, not twice
-    return list(found.values())
+    # a word inside a longer one found too is said once, as the longer one ("creme fraiche", not also "crème")
+    return [v for k, v in found.items() if not any(k != other and f" {k} " in f" {other} " for other in found)]
 
 
 def flags_for_term(term: str) -> list[str]:
