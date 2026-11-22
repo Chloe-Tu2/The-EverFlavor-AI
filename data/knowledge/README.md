@@ -9,6 +9,10 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
 - `dish_families.json`: which dishes belong together (notebook 15, Wikidata "subclass of", CC0): families,
   categories by main ingredient and groupings, each with its members (QID, name, country, whether EverFlavor has
   it, its English Wikipedia article). The Food Graph (`everflavor.domain.FoodGraph`) and the dish page read it.
+- `dish_recipe_counts.json`: how many of our recipes the app links to each dish (`waiter.Knowledge.find` on the
+  recipe name), by source and by how the name matched, and the dishes with no recipe; counts only, from
+  `scripts/knowledge/recipe_dish_links.py` (2026-11-21: 76,745 of 291,755 recipes; see
+  `docs/audits/recipe_dish_linking.md`).
 - Regions: China by region and province (16 cuisine pages: the Eight Great Traditions, Beijing, Shanghai, Hong
   Kong, Yunnan, Xinjiang, the Northeast, Hakka, Teochew; 282 Chinese entries); Mexico by state (its region pages
   are prose, so a dish gets the state its own intro or Wikidata origin names first: 45 dishes, such as Al pastor in
