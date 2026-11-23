@@ -35,7 +35,8 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
 - `quality/`: the quality sprint (`scripts/knowledge/quality_reports.py`): the completeness score per dish, the
   waiter's coverage, map validation, taxonomy, country and region depth, and `publication_queue.json` (the
   backlog checked again); `taxonomy_validation.json`, the place tree against the UN regions
-  (`taxonomy_validation.py`).
+  (`taxonomy_validation.py`); `rich_dish_upgrade_queue.json` and `walter_enrichment_queue.json`, the work queues
+  (`enrichment_queues.py`); `food_graph_validation.json`, the graph's links checked (`graph_validation.py`).
 - `countries.json`: the world's countries and territories (Wikidata, CC0: ISO code, continent, population), from
   `scripts/knowledge/fetch_countries.py`, for the coverage audit.
 - `coverage/`: the coverage audit (`scripts/knowledge/coverage_audit.py`; reports in `docs/audits/`): coverage by

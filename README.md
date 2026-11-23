@@ -53,7 +53,7 @@
   waiter and the map all read it.
 - **The safety engine** (`src/everflavor/flags.py`, `safety.py`, `recommend.py`): allergen and diet flags from
   each ingredient line, with recorded policies for every judgment call (`docs/flag_review/`). Flags only ever add
-  cautions; diet labels say "-friendly".
+  cautions; diet labels say "-friendly". How it decides, step by step: [docs/safety_engine.md](docs/safety_engine.md).
 - **Walter, the waiter:** tells a dish's story and explains its flags from sourced notes only
   (`src/everflavor/waiter.py`); **the map:** shops that likely sell an ingredient, Greater Houston pilot.
 - **Contribute:** [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) · **Roadmap:** [docs/plans/README.md](docs/plans/README.md) ·
