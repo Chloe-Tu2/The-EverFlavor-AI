@@ -105,9 +105,9 @@ def write_report(findings: list[dict], files: int) -> None:
               "(API keys for Anthropic, OpenAI, Google, AWS, Azure, GitHub, Slack, Hugging Face and Kaggle, private "
               "keys, JWTs, passwords in connection strings, and long values assigned to names like `api_key`, "
               "`secret`, `password`, `token` or `cookie`). Values are shown redacted."), "",
-             f"**Result: {len(findings)} finding{'s' if len(findings) != 1 else ''}.**", ""]
+             f"**Result: {len(findings)} finding{'s' if len(findings) != 1 else ''}.**"]
     if findings:
-        lines += ["| File | Line | Kind | Value (redacted) |", "|---|---:|---|---|"]
+        lines += ["", "| File | Line | Kind | Value (redacted) |", "|---|---:|---|---|"]
         lines += [f"| `{f['file']}` | {f['line']} | {f['rule']} | `{f['value']}` |" for f in findings]
     allow = sorted(allowed())
     lines += ["", "## Allowed (known false positives)", "",
