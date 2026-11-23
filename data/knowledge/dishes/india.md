@@ -160,6 +160,33 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3634389) (CC0); [Wikipedia: Bati (bread)](https://en.wikipedia.org/wiki/Bati_(bread)) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Bebinca
+
+Bebinca or bebinka, (Konkani; bibik) is a layer cake of Indo-Portuguese cuisine in former Estado da Índia Portuguesa, Goa.
+
+- From: India
+- Origin (Wikidata): India
+- Ingredients (Wikidata): sugar, flour, ghee, coconut
+
+Fun facts:
+
+- (about) It’s also referred as Queen of Goan Desserts.
+- (culture) In traditional baking, a bebinca has between 7 and 16 layers, but bakeries can modify the cake recipe as per convenience and taste.
+- (origin) Bebinca comes from India.
+
+More fun facts (when the user asks for more):
+
+- (about) Bebinca is especially popular during the Christmas season, but is available all year round due to tourism in Goa.
+
+Learn more:
+
+- quick: [Bebinca (Wikipedia)](https://en.wikipedia.org/wiki/Bebinca)
+- more: [Mozambican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mozambican_cuisine)
+- deep: [Books about Bebinca (Open Library)](https://openlibrary.org/search?q=Bebinca)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3270102)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3270102) (CC0); [Wikipedia: Bebinca](https://en.wikipedia.org/wiki/Bebinca) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Bhaji
 
 A bhaji (, also spelt bajji or bhajee) is a type of fritter originating in the Indian subcontinent.
@@ -2510,7 +2537,7 @@ Undhiyu is a Gujarati mixed-vegetable dish that is a regional specialty of Surat
 
 - From: India
 - Origin (Wikidata): India
-- Ingredients (Wikidata): banana, vegetable, Sweet potato, coconut
+- Ingredients (Wikidata): banana, vegetable, sweet potato, coconut
 
 Fun facts:
 
@@ -2575,6 +2602,7 @@ Learn more:
 
 - quick: [Vada (food) (Wikipedia)](https://en.wikipedia.org/wiki/Vada_%28food%29)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Vada (food) (Open Library)](https://openlibrary.org/search?q=Vada%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2723131)
 
@@ -2888,6 +2916,35 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5094871)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5094871) (CC0); [Wikipedia: Chhena poda](https://en.wikipedia.org/wiki/Chhena_poda) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Chikki
+
+Chikki is a traditional Indian sweet (brittle) generally made from nuts and jaggery/sugar.
+
+- From: India
+- Origin (Wikidata): India
+- Ingredients (Wikidata): peanut
+
+Fun facts:
+
+- (inspiration) Each variety of chikki is named after the ingredients used, which include puffed or roasted Bengal gram, sesame, puffed rice, beaten rice, or khobra (desiccated coconut), and other nuts such as almonds, cashews and pistachios.
+- (about) In north Indian states, it is also known as gajak or maroonda.
+- (origin) Chikki comes from India.
+
+More fun facts (when the user asks for more):
+
+- (about) In Bangladesh, West Bengal and other Bengali-speaking regions, it is known as gur badam.
+- (about) In Kashmir it's known as Patti.In the South Indian states of Telangana and Andhra Pradesh, it is called palli patti.
+- (about) Similar dishes are also very popular in Brazil, where it is known as pé de moleque, in Paraguay, where it is called ka'i ladrillo, and in Thailand, where it is called thua tat.
+
+Learn more:
+
+- quick: [Chikki (Wikipedia)](https://en.wikipedia.org/wiki/Chikki)
+- more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
+- deep: [Books about Chikki (Open Library)](https://openlibrary.org/search?q=Chikki)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3535125)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3535125) (CC0); [Wikipedia: Chikki](https://en.wikipedia.org/wiki/Chikki) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Chutney
 
@@ -3577,6 +3634,35 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6748722) (CC0); [Wikipedia: Mangalore bajji](https://en.wikipedia.org/wiki/Mangalore_bajji) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Masala chai
+
+Masala chai (; lit. 'mixed-spice tea') also known as chai latte is a popular beverage originating from India.
+
+- From: India
+- Origin (Wikidata): India
+- Ingredients (Wikidata): milk, spice, black tea, ginger
+
+Fun facts:
+
+- (origin) The term chai originated from the Chinese word for tea, cha (see Etymology of tea) via the Hindustani chai.
+- (history) In 1870, over 90% of the tea consumed in Great Britain was still of Chinese origin, but by 1900, this had dropped to 10%, largely replaced by tea grown in India (50%) and Ceylon (33%).
+- (about) Chai later firmly established itself as a popular beverage.
+
+More fun facts (when the user asks for more):
+
+- (origin) Masala chai comes from India.
+- (history) Consumption of black tea within India remained low until the promotional campaign by the Indian Tea Association in the early 20th century, which encouraged factories, mines and textile mills to provide tea breaks for their workers.
+- (origin) Tea however became a popular beverage introduced to India by the British.
+
+Learn more:
+
+- quick: [Masala chai (Wikipedia)](https://en.wikipedia.org/wiki/Masala_chai)
+- more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- deep: [Books about Masala chai (Open Library)](https://openlibrary.org/search?q=Masala%20chai)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q877661)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q877661) (CC0); [Wikipedia: Masala chai](https://en.wikipedia.org/wiki/Masala_chai) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Millet
 
 Millets () are a highly varied group of small-seeded grasses, widely grown around the world as a staple cereal crop.
@@ -3598,6 +3684,7 @@ Learn more:
 
 - quick: [Millet (Wikipedia)](https://en.wikipedia.org/wiki/Millet)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
 - deep: [Books about Millet (Open Library)](https://openlibrary.org/search?q=Millet)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q259438)
 
@@ -4101,6 +4188,7 @@ Learn more:
 
 - quick: [Spice (Wikipedia)](https://en.wikipedia.org/wiki/Spice)
 - more: [Indian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Indian_cuisine)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Spice (Open Library)](https://openlibrary.org/search?q=Spice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q42527)
 

@@ -603,6 +603,7 @@ Learn more:
 
 - quick: [Pastry (Wikipedia)](https://en.wikipedia.org/wiki/Pastry)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
 - deep: [Books about Pastry (Open Library)](https://openlibrary.org/search?q=Pastry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q477248)
 

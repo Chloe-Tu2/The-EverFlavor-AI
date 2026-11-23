@@ -81,6 +81,7 @@ Learn more:
 
 - quick: [Baked beans (Wikipedia)](https://en.wikipedia.org/wiki/Baked_beans)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Baked beans (Open Library)](https://openlibrary.org/search?q=Baked%20beans)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q804297)
 
@@ -647,6 +648,7 @@ Learn more:
 
 - quick: [Fishcake (Wikipedia)](https://en.wikipedia.org/wiki/Fishcake)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
 - deep: [Books about Fishcake (Open Library)](https://openlibrary.org/search?q=Fishcake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q594675)
 
@@ -949,6 +951,7 @@ Learn more:
 
 - quick: [Johnnycake (Wikipedia)](https://en.wikipedia.org/wiki/Johnnycake)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
 - deep: [Books about Johnnycake (Open Library)](https://openlibrary.org/search?q=Johnnycake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q426103)
 
@@ -1549,7 +1552,7 @@ Sushi pizza is a Canadian dish that originated from Toronto and a fusion of sush
 
 - From: Canada
 - Origin (Wikidata): Canada
-- Ingredients (Wikidata): sushi, Oryza molida
+- Ingredients (Wikidata): pizza, sushi, Oryza molida
 
 Fun facts:
 
@@ -1692,6 +1695,7 @@ Learn more:
 
 - quick: [Cake (Wikipedia)](https://en.wikipedia.org/wiki/Cake)
 - more: [Quebec cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Quebec_cuisine)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
 - deep: [Books about Cake (Open Library)](https://openlibrary.org/search?q=Cake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13276)
 
@@ -3243,6 +3247,7 @@ Learn more:
 
 - quick: [Molasses (Wikipedia)](https://en.wikipedia.org/wiki/Molasses)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
 - deep: [Books about Molasses (Open Library)](https://openlibrary.org/search?q=Molasses)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q154389)
 

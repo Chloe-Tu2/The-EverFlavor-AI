@@ -1,4 +1,4 @@
-# Coverage: Europe (2026-11-22)
+# Coverage: Europe (2026-11-23)
 
 Back to [world coverage](coverage_world.md).
 
@@ -14,7 +14,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| United Kingdom | low | 69 | 47 | 33 | 54 | 4,553 | 171 | 29% |
+| United Kingdom | low | 69 | 47 | 33 | 54 | 4,553 | 172 | 29% |
 | Ireland | medium | 22 | 16 | 13 | 13 | 711 | 7 | 76% |
 
 ## Central Europe
@@ -41,10 +41,10 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Italy | high | 327 | 155 | 69 | 249 | 24,910 | 79 | 80% |
-| Greece | high | 88 | 51 | 41 | 73 | 4,334 | 8 | 92% |
+| Italy | high | 327 | 155 | 70 | 251 | 24,910 | 82 | 80% |
+| Greece | high | 88 | 51 | 43 | 75 | 4,334 | 8 | 92% |
 | Portugal | high | 72 | 18 | 16 | 30 | 434 | 5 | 94% |
-| Spain | medium | 49 | 19 | 23 | 36 | 1,851 | 60 | 45% |
+| Spain | medium | 49 | 19 | 23 | 36 | 1,851 | 62 | 44% |
 | Albania | recipes only | 0 | 0 | 0 | 0 | 11 | 0 |  |
 | Croatia | recipes only | 0 | 0 | 0 | 0 | 8 | 4 | 0% |
 | Andorra | recipes only | 0 | 0 | 0 | 0 | 3 | 0 |  |
@@ -63,7 +63,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| France | low | 87 | 58 | 38 | 68 | 8,520 | 177 | 33% |
+| France | low | 87 | 58 | 38 | 68 | 8,520 | 180 | 33% |
 | Netherlands | medium | 31 | 6 | 15 | 26 | 245 | 30 | 51% |
 | Belgium | medium | 25 | 13 | 17 | 23 | 113 | 18 | 58% |
 
@@ -92,21 +92,21 @@ Back to [world coverage](coverage_world.md).
 - Coverage: **low** (87 dishes, 58 with recipes, 8,520 recipes; place tree: Europe > Western Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Quiche, Carrot, Waffle, Mousse, Scrambled eggs, Soufflé, Shepherd's pie, Macaroon.
 - Families present: baked good, battercake, biscuit, bread, cake, confectionery, cookie, culinary foam.
-- Missing (Wikidata family members we lack, 177): tome des Bauges, Valençay, Saint-Nectaire, Reblochon, laguiole cheese, abondance, Selles-sur-Cher cheese, Sainte-Maure de Touraine, Rocamadour, Pélardon.
+- Missing (Wikidata family members we lack, 180): tome des Bauges, Valençay, Saint-Nectaire, Reblochon, laguiole cheese, abondance, Selles-sur-Cher cheese, Sainte-Maure de Touraine, Rocamadour, Pélardon.
 
 ### Italy
 
 - Coverage: **high** (327 dishes, 155 with recipes, 24,910 recipes; place tree: Europe > Mediterranean Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Pizza, Lasagna, Pasta salad, Spaghetti, Risotto, Pasta, Frittata, Penne.
 - Families present: Crostata, Neapolitan pizza, antipasto, baked good, beefsteak, biscuit, bonbon, bread.
-- Missing (Wikidata family members we lack, 79): Grana Cheese, tortello amaro di Castel Goffredo, mortadella di Campotosto, Valle d'Aosta Fromadzo PDO, Tuma, Stracciata, Spressa delle Giudicarie PDO, Romano cheese, Red Pecorino, Provola silana.
+- Missing (Wikidata family members we lack, 82): Grana Cheese, tortello amaro di Castel Goffredo, mortadella di Campotosto, Valle d'Aosta Fromadzo PDO, Tuma, Stracciata, Spressa delle Giudicarie PDO, Romano cheese, Red Pecorino, Provola silana.
 
 ### Spain
 
 - Coverage: **medium** (49 dishes, 19 with recipes, 1,851 recipes; place tree: Europe > Mediterranean Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Gazpacho, Paella, Ropa vieja, Spanish omelette, Patatas bravas, Gambas al ajillo, Romesco, Fideuà.
 - Families present: Callos, bean soup, biscuit, bread, bread soup, cold sweet soup, confectionery, cream soup.
-- Missing (Wikidata family members we lack, 60): Palmero cheese, Tupí, Payoyo cheese, Majorero cheese PDO, wafer cookie, roscón de reyes, regañao, pestiños, Valdeón cheese PGI, San Simón da Costa.
+- Missing (Wikidata family members we lack, 62): Palmero cheese, Tupí, Payoyo cheese, Majorero cheese PDO, wafer cookie, roscón de reyes, regañao, pestiños, Valdeón cheese PGI, San Simón da Costa.
 
 ### Portugal
 
@@ -119,7 +119,7 @@ Back to [world coverage](coverage_world.md).
 
 - Coverage: **high** (88 dishes, 51 with recipes, 4,334 recipes; place tree: Europe > Mediterranean Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Tomato soup, Stuffed peppers, Onion soup, Compote, Greek salad, Meringue, Raisin bread, Moussaka.
-- Families present: Greek cheese, Köftes in the Turkish cuisine, Sugar confectionery (including white chocolate), not containing cocoa, baked good, bean soup, bread, bread salad, cabbage roll.
+- Families present: Greek cheese, Köftes in the Turkish cuisine, Sugar confectionery (including white chocolate), not containing cocoa, baked good, bean soup, bread, bread salad, budino.
 - Missing (Wikidata family members we lack, 8): kourabiedes, kasseropita, freddo cappuccino, Xynotyro, Xynomizithra, Santorini, Lesbian wine, Batzos.
 
 ### Germany

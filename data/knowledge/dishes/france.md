@@ -525,6 +525,35 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q9167992) (CC0); [Wikipedia: Chouquette](https://en.wikipedia.org/wiki/Chouquette) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Consommé
+
+Consommé (French: [kɔ̃sɔme] () is a type of clear soup made from richly flavoured stock or broth that has been clarified, a process that traditionally uses egg whites to remove fat and sediment.
+
+- From: France
+- Origin (Wikidata): France
+- Ingredients (Wikidata): stock, bouillon
+
+Fun facts:
+
+- (history) The word is first recorded in English usage in 1815, and in Don Juan (Canto XV, 1824), Lord Byron writes of "The salmi, the consommé, the purée".
+- (about) In Anglophone usage the main stress may be on the first syllable (Canadian and modern British pronunciation), the second (earlier British pronunciation) or the third (American pronunciation); in Australian usage either the first or second syllable may be stressed.
+- (origin) Consommé comes from France.
+
+More fun facts (when the user asks for more):
+
+- (history) The first edition of the Dictionnaire de l'Académie française (1694) defines it as "boüillon fort succulent d'une viande extremement cuite" – strong succulent broth of very well-cooked meat.
+- (history) Alexis Soyer published his recipe for consommé in his Gastronomic Regenerator (1846): Both Soyer and a later French chef, Auguste Escoffier, use consommé for the basis of many soups, sauces and stews as well as for serving on its own.
+- (history) In their 1961 book Mastering the Art of French Cooking, Simone Beck, Louisette Bertholle and Julia Child say this about clarifying consommé:
+
+Learn more:
+
+- quick: [Consommé (Wikipedia)](https://en.wikipedia.org/wiki/Consomm%C3%A9)
+- more: [Beninese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Beninese_cuisine)
+- deep: [Books about Consommé (Open Library)](https://openlibrary.org/search?q=Consomm%C3%A9)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2082064)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2082064) (CC0); [Wikipedia: Consommé](https://en.wikipedia.org/wiki/Consommé) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Coq au vin
 
 Coq au vin is a French dish of chicken braised with wine, lardons, mushrooms, and optionally garlic.
@@ -590,6 +619,7 @@ Learn more:
 
 - quick: [Croissant (Wikipedia)](https://en.wikipedia.org/wiki/Croissant)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Croissant (Open Library)](https://openlibrary.org/search?q=Croissant)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q207832)
 
@@ -1160,6 +1190,37 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q548319)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q548319) (CC0); [Wikipedia: Kouign-amann](https://en.wikipedia.org/wiki/Kouign-amann) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Macaroon
+
+A macaroon is a small cake or cookie, originally made from ground almonds, egg whites, and sugar, but now often with coconut or other nuts.
+
+- From: France
+- Origin (Wikidata): France
+
+Fun facts:
+
+- (history) In 1624 an abbey was founded in the heart of Nancy (Benedictine from 1668) by a daughter of Catherine de' Medici and Henry II of France, where macaroons were made.
+- (about) Macaroons became a popular treat for Jews on Passover because they had no flour or leavening, as macaroons are leavened by egg whites.
+- (origin) Macaroon comes from France.
+
+More fun facts (when the user asks for more):
+
+- (history) Macaroons can be traced to a French monastery of the 8th century in the city of Cormery.
+- (history) Recipes for macaroons appeared in recipe books at least as early as 1725 (Robert Smith's Court Cookery, or the Complete English Cook), and use egg whites and almond paste.
+- (about) Not to be confused with macaron.
+- (culture) Mrs Beeton's Book of Household Management (1861) includes a typical traditional recipe.
+- (about) They became known as the "Macaroon Sisters".
+
+Learn more:
+
+- quick: [Macaroon (Wikipedia)](https://en.wikipedia.org/wiki/Macaroon)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
+- deep: [Books about Macaroon (Open Library)](https://openlibrary.org/search?q=Macaroon)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3699636)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3699636) (CC0); [Wikipedia: Macaroon](https://en.wikipedia.org/wiki/Macaroon) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Madeleine (cake)
 
@@ -1789,6 +1850,30 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3420363) (CC0); [Wikipedia: Raviole du Dauphiné](https://en.wikipedia.org/wiki/Raviole_du_Dauphiné) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Sablé (biscuit)
+
+Sablé (also known as Breton shortbread) is a French round shortbread biscuit that might have originated in Sablé-sur-Sarthe in Sarthe.
+
+- From: France
+- Origin (Wikidata): France
+- Named after: Sablé-sur-Sarthe
+- Ingredients (Wikidata): sugar, vanilla, butter, flour, egg as food, citron, shortbread
+
+Fun facts:
+
+- (history) According to the letters of the Marquise de Sévigné, the biscuit was maybe created for the first time in Sablé-sur-Sarthe in 1670.
+- (inspiration) Sablé is named after Sablé-sur-Sarthe.
+- (origin) Sablé comes from France.
+
+Learn more:
+
+- quick: [Sablé (biscuit) (Wikipedia)](https://en.wikipedia.org/wiki/Sabl%C3%A9_%28biscuit%29)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
+- deep: [Books about Sablé (biscuit) (Open Library)](https://openlibrary.org/search?q=Sabl%C3%A9%20%28biscuit%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2915670)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2915670) (CC0); [Wikipedia: Sablé (biscuit)](https://en.wikipedia.org/wiki/Sablé_(biscuit)) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Salade niçoise
 
 Salade niçoise is a salad that originated in the French city of Nice.
@@ -2246,7 +2331,11 @@ Agaricus bisporus, the cultivated mushroom, is a basidiomycete mushroom native t
 Fun facts:
 
 - (history) The earliest scientific description of the commercial cultivation of A. bisporus was made by French botanist Joseph Pitton de Tournefort in 1707.
+- (about) Not to be confused with Calocybe gambosa.
 - (history) In 1893, sterilized, or pure culture, spawn was discovered and produced by the Pasteur Institute in Paris for cultivation on composted horse manure.
+
+More fun facts (when the user asks for more):
+
 - (history) The white mushroom was discovered in 1925 growing among a bed of brown mushrooms at the Keystone Mushroom Farm in Coatesville, Pennsylvania.
 
 Learn more:
@@ -2263,17 +2352,12 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q227690) (CC0); [Wikipedia: Ag
 Aioli, allioli, or aïoli () is a cold garlic sauce consisting of an emulsion of garlic and olive oil, in the cuisines of the northwestern Mediterranean.
 
 - From: France
-- Origin (Wikidata): France
 - Ingredients (Wikidata): olive oil, garlic
 
 Fun facts:
 
 - (history) Since about 1990, it has become common in the United States to call all flavored mayonnaises aioli.
 - (culture) Aioli is found in the cuisines of southeastern France (Provence, Languedoc, Roussillon) and eastern Spain (traditionally Catalonia and to a lesser extent the Valencian Community, the Balearic Islands, Murcia, and eastern Andalusia).
-- (origin) Aioli comes from France.
-
-More fun facts (when the user asks for more):
-
 - (about) Not to be confused with Aioli garni.
 
 Learn more:
@@ -2497,6 +2581,41 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q131480) (CC0); [Wikipedia: Camembert](https://en.wikipedia.org/wiki/Camembert) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Champagne
+
+Champagne is a sparkling wine originated and produced in the Champagne wine region of France under the AOC rules of the appellation, which demand specific vineyard practices, sourcing of grapes exclusively from designated places within it, specific grape-pressing methods and secondary fermentation of the wine in the bottle to cause carbonation.
+
+- From: France
+- Origin (Wikidata): France
+- Named after: Champagne
+
+Fun facts:
+
+- (inspiration) Contrary to legend and popular assumption, Dom Pérignon did not invent sparkling wine, though he did make important contributions to the production and quality of both still and sparkling champagne wines.
+- (culture) French kings were traditionally anointed in Reims, and champagne was served as part of coronation festivities.
+- (history) As early as 1663, the poet Samuel Butler referred to "brisk champagne".
+
+More fun facts (when the user asks for more):
+
+- (inspiration) The oldest recorded sparkling wine is Blanquette de Limoux, which was invented by Benedictine monks in the Abbey of Saint-Hilaire, near Carcassonne, in 1531.
+- (about) In France, the first sparkling champagne was created accidentally; the pressure in the bottle led it to be called "the devil's wine" (le vin du diable), as bottles exploded or corks popped.
+- (inspiration) Champagne is named after Champagne.
+- (history) The Romans were the first to plant vineyards in this area of northeast France, with the region being tentatively cultivated by the 5th century.
+- (history) In 1844, Adolphe Jaquesson invented the muselet to prevent the corks from blowing out.
+- (origin) Champagne comes from France.
+- (history) Cultivation was initially slow due to the unpopular edict by Emperor Domitian that all colonial vines must be uprooted.
+- (about) When Emperor Probus, the son of a gardener, rescinded the edict, a temple to Bacchus was erected, and the region started to produce a light, fruity, red wine that contrasted with heavier Italian brews often fortified with resin and herbs.
+- (culture) Merret presented a paper at the Royal Society, in which he detailed what is now called méthode traditionnelle, in 1662.
+
+Learn more:
+
+- quick: [Champagne (Wikipedia)](https://en.wikipedia.org/wiki/Champagne)
+- more: [List of Uzbek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Uzbek_dishes)
+- deep: [Books about Champagne (Open Library)](https://openlibrary.org/search?q=Champagne)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q134862)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q134862) (CC0); [Wikipedia: Champagne](https://en.wikipedia.org/wiki/Champagne) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Charcuterie
 
 Charcuterie (, shar-KOO-tər-ee, also US:, -⁠EE; French: [ʃaʁkytʁi]; from chair, 'flesh', and cuit, 'cooked') is a branch of French cuisine devoted to prepared meat products, such as bacon, ham, sausage, terrines, galantines, ballotines, pâtés, and confit, primarily from pork.
@@ -2552,6 +2671,27 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q779839)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q779839) (CC0); [Wikipedia: Chartreuse (liqueur)](https://en.wikipedia.org/wiki/Chartreuse_(liqueur)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Cognac
+
+Cognac is a variety of brandy named after the commune of Cognac, France.
+
+- From: France
+- Origin (Wikidata): France
+
+Fun facts:
+
+- (origin) Cognac comes from France.
+- (about) Not to be confused with Cognac.
+
+Learn more:
+
+- quick: [Cognac (Wikipedia)](https://en.wikipedia.org/wiki/Cognac)
+- more: [List of Uzbek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Uzbek_dishes)
+- deep: [Books about Cognac (Open Library)](https://openlibrary.org/search?q=Cognac)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q284)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q284) (CC0); [Wikipedia: Cognac](https://en.wikipedia.org/wiki/Cognac) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Comté cheese
 
@@ -3295,6 +3435,7 @@ Learn more:
 
 - quick: [Sauce (Wikipedia)](https://en.wikipedia.org/wiki/Sauce)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [Chadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chadian_cuisine)
 - deep: [Books about Sauce (Open Library)](https://openlibrary.org/search?q=Sauce)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q178359)
 
@@ -3402,6 +3543,7 @@ Learn more:
 
 - quick: [Terrine (food) (Wikipedia)](https://en.wikipedia.org/wiki/Terrine_%28food%29)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [Mauritanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritanian_cuisine)
 - deep: [Books about Terrine (food) (Open Library)](https://openlibrary.org/search?q=Terrine%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11175039)
 

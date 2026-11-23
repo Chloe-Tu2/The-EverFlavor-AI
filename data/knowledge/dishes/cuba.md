@@ -174,7 +174,7 @@ Learn more:
 
 - quick: [Fufu (Wikipedia)](https://en.wikipedia.org/wiki/Fufu)
 - more: [Cuban cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cuban_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
 - deep: [Books about Fufu (Open Library)](https://openlibrary.org/search?q=Fufu)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q941004)
 
@@ -898,6 +898,7 @@ Learn more:
 
 - quick: [Tasajo (Wikipedia)](https://en.wikipedia.org/wiki/Tasajo)
 - more: [Cuban cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cuban_cuisine)
+- more: [Panamanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Panamanian_cuisine)
 - deep: [Books about Tasajo (Open Library)](https://openlibrary.org/search?q=Tasajo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q71298639)
 

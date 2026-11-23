@@ -427,7 +427,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q28407625) (CC0); [Wikipedia: 
 
 ### BLT
 
-A BLT is a type of sandwich, named for the initials of its primary ingredients, bacon, lettuce, and tomato.
+A BLT is a type of sandwich, named for the initials of its primary ingredients: bacon, lettuce, and tomato.
 
 - From: United States
 - Origin (Wikidata): United States
@@ -2197,6 +2197,7 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Fudge (Wikipedia)](https://en.wikipedia.org/wiki/Fudge)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
 - deep: [Books about Fudge (Open Library)](https://openlibrary.org/search?q=Fudge)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q379138)
@@ -2562,7 +2563,7 @@ Haupia is the Hawaiian name for a traditional coconut pudding found throughout P
 
 - From: United States
 - Origin (Wikidata): Hawaii
-- Ingredients (Wikidata): coconut milk
+- Ingredients (Wikidata): coconut milk, starch
 
 Fun facts:
 
@@ -2741,7 +2742,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1632941) (CC0); [Wikipedia: H
 
 ### Hushpuppy
 
-A hushpuppy is a small, savory, deep-fried round ball made from cornmeal-based batter.
+A hushpuppy is a small, savory, deep-fried round ball made from cornmeal-based batter, frequently served as a side dish with seafood and other deep-fried foods.
 
 - From: United States
 - Origin (Wikidata): United States
@@ -3257,7 +3258,8 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1202255) (CC0); [Wikipedia: L
 Lomi-lomi salmon (or lomi salmon) is a side dish in Hawaiian cuisine containing salted salmon, onions, and tomatoes.
 
 - From: United States
-- Ingredients (Wikidata): salmon
+- Origin (Wikidata): Hawaii
+- Ingredients (Wikidata): salmon, tomato, onion
 
 Fun facts:
 
@@ -3270,6 +3272,7 @@ More fun facts (when the user asks for more):
 - (history) Following the formation of a constitutional monarchy in Hawaii, the first tariff act took effect on January 1, 1843.
 - (about) A similar dish called lomi ʻōpae uses dried shrimp in place of salted salmon and was made popular by singer Henry Kapono.
 - (origin) Since fresh salmon would not last the journey, these laborers introduced salted salmon, which immediately became popular.
+- (origin) Lomi-lomi salmon comes from Hawaii.
 - (history) When Captain James Cook arrived in 1778, he brought along with him the concept of preserved fish and meat—such as salted cod and corned beef—common rations of foreign navies, whalers, and traders.
 - (origin) In the 1790s, Spanish horticulturist Francisco de Paula Marin brought tomatoes to the Hawaiian Islands.
 - (history) By 1840, around 300 to 400 native Hawaiian laborers were sent to the Northwest in vessels and at ports.
@@ -3632,6 +3635,26 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6968581) (CC0); [Wikipedia: Natchitoches meat pie](https://en.wikipedia.org/wiki/Natchitoches_meat_pie) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Needham (food)
+
+A needham is a confectionery dessert bar made from sugar, chocolate, coconut, and potato.
+
+- From: United States
+- Origin (Wikidata): United States
+
+Fun facts:
+
+- (origin) The needham became a common dessert in Maine in the late 19th century, and is believed by scholars to have originated from an evangelist named George Carter Needham, who came to America from southern Ireland and became well known for his preaching and writing.
+- (origin) Needham comes from the United States.
+
+Learn more:
+
+- quick: [Needham (food) (Wikipedia)](https://en.wikipedia.org/wiki/Needham_%28food%29)
+- deep: [Books about Needham (food) (Open Library)](https://openlibrary.org/search?q=Needham%20%28food%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q85788131)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q85788131) (CC0); [Wikipedia: Needham (food)](https://en.wikipedia.org/wiki/Needham_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Negimaki
 
 Negimaki is a Japanese American food consisting of broiled strips of meat marinated in teriyaki sauce and rolled with scallions (negi).
@@ -3725,7 +3748,7 @@ Fun facts:
 More fun facts (when the user asks for more):
 
 - (history) Beginning in the 1960s, the popularity of the New York–style bagel began to increase with the non-Jewish population of New York City and beyond.
-- (culture) A traditional New York-style is typically larger and fatter than a mass-produced bagel, or a wood-fired Montreal-style bagel.
+- (culture) A traditional New York–style is typically larger and fatter than a mass-produced bagel, or a wood-fired Montreal-style bagel.
 - (about) For many decades, bagels were little known outside of the Jewish community, where their popularity was widespread.
 - (origin) New York–style bagel comes from the United States.
 - (history) They have also grown over time, from about 3 ounces (85 g) in 1915 to 6 ounces (170 g) in 2003.
@@ -3985,25 +4008,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q25005338) (CC0); [Wikipedia: Peanut pie](https://en.wikipedia.org/wiki/Peanut_pie) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Peanut soup
-
-Peanut soup or groundnut soup is a soup made from peanuts, often with various other ingredients.
-
-- From: United States
-- Ingredients (Wikidata): bay leaf, onion, peanut, West African Pepper, ginger, tomato, rosemary
-
-Fun facts:
-
-- (about) In Ghana, it is known as nkatenkwan in Akan language and "Azidetsi" in Ewe language.
-
-Learn more:
-
-- quick: [Peanut soup (Wikipedia)](https://en.wikipedia.org/wiki/Peanut_soup)
-- deep: [Books about Peanut soup (Open Library)](https://openlibrary.org/search?q=Peanut%20soup)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1907985)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q1907985) (CC0); [Wikipedia: Peanut soup](https://en.wikipedia.org/wiki/Peanut_soup) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Pecan pie
 
 Pecan pie is a pie of pecan nuts mixed with a filling of eggs, butter and sugar (typically corn syrup).
@@ -4260,7 +4264,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q4992018) (CC0); [Wikipedia: P
 
 ### Poke (dish)
 
-Poke or poké (, Hawaiian: [poke]) is a dish of diced raw fish (poke being Hawaiian for 'to slice' or 'cut crosswise into pieces') tossed in sauce and served either as an appetizer or a main course.
+Poke or poké is a dish of diced raw fish (poke being Hawaiian for 'to slice' or 'cut crosswise into pieces') tossed in sauce and served either as an appetizer or a main course.
 
 - From: United States
 - Origin (Wikidata): United States
@@ -4610,7 +4614,7 @@ Saimin (from Cantonese Chinese: 細麵, sai³ min⁶, thin (wheat) noodles, or �
 
 - From: United States
 - Origin (Wikidata): United States
-- Ingredients (Wikidata): egg as food
+- Ingredients (Wikidata): egg as food, Welsh onion, kamaboko, noodle, dashi
 
 Fun facts:
 
@@ -5548,6 +5552,7 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Sweet potato pie (Wikipedia)](https://en.wikipedia.org/wiki/Sweet_potato_pie)
+- more: [Barbadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Barbadian_cuisine)
 - deep: [Books about Sweet potato pie (Open Library)](https://openlibrary.org/search?q=Sweet%20potato%20pie)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3246340)
 
@@ -6207,7 +6212,7 @@ Learn more:
 
 - quick: [Beignet (Wikipedia)](https://en.wikipedia.org/wiki/Beignet)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Gabonese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gabonese_cuisine)
 - deep: [Books about Beignet (Open Library)](https://openlibrary.org/search?q=Beignet)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q814709)
 
@@ -6458,7 +6463,7 @@ Learn more:
 
 - quick: [Gumbo (Wikipedia)](https://en.wikipedia.org/wiki/Gumbo)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Chadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chadian_cuisine)
 - deep: [Books about Gumbo (Open Library)](https://openlibrary.org/search?q=Gumbo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1160522)
 
@@ -6602,7 +6607,7 @@ Learn more:
 
 - quick: [Red beans and rice (Wikipedia)](https://en.wikipedia.org/wiki/Red_beans_and_rice)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
 - deep: [Books about Red beans and rice (Open Library)](https://openlibrary.org/search?q=Red%20beans%20and%20rice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q489703)
 
@@ -6971,7 +6976,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q5096277) (CC0); [Wikipedia: C
 
 ### Chislic
 
-Chislic (or sometimes chislick) is a dish consisting of skewered cubes of red meat, usually mutton or lamb, although game meats such as venison and even beef steak can be used.
+Chislic (or sometimes chislick) is a dish consisting of deep-fried cubes of red meat, usually mutton or lamb, although game meats such as venison and even beef steak can be used.
 
 - From: Midwestern US, United States
 - Origin (Wikidata): United States
@@ -6979,7 +6984,7 @@ Chislic (or sometimes chislick) is a dish consisting of skewered cubes of red me
 Fun facts:
 
 - (origin) Chislic may have been introduced into the United States by John Hoellwarth, who immigrated from Crimea to Hutchinson County, South Dakota in the 1870s.
-- (about) Most commonly associated with the state of South Dakota, chislic was declared the official state "nosh" of South Dakota in March 2018.
+- (about) Most commonly associated with the state of South Dakota, chislic was declared its official state "nosh" in March 2018.
 - (inspiration) Chislic is based on shashlik.
 
 More fun facts (when the user asks for more):
@@ -7934,6 +7939,7 @@ Learn more:
 
 - quick: [Cookie (Wikipedia)](https://en.wikipedia.org/wiki/Cookie)
 - more: [Cuisine of New England (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_New_England)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
 - deep: [Books about Cookie (Open Library)](https://openlibrary.org/search?q=Cookie)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13266)
 
@@ -7964,7 +7970,7 @@ Learn more:
 
 - quick: [Corn chowder (Wikipedia)](https://en.wikipedia.org/wiki/Corn_chowder)
 - more: [Cuisine of New England (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_New_England)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Corn chowder (Open Library)](https://openlibrary.org/search?q=Corn%20chowder)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5171047)
 
@@ -8116,6 +8122,7 @@ Learn more:
 
 - quick: [Oyster stew (Wikipedia)](https://en.wikipedia.org/wiki/Oyster_stew)
 - more: [Cuisine of New England (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_New_England)
+- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
 - deep: [Books about Oyster stew (Open Library)](https://openlibrary.org/search?q=Oyster%20stew)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16814592)
 
@@ -8799,15 +8806,15 @@ Stromboli are a type of baked bread filled with various Italian cheeses (typical
 
 Fun facts:
 
-- (history) Stromboli are an Italian-American dish invented in Philadelphia by the mid-20th century.
 - (inspiration) Stromboli is ultimately named for the volcanic island off the coast of Sicily, by way of the 1950 Roberto Rossellini film of the same name.
-- (origin) Stromboli comes from the United States.
+- (about) Stromboli is an Italian-American dish invented in Essington, Pennsylvania by Nazzareno Romano.
+- (history) Stromboli dates from 1950-.
 
 More fun facts (when the user asks for more):
 
 - (inspiration) Stromboli is named after Stromboli.
-- (history) Stromboli dates from 1950-.
 - (history) Romano's Italian Restaurant & Pizzeria claims to have first used the name in 1950 in Essington, Pennsylvania, just outside Philadelphia, courtesy of Nazzareno Romano, an Italian immigrant.
+- (origin) Stromboli comes from the United States.
 
 Learn more:
 
@@ -8917,43 +8924,6 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25004446)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q25004446) (CC0); [Wikipedia: Breakfast burrito](https://en.wikipedia.org/wiki/Breakfast_burrito) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Burrito
-
-A burrito or burro is historically a regional name in Mexico for what in other parts of the country is known as a taco (a tortilla filled with food).
-
-- From: Southwestern US, United States
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): wheat tortilla, stuffing
-
-Fun facts:
-
-- (inspiration) An often repeated piece of folk history is the story of a man named Juan Méndez who sold tacos at a street stand in the Bella Vista neighborhood of Ciudad Juárez during the Mexican Revolution period (1910–1921), while using a donkey as a transport for himself and his food.
-- (origin) Sonoran historian and politician, Horacio Sorbazo Díaz, explained that the term originated in Sonora where some dubious taco stands would sell donkey meat instead of beef, and people, maliciously, began calling tacos "burritos" implying they were made with donkey meat.
-- (history) Before the development of the modern burrito, the Maya civilization of Mexico used corn tortillas as early as 1500 BC to wrap foods, with fillings of chili peppers, tomatoes, mushrooms, squash, and avocados.
-
-More fun facts (when the user asks for more):
-
-- (history) In the 1895 Diccionario de Mejicanismos by Feliz Ramos i Duarte, burrito was identified as the regional name given in the Mexican state of Guanajuato to what is known as a taco in other regions: Burrito: Tortilla arrollada, con carne u otra cosa dentro, que en Yucatán llaman coçito, y en Cuernavaca y en Mexico, taco.
-- (history) References to burritos made with corn tortillas appear as late as 1938 in California.
-- (history) Ana Bégué de Packman, author of the book Early California Hospitality (1938), wrote that corn and flour tortillas could be used interchangeably for making burritos.
-- (origin) Stemming from the view that burritos are distinct from tacos, there are many explanations and folk stories about the origin of burritos, most of them originating in the United States.
-- (about) The term burrito was regional, specifically from Guanajuato, Guerrero, Michoacán, San Luis Potosí, Sonora and Sinaloa, for what is known as a taco in Mexico City and surrounding areas, and codzito in Yucatán and Quintana Roo.
-- (about) In Central and Southern Mexico, burritos are still considered tacos, and are known as tacos de harina ("wheat flour tacos").
-- (about) Dried beef is very popular in Sonora, and it has been observed on some occasions that, taking advantage of this circumstance, dried donkey meat is fraudulently sold.
-- (about) Being that burrito or burro was originally a regional name for what is known as a taco or codzito in other regions of Mexico, the use of both corn and wheat flour tortillas was understandable.
-- (about) Currently, wheat flour tortilla burritos are known as "tacos de harina" (wheat flour tacos) in Central and Southern Mexico.
-- (origin) Burrito comes from Mexico.
-- (about) Not to be confused with taco, enchilada, taquito, tostada, gordita, taco acorazado.
-
-Learn more:
-
-- quick: [Burrito (Wikipedia)](https://en.wikipedia.org/wiki/Burrito)
-- more: [Cuisine of the Southwestern United States (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_the_Southwestern_United_States)
-- deep: [Books about Burrito (Open Library)](https://openlibrary.org/search?q=Burrito)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q390823)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q390823) (CC0); [Wikipedia: Burrito](https://en.wikipedia.org/wiki/Burrito) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Cactus fries
 
@@ -9692,6 +9662,7 @@ Learn more:
 
 - quick: [Tamale pie (Wikipedia)](https://en.wikipedia.org/wiki/Tamale_pie)
 - more: [Cuisine of the Southwestern United States (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_the_Southwestern_United_States)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Tamale pie (Open Library)](https://openlibrary.org/search?q=Tamale%20pie)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25327105)
 
@@ -10213,6 +10184,28 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5096304) (CC0); [Wikipedia: Chicken-fried steak](https://en.wikipedia.org/wiki/Chicken-fried_steak) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Coffee sauce
+
+Coffee sauce is a culinary sauce that includes coffee in its preparation.
+
+- From: United States
+- Origin (Wikidata): United States
+- Ingredients (Wikidata): coffee
+
+Fun facts:
+
+- (history) Coffee sauce has been used in American cuisine since at least 1904.
+- (origin) Coffee sauce comes from the United States.
+
+Learn more:
+
+- quick: [Coffee sauce (Wikipedia)](https://en.wikipedia.org/wiki/Coffee_sauce)
+- more: [Cuisine of São Tomé and Príncipe (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe)
+- deep: [Books about Coffee sauce (Open Library)](https://openlibrary.org/search?q=Coffee%20sauce)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17115935)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17115935) (CC0); [Wikipedia: Coffee sauce](https://en.wikipedia.org/wiki/Coffee_sauce) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Colby cheese
 
 Colby is a semihard orange cheese made from cow's milk.
@@ -10266,6 +10259,7 @@ Fun facts:
 Learn more:
 
 - quick: [Corn pudding (Wikipedia)](https://en.wikipedia.org/wiki/Corn_pudding)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Corn pudding (Open Library)](https://openlibrary.org/search?q=Corn%20pudding)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5794713)
 
@@ -10405,11 +10399,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q120644131) (CC0); [Wikipedia:
 Fry sauce is a condiment often served with French fries or other food in many places in the world.
 
 - From: United States
-- Origin (Wikidata): United States, Argentina
+- Origin (Wikidata): Argentina, United States
 
 Fun facts:
 
-- (origin) Fry sauce comes from the United States, Argentina.
+- (origin) Fry sauce comes from Argentina, the United States.
 
 Learn more:
 
@@ -10692,18 +10686,21 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q6485461) (CC0); [Wikipedia: L
 Manapua is the Hawaiian adaptation of the Chinese bun, baozi, derived specifically from char siu bao.
 
 - From: United States
+- Origin (Wikidata): Hawaii
+- Ingredients (Wikidata): pork
 
 Fun facts:
 
 - (history) Bat Moi Kam Mau is credited with retailing the first large char siu bao in the 1940s at her manapua shop "Char Hung Sut".
 - (about) Some of these Chinese laborers, who would later be known as a "manapua man", would peddle their char siu bao in the plantation fields and to other plantation camps by foot and later by vehicle for additional income.
-- (culture) These traditional char siu bao would eventually grow in size into the modern manapua known today.
+- (origin) Manapua comes from Hawaii.
 
 More fun facts (when the user asks for more):
 
 - (history) Honolulu restaurant Royal Kitchen claimed to have been one of the first retailers of baked manapua in 1974.
 - (history) The prospect of financial reward found in the sugar industry caused much Chinese immigration starting in the mid 1800s.
 - (about) These bao would later be known as manapua, said to be a portmanteau of the Hawaiian phrase mea ʻono puaʻa, roughly translated as "pork cake" – mea ʻono referring to any food item encompassing dessert, cake, pastry, cookie and puaʻa meaning "pork" or "pig".
+- (culture) These traditional char siu bao would eventually grow in size into the modern manapua known today.
 
 Learn more:
 
@@ -11493,13 +11490,14 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q10978) (CC0); [Wikipedia: Gra
 
 ### Hawaii wine
 
-Hawaii wine is wine made in the U.S. state of Hawaii.
+Hawaii wine is wine made in the U.S. state appellation of Hawaii.
 
 - From: Hawaii, United States
 
 Fun facts:
 
 - (origin) Viticulture in Hawaii has roots back into the early 1800's when cuttings from plants brought to Oahu by Spanish horticulturist, Don Francisco de Paula Marin established Hawaii's first grape vineyard in 1815.
+- (about) TTB was created in January 2003, when the Bureau of Alcohol, Tobacco and Firearms, or ATF, was extensively reorganized under the provisions of the Homeland Security Act of 2002.
 - (about) In June 2021, Ulupalakua AVA was established on Maui as the state's initial American Viticultural Area (AVA) and the only one outside of the mainland United States.
 
 Learn more:
@@ -12424,34 +12422,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q23501) (CC0); [Wikipedia: Tomato](https://en.wikipedia.org/wiki/Tomato) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Turkey as food
-
-Turkey meat, commonly referred to simply as turkey, is the meat from turkeys, typically domesticated ones, but also wild turkeys.
-
-- From: Louisiana, United States
-
-Fun facts:
-
-- (history) In his 1825 culinary treatise The Physiology of Taste, French lawyer and gourmand Jean Anthelme Brillat-Savarin described turkey as "surely one of the prettiest presents which the Old World has received from the New." Turkey was eaten in as early as the 16th century in England.
-- (culture) Turkey as food is a popular poultry dish, especially in North America and the United Kingdom, where it is traditionally consumed as part of culturally significant events such as Thanksgiving and Christmas as well as in standard cuisine.
-- (history) In the 15th century, Spanish conquistadores took Aztec turkeys back to Europe.
-
-More fun facts (when the user asks for more):
-
-- (culture) While the tradition of turkey at Christmas spread throughout Britain in the 17th century, among the working classes, it became common to serve goose, which remained the predominant roast until the Victorian era.
-- (history) Turkeys have been raised in Finland since the 1950s, and consumption is at its highest at Christmas time.
-- (culture) Turkeys are traditionally eaten as the main course of Thanksgiving dinner feasts in the United States and Canada, and at Christmas dinner feasts in much of the rest of the world (often as stuffed turkey).
-- (culture) Before the 20th century, pork ribs were the most common food for the North American holidays, as the animals were usually slaughtered in November.
-
-Learn more:
-
-- quick: [Turkey as food (Wikipedia)](https://en.wikipedia.org/wiki/Turkey_as_food)
-- more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- deep: [Books about Turkey as food (Open Library)](https://openlibrary.org/search?q=Turkey%20as%20food)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4200953)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q4200953) (CC0); [Wikipedia: Turkey as food](https://en.wikipedia.org/wiki/Turkey_as_food) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Vieux Carré (cocktail)
 
 The Vieux Carré is an IBA official cocktail made with rye whiskey, cognac, sweet vermouth, Bénédictine, and Peychaud's bitters.
@@ -12831,6 +12801,35 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q106623618)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q106623618) (CC0); [Wikipedia: Sugar cream pie](https://en.wikipedia.org/wiki/Sugar_cream_pie) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Turkey as food
+
+Turkey meat, commonly referred to simply as turkey, is the meat from turkeys, typically domesticated ones, but also wild turkeys.
+
+- From: Midwestern US, United States
+
+Fun facts:
+
+- (history) In his 1825 culinary treatise The Physiology of Taste, French lawyer and gourmand Jean Anthelme Brillat-Savarin described turkey as "surely one of the prettiest presents which the Old World has received from the New." Turkey was eaten in as early as the 16th century in England.
+- (culture) Turkey as food is a popular poultry dish, especially in North America and the United Kingdom, where it is traditionally consumed as part of culturally significant events such as Thanksgiving and Christmas as well as in standard cuisine.
+- (history) In the 15th century, Spanish conquistadores took Aztec turkeys back to Europe.
+
+More fun facts (when the user asks for more):
+
+- (culture) While the tradition of turkey at Christmas spread throughout Britain in the 17th century, among the working classes, it became common to serve goose, which remained the predominant roast until the Victorian era.
+- (history) Turkeys have been raised in Finland since the 1950s, and consumption is at its highest at Christmas time.
+- (culture) Turkeys are traditionally eaten as the main course of Thanksgiving dinner feasts in the United States and Canada, and at Christmas dinner feasts in much of the rest of the world (often as stuffed turkey).
+- (culture) Before the 20th century, pork ribs were the most common food for the North American holidays, as the animals were usually slaughtered in November.
+
+Learn more:
+
+- quick: [Turkey as food (Wikipedia)](https://en.wikipedia.org/wiki/Turkey_as_food)
+- more: [Midwestern cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Midwestern_cuisine)
+- more: [Barbadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Barbadian_cuisine)
+- deep: [Books about Turkey as food (Open Library)](https://openlibrary.org/search?q=Turkey%20as%20food)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4200953)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4200953) (CC0); [Wikipedia: Turkey as food](https://en.wikipedia.org/wiki/Turkey_as_food) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Wine
 
@@ -13457,12 +13456,10 @@ An Arizona cheese crisp (simply cheese crisp in the region) is an open-faced, fl
 
 - From: Southwestern US, United States
 - Origin (Wikidata): United States
-- Named after: Arizona
 - Ingredients (Wikidata): cheese, wheat tortilla
 
 Fun facts:
 
-- (inspiration) Arizona cheese crisp is named after Arizona.
 - (about) Cheese crisps are served as appetizers at most Phoenix-area and Tucson-area Mexican restaurants, but are rarely found outside the state, other than places popular with Arizonan tourists such as Puerto Peñasco and San Diego.
 - (origin) Arizona cheese crisp comes from the United States.
 
@@ -13550,6 +13547,26 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7884766)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7884766) (CC0); [Wikipedia: Carne asada](https://en.wikipedia.org/wiki/Carne_asada) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Carne seca
+
+Carne seca ("dried meat" in Spanish) is a type of dried beef used in Mexican cuisine.
+
+- From: Southwestern US, United States
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (origin) Carne seca comes from Mexico.
+
+Learn more:
+
+- quick: [Carne seca (Wikipedia)](https://en.wikipedia.org/wiki/Carne_seca)
+- more: [New Mexican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Mexican_cuisine)
+- deep: [Books about Carne seca (Open Library)](https://openlibrary.org/search?q=Carne%20seca)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28130295)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q28130295) (CC0); [Wikipedia: Carne seca](https://en.wikipedia.org/wiki/Carne_seca) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Chalupa
 

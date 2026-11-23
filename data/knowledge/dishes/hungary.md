@@ -916,6 +916,26 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q368757) (CC0); [Wikipedia: Szaloncukor](https://en.wikipedia.org/wiki/Szaloncukor) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Szalonna (bacon)
+
+Szalonna is Hungarian for fatback made of smoked pork fat with the rind and is traditional in Hungarian cuisine.
+
+- From: Hungary
+
+Fun facts:
+
+- (about) Young children are given their first taste of the bread at that time.
+- (culture) Preparation, cooking and serving remain a longstanding summer tradition among even second and third generation American Hungarians.
+
+Learn more:
+
+- quick: [Szalonna (bacon) (Wikipedia)](https://en.wikipedia.org/wiki/Szalonna_%28bacon%29)
+- more: [Hungarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hungarian_cuisine)
+- deep: [Books about Szalonna (bacon) (Open Library)](https://openlibrary.org/search?q=Szalonna%20%28bacon%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5258938)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5258938) (CC0); [Wikipedia: Szalonna (bacon)](https://en.wikipedia.org/wiki/Szalonna_(bacon)) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Székelykáposzta
 
 Székelykáposzta also known as "cabbage stew à la Székely" or "Székely goulash" (known as "segedínský guláš" in Czech, "segedínsky guláš" in Slovak, "Szegediner Gulasch" in German, "segedin golaž" in Slovenian and "gulasz segedyński" in Polish) is a distinctive dish in Hungarian and Eastern European cuisine.

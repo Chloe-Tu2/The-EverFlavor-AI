@@ -282,6 +282,7 @@ Learn more:
 
 - quick: [Fish ball (Wikipedia)](https://en.wikipedia.org/wiki/Fish_ball)
 - more: [Thai cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Thai_cuisine)
+- more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
 - deep: [Books about Fish ball (Open Library)](https://openlibrary.org/search?q=Fish%20ball)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q705369)
 
@@ -1977,6 +1978,7 @@ Learn more:
 
 - quick: [Condensed milk (Wikipedia)](https://en.wikipedia.org/wiki/Condensed_milk)
 - more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
+- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
 - deep: [Books about Condensed milk (Open Library)](https://openlibrary.org/search?q=Condensed%20milk)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2830455)
 

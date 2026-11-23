@@ -1263,6 +1263,21 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7799573) (CC0); [Wikipedia: Gỏi cuốn](https://en.wikipedia.org/wiki/Gỏi_cuốn) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Gỏi nhệch
+
+Gỏi nhệch is a Vietnamese salad made with the small fry of the local paddy field eel.
+
+- From: Vietnam
+
+Learn more:
+
+- quick: [Gỏi nhệch (Wikipedia)](https://en.wikipedia.org/wiki/G%E1%BB%8Fi_nh%E1%BB%87ch)
+- more: [Vietnamese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Vietnamese_cuisine)
+- deep: [Books about Gỏi nhệch (Open Library)](https://openlibrary.org/search?q=G%E1%BB%8Fi%20nh%E1%BB%87ch)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5627778)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5627778) (CC0); [Wikipedia: Gỏi nhệch](https://en.wikipedia.org/wiki/Gỏi_nhệch) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Ham chim peng
 
 Ham chim peng, also known in Singapore and Malaysia as haam ji peng, hum ji peng, among other variations, is a fried Cantonese pastry popular through Southeast Asia.

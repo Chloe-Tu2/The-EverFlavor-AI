@@ -1,6 +1,6 @@
 {
  "about": {
-  "built_on": "2026-11-22",
+  "built_on": "2026-11-23",
   "by": "scripts/knowledge/atlas_audit.py",
   "regions": {
    "name": "Unicode CLDR territory containment (UN M49 regions)",
@@ -27,7 +27,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q1017266",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -50,7 +50,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q123142484",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -73,7 +73,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q7148573",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -96,7 +96,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q5644416",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -119,7 +119,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q7238914",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -142,7 +142,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q126946571",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",

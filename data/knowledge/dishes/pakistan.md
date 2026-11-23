@@ -133,6 +133,22 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q170883) (CC0); [Wikipedia: Noon chai](https://en.wikipedia.org/wiki/Noon_chai) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Seekh kebab
+
+Seekh kebab is a type of kebab from the Indian subcontinent.
+
+- From: Pakistan
+
+Learn more:
+
+- quick: [Seekh kebab (Wikipedia)](https://en.wikipedia.org/wiki/Seekh_kebab)
+- more: [List of Pakistani dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Pakistani_dishes)
+- more: [Pakistani cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Pakistani_cuisine)
+- deep: [Books about Seekh kebab (Open Library)](https://openlibrary.org/search?q=Seekh%20kebab)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q55632802)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q55632802) (CC0); [Wikipedia: Seekh kebab](https://en.wikipedia.org/wiki/Seekh_kebab) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Sheermal
 
 Sheermal also spelled shirmal, is a saffron-flavored traditional flatbread in South Asian cuisine.

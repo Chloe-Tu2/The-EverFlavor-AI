@@ -1,4 +1,4 @@
-# Culinary region coverage (2026-11-22)
+# Culinary region coverage (2026-11-23)
 
 Regions below a country, from the place tree and the knowledge notebook (Wikipedia region pages), with the average dish score.
 
@@ -27,7 +27,7 @@ Regions below a country, from the place tree and the knowledge notebook (Wikiped
 | Mexico | Jalisco | no | 3 | 0 | 69.0 |
 | Mexico | Mexico City | no | 3 | 0 | 50.0 |
 | Mexico | Michoacán | no | 3 | 0 | 26.7 |
-| Mexico | Oaxaca | yes | 6 | 61 | 38.3 |
+| Mexico | Oaxaca | yes | 6 | 61 | 40.0 |
 | Mexico | Puebla | no | 2 | 0 | 60.0 |
 | Mexico | San Luis Potosí | no | 1 | 0 | 20.0 |
 | Mexico | Sinaloa | no | 1 | 0 | 35.0 |
@@ -35,7 +35,7 @@ Regions below a country, from the place tree and the knowledge notebook (Wikiped
 | Mexico | Veracruz | no | 1 | 0 | 45.0 |
 | Mexico | Yucatán | no | 8 | 0 | 35.6 |
 | United Kingdom | England | yes | 12 | 1,274 | 61.7 |
-| United Kingdom | Scotland | yes | 52 | 386 | 60.5 |
+| United Kingdom | Scotland | yes | 52 | 386 | 60.7 |
 | United Kingdom | Wales | yes | 1 | 67 | 30.0 |
 | United States | California | yes | 0 | 691 |  |
 | United States | Hawaii | yes | 1 | 384 | 80.0 |

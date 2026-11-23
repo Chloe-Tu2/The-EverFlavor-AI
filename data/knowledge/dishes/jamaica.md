@@ -164,6 +164,7 @@ Learn more:
 
 - quick: [Brittle (food) (Wikipedia)](https://en.wikipedia.org/wiki/Brittle_%28food%29)
 - more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- more: [Cuisine of São Tomé and Príncipe (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe)
 - deep: [Books about Brittle (food) (Open Library)](https://openlibrary.org/search?q=Brittle%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q708823)
 
@@ -308,6 +309,7 @@ Learn more:
 
 - quick: [Conch soup (Wikipedia)](https://en.wikipedia.org/wiki/Conch_soup)
 - more: [Jamaican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jamaican_cuisine)
+- more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
 - deep: [Books about Conch soup (Open Library)](https://openlibrary.org/search?q=Conch%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16880108)
 
@@ -344,6 +346,7 @@ Learn more:
 
 - quick: [Corn soup (Wikipedia)](https://en.wikipedia.org/wiki/Corn_soup)
 - more: [Jamaican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jamaican_cuisine)
+- more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
 - deep: [Books about Corn soup (Open Library)](https://openlibrary.org/search?q=Corn%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5171063)
 
@@ -391,7 +394,7 @@ Duckunoo or duckanoo, also referred to as tie-a-leaf, blue drawers (draws), doko
 
 - From: Jamaica
 - Origin (Wikidata): Caribbean
-- Ingredients (Wikidata): butter, Sweet potato, coconut milk, coconut, cornmeal
+- Ingredients (Wikidata): butter, sweet potato, coconut milk, coconut, cornmeal
 
 Fun facts:
 
@@ -672,6 +675,7 @@ Learn more:
 
 - quick: [Jerk (cooking) (Wikipedia)](https://en.wikipedia.org/wiki/Jerk_%28cooking%29)
 - more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
 - deep: [Books about Jerk (cooking) (Open Library)](https://openlibrary.org/search?q=Jerk%20%28cooking%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6127463)
 
@@ -810,6 +814,7 @@ Learn more:
 
 - quick: [Oxtail (Wikipedia)](https://en.wikipedia.org/wiki/Oxtail)
 - more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
 - deep: [Books about Oxtail (Open Library)](https://openlibrary.org/search?q=Oxtail)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1275331)
 
@@ -901,7 +906,7 @@ Learn more:
 
 - quick: [Pumpkin soup (Wikipedia)](https://en.wikipedia.org/wiki/Pumpkin_soup)
 - more: [Jamaican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jamaican_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Barbadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Barbadian_cuisine)
 - deep: [Books about Pumpkin soup (Open Library)](https://openlibrary.org/search?q=Pumpkin%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1797271)
 
@@ -913,7 +918,7 @@ Red peas soup is a hearty Jamaican soup, made with kidney beans (known locally a
 
 - From: Jamaica
 - Origin (Wikidata): Jamaica
-- Ingredients (Wikidata): Sweet potato, beef, dumpling, onion, yam, kidney bean
+- Ingredients (Wikidata): sweet potato, beef, dumpling, onion, yam, kidney bean
 
 Fun facts:
 
@@ -1362,6 +1367,7 @@ Learn more:
 
 - quick: [Cocoyam (Wikipedia)](https://en.wikipedia.org/wiki/Cocoyam)
 - more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- more: [Cameroonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cameroonian_cuisine)
 - deep: [Books about Cocoyam (Open Library)](https://openlibrary.org/search?q=Cocoyam)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2149005)
 
@@ -1767,6 +1773,7 @@ Learn more:
 
 - quick: [Mauby (Wikipedia)](https://en.wikipedia.org/wiki/Mauby)
 - more: [Jamaican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jamaican_cuisine)
+- more: [Barbadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Barbadian_cuisine)
 - deep: [Books about Mauby (Open Library)](https://openlibrary.org/search?q=Mauby)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3813358)
 

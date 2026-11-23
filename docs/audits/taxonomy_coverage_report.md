@@ -1,4 +1,4 @@
-# Taxonomy completeness (2026-11-22)
+# Taxonomy completeness (2026-11-23)
 
 How much of the place tree (`data/reference/food_taxonomy.csv`, World down to a culinary region) holds dishes and recipes. Per node: `data/knowledge/quality/taxonomy_coverage.json`.
 

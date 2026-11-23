@@ -32,6 +32,63 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5038482) (CC0); [Wikipedia: Cawl](https://en.wikipedia.org/wiki/Cawl) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Fish pie
+
+Fish pie, also known as fisherman's pie, is a traditional British dish.
+
+- From: United Kingdom
+- Origin (Wikidata): United Kingdom
+
+Fun facts:
+
+- (history) John Murrell's 1615 A New Booke of Cookerie contained recipes for eel and carp pies that called for scraps.
+- (origin) Fish pie comes from the United Kingdom.
+- (about) Fish pie is also popular in Australia and New Zealand.
+
+More fun facts (when the user asks for more):
+
+- (history) Jessup Whitehead's 1889 The Steward’s Handbook and Guide to Party Catering instructs the cook to poach the fish, then drain it and cover it in cream before baking.
+
+Learn more:
+
+- quick: [Fish pie (Wikipedia)](https://en.wikipedia.org/wiki/Fish_pie)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
+- deep: [Books about Fish pie (Open Library)](https://openlibrary.org/search?q=Fish%20pie)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3301394)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3301394) (CC0); [Wikipedia: Fish pie](https://en.wikipedia.org/wiki/Fish_pie) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Scotch egg
+
+A Scotch egg is a hard-boiled egg wrapped in sausage meat, coated in breadcrumbs and baked or deep-fried.
+
+- From: United Kingdom
+- Origin (Wikidata): United Kingdom
+- Ingredients (Wikidata): egg, boiled egg, minced meat
+
+Fun facts:
+
+- (history) According to the Oxford Companion to Food, food historian Annette Hope speculated in 1987 that the inspiration may have been Indian koftas such as the Mughlai dish called nargisi kofta ("Narcissus meatballs"), in which a boiled egg is encased in a seasoned ground-meat mixture and then fried.
+- (origin) Scotch egg comes from the United Kingdom.
+- (inspiration) They were supposedly named after William J. Scott & Sons, a well-known eatery which sold them.
+
+More fun facts (when the user asks for more):
+
+- (history) Further confusion is added by the large trade in eggs from Scotland in the 19th century, which sometimes involved dipping eggs in a lime powder to preserve them, a process possibly also known as "scotching".
+- (history) The Oxford Companion to Food gives the first instance of the name as of 1809, in an edition of Maria Rundell's A New System of Domestic Cookery.
+- (history) Other claims include the item having been invented at Fortnum & Mason at Piccadilly in 1738.
+- (origin) According to Culinary Delights of Yorkshire, they originated in Whitby, Yorkshire, England, in the 19th century, and were originally covered in fish paste rather than sausage meat.
+- (history) They did not, at that time, have a breadcrumb layer, although by 1861 Isabella Beeton suggested this as an option.
+
+Learn more:
+
+- quick: [Scotch egg (Wikipedia)](https://en.wikipedia.org/wiki/Scotch_egg)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
+- deep: [Books about Scotch egg (Open Library)](https://openlibrary.org/search?q=Scotch%20egg)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1568296)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1568296) (CC0); [Wikipedia: Scotch egg](https://en.wikipedia.org/wiki/Scotch_egg) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Soda bread
 
 Soda bread is a variety of quick bread in many cuisines which uses sodium bicarbonate (baking soda or bread soda) as a leavening agent instead of yeast.
@@ -1070,35 +1127,20 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6575260) (CC0); [Wikipedia: Kipper](https://en.wikipedia.org/wiki/Kipper) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Macaroon
+### Lucky tattie
 
-A macaroon is a small cake or cookie, originally made from ground almonds, egg whites, and sugar, but now often with coconut or other nuts.
+The Lucky Tattie is a type of traditional sweet made in Scotland.
 
 - From: Scotland, United Kingdom
-- Origin (Wikidata): France
-
-Fun facts:
-
-- (history) In 1624 an abbey was founded in the heart of Nancy (Benedictine from 1668) by a daughter of Catherine de' Medici and Henry II of France, where macaroons were made.
-- (about) Macaroons became a popular treat for Jews on Passover because they had no flour or leavening, as macaroons are leavened by egg whites.
-- (origin) Macaroon comes from France.
-
-More fun facts (when the user asks for more):
-
-- (history) Macaroons can be traced to a French monastery of the 8th century in the city of Cormery.
-- (history) Recipes for macaroons appeared in recipe books at least as early as 1725 (Robert Smith's Court Cookery, or the Complete English Cook), and use egg whites and almond paste.
-- (about) Not to be confused with macaron.
-- (culture) Mrs Beeton's Book of Household Management (1861) includes a typical traditional recipe.
-- (about) They became known as the "Macaroon Sisters".
 
 Learn more:
 
-- quick: [Macaroon (Wikipedia)](https://en.wikipedia.org/wiki/Macaroon)
+- quick: [Lucky tattie (Wikipedia)](https://en.wikipedia.org/wiki/Lucky_tattie)
 - more: [Scottish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Scottish_cuisine)
-- deep: [Books about Macaroon (Open Library)](https://openlibrary.org/search?q=Macaroon)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3699636)
+- deep: [Books about Lucky tattie (Open Library)](https://openlibrary.org/search?q=Lucky%20tattie)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6698074)
 
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q3699636) (CC0); [Wikipedia: Macaroon](https://en.wikipedia.org/wiki/Macaroon) (CC BY-SA 4.0). Review: auto-cleaned.
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6698074) (CC0); [Wikipedia: Lucky tattie](https://en.wikipedia.org/wiki/Lucky_tattie) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Marmalade
 
@@ -1273,7 +1315,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q134152) (CC0); [Wikipedia: Pa
 
 ### Partan bree
 
-Partan bree is a seafood soup speciality from north-eastern Scotland, where much of the country's fishing fleet is based.
+Partan bree (transl. crab soup) is a seafood soup speciality from north-eastern Scotland, where much of the country's fishing fleet is based.
 
 - From: Scotland, United Kingdom
 - Origin (Wikidata): Scotland
@@ -1281,6 +1323,7 @@ Partan bree is a seafood soup speciality from north-eastern Scotland, where much
 
 Fun facts:
 
+- (history) Partan bree was first documented in 1909 in The Cookery book of Lady Clark of Tillypronie.
 - (origin) Partan bree comes from Scotland.
 
 Learn more:
@@ -1943,7 +1986,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q137380017) (CC0); [Wikipedia:
 
 ### Clapshot
 
-Clapshot is a traditional Scottish dish that originated in Orkney and may be served with haggis,,mince, sausages or cold meat.
+Clapshot is a traditional Scottish dish that originated in Orkney and may be served with haggis, mince, sausages or cold meat.
 
 - From: Scotland, United Kingdom
 - Origin (Wikidata): Scotland

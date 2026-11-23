@@ -472,6 +472,44 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q4939806) (CC0); [Wikipedia: Bollo](https://en.wikipedia.org/wiki/Bollo) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Butifarra Soledeñas
+
+Butifarra Soledeña (sausage of Soledad, Atlántico) is a type of botifarra that has developed into a regional specialty in Colombian cuisine.
+
+- From: Colombia
+- Origin (Wikidata): Colombia
+
+Fun facts:
+
+- (culture) Butifarra Soledeñas is a celebrated tradition of the area.
+- (origin) Butifarra Soledeñas comes from Colombia.
+
+Learn more:
+
+- quick: [Butifarra Soledeñas (Wikipedia)](https://en.wikipedia.org/wiki/Butifarra_Solede%C3%B1as)
+- more: [List of Colombian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Colombian_dishes)
+- more: [Colombian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Colombian_cuisine)
+- deep: [Books about Butifarra Soledeñas (Open Library)](https://openlibrary.org/search?q=Butifarra%20Solede%C3%B1as)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17002601)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17002601) (CC0); [Wikipedia: Butifarra Soledeñas](https://en.wikipedia.org/wiki/Butifarra_Soledeñas) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Carimañola
+
+A carimañola, also called caribañolas, yuca fritters, or pastel de yuca, is a traditional fried food commonly found in the Caribbean coastal regions of Colombia and Panama.
+
+- From: Colombia
+
+Learn more:
+
+- quick: [Carimañola (Wikipedia)](https://en.wikipedia.org/wiki/Carima%C3%B1ola)
+- more: [List of Colombian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Colombian_dishes)
+- more: [Colombian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Colombian_cuisine)
+- deep: [Books about Carimañola (Open Library)](https://openlibrary.org/search?q=Carima%C3%B1ola)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5039582)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5039582) (CC0); [Wikipedia: Carimañola](https://en.wikipedia.org/wiki/Carimañola) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Cholado
 
 Cholado, raspao, or raspado is an icy beverage with fresh fruit and sweetened condensed milk traditionally from Jamundí, in the region of Valle del Cauca, Colombia.

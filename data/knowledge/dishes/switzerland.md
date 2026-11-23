@@ -96,7 +96,7 @@ More fun facts (when the user asks for more):
 - (history) The modern, filled Nusstorte was developed by an Engadin (a region in Graubünden) baker named Fausto Pult in 1926.
 - (origin) In 1934 he sold the pastries at the Mustermesse in Basel, which introduced them to the wider world.
 - (history) When they were expelled in 1766, the Graubünden confectioners traveled around Europe before many of them settled back in Graubünden.
-- (about) Not to be confused with Bulle Cake.
+- (about) Not to be confused with Engadiner Torte, Bulle Cake.
 
 Learn more:
 

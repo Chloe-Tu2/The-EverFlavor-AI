@@ -1,4 +1,4 @@
-# Coverage: Oceania (2026-11-22)
+# Coverage: Oceania (2026-11-23)
 
 Back to [world coverage](coverage_world.md).
 

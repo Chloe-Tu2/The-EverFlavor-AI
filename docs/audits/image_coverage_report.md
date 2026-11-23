@@ -1,4 +1,4 @@
-# Dish image audit (2026-11-22)
+# Dish image audit (2026-11-23)
 
 The best image each of our 3,201 dishes can show, its licence and credit, and what to fetch next. Reports only: no image was downloaded. Built by `scripts/knowledge/media_audit.py`; per dish in `data/knowledge/media/dish_media_audit.json`.
 
@@ -63,13 +63,13 @@ Statuses: candidate 1,737, verified 1,142, missing 328, fallback 164. Every dish
 
 ## Remediation plan
 
-1. **Fetch** the Wikidata images of 1,889 dishes through the existing photo pipeline (`scripts/dish_photos/fetch_dish_photos.py meta`, `download`, `curate`, `write`), which checks each licence and keeps a credit line: 282 high priority (50+ of the 80 points besides the image), 1,607 medium (`image_priority_queue.json`).
+1. **Fetch** the Wikidata images of 1,889 dishes through the existing photo pipeline (`scripts/dish_photos/fetch_dish_photos.py meta`, `download`, `curate`, `write`), which checks each licence and keeps a credit line: 283 high priority (50+ of the 80 points besides the image), 1,606 medium (`image_priority_queue.json`).
 2. **No image anywhere** for 340 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
 3. **Family photos** stand in meanwhile, labelled as the family, never as the dish.
 
 ## Approved for collection
 
-1,739 of 1,889 Wikidata images pass the photo pipeline's rules (free licence, an author to credit, a photo type, at least 400 px, not a map or drawing), read from the Commons API without downloading: 257 high priority, 1,482 medium priority, 0 low priority. The rest:
+1,739 of 1,889 Wikidata images pass the photo pipeline's rules (free licence, an author to credit, a photo type, at least 400 px, not a map or drawing), read from the Commons API without downloading: 258 high priority, 1,481 medium priority, 0 low priority. The rest:
 
 - no author to credit: 30
 - smaller than 400 px: 96

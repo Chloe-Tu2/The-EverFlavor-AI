@@ -666,6 +666,34 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5136085) (CC0); [Wikipedia: Club (soft drink)](https://en.wikipedia.org/wiki/Club_(soft_drink)) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Corned beef
+
+Corned beef (called salt beef in Commonwealth countries) is a salt-cured piece of beef.
+
+- From: Ireland
+- Origin (Wikidata): Ireland
+- Ingredients (Wikidata): beef
+
+Fun facts:
+
+- (history) The first mention of salted or corned beef in Ireland dates from the 12th century poem The Vision of MacConglinne.
+- (about) Corned beef remains popular worldwide as an ingredient in a variety of regional dishes and as a common part in modern field rations of various armed forces around the world.
+- (origin) Corned beef comes from Ireland.
+
+More fun facts (when the user asks for more):
+
+- (about) The word "corned" may also refer to the corns of potassium nitrate, also known as saltpeter, which were formerly used to preserve the meat.
+
+Learn more:
+
+- quick: [Corned beef (Wikipedia)](https://en.wikipedia.org/wiki/Corned_beef)
+- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- deep: [Books about Corned beef (Open Library)](https://openlibrary.org/search?q=Corned%20beef)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1133209)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1133209) (CC0); [Wikipedia: Corned beef](https://en.wikipedia.org/wiki/Corned_beef) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Goody (food)
 
 Goody or goodie is a sweet Irish dish made by boiling bread in milk with sugar and spices.
@@ -712,6 +740,7 @@ Learn more:
 
 - quick: [Gravy (Wikipedia)](https://en.wikipedia.org/wiki/Gravy)
 - more: [List of Irish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Irish_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Gravy (Open Library)](https://openlibrary.org/search?q=Gravy)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q945934)
 
@@ -931,6 +960,27 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q893)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q893) (CC0); [Wikipedia: Lemonade](https://en.wikipedia.org/wiki/Lemonade) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### McDaid's Football Special
+
+McDaid's Football Special is an Irish soft drink (locally known as a 'mineral') produced by McDaid's & Sons, a company based in Ramelton, County Donegal.
+
+- From: Ireland
+
+Fun facts:
+
+- (history) In 1984 and 1989, Football Special won two awards for excellence from the London Beverage Society.
+- (culture) Football Special was created during the 1960s when James McDaid Jnr., then CEO of McDaid's & Sons, who was also on the founding board of Swilly Rovers Football Club, wanted to celebrate the club winning trophies by filling the cup with a non-alcoholic beverage.
+- (about) They created a drink which had a beer-like foamy head and named it 'Football Cup', which later was changed to Football Special.
+
+Learn more:
+
+- quick: [McDaid's Football Special (Wikipedia)](https://en.wikipedia.org/wiki/McDaid%27s_Football_Special)
+- more: [Irish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Irish_cuisine)
+- deep: [Books about McDaid's Football Special (Open Library)](https://openlibrary.org/search?q=McDaid%27s%20Football%20Special)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6800824)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6800824) (CC0); [Wikipedia: McDaid's Football Special](https://en.wikipedia.org/wiki/McDaid's_Football_Special) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Mead
 

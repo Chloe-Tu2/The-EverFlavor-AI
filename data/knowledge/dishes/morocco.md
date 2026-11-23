@@ -2,27 +2,6 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
-### Ahriche
-
-In Moroccan cuisine, Ahriche is a dish eaten by the tribes of Zayanes and Khénifra.
-
-- From: Morocco
-- Origin (Wikidata): Morocco
-
-Fun facts:
-
-- (origin) Ahriche comes from Morocco.
-
-Learn more:
-
-- quick: [Ahriche (Wikipedia)](https://en.wikipedia.org/wiki/Ahriche)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
-- deep: [Books about Ahriche (Open Library)](https://openlibrary.org/search?q=Ahriche)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2827721)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q2827721) (CC0); [Wikipedia: Ahriche](https://en.wikipedia.org/wiki/Ahriche) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Almond paste
 
 Almond paste is made from ground almonds or almond meal and sugar in equal quantities, with small amounts of cooking oil, eggs, heavy cream or corn syrup added as a binder.
@@ -193,7 +172,7 @@ Learn more:
 
 - quick: [Harira (Wikipedia)](https://en.wikipedia.org/wiki/Harira)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
+- more: [Mauritanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritanian_cuisine)
 - deep: [Books about Harira (Open Library)](https://openlibrary.org/search?q=Harira)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1513612)
 
@@ -276,7 +255,7 @@ Learn more:
 
 - quick: [Méchoui (Wikipedia)](https://en.wikipedia.org/wiki/M%C3%A9choui)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
+- more: [Mauritanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritanian_cuisine)
 - deep: [Books about Méchoui (Open Library)](https://openlibrary.org/search?q=M%C3%A9choui)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1915612)
 
@@ -403,7 +382,7 @@ Learn more:
 
 - quick: [Sfenj (Wikipedia)](https://en.wikipedia.org/wiki/Sfenj)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Sfenj (Open Library)](https://openlibrary.org/search?q=Sfenj)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3090471)
 
@@ -456,11 +435,33 @@ Learn more:
 
 - quick: [Tagine (Wikipedia)](https://en.wikipedia.org/wiki/Tagine)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Tagine (Open Library)](https://openlibrary.org/search?q=Tagine)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q865004)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q865004) (CC0); [Wikipedia: Tagine](https://en.wikipedia.org/wiki/Tagine) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tahricht
+
+Tahricht is a Berber cuisine skewered meat dish of charcoal grilled, spiced lamb tripe and other lamb offal from the Middle Atlas and High Atlas mountains of Morocco, particularly Ifrane Province.
+
+- From: Morocco
+- Origin (Wikidata): Morocco
+
+Fun facts:
+
+- (culture) Tahricht is made for community celebrations like the Night of Power alongside dishes like tagoulla.
+- (origin) Tahricht comes from Morocco.
+
+Learn more:
+
+- quick: [Tahricht (Wikipedia)](https://en.wikipedia.org/wiki/Tahricht)
+- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
+- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- deep: [Books about Tahricht (Open Library)](https://openlibrary.org/search?q=Tahricht)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2827721)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2827721) (CC0); [Wikipedia: Tahricht](https://en.wikipedia.org/wiki/Tahricht) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Taktouka
 
@@ -574,6 +575,7 @@ Learn more:
 
 - quick: [Harissa (Wikipedia)](https://en.wikipedia.org/wiki/Harissa)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Harissa (Open Library)](https://openlibrary.org/search?q=Harissa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q966327)
 
@@ -611,6 +613,7 @@ Learn more:
 
 - quick: [Maghrebi mint tea (Wikipedia)](https://en.wikipedia.org/wiki/Maghrebi_mint_tea)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
+- more: [Mauritanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritanian_cuisine)
 - deep: [Books about Maghrebi mint tea (Open Library)](https://openlibrary.org/search?q=Maghrebi%20mint%20tea)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q937101)
 
@@ -639,7 +642,7 @@ Learn more:
 
 - quick: [Merguez (Wikipedia)](https://en.wikipedia.org/wiki/Merguez)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Merguez (Open Library)](https://openlibrary.org/search?q=Merguez)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1754504)
 

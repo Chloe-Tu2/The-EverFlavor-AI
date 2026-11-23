@@ -1,4 +1,4 @@
-# Recipe quality (audit, 2026-11-22)
+# Recipe quality (audit, 2026-11-23)
 
 What each recipe has and lacks, by source. Counts only: no recipe was changed or removed. Built by `scripts/knowledge/recipe_quality_audit.py`; the numbers are in `data/knowledge/recipe_quality.json`. The limits (a day of time, 50 servings, 40 ingredients, 3,000 kcal a serving) only say where a person should look.
 

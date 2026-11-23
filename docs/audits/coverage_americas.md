@@ -1,4 +1,4 @@
-# Coverage: the Americas and the Caribbean (2026-11-22)
+# Coverage: the Americas and the Caribbean (2026-11-23)
 
 Back to [world coverage](coverage_world.md).
 
@@ -38,7 +38,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Brazil | high | 51 | 15 | 16 | 29 | 311 | 5 | 91% |
+| Brazil | high | 51 | 15 | 17 | 30 | 311 | 6 | 90% |
 | Chile | medium | 28 | 5 | 15 | 22 | 71 | 4 | 88% |
 | Peru | medium | 18 | 9 | 9 | 11 | 98 | 11 | 62% |
 | Colombia | medium | 16 | 5 | 6 | 10 | 70 | 3 | 84% |
@@ -60,10 +60,10 @@ Back to [world coverage](coverage_world.md).
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Bermuda | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 | Bolivia | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
+| British Virgin Islands | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 | Greenland | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 | Montserrat | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 | Paraguay | absent | 0 | 0 | 0 | 0 | 0 | 5 | 0% |
-| United States Virgin Islands | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 
 ## Countries with the most to add
 
@@ -72,8 +72,8 @@ Back to [world coverage](coverage_world.md).
 - **Mexico** (high; 14 ready, 2 to review): wrap, wheat tortilla, poblano, hebra cheese, chocolate sandwich, chirmol, chilhuacle negro, Sinaloan sushi.
 - **Peru** (medium; 10 ready, 1 to review): butifarra, arroz zambito, aji, Sopa teologa, Shikashika, Kola Real, King Kong milk candy, Guagua de pan.
 - **Argentina** (low; 10 ready, 0 to review): pebete, Salsa golf, Provoleta, Patay, Fugazza, Fernet and Coke, Cremoso cheese, Chocotorta.
+- **Brazil** (high; 6 ready, 0 to review): tapioca pudding, pão francês, Xis, Mané pelado, Colony cheese, Beirut sandwich.
 - **Venezuela** (recipes only; 6 ready, 0 to review): pabellón criollo, Tequeño, Pisca Andina, Mandoca, Cachitos, Cachapa.
-- **Brazil** (high; 5 ready, 0 to review): pão francês, Xis, Mané pelado, Colony cheese, Beirut sandwich.
 - **Paraguay** (absent; 0 ready, 5 to review): soyo, piracaldo, kosereva, kamby arro, Mbejú paraguayo.
 - **Chile** (medium; 4 ready, 0 to review): chanco cheese, Pastel de jaiba, Conejito, Chilean salad.
 - **Trinidad and Tobago** (low; 3 ready, 0 to review): doubles, Buljol, Aloo pie.

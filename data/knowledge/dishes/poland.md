@@ -205,6 +205,7 @@ Learn more:
 
 - quick: [Carrot salad (Wikipedia)](https://en.wikipedia.org/wiki/Carrot_salad)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Carrot salad (Open Library)](https://openlibrary.org/search?q=Carrot%20salad)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17080719)
 
@@ -792,6 +793,27 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10969752)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q10969752) (CC0); [Wikipedia: Miodek turecki](https://en.wikipedia.org/wiki/Miodek_turecki) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Miodownik
+
+In Polish cuisine, miodownik or stefanka is a type of layer cake flavoured with honey, similar to cakes in other Slavic cuisines such as the Russian medovik and Czech medovnik.
+
+- From: Poland
+- Origin (Wikidata): Galicia
+
+Fun facts:
+
+- (origin) The recipe for miodownik originates from Galicia (Southeastern Poland) and Central Poland.
+- (origin) Miodownik comes from Galicia.
+
+Learn more:
+
+- quick: [Miodownik (Wikipedia)](https://en.wikipedia.org/wiki/Miodownik)
+- more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- deep: [Books about Miodownik (Open Library)](https://openlibrary.org/search?q=Miodownik)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20033690)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q20033690) (CC0); [Wikipedia: Miodownik](https://en.wikipedia.org/wiki/Miodownik) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Mizeria
 

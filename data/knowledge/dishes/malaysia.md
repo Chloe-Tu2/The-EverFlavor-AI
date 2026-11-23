@@ -1038,7 +1038,7 @@ Keria Gula Melaka is a type of doughnut that is made of sweet potato and topped 
 
 - From: Malaysia
 - Origin (Wikidata): Malaysia
-- Ingredients (Wikidata): Sweet potato
+- Ingredients (Wikidata): sweet potato
 
 Fun facts:
 

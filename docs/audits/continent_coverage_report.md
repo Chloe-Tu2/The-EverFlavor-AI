@@ -1,4 +1,4 @@
-# Coverage by continent (2026-11-22)
+# Coverage by continent (2026-11-23)
 
 Read from the Global Culinary Atlas files (`data/knowledge/atlas/`, regions from Unicode CLDR) by `scripts/knowledge/continent_report.py`. How the score works: [global_culinary_atlas.md](global_culinary_atlas.md). **Audit only:** nothing is added or published.
 
@@ -12,7 +12,7 @@ Read from the Global Culinary Atlas files (`data/knowledge/atlas/`, regions from
 
 ## Africa
 
-29 of 60 countries and territories have a dish; 4 have recipes but no dish page; 9 versions of dishes we have are missing; the backlog holds 26 ready.
+29 of 60 countries and territories have a dish; 4 have recipes but no dish page; 9 versions of dishes we have are missing; the backlog holds 29 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
@@ -26,7 +26,7 @@ Recipes but no dish page: Congo, Kenya, Namibia, Sudan.
 
 ## Americas
 
-19 of 57 countries and territories have a dish; 9 have recipes but no dish page; 138 versions of dishes we have are missing; the backlog holds 60 blocked, 13 needs review, 231 ready.
+19 of 57 countries and territories have a dish; 9 have recipes but no dish page; 139 versions of dishes we have are missing; the backlog holds 60 blocked, 13 needs review, 232 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
@@ -39,7 +39,7 @@ Recipes but no dish page: Antigua and Barbuda, Aruba, Cayman Islands, Costa Rica
 
 ## Asia
 
-19 of 51 countries and territories have a dish; 8 have recipes but no dish page; 285 versions of dishes we have are missing; the backlog holds 20 blocked, 37 needs review, 524 ready.
+19 of 51 countries and territories have a dish; 8 have recipes but no dish page; 288 versions of dishes we have are missing; the backlog holds 20 blocked, 37 needs review, 527 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
@@ -53,7 +53,7 @@ Recipes but no dish page: Afghanistan, Armenia, Azerbaijan, Bangladesh, Laos, Ne
 
 ## Europe
 
-20 of 53 countries and territories have a dish; 8 have recipes but no dish page; 338 versions of dishes we have are missing; the backlog holds 68 blocked, 112 needs review, 689 ready.
+20 of 53 countries and territories have a dish; 8 have recipes but no dish page; 345 versions of dishes we have are missing; the backlog holds 68 blocked, 112 needs review, 698 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|

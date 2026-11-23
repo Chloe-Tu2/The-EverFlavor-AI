@@ -339,6 +339,27 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q4913849) (CC0); [Wikipedia: Binalot](https://en.wikipedia.org/wiki/Binalot) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Binangkal
+
+Binangkal is a type of doughnut from the islands of Visayas and Mindanao in the Philippines.
+
+- From: Philippines
+- Origin (Wikidata): Philippines
+- Ingredients (Wikidata): flour
+
+Fun facts:
+
+- (origin) Binangkal comes from the Philippines.
+
+Learn more:
+
+- quick: [Binangkal (Wikipedia)](https://en.wikipedia.org/wiki/Binangkal)
+- more: [List of Filipino dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Filipino_dishes)
+- deep: [Books about Binangkal (Open Library)](https://openlibrary.org/search?q=Binangkal)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28449101)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q28449101) (CC0); [Wikipedia: Binangkal](https://en.wikipedia.org/wiki/Binangkal) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Binignit
 
 Binignit is a Visayan dessert soup from the central Philippines.
@@ -1041,7 +1062,7 @@ Maja blanca is a Filipino dessert with a gelatin-like consistency made primarily
 
 - From: Philippines
 - Origin (Wikidata): Philippines
-- Ingredients (Wikidata): coconut milk
+- Ingredients (Wikidata): coconut milk, corn starch
 
 Fun facts:
 
@@ -2230,6 +2251,7 @@ Learn more:
 
 - quick: [Calabaza (Wikipedia)](https://en.wikipedia.org/wiki/Calabaza)
 - more: [List of Filipino dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Filipino_dishes)
+- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
 - deep: [Books about Calabaza (Open Library)](https://openlibrary.org/search?q=Calabaza)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5347761)
 
@@ -2261,7 +2283,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q59786106) (CC0); [Wikipedia: 
 Camote cue or camotecue is a popular snack food in the Philippines made from camote (sweet potato).
 
 - From: Philippines
-- Ingredients (Wikidata): Sweet potato
+- Ingredients (Wikidata): sweet potato
 
 Fun facts:
 

@@ -1,4 +1,4 @@
-# Coverage: Africa (2026-11-22)
+# Coverage: Africa (2026-11-23)
 
 Back to [world coverage](coverage_world.md).
 
@@ -32,7 +32,7 @@ Back to [world coverage](coverage_world.md).
 | Mozambique | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
 | Rwanda | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
 | South Sudan | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
-| Kenya | recipes only | 0 | 0 | 0 | 0 | 4 | 1 | 0% |
+| Kenya | recipes only | 0 | 0 | 0 | 0 | 4 | 2 | 0% |
 | Burundi | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Comoros | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Djibouti | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
@@ -55,8 +55,8 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Nigeria | high | 50 | 7 | 7 | 16 | 32 | 6 | 89% |
-| Senegal | low | 8 | 1 | 2 | 2 | 0 | 0 | 100% |
+| Nigeria | high | 50 | 7 | 9 | 20 | 32 | 8 | 86% |
+| Senegal | low | 8 | 1 | 3 | 3 | 0 | 0 | 100% |
 | Ghana | low | 4 | 1 | 3 | 3 | 0 | 1 | 80% |
 | Benin | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
 | Cape Verde | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
@@ -74,12 +74,12 @@ Back to [world coverage](coverage_world.md).
 
 ## Countries with the most to add
 
-- **Nigeria** (high; 6 ready, 0 to review): goat meat pepper soup, Owo soup, Okoho, Ofe Oha, Gbegiri, Afia Efere.
+- **Nigeria** (high; 8 ready, 0 to review): goat meat pepper soup, Pawpaw soup, Owo soup, Okoho, Ofé Olugbo, Ofe Oha, Gbegiri, Afia Efere.
 - **Uganda** (low; 3 ready, 0 to review): Luwombo, Kikalayi, Eshabwe.
+- **Kenya** (recipes only; 2 ready, 0 to review): Mursik, Kenyan cheese.
 - **Madagascar** (absent; 2 ready, 0 to review): Romazava, Koba.
 - **Tanzania** (low; 1 ready, 0 to review): Kunga cake.
 - **Malawi** (low; 1 ready, 0 to review): usipa.
-- **Kenya** (recipes only; 1 ready, 0 to review): Kenyan cheese.
 - **South Africa** (medium; 1 ready, 0 to review): rooibos.
 - **Ghana** (low; 1 ready, 0 to review): Abunuabunu.
 - **Mali** (absent; 1 ready, 0 to review): Ngome.

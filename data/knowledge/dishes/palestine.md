@@ -17,6 +17,7 @@ Learn more:
 
 - quick: [Arab salad (Wikipedia)](https://en.wikipedia.org/wiki/Arab_salad)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Arab salad (Open Library)](https://openlibrary.org/search?q=Arab%20salad)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4783300)
 
@@ -481,6 +482,7 @@ Learn more:
 
 - quick: [Zalabiyeh (Wikipedia)](https://en.wikipedia.org/wiki/Zalabiyeh)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Zalabiyeh (Open Library)](https://openlibrary.org/search?q=Zalabiyeh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q96067581)
 
@@ -610,6 +612,7 @@ Learn more:
 
 - quick: [Qamar al-din (Wikipedia)](https://en.wikipedia.org/wiki/Qamar_al-din)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Qamar al-din (Open Library)](https://openlibrary.org/search?q=Qamar%20al-din)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1808843)
 

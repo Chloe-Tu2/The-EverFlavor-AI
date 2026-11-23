@@ -1010,7 +1010,7 @@ Bubur pedas is a traditional porridge dish for the Malays both in Sambas, West K
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): rice, table salt, Cymbopogon citratus, Sweet potato, chili pepper, Engraulidae, bamboo shoots, coconut, peanut, coriander seed
+- Ingredients (Wikidata): rice, table salt, Cymbopogon citratus, sweet potato, chili pepper, Engraulidae, bamboo shoots, coconut, peanut, coriander seed
 
 Fun facts:
 
@@ -2132,7 +2132,7 @@ Karedok is a raw vegetable salad in peanut sauce from Sundanese region, West Jav
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): sugar, table salt, Cucumis sativus, chili pepper, Pachyrhizus erosus, Holy Basil, Kaempferia galanga, shrimp paste, Indonesian peanut sauces, peanut
+- Ingredients (Wikidata): sugar, table salt, Cucumis sativus, Solanaceae, chili pepper, Pachyrhizus erosus, Holy Basil, Kaempferia galanga, shrimp paste, Indonesian peanut sauces
 
 Fun facts:
 
@@ -2319,7 +2319,7 @@ Kolak (or kolek) is an Indonesian sweet dessert based on palm sugar or coconut s
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): banana, Sweet potato, Pandanus amaryllifolius, coconut milk, palm sugar, brown sugar
+- Ingredients (Wikidata): banana, sweet potato, Pandanus amaryllifolius, coconut milk, palm sugar, brown sugar
 
 Fun facts:
 
@@ -5807,7 +5807,7 @@ Tinutuan, also known as bubur manado or Manadonese porridge, is a specialty of t
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): water, table salt, Sweet potato, water spinach, salt-cured meat, Oryza, tapioca, Holy Basil, corncob, Cucurbita
+- Ingredients (Wikidata): water, table salt, sweet potato, water spinach, salt-cured meat, Oryza, tapioca, Holy Basil, corncob, Cucurbita
 
 Fun facts:
 
@@ -6045,7 +6045,7 @@ Ang ku kueh, also known as red tortoise cake, is a small round or oval-shaped sw
 
 - From: Indonesia
 - Origin (Wikidata): China
-- Ingredients (Wikidata): sugar, Sweet potato, glutinous rice, Vigna radiata, peanut
+- Ingredients (Wikidata): sugar, sweet potato, glutinous rice, Vigna radiata, peanut
 
 Fun facts:
 
@@ -7776,6 +7776,7 @@ Learn more:
 
 - quick: [Tamarind juice (Wikipedia)](https://en.wikipedia.org/wiki/Tamarind_juice)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
 - deep: [Books about Tamarind juice (Open Library)](https://openlibrary.org/search?q=Tamarind%20juice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q117037449)
 

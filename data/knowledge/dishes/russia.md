@@ -200,6 +200,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1455040) (CC0); [Wikipedia: C
 Chicken Kiev, also known as chicken Kyiv, is a dish made of chicken fillet pounded and rolled around cold butter, then coated with egg and bread crumbs, and either fried or baked.
 
 - From: Russia
+- Origin (Wikidata): Russian Empire
 - Since: 1800-
 - Named after: Kyiv
 - Ingredients (Wikidata): butter, bread crumbs, chicken as food
@@ -212,6 +213,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (origin) Chicken Kiev comes from Russian Empire.
 - (culture) Since the 18th century, Russian chefs have adopted many techniques of French haute cuisine and combined them with the local culinary tradition.
 - (history) In particular, the use of high quality meat cuts, such as various cutlets, steaks, escalopes and suprêmes became widespread in the 19th century, and a number of original dishes involving such components were developed in Russia at that time.
 

@@ -23,6 +23,26 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q19949631) (CC0); [Wikipedia: Aguachile](https://en.wikipedia.org/wiki/Aguachile) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Al ajillo
+
+Al ajillo is a typical cooking style utilizing garlic in the cuisines of the Spanish-speaking world.
+
+- From: Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (origin) Al ajillo comes from Mexico.
+
+Learn more:
+
+- quick: [Al ajillo (Wikipedia)](https://en.wikipedia.org/wiki/Al_ajillo)
+- more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- deep: [Books about Al ajillo (Open Library)](https://openlibrary.org/search?q=Al%20ajillo)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20748070)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q20748070) (CC0); [Wikipedia: Al ajillo](https://en.wikipedia.org/wiki/Al_ajillo) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Alfajor
 
 An alfajor or alajú is a traditional confection.
@@ -1555,7 +1575,7 @@ Pollo a la brasa, pollo asado, blackened chicken, or charcoal chicken is a varie
 
 - From: Mexico
 - Origin (Wikidata): Peru
-- Ingredients (Wikidata): chicken as food
+- Ingredients (Wikidata): spice, chili pepper, chicken as food
 
 Fun facts:
 
@@ -1772,6 +1792,7 @@ Learn more:
 
 - quick: [Shaved ice (Wikipedia)](https://en.wikipedia.org/wiki/Shaved_ice)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Shaved ice (Open Library)](https://openlibrary.org/search?q=Shaved%20ice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7491078)
 
@@ -1985,6 +2006,44 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16882443)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q16882443) (CC0); [Wikipedia: Frijoles Puercos](https://en.wikipedia.org/wiki/Frijoles_Puercos) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Burrito
+
+A burrito is a dish in Mexican and Tex-Mex cuisine that took form in Ciudad Juárez, consisting of a flour tortilla wrapped into a sealed cylindrical shape around various ingredients.
+
+- From: Guanajuato, Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): wheat tortilla, stuffing
+
+Fun facts:
+
+- (inspiration) An often repeated piece of folk history is the story of a man named Juan Méndez who sold tacos at a street stand in the Bella Vista neighborhood of Ciudad Juárez during the Mexican Revolution period (1910–1921), while using a donkey as a transport for himself and his food.
+- (origin) Sonoran historian and politician, Horacio Sorbazo Díaz, explained that the term originated in Sonora where some dubious taco stands would sell donkey meat instead of beef, and people, maliciously, began calling tacos "burritos" implying they were made with donkey meat.
+- (history) Before the development of the modern burrito, the Maya civilization of Mexico used corn tortillas as early as 1500 BC to wrap foods, with fillings of chili peppers, tomatoes, mushrooms, squash, and avocados.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 1895 Diccionario de Mejicanismos by Feliz Ramos i Duarte, burrito was identified as the regional name given in the Mexican state of Guanajuato to what is known as a taco in other regions: Burrito: Tortilla arrollada, con carne u otra cosa dentro, que en Yucatán llaman coçito, y en Cuernavaca y en Mexico, taco.
+- (history) References to burritos made with corn tortillas appear as late as 1938 in California.
+- (history) Ana Bégué de Packman, author of the book Early California Hospitality (1938), wrote that corn and flour tortillas could be used interchangeably for making burritos.
+- (origin) Stemming from the view that burritos are distinct from tacos, there are many explanations and folk stories about the origin of burritos, most of them originating in the United States.
+- (about) Historically, burrito (or burro) was a regional name in Mexico for what in other parts of the country is known as a taco (a tortilla filled with food).
+- (about) The term burrito was regional, specifically from Guanajuato, Guerrero, Michoacán, San Luis Potosí, Sonora and Sinaloa, for what is known as a taco in Mexico City and surrounding areas, and codzito in Yucatán and Quintana Roo.
+- (about) In Central and Southern Mexico, burritos are still considered tacos, and are known as tacos de harina ("wheat flour tacos").
+- (about) Dried beef is very popular in Sonora, and it has been observed on some occasions that, taking advantage of this circumstance, dried donkey meat is fraudulently sold.
+- (about) Being that burrito or burro was originally a regional name for what is known as a taco or codzito in other regions of Mexico, the use of both corn and wheat flour tortillas was understandable.
+- (about) Currently, wheat flour tortilla burritos are known as "tacos de harina" (wheat flour tacos) in Central and Southern Mexico.
+- (origin) Burrito comes from Mexico.
+- (about) Not to be confused with taco, enchilada, taquito, tostada, gordita, taco acorazado.
+
+Learn more:
+
+- quick: [Burrito (Wikipedia)](https://en.wikipedia.org/wiki/Burrito)
+- more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
+- deep: [Books about Burrito (Open Library)](https://openlibrary.org/search?q=Burrito)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q390823)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q390823) (CC0); [Wikipedia: Burrito](https://en.wikipedia.org/wiki/Burrito) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Memela
 
@@ -2251,6 +2310,27 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6024261) (CC0); [Wikipedia: Morisqueta](https://en.wikipedia.org/wiki/Morisqueta) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Marquesote
+
+Marquesote is a traditional bread that forms part of the Mexican cuisine.
+
+- From: Oaxaca, Mexico
+- Origin (Wikidata): Mexico
+
+Fun facts:
+
+- (about) Marquesote is popular in some specific states in Mexico, including Oaxaca, Chiapas, Veracruz, and Puebla.
+- (origin) Marquesote comes from Mexico.
+
+Learn more:
+
+- quick: [Marquesote (Wikipedia)](https://en.wikipedia.org/wiki/Marquesote)
+- more: [Salvadoran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Salvadoran_cuisine)
+- deep: [Books about Marquesote (Open Library)](https://openlibrary.org/search?q=Marquesote)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q24960939)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q24960939) (CC0); [Wikipedia: Marquesote](https://en.wikipedia.org/wiki/Marquesote) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Pastel azteca
 
 Pastel azteca is a traditional Mexican dish made with alternating layers of fried corn tortillas, tomato sauce, poblano pepper strips, corn kernels, onion strips, cream, and Oaxaca cheese or Chihuahua cheese.
@@ -2407,6 +2487,7 @@ Learn more:
 
 - quick: [Cemita (Wikipedia)](https://en.wikipedia.org/wiki/Cemita)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Salvadoran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Salvadoran_cuisine)
 - deep: [Books about Cemita (Open Library)](https://openlibrary.org/search?q=Cemita)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q109353074)
 
@@ -2629,6 +2710,7 @@ Learn more:
 
 - quick: [Salbute (Wikipedia)](https://en.wikipedia.org/wiki/Salbute)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
 - deep: [Books about Salbute (Open Library)](https://openlibrary.org/search?q=Salbute)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16900667)
 
@@ -3195,6 +3277,7 @@ Learn more:
 
 - quick: [Licuado (Wikipedia)](https://en.wikipedia.org/wiki/Licuado)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Licuado (Open Library)](https://openlibrary.org/search?q=Licuado)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6543549)
 
@@ -3271,6 +3354,39 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11690488)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q11690488) (CC0); [Wikipedia: Manjar blanco](https://en.wikipedia.org/wiki/Manjar_blanco) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Masa
+
+Masa or masa de maíz is a dough made from ground nixtamalized corn.
+
+- From: Mexico
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): cornmeal
+
+Fun facts:
+
+- (about) Masa can be dried and ground into a flour known as harina de maíz or masa harina.
+- (culture) Today, masa continues to be widely used in Mexican and Central American cuisines and is an important component of traditional foods such as tortillas, tamales, pupusas and gorditas.
+- (origin) Masa comes from Mexico.
+
+More fun facts (when the user asks for more):
+
+- (about) The development and commercialization of dried masa flour, commonly known as masa harina, allowed consumers to prepare masa by adding water rather than grinding freshly cooked maize.
+- (about) Not to be confused with Masa people.
+- (history) Although the precise date and location of the invention of nixtamalization remain uncertain, archaeological research has provided direct evidence of the practice among ancient Maya communities.
+- (culture) The development of nixtamalization, the process of cooking and soaking maize kernels in an alkaline solution, was an important innovation in traditional Mesoamerican food preparation.
+- (about) In 2022, researchers identified microscopic starch residues associated with nixtamalized maize in archaeological deposits at San Bartolo, in the Petén region of Guatemala.
+- (culture) Following European colonization in the 16 century, maize-based foods and traditional preparation techniques continued to be used throughout Mexico and Central America.
+- (culture) Industrial production retained the fundamental principles of traditional nixtamalization while introducing mechanized cooking, grinding and drying processes.
+
+Learn more:
+
+- quick: [Masa (Wikipedia)](https://en.wikipedia.org/wiki/Masa)
+- more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
+- deep: [Books about Masa (Open Library)](https://openlibrary.org/search?q=Masa)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1006089)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1006089) (CC0); [Wikipedia: Masa](https://en.wikipedia.org/wiki/Masa) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Mexican Coke
 
@@ -3599,6 +3715,7 @@ Learn more:
 
 - quick: [Tepache (Wikipedia)](https://en.wikipedia.org/wiki/Tepache)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Tepache (Open Library)](https://openlibrary.org/search?q=Tepache)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1888644)
 
