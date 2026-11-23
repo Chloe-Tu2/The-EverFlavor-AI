@@ -23,9 +23,8 @@ the data.
 2. **Screenshots:** the README shows the banner and art but no screenshot of the kitchen, a recipe card or the map.
 3. **Length:** 740 lines. "Data Sources" repeats `docs/sources.md`, and "Project Structure" repeats the folder
    READMEs; both could become short tables with links.
-4. **Folder READMEs still missing:** `src/everflavor/domain/` (the entities and the Food Graph; today described in
-   `src/everflavor/README.md`) and a page for the safety engine (no `safety/` folder exists: `flags.py`,
-   `safety.py`, `recommend.py` sit in `src/everflavor/`). Each should say purpose, inputs, outputs,
-   dependencies, owner and future work, as `docs/governance/README.md` does.
+4. **A page for the safety engine** is still missing (no `safety/` folder exists: `flags.py`, `safety.py`,
+   `recommend.py` sit in `src/everflavor/`). It should say purpose, inputs, outputs, dependencies, owner and
+   future work, as `src/everflavor/domain/README.md` (added 2026-11-22) does.
 5. **The badges** list CrewAI, scikit-learn and Kaggle; check that each is still used, so the top of the page is
    not out of date.
