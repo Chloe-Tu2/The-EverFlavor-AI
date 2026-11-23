@@ -113,8 +113,17 @@ kenya,Kenya,country,east_africa,,kenyan
 botswana,Botswana,country,southern_africa,,motswana
 namibia,Namibia,country,southern_africa,,namibian
 syria,Syria,country,levant,,syrian
+israel,Israel,country,levant,,israeli
+jordan,Jordan,country,levant,,jordanian
+yemen,Yemen,country,arabian_peninsula,,yemeni
+oman,Oman,country,arabian_peninsula,,omani
+united_arab_emirates,United Arab Emirates,country,arabian_peninsula,,emirati
+qatar,Qatar,country,arabian_peninsula,,qatari
+kuwait,Kuwait,country,arabian_peninsula,,kuwaiti
+bahrain,Bahrain,country,arabian_peninsula,,bahraini
 armenia,Armenia,country,caucasus,,armenian
 azerbaijan,Azerbaijan,country,caucasus,,azerbaijani
+georgia,Georgia,country,caucasus,,georgian
 albania,Albania,country,mediterranean_europe,,albanian
 croatia,Croatia,country,mediterranean_europe,,croatian
 andorra,Andorra,country,mediterranean_europe,,andorran

@@ -75,3 +75,13 @@ def test_every_recipe_country_is_in_the_tree() -> None:
     countries = set(pd.read_parquet(data, columns=["origin_country"])["origin_country"].dropna()) - {"Unknown"}
     known = {n.name for n in TAX.nodes.values() if n.level == "country"}
     assert not countries - known, sorted(countries - known)
+
+
+def test_the_middle_eastern_kitchen_follows_the_place_tree() -> None:
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "app"))
+    from themes import kitchen_countries
+    kitchens = kitchen_countries(TAX)
+    before = {"Lebanon", "Turkey", "Iran", "Egypt", "Saudi Arabia", "Iraq", "Palestine", "Israel", "Syria"}
+    assert all(kitchens[c] == "Middle Eastern" for c in before)                 # no country lost its kitchen
+    assert {"Jordan", "Yemen", "Oman", "Armenia", "Georgia"} <= set(kitchens)   # the tree's regions, and the Caucasus
+    assert "Morocco" not in kitchens and TAX.node_for("Egypt") == "egypt"        # Egypt stays North Africa in the tree

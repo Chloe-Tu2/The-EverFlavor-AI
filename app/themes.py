@@ -1,5 +1,11 @@
 """The kitchens' page colors (app/app.py). Kept apart from the page so tests/test_app_contrast.py can check
 every pair of colors is readable (WCAG AA) without starting Streamlit."""
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from everflavor.taxonomy import Taxonomy
 
 # The kitchens. "Classic" is Eva's cooking-game palette and the default. Each has its own kitchen picture (scene)
 # and the colors of the page drawn over it. The time of day (Settings) is the kitchen's light, not a kitchen of its
@@ -33,3 +39,22 @@ THEMES = {
 # The page's colors for the Classic kitchen at night (the former Night theme): easier on the eyes in the dark
 NIGHT_COLORS = {"panel": "#2A2138", "sidebar": "#241C31", "border": "#FF8FAB", "text": "#F3E9F5", "heading": "#FFD98A",
                 "button": "#FF8FAB", "button_hover": "#FF6F95", "shadow": "#120D1A", "bubble": "#3A2E4A"}
+
+# A kitchen is a theme (a look and a mood), not a data model (decided by med27-coder, 2026-11-22): the place tree
+# (data/reference/food_taxonomy.csv) guides which countries open a kitchen, but a theme may reach wider than one
+# food region. The Middle Eastern kitchen: its food regions first, then the Caucasus and Egypt (North Africa in the
+# tree), which people often think of as Middle Eastern food and which have no kitchen of their own yet.
+KITCHEN_REGIONS: dict[str, dict[str, tuple[str, ...]]] = {
+    "Middle Eastern": {"primary_regions": ("levant", "anatolia", "persian_region", "mesopotamia", "arabian_peninsula"),
+                       "secondary_regions": ("caucasus",), "countries": ("Egypt",)},
+}
+
+
+def kitchen_countries(taxonomy: Taxonomy) -> dict[str, str]:
+    """Country -> kitchen for the kitchens defined by food regions (KITCHEN_REGIONS), read off the place tree."""
+    out: dict[str, str] = {}
+    for kitchen, spec in KITCHEN_REGIONS.items():
+        for slug in (*spec["primary_regions"], *spec["secondary_regions"]):
+            out.update(dict.fromkeys(taxonomy.countries_in(slug), kitchen))
+        out.update(dict.fromkeys(spec.get("countries", ()), kitchen))
+    return out
