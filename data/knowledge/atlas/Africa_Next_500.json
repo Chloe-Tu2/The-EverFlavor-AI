@@ -1,6 +1,6 @@
 {
  "about": {
-  "built_on": "2026-11-22",
+  "built_on": "2026-11-23",
   "by": "scripts/knowledge/atlas_audit.py",
   "regions": {
    "name": "Unicode CLDR territory containment (UN M49 regions)",
@@ -12,7 +12,7 @@
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
  "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
- "count": 26,
+ "count": 29,
  "dishes": [
   {
    "dish": "Kenyan cheese",
@@ -27,7 +27,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q46477992",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -50,7 +50,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q16648323",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -73,7 +73,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q56342268",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -96,7 +96,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q64490692",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -119,7 +119,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q17107651",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -142,7 +142,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q5447680",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -165,7 +165,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q7022523",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -188,7 +188,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q28197217",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -199,23 +199,23 @@
    ]
   },
   {
-   "dish": "Kabkabou",
-   "wikidata": "Q16248468",
-   "country": "Tunisia",
+   "dish": "Mafrum",
+   "wikidata": "Q6585018",
+   "country": "Libya",
    "subregion": "Northern Africa",
    "families": [
-    "ragout"
+    "stuffed vegetable"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16248468",
+     "url": "https://www.wikidata.org/wiki/Q6585018",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kabkabou",
+     "url": "https://en.wikipedia.org/wiki/Mafrum",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -234,7 +234,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q113039087",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -257,7 +257,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q54165556",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -268,23 +268,23 @@
    ]
   },
   {
-   "dish": "Matlou",
-   "wikidata": "Q12243625",
-   "country": "Algeria",
+   "dish": "Kabkabou",
+   "wikidata": "Q16248468",
+   "country": "Tunisia",
    "subregion": "Northern Africa",
    "families": [
-    "bread"
+    "ragout"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12243625",
+     "url": "https://www.wikidata.org/wiki/Q16248468",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Matloue",
+     "url": "https://en.wikipedia.org/wiki/Kabkabou",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -303,7 +303,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q85735249",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -326,11 +326,80 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q123171413",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Luwombo",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Matlou",
+   "wikidata": "Q12243625",
+   "country": "Algeria",
+   "subregion": "Northern Africa",
+   "families": [
+    "bread"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q12243625",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Matloue",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Ofe Oha",
+   "wikidata": "Q107357988",
+   "country": "Nigeria",
+   "subregion": "Western Africa",
+   "families": [
+    "soup"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q107357988",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ofe_Oha",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Mursik",
+   "wikidata": "Q6939691",
+   "country": "Kenya",
+   "subregion": "Eastern Africa",
+   "families": [
+    "fermented milk"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q6939691",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mursik",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -350,7 +419,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q211361",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -361,23 +430,23 @@
    ]
   },
   {
-   "dish": "Ofe Oha",
-   "wikidata": "Q107357988",
+   "dish": "Ofé Olugbo",
+   "wikidata": "Q100285178",
    "country": "Nigeria",
    "subregion": "Western Africa",
    "families": [
-    "soup"
+    "meat soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q107357988",
+     "url": "https://www.wikidata.org/wiki/Q100285178",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ofe_Oha",
+     "url": "https://en.wikipedia.org/wiki/Ofe_onugbu",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -396,7 +465,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q3441149",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -407,23 +476,23 @@
    ]
   },
   {
-   "dish": "Mafrum",
-   "wikidata": "Q6585018",
-   "country": "Tunisia",
+   "dish": "Derssa",
+   "wikidata": "Q16628511",
+   "country": "Algeria",
    "subregion": "Northern Africa",
    "families": [
-    "stuffed vegetable"
+    "hot sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6585018",
+     "url": "https://www.wikidata.org/wiki/Q16628511",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mafrum",
+     "url": "https://en.wikipedia.org/wiki/Derssa",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -442,7 +511,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q47004974",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -465,7 +534,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q18353987",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -476,23 +545,23 @@
    ]
   },
   {
-   "dish": "Derssa",
-   "wikidata": "Q16628511",
-   "country": "Algeria",
+   "dish": "torshi",
+   "wikidata": "Q12012266",
+   "country": "Egypt",
    "subregion": "Northern Africa",
    "families": [
-    "hot sauce"
+    "pickle"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16628511",
+     "url": "https://www.wikidata.org/wiki/Q12012266",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Derssa",
+     "url": "https://en.wikipedia.org/wiki/Torshi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -511,7 +580,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q17109263",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -534,7 +603,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q132661273",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
@@ -545,23 +614,47 @@
    ]
   },
   {
-   "dish": "torshi",
-   "wikidata": "Q12012266",
-   "country": "Egypt",
+   "dish": "argan oil",
+   "wikidata": "Q45418",
+   "country": "Algeria",
    "subregion": "Northern Africa",
    "families": [
-    "pickle"
+    "cooking oil",
+    "seed oil"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12012266",
+     "url": "https://www.wikidata.org/wiki/Q45418",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Torshi",
+     "url": "https://en.wikipedia.org/wiki/Argan_oil",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Pawpaw soup",
+   "wikidata": "Q112967822",
+   "country": "Nigeria",
+   "subregion": "Western Africa",
+   "families": [
+    "meat soup"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q112967822",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pawpaw_soup",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -580,35 +673,11 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q25220535",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
+     "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Goat_meat_pepper_soup",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "argan oil",
-   "wikidata": "Q45418",
-   "country": "Algeria",
-   "subregion": "Northern Africa",
-   "families": [
-    "seed oil",
-    "cooking oil"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q45418",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Argan_oil",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

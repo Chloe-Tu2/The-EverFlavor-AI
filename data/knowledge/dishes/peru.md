@@ -319,7 +319,7 @@ Picarones (or picarón singular) is a Peruvian dessert that originated in Lima d
 
 - From: Peru
 - Origin (Wikidata): Peru
-- Ingredients (Wikidata): Sweet potato, Cucurbita maxima, wheat flour, fig, panela
+- Ingredients (Wikidata): sweet potato, Cucurbita maxima, wheat flour, fig, panela
 
 Fun facts:
 

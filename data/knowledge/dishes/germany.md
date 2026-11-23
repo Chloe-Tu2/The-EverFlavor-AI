@@ -108,7 +108,7 @@ Bavarian cream, crème bavaroise or simply bavarois is a French dessert consisti
 
 - From: Germany
 - Origin (Wikidata): France
-- Ingredients (Wikidata): milk, egg as food
+- Ingredients (Wikidata): milk, egg as food, gelatin, whipped cream
 
 Fun facts:
 
@@ -730,6 +730,21 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q753053) (CC0); [Wikipedia: Gummy bear](https://en.wikipedia.org/wiki/Gummy_bear) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Hamburger Speck
+
+Hamburger Speck is a type of candy made out of foamed sugar with various coatings.
+
+- From: Germany
+
+Learn more:
+
+- quick: [Hamburger Speck (Wikipedia)](https://en.wikipedia.org/wiki/Hamburger_Speck)
+- more: [List of German dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_German_dishes)
+- deep: [Books about Hamburger Speck (Open Library)](https://openlibrary.org/search?q=Hamburger%20Speck)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1573141)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1573141) (CC0); [Wikipedia: Hamburger Speck](https://en.wikipedia.org/wiki/Hamburger_Speck) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Hasenpfeffer
 
 Hasenpfeffer is a traditional stew in Dutch and German cuisine made from marinated hare or rabbit meat, cut into stewing-meat sized pieces and braised with onions and a marinade made from wine and vinegar.
@@ -757,7 +772,7 @@ Himmel und Erde ('Heaven and earth') is a traditional German dish of mashed pota
 
 - From: Germany
 - Named after: heaven and earth
-- Ingredients (Wikidata): apple, mashed potato, potato
+- Ingredients (Wikidata): apple, blood sausage, mashed potato
 
 Fun facts:
 
@@ -3143,6 +3158,7 @@ Learn more:
 
 - quick: [Sprite (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Sprite_%28drink%29)
 - more: [German cuisine (Wikipedia)](https://en.wikipedia.org/wiki/German_cuisine)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Sprite (drink) (Open Library)](https://openlibrary.org/search?q=Sprite%20%28drink%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q206978)
 

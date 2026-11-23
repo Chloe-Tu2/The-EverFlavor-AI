@@ -155,6 +155,33 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q669996) (CC0); [Wikipedia: Kuku (food)](https://en.wikipedia.org/wiki/Kuku_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Nisholda
+
+Nisholda, also spelled as nishallo, nishaldo, or nisholda is a sweet dish that resembles white jam, only thicker.
+
+- From: Iran
+- Origin (Wikidata): Iran, Afghanistan, Soviet Central Asia
+- Ingredients (Wikidata): water, sugar, egg as food, citric acid, soap root
+
+Fun facts:
+
+- (about) Nisholda is popular in Afghan, Iranian, Tajik, and Uzbek cuisines.
+- (culture) Nisholda is also a traditional dish among the Bukharan (Central Asian, Samarkand) Jews.
+- (origin) Nisholda comes from Iran, Afghanistan, Soviet Central Asia.
+
+More fun facts (when the user asks for more):
+
+- (culture) Nisholda is traditionally prepared during the month of Ramadan (Ramazan) and consumed by those who fast during iftar, along with breads, and washed down with hot tea (usually green).
+
+Learn more:
+
+- quick: [Nisholda (Wikipedia)](https://en.wikipedia.org/wiki/Nisholda)
+- more: [List of Uzbek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Uzbek_dishes)
+- deep: [Books about Nisholda (Open Library)](https://openlibrary.org/search?q=Nisholda)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12556365)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q12556365) (CC0); [Wikipedia: Nisholda](https://en.wikipedia.org/wiki/Nisholda) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Sabzi polo
 
 Sabzi polo is a Persian dish of rice and chopped herbs, usually served with fish.
@@ -181,6 +208,34 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2293551)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2293551) (CC0); [Wikipedia: Sabzi polo](https://en.wikipedia.org/wiki/Sabzi_polo) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Samanu
+
+Samanu, samanak, sümelek, sumanak, sumalak, or sümölök is a sweet paste made from germinated wheat (young wheatgrass) and wheat flour, which is prepared especially for Nowruz (beginning of spring) in a large pot (like a kazan).
+
+- From: Iran
+- Origin (Wikidata): Iran
+
+Fun facts:
+
+- (culture) Although Samanu is prominent for "Haft-Sin" (the seven symbolic items traditionally displayed at Nowruz), the preparation "mela" (referring to a picnic) and eating it is traditional in Afghanistan.
+- (origin) Samanu comes from Iran.
+- (about) Not to be confused with Samanu, Samnu, Nauryz kozhe.
+
+More fun facts (when the user asks for more):
+
+- (culture) Traditional samanu is made entirely of germinated wheat and water, with no other ingredients.
+- (culture) Traditionally, the final cooking would take from evening until the daylight and was a party involving only women.
+- (culture) In Iranian tradition the whole gathering, mostly women, gather near the huge pot.
+
+Learn more:
+
+- quick: [Samanu (Wikipedia)](https://en.wikipedia.org/wiki/Samanu)
+- more: [List of Uzbek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Uzbek_dishes)
+- deep: [Books about Samanu (Open Library)](https://openlibrary.org/search?q=Samanu)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2216731)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2216731) (CC0); [Wikipedia: Samanu](https://en.wikipedia.org/wiki/Samanu) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Shirin polo
 

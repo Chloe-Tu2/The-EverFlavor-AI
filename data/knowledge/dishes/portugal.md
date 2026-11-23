@@ -508,7 +508,7 @@ Bolo do caco is a round flatbread traditionally produced on the islands of Madei
 
 - From: Portugal
 - Origin (Wikidata): Portugal
-- Ingredients (Wikidata): table salt, butter, Sweet potato, whole wheat bread, garlic
+- Ingredients (Wikidata): table salt, butter, sweet potato, whole wheat bread, garlic
 
 Fun facts:
 
@@ -1744,6 +1744,26 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q10394334) (CC0); [Wikipedia: Xarém](https://en.wikipedia.org/wiki/Xarém) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Azaruja sausage
+
+Azaruja sausage is a type of sausage from Azaruja, Évora, Alentejo, Portugal.
+
+- From: Portugal
+
+Fun facts:
+
+- (culture) The family recipes go back at least 150 years and the sausages are made in traditional home kitchens using Alentejan fireplaces.
+- (about) Alentejo black pig (more widely known as Iberian black pig).
+
+Learn more:
+
+- quick: [Azaruja sausage (Wikipedia)](https://en.wikipedia.org/wiki/Azaruja_sausage)
+- more: [List of Portuguese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Portuguese_dishes)
+- deep: [Books about Azaruja sausage (Open Library)](https://openlibrary.org/search?q=Azaruja%20sausage)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16949768)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16949768) (CC0); [Wikipedia: Azaruja sausage](https://en.wikipedia.org/wiki/Azaruja_sausage) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Bica (coffee)
 
 Bica is the term commonly used in certain areas of Portugal for a café ('coffee' in Portuguese) that is similar to espresso, but extracted to a greater volume than its Italian counterpart (akin to a lungo in Italy) and a little bit smoother in taste, due to the Portuguese roasting process being slightly lighter than the Italian one.
@@ -2166,6 +2186,7 @@ Learn more:
 
 - quick: [Piri piri (Wikipedia)](https://en.wikipedia.org/wiki/Piri_piri)
 - more: [List of Portuguese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Portuguese_dishes)
+- more: [Mozambican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mozambican_cuisine)
 - deep: [Books about Piri piri (Open Library)](https://openlibrary.org/search?q=Piri%20piri)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q512580)
 

@@ -1096,6 +1096,27 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q997642) (CC0); [Wikipedia: Buccellato](https://en.wikipedia.org/wiki/Buccellato) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Budino
+
+Budino is a sweet Italian dessert, usually rich and creamy like a custard or pudding.
+
+- From: Italy
+- Origin (Wikidata): Italy
+
+Fun facts:
+
+- (origin) Budino comes from Italy.
+- (about) Not to be confused with budyń.
+
+Learn more:
+
+- quick: [Budino (Wikipedia)](https://en.wikipedia.org/wiki/Budino)
+- more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- deep: [Books about Budino (Open Library)](https://openlibrary.org/search?q=Budino)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4985105)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4985105) (CC0); [Wikipedia: Budino](https://en.wikipedia.org/wiki/Budino) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Buridda
 
 Buridda is an Italian seafood soup or stew originally from the Liguria region of Italy.
@@ -1412,6 +1433,7 @@ Learn more:
 
 - quick: [Caponata (Wikipedia)](https://en.wikipedia.org/wiki/Caponata)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Caponata (Open Library)](https://openlibrary.org/search?q=Caponata)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1034806)
 
@@ -2291,6 +2313,7 @@ Learn more:
 
 - quick: [Cotoletta (Wikipedia)](https://en.wikipedia.org/wiki/Cotoletta)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Eritrean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Eritrean_cuisine)
 - deep: [Books about Cotoletta (Open Library)](https://openlibrary.org/search?q=Cotoletta)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11680910)
 
@@ -2926,6 +2949,7 @@ Learn more:
 
 - quick: [Frittata (Wikipedia)](https://en.wikipedia.org/wiki/Frittata)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Eritrean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Eritrean_cuisine)
 - deep: [Books about Frittata (Open Library)](https://openlibrary.org/search?q=Frittata)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1051155)
 
@@ -3609,6 +3633,7 @@ Learn more:
 
 - quick: [Lasagna (Wikipedia)](https://en.wikipedia.org/wiki/Lasagna)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Eritrean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Eritrean_cuisine)
 - deep: [Books about Lasagna (Open Library)](https://openlibrary.org/search?q=Lasagna)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20034)
 
@@ -4971,6 +4996,7 @@ Learn more:
 
 - quick: [Pasta salad (Wikipedia)](https://en.wikipedia.org/wiki/Pasta_salad)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Barbadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Barbadian_cuisine)
 - deep: [Books about Pasta salad (Open Library)](https://openlibrary.org/search?q=Pasta%20salad)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1052236)
 
@@ -5756,10 +5782,12 @@ Pizzaiola, also known as carne alla pizzaiola, is a dish derived from the Neapol
 
 - From: Italy
 - Origin (Wikidata): Italy
+- Named after: pizza
 - Ingredients (Wikidata): white wine, meat, olive oil, tomato paste, tomato, garlic, basil
 
 Fun facts:
 
+- (inspiration) Pizzaiola is named after pizza.
 - (origin) Pizzaiola comes from Italy.
 
 Learn more:
@@ -6687,7 +6715,7 @@ Fun facts:
 
 - (culture) Traditional Sicilian pizza is often thick-crusted and rectangular, but can also be round and similar to the Neapolitan pizza.
 - (origin) Sicilian pizza comes from Italy.
-- (about) Not to be confused with Sfincione PAT.
+- (about) Not to be confused with Sfincione.
 
 More fun facts (when the user asks for more):
 
@@ -9131,6 +9159,25 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q731543) (CC0); [Wikipedia: Caffè macchiato](https://en.wikipedia.org/wiki/Caffè_macchiato) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Calcagno (cheese)
+
+Calcagno is an Italian type of pecorino cheese prepared using raw sheep's milk and peppercorns.
+
+- From: Italy
+
+Fun facts:
+
+- (origin) Calcagno originated in Sardinia, and is prepared in Sardinia and Sicily.
+
+Learn more:
+
+- quick: [Calcagno (cheese) (Wikipedia)](https://en.wikipedia.org/wiki/Calcagno_%28cheese%29)
+- more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- deep: [Books about Calcagno (cheese) (Open Library)](https://openlibrary.org/search?q=Calcagno%20%28cheese%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q48773424)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q48773424) (CC0); [Wikipedia: Calcagno (cheese)](https://en.wikipedia.org/wiki/Calcagno_(cheese)) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Camporelli
 
 Camporelli or biscotti Camporelli is a light biscuit made with flour, sugar, and eggs.
@@ -9618,6 +9665,21 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5119160)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5119160) (CC0); [Wikipedia: Ciarduna](https://en.wikipedia.org/wiki/Ciarduna) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Ciarimbolo
+
+Ciarimbolo is an Italian meat produced from pig.
+
+- From: Italy
+
+Learn more:
+
+- quick: [Ciarimbolo (Wikipedia)](https://en.wikipedia.org/wiki/Ciarimbolo)
+- more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- deep: [Books about Ciarimbolo (Open Library)](https://openlibrary.org/search?q=Ciarimbolo)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5119157)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5119157) (CC0); [Wikipedia: Ciarimbolo](https://en.wikipedia.org/wiki/Ciarimbolo) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Cinnamon
 
@@ -10629,6 +10691,7 @@ Learn more:
 
 - quick: [Hazelnut (Wikipedia)](https://en.wikipedia.org/wiki/Hazelnut)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Hazelnut (Open Library)](https://openlibrary.org/search?q=Hazelnut)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q578307)
 
@@ -10707,6 +10770,7 @@ Learn more:
 
 - quick: [Lard (Wikipedia)](https://en.wikipedia.org/wiki/Lard)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
 - deep: [Books about Lard (Open Library)](https://openlibrary.org/search?q=Lard)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q72827)
 
@@ -12685,6 +12749,7 @@ Learn more:
 
 - quick: [Spinach (Wikipedia)](https://en.wikipedia.org/wiki/Spinach)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
 - deep: [Books about Spinach (Open Library)](https://openlibrary.org/search?q=Spinach)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q81464)
 

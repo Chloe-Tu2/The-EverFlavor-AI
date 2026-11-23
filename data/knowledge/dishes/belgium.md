@@ -938,6 +938,7 @@ Learn more:
 
 - quick: [Tartar sauce (Wikipedia)](https://en.wikipedia.org/wiki/Tartar_sauce)
 - more: [Belgian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belgian_cuisine)
+- more: [Barbadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Barbadian_cuisine)
 - deep: [Books about Tartar sauce (Open Library)](https://openlibrary.org/search?q=Tartar%20sauce)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q348947)
 

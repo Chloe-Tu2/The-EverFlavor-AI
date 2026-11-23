@@ -1,6 +1,6 @@
 {
  "about": "Wikidata images of our dishes that pass the photo pipeline's rules (free licence, an author to credit, a photo type, at least 400 px, not a map or drawing). Not downloaded and not shown: the pipeline fetches them when the team agrees, and a person checks each photo by eye.",
- "built_on": "2026-11-22",
+ "built_on": "2026-11-23",
  "by": "scripts/knowledge/image_queue.py",
  "asked": 1889,
  "approved": 1739,
@@ -1151,6 +1151,21 @@
    "width": 1315,
    "height": 962,
    "credit": "Photo of Meat pie: Georgian Recipes at Georgia About, CC BY 3.0, via Wikimedia Commons",
+   "status": "approved_for_collection"
+  },
+  {
+   "dish_id": "Q11343150",
+   "dish_name": "Muhallebi",
+   "country": "Greece",
+   "now_shows": "placeholder",
+   "priority": "high",
+   "commons_file": "Turkish muhallebi.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Turkish_muhallebi.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "E4024",
+   "width": 1024,
+   "height": 768,
+   "credit": "Photo of Muhallebi: E4024, CC BY-SA 4.0, via Wikimedia Commons",
    "status": "approved_for_collection"
   },
   {
@@ -8756,21 +8771,6 @@
    "width": 2440,
    "height": 2440,
    "credit": "Photo of Moustalevria: Reda Raouchaia, CC BY-SA 4.0, via Wikimedia Commons",
-   "status": "approved_for_collection"
-  },
-  {
-   "dish_id": "Q11343150",
-   "dish_name": "Muhallebi",
-   "country": "Greece",
-   "now_shows": "placeholder",
-   "priority": "medium",
-   "commons_file": "Turkish muhallebi.jpg",
-   "file_page": "https://commons.wikimedia.org/wiki/File:Turkish_muhallebi.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "E4024",
-   "width": 1024,
-   "height": 768,
-   "credit": "Photo of Muhallebi: E4024, CC BY-SA 4.0, via Wikimedia Commons",
    "status": "approved_for_collection"
   },
   {

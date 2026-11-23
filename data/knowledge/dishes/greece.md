@@ -1851,6 +1851,7 @@ Learn more:
 
 - quick: [Stuffed leaves (Wikipedia)](https://en.wikipedia.org/wiki/Stuffed_leaves)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Stuffed leaves (Open Library)](https://openlibrary.org/search?q=Stuffed%20leaves)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13434162)
 
@@ -2362,6 +2363,7 @@ Learn more:
 
 - quick: [Dried fruit (Wikipedia)](https://en.wikipedia.org/wiki/Dried_fruit)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
 - deep: [Books about Dried fruit (Open Library)](https://openlibrary.org/search?q=Dried%20fruit)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q234901)
 
@@ -3352,7 +3354,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1310859) (CC0); [Wikipedia: R
 Ribs of pork, beef, lamb, and venison are a cut of meat.
 
 - From: Greece
-- Ingredients (Wikidata): cattle, goat, sheep, Common ostrich, Bison, llama, water buffalo, alpaca, African buffalo, beefalo
+- Ingredients (Wikidata): cattle, goat, sheep, Common ostrich, Bison, llama, water buffalo, African buffalo, beefalo, Alligator
 
 Fun facts:
 

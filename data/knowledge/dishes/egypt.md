@@ -13,6 +13,7 @@ Learn more:
 
 - quick: [Eggah (Wikipedia)](https://en.wikipedia.org/wiki/Eggah)
 - more: [Egyptian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Egyptian_cuisine)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Eggah (Open Library)](https://openlibrary.org/search?q=Eggah)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3853746)
 
@@ -65,13 +66,13 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q4699128) (CC0); [Wikipedia: E
 Fatayer are filled pies, typically stuffed with spinach, meat, or cheese such as feta or akkawi.
 
 - From: Egypt
-- Origin (Wikidata): Lebanon
+- Origin (Wikidata): Levant
 
 Fun facts:
 
 - (history) The word fatayir is attested in English as early as 1882 in an Arabic-English dictionary by Francis Joseph Steingass, where its translated as "pastry", and equated with sambusaq.
 - (origin) Fatayer was first made in Levant.
-- (origin) Fatayer comes from Lebanon.
+- (origin) Fatayer comes from the Levant.
 
 More fun facts (when the user asks for more):
 
@@ -148,7 +149,7 @@ Learn more:
 
 - quick: [Kamounia (Wikipedia)](https://en.wikipedia.org/wiki/Kamounia)
 - more: [Egyptian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Egyptian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Kamounia (Open Library)](https://openlibrary.org/search?q=Kamounia)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3192476)
 
@@ -355,7 +356,7 @@ Learn more:
 
 - quick: [Shakshouka (Wikipedia)](https://en.wikipedia.org/wiki/Shakshouka)
 - more: [Egyptian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Egyptian_cuisine)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Shakshouka (Open Library)](https://openlibrary.org/search?q=Shakshouka)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2474644)
 
@@ -703,6 +704,7 @@ Learn more:
 
 - quick: [Macarona bil-bechamel (Wikipedia)](https://en.wikipedia.org/wiki/Macarona_bil-bechamel)
 - more: [Egyptian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Egyptian_cuisine)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Macarona bil-bechamel (Open Library)](https://openlibrary.org/search?q=Macarona%20bil-bechamel)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q133502875)
 

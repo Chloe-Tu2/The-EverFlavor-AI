@@ -1,6 +1,6 @@
 {
  "about": {
-  "built_on": "2026-11-22",
+  "built_on": "2026-11-23",
   "by": "scripts/knowledge/atlas_audit.py",
   "regions": {
    "name": "Unicode CLDR territory containment (UN M49 regions)",
@@ -62,6 +62,15 @@
   ],
   "Caribbean": [
    {
+    "dish": "Dumb bread",
+    "wikidata": "Q125797909",
+    "country": "British Virgin Islands",
+    "status": "needs_review",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
     "dish": "goat water",
     "wikidata": "Q25047514",
     "country": "Montserrat",
@@ -113,15 +122,6 @@
     "status": "ready",
     "version_of": [
      "sandwich"
-    ]
-   },
-   {
-    "dish": "Dumb bread",
-    "wikidata": "Q125797909",
-    "country": "United States Virgin Islands",
-    "status": "needs_review",
-    "version_of": [
-     "bread"
     ]
    }
   ],
@@ -3046,6 +3046,15 @@
     ]
    },
    {
+    "dish": "Angel Delight",
+    "wikidata": "Q4762122",
+    "country": "United Kingdom",
+    "status": "ready",
+    "version_of": [
+     "budino"
+    ]
+   },
+   {
     "dish": "Bakewell pudding",
     "wikidata": "Q4849349",
     "country": "United Kingdom",
@@ -3888,6 +3897,15 @@
     ]
    },
    {
+    "dish": "tapioca pudding",
+    "wikidata": "Q717548",
+    "country": "Brazil",
+    "status": "ready",
+    "version_of": [
+     "budino"
+    ]
+   },
+   {
     "dish": "Chilean salad",
     "wikidata": "Q5098835",
     "country": "Chile",
@@ -4641,6 +4659,15 @@
     ]
    },
    {
+    "dish": "Mango pudding",
+    "wikidata": "Q3273739",
+    "country": "India",
+    "status": "ready",
+    "version_of": [
+     "budino"
+    ]
+   },
+   {
     "dish": "Neer dosa",
     "wikidata": "Q6986919",
     "country": "India",
@@ -4782,6 +4809,15 @@
     "status": "ready",
     "version_of": [
      "ice cream"
+    ]
+   },
+   {
+    "dish": "Bonab Kababi",
+    "wikidata": "Q5744375",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "kebab"
     ]
    },
    {
@@ -5059,6 +5095,15 @@
     ]
    },
    {
+    "dish": "Biancomangiare PAT",
+    "wikidata": "Q551514",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "budino"
+    ]
+   },
+   {
     "dish": "Biscuit Tortoni",
     "wikidata": "Q4917270",
     "country": "Italy",
@@ -5302,6 +5347,15 @@
     ]
    },
    {
+    "dish": "bonet",
+    "wikidata": "Q2910034",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "budino"
+    ]
+   },
+   {
     "dish": "garlic bread",
     "wikidata": "Q1359006",
     "country": "Italy",
@@ -5317,6 +5371,15 @@
     "status": "ready",
     "version_of": [
      "pasta"
+    ]
+   },
+   {
+    "dish": "panna cotta",
+    "wikidata": "Q504941",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "budino"
     ]
    },
    {
@@ -5597,6 +5660,15 @@
     "status": "ready",
     "version_of": [
      "cake"
+    ]
+   },
+   {
+    "dish": "Mollete",
+    "wikidata": "Q121026980",
+    "country": "Spain",
+    "status": "ready",
+    "version_of": [
+     "bread"
     ]
    },
    {
@@ -5994,15 +6066,6 @@
     ]
    },
    {
-    "dish": "malawach",
-    "wikidata": "Q2907412",
-    "country": "Israel",
-    "status": "ready",
-    "version_of": [
-     "bread"
-    ]
-   },
-   {
     "dish": "Shʿifūra",
     "wikidata": "Q107695675",
     "country": "Syria",
@@ -6102,15 +6165,6 @@
     ]
    },
    {
-    "dish": "Pepeçura",
-    "wikidata": "Q15686391",
-    "country": "Turkey",
-    "status": "ready",
-    "version_of": [
-     "pudding"
-    ]
-   },
-   {
     "dish": "Ramadan pide",
     "wikidata": "Q13644362",
     "country": "Turkey",
@@ -6156,12 +6210,30 @@
     ]
    },
    {
+    "dish": "pepeçura",
+    "wikidata": "Q15686391",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "pudding"
+    ]
+   },
+   {
     "dish": "tas kebab",
     "wikidata": "Q18671599",
     "country": "Turkey",
     "status": "ready",
     "version_of": [
      "stew"
+    ]
+   },
+   {
+    "dish": "tavukgöğsü",
+    "wikidata": "Q1505500",
+    "country": "Turkey",
+    "status": "ready",
+    "version_of": [
+     "budino"
     ]
    },
    {
@@ -6221,6 +6293,15 @@
    {
     "dish": "Kubaneh",
     "wikidata": "Q6588272",
+    "country": "Yemen",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
+    "dish": "malawach",
+    "wikidata": "Q2907412",
     "country": "Yemen",
     "status": "ready",
     "version_of": [
@@ -6555,6 +6636,15 @@
     ]
    },
    {
+    "dish": "Teurgoule",
+    "wikidata": "Q3519244",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "budino"
+    ]
+   },
+   {
     "dish": "biscuit rose de Reims",
     "wikidata": "Q2904639",
     "country": "France",
@@ -6671,6 +6761,15 @@
     "status": "ready",
     "version_of": [
      "bread"
+    ]
+   },
+   {
+    "dish": "pot de crème",
+    "wikidata": "Q17095904",
+    "country": "France",
+    "status": "ready",
+    "version_of": [
+     "budino"
     ]
    },
    {

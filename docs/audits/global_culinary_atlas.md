@@ -1,4 +1,4 @@
-# Global Culinary Atlas (2026-11-22)
+# Global Culinary Atlas (2026-11-23)
 
 Coverage of the world's food by the UN's regions (M49), from Unicode CLDR 49 (Unicode License V3). Reports only: nothing is added or published.
 Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish, fact or link is invented. Data: `data/knowledge/atlas/`, written by `scripts/knowledge/atlas_audit.py`.
@@ -29,24 +29,24 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 | Micronesian Region (Oceania) | 8 | 0 | 0 | 0 | gap |  | 4 |  |
 | Polynesia (Oceania) | 10 | 1 | 1 | 7.5 | gap |  |  |  |
 | Caribbean (Americas) | 28 | 7 | 3 | 20 | gap | 6 | 2 | 1 |
-| Western Africa (Africa) | 17 | 8 | 1 | 26 | thin | 8 |  |  |
-| Eastern Africa (Africa) | 22 | 10 | 1.5 | 26.5 | thin | 8 |  |  |
+| Western Africa (Africa) | 17 | 8 | 1 | 26 | thin | 10 |  |  |
+| Eastern Africa (Africa) | 22 | 10 | 1.5 | 26.5 | thin | 9 |  |  |
 | Middle Africa (Africa) | 9 | 4 | 2.5 | 28.5 | thin |  |  |  |
 | Central Asia (Asia) | 5 | 2 | 3.5 | 28.8 | thin | 4 |  |  |
-| Southern Asia (Asia) | 9 | 3 | 13 | 49.2 | thin | 104 | 13 | 2 |
+| Southern Asia (Asia) | 9 | 3 | 13 | 49.2 | thin | 105 | 13 | 2 |
 | Northern Africa (Africa) | 7 | 5 | 6 | 50.7 | fair | 9 |  |  |
 | Central America (Americas) | 8 | 5 | 8 | 51.2 | fair | 16 | 2 | 1 |
 | Southern Africa (Africa) | 5 | 2 | 14.5 | 56.2 | fair | 1 |  |  |
-| Western Asia (Asia) | 18 | 5 | 18 | 58.9 | fair | 81 | 4 | 5 |
-| South America (Americas) | 16 | 5 | 18 | 60.6 | fair | 43 | 7 | 8 |
-| Southern Europe (Europe) | 17 | 4 | 80 | 61.8 | fair | 154 | 31 | 6 |
+| Western Asia (Asia) | 18 | 5 | 18 | 58.9 | fair | 83 | 4 | 5 |
+| South America (Americas) | 16 | 5 | 18 | 60.6 | fair | 44 | 7 | 8 |
+| Southern Europe (Europe) | 17 | 4 | 80 | 61.8 | fair | 159 | 31 | 6 |
 | Australasia (Oceania) | 6 | 2 | 30 | 66.7 | fair | 6 |  | 3 |
-| Northern Europe (Europe) | 17 | 6 | 34.5 | 67.6 | fair | 231 | 7 | 38 |
+| Northern Europe (Europe) | 17 | 6 | 34.5 | 67.6 | fair | 232 | 7 | 38 |
 | Eastern Asia (Asia) | 8 | 3 | 108 | 68.8 | fair | 257 | 7 | 11 |
 | Northern America (Americas) | 5 | 2 | 227 | 70 | fair | 166 | 2 | 50 |
 | Eastern Europe (Europe) | 10 | 4 | 45 | 70 | fair | 47 | 24 | 1 |
 | Southeast Asia (Asia) | 11 | 6 | 74.5 | 77.3 | good | 78 | 13 | 2 |
-| Western Europe (Europe) | 9 | 6 | 29 | 83.3 | good | 257 | 50 | 23 |
+| Western Europe (Europe) | 9 | 6 | 29 | 83.3 | good | 260 | 50 | 23 |
 
 ## Where the gaps are
 
@@ -64,15 +64,15 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 
 `<Continent>_Next_500.json`: up to 500 ready backlog dishes each, a dish whose family we have first, at most 40 per country, taking turns between subregions so no one region fills the list. They are candidates for a person to approve, not additions.
 
-- Africa: 26 dishes from 12 countries
-- Americas: 125 dishes from 16 countries
-- Asia: 344 dishes from 30 countries
+- Africa: 29 dishes from 13 countries
+- Americas: 126 dishes from 16 countries
+- Asia: 346 dishes from 30 countries
 - Europe: 411 dishes from 26 countries
 - Oceania: 6 dishes from 2 countries
 
 ## Versions we lack, and the review queue
 
-- `missing_variants.json`: 779 backlog dishes are versions of a dish EverFlavor already shows (their Wikidata family is one of our dishes), by subregion.
+- `missing_variants.json`: 790 backlog dishes are versions of a dish EverFlavor already shows (their Wikidata family is one of our dishes), by subregion.
 - `publication_review_queue.json`: 275 dishes need a person first. The problems found:
   - not a country today (a region, city or former state): a person places it: 109 (Korea 30, Europe 3, Maghreb 3, West Germany 3, Ancient Rome 2, British Raj 2, ...)
   - a country the place tree lacks yet: 109 (Romania 20, Slovenia 11, Myanmar 9, Serbia 8, Sri Lanka 7, Paraguay 5, ...)

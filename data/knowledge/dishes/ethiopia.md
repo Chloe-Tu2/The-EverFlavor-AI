@@ -40,7 +40,7 @@ Learn more:
 
 - quick: [Genfo (Wikipedia)](https://en.wikipedia.org/wiki/Genfo)
 - more: [List of Ethiopian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Ethiopian_dishes)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Eritrean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Eritrean_cuisine)
 - deep: [Books about Genfo (Open Library)](https://openlibrary.org/search?q=Genfo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1320701)
 
@@ -194,7 +194,7 @@ Learn more:
 
 - quick: [Shahan ful (Wikipedia)](https://en.wikipedia.org/wiki/Shahan_ful)
 - more: [List of Ethiopian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Ethiopian_dishes)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
 - deep: [Books about Shahan ful (Open Library)](https://openlibrary.org/search?q=Shahan%20ful)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7461448)
 
@@ -215,6 +215,7 @@ Learn more:
 
 - quick: [Tihlo (Wikipedia)](https://en.wikipedia.org/wiki/Tihlo)
 - more: [List of Ethiopian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Ethiopian_dishes)
+- more: [Eritrean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Eritrean_cuisine)
 - deep: [Books about Tihlo (Open Library)](https://openlibrary.org/search?q=Tihlo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q56278726)
 
@@ -250,7 +251,7 @@ Learn more:
 
 - quick: [Wat (food) (Wikipedia)](https://en.wikipedia.org/wiki/Wat_%28food%29)
 - more: [List of Ethiopian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Ethiopian_dishes)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Eritrean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Eritrean_cuisine)
 - deep: [Books about Wat (food) (Open Library)](https://openlibrary.org/search?q=Wat%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1301968)
 
@@ -267,6 +268,7 @@ Learn more:
 
 - quick: [Berbere (Wikipedia)](https://en.wikipedia.org/wiki/Berbere)
 - more: [List of Ethiopian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Ethiopian_dishes)
+- more: [Eritrean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Eritrean_cuisine)
 - deep: [Books about Berbere (Open Library)](https://openlibrary.org/search?q=Berbere)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q818763)
 

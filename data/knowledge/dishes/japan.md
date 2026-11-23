@@ -132,6 +132,7 @@ Learn more:
 
 - quick: [Boiled egg (Wikipedia)](https://en.wikipedia.org/wiki/Boiled_egg)
 - more: [List of Japanese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Japanese_dishes)
+- more: [Togolese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Togolese_cuisine)
 - deep: [Books about Boiled egg (Open Library)](https://openlibrary.org/search?q=Boiled%20egg)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1062531)
 

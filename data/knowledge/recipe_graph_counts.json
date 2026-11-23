@@ -1,6 +1,6 @@
 {
  "about": "Every recipe as a Food Graph node and the one edge it gets (FoodGraph.add_recipes). Built by scripts/knowledge/recipe_graph.py; counts only, no recipe text.",
- "built_on": "2026-11-22",
+ "built_on": "2026-11-23",
  "recipes": 291755,
  "recipe_nodes": 291755,
  "by_relation": {

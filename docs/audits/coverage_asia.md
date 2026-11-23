@@ -1,4 +1,4 @@
-# Coverage: Asia (2026-11-22)
+# Coverage: Asia (2026-11-23)
 
 Back to [world coverage](coverage_world.md).
 
@@ -27,7 +27,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| India | high | 103 | 68 | 31 | 67 | 7,312 | 63 | 62% |
+| India | high | 103 | 68 | 31 | 67 | 7,312 | 64 | 62% |
 | Pakistan | low | 7 | 5 | 4 | 5 | 82 | 5 | 58% |
 | Nepal | recipes only | 0 | 0 | 0 | 0 | 33 | 2 | 0% |
 | Afghanistan | recipes only | 0 | 0 | 0 | 0 | 7 | 5 | 0% |
@@ -40,7 +40,7 @@ Back to [world coverage](coverage_world.md).
 | Indonesia | high | 248 | 40 | 61 | 169 | 218 | 24 | 91% |
 | Philippines | high | 87 | 37 | 28 | 49 | 255 | 29 | 75% |
 | Thailand | high | 77 | 27 | 25 | 45 | 2,428 | 7 | 92% |
-| Vietnam | high | 72 | 16 | 26 | 53 | 500 | 6 | 92% |
+| Vietnam | high | 72 | 16 | 26 | 54 | 500 | 6 | 92% |
 | Malaysia | medium | 38 | 3 | 19 | 23 | 79 | 3 | 93% |
 | Cambodia | low | 1 | 0 | 1 | 1 | 53 | 7 | 12% |
 | Laos | recipes only | 0 | 0 | 0 | 0 | 18 | 3 | 0% |
@@ -61,7 +61,7 @@ Back to [world coverage](coverage_world.md).
 
 - **Japan** (medium; 139 ready, 0 to review): katsuobushi, zundamochi, warabimochi, toriten, sōmen salad, sakuramochi, rice burger, ohaw.
 - **China** (high; 98 ready, 1 to review): imitation shark's fin soup, pineapple bun, mixian, marry girl cake, doubanjiang, Japanese radish, white tea, white sugar sponge cake.
-- **India** (high; 63 ready, 0 to review): Paneer makhani, Malabar matthi curry, Madras curry, Idli podi, Gobhi paratha, vegetable sandwich, tomato omelette, santula.
+- **India** (high; 64 ready, 0 to review): Paneer makhani, Malabar matthi curry, Madras curry, Idli podi, Gobhi paratha, vegetable sandwich, tomato omelette, santula.
 - **Philippines** (high; 29 ready, 0 to review): ube crinkles, tortang talong, puto seco, pastillas, mamón, ice buko, agre dulce, Utan.
 - **Indonesia** (high; 24 ready, 0 to review): lampet, Tarempa noodles, Ombus ombus, Meuseukat, Kue talam, Kelan Antep, Bakakak hayam, mie kuah.
 - **Taiwan** (recipes only; 11 ready, 0 to review): tube rice pudding, salty biscuit, egg yolk pastry, bubble tea, Wheel Pie, Taiwanese tea, Shuangbaotai, Mango shaved ice.

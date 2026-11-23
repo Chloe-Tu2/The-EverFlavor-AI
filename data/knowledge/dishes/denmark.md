@@ -323,6 +323,7 @@ Learn more:
 
 - quick: [Steak tartare (Wikipedia)](https://en.wikipedia.org/wiki/Steak_tartare)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- more: [List of Uzbek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Uzbek_dishes)
 - deep: [Books about Steak tartare (Open Library)](https://openlibrary.org/search?q=Steak%20tartare)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q749593)
 
@@ -899,7 +900,7 @@ Learn more:
 
 - quick: [Mustard (condiment) (Wikipedia)](https://en.wikipedia.org/wiki/Mustard_%28condiment%29)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
 - deep: [Books about Mustard (condiment) (Open Library)](https://openlibrary.org/search?q=Mustard%20%28condiment%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q131748)
 

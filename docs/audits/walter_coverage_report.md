@@ -1,4 +1,4 @@
-# The waiter's knowledge coverage (2026-11-22)
+# The waiter's knowledge coverage (2026-11-23)
 
 What the waiter can tell about each dish, all of it copied from Wikipedia (credited) and Wikidata, never written by a model.
 
@@ -10,7 +10,7 @@ What the waiter can tell about each dish, all of it copied from Wikipedia (credi
 | read more: its own article | 3,371 | 100% |
 | read more: its cuisine or region page | 3,209 | 95% |
 | read more: books, UNESCO, Wikidata | 3,371 | 100% |
-| graph lines: 3 or more | 1,144 | 34% |
+| graph lines: 3 or more | 1,153 | 34% |
 | facts checked by a person | 0 | 0% |
 
 ## Remediation plan

@@ -1081,6 +1081,39 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1915495) (CC0); [Wikipedia: Meat pie (Australia and New Zealand)](https://en.wikipedia.org/wiki/Meat_pie_(Australia_and_New_Zealand)) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Milk arrowroot biscuits
+
+Milk arrowroot biscuits are a soft, oval-shaped biscuit that originated in Australia, combining the plain milk biscuit and arrowroot biscuit.
+
+- From: Australia
+
+Fun facts:
+
+- (history) By the 1930s, babies were less often fed on milk arrowroot biscuits, and in the post-war period, records of parents feeding babies a beverage made from milk arrowroot biscuits were rare, although actual practice may have persisted.
+- (about) They continue to be eaten in Australia, often accompanying cups of tea, and are among the less popular biscuits sold by Arnott's.
+- (history) Milk arrowroot biscuits were invented in 1882 by William Arnott, the Scottish-Australian found of Arnott's Biscuits, and a trademark was lodged with the Colony of New South Wales on 8 May 1888.
+
+More fun facts (when the user asks for more):
+
+- (history) From 1900, Arnott's responded by promoting their biscuits as being of unparalleled quality.
+- (history) Since 1892, they had encouraged parents to send photos of their children eating the biscuits with testimonial, which they published in newspapers and advertisements, rewarding the parents with a small amount of money and a tin of the biscuits.
+- (history) One representative testimonial, published in the Brisbane Courier in January 1902 read: "Dear Sir, I now enclose the photo of my baby, Alice, aged 5 months, weight 26 lb., fed from birth on your Milk Arrowroot Biscuits.
+- (history) A 1958 edition of the New South Wales government publication Our Babies warned: The use of arrowroot biscuits for infant feeding cannot be too strongly condemned, especially WHEN GIVEN BETWEEN MEALS.
+- (history) In the 1950s, milk arrowroot biscuits were often served as snacks to children buttered.
+- (history) Milk arrowroot biscuits were invented in 1882 by Arnott's Biscuits, and were marketed as a nutritious food for children and, when used to make a gruel, for babies.
+- (history) In the 1950s, they were often served buttered, and at children's parties decorated to look like faces and used in party games.
+- (history) The campaign, titled "Living Pictures" continued for 60 years, and by 1932 Arnott's proclaimed they had received over 35,000 testimonials from parents.
+
+Learn more:
+
+- quick: [Milk arrowroot biscuits (Wikipedia)](https://en.wikipedia.org/wiki/Milk_arrowroot_biscuits)
+- more: [List of Australian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Australian_dishes)
+- more: [List of New Zealand dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_New_Zealand_dishes)
+- deep: [Books about Milk arrowroot biscuits (Open Library)](https://openlibrary.org/search?q=Milk%20arrowroot%20biscuits)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q141759429)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q141759429) (CC0); [Wikipedia: Milk arrowroot biscuits](https://en.wikipedia.org/wiki/Milk_arrowroot_biscuits) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Mince pie
 
 A mince pie is a sweet pie of English origin filled with mincemeat: a mixture of fruits, nuts, spices and a spirit—usually brandy—or vinegar.

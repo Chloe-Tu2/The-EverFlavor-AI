@@ -1,6 +1,6 @@
 {
  "about": {
-  "built_on": "2026-11-22",
+  "built_on": "2026-11-23",
   "by": "scripts/knowledge/atlas_audit.py",
   "regions": {
    "name": "Unicode CLDR territory containment (UN M49 regions)",
@@ -58,6 +58,7 @@
   "Bermuda is not in the place tree yet": 1,
   "Bolivia is not in the place tree yet": 1,
   "'British Hong Kong' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "British Virgin Islands is not in the place tree yet": 1,
   "'Byzantine Empire' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Carpathians' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Caucasus' is not one of today's countries (a region, city or former state): a person places it": 1,
@@ -102,7 +103,6 @@
   "'Tatarstan' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Thuringia' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Turin' is not one of today's countries (a region, city or former state): a person places it": 1,
-  "United States Virgin Islands is not in the place tree yet": 1,
   "'West Africa' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Xinjiang' is not one of today's countries (a region, city or former state): a person places it": 1
  },
@@ -267,6 +267,15 @@
    "subregion": "(not placed)",
    "problems": [
     "'British Raj' is not one of today's countries (a region, city or former state): a person places it"
+   ]
+  },
+  {
+   "dish": "Dumb bread",
+   "wikidata": "Q125797909",
+   "country": "British Virgin Islands",
+   "subregion": "Caribbean",
+   "problems": [
+    "British Virgin Islands is not in the place tree yet"
    ]
   },
   {
@@ -2518,15 +2527,6 @@
    "subregion": "Northern Europe",
    "problems": [
     "in more than 3 families: check which one it belongs to"
-   ]
-  },
-  {
-   "dish": "Dumb bread",
-   "wikidata": "Q125797909",
-   "country": "United States Virgin Islands",
-   "subregion": "Caribbean",
-   "problems": [
-    "United States Virgin Islands is not in the place tree yet"
    ]
   },
   {

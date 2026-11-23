@@ -510,6 +510,7 @@ Learn more:
 
 - quick: [Gofio (Wikipedia)](https://en.wikipedia.org/wiki/Gofio)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Gofio (Open Library)](https://openlibrary.org/search?q=Gofio)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1412378)
 
@@ -1020,11 +1021,12 @@ Torta de Santiago (in Galician) or Tarta de Santiago (in Spanish), literally mea
 Fun facts:
 
 - (history) The application for protected geographic status identifies the first documentary evidence of the cake's existence as dating to 1577, when it was mentioned in notes of what was being eaten at the University of Santiago de Compostela.
+- (origin) Tarta de Santiago was first made in Santiago de Compostela.
 - (culture) The cross is a symbol of the Camino de Santiago pilgrimages, and the cake said to reward pilgrims upon the completion of their journey.
-- (about) In May 2010, the EU gave Tarta de Santiago PGI status within Europe.
 
 More fun facts (when the user asks for more):
 
+- (about) In May 2010, the EU gave Tarta de Santiago PGI status within Europe.
 - (origin) Tarta de Santiago comes from Spain.
 - (about) Tarta de Santiago is listed as protected geographical indication.
 - (history) The origin of the cross being decorated on the cake dates to 1924 when the "Casa Mora" began to adorn the almond cakes with the silhouette.
@@ -1731,6 +1733,7 @@ Learn more:
 
 - quick: [Milk coffee (Wikipedia)](https://en.wikipedia.org/wiki/Milk_coffee)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Milk coffee (Open Library)](https://openlibrary.org/search?q=Milk%20coffee)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10751552)
 

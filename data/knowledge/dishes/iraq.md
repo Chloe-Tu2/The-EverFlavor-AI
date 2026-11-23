@@ -305,6 +305,7 @@ Learn more:
 
 - quick: [Date honey (Wikipedia)](https://en.wikipedia.org/wiki/Date_honey)
 - more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Date honey (Open Library)](https://openlibrary.org/search?q=Date%20honey)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2916133)
 
@@ -325,6 +326,7 @@ Learn more:
 
 - quick: [Grain (Wikipedia)](https://en.wikipedia.org/wiki/Grain)
 - more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
+- more: [Nigerien cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerien_cuisine)
 - deep: [Books about Grain (Open Library)](https://openlibrary.org/search?q=Grain)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2995529)
 
@@ -423,6 +425,7 @@ Learn more:
 
 - quick: [Legume (Wikipedia)](https://en.wikipedia.org/wiki/Legume)
 - more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
+- more: [Chadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chadian_cuisine)
 - deep: [Books about Legume (Open Library)](https://openlibrary.org/search?q=Legume)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q145909)
 

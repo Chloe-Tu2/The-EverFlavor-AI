@@ -438,11 +438,14 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q33691) (CC0); [Wikipedia: Mea
 Mebos is a South African food made from dried apricots seasoned with sugar or salt.
 
 - From: South Africa
+- Origin (Wikidata): South Africa
+- Ingredients (Wikidata): apricot
 
 Fun facts:
 
 - (origin) Brought to the Dutch Cape Colony by slaves from South East Asia, the earliest references to mebos were medical, but later it became known as a treat.
 - (culture) The Khoekhoe traditionally prepared fruit by cutting them into pieces and cooking without water into a thick syrup.
+- (origin) Mebos comes from South Africa.
 
 Learn more:
 
@@ -683,7 +686,7 @@ Learn more:
 
 - quick: [Vetkoek (Wikipedia)](https://en.wikipedia.org/wiki/Vetkoek)
 - more: [South African cuisine (Wikipedia)](https://en.wikipedia.org/wiki/South_African_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Namibian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Namibian_cuisine)
 - deep: [Books about Vetkoek (Open Library)](https://openlibrary.org/search?q=Vetkoek)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q282620)
 
@@ -940,6 +943,36 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7881726)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7881726) (CC0); [Wikipedia: Umngqusho](https://en.wikipedia.org/wiki/Umngqusho) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Umqombothi
+
+Umqombothi, is a South African traditional type of beer made from maize (corn), maize malt, sorghum malt, yeast, and water.
+
+- From: South Africa
+
+Fun facts:
+
+- (culture) Umqombothi is brewed following traditional customs, and these vary slightly between regions.
+- (about) Once the beer has been strained, it is poured into a large communal drum known as a gogogo.
+- (culture) The beer is traditionally prepared over a fire outside of the house.
+
+More fun facts (when the user asks for more):
+
+- (about) The ingredients are mixed in a cast-iron pot, known as a potjie in South Africa.
+- (about) This product is known as isidudu and can be eaten as a porridge.
+- (culture) The brew is stirred with a traditional spoon called an iphini.
+- (culture) To see if the brew is ready, the traditional testing method is to light a match close to the vat.
+- (about) The sediment at the bottom of the vat is known as intshela.
+- (culture) The brewer of the beer traditionally thanks the ancestors while casting the corn.
+
+Learn more:
+
+- quick: [Umqombothi (Wikipedia)](https://en.wikipedia.org/wiki/Umqombothi)
+- more: [South African cuisine (Wikipedia)](https://en.wikipedia.org/wiki/South_African_cuisine)
+- deep: [Books about Umqombothi (Open Library)](https://openlibrary.org/search?q=Umqombothi)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7881784)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7881784) (CC0); [Wikipedia: Umqombothi](https://en.wikipedia.org/wiki/Umqombothi) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Waterblommetjiebredie
 

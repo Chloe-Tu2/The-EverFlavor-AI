@@ -115,6 +115,7 @@ Learn more:
 
 - quick: [Baozi (Wikipedia)](https://en.wikipedia.org/wiki/Baozi)
 - more: [List of Chinese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Chinese_dishes)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Baozi (Open Library)](https://openlibrary.org/search?q=Baozi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1137679)
 
@@ -884,6 +885,7 @@ Learn more:
 
 - quick: [Soy egg (Wikipedia)](https://en.wikipedia.org/wiki/Soy_egg)
 - more: [List of Chinese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Chinese_dishes)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Soy egg (Open Library)](https://openlibrary.org/search?q=Soy%20egg)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q925359)
 
@@ -2628,6 +2630,27 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7212637)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7212637) (CC0); [Wikipedia: Sampan congee](https://en.wikipedia.org/wiki/Sampan_congee) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### San Choy Bow
+
+San choy bow is a dish consisting of seasoned minced meat encased in a crisp raw lettuce wrap, and typically include vegetables such as chillies, spring onions, coriander, water chestnuts, mushrooms, bamboo shoots, and seasoned with various sauces.
+
+- From: Guangdong, China
+- Ingredients (Wikidata): Lactuca sativa
+
+Fun facts:
+
+- (origin) San Choy Bow originated in Cantonese cuisine and through the Chinese diaspora, was introduced to other countries such as the United States and Australia around the mid-to-late 20th century, where it became part of Westernized adaptations of Chinese cuisine.
+- (history) In the United States, the dish was widely referred to as "San Choy Bao" in Cantonese restaurants during the 1980s, but the Chinese-American restaurant chain P.F. Chang's popularized the term lettuce wrap for the dish in the 1990s, and this has since become the most mainstream name for Chinese lettuce wraps in the U.S.
+
+Learn more:
+
+- quick: [San Choy Bow (Wikipedia)](https://en.wikipedia.org/wiki/San_Choy_Bow)
+- more: [Cantonese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cantonese_cuisine)
+- deep: [Books about San Choy Bow (Open Library)](https://openlibrary.org/search?q=San%20Choy%20Bow)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6533875)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6533875) (CC0); [Wikipedia: San Choy Bow](https://en.wikipedia.org/wiki/San_Choy_Bow) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Sea cucumbers as food
 
@@ -4650,6 +4673,7 @@ Learn more:
 
 - quick: [Chinese noodles (Wikipedia)](https://en.wikipedia.org/wiki/Chinese_noodles)
 - more: [List of Chinese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Chinese_dishes)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Chinese noodles (Open Library)](https://openlibrary.org/search?q=Chinese%20noodles)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2723400)
 
@@ -5345,27 +5369,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1322949) (CC0); [Wikipedia: Rice noodles](https://en.wikipedia.org/wiki/Rice_noodles) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### San Choy Bow
-
-San choy bow is a dish consisting of seasoned minced meat encased in a crisp raw lettuce wrap, and typically include vegetables such as chillies, spring onions, coriander, water chestnuts, mushrooms, bamboo shoots, and seasoned with various sauces.
-
-- From: Guangdong, China
-- Ingredients (Wikidata): Lactuca sativa
-
-Fun facts:
-
-- (origin) San Choy Bow originated in Cantonese cuisine and through the Chinese diaspora, was introduced to other countries such as the United States and Australia around the mid-to-late 20th century, where it became part of Westernized adaptations of Chinese cuisine.
-- (history) In the United States, the dish was widely referred to as "San Choy Bao" in Cantonese restaurants during the 1980s, but the Chinese-American restaurant chain P.F. Chang's popularized the term lettuce wrap for the dish in the 1990s, and this has since become the most mainstream name for Chinese lettuce wraps in the U.S.
-
-Learn more:
-
-- quick: [San Choy Bow (Wikipedia)](https://en.wikipedia.org/wiki/San_Choy_Bow)
-- more: [Cantonese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cantonese_cuisine)
-- deep: [Books about San Choy Bow (Open Library)](https://openlibrary.org/search?q=San%20Choy%20Bow)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6533875)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q6533875) (CC0); [Wikipedia: San Choy Bow](https://en.wikipedia.org/wiki/San_Choy_Bow) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Shahe fen
 
 Shahe fen or guotiao is a type of wide Chinese noodle made from rice.
@@ -5550,7 +5553,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1309195) (CC0); [Wikipedia: T
 Vinegar (from Old French vyn egre 'sour wine') is an odorous aqueous solution of diluted acetic acid and trace compounds that may include flavorings or naturally occurring organic compounds.
 
 - From: Guangdong, China
-- Ingredients (Wikidata): ethanol, mother of vinegar, water, acetic acid, aroma compound
+- Ingredients (Wikidata): mother of vinegar, ethanol-water mixture, water, acetic acid, aroma compound
 
 Fun facts:
 
@@ -7201,7 +7204,7 @@ More fun facts (when the user asks for more):
 - (about) It is said that the shape of Longjing Tea was designed to mimic the flattened leaves the emperor brewed for his mother.
 - (inspiration) Longjing, which literally translates as "dragon well", is said to have been named after a well that contains relatively dense water.
 - (inspiration) Legend also has it that to achieve the best taste from Longjing, water from the Dreaming of the Tiger Spring, a famous spring in Hangzhou, is to be used.
-- (culture) Longjing tea is traditionally produced in the area surrounding Longjing Village near West Lake in the city of Hangzhou, Zhejiang province, China, and is widely regarded as one of China's Famous Teas.
+- (culture) Longjing tea is traditionally produced in the area surrounding Longjing Village near West Lake in the city of Hangzhou,in Zhejiang province, China, and is widely regarded as one of China's Famous Teas.
 - (culture) Tea grown within the traditional production area around West Lake is protected under geographical designation systems in China and the European Union.
 - (culture) Tea sold as Longjing is often produced outside the traditional growing region, including in other parts of Zhejiang, Yunnan, Guizhou, and Sichuan.
 - (origin) Longjing tea comes from the People's Republic of China.

@@ -413,6 +413,7 @@ Learn more:
 
 - quick: [Canjica (dish) (Wikipedia)](https://en.wikipedia.org/wiki/Canjica_%28dish%29)
 - more: [Brazilian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Brazilian_cuisine)
+- more: [Cuisine of São Tomé and Príncipe (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe)
 - deep: [Books about Canjica (dish) (Open Library)](https://openlibrary.org/search?q=Canjica%20%28dish%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10333224)
 
@@ -463,6 +464,7 @@ Learn more:
 
 - quick: [Caruru (food) (Wikipedia)](https://en.wikipedia.org/wiki/Caruru_%28food%29)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
 - deep: [Books about Caruru (food) (Open Library)](https://openlibrary.org/search?q=Caruru%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q564500)
 
@@ -1290,7 +1292,7 @@ Caipirinha is a Brazilian cocktail made with cachaça, sugar, lime, and ice.
 - Origin (Wikidata): Brazil
 - Since: 1918-
 - Named after: Caipiras
-- Ingredients (Wikidata): sugar, Old Fashioned glass, cachaça, lime wedge
+- Ingredients (Wikidata): sugar, Old Fashioned glass, cachaça, Dedo, lime wedge
 
 Fun facts:
 
@@ -1628,6 +1630,7 @@ Learn more:
 
 - quick: [Jerky (Wikipedia)](https://en.wikipedia.org/wiki/Jerky)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Jerky (Open Library)](https://openlibrary.org/search?q=Jerky)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1072897)
 
