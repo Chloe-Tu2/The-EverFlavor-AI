@@ -14,10 +14,21 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
 
 ## [Unreleased]
 
-Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 1; three 0.7.2 repairs.
+## [0.7.2] - 2026-11-22
+
+Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 1; three 0.7.2 repairs; the
+Middle Eastern kitchen fix; the maintenance audits and world culinary coverage as the headline metric.
 
 ### Added
 
+- **World culinary coverage** (`docs/audits/world_culinary_coverage.md`, decided by med27-coder): how well each
+  country's food tradition is represented (level 1: representative dishes, a family, a cuisine description, a food
+  history, regional styles; level 2: its culinary regions; level 3: its families' versions), now the headline
+  metric instead of the dish count. World 24.7%; Africa 6.9%. The counting rule is proposed.
+- **Maintenance audits** (reports only): repository hygiene, a stricter provenance check (licence, version,
+  attribution), the rich-dish upgrade and Walter enrichment queues, Food Graph validation (no broken links),
+  coverage by continent, the documentation gaps and the CI guardrails; `docs/architecture/` draws the layers and
+  explains the safety engine step by step.
 - **Governance and security** (`docs/governance/`, `SECURITY.md`, `GOVERNANCE.md`): a secret scan of every tracked
   file (API keys, tokens, passwords, connection strings; values redacted) that fails CI on any finding; a PII
   audit (e-mails, phones, addresses, coordinates) for a person to review; the public data policy, the human
@@ -90,6 +101,11 @@ Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 
 
 ### Changed
 
+- **The Middle Eastern kitchen follows the place tree's food regions** (`app/themes.py`, `KITCHEN_REGIONS`; decided
+  by med27-coder): kitchens are themes guided by the tree, not bound to it. It covers the Levant, Anatolia, Persian
+  Region, Mesopotamia and the Arabian Peninsula, plus the Caucasus and Egypt; the tree gains Israel, Jordan, Yemen,
+  Oman, the United Arab Emirates, Qatar, Kuwait, Bahrain and Georgia. No country lost its kitchen.
+- The planner: 0.8.0 is coverage, images and the store locator; chat with the chef moves to 0.9.0.
 - **A recipe named for a dish's flavour no longer links to that dish** (rule L1, proposed): "peanut butter fudge"
   is Fudge, "pumpkin pie bars" has no dish, "French dip sandwiches" stays French dip (its summary says it is a
   sandwich). 3,573 links changed: 3,171 wrong dishes dropped, 402 moved to the right one; every change, grouped, is
@@ -214,5 +230,6 @@ The first numbered release (beta). It sums up the work since the project started
 - Chosen allergy and diet tags, and the recipe cards, were not styled in Streamlit 1.65.
 - Recipe cards without a photo showed an empty space (for example Poblano Posole); they now show a covered dish.
 
+[0.7.2]: https://github.com/Chloe-Tu2/The-EverFlavor-AI/releases/tag/v0.7.2
 [0.7.1]: https://github.com/Chloe-Tu2/The-EverFlavor-AI/releases/tag/v0.7.1
 [0.5.1]: https://github.com/Chloe-Tu2/The-EverFlavor-AI/releases/tag/v0.5.1
