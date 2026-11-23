@@ -1165,6 +1165,7 @@ Learn more:
 
 - quick: [Tart (Wikipedia)](https://en.wikipedia.org/wiki/Tart)
 - more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- more: [Bahamian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bahamian_cuisine)
 - deep: [Books about Tart (Open Library)](https://openlibrary.org/search?q=Tart)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1142483)
 
@@ -1367,7 +1368,7 @@ Learn more:
 
 - quick: [Cocoyam (Wikipedia)](https://en.wikipedia.org/wiki/Cocoyam)
 - more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
-- more: [Cameroonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cameroonian_cuisine)
+- more: [Guinean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guinean_cuisine)
 - deep: [Books about Cocoyam (Open Library)](https://openlibrary.org/search?q=Cocoyam)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2149005)
 
@@ -1773,7 +1774,7 @@ Learn more:
 
 - quick: [Mauby (Wikipedia)](https://en.wikipedia.org/wiki/Mauby)
 - more: [Jamaican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jamaican_cuisine)
-- more: [Barbadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Barbadian_cuisine)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Mauby (Open Library)](https://openlibrary.org/search?q=Mauby)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3813358)
 
@@ -1820,6 +1821,7 @@ Learn more:
 
 - quick: [Peanut punch (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Peanut_punch_%28drink%29)
 - more: [Jamaican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jamaican_cuisine)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Peanut punch (drink) (Open Library)](https://openlibrary.org/search?q=Peanut%20punch%20%28drink%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7157944)
 

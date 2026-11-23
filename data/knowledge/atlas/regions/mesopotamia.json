@@ -1,0 +1,62 @@
+{
+ "id": "mesopotamia",
+ "name": "Mesopotamia",
+ "continent": "Middle East & North Africa",
+ "countries": [
+  "Iraq"
+ ],
+ "countries_with_a_dish": [
+  "Iraq"
+ ],
+ "coverage_score": 96.2,
+ "dish_count": 11,
+ "food_and_drink_count": 9,
+ "story_count": 11,
+ "representative_dishes": [
+  "Samoon",
+  "Pomegranate soup",
+  "Gaz (candy)",
+  "Laffa",
+  "Zerde",
+  "Kahi (food)",
+  "Quzi",
+  "Lauzinaj"
+ ],
+ "dish_families": [
+  "pastry",
+  "lamb dish",
+  "spread",
+  "dip",
+  "fruit syrup",
+  "stew",
+  "staple food",
+  "seed"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Anatolia",
+  "Arabian Peninsula",
+  "Caucasus",
+  "Levant",
+  "North Africa",
+  "Persian Region"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

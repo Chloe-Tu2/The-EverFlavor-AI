@@ -2,11 +2,11 @@
  "about": "Wikidata images of our dishes that pass the photo pipeline's rules (free licence, an author to credit, a photo type, at least 400 px, not a map or drawing). Not downloaded and not shown: the pipeline fetches them when the team agrees, and a person checks each photo by eye.",
  "built_on": "2026-11-23",
  "by": "scripts/knowledge/image_queue.py",
- "asked": 1889,
+ "asked": 1890,
  "approved": 1739,
- "rejected": 150,
+ "rejected": 151,
  "rejected_by_reason": {
-  "smaller than 400 px": 96,
+  "smaller than 400 px": 97,
   "no author to credit": 30,
   "licence not free": 18,
   "named or described as a map, logo, drawing or label, not a photo": 12,
@@ -27965,6 +27965,20 @@
    "file_page": "https://commons.wikimedia.org/wiki/File:Pilaki.jpg",
    "license": "CC BY-SA 3.0",
    "author": "Mirada",
+   "reasons": [
+    "smaller than 400 px"
+   ]
+  },
+  {
+   "dish_id": "Q806901",
+   "dish_name": "Bannock (British and Irish food)",
+   "country": "United Kingdom",
+   "now_shows": "family",
+   "priority": "high",
+   "commons_file": "BannockBeremeal.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:BannockBeremeal.jpg",
+   "license": "CC BY-SA 3.0",
+   "author": "Lou Sander",
    "reasons": [
     "smaller than 400 px"
    ]

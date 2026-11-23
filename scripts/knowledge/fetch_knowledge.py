@@ -136,8 +136,47 @@ ATLAS_SPRINT_COUNTRIES = {
     "Kyrgyzstan": "Kyrgyz",
     "Tajikistan": "Tajik",
     "Turkmenistan": "Turkmen",
+    # Sprint 2 (2026-11-23): the rest of Oceania
+    "Tuvalu": "Tuvaluan",
+    "Nauru": "Nauruan",
+    "Marshall Islands": "Marshallese",
+    "Palau": "Palauan",
+    "Federated States of Micronesia": "Micronesian",
+    "Cook Islands": "Cook Islands",
+    "Niue": "Niuean",
+    "New Caledonia": "New Caledonian",
+    "French Polynesia": "French Polynesian",
+    "Guam": "Guamanian",
+    "Northern Mariana Islands": "Northern Mariana Islands",
+    "American Samoa": "American Samoan",
 }
 APP_COUNTRIES.update(ATLAS_SPRINT_COUNTRIES)
+# Indigenous food traditions (sprint 2, 2026-11-23): page -> (its country, or None when Wikidata's origin decides;
+# the tradition's name; the words a dish's own intro must use). A dish is tagged with the tradition only when its
+# intro names the people, and one found only on such a page is kept only then: never guessed.
+INDIGENOUS_PAGES: dict[str, tuple[str | None, str, tuple[str, ...]]] = {
+    "Māori cuisine": ("New Zealand", "Māori", ("maori",)),
+    "Bush tucker": ("Australia", "Aboriginal Australian", ("aboriginal", "indigenous australian", "bush tucker",
+                                                           "bushfood", "bush food")),
+    "Native American cuisine": (None, "Native American", ("native american", "indigenous peoples of the americas",
+                                                           "first nations", "indigenous")),
+    "Indigenous cuisine of the Americas": (None, "Native American", ("native american", "indigenous peoples of the americas",
+                                                                     "first nations", "indigenous")),
+    "Inuit cuisine": ("Canada", "Inuit", ("inuit", "inuk", "yupik")),
+    "Sámi cuisine": (None, "Sámi", ("sami",)),
+    "Ainu cuisine": ("Japan", "Ainu", ("ainu",)),
+    "Mapuche cuisine": ("Chile", "Mapuche", ("mapuche",)),
+    "Native Hawaiian cuisine": ("United States", "Native Hawaiian", ("native hawaiian", "hawaiian")),
+    "Chamorro cuisine": ("Guam", "Chamorro", ("chamorro",)),
+}
+
+
+def traditions(lists: list[str], intro: str) -> list[str]:
+    """The Indigenous traditions whose page lists the dish and whose people its intro names. A name only inside
+    brackets does not count: "Louise cake (keke ruihi in Māori)" gives the name in Māori, not a Māori dish."""
+    text = f" {_plain_words(re.sub(r'[(][^()]*[)]', ' ', intro))} "
+    return sorted({name for page, (_, name, words) in INDIGENOUS_PAGES.items()
+                   if page in lists and any(re.search(rf"\b{re.escape(w)}\b", text) for w in words)})
 
 
 def _first_mention(country: str, text: str) -> int:
@@ -242,11 +281,20 @@ def sources() -> list[tuple[str | None, str | None, str]]:
     for country, adj in APP_COUNTRIES.items():
         out += [(country, None, f"List of {adj} dishes"), (country, None, f"{adj} cuisine")]
         out += [(country, None, page) for page in COUNTRY_PAGES.get(country, [])]
+        if country in ATLAS_SPRINT_COUNTRIES and country not in COUNTRY_PAGES:
+            out += [(country, None, f"Cuisine of {country}")]   # Kenya's page is "Cuisine of Kenya"
     out += [(country, region, page) for (country, region), pages in APP_REGIONS.items() for page in pages]
     out += [("United States", None, "List of American foods"),
             ("United States", None, "List of regional dishes of the United States")]
     out += [(None, None, page) for page in GROUP_LISTS]
+    out += [(country, None, page) for page, (country, _, _) in INDIGENOUS_PAGES.items()]
     return out
+
+
+def reads_prose(country: str | None, page: str) -> bool:
+    """Whether a page's paragraph links count too: a sprint country's cuisine page (Fiji's is prose, not a list) or
+    an Indigenous tradition's page. Dishes found only there need a source's claim (see main)."""
+    return page in INDIGENOUS_PAGES or (country in ATLAS_SPRINT_COUNTRIES and not page.startswith("List of"))
 STOP_SECTIONS = {"see also", "references", "external links", "further reading", "notes", "gallery", "bibliography"}
 # Tags with no closing tag: they must not count in the nesting depth
 VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
@@ -258,8 +306,9 @@ NOT_DISH_TITLE = re.compile(r"^(List of|Category:|File:|Help:|Wikipedia:|Templat
 class ListPage(HTMLParser):
     """Reads a Wikipedia list page: each row/bullet's first article link, its section and its region cells."""
 
-    def __init__(self) -> None:
+    def __init__(self, prose: bool = False) -> None:
         super().__init__(convert_charrefs=True)
+        self.prose = prose           # also take the article links in paragraphs (marked "prose")
         self.headings: dict[int, str] = {}
         self.level = 0
         self.in_heading = False
@@ -308,6 +357,8 @@ class ListPage(HTMLParser):
                 for holder in (self.cell, self.li):
                     if holder is not None and holder["link"] is None:
                         holder["link"] = title
+                if self.prose and self.cell is None and self.li is None and "p" in self.stack[:-1]:
+                    self.rows.append({"title": title, "section": self.section(), "regions": [], "prose": True})
 
     def handle_endtag(self, tag: str) -> None:
         if tag in VOID_TAGS:
@@ -379,11 +430,11 @@ def _get(params: dict, cache_name: str) -> dict:
     return data
 
 
-def list_rows(page: str) -> list[dict]:
+def list_rows(page: str, prose: bool = False) -> list[dict]:
     html = _get({"action": "parse", "page": page, "prop": "text", "redirects": 1}, f"parse:{page}")
     if "parse" not in html:
         return []   # no such page
-    parser = ListPage()
+    parser = ListPage(prose)
     parser.feed(html["parse"]["text"])
     return [r for r in parser.rows if not NOT_DISH_TITLE.search(r["title"])]
 
@@ -527,7 +578,7 @@ def main() -> None:
     listed: dict[str, dict] = {}   # title -> where it was listed (country, region, lists, sections, regions)
     missing = []
     for country, region, list_page in sources():
-        rows = list_rows(list_page)
+        rows = list_rows(list_page, reads_prose(country, list_page))
         if not rows:
             missing.append(list_page)
             continue
@@ -547,6 +598,8 @@ def main() -> None:
                 entry["countries"].append(country)
             if list_page not in entry["lists"]:
                 entry["lists"].append(list_page)
+            if not r.get("prose"):
+                entry["listed"] = True   # in a list or table, not only named in a paragraph
             if r["section"] and r["section"] not in entry["sections"]:
                 entry["sections"].append(r["section"])
             entry["regions"] += [x for x in r["regions"] if x not in entry["regions"]]
@@ -578,6 +631,15 @@ def main() -> None:
             continue   # not from a country the app shows (picked up later)
         intro = page["intro"]
         region = entry["region"]
+        tags = traditions(entry["lists"], intro)
+        only_indigenous = all(p in INDIGENOUS_PAGES for p in entry["lists"])
+        if only_indigenous and not tags:
+            continue   # an Indigenous page links it, but its intro does not name the people
+        if not entry.get("listed") and not tags and not (
+                country in ATLAS_SPRINT_COUNTRIES
+                and sprint_country([c for c in entry.get("countries", []) if c in ATLAS_SPRINT_COUNTRIES],
+                                   intro, f.get("origin", []))):
+            continue   # only named in a paragraph, and no source claims it for the page's country
         if country in ATLAS_SPRINT_COUNTRIES:
             # A sprint country's page linked it: keep a country the sources claim; else another listing's
             # country, else its Wikidata origin, else it waits
@@ -598,6 +660,7 @@ def main() -> None:
             "qid": page["qid"], "name": page["title"], "country": country, "region": region,
             "kind": "dish" if dishes_set.intersection(f.get("types", [])) else "food or drink",
             "sections": [" > ".join(s) for s in entry["sections"]], "regions": entry["regions"][:6],
+            **({"traditions": tags} if tags else {}),
             "summary": (sentences(intro) or [""])[0],
             "fun_fact_candidates": fact_candidates(intro),
             "story_candidates": [x for x in stories.get(page["title"], []) if x not in fact_candidates(intro)],

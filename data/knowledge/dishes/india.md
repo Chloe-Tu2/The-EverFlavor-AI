@@ -182,6 +182,7 @@ Learn more:
 
 - quick: [Bebinca (Wikipedia)](https://en.wikipedia.org/wiki/Bebinca)
 - more: [Mozambican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mozambican_cuisine)
+- more: [Cuisine of Mozambique (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Mozambique)
 - deep: [Books about Bebinca (Open Library)](https://openlibrary.org/search?q=Bebinca)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3270102)
 
@@ -371,6 +372,7 @@ Learn more:
 
 - quick: [Butter chicken (Wikipedia)](https://en.wikipedia.org/wiki/Butter_chicken)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Māori cuisine (Wikipedia)](https://en.wikipedia.org/wiki/M%C4%81ori_cuisine)
 - deep: [Books about Butter chicken (Open Library)](https://openlibrary.org/search?q=Butter%20chicken)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1322549)
 
@@ -993,6 +995,7 @@ Learn more:
 
 - quick: [Jalebi (Wikipedia)](https://en.wikipedia.org/wiki/Jalebi)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Jalebi (Open Library)](https://openlibrary.org/search?q=Jalebi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q59139)
 
@@ -1065,6 +1068,7 @@ Learn more:
 
 - quick: [Kadhi (Wikipedia)](https://en.wikipedia.org/wiki/Kadhi)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Kadhi (Open Library)](https://openlibrary.org/search?q=Kadhi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6345457)
 
@@ -1724,6 +1728,7 @@ Learn more:
 
 - quick: [Pakora (Wikipedia)](https://en.wikipedia.org/wiki/Pakora)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Djiboutian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Djiboutian_cuisine)
 - deep: [Books about Pakora (Open Library)](https://openlibrary.org/search?q=Pakora)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1126275)
 
@@ -2177,6 +2182,7 @@ Learn more:
 
 - quick: [Rasgulla (Wikipedia)](https://en.wikipedia.org/wiki/Rasgulla)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Rasgulla (Open Library)](https://openlibrary.org/search?q=Rasgulla)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3349224)
 
@@ -2484,6 +2490,7 @@ Learn more:
 
 - quick: [Thali (Wikipedia)](https://en.wikipedia.org/wiki/Thali)
 - more: [Indian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Indian_cuisine)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Thali (Open Library)](https://openlibrary.org/search?q=Thali)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1642148)
 
@@ -2670,6 +2677,7 @@ Learn more:
 
 - quick: [Vindaloo (Wikipedia)](https://en.wikipedia.org/wiki/Vindaloo)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Vindaloo (Open Library)](https://openlibrary.org/search?q=Vindaloo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1339633)
 
@@ -2941,6 +2949,7 @@ Learn more:
 
 - quick: [Chikki (Wikipedia)](https://en.wikipedia.org/wiki/Chikki)
 - more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
+- more: [Cuisine of Angola (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Angola)
 - deep: [Books about Chikki (Open Library)](https://openlibrary.org/search?q=Chikki)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3535125)
 
@@ -3336,6 +3345,7 @@ Learn more:
 
 - quick: [Kachori (Wikipedia)](https://en.wikipedia.org/wiki/Kachori)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Kachori (Open Library)](https://openlibrary.org/search?q=Kachori)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2726464)
 
@@ -3576,6 +3586,7 @@ Learn more:
 
 - quick: [Laapsi (Wikipedia)](https://en.wikipedia.org/wiki/Laapsi)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Laapsi (Open Library)](https://openlibrary.org/search?q=Laapsi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q65283988)
 
@@ -3658,6 +3669,7 @@ Learn more:
 
 - quick: [Masala chai (Wikipedia)](https://en.wikipedia.org/wiki/Masala_chai)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Masala chai (Open Library)](https://openlibrary.org/search?q=Masala%20chai)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q877661)
 
@@ -3684,7 +3696,7 @@ Learn more:
 
 - quick: [Millet (Wikipedia)](https://en.wikipedia.org/wiki/Millet)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
-- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
 - deep: [Books about Millet (Open Library)](https://openlibrary.org/search?q=Millet)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q259438)
 
@@ -3729,6 +3741,7 @@ Learn more:
 
 - quick: [Modak (Wikipedia)](https://en.wikipedia.org/wiki/Modak)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Modak (Open Library)](https://openlibrary.org/search?q=Modak)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2673557)
 
@@ -3920,6 +3933,7 @@ Learn more:
 
 - quick: [Peda (Wikipedia)](https://en.wikipedia.org/wiki/Peda)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Peda (Open Library)](https://openlibrary.org/search?q=Peda)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2723794)
 
@@ -4188,7 +4202,7 @@ Learn more:
 
 - quick: [Spice (Wikipedia)](https://en.wikipedia.org/wiki/Spice)
 - more: [Indian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Indian_cuisine)
-- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
 - deep: [Books about Spice (Open Library)](https://openlibrary.org/search?q=Spice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q42527)
 

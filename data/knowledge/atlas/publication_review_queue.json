@@ -23,7 +23,6 @@
   "Sri Lanka is not in the place tree yet": 7,
   "Paraguay is not in the place tree yet": 5,
   "Cyprus is not in the place tree yet": 4,
-  "Guam is not in the place tree yet": 4,
   "Moldova is not in the place tree yet": 4,
   "Mongolia is not in the place tree yet": 4,
   "Bhutan is not in the place tree yet": 3,
@@ -58,7 +57,6 @@
   "Bermuda is not in the place tree yet": 1,
   "Bolivia is not in the place tree yet": 1,
   "'British Hong Kong' is not one of today's countries (a region, city or former state): a person places it": 1,
-  "British Virgin Islands is not in the place tree yet": 1,
   "'Byzantine Empire' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Carpathians' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Caucasus' is not one of today's countries (a region, city or former state): a person places it": 1,
@@ -103,6 +101,7 @@
   "'Tatarstan' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Thuringia' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Turin' is not one of today's countries (a region, city or former state): a person places it": 1,
+  "United States Virgin Islands is not in the place tree yet": 1,
   "'West Africa' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Xinjiang' is not one of today's countries (a region, city or former state): a person places it": 1
  },
@@ -267,15 +266,6 @@
    "subregion": "(not placed)",
    "problems": [
     "'British Raj' is not one of today's countries (a region, city or former state): a person places it"
-   ]
-  },
-  {
-   "dish": "Dumb bread",
-   "wikidata": "Q125797909",
-   "country": "British Virgin Islands",
-   "subregion": "Caribbean",
-   "problems": [
-    "British Virgin Islands is not in the place tree yet"
    ]
   },
   {
@@ -907,42 +897,6 @@
    "subregion": "Northern America",
    "problems": [
     "Greenland is not in the place tree yet"
-   ]
-  },
-  {
-   "dish": "Guyuria",
-   "wikidata": "Q5622888",
-   "country": "Guam",
-   "subregion": "Micronesian Region",
-   "problems": [
-    "Guam is not in the place tree yet"
-   ]
-  },
-  {
-   "dish": "Kalamai",
-   "wikidata": "Q3192094",
-   "country": "Guam",
-   "subregion": "Micronesian Region",
-   "problems": [
-    "Guam is not in the place tree yet"
-   ]
-  },
-  {
-   "dish": "Latiya",
-   "wikidata": "Q115804031",
-   "country": "Guam",
-   "subregion": "Micronesian Region",
-   "problems": [
-    "Guam is not in the place tree yet"
-   ]
-  },
-  {
-   "dish": "Roskette",
-   "wikidata": "Q7369003",
-   "country": "Guam",
-   "subregion": "Micronesian Region",
-   "problems": [
-    "Guam is not in the place tree yet"
    ]
   },
   {
@@ -2527,6 +2481,15 @@
    "subregion": "Northern Europe",
    "problems": [
     "in more than 3 families: check which one it belongs to"
+   ]
+  },
+  {
+   "dish": "Dumb bread",
+   "wikidata": "Q125797909",
+   "country": "United States Virgin Islands",
+   "subregion": "Caribbean",
+   "problems": [
+    "United States Virgin Islands is not in the place tree yet"
    ]
   },
   {

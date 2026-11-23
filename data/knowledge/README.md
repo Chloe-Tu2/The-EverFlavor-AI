@@ -2,8 +2,8 @@
 
 Facts the waiter may tell, collected from open sources, never invented (for the waiter, planned for 0.6.3).
 
-- `dishes.jsonl`: one dish or food per line (2026-11-22: 5,129; 3,371 dishes, the rest foods and drinks, from 95 countries;
-  2,943 with fun-fact candidates and 2,469 with story sentences; on 2026-11-11, 11,044 facts shown first and 9,035
+- `dishes.jsonl`: one dish or food per line (2026-11-23: 5,253; 3,422 dishes, the rest foods and drinks, from 112 countries;
+  3,019 with fun-fact candidates and 2,512 with story sentences; on 2026-11-11, 11,044 facts shown first and 9,035
   "more"), built by
   `scripts/knowledge/fetch_knowledge.py`. It starts with what
   the app shows: the 54 countries in its Country list and its 22 regions (other countries later).
@@ -38,7 +38,11 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   backlog checked again); `taxonomy_validation.json`, the place tree against the UN regions
   (`taxonomy_validation.py`); `rich_dish_upgrade_queue.json` and `walter_enrichment_queue.json`, the work queues
   (`enrichment_queues.py`); `atlas/culinary_coverage.json`, world culinary coverage per country (`culinary_coverage.py`);
-  `food_graph_validation.json`, the graph's links checked (`graph_validation.py`).
+  `food_graph_validation.json`, the graph's links checked (`graph_validation.py`); `atlas/atlas_metrics.json`, the
+  atlas KPIs (coverage, representation, enrichment, preservation, recovery; `enrichment_impact.py`);
+  `atlas/indigenous_traditions.json`, the Indigenous traditions and their tagged foods, all unreviewed
+  (`culinary_coverage.py`, rubric in `docs/governance/indigenous_review.md`); `atlas/regions/`, one knowledge page
+  per food region (`region_pages.py`).
 - `countries.json`: the world's countries and territories (Wikidata, CC0: ISO code, continent, population), from
   `scripts/knowledge/fetch_countries.py`, for the coverage audit.
 - `coverage/`: the coverage audit (`scripts/knowledge/coverage_audit.py`; reports in `docs/audits/`): coverage by

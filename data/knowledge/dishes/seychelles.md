@@ -18,6 +18,7 @@ Learn more:
 
 - quick: [Ladob (Wikipedia)](https://en.wikipedia.org/wiki/Ladob)
 - more: [Seychellois cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Seychellois_cuisine)
+- more: [Cuisine of Seychelles (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Seychelles)
 - deep: [Books about Ladob (Open Library)](https://openlibrary.org/search?q=Ladob)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6469786)
 
@@ -39,6 +40,7 @@ Learn more:
 
 - quick: [Saffron rice (Wikipedia)](https://en.wikipedia.org/wiki/Saffron_rice)
 - more: [Seychellois cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Seychellois_cuisine)
+- more: [Cuisine of Seychelles (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Seychelles)
 - deep: [Books about Saffron rice (Open Library)](https://openlibrary.org/search?q=Saffron%20rice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7398745)
 
@@ -60,7 +62,7 @@ Learn more:
 
 - quick: [Shark chutney (Wikipedia)](https://en.wikipedia.org/wiki/Shark_chutney)
 - more: [Seychellois cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Seychellois_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Seychelles (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Seychelles)
 - deep: [Books about Shark chutney (Open Library)](https://openlibrary.org/search?q=Shark%20chutney)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7489821)
 

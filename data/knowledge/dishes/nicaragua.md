@@ -12,6 +12,7 @@ Learn more:
 
 - quick: [Gallina rellena (Wikipedia)](https://en.wikipedia.org/wiki/Gallina_rellena)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Gallina rellena (Open Library)](https://openlibrary.org/search?q=Gallina%20rellena)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q42417224)
 
@@ -33,6 +34,7 @@ Learn more:
 
 - quick: [Gallo pinto (Wikipedia)](https://en.wikipedia.org/wiki/Gallo_pinto)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Gallo pinto (Open Library)](https://openlibrary.org/search?q=Gallo%20pinto)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1492566)
 
@@ -54,6 +56,7 @@ Learn more:
 
 - quick: [Güirila (Wikipedia)](https://en.wikipedia.org/wiki/G%C3%BCirila)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Güirila (Open Library)](https://openlibrary.org/search?q=G%C3%BCirila)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5626815)
 
@@ -73,6 +76,7 @@ Learn more:
 
 - quick: [Indio viejo (Wikipedia)](https://en.wikipedia.org/wiki/Indio_viejo)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Indio viejo (Open Library)](https://openlibrary.org/search?q=Indio%20viejo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q98594037)
 
@@ -99,6 +103,7 @@ Learn more:
 
 - quick: [Nacatamal (Wikipedia)](https://en.wikipedia.org/wiki/Nacatamal)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Nacatamal (Open Library)](https://openlibrary.org/search?q=Nacatamal)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1962115)
 
@@ -121,6 +126,7 @@ Learn more:
 
 - quick: [Pio Quinto (Wikipedia)](https://en.wikipedia.org/wiki/Pio_Quinto)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Pio Quinto (Open Library)](https://openlibrary.org/search?q=Pio%20Quinto)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16943688)
 
@@ -143,6 +149,7 @@ Learn more:
 
 - quick: [Vaho (Wikipedia)](https://en.wikipedia.org/wiki/Vaho)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Vaho (Open Library)](https://openlibrary.org/search?q=Vaho)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7908657)
 
@@ -164,6 +171,7 @@ Learn more:
 
 - quick: [Vigorón (Wikipedia)](https://en.wikipedia.org/wiki/Vigor%C3%B3n)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Vigorón (Open Library)](https://openlibrary.org/search?q=Vigor%C3%B3n)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17104228)
 
@@ -197,7 +205,59 @@ Learn more:
 
 - quick: [Kola Shaler (Wikipedia)](https://en.wikipedia.org/wiki/Kola_Shaler)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Kola Shaler (Open Library)](https://openlibrary.org/search?q=Kola%20Shaler)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2206673)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2206673) (CC0); [Wikipedia: Kola Shaler](https://en.wikipedia.org/wiki/Kola_Shaler) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Macuá
+
+The Macuá is a cocktail made with white rum and fruit juices, usually lemon and guava juice.
+
+- From: Nicaragua
+
+Fun facts:
+
+- (inspiration) The drink is named after pajaro macuá, a tropical bird native to the country.
+- (about) The drink rose to fame in October 2006, when it was entered in a competition to choose a national drink of Nicaragua.
+- (inspiration) The Macuá was invented by Edmundo Miranda, a pediatrician from Granada, a small and historic city on the shores of Lake Nicaragua.
+
+Learn more:
+
+- quick: [Macuá (Wikipedia)](https://en.wikipedia.org/wiki/Macu%C3%A1)
+- more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
+- deep: [Books about Macuá (Open Library)](https://openlibrary.org/search?q=Macu%C3%A1)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1883068)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1883068) (CC0); [Wikipedia: Macuá](https://en.wikipedia.org/wiki/Macuá) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pinolillo
+
+Pinolillo is a traditional, nutrient-dense cornmeal and cacao-based drink that has been consumed in Nicaragua and Costa Rica for centuries, including by indigenous people before European contact.
+
+- From: Nicaragua
+- Origin (Wikidata): Nicaragua
+- Ingredients (Wikidata): cornmeal
+
+Fun facts:
+
+- (culture) Pinolillo is traditionally served out of an artisanal gourd called a jícara or cumbo, which is made from the hard shell of the jicaro fruit.
+- (origin) Pinolillo comes from Nicaragua.
+- (about) The popular saying is frequently used by the Nicaraguan co-president, Daniel Ortega, in his speeches.
+
+More fun facts (when the user asks for more):
+
+- (culture) Consumption of pinolillo is so widespread and traditional that the substance has become a symbol of Nicaraguan culture.
+- (culture) The sweet drink is made of toasted corn, a small amount of roasted cacao, and spices such as cinnamon, allspice and cloves, traditionally ground with a mortar and pestle.
+
+Learn more:
+
+- quick: [Pinolillo (Wikipedia)](https://en.wikipedia.org/wiki/Pinolillo)
+- more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
+- deep: [Books about Pinolillo (Open Library)](https://openlibrary.org/search?q=Pinolillo)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q932922)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q932922) (CC0); [Wikipedia: Pinolillo](https://en.wikipedia.org/wiki/Pinolillo) (CC BY-SA 4.0). Review: auto-cleaned.

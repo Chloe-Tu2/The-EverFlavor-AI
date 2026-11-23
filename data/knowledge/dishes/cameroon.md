@@ -37,6 +37,7 @@ Learn more:
 
 - quick: [Bongo'o (Wikipedia)](https://en.wikipedia.org/wiki/Bongo%27o)
 - more: [Cameroonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cameroonian_cuisine)
+- more: [Cuisine of Cameroon (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Cameroon)
 - deep: [Books about Bongo'o (Open Library)](https://openlibrary.org/search?q=Bongo%27o)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28498840)
 
@@ -105,7 +106,7 @@ Learn more:
 
 - quick: [Koki (food) (Wikipedia)](https://en.wikipedia.org/wiki/Koki_%28food%29)
 - more: [Cameroonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cameroonian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Cameroon (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Cameroon)
 - deep: [Books about Koki (food) (Open Library)](https://openlibrary.org/search?q=Koki%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3198369)
 
@@ -128,6 +129,7 @@ Learn more:
 
 - quick: [Kondreh (food) (Wikipedia)](https://en.wikipedia.org/wiki/Kondreh_%28food%29)
 - more: [Cameroonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cameroonian_cuisine)
+- more: [Cuisine of Cameroon (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Cameroon)
 - deep: [Books about Kondreh (food) (Open Library)](https://openlibrary.org/search?q=Kondreh%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q56311538)
 
@@ -155,7 +157,7 @@ Learn more:
 
 - quick: [Ndolé (Wikipedia)](https://en.wikipedia.org/wiki/Ndol%C3%A9)
 - more: [Cameroonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cameroonian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Cameroon (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Cameroon)
 - deep: [Books about Ndolé (Open Library)](https://openlibrary.org/search?q=Ndol%C3%A9)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1131837)
 

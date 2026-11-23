@@ -1,0 +1,331 @@
+{
+ "by": "scripts/knowledge/culinary_coverage.py",
+ "rubric": "docs/governance/indigenous_review.md",
+ "licence": "Wikipedia CC BY-SA 4.0, Wikidata CC0",
+ "traditions": [
+  {
+   "name": "Māori",
+   "people": "Māori",
+   "country": "New Zealand",
+   "sources": [
+    {
+     "name": "Wikipedia: Māori cuisine",
+     "url": "https://en.wikipedia.org/wiki/Māori_cuisine",
+     "licence": "CC BY-SA 4.0"
+    }
+   ],
+   "foods": [
+    {
+     "name": "Boil up",
+     "qid": "Q61078926",
+     "country": "Australia",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Rēwena bread",
+     "qid": "Q3360600",
+     "country": "Australia",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Kānga pirau",
+     "qid": "Q65041794",
+     "country": "New Zealand",
+     "kind": "food or drink",
+     "reviewed": false
+    },
+    {
+     "name": "Kānga waru",
+     "qid": "Q112762474",
+     "country": "New Zealand",
+     "kind": "food or drink",
+     "reviewed": false
+    },
+    {
+     "name": "Pāua",
+     "qid": "Q2658241",
+     "country": "New Zealand",
+     "kind": "food or drink",
+     "reviewed": false
+    }
+   ]
+  },
+  {
+   "name": "Aboriginal Australian",
+   "people": "Aboriginal Australian",
+   "country": "Australia",
+   "sources": [
+    {
+     "name": "Wikipedia: Bush tucker",
+     "url": "https://en.wikipedia.org/wiki/Bush_tucker",
+     "licence": "CC BY-SA 4.0"
+    }
+   ],
+   "foods": [
+    {
+     "name": "Bush bread",
+     "qid": "Q1017266",
+     "country": "Australia",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Bush tomato",
+     "qid": "Q5001454",
+     "country": "Australia",
+     "kind": "food or drink",
+     "reviewed": false
+    },
+    {
+     "name": "Witchetty grub",
+     "qid": "Q1476479",
+     "country": "Australia",
+     "kind": "food or drink",
+     "reviewed": false
+    }
+   ]
+  },
+  {
+   "name": "Native American",
+   "people": "Native American",
+   "country": "several (Wikidata origin decides)",
+   "sources": [
+    {
+     "name": "Wikipedia: Native American cuisine",
+     "url": "https://en.wikipedia.org/wiki/Native_American_cuisine",
+     "licence": "CC BY-SA 4.0"
+    },
+    {
+     "name": "Wikipedia: Indigenous cuisine of the Americas",
+     "url": "https://en.wikipedia.org/wiki/Indigenous_cuisine_of_the_Americas",
+     "licence": "CC BY-SA 4.0"
+    }
+   ],
+   "foods": [
+    {
+     "name": "Cauim",
+     "qid": "Q2943094",
+     "country": "Brazil",
+     "kind": "food or drink",
+     "reviewed": false
+    },
+    {
+     "name": "Maniçoba",
+     "qid": "Q6750304",
+     "country": "Brazil",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Moqueca",
+     "qid": "Q1929676",
+     "country": "Brazil",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Paçoca",
+     "qid": "Q3373739",
+     "country": "Brazil",
+     "kind": "food or drink",
+     "reviewed": false
+    },
+    {
+     "name": "Bannock (Indigenous American food)",
+     "qid": "Q109827446",
+     "country": "Canada",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Pemmican",
+     "qid": "Q130097",
+     "country": "Canada",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Casabe",
+     "qid": "Q9185291",
+     "country": "Cuba",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Bammy",
+     "qid": "Q4853511",
+     "country": "Jamaica",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Jerk (cooking)",
+     "qid": "Q6127463",
+     "country": "Jamaica",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Maize",
+     "qid": "Q11575",
+     "country": "Mexico",
+     "kind": "food or drink",
+     "reviewed": false
+    },
+    {
+     "name": "Frybread",
+     "qid": "Q7214426",
+     "country": "United States",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Maple syrup",
+     "qid": "Q402563",
+     "country": "United States",
+     "kind": "food or drink",
+     "reviewed": false
+    }
+   ]
+  },
+  {
+   "name": "Inuit",
+   "people": "Inuit",
+   "country": "Canada",
+   "sources": [
+    {
+     "name": "Wikipedia: Inuit cuisine",
+     "url": "https://en.wikipedia.org/wiki/Inuit_cuisine",
+     "licence": "CC BY-SA 4.0"
+    }
+   ],
+   "foods": [
+    {
+     "name": "Bannock (Indigenous American food)",
+     "qid": "Q109827446",
+     "country": "Canada",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Muktuk",
+     "qid": "Q940033",
+     "country": "Canada",
+     "kind": "food or drink",
+     "reviewed": false
+    }
+   ]
+  },
+  {
+   "name": "Sámi",
+   "people": "Sámi",
+   "country": "several (Wikidata origin decides)",
+   "sources": [
+    {
+     "name": "Wikipedia: Sámi cuisine",
+     "url": "https://en.wikipedia.org/wiki/Sámi_cuisine",
+     "licence": "CC BY-SA 4.0"
+    }
+   ],
+   "foods": []
+  },
+  {
+   "name": "Ainu",
+   "people": "Ainu",
+   "country": "Japan",
+   "sources": [
+    {
+     "name": "Wikipedia: Ainu cuisine",
+     "url": "https://en.wikipedia.org/wiki/Ainu_cuisine",
+     "licence": "CC BY-SA 4.0"
+    }
+   ],
+   "foods": []
+  },
+  {
+   "name": "Mapuche",
+   "people": "Mapuche",
+   "country": "Chile",
+   "sources": [
+    {
+     "name": "Wikipedia: Mapuche cuisine",
+     "url": "https://en.wikipedia.org/wiki/Mapuche_cuisine",
+     "licence": "CC BY-SA 4.0"
+    }
+   ],
+   "foods": []
+  },
+  {
+   "name": "Native Hawaiian",
+   "people": "Native Hawaiian",
+   "country": "United States",
+   "sources": [
+    {
+     "name": "Wikipedia: Native Hawaiian cuisine",
+     "url": "https://en.wikipedia.org/wiki/Native_Hawaiian_cuisine",
+     "licence": "CC BY-SA 4.0"
+    }
+   ],
+   "foods": [
+    {
+     "name": "Haupia",
+     "qid": "Q3269528",
+     "country": "United States",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Inamona",
+     "qid": "Q16254010",
+     "country": "United States",
+     "kind": "food or drink",
+     "reviewed": false
+    },
+    {
+     "name": "Kūlolo",
+     "qid": "Q4246421",
+     "country": "United States",
+     "kind": "dish",
+     "reviewed": false
+    }
+   ]
+  },
+  {
+   "name": "Chamorro",
+   "people": "Chamorro",
+   "country": "Guam",
+   "sources": [
+    {
+     "name": "Wikipedia: Chamorro cuisine",
+     "url": "https://en.wikipedia.org/wiki/Chamorro_cuisine",
+     "licence": "CC BY-SA 4.0"
+    }
+   ],
+   "foods": [
+    {
+     "name": "Fina'denne'",
+     "qid": "Q5449338",
+     "country": "Guam",
+     "kind": "food or drink",
+     "reviewed": false
+    },
+    {
+     "name": "Guyuria",
+     "qid": "Q5622888",
+     "country": "Guam",
+     "kind": "dish",
+     "reviewed": false
+    },
+    {
+     "name": "Kelaguen",
+     "qid": "Q6385448",
+     "country": "Guam",
+     "kind": "dish",
+     "reviewed": false
+    }
+   ]
+  }
+ ]
+}

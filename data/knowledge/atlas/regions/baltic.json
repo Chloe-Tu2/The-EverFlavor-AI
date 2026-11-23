@@ -1,0 +1,42 @@
+{
+ "id": "baltic",
+ "name": "Baltic States",
+ "continent": "Europe",
+ "countries": [
+  "Estonia"
+ ],
+ "countries_with_a_dish": [],
+ "coverage_score": 0.0,
+ "dish_count": 0,
+ "food_and_drink_count": 0,
+ "story_count": 0,
+ "representative_dishes": [],
+ "dish_families": [],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "British Isles",
+  "Central Europe",
+  "Eastern Europe",
+  "Mediterranean Europe",
+  "Nordic Countries",
+  "Western Europe"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

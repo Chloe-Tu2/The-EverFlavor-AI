@@ -1437,6 +1437,7 @@ Learn more:
 
 - quick: [Ragout (Wikipedia)](https://en.wikipedia.org/wiki/Ragout)
 - more: [List of German dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_German_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Ragout (Open Library)](https://openlibrary.org/search?q=Ragout)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q565767)
 

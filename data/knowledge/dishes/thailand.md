@@ -384,7 +384,7 @@ Green papaya salad is a spicy salad made from shredded unripe papaya.
 
 - From: Thailand
 - Origin (Wikidata): Southeast Asia
-- Ingredients (Wikidata): nam pu, garlic, tamarind paste, salted crab, bird's eye chili, fish sauce, shrimp paste, Padaek, papaya
+- Ingredients (Wikidata): bird's eye chili, fish sauce, shrimp paste, Padaek, papaya, nam pu, garlic, tamarind paste, salted crab
 
 Fun facts:
 
@@ -1978,7 +1978,7 @@ Learn more:
 
 - quick: [Condensed milk (Wikipedia)](https://en.wikipedia.org/wiki/Condensed_milk)
 - more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
-- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
+- more: [Tongan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tongan_cuisine)
 - deep: [Books about Condensed milk (Open Library)](https://openlibrary.org/search?q=Condensed%20milk)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2830455)
 

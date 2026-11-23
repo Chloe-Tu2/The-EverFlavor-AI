@@ -430,6 +430,7 @@ Learn more:
 
 - quick: [Fruitcake (Wikipedia)](https://en.wikipedia.org/wiki/Fruitcake)
 - more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Fruitcake (Open Library)](https://openlibrary.org/search?q=Fruitcake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q675987)
 
@@ -1001,6 +1002,7 @@ Learn more:
 
 - quick: [Polonaise sauce (Wikipedia)](https://en.wikipedia.org/wiki/Polonaise_sauce)
 - more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Polonaise sauce (Open Library)](https://openlibrary.org/search?q=Polonaise%20sauce)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1328767)
 
@@ -1155,6 +1157,7 @@ Learn more:
 
 - quick: [Pâté (Wikipedia)](https://en.wikipedia.org/wiki/P%C3%A2t%C3%A9)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Togolese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Togolese_cuisine)
 - deep: [Books about Pâté (Open Library)](https://openlibrary.org/search?q=P%C3%A2t%C3%A9)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q816704)
 
@@ -2014,6 +2017,7 @@ Learn more:
 
 - quick: [Kefir (Wikipedia)](https://en.wikipedia.org/wiki/Kefir)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Tajik cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tajik_cuisine)
 - deep: [Books about Kefir (Open Library)](https://openlibrary.org/search?q=Kefir)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q185749)
 

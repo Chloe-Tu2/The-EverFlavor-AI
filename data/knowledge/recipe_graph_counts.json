@@ -4,54 +4,54 @@
  "recipes": 291755,
  "recipe_nodes": 291755,
  "by_relation": {
-  "recipe_from": 163370,
-  "recipe_of": 73517,
-  "none": 50593,
-  "named_for": 4275
+  "recipe_from": 163336,
+  "recipe_of": 73548,
+  "none": 50571,
+  "named_for": 4300
  },
  "by_source": {
   "culinarydb": {
-   "recipe_from": 21300,
-   "recipe_of": 10463,
-   "none": 2920,
-   "named_for": 642
+   "recipe_from": 21297,
+   "recipe_of": 10471,
+   "none": 2912,
+   "named_for": 645
   },
   "foodcom": {
-   "recipe_from": 119044,
-   "recipe_of": 53388,
-   "none": 42612,
-   "named_for": 2980
+   "recipe_from": 119023,
+   "recipe_of": 53405,
+   "none": 42598,
+   "named_for": 2998
   },
   "huggingface": {
-   "recipe_from": 22616,
-   "recipe_of": 9498,
+   "recipe_from": 22607,
+   "recipe_of": 9503,
    "none": 5061,
-   "named_for": 648
+   "named_for": 652
   },
   "themealdb": {
-   "recipe_from": 410,
-   "recipe_of": 168,
+   "recipe_from": 409,
+   "recipe_of": 169,
    "named_for": 5
   }
  },
  "recipe_from_by_place": {
-  "United States": 88684,
-  "Italy": 14665,
+  "United States": 88668,
+  "Italy": 14664,
   "Mexico": 6969,
-  "France": 5744,
-  "India": 5398,
+  "France": 5742,
+  "India": 5390,
   "China": 4093,
   "Greece": 3134,
   "Southern US": 3101,
   "Canada": 2402,
   "Australia": 2153,
-  "United Kingdom": 1921,
+  "United Kingdom": 1920,
   "Midwestern US": 1791,
   "Thailand": 1714,
   "Japan": 1636,
   "Spain": 1289,
   "Southwestern US": 1205,
-  "Morocco": 1201,
+  "Morocco": 1200,
   "Northeastern US": 1136,
   "Louisiana": 1083,
   "Germany": 1019,
@@ -59,7 +59,7 @@
   "Texas": 930,
   "California": 553,
   "Ontario": 499,
-  "South Africa": 482,
+  "South Africa": 481,
   "Ireland": 477,
   "South Korea": 445,
   "British Columbia": 406,
@@ -70,7 +70,7 @@
   "Vietnam": 339,
   "Iran": 334,
   "Jamaica": 326,
-  "Hawaii": 316,
+  "Hawaii": 314,
   "Sweden": 313,
   "New Zealand": 307,
   "Poland": 298,
@@ -95,10 +95,10 @@
   "Austria": 78,
   "Sichuan": 77,
   "Baja California": 74,
-  "Ethiopia": 73,
   "Peru": 72,
+  "Ethiopia": 72,
   "Saudi Arabia": 62,
-  "Pakistan": 62,
+  "Pakistan": 61,
   "Wales": 58,
   "Iraq": 56,
   "Puerto Rico": 55,
@@ -151,6 +151,6 @@
   "Andorra": 1
  },
  "no_edge_by_country": {
-  "(no country)": 50593
+  "(no country)": 50571
  }
 }

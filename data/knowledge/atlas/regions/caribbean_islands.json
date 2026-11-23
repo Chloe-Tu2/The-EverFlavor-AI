@@ -1,0 +1,79 @@
+{
+ "id": "caribbean_islands",
+ "name": "Caribbean Islands",
+ "continent": "Caribbean",
+ "countries": [
+  "Antigua and Barbuda",
+  "Aruba",
+  "Barbados",
+  "Cayman Islands",
+  "Cuba",
+  "Dominica",
+  "Dominican Republic",
+  "Haiti",
+  "Jamaica",
+  "Puerto Rico",
+  "The Bahamas",
+  "Trinidad and Tobago"
+ ],
+ "countries_with_a_dish": [
+  "Barbados",
+  "Cuba",
+  "Dominican Republic",
+  "Haiti",
+  "Jamaica",
+  "Puerto Rico",
+  "The Bahamas",
+  "Trinidad and Tobago"
+ ],
+ "coverage_score": 53.1,
+ "dish_count": 94,
+ "food_and_drink_count": 72,
+ "story_count": 71,
+ "representative_dishes": [
+  "Soto (food)",
+  "Roti",
+  "Banana bread",
+  "Black Forest gateau",
+  "Doughnut",
+  "Rice cake",
+  "Hummingbird cake",
+  "Jerk (cooking)"
+ ],
+ "dish_families": [
+  "fish dish",
+  "soup",
+  "bread",
+  "pastry",
+  "sandwich",
+  "rice dish",
+  "cake",
+  "pie"
+ ],
+ "indigenous_traditions": [
+  {
+   "tradition": "Native American",
+   "foods": 3,
+   "reviewed": false
+  }
+ ],
+ "related_regions": [],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

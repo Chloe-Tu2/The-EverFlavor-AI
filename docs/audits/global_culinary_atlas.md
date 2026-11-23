@@ -15,67 +15,65 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 
 | Continent | Countries | With dishes | Median dishes | Score | Band |
 |---|---:|---:|---:|---:|---|
-| Africa | 60 | 29 | 2 | 29.2 | thin |
-| Americas | 57 | 19 | 10 | 41.7 | thin |
-| Asia | 51 | 19 | 38 | 68.6 | fair |
+| Africa | 60 | 34 | 2 | 33.3 | thin |
+| Americas | 57 | 22 | 8.5 | 40.5 | thin |
+| Asia | 51 | 22 | 24.5 | 71.6 | fair |
 | Europe | 53 | 20 | 46 | 68.9 | fair |
-| Oceania | 29 | 3 | 1 | 7.7 | gap |
+| Oceania | 29 | 5 | 2 | 13.6 | gap |
 
 ## Subregions
 
 | Region | Countries | With dishes | Median dishes | Score | Band | Ready | To review | Blocked |
 |---|---:|---:|---:|---:|---|---:|---:|---:|
-| Melanesia (Oceania) | 5 | 0 | 0 | 0 | gap |  |  |  |
-| Micronesian Region (Oceania) | 8 | 0 | 0 | 0 | gap |  | 4 |  |
-| Polynesia (Oceania) | 10 | 1 | 1 | 7.5 | gap |  |  |  |
-| Caribbean (Americas) | 28 | 7 | 3 | 20 | gap | 6 | 2 | 1 |
+| Polynesia (Oceania) | 10 | 1 | 2 | 10 | gap |  |  |  |
+| Melanesia (Oceania) | 5 | 1 | 1 | 12.5 | gap |  |  |  |
+| Micronesian Region (Oceania) | 8 | 1 | 4 | 16.2 | gap | 1 |  |  |
+| Caribbean (Americas) | 28 | 8 | 4.5 | 25.5 | thin | 3 | 2 | 1 |
 | Western Africa (Africa) | 17 | 8 | 1 | 26 | thin | 10 |  |  |
-| Eastern Africa (Africa) | 22 | 10 | 1.5 | 26.5 | thin | 9 |  |  |
-| Middle Africa (Africa) | 9 | 4 | 2.5 | 28.5 | thin |  |  |  |
-| Central Asia (Asia) | 5 | 2 | 3.5 | 28.8 | thin | 4 |  |  |
-| Southern Asia (Asia) | 9 | 3 | 13 | 49.2 | thin | 105 | 13 | 2 |
-| Northern Africa (Africa) | 7 | 5 | 6 | 50.7 | fair | 9 |  |  |
-| Central America (Americas) | 8 | 5 | 8 | 51.2 | fair | 16 | 2 | 1 |
-| Southern Africa (Africa) | 5 | 2 | 14.5 | 56.2 | fair | 1 |  |  |
+| Middle Africa (Africa) | 9 | 5 | 2 | 32.8 | thin |  |  |  |
+| Eastern Africa (Africa) | 22 | 13 | 2 | 34.5 | thin | 5 |  |  |
+| Central America (Americas) | 8 | 7 | 3 | 51.2 | fair | 14 | 2 | 1 |
+| Southern Asia (Asia) | 9 | 3 | 14 | 51.7 | fair | 107 | 13 | 2 |
+| Central Asia (Asia) | 5 | 5 | 2 | 55 | fair | 2 |  |  |
 | Western Asia (Asia) | 18 | 5 | 18 | 58.9 | fair | 83 | 4 | 5 |
+| Southern Africa (Africa) | 5 | 2 | 16 | 60 | fair | 1 |  |  |
 | South America (Americas) | 16 | 5 | 18 | 60.6 | fair | 44 | 7 | 8 |
 | Southern Europe (Europe) | 17 | 4 | 80 | 61.8 | fair | 159 | 31 | 6 |
-| Australasia (Oceania) | 6 | 2 | 30 | 66.7 | fair | 6 |  | 3 |
+| Northern Africa (Africa) | 7 | 6 | 8.5 | 64.1 | fair | 8 |  |  |
+| Australasia (Oceania) | 6 | 2 | 31 | 66.7 | fair | 5 |  | 3 |
 | Northern Europe (Europe) | 17 | 6 | 34.5 | 67.6 | fair | 232 | 7 | 38 |
 | Eastern Asia (Asia) | 8 | 3 | 108 | 68.8 | fair | 257 | 7 | 11 |
-| Northern America (Americas) | 5 | 2 | 227 | 70 | fair | 166 | 2 | 50 |
+| Northern America (Americas) | 5 | 2 | 228 | 70 | fair | 166 | 2 | 50 |
 | Eastern Europe (Europe) | 10 | 4 | 45 | 70 | fair | 47 | 24 | 1 |
-| Southeast Asia (Asia) | 11 | 6 | 74.5 | 77.3 | good | 78 | 13 | 2 |
+| Southeast Asia (Asia) | 11 | 6 | 74.5 | 77.3 | good | 79 | 13 | 2 |
 | Western Europe (Europe) | 9 | 6 | 29 | 83.3 | good | 260 | 50 | 23 |
 
 ## Where the gaps are
 
-- **Melanesia:** 0 of 5 countries have a dish; none yet in Fiji, New Caledonia, Papua New Guinea, Solomon Islands, Vanuatu.
-- **Micronesian Region:** 0 of 8 countries have a dish; none yet in Federated States of Micronesia, Guam, Kiribati, Marshall Islands, Nauru, Northern Mariana Islands, Palau, United States Minor Outlying Islands.
 - **Polynesia:** 1 of 10 countries have a dish; none yet in American Samoa, Cook Islands, French Polynesia, Niue, Pitcairn Islands, Samoa, Tokelau, Tuvalu and more.
-- **Caribbean:** 7 of 28 countries have a dish; none yet in Anguilla, Antigua and Barbuda, Aruba, British Virgin Islands, Caribbean Netherlands, Cayman Islands, Curaçao, Dominica and more.
+- **Melanesia:** 1 of 5 countries have a dish; none yet in Fiji, Papua New Guinea, Solomon Islands, Vanuatu.
+- **Micronesian Region:** 1 of 8 countries have a dish; none yet in Federated States of Micronesia, Kiribati, Marshall Islands, Nauru, Northern Mariana Islands, Palau, United States Minor Outlying Islands.
+- **Caribbean:** 8 of 28 countries have a dish; none yet in Anguilla, Antigua and Barbuda, Aruba, British Virgin Islands, Caribbean Netherlands, Cayman Islands, Curaçao, Dominica and more.
 - **Western Africa:** 8 of 17 countries have a dish; none yet in Burkina Faso, Guinea, Guinea-Bissau, Liberia, Mali, Mauritania, Saint Helena, Ascension and Tristan da Cunha, Sierra Leone and more.
-- **Eastern Africa:** 10 of 22 countries have a dish; none yet in British Indian Ocean Territory, Burundi, Comoros, Djibouti, Eritrea, French Southern and Antarctic Lands, Kenya, Madagascar and more.
-- **Middle Africa:** 4 of 9 countries have a dish; none yet in Central African Republic, Congo, Equatorial Guinea, Gabon, São Tomé and Príncipe.
-- **Central Asia:** 2 of 5 countries have a dish; none yet in Kyrgyzstan, Tajikistan, Turkmenistan.
-- **Southern Asia:** 3 of 9 countries have a dish; none yet in Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, Sri Lanka.
+- **Middle Africa:** 5 of 9 countries have a dish; none yet in Congo, Equatorial Guinea, Gabon, São Tomé and Príncipe.
+- **Eastern Africa:** 13 of 22 countries have a dish; none yet in British Indian Ocean Territory, Burundi, Comoros, Djibouti, Eritrea, French Southern and Antarctic Lands, Mayotte, Réunion and more.
 
 ## The next dishes, per continent
 
 `<Continent>_Next_500.json`: up to 500 ready backlog dishes each, a dish whose family we have first, at most 40 per country, taking turns between subregions so no one region fills the list. They are candidates for a person to approve, not additions.
 
-- Africa: 29 dishes from 13 countries
-- Americas: 126 dishes from 16 countries
-- Asia: 346 dishes from 30 countries
+- Africa: 24 dishes from 10 countries
+- Americas: 121 dishes from 14 countries
+- Asia: 347 dishes from 30 countries
 - Europe: 411 dishes from 26 countries
-- Oceania: 6 dishes from 2 countries
+- Oceania: 6 dishes from 3 countries
 
 ## Versions we lack, and the review queue
 
-- `missing_variants.json`: 790 backlog dishes are versions of a dish EverFlavor already shows (their Wikidata family is one of our dishes), by subregion.
-- `publication_review_queue.json`: 275 dishes need a person first. The problems found:
+- `missing_variants.json`: 782 backlog dishes are versions of a dish EverFlavor already shows (their Wikidata family is one of our dishes), by subregion.
+- `publication_review_queue.json`: 271 dishes need a person first. The problems found:
   - not a country today (a region, city or former state): a person places it: 109 (Korea 30, Europe 3, Maghreb 3, West Germany 3, Ancient Rome 2, British Raj 2, ...)
-  - a country the place tree lacks yet: 109 (Romania 20, Slovenia 11, Myanmar 9, Serbia 8, Sri Lanka 7, Paraguay 5, ...)
+  - a country the place tree lacks yet: 105 (Romania 20, Slovenia 11, Myanmar 9, Serbia 8, Sri Lanka 7, Paraguay 5, ...)
   - in more than 3 families: check which one it belongs to: 51
   - a plant or animal on Wikidata, not a dish: 7
 

@@ -19,8 +19,8 @@ Fun facts:
 Learn more:
 
 - quick: [Mandazi (Wikipedia)](https://en.wikipedia.org/wiki/Mandazi)
-- more: [Ugandan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ugandan_cuisine)
-- more: [Rwandan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Rwandan_cuisine)
+- more: [Tanzanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tanzanian_cuisine)
+- more: [Cuisine of Tanzania (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tanzania)
 - deep: [Books about Mandazi (Open Library)](https://openlibrary.org/search?q=Mandazi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9027344)
 
@@ -46,3 +46,27 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q19958198)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q19958198) (CC0); [Wikipedia: Ming'oko](https://en.wikipedia.org/wiki/Ming'oko) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Chipsi mayai
+
+Chipsi mayai (Swahili for "chips and eggs"), also known as zege, is the most popular street food found all over Tanzania.
+
+- From: Tanzania
+- Origin (Wikidata): Tanzania
+- Ingredients (Wikidata): oil, egg as food, fries
+
+Fun facts:
+
+- (about) Chipsi mayai was invented in the streets of Dar es Salaam.
+- (culture) Chipsi mayai is the unofficial national dish of the country.
+- (origin) Chipsi mayai comes from Tanzania.
+
+Learn more:
+
+- quick: [Chipsi mayai (Wikipedia)](https://en.wikipedia.org/wiki/Chipsi_mayai)
+- more: [Tanzanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tanzanian_cuisine)
+- more: [Cuisine of Tanzania (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tanzania)
+- deep: [Books about Chipsi mayai (Open Library)](https://openlibrary.org/search?q=Chipsi%20mayai)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5101741)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5101741) (CC0); [Wikipedia: Chipsi mayai](https://en.wikipedia.org/wiki/Chipsi_mayai) (CC BY-SA 4.0). Review: auto-cleaned.

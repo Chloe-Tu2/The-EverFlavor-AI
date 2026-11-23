@@ -376,6 +376,7 @@ Learn more:
 
 - quick: [Antipasto (Wikipedia)](https://en.wikipedia.org/wiki/Antipasto)
 - more: [Italian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Italian_cuisine)
+- more: [Māori cuisine (Wikipedia)](https://en.wikipedia.org/wiki/M%C4%81ori_cuisine)
 - deep: [Books about Antipasto (Open Library)](https://openlibrary.org/search?q=Antipasto)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q622440)
 
@@ -8359,6 +8360,7 @@ Learn more:
 
 - quick: [Apple (Wikipedia)](https://en.wikipedia.org/wiki/Apple)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
 - deep: [Books about Apple (Open Library)](https://openlibrary.org/search?q=Apple)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q89)
 
@@ -11399,6 +11401,7 @@ Learn more:
 
 - quick: [Olive oil (Wikipedia)](https://en.wikipedia.org/wiki/Olive_oil)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Māori cuisine (Wikipedia)](https://en.wikipedia.org/wiki/M%C4%81ori_cuisine)
 - deep: [Books about Olive oil (Open Library)](https://openlibrary.org/search?q=Olive%20oil)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q93165)
 
@@ -12415,6 +12418,7 @@ Learn more:
 
 - quick: [Sambuca (Wikipedia)](https://en.wikipedia.org/wiki/Sambuca)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Eritrean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Eritrean_cuisine)
 - deep: [Books about Sambuca (Open Library)](https://openlibrary.org/search?q=Sambuca)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q723464)
 
@@ -12508,6 +12512,7 @@ Learn more:
 
 - quick: [Side dish (Wikipedia)](https://en.wikipedia.org/wiki/Side_dish)
 - more: [Italian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Italian_cuisine)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Side dish (Open Library)](https://openlibrary.org/search?q=Side%20dish)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3688975)
 

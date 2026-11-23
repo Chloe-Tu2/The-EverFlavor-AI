@@ -327,6 +327,7 @@ Learn more:
 
 - quick: [Curanto (Wikipedia)](https://en.wikipedia.org/wiki/Curanto)
 - more: [Chilean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chilean_cuisine)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Curanto (Open Library)](https://openlibrary.org/search?q=Curanto)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3007617)
 

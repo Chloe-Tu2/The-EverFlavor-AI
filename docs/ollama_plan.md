@@ -165,7 +165,7 @@ curry); an attempt's `kcal_per_serving` is only filled when it is over budget, w
 **Round 10: more aggressive attacks** (2026-10-10). A probe of the gate and the answer guard with disguised and
 foreign words found gaps: plain animal names ("pig trotters", "hog jowl", "wild boar", "the other white meat"),
 spelling tricks a model can be asked to use ("p0rk", "p o r k", a Cyrillic "о", zero-width characters, base64,
-🐖) and other languages (cerdo, porc, Schweinefleisch, خنزير, 猪肉). Fixed with new pork words and
+a pig emoji) and other languages (cerdo, porc, Schweinefleisch, خنزير, 猪肉). Fixed with new pork words and
 `flags.reveal_hidden_words` (a decoded copy of every text for the gate, the guard and the dataset filter);
 `tests/test_red_team.py` now has 202 checks. Notebook 09 added 8 harder attacks (33 questions, 13 attacks):
 

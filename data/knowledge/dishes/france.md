@@ -102,6 +102,7 @@ Learn more:
 
 - quick: [Beef bourguignon (Wikipedia)](https://en.wikipedia.org/wiki/Beef_bourguignon)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [Māori cuisine (Wikipedia)](https://en.wikipedia.org/wiki/M%C4%81ori_cuisine)
 - deep: [Books about Beef bourguignon (Open Library)](https://openlibrary.org/search?q=Beef%20bourguignon)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1022124)
 
@@ -123,6 +124,7 @@ Learn more:
 
 - quick: [Blanquette de veau (Wikipedia)](https://en.wikipedia.org/wiki/Blanquette_de_veau)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Blanquette de veau (Open Library)](https://openlibrary.org/search?q=Blanquette%20de%20veau)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1191278)
 
@@ -245,6 +247,7 @@ Learn more:
 
 - quick: [Brioche (Wikipedia)](https://en.wikipedia.org/wiki/Brioche)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Brioche (Open Library)](https://openlibrary.org/search?q=Brioche)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q917574)
 
@@ -549,6 +552,7 @@ Learn more:
 
 - quick: [Consommé (Wikipedia)](https://en.wikipedia.org/wiki/Consomm%C3%A9)
 - more: [Beninese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Beninese_cuisine)
+- more: [Cuisine of Benin (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Benin)
 - deep: [Books about Consommé (Open Library)](https://openlibrary.org/search?q=Consomm%C3%A9)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2082064)
 
@@ -619,7 +623,7 @@ Learn more:
 
 - quick: [Croissant (Wikipedia)](https://en.wikipedia.org/wiki/Croissant)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
-- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
+- more: [Malagasy cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malagasy_cuisine)
 - deep: [Books about Croissant (Open Library)](https://openlibrary.org/search?q=Croissant)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q207832)
 
@@ -865,6 +869,7 @@ Learn more:
 
 - quick: [Floating island (dessert) (Wikipedia)](https://en.wikipedia.org/wiki/Floating_island_%28dessert%29)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Floating island (dessert) (Open Library)](https://openlibrary.org/search?q=Floating%20island%20%28dessert%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q883031)
 
@@ -921,6 +926,7 @@ Learn more:
 
 - quick: [Fougasse (bread) (Wikipedia)](https://en.wikipedia.org/wiki/Fougasse_%28bread%29)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Fougasse (bread) (Open Library)](https://openlibrary.org/search?q=Fougasse%20%28bread%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2751128)
 
@@ -1107,6 +1113,7 @@ Learn more:
 
 - quick: [Hors d'oeuvre (Wikipedia)](https://en.wikipedia.org/wiki/Hors_d%27oeuvre)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Hors d'oeuvre (Open Library)](https://openlibrary.org/search?q=Hors%20d%27oeuvre)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q96749544)
 
@@ -1216,7 +1223,7 @@ Learn more:
 
 - quick: [Macaroon (Wikipedia)](https://en.wikipedia.org/wiki/Macaroon)
 - more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
-- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
+- more: [Cuisine of Libya (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Libya)
 - deep: [Books about Macaroon (Open Library)](https://openlibrary.org/search?q=Macaroon)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3699636)
 
@@ -1309,6 +1316,7 @@ Learn more:
 
 - quick: [Mesclun (Wikipedia)](https://en.wikipedia.org/wiki/Mesclun)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Mesclun (Open Library)](https://openlibrary.org/search?q=Mesclun)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3082973)
 
@@ -1426,6 +1434,7 @@ Learn more:
 
 - quick: [Pain aux raisins (Wikipedia)](https://en.wikipedia.org/wiki/Pain_aux_raisins)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Pain aux raisins (Open Library)](https://openlibrary.org/search?q=Pain%20aux%20raisins)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q646003)
 
@@ -1544,6 +1553,7 @@ Learn more:
 
 - quick: [Petit four (Wikipedia)](https://en.wikipedia.org/wiki/Petit_four)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Petit four (Open Library)](https://openlibrary.org/search?q=Petit%20four)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q940757)
 
@@ -1685,6 +1695,7 @@ Learn more:
 
 - quick: [Quiche (Wikipedia)](https://en.wikipedia.org/wiki/Quiche)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Quiche (Open Library)](https://openlibrary.org/search?q=Quiche)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q722595)
 
@@ -1716,6 +1727,7 @@ Learn more:
 
 - quick: [Quiche Lorraine (Wikipedia)](https://en.wikipedia.org/wiki/Quiche_Lorraine)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Quiche Lorraine (Open Library)](https://openlibrary.org/search?q=Quiche%20Lorraine)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7882068)
 
@@ -1845,6 +1857,7 @@ Learn more:
 
 - quick: [Raviole du Dauphiné (Wikipedia)](https://en.wikipedia.org/wiki/Raviole_du_Dauphin%C3%A9)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Raviole du Dauphiné (Open Library)](https://openlibrary.org/search?q=Raviole%20du%20Dauphin%C3%A9)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3420363)
 
@@ -1869,6 +1882,7 @@ Learn more:
 
 - quick: [Sablé (biscuit) (Wikipedia)](https://en.wikipedia.org/wiki/Sabl%C3%A9_%28biscuit%29)
 - more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
+- more: [Cuisine of Mauritius (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Mauritius)
 - deep: [Books about Sablé (biscuit) (Open Library)](https://openlibrary.org/search?q=Sabl%C3%A9%20%28biscuit%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2915670)
 
@@ -2152,6 +2166,7 @@ Learn more:
 
 - quick: [Tourin (Wikipedia)](https://en.wikipedia.org/wiki/Tourin)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Tourin (Open Library)](https://openlibrary.org/search?q=Tourin)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1219001)
 
@@ -2342,6 +2357,7 @@ Learn more:
 
 - quick: [Agaricus bisporus (Wikipedia)](https://en.wikipedia.org/wiki/Agaricus_bisporus)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Agaricus bisporus (Open Library)](https://openlibrary.org/search?q=Agaricus%20bisporus)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q227690)
 
@@ -2446,6 +2462,7 @@ Learn more:
 
 - quick: [Beaufort cheese (Wikipedia)](https://en.wikipedia.org/wiki/Beaufort_cheese)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Beaufort cheese (Open Library)](https://openlibrary.org/search?q=Beaufort%20cheese)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q781150)
 
@@ -2484,6 +2501,7 @@ Learn more:
 
 - quick: [Beaujolais (Wikipedia)](https://en.wikipedia.org/wiki/Beaujolais)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Beaujolais (Open Library)](https://openlibrary.org/search?q=Beaujolais)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q616)
 
@@ -2515,6 +2533,7 @@ Learn more:
 
 - quick: [Bleu de Bresse (Wikipedia)](https://en.wikipedia.org/wiki/Bleu_de_Bresse)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Bleu de Bresse (Open Library)](https://openlibrary.org/search?q=Bleu%20de%20Bresse)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q883933)
 
@@ -2544,6 +2563,7 @@ Learn more:
 
 - quick: [Bleu du Vercors-Sassenage (Wikipedia)](https://en.wikipedia.org/wiki/Bleu_du_Vercors-Sassenage)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Bleu du Vercors-Sassenage (Open Library)](https://openlibrary.org/search?q=Bleu%20du%20Vercors-Sassenage)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q767952)
 
@@ -2576,6 +2596,7 @@ Learn more:
 
 - quick: [Camembert (Wikipedia)](https://en.wikipedia.org/wiki/Camembert)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Camembert (Open Library)](https://openlibrary.org/search?q=Camembert)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q131480)
 
@@ -2611,6 +2632,7 @@ Learn more:
 
 - quick: [Champagne (Wikipedia)](https://en.wikipedia.org/wiki/Champagne)
 - more: [List of Uzbek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Uzbek_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Champagne (Open Library)](https://openlibrary.org/search?q=Champagne)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q134862)
 
@@ -2631,6 +2653,7 @@ Learn more:
 
 - quick: [Charcuterie (Wikipedia)](https://en.wikipedia.org/wiki/Charcuterie)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Charcuterie (Open Library)](https://openlibrary.org/search?q=Charcuterie)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q260568)
 
@@ -2667,6 +2690,7 @@ Learn more:
 
 - quick: [Chartreuse (liqueur) (Wikipedia)](https://en.wikipedia.org/wiki/Chartreuse_%28liqueur%29)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Chartreuse (liqueur) (Open Library)](https://openlibrary.org/search?q=Chartreuse%20%28liqueur%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q779839)
 
@@ -2687,7 +2711,8 @@ Fun facts:
 Learn more:
 
 - quick: [Cognac (Wikipedia)](https://en.wikipedia.org/wiki/Cognac)
-- more: [List of Uzbek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Uzbek_dishes)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
 - deep: [Books about Cognac (Open Library)](https://openlibrary.org/search?q=Cognac)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q284)
 
@@ -2719,6 +2744,7 @@ Learn more:
 
 - quick: [Comté cheese (Wikipedia)](https://en.wikipedia.org/wiki/Comt%C3%A9_cheese)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Comté cheese (Open Library)](https://openlibrary.org/search?q=Comt%C3%A9%20cheese)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q249310)
 
@@ -2750,6 +2776,7 @@ Learn more:
 
 - quick: [Condrieu AOC (Wikipedia)](https://en.wikipedia.org/wiki/Condrieu_AOC)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Condrieu AOC (Open Library)](https://openlibrary.org/search?q=Condrieu%20AOC)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2992326)
 
@@ -2779,6 +2806,7 @@ Learn more:
 
 - quick: [Dijon mustard (Wikipedia)](https://en.wikipedia.org/wiki/Dijon_mustard)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Dijon mustard (Open Library)](https://openlibrary.org/search?q=Dijon%20mustard)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q204226)
 
@@ -2809,6 +2837,7 @@ Learn more:
 
 - quick: [Espelette pepper (Wikipedia)](https://en.wikipedia.org/wiki/Espelette_pepper)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Espelette pepper (Open Library)](https://openlibrary.org/search?q=Espelette%20pepper)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1538429)
 
@@ -2829,6 +2858,7 @@ Learn more:
 
 - quick: [Ficelle (Wikipedia)](https://en.wikipedia.org/wiki/Ficelle)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Ficelle (Open Library)](https://openlibrary.org/search?q=Ficelle)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3071347)
 
@@ -2957,6 +2987,7 @@ Learn more:
 
 - quick: [Herbes de Provence (Wikipedia)](https://en.wikipedia.org/wiki/Herbes_de_Provence)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Herbes de Provence (Open Library)](https://openlibrary.org/search?q=Herbes%20de%20Provence)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q913548)
 
@@ -3016,6 +3047,7 @@ Learn more:
 
 - quick: [Horse meat (Wikipedia)](https://en.wikipedia.org/wiki/Horse_meat)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [Tongan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tongan_cuisine)
 - deep: [Books about Horse meat (Open Library)](https://openlibrary.org/search?q=Horse%20meat)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1124327)
 
@@ -3035,6 +3067,7 @@ Learn more:
 
 - quick: [Lamb and mutton (Wikipedia)](https://en.wikipedia.org/wiki/Lamb_and_mutton)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Lamb and mutton (Open Library)](https://openlibrary.org/search?q=Lamb%20and%20mutton)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q123122627)
 
@@ -3155,6 +3188,7 @@ Learn more:
 
 - quick: [Navy bean (Wikipedia)](https://en.wikipedia.org/wiki/Navy_bean)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Navy bean (Open Library)](https://openlibrary.org/search?q=Navy%20bean)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17141829)
 
@@ -3186,6 +3220,7 @@ Learn more:
 
 - quick: [Oyster (Wikipedia)](https://en.wikipedia.org/wiki/Oyster)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
 - deep: [Books about Oyster (Open Library)](https://openlibrary.org/search?q=Oyster)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107411)
 
@@ -3355,6 +3390,7 @@ Learn more:
 
 - quick: [Roquefort (Wikipedia)](https://en.wikipedia.org/wiki/Roquefort)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Roquefort (Open Library)](https://openlibrary.org/search?q=Roquefort)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q189221)
 
@@ -3375,6 +3411,7 @@ Learn more:
 
 - quick: [Rosette de Lyon (Wikipedia)](https://en.wikipedia.org/wiki/Rosette_de_Lyon)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Rosette de Lyon (Open Library)](https://openlibrary.org/search?q=Rosette%20de%20Lyon)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7368703)
 
@@ -3435,7 +3472,7 @@ Learn more:
 
 - quick: [Sauce (Wikipedia)](https://en.wikipedia.org/wiki/Sauce)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
-- more: [Chadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chadian_cuisine)
+- more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
 - deep: [Books about Sauce (Open Library)](https://openlibrary.org/search?q=Sauce)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q178359)
 
@@ -3563,6 +3600,7 @@ Learn more:
 
 - quick: [Tuber melanosporum (Wikipedia)](https://en.wikipedia.org/wiki/Tuber_melanosporum)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Tuber melanosporum (Open Library)](https://openlibrary.org/search?q=Tuber%20melanosporum)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1093314)
 
@@ -3590,6 +3628,7 @@ Learn more:
 
 - quick: [Turnip (Wikipedia)](https://en.wikipedia.org/wiki/Turnip)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Turnip (Open Library)](https://openlibrary.org/search?q=Turnip)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3916957)
 
@@ -3617,6 +3656,7 @@ Learn more:
 
 - quick: [Vacqueyras AOC (Wikipedia)](https://en.wikipedia.org/wiki/Vacqueyras_AOC)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Vacqueyras AOC (Open Library)](https://openlibrary.org/search?q=Vacqueyras%20AOC)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7888536)
 
@@ -3632,6 +3672,7 @@ Learn more:
 
 - quick: [Veal (Wikipedia)](https://en.wikipedia.org/wiki/Veal)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Veal (Open Library)](https://openlibrary.org/search?q=Veal)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q957434)
 
@@ -3665,6 +3706,7 @@ Learn more:
 
 - quick: [Whipped cream (Wikipedia)](https://en.wikipedia.org/wiki/Whipped_cream)
 - more: [French cuisine (Wikipedia)](https://en.wikipedia.org/wiki/French_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Whipped cream (Open Library)](https://openlibrary.org/search?q=Whipped%20cream)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q625957)
 

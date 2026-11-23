@@ -15,15 +15,6 @@
  "subregions": {
   "Australasia": [
    {
-    "dish": "Bush bread",
-    "wikidata": "Q1017266",
-    "country": "Australia",
-    "status": "ready",
-    "version_of": [
-     "bread"
-    ]
-   },
-   {
     "dish": "Patties pie",
     "wikidata": "Q7148573",
     "country": "Australia",
@@ -62,15 +53,6 @@
   ],
   "Caribbean": [
    {
-    "dish": "Dumb bread",
-    "wikidata": "Q125797909",
-    "country": "British Virgin Islands",
-    "status": "needs_review",
-    "version_of": [
-     "bread"
-    ]
-   },
-   {
     "dish": "goat water",
     "wikidata": "Q25047514",
     "country": "Montserrat",
@@ -98,30 +80,12 @@
     ]
    },
    {
-    "dish": "Aloo pie",
-    "wikidata": "Q2839301",
-    "country": "Trinidad and Tobago",
-    "status": "ready",
+    "dish": "Dumb bread",
+    "wikidata": "Q125797909",
+    "country": "United States Virgin Islands",
+    "status": "needs_review",
     "version_of": [
-     "pie"
-    ]
-   },
-   {
-    "dish": "Buljol",
-    "wikidata": "Q15790217",
-    "country": "Trinidad and Tobago",
-    "status": "ready",
-    "version_of": [
-     "salad"
-    ]
-   },
-   {
-    "dish": "doubles",
-    "wikidata": "Q5300145",
-    "country": "Trinidad and Tobago",
-    "status": "ready",
-    "version_of": [
-     "sandwich"
+     "bread"
     ]
    }
   ],
@@ -229,24 +193,6 @@
    }
   ],
   "Eastern Africa": [
-   {
-    "dish": "Koba",
-    "wikidata": "Q17107651",
-    "country": "Madagascar",
-    "status": "ready",
-    "version_of": [
-     "pastry"
-    ]
-   },
-   {
-    "dish": "Romazava",
-    "wikidata": "Q3441149",
-    "country": "Madagascar",
-    "status": "ready",
-    "version_of": [
-     "stew"
-    ]
-   },
    {
     "dish": "Kunga cake",
     "wikidata": "Q54165556",
@@ -1767,39 +1713,12 @@
   "Melanesia": [],
   "Micronesian Region": [
    {
-    "dish": "Guyuria",
-    "wikidata": "Q5622888",
-    "country": "Guam",
-    "status": "needs_review",
-    "version_of": [
-     "cookie"
-    ]
-   },
-   {
-    "dish": "Kalamai",
-    "wikidata": "Q3192094",
-    "country": "Guam",
-    "status": "needs_review",
-    "version_of": [
-     "pudding"
-    ]
-   },
-   {
     "dish": "Latiya",
     "wikidata": "Q115804031",
     "country": "Guam",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "confectionery"
-    ]
-   },
-   {
-    "dish": "Roskette",
-    "wikidata": "Q7369003",
-    "country": "Guam",
-    "status": "needs_review",
-    "version_of": [
-     "cookie"
     ]
    }
   ],
@@ -4857,6 +4776,15 @@
     ]
    },
    {
+    "dish": "Kabab Barg",
+    "wikidata": "Q6343718",
+    "country": "Iran",
+    "status": "ready",
+    "version_of": [
+     "kebab"
+    ]
+   },
+   {
     "dish": "Mahyawa",
     "wikidata": "Q4164590",
     "country": "Iran",
@@ -6066,6 +5994,15 @@
     ]
    },
    {
+    "dish": "malawach",
+    "wikidata": "Q2907412",
+    "country": "Israel",
+    "status": "ready",
+    "version_of": [
+     "bread"
+    ]
+   },
+   {
     "dish": "Shʿifūra",
     "wikidata": "Q107695675",
     "country": "Syria",
@@ -6293,15 +6230,6 @@
    {
     "dish": "Kubaneh",
     "wikidata": "Q6588272",
-    "country": "Yemen",
-    "status": "ready",
-    "version_of": [
-     "bread"
-    ]
-   },
-   {
-    "dish": "malawach",
-    "wikidata": "Q2907412",
     "country": "Yemen",
     "status": "ready",
     "version_of": [

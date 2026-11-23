@@ -18,6 +18,7 @@ Learn more:
 
 - quick: [Matapa (Wikipedia)](https://en.wikipedia.org/wiki/Matapa)
 - more: [Mozambican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mozambican_cuisine)
+- more: [Cuisine of Mozambique (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Mozambique)
 - deep: [Books about Matapa (Open Library)](https://openlibrary.org/search?q=Matapa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q96742694)
 

@@ -15,23 +15,46 @@
  "count": 6,
  "dishes": [
   {
-   "dish": "Bush bread",
-   "wikidata": "Q1017266",
+   "dish": "Patties pie",
+   "wikidata": "Q7148573",
    "country": "Australia",
    "subregion": "Australasia",
    "families": [
-    "bread"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1017266",
+     "url": "https://www.wikidata.org/wiki/Q7148573",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bush_bread",
+     "url": "https://en.wikipedia.org/wiki/Patties_pie",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Latiya",
+   "wikidata": "Q115804031",
+   "country": "Guam",
+   "subregion": "Micronesian Region",
+   "families": [
+    "confectionery"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q115804031",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Latiya_(dessert)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -55,29 +78,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Goody_Goody_Gum_Drops",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Patties pie",
-   "wikidata": "Q7148573",
-   "country": "Australia",
-   "subregion": "Australasia",
-   "families": [
-    "pie"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7148573",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Patties_pie",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

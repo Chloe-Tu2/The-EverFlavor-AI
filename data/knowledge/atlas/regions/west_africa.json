@@ -1,0 +1,81 @@
+{
+ "id": "west_africa",
+ "name": "West Africa",
+ "continent": "Africa",
+ "countries": [
+  "Benin",
+  "Burkina Faso",
+  "Cape Verde",
+  "Ghana",
+  "Guinea",
+  "Guinea-Bissau",
+  "Ivory Coast",
+  "Liberia",
+  "Mali",
+  "Mauritania",
+  "Niger",
+  "Nigeria",
+  "Senegal",
+  "Sierra Leone",
+  "The Gambia",
+  "Togo"
+ ],
+ "countries_with_a_dish": [
+  "Benin",
+  "Cape Verde",
+  "Ghana",
+  "Ivory Coast",
+  "Niger",
+  "Nigeria",
+  "Senegal",
+  "The Gambia"
+ ],
+ "coverage_score": 33.2,
+ "dish_count": 69,
+ "food_and_drink_count": 42,
+ "story_count": 20,
+ "representative_dishes": [
+  "Jollof rice",
+  "Ofe akwụ",
+  "Suya",
+  "Yassa (food)",
+  "Omo tuo",
+  "Eba",
+  "Peanut soup",
+  "Palm nut soup"
+ ],
+ "dish_families": [
+  "soup",
+  "swallow",
+  "stew",
+  "chicken dish",
+  "okra soup",
+  "rice",
+  "meat dish",
+  "fish dish"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Central Africa",
+  "East Africa",
+  "Southern Africa"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

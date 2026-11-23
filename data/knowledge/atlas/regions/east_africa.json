@@ -1,0 +1,88 @@
+{
+ "id": "east_africa",
+ "name": "East Africa",
+ "continent": "Africa",
+ "countries": [
+  "Burundi",
+  "Comoros",
+  "Djibouti",
+  "Eritrea",
+  "Ethiopia",
+  "Kenya",
+  "Madagascar",
+  "Malawi",
+  "Mauritius",
+  "Mozambique",
+  "Rwanda",
+  "Seychelles",
+  "Somalia",
+  "South Sudan",
+  "Tanzania",
+  "Uganda",
+  "Zambia",
+  "Zimbabwe"
+ ],
+ "countries_with_a_dish": [
+  "Ethiopia",
+  "Kenya",
+  "Madagascar",
+  "Malawi",
+  "Mauritius",
+  "Mozambique",
+  "Rwanda",
+  "Seychelles",
+  "Somalia",
+  "South Sudan",
+  "Tanzania",
+  "Uganda",
+  "Zambia"
+ ],
+ "coverage_score": 45.6,
+ "dish_count": 34,
+ "food_and_drink_count": 20,
+ "story_count": 14,
+ "representative_dishes": [
+  "Injera",
+  "Haleem",
+  "Matoke",
+  "Rougaille",
+  "Saffron rice",
+  "Mandazi",
+  "Wat (food)",
+  "Mofo gasy"
+ ],
+ "dish_families": [
+  "flatbread",
+  "stew",
+  "spice mix",
+  "bread",
+  "raw beef dish",
+  "pancake",
+  "seed",
+  "porridge"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Central Africa",
+  "Southern Africa",
+  "West Africa"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

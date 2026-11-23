@@ -217,6 +217,7 @@ Learn more:
 
 - quick: [Galette (Wikipedia)](https://en.wikipedia.org/wiki/Galette)
 - more: [Belgian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belgian_cuisine)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Galette (Open Library)](https://openlibrary.org/search?q=Galette)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q242003)
 
@@ -428,6 +429,7 @@ Learn more:
 
 - quick: [Relish (Wikipedia)](https://en.wikipedia.org/wiki/Relish)
 - more: [Belgian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belgian_cuisine)
+- more: [Tongan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tongan_cuisine)
 - deep: [Books about Relish (Open Library)](https://openlibrary.org/search?q=Relish)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q766777)
 
@@ -569,6 +571,7 @@ Learn more:
 
 - quick: [Vol-au-vent (Wikipedia)](https://en.wikipedia.org/wiki/Vol-au-vent)
 - more: [Belgian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belgian_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Vol-au-vent (Open Library)](https://openlibrary.org/search?q=Vol-au-vent)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q304868)
 

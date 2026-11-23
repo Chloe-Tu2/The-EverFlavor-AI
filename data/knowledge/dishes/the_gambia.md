@@ -17,6 +17,7 @@ Learn more:
 
 - quick: [Domoda (Wikipedia)](https://en.wikipedia.org/wiki/Domoda)
 - more: [Malian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malian_cuisine)
+- more: [Cuisine of Mali (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Mali)
 - deep: [Books about Domoda (Open Library)](https://openlibrary.org/search?q=Domoda)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1238597)
 

@@ -53,6 +53,7 @@ Learn more:
 
 - quick: [Fish pie (Wikipedia)](https://en.wikipedia.org/wiki/Fish_pie)
 - more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
+- more: [Cuisine of Trinidad and Tobago (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Trinidad_and_Tobago)
 - deep: [Books about Fish pie (Open Library)](https://openlibrary.org/search?q=Fish%20pie)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3301394)
 
@@ -84,6 +85,7 @@ Learn more:
 
 - quick: [Scotch egg (Wikipedia)](https://en.wikipedia.org/wiki/Scotch_egg)
 - more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
+- more: [Cuisine of Ghana (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Ghana)
 - deep: [Books about Scotch egg (Open Library)](https://openlibrary.org/search?q=Scotch%20egg)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1568296)
 
@@ -926,6 +928,7 @@ Learn more:
 
 - quick: [Dundee cake (Wikipedia)](https://en.wikipedia.org/wiki/Dundee_cake)
 - more: [Scottish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Scottish_cuisine)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Dundee cake (Open Library)](https://openlibrary.org/search?q=Dundee%20cake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q867610)
 
@@ -2231,7 +2234,7 @@ More fun facts (when the user asks for more):
 - (history) In an 1884 American publication it was noted that "Bohea teas (are) known to trade in this country as 'English Breakfast' tea, from its forming the staple shipment to England".
 - (inspiration) English breakfast tea is named after English breakfast.
 - (origin) English breakfast tea comes from the United Kingdom.
-- (about) English breakfast tea is one of the most popular blended teas, common in British and Irish tea culture, which developed since their exposure to Asian tea culture.
+- (about) English breakfast tea is one of the most popular blended teas, common in British and Irish tea culture.
 - (culture) English breakfast tea is a black tea blend usually described as full-bodied, robust, rich and blended to go well with milk and sugar, in a style traditionally associated with a hearty full English breakfast.
 - (about) It sold for 50 cents per pound (0.45 kg) (equivalent to $17.28 per pound in 2025), and its success led to imitators, helping to popularize the name.
 - (origin) The current naming practice of the blend is claimed to have originated not in England but America, as far back as Colonial times.

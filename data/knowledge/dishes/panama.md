@@ -17,6 +17,7 @@ Learn more:
 
 - quick: [Chicheme (Wikipedia)](https://en.wikipedia.org/wiki/Chicheme)
 - more: [Panamanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Panamanian_cuisine)
+- more: [Cuisine of Panama (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Panama)
 - deep: [Books about Chicheme (Open Library)](https://openlibrary.org/search?q=Chicheme)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q24961838)
 
@@ -39,6 +40,7 @@ Learn more:
 
 - quick: [Seco Herrerano (Wikipedia)](https://en.wikipedia.org/wiki/Seco_Herrerano)
 - more: [Panamanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Panamanian_cuisine)
+- more: [Cuisine of Panama (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Panama)
 - deep: [Books about Seco Herrerano (Open Library)](https://openlibrary.org/search?q=Seco%20Herrerano)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7442947)
 

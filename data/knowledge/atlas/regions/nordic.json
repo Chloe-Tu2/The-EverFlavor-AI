@@ -1,0 +1,69 @@
+{
+ "id": "nordic",
+ "name": "Nordic Countries",
+ "continent": "Europe",
+ "countries": [
+  "Denmark",
+  "Finland",
+  "Iceland",
+  "Norway",
+  "Sweden"
+ ],
+ "countries_with_a_dish": [
+  "Denmark",
+  "Finland",
+  "Norway",
+  "Sweden"
+ ],
+ "coverage_score": 74.5,
+ "dish_count": 138,
+ "food_and_drink_count": 79,
+ "story_count": 94,
+ "representative_dishes": [
+  "Danish pastry",
+  "Kladdkaka",
+  "Layer cake",
+  "Ham",
+  "Steak tartare",
+  "Blueberry pie",
+  "Bun",
+  "Gingerbread house"
+ ],
+ "dish_families": [
+  "fish dish",
+  "pastry",
+  "cow's-milk cheese",
+  "pork dish",
+  "cake",
+  "candy",
+  "flatbread",
+  "potato dish"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Baltic States",
+  "British Isles",
+  "Central Europe",
+  "Eastern Europe",
+  "Mediterranean Europe",
+  "Western Europe"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

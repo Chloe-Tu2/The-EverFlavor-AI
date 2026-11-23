@@ -1,0 +1,58 @@
+{
+ "id": "arabian_peninsula",
+ "name": "Arabian Peninsula",
+ "continent": "Middle East & North Africa",
+ "countries": [
+  "Bahrain",
+  "Kuwait",
+  "Oman",
+  "Qatar",
+  "Saudi Arabia",
+  "United Arab Emirates",
+  "Yemen"
+ ],
+ "countries_with_a_dish": [
+  "Saudi Arabia"
+ ],
+ "coverage_score": 11.6,
+ "dish_count": 2,
+ "food_and_drink_count": 5,
+ "story_count": 2,
+ "representative_dishes": [
+  "Kleicha",
+  "Tharid"
+ ],
+ "dish_families": [
+  "leaf vegetable",
+  "confectionery",
+  "stew",
+  "flour"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Anatolia",
+  "Caucasus",
+  "Levant",
+  "Mesopotamia",
+  "North Africa",
+  "Persian Region"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

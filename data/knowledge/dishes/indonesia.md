@@ -3011,6 +3011,7 @@ Learn more:
 
 - quick: [Maraq (dish) (Wikipedia)](https://en.wikipedia.org/wiki/Maraq_%28dish%29)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
 - deep: [Books about Maraq (dish) (Open Library)](https://openlibrary.org/search?q=Maraq%20%28dish%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q56280821)
 
@@ -4938,6 +4939,7 @@ Learn more:
 
 - quick: [Salted squid (Wikipedia)](https://en.wikipedia.org/wiki/Salted_squid)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Native Hawaiian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_Hawaiian_cuisine)
 - deep: [Books about Salted squid (Open Library)](https://openlibrary.org/search?q=Salted%20squid)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q39087079)
 
@@ -6668,6 +6670,7 @@ Learn more:
 
 - quick: [Galangal (Wikipedia)](https://en.wikipedia.org/wiki/Galangal)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Galangal (Open Library)](https://openlibrary.org/search?q=Galangal)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q734727)
 
@@ -7722,6 +7725,7 @@ Learn more:
 
 - quick: [Sugar (Wikipedia)](https://en.wikipedia.org/wiki/Sugar)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Sierra Leonean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sierra_Leonean_cuisine)
 - deep: [Books about Sugar (Open Library)](https://openlibrary.org/search?q=Sugar)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11002)
 

@@ -1,0 +1,62 @@
+{
+ "id": "anatolia",
+ "name": "Anatolia",
+ "continent": "Middle East & North Africa",
+ "countries": [
+  "Turkey"
+ ],
+ "countries_with_a_dish": [
+  "Turkey"
+ ],
+ "coverage_score": 90.7,
+ "dish_count": 57,
+ "food_and_drink_count": 20,
+ "story_count": 27,
+ "representative_dishes": [
+  "Pilaf",
+  "Adana kebabı",
+  "Cornbread",
+  "Shish kebab",
+  "Stuffed mussels",
+  "Doner kebab",
+  "Fish soup",
+  "Dondurma"
+ ],
+ "dish_families": [
+  "soup",
+  "kebab",
+  "lamb dish",
+  "salad",
+  "meat dish",
+  "spice",
+  "cheese",
+  "meze"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Arabian Peninsula",
+  "Caucasus",
+  "Levant",
+  "Mesopotamia",
+  "North Africa",
+  "Persian Region"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

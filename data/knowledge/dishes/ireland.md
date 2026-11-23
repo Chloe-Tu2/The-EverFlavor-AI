@@ -687,8 +687,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Corned beef (Wikipedia)](https://en.wikipedia.org/wiki/Corned_beef)
-- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
-- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Samoan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Samoan_cuisine)
+- more: [Cuisine of Samoa (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Samoa)
 - deep: [Books about Corned beef (Open Library)](https://openlibrary.org/search?q=Corned%20beef)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1133209)
 
@@ -740,7 +740,7 @@ Learn more:
 
 - quick: [Gravy (Wikipedia)](https://en.wikipedia.org/wiki/Gravy)
 - more: [List of Irish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Irish_dishes)
-- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
 - deep: [Books about Gravy (Open Library)](https://openlibrary.org/search?q=Gravy)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q945934)
 
@@ -924,6 +924,7 @@ Learn more:
 
 - quick: [Lager (Wikipedia)](https://en.wikipedia.org/wiki/Lager)
 - more: [Irish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Irish_cuisine)
+- more: [Namibian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Namibian_cuisine)
 - deep: [Books about Lager (Open Library)](https://openlibrary.org/search?q=Lager)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q253481)
 

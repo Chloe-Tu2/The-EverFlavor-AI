@@ -1140,6 +1140,7 @@ Learn more:
 
 - quick: [Arrack (Wikipedia)](https://en.wikipedia.org/wiki/Arrack)
 - more: [Swedish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Swedish_cuisine)
+- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
 - deep: [Books about Arrack (Open Library)](https://openlibrary.org/search?q=Arrack)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1458114)
 
@@ -1310,6 +1311,7 @@ Learn more:
 
 - quick: [Juniper berry (Wikipedia)](https://en.wikipedia.org/wiki/Juniper_berry)
 - more: [Swedish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Swedish_cuisine)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Juniper berry (Open Library)](https://openlibrary.org/search?q=Juniper%20berry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3251025)
 
@@ -1422,6 +1424,7 @@ Learn more:
 
 - quick: [Ribes (Wikipedia)](https://en.wikipedia.org/wiki/Ribes)
 - more: [Swedish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Swedish_cuisine)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Ribes (Open Library)](https://openlibrary.org/search?q=Ribes)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q22691)
 

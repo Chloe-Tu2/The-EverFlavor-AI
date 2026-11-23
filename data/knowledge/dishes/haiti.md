@@ -46,6 +46,27 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5280755) (CC0); [Wikipedia: Diri djondjon](https://en.wikipedia.org/wiki/Diri_djondjon) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Fritay
+
+Fritay, (; Haitian Creole: Fritay; French: Friture Haïtienne) collectively known as Fritaille, are street foods and culinary styles associated with Haitian culture.
+
+- From: Haiti
+
+Fun facts:
+
+- (culture) Fritay is served at markets, celebrations, and festivals.
+- (culture) The prevalence of street and festival venues made these Haitian foods convenient.
+
+Learn more:
+
+- quick: [Fritay (Wikipedia)](https://en.wikipedia.org/wiki/Fritay)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
+- deep: [Books about Fritay (Open Library)](https://openlibrary.org/search?q=Fritay)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q136564070)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q136564070) (CC0); [Wikipedia: Fritay](https://en.wikipedia.org/wiki/Fritay) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Griot (food)
 
 Griot is a dish in Haitian cuisine.
@@ -119,6 +140,97 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7565043) (CC0); [Wikipedia: Soup joumou](https://en.wikipedia.org/wiki/Soup_joumou) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Akasan
+
+Akasan (sometimes AK 100) is a popular Haitian beverage made from corn kernels, anise stars, vanilla and cinnamon.
+
+- From: Haiti
+- Origin (Wikidata): Haiti
+- Ingredients (Wikidata): vanilla, cinnamon, cornmeal, cow's milk, anise seed
+
+Fun facts:
+
+- (origin) Akasan comes from Haiti.
+
+Learn more:
+
+- quick: [Akasan (Wikipedia)](https://en.wikipedia.org/wiki/Akasan)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
+- deep: [Books about Akasan (Open Library)](https://openlibrary.org/search?q=Akasan)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4700321)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4700321) (CC0); [Wikipedia: Akasan](https://en.wikipedia.org/wiki/Akasan) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Clairin
+
+Clairin is a distilled alcoholic spirit made from sugarcane produced in Haiti, that undergoes the same distillation process as rhum, although not as refined.
+
+- From: Haiti
+- Origin (Wikidata): Haiti
+
+Fun facts:
+
+- (origin) Clairin comes from Haiti.
+- (about) The distilleries known as guildives are artisan productions: most of them are small shacks dotted around the countryside producing for the consumption of their own villages.
+- (culture) They are spontaneously fermented with no yeast selected, distilled in traditional Creole stills using techniques from the mid-18th century, and are not filtered.
+
+More fun facts (when the user asks for more):
+
+- (about) They have become popular outside of Haiti largely due to the efforts of Luca Gargano.
+
+Learn more:
+
+- quick: [Clairin (Wikipedia)](https://en.wikipedia.org/wiki/Clairin)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
+- deep: [Books about Clairin (Open Library)](https://openlibrary.org/search?q=Clairin)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2975159)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2975159) (CC0); [Wikipedia: Clairin](https://en.wikipedia.org/wiki/Clairin) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Cola Couronne
+
+Cola Couronne, is the oldest manufactured soft drink from Haiti by Brasserie de la Couronne S.A. It is arguably the country's most well-liked soda, as it is a staple beverage for Haitians and those abroad.
+
+- From: Haiti
+- Since: 1924-
+
+Fun facts:
+
+- (history) Cola Couronne dates from 1924-.
+
+Learn more:
+
+- quick: [Cola Couronne (Wikipedia)](https://en.wikipedia.org/wiki/Cola_Couronne)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
+- deep: [Books about Cola Couronne (Open Library)](https://openlibrary.org/search?q=Cola%20Couronne)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16958875)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16958875) (CC0); [Wikipedia: Cola Couronne](https://en.wikipedia.org/wiki/Cola_Couronne) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Cola Lacaye
+
+Cola Lacaye is a soft drink from Haiti founded by Rigobert Richardson in 1977.
+
+- From: Haiti
+- Since: 1977-
+
+Fun facts:
+
+- (history) Cola Lacaye dates from 1977-.
+
+Learn more:
+
+- quick: [Cola Lacaye (Wikipedia)](https://en.wikipedia.org/wiki/Cola_Lacaye)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
+- deep: [Books about Cola Lacaye (Open Library)](https://openlibrary.org/search?q=Cola%20Lacaye)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5141855)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5141855) (CC0); [Wikipedia: Cola Lacaye](https://en.wikipedia.org/wiki/Cola_Lacaye) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Epis
 
 Epis (; Haitian Creole: epis) is a blend of peppers, garlic, and herbs that is used as a flavor base for many foods in Haitian cuisine.
@@ -134,3 +246,87 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q106623607)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q106623607) (CC0); [Wikipedia: Epis](https://en.wikipedia.org/wiki/Epis) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Haitian spaghetti
+
+Haitian spaghetti (sometimes espageti, espaghetti, spaghetti a l'hatienne or espageti ayisyen) is a dish of Haitian cuisine typically served for breakfast.
+
+- From: Haiti
+- Origin (Wikidata): Haiti
+- Ingredients (Wikidata): spaghetti, hot dog, tomato sauce
+
+Fun facts:
+
+- (origin) Haitian spaghetti was developed during the period of US occupation from 1915 to 1934, when American foods such as hot dogs and ketchup were introduced to Haiti.
+- (origin) Haitian spaghetti comes from Haiti.
+
+Learn more:
+
+- quick: [Haitian spaghetti (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_spaghetti)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
+- deep: [Books about Haitian spaghetti (Open Library)](https://openlibrary.org/search?q=Haitian%20spaghetti)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q125895282)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q125895282) (CC0); [Wikipedia: Haitian spaghetti](https://en.wikipedia.org/wiki/Haitian_spaghetti) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kremas
+
+Kremas (, from Haitian Creole), also known as crémasse and crémas, is a sweet and creamy alcoholic beverage found in Haitian cuisine.
+
+- From: Haiti
+- Ingredients (Wikidata): cinnamon, rum, coconut milk
+
+Learn more:
+
+- quick: [Kremas (Wikipedia)](https://en.wikipedia.org/wiki/Kremas)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
+- deep: [Books about Kremas (Open Library)](https://openlibrary.org/search?q=Kremas)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3006252)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3006252) (CC0); [Wikipedia: Kremas](https://en.wikipedia.org/wiki/Kremas) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Prestige (beer)
+
+Prestige is a lager brewed by Brasserie Nationale d'Haïti (BRANA) in Port-au-Prince, Haiti.
+
+- From: Haiti
+- Origin (Wikidata): Haiti
+- Since: 1976-
+
+Fun facts:
+
+- (history) Prestige was founded in 1976 by Michael Madsen; he is a member of one of the richest industrial families in Haiti.
+- (about) In 2005, Prestige began to be exported to select Canadian and U.S. cities.
+- (origin) Prestige comes from Haiti.
+
+More fun facts (when the user asks for more):
+
+- (history) Prestige dates from 1976-.
+
+Learn more:
+
+- quick: [Prestige (beer) (Wikipedia)](https://en.wikipedia.org/wiki/Prestige_%28beer%29)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
+- deep: [Books about Prestige (beer) (Open Library)](https://openlibrary.org/search?q=Prestige%20%28beer%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3402663)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3402663) (CC0); [Wikipedia: Prestige (beer)](https://en.wikipedia.org/wiki/Prestige_(beer)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tchaka
+
+Tchaka or Chaka is a Haitian stew made from hominy, beans, pumpkin (joumou), and meat (usually pork).
+
+- From: Haiti
+
+Learn more:
+
+- quick: [Tchaka (Wikipedia)](https://en.wikipedia.org/wiki/Tchaka)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
+- deep: [Books about Tchaka (Open Library)](https://openlibrary.org/search?q=Tchaka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q106696256)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q106696256) (CC0); [Wikipedia: Tchaka](https://en.wikipedia.org/wiki/Tchaka) (CC BY-SA 4.0). Review: auto-cleaned.

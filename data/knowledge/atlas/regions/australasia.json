@@ -1,0 +1,72 @@
+{
+ "id": "australasia",
+ "name": "Australasia",
+ "continent": "Oceania",
+ "countries": [
+  "Australia",
+  "New Zealand"
+ ],
+ "countries_with_a_dish": [
+  "Australia",
+  "New Zealand"
+ ],
+ "coverage_score": 85.7,
+ "dish_count": 62,
+ "food_and_drink_count": 45,
+ "story_count": 64,
+ "representative_dishes": [
+  "Tomato sauce",
+  "Avocado toast",
+  "Eggs Benedict",
+  "Jelly doughnut",
+  "Cheese slaw",
+  "Caramel shortbread",
+  "Christmas pudding",
+  "Corn dog"
+ ],
+ "dish_families": [
+  "biscuit",
+  "bread",
+  "sandwich",
+  "pastry",
+  "confectionery",
+  "potato dish",
+  "open sandwich",
+  "Brühwurst"
+ ],
+ "indigenous_traditions": [
+  {
+   "tradition": "Aboriginal Australian",
+   "foods": 3,
+   "reviewed": false
+  },
+  {
+   "tradition": "Māori",
+   "foods": 5,
+   "reviewed": false
+  }
+ ],
+ "related_regions": [
+  "Melanesia",
+  "Micronesia",
+  "Polynesia"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

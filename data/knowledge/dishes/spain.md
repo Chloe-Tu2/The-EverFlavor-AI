@@ -284,6 +284,7 @@ Learn more:
 
 - quick: [Cuajada (Wikipedia)](https://en.wikipedia.org/wiki/Cuajada)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Salvadoran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Salvadoran_cuisine)
 - deep: [Books about Cuajada (Open Library)](https://openlibrary.org/search?q=Cuajada)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1142807)
 
@@ -760,6 +761,7 @@ Learn more:
 
 - quick: [Paella (Wikipedia)](https://en.wikipedia.org/wiki/Paella)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Cuisine of Equatorial Guinea (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Equatorial_Guinea)
 - deep: [Books about Paella (Open Library)](https://openlibrary.org/search?q=Paella)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q212121)
 

@@ -535,7 +535,7 @@ Learn more:
 
 - quick: [Freekeh (Wikipedia)](https://en.wikipedia.org/wiki/Freekeh)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Freekeh (Open Library)](https://openlibrary.org/search?q=Freekeh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q771079)
 

@@ -1,0 +1,70 @@
+{
+ "id": "southeast_asia",
+ "name": "Southeast Asia",
+ "continent": "Asia",
+ "countries": [
+  "Cambodia",
+  "Indonesia",
+  "Laos",
+  "Malaysia",
+  "Philippines",
+  "Thailand",
+  "Vietnam"
+ ],
+ "countries_with_a_dish": [
+  "Cambodia",
+  "Indonesia",
+  "Malaysia",
+  "Philippines",
+  "Thailand",
+  "Vietnam"
+ ],
+ "coverage_score": 75.2,
+ "dish_count": 523,
+ "food_and_drink_count": 217,
+ "story_count": 292,
+ "representative_dishes": [
+  "Appam",
+  "Nasi goreng",
+  "Tempeh",
+  "Bibingka",
+  "Embutido (Filipino cuisine)",
+  "Mechado",
+  "Green papaya salad",
+  "Massaman curry"
+ ],
+ "dish_families": [
+  "soup",
+  "rice dish",
+  "fish dish",
+  "bánh",
+  "pork dish",
+  "salad",
+  "jajan pasar",
+  "chicken dish"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Central Asia",
+  "East Asia",
+  "South Asia"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

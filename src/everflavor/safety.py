@@ -104,7 +104,7 @@ def check_recipe(ingredient_lines: Sequence[object], recipe_name: object, profil
         it never changes "passed", which is about safety and diets)}. Pet meat is always checked (policy P24),
         whatever the profile says.
     """
-    # reveal_hidden_words: "p0rk", "p o r k", 🐖 and "cerdo" are read as pork (red team, 2026-10-10)
+    # reveal_hidden_words: "p0rk", "p o r k", a pig emoji and "cerdo" are read as pork (red team, 2026-10-10)
     texts = [(str(line), reveal_hidden_words(line).lower()) for line in ingredient_lines
              if line is not None and str(line).strip()]
     name = name_text(reveal_hidden_words(recipe_name) if isinstance(recipe_name, str) else recipe_name)

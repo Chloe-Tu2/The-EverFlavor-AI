@@ -19,6 +19,7 @@ Learn more:
 
 - quick: [Caravane cheese (Wikipedia)](https://en.wikipedia.org/wiki/Caravane_cheese)
 - more: [Mauritanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritanian_cuisine)
+- more: [Cuisine of Mauritania (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Mauritania)
 - deep: [Books about Caravane cheese (Open Library)](https://openlibrary.org/search?q=Caravane%20cheese)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2937903)
 
@@ -46,6 +47,7 @@ Learn more:
 
 - quick: [Zrig (Wikipedia)](https://en.wikipedia.org/wiki/Zrig)
 - more: [Mauritanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritanian_cuisine)
+- more: [Cuisine of Mauritania (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Mauritania)
 - deep: [Books about Zrig (Open Library)](https://openlibrary.org/search?q=Zrig)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q139626598)
 

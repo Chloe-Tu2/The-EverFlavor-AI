@@ -24,31 +24,11 @@ Learn more:
 
 - quick: [Fiambre (Wikipedia)](https://en.wikipedia.org/wiki/Fiambre)
 - more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Cuisine of Guatemala (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guatemala)
 - deep: [Books about Fiambre (Open Library)](https://openlibrary.org/search?q=Fiambre)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3744332)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3744332) (CC0); [Wikipedia: Fiambre](https://en.wikipedia.org/wiki/Fiambre) (CC BY-SA 4.0). Review: auto-cleaned.
-
-### Gallo en chicha
-
-Gallo en chicha is a traditional chicken dish in Salvadoran cuisine, also eaten elsewhere in Central America, such as in Guatemala.
-
-- From: Guatemala
-- Ingredients (Wikidata): chicken as food
-
-Fun facts:
-
-- (culture) Gallo en chicha is somewhat similar to coq au vin, but like much of Salvadoran cuisine is a blend of European influences and the Salvadoran ingredients and cooking traditions.
-- (culture) Because cooking this dish is complicated and time-consuming, it is usually prepared for special occasions and celebrations, such as holidays or the birth of a child.
-
-Learn more:
-
-- quick: [Gallo en chicha (Wikipedia)](https://en.wikipedia.org/wiki/Gallo_en_chicha)
-- more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
-- deep: [Books about Gallo en chicha (Open Library)](https://openlibrary.org/search?q=Gallo%20en%20chicha)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5519122)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q5519122) (CC0); [Wikipedia: Gallo en chicha](https://en.wikipedia.org/wiki/Gallo_en_chicha) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Garnacha (food)
 
@@ -65,6 +45,7 @@ Learn more:
 
 - quick: [Garnacha (food) (Wikipedia)](https://en.wikipedia.org/wiki/Garnacha_%28food%29)
 - more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Cuisine of Guatemala (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guatemala)
 - deep: [Books about Garnacha (food) (Open Library)](https://openlibrary.org/search?q=Garnacha%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5523588)
 
@@ -85,6 +66,7 @@ Learn more:
 
 - quick: [Hilachas (Wikipedia)](https://en.wikipedia.org/wiki/Hilachas)
 - more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Cuisine of Guatemala (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guatemala)
 - deep: [Books about Hilachas (Open Library)](https://openlibrary.org/search?q=Hilachas)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q60749256)
 
@@ -112,6 +94,7 @@ Learn more:
 
 - quick: [Kak'ik (Wikipedia)](https://en.wikipedia.org/wiki/Kak%27ik)
 - more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Cuisine of Guatemala (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guatemala)
 - deep: [Books about Kak'ik (Open Library)](https://openlibrary.org/search?q=Kak%27ik)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17635889)
 
@@ -133,6 +116,7 @@ Learn more:
 
 - quick: [Pepián (Wikipedia)](https://en.wikipedia.org/wiki/Pepi%C3%A1n)
 - more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Cuisine of Guatemala (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guatemala)
 - deep: [Books about Pepián (Open Library)](https://openlibrary.org/search?q=Pepi%C3%A1n)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17624886)
 
@@ -154,6 +138,7 @@ Learn more:
 
 - quick: [Rellenitos de plátano (Wikipedia)](https://en.wikipedia.org/wiki/Rellenitos_de_pl%C3%A1tano)
 - more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Cuisine of Guatemala (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guatemala)
 - deep: [Books about Rellenitos de plátano (Open Library)](https://openlibrary.org/search?q=Rellenitos%20de%20pl%C3%A1tano)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q18393991)
 
@@ -169,6 +154,7 @@ Learn more:
 
 - quick: [Tapado (Wikipedia)](https://en.wikipedia.org/wiki/Tapado)
 - more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Cuisine of Guatemala (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guatemala)
 - deep: [Books about Tapado (Open Library)](https://openlibrary.org/search?q=Tapado)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q60750048)
 

@@ -19,7 +19,7 @@ Learn more:
 
 - quick: [Cachupa (Wikipedia)](https://en.wikipedia.org/wiki/Cachupa)
 - more: [Cape Verdean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cape_Verdean_cuisine)
-- more: [Cuisine of São Tomé and Príncipe (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe)
+- more: [Cuisine of Cape Verde (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Cape_Verde)
 - deep: [Books about Cachupa (Open Library)](https://openlibrary.org/search?q=Cachupa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2060858)
 
@@ -41,6 +41,7 @@ Learn more:
 
 - quick: [Bolinhos de mandioca com mel (Wikipedia)](https://en.wikipedia.org/wiki/Bolinhos_de_mandioca_com_mel)
 - more: [Cape Verdean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cape_Verdean_cuisine)
+- more: [Cuisine of Cape Verde (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Cape_Verde)
 - deep: [Books about Bolinhos de mandioca com mel (Open Library)](https://openlibrary.org/search?q=Bolinhos%20de%20mandioca%20com%20mel)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4939470)
 
@@ -67,6 +68,7 @@ Learn more:
 
 - quick: [Grogue (Wikipedia)](https://en.wikipedia.org/wiki/Grogue)
 - more: [Cape Verdean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cape_Verdean_cuisine)
+- more: [Cuisine of Cape Verde (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Cape_Verde)
 - deep: [Books about Grogue (Open Library)](https://openlibrary.org/search?q=Grogue)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5610120)
 
@@ -89,6 +91,7 @@ Learn more:
 
 - quick: [Strela (beer) (Wikipedia)](https://en.wikipedia.org/wiki/Strela_%28beer%29)
 - more: [Cape Verdean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cape_Verdean_cuisine)
+- more: [Cuisine of Cape Verde (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Cape_Verde)
 - deep: [Books about Strela (beer) (Open Library)](https://openlibrary.org/search?q=Strela%20%28beer%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3500299)
 

@@ -24,6 +24,7 @@ Learn more:
 
 - quick: [Kisra (Wikipedia)](https://en.wikipedia.org/wiki/Kisra)
 - more: [South Sudanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/South_Sudanese_cuisine)
+- more: [Cuisine of South Sudan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_South_Sudan)
 - deep: [Books about Kisra (Open Library)](https://openlibrary.org/search?q=Kisra)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3197476)
 

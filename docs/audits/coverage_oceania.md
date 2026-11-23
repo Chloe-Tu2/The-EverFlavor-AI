@@ -8,13 +8,14 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Australia | high | 59 | 39 | 30 | 47 | 2,758 | 5 | 92% |
-| New Zealand | low | 1 | 0 | 1 | 1 | 384 | 1 | 50% |
+| Australia | high | 60 | 40 | 30 | 48 | 2,758 | 4 | 94% |
+| New Zealand | low | 2 | 0 | 1 | 1 | 384 | 1 | 67% |
 
 ## Melanesia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
+| New Caledonia | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
 | Fiji | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Papua New Guinea | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Solomon Islands | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
@@ -24,23 +25,28 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Guam | low | 4 | 1 | 2 | 3 | 0 | 1 | 80% |
+| Federated States of Micronesia | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Kiribati | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Marshall Islands | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Nauru | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Northern Mariana Islands | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Palau | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Polynesia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Tonga | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Tonga | low | 2 | 0 | 0 | 0 | 0 | 0 | 100% |
+| American Samoa | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Cook Islands | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| French Polynesia | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Niue | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Samoa | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-
-## Not in the place tree yet
-
-| Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Guam | absent | 0 | 0 | 0 | 0 | 0 | 4 | 0% |
+| Tuvalu | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Countries with the most to add
 
-- **Australia** (high; 5 ready, 0 to review): prawn roll, hamdog, Smiley fritz, Patties pie, Bush bread.
-- **Guam** (absent; 0 ready, 4 to review): Roskette, Latiya, Kalamai, Guyuria.
+- **Australia** (high; 4 ready, 0 to review): prawn roll, hamdog, Smiley fritz, Patties pie.
 - **New Zealand** (low; 1 ready, 0 to review): Goody good gum drops.
+- **Guam** (low; 1 ready, 0 to review): Latiya.

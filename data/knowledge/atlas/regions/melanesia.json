@@ -1,0 +1,47 @@
+{
+ "id": "melanesia",
+ "name": "Melanesia",
+ "continent": "Oceania",
+ "countries": [
+  "Fiji",
+  "New Caledonia",
+  "Papua New Guinea",
+  "Solomon Islands",
+  "Vanuatu"
+ ],
+ "countries_with_a_dish": [
+  "New Caledonia"
+ ],
+ "coverage_score": 8.8,
+ "dish_count": 1,
+ "food_and_drink_count": 2,
+ "story_count": 1,
+ "representative_dishes": [
+  "Bougna"
+ ],
+ "dish_families": [],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Australasia",
+  "Micronesia",
+  "Polynesia"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

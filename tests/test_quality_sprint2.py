@@ -42,6 +42,6 @@ def test_tiers_follow_the_scores() -> None:
 
 def test_the_taxonomy_validation_file_is_complete() -> None:
     v = json.loads((ROOT / "data" / "knowledge" / "quality" / "taxonomy_validation.json").read_text(encoding="utf-8"))
-    assert sum(v["nodes"].values()) == 222 and v["nodes"]["country"] == 160   # after the atlas sprint, 2026-11-22
+    assert sum(v["nodes"].values()) == 234 and v["nodes"]["country"] == 172   # after sprint 2 (Oceania), 2026-11-23
     assert {"zone_differences", "region_differences", "countries_missing_from_taxonomy"} <= set(v)
     assert all(b["country"] for b in v["below_country"])

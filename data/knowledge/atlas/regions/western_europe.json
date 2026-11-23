@@ -1,0 +1,68 @@
+{
+ "id": "western_europe",
+ "name": "Western Europe",
+ "continent": "Europe",
+ "countries": [
+  "Belgium",
+  "France",
+  "Netherlands",
+  "Switzerland"
+ ],
+ "countries_with_a_dish": [
+  "Belgium",
+  "France",
+  "Netherlands",
+  "Switzerland"
+ ],
+ "coverage_score": 86.7,
+ "dish_count": 170,
+ "food_and_drink_count": 76,
+ "story_count": 140,
+ "representative_dishes": [
+  "Croissant",
+  "Waffle",
+  "Schnitzel",
+  "Mille-feuille",
+  "Brioche",
+  "French onion soup",
+  "Macaroon",
+  "Madeleine (cake)"
+ ],
+ "dish_families": [
+  "potato dish",
+  "cookie",
+  "pastry",
+  "sauce",
+  "stew",
+  "French cheese",
+  "fish dish",
+  "cow's-milk cheese"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Baltic States",
+  "British Isles",
+  "Central Europe",
+  "Eastern Europe",
+  "Mediterranean Europe",
+  "Nordic Countries"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

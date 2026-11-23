@@ -1,0 +1,64 @@
+{
+ "id": "southern_africa",
+ "name": "Southern Africa",
+ "continent": "Africa",
+ "countries": [
+  "Botswana",
+  "Eswatini",
+  "Lesotho",
+  "Namibia",
+  "South Africa"
+ ],
+ "countries_with_a_dish": [
+  "Botswana",
+  "South Africa"
+ ],
+ "coverage_score": 32.3,
+ "dish_count": 32,
+ "food_and_drink_count": 13,
+ "story_count": 16,
+ "representative_dishes": [
+  "Potjiekos",
+  "Vetkoek",
+  "Bunny chow",
+  "Ugali",
+  "Koeksister",
+  "Rusk",
+  "Bobotie",
+  "Malva pudding"
+ ],
+ "dish_families": [
+  "meat dish",
+  "sandwich",
+  "bread",
+  "lamb dish",
+  "yogurt",
+  "chocolate bar",
+  "dried meat",
+  "chutney"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Central Africa",
+  "East Africa",
+  "West Africa"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

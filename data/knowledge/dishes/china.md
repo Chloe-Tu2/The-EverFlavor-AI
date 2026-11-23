@@ -115,7 +115,7 @@ Learn more:
 
 - quick: [Baozi (Wikipedia)](https://en.wikipedia.org/wiki/Baozi)
 - more: [List of Chinese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Chinese_dishes)
-- more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
+- more: [Malagasy cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malagasy_cuisine)
 - deep: [Books about Baozi (Open Library)](https://openlibrary.org/search?q=Baozi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1137679)
 
@@ -5836,6 +5836,7 @@ Learn more:
 
 - quick: [Carp (Wikipedia)](https://en.wikipedia.org/wiki/Carp)
 - more: [Hong Kong cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hong_Kong_cuisine)
+- more: [Chadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chadian_cuisine)
 - deep: [Books about Carp (Open Library)](https://openlibrary.org/search?q=Carp)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2751223)
 
@@ -6460,6 +6461,7 @@ Learn more:
 
 - quick: [Sesame oil (Wikipedia)](https://en.wikipedia.org/wiki/Sesame_oil)
 - more: [Hong Kong cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hong_Kong_cuisine)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
 - deep: [Books about Sesame oil (Open Library)](https://openlibrary.org/search?q=Sesame%20oil)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q212317)
 
@@ -6486,6 +6488,7 @@ Learn more:
 
 - quick: [Shark (Wikipedia)](https://en.wikipedia.org/wiki/Shark)
 - more: [Hong Kong cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hong_Kong_cuisine)
+- more: [Fijian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Fijian_cuisine)
 - deep: [Books about Shark (Open Library)](https://openlibrary.org/search?q=Shark)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7372)
 
@@ -6555,6 +6558,7 @@ Learn more:
 
 - quick: [Sole (fish) (Wikipedia)](https://en.wikipedia.org/wiki/Sole_%28fish%29)
 - more: [Hong Kong cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hong_Kong_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Sole (fish) (Open Library)](https://openlibrary.org/search?q=Sole%20%28fish%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11688697)
 

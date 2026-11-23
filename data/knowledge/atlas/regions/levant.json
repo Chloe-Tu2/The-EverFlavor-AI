@@ -1,0 +1,67 @@
+{
+ "id": "levant",
+ "name": "Levant",
+ "continent": "Middle East & North Africa",
+ "countries": [
+  "Israel",
+  "Jordan",
+  "Lebanon",
+  "Palestine",
+  "Syria"
+ ],
+ "countries_with_a_dish": [
+  "Lebanon",
+  "Palestine"
+ ],
+ "coverage_score": 40.0,
+ "dish_count": 49,
+ "food_and_drink_count": 30,
+ "story_count": 57,
+ "representative_dishes": [
+  "Shawarma",
+  "Baba ghanoush",
+  "Hummus",
+  "Confectionery",
+  "Ka'ak",
+  "Tabbouleh",
+  "Mansaf",
+  "Falafel"
+ ],
+ "dish_families": [
+  "salad",
+  "rice dish",
+  "lamb dish",
+  "flatbread",
+  "spice mix",
+  "condiment",
+  "pastry",
+  "cheese"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Anatolia",
+  "Arabian Peninsula",
+  "Caucasus",
+  "Mesopotamia",
+  "North Africa",
+  "Persian Region"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

@@ -4,7 +4,7 @@ The Food Taxonomy (`data/reference/food_taxonomy.csv`) checked against the UN's 
 
 ## Structure
 
-Valid: 222 places (1 world, 8 zone, 30 region, 160 country, 5 division, 17 state, 1 culinary_region), every parent known, every level under an allowed one, no loops (`load_taxonomy` refuses a table that breaks these).
+Valid: 234 places (1 world, 8 zone, 30 region, 172 country, 5 division, 17 state, 1 culinary_region), every parent known, every level under an allowed one, no loops (`load_taxonomy` refuses a table that breaks these).
 Countries whose name has no ISO code in our country list: none.
 
 ## Zones against the UN continents
@@ -15,7 +15,7 @@ Every country's zone matches its UN continent (MENA counts as Asia and Africa).
 
 Each of our regions is compared with the closest UN subregions (Central Europe with Western and Eastern Europe, the Persian Region with Southern and Central Asia). A difference is often a food choice, not an error.
 
-None: all 160 countries sit in a region that matches their UN subregion.
+None: all 172 countries sit in a region that matches their UN subregion.
 
 ## Countries with dishes or recipes that the taxonomy lacks
 
@@ -33,7 +33,7 @@ States, divisions and culinary regions, with the dishes placed there (Wikidata o
 | Midwestern US | division | United States | 51 | 1791 |
 | Northeastern US | division | United States | 32 | 1136 |
 | Southern US | division | United States | 0 | 3101 |
-| Southwestern US | division | United States | 45 | 1205 |
+| Southwestern US | division | United States | 46 | 1205 |
 | West Coast | division | United States | 0 | 0 |
 | British Columbia | state | Canada | 0 | 406 |
 | Ontario | state | Canada | 0 | 499 |
@@ -48,11 +48,11 @@ States, divisions and culinary regions, with the dishes placed there (Wikidata o
 | Scotland | state | United Kingdom | 81 | 228 |
 | Wales | state | United Kingdom | 1 | 58 |
 | California | state | United States | 0 | 553 |
-| Hawaii | state | United States | 13 | 316 |
+| Hawaii | state | United States | 13 | 314 |
 | Louisiana | state | United States | 58 | 1083 |
 | Pennsylvania | state | United States | 32 | 229 |
 | Texas | state | United States | 0 | 930 |
 
 1 of 23 hold nothing directly (a division may still hold its states and culinary regions): West Coast.
 
-Countries with no dish and no recipe yet (21): Bahrain, Burundi, Central African Republic, Comoros, Djibouti, Equatorial Guinea, Eswatini, Fiji, Gabon, Guinea-Bissau, Kiribati, Lesotho, Liberia, Papua New Guinea, Qatar, Solomon Islands, São Tomé and Príncipe, The Bahamas, Turkmenistan, Vanuatu, Zimbabwe.
+Countries with no dish and no recipe yet (23): American Samoa, Bahrain, Burundi, Comoros, Cook Islands, Equatorial Guinea, Eswatini, Federated States of Micronesia, Fiji, French Polynesia, Gabon, Guinea-Bissau, Kiribati, Lesotho, Liberia, Nauru, Niue, Palau, Papua New Guinea, Qatar, Solomon Islands, São Tomé and Príncipe, Zimbabwe.

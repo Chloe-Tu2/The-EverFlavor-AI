@@ -1,0 +1,66 @@
+{
+ "id": "central_africa",
+ "name": "Central Africa",
+ "continent": "Africa",
+ "countries": [
+  "Angola",
+  "Cameroon",
+  "Central African Republic",
+  "Chad",
+  "Congo",
+  "Democratic Republic of the Congo",
+  "Equatorial Guinea",
+  "Gabon",
+  "São Tomé and Príncipe"
+ ],
+ "countries_with_a_dish": [
+  "Angola",
+  "Cameroon",
+  "Central African Republic",
+  "Chad",
+  "Democratic Republic of the Congo"
+ ],
+ "coverage_score": 32.6,
+ "dish_count": 15,
+ "food_and_drink_count": 3,
+ "story_count": 3,
+ "representative_dishes": [
+  "Koki (food)",
+  "La bouillie (Chadian food)",
+  "Ndolé",
+  "Moambe chicken",
+  "Kondreh (food)",
+  "Babute",
+  "Catatos",
+  "Kissuto rombo"
+ ],
+ "dish_families": [
+  "chili pepper",
+  "chicken dish",
+  "stew"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "East Africa",
+  "Southern Africa",
+  "West Africa"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

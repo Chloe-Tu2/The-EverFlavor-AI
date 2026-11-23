@@ -603,7 +603,7 @@ Learn more:
 
 - quick: [Pastry (Wikipedia)](https://en.wikipedia.org/wiki/Pastry)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
-- more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Pastry (Open Library)](https://openlibrary.org/search?q=Pastry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q477248)
 
@@ -1193,6 +1193,7 @@ Learn more:
 
 - quick: [Berry (Wikipedia)](https://en.wikipedia.org/wiki/Berry)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Berry (Open Library)](https://openlibrary.org/search?q=Berry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16128920)
 
@@ -1380,6 +1381,7 @@ Learn more:
 
 - quick: [Gruel (Wikipedia)](https://en.wikipedia.org/wiki/Gruel)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
 - deep: [Books about Gruel (Open Library)](https://openlibrary.org/search?q=Gruel)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q669569)
 
@@ -1810,6 +1812,7 @@ Learn more:
 
 - quick: [Vegetable (Wikipedia)](https://en.wikipedia.org/wiki/Vegetable)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Togolese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Togolese_cuisine)
 - deep: [Books about Vegetable (Open Library)](https://openlibrary.org/search?q=Vegetable)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11004)
 
