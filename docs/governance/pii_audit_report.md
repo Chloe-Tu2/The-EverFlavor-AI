@@ -1,6 +1,6 @@
 # PII audit (2026-11-22)
 
-`scripts/governance/pii_scan.py` read 478 tracked text files for e-mail addresses, phone numbers, street addresses and GPS coordinates. Values are masked. Nothing was changed: each hit below needs a person to decide whether it is public (a shop's listed phone, a credited author) or personal. Binary tables (parquet) are not read here; their columns are described in `docs/data_dictionary.md`.
+`scripts/governance/pii_scan.py` read 497 tracked text files for e-mail addresses, phone numbers, street addresses and GPS coordinates. Values are masked. Nothing was changed: each hit below needs a person to decide whether it is public (a shop's listed phone, a credited author) or personal. Binary tables (parquet) are not read here; their columns are described in `docs/data_dictionary.md`.
 
 ## Folders that must never be in git
 
@@ -10,8 +10,8 @@ Tracked files under `data/user/`, `logs/`, `config/.env`: none.
 
 - phone number: 16
 - street address: 13
-- GPS coordinates: 1
-- email: 1
+- email: 2
+- GPS coordinates: 2
 
 ## Hits by file (for review)
 
@@ -28,6 +28,8 @@ Tracked files under `data/user/`, `logs/`, `config/.env`: none.
 | `data/knowledge/media/image_priority_queue.json` | data | street address | 1 | `69 *********` |
 | `data/knowledge/media/missing_images.json` | data | street address | 1 | `69 *********` |
 | `data/knowledge/media/wikidata_images.json` | data | street address | 1 | `69 *********` |
+| `docs/governance/needs_human_review.md` | docs | email | 1 | `t***@everglow.com` |
 | `docs/plans/MAP.md` | docs | GPS coordinates | 1 | `29.**************` |
 | `src/everflavor/sources.py` | code | email | 1 | `t***@everglow.com` |
 | `src/everflavor/stores.py` | code | street address | 1 | `123***************` |
+| `tests/test_governance.py` | tests | GPS coordinates | 1 | `29.****************` |

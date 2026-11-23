@@ -53,7 +53,7 @@
   waiter and the map all read it.
 - **The safety engine** (`src/everflavor/flags.py`, `safety.py`, `recommend.py`): allergen and diet flags from
   each ingredient line, with recorded policies for every judgment call (`docs/flag_review/`). Flags only ever add
-  cautions; diet labels say "-friendly".
+  cautions; diet labels say "-friendly". How it decides, step by step: [docs/architecture/safety_engine.md](docs/architecture/safety_engine.md).
 - **Walter, the waiter:** tells a dish's story and explains its flags from sourced notes only
   (`src/everflavor/waiter.py`); **the map:** shops that likely sell an ingredient, Greater Houston pilot.
 - **Contribute:** [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) · **Roadmap:** [docs/plans/README.md](docs/plans/README.md) ·
@@ -85,6 +85,10 @@ The system returns:
 ---
 
 ## Architecture
+
+The system today, layer by layer (app, Walter, discovery, safety engine, Food Graph, domain, knowledge
+assets, pipelines): [docs/architecture/](docs/architecture/README.md). Below is the original agent design from
+the proposal.
 
 ```mermaid
 flowchart LR
@@ -672,7 +676,8 @@ The-EverFlavor-AI/
 │   ├── demo_extras.py      # Adds the map, origins and USDA tables to the demo data
 │   ├── recipe_photos/      # Download recipe photos, mark logos, check each photo shows its dish (CLIP)
 │   ├── dish_photos/        # Free general dish photos (Wikimedia Commons, by name or native name)
-│   └── knowledge/          # Collect the waiter's dish facts and the review sheet
+│   ├── governance/         # Secret, PII, provenance and hygiene scans (the secret scan fails CI)
+│   └── knowledge/          # Collect the waiter's dish facts, the audits, coverage and work queues
 ├── design/           # Pixel art (kitchens, chefs, signs, banners, all drawn by code), icons and the design plan
 ├── models/           # Fitted baseline pipeline (generated, not committed)
 ├── src/
@@ -732,8 +737,11 @@ The-EverFlavor-AI/
 │   ├── test_app_art.py, test_app_contrast.py  # Every picture the app names is drawn; theme colours readable
 │   └── test_version.py      # The version, CHANGELOG and What's new agree
 ├── docs/
+│   ├── architecture/ # How the layers fit together (diagram) and the safety engine step by step
 │   ├── art/          # README art: banner.png and logo.png (design/pixel-art/make_banner.py), ramen.py, flag_recall.py
 │   ├── audits/       # Read-only data reports: recipe to dish links, world coverage, gaps, publishing rules
+│   ├── governance/   # Data policy, approvals, licences, release checklist, scans, open questions for the team
+│   ├── plans/        # The planner (start here) and the finished plans
 │   ├── proposal/     # Capstone proposal slides and Phase 1-2 documents (PDF)
 │   ├── flag_review/  # Blind 200-recipe samples per round, their labels, and the human decisions
 │   │                 # (flag_policies.csv, compound_ingredients_review.csv, human_signoff.csv)

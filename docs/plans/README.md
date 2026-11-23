@@ -33,7 +33,8 @@ How a version moves, as most teams do it:
 | 0.7.1 | **Ready to release** 2026-11-17: the 0.5.2 and 0.6.3 work and PRs #10 to #20 are on `main`; version, CHANGELOG, What's new and READMEs updated; the tag waits for med27-coder's go | `release/0.7.1` |
 | 0.7.2 | Next: speed (scene files cached), `st.iframe` for the kitchen, a clearer profile button, UI clean-up, Check my recipe phases 2-3, an "Open in maps" button. Local branch `fix/0.7.2-repairs` (not pushed, 2026-11-17): scene files cached, profile button, Open in maps | |
 | After 0.7.2 | **Order of work** (below): foundations first, then discovery | |
-| 0.8.0 | **Planned** (below): chat with the chef, a real store locator | |
+| 0.8.0 | **Planned** (below; decided by med27-coder, 2026-11-22): sign off the staged photos, cuisine and country image fallbacks, world culinary coverage as the headline metric, the 18 map cuisine tags, related dishes in Check my recipe; the real store locator | |
+| 0.9.0 | **Planned** (below): chat with the chef (moved from 0.8.0 by med27-coder, 2026-11-22), the Africa sprint (38 ready dishes first), Walter's five questions | |
 | 1.0.0 | Final presentation | |
 
 The 0.6.0 items below that were not built stay planned; 0.6.0 is skipped as a number.
@@ -264,7 +265,7 @@ or profile options until step 6 is done; repairs are not features.
 5. **Discovery:** safety, then taxonomy, preferences, novelty and variety.
 6. **The map from a recipe:** ingredients to the kinds of shop nearby that usually stock them, with the confidence
    level (OpenStreetMap does not list a shop's stock).
-7. **Chat with the waiter** (0.8.0 below), then **My Cookbook** collections and notes.
+7. **Chat with the waiter** (0.9.0 below), then **My Cookbook** collections and notes.
 
 ### Data and coverage work (asked by med27-coder, 2026-11-21; reports first, no app changes)
 
@@ -275,7 +276,7 @@ Nothing is invented: only our data, Wikidata and notebook 15.
    `docs/flag_review/allergen_words_es_fr_it.csv`, policy P26).
 2. Recipe to dish linking: how many recipes the app's dish match finds, and where it fails.
 3. Taxonomy coverage: which places, countries and regions have dishes, families and recipes.
-4. The waiter's context: the graph's fixed lines for every dish, ready for the chat in 0.8.0.
+4. The waiter's context: the graph's fixed lines for every dish, ready for the chat in 0.9.0.
 5. Discovery paths, a recipe quality audit and the map's preparation data.
 6. Coverage audit and expansion backlog, Europe first: country, culinary region and dish family gaps, the
    indigenous cuisines, and the rules every future dish must pass (source, licence, place, family or "unknown",
@@ -298,16 +299,31 @@ Nothing is invented: only our data, Wikidata and notebook 15.
     `GOVERNANCE.md`, a README "At a glance". The open questions are in
     `docs/governance/needs_human_review.md`.
 
-### 0.8.0 (planned 2026-10-26): chat with the chef, and a real store locator
+### 0.8.0 (re-planned 2026-11-22 by med27-coder): coverage, images and the store locator
 
-Two plans, researched and written; nothing built. Each step in them ships on its own.
+Nothing built yet. Coverage replaces the dish count as the headline
+([world_culinary_coverage.md](../audits/world_culinary_coverage.md): world 24.7%, Africa 6.9%).
+
+| Feature | From | First step |
+|---|---|---|
+| Sign off the staged photos (203 dishes become rich) | [approved_photos_check.md](../audits/approved_photos_check.md) | a person reads the 72 passed contact sheets |
+| Cuisine and country image fallbacks, labelled as such | the photo pipeline's licence and credit rules | a Commons fetch round, checked by a person |
+| World culinary coverage in the README and the app | `scripts/knowledge/culinary_coverage.py` | confirm its counting rule (review item 21) |
+| The 18 countries without a map cuisine tag | [map_validation_report.md](../audits/map_validation_report.md) | OpenStreetMap's wiki (Key:cuisine); only tags in use |
+| Related dishes in Check my recipe, stored nowhere | `waiter.Knowledge.find`, the Food Graph | a small back-end function, then the panel |
+
+### 0.9.0 (planned): chat with the chef, the Africa sprint, Walter's five questions
+
+Chat with the chef moved here from 0.8.0 (med27-coder, 2026-11-22). The Africa sprint starts with the 38 ready
+dishes in `data/knowledge/atlas/Africa_Next_500.json`; Walter's five questions are what a dish is, where it is
+from, why it matters, similar dishes and its versions.
 
 | Feature | Plan | In short | First steps |
 |---|---|---|---|
 | Chat with the chef | [CHEF_CHAT.md](CHEF_CHAT.md) | A bubble bottom-right; the chef answers by calling the project's own functions (find, check, substitutions, where to buy), never from its own judgment; every recipe re-checked by the safety gate; rules-only answers when the local AI is off; no chat history saved | `chat.py` with a rules router and red-team tests, then the bubble |
 | Store locator | [MAP.md](MAP.md), "Making it a real store locator" | A list beside the map, ZIP search from the Census table (no paid API), a details card with directions, "Where to buy" from a recipe; MapLibre later; Greater Houston coverage | back-end `map_places` and `zip_center`, then the wider data |
 
-Both list open questions for the team at their ends.
+[CHEF_CHAT.md](CHEF_CHAT.md) lists open questions for the team at its end.
 
 ### Later (1.0 and after)
 

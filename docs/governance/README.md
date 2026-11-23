@@ -12,12 +12,15 @@ approves what, licences, releases, and the scans that guard secrets and personal
 | [needs_human_review.md](needs_human_review.md) | The open questions waiting for a person |
 | [secret_scan_report.md](secret_scan_report.md) | The latest secret scan (written by the script) |
 | [pii_audit_report.md](pii_audit_report.md) | The latest personal-data audit (written by the script) |
-| [provenance_report.md](provenance_report.md) | Whether every data file says its source, licence and date (the tests fail on a gap) |
+| [data_provenance_report.md](data_provenance_report.md) | Whether every data file says its source, licence and date (the tests fail on a gap) |
 | [readme_improvement_report.md](readme_improvement_report.md) | What the main README answers well and what it lacks |
+| [repository_hygiene_report.md](repository_hygiene_report.md) | Tracked files that look temporary, debug, draft or stale (written by the script) |
+| [documentation_gap_report.md](documentation_gap_report.md) | Which pages lack purpose, inputs, outputs or owner, and where each report of the maintenance brief lives |
+| [ci_guardrails_report.md](ci_guardrails_report.md) | Which guardrails run in CI, and the gaps |
 
 - **Inputs:** every tracked file (the scans); `docs/sources.md` (licences).
-- **Outputs:** the two reports above; the secret scan's exit code, which fails CI on any finding.
-- **Scripts:** `scripts/governance/secret_scan.py`, `pii_scan.py`, `provenance_audit.py` (tests:
+- **Outputs:** the reports above; the secret scan's exit code, which fails CI on any finding.
+- **Scripts:** `scripts/governance/secret_scan.py`, `pii_scan.py`, `provenance_audit.py`, `hygiene_audit.py` (tests:
   `tests/test_governance.py`).
 - **Ownership:** the team (EverGlow); the policies here are proposed until the team confirms them.
 - **Future work:** a licence check of each image file in CI, a broken-link check of the docs, and
