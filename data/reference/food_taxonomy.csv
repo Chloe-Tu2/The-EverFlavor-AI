@@ -34,6 +34,10 @@ west_africa,West Africa,region,africa,,west african
 central_africa,Central Africa,region,africa,,central african
 baltic,Baltic States,region,europe,,baltic
 caucasus,Caucasus,region,mena,asia,caucasian
+central_asia,Central Asia,region,asia,,central asian
+melanesia,Melanesia,region,oceania,,melanesian
+polynesia,Polynesia,region,oceania,,polynesian
+micronesia,Micronesia,region,oceania,,micronesian
 china,China,country,east_asia,,chinese
 japan,Japan,country,east_asia,,japanese
 south_korea,South Korea,country,east_asia,,korean;korea
@@ -158,3 +162,62 @@ cn_sichuan,Sichuan,state,china,,szechuan;sichuanese
 cn_guangdong,Guangdong,state,china,,cantonese
 cn_hunan,Hunan,state,china,,hunanese
 cn_beijing,Beijing,state,china,,peking
+ghana,Ghana,country,west_africa,,ghanaian
+senegal,Senegal,country,west_africa,,senegalese
+ivory_coast,Ivory Coast,country,west_africa,,ivorian
+mali,Mali,country,west_africa,,malian
+benin,Benin,country,west_africa,,beninese
+burkina_faso,Burkina Faso,country,west_africa,,burkinabé
+guinea,Guinea,country,west_africa,,guinean
+guinea_bissau,Guinea-Bissau,country,west_africa,,bissau-guinean
+liberia,Liberia,country,west_africa,,liberian
+sierra_leone,Sierra Leone,country,west_africa,,sierra leonean
+the_gambia,The Gambia,country,west_africa,,gambian
+togo,Togo,country,west_africa,,togolese
+niger,Niger,country,west_africa,,nigerien
+mauritania,Mauritania,country,west_africa,,mauritanian
+cape_verde,Cape Verde,country,west_africa,,cape verdean
+cameroon,Cameroon,country,central_africa,,cameroonian
+gabon,Gabon,country,central_africa,,gabonese
+chad,Chad,country,central_africa,,chadian
+central_african_republic,Central African Republic,country,central_africa,,central african
+equatorial_guinea,Equatorial Guinea,country,central_africa,,equatoguinean
+democratic_republic_of_the_congo,Democratic Republic of the Congo,country,central_africa,,
+sao_tome_and_principe,São Tomé and Príncipe,country,central_africa,,são toméan
+tanzania,Tanzania,country,east_africa,,tanzanian
+uganda,Uganda,country,east_africa,,ugandan
+rwanda,Rwanda,country,east_africa,,rwandan
+burundi,Burundi,country,east_africa,,burundian
+eritrea,Eritrea,country,east_africa,,eritrean
+djibouti,Djibouti,country,east_africa,,djiboutian
+south_sudan,South Sudan,country,east_africa,,south sudanese
+madagascar,Madagascar,country,east_africa,,malagasy
+mauritius,Mauritius,country,east_africa,,mauritian
+seychelles,Seychelles,country,east_africa,,seychellois
+comoros,Comoros,country,east_africa,,comorian
+mozambique,Mozambique,country,east_africa,,mozambican
+zambia,Zambia,country,east_africa,,zambian
+zimbabwe,Zimbabwe,country,east_africa,,zimbabwean
+malawi,Malawi,country,east_africa,,malawian
+lesotho,Lesotho,country,southern_africa,,basotho
+eswatini,Eswatini,country,southern_africa,,swazi
+fiji,Fiji,country,melanesia,,fijian
+papua_new_guinea,Papua New Guinea,country,melanesia,,papua new guinean
+solomon_islands,Solomon Islands,country,melanesia,,
+vanuatu,Vanuatu,country,melanesia,,vanuatuan
+samoa,Samoa,country,polynesia,,samoan
+tonga,Tonga,country,polynesia,,tongan
+kiribati,Kiribati,country,micronesia,,i-kiribati
+trinidad_and_tobago,Trinidad and Tobago,country,caribbean_islands,,
+haiti,Haiti,country,caribbean_islands,,haitian
+dominican_republic,Dominican Republic,country,caribbean_islands,,
+the_bahamas,The Bahamas,country,caribbean_islands,,bahamian
+el_salvador,El Salvador,country,mexico_central_america,,salvadoran
+nicaragua,Nicaragua,country,mexico_central_america,,nicaraguan
+panama,Panama,country,mexico_central_america,,panamanian
+belize,Belize,country,mexico_central_america,,belizean
+uzbekistan,Uzbekistan,country,central_asia,,uzbek
+kazakhstan,Kazakhstan,country,central_asia,,kazakh
+kyrgyzstan,Kyrgyzstan,country,central_asia,,kyrgyz
+tajikistan,Tajikistan,country,central_asia,,tajik
+turkmenistan,Turkmenistan,country,central_asia,,turkmen

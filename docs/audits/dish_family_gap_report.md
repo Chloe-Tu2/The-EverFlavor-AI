@@ -6,19 +6,19 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 
 | Family | Members | We have | Missing | Share | Missing by zone | Missing, for example |
 |---|---:|---:|---:|---:|---:|---:|
-| dumpling | 32 | 20 | 12 | 62% | not in the tree 6, Asia 3, Europe 1, Middle East & North Africa 1 | Bichak, Buuz, Dhapu momo, Idrija dumplings, Khinkali |
-| flatbread | 75 | 38 | 37 | 51% | Asia 9, Middle East & North Africa 8, not in the tree 7, Europe 4 | Afghan bread, Ajdov Kruh, Balep korkun, Barbari bread, Bolani |
+| dumpling | 32 | 20 | 12 | 62% | Asia 4, not in the tree 4, Middle East & North Africa 2, Europe 1 | Bichak, Buuz, Dhapu momo, Idrija dumplings, Khinkali |
+| flatbread | 75 | 41 | 34 | 55% | Middle East & North Africa 10, Asia 9, Europe 4, not in the tree 3 | Afghan bread, Ajdov Kruh, Balep korkun, Barbari bread, Bolani |
 | curry | 18 | 7 | 11 | 39% | Asia 5, Europe 1, not in the tree 1 | 3-in-1, Buttermilk curry, Ceylon, Kaalan, Paneer makhani |
-| soup | 338 | 174 | 164 | 52% | Asia 32, not in the tree 29, Europe 23, Africa 11 | 15 bean soup, 2007 Vietnam food scare, Abunuabunu, Afang, Afia Efere |
-| stew | 118 | 67 | 51 | 57% | not in the tree 14, Europe 9, Middle East & North Africa 6, Asia 2 | Andrajos, Asopao, Bosnian pot, Cachupa, Calulu |
+| soup | 338 | 186 | 152 | 55% | Asia 33, Europe 22, not in the tree 22, Africa 7 | 15 bean soup, 2007 Vietnam food scare, Abunuabunu, Afia Efere, Alicot |
+| stew | 118 | 74 | 44 | 63% | Europe 9, Middle East & North Africa 9, not in the tree 5, Africa 2 | Andrajos, Asopao, Bosnian pot, Calulu, Chanakhi |
 | noodle | 43 | 31 | 12 | 72% | Asia 7, not in the tree 1 | Chinkiang pot cover noodles, Japanese noodles, Khauk swè, Korean noodles, Singapore chow mein |
 | pasta | 87 | 73 | 14 | 84% | Europe 7, not in the tree 2, North America 1 | Farfel, Fusi, Lorighittas, Manicotti, Pasta mollicata |
-| bread | 206 | 66 | 140 | 32% | Europe 36, not in the tree 17, Middle East & North Africa 10, Asia 10 | Adobe bread, Amish Friendship Bread, Antigua Sunday Bread, Apple Bread, Bappir |
-| pastry | 230 | 111 | 119 | 48% | Europe 37, Asia 20, not in the tree 15, Middle East & North Africa 14 | Alivenci, Allerheiligenstriezel, Banana roll, Belly button pastry, Bethmännchen |
-| cake | 163 | 61 | 102 | 37% | Europe 26, not in the tree 11, North America 9, Asia 6 | Amandine, Amish Friendship Bread, Belokranjska povitica, Bibikkan, Biscuit cake |
+| bread | 206 | 72 | 134 | 35% | Europe 36, Middle East & North Africa 14, Asia 10, North America 8 | Adobe bread, Amish Friendship Bread, Antigua Sunday Bread, Apple Bread, Bappir |
+| pastry | 230 | 112 | 118 | 49% | Europe 37, Asia 20, Middle East & North Africa 15, not in the tree 12 | Alivenci, Allerheiligenstriezel, Banana roll, Belly button pastry, Bethmännchen |
+| cake | 163 | 62 | 101 | 38% | Europe 26, North America 9, not in the tree 8, Asia 6 | Amandine, Amish Friendship Bread, Belokranjska povitica, Bibikkan, Biscuit cake |
 | sausage | 68 | 30 | 38 | 44% | Europe 11, Asia 3, not in the tree 2, Oceania 1 | Azaruja sausage, Babic, Beutelwurst, Brühwurst, Cabanatuan longganisa |
-| salad | 124 | 67 | 57 | 54% | not in the tree 16, Europe 9, Asia 6, Middle East & North Africa 4 | Afghan salad, Buddha bowl, Buljol, Burmese salad, Caesar salad |
-| sandwich | 121 | 59 | 62 | 49% | Europe 12, North America 8, not in the tree 7, Latin America 6 | Afghani burger, Ayvalık tostu, Bake and Shark, Bokit, Bosna |
+| salad | 124 | 71 | 53 | 57% | not in the tree 11, Europe 9, Asia 7, Middle East & North Africa 4 | Afghan salad, Buddha bowl, Buljol, Burmese salad, Caesar salad |
+| sandwich | 121 | 61 | 60 | 50% | Europe 12, North America 8, Latin America 6, Asia 5 | Afghani burger, Ayvalık tostu, Bokit, Bosna, Camel rider |
 
 ## Weakly covered families (10+ members, under 30% present: 43)
 
@@ -30,7 +30,7 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | ice cream | 66 | 11 | 17% | Bastani, Biscuit Tortoni, Butter Brickle, Butter Pecan, Chocolate chip cookie dough ice cream, Coffee ice cream |
 | seed oil | 50 | 3 | 6% | Allanblackia oil, Ambadi seed oil, Borneo tallow nut oil, Lallemantia oil, Niger seed oil, Oiticica oil |
 | British cheese | 54 | 8 | 15% | Applewood cheese, Ashdown Foresters, Beacon Fell Traditional Lancashire Cheese, Beenleigh Blue cheese, Blue Rathgore, Brighton Blue |
-| rice | 52 | 9 | 17% | Abakaliki Rice, Adamchini Chawal, Arborio rice, Bhutanese red rice, Boka Chaul, Bomba rice |
+| rice | 52 | 11 | 21% | Abakaliki Rice, Adamchini Chawal, Arborio rice, Bhutanese red rice, Boka Chaul, Bomba rice |
 | industrial cheese | 45 | 5 | 11% | Bleu d'Auvergne, Brie de Meaux, Brie de Melun, Brocciu, Cabécou, Carré d'Aurillac |
 | farmstead cheese | 42 | 3 | 7% | Abertam cheese, Bleu d'Auvergne, Brie de Meaux, Brie de Melun, Brocciu, Cabécou |
 | tea | 50 | 14 | 28% | Biluochun, Canned tea, Chinese tea, Crush, Tear, Curl, GABA Tea, Japanese tea |
@@ -41,8 +41,8 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | coffee | 37 | 10 | 27% | Babycino, Black Ivory coffee, Bourbon coffee, Death Wish Coffee, Geisha coffee, Java coffee |
 | chocolate | 27 | 1 | 4% | Belgian chocolate, Dubai chocolate, Dutch-process cocoa, Gianduja, Giri choco, Mingles |
 | raw-milk cheese | 34 | 9 | 26% | Banon cheese, Beenleigh Blue cheese, Boerenkaas, Brie de Meaux, Brie de Melun, Crottin de Chavignol |
-| hamburger | 33 | 8 | 24% | 50/50 burger, BK Stacker, BK XXL, Bacon Deluxe, Bonus Jack, Kiwiburger |
 | seed | 29 | 4 | 14% | Grains of Selim, apricot kernel, basil seed, buah keluak, cannabis seed, caraway seeds |
+| hamburger | 33 | 9 | 27% | 50/50 burger, BK Stacker, BK XXL, Bacon Deluxe, Bonus Jack, Kiwiburger |
 | chili pepper | 31 | 7 | 23% | Ají caballero, Ají dulce, Banana pepper, Bishop's Crown, Black Pearl pepper, Capsicum annuum var. glabriusculum |
 | white mold-rind cheese | 26 | 2 | 8% | Brie de Meaux, Brie de Melun, Brillat-Savarin cheese, Caravane, Carré de l'Est, Chabis |
 | pressed uncooked cheese | 26 | 2 | 8% | Abbaye de Belloc, Cantal, Etorki, Le Douanier, Maasdam cheese, Mahón cheese |

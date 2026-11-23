@@ -1,6 +1,6 @@
 # Data provenance (2026-11-22)
 
-`scripts/governance/provenance_audit.py` checked 114 tracked data files in `data/knowledge/` and `data/reference/`: does each say its source, licence and date, in the file (JSON) or in a README or `docs/sources.md` that names it? **114 do; 0 need a person.** Nothing was changed.
+`scripts/governance/provenance_audit.py` checked 115 tracked data files in `data/knowledge/` and `data/reference/`: does each say its source, licence and date, in the file (JSON) or in a README or `docs/sources.md` that names it? **115 do; 0 need a person.** Nothing was changed.
 
 ## Files that need their provenance written down
 
@@ -12,9 +12,9 @@ Each file, or a docs line that names it, should also state its licence, a versio
 
 | Field | Files that state it | Missing |
 |---|---:|---:|
-| a licence named | 100 | 14 |
-| a version or release date | 61 | 53 |
-| the credit its licence asks for | 85 | 29 |
+| a licence named | 101 | 14 |
+| a version or release date | 62 | 53 |
+| the credit its licence asks for | 86 | 29 |
 
 ## Every file
 
@@ -26,6 +26,7 @@ Each file, or a docs line that names it, should also state its licence, a versio
 | `data/knowledge/atlas/Europe_Next_500.json` | yes | yes | yes | **no** | yes | yes | yes | **no** |
 | `data/knowledge/atlas/Oceania_Next_500.json` | yes | yes | yes | **no** | yes | yes | yes | **no** |
 | `data/knowledge/atlas/coverage_scores.json` | yes | yes | yes | yes | yes | yes | yes | **no** |
+| `data/knowledge/atlas/culinary_coverage.json` | yes | yes | yes | yes | yes | yes | yes | yes |
 | `data/knowledge/atlas/missing_regions.json` | yes | yes | yes | yes | yes | yes | yes | **no** |
 | `data/knowledge/atlas/missing_variants.json` | yes | yes | yes | yes | yes | yes | yes | **no** |
 | `data/knowledge/atlas/publication_review_queue.json` | yes | yes | yes | yes | yes | yes | yes | **no** |

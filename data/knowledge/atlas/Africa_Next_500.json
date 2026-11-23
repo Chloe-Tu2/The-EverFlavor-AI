@@ -12,7 +12,7 @@
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
  "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
- "count": 38,
+ "count": 26,
  "dishes": [
   {
    "dish": "Kenyan cheese",
@@ -32,282 +32,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Cheese_in_Kenya",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Hmiss",
-   "wikidata": "Q3138826",
-   "country": "Algeria",
-   "subregion": "Northern Africa",
-   "families": [
-    "salad"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3138826",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Hmiss",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "rooibos",
-   "wikidata": "Q56342268",
-   "country": "South Africa",
-   "subregion": "Southern Africa",
-   "families": [
-    "tea"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q56342268",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Rooibos_tea",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Funkaso",
-   "wikidata": "Q5509249",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "pancake"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5509249",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Funkaso",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Lahoh",
-   "wikidata": "Q1809371",
-   "country": "Somalia",
-   "subregion": "Eastern Africa",
-   "families": [
-    "pancake"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1809371",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Lahoh",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Fig roll",
-   "wikidata": "Q5447680",
-   "country": "Egypt",
-   "subregion": "Northern Africa",
-   "families": [
-    "pastry"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5447680",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Fig_roll",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Okpa",
-   "wikidata": "Q112610072",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "pudding"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q112610072",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Okpa",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "kisra",
-   "wikidata": "Q3197476",
-   "country": "Kenya",
-   "subregion": "Eastern Africa",
-   "families": [
-    "flatbread"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3197476",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kisra",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "bazeen",
-   "wikidata": "Q4164571",
-   "country": "Libya",
-   "subregion": "Northern Africa",
-   "families": [
-    "bread"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4164571",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bazin_(bread)",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "palm nut soup",
-   "wikidata": "Q17005230",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "fruit soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17005230",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Palm_nut_soup",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Sabaayad",
-   "wikidata": "Q7395806",
-   "country": "Somalia",
-   "subregion": "Eastern Africa",
-   "families": [
-    "flatbread"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7395806",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sabaayad",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Bambalouni",
-   "wikidata": "Q2881759",
-   "country": "Tunisia",
-   "subregion": "Northern Africa",
-   "families": [
-    "doughnut"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2881759",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bambalouni",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Afang",
-   "wikidata": "Q30599785",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q30599785",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Afang_soup",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -337,6 +61,167 @@
    ]
   },
   {
+   "dish": "rooibos",
+   "wikidata": "Q56342268",
+   "country": "South Africa",
+   "subregion": "Southern Africa",
+   "families": [
+    "tea"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q56342268",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rooibos_tea",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Abunuabunu",
+   "wikidata": "Q64490692",
+   "country": "Ghana",
+   "subregion": "Western Africa",
+   "families": [
+    "soup"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q64490692",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Abunuabunu",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Koba",
+   "wikidata": "Q17107651",
+   "country": "Madagascar",
+   "subregion": "Eastern Africa",
+   "families": [
+    "pastry"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q17107651",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Koba_(sweet)",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Fig roll",
+   "wikidata": "Q5447680",
+   "country": "Egypt",
+   "subregion": "Northern Africa",
+   "families": [
+    "pastry"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q5447680",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Fig_roll",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Ngome",
+   "wikidata": "Q7022523",
+   "country": "Mali",
+   "subregion": "Western Africa",
+   "families": [
+    "flatbread"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q7022523",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ngome_(bread)",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "usipa",
+   "wikidata": "Q28197217",
+   "country": "Malawi",
+   "subregion": "Eastern Africa",
+   "families": [
+    "dried fish"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q28197217",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Usipa",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Kabkabou",
+   "wikidata": "Q16248468",
+   "country": "Tunisia",
+   "subregion": "Northern Africa",
+   "families": [
+    "ragout"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q16248468",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kabkabou",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
    "dish": "Afia Efere",
    "wikidata": "Q113039087",
    "country": "Nigeria",
@@ -354,6 +239,98 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Afia_Efere",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Kunga cake",
+   "wikidata": "Q54165556",
+   "country": "Tanzania",
+   "subregion": "Eastern Africa",
+   "families": [
+    "torta"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q54165556",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kunga_cake",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Matlou",
+   "wikidata": "Q12243625",
+   "country": "Algeria",
+   "subregion": "Northern Africa",
+   "families": [
+    "bread"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q12243625",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Matloue",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Gbegiri",
+   "wikidata": "Q85735249",
+   "country": "Nigeria",
+   "subregion": "Western Africa",
+   "families": [
+    "soup"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q85735249",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gbegiri",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Luwombo",
+   "wikidata": "Q123171413",
+   "country": "Uganda",
+   "subregion": "Eastern Africa",
+   "families": [
+    "stew"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q123171413",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Luwombo",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -384,52 +361,6 @@
    ]
   },
   {
-   "dish": "Gbegiri",
-   "wikidata": "Q85735249",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q85735249",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Gbegiri",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Fricasse",
-   "wikidata": "Q938386",
-   "country": "Tunisia",
-   "subregion": "Northern Africa",
-   "families": [
-    "entrée"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q938386",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Fricasse",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
    "dish": "Ofe Oha",
    "wikidata": "Q107357988",
    "country": "Nigeria",
@@ -453,23 +384,46 @@
    ]
   },
   {
-   "dish": "Matlou",
-   "wikidata": "Q12243625",
-   "country": "Algeria",
-   "subregion": "Northern Africa",
+   "dish": "Romazava",
+   "wikidata": "Q3441149",
+   "country": "Madagascar",
+   "subregion": "Eastern Africa",
    "families": [
-    "bread"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12243625",
+     "url": "https://www.wikidata.org/wiki/Q3441149",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Matloue",
+     "url": "https://en.wikipedia.org/wiki/Romazava",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Mafrum",
+   "wikidata": "Q6585018",
+   "country": "Tunisia",
+   "subregion": "Northern Africa",
+   "families": [
+    "stuffed vegetable"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q6585018",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mafrum",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -499,184 +453,23 @@
    ]
   },
   {
-   "dish": "torshi",
-   "wikidata": "Q12012266",
-   "country": "Egypt",
-   "subregion": "Northern Africa",
+   "dish": "Eshabwe",
+   "wikidata": "Q18353987",
+   "country": "Uganda",
+   "subregion": "Eastern Africa",
    "families": [
-    "pickle"
+    "condiment"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12012266",
+     "url": "https://www.wikidata.org/wiki/Q18353987",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Torshi",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Otong soup",
-   "wikidata": "Q113070503",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q113070503",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Otong_soup",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Kabkabou",
-   "wikidata": "Q16248468",
-   "country": "Tunisia",
-   "subregion": "Northern Africa",
-   "families": [
-    "ragout"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16248468",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kabkabou",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Owo soup",
-   "wikidata": "Q17109263",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17109263",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Owo_soup",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Chakhchoukha",
-   "wikidata": "Q936218",
-   "country": "Algeria",
-   "subregion": "Northern Africa",
-   "families": [
-    "flatbread"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q936218",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chakhchoukha",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Pate acha",
-   "wikidata": "Q23907623",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q23907623",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pate_acha",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Mechouia salad",
-   "wikidata": "Q3469471",
-   "country": "Tunisia",
-   "subregion": "Northern Africa",
-   "families": [
-    "salad"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3469471",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mechouia_salad",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Tuwon shinkafa",
-   "wikidata": "Q83603766",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "rice"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q83603766",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tuwon_shinkafa",
+     "url": "https://en.wikipedia.org/wiki/Eshabwe",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -706,46 +499,69 @@
    ]
   },
   {
-   "dish": "amala",
-   "wikidata": "Q4739207",
+   "dish": "Owo soup",
+   "wikidata": "Q17109263",
    "country": "Nigeria",
    "subregion": "Western Africa",
    "families": [
-    "swallow"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4739207",
+     "url": "https://www.wikidata.org/wiki/Q17109263",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Amala_(food)",
+     "url": "https://en.wikipedia.org/wiki/Owo_soup",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Mafrum",
-   "wikidata": "Q6585018",
-   "country": "Tunisia",
-   "subregion": "Northern Africa",
+   "dish": "Kikalayi",
+   "wikidata": "Q132661273",
+   "country": "Uganda",
+   "subregion": "Eastern Africa",
    "families": [
-    "stuffed vegetable"
+    "mammal meat"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6585018",
+     "url": "https://www.wikidata.org/wiki/Q132661273",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mafrum",
+     "url": "https://en.wikipedia.org/wiki/Kikalayi",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "torshi",
+   "wikidata": "Q12012266",
+   "country": "Egypt",
+   "subregion": "Northern Africa",
+   "families": [
+    "pickle"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q12012266",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Torshi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -793,98 +609,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Argan_oil",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "miyan taushe",
-   "wikidata": "Q112860630",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q112860630",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Miyan_taushe",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "ogbono soup",
-   "wikidata": "Q7079882",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7079882",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ogbono_soup",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "peanut milk",
-   "wikidata": "Q7157940",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "plant milk"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7157940",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Peanut_milk",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "pounded yam",
-   "wikidata": "Q97483764",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "swallow"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q97483764",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pounded_yam",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

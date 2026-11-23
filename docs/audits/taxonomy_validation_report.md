@@ -4,7 +4,7 @@ The Food Taxonomy (`data/reference/food_taxonomy.csv`) checked against the UN's 
 
 ## Structure
 
-Valid: 150 places (1 world, 8 zone, 26 region, 92 country, 5 division, 17 state, 1 culinary_region), every parent known, every level under an allowed one, no loops (`load_taxonomy` refuses a table that breaks these).
+Valid: 222 places (1 world, 8 zone, 30 region, 160 country, 5 division, 17 state, 1 culinary_region), every parent known, every level under an allowed one, no loops (`load_taxonomy` refuses a table that breaks these).
 Countries whose name has no ISO code in our country list: none.
 
 ## Zones against the UN continents
@@ -15,7 +15,7 @@ Every country's zone matches its UN continent (MENA counts as Asia and Africa).
 
 Each of our regions is compared with the closest UN subregions (Central Europe with Western and Eastern Europe, the Persian Region with Southern and Central Asia). A difference is often a food choice, not an error.
 
-None: all 92 countries sit in a region that matches their UN subregion.
+None: all 160 countries sit in a region that matches their UN subregion.
 
 ## Countries with dishes or recipes that the taxonomy lacks
 
@@ -30,7 +30,7 @@ States, divisions and culinary regions, with the dishes placed there (Wikidata o
 | Place | Level | Country | Dishes | Recipes |
 |---|---|---|---:|---:|
 | Pacific Northwest | culinary_region | United States | 0 | 387 |
-| Midwestern US | division | United States | 50 | 1792 |
+| Midwestern US | division | United States | 51 | 1791 |
 | Northeastern US | division | United States | 32 | 1136 |
 | Southern US | division | United States | 0 | 3101 |
 | Southwestern US | division | United States | 45 | 1205 |
@@ -43,16 +43,16 @@ States, divisions and culinary regions, with the dishes placed there (Wikidata o
 | Hunan | state | China | 5 | 21 |
 | Sichuan | state | China | 15 | 77 |
 | Baja California | state | Mexico | 0 | 74 |
-| Oaxaca | state | Mexico | 7 | 42 |
-| England | state | United Kingdom | 13 | 937 |
-| Scotland | state | United Kingdom | 81 | 231 |
+| Oaxaca | state | Mexico | 8 | 42 |
+| England | state | United Kingdom | 13 | 932 |
+| Scotland | state | United Kingdom | 81 | 228 |
 | Wales | state | United Kingdom | 1 | 58 |
-| California | state | United States | 0 | 555 |
+| California | state | United States | 0 | 553 |
 | Hawaii | state | United States | 13 | 316 |
-| Louisiana | state | United States | 59 | 1083 |
-| Pennsylvania | state | United States | 32 | 230 |
-| Texas | state | United States | 0 | 931 |
+| Louisiana | state | United States | 58 | 1083 |
+| Pennsylvania | state | United States | 32 | 229 |
+| Texas | state | United States | 0 | 930 |
 
 1 of 23 hold nothing directly (a division may still hold its states and culinary regions): West Coast.
 
-Countries with no dish and no recipe yet (0): none.
+Countries with no dish and no recipe yet (21): Bahrain, Burundi, Central African Republic, Comoros, Djibouti, Equatorial Guinea, Eswatini, Fiji, Gabon, Guinea-Bissau, Kiribati, Lesotho, Liberia, Papua New Guinea, Qatar, Solomon Islands, São Tomé and Príncipe, The Bahamas, Turkmenistan, Vanuatu, Zimbabwe.

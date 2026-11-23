@@ -10,21 +10,29 @@ Back to [world coverage](coverage_world.md).
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Jamaica | high | 50 | 39 | 32 | 46 | 402 | 1 | 98% |
 | Cuba | medium | 22 | 13 | 9 | 12 | 397 | 0 | 100% |
-| Puerto Rico | recipes only | 0 | 0 | 0 | 0 | 71 | 2 | 0% |
+| Haiti | low | 5 | 2 | 2 | 3 | 0 | 0 | 100% |
+| Dominican Republic | low | 3 | 2 | 3 | 3 | 0 | 0 | 100% |
+| Puerto Rico | low | 2 | 2 | 0 | 0 | 71 | 2 | 50% |
+| Barbados | low | 2 | 2 | 1 | 1 | 6 | 0 | 100% |
+| Trinidad and Tobago | low | 2 | 0 | 2 | 3 | 0 | 3 | 40% |
 | Dominica | recipes only | 0 | 0 | 0 | 0 | 15 | 0 |  |
 | Cayman Islands | recipes only | 0 | 0 | 0 | 0 | 7 | 0 |  |
 | Aruba | recipes only | 0 | 0 | 0 | 0 | 6 | 0 |  |
-| Barbados | recipes only | 0 | 0 | 0 | 0 | 6 | 1 | 0% |
 | Antigua and Barbuda | recipes only | 0 | 0 | 0 | 0 | 3 | 0 |  |
+| The Bahamas | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Mexico & Central America
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Mexico | high | 110 | 79 | 38 | 67 | 11,490 | 18 | 86% |
+| Mexico | high | 113 | 81 | 39 | 70 | 11,490 | 16 | 88% |
+| Guatemala | low | 8 | 4 | 3 | 4 | 24 | 0 | 100% |
+| Nicaragua | low | 8 | 1 | 2 | 2 | 0 | 0 | 100% |
+| Belize | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| El Salvador | low | 1 | 1 | 1 | 1 | 0 | 1 | 50% |
 | Costa Rica | recipes only | 0 | 0 | 0 | 0 | 43 | 0 |  |
-| Guatemala | recipes only | 0 | 0 | 0 | 0 | 24 | 2 | 0% |
 | Honduras | recipes only | 0 | 0 | 0 | 0 | 10 | 1 | 0% |
+| Panama | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## South America
 
@@ -43,7 +51,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| United States | high | 367 | 307 | 104 | 268 | 131,095 | 148 | 71% |
+| United States | high | 366 | 306 | 103 | 266 | 131,095 | 146 | 72% |
 | Canada | high | 88 | 70 | 47 | 70 | 4,577 | 20 | 82% |
 
 ## Not in the place tree yet
@@ -52,30 +60,25 @@ Back to [world coverage](coverage_world.md).
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Bermuda | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 | Bolivia | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Dominican Republic | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
-| El Salvador | absent | 0 | 0 | 0 | 0 | 0 | 2 | 0% |
 | Greenland | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Haiti | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
 | Montserrat | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Nicaragua | absent | 0 | 0 | 0 | 0 | 0 | 2 | 0% |
 | Paraguay | absent | 0 | 0 | 0 | 0 | 0 | 5 | 0% |
-| Trinidad and Tobago | absent | 0 | 0 | 0 | 0 | 0 | 5 | 0% |
 | United States Virgin Islands | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 
 ## Countries with the most to add
 
-- **United States** (high; 148 ready, 0 to review): Devil's food cake, sushi burrito, slider, sausage bread, peanut butter cup, monkey bread, crackling bread, cracker.
+- **United States** (high; 146 ready, 0 to review): Devil's food cake, sushi burrito, slider, sausage bread, peanut butter cup, monkey bread, crackling bread, cracker.
 - **Canada** (high; 20 ready, 0 to review): Pied-De-Vent, Le Douanier, Friulano, Dragon's Breath Blue, sour cream doughnut, prawn soup, pizza cake, moon mist.
-- **Mexico** (high; 16 ready, 2 to review): wrap, wheat tortilla, poblano, marquesote, hebra cheese, chocolate sandwich, chirmol, chilhuacle negro.
+- **Mexico** (high; 14 ready, 2 to review): wrap, wheat tortilla, poblano, hebra cheese, chocolate sandwich, chirmol, chilhuacle negro, Sinaloan sushi.
 - **Peru** (medium; 10 ready, 1 to review): butifarra, arroz zambito, aji, Sopa teologa, Shikashika, Kola Real, King Kong milk candy, Guagua de pan.
 - **Argentina** (low; 10 ready, 0 to review): pebete, Salsa golf, Provoleta, Patay, Fugazza, Fernet and Coke, Cremoso cheese, Chocotorta.
 - **Venezuela** (recipes only; 6 ready, 0 to review): pabellón criollo, Tequeño, Pisca Andina, Mandoca, Cachitos, Cachapa.
 - **Brazil** (high; 5 ready, 0 to review): pão francês, Xis, Mané pelado, Colony cheese, Beirut sandwich.
 - **Paraguay** (absent; 0 ready, 5 to review): soyo, piracaldo, kosereva, kamby arro, Mbejú paraguayo.
-- **Trinidad and Tobago** (absent; 0 ready, 5 to review): roti, doubles, Buljol, Bake and Shark, Aloo pie.
 - **Chile** (medium; 4 ready, 0 to review): chanco cheese, Pastel de jaiba, Conejito, Chilean salad.
+- **Trinidad and Tobago** (low; 3 ready, 0 to review): doubles, Buljol, Aloo pie.
 - **Colombia** (medium; 3 ready, 0 to review): wine cake, Polvorosa, Paipa cheese.
 - **Uruguay** (recipes only; 3 ready, 0 to review): Queso colonia, Chivito, Caruso sauce.
-- **Dominican Republic** (absent; 0 ready, 3 to review): chimichurri burger, Moro de guandules, Bizcocho Dominicano.
-- **Haiti** (absent; 0 ready, 3 to review): soup joumou, Haitian patty, Bouillon.
-- **Puerto Rico** (recipes only; 2 ready, 0 to review): Quesito, Piragua.
+- **Puerto Rico** (low; 2 ready, 0 to review): Quesito, Piragua.
+- **Ecuador** (recipes only; 2 ready, 0 to review): Fanesca, Encebollado nació en Guayaquil, en los astilleros y puertos de la ciudad de Guayaquil..
+- **Jamaica** (high; 1 ready, 0 to review): Cow cod soup.

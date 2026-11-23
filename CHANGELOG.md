@@ -14,6 +14,20 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
 
 ## [Unreleased]
 
+### Added
+
+- **The atlas sprint** (decided by med27-coder, 2026-11-22; Africa first): 169 dishes and 75 foods from the Wikipedia
+  cuisine pages of 74 more countries (Africa, the Pacific Islands, the Caribbean, Central America, Central Asia),
+  with Wikidata facts; 90 countries now have a dish (53 before). The place tree gains 59 countries and four
+  regions (Central Asia, Melanesia, Polynesia, Micronesia). A new country's page sets a dish's country only when
+  Wikidata's origin or the dish's own intro names it. World culinary coverage: 36.3% (24.7% before); Africa 33.7%
+  (6.9%).
+
+### Changed
+
+- World culinary coverage: a country with no culinary regions in the place tree has no level 2, and its
+  regional-styles check does not apply (instead of counting as met).
+
 ## [0.7.2] - 2026-11-22
 
 Phase 0 of the roadmap (the safety refactor), finished; the first step of phase 1; three 0.7.2 repairs; the

@@ -8,12 +8,12 @@ Which parts of the world EverFlavor covers, which it lacks, and where the next d
 
 | Zone | Countries | In the tree | With dishes | Dishes | Recipes | Ready to add | To review |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| [Europe](coverage_europe.md) | 52 | 28 | 20 | 1185 | 50,001 | 693 | 131 |
-| [Asia](coverage_asia.md) | 34 | 16 | 11 | 994 | 19,708 | 416 | 42 |
-| [Africa](coverage_africa.md) | 55 | 9 | 2 | 38 | 756 | 23 | 22 |
-| [the Americas and the Caribbean](coverage_americas.md) | 57 | 22 | 10 | 760 | 148,888 | 234 | 28 |
-| [Oceania](coverage_oceania.md) | 27 | 2 | 2 | 59 | 3,142 | 6 | 4 |
-| [the Middle East and North Africa](coverage_middle_east.md) | 23 | 15 | 8 | 165 | 3,530 | 87 | 20 |
+| [Europe](coverage_europe.md) | 51 | 28 | 20 | 1194 | 50,001 | 689 | 112 |
+| [Asia](coverage_asia.md) | 33 | 21 | 13 | 1006 | 19,708 | 417 | 33 |
+| [Africa](coverage_africa.md) | 55 | 48 | 24 | 134 | 756 | 17 | 0 |
+| [the Americas and the Caribbean](coverage_americas.md) | 57 | 30 | 19 | 794 | 148,888 | 231 | 13 |
+| [Oceania](coverage_oceania.md) | 27 | 9 | 3 | 61 | 3,142 | 6 | 4 |
+| [the Middle East and North Africa](coverage_middle_east.md) | 25 | 24 | 11 | 182 | 3,530 | 116 | 4 |
 
 ## Over-represented
 
@@ -21,26 +21,26 @@ Where most of the recipes are (share of all recipes with a known country) and th
 
 | Country | Recipes | Share of recipes | Dishes | Share of dishes |
 |---|---:|---:|---:|---:|
-| United States | 131,095 | 58% | 367 | 11% |
-| Italy | 24,910 | 11% | 326 | 10% |
-| Mexico | 11,490 | 5% | 110 | 3% |
-| France | 8,520 | 4% | 84 | 3% |
-| India | 7,312 | 3% | 102 | 3% |
-| China | 5,878 | 3% | 178 | 6% |
+| United States | 131,095 | 58% | 366 | 11% |
+| Italy | 24,910 | 11% | 327 | 10% |
+| Mexico | 11,490 | 5% | 113 | 3% |
+| France | 8,520 | 4% | 87 | 3% |
+| India | 7,312 | 3% | 103 | 3% |
+| China | 5,878 | 3% | 179 | 5% |
 | Canada | 4,577 | 2% | 88 | 3% |
-| United Kingdom | 4,553 | 2% | 67 | 2% |
+| United Kingdom | 4,553 | 2% | 69 | 2% |
 | Greece | 4,334 | 2% | 88 | 3% |
-| Australia | 2,758 | 1% | 58 | 2% |
+| Australia | 2,758 | 1% | 59 | 2% |
 
 ## Under-represented
 
-- **Recipes but no dish knowledge** (39): Puerto Rico (71), Costa Rica (43), Venezuela (42), Ecuador (35), Iceland (34), Nepal (33), Nigeria (32), Guatemala (24), Laos (18), Libya (17), Dominica (15), Sudan (12), Albania (11), Algeria (11), Angola (10), Honduras (10), Somalia (9), Croatia (8), Afghanistan (7), Bulgaria (7), Cayman Islands (7), Congo (7), Tunisia (7), Uruguay (7), Aruba (6), Barbados (6), Botswana (6), Ukraine (6), Syria (5), Taiwan (5), Kenya (4), Namibia (4), Slovakia (4), Andorra (3), Antigua and Barbuda (3), Armenia (3), Bangladesh (3), Estonia (3), Azerbaijan (2).
-- **Absent, 20 million people or more** (17; population from Wikidata): Democratic Republic of the Congo, Tanzania, Myanmar, Uganda, Uzbekistan, Ghana, Madagascar, Ivory Coast, Mozambique, Cameroon, Yemen, North Korea, Burkina Faso, Mali, Niger, Sri Lanka, Kazakhstan.
-- **Absent in all**: 163 countries and territories with neither dishes nor recipes (`missing_countries.json`).
+- **Recipes but no dish knowledge** (29): Costa Rica (43), Venezuela (42), Ecuador (35), Iceland (34), Nepal (33), Laos (18), Dominica (15), Sudan (12), Albania (11), Honduras (10), Croatia (8), Afghanistan (7), Bulgaria (7), Cayman Islands (7), Congo (7), Uruguay (7), Aruba (6), Ukraine (6), Syria (5), Taiwan (5), Kenya (4), Namibia (4), Slovakia (4), Andorra (3), Antigua and Barbuda (3), Armenia (3), Bangladesh (3), Estonia (3), Azerbaijan (2).
+- **Absent, 20 million people or more** (7; population from Wikidata): Myanmar, Madagascar, Yemen, North Korea, Burkina Faso, Mali, Sri Lanka.
+- **Absent in all**: 136 countries and territories with neither dishes nor recipes (`missing_countries.json`).
 
 ## The expansion backlog
 
-3,689 dishes Wikidata lists in a family that we do not have: **1,459 ready**, **357 to review** and **1,873 blocked** (no country of origin), by the rules in [publishing_rules.md](publishing_rules.md). Every one would be a knowledge-only dish: none comes with a recipe.
+3,606 dishes Wikidata lists in a family that we do not have: **1,476 ready**, **275 to review** and **1,855 blocked** (no country of origin), by the rules in [publishing_rules.md](publishing_rules.md). Every one would be a knowledge-only dish: none comes with a recipe.
 
 ## If EverFlavor adds 500 dishes next
 
@@ -48,14 +48,14 @@ A fixed rule, not a taste: ready dishes only; countries in priority order (tier 
 
 | Zone | Dishes |
 |---|---:|
-| Europe | 219 |
-| Asia | 120 |
-| the Americas and the Caribbean | 85 |
-| the Middle East and North Africa | 53 |
+| Europe | 205 |
+| Asia | 118 |
+| the Americas and the Caribbean | 83 |
+| the Middle East and North Africa | 71 |
 | Africa | 17 |
 | Oceania | 6 |
 
-By country: China 12, France 12, Germany 12, India 12, Italy 12, Japan 12, Spain 12, United Kingdom 12, United States 12, Turkey 12, Philippines 12, Switzerland 12, Netherlands 12, Iran 12, Indonesia 12, Canada 12, Sweden 12, Belgium 12, Nigeria 12, Mexico 11, Denmark 11, Bulgaria 11, Poland 11, Taiwan 11, Argentina 10, Finland 10, Peru 10, Austria 9, South Korea 9, Greece 8, Ireland 8, Russia 8, Cambodia 7, Thailand 7, Algeria 6, Iceland 6, Venezuela 6, Afghanistan 5, Armenia 5, Australia 5, Azerbaijan 5, Brazil 5, Pakistan 5, Portugal 5, Tunisia 5, Ukraine 5, Vietnam 5, Chile 4, Croatia 4, Czech Republic 4, Hungary 4, Bangladesh 3, Colombia 3, Egypt 3, Laos 3, Malaysia 3, Norway 3, Slovakia 3, Uruguay 3, Puerto Rico 2, Ecuador 2, Guatemala 2, Iraq 2, Kenya 2, Nepal 2, Somalia 2, Syria 2, New Zealand 1, Barbados 1, Estonia 1, Honduras 1, Jamaica 1, Libya 1, South Africa 1.
+By country: China 11, France 11, Germany 11, India 11, Italy 11, Japan 11, Spain 11, United Kingdom 11, United States 11, Turkey 11, Switzerland 11, Netherlands 11, Philippines 11, Iran 11, Indonesia 11, Canada 11, Sweden 11, Georgia 10, Belgium 10, Denmark 10, Mexico 10, Bulgaria 10, Poland 10, Taiwan 10, Argentina 10, Finland 10, Peru 10, Austria 9, South Korea 9, Greece 8, Russia 8, Cambodia 7, Ireland 7, Thailand 7, Yemen 7, Iceland 6, Israel 6, Nigeria 6, Venezuela 6, Afghanistan 5, Armenia 5, Australia 5, Azerbaijan 5, Brazil 5, Pakistan 5, Portugal 5, Ukraine 5, Vietnam 5, Algeria 4, Chile 4, Croatia 4, Czech Republic 4, Hungary 4, Bangladesh 3, Colombia 3, Egypt 3, Kazakhstan 3, Laos 3, Malaysia 3, Norway 3, Slovakia 3, Trinidad and Tobago 3, Uganda 3, Uruguay 3, Puerto Rico 2, Ecuador 2, Iraq 2, Madagascar 2, Nepal 2, Syria 2, Tunisia 2, New Zealand 1, El Salvador 1, Estonia 1, Ghana 1, Honduras 1, Jamaica 1, Jordan 1, Kenya 1, Kuwait 1, Kyrgyzstan 1, Malawi 1, Mali 1, South Africa 1, Tanzania 1, United Arab Emirates 1.
 
 Why so few from Africa and Oceania: Wikidata files few of their dishes under a family with a country of origin, so they have few ready dishes. Growing them needs a new source (their Wikipedia cuisine lists, as notebook 11 reads for 54 countries today), not a guess.
 
@@ -69,27 +69,27 @@ Cultural importance is not scored: no source we use measures it, and we do not g
 
 | Tier | Country | Zone | Coverage | Why |
 |---|---:|---:|---:|---:|
-| 1 | United Kingdom | Europe | low | 171 dishes ready to add; 1 to review |
-| 1 | United States | North America | high | 148 dishes ready to add |
+| 1 | United Kingdom | Europe | low | 170 dishes ready to add; 1 to review |
+| 1 | United States | North America | high | 146 dishes ready to add |
 | 1 | Japan | Asia | medium | 139 dishes ready to add |
-| 1 | France | Europe | low | 133 dishes ready to add; 46 to review |
+| 1 | France | Europe | low | 131 dishes ready to add; 46 to review |
 | 1 | China | Asia | high | 98 dishes ready to add; 1 to review |
 | 1 | Italy | Europe | high | 78 dishes ready to add; 1 to review |
-| 1 | India | Asia | high | 65 dishes ready to add |
+| 1 | India | Asia | high | 63 dishes ready to add |
 | 1 | Spain | Europe | medium | 59 dishes ready to add; 1 to review |
 | 1 | Germany | Europe | high | 40 dishes ready to add |
 | 1 | Turkey | Middle East & North Africa | high | 32 dishes ready to add |
 | 1 | Switzerland | Europe | medium | 30 dishes ready to add; 2 to review |
-| 1 | Philippines | Asia | high | 30 dishes ready to add |
 | 1 | Netherlands | Europe | medium | 29 dishes ready to add; 1 to review |
-| 1 | Iran | Middle East & North Africa | low | 26 dishes ready to add; 432 recipes but 11 dishes |
+| 1 | Philippines | Asia | high | 29 dishes ready to add |
+| 1 | Iran | Middle East & North Africa | low | 26 dishes ready to add; 432 recipes but 13 dishes |
 | 1 | Indonesia | Asia | high | 24 dishes ready to add |
 | 1 | Canada | North America | high | 20 dishes ready to add |
 | 1 | Sweden | Europe | medium | 20 dishes ready to add |
 | 1 | New Zealand | Oceania | low | 1 dishes ready to add; 384 recipes but 1 dishes |
+| 2 | Georgia | Middle East & North Africa | absent | 19 dishes ready to add |
 | 2 | Belgium | Europe | medium | 18 dishes ready to add |
-| 2 | Nigeria | Africa | recipes only | 18 dishes ready to add |
-| 2 | Mexico | Latin America | high | 16 dishes ready to add; 2 to review |
+| 2 | Mexico | Latin America | high | 14 dishes ready to add; 2 to review |
 | 2 | Denmark | Europe | medium | 14 dishes ready to add |
 | 2 | Bulgaria | Europe | recipes only | 12 dishes ready to add |
 | 2 | Poland | Europe | high | 11 dishes ready to add |
@@ -100,34 +100,29 @@ Cultural importance is not scored: no source we use measures it, and we do not g
 | 2 | South Korea | Asia | high | 9 dishes ready to add |
 | 2 | Austria | Europe | low | 9 dishes ready to add |
 | 2 | Greece | Europe | high | 8 dishes ready to add |
-| 2 | Ireland | Europe | medium | 8 dishes ready to add |
 | 2 | Russia | Europe | medium | 8 dishes ready to add |
 | 2 | Thailand | Asia | high | 7 dishes ready to add |
+| 2 | Ireland | Europe | medium | 7 dishes ready to add |
 | 2 | Cambodia | Asia | low | 7 dishes ready to add |
+| 2 | Yemen | Middle East & North Africa | absent | 7 dishes ready to add |
 | 2 | Venezuela | Latin America | recipes only | 6 dishes ready to add |
 | 2 | Iceland | Europe | recipes only | 6 dishes ready to add |
-| 2 | Algeria | Middle East & North Africa | recipes only | 6 dishes ready to add |
+| 2 | Nigeria | Africa | high | 6 dishes ready to add |
+| 2 | Israel | Middle East & North Africa | absent | 6 dishes ready to add |
 | 2 | Vietnam | Asia | high | 5 dishes ready to add; 1 to review |
 | 2 | Australia | Oceania | high | 5 dishes ready to add |
 | 2 | Portugal | Europe | high | 5 dishes ready to add |
 | 2 | Brazil | Latin America | high | 5 dishes ready to add |
 | 2 | Pakistan | Asia | low | 5 dishes ready to add |
 | 2 | Afghanistan | Asia | recipes only | 5 dishes ready to add |
-| 2 | Tunisia | Middle East & North Africa | recipes only | 5 dishes ready to add |
 | 2 | Ukraine | Europe | recipes only | 5 dishes ready to add |
 | 2 | Armenia | Middle East & North Africa | recipes only | 5 dishes ready to add |
 | 2 | Azerbaijan | Middle East & North Africa | recipes only | 5 dishes ready to add |
-| 2 | Puerto Rico | Caribbean | recipes only | 2 dishes ready to add |
+| 2 | Puerto Rico | Caribbean | low | 2 dishes ready to add |
 | 2 | Romania | not in the tree | absent | 20 to review; not in the place tree |
-| 2 | Georgia | not in the tree | absent | 19 to review; not in the place tree |
 | 2 | Slovenia | not in the tree | absent | 11 to review; not in the place tree |
 | 2 | Myanmar | not in the tree | absent | 9 to review; not in the place tree |
 | 2 | Serbia | not in the tree | absent | 8 to review; not in the place tree |
-| 2 | Ghana | not in the tree | absent | 7 to review; not in the place tree |
 | 2 | Sri Lanka | not in the tree | absent | 7 to review; not in the place tree |
-| 2 | Yemen | not in the tree | absent | 7 to review; not in the place tree |
-| 2 | Israel | not in the tree | absent | 6 to review; not in the place tree |
-| 2 | Kazakhstan | not in the tree | absent | 5 to review; not in the place tree |
 | 2 | Paraguay | not in the tree | absent | 5 to review; not in the place tree |
-| 2 | Trinidad and Tobago | not in the tree | absent | 5 to review; not in the place tree |
 | 2 | Saudi Arabia | Middle East & North Africa | low |  |

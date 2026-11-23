@@ -114,6 +114,7 @@ def load() -> dict:
 def build(src: dict) -> dict:
     tax, fam, kinds = src["tax"], src["fam"], src["kinds"]
     ours = {d["qid"]: d for d in src["dishes"] if d.get("kind") == "dish"}
+    known = {d["qid"] for d in src["dishes"]}   # dishes and foods: never a backlog candidate
     linked = src["counts"]["dishes"]
     recipe_country = src["recipes"].origin_country.value_counts().to_dict()
     recipe_region = src["recipes"].dropna(subset=["origin_region"]).groupby(["origin_country", "origin_region"]).size()
@@ -134,7 +135,7 @@ def build(src: dict) -> dict:
     missing: dict[str, dict] = {}
     for f in families:
         for m in f["members"]:
-            if m["in_everflavor"] or m["qid"] in ours:
+            if m["in_everflavor"] or m["qid"] in known:
                 continue
             c, region = clean_country(m.get("country"))
             entry = missing.setdefault(m["qid"], {"qid": m["qid"], "name": m["name"], "country": c, "region": region,

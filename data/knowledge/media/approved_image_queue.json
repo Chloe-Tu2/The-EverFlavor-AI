@@ -3764,6 +3764,21 @@
    "status": "approved_for_collection"
   },
   {
+   "dish_id": "Q2074267",
+   "dish_name": "Lomi-lomi salmon",
+   "country": "United States",
+   "now_shows": "placeholder",
+   "priority": "high",
+   "commons_file": "Lomi lomi salmon.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Lomi_lomi_salmon.jpg",
+   "license": "CC BY-SA 2.0",
+   "author": "stu_spivack",
+   "width": 3008,
+   "height": 2000,
+   "credit": "Photo of Lomi-lomi salmon: stu_spivack, CC BY-SA 2.0, via Wikimedia Commons",
+   "status": "approved_for_collection"
+  },
+  {
    "dish_id": "Q6817675",
    "dish_name": "Menudo (Mexican soup)",
    "country": "United States",
@@ -17204,21 +17219,6 @@
    "status": "approved_for_collection"
   },
   {
-   "dish_id": "Q2827721",
-   "dish_name": "Ahriche",
-   "country": "Morocco",
-   "now_shows": "placeholder",
-   "priority": "medium",
-   "commons_file": "Tahricht.jpg",
-   "file_page": "https://commons.wikimedia.org/wiki/File:Tahricht.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Alexdevil",
-   "width": 3296,
-   "height": 2472,
-   "credit": "Photo of Ahriche: Alexdevil, CC BY-SA 3.0, via Wikimedia Commons",
-   "status": "approved_for_collection"
-  },
-  {
    "dish_id": "Q2879043",
    "dish_name": "Baghrir",
    "country": "Morocco",
@@ -17381,6 +17381,21 @@
    "width": 616,
    "height": 616,
    "credit": "Photo of Shebakia: Miznate, CC BY-SA 4.0, via Wikimedia Commons",
+   "status": "approved_for_collection"
+  },
+  {
+   "dish_id": "Q2827721",
+   "dish_name": "Tahricht",
+   "country": "Morocco",
+   "now_shows": "placeholder",
+   "priority": "medium",
+   "commons_file": "Tahricht.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Tahricht.jpg",
+   "license": "CC BY-SA 3.0",
+   "author": "Alexdevil",
+   "width": 3296,
+   "height": 2472,
+   "credit": "Photo of Tahricht: Alexdevil, CC BY-SA 3.0, via Wikimedia Commons",
    "status": "approved_for_collection"
   },
   {
@@ -24836,21 +24851,6 @@
    "width": 2752,
    "height": 1922,
    "credit": "Photo of Lobster Newberg: stu_spivack, CC0, via Wikimedia Commons",
-   "status": "approved_for_collection"
-  },
-  {
-   "dish_id": "Q2074267",
-   "dish_name": "Lomi-lomi salmon",
-   "country": "United States",
-   "now_shows": "placeholder",
-   "priority": "medium",
-   "commons_file": "Lomi lomi salmon.jpg",
-   "file_page": "https://commons.wikimedia.org/wiki/File:Lomi_lomi_salmon.jpg",
-   "license": "CC BY-SA 2.0",
-   "author": "stu_spivack",
-   "width": 3008,
-   "height": 2000,
-   "credit": "Photo of Lomi-lomi salmon: stu_spivack, CC BY-SA 2.0, via Wikimedia Commons",
    "status": "approved_for_collection"
   },
   {

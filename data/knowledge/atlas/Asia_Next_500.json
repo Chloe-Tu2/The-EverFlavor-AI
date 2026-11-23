@@ -12,8 +12,31 @@
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
  "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
- "count": 306,
+ "count": 344,
  "dishes": [
+  {
+   "dish": "Shalgam",
+   "wikidata": "Q7487184",
+   "country": "Kazakhstan",
+   "subregion": "Central Asia",
+   "families": [
+    "salad"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q7487184",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Shalgam",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
   {
    "dish": "Banana roll",
    "wikidata": "Q985814",
@@ -101,6 +124,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Gata_(food)",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "oromo",
+   "wikidata": "Q1048130",
+   "country": "Kyrgyzstan",
+   "subregion": "Central Asia",
+   "families": [
+    "pie"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q1048130",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Orama_(dish)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -199,6 +245,29 @@
    ]
   },
   {
+   "dish": "Nauryz kozhe",
+   "wikidata": "Q12555954",
+   "country": "Kazakhstan",
+   "subregion": "Central Asia",
+   "families": [
+    "soup"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q12555954",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Nauryz_kozhe",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
    "dish": "Korean fried chicken",
    "wikidata": "Q626723",
    "country": "South Korea",
@@ -268,23 +337,46 @@
    ]
   },
   {
-   "dish": "ِAbbas bread",
-   "wikidata": "Q131564107",
-   "country": "Iraq",
+   "dish": "Chanakhi",
+   "wikidata": "Q2378108",
+   "country": "Georgia",
    "subregion": "Western Asia",
    "families": [
-    "bread"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q131564107",
+     "url": "https://www.wikidata.org/wiki/Q2378108",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Khubz_al-%CA%BEAbbas",
+     "url": "https://en.wikipedia.org/wiki/Chanakhi",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "kumis",
+   "wikidata": "Q61081",
+   "country": "Kazakhstan",
+   "subregion": "Central Asia",
+   "families": [
+    "yoghurt and other types of milk or cream, fermented or soured"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q61081",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kumis",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -361,23 +453,23 @@
    ]
   },
   {
-   "dish": "Shʿifūra",
-   "wikidata": "Q107695675",
-   "country": "Syria",
+   "dish": "ِAbbas bread",
+   "wikidata": "Q131564107",
+   "country": "Iraq",
    "subregion": "Western Asia",
    "families": [
-    "salad"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q107695675",
+     "url": "https://www.wikidata.org/wiki/Q131564107",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sh%CA%BFifurah",
+     "url": "https://en.wikipedia.org/wiki/Khubz_al-%CA%BEAbbas",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -453,23 +545,23 @@
    ]
   },
   {
-   "dish": "Ayvalık tostu",
-   "wikidata": "Q85428376",
-   "country": "Turkey",
+   "dish": "Bagel toast",
+   "wikidata": "Q2904916",
+   "country": "Israel",
    "subregion": "Western Asia",
    "families": [
-    "sandwich"
+    "open sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q85428376",
+     "url": "https://www.wikidata.org/wiki/Q2904916",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ayval%C4%B1k_toast",
+     "url": "https://en.wikipedia.org/wiki/Bagel_toast",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -545,23 +637,23 @@
    ]
   },
   {
-   "dish": "Ghapama",
-   "wikidata": "Q3104777",
-   "country": "Armenia",
+   "dish": "jameed",
+   "wikidata": "Q3296477",
+   "country": "Jordan",
    "subregion": "Western Asia",
    "families": [
-    "stew"
+    "yogurt"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3104777",
+     "url": "https://www.wikidata.org/wiki/Q3296477",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ghapama",
+     "url": "https://en.wikipedia.org/wiki/Jameed",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -638,23 +730,23 @@
    ]
   },
   {
-   "dish": "badambura",
-   "wikidata": "Q12837200",
-   "country": "Azerbaijan",
+   "dish": "Kuwaiti tea",
+   "wikidata": "Q25059058",
+   "country": "Kuwait",
    "subregion": "Western Asia",
    "families": [
-    "pastry"
+    "tea"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12837200",
+     "url": "https://www.wikidata.org/wiki/Q25059058",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Badambura",
+     "url": "https://en.wikipedia.org/wiki/Kuwaiti_tea",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -730,23 +822,23 @@
    ]
   },
   {
-   "dish": "tandoor bread",
-   "wikidata": "Q2669274",
-   "country": "Iraq",
+   "dish": "Shʿifūra",
+   "wikidata": "Q107695675",
+   "country": "Syria",
    "subregion": "Western Asia",
    "families": [
-    "flatbread"
+    "salad"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2669274",
+     "url": "https://www.wikidata.org/wiki/Q107695675",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tandoor_bread",
+     "url": "https://en.wikipedia.org/wiki/Sh%CA%BFifurah",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -823,23 +915,23 @@
    ]
   },
   {
-   "dish": "markook",
-   "wikidata": "Q2095020",
-   "country": "Syria",
+   "dish": "Ayvalık tostu",
+   "wikidata": "Q85428376",
+   "country": "Turkey",
    "subregion": "Western Asia",
    "families": [
-    "bread"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2095020",
+     "url": "https://www.wikidata.org/wiki/Q85428376",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Markook_(bread)",
+     "url": "https://en.wikipedia.org/wiki/Ayval%C4%B1k_toast",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -915,23 +1007,23 @@
    ]
   },
   {
-   "dish": "Cezerye",
-   "wikidata": "Q2338350",
-   "country": "Turkey",
+   "dish": "Dubai chocolate",
+   "wikidata": "Q130571534",
+   "country": "United Arab Emirates",
    "subregion": "Western Asia",
    "families": [
-    "confectionery"
+    "chocolate"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2338350",
+     "url": "https://www.wikidata.org/wiki/Q130571534",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cezerye",
+     "url": "https://en.wikipedia.org/wiki/Dubai_chocolate",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1007,9 +1099,9 @@
    ]
   },
   {
-   "dish": "Matnakash",
-   "wikidata": "Q2604496",
-   "country": "Armenia",
+   "dish": "Fatoot",
+   "wikidata": "Q618910",
+   "country": "Yemen",
    "subregion": "Western Asia",
    "families": [
     "bread"
@@ -1017,13 +1109,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2604496",
+     "url": "https://www.wikidata.org/wiki/Q618910",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Matnakash",
+     "url": "https://en.wikipedia.org/wiki/Fatoot",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1053,23 +1145,23 @@
    ]
   },
   {
-   "dish": "Binangkal",
-   "wikidata": "Q28449101",
+   "dish": "Caycay",
+   "wikidata": "Q65064149",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "doughnut"
+    "cookie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q28449101",
+     "url": "https://www.wikidata.org/wiki/Q65064149",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Binangkal",
+     "url": "https://en.wikipedia.org/wiki/Caycay",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1100,9 +1192,9 @@
    ]
   },
   {
-   "dish": "piti",
-   "wikidata": "Q7198960",
-   "country": "Azerbaijan",
+   "dish": "Ghapama",
+   "wikidata": "Q3104777",
+   "country": "Armenia",
    "subregion": "Western Asia",
    "families": [
     "stew"
@@ -1110,13 +1202,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7198960",
+     "url": "https://www.wikidata.org/wiki/Q3104777",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Piti_(food)",
+     "url": "https://en.wikipedia.org/wiki/Ghapama",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1192,23 +1284,23 @@
    ]
   },
   {
-   "dish": "Ekmek kadayıfı",
-   "wikidata": "Q4811799",
-   "country": "Turkey",
+   "dish": "badambura",
+   "wikidata": "Q12837200",
+   "country": "Azerbaijan",
    "subregion": "Western Asia",
    "families": [
-    "pudding"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4811799",
+     "url": "https://www.wikidata.org/wiki/Q12837200",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ekmek_kaday%C4%B1f%C4%B1",
+     "url": "https://en.wikipedia.org/wiki/Badambura",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1284,23 +1376,23 @@
    ]
   },
   {
-   "dish": "Nazook",
-   "wikidata": "Q26693028",
-   "country": "Armenia",
+   "dish": "Elarji",
+   "wikidata": "Q47038431",
+   "country": "Georgia",
    "subregion": "Western Asia",
    "families": [
-    "pastry"
+    "kasha"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q26693028",
+     "url": "https://www.wikidata.org/wiki/Q47038431",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Nazook",
+     "url": "https://en.wikipedia.org/wiki/Elarji",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1376,23 +1468,23 @@
    ]
   },
   {
-   "dish": "qutab",
-   "wikidata": "Q4249417",
-   "country": "Azerbaijan",
+   "dish": "tandoor bread",
+   "wikidata": "Q2669274",
+   "country": "Iraq",
    "subregion": "Western Asia",
    "families": [
-    "pie"
+    "flatbread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4249417",
+     "url": "https://www.wikidata.org/wiki/Q2669274",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Qutab",
+     "url": "https://en.wikipedia.org/wiki/Tandoor_bread",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1468,24 +1560,23 @@
    ]
   },
   {
-   "dish": "Harput meatballs",
-   "wikidata": "Q16841290",
-   "country": "Turkey",
+   "dish": "Halva ice cream",
+   "wikidata": "Q19572039",
+   "country": "Israel",
    "subregion": "Western Asia",
    "families": [
-    "meatball",
-    "sour soup"
+    "ice cream"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16841290",
+     "url": "https://www.wikidata.org/wiki/Q19572039",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Harput_meatballs",
+     "url": "https://en.wikipedia.org/wiki/Halvah_ice_cream",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1561,23 +1652,23 @@
    ]
   },
   {
-   "dish": "Boraki",
-   "wikidata": "Q893306",
-   "country": "Armenia",
+   "dish": "markook",
+   "wikidata": "Q2095020",
+   "country": "Syria",
    "subregion": "Western Asia",
    "families": [
-    "stuffed pasta"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q893306",
+     "url": "https://www.wikidata.org/wiki/Q2095020",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Boraki",
+     "url": "https://en.wikipedia.org/wiki/Markook_(bread)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1653,23 +1744,23 @@
    ]
   },
   {
-   "dish": "dovga",
-   "wikidata": "Q2500197",
-   "country": "Azerbaijan",
+   "dish": "Cezerye",
+   "wikidata": "Q2338350",
+   "country": "Turkey",
    "subregion": "Western Asia",
    "families": [
-    "cold sweet soup"
+    "confectionery"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2500197",
+     "url": "https://www.wikidata.org/wiki/Q2338350",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Dovga",
+     "url": "https://en.wikipedia.org/wiki/Cezerye",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1700,23 +1791,23 @@
    ]
   },
   {
-   "dish": "Caycay",
-   "wikidata": "Q65064149",
+   "dish": "Galletas de patatas",
+   "wikidata": "Q65086222",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "cookie"
+    "biscuit"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65064149",
+     "url": "https://www.wikidata.org/wiki/Q65086222",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Caycay",
+     "url": "https://en.wikipedia.org/wiki/Galletas_de_patatas",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1746,23 +1837,23 @@
    ]
   },
   {
-   "dish": "Kandil simidi",
-   "wikidata": "Q6013161",
-   "country": "Turkey",
+   "dish": "Jachnun",
+   "wikidata": "Q1960279",
+   "country": "Yemen",
    "subregion": "Western Asia",
    "families": [
-    "bread"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6013161",
+     "url": "https://www.wikidata.org/wiki/Q1960279",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kandil_simidi",
+     "url": "https://en.wikipedia.org/wiki/Jachnun",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1838,23 +1929,23 @@
    ]
   },
   {
-   "dish": "Kačamak",
-   "wikidata": "Q15635457",
-   "country": "Turkey",
+   "dish": "Matnakash",
+   "wikidata": "Q2604496",
+   "country": "Armenia",
    "subregion": "Western Asia",
    "families": [
-    "porridge"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q15635457",
+     "url": "https://www.wikidata.org/wiki/Q2604496",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ka%C4%8Damak",
+     "url": "https://en.wikipedia.org/wiki/Matnakash",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1930,23 +2021,23 @@
    ]
   },
   {
-   "dish": "Kolot",
-   "wikidata": "Q6427832",
-   "country": "Turkey",
+   "dish": "piti",
+   "wikidata": "Q7198960",
+   "country": "Azerbaijan",
    "subregion": "Western Asia",
    "families": [
-    "bread roll"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6427832",
+     "url": "https://www.wikidata.org/wiki/Q7198960",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kolot",
+     "url": "https://en.wikipedia.org/wiki/Piti_(food)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2023,23 +2114,24 @@
    ]
   },
   {
-   "dish": "Kuzu haşlama",
-   "wikidata": "Q20108295",
-   "country": "Turkey",
+   "dish": "Kubdari",
+   "wikidata": "Q6441202",
+   "country": "Georgia",
    "subregion": "Western Asia",
    "families": [
-    "stew"
+    "bread",
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q20108295",
+     "url": "https://www.wikidata.org/wiki/Q6441202",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kuzu_ha%C5%9Flama",
+     "url": "https://en.wikipedia.org/wiki/Kubdari",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2117,24 +2209,23 @@
    ]
   },
   {
-   "dish": "Mirik meatball",
-   "wikidata": "Q16934063",
-   "country": "Turkey",
+   "dish": "Israeli eggplant salad",
+   "wikidata": "Q17050599",
+   "country": "Israel",
    "subregion": "Western Asia",
    "families": [
-    "dumpling",
-    "meatball"
+    "salad"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16934063",
+     "url": "https://www.wikidata.org/wiki/Q17050599",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mirik_meatball",
+     "url": "https://en.wikipedia.org/wiki/Israeli_eggplant_salad",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2164,8 +2255,8 @@
    ]
   },
   {
-   "dish": "Galletas de patatas",
-   "wikidata": "Q65086222",
+   "dish": "Galletas pesquera",
+   "wikidata": "Q65086226",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
@@ -2174,13 +2265,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65086222",
+     "url": "https://www.wikidata.org/wiki/Q65086226",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Galletas_de_patatas",
+     "url": "https://en.wikipedia.org/wiki/Galletas_pesquera",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2210,8 +2301,8 @@
    ]
   },
   {
-   "dish": "Pepeçura",
-   "wikidata": "Q15686391",
+   "dish": "Ekmek kadayıfı",
+   "wikidata": "Q4811799",
    "country": "Turkey",
    "subregion": "Western Asia",
    "families": [
@@ -2220,13 +2311,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q15686391",
+     "url": "https://www.wikidata.org/wiki/Q4811799",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pepe%C3%A7ura",
+     "url": "https://en.wikipedia.org/wiki/Ekmek_kaday%C4%B1f%C4%B1",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2302,9 +2393,9 @@
    ]
   },
   {
-   "dish": "Ramadan pide",
-   "wikidata": "Q13644362",
-   "country": "Turkey",
+   "dish": "Kubaneh",
+   "wikidata": "Q6588272",
+   "country": "Yemen",
    "subregion": "Western Asia",
    "families": [
     "bread"
@@ -2312,13 +2403,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q13644362",
+     "url": "https://www.wikidata.org/wiki/Q6588272",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ramazan_pidesi",
+     "url": "https://en.wikipedia.org/wiki/Kubaneh",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2394,23 +2485,23 @@
    ]
   },
   {
-   "dish": "Wet hamburger",
-   "wikidata": "Q116376913",
-   "country": "Turkey",
+   "dish": "Nazook",
+   "wikidata": "Q26693028",
+   "country": "Armenia",
    "subregion": "Western Asia",
    "families": [
-    "hamburger"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q116376913",
+     "url": "https://www.wikidata.org/wiki/Q26693028",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Wet_hamburger",
+     "url": "https://en.wikipedia.org/wiki/Nazook",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2487,23 +2578,23 @@
    ]
   },
   {
-   "dish": "balık ekmek",
-   "wikidata": "Q17355815",
-   "country": "Turkey",
+   "dish": "qutab",
+   "wikidata": "Q4249417",
+   "country": "Azerbaijan",
    "subregion": "Western Asia",
    "families": [
-    "sandwich"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17355815",
+     "url": "https://www.wikidata.org/wiki/Q4249417",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bal%C4%B1k_ekmek",
+     "url": "https://en.wikipedia.org/wiki/Qutab",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2579,23 +2670,23 @@
    ]
   },
   {
-   "dish": "güveç",
-   "wikidata": "Q342208",
-   "country": "Turkey",
+   "dish": "Lobiani",
+   "wikidata": "Q16909052",
+   "country": "Georgia",
    "subregion": "Western Asia",
    "families": [
-    "stew"
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q342208",
+     "url": "https://www.wikidata.org/wiki/Q16909052",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ghivetch",
+     "url": "https://en.wikipedia.org/wiki/Lobiani",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2625,23 +2716,23 @@
    ]
   },
   {
-   "dish": "Galletas pesquera",
-   "wikidata": "Q65086226",
+   "dish": "Ginataang manok",
+   "wikidata": "Q65059348",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "biscuit"
+    "chicken curry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65086226",
+     "url": "https://www.wikidata.org/wiki/Q65059348",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Galletas_pesquera",
+     "url": "https://en.wikipedia.org/wiki/Ginataang_manok",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2671,23 +2762,23 @@
    ]
   },
   {
-   "dish": "kumru",
-   "wikidata": "Q4833482",
-   "country": "Turkey",
+   "dish": "Sabich salad",
+   "wikidata": "Q17016362",
+   "country": "Israel",
    "subregion": "Western Asia",
    "families": [
-    "sandwich"
+    "salad"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4833482",
+     "url": "https://www.wikidata.org/wiki/Q17016362",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kumru_(sandwich)",
+     "url": "https://en.wikipedia.org/wiki/Sabich_salad",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2764,23 +2855,24 @@
    ]
   },
   {
-   "dish": "tas kebab",
-   "wikidata": "Q18671599",
+   "dish": "Harput meatballs",
+   "wikidata": "Q16841290",
    "country": "Turkey",
    "subregion": "Western Asia",
    "families": [
-    "stew"
+    "meatball",
+    "sour soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q18671599",
+     "url": "https://www.wikidata.org/wiki/Q16841290",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tas_kebab",
+     "url": "https://en.wikipedia.org/wiki/Harput_meatballs",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2856,23 +2948,23 @@
    ]
   },
   {
-   "dish": "zelnik",
-   "wikidata": "Q8068822",
-   "country": "Turkey",
+   "dish": "Malooga",
+   "wikidata": "Q1959865",
+   "country": "Yemen",
    "subregion": "Western Asia",
    "families": [
-    "pie"
+    "flatbread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q8068822",
+     "url": "https://www.wikidata.org/wiki/Q1959865",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Zelnik",
+     "url": "https://en.wikipedia.org/wiki/Maluj",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2948,23 +3040,23 @@
    ]
   },
   {
-   "dish": "çörek",
-   "wikidata": "Q12849581",
-   "country": "Turkey",
+   "dish": "Boraki",
+   "wikidata": "Q893306",
+   "country": "Armenia",
    "subregion": "Western Asia",
    "families": [
-    "pastry"
+    "stuffed pasta"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12849581",
+     "url": "https://www.wikidata.org/wiki/Q893306",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/%C3%87%C3%B6rek",
+     "url": "https://en.wikipedia.org/wiki/Boraki",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3040,24 +3132,23 @@
    ]
   },
   {
-   "dish": "İnegöl meatballs",
-   "wikidata": "Q14931087",
-   "country": "Turkey",
+   "dish": "dovga",
+   "wikidata": "Q2500197",
+   "country": "Azerbaijan",
    "subregion": "Western Asia",
    "families": [
-    "meatball",
-    "Köftes in the Turkish cuisine"
+    "cold sweet soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q14931087",
+     "url": "https://www.wikidata.org/wiki/Q2500197",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/%C4%B0neg%C3%B6l_meatballs",
+     "url": "https://en.wikipedia.org/wiki/Dovga",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3087,23 +3178,23 @@
    ]
   },
   {
-   "dish": "Ginataang manok",
-   "wikidata": "Q65059348",
+   "dish": "Inipit",
+   "wikidata": "Q6034013",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "chicken curry"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65059348",
+     "url": "https://www.wikidata.org/wiki/Q6034013",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ginataang_manok",
+     "url": "https://en.wikipedia.org/wiki/Inipit",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3133,23 +3224,23 @@
    ]
   },
   {
-   "dish": "Aush",
-   "wikidata": "Q4822751",
-   "country": "Turkey",
+   "dish": "Shoti",
+   "wikidata": "Q2920132",
+   "country": "Georgia",
    "subregion": "Western Asia",
    "families": [
-    "soup"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4822751",
+     "url": "https://www.wikidata.org/wiki/Q2920132",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Aush",
+     "url": "https://en.wikipedia.org/wiki/Shoti",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3225,23 +3316,23 @@
    ]
   },
   {
-   "dish": "Basket cheese",
-   "wikidata": "Q4867632",
-   "country": "Turkey",
+   "dish": "malawach",
+   "wikidata": "Q2907412",
+   "country": "Israel",
    "subregion": "Western Asia",
    "families": [
-    "cheese"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4867632",
+     "url": "https://www.wikidata.org/wiki/Q2907412",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Basket_cheese",
+     "url": "https://en.wikipedia.org/wiki/Malawach",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3317,23 +3408,23 @@
    ]
   },
   {
-   "dish": "Dolaz cheese",
-   "wikidata": "Q14942667",
+   "dish": "Kandil simidi",
+   "wikidata": "Q6013161",
    "country": "Turkey",
    "subregion": "Western Asia",
    "families": [
-    "whey cheese"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q14942667",
+     "url": "https://www.wikidata.org/wiki/Q6013161",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Dolaz_cheese",
+     "url": "https://en.wikipedia.org/wiki/Kandil_simidi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3410,23 +3501,23 @@
    ]
   },
   {
-   "dish": "beyran",
-   "wikidata": "Q26806341",
-   "country": "Turkey",
+   "dish": "Shahi Haleeb",
+   "wikidata": "Q20982513",
+   "country": "Yemen",
    "subregion": "Western Asia",
    "families": [
-    "soup"
+    "milk tea"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q26806341",
+     "url": "https://www.wikidata.org/wiki/Q20982513",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Beyran_soup",
+     "url": "https://en.wikipedia.org/wiki/Shahi_haleeb",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3456,23 +3547,23 @@
    ]
   },
   {
-   "dish": "Inipit",
-   "wikidata": "Q6034013",
+   "dish": "Java Rice",
+   "wikidata": "Q30671978",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "pastry"
+    "fried rice"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6034013",
+     "url": "https://www.wikidata.org/wiki/Q30671978",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Inipit",
+     "url": "https://en.wikipedia.org/wiki/Java_rice",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3502,23 +3593,23 @@
    ]
   },
   {
-   "dish": "chickpea bread",
-   "wikidata": "Q6031965",
-   "country": "Turkey",
+   "dish": "chakhokhbili",
+   "wikidata": "Q1047978",
+   "country": "Georgia",
    "subregion": "Western Asia",
    "families": [
-    "baked good"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6031965",
+     "url": "https://www.wikidata.org/wiki/Q1047978",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chickpea_bread",
+     "url": "https://en.wikipedia.org/wiki/Chakhokhbili",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3594,23 +3685,23 @@
    ]
   },
   {
-   "dish": "mercimek köftesi",
-   "wikidata": "Q6585755",
-   "country": "Turkey",
+   "dish": "Tzfat cheese",
+   "wikidata": "Q2037921",
+   "country": "Israel",
    "subregion": "Western Asia",
    "families": [
-    "meze"
+    "sheep milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6585755",
+     "url": "https://www.wikidata.org/wiki/Q2037921",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mercimek_k%C3%B6ftesi",
+     "url": "https://en.wikipedia.org/wiki/Tzfatit",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3687,23 +3778,23 @@
    ]
   },
   {
-   "dish": "nokul",
-   "wikidata": "Q4822464",
+   "dish": "Kačamak",
+   "wikidata": "Q15635457",
    "country": "Turkey",
    "subregion": "Western Asia",
    "families": [
-    "sweet bread"
+    "porridge"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4822464",
+     "url": "https://www.wikidata.org/wiki/Q15635457",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Nokul",
+     "url": "https://en.wikipedia.org/wiki/Ka%C4%8Damak",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3733,23 +3824,23 @@
    ]
   },
   {
-   "dish": "Java Rice",
-   "wikidata": "Q30671978",
+   "dish": "Lechon manok",
+   "wikidata": "Q60776617",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "fried rice"
+    "roast chicken"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q30671978",
+     "url": "https://www.wikidata.org/wiki/Q60776617",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Java_rice",
+     "url": "https://en.wikipedia.org/wiki/Lechon_manok",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3779,23 +3870,23 @@
    ]
   },
   {
-   "dish": "pekmez",
-   "wikidata": "Q1258323",
-   "country": "Turkey",
+   "dish": "hawaij",
+   "wikidata": "Q536829",
+   "country": "Yemen",
    "subregion": "Western Asia",
    "families": [
-    "fruit syrup"
+    "spice mix"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1258323",
+     "url": "https://www.wikidata.org/wiki/Q536829",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pekmez",
+     "url": "https://en.wikipedia.org/wiki/Hawaij",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3872,23 +3963,23 @@
    ]
   },
   {
-   "dish": "taboon bread",
-   "wikidata": "Q987291",
-   "country": "Turkey",
+   "dish": "khachapuri",
+   "wikidata": "Q279575",
+   "country": "Georgia",
    "subregion": "Western Asia",
    "families": [
-    "flatbread"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q987291",
+     "url": "https://www.wikidata.org/wiki/Q279575",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Taboon_bread",
+     "url": "https://en.wikipedia.org/wiki/Khachapuri",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3918,23 +4009,23 @@
    ]
   },
   {
-   "dish": "Lechon manok",
-   "wikidata": "Q60776617",
+   "dish": "Masa podrida",
+   "wikidata": "Q65063699",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "roast chicken"
+    "cookie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q60776617",
+     "url": "https://www.wikidata.org/wiki/Q65063699",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Lechon_manok",
+     "url": "https://en.wikipedia.org/wiki/Masa_podrida",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3964,23 +4055,23 @@
    ]
   },
   {
-   "dish": "tahini roll",
-   "wikidata": "Q6029320",
+   "dish": "Kolot",
+   "wikidata": "Q6427832",
    "country": "Turkey",
    "subregion": "Western Asia",
    "families": [
-    "sweet roll"
+    "bread roll"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6029320",
+     "url": "https://www.wikidata.org/wiki/Q6427832",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tahini_roll",
+     "url": "https://en.wikipedia.org/wiki/Kolot",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4057,23 +4148,23 @@
    ]
   },
   {
-   "dish": "torpedo dessert",
-   "wikidata": "Q12812242",
-   "country": "Turkey",
+   "dish": "skhug",
+   "wikidata": "Q978363",
+   "country": "Yemen",
    "subregion": "Western Asia",
    "families": [
-    "viennoiserie"
+    "condiment"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12812242",
+     "url": "https://www.wikidata.org/wiki/Q978363",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cream_tubes",
+     "url": "https://en.wikipedia.org/wiki/Zhug",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4103,23 +4194,23 @@
    ]
   },
   {
-   "dish": "Masa podrida",
-   "wikidata": "Q65063699",
+   "dish": "Okoy",
+   "wikidata": "Q20586683",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "cookie"
+    "fritter"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65063699",
+     "url": "https://www.wikidata.org/wiki/Q20586683",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Masa_podrida",
+     "url": "https://en.wikipedia.org/wiki/Okoy",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4149,23 +4240,23 @@
    ]
   },
   {
-   "dish": "ıslama köfte",
-   "wikidata": "Q6002018",
-   "country": "Turkey",
+   "dish": "lobio",
+   "wikidata": "Q1858518",
+   "country": "Georgia",
    "subregion": "Western Asia",
    "families": [
-    "Köftes in the Turkish cuisine"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6002018",
+     "url": "https://www.wikidata.org/wiki/Q1858518",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Islama_k%C3%B6fte",
+     "url": "https://en.wikipedia.org/wiki/Lobio",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4242,23 +4333,23 @@
    ]
   },
   {
-   "dish": "şalgam",
-   "wikidata": "Q388152",
+   "dish": "Kuzu haşlama",
+   "wikidata": "Q20108295",
    "country": "Turkey",
    "subregion": "Western Asia",
    "families": [
-    "juice"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q388152",
+     "url": "https://www.wikidata.org/wiki/Q20108295",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/%C5%9Ealgam",
+     "url": "https://en.wikipedia.org/wiki/Kuzu_ha%C5%9Flama",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4288,23 +4379,23 @@
    ]
   },
   {
-   "dish": "Okoy",
-   "wikidata": "Q20586683",
+   "dish": "Pilipit",
+   "wikidata": "Q65086266",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "fritter"
+    "twisted doughnut"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q20586683",
+     "url": "https://www.wikidata.org/wiki/Q65086266",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Okoy",
+     "url": "https://en.wikipedia.org/wiki/Pilipit",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4328,6 +4419,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Kolompeh",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Chikhirtma",
+   "wikidata": "Q4516736",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "soup"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q4516736",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chikhirtma",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4403,6 +4517,30 @@
    ]
   },
   {
+   "dish": "Mirik meatball",
+   "wikidata": "Q16934063",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "dumpling",
+    "meatball"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q16934063",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mirik_meatball",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
    "dish": "Haw flakes",
    "wikidata": "Q995997",
    "country": "China",
@@ -4426,23 +4564,23 @@
    ]
   },
   {
-   "dish": "Pilipit",
-   "wikidata": "Q65086266",
+   "dish": "Pinagong",
+   "wikidata": "Q65087419",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "twisted doughnut"
+    "bread roll"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65086266",
+     "url": "https://www.wikidata.org/wiki/Q65087419",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pilipit",
+     "url": "https://en.wikipedia.org/wiki/Pinagong",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4466,6 +4604,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Komaj_sehen",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Georgian cheese",
+   "wikidata": "Q5548067",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "cheese"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q5548067",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Georgian_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4541,6 +4702,29 @@
    ]
   },
   {
+   "dish": "Pepeçura",
+   "wikidata": "Q15686391",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "pudding"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q15686391",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pepe%C3%A7ura",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
    "dish": "Hee pan",
    "wikidata": "Q65042416",
    "country": "China",
@@ -4564,23 +4748,23 @@
    ]
   },
   {
-   "dish": "Pinagong",
-   "wikidata": "Q65087419",
+   "dish": "Sans rival",
+   "wikidata": "Q16917687",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "bread roll"
+    "torte"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65087419",
+     "url": "https://www.wikidata.org/wiki/Q16917687",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pinagong",
+     "url": "https://en.wikipedia.org/wiki/Sans_rival",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4604,6 +4788,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Masghati",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Khinkali",
+   "wikidata": "Q971820",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "dumpling"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q971820",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Khinkali",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4679,6 +4886,29 @@
    ]
   },
   {
+   "dish": "Ramadan pide",
+   "wikidata": "Q13644362",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "bread"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q13644362",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ramazan_pidesi",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
    "dish": "Khapse",
    "wikidata": "Q2356049",
    "country": "China",
@@ -4702,23 +4932,23 @@
    ]
   },
   {
-   "dish": "Sans rival",
-   "wikidata": "Q16917687",
+   "dish": "Spanish bread",
+   "wikidata": "Q113279398",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "torte"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16917687",
+     "url": "https://www.wikidata.org/wiki/Q113279398",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sans_rival",
+     "url": "https://en.wikipedia.org/wiki/Spanish_bread_(Philippines)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4742,6 +4972,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Qottab",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Kupati",
+   "wikidata": "Q3250451",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "fresh sausage"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3250451",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kupati",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4819,6 +5072,29 @@
    ]
   },
   {
+   "dish": "Wet hamburger",
+   "wikidata": "Q116376913",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "hamburger"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q116376913",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wet_hamburger",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
    "dish": "Lo mai chi",
    "wikidata": "Q708908",
    "country": "China",
@@ -4842,23 +5118,23 @@
    ]
   },
   {
-   "dish": "Spanish bread",
-   "wikidata": "Q113279398",
+   "dish": "Tupig",
+   "wikidata": "Q85811088",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "bread"
+    "rice cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q113279398",
+     "url": "https://www.wikidata.org/wiki/Q85811088",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Spanish_bread_(Philippines)",
+     "url": "https://en.wikipedia.org/wiki/Tupig",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4882,6 +5158,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Sohan_asali",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Mchadi",
+   "wikidata": "Q12838065",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "flatbread"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q12838065",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mchadi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4957,6 +5256,29 @@
    ]
   },
   {
+   "dish": "balık ekmek",
+   "wikidata": "Q17355815",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "sandwich"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q17355815",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bal%C4%B1k_ekmek",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
    "dish": "Mandarin roll",
    "wikidata": "Q1002439",
    "country": "China",
@@ -4980,23 +5302,23 @@
    ]
   },
   {
-   "dish": "Tupig",
-   "wikidata": "Q85811088",
+   "dish": "Ugoy-ugoy",
+   "wikidata": "Q65086573",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "rice cake"
+    "biscuit"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q85811088",
+     "url": "https://www.wikidata.org/wiki/Q65086573",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tupig",
+     "url": "https://en.wikipedia.org/wiki/Ugoy-ugoy",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5020,6 +5342,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Barbari_bread",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Satsivi",
+   "wikidata": "Q2976457",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "sauce"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q2976457",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Satsivi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5073,23 +5418,46 @@
    ]
   },
   {
-   "dish": "bebinca",
-   "wikidata": "Q3270102",
+   "dish": "chakli",
+   "wikidata": "Q12997603",
    "country": "India",
    "subregion": "Southern Asia",
    "families": [
-    "pudding"
+    "fried dough"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3270102",
+     "url": "https://www.wikidata.org/wiki/Q12997603",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bebinca",
+     "url": "https://en.wikipedia.org/wiki/Chakli",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "güveç",
+   "wikidata": "Q342208",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "stew"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q342208",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ghivetch",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5119,23 +5487,23 @@
    ]
   },
   {
-   "dish": "Ugoy-ugoy",
-   "wikidata": "Q65086573",
+   "dish": "mamón",
+   "wikidata": "Q60739792",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "biscuit"
+    "sponge cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65086573",
+     "url": "https://www.wikidata.org/wiki/Q60739792",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ugoy-ugoy",
+     "url": "https://en.wikipedia.org/wiki/Mam%C3%B3n",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5159,6 +5527,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Parsi_Cola",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Tenili",
+   "wikidata": "Q35547504",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "sheep milk cheese"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q35547504",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tenili",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5211,23 +5602,46 @@
    ]
   },
   {
-   "dish": "chakli",
-   "wikidata": "Q12997603",
+   "dish": "egg bhurji",
+   "wikidata": "Q5347835",
    "country": "India",
    "subregion": "Southern Asia",
    "families": [
-    "fried dough"
+    "omelette"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12997603",
+     "url": "https://www.wikidata.org/wiki/Q5347835",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chakli",
+     "url": "https://en.wikipedia.org/wiki/Egg_bhurji",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "kumru",
+   "wikidata": "Q4833482",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "sandwich"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q4833482",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kumru_(sandwich)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5257,23 +5671,23 @@
    ]
   },
   {
-   "dish": "mamón",
-   "wikidata": "Q60739792",
+   "dish": "puto seco",
+   "wikidata": "Q65089597",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "sponge cake"
+    "cookie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q60739792",
+     "url": "https://www.wikidata.org/wiki/Q65089597",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mam%C3%B3n",
+     "url": "https://en.wikipedia.org/wiki/Puto_seco",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5297,6 +5711,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Sangak",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Tkemali",
+   "wikidata": "Q65028",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "sauce"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q65028",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tkemali",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5349,23 +5786,46 @@
    ]
   },
   {
-   "dish": "egg bhurji",
-   "wikidata": "Q5347835",
+   "dish": "tomato omelette",
+   "wikidata": "Q7818563",
    "country": "India",
    "subregion": "Southern Asia",
    "families": [
-    "omelette"
+    "pancake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5347835",
+     "url": "https://www.wikidata.org/wiki/Q7818563",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Egg_bhurji",
+     "url": "https://en.wikipedia.org/wiki/Tomato_omelette",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "tas kebab",
+   "wikidata": "Q18671599",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "stew"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q18671599",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tas_kebab",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5395,23 +5855,23 @@
    ]
   },
   {
-   "dish": "puto seco",
-   "wikidata": "Q65089597",
+   "dish": "tortang talong",
+   "wikidata": "Q60761158",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "cookie"
+    "omelette"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65089597",
+     "url": "https://www.wikidata.org/wiki/Q60761158",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Puto_seco",
+     "url": "https://en.wikipedia.org/wiki/Tortang_talong",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5435,6 +5895,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Yazdi_coffee",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Tonis puri",
+   "wikidata": "Q7820827",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "flatbread"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q7820827",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tonis_puri",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5487,23 +5970,46 @@
    ]
   },
   {
-   "dish": "tomato omelette",
-   "wikidata": "Q7818563",
+   "dish": "vegetable sandwich",
+   "wikidata": "Q7918342",
    "country": "India",
    "subregion": "Southern Asia",
    "families": [
-    "pancake"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7818563",
+     "url": "https://www.wikidata.org/wiki/Q7918342",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tomato_omelette",
+     "url": "https://en.wikipedia.org/wiki/Vegetable_sandwich",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "zelnik",
+   "wikidata": "Q8068822",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "pie"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q8068822",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zelnik",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5533,23 +6039,23 @@
    ]
   },
   {
-   "dish": "tortang talong",
-   "wikidata": "Q60761158",
+   "dish": "ube crinkles",
+   "wikidata": "Q65084902",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "omelette"
+    "cookie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q60761158",
+     "url": "https://www.wikidata.org/wiki/Q65084902",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tortang_talong",
+     "url": "https://en.wikipedia.org/wiki/Ube_crinkles",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5573,6 +6079,30 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Ash-e_doogh",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "acıka",
+   "wikidata": "Q378283",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "sauce",
+    "dip"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q378283",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ajika",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5625,23 +6155,46 @@
    ]
   },
   {
-   "dish": "vegetable sandwich",
-   "wikidata": "Q7918342",
+   "dish": "Ajethna",
+   "wikidata": "Q4699709",
    "country": "India",
    "subregion": "Southern Asia",
    "families": [
-    "sandwich"
+    "Indian curry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7918342",
+     "url": "https://www.wikidata.org/wiki/Q4699709",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Vegetable_sandwich",
+     "url": "https://en.wikipedia.org/wiki/Ajethna",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "çörek",
+   "wikidata": "Q12849581",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "pastry"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q12849581",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/%C3%87%C3%B6rek",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5671,23 +6224,23 @@
    ]
   },
   {
-   "dish": "ube crinkles",
-   "wikidata": "Q65084902",
+   "dish": "Cabanatuan longganisa",
+   "wikidata": "Q65085980",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "cookie"
+    "sausage"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65084902",
+     "url": "https://www.wikidata.org/wiki/Q65085980",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ube_crinkles",
+     "url": "https://en.wikipedia.org/wiki/Cabanatuan_longganisa",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5711,6 +6264,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Pihta",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "kharcho",
+   "wikidata": "Q2622030",
+   "country": "Georgia",
+   "subregion": "Western Asia",
+   "families": [
+    "soup"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q2622030",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kharcho",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5764,8 +6340,8 @@
    ]
   },
   {
-   "dish": "Ajethna",
-   "wikidata": "Q4699709",
+   "dish": "Alu Potala Rasa",
+   "wikidata": "Q4737104",
    "country": "India",
    "subregion": "Southern Asia",
    "families": [
@@ -5774,13 +6350,37 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4699709",
+     "url": "https://www.wikidata.org/wiki/Q4737104",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ajethna",
+     "url": "https://en.wikipedia.org/wiki/Alu_Potala_Rasa",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "İnegöl meatballs",
+   "wikidata": "Q14931087",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "meatball",
+    "Köftes in the Turkish cuisine"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q14931087",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/%C4%B0neg%C3%B6l_meatballs",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5810,46 +6410,69 @@
    ]
   },
   {
-   "dish": "Cabanatuan longganisa",
-   "wikidata": "Q65085980",
+   "dish": "Cansi",
+   "wikidata": "Q84457858",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "sausage"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q65085980",
+     "url": "https://www.wikidata.org/wiki/Q84457858",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cabanatuan_longganisa",
+     "url": "https://en.wikipedia.org/wiki/Cansi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Alu Potala Rasa",
-   "wikidata": "Q4737104",
+   "dish": "Buknu",
+   "wikidata": "Q4986991",
    "country": "India",
    "subregion": "Southern Asia",
    "families": [
-    "Indian curry"
+    "spice mix"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4737104",
+     "url": "https://www.wikidata.org/wiki/Q4986991",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Alu_Potala_Rasa",
+     "url": "https://en.wikipedia.org/wiki/Buknu",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Aush",
+   "wikidata": "Q4822751",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "soup"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q4822751",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Aush",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5903,23 +6526,46 @@
    ]
   },
   {
-   "dish": "Buknu",
-   "wikidata": "Q4986991",
+   "dish": "Campa Cola",
+   "wikidata": "Q1106176",
    "country": "India",
    "subregion": "Southern Asia",
    "families": [
-    "spice mix"
+    "cola"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4986991",
+     "url": "https://www.wikidata.org/wiki/Q1106176",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Buknu",
+     "url": "https://en.wikipedia.org/wiki/Campa_Cola",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Basket cheese",
+   "wikidata": "Q4867632",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "cheese"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q4867632",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Basket_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5949,46 +6595,69 @@
    ]
   },
   {
-   "dish": "Cansi",
-   "wikidata": "Q84457858",
+   "dish": "Nipa palm vinegar",
+   "wikidata": "Q60057627",
    "country": "Philippines",
    "subregion": "Southeast Asia",
    "families": [
-    "soup"
+    "vinegar"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q84457858",
+     "url": "https://www.wikidata.org/wiki/Q60057627",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cansi",
+     "url": "https://en.wikipedia.org/wiki/Nipa_palm_vinegar",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Campa Cola",
-   "wikidata": "Q1106176",
+   "dish": "Chakna",
+   "wikidata": "Q5068377",
    "country": "India",
    "subregion": "Southern Asia",
    "families": [
-    "cola"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1106176",
+     "url": "https://www.wikidata.org/wiki/Q5068377",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Campa_Cola",
+     "url": "https://en.wikipedia.org/wiki/Chakna",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Dolaz cheese",
+   "wikidata": "Q14942667",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "whey cheese"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q14942667",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Dolaz_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6042,75 +6711,6 @@
    ]
   },
   {
-   "dish": "Chakna",
-   "wikidata": "Q5068377",
-   "country": "India",
-   "subregion": "Southern Asia",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5068377",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chakna",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Sharkfin and prawn dumpling in superior soup",
-   "wikidata": "Q3914983",
-   "country": "China",
-   "subregion": "Eastern Asia",
-   "families": [
-    "dim sum"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3914983",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Shark_fin_dumpling",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Nipa palm vinegar",
-   "wikidata": "Q60057627",
-   "country": "Philippines",
-   "subregion": "Southeast Asia",
-   "families": [
-    "vinegar"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q60057627",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Nipa_palm_vinegar",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
    "dish": "Chammanthi podi",
    "wikidata": "Q5069828",
    "country": "India",
@@ -6134,24 +6734,46 @@
    ]
   },
   {
-   "dish": "akumaki",
-   "wikidata": "Q4701955",
-   "country": "Japan",
-   "subregion": "Eastern Asia",
+   "dish": "beyran",
+   "wikidata": "Q26806341",
+   "country": "Turkey",
+   "subregion": "Western Asia",
    "families": [
-    "wagashi",
-    "mochi"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4701955",
+     "url": "https://www.wikidata.org/wiki/Q26806341",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Akumaki",
+     "url": "https://en.wikipedia.org/wiki/Beyran_soup",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Sharkfin and prawn dumpling in superior soup",
+   "wikidata": "Q3914983",
+   "country": "China",
+   "subregion": "Eastern Asia",
+   "families": [
+    "dim sum"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3914983",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Shark_fin_dumpling",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6204,23 +6826,47 @@
    ]
   },
   {
-   "dish": "Sou",
-   "wikidata": "Q2919934",
-   "country": "China",
-   "subregion": "Eastern Asia",
+   "dish": "chickpea bread",
+   "wikidata": "Q6031965",
+   "country": "Turkey",
+   "subregion": "Western Asia",
    "families": [
-    "pastry"
+    "baked good"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2919934",
+     "url": "https://www.wikidata.org/wiki/Q6031965",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sou_(pastry)",
+     "url": "https://en.wikipedia.org/wiki/Chickpea_bread",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "akumaki",
+   "wikidata": "Q4701955",
+   "country": "Japan",
+   "subregion": "Eastern Asia",
+   "families": [
+    "wagashi",
+    "mochi"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q4701955",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Akumaki",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6273,23 +6919,46 @@
    ]
   },
   {
-   "dish": "butadon",
-   "wikidata": "Q900440",
-   "country": "Japan",
-   "subregion": "Eastern Asia",
+   "dish": "mercimek köftesi",
+   "wikidata": "Q6585755",
+   "country": "Turkey",
+   "subregion": "Western Asia",
    "families": [
-    "donburi"
+    "meze"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q900440",
+     "url": "https://www.wikidata.org/wiki/Q6585755",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Butadon",
+     "url": "https://en.wikipedia.org/wiki/Mercimek_k%C3%B6ftesi",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Sou",
+   "wikidata": "Q2919934",
+   "country": "China",
+   "subregion": "Eastern Asia",
+   "families": [
+    "pastry"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q2919934",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sou_(pastry)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6342,23 +7011,46 @@
    ]
   },
   {
-   "dish": "Tangbao",
-   "wikidata": "Q3275270",
-   "country": "China",
-   "subregion": "Eastern Asia",
+   "dish": "nokul",
+   "wikidata": "Q4822464",
+   "country": "Turkey",
+   "subregion": "Western Asia",
    "families": [
-    "baozi"
+    "sweet bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3275270",
+     "url": "https://www.wikidata.org/wiki/Q4822464",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tangbao",
+     "url": "https://en.wikipedia.org/wiki/Nokul",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "butadon",
+   "wikidata": "Q900440",
+   "country": "Japan",
+   "subregion": "Eastern Asia",
+   "families": [
+    "donburi"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q900440",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Butadon",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6411,23 +7103,46 @@
    ]
   },
   {
-   "dish": "chirashizushi",
-   "wikidata": "Q865773",
-   "country": "Japan",
-   "subregion": "Eastern Asia",
+   "dish": "pekmez",
+   "wikidata": "Q1258323",
+   "country": "Turkey",
+   "subregion": "Western Asia",
    "families": [
-    "sushi"
+    "fruit syrup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q865773",
+     "url": "https://www.wikidata.org/wiki/Q1258323",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chirashizushi",
+     "url": "https://en.wikipedia.org/wiki/Pekmez",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Tangbao",
+   "wikidata": "Q3275270",
+   "country": "China",
+   "subregion": "Eastern Asia",
+   "families": [
+    "baozi"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3275270",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tangbao",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6480,23 +7195,46 @@
    ]
   },
   {
-   "dish": "Yurla",
-   "wikidata": "Q8061747",
-   "country": "China",
-   "subregion": "Eastern Asia",
+   "dish": "taboon bread",
+   "wikidata": "Q987291",
+   "country": "Turkey",
+   "subregion": "Western Asia",
    "families": [
-    "pastry"
+    "flatbread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q8061747",
+     "url": "https://www.wikidata.org/wiki/Q987291",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Yurla_(dish)",
+     "url": "https://en.wikipedia.org/wiki/Taboon_bread",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "chirashizushi",
+   "wikidata": "Q865773",
+   "country": "Japan",
+   "subregion": "Eastern Asia",
+   "families": [
+    "sushi"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q865773",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chirashizushi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6550,24 +7288,46 @@
    ]
   },
   {
-   "dish": "daifuku",
-   "wikidata": "Q1067842",
-   "country": "Japan",
-   "subregion": "Eastern Asia",
+   "dish": "tahini roll",
+   "wikidata": "Q6029320",
+   "country": "Turkey",
+   "subregion": "Western Asia",
    "families": [
-    "wagashi",
-    "mochi"
+    "sweet roll"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1067842",
+     "url": "https://www.wikidata.org/wiki/Q6029320",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Daifuku",
+     "url": "https://en.wikipedia.org/wiki/Tahini_roll",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Yurla",
+   "wikidata": "Q8061747",
+   "country": "China",
+   "subregion": "Eastern Asia",
+   "families": [
+    "pastry"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q8061747",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Yurla_(dish)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6597,23 +7357,47 @@
    ]
   },
   {
-   "dish": "almond biscuit",
-   "wikidata": "Q1196125",
-   "country": "China",
-   "subregion": "Eastern Asia",
+   "dish": "torpedo dessert",
+   "wikidata": "Q12812242",
+   "country": "Turkey",
+   "subregion": "Western Asia",
    "families": [
-    "biscuit"
+    "viennoiserie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1196125",
+     "url": "https://www.wikidata.org/wiki/Q12812242",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Almond_biscuit",
+     "url": "https://en.wikipedia.org/wiki/Cream_tubes",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "daifuku",
+   "wikidata": "Q1067842",
+   "country": "Japan",
+   "subregion": "Eastern Asia",
+   "families": [
+    "wagashi",
+    "mochi"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q1067842",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Daifuku",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6637,6 +7421,98 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Kadai_paneer",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "ıslama köfte",
+   "wikidata": "Q6002018",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "Köftes in the Turkish cuisine"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q6002018",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Islama_k%C3%B6fte",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "almond biscuit",
+   "wikidata": "Q1196125",
+   "country": "China",
+   "subregion": "Eastern Asia",
+   "families": [
+    "biscuit"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q1196125",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Almond_biscuit",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Khichra",
+   "wikidata": "Q6401568",
+   "country": "India",
+   "subregion": "Southern Asia",
+   "families": [
+    "soup"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q6401568",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Khichra",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "şalgam",
+   "wikidata": "Q388152",
+   "country": "Turkey",
+   "subregion": "Western Asia",
+   "families": [
+    "juice"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q388152",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/%C5%9Ealgam",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

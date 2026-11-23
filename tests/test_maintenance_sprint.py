@@ -74,3 +74,4 @@ def test_coverage_weighs_level_one_most_and_reaches_100_only_when_complete() -> 
     assert culinary_coverage.country_score(every, 1.0, 1.0) == 100.0
     assert culinary_coverage.country_score(every, 0.0, 0.0) == 60.0
     assert culinary_coverage.country_score(dict.fromkeys(every, False), 0.0, 0.0) == 0.0
+    assert culinary_coverage.country_score(every, None, 0.0) == 75.0   # no culinary regions: 60 of 80

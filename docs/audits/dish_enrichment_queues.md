@@ -4,21 +4,21 @@ Two queues for people, built from the quality files by `scripts/knowledge/enrich
 
 ## Rich-dish upgrade queue
 
-`data/knowledge/quality/rich_dish_upgrade_queue.json`: the 2,696 of 3,201 dishes that are not rich, lowest effort first.
+`data/knowledge/quality/rich_dish_upgrade_queue.json`: the 2,865 of 3,371 dishes that are not rich, lowest effort first.
 
 | What | Dishes |
 |---|---:|
-| become rich with low work only (a staged photo signed off) | 203 |
-| could become rich with low and medium work, at most (if the sources we already use have the facts) | 2,391 |
-| stay below rich even then (they need a recipe source, a Wikidata fact or a new photo) | 305 |
+| become rich with low work only (a staged photo signed off) | 204 |
+| could become rich with low and medium work, at most (if the sources we already use have the facts) | 2,433 |
+| stay below rich even then (they need a recipe source, a Wikidata fact or a new photo) | 432 |
 
 Gaps by work:
 
 | Work | Gaps |
 |---|---:|
 | low | 1,122 |
-| medium | 8,466 |
-| high | 2,612 |
+| medium | 9,169 |
+| high | 2,916 |
 
 The first ten:
 
@@ -37,14 +37,14 @@ The first ten:
 
 ## Walter enrichment queue
 
-`data/knowledge/quality/walter_enrichment_queue.json`: 2,947 of 3,201 dishes miss at least one thing the waiter tells. Technique is not counted: no source we use states it.
+`data/knowledge/quality/walter_enrichment_queue.json`: 3,116 of 3,371 dishes miss at least one thing the waiter tells. Technique is not counted: no source we use states it.
 
 | Missing | Dishes | Filled by |
 |---|---:|---:|
-| history | 1,614 | fetch_knowledge.py --stories |
-| origin | 664 | Wikidata P495 (nothing on our side) |
-| ingredient explanation | 1,170 | Wikidata P186 (made from) |
-| interesting fact | 1,353 | fetch_knowledge.py (intro sentences) |
-| related dishes | 2,071 | the Food Graph (family, versions) |
+| history | 1,749 | fetch_knowledge.py --stories |
+| origin | 697 | Wikidata P495 (nothing on our side) |
+| ingredient explanation | 1,256 | Wikidata P186 (made from) |
+| interesting fact | 1,430 | fetch_knowledge.py (intro sentences) |
+| related dishes | 2,227 | the Food Graph (family, versions) |
 
-Dishes missing only one thing: 727.
+Dishes missing only one thing: 736.

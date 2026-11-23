@@ -62,51 +62,6 @@
   ],
   "Caribbean": [
    {
-    "dish": "brown stew chicken",
-    "wikidata": "Q17027457",
-    "country": "Barbados",
-    "status": "ready",
-    "version_of": [
-     "stew"
-    ]
-   },
-   {
-    "dish": "Bizcocho Dominicano",
-    "wikidata": "Q25058467",
-    "country": "Dominican Republic",
-    "status": "needs_review",
-    "version_of": [
-     "cake"
-    ]
-   },
-   {
-    "dish": "Moro de guandules",
-    "wikidata": "Q16910822",
-    "country": "Dominican Republic",
-    "status": "needs_review",
-    "version_of": [
-     "rice and beans"
-    ]
-   },
-   {
-    "dish": "chimichurri burger",
-    "wikidata": "Q5099374",
-    "country": "Dominican Republic",
-    "status": "needs_review",
-    "version_of": [
-     "hamburger"
-    ]
-   },
-   {
-    "dish": "Haitian patty",
-    "wikidata": "Q16976976",
-    "country": "Haiti",
-    "status": "needs_review",
-    "version_of": [
-     "pastry"
-    ]
-   },
-   {
     "dish": "goat water",
     "wikidata": "Q25047514",
     "country": "Montserrat",
@@ -137,25 +92,16 @@
     "dish": "Aloo pie",
     "wikidata": "Q2839301",
     "country": "Trinidad and Tobago",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "pie"
-    ]
-   },
-   {
-    "dish": "Bake and Shark",
-    "wikidata": "Q15785303",
-    "country": "Trinidad and Tobago",
-    "status": "needs_review",
-    "version_of": [
-     "sandwich"
     ]
    },
    {
     "dish": "Buljol",
     "wikidata": "Q15790217",
     "country": "Trinidad and Tobago",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "salad"
     ]
@@ -164,19 +110,9 @@
     "dish": "doubles",
     "wikidata": "Q5300145",
     "country": "Trinidad and Tobago",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "sandwich"
-    ]
-   },
-   {
-    "dish": "roti",
-    "wikidata": "Q13568060",
-    "country": "Trinidad and Tobago",
-    "status": "needs_review",
-    "version_of": [
-     "sandwich",
-     "pie"
     ]
    },
    {
@@ -190,33 +126,6 @@
    }
   ],
   "Central America": [
-   {
-    "dish": "pupusa",
-    "wikidata": "Q612128",
-    "country": "El Salvador",
-    "status": "needs_review",
-    "version_of": [
-     "tortilla"
-    ]
-   },
-   {
-    "dish": "Fiambre",
-    "wikidata": "Q3744332",
-    "country": "Guatemala",
-    "status": "ready",
-    "version_of": [
-     "salad"
-    ]
-   },
-   {
-    "dish": "kak'ik",
-    "wikidata": "Q17635889",
-    "country": "Guatemala",
-    "status": "ready",
-    "version_of": [
-     "stew"
-    ]
-   },
    {
     "dish": "Cocol",
     "wikidata": "Q5139783",
@@ -281,15 +190,6 @@
     ]
    },
    {
-    "dish": "marquesote",
-    "wikidata": "Q24960939",
-    "country": "Mexico",
-    "status": "ready",
-    "version_of": [
-     "bread"
-    ]
-   },
-   {
     "dish": "wheat tortilla",
     "wikidata": "Q204251",
     "country": "Mexico",
@@ -306,71 +206,25 @@
     "version_of": [
      "sandwich"
     ]
-   },
-   {
-    "dish": "Güirila",
-    "wikidata": "Q5626815",
-    "country": "Nicaragua",
-    "status": "needs_review",
-    "version_of": [
-     "bread"
-    ]
    }
   ],
   "Central Asia": [
    {
-    "dish": "Dymdama",
-    "wikidata": "Q5277707",
-    "country": "Kazakhstan",
-    "status": "needs_review",
-    "version_of": [
-     "stew"
-    ]
-   },
-   {
     "dish": "Shalgam",
     "wikidata": "Q7487184",
     "country": "Kazakhstan",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "salad"
-    ]
-   },
-   {
-    "dish": "tandyr nan",
-    "wikidata": "Q3247788",
-    "country": "Kazakhstan",
-    "status": "needs_review",
-    "version_of": [
-     "bread",
-     "naan"
     ]
    },
    {
     "dish": "oromo",
     "wikidata": "Q1048130",
     "country": "Kyrgyzstan",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "pie"
-    ]
-   },
-   {
-    "dish": "Samarkand non",
-    "wikidata": "Q117148246",
-    "country": "Uzbekistan",
-    "status": "needs_review",
-    "version_of": [
-     "bread"
-    ]
-   },
-   {
-    "dish": "Shakarap",
-    "wikidata": "Q12817265",
-    "country": "Uzbekistan",
-    "status": "needs_review",
-    "version_of": [
-     "salad"
     ]
    }
   ],
@@ -379,7 +233,7 @@
     "dish": "Koba",
     "wikidata": "Q17107651",
     "country": "Madagascar",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "pastry"
     ]
@@ -388,25 +242,16 @@
     "dish": "Romazava",
     "wikidata": "Q3441149",
     "country": "Madagascar",
-    "status": "needs_review",
-    "version_of": [
-     "stew"
-    ]
-   },
-   {
-    "dish": "Lahoh",
-    "wikidata": "Q1809371",
-    "country": "Somalia",
     "status": "ready",
     "version_of": [
-     "pancake"
+     "stew"
     ]
    },
    {
     "dish": "Kunga cake",
     "wikidata": "Q54165556",
     "country": "Tanzania",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "torta"
     ]
@@ -415,7 +260,7 @@
     "dish": "Luwombo",
     "wikidata": "Q123171413",
     "country": "Uganda",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "stew"
     ]
@@ -1958,27 +1803,8 @@
     ]
    }
   ],
-  "Middle Africa": [
-   {
-    "dish": "Ndolé",
-    "wikidata": "Q1131837",
-    "country": "Cameroon",
-    "status": "needs_review",
-    "version_of": [
-     "stew"
-    ]
-   }
-  ],
+  "Middle Africa": [],
   "Northern Africa": [
-   {
-    "dish": "Hmiss",
-    "wikidata": "Q3138826",
-    "country": "Algeria",
-    "status": "ready",
-    "version_of": [
-     "salad"
-    ]
-   },
    {
     "dish": "Khobz tounes",
     "wikidata": "Q16648323",
@@ -2016,48 +1842,12 @@
     ]
    },
    {
-    "dish": "bazeen",
-    "wikidata": "Q4164571",
-    "country": "Libya",
-    "status": "ready",
-    "version_of": [
-     "bread"
-    ]
-   },
-   {
-    "dish": "Bambalouni",
-    "wikidata": "Q2881759",
-    "country": "Tunisia",
-    "status": "ready",
-    "version_of": [
-     "doughnut"
-    ]
-   },
-   {
-    "dish": "Fricasse",
-    "wikidata": "Q938386",
-    "country": "Tunisia",
-    "status": "ready",
-    "version_of": [
-     "entrée"
-    ]
-   },
-   {
     "dish": "Kabkabou",
     "wikidata": "Q16248468",
     "country": "Tunisia",
     "status": "ready",
     "version_of": [
      "ragout"
-    ]
-   },
-   {
-    "dish": "Mechouia salad",
-    "wikidata": "Q3469471",
-    "country": "Tunisia",
-    "status": "ready",
-    "version_of": [
-     "salad"
     ]
    }
   ],
@@ -3753,15 +3543,6 @@
     ]
    },
    {
-    "dish": "fish pie",
-    "wikidata": "Q3301394",
-    "country": "United Kingdom",
-    "status": "ready",
-    "version_of": [
-     "pie"
-    ]
-   },
-   {
     "dish": "flapjack",
     "wikidata": "Q1810638",
     "country": "United Kingdom",
@@ -4488,15 +4269,6 @@
     ]
    },
    {
-    "dish": "Binangkal",
-    "wikidata": "Q28449101",
-    "country": "Philippines",
-    "status": "ready",
-    "version_of": [
-     "doughnut"
-    ]
-   },
-   {
     "dish": "Caycay",
     "wikidata": "Q65064149",
     "country": "Philippines",
@@ -4956,15 +4728,6 @@
     "status": "ready",
     "version_of": [
      "bread"
-    ]
-   },
-   {
-    "dish": "bebinca",
-    "wikidata": "Q3270102",
-    "country": "India",
-    "status": "ready",
-    "version_of": [
-     "pudding"
     ]
    },
    {
@@ -6029,62 +5792,7 @@
     ]
    }
   ],
-  "Western Africa": [
-   {
-    "dish": "Cachupa",
-    "wikidata": "Q2060858",
-    "country": "Cape Verde",
-    "status": "needs_review",
-    "version_of": [
-     "stew"
-    ]
-   },
-   {
-    "dish": "Funkaso",
-    "wikidata": "Q5509249",
-    "country": "Nigeria",
-    "status": "ready",
-    "version_of": [
-     "pancake"
-    ]
-   },
-   {
-    "dish": "Okpa",
-    "wikidata": "Q112610072",
-    "country": "Nigeria",
-    "status": "ready",
-    "version_of": [
-     "pudding"
-    ]
-   },
-   {
-    "dish": "palm nut soup",
-    "wikidata": "Q17005230",
-    "country": "Nigeria",
-    "status": "ready",
-    "version_of": [
-     "fruit soup"
-    ]
-   },
-   {
-    "dish": "Tapalapa",
-    "wikidata": "Q7684416",
-    "country": "Senegal",
-    "status": "needs_review",
-    "version_of": [
-     "bread"
-    ]
-   },
-   {
-    "dish": "domoda",
-    "wikidata": "Q1238597",
-    "country": "The Gambia",
-    "status": "needs_review",
-    "version_of": [
-     "stew"
-    ]
-   }
-  ],
+  "Western Africa": [],
   "Western Asia": [
    {
     "dish": "Gata",
@@ -6171,7 +5879,7 @@
     "dish": "Chanakhi",
     "wikidata": "Q2378108",
     "country": "Georgia",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "stew"
     ]
@@ -6180,7 +5888,7 @@
     "dish": "Elarji",
     "wikidata": "Q47038431",
     "country": "Georgia",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "kasha"
     ]
@@ -6189,7 +5897,7 @@
     "dish": "Kubdari",
     "wikidata": "Q6441202",
     "country": "Georgia",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "bread",
      "cake"
@@ -6199,7 +5907,7 @@
     "dish": "Lobiani",
     "wikidata": "Q16909052",
     "country": "Georgia",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "cake"
     ]
@@ -6208,7 +5916,7 @@
     "dish": "Shoti",
     "wikidata": "Q2920132",
     "country": "Georgia",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "bread"
     ]
@@ -6217,7 +5925,7 @@
     "dish": "chakhokhbili",
     "wikidata": "Q1047978",
     "country": "Georgia",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "stew"
     ]
@@ -6226,7 +5934,7 @@
     "dish": "khachapuri",
     "wikidata": "Q279575",
     "country": "Georgia",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "pie"
     ]
@@ -6235,7 +5943,7 @@
     "dish": "lobio",
     "wikidata": "Q1858518",
     "country": "Georgia",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "stew"
     ]
@@ -6253,7 +5961,7 @@
     "dish": "Bagel toast",
     "wikidata": "Q2904916",
     "country": "Israel",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "open sandwich"
     ]
@@ -6262,7 +5970,7 @@
     "dish": "Halva ice cream",
     "wikidata": "Q19572039",
     "country": "Israel",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "ice cream"
     ]
@@ -6271,7 +5979,7 @@
     "dish": "Israeli eggplant salad",
     "wikidata": "Q17050599",
     "country": "Israel",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "salad"
     ]
@@ -6280,7 +5988,7 @@
     "dish": "Sabich salad",
     "wikidata": "Q17016362",
     "country": "Israel",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "salad"
     ]
@@ -6289,7 +5997,7 @@
     "dish": "malawach",
     "wikidata": "Q2907412",
     "country": "Israel",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "bread"
     ]
@@ -6487,7 +6195,7 @@
     "dish": "Dubai chocolate",
     "wikidata": "Q130571534",
     "country": "United Arab Emirates",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "chocolate"
     ]
@@ -6496,7 +6204,7 @@
     "dish": "Fatoot",
     "wikidata": "Q618910",
     "country": "Yemen",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "bread"
     ]
@@ -6505,7 +6213,7 @@
     "dish": "Jachnun",
     "wikidata": "Q1960279",
     "country": "Yemen",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "pastry"
     ]
@@ -6514,7 +6222,7 @@
     "dish": "Kubaneh",
     "wikidata": "Q6588272",
     "country": "Yemen",
-    "status": "needs_review",
+    "status": "ready",
     "version_of": [
      "bread"
     ]
@@ -6835,15 +6543,6 @@
     "status": "ready",
     "version_of": [
      "pastry"
-    ]
-   },
-   {
-    "dish": "Sablé",
-    "wikidata": "Q2915670",
-    "country": "France",
-    "status": "ready",
-    "version_of": [
-     "cookie"
     ]
    },
    {
