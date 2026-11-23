@@ -14,6 +14,7 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [recipe_quality.md](recipe_quality.md) | What each recipe has and lacks (steps, servings, time, nutrition, country, photo, link), by source |
 | [graph_assets.md](graph_assets.md) | The waiter's context, discovery paths and map preparation read off the Food Graph |
 | [dish_completeness_report.md](dish_completeness_report.md) | Rich, fair and thin dishes today, how many move up once the approved images are fetched, and what keeps the rest from rich |
+| [approved_photos_check.md](approved_photos_check.md) | The approved photos fetched: how many pass the photo check, a check by eye, and the next steps |
 | [dish_quality_report.md](dish_quality_report.md) | The completeness score (0-100) of every dish and what fills each gap |
 | [image_coverage_report.md](image_coverage_report.md) | The best image each dish can show, its licence and credit, what to fetch next, and the images approved for collection (`approved_image_queue.json`) |
 | [walter_coverage_report.md](walter_coverage_report.md) | What the waiter can tell about each dish, and what a person has checked |

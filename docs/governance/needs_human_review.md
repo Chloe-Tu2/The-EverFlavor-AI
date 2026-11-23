@@ -29,7 +29,7 @@ Last updated 2026-11-22 by Claude (AI).
 |---|---|---|
 | 9 | Rule L1 (a dish named before a kind of dish is that dish's flavour) is proposed: review the sheet, mainly the 1,062 groups with 1-2 recipes nobody has read | `docs/audits/dish_link_review.csv` |
 | 10 | Policy P26 (allergen words in Spanish, French and Italian) is proposed: a second person reviews the sheet (safety rules need two) | `docs/flag_review/allergen_words_es_fr_it.csv` |
-| 11 | The approved dish photos are being fetched to a staging folder: check the contact sheets by eye; nothing reaches the app before `apply` | `data/raw/dish_photos_approved/sheets/` (local) |
+| 11 | The 1,739 approved photos are fetched (1,144 pass the photo check). Check the 72 passed contact sheets by eye (a sample of 4 found nothing wrong), decide whether to rescue failed ones, then finish `apply`; nothing reaches the app before | [approved_photos_check.md](../audits/approved_photos_check.md), `data/raw/dish_photos_approved/sheets/` (local) |
 | 12 | 357 backlog dishes need a person (country not in the place tree, not a country today, in many families) | `data/knowledge/atlas/publication_review_queue.json` |
 | 13 | The Balkans and Siberia: which published source should draw them as regions? | `docs/audits/global_culinary_atlas.md` |
 | 14 | Should v0.7.1 be tagged at 344aeb0, and Dependabot PR #28 merged? | GitHub |
