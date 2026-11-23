@@ -8,6 +8,13 @@ design/pixel-art/assets/banner_<name>.png, made by design/pixel-art/pixel_banner
 """
 
 UPDATES = [
+    {"version": "0.7.2", "date": "2026-11-22", "notes": [
+        "New: each dish page shows its dish family, its versions and more dishes like it.",
+        ("New: an Open in maps button on every place card. Kitchens change faster, and the profile button is easier "
+         "to find when the side panel is closed."),
+        ("Fixed: Find recipes also leaves out recipes that don't fit a medical screen or your alcohol setting, and "
+         "the Middle Eastern kitchen now opens for food from across the region."),
+    ]},
     {"version": "0.7.1", "date": "2026-11-17", "banners": ["meet_the_waiter", "new_chefs"], "notes": [
         ("New: meet your waiter, Walter or Nathalie, who tells each dish's story, and new chefs in kitchens that "
          "follow your time of day."),

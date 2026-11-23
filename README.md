@@ -6,7 +6,7 @@
 
 *A conversational multi-agent AI that helps users cook authentic global recipes within their calorie limits, dietary restrictions and ingredient availability, and then finds the nearest specialty supermarket.*
 
-![Version](https://img.shields.io/badge/version-0.7.1%20beta-success)
+![Version](https://img.shields.io/badge/version-0.7.2%20beta-success)
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?logo=streamlit&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent-FF6B35)
@@ -560,7 +560,7 @@ default; a retelling that adds or loses a fact is thrown away).
 
 ### Versions and plans
 
-EverFlavor is in **beta** (version 0.7.1). Every change is listed in [CHANGELOG.md](CHANGELOG.md) (semantic
+EverFlavor is in **beta** (version 0.7.2). Every change is listed in [CHANGELOG.md](CHANGELOG.md) (semantic
 versions: fixes 0.7.1 → 0.7.2, features → 0.8.0, the finished release 1.0.0), and the app's **What's new** bell shows
 the latest notes, under the team's banners. What comes next, grouped by version, with the reasons and trade-offs: the
 [planner](docs/plans/README.md) (start here), [regional kitchens](docs/plans/REGIONAL_KITCHENS.md) and
