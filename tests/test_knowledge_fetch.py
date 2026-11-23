@@ -81,3 +81,19 @@ def test_the_first_named_region_wins() -> None:
     assert fk.named_region(options, motul, []) == "Yucatán"
     assert fk.named_region(options, "The cemita is a sandwich originally from Puebla, Mexico. Oaxaca too.", []) == \
         "Puebla"
+
+
+def test_a_sprint_country_page_claims_a_dish_only_when_a_source_names_that_country() -> None:
+    # The Belizean cuisine page links Burrito; Wikidata says Mexico, so Belize does not take it
+    assert not fk.claims_country("Belize", "A burrito is a dish in Mexican and Tex-Mex cuisine.", ["Mexico"])
+    assert fk.claims_country("Ghana", "Kelewele is a Ghanaian snack of fried plantains.", [])
+    assert fk.claims_country("Nigeria", "A stew.", ["Nigeria"])
+    assert "Nigeria" in fk.ATLAS_SPRINT_COUNTRIES and "Mexico" not in fk.ATLAS_SPRINT_COUNTRIES
+
+
+def test_wikidata_origin_wins_and_else_the_earliest_named_country() -> None:
+    # Espumilla: Ecuadorian on Wikidata, listed on the Nicaraguan page: not Nicaraguan
+    assert not fk.claims_country("Nicaragua", "An Ecuadorian meringue, also sold in Nicaragua.", ["Ecuador"])
+    intro = "Gallo en chicha is a chicken dish in Salvadoran cuisine, also eaten in Guatemala."
+    assert fk.sprint_country(["Guatemala", "El Salvador"], intro, []) == "El Salvador"
+    assert fk.sprint_country(["Guatemala"], "A soup.", []) is None

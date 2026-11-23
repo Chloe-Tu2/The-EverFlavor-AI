@@ -48,7 +48,7 @@
   ```
 
 - **The Food Graph** (`src/everflavor/domain/food_graph.py`): one graph from World down to each recipe. Places
-  (zones, regions, countries, states), dish families, 3,201 dishes and their versions, and all 291,755 recipes are
+  (zones, regions, countries, states), dish families, 3,371 dishes and their versions, and all 291,755 recipes are
   nodes; every edge says where it comes from (Wikidata, the Food Taxonomy, the app's dish match). Discovery, the
   waiter and the map all read it.
 - **The safety engine** (`src/everflavor/flags.py`, `safety.py`, `recommend.py`): allergen and diet flags from
@@ -549,7 +549,7 @@ all it shows a pixel-art pan and "Cooking up a picture...".
 **Your waiter: Walter or Nathalie** (picked in "Meet your waiter" on the first visit, or in Settings). Tap the
 waiter after opening a dish and they tell its story: a fun fact, where it comes from, its history, what's in it,
 what to try next, and where to read more. Every fact comes from the dish knowledge in
-[data/knowledge/](data/knowledge/README.md) (Wikipedia, credited, and Wikidata; 4,885 dishes and foods), never
+[data/knowledge/](data/knowledge/README.md) (Wikipedia, credited, and Wikidata; 5,129 dishes and foods), never
 invented. Questions are screened (an injection test set of 71 questions: all 36 attacks blocked, all 35 food
 questions answered), and allergy answers only explain the back end's flags. The tone is yours: Fun, Funny, Just the
 facts, Key points, Broad or Simple. With Ollama on your computer the waiter can retell a story in that tone (off by

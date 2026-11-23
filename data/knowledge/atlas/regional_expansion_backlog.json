@@ -11,7 +11,7 @@
   },
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
- "not_placed": 1831,
+ "not_placed": 1813,
  "subregions": {
   "Australasia": [
    {
@@ -91,62 +91,7 @@
     "country": "Dominican Republic",
     "status": "blocked",
     "problems": [
-     "Dominican Republic is not in the place tree yet",
      "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
-    "dish": "Bizcocho Dominicano",
-    "wikidata": "Q25058467",
-    "country": "Dominican Republic",
-    "status": "needs_review",
-    "problems": [
-     "Dominican Republic is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Moro de guandules",
-    "wikidata": "Q16910822",
-    "country": "Dominican Republic",
-    "status": "needs_review",
-    "problems": [
-     "Dominican Republic is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "chimichurri burger",
-    "wikidata": "Q5099374",
-    "country": "Dominican Republic",
-    "status": "needs_review",
-    "problems": [
-     "Dominican Republic is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Bouillon",
-    "wikidata": "Q4949468",
-    "country": "Haiti",
-    "status": "needs_review",
-    "problems": [
-     "Haiti is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Haitian patty",
-    "wikidata": "Q16976976",
-    "country": "Haiti",
-    "status": "needs_review",
-    "problems": [
-     "Haiti is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "soup joumou",
-    "wikidata": "Q7565043",
-    "country": "Haiti",
-    "status": "needs_review",
-    "problems": [
-     "Haiti is not in the place tree yet"
     ]
    },
    {
@@ -159,51 +104,6 @@
     ]
    },
    {
-    "dish": "Aloo pie",
-    "wikidata": "Q2839301",
-    "country": "Trinidad and Tobago",
-    "status": "needs_review",
-    "problems": [
-     "Trinidad and Tobago is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Bake and Shark",
-    "wikidata": "Q15785303",
-    "country": "Trinidad and Tobago",
-    "status": "needs_review",
-    "problems": [
-     "Trinidad and Tobago is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Buljol",
-    "wikidata": "Q15790217",
-    "country": "Trinidad and Tobago",
-    "status": "needs_review",
-    "problems": [
-     "Trinidad and Tobago is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "doubles",
-    "wikidata": "Q5300145",
-    "country": "Trinidad and Tobago",
-    "status": "needs_review",
-    "problems": [
-     "Trinidad and Tobago is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "roti",
-    "wikidata": "Q13568060",
-    "country": "Trinidad and Tobago",
-    "status": "needs_review",
-    "problems": [
-     "Trinidad and Tobago is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Dumb bread",
     "wikidata": "Q125797909",
     "country": "United States Virgin Islands",
@@ -211,13 +111,6 @@
     "problems": [
      "United States Virgin Islands is not in the place tree yet"
     ]
-   },
-   {
-    "dish": "brown stew chicken",
-    "wikidata": "Q17027457",
-    "country": "Barbados",
-    "status": "ready",
-    "problems": []
    },
    {
     "dish": "Cow cod soup",
@@ -239,6 +132,27 @@
     "country": "Puerto Rico",
     "status": "ready",
     "problems": []
+   },
+   {
+    "dish": "Aloo pie",
+    "wikidata": "Q2839301",
+    "country": "Trinidad and Tobago",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Buljol",
+    "wikidata": "Q15790217",
+    "country": "Trinidad and Tobago",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "doubles",
+    "wikidata": "Q5300145",
+    "country": "Trinidad and Tobago",
+    "status": "ready",
+    "problems": []
    }
   ],
   "Central America": [
@@ -249,24 +163,6 @@
     "status": "blocked",
     "problems": [
      "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
-    "dish": "Sopa de pata",
-    "wikidata": "Q5803846",
-    "country": "El Salvador",
-    "status": "needs_review",
-    "problems": [
-     "El Salvador is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "pupusa",
-    "wikidata": "Q612128",
-    "country": "El Salvador",
-    "status": "needs_review",
-    "problems": [
-     "El Salvador is not in the place tree yet"
     ]
    },
    {
@@ -288,34 +184,9 @@
     ]
    },
    {
-    "dish": "Güirila",
-    "wikidata": "Q5626815",
-    "country": "Nicaragua",
-    "status": "needs_review",
-    "problems": [
-     "Nicaragua is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kola Shaler",
-    "wikidata": "Q2206673",
-    "country": "Nicaragua",
-    "status": "needs_review",
-    "problems": [
-     "Nicaragua is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Fiambre",
-    "wikidata": "Q3744332",
-    "country": "Guatemala",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "kak'ik",
-    "wikidata": "Q17635889",
-    "country": "Guatemala",
+    "dish": "Sopa de pata",
+    "wikidata": "Q5803846",
+    "country": "El Salvador",
     "status": "ready",
     "problems": []
    },
@@ -323,13 +194,6 @@
     "dish": "pan de coco",
     "wikidata": "Q110469197",
     "country": "Honduras",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Carne seca",
-    "wikidata": "Q28130295",
-    "country": "Mexico",
     "status": "ready",
     "problems": []
    },
@@ -418,13 +282,6 @@
     "problems": []
    },
    {
-    "dish": "marquesote",
-    "wikidata": "Q24960939",
-    "country": "Mexico",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "wheat tortilla",
     "wikidata": "Q204251",
     "country": "Mexico",
@@ -441,160 +298,35 @@
   ],
   "Central Asia": [
    {
-    "dish": "Dymdama",
-    "wikidata": "Q5277707",
-    "country": "Kazakhstan",
-    "status": "needs_review",
-    "problems": [
-     "Kazakhstan is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Nauryz kozhe",
     "wikidata": "Q12555954",
     "country": "Kazakhstan",
-    "status": "needs_review",
-    "problems": [
-     "Kazakhstan is not in the place tree yet"
-    ]
+    "status": "ready",
+    "problems": []
    },
    {
     "dish": "Shalgam",
     "wikidata": "Q7487184",
     "country": "Kazakhstan",
-    "status": "needs_review",
-    "problems": [
-     "Kazakhstan is not in the place tree yet"
-    ]
+    "status": "ready",
+    "problems": []
    },
    {
     "dish": "kumis",
     "wikidata": "Q61081",
     "country": "Kazakhstan",
-    "status": "needs_review",
-    "problems": [
-     "Kazakhstan is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "tandyr nan",
-    "wikidata": "Q3247788",
-    "country": "Kazakhstan",
-    "status": "needs_review",
-    "problems": [
-     "Kazakhstan is not in the place tree yet"
-    ]
+    "status": "ready",
+    "problems": []
    },
    {
     "dish": "oromo",
     "wikidata": "Q1048130",
     "country": "Kyrgyzstan",
-    "status": "needs_review",
-    "problems": [
-     "Kyrgyzstan is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Bichak",
-    "wikidata": "Q17001456",
-    "country": "Tajikistan",
-    "status": "needs_review",
-    "problems": [
-     "Tajikistan is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Samarkand non",
-    "wikidata": "Q117148246",
-    "country": "Uzbekistan",
-    "status": "needs_review",
-    "problems": [
-     "Uzbekistan is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Shakarap",
-    "wikidata": "Q12817265",
-    "country": "Uzbekistan",
-    "status": "needs_review",
-    "problems": [
-     "Uzbekistan is not in the place tree yet"
-    ]
+    "status": "ready",
+    "problems": []
    }
   ],
   "Eastern Africa": [
-   {
-    "dish": "Koba",
-    "wikidata": "Q17107651",
-    "country": "Madagascar",
-    "status": "needs_review",
-    "problems": [
-     "Madagascar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Romazava",
-    "wikidata": "Q3441149",
-    "country": "Madagascar",
-    "status": "needs_review",
-    "problems": [
-     "Madagascar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "usipa",
-    "wikidata": "Q28197217",
-    "country": "Malawi",
-    "status": "needs_review",
-    "problems": [
-     "Malawi is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "matapa",
-    "wikidata": "Q96742694",
-    "country": "Mozambique",
-    "status": "needs_review",
-    "problems": [
-     "Mozambique is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kunga cake",
-    "wikidata": "Q54165556",
-    "country": "Tanzania",
-    "status": "needs_review",
-    "problems": [
-     "Tanzania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Eshabwe",
-    "wikidata": "Q18353987",
-    "country": "Uganda",
-    "status": "needs_review",
-    "problems": [
-     "Uganda is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kikalayi",
-    "wikidata": "Q132661273",
-    "country": "Uganda",
-    "status": "needs_review",
-    "problems": [
-     "Uganda is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Luwombo",
-    "wikidata": "Q123171413",
-    "country": "Uganda",
-    "status": "needs_review",
-    "problems": [
-     "Uganda is not in the place tree yet"
-    ]
-   },
    {
     "dish": "Kenyan cheese",
     "wikidata": "Q46477992",
@@ -603,23 +335,51 @@
     "problems": []
    },
    {
-    "dish": "kisra",
-    "wikidata": "Q3197476",
-    "country": "Kenya",
+    "dish": "Koba",
+    "wikidata": "Q17107651",
+    "country": "Madagascar",
     "status": "ready",
     "problems": []
    },
    {
-    "dish": "Lahoh",
-    "wikidata": "Q1809371",
-    "country": "Somalia",
+    "dish": "Romazava",
+    "wikidata": "Q3441149",
+    "country": "Madagascar",
     "status": "ready",
     "problems": []
    },
    {
-    "dish": "Sabaayad",
-    "wikidata": "Q7395806",
-    "country": "Somalia",
+    "dish": "usipa",
+    "wikidata": "Q28197217",
+    "country": "Malawi",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Kunga cake",
+    "wikidata": "Q54165556",
+    "country": "Tanzania",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Eshabwe",
+    "wikidata": "Q18353987",
+    "country": "Uganda",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Kikalayi",
+    "wikidata": "Q132661273",
+    "country": "Uganda",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Luwombo",
+    "wikidata": "Q123171413",
+    "country": "Uganda",
     "status": "ready",
     "problems": []
    }
@@ -3181,35 +2941,10 @@
     ]
    }
   ],
-  "Middle Africa": [
-   {
-    "dish": "Ndolé",
-    "wikidata": "Q1131837",
-    "country": "Cameroon",
-    "status": "needs_review",
-    "problems": [
-     "Cameroon is not in the place tree yet"
-    ]
-   }
-  ],
   "Northern Africa": [
-   {
-    "dish": "Chakhchoukha",
-    "wikidata": "Q936218",
-    "country": "Algeria",
-    "status": "ready",
-    "problems": []
-   },
    {
     "dish": "Derssa",
     "wikidata": "Q16628511",
-    "country": "Algeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Hmiss",
-    "wikidata": "Q3138826",
     "country": "Algeria",
     "status": "ready",
     "problems": []
@@ -3257,27 +2992,6 @@
     "problems": []
    },
    {
-    "dish": "bazeen",
-    "wikidata": "Q4164571",
-    "country": "Libya",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Bambalouni",
-    "wikidata": "Q2881759",
-    "country": "Tunisia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Fricasse",
-    "wikidata": "Q938386",
-    "country": "Tunisia",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Kabkabou",
     "wikidata": "Q16248468",
     "country": "Tunisia",
@@ -3287,13 +3001,6 @@
    {
     "dish": "Mafrum",
     "wikidata": "Q6585018",
-    "country": "Tunisia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Mechouia salad",
-    "wikidata": "Q3469471",
     "country": "Tunisia",
     "status": "ready",
     "problems": []
@@ -4245,13 +3952,6 @@
     "problems": []
    },
    {
-    "dish": "Needham",
-    "wikidata": "Q85788131",
-    "country": "United States",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Norfolk hot dog",
     "wikidata": "Q85789437",
     "country": "United States",
@@ -4555,13 +4255,6 @@
    {
     "dish": "cider doughnut",
     "wikidata": "Q5119519",
-    "country": "United States",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "coffee sauce",
-    "wikidata": "Q17115935",
     "country": "United States",
     "status": "ready",
     "problems": []
@@ -5606,13 +5299,6 @@
    {
     "dish": "brown bread",
     "wikidata": "Q940999",
-    "country": "Ireland",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "corned beef",
-    "wikidata": "Q1133209",
     "country": "Ireland",
     "status": "ready",
     "problems": []
@@ -6677,13 +6363,6 @@
    {
     "dish": "custard cream",
     "wikidata": "Q3246820",
-    "country": "United Kingdom",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "fish pie",
-    "wikidata": "Q3301394",
     "country": "United Kingdom",
     "status": "ready",
     "problems": []
@@ -7825,13 +7504,6 @@
     "problems": []
    },
    {
-    "dish": "Binangkal",
-    "wikidata": "Q28449101",
-    "country": "Philippines",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Cabanatuan longganisa",
     "wikidata": "Q65085980",
     "country": "Philippines",
@@ -8678,13 +8350,6 @@
     "problems": []
    },
    {
-    "dish": "bebinca",
-    "wikidata": "Q3270102",
-    "country": "India",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "chakli",
     "wikidata": "Q12997603",
     "country": "India",
@@ -8736,13 +8401,6 @@
    {
     "dish": "masala",
     "wikidata": "Q654253",
-    "country": "India",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "masala chai",
-    "wikidata": "Q877661",
     "country": "India",
     "status": "ready",
     "problems": []
@@ -10415,148 +10073,22 @@
   ],
   "Western Africa": [
    {
-    "dish": "moin moin",
-    "wikidata": "Q6894609",
-    "country": "Nigeria",
-    "status": "blocked",
-    "problems": [
-     "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
-    "dish": "Cachupa",
-    "wikidata": "Q2060858",
-    "country": "Cape Verde",
-    "status": "needs_review",
-    "problems": [
-     "Cape Verde is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Abunuabunu",
     "wikidata": "Q64490692",
     "country": "Ghana",
-    "status": "needs_review",
-    "problems": [
-     "Ghana is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kenkey",
-    "wikidata": "Q1742211",
-    "country": "Ghana",
-    "status": "needs_review",
-    "problems": [
-     "Ghana is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kokonte",
-    "wikidata": "Q20855028",
-    "country": "Ghana",
-    "status": "needs_review",
-    "problems": [
-     "Ghana is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Plakali",
-    "wikidata": "Q3391081",
-    "country": "Ghana",
-    "status": "needs_review",
-    "problems": [
-     "Ghana is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "banku",
-    "wikidata": "Q806839",
-    "country": "Ghana",
-    "status": "needs_review",
-    "problems": [
-     "Ghana is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "jollof rice",
-    "wikidata": "Q816663",
-    "country": "Ghana",
-    "status": "needs_review",
-    "problems": [
-     "Ghana is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "omo tuo",
-    "wikidata": "Q18357204",
-    "country": "Ghana",
-    "status": "needs_review",
-    "problems": [
-     "Ghana is not in the place tree yet"
-    ]
+    "status": "ready",
+    "problems": []
    },
    {
     "dish": "Ngome",
     "wikidata": "Q7022523",
     "country": "Mali",
-    "status": "needs_review",
-    "problems": [
-     "Mali is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Caravane",
-    "wikidata": "Q2937903",
-    "country": "Mauritania",
-    "status": "needs_review",
-    "problems": [
-     "Mauritania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Tapalapa",
-    "wikidata": "Q7684416",
-    "country": "Senegal",
-    "status": "needs_review",
-    "problems": [
-     "Senegal is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "domoda",
-    "wikidata": "Q1238597",
-    "country": "The Gambia",
-    "status": "needs_review",
-    "problems": [
-     "The Gambia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Eba",
-    "wikidata": "Q5331480",
-    "country": "Togo",
-    "status": "needs_review",
-    "problems": [
-     "Togo is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Afang",
-    "wikidata": "Q30599785",
-    "country": "Nigeria",
     "status": "ready",
     "problems": []
    },
    {
     "dish": "Afia Efere",
     "wikidata": "Q113039087",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Funkaso",
-    "wikidata": "Q5509249",
     "country": "Nigeria",
     "status": "ready",
     "problems": []
@@ -10583,20 +10115,6 @@
     "problems": []
    },
    {
-    "dish": "Okpa",
-    "wikidata": "Q112610072",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Otong soup",
-    "wikidata": "Q113070503",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Owo soup",
     "wikidata": "Q17109263",
     "country": "Nigeria",
@@ -10604,64 +10122,8 @@
     "problems": []
    },
    {
-    "dish": "Pate acha",
-    "wikidata": "Q23907623",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Tuwon shinkafa",
-    "wikidata": "Q83603766",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "amala",
-    "wikidata": "Q4739207",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "goat meat pepper soup",
     "wikidata": "Q25220535",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "miyan taushe",
-    "wikidata": "Q112860630",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "ogbono soup",
-    "wikidata": "Q7079882",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "palm nut soup",
-    "wikidata": "Q17005230",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "peanut milk",
-    "wikidata": "Q7157940",
-    "country": "Nigeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "pounded yam",
-    "wikidata": "Q97483764",
     "country": "Nigeria",
     "status": "ready",
     "problems": []
@@ -10683,7 +10145,6 @@
     "country": "Israel",
     "status": "blocked",
     "problems": [
-     "Israel is not in the place tree yet",
      "a commercial product (Wikidata gives a brand, maker or owner)"
     ]
    },
@@ -10693,7 +10154,6 @@
     "country": "Israel",
     "status": "blocked",
     "problems": [
-     "Israel is not in the place tree yet",
      "a commercial product (Wikidata gives a brand, maker or owner)"
     ]
    },
@@ -10703,7 +10163,6 @@
     "country": "Israel",
     "status": "blocked",
     "problems": [
-     "Israel is not in the place tree yet",
      "a commercial product (Wikidata gives a brand, maker or owner)"
     ]
    },
@@ -10750,321 +10209,6 @@
     "status": "needs_review",
     "problems": [
      "Cyprus is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Chanakhi",
-    "wikidata": "Q2378108",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Chikhirtma",
-    "wikidata": "Q4516736",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Elarji",
-    "wikidata": "Q47038431",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Georgian cheese",
-    "wikidata": "Q5548067",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Khinkali",
-    "wikidata": "Q971820",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kubdari",
-    "wikidata": "Q6441202",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kupati",
-    "wikidata": "Q3250451",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Lobiani",
-    "wikidata": "Q16909052",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Mchadi",
-    "wikidata": "Q12838065",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Satsivi",
-    "wikidata": "Q2976457",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Shoti",
-    "wikidata": "Q2920132",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Tenili",
-    "wikidata": "Q35547504",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Tkemali",
-    "wikidata": "Q65028",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Tonis puri",
-    "wikidata": "Q7820827",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "acıka",
-    "wikidata": "Q378283",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "chakhokhbili",
-    "wikidata": "Q1047978",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "khachapuri",
-    "wikidata": "Q279575",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "kharcho",
-    "wikidata": "Q2622030",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "lobio",
-    "wikidata": "Q1858518",
-    "country": "Georgia",
-    "status": "needs_review",
-    "problems": [
-     "Georgia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Bagel toast",
-    "wikidata": "Q2904916",
-    "country": "Israel",
-    "status": "needs_review",
-    "problems": [
-     "Israel is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Halva ice cream",
-    "wikidata": "Q19572039",
-    "country": "Israel",
-    "status": "needs_review",
-    "problems": [
-     "Israel is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Israeli eggplant salad",
-    "wikidata": "Q17050599",
-    "country": "Israel",
-    "status": "needs_review",
-    "problems": [
-     "Israel is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Sabich salad",
-    "wikidata": "Q17016362",
-    "country": "Israel",
-    "status": "needs_review",
-    "problems": [
-     "Israel is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Tzfat cheese",
-    "wikidata": "Q2037921",
-    "country": "Israel",
-    "status": "needs_review",
-    "problems": [
-     "Israel is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "malawach",
-    "wikidata": "Q2907412",
-    "country": "Israel",
-    "status": "needs_review",
-    "problems": [
-     "Israel is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "jameed",
-    "wikidata": "Q3296477",
-    "country": "Jordan",
-    "status": "needs_review",
-    "problems": [
-     "Jordan is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kuwaiti tea",
-    "wikidata": "Q25059058",
-    "country": "Kuwait",
-    "status": "needs_review",
-    "problems": [
-     "Kuwait is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Dubai chocolate",
-    "wikidata": "Q130571534",
-    "country": "United Arab Emirates",
-    "status": "needs_review",
-    "problems": [
-     "United Arab Emirates is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Fatoot",
-    "wikidata": "Q618910",
-    "country": "Yemen",
-    "status": "needs_review",
-    "problems": [
-     "Yemen is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Jachnun",
-    "wikidata": "Q1960279",
-    "country": "Yemen",
-    "status": "needs_review",
-    "problems": [
-     "Yemen is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kubaneh",
-    "wikidata": "Q6588272",
-    "country": "Yemen",
-    "status": "needs_review",
-    "problems": [
-     "Yemen is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Malooga",
-    "wikidata": "Q1959865",
-    "country": "Yemen",
-    "status": "needs_review",
-    "problems": [
-     "Yemen is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Shahi Haleeb",
-    "wikidata": "Q20982513",
-    "country": "Yemen",
-    "status": "needs_review",
-    "problems": [
-     "Yemen is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "hawaij",
-    "wikidata": "Q536829",
-    "country": "Yemen",
-    "status": "needs_review",
-    "problems": [
-     "Yemen is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "skhug",
-    "wikidata": "Q978363",
-    "country": "Yemen",
-    "status": "needs_review",
-    "problems": [
-     "Yemen is not in the place tree yet"
     ]
    },
    {
@@ -11138,6 +10282,139 @@
     "problems": []
    },
    {
+    "dish": "Chanakhi",
+    "wikidata": "Q2378108",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Chikhirtma",
+    "wikidata": "Q4516736",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Elarji",
+    "wikidata": "Q47038431",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Georgian cheese",
+    "wikidata": "Q5548067",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Khinkali",
+    "wikidata": "Q971820",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Kubdari",
+    "wikidata": "Q6441202",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Kupati",
+    "wikidata": "Q3250451",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Lobiani",
+    "wikidata": "Q16909052",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Mchadi",
+    "wikidata": "Q12838065",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Satsivi",
+    "wikidata": "Q2976457",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Shoti",
+    "wikidata": "Q2920132",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Tenili",
+    "wikidata": "Q35547504",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Tkemali",
+    "wikidata": "Q65028",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Tonis puri",
+    "wikidata": "Q7820827",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "acıka",
+    "wikidata": "Q378283",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "chakhokhbili",
+    "wikidata": "Q1047978",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "khachapuri",
+    "wikidata": "Q279575",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "kharcho",
+    "wikidata": "Q2622030",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "lobio",
+    "wikidata": "Q1858518",
+    "country": "Georgia",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "tandoor bread",
     "wikidata": "Q2669274",
     "country": "Iraq",
@@ -11148,6 +10425,62 @@
     "dish": "ِAbbas bread",
     "wikidata": "Q131564107",
     "country": "Iraq",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Bagel toast",
+    "wikidata": "Q2904916",
+    "country": "Israel",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Halva ice cream",
+    "wikidata": "Q19572039",
+    "country": "Israel",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Israeli eggplant salad",
+    "wikidata": "Q17050599",
+    "country": "Israel",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Sabich salad",
+    "wikidata": "Q17016362",
+    "country": "Israel",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Tzfat cheese",
+    "wikidata": "Q2037921",
+    "country": "Israel",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "malawach",
+    "wikidata": "Q2907412",
+    "country": "Israel",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "jameed",
+    "wikidata": "Q3296477",
+    "country": "Jordan",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Kuwaiti tea",
+    "wikidata": "Q25059058",
+    "country": "Kuwait",
     "status": "ready",
     "problems": []
    },
@@ -11386,6 +10719,62 @@
     "dish": "şalgam",
     "wikidata": "Q388152",
     "country": "Turkey",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Dubai chocolate",
+    "wikidata": "Q130571534",
+    "country": "United Arab Emirates",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Fatoot",
+    "wikidata": "Q618910",
+    "country": "Yemen",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Jachnun",
+    "wikidata": "Q1960279",
+    "country": "Yemen",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Kubaneh",
+    "wikidata": "Q6588272",
+    "country": "Yemen",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Malooga",
+    "wikidata": "Q1959865",
+    "country": "Yemen",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Shahi Haleeb",
+    "wikidata": "Q20982513",
+    "country": "Yemen",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "hawaij",
+    "wikidata": "Q536829",
+    "country": "Yemen",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "skhug",
+    "wikidata": "Q978363",
+    "country": "Yemen",
     "status": "ready",
     "problems": []
    }
@@ -12391,13 +11780,6 @@
     "problems": []
    },
    {
-    "dish": "Consommé",
-    "wikidata": "Q2082064",
-    "country": "France",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Conversation tart",
     "wikidata": "Q2996393",
     "country": "France",
@@ -12673,13 +12055,6 @@
    {
     "dish": "Rouennaise sauce",
     "wikidata": "Q2369993",
-    "country": "France",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Sablé",
-    "wikidata": "Q2915670",
     "country": "France",
     "status": "ready",
     "problems": []

@@ -14,16 +14,16 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| United Kingdom | low | 67 | 46 | 33 | 53 | 4,553 | 172 | 28% |
-| Ireland | medium | 22 | 16 | 13 | 13 | 711 | 8 | 73% |
+| United Kingdom | low | 69 | 47 | 33 | 54 | 4,553 | 171 | 29% |
+| Ireland | medium | 22 | 16 | 13 | 13 | 711 | 7 | 76% |
 
 ## Central Europe
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Germany | high | 87 | 39 | 55 | 75 | 1,476 | 40 | 68% |
-| Poland | high | 65 | 23 | 39 | 57 | 418 | 11 | 86% |
-| Hungary | medium | 41 | 21 | 23 | 39 | 346 | 4 | 91% |
+| Germany | high | 88 | 39 | 55 | 76 | 1,476 | 40 | 69% |
+| Poland | high | 66 | 23 | 40 | 58 | 418 | 11 | 86% |
+| Hungary | medium | 42 | 21 | 23 | 39 | 346 | 4 | 91% |
 | Switzerland | medium | 27 | 7 | 17 | 18 | 323 | 32 | 46% |
 | Czech Republic | low | 10 | 4 | 8 | 10 | 94 | 4 | 71% |
 | Austria | low | 5 | 1 | 6 | 6 | 101 | 9 | 36% |
@@ -41,7 +41,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Italy | high | 326 | 154 | 69 | 249 | 24,910 | 79 | 80% |
+| Italy | high | 327 | 155 | 69 | 249 | 24,910 | 79 | 80% |
 | Greece | high | 88 | 51 | 41 | 73 | 4,334 | 8 | 92% |
 | Portugal | high | 72 | 18 | 16 | 30 | 434 | 5 | 94% |
 | Spain | medium | 49 | 19 | 23 | 36 | 1,851 | 60 | 45% |
@@ -63,7 +63,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| France | low | 84 | 55 | 36 | 65 | 8,520 | 179 | 32% |
+| France | low | 87 | 58 | 38 | 68 | 8,520 | 177 | 33% |
 | Netherlands | medium | 31 | 6 | 15 | 26 | 245 | 30 | 51% |
 | Belgium | medium | 25 | 13 | 17 | 23 | 113 | 18 | 58% |
 
@@ -72,7 +72,6 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Bosnia and Herzegovina | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
-| Georgia | absent | 0 | 0 | 0 | 0 | 0 | 19 | 0% |
 | Jersey | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 | Latvia | absent | 0 | 0 | 0 | 0 | 0 | 2 | 0% |
 | Lithuania | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
@@ -90,14 +89,14 @@ Back to [world coverage](coverage_world.md).
 
 ### France
 
-- Coverage: **low** (84 dishes, 55 with recipes, 8,520 recipes; place tree: Europe > Western Europe).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Quiche, Carrot, Waffle, Mousse, Scrambled eggs, Soufflé, Shepherd's pie, French onion soup.
-- Families present: baked good, battercake, bread, cake, confectionery, culinary foam, culinary speciality, custard pudding.
-- Missing (Wikidata family members we lack, 179): tome des Bauges, Valençay, Saint-Nectaire, Reblochon, laguiole cheese, abondance, Selles-sur-Cher cheese, Sainte-Maure de Touraine, Rocamadour, Pélardon.
+- Coverage: **low** (87 dishes, 58 with recipes, 8,520 recipes; place tree: Europe > Western Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Quiche, Carrot, Waffle, Mousse, Scrambled eggs, Soufflé, Shepherd's pie, Macaroon.
+- Families present: baked good, battercake, biscuit, bread, cake, confectionery, cookie, culinary foam.
+- Missing (Wikidata family members we lack, 177): tome des Bauges, Valençay, Saint-Nectaire, Reblochon, laguiole cheese, abondance, Selles-sur-Cher cheese, Sainte-Maure de Touraine, Rocamadour, Pélardon.
 
 ### Italy
 
-- Coverage: **high** (326 dishes, 154 with recipes, 24,910 recipes; place tree: Europe > Mediterranean Europe).
+- Coverage: **high** (327 dishes, 155 with recipes, 24,910 recipes; place tree: Europe > Mediterranean Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Pizza, Lasagna, Pasta salad, Spaghetti, Risotto, Pasta, Frittata, Penne.
 - Families present: Crostata, Neapolitan pizza, antipasto, baked good, beefsteak, biscuit, bonbon, bread.
 - Missing (Wikidata family members we lack, 79): Grana Cheese, tortello amaro di Castel Goffredo, mortadella di Campotosto, Valle d'Aosta Fromadzo PDO, Tuma, Stracciata, Spressa delle Giudicarie PDO, Romano cheese, Red Pecorino, Provola silana.
@@ -125,14 +124,14 @@ Back to [world coverage](coverage_world.md).
 
 ### Germany
 
-- Coverage: **high** (87 dishes, 39 with recipes, 1,476 recipes; place tree: Europe > Central Europe).
+- Coverage: **high** (88 dishes, 39 with recipes, 1,476 recipes; place tree: Europe > Central Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Cheesecake, Potato salad, Apple cake, Ragout, Roulade, Christmas cookie, Mulled wine, Marble cake.
 - Families present: Bratwurst, Brühwurst, German sausage, Kuchen, beef, biscuit, blood soup, bread.
 - Missing (Wikidata family members we lack, 40): Hauskyjza, Cambozola, blood tongue, Weisslacker, Spundekäs, Nieheimer Käse, Kottenbutter, Gelbwurst, Frankfurter Kranz, Donauwelle.
 
 ### Poland
 
-- Coverage: **high** (65 dishes, 23 with recipes, 418 recipes; place tree: Europe > Central Europe).
+- Coverage: **high** (66 dishes, 23 with recipes, 418 recipes; place tree: Europe > Central Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Vegetable soup, Deviled egg, Carrot cake, Torte, Cabbage soup, Carrot salad, Pâté, Fruitcake.
 - Families present: Olivier salad, biscuit, blood soup, bonbon, bread, bread soup, cabbage roll, cake.
 - Missing (Wikidata family members we lack, 11): bagel, rugelach, homogenized cheese, bialy, babka, Rokpol, Redykołka, Prądnik bread, Podpłomyk, Kołacz.
@@ -146,7 +145,7 @@ Back to [world coverage](coverage_world.md).
 
 ### Hungary
 
-- Coverage: **medium** (41 dishes, 21 with recipes, 346 recipes; place tree: Europe > Central Europe).
+- Coverage: **medium** (42 dishes, 21 with recipes, 346 recipes; place tree: Europe > Central Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Crouton, Egg drop soup, Cream of mushroom soup, Fruit soup, Wiener schnitzel, Linzertorte, Lecsó, Kifli.
 - Families present: baked good, bread roll, cake, candy, chocolate bar, chocolate cake, cream soup, fish soup.
 - Missing (Wikidata family members we lack, 4): diplomat pudding, Pálpusztai cheese, winter ice cream, Speckkuchen.

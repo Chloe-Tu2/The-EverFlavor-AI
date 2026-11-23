@@ -10,7 +10,7 @@ Regions below a country: the place tree's own and the knowledge notebook's (from
 | China | Anhui | no | 1 | 0 |
 | China | Beijing | yes | 28 | 16 |
 | China | Fujian | no | 8 | 0 |
-| China | Guangdong | yes | 39 | 82 |
+| China | Guangdong | yes | 40 | 82 |
 | China | Hong Kong | no | 18 | 0 |
 | China | Hunan | yes | 3 | 23 |
 | China | Jiangsu | no | 3 | 0 |
@@ -22,11 +22,12 @@ Regions below a country: the place tree's own and the knowledge notebook's (from
 | China | Zhejiang | no | 2 | 0 |
 | Mexico | Baja California | yes | 0 | 131 |
 | Mexico | Chihuahua | no | 1 | 0 |
+| Mexico | Guanajuato | no | 1 | 0 |
 | Mexico | Guerrero | no | 2 | 0 |
 | Mexico | Jalisco | no | 3 | 0 |
 | Mexico | Mexico City | no | 3 | 0 |
 | Mexico | Michoacán | no | 3 | 0 |
-| Mexico | Oaxaca | yes | 5 | 61 |
+| Mexico | Oaxaca | yes | 6 | 61 |
 | Mexico | Puebla | no | 2 | 0 |
 | Mexico | San Luis Potosí | no | 1 | 0 |
 | Mexico | Sinaloa | no | 1 | 0 |
@@ -44,7 +45,7 @@ Regions below a country: the place tree's own and the knowledge notebook's (from
 | United States | Pacific Northwest | yes | 0 | 506 |
 | United States | Pennsylvania | yes | 22 | 310 |
 | United States | Southern US | yes | 0 | 4,322 |
-| United States | Southwestern US | yes | 32 | 1,611 |
+| United States | Southwestern US | yes | 31 | 1,611 |
 | United States | Texas | yes | 0 | 1,353 |
 | United States | West Coast | yes | 0 | 0 |
 
@@ -53,7 +54,7 @@ Regions below a country: the place tree's own and the knowledge notebook's (from
 | Country | Region | In the tree | Dishes | Recipes |
 |---|---:|---:|---:|---:|
 | China | Sichuan | yes | 12 | 102 |
-| China | Guangdong | yes | 39 | 82 |
+| China | Guangdong | yes | 40 | 82 |
 | China | Hunan | yes | 3 | 23 |
 | China | Jiangsu | no | 3 | 0 |
 | China | Shandong | no | 0 | 0 |
@@ -72,7 +73,7 @@ Regions below a country: the place tree's own and the knowledge notebook's (from
 | United States | Southern US | yes | 0 | 4,322 |
 | United States | Northeastern US | yes | 19 | 1,621 |
 | United States | Hawaii | yes | 1 | 384 |
-| United States | Southwestern US | yes | 32 | 1,611 |
+| United States | Southwestern US | yes | 31 | 1,611 |
 | United States | California | yes | 0 | 691 |
 
 India has no regions in our data: neither the recipes nor the knowledge notebook give an Indian state. Adding them needs a source that places dishes by state (a Wikipedia regional cuisine page, as for China and Mexico).
@@ -89,9 +90,9 @@ Dishes whose own Wikipedia summary or list headings mention the people or the wo
 | Sámi | 2 | Norway 1, Russia 1 | Pirog, Sautéed reindeer |
 | Aboriginal Australian | 0 |  |  |
 | Māori and Pacific | 4 | Australia 4 | Boil up, Louise cake, Mānuka honey, Rēwena bread |
-| Indigenous South American | 6 | Argentina 3, Peru 3 | Anticucho, Carapulcra, Chairo (stew), Chipa, Humita, Locro |
-| Mesoamerican | 11 | Mexico 6, Argentina 1, Colombia 1, Indonesia 1, Peru 1, United States 1 | Anticucho, Arepa, Cochinita pibil, Humita, Kue putu mayang, Papadzules, Pastel azteca, Poc chuc |
-| Indigenous African | 2 | Ethiopia 2 | Tihlo, Wat (food) |
-| Any 'indigenous' | 10 | Vietnam 2, Brazil 1, Canada 1, Indonesia 1, Jamaica 1, Malaysia 1, Russia 1, United Kingdom 1, United States 1 | Arabu, Ayam pansuh, Bammy, Bannock (British and Irish food), Canh chua, Frybread, Jellied moose nose, Linopot |
+| Indigenous South American | 7 | Argentina 3, Peru 3, India 1 | Anticucho, Bebinca, Carapulcra, Chairo (stew), Chipa, Humita, Locro |
+| Mesoamerican | 13 | Mexico 6, Nicaragua 2, Argentina 1, Colombia 1, Indonesia 1, Peru 1, United States 1 | Anticucho, Arepa, Cochinita pibil, Humita, Indio viejo, Kue putu mayang, Nacatamal, Papadzules |
+| Indigenous African | 3 | Ethiopia 2, Morocco 1 | Tahricht, Tihlo, Wat (food) |
+| Any 'indigenous' | 13 | Vietnam 2, Brazil 1, Cameroon 1, Canada 1, Indonesia 1, Jamaica 1, Malaysia 1, Nigeria 1, Russia 1, South Africa 1, United Kingdom 1, United States 1 | Arabu, Ayam pansuh, Bammy, Bannock (British and Irish food), Canh chua, Frybread, Jellied moose nose, Linopot |
 
 Very little is covered. The knowledge notebook reads national cuisine lists, which seldom list indigenous foods; a source made for them (for example the Wikipedia articles on Native American, Inuit and Aboriginal Australian cuisine) is needed, and their words and claims should be checked with care.

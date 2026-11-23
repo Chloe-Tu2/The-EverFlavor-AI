@@ -8,63 +8,78 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Angola | recipes only | 0 | 0 | 0 | 0 | 10 | 0 |  |
+| Cameroon | low | 7 | 0 | 1 | 1 | 0 | 0 | 100% |
+| Angola | low | 3 | 0 | 0 | 0 | 10 | 0 | 100% |
+| Chad | low | 2 | 1 | 0 | 0 | 0 | 0 | 100% |
+| Democratic Republic of the Congo | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
 | Congo | recipes only | 0 | 0 | 0 | 0 | 7 | 0 |  |
+| Central African Republic | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Equatorial Guinea | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Gabon | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| São Tomé and Príncipe | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## East Africa
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Ethiopia | low | 10 | 1 | 6 | 8 | 78 | 0 | 100% |
-| Somalia | recipes only | 0 | 0 | 0 | 0 | 9 | 2 | 0% |
-| Kenya | recipes only | 0 | 0 | 0 | 0 | 4 | 2 | 0% |
+| Seychelles | low | 3 | 1 | 0 | 0 | 0 | 0 | 100% |
+| Uganda | low | 3 | 1 | 0 | 0 | 0 | 3 | 50% |
+| Somalia | low | 2 | 1 | 2 | 2 | 9 | 0 | 100% |
+| Tanzania | low | 2 | 1 | 0 | 0 | 0 | 1 | 67% |
+| Malawi | low | 1 | 0 | 0 | 0 | 0 | 1 | 50% |
+| Mauritius | low | 1 | 1 | 0 | 0 | 0 | 0 | 100% |
+| Mozambique | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
+| Rwanda | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| South Sudan | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
+| Kenya | recipes only | 0 | 0 | 0 | 0 | 4 | 1 | 0% |
+| Burundi | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Comoros | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Djibouti | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Eritrea | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Madagascar | absent | 0 | 0 | 0 | 0 | 0 | 2 | 0% |
+| Zambia | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Zimbabwe | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Southern Africa
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | South Africa | medium | 28 | 12 | 14 | 16 | 606 | 1 | 97% |
-| Botswana | recipes only | 0 | 0 | 0 | 0 | 6 | 0 |  |
+| Botswana | low | 1 | 1 | 0 | 0 | 6 | 0 | 100% |
 | Namibia | recipes only | 0 | 0 | 0 | 0 | 4 | 0 |  |
+| Eswatini | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Lesotho | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## West Africa
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Nigeria | recipes only | 0 | 0 | 0 | 0 | 32 | 18 | 0% |
-
-## Not in the place tree yet
-
-| Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Cameroon | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Cape Verde | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Ghana | absent | 0 | 0 | 0 | 0 | 0 | 7 | 0% |
-| Madagascar | absent | 0 | 0 | 0 | 0 | 0 | 2 | 0% |
-| Malawi | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
+| Nigeria | high | 50 | 7 | 7 | 16 | 32 | 6 | 89% |
+| Senegal | low | 8 | 1 | 2 | 2 | 0 | 0 | 100% |
+| Ghana | low | 4 | 1 | 3 | 3 | 0 | 1 | 80% |
+| Benin | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Cape Verde | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
+| Ivory Coast | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Niger | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| The Gambia | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
+| Burkina Faso | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Guinea | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Guinea-Bissau | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Liberia | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Mali | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Mauritania | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Mozambique | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Senegal | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Tanzania | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| The Gambia | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Togo | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Uganda | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
+| Mauritania | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Sierra Leone | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Togo | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Countries with the most to add
 
-- **Nigeria** (recipes only; 18 ready, 0 to review): pounded yam, peanut milk, palm nut soup, ogbono soup, miyan taushe, goat meat pepper soup, amala, Tuwon shinkafa.
-- **Ghana** (absent; 0 ready, 7 to review): omo tuo, jollof rice, banku, Plakali, Kokonte, Kenkey, Abunuabunu.
-- **Uganda** (absent; 0 ready, 3 to review): Luwombo, Kikalayi, Eshabwe.
-- **Somalia** (recipes only; 2 ready, 0 to review): Sabaayad, Lahoh.
-- **Kenya** (recipes only; 2 ready, 0 to review): kisra, Kenyan cheese.
-- **Madagascar** (absent; 0 ready, 2 to review): Romazava, Koba.
+- **Nigeria** (high; 6 ready, 0 to review): goat meat pepper soup, Owo soup, Okoho, Ofe Oha, Gbegiri, Afia Efere.
+- **Uganda** (low; 3 ready, 0 to review): Luwombo, Kikalayi, Eshabwe.
+- **Madagascar** (absent; 2 ready, 0 to review): Romazava, Koba.
+- **Tanzania** (low; 1 ready, 0 to review): Kunga cake.
+- **Malawi** (low; 1 ready, 0 to review): usipa.
+- **Kenya** (recipes only; 1 ready, 0 to review): Kenyan cheese.
 - **South Africa** (medium; 1 ready, 0 to review): rooibos.
-- **Cameroon** (absent; 0 ready, 1 to review): Ndolé.
-- **Cape Verde** (absent; 0 ready, 1 to review): Cachupa.
-- **Malawi** (absent; 0 ready, 1 to review): usipa.
-- **Mali** (absent; 0 ready, 1 to review): Ngome.
-- **Mauritania** (absent; 0 ready, 1 to review): Caravane.
-- **Mozambique** (absent; 0 ready, 1 to review): matapa.
-- **Senegal** (absent; 0 ready, 1 to review): Tapalapa.
-- **Tanzania** (absent; 0 ready, 1 to review): Kunga cake.
+- **Ghana** (low; 1 ready, 0 to review): Abunuabunu.
+- **Mali** (absent; 1 ready, 0 to review): Ngome.

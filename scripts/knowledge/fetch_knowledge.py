@@ -57,6 +57,122 @@ APP_COUNTRIES = {
     "Puerto Rico": "Puerto Rican", "Chile": "Chilean", "Colombia": "Colombian", "Iraq": "Iraqi",
     "Cambodia": "Cambodian", "Palestine": "Palestinian",
 }
+# The atlas sprints (2026-11-22, med27-coder): Africa, the Pacific Islands, the Caribbean, Central America and
+# Central Asia; a missing page is skipped. Their cuisine pages also link dishes of other countries (the Belizean
+# page links Burrito), so such a page sets a dish's country only when Wikidata's origin or the dish's own intro
+# names that country (`claims_country`); otherwise the dish keeps the country another list gives it.
+ATLAS_SPRINT_COUNTRIES = {
+    "Nigeria": "Nigerian",
+    "Ghana": "Ghanaian",
+    "Senegal": "Senegalese",
+    "Ivory Coast": "Ivorian",
+    "Mali": "Malian",
+    "Benin": "Beninese",
+    "Burkina Faso": "Burkinabé",
+    "Guinea": "Guinean",
+    "Guinea-Bissau": "Bissau-Guinean",
+    "Liberia": "Liberian",
+    "Sierra Leone": "Sierra Leonean",
+    "The Gambia": "Gambian",
+    "Togo": "Togolese",
+    "Niger": "Nigerien",
+    "Mauritania": "Mauritanian",
+    "Cape Verde": "Cape Verdean",
+    "Cameroon": "Cameroonian",
+    "Gabon": "Gabonese",
+    "Chad": "Chadian",
+    "Central African Republic": "Central African",
+    "Equatorial Guinea": "Equatoguinean",
+    "Angola": "Angolan",
+    "Congo": "Republic of the Congo",
+    "Democratic Republic of the Congo": "Democratic Republic of the Congo",
+    "São Tomé and Príncipe": "São Toméan",
+    "Kenya": "Kenyan",
+    "Tanzania": "Tanzanian",
+    "Uganda": "Ugandan",
+    "Rwanda": "Rwandan",
+    "Burundi": "Burundian",
+    "Somalia": "Somali",
+    "Eritrea": "Eritrean",
+    "Djibouti": "Djiboutian",
+    "South Sudan": "South Sudanese",
+    "Madagascar": "Malagasy",
+    "Mauritius": "Mauritian",
+    "Seychelles": "Seychellois",
+    "Comoros": "Comorian",
+    "Mozambique": "Mozambican",
+    "Zambia": "Zambian",
+    "Zimbabwe": "Zimbabwean",
+    "Malawi": "Malawian",
+    "Botswana": "Botswana",
+    "Namibia": "Namibian",
+    "Lesotho": "Basotho",
+    "Eswatini": "Swazi",
+    "Algeria": "Algerian",
+    "Tunisia": "Tunisian",
+    "Libya": "Libyan",
+    "Sudan": "Sudanese",
+    "Fiji": "Fijian",
+    "Papua New Guinea": "Papua New Guinean",
+    "Solomon Islands": "Solomon Islands",
+    "Vanuatu": "Vanuatuan",
+    "Samoa": "Samoan",
+    "Tonga": "Tongan",
+    "Kiribati": "I-Kiribati",
+    "Trinidad and Tobago": "Trinidad and Tobago",
+    "Haiti": "Haitian",
+    "Dominican Republic": "Dominican Republic",
+    "The Bahamas": "Bahamian",
+    "Barbados": "Barbadian",
+    "Guatemala": "Guatemalan",
+    "Honduras": "Honduran",
+    "El Salvador": "Salvadoran",
+    "Nicaragua": "Nicaraguan",
+    "Costa Rica": "Costa Rican",
+    "Panama": "Panamanian",
+    "Belize": "Belizean",
+    "Uzbekistan": "Uzbek",
+    "Kazakhstan": "Kazakh",
+    "Kyrgyzstan": "Kyrgyz",
+    "Tajikistan": "Tajik",
+    "Turkmenistan": "Turkmen",
+}
+APP_COUNTRIES.update(ATLAS_SPRINT_COUNTRIES)
+
+
+def _first_mention(country: str, text: str) -> int:
+    """Where the plain-words `text` first names `country` or its adjective; -1 when it does not."""
+    found = [m.start() for n in {country, APP_COUNTRIES.get(country, country)}
+             if (m := re.search(rf"\b{re.escape(_plain_words(n))}\b", text))]
+    return min(found) if found else -1
+
+
+def claims_country(country: str, intro: str, origin: list[str]) -> bool:
+    """Whether the sources say a dish is from `country`: Wikidata's origin when it gives one (only then), else the
+    dish's intro naming the country or its adjective."""
+    if origin:
+        return country in origin
+    return _first_mention(country, f" {_plain_words(intro)} ") >= 0
+
+
+def sprint_country(countries: list[str], intro: str, origin: list[str]) -> str | None:
+    """Of the sprint countries whose pages list a dish, the one the sources claim: Wikidata's origin first, else
+    the one its intro names earliest ("Salvadoran ... also eaten in Guatemala" is El Salvador)."""
+    claimed = [c for c in countries if claims_country(c, intro, origin)]
+    if origin or not claimed:
+        return claimed[0] if claimed else None
+    text = f" {_plain_words(intro)} "
+    return min(claimed, key=lambda c: _first_mention(c, text))
+# Countries whose cuisine page has another title ("Cuisine of Botswana")
+COUNTRY_PAGES = {
+    'Congo': ['Cuisine of the Republic of the Congo'],
+    'Democratic Republic of the Congo': ['Cuisine of the Democratic Republic of the Congo'],
+    'São Tomé and Príncipe': ['Cuisine of São Tomé and Príncipe'],
+    'Botswana': ['Cuisine of Botswana'],
+    'Lesotho': ['Cuisine of Lesotho'],
+    'Vanuatu': ['Cuisine of Vanuatu'],
+    'Kiribati': ['Cuisine of Kiribati'],
+}
 # The app's regions (country, region as the app names it) -> their Wikipedia pages; a missing page is skipped
 APP_REGIONS = {
     ("Mexico", "Baja California"): ["Baja California cuisine", "Cuisine of Baja California"],
@@ -125,6 +241,7 @@ def sources() -> list[tuple[str | None, str | None, str]]:
     out: list[tuple[str | None, str | None, str]] = []
     for country, adj in APP_COUNTRIES.items():
         out += [(country, None, f"List of {adj} dishes"), (country, None, f"{adj} cuisine")]
+        out += [(country, None, page) for page in COUNTRY_PAGES.get(country, [])]
     out += [(country, region, page) for (country, region), pages in APP_REGIONS.items() for page in pages]
     out += [("United States", None, "List of American foods"),
             ("United States", None, "List of regional dishes of the United States")]
@@ -426,6 +543,8 @@ def main() -> None:
                 entry["country"], entry["region"] = country, region
                 entry["lists"].insert(0, list_page)
             entry["country"] = entry["country"] or country
+            if country and country not in entry.setdefault("countries", []):
+                entry["countries"].append(country)
             if list_page not in entry["lists"]:
                 entry["lists"].append(list_page)
             if r["section"] and r["section"] not in entry["sections"]:
@@ -458,8 +577,20 @@ def main() -> None:
         if country is None:
             continue   # not from a country the app shows (picked up later)
         intro = page["intro"]
-        url = "https://en.wikipedia.org/wiki/" + page["title"].replace(" ", "_")
         region = entry["region"]
+        if country in ATLAS_SPRINT_COUNTRIES:
+            # A sprint country's page linked it: keep a country the sources claim; else another listing's
+            # country, else its Wikidata origin, else it waits
+            listing = entry.get("countries", [])
+            picked = sprint_country([c for c in listing if c in ATLAS_SPRINT_COUNTRIES], intro, f.get("origin", []))
+            others = [c for c in listing if c not in ATLAS_SPRINT_COUNTRIES]
+            origin = [o for o in f.get("origin", []) if o in APP_COUNTRIES]
+            new_country = next(iter([picked] if picked else others + origin), None)
+            if new_country is None:
+                continue
+            if new_country != country:
+                country, region = new_country, None
+        url = "https://en.wikipedia.org/wiki/" + page["title"].replace(" ", "_")
         if country in PROSE_REGION_COUNTRIES:
             region = named_region(entry.get("region_options", []) + COUNTRY_DIVISIONS.get(country, []), intro,
                                   f.get("origin", []))

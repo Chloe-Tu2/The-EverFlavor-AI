@@ -1,6 +1,6 @@
 # PII audit (2026-11-22)
 
-`scripts/governance/pii_scan.py` read 497 tracked text files for e-mail addresses, phone numbers, street addresses and GPS coordinates. Values are masked. Nothing was changed: each hit below needs a person to decide whether it is public (a shop's listed phone, a credited author) or personal. Binary tables (parquet) are not read here; their columns are described in `docs/data_dictionary.md`.
+`scripts/governance/pii_scan.py` read 516 tracked text files for e-mail addresses, phone numbers, street addresses and GPS coordinates. Values are masked. Nothing was changed: each hit below needs a person to decide whether it is public (a shop's listed phone, a credited author) or personal. Binary tables (parquet) are not read here; their columns are described in `docs/data_dictionary.md`.
 
 ## Folders that must never be in git
 

@@ -5,8 +5,8 @@
  "nodes": {
   "world": 1,
   "zone": 8,
-  "region": 26,
-  "country": 92,
+  "region": 30,
+  "country": 160,
   "division": 5,
   "state": 17,
   "culinary_region": 1
@@ -77,7 +77,7 @@
    "place": "Oaxaca",
    "level": "state",
    "country": "Mexico",
-   "dishes": 7,
+   "dishes": 8,
    "recipes_by_label": 42
   },
   {
@@ -85,14 +85,14 @@
    "level": "state",
    "country": "United Kingdom",
    "dishes": 13,
-   "recipes_by_label": 937
+   "recipes_by_label": 932
   },
   {
    "place": "Scotland",
    "level": "state",
    "country": "United Kingdom",
    "dishes": 81,
-   "recipes_by_label": 231
+   "recipes_by_label": 228
   },
   {
    "place": "Wales",
@@ -106,7 +106,7 @@
    "level": "state",
    "country": "United States",
    "dishes": 0,
-   "recipes_by_label": 555
+   "recipes_by_label": 553
   },
   {
    "place": "Hawaii",
@@ -119,15 +119,15 @@
    "place": "Louisiana",
    "level": "state",
    "country": "United States",
-   "dishes": 59,
+   "dishes": 58,
    "recipes_by_label": 1083
   },
   {
    "place": "Midwestern US",
    "level": "division",
    "country": "United States",
-   "dishes": 50,
-   "recipes_by_label": 1792
+   "dishes": 51,
+   "recipes_by_label": 1791
   },
   {
    "place": "Northeastern US",
@@ -148,7 +148,7 @@
    "level": "state",
    "country": "United States",
    "dishes": 32,
-   "recipes_by_label": 230
+   "recipes_by_label": 229
   },
   {
    "place": "Southern US",
@@ -169,7 +169,7 @@
    "level": "state",
    "country": "United States",
    "dishes": 0,
-   "recipes_by_label": 931
+   "recipes_by_label": 930
   },
   {
    "place": "West Coast",
@@ -179,5 +179,27 @@
    "recipes_by_label": 0
   }
  ],
- "empty_countries": []
+ "empty_countries": [
+  "Bahrain",
+  "Burundi",
+  "Central African Republic",
+  "Comoros",
+  "Djibouti",
+  "Equatorial Guinea",
+  "Eswatini",
+  "Fiji",
+  "Gabon",
+  "Guinea-Bissau",
+  "Kiribati",
+  "Lesotho",
+  "Liberia",
+  "Papua New Guinea",
+  "Qatar",
+  "Solomon Islands",
+  "São Tomé and Príncipe",
+  "The Bahamas",
+  "Turkmenistan",
+  "Vanuatu",
+  "Zimbabwe"
+ ]
 }

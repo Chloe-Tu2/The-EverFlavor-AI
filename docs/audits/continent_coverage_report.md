@@ -4,73 +4,73 @@ Read from the Global Culinary Atlas files (`data/knowledge/atlas/`, regions from
 
 | Continent | Countries | With dishes | Dishes | Recipes | Score | Band |
 |---|---:|---:|---:|---:|---:|---|
-| Africa | 60 | 4 | 73 | 2,600 | 47.1 | thin |
-| Americas | 57 | 10 | 760 | 148,888 | 58.8 | fair |
-| Asia | 51 | 17 | 1,124 | 21,394 | 66.7 | fair |
-| Europe | 53 | 20 | 1,185 | 50,001 | 68.9 | fair |
-| Oceania | 29 | 2 | 59 | 3,142 | 53.4 | fair |
+| Africa | 60 | 29 | 184 | 2,600 | 29.2 | thin |
+| Americas | 57 | 19 | 794 | 148,888 | 41.7 | thin |
+| Asia | 51 | 19 | 1,138 | 21,394 | 68.6 | fair |
+| Europe | 53 | 20 | 1,194 | 50,001 | 68.9 | fair |
+| Oceania | 29 | 3 | 61 | 3,142 | 7.7 | gap |
 
 ## Africa
 
-4 of 60 countries and territories have a dish; 11 have recipes but no dish page; 22 versions of dishes we have are missing; the backlog holds 1 blocked, 22 needs review, 38 ready.
+29 of 60 countries and territories have a dish; 4 have recipes but no dish page; 9 versions of dishes we have are missing; the backlog holds 26 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
-| Middle Africa | 9 | 0 | 0 | 0.0 | gap |
-| Western Africa | 17 | 0 | 0 | 0.0 | gap |
-| Eastern Africa | 22 | 1 | 10 | 27.3 | thin |
-| Northern Africa | 7 | 2 | 35 | 58.0 | fair |
-| Southern Africa | 5 | 1 | 28 | 60.0 | fair |
+| Western Africa | 17 | 8 | 67 | 26.0 | thin |
+| Eastern Africa | 22 | 10 | 25 | 26.5 | thin |
+| Middle Africa | 9 | 4 | 13 | 28.5 | thin |
+| Northern Africa | 7 | 5 | 50 | 50.7 | fair |
+| Southern Africa | 5 | 2 | 29 | 56.2 | fair |
 
-Recipes but no dish page: Algeria, Angola, Botswana, Congo, Kenya, Libya, Namibia, Nigeria, Somalia, Sudan, Tunisia.
+Recipes but no dish page: Congo, Kenya, Namibia, Sudan.
 
 ## Americas
 
-10 of 57 countries and territories have a dish; 12 have recipes but no dish page; 150 versions of dishes we have are missing; the backlog holds 60 blocked, 28 needs review, 234 ready.
+19 of 57 countries and territories have a dish; 9 have recipes but no dish page; 138 versions of dishes we have are missing; the backlog holds 60 blocked, 13 needs review, 231 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
-| Caribbean | 28 | 2 | 72 | 53.6 | fair |
-| Central America | 8 | 1 | 110 | 56.2 | fair |
+| Caribbean | 28 | 7 | 86 | 20.0 | gap |
+| Central America | 8 | 5 | 131 | 51.2 | fair |
 | South America | 16 | 5 | 123 | 60.6 | fair |
-| Northern America | 5 | 2 | 455 | 70.0 | fair |
+| Northern America | 5 | 2 | 454 | 70.0 | fair |
 
-Recipes but no dish page: Antigua and Barbuda, Aruba, Barbados, Cayman Islands, Costa Rica, Dominica, Ecuador, Guatemala, Honduras, Puerto Rico, Uruguay, Venezuela.
+Recipes but no dish page: Antigua and Barbuda, Aruba, Cayman Islands, Costa Rica, Dominica, Ecuador, Honduras, Uruguay, Venezuela.
 
 ## Asia
 
-17 of 51 countries and territories have a dish; 8 have recipes but no dish page; 291 versions of dishes we have are missing; the backlog holds 20 blocked, 81 needs review, 488 ready.
+19 of 51 countries and territories have a dish; 8 have recipes but no dish page; 285 versions of dishes we have are missing; the backlog holds 20 blocked, 37 needs review, 524 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
-| Central Asia | 5 | 0 | 0 | 0.0 | gap |
-| Southern Asia | 9 | 3 | 119 | 44.2 | thin |
+| Central Asia | 5 | 2 | 7 | 28.8 | thin |
+| Southern Asia | 9 | 3 | 123 | 49.2 | thin |
 | Western Asia | 18 | 5 | 119 | 58.9 | fair |
-| Eastern Asia | 8 | 3 | 365 | 68.8 | fair |
-| Southeast Asia | 11 | 6 | 521 | 77.3 | good |
+| Eastern Asia | 8 | 3 | 366 | 68.8 | fair |
+| Southeast Asia | 11 | 6 | 523 | 77.3 | good |
 
 Recipes but no dish page: Afghanistan, Armenia, Azerbaijan, Bangladesh, Laos, Nepal, Syria, Taiwan.
 
 ## Europe
 
-20 of 53 countries and territories have a dish; 8 have recipes but no dish page; 340 versions of dishes we have are missing; the backlog holds 68 blocked, 112 needs review, 693 ready.
+20 of 53 countries and territories have a dish; 8 have recipes but no dish page; 338 versions of dishes we have are missing; the backlog holds 68 blocked, 112 needs review, 689 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
-| Southern Europe | 17 | 4 | 535 | 61.8 | fair |
-| Northern Europe | 17 | 6 | 227 | 67.6 | fair |
-| Eastern Europe | 10 | 4 | 164 | 70.0 | fair |
-| Western Europe | 9 | 6 | 259 | 83.3 | good |
+| Southern Europe | 17 | 4 | 536 | 61.8 | fair |
+| Northern Europe | 17 | 6 | 229 | 67.6 | fair |
+| Eastern Europe | 10 | 4 | 166 | 70.0 | fair |
+| Western Europe | 9 | 6 | 263 | 83.3 | good |
 
 Recipes but no dish page: Albania, Andorra, Bulgaria, Croatia, Estonia, Iceland, Slovakia, Ukraine.
 
 ## Oceania
 
-2 of 29 countries and territories have a dish; 0 have recipes but no dish page; 9 versions of dishes we have are missing; the backlog holds 3 blocked, 4 needs review, 6 ready.
+3 of 29 countries and territories have a dish; 0 have recipes but no dish page; 9 versions of dishes we have are missing; the backlog holds 3 blocked, 4 needs review, 6 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
 | Melanesia | 5 | 0 | 0 | 0.0 | gap |
 | Micronesian Region | 8 | 0 | 0 | 0.0 | gap |
-| Polynesia | 10 | 0 | 0 | 0.0 | gap |
-| Australasia | 6 | 2 | 59 | 66.7 | fair |
+| Polynesia | 10 | 1 | 1 | 7.5 | gap |
+| Australasia | 6 | 2 | 60 | 66.7 | fair |

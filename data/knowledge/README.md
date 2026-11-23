@@ -2,8 +2,9 @@
 
 Facts the waiter may tell, collected from open sources, never invented (for the waiter, planned for 0.6.3).
 
-- `dishes.jsonl`: one dish or food per line (2026-11-11: 4,885; 3,201 dishes, the rest foods and drinks; 2,806 with
-  fun-fact candidates and 2,415 with story sentences; 11,044 facts shown first and 9,035 "more"), built by
+- `dishes.jsonl`: one dish or food per line (2026-11-22: 5,129; 3,371 dishes, the rest foods and drinks, from 95 countries;
+  2,943 with fun-fact candidates and 2,469 with story sentences; on 2026-11-11, 11,044 facts shown first and 9,035
+  "more"), built by
   `scripts/knowledge/fetch_knowledge.py`. It starts with what
   the app shows: the 54 countries in its Country list and its 22 regions (other countries later).
 - `dish_families.json`: which dishes belong together (notebook 15, Wikidata "subclass of", CC0): families,

@@ -12,49 +12,49 @@
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
  "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
- "count": 126,
+ "count": 125,
  "dishes": [
   {
-   "dish": "brown stew chicken",
-   "wikidata": "Q17027457",
-   "country": "Barbados",
+   "dish": "Cow cod soup",
+   "wikidata": "Q5179420",
+   "country": "Jamaica",
    "subregion": "Caribbean",
    "families": [
-    "stew"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17027457",
+     "url": "https://www.wikidata.org/wiki/Q5179420",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Brown_stew_chicken",
+     "url": "https://en.wikipedia.org/wiki/Cow_cod_soup",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Fiambre",
-   "wikidata": "Q3744332",
-   "country": "Guatemala",
+   "dish": "Sopa de pata",
+   "wikidata": "Q5803846",
+   "country": "El Salvador",
    "subregion": "Central America",
    "families": [
-    "salad"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3744332",
+     "url": "https://www.wikidata.org/wiki/Q5803846",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Fiambre",
+     "url": "https://en.wikipedia.org/wiki/Sopa_de_pata",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -107,23 +107,23 @@
    ]
   },
   {
-   "dish": "Cow cod soup",
-   "wikidata": "Q5179420",
-   "country": "Jamaica",
+   "dish": "Piragua",
+   "wikidata": "Q7197677",
+   "country": "Puerto Rico",
    "subregion": "Caribbean",
    "families": [
-    "soup"
+    "shaved ice"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5179420",
+     "url": "https://www.wikidata.org/wiki/Q7197677",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cow_cod_soup",
+     "url": "https://en.wikipedia.org/wiki/Piragua_(food)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -199,23 +199,23 @@
    ]
   },
   {
-   "dish": "Piragua",
-   "wikidata": "Q7197677",
-   "country": "Puerto Rico",
+   "dish": "Aloo pie",
+   "wikidata": "Q2839301",
+   "country": "Trinidad and Tobago",
    "subregion": "Caribbean",
    "families": [
-    "shaved ice"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7197677",
+     "url": "https://www.wikidata.org/wiki/Q2839301",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Piragua_(food)",
+     "url": "https://en.wikipedia.org/wiki/Aloo_pie",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -314,23 +314,23 @@
    ]
   },
   {
-   "dish": "kak'ik",
-   "wikidata": "Q17635889",
-   "country": "Guatemala",
+   "dish": "Guajolota",
+   "wikidata": "Q5613356",
+   "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "stew"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17635889",
+     "url": "https://www.wikidata.org/wiki/Q5613356",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kak%27ik",
+     "url": "https://en.wikipedia.org/wiki/Guajolota",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -383,23 +383,46 @@
    ]
   },
   {
-   "dish": "Guajolota",
-   "wikidata": "Q5613356",
-   "country": "Mexico",
-   "subregion": "Central America",
+   "dish": "Buljol",
+   "wikidata": "Q15790217",
+   "country": "Trinidad and Tobago",
+   "subregion": "Caribbean",
    "families": [
-    "sandwich"
+    "salad"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5613356",
+     "url": "https://www.wikidata.org/wiki/Q15790217",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Guajolota",
+     "url": "https://en.wikipedia.org/wiki/Buljol",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Mexican bread",
+   "wikidata": "Q18344267",
+   "country": "Mexico",
+   "subregion": "Central America",
+   "families": [
+    "bread"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q18344267",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mexican_breads",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -452,23 +475,46 @@
    ]
   },
   {
-   "dish": "Mexican bread",
-   "wikidata": "Q18344267",
-   "country": "Mexico",
-   "subregion": "Central America",
+   "dish": "doubles",
+   "wikidata": "Q5300145",
+   "country": "Trinidad and Tobago",
+   "subregion": "Caribbean",
    "families": [
-    "bread"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q18344267",
+     "url": "https://www.wikidata.org/wiki/Q5300145",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mexican_breads",
+     "url": "https://en.wikipedia.org/wiki/Doubles_(food)",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Mexican pizza",
+   "wikidata": "Q6826082",
+   "country": "Mexico",
+   "subregion": "Central America",
+   "families": [
+    "pizza"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q6826082",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-19"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mexican_pizza",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -521,23 +567,23 @@
    ]
   },
   {
-   "dish": "Mexican pizza",
-   "wikidata": "Q6826082",
+   "dish": "Paste",
+   "wikidata": "Q7142958",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "pizza"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6826082",
+     "url": "https://www.wikidata.org/wiki/Q7142958",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mexican_pizza",
+     "url": "https://en.wikipedia.org/wiki/Paste_(pasty)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -590,23 +636,23 @@
    ]
   },
   {
-   "dish": "Paste",
-   "wikidata": "Q7142958",
+   "dish": "Sinaloan sushi",
+   "wikidata": "Q111940065",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "pie"
+    "sushi"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7142958",
+     "url": "https://www.wikidata.org/wiki/Q111940065",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Paste_(pasty)",
+     "url": "https://en.wikipedia.org/wiki/Sinaloan_sushi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -660,23 +706,23 @@
    ]
   },
   {
-   "dish": "Sinaloan sushi",
-   "wikidata": "Q111940065",
+   "dish": "chocolate sandwich",
+   "wikidata": "Q5103667",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "sushi"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q111940065",
+     "url": "https://www.wikidata.org/wiki/Q5103667",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sinaloan_sushi",
+     "url": "https://en.wikipedia.org/wiki/Chocolate_sandwich",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -729,23 +775,24 @@
    ]
   },
   {
-   "dish": "chocolate sandwich",
-   "wikidata": "Q5103667",
+   "dish": "wheat tortilla",
+   "wikidata": "Q204251",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "sandwich"
+    "flatbread",
+    "tortilla"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5103667",
+     "url": "https://www.wikidata.org/wiki/Q204251",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chocolate_sandwich",
+     "url": "https://en.wikipedia.org/wiki/Flour_tortilla",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -798,23 +845,24 @@
    ]
   },
   {
-   "dish": "marquesote",
-   "wikidata": "Q24960939",
+   "dish": "wrap",
+   "wikidata": "Q1599125",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "bread"
+    "sandwich",
+    "roll"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q24960939",
+     "url": "https://www.wikidata.org/wiki/Q1599125",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Marquesote",
+     "url": "https://en.wikipedia.org/wiki/Wrap_(food)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -867,24 +915,23 @@
    ]
   },
   {
-   "dish": "wheat tortilla",
-   "wikidata": "Q204251",
+   "dish": "Cotija cheese",
+   "wikidata": "Q2718594",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "flatbread",
-    "tortilla"
+    "cow's-milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q204251",
+     "url": "https://www.wikidata.org/wiki/Q2718594",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Flour_tortilla",
+     "url": "https://en.wikipedia.org/wiki/Cotija_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -937,24 +984,23 @@
    ]
   },
   {
-   "dish": "wrap",
-   "wikidata": "Q1599125",
+   "dish": "Mexican cheese",
+   "wikidata": "Q5089436",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "sandwich",
-    "roll"
+    "cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1599125",
+     "url": "https://www.wikidata.org/wiki/Q5089436",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Wrap_(food)",
+     "url": "https://en.wikipedia.org/wiki/Cheeses_of_Mexico",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1007,23 +1053,23 @@
    ]
   },
   {
-   "dish": "Carne seca",
-   "wikidata": "Q28130295",
+   "dish": "Queso Chihuahua",
+   "wikidata": "Q7271428",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "beef"
+    "cow's-milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q28130295",
+     "url": "https://www.wikidata.org/wiki/Q7271428",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Carne_seca",
+     "url": "https://en.wikipedia.org/wiki/Chihuahua_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1076,23 +1122,23 @@
    ]
   },
   {
-   "dish": "Cotija cheese",
-   "wikidata": "Q2718594",
+   "dish": "chirmol",
+   "wikidata": "Q5102129",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "cow's-milk cheese"
+    "sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2718594",
+     "url": "https://www.wikidata.org/wiki/Q5102129",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cotija_cheese",
+     "url": "https://en.wikipedia.org/wiki/Chimol",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1145,8 +1191,8 @@
    ]
   },
   {
-   "dish": "Mexican cheese",
-   "wikidata": "Q5089436",
+   "dish": "hebra cheese",
+   "wikidata": "Q5414737",
    "country": "Mexico",
    "subregion": "Central America",
    "families": [
@@ -1155,13 +1201,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5089436",
+     "url": "https://www.wikidata.org/wiki/Q5414737",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-19"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cheeses_of_Mexico",
+     "url": "https://en.wikipedia.org/wiki/Oaxaca_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1214,29 +1260,6 @@
    ]
   },
   {
-   "dish": "Queso Chihuahua",
-   "wikidata": "Q7271428",
-   "country": "Mexico",
-   "subregion": "Central America",
-   "families": [
-    "cow's-milk cheese"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7271428",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chihuahua_cheese",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
    "dish": "Bleu d'Élizabeth",
    "wikidata": "Q2906471",
    "country": "Canada",
@@ -1283,29 +1306,6 @@
    ]
   },
   {
-   "dish": "chirmol",
-   "wikidata": "Q5102129",
-   "country": "Mexico",
-   "subregion": "Central America",
-   "families": [
-    "sauce"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5102129",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chimol",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
    "dish": "Brown Betty",
    "wikidata": "Q4976066",
    "country": "United States",
@@ -1346,29 +1346,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/P%C3%A3o_franc%C3%AAs",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "hebra cheese",
-   "wikidata": "Q5414737",
-   "country": "Mexico",
-   "subregion": "Central America",
-   "families": [
-    "cheese"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5414737",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-19"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Oaxaca_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
