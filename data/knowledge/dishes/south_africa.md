@@ -686,7 +686,7 @@ Learn more:
 
 - quick: [Vetkoek (Wikipedia)](https://en.wikipedia.org/wiki/Vetkoek)
 - more: [South African cuisine (Wikipedia)](https://en.wikipedia.org/wiki/South_African_cuisine)
-- more: [Namibian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Namibian_cuisine)
+- more: [Botswana cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Botswana_cuisine)
 - deep: [Books about Vetkoek (Open Library)](https://openlibrary.org/search?q=Vetkoek)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q282620)
 
@@ -737,7 +737,7 @@ Learn more:
 
 - quick: [Biltong (Wikipedia)](https://en.wikipedia.org/wiki/Biltong)
 - more: [South African cuisine (Wikipedia)](https://en.wikipedia.org/wiki/South_African_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Zimbabwean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Zimbabwean_cuisine)
 - deep: [Books about Biltong (Open Library)](https://openlibrary.org/search?q=Biltong)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q863394)
 
@@ -969,6 +969,7 @@ Learn more:
 
 - quick: [Umqombothi (Wikipedia)](https://en.wikipedia.org/wiki/Umqombothi)
 - more: [South African cuisine (Wikipedia)](https://en.wikipedia.org/wiki/South_African_cuisine)
+- more: [Botswana cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Botswana_cuisine)
 - deep: [Books about Umqombothi (Open Library)](https://openlibrary.org/search?q=Umqombothi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7881784)
 

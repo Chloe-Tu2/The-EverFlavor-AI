@@ -1,0 +1,43 @@
+"""Atlas metrics, region pages and the README dashboard (scripts/knowledge/enrichment_impact.py, region_pages.py)."""
+from __future__ import annotations
+
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts" / "knowledge"))
+import enrichment_impact as ei
+import region_pages as rp
+
+PAGE = {"id": "west_africa", "name": "West Africa", "continent": "Africa", "countries": ["Ghana"],
+        "coverage_score": 40.0, "representative_dishes": ["Jollof rice"], "dish_families": ["stew"],
+        "sources": [{"name": "Wikipedia"}], "human_reviewed": False,
+        "indigenous_traditions": [{"tradition": "x", "reviewed": False}]}
+
+
+def test_a_good_region_page_passes_and_bad_ones_are_named() -> None:
+    assert rp.validate(PAGE, {"Ghana"}) == []
+    assert "unknown country Ghana" in rp.validate(PAGE, set())
+    assert "coverage out of range" in rp.validate({**PAGE, "coverage_score": 120}, {"Ghana"})
+    assert "no sources" in rp.validate({**PAGE, "sources": []}, {"Ghana"})
+    tagged = {**PAGE, "indigenous_traditions": [{"tradition": "x", "reviewed": True}]}
+    assert "an Indigenous tag marked reviewed without a person" in rp.validate(tagged, {"Ghana"})
+
+
+def test_change_reads_as_points_and_percent() -> None:
+    assert ei.change(53, 90) == "+37 (+69.8%)"
+    assert ei.change(0, 3) == "+3"
+
+
+def test_the_dashboard_has_the_four_kpis_and_no_emoji() -> None:
+    nums = {k: 1.0 for keys in ei.SECTIONS.values() for k in keys} | {k: 2.0 for k in ei.RECOVERY}
+    block = "\n".join(ei.dashboard(nums, nums))
+    for part in ("### Coverage", "### Representation", "### Enrichment", "### Recovery"):
+        assert part in block
+    assert not re.search("[\U0001F000-\U0001FAFF\u2600-\u27BF]", block)
+
+
+def test_the_readme_dashboard_sits_between_its_markers() -> None:
+    text = (ROOT / "README.md").read_text(encoding="utf-8")
+    assert text.index(ei.START) < text.index("## Atlas progress") < text.index(ei.END)

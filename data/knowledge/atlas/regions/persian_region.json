@@ -1,0 +1,62 @@
+{
+ "id": "persian_region",
+ "name": "Persian Region",
+ "continent": "Middle East & North Africa",
+ "countries": [
+  "Iran"
+ ],
+ "countries_with_a_dish": [
+  "Iran"
+ ],
+ "coverage_score": 83.3,
+ "dish_count": 14,
+ "food_and_drink_count": 5,
+ "story_count": 5,
+ "representative_dishes": [
+  "Faloodeh",
+  "Kuku (food)",
+  "Kabab koobideh",
+  "Sabzi polo",
+  "Kabab torsh",
+  "Baghali ghatogh",
+  "Kashk bademjan",
+  "Kateh"
+ ],
+ "dish_families": [
+  "kebab",
+  "pastry",
+  "stew",
+  "egg dish",
+  "yogurt drink",
+  "sorbet",
+  "sauce",
+  "eggplant dish"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Anatolia",
+  "Arabian Peninsula",
+  "Caucasus",
+  "Levant",
+  "Mesopotamia",
+  "North Africa"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

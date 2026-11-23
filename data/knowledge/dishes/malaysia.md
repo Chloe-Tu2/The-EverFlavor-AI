@@ -1328,6 +1328,7 @@ Learn more:
 
 - quick: [Shark meat (Wikipedia)](https://en.wikipedia.org/wiki/Shark_meat)
 - more: [Malaysian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malaysian_cuisine)
+- more: [Seychellois cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Seychellois_cuisine)
 - deep: [Books about Shark meat (Open Library)](https://openlibrary.org/search?q=Shark%20meat)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q23905700)
 

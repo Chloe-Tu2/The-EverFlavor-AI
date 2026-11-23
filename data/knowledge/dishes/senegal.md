@@ -17,7 +17,7 @@ Learn more:
 
 - quick: [Chakery (Wikipedia)](https://en.wikipedia.org/wiki/Chakery)
 - more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
-- more: [Burkinabé cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Burkinab%C3%A9_cuisine)
+- more: [Cuisine of Senegal (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Senegal)
 - deep: [Books about Chakery (Open Library)](https://openlibrary.org/search?q=Chakery)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16935381)
 
@@ -40,7 +40,7 @@ Learn more:
 
 - quick: [Dibi (food) (Wikipedia)](https://en.wikipedia.org/wiki/Dibi_%28food%29)
 - more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
-- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
+- more: [Cuisine of Senegal (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Senegal)
 - deep: [Books about Dibi (food) (Open Library)](https://openlibrary.org/search?q=Dibi%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3026484)
 
@@ -56,6 +56,7 @@ Learn more:
 
 - quick: [Sombi (Wikipedia)](https://en.wikipedia.org/wiki/Sombi)
 - more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
+- more: [Cuisine of Senegal (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Senegal)
 - deep: [Books about Sombi (Open Library)](https://openlibrary.org/search?q=Sombi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q136486535)
 
@@ -75,6 +76,7 @@ Learn more:
 
 - quick: [Soupe kandia (Wikipedia)](https://en.wikipedia.org/wiki/Soupe_kandia)
 - more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
+- more: [Cuisine of Senegal (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Senegal)
 - deep: [Books about Soupe kandia (Open Library)](https://openlibrary.org/search?q=Soupe%20kandia)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25383130)
 
@@ -120,7 +122,7 @@ Learn more:
 
 - quick: [Thieboudienne (Wikipedia)](https://en.wikipedia.org/wiki/Thieboudienne)
 - more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
-- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
+- more: [Cuisine of Senegal (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Senegal)
 - deep: [Books about Thieboudienne (Open Library)](https://openlibrary.org/search?q=Thieboudienne)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1810575)
 
@@ -150,7 +152,7 @@ Learn more:
 
 - quick: [Thiere (Wikipedia)](https://en.wikipedia.org/wiki/Thiere)
 - more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
-- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
+- more: [Cuisine of Senegal (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Senegal)
 - deep: [Books about Thiere (Open Library)](https://openlibrary.org/search?q=Thiere)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q131124911)
 
@@ -173,7 +175,7 @@ Learn more:
 
 - quick: [Yassa (food) (Wikipedia)](https://en.wikipedia.org/wiki/Yassa_%28food%29)
 - more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
-- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
+- more: [Cuisine of Senegal (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Senegal)
 - deep: [Books about Yassa (food) (Open Library)](https://openlibrary.org/search?q=Yassa%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q742186)
 
@@ -195,6 +197,7 @@ Learn more:
 
 - quick: [Café Touba (Wikipedia)](https://en.wikipedia.org/wiki/Caf%C3%A9_Touba)
 - more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
+- more: [Cuisine of Senegal (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Senegal)
 - deep: [Books about Café Touba (Open Library)](https://openlibrary.org/search?q=Caf%C3%A9%20Touba)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2756864)
 
@@ -218,6 +221,7 @@ Learn more:
 
 - quick: [Caldou (Wikipedia)](https://en.wikipedia.org/wiki/Caldou)
 - more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
+- more: [Cuisine of Senegal (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Senegal)
 - deep: [Books about Caldou (Open Library)](https://openlibrary.org/search?q=Caldou)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q130601295)
 
@@ -245,7 +249,7 @@ Learn more:
 
 - quick: [Peanut stew (Wikipedia)](https://en.wikipedia.org/wiki/Peanut_stew)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [Senegalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Senegalese_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Peanut stew (Open Library)](https://openlibrary.org/search?q=Peanut%20stew)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q56320644)
 

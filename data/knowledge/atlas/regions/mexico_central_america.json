@@ -1,0 +1,76 @@
+{
+ "id": "mexico_central_america",
+ "name": "Mexico & Central America",
+ "continent": "Latin America",
+ "countries": [
+  "Belize",
+  "Costa Rica",
+  "El Salvador",
+  "Guatemala",
+  "Honduras",
+  "Mexico",
+  "Nicaragua",
+  "Panama"
+ ],
+ "countries_with_a_dish": [
+  "Belize",
+  "Costa Rica",
+  "El Salvador",
+  "Guatemala",
+  "Honduras",
+  "Mexico",
+  "Nicaragua"
+ ],
+ "coverage_score": 63.3,
+ "dish_count": 133,
+ "food_and_drink_count": 69,
+ "story_count": 89,
+ "representative_dishes": [
+  "Al pastor",
+  "Chocolate",
+  "King cake",
+  "Marzipan",
+  "Tlayuda",
+  "Pupusa",
+  "Buñuelo",
+  "Charlotte (cake)"
+ ],
+ "dish_families": [
+  "soup",
+  "chicken dish",
+  "confectionery",
+  "pork dish",
+  "sauce",
+  "egg dish",
+  "rice dish",
+  "beef dish"
+ ],
+ "indigenous_traditions": [
+  {
+   "tradition": "Native American",
+   "foods": 1,
+   "reviewed": false
+  }
+ ],
+ "related_regions": [
+  "South America"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

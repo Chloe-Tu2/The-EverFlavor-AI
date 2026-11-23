@@ -152,6 +152,7 @@ Learn more:
 
 - quick: [Wheat flour (Wikipedia)](https://en.wikipedia.org/wiki/Wheat_flour)
 - more: [Saudi Arabian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Saudi_Arabian_cuisine)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
 - deep: [Books about Wheat flour (Open Library)](https://openlibrary.org/search?q=Wheat%20flour)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2249305)
 

@@ -224,7 +224,7 @@ def recipe_text(ingredients: object, name: object) -> str:
 
     Returns:
         Lowercase "ingredient | ingredient | name", each part with its decoded copy
-        (reveal_hidden_words: "p0rk", "cerdo", 🐖), exactly as add_keyword_flags reads a recipe.
+        (reveal_hidden_words: "p0rk", "cerdo", a pig emoji), exactly as add_keyword_flags reads a recipe.
     """
     return _decoded(ingredient_text(ingredients)) + " | " + name_text(reveal_hidden_words(name) if isinstance(name, str) else name)
 
@@ -1150,7 +1150,7 @@ def _without_phrases(text: str, phrases: Sequence[str]) -> str:
 
 
 # ---------------------------------------------------------------- hidden and foreign words (red team, 2026-10-10)
-# An attacker can ask a model to write "p0rk", "p o r k", "pоrk" (Cyrillic о) or 🐖, or to answer in another
+# An attacker can ask a model to write "p0rk", "p o r k", "pоrk" (Cyrillic о) or a pig emoji, or to answer in another
 # language, so the safety gate and the answer guard also read a decoded copy of every text.
 # Common words for the foods people most often must avoid, in other languages (lowercase). Latin-script
 # words match as whole words; the others anywhere (Chinese and Japanese have no spaces between words).

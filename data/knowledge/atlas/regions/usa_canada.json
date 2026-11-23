@@ -1,0 +1,73 @@
+{
+ "id": "usa_canada",
+ "name": "United States & Canada",
+ "continent": "North America",
+ "countries": [
+  "Canada",
+  "United States"
+ ],
+ "countries_with_a_dish": [
+  "Canada",
+  "United States"
+ ],
+ "coverage_score": 84.1,
+ "dish_count": 456,
+ "food_and_drink_count": 227,
+ "story_count": 436,
+ "representative_dishes": [
+  "Beignet",
+  "Burrito",
+  "Coleslaw",
+  "Hotdish",
+  "Pancake",
+  "Sponge cake",
+  "Taco",
+  "Tortilla"
+ ],
+ "dish_families": [
+  "sandwich",
+  "chicken dish",
+  "beef dish",
+  "pie",
+  "salad",
+  "soup",
+  "pizza",
+  "pastry"
+ ],
+ "indigenous_traditions": [
+  {
+   "tradition": "Inuit",
+   "foods": 2,
+   "reviewed": false
+  },
+  {
+   "tradition": "Native American",
+   "foods": 4,
+   "reviewed": false
+  },
+  {
+   "tradition": "Native Hawaiian",
+   "foods": 3,
+   "reviewed": false
+  }
+ ],
+ "related_regions": [],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

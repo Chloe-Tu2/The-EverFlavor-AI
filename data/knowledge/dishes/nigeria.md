@@ -20,6 +20,7 @@ Learn more:
 
 - quick: [Abacha (food) (Wikipedia)](https://en.wikipedia.org/wiki/Abacha_%28food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Abacha (food) (Open Library)](https://openlibrary.org/search?q=Abacha%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107358883)
 
@@ -41,6 +42,7 @@ Learn more:
 
 - quick: [Abula (soup) (Wikipedia)](https://en.wikipedia.org/wiki/Abula_%28soup%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Abula (soup) (Open Library)](https://openlibrary.org/search?q=Abula%20%28soup%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q65091072)
 
@@ -62,6 +64,7 @@ Learn more:
 
 - quick: [Adalu (food) (Wikipedia)](https://en.wikipedia.org/wiki/Adalu_%28food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Adalu (food) (Open Library)](https://openlibrary.org/search?q=Adalu%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107416756)
 
@@ -85,7 +88,7 @@ Learn more:
 
 - quick: [Afang soup (Wikipedia)](https://en.wikipedia.org/wiki/Afang_soup)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Afang soup (Open Library)](https://openlibrary.org/search?q=Afang%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q30599785)
 
@@ -109,7 +112,7 @@ Learn more:
 
 - quick: [Akara (Wikipedia)](https://en.wikipedia.org/wiki/Akara)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Akara (Open Library)](https://openlibrary.org/search?q=Akara)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q392935)
 
@@ -133,6 +136,7 @@ Learn more:
 
 - quick: [Alkaki (Wikipedia)](https://en.wikipedia.org/wiki/Alkaki)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Alkaki (Open Library)](https://openlibrary.org/search?q=Alkaki)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107862812)
 
@@ -155,7 +159,7 @@ Learn more:
 
 - quick: [Amala (food) (Wikipedia)](https://en.wikipedia.org/wiki/Amala_%28food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Amala (food) (Open Library)](https://openlibrary.org/search?q=Amala%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4739207)
 
@@ -178,6 +182,7 @@ Learn more:
 
 - quick: [Asaro (food) (Wikipedia)](https://en.wikipedia.org/wiki/Asaro_%28food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Asaro (food) (Open Library)](https://openlibrary.org/search?q=Asaro%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q122999857)
 
@@ -199,6 +204,7 @@ Learn more:
 
 - quick: [Banga rice (Wikipedia)](https://en.wikipedia.org/wiki/Banga_rice)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Banga rice (Open Library)](https://openlibrary.org/search?q=Banga%20rice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107323701)
 
@@ -221,7 +227,7 @@ Learn more:
 
 - quick: [Chin chin (Wikipedia)](https://en.wikipedia.org/wiki/Chin_chin)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Chin chin (Open Library)](https://openlibrary.org/search?q=Chin%20chin)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5099514)
 
@@ -241,6 +247,7 @@ Learn more:
 
 - quick: [Dambu nama (Wikipedia)](https://en.wikipedia.org/wiki/Dambu_nama)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Dambu nama (Open Library)](https://openlibrary.org/search?q=Dambu%20nama)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q135431951)
 
@@ -262,7 +269,7 @@ Learn more:
 
 - quick: [Draw soup (Wikipedia)](https://en.wikipedia.org/wiki/Draw_soup)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Draw soup (Open Library)](https://openlibrary.org/search?q=Draw%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5305996)
 
@@ -285,7 +292,7 @@ Learn more:
 
 - quick: [Eba (Wikipedia)](https://en.wikipedia.org/wiki/Eba)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Eba (Open Library)](https://openlibrary.org/search?q=Eba)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5331480)
 
@@ -307,7 +314,7 @@ Learn more:
 
 - quick: [Edikang ikong (Wikipedia)](https://en.wikipedia.org/wiki/Edikang_ikong)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Edikang ikong (Open Library)](https://openlibrary.org/search?q=Edikang%20ikong)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28402897)
 
@@ -330,6 +337,7 @@ Learn more:
 
 - quick: [Edo black soup (Wikipedia)](https://en.wikipedia.org/wiki/Edo_black_soup)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Edo black soup (Open Library)](https://openlibrary.org/search?q=Edo%20black%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q113002820)
 
@@ -358,7 +366,7 @@ Learn more:
 
 - quick: [Efo riro (Wikipedia)](https://en.wikipedia.org/wiki/Efo_riro)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Efo riro (Open Library)](https://openlibrary.org/search?q=Efo%20riro)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25043246)
 
@@ -386,6 +394,7 @@ Learn more:
 
 - quick: [Egbo (food) (Wikipedia)](https://en.wikipedia.org/wiki/Egbo_%28food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Egbo (food) (Open Library)](https://openlibrary.org/search?q=Egbo%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q113038928)
 
@@ -407,6 +416,7 @@ Learn more:
 
 - quick: [Eka soup (Wikipedia)](https://en.wikipedia.org/wiki/Eka_soup)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Eka soup (Open Library)](https://openlibrary.org/search?q=Eka%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q112787717)
 
@@ -429,6 +439,7 @@ Learn more:
 
 - quick: [Ekuru (Wikipedia)](https://en.wikipedia.org/wiki/Ekuru)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ekuru (Open Library)](https://openlibrary.org/search?q=Ekuru)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10271107)
 
@@ -451,6 +462,7 @@ Learn more:
 
 - quick: [Ewa aganyin (Wikipedia)](https://en.wikipedia.org/wiki/Ewa_aganyin)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ewa aganyin (Open Library)](https://openlibrary.org/search?q=Ewa%20aganyin)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q47005642)
 
@@ -472,7 +484,7 @@ Learn more:
 
 - quick: [Funkaso (Wikipedia)](https://en.wikipedia.org/wiki/Funkaso)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Funkaso (Open Library)](https://openlibrary.org/search?q=Funkaso)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5509249)
 
@@ -494,6 +506,7 @@ Learn more:
 
 - quick: [Gizdodo (Wikipedia)](https://en.wikipedia.org/wiki/Gizdodo)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Gizdodo (Open Library)](https://openlibrary.org/search?q=Gizdodo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107357232)
 
@@ -514,6 +527,7 @@ Learn more:
 
 - quick: [Ila Alasepo (Wikipedia)](https://en.wikipedia.org/wiki/Ila_Alasepo)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ila Alasepo (Open Library)](https://openlibrary.org/search?q=Ila%20Alasepo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q126284886)
 
@@ -568,7 +582,7 @@ Learn more:
 
 - quick: [Jollof rice (Wikipedia)](https://en.wikipedia.org/wiki/Jollof_rice)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Jollof rice (Open Library)](https://openlibrary.org/search?q=Jollof%20rice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q816663)
 
@@ -592,7 +606,7 @@ Learn more:
 
 - quick: [Kilishi (Wikipedia)](https://en.wikipedia.org/wiki/Kilishi)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [Nigerien cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerien_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Kilishi (Open Library)](https://openlibrary.org/search?q=Kilishi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1275518)
 
@@ -616,7 +630,7 @@ Learn more:
 
 - quick: [Kuli-kuli (Wikipedia)](https://en.wikipedia.org/wiki/Kuli-kuli)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Kuli-kuli (Open Library)](https://openlibrary.org/search?q=Kuli-kuli)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6421494)
 
@@ -638,6 +652,7 @@ Learn more:
 
 - quick: [Marghi special (Wikipedia)](https://en.wikipedia.org/wiki/Marghi_special)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Marghi special (Open Library)](https://openlibrary.org/search?q=Marghi%20special)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q100320697)
 
@@ -653,6 +668,7 @@ Learn more:
 
 - quick: [Masa (Nigerian food) (Wikipedia)](https://en.wikipedia.org/wiki/Masa_%28Nigerian_food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Masa (Nigerian food) (Open Library)](https://openlibrary.org/search?q=Masa%20%28Nigerian%20food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q137921897)
 
@@ -675,6 +691,7 @@ Learn more:
 
 - quick: [Miyan taushe (Wikipedia)](https://en.wikipedia.org/wiki/Miyan_taushe)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Miyan taushe (Open Library)](https://openlibrary.org/search?q=Miyan%20taushe)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q112860630)
 
@@ -697,7 +714,7 @@ Learn more:
 
 - quick: [Moin moin (Wikipedia)](https://en.wikipedia.org/wiki/Moin_moin)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Moin moin (Open Library)](https://openlibrary.org/search?q=Moin%20moin)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6894609)
 
@@ -718,6 +735,7 @@ Learn more:
 
 - quick: [Obe ata (Wikipedia)](https://en.wikipedia.org/wiki/Obe_ata)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Obe ata (Open Library)](https://openlibrary.org/search?q=Obe%20ata)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q122963715)
 
@@ -746,6 +764,7 @@ Learn more:
 
 - quick: [Ofada rice (Wikipedia)](https://en.wikipedia.org/wiki/Ofada_rice)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ofada rice (Open Library)](https://openlibrary.org/search?q=Ofada%20rice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q26884006)
 
@@ -769,6 +788,7 @@ Learn more:
 
 - quick: [Ofe akwụ (Wikipedia)](https://en.wikipedia.org/wiki/Ofe_akw%E1%BB%A5)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ofe akwụ (Open Library)](https://openlibrary.org/search?q=Ofe%20akw%E1%BB%A5)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q138854971)
 
@@ -791,6 +811,7 @@ Learn more:
 
 - quick: [Ofe Owerri (Wikipedia)](https://en.wikipedia.org/wiki/Ofe_Owerri)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ofe Owerri (Open Library)](https://openlibrary.org/search?q=Ofe%20Owerri)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107358874)
 
@@ -812,6 +833,7 @@ Learn more:
 
 - quick: [Ofe Ujuju (Wikipedia)](https://en.wikipedia.org/wiki/Ofe_Ujuju)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ofe Ujuju (Open Library)](https://openlibrary.org/search?q=Ofe%20Ujuju)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q113070410)
 
@@ -856,6 +878,7 @@ Learn more:
 
 - quick: [Ogi (food) (Wikipedia)](https://en.wikipedia.org/wiki/Ogi_%28food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ogi (food) (Open Library)](https://openlibrary.org/search?q=Ogi%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7080021)
 
@@ -877,6 +900,7 @@ Learn more:
 
 - quick: [Ojojo (Wikipedia)](https://en.wikipedia.org/wiki/Ojojo)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ojojo (Open Library)](https://openlibrary.org/search?q=Ojojo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q136486705)
 
@@ -899,7 +923,7 @@ Learn more:
 
 - quick: [Okpa (Wikipedia)](https://en.wikipedia.org/wiki/Okpa)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Okpa (Open Library)](https://openlibrary.org/search?q=Okpa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q112610072)
 
@@ -922,6 +946,7 @@ Learn more:
 
 - quick: [Otong soup (Wikipedia)](https://en.wikipedia.org/wiki/Otong_soup)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Otong soup (Open Library)](https://openlibrary.org/search?q=Otong%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q113070503)
 
@@ -943,6 +968,7 @@ Learn more:
 
 - quick: [Palm nut soup (Wikipedia)](https://en.wikipedia.org/wiki/Palm_nut_soup)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Palm nut soup (Open Library)](https://openlibrary.org/search?q=Palm%20nut%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17005230)
 
@@ -964,6 +990,7 @@ Learn more:
 
 - quick: [Pate acha (Wikipedia)](https://en.wikipedia.org/wiki/Pate_acha)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Pate acha (Open Library)](https://openlibrary.org/search?q=Pate%20acha)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q23907623)
 
@@ -984,6 +1011,7 @@ Learn more:
 
 - quick: [Peanut soup (Wikipedia)](https://en.wikipedia.org/wiki/Peanut_soup)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Peanut soup (Open Library)](https://openlibrary.org/search?q=Peanut%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1907985)
 
@@ -1005,6 +1033,7 @@ Learn more:
 
 - quick: [Sinasir (Wikipedia)](https://en.wikipedia.org/wiki/Sinasir)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Sinasir (Open Library)](https://openlibrary.org/search?q=Sinasir)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107358612)
 
@@ -1025,6 +1054,7 @@ Learn more:
 
 - quick: [Snail pepper soup (Wikipedia)](https://en.wikipedia.org/wiki/Snail_pepper_soup)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Snail pepper soup (Open Library)](https://openlibrary.org/search?q=Snail%20pepper%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q113114616)
 
@@ -1058,7 +1088,7 @@ Learn more:
 
 - quick: [Suya (Wikipedia)](https://en.wikipedia.org/wiki/Suya)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Suya (Open Library)](https://openlibrary.org/search?q=Suya)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7650627)
 
@@ -1080,6 +1110,7 @@ Learn more:
 
 - quick: [Tuwon masara (Wikipedia)](https://en.wikipedia.org/wiki/Tuwon_masara)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Tuwon masara (Open Library)](https://openlibrary.org/search?q=Tuwon%20masara)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25041417)
 
@@ -1101,6 +1132,7 @@ Learn more:
 
 - quick: [Tuwon shinkafa (Wikipedia)](https://en.wikipedia.org/wiki/Tuwon_shinkafa)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Tuwon shinkafa (Open Library)](https://openlibrary.org/search?q=Tuwon%20shinkafa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q83603766)
 
@@ -1117,6 +1149,7 @@ Learn more:
 
 - quick: [Yam pepper soup (Wikipedia)](https://en.wikipedia.org/wiki/Yam_pepper_soup)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Yam pepper soup (Open Library)](https://openlibrary.org/search?q=Yam%20pepper%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q113070599)
 
@@ -1138,6 +1171,7 @@ Learn more:
 
 - quick: [Aadun (Wikipedia)](https://en.wikipedia.org/wiki/Aadun)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Aadun (Open Library)](https://openlibrary.org/search?q=Aadun)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q113039011)
 
@@ -1160,6 +1194,7 @@ Learn more:
 
 - quick: [Asun (Wikipedia)](https://en.wikipedia.org/wiki/Asun)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Asun (Open Library)](https://openlibrary.org/search?q=Asun)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q123058225)
 
@@ -1181,6 +1216,7 @@ Learn more:
 
 - quick: [Ebiripo (Wikipedia)](https://en.wikipedia.org/wiki/Ebiripo)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Ebiripo (Open Library)](https://openlibrary.org/search?q=Ebiripo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q113038963)
 
@@ -1222,7 +1258,7 @@ Learn more:
 
 - quick: [Egusi (Wikipedia)](https://en.wikipedia.org/wiki/Egusi)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [Togolese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Togolese_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Egusi (Open Library)](https://openlibrary.org/search?q=Egusi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10771593)
 
@@ -1246,6 +1282,7 @@ Learn more:
 
 - quick: [Fura (food) (Wikipedia)](https://en.wikipedia.org/wiki/Fura_%28food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Fura (food) (Open Library)](https://openlibrary.org/search?q=Fura%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25203618)
 
@@ -1267,7 +1304,7 @@ Learn more:
 
 - quick: [Garri (Wikipedia)](https://en.wikipedia.org/wiki/Garri)
 - more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
-- more: [Beninese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Beninese_cuisine)
+- more: [Cuisine of Ghana (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Ghana)
 - deep: [Books about Garri (Open Library)](https://openlibrary.org/search?q=Garri)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1494252)
 
@@ -1290,6 +1327,7 @@ Learn more:
 
 - quick: [Kokoro (snack food) (Wikipedia)](https://en.wikipedia.org/wiki/Kokoro_%28snack_food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Kokoro (snack food) (Open Library)](https://openlibrary.org/search?q=Kokoro%20%28snack%20food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6426801)
 
@@ -1312,6 +1350,7 @@ Learn more:
 
 - quick: [Kunu (Wikipedia)](https://en.wikipedia.org/wiki/Kunu)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Kunu (Open Library)](https://openlibrary.org/search?q=Kunu)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6445113)
 
@@ -1328,6 +1367,7 @@ Learn more:
 
 - quick: [Nkwobi (Wikipedia)](https://en.wikipedia.org/wiki/Nkwobi)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Nkwobi (Open Library)](https://openlibrary.org/search?q=Nkwobi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q112648592)
 
@@ -1357,7 +1397,7 @@ Learn more:
 
 - quick: [Palm oil (Wikipedia)](https://en.wikipedia.org/wiki/Palm_oil)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [Cuisine of São Tomé and Príncipe (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Palm oil (Open Library)](https://openlibrary.org/search?q=Palm%20oil)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q231458)
 
@@ -1406,6 +1446,7 @@ Learn more:
 
 - quick: [Pounded yam (Wikipedia)](https://en.wikipedia.org/wiki/Pounded_yam)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Pounded yam (Open Library)](https://openlibrary.org/search?q=Pounded%20yam)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q97483764)
 
@@ -1428,7 +1469,7 @@ Learn more:
 
 - quick: [Puff-puff (Wikipedia)](https://en.wikipedia.org/wiki/Puff-puff)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
-- more: [Gambian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gambian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Puff-puff (Open Library)](https://openlibrary.org/search?q=Puff-puff)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7258860)
 
@@ -1450,6 +1491,7 @@ Learn more:
 
 - quick: [Swallow (food) (Wikipedia)](https://en.wikipedia.org/wiki/Swallow_%28food%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Swallow (food) (Open Library)](https://openlibrary.org/search?q=Swallow%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q108395838)
 
@@ -1465,6 +1507,7 @@ Learn more:
 
 - quick: [Zobo (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Zobo_%28drink%29)
 - more: [Nigerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerian_cuisine)
+- more: [Cuisine of Nigeria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nigeria)
 - deep: [Books about Zobo (drink) (Open Library)](https://openlibrary.org/search?q=Zobo%20%28drink%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107357156)
 

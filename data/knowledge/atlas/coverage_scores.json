@@ -22,37 +22,37 @@
   {
    "continent": "Africa",
    "countries": 60,
-   "with_dishes": 29,
-   "breadth": 0.483,
-   "median_dishes": 2,
+   "with_dishes": 34,
+   "breadth": 0.567,
+   "median_dishes": 2.0,
    "depth": 0.1,
-   "score": 29.2,
+   "score": 33.3,
    "band": "thin",
-   "dishes": 184,
+   "dishes": 205,
    "recipes": 2600
   },
   {
    "continent": "Americas",
    "countries": 57,
-   "with_dishes": 19,
-   "breadth": 0.333,
-   "median_dishes": 10,
-   "depth": 0.5,
-   "score": 41.7,
+   "with_dishes": 22,
+   "breadth": 0.386,
+   "median_dishes": 8.5,
+   "depth": 0.425,
+   "score": 40.5,
    "band": "thin",
-   "dishes": 794,
+   "dishes": 806,
    "recipes": 148888
   },
   {
    "continent": "Asia",
    "countries": 51,
-   "with_dishes": 19,
-   "breadth": 0.373,
-   "median_dishes": 38,
+   "with_dishes": 22,
+   "breadth": 0.431,
+   "median_dishes": 24.5,
    "depth": 1.0,
-   "score": 68.6,
+   "score": 71.6,
    "band": "fair",
-   "dishes": 1138,
+   "dishes": 1148,
    "recipes": 21394
   },
   {
@@ -70,31 +70,31 @@
   {
    "continent": "Oceania",
    "countries": 29,
-   "with_dishes": 3,
-   "breadth": 0.103,
-   "median_dishes": 1,
-   "depth": 0.05,
-   "score": 7.7,
+   "with_dishes": 5,
+   "breadth": 0.172,
+   "median_dishes": 2,
+   "depth": 0.1,
+   "score": 13.6,
    "band": "gap",
-   "dishes": 61,
+   "dishes": 69,
    "recipes": 3142
   }
  ],
  "subregions": [
   {
    "countries": 22,
-   "with_dishes": 10,
-   "breadth": 0.455,
-   "median_dishes": 1.5,
-   "depth": 0.075,
-   "score": 26.5,
+   "with_dishes": 13,
+   "breadth": 0.591,
+   "median_dishes": 2,
+   "depth": 0.1,
+   "score": 34.5,
    "band": "thin",
-   "dishes": 25,
+   "dishes": 34,
    "recipes": 91,
    "subregion": "Eastern Africa",
    "continent": "Africa",
    "backlog": {
-    "ready": 9
+    "ready": 5
    },
    "countries_without_dishes": [
     "British Indian Ocean Territory",
@@ -103,29 +103,25 @@
     "Djibouti",
     "Eritrea",
     "French Southern and Antarctic Lands",
-    "Kenya",
-    "Madagascar",
     "Mayotte",
     "Réunion",
-    "Zambia",
     "Zimbabwe"
    ]
   },
   {
    "countries": 9,
-   "with_dishes": 4,
-   "breadth": 0.444,
-   "median_dishes": 2.5,
-   "depth": 0.125,
-   "score": 28.5,
+   "with_dishes": 5,
+   "breadth": 0.556,
+   "median_dishes": 2,
+   "depth": 0.1,
+   "score": 32.8,
    "band": "thin",
-   "dishes": 13,
+   "dishes": 15,
    "recipes": 17,
    "subregion": "Middle Africa",
    "continent": "Africa",
    "backlog": {},
    "countries_without_dishes": [
-    "Central African Republic",
     "Congo",
     "Equatorial Guinea",
     "Gabon",
@@ -134,21 +130,20 @@
   },
   {
    "countries": 7,
-   "with_dishes": 5,
-   "breadth": 0.714,
-   "median_dishes": 6,
-   "depth": 0.3,
-   "score": 50.7,
+   "with_dishes": 6,
+   "breadth": 0.857,
+   "median_dishes": 8.5,
+   "depth": 0.425,
+   "score": 64.1,
    "band": "fair",
-   "dishes": 50,
+   "dishes": 55,
    "recipes": 1844,
    "subregion": "Northern Africa",
    "continent": "Africa",
    "backlog": {
-    "ready": 9
+    "ready": 8
    },
    "countries_without_dishes": [
-    "Sudan",
     "Western Sahara"
    ]
   },
@@ -156,11 +151,11 @@
    "countries": 5,
    "with_dishes": 2,
    "breadth": 0.4,
-   "median_dishes": 14.5,
-   "depth": 0.725,
-   "score": 56.2,
+   "median_dishes": 16.0,
+   "depth": 0.8,
+   "score": 60.0,
    "band": "fair",
-   "dishes": 29,
+   "dishes": 32,
    "recipes": 616,
    "subregion": "Southern Africa",
    "continent": "Africa",
@@ -181,7 +176,7 @@
    "depth": 0.05,
    "score": 26.0,
    "band": "thin",
-   "dishes": 67,
+   "dishes": 69,
    "recipes": 32,
    "subregion": "Western Africa",
    "continent": "Africa",
@@ -202,20 +197,20 @@
   },
   {
    "countries": 28,
-   "with_dishes": 7,
-   "breadth": 0.25,
-   "median_dishes": 3,
-   "depth": 0.15,
-   "score": 20.0,
-   "band": "gap",
-   "dishes": 86,
+   "with_dishes": 8,
+   "breadth": 0.286,
+   "median_dishes": 4.5,
+   "depth": 0.225,
+   "score": 25.5,
+   "band": "thin",
+   "dishes": 94,
    "recipes": 907,
    "subregion": "Caribbean",
    "continent": "Americas",
    "backlog": {
-    "needs_review": 2,
     "blocked": 1,
-    "ready": 6
+    "ready": 3,
+    "needs_review": 2
    },
    "countries_without_dishes": [
     "Anguilla",
@@ -236,31 +231,28 @@
     "Saint Vincent and the Grenadines",
     "Saint-Martin",
     "Sint Maarten",
-    "The Bahamas",
     "Turks and Caicos Islands",
     "United States Virgin Islands"
    ]
   },
   {
    "countries": 8,
-   "with_dishes": 5,
-   "breadth": 0.625,
-   "median_dishes": 8,
-   "depth": 0.4,
+   "with_dishes": 7,
+   "breadth": 0.875,
+   "median_dishes": 3,
+   "depth": 0.15,
    "score": 51.2,
    "band": "fair",
-   "dishes": 131,
+   "dishes": 133,
    "recipes": 11567,
    "subregion": "Central America",
    "continent": "Americas",
    "backlog": {
-    "ready": 16,
+    "ready": 14,
     "blocked": 1,
     "needs_review": 2
    },
    "countries_without_dishes": [
-    "Costa Rica",
-    "Honduras",
     "Panama"
    ]
   },
@@ -268,11 +260,11 @@
    "countries": 5,
    "with_dishes": 2,
    "breadth": 0.4,
-   "median_dishes": 227.0,
+   "median_dishes": 228.0,
    "depth": 1.0,
    "score": 70.0,
    "band": "fair",
-   "dishes": 454,
+   "dishes": 456,
    "recipes": 135672,
    "subregion": "Northern America",
    "continent": "Americas",
@@ -320,24 +312,20 @@
   },
   {
    "countries": 5,
-   "with_dishes": 2,
-   "breadth": 0.4,
-   "median_dishes": 3.5,
-   "depth": 0.175,
-   "score": 28.8,
-   "band": "thin",
-   "dishes": 7,
+   "with_dishes": 5,
+   "breadth": 1.0,
+   "median_dishes": 2,
+   "depth": 0.1,
+   "score": 55.0,
+   "band": "fair",
+   "dishes": 16,
    "recipes": 0,
    "subregion": "Central Asia",
    "continent": "Asia",
    "backlog": {
-    "ready": 4
+    "ready": 2
    },
-   "countries_without_dishes": [
-    "Kyrgyzstan",
-    "Tajikistan",
-    "Turkmenistan"
-   ]
+   "countries_without_dishes": []
   },
   {
    "countries": 8,
@@ -377,7 +365,7 @@
    "subregion": "Southeast Asia",
    "continent": "Asia",
    "backlog": {
-    "ready": 78,
+    "ready": 79,
     "needs_review": 13,
     "blocked": 2
    },
@@ -393,16 +381,16 @@
    "countries": 9,
    "with_dishes": 3,
    "breadth": 0.333,
-   "median_dishes": 13,
-   "depth": 0.65,
-   "score": 49.2,
-   "band": "thin",
-   "dishes": 123,
+   "median_dishes": 14,
+   "depth": 0.7,
+   "score": 51.7,
+   "band": "fair",
+   "dishes": 124,
    "recipes": 7869,
    "subregion": "Southern Asia",
    "continent": "Asia",
    "backlog": {
-    "ready": 105,
+    "ready": 107,
     "needs_review": 13,
     "blocked": 2
    },
@@ -565,17 +553,17 @@
    "countries": 6,
    "with_dishes": 2,
    "breadth": 0.333,
-   "median_dishes": 30.0,
+   "median_dishes": 31.0,
    "depth": 1.0,
    "score": 66.7,
    "band": "fair",
-   "dishes": 60,
+   "dishes": 62,
    "recipes": 3142,
    "subregion": "Australasia",
    "continent": "Oceania",
    "backlog": {
-    "ready": 6,
-    "blocked": 3
+    "blocked": 3,
+    "ready": 5
    },
    "countries_without_dishes": [
     "Christmas Island",
@@ -586,20 +574,19 @@
   },
   {
    "countries": 5,
-   "with_dishes": 0,
-   "breadth": 0.0,
-   "median_dishes": 0,
-   "depth": 0.0,
-   "score": 0.0,
+   "with_dishes": 1,
+   "breadth": 0.2,
+   "median_dishes": 1,
+   "depth": 0.05,
+   "score": 12.5,
    "band": "gap",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 0,
    "subregion": "Melanesia",
    "continent": "Oceania",
    "backlog": {},
    "countries_without_dishes": [
     "Fiji",
-    "New Caledonia",
     "Papua New Guinea",
     "Solomon Islands",
     "Vanuatu"
@@ -607,22 +594,21 @@
   },
   {
    "countries": 8,
-   "with_dishes": 0,
-   "breadth": 0.0,
-   "median_dishes": 0,
-   "depth": 0.0,
-   "score": 0.0,
+   "with_dishes": 1,
+   "breadth": 0.125,
+   "median_dishes": 4,
+   "depth": 0.2,
+   "score": 16.2,
    "band": "gap",
-   "dishes": 0,
+   "dishes": 4,
    "recipes": 0,
    "subregion": "Micronesian Region",
    "continent": "Oceania",
    "backlog": {
-    "needs_review": 4
+    "ready": 1
    },
    "countries_without_dishes": [
     "Federated States of Micronesia",
-    "Guam",
     "Kiribati",
     "Marshall Islands",
     "Nauru",
@@ -635,11 +621,11 @@
    "countries": 10,
    "with_dishes": 1,
    "breadth": 0.1,
-   "median_dishes": 1,
-   "depth": 0.05,
-   "score": 7.5,
+   "median_dishes": 2,
+   "depth": 0.1,
+   "score": 10.0,
    "band": "gap",
-   "dishes": 1,
+   "dishes": 2,
    "recipes": 0,
    "subregion": "Polynesia",
    "continent": "Oceania",
@@ -685,10 +671,10 @@
    "iso": "DZ",
    "continent": "Africa",
    "subregion": "Northern Africa",
-   "dishes": 6,
+   "dishes": 11,
    "recipes": 11,
    "families": 2,
-   "variants": 2,
+   "variants": 3,
    "coverage": "low"
   },
   {
@@ -784,10 +770,10 @@
    "iso": "AU",
    "continent": "Oceania",
    "subregion": "Australasia",
-   "dishes": 59,
+   "dishes": 60,
    "recipes": 2758,
    "families": 30,
-   "variants": 47,
+   "variants": 48,
    "coverage": "high"
   },
   {
@@ -839,10 +825,10 @@
    "iso": "BB",
    "continent": "Americas",
    "subregion": "Caribbean",
-   "dishes": 2,
+   "dishes": 1,
    "recipes": 6,
-   "families": 1,
-   "variants": 1,
+   "families": 0,
+   "variants": 0,
    "coverage": "low"
   },
   {
@@ -938,7 +924,7 @@
    "iso": "BW",
    "continent": "Africa",
    "subregion": "Southern Africa",
-   "dishes": 1,
+   "dishes": 4,
    "recipes": 6,
    "families": 0,
    "variants": 0,
@@ -1059,10 +1045,10 @@
    "iso": "CA",
    "continent": "Americas",
    "subregion": "Northern America",
-   "dishes": 88,
+   "dishes": 89,
    "recipes": 4577,
-   "families": 47,
-   "variants": 70,
+   "families": 48,
+   "variants": 71,
    "coverage": "high"
   },
   {
@@ -1103,11 +1089,11 @@
    "iso": "CF",
    "continent": "Africa",
    "subregion": "Middle Africa",
-   "dishes": 0,
+   "dishes": 2,
    "recipes": 0,
    "families": 0,
    "variants": 0,
-   "coverage": "absent"
+   "coverage": "low"
   },
   {
    "country": "Chad",
@@ -1213,11 +1199,11 @@
    "iso": "CR",
    "continent": "Americas",
    "subregion": "Central America",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 43,
    "families": 0,
    "variants": 0,
-   "coverage": "recipes only"
+   "coverage": "low"
   },
   {
    "country": "Croatia",
@@ -1356,10 +1342,10 @@
    "iso": "SV",
    "continent": "Americas",
    "subregion": "Central America",
-   "dishes": 1,
+   "dishes": 3,
    "recipes": 0,
-   "families": 1,
-   "variants": 1,
+   "families": 2,
+   "variants": 2,
    "coverage": "low"
   },
   {
@@ -1554,7 +1540,7 @@
    "iso": "GH",
    "continent": "Africa",
    "subregion": "Western Africa",
-   "dishes": 4,
+   "dishes": 6,
    "recipes": 0,
    "families": 3,
    "variants": 3,
@@ -1620,18 +1606,18 @@
    "iso": "GU",
    "continent": "Oceania",
    "subregion": "Micronesian Region",
-   "dishes": 0,
+   "dishes": 4,
    "recipes": 0,
-   "families": 0,
-   "variants": 0,
-   "coverage": "absent"
+   "families": 2,
+   "variants": 3,
+   "coverage": "low"
   },
   {
    "country": "Guatemala",
    "iso": "GT",
    "continent": "Americas",
    "subregion": "Central America",
-   "dishes": 8,
+   "dishes": 7,
    "recipes": 24,
    "families": 3,
    "variants": 4,
@@ -1686,7 +1672,7 @@
    "iso": "HT",
    "continent": "Americas",
    "subregion": "Caribbean",
-   "dishes": 5,
+   "dishes": 6,
    "recipes": 0,
    "families": 2,
    "variants": 3,
@@ -1708,11 +1694,11 @@
    "iso": "HN",
    "continent": "Americas",
    "subregion": "Central America",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 10,
    "families": 0,
    "variants": 0,
-   "coverage": "recipes only"
+   "coverage": "low"
   },
   {
    "country": "Hong Kong",
@@ -1774,10 +1760,10 @@
    "iso": "IR",
    "continent": "Asia",
    "subregion": "Southern Asia",
-   "dishes": 13,
+   "dishes": 14,
    "recipes": 432,
    "families": 7,
-   "variants": 8,
+   "variants": 9,
    "coverage": "low"
   },
   {
@@ -1895,10 +1881,10 @@
    "iso": "KZ",
    "continent": "Asia",
    "subregion": "Central Asia",
-   "dishes": 1,
+   "dishes": 6,
    "recipes": 0,
-   "families": 0,
-   "variants": 0,
+   "families": 5,
+   "variants": 5,
    "coverage": "low"
   },
   {
@@ -1906,11 +1892,11 @@
    "iso": "KE",
    "continent": "Africa",
    "subregion": "Eastern Africa",
-   "dishes": 0,
+   "dishes": 2,
    "recipes": 4,
    "families": 0,
    "variants": 0,
-   "coverage": "recipes only"
+   "coverage": "low"
   },
   {
    "country": "Kiribati",
@@ -1950,11 +1936,11 @@
    "iso": "KG",
    "continent": "Asia",
    "subregion": "Central Asia",
-   "dishes": 0,
+   "dishes": 2,
    "recipes": 0,
-   "families": 0,
-   "variants": 0,
-   "coverage": "absent"
+   "families": 1,
+   "variants": 1,
+   "coverage": "low"
   },
   {
    "country": "Laos",
@@ -2016,10 +2002,10 @@
    "iso": "LY",
    "continent": "Africa",
    "subregion": "Northern Africa",
-   "dishes": 3,
+   "dishes": 2,
    "recipes": 17,
-   "families": 2,
-   "variants": 2,
+   "families": 1,
+   "variants": 1,
    "coverage": "low"
   },
   {
@@ -2071,11 +2057,11 @@
    "iso": "MG",
    "continent": "Africa",
    "subregion": "Eastern Africa",
-   "dishes": 0,
+   "dishes": 4,
    "recipes": 0,
-   "families": 0,
-   "variants": 0,
-   "coverage": "absent"
+   "families": 2,
+   "variants": 2,
+   "coverage": "low"
   },
   {
    "country": "Malawi",
@@ -2170,10 +2156,10 @@
    "iso": "MU",
    "continent": "Africa",
    "subregion": "Eastern Africa",
-   "dishes": 1,
+   "dishes": 2,
    "recipes": 0,
-   "families": 0,
-   "variants": 0,
+   "families": 2,
+   "variants": 2,
    "coverage": "low"
   },
   {
@@ -2192,10 +2178,10 @@
    "iso": "MX",
    "continent": "Americas",
    "subregion": "Central America",
-   "dishes": 113,
+   "dishes": 112,
    "recipes": 11490,
-   "families": 39,
-   "variants": 70,
+   "families": 38,
+   "variants": 68,
    "coverage": "high"
   },
   {
@@ -2335,18 +2321,18 @@
    "iso": "NC",
    "continent": "Oceania",
    "subregion": "Melanesia",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 0,
    "families": 0,
    "variants": 0,
-   "coverage": "absent"
+   "coverage": "low"
   },
   {
    "country": "New Zealand",
    "iso": "NZ",
    "continent": "Oceania",
    "subregion": "Australasia",
-   "dishes": 1,
+   "dishes": 2,
    "recipes": 384,
    "families": 1,
    "variants": 1,
@@ -2874,7 +2860,7 @@
    "iso": "SO",
    "continent": "Africa",
    "subregion": "Eastern Africa",
-   "dishes": 2,
+   "dishes": 3,
    "recipes": 9,
    "families": 2,
    "variants": 2,
@@ -2951,11 +2937,11 @@
    "iso": "SD",
    "continent": "Africa",
    "subregion": "Northern Africa",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 12,
-   "families": 0,
-   "variants": 0,
-   "coverage": "recipes only"
+   "families": 1,
+   "variants": 1,
+   "coverage": "low"
   },
   {
    "country": "Suriname",
@@ -3039,11 +3025,11 @@
    "iso": "TJ",
    "continent": "Asia",
    "subregion": "Central Asia",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 0,
    "families": 0,
    "variants": 0,
-   "coverage": "absent"
+   "coverage": "low"
   },
   {
    "country": "Tanzania",
@@ -3072,11 +3058,11 @@
    "iso": "BS",
    "continent": "Americas",
    "subregion": "Caribbean",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 0,
    "families": 0,
    "variants": 0,
-   "coverage": "absent"
+   "coverage": "low"
   },
   {
    "country": "The Gambia",
@@ -3127,7 +3113,7 @@
    "iso": "TO",
    "continent": "Oceania",
    "subregion": "Polynesia",
-   "dishes": 1,
+   "dishes": 2,
    "recipes": 0,
    "families": 0,
    "variants": 0,
@@ -3138,10 +3124,10 @@
    "iso": "TT",
    "continent": "Americas",
    "subregion": "Caribbean",
-   "dishes": 2,
+   "dishes": 9,
    "recipes": 0,
-   "families": 2,
-   "variants": 3,
+   "families": 4,
+   "variants": 7,
    "coverage": "low"
   },
   {
@@ -3162,8 +3148,8 @@
    "subregion": "Western Asia",
    "dishes": 57,
    "recipes": 458,
-   "families": 19,
-   "variants": 40,
+   "families": 20,
+   "variants": 41,
    "coverage": "high"
   },
   {
@@ -3171,11 +3157,11 @@
    "iso": "TM",
    "continent": "Asia",
    "subregion": "Central Asia",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 0,
    "families": 0,
    "variants": 0,
-   "coverage": "absent"
+   "coverage": "low"
   },
   {
    "country": "Turks and Caicos Islands",
@@ -3248,10 +3234,10 @@
    "iso": "US",
    "continent": "Americas",
    "subregion": "Northern America",
-   "dishes": 366,
+   "dishes": 367,
    "recipes": 131095,
-   "families": 103,
-   "variants": 266,
+   "families": 105,
+   "variants": 268,
    "coverage": "high"
   },
   {
@@ -3380,11 +3366,11 @@
    "iso": "ZM",
    "continent": "Africa",
    "subregion": "Eastern Africa",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 0,
    "families": 0,
    "variants": 0,
-   "coverage": "absent"
+   "coverage": "low"
   },
   {
    "country": "Zimbabwe",

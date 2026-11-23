@@ -4,26 +4,26 @@ Coverage (how many of a country's known dishes we have, from the coverage audit)
 
 | Country | Coverage | Dishes | Recipes | Missing | Average score | Thin |
 |---|---:|---:|---:|---:|---:|---:|
-| United States | high | 366 | 131,095 | 146 | 59.6 | 17% |
+| United States | high | 367 | 131,095 | 146 | 59.7 | 17% |
 | Italy | high | 327 | 24,910 | 82 | 41.4 | 51% |
 | Indonesia | high | 248 | 218 | 24 | 36.3 | 52% |
 | China | high | 179 | 5,878 | 99 | 50.3 | 28% |
-| Mexico | high | 113 | 11,490 | 16 | 47.3 | 36% |
+| Mexico | high | 112 | 11,490 | 15 | 46.9 | 37% |
 | Japan | medium | 108 | 2,232 | 139 | 49.2 | 31% |
 | India | high | 103 | 7,312 | 64 | 46.4 | 39% |
-| Canada | high | 88 | 4,577 | 20 | 55.1 | 25% |
+| Canada | high | 89 | 4,577 | 20 | 55.2 | 25% |
 | Germany | high | 88 | 1,476 | 40 | 40.1 | 50% |
 | Greece | high | 88 | 4,334 | 8 | 43.7 | 48% |
 | France | low | 87 | 8,520 | 180 | 48.8 | 32% |
-| Philippines | high | 87 | 255 | 29 | 37.8 | 53% |
+| Philippines | high | 87 | 255 | 30 | 37.8 | 53% |
 | South Korea | high | 79 | 605 | 9 | 39.8 | 51% |
 | Thailand | high | 77 | 2,428 | 7 | 41.0 | 47% |
 | Portugal | high | 72 | 434 | 5 | 29.7 | 81% |
 | Vietnam | high | 72 | 500 | 6 | 35.7 | 56% |
-| United Kingdom | low | 69 | 4,553 | 172 | 60.3 | 20% |
+| United Kingdom | low | 69 | 4,553 | 172 | 60.1 | 20% |
 | Poland | high | 66 | 418 | 11 | 42.5 | 48% |
-| Australia | high | 59 | 2,758 | 5 | 50.0 | 32% |
-| Turkey | high | 57 | 458 | 33 | 36.8 | 58% |
+| Australia | high | 60 | 2,758 | 4 | 50.1 | 32% |
+| Turkey | high | 57 | 458 | 34 | 37.2 | 56% |
 | Brazil | high | 51 | 311 | 6 | 32.6 | 65% |
 | Norway | high | 51 | 200 | 3 | 38.8 | 53% |
 | Jamaica | high | 50 | 402 | 1 | 49.0 | 30% |
@@ -48,23 +48,23 @@ Coverage (how many of a country's known dishes we have, from the coverage audit)
 | Peru | medium | 18 | 98 | 11 | 42.2 | 44% |
 | Colombia | medium | 16 | 70 | 3 | 35.0 | 56% |
 | Egypt | medium | 15 | 205 | 3 | 32.1 | 47% |
-| Iran | low | 13 | 432 | 26 | 26.2 | 85% |
-| Iraq | low | 11 | 66 | 3 | 34.5 | 55% |
+| Iran | low | 14 | 432 | 28 | 27.5 | 79% |
+| Algeria | low | 11 | 11 | 3 | 17.3 | 91% |
+| Iraq | low | 11 | 66 | 2 | 34.5 | 55% |
 | Argentina | low | 10 | 108 | 10 | 37.5 | 60% |
 | Czech Republic | low | 10 | 94 | 4 | 48.2 | 30% |
 | Ethiopia | low | 10 | 78 | 0 | 28.7 | 90% |
-| Guatemala | low | 8 | 24 | 0 | 30.0 | 62% |
+| Trinidad and Tobago | low | 9 | 0 | 0 | 41.1 | 56% |
 | Nicaragua | low | 8 | 0 | 0 | 23.8 | 88% |
 | Senegal | low | 8 | 0 | 0 | 25.6 | 88% |
 | Cameroon | low | 7 | 0 | 0 | 17.9 | 100% |
+| Guatemala | low | 7 | 24 | 0 | 31.4 | 57% |
 | Pakistan | low | 7 | 82 | 5 | 44.3 | 43% |
-| Algeria | low | 6 | 11 | 4 | 22.5 | 83% |
-| Tunisia | low | 6 | 7 | 1 | 31.7 | 83% |
-| Uzbekistan | low | 6 | 0 | 0 | 28.3 | 67% |
-| Austria | low | 5 | 101 | 9 | 40.0 | 60% |
-| Haiti | low | 5 | 0 | 0 | 31.0 | 60% |
-| Ghana | low | 4 | 0 | 1 | 29.2 | 75% |
+| Ghana | low | 6 | 0 | 1 | 24.5 | 83% |
+| Haiti | low | 6 | 0 | 0 | 30.0 | 67% |
+| Kazakhstan | low | 6 | 0 | 1 | 26.7 | 100% |
+| Tunisia | low | 6 | 7 | 2 | 31.7 | 83% |
 
 ## Remediation plan
 
-Enrich before adding: the countries with 20+ dishes and the lowest average score are Nigeria (25.6), Portugal (29.7), Finland (31.0), Brazil (32.6), Chile (33.3), Malaysia (34.5), Vietnam (35.7), Morocco (35.9), Indonesia (36.3), Turkey (36.8). Their dishes gain most from photos (`scripts/dish_photos/`) and stories (`fetch_knowledge.py --stories`); new dishes come after, from `coverage/next_500.json`.
+Enrich before adding: the countries with 20+ dishes and the lowest average score are Nigeria (25.6), Portugal (29.7), Finland (31.0), Brazil (32.6), Chile (33.3), Malaysia (34.5), Vietnam (35.7), Morocco (35.9), Indonesia (36.3), Turkey (37.2). Their dishes gain most from photos (`scripts/dish_photos/`) and stories (`fetch_knowledge.py --stories`); new dishes come after, from `coverage/next_500.json`.

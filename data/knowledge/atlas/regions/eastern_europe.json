@@ -1,0 +1,69 @@
+{
+ "id": "eastern_europe",
+ "name": "Eastern Europe",
+ "continent": "Europe",
+ "countries": [
+  "Bulgaria",
+  "Hungary",
+  "Poland",
+  "Russia",
+  "Slovakia",
+  "Ukraine"
+ ],
+ "countries_with_a_dish": [
+  "Hungary",
+  "Poland",
+  "Russia"
+ ],
+ "coverage_score": 48.4,
+ "dish_count": 156,
+ "food_and_drink_count": 57,
+ "story_count": 102,
+ "representative_dishes": [
+  "Wiener schnitzel",
+  "Deviled egg",
+  "Fruitcake",
+  "Pâté",
+  "Taffy (candy)",
+  "Caviar",
+  "Krówki",
+  "Dobos torte"
+ ],
+ "dish_families": [
+  "soup",
+  "potato dish",
+  "pancake",
+  "cake",
+  "pastry",
+  "torte",
+  "beef dish",
+  "candy"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Baltic States",
+  "British Isles",
+  "Central Europe",
+  "Mediterranean Europe",
+  "Nordic Countries",
+  "Western Europe"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

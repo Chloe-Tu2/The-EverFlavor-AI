@@ -38,6 +38,7 @@ Learn more:
 
 - quick: [Al ajillo (Wikipedia)](https://en.wikipedia.org/wiki/Al_ajillo)
 - more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
+- more: [Cuisine of Nicaragua (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Nicaragua)
 - deep: [Books about Al ajillo (Open Library)](https://openlibrary.org/search?q=Al%20ajillo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20748070)
 
@@ -415,6 +416,7 @@ Learn more:
 
 - quick: [Champurrado (Wikipedia)](https://en.wikipedia.org/wiki/Champurrado)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Champurrado (Open Library)](https://openlibrary.org/search?q=Champurrado)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2955932)
 
@@ -809,6 +811,7 @@ Learn more:
 
 - quick: [Corn on the cob (Wikipedia)](https://en.wikipedia.org/wiki/Corn_on_the_cob)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
 - deep: [Books about Corn on the cob (Open Library)](https://openlibrary.org/search?q=Corn%20on%20the%20cob)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5171058)
 
@@ -893,6 +896,7 @@ Learn more:
 
 - quick: [Egg roll (Wikipedia)](https://en.wikipedia.org/wiki/Egg_roll)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Malagasy cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malagasy_cuisine)
 - deep: [Books about Egg roll (Open Library)](https://openlibrary.org/search?q=Egg%20roll)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4103048)
 
@@ -2007,44 +2011,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q16882443) (CC0); [Wikipedia: Frijoles Puercos](https://en.wikipedia.org/wiki/Frijoles_Puercos) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Burrito
-
-A burrito is a dish in Mexican and Tex-Mex cuisine that took form in Ciudad Juárez, consisting of a flour tortilla wrapped into a sealed cylindrical shape around various ingredients.
-
-- From: Guanajuato, Mexico
-- Origin (Wikidata): Mexico
-- Ingredients (Wikidata): wheat tortilla, stuffing
-
-Fun facts:
-
-- (inspiration) An often repeated piece of folk history is the story of a man named Juan Méndez who sold tacos at a street stand in the Bella Vista neighborhood of Ciudad Juárez during the Mexican Revolution period (1910–1921), while using a donkey as a transport for himself and his food.
-- (origin) Sonoran historian and politician, Horacio Sorbazo Díaz, explained that the term originated in Sonora where some dubious taco stands would sell donkey meat instead of beef, and people, maliciously, began calling tacos "burritos" implying they were made with donkey meat.
-- (history) Before the development of the modern burrito, the Maya civilization of Mexico used corn tortillas as early as 1500 BC to wrap foods, with fillings of chili peppers, tomatoes, mushrooms, squash, and avocados.
-
-More fun facts (when the user asks for more):
-
-- (history) In the 1895 Diccionario de Mejicanismos by Feliz Ramos i Duarte, burrito was identified as the regional name given in the Mexican state of Guanajuato to what is known as a taco in other regions: Burrito: Tortilla arrollada, con carne u otra cosa dentro, que en Yucatán llaman coçito, y en Cuernavaca y en Mexico, taco.
-- (history) References to burritos made with corn tortillas appear as late as 1938 in California.
-- (history) Ana Bégué de Packman, author of the book Early California Hospitality (1938), wrote that corn and flour tortillas could be used interchangeably for making burritos.
-- (origin) Stemming from the view that burritos are distinct from tacos, there are many explanations and folk stories about the origin of burritos, most of them originating in the United States.
-- (about) Historically, burrito (or burro) was a regional name in Mexico for what in other parts of the country is known as a taco (a tortilla filled with food).
-- (about) The term burrito was regional, specifically from Guanajuato, Guerrero, Michoacán, San Luis Potosí, Sonora and Sinaloa, for what is known as a taco in Mexico City and surrounding areas, and codzito in Yucatán and Quintana Roo.
-- (about) In Central and Southern Mexico, burritos are still considered tacos, and are known as tacos de harina ("wheat flour tacos").
-- (about) Dried beef is very popular in Sonora, and it has been observed on some occasions that, taking advantage of this circumstance, dried donkey meat is fraudulently sold.
-- (about) Being that burrito or burro was originally a regional name for what is known as a taco or codzito in other regions of Mexico, the use of both corn and wheat flour tortillas was understandable.
-- (about) Currently, wheat flour tortilla burritos are known as "tacos de harina" (wheat flour tacos) in Central and Southern Mexico.
-- (origin) Burrito comes from Mexico.
-- (about) Not to be confused with taco, enchilada, taquito, tostada, gordita, taco acorazado.
-
-Learn more:
-
-- quick: [Burrito (Wikipedia)](https://en.wikipedia.org/wiki/Burrito)
-- more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
-- deep: [Books about Burrito (Open Library)](https://openlibrary.org/search?q=Burrito)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q390823)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q390823) (CC0); [Wikipedia: Burrito](https://en.wikipedia.org/wiki/Burrito) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Memela
 
 Memelas, also known as memelitas, are fried or toasted cakes made of masa topped with different fresh ingredients eaten as antojitos or snacks in the states of Guerrero, Oaxaca, Tlaxcala, and Puebla, Mexico, which have their origins in prehispanic food.
@@ -2227,6 +2193,7 @@ Learn more:
 
 - quick: [Huarache (food) (Wikipedia)](https://en.wikipedia.org/wiki/Huarache_%28food%29)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Huarache (food) (Open Library)](https://openlibrary.org/search?q=Huarache%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11682627)
 
@@ -2326,6 +2293,7 @@ Learn more:
 
 - quick: [Marquesote (Wikipedia)](https://en.wikipedia.org/wiki/Marquesote)
 - more: [Salvadoran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Salvadoran_cuisine)
+- more: [Cuisine of El Salvador (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_El_Salvador)
 - deep: [Books about Marquesote (Open Library)](https://openlibrary.org/search?q=Marquesote)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q24960939)
 
@@ -2759,6 +2727,7 @@ Learn more:
 
 - quick: [Agua fresca (Wikipedia)](https://en.wikipedia.org/wiki/Agua_fresca)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Agua fresca (Open Library)](https://openlibrary.org/search?q=Agua%20fresca)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4694505)
 
@@ -2797,6 +2766,7 @@ Learn more:
 
 - quick: [Brain as food (Wikipedia)](https://en.wikipedia.org/wiki/Brain_as_food)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Brain as food (Open Library)](https://openlibrary.org/search?q=Brain%20as%20food)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q719458)
 
@@ -3382,7 +3352,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Masa (Wikipedia)](https://en.wikipedia.org/wiki/Masa)
-- more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
+- more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Cuisine of Guatemala (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guatemala)
 - deep: [Books about Masa (Open Library)](https://openlibrary.org/search?q=Masa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1006089)
 
@@ -3540,6 +3511,7 @@ Learn more:
 
 - quick: [Pulque (Wikipedia)](https://en.wikipedia.org/wiki/Pulque)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Pulque (Open Library)](https://openlibrary.org/search?q=Pulque)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q511700)
 
@@ -3737,6 +3709,7 @@ Learn more:
 
 - quick: [Tlacoyo (Wikipedia)](https://en.wikipedia.org/wiki/Tlacoyo)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Tlacoyo (Open Library)](https://openlibrary.org/search?q=Tlacoyo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3501262)
 
@@ -3868,6 +3841,7 @@ Learn more:
 
 - quick: [Sotol (Wikipedia)](https://en.wikipedia.org/wiki/Sotol)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Sotol (Open Library)](https://openlibrary.org/search?q=Sotol)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q932877)
 
@@ -4045,6 +4019,7 @@ Learn more:
 
 - quick: [Mezcal (Wikipedia)](https://en.wikipedia.org/wiki/Mezcal)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Mezcal (Open Library)](https://openlibrary.org/search?q=Mezcal)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q726413)
 

@@ -122,7 +122,7 @@ Learn more:
 
 - quick: [Injera (Wikipedia)](https://en.wikipedia.org/wiki/Injera)
 - more: [List of Ethiopian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Ethiopian_dishes)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
 - deep: [Books about Injera (Open Library)](https://openlibrary.org/search?q=Injera)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q935807)
 
@@ -268,7 +268,7 @@ Learn more:
 
 - quick: [Berbere (Wikipedia)](https://en.wikipedia.org/wiki/Berbere)
 - more: [List of Ethiopian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Ethiopian_dishes)
-- more: [Eritrean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Eritrean_cuisine)
+- more: [Gabonese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gabonese_cuisine)
 - deep: [Books about Berbere (Open Library)](https://openlibrary.org/search?q=Berbere)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q818763)
 
@@ -312,6 +312,7 @@ Learn more:
 
 - quick: [Niter kibbeh (Wikipedia)](https://en.wikipedia.org/wiki/Niter_kibbeh)
 - more: [List of Ethiopian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Ethiopian_dishes)
+- more: [Djiboutian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Djiboutian_cuisine)
 - deep: [Books about Niter kibbeh (Open Library)](https://openlibrary.org/search?q=Niter%20kibbeh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2697883)
 

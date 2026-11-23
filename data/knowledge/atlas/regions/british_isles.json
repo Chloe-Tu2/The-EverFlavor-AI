@@ -1,0 +1,64 @@
+{
+ "id": "british_isles",
+ "name": "British Isles",
+ "continent": "Europe",
+ "countries": [
+  "Ireland",
+  "United Kingdom"
+ ],
+ "countries_with_a_dish": [
+  "Ireland",
+  "United Kingdom"
+ ],
+ "coverage_score": 89.8,
+ "dish_count": 91,
+ "food_and_drink_count": 53,
+ "story_count": 84,
+ "representative_dishes": [
+  "Marmalade",
+  "Porridge",
+  "Chicken tikka masala",
+  "Cullen skink",
+  "Kipper",
+  "Shortbread",
+  "Trifle",
+  "Black bun"
+ ],
+ "dish_families": [
+  "potato dish",
+  "fish dish",
+  "British cheese",
+  "pork dish",
+  "chicken dish",
+  "pastry",
+  "beef dish",
+  "confectionery"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Baltic States",
+  "Central Europe",
+  "Eastern Europe",
+  "Mediterranean Europe",
+  "Nordic Countries",
+  "Western Europe"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

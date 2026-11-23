@@ -3385,6 +3385,7 @@ Learn more:
 
 - quick: [Kombu (Wikipedia)](https://en.wikipedia.org/wiki/Kombu)
 - more: [List of Japanese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Japanese_dishes)
+- more: [Ainu cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ainu_cuisine)
 - deep: [Books about Kombu (Open Library)](https://openlibrary.org/search?q=Kombu)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11261547)
 
@@ -4027,6 +4028,7 @@ Learn more:
 
 - quick: [Vanilla (Wikipedia)](https://en.wikipedia.org/wiki/Vanilla)
 - more: [List of Japanese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Japanese_dishes)
+- more: [Malagasy cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malagasy_cuisine)
 - deep: [Books about Vanilla (Open Library)](https://openlibrary.org/search?q=Vanilla)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13241)
 

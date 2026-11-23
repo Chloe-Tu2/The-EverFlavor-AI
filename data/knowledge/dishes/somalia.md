@@ -18,11 +18,34 @@ Fun facts:
 Learn more:
 
 - quick: [Lahoh (Wikipedia)](https://en.wikipedia.org/wiki/Lahoh)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
+- more: [Cuisine of Somalia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Somalia)
 - deep: [Books about Lahoh (Open Library)](https://openlibrary.org/search?q=Lahoh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1809371)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1809371) (CC0); [Wikipedia: Lahoh](https://en.wikipedia.org/wiki/Lahoh) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Oodkac
+
+Muqmad or oodkac is a Somali dish consisting of preserved meat.
+
+- From: Somalia
+- Origin (Wikidata): Somalia
+
+Fun facts:
+
+- (about) The term muqmad is used in Djibouti, Ethiopia and Somaliland; the term oodkac is more popular in central and southern parts of Somalia and Kenya.
+- (origin) Oodkac comes from Somalia.
+
+Learn more:
+
+- quick: [Oodkac (Wikipedia)](https://en.wikipedia.org/wiki/Oodkac)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
+- more: [Cuisine of Somalia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Somalia)
+- deep: [Books about Oodkac (Open Library)](https://openlibrary.org/search?q=Oodkac)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q65119827)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q65119827) (CC0); [Wikipedia: Oodkac](https://en.wikipedia.org/wiki/Oodkac) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Sabaayad
 
@@ -40,6 +63,7 @@ Learn more:
 
 - quick: [Sabaayad (Wikipedia)](https://en.wikipedia.org/wiki/Sabaayad)
 - more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
+- more: [Cuisine of Somalia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Somalia)
 - deep: [Books about Sabaayad (Open Library)](https://openlibrary.org/search?q=Sabaayad)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7395806)
 
@@ -60,7 +84,8 @@ Fun facts:
 Learn more:
 
 - quick: [Bariis iskukaris (Wikipedia)](https://en.wikipedia.org/wiki/Bariis_iskukaris)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
+- more: [Cuisine of Somalia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Somalia)
 - deep: [Books about Bariis iskukaris (Open Library)](https://openlibrary.org/search?q=Bariis%20iskukaris)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q65086435)
 

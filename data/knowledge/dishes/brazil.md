@@ -26,6 +26,7 @@ Learn more:
 
 - quick: [Acarajé (Wikipedia)](https://en.wikipedia.org/wiki/Acaraj%C3%A9)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
 - deep: [Books about Acarajé (Open Library)](https://openlibrary.org/search?q=Acaraj%C3%A9)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q138542244)
 
@@ -679,6 +680,7 @@ Learn more:
 
 - quick: [Maniçoba (Wikipedia)](https://en.wikipedia.org/wiki/Mani%C3%A7oba)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Maniçoba (Open Library)](https://openlibrary.org/search?q=Mani%C3%A7oba)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6750304)
 
@@ -700,6 +702,7 @@ Learn more:
 
 - quick: [Mocotó (Wikipedia)](https://en.wikipedia.org/wiki/Mocot%C3%B3)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Mocotó (Open Library)](https://openlibrary.org/search?q=Mocot%C3%B3)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6887866)
 
@@ -728,6 +731,7 @@ Learn more:
 
 - quick: [Moqueca (Wikipedia)](https://en.wikipedia.org/wiki/Moqueca)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Moqueca (Open Library)](https://openlibrary.org/search?q=Moqueca)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1929676)
 
@@ -1158,6 +1162,7 @@ Learn more:
 
 - quick: [Tacacá (Wikipedia)](https://en.wikipedia.org/wiki/Tacac%C3%A1)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Tacacá (Open Library)](https://openlibrary.org/search?q=Tacac%C3%A1)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q564491)
 
@@ -1405,6 +1410,7 @@ Learn more:
 
 - quick: [Cauim (Wikipedia)](https://en.wikipedia.org/wiki/Cauim)
 - more: [Brazilian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Brazilian_cuisine)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Cauim (Open Library)](https://openlibrary.org/search?q=Cauim)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2943094)
 
@@ -1630,7 +1636,7 @@ Learn more:
 
 - quick: [Jerky (Wikipedia)](https://en.wikipedia.org/wiki/Jerky)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
-- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Djiboutian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Djiboutian_cuisine)
 - deep: [Books about Jerky (Open Library)](https://openlibrary.org/search?q=Jerky)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1072897)
 
@@ -1778,6 +1784,7 @@ Learn more:
 
 - quick: [Paçoca (Wikipedia)](https://en.wikipedia.org/wiki/Pa%C3%A7oca)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Paçoca (Open Library)](https://openlibrary.org/search?q=Pa%C3%A7oca)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3373739)
 
@@ -1839,6 +1846,7 @@ Learn more:
 
 - quick: [Shortcrust pastry (Wikipedia)](https://en.wikipedia.org/wiki/Shortcrust_pastry)
 - more: [Brazilian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Brazilian_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Shortcrust pastry (Open Library)](https://openlibrary.org/search?q=Shortcrust%20pastry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1959325)
 
@@ -1954,6 +1962,7 @@ Learn more:
 
 - quick: [Tucupi (Wikipedia)](https://en.wikipedia.org/wiki/Tucupi)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Tucupi (Open Library)](https://openlibrary.org/search?q=Tucupi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q491222)
 

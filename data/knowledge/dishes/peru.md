@@ -437,6 +437,7 @@ Learn more:
 
 - quick: [Adobo (Wikipedia)](https://en.wikipedia.org/wiki/Adobo)
 - more: [List of Peruvian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Peruvian_dishes)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Adobo (Open Library)](https://openlibrary.org/search?q=Adobo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q360459)
 

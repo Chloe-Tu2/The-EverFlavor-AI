@@ -25,6 +25,7 @@ Learn more:
 
 - quick: [Ayran (Wikipedia)](https://en.wikipedia.org/wiki/Ayran)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
+- more: [Uzbek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uzbek_cuisine)
 - deep: [Books about Ayran (Open Library)](https://openlibrary.org/search?q=Ayran)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q192892)
 
@@ -1122,6 +1123,7 @@ Learn more:
 
 - quick: [Mate (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Mate_%28drink%29)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Mate (drink) (Open Library)](https://openlibrary.org/search?q=Mate%20%28drink%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q203540)
 

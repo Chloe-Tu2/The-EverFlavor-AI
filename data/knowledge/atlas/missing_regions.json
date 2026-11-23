@@ -16,8 +16,8 @@
    "subregion": "Eastern Africa",
    "continent": "Africa",
    "countries": 22,
-   "with_dishes": 10,
-   "score": 26.5,
+   "with_dishes": 13,
+   "score": 34.5,
    "band": "thin",
    "countries_without_dishes": [
     "British Indian Ocean Territory",
@@ -26,11 +26,8 @@
     "Djibouti",
     "Eritrea",
     "French Southern and Antarctic Lands",
-    "Kenya",
-    "Madagascar",
     "Mayotte",
     "Réunion",
-    "Zambia",
     "Zimbabwe"
    ]
   },
@@ -38,11 +35,10 @@
    "subregion": "Middle Africa",
    "continent": "Africa",
    "countries": 9,
-   "with_dishes": 4,
-   "score": 28.5,
+   "with_dishes": 5,
+   "score": 32.8,
    "band": "thin",
    "countries_without_dishes": [
-    "Central African Republic",
     "Congo",
     "Equatorial Guinea",
     "Gabon",
@@ -72,9 +68,9 @@
    "subregion": "Caribbean",
    "continent": "Americas",
    "countries": 28,
-   "with_dishes": 7,
-   "score": 20.0,
-   "band": "gap",
+   "with_dishes": 8,
+   "score": 25.5,
+   "band": "thin",
    "countries_without_dishes": [
     "Anguilla",
     "Antigua and Barbuda",
@@ -94,50 +90,19 @@
     "Saint Vincent and the Grenadines",
     "Saint-Martin",
     "Sint Maarten",
-    "The Bahamas",
     "Turks and Caicos Islands",
     "United States Virgin Islands"
-   ]
-  },
-  {
-   "subregion": "Central Asia",
-   "continent": "Asia",
-   "countries": 5,
-   "with_dishes": 2,
-   "score": 28.8,
-   "band": "thin",
-   "countries_without_dishes": [
-    "Kyrgyzstan",
-    "Tajikistan",
-    "Turkmenistan"
-   ]
-  },
-  {
-   "subregion": "Southern Asia",
-   "continent": "Asia",
-   "countries": 9,
-   "with_dishes": 3,
-   "score": 49.2,
-   "band": "thin",
-   "countries_without_dishes": [
-    "Afghanistan",
-    "Bangladesh",
-    "Bhutan",
-    "Maldives",
-    "Nepal",
-    "Sri Lanka"
    ]
   },
   {
    "subregion": "Melanesia",
    "continent": "Oceania",
    "countries": 5,
-   "with_dishes": 0,
-   "score": 0.0,
+   "with_dishes": 1,
+   "score": 12.5,
    "band": "gap",
    "countries_without_dishes": [
     "Fiji",
-    "New Caledonia",
     "Papua New Guinea",
     "Solomon Islands",
     "Vanuatu"
@@ -147,12 +112,11 @@
    "subregion": "Micronesian Region",
    "continent": "Oceania",
    "countries": 8,
-   "with_dishes": 0,
-   "score": 0.0,
+   "with_dishes": 1,
+   "score": 16.2,
    "band": "gap",
    "countries_without_dishes": [
     "Federated States of Micronesia",
-    "Guam",
     "Kiribati",
     "Marshall Islands",
     "Nauru",
@@ -166,7 +130,7 @@
    "continent": "Oceania",
    "countries": 10,
    "with_dishes": 1,
-   "score": 7.5,
+   "score": 10.0,
    "band": "gap",
    "countries_without_dishes": [
     "American Samoa",

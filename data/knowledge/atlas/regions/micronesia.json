@@ -1,0 +1,63 @@
+{
+ "id": "micronesia",
+ "name": "Micronesia",
+ "continent": "Oceania",
+ "countries": [
+  "Federated States of Micronesia",
+  "Guam",
+  "Kiribati",
+  "Marshall Islands",
+  "Nauru",
+  "Northern Mariana Islands",
+  "Palau"
+ ],
+ "countries_with_a_dish": [
+  "Guam"
+ ],
+ "coverage_score": 10.9,
+ "dish_count": 4,
+ "food_and_drink_count": 1,
+ "story_count": 1,
+ "representative_dishes": [
+  "Kelaguen",
+  "Guyuria",
+  "Kalamai (dessert)",
+  "Roskette"
+ ],
+ "dish_families": [
+  "cookie",
+  "condiment",
+  "pudding",
+  "chicken dish"
+ ],
+ "indigenous_traditions": [
+  {
+   "tradition": "Chamorro",
+   "foods": 3,
+   "reviewed": false
+  }
+ ],
+ "related_regions": [
+  "Australasia",
+  "Melanesia",
+  "Polynesia"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

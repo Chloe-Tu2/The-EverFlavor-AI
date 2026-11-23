@@ -4,47 +4,47 @@ Read from the Global Culinary Atlas files (`data/knowledge/atlas/`, regions from
 
 | Continent | Countries | With dishes | Dishes | Recipes | Score | Band |
 |---|---:|---:|---:|---:|---:|---|
-| Africa | 60 | 29 | 184 | 2,600 | 29.2 | thin |
-| Americas | 57 | 19 | 794 | 148,888 | 41.7 | thin |
-| Asia | 51 | 19 | 1,138 | 21,394 | 68.6 | fair |
+| Africa | 60 | 34 | 205 | 2,600 | 33.3 | thin |
+| Americas | 57 | 22 | 806 | 148,888 | 40.5 | thin |
+| Asia | 51 | 22 | 1,148 | 21,394 | 71.6 | fair |
 | Europe | 53 | 20 | 1,194 | 50,001 | 68.9 | fair |
-| Oceania | 29 | 3 | 61 | 3,142 | 7.7 | gap |
+| Oceania | 29 | 5 | 69 | 3,142 | 13.6 | gap |
 
 ## Africa
 
-29 of 60 countries and territories have a dish; 4 have recipes but no dish page; 9 versions of dishes we have are missing; the backlog holds 29 ready.
+34 of 60 countries and territories have a dish; 2 have recipes but no dish page; 7 versions of dishes we have are missing; the backlog holds 24 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
-| Western Africa | 17 | 8 | 67 | 26.0 | thin |
-| Eastern Africa | 22 | 10 | 25 | 26.5 | thin |
-| Middle Africa | 9 | 4 | 13 | 28.5 | thin |
-| Northern Africa | 7 | 5 | 50 | 50.7 | fair |
-| Southern Africa | 5 | 2 | 29 | 56.2 | fair |
+| Western Africa | 17 | 8 | 69 | 26.0 | thin |
+| Middle Africa | 9 | 5 | 15 | 32.8 | thin |
+| Eastern Africa | 22 | 13 | 34 | 34.5 | thin |
+| Southern Africa | 5 | 2 | 32 | 60.0 | fair |
+| Northern Africa | 7 | 6 | 55 | 64.1 | fair |
 
-Recipes but no dish page: Congo, Kenya, Namibia, Sudan.
+Recipes but no dish page: Congo, Namibia.
 
 ## Americas
 
-19 of 57 countries and territories have a dish; 9 have recipes but no dish page; 139 versions of dishes we have are missing; the backlog holds 60 blocked, 13 needs review, 232 ready.
+22 of 57 countries and territories have a dish; 7 have recipes but no dish page; 136 versions of dishes we have are missing; the backlog holds 60 blocked, 13 needs review, 227 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
-| Caribbean | 28 | 7 | 86 | 20.0 | gap |
-| Central America | 8 | 5 | 131 | 51.2 | fair |
+| Caribbean | 28 | 8 | 94 | 25.5 | thin |
+| Central America | 8 | 7 | 133 | 51.2 | fair |
 | South America | 16 | 5 | 123 | 60.6 | fair |
-| Northern America | 5 | 2 | 454 | 70.0 | fair |
+| Northern America | 5 | 2 | 456 | 70.0 | fair |
 
-Recipes but no dish page: Antigua and Barbuda, Aruba, Cayman Islands, Costa Rica, Dominica, Ecuador, Honduras, Uruguay, Venezuela.
+Recipes but no dish page: Antigua and Barbuda, Aruba, Cayman Islands, Dominica, Ecuador, Uruguay, Venezuela.
 
 ## Asia
 
-19 of 51 countries and territories have a dish; 8 have recipes but no dish page; 288 versions of dishes we have are missing; the backlog holds 20 blocked, 37 needs review, 527 ready.
+22 of 51 countries and territories have a dish; 8 have recipes but no dish page; 289 versions of dishes we have are missing; the backlog holds 20 blocked, 37 needs review, 528 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
-| Central Asia | 5 | 2 | 7 | 28.8 | thin |
-| Southern Asia | 9 | 3 | 123 | 49.2 | thin |
+| Southern Asia | 9 | 3 | 124 | 51.7 | fair |
+| Central Asia | 5 | 5 | 16 | 55.0 | fair |
 | Western Asia | 18 | 5 | 119 | 58.9 | fair |
 | Eastern Asia | 8 | 3 | 366 | 68.8 | fair |
 | Southeast Asia | 11 | 6 | 523 | 77.3 | good |
@@ -66,11 +66,11 @@ Recipes but no dish page: Albania, Andorra, Bulgaria, Croatia, Estonia, Iceland,
 
 ## Oceania
 
-3 of 29 countries and territories have a dish; 0 have recipes but no dish page; 9 versions of dishes we have are missing; the backlog holds 3 blocked, 4 needs review, 6 ready.
+5 of 29 countries and territories have a dish; 0 have recipes but no dish page; 5 versions of dishes we have are missing; the backlog holds 3 blocked, 6 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
-| Melanesia | 5 | 0 | 0 | 0.0 | gap |
-| Micronesian Region | 8 | 0 | 0 | 0.0 | gap |
-| Polynesia | 10 | 1 | 1 | 7.5 | gap |
-| Australasia | 6 | 2 | 60 | 66.7 | fair |
+| Polynesia | 10 | 1 | 2 | 10.0 | gap |
+| Melanesia | 5 | 1 | 1 | 12.5 | gap |
+| Micronesian Region | 8 | 1 | 4 | 16.2 | gap |
+| Australasia | 6 | 2 | 62 | 66.7 | fair |

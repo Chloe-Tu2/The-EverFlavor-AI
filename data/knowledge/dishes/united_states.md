@@ -2197,8 +2197,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Fudge (Wikipedia)](https://en.wikipedia.org/wiki/Fudge)
-- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
 - deep: [Books about Fudge (Open Library)](https://openlibrary.org/search?q=Fudge)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q379138)
 
@@ -2474,7 +2474,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Grits (Wikipedia)](https://en.wikipedia.org/wiki/Grits)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
+- more: [Cuisine of Haiti (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Haiti)
 - deep: [Books about Grits (Open Library)](https://openlibrary.org/search?q=Grits)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1543770)
 
@@ -2580,6 +2581,7 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Haupia (Wikipedia)](https://en.wikipedia.org/wiki/Haupia)
+- more: [Native Hawaiian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_Hawaiian_cuisine)
 - deep: [Books about Haupia (Open Library)](https://openlibrary.org/search?q=Haupia)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3269528)
 
@@ -2766,6 +2768,7 @@ Learn more:
 
 - quick: [Hushpuppy (Wikipedia)](https://en.wikipedia.org/wiki/Hushpuppy)
 - more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Hushpuppy (Open Library)](https://openlibrary.org/search?q=Hushpuppy)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1638936)
 
@@ -3042,6 +3045,7 @@ Fun facts:
 Learn more:
 
 - quick: [Kūlolo (Wikipedia)](https://en.wikipedia.org/wiki/K%C5%ABlolo)
+- more: [Native Hawaiian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_Hawaiian_cuisine)
 - deep: [Books about Kūlolo (Open Library)](https://openlibrary.org/search?q=K%C5%ABlolo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4246421)
 
@@ -3189,6 +3193,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Livermush (Wikipedia)](https://en.wikipedia.org/wiki/Livermush)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
+- more: [Indigenous cuisine of the Americas (Wikipedia)](https://en.wikipedia.org/wiki/Indigenous_cuisine_of_the_Americas)
 - deep: [Books about Livermush (Open Library)](https://openlibrary.org/search?q=Livermush)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6658276)
 
@@ -3328,6 +3334,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Lūʻau (food) (Wikipedia)](https://en.wikipedia.org/wiki/L%C5%AB%CA%BBau_%28food%29)
+- more: [Samoan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Samoan_cuisine)
+- more: [Cuisine of Samoa (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Samoa)
 - deep: [Books about Lūʻau (food) (Open Library)](https://openlibrary.org/search?q=L%C5%AB%CA%BBau%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2561177)
 
@@ -5496,7 +5504,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Submarine sandwich (Wikipedia)](https://en.wikipedia.org/wiki/Submarine_sandwich)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
+- more: [Cuisine of Trinidad and Tobago (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Trinidad_and_Tobago)
 - deep: [Books about Submarine sandwich (Open Library)](https://openlibrary.org/search?q=Submarine%20sandwich)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q776904)
 
@@ -5553,6 +5562,7 @@ Learn more:
 
 - quick: [Sweet potato pie (Wikipedia)](https://en.wikipedia.org/wiki/Sweet_potato_pie)
 - more: [Barbadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Barbadian_cuisine)
+- more: [Cuisine of Barbados (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Barbados)
 - deep: [Books about Sweet potato pie (Open Library)](https://openlibrary.org/search?q=Sweet%20potato%20pie)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3246340)
 
@@ -6185,6 +6195,7 @@ Learn more:
 
 - quick: [Bananas Foster (Wikipedia)](https://en.wikipedia.org/wiki/Bananas_Foster)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
+- more: [Malagasy cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malagasy_cuisine)
 - deep: [Books about Bananas Foster (Open Library)](https://openlibrary.org/search?q=Bananas%20Foster)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2564638)
 
@@ -6212,7 +6223,7 @@ Learn more:
 
 - quick: [Beignet (Wikipedia)](https://en.wikipedia.org/wiki/Beignet)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- more: [Gabonese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Gabonese_cuisine)
+- more: [Nigerien cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerien_cuisine)
 - deep: [Books about Beignet (Open Library)](https://openlibrary.org/search?q=Beignet)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q814709)
 
@@ -6650,6 +6661,7 @@ Learn more:
 
 - quick: [Stock (food) (Wikipedia)](https://en.wikipedia.org/wiki/Stock_%28food%29)
 - more: [Cajun cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cajun_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Stock (food) (Open Library)](https://openlibrary.org/search?q=Stock%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3075310)
 
@@ -6686,6 +6698,7 @@ Learn more:
 
 - quick: [Turtle soup (Wikipedia)](https://en.wikipedia.org/wiki/Turtle_soup)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
+- more: [Bahamian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bahamian_cuisine)
 - deep: [Books about Turtle soup (Open Library)](https://openlibrary.org/search?q=Turtle%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q690048)
 
@@ -6783,7 +6796,7 @@ Learn more:
 
 - quick: [Biscuit (Wikipedia)](https://en.wikipedia.org/wiki/Biscuit)
 - more: [Midwestern cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Midwestern_cuisine)
-- more: [Cuisine of the Midwestern United States (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_the_Midwestern_United_States)
+- more: [Samoan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Samoan_cuisine)
 - deep: [Books about Biscuit (Open Library)](https://openlibrary.org/search?q=Biscuit)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13270)
 
@@ -8596,6 +8609,7 @@ Learn more:
 
 - quick: [Italian ice (Wikipedia)](https://en.wikipedia.org/wiki/Italian_ice)
 - more: [Cuisine of Philadelphia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Philadelphia)
+- more: [Haitian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Haitian_cuisine)
 - deep: [Books about Italian ice (Open Library)](https://openlibrary.org/search?q=Italian%20ice)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13305)
 
@@ -8925,6 +8939,45 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q25004446) (CC0); [Wikipedia: Breakfast burrito](https://en.wikipedia.org/wiki/Breakfast_burrito) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Burrito
+
+A burrito is a dish in Mexican and Tex-Mex cuisine that took form in Ciudad Juárez, consisting of a flour tortilla wrapped into a sealed cylindrical shape around various ingredients.
+
+- From: Southwestern US, United States
+- Origin (Wikidata): Mexico
+- Ingredients (Wikidata): wheat tortilla, stuffing
+
+Fun facts:
+
+- (inspiration) An often repeated piece of folk history is the story of a man named Juan Méndez who sold tacos at a street stand in the Bella Vista neighborhood of Ciudad Juárez during the Mexican Revolution period (1910–1921), while using a donkey as a transport for himself and his food.
+- (origin) Sonoran historian and politician, Horacio Sorbazo Díaz, explained that the term originated in Sonora where some dubious taco stands would sell donkey meat instead of beef, and people, maliciously, began calling tacos "burritos" implying they were made with donkey meat.
+- (history) Before the development of the modern burrito, the Maya civilization of Mexico used corn tortillas as early as 1500 BC to wrap foods, with fillings of chili peppers, tomatoes, mushrooms, squash, and avocados.
+
+More fun facts (when the user asks for more):
+
+- (history) In the 1895 Diccionario de Mejicanismos by Feliz Ramos i Duarte, burrito was identified as the regional name given in the Mexican state of Guanajuato to what is known as a taco in other regions: Burrito: Tortilla arrollada, con carne u otra cosa dentro, que en Yucatán llaman coçito, y en Cuernavaca y en Mexico, taco.
+- (history) References to burritos made with corn tortillas appear as late as 1938 in California.
+- (history) Ana Bégué de Packman, author of the book Early California Hospitality (1938), wrote that corn and flour tortillas could be used interchangeably for making burritos.
+- (origin) Stemming from the view that burritos are distinct from tacos, there are many explanations and folk stories about the origin of burritos, most of them originating in the United States.
+- (about) Historically, burrito (or burro) was a regional name in Mexico for what in other parts of the country is known as a taco (a tortilla filled with food).
+- (about) The term burrito was regional, specifically from Guanajuato, Guerrero, Michoacán, San Luis Potosí, Sonora and Sinaloa, for what is known as a taco in Mexico City and surrounding areas, and codzito in Yucatán and Quintana Roo.
+- (about) In Central and Southern Mexico, burritos are still considered tacos, and are known as tacos de harina ("wheat flour tacos").
+- (about) Dried beef is very popular in Sonora, and it has been observed on some occasions that, taking advantage of this circumstance, dried donkey meat is fraudulently sold.
+- (about) Being that burrito or burro was originally a regional name for what is known as a taco or codzito in other regions of Mexico, the use of both corn and wheat flour tortillas was understandable.
+- (about) Currently, wheat flour tortilla burritos are known as "tacos de harina" (wheat flour tacos) in Central and Southern Mexico.
+- (origin) Burrito comes from Mexico.
+- (about) Not to be confused with taco, enchilada, taquito, tostada, gordita, taco acorazado.
+
+Learn more:
+
+- quick: [Burrito (Wikipedia)](https://en.wikipedia.org/wiki/Burrito)
+- more: [Cuisine of the Southwestern United States (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_the_Southwestern_United_States)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
+- deep: [Books about Burrito (Open Library)](https://openlibrary.org/search?q=Burrito)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q390823)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q390823) (CC0); [Wikipedia: Burrito](https://en.wikipedia.org/wiki/Burrito) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Cactus fries
 
 Cactus fries or nopalitos fritos is a side dish originating in the Southwestern United States, made of battered and deep-fried prickly pear paddles or nopales.
@@ -9057,6 +9110,7 @@ Learn more:
 
 - quick: [Cheeseburger (Wikipedia)](https://en.wikipedia.org/wiki/Cheeseburger)
 - more: [New Mexican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Mexican_cuisine)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Cheeseburger (Open Library)](https://openlibrary.org/search?q=Cheeseburger)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q667478)
 
@@ -10034,6 +10088,35 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1015153) (CC0); [Wikipedia: Burgoo](https://en.wikipedia.org/wiki/Burgoo) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Calabash
+
+Calabash (; Lagenaria siceraria) is a vine in the family Cucurbitaceae which is grown for its fruit.
+
+- From: United States
+
+Fun facts:
+
+- (about) Calabash is also known as bottle gourd, white-flowered gourd, long melon, birdhouse gourd, New Guinea bean, New Guinea butter bean or Tasmania bean.
+- (inspiration) In 2014 this theory was repudiated based on a more thorough genetic study.
+- (about) The gourd was one of the world's first cultivated plants grown not primarily for food, but for use as containers.
+
+More fun facts (when the user asks for more):
+
+- (about) When considered together, the genetic and archaeological information points toward L. siceraria being independently brought under domestication first in Asia, and more than 4,000 years later, in Africa.
+- (about) In Europe, Walahfrid Strabo (808–849), abbot and poet from Reichenau and advisor to the Carolingian kings, discussed the gourd in his Hortulus as one of the 23 plants of an ideal garden.
+- (about) One grown in Taylorsvlle, Kentucky in 2001 weighed 111.5 kg (246 lb).
+- (about) Stands of L. siceraria, which may be source plants and not merely domesticated stands, were reported in Zimbabwe in 2004.
+
+Learn more:
+
+- quick: [Calabash (Wikipedia)](https://en.wikipedia.org/wiki/Calabash)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
+- more: [Cuisine of Trinidad and Tobago (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Trinidad_and_Tobago)
+- deep: [Books about Calabash (Open Library)](https://openlibrary.org/search?q=Calabash)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1277255)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1277255) (CC0); [Wikipedia: Calabash](https://en.wikipedia.org/wiki/Calabash) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Carne asada fries
 
 Carne asada fries is a local dish speciality found on the menus of restaurants primarily in the American Southwest, including San Diego, where it originated.
@@ -10260,10 +10343,31 @@ Learn more:
 
 - quick: [Corn pudding (Wikipedia)](https://en.wikipedia.org/wiki/Corn_pudding)
 - more: [Mauritian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mauritian_cuisine)
+- more: [Cuisine of Mauritius (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Mauritius)
 - deep: [Books about Corn pudding (Open Library)](https://openlibrary.org/search?q=Corn%20pudding)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5794713)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5794713) (CC0); [Wikipedia: Corn pudding](https://en.wikipedia.org/wiki/Corn_pudding) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Crab meat
+
+Crab meat, also known as crab marrow, is the edible meat found in a crab, specifically in its legs and claws.
+
+- From: United States
+
+Fun facts:
+
+- (inspiration) Grading systems vary by region, with distinctions such as white meat and brown meat based on body part and color.
+
+Learn more:
+
+- quick: [Crab meat (Wikipedia)](https://en.wikipedia.org/wiki/Crab_meat)
+- more: [Comorian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Comorian_cuisine)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
+- deep: [Books about Crab meat (Open Library)](https://openlibrary.org/search?q=Crab%20meat)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5180246)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5180246) (CC0); [Wikipedia: Crab meat](https://en.wikipedia.org/wiki/Crab_meat) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Crawfish pie
 
@@ -10399,11 +10503,11 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q120644131) (CC0); [Wikipedia:
 Fry sauce is a condiment often served with French fries or other food in many places in the world.
 
 - From: United States
-- Origin (Wikidata): Argentina, United States
+- Origin (Wikidata): United States, Argentina
 
 Fun facts:
 
-- (origin) Fry sauce comes from Argentina, the United States.
+- (origin) Fry sauce comes from the United States, Argentina.
 
 Learn more:
 
@@ -10600,6 +10704,26 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5910889)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5910889) (CC0); [Wikipedia: Hot wiener](https://en.wikipedia.org/wiki/Hot_wiener) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Inamona
+
+ʻInamona is a condiment or relish used in traditional Hawaiian cooking made from seed kernels of the kukui nut (candlenuts) and sea salt.
+
+- From: United States
+
+Fun facts:
+
+- (culture) To make traditional ʻinamona, the fruits of the kukui are harvested, dried, and husked.
+- (about) First ground with a stone and mortar, the crushed kernels are then mixed with alaea salt to prevent rancidity.
+
+Learn more:
+
+- quick: [Inamona (Wikipedia)](https://en.wikipedia.org/wiki/Inamona)
+- more: [Native Hawaiian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_Hawaiian_cuisine)
+- deep: [Books about Inamona (Open Library)](https://openlibrary.org/search?q=Inamona)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16254010)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16254010) (CC0); [Wikipedia: Inamona](https://en.wikipedia.org/wiki/Inamona) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Intestines as food
 
@@ -10913,27 +11037,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7083444) (CC0); [Wikipedia: Old Bay Seasoning](https://en.wikipedia.org/wiki/Old_Bay_Seasoning) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Old sour
-
-Old Sour is a sauce, ingredient, and salad dressing used in the Bahamas and Key West, Florida.
-
-- From: United States
-
-Fun facts:
-
-- (origin) Old Sour sauce originated in the Bahamas, and is most often prepared using Key lime juice, salt, and bird peppers.
-- (about) Old Sour is most popularly made from an aged (fermented) mixture of Key lime juice, bird peppers, and salt.
-- (culture) In traditional Key West cooking, Old Sour is used for a variety of dishes including seafood, fried foods, and Key lime pie.
-
-Learn more:
-
-- quick: [Old sour (Wikipedia)](https://en.wikipedia.org/wiki/Old_sour)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
-- deep: [Books about Old sour (Open Library)](https://openlibrary.org/search?q=Old%20sour)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16938703)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q16938703) (CC0); [Wikipedia: Old sour](https://en.wikipedia.org/wiki/Old_sour) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Pepperoni roll
 
 The pepperoni roll is an Italian-American stuffed bread roll.
@@ -10994,6 +11097,29 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5676711)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5676711) (CC0); [Wikipedia: Pimento cheese](https://en.wikipedia.org/wiki/Pimento_cheese) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Poi (Hawaiian food)
+
+Poi or popoi is a traditional staple food in the Polynesian diet, made from taro.
+
+- From: United States
+- Ingredients (Wikidata): Colocasia esculenta
+
+Fun facts:
+
+- (inspiration) Poi was considered such an important and sacred aspect of daily Hawaiian life that Hawaiians believed that the spirit of Hāloa, the legendary ancestor of the Hawaiian people, was present when a bowl of poi was uncovered for consumption at the family dinner table.
+- (origin) Poi is thought to have originated in the Marquesas Islands, created some time after initial settlement from Polynesian explorers.
+- (culture) Hawaiians traditionally cook the starchy, potato-like heart of the taro corm for hours in an underground oven called an imu, which is also used to cook other types of food such as pork, carrots, and sweet potatoes.
+
+Learn more:
+
+- quick: [Poi (Hawaiian food) (Wikipedia)](https://en.wikipedia.org/wiki/Poi_%28Hawaiian_food%29)
+- more: [Solomon Islands cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Solomon_Islands_cuisine)
+- more: [Cuisine of Solomon Islands (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Solomon_Islands)
+- deep: [Books about Poi (Hawaiian food) (Open Library)](https://openlibrary.org/search?q=Poi%20%28Hawaiian%20food%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2036693)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2036693) (CC0); [Wikipedia: Poi (Hawaiian food)](https://en.wikipedia.org/wiki/Poi_(Hawaiian_food)) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Polish Boy
 
@@ -11151,6 +11277,26 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7380161) (CC0); [Wikipedia: Runza](https://en.wikipedia.org/wiki/Runza) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Salted fish
+
+Salted fish, such as kippered herring or dried and salted cod, is fish cured with dry salt and thus preserved for later eating.
+
+- From: United States
+
+Fun facts:
+
+- (history) Drying or salting, either with dry salt or with brine, was the only widely available method of preserving fish until the 19th century.
+
+Learn more:
+
+- quick: [Salted fish (Wikipedia)](https://en.wikipedia.org/wiki/Salted_fish)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
+- more: [Cuisine of Ghana (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Ghana)
+- deep: [Books about Salted fish (Open Library)](https://openlibrary.org/search?q=Salted%20fish)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q838052)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q838052) (CC0); [Wikipedia: Salted fish](https://en.wikipedia.org/wiki/Salted_fish) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Sonofabitch stew
 
 Sonofabitch stew (or sonofagun stew.
@@ -11243,6 +11389,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Succotash (Wikipedia)](https://en.wikipedia.org/wiki/Succotash)
+- more: [Cuisine of Equatorial Guinea (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Equatorial_Guinea)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Succotash (Open Library)](https://openlibrary.org/search?q=Succotash)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1130250)
 
@@ -11362,6 +11510,7 @@ Learn more:
 
 - quick: [Banana passionfruit (Wikipedia)](https://en.wikipedia.org/wiki/Banana_passionfruit)
 - more: [Cuisine of Hawaii (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Hawaii)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Banana passionfruit (Open Library)](https://openlibrary.org/search?q=Banana%20passionfruit)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q415622)
 
@@ -11451,6 +11600,7 @@ Learn more:
 
 - quick: [Fiddlehead (Wikipedia)](https://en.wikipedia.org/wiki/Fiddlehead)
 - more: [Cuisine of Hawaii (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Hawaii)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Fiddlehead (Open Library)](https://openlibrary.org/search?q=Fiddlehead)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3546960)
 
@@ -11991,6 +12141,7 @@ Learn more:
 
 - quick: [Flounder (Wikipedia)](https://en.wikipedia.org/wiki/Flounder)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
+- more: [Ainu cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ainu_cuisine)
 - deep: [Books about Flounder (Open Library)](https://openlibrary.org/search?q=Flounder)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4246303)
 
@@ -12158,6 +12309,7 @@ Learn more:
 
 - quick: [Perch (Wikipedia)](https://en.wikipedia.org/wiki/Perch)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
+- more: [Chadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chadian_cuisine)
 - deep: [Books about Perch (Open Library)](https://openlibrary.org/search?q=Perch)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q600262)
 
@@ -12192,6 +12344,7 @@ Learn more:
 
 - quick: [Quail as food (Wikipedia)](https://en.wikipedia.org/wiki/Quail_as_food)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Quail as food (Open Library)](https://openlibrary.org/search?q=Quail%20as%20food)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7268510)
 
@@ -12283,7 +12436,7 @@ Learn more:
 
 - quick: [Salt pork (Wikipedia)](https://en.wikipedia.org/wiki/Salt_pork)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- more: [Cajun cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cajun_cuisine)
+- more: [Bahamian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bahamian_cuisine)
 - deep: [Books about Salt pork (Open Library)](https://openlibrary.org/search?q=Salt%20pork)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7406005)
 
@@ -13020,6 +13173,7 @@ Learn more:
 
 - quick: [Cranberry (Wikipedia)](https://en.wikipedia.org/wiki/Cranberry)
 - more: [Cuisine of New England (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_New_England)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Cranberry (Open Library)](https://openlibrary.org/search?q=Cranberry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13181)
 
@@ -13724,6 +13878,7 @@ Learn more:
 
 - quick: [Jalapeño (Wikipedia)](https://en.wikipedia.org/wiki/Jalape%C3%B1o)
 - more: [New Mexican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Mexican_cuisine)
+- more: [Honduran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Honduran_cuisine)
 - deep: [Books about Jalapeño (Open Library)](https://openlibrary.org/search?q=Jalape%C3%B1o)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q504133)
 

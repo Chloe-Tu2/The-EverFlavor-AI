@@ -24,6 +24,8 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [country_coverage_report.md](country_coverage_report.md), [culinary_region_coverage_report.md](culinary_region_coverage_report.md) | Coverage next to depth, by country and by region |
 | [global_culinary_atlas.md](global_culinary_atlas.md) | Coverage by the UN's world regions (CLDR): a score per continent and subregion, the gaps, up to 500 next dishes per continent, missing versions and the review queue |
 | [world_culinary_coverage.md](world_culinary_coverage.md) | **The headline metric:** how well each country's food tradition is represented (levels 1-3), by continent and subregion, and Africa country by country |
+| [enrichment_impact.md](enrichment_impact.md) | Did the fetches improve the atlas? Before and after: coverage, countries, country pages, stories, families, origins, Indigenous tags (also writes `data/knowledge/atlas/atlas_metrics.json` and the README's Atlas progress block) |
+| [region_knowledge.md](region_knowledge.md) | One knowledge page per food region of the place tree (`data/knowledge/atlas/regions/`): countries, coverage, representative dishes, families, Indigenous traditions |
 | [continent_coverage_report.md](continent_coverage_report.md) | The atlas by continent: its subregions, countries with recipes but no dish page, missing versions, the backlog by status |
 | [food_graph_validation_report.md](food_graph_validation_report.md) | The Food Graph's links checked: orphans, cycles, places that do not reach World, origins the tree lacks, dishes with more than one valid place |
 | [dish_enrichment_queues.md](dish_enrichment_queues.md) | The rich-dish upgrade queue (lowest effort first) and what the waiter is missing per dish |

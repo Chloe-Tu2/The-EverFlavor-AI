@@ -51,6 +51,33 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2986506) (CC0); [Wikipedia: Faloodeh](https://en.wikipedia.org/wiki/Faloodeh) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Kabab koobideh
+
+Kabāb koobideh is an Iranian kabāb made from ground lamb, often mixed with salt, ground black pepper and grated onions.
+
+- From: Iran
+- Origin (Wikidata): Iran
+- Ingredients (Wikidata): minced meat
+
+Fun facts:
+
+- (origin) In some regions, the dish is also known as "koufteh kabāb," originating from the older Persian root kouftan, meaning "to slam" or "to hit." Traditionally, the meat was placed on a flat stone or log and pounded with a wooden mallet to achieve the desired texture.
+- (culture) Koobideh is derived from the past participle of the Persian infinitive koobidan, meaning "to pound," which refers to the traditional method of preparing the meat.
+- (inspiration) The meat is then cooked on a seekh, the Persian word for "skewer." Koobideh is based on the Indian seekh kebab, though there may be regional variations in preparation and flavour.
+
+More fun facts (when the user asks for more):
+
+- (origin) Kabab koobideh comes from Iran.
+
+Learn more:
+
+- quick: [Kabab koobideh (Wikipedia)](https://en.wikipedia.org/wiki/Kabab_koobideh)
+- more: [Iranian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iranian_cuisine)
+- deep: [Books about Kabab koobideh (Open Library)](https://openlibrary.org/search?q=Kabab%20koobideh)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q8215673)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q8215673) (CC0); [Wikipedia: Kabab koobideh](https://en.wikipedia.org/wiki/Kabab_koobideh) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Kabab torsh
 
 Kabab torsh or Kabab-e torsh is a traditional kebab from Gilan and Mazandaran provinces in Iran.

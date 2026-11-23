@@ -13,7 +13,7 @@ Learn more:
 
 - quick: [Eggah (Wikipedia)](https://en.wikipedia.org/wiki/Eggah)
 - more: [Egyptian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Egyptian_cuisine)
-- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
 - deep: [Books about Eggah (Open Library)](https://openlibrary.org/search?q=Eggah)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3853746)
 
@@ -34,6 +34,7 @@ Learn more:
 
 - quick: [Eish fino (Wikipedia)](https://en.wikipedia.org/wiki/Eish_fino)
 - more: [Egyptian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Egyptian_cuisine)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
 - deep: [Books about Eish fino (Open Library)](https://openlibrary.org/search?q=Eish%20fino)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q55610619)
 

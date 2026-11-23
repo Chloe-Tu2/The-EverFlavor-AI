@@ -3,13 +3,13 @@
 | Country | Entries |
 |---|---|
 | [Italy](italy.md) | 540 |
-| [United States](united_states.md) | 528 |
+| [United States](united_states.md) | 533 |
 | [Indonesia](indonesia.md) | 334 |
 | [China](china.md) | 282 |
-| [Mexico](mexico.md) | 170 |
 | [India](india.md) | 169 |
+| [Mexico](mexico.md) | 169 |
 | [Japan](japan.md) | 154 |
-| [Canada](canada.md) | 149 |
+| [Canada](canada.md) | 150 |
 | [Greece](greece.md) | 148 |
 | [Germany](germany.md) | 137 |
 | [France](france.md) | 136 |
@@ -18,7 +18,7 @@
 | [Portugal](portugal.md) | 110 |
 | [Thailand](thailand.md) | 110 |
 | [South Korea](south_korea.md) | 109 |
-| [Australia](australia.md) | 100 |
+| [Australia](australia.md) | 102 |
 | [United Kingdom](united_kingdom.md) | 99 |
 | [Poland](poland.md) | 97 |
 | [Spain](spain.md) | 90 |
@@ -46,54 +46,71 @@
 | [Colombia](colombia.md) | 31 |
 | [Morocco](morocco.md) | 30 |
 | [Palestine](palestine.md) | 28 |
+| [Algeria](algeria.md) | 22 |
 | [Iraq](iraq.md) | 20 |
-| [Iran](iran.md) | 18 |
+| [Iran](iran.md) | 19 |
+| [Ghana](ghana.md) | 17 |
 | [Ethiopia](ethiopia.md) | 15 |
+| [Haiti](haiti.md) | 15 |
 | [Czech Republic](czech_republic.md) | 13 |
+| [Dominican Republic](dominican_republic.md) | 12 |
 | [Pakistan](pakistan.md) | 12 |
-| [Dominican Republic](dominican_republic.md) | 11 |
-| [Ghana](ghana.md) | 11 |
+| [Nicaragua](nicaragua.md) | 11 |
 | [Senegal](senegal.md) | 11 |
+| [Trinidad and Tobago](trinidad_and_tobago.md) | 11 |
 | [Argentina](argentina.md) | 10 |
-| [Nicaragua](nicaragua.md) | 9 |
+| [Kazakhstan](kazakhstan.md) | 9 |
+| [Tunisia](tunisia.md) | 9 |
 | [Austria](austria.md) | 8 |
-| [Guatemala](guatemala.md) | 8 |
-| [Algeria](algeria.md) | 7 |
+| [Uzbekistan](uzbekistan.md) | 8 |
 | [Cameroon](cameroon.md) | 7 |
+| [Guatemala](guatemala.md) | 7 |
 | [Saudi Arabia](saudi_arabia.md) | 7 |
-| [Uzbekistan](uzbekistan.md) | 7 |
-| [Haiti](haiti.md) | 6 |
-| [Tunisia](tunisia.md) | 6 |
-| [Libya](libya.md) | 5 |
-| [Angola](angola.md) | 4 |
+| [Uganda](uganda.md) | 7 |
+| [Madagascar](madagascar.md) | 6 |
+| [Angola](angola.md) | 5 |
+| [El Salvador](el_salvador.md) | 5 |
+| [Guam](guam.md) | 5 |
+| [New Zealand](new_zealand.md) | 5 |
+| [The Bahamas](the_bahamas.md) | 5 |
+| [Benin](benin.md) | 4 |
+| [Botswana](botswana.md) | 4 |
 | [Cape Verde](cape_verde.md) | 4 |
-| [Uganda](uganda.md) | 4 |
+| [Costa Rica](costa_rica.md) | 4 |
+| [Kenya](kenya.md) | 4 |
+| [Libya](libya.md) | 4 |
+| [Somalia](somalia.md) | 4 |
 | [Chad](chad.md) | 3 |
-| [New Zealand](new_zealand.md) | 3 |
+| [Ivory Coast](ivory_coast.md) | 3 |
+| [Kyrgyzstan](kyrgyzstan.md) | 3 |
 | [Puerto Rico](puerto_rico.md) | 3 |
 | [Seychelles](seychelles.md) | 3 |
-| [Somalia](somalia.md) | 3 |
-| [Barbados](barbados.md) | 2 |
+| [Sudan](sudan.md) | 3 |
+| [Tanzania](tanzania.md) | 3 |
+| [Tonga](tonga.md) | 3 |
+| [Zambia](zambia.md) | 3 |
 | [Belize](belize.md) | 2 |
-| [Benin](benin.md) | 2 |
-| [El Salvador](el_salvador.md) | 2 |
-| [Ivory Coast](ivory_coast.md) | 2 |
+| [Central African Republic](central_african_republic.md) | 2 |
+| [Honduras](honduras.md) | 2 |
 | [Malawi](malawi.md) | 2 |
 | [Mauritania](mauritania.md) | 2 |
+| [Mauritius](mauritius.md) | 2 |
 | [Panama](panama.md) | 2 |
-| [Tanzania](tanzania.md) | 2 |
-| [Tonga](tonga.md) | 2 |
-| [Trinidad and Tobago](trinidad_and_tobago.md) | 2 |
-| [Botswana](botswana.md) | 1 |
+| [Tajikistan](tajikistan.md) | 2 |
+| [Vanuatu](vanuatu.md) | 2 |
+| [Barbados](barbados.md) | 1 |
 | [Burkina Faso](burkina_faso.md) | 1 |
 | [Cambodia](cambodia.md) | 1 |
 | [Democratic Republic of the Congo](democratic_republic_of_the_congo.md) | 1 |
+| [Djibouti](djibouti.md) | 1 |
+| [Eritrea](eritrea.md) | 1 |
 | [Guinea](guinea.md) | 1 |
-| [Kazakhstan](kazakhstan.md) | 1 |
-| [Mauritius](mauritius.md) | 1 |
 | [Mozambique](mozambique.md) | 1 |
+| [New Caledonia](new_caledonia.md) | 1 |
 | [Niger](niger.md) | 1 |
 | [Rwanda](rwanda.md) | 1 |
+| [Samoa](samoa.md) | 1 |
 | [South Sudan](south_sudan.md) | 1 |
-| [Tajikistan](tajikistan.md) | 1 |
 | [The Gambia](the_gambia.md) | 1 |
+| [Turkmenistan](turkmenistan.md) | 1 |
+| [Tuvalu](tuvalu.md) | 1 |

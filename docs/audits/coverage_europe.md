@@ -14,7 +14,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| United Kingdom | low | 69 | 47 | 33 | 54 | 4,553 | 172 | 29% |
+| United Kingdom | low | 69 | 46 | 33 | 54 | 4,553 | 172 | 29% |
 | Ireland | medium | 22 | 16 | 13 | 13 | 711 | 7 | 76% |
 
 ## Central Europe

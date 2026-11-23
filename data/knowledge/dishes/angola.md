@@ -22,6 +22,7 @@ Learn more:
 
 - quick: [Catatos (Wikipedia)](https://en.wikipedia.org/wiki/Catatos)
 - more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
+- more: [Cuisine of Angola (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Angola)
 - deep: [Books about Catatos (Open Library)](https://openlibrary.org/search?q=Catatos)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q111084204)
 
@@ -43,6 +44,7 @@ Learn more:
 
 - quick: [Kissuto rombo (Wikipedia)](https://en.wikipedia.org/wiki/Kissuto_rombo)
 - more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
+- more: [Cuisine of Angola (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Angola)
 - deep: [Books about Kissuto rombo (Open Library)](https://openlibrary.org/search?q=Kissuto%20rombo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q111914087)
 
@@ -64,7 +66,7 @@ Learn more:
 
 - quick: [Moambe chicken (Wikipedia)](https://en.wikipedia.org/wiki/Moambe_chicken)
 - more: [Central African cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Central_African_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
 - deep: [Books about Moambe chicken (Open Library)](https://openlibrary.org/search?q=Moambe%20chicken)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3400317)
 
@@ -87,8 +89,29 @@ Learn more:
 
 - quick: [Cocada amarela (Wikipedia)](https://en.wikipedia.org/wiki/Cocada_amarela)
 - more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Angola (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Angola)
 - deep: [Books about Cocada amarela (Open Library)](https://openlibrary.org/search?q=Cocada%20amarela)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5139117)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5139117) (CC0); [Wikipedia: Cocada amarela](https://en.wikipedia.org/wiki/Cocada_amarela) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Malagueta pepper
+
+Malagueta pepper, a variety of Capsicum frutescens, is a type of chili pepper widely used in the Portuguese-speaking world (Portugal, Brazil, Mozambique, Angola, Cape Verde, and São Tomé and Príncipe) and the Caribbean.
+
+- From: Angola
+
+Fun facts:
+
+- (history) The first Europeans to have contact with this species were the crew members who accompanied Christopher Columbus when they first landed in the Caribbean in 1492.
+- (about) At the time of Columbus's arrival in the New World, the Portuguese traded from the Gulf of Guinea a very popular African spice as a substitute for the black pepper: Aframomum melegueta (today in disuse in the West, but known as grains of paradise), which was then best known as melegueta pepper.
+
+Learn more:
+
+- quick: [Malagueta pepper (Wikipedia)](https://en.wikipedia.org/wiki/Malagueta_pepper)
+- more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
+- more: [Cuisine of Angola (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Angola)
+- deep: [Books about Malagueta pepper (Open Library)](https://openlibrary.org/search?q=Malagueta%20pepper)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3312331)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3312331) (CC0); [Wikipedia: Malagueta pepper](https://en.wikipedia.org/wiki/Malagueta_pepper) (CC BY-SA 4.0). Review: auto-cleaned.

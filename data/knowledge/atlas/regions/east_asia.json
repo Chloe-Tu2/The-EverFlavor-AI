@@ -1,0 +1,64 @@
+{
+ "id": "east_asia",
+ "name": "East Asia",
+ "continent": "Asia",
+ "countries": [
+  "China",
+  "Japan",
+  "South Korea",
+  "Taiwan"
+ ],
+ "countries_with_a_dish": [
+  "China",
+  "Japan",
+  "South Korea"
+ ],
+ "coverage_score": 69.1,
+ "dish_count": 366,
+ "food_and_drink_count": 179,
+ "story_count": 310,
+ "representative_dishes": [
+  "Fried rice",
+  "Omelette",
+  "Tofu",
+  "Custard",
+  "Dim sum",
+  "Egg waffle",
+  "Hot pot",
+  "Senbei"
+ ],
+ "dish_families": [
+  "soup",
+  "pork dish",
+  "chicken dish",
+  "rice dish",
+  "wagashi",
+  "beef dish",
+  "egg dish",
+  "guk"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Central Asia",
+  "South Asia",
+  "Southeast Asia"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

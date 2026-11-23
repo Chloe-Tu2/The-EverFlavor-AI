@@ -146,6 +146,33 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q4948232) (CC0); [Wikipedia: Boston bun](https://en.wikipedia.org/wiki/Boston_bun) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Bush bread
+
+Bush bread, or seedcakes, refers to the bread made by Aboriginal Australians by crushing seeds into a dough that is then baked.
+
+- From: Australia
+- Origin (Wikidata): Australia
+
+Fun facts:
+
+- (history) With the arrival of Europeans and pre-milled white flour, this bread-making process has almost disappeared (although women were still recorded to be making seedcakes in Central Australia in the 1970s).
+- (culture) The bread is high in protein and carbohydrate, and forms part of a balanced traditional diet.
+- (origin) Bush bread comes from Australia.
+
+More fun facts (when the user asks for more):
+
+- (culture) The tradition of cooking bread in hot coals continues today.
+- (culture) One of the traditional ingredients was the seeds of kangaroo grass.
+
+Learn more:
+
+- quick: [Bush bread (Wikipedia)](https://en.wikipedia.org/wiki/Bush_bread)
+- more: [Bush tucker (Wikipedia)](https://en.wikipedia.org/wiki/Bush_tucker)
+- deep: [Books about Bush bread (Open Library)](https://openlibrary.org/search?q=Bush%20bread)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1017266)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1017266) (CC0); [Wikipedia: Bush bread](https://en.wikipedia.org/wiki/Bush_bread) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Caramel shortbread
 
 Caramel shortbread, also known as caramel squares, caramel slice, millionaire's shortbread, millionaire's slice, chocolate caramel shortbread or Wellington squares is a biscuit confectionery composed of a shortbread base topped with caramel and milk chocolate.
@@ -1719,6 +1746,31 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q48804759)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q48804759) (CC0); [Wikipedia: Blue Heaven (flavour)](https://en.wikipedia.org/wiki/Blue_Heaven_(flavour)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Bush tomato
+
+Bush tomatoes are the fruit or entire plants of certain nightshade (Solanum) species native to the more arid parts of Australia.
+
+- From: Australia
+
+Fun facts:
+
+- (about) Solanum plastisexum, a rare species first described in 2019, is distinguished among plants for exhibiting "breeding system fluidity" – that is, it has no stable sexual expression.
+- (history) In 1859, Aboriginal people were observed burning off the outer skin of S. aviculare as the raw state would blister their mouths.
+- (origin) There are 94 (mostly perennial) natives and 31 (mostly annual) introduced species in Australia.
+
+More fun facts (when the user asks for more):
+
+- (about) S. chippendalei is consumed by first splitting the fruit, scraping the centre out and eating the outer flesh as the seeds and surrounding placenta are bitter.
+
+Learn more:
+
+- quick: [Bush tomato (Wikipedia)](https://en.wikipedia.org/wiki/Bush_tomato)
+- more: [Bush tucker (Wikipedia)](https://en.wikipedia.org/wiki/Bush_tucker)
+- deep: [Books about Bush tomato (Open Library)](https://openlibrary.org/search?q=Bush%20tomato)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5001454)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5001454) (CC0); [Wikipedia: Bush tomato](https://en.wikipedia.org/wiki/Bush_tomato) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Bush tucker
 

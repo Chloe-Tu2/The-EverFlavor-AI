@@ -6,7 +6,7 @@
   "world": 1,
   "zone": 8,
   "region": 30,
-  "country": 160,
+  "country": 172,
   "division": 5,
   "state": 17,
   "culinary_region": 1
@@ -113,7 +113,7 @@
    "level": "state",
    "country": "United States",
    "dishes": 13,
-   "recipes_by_label": 316
+   "recipes_by_label": 314
   },
   {
    "place": "Louisiana",
@@ -161,7 +161,7 @@
    "place": "Southwestern US",
    "level": "division",
    "country": "United States",
-   "dishes": 45,
+   "dishes": 46,
    "recipes_by_label": 1205
   },
   {
@@ -180,26 +180,28 @@
   }
  ],
  "empty_countries": [
+  "American Samoa",
   "Bahrain",
   "Burundi",
-  "Central African Republic",
   "Comoros",
-  "Djibouti",
+  "Cook Islands",
   "Equatorial Guinea",
   "Eswatini",
+  "Federated States of Micronesia",
   "Fiji",
+  "French Polynesia",
   "Gabon",
   "Guinea-Bissau",
   "Kiribati",
   "Lesotho",
   "Liberia",
+  "Nauru",
+  "Niue",
+  "Palau",
   "Papua New Guinea",
   "Qatar",
   "Solomon Islands",
   "São Tomé and Príncipe",
-  "The Bahamas",
-  "Turkmenistan",
-  "Vanuatu",
   "Zimbabwe"
  ]
 }

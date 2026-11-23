@@ -12,6 +12,7 @@ Learn more:
 
 - quick: [Footi (Wikipedia)](https://en.wikipedia.org/wiki/Footi)
 - more: [Guinean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guinean_cuisine)
+- more: [Cuisine of Guinea (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guinea)
 - deep: [Books about Footi (Open Library)](https://openlibrary.org/search?q=Footi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16867698)
 

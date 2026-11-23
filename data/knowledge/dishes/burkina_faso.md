@@ -23,6 +23,7 @@ Learn more:
 
 - quick: [Zoomkoom (Wikipedia)](https://en.wikipedia.org/wiki/Zoomkoom)
 - more: [Burkinabé cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Burkinab%C3%A9_cuisine)
+- more: [Cuisine of Burkina Faso (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Burkina_Faso)
 - deep: [Books about Zoomkoom (Open Library)](https://openlibrary.org/search?q=Zoomkoom)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q85852488)
 

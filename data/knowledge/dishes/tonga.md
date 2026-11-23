@@ -12,11 +12,31 @@ Learn more:
 
 - quick: ['Ota 'ika (Wikipedia)](https://en.wikipedia.org/wiki/%27Ota_%27ika)
 - more: [Fijian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Fijian_cuisine)
-- more: [Tongan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tongan_cuisine)
+- more: [Cuisine of Fiji (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Fiji)
 - deep: [Books about 'Ota 'ika (Open Library)](https://openlibrary.org/search?q=%27Ota%20%27ika)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3393853)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3393853) (CC0); [Wikipedia: 'Ota 'ika](https://en.wikipedia.org/wiki/'Ota_'ika) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Mutton flaps
+
+Mutton flaps, or breast of lamb, are an inexpensive cut of meat from a sheep.
+
+- From: Tonga
+
+Fun facts:
+
+- (about) On 1 July 2020, Tonga banned the import of mutton flaps from New Zealand, claiming their consumption plays a major role in increasing obesity among the population.
+
+Learn more:
+
+- quick: [Mutton flaps (Wikipedia)](https://en.wikipedia.org/wiki/Mutton_flaps)
+- more: [Tongan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tongan_cuisine)
+- more: [Cuisine of Tonga (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tonga)
+- deep: [Books about Mutton flaps (Open Library)](https://openlibrary.org/search?q=Mutton%20flaps)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q22907126)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q22907126) (CC0); [Wikipedia: Mutton flaps](https://en.wikipedia.org/wiki/Mutton_flaps) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### 'otai
 
@@ -45,6 +65,7 @@ Learn more:
 
 - quick: ['otai (Wikipedia)](https://en.wikipedia.org/wiki/%27otai)
 - more: [Tongan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tongan_cuisine)
+- more: [Cuisine of Tonga (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tonga)
 - deep: [Books about 'otai (Open Library)](https://openlibrary.org/search?q=%27otai)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1761661)
 

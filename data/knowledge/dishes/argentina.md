@@ -55,6 +55,7 @@ Learn more:
 
 - quick: [Chipa (Wikipedia)](https://en.wikipedia.org/wiki/Chipa)
 - more: [List of Argentine dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Argentine_dishes)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Chipa (Open Library)](https://openlibrary.org/search?q=Chipa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9748820)
 

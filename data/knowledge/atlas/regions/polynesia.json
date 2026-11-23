@@ -1,0 +1,55 @@
+{
+ "id": "polynesia",
+ "name": "Polynesia",
+ "continent": "Oceania",
+ "countries": [
+  "American Samoa",
+  "Cook Islands",
+  "French Polynesia",
+  "Niue",
+  "Samoa",
+  "Tonga",
+  "Tuvalu"
+ ],
+ "countries_with_a_dish": [
+  "Tonga"
+ ],
+ "coverage_score": 6.3,
+ "dish_count": 2,
+ "food_and_drink_count": 3,
+ "story_count": 1,
+ "representative_dishes": [
+  "Mutton flaps",
+  "'Ota 'ika"
+ ],
+ "dish_families": [
+  "hot chocolate",
+  "seafood dish",
+  "raw fish dish",
+  "lamb dish"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Australasia",
+  "Melanesia",
+  "Micronesia"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

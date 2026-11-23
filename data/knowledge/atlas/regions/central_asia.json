@@ -1,0 +1,67 @@
+{
+ "id": "central_asia",
+ "name": "Central Asia",
+ "continent": "Asia",
+ "countries": [
+  "Kazakhstan",
+  "Kyrgyzstan",
+  "Tajikistan",
+  "Turkmenistan",
+  "Uzbekistan"
+ ],
+ "countries_with_a_dish": [
+  "Kazakhstan",
+  "Kyrgyzstan",
+  "Tajikistan",
+  "Turkmenistan",
+  "Uzbekistan"
+ ],
+ "coverage_score": 71.4,
+ "dish_count": 16,
+ "food_and_drink_count": 7,
+ "story_count": 8,
+ "representative_dishes": [
+  "Samarkand non",
+  "Tandyr nan",
+  "Kuurdak",
+  "Qatlama",
+  "Beshbarmak",
+  "Nauryz kozhe",
+  "Shakarap",
+  "Chak-chak"
+ ],
+ "dish_families": [
+  "lamb dish",
+  "bread",
+  "candy",
+  "yoghurt and other types of milk or cream, fermented or soured",
+  "soup",
+  "horse meat",
+  "flatbread",
+  "Turkish breads"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "East Asia",
+  "South Asia",
+  "Southeast Asia"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

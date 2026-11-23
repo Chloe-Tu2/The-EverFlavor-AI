@@ -1226,6 +1226,7 @@ Learn more:
 
 - quick: [Raisin (Wikipedia)](https://en.wikipedia.org/wiki/Raisin)
 - more: [Hungarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hungarian_cuisine)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Raisin (Open Library)](https://openlibrary.org/search?q=Raisin)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13186)
 

@@ -1117,7 +1117,7 @@ def explore_by_place() -> None:
 
 # ---------- The Food Discovery Map's data (everflavor.places decides every claim and its words; the page shows them) ----------
 MAP_CREDIT = "© OpenStreetMap contributors (ODbL), map © OpenFreeMap."
-LEVEL_MARKS = {"verified": "✔ Verified", "likely": "◐ Likely", "unknown": "? Unknown"}   # a sign and a word, not colour alone
+LEVEL_MARKS = {"verified": "✓ Verified", "likely": "◐ Likely", "unknown": "? Unknown"}   # a sign and a word, not colour alone
 
 
 @st.cache_data(show_spinner=False)
@@ -1574,7 +1574,7 @@ def saved_text(saved: dict) -> str:
 
 # ---------- Page setup ----------
 CHEF_ICON = ART / "chef_happy.png"
-st.set_page_config(page_title="EverFlavor Kitchen (beta)", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else "🍲",
+st.set_page_config(page_title="EverFlavor Kitchen (beta)", page_icon=str(CHEF_ICON) if CHEF_ICON.exists() else None,
                    layout="wide")
 HOURS = ["Morning", "Afternoon", "Evening", "Night"]
 # The kitchen settings survive a refresh: they live in the page address (?theme=Mexican&hour=Night), never on a

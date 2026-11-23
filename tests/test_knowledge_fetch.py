@@ -97,3 +97,25 @@ def test_wikidata_origin_wins_and_else_the_earliest_named_country() -> None:
     intro = "Gallo en chicha is a chicken dish in Salvadoran cuisine, also eaten in Guatemala."
     assert fk.sprint_country(["Guatemala", "El Salvador"], intro, []) == "El Salvador"
     assert fk.sprint_country(["Guatemala"], "A soup.", []) is None
+
+
+def test_prose_links_are_read_only_when_asked_and_marked() -> None:
+    page = "<h2>Dishes</h2><p>Fijians cook <a href='/wiki/Kokoda'>kokoda</a>.</p><ul><li><a href='/wiki/Lovo'>Lovo</a></li></ul>"
+    plain, prose = fk.ListPage(), fk.ListPage(prose=True)
+    plain.feed(page)
+    prose.feed(page)
+    assert [r["title"] for r in plain.rows] == ["Lovo"]
+    assert [(r["title"], r.get("prose", False)) for r in prose.rows] == [("Kokoda", True), ("Lovo", False)]
+    assert fk.reads_prose("Fiji", "Fijian cuisine") and not fk.reads_prose("Fiji", "List of Fijian dishes")
+    assert not fk.reads_prose("France", "French cuisine") and fk.reads_prose(None, "Māori cuisine")
+
+
+def test_an_indigenous_tradition_is_tagged_only_when_the_intro_names_the_people() -> None:
+    assert fk.traditions(["Māori cuisine"], "Hāngī is a traditional Māori method of cooking food.") == ["Māori"]
+    assert fk.traditions(["Māori cuisine"], "The potato is a starchy tuber.") == []
+    assert fk.traditions(["New Zealand cuisine"], "A Māori dish.") == []   # not on the tradition's page
+
+
+def test_a_people_named_only_in_brackets_is_not_a_tradition() -> None:
+    intro = "Louise cake (keke ruihi in Māori) is a baked New Zealand sweet dish."
+    assert fk.traditions(["Māori cuisine"], intro) == []

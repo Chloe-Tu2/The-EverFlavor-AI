@@ -17,29 +17,29 @@ Learn more:
 
 - quick: [Kondowole (Wikipedia)](https://en.wikipedia.org/wiki/Kondowole)
 - more: [Malawian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malawian_cuisine)
+- more: [Cuisine of Malawi (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Malawi)
 - deep: [Books about Kondowole (Open Library)](https://openlibrary.org/search?q=Kondowole)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17110849)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q17110849) (CC0); [Wikipedia: Kondowole](https://en.wikipedia.org/wiki/Kondowole) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Thobwa
+### Usipa
 
-Thobwa is a Malawian and Zambian fermented drink that has a milky appearance, a cereal taste and a grainy texture.
+Usipa (scientific name: Engraulicypris sardella) is a "small sardine-like fish that occurs in large shoals".
 
 - From: Malawi
-- Origin (Wikidata): Malawi, Zambia
-- Ingredients (Wikidata): millet, hot water, sorghum grain, maize flour
+- Origin (Wikidata): Malawi, Mozambique
 
 Fun facts:
 
-- (about) Thobwa is made from white maize and millet or sorghum and is popular in all parts of the country.
-- (origin) Thobwa comes from Malawi, Zambia.
+- (origin) Usipa comes from Malawi, Mozambique.
 
 Learn more:
 
-- quick: [Thobwa (Wikipedia)](https://en.wikipedia.org/wiki/Thobwa)
+- quick: [Usipa (Wikipedia)](https://en.wikipedia.org/wiki/Usipa)
 - more: [Malawian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malawian_cuisine)
-- deep: [Books about Thobwa (Open Library)](https://openlibrary.org/search?q=Thobwa)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q18394202)
+- more: [Cuisine of Malawi (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Malawi)
+- deep: [Books about Usipa (Open Library)](https://openlibrary.org/search?q=Usipa)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28197217)
 
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q18394202) (CC0); [Wikipedia: Thobwa](https://en.wikipedia.org/wiki/Thobwa) (CC BY-SA 4.0). Review: auto-cleaned.
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q28197217) (CC0); [Wikipedia: Usipa](https://en.wikipedia.org/wiki/Usipa) (CC BY-SA 4.0). Review: auto-cleaned.

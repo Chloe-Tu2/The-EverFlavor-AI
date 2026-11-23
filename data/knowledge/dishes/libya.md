@@ -2,34 +2,6 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
-### Asida
-
-Asida (Arabic: عصيدة, or Maghrebi ġsydë, pronounced [ˈʕsiːdə]), a common dish in the Arab world, is a lump of dough made by stirring wheat flour into boiling water, sometimes with added butter or honey.
-
-- From: Libya
-- Ingredients (Wikidata): wheat flour
-
-Fun facts:
-
-- (history) A recipe for asida that adds argan seed oil was documented by Leo Africanus (c. 1465–1550), the Berber Muslim explorer known as Hasan al-Wazan in the muslim world.
-- (culture) Asida is considered one of the best-known desserts and traditional dishes in many Arab countries.
-- (history) A recipe for asida was also mentioned in an anonymous Hispano-Muslim cookbook dating to the 13th century.
-
-More fun facts (when the user asks for more):
-
-- (culture) Often served during religious holidays such as Mawlid and Eid, it is also served during other traditional ceremonies—for example, those accompanying the birth of a child, such as the ‘aqīqah, the cutting of the hair of a newborn seven days after birth.
-- (culture) A simple, yet rich dish, often eaten without other complementary dishes, it is traditionally served at breakfast and is also given to women in labor.
-
-Learn more:
-
-- quick: [Asida (Wikipedia)](https://en.wikipedia.org/wiki/Asida)
-- more: [South Sudanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/South_Sudanese_cuisine)
-- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
-- deep: [Books about Asida (Open Library)](https://openlibrary.org/search?q=Asida)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2984652)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q2984652) (CC0); [Wikipedia: Asida](https://en.wikipedia.org/wiki/Asida) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Bazin (bread)
 
 Bazin alternatively recognized as Bazeen, Bézine or Bazine is an unleavened bread in the cuisine of Libya prepared with barley, water and salt.
@@ -46,8 +18,8 @@ Fun facts:
 Learn more:
 
 - quick: [Bazin (bread) (Wikipedia)](https://en.wikipedia.org/wiki/Bazin_%28bread%29)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Cuisine of Libya (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Libya)
 - deep: [Books about Bazin (bread) (Open Library)](https://openlibrary.org/search?q=Bazin%20%28bread%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4164571)
 
@@ -68,7 +40,7 @@ Learn more:
 
 - quick: [Usban (Wikipedia)](https://en.wikipedia.org/wiki/Usban)
 - more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
-- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
 - deep: [Books about Usban (Open Library)](https://openlibrary.org/search?q=Usban)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3051726)
 
@@ -96,6 +68,7 @@ Learn more:
 
 - quick: [Libyan tea (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_tea)
 - more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Cuisine of Libya (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Libya)
 - deep: [Books about Libyan tea (Open Library)](https://openlibrary.org/search?q=Libyan%20tea)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28162884)
 
@@ -111,6 +84,7 @@ Learn more:
 
 - quick: [Pilpelchuma (Wikipedia)](https://en.wikipedia.org/wiki/Pilpelchuma)
 - more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Cuisine of Libya (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Libya)
 - deep: [Books about Pilpelchuma (Open Library)](https://openlibrary.org/search?q=Pilpelchuma)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5448411)
 

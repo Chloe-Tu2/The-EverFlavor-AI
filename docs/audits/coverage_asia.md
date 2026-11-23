@@ -8,11 +8,11 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Kazakhstan | low | 6 | 0 | 5 | 5 | 0 | 1 | 86% |
 | Uzbekistan | low | 6 | 0 | 4 | 5 | 0 | 0 | 100% |
-| Kazakhstan | low | 1 | 0 | 0 | 0 | 0 | 3 | 25% |
-| Kyrgyzstan | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Tajikistan | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| Turkmenistan | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Kyrgyzstan | low | 2 | 0 | 1 | 1 | 0 | 1 | 67% |
+| Tajikistan | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Turkmenistan | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
 
 ## East Asia
 
@@ -38,7 +38,7 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Indonesia | high | 248 | 40 | 61 | 169 | 218 | 24 | 91% |
-| Philippines | high | 87 | 37 | 28 | 49 | 255 | 29 | 75% |
+| Philippines | high | 87 | 37 | 28 | 49 | 255 | 30 | 74% |
 | Thailand | high | 77 | 27 | 25 | 45 | 2,428 | 7 | 92% |
 | Vietnam | high | 72 | 16 | 26 | 54 | 500 | 6 | 92% |
 | Malaysia | medium | 38 | 3 | 19 | 23 | 79 | 3 | 93% |
@@ -59,10 +59,10 @@ Back to [world coverage](coverage_world.md).
 
 ## Countries with the most to add
 
-- **Japan** (medium; 139 ready, 0 to review): katsuobushi, zundamochi, warabimochi, toriten, sōmen salad, sakuramochi, rice burger, ohaw.
+- **Japan** (medium; 139 ready, 0 to review): katsuobushi, zundamochi, warabimochi, toriten, sōmen salad, sakuramochi, rui-be, rice burger.
 - **China** (high; 98 ready, 1 to review): imitation shark's fin soup, pineapple bun, mixian, marry girl cake, doubanjiang, Japanese radish, white tea, white sugar sponge cake.
 - **India** (high; 64 ready, 0 to review): Paneer makhani, Malabar matthi curry, Madras curry, Idli podi, Gobhi paratha, vegetable sandwich, tomato omelette, santula.
-- **Philippines** (high; 29 ready, 0 to review): ube crinkles, tortang talong, puto seco, pastillas, mamón, ice buko, agre dulce, Utan.
+- **Philippines** (high; 30 ready, 0 to review): ube crinkles, tortang talong, puto seco, pastillas, mamón, ice buko, agre dulce, Utan.
 - **Indonesia** (high; 24 ready, 0 to review): lampet, Tarempa noodles, Ombus ombus, Meuseukat, Kue talam, Kelan Antep, Bakakak hayam, mie kuah.
 - **Taiwan** (recipes only; 11 ready, 0 to review): tube rice pudding, salty biscuit, egg yolk pastry, bubble tea, Wheel Pie, Taiwanese tea, Shuangbaotai, Mango shaved ice.
 - **South Korea** (high; 9 ready, 0 to review): kkulppang, yeolmu-kimchi, ramyeon, milmyeon, jugyeom, hodu-gwaja, chalbori-ppang, Ttongppang.

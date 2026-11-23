@@ -20,6 +20,7 @@ Learn more:
 
 - quick: [Assidat zgougou (Wikipedia)](https://en.wikipedia.org/wiki/Assidat_zgougou)
 - more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
 - deep: [Books about Assidat zgougou (Open Library)](https://openlibrary.org/search?q=Assidat%20zgougou)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2867155)
 
@@ -40,6 +41,7 @@ Learn more:
 
 - quick: [Bambalouni (Wikipedia)](https://en.wikipedia.org/wiki/Bambalouni)
 - more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
 - deep: [Books about Bambalouni (Open Library)](https://openlibrary.org/search?q=Bambalouni)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2881759)
 
@@ -68,6 +70,7 @@ Learn more:
 
 - quick: [Fricasse (Wikipedia)](https://en.wikipedia.org/wiki/Fricasse)
 - more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
 - deep: [Books about Fricasse (Open Library)](https://openlibrary.org/search?q=Fricasse)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q938386)
 
@@ -90,7 +93,7 @@ Learn more:
 
 - quick: [Lablabi (Wikipedia)](https://en.wikipedia.org/wiki/Lablabi)
 - more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
 - deep: [Books about Lablabi (Open Library)](https://openlibrary.org/search?q=Lablabi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1799455)
 
@@ -113,7 +116,7 @@ Learn more:
 
 - quick: [Mechouia salad (Wikipedia)](https://en.wikipedia.org/wiki/Mechouia_salad)
 - more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
-- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
 - deep: [Books about Mechouia salad (Open Library)](https://openlibrary.org/search?q=Mechouia%20salad)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3469471)
 
@@ -133,7 +136,80 @@ Learn more:
 
 - quick: [Stuffed squid (Wikipedia)](https://en.wikipedia.org/wiki/Stuffed_squid)
 - more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
 - deep: [Books about Stuffed squid (Open Library)](https://openlibrary.org/search?q=Stuffed%20squid)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16933312)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q16933312) (CC0); [Wikipedia: Stuffed squid](https://en.wikipedia.org/wiki/Stuffed_squid) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Boukha
+
+Boukha is a distilled beverage produced from figs.
+
+- From: Tunisia
+- Origin (Wikidata): Tunisia
+
+Fun facts:
+
+- (history) Boukha production is believed to have been established in Tunisia in the 1880s.
+- (origin) Boukha originated in the Tunisian Jewish community, where most of it is still produced.
+- (about) Not to be confused with Mahia.
+
+More fun facts (when the user asks for more):
+
+- (origin) Boukha comes from Tunisia.
+
+Learn more:
+
+- quick: [Boukha (Wikipedia)](https://en.wikipedia.org/wiki/Boukha)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
+- deep: [Books about Boukha (Open Library)](https://openlibrary.org/search?q=Boukha)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q429372)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q429372) (CC0); [Wikipedia: Boukha](https://en.wikipedia.org/wiki/Boukha) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tabil
+
+Tabil is a Tunisian spice mixture generally consisting of ground coriander seed, caraway seed, garlic or garlic powder, and chili powder.
+
+- From: Tunisia
+- Ingredients (Wikidata): chili powder, garlic powder, coriander seed, caraway seeds
+
+Learn more:
+
+- quick: [Tabil (Wikipedia)](https://en.wikipedia.org/wiki/Tabil)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
+- deep: [Books about Tabil (Open Library)](https://openlibrary.org/search?q=Tabil)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3512759)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3512759) (CC0); [Wikipedia: Tabil](https://en.wikipedia.org/wiki/Tabil) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tunisian wine
+
+Tunisian wine has a long history dating back to the Antiquity like most Mediterranean countries with the Phoenicians and Carthage.
+
+- From: Tunisia
+
+Fun facts:
+
+- (history) Despite the arrival of a Muslim power since the 7th century AD, viticulture and wine production never quite disappeared from Tunisia.
+- (origin) Subsequent to the French conquest of Tunisia in 1881, large-scale wine production was introduced into the country, similar to the other North African countries.
+- (history) After Tunisia's conquest by Arabs in the 8th century AD, wine production was reduced but not eliminated.
+
+More fun facts (when the user asks for more):
+
+- (history) After Tunisia's independence in 1956, wine production continued but lack of expertise became a problem, and vineyard area slowly decreased.
+- (history) From the late 1990s, Tunisia has seen foreign investment in its wine industry from several European countries, and production is slowly increasing in the 2000s.
+- (origin) Wine production in today's Tunisia was probably introduced by the Phoenicians when Carthage was established.
+
+Learn more:
+
+- quick: [Tunisian wine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_wine)
+- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Cuisine of Tunisia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Tunisia)
+- deep: [Books about Tunisian wine (Open Library)](https://openlibrary.org/search?q=Tunisian%20wine)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2555826)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2555826) (CC0); [Wikipedia: Tunisian wine](https://en.wikipedia.org/wiki/Tunisian_wine) (CC BY-SA 4.0). Review: auto-cleaned.

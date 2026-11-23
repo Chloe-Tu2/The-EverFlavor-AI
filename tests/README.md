@@ -35,7 +35,7 @@ are (about 30 seconds) and is skipped on GitHub. Run it after rerunning a notebo
 | `test_crew.py` | Meal planner flow with a fake Chef: retries with the problems, safe fallback, its own model list |
 | `test_seasons.py` | Meat supply peaks and grass months, on made-up numbers |
 | `test_llm.py` | Ollama helpers with fake answers: the gate decides, the model's words are kept only when they match, tools keep the profile |
-| `test_red_team.py` | Attacks that must never reach the user: tricky food names, disguised and foreign words ("p0rk", 🐖, cerdo, 猪肉), prompt injection, role-play, "update my profile", hidden instructions in tool results |
+| `test_red_team.py` | Attacks that must never reach the user: tricky food names, disguised and foreign words ("p0rk", a pig emoji, cerdo, 猪肉), prompt injection, role-play, "update my profile", hidden instructions in tool results |
 | `test_evaluation.py` | Agent evaluation scoring with a fake model: leaks, calories per serving, attacks, saved runs |
 | `test_ingredient_merge_review.py` | The ingredient-merge review sheet: only exact Wikidata matches are offered as merges (never loose ones like "thyme sprig" and "mint sprig"), the reviewer's columns are left empty, and names in other languages that miss a flag are reported |
 | `test_product_cautions.py` | Brand names and dishes whose name hides an allergen (Snickers, croissant, carbonara): each raises its caution, ordinary words and look-alikes stay clear, and the table only ever adds cautions |

@@ -185,6 +185,7 @@ Learn more:
 
 - quick: [Mama Juana (Wikipedia)](https://en.wikipedia.org/wiki/Mama_Juana)
 - more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Mama Juana (Open Library)](https://openlibrary.org/search?q=Mama%20Juana)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1428432)
 
@@ -245,7 +246,28 @@ Learn more:
 
 - quick: [Pasteles (Wikipedia)](https://en.wikipedia.org/wiki/Pasteles)
 - more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Pasteles (Open Library)](https://openlibrary.org/search?q=Pasteles)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q104840853)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q104840853) (CC0); [Wikipedia: Pasteles](https://en.wikipedia.org/wiki/Pasteles) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Presidente (beer)
+
+Presidente is a brand of Pilsner beer that is owned and produced by Cervecería Nacional Dominicana (CND) at several breweries in the Dominican Republic.
+
+- From: Dominican Republic
+
+Fun facts:
+
+- (history) In 1929, U.S. industrialist Charles H. Wanzer with other business partners founded the brewery and started brewing the iconic Dominican beer, Presidente, in 1935.
+- (inspiration) The beer was named in honor of then Dominican president Rafael Trujillo.
+
+Learn more:
+
+- quick: [Presidente (beer) (Wikipedia)](https://en.wikipedia.org/wiki/Presidente_%28beer%29)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
+- deep: [Books about Presidente (beer) (Open Library)](https://openlibrary.org/search?q=Presidente%20%28beer%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5400907)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5400907) (CC0); [Wikipedia: Presidente (beer)](https://en.wikipedia.org/wiki/Presidente_(beer)) (CC BY-SA 4.0). Review: auto-cleaned.

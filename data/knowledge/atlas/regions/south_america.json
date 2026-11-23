@@ -1,0 +1,74 @@
+{
+ "id": "south_america",
+ "name": "South America",
+ "continent": "Latin America",
+ "countries": [
+  "Argentina",
+  "Brazil",
+  "Chile",
+  "Colombia",
+  "Ecuador",
+  "Peru",
+  "Uruguay",
+  "Venezuela"
+ ],
+ "countries_with_a_dish": [
+  "Argentina",
+  "Brazil",
+  "Chile",
+  "Colombia",
+  "Peru"
+ ],
+ "coverage_score": 58.5,
+ "dish_count": 123,
+ "food_and_drink_count": 72,
+ "story_count": 74,
+ "representative_dishes": [
+  "Ceviche",
+  "Pão de queijo",
+  "Kuchen",
+  "Brigadeiro",
+  "Arepa",
+  "Ají de gallina",
+  "Ham sandwich",
+  "Sorrentinos"
+ ],
+ "dish_families": [
+  "soup",
+  "confectionery",
+  "stew",
+  "potato dish",
+  "sandwich",
+  "beef dish",
+  "bread",
+  "chicken dish"
+ ],
+ "indigenous_traditions": [
+  {
+   "tradition": "Native American",
+   "foods": 4,
+   "reviewed": false
+  }
+ ],
+ "related_regions": [
+  "Mexico & Central America"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

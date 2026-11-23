@@ -1,0 +1,73 @@
+{
+ "id": "mediterranean_europe",
+ "name": "Mediterranean Europe",
+ "continent": "Europe",
+ "countries": [
+  "Albania",
+  "Andorra",
+  "Croatia",
+  "France",
+  "Greece",
+  "Italy",
+  "Portugal",
+  "Spain"
+ ],
+ "countries_with_a_dish": [
+  "France",
+  "Greece",
+  "Italy",
+  "Portugal",
+  "Spain"
+ ],
+ "coverage_score": 57.6,
+ "dish_count": 623,
+ "food_and_drink_count": 401,
+ "story_count": 466,
+ "representative_dishes": [
+  "Croissant",
+  "Waffle",
+  "Dolma",
+  "Stew",
+  "Neapolitan pizza",
+  "Pasta",
+  "Pasta salad",
+  "Pizza"
+ ],
+ "dish_families": [
+  "pasta",
+  "Italian cheese",
+  "soup",
+  "pastry",
+  "cow's-milk cheese",
+  "confectionery",
+  "stew",
+  "cake"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Baltic States",
+  "British Isles",
+  "Central Europe",
+  "Eastern Europe",
+  "Nordic Countries",
+  "Western Europe"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

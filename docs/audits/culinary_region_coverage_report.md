@@ -22,7 +22,6 @@ Regions below a country, from the place tree and the knowledge notebook (Wikiped
 | China | Zhejiang | no | 2 | 0 | 37.5 |
 | Mexico | Baja California | yes | 0 | 131 |  |
 | Mexico | Chihuahua | no | 1 | 0 | 35.0 |
-| Mexico | Guanajuato | no | 1 | 0 | 100.0 |
 | Mexico | Guerrero | no | 2 | 0 | 67.5 |
 | Mexico | Jalisco | no | 3 | 0 | 69.0 |
 | Mexico | Mexico City | no | 3 | 0 | 50.0 |
@@ -35,7 +34,7 @@ Regions below a country, from the place tree and the knowledge notebook (Wikiped
 | Mexico | Veracruz | no | 1 | 0 | 45.0 |
 | Mexico | Yucatán | no | 8 | 0 | 35.6 |
 | United Kingdom | England | yes | 12 | 1,274 | 61.7 |
-| United Kingdom | Scotland | yes | 52 | 386 | 60.7 |
+| United Kingdom | Scotland | yes | 52 | 386 | 60.4 |
 | United Kingdom | Wales | yes | 1 | 67 | 30.0 |
 | United States | California | yes | 0 | 691 |  |
 | United States | Hawaii | yes | 1 | 384 | 80.0 |
@@ -45,14 +44,14 @@ Regions below a country, from the place tree and the knowledge notebook (Wikiped
 | United States | Pacific Northwest | yes | 0 | 506 |  |
 | United States | Pennsylvania | yes | 22 | 310 | 68.2 |
 | United States | Southern US | yes | 0 | 4,322 |  |
-| United States | Southwestern US | yes | 31 | 1,611 | 68.0 |
+| United States | Southwestern US | yes | 32 | 1,611 | 69.7 |
 | United States | Texas | yes | 0 | 1,353 |  |
 | United States | West Coast | yes | 0 | 0 |  |
 
 ## Gaps
 
 - Asked about and absent from our data: Shandong (China), Punjab (India), Bengal (India), Gujarat (India), Tamil Nadu (India), Hyderabad (India), Kashmir (India), Kerala (India).
-- In the knowledge notebook but not in the tree: Anhui (China), Fujian (China), Hong Kong (China), Jiangsu (China), Northeast China (China), Shanghai (China), Teochew (China), Yunnan (China), Zhejiang (China), Chihuahua (Mexico), Guanajuato (Mexico), Guerrero (Mexico), Jalisco (Mexico), Mexico City (Mexico), Michoacán (Mexico), Puebla (Mexico), San Luis Potosí (Mexico), Sinaloa (Mexico), Sonora (Mexico), Veracruz (Mexico), Yucatán (Mexico).
+- In the knowledge notebook but not in the tree: Anhui (China), Fujian (China), Hong Kong (China), Jiangsu (China), Northeast China (China), Shanghai (China), Teochew (China), Yunnan (China), Zhejiang (China), Chihuahua (Mexico), Guerrero (Mexico), Jalisco (Mexico), Mexico City (Mexico), Michoacán (Mexico), Puebla (Mexico), San Luis Potosí (Mexico), Sinaloa (Mexico), Sonora (Mexico), Veracruz (Mexico), Yucatán (Mexico).
 
 ## Remediation plan
 

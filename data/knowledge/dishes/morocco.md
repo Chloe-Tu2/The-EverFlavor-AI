@@ -47,6 +47,7 @@ Learn more:
 
 - quick: [Baghrir (Wikipedia)](https://en.wikipedia.org/wiki/Baghrir)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Baghrir (Open Library)](https://openlibrary.org/search?q=Baghrir)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2879043)
 
@@ -149,6 +150,7 @@ Learn more:
 
 - quick: [Gazelle ankles (Wikipedia)](https://en.wikipedia.org/wiki/Gazelle_ankles)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Gazelle ankles (Open Library)](https://openlibrary.org/search?q=Gazelle%20ankles)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2364865)
 
@@ -382,7 +384,7 @@ Learn more:
 
 - quick: [Sfenj (Wikipedia)](https://en.wikipedia.org/wiki/Sfenj)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
-- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Sfenj (Open Library)](https://openlibrary.org/search?q=Sfenj)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3090471)
 
@@ -435,7 +437,7 @@ Learn more:
 
 - quick: [Tagine (Wikipedia)](https://en.wikipedia.org/wiki/Tagine)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
-- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Tagine (Open Library)](https://openlibrary.org/search?q=Tagine)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q865004)
 
@@ -575,7 +577,7 @@ Learn more:
 
 - quick: [Harissa (Wikipedia)](https://en.wikipedia.org/wiki/Harissa)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
-- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Harissa (Open Library)](https://openlibrary.org/search?q=Harissa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q966327)
 
@@ -642,7 +644,7 @@ Learn more:
 
 - quick: [Merguez (Wikipedia)](https://en.wikipedia.org/wiki/Merguez)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
-- more: [Tunisian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Tunisian_cuisine)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Merguez (Open Library)](https://openlibrary.org/search?q=Merguez)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1754504)
 
@@ -733,6 +735,7 @@ Learn more:
 
 - quick: [Zaalouk (Wikipedia)](https://en.wikipedia.org/wiki/Zaalouk)
 - more: [List of Moroccan dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Moroccan_dishes)
+- more: [Algerian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Algerian_cuisine)
 - deep: [Books about Zaalouk (Open Library)](https://openlibrary.org/search?q=Zaalouk)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6170718)
 

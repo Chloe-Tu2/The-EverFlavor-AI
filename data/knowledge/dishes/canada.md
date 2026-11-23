@@ -87,6 +87,33 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q804297) (CC0); [Wikipedia: Baked beans](https://en.wikipedia.org/wiki/Baked_beans) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Bannock (Indigenous American food)
+
+Bannock, skaan (or scone), Indian bread, alatiq, or frybread is a flatbread produced by the Indigenous peoples of the Americas now found throughout North America, including Inuit in Canada and Alaska, other Alaska Natives, the First Nations of the rest of Canada, the Native Americans in the United States, and the Métis.
+
+- From: Canada
+
+Fun facts:
+
+- (history) Camas bulbs, out of which bannocks can be made, contributed to the survival of members of the Lewis and Clark Expedition (1804–06).
+- (inspiration) Some sources claim that bannock was unknown in North America until the 1860s when it was created by the Navajo who were incarcerated at Fort Sumner.
+- (origin) The modern recipes for bannock are clearly influenced by the government rations that were distributed on Indian reserves in the late 19th century when access to country foods (plants and animals native to the region) were restricted by the arrival of non-Indigenous settlers.
+
+More fun facts (when the user asks for more):
+
+- (origin) According to other sources, fur traders introduced bannock to tribes in North America, and that a bread, and the name 'bannock', were originally introduced from Scotland.
+- (about) Not to be confused with bannock.
+
+Learn more:
+
+- quick: [Bannock (Indigenous American food) (Wikipedia)](https://en.wikipedia.org/wiki/Bannock_%28Indigenous_American_food%29)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
+- more: [Indigenous cuisine of the Americas (Wikipedia)](https://en.wikipedia.org/wiki/Indigenous_cuisine_of_the_Americas)
+- deep: [Books about Bannock (Indigenous American food) (Open Library)](https://openlibrary.org/search?q=Bannock%20%28Indigenous%20American%20food%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q109827446)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q109827446) (CC0); [Wikipedia: Bannock (Indigenous American food)](https://en.wikipedia.org/wiki/Bannock_(Indigenous_American_food)) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Boston cream pie
 
 A Boston cream pie is a cake with a custard filling.
@@ -951,7 +978,7 @@ Learn more:
 
 - quick: [Johnnycake (Wikipedia)](https://en.wikipedia.org/wiki/Johnnycake)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
-- more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
+- more: [Bahamian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bahamian_cuisine)
 - deep: [Books about Johnnycake (Open Library)](https://openlibrary.org/search?q=Johnnycake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q426103)
 
@@ -1186,6 +1213,7 @@ Learn more:
 
 - quick: [Pemmican (Wikipedia)](https://en.wikipedia.org/wiki/Pemmican)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Pemmican (Open Library)](https://openlibrary.org/search?q=Pemmican)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q130097)
 
@@ -1636,6 +1664,7 @@ Learn more:
 
 - quick: [Toffee (Wikipedia)](https://en.wikipedia.org/wiki/Toffee)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
 - deep: [Books about Toffee (Open Library)](https://openlibrary.org/search?q=Toffee)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q927904)
 
@@ -3314,6 +3343,7 @@ Learn more:
 
 - quick: [Muktuk (Wikipedia)](https://en.wikipedia.org/wiki/Muktuk)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
 - deep: [Books about Muktuk (Open Library)](https://openlibrary.org/search?q=Muktuk)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q940033)
 

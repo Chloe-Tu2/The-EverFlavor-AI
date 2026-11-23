@@ -16,6 +16,7 @@ Learn more:
 
 - quick: [Isombe (Wikipedia)](https://en.wikipedia.org/wiki/Isombe)
 - more: [Rwandan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Rwandan_cuisine)
+- more: [Cuisine of Rwanda (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Rwanda)
 - deep: [Books about Isombe (Open Library)](https://openlibrary.org/search?q=Isombe)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q134817183)
 

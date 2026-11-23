@@ -18,6 +18,7 @@ Learn more:
 
 - quick: [Dimlama (Wikipedia)](https://en.wikipedia.org/wiki/Dimlama)
 - more: [List of Uzbek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Uzbek_dishes)
+- more: [Uzbek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uzbek_cuisine)
 - deep: [Books about Dimlama (Open Library)](https://openlibrary.org/search?q=Dimlama)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5277707)
 
@@ -87,6 +88,7 @@ Learn more:
 
 - quick: [Samarkand non (Wikipedia)](https://en.wikipedia.org/wiki/Samarkand_non)
 - more: [Uzbek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uzbek_cuisine)
+- more: [Cuisine of Uzbekistan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Uzbekistan)
 - deep: [Books about Samarkand non (Open Library)](https://openlibrary.org/search?q=Samarkand%20non)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q117148246)
 
@@ -142,6 +144,26 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3247788) (CC0); [Wikipedia: Tandyr nan](https://en.wikipedia.org/wiki/Tandyr_nan) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Qatiq
+
+Qatiq is a fermented milk product from the Turkic countries and Bulgaria.
+
+- From: Uzbekistan
+
+Fun facts:
+
+- (origin) Qatiq was first made in Central Asia.
+
+Learn more:
+
+- quick: [Qatiq (Wikipedia)](https://en.wikipedia.org/wiki/Qatiq)
+- more: [Uzbek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uzbek_cuisine)
+- more: [Cuisine of Uzbekistan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Uzbekistan)
+- deep: [Books about Qatiq (Open Library)](https://openlibrary.org/search?q=Qatiq)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2996775)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2996775) (CC0); [Wikipedia: Qatiq](https://en.wikipedia.org/wiki/Qatiq) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Uzbek plov
 
 Uzbek plov, also known as palov or osh, is a traditional Uzbek rice dish made with meat (typically fatty lamb cuts), julienned carrots, onions, garlic, rice, cumin powder and cooked together in oil or fat.
@@ -165,6 +187,7 @@ Learn more:
 
 - quick: [Uzbek plov (Wikipedia)](https://en.wikipedia.org/wiki/Uzbek_plov)
 - more: [List of Uzbek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Uzbek_dishes)
+- more: [Uzbek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uzbek_cuisine)
 - deep: [Books about Uzbek plov (Open Library)](https://openlibrary.org/search?q=Uzbek%20plov)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q137168442)
 

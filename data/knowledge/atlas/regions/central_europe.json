@@ -1,0 +1,72 @@
+{
+ "id": "central_europe",
+ "name": "Central Europe",
+ "continent": "Europe",
+ "countries": [
+  "Austria",
+  "Czech Republic",
+  "Germany",
+  "Hungary",
+  "Poland",
+  "Switzerland"
+ ],
+ "countries_with_a_dish": [
+  "Austria",
+  "Czech Republic",
+  "Germany",
+  "Hungary",
+  "Poland",
+  "Switzerland"
+ ],
+ "coverage_score": 91.6,
+ "dish_count": 238,
+ "food_and_drink_count": 98,
+ "story_count": 165,
+ "representative_dishes": [
+  "Hot dog",
+  "Schnitzel",
+  "Turnover (food)",
+  "Frankfurter Würstchen",
+  "Gummy bear",
+  "Lebkuchen",
+  "Mulled wine",
+  "Pumpernickel"
+ ],
+ "dish_families": [
+  "potato dish",
+  "soup",
+  "pastry",
+  "cake",
+  "Brühwurst",
+  "knödel",
+  "beef dish",
+  "stew"
+ ],
+ "indigenous_traditions": [],
+ "related_regions": [
+  "Baltic States",
+  "British Isles",
+  "Eastern Europe",
+  "Mediterranean Europe",
+  "Nordic Countries",
+  "Western Europe"
+ ],
+ "shared_names": [],
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "name": "Wikidata",
+   "licence": "CC0"
+  },
+  {
+   "name": "Unicode CLDR (regions)",
+   "licence": "Unicode License"
+  }
+ ],
+ "human_reviewed": false,
+ "built_on": "2026-11-23",
+ "by": "scripts/knowledge/region_pages.py"
+}

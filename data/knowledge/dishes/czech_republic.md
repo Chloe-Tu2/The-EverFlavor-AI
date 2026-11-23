@@ -65,7 +65,7 @@ Learn more:
 
 - quick: [Hot dog (Wikipedia)](https://en.wikipedia.org/wiki/Hot_dog)
 - more: [Czech cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Czech_cuisine)
-- more: [Guatemalan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guatemalan_cuisine)
+- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
 - deep: [Books about Hot dog (Open Library)](https://openlibrary.org/search?q=Hot%20dog)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q181055)
 

@@ -326,7 +326,7 @@ Learn more:
 
 - quick: [Grain (Wikipedia)](https://en.wikipedia.org/wiki/Grain)
 - more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
-- more: [Nigerien cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerien_cuisine)
+- more: [Ivorian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ivorian_cuisine)
 - deep: [Books about Grain (Open Library)](https://openlibrary.org/search?q=Grain)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2995529)
 
@@ -379,6 +379,7 @@ Learn more:
 
 - quick: [Kaymak (Wikipedia)](https://en.wikipedia.org/wiki/Kaymak)
 - more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
+- more: [Kazakh cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Kazakh_cuisine)
 - deep: [Books about Kaymak (Open Library)](https://openlibrary.org/search?q=Kaymak)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q478654)
 

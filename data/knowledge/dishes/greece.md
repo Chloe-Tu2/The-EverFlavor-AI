@@ -2555,6 +2555,7 @@ Learn more:
 
 - quick: [Gin (Wikipedia)](https://en.wikipedia.org/wiki/Gin)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
 - deep: [Books about Gin (Open Library)](https://openlibrary.org/search?q=Gin)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q959362)
 

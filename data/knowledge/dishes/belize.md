@@ -13,6 +13,7 @@ Learn more:
 
 - quick: [Bile up (Wikipedia)](https://en.wikipedia.org/wiki/Bile_up)
 - more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
+- more: [Cuisine of Belize (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Belize)
 - deep: [Books about Bile up (Open Library)](https://openlibrary.org/search?q=Bile%20up)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4938317)
 
@@ -33,6 +34,7 @@ Learn more:
 
 - quick: [Recado rojo (Wikipedia)](https://en.wikipedia.org/wiki/Recado_rojo)
 - more: [Belizean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belizean_cuisine)
+- more: [Cuisine of Belize (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Belize)
 - deep: [Books about Recado rojo (Open Library)](https://openlibrary.org/search?q=Recado%20rojo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7302262)
 

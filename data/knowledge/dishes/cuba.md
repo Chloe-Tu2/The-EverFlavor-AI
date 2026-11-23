@@ -72,6 +72,7 @@ Learn more:
 
 - quick: [Casabe (Wikipedia)](https://en.wikipedia.org/wiki/Casabe)
 - more: [Cuban cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cuban_cuisine)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Casabe (Open Library)](https://openlibrary.org/search?q=Casabe)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9185291)
 
@@ -394,6 +395,7 @@ Learn more:
 
 - quick: [Moros y Cristianos (dish) (Wikipedia)](https://en.wikipedia.org/wiki/Moros_y_Cristianos_%28dish%29)
 - more: [Cuban cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cuban_cuisine)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Moros y Cristianos (dish) (Open Library)](https://openlibrary.org/search?q=Moros%20y%20Cristianos%20%28dish%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1639853)
 
@@ -516,6 +518,7 @@ Learn more:
 
 - quick: [Rice cake (Wikipedia)](https://en.wikipedia.org/wiki/Rice_cake)
 - more: [List of Cuban dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Cuban_dishes)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
 - deep: [Books about Rice cake (Open Library)](https://openlibrary.org/search?q=Rice%20cake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q15149436)
 
@@ -581,6 +584,7 @@ Learn more:
 
 - quick: [Yuca con mojo (Wikipedia)](https://en.wikipedia.org/wiki/Yuca_con_mojo)
 - more: [Cuban cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cuban_cuisine)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Yuca con mojo (Open Library)](https://openlibrary.org/search?q=Yuca%20con%20mojo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q8060137)
 
@@ -808,6 +812,7 @@ Learn more:
 
 - quick: [Mojito (Wikipedia)](https://en.wikipedia.org/wiki/Mojito)
 - more: [Cuban cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cuban_cuisine)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Mojito (Open Library)](https://openlibrary.org/search?q=Mojito)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q487338)
 
@@ -837,6 +842,7 @@ Learn more:
 
 - quick: [Piña colada (Wikipedia)](https://en.wikipedia.org/wiki/Pi%C3%B1a_colada)
 - more: [Cuban cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cuban_cuisine)
+- more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
 - deep: [Books about Piña colada (Open Library)](https://openlibrary.org/search?q=Pi%C3%B1a%20colada)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q745886)
 
@@ -878,6 +884,7 @@ Learn more:
 
 - quick: [Rum and Coke (Wikipedia)](https://en.wikipedia.org/wiki/Rum_and_Coke)
 - more: [Cuban cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cuban_cuisine)
+- more: [Nicaraguan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nicaraguan_cuisine)
 - deep: [Books about Rum and Coke (Open Library)](https://openlibrary.org/search?q=Rum%20and%20Coke)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q471753)
 

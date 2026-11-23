@@ -291,6 +291,7 @@ Learn more:
 
 - quick: [Entrée (Wikipedia)](https://en.wikipedia.org/wiki/Entr%C3%A9e)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Entrée (Open Library)](https://openlibrary.org/search?q=Entr%C3%A9e)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6545590)
 
@@ -1266,7 +1267,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q303956) (CC0); [Wikipedia: Za
 Zefir is a Russian confectionery, similar to marshmallows and meringue.
 
 - From: Russia
-- Origin (Wikidata): Russia
+- Origin (Wikidata): France
 - Ingredients (Wikidata): egg white
 
 Fun facts:
@@ -1277,7 +1278,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Zefir comes from Russia.
+- (origin) Zefir comes from France.
 - (culture) The name given after the Greek god of the light west wind Zephyr symbolizes its delicate airy consistency.
 
 Learn more:
@@ -1346,6 +1347,7 @@ Learn more:
 
 - quick: [Béchamel sauce (Wikipedia)](https://en.wikipedia.org/wiki/B%C3%A9chamel_sauce)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Béchamel sauce (Open Library)](https://openlibrary.org/search?q=B%C3%A9chamel%20sauce)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q209974)
 
@@ -1606,7 +1608,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q2743860) (CC0); [Wikipedia: P
 A pickled cucumber – commonly known as a pickle in the United States and Canada and a gherkin ( GUR-kin) in Britain, Ireland, South Africa, Australia and New Zealand – is a usually small or miniature cucumber that has been pickled in a brine, vinegar, or other solution and left to ferment.
 
 - From: Russia
-- Ingredients (Wikidata): vinegar, brine, cucumber
+- Ingredients (Wikidata): vinegar, brine, cucumber, Cucumis sativus
 
 Fun facts:
 

@@ -19,7 +19,7 @@ Learn more:
 
 - quick: [Dambou (Wikipedia)](https://en.wikipedia.org/wiki/Dambou)
 - more: [Nigerien cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nigerien_cuisine)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Cuisine of Niger (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Niger)
 - deep: [Books about Dambou (Open Library)](https://openlibrary.org/search?q=Dambou)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q107007191)
 

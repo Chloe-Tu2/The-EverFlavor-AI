@@ -17,6 +17,7 @@ Learn more:
 
 - quick: [Esh (dish) (Wikipedia)](https://en.wikipedia.org/wiki/Esh_%28dish%29)
 - more: [Chadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chadian_cuisine)
+- more: [Cuisine of Chad (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Chad)
 - deep: [Books about Esh (dish) (Open Library)](https://openlibrary.org/search?q=Esh%20%28dish%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q135650124)
 
@@ -37,6 +38,7 @@ Learn more:
 
 - quick: [La bouillie (Chadian food) (Wikipedia)](https://en.wikipedia.org/wiki/La_bouillie_%28Chadian_food%29)
 - more: [Chadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chadian_cuisine)
+- more: [Cuisine of Chad (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Chad)
 - deep: [Books about La bouillie (Chadian food) (Open Library)](https://openlibrary.org/search?q=La%20bouillie%20%28Chadian%20food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q137883935)
 
@@ -57,6 +59,7 @@ Learn more:
 
 - quick: [Jus de fruit (Wikipedia)](https://en.wikipedia.org/wiki/Jus_de_fruit)
 - more: [Chadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chadian_cuisine)
+- more: [Cuisine of Chad (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Chad)
 - deep: [Books about Jus de fruit (Open Library)](https://openlibrary.org/search?q=Jus%20de%20fruit)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q138118113)
 

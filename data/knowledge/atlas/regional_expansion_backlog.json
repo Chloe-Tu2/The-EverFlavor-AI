@@ -11,7 +11,7 @@
   },
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
- "not_placed": 1816,
+ "not_placed": 1819,
  "subregions": {
   "Australasia": [
    {
@@ -40,13 +40,6 @@
     "problems": [
      "a commercial product (Wikidata gives a brand, maker or owner)"
     ]
-   },
-   {
-    "dish": "Bush bread",
-    "wikidata": "Q1017266",
-    "country": "Australia",
-    "status": "ready",
-    "problems": []
    },
    {
     "dish": "Patties pie",
@@ -95,21 +88,21 @@
     ]
    },
    {
-    "dish": "Dumb bread",
-    "wikidata": "Q125797909",
-    "country": "British Virgin Islands",
-    "status": "needs_review",
-    "problems": [
-     "British Virgin Islands is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "goat water",
     "wikidata": "Q25047514",
     "country": "Montserrat",
     "status": "needs_review",
     "problems": [
      "Montserrat is not in the place tree yet"
+    ]
+   },
+   {
+    "dish": "Dumb bread",
+    "wikidata": "Q125797909",
+    "country": "United States Virgin Islands",
+    "status": "needs_review",
+    "problems": [
+     "United States Virgin Islands is not in the place tree yet"
     ]
    },
    {
@@ -130,27 +123,6 @@
     "dish": "Quesito",
     "wikidata": "Q7271398",
     "country": "Puerto Rico",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Aloo pie",
-    "wikidata": "Q2839301",
-    "country": "Trinidad and Tobago",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Buljol",
-    "wikidata": "Q15790217",
-    "country": "Trinidad and Tobago",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "doubles",
-    "wikidata": "Q5300145",
-    "country": "Trinidad and Tobago",
     "status": "ready",
     "problems": []
    }
@@ -182,13 +154,6 @@
     "problems": [
      "a plant or animal on Wikidata, not a dish"
     ]
-   },
-   {
-    "dish": "Sopa de pata",
-    "wikidata": "Q5803846",
-    "country": "El Salvador",
-    "status": "ready",
-    "problems": []
    },
    {
     "dish": "pan de coco",
@@ -261,13 +226,6 @@
     "problems": []
    },
    {
-    "dish": "chirmol",
-    "wikidata": "Q5102129",
-    "country": "Mexico",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "chocolate sandwich",
     "wikidata": "Q5103667",
     "country": "Mexico",
@@ -298,22 +256,8 @@
   ],
   "Central Asia": [
    {
-    "dish": "Nauryz kozhe",
-    "wikidata": "Q12555954",
-    "country": "Kazakhstan",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Shalgam",
     "wikidata": "Q7487184",
-    "country": "Kazakhstan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "kumis",
-    "wikidata": "Q61081",
     "country": "Kazakhstan",
     "status": "ready",
     "problems": []
@@ -331,34 +275,6 @@
     "dish": "Kenyan cheese",
     "wikidata": "Q46477992",
     "country": "Kenya",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Mursik",
-    "wikidata": "Q6939691",
-    "country": "Kenya",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Koba",
-    "wikidata": "Q17107651",
-    "country": "Madagascar",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Romazava",
-    "wikidata": "Q3441149",
-    "country": "Madagascar",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "usipa",
-    "wikidata": "Q28197217",
-    "country": "Malawi",
     "status": "ready",
     "problems": []
    },
@@ -2912,50 +2828,14 @@
   ],
   "Micronesian Region": [
    {
-    "dish": "Guyuria",
-    "wikidata": "Q5622888",
-    "country": "Guam",
-    "status": "needs_review",
-    "problems": [
-     "Guam is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Kalamai",
-    "wikidata": "Q3192094",
-    "country": "Guam",
-    "status": "needs_review",
-    "problems": [
-     "Guam is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Latiya",
     "wikidata": "Q115804031",
     "country": "Guam",
-    "status": "needs_review",
-    "problems": [
-     "Guam is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Roskette",
-    "wikidata": "Q7369003",
-    "country": "Guam",
-    "status": "needs_review",
-    "problems": [
-     "Guam is not in the place tree yet"
-    ]
+    "status": "ready",
+    "problems": []
    }
   ],
   "Northern Africa": [
-   {
-    "dish": "Derssa",
-    "wikidata": "Q16628511",
-    "country": "Algeria",
-    "status": "ready",
-    "problems": []
-   },
    {
     "dish": "Khobz tounes",
     "wikidata": "Q16648323",
@@ -2999,15 +2879,15 @@
     "problems": []
    },
    {
-    "dish": "Mafrum",
-    "wikidata": "Q6585018",
-    "country": "Libya",
+    "dish": "Kabkabou",
+    "wikidata": "Q16248468",
+    "country": "Tunisia",
     "status": "ready",
     "problems": []
    },
    {
-    "dish": "Kabkabou",
-    "wikidata": "Q16248468",
+    "dish": "Mafrum",
+    "wikidata": "Q6585018",
     "country": "Tunisia",
     "status": "ready",
     "problems": []
@@ -7525,6 +7405,13 @@
     "problems": []
    },
    {
+    "dish": "Bahalina",
+    "wikidata": "Q65089903",
+    "country": "Philippines",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Cabanatuan longganisa",
     "wikidata": "Q65085980",
     "country": "Philippines",
@@ -8511,6 +8398,13 @@
     "problems": []
    },
    {
+    "dish": "Kabab Barg",
+    "wikidata": "Q6343718",
+    "country": "Iran",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Mahyawa",
     "wikidata": "Q4164590",
     "country": "Iran",
@@ -8618,6 +8512,13 @@
    {
     "dish": "masghati",
     "wikidata": "Q20987904",
+    "country": "Iran",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "pihta",
+    "wikidata": "Q110362900",
     "country": "Iran",
     "status": "ready",
     "problems": []
@@ -10492,13 +10393,6 @@
     "problems": []
    },
    {
-    "dish": "pihta",
-    "wikidata": "Q110362900",
-    "country": "Iraq",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "tandoor bread",
     "wikidata": "Q2669274",
     "country": "Iraq",
@@ -10543,6 +10437,13 @@
    {
     "dish": "Tzfat cheese",
     "wikidata": "Q2037921",
+    "country": "Israel",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "malawach",
+    "wikidata": "Q2907412",
     "country": "Israel",
     "status": "ready",
     "problems": []
@@ -10662,6 +10563,13 @@
    {
     "dish": "Ramadan pide",
     "wikidata": "Q13644362",
+    "country": "Turkey",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Vakfıkebir ekmeği",
+    "wikidata": "Q19752274",
     "country": "Turkey",
     "status": "ready",
     "problems": []
@@ -10851,13 +10759,6 @@
    {
     "dish": "hawaij",
     "wikidata": "Q536829",
-    "country": "Yemen",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "malawach",
-    "wikidata": "Q2907412",
     "country": "Yemen",
     "status": "ready",
     "problems": []

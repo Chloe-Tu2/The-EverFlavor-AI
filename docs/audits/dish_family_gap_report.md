@@ -7,18 +7,18 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | Family | Members | We have | Missing | Share | Missing by zone | Missing, for example |
 |---|---:|---:|---:|---:|---:|---:|
 | dumpling | 32 | 21 | 11 | 66% | not in the tree 4, Asia 3, Middle East & North Africa 2, Europe 1 | Buuz, Dhapu momo, Idrija dumplings, Khinkali, Mataz |
-| flatbread | 75 | 41 | 34 | 55% | Middle East & North Africa 10, Asia 9, Europe 4, not in the tree 3 | Afghan bread, Ajdov Kruh, Balep korkun, Barbari bread, Bolani |
+| flatbread | 75 | 43 | 32 | 57% | Middle East & North Africa 10, Asia 9, Europe 4, not in the tree 3 | Afghan bread, Ajdov Kruh, Balep korkun, Barbari bread, Bolani |
 | curry | 18 | 7 | 11 | 39% | Asia 5, Europe 1, not in the tree 1 | 3-in-1, Buttermilk curry, Ceylon, Kaalan, Paneer makhani |
-| soup | 338 | 186 | 152 | 55% | Asia 33, Europe 22, not in the tree 22, Africa 7 | 15 bean soup, 2007 Vietnam food scare, Abunuabunu, Afia Efere, Alicot |
-| stew | 118 | 74 | 44 | 63% | Europe 9, Middle East & North Africa 9, not in the tree 5, Africa 2 | Andrajos, Asopao, Bosnian pot, Calulu, Chanakhi |
-| noodle | 43 | 31 | 12 | 72% | Asia 7, not in the tree 1 | Chinkiang pot cover noodles, Japanese noodles, Khauk swè, Korean noodles, Singapore chow mein |
+| soup | 338 | 189 | 149 | 56% | Asia 32, Europe 22, not in the tree 22, Africa 7 | 15 bean soup, 2007 Vietnam food scare, Abunuabunu, Afia Efere, Alicot |
+| stew | 118 | 76 | 42 | 64% | Europe 9, Middle East & North Africa 9, not in the tree 5, Asia 2 | Andrajos, Asopao, Bosnian pot, Calulu, Chanakhi |
+| noodle | 43 | 32 | 11 | 74% | Asia 7, not in the tree 1 | Chinkiang pot cover noodles, Japanese noodles, Khauk swè, Korean noodles, Singapore chow mein |
 | pasta | 87 | 73 | 14 | 84% | Europe 7, not in the tree 2, North America 1 | Farfel, Fusi, Lorighittas, Manicotti, Pasta mollicata |
-| bread | 207 | 72 | 135 | 35% | Europe 37, Middle East & North Africa 14, Asia 10, North America 8 | Adobe bread, Amish Friendship Bread, Antigua Sunday Bread, Apple Bread, Bappir |
-| pastry | 230 | 112 | 118 | 49% | Europe 37, Asia 20, Middle East & North Africa 15, not in the tree 12 | Alivenci, Allerheiligenstriezel, Banana roll, Belly button pastry, Bethmännchen |
+| bread | 207 | 73 | 134 | 35% | Europe 37, Middle East & North Africa 14, Asia 10, North America 8 | Adobe bread, Amish Friendship Bread, Antigua Sunday Bread, Apple Bread, Bappir |
+| pastry | 230 | 113 | 117 | 49% | Europe 37, Asia 20, Middle East & North Africa 15, not in the tree 12 | Alivenci, Allerheiligenstriezel, Banana roll, Belly button pastry, Bethmännchen |
 | cake | 163 | 62 | 101 | 38% | Europe 26, North America 9, not in the tree 8, Asia 6 | Amandine, Amish Friendship Bread, Belokranjska povitica, Bibikkan, Biscuit cake |
 | sausage | 68 | 31 | 37 | 46% | Europe 11, Asia 3, not in the tree 2, Oceania 1 | Babic, Beutelwurst, Brühwurst, Cabanatuan longganisa, Cervelas de Lyon |
-| salad | 125 | 72 | 53 | 58% | not in the tree 11, Europe 9, Asia 7, Middle East & North Africa 4 | Afghan salad, Buddha bowl, Buljol, Burmese salad, Caesar salad |
-| sandwich | 121 | 61 | 60 | 50% | Europe 12, North America 8, Latin America 6, Asia 5 | Afghani burger, Ayvalık tostu, Bokit, Bosna, Camel rider |
+| salad | 125 | 73 | 52 | 58% | not in the tree 11, Europe 9, Asia 7, Middle East & North Africa 4 | Afghan salad, Buddha bowl, Burmese salad, Caesar salad, Chilean salad |
+| sandwich | 121 | 62 | 59 | 51% | Europe 12, North America 8, Latin America 6, Asia 5 | Afghani burger, Ayvalık tostu, Bokit, Bosna, Camel rider |
 
 ## Weakly covered families (10+ members, under 30% present: 42)
 
@@ -40,10 +40,10 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | coffee | 37 | 10 | 27% | Babycino, Black Ivory coffee, Bourbon coffee, Death Wish Coffee, Geisha coffee, Java coffee |
 | chocolate | 27 | 1 | 4% | Belgian chocolate, Dubai chocolate, Dutch-process cocoa, Gianduja, Giri choco, Mingles |
 | raw-milk cheese | 34 | 9 | 26% | Banon cheese, Beenleigh Blue cheese, Boerenkaas, Brie de Meaux, Brie de Melun, Crottin de Chavignol |
-| seed | 29 | 4 | 14% | Grains of Selim, apricot kernel, basil seed, buah keluak, cannabis seed, caraway seeds |
+| seed | 30 | 5 | 17% | Grains of Selim, apricot kernel, basil seed, buah keluak, cannabis seed, caraway seeds |
 | hamburger | 33 | 9 | 27% | 50/50 burger, BK Stacker, BK XXL, Bacon Deluxe, Bonus Jack, Kiwiburger |
-| chili pepper | 31 | 7 | 23% | Ají caballero, Ají dulce, Banana pepper, Bishop's Crown, Black Pearl pepper, Capsicum annuum var. glabriusculum |
 | pressed uncooked cheese | 26 | 2 | 8% | Abbaye de Belloc, Cantal, Etorki, Le Douanier, Maasdam cheese, Mahón cheese |
+| chili pepper | 31 | 8 | 26% | Ají caballero, Ají dulce, Banana pepper, Bishop's Crown, Black Pearl pepper, Capsicum annuum var. glabriusculum |
 | white mold-rind cheese | 26 | 3 | 12% | Brie de Meaux, Brie de Melun, Brillat-Savarin cheese, Carré de l'Est, Chabis, Coulommiers cheese |
 | cola | 25 | 3 | 12% | Amrat Cola, Auvergnat Cola, Beed Cola, Big 8 Cola, Campa Cola, Cherry Cola |
 | cooking oil | 24 | 3 | 12% | Cooking spray, argan oil, camelina oil, corn oil, cottonseed oil, diacylglycerol oil |

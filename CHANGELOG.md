@@ -22,8 +22,22 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   regions (Central Asia, Melanesia, Polynesia, Micronesia). A new country's page sets a dish's country only when
   Wikidata's origin or the dish's own intro names it. World culinary coverage: 36.3% (24.7% before); Africa 33.7%
   (6.9%).
+- **Sprint 2, Oceania and Indigenous foods** (2026-11-23): the fetch also reads the paragraph links on sprint
+  countries' cuisine pages (Fiji's page is prose) and "Cuisine of X" titles (Kenya, Sudan), keeping a dish found
+  only in a paragraph when Wikidata's origin or its intro names the country; 12 more Oceania countries and
+  territories in the place tree. 124 more entries; 103 countries have a dish, 112 country pages. Indigenous food
+  traditions (Māori, Aboriginal Australian, Native American, Inuit, Native Hawaiian, Chamorro; Sámi, Ainu and
+  Mapuche pages read, nothing tagged yet): a tag only when the tradition's page lists the food and the food's
+  intro names the people; all wait for review (`docs/governance/indigenous_review.md`). World culinary coverage
+  40.9%; Africa 41.0%, Oceania 27.9%.
+- **Atlas metrics:** `scripts/knowledge/enrichment_impact.py` (before and after, `atlas_metrics.json`, a recovery
+  chart and the README's generated Atlas progress block) and `region_pages.py` (one knowledge page per food
+  region, validated).
 
 ### Changed
+
+- Decorative emojis removed from the app, docs and comments (the safety engine still reads food emojis in
+  recipes).
 
 - World culinary coverage: a country with no culinary regions in the place tree has no level 2, and its
   regional-styles check does not apply (instead of counting as met).

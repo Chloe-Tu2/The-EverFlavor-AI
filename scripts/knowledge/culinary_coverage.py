@@ -44,6 +44,29 @@ def country_score(checks: dict[str, bool], region_share: float | None, family_sh
     return round(score + 20 * region_share if region_share is not None else score * 100 / 80, 1)
 
 
+def write_traditions(foods: list[dict]) -> None:
+    """data/knowledge/atlas/indigenous_traditions.json: one object per tradition, for review
+    (docs/governance/indigenous_review.md)."""
+    from fetch_knowledge import INDIGENOUS_PAGES
+    out = []
+    for page, (country, name, _) in INDIGENOUS_PAGES.items():
+        if any(t["name"] == name for t in out):
+            next(t for t in out if t["name"] == name)["sources"].append(wiki(page))
+            continue
+        out.append({"name": name, "people": name, "country": country or "several (Wikidata origin decides)",
+                    "sources": [wiki(page)],
+                    "foods": [{k: v for k, v in f.items() if k != "tradition"} for f in foods if f["tradition"] == name]})
+    (OUT.parent / "indigenous_traditions.json").write_text(json.dumps(
+        {"by": "scripts/knowledge/culinary_coverage.py", "rubric": "docs/governance/indigenous_review.md",
+         "licence": "Wikipedia CC BY-SA 4.0, Wikidata CC0", "traditions": out}, ensure_ascii=False, indent=1),
+        encoding="utf-8")
+
+
+def wiki(page: str) -> dict:
+    return {"name": f"Wikipedia: {page}", "url": "https://en.wikipedia.org/wiki/" + page.replace(" ", "_"),
+            "licence": "CC BY-SA 4.0"}
+
+
 def main() -> None:
     atlas = read(KNOW / "atlas" / "coverage_scores.json")["countries"]
     cov = {c["iso"]: c for c in read(KNOW / "coverage" / "country_coverage.json")["countries"] if c["iso"]}
@@ -52,8 +75,14 @@ def main() -> None:
         if r.get("in_taxonomy"):
             regions[r["country"]].append(r)
     cuisine, history = set(), set()
+    indigenous: dict[str, list[str]] = defaultdict(list)   # tradition -> its dishes and foods (sprint 2)
+    foods: list[dict] = []
     for line in (KNOW / "dishes.jsonl").open(encoding="utf-8"):
         d = json.loads(line)
+        for t in d.get("traditions", []):
+            indigenous[t].append(d["name"])
+            foods.append({"tradition": t, "name": d["name"], "qid": d["qid"], "country": d["country"],
+                          "kind": d["kind"], "reviewed": False})
         if d["kind"] != "dish":
             continue
         if any(lm["level"] == "more" and "cuisine" in lm["url"].lower() for lm in d.get("learn_more", [])):
@@ -101,7 +130,8 @@ def main() -> None:
                     "(Wikipedia CC BY-SA, Wikidata CC0)"),
         "rule": {"checks": CHECKS, "score": "60 x level-1 checks met / 5 + 20 x level 2 + 20 x level 3 (no culinary regions: out of 80, scaled to 100)",
                  "counted": f"population >= {MIN_PEOPLE:,} (proposed)"},
-        "world": world, "continents": conts, "subregions": subs, "countries": rows},
+        "world": world, "continents": conts, "subregions": subs, "countries": rows,
+        "indigenous_traditions": {k: sorted(v) for k, v in sorted(indigenous.items())}},
         ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     lines = [f"# World culinary coverage ({date.today().isoformat()})", "",
@@ -136,6 +166,14 @@ def main() -> None:
                      ("no dish page yet" if not r["dishes"] else "; ".join(r["missing"]) or "none")] for r in africa if r["dishes"] or r["recipes"]])
     none = [r["country"] for r in africa if not r["dishes"] and not r["recipes"]]
     lines += ["", f"No dish and no recipe yet ({len(none)}): " + ", ".join(none) + "."]
+    write_traditions(foods)
+    lines += ["", "## Indigenous food traditions (sprint 2)", "",
+              ("A dish or food is tagged with a tradition only when that tradition's Wikipedia page lists it and its "
+               "own intro names the people (`fetch_knowledge.INDIGENOUS_PAGES`); never guessed. A person reviews the "
+               "tags (`docs/governance/needs_human_review.md`)."), ""]
+    lines += table(["Tradition", "Dishes and foods", "Examples"],
+                   [[k, len(v), ", ".join(sorted(v)[:6])] for k, v in sorted(indigenous.items())]
+                   or [["none yet", 0, ""]])
     save_md("world_culinary_coverage.md", lines)
     print("world", world, {k: v["coverage"] for k, v in conts.items()})
 

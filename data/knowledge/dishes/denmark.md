@@ -457,6 +457,7 @@ Learn more:
 
 - quick: [Bitters (Wikipedia)](https://en.wikipedia.org/wiki/Bitters)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- more: [Ghanaian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ghanaian_cuisine)
 - deep: [Books about Bitters (Open Library)](https://openlibrary.org/search?q=Bitters)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q753069)
 
@@ -606,6 +607,7 @@ Learn more:
 
 - quick: [Cod as food (Wikipedia)](https://en.wikipedia.org/wiki/Cod_as_food)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Cod as food (Open Library)](https://openlibrary.org/search?q=Cod%20as%20food)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5139927)
 
@@ -683,6 +685,7 @@ Learn more:
 
 - quick: [Curry powder (Wikipedia)](https://en.wikipedia.org/wiki/Curry_powder)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- more: [Malagasy cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malagasy_cuisine)
 - deep: [Books about Curry powder (Open Library)](https://openlibrary.org/search?q=Curry%20powder)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1144935)
 
@@ -756,6 +759,7 @@ Learn more:
 
 - quick: [Eel as food (Wikipedia)](https://en.wikipedia.org/wiki/Eel_as_food)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- more: [New Caledonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Caledonian_cuisine)
 - deep: [Books about Eel as food (Open Library)](https://openlibrary.org/search?q=Eel%20as%20food)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5347044)
 
@@ -865,6 +869,7 @@ Learn more:
 
 - quick: [Havarti (Wikipedia)](https://en.wikipedia.org/wiki/Havarti)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- more: [Māori cuisine (Wikipedia)](https://en.wikipedia.org/wiki/M%C4%81ori_cuisine)
 - deep: [Books about Havarti (Open Library)](https://openlibrary.org/search?q=Havarti)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1591487)
 
@@ -900,7 +905,7 @@ Learn more:
 
 - quick: [Mustard (condiment) (Wikipedia)](https://en.wikipedia.org/wiki/Mustard_%28condiment%29)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
-- more: [List of Haitian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Haitian_dishes)
+- more: [Bissau-Guinean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bissau-Guinean_cuisine)
 - deep: [Books about Mustard (condiment) (Open Library)](https://openlibrary.org/search?q=Mustard%20%28condiment%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q131748)
 
