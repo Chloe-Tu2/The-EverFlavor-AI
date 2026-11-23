@@ -26,7 +26,7 @@ screens, not advice.
 
 ## Inputs
 
-- A person's profile (`UserProfile`); kept on their machine, never committed (`docs/ethics_privacy.md`).
+- A person's profile (`UserProfile`); kept on their machine, never committed ([ethics_privacy.md](../ethics_privacy.md)).
 - A recipe's ingredient lines, name and steps.
 - The rule tables: the flag policies (`docs/flag_review/flag_policies.csv`), the allergen words in Spanish, French
   and Italian (`docs/flag_review/allergen_words_es_fr_it.csv`, proposed, policy P26) and `may_contain.csv`.

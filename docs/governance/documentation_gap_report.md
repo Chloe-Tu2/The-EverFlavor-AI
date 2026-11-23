@@ -9,13 +9,13 @@ already existed under another name.
 | Page | Exists | State | Gap |
 |---|---|---|---|
 | `README.md` | yes | "At a glance" answers the seven questions (`readme_improvement_report.md`) | "Current Status" is dated; 771 lines |
-| `docs/README.md` | yes | an index of `docs/` | add `safety_engine.md` (done 2026-11-22) |
+| `docs/README.md` | yes | an index of `docs/` | add `architecture/` (done 2026-11-22) |
 | `docs/governance/README.md` | yes | lists every governance page | the reports of 2026-11-22 added |
 | `data/README.md` | yes | the folders and the files outside them | none found |
 | `data/knowledge/README.md` | yes | the knowledge files | the new quality queues added |
 | `notebooks/README.md` | yes | notebooks 01 to 15 | last changed 2026-11-19: check its numbers after the next full run |
 | `src/everflavor/domain/README.md` | yes | purpose, inputs, outputs, dependencies, tests, owner, future work | none |
-| `src/everflavor/safety/README.md` | **no folder** | the safety engine is `flags.py`, `safety.py`, `recommend.py` and others in `src/everflavor/` | written as [docs/safety_engine.md](../safety_engine.md); moving the code into a package is the team's call |
+| `src/everflavor/safety/README.md` | **no folder** | the safety engine is `flags.py`, `safety.py`, `recommend.py` and others in `src/everflavor/` | written as [docs/architecture/safety_engine.md](../architecture/safety_engine.md); moving the code into a package is the team's call |
 | `scripts/` | no README | each script says what it does in its docstring | a short `scripts/README.md` listing them by folder (suggested) |
 | `CONTRIBUTING.md` | yes, at `docs/CONTRIBUTING.md` | linked from the README | GitHub looks in the root, `docs/` or `.github/`, so it is found |
 

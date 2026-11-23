@@ -6,7 +6,7 @@ What the project is, how the data was made, and the rules we work by.
 |---|---|
 | [plans/](plans/README.md) | **Start here for what comes next:** the planner (released 0.5.1, ready 0.7.1, next 0.7.2 and 0.8.0, later), cuisines by country, dish names, cook times and videos, the Houston map, regional kitchens, reliability (hallucinations, photos, the AI models) |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | The working rules for every change (team and AI assistants) |
-| [safety_engine.md](safety_engine.md) | How the safety engine decides: flags, diets, the gate, preparation, confidence and the filter (its files, inputs, outputs, tests, owner) |
+| [architecture/](architecture/README.md) | How the layers fit together (diagram), and the safety engine step by step ([safety_engine.md](architecture/safety_engine.md)) |
 | [datasheet.md](datasheet.md) | What is in the dataset, how it was built, its known limits |
 | [data_dictionary.md](data_dictionary.md) | What every column of the recipe table means |
 | [sources.md](sources.md) | Every data source: link, license, access, version |
