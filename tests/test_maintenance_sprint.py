@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts" / "knowledge"))
 sys.path.insert(0, str(ROOT / "scripts" / "governance"))
 
+import culinary_coverage
 import enrichment_queues
 import graph_validation
 import hygiene_audit
@@ -66,3 +67,10 @@ def test_the_strict_provenance_fields_read_licence_version_and_credit() -> None:
         "licence_named": True, "version": True, "attribution": True}
     assert provenance_audit.strict("a list of dishes") == {
         "licence_named": False, "version": False, "attribution": False}
+
+
+def test_coverage_weighs_level_one_most_and_reaches_100_only_when_complete() -> None:
+    every = dict.fromkeys(culinary_coverage.CHECKS, True)
+    assert culinary_coverage.country_score(every, 1.0, 1.0) == 100.0
+    assert culinary_coverage.country_score(every, 0.0, 0.0) == 60.0
+    assert culinary_coverage.country_score(dict.fromkeys(every, False), 0.0, 0.0) == 0.0

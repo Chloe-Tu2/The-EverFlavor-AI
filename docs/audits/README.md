@@ -23,6 +23,7 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [taxonomy_validation_report.md](taxonomy_validation_report.md) | The place tree checked against the UN regions, and the culinary regions below a country with what they hold |
 | [country_coverage_report.md](country_coverage_report.md), [culinary_region_coverage_report.md](culinary_region_coverage_report.md) | Coverage next to depth, by country and by region |
 | [global_culinary_atlas.md](global_culinary_atlas.md) | Coverage by the UN's world regions (CLDR): a score per continent and subregion, the gaps, up to 500 next dishes per continent, missing versions and the review queue |
+| [world_culinary_coverage.md](world_culinary_coverage.md) | **The headline metric:** how well each country's food tradition is represented (levels 1-3), by continent and subregion, and Africa country by country |
 | [continent_coverage_report.md](continent_coverage_report.md) | The atlas by continent: its subregions, countries with recipes but no dish page, missing versions, the backlog by status |
 | [food_graph_validation_report.md](food_graph_validation_report.md) | The Food Graph's links checked: orphans, cycles, places that do not reach World, origins the tree lacks, dishes with more than one valid place |
 | [dish_enrichment_queues.md](dish_enrichment_queues.md) | The rich-dish upgrade queue (lowest effort first) and what the waiter is missing per dish |
@@ -34,4 +35,4 @@ sprint's reports come from `media_audit.py` (with `fetch_image_candidates.py`) a
 `media_audit.py`, then `quality_reports.py`, then `media_audit.py` again (its priority list reads the scores).
 After notebook 01 rewrites the recipe tables, run them all in this order: `recipe_quality_audit.py`,
 `recipe_dish_links.py`, `recipe_graph.py`, `coverage_audit.py`, `atlas_audit.py`, `graph_assets.py`, then the
-three above, then `image_queue.py`, `completeness_report.py`, `taxonomy_validation.py`, `enrichment_queues.py`, `graph_validation.py` and `continent_report.py`. The atlas reads its regions from `data/knowledge/atlas/regions.json` (`fetch_regions.py`, once).
+three above, then `image_queue.py`, `completeness_report.py`, `taxonomy_validation.py`, `enrichment_queues.py`, `graph_validation.py`, `continent_report.py` and `culinary_coverage.py`. The atlas reads its regions from `data/knowledge/atlas/regions.json` (`fetch_regions.py`, once).
