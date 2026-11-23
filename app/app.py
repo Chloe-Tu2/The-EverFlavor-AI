@@ -63,7 +63,11 @@ from dish_info import (  # app/dish_info.py: the dish page's nutrition
     nutrition_facts,
     nutrition_line,
 )
-from themes import NIGHT_COLORS, THEMES  # app/themes.py: each kitchen's page colors
+from themes import (  # app/themes.py: each kitchen's page colors
+    NIGHT_COLORS,
+    THEMES,
+    kitchen_countries,
+)
 from updates import UPDATES  # app/updates.py: the What's new notes
 
 from everflavor import __version__, saved_recipes, waiter
@@ -132,12 +136,13 @@ DEFAULT_CHEF = "ref_classic_"
 # (each family opens the kitchen of its biggest country in the data: China leads Asian recipes after India, which
 # has no kitchen yet; Morocco leads African; Italy, Mexico and Lebanon the others. Japanese is in Settings.)
 # A country opens the kitchen of its region (docs/plans/CUISINE_REGIONS.md); countries without a fitting kitchen
-# yet open Classic rather than a wrong one
+# yet open Classic rather than a wrong one. The Middle Eastern kitchen's countries come from the place tree's food
+# regions (themes.KITCHEN_REGIONS)
+TAX = st.cache_resource(load_taxonomy)()
 COUNTRY_KITCHENS = {
     **dict.fromkeys(["China", "Taiwan"], "Chinese"), "Japan": "Japanese", "Mexico": "Mexican",
     **dict.fromkeys(["Italy", "Greece", "Spain", "Portugal", "France"], "Mediterranean"),
-    **dict.fromkeys(["Lebanon", "Turkey", "Iran", "Egypt", "Saudi Arabia", "Iraq", "Palestine", "Israel", "Syria"],
-                    "Middle Eastern"),
+    **kitchen_countries(TAX),
     **dict.fromkeys(["Morocco", "Algeria", "Tunisia", "Libya"], "Moroccan"),
 }
 MIN_COUNTRY_RECIPES = 50          # a country is in the Country list with at least this many recipes
@@ -1044,7 +1049,7 @@ Cook the rice. Grill the chicken with the sauces and serve on the rice."""   # C
 
 
 # ---------- The Food Taxonomy: one tree of where food comes from (everflavor.taxonomy), for search, map and Walter ----------
-TAX = st.cache_resource(load_taxonomy)()
+# (TAX is loaded with the kitchens, above)
 EXPLORE_ROWS = [("zone", "Zone"), ("region", "Food region"), ("country", "Country"), ("within", "Within the country"),
                 ("deeper", "Deeper")]
 # What to pick before a muted row opens ("Pick a place in the country first", not "a within the country")
