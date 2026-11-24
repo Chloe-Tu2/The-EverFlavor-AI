@@ -1,4 +1,4 @@
-# Barbados: dish knowledge
+# Antigua and Barbuda: dish knowledge
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
@@ -6,7 +6,7 @@ Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `
 
 Cou-cou, coo-coo (as it is known in the Windward Islands), or fungee (as it is known in the Leeward Islands and Dominica), makes up part of the national dishes of Antigua and Barbuda, Barbados, British Virgin Islands and the U.S. Virgin Islands.
 
-- From: Barbados
+- From: Antigua and Barbuda
 
 Fun facts:
 

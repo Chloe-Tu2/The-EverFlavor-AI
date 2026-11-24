@@ -7,13 +7,35 @@
   "Azerbaijan",
   "Georgia"
  ],
- "countries_with_a_dish": [],
- "coverage_score": 0.0,
- "dish_count": 0,
- "food_and_drink_count": 0,
- "story_count": 0,
- "representative_dishes": [],
- "dish_families": [],
+ "countries_with_a_dish": [
+  "Armenia",
+  "Azerbaijan",
+  "Georgia"
+ ],
+ "coverage_score": 96.6,
+ "dish_count": 42,
+ "food_and_drink_count": 32,
+ "story_count": 20,
+ "representative_dishes": [
+  "Gata (food)",
+  "Khachapuri",
+  "Ghapama",
+  "Matnakash",
+  "Mchadi",
+  "Dovga",
+  "Churchkhela",
+  "Gozinaki"
+ ],
+ "dish_families": [
+  "stew",
+  "bread",
+  "lamb dish",
+  "pastry",
+  "soup",
+  "sauce",
+  "brined cheese",
+  "pie"
+ ],
  "indigenous_traditions": [],
  "related_regions": [
   "Anatolia",

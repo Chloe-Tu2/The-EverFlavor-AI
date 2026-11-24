@@ -8,7 +8,9 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Estonia | recipes only | 0 | 0 | 0 | 0 | 3 | 1 | 0% |
+| Lithuania | low | 4 | 1 | 1 | 1 | 0 | 1 | 80% |
+| Estonia | low | 2 | 0 | 1 | 1 | 3 | 0 | 100% |
+| Latvia | low | 2 | 0 | 3 | 3 | 0 | 0 | 100% |
 
 ## British Isles
 
@@ -22,91 +24,91 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Germany | high | 88 | 39 | 55 | 76 | 1,476 | 40 | 69% |
-| Poland | high | 66 | 23 | 40 | 58 | 418 | 11 | 86% |
+| Poland | high | 68 | 25 | 43 | 62 | 418 | 9 | 88% |
 | Hungary | medium | 42 | 21 | 23 | 39 | 346 | 4 | 91% |
-| Switzerland | medium | 27 | 7 | 17 | 18 | 323 | 32 | 46% |
+| Switzerland | medium | 27 | 7 | 18 | 19 | 323 | 31 | 47% |
 | Czech Republic | low | 10 | 4 | 8 | 10 | 94 | 4 | 71% |
+| Slovenia | low | 9 | 0 | 6 | 7 | 0 | 2 | 82% |
 | Austria | low | 5 | 1 | 6 | 6 | 101 | 9 | 36% |
 
 ## Eastern Europe
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Russia | medium | 48 | 19 | 23 | 41 | 428 | 8 | 86% |
-| Bulgaria | recipes only | 0 | 0 | 0 | 0 | 7 | 12 | 0% |
-| Ukraine | recipes only | 0 | 0 | 0 | 0 | 6 | 5 | 0% |
-| Slovakia | recipes only | 0 | 0 | 0 | 0 | 4 | 3 | 0% |
+| Russia | medium | 48 | 19 | 23 | 41 | 428 | 6 | 89% |
+| Romania | medium | 21 | 4 | 7 | 12 | 0 | 5 | 81% |
+| Ukraine | medium | 16 | 2 | 7 | 7 | 6 | 0 | 100% |
+| Serbia | low | 13 | 3 | 9 | 11 | 0 | 0 | 100% |
+| Bulgaria | low | 12 | 3 | 6 | 8 | 7 | 2 | 86% |
+| Slovakia | low | 10 | 2 | 5 | 5 | 4 | 4 | 71% |
+| North Macedonia | low | 3 | 0 | 4 | 4 | 0 | 0 | 100% |
+| Moldova | low | 2 | 0 | 1 | 1 | 0 | 1 | 67% |
+| Belarus | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Mediterranean Europe
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Italy | high | 327 | 155 | 70 | 251 | 24,910 | 82 | 80% |
-| Greece | high | 88 | 51 | 43 | 75 | 4,334 | 8 | 92% |
+| Italy | high | 329 | 157 | 71 | 252 | 24,910 | 86 | 79% |
+| Greece | high | 88 | 51 | 44 | 76 | 4,334 | 8 | 92% |
 | Portugal | high | 72 | 18 | 16 | 30 | 434 | 5 | 94% |
-| Spain | medium | 49 | 19 | 23 | 36 | 1,851 | 62 | 44% |
-| Albania | recipes only | 0 | 0 | 0 | 0 | 11 | 0 |  |
-| Croatia | recipes only | 0 | 0 | 0 | 0 | 8 | 4 | 0% |
+| Spain | medium | 55 | 21 | 26 | 41 | 1,851 | 58 | 49% |
+| Croatia | medium | 17 | 2 | 5 | 5 | 8 | 1 | 94% |
+| Malta | low | 7 | 1 | 5 | 5 | 0 | 0 | 100% |
+| Albania | low | 5 | 1 | 1 | 1 | 11 | 0 | 100% |
+| Bosnia and Herzegovina | low | 2 | 1 | 1 | 1 | 0 | 0 | 100% |
+| Cyprus | low | 2 | 1 | 0 | 0 | 0 | 3 | 40% |
 | Andorra | recipes only | 0 | 0 | 0 | 0 | 3 | 0 |  |
+| Montenegro | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 
 ## Nordic Countries
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Norway | high | 51 | 22 | 31 | 43 | 200 | 3 | 94% |
-| Sweden | medium | 44 | 17 | 26 | 32 | 463 | 20 | 69% |
-| Finland | medium | 25 | 3 | 12 | 16 | 147 | 10 | 71% |
+| Sweden | medium | 44 | 17 | 27 | 33 | 463 | 20 | 69% |
+| Finland | medium | 25 | 3 | 12 | 16 | 147 | 9 | 74% |
 | Denmark | medium | 18 | 5 | 14 | 17 | 258 | 14 | 56% |
-| Iceland | recipes only | 0 | 0 | 0 | 0 | 34 | 6 | 0% |
+| Iceland | low | 7 | 0 | 4 | 4 | 34 | 2 | 78% |
 
 ## Western Europe
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| France | low | 87 | 58 | 38 | 68 | 8,520 | 180 | 33% |
+| France | low | 88 | 59 | 38 | 68 | 8,520 | 181 | 33% |
 | Netherlands | medium | 31 | 6 | 15 | 26 | 245 | 30 | 51% |
 | Belgium | medium | 25 | 13 | 17 | 23 | 113 | 18 | 58% |
+| Luxembourg | low | 5 | 1 | 3 | 3 | 0 | 0 | 100% |
 
 ## Not in the place tree yet
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Bosnia and Herzegovina | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
 | Jersey | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Latvia | absent | 0 | 0 | 0 | 0 | 0 | 2 | 0% |
-| Lithuania | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
-| Luxembourg | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Malta | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
-| Moldova | absent | 0 | 0 | 0 | 0 | 0 | 4 | 0% |
-| Montenegro | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| North Macedonia | absent | 0 | 0 | 0 | 0 | 0 | 2 | 0% |
-| Romania | absent | 0 | 0 | 0 | 0 | 0 | 20 | 0% |
 | San Marino | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Serbia | absent | 0 | 0 | 0 | 0 | 0 | 8 | 0% |
-| Slovenia | absent | 0 | 0 | 0 | 0 | 0 | 11 | 0% |
 
 ## The countries asked about
 
 ### France
 
-- Coverage: **low** (87 dishes, 58 with recipes, 8,520 recipes; place tree: Europe > Western Europe).
+- Coverage: **low** (88 dishes, 59 with recipes, 8,520 recipes; place tree: Europe > Western Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Quiche, Carrot, Waffle, Mousse, Scrambled eggs, Soufflé, Shepherd's pie, Macaroon.
 - Families present: baked good, battercake, biscuit, bread, cake, confectionery, cookie, culinary foam.
-- Missing (Wikidata family members we lack, 180): tome des Bauges, Valençay, Saint-Nectaire, Reblochon, laguiole cheese, abondance, Selles-sur-Cher cheese, Sainte-Maure de Touraine, Rocamadour, Pélardon.
+- Missing (Wikidata family members we lack, 181): tome des Bauges, Valençay, Saint-Nectaire, Reblochon, laguiole cheese, abondance, Selles-sur-Cher cheese, Sainte-Maure de Touraine, Rocamadour, Pélardon.
 
 ### Italy
 
-- Coverage: **high** (327 dishes, 155 with recipes, 24,910 recipes; place tree: Europe > Mediterranean Europe).
+- Coverage: **high** (329 dishes, 157 with recipes, 24,910 recipes; place tree: Europe > Mediterranean Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Pizza, Lasagna, Pasta salad, Spaghetti, Risotto, Pasta, Frittata, Penne.
 - Families present: Crostata, Neapolitan pizza, antipasto, baked good, beefsteak, biscuit, bonbon, bread.
-- Missing (Wikidata family members we lack, 82): Grana Cheese, tortello amaro di Castel Goffredo, mortadella di Campotosto, Valle d'Aosta Fromadzo PDO, Tuma, Stracciata, Spressa delle Giudicarie PDO, Romano cheese, Red Pecorino, Provola silana.
+- Missing (Wikidata family members we lack, 86): Grana Cheese, tortello amaro di Castel Goffredo, mortadella di Campotosto, Valle d'Aosta Fromadzo PDO, Tuma, Stracciata, Spressa delle Giudicarie PDO, Romano cheese, Red Pecorino, Provola silana.
 
 ### Spain
 
-- Coverage: **medium** (49 dishes, 19 with recipes, 1,851 recipes; place tree: Europe > Mediterranean Europe).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Gazpacho, Paella, Ropa vieja, Spanish omelette, Patatas bravas, Gambas al ajillo, Romesco, Fideuà.
-- Families present: Callos, bean soup, biscuit, bread, bread soup, cold sweet soup, confectionery, cream soup.
-- Missing (Wikidata family members we lack, 62): Palmero cheese, Tupí, Payoyo cheese, Majorero cheese PDO, wafer cookie, roscón de reyes, regañao, pestiños, Valdeón cheese PGI, San Simón da Costa.
+- Coverage: **medium** (55 dishes, 21 with recipes, 1,851 recipes; place tree: Europe > Mediterranean Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Gazpacho, Paella, Ropa vieja, Spanish omelette, Patatas bravas, Gambas al ajillo, Candied almonds, Pionono.
+- Families present: Callos, bean soup, biscuit, bread, bread soup, cake, candy, cold sweet soup.
+- Missing (Wikidata family members we lack, 58): Palmero cheese, Tupí, Payoyo cheese, Majorero cheese PDO, wafer cookie, roscón de reyes, regañao, pestiños, Valdeón cheese PGI, San Simón da Costa.
 
 ### Portugal
 
@@ -120,7 +122,7 @@ Back to [world coverage](coverage_world.md).
 - Coverage: **high** (88 dishes, 51 with recipes, 4,334 recipes; place tree: Europe > Mediterranean Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Tomato soup, Stuffed peppers, Onion soup, Compote, Greek salad, Meringue, Raisin bread, Moussaka.
 - Families present: Greek cheese, Köftes in the Turkish cuisine, Sugar confectionery (including white chocolate), not containing cocoa, baked good, bean soup, bread, bread salad, budino.
-- Missing (Wikidata family members we lack, 8): kourabiedes, kasseropita, freddo cappuccino, Xynotyro, Xynomizithra, Santorini, Lesbian wine, Batzos.
+- Missing (Wikidata family members we lack, 8): kourabiedes, Batzos, kasseropita, freddo cappuccino, Xynotyro, Xynomizithra, Santorini, Lesbian wine.
 
 ### Germany
 
@@ -131,17 +133,17 @@ Back to [world coverage](coverage_world.md).
 
 ### Poland
 
-- Coverage: **high** (66 dishes, 23 with recipes, 418 recipes; place tree: Europe > Central Europe).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Vegetable soup, Deviled egg, Carrot cake, Torte, Cabbage soup, Carrot salad, Pâté, Fruitcake.
-- Families present: Olivier salad, biscuit, blood soup, bonbon, bread, bread soup, cabbage roll, cake.
-- Missing (Wikidata family members we lack, 11): bagel, rugelach, homogenized cheese, bialy, babka, Rokpol, Redykołka, Prądnik bread, Podpłomyk, Kołacz.
+- Coverage: **high** (68 dishes, 25 with recipes, 418 recipes; place tree: Europe > Central Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Vegetable soup, Deviled egg, Carrot cake, Torte, Cabbage soup, Carrot salad, Pâté, Bagel.
+- Families present: Olivier salad, baranki, biscuit, blood soup, bonbon, bread, bread soup, cabbage roll.
+- Missing (Wikidata family members we lack, 9): homogenized cheese, bialy, babka, Rokpol, Redykołka, Prądnik bread, Podpłomyk, Kołacz, Christmas wafer.
 
 ### Ukraine
 
-- Coverage: **recipes only** (0 dishes, 0 with recipes, 6 recipes; place tree: Europe > Eastern Europe).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 5): zozulia, varenyky, palianytsia, Yavoriv pie, Kyiv cake.
+- Coverage: **medium** (16 dishes, 2 with recipes, 6 recipes; place tree: Europe > Eastern Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Varenyky, Knish, Zozulia (food), Yavoriv pie, Ulaniv-style potatoes, Shulyky, Paska (bread), Pampushka.
+- Families present: baked good, bread, cake, cutlet, pie, porridge, stuffed pasta.
+- Missing (Wikidata family members we lack, 0): none listed.
 
 ### Hungary
 
@@ -152,10 +154,10 @@ Back to [world coverage](coverage_world.md).
 
 ### Romania
 
-- Coverage: **absent** (0 dishes, 0 with recipes, 0 recipes; place tree: not in it yet).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 20): sarmale, ciorbă de perișoare, Urdă, Telemea, Sibiu sausage, Scovardă, Rasol, Plăcintă, Penteleu, Papanași.
+- Coverage: **medium** (21 dishes, 4 with recipes, 0 recipes; place tree: Europe > Eastern Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Amandine (dessert), Mămăligă, Mititei, Ciorbă de perișoare, Tocană, Saramură, Salată de boeuf, Rasol (Romanian dish).
+- Families present: bread, cake, cookie, pastry, salad, soup, stew.
+- Missing (Wikidata family members we lack, 5): Brânză de vaci, sarmale, Scovardă, Colaci, Blachindla.
 
 ### Sweden
 
@@ -176,7 +178,7 @@ Back to [world coverage](coverage_world.md).
 - Coverage: **medium** (25 dishes, 3 with recipes, 147 recipes; place tree: Europe > Nordic Countries).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Blueberry pie, Karelian hot pot, Marianne (candy), Åland pancake, Tupla (chocolate bar), Sultsina, Sisu (candy), Rössypottu.
 - Families present: candy, candy bar, chocolate bar, fish soup, marmalade, pastry, pie, rye bread.
-- Missing (Wikidata family members we lack, 10): Aura, sweetened potato casserole, liver casserole, lihapiirakka, kama, cabbage casserole, Rosolli, Pulla, Porilainen, Finnish bread.
+- Missing (Wikidata family members we lack, 9): Aura, sweetened potato casserole, liver casserole, lihapiirakka, cabbage casserole, Rosolli, Pulla, Porilainen, Finnish bread.
 
 ### Denmark
 
@@ -187,63 +189,63 @@ Back to [world coverage](coverage_world.md).
 
 ### Iceland
 
-- Coverage: **recipes only** (0 dishes, 0 with recipes, 34 recipes; place tree: Europe > Nordic Countries).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 6): Ábrystir, Slatur, Rúgbrauð, Laufabrauð, Hákarl, Flatkaka.
+- Coverage: **low** (7 dishes, 0 with recipes, 34 recipes; place tree: Europe > Nordic Countries).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Þorramatur, Vínarterta, Rúgbrauð, Laufabrauð, Hákarl, Hangikjöt, Flatkaka.
+- Families present: bread, fermented fish, flatbread, rye bread.
+- Missing (Wikidata family members we lack, 2): Ábrystir, Slatur.
 
 ### Serbia
 
-- Coverage: **absent** (0 dishes, 0 with recipes, 0 recipes; place tree: not in it yet).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 8): urnebes, slatko, bundevara, Serbian salad, Proja, Pljeskavica, Pasulj, Karađorđeva šnicla.
+- Coverage: **low** (13 dishes, 3 with recipes, 0 recipes; place tree: Europe > Eastern Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Serbian salad, Proja, Pljeskavica, Česnica, Urnebes, Slavski kolač, Slatko, Pindjur.
+- Families present: cornbread, fruit preserves, patty, pie, relish, salad, schnitzel, soda bread.
+- Missing (Wikidata family members we lack, 0): none listed.
 
 ### Croatia
 
-- Coverage: **recipes only** (0 dishes, 0 with recipes, 8 recipes; place tree: Europe > Mediterranean Europe).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 4): rožata, Rab cake, Pag cheese, Mlinci.
+- Coverage: **medium** (17 dishes, 2 with recipes, 8 recipes; place tree: Europe > Mediterranean Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Gregada, Bajadera, Žganci, Čvarci, Zlevanka, Zagorski štrukli, Soparnik, Rab cake.
+- Families present: bread, doughnut, layer cake, pasta, pastry.
+- Missing (Wikidata family members we lack, 1): rožata.
 
 ### Bosnia and Herzegovina
 
-- Coverage: **absent** (0 dishes, 0 with recipes, 0 recipes; place tree: not in it yet).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 3): Livno cheese, Bosnian smoked cheese, Bosnian pot.
+- Coverage: **low** (2 dishes, 1 with recipes, 0 recipes; place tree: Europe > Mediterranean Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Bosnian pot, Tufahije.
+- Families present: stew.
+- Missing (Wikidata family members we lack, 0): none listed.
 
 ### Bulgaria
 
-- Coverage: **recipes only** (0 dishes, 0 with recipes, 7 recipes; place tree: Europe > Eastern Europe).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 12): lukanka, banitsa, Snow White salad, Shopska salad, Pinđur, Mekitsa, Lyutika, Garash cake, Elenski but, Cherni Vit.
+- Coverage: **low** (12 dishes, 3 with recipes, 7 recipes; place tree: Europe > Eastern Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Banitsa, Shopska salad, Snow White salad, Patatnik, Panagyurishte-style eggs, Mish-mash (food), Mekitsa, Lyutika.
+- Families present: cake, flatbread, pastry, raw ham, salad, soup.
+- Missing (Wikidata family members we lack, 2): Cherni Vit, Biscuit cake.
 
 ### Albania
 
-- Coverage: **recipes only** (0 dishes, 0 with recipes, 11 recipes; place tree: Europe > Mediterranean Europe).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
+- Coverage: **low** (5 dishes, 1 with recipes, 11 recipes; place tree: Europe > Mediterranean Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Tavë kosi, Trileçe, Kabuni, Fërgesë, Ballokume.
+- Families present: tres leches cake.
 - Missing (Wikidata family members we lack, 0): none listed.
 
 ### North Macedonia
 
-- Coverage: **absent** (0 dishes, 0 with recipes, 0 recipes; place tree: not in it yet).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 2): malidzano salata, Pastrmajlija.
+- Coverage: **low** (3 dishes, 0 with recipes, 0 recipes; place tree: Europe > Eastern Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Selsko meso, Pastrmajlija, Ajvar.
+- Families present: pie, relish, sauce, stew.
+- Missing (Wikidata family members we lack, 0): none listed.
 
 ### Slovenia
 
-- Coverage: **absent** (0 dishes, 0 with recipes, 0 recipes; place tree: not in it yet).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 11): vrtanek, ričet, obara, Styrian sour soup, Prežganka, Prekmurska gibanica, Potica, Idrija dumplings, Fusi, Belokranjska povitica.
+- Coverage: **low** (9 dishes, 0 with recipes, 0 recipes; place tree: Europe > Central Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Vrtanek, Styrian sour soup, Ritschert, Prežganka, Prekmurska gibanica, Obara (stew), Funšterc, Bujta repa.
+- Families present: bread, cake, layer cake, soup, sour soup, stew.
+- Missing (Wikidata family members we lack, 2): Potica, Ajdov Kruh.
 
 ### Montenegro
 
-- Coverage: **absent** (0 dishes, 0 with recipes, 0 recipes; place tree: not in it yet).
+- Coverage: **absent** (0 dishes, 0 with recipes, 0 recipes; place tree: Europe > Mediterranean Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
 - Families present: none.
 - Missing (Wikidata family members we lack, 1): Njeguška pršuta.
@@ -264,10 +266,10 @@ Back to [world coverage](coverage_world.md).
 
 ### Luxembourg
 
-- Coverage: **absent** (0 dishes, 0 with recipes, 0 recipes; place tree: not in it yet).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 1): Bouneschlupp.
+- Coverage: **low** (5 dishes, 1 with recipes, 0 recipes; place tree: Europe > Western Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): McRib, Éisleker Ham, Verwurelter, Judd mat Gaardebounen, Bouneschlupp.
+- Families present: ham, sandwich, soup.
+- Missing (Wikidata family members we lack, 0): none listed.
 
 ### Austria
 
@@ -281,7 +283,7 @@ Back to [world coverage](coverage_world.md).
 - Coverage: **medium** (27 dishes, 7 with recipes, 323 recipes; place tree: Europe > Central Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Cordon bleu (dish), Schnitzel, Zürcher Geschnetzeltes, Zopf, Swiss chocolate, Papet Vaudois, Mont Blanc (dessert), Älplermagronen.
 - Families present: Bratwurst, beignet, biscuit, cabbage roll, chocolate, cruller, dessert with spoon, dumpling.
-- Missing (Wikidata family members we lack, 32): Vacherin Mont-d'Or, Tête de Moine, Șvaițer, Sbrinz, Raclette du Valais, Gruyère, Emmental, Berner Alpkäse, Appenzeller cheese, vacherin.
+- Missing (Wikidata family members we lack, 31): Vacherin Mont-d'Or, Tête de Moine, Șvaițer, Sbrinz, Raclette du Valais, Gruyère, Berner Alpkäse, Appenzeller cheese, vacherin, totché.
 
 ### Czech Republic
 
@@ -292,9 +294,9 @@ Back to [world coverage](coverage_world.md).
 
 ### Slovakia
 
-- Coverage: **recipes only** (0 dishes, 0 with recipes, 4 recipes; place tree: Europe > Eastern Europe).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): none.
-- Families present: none.
-- Missing (Wikidata family members we lack, 3): Parenica, Korbáčik, Oštiepok.
+- Coverage: **low** (10 dishes, 2 with recipes, 4 recipes; place tree: Europe > Eastern Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Nut roll, Bryndzové halušky, Šúľance, Šumienkový zákusok, Strapačky, Ryžový nákyp, Pudingový koláč, Opekanec.
+- Families present: bakers' confection, cake, gnocchi, pastry, roll.
+- Missing (Wikidata family members we lack, 4): Parenica, Korbáčik, balkánský sýr, Oštiepok.
 
 The Balkans are not a region of the place tree: Albania and Croatia sit under Mediterranean Europe, Bulgaria under Eastern Europe, and Serbia, Bosnia and Herzegovina, North Macedonia, Montenegro, Kosovo and Slovenia are not in it. Adding a Balkans region needs a published source that draws it, as the planner's rule for new levels says.

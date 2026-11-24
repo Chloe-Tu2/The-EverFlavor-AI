@@ -1161,6 +1161,7 @@ Learn more:
 
 - quick: [Choux pastry (Wikipedia)](https://en.wikipedia.org/wiki/Choux_pastry)
 - more: [List of Hungarian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Hungarian_dishes)
+- more: [Bulgarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bulgarian_cuisine)
 - deep: [Books about Choux pastry (Open Library)](https://openlibrary.org/search?q=Choux%20pastry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q898344)
 

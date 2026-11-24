@@ -55,7 +55,7 @@ Learn more:
 
 - quick: [Chipa (Wikipedia)](https://en.wikipedia.org/wiki/Chipa)
 - more: [List of Argentine dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Argentine_dishes)
-- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
+- more: [Paraguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Paraguayan_cuisine)
 - deep: [Books about Chipa (Open Library)](https://openlibrary.org/search?q=Chipa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9748820)
 
@@ -225,6 +225,7 @@ Learn more:
 
 - quick: [Revuelto Gramajo (Wikipedia)](https://en.wikipedia.org/wiki/Revuelto_Gramajo)
 - more: [List of Argentine dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Argentine_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Revuelto Gramajo (Open Library)](https://openlibrary.org/search?q=Revuelto%20Gramajo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6107288)
 
@@ -255,6 +256,7 @@ Learn more:
 
 - quick: [Sorrentinos (Wikipedia)](https://en.wikipedia.org/wiki/Sorrentinos)
 - more: [List of Argentine dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Argentine_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Sorrentinos (Open Library)](https://openlibrary.org/search?q=Sorrentinos)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q51183258)
 

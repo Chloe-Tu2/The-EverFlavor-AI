@@ -8,19 +8,19 @@
  "countries_with_a_dish": [
   "Turkey"
  ],
- "coverage_score": 90.7,
- "dish_count": 57,
- "food_and_drink_count": 20,
- "story_count": 27,
+ "coverage_score": 91.9,
+ "dish_count": 65,
+ "food_and_drink_count": 21,
+ "story_count": 31,
  "representative_dishes": [
   "Pilaf",
   "Adana kebabı",
+  "Meze",
   "Cornbread",
   "Shish kebab",
   "Stuffed mussels",
-  "Doner kebab",
-  "Fish soup",
-  "Dondurma"
+  "Yahni",
+  "Doner kebab"
  ],
  "dish_families": [
   "soup",

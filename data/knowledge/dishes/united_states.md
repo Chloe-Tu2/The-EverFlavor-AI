@@ -957,6 +957,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Chicken mull (Wikipedia)](https://en.wikipedia.org/wiki/Chicken_mull)
+- more: [Croatian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Croatian_cuisine)
+- more: [Cuisine of Croatia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Croatia)
 - deep: [Books about Chicken mull (Open Library)](https://openlibrary.org/search?q=Chicken%20mull)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7570647)
 
@@ -995,7 +997,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Chicken nugget (Wikipedia)](https://en.wikipedia.org/wiki/Chicken_nugget)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Luxembourg cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Luxembourg_cuisine)
+- more: [Cuisine of Luxembourg (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Luxembourg)
 - deep: [Books about Chicken nugget (Open Library)](https://openlibrary.org/search?q=Chicken%20nugget)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1072190)
 
@@ -1038,7 +1041,8 @@ Fun facts:
 Learn more:
 
 - quick: [Chiffon cake (Wikipedia)](https://en.wikipedia.org/wiki/Chiffon_cake)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Sri Lankan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sri_Lankan_cuisine)
+- more: [Cuisine of Sri Lanka (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Sri_Lanka)
 - deep: [Books about Chiffon cake (Open Library)](https://openlibrary.org/search?q=Chiffon%20cake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1373466)
 
@@ -2237,33 +2241,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q550574) (CC0); [Wikipedia: Funeral potatoes](https://en.wikipedia.org/wiki/Funeral_potatoes) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### General Tso's chicken
-
-General Tso's chicken is a Chinese-American sweet and spicy deep-fried chicken dish.
-
-- From: United States
-- Origin (Wikidata): People's Republic of China, Taiwan
-- Named after: Zuo Zongtang
-- Ingredients (Wikidata): sugar, egg, Allium sativum, broccoli, chili pepper, soy sauce, chicken as food, corn starch, garlic
-
-Fun facts:
-
-- (inspiration) Although General Tso's chicken was invented in the 1970s, the dish was retroactively named for Zuo Zongtang (Tso Tsung-t'ang) (1812–1885), a Chinese statesman and military leader from Hunan Province during the late Qing dynasty.
-- (about) Two Chinese chefs, Peng Chang-kuei and T. T. Wang, each claimed to have invented General Tso's chicken in New York City.
-- (origin) General Tso's chicken comes from the People's Republic of China, Taiwan.
-
-More fun facts (when the user asks for more):
-
-- (inspiration) General Tso's chicken is named after Zuo Zongtang.
-
-Learn more:
-
-- quick: [General Tso's chicken (Wikipedia)](https://en.wikipedia.org/wiki/General_Tso%27s_chicken)
-- deep: [Books about General Tso's chicken (Open Library)](https://openlibrary.org/search?q=General%20Tso%27s%20chicken)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q839206)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q839206) (CC0); [Wikipedia: General Tso's chicken](https://en.wikipedia.org/wiki/General_Tso's_chicken) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Gerber sandwich
 
 The Gerber is an open-faced sandwich made in St. Louis, Missouri.
@@ -2831,7 +2808,8 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Jell-O (Wikipedia)](https://en.wikipedia.org/wiki/Jell-O)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Montenegrin cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Montenegrin_cuisine)
+- more: [Cuisine of Montenegro (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Montenegro)
 - deep: [Books about Jell-O (Open Library)](https://openlibrary.org/search?q=Jell-O)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1686705)
 
@@ -3309,6 +3287,8 @@ Fun facts:
 Learn more:
 
 - quick: [Lox (Wikipedia)](https://en.wikipedia.org/wiki/Lox)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
+- more: [Cuisine of Israel (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Israel)
 - deep: [Books about Lox (Open Library)](https://openlibrary.org/search?q=Lox)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1202221)
 
@@ -5781,6 +5761,7 @@ More fun facts (when the user asks for more):
 Learn more:
 
 - quick: [Toasted ravioli (Wikipedia)](https://en.wikipedia.org/wiki/Toasted_ravioli)
+- more: [List of Maltese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Maltese_dishes)
 - deep: [Books about Toasted ravioli (Open Library)](https://openlibrary.org/search?q=Toasted%20ravioli)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7811421)
 
@@ -6317,6 +6298,7 @@ Learn more:
 
 - quick: [Cracklings (Wikipedia)](https://en.wikipedia.org/wiki/Cracklings)
 - more: [Cajun cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cajun_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Cracklings (Open Library)](https://openlibrary.org/search?q=Cracklings)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11554312)
 
@@ -7243,7 +7225,7 @@ Learn more:
 
 - quick: [Graham bread (Wikipedia)](https://en.wikipedia.org/wiki/Graham_bread)
 - more: [Midwestern cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Midwestern_cuisine)
-- more: [Cuisine of the Midwestern United States (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_the_Midwestern_United_States)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
 - deep: [Books about Graham bread (Open Library)](https://openlibrary.org/search?q=Graham%20bread)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q765257)
 
@@ -8196,7 +8178,7 @@ Learn more:
 
 - quick: [Pumpkin pie (Wikipedia)](https://en.wikipedia.org/wiki/Pumpkin_pie)
 - more: [Cuisine of New England (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_New_England)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
 - deep: [Books about Pumpkin pie (Open Library)](https://openlibrary.org/search?q=Pumpkin%20pie)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2118270)
 
@@ -10512,7 +10494,8 @@ Fun facts:
 Learn more:
 
 - quick: [Fry sauce (Wikipedia)](https://en.wikipedia.org/wiki/Fry_sauce)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
+- more: [Cuisine of Uruguay (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Uruguay)
 - deep: [Books about Fry sauce (Open Library)](https://openlibrary.org/search?q=Fry%20sauce)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16981502)
 
@@ -11357,7 +11340,8 @@ String cheese is any of several different types of cheese where the manufacturin
 Learn more:
 
 - quick: [String cheese (Wikipedia)](https://en.wikipedia.org/wiki/String_cheese)
-- more: [List of American foods (Wikipedia)](https://en.wikipedia.org/wiki/List_of_American_foods)
+- more: [Armenian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Armenian_cuisine)
+- more: [Cuisine of Armenia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Armenia)
 - deep: [Books about String cheese (Open Library)](https://openlibrary.org/search?q=String%20cheese)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5761746)
 
@@ -11510,7 +11494,7 @@ Learn more:
 
 - quick: [Banana passionfruit (Wikipedia)](https://en.wikipedia.org/wiki/Banana_passionfruit)
 - more: [Cuisine of Hawaii (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Hawaii)
-- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
+- more: [Ecuadorian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ecuadorian_cuisine)
 - deep: [Books about Banana passionfruit (Open Library)](https://openlibrary.org/search?q=Banana%20passionfruit)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q415622)
 
@@ -12141,7 +12125,7 @@ Learn more:
 
 - quick: [Flounder (Wikipedia)](https://en.wikipedia.org/wiki/Flounder)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
-- more: [Ainu cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ainu_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Flounder (Open Library)](https://openlibrary.org/search?q=Flounder)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4246303)
 
@@ -12517,6 +12501,7 @@ Learn more:
 
 - quick: [Tabasco pepper (Wikipedia)](https://en.wikipedia.org/wiki/Tabasco_pepper)
 - more: [Louisiana Creole cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Louisiana_Creole_cuisine)
+- more: [Sri Lankan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sri_Lankan_cuisine)
 - deep: [Books about Tabasco pepper (Open Library)](https://openlibrary.org/search?q=Tabasco%20pepper)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q281405)
 
@@ -13173,7 +13158,7 @@ Learn more:
 
 - quick: [Cranberry (Wikipedia)](https://en.wikipedia.org/wiki/Cranberry)
 - more: [Cuisine of New England (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_New_England)
-- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
+- more: [Lithuanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lithuanian_cuisine)
 - deep: [Books about Cranberry (Open Library)](https://openlibrary.org/search?q=Cranberry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13181)
 
@@ -13249,6 +13234,7 @@ Learn more:
 
 - quick: [Halibut (Wikipedia)](https://en.wikipedia.org/wiki/Halibut)
 - more: [Cuisine of New England (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_New_England)
+- more: [Icelandic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Icelandic_cuisine)
 - deep: [Books about Halibut (Open Library)](https://openlibrary.org/search?q=Halibut)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3074737)
 
@@ -13763,7 +13749,8 @@ Fun facts:
 Learn more:
 
 - quick: [Chile con queso (Wikipedia)](https://en.wikipedia.org/wiki/Chile_con_queso)
-- more: [Cuisine of the Southwestern United States (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_the_Southwestern_United_States)
+- more: [New Mexican cuisine (Wikipedia)](https://en.wikipedia.org/wiki/New_Mexican_cuisine)
+- more: [Bhutanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bhutanese_cuisine)
 - deep: [Books about Chile con queso (Open Library)](https://openlibrary.org/search?q=Chile%20con%20queso)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2578908)
 

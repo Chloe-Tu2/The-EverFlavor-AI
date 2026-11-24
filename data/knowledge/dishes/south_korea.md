@@ -152,6 +152,7 @@ Learn more:
 
 - quick: [Bibimbap (Wikipedia)](https://en.wikipedia.org/wiki/Bibimbap)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Bibimbap (Open Library)](https://openlibrary.org/search?q=Bibimbap)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q648352)
 
@@ -228,6 +229,7 @@ Learn more:
 
 - quick: [Bosintang (Wikipedia)](https://en.wikipedia.org/wiki/Bosintang)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Bosintang (Open Library)](https://openlibrary.org/search?q=Bosintang)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q675466)
 
@@ -297,6 +299,7 @@ Learn more:
 
 - quick: [Bulgogi (Wikipedia)](https://en.wikipedia.org/wiki/Bulgogi)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Bulgogi (Open Library)](https://openlibrary.org/search?q=Bulgogi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q683682)
 
@@ -525,6 +528,7 @@ Learn more:
 
 - quick: [Dongchimi (Wikipedia)](https://en.wikipedia.org/wiki/Dongchimi)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [North Korean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/North_Korean_cuisine)
 - deep: [Books about Dongchimi (Open Library)](https://openlibrary.org/search?q=Dongchimi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q904155)
 
@@ -725,6 +729,7 @@ Learn more:
 
 - quick: [Gimbap (Wikipedia)](https://en.wikipedia.org/wiki/Gimbap)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Gimbap (Open Library)](https://openlibrary.org/search?q=Gimbap)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q495360)
 
@@ -1099,6 +1104,7 @@ Learn more:
 
 - quick: [Jokbal (Wikipedia)](https://en.wikipedia.org/wiki/Jokbal)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Jokbal (Open Library)](https://openlibrary.org/search?q=Jokbal)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q836773)
 
@@ -1464,6 +1470,7 @@ Learn more:
 
 - quick: [Naengmyeon (Wikipedia)](https://en.wikipedia.org/wiki/Naengmyeon)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Naengmyeon (Open Library)](https://openlibrary.org/search?q=Naengmyeon)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q715084)
 
@@ -1506,6 +1513,7 @@ Learn more:
 
 - quick: [Pajeon (Wikipedia)](https://en.wikipedia.org/wiki/Pajeon)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Pajeon (Open Library)](https://openlibrary.org/search?q=Pajeon)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q716464)
 
@@ -1662,6 +1670,7 @@ Learn more:
 
 - quick: [Sinseollo (Wikipedia)](https://en.wikipedia.org/wiki/Sinseollo)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Sinseollo (Open Library)](https://openlibrary.org/search?q=Sinseollo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q727198)
 
@@ -2255,6 +2264,7 @@ Learn more:
 
 - quick: [Gochujang (Wikipedia)](https://en.wikipedia.org/wiki/Gochujang)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Gochujang (Open Library)](https://openlibrary.org/search?q=Gochujang)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q699637)
 
@@ -2423,6 +2433,7 @@ Learn more:
 
 - quick: [Makgeolli (Wikipedia)](https://en.wikipedia.org/wiki/Makgeolli)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Makgeolli (Open Library)](https://openlibrary.org/search?q=Makgeolli)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q696911)
 
@@ -2559,6 +2570,7 @@ Learn more:
 
 - quick: [Soju (Wikipedia)](https://en.wikipedia.org/wiki/Soju)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Soju (Open Library)](https://openlibrary.org/search?q=Soju)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q696105)
 
@@ -2662,6 +2674,7 @@ Learn more:
 
 - quick: [Sundae (sausage) (Wikipedia)](https://en.wikipedia.org/wiki/Sundae_%28sausage%29)
 - more: [List of Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Korean_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Sundae (sausage) (Open Library)](https://openlibrary.org/search?q=Sundae%20%28sausage%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q115251)
 

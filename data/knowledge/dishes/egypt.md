@@ -204,6 +204,39 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1197104) (CC0); [Wikipedia: Koshary](https://en.wikipedia.org/wiki/Koshary) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Matzah
+
+Matzah, matzo, mazza, or maẓẓah is an unleavened flatbread that is part of Jewish cuisine and forms an integral element of the Passover festival, during which chametz (leavening agent and five grains deemed by halakha to be self-leavening) is forbidden.
+
+- From: Egypt
+- Origin (Wikidata): Egypt
+- Ingredients (Wikidata): drinking water, flour
+
+Fun facts:
+
+- (culture) Matzah that is kosher for Passover is limited in Ashkenazi tradition to plain matzah made from flour and water.
+- (origin) Matzah comes from Egypt.
+- (culture) There are numerous explanations behind the symbolism of matzah: Passover is a commemoration of the exodus from Egypt.
+
+More fun facts (when the user asks for more):
+
+- (culture) Matzah symbolizes redemption and freedom, but it is also called lechem oni, "poor man's bread".
+- (culture) This matzah is called afikoman, and many explain it as a symbol of salvation in the future.
+- (culture) The Passover Seder meal is full of symbols of salvation, including the closing line, "Next year in Jerusalem", but the use of matzah is the oldest symbol of salvation in the Seder.
+- (culture) According to the Torah, God commanded the Israelites (modernly, Jews and Samaritans) to eat only unleavened bread during the seven-day Passover festival.
+- (culture) Ancient Egypt was the first culture to produce leavened bread, and leavened bread was a symbol of Egyptian culture.
+- (culture) Leaven symbolizes corruption and pride as leaven "puffs up".
+- (culture) The requirement for everyone to eat unleavened bread at Passover promotes social equality, by forcing the rich and poor to eat the same kind of food as they celebrate the holiday together.
+
+Learn more:
+
+- quick: [Matzah (Wikipedia)](https://en.wikipedia.org/wiki/Matzah)
+- more: [List of Israeli dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Israeli_dishes)
+- deep: [Books about Matzah (Open Library)](https://openlibrary.org/search?q=Matzah)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q211361)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q211361) (CC0); [Wikipedia: Matzah](https://en.wikipedia.org/wiki/Matzah) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Mazalika
 
 Mazalika is an Egyptian dish made of chicken liver and gizzard.
@@ -291,6 +324,7 @@ Learn more:
 
 - quick: [Om Ali (Wikipedia)](https://en.wikipedia.org/wiki/Om_Ali)
 - more: [Egyptian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Egyptian_cuisine)
+- more: [Qatari cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Qatari_cuisine)
 - deep: [Books about Om Ali (Open Library)](https://openlibrary.org/search?q=Om%20Ali)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2022950)
 
@@ -538,6 +572,7 @@ Learn more:
 
 - quick: [Feteer meshaltet (Wikipedia)](https://en.wikipedia.org/wiki/Feteer_meshaltet)
 - more: [Egyptian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Egyptian_cuisine)
+- more: [Yemeni cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Yemeni_cuisine)
 - deep: [Books about Feteer meshaltet (Open Library)](https://openlibrary.org/search?q=Feteer%20meshaltet)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12230920)
 

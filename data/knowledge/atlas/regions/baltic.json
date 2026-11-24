@@ -3,15 +3,39 @@
  "name": "Baltic States",
  "continent": "Europe",
  "countries": [
-  "Estonia"
+  "Estonia",
+  "Latvia",
+  "Lithuania"
  ],
- "countries_with_a_dish": [],
- "coverage_score": 0.0,
- "dish_count": 0,
- "food_and_drink_count": 0,
- "story_count": 0,
- "representative_dishes": [],
- "dish_families": [],
+ "countries_with_a_dish": [
+  "Estonia",
+  "Latvia",
+  "Lithuania"
+ ],
+ "coverage_score": 73.3,
+ "dish_count": 8,
+ "food_and_drink_count": 8,
+ "story_count": 3,
+ "representative_dishes": [
+  "Rupjmaize",
+  "Apple cheese",
+  "Mulgipuder",
+  "Sklandrausis",
+  "Tinginys",
+  "Juka (soup)",
+  "Kibinai",
+  "Mulgikapsad"
+ ],
+ "dish_families": [
+  "flour",
+  "porridge",
+  "butter",
+  "baked good",
+  "rye bread",
+  "pie",
+  "soup",
+  "stuffed food"
+ ],
  "indigenous_traditions": [],
  "related_regions": [
   "British Isles",

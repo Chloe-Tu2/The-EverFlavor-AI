@@ -89,9 +89,9 @@ Dishes whose own Wikipedia summary or list headings mention the people or the wo
 | Sámi | 2 | Norway 1, Russia 1 | Pirog, Sautéed reindeer |
 | Aboriginal Australian | 1 | Australia 1 | Bush bread |
 | Māori and Pacific | 4 | Australia 4 | Boil up, Louise cake, Mānuka honey, Rēwena bread |
-| Indigenous South American | 7 | Argentina 3, Peru 3, India 1 | Anticucho, Bebinca, Carapulcra, Chairo (stew), Chipa, Humita, Locro |
-| Mesoamerican | 17 | Mexico 8, Nicaragua 2, United States 2, Argentina 1, Colombia 1, Indonesia 1, Italy 1, Peru 1 | Anticucho, Arepa, Chocolate, Cochinita pibil, Honey, Humita, Indio viejo, Kue putu mayang |
+| Indigenous South American | 10 | Argentina 3, Peru 3, Paraguay 2, Croatia 1, India 1 | Anticucho, Bebinca, Cabeza guateada, Carapulcra, Chairo (stew), Chipa, Humita, Kosereva |
+| Mesoamerican | 18 | Mexico 8, Argentina 2, Nicaragua 2, United States 2, Colombia 1, Indonesia 1, Italy 1, Peru 1 | Anticucho, Arepa, Asado, Chocolate, Cochinita pibil, Honey, Humita, Indio viejo |
 | Indigenous African | 4 | Ethiopia 2, Algeria 1, Morocco 1 | Berkoukes (dish), Tahricht, Tihlo, Wat (food) |
-| Any 'indigenous' | 38 | Brazil 6, United States 5, Argentina 3, Canada 3, Chile 3, Jamaica 2, Mexico 2, Vietnam 2, Cameroon 1, Colombia 1, Cuba 1, El Salvador 1, Indonesia 1, Italy 1, Malaysia 1, Nigeria 1, Peru 1, Russia 1, South Africa 1, United Kingdom 1 | Ajiaco, Arabu, Arepa, Ayam pansuh, Bammy, Bannock (British and Irish food), Bannock (Indigenous American food), Canh chua |
+| Any 'indigenous' | 44 | Brazil 6, United States 5, Paraguay 4, Argentina 3, Canada 3, Chile 3, Jamaica 2, Mexico 2, Vietnam 2, Cameroon 1, Colombia 1, Cuba 1, El Salvador 1, Indonesia 1, Italy 1, Malaysia 1, Myanmar 1, Nigeria 1, Peru 1, Russia 1, South Africa 1, Taiwan 1, United Kingdom 1 | Ajiaco, Arabu, Arepa, Ayam pansuh, Bammy, Bannock (British and Irish food), Bannock (Indigenous American food), Burmese salads |
 
 Very little is covered. The knowledge notebook reads national cuisine lists, which seldom list indigenous foods; a source made for them (for example the Wikipedia articles on Native American, Inuit and Aboriginal Australian cuisine) is needed, and their words and claims should be checked with care.

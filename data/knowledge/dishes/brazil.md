@@ -189,6 +189,7 @@ Learn more:
 
 - quick: [Bauru (sandwich) (Wikipedia)](https://en.wikipedia.org/wiki/Bauru_%28sandwich%29)
 - more: [List of Brazilian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Brazilian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Bauru (sandwich) (Open Library)](https://openlibrary.org/search?q=Bauru%20%28sandwich%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2892071)
 
@@ -1732,6 +1733,7 @@ Learn more:
 
 - quick: [Panela (Wikipedia)](https://en.wikipedia.org/wiki/Panela)
 - more: [Brazilian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Brazilian_cuisine)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Panela (Open Library)](https://openlibrary.org/search?q=Panela)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10357458)
 
@@ -1868,6 +1870,7 @@ Learn more:
 
 - quick: [Starch (Wikipedia)](https://en.wikipedia.org/wiki/Starch)
 - more: [Brazilian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Brazilian_cuisine)
+- more: [Cypriot cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cypriot_cuisine)
 - deep: [Books about Starch (Open Library)](https://openlibrary.org/search?q=Starch)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q41534)
 

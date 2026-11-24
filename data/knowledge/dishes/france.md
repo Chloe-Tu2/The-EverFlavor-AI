@@ -772,6 +772,29 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2992515) (CC0); [Wikipedia: Duck confit](https://en.wikipedia.org/wiki/Duck_confit) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Escalope
+
+An escalope, also scallop in the US (not to be confused with the shellfish), is traditionally a piece of boneless meat that has been thinned out using a mallet or rolling pin or beaten with the handle of a knife, or merely butterflied.
+
+- From: France
+- Origin (Wikidata): France
+
+Fun facts:
+
+- (origin) It first appeared in cookery terminology late in the 17th century as a dialectal expression in the northeast of rural France, originally meaning a shelled nut or mollusk: veau à l'escalope (veal cooked in the style of an escalope).
+- (about) Not to be confused with schnitzel.
+- (origin) Escalope comes from France.
+
+Learn more:
+
+- quick: [Escalope (Wikipedia)](https://en.wikipedia.org/wiki/Escalope)
+- more: [Croatian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Croatian_cuisine)
+- more: [Cuisine of Croatia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Croatia)
+- deep: [Books about Escalope (Open Library)](https://openlibrary.org/search?q=Escalope)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6099)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6099) (CC0); [Wikipedia: Escalope](https://en.wikipedia.org/wiki/Escalope) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Far Breton
 
 Far Breton (also Breton far; Breton: Farz forn) is a traditional cake or dessert from the Brittany region in France.
@@ -3302,6 +3325,7 @@ Learn more:
 
 - quick: [Quenelle (Wikipedia)](https://en.wikipedia.org/wiki/Quenelle)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [Luxembourg cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Luxembourg_cuisine)
 - deep: [Books about Quenelle (Open Library)](https://openlibrary.org/search?q=Quenelle)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12958)
 

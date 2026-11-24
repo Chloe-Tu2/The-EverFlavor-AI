@@ -68,6 +68,7 @@ Learn more:
 
 - quick: [Apple sauce (Wikipedia)](https://en.wikipedia.org/wiki/Apple_sauce)
 - more: [List of German dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_German_dishes)
+- more: [Luxembourg cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Luxembourg_cuisine)
 - deep: [Books about Apple sauce (Open Library)](https://openlibrary.org/search?q=Apple%20sauce)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q618345)
 
@@ -1395,6 +1396,7 @@ Learn more:
 
 - quick: [Pumpernickel (Wikipedia)](https://en.wikipedia.org/wiki/Pumpernickel)
 - more: [List of German dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_German_dishes)
+- more: [Icelandic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Icelandic_cuisine)
 - deep: [Books about Pumpernickel (Open Library)](https://openlibrary.org/search?q=Pumpernickel)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q837207)
 
@@ -2449,6 +2451,7 @@ Learn more:
 
 - quick: [Gouda cheese (Wikipedia)](https://en.wikipedia.org/wiki/Gouda_cheese)
 - more: [List of German dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_German_dishes)
+- more: [Icelandic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Icelandic_cuisine)
 - deep: [Books about Gouda cheese (Open Library)](https://openlibrary.org/search?q=Gouda%20cheese)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q593675)
 
@@ -2803,6 +2806,7 @@ Learn more:
 
 - quick: [Linseed oil (Wikipedia)](https://en.wikipedia.org/wiki/Linseed_oil)
 - more: [List of German dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_German_dishes)
+- more: [Lithuanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lithuanian_cuisine)
 - deep: [Books about Linseed oil (Open Library)](https://openlibrary.org/search?q=Linseed%20oil)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q818405)
 
@@ -3131,6 +3135,7 @@ Learn more:
 
 - quick: [Spelt (Wikipedia)](https://en.wikipedia.org/wiki/Spelt)
 - more: [List of German dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_German_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Spelt (Open Library)](https://openlibrary.org/search?q=Spelt)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q158767)
 

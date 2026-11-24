@@ -1,0 +1,5662 @@
+{
+ "by": "scripts/knowledge/country_scores.py",
+ "built_on": "2026-11-23",
+ "rule": "(proposed by Claude on med27-coder's KPIs, 2026-11-23; needs_human_review item 28):\n- coverage: the country has at least one dish (yes or no).\n- representation (0-100): the average of depth (dishes / 3, at most 1), the share of dishes in a family, the share\n  with a story, and the share with a culinary region (only where the place tree has its culinary regions).\n- enrichment (0-100): the average of the shares of dishes with a Wikidata origin, a known variant, a related dish\n  (a next dish to try) and two or more of Walter's lines.\n- weak representation: covered, but fewer than three dishes or a representation score under 50.",
+ "summary": {
+  "countries": 200,
+  "covered": 148,
+  "with three dishes or more": 104,
+  "weak representation": 47,
+  "representation (average of covered countries)": 59.4,
+  "enrichment (average of covered countries)": 55.6
+ },
+ "continents": {
+  "Africa": {
+   "countries": 57,
+   "covered": 34,
+   "weak": 21,
+   "representation": 42.9,
+   "enrichment": 52.9
+  },
+  "Americas": {
+   "countries": 39,
+   "covered": 29,
+   "weak": 9,
+   "representation": 58.1,
+   "enrichment": 53.7
+  },
+  "Asia": {
+   "countries": 51,
+   "covered": 43,
+   "weak": 10,
+   "representation": 65.2,
+   "enrichment": 55.9
+  },
+  "Europe": {
+   "countries": 41,
+   "covered": 37,
+   "weak": 4,
+   "representation": 69.5,
+   "enrichment": 60.5
+  },
+  "Oceania": {
+   "countries": 12,
+   "covered": 5,
+   "weak": 3,
+   "representation": 53.7,
+   "enrichment": 46.2
+  }
+ },
+ "targets": {
+  "not covered": [
+   "Aruba",
+   "Barbados",
+   "Belarus",
+   "Burkina Faso",
+   "Burundi",
+   "Comoros",
+   "Congo",
+   "Curaçao",
+   "Djibouti",
+   "Equatorial Guinea",
+   "Eritrea",
+   "Eswatini",
+   "Fiji",
+   "French Guiana",
+   "French Polynesia",
+   "Gabon",
+   "Grenada",
+   "Guadeloupe",
+   "Guinea",
+   "Guinea-Bissau",
+   "Hong Kong",
+   "Jersey",
+   "Jordan",
+   "Kiribati",
+   "Kosovo",
+   "Kuwait",
+   "Lesotho",
+   "Liberia",
+   "Macau",
+   "Mali",
+   "Martinique",
+   "Mauritania",
+   "Mayotte",
+   "Montenegro",
+   "Namibia",
+   "Oman",
+   "Panama",
+   "Papua New Guinea",
+   "Qatar",
+   "Réunion",
+   "Saint Lucia",
+   "Saint Vincent and the Grenadines",
+   "Samoa",
+   "Sierra Leone",
+   "Solomon Islands",
+   "Syria",
+   "São Tomé and Príncipe",
+   "Timor-Leste",
+   "Togo",
+   "Vanuatu",
+   "Western Sahara",
+   "Zimbabwe"
+  ],
+  "weak representation": [
+   "Algeria",
+   "Antigua and Barbuda",
+   "Bahrain",
+   "Belize",
+   "Benin",
+   "Bhutan",
+   "Bolivia",
+   "Bosnia and Herzegovina",
+   "Botswana",
+   "Brunei",
+   "Cambodia",
+   "Cameroon",
+   "Cape Verde",
+   "Central African Republic",
+   "Chad",
+   "Costa Rica",
+   "Cyprus",
+   "Democratic Republic of the Congo",
+   "Estonia",
+   "Guyana",
+   "Honduras",
+   "Ivory Coast",
+   "Kenya",
+   "Kyrgyzstan",
+   "Latvia",
+   "Libya",
+   "Malawi",
+   "Mauritius",
+   "Moldova",
+   "Mozambique",
+   "New Caledonia",
+   "New Zealand",
+   "Niger",
+   "Puerto Rico",
+   "Rwanda",
+   "Saudi Arabia",
+   "South Sudan",
+   "Sudan",
+   "Suriname",
+   "Tajikistan",
+   "Tanzania",
+   "The Bahamas",
+   "The Gambia",
+   "Tonga",
+   "Turkmenistan",
+   "United Arab Emirates",
+   "Zambia"
+  ]
+ },
+ "countries": [
+  {
+   "country": "Afghanistan",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "counted": true,
+   "dishes": 7,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 64.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.857,
+    "stories": 0.143
+   },
+   "enrichment_parts": {
+    "origins": 0.857,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.714
+   },
+   "weak": false
+  },
+  {
+   "country": "Albania",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 5,
+   "covered": true,
+   "representation": 60.0,
+   "enrichment": 45.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.4,
+    "stories": 0.4
+   },
+   "enrichment_parts": {
+    "origins": 0.6,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.2
+   },
+   "weak": false
+  },
+  {
+   "country": "Algeria",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "counted": true,
+   "dishes": 11,
+   "covered": true,
+   "representation": 45.5,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.273,
+    "stories": 0.091
+   },
+   "enrichment_parts": {
+    "origins": 0.727,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.273
+   },
+   "weak": true
+  },
+  {
+   "country": "American Samoa",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Andorra",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Angola",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 41.7,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.333,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.667,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Anguilla",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Argentina",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 10,
+   "covered": true,
+   "representation": 70.0,
+   "enrichment": 55.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.6,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.8,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.4
+   },
+   "weak": false
+  },
+  {
+   "country": "Armenia",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 12,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 52.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.583,
+    "stories": 0.417
+   },
+   "enrichment_parts": {
+    "origins": 0.583,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": false
+  },
+  {
+   "country": "Aruba",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Australia",
+   "continent": "Oceania",
+   "subregion": "Australasia",
+   "counted": true,
+   "dishes": 60,
+   "covered": true,
+   "representation": 79.4,
+   "enrichment": 62.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.783,
+    "stories": 0.6
+   },
+   "enrichment_parts": {
+    "origins": 0.733,
+    "variants": 0.05,
+    "related": 1.0,
+    "walter": 0.7
+   },
+   "weak": false
+  },
+  {
+   "country": "Austria",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "counted": true,
+   "dishes": 5,
+   "covered": true,
+   "representation": 86.7,
+   "enrichment": 65.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 1.0,
+    "stories": 0.6
+   },
+   "enrichment_parts": {
+    "origins": 0.6,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Azerbaijan",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 8,
+   "covered": true,
+   "representation": 58.3,
+   "enrichment": 53.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.5,
+    "stories": 0.25
+   },
+   "enrichment_parts": {
+    "origins": 0.625,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": false
+  },
+  {
+   "country": "Bahrain",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Bangladesh",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "counted": true,
+   "dishes": 12,
+   "covered": true,
+   "representation": 61.1,
+   "enrichment": 45.8,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.417,
+    "stories": 0.417
+   },
+   "enrichment_parts": {
+    "origins": 0.417,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.417
+   },
+   "weak": false
+  },
+  {
+   "country": "Barbados",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Belarus",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Belgium",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "counted": true,
+   "dishes": 25,
+   "covered": true,
+   "representation": 78.7,
+   "enrichment": 64.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.92,
+    "stories": 0.44
+   },
+   "enrichment_parts": {
+    "origins": 0.68,
+    "variants": 0.08,
+    "related": 1.0,
+    "walter": 0.8
+   },
+   "weak": false
+  },
+  {
+   "country": "Belize",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Benin",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Bermuda",
+   "continent": "Americas",
+   "subregion": "Northern America",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Bhutan",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 1.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Bolivia",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 75.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 1.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 38.9,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.5,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": true
+  },
+  {
+   "country": "Botswana",
+   "continent": "Africa",
+   "subregion": "Southern Africa",
+   "counted": true,
+   "dishes": 4,
+   "covered": true,
+   "representation": 41.7,
+   "enrichment": 43.8,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.25,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.75,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Bouvet Island",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Brazil",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 51,
+   "covered": true,
+   "representation": 71.9,
+   "enrichment": 54.9,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.706,
+    "stories": 0.451
+   },
+   "enrichment_parts": {
+    "origins": 0.608,
+    "variants": 0.02,
+    "related": 1.0,
+    "walter": 0.569
+   },
+   "weak": false
+  },
+  {
+   "country": "British Indian Ocean Territory",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "British Virgin Islands",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Brunei",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 1.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Bulgaria",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 12,
+   "covered": true,
+   "representation": 69.4,
+   "enrichment": 64.6,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.75,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.917,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.667
+   },
+   "weak": false
+  },
+  {
+   "country": "Burkina Faso",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Burundi",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Cambodia",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 75.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Cameroon",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "counted": true,
+   "dishes": 7,
+   "covered": true,
+   "representation": 42.9,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.143,
+    "stories": 0.143
+   },
+   "enrichment_parts": {
+    "origins": 0.857,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.143
+   },
+   "weak": true
+  },
+  {
+   "country": "Canada",
+   "continent": "Americas",
+   "subregion": "Northern America",
+   "counted": true,
+   "dishes": 89,
+   "covered": true,
+   "representation": 67.7,
+   "enrichment": 62.4,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.775,
+    "stories": 0.64,
+    "regions": 0.292
+   },
+   "enrichment_parts": {
+    "origins": 0.685,
+    "variants": 0.157,
+    "related": 1.0,
+    "walter": 0.652
+   },
+   "weak": false
+  },
+  {
+   "country": "Cape Verde",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 75.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Caribbean Netherlands",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Cayman Islands",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Central African Republic",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 22.2,
+   "enrichment": 37.5,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Chad",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 22.2,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Chile",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 28,
+   "covered": true,
+   "representation": 70.2,
+   "enrichment": 63.4,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.857,
+    "stories": 0.25
+   },
+   "enrichment_parts": {
+    "origins": 0.893,
+    "variants": 0.036,
+    "related": 1.0,
+    "walter": 0.607
+   },
+   "weak": false
+  },
+  {
+   "country": "China",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "counted": true,
+   "dishes": 181,
+   "covered": true,
+   "representation": 76.8,
+   "enrichment": 59.7,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.735,
+    "stories": 0.558,
+    "regions": 0.779
+   },
+   "enrichment_parts": {
+    "origins": 0.79,
+    "variants": 0.105,
+    "related": 1.0,
+    "walter": 0.492
+   },
+   "weak": false
+  },
+  {
+   "country": "Christmas Island",
+   "continent": "Oceania",
+   "subregion": "Australasia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Cocos (Keeling) Islands",
+   "continent": "Oceania",
+   "subregion": "Australasia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Colombia",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 17,
+   "covered": true,
+   "representation": 72.5,
+   "enrichment": 60.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.824,
+    "stories": 0.353
+   },
+   "enrichment_parts": {
+    "origins": 0.765,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.647
+   },
+   "weak": false
+  },
+  {
+   "country": "Comoros",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Congo",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Cook Islands",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Costa Rica",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Croatia",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 17,
+   "covered": true,
+   "representation": 56.9,
+   "enrichment": 48.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.471,
+    "stories": 0.235
+   },
+   "enrichment_parts": {
+    "origins": 0.647,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.294
+   },
+   "weak": false
+  },
+  {
+   "country": "Cuba",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 22,
+   "covered": true,
+   "representation": 72.7,
+   "enrichment": 56.8,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.727,
+    "stories": 0.455
+   },
+   "enrichment_parts": {
+    "origins": 0.727,
+    "variants": 0.091,
+    "related": 1.0,
+    "walter": 0.455
+   },
+   "weak": false
+  },
+  {
+   "country": "Curaçao",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Cyprus",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.5,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Czech Republic",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 10,
+   "covered": true,
+   "representation": 86.7,
+   "enrichment": 67.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 1.0,
+    "stories": 0.6
+   },
+   "enrichment_parts": {
+    "origins": 0.6,
+    "variants": 0.2,
+    "related": 1.0,
+    "walter": 0.9
+   },
+   "weak": false
+  },
+  {
+   "country": "Democratic Republic of the Congo",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Denmark",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 18,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.833,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.611,
+    "variants": 0.167,
+    "related": 1.0,
+    "walter": 0.722
+   },
+   "weak": false
+  },
+  {
+   "country": "Djibouti",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Dominica",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Dominican Republic",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 75.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 1.0,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Ecuador",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 6,
+   "covered": true,
+   "representation": 72.2,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.833,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": false
+  },
+  {
+   "country": "Egypt",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "counted": true,
+   "dishes": 16,
+   "covered": true,
+   "representation": 68.8,
+   "enrichment": 46.9,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.5,
+    "stories": 0.562
+   },
+   "enrichment_parts": {
+    "origins": 0.562,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.312
+   },
+   "weak": false
+  },
+  {
+   "country": "El Salvador",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 58.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 1.0,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.667,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.667
+   },
+   "weak": false
+  },
+  {
+   "country": "Equatorial Guinea",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Eritrea",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Estonia",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 38.9,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.5,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": true
+  },
+  {
+   "country": "Eswatini",
+   "continent": "Africa",
+   "subregion": "Southern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Ethiopia",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 10,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.8,
+    "stories": 0.2
+   },
+   "enrichment_parts": {
+    "origins": 0.9,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.6
+   },
+   "weak": false
+  },
+  {
+   "country": "Falkland Islands",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Faroe Islands",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Federated States of Micronesia",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Fiji",
+   "continent": "Oceania",
+   "subregion": "Melanesia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Finland",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 25,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 54.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.56,
+    "stories": 0.44
+   },
+   "enrichment_parts": {
+    "origins": 0.6,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.56
+   },
+   "weak": false
+  },
+  {
+   "country": "France",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "counted": true,
+   "dishes": 88,
+   "covered": true,
+   "representation": 77.7,
+   "enrichment": 65.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.727,
+    "stories": 0.602
+   },
+   "enrichment_parts": {
+    "origins": 0.898,
+    "variants": 0.08,
+    "related": 1.0,
+    "walter": 0.636
+   },
+   "weak": false
+  },
+  {
+   "country": "French Guiana",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "French Polynesia",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "French Southern and Antarctic Lands",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Gabon",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Georgia",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 22,
+   "covered": true,
+   "representation": 63.6,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.773,
+    "stories": 0.136
+   },
+   "enrichment_parts": {
+    "origins": 0.864,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.636
+   },
+   "weak": false
+  },
+  {
+   "country": "Germany",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "counted": true,
+   "dishes": 88,
+   "covered": true,
+   "representation": 75.8,
+   "enrichment": 59.4,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.795,
+    "stories": 0.477
+   },
+   "enrichment_parts": {
+    "origins": 0.625,
+    "variants": 0.057,
+    "related": 1.0,
+    "walter": 0.693
+   },
+   "weak": false
+  },
+  {
+   "country": "Ghana",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 6,
+   "covered": true,
+   "representation": 50.0,
+   "enrichment": 58.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.5,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.833,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": false
+  },
+  {
+   "country": "Gibraltar",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Greece",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 88,
+   "covered": true,
+   "representation": 73.1,
+   "enrichment": 63.9,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.739,
+    "stories": 0.455
+   },
+   "enrichment_parts": {
+    "origins": 0.727,
+    "variants": 0.136,
+    "related": 1.0,
+    "walter": 0.693
+   },
+   "weak": false
+  },
+  {
+   "country": "Greenland",
+   "continent": "Americas",
+   "subregion": "Northern America",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Grenada",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Guadeloupe",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Guam",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "counted": true,
+   "dishes": 4,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 68.8,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.75
+   },
+   "weak": false
+  },
+  {
+   "country": "Guatemala",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "counted": true,
+   "dishes": 7,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.714,
+    "stories": 0.286
+   },
+   "enrichment_parts": {
+    "origins": 0.429,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.571
+   },
+   "weak": false
+  },
+  {
+   "country": "Guernsey",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Guinea",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Guinea-Bissau",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Guyana",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Haiti",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 6,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 58.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.667,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.833,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": false
+  },
+  {
+   "country": "Heard Island and McDonald Islands",
+   "continent": "Oceania",
+   "subregion": "Australasia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Honduras",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Hong Kong",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Hungary",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 42,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 67.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.81,
+    "stories": 0.524
+   },
+   "enrichment_parts": {
+    "origins": 0.905,
+    "variants": 0.024,
+    "related": 1.0,
+    "walter": 0.762
+   },
+   "weak": false
+  },
+  {
+   "country": "Iceland",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 7,
+   "covered": true,
+   "representation": 71.4,
+   "enrichment": 60.7,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.714,
+    "stories": 0.429
+   },
+   "enrichment_parts": {
+    "origins": 0.857,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.571
+   },
+   "weak": false
+  },
+  {
+   "country": "India",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "counted": true,
+   "dishes": 105,
+   "covered": true,
+   "representation": 77.1,
+   "enrichment": 61.9,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.752,
+    "stories": 0.562
+   },
+   "enrichment_parts": {
+    "origins": 0.752,
+    "variants": 0.105,
+    "related": 1.0,
+    "walter": 0.619
+   },
+   "weak": false
+  },
+  {
+   "country": "Indonesia",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 249,
+   "covered": true,
+   "representation": 72.2,
+   "enrichment": 62.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.771,
+    "stories": 0.394
+   },
+   "enrichment_parts": {
+    "origins": 0.916,
+    "variants": 0.032,
+    "related": 1.0,
+    "walter": 0.538
+   },
+   "weak": false
+  },
+  {
+   "country": "Iran",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "counted": true,
+   "dishes": 18,
+   "covered": true,
+   "representation": 63.0,
+   "enrichment": 59.7,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.556,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.889,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": false
+  },
+  {
+   "country": "Iraq",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 11,
+   "covered": true,
+   "representation": 78.8,
+   "enrichment": 59.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.818,
+    "stories": 0.545
+   },
+   "enrichment_parts": {
+    "origins": 0.727,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.636
+   },
+   "weak": false
+  },
+  {
+   "country": "Ireland",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 22,
+   "covered": true,
+   "representation": 86.4,
+   "enrichment": 58.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.955,
+    "stories": 0.636
+   },
+   "enrichment_parts": {
+    "origins": 0.682,
+    "variants": 0.091,
+    "related": 1.0,
+    "walter": 0.545
+   },
+   "weak": false
+  },
+  {
+   "country": "Isle of Man",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Israel",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 15,
+   "covered": true,
+   "representation": 71.1,
+   "enrichment": 56.7,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.6,
+    "stories": 0.533
+   },
+   "enrichment_parts": {
+    "origins": 0.733,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.533
+   },
+   "weak": false
+  },
+  {
+   "country": "Italy",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 329,
+   "covered": true,
+   "representation": 74.1,
+   "enrichment": 67.2,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.793,
+    "stories": 0.429
+   },
+   "enrichment_parts": {
+    "origins": 0.942,
+    "variants": 0.058,
+    "related": 1.0,
+    "walter": 0.69
+   },
+   "weak": false
+  },
+  {
+   "country": "Ivory Coast",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Jamaica",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 50,
+   "covered": true,
+   "representation": 76.7,
+   "enrichment": 61.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.8,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.62,
+    "variants": 0.14,
+    "related": 1.0,
+    "walter": 0.68
+   },
+   "weak": false
+  },
+  {
+   "country": "Japan",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "counted": true,
+   "dishes": 109,
+   "covered": true,
+   "representation": 82.0,
+   "enrichment": 69.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.899,
+    "stories": 0.56
+   },
+   "enrichment_parts": {
+    "origins": 0.872,
+    "variants": 0.156,
+    "related": 1.0,
+    "walter": 0.734
+   },
+   "weak": false
+  },
+  {
+   "country": "Jersey",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Jordan",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Kazakhstan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "counted": true,
+   "dishes": 6,
+   "covered": true,
+   "representation": 72.2,
+   "enrichment": 54.2,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.833,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.667
+   },
+   "weak": false
+  },
+  {
+   "country": "Kenya",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 22.2,
+   "enrichment": 37.5,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Kiribati",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Kosovo",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Kuwait",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Kyrgyzstan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 72.2,
+   "enrichment": 37.5,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 1.0,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": true
+  },
+  {
+   "country": "Laos",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 5,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 60.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.8,
+    "stories": 0.2
+   },
+   "enrichment_parts": {
+    "origins": 0.6,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.8
+   },
+   "weak": false
+  },
+  {
+   "country": "Latvia",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 75.0,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Lebanon",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 31,
+   "covered": true,
+   "representation": 82.8,
+   "enrichment": 58.9,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.677,
+    "stories": 0.806
+   },
+   "enrichment_parts": {
+    "origins": 0.774,
+    "variants": 0.065,
+    "related": 1.0,
+    "walter": 0.516
+   },
+   "weak": false
+  },
+  {
+   "country": "Lesotho",
+   "continent": "Africa",
+   "subregion": "Southern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Liberia",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Libya",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 38.9,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.5,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": true
+  },
+  {
+   "country": "Liechtenstein",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Lithuania",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 4,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.5,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.75,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.25
+   },
+   "weak": false
+  },
+  {
+   "country": "Luxembourg",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "counted": true,
+   "dishes": 5,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.8,
+    "stories": 0.2
+   },
+   "enrichment_parts": {
+    "origins": 0.4,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.6
+   },
+   "weak": false
+  },
+  {
+   "country": "Macau",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Madagascar",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 4,
+   "covered": true,
+   "representation": 58.3,
+   "enrichment": 56.2,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.5,
+    "stories": 0.25
+   },
+   "enrichment_parts": {
+    "origins": 0.75,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": false
+  },
+  {
+   "country": "Malawi",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Malaysia",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 39,
+   "covered": true,
+   "representation": 71.8,
+   "enrichment": 59.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.821,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.821,
+    "variants": 0.026,
+    "related": 1.0,
+    "walter": 0.513
+   },
+   "weak": false
+  },
+  {
+   "country": "Maldives",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "counted": true,
+   "dishes": 9,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 52.8,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.889,
+    "stories": 0.111
+   },
+   "enrichment_parts": {
+    "origins": 0.778,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.333
+   },
+   "weak": false
+  },
+  {
+   "country": "Mali",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Malta",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 7,
+   "covered": true,
+   "representation": 57.1,
+   "enrichment": 57.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.571,
+    "stories": 0.143
+   },
+   "enrichment_parts": {
+    "origins": 0.714,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.571
+   },
+   "weak": false
+  },
+  {
+   "country": "Marshall Islands",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Martinique",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Mauritania",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Mauritius",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.5,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": true
+  },
+  {
+   "country": "Mayotte",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Mexico",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "counted": true,
+   "dishes": 112,
+   "covered": true,
+   "representation": 60.7,
+   "enrichment": 55.6,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.679,
+    "stories": 0.464,
+    "regions": 0.286
+   },
+   "enrichment_parts": {
+    "origins": 0.679,
+    "variants": 0.089,
+    "related": 1.0,
+    "walter": 0.455
+   },
+   "weak": false
+  },
+  {
+   "country": "Moldova",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 38.9,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.5,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": true
+  },
+  {
+   "country": "Monaco",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Mongolia",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "counted": true,
+   "dishes": 5,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 55.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.6,
+    "stories": 0.4
+   },
+   "enrichment_parts": {
+    "origins": 0.8,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.4
+   },
+   "weak": false
+  },
+  {
+   "country": "Montenegro",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Montserrat",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Morocco",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "counted": true,
+   "dishes": 20,
+   "covered": true,
+   "representation": 70.0,
+   "enrichment": 61.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.7,
+    "stories": 0.4
+   },
+   "enrichment_parts": {
+    "origins": 0.8,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.65
+   },
+   "weak": false
+  },
+  {
+   "country": "Mozambique",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 75.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Myanmar",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 19,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 61.8,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.737,
+    "stories": 0.263
+   },
+   "enrichment_parts": {
+    "origins": 0.789,
+    "variants": 0.105,
+    "related": 1.0,
+    "walter": 0.579
+   },
+   "weak": false
+  },
+  {
+   "country": "Namibia",
+   "continent": "Africa",
+   "subregion": "Southern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Nauru",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Nepal",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "counted": true,
+   "dishes": 14,
+   "covered": true,
+   "representation": 52.4,
+   "enrichment": 44.6,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.429,
+    "stories": 0.143
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.286
+   },
+   "weak": false
+  },
+  {
+   "country": "Netherlands",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "counted": true,
+   "dishes": 31,
+   "covered": true,
+   "representation": 78.5,
+   "enrichment": 64.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.871,
+    "stories": 0.484
+   },
+   "enrichment_parts": {
+    "origins": 0.871,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.71
+   },
+   "weak": false
+  },
+  {
+   "country": "New Caledonia",
+   "continent": "Oceania",
+   "subregion": "Melanesia",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "New Zealand",
+   "continent": "Oceania",
+   "subregion": "Australasia",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.5,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": true
+  },
+  {
+   "country": "Nicaragua",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "counted": true,
+   "dishes": 8,
+   "covered": true,
+   "representation": 50.0,
+   "enrichment": 43.8,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.375,
+    "stories": 0.125
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.25
+   },
+   "weak": false
+  },
+  {
+   "country": "Niger",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Nigeria",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 50,
+   "covered": true,
+   "representation": 54.0,
+   "enrichment": 56.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.44,
+    "stories": 0.18
+   },
+   "enrichment_parts": {
+    "origins": 0.86,
+    "variants": 0.02,
+    "related": 1.0,
+    "walter": 0.38
+   },
+   "weak": false
+  },
+  {
+   "country": "Niue",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Norfolk Island",
+   "continent": "Oceania",
+   "subregion": "Australasia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "North Korea",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 58.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.667,
+    "stories": 0.667
+   },
+   "enrichment_parts": {
+    "origins": 0.667,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.667
+   },
+   "weak": false
+  },
+  {
+   "country": "North Macedonia",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 58.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 1.0,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.333,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Northern Mariana Islands",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Norway",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 51,
+   "covered": true,
+   "representation": 73.9,
+   "enrichment": 56.4,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.824,
+    "stories": 0.392
+   },
+   "enrichment_parts": {
+    "origins": 0.451,
+    "variants": 0.118,
+    "related": 1.0,
+    "walter": 0.686
+   },
+   "weak": false
+  },
+  {
+   "country": "Oman",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Pakistan",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "counted": true,
+   "dishes": 7,
+   "covered": true,
+   "representation": 81.0,
+   "enrichment": 57.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 1.0,
+    "stories": 0.429
+   },
+   "enrichment_parts": {
+    "origins": 0.571,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.714
+   },
+   "weak": false
+  },
+  {
+   "country": "Palau",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Palestine",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 18,
+   "covered": true,
+   "representation": 79.6,
+   "enrichment": 59.7,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.722,
+    "stories": 0.667
+   },
+   "enrichment_parts": {
+    "origins": 0.833,
+    "variants": 0.056,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": false
+  },
+  {
+   "country": "Panama",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Papua New Guinea",
+   "continent": "Oceania",
+   "subregion": "Melanesia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Paraguay",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 8,
+   "covered": true,
+   "representation": 79.2,
+   "enrichment": 59.4,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.75,
+    "stories": 0.625
+   },
+   "enrichment_parts": {
+    "origins": 0.625,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.75
+   },
+   "weak": false
+  },
+  {
+   "country": "Peru",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 18,
+   "covered": true,
+   "representation": 70.4,
+   "enrichment": 61.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.722,
+    "stories": 0.389
+   },
+   "enrichment_parts": {
+    "origins": 0.722,
+    "variants": 0.111,
+    "related": 1.0,
+    "walter": 0.611
+   },
+   "weak": false
+  },
+  {
+   "country": "Philippines",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 87,
+   "covered": true,
+   "representation": 72.8,
+   "enrichment": 61.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.77,
+    "stories": 0.414
+   },
+   "enrichment_parts": {
+    "origins": 0.862,
+    "variants": 0.046,
+    "related": 1.0,
+    "walter": 0.552
+   },
+   "weak": false
+  },
+  {
+   "country": "Pitcairn Islands",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Poland",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 68,
+   "covered": true,
+   "representation": 77.9,
+   "enrichment": 64.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.868,
+    "stories": 0.471
+   },
+   "enrichment_parts": {
+    "origins": 0.662,
+    "variants": 0.118,
+    "related": 1.0,
+    "walter": 0.794
+   },
+   "weak": false
+  },
+  {
+   "country": "Portugal",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 72,
+   "covered": true,
+   "representation": 64.4,
+   "enrichment": 56.6,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.597,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.847,
+    "variants": 0.014,
+    "related": 1.0,
+    "walter": 0.403
+   },
+   "weak": false
+  },
+  {
+   "country": "Puerto Rico",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 38.9,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.0,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Qatar",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Romania",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 21,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 59.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.81,
+    "stories": 0.19
+   },
+   "enrichment_parts": {
+    "origins": 0.81,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.571
+   },
+   "weak": false
+  },
+  {
+   "country": "Russia",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 48,
+   "covered": true,
+   "representation": 75.7,
+   "enrichment": 66.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.771,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.792,
+    "variants": 0.125,
+    "related": 1.0,
+    "walter": 0.729
+   },
+   "weak": false
+  },
+  {
+   "country": "Rwanda",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Réunion",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Saint Barthélemy",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Saint Helena, Ascension and Tristan da Cunha",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Saint Kitts and Nevis",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Saint Lucia",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Saint Pierre and Miquelon",
+   "continent": "Americas",
+   "subregion": "Northern America",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Saint Vincent and the Grenadines",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Saint-Martin",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Samoa",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "San Marino",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Sark",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Saudi Arabia",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 72.2,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 1.0,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Senegal",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 8,
+   "covered": true,
+   "representation": 58.3,
+   "enrichment": 46.9,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.5,
+    "stories": 0.25
+   },
+   "enrichment_parts": {
+    "origins": 0.625,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.25
+   },
+   "weak": false
+  },
+  {
+   "country": "Serbia",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 13,
+   "covered": true,
+   "representation": 74.4,
+   "enrichment": 69.2,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.846,
+    "stories": 0.385
+   },
+   "enrichment_parts": {
+    "origins": 0.923,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.846
+   },
+   "weak": false
+  },
+  {
+   "country": "Seychelles",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.667,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Sierra Leone",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Singapore",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 11,
+   "covered": true,
+   "representation": 66.7,
+   "enrichment": 56.8,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.727,
+    "stories": 0.273
+   },
+   "enrichment_parts": {
+    "origins": 0.909,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.364
+   },
+   "weak": false
+  },
+  {
+   "country": "Sint Maarten",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Slovakia",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 10,
+   "covered": true,
+   "representation": 53.3,
+   "enrichment": 47.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.4,
+    "stories": 0.2
+   },
+   "enrichment_parts": {
+    "origins": 0.5,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.4
+   },
+   "weak": false
+  },
+  {
+   "country": "Slovenia",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 9,
+   "covered": true,
+   "representation": 70.4,
+   "enrichment": 66.7,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 1.0,
+    "stories": 0.111
+   },
+   "enrichment_parts": {
+    "origins": 0.889,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.778
+   },
+   "weak": false
+  },
+  {
+   "country": "Solomon Islands",
+   "continent": "Oceania",
+   "subregion": "Melanesia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Somalia",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 66.7,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.667,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.667
+   },
+   "weak": false
+  },
+  {
+   "country": "South Africa",
+   "continent": "Africa",
+   "subregion": "Southern Africa",
+   "counted": true,
+   "dishes": 28,
+   "covered": true,
+   "representation": 69.0,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.679,
+    "stories": 0.393
+   },
+   "enrichment_parts": {
+    "origins": 0.857,
+    "variants": 0.071,
+    "related": 1.0,
+    "walter": 0.571
+   },
+   "weak": false
+  },
+  {
+   "country": "South Georgia and the South Sandwich Islands",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "South Korea",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "counted": true,
+   "dishes": 79,
+   "covered": true,
+   "representation": 79.3,
+   "enrichment": 65.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.785,
+    "stories": 0.595
+   },
+   "enrichment_parts": {
+    "origins": 0.937,
+    "variants": 0.051,
+    "related": 1.0,
+    "walter": 0.633
+   },
+   "weak": false
+  },
+  {
+   "country": "South Sudan",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 75.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Spain",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": true,
+   "dishes": 55,
+   "covered": true,
+   "representation": 71.5,
+   "enrichment": 63.6,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.836,
+    "stories": 0.309
+   },
+   "enrichment_parts": {
+    "origins": 0.873,
+    "variants": 0.036,
+    "related": 1.0,
+    "walter": 0.636
+   },
+   "weak": false
+  },
+  {
+   "country": "Sri Lanka",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.667,
+    "stories": 0.667
+   },
+   "enrichment_parts": {
+    "origins": 0.667,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.333
+   },
+   "weak": false
+  },
+  {
+   "country": "Sudan",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 1.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Suriname",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 1.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Svalbard and Jan Mayen",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Sweden",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 44,
+   "covered": true,
+   "representation": 74.2,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.773,
+    "stories": 0.455
+   },
+   "enrichment_parts": {
+    "origins": 0.818,
+    "variants": 0.045,
+    "related": 1.0,
+    "walter": 0.636
+   },
+   "weak": false
+  },
+  {
+   "country": "Switzerland",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "counted": true,
+   "dishes": 27,
+   "covered": true,
+   "representation": 76.5,
+   "enrichment": 57.4,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.704,
+    "stories": 0.593
+   },
+   "enrichment_parts": {
+    "origins": 0.704,
+    "variants": 0.037,
+    "related": 1.0,
+    "walter": 0.556
+   },
+   "weak": false
+  },
+  {
+   "country": "Syria",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "São Tomé and Príncipe",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Taiwan",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "counted": true,
+   "dishes": 25,
+   "covered": true,
+   "representation": 68.0,
+   "enrichment": 51.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.6,
+    "stories": 0.44
+   },
+   "enrichment_parts": {
+    "origins": 0.76,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.28
+   },
+   "weak": false
+  },
+  {
+   "country": "Tajikistan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Tanzania",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 22.2,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Thailand",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 77,
+   "covered": true,
+   "representation": 74.9,
+   "enrichment": 59.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.753,
+    "stories": 0.494
+   },
+   "enrichment_parts": {
+    "origins": 0.753,
+    "variants": 0.078,
+    "related": 1.0,
+    "walter": 0.532
+   },
+   "weak": false
+  },
+  {
+   "country": "The Bahamas",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "The Gambia",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 75.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Timor-Leste",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Togo",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Tokelau",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Tonga",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": true,
+   "dishes": 2,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.667,
+    "families": 1.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Trinidad and Tobago",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": true,
+   "dishes": 8,
+   "covered": true,
+   "representation": 70.8,
+   "enrichment": 68.8,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.75,
+    "stories": 0.375
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.75
+   },
+   "weak": false
+  },
+  {
+   "country": "Tunisia",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "counted": true,
+   "dishes": 6,
+   "covered": true,
+   "representation": 61.1,
+   "enrichment": 58.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.5,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.833,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.5
+   },
+   "weak": false
+  },
+  {
+   "country": "Turkey",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 65,
+   "covered": true,
+   "representation": 72.3,
+   "enrichment": 66.9,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.815,
+    "stories": 0.354
+   },
+   "enrichment_parts": {
+    "origins": 0.862,
+    "variants": 0.123,
+    "related": 1.0,
+    "walter": 0.692
+   },
+   "weak": false
+  },
+  {
+   "country": "Turkmenistan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 25.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Turks and Caicos Islands",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Tuvalu",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Uganda",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.0,
+    "stories": 0.667
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Ukraine",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "counted": true,
+   "dishes": 16,
+   "covered": true,
+   "representation": 70.8,
+   "enrichment": 59.4,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.5,
+    "stories": 0.625
+   },
+   "enrichment_parts": {
+    "origins": 0.938,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.438
+   },
+   "weak": false
+  },
+  {
+   "country": "United Arab Emirates",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 75.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 1.0,
+    "stories": 1.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 1.0
+   },
+   "weak": true
+  },
+  {
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": true,
+   "dishes": 69,
+   "covered": true,
+   "representation": 84.1,
+   "enrichment": 64.9,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.841,
+    "stories": 0.58,
+    "regions": 0.942
+   },
+   "enrichment_parts": {
+    "origins": 0.826,
+    "variants": 0.087,
+    "related": 1.0,
+    "walter": 0.681
+   },
+   "weak": false
+  },
+  {
+   "country": "United States",
+   "continent": "Americas",
+   "subregion": "Northern America",
+   "counted": true,
+   "dishes": 366,
+   "covered": true,
+   "representation": 72.3,
+   "enrichment": 63.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.861,
+    "stories": 0.667,
+    "regions": 0.363
+   },
+   "enrichment_parts": {
+    "origins": 0.77,
+    "variants": 0.093,
+    "related": 1.0,
+    "walter": 0.675
+   },
+   "weak": false
+  },
+  {
+   "country": "United States Minor Outlying Islands",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "United States Virgin Islands",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Uruguay",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 3,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 58.3,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.667,
+    "stories": 0.667
+   },
+   "enrichment_parts": {
+    "origins": 0.667,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.667
+   },
+   "weak": false
+  },
+  {
+   "country": "Uzbekistan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "counted": true,
+   "dishes": 6,
+   "covered": true,
+   "representation": 72.2,
+   "enrichment": 62.5,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.833,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 0.833,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.667
+   },
+   "weak": false
+  },
+  {
+   "country": "Vanuatu",
+   "continent": "Oceania",
+   "subregion": "Melanesia",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Vatican City",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Venezuela",
+   "continent": "Americas",
+   "subregion": "South America",
+   "counted": true,
+   "dishes": 8,
+   "covered": true,
+   "representation": 79.2,
+   "enrichment": 65.6,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.875,
+    "stories": 0.5
+   },
+   "enrichment_parts": {
+    "origins": 0.875,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.75
+   },
+   "weak": false
+  },
+  {
+   "country": "Vietnam",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "counted": true,
+   "dishes": 72,
+   "covered": true,
+   "representation": 73.6,
+   "enrichment": 60.1,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 0.889,
+    "stories": 0.319
+   },
+   "enrichment_parts": {
+    "origins": 0.708,
+    "variants": 0.042,
+    "related": 1.0,
+    "walter": 0.653
+   },
+   "weak": false
+  },
+  {
+   "country": "Wallis and Futuna",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Western Sahara",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Yemen",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "counted": true,
+   "dishes": 6,
+   "covered": true,
+   "representation": 77.8,
+   "enrichment": 66.7,
+   "representation_parts": {
+    "depth": 1.0,
+    "families": 1.0,
+    "stories": 0.333
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.667
+   },
+   "weak": false
+  },
+  {
+   "country": "Zambia",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 1,
+   "covered": true,
+   "representation": 11.1,
+   "enrichment": 50.0,
+   "representation_parts": {
+    "depth": 0.333,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 1.0,
+    "variants": 0.0,
+    "related": 1.0,
+    "walter": 0.0
+   },
+   "weak": true
+  },
+  {
+   "country": "Zimbabwe",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "counted": true,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  },
+  {
+   "country": "Åland",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "counted": false,
+   "dishes": 0,
+   "covered": false,
+   "representation": 0.0,
+   "enrichment": 0.0,
+   "representation_parts": {
+    "depth": 0.0,
+    "families": 0.0,
+    "stories": 0.0
+   },
+   "enrichment_parts": {
+    "origins": 0.0,
+    "variants": 0.0,
+    "related": 0.0,
+    "walter": 0.0
+   },
+   "weak": false
+  }
+ ]
+}

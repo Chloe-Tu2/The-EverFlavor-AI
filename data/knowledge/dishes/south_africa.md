@@ -428,6 +428,7 @@ Learn more:
 
 - quick: [Meat chop (Wikipedia)](https://en.wikipedia.org/wiki/Meat_chop)
 - more: [South African cuisine (Wikipedia)](https://en.wikipedia.org/wiki/South_African_cuisine)
+- more: [Afghan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Afghan_cuisine)
 - deep: [Books about Meat chop (Open Library)](https://openlibrary.org/search?q=Meat%20chop)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q33691)
 

@@ -68,6 +68,7 @@ Learn more:
 
 - quick: [Grape leaves (Wikipedia)](https://en.wikipedia.org/wiki/Grape_leaves)
 - more: [Saudi Arabian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Saudi_Arabian_cuisine)
+- more: [Albanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Albanian_cuisine)
 - deep: [Books about Grape leaves (Open Library)](https://openlibrary.org/search?q=Grape%20leaves)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4820063)
 
@@ -95,6 +96,7 @@ Learn more:
 
 - quick: [Harees (Wikipedia)](https://en.wikipedia.org/wiki/Harees)
 - more: [Saudi Arabian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Saudi_Arabian_cuisine)
+- more: [Yemeni cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Yemeni_cuisine)
 - deep: [Books about Harees (Open Library)](https://openlibrary.org/search?q=Harees)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16841203)
 
@@ -136,6 +138,7 @@ Learn more:
 
 - quick: [Khaliat nahl (Wikipedia)](https://en.wikipedia.org/wiki/Khaliat_nahl)
 - more: [Saudi Arabian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Saudi_Arabian_cuisine)
+- more: [Yemeni cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Yemeni_cuisine)
 - deep: [Books about Khaliat nahl (Open Library)](https://openlibrary.org/search?q=Khaliat%20nahl)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q134890327)
 

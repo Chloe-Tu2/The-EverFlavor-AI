@@ -376,7 +376,7 @@ Learn more:
 
 - quick: [Antipasto (Wikipedia)](https://en.wikipedia.org/wiki/Antipasto)
 - more: [Italian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Italian_cuisine)
-- more: [Māori cuisine (Wikipedia)](https://en.wikipedia.org/wiki/M%C4%81ori_cuisine)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
 - deep: [Books about Antipasto (Open Library)](https://openlibrary.org/search?q=Antipasto)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q622440)
 
@@ -778,6 +778,42 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q866714) (CC0); [Wikipedia: Bistecca alla fiorentina](https://en.wikipedia.org/wiki/Bistecca_alla_fiorentina) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Blancmange
+
+Blancmange is a sweet dessert made throughout Europe commonly made with milk or cream, and sugar, thickened with rice flour, gelatin or cornflour, and often flavoured with almonds.
+
+- From: Italy
+- Origin (Wikidata): Italy, France
+- Ingredients (Wikidata): milk
+
+Fun facts:
+
+- (history) The oldest recipe for blancmange is from the oldest extant Danish cookbook, written by Henrik Harpestræng, who died in 1244, which dates it to the early 13th century at the latest.
+- (origin) Blancmange originated at some time during the Middle Ages from the older Middle Eastern muhallebi, and usually consisted of capon or chicken, milk or almond milk, rice, and sugar; it was considered to be an ideal food for the sick.
+- (inspiration) The work may be a translation of a German cookbook, which is believed to have been based on a Latin or Romance vernacular manuscript from the 12th century or even earlier.
+
+More fun facts (when the user asks for more):
+
+- (history) The origins of the blancmange have long been believed to lie in the introduction of rice and almonds in early medieval Europe by Arab traders.
+- (history) Muhallebi, or another similar dish from the medieval Islamic world, spread to Europe first as blanc-manger in France, later translated to biancomangiare in Italy and manjar blanco in Spain.
+- (history) In the 19th century, arrowroot and cornflour were added, and the dish evolved into the modern blancmange.
+- (culture) Although traditionally white, blancmanges are frequently given other colours.
+- (about) Food scholar Terence Scully has proposed the alternative etymology of bland mangier, "bland dish", reflecting its often mild and "dainty" (in this context meaning refined and aristocratic) taste and popularity as a dish for the sick.
+- (origin) Blancmange comes from Italy, France.
+- (history) In the 17th century, the whitedish evolved into a meatless dessert pudding with cream and eggs, and later, gelatin.
+- (about) In 14th-century France, parti-colouring (the use of two bright contrasting colours on the same plate) was especially popular and was described by Guillaume Tirel (also known as Taillevent), one of the primary authors of the later editions of Le Viandier.
+- (about) Not to be confused with Manjar branco.
+
+Learn more:
+
+- quick: [Blancmange (Wikipedia)](https://en.wikipedia.org/wiki/Blancmange)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
+- more: [Cuisine of Andorra (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Andorra)
+- deep: [Books about Blancmange (Open Library)](https://openlibrary.org/search?q=Blancmange)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q551514)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q551514) (CC0); [Wikipedia: Blancmange](https://en.wikipedia.org/wiki/Blancmange) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Bocconotto
 
 Bocconotto is a pastry typical of the Italian regions of Abruzzo, Apulia and Calabria.
@@ -1065,6 +1101,7 @@ Learn more:
 
 - quick: [Bucatini (Wikipedia)](https://en.wikipedia.org/wiki/Bucatini)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Cypriot cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cypriot_cuisine)
 - deep: [Books about Bucatini (Open Library)](https://openlibrary.org/search?q=Bucatini)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20007)
 
@@ -1314,6 +1351,7 @@ Learn more:
 
 - quick: [Calzone (Wikipedia)](https://en.wikipedia.org/wiki/Calzone)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Calzone (Open Library)](https://openlibrary.org/search?q=Calzone)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1815560)
 
@@ -1362,6 +1400,7 @@ Learn more:
 
 - quick: [Cannelloni (Wikipedia)](https://en.wikipedia.org/wiki/Cannelloni)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Cannelloni (Open Library)](https://openlibrary.org/search?q=Cannelloni)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20010)
 
@@ -2657,6 +2696,7 @@ Learn more:
 
 - quick: [Farfalle (Wikipedia)](https://en.wikipedia.org/wiki/Farfalle)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Farfalle (Open Library)](https://openlibrary.org/search?q=Farfalle)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q19952)
 
@@ -2733,6 +2773,7 @@ Learn more:
 
 - quick: [Fettuccine (Wikipedia)](https://en.wikipedia.org/wiki/Fettuccine)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Fettuccine (Open Library)](https://openlibrary.org/search?q=Fettuccine)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20032)
 
@@ -2852,6 +2893,7 @@ Learn more:
 
 - quick: [Focaccia (Wikipedia)](https://en.wikipedia.org/wiki/Focaccia)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Croatian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Croatian_cuisine)
 - deep: [Books about Focaccia (Open Library)](https://openlibrary.org/search?q=Focaccia)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q832791)
 
@@ -3324,6 +3366,7 @@ Learn more:
 
 - quick: [Gnocchi (Wikipedia)](https://en.wikipedia.org/wiki/Gnocchi)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Gnocchi (Open Library)](https://openlibrary.org/search?q=Gnocchi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20063)
 
@@ -3489,6 +3532,7 @@ Learn more:
 
 - quick: [Jota (food) (Wikipedia)](https://en.wikipedia.org/wiki/Jota_%28food%29)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [List of Croatian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Croatian_dishes)
 - deep: [Books about Jota (food) (Open Library)](https://openlibrary.org/search?q=Jota%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1136304)
 
@@ -4198,6 +4242,45 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25043652)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q25043652) (CC0); [Wikipedia: Nocciolini di Canzo](https://en.wikipedia.org/wiki/Nocciolini_di_Canzo) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Nutella
+
+Nutella is an Italian brand of sweetened hazelnut cocoa spread.
+
+- From: Italy
+- Origin (Wikidata): Italy
+- Since: 1964-
+- Ingredients (Wikidata): milk, sugar, vanillin, palm oil, lecithin, hazelnut, cocoa powder
+
+Fun facts:
+
+- (history) The first jar of Nutella left the factory in Alba on 20 April 1964.
+- (origin) Nutella is manufactured by the Italian company Ferrero and was introduced in 1964, although the first iteration dates to 1963.
+- (about) Popular both among children and adults, leftists held it in esteem as the Italian response to the American peanut butter.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1983, Nutella was released in America for the first time.
+- (history) In 1963, Ferrero's son Michele, alongside Francesco Rivella, revamped Supercrema gianduja with the intention of marketing it throughout Europe.
+- (history) Nutella dates from 1964-.
+- (about) On 14 May 2014, Poste Italiane issued a 50th anniversary Nutella commemorative stamp.
+- (culture) Ferrero held a Nutella Day on 17 and 18 May to celebrate the anniversary.
+- (about) On 6 April 2026 (EDT), Nutella received viral attention when, during a live stream of the crewed Artemis II Moon flyby, a jar of the spread was seen floating around the crew space of the Integrity vehicle.
+- (origin) Nutella comes from Italy.
+- (about) Not to be confused with Gnutella.
+- (history) In 1946, he sold the initial 300-kilogram (660 lb) batch of Pasta Giandujot, derived from gianduja.
+- (history) Originally sold as a solid block, Ferrero started to sell a creamy, spreadable version in 1951 as Supercrema gianduja.
+- (about) In 2012, French senator Yves Daudigny proposed a tax increase on palm oil from €100 to €400 per tonne.
+
+Learn more:
+
+- quick: [Nutella (Wikipedia)](https://en.wikipedia.org/wiki/Nutella)
+- more: [Libyan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Libyan_cuisine)
+- more: [Cuisine of Libya (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Libya)
+- deep: [Books about Nutella (Open Library)](https://openlibrary.org/search?q=Nutella)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q212193)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q212193) (CC0); [Wikipedia: Nutella](https://en.wikipedia.org/wiki/Nutella) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Occhi di lupo
 
@@ -5555,6 +5638,7 @@ Learn more:
 
 - quick: [Pizza al taglio (Wikipedia)](https://en.wikipedia.org/wiki/Pizza_al_taglio)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Pizza al taglio (Open Library)](https://openlibrary.org/search?q=Pizza%20al%20taglio)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7199983)
 
@@ -6041,6 +6125,7 @@ Learn more:
 
 - quick: [Ragù (Wikipedia)](https://en.wikipedia.org/wiki/Rag%C3%B9)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Ragù (Open Library)](https://openlibrary.org/search?q=Rag%C3%B9)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5571808)
 
@@ -6726,6 +6811,7 @@ Learn more:
 
 - quick: [Sicilian pizza (Wikipedia)](https://en.wikipedia.org/wiki/Sicilian_pizza)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Sicilian pizza (Open Library)](https://openlibrary.org/search?q=Sicilian%20pizza)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2121797)
 
@@ -7120,6 +7206,7 @@ Learn more:
 
 - quick: [Tagliatelle (Wikipedia)](https://en.wikipedia.org/wiki/Tagliatelle)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Slovak cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovak_cuisine)
 - deep: [Books about Tagliatelle (Open Library)](https://openlibrary.org/search?q=Tagliatelle)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20044)
 
@@ -7405,6 +7492,7 @@ Learn more:
 
 - quick: [Tortellini (Wikipedia)](https://en.wikipedia.org/wiki/Tortellini)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Tortellini (Open Library)](https://openlibrary.org/search?q=Tortellini)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20057)
 
@@ -7718,6 +7806,7 @@ Learn more:
 
 - quick: [Veal Milanese (Wikipedia)](https://en.wikipedia.org/wiki/Veal_Milanese)
 - more: [Italian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Italian_cuisine)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Veal Milanese (Open Library)](https://openlibrary.org/search?q=Veal%20Milanese)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12821)
 
@@ -8837,6 +8926,7 @@ Learn more:
 
 - quick: [Braciola (Wikipedia)](https://en.wikipedia.org/wiki/Braciola)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [List of Maltese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Maltese_dishes)
 - deep: [Books about Braciola (Open Library)](https://openlibrary.org/search?q=Braciola)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3643465)
 
@@ -8860,6 +8950,7 @@ Learn more:
 
 - quick: [Bresaola (Wikipedia)](https://en.wikipedia.org/wiki/Bresaola)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
 - deep: [Books about Bresaola (Open Library)](https://openlibrary.org/search?q=Bresaola)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q910095)
 
@@ -10580,6 +10671,7 @@ Learn more:
 
 - quick: [Grappa (Wikipedia)](https://en.wikipedia.org/wiki/Grappa)
 - more: [Italian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Italian_cuisine)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Grappa (Open Library)](https://openlibrary.org/search?q=Grappa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q693078)
 
@@ -10988,6 +11080,7 @@ Learn more:
 
 - quick: [Marsala wine (Wikipedia)](https://en.wikipedia.org/wiki/Marsala_wine)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Marsala wine (Open Library)](https://openlibrary.org/search?q=Marsala%20wine)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q842052)
 
@@ -11241,6 +11334,7 @@ Learn more:
 
 - quick: [Mozzarella (Wikipedia)](https://en.wikipedia.org/wiki/Mozzarella)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Mozzarella (Open Library)](https://openlibrary.org/search?q=Mozzarella)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q14088)
 
@@ -11401,7 +11495,7 @@ Learn more:
 
 - quick: [Olive oil (Wikipedia)](https://en.wikipedia.org/wiki/Olive_oil)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
-- more: [Māori cuisine (Wikipedia)](https://en.wikipedia.org/wiki/M%C4%81ori_cuisine)
+- more: [Slovenian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovenian_cuisine)
 - deep: [Books about Olive oil (Open Library)](https://openlibrary.org/search?q=Olive%20oil)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q93165)
 
@@ -11843,6 +11937,7 @@ Learn more:
 
 - quick: [Pine nut (Wikipedia)](https://en.wikipedia.org/wiki/Pine_nut)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Pine nut (Open Library)](https://openlibrary.org/search?q=Pine%20nut)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q212933)
 
@@ -12162,6 +12257,7 @@ Learn more:
 
 - quick: [Ricotta (Wikipedia)](https://en.wikipedia.org/wiki/Ricotta)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Albanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Albanian_cuisine)
 - deep: [Books about Ricotta (Open Library)](https://openlibrary.org/search?q=Ricotta)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q216781)
 
@@ -12208,6 +12304,40 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3935158)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3935158) (CC0); [Wikipedia: Ricotta forte](https://en.wikipedia.org/wiki/Ricotta_forte) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Riesling
+
+Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700.
+
+- From: Italy
+- Origin (Wikidata): Italy, Germany
+- Since: 1970-
+
+Fun facts:
+
+- (history) The earliest of these references dates from March 13, 1435, when the storage inventory of Count John IV of Katzenelnbogen in Rüsselsheim (close to the Rheingau) lists "22 ß umb seczreben Rießlingen in die wingarten" ("22 shillings for Riesling vine cuttings for the vineyard").
+- (about) As of 2004, Riesling was estimated to be the world's 20th most grown variety at 48,700 hectares (120,000 acres) (with an increasing trend), but in terms of importance for quality wines, it is usually included in the "top three" white wine varieties together with Chardonnay and Sauvignon blanc.
+- (origin) Riesling comes from Italy, Germany.
+
+More fun facts (when the user asks for more):
+
+- (history) The modern spelling Riesling was first documented in 1552 when it was mentioned in Hieronymus Bock's Latin herbal.
+- (history) Riesling has a long history, and there are several written references to the variety dating from the 15th century, although with varying orthography.
+- (history) A map of Kintzheim in Alsace from 1348 contains the text zu dem Russelinge, but it is not certain that this reference is to the grape variety.
+- (history) In 1477, Riesling was documented in Alsace under the spelling Rissling.
+- (history) Riesling dates from 1970-.
+- (about) In 2015, Riesling was the most grown variety in Germany with 23.0% and 23,596 hectares (58,310 acres), and in the French region of Alsace with 21.9% and 3,350 hectares (8,300 acres).
+- (about) There seems to be no documentary evidence to back this up, so this claim is not widely believed to be correct.
+
+Learn more:
+
+- quick: [Riesling (Wikipedia)](https://en.wikipedia.org/wiki/Riesling)
+- more: [Croatian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Croatian_cuisine)
+- more: [Cuisine of Croatia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Croatia)
+- deep: [Books about Riesling (Open Library)](https://openlibrary.org/search?q=Riesling)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q456471)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q456471) (CC0); [Wikipedia: Riesling](https://en.wikipedia.org/wiki/Riesling) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Ristretto
 
@@ -12369,6 +12499,7 @@ Learn more:
 
 - quick: [Salami (Wikipedia)](https://en.wikipedia.org/wiki/Salami)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Salami (Open Library)](https://openlibrary.org/search?q=Salami)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q188655)
 

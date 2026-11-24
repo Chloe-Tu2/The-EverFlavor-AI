@@ -8,68 +8,68 @@ Levels, best first: a photo of one of its own recipes (100 points), a Commons ph
 
 | Best level | Dishes | Share |
 |---|---:|---:|
-| recipe | 1,083 | 32% |
-| dish | 66 | 2% |
+| recipe | 1,118 | 29% |
+| dish | 69 | 2% |
 | variant | 9 | 0% |
-| family | 156 | 5% |
-| placeholder | 2,108 | 62% |
+| family | 180 | 5% |
+| placeholder | 2,423 | 64% |
 
-Statuses: candidate 1,737, verified 1,149, missing 371, fallback 165. Every dish resolves to an image or the placeholder, so no page is empty.
+Statuses: candidate 1,736, verified 1,187, missing 687, fallback 189. Every dish resolves to an image or the placeholder, so no page is empty.
 
 ## By zone
 
 | Zone | Dishes | Own photo | Any photo | Fetchable from Wikidata | Average score |
 |---|---:|---:|---:|---:|---:|
-| Europe | 1,194 | 32% | 37% | 719 | 34.7 |
-| Asia | 1,015 | 21% | 28% | 731 | 24.8 |
-| North America | 456 | 71% | 75% | 114 | 73.2 |
-| Latin America | 256 | 35% | 37% | 129 | 36.1 |
-| Middle East & North Africa | 188 | 19% | 23% | 122 | 21.5 |
+| Europe | 1,344 | 30% | 34% | 719 | 32.4 |
+| Asia | 1,137 | 19% | 26% | 732 | 23.2 |
+| North America | 455 | 71% | 76% | 114 | 73.3 |
+| Latin America | 285 | 34% | 37% | 129 | 35.8 |
+| Middle East & North Africa | 266 | 16% | 21% | 122 | 18.9 |
 | Africa | 150 | 15% | 19% | 23 | 17.1 |
-| Caribbean | 94 | 51% | 55% | 32 | 53.8 |
+| Caribbean | 93 | 51% | 55% | 32 | 53.3 |
 | Oceania | 69 | 48% | 51% | 20 | 49.6 |
 
 ## By country (20 with the most dishes)
 
 | Country | Dishes | Own photo | Any photo | Fetchable | Average score |
 |---|---:|---:|---:|---:|---:|
-| United States | 367 | 72% | 77% | 90 | 74.5 |
-| Italy | 327 | 32% | 34% | 193 | 33.5 |
-| Indonesia | 248 | 10% | 17% | 217 | 14.2 |
-| China | 179 | 31% | 36% | 108 | 33.3 |
+| United States | 366 | 72% | 77% | 90 | 74.6 |
+| Italy | 329 | 33% | 35% | 193 | 33.9 |
+| Indonesia | 249 | 10% | 17% | 218 | 14.1 |
+| China | 181 | 31% | 36% | 108 | 34.0 |
 | Mexico | 112 | 56% | 57% | 41 | 56.7 |
-| Japan | 108 | 29% | 37% | 74 | 33.9 |
-| India | 103 | 41% | 49% | 55 | 45.1 |
+| Japan | 109 | 28% | 37% | 74 | 33.6 |
+| India | 105 | 41% | 49% | 55 | 45.2 |
 | Canada | 89 | 66% | 70% | 24 | 68.0 |
+| France | 88 | 52% | 56% | 41 | 53.8 |
 | Germany | 88 | 30% | 33% | 54 | 31.6 |
 | Greece | 88 | 43% | 47% | 44 | 45.1 |
-| France | 87 | 52% | 55% | 41 | 53.2 |
 | Philippines | 87 | 16% | 22% | 67 | 19.5 |
 | South Korea | 79 | 6% | 15% | 72 | 11.5 |
 | Thailand | 77 | 31% | 38% | 46 | 35.1 |
 | Portugal | 72 | 11% | 11% | 59 | 11.0 |
 | Vietnam | 72 | 18% | 21% | 53 | 19.2 |
 | United Kingdom | 69 | 54% | 59% | 22 | 57.1 |
-| Poland | 66 | 30% | 44% | 41 | 38.3 |
+| Poland | 68 | 32% | 46% | 41 | 40.1 |
+| Turkey | 65 | 17% | 20% | 45 | 18.8 |
 | Australia | 60 | 55% | 58% | 19 | 57.0 |
-| Turkey | 57 | 16% | 19% | 45 | 17.9 |
 
 ## Rules checked
 
 - Every dish, version and family photo is a Wikimedia Commons file with a licence on the free list (CC0, public domain, CC BY, CC BY-SA) and a credit line; one that fails goes to `review`, never to the page.
-- A recipe photo counts only from Food.com, whose photos are CC0 (`docs/sources.md`). 178 dishes have recipe photos only from the Hugging Face set, whose photo licence is not recorded yet: they are not counted until a person confirms it on the dataset page.
+- A recipe photo counts only from Food.com, whose photos are CC0 (`docs/sources.md`). 192 dishes have recipe photos only from the Hugging Face set, whose photo licence is not recorded yet: they are not counted until a person confirms it on the dataset page.
 - Photos a person turned down (`data/reference/dish_photo_review.csv`) are not used.
 - No image is generated, and no photo from a site without a free licence is used.
 
 ## Remediation plan
 
-1. **Fetch** the Wikidata images of 1,890 dishes through the existing photo pipeline (`scripts/dish_photos/fetch_dish_photos.py meta`, `download`, `curate`, `write`), which checks each licence and keeps a credit line: 284 high priority (50+ of the 80 points besides the image), 1,606 medium (`image_priority_queue.json`).
-2. **No image anywhere** for 383 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
+1. **Fetch** the Wikidata images of 1,891 dishes through the existing photo pipeline (`scripts/dish_photos/fetch_dish_photos.py meta`, `download`, `curate`, `write`), which checks each licence and keeps a credit line: 287 high priority (50+ of the 80 points besides the image), 1,604 medium (`image_priority_queue.json`).
+2. **No image anywhere** for 721 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
 3. **Family photos** stand in meanwhile, labelled as the family, never as the dish.
 
 ## Approved for collection
 
-1,739 of 1,890 Wikidata images pass the photo pipeline's rules (free licence, an author to credit, a photo type, at least 400 px, not a map or drawing), read from the Commons API without downloading: 258 high priority, 1,481 medium priority, 0 low priority. The rest:
+1,740 of 1,891 Wikidata images pass the photo pipeline's rules (free licence, an author to credit, a photo type, at least 400 px, not a map or drawing), read from the Commons API without downloading: 260 high priority, 1,480 medium priority, 0 low priority. The rest:
 
 - no author to credit: 30
 - smaller than 400 px: 97

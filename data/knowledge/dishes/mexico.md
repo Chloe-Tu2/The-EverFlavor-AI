@@ -198,6 +198,7 @@ Learn more:
 
 - quick: [Biscocho (Wikipedia)](https://en.wikipedia.org/wiki/Biscocho)
 - more: [List of Mexican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Mexican_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Biscocho (Open Library)](https://openlibrary.org/search?q=Biscocho)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4918187)
 

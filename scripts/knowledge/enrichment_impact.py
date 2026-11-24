@@ -99,9 +99,16 @@ def write_metrics(before: dict[str, float], now: dict[str, float], ref: str) -> 
     out = {"by": "scripts/knowledge/enrichment_impact.py", "generated_at": date.today().isoformat(),
            "baseline": ref, **{s: {k: now[k] for k in keys} for s, keys in SECTIONS.items()},
            "recovery": {k: {"before": before[k], "now": now[k]} for k in now},
-           "not_measured_yet": ["countries with images", "dishes with related dishes", "variants"]}
+           "country_scores": country_summary(),
+           "not_measured_yet": ["countries with images"]}
     (ROOT / KNOW / "atlas" / "atlas_metrics.json").write_text(json.dumps(out, ensure_ascii=False, indent=1),
                                                               encoding="utf-8")
+
+
+def country_summary() -> dict[str, float]:
+    """The three scores per country, summed up (country_scores.py, sprint 3); {} before it has run."""
+    path = ROOT / KNOW / "atlas" / "country_scores.json"
+    return json.loads(path.read_text(encoding="utf-8"))["summary"] if path.exists() else {}
 
 
 def change(before: float, now: float) -> str:
@@ -146,6 +153,11 @@ def dashboard(before: dict[str, float], now: dict[str, float]) -> list[str]:
     out += table(["Measure", "Now"], rows(SECTIONS["coverage"]))
     out += ["", "### Representation", ""]
     out += table(["Measure", "Now"], rows(SECTIONS["representation"]))
+    scores = country_summary()
+    if scores:
+        out += ["", ("Per country ([country_representation.md](docs/audits/country_representation.md)): a country "
+                     "with one dish is covered, not represented."), ""]
+        out += table(["Measure", "Now"], [[k[0].upper() + k[1:], f"{v:,g}"] for k, v in scores.items()])
     out += ["", "### Enrichment", ""]
     out += table(["Measure", "Now"], rows(SECTIONS["enrichment"] + ["entries with an Indigenous tradition"]))
     out += ["", "### Recovery since the atlas sprints began", ""]

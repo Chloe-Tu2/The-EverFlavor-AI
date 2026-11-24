@@ -6,15 +6,42 @@
   "world": 1,
   "zone": 8,
   "region": 30,
-  "country": 172,
+  "country": 205,
   "division": 5,
   "state": 17,
   "culinary_region": 1
  },
  "structure": "valid (load_taxonomy checks parents, levels and loops)",
  "countries_without_iso": [],
- "zone_differences": [],
- "region_differences": [],
+ "zone_differences": [
+  {
+   "country": "Cyprus",
+   "zone": "Europe",
+   "un_continent": "Asia"
+  }
+ ],
+ "region_differences": [
+  {
+   "country": "Serbia",
+   "region": "Eastern Europe",
+   "un_subregion": "Southern Europe"
+  },
+  {
+   "country": "North Macedonia",
+   "region": "Eastern Europe",
+   "un_subregion": "Southern Europe"
+  },
+  {
+   "country": "Slovenia",
+   "region": "Central Europe",
+   "un_subregion": "Southern Europe"
+  },
+  {
+   "country": "Cyprus",
+   "region": "Mediterranean Europe",
+   "un_subregion": "Western Asia"
+  }
+ ],
  "countries_missing_from_taxonomy": [],
  "below_country": [
   {
@@ -22,21 +49,21 @@
    "level": "state",
    "country": "Canada",
    "dishes": 0,
-   "recipes_by_label": 406
+   "recipes_by_label": 405
   },
   {
    "place": "Ontario",
    "level": "state",
    "country": "Canada",
    "dishes": 0,
-   "recipes_by_label": 499
+   "recipes_by_label": 498
   },
   {
    "place": "Quebec",
    "level": "state",
    "country": "Canada",
    "dishes": 34,
-   "recipes_by_label": 81
+   "recipes_by_label": 79
   },
   {
    "place": "Beijing",
@@ -85,7 +112,7 @@
    "level": "state",
    "country": "United Kingdom",
    "dishes": 13,
-   "recipes_by_label": 932
+   "recipes_by_label": 930
   },
   {
    "place": "Scotland",
@@ -106,7 +133,7 @@
    "level": "state",
    "country": "United States",
    "dishes": 0,
-   "recipes_by_label": 553
+   "recipes_by_label": 552
   },
   {
    "place": "Hawaii",
@@ -127,14 +154,14 @@
    "level": "division",
    "country": "United States",
    "dishes": 51,
-   "recipes_by_label": 1791
+   "recipes_by_label": 1790
   },
   {
    "place": "Northeastern US",
    "level": "division",
    "country": "United States",
    "dishes": 32,
-   "recipes_by_label": 1136
+   "recipes_by_label": 1131
   },
   {
    "place": "Pacific Northwest",
@@ -155,7 +182,7 @@
    "level": "division",
    "country": "United States",
    "dishes": 0,
-   "recipes_by_label": 3101
+   "recipes_by_label": 3102
   },
   {
    "place": "Southwestern US",
@@ -181,7 +208,6 @@
  ],
  "empty_countries": [
   "American Samoa",
-  "Bahrain",
   "Burundi",
   "Comoros",
   "Cook Islands",
@@ -195,13 +221,17 @@
   "Kiribati",
   "Lesotho",
   "Liberia",
+  "Martinique",
   "Nauru",
   "Niue",
   "Palau",
   "Papua New Guinea",
   "Qatar",
+  "Saint Kitts and Nevis",
+  "Saint Vincent and the Grenadines",
   "Solomon Islands",
   "São Tomé and Príncipe",
+  "Timor-Leste",
   "Zimbabwe"
  ]
 }

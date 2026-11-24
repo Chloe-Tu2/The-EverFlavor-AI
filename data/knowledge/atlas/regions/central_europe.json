@@ -8,6 +8,7 @@
   "Germany",
   "Hungary",
   "Poland",
+  "Slovenia",
   "Switzerland"
  ],
  "countries_with_a_dish": [
@@ -16,31 +17,32 @@
   "Germany",
   "Hungary",
   "Poland",
+  "Slovenia",
   "Switzerland"
  ],
- "coverage_score": 91.6,
- "dish_count": 238,
- "food_and_drink_count": 98,
- "story_count": 165,
+ "coverage_score": 92.3,
+ "dish_count": 249,
+ "food_and_drink_count": 106,
+ "story_count": 171,
  "representative_dishes": [
   "Hot dog",
+  "Bagel",
   "Schnitzel",
   "Turnover (food)",
   "Frankfurter Würstchen",
   "Gummy bear",
   "Lebkuchen",
-  "Mulled wine",
-  "Pumpernickel"
+  "Mulled wine"
  ],
  "dish_families": [
-  "potato dish",
   "soup",
+  "potato dish",
   "pastry",
   "cake",
   "Brühwurst",
+  "stew",
   "knödel",
-  "beef dish",
-  "stew"
+  "beef dish"
  ],
  "indigenous_traditions": [],
  "related_regions": [

@@ -149,6 +149,31 @@ ATLAS_SPRINT_COUNTRIES = {
     "Guam": "Guamanian",
     "Northern Mariana Islands": "Northern Mariana Islands",
     "American Samoa": "American Samoan",
+    # Sprint 3, coverage recovery (2026-11-23): countries with no dish yet. South America
+    "Venezuela": "Venezuelan", "Ecuador": "Ecuadorian", "Uruguay": "Uruguayan", "Bolivia": "Bolivian",
+    "Paraguay": "Paraguayan", "Guyana": "Guyanese", "Suriname": "Surinamese",
+    # Northern and Eastern Europe, the Balkans and the Mediterranean
+    "Iceland": "Icelandic", "Estonia": "Estonian", "Latvia": "Latvian", "Lithuania": "Lithuanian",
+    "Ukraine": "Ukrainian", "Romania": "Romanian", "Moldova": "Moldovan", "Belarus": "Belarusian",
+    "Bulgaria": "Bulgarian", "Slovakia": "Slovak", "Serbia": "Serbian", "Croatia": "Croatian",
+    "Bosnia and Herzegovina": "Bosnia and Herzegovina", "Slovenia": "Slovenian", "North Macedonia": "Macedonian",
+    "Montenegro": "Montenegrin", "Albania": "Albanian", "Andorra": "Andorran", "Malta": "Maltese",
+    "Cyprus": "Cypriot", "Luxembourg": "Luxembourg",
+    # Southern Asia
+    "Nepal": "Nepalese", "Bangladesh": "Bangladeshi", "Afghanistan": "Afghan", "Sri Lanka": "Sri Lankan",
+    "Bhutan": "Bhutanese", "Maldives": "Maldivian",
+    # Western Asia and the Caucasus
+    "Israel": "Israeli", "Jordan": "Jordanian", "Syria": "Syrian", "Yemen": "Yemeni", "Oman": "Omani",
+    "United Arab Emirates": "Emirati", "Qatar": "Qatari", "Kuwait": "Kuwaiti", "Bahrain": "Bahraini",
+    "Georgia": "Georgian", "Armenia": "Armenian", "Azerbaijan": "Azerbaijani",
+    # East and Southeast Asia
+    "Taiwan": "Taiwanese", "Mongolia": "Mongolian", "North Korea": "North Korean", "Laos": "Lao",
+    "Myanmar": "Burmese", "Singapore": "Singaporean", "Brunei": "Bruneian", "Timor-Leste": "East Timorese",
+    # The Caribbean
+    "Dominica": "Dominica", "Cayman Islands": "Caymanian", "Aruba": "Aruban",
+    "Antigua and Barbuda": "Antigua and Barbuda", "Grenada": "Grenadian", "Saint Lucia": "Saint Lucian",
+    "Saint Vincent and the Grenadines": "Vincentian", "Saint Kitts and Nevis": "Kittitian and Nevisian",
+    "Curaçao": "Curaçaoan", "Guadeloupe": "Guadeloupean", "Martinique": "Martinican",
 }
 APP_COUNTRIES.update(ATLAS_SPRINT_COUNTRIES)
 # Indigenous food traditions (sprint 2, 2026-11-23): page -> (its country, or None when Wikidata's origin decides;
@@ -211,6 +236,7 @@ COUNTRY_PAGES = {
     'Lesotho': ['Cuisine of Lesotho'],
     'Vanuatu': ['Cuisine of Vanuatu'],
     'Kiribati': ['Cuisine of Kiribati'],
+    'Cayman Islands': ['Cuisine of the Cayman Islands'],
 }
 # The app's regions (country, region as the app names it) -> their Wikipedia pages; a missing page is skipped
 APP_REGIONS = {

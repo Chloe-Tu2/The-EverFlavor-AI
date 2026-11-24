@@ -8,29 +8,29 @@
  "countries_with_a_dish": [
   "Iran"
  ],
- "coverage_score": 83.3,
- "dish_count": 14,
+ "coverage_score": 85.5,
+ "dish_count": 18,
  "food_and_drink_count": 5,
- "story_count": 5,
+ "story_count": 8,
  "representative_dishes": [
+  "Falooda",
   "Faloodeh",
   "Kuku (food)",
+  "Bastani",
   "Kabab koobideh",
+  "Mahyawa",
   "Sabzi polo",
-  "Kabab torsh",
-  "Baghali ghatogh",
-  "Kashk bademjan",
-  "Kateh"
+  "Kabab torsh"
  ],
  "dish_families": [
   "kebab",
   "pastry",
   "stew",
   "egg dish",
+  "ice cream",
   "yogurt drink",
   "sorbet",
-  "sauce",
-  "eggplant dish"
+  "sauce"
  ],
  "indigenous_traditions": [],
  "related_regions": [

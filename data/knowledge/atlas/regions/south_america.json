@@ -4,25 +4,36 @@
  "continent": "Latin America",
  "countries": [
   "Argentina",
+  "Bolivia",
   "Brazil",
   "Chile",
   "Colombia",
   "Ecuador",
+  "Guyana",
+  "Paraguay",
   "Peru",
+  "Suriname",
   "Uruguay",
   "Venezuela"
  ],
  "countries_with_a_dish": [
   "Argentina",
+  "Bolivia",
   "Brazil",
   "Chile",
   "Colombia",
-  "Peru"
+  "Ecuador",
+  "Guyana",
+  "Paraguay",
+  "Peru",
+  "Suriname",
+  "Uruguay",
+  "Venezuela"
  ],
- "coverage_score": 58.5,
- "dish_count": 123,
- "food_and_drink_count": 72,
- "story_count": 74,
+ "coverage_score": 86.6,
+ "dish_count": 152,
+ "food_and_drink_count": 101,
+ "story_count": 101,
  "representative_dishes": [
   "Ceviche",
   "Pão de queijo",
@@ -30,23 +41,23 @@
   "Brigadeiro",
   "Arepa",
   "Ají de gallina",
-  "Ham sandwich",
-  "Sorrentinos"
+  "Cachapa",
+  "Tequeño"
  ],
  "dish_families": [
   "soup",
   "confectionery",
+  "bread",
+  "sandwich",
   "stew",
   "potato dish",
-  "sandwich",
   "beef dish",
-  "bread",
-  "chicken dish"
+  "rice dish"
  ],
  "indigenous_traditions": [
   {
    "tradition": "Native American",
-   "foods": 4,
+   "foods": 6,
    "reviewed": false
   }
  ],

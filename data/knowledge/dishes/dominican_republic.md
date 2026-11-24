@@ -246,7 +246,7 @@ Learn more:
 
 - quick: [Pasteles (Wikipedia)](https://en.wikipedia.org/wiki/Pasteles)
 - more: [Dominican Republic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dominican_Republic_cuisine)
-- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Pasteles (Open Library)](https://openlibrary.org/search?q=Pasteles)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q104840853)
 

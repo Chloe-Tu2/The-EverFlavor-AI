@@ -154,6 +154,13 @@
      "reviewed": false
     },
     {
+     "name": "Colada morada",
+     "qid": "Q838099",
+     "country": "Ecuador",
+     "kind": "food or drink",
+     "reviewed": false
+    },
+    {
      "name": "Bammy",
      "qid": "Q4853511",
      "country": "Jamaica",
@@ -172,6 +179,13 @@
      "qid": "Q11575",
      "country": "Mexico",
      "kind": "food or drink",
+     "reviewed": false
+    },
+    {
+     "name": "Mbeju",
+     "qid": "Q1754338",
+     "country": "Paraguay",
+     "kind": "dish",
      "reviewed": false
     },
     {

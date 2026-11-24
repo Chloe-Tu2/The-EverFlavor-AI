@@ -1035,6 +1035,7 @@ Learn more:
 
 - quick: [Mu kratha (Wikipedia)](https://en.wikipedia.org/wiki/Mu_kratha)
 - more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
+- more: [Lao cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lao_cuisine)
 - deep: [Books about Mu kratha (Open Library)](https://openlibrary.org/search?q=Mu%20kratha)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16963468)
 
@@ -1134,6 +1135,7 @@ Learn more:
 
 - quick: [Nam tok (food) (Wikipedia)](https://en.wikipedia.org/wiki/Nam_tok_%28food%29)
 - more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
+- more: [Lao cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lao_cuisine)
 - deep: [Books about Nam tok (food) (Open Library)](https://openlibrary.org/search?q=Nam%20tok%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4923638)
 
@@ -1373,6 +1375,7 @@ Learn more:
 
 - quick: [Pork rind (Wikipedia)](https://en.wikipedia.org/wiki/Pork_rind)
 - more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
 - deep: [Books about Pork rind (Open Library)](https://openlibrary.org/search?q=Pork%20rind)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3695900)
 
@@ -1609,6 +1612,7 @@ Learn more:
 
 - quick: [Thai curry (Wikipedia)](https://en.wikipedia.org/wiki/Thai_curry)
 - more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
+- more: [Burmese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Burmese_cuisine)
 - deep: [Books about Thai curry (Open Library)](https://openlibrary.org/search?q=Thai%20curry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1144927)
 
@@ -2119,6 +2123,7 @@ Learn more:
 
 - quick: [Khanom chin (Wikipedia)](https://en.wikipedia.org/wiki/Khanom_chin)
 - more: [Thai cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Thai_cuisine)
+- more: [Burmese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Burmese_cuisine)
 - deep: [Books about Khanom chin (Open Library)](https://openlibrary.org/search?q=Khanom%20chin)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13360715)
 
@@ -2395,6 +2400,7 @@ Learn more:
 
 - quick: [Nam phrik (Wikipedia)](https://en.wikipedia.org/wiki/Nam_phrik)
 - more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
+- more: [Burmese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Burmese_cuisine)
 - deep: [Books about Nam phrik (Open Library)](https://openlibrary.org/search?q=Nam%20phrik)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4922876)
 
@@ -2554,6 +2560,7 @@ Learn more:
 
 - quick: [Punch (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Punch_%28drink%29)
 - more: [List of Thai dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Thai_dishes)
+- more: [Slovak cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovak_cuisine)
 - deep: [Books about Punch (drink) (Open Library)](https://openlibrary.org/search?q=Punch%20%28drink%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1121224)
 

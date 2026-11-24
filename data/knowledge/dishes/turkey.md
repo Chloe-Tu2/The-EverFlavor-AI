@@ -581,6 +581,35 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5454668) (CC0); [Wikipedia: Fish soup](https://en.wikipedia.org/wiki/Fish_soup) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Ghivetch
+
+Ghivetch is a traditional Balkan autumn vegetable stew most closely associated with Moldova, where it is a national dish.
+
+- From: Turkey
+- Origin (Wikidata): Turkey
+- Ingredients (Wikidata): meat, vegetable
+
+Fun facts:
+
+- (history) The Washington Post in 1985 called it "one of the world's great vegetable melanges".
+- (culture) Ghivetch is a national dish of Moldova, where it is called ghiveci.
+- (origin) Ghivetch comes from Turkey.
+
+More fun facts (when the user asks for more):
+
+- (culture) Ghivetch is traditionally cooked in an earthenware pot called a güveç.
+- (culture) Ghivetch is known throughout the Balkans as a traditional autumn vegetable stew, but it is most closely associated with Moldova, Turkey and Bulgaria.
+
+Learn more:
+
+- quick: [Ghivetch (Wikipedia)](https://en.wikipedia.org/wiki/Ghivetch)
+- more: [Romanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Romanian_cuisine)
+- more: [Cuisine of Romania (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Romania)
+- deep: [Books about Ghivetch (Open Library)](https://openlibrary.org/search?q=Ghivetch)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q342208)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q342208) (CC0); [Wikipedia: Ghivetch](https://en.wikipedia.org/wiki/Ghivetch) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Glasswort salad
 
 Glasswort salad or samphire salad is a salad in Turkish cuisine.
@@ -707,6 +736,29 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6068180) (CC0); [Wikipedia: İskilip dolması](https://en.wikipedia.org/wiki/İskilip_dolması) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Kalburabastı
+
+Kalburabastı (sometimes spelled kalbura bastı) or kalburabasma (Turkish, also known as hurmašice in Bosnia and Herzegovina, and throughout the rest of former Yugoslavia as urmašice), and sometimes also known under the name of hurma, are syrup-drenched pastries that have a riddled appearance.
+
+- From: Turkey
+- Origin (Wikidata): Turkey
+- Ingredients (Wikidata): flour
+
+Fun facts:
+
+- (origin) Kalburabastı comes from Turkey.
+- (about) Not to be confused with hurmašica.
+
+Learn more:
+
+- quick: [Kalburabastı (Wikipedia)](https://en.wikipedia.org/wiki/Kalburabast%C4%B1)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
+- more: [Cuisine of Serbia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Serbia)
+- deep: [Books about Kalburabastı (Open Library)](https://openlibrary.org/search?q=Kalburabast%C4%B1)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q8055913)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q8055913) (CC0); [Wikipedia: Kalburabastı](https://en.wikipedia.org/wiki/Kalburabastı) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Kalehjoosh
 
 Kalehjoosh, or Kyalagyosh is a popular traditional soup in Iran, Armenia, Azerbaijan, and Turkey.
@@ -774,6 +826,28 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20064322)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q20064322) (CC0); [Wikipedia: Kavurma](https://en.wikipedia.org/wiki/Kavurma) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kačamak
+
+Kačamak is a kind of maize porridge made in parts of Western Asia and Southeastern Europe.
+
+- From: Turkey
+- Origin (Wikidata): Turkey
+- Ingredients (Wikidata): cornmeal
+
+Fun facts:
+
+- (origin) Kačamak comes from Turkey.
+
+Learn more:
+
+- quick: [Kačamak (Wikipedia)](https://en.wikipedia.org/wiki/Ka%C4%8Damak)
+- more: [Bulgarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bulgarian_cuisine)
+- more: [Cuisine of Bulgaria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Bulgaria)
+- deep: [Books about Kačamak (Open Library)](https://openlibrary.org/search?q=Ka%C4%8Damak)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q15635457)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q15635457) (CC0); [Wikipedia: Kačamak](https://en.wikipedia.org/wiki/Kačamak) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Kağıt kebabı
 
@@ -904,6 +978,28 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q16906849) (CC0); [Wikipedia: Kuru fasulye](https://en.wikipedia.org/wiki/Kuru_fasulye) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Kuymak
+
+Kuymak or khavitz is a dish from the Pontus region that now lies in northern Turkey, and is popular in areas around the Black Sea.
+
+- From: Turkey
+- Origin (Wikidata): Turkey, Serbia
+- Ingredients (Wikidata): cheese, butter, cornmeal
+
+Fun facts:
+
+- (origin) Kuymak comes from Turkey, Serbia.
+
+Learn more:
+
+- quick: [Kuymak (Wikipedia)](https://en.wikipedia.org/wiki/Kuymak)
+- more: [Georgian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Georgian_cuisine)
+- more: [Cuisine of Georgia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Georgia)
+- deep: [Books about Kuymak (Open Library)](https://openlibrary.org/search?q=Kuymak)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3676186)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3676186) (CC0); [Wikipedia: Kuymak](https://en.wikipedia.org/wiki/Kuymak) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Kısır
 
 Kısır is a bulgur based salad found in Turkish cuisine.
@@ -991,6 +1087,30 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9026659)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q9026659) (CC0); [Wikipedia: Macun](https://en.wikipedia.org/wiki/Macun) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Meze
+
+Meze ( MEZ-ay; also spelled mezze or mezé) is a selection of small dishes served as appetizers in Eastern Mediterranean cuisines.
+
+- From: Turkey
+- Origin (Wikidata): Turkey
+- Named after: taste
+
+Fun facts:
+
+- (inspiration) Meze is named after taste.
+- (culture) The meze tradition began in the Byzantine Empire and developed in Ottoman Greek houses and tavernes.
+- (origin) Meze comes from Turkey.
+
+Learn more:
+
+- quick: [Meze (Wikipedia)](https://en.wikipedia.org/wiki/Meze)
+- more: [Bulgarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bulgarian_cuisine)
+- more: [Cuisine of Bulgaria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Bulgaria)
+- deep: [Books about Meze (Open Library)](https://openlibrary.org/search?q=Meze)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q818674)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q818674) (CC0); [Wikipedia: Meze](https://en.wikipedia.org/wiki/Meze) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Pilaf
 
@@ -1080,6 +1200,27 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q250170)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q250170) (CC0); [Wikipedia: Pogača](https://en.wikipedia.org/wiki/Pogača) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Popara
+
+Popara is a dish made with bread.
+
+- From: Turkey
+- Origin (Wikidata): Turkey
+
+Fun facts:
+
+- (origin) Popara comes from Turkey.
+
+Learn more:
+
+- quick: [Popara (Wikipedia)](https://en.wikipedia.org/wiki/Popara)
+- more: [Bulgarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bulgarian_cuisine)
+- more: [Cuisine of Bulgaria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Bulgaria)
+- deep: [Books about Popara (Open Library)](https://openlibrary.org/search?q=Popara)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2668259)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2668259) (CC0); [Wikipedia: Popara](https://en.wikipedia.org/wiki/Popara) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Sheep's sorrel soup
 
@@ -1262,6 +1403,29 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6013354) (CC0); [Wikipedia: Toyga soup](https://en.wikipedia.org/wiki/Toyga_soup) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Yahni
+
+Yakhni, yahni (Turkish), or yahniya, jahni (Albanian), iahnie (Romanian) is a class of dishes traditionally prepared in a vast area encompassing South Asia, the Middle East and the Balkans.
+
+- From: Turkey
+- Origin (Wikidata): Turkey
+
+Fun facts:
+
+- (origin) Yahni comes from Turkey.
+- (history) Lexicographer James Redhouse defined the word in his 1890 English-Ottoman Turkish as a "stew of fish or meat".
+- (origin) A meat stew named yakhni originated in Medieval Iranian cuisine.
+
+Learn more:
+
+- quick: [Yahni (Wikipedia)](https://en.wikipedia.org/wiki/Yahni)
+- more: [Bulgarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bulgarian_cuisine)
+- more: [Cuisine of Bulgaria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Bulgaria)
+- deep: [Books about Yahni (Open Library)](https://openlibrary.org/search?q=Yahni)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6457441)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6457441) (CC0); [Wikipedia: Yahni](https://en.wikipedia.org/wiki/Yahni) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Yayla çorbası
 
 Yayla çorbasi ('highland soup'), also known as yoğurtlu çorba ('yogurt soup'), is a Turkish yogurt soup cooked with a variety of herbs (mint, purslane, parsley and others), rice, and (sometimes) chickpeas.
@@ -1283,6 +1447,34 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6027777)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6027777) (CC0); [Wikipedia: Yayla çorbası](https://en.wikipedia.org/wiki/Yayla_çorbası) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Zelnik
+
+Zelnik is a traditional pastry eaten in Bulgaria and North Macedonia.
+
+- From: Turkey
+- Origin (Wikidata): Turkey
+- Ingredients (Wikidata): phyllo
+
+Fun facts:
+
+- (culture) Unlike zelnik, cabbage börek is made for holidays and festivals and is served with kefir.
+- (about) Zelnik is similar to burek, a dish popular in the Middle East, Eastern Europe and Central Asia.
+- (origin) Zelnik comes from Turkey.
+
+More fun facts (when the user asks for more):
+
+- (culture) In winter, the filling traditionally includes pickled cabbage, from which the dish derives its name.
+
+Learn more:
+
+- quick: [Zelnik (Wikipedia)](https://en.wikipedia.org/wiki/Zelnik)
+- more: [Bulgarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bulgarian_cuisine)
+- more: [Cuisine of Bulgaria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Bulgaria)
+- deep: [Books about Zelnik (Open Library)](https://openlibrary.org/search?q=Zelnik)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q8068822)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q8068822) (CC0); [Wikipedia: Zelnik](https://en.wikipedia.org/wiki/Zelnik) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Çiğ köfte
 
@@ -1460,6 +1652,41 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1897605)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1897605) (CC0); [Wikipedia: Beyaz peynir](https://en.wikipedia.org/wiki/Beyaz_peynir) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Boza
+
+Boza, also bosa or bozo, is a fermented beverage originating from Central Asia.
+
+- From: Turkey
+- Origin (Wikidata): Turkey
+- Ingredients (Wikidata): water, sugar, Hordeum vulgare
+
+Fun facts:
+
+- (history) Until the 16th century, boza was drunk freely everywhere, but the custom of making the so-called Tartar boza laced with opium brought the wrath of the authorities down on the drink, and it was prohibited by sultan Selim II (1566–1574).
+- (about) Modern Turkish word boza is believed to be cognates with the Old Turkic buχsı or buχsum.
+- (origin) Boza comes from Turkey.
+
+More fun facts (when the user asks for more):
+
+- (history) The drink under the name boza is first attested in Abu Hayyan al-Gharnati's early 14th century Kipchak Turkic work Kitab al-'idrak li-lisan al-'atrak
+- (history) In the 17th century, Sultan Mehmed IV (1648–1687) prohibited alcoholic drinks including boza, and closed down all the boza shops.
+- (history) In the 10th century CE, the drink was called Boza and became common amongst Central Asian Turkic peoples.
+- (history) The 17th century Turkish traveler Evliya Çelebi reports that boza was widely drunk at this time, and that there were 300 boza shops employing over a thousand people in Istanbul alone.
+- (about) As Evliya Çelebi explained in the first volume ("Istanbul") of his Seyahatname (Travelogues), "These boza makers are numerous in the army.
+- (history) To drink sufficient boza to cause intoxication is sinful but, unlike wine, in small quantities it is not condemned." In the 19th century, the sweet and non-alcoholic boza preferred at the Ottoman palace became increasingly popular, while the sour and alcoholic type of boza went out of style.
+- (history) The oldest written account of the drink is under the name buχsum and is attested from the 1073 Middle Turkic dictionary Dīwān Lughāt al-Turk by Mahmud al-Kashgari.
+- (history) Fermented cereal flour (generally millet) drinks have been produced in Anatolia and Mesopotamia since the 9th or 8th millennia BCE, and Xenophon mentioned in the 4th century BCE how the locals preserved and cooled the preparations in earthen pots that were buried.
+
+Learn more:
+
+- quick: [Boza (Wikipedia)](https://en.wikipedia.org/wiki/Boza)
+- more: [Kyrgyz cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Kyrgyz_cuisine)
+- more: [Cuisine of Kyrgyzstan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Kyrgyzstan)
+- deep: [Books about Boza (Open Library)](https://openlibrary.org/search?q=Boza)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q744983)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q744983) (CC0); [Wikipedia: Boza](https://en.wikipedia.org/wiki/Boza) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Cardamom
 

@@ -397,6 +397,7 @@ Learn more:
 
 - quick: [Kuchen (Wikipedia)](https://en.wikipedia.org/wiki/Kuchen)
 - more: [Chilean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chilean_cuisine)
+- more: [Venezuelan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Venezuelan_cuisine)
 - deep: [Books about Kuchen (Open Library)](https://openlibrary.org/search?q=Kuchen)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10754476)
 

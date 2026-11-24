@@ -74,6 +74,7 @@ Learn more:
 
 - quick: [Ambuyat (Wikipedia)](https://en.wikipedia.org/wiki/Ambuyat)
 - more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
+- more: [Bruneian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bruneian_cuisine)
 - deep: [Books about Ambuyat (Open Library)](https://openlibrary.org/search?q=Ambuyat)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4742021)
 
@@ -245,6 +246,7 @@ Learn more:
 
 - quick: [Chilli crab (Wikipedia)](https://en.wikipedia.org/wiki/Chilli_crab)
 - more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Chilli crab (Open Library)](https://openlibrary.org/search?q=Chilli%20crab)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q841908)
 
@@ -295,6 +297,7 @@ Learn more:
 
 - quick: [Devil's curry (Wikipedia)](https://en.wikipedia.org/wiki/Devil%27s_curry)
 - more: [Malaysian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malaysian_cuisine)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Devil's curry (Open Library)](https://openlibrary.org/search?q=Devil%27s%20curry)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5267251)
 
@@ -353,6 +356,7 @@ Learn more:
 
 - quick: [Fish soup bee hoon (Wikipedia)](https://en.wikipedia.org/wiki/Fish_soup_bee_hoon)
 - more: [Malaysian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malaysian_cuisine)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Fish soup bee hoon (Open Library)](https://openlibrary.org/search?q=Fish%20soup%20bee%20hoon)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17050214)
 
@@ -541,6 +545,7 @@ Learn more:
 
 - quick: [Mee siam (Wikipedia)](https://en.wikipedia.org/wiki/Mee_siam)
 - more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Mee siam (Open Library)](https://openlibrary.org/search?q=Mee%20siam)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1886310)
 
@@ -791,6 +796,7 @@ Learn more:
 
 - quick: [Sambal stingray (Wikipedia)](https://en.wikipedia.org/wiki/Sambal_stingray)
 - more: [Malaysian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malaysian_cuisine)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Sambal stingray (Open Library)](https://openlibrary.org/search?q=Sambal%20stingray)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17053542)
 
@@ -853,6 +859,32 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7425852) (CC0); [Wikipedia: Sata (food)](https://en.wikipedia.org/wiki/Sata_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Teochew porridge
+
+Teochew porridge is a Teochew rice porridge dish often accompanied with various small plates of side dishes.
+
+- From: Malaysia
+- Origin (Wikidata): Malaysia
+
+Fun facts:
+
+- (about) Teochew is famous for steamed fish, which is usually only seasoned with light sauce, spring onion, slices of ginger and a sprinkle of freshly crushed red pepper, so that the freshness and sweetness of the seafood can be fully appreciated.
+- (origin) Singapore Airlines has since 2016 introduced Teochew cuisine on board its flights, which includes Teochew porridge.
+- (origin) Teochew porridge comes from Malaysia.
+
+More fun facts (when the user asks for more):
+
+- (origin) The recipe originated in Chaozhou and was later modified by early immigrants prepared in Malaysia and Singapore over the generations to suit local tastes.
+
+Learn more:
+
+- quick: [Teochew porridge (Wikipedia)](https://en.wikipedia.org/wiki/Teochew_porridge)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
+- deep: [Books about Teochew porridge (Open Library)](https://openlibrary.org/search?q=Teochew%20porridge)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q24944542)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q24944542) (CC0); [Wikipedia: Teochew porridge](https://en.wikipedia.org/wiki/Teochew_porridge) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Umai (food)
 
 Umai is a traditional native salad dish of the Melanau people in the state of Sarawak within East Malaysia.
@@ -914,6 +946,7 @@ Learn more:
 
 - quick: [Hokkien mee (Wikipedia)](https://en.wikipedia.org/wiki/Hokkien_mee)
 - more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Hokkien mee (Open Library)](https://openlibrary.org/search?q=Hokkien%20mee)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1624233)
 
@@ -1027,6 +1060,7 @@ Learn more:
 
 - quick: [Kaya toast (Wikipedia)](https://en.wikipedia.org/wiki/Kaya_toast)
 - more: [List of Malaysian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Malaysian_dishes)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Kaya toast (Open Library)](https://openlibrary.org/search?q=Kaya%20toast)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6380358)
 

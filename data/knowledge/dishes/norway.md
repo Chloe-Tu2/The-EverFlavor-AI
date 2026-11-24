@@ -98,6 +98,7 @@ Learn more:
 
 - quick: [Bun (Wikipedia)](https://en.wikipedia.org/wiki/Bun)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Belarusian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belarusian_cuisine)
 - deep: [Books about Bun (Open Library)](https://openlibrary.org/search?q=Bun)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13377687)
 
@@ -344,6 +345,7 @@ Learn more:
 
 - quick: [Gratin (Wikipedia)](https://en.wikipedia.org/wiki/Gratin)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
 - deep: [Books about Gratin (Open Library)](https://openlibrary.org/search?q=Gratin)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1412833)
 
@@ -534,6 +536,7 @@ Learn more:
 
 - quick: [Lingonberry jam (Wikipedia)](https://en.wikipedia.org/wiki/Lingonberry_jam)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Estonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Estonian_cuisine)
 - deep: [Books about Lingonberry jam (Open Library)](https://openlibrary.org/search?q=Lingonberry%20jam)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1065990)
 
@@ -672,6 +675,7 @@ Learn more:
 
 - quick: [Pork belly (Wikipedia)](https://en.wikipedia.org/wiki/Pork_belly)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Lao cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lao_cuisine)
 - deep: [Books about Pork belly (Open Library)](https://openlibrary.org/search?q=Pork%20belly)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1365868)
 
@@ -813,6 +817,7 @@ Learn more:
 
 - quick: [Rye bread (Wikipedia)](https://en.wikipedia.org/wiki/Rye_bread)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Estonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Estonian_cuisine)
 - deep: [Books about Rye bread (Open Library)](https://openlibrary.org/search?q=Rye%20bread)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3893120)
 
@@ -1214,6 +1219,7 @@ Learn more:
 
 - quick: [Bran (Wikipedia)](https://en.wikipedia.org/wiki/Bran)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Moldovan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Moldovan_cuisine)
 - deep: [Books about Bran (Open Library)](https://openlibrary.org/search?q=Bran)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q188672)
 
@@ -1569,6 +1575,7 @@ Learn more:
 
 - quick: [Oatmeal (Wikipedia)](https://en.wikipedia.org/wiki/Oatmeal)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Belarusian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belarusian_cuisine)
 - deep: [Books about Oatmeal (Open Library)](https://openlibrary.org/search?q=Oatmeal)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2089240)
 
@@ -1585,6 +1592,7 @@ Learn more:
 
 - quick: [Pork loin (Wikipedia)](https://en.wikipedia.org/wiki/Pork_loin)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
 - deep: [Books about Pork loin (Open Library)](https://openlibrary.org/search?q=Pork%20loin)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7230136)
 
@@ -1701,6 +1709,7 @@ Learn more:
 
 - quick: [Skyr (Wikipedia)](https://en.wikipedia.org/wiki/Skyr)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Icelandic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Icelandic_cuisine)
 - deep: [Books about Skyr (Open Library)](https://openlibrary.org/search?q=Skyr)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q742127)
 
@@ -1834,6 +1843,7 @@ Learn more:
 
 - quick: [Whale meat (Wikipedia)](https://en.wikipedia.org/wiki/Whale_meat)
 - more: [List of Norwegian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Norwegian_dishes)
+- more: [Icelandic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Icelandic_cuisine)
 - deep: [Books about Whale meat (Open Library)](https://openlibrary.org/search?q=Whale%20meat)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5653150)
 

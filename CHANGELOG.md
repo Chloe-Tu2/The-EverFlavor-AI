@@ -33,6 +33,13 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
 - **Atlas metrics:** `scripts/knowledge/enrichment_impact.py` (before and after, `atlas_metrics.json`, a recovery
   chart and the README's generated Atlas progress block) and `region_pages.py` (one knowledge page per food
   region, validated).
+- **Sprint 3, coverage recovery** (2026-11-23): the cuisine pages of 69 more countries (South America, Northern
+  and Eastern Europe and the Balkans, Southern and Western Asia, the Caucasus, East and Southeast Asia, the
+  Caribbean); 33 of them join the place tree. 650 more entries (377 dishes), none lost, 3 moved (review item 29).
+  148 countries have a dish, 104 three or more; world culinary coverage 60.4% (40.9% after sprint 2); the
+  Americas 60.3%, Asia 72.9%, Europe 81.7%. `scripts/knowledge/country_scores.py` scores each country for
+  coverage, representation and enrichment and lists the weakly represented ones (47) as the next targets; the
+  README dashboard shows the summary.
 
 ### Changed
 

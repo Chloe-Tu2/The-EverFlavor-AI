@@ -70,6 +70,7 @@ Learn more:
 
 - quick: [Blini (Wikipedia)](https://en.wikipedia.org/wiki/Blini)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Lithuanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lithuanian_cuisine)
 - deep: [Books about Blini (Open Library)](https://openlibrary.org/search?q=Blini)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q815898)
 
@@ -190,6 +191,7 @@ Learn more:
 
 - quick: [Chebureki (Wikipedia)](https://en.wikipedia.org/wiki/Chebureki)
 - more: [Russian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Russian_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Chebureki (Open Library)](https://openlibrary.org/search?q=Chebureki)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1455040)
 
@@ -312,6 +314,7 @@ Learn more:
 
 - quick: [Farina (food) (Wikipedia)](https://en.wikipedia.org/wiki/Farina_%28food%29)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Farina (food) (Open Library)](https://openlibrary.org/search?q=Farina%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3505415)
 
@@ -506,6 +509,7 @@ Learn more:
 
 - quick: [Korovai (Wikipedia)](https://en.wikipedia.org/wiki/Korovai)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Korovai (Open Library)](https://openlibrary.org/search?q=Korovai)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1703431)
 
@@ -632,6 +636,7 @@ Learn more:
 
 - quick: [Medovik (Wikipedia)](https://en.wikipedia.org/wiki/Medovik)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Latvian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Latvian_cuisine)
 - deep: [Books about Medovik (Open Library)](https://openlibrary.org/search?q=Medovik)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5390483)
 
@@ -656,6 +661,7 @@ Learn more:
 
 - quick: [Mimosa salad (Wikipedia)](https://en.wikipedia.org/wiki/Mimosa_salad)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Mimosa salad (Open Library)](https://openlibrary.org/search?q=Mimosa%20salad)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4293923)
 
@@ -679,6 +685,7 @@ Learn more:
 
 - quick: [Okroshka (Wikipedia)](https://en.wikipedia.org/wiki/Okroshka)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Okroshka (Open Library)](https://openlibrary.org/search?q=Okroshka)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q611164)
 
@@ -755,6 +762,7 @@ Learn more:
 
 - quick: [Pirog (Wikipedia)](https://en.wikipedia.org/wiki/Pirog)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Pirog (Open Library)](https://openlibrary.org/search?q=Pirog)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q858627)
 
@@ -809,6 +817,7 @@ Learn more:
 
 - quick: [Pryanik (Wikipedia)](https://en.wikipedia.org/wiki/Pryanik)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Pryanik (Open Library)](https://openlibrary.org/search?q=Pryanik)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2572122)
 
@@ -971,6 +980,7 @@ Learn more:
 
 - quick: [Sheftalia (Wikipedia)](https://en.wikipedia.org/wiki/Sheftalia)
 - more: [Russian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Russian_cuisine)
+- more: [Cypriot cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cypriot_cuisine)
 - deep: [Books about Sheftalia (Open Library)](https://openlibrary.org/search?q=Sheftalia)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7492817)
 
@@ -1323,6 +1333,29 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1860400) (CC0); [Wikipedia: Baikal (drink)](https://en.wikipedia.org/wiki/Baikal_(drink)) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Baked milk
+
+Baked milk is a variety of boiled milk that has been particularly popular in Russia, Ukraine and Belarus.
+
+- From: Russia
+- Origin (Wikidata): Russia
+
+Fun facts:
+
+- (about) Baked milk was relatively popular outside of Russia as well.
+- (origin) Baked milk comes from Russia.
+- (inspiration) The stove in a traditional Russian loghouse (izba) sustains "varying cooking temperatures based on the placement of the food inside the oven".
+
+Learn more:
+
+- quick: [Baked milk (Wikipedia)](https://en.wikipedia.org/wiki/Baked_milk)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
+- more: [Cuisine of Ukraine (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Ukraine)
+- deep: [Books about Baked milk (Open Library)](https://openlibrary.org/search?q=Baked%20milk)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17306849)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17306849) (CC0); [Wikipedia: Baked milk](https://en.wikipedia.org/wiki/Baked_milk) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Béchamel sauce
 
 Béchamel sauce is a white sauce made from a roux of butter and flour, heated in cream or milk, and seasoned with ground nutmeg.
@@ -1378,6 +1411,7 @@ Learn more:
 
 - quick: [Curd snack (Wikipedia)](https://en.wikipedia.org/wiki/Curd_snack)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Latvian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Latvian_cuisine)
 - deep: [Books about Curd snack (Open Library)](https://openlibrary.org/search?q=Curd%20snack)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2622681)
 
@@ -1598,6 +1632,7 @@ Learn more:
 
 - quick: [Pearl barley (Wikipedia)](https://en.wikipedia.org/wiki/Pearl_barley)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Estonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Estonian_cuisine)
 - deep: [Books about Pearl barley (Open Library)](https://openlibrary.org/search?q=Pearl%20barley)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2743860)
 
@@ -1703,6 +1738,7 @@ Learn more:
 
 - quick: [Salo (food) (Wikipedia)](https://en.wikipedia.org/wiki/Salo_%28food%29)
 - more: [List of Russian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Russian_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Salo (food) (Open Library)](https://openlibrary.org/search?q=Salo%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6496411)
 

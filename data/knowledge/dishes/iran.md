@@ -22,6 +22,59 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5696815) (CC0); [Wikipedia: Baghali ghatogh](https://en.wikipedia.org/wiki/Baghali_ghatogh) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Bastani
+
+Bastani, locally known as bastani sonnati or bastani sonnati zaferani, is an Iranian ice cream made from milk, yolk, sugar, rose water, saffron, vanilla, and pistachios.
+
+- From: Iran
+- Origin (Wikidata): Iran
+- Ingredients (Wikidata): milk, sugar, vanilla, saffron, Pistacia vera, egg as food, rose water
+
+Fun facts:
+
+- (origin) Bastani comes from Iran.
+- (about) In 400 BC, the Persians also invented a sorbet made with rose water and vermicelli called faloodeh.
+- (origin) Persians introduced ice cream and faloodeh to Arabs after the Arab invasion of Iran and the fall of Persian Sasanian Empire.
+
+Learn more:
+
+- quick: [Bastani (Wikipedia)](https://en.wikipedia.org/wiki/Bastani)
+- more: [Afghan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Afghan_cuisine)
+- more: [Cuisine of Afghanistan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Afghanistan)
+- deep: [Books about Bastani (Open Library)](https://openlibrary.org/search?q=Bastani)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5711624)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5711624) (CC0); [Wikipedia: Bastani](https://en.wikipedia.org/wiki/Bastani) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Falooda
+
+A falooda or faluda is a Mughlai cold dessert made with vermicelli.
+
+- From: Iran
+- Origin (Wikidata): Iran
+- Ingredients (Wikidata): milk, vermicelli, Ocimum, rose water
+
+Fun facts:
+
+- (culture) Traditionally, it is prepared by mixing rose syrup, vermicelli, and sweet basil seeds with milk, often served with kulfi.
+- (about) The origin of falooda goes back to Iran (Persia), where a similar dessert, faloodeh, is still popular.
+- (origin) Falooda comes from Iran.
+
+More fun facts (when the user asks for more):
+
+- (about) In Sri Lanka, predominantly referred to as 'Faluda', but 'Falooda' is also accepted, is often consumed as a popular dairy refreshment.
+- (history) The dessert came to late Medieval India with the many Central Asian dynasties that invaded and settled in South Asia in the 16th to 18th century.
+
+Learn more:
+
+- quick: [Falooda (Wikipedia)](https://en.wikipedia.org/wiki/Falooda)
+- more: [List of Bangladeshi dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Bangladeshi_dishes)
+- more: [Sri Lankan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sri_Lankan_cuisine)
+- deep: [Books about Falooda (Open Library)](https://openlibrary.org/search?q=Falooda)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2918079)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2918079) (CC0); [Wikipedia: Falooda](https://en.wikipedia.org/wiki/Falooda) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Faloodeh
 
 Faloodeh, or paloodeh, is a traditional Iranian cold dessert similar to a sorbet.
@@ -155,6 +208,7 @@ Learn more:
 
 - quick: [Koloocheh (Wikipedia)](https://en.wikipedia.org/wiki/Koloocheh)
 - more: [Iranian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iranian_cuisine)
+- more: [Afghan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Afghan_cuisine)
 - deep: [Books about Koloocheh (Open Library)](https://openlibrary.org/search?q=Koloocheh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6427787)
 
@@ -177,10 +231,40 @@ Learn more:
 
 - quick: [Kuku (food) (Wikipedia)](https://en.wikipedia.org/wiki/Kuku_%28food%29)
 - more: [Iranian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iranian_cuisine)
+- more: [Azerbaijani cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Azerbaijani_cuisine)
 - deep: [Books about Kuku (food) (Open Library)](https://openlibrary.org/search?q=Kuku%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q669996)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q669996) (CC0); [Wikipedia: Kuku (food)](https://en.wikipedia.org/wiki/Kuku_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Mahyawa
+
+Mahyâveh is an Iranian cuisine tangy sauce made out of fermented fish.
+
+- From: Iran
+- Origin (Wikidata): Iran
+- Ingredients (Wikidata): fish
+
+Fun facts:
+
+- (about) According to some sources, it was firstly prepared by Bozorgmehr, the minister of the Sasanian Persian king Anoushirvan.
+- (origin) Mahyâveh is widely consumed in Southern Iran, particularly in the southern regions of Fars Province and Hormozgan, as well as in some other parts of the Persian Gulf, especially in the GCC countries, where it has been introduced by Iranian immigrants such as the Achums (known locally as Persian Ajam community).
+- (inspiration) Mahyâveh was invented by the Persian physician Avicenna.
+
+More fun facts (when the user asks for more):
+
+- (about) It is believed that eating Mahyâveh, which also contains mustard, prevents skin disease (Vitiligo).
+- (origin) Mahyawa comes from Iran.
+
+Learn more:
+
+- quick: [Mahyawa (Wikipedia)](https://en.wikipedia.org/wiki/Mahyawa)
+- more: [Kuwaiti cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Kuwaiti_cuisine)
+- more: [Cuisine of Kuwait (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Kuwait)
+- deep: [Books about Mahyawa (Open Library)](https://openlibrary.org/search?q=Mahyawa)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4164590)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4164590) (CC0); [Wikipedia: Mahyawa](https://en.wikipedia.org/wiki/Mahyawa) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Nisholda
 
@@ -285,6 +369,29 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q85800897) (CC0); [Wikipedia: Shirin polo](https://en.wikipedia.org/wiki/Shirin_polo) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Sholezard
+
+Sholezard is a rice pudding composed of saffron, sugar, rose water, butter, cinnamon and cardamom.
+
+- From: Iran
+- Origin (Wikidata): Iran
+- Ingredients (Wikidata): rice, coffee, saffron, cinnamon, butter, rose water, cardamom
+
+Fun facts:
+
+- (culture) Sholezard is a traditional Iranian dessert that is yellow due to the presence of saffron and is topped with cinnamon, almond slices, and pistachio slices.
+- (origin) Sholezard comes from Iran.
+
+Learn more:
+
+- quick: [Sholezard (Wikipedia)](https://en.wikipedia.org/wiki/Sholezard)
+- more: [Afghan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Afghan_cuisine)
+- more: [Cuisine of Afghanistan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Afghanistan)
+- deep: [Books about Sholezard (Open Library)](https://openlibrary.org/search?q=Sholezard)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20987994)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q20987994) (CC0); [Wikipedia: Sholezard](https://en.wikipedia.org/wiki/Sholezard) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Tabrizi Lovuez
 
 Tabrizi Lovuez, also known as Tabrizi Qurabiya, are diamond-shaped confectioneries from Tabriz, a provincial capital in Northwest of Iran.
@@ -339,6 +446,7 @@ Learn more:
 
 - quick: [Doogh (Wikipedia)](https://en.wikipedia.org/wiki/Doogh)
 - more: [Iranian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iranian_cuisine)
+- more: [Afghan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Afghan_cuisine)
 - deep: [Books about Doogh (Open Library)](https://openlibrary.org/search?q=Doogh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q105653630)
 
@@ -367,6 +475,7 @@ Learn more:
 
 - quick: [Gondi (food) (Wikipedia)](https://en.wikipedia.org/wiki/Gondi_%28food%29)
 - more: [Iranian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iranian_cuisine)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
 - deep: [Books about Gondi (food) (Open Library)](https://openlibrary.org/search?q=Gondi%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12404884)
 

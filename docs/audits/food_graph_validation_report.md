@@ -2,7 +2,7 @@
 
 `scripts/knowledge/graph_validation.py` built the Food Graph as the app does (dishes, families, versions and the place tree; recipes are counted in `data/knowledge/recipe_graph_counts.json`) and checked its links. **Nothing was changed.**
 
-Nodes: 6,825 dishes (5,253 ours, foods and drinks included),2,590 versions, 253 families, and the places. Edges: eaten_in 5,253, in_family 4,312, origin 5,243, part_of 242, variant_of 5,355.
+Nodes: 7,374 dishes (5,903 ours, foods and drinks included),2,437 versions, 257 families, and the places. Edges: eaten_in 5,903, in_family 4,348, origin 5,710, part_of 276, variant_of 5,420.
 
 ## Broken links (should be zero)
 
@@ -19,10 +19,10 @@ Nodes: 6,825 dishes (5,253 ours, foods and drinks included),2,590 versions, 253 
 |---|---:|
 | our dishes with no place edge (no origin and no cuisine-list place in the tree) | 0 |
 | cuisine-list countries not in the place tree | 0 |
-| Wikidata origins not in the place tree | 167 |
+| Wikidata origins not in the place tree | 150 |
 | family groups with no member left (members were list articles) | 0 |
 
-Wikidata origins not in the tree (20 most used): People's Republic of China (157), Korea (83), Scotland (43), Levant (17), England (15), Middle East (11), Singapore (11), Cyprus (8), Belarus (8), Hong Kong (7), Ottoman Empire (7), Eastern Europe (7), Indian subcontinent (7), Russian Empire (5), Maghreb (5), Soviet Union (5), Europe (4), Mesoamerica (4), Scandinavia (4), Arabian Peninsula (4).
+Wikidata origins not in the tree (20 most used): People's Republic of China (160), Korea (83), Scotland (44), Levant (17), England (15), Middle East (12), Hong Kong (7), Ottoman Empire (7), Eastern Europe (7), Indian subcontinent (7), Russian Empire (6), Maghreb (5), Soviet Union (5), Europe (4), Mesoamerica (4), Scandinavia (4), Arabian Peninsula (4), Hawaii (4), Central Asia (3), North America (3).
 
 ## More than one valid place (for a person)
 
@@ -30,5 +30,5 @@ Both kinds can be right, so nothing is settled here: the dish keeps every place 
 
 | Case | Dishes |
 |---|---:|
-| Wikidata gives more than one country of origin | 272 |
-| the cuisine list puts it in a country that is not its origin | 919 |
+| Wikidata gives more than one country of origin | 313 |
+| the cuisine list puts it in a country that is not its origin | 918 |

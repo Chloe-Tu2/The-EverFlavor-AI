@@ -130,6 +130,7 @@ Learn more:
 
 - quick: [Smažený sýr (Wikipedia)](https://en.wikipedia.org/wiki/Sma%C5%BEen%C3%BD_s%C3%BDr)
 - more: [Czech cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Czech_cuisine)
+- more: [Slovak cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovak_cuisine)
 - deep: [Books about Smažený sýr (Open Library)](https://openlibrary.org/search?q=Sma%C5%BEen%C3%BD%20s%C3%BDr)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q590739)
 
@@ -181,6 +182,7 @@ Learn more:
 
 - quick: [Trdelník (Wikipedia)](https://en.wikipedia.org/wiki/Trdeln%C3%ADk)
 - more: [Czech cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Czech_cuisine)
+- more: [Slovak cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovak_cuisine)
 - deep: [Books about Trdelník (Open Library)](https://openlibrary.org/search?q=Trdeln%C3%ADk)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q552492)
 
@@ -221,6 +223,7 @@ Learn more:
 
 - quick: [Walnut cake with egg yolk glaze (Wikipedia)](https://en.wikipedia.org/wiki/Walnut_cake_with_egg_yolk_glaze)
 - more: [Czech cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Czech_cuisine)
+- more: [Slovak cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovak_cuisine)
 - deep: [Books about Walnut cake with egg yolk glaze (Open Library)](https://openlibrary.org/search?q=Walnut%20cake%20with%20egg%20yolk%20glaze)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q125059439)
 
@@ -243,6 +246,7 @@ Learn more:
 
 - quick: [Žemlovka (Wikipedia)](https://en.wikipedia.org/wiki/%C5%BDemlovka)
 - more: [Czech cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Czech_cuisine)
+- more: [Slovak cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovak_cuisine)
 - deep: [Books about Žemlovka (Open Library)](https://openlibrary.org/search?q=%C5%BDemlovka)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q263948)
 

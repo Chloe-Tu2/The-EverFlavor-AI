@@ -75,7 +75,7 @@ Back to [world coverage](coverage_world.md).
 ## Countries with the most to add
 
 - **Nigeria** (high; 8 ready, 0 to review): goat meat pepper soup, Pawpaw soup, Owo soup, Okoho, Ofé Olugbo, Ofe Oha, Gbegiri, Afia Efere.
-- **Uganda** (low; 3 ready, 0 to review): Luwombo, Kikalayi, Eshabwe.
+- **Uganda** (low; 3 ready, 0 to review): Eshabwe, Luwombo, Kikalayi.
 - **Kenya** (low; 1 ready, 0 to review): Kenyan cheese.
 - **Tanzania** (low; 1 ready, 0 to review): Kunga cake.
 - **South Africa** (medium; 1 ready, 0 to review): rooibos.

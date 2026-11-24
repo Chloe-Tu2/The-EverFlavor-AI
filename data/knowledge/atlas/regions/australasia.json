@@ -12,8 +12,8 @@
  ],
  "coverage_score": 85.7,
  "dish_count": 62,
- "food_and_drink_count": 45,
- "story_count": 64,
+ "food_and_drink_count": 47,
+ "story_count": 66,
  "representative_dishes": [
   "Tomato sauce",
   "Avocado toast",
@@ -30,9 +30,9 @@
   "sandwich",
   "pastry",
   "confectionery",
+  "coffee drink",
   "potato dish",
-  "open sandwich",
-  "Brühwurst"
+  "open sandwich"
  ],
  "indigenous_traditions": [
   {

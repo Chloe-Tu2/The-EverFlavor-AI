@@ -18,19 +18,19 @@
   "Sudan",
   "Tunisia"
  ],
- "coverage_score": 88.0,
- "dish_count": 55,
+ "coverage_score": 88.2,
+ "dish_count": 56,
  "food_and_drink_count": 47,
- "story_count": 37,
+ "story_count": 38,
  "representative_dishes": [
+  "Matzah",
   "Shakshouka",
   "Börek",
   "Pastilla",
   "Tagine",
   "Qrashel",
   "Fatayer",
-  "Qatayef",
-  "Bourek (Algerian cuisine)"
+  "Qatayef"
  ],
  "dish_families": [
   "flatbread",

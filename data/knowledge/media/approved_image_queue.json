@@ -2,8 +2,8 @@
  "about": "Wikidata images of our dishes that pass the photo pipeline's rules (free licence, an author to credit, a photo type, at least 400 px, not a map or drawing). Not downloaded and not shown: the pipeline fetches them when the team agrees, and a person checks each photo by eye.",
  "built_on": "2026-11-23",
  "by": "scripts/knowledge/image_queue.py",
- "asked": 1890,
- "approved": 1739,
+ "asked": 1891,
+ "approved": 1740,
  "rejected": 151,
  "rejected_by_reason": {
   "smaller than 400 px": 97,
@@ -1619,6 +1619,21 @@
    "status": "approved_for_collection"
   },
   {
+   "dish_id": "Q14468365",
+   "dish_name": "Kuih",
+   "country": "Indonesia",
+   "now_shows": "placeholder",
+   "priority": "high",
+   "commons_file": "Jajan Pasar in Jakarta.JPG",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Jajan_Pasar_in_Jakarta.JPG",
+   "license": "CC BY-SA 3.0",
+   "author": "Gunawan Kartapranata",
+   "width": 2041,
+   "height": 1696,
+   "credit": "Photo of Kuih: Gunawan Kartapranata, CC BY-SA 3.0, via Wikimedia Commons",
+   "status": "approved_for_collection"
+  },
+  {
    "dish_id": "Q1188729",
    "dish_name": "Mie goreng",
    "country": "Indonesia",
@@ -3212,7 +3227,7 @@
    "dish_id": "Q695101",
    "dish_name": "Pickled herring",
    "country": "Sweden",
-   "now_shows": "placeholder",
+   "now_shows": "family",
    "priority": "high",
    "commons_file": "Pickled herring (Poznan).JPG",
    "file_page": "https://commons.wikimedia.org/wiki/File:Pickled_herring_(Poznan).JPG",
@@ -3851,6 +3866,21 @@
    "width": 4032,
    "height": 2397,
    "credit": "Photo of Snickers: Famartin, CC BY-SA 4.0, via Wikimedia Commons",
+   "status": "approved_for_collection"
+  },
+  {
+   "dish_id": "Q8047029",
+   "dish_name": "Yaka mein",
+   "country": "United States",
+   "now_shows": "family",
+   "priority": "high",
+   "commons_file": "Yakamein bowl (cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Yakamein_bowl_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "author": "Gary Stevens",
+   "width": 1849,
+   "height": 1724,
+   "credit": "Photo of Yaka mein: Gary Stevens, CC BY 2.0, via Wikimedia Commons",
    "status": "approved_for_collection"
   },
   {
@@ -25334,21 +25364,6 @@
    "status": "approved_for_collection"
   },
   {
-   "dish_id": "Q8047029",
-   "dish_name": "Yaka mein",
-   "country": "United States",
-   "now_shows": "placeholder",
-   "priority": "medium",
-   "commons_file": "Yakamein bowl (cropped).jpg",
-   "file_page": "https://commons.wikimedia.org/wiki/File:Yakamein_bowl_(cropped).jpg",
-   "license": "CC BY 2.0",
-   "author": "Gary Stevens",
-   "width": 1849,
-   "height": 1724,
-   "credit": "Photo of Yaka mein: Gary Stevens, CC BY 2.0, via Wikimedia Commons",
-   "status": "approved_for_collection"
-  },
-  {
    "dish_id": "Q302169",
    "dish_name": "Balut (food)",
    "country": "Vietnam",
@@ -26583,7 +26598,7 @@
    "dish_name": "Khash (dish)",
    "country": "Greece",
    "now_shows": "placeholder",
-   "priority": "medium",
+   "priority": "high",
    "commons_file": "Khash (dish).jpg",
    "file_page": "https://commons.wikimedia.org/wiki/File:Khash_(dish).jpg",
    "license": "Public domain",
