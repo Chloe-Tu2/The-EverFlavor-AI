@@ -2,7 +2,7 @@
 
 `scripts/knowledge/graph_validation.py` built the Food Graph as the app does (dishes, families, versions and the place tree; recipes are counted in `data/knowledge/recipe_graph_counts.json`) and checked its links. **Nothing was changed.**
 
-Nodes: 7,374 dishes (5,903 ours, foods and drinks included),2,437 versions, 257 families, and the places. Edges: eaten_in 5,903, in_family 4,348, origin 5,710, part_of 276, variant_of 5,420.
+Nodes: 7,426 dishes (5,967 ours, foods and drinks included),2,414 versions, 258 families, and the places. Edges: eaten_in 5,967, in_family 4,350, origin 5,728, part_of 276, variant_of 5,426.
 
 ## Broken links (should be zero)
 
@@ -30,5 +30,5 @@ Both kinds can be right, so nothing is settled here: the dish keeps every place 
 
 | Case | Dishes |
 |---|---:|
-| Wikidata gives more than one country of origin | 313 |
+| Wikidata gives more than one country of origin | 316 |
 | the cuisine list puts it in a country that is not its origin | 918 |

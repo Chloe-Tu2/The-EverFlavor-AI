@@ -2,6 +2,34 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
+### Chola sandwich
+
+The chola sandwich is a Bolivian cuisine sandwich originating in La Paz.
+
+- From: Bolivia
+- Origin (Wikidata): Bolivia
+
+Fun facts:
+
+- (history) The chola sandwich developed in the early 20th century from the 1880s Peruvian cuisine sandwich, the butifarra, made from the eponymous botifarra sausage.
+- (origin) Chola sandwich was introduced in 1908 by chola street food vendors (caseritas) sold at the southern La Paz park "Parque La Florida", colloquially and eponymically known as "Las Cholas" for the preponderance of chola caseritas; it was an adaptation of their own lunch preparations.
+- (about) Per Bolivian ethnologist Antonio Paredes Candia, the botiferra was first interpolated in Bolivia as a beef sandwich topped with chorrillana, a relish of tomato, onion and locoto chilies.
+
+More fun facts (when the user asks for more):
+
+- (history) The chola sandwich began to take form in the 1950s with the addition of llajua and torresmo, then became its modern permutation in the 1970s with the change to pernil over beef.
+- (culture) In 2024, a celebration of the gastronomy month included the creation of a two-meter diameter chola sandwich.
+- (origin) Chola sandwich comes from Bolivia.
+- (inspiration) Chola sandwich is based on butifarra.
+
+Learn more:
+
+- quick: [Chola sandwich (Wikipedia)](https://en.wikipedia.org/wiki/Chola_sandwich)
+- deep: [Books about Chola sandwich (Open Library)](https://openlibrary.org/search?q=Chola%20sandwich)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q61579505)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q61579505) (CC0); [Wikipedia: Chola sandwich](https://en.wikipedia.org/wiki/Chola_sandwich) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Salteña
 
 A salteña is a Bolivian type of baked empanada, a type of turnover.

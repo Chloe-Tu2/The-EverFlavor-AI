@@ -3368,7 +3368,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1310859) (CC0); [Wikipedia: R
 Ribs of pork, beef, lamb, and venison are a cut of meat.
 
 - From: Greece
-- Ingredients (Wikidata): Alligator, crocodile, kangaroo, deer, cattle, goat, sheep, Common ostrich, Bison, llama
+- Ingredients (Wikidata): cattle, goat, sheep, Common ostrich, Bison, llama, water buffalo, African buffalo, beefalo, Alligator
 
 Fun facts:
 

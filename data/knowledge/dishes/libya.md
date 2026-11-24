@@ -25,6 +25,33 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q4164571) (CC0); [Wikipedia: Bazin (bread)](https://en.wikipedia.org/wiki/Bazin_(bread)) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Mafrum
+
+Mafrum, also spelled "mafroom", is a Libyan Jewish stuffed vegetable dish.
+
+- From: Libya
+- Origin (Wikidata): Tunisia, Libya
+- Ingredients (Wikidata): potato, minced meat
+
+Fun facts:
+
+- (history) It spread beyond Libya due to the mass Jewish exodus from the country in the 1950s and 60s.
+- (origin) In Italy, mafrum was introduced to the Jewish community of Rome after the evacuation of Libyan Jews following the Six-Day War in 1967.
+- (culture) Mafrum is traditionally served with couscous and eaten during Shabbat and Jewish holidays.
+
+More fun facts (when the user asks for more):
+
+- (about) In Israel, it became a popular dish, with interpretations by Jews from Tunisia, Morocco, and Egypt.
+- (origin) Mafrum comes from Tunisia, Libya.
+
+Learn more:
+
+- quick: [Mafrum (Wikipedia)](https://en.wikipedia.org/wiki/Mafrum)
+- deep: [Books about Mafrum (Open Library)](https://openlibrary.org/search?q=Mafrum)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6585018)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6585018) (CC0); [Wikipedia: Mafrum](https://en.wikipedia.org/wiki/Mafrum) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Usban
 
 Usban (or osban) is a traditional kind of sausage in Tunisia and Libya stuffed with a mixture of rice, herbs, lamb, chopped liver and heart.

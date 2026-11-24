@@ -8,26 +8,26 @@ Levels, best first: a photo of one of its own recipes (100 points), a Commons ph
 
 | Best level | Dishes | Share |
 |---|---:|---:|
-| recipe | 1,118 | 29% |
+| recipe | 1,122 | 29% |
 | dish | 69 | 2% |
 | variant | 9 | 0% |
-| family | 180 | 5% |
-| placeholder | 2,423 | 64% |
+| family | 186 | 5% |
+| placeholder | 2,477 | 64% |
 
-Statuses: candidate 1,736, verified 1,187, missing 687, fallback 189. Every dish resolves to an image or the placeholder, so no page is empty.
+Statuses: candidate 1,735, verified 1,191, missing 742, fallback 195. Every dish resolves to an image or the placeholder, so no page is empty.
 
 ## By zone
 
 | Zone | Dishes | Own photo | Any photo | Fetchable from Wikidata | Average score |
 |---|---:|---:|---:|---:|---:|
-| Europe | 1,344 | 30% | 34% | 719 | 32.4 |
-| Asia | 1,137 | 19% | 26% | 732 | 23.2 |
+| Europe | 1,355 | 30% | 34% | 719 | 32.4 |
+| Asia | 1,153 | 19% | 26% | 732 | 22.9 |
 | North America | 455 | 71% | 76% | 114 | 73.3 |
-| Latin America | 285 | 34% | 37% | 129 | 35.8 |
-| Middle East & North Africa | 266 | 16% | 21% | 122 | 18.9 |
-| Africa | 150 | 15% | 19% | 23 | 17.1 |
-| Caribbean | 93 | 51% | 55% | 32 | 53.3 |
-| Oceania | 69 | 48% | 51% | 20 | 49.6 |
+| Latin America | 289 | 34% | 37% | 129 | 35.7 |
+| Middle East & North Africa | 279 | 16% | 20% | 122 | 18.4 |
+| Africa | 158 | 15% | 18% | 23 | 16.2 |
+| Caribbean | 100 | 48% | 52% | 32 | 50.6 |
+| Oceania | 74 | 45% | 50% | 20 | 47.8 |
 
 ## By country (20 with the most dishes)
 
@@ -57,14 +57,14 @@ Statuses: candidate 1,736, verified 1,187, missing 687, fallback 189. Every dish
 ## Rules checked
 
 - Every dish, version and family photo is a Wikimedia Commons file with a licence on the free list (CC0, public domain, CC BY, CC BY-SA) and a credit line; one that fails goes to `review`, never to the page.
-- A recipe photo counts only from Food.com, whose photos are CC0 (`docs/sources.md`). 192 dishes have recipe photos only from the Hugging Face set, whose photo licence is not recorded yet: they are not counted until a person confirms it on the dataset page.
+- A recipe photo counts only from Food.com, whose photos are CC0 (`docs/sources.md`). 194 dishes have recipe photos only from the Hugging Face set, whose photo licence is not recorded yet: they are not counted until a person confirms it on the dataset page.
 - Photos a person turned down (`data/reference/dish_photo_review.csv`) are not used.
 - No image is generated, and no photo from a site without a free licence is used.
 
 ## Remediation plan
 
 1. **Fetch** the Wikidata images of 1,891 dishes through the existing photo pipeline (`scripts/dish_photos/fetch_dish_photos.py meta`, `download`, `curate`, `write`), which checks each licence and keeps a credit line: 287 high priority (50+ of the 80 points besides the image), 1,604 medium (`image_priority_queue.json`).
-2. **No image anywhere** for 721 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
+2. **No image anywhere** for 781 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
 3. **Family photos** stand in meanwhile, labelled as the family, never as the dish.
 
 ## Approved for collection

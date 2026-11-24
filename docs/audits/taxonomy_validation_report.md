@@ -33,7 +33,7 @@ States, divisions and culinary regions, with the dishes placed there (Wikidata o
 | Place | Level | Country | Dishes | Recipes |
 |---|---|---|---:|---:|
 | Pacific Northwest | culinary_region | United States | 0 | 387 |
-| Midwestern US | division | United States | 51 | 1790 |
+| Midwestern US | division | United States | 51 | 1789 |
 | Northeastern US | division | United States | 32 | 1131 |
 | Southern US | division | United States | 0 | 3102 |
 | Southwestern US | division | United States | 46 | 1205 |

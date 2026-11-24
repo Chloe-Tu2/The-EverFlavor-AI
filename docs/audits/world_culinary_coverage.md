@@ -4,96 +4,98 @@ How well each food tradition is represented, the headline metric from 2026-11-22
 
 **Level 1**, five checks: three representative dishes; a dish family; a cuisine description; a food history; regional styles (where it has culinary regions). **Level 2:** the share of its culinary regions that hold a dish. **Level 3:** the share of its dish families' known members we have. **Coverage** = 60 x level-1 checks met / 5 + 20 x level 2 + 20 x level 3 (a country with no culinary regions in the place tree: the other levels out of 80, scaled to 100), averaged over the counted countries (CLDR, 100,000 people or more: a proposed rule).
 
-**World culinary coverage: 60.4%.** 97 of 200 counted countries meet level 1; 148 have at least one dish.
+**World culinary coverage: 63.7%.** 104 of 200 counted countries meet level 1; 154 have at least one dish.
 
 ## By continent
 
 | Continent | Counted countries | With a dish | Level 1 met | Coverage |
 |---|---:|---:|---:|---:|
-| Africa | 57 | 34 | 10 | 41.0% |
-| Americas | 39 | 29 | 20 | 60.3% |
-| Asia | 51 | 43 | 33 | 72.9% |
-| Europe | 41 | 37 | 33 | 81.7% |
-| Oceania | 12 | 5 | 1 | 27.9% |
+| Africa | 57 | 36 | 11 | 44.0% |
+| Americas | 39 | 30 | 21 | 63.8% |
+| Asia | 51 | 44 | 36 | 76.6% |
+| Europe | 41 | 38 | 34 | 84.1% |
+| Oceania | 12 | 6 | 2 | 32.3% |
 
 ## By subregion
 
 | Continent / subregion | Counted countries | With a dish | Level 1 met | Coverage |
 |---|---:|---:|---:|---:|
 | Oceania / Melanesia | 5 | 1 | 0 | 8.8% |
-| Oceania / Polynesia | 3 | 1 | 0 | 14.6% |
-| Africa / Southern Africa | 5 | 2 | 1 | 32.3% |
+| Oceania / Polynesia | 3 | 2 | 0 | 22.9% |
 | Africa / Middle Africa | 9 | 5 | 1 | 32.6% |
-| Africa / Western Africa | 16 | 8 | 2 | 33.2% |
+| Africa / Southern Africa | 5 | 2 | 1 | 36.1% |
 | Oceania / Micronesian Region | 2 | 1 | 0 | 38.1% |
-| Americas / Caribbean | 16 | 8 | 5 | 39.8% |
-| Africa / Eastern Africa | 20 | 13 | 2 | 41.0% |
-| Asia / Western Asia | 18 | 13 | 9 | 62.6% |
-| Americas / Central America | 8 | 7 | 4 | 63.3% |
-| Asia / Eastern Asia | 8 | 6 | 6 | 70.0% |
-| Asia / Central Asia | 5 | 5 | 2 | 71.4% |
-| Africa / Northern Africa | 7 | 6 | 4 | 75.6% |
-| Europe / Northern Europe | 11 | 10 | 8 | 78.9% |
-| Europe / Southern Europe | 13 | 11 | 10 | 79.6% |
-| Americas / South America | 13 | 12 | 9 | 79.9% |
-| Asia / Southeast Asia | 11 | 10 | 8 | 80.1% |
-| Europe / Eastern Europe | 10 | 9 | 8 | 82.3% |
+| Africa / Western Africa | 16 | 10 | 2 | 38.6% |
+| Africa / Eastern Africa | 20 | 13 | 3 | 43.0% |
+| Americas / Caribbean | 16 | 9 | 6 | 44.5% |
+| Asia / Western Asia | 18 | 14 | 10 | 68.5% |
+| Americas / Central America | 8 | 7 | 4 | 69.5% |
+| Asia / Eastern Asia | 8 | 6 | 6 | 70.1% |
+| Asia / Central Asia | 5 | 5 | 3 | 76.8% |
+| Africa / Northern Africa | 7 | 6 | 4 | 79.3% |
+| Americas / South America | 13 | 12 | 9 | 80.9% |
+| Europe / Eastern Europe | 10 | 9 | 8 | 82.0% |
+| Europe / Southern Europe | 13 | 12 | 10 | 83.0% |
+| Europe / Northern Europe | 11 | 10 | 9 | 84.0% |
 | Americas / Northern America | 2 | 2 | 2 | 84.1% |
-| Oceania / Australasia | 2 | 2 | 1 | 85.7% |
+| Asia / Southeast Asia | 11 | 10 | 9 | 85.1% |
 | Asia / Southern Asia | 9 | 9 | 8 | 88.1% |
 | Europe / Western Europe | 7 | 7 | 7 | 89.0% |
+| Oceania / Australasia | 2 | 2 | 2 | 99.2% |
 
 ## What keeps countries with dishes below level 1
 
 | Missing | Countries |
 |---|---:|
-| three representative dishes | 44 |
-| a food history | 37 |
-| a dish family | 31 |
-| a cuisine description | 1 |
+| three representative dishes | 39 |
+| a food history | 39 |
+| a dish family | 30 |
+| a cuisine description | 7 |
 
 ## Africa, country by country (the first sprint)
 
 | Country | Subregion | Dishes | Recipes | Score | Missing |
 |---|---:|---:|---:|---:|---:|
-| Cameroon | Middle Africa | 7 | 0 | 100.0 | none |
+| Cameroon | Middle Africa | 8 | 0 | 100.0 | none |
 | Ethiopia | Eastern Africa | 10 | 78 | 100.0 | none |
 | Madagascar | Eastern Africa | 4 | 0 | 100.0 | none |
+| Mauritius | Eastern Africa | 3 | 0 | 100.0 | none |
 | Morocco | Northern Africa | 20 | 1,592 | 100.0 | none |
 | Senegal | Western Africa | 8 | 0 | 100.0 | none |
 | South Africa | Southern Africa | 28 | 606 | 99.1 | none |
+| Algeria | Northern Africa | 20 | 11 | 98.8 | none |
 | Egypt | Northern Africa | 16 | 205 | 97.2 | none |
 | Nigeria | Western Africa | 50 | 32 | 96.5 | none |
-| Algeria | Northern Africa | 11 | 11 | 94.7 | none |
-| Tunisia | Northern Africa | 6 | 7 | 93.8 | none |
+| Tunisia | Northern Africa | 6 | 7 | 96.4 | none |
 | Angola | Middle Africa | 3 | 10 | 81.2 | a dish family |
-| Mauritius | Eastern Africa | 2 | 0 | 81.2 | three representative dishes |
+| Botswana | Southern Africa | 5 | 6 | 81.2 | a food history |
+| Libya | Northern Africa | 3 | 17 | 81.2 | a food history |
 | Somalia | Eastern Africa | 3 | 9 | 81.2 | a food history |
 | Sudan | Northern Africa | 1 | 12 | 81.2 | three representative dishes |
 | Ghana | Western Africa | 6 | 0 | 77.7 | a food history |
 | Uganda | Eastern Africa | 3 | 0 | 68.8 | a dish family |
-| Botswana | Southern Africa | 4 | 6 | 62.5 | a dish family; a food history |
+| Benin | Western Africa | 2 | 0 | 62.5 | three representative dishes; a dish family |
 | Cape Verde | Western Africa | 1 | 0 | 62.5 | three representative dishes; a food history |
-| Libya | Northern Africa | 2 | 17 | 62.5 | three representative dishes; a food history |
 | Mozambique | Eastern Africa | 1 | 0 | 62.5 | three representative dishes; a food history |
 | Seychelles | Eastern Africa | 3 | 0 | 62.5 | a dish family; a food history |
-| South Sudan | Eastern Africa | 1 | 0 | 62.5 | three representative dishes; a food history |
+| South Sudan | Eastern Africa | 2 | 0 | 62.5 | three representative dishes; a food history |
 | The Gambia | Western Africa | 1 | 0 | 62.5 | three representative dishes; a food history |
-| Benin | Western Africa | 1 | 0 | 43.8 | three representative dishes; a dish family; a food history |
+| Kenya | Eastern Africa | 3 | 4 | 56.2 | a dish family; a food history |
 | Central African Republic | Middle Africa | 2 | 0 | 43.8 | three representative dishes; a dish family; a food history |
 | Chad | Middle Africa | 2 | 0 | 43.8 | three representative dishes; a dish family; a food history |
 | Ivory Coast | Western Africa | 1 | 0 | 43.8 | three representative dishes; a dish family; a food history |
 | Malawi | Eastern Africa | 1 | 0 | 43.8 | three representative dishes; a dish family; a food history |
+| Mali | Western Africa | 1 | 0 | 43.8 | three representative dishes; a cuisine description; a food history |
 | Niger | Western Africa | 1 | 0 | 43.8 | three representative dishes; a dish family; a food history |
 | Rwanda | Eastern Africa | 1 | 0 | 43.8 | three representative dishes; a dish family; a food history |
 | Zambia | Eastern Africa | 1 | 0 | 43.8 | three representative dishes; a dish family; a food history |
-| Kenya | Eastern Africa | 2 | 4 | 35.4 | three representative dishes; a dish family; a food history |
 | Tanzania | Eastern Africa | 2 | 0 | 35.4 | three representative dishes; a dish family; a food history |
 | Democratic Republic of the Congo | Middle Africa | 1 | 0 | 25.0 | three representative dishes; a dish family; a cuisine description; a food history |
+| Mauritania | Western Africa | 1 | 0 | 25.0 | three representative dishes; a dish family; a cuisine description; a food history |
 | Congo | Middle Africa | 0 | 7 | 0.0 | no dish page yet |
 | Namibia | Southern Africa | 0 | 4 | 0.0 | no dish page yet |
 
-No dish and no recipe yet (21): Burkina Faso, Burundi, Comoros, Djibouti, Equatorial Guinea, Eritrea, Eswatini, Gabon, Guinea, Guinea-Bissau, Lesotho, Liberia, Mali, Mauritania, Mayotte, Réunion, Sierra Leone, São Tomé and Príncipe, Togo, Western Sahara, Zimbabwe.
+No dish and no recipe yet (19): Burkina Faso, Burundi, Comoros, Djibouti, Equatorial Guinea, Eritrea, Eswatini, Gabon, Guinea, Guinea-Bissau, Lesotho, Liberia, Mayotte, Réunion, Sierra Leone, São Tomé and Príncipe, Togo, Western Sahara, Zimbabwe.
 
 ## Indigenous food traditions (sprint 2)
 

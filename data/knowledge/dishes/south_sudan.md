@@ -29,3 +29,18 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3197476)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3197476) (CC0); [Wikipedia: Kisra](https://en.wikipedia.org/wiki/Kisra) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Rolled flour porridge
+
+Rolled flour porridge is a family of porridges in West African cuisine and South Sudanese cuisine made by boiling rolled flour - comparable to couscous - to produce a starchy porridge with boiled flour granules.
+
+- From: South Sudan
+- Ingredients (Wikidata): millet
+
+Learn more:
+
+- quick: [Rolled flour porridge (Wikipedia)](https://en.wikipedia.org/wiki/Rolled_flour_porridge)
+- deep: [Books about Rolled flour porridge (Open Library)](https://openlibrary.org/search?q=Rolled%20flour%20porridge)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q22230854)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q22230854) (CC0); [Wikipedia: Rolled flour porridge](https://en.wikipedia.org/wiki/Rolled_flour_porridge) (CC BY-SA 4.0). Review: auto-cleaned.

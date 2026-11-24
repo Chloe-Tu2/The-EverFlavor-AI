@@ -25,6 +25,26 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5047987) (CC0); [Wikipedia: Casado](https://en.wikipedia.org/wiki/Casado) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Fried cheese
+
+Fried cheese is a dish of cheese that is fried in oil.
+
+- From: Costa Rica
+- Ingredients (Wikidata): cheese
+
+Fun facts:
+
+- (about) Fried cheese was a popular dish in Cairo during the Middle Ages, and remains a part of the cuisine under Ottoman rule.
+- (about) Since then, its popularity has decreased.
+
+Learn more:
+
+- quick: [Fried cheese (Wikipedia)](https://en.wikipedia.org/wiki/Fried_cheese)
+- deep: [Books about Fried cheese (Open Library)](https://openlibrary.org/search?q=Fried%20cheese)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q24568658)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q24568658) (CC0); [Wikipedia: Fried cheese](https://en.wikipedia.org/wiki/Fried_cheese) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Guaro (drink)
 
 Guaro is a liquor made in many places in Latin America.

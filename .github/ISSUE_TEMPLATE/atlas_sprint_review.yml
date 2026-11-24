@@ -1,0 +1,50 @@
+name: Atlas sprint review
+description: Review an atlas sprint before its pull request is merged (docs/governance/sprint_review_checklist.md)
+title: "[Sprint review] Sprint "
+labels: ["atlas", "audit", "human-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The full gate is [the sprint review checklist](../blob/main/docs/governance/sprint_review_checklist.md);
+        the numbers are in `docs/audits/sprints/sprint_N_impact.md`. Tick only what you checked yourself.
+  - type: input
+    id: pr
+    attributes:
+      label: Pull request
+      placeholder: "#48"
+    validations:
+      required: true
+  - type: checkboxes
+    id: coverage
+    attributes:
+      label: Coverage and representation
+      options:
+        - label: World coverage went up or the fall is explained; no country lost its dishes by accident
+        - label: Metrics, dashboard, recovery chart, country pages, region pages and country scores regenerated
+  - type: checkboxes
+    id: enrichment
+    attributes:
+      label: Enrichment and preservation
+      options:
+        - label: No entry lost a story, origin or family against the backup
+        - label: Every new Indigenous tag is unreviewed and listed for the rubric
+  - type: checkboxes
+    id: validation
+    attributes:
+      label: Validation (a person)
+      options:
+        - label: A sample of new entries per source read; every moved entry checked
+        - label: New review items logged in needs_human_review.md; none silently resolved
+  - type: checkboxes
+    id: repository
+    attributes:
+      label: Repository
+      options:
+        - label: CI green (pytest, ruff, mypy, Markdown); the app loads
+        - label: No PC paths, secrets, personal emails or local-only work in the diff
+  - type: textarea
+    id: notes
+    attributes:
+      label: Approval notes
+      placeholder: "What you checked, what you corrected, what still needs a decision."

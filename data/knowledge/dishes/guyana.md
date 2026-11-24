@@ -31,6 +31,25 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q154872) (CC0); [Wikipedia: Baingan bharta](https://en.wikipedia.org/wiki/Baingan_bharta) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Goat roti
+
+Goat roti is a wrap roti (a wrap-style sandwich) filled with curry goat and other ingredients.
+
+- From: Guyana
+- Ingredients (Wikidata): goat
+
+Fun facts:
+
+- (origin) It originates in the Trinidad and Tobago cuisine and is also popular in other Caribbean countries such as Guyana, Suriname, and Jamaica.
+
+Learn more:
+
+- quick: [Goat roti (Wikipedia)](https://en.wikipedia.org/wiki/Goat_roti)
+- deep: [Books about Goat roti (Open Library)](https://openlibrary.org/search?q=Goat%20roti)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5575346)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5575346) (CC0); [Wikipedia: Goat roti](https://en.wikipedia.org/wiki/Goat_roti) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Guyanese pepperpot
 
 Guyanese pepperpot is the Guyanese variation of pepperpot, a slow-cooked stew found in several parts of the Caribbean and mainland Americas.

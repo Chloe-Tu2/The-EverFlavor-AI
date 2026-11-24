@@ -36,6 +36,20 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3350588) (CC0); [Wikipedia: Haleem](https://en.wikipedia.org/wiki/Haleem) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Prawn Rougaille
+
+Prawn rougaille is a Mauritian dish which is usually cooked with king prawns in a rougaille sauce.
+
+- From: Mauritius
+
+Learn more:
+
+- quick: [Prawn Rougaille (Wikipedia)](https://en.wikipedia.org/wiki/Prawn_Rougaille)
+- deep: [Books about Prawn Rougaille (Open Library)](https://openlibrary.org/search?q=Prawn%20Rougaille)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q57205077)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q57205077) (CC0); [Wikipedia: Prawn Rougaille](https://en.wikipedia.org/wiki/Prawn_Rougaille) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Rougaille
 
 Rougaille, also written as rougail (and sometimes rougay), is a spiced tomato sauce common in the cuisines of Mauritius, Réunion, Seychelles, and other parts of the Francophone Indian Ocean and West Indies.

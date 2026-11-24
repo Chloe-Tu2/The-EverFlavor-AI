@@ -11,7 +11,7 @@
   },
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
- "not_placed": 1794,
+ "not_placed": 1786,
  "subregions": {
   "Australasia": [
    {
@@ -68,13 +68,6 @@
     "country": "Australia",
     "status": "ready",
     "problems": []
-   },
-   {
-    "dish": "Goody good gum drops",
-    "wikidata": "Q123142484",
-    "country": "New Zealand",
-    "status": "ready",
-    "problems": []
    }
   ],
   "Caribbean": [
@@ -111,20 +104,6 @@
     "country": "Jamaica",
     "status": "ready",
     "problems": []
-   },
-   {
-    "dish": "Piragua",
-    "wikidata": "Q7197677",
-    "country": "Puerto Rico",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Quesito",
-    "wikidata": "Q7271398",
-    "country": "Puerto Rico",
-    "status": "ready",
-    "problems": []
    }
   ],
   "Central America": [
@@ -154,13 +133,6 @@
     "problems": [
      "a plant or animal on Wikidata, not a dish"
     ]
-   },
-   {
-    "dish": "pan de coco",
-    "wikidata": "Q110469197",
-    "country": "Honduras",
-    "status": "ready",
-    "problems": []
    },
    {
     "dish": "Cocol",
@@ -259,13 +231,6 @@
     "dish": "Shalgam",
     "wikidata": "Q7487184",
     "country": "Kazakhstan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "oromo",
-    "wikidata": "Q1048130",
-    "country": "Kyrgyzstan",
     "status": "ready",
     "problems": []
    }
@@ -2181,13 +2146,6 @@
     "problems": []
    },
    {
-    "dish": "Tshài-bué-thng",
-    "wikidata": "Q48916161",
-    "country": "Taiwan",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "egg yolk pastry",
     "wikidata": "Q15880225",
     "country": "Taiwan",
@@ -2255,6 +2213,13 @@
     "problems": []
    },
    {
+    "dish": "balkánský sýr",
+    "wikidata": "Q17067155",
+    "country": "Czech Republic",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Pálpusztai cheese",
     "wikidata": "Q732411",
     "country": "Hungary",
@@ -2279,6 +2244,13 @@
     "dish": "winter ice cream",
     "wikidata": "Q27493928",
     "country": "Hungary",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Brânză de vaci",
+    "wikidata": "Q108112946",
+    "country": "Moldova",
     "status": "ready",
     "problems": []
    },
@@ -2355,13 +2327,6 @@
    {
     "dish": "Blachindla",
     "wikidata": "Q4920036",
-    "country": "Romania",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Brânză de vaci",
-    "wikidata": "Q108112946",
     "country": "Romania",
     "status": "ready",
     "problems": []
@@ -2449,13 +2414,6 @@
     "country": "Slovakia",
     "status": "ready",
     "problems": []
-   },
-   {
-    "dish": "balkánský sýr",
-    "wikidata": "Q17067155",
-    "country": "Slovakia",
-    "status": "ready",
-    "problems": []
    }
   ],
   "Micronesian Region": [
@@ -2468,20 +2426,6 @@
    }
   ],
   "Northern Africa": [
-   {
-    "dish": "Khobz tounes",
-    "wikidata": "Q16648323",
-    "country": "Algeria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Matlou",
-    "wikidata": "Q12243625",
-    "country": "Algeria",
-    "status": "ready",
-    "problems": []
-   },
    {
     "dish": "argan oil",
     "wikidata": "Q45418",
@@ -2506,13 +2450,6 @@
    {
     "dish": "Kabkabou",
     "wikidata": "Q16248468",
-    "country": "Tunisia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Mafrum",
-    "wikidata": "Q6585018",
     "country": "Tunisia",
     "status": "ready",
     "problems": []
@@ -6245,13 +6182,6 @@
     "problems": []
    },
    {
-    "dish": "Chola sandwich",
-    "wikidata": "Q61579505",
-    "country": "Bolivia",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Beirut sandwich",
     "wikidata": "Q8245687",
     "country": "Brazil",
@@ -6456,43 +6386,8 @@
     "problems": []
    },
    {
-    "dish": "Num akor",
-    "wikidata": "Q136327320",
-    "country": "Cambodia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Num ansom",
-    "wikidata": "Q19695008",
-    "country": "Cambodia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Num pang",
-    "wikidata": "Q121832765",
-    "country": "Cambodia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Samlar machu",
-    "wikidata": "Q7409623",
-    "country": "Cambodia",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "fish amok",
     "wikidata": "Q4350424",
-    "country": "Cambodia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "samlar kako",
-    "wikidata": "Q18354045",
     "country": "Cambodia",
     "status": "ready",
     "problems": []
@@ -6676,6 +6571,13 @@
     "dish": "Hmong sausage",
     "wikidata": "Q123168373",
     "country": "Laos",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Tshài-bué-thng",
+    "wikidata": "Q48916161",
+    "country": "Malaysia",
     "status": "ready",
     "problems": []
    },
@@ -7661,6 +7563,13 @@
     "problems": []
    },
    {
+    "dish": "pihta",
+    "wikidata": "Q110362900",
+    "country": "Iran",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "qottab",
     "wikidata": "Q7268152",
     "country": "Iran",
@@ -8260,6 +8169,13 @@
     "problems": []
    },
    {
+    "dish": "Torta paesana",
+    "wikidata": "Q47347125",
+    "country": "Italy",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Torta setteveli",
     "wikidata": "Q3995814",
     "country": "Italy",
@@ -8480,13 +8396,6 @@
     "dish": "zuppa toscana",
     "wikidata": "Q4025002",
     "country": "Italy",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Njeguška pršuta",
-    "wikidata": "Q3160844",
-    "country": "Montenegro",
     "status": "ready",
     "problems": []
    },
@@ -8948,13 +8857,6 @@
     "problems": []
    },
    {
-    "dish": "Ngome",
-    "wikidata": "Q7022523",
-    "country": "Mali",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Afia Efere",
     "wikidata": "Q113039087",
     "country": "Nigeria",
@@ -9043,20 +8945,6 @@
     "problems": []
    },
    {
-    "dish": "Apohtin",
-    "wikidata": "Q21503823",
-    "country": "Cyprus",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Hellimli",
-    "wikidata": "Q5707569",
-    "country": "Cyprus",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Tsamarella",
     "wikidata": "Q7849346",
     "country": "Cyprus",
@@ -9088,13 +8976,6 @@
     "dish": "Tvishi",
     "wikidata": "Q25205317",
     "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "pihta",
-    "wikidata": "Q110362900",
-    "country": "Iraq",
     "status": "ready",
     "problems": []
    },
@@ -9137,13 +9018,6 @@
     "dish": "jameed",
     "wikidata": "Q3296477",
     "country": "Jordan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Shʿifūra",
-    "wikidata": "Q107695675",
-    "country": "Syria",
     "status": "ready",
     "problems": []
    },
@@ -11780,13 +11654,6 @@
    {
     "dish": "Tomme Vaudoise",
     "wikidata": "Q693255",
-    "country": "Switzerland",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Torta paesana",
-    "wikidata": "Q47347125",
     "country": "Switzerland",
     "status": "ready",
     "problems": []

@@ -2,6 +2,24 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
+### Boulaghmane
+
+Boulaghmane is a Mauritanian and Western Saharan cuisine dish that consists of toasted barley flour and sugar, which is bound together with either clarified butter, clarified camel hump fat, or a vegetable oil, along with water; the final dish is either served as a paste, or formed into balls.
+
+- From: Mauritania
+
+Fun facts:
+
+- (culture) An unleavened and uncooked dish, it is a traditional subsistence food for desert nomads in the Western Sahara and western Mauritania, as well being a common breakfast food for suhoor on Ramadan.
+
+Learn more:
+
+- quick: [Boulaghmane (Wikipedia)](https://en.wikipedia.org/wiki/Boulaghmane)
+- deep: [Books about Boulaghmane (Open Library)](https://openlibrary.org/search?q=Boulaghmane)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12199101)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q12199101) (CC0); [Wikipedia: Boulaghmane](https://en.wikipedia.org/wiki/Boulaghmane) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Caravane cheese
 
 Caravane, also known as Camelbert, is the brand name of a camel milk cheese produced in Mauritania by Tiviski, a company founded by Nancy Abeiderrhamane in 1987.

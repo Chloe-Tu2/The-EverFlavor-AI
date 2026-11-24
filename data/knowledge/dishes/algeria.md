@@ -2,6 +2,26 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
+### Batata kbab
+
+Batata kbab, also known as batata koucha, is a traditional Algerian dish originating from the city of Algiers.
+
+- From: Algeria
+- Ingredients (Wikidata): potato
+
+Fun facts:
+
+- (origin) Batata kbab originates from Algiers, the capital of Algeria.
+- (origin) The name comes from the urban Arabic dialect traditionally spoken in Algiers and can be understood as "potatoes prepared in the style of kebab".
+
+Learn more:
+
+- quick: [Batata kbab (Wikipedia)](https://en.wikipedia.org/wiki/Batata_kbab)
+- deep: [Books about Batata kbab (Open Library)](https://openlibrary.org/search?q=Batata%20kbab)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16531859)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16531859) (CC0); [Wikipedia: Batata kbab](https://en.wikipedia.org/wiki/Batata_kbab) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Berkoukes (dish)
 
 Berkoukes, also named berkoukech, aïch or avazine is a traditional North African dish, particularly popular in Algeria, Tunisia, and parts of Morocco.
@@ -87,6 +107,20 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2967557) (CC0); [Wikipedia: Chtitha](https://en.wikipedia.org/wiki/Chtitha) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Dawamesc
+
+Dawamesc is a cannabis edible found in Algeria and some other Arab countries, made of cannabis tops combined with: "sugar, orange juice, cinnamon, cloves, cardamom, nutmeg, musk, pistachios, and pine nuts." The edible played a role in popularizing cannabis in Europe, as it was this preparation of the drug which Dr. Jacques-Joseph Moreau observed during his travels in Northern Africa, and that he introduced to Paris' Club des Hashischins.
+
+- From: Algeria
+
+Learn more:
+
+- quick: [Dawamesc (Wikipedia)](https://en.wikipedia.org/wiki/Dawamesc)
+- deep: [Books about Dawamesc (Open Library)](https://openlibrary.org/search?q=Dawamesc)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1178472)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1178472) (CC0); [Wikipedia: Dawamesc](https://en.wikipedia.org/wiki/Dawamesc) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Dobara (Algerian dish)
 
 Dobara is a spicy vegetarian Algerian soup, prepared with chickpeas and broad beans and drizzled with olive oil.
@@ -108,6 +142,20 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3033269)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3033269) (CC0); [Wikipedia: Dobara (Algerian dish)](https://en.wikipedia.org/wiki/Dobara_(Algerian_dish)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Harcha
+
+Harcha or harsha is a griddle- or pan-cooked semolina flatbread native to the Middle Atlas in Morocco.
+
+- From: Algeria
+
+Learn more:
+
+- quick: [Harcha (Wikipedia)](https://en.wikipedia.org/wiki/Harcha)
+- deep: [Books about Harcha (Open Library)](https://openlibrary.org/search?q=Harcha)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5892267)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5892267) (CC0); [Wikipedia: Harcha](https://en.wikipedia.org/wiki/Harcha) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Hmiss
 
@@ -154,6 +202,48 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q586601) (CC0); [Wikipedia: Kalb el louz](https://en.wikipedia.org/wiki/Kalb_el_louz) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Kesra (bread)
+
+Kesra is a traditional Algerian bread made from semolina (wheat or sometimes barley).
+
+- From: Algeria
+- Origin (Wikidata): Algeria
+- Ingredients (Wikidata): table salt, butter, semolina
+
+Fun facts:
+
+- (culture) Traditional pancake with several variants in North Africa, Scipio Emilian described through Appian Massinissa eating it after the battle against the Carthaginians.
+- (origin) The name kesra comes from the Arabic root meaning "to break", probably because the relatively firm patty is traditionally broken by hand into pieces instead of being cut with a knife.
+- (origin) Kesra comes from Algeria.
+
+Learn more:
+
+- quick: [Kesra (bread) (Wikipedia)](https://en.wikipedia.org/wiki/Kesra_%28bread%29)
+- deep: [Books about Kesra (bread) (Open Library)](https://openlibrary.org/search?q=Kesra%20%28bread%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3195568)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3195568) (CC0); [Wikipedia: Kesra (bread)](https://en.wikipedia.org/wiki/Kesra_(bread)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Khobz tounes
+
+Khobz tounes, also called khobz el bey, is an Algerian cake made from almond meal and breadcrumbs, soaked in a syrup flavored with orange flower water.
+
+- From: Algeria
+- Origin (Wikidata): Algeria
+- Ingredients (Wikidata): almond meal
+
+Fun facts:
+
+- (origin) Khobz tounes comes from Algeria.
+
+Learn more:
+
+- quick: [Khobz tounes (Wikipedia)](https://en.wikipedia.org/wiki/Khobz_tounes)
+- deep: [Books about Khobz tounes (Open Library)](https://openlibrary.org/search?q=Khobz%20tounes)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16648323)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16648323) (CC0); [Wikipedia: Khobz tounes](https://en.wikipedia.org/wiki/Khobz_tounes) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Mahdjouba
 
 Mahdjouba or mhadjeb is a crepe-like semolina based flatbread originating from Algeria.
@@ -183,6 +273,27 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17634577)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q17634577) (CC0); [Wikipedia: Mahdjouba](https://en.wikipedia.org/wiki/Mahdjouba) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Matloue
+
+Matloue, matlou’, Also named khobz e-tadjine and khobz e-matlou, is a type of Algerian sourdough bread.
+
+- From: Algeria
+- Origin (Wikidata): Algeria
+- Ingredients (Wikidata): yeast, semolina
+
+Fun facts:
+
+- (origin) Matloue comes from Algeria.
+- (about) Not to be confused with khubz.
+
+Learn more:
+
+- quick: [Matloue (Wikipedia)](https://en.wikipedia.org/wiki/Matloue)
+- deep: [Books about Matloue (Open Library)](https://openlibrary.org/search?q=Matloue)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12243625)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q12243625) (CC0); [Wikipedia: Matloue](https://en.wikipedia.org/wiki/Matloue) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Mhancha
 
@@ -226,6 +337,45 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2631911) (CC0); [Wikipedia: Msemmen](https://en.wikipedia.org/wiki/Msemmen) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Ros bratel
+
+Ros bratel is a traditional Algerian tagine dish made with fresh fava beans, olive oil, and spices such as coriander.
+
+- From: Algeria
+
+Fun facts:
+
+- (origin) Ros bratel originated several thousand years ago among members of the Algerian Jewish community who resided in Constantine, Algeria until their expulsion in the 1960s.
+- (about) Ros bratel is paired with couscous, and is commonly served on Shabbat, and today is popular among the Israeli and French Jewish communities.
+
+Learn more:
+
+- quick: [Ros bratel (Wikipedia)](https://en.wikipedia.org/wiki/Ros_bratel)
+- deep: [Books about Ros bratel (Open Library)](https://openlibrary.org/search?q=Ros%20bratel)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16673189)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16673189) (CC0); [Wikipedia: Ros bratel](https://en.wikipedia.org/wiki/Ros_bratel) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Taguella
+
+Taguella (tagǝlla) is a flatbread, the staple dish of Tuareg people living in the Sahara.
+
+- From: Algeria
+- Origin (Wikidata): Algeria, Mali, Tunisia, Libya
+- Ingredients (Wikidata): wheat flour
+
+Fun facts:
+
+- (origin) Taguella comes from Algeria, Mali, Tunisia, Libya.
+
+Learn more:
+
+- quick: [Taguella (Wikipedia)](https://en.wikipedia.org/wiki/Taguella)
+- deep: [Books about Taguella (Open Library)](https://openlibrary.org/search?q=Taguella)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1417997)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1417997) (CC0); [Wikipedia: Taguella](https://en.wikipedia.org/wiki/Taguella) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Tajine mtewem
 
 Tajine mtewem, usually abbreviated to mtewem, is a traditional Algerian dish, and more specifically Algerine (from the city of Algiers).
@@ -247,6 +397,26 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3327301)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3327301) (CC0); [Wikipedia: Tajine mtewem](https://en.wikipedia.org/wiki/Tajine_mtewem) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Trida
+
+Trida, also known as mkafta, is a traditional Algerian dish made with handcrafted square-shaped pasta, chicken, meatballs, chickpeas, and hard-boiled eggs, all served with a white sauce or red sauce with tomatoes.
+
+- From: Algeria
+- Ingredients (Wikidata): pasta
+
+Fun facts:
+
+- (origin) Tharid, originating from Mesopotamia, which refers to thin flatbreads, has evolved into pasta dishes while retaining the name "trida" or alternatively "mqettefa" or "mqartfa" in Algeria depending on regional variations.
+- (about) Not to be confused with Trida.
+
+Learn more:
+
+- quick: [Trida (Wikipedia)](https://en.wikipedia.org/wiki/Trida)
+- deep: [Books about Trida (Open Library)](https://openlibrary.org/search?q=Trida)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25454785)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q25454785) (CC0); [Wikipedia: Trida](https://en.wikipedia.org/wiki/Trida) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Algerian baklawa
 

@@ -8,7 +8,7 @@ Achu soup is a yellow soup that is a traditional food in Cameroon.
 
 - From: Cameroon
 - Origin (Wikidata): Cameroon
-- Ingredients (Wikidata): fish, water, spice, palm oil, cocoyam
+- Ingredients (Wikidata): water, spice, palm oil, cocoyam, fish
 
 Fun facts:
 
@@ -134,6 +134,25 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q56311538)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q56311538) (CC0); [Wikipedia: Kondreh (food)](https://en.wikipedia.org/wiki/Kondreh_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kwacoco
+
+Kwacoco, sometimes spelled kwa-coco, is a Cameroonian cuisine dish consisting of pureed cocoyam wrapped and steamed in banana leaves.
+
+- From: Cameroon
+
+Fun facts:
+
+- (culture) Kwacoco is consumed by different ethnic groups from Cameroon, specially the Kwe people, for whom the traditional meal usually consists of kwacoco served with banga and smoked fish.
+- (about) During the world food crisis of 2008, local farmers were encouraged to produce more cocoyam, and urban consumers were told to promote its consumption over imported food.
+
+Learn more:
+
+- quick: [Kwacoco (Wikipedia)](https://en.wikipedia.org/wiki/Kwacoco)
+- deep: [Books about Kwacoco (Open Library)](https://openlibrary.org/search?q=Kwacoco)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17116189)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17116189) (CC0); [Wikipedia: Kwacoco](https://en.wikipedia.org/wiki/Kwacoco) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Ndolé
 

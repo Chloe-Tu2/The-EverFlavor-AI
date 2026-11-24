@@ -2,6 +2,74 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
+### Grey peas
+
+Grey peas is a popular Latvian cuisine snack made from large grey peas.
+
+- From: Latvia
+
+Fun facts:
+
+- (history) Peas, along with barley and beans, were one of the main dishes of the early centuries, and they remained important until the beginning of the potato era in the 19th century.
+- (culture) Grey peas is a traditional Christmas dish in Latvia.
+- (origin) In the beginning, they were introduced to the peasants' table even later until they finally became popular.
+
+More fun facts (when the user asks for more):
+
+- (culture) Grey peas also survive as a tradition meal in parts of Britain.
+- (culture) For example, grey peas and bacon are commonly available in the Black Country region, and black peas are traditional winter food in Lancashire.
+- (history) The latter were brought out relatively late, in the 17th century.
+
+Learn more:
+
+- quick: [Grey peas (Wikipedia)](https://en.wikipedia.org/wiki/Grey_peas)
+- deep: [Books about Grey peas (Open Library)](https://openlibrary.org/search?q=Grey%20peas)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1543722)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1543722) (CC0); [Wikipedia: Grey peas](https://en.wikipedia.org/wiki/Grey_peas) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Layered rye bread
+
+Layered rye bread is a traditional Latvian dessert made from rye breadcrumbs, blackcurrant or lingonberry jam, and whipped cream.
+
+- From: Latvia
+- Origin (Wikidata): Latvia
+- Ingredients (Wikidata): whipped cream, varenye, rupjmaize
+
+Fun facts:
+
+- (culture) Layered rye bread is an iconic Latvian food, and is considered one of the national dishes.
+- (about) Layered rye bread was the sweet chosen to represent Latvia in the Café Europe initiative of the Austrian presidency of the European Union, on Europe Day 2006.
+- (origin) Layered rye bread comes from Latvia.
+
+Learn more:
+
+- quick: [Layered rye bread (Wikipedia)](https://en.wikipedia.org/wiki/Layered_rye_bread)
+- deep: [Books about Layered rye bread (Open Library)](https://openlibrary.org/search?q=Layered%20rye%20bread)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7380415)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7380415) (CC0); [Wikipedia: Layered rye bread](https://en.wikipedia.org/wiki/Layered_rye_bread) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pantāga
+
+Pantāga (pantāgs, pentogs) is a traditional Latvian dish, containing eggs and spices.
+
+- From: Latvia
+- Ingredients (Wikidata): egg as food
+
+Fun facts:
+
+- (culture) It symbolically represents the sun as is prepared during Ūsiņš Day, and often at Easter.
+- (culture) Occasionally pantāgs was also used for sacrifice rituals and holy sites in Latvian pre-Christian rituals.
+
+Learn more:
+
+- quick: [Pantāga (Wikipedia)](https://en.wikipedia.org/wiki/Pant%C4%81ga)
+- deep: [Books about Pantāga (Open Library)](https://openlibrary.org/search?q=Pant%C4%81ga)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1448660)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1448660) (CC0); [Wikipedia: Pantāga](https://en.wikipedia.org/wiki/Pantāga) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Rupjmaize
 
 Rupjmaize is a traditional dark bread made from rye and is considered to be the staple of the Latvian diet.

@@ -2,6 +2,34 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
+### Githeri
+
+Githeri (Gĩtheri), also called muthere or mutheri, mûthekia-ngûkû is a traditional Kenyan meal consisting of maize kernels and legumes (primarily beans) mixed and boiled together.
+
+- From: Kenya
+- Origin (Wikidata): Kenya
+- Ingredients (Wikidata): maize, bean
+
+Fun facts:
+
+- (history) This popular dish has been the main meal served to students in Kenya since the 1920s.
+- (about) Githeri is also popular in other parts of the country, such as with the Kamba people of the Eastern Province, and communities in Western and Rift Valley parts of Kenya.
+- (culture) Githeri is widespread and is also a traditional dish from North Africa to South Africa.
+
+More fun facts (when the user asks for more):
+
+- (about) Lately, there has been a rise in the popularity of githeri due to the health benefits associated with this plant-based dish.
+- (about) There was a spike in popularity in 2017 when a voter, Martin Kamotho, was spotted eating githeri while waiting to vote and was labelled as githeri man.
+- (origin) Githeri comes from Kenya.
+
+Learn more:
+
+- quick: [Githeri (Wikipedia)](https://en.wikipedia.org/wiki/Githeri)
+- deep: [Books about Githeri (Open Library)](https://openlibrary.org/search?q=Githeri)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5565095)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5565095) (CC0); [Wikipedia: Githeri](https://en.wikipedia.org/wiki/Githeri) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Nyama choma
 
 Nyama Choma is a specialty of grilled or barbecued goat meat or cattle meat.

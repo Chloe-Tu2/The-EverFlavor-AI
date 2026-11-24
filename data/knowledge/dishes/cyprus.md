@@ -24,6 +24,60 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3243750) (CC0); [Wikipedia: Afelia](https://en.wikipedia.org/wiki/Afelia) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Ambelopoulia
+
+Ambelopoulia is a dish of grilled, fried, pickled or boiled songbirds which is a traditional dish enjoyed by native Cypriots and served in some Cypriot restaurants.
+
+- From: Cyprus
+- Origin (Wikidata): Cyprus
+
+Fun facts:
+
+- (origin) Ambelopoulia comes from Cyprus.
+
+Learn more:
+
+- quick: [Ambelopoulia (Wikipedia)](https://en.wikipedia.org/wiki/Ambelopoulia)
+- deep: [Books about Ambelopoulia (Open Library)](https://openlibrary.org/search?q=Ambelopoulia)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4741197)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4741197) (CC0); [Wikipedia: Ambelopoulia](https://en.wikipedia.org/wiki/Ambelopoulia) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Apohtin
+
+Apohtin or apohti is a traditional Cypriot dried food made by salting goat meat.
+
+- From: Cyprus
+- Origin (Wikidata): Cyprus
+- Ingredients (Wikidata): table salt, Mentha spicata, goat meat
+
+Fun facts:
+
+- (origin) Apohtin comes from Cyprus.
+
+Learn more:
+
+- quick: [Apohtin (Wikipedia)](https://en.wikipedia.org/wiki/Apohtin)
+- deep: [Books about Apohtin (Open Library)](https://openlibrary.org/search?q=Apohtin)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q21503823)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q21503823) (CC0); [Wikipedia: Apohtin](https://en.wikipedia.org/wiki/Apohtin) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Colocasia with lamb
+
+Colocasia with lamb is a Middle Eastern dish, also common across Greece, Turkey and Cyprus.
+
+- From: Cyprus
+- Ingredients (Wikidata): lamb meat
+
+Learn more:
+
+- quick: [Colocasia with lamb (Wikipedia)](https://en.wikipedia.org/wiki/Colocasia_with_lamb)
+- deep: [Books about Colocasia with lamb (Open Library)](https://openlibrary.org/search?q=Colocasia%20with%20lamb)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q14071553)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q14071553) (CC0); [Wikipedia: Colocasia with lamb](https://en.wikipedia.org/wiki/Colocasia_with_lamb) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Flaouna
 
 Flaouna is a cheese-filled baked goods from Cyprus, also consumed in parts of Greece.
@@ -53,6 +107,41 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6026652)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6026652) (CC0); [Wikipedia: Flaouna](https://en.wikipedia.org/wiki/Flaouna) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Hellimli
+
+Halloumoti / Hellimli is a Cypriot savoury yeasted bread made with halloumi cheese.
+
+- From: Cyprus
+- Origin (Wikidata): Cyprus
+- Ingredients (Wikidata): halloumi
+
+Fun facts:
+
+- (origin) Hellimli comes from Cyprus.
+
+Learn more:
+
+- quick: [Hellimli (Wikipedia)](https://en.wikipedia.org/wiki/Hellimli)
+- deep: [Books about Hellimli (Open Library)](https://openlibrary.org/search?q=Hellimli)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5707569)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5707569) (CC0); [Wikipedia: Hellimli](https://en.wikipedia.org/wiki/Hellimli) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Shamishi
+
+Shamishi is a traditional Cypriot delicacy, which is served usually during name days.
+
+- From: Cyprus
+- Ingredients (Wikidata): drinking water, sugar, table salt, flour, mastic, semolina, corn oil
+
+Learn more:
+
+- quick: [Shamishi (Wikipedia)](https://en.wikipedia.org/wiki/Shamishi)
+- deep: [Books about Shamishi (Open Library)](https://openlibrary.org/search?q=Shamishi)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q21518276)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q21518276) (CC0); [Wikipedia: Shamishi](https://en.wikipedia.org/wiki/Shamishi) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Anari cheese
 

@@ -25,6 +25,21 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q25098851) (CC0); [Wikipedia: Bogobe jwa lerotse](https://en.wikipedia.org/wiki/Bogobe_jwa_lerotse) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Bogobe jwa logala
+
+Bogobe jwa logala is a sorghum porridge eaten in Botswana.
+
+- From: Botswana
+- Ingredients (Wikidata): milk, sorghum grain
+
+Learn more:
+
+- quick: [Bogobe jwa logala (Wikipedia)](https://en.wikipedia.org/wiki/Bogobe_jwa_logala)
+- deep: [Books about Bogobe jwa logala (Open Library)](https://openlibrary.org/search?q=Bogobe%20jwa%20logala)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q25041852)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q25041852) (CC0); [Wikipedia: Bogobe jwa logala](https://en.wikipedia.org/wiki/Bogobe_jwa_logala) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Delele
 
 Delele is a Zimbabwean, Zambian, north-eastern Botswana and Northern South African dish made from a local plant of the same name, and often eaten with sadza or phaletšhe or Vhuswa.

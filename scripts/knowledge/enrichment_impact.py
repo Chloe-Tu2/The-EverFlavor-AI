@@ -3,13 +3,16 @@ countries, dishes, stories, fun facts, families, country pages, Indigenous tradi
 Audit only: nothing is changed.
 
     python scripts/knowledge/enrichment_impact.py [--before d14d0fd] [--label "before the atlas sprints"]
+    python scripts/knowledge/enrichment_impact.py --sprint 4 --before 0820fb0
 
-Writes docs/audits/enrichment_impact.md.
+Writes docs/audits/enrichment_impact.md, atlas_metrics.json and the README dashboard; with --sprint, only
+docs/audits/sprints/sprint_N_impact.md: one sprint's coverage, representation, enrichment and preservation.
 """
 from __future__ import annotations
 
 import argparse
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -111,6 +114,42 @@ def country_summary() -> dict[str, float]:
     return json.loads(path.read_text(encoding="utf-8"))["summary"] if path.exists() else {}
 
 
+def sprint_report(number: int, ref: str, before: dict[str, float], now: dict[str, float]) -> None:
+    """docs/audits/sprints/sprint_N_impact.md: the four KPI sections, before (git ref) and now, plus the
+    per-country scores (country_scores.py) at both."""
+    scores_then = json.loads(at_ref(ref, f"{KNOW}/atlas/country_scores.json") or "{}").get("summary", {})
+    scores_now = country_summary()
+    lines = [f"# Sprint {number} impact ({date.today().isoformat()})", "",
+             (f"What the sprint changed, from `{ref}` (before) to the latest full run, by "
+              "`scripts/knowledge/enrichment_impact.py --sprint`. The question is how much more of the world's food "
+              "EverFlavor can represent, explain and preserve, not only how many dishes. Checked against "
+              "[the sprint review checklist](../../governance/sprint_review_checklist.md). **Audit only.**")]
+    for section, keys in SECTIONS.items():
+        lines += ["", f"## {section[0].upper() + section[1:]}", ""]
+        rows = [[k[0].upper() + k[1:], f"{before[k]:,g}", f"{now[k]:,g}", change(before[k], now[k])] for k in keys]
+        if section == "representation":
+            rows += [[f"Per country: {k}", f"{scores_then[k]:,g}" if k in scores_then else "not measured",
+                      f"{v:,g}", change(scores_then[k], v) if k in scores_then else ""] for k, v in scores_now.items()]
+        lines += table(["Measure", "Before", "Now", "Change"], rows)
+    review = "docs/governance/needs_human_review.md"
+    items = [review_items(at_ref(ref, review)), review_items(at_ref(None, review))]
+    lines += ["", "## Governance", "", ("Open questions for a person (`needs_human_review.md`): a sprint logs its "
+                                        "judgment calls; none is closed without a person."), ""]
+    lines += table(["Measure", "Before", "Now", "Change"],
+                   [["Review items logged", items[0], items[1], change(items[0], items[1])]])
+    lines += ["", "## Recovery", "", "The same measures every sprint, so sprints compare with each other.", ""]
+    lines += table(["Measure", "Before", "Now", "Change"],
+                   [[k[0].upper() + k[1:], f"{before[k]:,g}", f"{now[k]:,g}", change(before[k], now[k])]
+                    for k in RECOVERY + ["dish families and categories"]])
+    (ROOT / "docs" / "audits" / "sprints").mkdir(exist_ok=True)
+    save_md(f"sprints/sprint_{number}_impact.md", lines)
+
+
+def review_items(text: str) -> int:
+    """How many numbered items the review list has (its table rows start with "| <number> |")."""
+    return sum(1 for line in text.splitlines() if re.match(r"\| [0-9]+ \|", line))
+
+
 def change(before: float, now: float) -> str:
     diff = round(now - before, 1)
     if not before:
@@ -122,8 +161,12 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=(__doc__ or "").splitlines()[0])
     parser.add_argument("--before", default=BASELINE, help="git ref of the baseline (default: before the sprints)")
     parser.add_argument("--label", default="before the atlas sprints (v0.7.2, PR 43)")
+    parser.add_argument("--sprint", type=int, help="write only this sprint's impact report (needs --before)")
     args = parser.parse_args()
     before, now = snapshot(args.before), snapshot(None)
+    if args.sprint:
+        sprint_report(args.sprint, args.before, before, now)
+        return
     lines = [f"# Enrichment impact ({date.today().isoformat()})", "",
              (f"Did the fetches improve the atlas? `scripts/knowledge/enrichment_impact.py` compares the knowledge "
               f"files at `{args.before}` ({args.label}) with today's. A dish with a country, a family and a story "

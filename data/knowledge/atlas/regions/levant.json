@@ -12,10 +12,11 @@
  "countries_with_a_dish": [
   "Israel",
   "Lebanon",
-  "Palestine"
+  "Palestine",
+  "Syria"
  ],
- "coverage_score": 59.2,
- "dish_count": 64,
+ "coverage_score": 70.4,
+ "dish_count": 67,
  "food_and_drink_count": 39,
  "story_count": 69,
  "representative_dishes": [

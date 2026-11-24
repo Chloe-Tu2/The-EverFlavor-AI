@@ -24,6 +24,31 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q107489664) (CC0); [Wikipedia: Amiwo](https://en.wikipedia.org/wiki/Amiwo) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Bomiwô
+
+Bomiwô is a traditional dish from Benin, particularly associated with the Fon cultural areas in the southern part of the country.
+
+- From: Benin
+
+Fun facts:
+
+- (culture) In 2021, the commune of Bohicon presented Bomiwô as a representative culinary specialty during its participation in the UNESCO Creative Cities Network initiative focused on gastronomy.
+- (origin) The word Bomiwô comes from the Fon language (fongbe), where it is commonly interpreted as “pâte des gris-gris” or “fetish paste.” According to oral traditions, the dish was historically associated with Vodun religious practices and was once reserved for ancestors and sacred ceremonies in Vodun convents.
+- (culture) Bomiwô is a maize-based paste prepared similarly to amiwô, another well-known Beninese dish, but differs in color, symbolism, and cultural significance.
+
+More fun facts (when the user asks for more):
+
+- (culture) Bomiwô has strong cultural and spiritual importance within Fon society and Vodun traditions.
+- (culture) Contemporary chefs and cultural promoters have highlighted its symbolic value as part of Benin's culinary heritage.
+
+Learn more:
+
+- quick: [Bomiwô (Wikipedia)](https://en.wikipedia.org/wiki/Bomiw%C3%B4)
+- deep: [Books about Bomiwô (Open Library)](https://openlibrary.org/search?q=Bomiw%C3%B4)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q109017584)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q109017584) (CC0); [Wikipedia: Bomiwô](https://en.wikipedia.org/wiki/Bomiwô) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Akpan (dessert)
 
 Akpan, also known as akassa, is a fermented maize yogurt.

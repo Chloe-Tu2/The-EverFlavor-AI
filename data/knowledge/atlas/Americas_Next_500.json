@@ -12,7 +12,7 @@
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
  "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
- "count": 112,
+ "count": 108,
  "dishes": [
   {
    "dish": "Cow cod soup",
@@ -38,23 +38,23 @@
    ]
   },
   {
-   "dish": "pan de coco",
-   "wikidata": "Q110469197",
-   "country": "Honduras",
+   "dish": "Cocol",
+   "wikidata": "Q5139783",
+   "country": "Mexico",
    "subregion": "Central America",
    "families": [
-    "sweet bread"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q110469197",
+     "url": "https://www.wikidata.org/wiki/Q5139783",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pan_de_coco_(Honduran_cuisine)",
+     "url": "https://en.wikipedia.org/wiki/Cocol",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -107,121 +107,6 @@
    ]
   },
   {
-   "dish": "Piragua",
-   "wikidata": "Q7197677",
-   "country": "Puerto Rico",
-   "subregion": "Caribbean",
-   "families": [
-    "shaved ice"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7197677",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Piragua_(food)",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Cocol",
-   "wikidata": "Q5139783",
-   "country": "Mexico",
-   "subregion": "Central America",
-   "families": [
-    "bread"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5139783",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cocol",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "50/50 burger",
-   "wikidata": "Q16823983",
-   "country": "United States",
-   "subregion": "Northern America",
-   "families": [
-    "hamburger"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16823983",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/50/50_burger",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Chola sandwich",
-   "wikidata": "Q61579505",
-   "country": "Bolivia",
-   "subregion": "South America",
-   "families": [
-    "sandwich"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q61579505",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chola_sandwich",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Quesito",
-   "wikidata": "Q7271398",
-   "country": "Puerto Rico",
-   "subregion": "Caribbean",
-   "families": [
-    "pastry"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7271398",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Quesito",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
    "dish": "Guajolota",
    "wikidata": "Q5613356",
    "country": "Mexico",
@@ -245,23 +130,23 @@
    ]
   },
   {
-   "dish": "Montreal hot dog",
-   "wikidata": "Q6906362",
-   "country": "Canada",
+   "dish": "50/50 burger",
+   "wikidata": "Q16823983",
+   "country": "United States",
    "subregion": "Northern America",
    "families": [
-    "hot dog"
+    "hamburger"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6906362",
+     "url": "https://www.wikidata.org/wiki/Q16823983",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Montreal_hot_dog",
+     "url": "https://en.wikipedia.org/wiki/50/50_burger",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -314,23 +199,23 @@
    ]
   },
   {
-   "dish": "Adobe bread",
-   "wikidata": "Q4684013",
-   "country": "United States",
+   "dish": "Montreal hot dog",
+   "wikidata": "Q6906362",
+   "country": "Canada",
    "subregion": "Northern America",
    "families": [
-    "bread"
+    "hot dog"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4684013",
+     "url": "https://www.wikidata.org/wiki/Q6906362",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Adobe_bread",
+     "url": "https://en.wikipedia.org/wiki/Montreal_hot_dog",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -383,23 +268,23 @@
    ]
   },
   {
-   "dish": "Poutchine au sac",
-   "wikidata": "Q16917893",
-   "country": "Canada",
+   "dish": "Adobe bread",
+   "wikidata": "Q4684013",
+   "country": "United States",
    "subregion": "Northern America",
    "families": [
-    "pudding"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16917893",
+     "url": "https://www.wikidata.org/wiki/Q4684013",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Poutchine_au_sac",
+     "url": "https://en.wikipedia.org/wiki/Adobe_bread",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -452,23 +337,23 @@
    ]
   },
   {
-   "dish": "Altoona-style pizza",
-   "wikidata": "Q107175849",
-   "country": "United States",
+   "dish": "Poutchine au sac",
+   "wikidata": "Q16917893",
+   "country": "Canada",
    "subregion": "Northern America",
    "families": [
-    "pizza"
+    "pudding"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q107175849",
+     "url": "https://www.wikidata.org/wiki/Q16917893",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Altoona-style_pizza",
+     "url": "https://en.wikipedia.org/wiki/Poutchine_au_sac",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -521,23 +406,23 @@
    ]
   },
   {
-   "dish": "maple sugar",
-   "wikidata": "Q402587",
-   "country": "Canada",
+   "dish": "Altoona-style pizza",
+   "wikidata": "Q107175849",
+   "country": "United States",
    "subregion": "Northern America",
    "families": [
-    "confectionery"
+    "pizza"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q402587",
+     "url": "https://www.wikidata.org/wiki/Q107175849",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Maple_sugar",
+     "url": "https://en.wikipedia.org/wiki/Altoona-style_pizza",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -590,24 +475,23 @@
    ]
   },
   {
-   "dish": "Amish Friendship Bread",
-   "wikidata": "Q502405",
-   "country": "United States",
+   "dish": "maple sugar",
+   "wikidata": "Q402587",
+   "country": "Canada",
    "subregion": "Northern America",
    "families": [
-    "bread",
-    "cake"
+    "confectionery"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q502405",
+     "url": "https://www.wikidata.org/wiki/Q402587",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Amish_friendship_bread",
+     "url": "https://en.wikipedia.org/wiki/Maple_sugar",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -661,23 +545,24 @@
    ]
   },
   {
-   "dish": "moon mist",
-   "wikidata": "Q109536261",
-   "country": "Canada",
+   "dish": "Amish Friendship Bread",
+   "wikidata": "Q502405",
+   "country": "United States",
    "subregion": "Northern America",
    "families": [
-    "ice cream"
+    "bread",
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q109536261",
+     "url": "https://www.wikidata.org/wiki/Q502405",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Moon_mist",
+     "url": "https://en.wikipedia.org/wiki/Amish_friendship_bread",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -731,23 +616,23 @@
    ]
   },
   {
-   "dish": "Aplets & Cotlets",
-   "wikidata": "Q25000110",
-   "country": "United States",
+   "dish": "moon mist",
+   "wikidata": "Q109536261",
+   "country": "Canada",
    "subregion": "Northern America",
    "families": [
-    "confectionery"
+    "ice cream"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q25000110",
+     "url": "https://www.wikidata.org/wiki/Q109536261",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Aplets_%26_Cotlets",
+     "url": "https://en.wikipedia.org/wiki/Moon_mist",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -800,23 +685,23 @@
    ]
   },
   {
-   "dish": "pizza cake",
-   "wikidata": "Q19766201",
-   "country": "Canada",
+   "dish": "Aplets & Cotlets",
+   "wikidata": "Q25000110",
+   "country": "United States",
    "subregion": "Northern America",
    "families": [
-    "pizza"
+    "confectionery"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q19766201",
+     "url": "https://www.wikidata.org/wiki/Q25000110",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pizza_cake",
+     "url": "https://en.wikipedia.org/wiki/Aplets_%26_Cotlets",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -869,23 +754,23 @@
    ]
   },
   {
-   "dish": "BK Stacker",
-   "wikidata": "Q24439117",
-   "country": "United States",
+   "dish": "pizza cake",
+   "wikidata": "Q19766201",
+   "country": "Canada",
    "subregion": "Northern America",
    "families": [
-    "hamburger"
+    "pizza"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q24439117",
+     "url": "https://www.wikidata.org/wiki/Q19766201",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/BK_Stacker",
+     "url": "https://en.wikipedia.org/wiki/Pizza_cake",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -938,23 +823,23 @@
    ]
   },
   {
-   "dish": "sour cream doughnut",
-   "wikidata": "Q7565082",
-   "country": "Canada",
+   "dish": "BK Stacker",
+   "wikidata": "Q24439117",
+   "country": "United States",
    "subregion": "Northern America",
    "families": [
-    "doughnut"
+    "hamburger"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7565082",
+     "url": "https://www.wikidata.org/wiki/Q24439117",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sour_cream_doughnut",
+     "url": "https://en.wikipedia.org/wiki/BK_Stacker",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1007,23 +892,23 @@
    ]
   },
   {
-   "dish": "Bacon Deluxe",
-   "wikidata": "Q4839932",
-   "country": "United States",
+   "dish": "sour cream doughnut",
+   "wikidata": "Q7565082",
+   "country": "Canada",
    "subregion": "Northern America",
    "families": [
-    "hamburger"
+    "doughnut"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4839932",
+     "url": "https://www.wikidata.org/wiki/Q7565082",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bacon_Deluxe",
+     "url": "https://en.wikipedia.org/wiki/Sour_cream_doughnut",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1053,23 +938,23 @@
    ]
   },
   {
-   "dish": "Big 8 Cola",
-   "wikidata": "Q4904906",
-   "country": "Canada",
+   "dish": "Bacon Deluxe",
+   "wikidata": "Q4839932",
+   "country": "United States",
    "subregion": "Northern America",
    "families": [
-    "cola"
+    "hamburger"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4904906",
+     "url": "https://www.wikidata.org/wiki/Q4839932",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Big_8_Cola",
+     "url": "https://en.wikipedia.org/wiki/Bacon_Deluxe",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1099,23 +984,23 @@
    ]
   },
   {
-   "dish": "Boston cream doughnut",
-   "wikidata": "Q4948235",
-   "country": "United States",
+   "dish": "Big 8 Cola",
+   "wikidata": "Q4904906",
+   "country": "Canada",
    "subregion": "Northern America",
    "families": [
-    "doughnut"
+    "cola"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4948235",
+     "url": "https://www.wikidata.org/wiki/Q4904906",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Boston_cream_doughnut",
+     "url": "https://en.wikipedia.org/wiki/Big_8_Cola",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1145,23 +1030,23 @@
    ]
   },
   {
-   "dish": "Bleu d'Élizabeth",
-   "wikidata": "Q2906471",
-   "country": "Canada",
+   "dish": "Boston cream doughnut",
+   "wikidata": "Q4948235",
+   "country": "United States",
    "subregion": "Northern America",
    "families": [
-    "blue cheese"
+    "doughnut"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2906471",
+     "url": "https://www.wikidata.org/wiki/Q4948235",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bleu_d%27%C3%89lizabeth",
+     "url": "https://en.wikipedia.org/wiki/Boston_cream_doughnut",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1191,23 +1076,23 @@
    ]
   },
   {
-   "dish": "Brown Betty",
-   "wikidata": "Q4976066",
-   "country": "United States",
+   "dish": "Bleu d'Élizabeth",
+   "wikidata": "Q2906471",
+   "country": "Canada",
    "subregion": "Northern America",
    "families": [
-    "pudding"
+    "blue cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4976066",
+     "url": "https://www.wikidata.org/wiki/Q2906471",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Brown_Betty_(dessert)",
+     "url": "https://en.wikipedia.org/wiki/Bleu_d%27%C3%89lizabeth",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1237,23 +1122,23 @@
    ]
   },
   {
-   "dish": "Cheese in Canada",
-   "wikidata": "Q5089401",
-   "country": "Canada",
+   "dish": "Brown Betty",
+   "wikidata": "Q4976066",
+   "country": "United States",
    "subregion": "Northern America",
    "families": [
-    "cheese"
+    "pudding"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5089401",
+     "url": "https://www.wikidata.org/wiki/Q4976066",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Canadian_cheese",
+     "url": "https://en.wikipedia.org/wiki/Brown_Betty_(dessert)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1283,23 +1168,23 @@
    ]
   },
   {
-   "dish": "Brown Bobby",
-   "wikidata": "Q4976072",
-   "country": "United States",
+   "dish": "Cheese in Canada",
+   "wikidata": "Q5089401",
+   "country": "Canada",
    "subregion": "Northern America",
    "families": [
-    "doughnut"
+    "cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4976072",
+     "url": "https://www.wikidata.org/wiki/Q5089401",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Brown_Bobby",
+     "url": "https://en.wikipedia.org/wiki/Canadian_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1323,6 +1208,52 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Chanco_cheese",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Brown Bobby",
+   "wikidata": "Q4976072",
+   "country": "United States",
+   "subregion": "Northern America",
+   "families": [
+    "doughnut"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q4976072",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Brown_Bobby",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "arroz zambito",
+   "wikidata": "Q61054366",
+   "country": "Peru",
+   "subregion": "South America",
+   "families": [
+    "rice pudding"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q61054366",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Arroz_zambito",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1353,23 +1284,23 @@
    ]
   },
   {
-   "dish": "arroz zambito",
-   "wikidata": "Q61054366",
-   "country": "Peru",
+   "dish": "Argentine beef",
+   "wikidata": "Q4789431",
+   "country": "Argentina",
    "subregion": "South America",
    "families": [
-    "rice pudding"
+    "beef"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q61054366",
+     "url": "https://www.wikidata.org/wiki/Q4789431",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Arroz_zambito",
+     "url": "https://en.wikipedia.org/wiki/Argentine_beef",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1399,23 +1330,23 @@
    ]
   },
   {
-   "dish": "Argentine beef",
-   "wikidata": "Q4789431",
-   "country": "Argentina",
+   "dish": "Beirut sandwich",
+   "wikidata": "Q8245687",
+   "country": "Brazil",
    "subregion": "South America",
    "families": [
-    "beef"
+    "stuffed flatbread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4789431",
+     "url": "https://www.wikidata.org/wiki/Q8245687",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Argentine_beef",
+     "url": "https://en.wikipedia.org/wiki/Beirute",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1446,23 +1377,23 @@
    ]
   },
   {
-   "dish": "Beirut sandwich",
-   "wikidata": "Q8245687",
-   "country": "Brazil",
+   "dish": "butifarra",
+   "wikidata": "Q5736147",
+   "country": "Peru",
    "subregion": "South America",
    "families": [
-    "stuffed flatbread"
+    "ham sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q8245687",
+     "url": "https://www.wikidata.org/wiki/Q5736147",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Beirute",
+     "url": "https://en.wikipedia.org/wiki/Butifarra_(sandwich)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1492,23 +1423,23 @@
    ]
   },
   {
-   "dish": "butifarra",
-   "wikidata": "Q5736147",
-   "country": "Peru",
+   "dish": "Chocotorta",
+   "wikidata": "Q16548795",
+   "country": "Argentina",
    "subregion": "South America",
    "families": [
-    "ham sandwich"
+    "chocolate cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5736147",
+     "url": "https://www.wikidata.org/wiki/Q16548795",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Butifarra_(sandwich)",
+     "url": "https://en.wikipedia.org/wiki/Chocotorta",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1539,23 +1470,23 @@
    ]
   },
   {
-   "dish": "Chocotorta",
-   "wikidata": "Q16548795",
-   "country": "Argentina",
+   "dish": "Colony cheese",
+   "wikidata": "Q5148515",
+   "country": "Brazil",
    "subregion": "South America",
    "families": [
-    "chocolate cake"
+    "cow's-milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16548795",
+     "url": "https://www.wikidata.org/wiki/Q5148515",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chocotorta",
+     "url": "https://en.wikipedia.org/wiki/Queijo_de_col%C3%B4nia",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1585,23 +1516,23 @@
    ]
   },
   {
-   "dish": "Colony cheese",
-   "wikidata": "Q5148515",
-   "country": "Brazil",
+   "dish": "Beed Cola",
+   "wikidata": "Q4879722",
+   "country": "Peru",
    "subregion": "South America",
    "families": [
-    "cow's-milk cheese"
+    "cola"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5148515",
+     "url": "https://www.wikidata.org/wiki/Q4879722",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Queijo_de_col%C3%B4nia",
+     "url": "https://en.wikipedia.org/wiki/Beed_Cola",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1631,23 +1562,23 @@
    ]
   },
   {
-   "dish": "Beed Cola",
-   "wikidata": "Q4879722",
-   "country": "Peru",
+   "dish": "Cremoso cheese",
+   "wikidata": "Q5184120",
+   "country": "Argentina",
    "subregion": "South America",
    "families": [
-    "cola"
+    "cow's-milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4879722",
+     "url": "https://www.wikidata.org/wiki/Q5184120",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Beed_Cola",
+     "url": "https://en.wikipedia.org/wiki/Cremoso_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1677,23 +1608,23 @@
    ]
   },
   {
-   "dish": "Cremoso cheese",
-   "wikidata": "Q5184120",
-   "country": "Argentina",
+   "dish": "Crema de huacatay",
+   "wikidata": "Q27500531",
+   "country": "Peru",
    "subregion": "South America",
    "families": [
-    "cow's-milk cheese"
+    "sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5184120",
+     "url": "https://www.wikidata.org/wiki/Q27500531",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cremoso_cheese",
+     "url": "https://en.wikipedia.org/wiki/Peruvian_huacatay",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1723,23 +1654,23 @@
    ]
   },
   {
-   "dish": "Crema de huacatay",
-   "wikidata": "Q27500531",
-   "country": "Peru",
+   "dish": "Fernet and Coke",
+   "wikidata": "Q10872613",
+   "country": "Argentina",
    "subregion": "South America",
    "families": [
-    "sauce"
+    "caffeinated alcoholic drink"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q27500531",
+     "url": "https://www.wikidata.org/wiki/Q10872613",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Peruvian_huacatay",
+     "url": "https://en.wikipedia.org/wiki/Fernet_con_coca",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1769,23 +1700,23 @@
    ]
   },
   {
-   "dish": "Fernet and Coke",
-   "wikidata": "Q10872613",
-   "country": "Argentina",
+   "dish": "Guagua de pan",
+   "wikidata": "Q5613295",
+   "country": "Peru",
    "subregion": "South America",
    "families": [
-    "caffeinated alcoholic drink"
+    "sweet roll"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q10872613",
+     "url": "https://www.wikidata.org/wiki/Q5613295",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Fernet_con_coca",
+     "url": "https://en.wikipedia.org/wiki/T%27anta_wawa",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1815,23 +1746,23 @@
    ]
   },
   {
-   "dish": "Guagua de pan",
-   "wikidata": "Q5613295",
-   "country": "Peru",
+   "dish": "Provoleta",
+   "wikidata": "Q6089049",
+   "country": "Argentina",
    "subregion": "South America",
    "families": [
-    "sweet roll"
+    "cow's-milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5613295",
+     "url": "https://www.wikidata.org/wiki/Q6089049",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/T%27anta_wawa",
+     "url": "https://en.wikipedia.org/wiki/Provoleta",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1861,23 +1792,23 @@
    ]
   },
   {
-   "dish": "Provoleta",
-   "wikidata": "Q6089049",
-   "country": "Argentina",
+   "dish": "Kola Real",
+   "wikidata": "Q2027181",
+   "country": "Peru",
    "subregion": "South America",
    "families": [
-    "cow's-milk cheese"
+    "cola"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6089049",
+     "url": "https://www.wikidata.org/wiki/Q2027181",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Provoleta",
+     "url": "https://en.wikipedia.org/wiki/Kola_Real",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1908,23 +1839,23 @@
    ]
   },
   {
-   "dish": "Kola Real",
-   "wikidata": "Q2027181",
-   "country": "Peru",
+   "dish": "Salsa golf",
+   "wikidata": "Q5790775",
+   "country": "Argentina",
    "subregion": "South America",
    "families": [
-    "cola"
+    "sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2027181",
+     "url": "https://www.wikidata.org/wiki/Q5790775",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kola_Real",
+     "url": "https://en.wikipedia.org/wiki/Salsa_golf",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1954,23 +1885,23 @@
    ]
   },
   {
-   "dish": "Salsa golf",
-   "wikidata": "Q5790775",
-   "country": "Argentina",
+   "dish": "Sopa teologa",
+   "wikidata": "Q7562813",
+   "country": "Peru",
    "subregion": "South America",
    "families": [
-    "sauce"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5790775",
+     "url": "https://www.wikidata.org/wiki/Q7562813",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Salsa_golf",
+     "url": "https://en.wikipedia.org/wiki/Sopa_teologa",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1994,29 +1925,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Sir_Laurier_d%27Arthabaska",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Sopa teologa",
-   "wikidata": "Q7562813",
-   "country": "Peru",
-   "subregion": "South America",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7562813",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sopa_teologa",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

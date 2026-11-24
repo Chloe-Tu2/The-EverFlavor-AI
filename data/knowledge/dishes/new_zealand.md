@@ -34,6 +34,109 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q5103653) (CC0); [Wikipedia: Chocolate fish](https://en.wikipedia.org/wiki/Chocolate_fish) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Goody Goody Gum Drops
+
+Goody Goody Gum Drops is a New Zealand flavour of ice cream made by Tip Top.
+
+- From: New Zealand
+- Origin (Wikidata): New Zealand
+- Ingredients (Wikidata): Gumdrop, bubblegum ice cream
+
+Fun facts:
+
+- (history) Goody Goody Gum Drops was invented in 1983 by the general director of Tip Top, Murray Taylor.
+- (about) At first they all came out as a big lump, and Danish consultants created a mathematical model of the normal distribution of the gumdrops, saying that the goal could not be achieved.
+- (origin) Goody Goody Gum Drops comes from New Zealand.
+
+More fun facts (when the user asks for more):
+
+- (about) In November 2008, it was reported that, for the year, consumers had consumed 50 million gumdrops in the ice cream.
+- (about) In 2016, Tip Top collaborated with Griffin's to create a Goody Goody Gum Drop flavour of the Griffin's Squiggles biscuit.
+- (about) In December 2017, Goody Goody Gum Drops "started to disappear" from stores and later returned.
+- (about) In 2019, Primo, a flavoured milk producer, created a Goody Goody Gum Drops flavoured milk.
+- (about) In October 2023, the Goody Goody Gum Drop flavour returned, joining the 1.2 L (2.5 US pt) Tip Top Crave product range.
+- (about) In 2008, Tip Top created a variant of the ice cream flavour on a stick as a limited edition.
+- (about) The stick ice cream came back to stores in 2019, this time larger in size.
+
+Learn more:
+
+- quick: [Goody Goody Gum Drops (Wikipedia)](https://en.wikipedia.org/wiki/Goody_Goody_Gum_Drops)
+- deep: [Books about Goody Goody Gum Drops (Open Library)](https://openlibrary.org/search?q=Goody%20Goody%20Gum%20Drops)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q123142484)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q123142484) (CC0); [Wikipedia: Goody Goody Gum Drops](https://en.wikipedia.org/wiki/Goody_Goody_Gum_Drops) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Hagelslag
+
+Hagelslag are small, oblong, sweet-tasting chocolate sprinkles or granules, a few millimetres long, which are sprinkled on slices of buttered bread or rusks.
+
+- From: New Zealand
+
+Fun facts:
+
+- (inspiration) According to historical records from the Amsterdam City Archives, Hagelslag was originally invented by B.E. Dieperink, the director of the liquorice sweet company Venco, in 1919.
+- (history) Venco's hagelslag did not contain chocolate until 1951.
+- (culture) Hagelslag is traditionally eaten by the Dutch for breakfast or lunch.
+
+More fun facts (when the user asks for more):
+
+- (history) Venz, the Netherlands' largest producer of hagelslag products, has been making chocolate hagelslag since 1936.
+- (inspiration) Consequently, De Ruijter opted to name their sprinkles based on their flavors, using the term hagel after the flavor (such as in vruchtenhagel).
+- (about) Venz and other companies named their chocolate sprinkles chocoladehagel.
+- (origin) De Ruijter introduced competition to Venco with their assortment of flavors, including lemon, raspberry, orange and aniseed.
+- (about) Not to be confused with fairy bread.
+
+Learn more:
+
+- quick: [Hagelslag (Wikipedia)](https://en.wikipedia.org/wiki/Hagelslag)
+- deep: [Books about Hagelslag (Open Library)](https://openlibrary.org/search?q=Hagelslag)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q152547)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q152547) (CC0); [Wikipedia: Hagelslag](https://en.wikipedia.org/wiki/Hagelslag) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Kiwiburger
+
+The Kiwiburger is a hamburger sold at McDonald's restaurants in New Zealand.
+
+- From: New Zealand
+
+Fun facts:
+
+- (history) The Kiwiburger was the idea of franchisee Bryan Old, who came up with the burger as a nostalgic take on the typical New Zealand hamburger prior to the introduction of McDonald's to the New Zealand market in 1976.
+- (about) The Kiwiburger was removed from the national menu in 2004.
+- (history) Trialled initially in Old's five Hamilton restaurants, it was added to the national menu in 1991.
+
+More fun facts (when the user asks for more):
+
+- (about) Since then, it has returned as a limited-time item, including in May 2007, 2009, 2011, 2020-21 and 2023–24.
+
+Learn more:
+
+- quick: [Kiwiburger (Wikipedia)](https://en.wikipedia.org/wiki/Kiwiburger)
+- deep: [Books about Kiwiburger (Open Library)](https://openlibrary.org/search?q=Kiwiburger)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6418914)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6418914) (CC0); [Wikipedia: Kiwiburger](https://en.wikipedia.org/wiki/Kiwiburger) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Mince on toast
+
+Mince on toast is a food item commonly served in New Zealand that consists of cooked minced meat on a slice of toasted bread.
+
+- From: New Zealand
+
+Fun facts:
+
+- (about) In 2017, American food website Eater described the dish as "quintessentially British", although this was subsequently rejected by news reports, with British food writers Jay Rayner and Nigella Lawson saying that it was not a popular British dish.
+- (inspiration) The Guardian characterised the story as a "symbol for American misunderstandings about British culture".
+
+Learn more:
+
+- quick: [Mince on toast (Wikipedia)](https://en.wikipedia.org/wiki/Mince_on_toast)
+- deep: [Books about Mince on toast (Open Library)](https://openlibrary.org/search?q=Mince%20on%20toast)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q60745567)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q60745567) (CC0); [Wikipedia: Mince on toast](https://en.wikipedia.org/wiki/Mince_on_toast) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Street food
 
 Street food is food sold by a hawker or vendor on a street or at another public place, such as a market, fair, or park.

@@ -440,7 +440,7 @@ Ayam pop is a fried chicken dish originating from Minangkabau cuisine commonly f
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): Alpinia galanga, coconut water, coconut milk, chicken as food, Cymbopogon citratus, chili pepper
+- Ingredients (Wikidata): Cymbopogon citratus, chili pepper, Alpinia galanga, coconut water, coconut milk, chicken as food
 
 Fun facts:
 
@@ -3246,7 +3246,7 @@ Mi caluk is a traditional Indonesian-Aceh noodle dish, which is commonly found i
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): water, table salt, Cucumis sativus, Apium graveolens, Brassica oleracea var. capitata, black pepper, chili pepper, soy sauce, broth, cooking oil
+- Ingredients (Wikidata): scallion, Kaempferia galanga, Aleurites moluccanus, seedling, fried onion, kecap manis, peanut, ginger, Mi Gomak, tomato
 
 Fun facts:
 
@@ -5114,7 +5114,7 @@ Sate taichan is a variation of chicken satay grilled and served without peanut o
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): peanut, chili pepper, Citrus × aurantiifolia, Allium ascalonicum, chicken as food, table salt
+- Ingredients (Wikidata): table salt, peanut, chili pepper, Citrus × aurantiifolia, Allium ascalonicum, chicken as food
 
 Fun facts:
 

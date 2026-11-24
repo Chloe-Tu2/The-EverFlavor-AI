@@ -13,8 +13,8 @@
   "Botswana",
   "South Africa"
  ],
- "coverage_score": 32.3,
- "dish_count": 32,
+ "coverage_score": 36.1,
+ "dish_count": 33,
  "food_and_drink_count": 13,
  "story_count": 16,
  "representative_dishes": [
@@ -28,14 +28,14 @@
   "Malva pudding"
  ],
  "dish_families": [
+  "bogobe",
   "meat dish",
   "sandwich",
   "bread",
   "lamb dish",
   "yogurt",
   "chocolate bar",
-  "dried meat",
-  "chutney"
+  "dried meat"
  ],
  "indigenous_traditions": [],
  "related_regions": [
