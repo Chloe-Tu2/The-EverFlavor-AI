@@ -318,7 +318,7 @@ A version answers "what can a person do now that they could not before?", not "w
 beta when every condition is met. GitHub milestones v0.8 to v2.0 track them; "person" means a team member must do
 it (Claude cannot sign off for people). Numbers come from `data/knowledge/atlas/atlas_metrics.json`.
 
-**Progress (2026-11-23):** 0.8 has 3 of 9 conditions met; 0.9 has 2 of 10. Most blockers are reviews by people.
+**Progress (2026-11-23):** 0.8 has 4 of 9 conditions met; 0.9 has 2 of 10. Most blockers are reviews by people.
 
 **0.8.0 beta, Atlas Foundations.** Done when a person can browse countries, dishes, maps, photos and related foods
 with confidence.
@@ -331,7 +331,7 @@ with confidence.
 | Images | Cuisine image fallbacks, checked by a person; no broken image path | Claude, then person | built: 96 pass the rules, waiting for a person (`data/knowledge/review/cuisine_images.csv`) |
 | Discovery | Related dishes in Check my recipe | Claude | met (branch `release/0.8.0`) |
 | Discovery | Map cuisine tags for every country OpenStreetMap has a word for (50+ uses) | Claude | met: 23 added; the other 88 have no such word yet |
-| Discovery | The store locator works (ZIP search, details, directions) | Claude | open |
+| Discovery | The store locator works (ZIP search, details, directions) | Claude | met in Python (ZIP, distance, nearest list, card with map link); clustering, "search this area" and "use my location" wait for the MapLibre step |
 | Reviews | Items 24, 28, 29 and 30 (moved dishes, country scores, sprint entries) answered | person | open |
 | Release | CI green; the team tries `release/0.8.0` and approves | person | after the above |
 

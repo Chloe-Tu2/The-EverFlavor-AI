@@ -153,3 +153,22 @@ def test_review_fixes_eat_bakery_chains_and_empty_filters() -> None:
     assert ("Fez Bakery", "A Moroccan bakery (OpenStreetMap lists its cuisine as moroccan)") in stores
     assert [n for n, _ in stores].count("Casablanca Market") == 1                   # one row per name
     assert map_places(PLACES, [], cuisine="moroccan", diet="halal").empty           # nothing picked: no crash
+
+
+def test_zip_centres_come_from_the_local_census_table() -> None:
+    from everflavor.places import zip_center
+    found = zip_center("77002")   # downtown Houston
+    assert found is not None
+    lat, lng = found
+    assert 29.7 < lat < 29.8 and -95.4 < lng < -95.3
+    assert zip_center("10001") is None and zip_center("abc") is None and zip_center("") is None
+
+
+def test_nearest_places_sorts_by_distance_and_cuts_at_the_radius() -> None:
+    from everflavor.places import miles_between, nearest_places
+    assert abs(miles_between(29.7604, -95.3698, 29.7604, -95.3698)) < 1e-9
+    assert 20 < miles_between(29.7604, -95.3698, 29.7858, -95.8245) < 30   # downtown to Katy, about 27 miles
+    places = pd.DataFrame({"label": ["far", "near", "middle"], "lat": [30.1, 29.761, 29.80],
+                           "lng": [-95.4, -95.37, -95.37]})
+    got = nearest_places(places, 29.7604, -95.3698, within_miles=5)
+    assert list(got["label"]) == ["near", "middle"] and got["distance_mi"].is_monotonic_increasing

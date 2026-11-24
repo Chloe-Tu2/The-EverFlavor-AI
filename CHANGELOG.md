@@ -62,6 +62,11 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
 - **Two country counts** (`scripts/knowledge/country_counts.py`, `docs/audits/country_counts.md`): our coverage
   count (200 CLDR countries and territories of 100,000 people or more, 154 with a dish) beside the usual one (the
   195 UN member and observer states, 149 with a dish), where they differ, and how the count grew by sprint.
+- **Store locator, first step** (0.8.0, `docs/plans/MAP.md`): the map tab takes a Greater Houston ZIP code and a
+  distance (2 to 25 miles) and lists the nearest places first (name, kind, cuisine, straight-line distance), 10 at
+  a time; "Open" shows the place card, with its map link for directions. ZIP centres come from the Census 2025 ZCTA
+  Gazetteer, stored locally (`data/reference/houston_zcta.csv`): no service is called, and the ZIP is not saved.
+  `places.zip_center`, `miles_between` and `nearest_places` in the back end.
 - **Indigenous tag verdicts are kept:** `culinary_coverage.py` rewrites the review sheet on every run, keeps
   people's verdicts, and marks a tag reviewed only with `keep` and a reviewer's name.
 

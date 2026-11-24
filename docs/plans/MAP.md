@@ -191,6 +191,11 @@ Total: about 6 to 8 days of work. Steps 1 to 4 give a working map; 5 to 7 make i
 
 ## Making it a real store locator (research 2026-10-26)
 
+**Done 2026-11-23 (0.8.0, the first move below):** a ZIP box and distance, the nearest places first (10 at a time,
+"Show more"), "Open" for the place card; ZIP centres from the Census 2025 ZCTA Gazetteer kept locally
+(`data/reference/houston_zcta.csv`, `places.zip_center`); straight-line distance (`places.nearest_places`). Not yet:
+neighbourhood names, "Use my location", clustering and "search this area" (the MapLibre move).
+
 Written 2026-10-26 (Claude, for med27-coder). A plan only: no code changed. It adds to the plan above; the
 open questions above stay as they are.
 
