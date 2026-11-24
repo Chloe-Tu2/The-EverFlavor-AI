@@ -1,4 +1,4 @@
-# Walter's five questions (2026-11-23)
+# Walter's five questions (2026-11-24)
 
 For each of our dishes, can Walter answer what it is, where it is from, why it matters, similar dishes and its versions from a sourced field? From `scripts/knowledge/walter_gaps.py`. A missing answer is never filled in by a model; it waits for a source. **Audit only.**
 
@@ -52,3 +52,35 @@ Dishes the app links the most recipes to, first (the full list: `data/knowledge/
 | Pot pie | United States | 387 | where is it from, its versions |
 | Chicken soup | Mexico | 377 | where is it from, why it matters |
 | Tomato soup | Greece | 369 | where is it from |
+
+## Walter coverage score per country
+
+The average number of the five questions a country's dishes answer (0 to 5), weakest first; 154 countries, all in `data/knowledge/quality/walter_country_scores.json`. A low score points to missing stories, origins, variants or graph links there.
+
+| Country | Dishes | Score (of 5) | Dishes with all five |
+|---|---:|---:|---:|
+| Bahrain | 1 | 2.00 | 0 |
+| Belize | 1 | 2.00 | 0 |
+| Tajikistan | 1 | 2.00 | 0 |
+| The Bahamas | 1 | 2.00 | 0 |
+| Central African Republic | 2 | 2.50 | 0 |
+| Tonga | 2 | 2.50 | 0 |
+| Turkmenistan | 2 | 2.50 | 0 |
+| Slovakia | 10 | 3.00 | 0 |
+| Puerto Rico | 8 | 3.00 | 0 |
+| Cyprus | 7 | 3.00 | 0 |
+| Angola | 3 | 3.00 | 0 |
+| Kyrgyzstan | 3 | 3.00 | 0 |
+| Mauritius | 3 | 3.00 | 0 |
+| Seychelles | 3 | 3.00 | 0 |
+| Syria | 3 | 3.00 | 0 |
+| Benin | 2 | 3.00 | 0 |
+| Chad | 2 | 3.00 | 0 |
+| Guyana | 2 | 3.00 | 0 |
+| Moldova | 2 | 3.00 | 0 |
+| South Sudan | 2 | 3.00 | 0 |
+| Antigua and Barbuda | 1 | 3.00 | 0 |
+| Curaçao | 1 | 3.00 | 0 |
+| Malawi | 1 | 3.00 | 0 |
+| Mali | 1 | 3.00 | 0 |
+| Mauritania | 1 | 3.00 | 0 |

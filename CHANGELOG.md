@@ -73,6 +73,11 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
   under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
   dishes answer all five; versions are the gap).
+- **Campaign review aids** (2026-11-24; none decides anything): evidence packets for the six empty UN members
+  (`docs/audits/empty_country_packets.md`: 21 Wikidata dishes, 19 shared dishes listed under a neighbour, 2 not in
+  the atlas; review item 32); a Walter coverage score per country (average 3.43 of 5; the weakest are one- or
+  two-dish countries); and a review impact report (`docs/audits/review_impact.md`) ranking the 11 open decisions
+  by the release gate they unblock. The planner's atlas campaigns run apart from version numbers.
 - **Indigenous tag verdicts are kept:** `culinary_coverage.py` rewrites the review sheet on every run, keeps
   people's verdicts, and marks a tag reviewed only with `keep` and a reviewer's name.
 
