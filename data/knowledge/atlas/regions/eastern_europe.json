@@ -3,41 +3,53 @@
  "name": "Eastern Europe",
  "continent": "Europe",
  "countries": [
+  "Belarus",
   "Bulgaria",
   "Hungary",
+  "Moldova",
+  "North Macedonia",
   "Poland",
+  "Romania",
   "Russia",
+  "Serbia",
   "Slovakia",
   "Ukraine"
  ],
  "countries_with_a_dish": [
+  "Bulgaria",
   "Hungary",
+  "Moldova",
+  "North Macedonia",
   "Poland",
-  "Russia"
+  "Romania",
+  "Russia",
+  "Serbia",
+  "Slovakia",
+  "Ukraine"
  ],
- "coverage_score": 48.4,
- "dish_count": 156,
- "food_and_drink_count": 57,
- "story_count": 102,
+ "coverage_score": 84.6,
+ "dish_count": 235,
+ "food_and_drink_count": 107,
+ "story_count": 144,
  "representative_dishes": [
+  "Bagel",
   "Wiener schnitzel",
   "Deviled egg",
   "Fruitcake",
   "Pâté",
   "Taffy (candy)",
   "Caviar",
-  "Krówki",
-  "Dobos torte"
+  "Pljeskavica"
  ],
  "dish_families": [
   "soup",
-  "potato dish",
-  "pancake",
   "cake",
+  "potato dish",
   "pastry",
-  "torte",
-  "beef dish",
-  "candy"
+  "salad",
+  "pancake",
+  "pie",
+  "bread"
  ],
  "indigenous_traditions": [],
  "related_regions": [

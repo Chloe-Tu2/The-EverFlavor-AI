@@ -56,6 +56,7 @@ Learn more:
 
 - quick: [Ashure (Wikipedia)](https://en.wikipedia.org/wiki/Ashure)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Albanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Albanian_cuisine)
 - deep: [Books about Ashure (Open Library)](https://openlibrary.org/search?q=Ashure)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q136922)
 
@@ -233,6 +234,7 @@ Learn more:
 
 - quick: [Candied fruit (Wikipedia)](https://en.wikipedia.org/wiki/Candied_fruit)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Armenian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Armenian_cuisine)
 - deep: [Books about Candied fruit (Open Library)](https://openlibrary.org/search?q=Candied%20fruit)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1163138)
 
@@ -968,6 +970,7 @@ Learn more:
 
 - quick: [Koliva (Wikipedia)](https://en.wikipedia.org/wiki/Koliva)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Koliva (Open Library)](https://openlibrary.org/search?q=Koliva)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2744577)
 
@@ -1311,6 +1314,7 @@ Learn more:
 
 - quick: [Nettle soup (Wikipedia)](https://en.wikipedia.org/wiki/Nettle_soup)
 - more: [List of Greek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Greek_dishes)
+- more: [Bulgarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bulgarian_cuisine)
 - deep: [Books about Nettle soup (Open Library)](https://openlibrary.org/search?q=Nettle%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7000528)
 
@@ -1619,6 +1623,7 @@ Learn more:
 
 - quick: [Savory spinach pie (Wikipedia)](https://en.wikipedia.org/wiki/Savory_spinach_pie)
 - more: [List of Greek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Greek_dishes)
+- more: [Bosnia and Herzegovina cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_cuisine)
 - deep: [Books about Savory spinach pie (Open Library)](https://openlibrary.org/search?q=Savory%20spinach%20pie)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1190165)
 
@@ -1894,6 +1899,7 @@ Learn more:
 
 - quick: [Stuffed squash (Wikipedia)](https://en.wikipedia.org/wiki/Stuffed_squash)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Jordanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jordanian_cuisine)
 - deep: [Books about Stuffed squash (Open Library)](https://openlibrary.org/search?q=Stuffed%20squash)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6434737)
 
@@ -2064,6 +2070,7 @@ Learn more:
 
 - quick: [Tulumba (Wikipedia)](https://en.wikipedia.org/wiki/Tulumba)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Romanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Romanian_cuisine)
 - deep: [Books about Tulumba (Open Library)](https://openlibrary.org/search?q=Tulumba)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q962957)
 
@@ -2279,6 +2286,7 @@ Learn more:
 
 - quick: [Basmati (Wikipedia)](https://en.wikipedia.org/wiki/Basmati)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Kuwaiti cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Kuwaiti_cuisine)
 - deep: [Books about Basmati (Open Library)](https://openlibrary.org/search?q=Basmati)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1649635)
 
@@ -2317,6 +2325,7 @@ Learn more:
 
 - quick: [Commandaria (Wikipedia)](https://en.wikipedia.org/wiki/Commandaria)
 - more: [List of Greek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Greek_dishes)
+- more: [Cypriot cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cypriot_cuisine)
 - deep: [Books about Commandaria (Open Library)](https://openlibrary.org/search?q=Commandaria)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1115080)
 
@@ -2426,6 +2435,7 @@ Learn more:
 
 - quick: [Filo (Wikipedia)](https://en.wikipedia.org/wiki/Filo)
 - more: [List of Greek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Greek_dishes)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
 - deep: [Books about Filo (Open Library)](https://openlibrary.org/search?q=Filo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1866347)
 
@@ -2578,6 +2588,7 @@ Learn more:
 
 - quick: [Grape syrup (Wikipedia)](https://en.wikipedia.org/wiki/Grape_syrup)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Montenegrin cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Montenegrin_cuisine)
 - deep: [Books about Grape syrup (Open Library)](https://openlibrary.org/search?q=Grape%20syrup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2864215)
 
@@ -2707,6 +2718,7 @@ Learn more:
 
 - quick: [Iced coffee (Wikipedia)](https://en.wikipedia.org/wiki/Iced_coffee)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
 - deep: [Books about Iced coffee (Open Library)](https://openlibrary.org/search?q=Iced%20coffee)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q968554)
 
@@ -3218,6 +3230,7 @@ Learn more:
 
 - quick: [Orgeat syrup (Wikipedia)](https://en.wikipedia.org/wiki/Orgeat_syrup)
 - more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- more: [List of Maltese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Maltese_dishes)
 - deep: [Books about Orgeat syrup (Open Library)](https://openlibrary.org/search?q=Orgeat%20syrup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1939771)
 
@@ -3355,7 +3368,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q1310859) (CC0); [Wikipedia: R
 Ribs of pork, beef, lamb, and venison are a cut of meat.
 
 - From: Greece
-- Ingredients (Wikidata): cattle, goat, sheep, Common ostrich, Bison, llama, water buffalo, African buffalo, beefalo, Alligator
+- Ingredients (Wikidata): Alligator, crocodile, kangaroo, deer, cattle, goat, sheep, Common ostrich, Bison, llama
 
 Fun facts:
 
@@ -3691,6 +3704,7 @@ Learn more:
 
 - quick: [Zivania (Wikipedia)](https://en.wikipedia.org/wiki/Zivania)
 - more: [List of Greek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Greek_dishes)
+- more: [Cypriot cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cypriot_cuisine)
 - deep: [Books about Zivania (Open Library)](https://openlibrary.org/search?q=Zivania)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q206757)
 

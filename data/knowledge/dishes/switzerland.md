@@ -740,6 +740,36 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q390726) (CC0); [Wikipedia: Bündnerfleisch](https://en.wikipedia.org/wiki/Bündnerfleisch) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Emmental cheese
+
+Emmental is a yellow, medium-hard cheese with natural holes that originated in the Emme Valley in Switzerland.
+
+- From: Switzerland
+- Origin (Wikidata): Switzerland
+- Named after: Emmental
+- Ingredients (Wikidata): cow's milk
+
+Fun facts:
+
+- (origin) Emmental cheese originates from the Emme Valley in Switzerland.
+- (inspiration) Emmental cheese is named after Emmental.
+- (about) Not to be confused with Gruyère.
+
+More fun facts (when the user asks for more):
+
+- (origin) Emmental cheese was first made in Emmental.
+- (origin) Emmental cheese comes from Switzerland.
+
+Learn more:
+
+- quick: [Emmental cheese (Wikipedia)](https://en.wikipedia.org/wiki/Emmental_cheese)
+- more: [Romanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Romanian_cuisine)
+- more: [Cuisine of Romania (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Romania)
+- deep: [Books about Emmental cheese (Open Library)](https://openlibrary.org/search?q=Emmental%20cheese)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q932214)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q932214) (CC0); [Wikipedia: Emmental cheese](https://en.wikipedia.org/wiki/Emmental_cheese) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Landjäger
 
 Landjäger is a semidried sausage traditionally made in Southern Germany, Austria, South Tyrol, Switzerland, and Alsace.
@@ -765,6 +795,34 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q690378)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q690378) (CC0); [Wikipedia: Landjäger](https://en.wikipedia.org/wiki/Landjäger) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Processed cheese
+
+Processed cheese (also known as process cheese; related terms include cheese food, prepared cheese, cheese product, and government cheese) is a product made from cheese mixed with an emulsifying agent (actually a calcium chelator).
+
+- From: Switzerland
+- Origin (Wikidata): Switzerland
+- Ingredients (Wikidata): cheese, emulsifying salt
+
+Fun facts:
+
+- (history) Processed cheese was first developed in Switzerland in 1911, when Walter Gerber and Fritz Stettler, seeking a cheese with longer shelf life and influenced by fondue and cheese sauces, added sodium citrate to melted Emmentaler cheese and found that the emulsified cheese sauce could be re-cooled into a solid again.
+- (origin) Processed cheese was first made by Walter Gerber, Fritz Stettler.
+- (history) Shortly after, in 1916, Canadian-American businessman James L. Kraft applied for the first U.S. patent covering a new method of storing cheese, which halts the maturation process by sterilization.
+
+More fun facts (when the user asks for more):
+
+- (origin) Processed cheese comes from Switzerland.
+
+Learn more:
+
+- quick: [Processed cheese (Wikipedia)](https://en.wikipedia.org/wiki/Processed_cheese)
+- more: [Romanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Romanian_cuisine)
+- more: [Cuisine of Romania (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Romania)
+- deep: [Books about Processed cheese (Open Library)](https://openlibrary.org/search?q=Processed%20cheese)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1570052)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1570052) (CC0); [Wikipedia: Processed cheese](https://en.wikipedia.org/wiki/Processed_cheese) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Salsiz
 

@@ -62,10 +62,51 @@ Learn more:
 
 - quick: [Babka (Wikipedia)](https://en.wikipedia.org/wiki/Babka)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
 - deep: [Books about Babka (Open Library)](https://openlibrary.org/search?q=Babka)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q119828752)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q119828752) (CC0); [Wikipedia: Babka](https://en.wikipedia.org/wiki/Babka) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Bagel
+
+A bagel is a bread roll originating in the Jewish communities of Poland.
+
+- From: Poland
+- Origin (Wikidata): Poland, Grand Duchy of Lithuania
+- Ingredients (Wikidata): flour
+
+Fun facts:
+
+- (history) Bagels have been widely associated with Ashkenazi Jews since the 17th century; they were first mentioned in 1610 in Jewish community ordinances in Kraków, Poland.
+- (origin) The bagel may have been brought to Kraków by Bona Sforza, a woman from Bari, Italy, who became the Queen of Poland and Grand Duchess of Lithuania as the second wife of Sigismund the Old from 1518 to 1548.
+- (about) Murray also invented pre-slicing the bagel.
+
+More fun facts (when the user asks for more):
+
+- (history) Daniel Thompson started work on the first commercially viable bagel machine in 1958; bagel baker Harry Lender, his son, Murray Lender, and Florence Sender leased this technology and pioneered automated production and distribution of frozen bagels in the 1960s.
+- (history) Linguist Leo Rosten notes in The Joys of Yiddish, that the first known mention of the Polish word bajgiel derived from the Yiddish word bagel in the "Community Regulations" occurs in Kraków in 1610, and that the food was given as a gift to women in childbirth.
+- (history) In the Brick Lane district and surrounding area of London, England, bagels (locally spelled "beigels") have been sold since the middle of the 19th century.
+- (history) The bagel came into more general use throughout North America in the last quarter of the 20th century with automation.
+- (history) Around 1900, the "bagel brunch" became popular in New York City.
+- (history) Obwarzanek, a boiled-then-baked ring-shaped bread, was made by the 13th century Kraków baker's guild for Lent, as seen in royal family accounts from 1394.
+- (history) Ka'ak, another early boiled-then-baked ring-shaped bread, is referenced in the 10th century Arabic cookbook Kitab al Tabikh and a recipe is described in the 13th century Arabic cookbook Kitab al Wusla ila al Habib.
+- (culture) Bagels are traditionally made from yeasted wheat dough that is shaped by hand into a torus or ring, briefly boiled in water, and then baked.
+- (culture) Bagels are often topped with seeds baked on the outer crust—traditional choices include poppy and sesame seeds—or with salt grains.
+- (about) Bagels are now a popular bread product in North America and Poland, especially in cities with a large Jewish population.
+- (origin) Bagel comes from Poland, Grand Duchy of Lithuania.
+- (about) In the 16th and first half of the 17th centuries, the bajgiel became a staple of Polish cuisine.
+- (about) Not to be confused with doughnut.
+
+Learn more:
+
+- quick: [Bagel (Wikipedia)](https://en.wikipedia.org/wiki/Bagel)
+- more: [List of Maltese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Maltese_dishes)
+- more: [Maltese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Maltese_cuisine)
+- deep: [Books about Bagel (Open Library)](https://openlibrary.org/search?q=Bagel)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q272502)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q272502) (CC0); [Wikipedia: Bagel](https://en.wikipedia.org/wiki/Bagel) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Bigos
 
@@ -157,6 +198,7 @@ Learn more:
 
 - quick: [Cabbage soup (Wikipedia)](https://en.wikipedia.org/wiki/Cabbage_soup)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Slovak cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovak_cuisine)
 - deep: [Books about Cabbage soup (Open Library)](https://openlibrary.org/search?q=Cabbage%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q564622)
 
@@ -477,6 +519,7 @@ Learn more:
 
 - quick: [Kalduny (Wikipedia)](https://en.wikipedia.org/wiki/Kalduny)
 - more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [Belarusian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belarusian_cuisine)
 - deep: [Books about Kalduny (Open Library)](https://openlibrary.org/search?q=Kalduny)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5289177)
 
@@ -661,6 +704,7 @@ Learn more:
 
 - quick: [Kugelis (Wikipedia)](https://en.wikipedia.org/wiki/Kugelis)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Lithuanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lithuanian_cuisine)
 - deep: [Books about Kugelis (Open Library)](https://openlibrary.org/search?q=Kugelis)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1690265)
 
@@ -683,6 +727,7 @@ Learn more:
 
 - quick: [Lazanki (Wikipedia)](https://en.wikipedia.org/wiki/Lazanki)
 - more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [Belarusian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belarusian_cuisine)
 - deep: [Books about Lazanki (Open Library)](https://openlibrary.org/search?q=Lazanki)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2632589)
 
@@ -986,6 +1031,7 @@ Learn more:
 
 - quick: [Pierogi leniwe (Wikipedia)](https://en.wikipedia.org/wiki/Pierogi_leniwe)
 - more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Pierogi leniwe (Open Library)](https://openlibrary.org/search?q=Pierogi%20leniwe)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11816618)
 
@@ -1048,6 +1094,7 @@ Learn more:
 
 - quick: [Potato babka (Wikipedia)](https://en.wikipedia.org/wiki/Potato_babka)
 - more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Potato babka (Open Library)](https://openlibrary.org/search?q=Potato%20babka)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2479287)
 
@@ -1115,6 +1162,7 @@ Learn more:
 
 - quick: [Ptasie mleczko (Wikipedia)](https://en.wikipedia.org/wiki/Ptasie_mleczko)
 - more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Ptasie mleczko (Open Library)](https://openlibrary.org/search?q=Ptasie%20mleczko)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1975589)
 
@@ -1230,6 +1278,34 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q17099188) (CC0); [Wikipedia: Rosół](https://en.wikipedia.org/wiki/Rosół) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Rugelach
+
+Rugelach is a pastry-like dough-based baked sweet food which originated in the Jewish communities of Poland some time during the Early Modern era, with the first published recipes in the early 19th century.
+
+- From: Poland
+- Origin (Wikidata): Poland
+
+Fun facts:
+
+- (inspiration) This appears to be an urban legend, however, as The rugelach's supposed ancestor, the less-sweet Kipferl, predate the Early Modern era, and The rugelach predates the croissant (which, in its modern form, did not originate earlier than the 19th century (see viennoiserie)).
+- (history) Some sources state that the rugelach and the French croissant share a common Viennese ancestor, crescent-shaped pastries commemorating the lifting of the Turkish siege, possibly a reference to the Battle of Vienna in 1683.
+- (about) Rugelach has become a popular food among Jewish people all over the world, including Israel.
+
+More fun facts (when the user asks for more):
+
+- (culture) Traditional rugelach are shaped into a crescent by rolling a triangle of dough around a thin layer of filling.
+- (origin) Rugelach comes from Poland.
+
+Learn more:
+
+- quick: [Rugelach (Wikipedia)](https://en.wikipedia.org/wiki/Rugelach)
+- more: [List of Israeli dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Israeli_dishes)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
+- deep: [Books about Rugelach (Open Library)](https://openlibrary.org/search?q=Rugelach)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1993581)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1993581) (CC0); [Wikipedia: Rugelach](https://en.wikipedia.org/wiki/Rugelach) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Salceson
 
 Salceson is a type of meat found in Polish cuisine and other Central and Eastern European cuisines.
@@ -1241,6 +1317,7 @@ Learn more:
 
 - quick: [Salceson (Wikipedia)](https://en.wikipedia.org/wiki/Salceson)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Belarusian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Belarusian_cuisine)
 - deep: [Books about Salceson (Open Library)](https://openlibrary.org/search?q=Salceson)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2996033)
 
@@ -1466,6 +1543,7 @@ Learn more:
 
 - quick: [Torte (Wikipedia)](https://en.wikipedia.org/wiki/Torte)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Lithuanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lithuanian_cuisine)
 - deep: [Books about Torte (Open Library)](https://openlibrary.org/search?q=Torte)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q130186)
 
@@ -1734,6 +1812,7 @@ Learn more:
 
 - quick: [Bryndza (Wikipedia)](https://en.wikipedia.org/wiki/Bryndza)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Bryndza (Open Library)](https://openlibrary.org/search?q=Bryndza)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q698632)
 
@@ -1756,6 +1835,7 @@ Learn more:
 
 - quick: [Bundz (Wikipedia)](https://en.wikipedia.org/wiki/Bundz)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Bundz (Open Library)](https://openlibrary.org/search?q=Bundz)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2928184)
 
@@ -2061,6 +2141,7 @@ Learn more:
 
 - quick: [Kluski (Wikipedia)](https://en.wikipedia.org/wiki/Kluski)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Kluski (Open Library)](https://openlibrary.org/search?q=Kluski)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1280741)
 
@@ -2081,6 +2162,7 @@ Learn more:
 
 - quick: [Knedle (Wikipedia)](https://en.wikipedia.org/wiki/Knedle)
 - more: [Polish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Polish_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Knedle (Open Library)](https://openlibrary.org/search?q=Knedle)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5265534)
 
@@ -2268,6 +2350,7 @@ Learn more:
 
 - quick: [Quark (dairy product) (Wikipedia)](https://en.wikipedia.org/wiki/Quark_%28dairy_product%29)
 - more: [List of Polish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Polish_dishes)
+- more: [Estonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Estonian_cuisine)
 - deep: [Books about Quark (dairy product) (Open Library)](https://openlibrary.org/search?q=Quark%20%28dairy%20product%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q259642)
 
@@ -2300,6 +2383,36 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q147538)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q147538) (CC0); [Wikipedia: Soft drink](https://en.wikipedia.org/wiki/Soft_drink) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Starka
+
+Starka is a type of distilled alcoholic beverage made from fermented rye mash.
+
+- From: Poland
+- Origin (Wikidata): Poland, Grand Duchy of Lithuania
+- Since: 1401-
+
+Fun facts:
+
+- (history) Starka was known in Poland and Lithuania at least since the 15th century, later in the Polish–Lithuanian Commonwealth, and by the 17th century became one of the favorite drinks of the nobility of the Commonwealth and Sarmatist culture.
+- (culture) Traditionally, Starka is made from natural (up to 2 distillations, no rectification) rye spirit and aged in oak barrels with small additions of linden-tree and apple-tree leaves.
+- (origin) Starka comes from Poland, Grand Duchy of Lithuania.
+
+More fun facts (when the user asks for more):
+
+- (history) Starka dates from 1401-.
+- (culture) Tradition had it that at a child's birth, the father of the house poured large amounts of home-made spirits (approximately 75 proof) into an empty oak barrel, previously used to store wine (usually imported from Hungary at that time and hence called Węgrzyn, or Hungarian).
+- (history) After World War I, which ended foreign rule over former parts of the Polish–Lithuanian Commonwealth, starka remained one of the most popular spirits in both countries.
+
+Learn more:
+
+- quick: [Starka (Wikipedia)](https://en.wikipedia.org/wiki/Starka)
+- more: [Lithuanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lithuanian_cuisine)
+- more: [Cuisine of Lithuania (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Lithuania)
+- deep: [Books about Starka (Open Library)](https://openlibrary.org/search?q=Starka)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q376929)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q376929) (CC0); [Wikipedia: Starka](https://en.wikipedia.org/wiki/Starka) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Tea
 

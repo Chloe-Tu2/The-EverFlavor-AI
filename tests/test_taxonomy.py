@@ -21,7 +21,7 @@ def test_paths_and_breadcrumbs() -> None:
     assert [n.name for n in TAX.path("cn_sichuan")] == ["World", "Asia", "East Asia", "China", "Sichuan"]
     country = TAX.ancestor("us_texas", "country")
     assert country is not None and country.name == "United States"
-    assert [n.name for n in TAX.children("east_asia")] == ["China", "Japan", "South Korea", "Taiwan"]
+    assert [n.name for n in TAX.children("east_asia")] == ["China", "Japan", "South Korea", "Taiwan", "Mongolia", "North Korea"]
 
 
 def test_cross_links_put_a_branch_in_two_places() -> None:
@@ -48,7 +48,7 @@ def test_lookups() -> None:
     assert TAX.node_for("Japan", None) == "japan"
     assert TAX.node_for("Atlantis") is None
     assert [n.slug for n in TAX.find("cantonese")] == ["cn_guangdong"]
-    assert [n.name for n in TAX.related("japan")] == ["China", "South Korea", "Taiwan"]
+    assert [n.name for n in TAX.related("japan")] == ["China", "South Korea", "Taiwan", "Mongolia", "North Korea"]
 
 
 def test_every_app_country_is_in_the_tree_and_names_match_the_data() -> None:

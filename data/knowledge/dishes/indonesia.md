@@ -440,7 +440,7 @@ Ayam pop is a fried chicken dish originating from Minangkabau cuisine commonly f
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): Cymbopogon citratus, chili pepper, Alpinia galanga, coconut water, coconut milk, chicken as food
+- Ingredients (Wikidata): Alpinia galanga, coconut water, coconut milk, chicken as food, Cymbopogon citratus, chili pepper
 
 Fun facts:
 
@@ -737,6 +737,7 @@ Learn more:
 
 - quick: [Beef kway teow (Wikipedia)](https://en.wikipedia.org/wiki/Beef_kway_teow)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Beef kway teow (Open Library)](https://openlibrary.org/search?q=Beef%20kway%20teow)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q22583433)
 
@@ -1846,6 +1847,7 @@ Learn more:
 
 - quick: [Gudeg (Wikipedia)](https://en.wikipedia.org/wiki/Gudeg)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Gudeg (Open Library)](https://openlibrary.org/search?q=Gudeg)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q980840)
 
@@ -2700,6 +2702,33 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7307455) (CC0); [Wikipedia: Kue semprong](https://en.wikipedia.org/wiki/Kue_semprong) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Kuih
+
+Kuih are bite-sized snack or dessert foods commonly found in Southeast Asia (particularly in the Malay Archipelago) and China.
+
+- From: Indonesia
+- Origin (Wikidata): Indonesia, Singapore, Malaysia, Taiwan, China
+- Ingredients (Wikidata): margarine, sugar, egg as food, tapioca, rice flour, turnip cake, youtiao, nian gao, Chwee kueh, imagawayaki
+
+Fun facts:
+
+- (history) The term kuih is widely used in Malaysia, Brunei, and Singapore; kueh (the pre-1972 spelling of kuih) is used in Singapore and Indonesia; kue is used in Indonesia only; and all three refer to sweet or savoury desserts.
+- (origin) Kuih comes from Indonesia, Singapore, Malaysia, Taiwan, China.
+- (history) The culinary legacy of kuih can be traced to the 15th century when it flourished in the Southeast Asian region from a combination of local ingredients and food culture brought through trade or colonisation.
+
+More fun facts (when the user asks for more):
+
+- (origin) In China, where the term originates, koé in Hokkien and kué in Teochew (known as guǒ in Mandarin) refer to snacks which are typically made from rice but can occasionally be made from other grains, such as wheat.
+
+Learn more:
+
+- quick: [Kuih (Wikipedia)](https://en.wikipedia.org/wiki/Kuih)
+- more: [List of Burmese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Burmese_dishes)
+- deep: [Books about Kuih (Open Library)](https://openlibrary.org/search?q=Kuih)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q14468365)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q14468365) (CC0); [Wikipedia: Kuih](https://en.wikipedia.org/wiki/Kuih) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Kuluban
 
 Kuluban is a traditional salad of Central Java.
@@ -2763,6 +2792,7 @@ Learn more:
 
 - quick: [Lalab (Wikipedia)](https://en.wikipedia.org/wiki/Lalab)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Burmese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Burmese_cuisine)
 - deep: [Books about Lalab (Open Library)](https://openlibrary.org/search?q=Lalab)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4703440)
 
@@ -3291,6 +3321,7 @@ Learn more:
 
 - quick: [Mie goreng (Wikipedia)](https://en.wikipedia.org/wiki/Mie_goreng)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Surinamese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Surinamese_cuisine)
 - deep: [Books about Mie goreng (Open Library)](https://openlibrary.org/search?q=Mie%20goreng)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1188729)
 
@@ -3470,6 +3501,7 @@ Learn more:
 
 - quick: [Nagasari (Wikipedia)](https://en.wikipedia.org/wiki/Nagasari)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Nagasari (Open Library)](https://openlibrary.org/search?q=Nagasari)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4189615)
 
@@ -3815,6 +3847,7 @@ Learn more:
 
 - quick: [Nasi lemak (Wikipedia)](https://en.wikipedia.org/wiki/Nasi_lemak)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Bruneian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bruneian_cuisine)
 - deep: [Books about Nasi lemak (Open Library)](https://openlibrary.org/search?q=Nasi%20lemak)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1420553)
 
@@ -4076,6 +4109,7 @@ Learn more:
 
 - quick: [Nian gao (Wikipedia)](https://en.wikipedia.org/wiki/Nian_gao)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Sri Lankan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sri_Lankan_cuisine)
 - deep: [Books about Nian gao (Open Library)](https://openlibrary.org/search?q=Nian%20gao)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q715544)
 
@@ -4567,6 +4601,7 @@ Learn more:
 
 - quick: [Rawon (Wikipedia)](https://en.wikipedia.org/wiki/Rawon)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Rawon (Open Library)](https://openlibrary.org/search?q=Rawon)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4200763)
 
@@ -4924,6 +4959,7 @@ Learn more:
 
 - quick: [Saltah (Wikipedia)](https://en.wikipedia.org/wiki/Saltah)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Yemeni cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Yemeni_cuisine)
 - deep: [Books about Saltah (Open Library)](https://openlibrary.org/search?q=Saltah)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3271515)
 
@@ -5078,7 +5114,7 @@ Sate taichan is a variation of chicken satay grilled and served without peanut o
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): table salt, peanut, chili pepper, Citrus × aurantiifolia, Allium ascalonicum, chicken as food
+- Ingredients (Wikidata): peanut, chili pepper, Citrus × aurantiifolia, Allium ascalonicum, chicken as food, table salt
 
 Fun facts:
 
@@ -5140,6 +5176,7 @@ Learn more:
 
 - quick: [Sayur lodeh (Wikipedia)](https://en.wikipedia.org/wiki/Sayur_lodeh)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Sayur lodeh (Open Library)](https://openlibrary.org/search?q=Sayur%20lodeh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4208242)
 
@@ -5377,6 +5414,7 @@ Learn more:
 
 - quick: [Soto ayam (Wikipedia)](https://en.wikipedia.org/wiki/Soto_ayam)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Soto ayam (Open Library)](https://openlibrary.org/search?q=Soto%20ayam)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q924689)
 
@@ -5397,6 +5435,7 @@ Learn more:
 
 - quick: [Soto mi (Wikipedia)](https://en.wikipedia.org/wiki/Soto_mi)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Soto mi (Open Library)](https://openlibrary.org/search?q=Soto%20mi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11242258)
 
@@ -5888,6 +5927,7 @@ Learn more:
 
 - quick: [Tumpeng (Wikipedia)](https://en.wikipedia.org/wiki/Tumpeng)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Tumpeng (Open Library)](https://openlibrary.org/search?q=Tumpeng)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2746599)
 
@@ -6517,6 +6557,7 @@ Learn more:
 
 - quick: [Dried fish (Wikipedia)](https://en.wikipedia.org/wiki/Dried_fish)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Sri Lankan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sri_Lankan_cuisine)
 - deep: [Books about Dried fish (Open Library)](https://openlibrary.org/search?q=Dried%20fish)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5307391)
 
@@ -6782,6 +6823,7 @@ Learn more:
 
 - quick: [Kaffir lime (Wikipedia)](https://en.wikipedia.org/wiki/Kaffir_lime)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Nepalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nepalese_cuisine)
 - deep: [Books about Kaffir lime (Open Library)](https://openlibrary.org/search?q=Kaffir%20lime)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q465934)
 
@@ -7167,6 +7209,7 @@ Learn more:
 
 - quick: [Kwetiau goreng (Wikipedia)](https://en.wikipedia.org/wiki/Kwetiau_goreng)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Kwetiau goreng (Open Library)](https://openlibrary.org/search?q=Kwetiau%20goreng)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q18127055)
 
@@ -7443,6 +7486,7 @@ Learn more:
 
 - quick: [Pecel lele (Wikipedia)](https://en.wikipedia.org/wiki/Pecel_lele)
 - more: [List of Indonesian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indonesian_dishes)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Pecel lele (Open Library)](https://openlibrary.org/search?q=Pecel%20lele)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q14917413)
 

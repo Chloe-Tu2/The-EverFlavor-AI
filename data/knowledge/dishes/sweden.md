@@ -241,6 +241,7 @@ Learn more:
 
 - quick: [Herring salad (Wikipedia)](https://en.wikipedia.org/wiki/Herring_salad)
 - more: [Swedish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Swedish_cuisine)
+- more: [Estonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Estonian_cuisine)
 - deep: [Books about Herring salad (Open Library)](https://openlibrary.org/search?q=Herring%20salad)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q978758)
 
@@ -535,6 +536,7 @@ Learn more:
 
 - quick: [Marshmallow (Wikipedia)](https://en.wikipedia.org/wiki/Marshmallow)
 - more: [Swedish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Swedish_cuisine)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
 - deep: [Books about Marshmallow (Open Library)](https://openlibrary.org/search?q=Marshmallow)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q272198)
 
@@ -1001,6 +1003,7 @@ Learn more:
 
 - quick: [Smörgåstårta (Wikipedia)](https://en.wikipedia.org/wiki/Sm%C3%B6rg%C3%A5st%C3%A5rta)
 - more: [Swedish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Swedish_cuisine)
+- more: [Icelandic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Icelandic_cuisine)
 - deep: [Books about Smörgåstårta (Open Library)](https://openlibrary.org/search?q=Sm%C3%B6rg%C3%A5st%C3%A5rta)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3123047)
 
@@ -1424,7 +1427,7 @@ Learn more:
 
 - quick: [Ribes (Wikipedia)](https://en.wikipedia.org/wiki/Ribes)
 - more: [Swedish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Swedish_cuisine)
-- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
+- more: [Lithuanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lithuanian_cuisine)
 - deep: [Books about Ribes (Open Library)](https://openlibrary.org/search?q=Ribes)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q22691)
 

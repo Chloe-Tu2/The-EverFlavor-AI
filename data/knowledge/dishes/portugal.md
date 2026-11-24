@@ -217,6 +217,7 @@ Learn more:
 
 - quick: [Bacalhau (Wikipedia)](https://en.wikipedia.org/wiki/Bacalhau)
 - more: [List of Portuguese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Portuguese_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Bacalhau (Open Library)](https://openlibrary.org/search?q=Bacalhau)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10989778)
 
@@ -1862,6 +1863,7 @@ Learn more:
 
 - quick: [Embutido (Wikipedia)](https://en.wikipedia.org/wiki/Embutido)
 - more: [List of Portuguese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Portuguese_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Embutido (Open Library)](https://openlibrary.org/search?q=Embutido)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q18560070)
 

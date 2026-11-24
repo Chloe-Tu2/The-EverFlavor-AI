@@ -443,6 +443,29 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q360459) (CC0); [Wikipedia: Adobo](https://en.wikipedia.org/wiki/Adobo) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Ají (sauce)
+
+Ají is a spicy sauce that contains ají peppers (Capsicum baccatum), oil, tomatoes, cilantro (coriander), garlic, onions, and water.
+
+- From: Peru
+- Origin (Wikidata): Peru
+- Ingredients (Wikidata): chili pepper, onion, tomato, cilantro
+
+Fun facts:
+
+- (about) Ají is served as a condiment to complement main dishes popular in Latin American cuisines, and prepared by blending its ingredients using a food processor or blender.
+- (origin) Ají comes from Peru.
+
+Learn more:
+
+- quick: [Ají (sauce) (Wikipedia)](https://en.wikipedia.org/wiki/Aj%C3%AD_%28sauce%29)
+- more: [Bolivian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bolivian_cuisine)
+- more: [Cuisine of Bolivia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Bolivia)
+- deep: [Books about Ají (sauce) (Open Library)](https://openlibrary.org/search?q=Aj%C3%AD%20%28sauce%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4699717)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4699717) (CC0); [Wikipedia: Ají (sauce)](https://en.wikipedia.org/wiki/Ají_(sauce)) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Algarrobina
 
 Algarrobina is a syrup made from the Black Carob tree.

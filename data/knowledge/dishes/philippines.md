@@ -707,6 +707,7 @@ Learn more:
 
 - quick: [Ensaïmada (Wikipedia)](https://en.wikipedia.org/wiki/Ensa%C3%AFmada)
 - more: [List of Filipino dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Filipino_dishes)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Ensaïmada (Open Library)](https://openlibrary.org/search?q=Ensa%C3%AFmada)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1344218)
 

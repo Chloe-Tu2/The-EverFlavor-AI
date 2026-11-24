@@ -47,6 +47,7 @@ Learn more:
 
 - quick: [Germknödel (Wikipedia)](https://en.wikipedia.org/wiki/Germkn%C3%B6del)
 - more: [Austrian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Austrian_cuisine)
+- more: [Slovak cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovak_cuisine)
 - deep: [Books about Germknödel (Open Library)](https://openlibrary.org/search?q=Germkn%C3%B6del)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q701327)
 

@@ -383,6 +383,7 @@ Learn more:
 
 - quick: [Doughnut (Wikipedia)](https://en.wikipedia.org/wiki/Doughnut)
 - more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
 - deep: [Books about Doughnut (Open Library)](https://openlibrary.org/search?q=Doughnut)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q192783)
 
@@ -863,6 +864,7 @@ Learn more:
 
 - quick: [Pineapple cake (Wikipedia)](https://en.wikipedia.org/wiki/Pineapple_cake)
 - more: [List of Jamaican dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Jamaican_dishes)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
 - deep: [Books about Pineapple cake (Open Library)](https://openlibrary.org/search?q=Pineapple%20cake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q55167)
 

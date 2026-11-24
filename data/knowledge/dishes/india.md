@@ -1218,6 +1218,7 @@ Learn more:
 
 - quick: [Khichdi (Wikipedia)](https://en.wikipedia.org/wiki/Khichdi)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Guyanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guyanese_cuisine)
 - deep: [Books about Khichdi (Open Library)](https://openlibrary.org/search?q=Khichdi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2478703)
 
@@ -1296,6 +1297,36 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6432257) (CC0); [Wikipedia: Kori rotti](https://en.wikipedia.org/wiki/Kori_rotti) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Korma
+
+Korma, kurma, qorma or qurma is a curry dish originating in the Indian subcontinent influenced by Mughlai cuisine, versions of which later were modified to Anglo-Indian and then to British tastes.
+
+- From: India
+- Origin (Wikidata): India
+- Ingredients (Wikidata): yogurt
+
+Fun facts:
+
+- (history) Kormas were prepared in the Mughal court kitchens; according to the historian of food Neha Vermani, the dish is first mentioned in cookery books from the reign of Shah Alam (r. 1643–1712).
+- (origin) Korma was first made in Maharashtra.
+- (history) In Hyderabad in 1832, a "korma" variety of pilau included thinly sliced meat with rice.
+
+More fun facts (when the user asks for more):
+
+- (origin) Korma comes from India.
+- (history) During the 18th century, cooks in the Mughal court enriched the Persian-style stew with almonds, garlic, spices, and yoghurt.
+- (history) Indian cooks in the 19th century prepared curries for their British masters simplified and adjusted to Anglo-Indian taste.
+
+Learn more:
+
+- quick: [Korma (Wikipedia)](https://en.wikipedia.org/wiki/Korma)
+- more: [Bulgarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bulgarian_cuisine)
+- more: [Cuisine of Bulgaria (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Bulgaria)
+- deep: [Books about Korma (Open Library)](https://openlibrary.org/search?q=Korma)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1979684)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1979684) (CC0); [Wikipedia: Korma](https://en.wikipedia.org/wiki/Korma) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Kulcha
 
 Kulcha is a type of Indian flatbread made from refined wheat flour, fermented in earthen pots and baked in a tandoor.
@@ -1346,6 +1377,7 @@ Learn more:
 
 - quick: [Kulfi (Wikipedia)](https://en.wikipedia.org/wiki/Kulfi)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [List of Burmese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Burmese_dishes)
 - deep: [Books about Kulfi (Open Library)](https://openlibrary.org/search?q=Kulfi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3051553)
 
@@ -1816,6 +1848,7 @@ Learn more:
 
 - quick: [Pantua (Wikipedia)](https://en.wikipedia.org/wiki/Pantua)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Bangladeshi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bangladeshi_cuisine)
 - deep: [Books about Pantua (Open Library)](https://openlibrary.org/search?q=Pantua)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7131930)
 
@@ -2146,6 +2179,7 @@ Learn more:
 
 - quick: [Rasam (dish) (Wikipedia)](https://en.wikipedia.org/wiki/Rasam_%28dish%29)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Guyanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guyanese_cuisine)
 - deep: [Books about Rasam (dish) (Open Library)](https://openlibrary.org/search?q=Rasam%20%28dish%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2472937)
 
@@ -2219,6 +2253,7 @@ Learn more:
 
 - quick: [Sambar (dish) (Wikipedia)](https://en.wikipedia.org/wiki/Sambar_%28dish%29)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [List of Burmese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Burmese_dishes)
 - deep: [Books about Sambar (dish) (Open Library)](https://openlibrary.org/search?q=Sambar%20%28dish%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q188420)
 
@@ -2472,6 +2507,33 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1057649)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1057649) (CC0); [Wikipedia: Tandoori chicken](https://en.wikipedia.org/wiki/Tandoori_chicken) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Tehri (dish)
+
+Tehri, tehar, tehari, or tahri (also rarely tapahri) is a spicy yellow rice dish originating from Awadh region of Uttar Pradesh in India.
+
+- From: India
+- Origin (Wikidata): India
+- Ingredients (Wikidata): vegetable
+
+Fun facts:
+
+- (culture) Bhojanakutūhala (1675 CE) Sanskrit book on cookery and culinary traditions mentions taharī rice dish and it was eaten with side-dish of fried lentil fritters known as "vaṭakas".
+- (about) In Bhojanakuthuhala, this rice dish was eaten with fried fritters known as Vaṭakas prepared from black-gram flour, rice flour and mixed with turmeric and fried in ghee.
+- (origin) Tehri comes from India.
+
+More fun facts (when the user asks for more):
+
+- (history) The recipe for Tahari also finds mention in Pakadarpana (1200 CE) cookbook, which uses meat of hen.
+
+Learn more:
+
+- quick: [Tehri (dish) (Wikipedia)](https://en.wikipedia.org/wiki/Tehri_%28dish%29)
+- more: [List of Bangladeshi dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Bangladeshi_dishes)
+- deep: [Books about Tehri (dish) (Open Library)](https://openlibrary.org/search?q=Tehri%20%28dish%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7694913)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7694913) (CC0); [Wikipedia: Tehri (dish)](https://en.wikipedia.org/wiki/Tehri_(dish)) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Thali
 
@@ -2849,6 +2911,7 @@ Learn more:
 
 - quick: [Chaat (Wikipedia)](https://en.wikipedia.org/wiki/Chaat)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [List of Nepalese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Nepalese_dishes)
 - deep: [Books about Chaat (Open Library)](https://openlibrary.org/search?q=Chaat)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q153584)
 
@@ -3114,6 +3177,28 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q14624) (CC0); [Wikipedia: Garam masala](https://en.wikipedia.org/wiki/Garam_masala) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Ghee
+
+Ghee is a type of clarified butter, originating in the South Asia.
+
+- From: India
+- Origin (Wikidata): India
+
+Fun facts:
+
+- (culture) Ghee is a widely used butter for cooking especially in South Asian cuisines and in Dharmic religious rituals.
+- (origin) Ghee comes from India.
+
+Learn more:
+
+- quick: [Ghee (Wikipedia)](https://en.wikipedia.org/wiki/Ghee)
+- more: [Somali cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Somali_cuisine)
+- more: [Cuisine of Somalia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Somalia)
+- deep: [Books about Ghee (Open Library)](https://openlibrary.org/search?q=Ghee)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q323225)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q323225) (CC0); [Wikipedia: Ghee](https://en.wikipedia.org/wiki/Ghee) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Ghevar
 
 Ghevar or ghewar is a disc-shaped Rajasthani sweet with a honeycomb-like texture, made from ghee, maida, and sugar syrup.
@@ -3196,6 +3281,7 @@ Learn more:
 
 - quick: [Idiyappam (Wikipedia)](https://en.wikipedia.org/wiki/Idiyappam)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Idiyappam (Open Library)](https://openlibrary.org/search?q=Idiyappam)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2456855)
 
@@ -3268,6 +3354,7 @@ Learn more:
 
 - quick: [Jaggery (Wikipedia)](https://en.wikipedia.org/wiki/Jaggery)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Sri Lankan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sri_Lankan_cuisine)
 - deep: [Books about Jaggery (Open Library)](https://openlibrary.org/search?q=Jaggery)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1148077)
 
@@ -3305,6 +3392,36 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q11684396)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q11684396) (CC0); [Wikipedia: Jalfrezi](https://en.wikipedia.org/wiki/Jalfrezi) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Jhalmuri
+
+Jhalmuri is a popular street snack in the Bengali, Bihari, Bhojpuri, Odia, Assamese and Tripuri cuisine of the Indian subcontinent, made of puffed rice and an assortment of Indian spices, vegetables, Bombay mix (chanachur) and mustard oil.
+
+- From: India
+- Origin (Wikidata): India
+- Ingredients (Wikidata): puffed rice
+
+Fun facts:
+
+- (about) Jhalmuri is popular in the Indian states of Bihar, West Bengal, Tripura, eastern Uttar Pradesh, and Odisha and in neighbouring Bangladesh.
+- (culture) Widely enjoyed for its spicy and tangy flavor, Jhalmuri is especially consumed in Kolkata, where it holds the status of a cultural staple and is often regarded as a symbol of the city's vibrant street food scene.
+- (origin) Jhalmuri comes from India.
+
+More fun facts (when the user asks for more):
+
+- (about) Jhalmuri became popular in London when a British chef named Angus Denoon tried this snack in Kolkata and started selling it on the streets of London.
+- (about) The popularity of Jhalmuri has also reached other western cities like New York City through the Bengali diaspora.
+- (about) Ghoti Gorom is another similar street snack food famous in West Bengal, Bangladesh and North East India.
+- (culture) Ghoti gorom is very similar to such street foods like Jhal muri, bhel or dhal muri, similar in taste but does not have puffed rice or murmura.
+
+Learn more:
+
+- quick: [Jhalmuri (Wikipedia)](https://en.wikipedia.org/wiki/Jhalmuri)
+- more: [List of Bangladeshi dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Bangladeshi_dishes)
+- deep: [Books about Jhalmuri (Open Library)](https://openlibrary.org/search?q=Jhalmuri)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q24950882)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q24950882) (CC0); [Wikipedia: Jhalmuri](https://en.wikipedia.org/wiki/Jhalmuri) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Jolpan
 
@@ -3370,6 +3487,28 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q14645043)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q14645043) (CC0); [Wikipedia: Kansar](https://en.wikipedia.org/wiki/Kansar) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Keema matar
+
+Keema matar, also rendered qeema matar, is a dish from the Indian subcontinent associated with the Mughals.
+
+- From: India
+- Origin (Wikidata): India, Pakistan
+- Ingredients (Wikidata): Pisum sativum, shortening, minced meat
+
+Fun facts:
+
+- (about) "Keema matar" was popularly eaten in the courts of Mughal India.
+- (origin) Keema matar comes from India, Pakistan.
+
+Learn more:
+
+- quick: [Keema matar (Wikipedia)](https://en.wikipedia.org/wiki/Keema_matar)
+- more: [List of Nepalese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Nepalese_dishes)
+- deep: [Books about Keema matar (Open Library)](https://openlibrary.org/search?q=Keema%20matar)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28408000)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q28408000) (CC0); [Wikipedia: Keema matar](https://en.wikipedia.org/wiki/Keema_matar) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Kesari bat
 
@@ -3469,6 +3608,27 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2730578) (CC0); [Wikipedia: Khichu](https://en.wikipedia.org/wiki/Khichu) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Khoa
+
+Khoa, khoya, khowa or mawa is a soft cheese widely used in South Asian cuisine, encompassing India, Nepal, and Pakistan.
+
+- From: India
+- Origin (Wikidata): India
+- Ingredients (Wikidata): cow's milk, milk
+
+Fun facts:
+
+- (origin) Khoa comes from India.
+
+Learn more:
+
+- quick: [Khoa (Wikipedia)](https://en.wikipedia.org/wiki/Khoa)
+- more: [List of Nepalese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Nepalese_dishes)
+- deep: [Books about Khoa (Open Library)](https://openlibrary.org/search?q=Khoa)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q9017517)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q9017517) (CC0); [Wikipedia: Khoa](https://en.wikipedia.org/wiki/Khoa) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Khoya paneer
 
 Khoya paneer is a popular North Indian dish made with paneer (Indian cottage cheese), khoya (thickened milk), onion, garlic, ginger, tomato and Indian spices.
@@ -3560,6 +3720,7 @@ Learn more:
 
 - quick: [Kuzhambu (Wikipedia)](https://en.wikipedia.org/wiki/Kuzhambu)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Cuisine of Martinique (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Martinique)
 - deep: [Books about Kuzhambu (Open Library)](https://openlibrary.org/search?q=Kuzhambu)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6449204)
 
@@ -3796,6 +3957,7 @@ Learn more:
 
 - quick: [Momo (food) (Wikipedia)](https://en.wikipedia.org/wiki/Momo_%28food%29)
 - more: [List of Indian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Indian_dishes)
+- more: [Nepalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nepalese_cuisine)
 - deep: [Books about Momo (food) (Open Library)](https://openlibrary.org/search?q=Momo%20%28food%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q134092)
 
@@ -4050,6 +4212,37 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q13121898) (CC0); [Wikipedia: Sabudana khichri](https://en.wikipedia.org/wiki/Sabudana_khichri) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Sattu
+
+Sattu or Satui is a type of flour, mainly used in Nepal, India and Tibet.
+
+- From: India
+- Origin (Wikidata): India
+- Ingredients (Wikidata): cereal, cereal legume
+
+Fun facts:
+
+- (history) The process of preparing sattu is ancient and it is popular over a wide area of Nepal, Northern and Eastern India, particularly Bihar, eastern Uttar Pradesh, Uttarakhand, Jharkhand and West Bengal.
+- (about) In the Bhojpuri region, sattu is widely regarded as a distinctive and highly popular food.
+- (culture) Sattu has traditionally been an integral part of rural Bhojpuri life, and is closely associated with everyday food practices as well as seasonal and religious traditions.
+
+More fun facts (when the user asks for more):
+
+- (culture) In Bhojpuri culture, sattu is particularly associated with the observance of Satuaan, held in the month of Chait (March–April), when sattu is traditionally consumed and served with chutney made from unripe mangoes.
+- (culture) In the Panchkosi Mela of Buxar, sattu and sattu-filled littis are traditionally offered as prasad to Lord Rama.
+- (culture) In the Lota-Bhanta Mela of Banaras, sattu-filled littis are traditionally prepared and offered to Lord Shiva.
+- (origin) Sattu comes from India.
+
+Learn more:
+
+- quick: [Sattu (Wikipedia)](https://en.wikipedia.org/wiki/Sattu)
+- more: [Guyanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guyanese_cuisine)
+- more: [Cuisine of Guyana (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Guyana)
+- deep: [Books about Sattu (Open Library)](https://openlibrary.org/search?q=Sattu)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12455301)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q12455301) (CC0); [Wikipedia: Sattu](https://en.wikipedia.org/wiki/Sattu) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Semolina
 
 Semolina is a coarse flour traditionally made from durum wheat.
@@ -4071,6 +4264,37 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q381350)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q381350) (CC0); [Wikipedia: Semolina](https://en.wikipedia.org/wiki/Semolina) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Sev puri
+
+Sev puri (also known as lala puri) is an Indian snack and a type of chaat, resembling panipuri.
+
+- From: India
+- Origin (Wikidata): India
+- Ingredients (Wikidata): puri, sev
+
+Fun facts:
+
+- (origin) Sev puri originated in either Pune or Mumbai.
+- (about) According to food writer Kunal Vijaykar, sev puri was invented in Mumbai by North Indian migrants, as a form of North Indian chaat, and its ingredients are rooted in the farsan snacks of Gujarati cuisine.
+- (inspiration) It may have been invented by Gujarati migrants in the city.
+
+More fun facts (when the user asks for more):
+
+- (origin) According to Vinay MR Mishra of the Hindustan Times, sev puri and dahi puri both originated in the city of Pune.
+- (culture) Sev puri and dahi puri are popular street foods across India; dahi puri is available in every major city.
+- (culture) Sev puri and dahi puri are popular in the street food of Mumbai, available across the city.
+- (about) Sev puri is famously sold by street vendors at the city's Juhu Beach.
+- (origin) Sev puri comes from India.
+
+Learn more:
+
+- quick: [Sev puri (Wikipedia)](https://en.wikipedia.org/wiki/Sev_puri)
+- more: [List of Bangladeshi dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Bangladeshi_dishes)
+- deep: [Books about Sev puri (Open Library)](https://openlibrary.org/search?q=Sev%20puri)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7458108)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7458108) (CC0); [Wikipedia: Sev puri](https://en.wikipedia.org/wiki/Sev_puri) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Sevai
 

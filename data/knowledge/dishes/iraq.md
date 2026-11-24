@@ -104,6 +104,7 @@ Learn more:
 
 - quick: [Laffa (Wikipedia)](https://en.wikipedia.org/wiki/Laffa)
 - more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
 - deep: [Books about Laffa (Open Library)](https://openlibrary.org/search?q=Laffa)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q85775540)
 
@@ -162,6 +163,7 @@ Learn more:
 
 - quick: [Mutabbaq samak (Wikipedia)](https://en.wikipedia.org/wiki/Mutabbaq_samak)
 - more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
+- more: [Kuwaiti cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Kuwaiti_cuisine)
 - deep: [Books about Mutabbaq samak (Open Library)](https://openlibrary.org/search?q=Mutabbaq%20samak)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q20423491)
 
@@ -289,6 +291,7 @@ Learn more:
 
 - quick: [Amba (condiment) (Wikipedia)](https://en.wikipedia.org/wiki/Amba_%28condiment%29)
 - more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
+- more: [List of Israeli dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Israeli_dishes)
 - deep: [Books about Amba (condiment) (Open Library)](https://openlibrary.org/search?q=Amba%20%28condiment%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2557649)
 
@@ -400,6 +403,7 @@ Learn more:
 
 - quick: [Leben (milk product) (Wikipedia)](https://en.wikipedia.org/wiki/Leben_%28milk_product%29)
 - more: [Iraqi cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Iraqi_cuisine)
+- more: [Omani cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Omani_cuisine)
 - deep: [Books about Leben (milk product) (Open Library)](https://openlibrary.org/search?q=Leben%20%28milk%20product%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16654630)
 
@@ -459,6 +463,42 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2474403)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2474403) (CC0); [Wikipedia: Maqluba](https://en.wikipedia.org/wiki/Maqluba) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Sabich
+
+Sabich or sabih is a sandwich of pita or laffa bread stuffed with fried eggplant, hard-boiled eggs, chopped salad, parsley, amba and tahini sauce.
+
+- From: Iraq
+- Origin (Wikidata): Iraq
+- Ingredients (Wikidata): parsley, pita, tehina, amba, Israeli salad, hard-boiled egg, egg
+
+Fun facts:
+
+- (history) The sandwich's name is commonly attributed to its creator, Sabich Tzvi Halabi, who was born in Baghdad in 1938 and immigrated to Israel in the early 1950s.
+- (culture) Sabich was created in Israel by Sabich Tzvi Halabi, an Iraqi Jewish immigrant, in the early 1960s, who put the ingredients, which were traditionally served separately, into a single pita.
+- (inspiration) Sabich is a staple of Israeli cuisine and is based on a traditional Iraqi Jewish breakfast.
+
+More fun facts (when the user asks for more):
+
+- (history) In 1961, Sabich Halabi and his wife Rina opened a kiosk on Uziel Street in Ramat Gan, and initially sold soft drinks, snacks, candy, and cigarettes to passerby.
+- (history) In the 1960s, after Rina had to stop working at the stand due to personal crises, Sabich Halabi recruited his friend Yaakov Sasson to run the stand with him and the two became business partners.
+- (inspiration) Sabich Halabi then created a sandwich based on the traditional Iraqi Jewish Shabbat meals of his childhood.
+- (origin) Sabich comes from Iraq.
+- (inspiration) Popular folk legend attributes the name סביח to an acronym of the Hebrew words "Salat, Beitsa, yoter Ḥatsil" סלט ביצה יותר חציל, meaning "salad, egg, more eggplant".
+- (history) Eggplant is a year-round crop in Israel, and eggs were available during the period of austerity in Israel, so both ingredients had long been in common use in the early 1960s.
+- (culture) Traditionally the meal is served as separate components on a plate and was referred to as "lafa with egg and eggplant".
+- (about) Word about the bus drivers' new meal spread, and the stand soon became popular with the general public.
+- (culture) In Israel, the sandwich became a popular street food.
+
+Learn more:
+
+- quick: [Sabich (Wikipedia)](https://en.wikipedia.org/wiki/Sabich)
+- more: [List of Israeli dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Israeli_dishes)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
+- deep: [Books about Sabich (Open Library)](https://openlibrary.org/search?q=Sabich)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2910847)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q2910847) (CC0); [Wikipedia: Sabich](https://en.wikipedia.org/wiki/Sabich) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Tepsi baytinijan
 

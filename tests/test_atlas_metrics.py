@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts" / "knowledge"))
+import country_scores as cs
 import enrichment_impact as ei
 import region_pages as rp
 
@@ -41,3 +42,15 @@ def test_the_dashboard_has_the_four_kpis_and_no_emoji() -> None:
 def test_the_readme_dashboard_sits_between_its_markers() -> None:
     text = (ROOT / "README.md").read_text(encoding="utf-8")
     assert text.index(ei.START) < text.index("## Atlas progress") < text.index(ei.END)
+
+
+def test_one_dish_is_covered_but_not_represented() -> None:
+    one = [{"qid": "Q1"}]
+    s = cs.scores(one, set(), {}, {}, has_regions=False)
+    assert s["representation"] < cs.WEAK_BELOW and s["enrichment"] == 0.0
+    rich = [{"qid": f"Q{i}", "story_candidates": ["x"], "origin": ["Ghana"], "region": "Ashanti"} for i in range(3)]
+    walter = {f"Q{i}": {"lines": ["a", "b"], "variants": ["v"]} for i in range(3)}
+    paths = {f"Q{i}": {"next": [{"qid": "Q9"}]} for i in range(3)}
+    s = cs.scores(rich, {"Q0", "Q1", "Q2"}, walter, paths, has_regions=True)
+    assert s["representation"] == 100.0 and s["enrichment"] == 100.0
+    assert cs.scores([], set(), {}, {}, has_regions=True)["representation"] == 0.0

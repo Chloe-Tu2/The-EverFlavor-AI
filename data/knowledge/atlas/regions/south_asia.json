@@ -5,18 +5,27 @@
  "countries": [
   "Afghanistan",
   "Bangladesh",
+  "Bhutan",
   "India",
+  "Maldives",
   "Nepal",
-  "Pakistan"
+  "Pakistan",
+  "Sri Lanka"
  ],
  "countries_with_a_dish": [
+  "Afghanistan",
+  "Bangladesh",
+  "Bhutan",
   "India",
-  "Pakistan"
+  "Maldives",
+  "Nepal",
+  "Pakistan",
+  "Sri Lanka"
  ],
- "coverage_score": 36.0,
- "dish_count": 110,
- "food_and_drink_count": 71,
- "story_count": 95,
+ "coverage_score": 88.5,
+ "dish_count": 158,
+ "food_and_drink_count": 123,
+ "story_count": 123,
  "representative_dishes": [
   "Paratha",
   "Barfi",
@@ -30,12 +39,12 @@
  "dish_families": [
   "Indian curry",
   "flatbread",
-  "chicken dish",
   "rice dish",
+  "chicken dish",
   "rice",
-  "potato dish",
-  "bread",
-  "confectionery"
+  "tuna dish",
+  "soup",
+  "bread"
  ],
  "indigenous_traditions": [],
  "related_regions": [

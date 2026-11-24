@@ -36,8 +36,8 @@ Fun facts:
 Learn more:
 
 - quick: [Bichak (Wikipedia)](https://en.wikipedia.org/wiki/Bichak)
-- more: [List of Middle Eastern dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Middle_Eastern_dishes)
-- more: [List of African dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_African_dishes)
+- more: [Afghan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Afghan_cuisine)
+- more: [Cuisine of Afghanistan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Afghanistan)
 - deep: [Books about Bichak (Open Library)](https://openlibrary.org/search?q=Bichak)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17001456)
 

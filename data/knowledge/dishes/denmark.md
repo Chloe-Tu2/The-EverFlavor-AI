@@ -186,6 +186,7 @@ Learn more:
 
 - quick: [Layer cake (Wikipedia)](https://en.wikipedia.org/wiki/Layer_cake)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- more: [Icelandic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Icelandic_cuisine)
 - deep: [Books about Layer cake (Open Library)](https://openlibrary.org/search?q=Layer%20cake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3356613)
 
@@ -565,6 +566,7 @@ Learn more:
 
 - quick: [Carbonated water (Wikipedia)](https://en.wikipedia.org/wiki/Carbonated_water)
 - more: [Danish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Danish_cuisine)
+- more: [Georgian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Georgian_cuisine)
 - deep: [Books about Carbonated water (Open Library)](https://openlibrary.org/search?q=Carbonated%20water)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q264554)
 

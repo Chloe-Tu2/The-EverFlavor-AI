@@ -12,21 +12,34 @@
   "Yemen"
  ],
  "countries_with_a_dish": [
-  "Saudi Arabia"
+  "Bahrain",
+  "Saudi Arabia",
+  "United Arab Emirates",
+  "Yemen"
  ],
- "coverage_score": 11.6,
- "dish_count": 2,
- "food_and_drink_count": 5,
- "story_count": 2,
+ "coverage_score": 43.7,
+ "dish_count": 10,
+ "food_and_drink_count": 13,
+ "story_count": 6,
  "representative_dishes": [
+  "Kubaneh",
+  "Dubai chocolate",
   "Kleicha",
-  "Tharid"
+  "Jachnun",
+  "Tharid",
+  "Haneeth",
+  "Muhammar",
+  "Fahsa"
  ],
  "dish_families": [
+  "lamb dish",
+  "bread",
+  "tea",
   "leaf vegetable",
   "confectionery",
   "stew",
-  "flour"
+  "flour",
+  "chocolate"
  ],
  "indigenous_traditions": [],
  "related_regions": [

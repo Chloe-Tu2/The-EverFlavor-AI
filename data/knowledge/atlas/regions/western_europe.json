@@ -5,28 +5,30 @@
  "countries": [
   "Belgium",
   "France",
+  "Luxembourg",
   "Netherlands",
   "Switzerland"
  ],
  "countries_with_a_dish": [
   "Belgium",
   "France",
+  "Luxembourg",
   "Netherlands",
   "Switzerland"
  ],
- "coverage_score": 86.7,
- "dish_count": 170,
- "food_and_drink_count": 76,
- "story_count": 140,
+ "coverage_score": 89.4,
+ "dish_count": 176,
+ "food_and_drink_count": 81,
+ "story_count": 145,
  "representative_dishes": [
   "Croissant",
   "Waffle",
   "Schnitzel",
   "Mille-feuille",
   "Brioche",
+  "Escalope",
   "French onion soup",
-  "Macaroon",
-  "Madeleine (cake)"
+  "Macaroon"
  ],
  "dish_families": [
   "potato dish",
@@ -34,9 +36,9 @@
   "pastry",
   "sauce",
   "stew",
+  "cow's-milk cheese",
   "French cheese",
-  "fish dish",
-  "cow's-milk cheese"
+  "soup"
  ],
  "indigenous_traditions": [],
  "related_regions": [

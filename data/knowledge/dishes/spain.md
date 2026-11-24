@@ -120,6 +120,34 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q8255731) (CC0); [Wikipedia: Callos a la Madrileña](https://en.wikipedia.org/wiki/Callos_a_la_Madrileña) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Candied almonds
+
+Candied almonds or Praline are nuts (usually almonds) of French origin, that have been cooked in a special way, so they end up coated in browned, crunchy sugar.
+
+- From: Spain
+- Origin (Wikidata): Spain
+- Ingredients (Wikidata): sugar, almond
+
+Fun facts:
+
+- (history) Candied almonds are said to have been invented in the 17th century by Clément Jaluzot, the head chef of Marshal du Plessis-Praslin (hence the name praline in French).
+- (inspiration) There are different stories about the origin of this confection but it is believed to be named after Marshal du Plessis, Duke of Choiseul-Praslin.
+- (origin) Candied almonds comes from Spain.
+
+More fun facts (when the user asks for more):
+
+- (about) Clement Lassagne is another chef named as a possible creator.
+
+Learn more:
+
+- quick: [Candied almonds (Wikipedia)](https://en.wikipedia.org/wiki/Candied_almonds)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
+- more: [Cuisine of Uruguay (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Uruguay)
+- deep: [Books about Candied almonds (Open Library)](https://openlibrary.org/search?q=Candied%20almonds)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1187678)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1187678) (CC0); [Wikipedia: Candied almonds](https://en.wikipedia.org/wiki/Candied_almonds) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Caparrones
 
 Caparrones is a Spanish stew made of caparrón, a variety of red kidney bean, and a spicy sausage chorizo, both of which are local specialties of the Spanish La Rioja region.
@@ -181,6 +209,7 @@ Learn more:
 
 - quick: [Catànies (Wikipedia)](https://en.wikipedia.org/wiki/Cat%C3%A0nies)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Catànies (Open Library)](https://openlibrary.org/search?q=Cat%C3%A0nies)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q743714)
 
@@ -257,6 +286,7 @@ Learn more:
 
 - quick: [Crema catalana (Wikipedia)](https://en.wikipedia.org/wiki/Crema_catalana)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Crema catalana (Open Library)](https://openlibrary.org/search?q=Crema%20catalana)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q842566)
 
@@ -305,6 +335,36 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3847532) (CC0); [Wikipedia: Cuchifritos](https://en.wikipedia.org/wiki/Cuchifritos) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Easter mona
+
+The Easter mona is a kind of cake that is specially eaten on Easter Sunday or Easter Monday in the Spanish regions of Catalonia, Valencia and Murcia.
+
+- From: Spain
+- Origin (Wikidata): Spain
+- Ingredients (Wikidata): egg as food, dough
+
+Fun facts:
+
+- (history) The first mention of a sweet mona date back to the 15th century incunable Trobes en lahors de la Verge Maria, and in 1783 the Royal Spanish Academy defined it as: "Valencia and Murcia.
+- (culture) Easter mona is related to similar traditional Easter traditions in Spain and Europe.
+- (origin) Easter mona comes from Spain.
+
+More fun facts (when the user asks for more):
+
+- (culture) Traditionally, the age of the children was reflected in the number of eggs in the mona, until they were 12 years old.
+- (culture) The tradition is also traced back to feasts that Roman shepherds celebrated with cakes or the Beltane, a Celtic festival that was celebrated in the month of May and where pastries with eggs were consumed.
+- (inspiration) Munichia: celebration dedicated to Artemis in ancient Greece.
+
+Learn more:
+
+- quick: [Easter mona (Wikipedia)](https://en.wikipedia.org/wiki/Easter_mona)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
+- more: [Cuisine of Andorra (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Andorra)
+- deep: [Books about Easter mona (Open Library)](https://openlibrary.org/search?q=Easter%20mona)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3034906)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3034906) (CC0); [Wikipedia: Easter mona](https://en.wikipedia.org/wiki/Easter_mona) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Escalivada
 
 Escalivada, also sometimes transcribed in French as 'escalibade' and in Spanish as escalibada, is a traditional dish from Roussillon, Catalonia, València, Murcia and Aragón of smoky grilled vegetables.
@@ -322,6 +382,7 @@ Learn more:
 
 - quick: [Escalivada (Wikipedia)](https://en.wikipedia.org/wiki/Escalivada)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Escalivada (Open Library)](https://openlibrary.org/search?q=Escalivada)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2697699)
 
@@ -344,6 +405,7 @@ Learn more:
 
 - quick: [Escudella (Wikipedia)](https://en.wikipedia.org/wiki/Escudella)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Escudella (Open Library)](https://openlibrary.org/search?q=Escudella)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3497851)
 
@@ -366,6 +428,7 @@ Learn more:
 
 - quick: [Esqueixada (Wikipedia)](https://en.wikipedia.org/wiki/Esqueixada)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Esqueixada (Open Library)](https://openlibrary.org/search?q=Esqueixada)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3044741)
 
@@ -517,6 +580,27 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1412378) (CC0); [Wikipedia: Gofio](https://en.wikipedia.org/wiki/Gofio) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Hornado
+
+Hornado is roast pig, cooked whole, in Ecuadorian cuisine.
+
+- From: Spain
+- Origin (Wikidata): Spain
+
+Fun facts:
+
+- (origin) Hornado comes from Spain.
+
+Learn more:
+
+- quick: [Hornado (Wikipedia)](https://en.wikipedia.org/wiki/Hornado)
+- more: [Ecuadorian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ecuadorian_cuisine)
+- more: [Cuisine of Ecuador (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Ecuador)
+- deep: [Books about Hornado (Open Library)](https://openlibrary.org/search?q=Hornado)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16886847)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q16886847) (CC0); [Wikipedia: Hornado](https://en.wikipedia.org/wiki/Hornado) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Hornazo
 
 Hornazo is a Spanish meat pie eaten in the provinces of Salamanca and Ávila.
@@ -649,6 +733,30 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q10753530) (CC0); [Wikipedia: Lechazo](https://en.wikipedia.org/wiki/Lechazo) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Neula
+
+Neula is a type of Catalan biscuit, eaten traditionally at Christmas with cava wine, which they are often dipped into, and torró nougat.
+
+- From: Spain
+- Origin (Wikidata): Spain
+- Ingredients (Wikidata): flour
+
+Fun facts:
+
+- (origin) Neula comes from Spain.
+- (about) Other popular versions include neules stuffed with torró de Xixona, or covered with a chocolate lay.
+- (culture) Traditionally eaten at Christmas, they are also eaten at other times, sometimes with crema catalana or ice cream.
+
+Learn more:
+
+- quick: [Neula (Wikipedia)](https://en.wikipedia.org/wiki/Neula)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
+- more: [Cuisine of Andorra (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Andorra)
+- deep: [Books about Neula (Open Library)](https://openlibrary.org/search?q=Neula)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3028666)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3028666) (CC0); [Wikipedia: Neula](https://en.wikipedia.org/wiki/Neula) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Olla podrida
 
 Olla podrida is a Spanish stew, usually made with chickpeas or beans, assorted meats like pork, beef, bacon, partridge, chicken, ham, and sausage, and vegetables such as carrots, leeks, cabbage, potatoes, and onions.
@@ -693,6 +801,7 @@ Learn more:
 
 - quick: [Ollada (Wikipedia)](https://en.wikipedia.org/wiki/Ollada)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Ollada (Open Library)](https://openlibrary.org/search?q=Ollada)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7088254)
 
@@ -724,6 +833,7 @@ Learn more:
 
 - quick: [Pa amb tomàquet (Wikipedia)](https://en.wikipedia.org/wiki/Pa_amb_tom%C3%A0quet)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Pa amb tomàquet (Open Library)](https://openlibrary.org/search?q=Pa%20amb%20tom%C3%A0quet)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1411695)
 
@@ -835,6 +945,35 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1452513) (CC0); [Wikipedia: Pincho](https://en.wikipedia.org/wiki/Pincho) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Pionono
+
+Pionono, sometimes spelled pianono in the Philippines, describes different sweet or savory baked goods from Granada, Spain, the Philippines, South America, and the Caribbean.
+
+- From: Spain
+- Origin (Wikidata): Spain, Latin America
+- Named after: Pius IX
+
+Fun facts:
+
+- (origin) Piononos originated in Spain with the pastry chef Ceferino Isla, that in 1897, created a pastry shop in Santa Fe, in Granada with the name of Casa Ysla.
+- (history) In 1916, Pedro Galatino gave a taste of the pastry to the king Alfonso XIII, who, reportedly, liked it so much he gave Casa Ysla the title of official suppliers of the Casa Real.
+- (inspiration) Pionono is named after Pius IX.
+
+More fun facts (when the user asks for more):
+
+- (origin) Pionono comes from Spain, Latin America.
+- (inspiration) They are named after Pope Pius IX's name in Italian, Pío Nono.
+
+Learn more:
+
+- quick: [Pionono (Wikipedia)](https://en.wikipedia.org/wiki/Pionono)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
+- more: [Cuisine of Uruguay (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Uruguay)
+- deep: [Books about Pionono (Open Library)](https://openlibrary.org/search?q=Pionono)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7196890)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7196890) (CC0); [Wikipedia: Pionono](https://en.wikipedia.org/wiki/Pionono) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Pisto
 
 Pisto (also known as pisto manchego) is a Spanish dish originally from the Region of Murcia, Castilla–La Mancha and Extremadura.
@@ -874,6 +1013,7 @@ Learn more:
 
 - quick: [Romesco (Wikipedia)](https://en.wikipedia.org/wiki/Romesco)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Romesco (Open Library)](https://openlibrary.org/search?q=Romesco)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q586770)
 
@@ -1146,10 +1286,40 @@ Learn more:
 
 - quick: [Xató (Wikipedia)](https://en.wikipedia.org/wiki/Xat%C3%B3)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Xató (Open Library)](https://openlibrary.org/search?q=Xat%C3%B3)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3570585)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3570585) (CC0); [Wikipedia: Xató](https://en.wikipedia.org/wiki/Xató) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Xuixo
+
+Xuixo is a viennoiserie from the city of Girona in Catalonia, Spain.
+
+- From: Spain
+- Origin (Wikidata): Spain
+- Ingredients (Wikidata): pastry cream
+
+Fun facts:
+
+- (inspiration) According to a legend in Girona, the invention of the Xuixo has to be credited to el Tarlà, a very sympathetic person that is very present in the legends of this area.
+- (origin) Xuixo is assumed that this viennoiserie originated in 1920s Girona in a shop owned by Emili Puig in the Street Cort Reial.
+- (about) This viennoiserie is very popular not only in Girona but has been also accepted in the surrounding areas and can also be found in Tarragona, Castellón de la Plana and Valencia.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) A French pâtisserie showed Puig the preparation of cream-filled viennoiserie and this inspired him to create the Xuixo.
+- (origin) Xuixo comes from Spain.
+
+Learn more:
+
+- quick: [Xuixo (Wikipedia)](https://en.wikipedia.org/wiki/Xuixo)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
+- more: [Cuisine of Andorra (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Andorra)
+- deep: [Books about Xuixo (Open Library)](https://openlibrary.org/search?q=Xuixo)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3027539)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3027539) (CC0); [Wikipedia: Xuixo](https://en.wikipedia.org/wiki/Xuixo) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Zarangollo
 
@@ -1258,6 +1428,7 @@ Learn more:
 
 - quick: [Botifarra (Wikipedia)](https://en.wikipedia.org/wiki/Botifarra)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Paraguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Paraguayan_cuisine)
 - deep: [Books about Botifarra (Open Library)](https://openlibrary.org/search?q=Botifarra)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7046)
 
@@ -1372,6 +1543,7 @@ Learn more:
 
 - quick: [Calçot (Wikipedia)](https://en.wikipedia.org/wiki/Cal%C3%A7ot)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Calçot (Open Library)](https://openlibrary.org/search?q=Cal%C3%A7ot)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2934610)
 
@@ -1430,6 +1602,7 @@ Learn more:
 
 - quick: [Coca (pastry) (Wikipedia)](https://en.wikipedia.org/wiki/Coca_%28pastry%29)
 - more: [List of Spanish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Spanish_dishes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
 - deep: [Books about Coca (pastry) (Open Library)](https://openlibrary.org/search?q=Coca%20%28pastry%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1104947)
 
@@ -1455,6 +1628,7 @@ Learn more:
 
 - quick: [Convenience food (Wikipedia)](https://en.wikipedia.org/wiki/Convenience_food)
 - more: [Spanish cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Spanish_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Convenience food (Open Library)](https://openlibrary.org/search?q=Convenience%20food)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13030962)
 
@@ -1719,6 +1893,30 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3117456) (CC0); [Wikipedia: Mató](https://en.wikipedia.org/wiki/Mató) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Mató de Pedralbes
+
+Mató de Pedralbes or mató de monja, is a typical dessert from Barcelona (in Catalonia, Spain) made with flavoured and sweetened milk.
+
+- From: Spain
+- Origin (Wikidata): Spain
+- Ingredients (Wikidata): egg as food
+
+Fun facts:
+
+- (about) Mató de Pedralbes is believed to have been created in the nineteenth century, by nuns of the convent in Barcelona's prestigious Pedralbes neighbourhood.
+- (origin) Mató de Pedralbes comes from Spain.
+- (about) Mató de Pedralbes was intended as a richer, finer alternative to the older and popular crema catalana.
+
+Learn more:
+
+- quick: [Mató de Pedralbes (Wikipedia)](https://en.wikipedia.org/wiki/Mat%C3%B3_de_Pedralbes)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
+- more: [Cuisine of Andorra (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Andorra)
+- deep: [Books about Mató de Pedralbes (Open Library)](https://openlibrary.org/search?q=Mat%C3%B3%20de%20Pedralbes)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3300072)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3300072) (CC0); [Wikipedia: Mató de Pedralbes](https://en.wikipedia.org/wiki/Mató_de_Pedralbes) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Milk coffee
 
 Milk coffee is a category of coffee-based drinks made with milk.
@@ -1828,6 +2026,28 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1784398)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1784398) (CC0); [Wikipedia: Palm syrup](https://en.wikipedia.org/wiki/Palm_syrup) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Pastisset
+
+Pastissets, also called casquetes, pastelicos, dulces de alma or flaons are stuffed fried pastries from Catalan cuisine, Valencian cuisine and Aragonese cuisine.
+
+- From: Spain
+- Origin (Wikidata): Spain
+- Ingredients (Wikidata): olive oil
+
+Fun facts:
+
+- (origin) Pastisset comes from Spain.
+
+Learn more:
+
+- quick: [Pastisset (Wikipedia)](https://en.wikipedia.org/wiki/Pastisset)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
+- more: [Cuisine of Andorra (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Andorra)
+- deep: [Books about Pastisset (Open Library)](https://openlibrary.org/search?q=Pastisset)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4891157)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4891157) (CC0); [Wikipedia: Pastisset](https://en.wikipedia.org/wiki/Pastisset) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Patxaran
 
@@ -1940,6 +2160,29 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q240728)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q240728) (CC0); [Wikipedia: Ratafia](https://en.wikipedia.org/wiki/Ratafia) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Samfaina
+
+Samfaina is a Catalan-Valencian dish based on diced eggplant and zucchini, a sofrito of chopped garlic and onion and grated tomato, cooked in olive oil.
+
+- From: Spain
+- Origin (Wikidata): Spain
+- Ingredients (Wikidata): Allium sativum, onion, olive oil, Cucurbita pepo, tomato
+
+Fun facts:
+
+- (origin) According to the Enciclopèdia Catalana the written word samfaina was encountered for the first time in 1890, and comes from the earlier samfònia which, in turn, comes from the Latin symphōnĭia (symphony).
+- (origin) Samfaina comes from Spain.
+
+Learn more:
+
+- quick: [Samfaina (Wikipedia)](https://en.wikipedia.org/wiki/Samfaina)
+- more: [Andorran cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Andorran_cuisine)
+- more: [Cuisine of Andorra (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Andorra)
+- deep: [Books about Samfaina (Open Library)](https://openlibrary.org/search?q=Samfaina)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4892759)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4892759) (CC0); [Wikipedia: Samfaina](https://en.wikipedia.org/wiki/Samfaina) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Sangria
 

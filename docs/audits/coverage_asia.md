@@ -18,59 +18,56 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| China | high | 179 | 69 | 54 | 107 | 5,878 | 99 | 64% |
-| Japan | medium | 108 | 47 | 55 | 94 | 2,232 | 139 | 44% |
+| China | high | 181 | 70 | 54 | 108 | 5,878 | 99 | 65% |
+| Japan | medium | 109 | 48 | 55 | 96 | 2,232 | 138 | 44% |
 | South Korea | high | 79 | 14 | 27 | 65 | 605 | 9 | 90% |
-| Taiwan | recipes only | 0 | 0 | 0 | 0 | 5 | 11 | 0% |
+| Taiwan | medium | 25 | 2 | 7 | 7 | 5 | 8 | 76% |
+| Mongolia | low | 5 | 1 | 2 | 2 | 0 | 1 | 83% |
+| North Korea | low | 3 | 0 | 2 | 2 | 0 | 1 | 75% |
 
 ## South Asia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| India | high | 103 | 68 | 31 | 67 | 7,312 | 64 | 62% |
+| India | high | 105 | 69 | 32 | 69 | 7,312 | 64 | 62% |
+| Nepal | low | 14 | 1 | 4 | 4 | 33 | 1 | 93% |
+| Bangladesh | low | 12 | 0 | 5 | 5 | 3 | 1 | 92% |
+| Maldives | low | 9 | 0 | 3 | 3 | 0 | 0 | 100% |
 | Pakistan | low | 7 | 5 | 4 | 5 | 82 | 5 | 58% |
-| Nepal | recipes only | 0 | 0 | 0 | 0 | 33 | 2 | 0% |
-| Afghanistan | recipes only | 0 | 0 | 0 | 0 | 7 | 5 | 0% |
-| Bangladesh | recipes only | 0 | 0 | 0 | 0 | 3 | 3 | 0% |
+| Afghanistan | low | 7 | 1 | 5 | 5 | 7 | 1 | 88% |
+| Sri Lanka | low | 3 | 0 | 1 | 1 | 0 | 5 | 38% |
+| Bhutan | low | 1 | 1 | 0 | 0 | 0 | 1 | 50% |
 
 ## Southeast Asia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Indonesia | high | 248 | 40 | 61 | 169 | 218 | 24 | 91% |
+| Indonesia | high | 249 | 41 | 61 | 170 | 218 | 25 | 91% |
 | Philippines | high | 87 | 37 | 28 | 49 | 255 | 30 | 74% |
-| Thailand | high | 77 | 27 | 25 | 45 | 2,428 | 7 | 92% |
+| Thailand | high | 77 | 27 | 25 | 45 | 2,428 | 6 | 93% |
 | Vietnam | high | 72 | 16 | 26 | 54 | 500 | 6 | 92% |
-| Malaysia | medium | 38 | 3 | 19 | 23 | 79 | 3 | 93% |
+| Malaysia | medium | 39 | 3 | 19 | 23 | 79 | 2 | 95% |
+| Myanmar | medium | 19 | 0 | 9 | 12 | 0 | 2 | 90% |
+| Singapore | low | 11 | 2 | 4 | 4 | 0 | 1 | 92% |
+| Laos | low | 5 | 0 | 3 | 4 | 18 | 1 | 83% |
 | Cambodia | low | 1 | 0 | 1 | 1 | 53 | 7 | 12% |
-| Laos | recipes only | 0 | 0 | 0 | 0 | 18 | 3 | 0% |
-
-## Not in the place tree yet
-
-| Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Bhutan | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
-| Maldives | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
-| Mongolia | absent | 0 | 0 | 0 | 0 | 0 | 4 | 0% |
-| Myanmar | absent | 0 | 0 | 0 | 0 | 0 | 9 | 0% |
-| North Korea | absent | 0 | 0 | 0 | 0 | 0 | 2 | 0% |
-| Singapore | absent | 0 | 0 | 0 | 0 | 0 | 3 | 0% |
-| Sri Lanka | absent | 0 | 0 | 0 | 0 | 0 | 7 | 0% |
+| Brunei | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Timor-Leste | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Countries with the most to add
 
-- **Japan** (medium; 139 ready, 0 to review): katsuobushi, zundamochi, warabimochi, toriten, sōmen salad, sakuramochi, rui-be, rice burger.
+- **Japan** (medium; 138 ready, 0 to review): katsuobushi, zundamochi, warabimochi, toriten, sōmen salad, sakuramochi, rui-be, rice burger.
 - **China** (high; 98 ready, 1 to review): imitation shark's fin soup, pineapple bun, mixian, marry girl cake, doubanjiang, Japanese radish, white tea, white sugar sponge cake.
 - **India** (high; 64 ready, 0 to review): Paneer makhani, Malabar matthi curry, Madras curry, Idli podi, Gobhi paratha, vegetable sandwich, tomato omelette, santula.
 - **Philippines** (high; 30 ready, 0 to review): ube crinkles, tortang talong, puto seco, pastillas, mamón, ice buko, agre dulce, Utan.
-- **Indonesia** (high; 24 ready, 0 to review): lampet, Tarempa noodles, Ombus ombus, Meuseukat, Kue talam, Kelan Antep, Bakakak hayam, mie kuah.
-- **Taiwan** (recipes only; 11 ready, 0 to review): tube rice pudding, salty biscuit, egg yolk pastry, bubble tea, Wheel Pie, Taiwanese tea, Shuangbaotai, Mango shaved ice.
+- **Indonesia** (high; 25 ready, 0 to review): lampet, Tarempa noodles, Ombus ombus, Meuseukat, Kue talam, Kelan Antep, Bakakak hayam, mie kuah.
 - **South Korea** (high; 9 ready, 0 to review): kkulppang, yeolmu-kimchi, ramyeon, milmyeon, jugyeom, hodu-gwaja, chalbori-ppang, Ttongppang.
-- **Myanmar** (absent; 0 ready, 9 to review): Talabaw, Star Cola, Pathein halawa, Mont di, Mohinga, Meeshay, Burmese salad, Burmese milk tea.
-- **Thailand** (high; 7 ready, 0 to review): stir-fried ice cream, nam pla, Kleeb lamduan, Khanom bueang, Hmong sausage, Est Cola, Black Ivory coffee.
+- **Taiwan** (medium; 8 ready, 0 to review): Tshài-bué-thng, salty biscuit, egg yolk pastry, Taiwanese tea, Shuangbaotai, Mango shaved ice, Ji dan gao, Belly button pastry.
 - **Cambodia** (low; 7 ready, 0 to review): samlar kako, fish amok, Samlar machu, Num pang, Num ansom, Num akor, Kampot pepper.
-- **Sri Lanka** (absent; 0 ready, 7 to review): kiri hodi, Malu Mirisata, Diyabath, Chocolate Biscuit pudding, Ceylon tea, Ceylon, Bibikkan.
+- **Thailand** (high; 6 ready, 0 to review): stir-fried ice cream, nam pla, Kleeb lamduan, Khanom bueang, Est Cola, Black Ivory coffee.
 - **Vietnam** (high; 5 ready, 1 to review): bánh bó, stuffed bitter melon soup, húng lìu, Vietnamese noodles, Nàng Thơm Chợ Đào rice, Chè bà ba.
 - **Pakistan** (low; 5 ready, 0 to review): bun kebab, Sindhi biryani, Himalayan salt, Amrat Cola, Aloo gosht.
-- **Afghanistan** (recipes only; 5 ready, 0 to review): gosh-e fil, Bolani, Afghani burger, Afghan salad, Afghan bread.
-- **Mongolia** (absent; 0 ready, 4 to review): suutei tsai, sole-cake, bansh, Khuushuur.
+- **Sri Lanka** (low; 5 ready, 0 to review): Malu Mirisata, Diyabath, Chocolate Biscuit pudding, Ceylon tea, Ceylon.
+- **Malaysia** (medium; 2 ready, 0 to review): karas, bubur lambuk.
+- **Myanmar** (medium; 2 ready, 0 to review): Star Cola, Burmese milk tea.
+- **Kazakhstan** (low; 1 ready, 0 to review): Shalgam.

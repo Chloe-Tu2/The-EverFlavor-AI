@@ -12,7 +12,7 @@
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
  "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
- "count": 24,
+ "count": 23,
  "dishes": [
   {
    "dish": "Kenyan cheese",
@@ -250,7 +250,8 @@
    "country": "Uganda",
    "subregion": "Eastern Africa",
    "families": [
-    "condiment"
+    "condiment",
+    "butter"
    ],
    "sources": [
     {
@@ -337,24 +338,23 @@
    ]
   },
   {
-   "dish": "matzah",
-   "wikidata": "Q211361",
+   "dish": "torshi",
+   "wikidata": "Q12012266",
    "country": "Egypt",
    "subregion": "Northern Africa",
    "families": [
-    "flatbread",
-    "unleavened bread"
+    "pickle"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q211361",
+     "url": "https://www.wikidata.org/wiki/Q12012266",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Matzah",
+     "url": "https://en.wikipedia.org/wiki/Torshi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -471,29 +471,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Okoho",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "torshi",
-   "wikidata": "Q12012266",
-   "country": "Egypt",
-   "subregion": "Northern Africa",
-   "families": [
-    "pickle"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12012266",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Torshi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

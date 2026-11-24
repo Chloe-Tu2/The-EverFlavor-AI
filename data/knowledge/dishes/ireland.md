@@ -302,6 +302,7 @@ Learn more:
 
 - quick: [Fried bread (Wikipedia)](https://en.wikipedia.org/wiki/Fried_bread)
 - more: [List of Irish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Irish_dishes)
+- more: [Lithuanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lithuanian_cuisine)
 - deep: [Books about Fried bread (Open Library)](https://openlibrary.org/search?q=Fried%20bread)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1756289)
 
@@ -433,6 +434,7 @@ Learn more:
 
 - quick: [Patty (Wikipedia)](https://en.wikipedia.org/wiki/Patty)
 - more: [List of Irish dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Irish_dishes)
+- more: [Sri Lankan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sri_Lankan_cuisine)
 - deep: [Books about Patty (Open Library)](https://openlibrary.org/search?q=Patty)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3200265)
 
@@ -1163,3 +1165,26 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7917892)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q7917892) (CC0); [Wikipedia: Veda bread](https://en.wikipedia.org/wiki/Veda_bread) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Whisky
+
+Whisky or whiskey is a type of liquor made from fermented grain mash.
+
+- From: Ireland
+- Origin (Wikidata): Scotland, Ireland
+
+Fun facts:
+
+- (history) Early forms of the word in English included uskebeaghe (1581), usquebaugh (1610), usquebath (1621), and usquebae (1715).
+- (origin) Whisky comes from Scotland, Ireland.
+- (history) Since the 1960s, American writers have increasingly used whiskey as the accepted spelling for aged grain spirits made in the US and whisky for aged grain spirits made outside the US.
+
+Learn more:
+
+- quick: [Whisky (Wikipedia)](https://en.wikipedia.org/wiki/Whisky)
+- more: [Angolan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Angolan_cuisine)
+- more: [Cuisine of Angola (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Angola)
+- deep: [Books about Whisky (Open Library)](https://openlibrary.org/search?q=Whisky)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q281)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q281) (CC0); [Wikipedia: Whisky](https://en.wikipedia.org/wiki/Whisky) (CC BY-SA 4.0). Review: auto-cleaned.

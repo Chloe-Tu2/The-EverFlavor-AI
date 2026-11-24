@@ -121,6 +121,30 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1137679) (CC0); [Wikipedia: Baozi](https://en.wikipedia.org/wiki/Baozi) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Beef noodle soup
+
+Beef noodle soup is a noodle soup made of stewed or braised beef, beef broth, vegetables and noodles.
+
+- From: China
+- Origin (Wikidata): China
+- Ingredients (Wikidata): beef
+
+Fun facts:
+
+- (inspiration) One of the oldest beef noodle soups is the Lanzhou niuroumian, or Lanzhou beef noodle soup, which was created by the Hui people of northwest China during the Tang dynasty.
+- (origin) Beef noodle soup comes from China.
+- (inspiration) Another common variety is the red-braised beef noodle soup from Taiwan, which was first created by Sichuanese Kuomintang veterans; it is commonly known as Taiwanese beef noodle soup in English.
+
+Learn more:
+
+- quick: [Beef noodle soup (Wikipedia)](https://en.wikipedia.org/wiki/Beef_noodle_soup)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
+- more: [North Korean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/North_Korean_cuisine)
+- deep: [Books about Beef noodle soup (Open Library)](https://openlibrary.org/search?q=Beef%20noodle%20soup)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q697498)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q697498) (CC0); [Wikipedia: Beef noodle soup](https://en.wikipedia.org/wiki/Beef_noodle_soup) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Biangbiang noodles
 
 Biangbiang noodles, alternatively known as yóupō chěmiàn in Chinese, are a type of Chinese noodle originating from Shaanxi cuisine.
@@ -843,6 +867,34 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q404973) (CC0); [Wikipedia: Peking duck](https://en.wikipedia.org/wiki/Peking_duck) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Sanbeiji
+
+Sanbeiji is a popular chicken dish in Chinese cuisine and one of the most iconic dishes of Jiangxi cuisine.
+
+- From: China
+- Origin (Wikidata): People's Republic of China, China
+- Ingredients (Wikidata): sesame oil, soy sauce, chicken as food, rice wine
+
+Fun facts:
+
+- (origin) The dish originates from the Jiangxi province of southern China, and is a specialty of Ningdu where the population are Hakka.
+- (history) One version is that of Wen Tianxiang, a national hero and Jiangxi native during the Song dynasty.
+- (origin) Sanbeiji has become especially popular in Taiwan, being introduced to the island by the Hakka people.
+
+More fun facts (when the user asks for more):
+
+- (origin) Sanbeiji comes from the People's Republic of China, China.
+
+Learn more:
+
+- quick: [Sanbeiji (Wikipedia)](https://en.wikipedia.org/wiki/Sanbeiji)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
+- more: [Cuisine of Taiwan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Taiwan)
+- deep: [Books about Sanbeiji (Open Library)](https://openlibrary.org/search?q=Sanbeiji)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q708972)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q708972) (CC0); [Wikipedia: Sanbeiji](https://en.wikipedia.org/wiki/Sanbeiji) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Shacha noodles
 
 Shacha noodles, also known as sate or satay noodles, is a noodle dish popular in southern Fujian province.
@@ -1091,6 +1143,7 @@ Learn more:
 
 - quick: [Stinky tofu (Wikipedia)](https://en.wikipedia.org/wiki/Stinky_tofu)
 - more: [Anhui cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Anhui_cuisine)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
 - deep: [Books about Stinky tofu (Open Library)](https://openlibrary.org/search?q=Stinky%20tofu)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q701628)
 
@@ -1608,6 +1661,7 @@ Learn more:
 
 - quick: [Suncake (Taiwan) (Wikipedia)](https://en.wikipedia.org/wiki/Suncake_%28Taiwan%29)
 - more: [Beijing cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Beijing_cuisine)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
 - deep: [Books about Suncake (Taiwan) (Open Library)](https://openlibrary.org/search?q=Suncake%20%28Taiwan%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q718010)
 
@@ -1638,6 +1692,7 @@ Learn more:
 
 - quick: [Tanghulu (Wikipedia)](https://en.wikipedia.org/wiki/Tanghulu)
 - more: [Beijing cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Beijing_cuisine)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
 - deep: [Books about Tanghulu (Open Library)](https://openlibrary.org/search?q=Tanghulu)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2476688)
 
@@ -3194,6 +3249,7 @@ Learn more:
 
 - quick: [Instant noodles (Wikipedia)](https://en.wikipedia.org/wiki/Instant_noodles)
 - more: [Hong Kong cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hong_Kong_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Instant noodles (Open Library)](https://openlibrary.org/search?q=Instant%20noodles)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1051265)
 
@@ -3355,7 +3411,7 @@ Learn more:
 
 - quick: [Sandwich (Wikipedia)](https://en.wikipedia.org/wiki/Sandwich)
 - more: [Hong Kong cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hong_Kong_cuisine)
-- more: [English cuisine (Wikipedia)](https://en.wikipedia.org/wiki/English_cuisine)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Sandwich (Open Library)](https://openlibrary.org/search?q=Sandwich)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q28803)
 
@@ -4345,6 +4401,7 @@ Learn more:
 
 - quick: [Chwee kueh (Wikipedia)](https://en.wikipedia.org/wiki/Chwee_kueh)
 - more: [Teochew cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Teochew_cuisine)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Chwee kueh (Open Library)](https://openlibrary.org/search?q=Chwee%20kueh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q997361)
 
@@ -4370,6 +4427,7 @@ Learn more:
 
 - quick: [Kway chap (Wikipedia)](https://en.wikipedia.org/wiki/Kway_chap)
 - more: [Teochew cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Teochew_cuisine)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Kway chap (Open Library)](https://openlibrary.org/search?q=Kway%20chap)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13012696)
 
@@ -4421,6 +4479,7 @@ Learn more:
 
 - quick: [Pig's organ soup (Wikipedia)](https://en.wikipedia.org/wiki/Pig%27s_organ_soup)
 - more: [Teochew cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Teochew_cuisine)
+- more: [List of Singaporean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Singaporean_dishes)
 - deep: [Books about Pig's organ soup (Open Library)](https://openlibrary.org/search?q=Pig%27s%20organ%20soup)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7193190)
 
@@ -4799,6 +4858,7 @@ Learn more:
 
 - quick: [Kyay oh (Wikipedia)](https://en.wikipedia.org/wiki/Kyay_oh)
 - more: [Chinese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Chinese_cuisine)
+- more: [List of Burmese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Burmese_dishes)
 - deep: [Books about Kyay oh (Open Library)](https://openlibrary.org/search?q=Kyay%20oh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q16976506)
 
@@ -4939,6 +4999,7 @@ Learn more:
 
 - quick: [Five-spice powder (Wikipedia)](https://en.wikipedia.org/wiki/Five-spice_powder)
 - more: [Beijing cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Beijing_cuisine)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
 - deep: [Books about Five-spice powder (Open Library)](https://openlibrary.org/search?q=Five-spice%20powder)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1051492)
 
@@ -5203,6 +5264,7 @@ Learn more:
 
 - quick: [Gourd (Wikipedia)](https://en.wikipedia.org/wiki/Gourd)
 - more: [Cantonese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cantonese_cuisine)
+- more: [Guadeloupean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Guadeloupean_cuisine)
 - deep: [Books about Gourd (Open Library)](https://openlibrary.org/search?q=Gourd)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5339237)
 
@@ -5633,6 +5695,7 @@ Learn more:
 
 - quick: [Yi mein (Wikipedia)](https://en.wikipedia.org/wiki/Yi_mein)
 - more: [Cantonese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cantonese_cuisine)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
 - deep: [Books about Yi mein (Open Library)](https://openlibrary.org/search?q=Yi%20mein)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q8053485)
 
@@ -6048,6 +6111,7 @@ Learn more:
 
 - quick: [Horlicks (Wikipedia)](https://en.wikipedia.org/wiki/Horlicks)
 - more: [Hong Kong cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hong_Kong_cuisine)
+- more: [Singaporean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Singaporean_cuisine)
 - deep: [Books about Horlicks (Open Library)](https://openlibrary.org/search?q=Horlicks)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2719710)
 
@@ -6674,7 +6738,7 @@ Learn more:
 
 - quick: [Lotus seed (Wikipedia)](https://en.wikipedia.org/wiki/Lotus_seed)
 - more: [Hunan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hunan_cuisine)
-- more: [Hong Kong cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Hong_Kong_cuisine)
+- more: [Nepalese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Nepalese_cuisine)
 - deep: [Books about Lotus seed (Open Library)](https://openlibrary.org/search?q=Lotus%20seed)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7992569)
 

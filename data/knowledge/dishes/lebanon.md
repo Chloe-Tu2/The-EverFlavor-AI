@@ -101,6 +101,7 @@ Learn more:
 
 - quick: [Barazek (Wikipedia)](https://en.wikipedia.org/wiki/Barazek)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
+- more: [Syrian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Syrian_cuisine)
 - deep: [Books about Barazek (Open Library)](https://openlibrary.org/search?q=Barazek)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12197801)
 
@@ -130,6 +131,7 @@ Learn more:
 
 - quick: [Booza (Wikipedia)](https://en.wikipedia.org/wiki/Booza)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
+- more: [Syrian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Syrian_cuisine)
 - deep: [Books about Booza (Open Library)](https://openlibrary.org/search?q=Booza)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4944137)
 
@@ -286,6 +288,7 @@ Learn more:
 
 - quick: [Halawet el jibn (Wikipedia)](https://en.wikipedia.org/wiki/Halawet_el_jibn)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
+- more: [Syrian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Syrian_cuisine)
 - deep: [Books about Halawet el jibn (Open Library)](https://openlibrary.org/search?q=Halawet%20el%20jibn)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12208569)
 
@@ -721,6 +724,7 @@ Learn more:
 
 - quick: [Shakriyeh (Wikipedia)](https://en.wikipedia.org/wiki/Shakriyeh)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
+- more: [Syrian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Syrian_cuisine)
 - deep: [Books about Shakriyeh (Open Library)](https://openlibrary.org/search?q=Shakriyeh)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q12218191)
 
@@ -1024,6 +1028,7 @@ Learn more:
 
 - quick: [Halloumi (Wikipedia)](https://en.wikipedia.org/wiki/Halloumi)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
+- more: [Syrian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Syrian_cuisine)
 - deep: [Books about Halloumi (Open Library)](https://openlibrary.org/search?q=Halloumi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q549793)
 
@@ -1068,6 +1073,7 @@ Learn more:
 
 - quick: [Kashkaval (Wikipedia)](https://en.wikipedia.org/wiki/Kashkaval)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
+- more: [Bulgarian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Bulgarian_cuisine)
 - deep: [Books about Kashkaval (Open Library)](https://openlibrary.org/search?q=Kashkaval)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7220270)
 
@@ -1123,7 +1129,7 @@ Learn more:
 
 - quick: [Mate (drink) (Wikipedia)](https://en.wikipedia.org/wiki/Mate_%28drink%29)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
-- more: [Native American cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_American_cuisine)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Mate (drink) (Open Library)](https://openlibrary.org/search?q=Mate%20%28drink%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q203540)
 
@@ -1215,6 +1221,7 @@ Learn more:
 
 - quick: [Shanklish (Wikipedia)](https://en.wikipedia.org/wiki/Shanklish)
 - more: [Lebanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Lebanese_cuisine)
+- more: [Syrian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Syrian_cuisine)
 - deep: [Books about Shanklish (Open Library)](https://openlibrary.org/search?q=Shanklish)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2962662)
 

@@ -11,7 +11,7 @@
   },
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
- "not_placed": 1819,
+ "not_placed": 1794,
  "subregions": {
   "Australasia": [
    {
@@ -417,60 +417,6 @@
     ]
    },
    {
-    "dish": "Khuushuur",
-    "wikidata": "Q1090081",
-    "country": "Mongolia",
-    "status": "needs_review",
-    "problems": [
-     "Mongolia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "bansh",
-    "wikidata": "Q25632104",
-    "country": "Mongolia",
-    "status": "needs_review",
-    "problems": [
-     "Mongolia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "sole-cake",
-    "wikidata": "Q3099247",
-    "country": "Mongolia",
-    "status": "needs_review",
-    "problems": [
-     "Mongolia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "suutei tsai",
-    "wikidata": "Q3505826",
-    "country": "Mongolia",
-    "status": "needs_review",
-    "problems": [
-     "Mongolia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Pyongyang raengmyon",
-    "wikidata": "Q102182275",
-    "country": "North Korea",
-    "status": "needs_review",
-    "problems": [
-     "North Korea is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "pyeonsu",
-    "wikidata": "Q12507493",
-    "country": "North Korea",
-    "status": "needs_review",
-    "problems": [
-     "North Korea is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Balep korkun",
     "wikidata": "Q2494643",
     "country": "China",
@@ -688,6 +634,13 @@
     "problems": []
    },
    {
+    "dish": "Lanzhou beef noodle soup",
+    "wikidata": "Q6127173",
+    "country": "China",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Lapsang souchong",
     "wikidata": "Q634871",
     "country": "China",
@@ -865,13 +818,6 @@
    {
     "dish": "almond biscuit",
     "wikidata": "Q1196125",
-    "country": "China",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "beef noodle soup",
-    "wikidata": "Q697498",
     "country": "China",
     "status": "ready",
     "problems": []
@@ -1612,13 +1558,6 @@
     "problems": []
    },
    {
-    "dish": "daifuku",
-    "wikidata": "Q1067842",
-    "country": "Japan",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "dekopon",
     "wikidata": "Q496600",
     "country": "Japan",
@@ -2130,6 +2069,20 @@
     "problems": []
    },
    {
+    "dish": "sole-cake",
+    "wikidata": "Q3099247",
+    "country": "Mongolia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Pyongyang raengmyon",
+    "wikidata": "Q102182275",
+    "country": "North Korea",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Korean fried chicken",
     "wikidata": "Q626723",
     "country": "South Korea",
@@ -2193,13 +2146,6 @@
     "problems": []
    },
    {
-    "dish": "Ba-wan",
-    "wikidata": "Q713125",
-    "country": "Taiwan",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Belly button pastry",
     "wikidata": "Q17031594",
     "country": "Taiwan",
@@ -2235,15 +2181,8 @@
     "problems": []
    },
    {
-    "dish": "Wheel Pie",
-    "wikidata": "Q131735749",
-    "country": "Taiwan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "bubble tea",
-    "wikidata": "Q715858",
+    "dish": "Tshài-bué-thng",
+    "wikidata": "Q48916161",
     "country": "Taiwan",
     "status": "ready",
     "problems": []
@@ -2261,13 +2200,6 @@
     "country": "Taiwan",
     "status": "ready",
     "problems": []
-   },
-   {
-    "dish": "tube rice pudding",
-    "wikidata": "Q7215544",
-    "country": "Taiwan",
-    "status": "ready",
-    "problems": []
    }
   ],
   "Eastern Europe": [
@@ -2281,222 +2213,6 @@
     ]
    },
    {
-    "dish": "Alivenci",
-    "wikidata": "Q2837252",
-    "country": "Moldova",
-    "status": "needs_review",
-    "problems": [
-     "Moldova is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Brânză de vaci",
-    "wikidata": "Q108112946",
-    "country": "Moldova",
-    "status": "needs_review",
-    "problems": [
-     "Moldova is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Scorcolga",
-    "wikidata": "Q13479641",
-    "country": "Moldova",
-    "status": "needs_review",
-    "problems": [
-     "Moldova is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "murături",
-    "wikidata": "Q5266263",
-    "country": "Moldova",
-    "status": "needs_review",
-    "problems": [
-     "Moldova is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Amandine",
-    "wikidata": "Q2223254",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Blachindla",
-    "wikidata": "Q4920036",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Borş de burechiuşe",
-    "wikidata": "Q4947090",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Brânză de burduf",
-    "wikidata": "Q2919666",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Colaci",
-    "wikidata": "Q17049500",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Cornuleţe",
-    "wikidata": "Q2997592",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Covrigi",
-    "wikidata": "Q13479746",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Gogoşi",
-    "wikidata": "Q3827928",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Joffre cake",
-    "wikidata": "Q3180338",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Năsal",
-    "wikidata": "Q734450",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Papanași",
-    "wikidata": "Q689984",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Penteleu",
-    "wikidata": "Q3184014",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Plăcintă",
-    "wikidata": "Q2372494",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Rasol",
-    "wikidata": "Q3070462",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Scovardă",
-    "wikidata": "Q7438660",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Sibiu sausage",
-    "wikidata": "Q3469580",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Telemea",
-    "wikidata": "Q1790730",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Urdă",
-    "wikidata": "Q655654",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "ciorbă de perișoare",
-    "wikidata": "Q1092662",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "sarmale",
-    "wikidata": "Q11078597",
-    "country": "Romania",
-    "status": "needs_review",
-    "problems": [
-     "Romania is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Biscuit cake",
     "wikidata": "Q85747395",
     "country": "Bulgaria",
@@ -2504,78 +2220,8 @@
     "problems": []
    },
    {
-    "dish": "Bob chorba",
-    "wikidata": "Q12273417",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Cherni Vit",
     "wikidata": "Q3553990",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Elenski but",
-    "wikidata": "Q5359207",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Garash cake",
-    "wikidata": "Q5521946",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Lyutika",
-    "wikidata": "Q6710583",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Mekitsa",
-    "wikidata": "Q951187",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Pinđur",
-    "wikidata": "Q3388655",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Shopska salad",
-    "wikidata": "Q570038",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Snow White salad",
-    "wikidata": "Q7548366",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "banitsa",
-    "wikidata": "Q2009256",
-    "country": "Bulgaria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "lukanka",
-    "wikidata": "Q205169",
     "country": "Bulgaria",
     "status": "ready",
     "problems": []
@@ -2637,6 +2283,13 @@
     "problems": []
    },
    {
+    "dish": "Scorcolga",
+    "wikidata": "Q13479641",
+    "country": "Moldova",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Christmas wafer",
     "wikidata": "Q129152",
     "country": "Poland",
@@ -2686,13 +2339,6 @@
     "problems": []
    },
    {
-    "dish": "bagel",
-    "wikidata": "Q272502",
-    "country": "Poland",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "bialy",
     "wikidata": "Q4388689",
     "country": "Poland",
@@ -2707,16 +2353,37 @@
     "problems": []
    },
    {
-    "dish": "rugelach",
-    "wikidata": "Q1993581",
-    "country": "Poland",
+    "dish": "Blachindla",
+    "wikidata": "Q4920036",
+    "country": "Romania",
     "status": "ready",
     "problems": []
    },
    {
-    "dish": "Buuz",
-    "wikidata": "Q519753",
-    "country": "Russia",
+    "dish": "Brânză de vaci",
+    "wikidata": "Q108112946",
+    "country": "Romania",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Colaci",
+    "wikidata": "Q17049500",
+    "country": "Romania",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Scovardă",
+    "wikidata": "Q7438660",
+    "country": "Romania",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "sarmale",
+    "wikidata": "Q11078597",
+    "country": "Romania",
     "status": "ready",
     "problems": []
    },
@@ -2763,13 +2430,6 @@
     "problems": []
    },
    {
-    "dish": "paska",
-    "wikidata": "Q201120",
-    "country": "Russia",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Korbáčik",
     "wikidata": "Q246291",
     "country": "Slovakia",
@@ -2791,37 +2451,9 @@
     "problems": []
    },
    {
-    "dish": "Kyiv cake",
-    "wikidata": "Q899218",
-    "country": "Ukraine",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Yavoriv pie",
-    "wikidata": "Q116271874",
-    "country": "Ukraine",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "palianytsia",
-    "wikidata": "Q12137633",
-    "country": "Ukraine",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "varenyky",
-    "wikidata": "Q13147213",
-    "country": "Ukraine",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "zozulia",
-    "wikidata": "Q124744092",
-    "country": "Ukraine",
+    "dish": "balkánský sýr",
+    "wikidata": "Q17067155",
+    "country": "Slovakia",
     "status": "ready",
     "problems": []
    }
@@ -2860,13 +2492,6 @@
    {
     "dish": "Fig roll",
     "wikidata": "Q5447680",
-    "country": "Egypt",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "matzah",
-    "wikidata": "Q211361",
     "country": "Egypt",
     "status": "ready",
     "problems": []
@@ -4878,51 +4503,6 @@
     ]
    },
    {
-    "dish": "Sklandrausis",
-    "wikidata": "Q2087110",
-    "country": "Latvia",
-    "status": "needs_review",
-    "problems": [
-     "Latvia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "rupjmaize",
-    "wikidata": "Q7380416",
-    "country": "Latvia",
-    "status": "needs_review",
-    "problems": [
-     "Latvia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Juka",
-    "wikidata": "Q14930421",
-    "country": "Lithuania",
-    "status": "needs_review",
-    "problems": [
-     "Lithuania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Skilandis",
-    "wikidata": "Q255555",
-    "country": "Lithuania",
-    "status": "needs_review",
-    "problems": [
-     "Lithuania is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "kūčiukai",
-    "wikidata": "Q518601",
-    "country": "Lithuania",
-    "status": "needs_review",
-    "problems": [
-     "Lithuania is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Beenleigh Blue cheese",
     "wikidata": "Q16839757",
     "country": "United Kingdom",
@@ -5030,13 +4610,6 @@
     "problems": []
    },
    {
-    "dish": "mulgipuder",
-    "wikidata": "Q12370530",
-    "country": "Estonia",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Aura",
     "wikidata": "Q476512",
     "country": "Finland",
@@ -5079,13 +4652,6 @@
     "problems": []
    },
    {
-    "dish": "kama",
-    "wikidata": "Q134213",
-    "country": "Finland",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "lihapiirakka",
     "wikidata": "Q6304924",
     "country": "Finland",
@@ -5103,34 +4669,6 @@
     "dish": "sweetened potato casserole",
     "wikidata": "Q7655664",
     "country": "Finland",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Flatkaka",
-    "wikidata": "Q1427307",
-    "country": "Iceland",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Hákarl",
-    "wikidata": "Q1703796",
-    "country": "Iceland",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Laufabrauð",
-    "wikidata": "Q1515205",
-    "country": "Iceland",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Rúgbrauð",
-    "wikidata": "Q1344219",
-    "country": "Iceland",
     "status": "ready",
     "problems": []
    },
@@ -5194,6 +4732,13 @@
     "dish": "croffle",
     "wikidata": "Q109558070",
     "country": "Ireland",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "kūčiukai",
+    "wikidata": "Q518601",
+    "country": "Lithuania",
     "status": "ready",
     "problems": []
    },
@@ -6581,7 +6126,6 @@
     "country": "Bolivia",
     "status": "blocked",
     "problems": [
-     "Bolivia is not in the place tree yet",
      "a commercial product (Wikidata gives a brand, maker or owner)"
     ]
    },
@@ -6619,69 +6163,6 @@
     "status": "blocked",
     "problems": [
      "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
-    "dish": "Frescolita",
-    "wikidata": "Q1998622",
-    "country": "Venezuela",
-    "status": "blocked",
-    "problems": [
-     "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
-    "dish": "Chola sandwich",
-    "wikidata": "Q61579505",
-    "country": "Bolivia",
-    "status": "needs_review",
-    "problems": [
-     "Bolivia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Mbejú paraguayo",
-    "wikidata": "Q1754338",
-    "country": "Paraguay",
-    "status": "needs_review",
-    "problems": [
-     "Paraguay is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "kamby arro",
-    "wikidata": "Q605277",
-    "country": "Paraguay",
-    "status": "needs_review",
-    "problems": [
-     "Paraguay is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "kosereva",
-    "wikidata": "Q286189",
-    "country": "Paraguay",
-    "status": "needs_review",
-    "problems": [
-     "Paraguay is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "piracaldo",
-    "wikidata": "Q7197643",
-    "country": "Paraguay",
-    "status": "needs_review",
-    "problems": [
-     "Paraguay is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "soyo",
-    "wikidata": "Q6132927",
-    "country": "Paraguay",
-    "status": "needs_review",
-    "problems": [
-     "Paraguay is not in the place tree yet"
     ]
    },
    {
@@ -6764,6 +6245,13 @@
     "problems": []
    },
    {
+    "dish": "Chola sandwich",
+    "wikidata": "Q61579505",
+    "country": "Bolivia",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Beirut sandwich",
     "wikidata": "Q8245687",
     "country": "Brazil",
@@ -6841,13 +6329,6 @@
     "problems": []
    },
    {
-    "dish": "Polvorosa",
-    "wikidata": "Q120486465",
-    "country": "Colombia",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "wine cake",
     "wikidata": "Q8024918",
     "country": "Colombia",
@@ -6855,16 +6336,9 @@
     "problems": []
    },
    {
-    "dish": "Encebollado nació en Guayaquil, en los astilleros y puertos de la ciudad de Guayaquil.",
-    "wikidata": "Q3053734",
-    "country": "Ecuador",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Fanesca",
-    "wikidata": "Q3065399",
-    "country": "Ecuador",
+    "dish": "kamby arro",
+    "wikidata": "Q605277",
+    "country": "Paraguay",
     "status": "ready",
     "problems": []
    },
@@ -6878,6 +6352,13 @@
    {
     "dish": "Crema de huacatay",
     "wikidata": "Q27500531",
+    "country": "Peru",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Empanadilla",
+    "wikidata": "Q10931125",
     "country": "Peru",
     "status": "ready",
     "problems": []
@@ -6918,13 +6399,6 @@
     "problems": []
    },
    {
-    "dish": "aji",
-    "wikidata": "Q4699717",
-    "country": "Peru",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "arroz zambito",
     "wikidata": "Q61054366",
     "country": "Peru",
@@ -6939,64 +6413,8 @@
     "problems": []
    },
    {
-    "dish": "Caruso sauce",
-    "wikidata": "Q5047496",
-    "country": "Uruguay",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Chivito",
-    "wikidata": "Q1959504",
-    "country": "Uruguay",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Queso colonia",
-    "wikidata": "Q28777824",
-    "country": "Uruguay",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Cachapa",
-    "wikidata": "Q1025010",
-    "country": "Venezuela",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Cachitos",
-    "wikidata": "Q28134919",
-    "country": "Venezuela",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Mandoca",
-    "wikidata": "Q6748129",
-    "country": "Venezuela",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Pisca Andina",
     "wikidata": "Q7198220",
-    "country": "Venezuela",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Tequeño",
-    "wikidata": "Q2834371",
-    "country": "Venezuela",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "pabellón criollo",
-    "wikidata": "Q3359952",
     "country": "Venezuela",
     "status": "ready",
     "problems": []
@@ -7019,114 +6437,6 @@
     "status": "blocked",
     "problems": [
      "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
-    "dish": "Burmese fritters",
-    "wikidata": "Q85749576",
-    "country": "Myanmar",
-    "status": "needs_review",
-    "problems": [
-     "Myanmar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Burmese milk tea",
-    "wikidata": "Q97259879",
-    "country": "Myanmar",
-    "status": "needs_review",
-    "problems": [
-     "Myanmar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Burmese salad",
-    "wikidata": "Q17010544",
-    "country": "Myanmar",
-    "status": "needs_review",
-    "problems": [
-     "Myanmar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Meeshay",
-    "wikidata": "Q6807728",
-    "country": "Myanmar",
-    "status": "needs_review",
-    "problems": [
-     "Myanmar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Mohinga",
-    "wikidata": "Q1188066",
-    "country": "Myanmar",
-    "status": "needs_review",
-    "problems": [
-     "Myanmar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Mont di",
-    "wikidata": "Q6903124",
-    "country": "Myanmar",
-    "status": "needs_review",
-    "problems": [
-     "Myanmar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Pathein halawa",
-    "wikidata": "Q85792397",
-    "country": "Myanmar",
-    "status": "needs_review",
-    "problems": [
-     "Myanmar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Star Cola",
-    "wikidata": "Q16944449",
-    "country": "Myanmar",
-    "status": "needs_review",
-    "problems": [
-     "Myanmar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Talabaw",
-    "wikidata": "Q19711295",
-    "country": "Myanmar",
-    "status": "needs_review",
-    "problems": [
-     "Myanmar is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Har cheong gai burger",
-    "wikidata": "Q24945530",
-    "country": "Singapore",
-    "status": "needs_review",
-    "problems": [
-     "Singapore is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Pig fallopian tubes",
-    "wikidata": "Q17052971",
-    "country": "Singapore",
-    "status": "needs_review",
-    "problems": [
-     "Singapore is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "sliced fish soup",
-    "wikidata": "Q7540240",
-    "country": "Singapore",
-    "status": "needs_review",
-    "problems": [
-     "Singapore is not in the place tree yet"
     ]
    },
    {
@@ -7244,13 +6554,6 @@
     "problems": []
    },
    {
-    "dish": "Kuih",
-    "wikidata": "Q14468365",
-    "country": "Indonesia",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Lotek",
     "wikidata": "Q14918748",
     "country": "Indonesia",
@@ -7267,6 +6570,13 @@
    {
     "dish": "Ombus ombus",
     "wikidata": "Q12492826",
+    "country": "Indonesia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Sambal tuktuk",
+    "wikidata": "Q12511759",
     "country": "Indonesia",
     "status": "ready",
     "problems": []
@@ -7328,6 +6638,13 @@
     "problems": []
    },
    {
+    "dish": "jipang",
+    "wikidata": "Q57981532",
+    "country": "Indonesia",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "kue",
     "wikidata": "Q12492827",
     "country": "Indonesia",
@@ -7356,30 +6673,9 @@
     "problems": []
    },
    {
-    "dish": "Khao poon",
-    "wikidata": "Q4926371",
+    "dish": "Hmong sausage",
+    "wikidata": "Q123168373",
     "country": "Laos",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Padaek",
-    "wikidata": "Q6853367",
-    "country": "Laos",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "khao piak sen",
-    "wikidata": "Q25052449",
-    "country": "Laos",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Tshài-bué-thng",
-    "wikidata": "Q48916161",
-    "country": "Malaysia",
     "status": "ready",
     "problems": []
    },
@@ -7394,6 +6690,20 @@
     "dish": "karas",
     "wikidata": "Q7367945",
     "country": "Malaysia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Burmese milk tea",
+    "wikidata": "Q97259879",
+    "country": "Myanmar",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Star Cola",
+    "wikidata": "Q16944449",
+    "country": "Myanmar",
     "status": "ready",
     "problems": []
    },
@@ -7608,6 +6918,13 @@
     "problems": []
    },
    {
+    "dish": "Har cheong gai burger",
+    "wikidata": "Q24945530",
+    "country": "Singapore",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Black Ivory coffee",
     "wikidata": "Q793831",
     "country": "Thailand",
@@ -7617,13 +6934,6 @@
    {
     "dish": "Est Cola",
     "wikidata": "Q13026042",
-    "country": "Thailand",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Hmong sausage",
-    "wikidata": "Q123168373",
     "country": "Thailand",
     "status": "ready",
     "problems": []
@@ -7721,123 +7031,6 @@
     ]
    },
    {
-    "dish": "Bhutanese red rice",
-    "wikidata": "Q11144306",
-    "country": "Bhutan",
-    "status": "needs_review",
-    "problems": [
-     "Bhutan is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Datshi",
-    "wikidata": "Q11774318",
-    "country": "Bhutan",
-    "status": "needs_review",
-    "problems": [
-     "Bhutan is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Tsheringma tea",
-    "wikidata": "Q4513001",
-    "country": "Bhutan",
-    "status": "needs_review",
-    "problems": [
-     "Bhutan is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Maldive fish",
-    "wikidata": "Q2568765",
-    "country": "Maldives",
-    "status": "needs_review",
-    "problems": [
-     "Maldives is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Mas riha",
-    "wikidata": "Q6782239",
-    "country": "Maldives",
-    "status": "needs_review",
-    "problems": [
-     "Maldives is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Maskurolhi",
-    "wikidata": "Q132132567",
-    "country": "Maldives",
-    "status": "needs_review",
-    "problems": [
-     "Maldives is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Bibikkan",
-    "wikidata": "Q16498169",
-    "country": "Sri Lanka",
-    "status": "needs_review",
-    "problems": [
-     "Sri Lanka is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Ceylon",
-    "wikidata": "Q5065778",
-    "country": "Sri Lanka",
-    "status": "needs_review",
-    "problems": [
-     "Sri Lanka is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Ceylon tea",
-    "wikidata": "Q105616623",
-    "country": "Sri Lanka",
-    "status": "needs_review",
-    "problems": [
-     "Sri Lanka is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Chocolate Biscuit pudding",
-    "wikidata": "Q5103596",
-    "country": "Sri Lanka",
-    "status": "needs_review",
-    "problems": [
-     "Sri Lanka is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Diyabath",
-    "wikidata": "Q3610216",
-    "country": "Sri Lanka",
-    "status": "needs_review",
-    "problems": [
-     "Sri Lanka is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Malu Mirisata",
-    "wikidata": "Q20987430",
-    "country": "Sri Lanka",
-    "status": "needs_review",
-    "problems": [
-     "Sri Lanka is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "kiri hodi",
-    "wikidata": "Q106969864",
-    "country": "Sri Lanka",
-    "status": "needs_review",
-    "problems": [
-     "Sri Lanka is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Afghan bread",
     "wikidata": "Q4689119",
     "country": "Afghanistan",
@@ -7845,51 +7038,16 @@
     "problems": []
    },
    {
-    "dish": "Afghan salad",
-    "wikidata": "Q25055799",
-    "country": "Afghanistan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Afghani burger",
-    "wikidata": "Q24943843",
-    "country": "Afghanistan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Bolani",
-    "wikidata": "Q4938933",
-    "country": "Afghanistan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "gosh-e fil",
-    "wikidata": "Q5719932",
-    "country": "Afghanistan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Durus kura",
-    "wikidata": "Q114057994",
-    "country": "Bangladesh",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Sylheti Duck Bamboo",
-    "wikidata": "Q61366417",
-    "country": "Bangladesh",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "panch phoron",
     "wikidata": "Q241933",
     "country": "Bangladesh",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Tsheringma tea",
+    "wikidata": "Q4513001",
+    "country": "Bhutan",
     "status": "ready",
     "problems": []
    },
@@ -7966,6 +7124,20 @@
    {
     "dish": "Dahi chutney",
     "wikidata": "Q3700863",
+    "country": "India",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Dal Tadka",
+    "wikidata": "Q126961970",
+    "country": "India",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Dal dhokli",
+    "wikidata": "Q17747125",
     "country": "India",
     "status": "ready",
     "problems": []
@@ -8216,13 +7388,6 @@
     "problems": []
    },
    {
-    "dish": "Sattu",
-    "wikidata": "Q12455301",
-    "country": "India",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Sutarfeni",
     "wikidata": "Q18386680",
     "country": "India",
@@ -8286,6 +7451,13 @@
     "problems": []
    },
    {
+    "dish": "gajak",
+    "wikidata": "Q5517536",
+    "country": "India",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "garlic chutney",
     "wikidata": "Q2771241",
     "country": "India",
@@ -8295,20 +7467,6 @@
    {
     "dish": "gujia",
     "wikidata": "Q10997735",
-    "country": "India",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "khoa",
-    "wikidata": "Q9017517",
-    "country": "India",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "korma",
-    "wikidata": "Q1979684",
     "country": "India",
     "status": "ready",
     "problems": []
@@ -8356,13 +7514,6 @@
     "problems": []
    },
    {
-    "dish": "Bastani",
-    "wikidata": "Q5711624",
-    "country": "Iran",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Bonab Kababi",
     "wikidata": "Q5744375",
     "country": "Iran",
@@ -8400,13 +7551,6 @@
    {
     "dish": "Kabab Barg",
     "wikidata": "Q6343718",
-    "country": "Iran",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Mahyawa",
-    "wikidata": "Q4164590",
     "country": "Iran",
     "status": "ready",
     "problems": []
@@ -8517,13 +7661,6 @@
     "problems": []
    },
    {
-    "dish": "pihta",
-    "wikidata": "Q110362900",
-    "country": "Iran",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "qottab",
     "wikidata": "Q7268152",
     "country": "Iran",
@@ -8538,15 +7675,8 @@
     "problems": []
    },
    {
-    "dish": "Chhurpi",
-    "wikidata": "Q1089720",
-    "country": "Nepal",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Sel roti",
-    "wikidata": "Q7447375",
+    "dish": "yak butter",
+    "wikidata": "Q200430",
     "country": "Nepal",
     "status": "ready",
     "problems": []
@@ -8585,18 +7715,44 @@
     "country": "Pakistan",
     "status": "ready",
     "problems": []
+   },
+   {
+    "dish": "Ceylon",
+    "wikidata": "Q5065778",
+    "country": "Sri Lanka",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Ceylon tea",
+    "wikidata": "Q105616623",
+    "country": "Sri Lanka",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Chocolate Biscuit pudding",
+    "wikidata": "Q5103596",
+    "country": "Sri Lanka",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Diyabath",
+    "wikidata": "Q3610216",
+    "country": "Sri Lanka",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Malu Mirisata",
+    "wikidata": "Q20987430",
+    "country": "Sri Lanka",
+    "status": "ready",
+    "problems": []
    }
   ],
   "Southern Europe": [
-   {
-    "dish": "Vegeta",
-    "wikidata": "Q595751",
-    "country": "Croatia",
-    "status": "blocked",
-    "problems": [
-     "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
    {
     "dish": "Ferrero Rocher",
     "wikidata": "Q526516",
@@ -8643,93 +7799,12 @@
     ]
    },
    {
-    "dish": "Bosnian pot",
-    "wikidata": "Q894347",
-    "country": "Bosnia and Herzegovina",
-    "status": "needs_review",
-    "problems": [
-     "Bosnia and Herzegovina is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Bosnian smoked cheese",
-    "wikidata": "Q30600188",
-    "country": "Bosnia and Herzegovina",
-    "status": "needs_review",
-    "problems": [
-     "Bosnia and Herzegovina is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Livno cheese",
-    "wikidata": "Q3437219",
-    "country": "Bosnia and Herzegovina",
-    "status": "needs_review",
-    "problems": [
-     "Bosnia and Herzegovina is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "peperoncino",
     "wikidata": "Q181572",
     "country": "Italy",
     "status": "needs_review",
     "problems": [
      "a plant or animal on Wikidata, not a dish"
-    ]
-   },
-   {
-    "dish": "Maltese bread",
-    "wikidata": "Q17009352",
-    "country": "Malta",
-    "status": "needs_review",
-    "problems": [
-     "Malta is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "ftira",
-    "wikidata": "Q3090473",
-    "country": "Malta",
-    "status": "needs_review",
-    "problems": [
-     "Malta is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "pastizz",
-    "wikidata": "Q3368487",
-    "country": "Malta",
-    "status": "needs_review",
-    "problems": [
-     "Malta is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Njeguška pršuta",
-    "wikidata": "Q3160844",
-    "country": "Montenegro",
-    "status": "needs_review",
-    "problems": [
-     "Montenegro is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Pastrmajlija",
-    "wikidata": "Q3397139",
-    "country": "North Macedonia",
-    "status": "needs_review",
-    "problems": [
-     "North Macedonia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "malidzano salata",
-    "wikidata": "Q745006",
-    "country": "North Macedonia",
-    "status": "needs_review",
-    "problems": [
-     "North Macedonia is not in the place tree yet"
     ]
    },
    {
@@ -8742,177 +7817,6 @@
     ]
    },
    {
-    "dish": "Karađorđeva šnicla",
-    "wikidata": "Q4213720",
-    "country": "Serbia",
-    "status": "needs_review",
-    "problems": [
-     "Serbia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Pasulj",
-    "wikidata": "Q2056389",
-    "country": "Serbia",
-    "status": "needs_review",
-    "problems": [
-     "Serbia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Pljeskavica",
-    "wikidata": "Q2089716",
-    "country": "Serbia",
-    "status": "needs_review",
-    "problems": [
-     "Serbia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Proja",
-    "wikidata": "Q7248936",
-    "country": "Serbia",
-    "status": "needs_review",
-    "problems": [
-     "Serbia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Serbian salad",
-    "wikidata": "Q3469475",
-    "country": "Serbia",
-    "status": "needs_review",
-    "problems": [
-     "Serbia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "bundevara",
-    "wikidata": "Q18922477",
-    "country": "Serbia",
-    "status": "needs_review",
-    "problems": [
-     "Serbia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "slatko",
-    "wikidata": "Q428392",
-    "country": "Serbia",
-    "status": "needs_review",
-    "problems": [
-     "Serbia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "urnebes",
-    "wikidata": "Q6593562",
-    "country": "Serbia",
-    "status": "needs_review",
-    "problems": [
-     "Serbia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Ajdov Kruh",
-    "wikidata": "Q4699691",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Belokranjska povitica",
-    "wikidata": "Q2895059",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Fusi",
-    "wikidata": "Q3447542",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Idrija dumplings",
-    "wikidata": "Q11286874",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Potica",
-    "wikidata": "Q11700178",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Prekmurska gibanica",
-    "wikidata": "Q2524291",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Prežganka",
-    "wikidata": "Q7242496",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Styrian sour soup",
-    "wikidata": "Q7629815",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "obara",
-    "wikidata": "Q528008",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "ričet",
-    "wikidata": "Q321356",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "vrtanek",
-    "wikidata": "Q12806195",
-    "country": "Slovenia",
-    "status": "needs_review",
-    "problems": [
-     "Slovenia is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Palmero cheese",
     "wikidata": "Q9065235",
     "country": "Spain",
@@ -8920,27 +7824,6 @@
     "problems": [
      "in more than 3 families: check which one it belongs to"
     ]
-   },
-   {
-    "dish": "Mlinci",
-    "wikidata": "Q1426070",
-    "country": "Croatia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Pag cheese",
-    "wikidata": "Q1283428",
-    "country": "Croatia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Rab cake",
-    "wikidata": "Q7278468",
-    "country": "Croatia",
-    "status": "ready",
-    "problems": []
    },
    {
     "dish": "rožata",
@@ -9027,13 +7910,6 @@
     "problems": []
    },
    {
-    "dish": "Biancomangiare PAT",
-    "wikidata": "Q551514",
-    "country": "Italy",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Biscuit Tortoni",
     "wikidata": "Q4917270",
     "country": "Italy",
@@ -9076,6 +7952,13 @@
     "problems": []
    },
    {
+    "dish": "Cayetana",
+    "wikidata": "Q1051963",
+    "country": "Italy",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Ciauscolo PGI",
     "wikidata": "Q3676324",
     "country": "Italy",
@@ -9111,15 +7994,22 @@
     "problems": []
    },
    {
-    "dish": "Gibanica",
-    "wikidata": "Q1522820",
+    "dish": "Grana Cheese",
+    "wikidata": "Q1089663",
     "country": "Italy",
     "status": "ready",
     "problems": []
    },
    {
-    "dish": "Grana Cheese",
-    "wikidata": "Q1089663",
+    "dish": "Italia",
+    "wikidata": "Q941166",
+    "country": "Italy",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Lacrima",
+    "wikidata": "Q3825265",
     "country": "Italy",
     "status": "ready",
     "problems": []
@@ -9141,6 +8031,13 @@
    {
     "dish": "Moretta",
     "wikidata": "Q2708973",
+    "country": "Italy",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Muscat Blanc à Petits Grains",
+    "wikidata": "Q1499340",
     "country": "Italy",
     "status": "ready",
     "problems": []
@@ -9363,13 +8260,6 @@
     "problems": []
    },
    {
-    "dish": "Torta paesana",
-    "wikidata": "Q47347125",
-    "country": "Italy",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Torta setteveli",
     "wikidata": "Q3995814",
     "country": "Italy",
@@ -9379,6 +8269,20 @@
    {
     "dish": "Tuma",
     "wikidata": "Q3541994",
+    "country": "Italy",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Uva da tavola di Mazzarrone PGI",
+    "wikidata": "Q4006813",
+    "country": "Italy",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Uva di Puglia PGI",
+    "wikidata": "Q55833391",
     "country": "Italy",
     "status": "ready",
     "problems": []
@@ -9435,6 +8339,13 @@
    {
     "dish": "garlic bread",
     "wikidata": "Q1359006",
+    "country": "Italy",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "gnocchi alla romana",
+    "wikidata": "Q1533235",
     "country": "Italy",
     "status": "ready",
     "problems": []
@@ -9573,6 +8484,13 @@
     "problems": []
    },
    {
+    "dish": "Njeguška pršuta",
+    "wikidata": "Q3160844",
+    "country": "Montenegro",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Madeira wine (DOC)",
     "wikidata": "Q27697",
     "country": "Portugal",
@@ -9604,6 +8522,20 @@
     "dish": "queijada",
     "wikidata": "Q10356075",
     "country": "Portugal",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Ajdov Kruh",
+    "wikidata": "Q4699691",
+    "country": "Slovenia",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Potica",
+    "wikidata": "Q11700178",
+    "country": "Slovenia",
     "status": "ready",
     "problems": []
    },
@@ -9659,6 +8591,13 @@
    {
     "dish": "Cantabrian cream cheese",
     "wikidata": "Q747048",
+    "country": "Spain",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Carignan",
+    "wikidata": "Q251054",
     "country": "Spain",
     "status": "ready",
     "problems": []
@@ -9769,20 +8708,6 @@
     "problems": []
    },
    {
-    "dish": "Mona de Pascua",
-    "wikidata": "Q3034906",
-    "country": "Spain",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Neula",
-    "wikidata": "Q3028666",
-    "country": "Spain",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Padrón peppers",
     "wikidata": "Q1466464",
     "country": "Spain",
@@ -9813,13 +8738,6 @@
    {
     "dish": "Payoyo cheese",
     "wikidata": "Q9065238",
-    "country": "Spain",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Pionono",
-    "wikidata": "Q7196890",
     "country": "Spain",
     "status": "ready",
     "problems": []
@@ -9902,13 +8820,6 @@
     "problems": []
    },
    {
-    "dish": "Xuixo",
-    "wikidata": "Q3027539",
-    "country": "Spain",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Yemas de Santa Teresa",
     "wikidata": "Q2882983",
     "country": "Spain",
@@ -9925,13 +8836,6 @@
    {
     "dish": "calamari sandwich",
     "wikidata": "Q633615",
-    "country": "Spain",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "candied almonds",
-    "wikidata": "Q1187678",
     "country": "Spain",
     "status": "ready",
     "problems": []
@@ -10109,42 +9013,6 @@
   ],
   "Western Asia": [
    {
-    "dish": "Zacuscă",
-    "wikidata": "Q139981",
-    "country": "Armenia",
-    "status": "blocked",
-    "problems": [
-     "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
-    "dish": "Mekupelet",
-    "wikidata": "Q6810615",
-    "country": "Israel",
-    "status": "blocked",
-    "problems": [
-     "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
-    "dish": "Pesek Zman",
-    "wikidata": "Q6825486",
-    "country": "Israel",
-    "status": "blocked",
-    "problems": [
-     "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
-    "dish": "Tortit",
-    "wikidata": "Q20502487",
-    "country": "Israel",
-    "status": "blocked",
-    "problems": [
-     "a commercial product (Wikidata gives a brand, maker or owner)"
-    ]
-   },
-   {
     "dish": "Cola Turka",
     "wikidata": "Q1107571",
     "country": "Turkey",
@@ -10154,80 +9022,16 @@
     ]
    },
    {
-    "dish": "Anari cheese",
-    "wikidata": "Q2669426",
-    "country": "Cyprus",
-    "status": "needs_review",
-    "problems": [
-     "Cyprus is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Apohtin",
-    "wikidata": "Q21503823",
-    "country": "Cyprus",
-    "status": "needs_review",
-    "problems": [
-     "Cyprus is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Hellimli",
-    "wikidata": "Q5707569",
-    "country": "Cyprus",
-    "status": "needs_review",
-    "problems": [
-     "Cyprus is not in the place tree yet"
-    ]
-   },
-   {
-    "dish": "Tsamarella",
-    "wikidata": "Q7849346",
-    "country": "Cyprus",
-    "status": "needs_review",
-    "problems": [
-     "Cyprus is not in the place tree yet"
-    ]
+    "dish": "Areni Sev",
+    "wikidata": "Q2521976",
+    "country": "Armenia",
+    "status": "ready",
+    "problems": []
    },
    {
     "dish": "Boraki",
     "wikidata": "Q893306",
     "country": "Armenia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Gata",
-    "wikidata": "Q2971383",
-    "country": "Armenia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Ghapama",
-    "wikidata": "Q3104777",
-    "country": "Armenia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Matnakash",
-    "wikidata": "Q2604496",
-    "country": "Armenia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Nazook",
-    "wikidata": "Q26693028",
-    "country": "Armenia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Lula kebab",
-    "wikidata": "Q1105512",
-    "country": "Azerbaijan",
     "status": "ready",
     "problems": []
    },
@@ -10239,37 +9043,23 @@
     "problems": []
    },
    {
-    "dish": "dovga",
-    "wikidata": "Q2500197",
-    "country": "Azerbaijan",
+    "dish": "Apohtin",
+    "wikidata": "Q21503823",
+    "country": "Cyprus",
     "status": "ready",
     "problems": []
    },
    {
-    "dish": "piti",
-    "wikidata": "Q7198960",
-    "country": "Azerbaijan",
+    "dish": "Hellimli",
+    "wikidata": "Q5707569",
+    "country": "Cyprus",
     "status": "ready",
     "problems": []
    },
    {
-    "dish": "qutab",
-    "wikidata": "Q4249417",
-    "country": "Azerbaijan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Chanakhi",
-    "wikidata": "Q2378108",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Chikhirtma",
-    "wikidata": "Q4516736",
-    "country": "Georgia",
+    "dish": "Tsamarella",
+    "wikidata": "Q7849346",
+    "country": "Cyprus",
     "status": "ready",
     "problems": []
    },
@@ -10288,107 +9078,23 @@
     "problems": []
    },
    {
-    "dish": "Khinkali",
-    "wikidata": "Q971820",
+    "dish": "Tsinandali wine",
+    "wikidata": "Q204269",
     "country": "Georgia",
     "status": "ready",
     "problems": []
    },
    {
-    "dish": "Kubdari",
-    "wikidata": "Q6441202",
+    "dish": "Tvishi",
+    "wikidata": "Q25205317",
     "country": "Georgia",
     "status": "ready",
     "problems": []
    },
    {
-    "dish": "Kupati",
-    "wikidata": "Q3250451",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Lobiani",
-    "wikidata": "Q16909052",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Mchadi",
-    "wikidata": "Q12838065",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Satsivi",
-    "wikidata": "Q2976457",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Shoti",
-    "wikidata": "Q2920132",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Tenili",
-    "wikidata": "Q35547504",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Tkemali",
-    "wikidata": "Q65028",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Tonis puri",
-    "wikidata": "Q7820827",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "acıka",
-    "wikidata": "Q378283",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "chakhokhbili",
-    "wikidata": "Q1047978",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "khachapuri",
-    "wikidata": "Q279575",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "kharcho",
-    "wikidata": "Q2622030",
-    "country": "Georgia",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "lobio",
-    "wikidata": "Q1858518",
-    "country": "Georgia",
+    "dish": "pihta",
+    "wikidata": "Q110362900",
+    "country": "Iraq",
     "status": "ready",
     "problems": []
    },
@@ -10403,13 +9109,6 @@
     "dish": "ِAbbas bread",
     "wikidata": "Q131564107",
     "country": "Iraq",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Bagel toast",
-    "wikidata": "Q2904916",
-    "country": "Israel",
     "status": "ready",
     "problems": []
    },
@@ -10435,30 +9134,9 @@
     "problems": []
    },
    {
-    "dish": "Tzfat cheese",
-    "wikidata": "Q2037921",
-    "country": "Israel",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "malawach",
-    "wikidata": "Q2907412",
-    "country": "Israel",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "jameed",
     "wikidata": "Q3296477",
     "country": "Jordan",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Kuwaiti tea",
-    "wikidata": "Q25059058",
-    "country": "Kuwait",
     "status": "ready",
     "problems": []
    },
@@ -10473,13 +9151,6 @@
     "dish": "markook",
     "wikidata": "Q2095020",
     "country": "Syria",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Aush",
-    "wikidata": "Q4822751",
-    "country": "Turkey",
     "status": "ready",
     "problems": []
    },
@@ -10528,13 +9199,6 @@
    {
     "dish": "Kandil simidi",
     "wikidata": "Q6013161",
-    "country": "Turkey",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Kačamak",
-    "wikidata": "Q15635457",
     "country": "Turkey",
     "status": "ready",
     "problems": []
@@ -10603,13 +9267,6 @@
     "problems": []
    },
    {
-    "dish": "güveç",
-    "wikidata": "Q342208",
-    "country": "Turkey",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "kumru",
     "wikidata": "Q4833482",
     "country": "Turkey",
@@ -10640,6 +9297,13 @@
    {
     "dish": "pepeçura",
     "wikidata": "Q15686391",
+    "country": "Turkey",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "sultana",
+    "wikidata": "Q1898118",
     "country": "Turkey",
     "status": "ready",
     "problems": []
@@ -10680,13 +9344,6 @@
     "problems": []
    },
    {
-    "dish": "zelnik",
-    "wikidata": "Q8068822",
-    "country": "Turkey",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "çörek",
     "wikidata": "Q12849581",
     "country": "Turkey",
@@ -10711,62 +9368,6 @@
     "dish": "şalgam",
     "wikidata": "Q388152",
     "country": "Turkey",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Dubai chocolate",
-    "wikidata": "Q130571534",
-    "country": "United Arab Emirates",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Fatoot",
-    "wikidata": "Q618910",
-    "country": "Yemen",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Jachnun",
-    "wikidata": "Q1960279",
-    "country": "Yemen",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Kubaneh",
-    "wikidata": "Q6588272",
-    "country": "Yemen",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Malooga",
-    "wikidata": "Q1959865",
-    "country": "Yemen",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "Shahi Haleeb",
-    "wikidata": "Q20982513",
-    "country": "Yemen",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "hawaij",
-    "wikidata": "Q536829",
-    "country": "Yemen",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "skhug",
-    "wikidata": "Q978363",
-    "country": "Yemen",
     "status": "ready",
     "problems": []
    }
@@ -11397,15 +9998,6 @@
     "status": "needs_review",
     "problems": [
      "in more than 3 families: check which one it belongs to"
-    ]
-   },
-   {
-    "dish": "Bouneschlupp",
-    "wikidata": "Q2922200",
-    "country": "Luxembourg",
-    "status": "needs_review",
-    "problems": [
-     "Luxembourg is not in the place tree yet"
     ]
    },
    {
@@ -12159,6 +10751,13 @@
    {
     "dish": "beurre blanc",
     "wikidata": "Q851195",
+    "country": "France",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "beurre d'Isigny",
+    "wikidata": "Q2900326",
     "country": "France",
     "status": "ready",
     "problems": []
@@ -13109,13 +11708,6 @@
     "problems": []
    },
    {
-    "dish": "Emmental",
-    "wikidata": "Q932214",
-    "country": "Switzerland",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Gruyère",
     "wikidata": "Q2376488",
     "country": "Switzerland",
@@ -13193,6 +11785,13 @@
     "problems": []
    },
    {
+    "dish": "Torta paesana",
+    "wikidata": "Q47347125",
+    "country": "Switzerland",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Vienna sausage",
     "wikidata": "Q327316",
     "country": "Switzerland",
@@ -13209,13 +11808,6 @@
    {
     "dish": "pane ticinese",
     "wikidata": "Q2013754",
-    "country": "Switzerland",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "processed cheese",
-    "wikidata": "Q1570052",
     "country": "Switzerland",
     "status": "ready",
     "problems": []

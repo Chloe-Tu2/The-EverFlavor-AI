@@ -1770,7 +1770,7 @@ Learn more:
 
 - quick: [Bamboo (Wikipedia)](https://en.wikipedia.org/wiki/Bamboo)
 - more: [Vietnamese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Vietnamese_cuisine)
-- more: [Native Hawaiian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Native_Hawaiian_cuisine)
+- more: [Cuisine of Martinique (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Martinique)
 - deep: [Books about Bamboo (Open Library)](https://openlibrary.org/search?q=Bamboo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q670887)
 

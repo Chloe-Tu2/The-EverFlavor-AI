@@ -62,6 +62,75 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1316209) (CC0); [Wikipedia: Street food](https://en.wikipedia.org/wiki/Street_food) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Hops
+
+Hops are the green flowers (also called seed cones or strobiles) of the hop plant Humulus lupulus, a member of the Cannabaceae family of flowering plants.
+
+- From: New Zealand
+- Ingredients (Wikidata): strobilus
+
+Fun facts:
+
+- (history) In Britain, hopped beer was first imported from Holland around 1400, yet hops were condemned as late as 1519 as a "wicked and pernicious weed".
+- (origin) Hops used in England were imported from France, Holland and Germany and were subject to import duty; it was not until 1524 that hops were first grown in the southeast of England (Kent), when they were introduced as an agricultural crop by Dutch farmers.
+- (culture) It is believed that traditional herb combinations for beers were abandoned after it was noticed that beers made with hops were less prone to spoilage.
+
+More fun facts (when the user asks for more):
+
+- (history) The first documented use of hops in beer is from the 9th century, though Hildegard of Bingen, 300 years later, is often cited as the earliest documented source.
+- (history) The first mention of hops being used in German brewing was in 1079.
+- (history) Not until the 13th century did hops begin to start threatening the use of gruit for flavouring.
+- (culture) In Germany, using hops was also a religious and political choice in the early 16th century.
+- (history) According to Thomas Tusser's 1557 Five Hundred Points of Good Husbandry: In England there were many complaints over the quality of imported hops, the sacks of which were often contaminated by stalks, sand or straw to increase their weight.
+- (history) Problems with powdery mildew and downy mildew devastated New York's production by the 1920s, and California produced hops only on a small scale.
+- (history) As a result, in 1603, King James I approved an Act of Parliament banning the practice by which "the Subjects of this Realm have been of late years abused &c. to the Value of £20,000 yearly, besides the Danger of their Healths".
+- (about) The first documented hop cultivation was in 736, in the Hallertau region of present-day Germany.
+- (history) Hop cultivation was begun in the present-day United States in 1629 by English and Dutch farmers.
+- (about) Not to be confused with Humulus lupulus.
+
+Learn more:
+
+- quick: [Hops (Wikipedia)](https://en.wikipedia.org/wiki/Hops)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
+- more: [Cuisine of Ukraine (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Ukraine)
+- deep: [Books about Hops (Open Library)](https://openlibrary.org/search?q=Hops)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3214940)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3214940) (CC0); [Wikipedia: Hops](https://en.wikipedia.org/wiki/Hops) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Instant coffee
+
+Instant coffee is a beverage derived from processed brewed coffee beans that is quickly prepared by adding hot water or milk to powdered solid coffee extracts.
+
+- From: New Zealand
+
+Fun facts:
+
+- (history) The invention for powdered soluble instant coffee was filed on 28 January 1889 and patented in 1890, by David Strang of Invercargill, New Zealand, under patent number 3518, and sold as "Strang's Soluble Coffee Powder", citing the patented "Dry Hot-Air" process.
+- (origin) In the 1950s, General Foods introduced an instant coffee product made from 100% coffee solids without the need for added carbohydrates such as maltodextrins.
+- (about) The global instant coffee market was valued at US$4.16 billion in 2026.
+
+More fun facts (when the user asks for more):
+
+- (history) Agglomeration of spray dried coffee has been used since around 1968 to form the instant coffee into granules.
+- (history) The product was invented in 1890 in Invercargill, Southland, New Zealand, by David Strang.
+- (history) The brand Camp Coffee, a liquid coffee and chicory essence, was first produced in 1876 by Paterson & Sons Ltd in Scotland.
+- (history) The invention had previously been attributed to Satori Kato, a Japanese scientist working in Chicago in 1901.
+- (history) George Constant Louis Washington developed his own instant coffee process shortly thereafter, and first marketed it commercially (1910).
+- (history) The first freeze-dried instant coffee was launched in 1963 by General Foods under the brand Maxwell House.
+- (about) Some modern sources have credited French humorist and writer Alphonse Allais with the invention.
+- (origin) Kato introduced the powdered substance in Buffalo, New York, at the Pan-American Exposition.
+
+Learn more:
+
+- quick: [Instant coffee (Wikipedia)](https://en.wikipedia.org/wiki/Instant_coffee)
+- more: [Macedonian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Macedonian_cuisine)
+- more: [Cuisine of North Macedonia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_North_Macedonia)
+- deep: [Books about Instant coffee (Open Library)](https://openlibrary.org/search?q=Instant%20coffee)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q858049)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q858049) (CC0); [Wikipedia: Instant coffee](https://en.wikipedia.org/wiki/Instant_coffee) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Kānga pirau
 
 Kānga pirau (which translates literally from Māori as rotten corn), is a fermented maize (corn) porridge dish which is considered a delicacy by many Māori people of New Zealand.

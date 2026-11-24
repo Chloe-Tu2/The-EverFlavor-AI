@@ -31,35 +31,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2839301) (CC0); [Wikipedia: Aloo pie](https://en.wikipedia.org/wiki/Aloo_pie) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Baingan bharta
-
-Baigan bharta, also spelled baingan bharta or begun bharta or baigan chokha (mashed eggplant) is an Indian dish prepared by mashing or mincing grilled brinjal (aubergine in UK English, eggplant in US English, baigan in Hindi) with tomato, onion, herbs and spices, with variations being common from chef to chef.
-
-- From: Trinidad and Tobago
-- Ingredients (Wikidata): eggplant
-
-Fun facts:
-
-- (about) Baingan bharta has since spread to areas outside of India, particularly countries with high numbers of Indians and their descendants, including the United Kingdom, Australia, and parts of the United States and Canada.
-- (culture) Traditionally, cooking the eggplant over charcoal, inside of a tandoor, barbecue grill or oven, or even directly applying flame to the outside of the fruit infuses the dish with a smoky flavour; the blackened skin is then easily peeled and the eggplant may be further prepared.
-- (about) In some regions where mustard oil is popular, this may be used, though it possesses a powerful flavour and aroma.
-
-More fun facts (when the user asks for more):
-
-- (culture) Traditionally, the dish is eaten by hand with flatbread (specifically roti, naan or paratha), and can also be served with a variety of rice dishes, like biryani, khichdi or pulao.
-- (about) In India, Pakistan and Bangladesh, baigan bharta is part of the most popular cuisine items.
-- (about) Baingan bharta is popularly eaten in the Caribbean, in places like Guyana (as balanjay chokha), Jamaica and Trinidad and Tobago, where it is known as baigan chokha.
-
-Learn more:
-
-- quick: [Baingan bharta (Wikipedia)](https://en.wikipedia.org/wiki/Baingan_bharta)
-- more: [Trinidad and Tobago cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Trinidad_and_Tobago_cuisine)
-- more: [Cuisine of Trinidad and Tobago (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Trinidad_and_Tobago)
-- deep: [Books about Baingan bharta (Open Library)](https://openlibrary.org/search?q=Baingan%20bharta)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q154872)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q154872) (CC0); [Wikipedia: Baingan bharta](https://en.wikipedia.org/wiki/Baingan_bharta) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Bake and shark
 
 Bake and shark is a traditional fast food dish of Trinidadian cuisine prepared using fried flatbread, shark meat and additional ingredients.

@@ -168,6 +168,7 @@ Learn more:
 
 - quick: [Frikandel (Wikipedia)](https://en.wikipedia.org/wiki/Frikandel)
 - more: [Dutch cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dutch_cuisine)
+- more: [List of Israeli dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Israeli_dishes)
 - deep: [Books about Frikandel (Open Library)](https://openlibrary.org/search?q=Frikandel)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1464898)
 
@@ -932,6 +933,7 @@ Learn more:
 
 - quick: [Treacle (Wikipedia)](https://en.wikipedia.org/wiki/Treacle)
 - more: [Dutch cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Dutch_cuisine)
+- more: [Maltese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Maltese_cuisine)
 - deep: [Books about Treacle (Open Library)](https://openlibrary.org/search?q=Treacle)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q10972293)
 

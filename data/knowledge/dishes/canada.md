@@ -478,6 +478,7 @@ Learn more:
 
 - quick: [Chowder (Wikipedia)](https://en.wikipedia.org/wiki/Chowder)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Cuisine of the Cayman Islands (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_the_Cayman_Islands)
 - deep: [Books about Chowder (Open Library)](https://openlibrary.org/search?q=Chowder)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1076824)
 
@@ -764,6 +765,7 @@ Learn more:
 
 - quick: [Fried dough (Wikipedia)](https://en.wikipedia.org/wiki/Fried_dough)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Romanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Romanian_cuisine)
 - deep: [Books about Fried dough (Open Library)](https://openlibrary.org/search?q=Fried%20dough)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5503624)
 
@@ -2020,7 +2022,7 @@ Learn more:
 
 - quick: [Pie (Wikipedia)](https://en.wikipedia.org/wiki/Pie)
 - more: [Quebec cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Quebec_cuisine)
-- more: [Midwestern cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Midwestern_cuisine)
+- more: [Serbian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Serbian_cuisine)
 - deep: [Books about Pie (Open Library)](https://openlibrary.org/search?q=Pie)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13360264)
 
@@ -2481,6 +2483,7 @@ Learn more:
 
 - quick: [Back bacon (Wikipedia)](https://en.wikipedia.org/wiki/Back_bacon)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Uruguayan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Uruguayan_cuisine)
 - deep: [Books about Back bacon (Open Library)](https://openlibrary.org/search?q=Back%20bacon)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4839219)
 
@@ -2785,6 +2788,7 @@ Learn more:
 
 - quick: [Fruit preserves (Wikipedia)](https://en.wikipedia.org/wiki/Fruit_preserves)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
 - deep: [Books about Fruit preserves (Open Library)](https://openlibrary.org/search?q=Fruit%20preserves)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q74048276)
 
@@ -3402,6 +3406,7 @@ Learn more:
 
 - quick: [Palmaria palmata (Wikipedia)](https://en.wikipedia.org/wiki/Palmaria_palmata)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Icelandic cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Icelandic_cuisine)
 - deep: [Books about Palmaria palmata (Open Library)](https://openlibrary.org/search?q=Palmaria%20palmata)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q864648)
 
@@ -3578,6 +3583,7 @@ Learn more:
 
 - quick: [Stuffing (Wikipedia)](https://en.wikipedia.org/wiki/Stuffing)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Armenian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Armenian_cuisine)
 - deep: [Books about Stuffing (Open Library)](https://openlibrary.org/search?q=Stuffing)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q745361)
 
@@ -3642,6 +3648,7 @@ Learn more:
 
 - quick: [White sturgeon (Wikipedia)](https://en.wikipedia.org/wiki/White_sturgeon)
 - more: [Canadian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Canadian_cuisine)
+- more: [Azerbaijani cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Azerbaijani_cuisine)
 - deep: [Books about White sturgeon (Open Library)](https://openlibrary.org/search?q=White%20sturgeon)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q592876)
 

@@ -10,13 +10,14 @@
   "Syria"
  ],
  "countries_with_a_dish": [
+  "Israel",
   "Lebanon",
   "Palestine"
  ],
- "coverage_score": 40.0,
- "dish_count": 49,
- "food_and_drink_count": 30,
- "story_count": 57,
+ "coverage_score": 59.2,
+ "dish_count": 64,
+ "food_and_drink_count": 39,
+ "story_count": 69,
  "representative_dishes": [
   "Shawarma",
   "Baba ghanoush",
@@ -25,17 +26,17 @@
   "Ka'ak",
   "Tabbouleh",
   "Mansaf",
-  "Falafel"
+  "Israeli salad"
  ],
  "dish_families": [
   "salad",
   "rice dish",
+  "chicken dish",
+  "cake",
+  "bread",
   "lamb dish",
   "flatbread",
-  "spice mix",
-  "condiment",
-  "pastry",
-  "cheese"
+  "cookie"
  ],
  "indigenous_traditions": [],
  "related_regions": [

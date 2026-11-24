@@ -317,6 +317,34 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q15693942) (CC0); [Wikipedia: Pastel de Gloria](https://en.wikipedia.org/wiki/Pastel_de_Gloria) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Polvorosas
+
+Polvorosas are traditional Venezuelan and Colombian cookies.
+
+- From: Colombia
+- Origin (Wikidata): Colombia
+- Ingredients (Wikidata): sugar, butter, wheat flour, corn starch, cow's milk
+
+Fun facts:
+
+- (about) Polvorosas were popularized by nuns within their convents who held the practice of making a variety of desserts.
+- (origin) Polvorosas comes from Colombia.
+- (culture) The food created within these kitchens often utilized a variety of cultural elements which were gathered as a result of Christian tradition.
+
+More fun facts (when the user asks for more):
+
+- (about) Not to be confused with polvoron.
+
+Learn more:
+
+- quick: [Polvorosas (Wikipedia)](https://en.wikipedia.org/wiki/Polvorosas)
+- more: [Venezuelan cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Venezuelan_cuisine)
+- more: [Cuisine of Venezuela (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Venezuela)
+- deep: [Books about Polvorosas (Open Library)](https://openlibrary.org/search?q=Polvorosas)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q120486465)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q120486465) (CC0); [Wikipedia: Polvorosas](https://en.wikipedia.org/wiki/Polvorosas) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Salpicon
 
 Salpicon is a dish of one or more ingredients diced or minced and bound with a sauce or liquid.

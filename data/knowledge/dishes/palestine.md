@@ -76,6 +76,7 @@ Learn more:
 
 - quick: [Confectionery (Wikipedia)](https://en.wikipedia.org/wiki/Confectionery)
 - more: [Palestinian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Palestinian_cuisine)
+- more: [Cypriot cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Cypriot_cuisine)
 - deep: [Books about Confectionery (Open Library)](https://openlibrary.org/search?q=Confectionery)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5159627)
 
@@ -130,6 +131,7 @@ Learn more:
 
 - quick: [Jerusalem bagel (Wikipedia)](https://en.wikipedia.org/wiki/Jerusalem_bagel)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [List of Israeli dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Israeli_dishes)
 - deep: [Books about Jerusalem bagel (Open Library)](https://openlibrary.org/search?q=Jerusalem%20bagel)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6564586)
 
@@ -160,6 +162,7 @@ Learn more:
 
 - quick: [Joshpara (Wikipedia)](https://en.wikipedia.org/wiki/Joshpara)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [Jordanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jordanian_cuisine)
 - deep: [Books about Joshpara (Open Library)](https://openlibrary.org/search?q=Joshpara)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q334891)
 
@@ -180,6 +183,7 @@ Learn more:
 
 - quick: [Malfouf salad (Wikipedia)](https://en.wikipedia.org/wiki/Malfouf_salad)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [List of Israeli dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Israeli_dishes)
 - deep: [Books about Malfouf salad (Open Library)](https://openlibrary.org/search?q=Malfouf%20salad)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q30635685)
 
@@ -244,6 +248,7 @@ Learn more:
 
 - quick: [Mansaf (Wikipedia)](https://en.wikipedia.org/wiki/Mansaf)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [Jordanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jordanian_cuisine)
 - deep: [Books about Mansaf (Open Library)](https://openlibrary.org/search?q=Mansaf)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3273642)
 
@@ -302,6 +307,7 @@ Learn more:
 
 - quick: [Pestil (Wikipedia)](https://en.wikipedia.org/wiki/Pestil)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [Armenian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Armenian_cuisine)
 - deep: [Books about Pestil (Open Library)](https://openlibrary.org/search?q=Pestil)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q13967255)
 
@@ -566,6 +572,7 @@ Learn more:
 
 - quick: [Maarouk (Wikipedia)](https://en.wikipedia.org/wiki/Maarouk)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [Syrian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Syrian_cuisine)
 - deep: [Books about Maarouk (Open Library)](https://openlibrary.org/search?q=Maarouk)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q135990427)
 
@@ -582,6 +589,7 @@ Learn more:
 
 - quick: [Msabbaha (Wikipedia)](https://en.wikipedia.org/wiki/Msabbaha)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [Israeli cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Israeli_cuisine)
 - deep: [Books about Msabbaha (Open Library)](https://openlibrary.org/search?q=Msabbaha)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6930115)
 
@@ -632,6 +640,7 @@ Learn more:
 
 - quick: [Qatir (syrup) (Wikipedia)](https://en.wikipedia.org/wiki/Qatir_%28syrup%29)
 - more: [List of Palestinian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Palestinian_dishes)
+- more: [Syrian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Syrian_cuisine)
 - deep: [Books about Qatir (syrup) (Open Library)](https://openlibrary.org/search?q=Qatir%20%28syrup%29)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4818118)
 

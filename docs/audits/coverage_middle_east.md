@@ -8,27 +8,27 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Turkey | high | 57 | 15 | 20 | 41 | 458 | 34 | 63% |
+| Turkey | high | 65 | 17 | 22 | 44 | 458 | 31 | 68% |
 
 ## Arabian Peninsula
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Yemen | low | 6 | 1 | 3 | 4 | 0 | 0 | 100% |
 | Saudi Arabia | low | 2 | 0 | 2 | 2 | 73 | 0 | 100% |
-| Bahrain | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| Kuwait | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
+| Bahrain | low | 1 | 1 | 0 | 0 | 0 | 0 | 100% |
+| United Arab Emirates | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
+| Kuwait | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Oman | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Qatar | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| United Arab Emirates | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| Yemen | absent | 0 | 0 | 0 | 0 | 0 | 7 | 0% |
 
 ## Caucasus
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Armenia | recipes only | 0 | 0 | 0 | 0 | 3 | 5 | 0% |
-| Azerbaijan | recipes only | 0 | 0 | 0 | 0 | 2 | 5 | 0% |
-| Georgia | absent | 0 | 0 | 0 | 0 | 0 | 19 | 0% |
+| Georgia | medium | 22 | 3 | 8 | 15 | 0 | 4 | 85% |
+| Armenia | low | 12 | 2 | 5 | 6 | 3 | 2 | 86% |
+| Azerbaijan | low | 8 | 0 | 4 | 4 | 2 | 1 | 89% |
 
 ## Levant
 
@@ -36,22 +36,22 @@ Back to [world coverage](coverage_world.md).
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Lebanon | medium | 31 | 19 | 18 | 21 | 596 | 0 | 100% |
 | Palestine | medium | 18 | 1 | 10 | 11 | 51 | 0 | 100% |
+| Israel | medium | 15 | 3 | 7 | 8 | 0 | 3 | 83% |
 | Syria | recipes only | 0 | 0 | 0 | 0 | 5 | 2 | 0% |
-| Israel | absent | 0 | 0 | 0 | 0 | 0 | 6 | 0% |
 | Jordan | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 
 ## Mesopotamia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Iraq | low | 11 | 1 | 6 | 7 | 66 | 2 | 85% |
+| Iraq | low | 11 | 1 | 6 | 7 | 66 | 3 | 79% |
 
 ## North Africa
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Morocco | medium | 20 | 9 | 12 | 14 | 1,592 | 0 | 100% |
-| Egypt | medium | 15 | 8 | 4 | 4 | 205 | 3 | 83% |
+| Egypt | medium | 16 | 9 | 5 | 6 | 205 | 2 | 89% |
 | Algeria | low | 11 | 1 | 2 | 3 | 11 | 3 | 79% |
 | Tunisia | low | 6 | 2 | 3 | 3 | 7 | 2 | 75% |
 | Libya | low | 2 | 0 | 1 | 1 | 17 | 0 | 100% |
@@ -61,28 +61,19 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Iran | low | 14 | 2 | 7 | 9 | 432 | 28 | 33% |
-
-## Not in the place tree yet
-
-| Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Cyprus | absent | 0 | 0 | 0 | 0 | 0 | 4 | 0% |
+| Iran | medium | 18 | 3 | 9 | 11 | 432 | 25 | 42% |
 
 ## Countries with the most to add
 
-- **Turkey** (high; 34 ready, 0 to review): İnegöl meatballs, nokul, chickpea bread, Mirik meatball, Harput meatballs, şalgam, ıslama köfte, çörek.
-- **Iran** (low; 28 ready, 0 to review): Kaak, sohan asali, qottab, pihta, masghati, komaj sehen, kolompeh, ghormeh sabzi.
-- **Georgia** (absent; 19 ready, 0 to review): acıka, Kubdari, lobio, kharcho, khachapuri, chakhokhbili, Tonis puri, Tkemali.
-- **Yemen** (absent; 7 ready, 0 to review): skhug, hawaij, Shahi Haleeb, Malooga, Kubaneh, Jachnun, Fatoot.
-- **Israel** (absent; 6 ready, 0 to review): malawach, Tzfat cheese, Sabich salad, Israeli eggplant salad, Halva ice cream, Bagel toast.
-- **Armenia** (recipes only; 5 ready, 0 to review): Nazook, Matnakash, Ghapama, Gata, Boraki.
-- **Azerbaijan** (recipes only; 5 ready, 0 to review): qutab, piti, dovga, badambura, Lula kebab.
-- **Cyprus** (absent; 0 ready, 4 to review): Anari cheese, Tsamarella, Hellimli, Apohtin.
-- **Egypt** (medium; 3 ready, 0 to review): matzah, torshi, Fig roll.
+- **Turkey** (high; 31 ready, 0 to review): İnegöl meatballs, nokul, chickpea bread, Mirik meatball, Harput meatballs, şalgam, ıslama köfte, çörek.
+- **Iran** (medium; 25 ready, 0 to review): Kaak, sohan asali, qottab, masghati, komaj sehen, kolompeh, ghormeh sabzi, bamiyeh.
+- **Georgia** (medium; 4 ready, 0 to review): Tvishi, Tsinandali wine, Georgian cheese, Elarji.
+- **Israel** (medium; 3 ready, 0 to review): Sabich salad, Israeli eggplant salad, Halva ice cream.
+- **Iraq** (low; 3 ready, 0 to review): ِAbbas bread, tandoor bread, pihta.
 - **Algeria** (low; 3 ready, 0 to review): argan oil, Matlou, Khobz tounes.
+- **Armenia** (low; 2 ready, 0 to review): Boraki, Areni Sev.
 - **Syria** (recipes only; 2 ready, 0 to review): markook, Shʿifūra.
-- **Iraq** (low; 2 ready, 0 to review): ِAbbas bread, tandoor bread.
+- **Egypt** (medium; 2 ready, 0 to review): torshi, Fig roll.
 - **Tunisia** (low; 2 ready, 0 to review): Mafrum, Kabkabou.
-- **Kuwait** (absent; 1 ready, 0 to review): Kuwaiti tea.
-- **United Arab Emirates** (absent; 1 ready, 0 to review): Dubai chocolate.
+- **Azerbaijan** (low; 1 ready, 0 to review): badambura.
+- **Jordan** (absent; 1 ready, 0 to review): jameed.

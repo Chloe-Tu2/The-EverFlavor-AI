@@ -419,6 +419,30 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1046006) (CC0); [Wikipedia: Curry bread](https://en.wikipedia.org/wiki/Curry_bread) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Daifuku
+
+Daifukumochi, or daifuku, is a wagashi, a type of Japanese confection, consisting of a small round mochi stuffed with a sweet filling, most commonly anko, a sweetened red bean paste made from azuki beans.
+
+- From: Japan
+- Origin (Wikidata): Japan
+- Ingredients (Wikidata): glutinous rice, red bean paste
+
+Fun facts:
+
+- (history) By the end of the 18th century, daifuku were gaining popularity, and people began eating them toasted.
+- (culture) Though mochitsuki is the traditional method of making mochi and daifuku, they can also be cooked in a microwave.
+- (origin) Daifuku comes from Japan.
+
+Learn more:
+
+- quick: [Daifuku (Wikipedia)](https://en.wikipedia.org/wiki/Daifuku)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
+- more: [Cuisine of Taiwan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Taiwan)
+- deep: [Books about Daifuku (Open Library)](https://openlibrary.org/search?q=Daifuku)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1067842)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1067842) (CC0); [Wikipedia: Daifuku](https://en.wikipedia.org/wiki/Daifuku) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Dango
 
 Dango is a Japanese dumpling made with regular rice flour and glutinous rice flour.
@@ -1247,6 +1271,7 @@ Learn more:
 
 - quick: [Kimchi (Wikipedia)](https://en.wikipedia.org/wiki/Kimchi)
 - more: [List of Japanese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Japanese_dishes)
+- more: [North Korean cuisine (Wikipedia)](https://en.wikipedia.org/wiki/North_Korean_cuisine)
 - deep: [Books about Kimchi (Open Library)](https://openlibrary.org/search?q=Kimchi)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q141898)
 
@@ -1778,6 +1803,7 @@ Learn more:
 
 - quick: [Oden (Wikipedia)](https://en.wikipedia.org/wiki/Oden)
 - more: [List of Japanese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Japanese_dishes)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
 - deep: [Books about Oden (Open Library)](https://openlibrary.org/search?q=Oden)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q655040)
 
@@ -2076,6 +2102,7 @@ Learn more:
 
 - quick: [Ramen (Wikipedia)](https://en.wikipedia.org/wiki/Ramen)
 - more: [List of Japanese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Japanese_dishes)
+- more: [List of North Korean dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_North_Korean_dishes)
 - deep: [Books about Ramen (Open Library)](https://openlibrary.org/search?q=Ramen)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q234646)
 
@@ -2418,6 +2445,7 @@ Learn more:
 
 - quick: [Takoyaki (Wikipedia)](https://en.wikipedia.org/wiki/Takoyaki)
 - more: [List of Japanese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Japanese_dishes)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
 - deep: [Books about Takoyaki (Open Library)](https://openlibrary.org/search?q=Takoyaki)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q905527)
 
@@ -3692,6 +3720,7 @@ Learn more:
 
 - quick: [Sake (Wikipedia)](https://en.wikipedia.org/wiki/Sake)
 - more: [List of Japanese dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Japanese_dishes)
+- more: [Taiwanese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Taiwanese_cuisine)
 - deep: [Books about Sake (Open Library)](https://openlibrary.org/search?q=Sake)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q170219)
 
@@ -3823,6 +3852,32 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q753910)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q753910) (CC0); [Wikipedia: Soba](https://en.wikipedia.org/wiki/Soba) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Sturgeon
+
+Sturgeon are the 27 species of fish belonging to the family Acipenseridae.
+
+- From: Japan
+
+Fun facts:
+
+- (history) The largest sturgeon on record was a beluga female captured in the Volga Delta in 1827, measuring 7.2 m (23 ft 7 in) long and weighing 1,571 kg (3,463 lb).
+- (about) True sturgeons appear in the fossil record during the Upper Cretaceous, with amongst the oldest known remains being a partial skull from the Cenomanian (100–94 million years ago) of Alberta, Canada.
+- (about) Acipenseriform fishes appeared in the fossil record some 174 to 201 million years ago, during the Early Jurassic, making them some of the earliest extant actinopterygian fishes.
+
+More fun facts (when the user asks for more):
+
+- (about) Beginning in 2011 H. naccarii was presumed extinct in the wild, but in 2022 was downgraded to critically endangered.
+
+Learn more:
+
+- quick: [Sturgeon (Wikipedia)](https://en.wikipedia.org/wiki/Sturgeon)
+- more: [Ukrainian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Ukrainian_cuisine)
+- more: [Cuisine of Ukraine (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Ukraine)
+- deep: [Books about Sturgeon (Open Library)](https://openlibrary.org/search?q=Sturgeon)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q181871)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q181871) (CC0); [Wikipedia: Sturgeon](https://en.wikipedia.org/wiki/Sturgeon) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Sōmen
 

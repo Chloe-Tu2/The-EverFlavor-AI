@@ -12,13 +12,14 @@
  "countries_with_a_dish": [
   "Denmark",
   "Finland",
+  "Iceland",
   "Norway",
   "Sweden"
  ],
- "coverage_score": 74.5,
- "dish_count": 138,
- "food_and_drink_count": 79,
- "story_count": 94,
+ "coverage_score": 93.6,
+ "dish_count": 145,
+ "food_and_drink_count": 80,
+ "story_count": 98,
  "representative_dishes": [
   "Danish pastry",
   "Kladdkaka",
@@ -34,10 +35,10 @@
   "pastry",
   "cow's-milk cheese",
   "pork dish",
+  "flatbread",
   "cake",
   "candy",
-  "flatbread",
-  "potato dish"
+  "lamb dish"
  ],
  "indigenous_traditions": [],
  "related_regions": [
