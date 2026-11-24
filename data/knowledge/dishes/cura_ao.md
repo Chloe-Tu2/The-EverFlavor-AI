@@ -2,6 +2,25 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
+### Keshi yena
+
+Keshi yena is an Aruban and Curaçaoan main course dish, consisting of a large round ball of cheese stuffed with spiced meat (often chicken), served steamed or baked.
+
+- From: Curaçao
+
+Fun facts:
+
+- (origin) Keshi yena is believed to have originated from Dutch Empire slaves of the Dutch West Indies stuffing leftover rinds of Gouda or Edam cheeses with meat table scraps.
+- (culture) While some modern cooks prepare keshi yena in ramekins, others stick to the traditional method of baking the dish in an empty can of sausages, or by wrapping the cheese in plantain leaves.
+
+Learn more:
+
+- quick: [Keshi yena (Wikipedia)](https://en.wikipedia.org/wiki/Keshi_yena)
+- deep: [Books about Keshi yena (Open Library)](https://openlibrary.org/search?q=Keshi%20yena)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17079448)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q17079448) (CC0); [Wikipedia: Keshi yena](https://en.wikipedia.org/wiki/Keshi_yena) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Curaçao (liqueur)
 
 Curaçao is a liqueur flavored with the dried peel of the bitter orange variety laraha, a citrus fruit grown on the Caribbean island of Curaçao.

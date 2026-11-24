@@ -4,54 +4,54 @@
  "recipes": 291755,
  "recipe_nodes": 291755,
  "by_relation": {
-  "recipe_from": 163090,
-  "recipe_of": 73885,
-  "none": 50463,
-  "named_for": 4317
+  "recipe_from": 163069,
+  "recipe_of": 73913,
+  "none": 50457,
+  "named_for": 4316
  },
  "by_source": {
   "culinarydb": {
-   "recipe_from": 21248,
-   "recipe_of": 10532,
-   "none": 2897,
-   "named_for": 648
+   "recipe_from": 21246,
+   "recipe_of": 10536,
+   "none": 2896,
+   "named_for": 647
   },
   "foodcom": {
-   "recipe_from": 118884,
-   "recipe_of": 53613,
-   "none": 42521,
+   "recipe_from": 118867,
+   "recipe_of": 53635,
+   "none": 42516,
    "named_for": 3006
   },
   "huggingface": {
-   "recipe_from": 22555,
-   "recipe_of": 9565,
+   "recipe_from": 22554,
+   "recipe_of": 9566,
    "none": 5045,
    "named_for": 658
   },
   "themealdb": {
-   "recipe_from": 403,
-   "recipe_of": 175,
+   "recipe_from": 402,
+   "recipe_of": 176,
    "named_for": 5
   }
  },
  "recipe_from_by_place": {
-  "United States": 88546,
-  "Italy": 14662,
+  "United States": 88540,
+  "Italy": 14661,
   "Mexico": 6967,
   "France": 5732,
   "India": 5338,
   "China": 4087,
-  "Greece": 3127,
+  "Greece": 3122,
   "Southern US": 3102,
   "Canada": 2400,
   "Australia": 2153,
   "United Kingdom": 1919,
-  "Midwestern US": 1790,
+  "Midwestern US": 1789,
   "Thailand": 1714,
   "Japan": 1636,
-  "Spain": 1288,
+  "Spain": 1287,
   "Southwestern US": 1205,
-  "Morocco": 1200,
+  "Morocco": 1199,
   "Northeastern US": 1131,
   "Louisiana": 1083,
   "Germany": 1019,
@@ -81,17 +81,17 @@
   "Pennsylvania": 229,
   "Scotland": 228,
   "Hungary": 213,
-  "Netherlands": 196,
   "Denmark": 195,
-  "Egypt": 165,
+  "Netherlands": 195,
+  "Egypt": 164,
   "Indonesia": 163,
   "Norway": 149,
   "Philippines": 136,
-  "Finland": 118,
+  "Finland": 117,
   "Argentina": 89,
-  "Czech Republic": 80,
   "Quebec": 79,
   "Belgium": 78,
+  "Czech Republic": 78,
   "Austria": 78,
   "Sichuan": 77,
   "Baja California": 74,
@@ -108,7 +108,7 @@
   "Chile": 45,
   "Oaxaca": 42,
   "Palestine": 40,
-  "Cambodia": 40,
+  "Cambodia": 39,
   "Costa Rica": 31,
   "Nepal": 30,
   "Ecuador": 27,
@@ -151,6 +151,6 @@
   "Andorra": 1
  },
  "no_edge_by_country": {
-  "(no country)": 50463
+  "(no country)": 50457
  }
 }

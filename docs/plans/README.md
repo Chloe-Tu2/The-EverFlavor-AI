@@ -312,6 +312,57 @@ Nothing built yet. Coverage replaces the dish count as the headline
 | The 18 countries without a map cuisine tag | [map_validation_report.md](../audits/map_validation_report.md) | OpenStreetMap's wiki (Key:cuisine); only tags in use |
 | Related dishes in Check my recipe, stored nowhere | `waiter.Knowledge.find`, the Food Graph | a small back-end function, then the panel |
 
+#### Release gates (med27-coder, 2026-11-23): a version ships when its outcome is reached
+
+A version answers "what can a person do now that they could not before?", not "which issues closed". It ships as
+beta when every condition is met. GitHub milestones v0.8 to v2.0 track them; "person" means a team member must do
+it (Claude cannot sign off for people). Numbers come from `data/knowledge/atlas/atlas_metrics.json`.
+
+**Progress (2026-11-23):** 0.8 has 1 of 9 conditions met; 0.9 has 2 of 10. Most blockers are reviews by people.
+
+**0.8.0 beta, Atlas Foundations.** Done when a person can browse countries, dishes, maps, photos and related foods
+with confidence.
+
+| Area | Condition | Who | State |
+|---|---|---|---|
+| Coverage | Coverage counting rule confirmed (review item 21), then world coverage shown in the app | person, then Claude | open |
+| Coverage | README dashboard, metrics and sprint impact reports generated automatically | Claude | met |
+| Images | Staged photos signed off (the 72 passed contact sheets), then linked: about 203 dishes become rich | person, then Claude | open |
+| Images | Cuisine and country image fallbacks, checked by a person; no broken image path | Claude, then person | open |
+| Discovery | Related dishes in Check my recipe | Claude | open |
+| Discovery | The 18 countries without a map cuisine tag | Claude | open |
+| Discovery | The store locator works (ZIP search, details, directions) | Claude | open |
+| Reviews | Items 24, 28, 29 and 30 (moved dishes, country scores, sprint entries) answered | person | open |
+| Release | CI green; the team tries `release/0.8.0` and approves | person | after the above |
+
+**0.9.0 beta, Atlas Experience.** Done when a person can explore regions, traditions and food culture, not only
+dishes.
+
+| Area | Condition | Who | State |
+|---|---|---|---|
+| Knowledge | Walter's five questions, from the graph's fixed lines | Claude | open |
+| Knowledge | Region pages generated for every region with a dish | Claude | met (30) |
+| Knowledge | Region pages shown in the app; representative-dish rule accepted (item 27) | person, then Claude | open |
+| Preservation | Indigenous tags reviewed by the rubric (item 26) before the app shows any | person | open |
+| Enrichment | At least 100 reviewed dish facts (`data/knowledge/review/focus_review.csv`) | person | open (0) |
+| Enrichment | Coverage, representation, enrichment and preservation metrics generated | Claude | met |
+| Safety | Chat with the chef ([CHEF_CHAT.md](CHEF_CHAT.md)) with its red-team tests green; Walter says only sourced, reviewed facts | Claude, then person | open |
+| Experience | Nice-to-have: the loading screen (issues #48 to #52) | Claude | open |
+| Experience | Store locator polish, if not finished in 0.8 | Claude | open |
+| Release | CI green; the team tries `release/0.9.0` and approves | person | after the above |
+
+**1.0.0, Culinary Atlas.** Represent the world's culinary traditions, not only collect recipes. Targets, against
+2026-11-23: world coverage at least 50% (60.4%, met), Africa at least 50% (41.0%), Oceania at least 35% (27.9%),
+every country in the app with a dish, country and region pages complete, the Food Graph and dish families stable,
+Walter's knowledge reviewed, no open critical review item, and the sprint checklist and release process in use.
+
+**2.0.0, Community Layer.** Preserve living food culture: accounts, family recipes, sharing, stories, community
+contributions and moderation. Only after 1.0.
+
+**Atlas health, every sprint:** coverage, representation, enrichment and preservation should go up and
+governance should not slip (open review items logged, none silently closed). The sprint impact report
+(`docs/audits/sprints/`) shows all five.
+
 ### 0.9.0 (planned): chat with the chef, the Africa sprint, Walter's five questions
 
 Chat with the chef moved here from 0.8.0 (med27-coder, 2026-11-22). The Africa sprint starts with the 38 ready
@@ -321,6 +372,7 @@ from, why it matters, similar dishes and its versions.
 | Feature | Plan | In short | First steps |
 |---|---|---|---|
 | Chat with the chef | [CHEF_CHAT.md](CHEF_CHAT.md) | A bubble bottom-right; the chef answers by calling the project's own functions (find, check, substitutions, where to buy), never from its own judgment; every recipe re-checked by the safety gate; rules-only answers when the local AI is off; no chat history saved | `chat.py` with a rules router and red-team tests, then the bubble |
+| Loading screen (asked by med27-coder, 2026-11-23; nice-to-have) | GitHub issues #48 to #52 (EF-901 to EF-905) | Only where the app really waits (the first data load, a slow page): a pixel-art chef, or Walter, stirring a comically large pot, in the kitchen's art style (no emojis); steam rises, the spoon bends, a vegetable jumps out. Its lines rotate ("Checking the atlas...", "Finding related dishes...") and can name what is loading ("Exploring Sichuan cuisine..."). A "Did you know?" line uses reviewed facts only, with their source | the art on a branch first (`design/`), then a `st.empty` placeholder around the first load in `app.py`; later a pot per region (a copper pot for the Middle East, a cauldron for the Nordic countries) |
 | Store locator | [MAP.md](MAP.md), "Making it a real store locator" | A list beside the map, ZIP search from the Census table (no paid API), a details card with directions, "Where to buy" from a recipe; MapLibre later; Greater Houston coverage | back-end `map_places` and `zip_center`, then the wider data |
 
 [CHEF_CHAT.md](CHEF_CHAT.md) lists open questions for the team at its end.

@@ -40,6 +40,13 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   Americas 60.3%, Asia 72.9%, Europe 81.7%. `scripts/knowledge/country_scores.py` scores each country for
   coverage, representation and enrichment and lists the weakly represented ones (47) as the next targets; the
   README dashboard shows the summary.
+- **Sprint 4, coverage recovery** (2026-11-23): for the 91 weak or uncovered countries, the fetch also reads
+  their Wikipedia categories ("Category:Kenyan cuisine" and its dish subcategories) and Wikidata's country of
+  origin. A category only adds an article no page gives and keeps it only when it is a dish whose Wikidata origin
+  or own intro names the country. 64 dishes added (Cambodia 14, Algeria 9), none moved or lost; 154 countries
+  have a dish, 115 three or more; world coverage 63.7%, Africa 44.0%, Oceania 32.3%. Per-sprint impact reports
+  (`enrichment_impact.py --sprint N`, `docs/audits/sprints/`), the sprint review checklist, a pull request
+  template, an atlas sprint review issue form and an Indigenous tag review sheet.
 
 ### Changed
 

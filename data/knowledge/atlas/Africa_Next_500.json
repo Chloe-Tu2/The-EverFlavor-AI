@@ -12,7 +12,7 @@
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
  "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
- "count": 23,
+ "count": 19,
  "dishes": [
   {
    "dish": "Kenyan cheese",
@@ -38,23 +38,24 @@
    ]
   },
   {
-   "dish": "Khobz tounes",
-   "wikidata": "Q16648323",
+   "dish": "argan oil",
+   "wikidata": "Q45418",
    "country": "Algeria",
    "subregion": "Northern Africa",
    "families": [
-    "cake"
+    "cooking oil",
+    "seed oil"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16648323",
+     "url": "https://www.wikidata.org/wiki/Q45418",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Khobz_tounes",
+     "url": "https://en.wikipedia.org/wiki/Argan_oil",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -153,23 +154,23 @@
    ]
   },
   {
-   "dish": "Ngome",
-   "wikidata": "Q7022523",
-   "country": "Mali",
+   "dish": "Afia Efere",
+   "wikidata": "Q113039087",
+   "country": "Nigeria",
    "subregion": "Western Africa",
    "families": [
-    "flatbread"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7022523",
+     "url": "https://www.wikidata.org/wiki/Q113039087",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ngome_(bread)",
+     "url": "https://en.wikipedia.org/wiki/Afia_Efere",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -222,8 +223,8 @@
    ]
   },
   {
-   "dish": "Afia Efere",
-   "wikidata": "Q113039087",
+   "dish": "Gbegiri",
+   "wikidata": "Q85735249",
    "country": "Nigeria",
    "subregion": "Western Africa",
    "families": [
@@ -232,13 +233,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q113039087",
+     "url": "https://www.wikidata.org/wiki/Q85735249",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Afia_Efere",
+     "url": "https://en.wikipedia.org/wiki/Gbegiri",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -263,75 +264,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Eshabwe",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Matlou",
-   "wikidata": "Q12243625",
-   "country": "Algeria",
-   "subregion": "Northern Africa",
-   "families": [
-    "bread"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12243625",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Matloue",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Gbegiri",
-   "wikidata": "Q85735249",
-   "country": "Nigeria",
-   "subregion": "Western Africa",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q85735249",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Gbegiri",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Kikalayi",
-   "wikidata": "Q132661273",
-   "country": "Uganda",
-   "subregion": "Eastern Africa",
-   "families": [
-    "mammal meat"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q132661273",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kikalayi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -384,23 +316,23 @@
    ]
   },
   {
-   "dish": "Mafrum",
-   "wikidata": "Q6585018",
-   "country": "Tunisia",
-   "subregion": "Northern Africa",
+   "dish": "Kikalayi",
+   "wikidata": "Q132661273",
+   "country": "Uganda",
+   "subregion": "Eastern Africa",
    "families": [
-    "stuffed vegetable"
+    "mammal meat"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6585018",
+     "url": "https://www.wikidata.org/wiki/Q132661273",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mafrum",
+     "url": "https://en.wikipedia.org/wiki/Kikalayi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -424,30 +356,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Ofe_onugbu",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "argan oil",
-   "wikidata": "Q45418",
-   "country": "Algeria",
-   "subregion": "Northern Africa",
-   "families": [
-    "cooking oil",
-    "seed oil"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q45418",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Argan_oil",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

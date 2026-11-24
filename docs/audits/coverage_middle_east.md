@@ -37,43 +37,43 @@ Back to [world coverage](coverage_world.md).
 | Lebanon | medium | 31 | 19 | 18 | 21 | 596 | 0 | 100% |
 | Palestine | medium | 18 | 1 | 10 | 11 | 51 | 0 | 100% |
 | Israel | medium | 15 | 3 | 7 | 8 | 0 | 3 | 83% |
-| Syria | recipes only | 0 | 0 | 0 | 0 | 5 | 2 | 0% |
+| Syria | low | 3 | 0 | 1 | 1 | 5 | 1 | 75% |
 | Jordan | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 
 ## Mesopotamia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Iraq | low | 11 | 1 | 6 | 7 | 66 | 3 | 79% |
+| Iraq | low | 11 | 1 | 6 | 7 | 66 | 2 | 85% |
 
 ## North Africa
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Morocco | medium | 20 | 9 | 12 | 14 | 1,592 | 0 | 100% |
+| Algeria | medium | 20 | 2 | 6 | 7 | 11 | 1 | 95% |
 | Egypt | medium | 16 | 9 | 5 | 6 | 205 | 2 | 89% |
-| Algeria | low | 11 | 1 | 2 | 3 | 11 | 3 | 79% |
-| Tunisia | low | 6 | 2 | 3 | 3 | 7 | 2 | 75% |
-| Libya | low | 2 | 0 | 1 | 1 | 17 | 0 | 100% |
+| Tunisia | low | 6 | 2 | 3 | 3 | 7 | 1 | 86% |
+| Libya | low | 3 | 0 | 2 | 2 | 17 | 0 | 100% |
 | Sudan | low | 1 | 0 | 1 | 1 | 12 | 0 | 100% |
 
 ## Persian Region
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Iran | medium | 18 | 3 | 9 | 11 | 432 | 25 | 42% |
+| Iran | medium | 18 | 3 | 9 | 11 | 432 | 26 | 41% |
 
 ## Countries with the most to add
 
 - **Turkey** (high; 31 ready, 0 to review): İnegöl meatballs, nokul, chickpea bread, Mirik meatball, Harput meatballs, şalgam, ıslama köfte, çörek.
-- **Iran** (medium; 25 ready, 0 to review): Kaak, sohan asali, qottab, masghati, komaj sehen, kolompeh, ghormeh sabzi, bamiyeh.
+- **Iran** (medium; 26 ready, 0 to review): Kaak, sohan asali, qottab, pihta, masghati, komaj sehen, kolompeh, ghormeh sabzi.
 - **Georgia** (medium; 4 ready, 0 to review): Tvishi, Tsinandali wine, Georgian cheese, Elarji.
 - **Israel** (medium; 3 ready, 0 to review): Sabich salad, Israeli eggplant salad, Halva ice cream.
-- **Iraq** (low; 3 ready, 0 to review): ِAbbas bread, tandoor bread, pihta.
-- **Algeria** (low; 3 ready, 0 to review): argan oil, Matlou, Khobz tounes.
 - **Armenia** (low; 2 ready, 0 to review): Boraki, Areni Sev.
-- **Syria** (recipes only; 2 ready, 0 to review): markook, Shʿifūra.
+- **Iraq** (low; 2 ready, 0 to review): ِAbbas bread, tandoor bread.
 - **Egypt** (medium; 2 ready, 0 to review): torshi, Fig roll.
-- **Tunisia** (low; 2 ready, 0 to review): Mafrum, Kabkabou.
 - **Azerbaijan** (low; 1 ready, 0 to review): badambura.
+- **Syria** (low; 1 ready, 0 to review): markook.
 - **Jordan** (absent; 1 ready, 0 to review): jameed.
+- **Algeria** (medium; 1 ready, 0 to review): argan oil.
+- **Tunisia** (low; 1 ready, 0 to review): Kabkabou.

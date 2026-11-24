@@ -12,29 +12,29 @@
   "Latvia",
   "Lithuania"
  ],
- "coverage_score": 73.3,
- "dish_count": 8,
+ "coverage_score": 92.1,
+ "dish_count": 13,
  "food_and_drink_count": 8,
- "story_count": 3,
+ "story_count": 4,
  "representative_dishes": [
+  "Egg butter",
+  "Sepik (bread)",
   "Rupjmaize",
   "Apple cheese",
   "Mulgipuder",
   "Sklandrausis",
-  "Tinginys",
-  "Juka (soup)",
-  "Kibinai",
-  "Mulgikapsad"
+  "Grey peas",
+  "Tinginys"
  ],
  "dish_families": [
+  "egg dish",
   "flour",
   "porridge",
+  "brown bread",
   "butter",
   "baked good",
   "rye bread",
-  "pie",
-  "soup",
-  "stuffed food"
+  "pie"
  ],
  "indigenous_traditions": [],
  "related_regions": [

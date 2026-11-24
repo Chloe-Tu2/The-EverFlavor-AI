@@ -18,10 +18,10 @@
   "Sudan",
   "Tunisia"
  ],
- "coverage_score": 88.2,
- "dish_count": 56,
+ "coverage_score": 92.5,
+ "dish_count": 66,
  "food_and_drink_count": 47,
- "story_count": 38,
+ "story_count": 42,
  "representative_dishes": [
   "Matzah",
   "Shakshouka",
@@ -37,10 +37,10 @@
   "salad",
   "pastry",
   "hot sauce",
+  "pancake",
+  "bread",
   "bread roll",
-  "pie",
-  "lamb dish",
-  "cheese"
+  "pie"
  ],
  "indigenous_traditions": [],
  "related_regions": [

@@ -12,7 +12,7 @@
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
  "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
- "count": 393,
+ "count": 391,
  "dishes": [
   {
    "dish": "Biscuit cake",
@@ -292,23 +292,24 @@
    ]
   },
   {
-   "dish": "Scorcolga",
-   "wikidata": "Q13479641",
+   "dish": "Brânză de vaci",
+   "wikidata": "Q108112946",
    "country": "Moldova",
    "subregion": "Eastern Europe",
    "families": [
-    "sauce"
+    "cow's-milk cheese",
+    "Romanian cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q13479641",
+     "url": "https://www.wikidata.org/wiki/Q108112946",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Scorcolga",
+     "url": "https://en.wikipedia.org/wiki/Br%C3%A2nz%C4%83_de_vaci",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -338,24 +339,24 @@
    ]
   },
   {
-   "dish": "Njeguška pršuta",
-   "wikidata": "Q3160844",
-   "country": "Montenegro",
+   "dish": "doce de ovos",
+   "wikidata": "Q83397433",
+   "country": "Portugal",
    "subregion": "Southern Europe",
    "families": [
-    "ham",
-    "prosciutto"
+    "jam",
+    "custard"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3160844",
+     "url": "https://www.wikidata.org/wiki/Q83397433",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Njegu%C5%A1ki_pr%C5%A1ut",
+     "url": "https://en.wikipedia.org/wiki/Doce_de_ovos",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -431,24 +432,23 @@
    ]
   },
   {
-   "dish": "doce de ovos",
-   "wikidata": "Q83397433",
-   "country": "Portugal",
+   "dish": "Potica",
+   "wikidata": "Q11700178",
+   "country": "Slovenia",
    "subregion": "Southern Europe",
    "families": [
-    "jam",
-    "custard"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q83397433",
+     "url": "https://www.wikidata.org/wiki/Q11700178",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Doce_de_ovos",
+     "url": "https://en.wikipedia.org/wiki/Potica",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -524,23 +524,23 @@
    ]
   },
   {
-   "dish": "Potica",
-   "wikidata": "Q11700178",
-   "country": "Slovenia",
+   "dish": "Andrajos",
+   "wikidata": "Q2881895",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "pastry"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q11700178",
+     "url": "https://www.wikidata.org/wiki/Q2881895",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Potica",
+     "url": "https://en.wikipedia.org/wiki/Andrajos",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -616,23 +616,24 @@
    ]
   },
   {
-   "dish": "Andrajos",
-   "wikidata": "Q2881895",
-   "country": "Spain",
+   "dish": "kourabiedes",
+   "wikidata": "Q19934811",
+   "country": "Greece",
    "subregion": "Southern Europe",
    "families": [
-    "stew"
+    "cookie",
+    "shortbread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2881895",
+     "url": "https://www.wikidata.org/wiki/Q19934811",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Andrajos",
+     "url": "https://en.wikipedia.org/wiki/Kourabiedes",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -709,24 +710,24 @@
    ]
   },
   {
-   "dish": "kourabiedes",
-   "wikidata": "Q19934811",
-   "country": "Greece",
+   "dish": "Buccellato di Lucca",
+   "wikidata": "Q3646253",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "cookie",
-    "shortbread"
+    "cake",
+    "sweet bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q19934811",
+     "url": "https://www.wikidata.org/wiki/Q3646253",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kourabiedes",
+     "url": "https://en.wikipedia.org/wiki/Buccellato_di_Lucca",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -802,24 +803,23 @@
    ]
   },
   {
-   "dish": "Buccellato di Lucca",
-   "wikidata": "Q3646253",
-   "country": "Italy",
+   "dish": "prego",
+   "wikidata": "Q10353556",
+   "country": "Portugal",
    "subregion": "Southern Europe",
    "families": [
-    "cake",
-    "sweet bread"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3646253",
+     "url": "https://www.wikidata.org/wiki/Q10353556",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Buccellato_di_Lucca",
+     "url": "https://en.wikipedia.org/wiki/Prego_(Portuguese_sandwich)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -895,23 +895,23 @@
    ]
   },
   {
-   "dish": "prego",
-   "wikidata": "Q10353556",
-   "country": "Portugal",
+   "dish": "Ajdov Kruh",
+   "wikidata": "Q4699691",
+   "country": "Slovenia",
    "subregion": "Southern Europe",
    "families": [
-    "sandwich"
+    "flatbread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q10353556",
+     "url": "https://www.wikidata.org/wiki/Q4699691",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Prego_(Portuguese_sandwich)",
+     "url": "https://en.wikipedia.org/wiki/Ajdov_Kruh",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -988,23 +988,23 @@
    ]
   },
   {
-   "dish": "Ajdov Kruh",
-   "wikidata": "Q4699691",
-   "country": "Slovenia",
+   "dish": "Cocido Montañés",
+   "wikidata": "Q927982",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "flatbread"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4699691",
+     "url": "https://www.wikidata.org/wiki/Q927982",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ajdov_Kruh",
+     "url": "https://en.wikipedia.org/wiki/Cocido_monta%C3%B1%C3%A9s",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1034,23 +1034,23 @@
    ]
   },
   {
-   "dish": "Kołacz",
-   "wikidata": "Q17050727",
-   "country": "Poland",
+   "dish": "Scorcolga",
+   "wikidata": "Q13479641",
+   "country": "Moldova",
    "subregion": "Eastern Europe",
    "families": [
-    "pastry"
+    "sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17050727",
+     "url": "https://www.wikidata.org/wiki/Q13479641",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ko%C5%82acz",
+     "url": "https://en.wikipedia.org/wiki/Scorcolga",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1080,23 +1080,24 @@
    ]
   },
   {
-   "dish": "Cocido Montañés",
-   "wikidata": "Q927982",
-   "country": "Spain",
+   "dish": "Batzos",
+   "wikidata": "Q5555631",
+   "country": "Greece",
    "subregion": "Southern Europe",
    "families": [
-    "stew"
+    "Greek cheese",
+    "brined cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q927982",
+     "url": "https://www.wikidata.org/wiki/Q5555631",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cocido_monta%C3%B1%C3%A9s",
+     "url": "https://en.wikipedia.org/wiki/Batzos",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1126,23 +1127,23 @@
    ]
   },
   {
-   "dish": "Colaci",
-   "wikidata": "Q17049500",
-   "country": "Romania",
+   "dish": "Kołacz",
+   "wikidata": "Q17050727",
+   "country": "Poland",
    "subregion": "Eastern Europe",
    "families": [
-    "bread"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17049500",
+     "url": "https://www.wikidata.org/wiki/Q17050727",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Colaci",
+     "url": "https://en.wikipedia.org/wiki/Ko%C5%82acz",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1174,24 +1175,23 @@
    ]
   },
   {
-   "dish": "Batzos",
-   "wikidata": "Q5555631",
-   "country": "Greece",
+   "dish": "Caesar salad",
+   "wikidata": "Q275508",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "Greek cheese",
-    "brined cheese"
+    "salad"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5555631",
+     "url": "https://www.wikidata.org/wiki/Q275508",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Batzos",
+     "url": "https://en.wikipedia.org/wiki/Caesar_salad",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1221,23 +1221,23 @@
    ]
   },
   {
-   "dish": "Fleischkuekle",
-   "wikidata": "Q5458522",
-   "country": "Russia",
+   "dish": "Colaci",
+   "wikidata": "Q17049500",
+   "country": "Romania",
    "subregion": "Eastern Europe",
    "families": [
-    "meat pie"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5458522",
+     "url": "https://www.wikidata.org/wiki/Q17049500",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Fleischkuekle",
+     "url": "https://en.wikipedia.org/wiki/Colaci",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1267,23 +1267,23 @@
    ]
   },
   {
-   "dish": "Caesar salad",
-   "wikidata": "Q275508",
-   "country": "Italy",
+   "dish": "queijada",
+   "wikidata": "Q10356075",
+   "country": "Portugal",
    "subregion": "Southern Europe",
    "families": [
-    "salad"
+    "confectionery"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q275508",
+     "url": "https://www.wikidata.org/wiki/Q10356075",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Caesar_salad",
+     "url": "https://en.wikipedia.org/wiki/Queijada",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1314,23 +1314,23 @@
    ]
   },
   {
-   "dish": "Oštiepok",
-   "wikidata": "Q25999115",
-   "country": "Slovakia",
+   "dish": "Fleischkuekle",
+   "wikidata": "Q5458522",
+   "country": "Russia",
    "subregion": "Eastern Europe",
    "families": [
-    "smoked cheese"
+    "meat pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q25999115",
+     "url": "https://www.wikidata.org/wiki/Q5458522",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/O%C5%A1tiepok",
+     "url": "https://en.wikipedia.org/wiki/Fleischkuekle",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1360,23 +1360,23 @@
    ]
   },
   {
-   "dish": "queijada",
-   "wikidata": "Q10356075",
-   "country": "Portugal",
+   "dish": "Esgarrat",
+   "wikidata": "Q3751036",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "confectionery"
+    "salad"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q10356075",
+     "url": "https://www.wikidata.org/wiki/Q3751036",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Queijada",
+     "url": "https://en.wikipedia.org/wiki/Esgarrat",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1400,6 +1400,98 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Chiboust_cream",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Oštiepok",
+   "wikidata": "Q25999115",
+   "country": "Slovakia",
+   "subregion": "Eastern Europe",
+   "families": [
+    "smoked cheese"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q25999115",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/O%C5%A1tiepok",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Sol over Gudhjem",
+   "wikidata": "Q3425445",
+   "country": "Denmark",
+   "subregion": "Northern Europe",
+   "families": [
+    "open sandwich"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3425445",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sol_over_Gudhjem",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Lesbian wine",
+   "wikidata": "Q1246039",
+   "country": "Greece",
+   "subregion": "Southern Europe",
+   "families": [
+    "Greek wine"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q1246039",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lesbian_wine",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Dominostein",
+   "wikidata": "Q32977",
+   "country": "Germany",
+   "subregion": "Western Europe",
+   "families": [
+    "confectionery"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q32977",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Dominostein",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1431,69 +1523,69 @@
    ]
   },
   {
-   "dish": "Sol over Gudhjem",
-   "wikidata": "Q3425445",
-   "country": "Denmark",
+   "dish": "Rosolli",
+   "wikidata": "Q8097583",
+   "country": "Finland",
    "subregion": "Northern Europe",
-   "families": [
-    "open sandwich"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3425445",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sol_over_Gudhjem",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Esgarrat",
-   "wikidata": "Q3751036",
-   "country": "Spain",
-   "subregion": "Southern Europe",
    "families": [
     "salad"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3751036",
+     "url": "https://www.wikidata.org/wiki/Q8097583",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Esgarrat",
+     "url": "https://en.wikipedia.org/wiki/Rosolli",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Dominostein",
-   "wikidata": "Q32977",
-   "country": "Germany",
-   "subregion": "Western Europe",
+   "dish": "Cuccalar",
+   "wikidata": "Q117847811",
+   "country": "Italy",
+   "subregion": "Southern Europe",
    "families": [
-    "confectionery"
+    "unleavened bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q32977",
+     "url": "https://www.wikidata.org/wiki/Q117847811",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Dominostein",
+     "url": "https://en.wikipedia.org/wiki/Cuccalar",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Drabbelkoek",
+   "wikidata": "Q507591",
+   "country": "Netherlands",
+   "subregion": "Western Europe",
+   "families": [
+    "cookie"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q507591",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Drabbelkoek",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1524,98 +1616,6 @@
    ]
   },
   {
-   "dish": "Rosolli",
-   "wikidata": "Q8097583",
-   "country": "Finland",
-   "subregion": "Northern Europe",
-   "families": [
-    "salad"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q8097583",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Rosolli",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Lesbian wine",
-   "wikidata": "Q1246039",
-   "country": "Greece",
-   "subregion": "Southern Europe",
-   "families": [
-    "Greek wine"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1246039",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Lesbian_wine",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Drabbelkoek",
-   "wikidata": "Q507591",
-   "country": "Netherlands",
-   "subregion": "Western Europe",
-   "families": [
-    "cookie"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q507591",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Drabbelkoek",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Prądnik bread",
-   "wikidata": "Q9189882",
-   "country": "Poland",
-   "subregion": "Eastern Europe",
-   "families": [
-    "bread"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q9189882",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pr%C4%85dnik_bread",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
    "dish": "croffle",
    "wikidata": "Q109558070",
    "country": "Ireland",
@@ -1640,23 +1640,23 @@
    ]
   },
   {
-   "dish": "Cuccalar",
-   "wikidata": "Q117847811",
-   "country": "Italy",
+   "dish": "Madeira wine (DOC)",
+   "wikidata": "Q27697",
+   "country": "Portugal",
    "subregion": "Southern Europe",
    "families": [
-    "unleavened bread"
+    "fortified wine"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q117847811",
+     "url": "https://www.wikidata.org/wiki/Q27697",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cuccalar",
+     "url": "https://en.wikipedia.org/wiki/Madeira_wine",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1686,23 +1686,23 @@
    ]
   },
   {
-   "dish": "Scovardă",
-   "wikidata": "Q7438660",
-   "country": "Romania",
+   "dish": "Prądnik bread",
+   "wikidata": "Q9189882",
+   "country": "Poland",
    "subregion": "Eastern Europe",
    "families": [
-    "pastry"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7438660",
+     "url": "https://www.wikidata.org/wiki/Q9189882",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Scovard%C4%83",
+     "url": "https://en.wikipedia.org/wiki/Pr%C4%85dnik_bread",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1732,23 +1732,23 @@
    ]
   },
   {
-   "dish": "Madeira wine (DOC)",
-   "wikidata": "Q27697",
-   "country": "Portugal",
+   "dish": "Miguelitos",
+   "wikidata": "Q935937",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "fortified wine"
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q27697",
+     "url": "https://www.wikidata.org/wiki/Q935937",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Madeira_wine",
+     "url": "https://en.wikipedia.org/wiki/Miguelitos",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1779,23 +1779,23 @@
    ]
   },
   {
-   "dish": "Tula gingerbread",
-   "wikidata": "Q2511331",
-   "country": "Russia",
+   "dish": "Scovardă",
+   "wikidata": "Q7438660",
+   "country": "Romania",
    "subregion": "Eastern Europe",
    "families": [
-    "pryanik"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2511331",
+     "url": "https://www.wikidata.org/wiki/Q7438660",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tula_pryanik",
+     "url": "https://en.wikipedia.org/wiki/Scovard%C4%83",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1826,23 +1826,23 @@
    ]
   },
   {
-   "dish": "Miguelitos",
-   "wikidata": "Q935937",
-   "country": "Spain",
+   "dish": "Santorini",
+   "wikidata": "Q2223717",
+   "country": "Greece",
    "subregion": "Southern Europe",
    "families": [
-    "cake"
+    "Greek wine"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q935937",
+     "url": "https://www.wikidata.org/wiki/Q2223717",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Miguelitos",
+     "url": "https://en.wikipedia.org/wiki/Santorini_(wine)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1866,6 +1866,98 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Belgian_waffle",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Tula gingerbread",
+   "wikidata": "Q2511331",
+   "country": "Russia",
+   "subregion": "Eastern Europe",
+   "families": [
+    "pryanik"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q2511331",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tula_pryanik",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Bakewell pudding",
+   "wikidata": "Q4849349",
+   "country": "United Kingdom",
+   "subregion": "Northern Europe",
+   "families": [
+    "pudding"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q4849349",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bakewell_pudding",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Fiadone",
+   "wikidata": "Q391869",
+   "country": "Italy",
+   "subregion": "Southern Europe",
+   "families": [
+    "pastry"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q391869",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Fiadone",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Conversation tart",
+   "wikidata": "Q2996393",
+   "country": "France",
+   "subregion": "Western Europe",
+   "families": [
+    "tart"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q2996393",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Conversation_tart",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -1896,98 +1988,6 @@
    ]
   },
   {
-   "dish": "Bakewell pudding",
-   "wikidata": "Q4849349",
-   "country": "United Kingdom",
-   "subregion": "Northern Europe",
-   "families": [
-    "pudding"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4849349",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bakewell_pudding",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Santorini",
-   "wikidata": "Q2223717",
-   "country": "Greece",
-   "subregion": "Southern Europe",
-   "families": [
-    "Greek wine"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2223717",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Santorini_(wine)",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Conversation tart",
-   "wikidata": "Q2996393",
-   "country": "France",
-   "subregion": "Western Europe",
-   "families": [
-    "tart"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2996393",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Conversation_tart",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Kulajda",
-   "wikidata": "Q9018082",
-   "country": "Czech Republic",
-   "subregion": "Eastern Europe",
-   "families": [
-    "soup"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q9018082",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kulajda",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
    "dish": "butter cookie",
    "wikidata": "Q1038537",
    "country": "Denmark",
@@ -2012,23 +2012,23 @@
    ]
   },
   {
-   "dish": "Fiadone",
-   "wikidata": "Q391869",
-   "country": "Italy",
+   "dish": "presunto",
+   "wikidata": "Q17053386",
+   "country": "Portugal",
    "subregion": "Southern Europe",
    "families": [
-    "pastry"
+    "raw ham"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q391869",
+     "url": "https://www.wikidata.org/wiki/Q17053386",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Fiadone",
+     "url": "https://en.wikipedia.org/wiki/Presunto",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2059,23 +2059,23 @@
    ]
   },
   {
-   "dish": "Speckkuchen",
-   "wikidata": "Q2308332",
-   "country": "Hungary",
+   "dish": "Kulajda",
+   "wikidata": "Q9018082",
+   "country": "Czech Republic",
    "subregion": "Eastern Europe",
    "families": [
-    "sheet cake"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2308332",
+     "url": "https://www.wikidata.org/wiki/Q9018082",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Speckkuchen",
+     "url": "https://en.wikipedia.org/wiki/Kulajda",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2105,23 +2105,23 @@
    ]
   },
   {
-   "dish": "presunto",
-   "wikidata": "Q17053386",
-   "country": "Portugal",
+   "dish": "Mollete",
+   "wikidata": "Q121026980",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "raw ham"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17053386",
+     "url": "https://www.wikidata.org/wiki/Q121026980",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Presunto",
+     "url": "https://en.wikipedia.org/wiki/Mollete_(bread)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2151,23 +2151,23 @@
    ]
   },
   {
-   "dish": "babka",
-   "wikidata": "Q797734",
-   "country": "Poland",
+   "dish": "Speckkuchen",
+   "wikidata": "Q2308332",
+   "country": "Hungary",
    "subregion": "Eastern Europe",
    "families": [
-    "cake"
+    "sheet cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q797734",
+     "url": "https://www.wikidata.org/wiki/Q2308332",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Baba_(cake)",
+     "url": "https://en.wikipedia.org/wiki/Speckkuchen",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2198,23 +2198,23 @@
    ]
   },
   {
-   "dish": "Mollete",
-   "wikidata": "Q121026980",
-   "country": "Spain",
+   "dish": "Xynomizithra",
+   "wikidata": "Q1221061",
+   "country": "Greece",
    "subregion": "Southern Europe",
    "families": [
-    "bread"
+    "Greek cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q121026980",
+     "url": "https://www.wikidata.org/wiki/Q1221061",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mollete_(bread)",
+     "url": "https://en.wikipedia.org/wiki/Xinomyzithra",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2244,23 +2244,23 @@
    ]
   },
   {
-   "dish": "sarmale",
-   "wikidata": "Q11078597",
-   "country": "Romania",
+   "dish": "babka",
+   "wikidata": "Q797734",
+   "country": "Poland",
    "subregion": "Eastern Europe",
    "families": [
-    "cabbage roll"
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q11078597",
+     "url": "https://www.wikidata.org/wiki/Q797734",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sarmale",
+     "url": "https://en.wikipedia.org/wiki/Baba_(cake)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2290,23 +2290,23 @@
    ]
   },
   {
-   "dish": "Xynomizithra",
-   "wikidata": "Q1221061",
-   "country": "Greece",
+   "dish": "Gianduja",
+   "wikidata": "Q2270630",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "Greek cheese"
+    "chocolate"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1221061",
+     "url": "https://www.wikidata.org/wiki/Q2270630",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Xinomyzithra",
+     "url": "https://en.wikipedia.org/wiki/Gianduja_(chocolate)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2330,6 +2330,98 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Mozartkugel",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "sarmale",
+   "wikidata": "Q11078597",
+   "country": "Romania",
+   "subregion": "Eastern Europe",
+   "families": [
+    "cabbage roll"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q11078597",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sarmale",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Banbury cake",
+   "wikidata": "Q806142",
+   "country": "United Kingdom",
+   "subregion": "Northern Europe",
+   "families": [
+    "pie"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q806142",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Banbury_cake",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Pan de Cádiz",
+   "wikidata": "Q6059380",
+   "country": "Spain",
+   "subregion": "Southern Europe",
+   "families": [
+    "confectionery"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q6059380",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pan_de_C%C3%A1diz",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Boûkète",
+   "wikidata": "Q2922222",
+   "country": "Belgium",
+   "subregion": "Western Europe",
+   "families": [
+    "pancake"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q2922222",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-23"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bo%C3%BBk%C3%A8te",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2360,98 +2452,6 @@
    ]
   },
   {
-   "dish": "Banbury cake",
-   "wikidata": "Q806142",
-   "country": "United Kingdom",
-   "subregion": "Northern Europe",
-   "families": [
-    "pie"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q806142",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Banbury_cake",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Gianduja",
-   "wikidata": "Q2270630",
-   "country": "Italy",
-   "subregion": "Southern Europe",
-   "families": [
-    "chocolate"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2270630",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Gianduja_(chocolate)",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Boûkète",
-   "wikidata": "Q2922222",
-   "country": "Belgium",
-   "subregion": "Western Europe",
-   "families": [
-    "pancake"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2922222",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bo%C3%BBk%C3%A8te",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "balkánský sýr",
-   "wikidata": "Q17067155",
-   "country": "Slovakia",
-   "subregion": "Eastern Europe",
-   "families": [
-    "brined cheese"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17067155",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Balk%C3%A1nsk%C3%BD_s%C3%BDr",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
    "dish": "bøfsandwich",
    "wikidata": "Q596409",
    "country": "Denmark",
@@ -2475,23 +2475,23 @@
    ]
   },
   {
-   "dish": "Pan de Cádiz",
-   "wikidata": "Q6059380",
-   "country": "Spain",
+   "dish": "Xynotyro",
+   "wikidata": "Q8045571",
+   "country": "Greece",
    "subregion": "Southern Europe",
    "families": [
-    "confectionery"
+    "cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6059380",
+     "url": "https://www.wikidata.org/wiki/Q8045571",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pan_de_C%C3%A1diz",
+     "url": "https://en.wikipedia.org/wiki/Xynotyro",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2521,23 +2521,23 @@
    ]
   },
   {
-   "dish": "Podpłomyk",
-   "wikidata": "Q952111",
-   "country": "Poland",
+   "dish": "balkánský sýr",
+   "wikidata": "Q17067155",
+   "country": "Czech Republic",
    "subregion": "Eastern Europe",
    "families": [
-    "flatbread"
+    "brined cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q952111",
+     "url": "https://www.wikidata.org/wiki/Q17067155",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Podp%C5%82omyk",
+     "url": "https://en.wikipedia.org/wiki/Balk%C3%A1nsk%C3%BD_s%C3%BDr",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2568,23 +2568,23 @@
    ]
   },
   {
-   "dish": "Xynotyro",
-   "wikidata": "Q8045571",
-   "country": "Greece",
+   "dish": "Lorighittas",
+   "wikidata": "Q3837149",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "cheese"
+    "pasta"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q8045571",
+     "url": "https://www.wikidata.org/wiki/Q3837149",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Xynotyro",
+     "url": "https://en.wikipedia.org/wiki/Lorighittas",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2614,24 +2614,23 @@
    ]
   },
   {
-   "dish": "Brânză de vaci",
-   "wikidata": "Q108112946",
-   "country": "Romania",
+   "dish": "Podpłomyk",
+   "wikidata": "Q952111",
+   "country": "Poland",
    "subregion": "Eastern Europe",
    "families": [
-    "cow's-milk cheese",
-    "Romanian cheese"
+    "flatbread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q108112946",
+     "url": "https://www.wikidata.org/wiki/Q952111",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Br%C3%A2nz%C4%83_de_vaci",
+     "url": "https://en.wikipedia.org/wiki/Podp%C5%82omyk",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2661,23 +2660,23 @@
    ]
   },
   {
-   "dish": "Lorighittas",
-   "wikidata": "Q3837149",
-   "country": "Italy",
+   "dish": "Pan de cañada",
+   "wikidata": "Q111182015",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "pasta"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3837149",
+     "url": "https://www.wikidata.org/wiki/Q111182015",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Lorighittas",
+     "url": "https://en.wikipedia.org/wiki/Ca%C3%B1ada_bread",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2753,23 +2752,23 @@
    ]
   },
   {
-   "dish": "Pan de cañada",
-   "wikidata": "Q111182015",
-   "country": "Spain",
+   "dish": "freddo cappuccino",
+   "wikidata": "Q135725164",
+   "country": "Greece",
    "subregion": "Southern Europe",
    "families": [
-    "bread"
+    "iced coffee"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q111182015",
+     "url": "https://www.wikidata.org/wiki/Q135725164",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ca%C3%B1ada_bread",
+     "url": "https://en.wikipedia.org/wiki/Freddo_cappuccino",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2845,23 +2844,23 @@
    ]
   },
   {
-   "dish": "freddo cappuccino",
-   "wikidata": "Q135725164",
-   "country": "Greece",
+   "dish": "Marinara sauce",
+   "wikidata": "Q2088642",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "iced coffee"
+    "tomato sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q135725164",
+     "url": "https://www.wikidata.org/wiki/Q2088642",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Freddo_cappuccino",
+     "url": "https://en.wikipedia.org/wiki/Marinara_sauce",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -2937,23 +2936,23 @@
    ]
   },
   {
-   "dish": "Marinara sauce",
-   "wikidata": "Q2088642",
-   "country": "Italy",
+   "dish": "Sobao",
+   "wikidata": "Q3136951",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "tomato sauce"
+    "sponge cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2088642",
+     "url": "https://www.wikidata.org/wiki/Q3136951",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Marinara_sauce",
+     "url": "https://en.wikipedia.org/wiki/Sobao",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3029,23 +3028,23 @@
    ]
   },
   {
-   "dish": "Sobao",
-   "wikidata": "Q3136951",
-   "country": "Spain",
+   "dish": "Neapolitan ice cream",
+   "wikidata": "Q644776",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "sponge cake"
+    "ice cream"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3136951",
+     "url": "https://www.wikidata.org/wiki/Q644776",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sobao",
+     "url": "https://en.wikipedia.org/wiki/Neapolitan_ice_cream",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3122,23 +3121,23 @@
    ]
   },
   {
-   "dish": "Neapolitan ice cream",
-   "wikidata": "Q644776",
-   "country": "Italy",
+   "dish": "Tortita negra",
+   "wikidata": "Q7827307",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "ice cream"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q644776",
+     "url": "https://www.wikidata.org/wiki/Q7827307",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Neapolitan_ice_cream",
+     "url": "https://en.wikipedia.org/wiki/Tortita_negra",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3214,23 +3213,23 @@
    ]
   },
   {
-   "dish": "Tortita negra",
-   "wikidata": "Q7827307",
-   "country": "Spain",
+   "dish": "Neapolitan ragù",
+   "wikidata": "Q2306472",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "pastry"
+    "ragù"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7827307",
+     "url": "https://www.wikidata.org/wiki/Q2306472",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tortita_negra",
+     "url": "https://en.wikipedia.org/wiki/Neapolitan_rag%C3%B9",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3284,23 +3283,23 @@
    ]
   },
   {
-   "dish": "Neapolitan ragù",
-   "wikidata": "Q2306472",
-   "country": "Italy",
+   "dish": "Yemas de Santa Teresa",
+   "wikidata": "Q2882983",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "ragù"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2306472",
+     "url": "https://www.wikidata.org/wiki/Q2882983",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Neapolitan_rag%C3%B9",
+     "url": "https://en.wikipedia.org/wiki/Yemas_de_Santa_Teresa",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3353,23 +3352,23 @@
    ]
   },
   {
-   "dish": "Yemas de Santa Teresa",
-   "wikidata": "Q2882983",
-   "country": "Spain",
+   "dish": "Neapolitan sauce",
+   "wikidata": "Q4886791",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "pastry"
+    "tomato sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2882983",
+     "url": "https://www.wikidata.org/wiki/Q4886791",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Yemas_de_Santa_Teresa",
+     "url": "https://en.wikipedia.org/wiki/Neapolitan_sauce",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3422,23 +3421,23 @@
    ]
   },
   {
-   "dish": "Neapolitan sauce",
-   "wikidata": "Q4886791",
-   "country": "Italy",
+   "dish": "bocadillo",
+   "wikidata": "Q2884589",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "tomato sauce"
+    "submarine sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4886791",
+     "url": "https://www.wikidata.org/wiki/Q2884589",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Neapolitan_sauce",
+     "url": "https://en.wikipedia.org/wiki/Bocadillo",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3492,23 +3491,23 @@
    ]
   },
   {
-   "dish": "bocadillo",
-   "wikidata": "Q2884589",
-   "country": "Spain",
+   "dish": "Olive bread",
+   "wikidata": "Q111283137",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "submarine sandwich"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2884589",
+     "url": "https://www.wikidata.org/wiki/Q111283137",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bocadillo",
+     "url": "https://en.wikipedia.org/wiki/Olive_bread",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3562,23 +3561,23 @@
    ]
   },
   {
-   "dish": "Olive bread",
-   "wikidata": "Q111283137",
-   "country": "Italy",
+   "dish": "calamari sandwich",
+   "wikidata": "Q633615",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "bread"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q111283137",
+     "url": "https://www.wikidata.org/wiki/Q633615",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Olive_bread",
+     "url": "https://en.wikipedia.org/wiki/Squid_sandwich",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3632,23 +3631,23 @@
    ]
   },
   {
-   "dish": "calamari sandwich",
-   "wikidata": "Q633615",
-   "country": "Spain",
+   "dish": "Pan di Spagna",
+   "wikidata": "Q138702126",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "sandwich"
+    "sponge cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q633615",
+     "url": "https://www.wikidata.org/wiki/Q138702126",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Squid_sandwich",
+     "url": "https://en.wikipedia.org/wiki/Pan_di_Spagna",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3701,23 +3700,23 @@
    ]
   },
   {
-   "dish": "Pan di Spagna",
-   "wikidata": "Q138702126",
-   "country": "Italy",
+   "dish": "fartons",
+   "wikidata": "Q591888",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "sponge cake"
+    "confectionery"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q138702126",
+     "url": "https://www.wikidata.org/wiki/Q591888",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pan_di_Spagna",
+     "url": "https://en.wikipedia.org/wiki/Fartons",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3770,23 +3769,23 @@
    ]
   },
   {
-   "dish": "fartons",
-   "wikidata": "Q591888",
-   "country": "Spain",
+   "dish": "Panbrioche",
+   "wikidata": "Q7130182",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "confectionery"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q591888",
+     "url": "https://www.wikidata.org/wiki/Q7130182",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Fartons",
+     "url": "https://en.wikipedia.org/wiki/Pan_brioche",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3840,23 +3839,23 @@
    ]
   },
   {
-   "dish": "Panbrioche",
-   "wikidata": "Q7130182",
-   "country": "Italy",
+   "dish": "hojuela",
+   "wikidata": "Q5877909",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "bread"
+    "fritter"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7130182",
+     "url": "https://www.wikidata.org/wiki/Q5877909",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pan_brioche",
+     "url": "https://en.wikipedia.org/wiki/Hojuela",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3909,23 +3908,23 @@
    ]
   },
   {
-   "dish": "hojuela",
-   "wikidata": "Q5877909",
-   "country": "Spain",
+   "dish": "Pane di Altamura PDO",
+   "wikidata": "Q3893185",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "fritter"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5877909",
+     "url": "https://www.wikidata.org/wiki/Q3893185",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Hojuela",
+     "url": "https://en.wikipedia.org/wiki/Pane_di_Altamura",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3979,23 +3978,23 @@
    ]
   },
   {
-   "dish": "Pane di Altamura PDO",
-   "wikidata": "Q3893185",
-   "country": "Italy",
+   "dish": "leche frita",
+   "wikidata": "Q593209",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "bread"
+    "confectionery"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3893185",
+     "url": "https://www.wikidata.org/wiki/Q593209",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pane_di_Altamura",
+     "url": "https://en.wikipedia.org/wiki/Leche_frita",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4048,23 +4047,23 @@
    ]
   },
   {
-   "dish": "leche frita",
-   "wikidata": "Q593209",
-   "country": "Spain",
+   "dish": "Panfocaccia",
+   "wikidata": "Q7130870",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "confectionery"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q593209",
+     "url": "https://www.wikidata.org/wiki/Q7130870",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Leche_frita",
+     "url": "https://en.wikipedia.org/wiki/Panfocaccia",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4117,46 +4116,46 @@
    ]
   },
   {
-   "dish": "Panfocaccia",
-   "wikidata": "Q7130870",
-   "country": "Italy",
+   "dish": "marañuela",
+   "wikidata": "Q9028481",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "bread"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7130870",
+     "url": "https://www.wikidata.org/wiki/Q9028481",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Panfocaccia",
+     "url": "https://en.wikipedia.org/wiki/Mara%C3%B1uela",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Torta paesana",
-   "wikidata": "Q47347125",
+   "dish": "hematogen",
+   "wikidata": "Q1963961",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "cake"
+    "confectionery"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q47347125",
+     "url": "https://www.wikidata.org/wiki/Q1963961",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Torta_paesana",
+     "url": "https://en.wikipedia.org/wiki/Hematogen",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4186,23 +4185,23 @@
    ]
   },
   {
-   "dish": "marañuela",
-   "wikidata": "Q9028481",
-   "country": "Spain",
+   "dish": "Pantesca salad",
+   "wikidata": "Q55228866",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "pastry"
+    "salad"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q9028481",
+     "url": "https://www.wikidata.org/wiki/Q55228866",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mara%C3%B1uela",
+     "url": "https://en.wikipedia.org/wiki/Pantesca_salad",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4255,23 +4254,24 @@
    ]
   },
   {
-   "dish": "Pantesca salad",
-   "wikidata": "Q55228866",
-   "country": "Italy",
+   "dish": "pestiños",
+   "wikidata": "Q2227296",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "salad"
+    "doughnut",
+    "fritter"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q55228866",
+     "url": "https://www.wikidata.org/wiki/Q2227296",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pantesca_salad",
+     "url": "https://en.wikipedia.org/wiki/Pesti%C3%B1os",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4325,24 +4325,23 @@
    ]
   },
   {
-   "dish": "pestiños",
-   "wikidata": "Q2227296",
-   "country": "Spain",
+   "dish": "Pasta mollicata",
+   "wikidata": "Q3897489",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "doughnut",
-    "fritter"
+    "pasta"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2227296",
+     "url": "https://www.wikidata.org/wiki/Q3897489",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pesti%C3%B1os",
+     "url": "https://en.wikipedia.org/wiki/Pasta_mollicata",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4395,23 +4394,23 @@
    ]
   },
   {
-   "dish": "Pasta mollicata",
-   "wikidata": "Q3897489",
-   "country": "Italy",
+   "dish": "picatostes",
+   "wikidata": "Q11699222",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "pasta"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3897489",
+     "url": "https://www.wikidata.org/wiki/Q11699222",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pasta_mollicata",
+     "url": "https://en.wikipedia.org/wiki/Picatostes",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4465,23 +4464,23 @@
    ]
   },
   {
-   "dish": "picatostes",
-   "wikidata": "Q11699222",
-   "country": "Spain",
+   "dish": "Prosciutto di Parma PDO",
+   "wikidata": "Q13360207",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "bread"
+    "prosciutto"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q11699222",
+     "url": "https://www.wikidata.org/wiki/Q13360207",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Picatostes",
+     "url": "https://en.wikipedia.org/wiki/Parma_ham",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4535,46 +4534,47 @@
    ]
   },
   {
-   "dish": "Prosciutto di Parma PDO",
-   "wikidata": "Q13360207",
-   "country": "Italy",
+   "dish": "regañao",
+   "wikidata": "Q11168485",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "prosciutto"
+    "bread",
+    "pizza"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q13360207",
+     "url": "https://www.wikidata.org/wiki/Q11168485",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Parma_ham",
+     "url": "https://en.wikipedia.org/wiki/Rega%C3%B1ao",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "hematogen",
-   "wikidata": "Q1963961",
+   "dish": "totché",
+   "wikidata": "Q43372008",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "confectionery"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1963961",
+     "url": "https://www.wikidata.org/wiki/Q43372008",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Hematogen",
+     "url": "https://en.wikipedia.org/wiki/Totch%C3%A9",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4604,24 +4604,23 @@
    ]
   },
   {
-   "dish": "regañao",
-   "wikidata": "Q11168485",
-   "country": "Spain",
+   "dish": "Prosciutto di San Daniele PDO",
+   "wikidata": "Q1412112",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "bread",
-    "pizza"
+    "prosciutto"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q11168485",
+     "url": "https://www.wikidata.org/wiki/Q1412112",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Rega%C3%B1ao",
+     "url": "https://en.wikipedia.org/wiki/Prosciutto_di_San_Daniele",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4674,23 +4673,23 @@
    ]
   },
   {
-   "dish": "Prosciutto di San Daniele PDO",
-   "wikidata": "Q1412112",
-   "country": "Italy",
+   "dish": "roscón",
+   "wikidata": "Q7367597",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "prosciutto"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1412112",
+     "url": "https://www.wikidata.org/wiki/Q7367597",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Prosciutto_di_San_Daniele",
+     "url": "https://en.wikipedia.org/wiki/Rosc%C3%B3n",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4744,23 +4743,23 @@
    ]
   },
   {
-   "dish": "roscón",
-   "wikidata": "Q7367597",
-   "country": "Spain",
+   "dish": "Spumoni",
+   "wikidata": "Q1052815",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "bread"
+    "ice cream"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7367597",
+     "url": "https://www.wikidata.org/wiki/Q1052815",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Rosc%C3%B3n",
+     "url": "https://en.wikipedia.org/wiki/Spumoni",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4814,23 +4813,24 @@
    ]
   },
   {
-   "dish": "Spumoni",
-   "wikidata": "Q1052815",
-   "country": "Italy",
+   "dish": "roscón de reyes",
+   "wikidata": "Q17015916",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "ice cream"
+    "pastry",
+    "sweet bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1052815",
+     "url": "https://www.wikidata.org/wiki/Q17015916",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Spumoni",
+     "url": "https://en.wikipedia.org/wiki/Rosca_de_reyes",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4884,47 +4884,47 @@
    ]
   },
   {
-   "dish": "roscón de reyes",
-   "wikidata": "Q17015916",
-   "country": "Spain",
+   "dish": "Stracciatella",
+   "wikidata": "Q3499942",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "pastry",
-    "sweet bread"
+    "ice cream"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17015916",
+     "url": "https://www.wikidata.org/wiki/Q3499942",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Rosca_de_reyes",
+     "url": "https://en.wikipedia.org/wiki/Stracciatella_(ice_cream)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "totché",
-   "wikidata": "Q43372008",
+   "dish": "Appenzeller cheese",
+   "wikidata": "Q620951",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "pie"
+    "cow's-milk cheese",
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q43372008",
+     "url": "https://www.wikidata.org/wiki/Q620951",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Totch%C3%A9",
+     "url": "https://en.wikipedia.org/wiki/Appenzeller_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4954,23 +4954,24 @@
    ]
   },
   {
-   "dish": "Stracciatella",
-   "wikidata": "Q3499942",
-   "country": "Italy",
+   "dish": "wafer cookie",
+   "wikidata": "Q1226651",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "ice cream"
+    "biscuit",
+    "unleavened bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3499942",
+     "url": "https://www.wikidata.org/wiki/Q1226651",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Stracciatella_(ice_cream)",
+     "url": "https://en.wikipedia.org/wiki/Oblea",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5023,24 +5024,23 @@
    ]
   },
   {
-   "dish": "wafer cookie",
-   "wikidata": "Q1226651",
-   "country": "Spain",
+   "dish": "Tartufo",
+   "wikidata": "Q1432826",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "biscuit",
-    "unleavened bread"
+    "ice cream"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1226651",
+     "url": "https://www.wikidata.org/wiki/Q1432826",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Oblea",
+     "url": "https://en.wikipedia.org/wiki/Tartufo",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5094,23 +5094,24 @@
    ]
   },
   {
-   "dish": "Tartufo",
-   "wikidata": "Q1432826",
-   "country": "Italy",
+   "dish": "Arzúa-Ulloa cheese",
+   "wikidata": "Q4845303",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "ice cream"
+    "cow's-milk cheese",
+    "Spanish cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1432826",
+     "url": "https://www.wikidata.org/wiki/Q4845303",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tartufo",
+     "url": "https://en.wikipedia.org/wiki/Arz%C3%BAa-Ulloa_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5163,24 +5164,23 @@
    ]
   },
   {
-   "dish": "Arzúa-Ulloa cheese",
-   "wikidata": "Q4845303",
-   "country": "Spain",
+   "dish": "Torrone Nurzia",
+   "wikidata": "Q3995782",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "cow's-milk cheese",
-    "Spanish cheese"
+    "confectionery"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4845303",
+     "url": "https://www.wikidata.org/wiki/Q3995782",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Arz%C3%BAa-Ulloa_cheese",
+     "url": "https://en.wikipedia.org/wiki/Torrone_Nurzia",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5234,31 +5234,31 @@
    ]
   },
   {
-   "dish": "Torrone Nurzia",
-   "wikidata": "Q3995782",
-   "country": "Italy",
+   "dish": "Asiático",
+   "wikidata": "Q5708347",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "confectionery"
+    "coffee drink"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3995782",
+     "url": "https://www.wikidata.org/wiki/Q5708347",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Torrone_Nurzia",
+     "url": "https://en.wikipedia.org/wiki/Asi%C3%A1tico",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Appenzeller cheese",
-   "wikidata": "Q620951",
+   "dish": "Berner Alpkäse",
+   "wikidata": "Q689886",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
@@ -5268,13 +5268,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q620951",
+     "url": "https://www.wikidata.org/wiki/Q689886",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Appenzeller_cheese",
+     "url": "https://en.wikipedia.org/wiki/Berner_Alpk%C3%A4se",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5304,23 +5304,23 @@
    ]
   },
   {
-   "dish": "Asiático",
-   "wikidata": "Q5708347",
-   "country": "Spain",
+   "dish": "Torta paesana",
+   "wikidata": "Q47347125",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "coffee drink"
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5708347",
+     "url": "https://www.wikidata.org/wiki/Q47347125",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Asi%C3%A1tico",
+     "url": "https://en.wikipedia.org/wiki/Torta_paesana",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5373,23 +5373,23 @@
    ]
   },
   {
-   "dish": "Torta setteveli",
-   "wikidata": "Q3995814",
-   "country": "Italy",
+   "dish": "Basque cider",
+   "wikidata": "Q16977213",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "cake"
+    "cider"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3995814",
+     "url": "https://www.wikidata.org/wiki/Q16977213",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Torta_setteveli",
+     "url": "https://en.wikipedia.org/wiki/Basque_cider",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5442,23 +5442,23 @@
    ]
   },
   {
-   "dish": "Basque cider",
-   "wikidata": "Q16977213",
-   "country": "Spain",
+   "dish": "Torta setteveli",
+   "wikidata": "Q3995814",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "cider"
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16977213",
+     "url": "https://www.wikidata.org/wiki/Q3995814",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Basque_cider",
+     "url": "https://en.wikipedia.org/wiki/Torta_setteveli",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5511,23 +5511,23 @@
    ]
   },
   {
-   "dish": "bonet",
-   "wikidata": "Q2910034",
-   "country": "Italy",
+   "dish": "Cabell d'àngel",
+   "wikidata": "Q1024766",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "budino"
+    "spread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2910034",
+     "url": "https://www.wikidata.org/wiki/Q1024766",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bonet_(dessert)",
+     "url": "https://en.wikipedia.org/wiki/Cabell_d%27%C3%A0ngel",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5581,47 +5581,46 @@
    ]
   },
   {
-   "dish": "Cabell d'àngel",
-   "wikidata": "Q1024766",
-   "country": "Spain",
+   "dish": "bonet",
+   "wikidata": "Q2910034",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "spread"
+    "budino"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1024766",
+     "url": "https://www.wikidata.org/wiki/Q2910034",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cabell_d%27%C3%A0ngel",
+     "url": "https://en.wikipedia.org/wiki/Bonet_(dessert)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Berner Alpkäse",
-   "wikidata": "Q689886",
+   "dish": "Birnenhonig",
+   "wikidata": "Q688719",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "cow's-milk cheese",
-    "pressed cooked cheese"
+    "spread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q689886",
+     "url": "https://www.wikidata.org/wiki/Q688719",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Berner_Alpk%C3%A4se",
+     "url": "https://en.wikipedia.org/wiki/Birnenhonig",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5651,23 +5650,23 @@
    ]
   },
   {
-   "dish": "garlic bread",
-   "wikidata": "Q1359006",
-   "country": "Italy",
+   "dish": "Calasparra rice",
+   "wikidata": "Q5706327",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "bread"
+    "rice"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1359006",
+     "url": "https://www.wikidata.org/wiki/Q5706327",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Garlic_bread",
+     "url": "https://en.wikipedia.org/wiki/Calasparra_rice",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5720,23 +5719,23 @@
    ]
   },
   {
-   "dish": "Calasparra rice",
-   "wikidata": "Q5706327",
-   "country": "Spain",
+   "dish": "garlic bread",
+   "wikidata": "Q1359006",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "rice"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5706327",
+     "url": "https://www.wikidata.org/wiki/Q1359006",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Calasparra_rice",
+     "url": "https://en.wikipedia.org/wiki/Garlic_bread",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5789,23 +5788,23 @@
    ]
   },
   {
-   "dish": "gnocchi alla romana",
-   "wikidata": "Q1533235",
-   "country": "Italy",
+   "dish": "Caldo galego",
+   "wikidata": "Q1026488",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "gnocchi"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1533235",
+     "url": "https://www.wikidata.org/wiki/Q1026488",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Gnocchi_alla_romana",
+     "url": "https://en.wikipedia.org/wiki/Caldo_galego",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5858,23 +5857,23 @@
    ]
   },
   {
-   "dish": "Caldo galego",
-   "wikidata": "Q1026488",
-   "country": "Spain",
+   "dish": "gnocchi alla romana",
+   "wikidata": "Q1533235",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "soup"
+    "gnocchi"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1026488",
+     "url": "https://www.wikidata.org/wiki/Q1533235",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Caldo_galego",
+     "url": "https://en.wikipedia.org/wiki/Gnocchi_alla_romana",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5927,46 +5926,47 @@
    ]
   },
   {
-   "dish": "linguettine",
-   "wikidata": "Q11238659",
-   "country": "Italy",
+   "dish": "Cantabrian cream cheese",
+   "wikidata": "Q747048",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "pasta"
+    "cow's-milk cheese",
+    "Spanish cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q11238659",
+     "url": "https://www.wikidata.org/wiki/Q747048",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Linguettine",
+     "url": "https://en.wikipedia.org/wiki/Cantabrian_cream_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Birnenhonig",
-   "wikidata": "Q688719",
+   "dish": "Bleuchâtel",
+   "wikidata": "Q2906530",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "spread"
+    "blue cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q688719",
+     "url": "https://www.wikidata.org/wiki/Q2906530",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Birnenhonig",
+     "url": "https://en.wikipedia.org/wiki/Bleuch%C3%A2tel",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5998,24 +5998,23 @@
    ]
   },
   {
-   "dish": "Cantabrian cream cheese",
-   "wikidata": "Q747048",
-   "country": "Spain",
+   "dish": "linguettine",
+   "wikidata": "Q11238659",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "cow's-milk cheese",
-    "Spanish cheese"
+    "pasta"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q747048",
+     "url": "https://www.wikidata.org/wiki/Q11238659",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cantabrian_cream_cheese",
+     "url": "https://en.wikipedia.org/wiki/Linguettine",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6068,23 +6067,23 @@
    ]
   },
   {
-   "dish": "panna cotta",
-   "wikidata": "Q504941",
-   "country": "Italy",
+   "dish": "Carignan",
+   "wikidata": "Q251054",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "budino"
+    "grape"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q504941",
+     "url": "https://www.wikidata.org/wiki/Q251054",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Panna_cotta",
+     "url": "https://en.wikipedia.org/wiki/Carignan",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6137,23 +6136,23 @@
    ]
   },
   {
-   "dish": "Carignan",
-   "wikidata": "Q251054",
-   "country": "Spain",
+   "dish": "panna cotta",
+   "wikidata": "Q504941",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "grape"
+    "budino"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q251054",
+     "url": "https://www.wikidata.org/wiki/Q504941",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Carignan",
+     "url": "https://en.wikipedia.org/wiki/Panna_cotta",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6206,23 +6205,24 @@
    ]
   },
   {
-   "dish": "pastina",
-   "wikidata": "Q105015387",
-   "country": "Italy",
+   "dish": "Casín cheese",
+   "wikidata": "Q11001474",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "pasta"
+    "cow's-milk cheese",
+    "cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q105015387",
+     "url": "https://www.wikidata.org/wiki/Q11001474",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pastina",
+     "url": "https://en.wikipedia.org/wiki/Cas%C3%ADn_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6275,47 +6275,46 @@
    ]
   },
   {
-   "dish": "Casín cheese",
-   "wikidata": "Q11001474",
-   "country": "Spain",
+   "dish": "pastina",
+   "wikidata": "Q105015387",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "cow's-milk cheese",
-    "cheese"
+    "pasta"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q11001474",
+     "url": "https://www.wikidata.org/wiki/Q105015387",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cas%C3%ADn_cheese",
+     "url": "https://en.wikipedia.org/wiki/Pastina",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Bleuchâtel",
-   "wikidata": "Q2906530",
+   "dish": "Café de Paris sauce",
+   "wikidata": "Q679768",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "blue cheese"
+    "sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2906530",
+     "url": "https://www.wikidata.org/wiki/Q679768",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bleuch%C3%A2tel",
+     "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Paris_sauce",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6345,23 +6344,23 @@
    ]
   },
   {
-   "dish": "pizza di Pasqua",
-   "wikidata": "Q3905963",
-   "country": "Italy",
+   "dish": "Cava (DO)",
+   "wikidata": "Q1051699",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "cake"
+    "sparkling wine"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3905963",
+     "url": "https://www.wikidata.org/wiki/Q1051699",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pizza_di_Pasqua",
+     "url": "https://en.wikipedia.org/wiki/Cava_(Spanish_wine)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6415,23 +6414,23 @@
    ]
   },
   {
-   "dish": "Cava (DO)",
-   "wikidata": "Q1051699",
-   "country": "Spain",
+   "dish": "pizza di Pasqua",
+   "wikidata": "Q3905963",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "sparkling wine"
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1051699",
+     "url": "https://www.wikidata.org/wiki/Q3905963",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cava_(Spanish_wine)",
+     "url": "https://en.wikipedia.org/wiki/Pizza_di_Pasqua",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6484,23 +6483,23 @@
    ]
   },
   {
-   "dish": "pizzetta",
-   "wikidata": "Q25067130",
-   "country": "Italy",
+   "dish": "Cocido lebaniego",
+   "wikidata": "Q581701",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "pizza"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q25067130",
+     "url": "https://www.wikidata.org/wiki/Q581701",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pizzetta",
+     "url": "https://en.wikipedia.org/wiki/Cocido_lebaniego",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6553,23 +6552,23 @@
    ]
   },
   {
-   "dish": "Cocido lebaniego",
-   "wikidata": "Q581701",
-   "country": "Spain",
+   "dish": "pizzetta",
+   "wikidata": "Q25067130",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "soup"
+    "pizza"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q581701",
+     "url": "https://www.wikidata.org/wiki/Q25067130",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cocido_lebaniego",
+     "url": "https://en.wikipedia.org/wiki/Pizzetta",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6622,46 +6621,47 @@
    ]
   },
   {
-   "dish": "stringozzi",
-   "wikidata": "Q20043",
-   "country": "Italy",
+   "dish": "Cocido madrileño",
+   "wikidata": "Q1105215",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "pasta"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q20043",
+     "url": "https://www.wikidata.org/wiki/Q1105215",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Stringozzi",
+     "url": "https://en.wikipedia.org/wiki/Cocido_madrile%C3%B1o",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Café de Paris sauce",
-   "wikidata": "Q679768",
+   "dish": "Gruyère",
+   "wikidata": "Q2376488",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "sauce"
+    "cow's-milk cheese",
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q679768",
+     "url": "https://www.wikidata.org/wiki/Q2376488",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Paris_sauce",
+     "url": "https://en.wikipedia.org/wiki/Gruy%C3%A8re",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6691,23 +6691,23 @@
    ]
   },
   {
-   "dish": "Cocido madrileño",
-   "wikidata": "Q1105215",
-   "country": "Spain",
+   "dish": "stringozzi",
+   "wikidata": "Q20043",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "soup"
+    "pasta"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1105215",
+     "url": "https://www.wikidata.org/wiki/Q20043",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cocido_madrile%C3%B1o",
+     "url": "https://en.wikipedia.org/wiki/Stringozzi",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6760,23 +6760,24 @@
    ]
   },
   {
-   "dish": "stuffed pasta",
-   "wikidata": "Q3897491",
-   "country": "Italy",
+   "dish": "Flor de Guía cheese",
+   "wikidata": "Q5460249",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "pasta"
+    "sheep milk cheese",
+    "Spanish cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3897491",
+     "url": "https://www.wikidata.org/wiki/Q5460249",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Filled_pasta",
+     "url": "https://en.wikipedia.org/wiki/Flor_de_Gu%C3%ADa_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6829,24 +6830,23 @@
    ]
   },
   {
-   "dish": "Flor de Guía cheese",
-   "wikidata": "Q5460249",
-   "country": "Spain",
+   "dish": "stuffed pasta",
+   "wikidata": "Q3897491",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "sheep milk cheese",
-    "Spanish cheese"
+    "pasta"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5460249",
+     "url": "https://www.wikidata.org/wiki/Q3897491",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Flor_de_Gu%C3%ADa_cheese",
+     "url": "https://en.wikipedia.org/wiki/Filled_pasta",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6881,7 +6881,8 @@
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "bread"
+    "bread",
+    "brown bread"
    ],
    "sources": [
     {
@@ -6899,23 +6900,23 @@
    ]
   },
   {
-   "dish": "torta 900",
-   "wikidata": "Q86674159",
-   "country": "Italy",
+   "dish": "Gazpachuelo",
+   "wikidata": "Q5529194",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "sponge cake"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q86674159",
+     "url": "https://www.wikidata.org/wiki/Q5529194",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Torta_900",
+     "url": "https://en.wikipedia.org/wiki/Gazpachuelo",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6969,47 +6970,46 @@
    ]
   },
   {
-   "dish": "Gazpachuelo",
-   "wikidata": "Q5529194",
-   "country": "Spain",
+   "dish": "torta 900",
+   "wikidata": "Q86674159",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "soup"
+    "sponge cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5529194",
+     "url": "https://www.wikidata.org/wiki/Q86674159",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Gazpachuelo",
+     "url": "https://en.wikipedia.org/wiki/Torta_900",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "Gruyère",
-   "wikidata": "Q2376488",
+   "dish": "L'Étivaz",
+   "wikidata": "Q3099350",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "cow's-milk cheese",
     "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2376488",
+     "url": "https://www.wikidata.org/wiki/Q3099350",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Gruy%C3%A8re",
+     "url": "https://en.wikipedia.org/wiki/L%27Etivaz",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7039,23 +7039,24 @@
    ]
   },
   {
-   "dish": "tripoline",
-   "wikidata": "Q7843687",
-   "country": "Italy",
+   "dish": "La Serena cheese",
+   "wikidata": "Q530307",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "pasta"
+    "sheep milk cheese",
+    "Spanish cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7843687",
+     "url": "https://www.wikidata.org/wiki/Q530307",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tripoline",
+     "url": "https://en.wikipedia.org/wiki/La_Serena_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7108,24 +7109,23 @@
    ]
   },
   {
-   "dish": "La Serena cheese",
-   "wikidata": "Q530307",
-   "country": "Spain",
+   "dish": "tripoline",
+   "wikidata": "Q7843687",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "sheep milk cheese",
-    "Spanish cheese"
+    "pasta"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q530307",
+     "url": "https://www.wikidata.org/wiki/Q7843687",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/La_Serena_cheese",
+     "url": "https://en.wikipedia.org/wiki/Tripoline",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7178,23 +7178,23 @@
    ]
   },
   {
-   "dish": "Agrodolce",
-   "wikidata": "Q16826169",
-   "country": "Italy",
+   "dish": "Mahón cheese",
+   "wikidata": "Q1233805",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "sauce"
+    "pressed uncooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16826169",
+     "url": "https://www.wikidata.org/wiki/Q1233805",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Agrodolce",
+     "url": "https://en.wikipedia.org/wiki/Mah%C3%B3n_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7247,23 +7247,23 @@
    ]
   },
   {
-   "dish": "Mahón cheese",
-   "wikidata": "Q1233805",
-   "country": "Spain",
+   "dish": "Agrodolce",
+   "wikidata": "Q16826169",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "pressed uncooked cheese"
+    "sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1233805",
+     "url": "https://www.wikidata.org/wiki/Q16826169",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mah%C3%B3n_cheese",
+     "url": "https://en.wikipedia.org/wiki/Agrodolce",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7317,46 +7317,48 @@
    ]
   },
   {
-   "dish": "Bagòss",
-   "wikidata": "Q2879242",
-   "country": "Italy",
+   "dish": "Majorero cheese PDO",
+   "wikidata": "Q473202",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "Italian cheese"
+    "cheese",
+    "goat cheese",
+    "Spanish cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2879242",
+     "url": "https://www.wikidata.org/wiki/Q473202",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bag%C3%B2ss",
+     "url": "https://en.wikipedia.org/wiki/Majorero",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
    ]
   },
   {
-   "dish": "L'Étivaz",
-   "wikidata": "Q3099350",
+   "dish": "Mässmogge",
+   "wikidata": "Q6949994",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "pressed cooked cheese"
+    "sugar candy"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3099350",
+     "url": "https://www.wikidata.org/wiki/Q6949994",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/L%27Etivaz",
+     "url": "https://en.wikipedia.org/wiki/M%C3%A4ssmogge",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7386,25 +7388,23 @@
    ]
   },
   {
-   "dish": "Majorero cheese PDO",
-   "wikidata": "Q473202",
-   "country": "Spain",
+   "dish": "Bagòss",
+   "wikidata": "Q2879242",
+   "country": "Italy",
    "subregion": "Southern Europe",
    "families": [
-    "cheese",
-    "goat cheese",
-    "Spanish cheese"
+    "Italian cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q473202",
+     "url": "https://www.wikidata.org/wiki/Q2879242",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Majorero",
+     "url": "https://en.wikipedia.org/wiki/Bag%C3%B2ss",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7457,24 +7457,24 @@
    ]
   },
   {
-   "dish": "Bel Paese",
-   "wikidata": "Q815080",
-   "country": "Italy",
+   "dish": "Mallorca cheese",
+   "wikidata": "Q6744258",
+   "country": "Spain",
    "subregion": "Southern Europe",
    "families": [
-    "cow's-milk cheese",
-    "Italian cheese"
+    "cheese",
+    "Spanish cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q815080",
+     "url": "https://www.wikidata.org/wiki/Q6744258",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bel_Paese_(cheese)",
+     "url": "https://en.wikipedia.org/wiki/Mallorca_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7498,30 +7498,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Salade_cauchoise",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Mallorca cheese",
-   "wikidata": "Q6744258",
-   "country": "Spain",
-   "subregion": "Southern Europe",
-   "families": [
-    "cheese",
-    "Spanish cheese"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6744258",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mallorca_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7574,23 +7550,24 @@
    ]
   },
   {
-   "dish": "Mässmogge",
-   "wikidata": "Q6949994",
+   "dish": "Raclette du Valais",
+   "wikidata": "Q12901724",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "sugar candy"
+    "cow's-milk cheese",
+    "pressed uncooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6949994",
+     "url": "https://www.wikidata.org/wiki/Q12901724",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/M%C3%A4ssmogge",
+     "url": "https://en.wikipedia.org/wiki/Raclette_du_Valais",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7668,24 +7645,23 @@
    ]
   },
   {
-   "dish": "Raclette du Valais",
-   "wikidata": "Q12901724",
+   "dish": "Salame ticinese",
+   "wikidata": "Q117290006",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "cow's-milk cheese",
-    "pressed uncooked cheese"
+    "sausage"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q12901724",
+     "url": "https://www.wikidata.org/wiki/Q117290006",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Raclette_du_Valais",
+     "url": "https://en.wikipedia.org/wiki/Salame_ticinese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7762,23 +7738,24 @@
    ]
   },
   {
-   "dish": "Salame ticinese",
-   "wikidata": "Q117290006",
+   "dish": "Sbrinz",
+   "wikidata": "Q666975",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "sausage"
+    "cow's-milk cheese",
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q117290006",
+     "url": "https://www.wikidata.org/wiki/Q666975",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Salame_ticinese",
+     "url": "https://en.wikipedia.org/wiki/Sbrinz",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7854,24 +7831,23 @@
    ]
   },
   {
-   "dish": "Sbrinz",
-   "wikidata": "Q666975",
+   "dish": "Schabziger",
+   "wikidata": "Q689879",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "cow's-milk cheese",
-    "pressed cooked cheese"
+    "whey cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q666975",
+     "url": "https://www.wikidata.org/wiki/Q689879",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sbrinz",
+     "url": "https://en.wikipedia.org/wiki/Schabziger",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7949,23 +7925,23 @@
    ]
   },
   {
-   "dish": "Schabziger",
-   "wikidata": "Q689879",
+   "dish": "Tomme Vaudoise",
+   "wikidata": "Q693255",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "whey cheese"
+    "white mold-rind cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q689879",
+     "url": "https://www.wikidata.org/wiki/Q693255",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Schabziger",
+     "url": "https://en.wikipedia.org/wiki/Tomme_Vaudoise",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8044,23 +8020,23 @@
    ]
   },
   {
-   "dish": "Tomme Vaudoise",
-   "wikidata": "Q693255",
+   "dish": "Vienna sausage",
+   "wikidata": "Q327316",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "white mold-rind cheese"
+    "Brühwurst"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q693255",
+     "url": "https://www.wikidata.org/wiki/Q327316",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tomme_Vaudoise",
+     "url": "https://en.wikipedia.org/wiki/Vienna_sausage",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8136,23 +8112,23 @@
    ]
   },
   {
-   "dish": "Vienna sausage",
-   "wikidata": "Q327316",
+   "dish": "pane ticinese",
+   "wikidata": "Q2013754",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "Brühwurst"
+    "white bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q327316",
+     "url": "https://www.wikidata.org/wiki/Q2013754",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Vienna_sausage",
+     "url": "https://en.wikipedia.org/wiki/Pane_ticinese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8230,23 +8206,23 @@
    ]
   },
   {
-   "dish": "pane ticinese",
-   "wikidata": "Q2013754",
+   "dish": "rösti",
+   "wikidata": "Q627331",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "white bread"
+    "pancake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2013754",
+     "url": "https://www.wikidata.org/wiki/Q627331",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pane_ticinese",
+     "url": "https://en.wikipedia.org/wiki/R%C3%B6sti",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8323,23 +8299,23 @@
    ]
   },
   {
-   "dish": "rösti",
-   "wikidata": "Q627331",
+   "dish": "tomme",
+   "wikidata": "Q2164539",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "pancake"
+    "French cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q627331",
+     "url": "https://www.wikidata.org/wiki/Q2164539",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/R%C3%B6sti",
+     "url": "https://en.wikipedia.org/wiki/Tomme",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8415,8 +8391,8 @@
    ]
   },
   {
-   "dish": "tomme",
-   "wikidata": "Q2164539",
+   "dish": "vacherin",
+   "wikidata": "Q3553108",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
@@ -8425,13 +8401,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2164539",
+     "url": "https://www.wikidata.org/wiki/Q3553108",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tomme",
+     "url": "https://en.wikipedia.org/wiki/Vacherin_(cheese)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8510,23 +8486,24 @@
    ]
   },
   {
-   "dish": "vacherin",
-   "wikidata": "Q3553108",
+   "dish": "Șvaițer",
+   "wikidata": "Q3594600",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "French cheese"
+    "cheese",
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3553108",
+     "url": "https://www.wikidata.org/wiki/Q3594600",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-23"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Vacherin_(cheese)",
+     "url": "https://en.wikipedia.org/wiki/%C8%98vai%C8%9Ber",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8596,30 +8573,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Vlokken",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Șvaițer",
-   "wikidata": "Q3594600",
-   "country": "Switzerland",
-   "subregion": "Western Europe",
-   "families": [
-    "cheese",
-    "pressed cooked cheese"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3594600",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/%C8%98vai%C8%9Ber",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

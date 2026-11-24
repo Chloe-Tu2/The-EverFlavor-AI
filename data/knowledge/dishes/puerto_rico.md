@@ -2,6 +2,63 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
+### Arroz junto
+
+Arroz junto (rice together) is a Puerto Rican rice dish cooked with beans and meat in one pot.
+
+- From: Puerto Rico
+- Origin (Wikidata): Puerto Rico
+- Ingredients (Wikidata): rice, meat, bean
+
+Fun facts:
+
+- (origin) Arroz junto comes from Puerto Rico.
+
+Learn more:
+
+- quick: [Arroz junto (Wikipedia)](https://en.wikipedia.org/wiki/Arroz_junto)
+- deep: [Books about Arroz junto (Open Library)](https://openlibrary.org/search?q=Arroz%20junto)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q18589142)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q18589142) (CC0); [Wikipedia: Arroz junto](https://en.wikipedia.org/wiki/Arroz_junto) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Bacalaíto
+
+A bacalaíto is a salted codfish fritter, a traditional Puerto Rican snack that typically is eaten with an entire meal.
+
+- From: Puerto Rico
+
+Fun facts:
+
+- (culture) Bacalaítos are served at the beach, cuchifritos, and at festivals.
+
+Learn more:
+
+- quick: [Bacalaíto (Wikipedia)](https://en.wikipedia.org/wiki/Bacala%C3%ADto)
+- deep: [Books about Bacalaíto (Open Library)](https://openlibrary.org/search?q=Bacala%C3%ADto)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q4838580)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q4838580) (CC0); [Wikipedia: Bacalaíto](https://en.wikipedia.org/wiki/Bacalaíto) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Limber (dessert)
+
+A limber is a frozen ice pop originating in Puerto Rico.
+
+- From: Puerto Rico
+
+Fun facts:
+
+- (history) According to local lore, Lindbergh arrived in Puerto Rico in 1928 and was greeted with a frozen juice that later was referred to as limbers.
+- (culture) Traditional flavors include parcha (passionfruit), tamarind, pineapple, and coconut.
+
+Learn more:
+
+- quick: [Limber (dessert) (Wikipedia)](https://en.wikipedia.org/wiki/Limber_%28dessert%29)
+- deep: [Books about Limber (dessert) (Open Library)](https://openlibrary.org/search?q=Limber%20%28dessert%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q112167282)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q112167282) (CC0); [Wikipedia: Limber (dessert)](https://en.wikipedia.org/wiki/Limber_(dessert)) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Mofongo
 
 - From: Puerto Rico
@@ -54,6 +111,61 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q17084248)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q17084248) (CC0); [Wikipedia: Pastelón](https://en.wikipedia.org/wiki/Pastelón) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Piragua (food)
+
+A piragua is a Puerto Rican shaved ice dessert, shaped like a cone, consisting of shaved ice and covered with fruit-flavored syrup.
+
+- From: Puerto Rico
+- Origin (Wikidata): Puerto Rico
+
+Fun facts:
+
+- (culture) Piraguas are sold by vendors, known as piragüeros, from small, traditionally brightly colored pushcarts offering a variety of flavors.
+- (origin) Piragua comes from Puerto Rico.
+
+Learn more:
+
+- quick: [Piragua (food) (Wikipedia)](https://en.wikipedia.org/wiki/Piragua_%28food%29)
+- deep: [Books about Piragua (food) (Open Library)](https://openlibrary.org/search?q=Piragua%20%28food%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7197677)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7197677) (CC0); [Wikipedia: Piragua (food)](https://en.wikipedia.org/wiki/Piragua_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Quesito
+
+Quesito is a cream cheese-filled pastry twist from Puerto Rico.
+
+- From: Puerto Rico
+- Origin (Wikidata): Puerto Rico
+- Ingredients (Wikidata): puff pastry
+
+Fun facts:
+
+- (origin) Quesito comes from Puerto Rico.
+
+Learn more:
+
+- quick: [Quesito (Wikipedia)](https://en.wikipedia.org/wiki/Quesito)
+- deep: [Books about Quesito (Open Library)](https://openlibrary.org/search?q=Quesito)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7271398)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7271398) (CC0); [Wikipedia: Quesito](https://en.wikipedia.org/wiki/Quesito) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Sorullos
+
+Sorullos are a fried cornmeal-based dish that is a staple of Puerto Rican cuisine.
+
+- From: Puerto Rico
+- Ingredients (Wikidata): cornmeal
+
+Learn more:
+
+- quick: [Sorullos (Wikipedia)](https://en.wikipedia.org/wiki/Sorullos)
+- deep: [Books about Sorullos (Open Library)](https://openlibrary.org/search?q=Sorullos)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q7563795)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q7563795) (CC0); [Wikipedia: Sorullos](https://en.wikipedia.org/wiki/Sorullos) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Northern red snapper
 

@@ -27,10 +27,10 @@
   "Thailand",
   "Vietnam"
  ],
- "coverage_score": 80.1,
- "dish_count": 561,
+ "coverage_score": 85.1,
+ "dish_count": 575,
  "food_and_drink_count": 238,
- "story_count": 312,
+ "story_count": 315,
  "representative_dishes": [
   "Appam",
   "Nasi goreng",
@@ -45,8 +45,8 @@
   "soup",
   "rice dish",
   "fish dish",
-  "salad",
   "pork dish",
+  "salad",
   "bánh",
   "jajan pasar",
   "chicken dish"

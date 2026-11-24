@@ -30,19 +30,19 @@
   "Uruguay",
   "Venezuela"
  ],
- "coverage_score": 86.6,
- "dish_count": 152,
+ "coverage_score": 87.6,
+ "dish_count": 154,
  "food_and_drink_count": 101,
- "story_count": 101,
+ "story_count": 102,
  "representative_dishes": [
   "Ceviche",
   "Pão de queijo",
   "Kuchen",
   "Brigadeiro",
+  "Sprinkles",
   "Arepa",
   "Ají de gallina",
-  "Cachapa",
-  "Tequeño"
+  "Cachapa"
  ],
  "dish_families": [
   "soup",

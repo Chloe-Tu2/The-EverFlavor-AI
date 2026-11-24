@@ -9,6 +9,7 @@ approves what, licences, releases, and the scans that guard secrets and personal
 | [human_approval_workflow.md](human_approval_workflow.md) | What an AI may do alone, what needs one person, what needs two, and when to stop |
 | [license_compliance.md](license_compliance.md) | What each kind of licence among our sources lets us do, and the open licence questions |
 | [release_checklist.md](release_checklist.md) | What to tick before a release |
+| [sprint_review_checklist.md](sprint_review_checklist.md) | What every atlas sprint passes before its merge: coverage, representation, enrichment, validation, sources, repository |
 | [needs_human_review.md](needs_human_review.md) | The open questions waiting for a person |
 | [indigenous_review.md](indigenous_review.md) | The rubric for Indigenous food tradition tags: what the code checks, what a person checks, what the app may say |
 | [secret_scan_report.md](secret_scan_report.md) | The latest secret scan (written by the script) |

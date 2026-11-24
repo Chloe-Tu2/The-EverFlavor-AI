@@ -2276,7 +2276,7 @@ Haggis pakora is a Scottish snack food that combines traditional Scottish haggis
 
 - From: Scotland, United Kingdom
 - Origin (Wikidata): Scotland
-- Ingredients (Wikidata): spice, haggis, besan, yogurt
+- Ingredients (Wikidata): yogurt, spice, haggis, besan
 
 Fun facts:
 

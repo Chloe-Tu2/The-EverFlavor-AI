@@ -2,8 +2,8 @@
 
 Facts the waiter may tell, collected from open sources, never invented (for the waiter, planned for 0.6.3).
 
-- `dishes.jsonl`: one dish or food per line (2026-11-23: 5,903; 3,799 dishes, the rest foods and drinks, from 162 countries;
-  3,408 with fun-fact candidates and 2,743 with story sentences; on 2026-11-11, 11,044 facts shown first and 9,035
+- `dishes.jsonl`: one dish or food per line (2026-11-23: 5,967; 3,863 dishes, the rest foods and drinks, from 165 countries;
+  3,432 with fun-fact candidates and 2,757 with story sentences; on 2026-11-11, 11,044 facts shown first and 9,035
   "more"), built by
   `scripts/knowledge/fetch_knowledge.py`. It starts with what
   the app shows: the 54 countries in its Country list and its 22 regions (other countries later).
@@ -77,6 +77,9 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   `scripts/knowledge/review_sheet.py`. `warnings` are automatic, `pre_review` is Claude's reading (2026-11-11:
   6 drops and 5 fixes suggested, 10 to check), and `verdict` / `reviewer` / `note` are for a person: `keep`,
   `fix` or `drop`. Walter never says a fact marked `drop`. Rerunning the script keeps what people wrote.
+- `review/indigenous_tags.csv`: every Indigenous tradition tag (30 tags on 29 foods, 2026-11-23) with its source, for a
+  person's `verdict` (`keep`, `fix` or `drop`) by the rubric in `docs/governance/indigenous_review.md`; not read by
+  the pipeline yet, so the app still shows no tag.
 - `review/origin_elsewhere.csv`: dishes a country's Wikipedia list names but whose Wikidata origin is elsewhere
   (130, such as Baguette under the United States): their country needs a person's check.
 

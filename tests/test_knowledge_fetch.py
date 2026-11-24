@@ -119,3 +119,13 @@ def test_an_indigenous_tradition_is_tagged_only_when_the_intro_names_the_people(
 def test_a_people_named_only_in_brackets_is_not_a_tradition() -> None:
     intro = "Louise cake (keke ruihi in Māori) is a baked New Zealand sweet dish."
     assert fk.traditions(["Māori cuisine"], intro) == []
+
+
+def test_sprint_4_targets_are_app_countries_in_the_place_tree() -> None:
+    import csv
+    root = Path(__file__).resolve().parents[1]
+    with (root / "data" / "reference" / "food_taxonomy.csv").open(encoding="utf-8") as f:
+        tree = {r["name"] for r in csv.DictReader(f) if r["level"] == "country"}
+    assert set(fk.ORIGIN_TARGETS) <= set(fk.APP_COUNTRIES) & tree
+    sources = {page for _, _, page in fk.sources()}
+    assert "Category:Kenyan cuisine" in sources and "Category:Italian cuisine" not in sources

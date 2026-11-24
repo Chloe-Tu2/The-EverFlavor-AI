@@ -40,15 +40,6 @@
     "version_of": [
      "sandwich"
     ]
-   },
-   {
-    "dish": "Goody good gum drops",
-    "wikidata": "Q123142484",
-    "country": "New Zealand",
-    "status": "ready",
-    "version_of": [
-     "ice cream"
-    ]
    }
   ],
   "Caribbean": [
@@ -59,24 +50,6 @@
     "status": "needs_review",
     "version_of": [
      "stew"
-    ]
-   },
-   {
-    "dish": "Piragua",
-    "wikidata": "Q7197677",
-    "country": "Puerto Rico",
-    "status": "ready",
-    "version_of": [
-     "shaved ice"
-    ]
-   },
-   {
-    "dish": "Quesito",
-    "wikidata": "Q7271398",
-    "country": "Puerto Rico",
-    "status": "ready",
-    "version_of": [
-     "pastry"
     ]
    },
    {
@@ -180,15 +153,6 @@
     "status": "ready",
     "version_of": [
      "salad"
-    ]
-   },
-   {
-    "dish": "oromo",
-    "wikidata": "Q1048130",
-    "country": "Kyrgyzstan",
-    "status": "ready",
-    "version_of": [
-     "pie"
     ]
    }
   ],
@@ -1338,15 +1302,6 @@
     ]
    },
    {
-    "dish": "Tshài-bué-thng",
-    "wikidata": "Q48916161",
-    "country": "Taiwan",
-    "status": "ready",
-    "version_of": [
-     "stew"
-    ]
-   },
-   {
     "dish": "egg yolk pastry",
     "wikidata": "Q15880225",
     "country": "Taiwan",
@@ -1526,24 +1481,6 @@
   ],
   "Middle Africa": [],
   "Northern Africa": [
-   {
-    "dish": "Khobz tounes",
-    "wikidata": "Q16648323",
-    "country": "Algeria",
-    "status": "ready",
-    "version_of": [
-     "cake"
-    ]
-   },
-   {
-    "dish": "Matlou",
-    "wikidata": "Q12243625",
-    "country": "Algeria",
-    "status": "ready",
-    "version_of": [
-     "bread"
-    ]
-   },
    {
     "dish": "Fig roll",
     "wikidata": "Q5447680",
@@ -2324,6 +2261,15 @@
     "version_of": [
      "bread",
      "cake"
+    ]
+   },
+   {
+    "dish": "mozzarella stick",
+    "wikidata": "Q1055940",
+    "country": "United States",
+    "status": "ready",
+    "version_of": [
+     "fried cheese"
     ]
    },
    {
@@ -3537,15 +3483,6 @@
     ]
    },
    {
-    "dish": "Chola sandwich",
-    "wikidata": "Q61579505",
-    "country": "Bolivia",
-    "status": "ready",
-    "version_of": [
-     "sandwich"
-    ]
-   },
-   {
     "dish": "Mané pelado",
     "wikidata": "Q122809709",
     "country": "Brazil",
@@ -3674,33 +3611,6 @@
   ],
   "Southeast Asia": [
    {
-    "dish": "Num akor",
-    "wikidata": "Q136327320",
-    "country": "Cambodia",
-    "status": "ready",
-    "version_of": [
-     "rice cake"
-    ]
-   },
-   {
-    "dish": "Num ansom",
-    "wikidata": "Q19695008",
-    "country": "Cambodia",
-    "status": "ready",
-    "version_of": [
-     "rice cake"
-    ]
-   },
-   {
-    "dish": "Num pang",
-    "wikidata": "Q121832765",
-    "country": "Cambodia",
-    "status": "ready",
-    "version_of": [
-     "submarine sandwich"
-    ]
-   },
-   {
     "dish": "Ayam panggang",
     "wikidata": "Q65210405",
     "country": "Indonesia",
@@ -3816,6 +3726,15 @@
     "status": "ready",
     "version_of": [
      "noodle soup"
+    ]
+   },
+   {
+    "dish": "Tshài-bué-thng",
+    "wikidata": "Q48916161",
+    "country": "Malaysia",
+    "status": "ready",
+    "version_of": [
+     "stew"
     ]
    },
    {
@@ -4789,6 +4708,15 @@
     ]
    },
    {
+    "dish": "Torta paesana",
+    "wikidata": "Q47347125",
+    "country": "Italy",
+    "status": "ready",
+    "version_of": [
+     "cake"
+    ]
+   },
+   {
     "dish": "Torta setteveli",
     "wikidata": "Q3995814",
     "country": "Italy",
@@ -4903,16 +4831,6 @@
     "status": "ready",
     "version_of": [
      "pasta"
-    ]
-   },
-   {
-    "dish": "Njeguška pršuta",
-    "wikidata": "Q3160844",
-    "country": "Montenegro",
-    "status": "ready",
-    "version_of": [
-     "ham",
-     "prosciutto"
     ]
    },
    {
@@ -5174,15 +5092,6 @@
     ]
    },
    {
-    "dish": "Hellimli",
-    "wikidata": "Q5707569",
-    "country": "Cyprus",
-    "status": "ready",
-    "version_of": [
-     "pastry"
-    ]
-   },
-   {
     "dish": "Elarji",
     "wikidata": "Q47038431",
     "country": "Georgia",
@@ -5222,15 +5131,6 @@
     "dish": "Sabich salad",
     "wikidata": "Q17016362",
     "country": "Israel",
-    "status": "ready",
-    "version_of": [
-     "salad"
-    ]
-   },
-   {
-    "dish": "Shʿifūra",
-    "wikidata": "Q107695675",
-    "country": "Syria",
     "status": "ready",
     "version_of": [
      "salad"
@@ -6277,15 +6177,6 @@
     "status": "ready",
     "version_of": [
      "pastry"
-    ]
-   },
-   {
-    "dish": "Torta paesana",
-    "wikidata": "Q47347125",
-    "country": "Switzerland",
-    "status": "ready",
-    "version_of": [
-     "cake"
     ]
    },
    {

@@ -314,6 +314,8 @@ def sources() -> list[tuple[str | None, str | None, str]]:
             ("United States", None, "List of regional dishes of the United States")]
     out += [(None, None, page) for page in GROUP_LISTS]
     out += [(country, None, page) for page, (country, _, _) in INDIGENOUS_PAGES.items()]
+    out += [(country, None, f"Category:{APP_COUNTRIES[country]} cuisine") for country in ORIGIN_TARGETS
+            if country in APP_COUNTRIES]   # sprint 4
     return out
 
 
@@ -465,6 +467,22 @@ def list_rows(page: str, prose: bool = False) -> list[dict]:
     return [r for r in parser.rows if not NOT_DISH_TITLE.search(r["title"])]
 
 
+def category_rows(category: str) -> list[dict]:
+    """The articles in a Wikipedia category and in its subcategories of dishes, breads, soups, stews or desserts, one level down (sprint 4).
+    Read like a paragraph: a dish found only here is kept only when Wikidata's origin or its intro names the
+    country (see main)."""
+    def members(title: str, kinds: str) -> list[dict]:
+        data = _get({"action": "query", "list": "categorymembers", "cmtitle": title, "cmnamespace": kinds,
+                     "cmlimit": 500}, f"category:{title}:{kinds}")
+        return data.get("query", {}).get("categorymembers", [])
+    found = members(category, "0|14")
+    subs = [m["title"] for m in found if m["ns"] == 14 and re.search(r"dishes|breads|soups|stews|desserts",
+                                                                      m["title"], re.IGNORECASE)]
+    titles = [m["title"] for m in found if m["ns"] == 0] + [m["title"] for c in subs for m in members(c, "0")]
+    return [{"title": t, "section": "", "regions": [], "prose": True} for t in dict.fromkeys(titles)
+            if not NOT_DISH_TITLE.search(t)]
+
+
 def page_items(titles: list[str]) -> dict[str, dict]:
     """Title -> {"qid", "title", "intro"} for existing articles (redirects followed), 20 per request."""
     out: dict[str, dict] = {}
@@ -514,6 +532,48 @@ def wikidata_facts(qids: list[str]) -> dict[str, dict[str, list[str]]]:
                 if value and value not in values:
                     values.append(value)
     return facts
+
+
+# Sprint 4 (2026-11-23, coverage recovery): the countries still weak or not covered after sprint 3
+# (docs/audits/country_representation.md). Their cuisine pages are read already, so Wikidata adds the dishes whose
+# country of origin (P495) is one of them and that have an English Wikipedia article: dishes only (no foods or
+# drinks, which bring brands), and never over a country a cuisine page gives.
+ORIGIN_TARGETS = (
+    "Algeria", "Antigua and Barbuda", "Aruba", "Bahrain", "Barbados", "Belarus", "Belize", "Benin", "Bhutan",
+    "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brunei", "Burkina Faso", "Burundi", "Cambodia", "Cameroon",
+    "Cape Verde", "Central African Republic", "Chad", "Comoros", "Congo", "Costa Rica", "Curaçao", "Cyprus",
+    "Democratic Republic of the Congo", "Djibouti", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Fiji",
+    "French Polynesia", "Gabon", "Grenada", "Guadeloupe", "Guinea", "Guinea-Bissau", "Guyana", "Honduras",
+    "Ivory Coast", "Jordan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan", "Latvia", "Lesotho", "Liberia", "Libya",
+    "Malawi", "Mali", "Martinique", "Mauritania", "Mauritius", "Moldova", "Montenegro", "Mozambique", "Namibia",
+    "New Caledonia", "New Zealand", "Niger", "Oman", "Panama", "Papua New Guinea", "Puerto Rico", "Qatar", "Rwanda",
+    "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "Saudi Arabia", "Sierra Leone", "Solomon Islands",
+    "South Sudan", "Sudan", "Suriname", "Syria", "São Tomé and Príncipe", "Tajikistan", "Tanzania", "The Bahamas",
+    "The Gambia", "Timor-Leste", "Togo", "Tonga", "Turkmenistan", "United Arab Emirates", "Vanuatu", "Zambia",
+    "Zimbabwe",
+)
+WIKIDATA_NAMES = {"Congo": "Republic of the Congo"}   # our name -> the name in data/knowledge/countries.json
+ORIGIN_QUERY = """SELECT ?item ?country ?type ?article WHERE {{
+  VALUES ?country {{ {countries} }}
+  ?item wdt:P495 ?country ; wdt:P31|wdt:P279 ?type .
+  ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> .
+}}"""
+
+
+def origin_titles(dish_classes: set[str]) -> dict[str, str]:
+    """English article title -> target country, for the dishes whose Wikidata country of origin is a target."""
+    known = {c["name"]: c["qid"] for c in json.loads(
+        (ROOT / "data" / "knowledge" / "countries.json").read_text(encoding="utf-8"))["countries"]}
+    by_qid = {known[WIKIDATA_NAMES.get(n, n)]: n for n in ORIGIN_TARGETS if WIKIDATA_NAMES.get(n, n) in known}
+    keys = sorted(by_qid)
+    out: dict[str, str] = {}
+    for start in range(0, len(keys), 10):
+        batch = " ".join(f"wd:{q}" for q in keys[start:start + 10])
+        for r in _sparql(ORIGIN_QUERY.format(countries=batch), CACHE / "wikidata"):
+            if r["type"].rsplit("/", 1)[-1] in dish_classes:
+                title = unquote(r["article"].rsplit("/wiki/", 1)[-1]).replace("_", " ")
+                out.setdefault(title, by_qid[r["country"].rsplit("/", 1)[-1]])
+    return out
 
 
 def food_classes(roots: tuple[str, ...] = ("Q746549", "Q2095", "Q40050")) -> set[str]:
@@ -604,12 +664,20 @@ def main() -> None:
     listed: dict[str, dict] = {}   # title -> where it was listed (country, region, lists, sections, regions)
     missing = []
     for country, region, list_page in sources():
-        rows = list_rows(list_page, reads_prose(country, list_page))
+        rows = (category_rows(list_page) if list_page.startswith("Category:")
+                else list_rows(list_page, reads_prose(country, list_page)))
         if not rows:
             missing.append(list_page)
             continue
         print(f"{country or 'group'} / {region or '-'}: {list_page}: {len(rows)} rows")
         for r in rows:
+            if list_page.startswith("Category:"):
+                # Sprint 4: a category only adds articles no page gives; it never changes a dish's country
+                if r["title"] not in listed:
+                    listed[r["title"]] = {"country": country, "region": None, "lists": [list_page], "sections": [],
+                                          "regions": [], "countries": [country], "listed": True,
+                                          "category_only": True}
+                continue
             entry = listed.setdefault(r["title"], {"country": country, "region": region, "lists": [],
                                                    "sections": [], "regions": []})
             if region and region not in entry.setdefault("region_options", []):
@@ -629,6 +697,14 @@ def main() -> None:
             if r["section"] and r["section"] not in entry["sections"]:
                 entry["sections"].append(r["section"])
             entry["regions"] += [x for x in r["regions"] if x not in entry["regions"]]
+    dishes_set = food_classes(("Q746549",))
+    added = 0
+    for title, country in origin_titles(dishes_set).items():
+        if title not in listed:   # a cuisine page's country comes first
+            listed[title] = {"country": country, "region": None, "lists": [], "sections": [], "regions": [],
+                             "countries": [country], "listed": True, "wikidata_origin": True}
+            added += 1
+    print(f"Wikidata country of origin (sprint 4): {added} more articles")
     print(f"{len(listed)} different linked articles; no page or no list rows: {len(missing)}")
     if args.dry:
         print("missing:", "; ".join(missing))
@@ -637,7 +713,6 @@ def main() -> None:
     pages = page_items(list(listed))
     facts = wikidata_facts(sorted({p["qid"] for p in pages.values()}))
     foods = food_classes()
-    dishes_set = food_classes(("Q746549",))
     dishes: dict[str, dict] = {}
     stories: dict[str, list[str]] = {}
     if args.stories:
@@ -657,6 +732,9 @@ def main() -> None:
             continue   # not from a country the app shows (picked up later)
         intro = page["intro"]
         region = entry["region"]
+        if entry.get("category_only") and not (dishes_set.intersection(f.get("types", []))
+                                               and claims_country(country, intro, f.get("origin", []))):
+            continue   # only in a category: a dish its Wikidata origin or its own intro gives to the country
         tags = traditions(entry["lists"], intro)
         only_indigenous = all(p in INDIGENOUS_PAGES for p in entry["lists"])
         if only_indigenous and not tags:
@@ -687,6 +765,7 @@ def main() -> None:
             "kind": "dish" if dishes_set.intersection(f.get("types", [])) else "food or drink",
             "sections": [" > ".join(s) for s in entry["sections"]], "regions": entry["regions"][:6],
             **({"traditions": tags} if tags else {}),
+            **({"found_by": "Wikidata country of origin"} if entry.get("wikidata_origin") else {}),
             "summary": (sentences(intro) or [""])[0],
             "fun_fact_candidates": fact_candidates(intro),
             "story_candidates": [x for x in stories.get(page["title"], []) if x not in fact_candidates(intro)],
@@ -695,7 +774,7 @@ def main() -> None:
                         {"name": f"Wikipedia: {page['title']}", "url": url, "licence": "CC BY-SA 4.0",
                          "credit": "Wikipedia contributors"},
                         *({"name": f"Wikipedia: {name}", "licence": "CC BY-SA 4.0"} for name in entry["lists"])],
-            "learn_more": learn_more(page["title"], page["title"], page["qid"], entry["lists"],
+            "learn_more": learn_more(page["title"], page["title"], page["qid"], [p for p in entry["lists"] if not p.startswith("Category:")],
                                      f.get("heritage", [])),
             "reviewed": False,
         }

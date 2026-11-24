@@ -52,6 +52,26 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q35778572) (CC0); [Wikipedia: Laghman (food)](https://en.wikipedia.org/wiki/Laghman_(food)) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Orama (dish)
+
+Orama, is a traditional steamed pie made in Central Asia, especially among the Kazakh, Kyrgyz, Uzbeks, Bashkirs and the Mongolians.
+
+- From: Kyrgyzstan
+- Origin (Wikidata): Kyrgyzstan
+- Ingredients (Wikidata): meat, Brassica, dough, herb, onion, Cucurbita, potato
+
+Fun facts:
+
+- (origin) Orama comes from Kyrgyzstan.
+
+Learn more:
+
+- quick: [Orama (dish) (Wikipedia)](https://en.wikipedia.org/wiki/Orama_%28dish%29)
+- deep: [Books about Orama (dish) (Open Library)](https://openlibrary.org/search?q=Orama%20%28dish%29)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1048130)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1048130) (CC0); [Wikipedia: Orama (dish)](https://en.wikipedia.org/wiki/Orama_(dish)) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Jarma (drink)
 
 Jarma is a cold beverage made from ground grains found in the cuisine of Kyrgyzstan.
