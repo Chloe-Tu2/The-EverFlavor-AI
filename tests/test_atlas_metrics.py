@@ -67,3 +67,21 @@ def test_indigenous_verdicts_survive_a_rerun(tmp_path, monkeypatch) -> None:
     rows = cc.review_sheet(foods)
     assert cc.is_reviewed(rows[("Māori", "Q1")]) and not cc.is_reviewed(rows[("Inuit", "Q2")])
     assert not cc.is_reviewed({"verdict": "keep", "reviewer": ""})   # a verdict needs a person's name
+
+
+def test_cuisine_photos_need_a_person_and_the_rules() -> None:
+    import json
+
+    import cuisine_images as ci
+    assert ci.is_kept({"verdict": "keep", "reviewer": "A person"}) and not ci.is_kept({"verdict": "keep"})
+    queue = json.loads((ROOT / "data" / "knowledge" / "media" / "cuisine_image_queue.json").read_text(encoding="utf-8"))
+    for image in queue["images"]:
+        assert image["approved"] == (ci.is_kept(image) and image["passes"] == "yes")
+
+
+def test_the_usual_country_count_is_beside_ours() -> None:
+    import json
+    cov = json.loads((ROOT / "data" / "knowledge" / "atlas" / "culinary_coverage.json").read_text(encoding="utf-8"))
+    un = cov["un_states"]
+    assert un["members"] == 193 and un["observers"] == 2
+    assert un["members_with_a_dish"] + len(un["members_without_a_dish"]) == 193

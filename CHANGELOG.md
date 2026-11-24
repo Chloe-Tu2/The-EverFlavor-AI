@@ -55,6 +55,13 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   with dishes now have one. "dutch" and "georgian" are not shop-name hints.
 - **Exact numbers beside coverage** in the README dashboard: how many countries have a dish and pass every basic
   check, per continent.
+- **Cuisine photo fallbacks** (0.8.0, `scripts/knowledge/cuisine_images.py`): for a recipe with no photo, a photo
+  of its country's cuisine (the image Wikidata names for the cuisine article), labelled "a photo of Kenyan cuisine,
+  not this dish", with its Commons credit. 108 countries have one, 96 pass the photo rules; the app shows one only
+  after a person's `keep` in `data/knowledge/review/cuisine_images.csv` (none yet).
+- **Two country counts** (`scripts/knowledge/country_counts.py`, `docs/audits/country_counts.md`): our coverage
+  count (200 CLDR countries and territories of 100,000 people or more, 154 with a dish) beside the usual one (the
+  195 UN member and observer states, 149 with a dish), where they differ, and how the count grew by sprint.
 - **Indigenous tag verdicts are kept:** `culinary_coverage.py` rewrites the review sheet on every run, keeps
   people's verdicts, and marks a tag reviewed only with `keep` and a reviewer's name.
 

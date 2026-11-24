@@ -866,6 +866,16 @@ def walter_panel(row: pd.Series, dish: str, country: object) -> None:
         words.markdown(" · ".join(f"[{link['title']}]({link['url']})" for link in reply.links))
 
 
+@st.cache_data
+def cuisine_images() -> dict[str, dict]:
+    """Country -> its cuisine photo (scripts/knowledge/cuisine_images.py), only the ones a person kept that pass
+    the photo rules; {} until then."""
+    path = ROOT / "data" / "knowledge" / "media" / "cuisine_image_queue.json"
+    if not path.exists():
+        return {}
+    return {i["country"]: i for i in json.loads(path.read_text(encoding="utf-8")).get("images", []) if i.get("approved")}
+
+
 def recipe_photo(place, row: pd.Series, dish: str) -> None:
     """The recipe's photo with its credit, the same on its card and its page."""
     photo, link, site = row.get("image_url"), row.get("url"), row.get("source")
@@ -882,6 +892,14 @@ def recipe_photo(place, row: pd.Series, dish: str) -> None:
         place.image(row["thumb_url"], width="stretch", alt=f"A photo of {row['dish_label']} in general, not this recipe")
         place.caption(f"A photo of {plain(row['dish_label'])} in general, not this recipe. "
                       f"[{plain(row['credit'])}]({row['file_page']})")
+    elif (cuisine := cuisine_images().get(str(row.get("origin_country")))) and from_commons(cuisine["file_page"]):
+        # 0.8.0: no photo of the dish: a photo of its country's cuisine, only one a person approved, said so plainly
+        url = ("https://commons.wikimedia.org/wiki/Special:FilePath/" + quote(cuisine["file"].replace(" ", "_"))
+               + "?width=640")
+        page = plain(cuisine["cuisine_page"])
+        place.image(url, width="stretch", alt=f"A photo of {page}, not this dish")
+        place.caption(f"A photo of {page}, not this dish. "
+                      f"[{plain(cuisine['author'])}, {plain(cuisine['licence'])}]({cuisine['file_page']})")
     else:
         # No photo at all: the kitchen's own picture, which says plainly that it is not the dish
         place.markdown(f'<div class="no-photo" role="img" aria-label="No photo of this dish yet">'

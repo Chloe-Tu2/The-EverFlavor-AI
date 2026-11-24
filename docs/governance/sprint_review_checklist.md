@@ -16,7 +16,8 @@ Written 2026-11-23 for sprint 4, from med27-coder's request. The sprint's impact
 
 - [ ] Notebook 15 rerun: dish families and categories
 - [ ] Notebook 11 rerun: country pages, with no PC paths in its outputs
-- [ ] `region_pages.py` and `country_scores.py` rerun: region pages, weak and uncovered countries
+- [ ] `region_pages.py`, `country_scores.py` and `country_counts.py` rerun: region pages, weak and uncovered
+      countries, our count beside the UN's
 
 ## Enrichment and preservation
 

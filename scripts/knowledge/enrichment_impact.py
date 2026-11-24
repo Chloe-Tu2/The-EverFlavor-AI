@@ -157,7 +157,10 @@ def exact(key: str) -> str:
     elif key.endswith(" coverage (%)"):
         part = cov.get("continents", {}).get(key.removesuffix(" coverage (%)"), {})
     elif key == "countries with a dish":
-        return f"of {world.get('countries', 0)} countries and territories counted (100,000 people or more)"
+        un = cov.get("un_states", {})
+        standard = (f"; {un['members_with_a_dish'] + un['observers_with_a_dish']} of the "
+                    f"{un['members'] + un['observers']} UN member and observer states") if un else ""
+        return f"of {world.get('countries', 0)} CLDR countries and territories of 100,000 people or more{standard}"
     elif key == "country pages":
         return "one readable page per country with an entry (notebook 11)"
     else:

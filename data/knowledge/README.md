@@ -27,6 +27,9 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   `docs/audits/graph_assets.md`).
 - `recipe_quality.json`: what the recipes have and lack, by source (counts only), from
   `scripts/knowledge/recipe_quality_audit.py` (`docs/audits/recipe_quality.md`).
+- `media/cuisine_image_queue.json`: per country, the photo Wikidata names for its cuisine article and whether its
+  Commons file passes the photo rules (`cuisine_images.py`; nothing downloaded); the app shows one, labelled "a photo
+  of Kenyan cuisine, not this dish", only after a person's `keep` in `review/cuisine_images.csv`.
 - `media/`: the dish image audit (`scripts/knowledge/media_audit.py`): per dish the best image level (its recipe's
   photo, a Commons photo of the dish, a version or the family, else the app's placeholder), licence and credit
   checks, coverage by country and zone, missing images and the fetch priority; `wikidata_images.json` lists the

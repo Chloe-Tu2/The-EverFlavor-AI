@@ -80,7 +80,7 @@ Coverage is a score per country, averaged. The basic checks are three dishes, a 
 | Asia coverage (%) | 76.6 | 44 of 51 countries have a dish; 36 pass every basic check |
 | Europe coverage (%) | 84.1 | 38 of 41 countries have a dish; 34 pass every basic check |
 | Oceania coverage (%) | 32.3 | 6 of 12 countries have a dish; 2 pass every basic check |
-| Countries with a dish | 154 | of 200 countries and territories counted (100,000 people or more) |
+| Countries with a dish | 154 | of 200 CLDR countries and territories of 100,000 people or more; 149 of the 195 UN member and observer states |
 | Country pages | 165 | one readable page per country with an entry (notebook 11) |
 
 ### Representation

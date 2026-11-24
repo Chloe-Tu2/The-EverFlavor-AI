@@ -26,6 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(ROOT / "src"))
 
 from quality_reports import read, save_md, table
 
@@ -74,6 +75,31 @@ def review_sheet(foods: list[dict]) -> dict[tuple[str, str], dict]:
 
 def is_reviewed(row: dict) -> bool:
     return row.get("verdict", "").strip().lower() == "keep" and bool(row.get("reviewer", "").strip())
+
+
+# Wikidata's names for some UN members -> ours (the Kingdom of the Netherlands is the Netherlands here)
+UN_NAMES = {"Kingdom of the Netherlands": "Netherlands", "People's Republic of China": "China",
+            "Kingdom of Denmark": "Denmark", "Republic of the Congo": "Congo"}
+UN_OBSERVERS = {"Palestine": "Q219060", "Vatican City": "Q237"}
+UN_QUERY = """SELECT DISTINCT ?c ?cLabel WHERE {
+  ?c p:P463 ?st . ?st ps:P463 wd:Q1065 . FILTER NOT EXISTS { ?st pq:P582 ?end }
+  ?c wdt:P31 wd:Q3624078 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}"""
+
+
+def un_states() -> dict:
+    """The usual count beside ours: the 193 UN member states (Wikidata: member of the United Nations, a sovereign
+    state) and the 2 observer states (Palestine, Vatican City), and how many have a dish. Our coverage counts CLDR
+    countries and territories of 100,000 people or more instead (review item 21)."""
+    from everflavor.knowledge import _sparql
+    rows = _sparql(UN_QUERY, ROOT / "data" / "raw" / "knowledge_cache" / "wikidata")
+    members = sorted({UN_NAMES.get(r["cLabel"], r["cLabel"]) for r in rows})
+    have = {json.loads(line)["country"] for line in (KNOW / "dishes.jsonl").open(encoding="utf-8")
+            if json.loads(line)["kind"] == "dish"}
+    return {"members": len(members), "members_with_a_dish": sum(m in have for m in members),
+            "observers": len(UN_OBSERVERS), "observers_with_a_dish": sum(o in have for o in UN_OBSERVERS),
+            "members_without_a_dish": [m for m in members if m not in have], "member_states": members}
 
 
 def write_traditions(foods: list[dict]) -> None:
@@ -169,7 +195,7 @@ def main() -> None:
                     "(Wikipedia CC BY-SA, Wikidata CC0)"),
         "rule": {"checks": CHECKS, "score": "60 x level-1 checks met / 5 + 20 x level 2 + 20 x level 3 (no culinary regions: out of 80, scaled to 100)",
                  "counted": f"population >= {MIN_PEOPLE:,} (proposed)"},
-        "world": world, "continents": conts, "subregions": subs, "countries": rows,
+        "world": world, "un_states": un_states(), "continents": conts, "subregions": subs, "countries": rows,
         "indigenous_traditions": {k: sorted(v) for k, v in sorted(indigenous.items())}},
         ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
