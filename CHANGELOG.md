@@ -47,6 +47,16 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   have a dish, 115 three or more; world coverage 63.7%, Africa 44.0%, Oceania 32.3%. Per-sprint impact reports
   (`enrichment_impact.py --sprint N`, `docs/audits/sprints/`), the sprint review checklist, a pull request
   template, an atlas sprint review issue form and an Indigenous tag review sheet.
+- **Related dishes in Check my recipe** (0.8.0): when the dish name is one the knowledge notebook knows, a panel
+  shows its family, versions and "more like this" from the Food Graph (Wikidata, CC0); not checked against the
+  profile, and nothing pasted is saved.
+- **Map cuisine tags for 23 more countries** (0.8.0): the OpenStreetMap cuisine word used 50 or more times
+  (taginfo, 2026-11-23), such as georgian, ukrainian, nepalese, salvadoran and dominican; 79 of the 167 countries
+  with dishes now have one. "dutch" and "georgian" are not shop-name hints.
+- **Exact numbers beside coverage** in the README dashboard: how many countries have a dish and pass every basic
+  check, per continent.
+- **Indigenous tag verdicts are kept:** `culinary_coverage.py` rewrites the review sheet on every run, keeps
+  people's verdicts, and marks a tag reviewed only with `keep` and a reviewer's name.
 
 ### Changed
 

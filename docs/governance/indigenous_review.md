@@ -16,7 +16,8 @@ only when rules 2 and 3 both hold. Every tag starts as `"reviewed": false`.
 3. **The food's own page names the people.** Its Wikipedia intro says "Māori", "Inuit", "Ainu" and so on.
 4. **No guessing.** A country is never a tradition: a New Zealand dish is not Māori because it is from New Zealand.
    No AI model adds, changes or explains a tag.
-5. **A person reviews every tag.** It stays `"reviewed": false` until then. Check that:
+5. **A person reviews every tag** in `data/knowledge/review/indigenous_tags.csv` (`verdict`: `keep`, `fix` or
+   `drop`; `reviewer`: your name; `note`: why). It stays `"reviewed": false` until a `keep` with a name. Check that:
    - the intro calls the food the people's own, not only eaten by them or sold near them;
    - the words are not about something else ("Hawaiian pizza" is not Native Hawaiian);
    - the community's own name is used, as the source spells it.

@@ -145,6 +145,29 @@ def sprint_report(number: int, ref: str, before: dict[str, float], now: dict[str
     save_md(f"sprints/sprint_{number}_impact.md", lines)
 
 
+def exact(key: str) -> str:
+    """The counts behind a coverage measure, from culinary_coverage.json (latest run), "" when none apply."""
+    path = ROOT / KNOW / "atlas" / "culinary_coverage.json"
+    if not path.exists():
+        return ""
+    cov = json.loads(path.read_text(encoding="utf-8"))
+    world = cov.get("world", {})
+    if key == "world culinary coverage (%)":
+        part = world
+    elif key.endswith(" coverage (%)"):
+        part = cov.get("continents", {}).get(key.removesuffix(" coverage (%)"), {})
+    elif key == "countries with a dish":
+        return f"of {world.get('countries', 0)} countries and territories counted (100,000 people or more)"
+    elif key == "country pages":
+        return "one readable page per country with an entry (notebook 11)"
+    else:
+        return ""
+    if not part:
+        return ""
+    return (f"{part['with_a_dish']} of {part['countries']} countries have a dish; "
+            f"{part['level_1']} pass every basic check")
+
+
 def review_items(text: str) -> int:
     """How many numbered items the review list has (its table rows start with "| <number> |")."""
     return sum(1 for line in text.splitlines() if re.match(r"\| [0-9]+ \|", line))
@@ -193,7 +216,11 @@ def dashboard(before: dict[str, float], now: dict[str, float]) -> list[str]:
             "full run; do not edit by hand. Coverage, not dish count, is the headline "
             "([world_culinary_coverage.md](docs/audits/world_culinary_coverage.md)); before and after: "
             "[enrichment_impact.md](docs/audits/enrichment_impact.md)."), "", "### Coverage", ""]
-    out += table(["Measure", "Now"], rows(SECTIONS["coverage"]))
+    out += [("Coverage is a score per country, averaged. The basic checks are three dishes, a dish family, a cuisine "
+             "page and a food history (and regional styles where a country has culinary regions); the exact counts "
+             "say how many countries are behind each number."), ""]
+    out += table(["Measure", "Now", "Exact numbers"], [[*r, exact(k)] for r, k in
+                                                       zip(rows(SECTIONS["coverage"]), SECTIONS["coverage"])])
     out += ["", "### Representation", ""]
     out += table(["Measure", "Now"], rows(SECTIONS["representation"]))
     scores = country_summary()

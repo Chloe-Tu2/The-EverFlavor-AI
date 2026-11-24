@@ -78,8 +78,9 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   6 drops and 5 fixes suggested, 10 to check), and `verdict` / `reviewer` / `note` are for a person: `keep`,
   `fix` or `drop`. Walter never says a fact marked `drop`. Rerunning the script keeps what people wrote.
 - `review/indigenous_tags.csv`: every Indigenous tradition tag (30 tags on 29 foods, 2026-11-23) with its source, for a
-  person's `verdict` (`keep`, `fix` or `drop`) by the rubric in `docs/governance/indigenous_review.md`; not read by
-  the pipeline yet, so the app still shows no tag.
+  person's `verdict` (`keep`, `fix` or `drop`) by the rubric in `docs/governance/indigenous_review.md`, with their
+  name in `reviewer`. `culinary_coverage.py` rewrites it on every run and keeps what people wrote; a tag counts as
+  reviewed in `atlas/indigenous_traditions.json` only with `keep` and a name. The app shows no tag yet.
 - `review/origin_elsewhere.csv`: dishes a country's Wikipedia list names but whose Wikidata origin is elsewhere
   (130, such as Baguette under the United States): their country needs a person's check.
 

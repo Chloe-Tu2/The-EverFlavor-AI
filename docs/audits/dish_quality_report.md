@@ -20,7 +20,7 @@ Twelve parts, each from a source we already use (the score is built from most of
 | a real photo of it (its recipe, the dish or a version) | 1,200 (31%) | 2,663 | scripts/dish_photos/ (image_coverage_report.md) |
 | fun-fact sentences from its Wikipedia intro | 2,228 (58%) | 1,635 | fetch_knowledge.py |
 | story sentences (history, origin, culture) | 1,780 (46%) | 2,083 | fetch_knowledge.py --stories |
-| map places in the pilot area for its country | 2,553 (66%) | 1,310 | stores.COUNTRY_CUISINES and the places table |
+| map places in the pilot area for its country | 2,575 (67%) | 1,288 | stores.COUNTRY_CUISINES and the places table |
 | how to say it | 33 (1%) | 3,830 | data/reference/dish_pronunciation.csv (a person adds it) |
 
 ## By country (20 with the most dishes)
@@ -59,6 +59,6 @@ Most points can come from sources and scripts we already have, in this order of 
 5. **story sentences (history, origin, culture)** for 2,083 dishes: fetch_knowledge.py --stories.
 6. **fun-fact sentences from its Wikipedia intro** for 1,635 dishes: fetch_knowledge.py.
 7. **its ingredients on Wikidata (P186, made from)** for 1,496 dishes: Wikidata itself.
-8. **map places in the pilot area for its country** for 1,310 dishes: stores.COUNTRY_CUISINES and the places table.
+8. **map places in the pilot area for its country** for 1,288 dishes: stores.COUNTRY_CUISINES and the places table.
 
 Origin and ingredients live on Wikidata; where Wikidata has none, the dish stays without them rather than getting a guess. Recipes are never written: a dish without one stays knowledge-only.

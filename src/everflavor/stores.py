@@ -66,9 +66,18 @@ COUNTRY_CUISINES = {
     "Ecuador": "ecuadorian", "Hungary": "hungarian", "Ireland": "irish", "Laos": "lao", "Malaysia": "malaysian",
     "Poland": "polish", "Portugal": "portuguese", "Puerto Rico": "puerto_rican", "Russia": "russian",
     "Sweden": "swedish", "Switzerland": "swiss", "Syria": "syrian", "Taiwan": "taiwanese", "Venezuela": "venezuelan",
+    # Added 2026-11-23 (0.8.0, the countries the atlas sprints added): the same rule, a cuisine value used 50+ times
+    # (taginfo, key cuisine, 2026-11-23); "dominican" (103) is the Dominican Republic's
+    "Bolivia": "bolivian", "Bulgaria": "bulgarian", "Dominican Republic": "dominican", "El Salvador": "salvadoran",
+    "Georgia": "georgian", "Guatemala": "guatemalan", "Haiti": "haitian", "Israel": "israeli",
+    "Madagascar": "malagasy", "Mongolia": "mongolian", "Myanmar": "burmese", "Nepal": "nepalese",
+    "Netherlands": "dutch", "Romania": "romanian", "Senegal": "senegalese", "Serbia": "serbian",
+    "Singapore": "singaporean", "Sri Lanka": "sri_lankan", "Suriname": "surinamese", "Tunisia": "tunisian",
+    "Ukraine": "ukrainian", "Uzbekistan": "uzbek", "Yemen": "yemeni",
 }
-# Cuisine words too common in shop names for something else to be a name hint ("nail polish", "Irish pub")
-NOT_NAME_HINTS = {"american", "spanish", "polish", "swiss", "canadian", "irish", "lao"}
+# Cuisine words too common in shop names for something else to be a name hint ("nail polish", "Irish pub",
+# "Dutch Bros", "Georgian Terrace")
+NOT_NAME_HINTS = {"american", "spanish", "polish", "swiss", "canadian", "irish", "lao", "dutch", "georgian"}
 # Origin country -> the broader kind of grocery that often carries its products (a name hint in NAME_HINTS)
 COUNTRY_REGIONS = {
     **dict.fromkeys(["China", "Japan", "South Korea", "Thailand", "Vietnam", "Philippines", "Indonesia", "Taiwan",

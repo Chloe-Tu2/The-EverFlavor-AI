@@ -2247,6 +2247,11 @@ with check_tab:
                     st.markdown(f"**{WAITER}'s notes**\n" + "\n".join(
                         f"- **{n['ingredient']}**: {n['note']} [Source]({n['source']})" for n in ingredient_notes))
                     st.caption("The Map tab's stores can help you find these.")
+                if name.strip() and graph_dish(name.strip(), None):   # 0.8.0: related dishes, from the graph only
+                    with st.expander(f"Dishes related to {plain(name.strip())}"):
+                        dish_family(name.strip(), None)
+                        st.caption("Not checked against your profile: search a dish in Find recipes to check it. "
+                                   "Nothing you pasted is saved.")
                 st.caption("The app's rules made this decision"
                            + (f"; the local AI ({report['explained_by']}) only explained it." if report["explained_by"] != "rules"
                               else ".") + " Not medical advice: the check reads ingredient names, not labels.")

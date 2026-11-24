@@ -54,3 +54,16 @@ def test_one_dish_is_covered_but_not_represented() -> None:
     s = cs.scores(rich, {"Q0", "Q1", "Q2"}, walter, paths, has_regions=True)
     assert s["representation"] == 100.0 and s["enrichment"] == 100.0
     assert cs.scores([], set(), {}, {}, has_regions=True)["representation"] == 0.0
+
+
+def test_indigenous_verdicts_survive_a_rerun(tmp_path, monkeypatch) -> None:
+    import culinary_coverage as cc
+    monkeypatch.setattr(cc, "SHEET", tmp_path / "indigenous_tags.csv")
+    foods = [{"tradition": "Māori", "name": "Hāngī", "qid": "Q1", "country": "New Zealand"},
+             {"tradition": "Inuit", "name": "Akutaq", "qid": "Q2", "country": "Canada"}]
+    cc.review_sheet(foods)
+    text = cc.SHEET.read_text(encoding="utf-8").replace("Q1,New Zealand,,,,,", "Q1,New Zealand,,,keep,A person,ok")
+    cc.SHEET.write_text(text, encoding="utf-8")
+    rows = cc.review_sheet(foods)
+    assert cc.is_reviewed(rows[("Māori", "Q1")]) and not cc.is_reviewed(rows[("Inuit", "Q2")])
+    assert not cc.is_reviewed({"verdict": "keep", "reviewer": ""})   # a verdict needs a person's name
