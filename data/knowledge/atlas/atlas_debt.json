@@ -1,0 +1,1597 @@
+{
+ "by": "scripts/knowledge/atlas_health.py",
+ "built_on": "2026-11-24",
+ "debts": [
+  "one dish only",
+  "no photo",
+  "no story",
+  "no family",
+  "no culinary region",
+  "weak Walter"
+ ],
+ "total": 227,
+ "per_gap": {
+  "one dish only": 25,
+  "no photo": 32,
+  "no story": 39,
+  "no family": 23,
+  "no culinary region": 101,
+  "weak Walter": 7
+ },
+ "countries": [
+  {
+   "country": "Bahrain",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 1,
+   "debt": 5,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no family",
+    "no culinary region",
+    "weak Walter"
+   ]
+  },
+  {
+   "country": "New Caledonia",
+   "continent": "Oceania",
+   "subregion": "Melanesia",
+   "dishes": 1,
+   "debt": 5,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Rwanda",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 1,
+   "debt": 5,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Samoa",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "dishes": 1,
+   "debt": 5,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Tajikistan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "dishes": 1,
+   "debt": 5,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no family",
+    "no culinary region",
+    "weak Walter"
+   ]
+  },
+  {
+   "country": "The Bahamas",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "dishes": 1,
+   "debt": 5,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no family",
+    "no culinary region",
+    "weak Walter"
+   ]
+  },
+  {
+   "country": "Central African Republic",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "dishes": 2,
+   "debt": 5,
+   "gaps": [
+    "no photo",
+    "no story",
+    "no family",
+    "no culinary region",
+    "weak Walter"
+   ]
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Belize",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no culinary region",
+    "weak Walter"
+   ]
+  },
+  {
+   "country": "Brunei",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Curaçao",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Democratic Republic of the Congo",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no story",
+    "no family"
+   ]
+  },
+  {
+   "country": "Malawi",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Mali",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Mauritania",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Mozambique",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Niger",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no story",
+    "no family"
+   ]
+  },
+  {
+   "country": "Suriname",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "The Gambia",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Zambia",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 1,
+   "debt": 4,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Tonga",
+   "continent": "Oceania",
+   "subregion": "Polynesia",
+   "dishes": 2,
+   "debt": 4,
+   "gaps": [
+    "no photo",
+    "no story",
+    "no culinary region",
+    "weak Walter"
+   ]
+  },
+  {
+   "country": "Turkmenistan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "dishes": 2,
+   "debt": 4,
+   "gaps": [
+    "no photo",
+    "no story",
+    "no culinary region",
+    "weak Walter"
+   ]
+  },
+  {
+   "country": "Bhutan",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "dishes": 1,
+   "debt": 3,
+   "gaps": [
+    "one dish only",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Montenegro",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 1,
+   "debt": 3,
+   "gaps": [
+    "one dish only",
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "United Arab Emirates",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 1,
+   "debt": 3,
+   "gaps": [
+    "one dish only",
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Benin",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 2,
+   "debt": 3,
+   "gaps": [
+    "no photo",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Chad",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "dishes": 2,
+   "debt": 3,
+   "gaps": [
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Honduras",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "dishes": 2,
+   "debt": 3,
+   "gaps": [
+    "no photo",
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "South Sudan",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 2,
+   "debt": 3,
+   "gaps": [
+    "no photo",
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Kenya",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 3,
+   "debt": 3,
+   "gaps": [
+    "no story",
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Somalia",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 3,
+   "debt": 3,
+   "gaps": [
+    "no photo",
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Guam",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "dishes": 4,
+   "debt": 3,
+   "gaps": [
+    "no photo",
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Cape Verde",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 1,
+   "debt": 2,
+   "gaps": [
+    "one dish only",
+    "no story"
+   ]
+  },
+  {
+   "country": "Ivory Coast",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 1,
+   "debt": 2,
+   "gaps": [
+    "one dish only",
+    "no story"
+   ]
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 2,
+   "debt": 2,
+   "gaps": [
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Costa Rica",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "dishes": 2,
+   "debt": 2,
+   "gaps": [
+    "no family",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Guyana",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 2,
+   "debt": 2,
+   "gaps": [
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Moldova",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "dishes": 2,
+   "debt": 2,
+   "gaps": [
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Tanzania",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 2,
+   "debt": 2,
+   "gaps": [
+    "no story",
+    "no family"
+   ]
+  },
+  {
+   "country": "Syria",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 3,
+   "debt": 2,
+   "gaps": [
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Uruguay",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 3,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Estonia",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 4,
+   "debt": 2,
+   "gaps": [
+    "no story",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Austria",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "dishes": 5,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Botswana",
+   "continent": "Africa",
+   "subregion": "Southern Africa",
+   "dishes": 5,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no story"
+   ]
+  },
+  {
+   "country": "Laos",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 5,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Luxembourg",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "dishes": 5,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "New Zealand",
+   "continent": "Oceania",
+   "subregion": "Australasia",
+   "dishes": 6,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Malta",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 7,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Maldives",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "dishes": 9,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Iraq",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 11,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Armenia",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 12,
+   "debt": 2,
+   "gaps": [
+    "no photo",
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Sudan",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "dishes": 1,
+   "debt": 1,
+   "gaps": [
+    "one dish only"
+   ]
+  },
+  {
+   "country": "Bolivia",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 2,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Saudi Arabia",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 2,
+   "debt": 1,
+   "gaps": [
+    "no photo"
+   ]
+  },
+  {
+   "country": "Angola",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no photo"
+   ]
+  },
+  {
+   "country": "Dominican Republic",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "El Salvador",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Kyrgyzstan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Libya",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no story"
+   ]
+  },
+  {
+   "country": "Mauritius",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "North Korea",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "North Macedonia",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Seychelles",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no story"
+   ]
+  },
+  {
+   "country": "Sri Lanka",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Uganda",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 3,
+   "debt": 1,
+   "gaps": [
+    "no family"
+   ]
+  },
+  {
+   "country": "Lithuania",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 4,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Madagascar",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 4,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Albania",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 5,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Latvia",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 5,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Mongolia",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "dishes": 5,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Ecuador",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 6,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Ghana",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 6,
+   "debt": 1,
+   "gaps": [
+    "no story"
+   ]
+  },
+  {
+   "country": "Haiti",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "dishes": 6,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Kazakhstan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "dishes": 6,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Uzbekistan",
+   "continent": "Asia",
+   "subregion": "Central Asia",
+   "dishes": 6,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Yemen",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 6,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Afghanistan",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "dishes": 7,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Cyprus",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 7,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Guatemala",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "dishes": 7,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Iceland",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 7,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Pakistan",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "dishes": 7,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Azerbaijan",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 8,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Nicaragua",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "dishes": 8,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Paraguay",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 8,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Puerto Rico",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "dishes": 8,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Trinidad and Tobago",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "dishes": 8,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Venezuela",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 8,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Slovenia",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 9,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Czech Republic",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "dishes": 10,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Ethiopia",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
+   "dishes": 10,
+   "debt": 1,
+   "gaps": [
+    "no photo"
+   ]
+  },
+  {
+   "country": "Slovakia",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "dishes": 10,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Singapore",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 11,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Bangladesh",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "dishes": 12,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Bulgaria",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "dishes": 12,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Serbia",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 13,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Nepal",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "dishes": 14,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Cambodia",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 15,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Israel",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 15,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Ukraine",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "dishes": 16,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Colombia",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 17,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Denmark",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 18,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Palestine",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 18,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Peru",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 18,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Romania",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "dishes": 21,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Georgia",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 22,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Ireland",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 22,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Belgium",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "dishes": 25,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Switzerland",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "dishes": 27,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Chile",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 28,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Sweden",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 44,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Russia",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "dishes": 48,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Norway",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 51,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Turkey",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 65,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Poland",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "dishes": 68,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "South Korea",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "dishes": 79,
+   "debt": 1,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Tunisia",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "dishes": 6,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Cameroon",
+   "continent": "Africa",
+   "subregion": "Middle Africa",
+   "dishes": 8,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Senegal",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 8,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Argentina",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 10,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Egypt",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "dishes": 16,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Croatia",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 17,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Iran",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "dishes": 18,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Myanmar",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 19,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Algeria",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "dishes": 20,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Morocco",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "dishes": 20,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Cuba",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "dishes": 22,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Finland",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 25,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Taiwan",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "dishes": 25,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "South Africa",
+   "continent": "Africa",
+   "subregion": "Southern Africa",
+   "dishes": 28,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Lebanon",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 31,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Netherlands",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "dishes": 31,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Malaysia",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 39,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Hungary",
+   "continent": "Europe",
+   "subregion": "Eastern Europe",
+   "dishes": 42,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Jamaica",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "dishes": 50,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Nigeria",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 50,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Brazil",
+   "continent": "Americas",
+   "subregion": "South America",
+   "dishes": 51,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Spain",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 55,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Australia",
+   "continent": "Oceania",
+   "subregion": "Australasia",
+   "dishes": 60,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "dishes": 69,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Portugal",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 72,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Vietnam",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 72,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Thailand",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 77,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Philippines",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 87,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "France",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "dishes": 88,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Germany",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "dishes": 88,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Greece",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 88,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Canada",
+   "continent": "Americas",
+   "subregion": "Northern America",
+   "dishes": 89,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "India",
+   "continent": "Asia",
+   "subregion": "Southern Asia",
+   "dishes": 105,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Japan",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "dishes": 109,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Mexico",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "dishes": 112,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "China",
+   "continent": "Asia",
+   "subregion": "Eastern Asia",
+   "dishes": 181,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Indonesia",
+   "continent": "Asia",
+   "subregion": "Southeast Asia",
+   "dishes": 249,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "Italy",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 329,
+   "debt": 0,
+   "gaps": []
+  },
+  {
+   "country": "United States",
+   "continent": "Americas",
+   "subregion": "Northern America",
+   "dishes": 366,
+   "debt": 0,
+   "gaps": []
+  }
+ ]
+}

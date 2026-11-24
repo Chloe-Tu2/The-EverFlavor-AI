@@ -73,6 +73,11 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
   under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
   dishes answer all five; versions are the gap).
+- **Atlas health and atlas debt** (2026-11-24): `scripts/knowledge/atlas_health.py` writes
+  `docs/audits/atlas_health.md` every run: the five measures, an atlas debt per country (227 points over 154
+  countries; the most common gaps are no culinary region data, 101, and no story, 39) and release readiness
+  (0.8: 4 of 9 done, 0.9: 2 of 10, 1.0: world coverage met, Africa and Oceania open). The charter now treats
+  unattended work as curation and lowering the debt as a goal.
 - **Campaign review aids** (2026-11-24; none decides anything): evidence packets for the six empty UN members
   (`docs/audits/empty_country_packets.md`: 21 Wikidata dishes, 19 shared dishes listed under a neighbour, 2 not in
   the atlas; review item 32); a Walter coverage score per country (average 3.43 of 5; the weakest are one- or

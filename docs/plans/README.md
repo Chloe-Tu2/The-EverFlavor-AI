@@ -390,9 +390,17 @@ Baselines from the sprint 4 run (2026-11-23, `data/knowledge/atlas/culinary_cove
 Western Asia comes before the Caribbean (med27-coder, 2026-11-24): it links the Levant, Arabian Peninsula, Mesopotamia and Persian region, which feeds region pages, Walter and related dishes. Central Asia (76.8%), Eastern Europe (82.0%) and South Asia (88.1%) are already strong and are not campaigns; they get depth work
 (representation, enrichment) when it comes up.
 
-**Atlas charter (unattended work, med27-coder, 2026-11-24).** Raise coverage, representation, enrichment,
-preservation and governance; never optimise for dish count alone. Prefer a new country over more dishes in an
-existing one, a new dish family over more variants of one, and a weak region over a strong one.
+**Atlas charter (unattended work, med27-coder, 2026-11-24).** EverFlavor is a culinary atlas, and unattended work
+is curation, not collection: the risk is coverage rising while quality stands still, or review queues growing
+without structure. Raise coverage, representation, enrichment, preservation and governance; never optimise for
+dish count alone. Prefer a new country over another dish in a well-covered one, a new dish family over another
+variant, a weak region over a strong one, knowledge quality over dish count, representation over volume,
+preservation over expansion, and governance over speed. Lowering the **atlas debt** (countries with one dish, no
+photo, no story, no family, no culinary region or weak Walter coverage; [atlas_health.md](../audits/atlas_health.md))
+usually beats adding the next dish. Campaign order while med27-coder is away: A, D, C, F, E, B.
+
+- Every run regenerates atlas health (the five measures, atlas debt, 0.8 / 0.9 / 1.0 readiness: done, waiting on
+  a person, open) and the review impact report (which decision unblocks the most).
 
 - Allowed by itself: coverage recovery, country and region audits, family mapping, region and country pages,
   Walter gap reports (variants, origins, stories), Indigenous evidence queues and review sheets (never applying
