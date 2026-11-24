@@ -42,8 +42,11 @@ __all__ = [
     "load_place_evidence",
     "load_specialty_ingredients",
     "map_places",
+    "miles_between",
+    "nearest_places",
     "place_facts",
     "specialty_in",
+    "zip_center",
 ]
 
 # The same confidence scale as Check my recipe and Walter (everflavor.confidence): a place is verified (a
@@ -71,6 +74,9 @@ _CUISINE_NAMES = {"tex-mex": "Tex-Mex", "steak_house": "steakhouse", "middle_eas
 ROOT = Path(__file__).resolve().parents[2]
 SPECIALTY_FILE = ROOT / "data" / "reference" / "specialty_ingredients.csv"
 EVIDENCE_FILE = ROOT / "data" / "reference" / "place_evidence.csv"
+# ZIP centres for the store locator: the Census 2025 ZCTA Gazetteer (public domain), the Greater Houston box only.
+# ZCTAs are the Census's version of ZIP codes and do not match them exactly.
+ZCTA_FILE = ROOT / "data" / "reference" / "houston_zcta.csv"
 # Kinds of place where ingredients are bought (the map's categories; convenience stores are left out on purpose)
 STORE_KINDS = ("grocery", "butcher", "seafood", "bakery", "spices", "marketplace")
 NOTE = "From OpenStreetMap: unverified unless marked verified. Check with the business before you go."
@@ -363,3 +369,34 @@ def map_places(places: pd.DataFrame, kinds: Iterable[str], cuisine: str | None =
     out["diet_text"] = ["; ".join(e["label"] for e in d) or "Diet status unknown" for d in diets]
     out["level"] = [next((e["level"] for e in d if not diet or e["tag"] == diet), Confidence.UNKNOWN.value) for d in diets]
     return out
+
+
+def zip_center(zip_code: object, path: str | Path = ZCTA_FILE) -> tuple[float, float] | None:
+    """A five-digit ZIP's centre (lat, lng) from the local Census table; None when it is not a ZIP of the area.
+    No service is called, so it works offline and in every environment."""
+    text = str(zip_code or "").strip()[:5]
+    if not re.fullmatch(r"[0-9]{5}", text) or not Path(path).exists():
+        return None
+    table = pd.read_csv(path, dtype={"zip": str})
+    hit = table[table["zip"] == text]
+    return (float(hit.iloc[0]["lat"]), float(hit.iloc[0]["lng"])) if not hit.empty else None
+
+
+def miles_between(lat1: float, lng1: float, lat2: Any, lng2: Any) -> Any:
+    """Straight-line (great-circle) distance in miles; works on numbers or whole columns. Driving distance needs a
+    routing service, so the place card's map link gives directions instead."""
+    la1, lo1 = np.radians(lat1), np.radians(lng1)
+    la2, lo2 = np.radians(lat2), np.radians(lng2)
+    a = np.sin((la2 - la1) / 2) ** 2 + np.cos(la1) * np.cos(la2) * np.sin((lo2 - lo1) / 2) ** 2
+    return 3958.8 * 2 * np.arcsin(np.sqrt(a))
+
+
+def nearest_places(places: pd.DataFrame, lat: float, lng: float, within_miles: float | None = None) -> pd.DataFrame:
+    """The places sorted by straight-line distance from (lat, lng), with `distance_mi`; only those within
+    `within_miles` when given."""
+    if places.empty:
+        return places.assign(distance_mi=pd.Series(dtype=float))
+    out = places.assign(distance_mi=miles_between(lat, lng, places["lat"].astype(float), places["lng"].astype(float)))
+    if within_miles is not None:
+        out = out[out["distance_mi"] <= within_miles]
+    return out.sort_values(["distance_mi", "label" if "label" in out else "name"]).reset_index(drop=True)

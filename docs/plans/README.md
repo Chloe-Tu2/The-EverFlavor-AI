@@ -318,7 +318,7 @@ A version answers "what can a person do now that they could not before?", not "w
 beta when every condition is met. GitHub milestones v0.8 to v2.0 track them; "person" means a team member must do
 it (Claude cannot sign off for people). Numbers come from `data/knowledge/atlas/atlas_metrics.json`.
 
-**Progress (2026-11-23):** 0.8 has 1 of 9 conditions met; 0.9 has 2 of 10. Most blockers are reviews by people.
+**Progress (2026-11-23):** 0.8 has 4 of 9 conditions met; 0.9 has 2 of 10. Most blockers are reviews by people.
 
 **0.8.0 beta, Atlas Foundations.** Done when a person can browse countries, dishes, maps, photos and related foods
 with confidence.
@@ -326,14 +326,14 @@ with confidence.
 | Area | Condition | Who | State |
 |---|---|---|---|
 | Coverage | Coverage counting rule confirmed (review item 21), then world coverage shown in the app | person, then Claude | open |
-| Coverage | README dashboard, metrics and sprint impact reports generated automatically | Claude | met |
+| Coverage | README dashboard (with exact counts), metrics and sprint impact reports generated automatically | Claude | met |
 | Images | Staged photos signed off (the 72 passed contact sheets), then linked: about 203 dishes become rich | person, then Claude | open |
-| Images | Cuisine and country image fallbacks, checked by a person; no broken image path | Claude, then person | open |
-| Discovery | Related dishes in Check my recipe | Claude | open |
-| Discovery | The 18 countries without a map cuisine tag | Claude | open |
-| Discovery | The store locator works (ZIP search, details, directions) | Claude | open |
+| Images | Cuisine image fallbacks, checked by a person; no broken image path | Claude, then person | built: 96 pass the rules, waiting for a person (`data/knowledge/review/cuisine_images.csv`) |
+| Discovery | Related dishes in Check my recipe | Claude | met (branch `release/0.8.0`) |
+| Discovery | Map cuisine tags for every country OpenStreetMap has a word for (50+ uses) | Claude | met: 23 added; the other 88 have no such word yet |
+| Discovery | The store locator works (ZIP search, details, directions) | Claude | met in Python (ZIP, distance, nearest list, card with map link); clustering, "search this area" and "use my location" wait for the MapLibre step |
 | Reviews | Items 24, 28, 29 and 30 (moved dishes, country scores, sprint entries) answered | person | open |
-| Release | CI green; the team tries `release/0.8.0` and approves | person | after the above |
+| Release | CI green; the 0.8 work is merged into `main` as it is verified (2026-11-23, med27-coder: merge as needed); the team tries `main`, approves, then `/release 0.8.0` | person | after the above |
 
 **0.9.0 beta, Atlas Experience.** Done when a person can explore regions, traditions and food culture, not only
 dishes.

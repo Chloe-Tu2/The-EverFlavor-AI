@@ -26,6 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(ROOT / "src"))
 
 from quality_reports import read, save_md, table
 
@@ -44,10 +45,73 @@ def country_score(checks: dict[str, bool], region_share: float | None, family_sh
     return round(score + 20 * region_share if region_share is not None else score * 100 / 80, 1)
 
 
+SHEET = KNOW / "review" / "indigenous_tags.csv"
+SHEET_FIELDS = ["tradition", "food", "qid", "country", "wikipedia", "summary", "verdict", "reviewer", "note"]
+
+
+def review_sheet(foods: list[dict]) -> dict[tuple[str, str], dict]:
+    """Rewrites data/knowledge/review/indigenous_tags.csv with every tag, keeping what people wrote (verdict,
+    reviewer, note); returns (tradition, qid) -> its row. A tag is reviewed only with `keep` and a reviewer's name."""
+    import csv
+    old: dict[tuple[str, str], dict] = {}
+    if SHEET.exists():
+        with SHEET.open(encoding="utf-8", newline="") as f:
+            old = {(r["tradition"], r["qid"]): r for r in csv.DictReader(f)}
+    rows = []
+    for f in sorted(foods, key=lambda f: (f["tradition"], f["name"])):
+        kept = old.get((f["tradition"], f["qid"]), {})
+        rows.append({"tradition": f["tradition"], "food": f["name"], "qid": f["qid"], "country": f["country"],
+                     "wikipedia": f.get("wikipedia", ""), "summary": f.get("summary", "")[:200],
+                     **{k: kept.get(k, "") for k in ("verdict", "reviewer", "note")}})
+    with SHEET.open("w", encoding="utf-8", newline="") as out:
+        writer = csv.DictWriter(out, fieldnames=SHEET_FIELDS)
+        writer.writeheader()
+        writer.writerows(rows)
+    gone = [k for k in old if old[k].get("verdict") and k not in {(r["tradition"], r["qid"]) for r in rows}]
+    if gone:
+        print(f"{len(gone)} reviewed tags are no longer found by the fetch (kept out of the sheet): {gone}")
+    return {(r["tradition"], r["qid"]): r for r in rows}
+
+
+def is_reviewed(row: dict) -> bool:
+    return row.get("verdict", "").strip().lower() == "keep" and bool(row.get("reviewer", "").strip())
+
+
+# Wikidata's names for some UN members -> ours (the Kingdom of the Netherlands is the Netherlands here)
+UN_NAMES = {"Kingdom of the Netherlands": "Netherlands", "People's Republic of China": "China",
+            "Kingdom of Denmark": "Denmark", "Republic of the Congo": "Congo"}
+UN_OBSERVERS = {"Palestine": "Q219060", "Vatican City": "Q237"}
+UN_QUERY = """SELECT DISTINCT ?c ?cLabel WHERE {
+  ?c p:P463 ?st . ?st ps:P463 wd:Q1065 . FILTER NOT EXISTS { ?st pq:P582 ?end }
+  ?c wdt:P31 wd:Q3624078 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}"""
+
+
+def un_states() -> dict:
+    """The usual count beside ours: the 193 UN member states (Wikidata: member of the United Nations, a sovereign
+    state) and the 2 observer states (Palestine, Vatican City), and how many have a dish. Our coverage counts CLDR
+    countries and territories of 100,000 people or more instead (review item 21)."""
+    from everflavor.knowledge import _sparql
+    rows = _sparql(UN_QUERY, ROOT / "data" / "raw" / "knowledge_cache" / "wikidata")
+    members = sorted({UN_NAMES.get(r["cLabel"], r["cLabel"]) for r in rows})
+    have = {json.loads(line)["country"] for line in (KNOW / "dishes.jsonl").open(encoding="utf-8")
+            if json.loads(line)["kind"] == "dish"}
+    return {"members": len(members), "members_with_a_dish": sum(m in have for m in members),
+            "observers": len(UN_OBSERVERS), "observers_with_a_dish": sum(o in have for o in UN_OBSERVERS),
+            "members_without_a_dish": [m for m in members if m not in have], "member_states": members}
+
+
 def write_traditions(foods: list[dict]) -> None:
     """data/knowledge/atlas/indigenous_traditions.json: one object per tradition, for review
-    (docs/governance/indigenous_review.md)."""
+    (docs/governance/indigenous_review.md); people's verdicts come from the review sheet."""
     from fetch_knowledge import INDIGENOUS_PAGES
+    sheet = review_sheet(foods)
+    for f in foods:
+        row = sheet[(f["tradition"], f["qid"])]
+        f.update({"reviewed": is_reviewed(row), "verdict": row["verdict"] or None, "reviewer": row["reviewer"] or None})
+        f.pop("wikipedia", None)
+        f.pop("summary", None)
     out = []
     for page, (country, name, _) in INDIGENOUS_PAGES.items():
         if any(t["name"] == name for t in out):
@@ -81,8 +145,9 @@ def main() -> None:
         d = json.loads(line)
         for t in d.get("traditions", []):
             indigenous[t].append(d["name"])
+            url = next((x["url"] for x in d["sources"] if x["name"].startswith("Wikipedia: ") and x.get("url")), "")
             foods.append({"tradition": t, "name": d["name"], "qid": d["qid"], "country": d["country"],
-                          "kind": d["kind"], "reviewed": False})
+                          "kind": d["kind"], "reviewed": False, "wikipedia": url, "summary": d.get("summary", "")})
         if d["kind"] != "dish":
             continue
         if any(lm["level"] == "more" and "cuisine" in lm["url"].lower() for lm in d.get("learn_more", [])):
@@ -130,7 +195,7 @@ def main() -> None:
                     "(Wikipedia CC BY-SA, Wikidata CC0)"),
         "rule": {"checks": CHECKS, "score": "60 x level-1 checks met / 5 + 20 x level 2 + 20 x level 3 (no culinary regions: out of 80, scaled to 100)",
                  "counted": f"population >= {MIN_PEOPLE:,} (proposed)"},
-        "world": world, "continents": conts, "subregions": subs, "countries": rows,
+        "world": world, "un_states": un_states(), "continents": conts, "subregions": subs, "countries": rows,
         "indigenous_traditions": {k: sorted(v) for k, v in sorted(indigenous.items())}},
         ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 

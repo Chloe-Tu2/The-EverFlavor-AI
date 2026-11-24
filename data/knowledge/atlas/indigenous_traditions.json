@@ -20,35 +20,45 @@
      "qid": "Q61078926",
      "country": "Australia",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Rēwena bread",
      "qid": "Q3360600",
      "country": "Australia",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Kānga pirau",
      "qid": "Q65041794",
      "country": "New Zealand",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Kānga waru",
      "qid": "Q112762474",
      "country": "New Zealand",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Pāua",
      "qid": "Q2658241",
      "country": "New Zealand",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     }
    ]
   },
@@ -69,21 +79,27 @@
      "qid": "Q1017266",
      "country": "Australia",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Bush tomato",
      "qid": "Q5001454",
      "country": "Australia",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Witchetty grub",
      "qid": "Q1476479",
      "country": "Australia",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     }
    ]
   },
@@ -109,98 +125,126 @@
      "qid": "Q2943094",
      "country": "Brazil",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Maniçoba",
      "qid": "Q6750304",
      "country": "Brazil",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Moqueca",
      "qid": "Q1929676",
      "country": "Brazil",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Paçoca",
      "qid": "Q3373739",
      "country": "Brazil",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Bannock (Indigenous American food)",
      "qid": "Q109827446",
      "country": "Canada",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Pemmican",
      "qid": "Q130097",
      "country": "Canada",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Casabe",
      "qid": "Q9185291",
      "country": "Cuba",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Colada morada",
      "qid": "Q838099",
      "country": "Ecuador",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Bammy",
      "qid": "Q4853511",
      "country": "Jamaica",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Jerk (cooking)",
      "qid": "Q6127463",
      "country": "Jamaica",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Maize",
      "qid": "Q11575",
      "country": "Mexico",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Mbeju",
      "qid": "Q1754338",
      "country": "Paraguay",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Frybread",
      "qid": "Q7214426",
      "country": "United States",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Maple syrup",
      "qid": "Q402563",
      "country": "United States",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     }
    ]
   },
@@ -221,14 +265,18 @@
      "qid": "Q109827446",
      "country": "Canada",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Muktuk",
      "qid": "Q940033",
      "country": "Canada",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     }
    ]
   },
@@ -288,21 +336,27 @@
      "qid": "Q3269528",
      "country": "United States",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Inamona",
      "qid": "Q16254010",
      "country": "United States",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Kūlolo",
      "qid": "Q4246421",
      "country": "United States",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     }
    ]
   },
@@ -323,21 +377,27 @@
      "qid": "Q5449338",
      "country": "Guam",
      "kind": "food or drink",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Guyuria",
      "qid": "Q5622888",
      "country": "Guam",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     },
     {
      "name": "Kelaguen",
      "qid": "Q6385448",
      "country": "Guam",
      "kind": "dish",
-     "reviewed": false
+     "reviewed": false,
+     "verdict": null,
+     "reviewer": null
     }
    ]
   }

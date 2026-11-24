@@ -1,0 +1,53 @@
+# UN member states with no dish yet (2026-11-23)
+
+45 of the 193 UN member states have no dish in the atlas. What their sources hold and what to try next, easiest first (sprint 5's starting list). From `scripts/knowledge/empty_country_backlog.py`. **Audit only.**
+
+| Country | Cuisine page (links) | Category articles | Wikidata dishes | Food region (its dishes) | Difficulty | Try next |
+|---|---:|---:|---:|---:|---:|---:|
+| Belarus | Belarusian cuisine (152) | 44 | 8 | eastern_europe (125) | low | Wikidata gives dishes: check why the fetch did not keep them (page title, type) |
+| Jordan | Jordanian cuisine (139) | 62 | 3 | levant (67) | low | Wikidata gives dishes: check why the fetch did not keep them (page title, type) |
+| Barbados | Barbadian cuisine (63) | 21 | 1 | caribbean_islands (100) | low | Wikidata gives dishes: check why the fetch did not keep them (page title, type) |
+| Eritrea | Eritrean cuisine (62) | 25 | 5 | east_africa (37) | low | Wikidata gives dishes: check why the fetch did not keep them (page title, type) |
+| Togo | Togolese cuisine (53) | 10 | 3 | west_africa (72) | low | Wikidata gives dishes: check why the fetch did not keep them (page title, type) |
+| Sierra Leone | Sierra Leonean cuisine (51) | 5 | 1 | west_africa (72) | low | Wikidata gives dishes: check why the fetch did not keep them (page title, type) |
+| Zimbabwe | Zimbabwean cuisine (541) | 9 | 0 | east_africa (37) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Federated States of Micronesia | Micronesian cuisine (384) | 7 | 0 | micronesia (4) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Palau | Palauan cuisine (322) | 12 | 0 | micronesia (4) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Monaco | Cuisine of Monaco (170) | 0 | 0 | not in the tree | medium | not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Andorra | Andorran cuisine (140) | 5 | 0 | mediterranean_europe (583) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Qatar | Qatari cuisine (86) | 10 | 0 | arabian_peninsula (10) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| São Tomé and Príncipe | Cuisine of São Tomé and Príncipe (79) | 0 | 0 | central_africa (16) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Congo | Republic of the Congo cuisine (57) | 4 | 0 | central_africa (16) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Fiji | Fijian cuisine (52) | 34 | 0 | melanesia (1) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Kuwait | Kuwaiti cuisine (51) | 17 | 0 | arabian_peninsula (10) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Timor-Leste | East Timorese cuisine (51) | 0 | 0 | southeast_asia (575) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Panama | Panamanian cuisine (50) | 27 | 0 | mexico_central_america (135) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Djibouti | Djiboutian cuisine (47) | 9 | 0 | east_africa (37) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Burkina Faso | Burkinabé cuisine (45) | 0 | 0 | west_africa (72) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Vanuatu | Vanuatuan cuisine (45) | 4 | 0 | melanesia (1) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Gabon | Gabonese cuisine (44) | 5 | 0 | central_africa (16) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Guinea | Guinean cuisine (36) | 9 | 0 | west_africa (72) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Tuvalu | Tuvaluan cuisine (36) | 7 | 0 | polynesia (3) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Oman | Omani cuisine (34) | 14 | 0 | arabian_peninsula (10) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Liberia | Liberian cuisine (33) | 8 | 0 | west_africa (72) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Grenada | Grenadian cuisine (32) | 8 | 0 | caribbean_islands (100) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Comoros | Comorian cuisine (31) | 0 | 0 | east_africa (37) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| San Marino | Cuisine of San Marino (31) | 0 | 0 | not in the tree | medium | not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Dominica | Dominica cuisine (29) | 5 | 0 | caribbean_islands (100) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Namibia | Namibian cuisine (29) | 14 | 0 | southern_africa (33) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Papua New Guinea | Papua New Guinean cuisine (29) | 4 | 0 | melanesia (1) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Guinea-Bissau | Bissau-Guinean cuisine (27) | 0 | 0 | west_africa (72) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Burundi | Burundian cuisine (26) | 2 | 0 | east_africa (37) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Equatorial Guinea | Cuisine of Equatorial Guinea (24) | 0 | 0 | central_africa (16) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Marshall Islands | Marshallese cuisine (24) | 3 | 0 | micronesia (4) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Eswatini | Cuisine of Eswatini (22) | 0 | 0 | southern_africa (33) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Saint Lucia | Saint Lucian cuisine (22) | 4 | 0 | caribbean_islands (100) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Nauru | Nauruan cuisine (21) | 8 | 0 | micronesia (4) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Lesotho | Cuisine of Lesotho (12) | 0 | 0 | southern_africa (33) | high | a short cuisine page: read it by hand for dishes with their own articles |
+| Solomon Islands | Solomon Islands cuisine (7) | 0 | 0 | melanesia (1) | high | a short cuisine page: read it by hand for dishes with their own articles |
+| Kiribati | none | 0 | 0 | micronesia (4) | high | no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet |
+| Liechtenstein | none | 0 | 0 | not in the tree | high | not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet |
+| Saint Kitts and Nevis | none | 0 | 0 | caribbean_islands (100) | high | no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet |
+| Saint Vincent and the Grenadines | none | 0 | 0 | caribbean_islands (100) | high | no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet |
+
+The claim rule (a dish is kept only when Wikidata's origin or its own intro names the country) is why a page with many links can still give nothing: its links are often shared dishes of the region. Loosening it is a person's call (review item 30).

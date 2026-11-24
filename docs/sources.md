@@ -10,6 +10,7 @@ Every dataset the pipeline uses, with its license and how it is accessed. The no
 |---|---|---|---|---|---|
 | Food.com Recipes and User Interactions (Kaggle) | <https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions> | See the dataset page (research use) | `kagglehub` download | Dataset version 2 | 2.4.2 |
 | Hugging Face: recipes-with-nutrition | <https://huggingface.co/datasets/datahiveai/recipes-with-nutrition> | See the dataset page | `datasets.load_dataset` | Revision `33ff70ba3dc1a1a77395fc477934b4ffb18a347d` | 2.4.3 |
+| US Census Bureau: 2025 ZCTA Gazetteer | <https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html> | Public domain (US government work) | One download; `data/reference/houston_zcta.csv` keeps the 163 ZIP areas in the Greater Houston box (GEOID and centre) | 2025 national file, downloaded 2026-11-23 | the map (store locator) |
 | CulinaryDB (Complex Systems Lab, IIIT-Delhi) | <https://cosylab.iiitd.edu.in/culinarydb/> | CC BY-NC-SA 3.0 (non-commercial, with credit) | Official zip download | `CulinaryDB.zip` as downloaded | 2.4.5 |
 | TheMealDB | <https://www.themealdb.com> | See the site's terms | Public JSON API (free test key `1`), paced requests | As collected | 2.4.6 |
 

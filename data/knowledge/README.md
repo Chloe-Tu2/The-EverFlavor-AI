@@ -27,6 +27,9 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   `docs/audits/graph_assets.md`).
 - `recipe_quality.json`: what the recipes have and lack, by source (counts only), from
   `scripts/knowledge/recipe_quality_audit.py` (`docs/audits/recipe_quality.md`).
+- `media/cuisine_image_queue.json`: per country, the photo Wikidata names for its cuisine article and whether its
+  Commons file passes the photo rules (`cuisine_images.py`; nothing downloaded); the app shows one, labelled "a photo
+  of Kenyan cuisine, not this dish", only after a person's `keep` in `review/cuisine_images.csv`.
 - `media/`: the dish image audit (`scripts/knowledge/media_audit.py`): per dish the best image level (its recipe's
   photo, a Commons photo of the dish, a version or the family, else the app's placeholder), licence and credit
   checks, coverage by country and zone, missing images and the fetch priority; `wikidata_images.json` lists the
@@ -78,8 +81,14 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   6 drops and 5 fixes suggested, 10 to check), and `verdict` / `reviewer` / `note` are for a person: `keep`,
   `fix` or `drop`. Walter never says a fact marked `drop`. Rerunning the script keeps what people wrote.
 - `review/indigenous_tags.csv`: every Indigenous tradition tag (30 tags on 29 foods, 2026-11-23) with its source, for a
-  person's `verdict` (`keep`, `fix` or `drop`) by the rubric in `docs/governance/indigenous_review.md`; not read by
-  the pipeline yet, so the app still shows no tag.
+  person's `verdict` (`keep`, `fix` or `drop`) by the rubric in `docs/governance/indigenous_review.md`, with their
+  name in `reviewer`. `culinary_coverage.py` rewrites it on every run and keeps what people wrote; a tag counts as
+  reviewed in `atlas/indigenous_traditions.json` only with `keep` and a name. The app shows no tag yet.
+- `review/focus_review_priority.csv`: the fact review sheet's rows in a suggested order, the most seen first (recipes
+  linked to the dish, and what Walter shows first), from `scripts/knowledge/review_priority.py`; verdicts still go
+  in `focus_review.csv`.
+- `review/cuisine_images.csv` is sorted by a first risk check (`risk`: likely wrong, needs a look, probably right,
+  with the reason): never a decision, only the order to look in.
 - `review/origin_elsewhere.csv`: dishes a country's Wikipedia list names but whose Wikidata origin is elsewhere
   (130, such as Baguette under the United States): their country needs a person's check.
 

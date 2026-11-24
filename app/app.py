@@ -94,8 +94,10 @@ from everflavor.places import (
     load_place_evidence,
     load_specialty_ingredients,
     map_places,
+    nearest_places,
     place_facts,
     specialty_in,
+    zip_center,
 )
 from everflavor.preferences import clean_names, common_ingredients, simplest
 from everflavor.recipe_check import extract_ingredients, review
@@ -866,6 +868,16 @@ def walter_panel(row: pd.Series, dish: str, country: object) -> None:
         words.markdown(" · ".join(f"[{link['title']}]({link['url']})" for link in reply.links))
 
 
+@st.cache_data
+def cuisine_images() -> dict[str, dict]:
+    """Country -> its cuisine photo (scripts/knowledge/cuisine_images.py), only the ones a person kept that pass
+    the photo rules; {} until then."""
+    path = ROOT / "data" / "knowledge" / "media" / "cuisine_image_queue.json"
+    if not path.exists():
+        return {}
+    return {i["country"]: i for i in json.loads(path.read_text(encoding="utf-8")).get("images", []) if i.get("approved")}
+
+
 def recipe_photo(place, row: pd.Series, dish: str) -> None:
     """The recipe's photo with its credit, the same on its card and its page."""
     photo, link, site = row.get("image_url"), row.get("url"), row.get("source")
@@ -882,6 +894,14 @@ def recipe_photo(place, row: pd.Series, dish: str) -> None:
         place.image(row["thumb_url"], width="stretch", alt=f"A photo of {row['dish_label']} in general, not this recipe")
         place.caption(f"A photo of {plain(row['dish_label'])} in general, not this recipe. "
                       f"[{plain(row['credit'])}]({row['file_page']})")
+    elif (cuisine := cuisine_images().get(str(row.get("origin_country")))) and from_commons(cuisine["file_page"]):
+        # 0.8.0: no photo of the dish: a photo of its country's cuisine, only one a person approved, said so plainly
+        url = ("https://commons.wikimedia.org/wiki/Special:FilePath/" + quote(cuisine["file"].replace(" ", "_"))
+               + "?width=640")
+        page = plain(cuisine["cuisine_page"])
+        place.image(url, width="stretch", alt=f"A photo of {page}, not this dish")
+        place.caption(f"A photo of {page}, not this dish. "
+                      f"[{plain(cuisine['author'])}, {plain(cuisine['licence'])}]({cuisine['file_page']})")
     else:
         # No photo at all: the kitchen's own picture, which says plainly that it is not the dish
         place.markdown(f'<div class="no-photo" role="img" aria-label="No photo of this dish yet">'
@@ -2247,6 +2267,11 @@ with check_tab:
                     st.markdown(f"**{WAITER}'s notes**\n" + "\n".join(
                         f"- **{n['ingredient']}**: {n['note']} [Source]({n['source']})" for n in ingredient_notes))
                     st.caption("The Map tab's stores can help you find these.")
+                if name.strip() and graph_dish(name.strip(), None):   # 0.8.0: related dishes, from the graph only
+                    with st.expander(f"Dishes related to {plain(name.strip())}"):
+                        dish_family(name.strip(), None)
+                        st.caption("Not checked against your profile: search a dish in Find recipes to check it. "
+                                   "Nothing you pasted is saved.")
                 st.caption("The app's rules made this decision"
                            + (f"; the local AI ({report['explained_by']}) only explained it." if report["explained_by"] != "rules"
                               else ".") + " Not medical advice: the check reads ingredient names, not labels.")
@@ -2285,14 +2310,47 @@ with map_tab:
                         None if map_cuisine == "Any cuisine" else map_cuisine,
                         None if map_diet == "Any" else map_diet.lower(),
                         "verified" if map_level == "Verified only" else "likely")
-        st.caption(f"{len(rows):,} places from OpenStreetMap. Unverified unless marked verified: check with the "
-                   f"business before you go. {MAP_CREDIT}")
+        # 0.8.0 store locator (docs/plans/MAP.md): a ZIP's centre from the local Census table, nearest places first
+        zip_spot, miles_spot = st.columns([2, 1])
+        typed_zip = zip_spot.text_input("Near a ZIP code", key="map-zip", max_chars=5, placeholder="77036",
+                                        help="Greater Houston ZIP codes. The ZIP stays on this page; it is not saved "
+                                             "or sent anywhere.")
+        miles = miles_spot.selectbox("Within", [2, 5, 10, 25], index=2, key="map-miles",
+                                     format_func=lambda m: f"{m} miles")
+        center = zip_center(typed_zip) if typed_zip.strip() else None
+        if typed_zip.strip() and center is None:
+            st.warning("ZIP not found in the Greater Houston area (the Census's ZIP areas, which can differ a little "
+                       "from postal ZIPs).")
+        if center:
+            rows = nearest_places(rows, center[0], center[1], within_miles=miles)
+            if st.session_state.get("map-near") != (typed_zip, miles):   # a new search starts at the first 10
+                st.session_state.update({"map-near": (typed_zip, miles), "map-show": 10})
+        st.caption(f"{len(rows):,} places from OpenStreetMap{f' within {miles} miles of {typed_zip}' if center else ''}. "
+                   f"Unverified unless marked verified: check with the business before you go. {MAP_CREDIT}")
+        if center:
+            named = rows[~rows["label"].str.startswith("Unnamed ")]
+            shown = named.head(st.session_state.get("map-show", 10))
+            if named.empty:
+                st.info(f"No places like that within {miles} miles. Try a wider distance or another kind of place.")
+            for _, near in shown.iterrows():
+                line, open_spot = st.columns([5, 1])
+                line.markdown(f"**{plain(near['label'])}** · {plain(str(near['category']).capitalize())}"
+                              f"{(' · ' + plain(near['cuisine_text'])) if near.get('cuisine_text') else ''} · "
+                              f"about {near['distance_mi']:.1f} mi")
+                open_spot.button("Open", key=f"map-open-{near['osm_id']}", on_click=st.session_state.update,
+                                 kwargs={"map-card": near["osm_id"]})
+            if len(named) > len(shown):
+                st.button(f"Show more ({len(named) - len(shown):,} left)", key="map-more", on_click=st.session_state.update,
+                          kwargs={"map-show": len(shown) + 10})
+            st.caption("Straight-line distance; the place card's map link gives directions. OpenStreetMap misses some "
+                       "shops, especially small family-run grocers.")
         drawn = rows.assign(color=rows["category"].map(MAP_COLORS),
                             kind_text=rows["category"].str.capitalize())[
             ["osm_id", "lng", "lat", "color", "label", "kind_text", "cuisine_text", "diet_text"]]
         event = st.pydeck_chart(pdk.Deck(
             map_style="https://tiles.openfreemap.org/styles/liberty",
-            initial_view_state=pdk.ViewState(latitude=29.76, longitude=-95.37, zoom=9.5),
+            initial_view_state=pdk.ViewState(latitude=center[0] if center else 29.76,
+                                             longitude=center[1] if center else -95.37, zoom=12 if center else 9.5),
             layers=[pdk.Layer("ScatterplotLayer", drawn, id="places", get_position="[lng, lat]",
                               get_fill_color="color", get_radius=110, radius_min_pixels=3, pickable=True)],
             tooltip={"text": "{label}\n{kind_text} {cuisine_text}\n{diet_text}"}),

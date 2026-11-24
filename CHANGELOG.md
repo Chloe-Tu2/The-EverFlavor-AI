@@ -47,6 +47,34 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   have a dish, 115 three or more; world coverage 63.7%, Africa 44.0%, Oceania 32.3%. Per-sprint impact reports
   (`enrichment_impact.py --sprint N`, `docs/audits/sprints/`), the sprint review checklist, a pull request
   template, an atlas sprint review issue form and an Indigenous tag review sheet.
+- **Related dishes in Check my recipe** (0.8.0): when the dish name is one the knowledge notebook knows, a panel
+  shows its family, versions and "more like this" from the Food Graph (Wikidata, CC0); not checked against the
+  profile, and nothing pasted is saved.
+- **Map cuisine tags for 23 more countries** (0.8.0): the OpenStreetMap cuisine word used 50 or more times
+  (taginfo, 2026-11-23), such as georgian, ukrainian, nepalese, salvadoran and dominican; 79 of the 167 countries
+  with dishes now have one. "dutch" and "georgian" are not shop-name hints.
+- **Exact numbers beside coverage** in the README dashboard: how many countries have a dish and pass every basic
+  check, per continent.
+- **Cuisine photo fallbacks** (0.8.0, `scripts/knowledge/cuisine_images.py`): for a recipe with no photo, a photo
+  of its country's cuisine (the image Wikidata names for the cuisine article), labelled "a photo of Kenyan cuisine,
+  not this dish", with its Commons credit. 108 countries have one, 96 pass the photo rules; the app shows one only
+  after a person's `keep` in `data/knowledge/review/cuisine_images.csv` (none yet).
+- **Two country counts** (`scripts/knowledge/country_counts.py`, `docs/audits/country_counts.md`): our coverage
+  count (200 CLDR countries and territories of 100,000 people or more, 154 with a dish) beside the usual one (the
+  195 UN member and observer states, 149 with a dish), where they differ, and how the count grew by sprint.
+- **Store locator, first step** (0.8.0, `docs/plans/MAP.md`): the map tab takes a Greater Houston ZIP code and a
+  distance (2 to 25 miles) and lists the nearest places first (name, kind, cuisine, straight-line distance), 10 at
+  a time; "Open" shows the place card, with its map link for directions. ZIP centres come from the Census 2025 ZCTA
+  Gazetteer, stored locally (`data/reference/houston_zcta.csv`): no service is called, and the ZIP is not saved.
+  `places.zip_center`, `miles_between` and `nearest_places` in the back end.
+- **Review aids for people** (overnight, 2026-11-23; none decides anything): the cuisine photo sheet sorted by risk
+  (13 likely wrong, 30 to look at, 65 probably right); the fact review rows ranked by how much the app shows them
+  (`focus_review_priority.csv`: the first 100 cover 41 dishes and 1,509 linked recipes); the backlog of the 45 UN
+  member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
+  under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
+  dishes answer all five; versions are the gap).
+- **Indigenous tag verdicts are kept:** `culinary_coverage.py` rewrites the review sheet on every run, keeps
+  people's verdicts, and marks a tag reviewed only with `keep` and a reviewer's name.
 
 ### Changed
 
