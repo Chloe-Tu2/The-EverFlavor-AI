@@ -333,7 +333,7 @@ with confidence.
 | Discovery | Map cuisine tags for every country OpenStreetMap has a word for (50+ uses) | Claude | met: 23 added; the other 88 have no such word yet |
 | Discovery | The store locator works (ZIP search, details, directions) | Claude | met in Python (ZIP, distance, nearest list, card with map link); clustering, "search this area" and "use my location" wait for the MapLibre step |
 | Reviews | Items 24, 28, 29 and 30 (moved dishes, country scores, sprint entries) answered | person | open |
-| Release | CI green; the team tries `release/0.8.0` and approves | person | after the above |
+| Release | CI green; the 0.8 work is merged into `main` as it is verified (2026-11-23, med27-coder: merge as needed); the team tries `main`, approves, then `/release 0.8.0` | person | after the above |
 
 **0.9.0 beta, Atlas Experience.** Done when a person can explore regions, traditions and food culture, not only
 dishes.
