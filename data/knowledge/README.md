@@ -84,6 +84,11 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   person's `verdict` (`keep`, `fix` or `drop`) by the rubric in `docs/governance/indigenous_review.md`, with their
   name in `reviewer`. `culinary_coverage.py` rewrites it on every run and keeps what people wrote; a tag counts as
   reviewed in `atlas/indigenous_traditions.json` only with `keep` and a name. The app shows no tag yet.
+- `review/focus_review_priority.csv`: the fact review sheet's rows in a suggested order, the most seen first (recipes
+  linked to the dish, and what Walter shows first), from `scripts/knowledge/review_priority.py`; verdicts still go
+  in `focus_review.csv`.
+- `review/cuisine_images.csv` is sorted by a first risk check (`risk`: likely wrong, needs a look, probably right,
+  with the reason): never a decision, only the order to look in.
 - `review/origin_elsewhere.csv`: dishes a country's Wikipedia list names but whose Wikidata origin is elsewhere
   (130, such as Baguette under the United States): their country needs a person's check.
 

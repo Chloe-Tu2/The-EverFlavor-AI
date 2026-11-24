@@ -67,6 +67,12 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   a time; "Open" shows the place card, with its map link for directions. ZIP centres come from the Census 2025 ZCTA
   Gazetteer, stored locally (`data/reference/houston_zcta.csv`): no service is called, and the ZIP is not saved.
   `places.zip_center`, `miles_between` and `nearest_places` in the back end.
+- **Review aids for people** (overnight, 2026-11-23; none decides anything): the cuisine photo sheet sorted by risk
+  (13 likely wrong, 30 to look at, 65 probably right); the fact review rows ranked by how much the app shows them
+  (`focus_review_priority.csv`: the first 100 cover 41 dishes and 1,509 linked recipes); the backlog of the 45 UN
+  member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
+  under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
+  dishes answer all five; versions are the gap).
 - **Indigenous tag verdicts are kept:** `culinary_coverage.py` rewrites the review sheet on every run, keeps
   people's verdicts, and marks a tag reviewed only with `keep` and a reviewer's name.
 

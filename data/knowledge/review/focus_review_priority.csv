@@ -1,0 +1,261 @@
+rank,sheet_line,dish,country,row,recipes_linked,score,reviewed,text
+1,182,Hummus,Lebanon,summary,365,7.903,no,"Hummus (full name: Hummus Bi Tahini) is a Levantine dip, spread, or savory dish made from cooked, mashed chickpeas blended with tahini, lemon juice, and garlic."
+2,66,Fajita,Mexico,summary,215,7.375,no,"A fajita, in Tex-Mex cuisine, is strips of grilled skirt steak, cooked with sauteed onions and bell peppers and served on a flour or corn tortilla."
+3,2,Gumbo,United States,summary,213,7.366,no,"Gumbo is a stew that is popular among the U.S. Gulf Coast community, the New Orleans stew variation being the official state cuisine of the U.S. state of Louisi"
+4,183,Hummus,Lebanon,fact 1,365,6.903,no,"According to food historian Nawal Nasrallah, no records of recipes for hummus exist after the 14th century until an 1885 Lebanese cookbook, by which time garlic"
+5,78,Mexican rice,Mexico,summary,97,6.585,no,"Mexican rice (sometimes referred to as Spanish rice or red rice in Tex–Mex cuisine), also known as arroz a la mexicana, arroz mexicano, sopa de arroz, or arroz "
+6,46,Key lime pie,United States,summary,88,6.489,no,"Key lime pie is a Floridian dessert pie made with Key lime juice, egg yolks, and sweetened condensed milk."
+7,30,Buffalo wing,United States,summary,83,6.431,no,"A Buffalo wing in American cuisine is an unbreaded chicken wing section (flat or drumette) that is generally deep-fried, then coated or dipped in a sauce consis"
+8,67,Fajita,Mexico,fact 1,215,6.375,no,"The first culinary evidence of fajitas with the cut of meat, the cooking style (directly on a campfire or on a grill), and the Spanish nickname comes from the 1"
+9,3,Gumbo,United States,fact 1,213,6.366,no,"Gumbo was first described in 1802, and was listed in various cookbooks in the latter half of the 19th century."
+10,158,Falafel,Lebanon,summary,69,6.248,no,"Falafel is a deep-fried ball or patty-shaped fritter of Egyptian origin that features in Middle Eastern cuisine, particularly Levantine cuisines."
+11,74,Chimichanga,Mexico,summary,59,6.094,no,A chimichanga is a deep-fried burrito that is common in Southwestern U.S. cuisine.
+12,184,Hummus,Lebanon,fact 2,365,5.903,no,"Although multiple different theories and claims of origins exist in various parts of the Middle East, evidence is insufficient to determine the precise location"
+13,185,Hummus,Lebanon,fact 3,365,5.903,no,"Hummus is often seen as an unofficial ""national dish"" of Israel, reflecting its huge popularity and significance among the entire Israeli population, which Isra"
+14,82,Taquito,Mexico,summary,46,5.85,no,"Taquitos, tacos dorados, rolled tacos, or flautas are a Mexican dish that typically consists of small rolled-up tortillas that contain filling, including beef, "
+15,50,Red velvet cake,United States,summary,40,5.714,no,Red velvet cake is a red-colored layer cake with cream cheese or ermine icing.
+16,79,Mexican rice,Mexico,fact 1,97,5.585,no,"A dish of rice cooked with tomato first became widely consumed in the US during the late 1800s, but not under the name Spanish rice."
+17,47,Key lime pie,United States,fact 1,88,5.489,no,A widely reported story claims that William Curry's cook Aunt Sally invented it in the late 19th century.
+18,106,Dim sum,China,summary,30,5.434,no,Dim sum is a large range of small Chinese dishes that are traditionally eaten in restaurants for brunch.
+19,31,Buffalo wing,United States,fact 1,83,5.431,no,"Buffalo wings are named after Buffalo, New York, where they were invented, and have no relation to the animal."
+20,68,Fajita,Mexico,fact 2,215,5.375,no,"In September 1969, Sonny Falcón, an Austin meat market manager, operated the first commercial fajita taco concession stand at a rural 16 de septiembre celebrati"
+21,69,Fajita,Mexico,fact 3,215,5.375,no,"Popular condiments include shredded lettuce, sour cream, guacamole, salsa, pico de gallo, shredded cheese, refried beans, and diced tomatoes. ""Tacos de arracher"
+22,4,Gumbo,United States,fact 2,213,5.366,no,"The dish gained more widespread popularity in the 1970s, after the United States Senate dining room added it to the menu in honor of Louisiana Senator Allen Ell"
+23,5,Gumbo,United States,fact 3,213,5.366,no,Gumbo is traditionally served with rice.
+24,118,Char siu,China,summary,26,5.296,no,Char siu is a Cantonese-style barbecued pork.
+25,159,Falafel,Lebanon,fact 1,69,5.248,no,"According to historian Gil Marks, the pita falafel sandwich was popularized after Israel's independence and in the 1950s by Jewish Yemeni refugees, though a 19 "
+26,22,Hot chicken,United States,summary,24,5.219,no,"Hot chicken (or Nashville hot chicken) is a type of fried chicken that is a local specialty of Nashville, Tennessee, in the United States."
+27,75,Chimichanga,Mexico,fact 1,59,5.094,no,"Although no official records indicate when the dish first appeared, retired University of Arizona folklorist Jim Griffith recalls seeing chimichangas at the Yaq"
+28,6,Cincinnati chili,United States,summary,20,5.045,no,"Cincinnati chili (or Cincinnati-style chili) is a Mediterranean-spiced meat sauce used as a topping for spaghetti or hot dogs (""coneys"")."
+29,206,Shawarma,Lebanon,summary,18,4.944,no,Shawarma is a Middle Eastern food that originated in the Levant during the Ottoman Empire.
+30,83,Taquito,Mexico,fact 1,46,4.85,no,"The taquito or little taco was referred to in the 1917 Preliminary Glossary of New Mexico Spanish, with the word noted as a ""Mexicanism"" used in New Mexico."
+31,51,Red velvet cake,United States,fact 1,40,4.714,no,"It is unknown where the red velvet cake originated, although its popularity in the Southern United States dates to the early 20th century."
+32,26,Shoofly pie,United States,summary,13,4.639,no,Shoofly pie is a type of American pie made with molasses associated with Pennsylvania Dutch cuisine.
+33,38,Fortune cookie,United States,summary,13,4.639,no,"A fortune cookie is a crisp and sugary cookie wafer made from flour, sugar, vanilla, and sesame seed oil with a piece of paper inside, a ""fortune"", an aphorism,"
+34,80,Mexican rice,Mexico,fact 2,97,4.585,no,Rice was introduced to Mexico by the Spanish as early as the 16th century.
+35,81,Mexican rice,Mexico,fact 3,97,4.585,no,Mexican-style rice is especially popular in central and northern Mexico and the southwestern United States.
+36,58,Al pastor,Mexico,summary,12,4.565,no,"Al pastor (from Spanish, ""herdsman style""), tacos al pastor, or tacos de trompo is a preparation of sliced, spit-grilled meat, usually pork, originating in the "
+37,48,Key lime pie,United States,fact 2,88,4.489,no,"In the 1980s, food writer John Egerton dated the presence of key lime pie in the Florida Keys to at least the 1890s, a dating author Jean Anderson characterized"
+38,49,Key lime pie,United States,fact 3,88,4.489,no,"Traditionally, Key lime pie is made using a graham cracker crust."
+39,107,Dim sum,China,fact 1,30,4.434,no,"Dim sum is part of the Chinese tradition of snacks originating from the Song dynasty (960–1279), when royal chefs created various dishes such as minced pheasant"
+40,32,Buffalo wing,United States,fact 2,83,4.431,no,"One is that Buffalo wings were first prepared in 1964 at the Anchor Bar in Buffalo, New York, by Teressa Bellissimo, who owned the bar with her husband Frank."
+41,33,Buffalo wing,United States,fact 3,83,4.431,no,"In 2013, at the National Buffalo Wing Festival held in Buffalo, John Young's contributions were acknowledged when he was inducted into the festival's National B"
+42,242,Harira,Morocco,summary,9,4.303,no,"Harira is a traditional North African soup prepared in Morocco and Algeria with many variations, the best-known being Moroccan harira."
+43,119,Char siu,China,fact 1,26,4.296,no,"Originating in Guangdong, char siu and its variations are popular in Hong Kong, Singapore, Malaysia, Philippines, Indonesia, Thailand, Cambodia, Vietnam, and Ja"
+44,160,Falafel,Lebanon,fact 2,69,4.248,no,"In English (where it has been written falafel, felafel, filafel and filafil), it is first attested in 1936."
+45,161,Falafel,Lebanon,fact 3,69,4.248,no,The dish most likely originated in Egypt.
+46,23,Hot chicken,United States,fact 1,24,4.219,no,"The dish may have been introduced as early as the 1930s; however, the current style of spice paste may only date back to the mid-1970s."
+47,76,Chimichanga,Mexico,fact 2,59,4.094,no,"Woody Johnson, founder of Mexican restaurant chain Macayo's Mexican Kitchen, said he had invented the chimichanga in 1946 when he put some burritos into a deep "
+48,77,Chimichanga,Mexico,fact 3,59,4.094,no,"Most researchers agree that the chimichanga was created by accident at a Mexican restaurant in Arizona, United States, although they disagree over precisely whe"
+49,122,Peking duck,China,summary,7,4.079,no,Peking duck is a dish from Beijing that has been prepared since the Imperial era.
+50,7,Cincinnati chili,United States,fact 1,20,4.045,no,Cincinnati chili originated with immigrant restaurateurs who were trying to expand their customer base by moving beyond narrowly ethnic styles of cuisine.
+51,54,Pan de muerto,Mexico,summary,6,3.946,no,Pan de muerto (Spanish for 'bread of the dead') is a type of pan dulce traditionally baked in Mexico and the Mexican diaspora during the weeks leading up to the
+52,207,Shawarma,Lebanon,fact 1,18,3.944,no,The technique of shawarma—grilling a vertical stack of meat slices and cutting it off as it cooks—first appeared during the Ottoman Empire in the 19th century i
+53,84,Taquito,Mexico,fact 2,46,3.85,no,"Taquito is more commonly known as flautas when the little tacos are larger than their taquito counterparts, and can be made with either flour or corn tortillas."
+54,98,Sope (food),Mexico,summary,5,3.792,no,A sope is a traditional Mexican dish consisting of a fried masa base with savory toppings.
+55,126,Soy milk,China,summary,5,3.792,no,"Soy milk (or soymilk), also known as soya milk, is a plant-based milk produced by soaking and grinding soybeans, boiling the mixture, and filtering out remainin"
+56,214,Injera,Ethiopia,summary,5,3.792,no,"Injera, also known as taita, is a sour fermented pancake-like flatbread with a slightly spongy texture, traditionally made of teff flour."
+57,52,Red velvet cake,United States,fact 2,40,3.714,no,"In the 19th century, the first recipes for chocolate cakes appeared, with some including buttermilk, which, when combined with raw cocoa powder, would turn the "
+58,53,Red velvet cake,United States,fact 3,40,3.714,no,"By 2000, red velvet cakes were experiencing widespread popularity."
+59,27,Shoofly pie,United States,fact 1,13,3.639,no,"The name ""shoo-fly pie"" was used in the 1880s, but its first appearance in print was after World War I. The ""Shoo-fly Molasses"" brand was named after a popular "
+60,39,Fortune cookie,United States,fact 1,13,3.639,no,Makoto Hagiwara of Golden Gate Park's Japanese Tea Garden in San Francisco is reported to have been the first person in the U.S. to have served the modern versi
+61,10,Peanut butter and jelly sandwich,United States,summary,4,3.609,no,A peanut butter and jelly sandwich (PB&J or PBJ) is a sandwich that consists of peanut butter and fruit preserves spread on sandwich bread.
+62,94,Sopa de lima,Mexico,summary,4,3.609,no,"Lime soup is a traditional dish from the Mexican state of Yucatan, which is made of chicken or some other meat such as pork or beef, lime juice and served with "
+63,250,Shakshouka,Egypt,summary,4,3.609,no,"Shakshouka is a Maghrebi dish of eggs poached in a sauce of tomatoes, olive oil, peppers, onion, and garlic, commonly spiced with cumin, paprika, and cayenne pe"
+64,59,Al pastor,Mexico,fact 1,12,3.565,no,"During the 19th century, variations of a vertically grilled meat dish doner, now known by several names, started to spread throughout the Ottoman Empire."
+65,109,Dim sum,China,fact 3,30,3.434,no,"According to one legend, to show soldiers gratitude after battles, a general had civilians make buns and cakes to send to the front lines. ""Gratitude"", later sh"
+66,34,Chicken and waffles,United States,summary,3,3.386,no,Chicken and waffles is an American dish combining chicken with waffles.
+67,62,Birria,Mexico,summary,3,3.386,no,"Birria is a regional variation of barbacoa from western Mexico, mainly made with goat, beef or lamb."
+68,70,Champurrado,Mexico,summary,3,3.386,no,"Champurrado is a chocolate-based atole, a warm and thick Mexican beverage."
+69,86,Chiles en nogada,Mexico,summary,3,3.386,no,"Chiles en nogada is a Mexican dish of poblano chiles stuffed with picadillo (a mixture usually containing minced meat, aromatics, fruits and spices) topped with"
+70,210,Pastilla,Morocco,summary,3,3.386,no,"Pastilla is a meat or seafood pie in Maghrebi cuisine made with warqa dough, which is similar to filo."
+71,222,Bunny chow,South Africa,summary,3,3.386,no,"Bunny chow, often referred to simply as a bunny, is an Indian South African fast food dish consisting of a hollowed-out loaf of white bread filled with curry an"
+72,85,Taquito,Mexico,fact 3,46,3.35,no,Taquito comes from Mexico.
+73,243,Harira,Morocco,fact 1,9,3.303,no,"Harira is popular as a starter, and is also eaten on its own as a light snack."
+74,120,Char siu,China,fact 2,26,3.296,no,"In the 1950s, many Cantonese roast meat chefs immigrated to Hong Kong and refined their char siu techniques."
+75,121,Char siu,China,fact 3,26,3.296,no,"While the pork collar or mui tau cut is commonly used, cuts such as ""first cut"" char siu, which refers to the tip of mui tau, have also become popular in recent"
+76,24,Hot chicken,United States,fact 2,24,3.219,no,Many restaurants in Nashville serve a variant of the dish; a citywide festival and competition celebrate it.
+77,25,Hot chicken,United States,fact 3,24,3.219,no,"Thornton decided he liked it so much that, by the mid-1930s, he and his brothers had created their own recipe and opened the BBQ Chicken Shack café."
+78,90,Torta ahogada,Mexico,summary,2,3.099,no,"A torta ahogada is a typical dish from the Mexican state of Jalisco, particularly in the city of Guadalajara."
+79,186,Lavash,Turkey,summary,2,3.099,no,"Lavash is a thin flatbread made of leavened or unleavened wheat dough, baked in a tandoor (a type of clay oven) or on a saj griddle."
+80,218,Koshary,Egypt,summary,2,3.099,no,"Koshary, Kushari or Koshari is Egypt's national dish and a widely popular street food."
+81,123,Peking duck,China,fact 1,7,3.079,no,"By the Qianlong period (1736–1796) of the Qing dynasty, the popularity of Peking duck spread to the upper classes, inspiring some poets and scholars who enjoyed"
+82,8,Cincinnati chili,United States,fact 2,20,3.045,no,"Empress was the largest chili parlor chain in Cincinnati until 1949, when a former Empress employee and Greek immigrant, Nicholas Lambrinides, started Skyline C"
+83,9,Cincinnati chili,United States,fact 3,20,3.045,no,"The dish does not contain chocolate, despite popular myth to the contrary."
+84,55,Pan de muerto,Mexico,fact 1,6,2.946,no,"Legend has it that the conquistadors, disgusted with the cannibalistic practice, forced the natives to replace the heart with a nice sweet bun."
+85,209,Shawarma,Lebanon,fact 3,18,2.944,no,"Traditionally made with lamb or mutton, it may also be made with chicken, turkey meat, beef, falafel or veal."
+86,108,Dim sum,China,fact 2,30,2.934,no,"During the Ming dynasty (1368–1644), the Tea and Horses Bureau was established to monitor tea production and improve tea quality."
+87,99,Sope (food),Mexico,fact 1,5,2.792,no,"Also known as picadita (in Tierra Caliente, Guerrero), it originates in the central and southern parts of Mexico, where it was sometimes first known as pellizca"
+88,127,Soy milk,China,fact 1,5,2.792,no,"Li Yuying established Caséo-Sojaïne, the first soy milk ""dairy"", in Colombes, France, in 1910; he received the first British and American patents for soy milk m"
+89,14,Fluffernutter,United States,summary,1,2.693,no,"A fluffernutter (also called a ""peanut butter and marshmallow sandwich"", ""peanut butter and marshmallow fluff sandwich"", or ""peanut butter and marshmallow stuff"
+90,18,Detroit-style pizza,United States,summary,1,2.693,no,"Detroit-style pizza is a rectangular pan pizza with a thick, crisp, chewy crust."
+91,190,Sabzi polo,Iran,summary,1,2.693,no,"Sabzi polo is a Persian dish of rice and chopped herbs, usually served with fish."
+92,226,Bissara,Morocco,summary,1,2.693,no,Bissara is a dish in Egyptian and Moroccan cuisine.
+93,234,Hawawshi,Egypt,summary,1,2.693,no,Hawawshi is a traditional Egyptian dish.
+94,28,Shoofly pie,United States,fact 2,13,2.639,no,"Possibly related to the Jenny Lind pie (a soft gingerbread pie), it may have originated among the Pennsylvania Dutch in the 1880s as molasses crumb cake, and is"
+95,29,Shoofly pie,United States,fact 3,13,2.639,no,"Shoo-fly pie began as a crust-less molasses cake called centennial cake in 1876, created to celebrate the 100th anniversary of the signing of the Declaration of"
+96,41,Fortune cookie,United States,fact 3,13,2.639,no,"As far back as the 19th century, a cookie very similar in appearance to the modern fortune cookie was made in Kyoto, Japan, and there is a Japanese temple tradi"
+97,11,Peanut butter and jelly sandwich,United States,fact 1,4,2.609,no,"The earliest recorded mention of a peanut butter and jelly sandwich appeared in 1901, suggesting it as a tea sandwich."
+98,95,Sopa de lima,Mexico,fact 1,4,2.609,no,"The lime soup as it is known was first created in 1946 by the master called Katún (means ""warrior"" in the Mayan language)."
+99,251,Shakshouka,Egypt,fact 1,4,2.609,no,"The migration of Maghrebi Jews in the 1950s brought the dish to Israel, where it was subsequently widely adopted."
+100,60,Al pastor,Mexico,fact 2,12,2.565,no,The method of preparing and cooking al pastor is based on the lamb shawarma brought by Lebanese immigrants to the region.
+101,61,Al pastor,Mexico,fact 3,12,2.565,no,Al pastor features a flavor palette that uses traditional Mexican adobada (marinade).
+102,208,Shawarma,Lebanon,fact 2,18,2.444,no,"The name is attested in English and Arabic as early as the 19th century; Socrates Spiro's 1895 Egyptian Arabic-English dictionary translated šāwirma as ""rich st"
+103,35,Chicken and waffles,United States,fact 1,3,2.386,no,"Originating as a Pennsylvania Dutch meal, the dish is also popular in the Southern United States."
+104,63,Birria,Mexico,fact 1,3,2.386,no,"According to another legend, the dish was invented accidentally during the eruption of a volcano, when a shepherd was forced to abandon his goats in a cave wher"
+105,71,Champurrado,Mexico,fact 1,3,2.386,no,"Chocolate is native to Mesoamerica, and it was first cultivated by the Mayans and the Mexicas."
+106,87,Chiles en nogada,Mexico,fact 1,3,2.386,no,The traditional chile en nogada is from Puebla; it is tied to Mexican independence since it is said they were prepared for the first time to entertain the futur
+107,211,Pastilla,Morocco,fact 1,3,2.386,no,"Bouhlila's study corroborated Gaul's theory that the name of the dish, which according to Bouhlila is of Turkish origin, as well as the werqa used to make it, a"
+108,223,Bunny chow,South Africa,fact 1,3,2.386,no,"One story claims that a South African restaurant run by Banias (an Indian caste) first created the dish at a restaurant-café, called Kapitan's, on the corner of"
+109,244,Harira,Morocco,fact 2,9,2.303,no,Algérie Poste describes harira as an authentic Algerian dish of Andalusian origin and identifies it as one of the best-known dishes of Morocco and western Alger
+110,215,Injera,Ethiopia,fact 1,5,2.292,no,Teff consumption became more popular during the Gondar Period (1632-1769) and became a primary staple by early 1750s.
+111,40,Fortune cookie,United States,fact 2,13,2.139,no,They most likely originated from cookies made by Japanese immigrants to the United States in the late 19th or early 20th century.
+112,91,Torta ahogada,Mexico,fact 1,2,2.099,no,"Legend has it that when the French invaded Guadalajara in 1864, a French Sergeant, Camille Perrault, wanted to teach the Guadalajarans how to make French bread,"
+113,187,Lavash,Turkey,fact 1,2,2.099,no,Sevan Nişanyan connects the Persian word for lavash to the Aramaic לושׁ lwš root meaning 'to knead' and recorded al-Faraj ba'd ash-Shiddah from 1451 as the olde
+114,219,Koshary,Egypt,fact 1,2,2.099,no,"In 1853, in his book ""Journey to Egypt and the Hijaz"", explorer Richard Burton documented koshary as the breakfast meal of the people of Suez."
+115,124,Peking duck,China,fact 2,7,2.079,no,Aromatic duck is a similar dish to Peking duck and is popular in the United Kingdom and Ireland.
+116,125,Peking duck,China,fact 3,7,2.079,no,"By the mid-20th century, Peking duck had become a national symbol of China, favored by tourists and diplomats alike."
+117,42,Frybread,United States,summary,0,2.0,no,"Frybread (also spelled fry bread) is a dish of the indigenous people of North America that is a flat dough bread, fried or deep-fried in oil, shortening, or lar"
+118,102,Bionico,Mexico,summary,0,2.0,no,"Bionico is a popular Mexican dessert that originated in the city of Guadalajara in Jalisco, Mexico, in the early 1990s."
+119,110,Luosifen,China,summary,0,2.0,no,"Luosifen is a Chinese noodle soup and specialty of Liuzhou, Guangxi."
+120,130,Tong sui,China,summary,0,2.0,no,Tong sui or tim tong is a general term for any sweet soup served as a dessert typically at the end of a meal in Chinese cuisine.
+121,134,Buddha's delight,China,summary,0,2.0,no,"Buddha's delight, often transliterated as Luóhàn zhāi (simplified Chinese: 罗汉斋; traditional Chinese: 羅漢齋, Japanese: rakansai), lo han jai, or lo hon jai, is a v"
+122,138,Double skin milk,China,summary,0,2.0,no,"Double skin milk is a Chinese dessert made of milk, egg whites, and sugar."
+123,142,Zhajiangmian,China,summary,0,2.0,no,"Zhajiangmian, commonly translated as ""noodles served with fried bean sauce"", is a dish of Chinese origin consisting of thick wheat noodles topped with zhajiang,"
+124,146,Zongzi,China,summary,0,2.0,no,"Zongzi, simply zong or translated as rice dumplings and, alternatively, as Chinese tamales, is a traditional Chinese rice dish made of glutinous rice stuffed wi"
+125,150,Baozi,China,summary,0,2.0,no,"Baozi, or simply bao, is a type of yeast-leavened filled bun in various Chinese cuisines."
+126,154,Beggar's chicken,China,summary,0,2.0,no,"Beggar's chicken is a Chinese dish of chicken that is stuffed, wrapped in clay and lotus leaves (or banana or bamboo leaves as alternatives), and baked slowly u"
+127,162,Doner kebab,Turkey,summary,0,2.0,no,Doner kebab or döner kebab is a Turkish dish made of meat cooked on a vertical rotisserie.
+128,166,Faloodeh,Iran,summary,0,2.0,no,"Faloodeh, or paloodeh, is a traditional Iranian cold dessert similar to a sorbet."
+129,170,Kahi (food),Iraq,summary,0,2.0,no,"Kahi is an Iraqi breakfast dish made from layered flaky filo pastry often served for breakfast with a type of clotted cream called geymar, which is made from wa"
+130,174,Tharid,Saudi Arabia,summary,0,2.0,no,"Tharid also known as thareed, trid, fareed, tashrib, tashreeb or taghrib is a bread soup that originates from Mecca, Saudi Arabia, an Arab cuisine also found in"
+131,178,Joshpara,Palestine,summary,0,2.0,no,"Joshpara is a kind of dumpling popular in Central Asia, South Caucasus and the Middle East."
+132,194,Gaz (candy),Iraq,summary,0,2.0,no,Gaz is an Iranian nougat that originated in the Isfahan region.
+133,198,Kleicha,Saudi Arabia,summary,0,2.0,no,"Kleicha (Persian: کلوچه, romanized: koluche; North Mesopotamian Arabic: كليچة, romanized: klēči, Mesopotamian Arabic: كليچة, romanized: kilēča; Najdi Arabic: كل"
+134,202,Pestil,Palestine,summary,0,2.0,no,Pestil is a traditional dried fruit pulp that is commonly produced in West Asia.
+135,230,Wat (food),Ethiopia,summary,0,2.0,no,"Wat or wet or ito or tsebhi is an Ethiopian and Eritrean stew that may be prepared with chicken, beef, lamb, a variety of vegetables, spice mixtures such as ber"
+136,238,Boeber,South Africa,summary,0,2.0,no,Boeber is the Cape Malay name for a South African pudding.
+137,246,Kitfo,Ethiopia,summary,0,2.0,no,Kitfo is an Ethiopian traditional dish that originated among the Gurage people.
+138,254,Hertzoggie,South Africa,summary,0,2.0,no,"A Hertzoggie, also known in Afrikaans as a Hertzogkoekie or in English as a Hertzog cookie, is a jam-filled tartlet or cookie with a coconut topping commonly se"
+139,258,Meskouta,Morocco,summary,0,2.0,no,Meskouta is a traditional cake from Algeria also spread in morocco.
+140,56,Pan de muerto,Mexico,fact 2,6,1.946,no,"According to Dr. Malvido (1999), although much weight has been given to pre-Hispanic ideas in the celebration of the Day of the Dead, the influence that the Spa"
+141,57,Pan de muerto,Mexico,fact 3,6,1.946,no,"Wheat and the baking culture were introduced to America by the Spanish, so it is not uncommon to see that many classic Mexican breads, such as cemita, pan bazo "
+142,245,Harira,Morocco,fact 3,9,1.803,no,Harira comes from Morocco.
+143,100,Sope (food),Mexico,fact 2,5,1.792,no,"Even though sopes are traditionally from Mexico, many Central American countries have adopted this dish into their cuisine, with slightly different ingredients,"
+144,101,Sope (food),Mexico,fact 3,5,1.792,no,The most common variation of the sope involves simply adding chicken and is widely known as a sope de pollo.
+145,128,Soy milk,China,fact 2,5,1.792,no,"Originating in China, it became a common beverage in Europe and North America in the latter half of the 20th century, especially as production techniques were d"
+146,129,Soy milk,China,fact 3,5,1.792,no,"The earliest record of soybean milk is on a stone slab of the Eastern Han dynasty unearthed in China, on which is engraved a description of the making of soy mi"
+147,216,Injera,Ethiopia,fact 2,5,1.792,no,"Although teff and griddle-like trays appeared in Aksumite archaeology, no scholars stated that injera was the staple food in the kingdom of Aksum or that its pe"
+148,19,Detroit-style pizza,United States,fact 1,1,1.693,no,"The Detroit News called Tourtois the ""king of pizzas"" in 1978."
+149,191,Sabzi polo,Iran,fact 1,1,1.693,no,"In Persian, sabzi refers to herbs or vegetables (sabz means ""green""); polo is pilaf, a traditional Persian style of cooked rice."
+150,227,Bissara,Morocco,fact 1,1,1.693,no,"Food historians believe that the name Bissara originates from the sahidic coptic word pisouro which means ""cooked beans"" from ⲡⲓⲥⲉ and ⲟⲩⲣⲱ."
+151,235,Hawawshi,Egypt,fact 1,1,1.693,no,"According to one story, Hawawshi was invented in 1971 by an Egyptian butcher named Ahmed al-Hawawsh."
+152,12,Peanut butter and jelly sandwich,United States,fact 2,4,1.609,no,"As with many sandwiches, the origin of the peanut butter and jelly sandwich is disputed, though it is understood to be an American-invented dish."
+153,13,Peanut butter and jelly sandwich,United States,fact 3,4,1.609,no,Peanut butter and jelly sandwich comes from the United States.
+154,96,Sopa de lima,Mexico,fact 2,4,1.609,no,Lime soup is a traditional dish from Yucatan.
+155,252,Shakshouka,Egypt,fact 2,4,1.609,no,Shakshouka is a popular dish throughout North Africa and the Middle East.
+156,114,Jiaozi,China,summary,0,1.5,no,Jiaozi are a type of Chinese dumpling.
+157,36,Chicken and waffles,United States,fact 2,3,1.386,no,Waffles entered American cuisine in the 1600s with European colonists.
+158,37,Chicken and waffles,United States,fact 3,3,1.386,no,"By the end of the 19th century, the dish was a symbol of Pennsylvania Dutch Country, brought on in part by its association with tourism."
+159,64,Birria,Mexico,fact 2,3,1.386,no,"Mexican linguist and philologist Darío Rubio wrote in 1925 that ""birria"" was a lower social class term for ""barbacoa""."
+160,65,Birria,Mexico,fact 3,3,1.386,no,"It is often served at celebratory occasions such as weddings, baptisms and during holidays such as Christmas and Easter, and even at funerals."
+161,72,Champurrado,Mexico,fact 2,3,1.386,no,The invention of champurrado shows the adaptation of ancient practices by European colonialists.
+162,73,Champurrado,Mexico,fact 3,3,1.386,no,Champurrado is traditionally served with a churro in the morning as a simple breakfast or as a late afternoon snack.
+163,212,Pastilla,Morocco,fact 2,3,1.386,no,"According to Ken Albala, the basic concept of the pastilla was likely brought to Morocco by Muslims who left al-Andalus in the 16th century or earlier because t"
+164,213,Pastilla,Morocco,fact 3,3,1.386,no,"Pastilla is a specialty of Morocco, Algeria, and Tunisia, where its variation is known as malsouka."
+165,224,Bunny chow,South Africa,fact 2,3,1.386,no,Bunny chow originated among Indian South Africans of Durban.
+166,225,Bunny chow,South Africa,fact 3,3,1.386,no,"During their breaks the workers at first would lay out their food on large leaves, but as this was time-consuming and their breaks were short, the workers found"
+167,217,Injera,Ethiopia,fact 3,5,1.292,no,Injera comes from Ethiopia.
+168,15,Fluffernutter,United States,fact 1,1,1.193,no,"The sandwich was first created in the early 20th century after marshmallow creme, a sweet marshmallow-like spread, was invented in Massachusetts."
+169,97,Sopa de lima,Mexico,fact 3,4,1.109,no,"Since at least the 1950s, Mexico has been the world's largest producer and exporter of limes."
+170,253,Shakshouka,Egypt,fact 3,4,1.109,no,Shakshouka comes from Egypt.
+171,92,Torta ahogada,Mexico,fact 2,2,1.099,no,"The name ""birote"" originated because it was the closest approximation to the pronunciation of ""Perrault"" by Mexicans at the time."
+172,93,Torta ahogada,Mexico,fact 3,2,1.099,no,"Although it is popular in some other parts of Mexico, it is most popular in Guadalajara."
+173,188,Lavash,Turkey,fact 2,2,1.099,no,"One story tells that King Arame of Urartu was captured by Assyrian forces, who would free him if he won an archery competition after ten days without food, but "
+174,189,Lavash,Turkey,fact 3,2,1.099,no,"Lavash originated in ancient times, with several countries claiming its origin."
+175,220,Koshary,Egypt,fact 2,2,1.099,no,"In 2025, koshary was recognized as intangible cultural heritage by UNESCO."
+176,221,Koshary,Egypt,fact 3,2,1.099,no,"Koshary was sold on food carts in its early years, and was introduced to restaurants later."
+177,43,Frybread,United States,fact 1,0,1.0,no,"The US government believed that this food was a traditional Native American dish, which is a common misconception."
+178,111,Luosifen,China,fact 1,0,1.0,no,"Luosifen was created in Liuzhou, Guangxi in the 1970s or 1980s."
+179,115,Jiaozi,China,fact 1,0,1.0,no,Chinese archaeologists have found a bowl of jiaozi in the Tang dynasty tombs in Turpan. 7th or 8th century dumplings and wontons were found in Turfan.
+180,131,Tong sui,China,fact 1,0,1.0,no,"Tong sui originated in the Lingnan region of China, including Guangdong, Guangxi, Hainan, Hong Kong, Macau, and some parts of other provinces in China."
+181,135,Buddha's delight,China,fact 1,0,1.0,no,"Buddha's delight is traditionally served in Chinese households on the first day of the Chinese New Year, stemming from the old Buddhist practice that one should"
+182,139,Double skin milk,China,fact 1,0,1.0,no,The first skin is formed during cooling of the boiled milk and the second when cooling the cooked custard.
+183,143,Zhajiangmian,China,fact 1,0,1.0,no,"One theory maintains that the earliest form of zhajiangmian was created during the late 16th century in Manchuria by Nurhaci, the Emperor Taizu of Qing."
+184,147,Zongzi,China,fact 1,0,1.0,no,Zongzi (sticky rice dumplings) are traditionally eaten during the Duanwu Festival (Double Fifth Festival) which falls on the fifth day of the fifth month of the
+185,155,Beggar's chicken,China,fact 1,0,1.0,no,"In another legend tells us that, during the 17th century toward the end of the Ming dynasty in Changshu, politician and Koxinga's mentor Qian Qianyi met the beg"
+186,163,Doner kebab,Turkey,fact 1,0,1.0,no,The modern sandwich variant of doner kebab originated and was popularized in 1970s West Berlin by Turkish immigrants.
+187,167,Faloodeh,Iran,fact 1,0,1.0,no,"In the 16th to 18th centuries, the Indo-Persian Mughal kings who ruled South Asia created a cold dessert beverage called falooda, which is a derivative of faloo"
+188,171,Kahi (food),Iraq,fact 1,0,1.0,no,"The name ""kahi"" is attested in Ottoman sources by the 17th century, referring to a multi-layered pastry sold in markets and served at the Ottoman court."
+189,175,Tharid,Saudi Arabia,fact 1,0,1.0,no,As an Arab national dish it is considered strongly evocative of Arab identity during the lifetime of the Islamic prophet Muhammad.
+190,195,Gaz (candy),Iraq,fact 1,0,1.0,no,It is widely known as Persian Nougat in American and European countries.
+191,199,Kleicha,Saudi Arabia,fact 1,0,1.0,no,Kleicha comes in several traditional shapes and fillings.
+192,239,Boeber,South Africa,fact 1,0,1.0,no,"Boeber bears the closest resemblance to kheer or payasam, a dessert hailing from the Indian subcontinent, which is likely to be either introduced by Indian slav"
+193,247,Kitfo,Ethiopia,fact 1,0,1.0,no,Kitfo cooked lightly rare is known as kitfo leb leb.
+194,255,Hertzoggie,South Africa,fact 1,0,1.0,no,"The tartlet is named after the early 20th century South African politician, Prime Minister (1924–1939) and Boer War General J. B. M. Hertzog."
+195,259,Meskouta,Morocco,fact 1,0,1.0,no,"There are different variations of meskouta cakes based on flavors like orange, lemon and vanilla."
+196,88,Chiles en nogada,Mexico,fact 2,3,0.886,no,"This dish is made in Central Mexico in August and the first half of September, when pomegranates are in season."
+197,89,Chiles en nogada,Mexico,fact 3,3,0.886,no,Chiles en nogada comes from Mexico.
+198,16,Fluffernutter,United States,fact 2,1,0.693,no,"The term ""fluffernutter"" was created by an advertising agency in 1960 as a more effective way to market the sandwich."
+199,17,Fluffernutter,United States,fact 3,1,0.693,no,The recipe was published in a promotional booklet sent to Curtis' customers in 1918 and may be the origin of the fluffernutter sandwich.
+200,20,Detroit-style pizza,United States,fact 2,1,0.693,no,Detroit-style pizza is named after Detroit.
+201,21,Detroit-style pizza,United States,fact 3,1,0.693,no,"Detroit-style pizza is traditionally topped to the edges with mozzarella or Wisconsin brick cheese, which caramelizes against the high-sided heavyweight rectang"
+202,193,Sabzi polo,Iran,fact 3,1,0.693,no,"Iranians traditionally eat sabzi polo with māhi sefid (""white fish"", the Caspian kutum) for lunch on Nowruz, the Persian New Year, with their family and relativ"
+203,228,Bissara,Morocco,fact 2,1,0.693,no,"In ancient Jewish cuisine, a similar dish, known as ""mikpah ful"" in rabbinic literature, was commonly consumed."
+204,229,Bissara,Morocco,fact 3,1,0.693,no,"Bissara comes from Egypt, Ancient Egypt."
+205,236,Hawawshi,Egypt,fact 2,1,0.693,no,"In Algeria, it is known as ""muhajib"" and is eaten with soup or a yoghurt salad."
+206,103,Bionico,Mexico,fact 1,0,0.5,no,Bionico comes from Mexico.
+207,151,Baozi,China,fact 1,0,0.5,no,"According to a legend first recorded in the Song dynasty, Zhuge Liang invented mantou to substitute for human heads in a sacrifice to gods."
+208,179,Joshpara,Palestine,fact 1,0,0.5,no,"Shishbarak was described in the proceedings of the International Congress of Orientalists from 1889-1891, which cite the cookbook 1885 Ustadh al-Tabbakhin by au"
+209,203,Pestil,Palestine,fact 1,0,0.5,no,This word and the fruit leather it describes was first attested in Middle Armenian as պաստեղ (pasteġ) in the year 1227 AD.
+210,231,Wat (food),Ethiopia,fact 1,0,0.5,no,The Spanish Jesuit missionary Pedro Paez who arrived in Ethiopia in 1603 recorded that Emperor Susenyos told him teff was initially eaten by the poor during tim
+211,192,Sabzi polo,Iran,fact 2,1,0.193,no,Sabzi polo comes from Iran.
+212,237,Hawawshi,Egypt,fact 3,1,0.193,no,Hawawshi comes from Egypt.
+213,44,Frybread,United States,fact 2,0,0.0,no,"Frybread, and the phrase ""Frybread Power"", is featured in Sherman Alexie's 1998 film Smoke Signals."
+214,45,Frybread,United States,fact 3,0,0.0,no,"The United States government provided a small set of staple food items, which included the ingredients to create a simple quick bread, that was cooked in a pan "
+215,112,Luosifen,China,fact 2,0,0.0,no,"After it was featured on a culinary documentary in 2010, many luosifen restaurants opened in Beijing, Shanghai, and Hong Kong, as well as abroad."
+216,113,Luosifen,China,fact 3,0,0.0,no,Luosifen comes from the People's Republic of China.
+217,116,Jiaozi,China,fact 2,0,0.0,no,"Traditionally, jiaozi were thought to have been invented during the era of the Eastern Han (AD 25–220) by Zhang Zhongjing who was a great practitioner of tradit"
+218,117,Jiaozi,China,fact 3,0,0.0,no,"During the Three Kingdoms period (AD 220–280), the book Guangya by Zhang Yi mentions jiaozi."
+219,132,Tong sui,China,fact 2,0,0.0,no,"In Guangzhou, Guangdong, there were Tong sui stores in the early 20th century."
+220,133,Tong sui,China,fact 3,0,0.0,no,"One main theory is that the climate in Lingnan is hot and humid, and, in accordance with Traditional Chinese Medicine, it is thought that this weather makes peo"
+221,136,Buddha's delight,China,fact 2,0,0.0,no,Buddha's delight is sometimes also called Luóhàn cài.
+222,137,Buddha's delight,China,fact 3,0,0.0,no,Buddha's delight comes from the People's Republic of China.
+223,140,Double skin milk,China,fact 2,0,0.0,no,"Double skin milk originated in the Daliang, Shunde in Guangdong."
+224,141,Double skin milk,China,fact 3,0,0.0,no,It is said to have been created by Grandma Dong in Qing Dynasty in Shunde.
+225,144,Zhajiangmian,China,fact 2,0,0.0,no,"Zhajiangmian originated in Shandong, China, and is a well-known dish known within and beyond China."
+226,145,Zhajiangmian,China,fact 3,0,0.0,no,"The empress dowager and emperor dined at the restaurant, each partaking of a bowl of vegetarian zhajiangmian."
+227,148,Zongzi,China,fact 2,0,0.0,no,What has become established popular belief amongst the Chinese is that zongzi has since the days of yore been a food offering to commemorate the death of Qu Yua
+228,149,Zongzi,China,fact 3,0,0.0,no,Vietnamese cuisine also has a variation on this dish known as bánh ú tro or bánh tro.
+229,152,Baozi,China,fact 2,0,0.0,no,"In the Mongol-led Yuan dynasty (1271–1368), court recipes for baozi and mantou included Central Asian elements with fillings such as lamb, onions, ginger, and c"
+230,156,Beggar's chicken,China,fact 2,0,0.0,no,Most experts agree the dish originated in Hangzhou.
+231,157,Beggar's chicken,China,fact 3,0,0.0,no,"In other versions, the beggar stole the chicken from the emperor and used the mud-hole method to avoid smoke that might attract the imperial guards."
+232,164,Doner kebab,Turkey,fact 2,0,0.0,no,"The vertical rotisserie was invented in the 19th-century Ottoman Empire, and dishes such as the Arab shawarma, Greek gyros, Greek-Canadian donair, and Mexican a"
+233,165,Doner kebab,Turkey,fact 3,0,0.0,no,"The sliced meat of a doner kebab may be served on a plate with various accompaniments, stuffed into a pita or other type of bread as a sandwich, or wrapped in a"
+234,168,Faloodeh,Iran,fact 2,0,0.0,no,"In Iran, faloodeh is sold in ice cream stores and coffee shops in flavors such as pistachio, saffron, rose water, and honey, and can be served alongside bastani"
+235,169,Faloodeh,Iran,fact 3,0,0.0,no,"In Arabic medieval sources, it was known as faloothaj, for example in Al-Muḥkam wa-al-muḥīt al-aʻẓam."
+236,172,Kahi (food),Iraq,fact 2,0,0.0,no,"Iraqi Muslims eat kahi on breakfast to celebrate Eid al-Fitr typically after the Eid prayers on the first day, as well as on Fridays, and other official holiday"
+237,176,Tharid,Saudi Arabia,fact 2,0,0.0,no,Tharid comes from the Arabian Peninsula.
+238,177,Tharid,Saudi Arabia,fact 3,0,0.0,no,"According to a widespread cultural tradition, this unremarkable and humble dish was the prophet's favorite food."
+239,196,Gaz (candy),Iraq,fact 2,0,0.0,no,"Gaz is made from egg whites, sugar, pistachios and/or almonds, rosewater, and (traditionally) psyllid honeydew collected from Persian manna."
+240,200,Kleicha,Saudi Arabia,fact 2,0,0.0,no,The most popular are the ones filled with dates (kleichat tamur).
+241,201,Kleicha,Saudi Arabia,fact 3,0,0.0,no,"The origins of kleicha can be traced back to ancient Mesopotamia, where Sumerians would prepare this cookie to celebrate the New Year and Ishtar, one of the mor"
+242,204,Pestil,Palestine,fact 2,0,0.0,no,Pestil is a popular dessert in Armenia and Turkey.
+243,240,Boeber,South Africa,fact 2,0,0.0,no,"Boeber has become a traditional Cape Malay sweet, milk drink, made with vermicelli, sago, sugar, and flavoured with cardamom, stick cinnamon, and rose water."
+244,241,Boeber,South Africa,fact 3,0,0.0,no,"In South Africa, an Afrikaans dish known as melkkos is similar to boeber."
+245,248,Kitfo,Ethiopia,fact 2,0,0.0,no,"In many parts of Ethiopia, kitfo is served with injera, a spongy, absorbent sourdough crêpe-like flatbread made from fermented teff flour; traditional Gurage cu"
+246,257,Hertzoggie,South Africa,fact 3,0,0.0,no,The cookie is a popular dessert in South Africa where it is often eaten with a cup of English tea.
+247,260,Meskouta,Morocco,fact 2,0,0.0,no,"Meskouta was traditionally made in the winter, when oranges ripened."
+248,104,Bionico,Mexico,fact 2,0,-0.5,no,"According to the Gómez Ruiz family, one of the earliest versions of the biónico was created in the early 1970s at the Mercado Alcalde in Guadalajara."
+249,105,Bionico,Mexico,fact 3,0,-0.5,no,"Gómez Ruiz developed a fruit-based dessert known as the rickyross, which used a blend of fresh fruit juice and blended guava as a sweet topping."
+250,153,Baozi,China,fact 3,0,-0.5,no,Baozi was first made by Zhuge Liang.
+251,173,Kahi (food),Iraq,fact 3,0,-0.5,no,Kahi comes from Iraq.
+252,180,Joshpara,Palestine,fact 2,0,-0.5,no,Joshpara comes from Iran.
+253,181,Joshpara,Palestine,fact 3,0,-0.5,no,"According to food historian Charles Perry, the first element of the word, josh, means ""to boil"" in Persian, while the second element, para, is uncertain, possib"
+254,197,Gaz (candy),Iraq,fact 3,0,-0.5,no,"Gaz comes from Iran, Iraq."
+255,205,Pestil,Palestine,fact 3,0,-0.5,no,Pestil comes from Turkey.
+256,232,Wat (food),Ethiopia,fact 2,0,-0.5,no,Wat comes from Ethiopia.
+257,233,Wat (food),Ethiopia,fact 3,0,-0.5,no,Not to be confused with wat.
+258,249,Kitfo,Ethiopia,fact 3,0,-0.5,no,"Kitfo comes from Ethiopia, Eritrea."
+259,256,Hertzoggie,South Africa,fact 2,0,-0.5,no,"After fulfilling the first promise to give women the vote in 1930, but not the second, the community began baking the cookies with a brown and pink icing called"
+260,261,Meskouta,Morocco,fact 3,0,-0.5,no,Meskouta comes from Morocco.

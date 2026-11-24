@@ -85,3 +85,29 @@ def test_the_usual_country_count_is_beside_ours() -> None:
     un = cov["un_states"]
     assert un["members"] == 193 and un["observers"] == 2
     assert un["members_with_a_dish"] + len(un["members_without_a_dish"]) == 193
+
+
+def test_cuisine_photo_risk_is_a_sort_not_a_decision() -> None:
+    import cuisine_images as ci
+    names = {"Taiwan": ["taiwan", "taiwanese"], "China": ["china", "chinese"]}
+    dishes = {"Taiwan": {"beef noodle soup"}}
+    assert ci.risk("Taiwan", "Xiaolongbao.jpg", "served in a Chinese steamer", True, names, dishes)[0] == "likely wrong"
+    assert ci.risk("Taiwan", "Taiwanese breakfast.jpg", "", True, names, dishes)[0] == "probably right"
+    assert ci.risk("Taiwan", "Beef noodle soup.jpg", "", True, names, dishes)[0] == "probably right"
+    assert ci.risk("Taiwan", "Lunch.jpg", "", True, names, dishes)[0] == "needs a look"
+    assert ci.risk("Taiwan", "Taiwanese breakfast.jpg", "", False, names, dishes)[0] == "likely wrong"
+
+
+def test_review_aids_rank_and_plan_without_deciding() -> None:
+    import empty_country_backlog as eb
+    import review_priority as rp
+    assert rp.score(365, "summary", "") > rp.score(365, "fact 3", "") > rp.score(0, "fact 3", "x")
+    assert eb.plan(0, 0, 3)[0] == "low" and eb.plan(50, 0, 0)[0] == "medium" and eb.plan(0, 0, 0)[0] == "high"
+
+
+def test_walter_five_questions_use_sourced_fields_only() -> None:
+    import walter_gaps as wg
+    dish = {"qid": "Q1", "summary": "A stew.", "country": "Ghana", "origin": ["Ghana"], "story_candidates": ["x"]}
+    got = wg.answers(dish, {"Q1": {"variants": ["Q2"]}}, {"Q1": {"next": [{"qid": "Q3"}]}})
+    assert all(got.values())
+    assert not any(wg.answers({"qid": "Q9"}, {}, {}).values())

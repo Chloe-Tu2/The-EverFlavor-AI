@@ -29,7 +29,8 @@ from everflavor.knowledge import _sparql
 KNOW = ROOT / "data" / "knowledge"
 OUT = KNOW / "media" / "cuisine_image_queue.json"
 SHEET = KNOW / "review" / "cuisine_images.csv"
-FIELDS = ["country", "cuisine_page", "file", "file_page", "licence", "author", "passes", "why_not", "verdict",
+FIELDS = ["risk", "risk_reason", "country", "cuisine_page", "file", "file_page", "licence", "author", "passes",
+          "why_not", "verdict",
           "reviewer", "note"]
 QUERY = """SELECT ?title ?image WHERE {{
   VALUES ?title {{ {titles} }}
@@ -45,6 +46,31 @@ def cuisine_pages() -> dict[str, list[str]]:
     have = {json.loads(line)["country"] for line in (KNOW / "dishes.jsonl").open(encoding="utf-8")}
     return {c: [f"{APP_COUNTRIES[c]} cuisine", f"Cuisine of {c}", *COUNTRY_PAGES.get(c, [])]
             for c in sorted(have) if c in APP_COUNTRIES}
+
+
+def _words(text: str) -> str:
+    import re
+    import unicodedata
+    plain = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
+    return " " + re.sub(r"[^a-z0-9]+", " ", plain) + " "
+
+
+def risk(country: str, file: str, description: str, passes: bool, names: dict[str, list[str]],
+         dishes: dict[str, set[str]]) -> tuple[str, str]:
+    """A first sort for the person who reviews (never a decision): "likely wrong" when the file fails the photo
+    rules or its name or description names another country and not this one; "probably right" when it names this
+    country or one of its dishes; else "needs a look"."""
+    text = _words(f"{file} {description}")
+    if not passes:
+        return "likely wrong", "fails the photo rules"
+    own = any(f" {w} " in text for w in names[country])
+    dish = next((d for d in sorted(dishes.get(country, set())) if len(d) > 4 and f" {d} " in text), "")
+    other = next((c for c, ws in names.items() if c != country and any(f" {w} " in text for w in ws)), "")
+    if other and not own and not dish:
+        return "likely wrong", f"names {other}, not {country}"
+    if own or dish:
+        return "probably right", f"names {country if own else 'its dish ' + dish}"
+    return "needs a look", "names neither the country nor one of its dishes"
 
 
 def is_kept(row: dict) -> bool:
@@ -68,6 +94,12 @@ def main() -> None:
     if SHEET.exists():
         with SHEET.open(encoding="utf-8", newline="") as f:
             old = {r["country"]: r for r in csv.DictReader(f)}
+    from fetch_knowledge import APP_COUNTRIES
+    names = {c: sorted({_words(c).strip(), _words(a).strip()} - {""}) for c, a in APP_COUNTRIES.items()}
+    dishes: dict[str, set[str]] = {}
+    for line in (KNOW / "dishes.jsonl").open(encoding="utf-8"):
+        d = json.loads(line)
+        dishes.setdefault(d["country"], set()).add(_words(d["name"].split(" (")[0]).strip())
     rows = []
     for country in sorted(picked):
         if not picked[country]:
@@ -76,9 +108,12 @@ def main() -> None:
         m = known.get(file, {})
         why = check(file, m)
         kept = old.get(country, {}) if old.get(country, {}).get("file") == file else {}
-        rows.append({"country": country, "cuisine_page": page, "file": file, "file_page": m.get("file_page", ""),
+        level, reason = risk(country, file, m.get("description", ""), not why, names, dishes)
+        rows.append({"risk": level, "risk_reason": reason, "country": country, "cuisine_page": page, "file": file, "file_page": m.get("file_page", ""),
                      "licence": m.get("license", ""), "author": m.get("author", ""), "passes": "yes" if not why else "no",
                      "why_not": "; ".join(why), **{k: kept.get(k, "") for k in ("verdict", "reviewer", "note")}})
+    order = {"likely wrong": 0, "needs a look": 1, "probably right": 2}
+    rows.sort(key=lambda r: (order[r["risk"]], r["country"]))
     with SHEET.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDS)
         writer.writeheader()

@@ -18,6 +18,8 @@ Written 2026-11-23 for sprint 4, from med27-coder's request. The sprint's impact
 - [ ] Notebook 11 rerun: country pages, with no PC paths in its outputs
 - [ ] `region_pages.py`, `country_scores.py` and `country_counts.py` rerun: region pages, weak and uncovered
       countries, our count beside the UN's
+- [ ] `empty_country_backlog.py`, `walter_gaps.py`, `cuisine_images.py` and `review_priority.py` rerun: the next
+      sprint's list and the review queues
 
 ## Enrichment and preservation
 
