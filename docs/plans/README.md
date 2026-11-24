@@ -34,7 +34,6 @@ How a version moves, as most teams do it:
 | 0.7.2 | Next: speed (scene files cached), `st.iframe` for the kitchen, a clearer profile button, UI clean-up, Check my recipe phases 2-3, an "Open in maps" button. Local branch `fix/0.7.2-repairs` (not pushed, 2026-11-17): scene files cached, profile button, Open in maps | |
 | After 0.7.2 | **Order of work** (below): foundations first, then discovery | |
 | 0.8.0 | **Planned** (below; decided by med27-coder, 2026-11-22): sign off the staged photos, cuisine and country image fallbacks, world culinary coverage as the headline metric, the 18 map cuisine tags, related dishes in Check my recipe; the real store locator | |
-| 0.8.1 to 0.8.6 | **Planned** (below; med27-coder, 2026-11-24): atlas campaigns, one region per release | |
 | 0.9.0 | **Planned** (below): chat with the chef (moved from 0.8.0 by med27-coder, 2026-11-22), the Africa sprint (38 ready dishes first), Walter's five questions | |
 | 1.0.0 | Final presentation | |
 
@@ -336,24 +335,6 @@ with confidence.
 | Reviews | Items 24, 28, 29 and 30 (moved dishes, country scores, sprint entries) answered | person | open |
 | Release | CI green; the 0.8 work is merged into `main` as it is verified (2026-11-23, med27-coder: merge as needed); the team tries `main`, approves, then `/release 0.8.0` | person | after the above |
 
-**0.8.x, atlas campaigns (med27-coder, 2026-11-24).** After 0.8.0 the atlas grows one region at a time instead of
-in feature bundles. Each campaign is a PATCH release on top of 0.8.0 (data, not a new feature), ships when its
-target is met and the sprint impact report shows the five measures going up, and keeps the keep rule (Wikidata's
-origin or the dish's own intro names the country). Baselines from the sprint 4 run (2026-11-23,
-`data/knowledge/atlas/culinary_coverage.json`):
-
-| Version | Campaign | Target | Baseline | State |
-|---|---|---|---|---|
-| 0.8.1 | Empty countries | More UN members with a dish; the empty-country backlog shrinks. First: Belarus, Eritrea, Jordan, Togo, Barbados, Sierra Leone (Wikidata has their dishes filed under another country; a rule call is needed first, item 25) | 148 of 193 members | next |
-| 0.8.2 | Caribbean | More Caribbean countries with a dish, country pages, regional links, related dishes | 9 of 16, coverage 44.5% | planned |
-| 0.8.3 | Oceania | Oceania coverage at least 35%; Polynesia, Micronesia and Melanesia pages | 32.3% | planned |
-| 0.8.4 | Africa | Africa coverage at least 50%; West and Central Africa first | 44.0% (Middle Africa 32.6%, Western Africa 38.6%) | planned |
-| 0.8.5 | Eastern Europe | Belarus (the only one missing, also in 0.8.1), then representation | 9 of 10, coverage 82.0% | planned; may swap for Western Asia (68.5%) |
-| 0.8.6 | South Asia | Representation and enrichment (every country already has a dish) | 9 of 9, coverage 88.1% | planned; may swap for Southern Africa (36.1%) |
-
-Eastern Europe and South Asia are already well covered, so those two campaigns would be about depth, not new
-countries; swapping them for weaker regions is med27-coder's call.
-
 **0.9.0 beta, Atlas Experience.** Done when a person can explore regions, traditions and food culture, not only
 dishes.
 
@@ -383,12 +364,45 @@ contributions and moderation. Only after 1.0.
 governance should not slip (open review items logged, none silently closed). The sprint impact report
 (`docs/audits/sprints/`) shows all five.
 
-**Atlas charter (unattended work, med27-coder, 2026-11-24).** Work in this order: coverage recovery,
-representation, enrichment, preservation, governance; never optimise for dish count alone. Never done
-automatically: releasing a version, approving images, resolving review items, changing safety or allergen rules,
-or settling country or Indigenous disputes; those become review items in
-[needs_human_review.md](../governance/needs_human_review.md). Each sprint ends by answering, with metrics: how much
-more of the world's food culture can EverFlavor explain, represent and preserve now than before?
+### Atlas campaigns (med27-coder, 2026-11-24): regional work, separate from versions
+
+Software versions and atlas campaigns answer different questions, so they are planned apart:
+
+- **Software versions** (0.8.0, 0.9.0, 1.0.0, 2.0.0) ship new capabilities: systems, experiences, workflows.
+- **Patch releases** (0.8.1, 0.8.2, ...) carry only fixes, small improvements and data updates (for example
+  store locator fixes, map tag fixes, photo corrections, metric tweaks, a campaign's new dishes so far).
+- **Atlas campaigns** are regional work that runs continuously across releases. A campaign is never a version
+  number: it can last days or months, and work in one region often moves others. Its results ship in whichever
+  release comes next. Each keeps the keep rule (Wikidata's origin or the dish's own intro names the country).
+
+Baselines from the sprint 4 run (2026-11-23, `data/knowledge/atlas/culinary_coverage.json`):
+
+| Campaign | State | Target | Baseline |
+|---|---|---|---|
+| A. Empty country recovery | active | More UN members with a dish; first Belarus, Eritrea, Jordan, Togo, Barbados, Sierra Leone (Wikidata files their dishes under another country; a rule call is needed first, item 25) | 148 of 193 members |
+| D. Africa 50% | planned | Africa coverage at least 50% (a 1.0 target); West and Central Africa first | 44.0% (Middle 32.6%, Western 38.6%) |
+| C. Oceania 35% | planned | Oceania coverage at least 35% (a 1.0 target); Polynesia, Micronesia and Melanesia pages | 32.3% |
+| F. Southern Africa expansion | planned | Feeds Africa 50% directly | 2 of 5 countries, 36.1% |
+| B. Caribbean representation | backlog | More Caribbean countries with a dish, country pages, regional links | 9 of 16, 44.5% |
+| E. Western Asia expansion | backlog | Levant, Arabian Peninsula, Mesopotamia and the Persian region linked into the atlas | 14 of 18, 68.5% |
+| Indigenous traditions | backlog | Evidence queues and review sheets only; tags wait for the rubric (item 26) | see `indigenous_tags.csv` |
+
+Eastern Europe (82.0%) and South Asia (88.1%) are already strong and are not campaigns; they get depth work
+(representation, enrichment) when it comes up.
+
+**Atlas charter (unattended work, med27-coder, 2026-11-24).** Raise coverage, representation, enrichment,
+preservation and governance; never optimise for dish count alone. Prefer a new country over more dishes in an
+existing one, a new dish family over more variants of one, and a weak region over a strong one.
+
+- Allowed by itself: coverage recovery, country and region audits, family mapping, region and country pages,
+  Walter gap reports (variants, origins, stories), Indigenous evidence queues and review sheets (never applying
+  tags), image readiness reports, sprint and atlas health reports, review priorities, documentation.
+- People only: image approval, Indigenous review, country attribution disputes, coverage rule changes, safety
+  and allergen rule changes, resolving review items, release approvals. These become review items in
+  [needs_human_review.md](../governance/needs_human_review.md).
+- End of every run: what increased in coverage, what improved in representation, enrichment and preservation,
+  what changed in governance, and, with metrics, how much more of the world's food culture EverFlavor can
+  represent and explain than before.
 
 ### 0.9.0 (planned): chat with the chef, the Africa sprint, Walter's five questions
 
