@@ -379,15 +379,15 @@ Baselines from the sprint 4 run (2026-11-23, `data/knowledge/atlas/culinary_cove
 
 | Campaign | State | Target | Baseline |
 |---|---|---|---|
-| A. Empty country recovery | active | More UN members with a dish; first Belarus, Eritrea, Jordan, Togo, Barbados, Sierra Leone (Wikidata files their dishes under another country; a rule call is needed first, item 25) | 148 of 193 members |
+| A. Empty country recovery | active | More UN members with a dish; first Belarus, Eritrea, Jordan, Togo, Barbados, Sierra Leone: their 21 Wikidata dishes are shared dishes listed under a neighbour, so a person decides each (item 32, [empty_country_packets.md](../audits/empty_country_packets.md)) | 148 of 193 members |
 | D. Africa 50% | planned | Africa coverage at least 50% (a 1.0 target); West and Central Africa first | 44.0% (Middle 32.6%, Western 38.6%) |
 | C. Oceania 35% | planned | Oceania coverage at least 35% (a 1.0 target); Polynesia, Micronesia and Melanesia pages | 32.3% |
 | F. Southern Africa expansion | planned | Feeds Africa 50% directly | 2 of 5 countries, 36.1% |
-| B. Caribbean representation | backlog | More Caribbean countries with a dish, country pages, regional links | 9 of 16, 44.5% |
 | E. Western Asia expansion | backlog | Levant, Arabian Peninsula, Mesopotamia and the Persian region linked into the atlas | 14 of 18, 68.5% |
+| B. Caribbean representation | backlog | More Caribbean countries with a dish, country pages, regional links | 9 of 16, 44.5% |
 | Indigenous traditions | backlog | Evidence queues and review sheets only; tags wait for the rubric (item 26) | see `indigenous_tags.csv` |
 
-Eastern Europe (82.0%) and South Asia (88.1%) are already strong and are not campaigns; they get depth work
+Western Asia comes before the Caribbean (med27-coder, 2026-11-24): it links the Levant, Arabian Peninsula, Mesopotamia and Persian region, which feeds region pages, Walter and related dishes. Central Asia (76.8%), Eastern Europe (82.0%) and South Asia (88.1%) are already strong and are not campaigns; they get depth work
 (representation, enrichment) when it comes up.
 
 **Atlas charter (unattended work, med27-coder, 2026-11-24).** Raise coverage, representation, enrichment,

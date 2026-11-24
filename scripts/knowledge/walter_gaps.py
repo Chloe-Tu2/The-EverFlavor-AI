@@ -66,6 +66,21 @@ def main() -> None:
               "Dishes the app links the most recipes to, first (the full list: `data/knowledge/quality/walter_gap_queue.json`).", ""]
     lines += table(["Dish", "Country", "Recipes linked", "Missing"],
                    [[r["name"], r["country"], f"{r['recipes']:,}", ", ".join(r["missing"])] for r in queue[:25]])
+    per_country: dict[str, list[int]] = {}
+    for d in dishes:
+        per_country.setdefault(d["country"], []).append(sum(got[d["qid"]].values()))
+    scores = sorted(({"country": c, "dishes": len(v), "score": round(sum(v) / len(v), 2),
+                      "all_five": sum(x == 5 for x in v)} for c, v in per_country.items() if c),
+                    key=lambda r: (r["score"], -r["dishes"], r["country"]))
+    lines += ["", "## Walter coverage score per country", "",
+              (f"The average number of the five questions a country's dishes answer (0 to 5), weakest first; "
+               f"{len(scores)} countries, all in `data/knowledge/quality/walter_country_scores.json`. A low score "
+               "points to missing stories, origins, variants or graph links there."), ""]
+    lines += table(["Country", "Dishes", "Score (of 5)", "Dishes with all five"],
+                   [[r["country"], r["dishes"], f"{r['score']:.2f}", r["all_five"]] for r in scores[:25]])
+    (KNOW / "quality" / "walter_country_scores.json").write_text(json.dumps(
+        {"by": "scripts/knowledge/walter_gaps.py", "built_on": date.today().isoformat(), "countries": scores},
+        ensure_ascii=False, indent=1), encoding="utf-8")
     save_md("walter_five_questions.md", lines)
     print(per_q, dict(full))
 

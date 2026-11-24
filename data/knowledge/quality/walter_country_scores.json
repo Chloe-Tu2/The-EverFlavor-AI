@@ -1,0 +1,930 @@
+{
+ "by": "scripts/knowledge/walter_gaps.py",
+ "built_on": "2026-11-24",
+ "countries": [
+  {
+   "country": "Bahrain",
+   "dishes": 1,
+   "score": 2.0,
+   "all_five": 0
+  },
+  {
+   "country": "Belize",
+   "dishes": 1,
+   "score": 2.0,
+   "all_five": 0
+  },
+  {
+   "country": "Tajikistan",
+   "dishes": 1,
+   "score": 2.0,
+   "all_five": 0
+  },
+  {
+   "country": "The Bahamas",
+   "dishes": 1,
+   "score": 2.0,
+   "all_five": 0
+  },
+  {
+   "country": "Central African Republic",
+   "dishes": 2,
+   "score": 2.5,
+   "all_five": 0
+  },
+  {
+   "country": "Tonga",
+   "dishes": 2,
+   "score": 2.5,
+   "all_five": 0
+  },
+  {
+   "country": "Turkmenistan",
+   "dishes": 2,
+   "score": 2.5,
+   "all_five": 0
+  },
+  {
+   "country": "Slovakia",
+   "dishes": 10,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Puerto Rico",
+   "dishes": 8,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Cyprus",
+   "dishes": 7,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Angola",
+   "dishes": 3,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Kyrgyzstan",
+   "dishes": 3,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Mauritius",
+   "dishes": 3,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Seychelles",
+   "dishes": 3,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Syria",
+   "dishes": 3,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Benin",
+   "dishes": 2,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Chad",
+   "dishes": 2,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Guyana",
+   "dishes": 2,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Moldova",
+   "dishes": 2,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "South Sudan",
+   "dishes": 2,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Curaçao",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Malawi",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Mali",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Mauritania",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Montenegro",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Mozambique",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "New Caledonia",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Niger",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Rwanda",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Samoa",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Sudan",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "The Gambia",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Zambia",
+   "dishes": 1,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
+   "country": "Algeria",
+   "dishes": 20,
+   "score": 3.05,
+   "all_five": 0
+  },
+  {
+   "country": "Cambodia",
+   "dishes": 15,
+   "score": 3.13,
+   "all_five": 0
+  },
+  {
+   "country": "Guatemala",
+   "dishes": 7,
+   "score": 3.14,
+   "all_five": 0
+  },
+  {
+   "country": "Botswana",
+   "dishes": 5,
+   "score": 3.2,
+   "all_five": 0
+  },
+  {
+   "country": "Luxembourg",
+   "dishes": 5,
+   "score": 3.2,
+   "all_five": 0
+  },
+  {
+   "country": "Maldives",
+   "dishes": 9,
+   "score": 3.22,
+   "all_five": 0
+  },
+  {
+   "country": "Egypt",
+   "dishes": 16,
+   "score": 3.25,
+   "all_five": 0
+  },
+  {
+   "country": "Armenia",
+   "dishes": 12,
+   "score": 3.25,
+   "all_five": 0
+  },
+  {
+   "country": "Madagascar",
+   "dishes": 4,
+   "score": 3.25,
+   "all_five": 0
+  },
+  {
+   "country": "Bangladesh",
+   "dishes": 12,
+   "score": 3.33,
+   "all_five": 0
+  },
+  {
+   "country": "Ecuador",
+   "dishes": 6,
+   "score": 3.33,
+   "all_five": 0
+  },
+  {
+   "country": "Ghana",
+   "dishes": 6,
+   "score": 3.33,
+   "all_five": 0
+  },
+  {
+   "country": "Haiti",
+   "dishes": 6,
+   "score": 3.33,
+   "all_five": 0
+  },
+  {
+   "country": "Kazakhstan",
+   "dishes": 6,
+   "score": 3.33,
+   "all_five": 0
+  },
+  {
+   "country": "New Zealand",
+   "dishes": 6,
+   "score": 3.33,
+   "all_five": 0
+  },
+  {
+   "country": "North Macedonia",
+   "dishes": 3,
+   "score": 3.33,
+   "all_five": 0
+  },
+  {
+   "country": "Georgia",
+   "dishes": 22,
+   "score": 3.36,
+   "all_five": 0
+  },
+  {
+   "country": "Norway",
+   "dishes": 51,
+   "score": 3.37,
+   "all_five": 0
+  },
+  {
+   "country": "Romania",
+   "dishes": 21,
+   "score": 3.38,
+   "all_five": 0
+  },
+  {
+   "country": "Azerbaijan",
+   "dishes": 8,
+   "score": 3.38,
+   "all_five": 0
+  },
+  {
+   "country": "Cameroon",
+   "dishes": 8,
+   "score": 3.38,
+   "all_five": 0
+  },
+  {
+   "country": "Nicaragua",
+   "dishes": 8,
+   "score": 3.38,
+   "all_five": 0
+  },
+  {
+   "country": "Paraguay",
+   "dishes": 8,
+   "score": 3.38,
+   "all_five": 0
+  },
+  {
+   "country": "Senegal",
+   "dishes": 8,
+   "score": 3.38,
+   "all_five": 0
+  },
+  {
+   "country": "Albania",
+   "dishes": 5,
+   "score": 3.4,
+   "all_five": 0
+  },
+  {
+   "country": "Croatia",
+   "dishes": 17,
+   "score": 3.41,
+   "all_five": 0
+  },
+  {
+   "country": "Nepal",
+   "dishes": 14,
+   "score": 3.43,
+   "all_five": 0
+  },
+  {
+   "country": "Malta",
+   "dishes": 7,
+   "score": 3.43,
+   "all_five": 0
+  },
+  {
+   "country": "Pakistan",
+   "dishes": 7,
+   "score": 3.43,
+   "all_five": 0
+  },
+  {
+   "country": "Finland",
+   "dishes": 25,
+   "score": 3.44,
+   "all_five": 0
+  },
+  {
+   "country": "Brazil",
+   "dishes": 51,
+   "score": 3.45,
+   "all_five": 0
+  },
+  {
+   "country": "Iraq",
+   "dishes": 11,
+   "score": 3.45,
+   "all_five": 0
+  },
+  {
+   "country": "Vietnam",
+   "dishes": 72,
+   "score": 3.46,
+   "all_five": 2
+  },
+  {
+   "country": "Nigeria",
+   "dishes": 50,
+   "score": 3.48,
+   "all_five": 0
+  },
+  {
+   "country": "Germany",
+   "dishes": 88,
+   "score": 3.5,
+   "all_five": 1
+  },
+  {
+   "country": "Peru",
+   "dishes": 18,
+   "score": 3.5,
+   "all_five": 1
+  },
+  {
+   "country": "Bulgaria",
+   "dishes": 12,
+   "score": 3.5,
+   "all_five": 0
+  },
+  {
+   "country": "Ethiopia",
+   "dishes": 10,
+   "score": 3.5,
+   "all_five": 0
+  },
+  {
+   "country": "Uzbekistan",
+   "dishes": 6,
+   "score": 3.5,
+   "all_five": 0
+  },
+  {
+   "country": "Yemen",
+   "dishes": 6,
+   "score": 3.5,
+   "all_five": 0
+  },
+  {
+   "country": "Lithuania",
+   "dishes": 4,
+   "score": 3.5,
+   "all_five": 0
+  },
+  {
+   "country": "Honduras",
+   "dishes": 2,
+   "score": 3.5,
+   "all_five": 0
+  },
+  {
+   "country": "Saudi Arabia",
+   "dishes": 2,
+   "score": 3.5,
+   "all_five": 0
+  },
+  {
+   "country": "Poland",
+   "dishes": 68,
+   "score": 3.51,
+   "all_five": 3
+  },
+  {
+   "country": "Jamaica",
+   "dishes": 50,
+   "score": 3.52,
+   "all_five": 2
+  },
+  {
+   "country": "Cuba",
+   "dishes": 22,
+   "score": 3.55,
+   "all_five": 1
+  },
+  {
+   "country": "Singapore",
+   "dishes": 11,
+   "score": 3.55,
+   "all_five": 0
+  },
+  {
+   "country": "Slovenia",
+   "dishes": 9,
+   "score": 3.56,
+   "all_five": 0
+  },
+  {
+   "country": "Afghanistan",
+   "dishes": 7,
+   "score": 3.57,
+   "all_five": 0
+  },
+  {
+   "country": "Thailand",
+   "dishes": 77,
+   "score": 3.58,
+   "all_five": 0
+  },
+  {
+   "country": "Colombia",
+   "dishes": 17,
+   "score": 3.59,
+   "all_five": 0
+  },
+  {
+   "country": "Belgium",
+   "dishes": 25,
+   "score": 3.6,
+   "all_five": 0
+  },
+  {
+   "country": "Taiwan",
+   "dishes": 25,
+   "score": 3.6,
+   "all_five": 0
+  },
+  {
+   "country": "Morocco",
+   "dishes": 20,
+   "score": 3.6,
+   "all_five": 0
+  },
+  {
+   "country": "Israel",
+   "dishes": 15,
+   "score": 3.6,
+   "all_five": 0
+  },
+  {
+   "country": "Argentina",
+   "dishes": 10,
+   "score": 3.6,
+   "all_five": 0
+  },
+  {
+   "country": "Austria",
+   "dishes": 5,
+   "score": 3.6,
+   "all_five": 0
+  },
+  {
+   "country": "Laos",
+   "dishes": 5,
+   "score": 3.6,
+   "all_five": 0
+  },
+  {
+   "country": "Latvia",
+   "dishes": 5,
+   "score": 3.6,
+   "all_five": 0
+  },
+  {
+   "country": "Mongolia",
+   "dishes": 5,
+   "score": 3.6,
+   "all_five": 0
+  },
+  {
+   "country": "Mexico",
+   "dishes": 112,
+   "score": 3.61,
+   "all_five": 3
+  },
+  {
+   "country": "Sweden",
+   "dishes": 44,
+   "score": 3.61,
+   "all_five": 1
+  },
+  {
+   "country": "Iran",
+   "dishes": 18,
+   "score": 3.61,
+   "all_five": 0
+  },
+  {
+   "country": "Greece",
+   "dishes": 88,
+   "score": 3.62,
+   "all_five": 4
+  },
+  {
+   "country": "Philippines",
+   "dishes": 87,
+   "score": 3.62,
+   "all_five": 4
+  },
+  {
+   "country": "Turkey",
+   "dishes": 65,
+   "score": 3.62,
+   "all_five": 5
+  },
+  {
+   "country": "Malaysia",
+   "dishes": 39,
+   "score": 3.62,
+   "all_five": 1
+  },
+  {
+   "country": "Switzerland",
+   "dishes": 27,
+   "score": 3.63,
+   "all_five": 1
+  },
+  {
+   "country": "India",
+   "dishes": 105,
+   "score": 3.64,
+   "all_five": 5
+  },
+  {
+   "country": "Portugal",
+   "dishes": 72,
+   "score": 3.64,
+   "all_five": 0
+  },
+  {
+   "country": "Chile",
+   "dishes": 28,
+   "score": 3.64,
+   "all_five": 1
+  },
+  {
+   "country": "Ireland",
+   "dishes": 22,
+   "score": 3.64,
+   "all_five": 1
+  },
+  {
+   "country": "Lebanon",
+   "dishes": 31,
+   "score": 3.65,
+   "all_five": 2
+  },
+  {
+   "country": "Denmark",
+   "dishes": 18,
+   "score": 3.67,
+   "all_five": 2
+  },
+  {
+   "country": "Tunisia",
+   "dishes": 6,
+   "score": 3.67,
+   "all_five": 0
+  },
+  {
+   "country": "Dominican Republic",
+   "dishes": 3,
+   "score": 3.67,
+   "all_five": 0
+  },
+  {
+   "country": "El Salvador",
+   "dishes": 3,
+   "score": 3.67,
+   "all_five": 0
+  },
+  {
+   "country": "Kenya",
+   "dishes": 3,
+   "score": 3.67,
+   "all_five": 0
+  },
+  {
+   "country": "Libya",
+   "dishes": 3,
+   "score": 3.67,
+   "all_five": 0
+  },
+  {
+   "country": "North Korea",
+   "dishes": 3,
+   "score": 3.67,
+   "all_five": 0
+  },
+  {
+   "country": "Somalia",
+   "dishes": 3,
+   "score": 3.67,
+   "all_five": 0
+  },
+  {
+   "country": "Sri Lanka",
+   "dishes": 3,
+   "score": 3.67,
+   "all_five": 0
+  },
+  {
+   "country": "Uruguay",
+   "dishes": 3,
+   "score": 3.67,
+   "all_five": 0
+  },
+  {
+   "country": "Myanmar",
+   "dishes": 19,
+   "score": 3.68,
+   "all_five": 2
+  },
+  {
+   "country": "Indonesia",
+   "dishes": 249,
+   "score": 3.69,
+   "all_five": 5
+  },
+  {
+   "country": "Spain",
+   "dishes": 55,
+   "score": 3.69,
+   "all_five": 2
+  },
+  {
+   "country": "Australia",
+   "dishes": 60,
+   "score": 3.7,
+   "all_five": 1
+  },
+  {
+   "country": "Italy",
+   "dishes": 329,
+   "score": 3.74,
+   "all_five": 13
+  },
+  {
+   "country": "South Africa",
+   "dishes": 28,
+   "score": 3.75,
+   "all_five": 0
+  },
+  {
+   "country": "Venezuela",
+   "dishes": 8,
+   "score": 3.75,
+   "all_five": 0
+  },
+  {
+   "country": "Estonia",
+   "dishes": 4,
+   "score": 3.75,
+   "all_five": 0
+  },
+  {
+   "country": "Guam",
+   "dishes": 4,
+   "score": 3.75,
+   "all_five": 0
+  },
+  {
+   "country": "South Korea",
+   "dishes": 79,
+   "score": 3.76,
+   "all_five": 3
+  },
+  {
+   "country": "Serbia",
+   "dishes": 13,
+   "score": 3.77,
+   "all_five": 0
+  },
+  {
+   "country": "France",
+   "dishes": 88,
+   "score": 3.78,
+   "all_five": 7
+  },
+  {
+   "country": "Palestine",
+   "dishes": 18,
+   "score": 3.78,
+   "all_five": 0
+  },
+  {
+   "country": "Hungary",
+   "dishes": 42,
+   "score": 3.79,
+   "all_five": 0
+  },
+  {
+   "country": "Czech Republic",
+   "dishes": 10,
+   "score": 3.8,
+   "all_five": 1
+  },
+  {
+   "country": "Canada",
+   "dishes": 89,
+   "score": 3.81,
+   "all_five": 11
+  },
+  {
+   "country": "Netherlands",
+   "dishes": 31,
+   "score": 3.81,
+   "all_five": 0
+  },
+  {
+   "country": "Ukraine",
+   "dishes": 16,
+   "score": 3.81,
+   "all_five": 0
+  },
+  {
+   "country": "Japan",
+   "dishes": 109,
+   "score": 3.83,
+   "all_five": 10
+  },
+  {
+   "country": "Russia",
+   "dishes": 48,
+   "score": 3.83,
+   "all_five": 1
+  },
+  {
+   "country": "United States",
+   "dishes": 366,
+   "score": 3.85,
+   "all_five": 30
+  },
+  {
+   "country": "Iceland",
+   "dishes": 7,
+   "score": 3.86,
+   "all_five": 0
+  },
+  {
+   "country": "China",
+   "dishes": 181,
+   "score": 3.87,
+   "all_five": 17
+  },
+  {
+   "country": "United Kingdom",
+   "dishes": 69,
+   "score": 3.88,
+   "all_five": 5
+  },
+  {
+   "country": "Trinidad and Tobago",
+   "dishes": 8,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Uganda",
+   "dishes": 3,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Bolivia",
+   "dishes": 2,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "dishes": 2,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Costa Rica",
+   "dishes": 2,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Tanzania",
+   "dishes": 2,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Bhutan",
+   "dishes": 1,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Brunei",
+   "dishes": 1,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Cape Verde",
+   "dishes": 1,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Democratic Republic of the Congo",
+   "dishes": 1,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Ivory Coast",
+   "dishes": 1,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "Suriname",
+   "dishes": 1,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "United Arab Emirates",
+   "dishes": 1,
+   "score": 4.0,
+   "all_five": 0
+  }
+ ]
+}
