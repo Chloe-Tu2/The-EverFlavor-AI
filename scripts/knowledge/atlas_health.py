@@ -255,27 +255,27 @@ def scoreboard(now: dict, before: dict, per_gap: dict[str, int]) -> None:
         return [f"{value}%", f"{target}%", "met" if value >= target else f"{target - value:.1f} points"]
 
     rows: list[list[object]] = [
-        ["A. Empty countries", f"{un} of 193 UN members", f"{min(un + 5, 193)} of 193", f"{193 - un} members",
-         "none (policy decided); drops in shared_dish_origins.csv are optional"],
-        ["D. Africa 50%", *pct("Africa coverage (%)", 50), "none; next Middle Africa (39.6%) and Southern Africa"],
         ["C. Oceania 35%", *pct("Oceania coverage (%)", 35), "none"],
+        ["Q1. Regional data", f"{per_gap['no culinary region']} countries without regional data", "0",
+         f"{per_gap['no culinary region']}", "none; link our dishes to provisional Wikidata regions (item 33)"],
         ["Q2. Story recovery", f"{per_gap['no story']} countries without a story", "0", f"{per_gap['no story']}",
-         "none"],
+         "a new free source (the dishes' own articles are used up)"],
         ["Walter debt", f"{per_gap['weak Walter']} weak countries; average {now['Walter coverage score']} of 5",
          "0 weak", f"{per_gap['weak Walter']}", "none"],
-        ["Q1 phase 0. Regional sources", f"{per_gap['no culinary region']} countries without regional data",
-         "a chosen free source", "research not started", "a person picks the source"],
         ["Q4. Family recovery", f"{per_gap['no family']} countries without a family", "0", f"{per_gap['no family']}",
          "none"],
         ["Q3. Image readiness", f"{per_gap['no photo']} countries without a photo", "0", f"{per_gap['no photo']}",
          "a person approves every photo"],
+        ["G. Manual country research", f"{193 - un} UN members without a dish", "0", f"{193 - un} members",
+         "a person or a new approved source (A's automatic routes are exhausted)"],
         ["E. Western Asia", *pct("Asia / Western Asia", 80), "none"],
-        ["F. Southern Africa (inside D)", *pct("Africa / Southern Africa", 50), "none"],
         ["B. Caribbean", *pct("Americas / Caribbean", 60), "none"],
+        ["D. Africa 50% (maintenance)", *pct("Africa coverage (%)", 50), "none; keep above 50%"],
+        ["F. Southern Africa (maintenance, with D)", *pct("Africa / Southern Africa", 50), "none"],
     ]
     rule = ("**Debt first.** Debt per country did not fall since the last snapshot "
             f"({before.get('debt per country')} -> {now['debt per country']}), so the charter's rule applies: reduce "
-            "the debt (Q2, Walter, Q4) before further expansion." if debt_first else
+            "the debt (Q1, Q2, Walter, Q4) before further expansion, so Q1 goes before C." if debt_first else
             "Debt per country fell since the last snapshot; expansion and debt work can both go ahead.")
     lines = [f"# Campaign scoreboard ({now['date']})", "",
              ("Where every campaign stands, in the planner's order: the number now, the next target, the gap and "
