@@ -239,43 +239,85 @@ def main() -> None:
                 "review items answered": answered, "review items open": logged - answered,
                 "atlas debt": total, "debt per country": per_country, **{f"debt: {g}": per_gap[g] for g in DEBTS}}
     before = record(snapshot)
-    scoreboard(snapshot, before, per_gap)
+    scoreboard(snapshot, before, per_gap, debt)
     handoff(snapshot, before, now_t, done_of, waiting, debt, per_gap, regions, answered_ids)
     print(f"debt {total} ({per_country} per country) over {len(debt)} countries; {per_gap}")
 
 
-def scoreboard(now: dict, before: dict, per_gap: dict[str, int]) -> None:
-    """docs/audits/campaign_scoreboard.md: every campaign's number, target and blocker, in the planner's order."""
+def scoreboard(now: dict, before: dict, per_gap: dict[str, int], debt: list[dict]) -> None:
+    """docs/audits/campaign_scoreboard.md: every campaign's number, target, blocker and completion criteria, in the
+    planner's order (med27-coder, 2026-11-25)."""
     sub = read(KNOW / "atlas" / "culinary_coverage.json")["subregions"]
     un = now["UN members with a dish"]
     debt_first = bool(before) and now["debt per country"] >= before.get("debt per country", now["debt per country"])
 
-    def pct(name: str, target: float) -> list[object]:
-        value = now[name] if name in now else sub[name]["coverage"]
-        return [f"{value}%", f"{target}%", "met" if value >= target else f"{target - value:.1f} points"]
+    def value(name: str) -> float:
+        return float(now[name] if name in now else sub[name]["coverage"])
 
+    def pct(name: str, target: float) -> list[object]:
+        v = value(name)
+        return [f"{v}%", f"{target}%", "met" if v >= target else f"{target - v:.1f} points"]
+
+    south = [c for c in debt if c["subregion"] == "Southern Africa"]
+    south_walter = round(sum(c["walter"] or 0 for c in south) / len(south), 2) if south else 0.0
+    south_no_region = [c["country"] for c in south if "no culinary region" in c["gaps"]]
+    top10_oceania = [c["country"] for c in debt[:10] if c["continent"] == "Oceania"]
     rows: list[list[object]] = [
+        ["Q1. Regional data", f"{per_gap['no culinary region']} countries without regional data", "90 (phase 1)",
+         f"{max(per_gap['no culinary region'] - 90, 0)}", "none; link our dishes to provisional Wikidata regions (item 33)"],
+        ["F. Southern Africa 50%", *pct("Africa / Southern Africa", 50), "none"],
         ["C. Oceania 35%", *pct("Oceania coverage (%)", 35), "none"],
-        ["Q1. Regional data", f"{per_gap['no culinary region']} countries without regional data", "0",
-         f"{per_gap['no culinary region']}", "none; link our dishes to provisional Wikidata regions (item 33)"],
-        ["Q2. Story recovery", f"{per_gap['no story']} countries without a story", "0", f"{per_gap['no story']}",
-         "a new free source (the dishes' own articles are used up)"],
         ["Walter debt", f"{per_gap['weak Walter']} weak countries; average {now['Walter coverage score']} of 5",
          "0 weak", f"{per_gap['weak Walter']}", "none"],
+        ["Q2. Story recovery", f"{per_gap['no story']} countries without a story", "0", f"{per_gap['no story']}",
+         "a new free source (the dishes' own articles are used up)"],
         ["Q4. Family recovery", f"{per_gap['no family']} countries without a family", "0", f"{per_gap['no family']}",
          "none"],
-        ["Q3. Image readiness", f"{per_gap['no photo']} countries without a photo", "0", f"{per_gap['no photo']}",
-         "a person approves every photo"],
         ["G. Manual country research", f"{193 - un} UN members without a dish", "0", f"{193 - un} members",
          "a person or a new approved source (A's automatic routes are exhausted)"],
+        ["Q3. Image completion", f"{per_gap['no photo']} countries without a photo", "0", f"{per_gap['no photo']}",
+         "a person approves every photo"],
         ["E. Western Asia", *pct("Asia / Western Asia", 80), "none"],
         ["B. Caribbean", *pct("Americas / Caribbean", 60), "none"],
-        ["D. Africa 50% (maintenance)", *pct("Africa coverage (%)", 50), "none; keep above 50%"],
-        ["F. Southern Africa (maintenance, with D)", *pct("Africa / Southern Africa", 50), "none"],
+        ["D. Africa 50% (complete, maintenance)", *pct("Africa coverage (%)", 50), "none; keep above 50%"],
     ]
+
+    def yes(ok: bool) -> str:
+        return "yes" if ok else "no"
+
+    # a campaign is complete only when every condition holds (med27-coder, 2026-11-25)
+    criteria: list[tuple[str, list[tuple[str, str, bool]]]] = [
+        ("Q1. Regional data", [
+            ("countries without regional data at most 90 (phase 1, Wikidata links)",
+             str(per_gap["no culinary region"]), per_gap["no culinary region"] <= 90),
+            ("at most 50 (phase 2, needs a second regional source)", str(per_gap["no culinary region"]),
+             per_gap["no culinary region"] <= 50)]),
+        ("F. Southern Africa 50%", [
+            ("coverage at least 50%", f"{value('Africa / Southern Africa')}%", value("Africa / Southern Africa") >= 50),
+            ("average Walter score at least 4.0", f"{south_walter}", south_walter >= 4.0),
+            ("every covered country has regional data", ", ".join(south_no_region) or "all have it",
+             not south_no_region)]),
+        ("C. Oceania 35%", [
+            ("coverage at least 35%", f"{value('Oceania coverage (%)')}%", value("Oceania coverage (%)") >= 35),
+            ("no Oceania country among the 10 highest-debt countries", ", ".join(top10_oceania) or "none",
+             not top10_oceania)]),
+        ("Walter debt", [("no country under 3 of 5", str(per_gap["weak Walter"]), per_gap["weak Walter"] == 0)]),
+        ("Q2. Story recovery", [("no country without a story", str(per_gap["no story"]), per_gap["no story"] == 0)]),
+        ("Q4. Family recovery", [("no country without a family", str(per_gap["no family"]), per_gap["no family"] == 0)]),
+        ("G. Manual country research", [("every UN member has a dish", f"{un} of 193", un >= 193)]),
+        ("Q3. Image completion", [("no country without a photo", str(per_gap["no photo"]), per_gap["no photo"] == 0)]),
+        ("E. Western Asia", [("coverage at least 80%", f"{value('Asia / Western Asia')}%",
+                              value("Asia / Western Asia") >= 80)]),
+        ("B. Caribbean", [("coverage at least 60%", f"{value('Americas / Caribbean')}%",
+                           value("Americas / Caribbean") >= 60)]),
+        ("D. Africa 50%", [("coverage stays at least 50%", f"{value('Africa coverage (%)')}%",
+                            value("Africa coverage (%)") >= 50)]),
+    ]
+    crit_rows = [[name, cond, now_v, yes(ok)] for name, conds in criteria for cond, now_v, ok in conds]
+    done = [name for name, conds in criteria if all(ok for _, _, ok in conds)]
     rule = ("**Debt first.** Debt per country did not fall since the last snapshot "
             f"({before.get('debt per country')} -> {now['debt per country']}), so the charter's rule applies: reduce "
-            "the debt (Q1, Q2, Walter, Q4) before further expansion, so Q1 goes before C." if debt_first else
+            "the debt (Q1, Q2, Walter, Q4) before further expansion, so Q1 comes first." if debt_first else
             "Debt per country fell since the last snapshot; expansion and debt work can both go ahead.")
     lines = [f"# Campaign scoreboard ({now['date']})", "",
              ("Where every campaign stands, in the planner's order: the number now, the next target, the gap and "
@@ -286,6 +328,11 @@ def scoreboard(now: dict, before: dict, per_gap: dict[str, int]) -> None:
     lines += ["**Debt velocity** since " + (f"{before['commit']} ({before['date']})" if before else "the start") + ": "
               + ("; ".join(velocity) if velocity else "first snapshot") + ".", ""]
     lines += table(["Campaign", "Now", "Next target", "Gap", "Blocked by"], rows)
+    lines += ["", "## Completion criteria", "",
+              ("A campaign is complete only when every condition holds (med27-coder, 2026-11-25); complete now: "
+               f"{', '.join(done) or 'none'}. The Q1 phase 1 target of 90 is what the Wikidata links can reach (24 "
+               "countries without regional data have a provisional region); phase 2 waits for a second source."), ""]
+    lines += table(["Campaign", "Condition", "Now", "Met"], crit_rows)
     save_md("campaign_scoreboard.md", lines)
 
 
