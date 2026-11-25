@@ -1661,6 +1661,17 @@ TRUST = [("icon_check", "Free, no sign-up"), ("icon_safe", "Nothing you enter is
          ("icon_alert", "Not medical advice")]
 
 
+@st.cache_data(show_spinner=False)
+def dishes_in_app() -> int:
+    """How many dishes the app works with now: the dish entries of the knowledge notebook that Walter and the Food
+    Graph load (foods and drinks left out). Counted from the file, so it follows every data run."""
+    path = ROOT / "data" / "knowledge" / "dishes.jsonl"
+    if not path.exists():
+        return 0
+    with path.open(encoding="utf-8") as f:
+        return sum(1 for line in f if '"kind": "dish"' in line)
+
+
 def landing() -> None:
     """What people see first (docs/plans/LANDING_PAGE.md, option A): the promise, one button into the app, how it
     works and how we check, drawn before the recipes load. The chef's "catch" is a fixed, reviewed fact from the
@@ -1690,6 +1701,9 @@ def landing() -> None:
                                         "recipe and we check it line by line.")),
         ], strict=True):
             col.markdown(f"**{title}**  \n{text}")
+        if count := dishes_in_app():
+            st.markdown(f"**Right now the app works with {count:,} dishes** from around the world, each with its "
+                        "sources, so the chef can tell you what a dish is and where it comes from.")
         with st.expander("How we check"):
             st.markdown(
                 "- **What we check:** about 290,000 recipes from open and research datasets, each checked ingredient "
