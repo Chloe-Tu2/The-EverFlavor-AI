@@ -73,6 +73,9 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
   under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
   dishes answer all five; versions are the gap).
+- **Landing page dish count** (asked by med27-coder, 2026-11-24): the landing says how many dishes the app works
+  with right now (3,863), counted from the knowledge notebook's dish entries when the page loads, so it follows
+  every data run.
 - **Overnight curator reports** (2026-11-24; none decides anything): campaign A's candidates for the 33
   UN members still empty (`country_recovery_candidates.md`: the shared-dish route is used up, 3 weak
   candidates); Q2 story recovery (43 countries without a story, material for 5; review item 34); Q4 family
