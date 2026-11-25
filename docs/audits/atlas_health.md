@@ -1,42 +1,42 @@
 # Atlas health (2026-11-25)
 
-The five measures, the atlas debt and release readiness, from `scripts/knowledge/atlas_health.py` (metrics built 2026-11-24). **Audit only.** Start a session with [curator_handoff.md](curator_handoff.md); what to review first: [review_impact.md](review_impact.md).
+The five measures, the atlas debt and release readiness, from `scripts/knowledge/atlas_health.py` (metrics built 2026-11-25). **Audit only.** Start a session with [curator_handoff.md](curator_handoff.md); what to review first: [review_impact.md](review_impact.md).
 
 ## The five measures
 
-- **Coverage:** world culinary coverage (%) 69.1; Africa coverage (%) 51.2; Americas coverage (%) 71.5; Asia coverage (%) 80.8; Europe coverage (%) 87.8; Oceania coverage (%) 32.3; countries with a dish 168; country pages 165
-- **Representation:** dish families and categories 707; countries with three dishes or more 130; countries with a story 125; Indigenous traditions tracked 6
+- **Coverage:** world culinary coverage (%) 70.0; Africa coverage (%) 52.8; Americas coverage (%) 72.9; Asia coverage (%) 81.2; Europe coverage (%) 87.8; Oceania coverage (%) 33.8; countries with a dish 168; country pages 165
+- **Representation:** dish families and categories 707; countries with three dishes or more 130; countries with a story 136; Indigenous traditions tracked 6
 - **Enrichment:** entries with a story (History or Origin sentences) 2,757; entries with a Wikidata origin 4,187; entries linked to a family 3,772; entries with a culinary region 644; rich dishes 529; fair dishes 1,489; thin dishes 1,845
 - **Preservation:** entries with an Indigenous tradition 29; Indigenous traditions tracked 6
-- **Governance:** 34 review items logged in [needs_human_review.md](../governance/needs_human_review.md), 1 answered by a person; none closed by Claude.
+- **Governance:** 34 review items logged in [needs_human_review.md](../governance/needs_human_review.md), 3 answered by a person; none closed by Claude.
 
 ## Atlas debt
 
-567 weighted debt points across 168 countries with a dish, 3.38 per country. Weights: no culinary region 3, no story 2, no family 2, one dish only 2, no photo 1, weak Walter 1. Lowering it beats adding dishes once the coverage targets are met. Debt per country is the measure to follow: a newly covered country brings its own gaps. Most countries lack culinary region data because the place tree has few regions within countries yet; that gap needs a source first (Q1 phase 0).
+538 weighted debt points across 168 countries with a dish, 3.2 per country. Weights: no culinary region 3, no story 2, no family 2, one dish only 2, no photo 1, weak Walter 1. Lowering it beats adding dishes once the coverage targets are met. Debt per country is the measure to follow: a newly covered country brings its own gaps. Most countries lack culinary region data because the place tree has few regions within countries yet; that gap needs a source first (Q1 phase 0).
 
 | Gap | Weight | Countries | Points |
 |---|---:|---:|---:|
-| no culinary region | 3 | 115 | 345 |
-| no story | 2 | 43 | 86 |
+| no culinary region | 3 | 113 | 339 |
+| no story | 2 | 32 | 64 |
 | no family | 2 | 17 | 34 |
 | one dish only | 2 | 26 | 52 |
 | no photo | 1 | 44 | 44 |
-| weak Walter | 1 | 6 | 6 |
+| weak Walter | 1 | 5 | 5 |
 
 ### Regions with the most debt per country
 
 | Region | Countries | Debt | Per country |
 |---|---:|---:|---:|
-| Oceania / Melanesia | 1 | 10 | 10.0 |
 | Oceania / Polynesia | 2 | 17 | 8.5 |
+| Oceania / Melanesia | 1 | 8 | 8.0 |
 | Oceania / Micronesian Region | 2 | 14 | 7.0 |
-| Americas / Caribbean | 14 | 76 | 5.4 |
-| Africa / Eastern Africa | 14 | 70 | 5.0 |
-| Americas / Central America | 8 | 35 | 4.4 |
+| Americas / Caribbean | 14 | 70 | 5.0 |
+| Africa / Eastern Africa | 14 | 66 | 4.7 |
 | Africa / Western Africa | 12 | 52 | 4.3 |
-| Africa / Middle Africa | 6 | 26 | 4.3 |
+| Americas / Central America | 8 | 33 | 4.1 |
 | Asia / Central Asia | 5 | 19 | 3.8 |
-| Asia / Western Asia | 15 | 52 | 3.5 |
+| Africa / Middle Africa | 6 | 22 | 3.7 |
+| Asia / Western Asia | 15 | 46 | 3.1 |
 | Asia / Southern Asia | 9 | 26 | 2.9 |
 | Americas / South America | 12 | 34 | 2.8 |
 
@@ -46,9 +46,6 @@ The full list: `data/knowledge/atlas/atlas_debt.json`.
 
 | Country | Dishes | Debt | Gaps |
 |---|---:|---:|---:|
-| Bahrain | 1 | 10 | no culinary region, no story, no family, one dish only, weak Walter |
-| Guadeloupe | 1 | 10 | no culinary region, no story, no family, one dish only, no photo |
-| New Caledonia | 1 | 10 | no culinary region, no story, no family, one dish only, no photo |
 | Rwanda | 1 | 10 | no culinary region, no story, no family, one dish only, no photo |
 | Samoa | 1 | 10 | no culinary region, no story, no family, one dish only, no photo |
 | The Bahamas | 1 | 10 | no culinary region, no story, no family, one dish only, weak Walter |
@@ -60,22 +57,25 @@ The full list: `data/knowledge/atlas/atlas_debt.json`.
 | Andorra | 1 | 8 | no culinary region, no story, one dish only, no photo |
 | Barbados | 1 | 8 | no culinary region, no story, one dish only, no photo |
 | Belize | 1 | 8 | no culinary region, no story, one dish only, weak Walter |
-| Congo | 1 | 8 | no culinary region, no story, one dish only, no photo |
 | Grenada | 1 | 8 | no culinary region, no story, one dish only, no photo |
+| Guadeloupe | 1 | 8 | no culinary region, no family, one dish only, no photo |
 | Mozambique | 1 | 8 | no culinary region, no story, one dish only, no photo |
+| New Caledonia | 1 | 8 | no culinary region, no family, one dish only, no photo |
 | Northern Mariana Islands | 1 | 8 | no culinary region, no story, one dish only, no photo |
 | Saint Lucia | 1 | 8 | no culinary region, no story, one dish only, no photo |
 | Sierra Leone | 1 | 8 | no culinary region, no story, one dish only, no photo |
 | The Gambia | 1 | 8 | no culinary region, no story, one dish only, no photo |
+| Bahrain | 1 | 7 | no culinary region, no family, one dish only |
 | Bhutan | 1 | 7 | no culinary region, no family, one dish only |
 | Montenegro | 1 | 7 | no culinary region, no story, one dish only |
 | Panama | 1 | 7 | no culinary region, no family, one dish only |
 | Tonga | 2 | 7 | no culinary region, no story, no photo, weak Walter |
 | Turkmenistan | 2 | 7 | no culinary region, no story, no photo, weak Walter |
+| Congo | 1 | 6 | no culinary region, one dish only, no photo |
 | United Arab Emirates | 1 | 6 | no culinary region, one dish only, no photo |
-| Dominica | 2 | 6 | no culinary region, no story, no photo |
-| Honduras | 2 | 6 | no culinary region, no story, no photo |
 | Mali | 2 | 6 | no culinary region, no story, no photo |
+| South Sudan | 2 | 6 | no culinary region, no story, no photo |
+| Suriname | 2 | 6 | no culinary region, no family, no photo |
 
 ### Walter debt: the 20 weakest countries
 
@@ -83,15 +83,13 @@ The average of Walter's five questions their dishes answer (0 to 5); enrichment 
 
 | Country | Dishes | Walter score |
 |---|---:|---:|
-| Bahrain | 1 | 2.00 |
 | Belize | 1 | 2.00 |
 | The Bahamas | 1 | 2.00 |
 | Central African Republic | 2 | 2.50 |
 | Tonga | 2 | 2.50 |
 | Turkmenistan | 2 | 2.50 |
 | Andorra | 1 | 3.00 |
-| Angola | 3 | 3.00 |
-| Congo | 1 | 3.00 |
+| Bahrain | 1 | 3.00 |
 | Curaçao | 1 | 3.00 |
 | Malawi | 1 | 3.00 |
 | Mali | 2 | 3.00 |
@@ -103,6 +101,8 @@ The average of Walter's five questions their dishes answer (0 to 5); enrichment 
 | Rwanda | 1 | 3.00 |
 | Samoa | 1 | 3.00 |
 | Seychelles | 3 | 3.00 |
+| South Sudan | 2 | 3.00 |
+| The Gambia | 1 | 3.00 |
 
 ## Release readiness
 
@@ -139,8 +139,8 @@ The average of Walter's five questions their dishes answer (0 to 5); enrichment 
 
 | Target | Goal | Now | Readiness |
 |---|---:|---:|---:|
-| world culinary coverage (%) | >= 60% | 69.1% | done |
-| Africa coverage (%) | >= 50% | 51.2% | done |
-| Oceania coverage (%) | >= 35% | 32.3% | open |
+| world culinary coverage (%) | >= 60% | 70.0% | done |
+| Africa coverage (%) | >= 50% | 52.8% | done |
+| Oceania coverage (%) | >= 35% | 33.8% | open |
 
 Risks: most open 0.8 and 0.9 conditions wait on people; review time, not data, sets the pace. Every other 1.0 target (pages complete, Walter reviewed, no open critical item) waits on the reviews above.

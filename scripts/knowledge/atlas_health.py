@@ -59,6 +59,11 @@ def country_debt() -> list[dict]:
         d = json.loads(line)
         if d.get("kind") == "dish" and (d.get("region") or d.get("regions")):
             regions[d["country"]] += 1   # a culinary region belongs to the listing country
+    wd_regions = KNOW / "atlas" / "wikidata_culinary_regions.json"   # review item 33: only regions linked to a dish
+    if wd_regions.exists():
+        for r in read(wd_regions)["regions"]:
+            if r["status"] == "linked":
+                regions[r["country"]] += len(r["our_dishes"])
     out = []
     for c in scores:
         name = c["country"]

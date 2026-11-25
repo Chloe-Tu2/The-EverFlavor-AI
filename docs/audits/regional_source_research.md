@@ -1,6 +1,6 @@
-# Regional source research (Q1 phase 0, 2026-11-24)
+# Regional source research (Q1 phase 0, 2026-11-25)
 
-115 countries with a dish have no regional data. The goal of phase 0 is a trustworthy source, not data. From `scripts/knowledge/regional_sources.py`. **Audit only:** no region is added; a person chooses the source and the mapping rule (a review item).
+113 countries with a dish have no regional data. The goal of phase 0 is a trustworthy source, not data. From `scripts/knowledge/regional_sources.py`. **Audit only:** no region is added; a person chooses the source and the mapping rule (a review item).
 
 ## Candidate sources
 
@@ -14,7 +14,7 @@
 
 ## How far Wikidata reaches
 
-Wikidata has at least one non-national cuisine item for 35 of the 115 countries (30%); the other 80 have none, so no single free source covers them all. Items are often ethnic or diaspora cuisines (Chinese Islamic, Indonesian-Dutch), not regions, so each needs a check: is it a place within the country?
+Wikidata has at least one non-national cuisine item for 33 of the 113 countries (29%); the other 80 have none, so no single free source covers them all. Items are often ethnic or diaspora cuisines (Chinese Islamic, Indonesian-Dutch), not regions, so each needs a check: is it a place within the country?
 
 ## Proposed mapping (for a person to accept)
 
@@ -53,10 +53,8 @@ Wikidata has at least one non-national cuisine item for 35 of the 115 countries 
 | Russia | 4 | Chukotka cuisine, Komi cuisine, Yamal cuisine, cuisine of Commander Islands |
 | Serbia | 1 | Kosovan cuisine |
 | Singapore | 2 | Indian Singaporean cuisine, cuisine of Malaysia, Singapore and Brunei |
-| South Korea | 2 | Seoul cuisine, South Korean cuisine |
 | Switzerland | 1 | cuisine of Ticino |
 | Syria | 1 | Aleppo cuisine |
-| Turkey | 2 | cuisine of İzmir, Şanlıurfa cuisine |
 | Ukraine | 5 | Hutsul cuisine, Podolian cuisine, cuisine of Odesa, cuisine of Zakarpattia |
 | Uruguay | 1 | cuisine of Montevideo |
 | Venezuela | 2 | cuisine of Monagas state, cuisine of Mérida state |

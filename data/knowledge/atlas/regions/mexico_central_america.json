@@ -21,7 +21,7 @@
   "Mexico",
   "Nicaragua"
  ],
- "coverage_score": 77.4,
+ "coverage_score": 79.7,
  "dish_count": 135,
  "food_and_drink_count": 69,
  "story_count": 90,
@@ -71,6 +71,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "by": "scripts/knowledge/region_pages.py"
 }

@@ -1,4 +1,4 @@
-# Walter's five questions (2026-11-24)
+# Walter's five questions (2026-11-25)
 
 For each of our dishes, can Walter answer what it is, where it is from, why it matters, similar dishes and its versions from a sourced field? From `scripts/knowledge/walter_gaps.py`. A missing answer is never filled in by a model; it waits for a source. **Audit only.**
 
@@ -6,7 +6,7 @@ For each of our dishes, can Walter answer what it is, where it is from, why it m
 |---|---:|---:|
 | what is it | 3,862 | 100% |
 | where is it from | 3,131 | 81% |
-| why it matters | 2,992 | 77% |
+| why it matters | 3,087 | 80% |
 | similar dishes | 3,862 | 100% |
 | its versions | 250 | 6% |
 
@@ -14,10 +14,10 @@ For each of our dishes, can Walter answer what it is, where it is from, why it m
 
 | Answers | Dishes |
 |---|---:|
-| 5 | 148 |
-| 4 | 2,393 |
-| 3 | 1,141 |
-| 2 | 181 |
+| 5 | 149 |
+| 4 | 2,465 |
+| 3 | 1,089 |
+| 2 | 160 |
 | 1 | 0 |
 | 0 | 0 |
 
@@ -59,20 +59,17 @@ The average number of the five questions a country's dishes answer (0 to 5), wea
 
 | Country | Dishes | Score (of 5) | Dishes with all five |
 |---|---:|---:|---:|
-| Bahrain | 1 | 2.00 | 0 |
 | Belize | 1 | 2.00 | 0 |
 | The Bahamas | 1 | 2.00 | 0 |
 | Central African Republic | 2 | 2.50 | 0 |
 | Tonga | 2 | 2.50 | 0 |
 | Turkmenistan | 2 | 2.50 | 0 |
-| Slovakia | 11 | 3.00 | 0 |
-| Angola | 3 | 3.00 | 0 |
 | Mauritius | 3 | 3.00 | 0 |
 | Seychelles | 3 | 3.00 | 0 |
 | Mali | 2 | 3.00 | 0 |
 | South Sudan | 2 | 3.00 | 0 |
 | Andorra | 1 | 3.00 | 0 |
-| Congo | 1 | 3.00 | 0 |
+| Bahrain | 1 | 3.00 | 0 |
 | Curaçao | 1 | 3.00 | 0 |
 | Malawi | 1 | 3.00 | 0 |
 | Mauritania | 1 | 3.00 | 0 |
@@ -83,4 +80,7 @@ The average number of the five questions a country's dishes answer (0 to 5), wea
 | Samoa | 1 | 3.00 | 0 |
 | The Gambia | 1 | 3.00 | 0 |
 | Zambia | 1 | 3.00 | 0 |
+| Slovakia | 11 | 3.09 | 0 |
 | Puerto Rico | 9 | 3.11 | 0 |
+| Algeria | 23 | 3.17 | 0 |
+| Cambodia | 16 | 3.19 | 0 |

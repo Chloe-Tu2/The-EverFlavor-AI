@@ -33,6 +33,7 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [country_recovery_candidates.md](country_recovery_candidates.md) | Campaign A, the UN members still empty: dishes their cuisine pages link that the atlas holds elsewhere, and whether the dish's intro names the country |
 | [story_recovery_report.md](story_recovery_report.md) | Q2: the countries with no dish story and the sourced material that could give them one (item 34) |
 | [family_recovery_backlog.md](family_recovery_backlog.md) | Q4: the countries with no dish family and the families their dishes' intros name |
+| [wikidata_culinary_regions.md](wikidata_culinary_regions.md) | The Wikidata culinary regions approved under review item 33: linked, provisional or for a person |
 | [regional_source_research.md](regional_source_research.md) | Q1 phase 0: free sources for food regions within countries, their licences, and how far Wikidata reaches (item 33) |
 | [empty_country_packets.md](empty_country_packets.md) | Campaign A's evidence: each dish Wikidata gives an empty country, where the atlas has it now, which pages put it there; verdicts in `data/knowledge/review/empty_country_packets.csv` (item 32) |
 | [curator_handoff.md](curator_handoff.md) | Read first in a new session: what improved and regressed since the last run, what is blocked, what needs a person, what is next |

@@ -1,4 +1,4 @@
-# Country counts (2026-11-24)
+# Country counts (2026-11-25)
 
 How many countries EverFlavor covers depends on what counts as a country. Coverage uses one list (our count); most atlases use the UN's (the usual count). Both are shown so the numbers can be checked. From `scripts/knowledge/country_counts.py`; numbers update on every run. **Audit only.**
 

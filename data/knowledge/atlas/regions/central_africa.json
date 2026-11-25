@@ -20,7 +20,7 @@
   "Chad",
   "Democratic Republic of the Congo"
  ],
- "coverage_score": 39.6,
+ "coverage_score": 43.8,
  "dish_count": 16,
  "food_and_drink_count": 3,
  "story_count": 3,
@@ -61,6 +61,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "by": "scripts/knowledge/region_pages.py"
 }

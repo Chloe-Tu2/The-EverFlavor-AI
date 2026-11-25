@@ -1,4 +1,4 @@
-# Family recovery backlog (Q4, 2026-11-24)
+# Family recovery backlog (Q4, 2026-11-25)
 
 17 countries have no dish in a dish family. For 3 of them a dish's own intro names a known family, or Wikidata says it is based on one. From `scripts/knowledge/family_recovery.py`. **Audit only:** a person confirms each candidate before a dish joins a family; the queue is `data/knowledge/quality/family_recovery_queue.json`.
 

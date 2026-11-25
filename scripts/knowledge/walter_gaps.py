@@ -25,6 +25,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from dish_origins import countries_of
 from quality_reports import read, save_md, table
+from story_rules import has_story
 
 KNOW = ROOT / "data" / "knowledge"
 QUESTIONS = ["what is it", "where is it from", "why it matters", "similar dishes", "its versions"]
@@ -34,7 +35,7 @@ def answers(d: dict, walter: dict, paths: dict) -> dict[str, bool]:
     w = walter.get(d["qid"], {})
     return {"what is it": bool(d.get("summary")),
             "where is it from": bool(d.get("country")) and bool(d.get("origin") or d.get("region")),
-            "why it matters": bool(d.get("story_candidates") or d.get("heritage") or d.get("fun_fact_candidates")),
+            "why it matters": bool(has_story(d) or d.get("heritage") or d.get("fun_fact_candidates")),
             "similar dishes": bool(paths.get(d["qid"], {}).get("next")),
             "its versions": bool(w.get("variants") or w.get("variants_not_in_everflavor"))}
 

@@ -34,7 +34,7 @@
   "The Bahamas",
   "Trinidad and Tobago"
  ],
- "coverage_score": 49.0,
+ "coverage_score": 52.0,
  "dish_count": 100,
  "food_and_drink_count": 76,
  "story_count": 72,
@@ -82,6 +82,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "by": "scripts/knowledge/region_pages.py"
 }

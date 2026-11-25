@@ -73,6 +73,12 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
   under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
   dishes answer all five; versions are the gap).
+- **Story rule and Wikidata regions** (review items 34 and 33, decided by med27-coder, 2026-11-25): an intro
+  sentence that states an origin, a date, a traditional association or a cultural significance counts as story
+  material (`scripts/knowledge/story_rules.py`; ingredients, preparation and popularity never count); Wikidata's
+  cuisine items become provisional culinary regions under five rules, counted only when one of our dishes is
+  linked (`scripts/knowledge/wikidata_regions.py`: 542 regions, 59 linked, 2 disputed for a person). Countries
+  without a story 43 to 32; atlas debt 567 to 538, 3.38 to 3.20 per country.
 - **Landing page dish count** (asked by med27-coder, 2026-11-24): the landing says how many dishes the app works
   with right now (3,863), counted from the knowledge notebook's dish entries when the page loads, so it follows
   every data run.

@@ -21,6 +21,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from dish_origins import countries_of
 from quality_reports import read, save_md, table
+from story_rules import intro_story as rule_story
 
 KNOW = ROOT / "data" / "knowledge"
 HISTORY_WORDS = re.compile(r"\b(originat\w*|dates? (back|from)|centur(y|ies)|introduc\w*|invent\w*|"
@@ -47,7 +48,7 @@ def main() -> None:
             if country not in targets:
                 continue
             facts = {k: d[k] for k in FACTS if d.get(k)}
-            sentence = intro_history(d.get("summary", ""))
+            sentence = rule_story(d) or intro_history(d.get("summary", ""))
             queue.append({"country": country, "dish": d["name"], "qid": d["qid"], "intro_history": sentence,
                           "wikidata_facts": facts, "has_material": bool(sentence or facts)})
     queue.sort(key=lambda r: (r["country"], not r["has_material"], r["dish"]))

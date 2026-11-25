@@ -1,0 +1,5424 @@
+{
+ "by": "scripts/knowledge/wikidata_regions.py",
+ "built_on": "2026-11-25",
+ "rule": "review item 33 (med27-coder, 2026-11-25); provisional until reviewed",
+ "regions": [
+  {
+   "qid": "Q5875980",
+   "name": "cuisine of  Buenos Aires",
+   "country": "Argentina",
+   "place": "Q1486",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8963570",
+   "name": "cuisine of Salta Province",
+   "country": "Argentina",
+   "place": "Q44803",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q60914751",
+   "name": "cuisine of the Falkland Islands",
+   "country": "Argentina",
+   "place": "Q9648",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q17002293",
+   "name": "Christmas Island cuisine",
+   "country": "Australia",
+   "place": "Q31063",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q135189347",
+   "name": "Cocos (Keeling) Islands cuisine",
+   "country": "Australia",
+   "place": "Q36004",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q12041050",
+   "name": "Norfolk Island cuisine",
+   "country": "Australia",
+   "place": "Q31057",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q127416216",
+   "name": "Queensland cuisine",
+   "country": "Australia",
+   "place": "Q36074",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q341707",
+     "name": "Lamington"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q96375723",
+   "name": "cuisine of Brisbane",
+   "country": "Australia",
+   "place": "Q36074",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q874327",
+   "name": "Viennese cuisine",
+   "country": "Austria",
+   "place": "Q1741",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q15793084",
+   "name": "cuisine of Burgenland",
+   "country": "Austria",
+   "place": "Q43210",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2533488",
+   "name": "cuisine of Vorarlberg",
+   "country": "Austria",
+   "place": "Q38981",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1572982",
+   "name": "Bengali cuisine",
+   "country": "Bangladesh",
+   "place": "Q192087",
+   "dishes_in_wikidata": 6,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q110961978",
+   "name": "Chittagonian cuisine",
+   "country": "Bangladesh",
+   "place": "Q1074991",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q111018846",
+   "name": "cuisine of Dhaka",
+   "country": "Bangladesh",
+   "place": "Q330158",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q133874022",
+   "name": "cuisine of North Bengal",
+   "country": "Bangladesh",
+   "place": "Q13395623",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6549078",
+   "name": "Limburgian cuisine",
+   "country": "Belgium",
+   "place": "Q840713",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3099221",
+   "name": "cuisine of Brussels and Wallonia",
+   "country": "Belgium",
+   "place": "Q231",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56036626",
+   "name": "cuisine of Liège",
+   "country": "Belgium",
+   "place": "Q1127",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56043029",
+   "name": "cuisine of Namur",
+   "country": "Belgium",
+   "place": "Q1125",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56299555",
+   "name": "cuisine of Wallonia",
+   "country": "Belgium",
+   "place": "Q231",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q139576682",
+   "name": "Caipira cuisine",
+   "country": "Brazil",
+   "place": "Q48856647",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q135867070",
+   "name": "Carioca cuisine",
+   "country": "Brazil",
+   "place": "Q8678",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q48869177",
+   "name": "Paulista cuisine",
+   "country": "Brazil",
+   "place": "Q175",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q138577702",
+   "name": "cuisine of Acre",
+   "country": "Brazil",
+   "place": "Q40780",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q138577703",
+   "name": "cuisine of Alagoas",
+   "country": "Brazil",
+   "place": "Q40885",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q138577704",
+   "name": "cuisine of Amapá",
+   "country": "Brazil",
+   "place": "Q40130",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262193",
+   "name": "cuisine of Amazonas",
+   "country": "Brazil",
+   "place": "Q40040",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8963562",
+   "name": "cuisine of Bahia",
+   "country": "Brazil",
+   "place": "Q40430",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q124255878",
+   "name": "cuisine of Ceará",
+   "country": "Brazil",
+   "place": "Q40123",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q138577706",
+   "name": "cuisine of Distrito Federal",
+   "country": "Brazil",
+   "place": "Q119158",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q138577707",
+   "name": "cuisine of Espírito Santo",
+   "country": "Brazil",
+   "place": "Q43233",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q60999970",
+   "name": "cuisine of Goiás",
+   "country": "Brazil",
+   "place": "Q41587",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262192",
+   "name": "cuisine of Maranhão",
+   "country": "Brazil",
+   "place": "Q42362",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262187",
+   "name": "cuisine of Mato Grosso",
+   "country": "Brazil",
+   "place": "Q42824",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10288471",
+   "name": "cuisine of Mato Grosso do Sul",
+   "country": "Brazil",
+   "place": "Q43319",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262188",
+   "name": "cuisine of Minas Gerais",
+   "country": "Brazil",
+   "place": "Q39109",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262195",
+   "name": "cuisine of Paraná",
+   "country": "Brazil",
+   "place": "Q15499",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262181",
+   "name": "cuisine of Paraíba",
+   "country": "Brazil",
+   "place": "Q38088",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262197",
+   "name": "cuisine of Pará",
+   "country": "Brazil",
+   "place": "Q39517",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262189",
+   "name": "cuisine of Pernambuco",
+   "country": "Brazil",
+   "place": "Q40942",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q138577708",
+   "name": "cuisine of Piauí",
+   "country": "Brazil",
+   "place": "Q42722",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262196",
+   "name": "cuisine of Rio Grande do Norte",
+   "country": "Brazil",
+   "place": "Q43255",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262199",
+   "name": "cuisine of Rio Grande do Sul",
+   "country": "Brazil",
+   "place": "Q40030",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q61001338",
+   "name": "cuisine of Rio de Janeiro",
+   "country": "Brazil",
+   "place": "Q41428",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q138577709",
+   "name": "cuisine of Rondônia",
+   "country": "Brazil",
+   "place": "Q43235",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q138577710",
+   "name": "cuisine of Roraima",
+   "country": "Brazil",
+   "place": "Q42508",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262190",
+   "name": "cuisine of Santa Catarina",
+   "country": "Brazil",
+   "place": "Q41115",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262191",
+   "name": "cuisine of Sergipe",
+   "country": "Brazil",
+   "place": "Q43783",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10262198",
+   "name": "cuisine of Seridó",
+   "country": "Brazil",
+   "place": "Q2008358",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q138577711",
+   "name": "cuisine of Tocantins",
+   "country": "Brazil",
+   "place": "Q43695",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006862",
+   "name": "Acadian cuisine",
+   "country": "Canada",
+   "place": "Q731613",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q16639817",
+     "name": "Grands-pères"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q7122597",
+   "name": "Pacific Northwest cuisine",
+   "country": "Canada",
+   "place": "Q12603",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3884647",
+   "name": "Rocky Mountain cuisine",
+   "country": "Canada",
+   "place": "Q5463",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006978",
+   "name": "cuisine of Quebec",
+   "country": "Canada",
+   "place": "Q176",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [
+    {
+     "qid": "Q16639817",
+     "name": "Grands-pères"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q5192794",
+   "name": "cuisine of Toronto",
+   "country": "Canada",
+   "place": "Q172",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192805",
+   "name": "cuisine of the Maritimes",
+   "country": "Canada",
+   "place": "Q731613",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q7141871",
+   "name": "Pascuense cuisine",
+   "country": "Chile",
+   "place": "Q14452",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192768",
+   "name": "cuisine of Chiloé",
+   "country": "Chile",
+   "place": "Q177608",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1133178",
+   "name": "Anhui cuisine",
+   "country": "China",
+   "place": "Q40956",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1206613",
+   "name": "Beijing cuisine",
+   "country": "China",
+   "place": "Q956",
+   "dishes_in_wikidata": 4,
+   "our_dishes": [
+    {
+     "qid": "Q404973",
+     "name": "Peking duck"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1154790",
+   "name": "Cantonese cuisine",
+   "country": "China",
+   "place": "Q8646",
+   "dishes_in_wikidata": 27,
+   "our_dishes": [
+    {
+     "qid": "Q1204605",
+     "name": "Char siu"
+    },
+    {
+     "qid": "Q1367718",
+     "name": "Sweet and sour pork"
+    },
+    {
+     "qid": "Q3275558",
+     "name": "Rice noodle roll"
+    },
+    {
+     "qid": "Q46707672",
+     "name": "Hong dou tang"
+    },
+    {
+     "qid": "Q6533875",
+     "name": "San Choy Bow"
+    },
+    {
+     "qid": "Q842376",
+     "name": "Har gow"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1156995",
+   "name": "Fujian cuisine",
+   "country": "China",
+   "place": "Q41705",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5511014",
+   "name": "Fuzhou cuisine",
+   "country": "China",
+   "place": "Q68481",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10565043",
+   "name": "Gansu cuisine",
+   "country": "China",
+   "place": "Q42392",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006923",
+   "name": "Guangxi cuisine",
+   "country": "China",
+   "place": "Q15176",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5366879",
+   "name": "Guizhou cuisine",
+   "country": "China",
+   "place": "Q47097",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5639389",
+   "name": "Hainan cuisine",
+   "country": "China",
+   "place": "Q42200",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q3239751",
+     "name": "Hainanese chicken rice"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q17028470",
+   "name": "Haipai cuisine",
+   "country": "China",
+   "place": "Q8686",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11102651",
+   "name": "Hangzhou cuisine",
+   "country": "China",
+   "place": "Q4970",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5365874",
+   "name": "Henan cuisine",
+   "country": "China",
+   "place": "Q43684",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1036629",
+   "name": "Hong Kong cuisine",
+   "country": "China",
+   "place": "Q8646",
+   "dishes_in_wikidata": 8,
+   "our_dishes": [
+    {
+     "qid": "Q3275558",
+     "name": "Rice noodle roll"
+    },
+    {
+     "qid": "Q7220887",
+     "name": "Baked pork chop rice"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q831187",
+   "name": "Huaiyang cuisine",
+   "country": "China",
+   "place": "Q1045166",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q10936666",
+     "name": "Dazhu gansi"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1044996",
+   "name": "Hubei cuisine",
+   "country": "China",
+   "place": "Q46862",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1156889",
+   "name": "Hunan cuisine",
+   "country": "China",
+   "place": "Q45761",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [
+    {
+     "qid": "Q108684938",
+     "name": "Changsha stinky tofu"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1045166",
+   "name": "Jiangsu cuisine",
+   "country": "China",
+   "place": "Q16963",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1036455",
+   "name": "Jiangxi cuisine",
+   "country": "China",
+   "place": "Q57052",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q113468633",
+   "name": "Jilin cuisine",
+   "country": "China",
+   "place": "Q45208",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q14942571",
+   "name": "Liaoning cuisine",
+   "country": "China",
+   "place": "Q43934",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1045260",
+   "name": "Macanese cuisine",
+   "country": "China",
+   "place": "Q14773",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q77983315",
+   "name": "Macau's cuisine",
+   "country": "China",
+   "place": "Q14773",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q24837062",
+   "name": "Manchu cuisine",
+   "country": "China",
+   "place": "Q81126",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q9385085",
+   "name": "Nanjing cuisine",
+   "country": "China",
+   "place": "Q16963",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006930",
+   "name": "Northeastern Chinese cuisine",
+   "country": "China",
+   "place": "Q1057925",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [
+    {
+     "qid": "Q16860991",
+     "name": "Disanxian"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q104870259",
+   "name": "Putian cuisine",
+   "country": "China",
+   "place": "Q68579",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q30950623",
+   "name": "Qinghai cuisine",
+   "country": "China",
+   "place": "Q45833",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56301933",
+   "name": "Rong cuisine",
+   "country": "China",
+   "place": "Q1012465",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1038209",
+   "name": "Shandong cuisine",
+   "country": "China",
+   "place": "Q43407",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q7489130",
+   "name": "Shanxi cuisine",
+   "country": "China",
+   "place": "Q46913",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11253032",
+   "name": "Shunde cuisine",
+   "country": "China",
+   "place": "Q945428",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q691365",
+   "name": "Sichuan cuisine",
+   "country": "China",
+   "place": "Q19770",
+   "dishes_in_wikidata": 11,
+   "our_dishes": [
+    {
+     "qid": "Q11172960",
+     "name": "Yuxiang shredded pork"
+    },
+    {
+     "qid": "Q11644451",
+     "name": "Fish with pickled mustard greens"
+    },
+    {
+     "qid": "Q3269362",
+     "name": "Laziji"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1183553",
+   "name": "Teochew cuisine",
+   "country": "China",
+   "place": "Q15175",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56301925",
+   "name": "Tsang cuisine",
+   "country": "China",
+   "place": "Q577713",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5420911",
+   "name": "Xinjiang cuisine",
+   "country": "China",
+   "place": "Q34800",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8045306",
+   "name": "Xuzhou cuisine",
+   "country": "China",
+   "place": "Q57719",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q859283",
+   "name": "Yunnan cuisine",
+   "country": "China",
+   "place": "Q43194",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q5188689",
+     "name": "Crossing-the-bridge noodles"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1156999",
+   "name": "Zhejiang cuisine",
+   "country": "China",
+   "place": "Q16967",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192797",
+   "name": "cuisine of Tianjin",
+   "country": "China",
+   "place": "Q11736",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56301932",
+   "name": "cuisine of Ü-Tsang",
+   "country": "China",
+   "place": "Q17269",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5875964",
+   "name": "cuisine of the Paisa Region",
+   "country": "Colombia",
+   "place": "Q4968015",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006899",
+   "name": "Congolese cuisine",
+   "country": "Congo",
+   "place": "Q2597556",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q10547599",
+   "name": "Congolese cuisine",
+   "country": "Congo",
+   "place": "Q3006899",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q30912063",
+   "name": "cuisine of Limón Province",
+   "country": "Costa Rica",
+   "place": "Q642644",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q641100",
+   "name": "Faroese cuisine",
+   "country": "Denmark",
+   "place": "Q4628",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q4992427",
+   "name": "Greenlandic cuisine",
+   "country": "Denmark",
+   "place": "Q223",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16570822",
+   "name": "cuisine of Guayaquil",
+   "country": "Ecuador",
+   "place": "Q43509",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q126441927",
+   "name": "cuisine of Manabí Province",
+   "country": "Ecuador",
+   "place": "Q504666",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q17632828",
+   "name": "cuisine of Quito",
+   "country": "Ecuador",
+   "place": "Q2900",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q113827054",
+   "name": "Nubian cuisine",
+   "country": "Egypt",
+   "place": "Q1346230",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56402501",
+   "name": "cuisine of Turku",
+   "country": "Finland",
+   "place": "Q38511",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q90404580",
+   "name": "cuisine of Åland",
+   "country": "Finland",
+   "place": "Q5689",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006870",
+   "name": "Alsatian cuisine",
+   "country": "France",
+   "place": "Q18677983",
+   "dishes_in_wikidata": 5,
+   "our_dishes": [
+    {
+     "qid": "Q22976",
+     "name": "Dampfnudel"
+    },
+    {
+     "qid": "Q799722",
+     "name": "Baeckeoffe"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q790981",
+   "name": "Avignon cuisine",
+   "country": "France",
+   "place": "Q3006896",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006892",
+   "name": "Breton cuisine",
+   "country": "France",
+   "place": "Q12130",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19955985",
+   "name": "Charente cuisine",
+   "country": "France",
+   "place": "Q3266",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q22683825",
+   "name": "Dijon cuisine",
+   "country": "France",
+   "place": "Q3006886",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q131680947",
+   "name": "French-Antillian cuisine",
+   "country": "France",
+   "place": "Q21022",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006942",
+   "name": "Guianan cuisine",
+   "country": "France",
+   "place": "Q3769",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006908",
+   "name": "Guyenne cuisine",
+   "country": "France",
+   "place": "Q849324",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006954",
+   "name": "Languedoc cuisine",
+   "country": "France",
+   "place": "Q3207",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q14495105",
+   "name": "Lyonnaise cuisine",
+   "country": "France",
+   "place": "Q18338206",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006911",
+   "name": "New Caledonian cuisine",
+   "country": "France",
+   "place": "Q33788",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006934",
+   "name": "Nord-Pas-de-Calais cuisine",
+   "country": "France",
+   "place": "Q16987",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q21129738",
+   "name": "Parisian cuisine",
+   "country": "France",
+   "place": "Q90",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006974",
+   "name": "Périgord cuisine",
+   "country": "France",
+   "place": "Q850620",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006981",
+   "name": "Réunionese cuisine",
+   "country": "France",
+   "place": "Q17070",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q7401021",
+   "name": "Saint Barthélemy cuisine",
+   "country": "France",
+   "place": "Q25362",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006988",
+   "name": "Savoy cuisine",
+   "country": "France",
+   "place": "Q12745",
+   "dishes_in_wikidata": 4,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2281847",
+   "name": "Tahitian cuisine",
+   "country": "France",
+   "place": "Q30971",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3099214",
+   "name": "cuisine of Ain",
+   "country": "France",
+   "place": "Q3083",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006873",
+   "name": "cuisine of Anjou",
+   "country": "France",
+   "place": "Q16994",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q52186554",
+   "name": "cuisine of Aquitaine",
+   "country": "France",
+   "place": "Q18678082",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006874",
+   "name": "cuisine of Ardèche",
+   "country": "France",
+   "place": "Q3148",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006875",
+   "name": "cuisine of Ariège",
+   "country": "France",
+   "place": "Q3184",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006877",
+   "name": "cuisine of Arles and Camargue",
+   "country": "France",
+   "place": "Q3240",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006884",
+   "name": "cuisine of Auvergne",
+   "country": "France",
+   "place": "Q18338206",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q27037221",
+   "name": "cuisine of Auvergne-Rhône-Alpes",
+   "country": "France",
+   "place": "Q18338206",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q18231237",
+   "name": "cuisine of Berry",
+   "country": "France",
+   "place": "Q827169",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16628200",
+   "name": "cuisine of Bordeaux",
+   "country": "France",
+   "place": "Q1479",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q124941925",
+   "name": "cuisine of Bourgogne-Franche-Comté",
+   "country": "France",
+   "place": "Q18578267",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q42758680",
+   "name": "cuisine of Bresse",
+   "country": "France",
+   "place": "Q18338206",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006886",
+   "name": "cuisine of Burgundy",
+   "country": "France",
+   "place": "Q18578267",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006893",
+   "name": "cuisine of Champagne",
+   "country": "France",
+   "place": "Q18677983",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006896",
+   "name": "cuisine of Comtat Venaissin and Vaucluse",
+   "country": "France",
+   "place": "Q1122980",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19714760",
+   "name": "cuisine of Conflent",
+   "country": "France",
+   "place": "Q15477",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006905",
+   "name": "cuisine of Corsica",
+   "country": "France",
+   "place": "Q14112",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006901",
+   "name": "cuisine of Cévennes and Gard",
+   "country": "France",
+   "place": "Q626655",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006939",
+   "name": "cuisine of Franche-Comté",
+   "country": "France",
+   "place": "Q16394",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006946",
+   "name": "cuisine of Gasconny",
+   "country": "France",
+   "place": "Q191085",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q21008279",
+   "name": "cuisine of Gers",
+   "country": "France",
+   "place": "Q12517",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16821326",
+   "name": "cuisine of Grand Est",
+   "country": "France",
+   "place": "Q18677983",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2374873",
+   "name": "cuisine of Haute-Marne",
+   "country": "France",
+   "place": "Q12607",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q131511022",
+   "name": "cuisine of Landes",
+   "country": "France",
+   "place": "Q12563",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q126710084",
+   "name": "cuisine of Languedoc-Roussillon",
+   "country": "France",
+   "place": "Q18678265",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006958",
+   "name": "cuisine of Limousin",
+   "country": "France",
+   "place": "Q1190",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3099213",
+   "name": "cuisine of Loiret",
+   "country": "France",
+   "place": "Q12574",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006959",
+   "name": "cuisine of Lorraine",
+   "country": "France",
+   "place": "Q1137",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q109019619",
+   "name": "cuisine of Mayotte",
+   "country": "France",
+   "place": "Q17063",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006916",
+   "name": "cuisine of Mediterranean Alpes",
+   "country": "France",
+   "place": "Q3125",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006914",
+   "name": "cuisine of Mediterranean Provence",
+   "country": "France",
+   "place": "Q101081",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q126709860",
+   "name": "cuisine of Midi-Pyrénées",
+   "country": "France",
+   "place": "Q18678265",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006964",
+   "name": "cuisine of Normandy",
+   "country": "France",
+   "place": "Q18677875",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20102400",
+   "name": "cuisine of Northern Catalonia",
+   "country": "France",
+   "place": "Q15580",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q25541316",
+   "name": "cuisine of Nouvelle-Aquitaine",
+   "country": "France",
+   "place": "Q18678082",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q117431036",
+   "name": "cuisine of Occitania (administrative region)",
+   "country": "France",
+   "place": "Q18678265",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56063079",
+   "name": "cuisine of Picardie",
+   "country": "France",
+   "place": "Q18677767",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q117345769",
+   "name": "cuisine of Poitou",
+   "country": "France",
+   "place": "Q16994",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q126709941",
+   "name": "cuisine of Poitou-Charentes",
+   "country": "France",
+   "place": "Q18678082",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006989",
+   "name": "cuisine of Provence",
+   "country": "France",
+   "place": "Q101081",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q126709951",
+   "name": "cuisine of Provence-Alpes-Côte d'Azur",
+   "country": "France",
+   "place": "Q15104",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56071310",
+   "name": "cuisine of Rhône-Alpes",
+   "country": "France",
+   "place": "Q463",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006976",
+   "name": "cuisine of Rouergue",
+   "country": "France",
+   "place": "Q590016",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006984",
+   "name": "cuisine of Roussillon",
+   "country": "France",
+   "place": "Q13522657",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16545196",
+   "name": "cuisine of Tarn",
+   "country": "France",
+   "place": "Q12772",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q131677465",
+   "name": "cuisine of Wallis and Futuna",
+   "country": "France",
+   "place": "Q35555",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56063814",
+   "name": "cuisine of Île-de-France",
+   "country": "France",
+   "place": "Q13917",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q4055227",
+   "name": "Abkhazian cuisine",
+   "country": "Georgia",
+   "place": "Q1199026",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "needs a person"
+  },
+  {
+   "qid": "Q799087",
+   "name": "Baden cuisine",
+   "country": "Germany",
+   "place": "Q6877935",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q458851",
+   "name": "Bavarian cuisine",
+   "country": "Germany",
+   "place": "Q980",
+   "dishes_in_wikidata": 9,
+   "our_dishes": [
+    {
+     "qid": "Q681841",
+     "name": "Leberkäse"
+    },
+    {
+     "qid": "Q707636",
+     "name": "Weißwurst"
+    },
+    {
+     "qid": "Q812609",
+     "name": "Bayrisch Kraut"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q897903",
+   "name": "Brandenburg cuisine",
+   "country": "Germany",
+   "place": "Q1208",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q18536265",
+   "name": "East Frisian cuisine",
+   "country": "Germany",
+   "place": "Q165269",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1471192",
+   "name": "Franconian cuisine",
+   "country": "Germany",
+   "place": "Q980",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q983800",
+   "name": "Hessian cuisine",
+   "country": "Germany",
+   "place": "Q1199",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q896367",
+   "name": "Lower Saxon cuisine",
+   "country": "Germany",
+   "place": "Q1197",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q14565299",
+   "name": "Mecklenburg cuisine",
+   "country": "Germany",
+   "place": "Q1196",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1366135",
+   "name": "Ore Mountain cuisine",
+   "country": "Germany",
+   "place": "Q4198",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2147761",
+   "name": "Rhenish cuisine",
+   "country": "Germany",
+   "place": "Q1198",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2378536",
+   "name": "Saxon cuisine",
+   "country": "Germany",
+   "place": "Q1202",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [
+    {
+     "qid": "Q514526",
+     "name": "Quarkkäulchen"
+    },
+    {
+     "qid": "Q57223",
+     "name": "Stollen"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q2239273",
+   "name": "Schleswig-Holstein cuisine",
+   "country": "Germany",
+   "place": "Q1194",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q880365",
+   "name": "Swabian cuisine",
+   "country": "Germany",
+   "place": "Q11812551",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2565249",
+   "name": "Westphalian cuisine",
+   "country": "Germany",
+   "place": "Q1198",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q59652997",
+   "name": "cuisine of Baden-Württemberg",
+   "country": "Germany",
+   "place": "Q985",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q821615",
+   "name": "cuisine of Berlin",
+   "country": "Germany",
+   "place": "Q64",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q907726",
+   "name": "cuisine of Bremen",
+   "country": "Germany",
+   "place": "Q1209",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1573059",
+   "name": "cuisine of Hamburg",
+   "country": "Germany",
+   "place": "Q1055",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q707636",
+     "name": "Weißwurst"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q41501391",
+   "name": "cuisine of Mecklenburg-Vorpommern",
+   "country": "Germany",
+   "place": "Q1196",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2209226",
+   "name": "cuisine of Saarland",
+   "country": "Germany",
+   "place": "Q1201",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q882936",
+   "name": "cuisine of Saxony-Anhalt",
+   "country": "Germany",
+   "place": "Q1206",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q187477",
+   "name": "cuisine of Thuringia",
+   "country": "Germany",
+   "place": "Q1205",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q22977",
+   "name": "cuisine of the Palatinate region of Germany",
+   "country": "Germany",
+   "place": "Q326359",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3561179",
+   "name": "Cretan cuisine",
+   "country": "Greece",
+   "place": "Q1267522",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q13434162",
+     "name": "Stuffed leaves"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q67041244",
+   "name": "Epirotic cuisine",
+   "country": "Greece",
+   "place": "Q180484",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6723155",
+   "name": "Greek Macedonian cuisine",
+   "country": "Greece",
+   "place": "Q81734",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16973093",
+   "name": "cuisine of the Ionian islands",
+   "country": "Greece",
+   "place": "Q170295",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192793",
+   "name": "cuisine of Tegucigalpa",
+   "country": "Honduras",
+   "place": "Q3238",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q122238522",
+   "name": "Andhra cuisine",
+   "country": "India",
+   "place": "Q1159",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192760",
+   "name": "Arunachali cuisine",
+   "country": "India",
+   "place": "Q1162",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3595895",
+   "name": "Assamese cuisine",
+   "country": "India",
+   "place": "Q1164",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q41928",
+   "name": "Awadhi cuisine",
+   "country": "India",
+   "place": "Q248705",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q42015",
+   "name": "Bihari cuisine",
+   "country": "India",
+   "place": "Q1165",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q130244307",
+   "name": "Braj cuisine",
+   "country": "India",
+   "place": "Q4095666",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3525354",
+   "name": "Chettinad cuisine",
+   "country": "India",
+   "place": "Q681937",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q12427377",
+   "name": "Chhattisgarhi cuisine",
+   "country": "India",
+   "place": "Q1168",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2025907",
+   "name": "Goan cuisine",
+   "country": "India",
+   "place": "Q1171",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q3270102",
+     "name": "Bebinca"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q2732159",
+   "name": "Gujarati cuisine",
+   "country": "India",
+   "place": "Q1061",
+   "dishes_in_wikidata": 6,
+   "our_dishes": [
+    {
+     "qid": "Q15648182",
+     "name": "Thepla"
+    },
+    {
+     "qid": "Q171983",
+     "name": "Dhokla"
+    },
+    {
+     "qid": "Q2725826",
+     "name": "Undhiyu"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q5953998",
+   "name": "Hyderabadi cuisine",
+   "country": "India",
+   "place": "Q15340",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192776",
+   "name": "Karnataka cuisine",
+   "country": "India",
+   "place": "Q1185",
+   "dishes_in_wikidata": 4,
+   "our_dishes": [
+    {
+     "qid": "Q28154814",
+     "name": "Pundi"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q3595259",
+   "name": "Kerala cuisine",
+   "country": "India",
+   "place": "Q1186",
+   "dishes_in_wikidata": 4,
+   "our_dishes": [
+    {
+     "qid": "Q1897149",
+     "name": "South Indian parotta"
+    },
+    {
+     "qid": "Q28154814",
+     "name": "Pundi"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q116471866",
+   "name": "Kongu Nadu cuisine",
+   "country": "India",
+   "place": "Q6429267",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6443667",
+   "name": "Kumauni cuisine",
+   "country": "India",
+   "place": "Q2299057",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q7601803",
+   "name": "Maharashtrian cuisine",
+   "country": "India",
+   "place": "Q1191",
+   "dishes_in_wikidata": 5,
+   "our_dishes": [
+    {
+     "qid": "Q2985347",
+     "name": "Vada pav"
+    },
+    {
+     "qid": "Q3629971",
+     "name": "Pav bhaji"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q6745026",
+   "name": "Malvani cuisine",
+   "country": "India",
+   "place": "Q1171",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6748734",
+   "name": "Mangalorean cuisine",
+   "country": "India",
+   "place": "Q127041",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192780",
+   "name": "Manipuri cuisine",
+   "country": "India",
+   "place": "Q1193",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q137264168",
+   "name": "Mising cuisine",
+   "country": "India",
+   "place": "Q3595895",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3595662",
+   "name": "North Indian cuisine",
+   "country": "India",
+   "place": "Q1058785",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2090705",
+   "name": "Punjabi cuisine",
+   "country": "India",
+   "place": "Q169132",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3595467",
+   "name": "Rajasthani cuisine",
+   "country": "India",
+   "place": "Q1437",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3595466",
+   "name": "Sikkimese cuisine",
+   "country": "India",
+   "place": "Q1505",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3595152",
+   "name": "South Indian cuisine",
+   "country": "India",
+   "place": "Q542146",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q55634879",
+   "name": "Telangana cuisine",
+   "country": "India",
+   "place": "Q677037",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q104660422",
+   "name": "Thalassery cuisine",
+   "country": "India",
+   "place": "Q2980652",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q131417332",
+   "name": "West Bengal cuisine",
+   "country": "India",
+   "place": "Q1356",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192775",
+   "name": "cuisine of Jharkhand",
+   "country": "India",
+   "place": "Q1184",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3595460",
+   "name": "cuisine of Meghalaya",
+   "country": "India",
+   "place": "Q1195",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3954967",
+   "name": "cuisine of Odisha",
+   "country": "India",
+   "place": "Q22048",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q85754769",
+   "name": "cuisine of Pondicherry",
+   "country": "India",
+   "place": "Q66743",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192798",
+   "name": "cuisine of Uttar Pradesh",
+   "country": "India",
+   "place": "Q1498",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q85850411",
+   "name": "cuisine of Uttarakhand",
+   "country": "India",
+   "place": "Q1499",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q12480249",
+   "name": "Acehnese cuisine",
+   "country": "Indonesia",
+   "place": "Q1823",
+   "dishes_in_wikidata": 31,
+   "our_dishes": [
+    {
+     "qid": "Q10971166",
+     "name": "Timphan"
+    },
+    {
+     "qid": "Q21087825",
+     "name": "Mie caluk"
+    },
+    {
+     "qid": "Q4208154",
+     "name": "Mie aceh"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q65212180",
+   "name": "Indian Indonesian cuisine",
+   "country": "Indonesia",
+   "place": "Q787497",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q109284790",
+   "name": "Surakarta cuisine",
+   "country": "Indonesia",
+   "place": "Q4803",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q12497211",
+   "name": "cuisine of Bangka Belitung",
+   "country": "Indonesia",
+   "place": "Q1866",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6798239",
+   "name": "Caspian cuisine",
+   "country": "Iran",
+   "place": "Q5686841",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6419472",
+   "name": "Gilan cuisine",
+   "country": "Iran",
+   "place": "Q928828",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q25450179",
+   "name": "Mosuli cuisine",
+   "country": "Iraq",
+   "place": "Q83317",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q127780891",
+   "name": "cuisine of Jerusalem",
+   "country": "Israel",
+   "place": "Q192232",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "needs a person"
+  },
+  {
+   "qid": "Q616698",
+   "name": "Abruzzese cuisine",
+   "country": "Italy",
+   "place": "Q1284",
+   "dishes_in_wikidata": 17,
+   "our_dishes": [
+    {
+     "qid": "Q3898528",
+     "name": "Pecora alla callara"
+    },
+    {
+     "qid": "Q446578",
+     "name": "Arrosticini"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q3699143",
+   "name": "Apulian cuisine",
+   "country": "Italy",
+   "place": "Q1447",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16268310",
+   "name": "Bolognese cuisine",
+   "country": "Italy",
+   "place": "Q18288145",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2720357",
+   "name": "Calabrian cuisine",
+   "country": "Italy",
+   "place": "Q1458",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699126",
+   "name": "Emilian cuisine",
+   "country": "Italy",
+   "place": "Q1135779",
+   "dishes_in_wikidata": 5,
+   "our_dishes": [
+    {
+     "qid": "Q20057",
+     "name": "Tortellini"
+    },
+    {
+     "qid": "Q3772620",
+     "name": "Gnocco fritto"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q3699127",
+   "name": "Florentine cuisine",
+   "country": "Italy",
+   "place": "Q2044",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q38218809",
+   "name": "Genoese cuisine",
+   "country": "Italy",
+   "place": "Q1449",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q47176",
+   "name": "Lombard cuisine",
+   "country": "Italy",
+   "place": "Q1210",
+   "dishes_in_wikidata": 8,
+   "our_dishes": [
+    {
+     "qid": "Q28668258",
+     "name": "Pan meino"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q3699136",
+   "name": "Mantuan cuisine",
+   "country": "Italy",
+   "place": "Q16204",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q966423",
+   "name": "Neapolitan cuisine",
+   "country": "Italy",
+   "place": "Q2634",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [
+    {
+     "qid": "Q3661496",
+     "name": "Casatiello"
+    },
+    {
+     "qid": "Q780115",
+     "name": "Pastiera"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q3699140",
+   "name": "Palermitan cuisine",
+   "country": "Italy",
+   "place": "Q20795016",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006979",
+   "name": "Romagna cuisine",
+   "country": "Italy",
+   "place": "Q244482",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699146",
+   "name": "Roman cuisine",
+   "country": "Italy",
+   "place": "Q220",
+   "dishes_in_wikidata": 7,
+   "our_dishes": [
+    {
+     "qid": "Q1105503",
+     "name": "Coda alla vaccinara"
+    },
+    {
+     "qid": "Q48034588",
+     "name": "Pinsa (bread)"
+    },
+    {
+     "qid": "Q5016033",
+     "name": "Cacio e pepe"
+    },
+    {
+     "qid": "Q62019316",
+     "name": "Roman pizza"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1859351",
+   "name": "Sicilian cuisine",
+   "country": "Italy",
+   "place": "Q1460",
+   "dishes_in_wikidata": 80,
+   "our_dishes": [
+    {
+     "qid": "Q2293198",
+     "name": "Pani câ meusa"
+    },
+    {
+     "qid": "Q2738934",
+     "name": "Panella"
+    },
+    {
+     "qid": "Q3499431",
+     "name": "Stigghiola"
+    },
+    {
+     "qid": "Q3842043",
+     "name": "Maccu"
+    },
+    {
+     "qid": "Q48852218",
+     "name": "Busiate"
+    },
+    {
+     "qid": "Q973455",
+     "name": "Parmigiana"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q3699109",
+   "name": "South Tyrolean cuisine",
+   "country": "Italy",
+   "place": "Q15124",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16481859",
+   "name": "Syracusan cuisine",
+   "country": "Italy",
+   "place": "Q13670",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699155",
+   "name": "Trentin cuisine",
+   "country": "Italy",
+   "place": "Q16289",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q954603",
+   "name": "Tuscan cuisine",
+   "country": "Italy",
+   "place": "Q1273",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q1559248",
+     "name": "Ribollita"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q3699122",
+   "name": "Upper Mantua cuisine",
+   "country": "Italy",
+   "place": "Q3613297",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q56604778",
+   "name": "Venetian cuisine",
+   "country": "Italy",
+   "place": "Q641",
+   "dishes_in_wikidata": 4,
+   "our_dishes": [
+    {
+     "qid": "Q96418530",
+     "name": "Frittella (doughnut)"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1057869",
+   "name": "campanian cuisine",
+   "country": "Italy",
+   "place": "Q1438",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3007013",
+   "name": "cuisine of Aosta Valley",
+   "country": "Italy",
+   "place": "Q1222",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699111",
+   "name": "cuisine of Bari",
+   "country": "Italy",
+   "place": "Q3519",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q63524795",
+   "name": "cuisine of Basilicata",
+   "country": "Italy",
+   "place": "Q1452",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [
+    {
+     "qid": "Q111381747",
+     "name": "Tumact me tulez"
+    },
+    {
+     "qid": "Q55831465",
+     "name": "U' pastizz 'rtunnar"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q105758595",
+   "name": "cuisine of Bergamo",
+   "country": "Italy",
+   "place": "Q628",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q67184574",
+   "name": "cuisine of Catania",
+   "country": "Italy",
+   "place": "Q20991246",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699114",
+   "name": "cuisine of Cerignola",
+   "country": "Italy",
+   "place": "Q19277",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699115",
+   "name": "cuisine of Cesena",
+   "country": "Italy",
+   "place": "Q6662",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q107242120",
+   "name": "cuisine of Emilia-Romagna",
+   "country": "Italy",
+   "place": "Q1263",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q589264",
+   "name": "cuisine of Friuli",
+   "country": "Italy",
+   "place": "Q160570",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q9650950",
+   "name": "cuisine of Friuli-Venezia Giulia",
+   "country": "Italy",
+   "place": "Q1250",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q133858089",
+   "name": "cuisine of L'Aquila",
+   "country": "Italy",
+   "place": "Q3476",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q47171",
+   "name": "cuisine of Lazio",
+   "country": "Italy",
+   "place": "Q1282",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q5016033",
+     "name": "Cacio e pepe"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q47175",
+   "name": "cuisine of Liguria",
+   "country": "Italy",
+   "place": "Q1256",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [
+    {
+     "qid": "Q3637056",
+     "name": "Baxin"
+    },
+    {
+     "qid": "Q3686985",
+     "name": "Coniglio alla sanremese"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q137969798",
+   "name": "cuisine of Livorno",
+   "country": "Italy",
+   "place": "Q6761",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q12497213",
+   "name": "cuisine of Marche",
+   "country": "Italy",
+   "place": "Q1279",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16481853",
+   "name": "cuisine of Messina",
+   "country": "Italy",
+   "place": "Q20991250",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q110455389",
+   "name": "cuisine of Molise",
+   "country": "Italy",
+   "place": "Q1443",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q109377205",
+   "name": "cuisine of Padua",
+   "country": "Italy",
+   "place": "Q617",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699141",
+   "name": "cuisine of Parma",
+   "country": "Italy",
+   "place": "Q16228",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q48800628",
+   "name": "cuisine of Piedmont",
+   "country": "Italy",
+   "place": "Q1216",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699130",
+   "name": "cuisine of Province of Gorizia",
+   "country": "Italy",
+   "place": "Q16184",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q125373053",
+   "name": "cuisine of San Benedetto",
+   "country": "Italy",
+   "place": "Q16117",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3006995",
+   "name": "cuisine of Sardinia",
+   "country": "Italy",
+   "place": "Q1462",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [
+    {
+     "qid": "Q20048",
+     "name": "Fregula"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q113626856",
+   "name": "cuisine of Taormina",
+   "country": "Italy",
+   "place": "Q199952",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q70069129",
+   "name": "cuisine of Teramo",
+   "country": "Italy",
+   "place": "Q16284",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699153",
+   "name": "cuisine of Trapani",
+   "country": "Italy",
+   "place": "Q26160403",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q9651325",
+   "name": "cuisine of Trentino-South Tyrol",
+   "country": "Italy",
+   "place": "Q1237",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16546030",
+   "name": "cuisine of Treviso",
+   "country": "Italy",
+   "place": "Q5475",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699156",
+   "name": "cuisine of Trieste",
+   "country": "Italy",
+   "place": "Q546",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699151",
+   "name": "cuisine of Turin",
+   "country": "Italy",
+   "place": "Q495",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699158",
+   "name": "cuisine of Umbria",
+   "country": "Italy",
+   "place": "Q1280",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q104868758",
+   "name": "cuisine of Valtellina",
+   "country": "Italy",
+   "place": "Q16282",
+   "dishes_in_wikidata": 14,
+   "our_dishes": [
+    {
+     "qid": "Q20042",
+     "name": "Pizzoccheri"
+    },
+    {
+     "qid": "Q3640406",
+     "name": "Bisciola"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q47948",
+   "name": "cuisine of Veneto",
+   "country": "Italy",
+   "place": "Q1243",
+   "dishes_in_wikidata": 5,
+   "our_dishes": [
+    {
+     "qid": "Q1117173",
+     "name": "Sarde in saor"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q137969922",
+   "name": "cuisine of Viareggio",
+   "country": "Italy",
+   "place": "Q221377",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699160",
+   "name": "cuisine of Vicenza",
+   "country": "Italy",
+   "place": "Q6537",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16156240",
+   "name": "cuisine of the province of Ascoli Piceno",
+   "country": "Italy",
+   "place": "Q16117",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699117",
+   "name": "cuisine of the province of Como",
+   "country": "Italy",
+   "place": "Q16161",
+   "dishes_in_wikidata": 6,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16268311",
+   "name": "cuisine of the province of Modena",
+   "country": "Italy",
+   "place": "Q16209",
+   "dishes_in_wikidata": 17,
+   "our_dishes": [
+    {
+     "qid": "Q20057",
+     "name": "Tortellini"
+    },
+    {
+     "qid": "Q3532515",
+     "name": "Torta Barozzi"
+    },
+    {
+     "qid": "Q3642641",
+     "name": "Borlengo"
+    },
+    {
+     "qid": "Q3697035",
+     "name": "Crescentina modenese"
+    },
+    {
+     "qid": "Q3772620",
+     "name": "Gnocco fritto"
+    },
+    {
+     "qid": "Q8075336",
+     "name": "Zuppa alla modenese"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q3699144",
+   "name": "cuisine of the province of Ragusa",
+   "country": "Italy",
+   "place": "Q16251",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q18695607",
+   "name": "Amami cuisine",
+   "country": "Japan",
+   "place": "Q453510",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19368756",
+   "name": "East Asian cuisine",
+   "country": "Japan",
+   "place": "Q27231",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11551085",
+   "name": "Edo cuisine",
+   "country": "Japan",
+   "place": "Q1490",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11414804",
+   "name": "Nagoya cuisine",
+   "country": "Japan",
+   "place": "Q11751",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q41927",
+   "name": "Okinawan cuisine",
+   "country": "Japan",
+   "place": "Q766445",
+   "dishes_in_wikidata": 4,
+   "our_dishes": [
+    {
+     "qid": "Q1051852",
+     "name": "Soki"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q11622327",
+   "name": "Satsuma cuisine",
+   "country": "Japan",
+   "place": "Q15701",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11549265",
+   "name": "Suigun cuisine",
+   "country": "Japan",
+   "place": "Q3593532",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11374408",
+   "name": "cuisine of Kyoto",
+   "country": "Japan",
+   "place": "Q34600",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16545194",
+   "name": "cuisine of Osaka prefecture",
+   "country": "Japan",
+   "place": "Q122723",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11311368",
+   "name": "suka cuisine",
+   "country": "Japan",
+   "place": "Q234138",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6065218",
+   "name": "Ipoh cuisine",
+   "country": "Malaysia",
+   "place": "Q271619",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6741970",
+   "name": "Malaysian Indian cuisine",
+   "country": "Malaysia",
+   "place": "Q772247",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q7162249",
+   "name": "Penang cuisine",
+   "country": "Malaysia",
+   "place": "Q188096",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q46996650",
+   "name": "Sabahan cuisine",
+   "country": "Malaysia",
+   "place": "Q179029",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q46996758",
+   "name": "Sarawakian cuisine",
+   "country": "Malaysia",
+   "place": "Q170462",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q133828527",
+   "name": "cuisine of Negeri Sembilan",
+   "country": "Malaysia",
+   "place": "Q213893",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q7074520",
+   "name": "Oaxacan cuisine",
+   "country": "Mexico",
+   "place": "Q34110",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q105159096",
+   "name": "cuisine of Aguascalientes",
+   "country": "Mexico",
+   "place": "Q79952",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q17632825",
+   "name": "cuisine of Chiapa de Corzo",
+   "country": "Mexico",
+   "place": "Q2085574",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192765",
+   "name": "cuisine of Chiapas",
+   "country": "Mexico",
+   "place": "Q60123",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q18649718",
+   "name": "cuisine of Chihuahua",
+   "country": "Mexico",
+   "place": "Q655",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q91338316",
+   "name": "cuisine of Coahuila",
+   "country": "Mexico",
+   "place": "Q53079",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q136344454",
+   "name": "cuisine of Guanajuato",
+   "country": "Mexico",
+   "place": "Q46475",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q109942861",
+   "name": "cuisine of Guerrero",
+   "country": "Mexico",
+   "place": "Q60158",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q28662742",
+   "name": "cuisine of Hidalgo",
+   "country": "Mexico",
+   "place": "Q207965",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q80191501",
+   "name": "cuisine of Jalisco",
+   "country": "Mexico",
+   "place": "Q13160",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q85754766",
+   "name": "cuisine of Mexico City",
+   "country": "Mexico",
+   "place": "Q1489",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q79657263",
+   "name": "cuisine of Michoacán",
+   "country": "Mexico",
+   "place": "Q79861",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q126026064",
+   "name": "cuisine of Nuevo León",
+   "country": "Mexico",
+   "place": "Q15282",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q18417709",
+   "name": "cuisine of Puebla",
+   "country": "Mexico",
+   "place": "Q207965",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q136344455",
+   "name": "cuisine of Querétaro",
+   "country": "Mexico",
+   "place": "Q79754",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5775912",
+   "name": "cuisine of San Cristóbal de las Casas",
+   "country": "Mexico",
+   "place": "Q524894",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q80815900",
+   "name": "cuisine of Sinaloa",
+   "country": "Mexico",
+   "place": "Q80252",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q113370683",
+   "name": "cuisine of Sonora",
+   "country": "Mexico",
+   "place": "Q46422",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8963572",
+   "name": "cuisine of Tabasco",
+   "country": "Mexico",
+   "place": "Q80914",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q60852926",
+   "name": "cuisine of Tlaxcala",
+   "country": "Mexico",
+   "place": "Q82681",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8347400",
+   "name": "cuisine of Tuxtla Gutiérrez",
+   "country": "Mexico",
+   "place": "Q207429",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192800",
+   "name": "cuisine of Veracruz",
+   "country": "Mexico",
+   "place": "Q60130",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876009",
+   "name": "cuisine of Yucatán",
+   "country": "Mexico",
+   "place": "Q130978",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q106149154",
+   "name": "cuisine of the State of Mexico",
+   "country": "Mexico",
+   "place": "Q82112",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q17067438",
+   "name": "Gagauz cuisine",
+   "country": "Moldova",
+   "place": "Q164819",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1983633",
+   "name": "Curaçao cuisine",
+   "country": "Netherlands",
+   "place": "Q25279",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2053168",
+   "name": "Dutch-Antillian cuisine",
+   "country": "Netherlands",
+   "place": "Q5317255",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q113576313",
+   "name": "Frisian cuisine",
+   "country": "Netherlands",
+   "place": "Q47629",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q131680963",
+   "name": "cuisine of Aruba",
+   "country": "Netherlands",
+   "place": "Q21203",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q29639731",
+   "name": "cuisine of Svalbard",
+   "country": "Norway",
+   "place": "Q25231",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q106759706",
+   "name": "cuisine of Karachi",
+   "country": "Pakistan",
+   "place": "Q8660",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192761",
+   "name": "cuisine of Asunción",
+   "country": "Paraguay",
+   "place": "Q2933",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5875967",
+   "name": "Arequipan cuisine",
+   "country": "Peru",
+   "place": "Q601118",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q117282648",
+   "name": "cuisine of Junín",
+   "country": "Peru",
+   "place": "Q207973",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q118959003",
+   "name": "cuisine of Tarma",
+   "country": "Peru",
+   "place": "Q946269",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5448587",
+   "name": "Filipino Chinese cuisine",
+   "country": "Philippines",
+   "place": "Q1520796",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11750718",
+   "name": "Lublin cuisine",
+   "country": "Poland",
+   "place": "Q37333",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q42377884",
+   "name": "Opole Silesian cuisine",
+   "country": "Poland",
+   "place": "Q54171",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q882594",
+   "name": "Pomeranian cuisine",
+   "country": "Poland",
+   "place": "Q836689",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11750724",
+   "name": "cuisine of Greater Poland",
+   "country": "Poland",
+   "place": "Q211371",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11750715",
+   "name": "galician cuisine",
+   "country": "Poland",
+   "place": "Q180086",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q42377886",
+   "name": "podlaskie cuisine",
+   "country": "Poland",
+   "place": "Q931565",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q42377890",
+   "name": "Świętokrzyskie cuisine",
+   "country": "Poland",
+   "place": "Q54183",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q86000683",
+   "name": "Chukotka cuisine",
+   "country": "Russia",
+   "place": "Q7984",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q21486005",
+   "name": "Komi cuisine",
+   "country": "Russia",
+   "place": "Q8047844",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8047844",
+   "name": "Yamal cuisine",
+   "country": "Russia",
+   "place": "Q488266",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192769",
+   "name": "cuisine of Commander Islands",
+   "country": "Russia",
+   "place": "Q7948",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6596722",
+   "name": "Seoul cuisine",
+   "country": "South Korea",
+   "place": "Q8684",
+   "dishes_in_wikidata": 4,
+   "our_dishes": [
+    {
+     "qid": "Q717136",
+     "name": "Seolleongtang"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q4783734",
+   "name": "Aragonese cuisine",
+   "country": "Spain",
+   "place": "Q4040",
+   "dishes_in_wikidata": 5,
+   "our_dishes": [
+    {
+     "qid": "Q590686",
+     "name": "Chistorra"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q589354",
+   "name": "Asturian cuisine",
+   "country": "Spain",
+   "place": "Q3934",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q4850680",
+   "name": "Balearic cuisine",
+   "country": "Spain",
+   "place": "Q32327313",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q1344218",
+     "name": "Ensaïmada"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q385996",
+   "name": "Canarian cuisine",
+   "country": "Spain",
+   "place": "Q5813",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3816156",
+   "name": "Cantabrian cuisine",
+   "country": "Spain",
+   "place": "Q3946",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [
+    {
+     "qid": "Q1243795",
+     "name": "Tuna pot"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1735462",
+   "name": "Castilian cuisine",
+   "country": "Spain",
+   "place": "Q5739",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5049884",
+   "name": "Castilian-Leonese cuisine",
+   "country": "Spain",
+   "place": "Q5739",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q960320",
+   "name": "Castilian-Manchego cuisine",
+   "country": "Spain",
+   "place": "Q5748",
+   "dishes_in_wikidata": 6,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1735570",
+   "name": "Catalan cuisine",
+   "country": "Spain",
+   "place": "Q5705",
+   "dishes_in_wikidata": 17,
+   "our_dishes": [
+    {
+     "qid": "Q3543394",
+     "name": "Arròs negre"
+    },
+    {
+     "qid": "Q842566",
+     "name": "Crema catalana"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q541916",
+   "name": "Extremaduran cuisine",
+   "country": "Spain",
+   "place": "Q5777",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1492077",
+   "name": "Galician cuisine",
+   "country": "Spain",
+   "place": "Q3908",
+   "dishes_in_wikidata": 27,
+   "our_dishes": [
+    {
+     "qid": "Q1218450",
+     "name": "Lacón"
+    },
+    {
+     "qid": "Q34715",
+     "name": "Tarta de Santiago"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q6526272",
+   "name": "Leonese cuisine",
+   "country": "Spain",
+   "place": "Q71140",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5410417",
+   "name": "Tarragona cuisine",
+   "country": "Spain",
+   "place": "Q98392",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1223242",
+   "name": "Valencian cuisine",
+   "country": "Spain",
+   "place": "Q5720",
+   "dishes_in_wikidata": 14,
+   "our_dishes": [
+    {
+     "qid": "Q212121",
+     "name": "Paella"
+    },
+    {
+     "qid": "Q2633627",
+     "name": "Puchero"
+    },
+    {
+     "qid": "Q3543394",
+     "name": "Arròs negre"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q20102328",
+   "name": "cuisine of Alcoy",
+   "country": "Spain",
+   "place": "Q494777",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20102329",
+   "name": "cuisine of Alt Urgell",
+   "country": "Spain",
+   "place": "Q12720",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11923849",
+   "name": "cuisine of Baix Ebre and Montsià",
+   "country": "Spain",
+   "place": "Q15364",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20102334",
+   "name": "cuisine of Bergadá",
+   "country": "Spain",
+   "place": "Q15345",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876006",
+   "name": "cuisine of Biscay",
+   "country": "Spain",
+   "place": "Q93366",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11923850",
+   "name": "cuisine of Camp de Túria",
+   "country": "Spain",
+   "place": "Q122158",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11923845",
+   "name": "cuisine of Cerdanya",
+   "country": "Spain",
+   "place": "Q6661",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q24940284",
+   "name": "cuisine of Ceuta",
+   "country": "Spain",
+   "place": "Q5823",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19714750",
+   "name": "cuisine of Conca de Barberà",
+   "country": "Spain",
+   "place": "Q15368",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20102331",
+   "name": "cuisine of Costera (comarca)",
+   "country": "Spain",
+   "place": "Q1553230",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11923846",
+   "name": "cuisine of Empordà",
+   "country": "Spain",
+   "place": "Q597320",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11923847",
+   "name": "cuisine of Garrotxa",
+   "country": "Spain",
+   "place": "Q10932",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5875988",
+   "name": "cuisine of Gipuzkoa",
+   "country": "Spain",
+   "place": "Q95010",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20102330",
+   "name": "cuisine of Horta de València",
+   "country": "Spain",
+   "place": "Q3068364",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11923844",
+   "name": "cuisine of Ibiza and Formentera",
+   "country": "Spain",
+   "place": "Q52626",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q127870258",
+   "name": "cuisine of La Bisbal d'Empordà",
+   "country": "Spain",
+   "place": "Q13460",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8963566",
+   "name": "cuisine of La Rioja",
+   "country": "Spain",
+   "place": "Q5727",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1237995",
+   "name": "cuisine of Madrid",
+   "country": "Spain",
+   "place": "Q2807",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8963567",
+   "name": "cuisine of Mallorca",
+   "country": "Spain",
+   "place": "Q8828",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20921885",
+   "name": "cuisine of Maragatería",
+   "country": "Spain",
+   "place": "Q1892261",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20102332",
+   "name": "cuisine of Marina Alta",
+   "country": "Spain",
+   "place": "Q1425924",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q133263235",
+   "name": "cuisine of Melilla",
+   "country": "Spain",
+   "place": "Q5831",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3848566",
+   "name": "cuisine of Menorca",
+   "country": "Spain",
+   "place": "Q52636",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q774686",
+   "name": "cuisine of Navarre",
+   "country": "Spain",
+   "place": "Q521179",
+   "dishes_in_wikidata": 3,
+   "our_dishes": [
+    {
+     "qid": "Q590686",
+     "name": "Chistorra"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q11923853",
+   "name": "cuisine of Pallars",
+   "country": "Spain",
+   "place": "Q11031881",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19714776",
+   "name": "cuisine of Ports",
+   "country": "Spain",
+   "place": "Q2248089",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19714765",
+   "name": "cuisine of Priorat",
+   "country": "Spain",
+   "place": "Q15377",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20103208",
+   "name": "cuisine of Ribagorça",
+   "country": "Spain",
+   "place": "Q11945494",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19714755",
+   "name": "cuisine of Ribera",
+   "country": "Spain",
+   "place": "Q1552742",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20102333",
+   "name": "cuisine of Safor",
+   "country": "Spain",
+   "place": "Q1520549",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19714769",
+   "name": "cuisine of Segrià",
+   "country": "Spain",
+   "place": "Q12727",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20104648",
+   "name": "cuisine of Vall d'Albaida",
+   "country": "Spain",
+   "place": "Q2300654",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11923848",
+   "name": "cuisine of Vall d'Aran",
+   "country": "Spain",
+   "place": "Q12602",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11923852",
+   "name": "cuisine of Vallès",
+   "country": "Spain",
+   "place": "Q3320618",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20102335",
+   "name": "cuisine of historical Penedès",
+   "country": "Spain",
+   "place": "Q15354",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19360445",
+   "name": "cuisine of the Basque Autonomous Community",
+   "country": "Spain",
+   "place": "Q521179",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20104650",
+   "name": "cuisine of the Castilian comarques in the Valencian Community",
+   "country": "Spain",
+   "place": "Q960320",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q20102620",
+   "name": "cuisine of the Community of Madrid",
+   "country": "Spain",
+   "place": "Q5756",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q4308223",
+   "name": "cuisine of the Region of Murcia",
+   "country": "Spain",
+   "place": "Q5772",
+   "dishes_in_wikidata": 10,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2893820",
+   "name": "cuisine of the province A Coruña",
+   "country": "Spain",
+   "place": "Q82119",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876015",
+   "name": "cuisine of the province of Albacete",
+   "country": "Spain",
+   "place": "Q54889",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8963576",
+   "name": "cuisine of the province of Alicante",
+   "country": "Spain",
+   "place": "Q54936",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876017",
+   "name": "cuisine of the province of Almería",
+   "country": "Spain",
+   "place": "Q81802",
+   "dishes_in_wikidata": 6,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876021",
+   "name": "cuisine of the province of Badajoz",
+   "country": "Spain",
+   "place": "Q81803",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8963578",
+   "name": "cuisine of the province of Barcelona",
+   "country": "Spain",
+   "place": "Q81949",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876024",
+   "name": "cuisine of the province of Burgos",
+   "country": "Spain",
+   "place": "Q55271",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5805139",
+   "name": "cuisine of the province of Castellón",
+   "country": "Spain",
+   "place": "Q54942",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876028",
+   "name": "cuisine of the province of Ciudad Real",
+   "country": "Spain",
+   "place": "Q54932",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876030",
+   "name": "cuisine of the province of Cuenca",
+   "country": "Spain",
+   "place": "Q54888",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876035",
+   "name": "cuisine of the province of Cáceres",
+   "country": "Spain",
+   "place": "Q81977",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876037",
+   "name": "cuisine of the province of Cádiz",
+   "country": "Spain",
+   "place": "Q81978",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876040",
+   "name": "cuisine of the province of Córdoba",
+   "country": "Spain",
+   "place": "Q81972",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q8963581",
+   "name": "cuisine of the province of Girona",
+   "country": "Spain",
+   "place": "Q7194",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6438691",
+   "name": "cuisine of the province of Granada",
+   "country": "Spain",
+   "place": "Q82142",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876045",
+   "name": "cuisine of the province of Guadalajara",
+   "country": "Spain",
+   "place": "Q54925",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876048",
+   "name": "cuisine of the province of Huelva",
+   "country": "Spain",
+   "place": "Q95015",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876051",
+   "name": "cuisine of the province of Huesca",
+   "country": "Spain",
+   "place": "Q55182",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876054",
+   "name": "cuisine of the province of Jaén",
+   "country": "Spain",
+   "place": "Q95025",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876059",
+   "name": "cuisine of the province of Lugo",
+   "country": "Spain",
+   "place": "Q95027",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876062",
+   "name": "cuisine of the province of Lérida",
+   "country": "Spain",
+   "place": "Q13904",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5842002",
+   "name": "cuisine of the province of Málaga",
+   "country": "Spain",
+   "place": "Q95028",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2839941",
+   "name": "cuisine of the province of Ourense",
+   "country": "Spain",
+   "place": "Q95038",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876070",
+   "name": "cuisine of the province of Palencia",
+   "country": "Spain",
+   "place": "Q55269",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876072",
+   "name": "cuisine of the province of Pontevedra",
+   "country": "Spain",
+   "place": "Q95086",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5801806",
+   "name": "cuisine of the province of Salamanca",
+   "country": "Spain",
+   "place": "Q71080",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6438697",
+   "name": "cuisine of the province of Segovia",
+   "country": "Spain",
+   "place": "Q55283",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876077",
+   "name": "cuisine of the province of Seville",
+   "country": "Spain",
+   "place": "Q95088",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876079",
+   "name": "cuisine of the province of Soria",
+   "country": "Spain",
+   "place": "Q55276",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876081",
+   "name": "cuisine of the province of Teruel",
+   "country": "Spain",
+   "place": "Q54955",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876085",
+   "name": "cuisine of the province of Toledo",
+   "country": "Spain",
+   "place": "Q54929",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876088",
+   "name": "cuisine of the province of Valencia",
+   "country": "Spain",
+   "place": "Q54939",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876091",
+   "name": "cuisine of the province of Valladolid",
+   "country": "Spain",
+   "place": "Q71097",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876094",
+   "name": "cuisine of the province of Zamora",
+   "country": "Spain",
+   "place": "Q71113",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876097",
+   "name": "cuisine of the province of Zaragoza",
+   "country": "Spain",
+   "place": "Q55180",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5876101",
+   "name": "cuisine of the province of Ávila",
+   "country": "Spain",
+   "place": "Q55288",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q6438704",
+   "name": "cuisine of Ágreda",
+   "country": "Spain",
+   "place": "Q39856",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5643837",
+   "name": "cuisine of Álava-Araba",
+   "country": "Spain",
+   "place": "Q81801",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699150",
+   "name": "cuisine of Ticino",
+   "country": "Switzerland",
+   "place": "Q12724",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q16126994",
+   "name": "Aleppo cuisine",
+   "country": "Syria",
+   "place": "Q4120574",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q27882810",
+   "name": "Penghu cuisine",
+   "country": "Taiwan",
+   "place": "Q198525",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3699162",
+   "name": "Zanzibari cuisine",
+   "country": "Tanzania",
+   "place": "Q1774",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11287891",
+   "name": "Isan cuisine",
+   "country": "Thailand",
+   "place": "Q381897",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q25066922",
+   "name": "Phuket cuisine",
+   "country": "Thailand",
+   "place": "Q182565",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q97175826",
+   "name": "cuisine of Sfax",
+   "country": "Tunisia",
+   "place": "Q46325",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19613498",
+   "name": "cuisine of İzmir",
+   "country": "Turkey",
+   "place": "Q35997",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q141169058",
+   "name": "Şanlıurfa cuisine",
+   "country": "Turkey",
+   "place": "Q388469",
+   "dishes_in_wikidata": 13,
+   "our_dishes": [
+    {
+     "qid": "Q2444993",
+     "name": "Çiğ köfte"
+    },
+    {
+     "qid": "Q7145091",
+     "name": "Eggplant kebab"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q12098640",
+   "name": "Hutsul cuisine",
+   "country": "Ukraine",
+   "place": "Q2984921",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q132147380",
+   "name": "Podolian cuisine",
+   "country": "Ukraine",
+   "place": "Q191607",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q4331404",
+   "name": "cuisine of Odesa",
+   "country": "Ukraine",
+   "place": "Q1874",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q133226248",
+   "name": "cuisine of Zakarpattia",
+   "country": "Ukraine",
+   "place": "Q170213",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3595124",
+   "name": "Anglo-Indian cuisine",
+   "country": "United Kingdom",
+   "place": "Q1261477",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q4763992",
+   "name": "Anguillan cuisine",
+   "country": "United Kingdom",
+   "place": "Q25228",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q4892735",
+   "name": "Bermudian cuisine",
+   "country": "United Kingdom",
+   "place": "Q23635",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q108782182",
+   "name": "Channel Islands cuisine",
+   "country": "United Kingdom",
+   "place": "Q785",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1261477",
+   "name": "English cuisine",
+   "country": "United Kingdom",
+   "place": "Q21",
+   "dishes_in_wikidata": 16,
+   "our_dishes": [
+    {
+     "qid": "Q203925",
+     "name": "Fish and chips"
+    },
+    {
+     "qid": "Q3304394",
+     "name": "Pork pie"
+    },
+    {
+     "qid": "Q378341",
+     "name": "Macaroni and cheese"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q170074",
+   "name": "Gibraltarian cuisine",
+   "country": "United Kingdom",
+   "place": "Q1410",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q90404700",
+   "name": "Manx cuisine",
+   "country": "United Kingdom",
+   "place": "Q9676",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q7058590",
+   "name": "Northern Irish cuisine",
+   "country": "United Kingdom",
+   "place": "Q26",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q29572602",
+   "name": "Pitcairn Island cuisine",
+   "country": "United Kingdom",
+   "place": "Q35672",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1897293",
+   "name": "Scottish cuisine",
+   "country": "United Kingdom",
+   "place": "Q22",
+   "dishes_in_wikidata": 12,
+   "our_dishes": [
+    {
+     "qid": "Q1323044",
+     "name": "Rumbledethumps"
+    },
+    {
+     "qid": "Q209500",
+     "name": "Haggis"
+    },
+    {
+     "qid": "Q2896374",
+     "name": "Scotch broth"
+    },
+    {
+     "qid": "Q2975676",
+     "name": "Cock-a-leekie"
+    },
+    {
+     "qid": "Q3314757",
+     "name": "Mince and tatties"
+    },
+    {
+     "qid": "Q5135110",
+     "name": "Clootie dumpling"
+    },
+    {
+     "qid": "Q5450695",
+     "name": "Finnan haddie"
+    },
+    {
+     "qid": "Q7535893",
+     "name": "Skirlie"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q1066586",
+   "name": "Welsh cuisine",
+   "country": "United Kingdom",
+   "place": "Q25",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192764",
+   "name": "cuisine of Carmarthenshire",
+   "country": "United Kingdom",
+   "place": "Q217840",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q48809317",
+   "name": "cuisine of Ceredigion",
+   "country": "United Kingdom",
+   "place": "Q217829",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q15110863",
+   "name": "cuisine of Devon",
+   "country": "United Kingdom",
+   "place": "Q23156",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192770",
+   "name": "cuisine of Dorset",
+   "country": "United Kingdom",
+   "place": "Q23159",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192772",
+   "name": "cuisine of Gower",
+   "country": "United Kingdom",
+   "place": "Q10996863",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q123924951",
+   "name": "cuisine of London",
+   "country": "United Kingdom",
+   "place": "Q23306",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q85754767",
+   "name": "cuisine of Monmouthshire",
+   "country": "United Kingdom",
+   "place": "Q25",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q25047517",
+   "name": "cuisine of Montserrat",
+   "country": "United Kingdom",
+   "place": "Q13353",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q27957964",
+   "name": "cuisine of Pembrokeshire",
+   "country": "United Kingdom",
+   "place": "Q213361",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192790",
+   "name": "cuisine of Saint Helena",
+   "country": "United Kingdom",
+   "place": "Q134978852",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q128800340",
+   "name": "cuisine of Swansea",
+   "country": "United Kingdom",
+   "place": "Q10996863",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192802",
+   "name": "cuisine of the Cayman Islands",
+   "country": "United Kingdom",
+   "place": "Q5785",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192809",
+   "name": "cuisine of the Turks and Caicos Islands",
+   "country": "United Kingdom",
+   "place": "Q18221",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q123418901",
+   "name": "cuisine of the Vale of Glamorgan",
+   "country": "United Kingdom",
+   "place": "Q844784",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q110427881",
+   "name": "Alaskan cuisine",
+   "country": "United States",
+   "place": "Q797",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q109797041",
+   "name": "Arab American cuisine",
+   "country": "United States",
+   "place": "Q40578",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q109797038",
+   "name": "Asian American cuisine",
+   "country": "United States",
+   "place": "Q40578",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1026802",
+   "name": "California cuisine",
+   "country": "United States",
+   "place": "Q99",
+   "dishes_in_wikidata": 18,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q22059288",
+   "name": "Cuisine of New Orleans",
+   "country": "United States",
+   "place": "Q34404",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q489703",
+     "name": "Red beans and rice"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q8563945",
+   "name": "Floribbean cuisine",
+   "country": "United States",
+   "place": "Q812",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q17020498",
+   "name": "Hawaii regional cuisine",
+   "country": "United States",
+   "place": "Q782",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2295586",
+   "name": "Hawaiian cuisine",
+   "country": "United States",
+   "place": "Q782",
+   "dishes_in_wikidata": 9,
+   "our_dishes": [
+    {
+     "qid": "Q2074267",
+     "name": "Lomi-lomi salmon"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q109796966",
+   "name": "Hispanic and Latino American cuisine",
+   "country": "United States",
+   "place": "Q40578",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q1645076",
+   "name": "Louisiana Creole cuisine",
+   "country": "United States",
+   "place": "Q1588",
+   "dishes_in_wikidata": 9,
+   "our_dishes": [
+    {
+     "qid": "Q1297721",
+     "name": "Eggs Sardou"
+    },
+    {
+     "qid": "Q16927617",
+     "name": "Oysters Bienville"
+    },
+    {
+     "qid": "Q489703",
+     "name": "Red beans and rice"
+    },
+    {
+     "qid": "Q7116378",
+     "name": "Oysters Rockefeller"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q3884723",
+   "name": "Lowcountry cuisine",
+   "country": "United States",
+   "place": "Q3885311",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q5096288",
+     "name": "Chicken bog"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q122059184",
+   "name": "Minnesotan cuisine",
+   "country": "United States",
+   "place": "Q1527",
+   "dishes_in_wikidata": 5,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q11682049",
+   "name": "Puerto Rican cuisine",
+   "country": "United States",
+   "place": "Q1183",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q92542139",
+   "name": "Sylheti cuisine",
+   "country": "United States",
+   "place": "Q1348",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q7708243",
+   "name": "Texas cuisine",
+   "country": "United States",
+   "place": "Q1439",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q3007002",
+   "name": "Virginia cuisine",
+   "country": "United States",
+   "place": "Q1370",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192759",
+   "name": "cuisine of Allentown, Pennsylvania",
+   "country": "United States",
+   "place": "Q142811",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q29578381",
+   "name": "cuisine of American Samoa",
+   "country": "United States",
+   "place": "Q16641",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192762",
+   "name": "cuisine of Atlanta",
+   "country": "United States",
+   "place": "Q23556",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192766",
+   "name": "cuisine of California",
+   "country": "United States",
+   "place": "Q99",
+   "dishes_in_wikidata": 5,
+   "our_dishes": [
+    {
+     "qid": "Q1518955",
+     "name": "Hangtown fry"
+    },
+    {
+     "qid": "Q5057827",
+     "name": "Celery Victor"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q134726628",
+   "name": "cuisine of Florida",
+   "country": "United States",
+   "place": "Q812",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q135885041",
+   "name": "cuisine of Guam",
+   "country": "United States",
+   "place": "Q16635",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192774",
+   "name": "cuisine of Houston",
+   "country": "United States",
+   "place": "Q26676",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q114415230",
+   "name": "cuisine of Michigan",
+   "country": "United States",
+   "place": "Q1166",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q2740486",
+   "name": "cuisine of New England",
+   "country": "United States",
+   "place": "Q18389",
+   "dishes_in_wikidata": 5,
+   "our_dishes": [
+    {
+     "qid": "Q4948227",
+     "name": "Boston baked beans"
+    },
+    {
+     "qid": "Q5125440",
+     "name": "Clam cake"
+    },
+    {
+     "qid": "Q7138331",
+     "name": "Parker House roll"
+    },
+    {
+     "qid": "Q7193919",
+     "name": "Thanksgiving sandwich"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q5192783",
+   "name": "cuisine of New Jersey",
+   "country": "United States",
+   "place": "Q1408",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q903260",
+   "name": "cuisine of New York City",
+   "country": "United States",
+   "place": "Q60",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192786",
+   "name": "cuisine of North Dakota",
+   "country": "United States",
+   "place": "Q1207",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q85754768",
+   "name": "cuisine of Ohio",
+   "country": "United States",
+   "place": "Q1397",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192788",
+   "name": "cuisine of Omaha",
+   "country": "United States",
+   "place": "Q490695",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192789",
+   "name": "cuisine of Philadelphia",
+   "country": "United States",
+   "place": "Q1345",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q104841275",
+   "name": "cuisine of Vermont",
+   "country": "United States",
+   "place": "Q16551",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q85754770",
+   "name": "cuisine of Wisconsin",
+   "country": "United States",
+   "place": "Q1537",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192777",
+   "name": "cuisine of the Mariana Islands",
+   "country": "United States",
+   "place": "Q16635",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q19880298",
+   "name": "cuisine of the Mid-Atlantic United States",
+   "country": "United States",
+   "place": "Q632014",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [
+    {
+     "qid": "Q119605527",
+     "name": "New York roll"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q5192803",
+   "name": "cuisine of the Midwestern United States",
+   "country": "United States",
+   "place": "Q186545",
+   "dishes_in_wikidata": 2,
+   "our_dishes": [
+    {
+     "qid": "Q7230141",
+     "name": "Pork tenderloin sandwich"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q381416",
+   "name": "cuisine of the Southern United States",
+   "country": "United States",
+   "place": "Q49042",
+   "dishes_in_wikidata": 32,
+   "our_dishes": [
+    {
+     "qid": "Q120069075",
+     "name": "Lemon pepper wings"
+    },
+    {
+     "qid": "Q2916159",
+     "name": "Ambrosia (fruit salad)"
+    },
+    {
+     "qid": "Q3087634",
+     "name": "Mississippi mud pie"
+    },
+    {
+     "qid": "Q5096259",
+     "name": "Chicken Maryland"
+    }
+   ],
+   "status": "linked"
+  },
+  {
+   "qid": "Q5192808",
+   "name": "cuisine of the Southwestern United States",
+   "country": "United States",
+   "place": "Q858847",
+   "dishes_in_wikidata": 1,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q109797047",
+   "name": "white American cuisine",
+   "country": "United States",
+   "place": "Q40578",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q5192782",
+   "name": "cuisine of Montevideo",
+   "country": "Uruguay",
+   "place": "Q1335",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q133456014",
+   "name": "cuisine of Monagas state",
+   "country": "Venezuela",
+   "place": "Q205776",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q12175437",
+   "name": "cuisine of Mérida state",
+   "country": "Venezuela",
+   "place": "Q165582",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  },
+  {
+   "qid": "Q12243587",
+   "name": "Hadhrami cuisine",
+   "country": "Yemen",
+   "place": "Q241135",
+   "dishes_in_wikidata": 0,
+   "our_dishes": [],
+   "status": "provisional"
+  }
+ ]
+}
