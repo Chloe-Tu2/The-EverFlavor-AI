@@ -25,6 +25,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from dish_origins import countries_of
 from quality_reports import save_md, table
+from story_rules import has_story, intro_story
 
 KNOW = "data/knowledge"
 # The last commit before the atlas sprints (PR 43, v0.7.2): the default baseline
@@ -58,7 +59,7 @@ def measure(dishes: list[dict], families: dict, coverage: dict, pages: int, qual
     tiers = Counter(d.get("tier") for d in quality.get("dishes", []))
     return {
         **{f"{c} coverage (%)": v.get("coverage", 0.0) for c, v in sorted(coverage.get("continents", {}).items())},
-        "countries with a story": len({c for d in real if d.get("story_candidates") for c in countries_of(d)}),
+        "countries with a story": len({c for d in real if has_story(d) for c in countries_of(d)}),
         "rich dishes": tiers["rich"], "fair dishes": tiers["fair"], "thin dishes": tiers["thin"],
         "entries (dishes, foods and drinks)": len(dishes),
         "dishes": len(real),
@@ -66,6 +67,7 @@ def measure(dishes: list[dict], families: dict, coverage: dict, pages: int, qual
         "countries with three dishes or more": sum(n >= 3 for n in per_country.values()),
         "country pages": pages,
         "entries with a story (History or Origin sentences)": sum(bool(d.get("story_candidates")) for d in dishes),
+        "dishes with an intro story (item 34)": sum(bool(intro_story(d)) and not d.get("story_candidates") for d in real),
         "entries with a fun-fact candidate": sum(bool(d.get("fun_fact_candidates")) for d in dishes),
         "entries with a Wikidata origin": sum(bool(d.get("origin")) for d in dishes),
         "entries with a culinary region": sum(bool(d.get("region")) for d in dishes),

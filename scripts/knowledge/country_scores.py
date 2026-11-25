@@ -29,6 +29,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from dish_origins import countries_of
 from quality_reports import read, save_md, table
+from story_rules import has_story
 
 KNOW = ROOT / "data" / "knowledge"
 OUT = KNOW / "atlas" / "country_scores.json"
@@ -42,7 +43,7 @@ def share(items: list[dict], test) -> float:
 def scores(dishes: list[dict], families: set[str], walter: dict, paths: dict, has_regions: bool) -> dict:
     """The representation and enrichment scores (0-100) of one country's dishes, with their parts."""
     rep = {"depth": min(len(dishes) / 3, 1.0), "families": share(dishes, lambda d: d["qid"] in families),
-           "stories": share(dishes, lambda d: d.get("story_candidates"))}
+           "stories": share(dishes, has_story)}   # the story rule (item 34)
     if has_regions:
         rep["regions"] = share(dishes, lambda d: d.get("region"))
     enr = {"origins": share(dishes, lambda d: d.get("origin")),

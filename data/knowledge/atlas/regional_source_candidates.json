@@ -1,6 +1,6 @@
 {
  "by": "scripts/knowledge/regional_sources.py",
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "source": "Wikidata (CC0): cuisine items with a country, not the national cuisine",
  "countries": {
   "Afghanistan": [],
@@ -180,10 +180,6 @@
   "Slovakia": [],
   "Slovenia": [],
   "Somalia": [],
-  "South Korea": [
-   "Seoul cuisine",
-   "South Korean cuisine"
-  ],
   "South Sudan": [],
   "Sri Lanka": [],
   "Suriname": [],
@@ -200,10 +196,6 @@
   "Togo": [],
   "Tonga": [],
   "Trinidad and Tobago": [],
-  "Turkey": [
-   "cuisine of İzmir",
-   "Şanlıurfa cuisine"
-  ],
   "Turkmenistan": [],
   "Ukraine": [
    "Hutsul cuisine",

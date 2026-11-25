@@ -35,8 +35,8 @@ Done, waiting on a person, open for Claude, per release gate in the planner. Fro
 
 | Target | Goal | Now | Readiness |
 |---|---:|---:|---:|
-| world culinary coverage (%) | >= 60% | 69.1% | done |
-| Africa coverage (%) | >= 50% | 51.2% | done |
-| Oceania coverage (%) | >= 35% | 32.3% | open |
+| world culinary coverage (%) | >= 60% | 70.0% | done |
+| Africa coverage (%) | >= 50% | 52.8% | done |
+| Oceania coverage (%) | >= 35% | 33.8% | open |
 
 Risks: most open 0.8 and 0.9 conditions wait on people; review time, not data, sets the pace. Every other 1.0 target (pages complete, Walter reviewed, no open critical item) waits on the reviews above.

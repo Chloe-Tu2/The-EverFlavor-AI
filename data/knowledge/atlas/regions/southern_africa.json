@@ -13,7 +13,7 @@
   "Botswana",
   "South Africa"
  ],
- "coverage_score": 36.1,
+ "coverage_score": 39.8,
  "dish_count": 33,
  "food_and_drink_count": 13,
  "story_count": 16,
@@ -59,6 +59,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "by": "scripts/knowledge/region_pages.py"
 }

@@ -11,30 +11,6 @@
    "has_material": false
   },
   {
-   "country": "Antigua and Barbuda",
-   "dish": "Brown stew chicken",
-   "qid": "Q17027457",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Antigua and Barbuda",
-   "dish": "Cou-cou",
-   "qid": "Q5175921",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Bahrain",
-   "dish": "Muhammar",
-   "qid": "Q21515489",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
    "country": "Barbados",
    "dish": "Brown stew chicken",
    "qid": "Q17027457",
@@ -62,46 +38,6 @@
    "country": "Bosnia and Herzegovina",
    "dish": "Tufahije",
    "qid": "Q3435353",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Botswana",
-   "dish": "Bogobe jwa lerotse",
-   "qid": "Q25098851",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Botswana",
-   "dish": "Bogobe jwa logala",
-   "qid": "Q25041852",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Botswana",
-   "dish": "Delele",
-   "qid": "Q5253615",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Botswana",
-   "dish": "Dikgobe",
-   "qid": "Q20981512",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Botswana",
-   "dish": "Seswaa",
-   "qid": "Q859981",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false
@@ -155,81 +91,9 @@
    "has_material": false
   },
   {
-   "country": "Congo",
-   "dish": "Moambe chicken",
-   "qid": "Q3400317",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
    "country": "Curaçao",
    "dish": "Keshi yena",
    "qid": "Q17079448",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Democratic Republic of the Congo",
-   "dish": "Babute",
-   "qid": "Q4838117",
-   "intro_history": "Babute is an African dish, effectively a form of meatloaf, originating in the Babute region of the Congo containing ground beef, curry powder and apricots.",
-   "wikidata_facts": {},
-   "has_material": true
-  },
-  {
-   "country": "Democratic Republic of the Congo",
-   "dish": "Moambe chicken",
-   "qid": "Q3400317",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Dominica",
-   "dish": "Brown stew chicken",
-   "qid": "Q17027457",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Dominica",
-   "dish": "Pelau",
-   "qid": "Q17590922",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Eritrea",
-   "dish": "Kitfo",
-   "qid": "Q2671154",
-   "intro_history": "Kitfo (Amharic: ክትፎ, IPA: [kɨtfo]) is an Ethiopian traditional dish that originated among the Gurage people.",
-   "wikidata_facts": {},
-   "has_material": true
-  },
-  {
-   "country": "Eritrea",
-   "dish": "Shiro (food)",
-   "qid": "Q2488715",
-   "intro_history": "Shiro (Ge'ez: ሽሮ, romanized: šəro), also called shiro wat (Amharic: ሽሮ ወጥ, romanized: šəro wäṭ), or tsebhi shiro (Tigrinya: ጸብሒ ሽሮ, romanized: ṣäbhi šəro), is a stew served for either lunch or dinner, originating from Northern Ethiopia and Southern Eritrea.",
-   "wikidata_facts": {},
-   "has_material": true
-  },
-  {
-   "country": "Eritrea",
-   "dish": "Gored gored",
-   "qid": "Q2060624",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Eritrea",
-   "dish": "Himbasha",
-   "qid": "Q3785698",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false
@@ -275,14 +139,6 @@
    "has_material": false
   },
   {
-   "country": "Guadeloupe",
-   "dish": "Pelau",
-   "qid": "Q17590922",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
    "country": "Guam",
    "dish": "Guyuria",
    "qid": "Q5622888",
@@ -310,22 +166,6 @@
    "country": "Guam",
    "dish": "Roskette",
    "qid": "Q7369003",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Honduras",
-   "dish": "Baleada",
-   "qid": "Q4850672",
-   "intro_history": "A baleada (Spanish pronunciation: [baleˈaða]) is a traditional Honduran dish, believed to have originated on the northern coast of the country, particularly La Ceiba.",
-   "wikidata_facts": {},
-   "has_material": true
-  },
-  {
-   "country": "Honduras",
-   "dish": "Pan de coco (Honduran cuisine)",
-   "qid": "Q110469197",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false
@@ -418,14 +258,6 @@
    "country": "Mozambique",
    "dish": "Matapa",
    "qid": "Q96742694",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "New Caledonia",
-   "dish": "Bougna",
-   "qid": "Q2921567",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false
@@ -538,30 +370,6 @@
    "country": "South Sudan",
    "dish": "Rolled flour porridge",
    "qid": "Q22230854",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Tanzania",
-   "dish": "Mandazi",
-   "qid": "Q9027344",
-   "intro_history": "Mandazi (Swahili: mandazi, maandazi) is a form of fried bread that originated on the Swahili coast of East Africa.",
-   "wikidata_facts": {},
-   "has_material": true
-  },
-  {
-   "country": "Tanzania",
-   "dish": "Ming'oko",
-   "qid": "Q19958198",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Tanzania",
-   "dish": "Nyama choma",
-   "qid": "Q22328037",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false

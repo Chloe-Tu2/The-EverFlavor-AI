@@ -1,6 +1,6 @@
 {
  "by": "scripts/knowledge/walter_gaps.py",
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "questions": [
   "what is it",
   "where is it from",
@@ -922,7 +922,6 @@
    "recipes": 134,
    "missing": [
     "where is it from",
-    "why it matters",
     "its versions"
    ]
   },
@@ -2469,8 +2468,8 @@
    ]
   },
   {
-   "qid": "Q25220557",
-   "name": "Tomato sandwich",
+   "qid": "Q7504007",
+   "name": "Shrimp creole",
    "country": "United States",
    "recipes": 36,
    "missing": [
@@ -2478,12 +2477,11 @@
    ]
   },
   {
-   "qid": "Q7504007",
-   "name": "Shrimp creole",
+   "qid": "Q25220557",
+   "name": "Tomato sandwich",
    "country": "United States",
    "recipes": 36,
    "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -2506,22 +2504,21 @@
    ]
   },
   {
+   "qid": "Q20041",
+   "name": "Pappardelle",
+   "country": "Italy",
+   "recipes": 35,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q1144927",
    "name": "Thai curry",
    "country": "Thailand",
    "recipes": 35,
    "missing": [
     "why it matters"
-   ]
-  },
-  {
-   "qid": "Q20041",
-   "name": "Pappardelle",
-   "country": "Italy",
-   "recipes": 35,
-   "missing": [
-    "why it matters",
-    "its versions"
    ]
   },
   {
@@ -3468,6 +3465,15 @@
    ]
   },
   {
+   "qid": "Q4950113",
+   "name": "Bourbon chicken",
+   "country": "United States",
+   "recipes": 20,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q5120346",
    "name": "Cincinnati chili",
    "country": "United States",
@@ -3540,16 +3546,6 @@
    ]
   },
   {
-   "qid": "Q4950113",
-   "name": "Bourbon chicken",
-   "country": "United States",
-   "recipes": 20,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q5687757",
    "name": "Palak paneer",
    "country": "India",
@@ -3582,6 +3578,15 @@
    "qid": "Q4959488",
    "name": "Breakfast roll",
    "country": "Ireland",
+   "recipes": 19,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q1061604",
+   "name": "Chana masala",
+   "country": "India",
    "recipes": 19,
    "missing": [
     "its versions"
@@ -3627,16 +3632,6 @@
    "qid": "Q20007",
    "name": "Bucatini",
    "country": "Italy",
-   "recipes": 19,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q1061604",
-   "name": "Chana masala",
-   "country": "India",
    "recipes": 19,
    "missing": [
     "why it matters",
@@ -3756,6 +3751,15 @@
    ]
   },
   {
+   "qid": "Q246703",
+   "name": "Ciabatta",
+   "country": "Italy",
+   "recipes": 17,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q183599",
    "name": "Halva",
    "country": "Greece",
@@ -3807,16 +3811,6 @@
    "recipes": 17,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q246703",
-   "name": "Ciabatta",
-   "country": "Italy",
-   "recipes": 17,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -3880,6 +3874,15 @@
    "qid": "Q655973",
    "name": "Gougère",
    "country": "France",
+   "recipes": 16,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q2096475",
+   "name": "Palmier",
+   "country": "Mexico",
    "recipes": 16,
    "missing": [
     "its versions"
@@ -3958,16 +3961,6 @@
    "recipes": 16,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q2096475",
-   "name": "Palmier",
-   "country": "Mexico",
-   "recipes": 16,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -5195,6 +5188,15 @@
    ]
   },
   {
+   "qid": "Q2896374",
+   "name": "Scotch broth",
+   "country": "United Kingdom",
+   "recipes": 8,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q7457147",
    "name": "Seven-layer salad",
    "country": "United States",
@@ -5300,16 +5302,6 @@
    ]
   },
   {
-   "qid": "Q2896374",
-   "name": "Scotch broth",
-   "country": "United Kingdom",
-   "recipes": 8,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q2635144",
    "name": "Sorrel soup",
    "country": "Russia",
@@ -5383,6 +5375,15 @@
    "qid": "Q888832",
    "name": "Bobotie",
    "country": "South Africa",
+   "recipes": 7,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q923490",
+   "name": "Boule (bread)",
+   "country": "France",
    "recipes": 7,
    "missing": [
     "its versions"
@@ -5473,6 +5474,15 @@
    "qid": "Q5317729",
    "name": "Gajar ka halwa",
    "country": "India",
+   "recipes": 7,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q5195230",
+   "name": "Goat curry",
+   "country": "Jamaica",
    "recipes": 7,
    "missing": [
     "its versions"
@@ -5677,16 +5687,6 @@
    ]
   },
   {
-   "qid": "Q923490",
-   "name": "Boule (bread)",
-   "country": "France",
-   "recipes": 7,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q5096316",
    "name": "Chicken riggies",
    "country": "United States",
@@ -5767,6 +5767,16 @@
    ]
   },
   {
+   "qid": "Q205328",
+   "name": "Gambas al ajillo",
+   "country": "Spain",
+   "recipes": 7,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q7879663",
    "name": "Ginger snap",
    "country": "Sweden",
@@ -5793,16 +5803,6 @@
    "recipes": 7,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q5195230",
-   "name": "Goat curry",
-   "country": "Jamaica",
-   "recipes": 7,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -5870,17 +5870,6 @@
    "qid": "Q5309356",
    "name": "Drunken chicken",
    "country": "Greece",
-   "recipes": 7,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q205328",
-   "name": "Gambas al ajillo",
-   "country": "Spain",
    "recipes": 7,
    "missing": [
     "where is it from",
@@ -6489,6 +6478,15 @@
    ]
   },
   {
+   "qid": "Q5504736",
+   "name": "Frita",
+   "country": "Cuba",
+   "recipes": 5,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q10973598",
    "name": "Hodge-Podge (soup)",
    "country": "China",
@@ -6846,16 +6844,6 @@
    ]
   },
   {
-   "qid": "Q5504736",
-   "name": "Frita",
-   "country": "Cuba",
-   "recipes": 5,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q6127463",
    "name": "Jerk (cooking)",
    "country": "Jamaica",
@@ -7006,6 +6994,15 @@
    "qid": "Q3634389",
    "name": "Bati (bread)",
    "country": "India",
+   "recipes": 4,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q3238238",
+   "name": "Beef ball",
+   "country": "China",
    "recipes": 4,
    "missing": [
     "its versions"
@@ -7440,16 +7437,6 @@
    "country": "Italy",
    "recipes": 4,
    "missing": [
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q3238238",
-   "name": "Beef ball",
-   "country": "China",
-   "recipes": 4,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -8068,6 +8055,15 @@
    ]
   },
   {
+   "qid": "Q2721752",
+   "name": "Murukku",
+   "country": "India",
+   "recipes": 3,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q3301336",
    "name": "Negimaki",
    "country": "United States",
@@ -8539,16 +8535,6 @@
    "recipes": 3,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q2721752",
-   "name": "Murukku",
-   "country": "India",
-   "recipes": 3,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -9785,6 +9771,15 @@
    ]
   },
   {
+   "qid": "Q2354397",
+   "name": "Sweet soy sauce",
+   "country": "Indonesia",
+   "recipes": 2,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q250875",
    "name": "Tafelspitz",
    "country": "Germany",
@@ -10022,6 +10017,16 @@
    "qid": "Q1163138",
    "name": "Candied fruit",
    "country": "Greece",
+   "recipes": 2,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q136393820",
+   "name": "Caribou stew",
+   "country": "Canada",
    "recipes": 2,
    "missing": [
     "where is it from",
@@ -10499,16 +10504,6 @@
    ]
   },
   {
-   "qid": "Q2354397",
-   "name": "Sweet soy sauce",
-   "country": "Indonesia",
-   "recipes": 2,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q7687656",
    "name": "Tasso ham",
    "country": "United States",
@@ -10555,17 +10550,6 @@
    "recipes": 2,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q136393820",
-   "name": "Caribou stew",
-   "country": "Canada",
-   "recipes": 2,
-   "missing": [
-    "where is it from",
-    "why it matters",
     "its versions"
    ]
   },
@@ -10803,6 +10787,15 @@
    "qid": "Q3665589",
    "name": "Baumkuchen",
    "country": "Germany",
+   "recipes": 1,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q4877036",
+   "name": "Beaten biscuit",
+   "country": "United States",
    "recipes": 1,
    "missing": [
     "its versions"
@@ -12213,6 +12206,15 @@
    ]
   },
   {
+   "qid": "Q918148",
+   "name": "Papadam",
+   "country": "India",
+   "recipes": 1,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q6060064",
    "name": "Papadzules",
    "country": "Mexico",
@@ -12438,6 +12440,15 @@
    ]
   },
   {
+   "qid": "Q3441149",
+   "name": "Romazava",
+   "country": "Madagascar",
+   "recipes": 1,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q7370537",
    "name": "Roti john",
    "country": "Indonesia",
@@ -12522,6 +12533,15 @@
    "qid": "Q3950598",
    "name": "Sartù di riso",
    "country": "Italy",
+   "recipes": 1,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q19646375",
+   "name": "Sate lilit",
+   "country": "Indonesia",
    "recipes": 1,
    "missing": [
     "its versions"
@@ -12774,6 +12794,15 @@
    "qid": "Q1233453",
    "name": "Tavë kosi",
    "country": "Albania",
+   "recipes": 1,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q17056750",
+   "name": "Telur pindang",
+   "country": "Indonesia",
    "recipes": 1,
    "missing": [
     "its versions"
@@ -13034,16 +13063,6 @@
    "qid": "Q4850911",
    "name": "Balila (dish)",
    "country": "Lebanon",
-   "recipes": 1,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q4877036",
-   "name": "Beaten biscuit",
-   "country": "United States",
    "recipes": 1,
    "missing": [
     "why it matters",
@@ -13651,6 +13670,16 @@
    ]
   },
   {
+   "qid": "Q21515489",
+   "name": "Muhammar",
+   "country": "Bahrain",
+   "recipes": 1,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q6968581",
    "name": "Natchitoches meat pie",
    "country": "United States",
@@ -13691,6 +13720,26 @@
    ]
   },
   {
+   "qid": "Q3594122",
+   "name": "Oeufs en meurette",
+   "country": "France",
+   "recipes": 1,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q133289564",
+   "name": "Office Burger",
+   "country": "United States",
+   "recipes": 1,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q710618",
    "name": "Oyster omelette",
    "country": "China",
@@ -13724,16 +13773,6 @@
    "qid": "Q16586694",
    "name": "Pancotto",
    "country": "Italy",
-   "recipes": 1,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q918148",
-   "name": "Papadam",
-   "country": "India",
    "recipes": 1,
    "missing": [
     "why it matters",
@@ -13784,6 +13823,16 @@
    "qid": "Q742173",
    "name": "Peixinhos da horta",
    "country": "Portugal",
+   "recipes": 1,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q7171328",
+   "name": "Pesarattu",
+   "country": "India",
    "recipes": 1,
    "missing": [
     "where is it from",
@@ -13871,29 +13920,9 @@
    ]
   },
   {
-   "qid": "Q3441149",
-   "name": "Romazava",
-   "country": "Madagascar",
-   "recipes": 1,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q7387254",
    "name": "S.O.S. (appetizer)",
    "country": "Sweden",
-   "recipes": 1,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q19646375",
-   "name": "Sate lilit",
-   "country": "Indonesia",
    "recipes": 1,
    "missing": [
     "why it matters",
@@ -14021,16 +14050,6 @@
    ]
   },
   {
-   "qid": "Q17056750",
-   "name": "Telur pindang",
-   "country": "Indonesia",
-   "recipes": 1,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q30061155",
    "name": "Torta mimosa",
    "country": "Italy",
@@ -14146,53 +14165,9 @@
    ]
   },
   {
-   "qid": "Q21515489",
-   "name": "Muhammar",
-   "country": "Bahrain",
-   "recipes": 1,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q108568436",
    "name": "Nilaga",
    "country": "Philippines",
-   "recipes": 1,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q3594122",
-   "name": "Oeufs en meurette",
-   "country": "France",
-   "recipes": 1,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q133289564",
-   "name": "Office Burger",
-   "country": "United States",
-   "recipes": 1,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q7171328",
-   "name": "Pesarattu",
-   "country": "India",
    "recipes": 1,
    "missing": [
     "where is it from",
@@ -14267,6 +14242,15 @@
    ]
   },
   {
+   "qid": "Q3869300",
+   "name": "'Nzuddi",
+   "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q3596242",
    "name": "'O pere e 'o musso",
    "country": "Italy",
@@ -14306,6 +14290,15 @@
    "qid": "Q619414",
    "name": "Abgoosht",
    "country": "Armenia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q65091072",
+   "name": "Abula (soup)",
+   "country": "Nigeria",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -14951,6 +14944,15 @@
    ]
   },
   {
+   "qid": "Q22929166",
+   "name": "Bajjaria",
+   "country": "Syria",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q983160",
    "name": "Bak kut teh",
    "country": "China",
@@ -15023,6 +15025,15 @@
    ]
   },
   {
+   "qid": "Q4850672",
+   "name": "Baleada",
+   "country": "Honduras",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q572275",
    "name": "Balkenbrij",
    "country": "Netherlands",
@@ -15089,6 +15100,15 @@
    "qid": "Q10404947",
    "name": "Baodu",
    "country": "China",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q28126631",
+   "name": "Bar One",
+   "country": "South Africa",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -15185,6 +15205,15 @@
    ]
   },
   {
+   "qid": "Q3637056",
+   "name": "Baxin",
+   "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q4164571",
    "name": "Bazin (bread)",
    "country": "Libya",
@@ -15251,6 +15280,24 @@
    "qid": "Q2687127",
    "name": "Beijinho",
    "country": "Brazil",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q4882157",
+   "name": "Belekoy",
+   "country": "Philippines",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q2895059",
+   "name": "Belokranjska povitica",
+   "country": "Slovenia",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -15923,6 +15970,15 @@
    ]
   },
   {
+   "qid": "Q50622",
+   "name": "Bánh cuốn",
+   "country": "Vietnam",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q5004800",
    "name": "Bánh cáy",
    "country": "Vietnam",
@@ -16139,6 +16195,15 @@
    ]
   },
   {
+   "qid": "Q2937886",
+   "name": "Carapulcra",
+   "country": "Peru",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q3848112",
    "name": "Carcamusas",
    "country": "Spain",
@@ -16187,6 +16252,33 @@
    "qid": "Q5047987",
    "name": "Casado",
    "country": "Costa Rica",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q25047421",
+   "name": "Casarecce",
+   "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q3661496",
+   "name": "Casatiello",
+   "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q3661969",
+   "name": "Cassatella di sant'Agata",
+   "country": "Italy",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -16517,6 +16609,15 @@
    ]
   },
   {
+   "qid": "Q5104308",
+   "name": "Cholermus",
+   "country": "Switzerland",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q532942",
    "name": "Chorrillana",
    "country": "Chile",
@@ -16618,6 +16719,15 @@
   {
    "qid": "Q11162",
    "name": "Ciccioli",
+   "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q18149982",
+   "name": "Ciceri e tria",
    "country": "Italy",
    "recipes": 0,
    "missing": [
@@ -17426,6 +17536,15 @@
    ]
   },
   {
+   "qid": "Q28402897",
+   "name": "Edikang ikong",
+   "country": "Nigeria",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q5338306",
    "name": "Edinburgh rock",
    "country": "United Kingdom",
@@ -18029,6 +18148,15 @@
    ]
   },
   {
+   "qid": "Q3447542",
+   "name": "Fusi (pasta)",
+   "country": "Croatia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q5511397",
    "name": "Fánk",
    "country": "Hungary",
@@ -18158,6 +18286,15 @@
    "qid": "Q3362039",
    "name": "Genoa cake",
    "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q4264051",
+   "name": "Geplak",
+   "country": "Indonesia",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -18407,6 +18544,15 @@
    ]
   },
   {
+   "qid": "Q980840",
+   "name": "Gudeg",
+   "country": "Indonesia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q3054617",
    "name": "Guilinggao",
    "country": "China",
@@ -18623,6 +18769,15 @@
    ]
   },
   {
+   "qid": "Q60749256",
+   "name": "Hilachas",
+   "country": "Guatemala",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q3785698",
    "name": "Himbasha",
    "country": "Ethiopia",
@@ -18716,6 +18871,15 @@
    "qid": "Q12539586",
    "name": "Hrechanyky",
    "country": "Ukraine",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q5929345",
+   "name": "Huevos motuleños",
+   "country": "Mexico",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -19379,6 +19543,15 @@
    ]
   },
   {
+   "qid": "Q3391174",
+   "name": "Katemak",
+   "country": "Indonesia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q6377352",
    "name": "Kati roll",
    "country": "India",
@@ -19712,6 +19885,15 @@
    ]
   },
   {
+   "qid": "Q111914087",
+   "name": "Kissuto rombo",
+   "country": "Angola",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q6418060",
    "name": "Kitchener bun",
    "country": "Australia",
@@ -19724,6 +19906,15 @@
    "qid": "Q2671154",
    "name": "Kitfo",
    "country": "Ethiopia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q3391647",
+   "name": "Klappertaart",
+   "country": "Indonesia",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -19829,6 +20020,15 @@
    ]
   },
   {
+   "qid": "Q6427787",
+   "name": "Koloocheh",
+   "country": "Iran",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q6428248",
    "name": "Kombdi vade",
    "country": "India",
@@ -19877,6 +20077,15 @@
    "qid": "Q540171",
    "name": "Konpeitō",
    "country": "Japan",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q6429813",
+   "name": "Konro",
+   "country": "Indonesia",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -20171,6 +20380,15 @@
    ]
   },
   {
+   "qid": "Q1611906",
+   "name": "Lacabòn",
+   "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q1218450",
    "name": "Lacón",
    "country": "Spain",
@@ -20270,6 +20488,15 @@
    ]
   },
   {
+   "qid": "Q4199436",
+   "name": "Lawar (food)",
+   "country": "Indonesia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q7380415",
    "name": "Layered rye bread",
    "country": "Latvia",
@@ -20291,6 +20518,15 @@
    "qid": "Q3269362",
    "name": "Laziji",
    "country": "China",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q872625",
+   "name": "Leberknödel",
+   "country": "Germany",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -20423,6 +20659,15 @@
    ]
   },
   {
+   "qid": "Q6704560",
+   "name": "Luosi zhuan",
+   "country": "China",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q7211268",
    "name": "Luosifen",
    "country": "China",
@@ -20444,6 +20689,15 @@
    "qid": "Q10910138",
    "name": "Luzhu huoshao",
    "country": "China",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q7232139",
+   "name": "Lörtsy",
+   "country": "Finland",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -20786,6 +21040,24 @@
    "qid": "Q4198570",
    "name": "Martabak manis",
    "country": "Indonesia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q6022671",
+   "name": "Masala omelette",
+   "country": "India",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q3297247",
+   "name": "Masgouf",
+   "country": "Iraq",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -21170,6 +21442,15 @@
    ]
   },
   {
+   "qid": "Q3400317",
+   "name": "Moambe chicken",
+   "country": "Angola",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q6887866",
    "name": "Mocotó",
    "country": "Brazil",
@@ -21254,6 +21535,15 @@
    "qid": "Q6024261",
    "name": "Morisqueta",
    "country": "Mexico",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q16910822",
+   "name": "Moro de guandules",
+   "country": "Dominican Republic",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -21368,6 +21658,15 @@
    ]
   },
   {
+   "qid": "Q3868691",
+   "name": "Mustacciuoli",
+   "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q6944521",
    "name": "Mućkalica",
    "country": "Serbia",
@@ -21431,6 +21730,15 @@
    ]
   },
   {
+   "qid": "Q4189615",
+   "name": "Nagasari",
+   "country": "Indonesia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q953065",
    "name": "Nam khao",
    "country": "Thailand",
@@ -21470,6 +21778,15 @@
    "qid": "Q6962244",
    "name": "Nan gyi thoke",
    "country": "Myanmar",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q10748919",
+   "name": "Nanbanzuke",
+   "country": "Japan",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -21647,21 +21964,21 @@
    ]
   },
   {
-   "qid": "Q3236175",
-   "name": "Nasi uduk",
-   "country": "Indonesia",
+   "qid": "Q7395354",
+   "name": "Nasi tumpang",
+   "country": "Malaysia",
    "recipes": 0,
    "missing": [
     "its versions"
    ]
   },
   {
-   "qid": "Q4920553",
-   "name": "Nasi ulam",
+   "qid": "Q3236175",
+   "name": "Nasi uduk",
    "country": "Indonesia",
    "recipes": 0,
    "missing": [
-    "why it matters"
+    "its versions"
    ]
   },
   {
@@ -21917,6 +22234,15 @@
    ]
   },
   {
+   "qid": "Q7088254",
+   "name": "Ollada",
+   "country": "Spain",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q18357204",
    "name": "Omo tuo",
    "country": "Ghana",
@@ -22001,6 +22327,15 @@
    "qid": "Q3234931",
    "name": "Otak-otak",
    "country": "Indonesia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q7902573",
+   "name": "Otap (food)",
+   "country": "Philippines",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -22324,6 +22659,15 @@
   {
    "qid": "Q115801864",
    "name": "Pasta â Paolina",
+   "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q9056693",
+   "name": "Pastafrola",
    "country": "Italy",
    "recipes": 0,
    "missing": [
@@ -22874,6 +23218,15 @@
    "qid": "Q25060149",
    "name": "Pollo al disco",
    "country": "Argentina",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q7225702",
+   "name": "Pollo motuleño",
+   "country": "Mexico",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -23636,6 +23989,15 @@
    ]
   },
   {
+   "qid": "Q7386700",
+   "name": "Rössypottu",
+   "country": "Finland",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q1344219",
    "name": "Rúgbrauð",
    "country": "Iceland",
@@ -23666,6 +24028,15 @@
    "qid": "Q10659978",
    "name": "Saffranspannkaka",
    "country": "Sweden",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q7399325",
+   "name": "Sagnarelli",
+   "country": "Italy",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -24266,6 +24637,15 @@
    ]
   },
   {
+   "qid": "Q2488715",
+   "name": "Shiro (food)",
+   "country": "India",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q623247",
    "name": "Shkedei marak",
    "country": "Israel",
@@ -24287,6 +24667,15 @@
    "qid": "Q2920132",
    "name": "Shoti",
    "country": "Georgia",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q847652",
+   "name": "Shuizhu",
+   "country": "China",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -24401,6 +24790,15 @@
    ]
   },
   {
+   "qid": "Q7540240",
+   "name": "Sliced fish soup",
+   "country": "Singapore",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q7541369",
    "name": "Slopper",
    "country": "United States",
@@ -24431,6 +24829,15 @@
    "qid": "Q2097276",
    "name": "Smalahove",
    "country": "Norway",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q707788",
+   "name": "Small sausage in large sausage",
+   "country": "Taiwan",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -24779,6 +25186,15 @@
    ]
   },
   {
+   "qid": "Q3543376",
+   "name": "Suman (food)",
+   "country": "Philippines",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q718010",
    "name": "Suncake (Taiwan)",
    "country": "China",
@@ -25031,6 +25447,15 @@
    ]
   },
   {
+   "qid": "Q7684416",
+   "name": "Tapalapa (bread)",
+   "country": "Senegal",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q518108",
    "name": "Tarhonya",
    "country": "Hungary",
@@ -25214,6 +25639,15 @@
    "qid": "Q16800965",
    "name": "Thong yot",
    "country": "Thailand",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q10971166",
+   "name": "Timphan",
+   "country": "Indonesia",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -25841,6 +26275,15 @@
    ]
   },
   {
+   "qid": "Q8044057",
+   "name": "Xigua lao",
+   "country": "China",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q25327061",
    "name": "Xuanwei ham",
    "country": "China",
@@ -26102,6 +26545,24 @@
    ]
   },
   {
+   "qid": "Q8077757",
+   "name": "Çoban salatası",
+   "country": "Turkey",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q55638285",
+   "name": "Çökertme kebabı",
+   "country": "Turkey",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q3500480",
    "name": "Øllebrød",
    "country": "Denmark",
@@ -26165,29 +26626,9 @@
    ]
   },
   {
-   "qid": "Q3869300",
-   "name": "'Nzuddi",
-   "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q3603155",
    "name": "Abbamele",
    "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q65091072",
-   "name": "Abula (soup)",
-   "country": "Nigeria",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -26321,6 +26762,16 @@
    "recipes": 0,
    "missing": [
     "why it matters",
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q14635923",
+   "name": "Ampo (snack)",
+   "country": "Indonesia",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
     "its versions"
    ]
   },
@@ -26575,32 +27026,12 @@
    ]
   },
   {
-   "qid": "Q22929166",
-   "name": "Bajjaria",
-   "country": "Syria",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q136393819",
    "name": "Bakeapple pie",
    "country": "Canada",
    "recipes": 0,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q4850672",
-   "name": "Baleada",
-   "country": "Honduras",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -26665,16 +27096,6 @@
    ]
   },
   {
-   "qid": "Q28126631",
-   "name": "Bar One",
-   "country": "South Africa",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q25055558",
    "name": "Barbine",
    "country": "Italy",
@@ -26705,39 +27126,9 @@
    ]
   },
   {
-   "qid": "Q3637056",
-   "name": "Baxin",
-   "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q812609",
    "name": "Bayrisch Kraut",
    "country": "Germany",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q4882157",
-   "name": "Belekoy",
-   "country": "Philippines",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q2895059",
-   "name": "Belokranjska povitica",
-   "country": "Slovenia",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -27105,6 +27496,16 @@
    ]
   },
   {
+   "qid": "Q4986776",
+   "name": "Bujta repa",
+   "country": "Slovenia",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q4987202",
    "name": "Bulalo",
    "country": "Philippines",
@@ -27157,16 +27558,6 @@
   {
    "qid": "Q5004793",
    "name": "Bánh chuối",
-   "country": "Vietnam",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q50622",
-   "name": "Bánh cuốn",
    "country": "Vietnam",
    "recipes": 0,
    "missing": [
@@ -27241,6 +27632,16 @@
    "recipes": 0,
    "missing": [
     "why it matters",
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q38595678",
+   "name": "Cabeza guateada",
+   "country": "Paraguay",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
     "its versions"
    ]
   },
@@ -27375,16 +27776,6 @@
    ]
   },
   {
-   "qid": "Q2937886",
-   "name": "Carapulcra",
-   "country": "Peru",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q9185291",
    "name": "Casabe",
    "country": "Cuba",
@@ -27395,38 +27786,8 @@
    ]
   },
   {
-   "qid": "Q25047421",
-   "name": "Casarecce",
-   "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q3661496",
-   "name": "Casatiello",
-   "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q3661871",
    "name": "Casoncelli",
-   "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q3661969",
-   "name": "Cassatella di sant'Agata",
    "country": "Italy",
    "recipes": 0,
    "missing": [
@@ -27595,6 +27956,16 @@
    ]
   },
   {
+   "qid": "Q118288330",
+   "name": "Chicken breast steak with peach",
+   "country": "Slovakia",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q4516736",
    "name": "Chikhirtma",
    "country": "Georgia",
@@ -27645,16 +28016,6 @@
    ]
   },
   {
-   "qid": "Q5104308",
-   "name": "Cholermus",
-   "country": "Switzerland",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q6410637",
    "name": "Chongos zamoranos",
    "country": "Mexico",
@@ -27698,16 +28059,6 @@
    "qid": "Q7382955",
    "name": "Chả giò",
    "country": "Vietnam",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q18149982",
-   "name": "Ciceri e tria",
-   "country": "Italy",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -27845,6 +28196,16 @@
    ]
   },
   {
+   "qid": "Q5202956",
+   "name": "Cơm hến",
+   "country": "Vietnam",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q2723206",
    "name": "Dal bati",
    "country": "India",
@@ -27878,6 +28239,16 @@
    "qid": "Q135431951",
    "name": "Dambu nama",
    "country": "Nigeria",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q1178472",
+   "name": "Dawamesc",
+   "country": "Algeria",
    "recipes": 0,
    "missing": [
     "where is it from",
@@ -28018,16 +28389,6 @@
    "qid": "Q5311497",
    "name": "Duck soup noodles",
    "country": "Malaysia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q28402897",
-   "name": "Edikang ikong",
-   "country": "Nigeria",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -28295,16 +28656,6 @@
    ]
   },
   {
-   "qid": "Q3447542",
-   "name": "Fusi (pasta)",
-   "country": "Croatia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q5519122",
    "name": "Gallo en chicha",
    "country": "El Salvador",
@@ -28338,16 +28689,6 @@
    "qid": "Q1320701",
    "name": "Genfo",
    "country": "Ethiopia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q4264051",
-   "name": "Geplak",
-   "country": "Indonesia",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -28445,6 +28786,16 @@
    ]
   },
   {
+   "qid": "Q5579476",
+   "name": "Golden Gaytime",
+   "country": "Australia",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q1075430",
    "name": "Gomguk",
    "country": "South Korea",
@@ -28481,16 +28832,6 @@
    "recipes": 0,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q980840",
-   "name": "Gudeg",
-   "country": "Indonesia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -28645,16 +28986,6 @@
    ]
   },
   {
-   "qid": "Q60749256",
-   "name": "Hilachas",
-   "country": "Guatemala",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q2592256",
    "name": "Hochepot",
    "country": "Belgium",
@@ -28701,16 +29032,6 @@
    "recipes": 0,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q5929345",
-   "name": "Huevos motuleños",
-   "country": "Mexico",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -28975,6 +29296,16 @@
    ]
   },
   {
+   "qid": "Q105628576",
+   "name": "Kadyos, manok, kag ubad",
+   "country": "Philippines",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q11293966",
    "name": "Kaki furai",
    "country": "Japan",
@@ -29075,12 +29406,12 @@
    ]
   },
   {
-   "qid": "Q3391174",
-   "name": "Katemak",
-   "country": "Indonesia",
+   "qid": "Q1735816",
+   "name": "Katemeshi",
+   "country": "Japan",
    "recipes": 0,
    "missing": [
-    "why it matters",
+    "where is it from",
     "its versions"
    ]
   },
@@ -29275,16 +29606,6 @@
    ]
   },
   {
-   "qid": "Q111914087",
-   "name": "Kissuto rombo",
-   "country": "Angola",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q6417362",
    "name": "Kiszczonka",
    "country": "Poland",
@@ -29331,16 +29652,6 @@
    "recipes": 0,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q3391647",
-   "name": "Klappertaart",
-   "country": "Indonesia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -29435,32 +29746,12 @@
    ]
   },
   {
-   "qid": "Q6427787",
-   "name": "Koloocheh",
-   "country": "Iran",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q17110849",
    "name": "Kondowole",
    "country": "Malawi",
    "recipes": 0,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q6429813",
-   "name": "Konro",
-   "country": "Indonesia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -29625,16 +29916,6 @@
    ]
   },
   {
-   "qid": "Q1611906",
-   "name": "Lacabòn",
-   "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q6469786",
    "name": "Ladob",
    "country": "Seychelles",
@@ -29701,26 +29982,6 @@
    "recipes": 0,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q4199436",
-   "name": "Lawar (food)",
-   "country": "Indonesia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q872625",
-   "name": "Leberknödel",
-   "country": "Germany",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -29835,6 +30096,16 @@
    ]
   },
   {
+   "qid": "Q1578447",
+   "name": "Lucanica",
+   "country": "Italy",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q6698074",
    "name": "Lucky tattie",
    "country": "United Kingdom",
@@ -29875,16 +30146,6 @@
    ]
   },
   {
-   "qid": "Q6704560",
-   "name": "Luosi zhuan",
-   "country": "China",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q6710583",
    "name": "Lyutika",
    "country": "Bulgaria",
@@ -29898,16 +30159,6 @@
    "qid": "Q701519",
    "name": "Ló͘-bah-pn̄g",
    "country": "Taiwan",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q7232139",
-   "name": "Lörtsy",
-   "country": "Finland",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -30048,26 +30299,6 @@
    "qid": "Q6782239",
    "name": "Mas riha",
    "country": "Maldives",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q6022671",
-   "name": "Masala omelette",
-   "country": "India",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q3297247",
-   "name": "Masgouf",
-   "country": "Iraq",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -30355,16 +30586,6 @@
    ]
   },
   {
-   "qid": "Q3400317",
-   "name": "Moambe chicken",
-   "country": "Angola",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q16935343",
    "name": "Modjeska (confection)",
    "country": "United States",
@@ -30398,16 +30619,6 @@
    "qid": "Q18653699",
    "name": "Moon shrimp cake",
    "country": "Taiwan",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q16910822",
-   "name": "Moro de guandules",
-   "country": "Dominican Republic",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -30485,16 +30696,6 @@
    ]
   },
   {
-   "qid": "Q3868691",
-   "name": "Mustacciuoli",
-   "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q20423491",
    "name": "Mutabbaq samak",
    "country": "Iraq",
@@ -30555,16 +30756,6 @@
    ]
   },
   {
-   "qid": "Q4189615",
-   "name": "Nagasari",
-   "country": "Indonesia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q17063709",
    "name": "Nam tok mu",
    "country": "Thailand",
@@ -30577,16 +30768,6 @@
   {
    "qid": "Q2757730",
    "name": "Namasu",
-   "country": "Japan",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q10748919",
-   "name": "Nanbanzuke",
    "country": "Japan",
    "recipes": 0,
    "missing": [
@@ -30648,16 +30829,6 @@
    "qid": "Q6967056",
    "name": "Nasi tim",
    "country": "Indonesia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q7395354",
-   "name": "Nasi tumpang",
-   "country": "Malaysia",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -30905,16 +31076,6 @@
    ]
   },
   {
-   "qid": "Q7088254",
-   "name": "Ollada",
-   "country": "Spain",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q25206205",
    "name": "Omar (candy)",
    "country": "Finland",
@@ -30968,16 +31129,6 @@
    "qid": "Q7107766",
    "name": "Ostropel",
    "country": "Romania",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q7902573",
-   "name": "Otap (food)",
-   "country": "Philippines",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -31155,16 +31306,6 @@
    ]
   },
   {
-   "qid": "Q9056693",
-   "name": "Pastafrola",
-   "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q20751125",
    "name": "Pastel azteca",
    "country": "Mexico",
@@ -31291,6 +31432,16 @@
    "recipes": 0,
    "missing": [
     "why it matters",
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q3080606",
+   "name": "Pescado frito",
+   "country": "Chile",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
     "its versions"
    ]
   },
@@ -31505,12 +31656,12 @@
    ]
   },
   {
-   "qid": "Q7225702",
-   "name": "Pollo motuleño",
-   "country": "Mexico",
+   "qid": "Q1328767",
+   "name": "Polonaise sauce",
+   "country": "Poland",
    "recipes": 0,
    "missing": [
-    "why it matters",
+    "where is it from",
     "its versions"
    ]
   },
@@ -31885,16 +32036,6 @@
    ]
   },
   {
-   "qid": "Q7386700",
-   "name": "Rössypottu",
-   "country": "Finland",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q7386962",
    "name": "Rượu nếp",
    "country": "Vietnam",
@@ -31918,16 +32059,6 @@
    "qid": "Q843252",
    "name": "Saeu-jeot",
    "country": "South Korea",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q7399325",
-   "name": "Sagnarelli",
-   "country": "Italy",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -32145,6 +32276,16 @@
    ]
   },
   {
+   "qid": "Q686427",
+   "name": "Schäufele",
+   "country": "Germany",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q1934690",
    "name": "Sea cucumbers as food",
    "country": "China",
@@ -32215,6 +32356,16 @@
    ]
   },
   {
+   "qid": "Q116172687",
+   "name": "Sfințișori",
+   "country": "Moldova",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q7461448",
    "name": "Shahan ful",
    "country": "Ethiopia",
@@ -32255,16 +32406,6 @@
    ]
   },
   {
-   "qid": "Q2488715",
-   "name": "Shiro (food)",
-   "country": "India",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q700643",
    "name": "Shiruko",
    "country": "Japan",
@@ -32291,16 +32432,6 @@
    "recipes": 0,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q847652",
-   "name": "Shuizhu",
-   "country": "China",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -32415,32 +32546,12 @@
    ]
   },
   {
-   "qid": "Q7540240",
-   "name": "Sliced fish soup",
-   "country": "Singapore",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q141758895",
    "name": "Slippery Bob",
    "country": "Australia",
    "recipes": 0,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q707788",
-   "name": "Small sausage in large sausage",
-   "country": "Taiwan",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -32735,16 +32846,6 @@
    ]
   },
   {
-   "qid": "Q3543376",
-   "name": "Suman (food)",
-   "country": "Philippines",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q913411",
    "name": "Svele",
    "country": "Norway",
@@ -32838,16 +32939,6 @@
    "qid": "Q3327301",
    "name": "Tajine mtewem",
    "country": "Algeria",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q7684416",
-   "name": "Tapalapa (bread)",
-   "country": "Senegal",
    "recipes": 0,
    "missing": [
     "why it matters",
@@ -32981,16 +33072,6 @@
    "recipes": 0,
    "missing": [
     "where is it from",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q10971166",
-   "name": "Timphan",
-   "country": "Indonesia",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
     "its versions"
    ]
   },
@@ -33375,16 +33456,6 @@
    ]
   },
   {
-   "qid": "Q8044057",
-   "name": "Xigua lao",
-   "country": "China",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q4246304",
    "name": "Yakisoba-pan",
    "country": "Japan",
@@ -33505,26 +33576,6 @@
    ]
   },
   {
-   "qid": "Q8077757",
-   "name": "Çoban salatası",
-   "country": "Turkey",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q55638285",
-   "name": "Çökertme kebabı",
-   "country": "Turkey",
-   "recipes": 0,
-   "missing": [
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q8078183",
    "name": "Éisleker Ham",
    "country": "Luxembourg",
@@ -33598,17 +33649,6 @@
    "qid": "Q3393853",
    "name": "'Ota 'ika",
    "country": "Tonga",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q14635923",
-   "name": "Ampo (snack)",
-   "country": "Indonesia",
    "recipes": 0,
    "missing": [
     "where is it from",
@@ -33760,17 +33800,6 @@
    ]
   },
   {
-   "qid": "Q4986776",
-   "name": "Bujta repa",
-   "country": "Slovenia",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q20670919",
    "name": "Buğu kebabı",
    "country": "Turkey",
@@ -33796,17 +33825,6 @@
    "qid": "Q767956",
    "name": "Bò 7 món",
    "country": "Vietnam",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q38595678",
-   "name": "Cabeza guateada",
-   "country": "Paraguay",
    "recipes": 0,
    "missing": [
     "where is it from",
@@ -33903,17 +33921,6 @@
    ]
   },
   {
-   "qid": "Q118288330",
-   "name": "Chicken breast steak with peach",
-   "country": "Slovakia",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q2967557",
    "name": "Chtitha",
    "country": "Algeria",
@@ -33969,17 +33976,6 @@
    ]
   },
   {
-   "qid": "Q5202956",
-   "name": "Cơm hến",
-   "country": "Vietnam",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q5202957",
    "name": "Cơm nắm",
    "country": "Vietnam",
@@ -34005,17 +34001,6 @@
    "qid": "Q1849201",
    "name": "Daim bar",
    "country": "Sweden",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q1178472",
-   "name": "Dawamesc",
-   "country": "Algeria",
    "recipes": 0,
    "missing": [
     "where is it from",
@@ -34244,17 +34229,6 @@
    ]
   },
   {
-   "qid": "Q5579476",
-   "name": "Golden Gaytime",
-   "country": "Australia",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q139500157",
    "name": "Guruli gvezeli",
    "country": "Georgia",
@@ -34321,17 +34295,6 @@
    ]
   },
   {
-   "qid": "Q105628576",
-   "name": "Kadyos, manok, kag ubad",
-   "country": "Philippines",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q3192476",
    "name": "Kamounia",
    "country": "Egypt",
@@ -34346,17 +34309,6 @@
    "qid": "Q60775555",
    "name": "Kandu kukulhu",
    "country": "Maldives",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q1735816",
-   "name": "Katemeshi",
-   "country": "Japan",
    "recipes": 0,
    "missing": [
     "where is it from",
@@ -34412,17 +34364,6 @@
    "qid": "Q13405089",
    "name": "Lontong balap",
    "country": "Indonesia",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q1578447",
-   "name": "Lucanica",
-   "country": "Italy",
    "recipes": 0,
    "missing": [
     "where is it from",
@@ -34552,31 +34493,9 @@
    ]
   },
   {
-   "qid": "Q3080606",
-   "name": "Pescado frito",
-   "country": "Chile",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
    "qid": "Q7199983",
    "name": "Pizza al taglio",
    "country": "Italy",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q1328767",
-   "name": "Polonaise sauce",
-   "country": "Poland",
    "recipes": 0,
    "missing": [
     "where is it from",
@@ -34731,28 +34650,6 @@
    "qid": "Q39087079",
    "name": "Salted squid",
    "country": "Indonesia",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q686427",
-   "name": "Schäufele",
-   "country": "Germany",
-   "recipes": 0,
-   "missing": [
-    "where is it from",
-    "why it matters",
-    "its versions"
-   ]
-  },
-  {
-   "qid": "Q116172687",
-   "name": "Sfințișori",
-   "country": "Moldova",
    "recipes": 0,
    "missing": [
     "where is it from",

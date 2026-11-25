@@ -17,7 +17,7 @@
   "United Arab Emirates",
   "Yemen"
  ],
- "coverage_score": 46.4,
+ "coverage_score": 49.1,
  "dish_count": 10,
  "food_and_drink_count": 13,
  "story_count": 6,
@@ -66,6 +66,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "by": "scripts/knowledge/region_pages.py"
 }

@@ -56,10 +56,8 @@ def main() -> None:
          f"{regions} region pages shown in the app (a 0.9 condition)", 15),
         ("Fact review sheet (focus_review_priority.csv order)", "0.9",
          f"{pending(review / 'focus_review.csv')} rows open; 100 reviewed facts are a 0.9 condition", 120),
-        ("Item 33: regional data source and mapping rule", "debt",
-         "Q1, the largest atlas debt (regional data); 30 countries have a usable Wikidata item", 20),
-        ("Item 34: story rule (intro sentences, fact check, or a new source)", "debt",
-         "Q2 story debt: up to 11 countries by (a) and (b); the rest need a new source", 15),
+        ("Item 33 follow-up: the disputed regions and a check of the linked ones", "debt",
+         "regional data for the countries the linked Wikidata regions reach", 20),
         ("Item 22: place-tree placements of 59 countries", "1.0", "region pages and coverage by region", 20),
         ("Item 31: Taiwan, Hong Kong and Macau", "1.0", "1 country node; the counting rule's wording", 5),
     ]

@@ -37,7 +37,7 @@
   "Uganda",
   "Zambia"
  ],
- "coverage_score": 55.8,
+ "coverage_score": 57.9,
  "dish_count": 37,
  "food_and_drink_count": 20,
  "story_count": 14,
@@ -83,6 +83,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "by": "scripts/knowledge/region_pages.py"
 }

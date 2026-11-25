@@ -415,7 +415,7 @@ the project is built for handoff, not continuous running: everything a new sessi
 1. Read [curator_handoff.md](../audits/curator_handoff.md), then the campaign scoreboard, atlas health, review
    impact and release readiness (`docs/audits/`).
 2. Continue the highest campaign in the order above that is not blocked.
-3. Rerun the audit chain, then the campaign reports (`country_recovery_candidates.py`, `story_recovery.py`,
+3. Rerun the audit chain, then the campaign reports (`wikidata_regions.py`, `country_recovery_candidates.py`, `story_recovery.py`,
    `family_recovery.py`, `regional_sources.py`), ending with `review_impact.py` and `atlas_health.py`. Stop a task
    once its findings repeat: summarise and rank instead of collecting more.
 4. Merge the verified work; `curator_handoff.md` then answers what improved, what regressed, what is blocked, what

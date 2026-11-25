@@ -30,6 +30,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from dish_origins import countries_of
 from quality_reports import read, save_md, table
+from story_rules import has_story
 
 KNOW = ROOT / "data" / "knowledge"
 OUT = KNOW / "atlas" / "culinary_coverage.json"
@@ -153,7 +154,7 @@ def main() -> None:
             continue
         if any(lm["level"] == "more" and "cuisine" in lm["url"].lower() for lm in d.get("learn_more", [])):
             cuisine.add(d["country"])
-        if d.get("story_candidates"):
+        if has_story(d):   # the story rule (item 34)
             history.update(countries_of(d))   # a dish's story tells of every country it comes from
 
     rows = []
