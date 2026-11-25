@@ -1,6 +1,6 @@
 {
  "about": {
-  "built_on": "2026-11-24",
+  "built_on": "2026-11-25",
   "by": "scripts/knowledge/atlas_audit.py",
   "regions": {
    "name": "Unicode CLDR territory containment (UN M49 regions)",
@@ -27,7 +27,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q46477992",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -51,7 +51,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q45418",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -74,7 +74,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q56342268",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -97,7 +97,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q64490692",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -120,7 +120,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q54165556",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -143,7 +143,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q5447680",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -166,7 +166,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q113039087",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -189,7 +189,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q123171413",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -212,7 +212,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q16248468",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -235,7 +235,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q85735249",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -259,7 +259,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q18353987",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -282,7 +282,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q12012266",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -305,7 +305,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q107357988",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -328,7 +328,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q132661273",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -351,7 +351,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q100285178",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -374,7 +374,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q47004974",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -397,7 +397,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q17109263",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -420,7 +420,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q112967822",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
@@ -443,7 +443,7 @@
      "name": "Wikidata",
      "url": "https://www.wikidata.org/wiki/Q25220535",
      "licence": "CC0 1.0",
-     "retrieved": "2026-11-23"
+     "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",

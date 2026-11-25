@@ -1,4 +1,4 @@
-# Coverage: the Middle East and North Africa (2026-11-24)
+# Coverage: the Middle East and North Africa (2026-11-25)
 
 Back to [world coverage](coverage_world.md).
 

@@ -1,4 +1,4 @@
-# Coverage: Asia (2026-11-24)
+# Coverage: Asia (2026-11-25)
 
 Back to [world coverage](coverage_world.md).
 

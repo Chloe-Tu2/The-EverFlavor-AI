@@ -19948,5 +19948,15 @@
   "mime": "image/jpeg",
   "missing": false,
   "width": 4096
+ },
+ "Open Market.jpg": {
+  "file_page": "https://commons.wikimedia.org/wiki/File:Open_Market.jpg",
+  "width": 550,
+  "height": 395,
+  "mime": "image/jpeg",
+  "missing": false,
+  "license": "CC BY-SA 4.0",
+  "author": "Corbis, From Outlook Traveller uploaded by[Bukulu Steven]",
+  "description": "This is an image of food from"
  }
 }

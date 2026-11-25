@@ -1,6 +1,6 @@
 {
  "about": {
-  "built_on": "2026-11-24",
+  "built_on": "2026-11-25",
   "by": "scripts/knowledge/atlas_audit.py",
   "regions": {
    "name": "Unicode CLDR territory containment (UN M49 regions)",
@@ -70,13 +70,13 @@
   {
    "continent": "Oceania",
    "countries": 29,
-   "with_dishes": 7,
-   "breadth": 0.241,
-   "median_dishes": 2,
-   "depth": 0.1,
-   "score": 17.1,
+   "with_dishes": 8,
+   "breadth": 0.276,
+   "median_dishes": 1.5,
+   "depth": 0.075,
+   "score": 17.5,
    "band": "gap",
-   "dishes": 85,
+   "dishes": 86,
    "recipes": 3142
   }
  ],
@@ -525,13 +525,13 @@
   },
   {
    "countries": 8,
-   "with_dishes": 2,
-   "breadth": 0.25,
-   "median_dishes": 2.5,
-   "depth": 0.125,
-   "score": 18.8,
+   "with_dishes": 3,
+   "breadth": 0.375,
+   "median_dishes": 1,
+   "depth": 0.05,
+   "score": 21.2,
    "band": "gap",
-   "dishes": 5,
+   "dishes": 6,
    "recipes": 0,
    "subregion": "Micronesian Region",
    "continent": "Oceania",
@@ -541,7 +541,6 @@
    "countries_without_dishes": [
     "Federated States of Micronesia",
     "Kiribati",
-    "Marshall Islands",
     "Nauru",
     "Palau",
     "United States Minor Outlying Islands"
@@ -2052,11 +2051,11 @@
    "iso": "MH",
    "continent": "Oceania",
    "subregion": "Micronesian Region",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 0,
    "families": 0,
    "variants": 0,
-   "coverage": "absent"
+   "coverage": "low"
   },
   {
    "country": "Martinique",

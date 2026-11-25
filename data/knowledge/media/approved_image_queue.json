@@ -1,6 +1,6 @@
 {
  "about": "Wikidata images of our dishes that pass the photo pipeline's rules (free licence, an author to credit, a photo type, at least 400 px, not a map or drawing). Not downloaded and not shown: the pipeline fetches them when the team agrees, and a person checks each photo by eye.",
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "by": "scripts/knowledge/image_queue.py",
  "asked": 1891,
  "approved": 1740,

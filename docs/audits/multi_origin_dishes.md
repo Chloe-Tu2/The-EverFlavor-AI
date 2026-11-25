@@ -1,4 +1,4 @@
-# Multi-origin dishes (2026-11-24)
+# Multi-origin dishes (2026-11-25)
 
 Under the [multi-origin dish policy](../governance/multi_origin_dish_policy.md), 500 dishes count for more than one country: 615 added attributions by Wikidata's country of origin. 14 countries get their first dish this way: Andorra, Barbados, Belarus, Congo, Dominica, Eritrea, Grenada, Guadeloupe, Jordan, Northern Mariana Islands, Panama, Saint Lucia, Sierra Leone, Togo. From `scripts/knowledge/dish_origins.py`. A person can drop any added country in `data/knowledge/review/shared_dish_origins.csv` (verdict `drop`; first-dish rows are listed first). Disputed cultural ownership and political disputes stay a person's call (policy rule 5).
 

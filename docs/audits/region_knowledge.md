@@ -6,7 +6,7 @@ One page per food region of the place tree, in `data/knowledge/atlas/regions/`, 
 |---|---:|---:|---:|---:|---:|---:|
 | Polynesia | Oceania | 7 | 2 | 3 | 9.8 | Mutton flaps, Poi (dessert), 'Ota 'ika |
 | Melanesia | Oceania | 5 | 1 | 1 | 12.5 | Bougna |
-| Micronesia | Oceania | 7 | 1 | 4 | 14.5 | Kelaguen, Guyuria, Kalamai (dessert) |
+| Micronesia | Oceania | 7 | 2 | 5 | 18.0 | Kelaguen, Guyuria, Kalamai (dessert) |
 | Southern Africa | Africa | 5 | 2 | 33 | 39.8 | Potjiekos, Vetkoek, Bunny chow |
 | Central Africa | Africa | 9 | 5 | 16 | 43.8 | Koki (food), La bouillie (Chadian food), Ndolé |
 | Arabian Peninsula | Middle East & North Africa | 7 | 4 | 10 | 49.1 | Kubaneh, Dubai chocolate, Kleicha |

@@ -73,6 +73,10 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
   under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
   dishes answer all five; versions are the gap).
+- **Sprint 5, weak regions** (2026-11-25): nine more weak or empty countries in Wikidata's origin targets; one
+  new dish (Chukuchuk, the Marshall Islands' first: 161 UN members with a dish) and two foods; none moved. The
+  small gain confirms the shared-dish and origin routes are nearly used up for the empty countries (review
+  item 35).
 - **Story rule and Wikidata regions** (review items 34 and 33, decided by med27-coder, 2026-11-25): an intro
   sentence that states an origin, a date, a traditional association or a cultural significance counts as story
   material (`scripts/knowledge/story_rules.py`; ingredients, preparation and popularity never count); Wikidata's

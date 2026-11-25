@@ -6,7 +6,7 @@ What each open person decision unblocks, release gates first and the quickest fi
 |---:|---|---|---|---:|
 | 1 | Item 33 follow-up: the disputed regions and a check of the linked ones | debt | regional data for the countries the linked Wikidata regions reach | 20 |
 | 2 | Item 21: coverage counting rule and weights | 0.8 | coverage shown in the app (a 0.8 condition) | 15 |
-| 3 | Cuisine photo fallbacks | 0.8 | 108 of 108 rows open; a fallback photo for every dish of a country (a 0.8 condition); start with the 'likely wrong' rows | 40 |
+| 3 | Cuisine photo fallbacks | 0.8 | 109 of 109 rows open; a fallback photo for every dish of a country (a 0.8 condition); start with the 'likely wrong' rows | 40 |
 | 4 | Items 24, 28, 29, 30: sprint moves, country scores, sprint 4 entries | 0.8 | one 0.8 condition; about 25 named dishes to confirm | 45 |
 | 5 | Photo contact sheets 37 to 108 | 0.8 | about 203 dishes get a photo (a 0.8 condition) | 90 |
 | 6 | Item 27: representative dishes on region pages | 0.9 | 30 region pages shown in the app (a 0.9 condition) | 15 |

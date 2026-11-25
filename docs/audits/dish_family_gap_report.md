@@ -1,4 +1,4 @@
-# Dish family gaps (2026-11-24)
+# Dish family gaps (2026-11-25)
 
 How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by zone" counts only members with a country we can place.
 

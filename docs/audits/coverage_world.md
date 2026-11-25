@@ -1,4 +1,4 @@
-# World coverage (audit, 2026-11-24)
+# World coverage (audit, 2026-11-25)
 
 Which parts of the world EverFlavor covers, which it lacks, and where the next dishes should come from. Built by `scripts/knowledge/coverage_audit.py`; the data is in `data/knowledge/coverage/`. Nothing was added to the app.
 
@@ -12,7 +12,7 @@ Which parts of the world EverFlavor covers, which it lacks, and where the next d
 | [Asia](coverage_asia.md) | 33 | 30 | 29 | 1295 | 19,708 | 408 | 2 |
 | [Africa](coverage_africa.md) | 55 | 48 | 34 | 187 | 756 | 15 | 0 |
 | [the Americas and the Caribbean](coverage_americas.md) | 57 | 41 | 36 | 943 | 148,888 | 214 | 7 |
-| [Oceania](coverage_oceania.md) | 27 | 21 | 7 | 85 | 3,142 | 5 | 0 |
+| [Oceania](coverage_oceania.md) | 27 | 21 | 8 | 86 | 3,142 | 5 | 0 |
 | [the Middle East and North Africa](coverage_middle_east.md) | 24 | 24 | 21 | 365 | 3,530 | 75 | 0 |
 
 ## Over-represented
@@ -36,7 +36,7 @@ Where most of the recipes are (share of all recipes with a known country) and th
 
 - **Recipes but no dish knowledge** (3): Cayman Islands (7), Aruba (6), Namibia (4).
 - **Absent, 20 million people or more** (1; population from Wikidata): Burkina Faso.
-- **Absent in all**: 84 countries and territories with neither dishes nor recipes (`missing_countries.json`).
+- **Absent in all**: 83 countries and territories with neither dishes nor recipes (`missing_countries.json`).
 
 ## The expansion backlog
 

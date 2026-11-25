@@ -3574,6 +3574,22 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q2118339) (CC0); [Wikipedia: Tarhana](https://en.wikipedia.org/wiki/Tarhana) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Tentura
+
+Tentura, also spelled Tentoura, Tintura, or Tintoura, is a liqueur produced in the Greek city of Patras since the 15th century.
+
+- From: Greece
+
+Learn more:
+
+- quick: [Tentura (Wikipedia)](https://en.wikipedia.org/wiki/Tentura)
+- more: [List of Greek dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Greek_dishes)
+- more: [Greek cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Greek_cuisine)
+- deep: [Books about Tentura (Open Library)](https://openlibrary.org/search?q=Tentura)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1513723)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1513723) (CC0); [Wikipedia: Tentura](https://en.wikipedia.org/wiki/Tentura) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Tsikoudia
 
 Tsikoudia is an alcoholic beverage, a fragrant, grape-based pomace brandy of Cretan origin that contains 40% to 65% alcohol by volume.

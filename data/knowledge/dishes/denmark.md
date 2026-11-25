@@ -975,7 +975,7 @@ Stegt flæsk is a dish from Scandinavia consisting of fried pork belly and gener
 
 - From: Denmark
 - Origin (Wikidata): Denmark
-- Ingredients (Wikidata): sauce, pork, potato
+- Ingredients (Wikidata): pork, potato, sauce
 
 Fun facts:
 

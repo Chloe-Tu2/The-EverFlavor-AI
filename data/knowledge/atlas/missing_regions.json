@@ -1,6 +1,6 @@
 {
  "about": {
-  "built_on": "2026-11-24",
+  "built_on": "2026-11-25",
   "by": "scripts/knowledge/atlas_audit.py",
   "regions": {
    "name": "Unicode CLDR territory containment (UN M49 regions)",
@@ -100,13 +100,12 @@
    "subregion": "Micronesian Region",
    "continent": "Oceania",
    "countries": 8,
-   "with_dishes": 2,
-   "score": 18.8,
+   "with_dishes": 3,
+   "score": 21.2,
    "band": "gap",
    "countries_without_dishes": [
     "Federated States of Micronesia",
     "Kiribati",
-    "Marshall Islands",
     "Nauru",
     "Palau",
     "United States Minor Outlying Islands"

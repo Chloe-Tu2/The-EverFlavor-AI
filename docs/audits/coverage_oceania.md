@@ -1,4 +1,4 @@
-# Coverage: Oceania (2026-11-24)
+# Coverage: Oceania (2026-11-25)
 
 Back to [world coverage](coverage_world.md).
 
@@ -26,10 +26,10 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Guam | low | 4 | 1 | 2 | 3 | 0 | 1 | 80% |
+| Marshall Islands | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
 | Northern Mariana Islands | low | 1 | 1 | 0 | 0 | 0 | 0 | 100% |
 | Federated States of Micronesia | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Kiribati | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| Marshall Islands | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Nauru | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Palau | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 

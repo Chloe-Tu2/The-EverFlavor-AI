@@ -1,4 +1,4 @@
-# Dish image audit (2026-11-24)
+# Dish image audit (2026-11-25)
 
 The best image each of our 3,201 dishes can show, its licence and credit, and what to fetch next. Reports only: no image was downloaded. Built by `scripts/knowledge/media_audit.py`; per dish in `data/knowledge/media/dish_media_audit.json`.
 
@@ -12,9 +12,9 @@ Levels, best first: a photo of one of its own recipes (100 points), a Commons ph
 | dish | 69 | 2% |
 | variant | 9 | 0% |
 | family | 186 | 5% |
-| placeholder | 2,477 | 64% |
+| placeholder | 2,478 | 64% |
 
-Statuses: candidate 1,735, verified 1,191, missing 742, fallback 195. Every dish resolves to an image or the placeholder, so no page is empty.
+Statuses: candidate 1,735, verified 1,191, missing 743, fallback 195. Every dish resolves to an image or the placeholder, so no page is empty.
 
 ## By zone
 
@@ -27,7 +27,7 @@ Statuses: candidate 1,735, verified 1,191, missing 742, fallback 195. Every dish
 | Middle East & North Africa | 279 | 16% | 20% | 122 | 18.4 |
 | Africa | 158 | 15% | 18% | 23 | 16.2 |
 | Caribbean | 100 | 48% | 52% | 32 | 50.6 |
-| Oceania | 74 | 45% | 50% | 20 | 47.8 |
+| Oceania | 75 | 44% | 49% | 20 | 47.2 |
 
 ## By country (20 with the most dishes)
 
@@ -64,7 +64,7 @@ Statuses: candidate 1,735, verified 1,191, missing 742, fallback 195. Every dish
 ## Remediation plan
 
 1. **Fetch** the Wikidata images of 1,891 dishes through the existing photo pipeline (`scripts/dish_photos/fetch_dish_photos.py meta`, `download`, `curate`, `write`), which checks each licence and keeps a credit line: 287 high priority (50+ of the 80 points besides the image), 1,604 medium (`image_priority_queue.json`).
-2. **No image anywhere** for 781 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
+2. **No image anywhere** for 782 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
 3. **Family photos** stand in meanwhile, labelled as the family, never as the dish.
 
 ## Approved for collection

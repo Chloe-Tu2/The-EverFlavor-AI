@@ -1,4 +1,4 @@
-# Taxonomy validation (2026-11-24)
+# Taxonomy validation (2026-11-25)
 
 The Food Taxonomy (`data/reference/food_taxonomy.csv`) checked against the UN's regions (Unicode CLDR, see the atlas) and against what the Food Graph attaches to it. A food region may differ from the UN's on purpose, so differences are listed for a person to look at; nothing is changed here. Data: `data/knowledge/quality/taxonomy_validation.json` (`scripts/knowledge/taxonomy_validation.py`).
 
