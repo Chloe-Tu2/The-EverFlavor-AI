@@ -124,25 +124,80 @@ def main() -> None:
               "The full list: `data/knowledge/atlas/atlas_debt.json`.", ""]
     lines += table(["Country", "Dishes", "Debt", "Gaps"],
                    [[r["country"], r["dishes"], r["debt"], ", ".join(r["gaps"])] for r in debt[:30]])
-    lines += ["", "## Release readiness", ""]
+    ready: list[str] = []
+    waiting: list[str] = []
     for version, heading in (("0.8.0", "**0.8.0 beta"), ("0.9.0", "**0.9.0 beta")):
         rows = gate_rows(heading)
         count: dict[str, int] = defaultdict(int)
         for r in rows:
+            r["condition"] = LINK.sub(r"\1", r["condition"].split(";")[0])
             count[readiness(r)] += 1
-        lines += [f"### {version}: {count['done']} of {len(rows)} conditions done", ""]
-        lines += table(["Area", "Condition", "Readiness"],
-                       [[r["area"], LINK.sub(r"\1", r["condition"].split(";")[0]), readiness(r)] for r in rows])
-        lines.append("")
-    targets: list[list[object]] = [[k, f">= {t}%", f"{metrics['coverage'][k]}%", "done" if metrics["coverage"][k] >= t else "open"]
-               for k, t in TARGETS_1_0.items()]
-    lines += ["### 1.0.0: coverage targets", ""]
-    lines += table(["Target", "Goal", "Now", "Readiness"], targets)
-    lines += ["", ("Risks: most open 0.8 and 0.9 conditions wait on people; review time, not data, sets the pace. "
+            if readiness(r) == "waiting on a person":
+                waiting.append(version + ": " + r["condition"])
+        ready += [f"### {version}: {count['done']} of {len(rows)} conditions done", ""]
+        ready += table(["Area", "Condition", "Readiness"], [[r["area"], r["condition"], readiness(r)] for r in rows])
+        ready.append("")
+    targets: list[list[object]] = [[k, f">= {t}%", f"{metrics['coverage'][k]}%",
+                                    "done" if metrics["coverage"][k] >= t else "open"] for k, t in TARGETS_1_0.items()]
+    ready += ["### 1.0.0: coverage targets", ""]
+    ready += table(["Target", "Goal", "Now", "Readiness"], targets)
+    ready += ["", ("Risks: most open 0.8 and 0.9 conditions wait on people; review time, not data, sets the pace. "
                    "Every other 1.0 target (pages complete, Walter reviewed, no open critical item) waits on the "
                    "reviews above.")]
+    lines += ["", "## Release readiness", "", *ready]
     save_md("atlas_health.md", lines)
+    save_md("release_readiness.md", [f"# Release readiness ({today})", "",
+                                     ("Done, waiting on a person, open for Claude, per release gate in the planner. "
+                                      "From `scripts/knowledge/atlas_health.py`."), "", *ready])
+    snapshot = {"date": today, "atlas_debt": total, **{f"debt: {g}": n for g, n in per_gap.items()},
+                **{k: v for k, v in metrics["coverage"].items() if isinstance(v, (int, float))},
+                "review items": review_items}
+    previous = record(snapshot)
+    handoff(snapshot, previous, waiting, debt, per_gap)
     print(f"debt {total} over {len(debt)} countries; {per_gap}")
+
+
+HISTORY = KNOW / "atlas" / "atlas_health_history.jsonl"
+LOWER_IS_BETTER = ("atlas_debt", "debt: ")
+CLAUDE_GAPS = ["no culinary region", "no story", "no family", "weak Walter", "one dish only"]   # photos need a person
+
+
+def record(snapshot: dict) -> dict:
+    """Keep one snapshot per day in the history; return the latest one from an earlier day ({} if none)."""
+    old = [json.loads(line) for line in HISTORY.open(encoding="utf-8")] if HISTORY.exists() else []
+    old = [s for s in old if s["date"] != snapshot["date"]]
+    HISTORY.write_text("".join(json.dumps(s, ensure_ascii=False) + "\n" for s in [*old, snapshot]), encoding="utf-8")
+    return old[-1] if old else {}
+
+
+def handoff(now: dict, before: dict, waiting: list[str], debt: list[dict], per_gap: dict[str, int]) -> None:
+    """docs/audits/curator_handoff.md: what improved, regressed, is blocked, needs a person, and what is next."""
+    better, worse = [], []
+    for k, v in now.items():
+        if k == "date" or k not in before or v == before[k]:
+            continue
+        lower = k.startswith(LOWER_IS_BETTER)
+        (better if (v < before[k]) == lower else worse).append(f"{k}: {before[k]} -> {v}")
+    impact = (ROOT / "docs" / "audits" / "review_impact.md")
+    people = [line.split("|")[2].strip() for line in impact.read_text(encoding="utf-8").splitlines()
+              if re.match(r"\| \d+ \|", line)][:3] if impact.exists() else []
+    gap = max(CLAUDE_GAPS, key=lambda g: per_gap[g])
+    worst = [r["country"] for r in debt if gap in r["gaps"]][:8]
+    since = f"since {before['date']}" if before else "first snapshot, nothing to compare yet"
+    lines = [f"# Curator handoff ({now['date']})", "",
+             ("Read this first in a new session, then [atlas_health.md](atlas_health.md) and "
+              "[review_impact.md](review_impact.md). From `scripts/knowledge/atlas_health.py`; the history is in "
+              "`data/knowledge/atlas/atlas_health_history.jsonl`. **Audit only.**"), "",
+             f"## What improved ({since})", "", *([f"- {x}" for x in better] or ["- nothing measured changed"]), "",
+             "## What regressed", "", *([f"- {x}" for x in worse] or ["- nothing"]), "",
+             "## What is blocked (waiting on a person)", "", *[f"- {x}" for x in waiting], "",
+             "## What needs a person first", "", *[f"- {x}" for x in people], "",
+             "## What should happen next (Claude)", "",
+             (f"- Quality campaign with the most countries Claude can work on alone: **{gap}** ({per_gap[gap]} "
+              f"countries; first {', '.join(worst)})."),
+             "- Coverage campaigns in the planner's order, as far as their review items allow.",
+             "- End the session by rerunning the audit chain so this page is current."]
+    save_md("curator_handoff.md", lines)
 
 
 if __name__ == "__main__":

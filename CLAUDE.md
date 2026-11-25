@@ -4,7 +4,8 @@ Guidance for Claude Code (and anyone new) working in this repository. The README
 are the rules that must not be broken.
 
 **Start here:** [docs/plans/README.md](docs/plans/README.md), the planner (what is done, in review and next, by
-version), with the handoff notes for whoever picks up the work.
+version), with the handoff notes for whoever picks up the work. For atlas work, read
+[docs/audits/curator_handoff.md](docs/audits/curator_handoff.md) first and follow the session routine in the planner.
 
 ## What this is
 

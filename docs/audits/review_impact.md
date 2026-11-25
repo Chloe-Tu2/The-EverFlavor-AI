@@ -13,5 +13,5 @@ What each open person decision unblocks, release gates first and the quickest fi
 | 7 | Fact review sheet (focus_review_priority.csv order) | 0.9 | 260 rows open; 100 reviewed facts are a 0.9 condition | 120 |
 | 8 | Item 31: Taiwan, Hong Kong and Macau | 1.0 | 1 country node; the counting rule's wording | 5 |
 | 9 | Item 22: place-tree placements of 59 countries | 1.0 | region pages and coverage by region | 20 |
-| 10 | Item 32: shared dishes, one country or every origin | 1.0 | coverage: up to 6 empty UN members gain a dish (21 dishes) | 30 |
+| 10 | Item 32: multi-origin dish policy (one rule for shared dishes) | 1.0 | coverage: up to 6 empty UN members gain a dish (21 dishes) | 30 |
 | 11 | Item 25: region pages against Wikidata's origin | 1.0 | 246 region-page dishes (918 graph entries sit outside their origin in all); country pages, Walter's origin answer | 30 |
