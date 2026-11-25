@@ -5,12 +5,12 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 ## Generated at
 
 - Date: 2026-11-25
-- Time: 04:19
-- Git commit: 01ad735+work (compared with 14aadf5+work, 2026-11-25)
+- Time: 16:47
+- Git commit: 66a1a61+work (compared with 01ad735+work, 2026-11-25)
 
 ## Current status
 
-- Branch: sprint/5-weak-regions
+- Branch: plans/campaign-states
 - Campaign: A, empty country recovery (see the planner's order of all campaigns)
 - Version: 0.7.2
 - Release readiness 0.8: 4 of 9 conditions done
@@ -24,7 +24,7 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 - Oceania coverage (%): 33.8
 - countries with a dish: 169
 - UN members with a dish: 161
-- Change since the last run: countries with a dish 168 -> 169; UN members with a dish 160 -> 161
+- Change since the last run: no change
 
 ## Representation
 
@@ -32,14 +32,14 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 - country pages: 166
 - region pages: 30
 - countries with three dishes or more: 130
-- Change since the last run: country pages 165 -> 166
+- Change since the last run: no change
 
 ## Enrichment
 
 - entries with a story: 2758
 - entries with a Wikidata origin: 4188
 - Walter coverage score: 3.58
-- Change since the last run: entries with a story 2757 -> 2758; entries with a Wikidata origin 4187 -> 4188; Walter coverage score 3.57 -> 3.58
+- Change since the last run: no change
 
 ## Preservation
 
@@ -52,14 +52,14 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 ## Governance
 
 - Review items open: 32
-- Review items added since the last run: 1
+- Review items added since the last run: 0
 - Review items answered by a person: 3 (items 32, 33, 34)
-- Change since the last run: review items open 31 -> 32
+- Change since the last run: no change
 
 ## Atlas debt
 
 - Current debt: 546 (3.23 per country)
-- Debt change: atlas debt 538 -> 546; debt per country 3.2 -> 3.23
+- Debt change: no change
 - Top debt categories:
   1. no culinary region: 114 countries, 342 points
   2. no story: 33 countries, 66 points
@@ -71,27 +71,15 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 
 ## Work completed since the last snapshot
 
-- bd76e8d Apply review items 33 and 34: the intro story rule and Wikidata culinary regions
+- 1fb6460 Sprint 5, weak regions: nine more countries in Wikidata's origin targets
 
 ## What improved
 
-- countries with a dish: 168 -> 169
-- country pages: 165 -> 166
-- UN members with a dish: 160 -> 161
-- entries with a story: 2757 -> 2758
-- entries with a Wikidata origin: 4187 -> 4188
-- Walter coverage score: 3.57 -> 3.58
-- review items logged: 34 -> 35
+- nothing measured changed
 
 ## What regressed
 
-- review items open: 31 -> 32
-- atlas debt: 538 -> 546
-- debt per country: 3.2 -> 3.23
-- debt: no culinary region: 113 -> 114
-- debt: no story: 32 -> 33
-- debt: one dish only: 26 -> 27
-- debt: no photo: 44 -> 45
+- nothing
 
 ## Human review required
 

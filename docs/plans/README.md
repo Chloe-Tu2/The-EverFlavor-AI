@@ -379,10 +379,11 @@ Baselines from the sprint 4 run (2026-11-23, `data/knowledge/atlas/culinary_cove
 
 | Campaign | State | Target | Baseline |
 |---|---|---|---|
-| A. Empty country recovery | active | More UN members with a dish. The multi-origin dish policy (2026-11-24) gave Belarus, Eritrea, Jordan, Togo, Barbados and Sierra Leone their first dishes, with Andorra, Congo, Dominica, Grenada, Panama, Saint Lucia, Guadeloupe and the Northern Mariana Islands ([multi_origin_dishes.md](../audits/multi_origin_dishes.md)); next, the 33 members still empty ([empty_country_backlog.md](../audits/empty_country_backlog.md)) | 160 of 193 members (148 before the policy) |
-| D. Africa 50% | planned | Africa coverage at least 50% (a 1.0 target); West and Central Africa first | 44.0% (Middle 32.6%, Western 38.6%) |
-| C. Oceania 35% | planned | Oceania coverage at least 35% (a 1.0 target); Polynesia, Micronesia and Melanesia pages | 32.3% |
-| F. Southern Africa expansion | planned | Feeds Africa 50% directly | 2 of 5 countries, 36.1% |
+| A. Empty country recovery | exhausted (2026-11-25) | The automatic routes are used up: sprint 5 tried nine countries and found 1 dish (Chukuchuk), the shared-dish route has 3 weak candidates left. The multi-origin dish policy (2026-11-24) gave Belarus, Eritrea, Jordan, Togo, Barbados and Sierra Leone their first dishes, with Andorra, Congo, Dominica, Grenada, Panama, Saint Lucia, Guadeloupe and the Northern Mariana Islands ([multi_origin_dishes.md](../audits/multi_origin_dishes.md)). The members still empty move to G | 161 of 193 members (148 before the policy) |
+| G. Manual country research | active, needs a person or a new source | The 32 UN members still without a dish ([empty_country_backlog.md](../audits/empty_country_backlog.md)): Claude keeps the research packets ([empty_country_packets.md](../audits/empty_country_packets.md)); a dish is added only from a source a person names or a new free source the team approves | 32 members |
+| D. Africa 50% | goal reached (2026-11-25), maintenance | Africa coverage at least 50% (a 1.0 target), reached at 52.8%; keep it above 50% and deepen Middle Africa | 44.0% (Middle 32.6%, Western 38.6%) |
+| C. Oceania 35% | active | Oceania coverage at least 35% (a 1.0 target), 33.8% on 2026-11-25 (1.2 points to go); Polynesia, Micronesia and Melanesia pages | 32.3% |
+| F. Southern Africa expansion | maintenance, with D | Fed Africa 50% | 2 of 5 countries, 36.1% |
 | E. Western Asia expansion | backlog | Levant, Arabian Peninsula, Mesopotamia and the Persian region linked into the atlas | 14 of 18, 68.5% |
 | B. Caribbean representation | backlog | More Caribbean countries with a dish, country pages, regional links | 9 of 16, 44.5% |
 | Indigenous traditions | backlog | Evidence queues and review sheets only; tags wait for the rubric (item 26) | see `indigenous_tags.csv` |
@@ -403,11 +404,13 @@ is now a first-class objective next to coverage: 227 points on 2026-11-24, aimin
 | Walter debt | weak Walter coverage | 7 | the weakest countries in [walter_five_questions.md](../audits/walter_five_questions.md) become enrichment targets |
 | Q5. Multi-origin normalization (later) | shared dishes | see [multi_origin_dishes.md](../audits/multi_origin_dishes.md) | record every sourced origin, link related countries, feed region pages; builds on the [multi-origin dish policy](../governance/multi_origin_dish_policy.md) |
 
-**Order of all campaigns (med27-coder, 2026-11-24):** 1. A Empty countries, 2. D Africa 50%, 3. C Oceania 35%,
-4. Q2 Story recovery, 5. Walter debt, 6. Q1 phase 0 (regional source research), 7. Q4 Family recovery,
-8. Q3 Image readiness, 9. E Western Asia, 10. B Caribbean; F Southern Africa runs inside D. Not the biggest
-datasets first, the biggest improvements to the atlas. A campaign blocked by a review item gives way to the next
-one.
+**Order of all campaigns (med27-coder, 2026-11-25):** 1. C Oceania 35% (the highest-value coverage campaign),
+2. Q1 Regional data (link our dishes to the provisional Wikidata regions, review item 33), 3. Q2 Story
+recovery (the highest-value debt campaign), 4. Walter debt, 5. Q4 Family recovery, 6. Q3 Image readiness,
+7. G Manual country research, 8. E Western Asia, 9. B Caribbean. A is exhausted; D and F are in maintenance.
+Atlas debt now matters more than the dish count: not another mass import, but the largest debt categories
+first. While the debt-first rule applies (the scoreboard says when), Q1 goes before C. A campaign blocked by a
+review item gives way to the next one.
 
 **Session routine (continuous handoff, med27-coder, 2026-11-24).** Claude only works while a session is open, so
 the project is built for handoff, not continuous running: everything a new session needs is in the repository.
