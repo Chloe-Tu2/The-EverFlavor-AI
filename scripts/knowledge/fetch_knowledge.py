@@ -551,8 +551,11 @@ ORIGIN_TARGETS = (
     "South Sudan", "Sudan", "Suriname", "Syria", "São Tomé and Príncipe", "Tajikistan", "Tanzania", "The Bahamas",
     "The Gambia", "Timor-Leste", "Togo", "Tonga", "Turkmenistan", "United Arab Emirates", "Vanuatu", "Zambia",
     "Zimbabwe",
+    # sprint 5 (2026-11-25, weak regions): the empty UN members and weak countries sprint 4 did not target
+    "Andorra", "Dominica", "Federated States of Micronesia", "Marshall Islands", "Nauru", "Northern Mariana Islands",
+    "Palau", "Saint Kitts and Nevis", "Tuvalu",
 )
-WIKIDATA_NAMES = {"Congo": "Republic of the Congo"}   # our name -> the name in data/knowledge/countries.json
+WIKIDATA_NAMES ={"Congo": "Republic of the Congo"}   # our name -> the name in data/knowledge/countries.json
 ORIGIN_QUERY = """SELECT ?item ?country ?type ?article WHERE {{
   VALUES ?country {{ {countries} }}
   ?item wdt:P495 ?country ; wdt:P31|wdt:P279 ?type .

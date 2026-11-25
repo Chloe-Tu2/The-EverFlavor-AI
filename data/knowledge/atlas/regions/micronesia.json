@@ -12,23 +12,26 @@
   "Palau"
  ],
  "countries_with_a_dish": [
-  "Guam"
+  "Guam",
+  "Marshall Islands"
  ],
- "coverage_score": 14.5,
- "dish_count": 4,
+ "coverage_score": 18.0,
+ "dish_count": 5,
  "food_and_drink_count": 1,
  "story_count": 1,
  "representative_dishes": [
   "Kelaguen",
   "Guyuria",
   "Kalamai (dessert)",
+  "Chukuchuk",
   "Roskette"
  ],
  "dish_families": [
   "cookie",
   "condiment",
   "pudding",
-  "chicken dish"
+  "chicken dish",
+  "rice dish"
  ],
  "indigenous_traditions": [
   {

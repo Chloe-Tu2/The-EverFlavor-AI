@@ -1,4 +1,4 @@
-# Variant gaps (2026-11-24)
+# Variant gaps (2026-11-25)
 
 Families whose own dish EverFlavor has, with versions we lack: adding these joins the graph at once (each gets a "version of" link). Most missing first.
 

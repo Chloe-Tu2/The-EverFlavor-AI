@@ -979,7 +979,7 @@ Bubur ketan hitam, bubur pulut hitam or bubur injun is an Indonesian sweet desse
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): water, table salt, glutinous rice, Pandanus amaryllifolius, coconut milk, palm sugar
+- Ingredients (Wikidata): palm sugar, water, table salt, glutinous rice, Pandanus amaryllifolius, coconut milk
 
 Fun facts:
 
@@ -3246,7 +3246,7 @@ Mi caluk is a traditional Indonesian-Aceh noodle dish, which is commonly found i
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): scallion, Kaempferia galanga, Aleurites moluccanus, seedling, fried onion, kecap manis, peanut, ginger, Mi Gomak, tomato
+- Ingredients (Wikidata): krupuk, scallion, Kaempferia galanga, Aleurites moluccanus, seedling, fried onion, kecap manis, peanut, ginger, Mi Gomak
 
 Fun facts:
 

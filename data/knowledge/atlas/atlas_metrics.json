@@ -9,8 +9,8 @@
   "Asia coverage (%)": 81.2,
   "Europe coverage (%)": 87.8,
   "Oceania coverage (%)": 33.8,
-  "countries with a dish": 168,
-  "country pages": 165
+  "countries with a dish": 169,
+  "country pages": 166
  },
  "representation": {
   "dish families and categories": 707,
@@ -19,13 +19,13 @@
   "Indigenous traditions tracked": 6
  },
  "enrichment": {
-  "entries with a story (History or Origin sentences)": 2757,
-  "entries with a Wikidata origin": 4187,
-  "entries linked to a family": 3772,
+  "entries with a story (History or Origin sentences)": 2758,
+  "entries with a Wikidata origin": 4188,
+  "entries linked to a family": 3773,
   "entries with a culinary region": 644,
   "rich dishes": 529,
   "fair dishes": 1489,
-  "thin dishes": 1845
+  "thin dishes": 1846
  },
  "preservation": {
   "entries with an Indigenous tradition": 29,
@@ -66,19 +66,19 @@
   },
   "thin dishes": {
    "before": 1365,
-   "now": 1845
+   "now": 1846
   },
   "entries (dishes, foods and drinks)": {
    "before": 4885,
-   "now": 5967
+   "now": 5970
   },
   "dishes": {
    "before": 3201,
-   "now": 3863
+   "now": 3864
   },
   "countries with a dish": {
    "before": 96,
-   "now": 168
+   "now": 169
   },
   "countries with three dishes or more": {
    "before": 65,
@@ -86,11 +86,11 @@
   },
   "country pages": {
    "before": 54,
-   "now": 165
+   "now": 166
   },
   "entries with a story (History or Origin sentences)": {
    "before": 2415,
-   "now": 2757
+   "now": 2758
   },
   "dishes with an intro story (item 34)": {
    "before": 188,
@@ -98,11 +98,11 @@
   },
   "entries with a fun-fact candidate": {
    "before": 2806,
-   "now": 3432
+   "now": 3434
   },
   "entries with a Wikidata origin": {
    "before": 3450,
-   "now": 4187
+   "now": 4188
   },
   "entries with a culinary region": {
    "before": 642,
@@ -114,7 +114,7 @@
   },
   "entries linked to a family": {
    "before": 3248,
-   "now": 3772
+   "now": 3773
   },
   "entries with an Indigenous tradition": {
    "before": 0,

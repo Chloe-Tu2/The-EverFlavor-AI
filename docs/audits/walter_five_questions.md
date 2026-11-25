@@ -4,10 +4,10 @@ For each of our dishes, can Walter answer what it is, where it is from, why it m
 
 | Question | Dishes with an answer | Share |
 |---|---:|---:|
-| what is it | 3,862 | 100% |
-| where is it from | 3,131 | 81% |
-| why it matters | 3,087 | 80% |
-| similar dishes | 3,862 | 100% |
+| what is it | 3,863 | 100% |
+| where is it from | 3,132 | 81% |
+| why it matters | 3,088 | 80% |
+| similar dishes | 3,863 | 100% |
 | its versions | 250 | 6% |
 
 ## How many of the five each dish answers
@@ -15,7 +15,7 @@ For each of our dishes, can Walter answer what it is, where it is from, why it m
 | Answers | Dishes |
 |---|---:|
 | 5 | 149 |
-| 4 | 2,465 |
+| 4 | 2,466 |
 | 3 | 1,089 |
 | 2 | 160 |
 | 1 | 0 |
@@ -55,7 +55,7 @@ Dishes the app links the most recipes to, first (the full list: `data/knowledge/
 
 ## Walter coverage score per country
 
-The average number of the five questions a country's dishes answer (0 to 5), weakest first; 168 countries, all in `data/knowledge/quality/walter_country_scores.json`. A low score points to missing stories, origins, variants or graph links there.
+The average number of the five questions a country's dishes answer (0 to 5), weakest first; 169 countries, all in `data/knowledge/quality/walter_country_scores.json`. A low score points to missing stories, origins, variants or graph links there.
 
 | Country | Dishes | Score (of 5) | Dishes with all five |
 |---|---:|---:|---:|

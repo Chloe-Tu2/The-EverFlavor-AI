@@ -1,8 +1,8 @@
-# Food Graph validation (2026-11-24)
+# Food Graph validation (2026-11-25)
 
 `scripts/knowledge/graph_validation.py` built the Food Graph as the app does (dishes, families, versions and the place tree; recipes are counted in `data/knowledge/recipe_graph_counts.json`) and checked its links. **Nothing was changed.**
 
-Nodes: 7,426 dishes (5,967 ours, foods and drinks included),2,414 versions, 258 families, and the places. Edges: eaten_in 5,967, in_family 4,350, origin 5,728, part_of 276, variant_of 5,426.
+Nodes: 7,428 dishes (5,970 ours, foods and drinks included),2,414 versions, 258 families, and the places. Edges: eaten_in 5,970, in_family 4,350, origin 5,728, part_of 276, variant_of 5,426.
 
 ## Broken links (should be zero)
 

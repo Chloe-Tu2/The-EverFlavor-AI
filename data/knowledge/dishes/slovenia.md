@@ -331,3 +331,30 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6928056)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q6928056) (CC0); [Wikipedia: Močnik](https://en.wikipedia.org/wiki/Močnik) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Štruklji
+
+Štruklji is a traditional Slovene dish, composed of dough and various types of filling.
+
+- From: Slovenia
+
+Fun facts:
+
+- (history) The first recorded preparation of štruklji is said to be in 1589, when a chef at a manor in Graz wrote down the recipe for cooked štruklji with tarragon filling.
+- (culture) Štruklji comes in the form of rolled dumplings, which can be steamed, boiled, or baked, and can have a wide range of fillings. Štruklji has been traditionally reserved for special occasions, but is now one of the most characteristic everyday dishes in households all across Slovenia.
+- (history) Štruklji became a festive dish for the urban middle class in the 17th century, and spread to rural households two centuries later.
+
+More fun facts (when the user asks for more):
+
+- (history) Štruklji was incorporated into everyday cuisine at the beginning of the 20th century.
+- (culture) Štruklji is closely related to Zagorski štrukli, a traditional Croatian dish.
+
+Learn more:
+
+- quick: [Štruklji (Wikipedia)](https://en.wikipedia.org/wiki/%C5%A0truklji)
+- more: [Slovenian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Slovenian_cuisine)
+- more: [Cuisine of Slovenia (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Slovenia)
+- deep: [Books about Štruklji (Open Library)](https://openlibrary.org/search?q=%C5%A0truklji)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q141861768)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q141861768) (CC0); [Wikipedia: Štruklji](https://en.wikipedia.org/wiki/Štruklji) (CC BY-SA 4.0). Review: auto-cleaned.

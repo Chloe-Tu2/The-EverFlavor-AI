@@ -1,4 +1,4 @@
-# Culinary region coverage (2026-11-24)
+# Culinary region coverage (2026-11-25)
 
 Regions below a country, from the place tree and the knowledge notebook (Wikipedia region pages), with the average dish score.
 

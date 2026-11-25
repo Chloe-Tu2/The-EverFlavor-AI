@@ -8,7 +8,7 @@ Achu soup is a yellow soup that is a traditional food in Cameroon.
 
 - From: Cameroon
 - Origin (Wikidata): Cameroon
-- Ingredients (Wikidata): water, spice, palm oil, cocoyam, fish
+- Ingredients (Wikidata): fish, water, spice, palm oil, cocoyam
 
 Fun facts:
 

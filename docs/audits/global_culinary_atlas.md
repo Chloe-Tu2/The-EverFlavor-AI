@@ -1,4 +1,4 @@
-# Global Culinary Atlas (2026-11-24)
+# Global Culinary Atlas (2026-11-25)
 
 Coverage of the world's food by the UN's regions (M49), from Unicode CLDR 49 (Unicode License V3). Reports only: nothing is added or published.
 Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish, fact or link is invented. Data: `data/knowledge/atlas/`, written by `scripts/knowledge/atlas_audit.py`.
@@ -19,7 +19,7 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 | Americas | 57 | 36 | 6.5 | 47.8 | thin |
 | Asia | 51 | 45 | 13 | 76.6 | good |
 | Europe | 53 | 40 | 22.5 | 87.7 | good |
-| Oceania | 29 | 7 | 2 | 17.1 | gap |
+| Oceania | 29 | 8 | 1.5 | 17.5 | gap |
 
 ## Subregions
 
@@ -27,7 +27,7 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 |---|---:|---:|---:|---:|---|---:|---:|---:|
 | Melanesia (Oceania) | 5 | 1 | 1 | 12.5 | gap |  |  |  |
 | Polynesia (Oceania) | 10 | 2 | 1.5 | 13.8 | gap |  |  |  |
-| Micronesian Region (Oceania) | 8 | 2 | 2.5 | 18.8 | gap | 1 |  |  |
+| Micronesian Region (Oceania) | 8 | 3 | 1 | 21.2 | gap | 1 |  |  |
 | Caribbean (Americas) | 28 | 14 | 2 | 30 | thin | 1 | 2 | 1 |
 | Eastern Africa (Africa) | 22 | 14 | 3 | 39.3 | thin | 5 |  |  |
 | Middle Africa (Africa) | 9 | 6 | 2.5 | 39.6 | thin |  |  |  |
@@ -52,7 +52,7 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 
 - **Melanesia:** 1 of 5 countries have a dish; none yet in Fiji, Papua New Guinea, Solomon Islands, Vanuatu.
 - **Polynesia:** 2 of 10 countries have a dish; none yet in American Samoa, Cook Islands, French Polynesia, Niue, Pitcairn Islands, Tokelau, Tuvalu, Wallis and Futuna.
-- **Micronesian Region:** 2 of 8 countries have a dish; none yet in Federated States of Micronesia, Kiribati, Marshall Islands, Nauru, Palau, United States Minor Outlying Islands.
+- **Micronesian Region:** 3 of 8 countries have a dish; none yet in Federated States of Micronesia, Kiribati, Nauru, Palau, United States Minor Outlying Islands.
 - **Caribbean:** 14 of 28 countries have a dish; none yet in Anguilla, Aruba, British Virgin Islands, Caribbean Netherlands, Cayman Islands, Martinique, Montserrat, Saint Barthélemy and more.
 - **Eastern Africa:** 14 of 22 countries have a dish; none yet in British Indian Ocean Territory, Burundi, Comoros, Djibouti, French Southern and Antarctic Lands, Mayotte, Réunion, Zimbabwe.
 - **Middle Africa:** 6 of 9 countries have a dish; none yet in Equatorial Guinea, Gabon, São Tomé and Príncipe.

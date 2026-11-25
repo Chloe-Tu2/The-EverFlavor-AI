@@ -1,4 +1,4 @@
-# Coverage by continent (2026-11-24)
+# Coverage by continent (2026-11-25)
 
 Read from the Global Culinary Atlas files (`data/knowledge/atlas/`, regions from Unicode CLDR) by `scripts/knowledge/continent_report.py`. How the score works: [global_culinary_atlas.md](global_culinary_atlas.md). **Audit only:** nothing is added or published.
 
@@ -8,7 +8,7 @@ Read from the Global Culinary Atlas files (`data/knowledge/atlas/`, regions from
 | Americas | 57 | 36 | 943 | 148,888 | 47.8 | thin |
 | Asia | 51 | 45 | 1,585 | 21,394 | 76.6 | good |
 | Europe | 53 | 40 | 1,592 | 50,001 | 87.7 | good |
-| Oceania | 29 | 7 | 85 | 3,142 | 17.1 | gap |
+| Oceania | 29 | 8 | 86 | 3,142 | 17.5 | gap |
 
 ## Africa
 
@@ -62,11 +62,11 @@ Recipes but no dish page: Aruba, Cayman Islands.
 
 ## Oceania
 
-7 of 29 countries and territories have a dish; 0 have recipes but no dish page; 4 versions of dishes we have are missing; the backlog holds 3 blocked, 5 ready.
+8 of 29 countries and territories have a dish; 0 have recipes but no dish page; 4 versions of dishes we have are missing; the backlog holds 3 blocked, 5 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
 | Melanesia | 5 | 1 | 1 | 12.5 | gap |
 | Polynesia | 10 | 2 | 3 | 13.8 | gap |
-| Micronesian Region | 8 | 2 | 5 | 18.8 | gap |
+| Micronesian Region | 8 | 3 | 6 | 21.2 | gap |
 | Australasia | 6 | 2 | 76 | 66.7 | fair |

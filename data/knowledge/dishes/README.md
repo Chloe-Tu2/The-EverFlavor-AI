@@ -10,7 +10,7 @@
 | [Mexico](mexico.md) | 169 |
 | [Japan](japan.md) | 156 |
 | [Canada](canada.md) | 150 |
-| [Greece](greece.md) | 148 |
+| [Greece](greece.md) | 149 |
 | [France](france.md) | 137 |
 | [Germany](germany.md) | 137 |
 | [Philippines](philippines.md) | 124 |
@@ -66,7 +66,7 @@
 | [Cambodia](cambodia.md) | 15 |
 | [Ethiopia](ethiopia.md) | 15 |
 | [Haiti](haiti.md) | 15 |
-| [Slovenia](slovenia.md) | 14 |
+| [Slovenia](slovenia.md) | 15 |
 | [Venezuela](venezuela.md) | 14 |
 | [Czech Republic](czech_republic.md) | 13 |
 | [Paraguay](paraguay.md) | 13 |
@@ -158,6 +158,7 @@
 | [Jordan](jordan.md) | 1 |
 | [Kuwait](kuwait.md) | 1 |
 | [Mali](mali.md) | 1 |
+| [Marshall Islands](marshall_islands.md) | 1 |
 | [Montenegro](montenegro.md) | 1 |
 | [Mozambique](mozambique.md) | 1 |
 | [New Caledonia](new_caledonia.md) | 1 |

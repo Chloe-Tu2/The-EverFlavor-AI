@@ -1,4 +1,4 @@
-# Country coverage and depth (2026-11-24)
+# Country coverage and depth (2026-11-25)
 
 Coverage (how many of a country's known dishes we have, from the coverage audit) next to depth (the dish quality score). A country with many thin dishes needs enrichment before more dishes.
 

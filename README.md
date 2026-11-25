@@ -80,8 +80,8 @@ Coverage is a score per country, averaged. The basic checks are three dishes, a 
 | Asia coverage (%) | 81.2 | 45 of 51 countries have a dish; 39 pass every basic check |
 | Europe coverage (%) | 87.8 | 39 of 41 countries have a dish; 35 pass every basic check |
 | Oceania coverage (%) | 33.8 | 6 of 12 countries have a dish; 2 pass every basic check |
-| Countries with a dish | 168 | of 200 CLDR countries and territories of 100,000 people or more; 161 of the 195 UN member and observer states |
-| Country pages | 165 | one readable page per country with an entry (notebook 11) |
+| Countries with a dish | 169 | of 200 CLDR countries and territories of 100,000 people or more; 162 of the 195 UN member and observer states |
+| Country pages | 166 | one readable page per country with an entry (notebook 11) |
 
 ### Representation
 
@@ -107,13 +107,13 @@ Per country ([country_representation.md](docs/audits/country_representation.md))
 
 | Measure | Now |
 |---|---:|
-| Entries with a story (History or Origin sentences) | 2,757 |
-| Entries with a Wikidata origin | 4,187 |
-| Entries linked to a family | 3,772 |
+| Entries with a story (History or Origin sentences) | 2,758 |
+| Entries with a Wikidata origin | 4,188 |
+| Entries linked to a family | 3,773 |
 | Entries with a culinary region | 644 |
 | Rich dishes | 529 |
 | Fair dishes | 1,489 |
-| Thin dishes | 1,845 |
+| Thin dishes | 1,846 |
 | Entries with an Indigenous tradition | 29 |
 
 ### Recovery since the atlas sprints began
@@ -123,8 +123,8 @@ Per country ([country_representation.md](docs/audits/country_representation.md))
 | World culinary coverage (%) | 24.7 | 70 |
 | Africa coverage (%) | 6.9 | 52.8 |
 | Oceania coverage (%) | 14.7 | 33.8 |
-| Countries with a dish | 96 | 168 |
-| Country pages | 54 | 165 |
+| Countries with a dish | 96 | 169 |
+| Country pages | 54 | 166 |
 
 ![Coverage recovery](docs/art/coverage_recovery.svg)
 

@@ -9,14 +9,14 @@
   "no photo": 1,
   "weak Walter": 1
  },
- "total": 538,
- "per_country": 3.2,
+ "total": 546,
+ "per_country": 3.23,
  "per_gap": {
-  "no culinary region": 113,
-  "no story": 32,
+  "no culinary region": 114,
+  "no story": 33,
   "no family": 17,
-  "one dish only": 26,
-  "no photo": 44,
+  "one dish only": 27,
+  "no photo": 45,
   "weak Walter": 5
  },
  "countries": [
@@ -202,6 +202,20 @@
    "gaps": [
     "no culinary region",
     "no family",
+    "one dish only",
+    "no photo"
+   ]
+  },
+  {
+   "country": "Marshall Islands",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "dishes": 1,
+   "walter": 4.0,
+   "debt": 8,
+   "gaps": [
+    "no culinary region",
+    "no story",
     "one dish only",
     "no photo"
    ]

@@ -1,6 +1,6 @@
 # Regional source research (Q1 phase 0, 2026-11-25)
 
-113 countries with a dish have no regional data. The goal of phase 0 is a trustworthy source, not data. From `scripts/knowledge/regional_sources.py`. **Audit only:** no region is added; a person chooses the source and the mapping rule (a review item).
+114 countries with a dish have no regional data. The goal of phase 0 is a trustworthy source, not data. From `scripts/knowledge/regional_sources.py`. **Audit only:** no region is added; a person chooses the source and the mapping rule (a review item).
 
 ## Candidate sources
 
@@ -14,7 +14,7 @@
 
 ## How far Wikidata reaches
 
-Wikidata has at least one non-national cuisine item for 33 of the 113 countries (29%); the other 80 have none, so no single free source covers them all. Items are often ethnic or diaspora cuisines (Chinese Islamic, Indonesian-Dutch), not regions, so each needs a check: is it a place within the country?
+Wikidata has at least one non-national cuisine item for 33 of the 114 countries (29%); the other 81 have none, so no single free source covers them all. Items are often ethnic or diaspora cuisines (Chinese Islamic, Indonesian-Dutch), not regions, so each needs a check: is it a place within the country?
 
 ## Proposed mapping (for a person to accept)
 
@@ -62,4 +62,4 @@ Wikidata has at least one non-national cuisine item for 33 of the 113 countries 
 
 ## Countries with no candidate
 
-Afghanistan, Albania, Andorra, Antigua and Barbuda, Armenia, Azerbaijan, Bahrain, Barbados, Belarus, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Bulgaria, Central African Republic, Chad, Curaçao, Czech Republic, Dominica, Dominican Republic, El Salvador, Eritrea, Estonia, Grenada, Guadeloupe, Guam, Guatemala, Guyana, Haiti, Iceland, Jordan, Kazakhstan, Kenya, Kyrgyzstan, Laos, Latvia, Lithuania, Madagascar, Malawi, Maldives, Mali, Malta, Mauritania, Mauritius, Mongolia, Montenegro, Mozambique, Nepal, New Caledonia, New Zealand, Nicaragua, North Korea, North Macedonia, Northern Mariana Islands, Palestine, Panama, Puerto Rico, Romania, Rwanda, Saint Lucia, Samoa, Sierra Leone, Slovakia, Slovenia, Somalia, South Sudan, Sri Lanka, Suriname, Sweden, Tajikistan, The Bahamas, The Gambia, Togo, Tonga, Trinidad and Tobago, Turkmenistan, United Arab Emirates, Uzbekistan, Zambia
+Afghanistan, Albania, Andorra, Antigua and Barbuda, Armenia, Azerbaijan, Bahrain, Barbados, Belarus, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Bulgaria, Central African Republic, Chad, Curaçao, Czech Republic, Dominica, Dominican Republic, El Salvador, Eritrea, Estonia, Grenada, Guadeloupe, Guam, Guatemala, Guyana, Haiti, Iceland, Jordan, Kazakhstan, Kenya, Kyrgyzstan, Laos, Latvia, Lithuania, Madagascar, Malawi, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mongolia, Montenegro, Mozambique, Nepal, New Caledonia, New Zealand, Nicaragua, North Korea, North Macedonia, Northern Mariana Islands, Palestine, Panama, Puerto Rico, Romania, Rwanda, Saint Lucia, Samoa, Sierra Leone, Slovakia, Slovenia, Somalia, South Sudan, Sri Lanka, Suriname, Sweden, Tajikistan, The Bahamas, The Gambia, Togo, Tonga, Trinidad and Tobago, Turkmenistan, United Arab Emirates, Uzbekistan, Zambia

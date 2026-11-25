@@ -3082,22 +3082,22 @@
    "continent": "Oceania",
    "subregion": "Micronesian Region",
    "counted": false,
-   "dishes": 0,
-   "covered": false,
-   "representation": 0.0,
-   "enrichment": 0.0,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 50.0,
    "representation_parts": {
-    "depth": 0.0,
-    "families": 0.0,
+    "depth": 0.333,
+    "families": 1.0,
     "stories": 0.0
    },
    "enrichment_parts": {
-    "origins": 0.0,
+    "origins": 1.0,
     "variants": 0.0,
-    "related": 0.0,
+    "related": 1.0,
     "walter": 0.0
    },
-   "weak": false
+   "weak": true
   },
   {
    "country": "Martinique",

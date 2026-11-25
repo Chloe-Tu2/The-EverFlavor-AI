@@ -1,6 +1,6 @@
-# Country recovery candidates (2026-11-24)
+# Country recovery candidates (2026-11-25)
 
-Campaign A: the 29 UN members still without a dish that have a cuisine page. Their pages link 104 dishes the atlas already holds under another country; for 3 the dish's own intro names the empty country (evidence the multi-origin dish policy allows). From `scripts/knowledge/country_recovery_candidates.py`. **Audit only:** a person writes `add` or `no` in `data/knowledge/review/country_recovery_candidates.csv` (intro rows first); nothing counts until then.
+Campaign A: the 28 UN members still without a dish that have a cuisine page. Their pages link 104 dishes the atlas already holds under another country; for 3 the dish's own intro names the empty country (evidence the multi-origin dish policy allows). From `scripts/knowledge/country_recovery_candidates.py`. **Audit only:** a person writes `add` or `no` in `data/knowledge/review/country_recovery_candidates.csv` (intro rows first); nothing counts until then.
 
 ## Per country
 
@@ -31,7 +31,6 @@ Campaign A: the 29 UN members still without a dish that have a cuisine page. The
 | Namibia | Namibian cuisine | 29 | 1 | 0 |
 | Papua New Guinea | Papua New Guinean cuisine | 28 | 1 | 0 |
 | Vanuatu | Vanuatuan cuisine | 43 | 1 | 0 |
-| Marshall Islands | Marshallese cuisine | 23 | 0 | 0 |
 | Palau | Palauan cuisine | 258 | 0 | 0 |
 | Solomon Islands | Solomon Islands cuisine | 7 | 0 | 0 |
 | Tuvalu | Tuvaluan cuisine | 34 | 0 | 0 |

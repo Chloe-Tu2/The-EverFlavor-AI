@@ -1,6 +1,6 @@
 {
  "by": "scripts/knowledge/empty_country_backlog.py",
- "built_on": "2026-11-24",
+ "built_on": "2026-11-25",
  "countries": [
   {
    "country": "Zimbabwe",
@@ -22,7 +22,7 @@
    "wikidata_dishes": 0,
    "in_the_fetch": true,
    "food_region": "micronesia",
-   "region_dishes": 4,
+   "region_dishes": 5,
    "difficulty": "medium",
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
@@ -34,7 +34,7 @@
    "wikidata_dishes": 0,
    "in_the_fetch": true,
    "food_region": "micronesia",
-   "region_dishes": 4,
+   "region_dishes": 5,
    "difficulty": "medium",
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
@@ -291,18 +291,6 @@
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
   {
-   "country": "Marshall Islands",
-   "cuisine_page": "Marshallese cuisine",
-   "page_links": 24,
-   "category_articles": 3,
-   "wikidata_dishes": 0,
-   "in_the_fetch": true,
-   "food_region": "micronesia",
-   "region_dishes": 4,
-   "difficulty": "medium",
-   "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
-  },
-  {
    "country": "Eswatini",
    "cuisine_page": "Cuisine of Eswatini",
    "page_links": 22,
@@ -322,7 +310,7 @@
    "wikidata_dishes": 0,
    "in_the_fetch": true,
    "food_region": "micronesia",
-   "region_dishes": 4,
+   "region_dishes": 5,
    "difficulty": "medium",
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
@@ -358,7 +346,7 @@
    "wikidata_dishes": 0,
    "in_the_fetch": true,
    "food_region": "micronesia",
-   "region_dishes": 4,
+   "region_dishes": 5,
    "difficulty": "high",
    "try_next": "no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet"
   },
