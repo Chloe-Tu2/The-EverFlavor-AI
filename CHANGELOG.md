@@ -73,6 +73,11 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
   under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
   dishes answer all five; versions are the gap).
+- **Overnight curator reports** (2026-11-24; none decides anything): campaign A's candidates for the 33
+  UN members still empty (`country_recovery_candidates.md`: the shared-dish route is used up, 3 weak
+  candidates); Q2 story recovery (43 countries without a story, material for 5; review item 34); Q4 family
+  recovery (17 countries, 3 candidates); Q1 phase 0 regional source research (Wikidata cuisine items reach 35
+  of 115 countries; review item 33).
 - **Multi-origin dish policy** (decided by med27-coder, 2026-11-24; review item 32): a dish counts for every
   country with sourced evidence (its listing country and Wikidata's countries of origin), never by page proximity
   or a guess; disputes stay with a person (`docs/governance/multi_origin_dish_policy.md`,

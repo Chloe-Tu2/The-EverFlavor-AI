@@ -1,0 +1,229 @@
+{
+ "by": "scripts/knowledge/regional_sources.py",
+ "built_on": "2026-11-24",
+ "source": "Wikidata (CC0): cuisine items with a country, not the national cuisine",
+ "countries": {
+  "Afghanistan": [],
+  "Albania": [],
+  "Andorra": [],
+  "Antigua and Barbuda": [],
+  "Armenia": [],
+  "Austria": [
+   "Viennese cuisine",
+   "cuisine of Burgenland",
+   "cuisine of Vorarlberg"
+  ],
+  "Azerbaijan": [],
+  "Bahrain": [],
+  "Bangladesh": [
+   "Bengali cuisine",
+   "Chittagonian cuisine",
+   "Sylheti cuisine",
+   "cuisine of Dhaka",
+   "cuisine of North Bengal"
+  ],
+  "Barbados": [],
+  "Belarus": [],
+  "Belgium": [
+   "Limburgian cuisine",
+   "cuisine of Brussels",
+   "cuisine of Brussels and Wallonia",
+   "cuisine of Liège",
+   "cuisine of Namur",
+   "cuisine of Wallonia"
+  ],
+  "Belize": [],
+  "Benin": [],
+  "Bhutan": [],
+  "Bolivia": [],
+  "Bosnia and Herzegovina": [],
+  "Brunei": [
+   "cuisine of Malaysia, Singapore and Brunei"
+  ],
+  "Bulgaria": [],
+  "Cambodia": [
+   "Khmer royal cuisine"
+  ],
+  "Central African Republic": [],
+  "Chad": [],
+  "Chile": [
+   "Pascuense cuisine",
+   "cuisine of Chiloé"
+  ],
+  "Colombia": [
+   "cuisine of the Paisa Region"
+  ],
+  "Congo": [
+   "Congolese cuisine"
+  ],
+  "Costa Rica": [
+   "cuisine of Limón Province"
+  ],
+  "Curaçao": [],
+  "Cyprus": [
+   "cuisine of Northern Cyprus"
+  ],
+  "Czech Republic": [],
+  "Denmark": [
+   "Faroese cuisine",
+   "Greenlandic cuisine"
+  ],
+  "Dominica": [],
+  "Dominican Republic": [],
+  "Ecuador": [
+   "cuisine of Guayaquil",
+   "cuisine of Manabí Province",
+   "cuisine of Quito"
+  ],
+  "El Salvador": [],
+  "Eritrea": [],
+  "Estonia": [],
+  "Georgia": [
+   "Abkhazian cuisine"
+  ],
+  "Grenada": [],
+  "Guadeloupe": [],
+  "Guam": [],
+  "Guatemala": [],
+  "Guyana": [],
+  "Haiti": [],
+  "Honduras": [
+   "cuisine of Tegucigalpa"
+  ],
+  "Iceland": [],
+  "Iraq": [
+   "Mosuli cuisine"
+  ],
+  "Ireland": [
+   "cuisine of Britain and Ireland"
+  ],
+  "Israel": [
+   "cuisine of Jerusalem"
+  ],
+  "Jordan": [],
+  "Kazakhstan": [],
+  "Kenya": [],
+  "Kyrgyzstan": [],
+  "Laos": [],
+  "Latvia": [],
+  "Lithuania": [],
+  "Luxembourg": [
+   "Luxembourger cuisine"
+  ],
+  "Madagascar": [],
+  "Malawi": [],
+  "Maldives": [],
+  "Mali": [],
+  "Malta": [],
+  "Mauritania": [],
+  "Mauritius": [],
+  "Moldova": [
+   "Gagauz cuisine"
+  ],
+  "Mongolia": [],
+  "Montenegro": [],
+  "Mozambique": [],
+  "Nepal": [],
+  "New Caledonia": [],
+  "New Zealand": [],
+  "Nicaragua": [],
+  "North Korea": [],
+  "North Macedonia": [],
+  "Northern Mariana Islands": [],
+  "Norway": [
+   "cuisine of Svalbard"
+  ],
+  "Pakistan": [
+   "Muhajir cuisine",
+   "Punjabi cuisine",
+   "cuisine of Karachi"
+  ],
+  "Palestine": [],
+  "Panama": [],
+  "Paraguay": [
+   "cuisine of Asunción"
+  ],
+  "Peru": [
+   "Arequipan cuisine",
+   "Nikkei cuisine",
+   "cuisine of Junín",
+   "cuisine of Tarma"
+  ],
+  "Poland": [
+   "Lublin cuisine",
+   "Opole Silesian cuisine",
+   "Pomeranian cuisine",
+   "cuisine of Greater Poland",
+   "galician cuisine",
+   "podlaskie cuisine",
+   "Świętokrzyskie cuisine"
+  ],
+  "Puerto Rico": [],
+  "Romania": [],
+  "Russia": [
+   "Chukotka cuisine",
+   "Komi cuisine",
+   "Yamal cuisine",
+   "cuisine of Commander Islands"
+  ],
+  "Rwanda": [],
+  "Saint Lucia": [],
+  "Samoa": [],
+  "Serbia": [
+   "Kosovan cuisine"
+  ],
+  "Sierra Leone": [],
+  "Singapore": [
+   "Indian Singaporean cuisine",
+   "cuisine of Malaysia, Singapore and Brunei"
+  ],
+  "Slovakia": [],
+  "Slovenia": [],
+  "Somalia": [],
+  "South Korea": [
+   "Seoul cuisine",
+   "South Korean cuisine"
+  ],
+  "South Sudan": [],
+  "Sri Lanka": [],
+  "Suriname": [],
+  "Sweden": [],
+  "Switzerland": [
+   "cuisine of Ticino"
+  ],
+  "Syria": [
+   "Aleppo cuisine"
+  ],
+  "Tajikistan": [],
+  "The Bahamas": [],
+  "The Gambia": [],
+  "Togo": [],
+  "Tonga": [],
+  "Trinidad and Tobago": [],
+  "Turkey": [
+   "cuisine of İzmir",
+   "Şanlıurfa cuisine"
+  ],
+  "Turkmenistan": [],
+  "Ukraine": [
+   "Hutsul cuisine",
+   "Podolian cuisine",
+   "cuisine of Odesa",
+   "cuisine of Zakarpattia",
+   "galician cuisine"
+  ],
+  "United Arab Emirates": [],
+  "Uruguay": [
+   "cuisine of Montevideo"
+  ],
+  "Uzbekistan": [],
+  "Venezuela": [
+   "cuisine of Monagas state",
+   "cuisine of Mérida state"
+  ],
+  "Yemen": [
+   "Hadhrami cuisine"
+  ],
+  "Zambia": []
+ }
+}

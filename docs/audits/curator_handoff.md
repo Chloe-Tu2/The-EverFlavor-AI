@@ -5,12 +5,12 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 ## Generated at
 
 - Date: 2026-11-24
-- Time: 20:39
-- Git commit: be45f2d+work (compared with be45f2d, 2026-11-24)
+- Time: 20:46
+- Git commit: a91060e+work (compared with be45f2d+work, 2026-11-24)
 
 ## Current status
 
-- Branch: policy/multi-origin-dishes
+- Branch: audit/overnight-curator
 - Campaign: A, empty country recovery (see the planner's order of all campaigns)
 - Version: 0.7.2
 - Release readiness 0.8: 4 of 9 conditions done
@@ -24,7 +24,7 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 - Oceania coverage (%): 32.3
 - countries with a dish: 168
 - UN members with a dish: 160
-- Change since the last run: world culinary coverage (%) 63.7 -> 69.1; Africa coverage (%) 44.0 -> 51.2; countries with a dish 154 -> 168
+- Change since the last run: no change
 
 ## Representation
 
@@ -51,15 +51,15 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 
 ## Governance
 
-- Review items open: 31
-- Review items added since the last run: 0
+- Review items open: 33
+- Review items added since the last run: 2
 - Review items answered by a person: 1 (items 32)
-- Change since the last run: no change
+- Change since the last run: review items open 31 -> 33
 
 ## Atlas debt
 
 - Current debt: 567 (3.38 per country)
-- Debt change: atlas debt 516 -> 567; debt per country 3.35 -> 3.38
+- Debt change: no change
 - Top debt categories:
   1. no culinary region: 115 countries, 345 points
   2. no story: 43 countries, 86 points
@@ -71,27 +71,15 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 
 ## Work completed since the last snapshot
 
-- nothing committed since the last snapshot
+- 05f3bfe Multi-origin dish policy: a dish counts for every sourced origin country
 
 ## What improved
 
-- world culinary coverage (%): 63.7 -> 69.1
-- Africa coverage (%): 44.0 -> 51.2
-- Americas coverage (%): 63.8 -> 71.5
-- Asia coverage (%): 76.6 -> 80.8
-- Europe coverage (%): 84.1 -> 87.8
-- countries with a dish: 154 -> 168
-- debt: no family: 23 -> 17
-- debt: weak Walter: 7 -> 6
+- review items logged: 32 -> 34
 
 ## What regressed
 
-- atlas debt: 516 -> 567
-- debt per country: 3.35 -> 3.38
-- debt: no culinary region: 101 -> 115
-- debt: no story: 39 -> 43
-- debt: one dish only: 25 -> 26
-- debt: no photo: 32 -> 44
+- review items open: 31 -> 33
 
 ## Human review required
 
