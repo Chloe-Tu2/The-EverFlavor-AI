@@ -38,7 +38,7 @@ def main() -> None:
     review = KNOW / "review"
     # (what, gate, unblocks, size, minutes a person needs, roughly)
     items = [
-        ("Item 32: shared dishes, one country or every origin", "1.0",
+        ("Item 32: multi-origin dish policy (one rule for shared dishes)", "1.0",
          f"coverage: up to {packet_countries} empty UN members gain a dish ({len(packets)} dishes)", 30),
         ("Item 21: coverage counting rule and weights", "0.8", "coverage shown in the app (a 0.8 condition)", 15),
         ("Items 24, 28, 29, 30: sprint moves, country scores, sprint 4 entries", "0.8",

@@ -73,6 +73,10 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
   under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
   dishes answer all five; versions are the gap).
+- **Continuous handoff** (2026-11-24): `atlas_health.py` also writes `docs/audits/curator_handoff.md` (what
+  improved, regressed, is blocked, needs a person, is next, against a daily history) and
+  `docs/audits/release_readiness.md`. The planner adds quality campaigns Q1 to Q4 against the atlas debt, one
+  order for all campaigns and a session routine; review item 32 becomes a multi-origin dish policy.
 - **Atlas health and atlas debt** (2026-11-24): `scripts/knowledge/atlas_health.py` writes
   `docs/audits/atlas_health.md` every run: the five measures, an atlas debt per country (227 points over 154
   countries; the most common gaps are no culinary region data, 101, and no story, 39) and release readiness

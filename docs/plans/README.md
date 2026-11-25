@@ -390,6 +390,31 @@ Baselines from the sprint 4 run (2026-11-23, `data/knowledge/atlas/culinary_cove
 Western Asia comes before the Caribbean (med27-coder, 2026-11-24): it links the Levant, Arabian Peninsula, Mesopotamia and Persian region, which feeds region pages, Walter and related dishes. Central Asia (76.8%), Eastern Europe (82.0%) and South Asia (88.1%) are already strong and are not campaigns; they get depth work
 (representation, enrichment) when it comes up.
 
+**Quality campaigns (med27-coder, 2026-11-24).** World coverage is past its 1.0 target, so lowering the atlas debt
+is now a first-class objective next to coverage: 227 points on 2026-11-24, aiming for 200, then 150, then 100
+([atlas_health.md](../audits/atlas_health.md); history in `data/knowledge/atlas/atlas_health_history.jsonl`).
+
+| Campaign | Gap | Countries (2026-11-24) | Note |
+|---|---|---:|---|
+| Q1. Regional data | no culinary region | 101 | needs a free source for food regions within countries first |
+| Q2. Story recovery | no story | 39 | History or Origin sentences from the dishes' own articles |
+| Q3. Image completion | no photo | 32 | Claude finds and queues; a person approves every photo |
+| Q4. Family recovery | no dish family | 23 | Wikidata families or new family nodes, never guessed |
+
+**Order of all campaigns:** 1. A Empty countries, 2. D Africa 50%, 3. C Oceania 35%, 4. Q1 Regional data,
+5. E Western Asia, 6. F Southern Africa, 7. B Caribbean, 8. Q2 Story recovery, 9. Q4 Family recovery,
+10. Q3 Image completion. A campaign blocked by a review item gives way to the next one.
+
+**Session routine (continuous handoff, med27-coder, 2026-11-24).** Claude only works while a session is open, so
+the project is built for handoff, not continuous running: everything a new session needs is in the repository.
+
+1. Read [curator_handoff.md](../audits/curator_handoff.md), then atlas health, review impact and release readiness
+   (`docs/audits/`).
+2. Continue the highest campaign in the order above that is not blocked.
+3. Rerun the audit chain, ending with `review_impact.py` and `atlas_health.py`.
+4. Merge the verified work; `curator_handoff.md` then answers what improved, what regressed, what is blocked, what
+   needs a person and what is next.
+
 **Atlas charter (unattended work, med27-coder, 2026-11-24).** EverFlavor is a culinary atlas, and unattended work
 is curation, not collection: the risk is coverage rising while quality stands still, or review queues growing
 without structure. Raise coverage, representation, enrichment, preservation and governance; never optimise for
@@ -397,7 +422,7 @@ dish count alone. Prefer a new country over another dish in a well-covered one, 
 variant, a weak region over a strong one, knowledge quality over dish count, representation over volume,
 preservation over expansion, and governance over speed. Lowering the **atlas debt** (countries with one dish, no
 photo, no story, no family, no culinary region or weak Walter coverage; [atlas_health.md](../audits/atlas_health.md))
-usually beats adding the next dish. Campaign order while med27-coder is away: A, D, C, F, E, B.
+usually beats adding the next dish. Campaign order: see the order of all campaigns above.
 
 - Every run regenerates atlas health (the five measures, atlas debt, 0.8 / 0.9 / 1.0 readiness: done, waiting on
   a person, open) and the review impact report (which decision unblocks the most).

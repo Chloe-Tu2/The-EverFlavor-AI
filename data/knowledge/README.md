@@ -92,6 +92,8 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   rerun (`scripts/knowledge/empty_country_packets.py`, review item 32).
 - `atlas/atlas_debt.json`: per country with a dish, its atlas debt (one point per gap) and the gaps, from
   `scripts/knowledge/atlas_health.py`.
+- `atlas/atlas_health_history.jsonl`: one snapshot per day of the atlas debt and coverage, so each handoff can
+  say what improved or regressed.
 - `quality/walter_country_scores.json`: per country, the average of Walter's five questions its dishes answer
   (`scripts/knowledge/walter_gaps.py`).
 - `review/cuisine_images.csv` is sorted by a first risk check (`risk`: likely wrong, needs a look, probably right,
