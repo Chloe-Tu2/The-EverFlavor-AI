@@ -73,6 +73,17 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
   under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
   dishes answer all five; versions are the gap).
+- **Multi-origin dish policy** (decided by med27-coder, 2026-11-24; review item 32): a dish counts for every
+  country with sourced evidence (its listing country and Wikidata's countries of origin), never by page proximity
+  or a guess; disputes stay with a person (`docs/governance/multi_origin_dish_policy.md`,
+  `scripts/knowledge/dish_origins.py`). 500 dishes count for more than one country; 14 countries get their first
+  dish, among them the six empty UN members of campaign A. World coverage 63.7% to 69.1%, Africa 44.0% to 51.2%
+  (the 1.0 target), UN members with a dish 148 to 160. A person can drop any added country in
+  `data/knowledge/review/shared_dish_origins.csv`.
+- **Weighted atlas debt and the handoff report:** the debt is weighted (regions 3; story, family, one dish 2;
+  photo, Walter 1) and followed per country (3.35 to 3.38: the new countries bring their own gaps), with the
+  country priority list and the 20 weakest Walter countries; `curator_handoff.md` follows the session handoff
+  format, compared snapshot to snapshot.
 - **Continuous handoff** (2026-11-24): `atlas_health.py` also writes `docs/audits/curator_handoff.md` (what
   improved, regressed, is blocked, needs a person, is next, against a daily history) and
   `docs/audits/release_readiness.md`. The planner adds quality campaigns Q1 to Q4 against the atlas debt, one

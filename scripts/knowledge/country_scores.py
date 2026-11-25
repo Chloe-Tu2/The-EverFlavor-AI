@@ -27,6 +27,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).parent))
 
+from dish_origins import countries_of
 from quality_reports import read, save_md, table
 
 KNOW = ROOT / "data" / "knowledge"
@@ -61,7 +62,8 @@ def main() -> None:
     for line in (KNOW / "dishes.jsonl").open(encoding="utf-8"):
         d = json.loads(line)
         if d.get("kind") == "dish":
-            by_country[d["country"]].append(d)
+            for country in countries_of(d):   # the multi-origin dish policy
+                by_country[country].append(d)
     families = set(read(KNOW / "dish_families.json").get("dish_families", {}))
     walter = read(KNOW / "walter_context.json")["dishes"]
     paths = read(KNOW / "discovery_paths.json")["dishes"]

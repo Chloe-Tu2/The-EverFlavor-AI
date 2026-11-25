@@ -1,6 +1,6 @@
 {
  "about": {
-  "built_on": "2026-11-23",
+  "built_on": "2026-11-24",
   "by": "scripts/knowledge/atlas_audit.py",
   "regions": {
    "name": "Unicode CLDR territory containment (UN M49 regions)",

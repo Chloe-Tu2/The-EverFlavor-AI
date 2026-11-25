@@ -16,7 +16,7 @@
   "Netherlands",
   "Switzerland"
  ],
- "coverage_score": 89.4,
+ "coverage_score": 90.6,
  "dish_count": 176,
  "food_and_drink_count": 81,
  "story_count": 145,
@@ -65,6 +65,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

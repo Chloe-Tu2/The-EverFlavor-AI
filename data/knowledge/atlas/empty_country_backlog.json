@@ -1,79 +1,7 @@
 {
  "by": "scripts/knowledge/empty_country_backlog.py",
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "countries": [
-  {
-   "country": "Belarus",
-   "cuisine_page": "Belarusian cuisine",
-   "page_links": 152,
-   "category_articles": 44,
-   "wikidata_dishes": 8,
-   "in_the_fetch": true,
-   "food_region": "eastern_europe",
-   "region_dishes": 125,
-   "difficulty": "low",
-   "try_next": "Wikidata gives dishes: check why the fetch did not keep them (page title, type)"
-  },
-  {
-   "country": "Jordan",
-   "cuisine_page": "Jordanian cuisine",
-   "page_links": 139,
-   "category_articles": 62,
-   "wikidata_dishes": 3,
-   "in_the_fetch": true,
-   "food_region": "levant",
-   "region_dishes": 67,
-   "difficulty": "low",
-   "try_next": "Wikidata gives dishes: check why the fetch did not keep them (page title, type)"
-  },
-  {
-   "country": "Barbados",
-   "cuisine_page": "Barbadian cuisine",
-   "page_links": 63,
-   "category_articles": 21,
-   "wikidata_dishes": 1,
-   "in_the_fetch": true,
-   "food_region": "caribbean_islands",
-   "region_dishes": 100,
-   "difficulty": "low",
-   "try_next": "Wikidata gives dishes: check why the fetch did not keep them (page title, type)"
-  },
-  {
-   "country": "Eritrea",
-   "cuisine_page": "Eritrean cuisine",
-   "page_links": 62,
-   "category_articles": 25,
-   "wikidata_dishes": 5,
-   "in_the_fetch": true,
-   "food_region": "east_africa",
-   "region_dishes": 37,
-   "difficulty": "low",
-   "try_next": "Wikidata gives dishes: check why the fetch did not keep them (page title, type)"
-  },
-  {
-   "country": "Togo",
-   "cuisine_page": "Togolese cuisine",
-   "page_links": 53,
-   "category_articles": 10,
-   "wikidata_dishes": 3,
-   "in_the_fetch": true,
-   "food_region": "west_africa",
-   "region_dishes": 72,
-   "difficulty": "low",
-   "try_next": "Wikidata gives dishes: check why the fetch did not keep them (page title, type)"
-  },
-  {
-   "country": "Sierra Leone",
-   "cuisine_page": "Sierra Leonean cuisine",
-   "page_links": 51,
-   "category_articles": 5,
-   "wikidata_dishes": 1,
-   "in_the_fetch": true,
-   "food_region": "west_africa",
-   "region_dishes": 72,
-   "difficulty": "low",
-   "try_next": "Wikidata gives dishes: check why the fetch did not keep them (page title, type)"
-  },
   {
    "country": "Zimbabwe",
    "cuisine_page": "Zimbabwean cuisine",
@@ -123,18 +51,6 @@
    "try_next": "not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
   {
-   "country": "Andorra",
-   "cuisine_page": "Andorran cuisine",
-   "page_links": 140,
-   "category_articles": 5,
-   "wikidata_dishes": 0,
-   "in_the_fetch": true,
-   "food_region": "mediterranean_europe",
-   "region_dishes": 583,
-   "difficulty": "medium",
-   "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
-  },
-  {
    "country": "Qatar",
    "cuisine_page": "Qatari cuisine",
    "page_links": 86,
@@ -151,18 +67,6 @@
    "cuisine_page": "Cuisine of São Tomé and Príncipe",
    "page_links": 79,
    "category_articles": 0,
-   "wikidata_dishes": 0,
-   "in_the_fetch": true,
-   "food_region": "central_africa",
-   "region_dishes": 16,
-   "difficulty": "medium",
-   "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
-  },
-  {
-   "country": "Congo",
-   "cuisine_page": "Republic of the Congo cuisine",
-   "page_links": 57,
-   "category_articles": 4,
    "wikidata_dishes": 0,
    "in_the_fetch": true,
    "food_region": "central_africa",
@@ -203,18 +107,6 @@
    "in_the_fetch": true,
    "food_region": "southeast_asia",
    "region_dishes": 575,
-   "difficulty": "medium",
-   "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
-  },
-  {
-   "country": "Panama",
-   "cuisine_page": "Panamanian cuisine",
-   "page_links": 50,
-   "category_articles": 27,
-   "wikidata_dishes": 0,
-   "in_the_fetch": true,
-   "food_region": "mexico_central_america",
-   "region_dishes": 135,
    "difficulty": "medium",
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
@@ -315,18 +207,6 @@
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
   {
-   "country": "Grenada",
-   "cuisine_page": "Grenadian cuisine",
-   "page_links": 32,
-   "category_articles": 8,
-   "wikidata_dishes": 0,
-   "in_the_fetch": true,
-   "food_region": "caribbean_islands",
-   "region_dishes": 100,
-   "difficulty": "medium",
-   "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
-  },
-  {
    "country": "Comoros",
    "cuisine_page": "Comorian cuisine",
    "page_links": 31,
@@ -349,18 +229,6 @@
    "region_dishes": 0,
    "difficulty": "medium",
    "try_next": "not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then the cuisine page links many articles, none kept by the claim rule: a person picks from them"
-  },
-  {
-   "country": "Dominica",
-   "cuisine_page": "Dominica cuisine",
-   "page_links": 29,
-   "category_articles": 5,
-   "wikidata_dishes": 0,
-   "in_the_fetch": true,
-   "food_region": "caribbean_islands",
-   "region_dishes": 100,
-   "difficulty": "medium",
-   "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
   {
    "country": "Namibia",
@@ -443,18 +311,6 @@
    "in_the_fetch": true,
    "food_region": "southern_africa",
    "region_dishes": 33,
-   "difficulty": "medium",
-   "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
-  },
-  {
-   "country": "Saint Lucia",
-   "cuisine_page": "Saint Lucian cuisine",
-   "page_links": 22,
-   "category_articles": 4,
-   "wikidata_dishes": 0,
-   "in_the_fetch": true,
-   "food_region": "caribbean_islands",
-   "region_dishes": 100,
    "difficulty": "medium",
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },

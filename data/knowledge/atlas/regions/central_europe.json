@@ -20,7 +20,7 @@
   "Slovenia",
   "Switzerland"
  ],
- "coverage_score": 92.1,
+ "coverage_score": 94.1,
  "dish_count": 249,
  "food_and_drink_count": 106,
  "story_count": 171,
@@ -69,6 +69,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

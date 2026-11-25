@@ -12,7 +12,7 @@
   "Latvia",
   "Lithuania"
  ],
- "coverage_score": 92.1,
+ "coverage_score": 92.5,
  "dish_count": 13,
  "food_and_drink_count": 8,
  "story_count": 4,
@@ -61,6 +61,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

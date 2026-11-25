@@ -28,6 +28,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).parent))
 sys.path.insert(0, str(ROOT / "src"))
 
+from dish_origins import countries_of
 from quality_reports import read, save_md, table
 
 KNOW = ROOT / "data" / "knowledge"
@@ -95,8 +96,8 @@ def un_states() -> dict:
     from everflavor.knowledge import _sparql
     rows = _sparql(UN_QUERY, ROOT / "data" / "raw" / "knowledge_cache" / "wikidata")
     members = sorted({UN_NAMES.get(r["cLabel"], r["cLabel"]) for r in rows})
-    have = {json.loads(line)["country"] for line in (KNOW / "dishes.jsonl").open(encoding="utf-8")
-            if json.loads(line)["kind"] == "dish"}
+    have = {c for line in (KNOW / "dishes.jsonl").open(encoding="utf-8")
+            for d in [json.loads(line)] if d["kind"] == "dish" for c in countries_of(d)}
     return {"members": len(members), "members_with_a_dish": sum(m in have for m in members),
             "observers": len(UN_OBSERVERS), "observers_with_a_dish": sum(o in have for o in UN_OBSERVERS),
             "members_without_a_dish": [m for m in members if m not in have], "member_states": members}
@@ -153,7 +154,7 @@ def main() -> None:
         if any(lm["level"] == "more" and "cuisine" in lm["url"].lower() for lm in d.get("learn_more", [])):
             cuisine.add(d["country"])
         if d.get("story_candidates"):
-            history.add(d["country"])
+            history.update(countries_of(d))   # a dish's story tells of every country it comes from
 
     rows = []
     for a in atlas:

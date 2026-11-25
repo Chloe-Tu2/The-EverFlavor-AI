@@ -15,7 +15,7 @@
   "Palestine",
   "Syria"
  ],
- "coverage_score": 70.4,
+ "coverage_score": 86.3,
  "dish_count": 67,
  "food_and_drink_count": 39,
  "story_count": 69,
@@ -64,6 +64,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

@@ -352,7 +352,7 @@ dishes.
 | Release | CI green; the team tries `release/0.9.0` and approves | person | after the above |
 
 **1.0.0, Culinary Atlas.** Represent the world's culinary traditions, not only collect recipes. Targets, against
-2026-11-23 (after sprint 4): world coverage at least 60% (63.7%, met), Africa at least 50% (44.0%), Oceania at
+2026-11-24 (with the multi-origin dish policy): world coverage at least 60% (69.1%, met), Africa at least 50% (51.2%, met), Oceania at
 least 35% (32.3%),
 every country in the app with a dish, country and region pages complete, the Food Graph and dish families stable,
 Walter's knowledge reviewed, no open critical review item, and the sprint checklist and release process in use.
@@ -379,7 +379,7 @@ Baselines from the sprint 4 run (2026-11-23, `data/knowledge/atlas/culinary_cove
 
 | Campaign | State | Target | Baseline |
 |---|---|---|---|
-| A. Empty country recovery | active | More UN members with a dish; first Belarus, Eritrea, Jordan, Togo, Barbados, Sierra Leone: their 21 Wikidata dishes are shared dishes listed under a neighbour, so a person decides each (item 32, [empty_country_packets.md](../audits/empty_country_packets.md)) | 148 of 193 members |
+| A. Empty country recovery | active | More UN members with a dish. The multi-origin dish policy (2026-11-24) gave Belarus, Eritrea, Jordan, Togo, Barbados and Sierra Leone their first dishes, with Andorra, Congo, Dominica, Grenada, Panama, Saint Lucia, Guadeloupe and the Northern Mariana Islands ([multi_origin_dishes.md](../audits/multi_origin_dishes.md)); next, the 33 members still empty ([empty_country_backlog.md](../audits/empty_country_backlog.md)) | 160 of 193 members (148 before the policy) |
 | D. Africa 50% | planned | Africa coverage at least 50% (a 1.0 target); West and Central Africa first | 44.0% (Middle 32.6%, Western 38.6%) |
 | C. Oceania 35% | planned | Oceania coverage at least 35% (a 1.0 target); Polynesia, Micronesia and Melanesia pages | 32.3% |
 | F. Southern Africa expansion | planned | Feeds Africa 50% directly | 2 of 5 countries, 36.1% |
@@ -396,20 +396,24 @@ is now a first-class objective next to coverage: 227 points on 2026-11-24, aimin
 
 | Campaign | Gap | Countries (2026-11-24) | Note |
 |---|---|---:|---|
-| Q1. Regional data | no culinary region | 101 | needs a free source for food regions within countries first |
+| Q1. Regional data | no culinary region | 101 | phase 0 first, source discovery: `docs/audits/regional_source_research.md` (which free, reusable sources name food regions within countries, how far they reach, how fine-grained); nothing is filled in until a source is chosen |
 | Q2. Story recovery | no story | 39 | History or Origin sentences from the dishes' own articles |
 | Q3. Image completion | no photo | 32 | Claude finds and queues; a person approves every photo |
 | Q4. Family recovery | no dish family | 23 | Wikidata families or new family nodes, never guessed |
+| Walter debt | weak Walter coverage | 7 | the weakest countries in [walter_five_questions.md](../audits/walter_five_questions.md) become enrichment targets |
+| Q5. Multi-origin normalization (later) | shared dishes | see [multi_origin_dishes.md](../audits/multi_origin_dishes.md) | record every sourced origin, link related countries, feed region pages; builds on the [multi-origin dish policy](../governance/multi_origin_dish_policy.md) |
 
-**Order of all campaigns:** 1. A Empty countries, 2. D Africa 50%, 3. C Oceania 35%, 4. Q1 Regional data,
-5. E Western Asia, 6. F Southern Africa, 7. B Caribbean, 8. Q2 Story recovery, 9. Q4 Family recovery,
-10. Q3 Image completion. A campaign blocked by a review item gives way to the next one.
+**Order of all campaigns (med27-coder, 2026-11-24):** 1. A Empty countries, 2. D Africa 50%, 3. C Oceania 35%,
+4. Q2 Story recovery, 5. Walter debt, 6. Q1 phase 0 (regional source research), 7. Q4 Family recovery,
+8. Q3 Image readiness, 9. E Western Asia, 10. B Caribbean; F Southern Africa runs inside D. Not the biggest
+datasets first, the biggest improvements to the atlas. A campaign blocked by a review item gives way to the next
+one.
 
 **Session routine (continuous handoff, med27-coder, 2026-11-24).** Claude only works while a session is open, so
 the project is built for handoff, not continuous running: everything a new session needs is in the repository.
 
-1. Read [curator_handoff.md](../audits/curator_handoff.md), then atlas health, review impact and release readiness
-   (`docs/audits/`).
+1. Read [curator_handoff.md](../audits/curator_handoff.md), then the campaign scoreboard, atlas health, review
+   impact and release readiness (`docs/audits/`).
 2. Continue the highest campaign in the order above that is not blocked.
 3. Rerun the audit chain, ending with `review_impact.py` and `atlas_health.py`.
 4. Merge the verified work; `curator_handoff.md` then answers what improved, what regressed, what is blocked, what
@@ -422,7 +426,12 @@ dish count alone. Prefer a new country over another dish in a well-covered one, 
 variant, a weak region over a strong one, knowledge quality over dish count, representation over volume,
 preservation over expansion, and governance over speed. Lowering the **atlas debt** (countries with one dish, no
 photo, no story, no family, no culinary region or weak Walter coverage; [atlas_health.md](../audits/atlas_health.md))
-usually beats adding the next dish. Campaign order: see the order of all campaigns above.
+usually beats adding the next dish: when the coverage targets are already met, prefer reducing the atlas debt
+over increasing the dish count. Campaign order: see the order of all campaigns above. If world coverage, the dish count or
+the country count rises but the atlas debt per country does not fall, debt reduction comes before further
+expansion ([campaign_scoreboard.md](../audits/campaign_scoreboard.md) says which applies). Not part of unattended
+work: redesigning the architecture, moving or renaming files without proven duplication, speculative refactors,
+new governance documents beyond what a decision needs, and the loading screen.
 
 - Every run regenerates atlas health (the five measures, atlas debt, 0.8 / 0.9 / 1.0 readiness: done, waiting on
   a person, open) and the review impact report (which decision unblocks the most).

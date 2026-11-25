@@ -55,32 +55,32 @@ Dishes the app links the most recipes to, first (the full list: `data/knowledge/
 
 ## Walter coverage score per country
 
-The average number of the five questions a country's dishes answer (0 to 5), weakest first; 154 countries, all in `data/knowledge/quality/walter_country_scores.json`. A low score points to missing stories, origins, variants or graph links there.
+The average number of the five questions a country's dishes answer (0 to 5), weakest first; 168 countries, all in `data/knowledge/quality/walter_country_scores.json`. A low score points to missing stories, origins, variants or graph links there.
 
 | Country | Dishes | Score (of 5) | Dishes with all five |
 |---|---:|---:|---:|
 | Bahrain | 1 | 2.00 | 0 |
 | Belize | 1 | 2.00 | 0 |
-| Tajikistan | 1 | 2.00 | 0 |
 | The Bahamas | 1 | 2.00 | 0 |
 | Central African Republic | 2 | 2.50 | 0 |
 | Tonga | 2 | 2.50 | 0 |
 | Turkmenistan | 2 | 2.50 | 0 |
-| Slovakia | 10 | 3.00 | 0 |
-| Puerto Rico | 8 | 3.00 | 0 |
-| Cyprus | 7 | 3.00 | 0 |
+| Slovakia | 11 | 3.00 | 0 |
 | Angola | 3 | 3.00 | 0 |
-| Kyrgyzstan | 3 | 3.00 | 0 |
 | Mauritius | 3 | 3.00 | 0 |
 | Seychelles | 3 | 3.00 | 0 |
-| Syria | 3 | 3.00 | 0 |
-| Benin | 2 | 3.00 | 0 |
-| Chad | 2 | 3.00 | 0 |
-| Guyana | 2 | 3.00 | 0 |
-| Moldova | 2 | 3.00 | 0 |
+| Mali | 2 | 3.00 | 0 |
 | South Sudan | 2 | 3.00 | 0 |
-| Antigua and Barbuda | 1 | 3.00 | 0 |
+| Andorra | 1 | 3.00 | 0 |
+| Congo | 1 | 3.00 | 0 |
 | Curaçao | 1 | 3.00 | 0 |
 | Malawi | 1 | 3.00 | 0 |
-| Mali | 1 | 3.00 | 0 |
 | Mauritania | 1 | 3.00 | 0 |
+| Montenegro | 1 | 3.00 | 0 |
+| Mozambique | 1 | 3.00 | 0 |
+| New Caledonia | 1 | 3.00 | 0 |
+| Rwanda | 1 | 3.00 | 0 |
+| Samoa | 1 | 3.00 | 0 |
+| The Gambia | 1 | 3.00 | 0 |
+| Zambia | 1 | 3.00 | 0 |
+| Puerto Rico | 9 | 3.11 | 0 |

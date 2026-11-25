@@ -1,4 +1,4 @@
-# Dish completeness (2026-11-23)
+# Dish completeness (2026-11-24)
 
 How complete our 3,863 dishes are, by the completeness score (0-100, the team's weights; full detail per part in [dish_quality_report.md](dish_quality_report.md)), and what would move them up. Nothing here changes a dish: the second column is a projection.
 
@@ -30,7 +30,7 @@ Of the 3,334 dishes below rich, the parts they lack most (a dish can lack severa
 | story sentences (history, origin, culture) | 2,060 | fetch_knowledge.py --stories |
 | fun-fact sentences from its Wikipedia intro | 1,488 | fetch_knowledge.py |
 | its ingredients on Wikidata (P186, made from) | 1,400 | Wikidata itself |
-| map places in the pilot area for its country | 1,238 | stores.COUNTRY_CUISINES and the places table |
+| map places in the pilot area for its country | 1,218 | stores.COUNTRY_CUISINES and the places table |
 | a dish family (notebook 15) | 929 | notebook 15, when Wikidata files it under one |
 | a country of origin on Wikidata (P495) | 767 | Wikidata itself: nothing to fill on our side |
 | a summary from its Wikipedia article | 1 | scripts/knowledge/fetch_knowledge.py |

@@ -18,7 +18,7 @@
   "South Korea",
   "Taiwan"
  ],
- "coverage_score": 93.4,
+ "coverage_score": 94.0,
  "dish_count": 402,
  "food_and_drink_count": 194,
  "story_count": 334,
@@ -64,6 +64,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

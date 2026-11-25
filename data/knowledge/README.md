@@ -87,6 +87,9 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
 - `review/focus_review_priority.csv`: the fact review sheet's rows in a suggested order, the most seen first (recipes
   linked to the dish, and what Walter shows first), from `scripts/knowledge/review_priority.py`; verdicts still go
   in `focus_review.csv`.
+- `review/shared_dish_origins.csv`: every country a dish counts for beyond its listing country, by Wikidata's
+  origin (the multi-origin dish policy, `scripts/knowledge/dish_origins.py`); a person writes `drop` in `verdict`
+  with their name in `reviewer` to stop a country counting. Verdicts are kept on rerun.
 - `review/empty_country_packets.csv`: campaign A's dishes for the six empty UN members whose dishes Wikidata
   knows, with where the atlas has each now; a person writes `verdict` (move, keep or both) and `note`, kept on
   rerun (`scripts/knowledge/empty_country_packets.py`, review item 32).

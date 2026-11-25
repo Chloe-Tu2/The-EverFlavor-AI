@@ -12,7 +12,7 @@
   "Azerbaijan",
   "Georgia"
  ],
- "coverage_score": 96.6,
+ "coverage_score": 97.3,
  "dish_count": 42,
  "food_and_drink_count": 32,
  "story_count": 20,
@@ -61,6 +61,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

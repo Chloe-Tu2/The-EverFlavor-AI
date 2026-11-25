@@ -30,6 +30,9 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from everflavor.taxonomy import load_taxonomy
 
+sys.path.insert(0, str(Path(__file__).parent))
+from dish_origins import countries_of
+
 KNOW = ROOT / "data" / "knowledge"
 OUT = KNOW / "coverage"
 DOCS = ROOT / "docs" / "audits"
@@ -146,15 +149,16 @@ def build(src: dict) -> dict:
     per = defaultdict(lambda: {"dishes": 0, "dishes_with_recipes": 0, "families": set(), "variants": 0,
                                "missing": 0, "regions": Counter(), "examples": [], "missing_examples": []})
     for q, d in ours.items():
-        p = per[d.get("country") or ""]
-        p["dishes"] += 1
-        p["dishes_with_recipes"] += q in linked
-        for f in fam_of_member.get(q, []):
-            p["families"].add(f["name"])
-            p["variants"] += 1
-        if d.get("region"):
-            p["regions"][d["region"]] += 1
-        p["examples"].append((linked.get(q, {}).get("recipes", 0), d["name"]))
+        for i, country in enumerate(countries_of(d) or [""]):   # the multi-origin dish policy: every origin
+            p = per[country]
+            p["dishes"] += 1
+            p["dishes_with_recipes"] += q in linked
+            for f in fam_of_member.get(q, []):
+                p["families"].add(f["name"])
+                p["variants"] += 1
+            if d.get("region") and i == 0:   # a culinary region belongs to the listing country
+                p["regions"][d["region"]] += 1
+            p["examples"].append((linked.get(q, {}).get("recipes", 0), d["name"]))
     for m in missing.values():
         commercial, not_food, _ = what_it_is(kinds.get(m["qid"], {}))
         if commercial or not_food:

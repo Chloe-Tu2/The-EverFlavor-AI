@@ -1,4 +1,4 @@
-# The waiter's knowledge coverage (2026-11-23)
+# The waiter's knowledge coverage (2026-11-24)
 
 What the waiter can tell about each dish, all of it copied from Wikipedia (credited) and Wikidata, never written by a model.
 

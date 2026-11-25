@@ -30,7 +30,7 @@
   "Uruguay",
   "Venezuela"
  ],
- "coverage_score": 87.6,
+ "coverage_score": 92.7,
  "dish_count": 154,
  "food_and_drink_count": 101,
  "story_count": 102,
@@ -80,6 +80,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

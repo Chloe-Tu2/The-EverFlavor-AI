@@ -1,21 +1,21 @@
 {
  "by": "scripts/knowledge/enrichment_impact.py",
- "generated_at": "2026-11-23",
+ "generated_at": "2026-11-24",
  "baseline": "d14d0fd",
  "coverage": {
-  "world culinary coverage (%)": 63.7,
-  "Africa coverage (%)": 44.0,
-  "Americas coverage (%)": 63.8,
-  "Asia coverage (%)": 76.6,
-  "Europe coverage (%)": 84.1,
+  "world culinary coverage (%)": 69.1,
+  "Africa coverage (%)": 51.2,
+  "Americas coverage (%)": 71.5,
+  "Asia coverage (%)": 80.8,
+  "Europe coverage (%)": 87.8,
   "Oceania coverage (%)": 32.3,
-  "countries with a dish": 154,
+  "countries with a dish": 168,
   "country pages": 165
  },
  "representation": {
   "dish families and categories": 707,
-  "countries with three dishes or more": 115,
-  "countries with a story": 115,
+  "countries with three dishes or more": 130,
+  "countries with a story": 125,
   "Indigenous traditions tracked": 6
  },
  "enrichment": {
@@ -34,27 +34,27 @@
  "recovery": {
   "Africa coverage (%)": {
    "before": 6.9,
-   "now": 44.0
+   "now": 51.2
   },
   "Americas coverage (%)": {
    "before": 23.8,
-   "now": 63.8
+   "now": 71.5
   },
   "Asia coverage (%)": {
    "before": 30.8,
-   "now": 76.6
+   "now": 80.8
   },
   "Europe coverage (%)": {
    "before": 45.5,
-   "now": 84.1
+   "now": 87.8
   },
   "Oceania coverage (%)": {
    "before": 14.7,
    "now": 32.3
   },
   "countries with a story": {
-   "before": 52,
-   "now": 115
+   "before": 81,
+   "now": 125
   },
   "rich dishes": {
    "before": 505,
@@ -77,12 +77,12 @@
    "now": 3863
   },
   "countries with a dish": {
-   "before": 53,
-   "now": 154
+   "before": 96,
+   "now": 168
   },
   "countries with three dishes or more": {
-   "before": 50,
-   "now": 115
+   "before": 65,
+   "now": 130
   },
   "country pages": {
    "before": 54,
@@ -122,16 +122,16 @@
   },
   "world culinary coverage (%)": {
    "before": 24.7,
-   "now": 63.7
+   "now": 69.1
   }
  },
  "country_scores": {
   "countries": 200,
-  "covered": 154,
-  "with three dishes or more": 115,
-  "weak representation": 42,
-  "representation (average of covered countries)": 60.0,
-  "enrichment (average of covered countries)": 55.2
+  "covered": 165,
+  "with three dishes or more": 130,
+  "weak representation": 38,
+  "representation (average of covered countries)": 62.2,
+  "enrichment (average of covered countries)": 57.7
  },
  "not_measured_yet": [
   "countries with images"

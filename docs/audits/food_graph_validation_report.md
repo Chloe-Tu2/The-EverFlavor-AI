@@ -1,4 +1,4 @@
-# Food Graph validation (2026-11-23)
+# Food Graph validation (2026-11-24)
 
 `scripts/knowledge/graph_validation.py` built the Food Graph as the app does (dishes, families, versions and the place tree; recipes are counted in `data/knowledge/recipe_graph_counts.json`) and checked its links. **Nothing was changed.**
 
