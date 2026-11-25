@@ -1,4 +1,4 @@
-# Coverage: the Americas and the Caribbean (2026-11-23)
+# Coverage: the Americas and the Caribbean (2026-11-24)
 
 Back to [world coverage](coverage_world.md).
 
@@ -8,62 +8,62 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Jamaica | high | 50 | 39 | 32 | 46 | 402 | 1 | 98% |
-| Cuba | medium | 22 | 13 | 9 | 12 | 397 | 0 | 100% |
-| Puerto Rico | low | 8 | 4 | 3 | 3 | 71 | 0 | 100% |
+| Jamaica | high | 51 | 40 | 32 | 47 | 402 | 1 | 98% |
+| Cuba | medium | 23 | 14 | 9 | 12 | 397 | 0 | 100% |
+| Puerto Rico | low | 9 | 5 | 4 | 4 | 71 | 0 | 100% |
 | Trinidad and Tobago | low | 8 | 6 | 4 | 7 | 0 | 0 | 100% |
 | Haiti | low | 6 | 2 | 2 | 3 | 0 | 0 | 100% |
 | Dominican Republic | low | 3 | 2 | 3 | 3 | 0 | 0 | 100% |
-| Antigua and Barbuda | low | 1 | 1 | 0 | 0 | 3 | 0 | 100% |
+| Dominica | low | 2 | 2 | 1 | 1 | 15 | 0 | 100% |
+| Antigua and Barbuda | low | 2 | 2 | 1 | 1 | 3 | 0 | 100% |
+| Barbados | low | 1 | 1 | 1 | 1 | 6 | 0 | 100% |
 | Curaçao | low | 1 | 1 | 0 | 0 | 0 | 0 | 100% |
+| Grenada | low | 1 | 1 | 1 | 1 | 0 | 0 | 100% |
+| Guadeloupe | low | 1 | 1 | 0 | 0 | 0 | 0 | 100% |
+| Saint Lucia | low | 1 | 1 | 1 | 1 | 0 | 0 | 100% |
 | The Bahamas | low | 1 | 1 | 0 | 0 | 0 | 0 | 100% |
-| Dominica | recipes only | 0 | 0 | 0 | 0 | 15 | 0 |  |
 | Cayman Islands | recipes only | 0 | 0 | 0 | 0 | 7 | 0 |  |
 | Aruba | recipes only | 0 | 0 | 0 | 0 | 6 | 0 |  |
-| Barbados | recipes only | 0 | 0 | 0 | 0 | 6 | 0 |  |
-| Grenada | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| Guadeloupe | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Martinique | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Saint Kitts and Nevis | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| Saint Lucia | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Saint Vincent and the Grenadines | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Mexico & Central America
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Mexico | high | 112 | 80 | 38 | 68 | 11,490 | 15 | 88% |
+| Mexico | high | 131 | 97 | 46 | 82 | 11,490 | 15 | 90% |
 | Nicaragua | low | 8 | 1 | 2 | 2 | 0 | 0 | 100% |
 | Guatemala | low | 7 | 4 | 3 | 4 | 24 | 0 | 100% |
-| El Salvador | low | 3 | 1 | 2 | 2 | 0 | 0 | 100% |
-| Costa Rica | low | 2 | 1 | 0 | 0 | 43 | 0 | 100% |
+| El Salvador | low | 4 | 2 | 3 | 3 | 0 | 0 | 100% |
+| Costa Rica | low | 3 | 2 | 0 | 0 | 43 | 0 | 100% |
 | Honduras | low | 2 | 0 | 1 | 1 | 10 | 0 | 100% |
 | Belize | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
-| Panama | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
+| Panama | low | 1 | 1 | 0 | 0 | 0 | 0 | 100% |
 
 ## South America
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Brazil | high | 51 | 15 | 17 | 30 | 311 | 6 | 90% |
-| Chile | medium | 28 | 5 | 15 | 22 | 71 | 4 | 88% |
-| Peru | medium | 18 | 9 | 9 | 11 | 98 | 11 | 62% |
-| Colombia | medium | 17 | 5 | 7 | 11 | 70 | 2 | 90% |
-| Argentina | low | 10 | 6 | 4 | 4 | 108 | 10 | 50% |
-| Venezuela | low | 8 | 4 | 4 | 6 | 42 | 1 | 89% |
-| Paraguay | low | 8 | 1 | 6 | 6 | 0 | 1 | 89% |
-| Ecuador | low | 6 | 2 | 3 | 3 | 35 | 0 | 100% |
-| Uruguay | low | 3 | 2 | 2 | 2 | 7 | 0 | 100% |
-| Bolivia | low | 2 | 1 | 2 | 2 | 0 | 0 | 100% |
-| Guyana | low | 2 | 1 | 0 | 0 | 0 | 0 | 100% |
-| Suriname | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Brazil | high | 59 | 20 | 22 | 39 | 311 | 6 | 91% |
+| Chile | medium | 29 | 5 | 15 | 22 | 71 | 4 | 88% |
+| Peru | medium | 24 | 10 | 11 | 14 | 98 | 11 | 69% |
+| Colombia | medium | 21 | 8 | 10 | 15 | 70 | 2 | 91% |
+| Argentina | low | 13 | 7 | 8 | 8 | 108 | 10 | 56% |
+| Venezuela | low | 11 | 6 | 4 | 6 | 42 | 1 | 92% |
+| Paraguay | low | 9 | 1 | 6 | 7 | 0 | 1 | 90% |
+| Ecuador | low | 7 | 2 | 3 | 3 | 35 | 0 | 100% |
+| Uruguay | low | 7 | 3 | 6 | 6 | 7 | 0 | 100% |
+| Bolivia | low | 4 | 1 | 4 | 4 | 0 | 0 | 100% |
+| Guyana | low | 3 | 2 | 0 | 0 | 0 | 0 | 100% |
+| Suriname | low | 2 | 1 | 0 | 0 | 0 | 0 | 100% |
 
 ## United States & Canada
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| United States | high | 366 | 306 | 106 | 269 | 131,095 | 146 | 72% |
-| Canada | high | 89 | 71 | 49 | 72 | 4,577 | 20 | 82% |
+| United States | high | 395 | 334 | 112 | 297 | 131,095 | 146 | 73% |
+| Canada | high | 92 | 74 | 49 | 72 | 4,577 | 20 | 82% |
 
 ## Not in the place tree yet
 

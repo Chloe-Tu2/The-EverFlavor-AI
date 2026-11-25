@@ -22,7 +22,7 @@
   "Pakistan",
   "Sri Lanka"
  ],
- "coverage_score": 88.5,
+ "coverage_score": 89.4,
  "dish_count": 158,
  "food_and_drink_count": 123,
  "story_count": 123,
@@ -68,6 +68,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

@@ -10,7 +10,7 @@
   "Ireland",
   "United Kingdom"
  ],
- "coverage_score": 89.8,
+ "coverage_score": 90.5,
  "dish_count": 91,
  "food_and_drink_count": 54,
  "story_count": 85,
@@ -59,6 +59,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

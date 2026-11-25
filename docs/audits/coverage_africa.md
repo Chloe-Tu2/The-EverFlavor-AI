@@ -1,4 +1,4 @@
-# Coverage: Africa (2026-11-23)
+# Coverage: Africa (2026-11-24)
 
 Back to [world coverage](coverage_world.md).
 
@@ -10,10 +10,10 @@ Back to [world coverage](coverage_world.md).
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Cameroon | low | 8 | 0 | 1 | 1 | 0 | 0 | 100% |
 | Angola | low | 3 | 0 | 0 | 0 | 10 | 0 | 100% |
+| Chad | low | 3 | 1 | 1 | 1 | 0 | 0 | 100% |
 | Central African Republic | low | 2 | 0 | 0 | 0 | 0 | 0 | 100% |
-| Chad | low | 2 | 1 | 0 | 0 | 0 | 0 | 100% |
-| Democratic Republic of the Congo | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
-| Congo | recipes only | 0 | 0 | 0 | 0 | 7 | 0 |  |
+| Democratic Republic of the Congo | low | 2 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Congo | low | 1 | 0 | 0 | 0 | 7 | 0 | 100% |
 | Equatorial Guinea | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Gabon | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | São Tomé and Príncipe | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
@@ -22,15 +22,16 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Ethiopia | low | 10 | 1 | 6 | 8 | 78 | 0 | 100% |
+| Ethiopia | low | 11 | 1 | 6 | 9 | 78 | 0 | 100% |
+| Kenya | low | 5 | 3 | 2 | 2 | 4 | 1 | 83% |
+| Somalia | low | 4 | 1 | 3 | 3 | 9 | 0 | 100% |
+| Eritrea | low | 4 | 0 | 2 | 2 | 0 | 0 | 100% |
 | Madagascar | low | 4 | 1 | 2 | 2 | 0 | 0 | 100% |
-| Somalia | low | 3 | 1 | 2 | 2 | 9 | 0 | 100% |
-| Kenya | low | 3 | 2 | 0 | 0 | 4 | 1 | 75% |
+| Uganda | low | 4 | 1 | 1 | 1 | 0 | 3 | 57% |
 | Mauritius | low | 3 | 2 | 2 | 2 | 0 | 0 | 100% |
 | Seychelles | low | 3 | 1 | 0 | 0 | 0 | 0 | 100% |
-| Uganda | low | 3 | 1 | 0 | 0 | 0 | 3 | 50% |
+| Tanzania | low | 3 | 1 | 0 | 0 | 0 | 1 | 75% |
 | South Sudan | low | 2 | 0 | 2 | 2 | 0 | 0 | 100% |
-| Tanzania | low | 2 | 1 | 0 | 0 | 0 | 1 | 67% |
 | Malawi | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
 | Mozambique | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
 | Rwanda | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
@@ -38,7 +39,6 @@ Back to [world coverage](coverage_world.md).
 | Burundi | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Comoros | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Djibouti | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| Eritrea | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Zimbabwe | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Southern Africa
@@ -55,22 +55,22 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Nigeria | high | 50 | 7 | 9 | 20 | 32 | 8 | 86% |
-| Senegal | low | 8 | 1 | 3 | 3 | 0 | 0 | 100% |
-| Ghana | low | 6 | 1 | 3 | 3 | 0 | 1 | 86% |
-| Benin | low | 2 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Nigeria | high | 53 | 7 | 9 | 21 | 32 | 8 | 87% |
+| Senegal | low | 10 | 2 | 5 | 5 | 0 | 0 | 100% |
+| Ghana | low | 9 | 4 | 4 | 4 | 0 | 1 | 90% |
+| Benin | low | 4 | 1 | 1 | 2 | 0 | 0 | 100% |
+| Togo | low | 3 | 1 | 1 | 2 | 0 | 0 | 100% |
+| Mali | low | 2 | 0 | 1 | 1 | 0 | 0 | 100% |
+| Niger | low | 2 | 0 | 0 | 0 | 0 | 0 | 100% |
 | Cape Verde | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
 | Ivory Coast | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
-| Mali | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
 | Mauritania | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
-| Niger | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Sierra Leone | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
 | The Gambia | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
 | Burkina Faso | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Guinea | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Guinea-Bissau | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Liberia | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| Sierra Leone | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| Togo | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Countries with the most to add
 

@@ -8,7 +8,7 @@
  "countries_with_a_dish": [
   "Iran"
  ],
- "coverage_score": 85.2,
+ "coverage_score": 88.8,
  "dish_count": 18,
  "food_and_drink_count": 5,
  "story_count": 8,
@@ -57,6 +57,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

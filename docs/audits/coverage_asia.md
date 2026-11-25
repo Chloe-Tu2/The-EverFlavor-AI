@@ -1,4 +1,4 @@
-# Coverage: Asia (2026-11-23)
+# Coverage: Asia (2026-11-24)
 
 Back to [world coverage](coverage_world.md).
 
@@ -8,50 +8,50 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Kazakhstan | low | 6 | 0 | 5 | 5 | 0 | 1 | 86% |
-| Uzbekistan | low | 6 | 0 | 4 | 5 | 0 | 0 | 100% |
-| Kyrgyzstan | low | 3 | 0 | 2 | 2 | 0 | 0 | 100% |
+| Kyrgyzstan | low | 9 | 0 | 7 | 7 | 0 | 0 | 100% |
+| Kazakhstan | low | 8 | 0 | 8 | 8 | 0 | 1 | 89% |
+| Uzbekistan | low | 8 | 1 | 4 | 5 | 0 | 0 | 100% |
+| Tajikistan | low | 4 | 1 | 3 | 3 | 0 | 0 | 100% |
 | Turkmenistan | low | 2 | 0 | 0 | 0 | 0 | 0 | 100% |
-| Tajikistan | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
 
 ## East Asia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| China | high | 181 | 70 | 54 | 108 | 5,878 | 99 | 65% |
-| Japan | medium | 109 | 48 | 55 | 96 | 2,232 | 138 | 44% |
+| China | high | 216 | 89 | 64 | 136 | 5,878 | 99 | 69% |
+| Japan | medium | 115 | 52 | 56 | 99 | 2,232 | 138 | 46% |
 | South Korea | high | 79 | 14 | 27 | 65 | 605 | 9 | 90% |
-| Taiwan | medium | 25 | 2 | 7 | 7 | 5 | 7 | 78% |
+| Taiwan | medium | 31 | 6 | 12 | 14 | 5 | 7 | 82% |
 | Mongolia | low | 5 | 1 | 2 | 2 | 0 | 1 | 83% |
-| North Korea | low | 3 | 0 | 2 | 2 | 0 | 1 | 75% |
+| North Korea | low | 4 | 0 | 4 | 4 | 0 | 1 | 80% |
 
 ## South Asia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| India | high | 105 | 69 | 32 | 69 | 7,312 | 64 | 62% |
+| India | high | 117 | 79 | 36 | 77 | 7,312 | 64 | 65% |
 | Nepal | low | 14 | 1 | 4 | 4 | 33 | 1 | 93% |
-| Bangladesh | low | 12 | 0 | 5 | 5 | 3 | 1 | 92% |
+| Bangladesh | low | 13 | 1 | 6 | 6 | 3 | 1 | 93% |
+| Pakistan | low | 11 | 9 | 7 | 8 | 82 | 5 | 69% |
+| Afghanistan | low | 10 | 2 | 7 | 7 | 7 | 1 | 91% |
 | Maldives | low | 9 | 0 | 3 | 3 | 0 | 0 | 100% |
-| Pakistan | low | 7 | 5 | 4 | 5 | 82 | 5 | 58% |
-| Afghanistan | low | 7 | 1 | 5 | 5 | 7 | 1 | 88% |
-| Sri Lanka | low | 3 | 0 | 1 | 1 | 0 | 5 | 38% |
+| Sri Lanka | low | 5 | 2 | 2 | 2 | 0 | 5 | 50% |
 | Bhutan | low | 1 | 1 | 0 | 0 | 0 | 1 | 50% |
 
 ## Southeast Asia
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Indonesia | high | 249 | 41 | 61 | 170 | 218 | 25 | 91% |
-| Philippines | high | 87 | 37 | 28 | 49 | 255 | 30 | 74% |
-| Thailand | high | 77 | 27 | 25 | 45 | 2,428 | 6 | 93% |
-| Vietnam | high | 72 | 16 | 26 | 54 | 500 | 6 | 92% |
-| Malaysia | medium | 39 | 3 | 19 | 23 | 79 | 3 | 93% |
-| Myanmar | medium | 19 | 0 | 9 | 12 | 0 | 2 | 90% |
-| Cambodia | medium | 15 | 2 | 5 | 7 | 53 | 2 | 88% |
-| Singapore | low | 11 | 2 | 4 | 4 | 0 | 1 | 92% |
-| Laos | low | 5 | 0 | 3 | 4 | 18 | 1 | 83% |
-| Brunei | low | 1 | 0 | 0 | 0 | 0 | 0 | 100% |
+| Indonesia | high | 265 | 45 | 64 | 182 | 218 | 25 | 91% |
+| Philippines | high | 92 | 39 | 31 | 53 | 255 | 30 | 75% |
+| Thailand | high | 79 | 28 | 25 | 45 | 2,428 | 6 | 93% |
+| Vietnam | high | 74 | 18 | 26 | 55 | 500 | 6 | 92% |
+| Malaysia | high | 55 | 7 | 23 | 32 | 79 | 3 | 95% |
+| Myanmar | medium | 20 | 0 | 10 | 14 | 0 | 2 | 91% |
+| Singapore | medium | 20 | 6 | 8 | 10 | 0 | 1 | 95% |
+| Cambodia | medium | 16 | 2 | 6 | 8 | 53 | 2 | 89% |
+| Laos | low | 9 | 1 | 5 | 7 | 18 | 1 | 90% |
+| Brunei | low | 4 | 0 | 1 | 1 | 0 | 0 | 100% |
 | Timor-Leste | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Countries with the most to add
@@ -67,7 +67,7 @@ Back to [world coverage](coverage_world.md).
 - **Vietnam** (high; 5 ready, 1 to review): bánh bó, stuffed bitter melon soup, húng lìu, Vietnamese noodles, Nàng Thơm Chợ Đào rice, Chè bà ba.
 - **Pakistan** (low; 5 ready, 0 to review): bun kebab, Sindhi biryani, Himalayan salt, Amrat Cola, Aloo gosht.
 - **Sri Lanka** (low; 5 ready, 0 to review): Malu Mirisata, Diyabath, Chocolate Biscuit pudding, Ceylon tea, Ceylon.
-- **Malaysia** (medium; 3 ready, 0 to review): Tshài-bué-thng, karas, bubur lambuk.
+- **Malaysia** (high; 3 ready, 0 to review): Tshài-bué-thng, karas, bubur lambuk.
 - **Myanmar** (medium; 2 ready, 0 to review): Star Cola, Burmese milk tea.
 - **Cambodia** (medium; 2 ready, 0 to review): fish amok, Kampot pepper.
 - **Kazakhstan** (low; 1 ready, 0 to review): Shalgam.

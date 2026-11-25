@@ -14,7 +14,7 @@
  "countries_with_a_dish": [
   "Guam"
  ],
- "coverage_score": 10.9,
+ "coverage_score": 14.5,
  "dish_count": 4,
  "food_and_drink_count": 1,
  "story_count": 1,
@@ -58,6 +58,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

@@ -27,7 +27,7 @@
   "Thailand",
   "Vietnam"
  ],
- "coverage_score": 85.1,
+ "coverage_score": 88.9,
  "dish_count": 575,
  "food_and_drink_count": 238,
  "story_count": 315,
@@ -73,6 +73,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

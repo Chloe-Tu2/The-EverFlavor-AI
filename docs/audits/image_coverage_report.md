@@ -1,4 +1,4 @@
-# Dish image audit (2026-11-23)
+# Dish image audit (2026-11-24)
 
 The best image each of our 3,201 dishes can show, its licence and credit, and what to fetch next. Reports only: no image was downloaded. Built by `scripts/knowledge/media_audit.py`; per dish in `data/knowledge/media/dish_media_audit.json`.
 

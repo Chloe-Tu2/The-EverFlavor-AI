@@ -1,4 +1,4 @@
-# Coverage: Oceania (2026-11-23)
+# Coverage: Oceania (2026-11-24)
 
 Back to [world coverage](coverage_world.md).
 
@@ -9,7 +9,7 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Australia | high | 60 | 40 | 30 | 48 | 2,758 | 4 | 94% |
-| New Zealand | low | 6 | 0 | 5 | 6 | 384 | 0 | 100% |
+| New Zealand | medium | 16 | 7 | 9 | 12 | 384 | 0 | 100% |
 
 ## Melanesia
 
@@ -26,11 +26,11 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Guam | low | 4 | 1 | 2 | 3 | 0 | 1 | 80% |
+| Northern Mariana Islands | low | 1 | 1 | 0 | 0 | 0 | 0 | 100% |
 | Federated States of Micronesia | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Kiribati | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Marshall Islands | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Nauru | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
-| Northern Mariana Islands | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 | Palau | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Polynesia

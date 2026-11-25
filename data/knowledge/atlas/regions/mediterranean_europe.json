@@ -31,7 +31,7 @@
   "Slovenia",
   "Spain"
  ],
- "coverage_score": 81.4,
+ "coverage_score": 83.9,
  "dish_count": 680,
  "food_and_drink_count": 435,
  "story_count": 497,
@@ -80,6 +80,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

@@ -1,4 +1,4 @@
-# World coverage (audit, 2026-11-23)
+# World coverage (audit, 2026-11-24)
 
 Which parts of the world EverFlavor covers, which it lacks, and where the next dishes should come from. Built by `scripts/knowledge/coverage_audit.py`; the data is in `data/knowledge/coverage/`. Nothing was added to the app.
 
@@ -8,12 +8,12 @@ Which parts of the world EverFlavor covers, which it lacks, and where the next d
 
 | Zone | Countries | In the tree | With dishes | Dishes | Recipes | Ready to add | To review |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| [Europe](coverage_europe.md) | 52 | 41 | 39 | 1355 | 50,001 | 681 | 54 |
-| [Asia](coverage_asia.md) | 33 | 30 | 29 | 1153 | 19,708 | 408 | 2 |
-| [Africa](coverage_africa.md) | 55 | 48 | 30 | 158 | 756 | 15 | 0 |
-| [the Americas and the Caribbean](coverage_americas.md) | 57 | 41 | 30 | 844 | 148,888 | 214 | 7 |
-| [Oceania](coverage_oceania.md) | 27 | 21 | 6 | 74 | 3,142 | 5 | 0 |
-| [the Middle East and North Africa](coverage_middle_east.md) | 24 | 24 | 20 | 279 | 3,530 | 75 | 0 |
+| [Europe](coverage_europe.md) | 52 | 41 | 41 | 1603 | 50,001 | 681 | 54 |
+| [Asia](coverage_asia.md) | 33 | 30 | 29 | 1295 | 19,708 | 408 | 2 |
+| [Africa](coverage_africa.md) | 55 | 48 | 34 | 187 | 756 | 15 | 0 |
+| [the Americas and the Caribbean](coverage_americas.md) | 57 | 41 | 36 | 943 | 148,888 | 214 | 7 |
+| [Oceania](coverage_oceania.md) | 27 | 21 | 7 | 85 | 3,142 | 5 | 0 |
+| [the Middle East and North Africa](coverage_middle_east.md) | 24 | 24 | 21 | 365 | 3,530 | 75 | 0 |
 
 ## Over-represented
 
@@ -21,22 +21,22 @@ Where most of the recipes are (share of all recipes with a known country) and th
 
 | Country | Recipes | Share of recipes | Dishes | Share of dishes |
 |---|---:|---:|---:|---:|
-| United States | 131,095 | 58% | 366 | 9% |
-| Italy | 24,910 | 11% | 329 | 9% |
-| Mexico | 11,490 | 5% | 112 | 3% |
-| France | 8,520 | 4% | 88 | 2% |
-| India | 7,312 | 3% | 105 | 3% |
-| China | 5,878 | 3% | 181 | 5% |
-| Canada | 4,577 | 2% | 89 | 2% |
-| United Kingdom | 4,553 | 2% | 69 | 2% |
-| Greece | 4,334 | 2% | 88 | 2% |
-| Australia | 2,758 | 1% | 60 | 2% |
+| United States | 131,095 | 58% | 395 | 9% |
+| Italy | 24,910 | 11% | 350 | 8% |
+| Mexico | 11,490 | 5% | 131 | 3% |
+| France | 8,520 | 4% | 137 | 3% |
+| India | 7,312 | 3% | 117 | 3% |
+| China | 5,878 | 3% | 216 | 5% |
+| Canada | 4,577 | 2% | 92 | 2% |
+| United Kingdom | 4,553 | 2% | 86 | 2% |
+| Greece | 4,334 | 2% | 90 | 2% |
+| Australia | 2,758 | 1% | 60 | 1% |
 
 ## Under-represented
 
-- **Recipes but no dish knowledge** (7): Dominica (15), Cayman Islands (7), Congo (7), Aruba (6), Barbados (6), Namibia (4), Andorra (3).
+- **Recipes but no dish knowledge** (3): Cayman Islands (7), Aruba (6), Namibia (4).
 - **Absent, 20 million people or more** (1; population from Wikidata): Burkina Faso.
-- **Absent in all**: 94 countries and territories with neither dishes nor recipes (`missing_countries.json`).
+- **Absent in all**: 84 countries and territories with neither dishes nor recipes (`missing_countries.json`).
 
 ## The expansion backlog
 
@@ -72,7 +72,7 @@ Cultural importance is not scored: no source we use measures it, and we do not g
 | 1 | United Kingdom | Europe | low | 171 dishes ready to add; 1 to review |
 | 1 | United States | North America | high | 146 dishes ready to add |
 | 1 | Japan | Asia | medium | 138 dishes ready to add |
-| 1 | France | Europe | low | 135 dishes ready to add; 46 to review |
+| 1 | France | Europe | medium | 135 dishes ready to add; 46 to review |
 | 1 | China | Asia | high | 98 dishes ready to add; 1 to review |
 | 1 | Italy | Europe | high | 86 dishes ready to add; 1 to review |
 | 1 | India | Asia | high | 64 dishes ready to add |
@@ -86,7 +86,6 @@ Cultural importance is not scored: no source we use measures it, and we do not g
 | 1 | Indonesia | Asia | high | 25 dishes ready to add |
 | 1 | Canada | North America | high | 20 dishes ready to add |
 | 1 | Sweden | Europe | medium | 20 dishes ready to add |
-| 1 | New Zealand | Oceania | low | 384 recipes but 6 dishes |
 | 2 | Belgium | Europe | medium | 18 dishes ready to add |
 | 2 | Denmark | Europe | medium | 14 dishes ready to add |
 | 2 | Mexico | Latin America | high | 13 dishes ready to add; 2 to review |
@@ -95,13 +94,13 @@ Cultural importance is not scored: no source we use measures it, and we do not g
 | 2 | South Korea | Asia | high | 9 dishes ready to add |
 | 2 | Poland | Europe | high | 9 dishes ready to add |
 | 2 | Finland | Europe | medium | 9 dishes ready to add |
-| 2 | Austria | Europe | low | 9 dishes ready to add |
+| 2 | Austria | Europe | medium | 9 dishes ready to add |
 | 2 | Greece | Europe | high | 8 dishes ready to add |
 | 2 | Nigeria | Africa | high | 8 dishes ready to add |
 | 2 | Ireland | Europe | medium | 7 dishes ready to add |
 | 2 | Taiwan | Asia | medium | 7 dishes ready to add |
 | 2 | Thailand | Asia | high | 6 dishes ready to add |
-| 2 | Russia | Europe | medium | 6 dishes ready to add |
+| 2 | Russia | Europe | high | 6 dishes ready to add |
 | 2 | Brazil | Latin America | high | 6 dishes ready to add |
 | 2 | Vietnam | Asia | high | 5 dishes ready to add; 1 to review |
 | 2 | Portugal | Europe | high | 5 dishes ready to add |

@@ -12,6 +12,7 @@ approves what, licences, releases, and the scans that guard secrets and personal
 | [sprint_review_checklist.md](sprint_review_checklist.md) | What every atlas sprint passes before its merge: coverage, representation, enrichment, validation, sources, repository |
 | [needs_human_review.md](needs_human_review.md) | The open questions waiting for a person |
 | [indigenous_review.md](indigenous_review.md) | The rubric for Indigenous food tradition tags: what the code checks, what a person checks, what the app may say |
+| [multi_origin_dish_policy.md](multi_origin_dish_policy.md) | How a dish with several countries of origin counts (every source-backed origin), what counts as evidence, and what a person decides |
 | [secret_scan_report.md](secret_scan_report.md) | The latest secret scan (written by the script) |
 | [pii_audit_report.md](pii_audit_report.md) | The latest personal-data audit (written by the script) |
 | [data_provenance_report.md](data_provenance_report.md) | Whether every data file says its source, licence and date (the tests fail on a gap) |

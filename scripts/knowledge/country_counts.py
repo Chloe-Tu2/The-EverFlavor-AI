@@ -19,6 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).parent))
 
+from dish_origins import countries_of
 from enrichment_impact import at_ref
 from quality_reports import read, save_md, table
 
@@ -30,8 +31,8 @@ MILESTONES = [("before the atlas sprints (v0.7.2)", "d14d0fd"), ("sprint 1: Afri
 
 
 def dish_countries(ref: str | None) -> set[str]:
-    return {d["country"] for line in at_ref(ref, "data/knowledge/dishes.jsonl").splitlines() if line.strip()
-            for d in [json.loads(line)] if d.get("kind") == "dish"}
+    return {c for line in at_ref(ref, "data/knowledge/dishes.jsonl").splitlines() if line.strip()
+            for d in [json.loads(line)] if d.get("kind") == "dish" for c in countries_of(d)}
 
 
 def main() -> None:

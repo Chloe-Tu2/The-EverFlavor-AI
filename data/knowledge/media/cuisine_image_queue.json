@@ -1,6 +1,6 @@
 {
  "by": "scripts/knowledge/cuisine_images.py",
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "rule": "Wikidata P18 of the country's cuisine article; the dish photo pipeline's Commons rules; shown only after a person's keep, labelled as a photo of the cuisine, not of the dish",
  "countries_with_dishes": 165,
  "with_an_image": 108,

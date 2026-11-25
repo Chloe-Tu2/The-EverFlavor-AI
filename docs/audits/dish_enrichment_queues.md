@@ -1,4 +1,4 @@
-# Dish enrichment queues (2026-11-23)
+# Dish enrichment queues (2026-11-24)
 
 Two queues for people, built from the quality files by `scripts/knowledge/enrichment_queues.py`. Nothing in them is filled or published; each gap names the source or script that can fill it.
 

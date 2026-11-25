@@ -1,4 +1,4 @@
-# Map coverage validation (2026-11-23)
+# Map coverage validation (2026-11-24)
 
 Can the map show a place for a dish? A dish is mappable when its country's OpenStreetMap cuisine word (`stores.COUNTRY_CUISINES`) is on at least one place in the Greater Houston pilot area. From `data/knowledge/map_prep.json`.
 

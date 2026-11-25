@@ -23,6 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).parent))
 
+from dish_origins import countries_of
 from quality_reports import read, save_md, table
 
 KNOW = ROOT / "data" / "knowledge"
@@ -68,7 +69,8 @@ def main() -> None:
                    [[r["name"], r["country"], f"{r['recipes']:,}", ", ".join(r["missing"])] for r in queue[:25]])
     per_country: dict[str, list[int]] = {}
     for d in dishes:
-        per_country.setdefault(d["country"], []).append(sum(got[d["qid"]].values()))
+        for country in countries_of(d):   # the multi-origin dish policy
+            per_country.setdefault(country, []).append(sum(got[d["qid"]].values()))
     scores = sorted(({"country": c, "dishes": len(v), "score": round(sum(v) / len(v), 2),
                       "all_five": sum(x == 5 for x in v)} for c, v in per_country.items() if c),
                     key=lambda r: (r["score"], -r["dishes"], r["country"]))

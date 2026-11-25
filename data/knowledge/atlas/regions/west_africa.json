@@ -32,7 +32,7 @@
   "Senegal",
   "The Gambia"
  ],
- "coverage_score": 38.6,
+ "coverage_score": 50.0,
  "dish_count": 72,
  "food_and_drink_count": 42,
  "story_count": 21,
@@ -78,6 +78,6 @@
   }
  ],
  "human_reviewed": false,
- "built_on": "2026-11-23",
+ "built_on": "2026-11-24",
  "by": "scripts/knowledge/region_pages.py"
 }

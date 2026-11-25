@@ -23,6 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).parent))
 
+from dish_origins import countries_of
 from quality_reports import save_md, table
 
 KNOW = "data/knowledge"
@@ -52,12 +53,12 @@ def country_pages(ref: str | None) -> int:
 def measure(dishes: list[dict], families: dict, coverage: dict, pages: int, quality: dict) -> dict[str, float]:
     """The atlas numbers for one snapshot."""
     real = [d for d in dishes if d.get("kind") == "dish"]
-    per_country = Counter(d["country"] for d in real)
+    per_country = Counter(c for d in real for c in countries_of(d))   # the multi-origin dish policy
     linked = set(families.get("dish_families", {}))
     tiers = Counter(d.get("tier") for d in quality.get("dishes", []))
     return {
         **{f"{c} coverage (%)": v.get("coverage", 0.0) for c, v in sorted(coverage.get("continents", {}).items())},
-        "countries with a story": len({d["country"] for d in real if d.get("story_candidates")}),
+        "countries with a story": len({c for d in real if d.get("story_candidates") for c in countries_of(d)}),
         "rich dishes": tiers["rich"], "fair dishes": tiers["fair"], "thin dishes": tiers["thin"],
         "entries (dishes, foods and drinks)": len(dishes),
         "dishes": len(real),
