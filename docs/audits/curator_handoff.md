@@ -5,12 +5,12 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 ## Generated at
 
 - Date: 2026-11-25
-- Time: 16:47
-- Git commit: 66a1a61+work (compared with 01ad735+work, 2026-11-25)
+- Time: 17:02
+- Git commit: 5bae85f+work (compared with 66a1a61+work, 2026-11-25)
 
 ## Current status
 
-- Branch: plans/campaign-states
+- Branch: main
 - Campaign: A, empty country recovery (see the planner's order of all campaigns)
 - Version: 0.7.2
 - Release readiness 0.8: 4 of 9 conditions done
@@ -71,7 +71,7 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 
 ## Work completed since the last snapshot
 
-- 1fb6460 Sprint 5, weak regions: nine more countries in Wikidata's origin targets
+- 55e7adb Campaign states: A exhausted, G manual country research, D in maintenance, C active
 
 ## What improved
 
