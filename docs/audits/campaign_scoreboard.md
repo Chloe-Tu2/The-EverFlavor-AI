@@ -1,10 +1,10 @@
-# Campaign scoreboard (2026-11-24)
+# Campaign scoreboard (2026-11-25)
 
 Where every campaign stands, in the planner's order: the number now, the next target, the gap and what blocks it. From `scripts/knowledge/atlas_health.py`; targets for E, F and B are Claude's working targets, not release gates. **Audit only.**
 
 **Debt first.** Debt per country did not fall since the last snapshot (3.38 -> 3.38), so the charter's rule applies: reduce the debt (Q2, Walter, Q4) before further expansion.
 
-**Debt velocity** since be45f2d+work (2026-11-24): atlas debt 567 -> 567 (+0); no culinary region 115 -> 115 (+0); no story 43 -> 43 (+0); no family 17 -> 17 (+0); one dish only 26 -> 26 (+0); no photo 44 -> 44 (+0); weak Walter 6 -> 6 (+0).
+**Debt velocity** since a91060e+work (2026-11-24): atlas debt 567 -> 567 (+0); no culinary region 115 -> 115 (+0); no story 43 -> 43 (+0); no family 17 -> 17 (+0); one dish only 26 -> 26 (+0); no photo 44 -> 44 (+0); weak Walter 6 -> 6 (+0).
 
 | Campaign | Now | Next target | Gap | Blocked by |
 |---|---:|---:|---:|---:|

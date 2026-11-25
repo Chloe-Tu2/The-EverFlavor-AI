@@ -3,7 +3,7 @@ Audit only: no story is written; a person or a later fetch decides.
 
     python scripts/knowledge/story_recovery.py   # after atlas_health.py
 
-A country has "no story" when none of its dishes has a History or Origin sentence (story_candidates). For each
+A country has "no story" when none of its dishes has a story sentence (story_candidates: History, Origin, Culture and similar sections). For each
 such country, per dish: a history sentence in the dish's own Wikipedia intro (a sentence with a dating or origin
 word), and Wikidata facts that tell a story (inception, inventor, named after, based on, created in, heritage).
 Writes docs/audits/story_recovery_report.md and data/knowledge/quality/story_recovery_queue.json.
@@ -63,7 +63,7 @@ def main() -> None:
                     if best else "none: needs a new source"])
     ready = sum(1 for p in per if p[2])
     lines = [f"# Story recovery (Q2, {date.today().isoformat()})", "",
-             (f"{len(targets)} countries have no dish story (no History or Origin sentence). For {ready} of them a "
+             (f"{len(targets)} countries have no dish story (no sentence from a History, Origin, Culture or similar section). For {ready} of them a "
               "dish already carries sourced material that could become one: a history sentence in its own "
               "Wikipedia intro, or Wikidata facts (inception, inventor, named after, heritage). From "
               "`scripts/knowledge/story_recovery.py`. **Audit only:** nothing is written as a story; the full queue "

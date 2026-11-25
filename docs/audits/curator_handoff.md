@@ -1,16 +1,16 @@
-# Curator handoff (2026-11-24)
+# Curator handoff (2026-11-25)
 
 Read this first in a new session, then [atlas_health.md](atlas_health.md), [review_impact.md](review_impact.md) and [release_readiness.md](release_readiness.md). From `scripts/knowledge/atlas_health.py`; the history is in `data/knowledge/atlas/atlas_health_history.jsonl`. **Audit only.**
 
 ## Generated at
 
-- Date: 2026-11-24
-- Time: 20:46
-- Git commit: a91060e+work (compared with be45f2d+work, 2026-11-24)
+- Date: 2026-11-25
+- Time: 02:50
+- Git commit: 54b2ece+work (compared with a91060e+work, 2026-11-24)
 
 ## Current status
 
-- Branch: audit/overnight-curator
+- Branch: docs/items-33-34-evidence
 - Campaign: A, empty country recovery (see the planner's order of all campaigns)
 - Version: 0.7.2
 - Release readiness 0.8: 4 of 9 conditions done
@@ -52,9 +52,9 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 ## Governance
 
 - Review items open: 33
-- Review items added since the last run: 2
+- Review items added since the last run: 0
 - Review items answered by a person: 1 (items 32)
-- Change since the last run: review items open 31 -> 33
+- Change since the last run: no change
 
 ## Atlas debt
 
@@ -71,27 +71,29 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 
 ## Work completed since the last snapshot
 
-- 05f3bfe Multi-origin dish policy: a dish counts for every sourced origin country
+- 41b3210 Landing page: how many dishes the app works with right now
+- b1505a5 Overnight curator reports: campaign A candidates, story, family and regional source research
+- 6474cde Bump google/osv-scanner-action/osv-scanner-action from 2.7.0 to 2.7.1
 
 ## What improved
 
-- review items logged: 32 -> 34
+- nothing measured changed
 
 ## What regressed
 
-- review items open: 31 -> 33
+- nothing
 
 ## Human review required
 
 Priority order (from review_impact.md):
 
-1. Item 21: coverage counting rule and weights (gate 0.8, about 15 minutes)
-2. Cuisine photo fallbacks (gate 0.8, about 40 minutes)
-3. Items 24, 28, 29, 30: sprint moves, country scores, sprint 4 entries (gate 0.8, about 45 minutes)
-4. Photo contact sheets 37 to 108 (gate 0.8, about 90 minutes)
-5. Item 27: representative dishes on region pages (gate 0.9, about 15 minutes)
+1. Item 34: story rule (intro sentences, fact check, or a new source) (gate debt, about 15 minutes)
+2. Item 33: regional data source and mapping rule (gate debt, about 20 minutes)
+3. Item 21: coverage counting rule and weights (gate 0.8, about 15 minutes)
+4. Cuisine photo fallbacks (gate 0.8, about 40 minutes)
+5. Items 24, 28, 29, 30: sprint moves, country scores, sprint 4 entries (gate 0.8, about 45 minutes)
 
-Estimated time for these five: about 205 minutes.
+Estimated time for these five: about 135 minutes.
 
 ## Blocked work (waiting on a person)
 
