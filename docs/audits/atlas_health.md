@@ -1,4 +1,4 @@
-# Atlas health (2026-11-24)
+# Atlas health (2026-11-25)
 
 The five measures, the atlas debt and release readiness, from `scripts/knowledge/atlas_health.py` (metrics built 2026-11-24). **Audit only.** Start a session with [curator_handoff.md](curator_handoff.md); what to review first: [review_impact.md](review_impact.md).
 

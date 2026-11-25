@@ -1,4 +1,4 @@
-# Release readiness (2026-11-24)
+# Release readiness (2026-11-25)
 
 Done, waiting on a person, open for Claude, per release gate in the planner. From `scripts/knowledge/atlas_health.py`.
 

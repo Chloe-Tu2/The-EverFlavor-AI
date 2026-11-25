@@ -6,7 +6,7 @@ session handoff. Audit only: it reads the latest audit files, changes nothing an
 Atlas debt is like technical debt, for the atlas. Each country with a dish gets points for each gap, weighted by
 how much the gap costs the atlas (med27-coder, 2026-11-24; "no family" is Claude's proposal, same as a story):
   - no culinary region data (no dish with a culinary region)                       3
-  - no story (no dish with a History or Origin sentence)                            2
+  - no story (no dish with a story sentence: History, Origin, Culture and similar sections)                            2
   - no dish family                                                                  2
   - only one dish                                                                   2
   - no photo (no verified dish photo and no cuisine photo that passes the rules)    1

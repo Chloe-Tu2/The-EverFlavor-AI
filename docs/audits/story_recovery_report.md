@@ -1,6 +1,6 @@
-# Story recovery (Q2, 2026-11-24)
+# Story recovery (Q2, 2026-11-25)
 
-43 countries have no dish story (no History or Origin sentence). For 5 of them a dish already carries sourced material that could become one: a history sentence in its own Wikipedia intro, or Wikidata facts (inception, inventor, named after, heritage). From `scripts/knowledge/story_recovery.py`. **Audit only:** nothing is written as a story; the full queue is `data/knowledge/quality/story_recovery_queue.json`.
+43 countries have no dish story (no sentence from a History, Origin, Culture or similar section). For 5 of them a dish already carries sourced material that could become one: a history sentence in its own Wikipedia intro, or Wikidata facts (inception, inventor, named after, heritage). From `scripts/knowledge/story_recovery.py`. **Audit only:** nothing is written as a story; the full queue is `data/knowledge/quality/story_recovery_queue.json`.
 
 How the material can be used: an intro sentence is already shown as the dish summary, so turning it into a story needs a person's yes (or a rule change that counts intro history as a story, a review item). Countries with no material need their dishes' articles read again or a new source.
 
