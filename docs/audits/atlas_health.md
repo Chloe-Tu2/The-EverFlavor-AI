@@ -8,7 +8,7 @@ The five measures, the atlas debt and release readiness, from `scripts/knowledge
 - **Representation:** dish families and categories 707; countries with three dishes or more 130; countries with a story 125; Indigenous traditions tracked 6
 - **Enrichment:** entries with a story (History or Origin sentences) 2,757; entries with a Wikidata origin 4,187; entries linked to a family 3,772; entries with a culinary region 644; rich dishes 529; fair dishes 1,489; thin dishes 1,845
 - **Preservation:** entries with an Indigenous tradition 29; Indigenous traditions tracked 6
-- **Governance:** 32 review items logged in [needs_human_review.md](../governance/needs_human_review.md), 1 answered by a person; none closed by Claude.
+- **Governance:** 34 review items logged in [needs_human_review.md](../governance/needs_human_review.md), 1 answered by a person; none closed by Claude.
 
 ## Atlas debt
 

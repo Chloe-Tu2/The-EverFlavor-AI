@@ -30,6 +30,10 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [country_counts.md](country_counts.md) | How many countries we cover by two counts: ours (CLDR, 100,000 people or more) and the usual 195 UN member and observer states; where they differ, which UN members have no dish, and how the count grew sprint by sprint |
 | [empty_country_backlog.md](empty_country_backlog.md) | The UN member states with no dish: their cuisine page, category and Wikidata dishes, why nothing was kept, and what to try next, easiest first (sprint 5) |
 | [multi_origin_dishes.md](multi_origin_dishes.md) | The multi-origin dish policy at work: dishes that count for several countries, the countries that got their first dish that way; drops in `data/knowledge/review/shared_dish_origins.csv` |
+| [country_recovery_candidates.md](country_recovery_candidates.md) | Campaign A, the UN members still empty: dishes their cuisine pages link that the atlas holds elsewhere, and whether the dish's intro names the country |
+| [story_recovery_report.md](story_recovery_report.md) | Q2: the countries with no dish story and the sourced material that could give them one (item 34) |
+| [family_recovery_backlog.md](family_recovery_backlog.md) | Q4: the countries with no dish family and the families their dishes' intros name |
+| [regional_source_research.md](regional_source_research.md) | Q1 phase 0: free sources for food regions within countries, their licences, and how far Wikidata reaches (item 33) |
 | [empty_country_packets.md](empty_country_packets.md) | Campaign A's evidence: each dish Wikidata gives an empty country, where the atlas has it now, which pages put it there; verdicts in `data/knowledge/review/empty_country_packets.csv` (item 32) |
 | [curator_handoff.md](curator_handoff.md) | Read first in a new session: what improved and regressed since the last run, what is blocked, what needs a person, what is next |
 | [campaign_scoreboard.md](campaign_scoreboard.md) | Every campaign's number now, next target, gap and blocker, and whether the debt-first rule applies |

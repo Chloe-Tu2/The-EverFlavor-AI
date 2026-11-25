@@ -1,0 +1,180 @@
+{
+ "by": "scripts/knowledge/family_recovery.py",
+ "built_on": "2026-11-24",
+ "dishes": [
+  {
+   "country": "Bahrain",
+   "dish": "Muhammar",
+   "qid": "Q21515489",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Bhutan",
+   "dish": "Ema datshi",
+   "qid": "Q2565922",
+   "families_named_in_intro": [
+    "stew"
+   ],
+   "based_on_family": []
+  },
+  {
+   "country": "Central African Republic",
+   "dish": "Gnetum africanum",
+   "qid": "Q5574228",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Central African Republic",
+   "dish": "Maboké",
+   "qid": "Q16888187",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Costa Rica",
+   "dish": "Casado",
+   "qid": "Q5047987",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Costa Rica",
+   "dish": "Fried cheese",
+   "qid": "Q24568658",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Costa Rica",
+   "dish": "Ropa vieja",
+   "qid": "Q5371706",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Curaçao",
+   "dish": "Keshi yena",
+   "qid": "Q17079448",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Guadeloupe",
+   "dish": "Pelau",
+   "qid": "Q17590922",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Malawi",
+   "dish": "Kondowole",
+   "qid": "Q17110849",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Mauritania",
+   "dish": "Boulaghmane",
+   "qid": "Q12199101",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "New Caledonia",
+   "dish": "Bougna",
+   "qid": "Q2921567",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Niger",
+   "dish": "Dambou",
+   "qid": "Q107007191",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Niger",
+   "dish": "Kilishi",
+   "qid": "Q1275518",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Panama",
+   "dish": "Ropa vieja",
+   "qid": "Q5371706",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Rwanda",
+   "dish": "Isombe",
+   "qid": "Q134817183",
+   "families_named_in_intro": [
+    "stew"
+   ],
+   "based_on_family": []
+  },
+  {
+   "country": "Samoa",
+   "dish": "Poi (dessert)",
+   "qid": "Q65049504",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Suriname",
+   "dish": "Pholourie",
+   "qid": "Q15840444",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Suriname",
+   "dish": "Pom (dish)",
+   "qid": "Q2482979",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Tanzania",
+   "dish": "Mandazi",
+   "qid": "Q9027344",
+   "families_named_in_intro": [
+    "bread"
+   ],
+   "based_on_family": []
+  },
+  {
+   "country": "Tanzania",
+   "dish": "Ming'oko",
+   "qid": "Q19958198",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Tanzania",
+   "dish": "Nyama choma",
+   "qid": "Q22328037",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "The Bahamas",
+   "dish": "Duff (dessert)",
+   "qid": "Q16918839",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  },
+  {
+   "country": "Zambia",
+   "dish": "Ifisashi",
+   "qid": "Q109039280",
+   "families_named_in_intro": [],
+   "based_on_family": []
+  }
+ ]
+}

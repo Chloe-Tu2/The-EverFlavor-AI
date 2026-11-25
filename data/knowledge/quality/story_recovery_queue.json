@@ -1,0 +1,650 @@
+{
+ "by": "scripts/knowledge/story_recovery.py",
+ "built_on": "2026-11-24",
+ "dishes": [
+  {
+   "country": "Andorra",
+   "dish": "Trinxat",
+   "qid": "Q3539309",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "dish": "Brown stew chicken",
+   "qid": "Q17027457",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "dish": "Cou-cou",
+   "qid": "Q5175921",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Bahrain",
+   "dish": "Muhammar",
+   "qid": "Q21515489",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Barbados",
+   "dish": "Brown stew chicken",
+   "qid": "Q17027457",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Belize",
+   "dish": "Bile up",
+   "qid": "Q4938317",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "dish": "Bosnian pot",
+   "qid": "Q894347",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "dish": "Tufahije",
+   "qid": "Q3435353",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Botswana",
+   "dish": "Bogobe jwa lerotse",
+   "qid": "Q25098851",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Botswana",
+   "dish": "Bogobe jwa logala",
+   "qid": "Q25041852",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Botswana",
+   "dish": "Delele",
+   "qid": "Q5253615",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Botswana",
+   "dish": "Dikgobe",
+   "qid": "Q20981512",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Botswana",
+   "dish": "Seswaa",
+   "qid": "Q859981",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Cape Verde",
+   "dish": "Cachupa",
+   "qid": "Q2060858",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Central African Republic",
+   "dish": "Gnetum africanum",
+   "qid": "Q5574228",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Central African Republic",
+   "dish": "Maboké",
+   "qid": "Q16888187",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Chad",
+   "dish": "Esh (dish)",
+   "qid": "Q135650124",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Chad",
+   "dish": "Kisra",
+   "qid": "Q3197476",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Chad",
+   "dish": "La bouillie (Chadian food)",
+   "qid": "Q137883935",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Congo",
+   "dish": "Moambe chicken",
+   "qid": "Q3400317",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Curaçao",
+   "dish": "Keshi yena",
+   "qid": "Q17079448",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Democratic Republic of the Congo",
+   "dish": "Babute",
+   "qid": "Q4838117",
+   "intro_history": "Babute is an African dish, effectively a form of meatloaf, originating in the Babute region of the Congo containing ground beef, curry powder and apricots.",
+   "wikidata_facts": {},
+   "has_material": true
+  },
+  {
+   "country": "Democratic Republic of the Congo",
+   "dish": "Moambe chicken",
+   "qid": "Q3400317",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Dominica",
+   "dish": "Brown stew chicken",
+   "qid": "Q17027457",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Dominica",
+   "dish": "Pelau",
+   "qid": "Q17590922",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Eritrea",
+   "dish": "Kitfo",
+   "qid": "Q2671154",
+   "intro_history": "Kitfo (Amharic: ክትፎ, IPA: [kɨtfo]) is an Ethiopian traditional dish that originated among the Gurage people.",
+   "wikidata_facts": {},
+   "has_material": true
+  },
+  {
+   "country": "Eritrea",
+   "dish": "Shiro (food)",
+   "qid": "Q2488715",
+   "intro_history": "Shiro (Ge'ez: ሽሮ, romanized: šəro), also called shiro wat (Amharic: ሽሮ ወጥ, romanized: šəro wäṭ), or tsebhi shiro (Tigrinya: ጸብሒ ሽሮ, romanized: ṣäbhi šəro), is a stew served for either lunch or dinner, originating from Northern Ethiopia and Southern Eritrea.",
+   "wikidata_facts": {},
+   "has_material": true
+  },
+  {
+   "country": "Eritrea",
+   "dish": "Gored gored",
+   "qid": "Q2060624",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Eritrea",
+   "dish": "Himbasha",
+   "qid": "Q3785698",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Estonia",
+   "dish": "Egg butter",
+   "qid": "Q3351904",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Estonia",
+   "dish": "Mulgikapsad",
+   "qid": "Q16411925",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Estonia",
+   "dish": "Mulgipuder",
+   "qid": "Q12370530",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Estonia",
+   "dish": "Sepik (bread)",
+   "qid": "Q24735647",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Grenada",
+   "dish": "Brown stew chicken",
+   "qid": "Q17027457",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Guadeloupe",
+   "dish": "Pelau",
+   "qid": "Q17590922",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Guam",
+   "dish": "Guyuria",
+   "qid": "Q5622888",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Guam",
+   "dish": "Kalamai (dessert)",
+   "qid": "Q3192094",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Guam",
+   "dish": "Kelaguen",
+   "qid": "Q6385448",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Guam",
+   "dish": "Roskette",
+   "qid": "Q7369003",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Honduras",
+   "dish": "Baleada",
+   "qid": "Q4850672",
+   "intro_history": "A baleada (Spanish pronunciation: [baleˈaða]) is a traditional Honduran dish, believed to have originated on the northern coast of the country, particularly La Ceiba.",
+   "wikidata_facts": {},
+   "has_material": true
+  },
+  {
+   "country": "Honduras",
+   "dish": "Pan de coco (Honduran cuisine)",
+   "qid": "Q110469197",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Ivory Coast",
+   "dish": "Kedjenou",
+   "qid": "Q1795580",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Libya",
+   "dish": "Bazin (bread)",
+   "qid": "Q4164571",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Libya",
+   "dish": "Mafrum",
+   "qid": "Q6585018",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Libya",
+   "dish": "Taguella",
+   "qid": "Q1417997",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Libya",
+   "dish": "Usban",
+   "qid": "Q3051726",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Malawi",
+   "dish": "Kondowole",
+   "qid": "Q17110849",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Mali",
+   "dish": "Ngome (bread)",
+   "qid": "Q7022523",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Mali",
+   "dish": "Taguella",
+   "qid": "Q1417997",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Mauritania",
+   "dish": "Boulaghmane",
+   "qid": "Q12199101",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Montenegro",
+   "dish": "Njeguški pršut",
+   "qid": "Q3160844",
+   "intro_history": "",
+   "wikidata_facts": {
+    "named_after": [
+     "Njeguši"
+    ]
+   },
+   "has_material": true
+  },
+  {
+   "country": "Mozambique",
+   "dish": "Matapa",
+   "qid": "Q96742694",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "New Caledonia",
+   "dish": "Bougna",
+   "qid": "Q2921567",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Northern Mariana Islands",
+   "dish": "Kelaguen",
+   "qid": "Q6385448",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Rwanda",
+   "dish": "Isombe",
+   "qid": "Q134817183",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Saint Lucia",
+   "dish": "Brown stew chicken",
+   "qid": "Q17027457",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Samoa",
+   "dish": "Poi (dessert)",
+   "qid": "Q65049504",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Seychelles",
+   "dish": "Ladob",
+   "qid": "Q6469786",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Seychelles",
+   "dish": "Saffron rice",
+   "qid": "Q7398745",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Seychelles",
+   "dish": "Shark chutney",
+   "qid": "Q7489821",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Sierra Leone",
+   "dish": "Frejon",
+   "qid": "Q5501442",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Somalia",
+   "dish": "Lahoh",
+   "qid": "Q1809371",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Somalia",
+   "dish": "Maraq (dish)",
+   "qid": "Q56280821",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Somalia",
+   "dish": "Oodkac",
+   "qid": "Q65119827",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Somalia",
+   "dish": "Sabaayad",
+   "qid": "Q7395806",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "South Sudan",
+   "dish": "Kisra",
+   "qid": "Q3197476",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "South Sudan",
+   "dish": "Rolled flour porridge",
+   "qid": "Q22230854",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Tanzania",
+   "dish": "Mandazi",
+   "qid": "Q9027344",
+   "intro_history": "Mandazi (Swahili: mandazi, maandazi) is a form of fried bread that originated on the Swahili coast of East Africa.",
+   "wikidata_facts": {},
+   "has_material": true
+  },
+  {
+   "country": "Tanzania",
+   "dish": "Ming'oko",
+   "qid": "Q19958198",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Tanzania",
+   "dish": "Nyama choma",
+   "qid": "Q22328037",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "The Bahamas",
+   "dish": "Duff (dessert)",
+   "qid": "Q16918839",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "The Gambia",
+   "dish": "Domoda",
+   "qid": "Q1238597",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Togo",
+   "dish": "Asaro (food)",
+   "qid": "Q122999857",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Togo",
+   "dish": "Banku (dish)",
+   "qid": "Q806839",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Togo",
+   "dish": "Eba",
+   "qid": "Q5331480",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Tonga",
+   "dish": "'Ota 'ika",
+   "qid": "Q3393853",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Tonga",
+   "dish": "Mutton flaps",
+   "qid": "Q22907126",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Turkmenistan",
+   "dish": "Chekdirme",
+   "qid": "Q5089539",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Turkmenistan",
+   "dish": "Ishlykly",
+   "qid": "Q18464639",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Zambia",
+   "dish": "Ifisashi",
+   "qid": "Q109039280",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  }
+ ]
+}
