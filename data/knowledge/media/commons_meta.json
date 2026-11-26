@@ -18849,6 +18849,16 @@
   "missing": false,
   "width": 809
  },
+ "Un plateau de fromages en room service à Monaco (novembre 2021).jpg": {
+  "author": "Benoît Prieur",
+  "description": "Un plateau de fromages en room service à Monaco (novembre 2021).",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Un_plateau_de_fromages_en_room_service_%C3%A0_Monaco_(novembre_2021).jpg",
+  "height": 3024,
+  "license": "CC0",
+  "mime": "image/jpeg",
+  "missing": false,
+  "width": 4032
+ },
  "UncookedFregula.jpg": {
   "author": "Emily Parkhurst",
   "description": "Uncooked fregula pasta.",
@@ -19958,15 +19968,5 @@
   "mime": "image/jpeg",
   "missing": false,
   "width": 4096
- },
- "Un plateau de fromages en room service à Monaco (novembre 2021).jpg": {
-  "file_page": "https://commons.wikimedia.org/wiki/File:Un_plateau_de_fromages_en_room_service_%C3%A0_Monaco_(novembre_2021).jpg",
-  "width": 4032,
-  "height": 3024,
-  "mime": "image/jpeg",
-  "missing": false,
-  "license": "CC0",
-  "author": "Benoît Prieur",
-  "description": "Un plateau de fromages en room service à Monaco (novembre 2021)."
  }
 }

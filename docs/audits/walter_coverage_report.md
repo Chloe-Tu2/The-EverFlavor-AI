@@ -4,13 +4,13 @@ What the waiter can tell about each dish, all of it copied from Wikipedia (credi
 
 | What | Dishes | Share |
 |---|---:|---:|
-| at least one fun fact | 2,235 | 58% |
+| at least one fun fact | 2,234 | 58% |
 | three fun facts (what he shows first) | 481 | 12% |
-| a story (history, origin, culture) | 1,783 | 46% |
-| read more: its own article | 3,871 | 100% |
+| a story (history, origin, culture) | 1,780 | 46% |
+| read more: its own article | 3,868 | 100% |
 | read more: its cuisine or region page | 3,652 | 94% |
-| read more: books, UNESCO, Wikidata | 3,871 | 100% |
-| graph lines: 3 or more | 1,268 | 33% |
+| read more: books, UNESCO, Wikidata | 3,868 | 100% |
+| graph lines: 3 or more | 1,266 | 33% |
 | facts checked by a person | 0 | 0% |
 
 ## Remediation plan

@@ -17,6 +17,7 @@ data/raw/knowledge_cache/ (git-ignored), so a rerun only asks for what is missin
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
 import json
 import re
@@ -661,6 +662,18 @@ def learn_more(name: str, title: str, qid: str, lists: list[str], heritage: list
     return links
 
 
+def person_drops() -> frozenset[tuple[str, str]]:
+    """(qid, country) pairs a person dropped (data/reference/dish_decisions.csv, decision `drop`)."""
+    path = ROOT / "data" / "reference" / "dish_decisions.csv"
+    if not path.exists():
+        return frozenset()
+    with path.open(encoding="utf-8", newline="") as f:
+        return frozenset((r["qid"], r["country"]) for r in csv.DictReader(f) if r["decision"].strip().lower() == "drop")
+
+
+PERSON_DROPS = person_drops()
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=(__doc__ or "").splitlines()[0])
     parser.add_argument("--dry", action="store_true", help="print list counts only")
@@ -763,6 +776,8 @@ def main() -> None:
                 continue
             if new_country != country:
                 country, region = new_country, None
+        if (page["qid"], country) in PERSON_DROPS:
+            continue   # a person took it out of this country (data/reference/dish_decisions.csv)
         url = "https://en.wikipedia.org/wiki/" + page["title"].replace(" ", "_")
         if country in PROSE_REGION_COUNTRIES:
             region = named_region(entry.get("region_options", []) + COUNTRY_DIVISIONS.get(country, []), intro,

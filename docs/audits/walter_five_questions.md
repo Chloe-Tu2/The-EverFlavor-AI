@@ -4,20 +4,20 @@ For each of our dishes, can Walter answer what it is, where it is from, why it m
 
 | Question | Dishes with an answer | Share |
 |---|---:|---:|
-| what is it | 3,870 | 100% |
-| where is it from | 3,138 | 81% |
-| why it matters | 3,094 | 80% |
-| similar dishes | 3,870 | 100% |
-| its versions | 250 | 6% |
+| what is it | 3,867 | 100% |
+| where is it from | 3,137 | 81% |
+| why it matters | 3,135 | 81% |
+| similar dishes | 3,867 | 100% |
+| its versions | 249 | 6% |
 
 ## How many of the five each dish answers
 
 | Answers | Dishes |
 |---|---:|
 | 5 | 149 |
-| 4 | 2,471 |
-| 3 | 1,091 |
-| 2 | 160 |
+| 4 | 2,507 |
+| 3 | 1,058 |
+| 2 | 154 |
 | 1 | 0 |
 | 0 | 0 |
 
@@ -59,18 +59,16 @@ The average number of the five questions a country's dishes answer (0 to 5), wea
 
 | Country | Dishes | Score (of 5) | Dishes with all five |
 |---|---:|---:|---:|
-| Belize | 1 | 2.00 | 0 |
 | The Bahamas | 1 | 2.00 | 0 |
-| Central African Republic | 2 | 2.50 | 0 |
 | Tonga | 2 | 2.50 | 0 |
 | Turkmenistan | 2 | 2.50 | 0 |
 | Mauritius | 3 | 3.00 | 0 |
 | Seychelles | 3 | 3.00 | 0 |
-| Mali | 2 | 3.00 | 0 |
+| Central African Republic | 2 | 3.00 | 0 |
 | Monaco | 2 | 3.00 | 0 |
 | South Sudan | 2 | 3.00 | 0 |
-| Andorra | 1 | 3.00 | 0 |
 | Bahrain | 1 | 3.00 | 0 |
+| Belize | 1 | 3.00 | 0 |
 | Curaçao | 1 | 3.00 | 0 |
 | Malawi | 1 | 3.00 | 0 |
 | Mauritania | 1 | 3.00 | 0 |
@@ -82,5 +80,7 @@ The average number of the five questions a country's dishes answer (0 to 5), wea
 | The Gambia | 1 | 3.00 | 0 |
 | Zambia | 1 | 3.00 | 0 |
 | Slovakia | 11 | 3.09 | 0 |
-| Puerto Rico | 9 | 3.11 | 0 |
-| Algeria | 23 | 3.17 | 0 |
+| Cambodia | 16 | 3.19 | 0 |
+| Botswana | 5 | 3.20 | 0 |
+| Luxembourg | 5 | 3.20 | 0 |
+| Algeria | 23 | 3.22 | 0 |

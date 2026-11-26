@@ -26,8 +26,8 @@ Back to [world coverage](coverage_world.md).
 | Germany | high | 110 | 57 | 64 | 96 | 1,476 | 40 | 73% |
 | Poland | high | 73 | 28 | 45 | 66 | 418 | 9 | 89% |
 | Hungary | medium | 45 | 23 | 25 | 42 | 346 | 4 | 92% |
-| Switzerland | medium | 34 | 14 | 25 | 28 | 323 | 29 | 54% |
-| Austria | medium | 23 | 14 | 21 | 25 | 101 | 9 | 72% |
+| Switzerland | medium | 34 | 14 | 25 | 28 | 323 | 28 | 55% |
+| Austria | medium | 23 | 14 | 21 | 25 | 101 | 10 | 70% |
 | Czech Republic | low | 14 | 5 | 13 | 15 | 94 | 5 | 74% |
 | Slovenia | low | 11 | 0 | 7 | 8 | 0 | 2 | 85% |
 
@@ -278,14 +278,14 @@ Back to [world coverage](coverage_world.md).
 - Coverage: **medium** (23 dishes, 14 with recipes, 101 recipes; place tree: Europe > Central Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Schnitzel, Strudel, Bread roll, Bratwurst, Apple strudel, Wiener schnitzel, Linzertorte, Danish pastry.
 - Families present: beef, bread, bread roll, cake, chocolate cake, confectionery, cut of beef, escalope.
-- Missing (Wikidata family members we lack, 9): Mondseer, Knieküchle, Vienna bread, Tyrolean Speck, Mozartkugel, Mohnnudel, Kaiser roll, Bosna, Allerheiligenstriezel.
+- Missing (Wikidata family members we lack, 10): Mondseer, Knieküchle, Vienna sausage, Vienna bread, Tyrolean Speck, Mozartkugel, Mohnnudel, Kaiser roll, Bosna, Allerheiligenstriezel.
 
 ### Switzerland
 
 - Coverage: **medium** (34 dishes, 14 with recipes, 323 recipes; place tree: Europe > Central Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Carrot cake, Cordon bleu (dish), Schnitzel, Muesli, Rösti, King cake, Raclette, Head cheese.
 - Families present: Bratwurst, aspic, beignet, biscuit, breakfast cereal, cabbage roll, cake, charcuterie.
-- Missing (Wikidata family members we lack, 29): Vacherin Mont-d'Or, Tête de Moine, Șvaițer, Sbrinz, Raclette du Valais, Gruyère, Berner Alpkäse, Appenzeller cheese, vacherin, totché.
+- Missing (Wikidata family members we lack, 28): Vacherin Mont-d'Or, Tête de Moine, Șvaițer, Sbrinz, Raclette du Valais, Gruyère, Berner Alpkäse, Appenzeller cheese, vacherin, totché.
 
 ### Czech Republic
 

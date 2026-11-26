@@ -20,12 +20,12 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | salad | 125 | 84 | 41 | 67% | Europe 6, Asia 6, not in the tree 6, Middle East & North Africa 3 | Buddha bowl, Caesar salad, Chilean salad, Esgarrat, Israeli eggplant salad |
 | sandwich | 122 | 66 | 56 | 54% | Europe 12, North America 8, Latin America 5, Asia 5 | Ayvalık tostu, Bokit, Bosna, Camel rider, Cheese and pickle sandwich |
 
-## Weakly covered families (10+ members, under 30% present: 42)
+## Weakly covered families (10+ members, under 30% present: 43)
 
 | Family | Members | We have | Share | Missing, for example |
 |---|---:|---:|---:|---:|
 | French cheese | 89 | 7 | 8% | Abbaye de Belloc, Baguette laonnaise, Banon cheese, Bleu d'Auvergne, Brie de Meaux, Brie de Melun |
-| ice cream | 66 | 14 | 21% | Biscuit Tortoni, Butter Brickle, Butter Pecan, Chocolate chip cookie dough ice cream, Coffee ice cream, Cookies and Cream |
+| ice cream | 66 | 13 | 20% | Biscuit Tortoni, Butter Brickle, Butter Pecan, Chocolate chip cookie dough ice cream, Coffee ice cream, Cookies and Cream |
 | seed oil | 50 | 3 | 6% | Allanblackia oil, Ambadi seed oil, Borneo tallow nut oil, Lallemantia oil, Niger seed oil, Oiticica oil |
 | British cheese | 54 | 8 | 15% | Applewood cheese, Ashdown Foresters, Beacon Fell Traditional Lancashire Cheese, Beenleigh Blue cheese, Blue Rathgore, Brighton Blue |
 | breakfast cereal | 47 | 2 | 4% | All-Bran, Alpha-Bits, Cap'n Crunch, Cerelac, Cinnamon Toast Crunch, CoCo Wheats |
@@ -40,6 +40,7 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | raw-milk cheese | 34 | 9 | 26% | Banon cheese, Beenleigh Blue cheese, Boerenkaas, Brie de Meaux, Brie de Melun, Crottin de Chavignol |
 | seed | 30 | 5 | 17% | Grains of Selim, apricot kernel, basil seed, buah keluak, cannabis seed, caraway seeds |
 | chocolate | 28 | 3 | 11% | Belgian chocolate, Dutch-process cocoa, Gianduja, Giri choco, Mingles, Pellizco |
+| hamburger | 33 | 9 | 27% | 50/50 burger, BK Stacker, BK XXL, Bacon Deluxe, Bonus Jack, Kiwiburger |
 | pressed uncooked cheese | 26 | 2 | 8% | Abbaye de Belloc, Cantal, Etorki, Le Douanier, Maasdam cheese, Mahón cheese |
 | white mold-rind cheese | 26 | 3 | 12% | Brie de Meaux, Brie de Melun, Brillat-Savarin cheese, Carré de l'Est, Chabis, Coulommiers cheese |
 | chili pepper | 31 | 9 | 29% | Ají caballero, Banana pepper, Bishop's Crown, Black Pearl pepper, Capsicum annuum var. glabriusculum, Capsicum baccatum ‘Ají Panca’ |
@@ -63,6 +64,5 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | budino | 12 | 3 | 25% | Angel Delight, Mango pudding, Teurgoule, bonet, junket, panna cotta |
 | Dutch cheese | 11 | 2 | 18% | Beemster cheese, Boerenkaas, Friesian Clove, Graskaas, Hooidammer, Kanterkaas |
 | primal cut | 11 | 2 | 18% | belly as food, cut of beef, fillet, head as food, leg as food, rack of lamb |
-| butter | 10 | 1 | 10% | Bretel butter, Eshabwe, Lurpak, Manteiga-de-garrafa, beurre d'Isigny, clarified butter |
 
 Street food is not a Wikidata family of dishes (no "subclass of" street food links), so it cannot be measured this way.

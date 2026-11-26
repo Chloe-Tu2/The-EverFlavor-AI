@@ -14,7 +14,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Yemen | low | 8 | 1 | 5 | 7 | 0 | 0 | 100% |
+| Yemen | low | 9 | 1 | 5 | 7 | 0 | 0 | 100% |
 | Saudi Arabia | low | 4 | 0 | 2 | 2 | 73 | 0 | 100% |
 | Bahrain | low | 1 | 1 | 0 | 0 | 0 | 0 | 100% |
 | United Arab Emirates | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |

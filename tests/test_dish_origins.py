@@ -32,3 +32,18 @@ def test_a_person_can_drop_an_added_country(monkeypatch) -> None:
 
 def test_a_dish_without_a_country_still_counts_for_its_origins() -> None:
     assert dish_origins.countries_of(dish("", ["Jordan"])) == ["Jordan"]
+
+
+def test_a_person_can_add_a_country_and_the_fetch_honours_drops() -> None:
+    # review items 30 and 40 (med27-coder, 2026-11-25), data/reference/dish_decisions.csv
+    assert dish_origins.countries_of(dish("Saudi Arabia", ["Saudi Arabia"], qid="Q5647753")) == ["Saudi Arabia", "Yemen"]
+    import fetch_knowledge
+    assert ("Q6418914", "New Zealand") in fetch_knowledge.PERSON_DROPS   # Kiwiburger
+
+
+def test_an_intro_stating_where_a_dish_comes_from_is_story_material() -> None:
+    # review item 37 (med27-coder, 2026-11-25)
+    import story_rules
+    told = {"summary": "Kelaguen is a Chamorro dish from the Mariana Islands eaten as a side dish."}
+    plain = {"summary": "Fufu is made with boiled cassava and served with soup."}
+    assert story_rules.has_story(told) and not story_rules.has_story(plain)

@@ -78,7 +78,6 @@
 | [Azerbaijan](azerbaijan.md) | 11 |
 | [Ecuador](ecuador.md) | 11 |
 | [Laos](laos.md) | 11 |
-| [New Zealand](new_zealand.md) | 11 |
 | [Nicaragua](nicaragua.md) | 11 |
 | [Senegal](senegal.md) | 11 |
 | [Argentina](argentina.md) | 10 |
@@ -97,6 +96,7 @@
 | [Cameroon](cameroon.md) | 8 |
 | [Iceland](iceland.md) | 8 |
 | [Luxembourg](luxembourg.md) | 8 |
+| [New Zealand](new_zealand.md) | 8 |
 | [Saudi Arabia](saudi_arabia.md) | 8 |
 | [Uzbekistan](uzbekistan.md) | 8 |
 | [Bosnia and Herzegovina](bosnia_and_herzegovina.md) | 7 |

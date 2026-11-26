@@ -36,7 +36,7 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 | Southern Africa (Africa) | 5 | 2 | 16.5 | 61.2 | fair | 1 |  |  |
 | South America (Americas) | 16 | 12 | 10 | 62.5 | fair | 34 | 1 | 7 |
 | Southern Europe (Europe) | 17 | 14 | 9 | 63.7 | fair | 158 | 2 | 5 |
-| Australasia (Oceania) | 6 | 2 | 38 | 66.7 | fair | 4 |  | 3 |
+| Australasia (Oceania) | 6 | 2 | 36.5 | 66.7 | fair | 5 |  | 3 |
 | Northern America (Americas) | 5 | 2 | 243.5 | 70 | fair | 173 | 2 | 50 |
 | Central Asia (Asia) | 5 | 5 | 8 | 70 | fair | 1 |  |  |
 | Western Asia (Asia) | 18 | 15 | 12 | 71.7 | fair | 46 |  | 1 |
@@ -66,11 +66,11 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 - Americas: 108 dishes from 11 countries
 - Asia: 300 dishes from 33 countries
 - Europe: 391 dishes from 28 countries
-- Oceania: 5 dishes from 2 countries
+- Oceania: 6 dishes from 3 countries
 
 ## Versions we lack, and the review queue
 
-- `missing_variants.json`: 678 backlog dishes are versions of a dish EverFlavor already shows (their Wikidata family is one of our dishes), by subregion.
+- `missing_variants.json`: 679 backlog dishes are versions of a dish EverFlavor already shows (their Wikidata family is one of our dishes), by subregion.
 - `publication_review_queue.json`: 171 dishes need a person first. The problems found:
   - not a country today (a region, city or former state): a person places it: 109 (Korea 30, Europe 3, Maghreb 3, West Germany 3, Ancient Rome 2, British Raj 2, ...)
   - in more than 3 families: check which one it belongs to: 51

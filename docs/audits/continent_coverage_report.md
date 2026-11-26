@@ -6,9 +6,9 @@ Read from the Global Culinary Atlas files (`data/knowledge/atlas/`, regions from
 |---|---:|---:|---:|---:|---:|---|
 | Africa | 60 | 40 | 273 | 2,600 | 40.8 | thin |
 | Americas | 57 | 36 | 943 | 148,888 | 47.8 | thin |
-| Asia | 51 | 45 | 1,585 | 21,394 | 76.6 | good |
+| Asia | 51 | 45 | 1,586 | 21,394 | 76.6 | good |
 | Europe | 53 | 42 | 1,599 | 50,001 | 89.6 | good |
-| Oceania | 29 | 8 | 86 | 3,142 | 17.5 | gap |
+| Oceania | 29 | 8 | 83 | 3,142 | 17.5 | gap |
 
 ## Africa
 
@@ -44,7 +44,7 @@ Recipes but no dish page: Aruba, Cayman Islands.
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
 | Central Asia | 5 | 5 | 31 | 70.0 | fair |
-| Western Asia | 18 | 15 | 258 | 71.7 | fair |
+| Western Asia | 18 | 15 | 259 | 71.7 | fair |
 | Southern Asia | 9 | 9 | 212 | 77.5 | good |
 | Eastern Asia | 8 | 6 | 450 | 87.5 | good |
 | Southeast Asia | 11 | 10 | 634 | 95.5 | good |
@@ -62,11 +62,11 @@ Recipes but no dish page: Aruba, Cayman Islands.
 
 ## Oceania
 
-8 of 29 countries and territories have a dish; 0 have recipes but no dish page; 4 versions of dishes we have are missing; the backlog holds 3 blocked, 5 ready.
+8 of 29 countries and territories have a dish; 0 have recipes but no dish page; 5 versions of dishes we have are missing; the backlog holds 3 blocked, 6 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
 | Melanesia | 5 | 1 | 1 | 12.5 | gap |
 | Polynesia | 10 | 2 | 3 | 13.8 | gap |
 | Micronesian Region | 8 | 3 | 6 | 21.2 | gap |
-| Australasia | 6 | 2 | 76 | 66.7 | fair |
+| Australasia | 6 | 2 | 73 | 66.7 | fair |
