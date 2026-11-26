@@ -63,6 +63,34 @@ def regional(label: str, country: str) -> bool:
         and not re.fullmatch(r"q\d+", low)
 
 
+REGIONAL_SECTION = re.compile(r"region|provinc|state|local|area|island|by (city|place)", re.IGNORECASE)
+
+
+def country_pages(country: str) -> list[str]:
+    """The country's own cuisine pages the fetch reads (not the dish lists)."""
+    return [page for c, region, page in fk.sources()
+            if c == country and region is None and not page.startswith(("List of", "Category:"))]
+
+
+def page_regional_links(country: str, foreign: set[str]) -> dict[str, list[str]]:
+    """Second candidate source (Q1, 2026-11-26): regional cuisine articles the country's own cuisine page links
+    ("Bavarian cuisine" on "German cuisine"). Title -> the sections it appears in. Cuisines named after another
+    country ("French cuisine" on a neighbour's page) are left out; a person checks the rest."""
+    found: dict[str, list[str]] = defaultdict(list)
+    for page in country_pages(country):
+        html = fk._get({"action": "parse", "page": page, "prop": "text", "redirects": 1}, f"parse:{page}")
+        if "parse" not in html:
+            continue   # no such page
+        parser = fk.ListPage(prose=True)
+        parser.feed(html["parse"]["text"])
+        for r in parser.rows:
+            title = r["title"]
+            stem = re.sub(r"^cuisine of (the )?| cuisine$", "", title.lower())
+            if regional(title, country) and stem not in foreign:
+                found[title].append(" / ".join(r["section"]) or "intro")
+    return found
+
+
 def main() -> None:
     from everflavor.knowledge import _sparql
     rows = _sparql(QUERY, ROOT / "data" / "raw" / "knowledge_cache" / "wikidata")
@@ -75,9 +103,21 @@ def main() -> None:
     targets = sorted(r["country"] for r in debt if "no culinary region" in r["gaps"])
     reach = {c: sorted(items.get(c, set())) for c in targets}
     covered = [c for c in targets if reach[c]]
+    # every country name and adjective the atlas knows, so "Indian cuisine" on a neighbour's page is not a region
+    foreign = {n.lower() for n in tree_countries()} | {a.lower() for a in fk.APP_COUNTRIES.values()} | \
+        {a.lower() for a in NATIONAL_ADJECTIVES.values()}
+    pages = {c: page_regional_links(c, foreign - {c.lower(), (fk.APP_COUNTRIES.get(c) or "").lower()})
+             for c in targets}
+    in_section = {c: sorted(t for t, secs in pages[c].items() if any(REGIONAL_SECTION.search(s) for s in secs))
+                  for c in targets}
+    page_reach = [c for c in targets if in_section[c]]
+    new_reach = [c for c in page_reach if not reach[c]]
     (KNOW / "atlas" / "regional_source_candidates.json").write_text(json.dumps(
         {"by": "scripts/knowledge/regional_sources.py", "built_on": date.today().isoformat(),
-         "source": "Wikidata (CC0): cuisine items with a country, not the national cuisine", "countries": reach},
+         "source": "Wikidata (CC0): cuisine items with a country, not the national cuisine", "countries": reach,
+         "wikipedia_source": ("Wikipedia (CC BY-SA 4.0): regional cuisine articles linked from a regional section "
+                              "of the country's own cuisine page"),
+         "wikipedia_countries": {c: in_section[c] for c in page_reach}},
         ensure_ascii=False, indent=1), encoding="utf-8")
     lines = [f"# Regional source research (Q1 phase 0, {date.today().isoformat()})", "",
              (f"{len(targets)} countries with a dish have no regional data. The goal of phase 0 is a trustworthy "
@@ -99,8 +139,26 @@ def main() -> None:
               "## Countries Wikidata reaches", ""]
     lines += table(["Country", "Items", "Examples"], [[c, len(reach[c]), ", ".join(reach[c][:4])] for c in covered])
     lines += ["", "## Countries with no candidate", "", ", ".join(c for c in targets if not reach[c]) or "none"]
+    lines += ["", "## Second source: the country's own cuisine page", "",
+              (f"Regional cuisine articles linked from a regional section (a heading with region, province, state, "
+               f"local, area or island) of the country's own cuisine page reach {len(page_reach)} of the "
+               f"{len(targets)} countries; {len(new_reach)} of them Wikidata does not reach. Licence CC BY-SA 4.0 "
+               "(credit). Each link still needs the same check as a Wikidata item (a place within the country, not "
+               "an ethnic group, a historical court cuisine, a neighbour's region or a wider region); nothing is "
+               "added. Measured on 2026-11-26, most links failed that check by eye (Mughlai, Jewish, Caribbean, "
+               "Asian, South Indian): this page route does not unblock Q1. A third source is needed, or the gap "
+               "stays and the debt counts it."), ""]
+    lines += table(["Country", "Linked regional articles", "Examples", "Wikidata reaches it"],
+                   [[c, len(in_section[c]), ", ".join(in_section[c][:4]), "yes" if reach[c] else "no"]
+                    for c in page_reach])
+    both = sorted(set(covered) | set(page_reach))
+    lines += ["", (f"Together the two sources reach {len(both)} of the {len(targets)} countries "
+                   f"({len(both) / len(targets):.0%}); the rest keep the gap."), ""]
+    lines += ["", "## Countries neither source reaches", "",
+              ", ".join(c for c in targets if c not in both) or "none"]
     save_md("regional_source_research.md", lines)
-    print(f"{len(targets)} countries without regional data; Wikidata reaches {len(covered)}")
+    print(f"{len(targets)} countries without regional data; Wikidata reaches {len(covered)}; "
+          f"their cuisine pages reach {len(page_reach)} ({len(new_reach)} new)")
 
 
 if __name__ == "__main__":
