@@ -11,7 +11,7 @@
   },
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
- "not_placed": 1825,
+ "not_placed": 1824,
  "subregions": {
   "Australasia": [
    {
@@ -10056,13 +10056,6 @@
     "problems": []
    },
    {
-    "dish": "Vienna sausage",
-    "wikidata": "Q327316",
-    "country": "Austria",
-    "status": "ready",
-    "problems": []
-   },
-   {
     "dish": "Antwerps Handje",
     "wikidata": "Q3278369",
     "country": "Belgium",
@@ -11759,6 +11752,13 @@
    {
     "dish": "Tomme Vaudoise",
     "wikidata": "Q693255",
+    "country": "Switzerland",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Vienna sausage",
+    "wikidata": "Q327316",
     "country": "Switzerland",
     "status": "ready",
     "problems": []

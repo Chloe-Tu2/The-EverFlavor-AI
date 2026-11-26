@@ -662,16 +662,18 @@ def learn_more(name: str, title: str, qid: str, lists: list[str], heritage: list
     return links
 
 
-def person_drops() -> frozenset[tuple[str, str]]:
-    """(qid, country) pairs a person dropped (data/reference/dish_decisions.csv, decision `drop`)."""
+def person_decisions(kind: str) -> frozenset[tuple[str, str]]:
+    """(qid, country) pairs a person decided (data/reference/dish_decisions.csv): `drop` takes a dish out of a
+    country, `list` lists it under another country instead."""
     path = ROOT / "data" / "reference" / "dish_decisions.csv"
     if not path.exists():
         return frozenset()
     with path.open(encoding="utf-8", newline="") as f:
-        return frozenset((r["qid"], r["country"]) for r in csv.DictReader(f) if r["decision"].strip().lower() == "drop")
+        return frozenset((r["qid"], r["country"]) for r in csv.DictReader(f) if r["decision"].strip().lower() == kind)
 
 
-PERSON_DROPS = person_drops()
+PERSON_DROPS = person_decisions("drop")
+PERSON_LISTS = dict(person_decisions("list"))   # qid -> the country a person lists it under
 
 
 def main() -> None:
@@ -776,7 +778,9 @@ def main() -> None:
                 continue
             if new_country != country:
                 country, region = new_country, None
-        if (page["qid"], country) in PERSON_DROPS:
+        if page["qid"] in PERSON_LISTS:
+            country, region = PERSON_LISTS[page["qid"]], None   # a person listed it under this country
+        elif (page["qid"], country) in PERSON_DROPS:
             continue   # a person took it out of this country (data/reference/dish_decisions.csv)
         url = "https://en.wikipedia.org/wiki/" + page["title"].replace(" ", "_")
         if country in PROSE_REGION_COUNTRIES:

@@ -75,8 +75,9 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   dishes answer all five; versions are the gap).
 - **Review decisions, 2026-11-25** (med27-coder): items 24, 28, 29 and 30 answered (the 0.8 review condition),
   36 (no), 37 (an intro stating where a dish comes from is story material) and 40. New
-  `data/reference/dish_decisions.csv` keeps a person's decisions on dish entries: Kiwiburger, Goody Goody Gum Drops
-  and Hagelslag leave New Zealand, and Haneeth counts for Yemen as well as Saudi Arabia.
+  `data/reference/dish_decisions.csv` keeps a person's decisions on dish entries: Kiwiburger and Goody Goody Gum Drops
+  leave New Zealand, Hagelslag moves to the Netherlands, and Haneeth counts for Yemen as well as Saudi Arabia.
+  The release readiness report opens with a countdown of the reviews left, with rough times.
 - **Sprint 6, pipeline blind spots** (2026-11-25): Monaco, San Marino and Liechtenstein were never in the fetch
   lists or the place tree; with them, Barbajuan and U Pan de Natale (Monaco) and Torta Tre Monti (San Marino) bring
   the UN members with a dish to 163. Pick sheets for the empty countries (`cuisine_page_picks.py`, 520 articles),

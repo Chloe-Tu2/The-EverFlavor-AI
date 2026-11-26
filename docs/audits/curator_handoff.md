@@ -5,12 +5,12 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 ## Generated at
 
 - Date: 2026-11-25
-- Time: 21:37
-- Git commit: b96b8dd+work (compared with b710ac9+work, 2026-11-25)
+- Time: 21:51
+- Git commit: ae82cc7+work (compared with b96b8dd+work, 2026-11-25)
 
 ## Current status
 
-- Branch: policy/review-batch-24-40
+- Branch: policy/hagelslag-and-countdown
 - Campaign: Q1. Regional source discovery (the first on the campaign scoreboard, in the planner's order)
 - Version: 0.7.2
 - Release readiness 0.8: 6 of 9 conditions done
@@ -19,7 +19,7 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 
 ## Headline
 
-- Coverage: 70.6%
+- Coverage: 70.7%
 - UN members with a dish: 163 of 193
 - Atlas debt: 3.15 per country
 - Regional debt: 116 countries
@@ -30,7 +30,7 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 ## Atlas debt
 
 - Current debt: 538 (3.15 per country)
-- Debt change: atlas debt 558 -> 538; debt per country 3.26 -> 3.15
+- Debt change: no change
 - Top debt categories:
   1. no culinary region: 116 countries, 348 points
   2. one dish only: 28 countries, 56 points
@@ -42,27 +42,27 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 
 ## Coverage
 
-- world culinary coverage (%): 70.6
+- world culinary coverage (%): 70.7
 - Africa coverage (%): 54.5
 - Oceania coverage (%): 35.2
 - countries with a dish: 171
 - UN members with a dish: 163
-- Change since the last run: world culinary coverage (%) 70.0 -> 70.6; Africa coverage (%) 52.8 -> 54.5; Oceania coverage (%) 33.8 -> 35.2
+- Change since the last run: world culinary coverage (%) 70.6 -> 70.7
 
 ## Representation
 
-- dish families and categories: 710
+- dish families and categories: 711
 - country pages: 168
 - region pages: 30
 - countries with three dishes or more: 130
-- Change since the last run: dish families and categories 711 -> 710
+- Change since the last run: dish families and categories 710 -> 711
 
 ## Enrichment
 
-- entries with a story: 2758
+- entries with a story: 2759
 - entries with a Wikidata origin: 4194
 - Walter coverage score: 3.61
-- Change since the last run: entries with a story 2761 -> 2758; entries with a Wikidata origin 4195 -> 4194; Walter coverage score 3.58 -> 3.61
+- Change since the last run: entries with a story 2758 -> 2759
 
 ## Preservation
 
@@ -77,33 +77,22 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 - Review items open: 29
 - Review items added since the last run: 0
 - Review items answered by a person: 11 (items 21, 24, 28, 29, 30, 32, 33, 34, 36, 37, 40)
-- Change since the last run: review items open 36 -> 29; review items answered 4 -> 11
+- Change since the last run: no change
 
 ## Work completed since the last snapshot
 
-- 094f8b6 Sprint 6: refresh the health reports after item 21, pin the place tree size, changelog
+- 884c1eb Apply review items 24, 28, 29, 30, 36, 37 and 40; Oceania reaches 35%
 
 ## What improved
 
-- world culinary coverage (%): 70.0 -> 70.6
-- Africa coverage (%): 52.8 -> 54.5
-- Americas coverage (%): 72.9 -> 73.4
-- Oceania coverage (%): 33.8 -> 35.2
-- countries with a story: 136 -> 145
-- Walter coverage score: 3.58 -> 3.61
-- review items answered: 4 -> 11
-- review items open: 36 -> 29
-- atlas debt: 558 -> 538
-- debt per country: 3.26 -> 3.15
-- debt: no story: 35 -> 26
-- debt: weak Walter: 5 -> 3
+- world culinary coverage (%): 70.6 -> 70.7
+- dishes: 3868 -> 3869
+- dish families and categories: 710 -> 711
+- entries with a story: 2758 -> 2759
 
 ## What regressed
 
-- dishes: 3871 -> 3868
-- dish families and categories: 711 -> 710
-- entries with a story: 2761 -> 2758
-- entries with a Wikidata origin: 4195 -> 4194
+- nothing
 
 ## Human review required
 

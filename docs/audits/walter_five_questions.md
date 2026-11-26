@@ -4,18 +4,18 @@ For each of our dishes, can Walter answer what it is, where it is from, why it m
 
 | Question | Dishes with an answer | Share |
 |---|---:|---:|
-| what is it | 3,867 | 100% |
+| what is it | 3,868 | 100% |
 | where is it from | 3,137 | 81% |
-| why it matters | 3,135 | 81% |
-| similar dishes | 3,867 | 100% |
-| its versions | 249 | 6% |
+| why it matters | 3,136 | 81% |
+| similar dishes | 3,868 | 100% |
+| its versions | 250 | 6% |
 
 ## How many of the five each dish answers
 
 | Answers | Dishes |
 |---|---:|
 | 5 | 149 |
-| 4 | 2,507 |
+| 4 | 2,508 |
 | 3 | 1,058 |
 | 2 | 154 |
 | 1 | 0 |

@@ -47,3 +47,8 @@ def test_an_intro_stating_where_a_dish_comes_from_is_story_material() -> None:
     told = {"summary": "Kelaguen is a Chamorro dish from the Mariana Islands eaten as a side dish."}
     plain = {"summary": "Fufu is made with boiled cassava and served with soup."}
     assert story_rules.has_story(told) and not story_rules.has_story(plain)
+
+
+def test_a_person_can_list_a_dish_under_another_country() -> None:
+    import fetch_knowledge  # Hagelslag: wrong country, not a wrong entry (review item 30)
+    assert fetch_knowledge.PERSON_LISTS.get("Q152547") == "Netherlands"

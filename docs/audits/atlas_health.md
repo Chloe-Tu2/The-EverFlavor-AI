@@ -4,7 +4,7 @@ The five measures, the atlas debt and release readiness, from `scripts/knowledge
 
 ## Headline
 
-- Coverage: 70.6%
+- Coverage: 70.7%
 - UN members: 163 of 193
 - Atlas debt: 3.15 per country
 - Story debt: 26 countries
@@ -13,9 +13,9 @@ The five measures, the atlas debt and release readiness, from `scripts/knowledge
 
 ## The five measures
 
-- **Coverage:** world culinary coverage (%) 70.6; Africa coverage (%) 54.5; Americas coverage (%) 73.4; Asia coverage (%) 81.2; Europe coverage (%) 87.8; Oceania coverage (%) 35.2; countries with a dish 171; country pages 168
-- **Representation:** dish families and categories 710; countries with three dishes or more 130; countries with a story 145; Indigenous traditions tracked 6
-- **Enrichment:** entries with a story (History or Origin sentences) 2,758; entries with a Wikidata origin 4,194; entries linked to a family 3,779; entries with a culinary region 644; rich dishes 531; fair dishes 1,490; thin dishes 1,847
+- **Coverage:** world culinary coverage (%) 70.7; Africa coverage (%) 54.5; Americas coverage (%) 73.4; Asia coverage (%) 81.2; Europe coverage (%) 87.8; Oceania coverage (%) 35.2; countries with a dish 171; country pages 168
+- **Representation:** dish families and categories 711; countries with three dishes or more 130; countries with a story 145; Indigenous traditions tracked 6
+- **Enrichment:** entries with a story (History or Origin sentences) 2,759; entries with a Wikidata origin 4,194; entries linked to a family 3,780; entries with a culinary region 644; rich dishes 532; fair dishes 1,490; thin dishes 1,847
 - **Preservation:** entries with an Indigenous tradition 29; Indigenous traditions tracked 6
 - **Governance:** 40 review items logged in [needs_human_review.md](../governance/needs_human_review.md), 11 answered by a person; none closed by Claude.
 
@@ -148,7 +148,7 @@ The average of Walter's five questions their dishes answer (0 to 5); enrichment 
 
 | Target | Goal | Now | Readiness |
 |---|---:|---:|---:|
-| world culinary coverage (%) | >= 60% | 70.6% | done |
+| world culinary coverage (%) | >= 60% | 70.7% | done |
 | Africa coverage (%) | >= 50% | 54.5% | done |
 | Oceania coverage (%) | >= 35% | 35.2% | done |
 

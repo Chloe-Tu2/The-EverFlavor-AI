@@ -13,7 +13,7 @@ One page per food region of the place tree, in `data/knowledge/atlas/regions/`, 
 | Caribbean Islands | Caribbean | 19 | 9 | 100 | 52.0 | Soto (food), Roti, Banana bread |
 | West Africa | Africa | 16 | 10 | 72 | 52.4 | Jollof rice, Ofe akwụ, Suya |
 | East Africa | Africa | 18 | 13 | 37 | 58.9 | Injera, Haleem, Matoke |
-| Western Europe | Europe | 7 | 6 | 181 | 73.8 | Croissant, Waffle, Schnitzel |
+| Western Europe | Europe | 7 | 6 | 182 | 73.8 | Croissant, Waffle, Schnitzel |
 | Mexico & Central America | Latin America | 8 | 7 | 135 | 82.1 | Al pastor, Chocolate, King cake |
 | Mediterranean Europe | Europe | 15 | 14 | 684 | 82.3 | Croissant, Waffle, Dolma |
 | United States & Canada | North America | 2 | 2 | 455 | 84.2 | Beignet, Burrito, Coleslaw |

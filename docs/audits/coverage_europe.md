@@ -26,8 +26,8 @@ Back to [world coverage](coverage_world.md).
 | Germany | high | 110 | 57 | 64 | 96 | 1,476 | 40 | 73% |
 | Poland | high | 73 | 28 | 45 | 66 | 418 | 9 | 89% |
 | Hungary | medium | 45 | 23 | 25 | 42 | 346 | 4 | 92% |
-| Switzerland | medium | 34 | 14 | 25 | 28 | 323 | 28 | 55% |
-| Austria | medium | 23 | 14 | 21 | 25 | 101 | 10 | 70% |
+| Switzerland | medium | 34 | 14 | 25 | 28 | 323 | 29 | 54% |
+| Austria | medium | 23 | 14 | 21 | 25 | 101 | 9 | 72% |
 | Czech Republic | low | 14 | 5 | 13 | 15 | 94 | 5 | 74% |
 | Slovenia | low | 11 | 0 | 7 | 8 | 0 | 2 | 85% |
 
@@ -77,7 +77,7 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | France | medium | 138 | 101 | 59 | 115 | 8,520 | 182 | 43% |
-| Netherlands | medium | 37 | 7 | 19 | 31 | 245 | 30 | 55% |
+| Netherlands | medium | 38 | 7 | 22 | 34 | 245 | 30 | 56% |
 | Belgium | medium | 30 | 16 | 21 | 28 | 113 | 18 | 62% |
 | Luxembourg | low | 5 | 1 | 3 | 3 | 0 | 0 | 100% |
 | Monaco | low | 2 | 0 | 2 | 2 | 0 | 0 | 100% |
@@ -261,9 +261,9 @@ Back to [world coverage](coverage_world.md).
 
 ### Netherlands
 
-- Coverage: **medium** (37 dishes, 7 with recipes, 245 recipes; place tree: Europe > Western Europe).
+- Coverage: **medium** (38 dishes, 7 with recipes, 245 recipes; place tree: Europe > Western Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Coleslaw, Semolina pudding, Stroopwafel, Poffertjes, Lapis legit, Kapsalon, Hutspot, Zeeuwse bolus.
-- Families present: biscuit, blood sausage, cabbage salad, cake, cheese stick, cookie, doughnut, layer cake.
+- Families present: biscuit, blood sausage, cabbage salad, cake, cheese stick, confectionery, cookie, doughnut.
 - Missing (Wikidata family members we lack, 30): Leerdammer, Maasdam cheese, nonnevot, currant bun, crompouce, Leyden cheese, Graskaas, Boerenkaas, Beemster cheese, zwieback.
 
 ### Luxembourg
@@ -278,14 +278,14 @@ Back to [world coverage](coverage_world.md).
 - Coverage: **medium** (23 dishes, 14 with recipes, 101 recipes; place tree: Europe > Central Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Schnitzel, Strudel, Bread roll, Bratwurst, Apple strudel, Wiener schnitzel, Linzertorte, Danish pastry.
 - Families present: beef, bread, bread roll, cake, chocolate cake, confectionery, cut of beef, escalope.
-- Missing (Wikidata family members we lack, 10): Mondseer, Knieküchle, Vienna sausage, Vienna bread, Tyrolean Speck, Mozartkugel, Mohnnudel, Kaiser roll, Bosna, Allerheiligenstriezel.
+- Missing (Wikidata family members we lack, 9): Mondseer, Knieküchle, Vienna bread, Tyrolean Speck, Mozartkugel, Mohnnudel, Kaiser roll, Bosna, Allerheiligenstriezel.
 
 ### Switzerland
 
 - Coverage: **medium** (34 dishes, 14 with recipes, 323 recipes; place tree: Europe > Central Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Carrot cake, Cordon bleu (dish), Schnitzel, Muesli, Rösti, King cake, Raclette, Head cheese.
 - Families present: Bratwurst, aspic, beignet, biscuit, breakfast cereal, cabbage roll, cake, charcuterie.
-- Missing (Wikidata family members we lack, 28): Vacherin Mont-d'Or, Tête de Moine, Șvaițer, Sbrinz, Raclette du Valais, Gruyère, Berner Alpkäse, Appenzeller cheese, vacherin, totché.
+- Missing (Wikidata family members we lack, 29): Vacherin Mont-d'Or, Tête de Moine, Șvaițer, Sbrinz, Raclette du Valais, Gruyère, Berner Alpkäse, Appenzeller cheese, vacherin, totché.
 
 ### Czech Republic
 

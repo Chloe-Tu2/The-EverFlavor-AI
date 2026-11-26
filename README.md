@@ -74,7 +74,7 @@ Coverage is a score per country, averaged. The basic checks are three dishes, a 
 
 | Measure | Now | Exact numbers |
 |---|---:|---:|
-| World culinary coverage (%) | 70.6 | 165 of 200 countries have a dish; 117 pass every basic check |
+| World culinary coverage (%) | 70.7 | 165 of 200 countries have a dish; 117 pass every basic check |
 | Africa coverage (%) | 54.5 | 40 of 57 countries have a dish; 18 pass every basic check |
 | Americas coverage (%) | 73.4 | 35 of 39 countries have a dish; 22 pass every basic check |
 | Asia coverage (%) | 81.2 | 45 of 51 countries have a dish; 39 pass every basic check |
@@ -87,7 +87,7 @@ Coverage is a score per country, averaged. The basic checks are three dishes, a 
 
 | Measure | Now |
 |---|---:|
-| Dish families and categories | 710 |
+| Dish families and categories | 711 |
 | Countries with three dishes or more | 130 |
 | Countries with a story | 145 |
 | Indigenous traditions tracked | 6 |
@@ -107,11 +107,11 @@ Per country ([country_representation.md](docs/audits/country_representation.md))
 
 | Measure | Now |
 |---|---:|
-| Entries with a story (History or Origin sentences) | 2,758 |
+| Entries with a story (History or Origin sentences) | 2,759 |
 | Entries with a Wikidata origin | 4,194 |
-| Entries linked to a family | 3,779 |
+| Entries linked to a family | 3,780 |
 | Entries with a culinary region | 644 |
-| Rich dishes | 531 |
+| Rich dishes | 532 |
 | Fair dishes | 1,490 |
 | Thin dishes | 1,847 |
 | Entries with an Indigenous tradition | 29 |
@@ -120,7 +120,7 @@ Per country ([country_representation.md](docs/audits/country_representation.md))
 
 | Measure | Before | Now |
 |---|---:|---:|
-| World culinary coverage (%) | 24.7 | 70.6 |
+| World culinary coverage (%) | 24.7 | 70.7 |
 | Africa coverage (%) | 6.9 | 54.5 |
 | Oceania coverage (%) | 14.7 | 35.2 |
 | Countries with a dish | 96 | 171 |

@@ -2,11 +2,11 @@
 
 Where every campaign stands, in the planner's order: the number now, the next target, the gap and what blocks it. From `scripts/knowledge/atlas_health.py`; targets for E, F and B are Claude's working targets, not release gates. **Audit only.**
 
-Debt per country fell since the last snapshot; expansion and debt work can both go ahead.
+**Debt first.** Debt per country did not fall since the last snapshot (3.15 -> 3.15), so the charter's rule applies: reduce the debt (Q1, Q2, Walter, Q4) before further expansion, so Q1 comes first.
 
-**Debt velocity** since b710ac9+work (2026-11-25): atlas debt 558 -> 538 (-20); no culinary region 116 -> 116 (+0); no story 35 -> 26 (-9); no family 17 -> 17 (+0); one dish only 28 -> 28 (+0); no photo 45 -> 45 (+0); weak Walter 5 -> 3 (-2).
+**Debt velocity** since b96b8dd+work (2026-11-25): atlas debt 538 -> 538 (+0); no culinary region 116 -> 116 (+0); no story 26 -> 26 (+0); no family 17 -> 17 (+0); one dish only 28 -> 28 (+0); no photo 45 -> 45 (+0); weak Walter 3 -> 3 (+0).
 
-**Debt reduction efficiency:** no new dishes; +20 debt points removed (-0.11 per country)
+**Debt reduction efficiency:** +0 debt points removed per 100 new dishes (+1 dishes, +0 points removed, +0.00 per country)
 
 | Campaign | Now | Next target | Gap | Blocked by |
 |---|---:|---:|---:|---:|
@@ -30,7 +30,7 @@ Status, what kind of thing blocks each campaign (data, source, policy, review, t
 |---|---:|---:|---:|---:|
 | Q1. Regional source discovery | active | source | high | medium |
 | F. Southern Africa 50% | active | review (3 empty countries need a person's picks, item 38) | medium | medium |
-| C. Oceania 35% | active | data (coverage gaps) | medium | high |
+| C. Oceania 35% | complete (2026-11-25), maintenance | none; keep above 35% | none | high |
 | Q2b. New story sources | active | source | high | low |
 | Walter debt | active | data | medium | medium |
 | Q4. Family recovery | active | data | low | medium |
