@@ -1672,6 +1672,23 @@ def dishes_in_app() -> int:
         return sum(1 for line in f if '"kind": "dish"' in line)
 
 
+
+@st.cache_data(show_spinner=False)
+def world_coverage() -> dict:
+    """Breadth and depth of the atlas (review item 21, med27-coder, 2026-11-25): UN member states with a dish (the
+    headline), and world culinary coverage, the weighted depth score over the countries and territories counted
+    (100,000 people or more). Read from the coverage report, so it follows every data run; {} when it is missing."""
+    path = ROOT / "data" / "knowledge" / "atlas" / "culinary_coverage.json"
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    un, world = data.get("un_states", {}), data.get("world", {})
+    if not un.get("members") or "coverage" not in world:
+        return {}
+    return {"members": un["members"], "with_a_dish": un["members_with_a_dish"], "depth": world["coverage"],
+            "places": world["countries"], "places_with_a_dish": world["with_a_dish"]}
+
+
 def landing() -> None:
     """What people see first (docs/plans/LANDING_PAGE.md, option A): the promise, one button into the app, how it
     works and how we check, drawn before the recipes load. The chef's "catch" is a fixed, reviewed fact from the
@@ -1704,6 +1721,12 @@ def landing() -> None:
         if count := dishes_in_app():
             st.markdown(f"**Right now the app works with {count:,} dishes** from around the world, each with its "
                         "sources, so the chef can tell you what a dish is and where it comes from.")
+        if cov := world_coverage():
+            st.markdown(f"**{cov['with_a_dish']} of {cov['members']} UN member states** have a dish in the app, with "
+                        f"{cov['places_with_a_dish']} of the {cov['places']} countries and territories we count. "
+                        f"**Coverage depth: {cov['depth']}%**",
+                        help=("Coverage depth measures how completely each place is represented: three dishes, a dish "
+                              "family, a cuisine description and a food history, then regional styles and more."))
         with st.expander("How we check"):
             st.markdown(
                 "- **What we check:** about 290,000 recipes from open and research datasets, each checked ingredient "
