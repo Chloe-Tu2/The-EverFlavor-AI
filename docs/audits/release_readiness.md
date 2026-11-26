@@ -2,6 +2,15 @@
 
 Done, waiting on a person, open for Claude, per release gate in the planner. From `scripts/knowledge/atlas_health.py`.
 
+## 0.8 release countdown
+
+- Readiness: 6 of 9 conditions done
+- Reviews left: 2, about 127 minutes in all (estimates)
+- Blocked only by: human review
+
+1. **Cuisine images: 111 of 111 rows without a verdict (14 likely wrong first, then 31 to look at, 66 probably right)**, about 37 minutes. `data/knowledge/review/cuisine_images.csv`: `verdict` yes or no, and `reviewer`
+2. **Contact sheets: 72 of 72 passed sheets not yet read**, about 90 minutes. `data/raw/dish_photos_approved/sheets/` (local); a wrong photo goes in `data/reference/dish_photo_review.csv`, a finished sheet in `data/reference/contact_sheet_review.csv`
+
 ### 0.8.0: 6 of 9 conditions done
 
 | Area | Condition | Readiness |
@@ -35,7 +44,7 @@ Done, waiting on a person, open for Claude, per release gate in the planner. Fro
 
 | Target | Goal | Now | Readiness |
 |---|---:|---:|---:|
-| world culinary coverage (%) | >= 60% | 70.6% | done |
+| world culinary coverage (%) | >= 60% | 70.7% | done |
 | Africa coverage (%) | >= 50% | 54.5% | done |
 | Oceania coverage (%) | >= 35% | 35.2% | done |
 

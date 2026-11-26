@@ -1690,8 +1690,8 @@
    "country": "Netherlands",
    "continent": "Europe",
    "subregion": "Western Europe",
-   "dishes": 37,
-   "walter": 3.84,
+   "dishes": 38,
+   "walter": 3.82,
    "debt": 0,
    "gaps": []
   },
@@ -1736,7 +1736,7 @@
    "continent": "Americas",
    "subregion": "South America",
    "dishes": 59,
-   "walter": 3.49,
+   "walter": 3.51,
    "debt": 0,
    "gaps": []
   },

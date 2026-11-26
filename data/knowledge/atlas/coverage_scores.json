@@ -64,7 +64,7 @@
    "depth": 1.0,
    "score": 89.6,
    "band": "good",
-   "dishes": 1599,
+   "dishes": 1600,
    "recipes": 50001
   },
   {
@@ -465,7 +465,7 @@
    "depth": 1.0,
    "score": 94.4,
    "band": "good",
-   "dishes": 379,
+   "dishes": 380,
    "recipes": 10778,
    "subregion": "Western Europe",
    "continent": "Europe",
@@ -2236,10 +2236,10 @@
    "iso": "NL",
    "continent": "Europe",
    "subregion": "Western Europe",
-   "dishes": 37,
+   "dishes": 38,
    "recipes": 245,
-   "families": 19,
-   "variants": 31,
+   "families": 22,
+   "variants": 34,
    "coverage": "medium"
   },
   {

@@ -23,7 +23,7 @@ import json
 import re
 import subprocess
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 
@@ -124,6 +124,38 @@ def sheet_counts(name: str) -> tuple[int, int]:
     return len(rows), sum(bool(r.get("verdict", "").strip()) for r in rows)
 
 
+# the passed contact sheets of the approved photos (docs/audits/approved_photos_check.md: failed ones first)
+PASSED_SHEETS = [f"sheet_{n:03d}.jpg" for n in range(37, 109)]
+
+
+def countdown(done_of: dict[str, str]) -> list[str]:
+    """The next release's countdown (med27-coder, 2026-11-25): the reviews left, where they are, and a rough time.
+    The times are estimates (about 20 seconds a cuisine image, 75 seconds a contact sheet), not measurements."""
+    images = KNOW / "review" / "cuisine_images.csv"
+    rows = list(csv.DictReader(images.open(encoding="utf-8", newline=""))) if images.exists() else []
+    open_images = [r for r in rows if not r.get("verdict", "").strip()]
+    risk = Counter(r.get("risk", "") for r in open_images)
+    seen = ROOT / "data" / "reference" / "contact_sheet_review.csv"
+    done = {r["sheet"] for r in csv.DictReader(seen.open(encoding="utf-8", newline=""))} if seen.exists() else set()
+    sheets = [s for s in PASSED_SHEETS if s not in done]
+    left = [((f"Cuisine images: {len(open_images)} of {len(rows)} rows without a verdict "
+             f"({risk['likely wrong']} likely wrong first, then {risk['needs a look']} to look at, "
+             f"{risk['probably right']} probably right)"), ("`data/knowledge/review/cuisine_images.csv`: `verdict` yes or "
+             "no, and `reviewer`"), round(len(open_images) * 20 / 60)),
+            (f"Contact sheets: {len(sheets)} of {len(PASSED_SHEETS)} passed sheets not yet read",
+             ("`data/raw/dish_photos_approved/sheets/` (local); a wrong photo goes in "
+             "`data/reference/dish_photo_review.csv`, a finished sheet in `data/reference/contact_sheet_review.csv`"),
+             round(len(sheets) * 75 / 60))]
+    left = [x for x in left if x[2]]
+    version = next(iter(done_of), "")
+    out = [f"## {version} release countdown", "",
+           f"- Readiness: {done_of.get(version, 'unknown')}",
+           f"- Reviews left: {len(left)}, about {sum(m for *_, m in left)} minutes in all (estimates)",
+           "- Blocked only by: human review" if left else "- No review left: run `/release` once CI is green", ""]
+    out += [f"{i}. **{what}**, about {m} minutes. {where}" for i, (what, where, m) in enumerate(left, start=1)]
+    return out + [""]
+
+
 def record(snapshot: dict) -> dict:
     """Keep one snapshot per commit in the history; return the latest one from another commit ({} if none)."""
     old = [json.loads(line) for line in HISTORY.open(encoding="utf-8")] if HISTORY.exists() else []
@@ -220,7 +252,7 @@ def main() -> None:
     save_md("atlas_health.md", lines)
     save_md("release_readiness.md", [f"# Release readiness ({today})", "",
                                      ("Done, waiting on a person, open for Claude, per release gate in the planner. "
-                                      "From `scripts/knowledge/atlas_health.py`."), "", *ready])
+                                      "From `scripts/knowledge/atlas_health.py`."), "", *countdown(done_of), *ready])
 
     commit = git("rev-parse", "--short", "HEAD") + ("+work" if git("status", "--porcelain", "--untracked-files=no") else "")
     snapshot = {"date": today, "commit": commit,
@@ -254,7 +286,7 @@ def main() -> None:
 HEALTH: dict[str, tuple[str, str, str, str]] = {
     "Q1. Regional source discovery": ("active", "source", "high", "medium"),
     "F. Southern Africa 50%": ("active", "review (3 empty countries need a person's picks, item 38)", "medium", "medium"),
-    "C. Oceania 35%": ("active", "data (coverage gaps)", "medium", "high"),
+    "C. Oceania 35%": ("complete (2026-11-25), maintenance", "none; keep above 35%", "none", "high"),
     "Q2b. New story sources": ("active", "source", "high", "low"),
     "Walter debt": ("active", "data", "medium", "medium"),
     "Q4. Family recovery": ("active", "data", "low", "medium"),

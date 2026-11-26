@@ -36,7 +36,7 @@
    "countries": 41,
    "covered": 39,
    "weak": 2,
-   "representation": 73.6,
+   "representation": 73.7,
    "enrichment": 62.1
   },
   "Oceania": {
@@ -728,7 +728,7 @@
    "dishes": 59,
    "covered": true,
    "representation": 74.0,
-   "enrichment": 56.8,
+   "enrichment": 57.2,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.729,
@@ -736,7 +736,7 @@
    },
    "enrichment_parts": {
     "origins": 0.661,
-    "variants": 0.017,
+    "variants": 0.034,
     "related": 1.0,
     "walter": 0.593
    },
@@ -3456,20 +3456,20 @@
    "continent": "Europe",
    "subregion": "Western Europe",
    "counted": true,
-   "dishes": 37,
+   "dishes": 38,
    "covered": true,
-   "representation": 78.4,
-   "enrichment": 65.5,
+   "representation": 78.9,
+   "enrichment": 65.1,
    "representation_parts": {
     "depth": 1.0,
-    "families": 0.838,
-    "stories": 0.514
+    "families": 0.842,
+    "stories": 0.526
    },
    "enrichment_parts": {
-    "origins": 0.892,
-    "variants": 0.027,
+    "origins": 0.868,
+    "variants": 0.026,
     "related": 1.0,
-    "walter": 0.703
+    "walter": 0.711
    },
    "weak": false
   },

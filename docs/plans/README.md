@@ -382,7 +382,7 @@ Baselines from the sprint 4 run (2026-11-23, `data/knowledge/atlas/culinary_cove
 | A. Empty country recovery | exhausted (2026-11-25) | The automatic routes are used up: sprint 5 tried nine countries and found 1 dish (Chukuchuk), the shared-dish route has 3 weak candidates left. The multi-origin dish policy (2026-11-24) gave Belarus, Eritrea, Jordan, Togo, Barbados and Sierra Leone their first dishes, with Andorra, Congo, Dominica, Grenada, Panama, Saint Lucia, Guadeloupe and the Northern Mariana Islands ([multi_origin_dishes.md](../audits/multi_origin_dishes.md)). The members still empty move to G | 161 of 193 members (148 before the policy) |
 | G. Manual country research | active, needs a person or a new source | The 32 UN members still without a dish ([empty_country_backlog.md](../audits/empty_country_backlog.md)): Claude keeps the research packets ([empty_country_packets.md](../audits/empty_country_packets.md)) and the pick sheets ([cuisine_page_picks.md](../audits/cuisine_page_picks.md), item 38); a dish is added only from a source a person names or a new free source the team approves | 32 members |
 | D. Africa 50% | complete (2026-11-25), maintenance | Africa coverage at least 50% (a 1.0 target), reached at 52.8%; keep it above 50% and deepen Middle Africa | 44.0% (Middle 32.6%, Western 38.6%) |
-| C. Oceania 35% | active | Oceania coverage at least 35% (a 1.0 target), 33.8% on 2026-11-25 (1.2 points to go); Polynesia, Micronesia and Melanesia pages | 32.3% |
+| C. Oceania 35% | complete (2026-11-25), maintenance | Oceania coverage at least 35% (a 1.0 target) and no Oceania country among the 10 highest-debt countries: reached at 35.2% after the story rule of item 37 | 32.3% |
 | F. Southern Africa 50% | active (med27-coder, 2026-11-25) | Southern Africa coverage at least 50%, an average Walter score of 4.0 and regional data in every covered country: Africa's average hid the gap | 2 of 5 countries, 36.1% |
 | E. Western Asia expansion | backlog | Levant, Arabian Peninsula, Mesopotamia and the Persian region linked into the atlas | 14 of 18, 68.5% |
 | B. Caribbean representation | backlog | More Caribbean countries with a dish, country pages, regional links | 9 of 16, 44.5% |
@@ -405,14 +405,15 @@ is now a first-class objective next to coverage: 227 points on 2026-11-24, aimin
 | Walter debt | weak Walter coverage | 7 | the weakest countries in [walter_five_questions.md](../audits/walter_five_questions.md) become enrichment targets |
 | Q5. Multi-origin normalization (later) | shared dishes | see [multi_origin_dishes.md](../audits/multi_origin_dishes.md) | record every sourced origin, link related countries, feed region pages; builds on the [multi-origin dish policy](../governance/multi_origin_dish_policy.md) |
 
-**Order of all campaigns (med27-coder, 2026-11-25):** 1. Q1 Regional source discovery, 2. F Southern
-Africa 50%, 3. C Oceania 35%, 4. Q2b New story sources (Q2a is largely exhausted), 5. Walter debt,
-6. Q4 Family recovery, 7. Q3 Image completion (review-driven), 8. G Manual country research, 9. E Western
-Asia, 10. B Caribbean. The scoreboard's campaign health table says what blocks each one (data, source,
-policy, review or tooling). A is exhausted; D is complete and in maintenance. Item 39 (food or dish) stays parked
-until Q1 progresses, story recovery settles and 0.8 is out, then is decided once, for the whole atlas. The
-question is now how well the atlas represents the countries it has, not how many it has: the largest debt
-categories first, not another mass import. A campaign blocked by a review item gives way to the next one.
+**Order of all campaigns (med27-coder, 2026-11-25):** first finish the 0.8 reviews and release 0.8.0,
+then 1. Q1 Regional source discovery, 2. F Southern Africa 50%, 3. Q2b New story sources (Q2a is largely
+exhausted), 4. Walter debt, 5. Q4 Family recovery, 6. Q3 Image completion (review-driven), 7. G Manual country
+research, 8. E Western Asia, 9. B Caribbean. The scoreboard's campaign health table says what blocks each one
+(data, source, policy, review or tooling). A is exhausted; C (35.2%, so all three 1.0 coverage targets are met)
+and D are complete and in maintenance. Item 39 (food or dish) stays parked until Q1 progresses, story recovery
+settles and 0.8 is out, then is decided once, for the whole atlas. The question is now how well the atlas
+represents the countries it has, not how many it has: the largest debt categories first, not another mass
+import. A campaign blocked by a review item gives way to the next one.
 
 **Completion criteria (med27-coder, 2026-11-25).** A campaign is complete only when every condition holds;
 [campaign_scoreboard.md](../audits/campaign_scoreboard.md) checks them on each run. C: coverage at least 35%

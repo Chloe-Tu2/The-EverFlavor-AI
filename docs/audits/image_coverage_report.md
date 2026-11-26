@@ -12,15 +12,15 @@ Levels, best first: a photo of one of its own recipes (100 points), a Commons ph
 | dish | 69 | 2% |
 | variant | 9 | 0% |
 | family | 185 | 5% |
-| placeholder | 2,479 | 64% |
+| placeholder | 2,480 | 64% |
 
-Statuses: candidate 1,735, verified 1,195, missing 744, fallback 194. Every dish resolves to an image or the placeholder, so no page is empty.
+Statuses: candidate 1,735, verified 1,195, missing 745, fallback 194. Every dish resolves to an image or the placeholder, so no page is empty.
 
 ## By zone
 
 | Zone | Dishes | Own photo | Any photo | Fetchable from Wikidata | Average score |
 |---|---:|---:|---:|---:|---:|
-| Europe | 1,362 | 30% | 35% | 719 | 32.6 |
+| Europe | 1,363 | 30% | 35% | 719 | 32.5 |
 | Asia | 1,153 | 19% | 26% | 732 | 22.9 |
 | North America | 455 | 71% | 76% | 114 | 73.3 |
 | Latin America | 289 | 34% | 37% | 129 | 35.7 |
@@ -64,7 +64,7 @@ Statuses: candidate 1,735, verified 1,195, missing 744, fallback 194. Every dish
 ## Remediation plan
 
 1. **Fetch** the Wikidata images of 1,891 dishes through the existing photo pipeline (`scripts/dish_photos/fetch_dish_photos.py meta`, `download`, `curate`, `write`), which checks each licence and keeps a credit line: 287 high priority (50+ of the 80 points besides the image), 1,604 medium (`image_priority_queue.json`).
-2. **No image anywhere** for 782 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
+2. **No image anywhere** for 783 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
 3. **Family photos** stand in meanwhile, labelled as the family, never as the dish.
 
 ## Approved for collection

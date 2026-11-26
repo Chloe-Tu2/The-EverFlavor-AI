@@ -197,6 +197,34 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3224160) (CC0); [Wikipedia: Gevulde koek](https://en.wikipedia.org/wiki/Gevulde_koek) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Hagelslag
+
+Hagelslag are small, oblong, sweet-tasting chocolate sprinkles or granules, a few millimetres long, which are sprinkled on slices of buttered bread or rusks.
+
+- From: Netherlands
+
+Fun facts:
+
+- (inspiration) According to historical records from the Amsterdam City Archives, Hagelslag was originally invented by B.E. Dieperink, the director of the liquorice sweet company Venco, in 1919.
+- (history) Venco's hagelslag did not contain chocolate until 1951.
+- (culture) Hagelslag is traditionally eaten by the Dutch for breakfast or lunch.
+
+More fun facts (when the user asks for more):
+
+- (history) Venz, the Netherlands' largest producer of hagelslag products, has been making chocolate hagelslag since 1936.
+- (inspiration) Consequently, De Ruijter opted to name their sprinkles based on their flavors, using the term hagel after the flavor (such as in vruchtenhagel).
+- (about) Venz and other companies named their chocolate sprinkles chocoladehagel.
+- (origin) De Ruijter introduced competition to Venco with their assortment of flavors, including lemon, raspberry, orange and aniseed.
+- (about) Not to be confused with fairy bread.
+
+Learn more:
+
+- quick: [Hagelslag (Wikipedia)](https://en.wikipedia.org/wiki/Hagelslag)
+- deep: [Books about Hagelslag (Open Library)](https://openlibrary.org/search?q=Hagelslag)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q152547)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q152547) (CC0); [Wikipedia: Hagelslag](https://en.wikipedia.org/wiki/Hagelslag) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Hopje
 
 Hopjes (; also referred to as Haagsche Hopjes, hopjes from The Hague) are a type of Dutch sweets with a slight coffee and caramel flavour that originated in the 18th century.

@@ -39,7 +39,7 @@
 | [Chile](chile.md) | 41 |
 | [South Africa](south_africa.md) | 41 |
 | [Belgium](belgium.md) | 39 |
-| [Netherlands](netherlands.md) | 38 |
+| [Netherlands](netherlands.md) | 39 |
 | [Switzerland](switzerland.md) | 37 |
 | [Nepal](nepal.md) | 36 |
 | [Cuba](cuba.md) | 35 |

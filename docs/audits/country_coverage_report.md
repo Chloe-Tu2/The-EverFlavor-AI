@@ -25,7 +25,7 @@ Coverage (how many of a country's known dishes we have, from the coverage audit)
 | Vietnam | high | 74 | 500 | 6 | 35.7 | 56% |
 | Poland | high | 73 | 418 | 9 | 43.7 | 46% |
 | Australia | high | 60 | 2,758 | 4 | 50.1 | 32% |
-| Brazil | high | 59 | 311 | 6 | 32.6 | 65% |
+| Brazil | high | 59 | 311 | 6 | 33.0 | 65% |
 | Malaysia | high | 55 | 79 | 3 | 34.1 | 67% |
 | Norway | high | 54 | 200 | 3 | 39.2 | 51% |
 | Russia | high | 54 | 428 | 6 | 44.6 | 29% |
@@ -33,8 +33,8 @@ Coverage (how many of a country's known dishes we have, from the coverage audit)
 | Jamaica | high | 51 | 402 | 1 | 49.4 | 30% |
 | Sweden | medium | 48 | 463 | 20 | 39.8 | 57% |
 | Hungary | medium | 45 | 346 | 4 | 44.9 | 40% |
-| Netherlands | medium | 37 | 245 | 30 | 37.3 | 55% |
-| Switzerland | medium | 34 | 323 | 28 | 40.9 | 55% |
+| Netherlands | medium | 38 | 245 | 30 | 37.5 | 53% |
+| Switzerland | medium | 34 | 323 | 29 | 40.9 | 55% |
 | Iran | medium | 32 | 432 | 26 | 30.9 | 67% |
 | Finland | medium | 31 | 147 | 9 | 31.0 | 64% |
 | Lebanon | medium | 31 | 596 | 0 | 47.4 | 32% |
@@ -46,7 +46,7 @@ Coverage (how many of a country's known dishes we have, from the coverage audit)
 | Peru | medium | 24 | 98 | 11 | 42.2 | 44% |
 | Romania | medium | 24 | 0 | 4 | 25.7 | 86% |
 | Algeria | medium | 23 | 11 | 1 | 18.8 | 95% |
-| Austria | medium | 23 | 101 | 10 | 40.0 | 60% |
+| Austria | medium | 23 | 101 | 9 | 40.0 | 60% |
 | Cuba | medium | 23 | 397 | 0 | 41.2 | 50% |
 | Denmark | medium | 23 | 258 | 14 | 42.3 | 33% |
 | Ireland | medium | 23 | 711 | 8 | 51.5 | 18% |
@@ -67,4 +67,4 @@ Coverage (how many of a country's known dishes we have, from the coverage audit)
 
 ## Remediation plan
 
-Enrich before adding: the countries with 20+ dishes and the lowest average score are Algeria (18.8), Georgia (25.0), Nigeria (25.6), Romania (25.7), Portugal (29.7), Iran (30.9), Finland (31.0), Taiwan (31.2), Ukraine (31.2), Brazil (32.6). Their dishes gain most from photos (`scripts/dish_photos/`) and stories (`fetch_knowledge.py --stories`); new dishes come after, from `coverage/next_500.json`.
+Enrich before adding: the countries with 20+ dishes and the lowest average score are Algeria (18.8), Georgia (25.0), Nigeria (25.6), Romania (25.7), Portugal (29.7), Iran (30.9), Finland (31.0), Taiwan (31.2), Ukraine (31.2), Brazil (33.0). Their dishes gain most from photos (`scripts/dish_photos/`) and stories (`fetch_knowledge.py --stories`); new dishes come after, from `coverage/next_500.json`.

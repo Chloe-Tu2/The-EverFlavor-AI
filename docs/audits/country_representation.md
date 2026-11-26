@@ -18,7 +18,7 @@ Three scores per country from `scripts/knowledge/country_scores.py`: **coverage*
 | Africa | 57 | 40 | 17 | 55.9 | 54.9 |
 | Americas | 39 | 35 | 11 | 64.9 | 56.4 |
 | Asia | 51 | 45 | 4 | 74.1 | 58.5 |
-| Europe | 41 | 39 | 2 | 73.6 | 62.1 |
+| Europe | 41 | 39 | 2 | 73.7 | 62.1 |
 | Oceania | 12 | 6 | 3 | 58.1 | 48.4 |
 
 ## Weak representation (the next sprint's targets)

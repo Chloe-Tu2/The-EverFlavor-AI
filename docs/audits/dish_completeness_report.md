@@ -1,10 +1,10 @@
 # Dish completeness (2026-11-25)
 
-How complete our 3,868 dishes are, by the completeness score (0-100, the team's weights; full detail per part in [dish_quality_report.md](dish_quality_report.md)), and what would move them up. Nothing here changes a dish: the second column is a projection.
+How complete our 3,869 dishes are, by the completeness score (0-100, the team's weights; full detail per part in [dish_quality_report.md](dish_quality_report.md)), and what would move them up. Nothing here changes a dish: the second column is a projection.
 
 | Tier | Today | With the approved images | Change |
 |---|---:|---:|---:|
-| rich (from 70) | 531 (14%) | 681 (18%) | +150 |
+| rich (from 70) | 532 (14%) | 682 (18%) | +150 |
 | fair (from 40) | 1,490 (39%) | 1,971 (51%) | +481 |
 | thin (from 0) | 1,847 (48%) | 1,216 (31%) | -631 |
 
@@ -24,13 +24,13 @@ Of the 3,337 dishes below rich, the parts they lack most (a dish can lack severa
 | Part | Dishes without it | Where it would come from |
 |---|---:|---|
 | how to say it | 3,327 | data/reference/dish_pronunciation.csv (a person adds it) |
-| a real photo of it (its recipe, the dish or a version) | 2,642 | scripts/dish_photos/ (image_coverage_report.md) |
-| a related dish or version in EverFlavor | 2,462 | the Food Graph (comes with family and versions) |
-| at least one recipe | 2,204 | a licensed recipe source; never written |
+| a real photo of it (its recipe, the dish or a version) | 2,643 | scripts/dish_photos/ (image_coverage_report.md) |
+| a related dish or version in EverFlavor | 2,461 | the Food Graph (comes with family and versions) |
+| at least one recipe | 2,205 | a licensed recipe source; never written |
 | story sentences (history, origin, culture) | 2,065 | fetch_knowledge.py --stories |
-| fun-fact sentences from its Wikipedia intro | 1,488 | fetch_knowledge.py |
+| fun-fact sentences from its Wikipedia intro | 1,487 | fetch_knowledge.py |
 | its ingredients on Wikidata (P186, made from) | 1,402 | Wikidata itself |
-| map places in the pilot area for its country | 1,219 | stores.COUNTRY_CUISINES and the places table |
+| map places in the pilot area for its country | 1,220 | stores.COUNTRY_CUISINES and the places table |
 | a dish family (notebook 15) | 929 | notebook 15, when Wikidata files it under one |
 | a country of origin on Wikidata (P495) | 767 | Wikidata itself: nothing to fill on our side |
 | a summary from its Wikipedia article | 1 | scripts/knowledge/fetch_knowledge.py |

@@ -28,7 +28,7 @@
 | Equatorial Guinea | Cuisine of Equatorial Guinea (24) | 0 | 0 | central_africa (16) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Eswatini | Cuisine of Eswatini (22) | 0 | 0 | southern_africa (33) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Nauru | Nauruan cuisine (21) | 8 | 0 | micronesia (5) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
-| Liechtenstein | Liechtenstein cuisine (20) | 6 | 0 | western_europe (152) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Liechtenstein | Liechtenstein cuisine (20) | 6 | 0 | western_europe (153) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Lesotho | Cuisine of Lesotho (12) | 0 | 0 | southern_africa (33) | high | a short cuisine page: read it by hand for dishes with their own articles |
 | Solomon Islands | Solomon Islands cuisine (7) | 0 | 0 | melanesia (1) | high | a short cuisine page: read it by hand for dishes with their own articles |
 | Kiribati | none | 0 | 0 | micronesia (5) | high | no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet |

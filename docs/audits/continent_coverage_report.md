@@ -7,7 +7,7 @@ Read from the Global Culinary Atlas files (`data/knowledge/atlas/`, regions from
 | Africa | 60 | 40 | 273 | 2,600 | 40.8 | thin |
 | Americas | 57 | 36 | 943 | 148,888 | 47.8 | thin |
 | Asia | 51 | 45 | 1,586 | 21,394 | 76.6 | good |
-| Europe | 53 | 42 | 1,599 | 50,001 | 89.6 | good |
+| Europe | 53 | 42 | 1,600 | 50,001 | 89.6 | good |
 | Oceania | 29 | 8 | 83 | 3,142 | 17.5 | gap |
 
 ## Africa
@@ -57,7 +57,7 @@ Recipes but no dish page: Aruba, Cayman Islands.
 |---|---:|---:|---:|---:|---:|
 | Southern Europe | 17 | 14 | 663 | 63.7 | fair |
 | Northern Europe | 17 | 10 | 288 | 79.4 | good |
-| Western Europe | 9 | 8 | 379 | 94.4 | good |
+| Western Europe | 9 | 8 | 380 | 94.4 | good |
 | Eastern Europe | 10 | 10 | 269 | 95.0 | good |
 
 ## Oceania

@@ -4,7 +4,7 @@ How well each food tradition is represented, the headline metric from 2026-11-22
 
 **Level 1**, five checks: three representative dishes; a dish family; a cuisine description; a food history; regional styles (where it has culinary regions). **Level 2:** the share of its culinary regions that hold a dish. **Level 3:** the share of its dish families' known members we have. **Coverage** = 60 x level-1 checks met / 5 + 20 x level 2 + 20 x level 3 (a country with no culinary regions in the place tree: the other levels out of 80, scaled to 100), averaged over the counted countries (CLDR, 100,000 people or more: a proposed rule).
 
-**World culinary coverage: 70.6%.** 117 of 200 counted countries meet level 1; 165 have at least one dish.
+**World culinary coverage: 70.7%.** 117 of 200 counted countries meet level 1; 165 have at least one dish.
 
 ## By continent
 
@@ -39,7 +39,7 @@ How well each food tradition is represented, the headline metric from 2026-11-22
 | Asia / Central Asia | 5 | 5 | 4 | 88.2% |
 | Asia / Southeast Asia | 11 | 10 | 10 | 88.9% |
 | Asia / Southern Asia | 9 | 9 | 8 | 89.3% |
-| Europe / Western Europe | 7 | 7 | 7 | 91.4% |
+| Europe / Western Europe | 7 | 7 | 7 | 91.5% |
 | Europe / Eastern Europe | 10 | 10 | 9 | 94.8% |
 | Oceania / Australasia | 2 | 2 | 2 | 98.3% |
 
