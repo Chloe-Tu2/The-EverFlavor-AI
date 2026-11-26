@@ -4,19 +4,19 @@ Coverage (how many of a country's known dishes we have, from the coverage audit)
 
 | Country | Coverage | Dishes | Recipes | Missing | Average score | Thin |
 |---|---:|---:|---:|---:|---:|---:|
-| United States | high | 395 | 131,095 | 146 | 59.8 | 17% |
-| Italy | high | 350 | 24,910 | 87 | 41.7 | 51% |
+| United States | high | 395 | 131,095 | 153 | 59.8 | 17% |
+| Italy | high | 350 | 24,910 | 86 | 41.7 | 51% |
 | Indonesia | high | 265 | 218 | 25 | 36.4 | 52% |
 | China | high | 216 | 5,878 | 99 | 50.5 | 28% |
-| France | medium | 137 | 8,520 | 181 | 49.2 | 32% |
+| France | medium | 138 | 8,520 | 182 | 49.5 | 31% |
 | Mexico | high | 131 | 11,490 | 15 | 47.0 | 37% |
 | India | high | 117 | 7,312 | 64 | 46.9 | 38% |
 | Japan | medium | 115 | 2,232 | 138 | 49.3 | 30% |
-| Germany | high | 109 | 1,476 | 40 | 40.1 | 50% |
+| Germany | high | 110 | 1,476 | 40 | 40.1 | 51% |
 | Canada | high | 92 | 4,577 | 20 | 55.2 | 25% |
 | Philippines | high | 92 | 255 | 30 | 37.8 | 53% |
 | Greece | high | 90 | 4,334 | 8 | 43.9 | 48% |
-| United Kingdom | low | 86 | 4,553 | 172 | 60.3 | 20% |
+| United Kingdom | low | 86 | 4,553 | 177 | 60.3 | 20% |
 | Turkey | high | 85 | 458 | 31 | 37.0 | 57% |
 | Spain | medium | 80 | 1,851 | 58 | 37.9 | 56% |
 | Portugal | high | 79 | 434 | 5 | 29.7 | 81% |
@@ -34,8 +34,8 @@ Coverage (how many of a country's known dishes we have, from the coverage audit)
 | Sweden | medium | 48 | 463 | 20 | 39.8 | 57% |
 | Hungary | medium | 45 | 346 | 4 | 44.9 | 40% |
 | Netherlands | medium | 37 | 245 | 30 | 37.3 | 55% |
+| Switzerland | medium | 34 | 323 | 29 | 40.9 | 55% |
 | Iran | medium | 32 | 432 | 26 | 30.9 | 67% |
-| Switzerland | medium | 32 | 323 | 30 | 38.4 | 59% |
 | Finland | medium | 31 | 147 | 9 | 31.0 | 64% |
 | Lebanon | medium | 31 | 596 | 0 | 47.4 | 32% |
 | Taiwan | medium | 31 | 5 | 7 | 31.2 | 72% |
@@ -49,7 +49,7 @@ Coverage (how many of a country's known dishes we have, from the coverage audit)
 | Austria | medium | 23 | 101 | 9 | 40.0 | 60% |
 | Cuba | medium | 23 | 397 | 0 | 41.2 | 50% |
 | Denmark | medium | 23 | 258 | 14 | 42.3 | 33% |
-| Ireland | medium | 23 | 711 | 7 | 51.5 | 18% |
+| Ireland | medium | 23 | 711 | 8 | 51.5 | 18% |
 | Georgia | medium | 22 | 0 | 4 | 25.0 | 82% |
 | Morocco | medium | 22 | 1,592 | 0 | 35.9 | 55% |
 | Ukraine | medium | 22 | 6 | 0 | 31.2 | 62% |

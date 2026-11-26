@@ -58,13 +58,13 @@
   {
    "continent": "Europe",
    "countries": 53,
-   "with_dishes": 40,
-   "breadth": 0.755,
-   "median_dishes": 22.5,
+   "with_dishes": 42,
+   "breadth": 0.792,
+   "median_dishes": 20.0,
    "depth": 1.0,
-   "score": 87.7,
+   "score": 89.6,
    "band": "good",
-   "dishes": 1592,
+   "dishes": 1599,
    "recipes": 50001
   },
   {
@@ -256,7 +256,7 @@
    "continent": "Americas",
    "backlog": {
     "needs_review": 2,
-    "ready": 166,
+    "ready": 173,
     "blocked": 50
    },
    "countries_without_dishes": [
@@ -420,8 +420,8 @@
    "subregion": "Northern Europe",
    "continent": "Europe",
    "backlog": {
-    "ready": 227,
-    "blocked": 38,
+    "ready": 233,
+    "blocked": 39,
     "needs_review": 2
    },
    "countries_without_dishes": [
@@ -436,37 +436,36 @@
   },
   {
    "countries": 17,
-   "with_dishes": 13,
-   "breadth": 0.765,
-   "median_dishes": 11,
-   "depth": 0.55,
-   "score": 65.7,
+   "with_dishes": 14,
+   "breadth": 0.824,
+   "median_dishes": 9.0,
+   "depth": 0.45,
+   "score": 63.7,
    "band": "fair",
-   "dishes": 662,
+   "dishes": 663,
    "recipes": 31551,
    "subregion": "Southern Europe",
    "continent": "Europe",
    "backlog": {
-    "ready": 159,
+    "ready": 158,
     "blocked": 5,
-    "needs_review": 3
+    "needs_review": 2
    },
    "countries_without_dishes": [
     "Gibraltar",
     "Kosovo",
-    "San Marino",
     "Vatican City"
    ]
   },
   {
    "countries": 9,
-   "with_dishes": 7,
-   "breadth": 0.778,
-   "median_dishes": 32,
+   "with_dishes": 8,
+   "breadth": 0.889,
+   "median_dishes": 32.0,
    "depth": 1.0,
-   "score": 88.9,
+   "score": 94.4,
    "band": "good",
-   "dishes": 373,
+   "dishes": 379,
    "recipes": 10778,
    "subregion": "Western Europe",
    "continent": "Europe",
@@ -476,8 +475,7 @@
     "needs_review": 49
    },
    "countries_without_dishes": [
-    "Liechtenstein",
-    "Monaco"
+    "Liechtenstein"
    ]
   },
   {
@@ -953,8 +951,8 @@
    "subregion": "Southeast Asia",
    "dishes": 16,
    "recipes": 53,
-   "families": 6,
-   "variants": 8,
+   "families": 7,
+   "variants": 9,
    "coverage": "medium"
   },
   {
@@ -1391,10 +1389,10 @@
    "iso": "FR",
    "continent": "Europe",
    "subregion": "Western Europe",
-   "dishes": 137,
+   "dishes": 138,
    "recipes": 8520,
-   "families": 58,
-   "variants": 114,
+   "families": 59,
+   "variants": 115,
    "coverage": "medium"
   },
   {
@@ -1457,7 +1455,7 @@
    "iso": "DE",
    "continent": "Europe",
    "subregion": "Western Europe",
-   "dishes": 109,
+   "dishes": 110,
    "recipes": 1476,
    "families": 64,
    "variants": 96,
@@ -1745,8 +1743,8 @@
    "subregion": "Southern Europe",
    "dishes": 350,
    "recipes": 24910,
-   "families": 80,
-   "variants": 276,
+   "families": 81,
+   "variants": 277,
    "coverage": "high"
   },
   {
@@ -2128,11 +2126,11 @@
    "iso": "MC",
    "continent": "Europe",
    "subregion": "Western Europe",
-   "dishes": 0,
+   "dishes": 2,
    "recipes": 0,
-   "families": 0,
-   "variants": 0,
-   "coverage": "absent"
+   "families": 2,
+   "variants": 2,
+   "coverage": "low"
   },
   {
    "country": "Mongolia",
@@ -2656,11 +2654,11 @@
    "iso": "SM",
    "continent": "Europe",
    "subregion": "Southern Europe",
-   "dishes": 0,
+   "dishes": 1,
    "recipes": 0,
-   "families": 0,
-   "variants": 0,
-   "coverage": "absent"
+   "families": 1,
+   "variants": 1,
+   "coverage": "low"
   },
   {
    "country": "Sark",
@@ -2678,7 +2676,7 @@
    "iso": "SA",
    "continent": "Asia",
    "subregion": "Western Asia",
-   "dishes": 3,
+   "dishes": 4,
    "recipes": 73,
    "families": 2,
    "variants": 2,
@@ -2909,10 +2907,10 @@
    "iso": "CH",
    "continent": "Europe",
    "subregion": "Western Europe",
-   "dishes": 32,
+   "dishes": 34,
    "recipes": 323,
-   "families": 24,
-   "variants": 26,
+   "families": 25,
+   "variants": 28,
    "coverage": "medium"
   },
   {
@@ -3283,7 +3281,7 @@
    "iso": "YE",
    "continent": "Asia",
    "subregion": "Western Asia",
-   "dishes": 9,
+   "dishes": 8,
    "recipes": 0,
    "families": 5,
    "variants": 7,

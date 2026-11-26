@@ -32,14 +32,14 @@ How well each food tradition is represented, the headline metric from 2026-11-22
 | Asia / Western Asia | 18 | 15 | 11 | 75.3% |
 | Americas / Central America | 8 | 8 | 4 | 79.7% |
 | Africa / Northern Africa | 7 | 6 | 5 | 82.2% |
-| Europe / Southern Europe | 13 | 12 | 10 | 83.2% |
-| Americas / Northern America | 2 | 2 | 2 | 84.3% |
-| Europe / Northern Europe | 11 | 10 | 9 | 84.5% |
+| Europe / Southern Europe | 13 | 12 | 10 | 83.3% |
+| Americas / Northern America | 2 | 2 | 2 | 84.2% |
+| Europe / Northern Europe | 11 | 10 | 9 | 84.4% |
 | Americas / South America | 13 | 12 | 10 | 85.6% |
 | Asia / Central Asia | 5 | 5 | 4 | 88.2% |
 | Asia / Southeast Asia | 11 | 10 | 10 | 88.9% |
 | Asia / Southern Asia | 9 | 9 | 8 | 89.3% |
-| Europe / Western Europe | 7 | 7 | 7 | 91.3% |
+| Europe / Western Europe | 7 | 7 | 7 | 91.4% |
 | Europe / Eastern Europe | 10 | 10 | 9 | 94.8% |
 | Oceania / Australasia | 2 | 2 | 2 | 99.2% |
 

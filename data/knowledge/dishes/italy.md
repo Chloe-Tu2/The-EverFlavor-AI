@@ -1220,6 +1220,7 @@ Learn more:
 
 - quick: [Bustrengo (Wikipedia)](https://en.wikipedia.org/wiki/Bustrengo)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Sammarinese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sammarinese_cuisine)
 - deep: [Books about Bustrengo (Open Library)](https://openlibrary.org/search?q=Bustrengo)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q42417869)
 
@@ -5321,6 +5322,7 @@ Learn more:
 
 - quick: [Piadina romagnola (Wikipedia)](https://en.wikipedia.org/wiki/Piadina_romagnola)
 - more: [List of Italian dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Italian_dishes)
+- more: [Sammarinese cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Sammarinese_cuisine)
 - deep: [Books about Piadina romagnola (Open Library)](https://openlibrary.org/search?q=Piadina%20romagnola)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q926532)
 
@@ -8417,6 +8419,28 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3491916)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q3491916) (CC0); [Wikipedia: Ammazzacaffè](https://en.wikipedia.org/wiki/Ammazzacaffè) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Anchovy paste
+
+Anchovy paste is a fish paste food product prepared using anchovies as a primary ingredient.
+
+- From: Italy
+- Origin (Wikidata): Italy
+- Ingredients (Wikidata): vinegar, anchovy
+
+Fun facts:
+
+- (origin) Anchovy paste comes from Italy.
+
+Learn more:
+
+- quick: [Anchovy paste (Wikipedia)](https://en.wikipedia.org/wiki/Anchovy_paste)
+- more: [Monégasque cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mon%C3%A9gasque_cuisine)
+- more: [Cuisine of Monaco (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Monaco)
+- deep: [Books about Anchovy paste (Open Library)](https://openlibrary.org/search?q=Anchovy%20paste)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q3897482)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q3897482) (CC0); [Wikipedia: Anchovy paste](https://en.wikipedia.org/wiki/Anchovy_paste) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Apple
 

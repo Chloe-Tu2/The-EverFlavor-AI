@@ -2,7 +2,7 @@
 
 | Country | Entries |
 |---|---|
-| [Italy](italy.md) | 543 |
+| [Italy](italy.md) | 544 |
 | [United States](united_states.md) | 532 |
 | [Indonesia](indonesia.md) | 335 |
 | [China](china.md) | 284 |
@@ -11,8 +11,8 @@
 | [Japan](japan.md) | 156 |
 | [Canada](canada.md) | 150 |
 | [Greece](greece.md) | 149 |
-| [France](france.md) | 137 |
-| [Germany](germany.md) | 137 |
+| [France](france.md) | 138 |
+| [Germany](germany.md) | 138 |
 | [Philippines](philippines.md) | 124 |
 | [Vietnam](vietnam.md) | 112 |
 | [Portugal](portugal.md) | 110 |
@@ -40,10 +40,10 @@
 | [South Africa](south_africa.md) | 41 |
 | [Belgium](belgium.md) | 39 |
 | [Netherlands](netherlands.md) | 38 |
+| [Switzerland](switzerland.md) | 37 |
 | [Nepal](nepal.md) | 36 |
 | [Cuba](cuba.md) | 35 |
 | [Egypt](egypt.md) | 35 |
-| [Switzerland](switzerland.md) | 35 |
 | [Finland](finland.md) | 34 |
 | [Peru](peru.md) | 33 |
 | [Taiwan](taiwan.md) | 33 |
@@ -71,10 +71,10 @@
 | [Czech Republic](czech_republic.md) | 13 |
 | [Paraguay](paraguay.md) | 13 |
 | [Singapore](singapore.md) | 13 |
-| [Yemen](yemen.md) | 13 |
 | [Cyprus](cyprus.md) | 12 |
 | [Dominican Republic](dominican_republic.md) | 12 |
 | [Pakistan](pakistan.md) | 12 |
+| [Yemen](yemen.md) | 12 |
 | [Azerbaijan](azerbaijan.md) | 11 |
 | [Ecuador](ecuador.md) | 11 |
 | [Laos](laos.md) | 11 |
@@ -97,12 +97,12 @@
 | [Cameroon](cameroon.md) | 8 |
 | [Iceland](iceland.md) | 8 |
 | [Luxembourg](luxembourg.md) | 8 |
+| [Saudi Arabia](saudi_arabia.md) | 8 |
 | [Uzbekistan](uzbekistan.md) | 8 |
 | [Bosnia and Herzegovina](bosnia_and_herzegovina.md) | 7 |
 | [Guatemala](guatemala.md) | 7 |
 | [Lithuania](lithuania.md) | 7 |
 | [North Macedonia](north_macedonia.md) | 7 |
-| [Saudi Arabia](saudi_arabia.md) | 7 |
 | [Uganda](uganda.md) | 7 |
 | [Albania](albania.md) | 6 |
 | [Bolivia](bolivia.md) | 6 |
@@ -139,6 +139,7 @@
 | [Belize](belize.md) | 2 |
 | [Central African Republic](central_african_republic.md) | 2 |
 | [Malawi](malawi.md) | 2 |
+| [Monaco](monaco.md) | 2 |
 | [Panama](panama.md) | 2 |
 | [Samoa](samoa.md) | 2 |
 | [South Sudan](south_sudan.md) | 2 |
@@ -164,6 +165,7 @@
 | [New Caledonia](new_caledonia.md) | 1 |
 | [Niger](niger.md) | 1 |
 | [Rwanda](rwanda.md) | 1 |
+| [San Marino](san_marino.md) | 1 |
 | [Suriname](suriname.md) | 1 |
 | [The Gambia](the_gambia.md) | 1 |
 | [Tuvalu](tuvalu.md) | 1 |

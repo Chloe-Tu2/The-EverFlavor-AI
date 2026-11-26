@@ -13,14 +13,14 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | stew | 118 | 86 | 32 | 73% | Europe 9, Middle East & North Africa 3, Asia 2, not in the tree 2 | Andrajos, Asopao, Calulu, Cocido Montañés, Eintopf |
 | noodle | 43 | 32 | 11 | 74% | Asia 7, not in the tree 1 | Chinkiang pot cover noodles, Japanese noodles, Khauk swè, Korean noodles, Singapore chow mein |
 | pasta | 87 | 74 | 13 | 85% | Europe 7, not in the tree 1, North America 1 | Farfel, Lorighittas, Manicotti, Pasta mollicata, alphabet pasta |
-| bread | 207 | 93 | 114 | 45% | Europe 35, Asia 9, North America 8, Middle East & North Africa 7 | Adobe bread, Amish Friendship Bread, Antigua Sunday Bread, Apple Bread, Bappir |
+| bread | 207 | 94 | 113 | 45% | Europe 35, Asia 9, North America 8, Middle East & North Africa 7 | Adobe bread, Amish Friendship Bread, Antigua Sunday Bread, Apple Bread, Bappir |
 | pastry | 230 | 132 | 98 | 57% | Europe 35, Asia 18, Middle East & North Africa 12, not in the tree 4 | Allerheiligenstriezel, Banana roll, Belly button pastry, Bethmännchen, Bezhi |
 | cake | 163 | 77 | 86 | 47% | Europe 23, North America 9, Asia 6, Latin America 3 | Amish Friendship Bread, Biscuit cake, Boulou, Buccellato di Lucca, Cake dress |
 | sausage | 68 | 32 | 36 | 47% | Europe 11, Asia 3, Oceania 1, not in the tree 1 | Babic, Beutelwurst, Brühwurst, Cabanatuan longganisa, Cervelas de Lyon |
 | salad | 125 | 84 | 41 | 67% | Europe 6, Asia 6, not in the tree 6, Middle East & North Africa 3 | Buddha bowl, Caesar salad, Chilean salad, Esgarrat, Israeli eggplant salad |
 | sandwich | 122 | 66 | 56 | 54% | Europe 12, North America 8, Latin America 5, Asia 5 | Ayvalık tostu, Bokit, Bosna, Camel rider, Cheese and pickle sandwich |
 
-## Weakly covered families (10+ members, under 30% present: 41)
+## Weakly covered families (10+ members, under 30% present: 42)
 
 | Family | Members | We have | Share | Missing, for example |
 |---|---:|---:|---:|---:|
@@ -28,6 +28,7 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | ice cream | 66 | 14 | 21% | Biscuit Tortoni, Butter Brickle, Butter Pecan, Chocolate chip cookie dough ice cream, Coffee ice cream, Cookies and Cream |
 | seed oil | 50 | 3 | 6% | Allanblackia oil, Ambadi seed oil, Borneo tallow nut oil, Lallemantia oil, Niger seed oil, Oiticica oil |
 | British cheese | 54 | 8 | 15% | Applewood cheese, Ashdown Foresters, Beacon Fell Traditional Lancashire Cheese, Beenleigh Blue cheese, Blue Rathgore, Brighton Blue |
+| breakfast cereal | 47 | 2 | 4% | All-Bran, Alpha-Bits, Cap'n Crunch, Cerelac, Cinnamon Toast Crunch, CoCo Wheats |
 | rice | 53 | 12 | 23% | Abakaliki Rice, Adamchini Chawal, Arborio rice, Boka Chaul, Bomba rice, Brewers rice |
 | industrial cheese | 45 | 5 | 11% | Bleu d'Auvergne, Brie de Meaux, Brie de Melun, Brocciu, Cabécou, Carré d'Aurillac |
 | farmstead cheese | 42 | 3 | 7% | Abertam cheese, Bleu d'Auvergne, Brie de Meaux, Brie de Melun, Brocciu, Cabécou |
@@ -63,6 +64,5 @@ How much of each Wikidata dish family (notebook 15) EverFlavor has. "Missing by 
 | Dutch cheese | 11 | 2 | 18% | Beemster cheese, Boerenkaas, Friesian Clove, Graskaas, Hooidammer, Kanterkaas |
 | primal cut | 11 | 2 | 18% | belly as food, cut of beef, fillet, head as food, leg as food, rack of lamb |
 | butter | 10 | 1 | 10% | Bretel butter, Eshabwe, Lurpak, Manteiga-de-garrafa, beurre d'Isigny, clarified butter |
-| dried fruit | 10 | 2 | 20% | Traditional dried fruit, dried apricot, dried cherry, dried cranberry, dried fruit bread, dried mango |
 
 Street food is not a Wikidata family of dishes (no "subclass of" street food links), so it cannot be measured this way.

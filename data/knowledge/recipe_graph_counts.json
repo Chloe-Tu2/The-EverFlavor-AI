@@ -4,28 +4,28 @@
  "recipes": 291755,
  "recipe_nodes": 291755,
  "by_relation": {
-  "recipe_from": 163069,
-  "recipe_of": 73913,
-  "none": 50457,
+  "recipe_from": 162994,
+  "recipe_of": 74031,
+  "none": 50414,
   "named_for": 4316
  },
  "by_source": {
   "culinarydb": {
-   "recipe_from": 21246,
-   "recipe_of": 10536,
-   "none": 2896,
+   "recipe_from": 21240,
+   "recipe_of": 10547,
+   "none": 2891,
    "named_for": 647
   },
   "foodcom": {
-   "recipe_from": 118867,
-   "recipe_of": 53635,
-   "none": 42516,
+   "recipe_from": 118815,
+   "recipe_of": 53716,
+   "none": 42487,
    "named_for": 3006
   },
   "huggingface": {
-   "recipe_from": 22554,
-   "recipe_of": 9566,
-   "none": 5045,
+   "recipe_from": 22537,
+   "recipe_of": 9592,
+   "none": 5036,
    "named_for": 658
   },
   "themealdb": {
@@ -35,17 +35,17 @@
   }
  },
  "recipe_from_by_place": {
-  "United States": 88540,
-  "Italy": 14661,
+  "United States": 88515,
+  "Italy": 14658,
   "Mexico": 6967,
-  "France": 5732,
+  "France": 5725,
   "India": 5338,
   "China": 4087,
   "Greece": 3122,
-  "Southern US": 3102,
-  "Canada": 2400,
-  "Australia": 2153,
-  "United Kingdom": 1919,
+  "Southern US": 3101,
+  "Canada": 2397,
+  "Australia": 2145,
+  "United Kingdom": 1916,
   "Midwestern US": 1789,
   "Thailand": 1714,
   "Japan": 1636,
@@ -55,9 +55,9 @@
   "Northeastern US": 1131,
   "Louisiana": 1083,
   "Germany": 1019,
-  "England": 930,
   "Texas": 930,
-  "California": 552,
+  "England": 929,
+  "California": 551,
   "Ontario": 498,
   "South Africa": 480,
   "Ireland": 477,
@@ -70,16 +70,16 @@
   "Vietnam": 339,
   "Iran": 332,
   "Jamaica": 326,
-  "Hawaii": 314,
-  "Sweden": 313,
+  "Hawaii": 313,
+  "Sweden": 311,
   "New Zealand": 307,
   "Russia": 296,
   "Poland": 296,
   "Cuba": 283,
-  "Switzerland": 262,
   "Brazil": 249,
+  "Switzerland": 243,
   "Pennsylvania": 229,
-  "Scotland": 228,
+  "Scotland": 227,
   "Hungary": 213,
   "Denmark": 195,
   "Netherlands": 195,
@@ -151,6 +151,6 @@
   "Andorra": 1
  },
  "no_edge_by_country": {
-  "(no country)": 50457
+  "(no country)": 50414
  }
 }

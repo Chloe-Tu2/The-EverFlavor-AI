@@ -1,13 +1,12 @@
 # UN member states with no dish yet (2026-11-25)
 
-32 of the 193 UN member states have no dish in the atlas. What their sources hold and what to try next, easiest first (sprint 5's starting list). From `scripts/knowledge/empty_country_backlog.py`. **Audit only.**
+30 of the 193 UN member states have no dish in the atlas. What their sources hold and what to try next, easiest first (sprint 5's starting list). From `scripts/knowledge/empty_country_backlog.py`. **Audit only.**
 
 | Country | Cuisine page (links) | Category articles | Wikidata dishes | Food region (its dishes) | Difficulty | Try next |
 |---|---:|---:|---:|---:|---:|---:|
 | Zimbabwe | Zimbabwean cuisine (541) | 9 | 0 | east_africa (37) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Federated States of Micronesia | Micronesian cuisine (384) | 7 | 0 | micronesia (5) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Palau | Palauan cuisine (322) | 12 | 0 | micronesia (5) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
-| Monaco | Cuisine of Monaco (170) | 0 | 0 | not in the tree | medium | not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Qatar | Qatari cuisine (86) | 10 | 0 | arabian_peninsula (10) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | São Tomé and Príncipe | Cuisine of São Tomé and Príncipe (79) | 0 | 0 | central_africa (16) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Fiji | Fijian cuisine (52) | 34 | 0 | melanesia (1) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
@@ -22,7 +21,6 @@
 | Oman | Omani cuisine (34) | 14 | 0 | arabian_peninsula (10) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Liberia | Liberian cuisine (33) | 8 | 0 | west_africa (72) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Comoros | Comorian cuisine (31) | 0 | 0 | east_africa (37) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
-| San Marino | Cuisine of San Marino (31) | 0 | 0 | not in the tree | medium | not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Namibia | Namibian cuisine (29) | 14 | 0 | southern_africa (33) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Papua New Guinea | Papua New Guinean cuisine (29) | 4 | 0 | melanesia (1) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Guinea-Bissau | Bissau-Guinean cuisine (27) | 0 | 0 | west_africa (72) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
@@ -30,10 +28,10 @@
 | Equatorial Guinea | Cuisine of Equatorial Guinea (24) | 0 | 0 | central_africa (16) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Eswatini | Cuisine of Eswatini (22) | 0 | 0 | southern_africa (33) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Nauru | Nauruan cuisine (21) | 8 | 0 | micronesia (5) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
+| Liechtenstein | Liechtenstein cuisine (20) | 6 | 0 | western_europe (152) | medium | the cuisine page links many articles, none kept by the claim rule: a person picks from them |
 | Lesotho | Cuisine of Lesotho (12) | 0 | 0 | southern_africa (33) | high | a short cuisine page: read it by hand for dishes with their own articles |
 | Solomon Islands | Solomon Islands cuisine (7) | 0 | 0 | melanesia (1) | high | a short cuisine page: read it by hand for dishes with their own articles |
 | Kiribati | none | 0 | 0 | micronesia (5) | high | no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet |
-| Liechtenstein | none | 0 | 0 | not in the tree | high | not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet |
 | Saint Kitts and Nevis | none | 0 | 0 | caribbean_islands (100) | high | no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet |
 | Saint Vincent and the Grenadines | none | 0 | 0 | caribbean_islands (100) | high | no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet |
 

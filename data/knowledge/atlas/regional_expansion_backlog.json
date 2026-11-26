@@ -11,7 +11,7 @@
   },
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
- "not_placed": 1786,
+ "not_placed": 1823,
  "subregions": {
   "Australasia": [
    {
@@ -3093,6 +3093,13 @@
     "problems": []
    },
    {
+    "dish": "All-Bran",
+    "wikidata": "Q4727808",
+    "country": "United States",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Altoona-style pizza",
     "wikidata": "Q107175849",
     "country": "United States",
@@ -3205,6 +3212,13 @@
     "problems": []
    },
    {
+    "dish": "Cocoa Puffs",
+    "wikidata": "Q5139769",
+    "country": "United States",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Colby-Jack",
     "wikidata": "Q5142000",
     "country": "United States",
@@ -3214,6 +3228,13 @@
    {
     "dish": "Confetti cake",
     "wikidata": "Q30594021",
+    "country": "United States",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Corn Pops",
+    "wikidata": "Q3308127",
     "country": "United States",
     "status": "ready",
     "problems": []
@@ -3429,6 +3450,13 @@
     "problems": []
    },
    {
+    "dish": "Quisp",
+    "wikidata": "Q7272623",
+    "country": "United States",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Rainbow roll",
     "wikidata": "Q85795693",
     "country": "United States",
@@ -3550,6 +3578,13 @@
    {
     "dish": "Thin Mints",
     "wikidata": "Q7784272",
+    "country": "United States",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Trix cereal",
+    "wikidata": "Q7844698",
     "country": "United States",
     "status": "ready",
     "problems": []
@@ -3716,6 +3751,13 @@
     "problems": []
    },
    {
+    "dish": "corn flakes",
+    "wikidata": "Q327115",
+    "country": "United States",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "country ham",
     "wikidata": "Q3823327",
     "country": "United States",
@@ -3795,6 +3837,13 @@
    {
     "dish": "graham cracker",
     "wikidata": "Q5593383",
+    "country": "United States",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "granola",
+    "wikidata": "Q119203",
     "country": "United States",
     "status": "ready",
     "problems": []
@@ -4422,6 +4471,15 @@
     ]
    },
    {
+    "dish": "Weetabix",
+    "wikidata": "Q1456721",
+    "country": "United Kingdom",
+    "status": "blocked",
+    "problems": [
+     "a commercial product (Wikidata gives a brand, maker or owner)"
+    ]
+   },
+   {
     "dish": "Yorkshire Tea",
     "wikidata": "Q17059517",
     "country": "United Kingdom",
@@ -4647,6 +4705,13 @@
    {
     "dish": "Durrus cheese",
     "wikidata": "Q3041621",
+    "country": "Ireland",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Gubbeen Farmhouse Cheese",
+    "wikidata": "Q1057544",
     "country": "Ireland",
     "status": "ready",
     "problems": []
@@ -5226,6 +5291,13 @@
     "problems": []
    },
    {
+    "dish": "Honey Loops",
+    "wikidata": "Q5893572",
+    "country": "United Kingdom",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Iced bun",
     "wikidata": "Q5985621",
     "country": "United Kingdom",
@@ -5415,6 +5487,13 @@
     "problems": []
    },
    {
+    "dish": "Ready Brek",
+    "wikidata": "Q428126",
+    "country": "United Kingdom",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "Red Leicester",
     "wikidata": "Q1892828",
     "country": "United Kingdom",
@@ -5508,6 +5587,13 @@
    {
     "dish": "Suffolk Gold cheese",
     "wikidata": "Q17026015",
+    "country": "United Kingdom",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "Sugar Puffs",
+    "wikidata": "Q1140959",
     "country": "United Kingdom",
     "status": "ready",
     "problems": []
@@ -5842,6 +5928,13 @@
     "problems": []
    },
    {
+    "dish": "maids of honour tart",
+    "wikidata": "Q16997205",
+    "country": "United Kingdom",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "malt loaf",
     "wikidata": "Q6744641",
     "country": "United Kingdom",
@@ -6019,6 +6112,13 @@
    {
     "dish": "toast sandwich",
     "wikidata": "Q7811415",
+    "country": "United Kingdom",
+    "status": "ready",
+    "problems": []
+   },
+   {
+    "dish": "treacle tart",
+    "wikidata": "Q7836557",
     "country": "United Kingdom",
     "status": "ready",
     "problems": []
@@ -7717,15 +7817,6 @@
     ]
    },
    {
-    "dish": "Torta Tre Monti",
-    "wikidata": "Q3995799",
-    "country": "San Marino",
-    "status": "needs_review",
-    "problems": [
-     "San Marino is not in the place tree yet"
-    ]
-   },
-   {
     "dish": "Palmero cheese",
     "wikidata": "Q9065235",
     "country": "Spain",
@@ -8213,13 +8304,6 @@
    {
     "dish": "Zuppa pavese",
     "wikidata": "Q10395380",
-    "country": "Italy",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "anchovy paste",
-    "wikidata": "Q3897482",
     "country": "Italy",
     "status": "ready",
     "problems": []
@@ -10770,6 +10854,13 @@
     "problems": []
    },
    {
+    "dish": "custard tart",
+    "wikidata": "Q2307239",
+    "country": "France",
+    "status": "ready",
+    "problems": []
+   },
+   {
     "dish": "dacquoise",
     "wikidata": "Q552291",
     "country": "France",
@@ -11675,13 +11766,6 @@
    {
     "dish": "pane ticinese",
     "wikidata": "Q2013754",
-    "country": "Switzerland",
-    "status": "ready",
-    "problems": []
-   },
-   {
-    "dish": "rösti",
-    "wikidata": "Q627331",
     "country": "Switzerland",
     "status": "ready",
     "problems": []

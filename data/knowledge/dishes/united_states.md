@@ -82,7 +82,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q4745483) (CC0); [Wikipedia: A
 
 ### Bacon, egg and cheese sandwich
 
-A bacon, egg, and cheese sandwich (BEC), also known as a baconeggandcheese, is a breakfast sandwich made with bacon, eggs (most often fried or scrambled), cheese and bread.
+A bacon, egg, and cheese sandwich is a breakfast sandwich made with bacon, eggs (most often fried or scrambled), cheese and bread.
 
 - From: United States
 - Ingredients (Wikidata): bread, cheese, bacon, chicken egg, egg as food
@@ -1773,7 +1773,7 @@ Derby pie is a chocolate and walnut open-faced custard pie baked in a (pre-baked
 
 - From: United States
 - Origin (Wikidata): United States
-- Ingredients (Wikidata): chocolate, walnut, bourbon whiskey, pecan nut
+- Ingredients (Wikidata): bourbon whiskey, pecan nut, chocolate, walnut
 
 Fun facts:
 
@@ -2364,6 +2364,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
+- (history) The name refers to the home-style pizza that grandmothers made in Italy, and Long Island pizza makers are said to have begun recreating it in the 1970s.
 - (history) According to food writer David Rosengarten, pizza makers on Long Island possibly began making the thin, rectangular pie in the 1970s, recreating what their mothers or grandmothers had made at home.
 - (origin) The origins of grandma pizza can be traced back to the early 20th century when immigrants from southern Italy developed a pizza that would be made at home with simple ingredients with standard American cooking equipment (including a standard kitchen oven and sheet pan).
 - (origin) The pie's humble roots left it dubbed "grandma pizza", since it was mainly made by first-generation immigrants in their own kitchens.
@@ -2371,6 +2372,7 @@ More fun facts (when the user asks for more):
 - (history) PMQ Pizza Magazine reports that the style did not become popular in restaurants until the mid- to late 1990s.
 - (inspiration) Grandma pizza is named after grandmother.
 - (origin) Grandma pizza comes from the United States.
+- (history) The style became popular in restaurants in the 1990s and has since spread to other parts of the United States and to Australia.
 - (about) By the late 2000s and early 2010s, the name caught on and numerous pizzerias began to offer the pie.
 - (about) Rosengarten visited two pizzerias on Manhattan's Upper East Side in 2013 and heard different accounts of how the pie arrived there.
 
@@ -9770,7 +9772,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q55642411) (CC0); [Wikipedia: 
 
 ### American cheese
 
-American cheese is a type of processed cheese made from cheddar, Colby, or similar cheeses, in conjunction with sodium citrate, which permits the cheese to be pasteurized without its components separating.
+American cheese is a type of processed cheese or cheese product made from cheddar, Colby, or similar cheeses, in conjunction with sodium citrate, which permits the cheese to be pasteurized without its components separating.
 
 - From: United States
 - Origin (Wikidata): United States

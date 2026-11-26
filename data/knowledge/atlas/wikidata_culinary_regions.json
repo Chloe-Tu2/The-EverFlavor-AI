@@ -987,24 +987,6 @@
    "status": "provisional"
   },
   {
-   "qid": "Q3006899",
-   "name": "Congolese cuisine",
-   "country": "Congo",
-   "place": "Q2597556",
-   "dishes_in_wikidata": 0,
-   "our_dishes": [],
-   "status": "provisional"
-  },
-  {
-   "qid": "Q10547599",
-   "name": "Congolese cuisine",
-   "country": "Congo",
-   "place": "Q3006899",
-   "dishes_in_wikidata": 1,
-   "our_dishes": [],
-   "status": "provisional"
-  },
-  {
    "qid": "Q30912063",
    "name": "cuisine of Limón Province",
    "country": "Costa Rica",

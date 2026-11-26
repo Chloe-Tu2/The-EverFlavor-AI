@@ -4,7 +4,7 @@ Families whose own dish EverFlavor has, with versions we lack: adding these join
 
 | Family | Members | We have | Missing | Missing, for example |
 |---|---:|---:|---:|---:|
-| bread | 207 | 93 | 114 | Adobe bread, Amish Friendship Bread, Antigua Sunday Bread, Apple Bread, Bappir, Basler Brot |
+| bread | 207 | 94 | 113 | Adobe bread, Amish Friendship Bread, Antigua Sunday Bread, Apple Bread, Bappir, Basler Brot |
 | pastry | 230 | 132 | 98 | Allerheiligenstriezel, Banana roll, Belly button pastry, Bethmännchen, Bezhi, Black sesame roll |
 | confectionery | 173 | 82 | 91 | Alfeñique, Aplets & Cotlets, Bachwürfel, Belgian praline, Black Jack, Brain Licker |
 | cake | 163 | 77 | 86 | Amish Friendship Bread, Biscuit cake, Boulou, Buccellato di Lucca, Cake dress, Chantilly cake |
@@ -37,13 +37,13 @@ Families whose own dish EverFlavor has, with versions we lack: adding these join
 | kebab | 18 | 11 | 7 | Bonab Kababi, Jujeh kabab, Kabab Barg, Shami kebab, Tunde ke kabab, chelow kabab |
 | blood sausage | 16 | 10 | 6 | Beutelwurst, Gyurma, Panhas, Slatur, Stornoway black pudding, flönz |
 | custard | 10 | 4 | 6 | Chiboust cream, Goxua, Intxaursaltsa, banana custard, crème anglaise, doce de ovos |
-| layer cake | 17 | 11 | 6 | Devil's food cake, Dolly Varden cake, Robert E. Lee cake, Torta Tre Monti, angel cake, liver cake |
 | meat pie | 17 | 11 | 6 | Fleischkuekle, Murcian meat pie, game pie, steak and kidney pie, steak and oyster pie, steak pie |
 | waffle | 10 | 4 | 6 | Andruty kaliskie, Belgian waffle, Brussels waffle, Moffle, croffle, potato waffle |
 | donburi | 9 | 4 | 5 | Chūkadon, Tenshindon, butadon, tanindon, tendon |
 | fish soup | 27 | 22 | 5 | Balık çorbası, Bermuda fish chowder, Mojakka, fish chowder, imitation shark's fin soup |
 | fries | 6 | 1 | 5 | air-fried fries, freedom fries, orange chips, triple-cooked chips, waffle fries |
 | hot dog | 14 | 9 | 5 | Czech-style hot dog, Ketwurst, Montreal hot dog, Norfolk hot dog, cheese dog |
+| hot pot | 7 | 2 | 5 | Chaoshan beef hot pot, Conveyor belt hot pot, mala hot pot, nabemono, ohaw |
 
 ## The families asked about
 

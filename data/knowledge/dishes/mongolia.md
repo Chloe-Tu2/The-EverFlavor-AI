@@ -205,7 +205,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q3674999) (CC0); [Wikipedia: C
 
 ### Suutei tsai
 
-Suutei tsai (Mongolian: сүүтэй цай (Cyrillic) ᠰᠦ᠋ ᠲᠡᠢᠴᠠᠢ(Mongolian script) [ˈsuːtʰeː ˈt͡sʰɛː]) is a traditional Mongolian beverage made from tea, milk, millet and salt.
+Suutei tsai (Mongolian: сүүтэй цай (Cyrillic) ᠰᠦᠨ ᠲᠡᠢᠴᠠᠢ(Mongolian script) [ˈsuːtʰeː ˈt͡sʰɛː]) is a traditional Mongolian beverage made from tea, milk, millet and salt.
 
 - From: Mongolia
 - Origin (Wikidata): Mongolia

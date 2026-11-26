@@ -375,7 +375,7 @@ Sholezard is a rice pudding composed of saffron, sugar, rose water, butter, cinn
 
 - From: Iran
 - Origin (Wikidata): Iran
-- Ingredients (Wikidata): rice, coffee, saffron, cinnamon, butter, rose water, cardamom
+- Ingredients (Wikidata): saffron, cinnamon, butter, rose water, cardamom, rice, coffee
 
 Fun facts:
 

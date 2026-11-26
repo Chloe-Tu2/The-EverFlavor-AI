@@ -75,7 +75,6 @@
   "'Qajar Iran' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Russian Empire' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Ryukyu Kingdom' is not one of today's countries (a region, city or former state): a person places it": 1,
-  "San Marino is not in the place tree yet": 1,
   "'Tahiti' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Tatarstan' is not one of today's countries (a region, city or former state): a person places it": 1,
   "'Thuringia' is not one of today's countries (a region, city or former state): a person places it": 1,
@@ -1434,15 +1433,6 @@
    "subregion": "(not placed)",
    "problems": [
     "'Ryukyu Kingdom' is not one of today's countries (a region, city or former state): a person places it"
-   ]
-  },
-  {
-   "dish": "Torta Tre Monti",
-   "wikidata": "Q3995799",
-   "country": "San Marino",
-   "subregion": "Southern Europe",
-   "problems": [
-    "San Marino is not in the place tree yet"
    ]
   },
   {

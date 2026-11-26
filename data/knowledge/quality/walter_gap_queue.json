@@ -1735,6 +1735,15 @@
    ]
   },
   {
+   "qid": "Q52406",
+   "name": "Muesli",
+   "country": "Switzerland",
+   "recipes": 60,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q14907198",
    "name": "Roulade",
    "country": "Germany",
@@ -2734,6 +2743,15 @@
    ]
   },
   {
+   "qid": "Q6521367",
+   "name": "Lemon tart",
+   "country": "France",
+   "recipes": 30,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q6584",
    "name": "Mulled wine",
    "country": "Germany",
@@ -3023,6 +3041,15 @@
    "qid": "Q3743152",
    "name": "Pizzelle",
    "country": "Italy",
+   "recipes": 26,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q627331",
+   "name": "Rösti",
+   "country": "Switzerland",
    "recipes": 26,
    "missing": [
     "its versions"
@@ -9252,6 +9279,15 @@
    "qid": "Q6588272",
    "name": "Kubaneh",
    "country": "Yemen",
+   "recipes": 2,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q1124851",
+   "name": "Käsespätzle",
+   "country": "Germany",
    "recipes": 2,
    "missing": [
     "its versions"
@@ -18735,7 +18771,7 @@
   {
    "qid": "Q5647753",
    "name": "Haneeth",
-   "country": "Yemen",
+   "country": "Saudi Arabia",
    "recipes": 0,
    "missing": [
     "its versions"
@@ -25762,6 +25798,15 @@
    ]
   },
   {
+   "qid": "Q3995799",
+   "name": "Torta Tre Monti",
+   "country": "San Marino",
+   "recipes": 0,
+   "missing": [
+    "its versions"
+   ]
+  },
+  {
    "qid": "Q7827300",
    "name": "Tortilla de rescoldo",
    "country": "Chile",
@@ -27101,6 +27146,16 @@
    "recipes": 0,
    "missing": [
     "where is it from",
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q2294743",
+   "name": "Barbajuan",
+   "country": "Monaco",
+   "recipes": 0,
+   "missing": [
+    "why it matters",
     "its versions"
    ]
   },
@@ -33271,6 +33326,16 @@
    "recipes": 0,
    "missing": [
     "why it matters",
+    "its versions"
+   ]
+  },
+  {
+   "qid": "Q97166855",
+   "name": "U Pan de Natale",
+   "country": "Monaco",
+   "recipes": 0,
+   "missing": [
+    "where is it from",
     "its versions"
    ]
   },

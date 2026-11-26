@@ -39,18 +39,6 @@
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
   {
-   "country": "Monaco",
-   "cuisine_page": "Cuisine of Monaco",
-   "page_links": 170,
-   "category_articles": 0,
-   "wikidata_dishes": 0,
-   "in_the_fetch": false,
-   "food_region": "",
-   "region_dishes": 0,
-   "difficulty": "medium",
-   "try_next": "not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then the cuisine page links many articles, none kept by the claim rule: a person picks from them"
-  },
-  {
    "country": "Qatar",
    "cuisine_page": "Qatari cuisine",
    "page_links": 86,
@@ -219,18 +207,6 @@
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
   {
-   "country": "San Marino",
-   "cuisine_page": "Cuisine of San Marino",
-   "page_links": 31,
-   "category_articles": 0,
-   "wikidata_dishes": 0,
-   "in_the_fetch": false,
-   "food_region": "",
-   "region_dishes": 0,
-   "difficulty": "medium",
-   "try_next": "not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then the cuisine page links many articles, none kept by the claim rule: a person picks from them"
-  },
-  {
    "country": "Namibia",
    "cuisine_page": "Namibian cuisine",
    "page_links": 29,
@@ -315,6 +291,18 @@
    "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
   },
   {
+   "country": "Liechtenstein",
+   "cuisine_page": "Liechtenstein cuisine",
+   "page_links": 20,
+   "category_articles": 6,
+   "wikidata_dishes": 0,
+   "in_the_fetch": true,
+   "food_region": "western_europe",
+   "region_dishes": 152,
+   "difficulty": "medium",
+   "try_next": "the cuisine page links many articles, none kept by the claim rule: a person picks from them"
+  },
+  {
    "country": "Lesotho",
    "cuisine_page": "Cuisine of Lesotho",
    "page_links": 12,
@@ -349,18 +337,6 @@
    "region_dishes": 5,
    "difficulty": "high",
    "try_next": "no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet"
-  },
-  {
-   "country": "Liechtenstein",
-   "cuisine_page": "",
-   "page_links": 0,
-   "category_articles": 0,
-   "wikidata_dishes": 0,
-   "in_the_fetch": false,
-   "food_region": "",
-   "region_dishes": 0,
-   "difficulty": "high",
-   "try_next": "not read by the fetch yet: add it to ATLAS_SPRINT_COUNTRIES and the place tree, then no cuisine page or category: a free source beyond Wikipedia (a book, a ministry page) or none yet"
   },
   {
    "country": "Saint Kitts and Nevis",

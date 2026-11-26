@@ -96,6 +96,9 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
 - `review/empty_country_packets.csv`: campaign A's dishes for the six empty UN members whose dishes Wikidata
   knows, with where the atlas has each now; a person writes `verdict` (move, keep or both) and `note`, kept on
   rerun (`scripts/knowledge/empty_country_packets.py`, review item 32).
+- `review/cuisine_page_picks.csv`: campaign G's pick sheets, the dish and food articles the cuisine pages of the
+  UN members without a dish link, with Wikidata's origin and whether the intro names the country; a person writes
+  `verdict` (add or skip) and `note`, kept on rerun (`scripts/knowledge/cuisine_page_picks.py`, review item 38).
 - `atlas/atlas_debt.json`: per country with a dish, its atlas debt (one point per gap) and the gaps, from
   `scripts/knowledge/atlas_health.py`.
 - `atlas/atlas_health_history.jsonl`: one snapshot per day of the atlas debt and coverage, so each handoff can

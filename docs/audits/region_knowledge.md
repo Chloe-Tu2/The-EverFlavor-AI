@@ -13,21 +13,21 @@ One page per food region of the place tree, in `data/knowledge/atlas/regions/`, 
 | West Africa | Africa | 16 | 10 | 72 | 50.0 | Jollof rice, Ofe akwụ, Suya |
 | Caribbean Islands | Caribbean | 19 | 9 | 100 | 52.0 | Soto (food), Roti, Banana bread |
 | East Africa | Africa | 18 | 13 | 37 | 57.9 | Injera, Haleem, Matoke |
+| Western Europe | Europe | 7 | 6 | 181 | 73.7 | Croissant, Waffle, Schnitzel |
 | Mexico & Central America | Latin America | 8 | 7 | 135 | 79.7 | Al pastor, Chocolate, King cake |
-| Mediterranean Europe | Europe | 13 | 12 | 680 | 83.9 | Croissant, Waffle, Dolma |
-| United States & Canada | North America | 2 | 2 | 455 | 84.3 | Beignet, Burrito, Coleslaw |
+| Mediterranean Europe | Europe | 15 | 14 | 684 | 81.1 | Croissant, Waffle, Dolma |
+| United States & Canada | North America | 2 | 2 | 455 | 84.2 | Beignet, Burrito, Coleslaw |
 | Levant | Middle East & North Africa | 5 | 4 | 67 | 86.3 | Shawarma, Baba ghanoush, Hummus |
 | Central Asia | Asia | 5 | 5 | 18 | 88.2 | Samarkand non, Tandyr nan, Kuurdak |
 | Persian Region | Middle East & North Africa | 1 | 1 | 18 | 88.8 | Falooda, Faloodeh, Kuku (food) |
 | Southeast Asia | Asia | 11 | 10 | 575 | 88.9 | Appam, Nasi goreng, Tempeh |
 | South Asia | Asia | 8 | 8 | 158 | 89.4 | Paratha, Barfi, Bhatura |
-| British Isles | Europe | 2 | 2 | 91 | 90.5 | Marmalade, Porridge, Chicken tikka masala |
-| Western Europe | Europe | 5 | 5 | 176 | 90.6 | Croissant, Waffle, Schnitzel |
+| British Isles | Europe | 2 | 2 | 91 | 90.0 | Marmalade, Porridge, Chicken tikka masala |
 | Baltic States | Europe | 3 | 3 | 13 | 92.5 | Egg butter, Sepik (bread), Rupjmaize |
 | South America | Latin America | 12 | 12 | 154 | 92.7 | Ceviche, Pão de queijo, Kuchen |
 | Anatolia | Middle East & North Africa | 1 | 1 | 65 | 93.3 | Pilaf, Adana kebabı, Meze |
 | East Asia | Asia | 6 | 6 | 402 | 94.0 | Fried rice, Omelette, Tofu |
-| Central Europe | Europe | 7 | 7 | 249 | 94.1 | Hot dog, Bagel, Schnitzel |
+| Central Europe | Europe | 7 | 7 | 252 | 94.2 | Hot dog, Bagel, Schnitzel |
 | Nordic Countries | Europe | 5 | 5 | 145 | 94.2 | Danish pastry, Kladdkaka, Layer cake |
 | Eastern Europe | Europe | 11 | 10 | 235 | 95.9 | Bagel, Wiener schnitzel, Deviled egg |
 | North Africa | Middle East & North Africa | 6 | 6 | 66 | 95.9 | Matzah, Shakshouka, Börek |

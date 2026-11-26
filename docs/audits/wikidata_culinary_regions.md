@@ -1,6 +1,6 @@
 # Culinary regions from Wikidata (2026-11-25)
 
-542 regions in 54 countries pass the rules of review item 33 (approved by med27-coder): 59 linked to one of our dishes, 481 provisional (no dish of ours yet), 2 disputed places for a person. Only a linked region counts as regional data in the atlas debt (15 countries: Australia, Canada, China, France, Germany, Greece, India, Indonesia, Italy, Japan, South Korea, Spain, Turkey, United Kingdom, United States). From `scripts/knowledge/wikidata_regions.py`; the regions are not in the place tree yet.
+540 regions in 53 countries pass the rules of review item 33 (approved by med27-coder): 59 linked to one of our dishes, 479 provisional (no dish of ours yet), 2 disputed places for a person. Only a linked region counts as regional data in the atlas debt (15 countries: Australia, Canada, China, France, Germany, Greece, India, Indonesia, Italy, Japan, South Korea, Spain, Turkey, United Kingdom, United States). From `scripts/knowledge/wikidata_regions.py`; the regions are not in the place tree yet.
 
 | Country | Region | Status | Our dishes |
 |---|---:|---:|---:|
@@ -103,8 +103,6 @@
 | China | cuisine of Tianjin | provisional | none |
 | China | cuisine of Ü-Tsang | provisional | none |
 | Colombia | cuisine of the Paisa Region | provisional | none |
-| Congo | Congolese cuisine | provisional | none |
-| Congo | Congolese cuisine | provisional | none |
 | Costa Rica | cuisine of Limón Province | provisional | none |
 | Denmark | Faroese cuisine | provisional | none |
 | Denmark | Greenlandic cuisine | provisional | none |

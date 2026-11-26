@@ -36,6 +36,7 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [wikidata_culinary_regions.md](wikidata_culinary_regions.md) | The Wikidata culinary regions approved under review item 33: linked, provisional or for a person |
 | [regional_source_research.md](regional_source_research.md) | Q1 phase 0: free sources for food regions within countries, their licences, and how far Wikidata reaches (item 33) |
 | [empty_country_packets.md](empty_country_packets.md) | Campaign A's evidence: each dish Wikidata gives an empty country, where the atlas has it now, which pages put it there; verdicts in `data/knowledge/review/empty_country_packets.csv` (item 32) |
+| [cuisine_page_picks.md](cuisine_page_picks.md) | Campaign G's pick sheets: every dish or food article the cuisine pages of the UN members without a dish link, with its first sentence, Wikidata origin and whether its intro names the country; verdicts in `data/knowledge/review/cuisine_page_picks.csv` (item 38) |
 | [curator_handoff.md](curator_handoff.md) | Read first in a new session: what improved and regressed since the last run, what is blocked, what needs a person, what is next |
 | [campaign_scoreboard.md](campaign_scoreboard.md) | Every campaign's number now, next target, gap and blocker, and whether the debt-first rule applies |
 | [release_readiness.md](release_readiness.md) | The 0.8 / 0.9 / 1.0 gates: done, waiting on a person, open for Claude |

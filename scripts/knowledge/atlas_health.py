@@ -226,6 +226,7 @@ def main() -> None:
     snapshot = {"date": today, "commit": commit,
                 **{k: v for k, v in cov.items() if isinstance(v, (int, float))},
                 "UN members with a dish": un["members_with_a_dish"],
+                "dishes": sum('"kind": "dish"' in line for line in (KNOW / "dishes.jsonl").open(encoding="utf-8")),
                 "dish families and categories": rep["dish families and categories"],
                 "region pages": len(list((KNOW / "atlas" / "regions").glob("*.json"))),
                 "countries with three dishes or more": rep["countries with three dishes or more"],
@@ -239,12 +240,33 @@ def main() -> None:
                 "review items answered": answered, "review items open": logged - answered,
                 "atlas debt": total, "debt per country": per_country, **{f"debt: {g}": per_gap[g] for g in DEBTS}}
     before = record(snapshot)
-    scoreboard(snapshot, before, per_gap, debt)
+    campaign, kind, blocker = scoreboard(snapshot, before, per_gap, debt)
+    lines[4:4] = ["## Headline", "", f"- Coverage: {snapshot['world culinary coverage (%)']}%",
+                  f"- UN members: {snapshot['UN members with a dish']} of 193",
+                  f"- Atlas debt: {per_country} per country", f"- Story debt: {per_gap['no story']} countries",
+                  f"- Campaign: {campaign}", f"- Blocked by: {kind} ({blocker})", ""]
+    save_md("atlas_health.md", lines)
     handoff(snapshot, before, now_t, done_of, waiting, debt, per_gap, regions, answered_ids)
     print(f"debt {total} ({per_country} per country) over {len(debt)} countries; {per_gap}")
 
 
-def scoreboard(now: dict, before: dict, per_gap: dict[str, int], debt: list[dict]) -> None:
+# campaign health (med27-coder, 2026-11-25): status, the kind of blocker, Claude's estimate of the gain and confidence
+HEALTH: dict[str, tuple[str, str, str, str]] = {
+    "Q1. Regional source discovery": ("active", "source", "high", "medium"),
+    "F. Southern Africa 50%": ("active", "review (3 empty countries need a person's picks, item 38)", "medium", "medium"),
+    "C. Oceania 35%": ("active", "data (coverage gaps)", "medium", "high"),
+    "Q2b. New story sources": ("active", "source", "high", "low"),
+    "Walter debt": ("active", "data", "medium", "medium"),
+    "Q4. Family recovery": ("active", "data", "low", "medium"),
+    "Q3. Image completion": ("review-driven", "review", "medium", "high"),
+    "G. Manual country research": ("active", "review", "medium", "medium"),
+    "E. Western Asia": ("backlog", "none", "low", "medium"),
+    "B. Caribbean": ("backlog", "none", "low", "medium"),
+    "D. Africa 50% (complete, maintenance)": ("complete, maintenance", "none", "none", "high"),
+}
+
+
+def scoreboard(now: dict, before: dict, per_gap: dict[str, int], debt: list[dict]) -> tuple[str, str, str]:
     """docs/audits/campaign_scoreboard.md: every campaign's number, target, blocker and completion criteria, in the
     planner's order (med27-coder, 2026-11-25)."""
     sub = read(KNOW / "atlas" / "culinary_coverage.json")["subregions"]
@@ -263,20 +285,20 @@ def scoreboard(now: dict, before: dict, per_gap: dict[str, int], debt: list[dict
     south_no_region = [c["country"] for c in south if "no culinary region" in c["gaps"]]
     top10_oceania = [c["country"] for c in debt[:10] if c["continent"] == "Oceania"]
     rows: list[list[object]] = [
-        ["Q1. Regional data", f"{per_gap['no culinary region']} countries without regional data", "90 (phase 1)",
-         f"{max(per_gap['no culinary region'] - 90, 0)}", "none; link our dishes to provisional Wikidata regions (item 33)"],
+        ["Q1. Regional source discovery", f"{per_gap['no culinary region']} countries without regional data", "90 (phase 1)",
+         f"{max(per_gap['no culinary region'] - 90, 0)}", "a second free regional source (Wikidata links few dishes, item 36)"],
         ["F. Southern Africa 50%", *pct("Africa / Southern Africa", 50), "none"],
         ["C. Oceania 35%", *pct("Oceania coverage (%)", 35), "none"],
+        ["Q2b. New story sources", f"{per_gap['no story']} countries without a story", "0", f"{per_gap['no story']}",
+         "a new free story source (Q2a, the existing sources, is largely exhausted)"],
         ["Walter debt", f"{per_gap['weak Walter']} weak countries; average {now['Walter coverage score']} of 5",
          "0 weak", f"{per_gap['weak Walter']}", "none"],
-        ["Q2. Story recovery", f"{per_gap['no story']} countries without a story", "0", f"{per_gap['no story']}",
-         "a new free source (the dishes' own articles are used up)"],
         ["Q4. Family recovery", f"{per_gap['no family']} countries without a family", "0", f"{per_gap['no family']}",
          "none"],
-        ["G. Manual country research", f"{193 - un} UN members without a dish", "0", f"{193 - un} members",
-         "a person or a new approved source (A's automatic routes are exhausted)"],
         ["Q3. Image completion", f"{per_gap['no photo']} countries without a photo", "0", f"{per_gap['no photo']}",
          "a person approves every photo"],
+        ["G. Manual country research", f"{193 - un} UN members without a dish", "0", f"{193 - un} members",
+         "a person or a new approved source (A's automatic routes are exhausted)"],
         ["E. Western Asia", *pct("Asia / Western Asia", 80), "none"],
         ["B. Caribbean", *pct("Americas / Caribbean", 60), "none"],
         ["D. Africa 50% (complete, maintenance)", *pct("Africa coverage (%)", 50), "none; keep above 50%"],
@@ -287,7 +309,7 @@ def scoreboard(now: dict, before: dict, per_gap: dict[str, int], debt: list[dict
 
     # a campaign is complete only when every condition holds (med27-coder, 2026-11-25)
     criteria: list[tuple[str, list[tuple[str, str, bool]]]] = [
-        ("Q1. Regional data", [
+        ("Q1. Regional source discovery", [
             ("countries without regional data at most 90 (phase 1, Wikidata links)",
              str(per_gap["no culinary region"]), per_gap["no culinary region"] <= 90),
             ("at most 50 (phase 2, needs a second regional source)", str(per_gap["no culinary region"]),
@@ -302,7 +324,7 @@ def scoreboard(now: dict, before: dict, per_gap: dict[str, int], debt: list[dict
             ("no Oceania country among the 10 highest-debt countries", ", ".join(top10_oceania) or "none",
              not top10_oceania)]),
         ("Walter debt", [("no country under 3 of 5", str(per_gap["weak Walter"]), per_gap["weak Walter"] == 0)]),
-        ("Q2. Story recovery", [("no country without a story", str(per_gap["no story"]), per_gap["no story"] == 0)]),
+        ("Q2b. New story sources", [("no country without a story", str(per_gap["no story"]), per_gap["no story"] == 0)]),
         ("Q4. Family recovery", [("no country without a family", str(per_gap["no family"]), per_gap["no family"] == 0)]),
         ("G. Manual country research", [("every UN member has a dish", f"{un} of 193", un >= 193)]),
         ("Q3. Image completion", [("no country without a photo", str(per_gap["no photo"]), per_gap["no photo"] == 0)]),
@@ -327,13 +349,31 @@ def scoreboard(now: dict, before: dict, per_gap: dict[str, int], debt: list[dict
                 for k in ["atlas debt", *[f"debt: {g}" for g in DEBTS]] if k in before]
     lines += ["**Debt velocity** since " + (f"{before['commit']} ({before['date']})" if before else "the start") + ": "
               + ("; ".join(velocity) if velocity else "first snapshot") + ".", ""]
+    # debt reduction efficiency (med27-coder, 2026-11-25): compares quality-focused and coverage-focused sprints
+    if "dishes" in before and "atlas debt" in before:
+        new = now["dishes"] - before["dishes"]
+        removed = before["atlas debt"] - now["atlas debt"]
+        per_country = f"{now['debt per country'] - before['debt per country']:+.2f} per country"
+        lines += [("**Debt reduction efficiency:** " + (f"{removed * 100 / new:+.0f} debt points removed per 100 new "
+                   f"dishes ({new:+} dishes, {removed:+} points removed, {per_country})" if new > 0 else
+                   f"no new dishes; {removed:+} debt points removed ({per_country})")), ""]
+    else:
+        lines += ["**Debt reduction efficiency:** measured from the next snapshot on (the dish count is new).", ""]
     lines += table(["Campaign", "Now", "Next target", "Gap", "Blocked by"], rows)
+    lines += ["", "## Campaign health", "",
+              ("Status, what kind of thing blocks each campaign (data, source, policy, review, tooling or none), and "
+               "Claude's working estimate of the gain and of how sure that estimate is (med27-coder, 2026-11-25); the "
+               "estimates are judgments, not measurements."), ""]
+    lines += table(["Campaign", "Status", "Blocked by", "Expected gain", "Confidence"],
+                   [[name, *HEALTH.get(name, ("active", "none", "", ""))] for name, *_ in rows])
     lines += ["", "## Completion criteria", "",
               ("A campaign is complete only when every condition holds (med27-coder, 2026-11-25); complete now: "
                f"{', '.join(done) or 'none'}. The Q1 phase 1 target of 90 is what the Wikidata links can reach (24 "
                "countries without regional data have a provisional region); phase 2 waits for a second source."), ""]
     lines += table(["Campaign", "Condition", "Now", "Met"], crit_rows)
     save_md("campaign_scoreboard.md", lines)
+    first = str(rows[0][0])
+    return first, HEALTH.get(first, ("active", "none", "", ""))[1], str(rows[0][4])
 
 
 def handoff(now: dict, before: dict, when: datetime, done_of: dict[str, str], waiting: list[str], debt: list[dict],
@@ -361,6 +401,11 @@ def handoff(now: dict, before: dict, when: datetime, done_of: dict[str, str], wa
         return [f"## {title}", "", *[f"- {k}: {now[k]}" for k in keys],
                 f"- Change since the last run: {change(now, before, keys)}", ""]
 
+    board = ROOT / "docs" / "audits" / "campaign_scoreboard.md"
+    cells = next(([c.strip() for c in line.split("|")[1:-1]] for line in board.read_text(encoding="utf-8").splitlines()
+                  if line.startswith("| ") and not line.startswith("| Campaign")), []) if board.exists() else []
+    current = cells[0] if cells else "see the planner's order of all campaigns"
+    kind = HEALTH.get(current, ("", "none", "", ""))[1]
     lines = [f"# Curator handoff ({now['date']})", "",
              ("Read this first in a new session, then [atlas_health.md](atlas_health.md), "
               "[review_impact.md](review_impact.md) and [release_readiness.md](release_readiness.md). From "
@@ -369,9 +414,22 @@ def handoff(now: dict, before: dict, when: datetime, done_of: dict[str, str], wa
              "## Generated at", "", f"- Date: {now['date']}", f"- Time: {when.strftime('%H:%M')}",
              f"- Git commit: {now['commit']}" + (f" (compared with {since}, {before.get('date', '')})" if since else ""),
              "", "## Current status", "", f"- Branch: {git('branch', '--show-current')}",
-             "- Campaign: A, empty country recovery (see the planner's order of all campaigns)",
+             f"- Campaign: {current} (the first on the campaign scoreboard, in the planner's order)",
              f"- Version: {version.group(1) if version else 'unknown'}",
              *[f"- Release readiness {v}: {s}" for v, s in done_of.items()], ""]
+    # the headline is the atlas debt, not the dish count (med27-coder, 2026-11-25)
+    lines += ["## Headline", "", f"- Coverage: {now['world culinary coverage (%)']}%",
+              f"- UN members with a dish: {now['UN members with a dish']} of 193",
+              f"- Atlas debt: {now['debt per country']} per country",
+              f"- Regional debt: {per_gap['no culinary region']} countries",
+              f"- Story debt: {per_gap['no story']} countries", f"- Campaign: {current}",
+              f"- Blocked by: {kind}" + (f" ({cells[4]})" if len(cells) > 4 else ""), ""]
+    lines += ["## Atlas debt", "", f"- Current debt: {now['atlas debt']} ({now['debt per country']} per country)",
+              f"- Debt change: {change(now, before, ['atlas debt', 'debt per country'])}", "- Top debt categories:",
+              *[f"  {i}. {g}: {per_gap[g]} countries, {WEIGHTS[g] * per_gap[g]} points" for i, g in
+                enumerate(top_gaps, start=1)],
+              "- Highest-debt regions (per country):",
+              *[f"  {i}. {k}: {a:.1f}" for i, (k, _, _, a) in enumerate(regions[:3], start=1)], ""]
     lines += area("Coverage", ["world culinary coverage (%)", "Africa coverage (%)", "Oceania coverage (%)",
                                "countries with a dish", "UN members with a dish"])
     lines += area("Representation", ["dish families and categories", "country pages", "region pages",
@@ -385,12 +443,6 @@ def handoff(now: dict, before: dict, when: datetime, done_of: dict[str, str], wa
               f"- Review items answered by a person: {now['review items answered']}"
               + (f" (items {', '.join(answered_ids)})" if answered_ids else ""),
               f"- Change since the last run: {change(now, before, ['review items open', 'review items answered'])}", ""]
-    lines += ["## Atlas debt", "", f"- Current debt: {now['atlas debt']} ({now['debt per country']} per country)",
-              f"- Debt change: {change(now, before, ['atlas debt', 'debt per country'])}", "- Top debt categories:",
-              *[f"  {i}. {g}: {per_gap[g]} countries, {WEIGHTS[g] * per_gap[g]} points" for i, g in
-                enumerate(top_gaps, start=1)],
-              "- Highest-debt regions (per country):",
-              *[f"  {i}. {k}: {a:.1f}" for i, (k, _, _, a) in enumerate(regions[:3], start=1)], ""]
     lines += ["## Work completed since the last snapshot", "",
               *([f"- {w}" for w in work.splitlines()] or ["- nothing committed since the last snapshot"]), "",
               "## What improved", "", *([f"- {x}" for x in better] or ["- nothing measured changed"]), "",

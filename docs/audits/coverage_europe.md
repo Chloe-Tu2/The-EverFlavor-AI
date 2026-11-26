@@ -16,17 +16,17 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| United Kingdom | low | 86 | 60 | 41 | 73 | 4,553 | 172 | 33% |
-| Ireland | medium | 23 | 17 | 14 | 14 | 711 | 7 | 77% |
+| United Kingdom | low | 86 | 60 | 41 | 73 | 4,553 | 177 | 33% |
+| Ireland | medium | 23 | 17 | 14 | 14 | 711 | 8 | 74% |
 
 ## Central Europe
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Germany | high | 109 | 56 | 64 | 96 | 1,476 | 40 | 73% |
+| Germany | high | 110 | 57 | 64 | 96 | 1,476 | 40 | 73% |
 | Poland | high | 73 | 28 | 45 | 66 | 418 | 9 | 89% |
 | Hungary | medium | 45 | 23 | 25 | 42 | 346 | 4 | 92% |
-| Switzerland | medium | 32 | 12 | 24 | 26 | 323 | 30 | 52% |
+| Switzerland | medium | 34 | 14 | 25 | 28 | 323 | 29 | 54% |
 | Austria | medium | 23 | 14 | 21 | 25 | 101 | 9 | 72% |
 | Czech Republic | low | 14 | 5 | 13 | 15 | 94 | 5 | 74% |
 | Slovenia | low | 11 | 0 | 7 | 8 | 0 | 2 | 85% |
@@ -49,7 +49,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Italy | high | 350 | 171 | 80 | 276 | 24,910 | 87 | 80% |
+| Italy | high | 350 | 171 | 81 | 277 | 24,910 | 86 | 80% |
 | Greece | high | 90 | 52 | 44 | 76 | 4,334 | 8 | 92% |
 | Spain | medium | 80 | 38 | 35 | 56 | 1,851 | 58 | 58% |
 | Portugal | high | 79 | 20 | 20 | 36 | 434 | 5 | 94% |
@@ -60,6 +60,7 @@ Back to [world coverage](coverage_world.md).
 | Bosnia and Herzegovina | low | 2 | 1 | 1 | 1 | 0 | 0 | 100% |
 | Andorra | low | 1 | 1 | 0 | 0 | 3 | 0 | 100% |
 | Montenegro | low | 1 | 0 | 2 | 2 | 0 | 0 | 100% |
+| San Marino | low | 1 | 0 | 1 | 1 | 0 | 0 | 100% |
 
 ## Nordic Countries
 
@@ -75,33 +76,34 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| France | medium | 137 | 100 | 58 | 114 | 8,520 | 181 | 43% |
+| France | medium | 138 | 101 | 59 | 115 | 8,520 | 182 | 43% |
 | Netherlands | medium | 37 | 7 | 19 | 31 | 245 | 30 | 55% |
 | Belgium | medium | 30 | 16 | 21 | 28 | 113 | 18 | 62% |
 | Luxembourg | low | 5 | 1 | 3 | 3 | 0 | 0 | 100% |
+| Monaco | low | 2 | 0 | 2 | 2 | 0 | 0 | 100% |
+| Liechtenstein | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Not in the place tree yet
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Jersey | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
-| San Marino | absent | 0 | 0 | 0 | 0 | 0 | 1 | 0% |
 
 ## The countries asked about
 
 ### France
 
-- Coverage: **medium** (137 dishes, 100 with recipes, 8,520 recipes; place tree: Europe > Western Europe).
+- Coverage: **medium** (138 dishes, 101 with recipes, 8,520 recipes; place tree: Europe > Western Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Quiche, Carrot, French toast, Gratin, Waffle, Mousse, Scrambled eggs, Soufflé.
 - Families present: Swiss roll, baked good, battercake, biscuit, bread, bread pudding, budino, cake.
-- Missing (Wikidata family members we lack, 181): tome des Bauges, Valençay, Saint-Nectaire, Reblochon, laguiole cheese, abondance, Selles-sur-Cher cheese, Sainte-Maure de Touraine, Rocamadour, Pélardon.
+- Missing (Wikidata family members we lack, 182): tome des Bauges, Valençay, Saint-Nectaire, Reblochon, laguiole cheese, abondance, Selles-sur-Cher cheese, Sainte-Maure de Touraine, Rocamadour, Pélardon.
 
 ### Italy
 
 - Coverage: **high** (350 dishes, 171 with recipes, 24,910 recipes; place tree: Europe > Mediterranean Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Pizza, Lasagna, Pasta salad, Spaghetti, Risotto, Pasta, Frittata, Penne.
 - Families present: Crostata, Neapolitan pizza, antipasto, aspic, bagel, baked good, beefsteak, biscuit.
-- Missing (Wikidata family members we lack, 87): Grana Cheese, tortello amaro di Castel Goffredo, mortadella di Campotosto, Valle d'Aosta Fromadzo PDO, Tuma, Stracciata, Spressa delle Giudicarie PDO, Romano cheese, Red Pecorino, Provola silana.
+- Missing (Wikidata family members we lack, 86): Grana Cheese, tortello amaro di Castel Goffredo, mortadella di Campotosto, Valle d'Aosta Fromadzo PDO, Tuma, Stracciata, Spressa delle Giudicarie PDO, Romano cheese, Red Pecorino, Provola silana.
 
 ### Spain
 
@@ -126,7 +128,7 @@ Back to [world coverage](coverage_world.md).
 
 ### Germany
 
-- Coverage: **high** (109 dishes, 56 with recipes, 1,476 recipes; place tree: Europe > Central Europe).
+- Coverage: **high** (110 dishes, 57 with recipes, 1,476 recipes; place tree: Europe > Central Europe).
 - Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Cheesecake, Potato salad, Meatloaf, Apple cake, Hot dog, Hamburger, Pretzel, Ragout.
 - Families present: Bratwurst, Brühwurst, German sausage, Kuchen, beef, biscuit, blood soup, bread.
 - Missing (Wikidata family members we lack, 40): Hauskyjza, Cambozola, blood tongue, Weisslacker, Spundekäs, Nieheimer Käse, Kottenbutter, Gelbwurst, Frankfurter Kranz, Donauwelle.
@@ -280,10 +282,10 @@ Back to [world coverage](coverage_world.md).
 
 ### Switzerland
 
-- Coverage: **medium** (32 dishes, 12 with recipes, 323 recipes; place tree: Europe > Central Europe).
-- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Carrot cake, Cordon bleu (dish), Schnitzel, King cake, Raclette, Head cheese, Zürcher Geschnetzeltes, Zopf.
-- Families present: Bratwurst, aspic, beignet, biscuit, cabbage roll, cake, charcuterie, chocolate.
-- Missing (Wikidata family members we lack, 30): Vacherin Mont-d'Or, Tête de Moine, Șvaițer, Sbrinz, Raclette du Valais, Gruyère, Berner Alpkäse, Appenzeller cheese, vacherin, totché.
+- Coverage: **medium** (34 dishes, 14 with recipes, 323 recipes; place tree: Europe > Central Europe).
+- Its listed dishes with the most recipes (the country's Wikipedia list includes shared dishes): Carrot cake, Cordon bleu (dish), Schnitzel, Muesli, Rösti, King cake, Raclette, Head cheese.
+- Families present: Bratwurst, aspic, beignet, biscuit, breakfast cereal, cabbage roll, cake, charcuterie.
+- Missing (Wikidata family members we lack, 29): Vacherin Mont-d'Or, Tête de Moine, Șvaițer, Sbrinz, Raclette du Valais, Gruyère, Berner Alpkäse, Appenzeller cheese, vacherin, totché.
 
 ### Czech Republic
 

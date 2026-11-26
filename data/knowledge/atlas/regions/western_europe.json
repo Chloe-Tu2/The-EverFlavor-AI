@@ -5,7 +5,9 @@
  "countries": [
   "Belgium",
   "France",
+  "Liechtenstein",
   "Luxembourg",
+  "Monaco",
   "Netherlands",
   "Switzerland"
  ],
@@ -13,13 +15,14 @@
   "Belgium",
   "France",
   "Luxembourg",
+  "Monaco",
   "Netherlands",
   "Switzerland"
  ],
- "coverage_score": 90.6,
- "dish_count": 176,
+ "coverage_score": 73.7,
+ "dish_count": 181,
  "food_and_drink_count": 81,
- "story_count": 145,
+ "story_count": 148,
  "representative_dishes": [
   "Croissant",
   "Waffle",
@@ -28,7 +31,7 @@
   "Brioche",
   "Escalope",
   "French onion soup",
-  "Macaroon"
+  "Lemon tart"
  ],
  "dish_families": [
   "potato dish",

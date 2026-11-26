@@ -3467,24 +3467,23 @@
    ]
   },
   {
-   "dish": "J&L Grubb",
-   "wikidata": "Q1047384",
+   "dish": "Gubbeen Farmhouse Cheese",
+   "wikidata": "Q1057544",
    "country": "Ireland",
    "subregion": "Northern Europe",
    "families": [
-    "cheese",
-    "blue cheese"
+    "cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1047384",
+     "url": "https://www.wikidata.org/wiki/Q1057544",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/J%26L_Grubb",
+     "url": "https://en.wikipedia.org/wiki/Gubbeen_Farmhouse_Cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3816,23 +3815,24 @@
    ]
   },
   {
-   "dish": "paltbröd",
-   "wikidata": "Q10615624",
-   "country": "Sweden",
+   "dish": "J&L Grubb",
+   "wikidata": "Q1047384",
+   "country": "Ireland",
    "subregion": "Northern Europe",
    "families": [
-    "bread"
+    "cheese",
+    "blue cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q10615624",
+     "url": "https://www.wikidata.org/wiki/Q1047384",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Paltbr%C3%B6d",
+     "url": "https://en.wikipedia.org/wiki/J%26L_Grubb",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3885,23 +3885,23 @@
    ]
   },
   {
-   "dish": "Bedfordshire clanger",
-   "wikidata": "Q4879252",
-   "country": "United Kingdom",
+   "dish": "paltbröd",
+   "wikidata": "Q10615624",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "pie"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4879252",
+     "url": "https://www.wikidata.org/wiki/Q10615624",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bedfordshire_clanger",
+     "url": "https://en.wikipedia.org/wiki/Paltbr%C3%B6d",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -3955,23 +3955,23 @@
    ]
   },
   {
-   "dish": "Fynbo",
-   "wikidata": "Q5511244",
-   "country": "Denmark",
+   "dish": "Bedfordshire clanger",
+   "wikidata": "Q4879252",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "Danish cheese"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5511244",
+     "url": "https://www.wikidata.org/wiki/Q4879252",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Fynbo",
+     "url": "https://en.wikipedia.org/wiki/Bedfordshire_clanger",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4024,23 +4024,23 @@
    ]
   },
   {
-   "dish": "sweetened potato casserole",
-   "wikidata": "Q7655664",
-   "country": "Finland",
+   "dish": "Fynbo",
+   "wikidata": "Q5511244",
+   "country": "Denmark",
    "subregion": "Northern Europe",
    "families": [
-    "potato casserole"
+    "Danish cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7655664",
+     "url": "https://www.wikidata.org/wiki/Q5511244",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Imelletty_perunalaatikko",
+     "url": "https://en.wikipedia.org/wiki/Fynbo",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4093,23 +4093,23 @@
    ]
   },
   {
-   "dish": "toast skagen",
-   "wikidata": "Q10699143",
-   "country": "Sweden",
+   "dish": "sweetened potato casserole",
+   "wikidata": "Q7655664",
+   "country": "Finland",
    "subregion": "Northern Europe",
    "families": [
-    "open sandwich"
+    "potato casserole"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q10699143",
+     "url": "https://www.wikidata.org/wiki/Q7655664",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Toast_Skagen",
+     "url": "https://en.wikipedia.org/wiki/Imelletty_perunalaatikko",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4162,23 +4162,23 @@
    ]
   },
   {
-   "dish": "Bourbon biscuit",
-   "wikidata": "Q863966",
-   "country": "United Kingdom",
+   "dish": "toast skagen",
+   "wikidata": "Q10699143",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "biscuit"
+    "open sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q863966",
+     "url": "https://www.wikidata.org/wiki/Q10699143",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bourbon_biscuit",
+     "url": "https://en.wikipedia.org/wiki/Toast_Skagen",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4231,23 +4231,23 @@
    ]
   },
   {
-   "dish": "Jolly Cola",
-   "wikidata": "Q1877200",
-   "country": "Denmark",
+   "dish": "Bourbon biscuit",
+   "wikidata": "Q863966",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "cola"
+    "biscuit"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1877200",
+     "url": "https://www.wikidata.org/wiki/Q863966",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Jolly_Cola",
+     "url": "https://en.wikipedia.org/wiki/Bourbon_biscuit",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4301,24 +4301,23 @@
    ]
   },
   {
-   "dish": "Grevé",
-   "wikidata": "Q1546148",
-   "country": "Sweden",
+   "dish": "Jolly Cola",
+   "wikidata": "Q1877200",
+   "country": "Denmark",
    "subregion": "Northern Europe",
    "families": [
-    "cow's-milk cheese",
-    "Danish cheese"
+    "cola"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1546148",
+     "url": "https://www.wikidata.org/wiki/Q1877200",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Grev%C3%A9",
+     "url": "https://en.wikipedia.org/wiki/Jolly_Cola",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4371,23 +4370,24 @@
    ]
   },
   {
-   "dish": "Cheese and pickle sandwich",
-   "wikidata": "Q5089395",
-   "country": "United Kingdom",
+   "dish": "Grevé",
+   "wikidata": "Q1546148",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "sandwich"
+    "cow's-milk cheese",
+    "Danish cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5089395",
+     "url": "https://www.wikidata.org/wiki/Q1546148",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cheese_and_pickle_sandwich",
+     "url": "https://en.wikipedia.org/wiki/Grev%C3%A9",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4440,24 +4440,23 @@
    ]
   },
   {
-   "dish": "Maribo cheese",
-   "wikidata": "Q4281381",
-   "country": "Denmark",
+   "dish": "Cheese and pickle sandwich",
+   "wikidata": "Q5089395",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "cow's-milk cheese",
-    "Danish cheese"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4281381",
+     "url": "https://www.wikidata.org/wiki/Q5089395",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Maribo_cheese",
+     "url": "https://en.wikipedia.org/wiki/Cheese_and_pickle_sandwich",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4510,24 +4509,24 @@
    ]
   },
   {
-   "dish": "Herrgårdsost",
-   "wikidata": "Q1614232",
-   "country": "Sweden",
+   "dish": "Maribo cheese",
+   "wikidata": "Q4281381",
+   "country": "Denmark",
    "subregion": "Northern Europe",
    "families": [
     "cow's-milk cheese",
-    "pasteurized milk cheese"
+    "Danish cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1614232",
+     "url": "https://www.wikidata.org/wiki/Q4281381",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Herrg%C3%A5rdsost",
+     "url": "https://en.wikipedia.org/wiki/Maribo_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4581,23 +4580,24 @@
    ]
   },
   {
-   "dish": "Chorley cake",
-   "wikidata": "Q5105172",
-   "country": "United Kingdom",
+   "dish": "Herrgårdsost",
+   "wikidata": "Q1614232",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "pastry"
+    "cow's-milk cheese",
+    "pasteurized milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5105172",
+     "url": "https://www.wikidata.org/wiki/Q1614232",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Chorley_cake",
+     "url": "https://en.wikipedia.org/wiki/Herrg%C3%A5rdsost",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4650,23 +4650,23 @@
    ]
   },
   {
-   "dish": "Molbo cheese",
-   "wikidata": "Q4300256",
-   "country": "Denmark",
+   "dish": "Chorley cake",
+   "wikidata": "Q5105172",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "cow's-milk cheese"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4300256",
+     "url": "https://www.wikidata.org/wiki/Q5105172",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Molbo_cheese",
+     "url": "https://en.wikipedia.org/wiki/Chorley_cake",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4720,9 +4720,9 @@
    ]
   },
   {
-   "dish": "Hushållsost",
-   "wikidata": "Q3797660",
-   "country": "Sweden",
+   "dish": "Molbo cheese",
+   "wikidata": "Q4300256",
+   "country": "Denmark",
    "subregion": "Northern Europe",
    "families": [
     "cow's-milk cheese"
@@ -4730,13 +4730,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3797660",
+     "url": "https://www.wikidata.org/wiki/Q4300256",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Hush%C3%A5llsost",
+     "url": "https://en.wikipedia.org/wiki/Molbo_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4790,23 +4790,23 @@
    ]
   },
   {
-   "dish": "Colston bun",
-   "wikidata": "Q5149379",
-   "country": "United Kingdom",
+   "dish": "Hushållsost",
+   "wikidata": "Q3797660",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "bun"
+    "cow's-milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5149379",
+     "url": "https://www.wikidata.org/wiki/Q3797660",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Colston_bun",
+     "url": "https://en.wikipedia.org/wiki/Hush%C3%A5llsost",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4861,23 +4861,23 @@
    ]
   },
   {
-   "dish": "Samsø cheese",
-   "wikidata": "Q1465924",
-   "country": "Denmark",
+   "dish": "Colston bun",
+   "wikidata": "Q5149379",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "cow's-milk cheese"
+    "bun"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1465924",
+     "url": "https://www.wikidata.org/wiki/Q5149379",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sams%C3%B8_cheese",
+     "url": "https://en.wikipedia.org/wiki/Colston_bun",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4931,9 +4931,9 @@
    ]
   },
   {
-   "dish": "Prästost",
-   "wikidata": "Q3311757",
-   "country": "Sweden",
+   "dish": "Samsø cheese",
+   "wikidata": "Q1465924",
+   "country": "Denmark",
    "subregion": "Northern Europe",
    "families": [
     "cow's-milk cheese"
@@ -4941,13 +4941,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3311757",
+     "url": "https://www.wikidata.org/wiki/Q1465924",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pr%C3%A4stost",
+     "url": "https://en.wikipedia.org/wiki/Sams%C3%B8_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5001,23 +5001,23 @@
    ]
   },
   {
-   "dish": "Cornish fairing",
-   "wikidata": "Q5171851",
-   "country": "United Kingdom",
+   "dish": "Prästost",
+   "wikidata": "Q3311757",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "biscuit"
+    "cow's-milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5171851",
+     "url": "https://www.wikidata.org/wiki/Q3311757",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cornish_fairing",
+     "url": "https://en.wikipedia.org/wiki/Pr%C3%A4stost",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5070,24 +5070,23 @@
    ]
   },
   {
-   "dish": "Tybo",
-   "wikidata": "Q3542650",
-   "country": "Denmark",
+   "dish": "Cornish fairing",
+   "wikidata": "Q5171851",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "cheese",
-    "washed-rind cheese"
+    "biscuit"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3542650",
+     "url": "https://www.wikidata.org/wiki/Q5171851",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tybo_cheese",
+     "url": "https://en.wikipedia.org/wiki/Cornish_fairing",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5141,23 +5140,24 @@
    ]
   },
   {
-   "dish": "Svartsoppa",
-   "wikidata": "Q734527",
-   "country": "Sweden",
+   "dish": "Tybo",
+   "wikidata": "Q3542650",
+   "country": "Denmark",
    "subregion": "Northern Europe",
    "families": [
-    "soup"
+    "cheese",
+    "washed-rind cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q734527",
+     "url": "https://www.wikidata.org/wiki/Q3542650",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Svartsoppa",
+     "url": "https://en.wikipedia.org/wiki/Tybo_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5211,23 +5211,23 @@
    ]
   },
   {
-   "dish": "Coventry Godcakes",
-   "wikidata": "Q30324930",
-   "country": "United Kingdom",
+   "dish": "Svartsoppa",
+   "wikidata": "Q734527",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "pastry"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q30324930",
+     "url": "https://www.wikidata.org/wiki/Q734527",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Coventry_Godcake",
+     "url": "https://en.wikipedia.org/wiki/Svartsoppa",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5281,23 +5281,23 @@
    ]
   },
   {
-   "dish": "Swedish Fish",
-   "wikidata": "Q7654664",
-   "country": "Sweden",
+   "dish": "Coventry Godcakes",
+   "wikidata": "Q30324930",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "candy"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7654664",
+     "url": "https://www.wikidata.org/wiki/Q30324930",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Swedish_Fish",
+     "url": "https://en.wikipedia.org/wiki/Coventry_Godcake",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5350,23 +5350,23 @@
    ]
   },
   {
-   "dish": "Crempog",
-   "wikidata": "Q2022222",
-   "country": "United Kingdom",
+   "dish": "Swedish Fish",
+   "wikidata": "Q7654664",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "pancake"
+    "candy"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2022222",
+     "url": "https://www.wikidata.org/wiki/Q7654664",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Crempog",
+     "url": "https://en.wikipedia.org/wiki/Swedish_Fish",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5419,23 +5419,23 @@
    ]
   },
   {
-   "dish": "Söder tea",
-   "wikidata": "Q7666293",
-   "country": "Sweden",
+   "dish": "Crempog",
+   "wikidata": "Q2022222",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "black tea"
+    "pancake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7666293",
+     "url": "https://www.wikidata.org/wiki/Q2022222",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/S%C3%B6der_tea",
+     "url": "https://en.wikipedia.org/wiki/Crempog",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5488,23 +5488,23 @@
    ]
   },
   {
-   "dish": "Devizes pie",
-   "wikidata": "Q5267591",
-   "country": "United Kingdom",
+   "dish": "Söder tea",
+   "wikidata": "Q7666293",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "pie"
+    "black tea"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5267591",
+     "url": "https://www.wikidata.org/wiki/Q7666293",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Devizes_pie",
+     "url": "https://en.wikipedia.org/wiki/S%C3%B6der_tea",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5558,23 +5558,23 @@
    ]
   },
   {
-   "dish": "Västerbottenost cheese",
-   "wikidata": "Q2096655",
-   "country": "Sweden",
+   "dish": "Devizes pie",
+   "wikidata": "Q5267591",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "cow's-milk cheese"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2096655",
+     "url": "https://www.wikidata.org/wiki/Q5267591",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/V%C3%A4sterbotten_cheese",
+     "url": "https://en.wikipedia.org/wiki/Devizes_pie",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5627,23 +5627,23 @@
    ]
   },
   {
-   "dish": "Dock pudding",
-   "wikidata": "Q5287205",
-   "country": "United Kingdom",
+   "dish": "Västerbottenost cheese",
+   "wikidata": "Q2096655",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "pudding"
+    "cow's-milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5287205",
+     "url": "https://www.wikidata.org/wiki/Q2096655",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Dock_pudding",
+     "url": "https://en.wikipedia.org/wiki/V%C3%A4sterbotten_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5696,23 +5696,23 @@
    ]
   },
   {
-   "dish": "herring soup",
-   "wikidata": "Q16928375",
-   "country": "Sweden",
+   "dish": "Dock pudding",
+   "wikidata": "Q5287205",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "soup"
+    "pudding"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16928375",
+     "url": "https://www.wikidata.org/wiki/Q5287205",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Herring_soup",
+     "url": "https://en.wikipedia.org/wiki/Dock_pudding",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5765,23 +5765,23 @@
    ]
   },
   {
-   "dish": "Eccles cake",
-   "wikidata": "Q1236200",
-   "country": "United Kingdom",
+   "dish": "herring soup",
+   "wikidata": "Q16928375",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "cake"
+    "soup"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1236200",
+     "url": "https://www.wikidata.org/wiki/Q16928375",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Eccles_cake",
+     "url": "https://en.wikipedia.org/wiki/Herring_soup",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5834,23 +5834,23 @@
    ]
   },
   {
-   "dish": "mjukkaka",
-   "wikidata": "Q17103487",
-   "country": "Sweden",
+   "dish": "Eccles cake",
+   "wikidata": "Q1236200",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "flatbread"
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17103487",
+     "url": "https://www.wikidata.org/wiki/Q1236200",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mjukkaka",
+     "url": "https://en.wikipedia.org/wiki/Eccles_cake",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5903,23 +5903,23 @@
    ]
   },
   {
-   "dish": "Eve's pudding",
-   "wikidata": "Q5416128",
-   "country": "United Kingdom",
+   "dish": "mjukkaka",
+   "wikidata": "Q17103487",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "pudding"
+    "flatbread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5416128",
+     "url": "https://www.wikidata.org/wiki/Q17103487",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Eve%27s_pudding",
+     "url": "https://en.wikipedia.org/wiki/Mjukkaka",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5973,25 +5973,23 @@
    ]
   },
   {
-   "dish": "Ädelost",
-   "wikidata": "Q252826",
-   "country": "Sweden",
+   "dish": "Eve's pudding",
+   "wikidata": "Q5416128",
+   "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "cow's-milk cheese",
-    "blue cheese",
-    "pasteurized milk cheese"
+    "pudding"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q252826",
+     "url": "https://www.wikidata.org/wiki/Q5416128",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/%C3%84delost",
+     "url": "https://en.wikipedia.org/wiki/Eve%27s_pudding",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6044,23 +6042,25 @@
    ]
   },
   {
-   "dish": "Fat rascal",
-   "wikidata": "Q5437245",
-   "country": "United Kingdom",
+   "dish": "Ädelost",
+   "wikidata": "Q252826",
+   "country": "Sweden",
    "subregion": "Northern Europe",
    "families": [
-    "cake"
+    "cow's-milk cheese",
+    "blue cheese",
+    "pasteurized milk cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5437245",
+     "url": "https://www.wikidata.org/wiki/Q252826",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Fat_rascal",
+     "url": "https://en.wikipedia.org/wiki/%C3%84delost",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6113,23 +6113,23 @@
    ]
   },
   {
-   "dish": "Figgy pudding",
-   "wikidata": "Q15932560",
+   "dish": "Fat rascal",
+   "wikidata": "Q5437245",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "pudding"
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q15932560",
+     "url": "https://www.wikidata.org/wiki/Q5437245",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Figgy_pudding",
+     "url": "https://en.wikipedia.org/wiki/Fat_rascal",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6182,23 +6182,23 @@
    ]
   },
   {
-   "dish": "Flies graveyard",
-   "wikidata": "Q5459109",
+   "dish": "Figgy pudding",
+   "wikidata": "Q15932560",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "pastry"
+    "pudding"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5459109",
+     "url": "https://www.wikidata.org/wiki/Q15932560",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Flies%27_graveyard",
+     "url": "https://en.wikipedia.org/wiki/Figgy_pudding",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6252,23 +6252,23 @@
    ]
   },
   {
-   "dish": "Garibaldi biscuit",
-   "wikidata": "Q3399210",
+   "dish": "Flies graveyard",
+   "wikidata": "Q5459109",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "biscuit"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3399210",
+     "url": "https://www.wikidata.org/wiki/Q5459109",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Garibaldi_biscuit",
+     "url": "https://en.wikipedia.org/wiki/Flies%27_graveyard",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6321,23 +6321,23 @@
    ]
   },
   {
-   "dish": "Homity pie",
-   "wikidata": "Q5890907",
+   "dish": "Garibaldi biscuit",
+   "wikidata": "Q3399210",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "pie"
+    "biscuit"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5890907",
+     "url": "https://www.wikidata.org/wiki/Q3399210",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Homity_pie",
+     "url": "https://en.wikipedia.org/wiki/Garibaldi_biscuit",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6390,24 +6390,23 @@
    ]
   },
   {
-   "dish": "Iced bun",
-   "wikidata": "Q5985621",
+   "dish": "Homity pie",
+   "wikidata": "Q5890907",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "viennoiserie",
-    "bread roll"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q5985621",
+     "url": "https://www.wikidata.org/wiki/Q5890907",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Iced_bun",
+     "url": "https://en.wikipedia.org/wiki/Homity_pie",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6460,23 +6459,24 @@
    ]
   },
   {
-   "dish": "Kendal Mint Cake",
-   "wikidata": "Q6388856",
+   "dish": "Iced bun",
+   "wikidata": "Q5985621",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "candy bar"
+    "viennoiserie",
+    "bread roll"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6388856",
+     "url": "https://www.wikidata.org/wiki/Q5985621",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kendal_Mint_Cake",
+     "url": "https://en.wikipedia.org/wiki/Iced_bun",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6529,23 +6529,23 @@
    ]
   },
   {
-   "dish": "Lancashire hotpot",
-   "wikidata": "Q4358444",
+   "dish": "Kendal Mint Cake",
+   "wikidata": "Q6388856",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "stew"
+    "candy bar"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4358444",
+     "url": "https://www.wikidata.org/wiki/Q6388856",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Lancashire_hotpot",
+     "url": "https://en.wikipedia.org/wiki/Kendal_Mint_Cake",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6598,23 +6598,23 @@
    ]
   },
   {
-   "dish": "Malvern pudding",
-   "wikidata": "Q16997256",
+   "dish": "Lancashire hotpot",
+   "wikidata": "Q4358444",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "pudding"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q16997256",
+     "url": "https://www.wikidata.org/wiki/Q4358444",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Malvern_pudding",
+     "url": "https://en.wikipedia.org/wiki/Lancashire_hotpot",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6668,23 +6668,23 @@
    ]
   },
   {
-   "dish": "Manchester tart",
-   "wikidata": "Q6747588",
+   "dish": "Malvern pudding",
+   "wikidata": "Q16997256",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "pie"
+    "pudding"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6747588",
+     "url": "https://www.wikidata.org/wiki/Q16997256",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Manchester_tart",
+     "url": "https://en.wikipedia.org/wiki/Malvern_pudding",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6737,8 +6737,8 @@
    ]
   },
   {
-   "dish": "Meat and potato pie",
-   "wikidata": "Q6804256",
+   "dish": "Manchester tart",
+   "wikidata": "Q6747588",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
@@ -6747,13 +6747,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6804256",
+     "url": "https://www.wikidata.org/wiki/Q6747588",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Meat_and_potato_pie",
+     "url": "https://en.wikipedia.org/wiki/Manchester_tart",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6807,23 +6807,23 @@
    ]
   },
   {
-   "dish": "Milk roll",
-   "wikidata": "Q55623155",
+   "dish": "Meat and potato pie",
+   "wikidata": "Q6804256",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "bread"
+    "pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q55623155",
+     "url": "https://www.wikidata.org/wiki/Q6804256",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Milk_roll",
+     "url": "https://en.wikipedia.org/wiki/Meat_and_potato_pie",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6876,24 +6876,23 @@
    ]
   },
   {
-   "dish": "National loaf",
-   "wikidata": "Q6979626",
+   "dish": "Milk roll",
+   "wikidata": "Q55623155",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "bread",
-    "brown bread"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6979626",
+     "url": "https://www.wikidata.org/wiki/Q55623155",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/National_Loaf",
+     "url": "https://en.wikipedia.org/wiki/Milk_roll",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6947,23 +6946,24 @@
    ]
   },
   {
-   "dish": "Pink wafer",
-   "wikidata": "Q7196129",
+   "dish": "National loaf",
+   "wikidata": "Q6979626",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "biscuit"
+    "bread",
+    "brown bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7196129",
+     "url": "https://www.wikidata.org/wiki/Q6979626",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pink_Wafer",
+     "url": "https://en.wikipedia.org/wiki/National_Loaf",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7016,23 +7016,23 @@
    ]
   },
   {
-   "dish": "Pontefract cake",
-   "wikidata": "Q7228182",
+   "dish": "Pink wafer",
+   "wikidata": "Q7196129",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "confectionery"
+    "biscuit"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7228182",
+     "url": "https://www.wikidata.org/wiki/Q7196129",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pontefract_cake",
+     "url": "https://en.wikipedia.org/wiki/Pink_Wafer",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7086,23 +7086,23 @@
    ]
   },
   {
-   "dish": "Raspberry Ripple",
-   "wikidata": "Q7295192",
+   "dish": "Pontefract cake",
+   "wikidata": "Q7228182",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "ice cream"
+    "confectionery"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7295192",
+     "url": "https://www.wikidata.org/wiki/Q7228182",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Raspberry_ripple",
+     "url": "https://en.wikipedia.org/wiki/Pontefract_cake",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7155,23 +7155,23 @@
    ]
   },
   {
-   "dish": "Sally Lunn bun",
-   "wikidata": "Q2896075",
+   "dish": "Raspberry Ripple",
+   "wikidata": "Q7295192",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "bun"
+    "ice cream"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2896075",
+     "url": "https://www.wikidata.org/wiki/Q7295192",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Sally_Lunn_bun",
+     "url": "https://en.wikipedia.org/wiki/Raspberry_ripple",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7224,23 +7224,23 @@
    ]
   },
   {
-   "dish": "Scooby Snack",
-   "wikidata": "Q7434366",
+   "dish": "Sally Lunn bun",
+   "wikidata": "Q2896075",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "hamburger"
+    "bun"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7434366",
+     "url": "https://www.wikidata.org/wiki/Q2896075",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Scoobie_Snack",
+     "url": "https://en.wikipedia.org/wiki/Sally_Lunn_bun",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7294,23 +7294,23 @@
    ]
   },
   {
-   "dish": "Shooter's sandwich",
-   "wikidata": "Q29467976",
+   "dish": "Scooby Snack",
+   "wikidata": "Q7434366",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "sandwich"
+    "hamburger"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q29467976",
+     "url": "https://www.wikidata.org/wiki/Q7434366",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Shooter%27s_sandwich",
+     "url": "https://en.wikipedia.org/wiki/Scoobie_Snack",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7365,23 +7365,23 @@
    ]
   },
   {
-   "dish": "Simnel cake",
-   "wikidata": "Q7518047",
+   "dish": "Shooter's sandwich",
+   "wikidata": "Q29467976",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "fruitcake"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7518047",
+     "url": "https://www.wikidata.org/wiki/Q29467976",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Simnel_cake",
+     "url": "https://en.wikipedia.org/wiki/Shooter%27s_sandwich",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7434,23 +7434,23 @@
    ]
   },
   {
-   "dish": "Stornoway black pudding",
-   "wikidata": "Q7620316",
+   "dish": "Simnel cake",
+   "wikidata": "Q7518047",
    "country": "United Kingdom",
    "subregion": "Northern Europe",
    "families": [
-    "blood sausage"
+    "fruitcake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q7620316",
+     "url": "https://www.wikidata.org/wiki/Q7518047",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Stornoway_black_pudding",
+     "url": "https://en.wikipedia.org/wiki/Simnel_cake",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7498,6 +7498,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Salade_cauchoise",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Stornoway black pudding",
+   "wikidata": "Q7620316",
+   "country": "United Kingdom",
+   "subregion": "Northern Europe",
+   "families": [
+    "blood sausage"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q7620316",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-25"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Stornoway_black_pudding",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8206,23 +8229,23 @@
    ]
   },
   {
-   "dish": "rösti",
-   "wikidata": "Q627331",
+   "dish": "tomme",
+   "wikidata": "Q2164539",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "pancake"
+    "French cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q627331",
+     "url": "https://www.wikidata.org/wiki/Q2164539",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/R%C3%B6sti",
+     "url": "https://en.wikipedia.org/wiki/Tomme",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8299,8 +8322,8 @@
    ]
   },
   {
-   "dish": "tomme",
-   "wikidata": "Q2164539",
+   "dish": "vacherin",
+   "wikidata": "Q3553108",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
@@ -8309,13 +8332,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2164539",
+     "url": "https://www.wikidata.org/wiki/Q3553108",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tomme",
+     "url": "https://en.wikipedia.org/wiki/Vacherin_(cheese)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8391,23 +8414,24 @@
    ]
   },
   {
-   "dish": "vacherin",
-   "wikidata": "Q3553108",
+   "dish": "Șvaițer",
+   "wikidata": "Q3594600",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "French cheese"
+    "cheese",
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3553108",
+     "url": "https://www.wikidata.org/wiki/Q3594600",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Vacherin_(cheese)",
+     "url": "https://en.wikipedia.org/wiki/%C8%98vai%C8%9Ber",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8480,30 +8504,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Vlaskaas",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Șvaițer",
-   "wikidata": "Q3594600",
-   "country": "Switzerland",
-   "subregion": "Western Europe",
-   "families": [
-    "cheese",
-    "pressed cooked cheese"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3594600",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-25"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/%C8%98vai%C8%9Ber",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

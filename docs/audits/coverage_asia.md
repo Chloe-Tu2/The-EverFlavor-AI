@@ -49,7 +49,7 @@ Back to [world coverage](coverage_world.md).
 | Malaysia | high | 55 | 7 | 23 | 32 | 79 | 3 | 95% |
 | Myanmar | medium | 20 | 0 | 10 | 14 | 0 | 2 | 91% |
 | Singapore | medium | 20 | 6 | 8 | 10 | 0 | 1 | 95% |
-| Cambodia | medium | 16 | 2 | 6 | 8 | 53 | 2 | 89% |
+| Cambodia | medium | 16 | 2 | 7 | 9 | 53 | 2 | 89% |
 | Laos | low | 9 | 1 | 5 | 7 | 18 | 1 | 90% |
 | Brunei | low | 4 | 0 | 1 | 1 | 0 | 0 | 100% |
 | Timor-Leste | absent | 0 | 0 | 0 | 0 | 0 | 0 |  |

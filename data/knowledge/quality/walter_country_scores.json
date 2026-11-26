@@ -51,6 +51,12 @@
    "all_five": 0
   },
   {
+   "country": "Monaco",
+   "dishes": 2,
+   "score": 3.0,
+   "all_five": 0
+  },
+  {
    "country": "South Sudan",
    "dishes": 2,
    "score": 3.0,
@@ -477,6 +483,12 @@
    "all_five": 0
   },
   {
+   "country": "Yemen",
+   "dishes": 8,
+   "score": 3.62,
+   "all_five": 0
+  },
+  {
    "country": "Greece",
    "dishes": 90,
    "score": 3.63,
@@ -490,7 +502,7 @@
   },
   {
    "country": "Germany",
-   "dishes": 109,
+   "dishes": 110,
    "score": 3.65,
    "all_five": 7
   },
@@ -531,12 +543,6 @@
    "all_five": 0
   },
   {
-   "country": "Yemen",
-   "dishes": 9,
-   "score": 3.67,
-   "all_five": 0
-  },
-  {
    "country": "Latvia",
    "dishes": 6,
    "score": 3.67,
@@ -544,12 +550,6 @@
   },
   {
    "country": "Angola",
-   "dishes": 3,
-   "score": 3.67,
-   "all_five": 0
-  },
-  {
-   "country": "Saudi Arabia",
    "dishes": 3,
    "score": 3.67,
    "all_five": 0
@@ -687,6 +687,12 @@
    "all_five": 0
   },
   {
+   "country": "Saudi Arabia",
+   "dishes": 4,
+   "score": 3.75,
+   "all_five": 0
+  },
+  {
    "country": "Tajikistan",
    "dishes": 4,
    "score": 3.75,
@@ -711,16 +717,16 @@
    "all_five": 3
   },
   {
-   "country": "Switzerland",
-   "dishes": 32,
-   "score": 3.78,
-   "all_five": 3
-  },
-  {
    "country": "Laos",
    "dishes": 9,
    "score": 3.78,
    "all_five": 0
+  },
+  {
+   "country": "Switzerland",
+   "dishes": 34,
+   "score": 3.79,
+   "all_five": 3
   },
   {
    "country": "South Africa",
@@ -820,7 +826,7 @@
   },
   {
    "country": "France",
-   "dishes": 137,
+   "dishes": 138,
    "score": 3.91,
    "all_five": 15
   },
@@ -994,6 +1000,12 @@
   },
   {
    "country": "Saint Lucia",
+   "dishes": 1,
+   "score": 4.0,
+   "all_five": 0
+  },
+  {
+   "country": "San Marino",
    "dishes": 1,
    "score": 4.0,
    "all_five": 0

@@ -1,19 +1,18 @@
 # Country recovery candidates (2026-11-25)
 
-Campaign A: the 28 UN members still without a dish that have a cuisine page. Their pages link 104 dishes the atlas already holds under another country; for 3 the dish's own intro names the empty country (evidence the multi-origin dish policy allows). From `scripts/knowledge/country_recovery_candidates.py`. **Audit only:** a person writes `add` or `no` in `data/knowledge/review/country_recovery_candidates.csv` (intro rows first); nothing counts until then.
+Campaign A: the 27 UN members still without a dish that have a cuisine page. Their pages link 88 dishes the atlas already holds under another country; for 2 the dish's own intro names the empty country (evidence the multi-origin dish policy allows). From `scripts/knowledge/country_recovery_candidates.py`. **Audit only:** a person writes `add` or `no` in `data/knowledge/review/country_recovery_candidates.csv` (intro rows first); nothing counts until then.
 
 ## Per country
 
 | Country | Cuisine page | Articles linked | Dishes in the atlas | Intro names the country |
 |---|---:|---:|---:|---:|
-| San Marino | Cuisine of San Marino | 31 | 5 | 1 |
 | Lesotho | Cuisine of Lesotho | 12 | 2 | 1 |
 | Zimbabwe | Zimbabwean cuisine | 464 | 2 | 1 |
-| Monaco | Cuisine of Monaco | 167 | 17 | 0 |
 | Qatar | Qatari cuisine | 70 | 12 | 0 |
 | São Tomé and Príncipe | Cuisine of São Tomé and Príncipe | 73 | 11 | 0 |
 | Djibouti | Djiboutian cuisine | 40 | 9 | 0 |
 | Kuwait | Kuwaiti cuisine | 32 | 7 | 0 |
+| Liechtenstein | Liechtenstein cuisine | 20 | 6 | 0 |
 | Fiji | Fijian cuisine | 49 | 4 | 0 |
 | Oman | Omani cuisine | 30 | 4 | 0 |
 | Burkina Faso | Burkinabé cuisine | 44 | 3 | 0 |
@@ -40,5 +39,4 @@ Campaign A: the 28 UN members still without a dish that have a cuisine page. The
 | Country | Dish | In the atlas under | Wikidata origin |
 |---|---:|---:|---:|
 | Lesotho | Ugali | South Africa | Kenya |
-| San Marino | Piadina romagnola | Italy | Italy |
 | Zimbabwe | Ugali | South Africa | Kenya |

@@ -4,10 +4,10 @@ For each of our dishes, can Walter answer what it is, where it is from, why it m
 
 | Question | Dishes with an answer | Share |
 |---|---:|---:|
-| what is it | 3,863 | 100% |
-| where is it from | 3,132 | 81% |
-| why it matters | 3,088 | 80% |
-| similar dishes | 3,863 | 100% |
+| what is it | 3,870 | 100% |
+| where is it from | 3,138 | 81% |
+| why it matters | 3,094 | 80% |
+| similar dishes | 3,870 | 100% |
 | its versions | 250 | 6% |
 
 ## How many of the five each dish answers
@@ -15,8 +15,8 @@ For each of our dishes, can Walter answer what it is, where it is from, why it m
 | Answers | Dishes |
 |---|---:|
 | 5 | 149 |
-| 4 | 2,466 |
-| 3 | 1,089 |
+| 4 | 2,471 |
+| 3 | 1,091 |
 | 2 | 160 |
 | 1 | 0 |
 | 0 | 0 |
@@ -55,7 +55,7 @@ Dishes the app links the most recipes to, first (the full list: `data/knowledge/
 
 ## Walter coverage score per country
 
-The average number of the five questions a country's dishes answer (0 to 5), weakest first; 169 countries, all in `data/knowledge/quality/walter_country_scores.json`. A low score points to missing stories, origins, variants or graph links there.
+The average number of the five questions a country's dishes answer (0 to 5), weakest first; 171 countries, all in `data/knowledge/quality/walter_country_scores.json`. A low score points to missing stories, origins, variants or graph links there.
 
 | Country | Dishes | Score (of 5) | Dishes with all five |
 |---|---:|---:|---:|
@@ -67,6 +67,7 @@ The average number of the five questions a country's dishes answer (0 to 5), wea
 | Mauritius | 3 | 3.00 | 0 |
 | Seychelles | 3 | 3.00 | 0 |
 | Mali | 2 | 3.00 | 0 |
+| Monaco | 2 | 3.00 | 0 |
 | South Sudan | 2 | 3.00 | 0 |
 | Andorra | 1 | 3.00 | 0 |
 | Bahrain | 1 | 3.00 | 0 |
@@ -83,4 +84,3 @@ The average number of the five questions a country's dishes answer (0 to 5), wea
 | Slovakia | 11 | 3.09 | 0 |
 | Puerto Rico | 9 | 3.11 | 0 |
 | Algeria | 23 | 3.17 | 0 |
-| Cambodia | 16 | 3.19 | 0 |
