@@ -17,7 +17,7 @@ Three scores per country from `scripts/knowledge/country_scores.py`: **coverage*
 |---|---:|---:|---:|---:|---:|
 | Africa | 57 | 40 | 18 | 52.9 | 54.9 |
 | Americas | 39 | 35 | 11 | 62.9 | 56.4 |
-| Asia | 51 | 45 | 4 | 73.2 | 58.6 |
+| Asia | 51 | 45 | 4 | 73.0 | 58.6 |
 | Europe | 41 | 39 | 2 | 72.9 | 62.1 |
 | Oceania | 12 | 6 | 3 | 57.0 | 48.4 |
 

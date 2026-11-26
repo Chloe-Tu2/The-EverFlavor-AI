@@ -332,6 +332,37 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1189241) (CC0); [Wikipedia: Mont Blanc (dessert)](https://en.wikipedia.org/wiki/Mont_Blanc_(dessert)) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Muesli
+
+Muesli ( MEWZ-lee) is a cold Swiss dish that has become a common breakfast cereal prepared without cooking.
+
+- From: Switzerland
+- Origin (Wikidata): Switzerland
+- Ingredients (Wikidata): dried fruit, rolled oats, grain
+
+Fun facts:
+
+- (history) Developed around 1900 by Swiss physician Maximilian Bircher-Benner for patients in his hospital in Switzerland, it is also consumed for supper as Birchermüesli complet, 'Bircher's complete little mush', i.e., muesli with café complet (milk coffee accompanied by Butterbrot (bread, butter and jam)).
+- (origin) Muesli was introduced around 1900 by Bircher-Benner for patients in his hospital, where a diet rich in fresh fruit and vegetables was an essential part of therapy.
+- (culture) Traditionally, the primary ingredient in muesli is rolled oats which have not been processed further.
+
+More fun facts (when the user asks for more):
+
+- (inspiration) Muesli was inspired by a similar "strange dish" that he and his wife had been served on a hike in the Swiss Alps.
+- (about) Bircher-Benner himself referred to the dish simply as d Spys, Swiss German for "the dish"; it was commonly known as Apfeldiätspeise.
+- (inspiration) While long popular in mainland Europe, muesli has grown more popular since the 2010s in the UK and United States as "overnight oats", based on its ease of preparation, good taste and potential to be healthy depending on ingredients.
+- (origin) Muesli comes from Switzerland.
+- (about) These facilities had risen in popularity during the era of lebensreform, a social movement which valued health foods and vegetarianism.
+
+Learn more:
+
+- quick: [Muesli (Wikipedia)](https://en.wikipedia.org/wiki/Muesli)
+- more: [Liechtenstein cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Liechtenstein_cuisine)
+- deep: [Books about Muesli (Open Library)](https://openlibrary.org/search?q=Muesli)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q52406)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q52406) (CC0); [Wikipedia: Muesli](https://en.wikipedia.org/wiki/Muesli) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Papet Vaudois
 
 Papet Vaudois is a dish originating in the Swiss canton of Vaud.
@@ -450,6 +481,29 @@ Learn more:
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1533995)
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q1533995) (CC0); [Wikipedia: Riz Casimir](https://en.wikipedia.org/wiki/Riz_Casimir) (CC BY-SA 4.0). Review: auto-cleaned.
+
+### Rösti
+
+Rösti or rööschti is a Swiss dish consisting mainly of potatoes, sautéed or shallow-fried in a pan.
+
+- From: Switzerland
+- Origin (Wikidata): Switzerland
+- Ingredients (Wikidata): potato
+
+Fun facts:
+
+- (culture) Many Swiss people consider rösti to be a national dish.
+- (about) In Swiss popular cultural ethos, rösti are predominantly eaten in German-speaking regions, although they can be found easily elsewhere in the country.
+- (origin) Rösti comes from Switzerland.
+
+Learn more:
+
+- quick: [Rösti (Wikipedia)](https://en.wikipedia.org/wiki/R%C3%B6sti)
+- more: [Liechtenstein cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Liechtenstein_cuisine)
+- deep: [Books about Rösti (Open Library)](https://openlibrary.org/search?q=R%C3%B6sti)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q627331)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q627331) (CC0); [Wikipedia: Rösti](https://en.wikipedia.org/wiki/Rösti) (CC BY-SA 4.0). Review: auto-cleaned.
 
 ### Schenkele
 

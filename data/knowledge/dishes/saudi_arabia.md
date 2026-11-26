@@ -2,6 +2,29 @@
 
 Collected from Wikipedia (CC BY-SA 4.0, credit per dish) and Wikidata (CC0) by `scripts/knowledge/fetch_knowledge.py`, tidied by `everflavor.dish_knowledge`. Facts are the sources' words; nothing is invented.
 
+### Haneeth
+
+Haneeth is a slow-roasted lamb dish from Yemen.
+
+- From: Saudi Arabia
+- Origin (Wikidata): Saudi Arabia
+- Ingredients (Wikidata): lamb meat
+
+Fun facts:
+
+- (about) Haneeth is a very popular dish throughout the Arabian Peninsula.
+- (origin) Haneeth comes from Saudi Arabia.
+
+Learn more:
+
+- quick: [Haneeth (Wikipedia)](https://en.wikipedia.org/wiki/Haneeth)
+- more: [Jordanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jordanian_cuisine)
+- more: [Cuisine of Jordan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Jordan)
+- deep: [Books about Haneeth (Open Library)](https://openlibrary.org/search?q=Haneeth)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5647753)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q5647753) (CC0); [Wikipedia: Haneeth](https://en.wikipedia.org/wiki/Haneeth) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Kleicha
 
 Kleicha (Persian: کلوچه, romanized: koluche; North Mesopotamian Arabic: كليچة, romanized: klēči, Mesopotamian Arabic: كليچة, romanized: kilēča; Najdi Arabic: كليجة, romanized: k(i)lēja; Syriac: ܟܠܫ̮ܵܐ, romanized: kleča; Kurmanji Kurdish: kade; Sorani Kurdish: کادە, romanized: kāda; Turkish: kiliçe) is a type of Middle Eastern cookie.

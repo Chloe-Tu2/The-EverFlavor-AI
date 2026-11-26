@@ -6,7 +6,7 @@
   "world": 1,
   "zone": 8,
   "region": 30,
-  "country": 205,
+  "country": 208,
   "division": 5,
   "state": 17,
   "culinary_region": 1
@@ -112,14 +112,14 @@
    "level": "state",
    "country": "United Kingdom",
    "dishes": 13,
-   "recipes_by_label": 930
+   "recipes_by_label": 929
   },
   {
    "place": "Scotland",
    "level": "state",
    "country": "United Kingdom",
    "dishes": 81,
-   "recipes_by_label": 228
+   "recipes_by_label": 227
   },
   {
    "place": "Wales",
@@ -133,14 +133,14 @@
    "level": "state",
    "country": "United States",
    "dishes": 0,
-   "recipes_by_label": 552
+   "recipes_by_label": 551
   },
   {
    "place": "Hawaii",
    "level": "state",
    "country": "United States",
    "dishes": 13,
-   "recipes_by_label": 314
+   "recipes_by_label": 313
   },
   {
    "place": "Louisiana",
@@ -182,7 +182,7 @@
    "level": "division",
    "country": "United States",
    "dishes": 0,
-   "recipes_by_label": 3102
+   "recipes_by_label": 3101
   },
   {
    "place": "Southwestern US",
@@ -221,6 +221,7 @@
   "Kiribati",
   "Lesotho",
   "Liberia",
+  "Liechtenstein",
   "Martinique",
   "Nauru",
   "Niue",

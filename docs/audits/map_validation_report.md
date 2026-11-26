@@ -4,15 +4,15 @@ Can the map show a place for a dish? A dish is mappable when its country's OpenS
 
 | What | Count | Share |
 |---|---:|---:|
-| countries with dishes | 168 |  |
-| ... with a cuisine tag | 79 | 47% |
-| ... with pilot places for it | 38 | 23% |
-| dishes the map can place (a dish counts once per country of origin) | 2,807 | 63% |
-| linked recipes the map can place | 77,286 | 81% |
+| countries with dishes | 170 |  |
+| ... with a cuisine tag | 79 | 46% |
+| ... with pilot places for it | 38 | 22% |
+| dishes the map can place (a dish counts once per country of origin) | 2,809 | 63% |
+| linked recipes the map can place | 77,318 | 81% |
 
 ## Gaps
 
-- **No cuisine tag** (89): Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Azerbaijan, Bahrain, Barbados, Belarus, Belize, Benin, Bhutan, Bosnia and Herzegovina, Botswana, Brunei, Cameroon, Cape Verde, Central African Republic, Chad, Costa Rica, Curaçao, Cyprus, Democratic Republic of the Congo, Dominica, Eritrea, Estonia, Finland, Ghana, Grenada, Guadeloupe, Guam, Guyana, Honduras, Iceland, Iraq, Ivory Coast, Jordan, Kazakhstan, Kenya, Kyrgyzstan, Latvia, Libya, Lithuania, Luxembourg, Malawi, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Moldova, Montenegro, Mozambique, New Caledonia, New Zealand, Nicaragua, Niger, North Korea, North Macedonia, Northern Mariana Islands, Norway, Palestine, Panama, Paraguay, Rwanda, Saint Lucia, Samoa, Saudi Arabia, Seychelles, Sierra Leone, Slovakia, Slovenia, Somalia, South Africa, South Sudan, Sudan, Tajikistan, Tanzania, The Bahamas, The Gambia, Togo, Tonga, Trinidad and Tobago, Turkmenistan, Uganda, United Arab Emirates, Uruguay, Zambia. No demonym on Wikidata, or OpenStreetMap seldom uses it.
+- **No cuisine tag** (91): Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Azerbaijan, Bahrain, Barbados, Belarus, Belize, Benin, Bhutan, Bosnia and Herzegovina, Botswana, Brunei, Cameroon, Cape Verde, Central African Republic, Chad, Costa Rica, Curaçao, Cyprus, Democratic Republic of the Congo, Dominica, Eritrea, Estonia, Finland, Ghana, Grenada, Guadeloupe, Guam, Guyana, Honduras, Iceland, Iraq, Ivory Coast, Jordan, Kazakhstan, Kenya, Kyrgyzstan, Latvia, Libya, Lithuania, Luxembourg, Malawi, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Moldova, Monaco, Montenegro, Mozambique, New Caledonia, New Zealand, Nicaragua, Niger, North Korea, North Macedonia, Northern Mariana Islands, Norway, Palestine, Panama, Paraguay, Rwanda, Saint Lucia, Samoa, San Marino, Saudi Arabia, Seychelles, Sierra Leone, Slovakia, Slovenia, Somalia, South Africa, South Sudan, Sudan, Tajikistan, Tanzania, The Bahamas, The Gambia, Togo, Tonga, Trinidad and Tobago, Turkmenistan, Uganda, United Arab Emirates, Uruguay, Zambia. No demonym on Wikidata, or OpenStreetMap seldom uses it.
 - **A tag but no pilot place** (41): Armenia, Australia, Austria, Bangladesh, Bolivia, Bulgaria, Cambodia, Canada, Chile, Croatia, Czech Republic, Denmark, Dominican Republic, Ecuador, Egypt, Georgia, Guatemala, Haiti, Hungary, Indonesia, Ireland, Israel, Laos, Madagascar, Myanmar, Netherlands, Poland, Romania, Russia, Senegal, Serbia, Singapore, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Tunisia, Ukraine, Uzbekistan, Yemen. The pilot area has no such place; another area would.
 - **Places whose tag names no country of ours:** pizza 226, seafood 168, barbecue 99, tex-mex 84, burger 80, asian 76, sushi 76, steak_house 72, breakfast 61, sandwich 51, mediterranean 44, pancake 37.
 

@@ -8,19 +8,19 @@ Levels, best first: a photo of one of its own recipes (100 points), a Commons ph
 
 | Best level | Dishes | Share |
 |---|---:|---:|
-| recipe | 1,122 | 29% |
+| recipe | 1,126 | 29% |
 | dish | 69 | 2% |
 | variant | 9 | 0% |
-| family | 186 | 5% |
-| placeholder | 2,478 | 64% |
+| family | 187 | 5% |
+| placeholder | 2,480 | 64% |
 
-Statuses: candidate 1,735, verified 1,191, missing 743, fallback 195. Every dish resolves to an image or the placeholder, so no page is empty.
+Statuses: candidate 1,735, verified 1,195, missing 745, fallback 196. Every dish resolves to an image or the placeholder, so no page is empty.
 
 ## By zone
 
 | Zone | Dishes | Own photo | Any photo | Fetchable from Wikidata | Average score |
 |---|---:|---:|---:|---:|---:|
-| Europe | 1,355 | 30% | 34% | 719 | 32.4 |
+| Europe | 1,362 | 30% | 35% | 719 | 32.6 |
 | Asia | 1,153 | 19% | 26% | 732 | 22.9 |
 | North America | 455 | 71% | 76% | 114 | 73.3 |
 | Latin America | 289 | 34% | 37% | 129 | 35.7 |
@@ -41,8 +41,8 @@ Statuses: candidate 1,735, verified 1,191, missing 743, fallback 195. Every dish
 | Japan | 109 | 28% | 37% | 74 | 33.6 |
 | India | 105 | 41% | 49% | 55 | 45.2 |
 | Canada | 89 | 66% | 70% | 24 | 68.0 |
-| France | 88 | 52% | 56% | 41 | 53.8 |
-| Germany | 88 | 30% | 33% | 54 | 31.6 |
+| France | 89 | 53% | 56% | 41 | 54.3 |
+| Germany | 89 | 30% | 34% | 54 | 32.4 |
 | Greece | 88 | 43% | 47% | 44 | 45.1 |
 | Philippines | 87 | 16% | 22% | 67 | 19.5 |
 | South Korea | 79 | 6% | 15% | 72 | 11.5 |
@@ -64,7 +64,7 @@ Statuses: candidate 1,735, verified 1,191, missing 743, fallback 195. Every dish
 ## Remediation plan
 
 1. **Fetch** the Wikidata images of 1,891 dishes through the existing photo pipeline (`scripts/dish_photos/fetch_dish_photos.py meta`, `download`, `curate`, `write`), which checks each licence and keeps a credit line: 287 high priority (50+ of the 80 points besides the image), 1,604 medium (`image_priority_queue.json`).
-2. **No image anywhere** for 782 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
+2. **No image anywhere** for 785 dishes: Commons search by name is the next source; a person checks each match, as the photo review sheet does today.
 3. **Family photos** stand in meanwhile, labelled as the family, never as the dish.
 
 ## Approved for collection

@@ -29,7 +29,7 @@
    "countries": 51,
    "covered": 45,
    "weak": 4,
-   "representation": 73.2,
+   "representation": 73.0,
    "enrichment": 58.6
   },
   "Europe": {
@@ -1762,20 +1762,20 @@
    "continent": "Europe",
    "subregion": "Western Europe",
    "counted": true,
-   "dishes": 137,
+   "dishes": 138,
    "covered": true,
-   "representation": 81.5,
-   "enrichment": 68.6,
+   "representation": 81.6,
+   "enrichment": 68.7,
    "representation_parts": {
     "depth": 1.0,
-    "families": 0.781,
-    "stories": 0.664
+    "families": 0.783,
+    "stories": 0.667
    },
    "enrichment_parts": {
-    "origins": 0.934,
-    "variants": 0.117,
+    "origins": 0.935,
+    "variants": 0.116,
     "related": 1.0,
-    "walter": 0.693
+    "walter": 0.696
    },
    "weak": false
   },
@@ -1894,20 +1894,20 @@
    "continent": "Europe",
    "subregion": "Western Europe",
    "counted": true,
-   "dishes": 109,
+   "dishes": 110,
    "covered": true,
-   "representation": 79.2,
-   "enrichment": 63.1,
+   "representation": 79.1,
+   "enrichment": 63.0,
    "representation_parts": {
     "depth": 1.0,
-    "families": 0.798,
-    "stories": 0.578
+    "families": 0.791,
+    "stories": 0.582
    },
    "enrichment_parts": {
-    "origins": 0.697,
-    "variants": 0.11,
+    "origins": 0.7,
+    "variants": 0.109,
     "related": 1.0,
-    "walter": 0.716
+    "walter": 0.709
    },
    "weak": false
   },
@@ -2468,11 +2468,11 @@
    "counted": true,
    "dishes": 350,
    "covered": true,
-   "representation": 77.6,
+   "representation": 77.7,
    "enrichment": 68.1,
    "representation_parts": {
     "depth": 1.0,
-    "families": 0.803,
+    "families": 0.806,
     "stories": 0.526
    },
    "enrichment_parts": {
@@ -3237,22 +3237,22 @@
    "continent": "Europe",
    "subregion": "Western Europe",
    "counted": false,
-   "dishes": 0,
-   "covered": false,
-   "representation": 0.0,
-   "enrichment": 0.0,
+   "dishes": 2,
+   "covered": true,
+   "representation": 55.6,
+   "enrichment": 62.5,
    "representation_parts": {
-    "depth": 0.0,
-    "families": 0.0,
+    "depth": 0.667,
+    "families": 1.0,
     "stories": 0.0
    },
    "enrichment_parts": {
-    "origins": 0.0,
+    "origins": 0.5,
     "variants": 0.0,
-    "related": 0.0,
-    "walter": 0.0
+    "related": 1.0,
+    "walter": 1.0
    },
-   "weak": false
+   "weak": true
   },
   {
    "country": "Mongolia",
@@ -4293,22 +4293,22 @@
    "continent": "Europe",
    "subregion": "Southern Europe",
    "counted": false,
-   "dishes": 0,
-   "covered": false,
-   "representation": 0.0,
-   "enrichment": 0.0,
+   "dishes": 1,
+   "covered": true,
+   "representation": 44.4,
+   "enrichment": 75.0,
    "representation_parts": {
-    "depth": 0.0,
-    "families": 0.0,
+    "depth": 0.333,
+    "families": 1.0,
     "stories": 0.0
    },
    "enrichment_parts": {
-    "origins": 0.0,
+    "origins": 1.0,
     "variants": 0.0,
-    "related": 0.0,
-    "walter": 0.0
+    "related": 1.0,
+    "walter": 1.0
    },
-   "weak": false
+   "weak": true
   },
   {
    "country": "Sark",
@@ -4337,20 +4337,20 @@
    "continent": "Asia",
    "subregion": "Western Asia",
    "counted": true,
-   "dishes": 3,
+   "dishes": 4,
    "covered": true,
-   "representation": 100.0,
-   "enrichment": 58.3,
+   "representation": 91.7,
+   "enrichment": 56.2,
    "representation_parts": {
     "depth": 1.0,
     "families": 1.0,
-    "stories": 1.0
+    "stories": 0.75
    },
    "enrichment_parts": {
-    "origins": 0.667,
+    "origins": 0.75,
     "variants": 0.0,
     "related": 1.0,
-    "walter": 0.667
+    "walter": 0.5
    },
    "weak": false
   },
@@ -4799,20 +4799,20 @@
    "continent": "Europe",
    "subregion": "Western Europe",
    "counted": true,
-   "dishes": 32,
+   "dishes": 34,
    "covered": true,
-   "representation": 81.2,
-   "enrichment": 60.9,
+   "representation": 82.4,
+   "enrichment": 61.8,
    "representation_parts": {
     "depth": 1.0,
-    "families": 0.719,
-    "stories": 0.719
+    "families": 0.735,
+    "stories": 0.735
    },
    "enrichment_parts": {
-    "origins": 0.75,
-    "variants": 0.094,
+    "origins": 0.765,
+    "variants": 0.088,
     "related": 1.0,
-    "walter": 0.594
+    "walter": 0.618
    },
    "weak": false
   },
@@ -5549,20 +5549,20 @@
    "continent": "Asia",
    "subregion": "Western Asia",
    "counted": true,
-   "dishes": 9,
+   "dishes": 8,
    "covered": true,
-   "representation": 81.5,
-   "enrichment": 69.4,
+   "representation": 83.3,
+   "enrichment": 71.9,
    "representation_parts": {
     "depth": 1.0,
     "families": 1.0,
-    "stories": 0.444
+    "stories": 0.5
    },
    "enrichment_parts": {
     "origins": 1.0,
     "variants": 0.0,
     "related": 1.0,
-    "walter": 0.778
+    "walter": 0.875
    },
    "weak": false
   },

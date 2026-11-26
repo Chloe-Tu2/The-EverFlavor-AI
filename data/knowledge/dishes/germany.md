@@ -883,6 +883,27 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q896362) (CC0); [Wikipedia: Kirschenmichel](https://en.wikipedia.org/wiki/Kirschenmichel) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Käsespätzle
+
+Käsespätzle (German for "spätzle with cheese", also called Käsknöpfle in Vorarlberg and Liechtenstein or Kasspatzl in Tyrol, Austria and Bavaria) is a traditional dish of the German regions of Swabia, Baden and Allgäu, and also in the Austrian regions Vorarlberg and Tyrol, as well as Liechtenstein and Switzerland.
+
+- From: Germany
+- Origin (Wikidata): Germany
+- Ingredients (Wikidata): cheese, spätzle, fried onion
+
+Fun facts:
+
+- (origin) Käsespätzle comes from Germany.
+
+Learn more:
+
+- quick: [Käsespätzle (Wikipedia)](https://en.wikipedia.org/wiki/K%C3%A4sesp%C3%A4tzle)
+- more: [Liechtenstein cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Liechtenstein_cuisine)
+- deep: [Books about Käsespätzle (Open Library)](https://openlibrary.org/search?q=K%C3%A4sesp%C3%A4tzle)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q1124851)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q1124851) (CC0); [Wikipedia: Käsespätzle](https://en.wikipedia.org/wiki/Käsespätzle) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Königsberg marzipan
 
 Königsberg marzipan is a type of marzipan traditionally produced in the former German city of Königsberg (now Kaliningrad, Russia).

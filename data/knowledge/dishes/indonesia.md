@@ -979,7 +979,7 @@ Bubur ketan hitam, bubur pulut hitam or bubur injun is an Indonesian sweet desse
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): palm sugar, water, table salt, glutinous rice, Pandanus amaryllifolius, coconut milk
+- Ingredients (Wikidata): water, table salt, glutinous rice, Pandanus amaryllifolius, coconut milk, palm sugar
 
 Fun facts:
 
@@ -2531,7 +2531,7 @@ Kue leker is a type of crêpe from Indonesia, made with wheat flour, eggs, milk 
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): banana, milk, cheese, sugar, vanilla, baking powder, rice flour, wheat flour, sago flour
+- Ingredients (Wikidata): sago flour, banana, milk, cheese, sugar, vanilla, baking powder, rice flour, wheat flour
 
 Fun facts:
 
@@ -3246,7 +3246,7 @@ Mi caluk is a traditional Indonesian-Aceh noodle dish, which is commonly found i
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): krupuk, scallion, Kaempferia galanga, Aleurites moluccanus, seedling, fried onion, kecap manis, peanut, ginger, Mi Gomak
+- Ingredients (Wikidata): water, table salt, Cucumis sativus, Apium graveolens, Brassica oleracea var. capitata, black pepper, chili pepper, soy sauce, broth, cooking oil
 
 Fun facts:
 
@@ -4068,7 +4068,7 @@ Natinombur is a typical Batak dish from North Sumatra, Indonesia.
 
 - From: Indonesia
 - Origin (Wikidata): Indonesia
-- Ingredients (Wikidata): table salt, orange, Cymbopogon citratus, Oreochromis niloticus, Alpinia galanga, bird's eye chili, Aleurites moluccanus, Etlingera elatior, Andaliman, ginger
+- Ingredients (Wikidata): table salt, orange, Cymbopogon citratus, Oreochromis niloticus, Alpinia galanga, bird's eye chili, chicken as food, Aleurites moluccanus, Etlingera elatior, Andaliman
 
 Fun facts:
 
@@ -7298,14 +7298,14 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q96793311) (CC0); [Wikipedia: 
 Mandi is a traditional Arab dish with regional variations across the Arab world.
 
 - From: Indonesia
-- Origin (Wikidata): Yemen
+- Origin (Wikidata): Saudi Arabia
 - Ingredients (Wikidata): rice
 
 Fun facts:
 
 - (origin) Mandi was introduced to Hyderabadi cuisine by Yemeni migration to Barkas.
 - (history) Palestinian ethnographer Tawfiq Canaan described zarb in 1927: Zarb is a roasted sheep, where the whole (when the animal is young) or a part of a sheep is placed in a small freshly-prepared, cave like oven.
-- (origin) Mandi comes from Yemen.
+- (origin) Mandi comes from Saudi Arabia.
 
 Learn more:
 

@@ -18,7 +18,7 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 | Africa | 60 | 40 | 3 | 40.8 | thin |
 | Americas | 57 | 36 | 6.5 | 47.8 | thin |
 | Asia | 51 | 45 | 13 | 76.6 | good |
-| Europe | 53 | 40 | 22.5 | 87.7 | good |
+| Europe | 53 | 42 | 20 | 89.6 | good |
 | Oceania | 29 | 8 | 1.5 | 17.5 | gap |
 
 ## Subregions
@@ -35,16 +35,16 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 | Central America (Americas) | 8 | 8 | 3.5 | 58.8 | fair | 13 | 2 | 1 |
 | Southern Africa (Africa) | 5 | 2 | 16.5 | 61.2 | fair | 1 |  |  |
 | South America (Americas) | 16 | 12 | 10 | 62.5 | fair | 34 | 1 | 7 |
-| Southern Europe (Europe) | 17 | 13 | 11 | 65.7 | fair | 159 | 3 | 5 |
+| Southern Europe (Europe) | 17 | 14 | 9 | 63.7 | fair | 158 | 2 | 5 |
 | Australasia (Oceania) | 6 | 2 | 38 | 66.7 | fair | 4 |  | 3 |
-| Northern America (Americas) | 5 | 2 | 243.5 | 70 | fair | 166 | 2 | 50 |
+| Northern America (Americas) | 5 | 2 | 243.5 | 70 | fair | 173 | 2 | 50 |
 | Central Asia (Asia) | 5 | 5 | 8 | 70 | fair | 1 |  |  |
 | Western Asia (Asia) | 18 | 15 | 12 | 71.7 | fair | 46 |  | 1 |
 | Southern Asia (Asia) | 9 | 9 | 11 | 77.5 | good | 104 |  | 2 |
-| Northern Europe (Europe) | 17 | 10 | 23 | 79.4 | good | 227 | 2 | 38 |
+| Northern Europe (Europe) | 17 | 10 | 23 | 79.4 | good | 233 | 2 | 39 |
 | Northern Africa (Africa) | 7 | 6 | 15 | 80.4 | good | 4 |  |  |
 | Eastern Asia (Asia) | 8 | 6 | 55 | 87.5 | good | 254 | 1 | 11 |
-| Western Europe (Europe) | 9 | 7 | 32 | 88.9 | good | 259 | 49 | 23 |
+| Western Europe (Europe) | 9 | 8 | 32 | 94.4 | good | 259 | 49 | 23 |
 | Eastern Europe (Europe) | 10 | 10 | 18 | 95 | good | 35 |  | 1 |
 | Southeast Asia (Asia) | 11 | 10 | 37.5 | 95.5 | good | 75 | 1 | 2 |
 
@@ -70,12 +70,12 @@ Every dish named comes from the Wikidata backlog (`coverage_audit.py`); no dish,
 
 ## Versions we lack, and the review queue
 
-- `missing_variants.json`: 679 backlog dishes are versions of a dish EverFlavor already shows (their Wikidata family is one of our dishes), by subregion.
-- `publication_review_queue.json`: 172 dishes need a person first. The problems found:
+- `missing_variants.json`: 678 backlog dishes are versions of a dish EverFlavor already shows (their Wikidata family is one of our dishes), by subregion.
+- `publication_review_queue.json`: 171 dishes need a person first. The problems found:
   - not a country today (a region, city or former state): a person places it: 109 (Korea 30, Europe 3, Maghreb 3, West Germany 3, Ancient Rome 2, British Raj 2, ...)
   - in more than 3 families: check which one it belongs to: 51
   - a plant or animal on Wikidata, not a dish: 7
-  - a country the place tree lacks yet: 6 (Bermuda 1, Greenland 1, Jersey 1, Montserrat 1, San Marino 1, United States Virgin Islands 1)
+  - a country the place tree lacks yet: 5 (Bermuda 1, Greenland 1, Jersey 1, Montserrat 1, United States Virgin Islands 1)
 
 ## Not placed
 

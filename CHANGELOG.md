@@ -73,6 +73,10 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
   member states with no dish (`docs/audits/empty_country_backlog.md`: 6 easy, where Wikidata gives dishes filed
   under another country); and Walter's five questions per dish (`docs/audits/walter_five_questions.md`: 148
   dishes answer all five; versions are the gap).
+- **Sprint 6, pipeline blind spots** (2026-11-25): Monaco, San Marino and Liechtenstein were never in the fetch
+  lists or the place tree; with them, Barbajuan and U Pan de Natale (Monaco) and Torta Tre Monti (San Marino) bring
+  the UN members with a dish to 163. Pick sheets for the empty countries (`cuisine_page_picks.py`, 520 articles),
+  the campaign health table, debt efficiency and a headline in the handoff; review items 36 to 40.
 - **Sprint 5, weak regions** (2026-11-25): nine more weak or empty countries in Wikidata's origin targets; one
   new dish (Chukuchuk, the Marshall Islands' first: 161 UN members with a dish) and two foods; none moved. The
   small gain confirms the shared-dish and origin routes are nearly used up for the empty countries (review

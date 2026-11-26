@@ -5,39 +5,62 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 ## Generated at
 
 - Date: 2026-11-25
-- Time: 17:02
-- Git commit: 5bae85f+work (compared with 66a1a61+work, 2026-11-25)
+- Time: 20:55
+- Git commit: b710ac9+work (compared with f8df4e3+work, 2026-11-25)
 
 ## Current status
 
-- Branch: main
-- Campaign: A, empty country recovery (see the planner's order of all campaigns)
+- Branch: sprint/6-pick-sheets
+- Campaign: Q1. Regional source discovery (the first on the campaign scoreboard, in the planner's order)
 - Version: 0.7.2
-- Release readiness 0.8: 4 of 9 conditions done
+- Release readiness 0.8: 5 of 9 conditions done
 - Release readiness 0.9: 2 of 10 conditions done
 - Release readiness 1.0: 2 of 3 coverage targets met; the rest wait on reviews
+
+## Headline
+
+- Coverage: 70.0%
+- UN members with a dish: 163 of 193
+- Atlas debt: 3.26 per country
+- Regional debt: 116 countries
+- Story debt: 35 countries
+- Campaign: Q1. Regional source discovery
+- Blocked by: source (a second free regional source (Wikidata links few dishes, item 36))
+
+## Atlas debt
+
+- Current debt: 558 (3.26 per country)
+- Debt change: no change
+- Top debt categories:
+  1. no culinary region: 116 countries, 348 points
+  2. no story: 35 countries, 70 points
+  3. one dish only: 28 countries, 56 points
+- Highest-debt regions (per country):
+  1. Oceania / Polynesia: 8.5
+  2. Oceania / Melanesia: 8.0
+  3. Oceania / Micronesian Region: 7.3
 
 ## Coverage
 
 - world culinary coverage (%): 70.0
 - Africa coverage (%): 52.8
 - Oceania coverage (%): 33.8
-- countries with a dish: 169
-- UN members with a dish: 161
+- countries with a dish: 171
+- UN members with a dish: 163
 - Change since the last run: no change
 
 ## Representation
 
-- dish families and categories: 707
-- country pages: 166
+- dish families and categories: 711
+- country pages: 168
 - region pages: 30
 - countries with three dishes or more: 130
 - Change since the last run: no change
 
 ## Enrichment
 
-- entries with a story: 2758
-- entries with a Wikidata origin: 4188
+- entries with a story: 2761
+- entries with a Wikidata origin: 4195
 - Walter coverage score: 3.58
 - Change since the last run: no change
 
@@ -51,31 +74,19 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 
 ## Governance
 
-- Review items open: 32
+- Review items open: 36
 - Review items added since the last run: 0
-- Review items answered by a person: 3 (items 32, 33, 34)
-- Change since the last run: no change
-
-## Atlas debt
-
-- Current debt: 546 (3.23 per country)
-- Debt change: no change
-- Top debt categories:
-  1. no culinary region: 114 countries, 342 points
-  2. no story: 33 countries, 66 points
-  3. one dish only: 27 countries, 54 points
-- Highest-debt regions (per country):
-  1. Oceania / Polynesia: 8.5
-  2. Oceania / Melanesia: 8.0
-  3. Oceania / Micronesian Region: 7.3
+- Review items answered by a person: 4 (items 21, 32, 33, 34)
+- Change since the last run: review items open 37 -> 36; review items answered 3 -> 4
 
 ## Work completed since the last snapshot
 
-- 55e7adb Campaign states: A exhausted, G manual country research, D in maintenance, C active
+- 7d25fbc Review item 21 answered: the landing page shows breadth and depth
 
 ## What improved
 
-- nothing measured changed
+- review items answered: 3 -> 4
+- review items open: 37 -> 36
 
 ## What regressed
 
@@ -95,7 +106,6 @@ Estimated time for these five: about 210 minutes.
 
 ## Blocked work (waiting on a person)
 
-- 0.8: Coverage counting rule confirmed (review item 21), then world coverage shown in the app
 - 0.8: Staged photos signed off (the 72 passed contact sheets), then linked: about 203 dishes become rich
 - 0.8: Cuisine image fallbacks, checked by a person
 - 0.8: Items 24, 28, 29 and 30 (moved dishes, country scores, sprint entries) answered
@@ -112,7 +122,7 @@ If a person is available: review the highest-impact item above.
 If running unattended:
 
 - Continue the current campaign as far as its review items allow.
-- Quality work Claude can do alone with the most countries: **no story** (33 countries; first Rwanda, Samoa, The Bahamas, Curaçao, Malawi, Mauritania, Zambia, Central African Republic).
+- Quality work Claude can do alone with the most countries: **no story** (35 countries; first Rwanda, Samoa, The Bahamas, Curaçao, Malawi, Mauritania, Zambia, Central African Republic).
 - Regenerate the audits, atlas health and review impact; prepare evidence packets.
 
 ## Final question

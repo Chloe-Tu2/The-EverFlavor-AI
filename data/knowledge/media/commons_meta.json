@@ -13069,6 +13069,16 @@
   "missing": false,
   "width": 2592
  },
+ "Open Market.jpg": {
+  "author": "Corbis, From Outlook Traveller uploaded by[Bukulu Steven]",
+  "description": "This is an image of food from",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Open_Market.jpg",
+  "height": 395,
+  "license": "CC BY-SA 4.0",
+  "mime": "image/jpeg",
+  "missing": false,
+  "width": 550
+ },
  "Opor Ayam Telur Pindang.JPG": {
   "author": "Sakurai Midori",
   "description": "Opor Ayam, braised chicken in coconut milk",
@@ -19949,14 +19959,14 @@
   "missing": false,
   "width": 4096
  },
- "Open Market.jpg": {
-  "file_page": "https://commons.wikimedia.org/wiki/File:Open_Market.jpg",
-  "width": 550,
-  "height": 395,
+ "Un plateau de fromages en room service à Monaco (novembre 2021).jpg": {
+  "file_page": "https://commons.wikimedia.org/wiki/File:Un_plateau_de_fromages_en_room_service_%C3%A0_Monaco_(novembre_2021).jpg",
+  "width": 4032,
+  "height": 3024,
   "mime": "image/jpeg",
   "missing": false,
-  "license": "CC BY-SA 4.0",
-  "author": "Corbis, From Outlook Traveller uploaded by[Bukulu Steven]",
-  "description": "This is an image of food from"
+  "license": "CC0",
+  "author": "Benoît Prieur",
+  "description": "Un plateau de fromages en room service à Monaco (novembre 2021)."
  }
 }

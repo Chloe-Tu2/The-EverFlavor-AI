@@ -159,6 +159,8 @@ ATLAS_SPRINT_COUNTRIES = {
     "Bosnia and Herzegovina": "Bosnia and Herzegovina", "Slovenia": "Slovenian", "North Macedonia": "Macedonian",
     "Montenegro": "Montenegrin", "Albania": "Albanian", "Andorra": "Andorran", "Malta": "Maltese",
     "Cyprus": "Cypriot", "Luxembourg": "Luxembourg",
+    # sprint 6 (2026-11-25): UN members never read before (empty_country_backlog.md)
+    "Monaco": "Monégasque", "San Marino": "Sammarinese", "Liechtenstein": "Liechtenstein",
     # Southern Asia
     "Nepal": "Nepalese", "Bangladesh": "Bangladeshi", "Afghanistan": "Afghan", "Sri Lanka": "Sri Lankan",
     "Bhutan": "Bhutanese", "Maldives": "Maldivian",
@@ -554,6 +556,8 @@ ORIGIN_TARGETS = (
     # sprint 5 (2026-11-25, weak regions): the empty UN members and weak countries sprint 4 did not target
     "Andorra", "Dominica", "Federated States of Micronesia", "Marshall Islands", "Nauru", "Northern Mariana Islands",
     "Palau", "Saint Kitts and Nevis", "Tuvalu",
+    # sprint 6 (2026-11-25): the UN members the fetch never read
+    "Liechtenstein", "Monaco", "San Marino",
 )
 WIKIDATA_NAMES ={"Congo": "Republic of the Congo"}   # our name -> the name in data/knowledge/countries.json
 ORIGIN_QUERY = """SELECT ?item ?country ?type ?article WHERE {{

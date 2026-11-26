@@ -42,6 +42,6 @@ def test_tiers_follow_the_scores() -> None:
 
 def test_the_taxonomy_validation_file_is_complete() -> None:
     v = json.loads((ROOT / "data" / "knowledge" / "quality" / "taxonomy_validation.json").read_text(encoding="utf-8"))
-    assert sum(v["nodes"].values()) == 267 and v["nodes"]["country"] == 205   # after sprint 3 (coverage recovery), 2026-11-23
+    assert sum(v["nodes"].values()) == 270 and v["nodes"]["country"] == 208   # after sprint 6 (Monaco, San Marino, Liechtenstein), 2026-11-25
     assert {"zone_differences", "region_differences", "countries_missing_from_taxonomy"} <= set(v)
     assert all(b["country"] for b in v["below_country"])

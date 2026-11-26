@@ -4,21 +4,21 @@ Two queues for people, built from the quality files by `scripts/knowledge/enrich
 
 ## Rich-dish upgrade queue
 
-`data/knowledge/quality/rich_dish_upgrade_queue.json`: the 3,335 of 3,864 dishes that are not rich, lowest effort first.
+`data/knowledge/quality/rich_dish_upgrade_queue.json`: the 3,339 of 3,871 dishes that are not rich, lowest effort first.
 
 | What | Dishes |
 |---|---:|
 | become rich with low work only (a staged photo signed off) | 205 |
-| could become rich with low and medium work, at most (if the sources we already use have the facts) | 2,517 |
-| stay below rich even then (they need a recipe source, a Wikidata fact or a new photo) | 818 |
+| could become rich with low and medium work, at most (if the sources we already use have the facts) | 2,519 |
+| stay below rich even then (they need a recipe source, a Wikidata fact or a new photo) | 820 |
 
 Gaps by work:
 
 | Work | Gaps |
 |---|---:|
 | low | 1,122 |
-| medium | 10,621 |
-| high | 3,898 |
+| medium | 10,632 |
+| high | 3,905 |
 
 The first ten:
 
@@ -37,14 +37,14 @@ The first ten:
 
 ## Walter enrichment queue
 
-`data/knowledge/quality/walter_enrichment_queue.json`: 3,591 of 3,864 dishes miss at least one thing the waiter tells. Technique is not counted: no source we use states it.
+`data/knowledge/quality/walter_enrichment_queue.json`: 3,596 of 3,871 dishes miss at least one thing the waiter tells. Technique is not counted: no source we use states it.
 
 | Missing | Dishes | Filled by |
 |---|---:|---:|
-| history | 2,084 | fetch_knowledge.py --stories |
-| origin | 837 | Wikidata P495 (nothing on our side) |
-| ingredient explanation | 1,496 | Wikidata P186 (made from) |
-| interesting fact | 1,635 | fetch_knowledge.py (intro sentences) |
-| related dishes | 2,600 | the Food Graph (family, versions) |
+| history | 2,088 | fetch_knowledge.py --stories |
+| origin | 838 | Wikidata P495 (nothing on our side) |
+| ingredient explanation | 1,499 | Wikidata P186 (made from) |
+| interesting fact | 1,636 | fetch_knowledge.py (intro sentences) |
+| related dishes | 2,603 | the Food Graph (family, versions) |
 
-Dishes missing only one thing: 799.
+Dishes missing only one thing: 801.

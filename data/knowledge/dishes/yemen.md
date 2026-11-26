@@ -45,29 +45,6 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q618910) (CC0); [Wikipedia: Fatoot](https://en.wikipedia.org/wiki/Fatoot) (CC BY-SA 4.0). Review: auto-cleaned.
 
-### Haneeth
-
-Haneeth is a slow-roasted lamb dish from Yemen.
-
-- From: Yemen
-- Origin (Wikidata): Yemen
-- Ingredients (Wikidata): lamb meat
-
-Fun facts:
-
-- (about) Haneeth is a very popular dish throughout the Arabian Peninsula.
-- (origin) Haneeth comes from Yemen.
-
-Learn more:
-
-- quick: [Haneeth (Wikipedia)](https://en.wikipedia.org/wiki/Haneeth)
-- more: [Jordanian cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Jordanian_cuisine)
-- more: [Cuisine of Jordan (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Jordan)
-- deep: [Books about Haneeth (Open Library)](https://openlibrary.org/search?q=Haneeth)
-- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q5647753)
-
-Sources: [Wikidata](https://www.wikidata.org/wiki/Q5647753) (CC0); [Wikipedia: Haneeth](https://en.wikipedia.org/wiki/Haneeth) (CC BY-SA 4.0). Review: auto-cleaned.
-
 ### Jachnun
 
 Gachnun or gahnun is a Jewish enriched bread, originating from the Adeni Jews, and traditionally served on Shabbat morning, with resek agvaniyot (a freshly grated tomato dip), hard-boiled eggs, and zhug (a type of spicy green herbal condiment).

@@ -474,7 +474,7 @@ Mote con huesillo is a traditional Chilean summer-time drink often sold in stree
 
 - From: Chile
 - Origin (Wikidata): Chile
-- Ingredients (Wikidata): sugar, cinnamon, peach, wheat, water
+- Ingredients (Wikidata): water, sugar, cinnamon, peach, wheat
 
 Fun facts:
 

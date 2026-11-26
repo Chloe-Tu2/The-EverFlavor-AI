@@ -9,13 +9,13 @@
   "no photo": 1,
   "weak Walter": 1
  },
- "total": 546,
- "per_country": 3.23,
+ "total": 558,
+ "per_country": 3.26,
  "per_gap": {
-  "no culinary region": 114,
-  "no story": 33,
+  "no culinary region": 116,
+  "no story": 35,
   "no family": 17,
-  "one dish only": 27,
+  "one dish only": 28,
   "no photo": 45,
   "weak Walter": 5
  },
@@ -357,6 +357,19 @@
    ]
   },
   {
+   "country": "San Marino",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 1,
+   "walter": 4.0,
+   "debt": 7,
+   "gaps": [
+    "no culinary region",
+    "no story",
+    "one dish only"
+   ]
+  },
+  {
    "country": "Tonga",
    "continent": "Oceania",
    "subregion": "Polynesia",
@@ -494,6 +507,18 @@
    "subregion": "Southern Europe",
    "dishes": 2,
    "walter": 4.0,
+   "debt": 5,
+   "gaps": [
+    "no culinary region",
+    "no story"
+   ]
+  },
+  {
+   "country": "Monaco",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "dishes": 2,
+   "walter": 3.0,
    "debt": 5,
    "gaps": [
     "no culinary region",
@@ -1039,6 +1064,17 @@
    ]
   },
   {
+   "country": "Yemen",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 8,
+   "walter": 3.62,
+   "debt": 3,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
    "country": "Kyrgyzstan",
    "continent": "Asia",
    "subregion": "Central Asia",
@@ -1066,17 +1102,6 @@
    "subregion": "Caribbean",
    "dishes": 9,
    "walter": 3.11,
-   "debt": 3,
-   "gaps": [
-    "no culinary region"
-   ]
-  },
-  {
-   "country": "Yemen",
-   "continent": "Asia",
-   "subregion": "Western Asia",
-   "dishes": 9,
-   "walter": 3.67,
    "debt": 3,
    "gaps": [
     "no culinary region"
@@ -1372,8 +1397,8 @@
    "country": "Switzerland",
    "continent": "Europe",
    "subregion": "Western Europe",
-   "dishes": 32,
-   "walter": 3.78,
+   "dishes": 34,
+   "walter": 3.79,
    "debt": 3,
    "gaps": [
     "no culinary region"
@@ -1482,8 +1507,8 @@
    "country": "Saudi Arabia",
    "continent": "Asia",
    "subregion": "Western Asia",
-   "dishes": 3,
-   "walter": 3.67,
+   "dishes": 4,
+   "walter": 3.75,
    "debt": 1,
    "gaps": [
     "no photo"
@@ -1830,7 +1855,7 @@
    "country": "Germany",
    "continent": "Europe",
    "subregion": "Western Europe",
-   "dishes": 109,
+   "dishes": 110,
    "walter": 3.65,
    "debt": 0,
    "gaps": []
@@ -1866,7 +1891,7 @@
    "country": "France",
    "continent": "Europe",
    "subregion": "Western Europe",
-   "dishes": 137,
+   "dishes": 138,
    "walter": 3.91,
    "debt": 0,
    "gaps": []

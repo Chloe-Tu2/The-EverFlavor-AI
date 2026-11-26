@@ -1,6 +1,6 @@
 # Story recovery (Q2, 2026-11-25)
 
-32 countries have no dish story (no sentence from a History, Origin, Culture or similar section). For 1 of them a dish already carries sourced material that could become one: a history sentence in its own Wikipedia intro, or Wikidata facts (inception, inventor, named after, heritage). From `scripts/knowledge/story_recovery.py`. **Audit only:** nothing is written as a story; the full queue is `data/knowledge/quality/story_recovery_queue.json`.
+33 countries have no dish story (no sentence from a History, Origin, Culture or similar section). For 1 of them a dish already carries sourced material that could become one: a history sentence in its own Wikipedia intro, or Wikidata facts (inception, inventor, named after, heritage). From `scripts/knowledge/story_recovery.py`. **Audit only:** nothing is written as a story; the full queue is `data/knowledge/quality/story_recovery_queue.json`.
 
 How the material can be used: an intro sentence is already shown as the dish summary, so turning it into a story needs a person's yes (or a rule change that counts intro history as a story, a review item). Countries with no material need their dishes' articles read again or a new source.
 
@@ -23,6 +23,7 @@ How the material can be used: an intro sentence is already shown as the dish sum
 | Libya | 4 | 0 | none: needs a new source |
 | Malawi | 1 | 0 | none: needs a new source |
 | Mali | 2 | 0 | none: needs a new source |
+| Marshall Islands | 1 | 0 | none: needs a new source |
 | Mauritania | 1 | 0 | none: needs a new source |
 | Montenegro | 1 | 1 | Njeguški pršut: {"named_after": ["Njegu\u0161i"]} |
 | Mozambique | 1 | 0 | none: needs a new source |

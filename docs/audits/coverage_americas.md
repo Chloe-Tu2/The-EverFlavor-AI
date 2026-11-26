@@ -62,7 +62,7 @@ Back to [world coverage](coverage_world.md).
 
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| United States | high | 395 | 334 | 112 | 297 | 131,095 | 146 | 73% |
+| United States | high | 395 | 334 | 112 | 297 | 131,095 | 153 | 72% |
 | Canada | high | 92 | 74 | 49 | 72 | 4,577 | 20 | 82% |
 
 ## Not in the place tree yet
@@ -76,7 +76,7 @@ Back to [world coverage](coverage_world.md).
 
 ## Countries with the most to add
 
-- **United States** (high; 146 ready, 0 to review): Devil's food cake, sushi burrito, slider, sausage bread, peanut butter cup, mozzarella stick, monkey bread, crackling bread.
+- **United States** (high; 153 ready, 0 to review): Devil's food cake, sushi burrito, slider, sausage bread, peanut butter cup, mozzarella stick, monkey bread, crackling bread.
 - **Canada** (high; 20 ready, 0 to review): Pied-De-Vent, Le Douanier, Friulano, Dragon's Breath Blue, sour cream doughnut, prawn soup, pizza cake, moon mist.
 - **Mexico** (high; 13 ready, 2 to review): wrap, wheat tortilla, poblano, hebra cheese, chocolate sandwich, chilhuacle negro, Sinaloan sushi, Queso Chihuahua.
 - **Peru** (medium; 10 ready, 1 to review): butifarra, arroz zambito, Sopa teologa, Shikashika, Kola Real, King Kong milk candy, Guagua de pan, Empanadilla.

@@ -7,7 +7,7 @@ Read from the Global Culinary Atlas files (`data/knowledge/atlas/`, regions from
 | Africa | 60 | 40 | 273 | 2,600 | 40.8 | thin |
 | Americas | 57 | 36 | 943 | 148,888 | 47.8 | thin |
 | Asia | 51 | 45 | 1,585 | 21,394 | 76.6 | good |
-| Europe | 53 | 40 | 1,592 | 50,001 | 87.7 | good |
+| Europe | 53 | 42 | 1,599 | 50,001 | 89.6 | good |
 | Oceania | 29 | 8 | 86 | 3,142 | 17.5 | gap |
 
 ## Africa
@@ -26,7 +26,7 @@ Recipes but no dish page: Namibia.
 
 ## Americas
 
-36 of 57 countries and territories have a dish; 2 have recipes but no dish page; 128 versions of dishes we have are missing; the backlog holds 59 blocked, 7 needs review, 214 ready.
+36 of 57 countries and territories have a dish; 2 have recipes but no dish page; 128 versions of dishes we have are missing; the backlog holds 59 blocked, 7 needs review, 221 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
@@ -51,13 +51,13 @@ Recipes but no dish page: Aruba, Cayman Islands.
 
 ## Europe
 
-40 of 53 countries and territories have a dish; 0 have recipes but no dish page; 297 versions of dishes we have are missing; the backlog holds 67 blocked, 54 needs review, 680 ready.
+42 of 53 countries and territories have a dish; 0 have recipes but no dish page; 296 versions of dishes we have are missing; the backlog holds 68 blocked, 53 needs review, 685 ready.
 
 | Subregion | Countries | With dishes | Dishes | Score | Band |
 |---|---:|---:|---:|---:|---:|
-| Southern Europe | 17 | 13 | 662 | 65.7 | fair |
+| Southern Europe | 17 | 14 | 663 | 63.7 | fair |
 | Northern Europe | 17 | 10 | 288 | 79.4 | good |
-| Western Europe | 9 | 7 | 373 | 88.9 | good |
+| Western Europe | 9 | 8 | 379 | 94.4 | good |
 | Eastern Europe | 10 | 10 | 269 | 95.0 | good |
 
 ## Oceania

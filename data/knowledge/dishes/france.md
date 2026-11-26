@@ -1221,6 +1221,34 @@ Learn more:
 
 Sources: [Wikidata](https://www.wikidata.org/wiki/Q548319) (CC0); [Wikipedia: Kouign-amann](https://en.wikipedia.org/wiki/Kouign-amann) (CC BY-SA 4.0). Review: auto-cleaned.
 
+### Lemon tart
+
+A lemon tart is a French dessert dish, a variety of tart.
+
+- From: France
+- Origin (Wikidata): France
+- Ingredients (Wikidata): sugar, egg yolk, lemon
+
+Fun facts:
+
+- (history) The first lemon tart recipes began to emerge in the 18th century, when lemon-based tarts appeared in French cookbooks.
+- (about) In the United Kingdom, lemon tart consists of a pastry case (often made in a fluted tart tin) containing a baked lemon custard (usually composed of eggs, sugar, lemon juice and cream).
+- (culture) Contrary to popular belief, the classic French tarte au citron does not traditionally include a meringue topping.
+
+More fun facts (when the user asks for more):
+
+- (origin) Lemon tart comes from France.
+
+Learn more:
+
+- quick: [Lemon tart (Wikipedia)](https://en.wikipedia.org/wiki/Lemon_tart)
+- more: [Monégasque cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mon%C3%A9gasque_cuisine)
+- more: [Cuisine of Monaco (Wikipedia)](https://en.wikipedia.org/wiki/Cuisine_of_Monaco)
+- deep: [Books about Lemon tart (Open Library)](https://openlibrary.org/search?q=Lemon%20tart)
+- deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q6521367)
+
+Sources: [Wikidata](https://www.wikidata.org/wiki/Q6521367) (CC0); [Wikipedia: Lemon tart](https://en.wikipedia.org/wiki/Lemon_tart) (CC BY-SA 4.0). Review: auto-cleaned.
+
 ### Macaroon
 
 A macaroon is a small cake or cookie, originally made from ground almonds, egg whites, and sugar, but now often with coconut or other nuts.
@@ -1549,6 +1577,7 @@ Learn more:
 
 - quick: [Pan bagnat (Wikipedia)](https://en.wikipedia.org/wiki/Pan_bagnat)
 - more: [List of French dishes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_French_dishes)
+- more: [Monégasque cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Mon%C3%A9gasque_cuisine)
 - deep: [Books about Pan bagnat (Open Library)](https://openlibrary.org/search?q=Pan%20bagnat)
 - deep: [All recorded facts (Wikidata)](https://www.wikidata.org/wiki/Q2919135)
 

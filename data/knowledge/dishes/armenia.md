@@ -195,7 +195,7 @@ Nazook, nazuk or nazouk, is the name of a rolled Armenian dessert made from flou
 
 - From: Armenia
 - Origin (Wikidata): Armenia
-- Ingredients (Wikidata): butter, flour, yeast, egg as food, smetana, white sugar
+- Ingredients (Wikidata): white sugar, butter, flour, yeast, egg as food, smetana
 
 Fun facts:
 

@@ -263,7 +263,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q86948682) (CC0); [Wikipedia: 
 Shorshe ilish is a Bengali dish, native to the Bengal region of South Asia, made from hilsa or Tenualosa ilisha, a type of herring, cooked in mustard gravy.
 
 - From: Bangladesh
-- Ingredients (Wikidata): table salt, mustard, mustard oil, Tenualosa ilisha
+- Ingredients (Wikidata): mustard, mustard oil, Tenualosa ilisha, table salt
 
 Fun facts:
 

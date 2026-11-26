@@ -12,8 +12,10 @@
   "Greece",
   "Italy",
   "Malta",
+  "Monaco",
   "Montenegro",
   "Portugal",
+  "San Marino",
   "Slovenia",
   "Spain"
  ],
@@ -26,15 +28,17 @@
   "Greece",
   "Italy",
   "Malta",
+  "Monaco",
   "Montenegro",
   "Portugal",
+  "San Marino",
   "Slovenia",
   "Spain"
  ],
- "coverage_score": 83.9,
- "dish_count": 680,
- "food_and_drink_count": 437,
- "story_count": 498,
+ "coverage_score": 81.1,
+ "dish_count": 684,
+ "food_and_drink_count": 438,
+ "story_count": 499,
  "representative_dishes": [
   "Croissant",
   "Waffle",
@@ -53,7 +57,7 @@
   "cow's-milk cheese",
   "confectionery",
   "stew",
-  "cake"
+  "bread"
  ],
  "indigenous_traditions": [],
  "related_regions": [

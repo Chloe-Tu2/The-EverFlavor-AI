@@ -2,11 +2,11 @@
 
 Done, waiting on a person, open for Claude, per release gate in the planner. From `scripts/knowledge/atlas_health.py`.
 
-### 0.8.0: 4 of 9 conditions done
+### 0.8.0: 5 of 9 conditions done
 
 | Area | Condition | Readiness |
 |---|---:|---:|
-| Coverage | Coverage counting rule confirmed (review item 21), then world coverage shown in the app | waiting on a person |
+| Coverage | Coverage counting rule confirmed (review item 21), then world coverage shown in the app | done |
 | Coverage | README dashboard (with exact counts), metrics and sprint impact reports generated automatically | done |
 | Images | Staged photos signed off (the 72 passed contact sheets), then linked: about 203 dishes become rich | waiting on a person |
 | Images | Cuisine image fallbacks, checked by a person | waiting on a person |

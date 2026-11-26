@@ -47,13 +47,18 @@ OTHER_SOURCES = [
 ]
 
 
+NATIONAL_ADJECTIVES = {"Congo": "Congolese", "Democratic Republic of the Congo": "Congolese"}
+
+
 def regional(label: str, country: str) -> bool:
     """Whether a cuisine item may be a food region of the country: a named "cuisine of X" or "X cuisine" that is
     not the national cuisine ("Kenyan cuisine", "Cuisine of Kenya", "Kenya cuisine") and has an English label."""
     low = label.lower()
-    adj = (fk.APP_COUNTRIES.get(country) or "").lower()
+    # the fetch's name forms, and adjectives they miss ("Congolese cuisine" is Congo's national cuisine)
+    adjs = {(fk.APP_COUNTRIES.get(country) or "").lower(), (fk.ATLAS_SPRINT_COUNTRIES.get(country) or "").lower(),
+            NATIONAL_ADJECTIVES.get(country, "").lower()} - {""}
     national = {f"cuisine of {country.lower()}", f"cuisine of the {country.lower()}", f"{country.lower()} cuisine",
-                f"{adj} cuisine"}
+                *(f"{a} cuisine" for a in adjs)}
     return (low.startswith("cuisine of ") or low.endswith(" cuisine")) and low not in national \
         and not re.fullmatch(r"q\d+", low)
 

@@ -1482,7 +1482,7 @@ Sources: [Wikidata](https://www.wikidata.org/wiki/Q2537880) (CC0); [Wikipedia: B
 Cabrales is a blue cheese made in the artisan tradition by rural dairy farmers in Asturias, Spain.
 
 - From: Spain
-- Origin (Wikidata): Spain
+- Origin (Wikidata): Asturias
 - Named after: Cabrales
 - Ingredients (Wikidata): sheep milk, milk
 
@@ -1494,7 +1494,7 @@ Fun facts:
 
 More fun facts (when the user asks for more):
 
-- (origin) Cabrales cheese comes from Spain.
+- (origin) Cabrales cheese comes from Asturias.
 
 Learn more:
 
