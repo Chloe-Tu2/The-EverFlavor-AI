@@ -6,9 +6,9 @@
    "country": "Andorra",
    "dish": "Trinxat",
    "qid": "Q3539309",
-   "intro_history": "",
+   "intro_history": "Trinxat (Catalan pronunciation: [tɾiɲˈʃat]) is a food from the Pyrenees, principally Andorra and the Catalan comarques of Cerdanya and Alt Urgell.",
    "wikidata_facts": {},
-   "has_material": false
+   "has_material": true
   },
   {
    "country": "Barbados",
@@ -22,9 +22,9 @@
    "country": "Belize",
    "dish": "Bile up",
    "qid": "Q4938317",
-   "intro_history": "",
+   "intro_history": "The bile up (or boil-up) is considered the cultural dish of the Kriols of Belize.",
    "wikidata_facts": {},
-   "has_material": false
+   "has_material": true
   },
   {
    "country": "Bosnia and Herzegovina",
@@ -46,22 +46,22 @@
    "country": "Cape Verde",
    "dish": "Cachupa",
    "qid": "Q2060858",
-   "intro_history": "",
+   "intro_history": "Cachupa (Portuguese pronunciation: [kɐˈʃupɐ], Kabuverdianu: Katxupa [kɐˈtʃupɐ]) is a dish from the Cape Verde islands, West Africa.",
    "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Central African Republic",
-   "dish": "Gnetum africanum",
-   "qid": "Q5574228",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
+   "has_material": true
   },
   {
    "country": "Central African Republic",
    "dish": "Maboké",
    "qid": "Q16888187",
+   "intro_history": "Maboké is a dish from Central Africa.",
+   "wikidata_facts": {},
+   "has_material": true
+  },
+  {
+   "country": "Central African Republic",
+   "dish": "Gnetum africanum",
+   "qid": "Q5574228",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false
@@ -140,6 +140,14 @@
   },
   {
    "country": "Guam",
+   "dish": "Kelaguen",
+   "qid": "Q6385448",
+   "intro_history": "Kelaguen is a Chamorro dish from the Mariana Islands eaten as a side dish or as a main course.",
+   "wikidata_facts": {},
+   "has_material": true
+  },
+  {
+   "country": "Guam",
    "dish": "Guyuria",
    "qid": "Q5622888",
    "intro_history": "",
@@ -150,14 +158,6 @@
    "country": "Guam",
    "dish": "Kalamai (dessert)",
    "qid": "Q3192094",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Guam",
-   "dish": "Kelaguen",
-   "qid": "Q6385448",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false
@@ -180,6 +180,14 @@
   },
   {
    "country": "Libya",
+   "dish": "Taguella",
+   "qid": "Q1417997",
+   "intro_history": "Taguella (tagǝlla) is a flatbread, the staple dish of Tuareg people living in the Sahara.",
+   "wikidata_facts": {},
+   "has_material": true
+  },
+  {
+   "country": "Libya",
    "dish": "Bazin (bread)",
    "qid": "Q4164571",
    "intro_history": "",
@@ -190,14 +198,6 @@
    "country": "Libya",
    "dish": "Mafrum",
    "qid": "Q6585018",
-   "intro_history": "",
-   "wikidata_facts": {},
-   "has_material": false
-  },
-  {
-   "country": "Libya",
-   "dish": "Taguella",
-   "qid": "Q1417997",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false
@@ -220,16 +220,16 @@
   },
   {
    "country": "Mali",
-   "dish": "Ngome (bread)",
-   "qid": "Q7022523",
-   "intro_history": "",
+   "dish": "Taguella",
+   "qid": "Q1417997",
+   "intro_history": "Taguella (tagǝlla) is a flatbread, the staple dish of Tuareg people living in the Sahara.",
    "wikidata_facts": {},
-   "has_material": false
+   "has_material": true
   },
   {
    "country": "Mali",
-   "dish": "Taguella",
-   "qid": "Q1417997",
+   "dish": "Ngome (bread)",
+   "qid": "Q7022523",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false
@@ -246,6 +246,22 @@
    "country": "Mauritania",
    "dish": "Boulaghmane",
    "qid": "Q12199101",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Monaco",
+   "dish": "Barbajuan",
+   "qid": "Q2294743",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "Monaco",
+   "dish": "U Pan de Natale",
+   "qid": "Q97166855",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false
@@ -274,17 +290,17 @@
    "country": "Northern Mariana Islands",
    "dish": "Kelaguen",
    "qid": "Q6385448",
-   "intro_history": "",
+   "intro_history": "Kelaguen is a Chamorro dish from the Mariana Islands eaten as a side dish or as a main course.",
    "wikidata_facts": {},
-   "has_material": false
+   "has_material": true
   },
   {
    "country": "Rwanda",
    "dish": "Isombe",
    "qid": "Q134817183",
-   "intro_history": "",
+   "intro_history": "Isombe is a vegetable stew dish from Rwanda.",
    "wikidata_facts": {},
-   "has_material": false
+   "has_material": true
   },
   {
    "country": "Saint Lucia",
@@ -298,6 +314,14 @@
    "country": "Samoa",
    "dish": "Poi (dessert)",
    "qid": "Q65049504",
+   "intro_history": "",
+   "wikidata_facts": {},
+   "has_material": false
+  },
+  {
+   "country": "San Marino",
+   "dish": "Torta Tre Monti",
+   "qid": "Q3995799",
    "intro_history": "",
    "wikidata_facts": {},
    "has_material": false

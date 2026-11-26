@@ -12,7 +12,7 @@
   "dishes": "data/knowledge/coverage/ (Wikidata, our knowledge notebook)"
  },
  "rule": "Up to NEXT_SIZE ready dishes: a family we have first, then two sources, at most PER_COUNTRY_CAP per country, taking turns between subregions and, inside each, between countries.",
- "count": 5,
+ "count": 6,
  "dishes": [
   {
    "dish": "Patties pie",
@@ -55,6 +55,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Latiya_(dessert)",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Goody good gum drops",
+   "wikidata": "Q123142484",
+   "country": "New Zealand",
+   "subregion": "Australasia",
+   "families": [
+    "ice cream"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q123142484",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-25"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Goody_Goody_Gum_Drops",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

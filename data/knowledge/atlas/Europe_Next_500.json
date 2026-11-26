@@ -4627,23 +4627,23 @@
    ]
   },
   {
-   "dish": "merveilleux",
-   "wikidata": "Q18595468",
-   "country": "Belgium",
+   "dish": "Vienna sausage",
+   "wikidata": "Q327316",
+   "country": "Austria",
    "subregion": "Western Europe",
    "families": [
-    "cake"
+    "Brühwurst"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q18595468",
+     "url": "https://www.wikidata.org/wiki/Q327316",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Merveilleux_(dessert)",
+     "url": "https://en.wikipedia.org/wiki/Vienna_sausage",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4696,24 +4696,23 @@
    ]
   },
   {
-   "dish": "Mendiant",
-   "wikidata": "Q15955973",
-   "country": "France",
+   "dish": "merveilleux",
+   "wikidata": "Q18595468",
+   "country": "Belgium",
    "subregion": "Western Europe",
    "families": [
-    "cake",
-    "sweetmeat"
+    "cake"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q15955973",
+     "url": "https://www.wikidata.org/wiki/Q18595468",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mendiant",
+     "url": "https://en.wikipedia.org/wiki/Merveilleux_(dessert)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4766,24 +4765,24 @@
    ]
   },
   {
-   "dish": "Kottenbutter",
-   "wikidata": "Q895678",
-   "country": "Germany",
+   "dish": "Mendiant",
+   "wikidata": "Q15955973",
+   "country": "France",
    "subregion": "Western Europe",
    "families": [
-    "sandwich",
-    "open sandwich"
+    "cake",
+    "sweetmeat"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q895678",
+     "url": "https://www.wikidata.org/wiki/Q15955973",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Kottenbutter",
+     "url": "https://en.wikipedia.org/wiki/Mendiant",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4837,24 +4836,24 @@
    ]
   },
   {
-   "dish": "crompouce",
-   "wikidata": "Q123457994",
-   "country": "Netherlands",
+   "dish": "Kottenbutter",
+   "wikidata": "Q895678",
+   "country": "Germany",
    "subregion": "Western Europe",
    "families": [
-    "pastry",
-    "viennoiserie"
+    "sandwich",
+    "open sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q123457994",
+     "url": "https://www.wikidata.org/wiki/Q895678",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Crompouce",
+     "url": "https://en.wikipedia.org/wiki/Kottenbutter",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4907,24 +4906,24 @@
    ]
   },
   {
-   "dish": "Appenzeller cheese",
-   "wikidata": "Q620951",
-   "country": "Switzerland",
+   "dish": "crompouce",
+   "wikidata": "Q123457994",
+   "country": "Netherlands",
    "subregion": "Western Europe",
    "families": [
-    "cow's-milk cheese",
-    "pressed cooked cheese"
+    "pastry",
+    "viennoiserie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q620951",
+     "url": "https://www.wikidata.org/wiki/Q123457994",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Appenzeller_cheese",
+     "url": "https://en.wikipedia.org/wiki/Crompouce",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -4978,23 +4977,24 @@
    ]
   },
   {
-   "dish": "pistolet",
-   "wikidata": "Q2782605",
-   "country": "Belgium",
+   "dish": "Appenzeller cheese",
+   "wikidata": "Q620951",
+   "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "bread roll"
+    "cow's-milk cheese",
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2782605",
+     "url": "https://www.wikidata.org/wiki/Q620951",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pistolet_(bread)",
+     "url": "https://en.wikipedia.org/wiki/Appenzeller_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5047,23 +5047,23 @@
    ]
   },
   {
-   "dish": "Navarin",
-   "wikidata": "Q2718037",
-   "country": "France",
+   "dish": "pistolet",
+   "wikidata": "Q2782605",
+   "country": "Belgium",
    "subregion": "Western Europe",
    "families": [
-    "stew"
+    "bread roll"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2718037",
+     "url": "https://www.wikidata.org/wiki/Q2782605",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Navarin_(food)",
+     "url": "https://en.wikipedia.org/wiki/Pistolet_(bread)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5117,23 +5117,23 @@
    ]
   },
   {
-   "dish": "Leipziger Lerche",
-   "wikidata": "Q453741",
-   "country": "Germany",
+   "dish": "Navarin",
+   "wikidata": "Q2718037",
+   "country": "France",
    "subregion": "Western Europe",
    "families": [
-    "pastry"
+    "stew"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q453741",
+     "url": "https://www.wikidata.org/wiki/Q2718037",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Leipziger_Lerche",
+     "url": "https://en.wikipedia.org/wiki/Navarin_(food)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5187,24 +5187,23 @@
    ]
   },
   {
-   "dish": "currant bun",
-   "wikidata": "Q106680422",
-   "country": "Netherlands",
+   "dish": "Leipziger Lerche",
+   "wikidata": "Q453741",
+   "country": "Germany",
    "subregion": "Western Europe",
    "families": [
-    "bread roll",
-    "sweet roll"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q106680422",
+     "url": "https://www.wikidata.org/wiki/Q453741",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Currant_bun",
+     "url": "https://en.wikipedia.org/wiki/Leipziger_Lerche",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5257,24 +5256,24 @@
    ]
   },
   {
-   "dish": "Berner Alpkäse",
-   "wikidata": "Q689886",
-   "country": "Switzerland",
+   "dish": "currant bun",
+   "wikidata": "Q106680422",
+   "country": "Netherlands",
    "subregion": "Western Europe",
    "families": [
-    "cow's-milk cheese",
-    "pressed cooked cheese"
+    "bread roll",
+    "sweet roll"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q689886",
+     "url": "https://www.wikidata.org/wiki/Q106680422",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Berner_Alpk%C3%A4se",
+     "url": "https://en.wikipedia.org/wiki/Currant_bun",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5327,23 +5326,24 @@
    ]
   },
   {
-   "dish": "ruby chocolate",
-   "wikidata": "Q42417413",
-   "country": "Belgium",
+   "dish": "Berner Alpkäse",
+   "wikidata": "Q689886",
+   "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "chocolate"
+    "cow's-milk cheese",
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q42417413",
+     "url": "https://www.wikidata.org/wiki/Q689886",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Ruby_chocolate",
+     "url": "https://en.wikipedia.org/wiki/Berner_Alpk%C3%A4se",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5396,23 +5396,23 @@
    ]
   },
   {
-   "dish": "Paris–Brest",
-   "wikidata": "Q1137495",
-   "country": "France",
+   "dish": "ruby chocolate",
+   "wikidata": "Q42417413",
+   "country": "Belgium",
    "subregion": "Western Europe",
    "families": [
-    "pastry"
+    "chocolate"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1137495",
+     "url": "https://www.wikidata.org/wiki/Q42417413",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Paris%E2%80%93Brest",
+     "url": "https://en.wikipedia.org/wiki/Ruby_chocolate",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5465,23 +5465,23 @@
    ]
   },
   {
-   "dish": "Mutschel",
-   "wikidata": "Q473662",
-   "country": "Germany",
+   "dish": "Paris–Brest",
+   "wikidata": "Q1137495",
+   "country": "France",
    "subregion": "Western Europe",
    "families": [
-    "bread"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q473662",
+     "url": "https://www.wikidata.org/wiki/Q1137495",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Mutschel",
+     "url": "https://en.wikipedia.org/wiki/Paris%E2%80%93Brest",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5534,24 +5534,23 @@
    ]
   },
   {
-   "dish": "nonnevot",
-   "wikidata": "Q2457672",
-   "country": "Netherlands",
+   "dish": "Mutschel",
+   "wikidata": "Q473662",
+   "country": "Germany",
    "subregion": "Western Europe",
    "families": [
-    "pastry",
-    "doughnut"
+    "bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2457672",
+     "url": "https://www.wikidata.org/wiki/Q473662",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Nonnevot",
+     "url": "https://en.wikipedia.org/wiki/Mutschel",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5604,23 +5603,24 @@
    ]
   },
   {
-   "dish": "Birnenhonig",
-   "wikidata": "Q688719",
-   "country": "Switzerland",
+   "dish": "nonnevot",
+   "wikidata": "Q2457672",
+   "country": "Netherlands",
    "subregion": "Western Europe",
    "families": [
-    "spread"
+    "pastry",
+    "doughnut"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q688719",
+     "url": "https://www.wikidata.org/wiki/Q2457672",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Birnenhonig",
+     "url": "https://en.wikipedia.org/wiki/Nonnevot",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5673,23 +5673,23 @@
    ]
   },
   {
-   "dish": "Black Russian",
-   "wikidata": "Q1071506",
-   "country": "Belgium",
+   "dish": "Birnenhonig",
+   "wikidata": "Q688719",
+   "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "coffee drink"
+    "spread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q1071506",
+     "url": "https://www.wikidata.org/wiki/Q688719",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Black_Russian",
+     "url": "https://en.wikipedia.org/wiki/Birnenhonig",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5742,23 +5742,23 @@
    ]
   },
   {
-   "dish": "Paupiette",
-   "wikidata": "Q4273466",
-   "country": "France",
+   "dish": "Black Russian",
+   "wikidata": "Q1071506",
+   "country": "Belgium",
    "subregion": "Western Europe",
    "families": [
-    "roulade"
+    "coffee drink"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q4273466",
+     "url": "https://www.wikidata.org/wiki/Q1071506",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Paupiette",
+     "url": "https://en.wikipedia.org/wiki/Black_Russian",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5811,23 +5811,23 @@
    ]
   },
   {
-   "dish": "Panhas",
-   "wikidata": "Q130465645",
-   "country": "Germany",
+   "dish": "Paupiette",
+   "wikidata": "Q4273466",
+   "country": "France",
    "subregion": "Western Europe",
    "families": [
-    "blood sausage"
+    "roulade"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q130465645",
+     "url": "https://www.wikidata.org/wiki/Q4273466",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Panhas",
+     "url": "https://en.wikipedia.org/wiki/Paupiette",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5880,23 +5880,23 @@
    ]
   },
   {
-   "dish": "speculaas biscuit",
-   "wikidata": "Q6591",
-   "country": "Netherlands",
+   "dish": "Panhas",
+   "wikidata": "Q130465645",
+   "country": "Germany",
    "subregion": "Western Europe",
    "families": [
-    "biscuit"
+    "blood sausage"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6591",
+     "url": "https://www.wikidata.org/wiki/Q130465645",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Speculaas",
+     "url": "https://en.wikipedia.org/wiki/Panhas",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -5950,23 +5950,23 @@
    ]
   },
   {
-   "dish": "Bleuchâtel",
-   "wikidata": "Q2906530",
-   "country": "Switzerland",
+   "dish": "speculaas biscuit",
+   "wikidata": "Q6591",
+   "country": "Netherlands",
    "subregion": "Western Europe",
    "families": [
-    "blue cheese"
+    "biscuit"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2906530",
+     "url": "https://www.wikidata.org/wiki/Q6591",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bleuch%C3%A2tel",
+     "url": "https://en.wikipedia.org/wiki/Speculaas",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6019,23 +6019,23 @@
    ]
   },
   {
-   "dish": "Brussels cheese",
-   "wikidata": "Q3088322",
-   "country": "Belgium",
+   "dish": "Bleuchâtel",
+   "wikidata": "Q2906530",
+   "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "cheese"
+    "blue cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3088322",
+     "url": "https://www.wikidata.org/wiki/Q2906530",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Brussels_cheese",
+     "url": "https://en.wikipedia.org/wiki/Bleuch%C3%A2tel",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6090,23 +6090,23 @@
    ]
   },
   {
-   "dish": "Plombir",
-   "wikidata": "Q56411177",
-   "country": "France",
+   "dish": "Brussels cheese",
+   "wikidata": "Q3088322",
+   "country": "Belgium",
    "subregion": "Western Europe",
    "families": [
-    "ice cream"
+    "cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q56411177",
+     "url": "https://www.wikidata.org/wiki/Q3088322",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Plombir",
+     "url": "https://en.wikipedia.org/wiki/Brussels_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6159,23 +6159,23 @@
    ]
   },
   {
-   "dish": "Schneeball",
-   "wikidata": "Q2247208",
-   "country": "Germany",
+   "dish": "Plombir",
+   "wikidata": "Q56411177",
+   "country": "France",
    "subregion": "Western Europe",
    "families": [
-    "pastry"
+    "ice cream"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2247208",
+     "url": "https://www.wikidata.org/wiki/Q56411177",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Schneeball_(pastry)",
+     "url": "https://en.wikipedia.org/wiki/Plombir",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6229,23 +6229,23 @@
    ]
   },
   {
-   "dish": "tompouce",
-   "wikidata": "Q17137076",
-   "country": "Netherlands",
+   "dish": "Schneeball",
+   "wikidata": "Q2247208",
+   "country": "Germany",
    "subregion": "Western Europe",
    "families": [
-    "mille-feuille"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q17137076",
+     "url": "https://www.wikidata.org/wiki/Q2247208",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tompouce",
+     "url": "https://en.wikipedia.org/wiki/Schneeball_(pastry)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6298,23 +6298,23 @@
    ]
   },
   {
-   "dish": "Café de Paris sauce",
-   "wikidata": "Q679768",
-   "country": "Switzerland",
+   "dish": "tompouce",
+   "wikidata": "Q17137076",
+   "country": "Netherlands",
    "subregion": "Western Europe",
    "families": [
-    "sauce"
+    "mille-feuille"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q679768",
+     "url": "https://www.wikidata.org/wiki/Q17137076",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Paris_sauce",
+     "url": "https://en.wikipedia.org/wiki/Tompouce",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6367,23 +6367,23 @@
    ]
   },
   {
-   "dish": "Passendale cheese",
-   "wikidata": "Q978133",
-   "country": "Belgium",
+   "dish": "Café de Paris sauce",
+   "wikidata": "Q679768",
+   "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "pressed half-cooked cheese"
+    "sauce"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q978133",
+     "url": "https://www.wikidata.org/wiki/Q679768",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Passendale_cheese",
+     "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Paris_sauce",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6436,23 +6436,23 @@
    ]
   },
   {
-   "dish": "Plombières",
-   "wikidata": "Q3108252",
-   "country": "France",
+   "dish": "Passendale cheese",
+   "wikidata": "Q978133",
+   "country": "Belgium",
    "subregion": "Western Europe",
    "families": [
-    "ice cream"
+    "pressed half-cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3108252",
+     "url": "https://www.wikidata.org/wiki/Q978133",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Plombi%C3%A8res_(dessert)",
+     "url": "https://en.wikipedia.org/wiki/Passendale_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6506,23 +6506,23 @@
    ]
   },
   {
-   "dish": "Schuxen",
-   "wikidata": "Q2252452",
-   "country": "Germany",
+   "dish": "Plombières",
+   "wikidata": "Q3108252",
+   "country": "France",
    "subregion": "Western Europe",
    "families": [
-    "pastry"
+    "ice cream"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2252452",
+     "url": "https://www.wikidata.org/wiki/Q3108252",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Schuxen",
+     "url": "https://en.wikipedia.org/wiki/Plombi%C3%A8res_(dessert)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6575,23 +6575,23 @@
    ]
   },
   {
-   "dish": "zwieback",
-   "wikidata": "Q2462111",
-   "country": "Netherlands",
+   "dish": "Schuxen",
+   "wikidata": "Q2252452",
+   "country": "Germany",
    "subregion": "Western Europe",
    "families": [
-    "bread roll"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2462111",
+     "url": "https://www.wikidata.org/wiki/Q2252452",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Russian_Mennonite_zwieback",
+     "url": "https://en.wikipedia.org/wiki/Schuxen",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6644,24 +6644,23 @@
    ]
   },
   {
-   "dish": "Gruyère",
-   "wikidata": "Q2376488",
-   "country": "Switzerland",
+   "dish": "zwieback",
+   "wikidata": "Q2462111",
+   "country": "Netherlands",
    "subregion": "Western Europe",
    "families": [
-    "cow's-milk cheese",
-    "pressed cooked cheese"
+    "bread roll"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2376488",
+     "url": "https://www.wikidata.org/wiki/Q2462111",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Gruy%C3%A8re",
+     "url": "https://en.wikipedia.org/wiki/Russian_Mennonite_zwieback",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6714,23 +6713,24 @@
    ]
   },
   {
-   "dish": "Remoudou",
-   "wikidata": "Q354021",
-   "country": "Belgium",
+   "dish": "Gruyère",
+   "wikidata": "Q2376488",
+   "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "washed-rind cheese"
+    "cow's-milk cheese",
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q354021",
+     "url": "https://www.wikidata.org/wiki/Q2376488",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Remoudou",
+     "url": "https://en.wikipedia.org/wiki/Gruy%C3%A8re",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6784,23 +6784,23 @@
    ]
   },
   {
-   "dish": "Puits d'amour",
-   "wikidata": "Q3410675",
-   "country": "France",
+   "dish": "Remoudou",
+   "wikidata": "Q354021",
+   "country": "Belgium",
    "subregion": "Western Europe",
    "families": [
-    "pastry"
+    "washed-rind cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3410675",
+     "url": "https://www.wikidata.org/wiki/Q354021",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Puits_d%27amour",
+     "url": "https://en.wikipedia.org/wiki/Remoudou",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6853,23 +6853,23 @@
    ]
   },
   {
-   "dish": "Stemmelkort",
-   "wikidata": "Q39045630",
-   "country": "Germany",
+   "dish": "Puits d'amour",
+   "wikidata": "Q3410675",
+   "country": "France",
    "subregion": "Western Europe",
    "families": [
-    "patty"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q39045630",
+     "url": "https://www.wikidata.org/wiki/Q3410675",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Stemmelkort",
+     "url": "https://en.wikipedia.org/wiki/Puits_d%27amour",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6922,24 +6922,23 @@
    ]
   },
   {
-   "dish": "Beemster cheese",
-   "wikidata": "Q25109679",
-   "country": "Netherlands",
+   "dish": "Stemmelkort",
+   "wikidata": "Q39045630",
+   "country": "Germany",
    "subregion": "Western Europe",
    "families": [
-    "cow's-milk cheese",
-    "Dutch cheese"
+    "patty"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q25109679",
+     "url": "https://www.wikidata.org/wiki/Q39045630",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Beemster_cheese",
+     "url": "https://en.wikipedia.org/wiki/Stemmelkort",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -6993,23 +6992,24 @@
    ]
   },
   {
-   "dish": "L'Étivaz",
-   "wikidata": "Q3099350",
-   "country": "Switzerland",
+   "dish": "Beemster cheese",
+   "wikidata": "Q25109679",
+   "country": "Netherlands",
    "subregion": "Western Europe",
    "families": [
-    "pressed cooked cheese"
+    "cow's-milk cheese",
+    "Dutch cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3099350",
+     "url": "https://www.wikidata.org/wiki/Q25109679",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/L%27Etivaz",
+     "url": "https://en.wikipedia.org/wiki/Beemster_cheese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7063,23 +7063,23 @@
    ]
   },
   {
-   "dish": "bolus",
-   "wikidata": "Q86732805",
-   "country": "Belgium",
+   "dish": "L'Étivaz",
+   "wikidata": "Q3099350",
+   "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "viennoiserie"
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q86732805",
+     "url": "https://www.wikidata.org/wiki/Q3099350",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Bolus_(Belgium)",
+     "url": "https://en.wikipedia.org/wiki/L%27Etivaz",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7132,23 +7132,23 @@
    ]
   },
   {
-   "dish": "Religieuse",
-   "wikidata": "Q55152",
-   "country": "France",
+   "dish": "bolus",
+   "wikidata": "Q86732805",
+   "country": "Belgium",
    "subregion": "Western Europe",
    "families": [
-    "pastry"
+    "viennoiserie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q55152",
+     "url": "https://www.wikidata.org/wiki/Q86732805",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Religieuse",
+     "url": "https://en.wikipedia.org/wiki/Bolus_(Belgium)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7201,23 +7201,23 @@
    ]
   },
   {
-   "dish": "Strammer Max",
-   "wikidata": "Q516212",
-   "country": "Germany",
+   "dish": "Religieuse",
+   "wikidata": "Q55152",
+   "country": "France",
    "subregion": "Western Europe",
    "families": [
-    "sandwich"
+    "pastry"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q516212",
+     "url": "https://www.wikidata.org/wiki/Q55152",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Strammer_Max",
+     "url": "https://en.wikipedia.org/wiki/Religieuse",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7270,24 +7270,23 @@
    ]
   },
   {
-   "dish": "Boerenkaas",
-   "wikidata": "Q966666",
-   "country": "Netherlands",
+   "dish": "Strammer Max",
+   "wikidata": "Q516212",
+   "country": "Germany",
    "subregion": "Western Europe",
    "families": [
-    "raw-milk cheese",
-    "Dutch cheese"
+    "sandwich"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q966666",
+     "url": "https://www.wikidata.org/wiki/Q516212",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Boerenkaas",
+     "url": "https://en.wikipedia.org/wiki/Strammer_Max",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7342,23 +7341,24 @@
    ]
   },
   {
-   "dish": "Mässmogge",
-   "wikidata": "Q6949994",
-   "country": "Switzerland",
+   "dish": "Boerenkaas",
+   "wikidata": "Q966666",
+   "country": "Netherlands",
    "subregion": "Western Europe",
    "families": [
-    "sugar candy"
+    "raw-milk cheese",
+    "Dutch cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q6949994",
+     "url": "https://www.wikidata.org/wiki/Q966666",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/M%C3%A4ssmogge",
+     "url": "https://en.wikipedia.org/wiki/Boerenkaas",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7411,23 +7411,23 @@
    ]
   },
   {
-   "dish": "vlaai",
-   "wikidata": "Q13220342",
-   "country": "Belgium",
+   "dish": "Mässmogge",
+   "wikidata": "Q6949994",
+   "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "sweet pie"
+    "sugar candy"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q13220342",
+     "url": "https://www.wikidata.org/wiki/Q6949994",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Vlaai",
+     "url": "https://en.wikipedia.org/wiki/M%C3%A4ssmogge",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7481,23 +7481,23 @@
    ]
   },
   {
-   "dish": "Salade cauchoise",
-   "wikidata": "Q3469460",
-   "country": "France",
+   "dish": "vlaai",
+   "wikidata": "Q13220342",
+   "country": "Belgium",
    "subregion": "Western Europe",
    "families": [
-    "salad"
+    "sweet pie"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3469460",
+     "url": "https://www.wikidata.org/wiki/Q13220342",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Salade_cauchoise",
+     "url": "https://en.wikipedia.org/wiki/Vlaai",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -7521,6 +7521,29 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Stornoway_black_pudding",
+     "licence": "CC BY-SA 4.0",
+     "credit": "Wikipedia contributors"
+    }
+   ]
+  },
+  {
+   "dish": "Salade cauchoise",
+   "wikidata": "Q3469460",
+   "country": "France",
+   "subregion": "Western Europe",
+   "families": [
+    "salad"
+   ],
+   "sources": [
+    {
+     "name": "Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3469460",
+     "licence": "CC0 1.0",
+     "retrieved": "2026-11-25"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Salade_cauchoise",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8043,23 +8066,23 @@
    ]
   },
   {
-   "dish": "Vienna sausage",
-   "wikidata": "Q327316",
+   "dish": "pane ticinese",
+   "wikidata": "Q2013754",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "Brühwurst"
+    "white bread"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q327316",
+     "url": "https://www.wikidata.org/wiki/Q2013754",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Vienna_sausage",
+     "url": "https://en.wikipedia.org/wiki/Pane_ticinese",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8135,23 +8158,23 @@
    ]
   },
   {
-   "dish": "pane ticinese",
-   "wikidata": "Q2013754",
+   "dish": "tomme",
+   "wikidata": "Q2164539",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "white bread"
+    "French cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2013754",
+     "url": "https://www.wikidata.org/wiki/Q2164539",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Pane_ticinese",
+     "url": "https://en.wikipedia.org/wiki/Tomme",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8229,8 +8252,8 @@
    ]
   },
   {
-   "dish": "tomme",
-   "wikidata": "Q2164539",
+   "dish": "vacherin",
+   "wikidata": "Q3553108",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
@@ -8239,13 +8262,13 @@
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q2164539",
+     "url": "https://www.wikidata.org/wiki/Q3553108",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Tomme",
+     "url": "https://en.wikipedia.org/wiki/Vacherin_(cheese)",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8322,23 +8345,24 @@
    ]
   },
   {
-   "dish": "vacherin",
-   "wikidata": "Q3553108",
+   "dish": "Șvaițer",
+   "wikidata": "Q3594600",
    "country": "Switzerland",
    "subregion": "Western Europe",
    "families": [
-    "French cheese"
+    "cheese",
+    "pressed cooked cheese"
    ],
    "sources": [
     {
      "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3553108",
+     "url": "https://www.wikidata.org/wiki/Q3594600",
      "licence": "CC0 1.0",
      "retrieved": "2026-11-25"
     },
     {
      "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Vacherin_(cheese)",
+     "url": "https://en.wikipedia.org/wiki/%C8%98vai%C8%9Ber",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }
@@ -8408,30 +8432,6 @@
     {
      "name": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Kerststol",
-     "licence": "CC BY-SA 4.0",
-     "credit": "Wikipedia contributors"
-    }
-   ]
-  },
-  {
-   "dish": "Șvaițer",
-   "wikidata": "Q3594600",
-   "country": "Switzerland",
-   "subregion": "Western Europe",
-   "families": [
-    "cheese",
-    "pressed cooked cheese"
-   ],
-   "sources": [
-    {
-     "name": "Wikidata",
-     "url": "https://www.wikidata.org/wiki/Q3594600",
-     "licence": "CC0 1.0",
-     "retrieved": "2026-11-25"
-    },
-    {
-     "name": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/%C8%98vai%C8%9Ber",
      "licence": "CC BY-SA 4.0",
      "credit": "Wikipedia contributors"
     }

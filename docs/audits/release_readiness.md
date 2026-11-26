@@ -2,7 +2,7 @@
 
 Done, waiting on a person, open for Claude, per release gate in the planner. From `scripts/knowledge/atlas_health.py`.
 
-### 0.8.0: 5 of 9 conditions done
+### 0.8.0: 6 of 9 conditions done
 
 | Area | Condition | Readiness |
 |---|---:|---:|
@@ -13,7 +13,7 @@ Done, waiting on a person, open for Claude, per release gate in the planner. Fro
 | Discovery | Related dishes in Check my recipe | done |
 | Discovery | Map cuisine tags for every country OpenStreetMap has a word for (50+ uses) | done |
 | Discovery | The store locator works (ZIP search, details, directions) | done |
-| Reviews | Items 24, 28, 29 and 30 (moved dishes, country scores, sprint entries) answered | waiting on a person |
+| Reviews | Items 24, 28, 29 and 30 (moved dishes, country scores, sprint entries) answered | done |
 | Release | CI green | last step |
 
 ### 0.9.0: 2 of 10 conditions done
@@ -35,8 +35,8 @@ Done, waiting on a person, open for Claude, per release gate in the planner. Fro
 
 | Target | Goal | Now | Readiness |
 |---|---:|---:|---:|
-| world culinary coverage (%) | >= 60% | 70.0% | done |
-| Africa coverage (%) | >= 50% | 52.8% | done |
-| Oceania coverage (%) | >= 35% | 33.8% | open |
+| world culinary coverage (%) | >= 60% | 70.6% | done |
+| Africa coverage (%) | >= 50% | 54.5% | done |
+| Oceania coverage (%) | >= 35% | 35.2% | done |
 
 Risks: most open 0.8 and 0.9 conditions wait on people; review time, not data, sets the pace. Every other 1.0 target (pages complete, Walter reviewed, no open critical item) waits on the reviews above.

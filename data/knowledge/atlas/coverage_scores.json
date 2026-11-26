@@ -52,7 +52,7 @@
    "depth": 0.65,
    "score": 76.6,
    "band": "good",
-   "dishes": 1585,
+   "dishes": 1586,
    "recipes": 21394
   },
   {
@@ -76,7 +76,7 @@
    "depth": 0.075,
    "score": 17.5,
    "band": "gap",
-   "dishes": 86,
+   "dishes": 83,
    "recipes": 3142
   }
  ],
@@ -375,7 +375,7 @@
    "depth": 0.6,
    "score": 71.7,
    "band": "fair",
-   "dishes": 258,
+   "dishes": 259,
    "recipes": 1254,
    "subregion": "Western Asia",
    "continent": "Asia",
@@ -482,17 +482,17 @@
    "countries": 6,
    "with_dishes": 2,
    "breadth": 0.333,
-   "median_dishes": 38.0,
+   "median_dishes": 36.5,
    "depth": 1.0,
    "score": 66.7,
    "band": "fair",
-   "dishes": 76,
+   "dishes": 73,
    "recipes": 3142,
    "subregion": "Australasia",
    "continent": "Oceania",
    "backlog": {
     "blocked": 3,
-    "ready": 4
+    "ready": 5
    },
    "countries_without_dishes": [
     "Christmas Island",
@@ -2258,11 +2258,11 @@
    "iso": "NZ",
    "continent": "Oceania",
    "subregion": "Australasia",
-   "dishes": 16,
+   "dishes": 13,
    "recipes": 384,
-   "families": 9,
-   "variants": 12,
-   "coverage": "medium"
+   "families": 6,
+   "variants": 7,
+   "coverage": "low"
   },
   {
    "country": "Nicaragua",
@@ -3281,7 +3281,7 @@
    "iso": "YE",
    "continent": "Asia",
    "subregion": "Western Asia",
-   "dishes": 8,
+   "dishes": 9,
    "recipes": 0,
    "families": 5,
    "variants": 7,

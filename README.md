@@ -74,12 +74,12 @@ Coverage is a score per country, averaged. The basic checks are three dishes, a 
 
 | Measure | Now | Exact numbers |
 |---|---:|---:|
-| World culinary coverage (%) | 70 | 165 of 200 countries have a dish; 115 pass every basic check |
-| Africa coverage (%) | 52.8 | 40 of 57 countries have a dish; 17 pass every basic check |
-| Americas coverage (%) | 72.9 | 35 of 39 countries have a dish; 22 pass every basic check |
+| World culinary coverage (%) | 70.6 | 165 of 200 countries have a dish; 117 pass every basic check |
+| Africa coverage (%) | 54.5 | 40 of 57 countries have a dish; 18 pass every basic check |
+| Americas coverage (%) | 73.4 | 35 of 39 countries have a dish; 22 pass every basic check |
 | Asia coverage (%) | 81.2 | 45 of 51 countries have a dish; 39 pass every basic check |
 | Europe coverage (%) | 87.8 | 39 of 41 countries have a dish; 35 pass every basic check |
-| Oceania coverage (%) | 33.8 | 6 of 12 countries have a dish; 2 pass every basic check |
+| Oceania coverage (%) | 35.2 | 6 of 12 countries have a dish; 3 pass every basic check |
 | Countries with a dish | 171 | of 200 CLDR countries and territories of 100,000 people or more; 164 of the 195 UN member and observer states |
 | Country pages | 168 | one readable page per country with an entry (notebook 11) |
 
@@ -87,9 +87,9 @@ Coverage is a score per country, averaged. The basic checks are three dishes, a 
 
 | Measure | Now |
 |---|---:|
-| Dish families and categories | 711 |
+| Dish families and categories | 710 |
 | Countries with three dishes or more | 130 |
-| Countries with a story | 136 |
+| Countries with a story | 145 |
 | Indigenous traditions tracked | 6 |
 
 Per country ([country_representation.md](docs/audits/country_representation.md)): a country with one dish is covered, not represented.
@@ -99,30 +99,30 @@ Per country ([country_representation.md](docs/audits/country_representation.md))
 | Countries | 200 |
 | Covered | 165 |
 | With three dishes or more | 130 |
-| Weak representation | 38 |
-| Representation (average of covered countries) | 65.4 |
+| Weak representation | 37 |
+| Representation (average of covered countries) | 67.1 |
 | Enrichment (average of covered countries) | 57.7 |
 
 ### Enrichment
 
 | Measure | Now |
 |---|---:|
-| Entries with a story (History or Origin sentences) | 2,761 |
-| Entries with a Wikidata origin | 4,195 |
-| Entries linked to a family | 3,782 |
+| Entries with a story (History or Origin sentences) | 2,758 |
+| Entries with a Wikidata origin | 4,194 |
+| Entries linked to a family | 3,779 |
 | Entries with a culinary region | 644 |
-| Rich dishes | 532 |
-| Fair dishes | 1,491 |
-| Thin dishes | 1,848 |
+| Rich dishes | 531 |
+| Fair dishes | 1,490 |
+| Thin dishes | 1,847 |
 | Entries with an Indigenous tradition | 29 |
 
 ### Recovery since the atlas sprints began
 
 | Measure | Before | Now |
 |---|---:|---:|
-| World culinary coverage (%) | 24.7 | 70 |
-| Africa coverage (%) | 6.9 | 52.8 |
-| Oceania coverage (%) | 14.7 | 33.8 |
+| World culinary coverage (%) | 24.7 | 70.6 |
+| Africa coverage (%) | 6.9 | 54.5 |
+| Oceania coverage (%) | 14.7 | 35.2 |
 | Countries with a dish | 96 | 171 |
 | Country pages | 54 | 168 |
 

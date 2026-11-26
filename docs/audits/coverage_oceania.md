@@ -9,7 +9,7 @@ Back to [world coverage](coverage_world.md).
 | Country | Coverage | Dishes | With recipes | Families | Variants | Recipes | Missing | Share |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Australia | high | 60 | 40 | 30 | 48 | 2,758 | 4 | 94% |
-| New Zealand | medium | 16 | 7 | 9 | 12 | 384 | 0 | 100% |
+| New Zealand | low | 13 | 7 | 6 | 7 | 384 | 1 | 93% |
 
 ## Melanesia
 
@@ -48,4 +48,5 @@ Back to [world coverage](coverage_world.md).
 ## Countries with the most to add
 
 - **Australia** (high; 4 ready, 0 to review): prawn roll, hamdog, Smiley fritz, Patties pie.
+- **New Zealand** (low; 1 ready, 0 to review): Goody good gum drops.
 - **Guam** (low; 1 ready, 0 to review): Latiya.

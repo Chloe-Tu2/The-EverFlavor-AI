@@ -47,13 +47,27 @@ def dropped() -> frozenset[tuple[str, str]]:
                          if r.get("verdict", "").strip().lower() == "drop")
 
 
+DECISIONS = ROOT / "data" / "reference" / "dish_decisions.csv"
+
+
+@cache
+def decisions(kind: str) -> frozenset[tuple[str, str]]:
+    """(qid, country) pairs a person decided in data/reference/dish_decisions.csv: `drop` takes the dish out of that
+    country (the fetch leaves it out), `add` makes it count there too (the multi-origin dish policy)."""
+    if not DECISIONS.exists():
+        return frozenset()
+    with DECISIONS.open(encoding="utf-8", newline="") as f:
+        return frozenset((r["qid"], r["country"]) for r in csv.DictReader(f) if r["decision"].strip().lower() == kind)
+
+
 def added_countries(d: dict) -> list[str]:
-    """The countries a dish counts for beyond its listing country, by Wikidata's origin."""
+    """The countries a dish counts for beyond its listing country: Wikidata's origin, then a person's additions."""
     out: list[str] = []
     for o in d.get("origin") or []:
         c = ALIASES.get(o, o)
         if c in tree_countries() and c != d.get("country") and c not in out and (d["qid"], c) not in dropped():
             out.append(c)
+    out += [c for q, c in sorted(decisions("add")) if q == d.get("qid") and c != d.get("country") and c not in out]
     return out
 
 

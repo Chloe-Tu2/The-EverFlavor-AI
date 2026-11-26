@@ -6,10 +6,10 @@ Families whose own dish EverFlavor has, with versions we lack: adding these join
 |---|---:|---:|---:|---:|
 | bread | 207 | 94 | 113 | Adobe bread, Amish Friendship Bread, Antigua Sunday Bread, Apple Bread, Bappir, Basler Brot |
 | pastry | 230 | 132 | 98 | Allerheiligenstriezel, Banana roll, Belly button pastry, Bethmännchen, Bezhi, Black sesame roll |
-| confectionery | 173 | 82 | 91 | Alfeñique, Aplets & Cotlets, Bachwürfel, Belgian praline, Black Jack, Brain Licker |
+| confectionery | 173 | 81 | 92 | Alfeñique, Aplets & Cotlets, Bachwürfel, Belgian praline, Black Jack, Brain Licker |
 | cake | 163 | 77 | 86 | Amish Friendship Bread, Biscuit cake, Boulou, Buccellato di Lucca, Cake dress, Chantilly cake |
 | sandwich | 122 | 66 | 56 | Ayvalık tostu, Bokit, Bosna, Camel rider, Cheese and pickle sandwich, Cudighi |
-| ice cream | 66 | 14 | 52 | Biscuit Tortoni, Butter Brickle, Butter Pecan, Chocolate chip cookie dough ice cream, Coffee ice cream, Cookies and Cream |
+| ice cream | 66 | 13 | 53 | Biscuit Tortoni, Butter Brickle, Butter Pecan, Chocolate chip cookie dough ice cream, Coffee ice cream, Cookies and Cream |
 | pie | 97 | 50 | 47 | Banbury cake, Banoffee pie, Bedfordshire clanger, Black bottom pie, Butterscotch pie, Cookie Cake Pie |
 | cookie | 85 | 42 | 43 | Achappam, Antwerps Handje, Bath Oliver, Berger Cookies, Biscochos, Brussels cookies |
 | salad | 125 | 84 | 41 | Buddha bowl, Caesar salad, Chilean salad, Esgarrat, Israeli eggplant salad, Kachumber |
@@ -18,7 +18,7 @@ Families whose own dish EverFlavor has, with versions we lack: adding these join
 | stew | 118 | 86 | 32 | Andrajos, Asopao, Calulu, Cocido Montañés, Eintopf, Estufao |
 | biscuit | 61 | 32 | 29 | Abernethy biscuit, Bath Oliver, Bourbon biscuit, Bredela, Cornish fairing, Florentine biscuit |
 | chocolate | 28 | 3 | 25 | Belgian chocolate, Dutch-process cocoa, Gianduja, Giri choco, Mingles, Pellizco |
-| hamburger | 33 | 10 | 23 | 50/50 burger, BK Stacker, BK XXL, Bacon Deluxe, Bonus Jack, Kuro Burger |
+| hamburger | 33 | 9 | 24 | 50/50 burger, BK Stacker, BK XXL, Bacon Deluxe, Bonus Jack, Kiwiburger |
 | doughnut | 49 | 28 | 21 | An-doughnut, Boston cream doughnut, Brown Bobby, Cake doughnut, Coconut doughnut, Donut hole |
 | mochi | 21 | 4 | 17 | Goheimochi, Hishi mochi, Kusa mochi, Moffle, agemochi, akumaki |
 | pancake | 48 | 32 | 16 | Boûkète, Crempog, David Eyre's pancake, Filoz, Gyabrag, Pan bati |

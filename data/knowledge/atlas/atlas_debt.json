@@ -9,32 +9,17 @@
   "no photo": 1,
   "weak Walter": 1
  },
- "total": 558,
- "per_country": 3.26,
+ "total": 538,
+ "per_country": 3.15,
  "per_gap": {
   "no culinary region": 116,
-  "no story": 35,
+  "no story": 26,
   "no family": 17,
   "one dish only": 28,
   "no photo": 45,
-  "weak Walter": 5
+  "weak Walter": 3
  },
  "countries": [
-  {
-   "country": "Rwanda",
-   "continent": "Africa",
-   "subregion": "Eastern Africa",
-   "dishes": 1,
-   "walter": 3.0,
-   "debt": 10,
-   "gaps": [
-    "no culinary region",
-    "no story",
-    "no family",
-    "one dish only",
-    "no photo"
-   ]
-  },
   {
    "country": "Samoa",
    "continent": "Oceania",
@@ -122,35 +107,6 @@
    ]
   },
   {
-   "country": "Central African Republic",
-   "continent": "Africa",
-   "subregion": "Middle Africa",
-   "dishes": 2,
-   "walter": 2.5,
-   "debt": 9,
-   "gaps": [
-    "no culinary region",
-    "no story",
-    "no family",
-    "no photo",
-    "weak Walter"
-   ]
-  },
-  {
-   "country": "Andorra",
-   "continent": "Europe",
-   "subregion": "Southern Europe",
-   "dishes": 1,
-   "walter": 3.0,
-   "debt": 8,
-   "gaps": [
-    "no culinary region",
-    "no story",
-    "one dish only",
-    "no photo"
-   ]
-  },
-  {
    "country": "Barbados",
    "continent": "Americas",
    "subregion": "Caribbean",
@@ -162,20 +118,6 @@
     "no story",
     "one dish only",
     "no photo"
-   ]
-  },
-  {
-   "country": "Belize",
-   "continent": "Americas",
-   "subregion": "Central America",
-   "dishes": 1,
-   "walter": 2.0,
-   "debt": 8,
-   "gaps": [
-    "no culinary region",
-    "no story",
-    "one dish only",
-    "weak Walter"
    ]
   },
   {
@@ -249,15 +191,15 @@
    ]
   },
   {
-   "country": "Northern Mariana Islands",
-   "continent": "Oceania",
-   "subregion": "Micronesian Region",
+   "country": "Rwanda",
+   "continent": "Africa",
+   "subregion": "Eastern Africa",
    "dishes": 1,
-   "walter": 4.0,
+   "walter": 3.0,
    "debt": 8,
    "gaps": [
     "no culinary region",
-    "no story",
+    "no family",
     "one dish only",
     "no photo"
    ]
@@ -398,9 +340,35 @@
    ]
   },
   {
+   "country": "Andorra",
+   "continent": "Europe",
+   "subregion": "Southern Europe",
+   "dishes": 1,
+   "walter": 4.0,
+   "debt": 6,
+   "gaps": [
+    "no culinary region",
+    "one dish only",
+    "no photo"
+   ]
+  },
+  {
    "country": "Congo",
    "continent": "Africa",
    "subregion": "Middle Africa",
+   "dishes": 1,
+   "walter": 4.0,
+   "debt": 6,
+   "gaps": [
+    "no culinary region",
+    "one dish only",
+    "no photo"
+   ]
+  },
+  {
+   "country": "Northern Mariana Islands",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
    "dishes": 1,
    "walter": 4.0,
    "debt": 6,
@@ -424,15 +392,15 @@
    ]
   },
   {
-   "country": "Mali",
+   "country": "Central African Republic",
    "continent": "Africa",
-   "subregion": "Western Africa",
+   "subregion": "Middle Africa",
    "dishes": 2,
    "walter": 3.0,
    "debt": 6,
    "gaps": [
     "no culinary region",
-    "no story",
+    "no family",
     "no photo"
    ]
   },
@@ -476,19 +444,6 @@
    ]
   },
   {
-   "country": "Guam",
-   "continent": "Oceania",
-   "subregion": "Micronesian Region",
-   "dishes": 4,
-   "walter": 3.75,
-   "debt": 6,
-   "gaps": [
-    "no culinary region",
-    "no story",
-    "no photo"
-   ]
-  },
-  {
    "country": "Somalia",
    "continent": "Africa",
    "subregion": "Eastern Africa",
@@ -499,6 +454,18 @@
     "no culinary region",
     "no story",
     "no photo"
+   ]
+  },
+  {
+   "country": "Belize",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "dishes": 1,
+   "walter": 3.0,
+   "debt": 5,
+   "gaps": [
+    "no culinary region",
+    "one dish only"
    ]
   },
   {
@@ -562,18 +529,6 @@
    ]
   },
   {
-   "country": "Cape Verde",
-   "continent": "Africa",
-   "subregion": "Western Africa",
-   "dishes": 1,
-   "walter": 4.0,
-   "debt": 4,
-   "gaps": [
-    "no story",
-    "one dish only"
-   ]
-  },
-  {
    "country": "Ivory Coast",
    "continent": "Africa",
    "subregion": "Western Africa",
@@ -603,6 +558,18 @@
    "subregion": "Central America",
    "dishes": 2,
    "walter": 4.0,
+   "debt": 4,
+   "gaps": [
+    "no culinary region",
+    "no photo"
+   ]
+  },
+  {
+   "country": "Mali",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 2,
+   "walter": 3.5,
    "debt": 4,
    "gaps": [
     "no culinary region",
@@ -646,6 +613,18 @@
    ]
   },
   {
+   "country": "Guam",
+   "continent": "Oceania",
+   "subregion": "Micronesian Region",
+   "dishes": 4,
+   "walter": 3.75,
+   "debt": 4,
+   "gaps": [
+    "no culinary region",
+    "no photo"
+   ]
+  },
+  {
    "country": "Luxembourg",
    "continent": "Europe",
    "subregion": "Western Europe",
@@ -674,7 +653,7 @@
    "continent": "Europe",
    "subregion": "Southern Europe",
    "dishes": 7,
-   "walter": 3.43,
+   "walter": 3.57,
    "debt": 4,
    "gaps": [
     "no culinary region",
@@ -718,11 +697,11 @@
    ]
   },
   {
-   "country": "Iraq",
-   "continent": "Asia",
-   "subregion": "Western Asia",
-   "dishes": 15,
-   "walter": 3.67,
+   "country": "New Zealand",
+   "continent": "Oceania",
+   "subregion": "Australasia",
+   "dishes": 13,
+   "walter": 3.85,
    "debt": 4,
    "gaps": [
     "no culinary region",
@@ -730,11 +709,11 @@
    ]
   },
   {
-   "country": "New Zealand",
-   "continent": "Oceania",
-   "subregion": "Australasia",
-   "dishes": 16,
-   "walter": 3.75,
+   "country": "Iraq",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 15,
+   "walter": 3.67,
    "debt": 4,
    "gaps": [
     "no culinary region",
@@ -892,7 +871,7 @@
    "continent": "Asia",
    "subregion": "Central Asia",
    "dishes": 4,
-   "walter": 3.75,
+   "walter": 4.0,
    "debt": 3,
    "gaps": [
     "no culinary region"
@@ -958,7 +937,7 @@
    "continent": "Americas",
    "subregion": "Caribbean",
    "dishes": 6,
-   "walter": 3.33,
+   "walter": 3.5,
    "debt": 3,
    "gaps": [
     "no culinary region"
@@ -980,7 +959,7 @@
    "continent": "Europe",
    "subregion": "Northern Europe",
    "dishes": 6,
-   "walter": 3.5,
+   "walter": 3.83,
    "debt": 3,
    "gaps": [
     "no culinary region"
@@ -1064,17 +1043,6 @@
    ]
   },
   {
-   "country": "Yemen",
-   "continent": "Asia",
-   "subregion": "Western Asia",
-   "dishes": 8,
-   "walter": 3.62,
-   "debt": 3,
-   "gaps": [
-    "no culinary region"
-   ]
-  },
-  {
    "country": "Kyrgyzstan",
    "continent": "Asia",
    "subregion": "Central Asia",
@@ -1101,7 +1069,18 @@
    "continent": "Americas",
    "subregion": "Caribbean",
    "dishes": 9,
-   "walter": 3.11,
+   "walter": 3.22,
+   "debt": 3,
+   "gaps": [
+    "no culinary region"
+   ]
+  },
+  {
+   "country": "Yemen",
+   "continent": "Asia",
+   "subregion": "Western Asia",
+   "dishes": 9,
+   "walter": 3.67,
    "debt": 3,
    "gaps": [
     "no culinary region"
@@ -1299,7 +1278,7 @@
    "continent": "Americas",
    "subregion": "South America",
    "dishes": 21,
-   "walter": 3.57,
+   "walter": 3.67,
    "debt": 3,
    "gaps": [
     "no culinary region"
@@ -1310,7 +1289,7 @@
    "continent": "Asia",
    "subregion": "Western Asia",
    "dishes": 22,
-   "walter": 3.36,
+   "walter": 3.41,
    "debt": 3,
    "gaps": [
     "no culinary region"
@@ -1354,7 +1333,7 @@
    "continent": "Americas",
    "subregion": "South America",
    "dishes": 24,
-   "walter": 3.54,
+   "walter": 3.58,
    "debt": 3,
    "gaps": [
     "no culinary region"
@@ -1442,10 +1421,21 @@
    "continent": "Europe",
    "subregion": "Eastern Europe",
    "dishes": 73,
-   "walter": 3.56,
+   "walter": 3.58,
    "debt": 3,
    "gaps": [
     "no culinary region"
+   ]
+  },
+  {
+   "country": "Cape Verde",
+   "continent": "Africa",
+   "subregion": "Western Africa",
+   "dishes": 1,
+   "walter": 4.0,
+   "debt": 2,
+   "gaps": [
+    "one dish only"
    ]
   },
   {
@@ -1468,17 +1458,6 @@
    "debt": 2,
    "gaps": [
     "no family"
-   ]
-  },
-  {
-   "country": "Libya",
-   "continent": "Africa",
-   "subregion": "Northern Africa",
-   "dishes": 4,
-   "walter": 3.5,
-   "debt": 2,
-   "gaps": [
-    "no story"
    ]
   },
   {
@@ -1546,6 +1525,15 @@
    "gaps": []
   },
   {
+   "country": "Libya",
+   "continent": "Africa",
+   "subregion": "Northern Africa",
+   "dishes": 4,
+   "walter": 3.75,
+   "debt": 0,
+   "gaps": []
+  },
+  {
    "country": "Uganda",
    "continent": "Africa",
    "subregion": "Eastern Africa",
@@ -1568,7 +1556,7 @@
    "continent": "Africa",
    "subregion": "Northern Africa",
    "dishes": 8,
-   "walter": 3.62,
+   "walter": 3.75,
    "debt": 0,
    "gaps": []
   },
@@ -1613,7 +1601,7 @@
    "continent": "Asia",
    "subregion": "Southeast Asia",
    "dishes": 20,
-   "walter": 3.7,
+   "walter": 3.75,
    "debt": 0,
    "gaps": []
   },
@@ -1631,7 +1619,7 @@
    "continent": "Africa",
    "subregion": "Northern Africa",
    "dishes": 23,
-   "walter": 3.17,
+   "walter": 3.22,
    "debt": 0,
    "gaps": []
   },
@@ -1640,7 +1628,7 @@
    "continent": "Americas",
    "subregion": "Caribbean",
    "dishes": 23,
-   "walter": 3.61,
+   "walter": 3.65,
    "debt": 0,
    "gaps": []
   },
@@ -1685,7 +1673,7 @@
    "continent": "Asia",
    "subregion": "Eastern Asia",
    "dishes": 31,
-   "walter": 3.74,
+   "walter": 3.77,
    "debt": 0,
    "gaps": []
   },
@@ -1766,7 +1754,7 @@
    "continent": "Asia",
    "subregion": "Southeast Asia",
    "dishes": 74,
-   "walter": 3.5,
+   "walter": 3.53,
    "debt": 0,
    "gaps": []
   },
@@ -1775,7 +1763,7 @@
    "continent": "Europe",
    "subregion": "Southern Europe",
    "dishes": 79,
-   "walter": 3.66,
+   "walter": 3.67,
    "debt": 0,
    "gaps": []
   },
@@ -1784,7 +1772,7 @@
    "continent": "Asia",
    "subregion": "Eastern Asia",
    "dishes": 79,
-   "walter": 3.76,
+   "walter": 3.77,
    "debt": 0,
    "gaps": []
   },
@@ -1802,7 +1790,7 @@
    "continent": "Europe",
    "subregion": "Southern Europe",
    "dishes": 80,
-   "walter": 3.76,
+   "walter": 3.77,
    "debt": 0,
    "gaps": []
   },
@@ -1811,7 +1799,7 @@
    "continent": "Asia",
    "subregion": "Western Asia",
    "dishes": 85,
-   "walter": 3.68,
+   "walter": 3.71,
    "debt": 0,
    "gaps": []
   },
@@ -1829,7 +1817,7 @@
    "continent": "Europe",
    "subregion": "Southern Europe",
    "dishes": 90,
-   "walter": 3.63,
+   "walter": 3.64,
    "debt": 0,
    "gaps": []
   },
@@ -1847,7 +1835,7 @@
    "continent": "Asia",
    "subregion": "Southeast Asia",
    "dishes": 92,
-   "walter": 3.7,
+   "walter": 3.72,
    "debt": 0,
    "gaps": []
   },
@@ -1874,7 +1862,7 @@
    "continent": "Asia",
    "subregion": "Southern Asia",
    "dishes": 117,
-   "walter": 3.71,
+   "walter": 3.72,
    "debt": 0,
    "gaps": []
   },
@@ -1892,7 +1880,7 @@
    "continent": "Europe",
    "subregion": "Western Europe",
    "dishes": 138,
-   "walter": 3.91,
+   "walter": 3.92,
    "debt": 0,
    "gaps": []
   },
@@ -1901,7 +1889,7 @@
    "continent": "Asia",
    "subregion": "Eastern Asia",
    "dishes": 216,
-   "walter": 3.92,
+   "walter": 3.95,
    "debt": 0,
    "gaps": []
   },
@@ -1910,7 +1898,7 @@
    "continent": "Asia",
    "subregion": "Southeast Asia",
    "dishes": 265,
-   "walter": 3.76,
+   "walter": 3.78,
    "debt": 0,
    "gaps": []
   },
@@ -1919,7 +1907,7 @@
    "continent": "Europe",
    "subregion": "Southern Europe",
    "dishes": 350,
-   "walter": 3.8,
+   "walter": 3.81,
    "debt": 0,
    "gaps": []
   },

@@ -6,44 +6,44 @@
   "countries": 200,
   "covered": 165,
   "with three dishes or more": 130,
-  "weak representation": 38,
-  "representation (average of covered countries)": 65.4,
+  "weak representation": 37,
+  "representation (average of covered countries)": 67.1,
   "enrichment (average of covered countries)": 57.7
  },
  "continents": {
   "Africa": {
    "countries": 57,
    "covered": 40,
-   "weak": 18,
-   "representation": 52.9,
+   "weak": 17,
+   "representation": 55.9,
    "enrichment": 54.9
   },
   "Americas": {
    "countries": 39,
    "covered": 35,
    "weak": 11,
-   "representation": 62.9,
+   "representation": 64.9,
    "enrichment": 56.4
   },
   "Asia": {
    "countries": 51,
    "covered": 45,
    "weak": 4,
-   "representation": 73.0,
-   "enrichment": 58.6
+   "representation": 74.1,
+   "enrichment": 58.5
   },
   "Europe": {
    "countries": 41,
    "covered": 39,
    "weak": 2,
-   "representation": 72.9,
+   "representation": 73.6,
    "enrichment": 62.1
   },
   "Oceania": {
    "countries": 12,
    "covered": 6,
    "weak": 3,
-   "representation": 57.0,
+   "representation": 58.1,
    "enrichment": 48.4
   }
  },
@@ -92,7 +92,6 @@
    "Belize",
    "Bhutan",
    "Bosnia and Herzegovina",
-   "Cameroon",
    "Cape Verde",
    "Central African Republic",
    "Chad",
@@ -134,12 +133,12 @@
    "counted": true,
    "dishes": 10,
    "covered": true,
-   "representation": 70.0,
+   "representation": 73.3,
    "enrichment": 62.5,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.8,
-    "stories": 0.3
+    "stories": 0.4
    },
    "enrichment_parts": {
     "origins": 0.9,
@@ -178,12 +177,12 @@
    "counted": true,
    "dishes": 23,
    "covered": true,
-   "representation": 58.0,
+   "representation": 59.4,
    "enrichment": 51.1,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.391,
-    "stories": 0.348
+    "stories": 0.391
    },
    "enrichment_parts": {
     "origins": 0.652,
@@ -222,12 +221,12 @@
    "counted": false,
    "dishes": 1,
    "covered": true,
-   "representation": 44.4,
+   "representation": 77.8,
    "enrichment": 50.0,
    "representation_parts": {
     "depth": 0.333,
     "families": 1.0,
-    "stories": 0.0
+    "stories": 1.0
    },
    "enrichment_parts": {
     "origins": 1.0,
@@ -376,12 +375,12 @@
    "counted": true,
    "dishes": 60,
    "covered": true,
-   "representation": 82.8,
+   "representation": 83.3,
    "enrichment": 62.1,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.783,
-    "stories": 0.7
+    "stories": 0.717
    },
    "enrichment_parts": {
     "origins": 0.733,
@@ -530,12 +529,12 @@
    "counted": true,
    "dishes": 30,
    "covered": true,
-   "representation": 81.1,
+   "representation": 82.2,
    "enrichment": 66.7,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.933,
-    "stories": 0.5
+    "stories": 0.533
    },
    "enrichment_parts": {
     "origins": 0.733,
@@ -552,12 +551,12 @@
    "counted": true,
    "dishes": 1,
    "covered": true,
-   "representation": 44.4,
+   "representation": 77.8,
    "enrichment": 25.0,
    "representation_parts": {
     "depth": 0.333,
     "families": 1.0,
-    "stories": 0.0
+    "stories": 1.0
    },
    "enrichment_parts": {
     "origins": 0.0,
@@ -728,16 +727,16 @@
    "counted": true,
    "dishes": 59,
    "covered": true,
-   "representation": 72.3,
-   "enrichment": 57.2,
+   "representation": 74.0,
+   "enrichment": 56.8,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.729,
-    "stories": 0.441
+    "stories": 0.492
    },
    "enrichment_parts": {
     "origins": 0.661,
-    "variants": 0.034,
+    "variants": 0.017,
     "related": 1.0,
     "walter": 0.593
    },
@@ -816,12 +815,12 @@
    "counted": true,
    "dishes": 14,
    "covered": true,
-   "representation": 71.4,
+   "representation": 73.8,
    "enrichment": 64.3,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.786,
-    "stories": 0.357
+    "stories": 0.429
    },
    "enrichment_parts": {
     "origins": 0.929,
@@ -882,12 +881,12 @@
    "counted": true,
    "dishes": 16,
    "covered": true,
-   "representation": 62.5,
+   "representation": 64.6,
    "enrichment": 54.7,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.625,
-    "stories": 0.25
+    "stories": 0.312
    },
    "enrichment_parts": {
     "origins": 0.688,
@@ -904,12 +903,12 @@
    "counted": true,
    "dishes": 8,
    "covered": true,
-   "representation": 45.8,
+   "representation": 50.0,
    "enrichment": 46.9,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.125,
-    "stories": 0.25
+    "stories": 0.375
    },
    "enrichment_parts": {
     "origins": 0.75,
@@ -917,7 +916,7 @@
     "related": 1.0,
     "walter": 0.125
    },
-   "weak": true
+   "weak": false
   },
   {
    "country": "Canada",
@@ -949,12 +948,12 @@
    "counted": true,
    "dishes": 1,
    "covered": true,
-   "representation": 44.4,
+   "representation": 77.8,
    "enrichment": 75.0,
    "representation_parts": {
     "depth": 0.333,
     "families": 1.0,
-    "stories": 0.0
+    "stories": 1.0
    },
    "enrichment_parts": {
     "origins": 1.0,
@@ -1015,12 +1014,12 @@
    "counted": true,
    "dishes": 2,
    "covered": true,
-   "representation": 22.2,
+   "representation": 38.9,
    "enrichment": 37.5,
    "representation_parts": {
     "depth": 0.667,
     "families": 0.0,
-    "stories": 0.0
+    "stories": 0.5
    },
    "enrichment_parts": {
     "origins": 0.5,
@@ -1081,12 +1080,12 @@
    "counted": true,
    "dishes": 216,
    "covered": true,
-   "representation": 75.9,
+   "representation": 77.0,
    "enrichment": 62.3,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.769,
-    "stories": 0.602,
+    "stories": 0.644,
     "regions": 0.667
    },
    "enrichment_parts": {
@@ -1148,12 +1147,12 @@
    "counted": true,
    "dishes": 21,
    "covered": true,
-   "representation": 74.6,
+   "representation": 77.8,
    "enrichment": 60.7,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.81,
-    "stories": 0.429
+    "stories": 0.524
    },
    "enrichment_parts": {
     "origins": 0.81,
@@ -1258,12 +1257,12 @@
    "counted": true,
    "dishes": 18,
    "covered": true,
-   "representation": 61.1,
+   "representation": 63.0,
    "enrichment": 50.0,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.5,
-    "stories": 0.333
+    "stories": 0.389
    },
    "enrichment_parts": {
     "origins": 0.667,
@@ -1280,12 +1279,12 @@
    "counted": true,
    "dishes": 23,
    "covered": true,
-   "representation": 76.8,
+   "representation": 78.3,
    "enrichment": 56.5,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.696,
-    "stories": 0.609
+    "stories": 0.652
    },
    "enrichment_parts": {
     "origins": 0.739,
@@ -1764,12 +1763,12 @@
    "counted": true,
    "dishes": 138,
    "covered": true,
-   "representation": 81.6,
+   "representation": 82.4,
    "enrichment": 68.7,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.783,
-    "stories": 0.667
+    "stories": 0.688
    },
    "enrichment_parts": {
     "origins": 0.935,
@@ -1874,12 +1873,12 @@
    "counted": true,
    "dishes": 22,
    "covered": true,
-   "representation": 65.2,
+   "representation": 66.7,
    "enrichment": 62.5,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.773,
-    "stories": 0.182
+    "stories": 0.227
    },
    "enrichment_parts": {
     "origins": 0.864,
@@ -1896,12 +1895,12 @@
    "counted": true,
    "dishes": 110,
    "covered": true,
-   "representation": 79.1,
+   "representation": 79.7,
    "enrichment": 63.0,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.791,
-    "stories": 0.582
+    "stories": 0.6
    },
    "enrichment_parts": {
     "origins": 0.7,
@@ -1962,12 +1961,12 @@
    "counted": true,
    "dishes": 90,
    "covered": true,
-   "representation": 73.7,
+   "representation": 74.1,
    "enrichment": 63.6,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.733,
-    "stories": 0.478
+    "stories": 0.489
    },
    "enrichment_parts": {
     "origins": 0.733,
@@ -2050,12 +2049,12 @@
    "counted": true,
    "dishes": 4,
    "covered": true,
-   "representation": 66.7,
+   "representation": 75.0,
    "enrichment": 68.8,
    "representation_parts": {
     "depth": 1.0,
     "families": 1.0,
-    "stories": 0.0
+    "stories": 0.25
    },
    "enrichment_parts": {
     "origins": 1.0,
@@ -2072,12 +2071,12 @@
    "counted": true,
    "dishes": 7,
    "covered": true,
-   "representation": 71.4,
+   "representation": 76.2,
    "enrichment": 50.0,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.714,
-    "stories": 0.429
+    "stories": 0.571
    },
    "enrichment_parts": {
     "origins": 0.429,
@@ -2182,12 +2181,12 @@
    "counted": true,
    "dishes": 6,
    "covered": true,
-   "representation": 66.7,
+   "representation": 72.2,
    "enrichment": 58.3,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.667,
-    "stories": 0.333
+    "stories": 0.5
    },
    "enrichment_parts": {
     "origins": 0.833,
@@ -2226,12 +2225,12 @@
    "counted": true,
    "dishes": 2,
    "covered": true,
-   "representation": 55.6,
+   "representation": 72.2,
    "enrichment": 62.5,
    "representation_parts": {
     "depth": 0.667,
     "families": 0.5,
-    "stories": 0.5
+    "stories": 1.0
    },
    "enrichment_parts": {
     "origins": 1.0,
@@ -2314,12 +2313,12 @@
    "counted": true,
    "dishes": 117,
    "covered": true,
-   "representation": 80.1,
+   "representation": 80.9,
    "enrichment": 62.8,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.752,
-    "stories": 0.65
+    "stories": 0.675
    },
    "enrichment_parts": {
     "origins": 0.778,
@@ -2336,12 +2335,12 @@
    "counted": true,
    "dishes": 265,
    "covered": true,
-   "representation": 76.2,
+   "representation": 78.1,
    "enrichment": 62.7,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.777,
-    "stories": 0.509
+    "stories": 0.566
    },
    "enrichment_parts": {
     "origins": 0.921,
@@ -2358,12 +2357,12 @@
    "counted": true,
    "dishes": 32,
    "covered": true,
-   "representation": 75.0,
+   "representation": 77.1,
    "enrichment": 67.2,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.719,
-    "stories": 0.531
+    "stories": 0.594
    },
    "enrichment_parts": {
     "origins": 0.938,
@@ -2468,12 +2467,12 @@
    "counted": true,
    "dishes": 350,
    "covered": true,
-   "representation": 77.7,
+   "representation": 78.2,
    "enrichment": 68.1,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.806,
-    "stories": 0.526
+    "stories": 0.54
    },
    "enrichment_parts": {
     "origins": 0.946,
@@ -2512,12 +2511,12 @@
    "counted": true,
    "dishes": 51,
    "covered": true,
-   "representation": 77.8,
+   "representation": 78.4,
    "enrichment": 61.3,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.804,
-    "stories": 0.529
+    "stories": 0.549
    },
    "enrichment_parts": {
     "origins": 0.627,
@@ -2732,12 +2731,12 @@
    "counted": true,
    "dishes": 9,
    "covered": true,
-   "representation": 77.8,
+   "representation": 81.5,
    "enrichment": 61.1,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.889,
-    "stories": 0.444
+    "stories": 0.556
    },
    "enrichment_parts": {
     "origins": 0.778,
@@ -2842,12 +2841,12 @@
    "counted": true,
    "dishes": 4,
    "covered": true,
-   "representation": 50.0,
+   "representation": 58.3,
    "enrichment": 62.5,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.5,
-    "stories": 0.0
+    "stories": 0.25
    },
    "enrichment_parts": {
     "origins": 1.0,
@@ -2886,12 +2885,12 @@
    "counted": true,
    "dishes": 6,
    "covered": true,
-   "representation": 66.7,
+   "representation": 77.8,
    "enrichment": 58.3,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.667,
-    "stories": 0.333
+    "stories": 0.667
    },
    "enrichment_parts": {
     "origins": 0.833,
@@ -2996,12 +2995,12 @@
    "counted": true,
    "dishes": 55,
    "covered": true,
-   "representation": 77.0,
+   "representation": 78.8,
    "enrichment": 60.0,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.782,
-    "stories": 0.527
+    "stories": 0.582
    },
    "enrichment_parts": {
     "origins": 0.873,
@@ -3040,12 +3039,12 @@
    "counted": true,
    "dishes": 2,
    "covered": true,
-   "representation": 38.9,
+   "representation": 55.6,
    "enrichment": 62.5,
    "representation_parts": {
     "depth": 0.667,
     "families": 0.5,
-    "stories": 0.0
+    "stories": 0.5
    },
    "enrichment_parts": {
     "origins": 1.0,
@@ -3062,12 +3061,12 @@
    "counted": true,
    "dishes": 7,
    "covered": true,
-   "representation": 61.9,
+   "representation": 66.7,
    "enrichment": 57.1,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.571,
-    "stories": 0.286
+    "stories": 0.429
    },
    "enrichment_parts": {
     "origins": 0.714,
@@ -3194,12 +3193,12 @@
    "counted": true,
    "dishes": 131,
    "covered": true,
-   "representation": 65.1,
+   "representation": 65.6,
    "enrichment": 57.3,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.687,
-    "stories": 0.565,
+    "stories": 0.588,
     "regions": 0.351
    },
    "enrichment_parts": {
@@ -3327,12 +3326,12 @@
    "counted": true,
    "dishes": 22,
    "covered": true,
-   "representation": 71.2,
+   "representation": 72.7,
    "enrichment": 60.2,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.682,
-    "stories": 0.455
+    "stories": 0.5
    },
    "enrichment_parts": {
     "origins": 0.818,
@@ -3371,12 +3370,12 @@
    "counted": true,
    "dishes": 20,
    "covered": true,
-   "representation": 66.7,
+   "representation": 68.3,
    "enrichment": 62.5,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.75,
-    "stories": 0.25
+    "stories": 0.3
    },
    "enrichment_parts": {
     "origins": 0.8,
@@ -3459,12 +3458,12 @@
    "counted": true,
    "dishes": 37,
    "covered": true,
-   "representation": 77.5,
+   "representation": 78.4,
    "enrichment": 65.5,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.838,
-    "stories": 0.486
+    "stories": 0.514
    },
    "enrichment_parts": {
     "origins": 0.892,
@@ -3501,20 +3500,20 @@
    "continent": "Oceania",
    "subregion": "Australasia",
    "counted": true,
-   "dishes": 16,
+   "dishes": 13,
    "covered": true,
-   "representation": 81.2,
-   "enrichment": 59.4,
+   "representation": 79.5,
+   "enrichment": 59.6,
    "representation_parts": {
     "depth": 1.0,
-    "families": 0.688,
-    "stories": 0.75
+    "families": 0.615,
+    "stories": 0.769
    },
    "enrichment_parts": {
-    "origins": 0.75,
+    "origins": 0.846,
     "variants": 0.0,
     "related": 1.0,
-    "walter": 0.625
+    "walter": 0.538
    },
    "weak": false
   },
@@ -3569,12 +3568,12 @@
    "counted": true,
    "dishes": 53,
    "covered": true,
-   "representation": 56.6,
+   "representation": 59.1,
    "enrichment": 56.6,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.434,
-    "stories": 0.264
+    "stories": 0.34
    },
    "enrichment_parts": {
     "origins": 0.868,
@@ -3679,12 +3678,12 @@
    "counted": false,
    "dishes": 1,
    "covered": true,
-   "representation": 44.4,
+   "representation": 77.8,
    "enrichment": 50.0,
    "representation_parts": {
     "depth": 0.333,
     "families": 1.0,
-    "stories": 0.0
+    "stories": 1.0
    },
    "enrichment_parts": {
     "origins": 1.0,
@@ -3745,12 +3744,12 @@
    "counted": true,
    "dishes": 11,
    "covered": true,
-   "representation": 87.9,
+   "representation": 90.9,
    "enrichment": 61.4,
    "representation_parts": {
     "depth": 1.0,
     "families": 1.0,
-    "stories": 0.636
+    "stories": 0.727
    },
    "enrichment_parts": {
     "origins": 0.727,
@@ -3877,12 +3876,12 @@
    "counted": true,
    "dishes": 24,
    "covered": true,
-   "representation": 73.6,
+   "representation": 75.0,
    "enrichment": 61.5,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.792,
-    "stories": 0.417
+    "stories": 0.458
    },
    "enrichment_parts": {
     "origins": 0.792,
@@ -3899,12 +3898,12 @@
    "counted": true,
    "dishes": 92,
    "covered": true,
-   "representation": 75.4,
+   "representation": 76.8,
    "enrichment": 62.0,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.772,
-    "stories": 0.489
+    "stories": 0.533
    },
    "enrichment_parts": {
     "origins": 0.87,
@@ -3943,12 +3942,12 @@
    "counted": true,
    "dishes": 73,
    "covered": true,
-   "representation": 79.5,
+   "representation": 79.9,
    "enrichment": 64.7,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.863,
-    "stories": 0.521
+    "stories": 0.534
    },
    "enrichment_parts": {
     "origins": 0.685,
@@ -3965,12 +3964,12 @@
    "counted": true,
    "dishes": 79,
    "covered": true,
-   "representation": 66.7,
+   "representation": 67.5,
    "enrichment": 57.6,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.62,
-    "stories": 0.38
+    "stories": 0.405
    },
    "enrichment_parts": {
     "origins": 0.861,
@@ -3987,12 +3986,12 @@
    "counted": true,
    "dishes": 9,
    "covered": true,
-   "representation": 63.0,
+   "representation": 66.7,
    "enrichment": 52.8,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.556,
-    "stories": 0.333
+    "stories": 0.444
    },
    "enrichment_parts": {
     "origins": 0.667,
@@ -4075,12 +4074,12 @@
    "counted": true,
    "dishes": 1,
    "covered": true,
-   "representation": 11.1,
+   "representation": 44.4,
    "enrichment": 25.0,
    "representation_parts": {
     "depth": 0.333,
     "families": 0.0,
-    "stories": 0.0
+    "stories": 1.0
    },
    "enrichment_parts": {
     "origins": 0.0,
@@ -4339,12 +4338,12 @@
    "counted": true,
    "dishes": 4,
    "covered": true,
-   "representation": 91.7,
+   "representation": 100.0,
    "enrichment": 56.2,
    "representation_parts": {
     "depth": 1.0,
     "families": 1.0,
-    "stories": 0.75
+    "stories": 1.0
    },
    "enrichment_parts": {
     "origins": 0.75,
@@ -4625,12 +4624,12 @@
    "counted": true,
    "dishes": 79,
    "covered": true,
-   "representation": 79.3,
+   "representation": 79.7,
    "enrichment": 65.5,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.785,
-    "stories": 0.595
+    "stories": 0.608
    },
    "enrichment_parts": {
     "origins": 0.937,
@@ -4669,12 +4668,12 @@
    "counted": true,
    "dishes": 80,
    "covered": true,
-   "representation": 72.9,
+   "representation": 73.8,
    "enrichment": 64.4,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.787,
-    "stories": 0.4
+    "stories": 0.425
    },
    "enrichment_parts": {
     "origins": 0.912,
@@ -4801,12 +4800,12 @@
    "counted": true,
    "dishes": 34,
    "covered": true,
-   "representation": 82.4,
+   "representation": 84.3,
    "enrichment": 61.8,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.735,
-    "stories": 0.735
+    "stories": 0.794
    },
    "enrichment_parts": {
     "origins": 0.765,
@@ -4867,12 +4866,12 @@
    "counted": true,
    "dishes": 31,
    "covered": true,
-   "representation": 75.3,
+   "representation": 77.4,
    "enrichment": 56.5,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.677,
-    "stories": 0.581
+    "stories": 0.645
    },
    "enrichment_parts": {
     "origins": 0.806,
@@ -4889,12 +4888,12 @@
    "counted": true,
    "dishes": 4,
    "covered": true,
-   "representation": 83.3,
+   "representation": 91.7,
    "enrichment": 68.8,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.75,
-    "stories": 0.75
+    "stories": 1.0
    },
    "enrichment_parts": {
     "origins": 0.75,
@@ -4933,12 +4932,12 @@
    "counted": true,
    "dishes": 79,
    "covered": true,
-   "representation": 75.1,
+   "representation": 75.5,
    "enrichment": 58.9,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.734,
-    "stories": 0.519
+    "stories": 0.532
    },
    "enrichment_parts": {
     "origins": 0.759,
@@ -5109,12 +5108,12 @@
    "counted": true,
    "dishes": 8,
    "covered": true,
-   "representation": 58.3,
+   "representation": 62.5,
    "enrichment": 59.4,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.5,
-    "stories": 0.25
+    "stories": 0.375
    },
    "enrichment_parts": {
     "origins": 0.875,
@@ -5131,12 +5130,12 @@
    "counted": true,
    "dishes": 85,
    "covered": true,
-   "representation": 73.3,
+   "representation": 74.9,
    "enrichment": 67.1,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.765,
-    "stories": 0.435
+    "stories": 0.482
    },
    "enrichment_parts": {
     "origins": 0.894,
@@ -5308,12 +5307,12 @@
    "counted": true,
    "dishes": 395,
    "covered": true,
-   "representation": 72.8,
+   "representation": 73.0,
    "enrichment": 64.2,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.861,
-    "stories": 0.714,
+    "stories": 0.722,
     "regions": 0.339
    },
    "enrichment_parts": {
@@ -5485,12 +5484,12 @@
    "counted": true,
    "dishes": 74,
    "covered": true,
-   "representation": 76.6,
+   "representation": 77.9,
    "enrichment": 60.1,
    "representation_parts": {
     "depth": 1.0,
     "families": 0.892,
-    "stories": 0.405
+    "stories": 0.446
    },
    "enrichment_parts": {
     "origins": 0.716,
@@ -5549,20 +5548,20 @@
    "continent": "Asia",
    "subregion": "Western Asia",
    "counted": true,
-   "dishes": 8,
+   "dishes": 9,
    "covered": true,
-   "representation": 83.3,
-   "enrichment": 71.9,
+   "representation": 85.2,
+   "enrichment": 69.4,
    "representation_parts": {
     "depth": 1.0,
     "families": 1.0,
-    "stories": 0.5
+    "stories": 0.556
    },
    "enrichment_parts": {
     "origins": 1.0,
     "variants": 0.0,
     "related": 1.0,
-    "walter": 0.875
+    "walter": 0.778
    },
    "weak": false
   },
