@@ -92,7 +92,8 @@ Facts the waiter may tell, collected from open sources, never invented (for the 
   with their name in `reviewer` to stop a country counting. Verdicts are kept on rerun.
 - `review/country_recovery_candidates.csv`: campaign A's candidates for the UN members still empty; a person
   writes `add` or `no` in `verdict` (kept on rerun). `quality/story_recovery_queue.json`,
-  `quality/family_recovery_queue.json` and `atlas/regional_source_candidates.json`: the Q2, Q4 and Q1 queues.
+  `quality/family_recovery_queue.json` and `atlas/regional_source_candidates.json`: the Q2, Q4 and Q1 queues;
+  `quality/story_source_candidates.json`: Q2b, other-language history sections (headings only, item 41).
 - `review/empty_country_packets.csv`: campaign A's dishes for the six empty UN members whose dishes Wikidata
   knows, with where the atlas has each now; a person writes `verdict` (move, keep or both) and `note`, kept on
   rerun (`scripts/knowledge/empty_country_packets.py`, review item 32).

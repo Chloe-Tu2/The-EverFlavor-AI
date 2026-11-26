@@ -34,7 +34,8 @@ the app; any change it suggests is a separate step with its own tests and, where
 | [story_recovery_report.md](story_recovery_report.md) | Q2: the countries with no dish story and the sourced material that could give them one (item 34) |
 | [family_recovery_backlog.md](family_recovery_backlog.md) | Q4: the countries with no dish family and the families their dishes' intros name |
 | [wikidata_culinary_regions.md](wikidata_culinary_regions.md) | The Wikidata culinary regions approved under review item 33: linked, provisional or for a person |
-| [regional_source_research.md](regional_source_research.md) | Q1 phase 0: free sources for food regions within countries, their licences, and how far Wikidata reaches (item 33) |
+| [regional_source_research.md](regional_source_research.md) | Q1 phase 0: free sources for food regions within countries, their licences, and how far Wikidata and the countries' own cuisine pages reach (items 33, 41) |
+| [story_source_research.md](story_source_research.md) | Q2b phase 0: history sections in the French, Spanish, Portuguese and German articles of the story-less countries' dishes (item 41) |
 | [empty_country_packets.md](empty_country_packets.md) | Campaign A's evidence: each dish Wikidata gives an empty country, where the atlas has it now, which pages put it there; verdicts in `data/knowledge/review/empty_country_packets.csv` (item 32) |
 | [cuisine_page_picks.md](cuisine_page_picks.md) | Campaign G's pick sheets: every dish or food article the cuisine pages of the UN members without a dish link, with its first sentence, Wikidata origin and whether its intro names the country; verdicts in `data/knowledge/review/cuisine_page_picks.csv` (item 38) |
 | [curator_handoff.md](curator_handoff.md) | Read first in a new session: what improved and regressed since the last run, what is blocked, what needs a person, what is next |
