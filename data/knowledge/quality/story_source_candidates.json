@@ -1,0 +1,419 @@
+{
+ "by": "scripts/knowledge/story_sources.py",
+ "built_on": "2026-11-26",
+ "source": "French, Spanish, Portuguese and German Wikipedia (CC BY-SA 4.0); section headings only",
+ "dishes": [
+  {
+   "country": "Barbados",
+   "dish": "Brown stew chicken",
+   "qid": "Q17027457",
+   "articles": {
+    "fr": "Brown stew chicken"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "dish": "Bosnian pot",
+   "qid": "Q894347",
+   "articles": {
+    "de": "Bosanski Lonac",
+    "es": "Bosanski lonac",
+    "fr": "Bosanski lonac"
+   },
+   "history_sections": {
+    "fr": [
+     "Histoire"
+    ]
+   }
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "dish": "Tufahije",
+   "qid": "Q3435353",
+   "articles": {
+    "de": "Tufahija",
+    "es": "Tufahija"
+   },
+   "history_sections": {
+    "de": [
+     "Etymologie"
+    ]
+   }
+  },
+  {
+   "country": "Chad",
+   "dish": "Esh (dish)",
+   "qid": "Q135650124",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Chad",
+   "dish": "Kisra",
+   "qid": "Q3197476",
+   "articles": {
+    "de": "Kisra (Fladenbrot)",
+    "es": "Kisra",
+    "fr": "Kisra"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Chad",
+   "dish": "La bouillie (Chadian food)",
+   "qid": "Q137883935",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Curaçao",
+   "dish": "Keshi yena",
+   "qid": "Q17079448",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Estonia",
+   "dish": "Egg butter",
+   "qid": "Q3351904",
+   "articles": {
+    "es": "Munavoi",
+    "fr": "Munavoi",
+    "pt": "Munavoi"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Estonia",
+   "dish": "Mulgikapsad",
+   "qid": "Q16411925",
+   "articles": {
+    "de": "Mulgikapsad"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Estonia",
+   "dish": "Mulgipuder",
+   "qid": "Q12370530",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Estonia",
+   "dish": "Sepik (bread)",
+   "qid": "Q24735647",
+   "articles": {
+    "fr": "Sepik (pain)"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Grenada",
+   "dish": "Brown stew chicken",
+   "qid": "Q17027457",
+   "articles": {
+    "fr": "Brown stew chicken"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Ivory Coast",
+   "dish": "Kedjenou",
+   "qid": "Q1795580",
+   "articles": {
+    "de": "Kédjénou",
+    "es": "Kedjenou",
+    "fr": "Kédjénou",
+    "pt": "Kedjenou"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Malawi",
+   "dish": "Kondowole",
+   "qid": "Q17110849",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Marshall Islands",
+   "dish": "Chukuchuk",
+   "qid": "Q96472986",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Mauritania",
+   "dish": "Boulaghmane",
+   "qid": "Q12199101",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Monaco",
+   "dish": "Barbajuan",
+   "qid": "Q2294743",
+   "articles": {
+    "es": "Barbagiuai",
+    "fr": "Barbajuan",
+    "pt": "Barbagiuan"
+   },
+   "history_sections": {
+    "fr": [
+     "Étymologie",
+     "Histoire"
+    ]
+   }
+  },
+  {
+   "country": "Monaco",
+   "dish": "U Pan de Natale",
+   "qid": "Q97166855",
+   "articles": {
+    "fr": "Pan de Natale"
+   },
+   "history_sections": {
+    "fr": [
+     "Histoire",
+     "Origine : le pain de Noël dès le XVIIe siècle en Provence"
+    ]
+   }
+  },
+  {
+   "country": "Montenegro",
+   "dish": "Njeguški pršut",
+   "qid": "Q3160844",
+   "articles": {
+    "fr": "Jambon de Njeguši"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Mozambique",
+   "dish": "Matapa",
+   "qid": "Q96742694",
+   "articles": {
+    "fr": "Matapa (plat)",
+    "pt": "Matapa"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Saint Lucia",
+   "dish": "Brown stew chicken",
+   "qid": "Q17027457",
+   "articles": {
+    "fr": "Brown stew chicken"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Samoa",
+   "dish": "Poi (dessert)",
+   "qid": "Q65049504",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "San Marino",
+   "dish": "Torta Tre Monti",
+   "qid": "Q3995799",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Seychelles",
+   "dish": "Ladob",
+   "qid": "Q6469786",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Seychelles",
+   "dish": "Saffron rice",
+   "qid": "Q7398745",
+   "articles": {
+    "es": "Arroz al azafrán"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Seychelles",
+   "dish": "Shark chutney",
+   "qid": "Q7489821",
+   "articles": {
+    "fr": "Chutney de requin"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Sierra Leone",
+   "dish": "Frejon",
+   "qid": "Q5501442",
+   "articles": {
+    "es": "Frejón",
+    "fr": "Frejon"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Somalia",
+   "dish": "Lahoh",
+   "qid": "Q1809371",
+   "articles": {
+    "pt": "Lahoh",
+    "de": "Laxoox",
+    "es": "Laḥoḥ",
+    "fr": "Lahoh"
+   },
+   "history_sections": {
+    "es": [
+     "Significado cultural"
+    ]
+   }
+  },
+  {
+   "country": "Somalia",
+   "dish": "Maraq (dish)",
+   "qid": "Q56280821",
+   "articles": {
+    "fr": "Maraq"
+   },
+   "history_sections": {
+    "fr": [
+     "Étymologie"
+    ]
+   }
+  },
+  {
+   "country": "Somalia",
+   "dish": "Oodkac",
+   "qid": "Q65119827",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Somalia",
+   "dish": "Sabaayad",
+   "qid": "Q7395806",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "South Sudan",
+   "dish": "Kisra",
+   "qid": "Q3197476",
+   "articles": {
+    "de": "Kisra (Fladenbrot)",
+    "es": "Kisra",
+    "fr": "Kisra"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "South Sudan",
+   "dish": "Rolled flour porridge",
+   "qid": "Q22230854",
+   "articles": {
+    "fr": "Lakh (gastronomie)"
+   },
+   "history_sections": {
+    "fr": [
+     "Culture"
+    ]
+   }
+  },
+  {
+   "country": "The Bahamas",
+   "dish": "Duff (dessert)",
+   "qid": "Q16918839",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "The Gambia",
+   "dish": "Domoda",
+   "qid": "Q1238597",
+   "articles": {
+    "de": "Domoda",
+    "fr": "Domoda"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Togo",
+   "dish": "Asaro (food)",
+   "qid": "Q122999857",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Togo",
+   "dish": "Banku (dish)",
+   "qid": "Q806839",
+   "articles": {
+    "de": "Banku",
+    "es": "Banku",
+    "fr": "Banku"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Togo",
+   "dish": "Eba",
+   "qid": "Q5331480",
+   "articles": {
+    "es": "Èbà",
+    "fr": "Èba",
+    "pt": "Eba"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Tonga",
+   "dish": "'Ota 'ika",
+   "qid": "Q3393853",
+   "articles": {
+    "es": "Pescado crudo polinesio",
+    "fr": "Le poisson cru, plat traditionnel du Pacifique"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Tonga",
+   "dish": "Mutton flaps",
+   "qid": "Q22907126",
+   "articles": {},
+   "history_sections": {}
+  },
+  {
+   "country": "Turkmenistan",
+   "dish": "Chekdirme",
+   "qid": "Q5089539",
+   "articles": {
+    "fr": "Çekdirme"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Turkmenistan",
+   "dish": "Ishlykly",
+   "qid": "Q18464639",
+   "articles": {
+    "pt": "Ichlekli"
+   },
+   "history_sections": {}
+  },
+  {
+   "country": "Zambia",
+   "dish": "Ifisashi",
+   "qid": "Q109039280",
+   "articles": {
+    "fr": "Ifisashi"
+   },
+   "history_sections": {}
+  }
+ ]
+}
