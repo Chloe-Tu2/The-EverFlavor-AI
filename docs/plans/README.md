@@ -308,7 +308,7 @@ Nothing built yet. Coverage replaces the dish count as the headline
 |---|---|---|
 | Sign off the staged photos (203 dishes become rich) | [approved_photos_check.md](../audits/approved_photos_check.md) | a person reads the 72 passed contact sheets |
 | Cuisine and country image fallbacks, labelled as such | the photo pipeline's licence and credit rules | a Commons fetch round, checked by a person |
-| World culinary coverage in the README and the app | `scripts/knowledge/culinary_coverage.py` | confirm its counting rule (review item 21) |
+| World culinary coverage in the README and the app | `scripts/knowledge/culinary_coverage.py` | done: rule confirmed (item 21, 2026-11-25), shown on the landing page |
 | The 18 countries without a map cuisine tag | [map_validation_report.md](../audits/map_validation_report.md) | OpenStreetMap's wiki (Key:cuisine); only tags in use |
 | Related dishes in Check my recipe, stored nowhere | `waiter.Knowledge.find`, the Food Graph | a small back-end function, then the panel |
 
@@ -325,7 +325,7 @@ with confidence.
 
 | Area | Condition | Who | State |
 |---|---|---|---|
-| Coverage | Coverage counting rule confirmed (review item 21), then world coverage shown in the app | person, then Claude | open |
+| Coverage | Coverage counting rule confirmed (review item 21), then world coverage shown in the app | person, then Claude | met (2026-11-25): item 21 answered by med27-coder; the landing page shows UN member states with a dish (breadth) and coverage depth |
 | Coverage | README dashboard (with exact counts), metrics and sprint impact reports generated automatically | Claude | met |
 | Images | Staged photos signed off (the 72 passed contact sheets), then linked: about 203 dishes become rich | person, then Claude | open |
 | Images | Cuisine image fallbacks, checked by a person; no broken image path | Claude, then person | built: 96 pass the rules, waiting for a person (`data/knowledge/review/cuisine_images.csv`) |

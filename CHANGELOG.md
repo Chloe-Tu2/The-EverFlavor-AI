@@ -121,6 +121,9 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
 
 ### Changed
 
+- **The landing page shows the atlas's breadth and depth** (review item 21, med27-coder, 2026-11-25): how many of
+  the 193 UN member states have a dish, then world culinary coverage as "coverage depth", the weighted score with
+  its meaning unchanged, with a tooltip on what depth measures.
 - Decorative emojis removed from the app, docs and comments (the safety engine still reads food emojis in
   recipes).
 
