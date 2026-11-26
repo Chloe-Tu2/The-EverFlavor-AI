@@ -1,4 +1,4 @@
-# Regional source research (Q1 phase 0, 2026-11-25)
+# Regional source research (Q1 phase 0, 2026-11-26)
 
 116 countries with a dish have no regional data. The goal of phase 0 is a trustworthy source, not data. From `scripts/knowledge/regional_sources.py`. **Audit only:** no region is added; a person chooses the source and the mapping rule (a review item).
 
@@ -62,3 +62,27 @@ Wikidata has at least one non-national cuisine item for 32 of the 116 countries 
 ## Countries with no candidate
 
 Afghanistan, Albania, Andorra, Antigua and Barbuda, Armenia, Azerbaijan, Bahrain, Barbados, Belarus, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Bulgaria, Central African Republic, Chad, Congo, Curaçao, Czech Republic, Dominica, Dominican Republic, El Salvador, Eritrea, Estonia, Grenada, Guadeloupe, Guam, Guatemala, Guyana, Haiti, Iceland, Jordan, Kazakhstan, Kenya, Kyrgyzstan, Laos, Latvia, Lithuania, Madagascar, Malawi, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Monaco, Mongolia, Montenegro, Mozambique, Nepal, New Caledonia, New Zealand, Nicaragua, North Korea, North Macedonia, Northern Mariana Islands, Palestine, Panama, Puerto Rico, Romania, Rwanda, Saint Lucia, Samoa, San Marino, Sierra Leone, Slovakia, Slovenia, Somalia, South Sudan, Sri Lanka, Suriname, Sweden, Tajikistan, The Bahamas, The Gambia, Togo, Tonga, Trinidad and Tobago, Turkmenistan, United Arab Emirates, Uzbekistan, Zambia
+
+## Second source: the country's own cuisine page
+
+Regional cuisine articles linked from a regional section (a heading with region, province, state, local, area or island) of the country's own cuisine page reach 10 of the 116 countries; 3 of them Wikidata does not reach. Licence CC BY-SA 4.0 (credit). Each link still needs the same check as a Wikidata item (a place within the country, not an ethnic group, a historical court cuisine, a neighbour's region or a wider region); nothing is added. Measured on 2026-11-26, most links failed that check by eye (Mughlai, Jewish, Caribbean, Asian, South Indian): this page route does not unblock Q1. A third source is needed, or the gap stays and the debt counts it.
+
+| Country | Linked regional articles | Examples | Wikidata reaches it |
+|---|---:|---:|---:|
+| Bangladesh | 3 | Central Asian Cuisine, Mughal cuisine, Mughlai cuisine | yes |
+| Cambodia | 1 | Asian cuisine | yes |
+| Colombia | 1 | Amerindian cuisine | yes |
+| Nepal | 3 | Awadhi cuisine, Bhojpuri cuisine, Mughlai cuisine | no |
+| New Caledonia | 2 | Caribbean cuisine, Creole cuisine | no |
+| Pakistan | 1 | Saraiki cuisine | yes |
+| Peru | 2 | Amazonian cuisine, Arequipan cuisine | yes |
+| Russia | 4 | Bashkir cuisine, Sakha cuisine, Tatar cuisine, Yamal cuisine | yes |
+| Sri Lanka | 2 | South Indian cuisine, Tamil cuisine | no |
+| Ukraine | 1 | Jewish cuisine | yes |
+
+Together the two sources reach 35 of the 116 countries (30%); the rest keep the gap.
+
+
+## Countries neither source reaches
+
+Afghanistan, Albania, Andorra, Antigua and Barbuda, Armenia, Azerbaijan, Bahrain, Barbados, Belarus, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Bulgaria, Central African Republic, Chad, Congo, Curaçao, Czech Republic, Dominica, Dominican Republic, El Salvador, Eritrea, Estonia, Grenada, Guadeloupe, Guam, Guatemala, Guyana, Haiti, Iceland, Jordan, Kazakhstan, Kenya, Kyrgyzstan, Laos, Latvia, Lithuania, Madagascar, Malawi, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Monaco, Mongolia, Montenegro, Mozambique, New Zealand, Nicaragua, North Korea, North Macedonia, Northern Mariana Islands, Palestine, Panama, Puerto Rico, Romania, Rwanda, Saint Lucia, Samoa, San Marino, Sierra Leone, Slovakia, Slovenia, Somalia, South Sudan, Suriname, Sweden, Tajikistan, The Bahamas, The Gambia, Togo, Tonga, Trinidad and Tobago, Turkmenistan, United Arab Emirates, Uzbekistan, Zambia

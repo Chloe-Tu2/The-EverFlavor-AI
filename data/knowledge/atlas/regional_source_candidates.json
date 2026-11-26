@@ -1,6 +1,6 @@
 {
  "by": "scripts/knowledge/regional_sources.py",
- "built_on": "2026-11-25",
+ "built_on": "2026-11-26",
  "source": "Wikidata (CC0): cuisine items with a country, not the national cuisine",
  "countries": {
   "Afghanistan": [],
@@ -218,5 +218,48 @@
    "Hadhrami cuisine"
   ],
   "Zambia": []
+ },
+ "wikipedia_source": "Wikipedia (CC BY-SA 4.0): regional cuisine articles linked from a regional section of the country's own cuisine page",
+ "wikipedia_countries": {
+  "Bangladesh": [
+   "Central Asian Cuisine",
+   "Mughal cuisine",
+   "Mughlai cuisine"
+  ],
+  "Cambodia": [
+   "Asian cuisine"
+  ],
+  "Colombia": [
+   "Amerindian cuisine"
+  ],
+  "Nepal": [
+   "Awadhi cuisine",
+   "Bhojpuri cuisine",
+   "Mughlai cuisine"
+  ],
+  "New Caledonia": [
+   "Caribbean cuisine",
+   "Creole cuisine"
+  ],
+  "Pakistan": [
+   "Saraiki cuisine"
+  ],
+  "Peru": [
+   "Amazonian cuisine",
+   "Arequipan cuisine"
+  ],
+  "Russia": [
+   "Bashkir cuisine",
+   "Sakha cuisine",
+   "Tatar cuisine",
+   "Yamal cuisine"
+  ],
+  "Sri Lanka": [
+   "South Indian cuisine",
+   "Tamil cuisine"
+  ],
+  "Ukraine": [
+   "Jewish cuisine"
+  ]
  }
 }
