@@ -74,6 +74,7 @@ def test_cuisine_photos_need_a_person_and_the_rules() -> None:
 
     import cuisine_images as ci
     assert ci.is_kept({"verdict": "keep", "reviewer": "A person"}) and not ci.is_kept({"verdict": "keep"})
+    assert ci.is_kept({"verdict": "Yes", "reviewer": "A person"}) and not ci.is_kept({"verdict": "no", "reviewer": "A"})
     queue = json.loads((ROOT / "data" / "knowledge" / "media" / "cuisine_image_queue.json").read_text(encoding="utf-8"))
     for image in queue["images"]:
         assert image["approved"] == (ci.is_kept(image) and image["passes"] == "yes")

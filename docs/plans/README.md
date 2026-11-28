@@ -328,7 +328,7 @@ with confidence.
 | Coverage | Coverage counting rule confirmed (review item 21), then world coverage shown in the app | person, then Claude | met (2026-11-25): item 21 answered by med27-coder; the landing page shows UN member states with a dish (breadth) and coverage depth |
 | Coverage | README dashboard (with exact counts), metrics and sprint impact reports generated automatically | Claude | met |
 | Images | Staged photos signed off (the 72 passed contact sheets), then linked: about 203 dishes become rich | person, then Claude | open |
-| Images | Cuisine image fallbacks, checked by a person; no broken image path | Claude, then person | built: 96 pass the rules, waiting for a person (`data/knowledge/review/cuisine_images.csv`) |
+| Images | Cuisine image fallbacks, checked by a person; no broken image path | Claude, then person | met (2026-11-26): all 111 rows reviewed by Eva and med27-coder; 86 kept, each with a free licence and a named author (`data/knowledge/review/cuisine_images.csv`) |
 | Discovery | Related dishes in Check my recipe | Claude | met (branch `release/0.8.0`) |
 | Discovery | Map cuisine tags for every country OpenStreetMap has a word for (50+ uses) | Claude | met: 23 added; the other 88 have no such word yet |
 | Discovery | The store locator works (ZIP search, details, directions) | Claude | met in Python (ZIP, distance, nearest list, card with map link); clustering, "search this area" and "use my location" wait for the MapLibre step |
