@@ -1,11 +1,11 @@
 {
  "by": "scripts/knowledge/cuisine_images.py",
- "built_on": "2026-11-25",
+ "built_on": "2026-11-27",
  "rule": "Wikidata P18 of the country's cuisine article; the dish photo pipeline's Commons rules; shown only after a person's keep, labelled as a photo of the cuisine, not of the dish",
  "countries_with_dishes": 168,
  "with_an_image": 111,
  "passing": 98,
- "approved_by_a_person": 0,
+ "approved_by_a_person": 86,
  "images": [
   {
    "risk": "likely wrong",
@@ -18,9 +18,9 @@
    "author": "",
    "passes": "no",
    "why_not": "no author to credit; smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (no author to credit; smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -34,9 +34,9 @@
    "author": "Asalas03",
    "passes": "no",
    "why_not": "named or described as a map, logo, drawing or label, not a photo",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (named or described as a map, logo, drawing or label, not a photo); image not viewed",
    "approved": false
   },
   {
@@ -50,9 +50,9 @@
    "author": "John Beso",
    "passes": "no",
    "why_not": "smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -66,9 +66,9 @@
    "author": "Ralf Roletschek",
    "passes": "no",
    "why_not": "licence not free (Resolution restricted-by-sa)",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (licence not free (Resolution restricted-by-sa)); image not viewed",
    "approved": false
   },
   {
@@ -82,9 +82,9 @@
    "author": "Jislorimers",
    "passes": "no",
    "why_not": "smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -98,9 +98,9 @@
    "author": "فلورانس",
    "passes": "no",
    "why_not": "smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -114,9 +114,9 @@
    "author": "Chattacha",
    "passes": "no",
    "why_not": "smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -130,9 +130,9 @@
    "author": "Philippine Department of Tourism",
    "passes": "no",
    "why_not": "smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -146,9 +146,9 @@
    "author": "Portorricensis ( talk ) ( Uploads )",
    "passes": "no",
    "why_not": "smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -162,9 +162,9 @@
    "author": "Korea.net / Korean Culture and Information Service",
    "passes": "no",
    "why_not": "smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -178,9 +178,9 @@
    "author": "The original uploader was ChildofMidnight at English Wikipedia .",
    "passes": "no",
    "why_not": "smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -194,9 +194,9 @@
    "author": "Roger W from Sarasota, Florida, U.S.A.",
    "passes": "no",
    "why_not": "named or described as a map, logo, drawing or label, not a photo",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (named or described as a map, logo, drawing or label, not a photo); image not viewed",
    "approved": false
   },
   {
@@ -210,9 +210,9 @@
    "author": "Banzai Hiroaki",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (); image not viewed",
    "approved": false
   },
   {
@@ -226,9 +226,9 @@
    "author": "Corbis, From Outlook Traveller uploaded by[Bukulu Steven]",
    "passes": "no",
    "why_not": "smaller than 400 px",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: agreed with the photo rule failure (smaller than 400 px); image not viewed",
    "approved": false
   },
   {
@@ -242,10 +242,10 @@
    "author": "Yasmine ziat",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
-   "approved": false
+   "verdict": "yes",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: usable; licence and credit still to be checked before use",
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -258,9 +258,9 @@
    "author": "Horacio Cambeiro",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: not usable (looked at the image)",
    "approved": false
   },
   {
@@ -274,10 +274,10 @@
    "author": "Ferdous",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
-   "approved": false
+   "verdict": "yes",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: usable; licence and credit still to be checked before use",
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -290,10 +290,10 @@
    "author": "US Embassy Belize",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
-   "approved": false
+   "verdict": "yes",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: usable; licence and credit still to be checked before use",
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -306,9 +306,9 @@
    "author": "Wawitasny",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: not usable (looked at the image)",
    "approved": false
   },
   {
@@ -322,9 +322,9 @@
    "author": "Loicebode",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: not usable (looked at the image)",
    "approved": false
   },
   {
@@ -338,9 +338,9 @@
    "author": "Martin Lopatka",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: not usable (looked at the image)",
    "approved": false
   },
   {
@@ -354,9 +354,9 @@
    "author": "Ji-Elle",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: not usable (looked at the image)",
    "approved": false
   },
   {
@@ -370,10 +370,10 @@
    "author": "Roberta F.",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
-   "approved": false
+   "verdict": "yes",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: usable; licence and credit still to be checked before use",
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -386,10 +386,10 @@
    "author": "Mauricio Giraldo from Bogotá, Colombia",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
-   "approved": false
+   "verdict": "yes",
+   "reviewer": "med27-coder",
+   "note": "2026-11-26: usable; licence and credit still to be checked before use",
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -402,10 +402,10 @@
    "author": "Cyprus Tourism CH",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -418,10 +418,10 @@
    "author": "Sevela.p",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -434,10 +434,10 @@
    "author": "Jacques Lameloise - Editer par Arnaud 25",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -450,10 +450,10 @@
    "author": "Lamahks88",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -466,9 +466,9 @@
    "author": "Sakateka",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "Eva",
+   "note": "The photographer identifies the pictured beshbarmak as Uzbek.",
    "approved": false
   },
   {
@@ -482,10 +482,10 @@
    "author": "Jpatokal",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -498,10 +498,10 @@
    "author": "MyName ( Orientalist )",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -514,10 +514,10 @@
    "author": "ja:User:松岡明芳",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -530,10 +530,10 @@
    "author": "Janericloebe",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -546,9 +546,9 @@
    "author": "El Mono Español",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "Eva",
+   "note": "The photographer identifies the pictured meal as Cuban ropa vieja.",
    "approved": false
   },
   {
@@ -562,10 +562,10 @@
    "author": "MiguelAlanCS",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -578,10 +578,10 @@
    "author": "Silar",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -594,10 +594,10 @@
    "author": "Yusuke Kawasaki from Tokyo, Japan",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -610,10 +610,10 @@
    "author": "Peter Smith",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -626,10 +626,10 @@
    "author": "Klemen Brumec",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -642,10 +642,10 @@
    "author": "Shehal at English Wikipedia",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -658,10 +658,10 @@
    "author": "Gigi sorrentino",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -674,10 +674,10 @@
    "author": "Maksym Kozlenko",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -690,10 +690,10 @@
    "author": "Jeremy Keith (Flickr user \"adactio\")",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -706,10 +706,10 @@
    "author": "Wilfredor",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
-   "approved": false
+   "verdict": "yes",
+   "reviewer": "Eva",
+   "note": "Fried corocoro with arepas is eaten in Venezuela, confirmed firsthand.",
+   "approved": true
   },
   {
    "risk": "needs a look",
@@ -722,10 +722,10 @@
    "author": "Codename5281",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -738,9 +738,9 @@
    "author": "Officer",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "Eva",
+   "note": "Verify the collage component licenses and credits before reuse.",
    "approved": false
   },
   {
@@ -754,10 +754,10 @@
    "author": "Leeturtle",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -770,10 +770,10 @@
    "author": "Lachlan Hardy from Sydney, Australia",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -786,10 +786,10 @@
    "author": "Emin Bashirov",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -802,10 +802,10 @@
    "author": "Zairon",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -818,10 +818,10 @@
    "author": "LittleGun",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -834,10 +834,10 @@
    "author": "Bhutanese_hemadatsi_and_rice.JPG : ShashiBellamkonda derivative work: Thejinan ( talk )",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -850,10 +850,10 @@
    "author": "Ikonact",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -866,10 +866,10 @@
    "author": "Saphabodi",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -882,10 +882,10 @@
    "author": "Photocapy",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -898,10 +898,10 @@
    "author": "Tongxin Liu",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -914,10 +914,10 @@
    "author": "Richie Diesterheft from Chicago, IL, USA",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -930,10 +930,10 @@
    "author": "Skilla1st",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -946,10 +946,10 @@
    "author": "Dina Said",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -962,10 +962,10 @@
    "author": "Marshall Astor",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -978,9 +978,9 @@
    "author": "Irma Sharikadze ( ირმა შარიქაძე )",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "Eva",
+   "note": "The caption and embedded metadata give conflicting credits.",
    "approved": false
   },
   {
@@ -994,10 +994,10 @@
    "author": "Kobako",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1010,10 +1010,10 @@
    "author": "Michael Sean Gallagher",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1026,10 +1026,10 @@
    "author": "Luisfi",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1042,10 +1042,10 @@
    "author": "m.louis",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1058,10 +1058,10 @@
    "author": "Chris 73",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1074,10 +1074,10 @@
    "author": "Joe mon bkk",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1090,10 +1090,10 @@
    "author": "Takeaway",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1106,10 +1106,10 @@
    "author": "Asadi",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1122,10 +1122,10 @@
    "author": "young shanahan",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
-   "approved": false
+   "verdict": "yes",
+   "reviewer": "Eva",
+   "note": "Falafel and hummus served in Jerusalem. These dishes are shared across the region. CC BY 2.0, credit young shanahan.",
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1138,10 +1138,10 @@
    "author": "Valerio Capello at English Wikipedia",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1154,10 +1154,10 @@
    "author": "Louis Massuel",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1170,10 +1170,10 @@
    "author": "Xaymacan",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1186,10 +1186,10 @@
    "author": "MichaelMaggs",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1202,10 +1202,10 @@
    "author": "Smart Viral at English Wikipedia",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1218,10 +1218,10 @@
    "author": "Symbat Bolatova",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1234,10 +1234,10 @@
    "author": "Turaids",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1250,10 +1250,10 @@
    "author": "Libiya11",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1266,10 +1266,10 @@
    "author": "Chirocca77",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1282,10 +1282,10 @@
    "author": "Pauloleong2002",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1298,9 +1298,9 @@
    "author": "Ji-Elle",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "Eva",
+   "note": "The photo shows a teapot.",
    "approved": false
   },
   {
@@ -1314,10 +1314,10 @@
    "author": "Aurelio de Sandoval",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1330,10 +1330,10 @@
    "author": "NicolaS961",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1346,9 +1346,9 @@
    "author": "Benoît Prieur",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
-   "note": "",
+   "verdict": "no",
+   "reviewer": "Eva",
+   "note": "The caption identifies a hotel cheese platter without naming a Monégasque specialty.",
    "approved": false
   },
   {
@@ -1362,10 +1362,10 @@
    "author": "Bgelo777",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1378,10 +1378,10 @@
    "author": "Spacekid",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1394,10 +1394,10 @@
    "author": "magical-world",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1410,10 +1410,10 @@
    "author": "MiguelRamirez77",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1426,10 +1426,10 @@
    "author": "Atimukoh",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1442,10 +1442,10 @@
    "author": "Suez (sophia)",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1458,10 +1458,10 @@
    "author": "Crnorizec",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1474,10 +1474,10 @@
    "author": "by tuey",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1490,10 +1490,10 @@
    "author": "Pekka Tamminen",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1506,10 +1506,10 @@
    "author": "Peteravivangel",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1522,10 +1522,10 @@
    "author": "Overkill53",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1538,10 +1538,10 @@
    "author": "Шнапс",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1554,10 +1554,10 @@
    "author": "T.K. Naliaka",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1570,10 +1570,10 @@
    "author": "Petar Milošević",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1586,10 +1586,10 @@
    "author": "Stefan Krasowski",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1602,10 +1602,10 @@
    "author": "Jebulon",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1618,10 +1618,10 @@
    "author": "Dominik HES",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1634,10 +1634,10 @@
    "author": "Sandstein",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1650,10 +1650,10 @@
    "author": "Paul Joseph",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1666,10 +1666,10 @@
    "author": "Ibrahimjon",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1682,10 +1682,10 @@
    "author": "Tcg1111",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1698,10 +1698,10 @@
    "author": "User:Mattes",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1714,10 +1714,10 @@
    "author": "Francesc Fort",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1730,10 +1730,10 @@
    "author": "Eugene Peretz from Northampton, MA, USA",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1746,10 +1746,10 @@
    "author": "LBM1948",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1762,10 +1762,10 @@
    "author": "Franco Pecchio from Milano, Italy",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   },
   {
    "risk": "probably right",
@@ -1778,10 +1778,10 @@
    "author": "Gerhard302",
    "passes": "yes",
    "why_not": "",
-   "verdict": "",
-   "reviewer": "",
+   "verdict": "yes",
+   "reviewer": "Eva",
    "note": "",
-   "approved": false
+   "approved": true
   }
  ]
 }

@@ -130,6 +130,9 @@ three agree. Each release is merged to `main`, tagged (`v0.5.1`) and published a
 
 ### Changed
 
+- **Cuisine photos reviewed** (Eva and med27-coder, 2026-11-26): all 111 cuisine image rows have a verdict; 86 are kept,
+  each with a free licence and a named author, and shown as "a photo of X cuisine, not this dish". The script
+  now accepts `yes` (the word the release countdown asked for) as well as `keep`.
 - **The landing page shows the atlas's breadth and depth** (review item 21, med27-coder, 2026-11-25): how many of
   the 193 UN member states have a dish, then world culinary coverage as "coverage depth", the weighted score with
   its meaning unchanged, with a tooltip on what depth measures.

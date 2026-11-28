@@ -74,7 +74,8 @@ def risk(country: str, file: str, description: str, passes: bool, names: dict[st
 
 
 def is_kept(row: dict) -> bool:
-    return row.get("verdict", "").strip().lower() == "keep" and bool(row.get("reviewer", "").strip())
+    # "yes" is what the release countdown asked reviewers to write (2026-11-25); "keep" is the older word
+    return row.get("verdict", "").strip().lower() in ("keep", "yes") and bool(row.get("reviewer", "").strip())
 
 
 def main() -> None:

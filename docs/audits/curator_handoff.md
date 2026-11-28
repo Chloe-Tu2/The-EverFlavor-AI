@@ -1,19 +1,19 @@
-# Curator handoff (2026-11-25)
+# Curator handoff (2026-11-27)
 
 Read this first in a new session, then [atlas_health.md](atlas_health.md), [review_impact.md](review_impact.md) and [release_readiness.md](release_readiness.md). From `scripts/knowledge/atlas_health.py`; the history is in `data/knowledge/atlas/atlas_health_history.jsonl`. **Audit only.**
 
 ## Generated at
 
-- Date: 2026-11-25
-- Time: 21:51
-- Git commit: ae82cc7+work (compared with b96b8dd+work, 2026-11-25)
+- Date: 2026-11-27
+- Time: 19:56
+- Git commit: d0a9a97+work (compared with ae82cc7+work, 2026-11-25)
 
 ## Current status
 
-- Branch: policy/hagelslag-and-countdown
+- Branch: review/cuisine-images-done
 - Campaign: Q1. Regional source discovery (the first on the campaign scoreboard, in the planner's order)
 - Version: 0.7.2
-- Release readiness 0.8: 6 of 9 conditions done
+- Release readiness 0.8: 7 of 9 conditions done
 - Release readiness 0.9: 2 of 10 conditions done
 - Release readiness 1.0: 3 of 3 coverage targets met; the rest wait on reviews
 
@@ -47,7 +47,7 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 - Oceania coverage (%): 35.2
 - countries with a dish: 171
 - UN members with a dish: 163
-- Change since the last run: world culinary coverage (%) 70.6 -> 70.7
+- Change since the last run: no change
 
 ## Representation
 
@@ -55,14 +55,14 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 - country pages: 168
 - region pages: 30
 - countries with three dishes or more: 130
-- Change since the last run: dish families and categories 710 -> 711
+- Change since the last run: no change
 
 ## Enrichment
 
 - entries with a story: 2759
 - entries with a Wikidata origin: 4194
 - Walter coverage score: 3.61
-- Change since the last run: entries with a story 2758 -> 2759
+- Change since the last run: no change
 
 ## Preservation
 
@@ -74,25 +74,25 @@ Read this first in a new session, then [atlas_health.md](atlas_health.md), [revi
 
 ## Governance
 
-- Review items open: 29
-- Review items added since the last run: 0
+- Review items open: 30
+- Review items added since the last run: 1
 - Review items answered by a person: 11 (items 21, 24, 28, 29, 30, 32, 33, 34, 36, 37, 40)
-- Change since the last run: no change
+- Change since the last run: review items open 29 -> 30
 
 ## Work completed since the last snapshot
 
-- 884c1eb Apply review items 24, 28, 29, 30, 36, 37 and 40; Oceania reaches 35%
+- 6c55571 Record Eva's cuisine photo review
+- 284ea49 Q2b: measure other-language Wikipedias as a story source; review item 41
+- 06b8132 Q1: measure the countries' own cuisine pages as a second regional source
+- a8c8337 Hagelslag listed under the Netherlands; a release countdown; Oceania complete
 
 ## What improved
 
-- world culinary coverage (%): 70.6 -> 70.7
-- dishes: 3868 -> 3869
-- dish families and categories: 710 -> 711
-- entries with a story: 2758 -> 2759
+- review items logged: 40 -> 41
 
 ## What regressed
 
-- nothing
+- review items open: 29 -> 30
 
 ## Human review required
 
@@ -109,7 +109,6 @@ Estimated time for these five: about 210 minutes.
 ## Blocked work (waiting on a person)
 
 - 0.8: Staged photos signed off (the 72 passed contact sheets), then linked: about 203 dishes become rich
-- 0.8: Cuisine image fallbacks, checked by a person
 - 0.9: Region pages shown in the app
 - 0.9: Indigenous tags reviewed by the rubric (item 26) before the app shows any
 - 0.9: At least 100 reviewed dish facts (`data/knowledge/review/focus_review.csv`)

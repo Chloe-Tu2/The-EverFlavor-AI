@@ -1,4 +1,4 @@
-# Atlas health (2026-11-25)
+# Atlas health (2026-11-27)
 
 The five measures, the atlas debt and release readiness, from `scripts/knowledge/atlas_health.py` (metrics built 2026-11-25). **Audit only.** Start a session with [curator_handoff.md](curator_handoff.md); what to review first: [review_impact.md](review_impact.md).
 
@@ -17,7 +17,7 @@ The five measures, the atlas debt and release readiness, from `scripts/knowledge
 - **Representation:** dish families and categories 711; countries with three dishes or more 130; countries with a story 145; Indigenous traditions tracked 6
 - **Enrichment:** entries with a story (History or Origin sentences) 2,759; entries with a Wikidata origin 4,194; entries linked to a family 3,780; entries with a culinary region 644; rich dishes 532; fair dishes 1,490; thin dishes 1,847
 - **Preservation:** entries with an Indigenous tradition 29; Indigenous traditions tracked 6
-- **Governance:** 40 review items logged in [needs_human_review.md](../governance/needs_human_review.md), 11 answered by a person; none closed by Claude.
+- **Governance:** 41 review items logged in [needs_human_review.md](../governance/needs_human_review.md), 11 answered by a person; none closed by Claude.
 
 ## Atlas debt
 
@@ -115,14 +115,14 @@ The average of Walter's five questions their dishes answer (0 to 5); enrichment 
 
 ## Release readiness
 
-### 0.8.0: 6 of 9 conditions done
+### 0.8.0: 7 of 9 conditions done
 
 | Area | Condition | Readiness |
 |---|---:|---:|
 | Coverage | Coverage counting rule confirmed (review item 21), then world coverage shown in the app | done |
 | Coverage | README dashboard (with exact counts), metrics and sprint impact reports generated automatically | done |
 | Images | Staged photos signed off (the 72 passed contact sheets), then linked: about 203 dishes become rich | waiting on a person |
-| Images | Cuisine image fallbacks, checked by a person | waiting on a person |
+| Images | Cuisine image fallbacks, checked by a person | done |
 | Discovery | Related dishes in Check my recipe | done |
 | Discovery | Map cuisine tags for every country OpenStreetMap has a word for (50+ uses) | done |
 | Discovery | The store locator works (ZIP search, details, directions) | done |

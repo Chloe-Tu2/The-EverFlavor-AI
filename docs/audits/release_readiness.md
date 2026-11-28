@@ -1,24 +1,23 @@
-# Release readiness (2026-11-25)
+# Release readiness (2026-11-27)
 
 Done, waiting on a person, open for Claude, per release gate in the planner. From `scripts/knowledge/atlas_health.py`.
 
 ## 0.8 release countdown
 
-- Readiness: 6 of 9 conditions done
-- Reviews left: 2, about 127 minutes in all (estimates)
+- Readiness: 7 of 9 conditions done
+- Reviews left: 1, about 90 minutes in all (estimates)
 - Blocked only by: human review
 
-1. **Cuisine images: 111 of 111 rows without a verdict (14 likely wrong first, then 31 to look at, 66 probably right)**, about 37 minutes. `data/knowledge/review/cuisine_images.csv`: `verdict` yes or no, and `reviewer`
-2. **Contact sheets: 72 of 72 passed sheets not yet read**, about 90 minutes. `data/raw/dish_photos_approved/sheets/` (local); a wrong photo goes in `data/reference/dish_photo_review.csv`, a finished sheet in `data/reference/contact_sheet_review.csv`
+1. **Contact sheets: 72 of 72 passed sheets not yet read**, about 90 minutes. `data/raw/dish_photos_approved/sheets/` (local); a wrong photo goes in `data/reference/dish_photo_review.csv`, a finished sheet in `data/reference/contact_sheet_review.csv`
 
-### 0.8.0: 6 of 9 conditions done
+### 0.8.0: 7 of 9 conditions done
 
 | Area | Condition | Readiness |
 |---|---:|---:|
 | Coverage | Coverage counting rule confirmed (review item 21), then world coverage shown in the app | done |
 | Coverage | README dashboard (with exact counts), metrics and sprint impact reports generated automatically | done |
 | Images | Staged photos signed off (the 72 passed contact sheets), then linked: about 203 dishes become rich | waiting on a person |
-| Images | Cuisine image fallbacks, checked by a person | waiting on a person |
+| Images | Cuisine image fallbacks, checked by a person | done |
 | Discovery | Related dishes in Check my recipe | done |
 | Discovery | Map cuisine tags for every country OpenStreetMap has a word for (50+ uses) | done |
 | Discovery | The store locator works (ZIP search, details, directions) | done |
